@@ -1,6 +1,6 @@
 ---
 title: Recursos de aprendizaje de administración-Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: jhwang
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -19,20 +19,20 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72b6d93ea24db094827f2b78b751ffb0e6bf907b
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 588142484cbed850f042a1f0b04b862416327eab
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46554620"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672751"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje de administración para Microsoft Teams
 
 Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o realizar talleres. Vuelva aquí con frecuencia para ver nuevos contenidos. 
 
-|               |               |               |
-| ------------- | ------------- | ------------- |
-| ![Un icono que muestra una mano y una flecha hacia arriba](media/get-started-blue-small.svg)  | [Empezar a trabajar rápidamente con un par de equipos y canales](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Un icono que muestra una marca de verificación](media/success-small.svg)  | [Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Un icono que muestra dos usuarios](media/users-people-small.svg)  | [Cursos de aprendizaje para los usuarios](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+|               |               |               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![Un icono que muestra una mano y una flecha hacia arriba](media/get-started-blue-small.svg)  | [Empezar a trabajar rápidamente con un par de equipos y canales](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Un icono que muestra una marca de verificación](media/success-small.svg)  | [Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Un icono que muestra dos usuarios](media/users-people-small.svg)  | [Cursos de aprendizaje para los usuarios](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![Símbolo del portapapeles de tareas](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams en 30: una serie de formación para administradores de ti y directores de administración de cambios para implementar equipos en 30 días](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>Iniciar aprendizaje técnico</h2>
 
@@ -50,7 +50,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Llamadas de emergencia dinámicas | [Vídeo](https://aka.ms/teams-dec) |  [Presentación de diapositivas](https://aka.ms/teams-dec-deck) |
 | Eventos en directo | [Vídeo](https://aka.ms/teams-live-events-session) | [Presentación de diapositivas](https://aka.ms/teams-live-events-deck) |
 | Introducción al Sistema telefónico | [Vídeo](https://aka.ms/teams-phone-system) | [Presentación de diapositivas](https://aka.ms/teams-phone-system-deck) |
-| Enrutamiento directo | [Vídeo 1: planificación del enrutamiento directo en Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: configuración y administración del enrutamiento directo en Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: migración al enrutamiento directo en Teams](https://aka.ms/teams-dr-migrate)  | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |
+| Enrutamiento directo | [Vídeo 1: planificación del enrutamiento directo en Teams ](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: configuración y administración del enrutamiento directo en Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: migración al enrutamiento directo en Teams](https://aka.ms/teams-dr-migrate)  | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |
 | Actualización de Skype Empresarial a Teams | [Vídeo 1: Introducción a la actualización](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planificar la actualización](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiencia del administrador](https://aka.ms/teams-upgrade-admin) | [Presentación de diapositivas](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Guías de inicio rápido</h2>

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Al obtener números de teléfono o números de transferencia (transferir) para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de asistencia al cliente de RTC.
-ms.openlocfilehash: 7e259010772dd655f748f30e3de291a4a43c5cef
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: b0ba69aae5c25db788279ec4e28ad306514b1974
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597065"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662100"
 ---
 # <a name="pstn-service-desk-contact-information"></a>Información de contacto del servicio de asistencia RTC
 
@@ -36,8 +36,9 @@ Para ponerse en contacto con el equipo del servicio de asistencia al cliente RTC
 
 | **Quiero transferir o portar números existentes**  | **Quiero solicitar números nuevos para** |
 |:-----:|:------:|
-| **En** los **Estados Unidos** o **Canadá**, envíe un mensaje de correo electrónico a [PTN@microsoft.com](mailto:ptn@microsoft.com).| **Bélgica, Francia, Alemania, Reino Unido, Irlanda, Países Bajos, España, Suecia, Suiza** [ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
-|**Fuera** de los **Estados Unidos** o **Canadá**, envía un mensaje de correo electrónico a [ptneu@microsoft.com](mailto:ptneu@microsoft.com).| **El resto del mundo**, envía mensajes de correo electrónico a [gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).|
+| [En **los Estados Unidos o Canadá**, envíenos un mensaje de correo electrónico a PTN@microsoft.com](mailto:ptn@microsoft.com)| [Bélgica, Francia, España, Reino Unido, Estados Unidos, **Países Bajos, España, Suecia y Suiza**, envíenos un correo electrónico a ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
+|[**Fuera de los Estados Unidos o Canadá**, envíanos un mensaje de correo electrónico a ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [En **el resto del mundo**, envíanos un mensaje de correo electrónico a gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|Debido a una gran cantidad de solicitudes entrantes, el **equipo de migración** de Norteamérica está registrado. Estamos trabajando para borrar este trabajo acumulado en un FIFO (primero en salir, primero en salir) y, como resultado, **nuestra respuesta a nuevas solicitudes se retrasará.**|Debido a una gran cantidad de solicitudes entrantes, el **equipo de portabilidad** de la UE se registra. Estamos trabajando para borrar este trabajo acumulado en un FIFO (primero en salir, primero en salir) y, como resultado, **nuestra respuesta a nuevas solicitudes se retrasará.**|
 
 > [!NOTE]
 > Las respuestas de Norteamérica pueden retrasarse debido a un aumento considerable de las solicitudes entrantes. El trabajo pendiente se desactiva en FIFO (primero en salir, primero en salir).

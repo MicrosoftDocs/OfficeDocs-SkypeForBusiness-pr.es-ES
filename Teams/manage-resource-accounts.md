@@ -1,7 +1,7 @@
 ---
 title: Administrar cuentas de recursos en Teams
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: b47e00323129211f657ec1dafc4e62a7cd6e4321
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 90e8ab26782424c6cc341936f185a253c6d1fbe6
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868617"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672861"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -54,7 +54,7 @@ Si su organización ya usa al menos una licencia de sistema telefónico, para as
 
 Si el operador automático o la cola de llamadas están anidados bajo un operador automático de nivel superior, la cuenta de recursos asociada solo necesita un número de teléfono si desea tener varios puntos de entrada en la estructura de las colas de llamadas y los operadores automáticos.
 
-Para redirigir las llamadas a las personas de su organización que estén conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas a Microsoft 365 o de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirigir las llamadas a las personas de su organización que estén conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas a Microsoft 365 o de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > Para evitar problemas con la cuenta de recursos, siga estos pasos en este orden.
@@ -178,7 +178,7 @@ Los IDENTIFICADOres de la aplicación que necesita usar al crear las instancias 
 
 1. Para crear una cuenta de recursos en línea para usarla con un operador automático, use el siguiente comando:
 
-    ``` Powershell
+    ```powershell
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
@@ -186,7 +186,7 @@ Los IDENTIFICADOres de la aplicación que necesita usar al crear las instancias 
 
 3. Faculta Después de aplicar la licencia correcta a la cuenta de recursos, puede asignar un número de teléfono a la cuenta de recursos, tal y como se muestra a continuación. No todas las cuentas de recursos requerirán un número de teléfono. Si no aplicó una licencia a la cuenta de recursos, se producirá un error en la asignación de número de teléfono.
 
-   ``` Powershell
+   ```powershell
    Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
    Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
    ```
@@ -198,7 +198,7 @@ Los IDENTIFICADOres de la aplicación que necesita usar al crear las instancias 
 
    Para asignar un número de teléfono de enrutamiento directo a una cuenta de recursos (alojada en Microsoft Teams o en Skype empresarial Server 2019), use el siguiente cmdlet para Skype empresarial online PowerShell:
 
-   ``` Powershell
+   ```powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
@@ -216,7 +216,7 @@ Cuando haya terminado, haga clic en **Guardar**.
 
 Asegúrese de desasociar el número de teléfono de la cuenta de recursos antes de eliminarlo, para evitar que su número de servicio quede bloqueado en modo pendiente. Puede hacerlo usando el siguiente cmdlet:
 
-``` Powershell
+```powershell
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
@@ -224,7 +224,7 @@ Después de hacerlo, puede eliminar la cuenta de recursos en el centro de admini
 
 Para desvincular un número de teléfono de enrutamiento directo de la cuenta de recursos, use el siguiente cmdlet:
 
-``` Powershell
+```powershell
 Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
 ```
 
@@ -234,13 +234,13 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 Si no ve el número de teléfono asignado a la cuenta de recursos en el centro de administración de Microsoft Teams y no puede asignarle el número, compruebe lo siguiente:
 
-``` Powershell
+```powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
 ```
 
 Si el atributo Departamento muestra el punto de conexión de aplicaciones de Skype empresarial, ejecute el siguiente cmdlet:
 
-``` Powershell
+```powershell
 Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
 ```
 

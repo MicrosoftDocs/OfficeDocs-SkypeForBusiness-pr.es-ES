@@ -3,7 +3,6 @@ title: Plan para la administración en Teams - Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/10/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656361"
+ms.locfileid: "46662120"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -41,7 +40,7 @@ Es posible que su organización requiera que implemente controles estrictos sobr
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Puntos de decisión|<ul><li>¿Su organización requiere una Convención de nomenclatura específica para Teams?</li><li>¿Los creadores de equipos necesitan la capacidad de asignar clasificaciones específicas de la organización a teams?</li><li>¿Necesita restringir la posibilidad de agregar invitados a los equipos de acuerdo con cada equipo?</li><li>¿Requiere su organización limitar quién puede crear equipos?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
 
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de la organización.

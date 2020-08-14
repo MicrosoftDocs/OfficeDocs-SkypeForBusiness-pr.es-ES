@@ -16,12 +16,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012286"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662090"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -36,7 +36,7 @@ Relacionado: [Documentación de usuario final de grabación de reuniones de Team
 
 Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream debe estar habilitado para el inquilino. Además, son necesarios los siguientes requisitos previos tanto para el organizador de la reunión como para la persona que inicia la grabación:
 
-- El usuario tiene Office 365 E1, E3, E5, a1, a3, A5, M365 Empresa, Empresa Premium o Empresa Essentials
+- El usuario tiene Office 365 E1, E3, E5, a1, a3, A5, M365 Business Premium, M365 Business Standard o M365 Business Basic.
 - El usuario debe tener una licencia para Microsoft Stream<sup>1</sup> 
 - El usuario tiene permisos de carga de vídeo para Microsoft Stream
 - El usuario ha dado su consentimiento a las directrices de la empresa, si han sido configuradas por el administrador

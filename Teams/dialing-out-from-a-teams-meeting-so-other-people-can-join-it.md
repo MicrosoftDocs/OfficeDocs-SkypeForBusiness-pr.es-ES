@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Los organizadores de reuniones pueden obtener información sobre cómo marcar usando la aplicación de Teams para permitir que otras personas se unan a la misma reunión con sus teléfonos.
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691296"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662110"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
@@ -38,7 +38,8 @@ Cuando llames a alguien, te recomendamos que lo uses con sus números de teléfo
   Tenga en cuenta que:
 
 - Solo puede marcar si se une a una reunión con Teams.
-- Usted, como organizador de la reunión, se ha habilitado para las conferencias de audio.
+- El organizador de la reunión, se ha habilitado para conferencias de audio o, en caso de que no se asigne ninguna licencia de audioconferencia, puede hacer llamadas a la red de telefonía pública conmutada a través de planes de llamadas en línea o enrutamiento directo.
+- Al organizador de la reunión se le [concede una directiva de marcado en línea que permite hacer llamadas desde conferencias habilitadas](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
