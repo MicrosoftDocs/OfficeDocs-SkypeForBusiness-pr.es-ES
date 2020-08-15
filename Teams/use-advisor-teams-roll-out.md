@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648601"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761356"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -91,7 +91,7 @@ Las siguientes secciones describen cada evaluación, incluyendo si algo es un re
 |Licencias de Teams     |Este es un requisito previo: usted**debe tener **licencias de Teams para poder desplegar Teams. Consulta Microsoft Graph para ver si tiene licencias de Equipos (con al menos una licencia disponible para asignar). Para obtener más información, lea la [Descripción del servicio de Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Licencias en línea de Exchange     |Si tiene una suscripción activa con licencias de Exchange Online disponibles. Aunque Exchange no es necesario para las funciones básicas de Teams, la integración con Exchange ofrece una experiencia de Teams óptima. Consulta Microsoft Graph para analizar las suscripciones asociadas con su arrendatario y validar si tiene suscripciones con una licencia de Exchange Online elegible (con al menos una licencia disponible para asignar). Para más información, lea [Cómo interactúan Teams y Exchange](exchange-teams-interact.md).    |
 |Licencias de SharePoint Online     |Si tiene una suscripción activa con licencias de SharePoint Online disponibles. Recomendamos una licencia de SharePoint Online por usuario para proporcionar OneDrive para la Empresa para el almacenamiento de archivos en chats Consulta Microsoft Graph para ver si tiene licencias de SharePoint Online (con al menos una licencia disponible para asignar). Para obtener más información, lea [Cómo SharePoint Online y OneDrive para la Empresa interactúan con Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
-|Acceso de invitado habilitado     |Si el [acceso de invitados](guest-access.md) está activado. El acceso de invitados le permite invitar a usuarios externos a unirse a sus equipos. Utilice la [lista de control de acceso de invitados de Teams](guest-access-checklist.md) para ver cómo activar el acceso de invitados en Teams; la lista de control incluye las configuraciones necesarias de Azure AD. |
+|Acceso de invitado habilitado     |Si el [acceso de invitados](guest-access.md) está activado. El acceso de invitados le permite invitar a usuarios externos a unirse a sus equipos. Consulte [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) para saber cómo activar el acceso de los invitados en Teams. La lista de control incluye las configuraciones necesarias de Azure AD. |
 |Acceso externo configurado     |Ya sea[ acceso externo](manage-external-access.md) está activado. Por defecto, está activado, con federación abierta. |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>Evaluaciones para chat, equipos, canales y aplicaciones

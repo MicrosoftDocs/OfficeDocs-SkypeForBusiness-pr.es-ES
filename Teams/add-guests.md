@@ -18,12 +18,12 @@ description: Los administradores pueden obtener más información sobre cómo ag
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 099e7a0a1fd7368385d564f46e2df12d5aced4b2
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: baac3c7c7e83547672b8baeb0915081523e5bfe8
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656131"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761286"
 ---
 <a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
 =====================
@@ -33,7 +33,7 @@ ms.locfileid: "46656131"
 Todo contacto que tenga una cuenta de correo electrónico empresarial o de consumidor (como Outlook.com o Gmail.com) puede participar como invitado en Teams.
 
 Como administrador, puede agregar un usuario invitado nuevo a la organización de dos formas:
-- Los administradores globales o de Teams y los propietarios de equipo agregan un invitado a un equipo en los clientes de Teams o en el Centro de administración de Teams. Para obtener más información, consulte [Agregar invitados a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Si aún no configuró el acceso de invitado, siga los pasos de la [Lista de comprobación de acceso de invitado](guest-access-checklist.md).
+- Los administradores globales o de Teams y los propietarios de equipo agregan un invitado a un equipo en los clientes de Teams o en el Centro de administración de Teams. Para obtener más información, consulte [Agregar invitados a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Si aún no ha configurado el acceso de invitado, siga los pasos de [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 > [!NOTE] 
 > Esto no sirve cuando se activa que **los administradores y usuarios del rol Invitador de usuarios invitados puedan invitar**. La razón es que el rol de Invitador de usuarios invitados no es compatible con Teams.

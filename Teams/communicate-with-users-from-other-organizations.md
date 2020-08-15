@@ -17,12 +17,12 @@ description: Infórmese sobre cómo comunicarse con usuarios de otras organizaci
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 28897d5d94d56a7113fc555e0547192931caf3eb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581801"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761386"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunicación con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
@@ -51,7 +51,7 @@ Use el **acceso de invitado** para agregar un usuario individual (independientem
 - Los usuarios invitados tienen acceso a más recursos en Teams, como archivos, equipos y canales, que los usuarios de acceso externo (federado).
 - El administrador de Teams controla en el Centro de administración de Teams todas las tareas que un invitado puede o no realizar. Para obtener más información, consulte [Administrar el acceso de invitado](manage-guests.md).
 
-Si está listo para activar el acceso de invitado en su organización, comience por la [Lista de comprobación de acceso de invitado](guest-access-checklist.md).
+Si está listo para habilitar el acceso de los invitados en su organización, comience con [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 
 ## <a name="compare-external-and-guest-access"></a>Comparación entre el acceso de invitado y el acceso externo

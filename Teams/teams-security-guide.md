@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121640"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761296"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -127,7 +127,7 @@ Las conexiones de servidor a servidor se basan en TLS mutua (MTLS) para autentic
 TLS y MTLS evitan la interceptación y los ataques de intermediario. En los ataques de intermediario, el atacante enruta las comunicaciones entre dos entidades de red a través del equipo del atacante sin que lo sepa ninguna de esas entidades. La especificación de los servidores de confianza por parte de TLS y de los Teams mitiga el riesgo de un ataque intermediario parcialmente en el nivel de aplicación mediante el uso de un cifrado coordinado con la criptografía de clave pública entre los dos puntos finales. Un atacante tendría que tener un certificado válido y de confianza con la clave privada correspondiente y expedir el nombre del servicio al que se comunica el cliente para descifrar la comunicación.
 
 > [!NOTE]
-> Los datos de Teams se cifran en tránsito y en reposo. Microsoft usa tecnologías estándares del sector como TLS y SRTP para cifrar todos los datos en tránsito entre los dispositivos de los usuarios y los centros de datos de Microsoft, así como entre los centros de datos de Microsoft. Esto incluye mensajes, archivos, reuniones y otro contenido. Los datos empresariales también se cifran en reposo en los centros de datos de Microsoft, para que las organizaciones puedan descifrar el contenido en caso necesario, para cumplir con sus obligaciones de seguridad y cumplimiento, como eDiscovery.
+> Los datos de Teams se cifran en tránsito y en reposo en los centros de datos de Microsoft. Microsoft usa tecnologías estándares del sector como TLS y SRTP para cifrar todos los datos en tránsito entre los dispositivos de los usuarios y los centros de datos de Microsoft, así como entre los centros de datos de Microsoft. Esto incluye mensajes, archivos, reuniones y otro contenido. Los datos empresariales también se cifran en reposo en los centros de datos de Microsoft, para que las organizaciones puedan descifrar el contenido en caso necesario, para cumplir con sus obligaciones de seguridad y cumplimiento, como eDiscovery.
 
 ### <a name="encryption-for-teams"></a>Cifrado para Teams
 
