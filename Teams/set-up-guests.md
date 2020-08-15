@@ -17,17 +17,17 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6674f755c4f6a36c3877680aa0c4c4de4f27c83c
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656201"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761156"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 ===================================================
 
-Por defecto, el acceso de invitados está desactivado. Como administrador de Microsoft 365 o de Office 365, debe activar el acceso de invitados para equipos antes de que los propietarios del equipo o administrador puedan agregar invitados. Para activar el acceso de invitados, use la [lista de comprobación de acceso de invitados](guest-access-checklist.md). 
+Por defecto, el acceso de invitados está desactivado. Como administrador de Microsoft 365 o de Office 365, debe activar el acceso de invitados para equipos antes de que los propietarios del equipo o administrador puedan agregar invitados. Para activar el acceso de invitados, [colabore con los invitados de un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
 
 Después de activar el acceso de invitado, los cambios pueden demorar algunas horas en surtir efecto. Si un usuario ve el mensaje "Póngase en contacto con el administrador" cuando intenta agregar un invitado a su equipo, es posible que el acceso de invitado no se haya activado o que la configuración aún no sea efectiva.
 
