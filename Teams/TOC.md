@@ -63,7 +63,6 @@
 
 ### Acceso de invitado
 #### [Sobre el acceso de invitado](guest-access.md)
-#### [Lista de comprobación de acceso de invitado](guest-access-checklist.md)
 #### [Cómo se une un invitado a un equipo](guest-joins.md)
 #### [Cómo es la experiencia de invitado](guest-experience.md)
 #### [Autorizar el acceso de invitado en Teams](teams-dependencies.md)
@@ -125,6 +124,7 @@
 ## [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Administrar la aplicación Listas para su organización en Teams](manage-lists-app.md)
 ## [Administrar la aplicación Tareas para su organización](manage-tasks-app.md)
+## [Administrar la app Elogio en el Centro de administración de Teams](manage-praise-app.md)
 ## [Configurar la jerarquía de destinos de equipo](set-up-your-team-hierarchy.md)
 ## [Configurar la aplicación de Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -147,6 +147,9 @@
 ### Implementar
 #### [Introducción general a la implementación](rooms/rooms-deploy.md)
 #### [Configurar cuentas](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [Establecer Optimización de reuniones](rooms/coordinated-meetings.md)
+##### [Administrar la configuración de Microsoft Teams](rooms/surface-hub-manage-config.md)
 #### [Con Office 365](rooms/with-office-365.md)
 #### [Con Skype Empresarial Server](rooms/with-skype-for-business-server-2015.md)
 #### [con Exchange Online (híbrido)](rooms/with-exchange-online.md)
@@ -168,6 +171,7 @@
 
 ## [Tutorial: Reuniones en Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Administrar directivas de reunión](meeting-policies-in-teams.md)
+## [Quitar la directiva de reunión de RestrictedAnonymousAccess de los usuarios](meeting-policies-restricted-anonymous-access.md)
 ## [Administrar la configuración de reuniones](meeting-settings-in-teams.md)
 ## [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que los usuarios registren su nombre cuando se unan a una reunión](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -829,6 +833,7 @@
 ## Dispositivos admitidos
 ### [Administrar los dispositivos en Teams](devices/device-management.md)
 ### [Actualizar los dispositivos de forma remota](devices/remote-update.md)
+### [Administrar etiquetas de dispositivos de Teams](devices/manage-device-tags.md)
 ### [Teléfonos para Teams](devices/phones-for-teams.md)
 ### [Dispositivos de audio y vídeo USB](devices/usb-devices.md)
 ### [Implementar barras de colaboración para Microsoft Teams](devices/collab-bar-deploy.md)
