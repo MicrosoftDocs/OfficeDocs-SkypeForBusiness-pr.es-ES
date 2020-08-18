@@ -1,5 +1,5 @@
 ---
-title: Insights en Microsoft Teams para el ámbito educativo para administradores de TI
+title: Guía de Insights en Teams para el ámbito educativo para administradores de TI
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -16,29 +16,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e122071a9a4173250a78468126ed576d1e560607
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581501"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778102"
 ---
-# <a name="insights-in-teams-for-education-for-it-admins"></a>Insights en Teams para el ámbito educativo para administradores de TI
+# <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Guía de Insights en Teams para el ámbito educativo para administradores de TI
 
-Con Insights en Microsoft Teams para el ámbito educativo, los profesores pueden acceder a los datos de análisis sobre la participación digital, la carga de trabajo asignada, las calificaciones, la comunicación y más.
+Con Insights en Microsoft Teams para el ámbito educativo, los formadores y líderes pueden acceder a los datos de análisis sobre la participación digital, la carga de trabajo asignada, las calificaciones, las comunicaciones y más.
 
 Insights está activa en los SKU A1, A3 y A5 de Office 365 Educación.
 
 > [!NOTE]
-> Formadores, [aquí](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc) hay más información sobre cómo usar Insights.
+> Formadores, [aquí](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) hay más información sobre cómo usar Insights.
 
 ## <a name="permissions"></a>Permisos
 
-Los profesores pueden agregar Insights a un canal público de un equipo de clase yendo a Aplicaciones en la barra aplicaciones de Teams y buscando Insights.
+Tipos de usuario: 
+- Los estudiantes se identifican por sus licencias y no tienen acceso a la pestaña Insights (incluso si son los propietarios de un equipo). 
+- Los formadores se identifican por las licencias del profesorado. Los formadores deben tener una licencia para profesores y ser los propietarios de un equipo de clase para agregar y ver los datos en la pestaña Insights. 
+- Asimismo, se identifica a los líderes según su licencia de facultad, pero además necesitan permisos específicos de los administradores globales de TI para ver los informes en la aplicación Insights.
 
-- Los estudiantes se definen por sus licencias y **no tienen acceso a la pestaña Insights** (incluso si son los propietarios de un equipo).
-- Los profesores vienen definidos por las licencias del profesorado.
-- Los profesores deben tener una licencia de profesor y ser propietarios de un equipo de clase para agregar y ver la pestaña Insights. La pestaña refleja la actividad de todos los miembros del equipo de clase que no son propietarios (incluidos los profesores que no son propietarios del equipo).
+Los formadores y los líderes tienen niveles de permisos y lógica diferentes:
+- Los formadores pueden agregar Insights a un canal público de un equipo de clase yendo a Aplicaciones en la barra aplicaciones de Teams y buscando Insights. La pestaña refleja la actividad de todos los miembros del equipo de clase que no son propietarios (incluidos los formadores que no son propietarios del equipo). 
+- Los líderes pueden agregar la aplicación de Insights como una aplicación personal (aparece en el menú izquierdo de Teams) yendo a Aplicaciones en la barra de aplicaciones de Teams y buscando Insights. 
 
 ## <a name="compliance"></a>Cumplimiento
 
@@ -49,7 +52,7 @@ Insights tiene compromisos de cumplimiento líderes en el sector y se clasifica 
 
 ## <a name="privacy"></a>Privacidad
 
-La información que se recopila y se muestra a través de Insights cumple con más de 90 estándares normativos y del sector, incluidos RGPD y la Ley de Derechos Educativos y Privacidad de la Familia (FERPA) para la seguridad de los estudiantes y niños, así como otras normas similares y orientadas a la privacidad. Es importante que los administradores de TI sepan que la información recopilada para cada estudiante está pensada para usarse solo en un contexto de clase, para permitir que los profesores determinen el comportamiento de la clase. La información se recopila para actividades de aprendizaje significativas, como la asistencia a las reuniones de clase, la publicación de mensajes, las respuestas a las publicaciones de los compañeros, las tareas hechas, la edición de archivos y mucho más. Por ejemplo, no se muestra información sobre chats privado o un inicio de sesión de Teams.
+La información que se recopila y se muestra a través de Insights cumple con más de 90 estándares normativos y del sector, incluidos RGPD y la Ley de Derechos Educativos y Privacidad de la Familia (FERPA) para la seguridad de los estudiantes y niños, así como otras normas similares y orientadas a la privacidad. Es importante que los administradores de TI sepan que la información recopilada para cada estudiante está pensada para usarse solo en un contexto de clase, para permitir que los formadores y líderes determinen el comportamiento de los estudiantes. La información se recopila para actividades de aprendizaje significativas, como la asistencia a las reuniones de clase, la publicación de mensajes, las respuestas a las publicaciones de los compañeros, las tareas hechas, la edición de archivos y mucho más. Por ejemplo, no se muestra información sobre chats privado o un inicio de sesión de Teams.
 
 Nuestro objetivo es ayudar a los formadores a entender el compromiso y centrar la atención en el aprendizaje de los estudiantes. Aunque estas actividades de clase se pueden enfocar en acciones a nivel de los estudiantes, Microsoft Teams no asigna un valor positivo o negativo a estas acciones y no hay una identificación crítica para cada alumno basada en criterios. La información en Insights informa a un profesor de que, por ejemplo, un estudiante no ha estado activo en la herramienta durante cierto período de tiempo o ha completado todas sus tareas de la semana pasada a tiempo. Es responsabilidad del formador interactuar con el estudiante y con su familia o tutores para determinar el motivo subyacente de cualquier actividad o inactividad detectada.
 
@@ -102,4 +105,4 @@ El uso de Insights no requiere el uso de SDS. Sin embargo, puede desactivar Educ
 
 De forma predeterminada, Education Analytics y, por lo tanto, Insights están activados. Cuando desactiva Analytics, se eliminan todos los datos recopilados para la pestaña de Insights. Vuelva a activar Analytics y empezaremos a recopilar datos desde el momento en que se vuelve a habilitar.
 
-Más información: [Insights para profesores](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)
+Obtenga más información: [Guía de Insights para formadores](https://support.microsoft.com/es-ES/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)

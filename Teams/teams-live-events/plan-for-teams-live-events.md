@@ -18,12 +18,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: df05da7313394bdc0856002014df8e8e18385774
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854112"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788344"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -54,7 +54,7 @@ Para participar en un evento en directo como usuario autenticado se requiere una
 > [!NOTE]
 > Los eventos en directo de Teams Live están disponible para las organizaciones de la comunidad en la nube del gobierno (GCC) en los Estados Unidos.
 
-Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 El usuario debe tener:
 

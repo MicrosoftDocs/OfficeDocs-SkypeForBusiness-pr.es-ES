@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761356"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788404"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -109,7 +109,7 @@ Además de las [pruebas de evaluación para todas las cargas de trabajo](#assess
 
 |Prueba de evaluación  |Qué le indica  |
 |---------|---------|
-|Licencias de audio conferencia    |Si tiene una suscripción activa con licencias de audio conferencia. Este es un requisito previo si está implementando puentes de audio conferencia. Consulta el Microsoft Graph para ver si tiene licencias de audio conferencia (con al menos una licencia disponible para asignar). Para obtener más información, lea[Licencias adicionales para Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
+|Licencias de audio conferencia    |Si tiene una suscripción activa con licencias de audio conferencia. Este es un requisito previo si está implementando puentes de audio conferencia. Consulta el Microsoft Graph para ver si tiene licencias de audio conferencia (con al menos una licencia disponible para asignar). Para obtener más información, lea[Licencias adicionales para Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).    |
 |Licencias de transmisión     |Si tiene una suscripción activa con licencias de Microsoft Stream. Este es un requisito previo si desea activar la grabación de reuniones. Consulta el Microsoft Graph para ver si tiene licencias de Microsoft Stream (con al menos una licencia disponible para asignar). Para obtener más información sobre Stream y cómo activarlo, lea [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Evaluaciones para actualizaciones de Skype Empresarial
