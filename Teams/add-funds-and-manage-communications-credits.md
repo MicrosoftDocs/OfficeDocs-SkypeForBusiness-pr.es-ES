@@ -29,12 +29,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Obtenga información sobre cómo pagar crédito de comunicación (consumo RTC) para servicios de Skype empresarial y consulte planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
-ms.openlocfilehash: ad8122ba0b915c669ec991d1b522b853e7b85533
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 9e7dbfea6e662828a6c79ceaec969659acf9224d
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229106"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788544"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
@@ -78,7 +78,7 @@ Para ver los planes y los precios, visite uno de los siguientes vínculos:
 
 También puede ver información iniciando sesión en el centro de administración de Microsoft 365 y yendo a suscripciones de **facturación**para  >  **Subscriptions**  >  **Agregar suscripciones**.
   
-Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="related-topics"></a>Temas relacionados
 

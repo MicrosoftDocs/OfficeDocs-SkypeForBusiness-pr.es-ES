@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enviar manualmente una solicitud de portabilidad.
-ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: a6eda920def415e61278dc4b3ac20d2f58edbb69
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224223"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788584"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar una solicitud de portabilidad manualmente
 
@@ -52,11 +52,11 @@ Descargue la [loa](../manage-phone-numbers-for-your-organization/manage-phone-nu
     1. Escribe un título (por ejemplo, solicitud de solicitud de portabilidad) y una descripción de tu solicitud, confirma tu número de teléfono y dirección de correo electrónico y selecciona el método de contacto que prefieras.
     2. En **datos adjuntos**, haga clic en **Agregar un archivo**y, a continuación, cargue la [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     3. Haga clic en **contactar conmigo**.
-    
-## <a name="what-else-should-you-know-about-number-porting"></a>¿Qué más tiene que saber sobre la portabilidad de números?
 
-- Para usar los planes de llamadas, debe comprar y asignar licencias a los usuarios. Vea [licencias de complementos de Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
+## <a name="what-else-should-you-know-about-number-porting"></a>¿Qué más debe saber sobre la portabilidad de números?
+
+- Para usar los planes de llamadas, debe comprar y asignar licencias a los usuarios. Vea [licencias de complementos de Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+
 - Debe asignar los nuevos números de teléfono que tiene a cada uno de los usuarios. Consulte [Asignar un número de teléfono en Skype Empresarial](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## <a name="related-topics"></a>Temas relacionados

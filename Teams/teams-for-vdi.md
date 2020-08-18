@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46607105"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778072"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -153,8 +153,8 @@ Para obtener más información sobre Teams y las aplicaciones de Microsoft 365 p
 
 1. Descargue el paquete MSI de teams que coincida con el sistema operativo de la VM de VDI mediante uno de los siguientes vínculos:
 
-    - [versión de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
-    - [versión de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
+    - [versión de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
+    - [versión de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
 
     La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.3.00.4461. (La retención de RTC no es compatible con versiones anteriores).
 

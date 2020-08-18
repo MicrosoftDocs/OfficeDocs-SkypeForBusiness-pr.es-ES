@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga más información sobre las características, la disponibilidad y cómo planificar y configurar el sistema telefónico de Microsoft para su empresa. '
-ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638349"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788434"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 
@@ -88,7 +88,7 @@ Las siguientes capacidades aún no están disponibles en las nubes de GCC High y
 - [¿Qué plan de llamada es adecuado para usted?](calling-plan-landing-page.md)
 - [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 - [Supervisar y administrar la calidad de las llamadas](monitor-call-quality-qos.md)
-- [Licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Precios de Sistema telefónico](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams para infraestructura de escritorio virtualizada con llamadas y reuniones](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 

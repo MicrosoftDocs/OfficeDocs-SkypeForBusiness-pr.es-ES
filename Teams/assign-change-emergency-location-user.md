@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: En este artículo, obtendrá información sobre cómo asignar o cambiar una ubicación de emergencia para los usuarios de su organización.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 450fe848052af1e331964da3d7b695daf0f1567a
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 0f2e927e90a7ac6b79d6eb63c807e063ca7d78c7
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610999"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788664"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 
 Cuando configuras planes de llamadas, deberás asignar una ubicación de emergencia a cada número de teléfono o usuario. En los países de Europa, la ubicación de emergencia está asociada al número de teléfono cuando se obtiene de Microsoft 365 u Office 365 o cuando se transfiere un número de teléfono a Microsoft 365 u Office 365. En los Estados Unidos, la ubicación de emergencia está asociada al número de teléfono cuando se le asigna al usuario. La dirección de emergencia se puede cambiar si el usuario al que está asignada se mueve a una nueva ubicación. Para obtener más información sobre las direcciones y ubicaciones de emergencia, vea [¿Qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
   
-Para obtener información sobre cómo obtener un plan de llamadas y cuánto cuestan, vea [licencias complementarias de Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para obtener información sobre cómo obtener un plan de llamadas y cuánto cuestan, vea [licencias complementarias de Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 Puede asignar o cambiar una ubicación de emergencia para un usuario en el centro de administración de Microsoft Teams o mediante PowerShell.
 

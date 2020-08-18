@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 3d6c30c1f6323030280fba29c6d53b89ed33c2c9
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842031"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778042"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -100,7 +100,7 @@ Para participar en una migración planificada, envíe una solicitud de correo el
 
 - Fecha preferida (martes): las ondas de migración se ejecutan cada martes. Seleccione una fecha en un martes no superior a 12/3/2019.
  
-- IDENTIFICADOR de espacio empresarial: número de 32 caracteres en este formato 0046728c-688a-4472-a38f-098fec60ac6x. Puede encontrar el identificador de inquilino en el portal de administración de Microsoft 365 en Azure AD o mediante el siguiente cmdlet de PowerShell:`Get-CsTenant | Select ObjectId`
+- IDENTIFICADOR de espacio empresarial: número de 32 caracteres en este formato 0046728c-688a-4472-a38f-098fec60ac6x. Puede encontrar el identificador de inquilino en el portal de administración de Microsoft 365 en Azure AD o mediante el siguiente cmdlet de PowerShell: `Get-CsTenant | Select ObjectId`
 
 Recibirá una confirmación por correo electrónico una vez que el inquilino se haya migrado correctamente.
 
@@ -148,14 +148,14 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | VM | Características de usuario | Grabación de saludos personales (dispositivo autenticado) |  | v | v    |
 | VM | Características de usuario | Registrar saludos personales (RTC): reproducción en teléfono |  | N | v    |
 | VM | Características de usuario | Configuración del usuario para deshabilitar la transcripción |  | N | v    |
-| VM | Características de usuario | Cripción  |  | v | v    |
+| VM | Características de usuario | Transcripción  |  | v | v    |
 | VM | Características de usuario | Correo de voz de visual en todos los extremos   | Con control de usuario para reproducir, eliminar, indicador de mensaje en espera y alternar estado, en todos los extremos admitidos  | v | v    |
 | VM | Características de usuario | Formato de archivo de audio MP3 en Outlook    |  | v | v    |
 | VM | Características de usuario | Control de reproducción de velocidad variable |  | v | v    |
 | VM | Características de usuario | Reenviar un correo de voz  | Reenviar correo de voz recibido a otros usuarios | v | v    |
 | VM | Características de usuario | Enviar un mensaje de voz a un grupo de usuarios  |Difusión de correo de voz   | N | v   |
 | VM | Características de usuario | Notificación de correo de voz mediante SMS    | Los usuarios pueden recibir un SMS cuando tienen un nuevo correo de voz    | N | v    |
-| VM | Características de usuario | Idiomas de saludo compatibles | Detalles aquí:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| VM | Características de usuario | Idiomas de saludo compatibles | Detalles aquí: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | VM | Características de usuario | Reglas de contestador automático |  | v | v    |
 | VM | Características de usuario | Reproducir en teléfono (RTC): mensaje para reproducir | Llamar a me en mi celda para escuchar el mensaje de voz  | N | v    |
 | VM | Características de usuario | Reproducir en teléfono (autenticación): mensaje para reproducir | Llamarme en mi dispositivo autenticado  | v | v    |
@@ -181,7 +181,7 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | AQ | Características del servicio | Soporte técnico de Microsoft Teams|  | v | N    |
 | AQ | Características del servicio | Marcado por nombre, entrada DTMF    |  | v | v    |
 | AQ | Características del servicio | Marcado por nombre, entrada de voz  |  | v | v    |
-| AQ | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| AQ | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | AQ | Características del servicio | Transferir a operador, CQ o un usuario |  | v | v    |
 | AQ | Características del servicio | Transferir al número de RTC internamente (RNL)  |  | v | v    |
 | AQ | Características del servicio | Transferir a un número de RTC de forma externa  |  | Consultar la sección problemas conocidos a continuación | v    |
@@ -223,7 +223,7 @@ A continuación, se encuentra una introducción a la experiencia de migración d
 |Notificación de correo electrónico | Sin cambios<br>No se envía un correo electrónico a los usuarios que les notifica sobre la activación o migración de cuentas de correo de voz. |
 |Acceso a mensajes anteriores | Sin cambios<br>Los usuarios tienen acceso a los mensajes de correo de voz anteriores en todos los extremos admitidos. |
 |Recibir una máquina virtual en Outlook, SFB apps| Sin cambios<br>Los usuarios continúan recibiendo los mensajes de correo de voz en todos los extremos admitidos. |
-|Cripción | Mejor<br>La transcripción de CVM tiene una tasa de precisión muy superior e idiomas admitidos que ExchUMO. |
+|Transcripción | Mejor<br>La transcripción de CVM tiene una tasa de precisión muy superior e idiomas admitidos que ExchUMO. |
 |Configuración de usuario | Nueva experiencia<br>Los usuarios pueden cambiar sus preferencias de un portal de configuración de usuario (USP). Los usuarios pueden acceder a su USP desde un hipervínculo en su correo de voz o el botón de configuración del usuario en su cliente de SFB; https://aka.ms/vmsettings.
  |Características| Vea la comparación de los conjuntos de características para obtener más información. |
 |Reglas de Outlook para mensajes de VM | Sin cambios<br>Las reglas creadas anteriormente se aplicarán a los mensajes de CVM después de la migración.
@@ -245,13 +245,7 @@ El acceso de suscriptor puede seguir funcionando para el inquilino hasta que el 
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>Transferencia de llamadas de operador automático a RTC
 
-Se recomienda a los clientes configurar una solución temporal para cumplir los requisitos de transferencia de una llamada de operador automático a un número de RTC externo o a una instancia de RGS.
-
-Se identificó un problema durante el control de calidad con la característica "transferencia hacia el número RTC", que no se solucionará en el tiempo para que los clientes inicien la migración fuera del servicio UMO de Exchange antes de la fecha de retiro programada del 28 de febrero de 2020. Como solución alternativa, los administradores pueden transferir a los autores de llamadas de operador automáticos a un usuario virtual local con una configuración de reenvío de llamada activa al número de teléfono de RTC o número de teléfono RGS deseado. La experiencia esperada es:
-
-- Los administradores no tendrán que conceder una licencia al usuario virtual, ya que se trata de una solución alternativa.
-- Los administradores pueden manipular el identificador de llamada que ve el receptor de RTC asignando el número deseado al usuario virtual o usando las funciones de manipulación de dígitos de SBC.
-- Los autores de llamadas RTC no experimentarán ningún retraso durante la transferencia de llamadas y seguirán viendo el identificador de llamada del operador automático una vez que la transferencia se haya realizado correctamente.
+Para transferir una llamada de operador automático a un número de teléfono RTC externo a través de Skype empresarial Server o un servicio de grupo de respuesta (RGS) en Skype empresarial Server, cree un nuevo usuario local con el desvío de llamadas establecido en el número de teléfono RTC o el número de teléfono RGS. El usuario debe estar habilitado y configurado correctamente para la telefonía IP empresarial y tener asignada una directiva de voz.
 
 #### <a name="shared-mailbox-is-still-accessible"></a>El buzón compartido todavía es accesible
 

@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 16b44071e6025d0dc10c270aa2a37679eec840e4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691246"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788374"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -42,18 +42,18 @@ Al registrarse, obtendrás un determinado número de minutos, en función de tu 
   
 Para ello, debe **asignar una licencia de audioconferencia o de sistema telefónico** a los usuarios.
   
-- Asigne una licencia de **audioconferencia** a sus usuarios. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Asigne una licencia de **audioconferencia** a sus usuarios. Consulte [asignar licencias de complemento de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
     Después de asignar esta licencia, tendrá que configurar audioconferencia. Para obtener instrucciones paso a paso, consulte [probar o comprar audioconferencia en Microsoft 365 u Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Asigne un **sistema telefónico** y una licencia de plan de llamadas **nacionales o nacionales e internacionales** a los usuarios. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Asigne un **sistema telefónico** y una licencia de plan de llamadas **nacionales o nacionales e internacionales** a los usuarios. Consulte [asignar licencias de complemento de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
     > [!NOTE]
     > Aunque no es necesario para el crédito de las comunicaciones, aún tiene que asignar un **plan de llamadas nacionales** o una licencia de **plan de llamadas nacionales e internacionales** .
   
     Después de asignar estas licencias, tendrá que obtener sus números de teléfono para la organización y asignarlos a los miembros de su organización. Para obtener instrucciones paso a paso, consulte [configurar planes de llamada](set-up-calling-plans.md).
     
-Para obtener más información, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Para obtener más información, consulte [licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Paso 2: configurar créditos de comunicaciones para su organización
 
@@ -73,7 +73,7 @@ Para obtener más información, consulte [licencias complementarias de Microsoft
     
    - **Cantidad de recarga** Escribe la cantidad en el cuadro de **recarga con** que deseas añadir a tu cuenta una vez que llegue a la cantidad de activación a continuación.
     
-   - **Desencadenar monto** Escribe la cantidad en **cuando el saldo es inferior** a la casilla que se usará para ' *desencadenar* ' la recarga automática. Una vez que tu saldo sea inferior a esta cantidad, el monto de recarga se añadirá automáticamente a tu cuenta.
+   - **Desencadenar monto** Escribe la cantidad en **cuando el saldo es inferior** a la casilla que se usará para ' *desencadenar*  ' la recarga automática. Una vez que tu saldo sea inferior a esta cantidad, el monto de recarga se añadirá automáticamente a tu cuenta.
 
       > [!NOTE]
      > Los fondos se aplicarán únicamente a los créditos de comunicaciones de las tarifas publicadas de Microsoft cuando se usen los servicios. Los fondos que no se usen en 12 meses desde la fecha de compra se perderán. 
@@ -116,7 +116,7 @@ Para ver los planes y los precios, visite uno de los siguientes vínculos:
     
 También puede ver información [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación**para  >  **Subscriptions**  >  **Agregar suscripciones**.
   
-Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083180"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788714"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -78,7 +78,7 @@ En la tabla siguiente se enumeran los requisitos de infraestructura para los SBC
 |Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte de dominio del FQDN es uno de los dominios registrados de su organización de Microsoft 365 u Office 365. Para obtener más información, consulte [nombres de dominio de SBC](#sbc-domain-names).|
 |Entrada DNS pública para SBC |Una entrada DNS pública que asigna el FQDN de SBC a la dirección IP pública. |
 |Certificado de confianza pública para SBC |Un certificado para que la SBC se use para todas las comunicaciones con enrutamiento directo. Para obtener más información, consulte [certificado público de confianza para SBC](#public-trusted-certificate-for-the-sbc).|
-|Puntos de conexión para enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com`(FQDN global) debe probarse en primer lugar.<br/>`sip2.pstnhub.microsoft.com`-FQDN secundario, se asigna geográficamente a la segunda región prioritaria.<br/>`sip3.pstnhub.microsoft.com`– El FQDN terciario se asigna geográficamente a la tercera región de prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, consulte [señalización SIP: FQDN](#sip-signaling-fqdns).|
+|Puntos de conexión para enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com` (FQDN global) debe probarse en primer lugar.<br/>`sip2.pstnhub.microsoft.com` -FQDN secundario, se asigna geográficamente a la segunda región prioritaria.<br/>`sip3.pstnhub.microsoft.com` – El FQDN terciario se asigna geográficamente a la tercera región de prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, consulte [señalización SIP: FQDN](#sip-signaling-fqdns).|
 |Direcciones IP y puertos de Firewall para medios de enrutamiento directos |El SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy SIP, que controla la señalización<br/>Procesador de medios, que controla los medios, excepto cuando la omisión de medios está activada<br/><br/>Estos dos servicios tienen direcciones IP independientes en la nube de Microsoft, que se describen más adelante en este documento.<br/><br/>Para obtener más información, consulte la [sección Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) en [direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Perfil de transporte de medios|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Direcciones IP y puertos de Firewall para los medios de Microsoft Teams |Para obtener más información, consulte [direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -119,7 +119,7 @@ Combinar el plan de llamadas y la conectividad de enrutamiento directo para el m
 
 Para obtener más información sobre las licencias de sistema telefónico, consulte [sacar el máximo partido a](https://products.office.com/compare-all-microsoft-office-products?tab=2) [las opciones](https://technet.microsoft.com/library/office-365-plan-options.aspx)de Office y planes. 
 
-Para obtener más información sobre las licencias de sistema telefónico, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+Para obtener más información sobre las licencias de sistema telefónico, consulte [licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). 
 
 ## <a name="supported-end-points"></a>Puntos finales compatibles 
 

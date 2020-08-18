@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Los organizadores de reuniones pueden obtener información sobre cómo marcar usando la aplicación de Teams para permitir que otras personas se unan a la misma reunión con sus teléfonos.
-ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 575ed18bd3dbd404dba947c0c4556d52e0653200
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662110"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788764"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
@@ -63,4 +63,4 @@ Si está buscando instrucciones sobre cómo permitir que los usuarios llamen a u
 
 [Probar o comprar audioconferencia](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)

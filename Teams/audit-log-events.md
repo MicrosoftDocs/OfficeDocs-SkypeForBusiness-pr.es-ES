@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría.
+description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría en el centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648541"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778012"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -65,8 +65,11 @@ Estas son algunas sugerencias para buscar actividades de Teams en el registro de
 
 - Puede seleccionar actividades específicas para buscarlas haciendo clic en el nombre de la actividad. También puede hacer clic en el nombre del grupo para buscar todas las actividades de un grupo (como **actividades de archivos y carpetas**). Si una actividad está seleccionada, puede hacer clic en ella para cancelar la selección. También puede usar el cuadro de búsqueda para mostrar las actividades que contienen la palabra clave que escriba.<br>
     ![Captura de pantalla de búsqueda de registro de auditoría](media/audit-log-search.png)
+
 - Para mostrar los eventos de actividades que se ejecutan con los cmdlets, seleccione **Mostrar resultados para todas las actividades** en la lista **actividades** . Si conoce el nombre de la operación de estas actividades, busque todas las actividades y, a continuación, filtre los resultados escribiendo el nombre de la operación en el cuadro de la columna **actividad** . Para obtener más información, consulte [paso 3: filtrar los resultados de la búsqueda](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+
 - Para borrar los criterios de búsqueda actuales, haga clic en **Borrar**. El intervalo de fechas vuelve al valor predeterminado de los últimos siete días. También puede hacer clic en **Borrar todo para mostrar los resultados de todas las actividades** para cancelar todas las actividades seleccionadas.
+
 - Si se encuentran resultados de 5.000, probablemente se dé por supuesto que hay más de 5.000 eventos que cumplen los criterios de búsqueda. Puede restringir los criterios de búsqueda y volver a ejecutar la búsqueda para que devuelva menos resultados, o bien puede exportar todos los resultados de la búsqueda seleccionando **exportar resultados**  >  **descargar todos los resultados**.
 
 Consulte [este vídeo](https://www.youtube.com/embed/UBxaRySAxyE) para usar la búsqueda de registros de audio. Únase a Acharya, un jefe de programa de Teams, ya que muestra cómo realizar una búsqueda de registros de auditoría para equipos.
@@ -99,7 +102,7 @@ Como se mencionó anteriormente, puede supervisar los escenarios de eliminación
 
 Como se muestra en la captura de pantalla, puede establecer muchos parámetros diferentes para que esta directiva supervise las eliminaciones de Teams, incluyendo la gravedad, una acción única o repetida, y los parámetros que limitan esta posibilidad a los equipos y la eliminación de sitios. Esto puede hacerse independientemente de una plantilla o puede tener una plantilla creada para basar esta Directiva, según las necesidades de la organización.
 
-Una vez que haya establecido una directiva que funcione para su empresa, podrá revisar los resultados en el registro de actividades a medida que se activen los eventos:
+Después de establecer una directiva que funcione para su empresa, puede revisar los resultados en el registro de actividades a medida que se desencadenan los eventos:
 
 ![Captura de pantalla de una lista de eventos desencadenada por eliminaciones masivas](media/TeamsMassDeleteList.png)
 
@@ -181,7 +184,7 @@ Si su organización usa la aplicación turnos en Teams, puede buscar en el regis
 |Entrada de reloj de tiempo eliminada    |TimeClockEntryDeleted              |Un usuario elimina correctamente una entrada de reloj en la hoja de tiempo.          |
 |Solicitud de turno agregada         |RequestAdded              |Un usuario ha agregado una solicitud de turno.          |
 |Respuesta a una solicitud de turno     |RequestRespondedTo                  |Un usuario respondió a una solicitud de turno.          |
-|Solicitud de turno cancelada         |RequestCanceled               |Un usuario canceló una solicitud de turno.          |
+|Solicitud de turno cancelada         |RequestCancelled               |Un usuario canceló una solicitud de turno.          |
 |Configuración de programación modificada      |ScheduleSettingChanged          |Un usuario cambia una configuración en la configuración de Mayús.         |
 |Se ha agregado la integración de personal      |WorkforceIntegrationAdded                  | La aplicación de turnos está integrada en un sistema de terceros.         |
 |Mensaje de turno aceptado         |OffShiftDialogAccepted          |Un usuario reconoce el mensaje de desplazarse para acceder a teams después de haber cambiado de horas.           |
@@ -190,11 +193,10 @@ Si su organización usa la aplicación turnos en Teams, puede buscar en el regis
 
 Puede usar la API de actividad de administración de Office 365 para recuperar información sobre los eventos de Teams. Para obtener más información sobre el esquema API de administración de la actividad de los equipos, consulte [esquema de equipos](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
-
 ## <a name="attribution-in-teams-audit-logs"></a>Atribución en los registros de auditoría de Teams
 
 Los cambios de pertenencia a equipos (como usuarios agregados o eliminados) realizados a través de Azure Active Directory (Azure AD), portal de administración de Microsoft 365 o la API para gráficos de grupos de Microsoft 365 aparecerán en los mensajes de auditoría de Teams y en el canal general con una atribución a un propietario existente del equipo, y no al iniciador real de la acción. En estos escenarios, consulte los registros de auditoría de grupo de Azure AD o [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para ver la información relevante.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Buscar en el registro de auditoría del centro de cumplimiento de Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
+- [Buscar en el registro de auditoría del centro de cumplimiento de Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

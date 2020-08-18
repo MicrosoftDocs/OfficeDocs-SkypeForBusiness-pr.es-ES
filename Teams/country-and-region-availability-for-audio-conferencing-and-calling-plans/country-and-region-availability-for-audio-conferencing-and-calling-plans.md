@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Descubre si las conferencias de audio, el sistema telefónico, los planes de llamadas, los créditos de comunicaciones y los números de teléfono gratuitos y gratuitos están disponibles en un país o una región.
-ms.openlocfilehash: 0e492e538d006e6c18f11ac647dad916b2818d10
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 468a583c48e8830684cf170877acde55cbcba711
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877891"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788534"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -161,7 +161,7 @@ Puede seleccionar un país o una región para ver las características de voz en
 
 ***
 
-Una vez que compruebe si uno de los servicios de Skype Empresarial o Microsoft Teams está disponible, puede revisar [Licencias complementarias de Skype Empresarial y Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para ayudarle a comprar licencias y asignarlas a sus usuarios.
+Una vez que compruebe si uno de los servicios de Skype Empresarial o Microsoft Teams está disponible, puede revisar [Licencias complementarias de Skype Empresarial y Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) para ayudarle a comprar licencias y asignarlas a sus usuarios.
 
 > [!NOTE]
 >
@@ -209,7 +209,7 @@ Con la lista desplegable situada en la parte superior de la página, busque un p
 
 Al igual que sucede con Sistema telefónico, con Planes de llamada los usuarios pueden hacer y recibir llamadas telefónicas. En primer lugar necesita un número de teléfono (no un número de servicio) de usuario (suscriptor) que pueda asignar al usuario y, a continuación, asignar un Plan de llamadas. Hay disponibles dos tipos de planes de llamada: **nacionales** y **nacionales e internacionales**. Para obtener más información, vea [Sistema telefónico y planes de llamadas](../calling-plan-landing-page.md).
 
-También puede ver [Sistema telefónico y planes de llamadas](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener información sobre las licencias.
+También puede ver [Sistema telefónico y planes de llamadas](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) para obtener información sobre las licencias.
 
 > [!NOTE]
 > El país o región se basa en la ubicación de la licencia del usuario en el **Centro de administración de Microsoft 365** > **Usuarios activos** y **no** en la dirección de facturación indicada en el **Perfil de la organización** del **Centro de administración de Microsoft 365**.

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0841f6963f12f97bf689557fe50ff8e109897e88
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938319"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778062"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub ha sido retirado
 
@@ -90,6 +90,9 @@ La funcionalidad básica es la misma entre las aplicaciones de iOS y Android. Ha
 #### <a name="what-browsers-does-shifts-work-on"></a>¿En qué exploradores funciona el turnos?
 
 Mayús funciona en todos los exploradores compatibles con Teams, que incluye las versiones más recientes de Microsoft Edge, Internet Explorer, Google Chrome y Mozilla Firefox. Para obtener más información, vea [obtener clientes para Teams](../../get-clients.md).
+
+> [!Note]
+> Las aplicaciones y los servicios de Microsoft 365 no son compatibles con Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no es compatible con Internet Explorer 11 anteriores, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Ten en cuenta que Internet Explorer 11 seguirá siendo un explorador compatible. Internet Explorer 11 es un componente del sistema operativo Windows y [sigue la Directiva de ciclo de vida](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) del producto en el que está instalado. 
 
 #### <a name="what-languages-does-shifts-support"></a>¿Qué idiomas admite el soporte técnico?
 

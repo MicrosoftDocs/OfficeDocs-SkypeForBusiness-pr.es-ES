@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información acerca de cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas de conferencia. '
-ms.openlocfilehash: 0ac5ac9cd3a722920a76d968848cd37388908121
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 9c86d83b1a39c5ae3623c2205a09b4e8d604ce5e
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691096"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788704"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias en Microsoft Teams
 
@@ -47,7 +47,7 @@ Vaya a la [Disponibilidad de país y región para Audioconferencia y Planes de l
  
 ## <a name="step-2-get-and-assign-licenses"></a>Paso 2: obtener licencias y asignarlas
  
-1. Para Audioconferencia, necesita una licencia para cada usuario que vaya a configurar reuniones de acceso telefónico. Para saber qué licencias tiene que comprar para realizar audioconferencias y cuánto cuestan, consulte [Licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+1. Para Audioconferencia, necesita una licencia para cada usuario que vaya a configurar reuniones de acceso telefónico. Para saber qué licencias tiene que comprar para realizar audioconferencias y cuánto cuestan, consulte [Licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
     >[!NOTE] 
     > Las audioconferencias se incluyen en las licencias de Office 365 Enterprise E5 y como complemento.
