@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2629ef2fd378744647aa7ed158e7128dfbaeba8a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 00ca1a2d7a00b4aa827cfb5a989e31b54b83fbeb
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581211"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803912"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -53,7 +53,7 @@ La presencia de Teams en Outlook es compatible con la aplicación de escritorio 
 || ![Círculo púrpura con flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina|
 |||
 
-Los Estados de presencia configurados por la aplicación se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando). Tenga en cuenta que cuando está en el modo de enfoque en función de su calendario, el foco será el estado que verán los usuarios en Teans, pero se mostrarán como no molestar en otros productos.
+Los Estados de presencia configurados por la aplicación se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando). Tenga en cuenta que cuando se encuentra en el modo de foco basado en el calendario, el foco será el estado que verán los usuarios en Teams, pero se mostrarán como no molestar en otros productos.
 
 El estado actual de presencia cambiará a ausente cuando bloquee el equipo o cuando entre en modo de suspensión o de espera. En dispositivos móviles, el estado de presencia cambiará a ausente cuando la aplicación de Teams esté en segundo plano.
 

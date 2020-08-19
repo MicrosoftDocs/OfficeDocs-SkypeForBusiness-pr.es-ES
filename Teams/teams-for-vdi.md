@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778072"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804002"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -178,9 +178,9 @@ Para obtener más información sobre Teams y las aplicaciones de Microsoft 365 p
 
         La siguiente sesión de inicio de sesión interactivo inicia Teams y solicita las credenciales.
 
-    > [!NOTE]
-    > Estos ejemplos también usan el parámetro **ALLUSERS = 1** . Al establecer este parámetro, el instalador para todo el equipo se muestra en programas y características en el panel de control y en aplicaciones & características de configuración de Windows para todos los usuarios del equipo. Todos los usuarios pueden desinstalar Teams si tienen credenciales de administrador.
-    Es importante comprender la diferencia entre **ALLUSERS = 1** y **ALLUSER = 1**. El parámetro **ALLUSERS = 1** se puede usar en entornos que no son VDI y VDI, mientras que el parámetro **ALLUSER = 1** se usa solo en entornos de VDI para especificar una instalación por equipo.
+        > [!NOTE]
+        > Estos ejemplos también usan el parámetro **ALLUSERS = 1** . Al establecer este parámetro, el instalador para todo el equipo se muestra en programas y características en el panel de control y en aplicaciones & características de configuración de Windows para todos los usuarios del equipo. Todos los usuarios pueden desinstalar Teams si tienen credenciales de administrador.
+        Es importante comprender la diferencia entre **ALLUSERS = 1** y **ALLUSER = 1**. El parámetro **ALLUSERS = 1** se puede usar en entornos que no son VDI y VDI, mientras que el parámetro **ALLUSER = 1** se usa solo en entornos de VDI para especificar una instalación por equipo.
 
 3. Desinstale el MSI de la máquina virtual de VDI.
   
@@ -346,6 +346,17 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 Para obtener más información sobre cómo usar PowerShell para administrar directivas de reuniones, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
+## <a name="control-fallback-mode-in-teams"></a>Controlar el modo de reserva en Teams
+
+Cuando los usuarios se conectan desde un extremo no admitido, los usuarios están en modo de reserva, en el que AV no está optimizado. Puede deshabilitar o habilitar el modo de reserva mediante la configuración de uno de los siguientes valores DWORD de registro:
+
+- HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\Teams\DisableFallback
+
+Para deshabilitar el modo de reserva, establezca el valor en **1**. Para habilitar solo el audio, establezca el valor en **2**. Si el valor no está presente o está establecido en **0** (cero), el modo de reserva está habilitado.
+
+Esta característica está disponible en Teams versión 1.3.00.13565 y posterior.
+
 ## <a name="known-issues-and-limitations"></a>Problemas conocidos y limitaciones
 
 ### <a name="client-deployment-installation-and-setup"></a>Implementación de clientes, instalación y configuración
@@ -391,7 +402,7 @@ Para los problemas conocidos de teams que no se relacionan con VDI, consulte [so
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-#### <a name="troubleshoot-citrix-components"></a>Solución de problemas de componentes de Citrix
+### <a name="troubleshoot-citrix-components"></a>Solución de problemas de componentes de Citrix
 
 Para obtener información sobre cómo solucionar problemas de VDA y CWA, consulte [este sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 

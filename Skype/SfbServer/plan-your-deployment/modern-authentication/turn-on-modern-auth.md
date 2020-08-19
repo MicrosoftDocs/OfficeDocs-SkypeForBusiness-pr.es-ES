@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: En este artículo se describen los cmdlets que proporcionan a los administradores más control sobre los métodos de autenticación que se usan dentro y fuera de una empresa. Los administradores pueden activar o desactivar los métodos de autenticación interna o externamente en su red.
-ms.openlocfilehash: a3f26e0bb29a58b53547083a4410da849c054b03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f9a8c9c8576c07de3158fb2446cb3cb89bac72
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043722"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797458"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planear la desactivación interna y externa de los métodos de autenticación heredados en la red.
 
@@ -97,8 +97,10 @@ Puede ser aconsejable obtener acceso a estos valores y realizar una captura de p
 > 
 > Si usa el parámetro BlockWindowsAuthExternally para bloquear externamente NTLM, tenga en cuenta que también bloquea NTLM internamente para el canal SIP. Sin embargo, los clientes de Skype empresarial y Lync posteriores a 2010 seguirán pudiendo iniciar sesión porque usarán NTLM sobre HTTP para el inicio de sesión, y luego recuperarán un certificado para iniciar sesión a través de SIP. Sin embargo, los clientes con una antigüedad superior a 2010 no podrán iniciar sesión internamente en este caso, por lo que es posible que desee considerar la posibilidad de actualizar estas aplicaciones para que los usuarios puedan reanudar la funcionalidad de seguridad.
 
+> [!IMPORTANT] 
+> Algunas de las aplicaciones Web de Skype empresarial no son compatibles con MA. Por lo tanto, con el escenario de BlockWindowsAuthExternallyAndInternally, no podrá obtener acceso a estas aplicaciones. Las aplicaciones que no son compatibles con MA son el programador web, la página de acceso telefónico, el panel de control de Skype empresarial (CSCP) y la página de configuración del grupo de respuesta. 
 
-## <a name="links"></a>Vínculos 
+## <a name="links"></a>Links 
 - Para obtener más información sobre PowerShell:
     -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
     -  [Set-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/set-csauthconfig?view=skype-ps)

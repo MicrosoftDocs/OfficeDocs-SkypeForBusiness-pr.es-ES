@@ -1,5 +1,5 @@
 ---
-title: Paquetes de directivas de Teams para el cuidado de la salud
+title: Paquetes de directivas de Teams para administración pública
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,15 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización de cuidado de la salud.
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
+description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización gubernamental.
+ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
 ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803981"
+ms.locfileid: "46804048"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para el cuidado de la salud
+# <a name="teams-policy-packages-for-government"></a>Paquetes de directivas de Teams para administración pública
+
+> [!NOTE]
+> Los paquetes de directivas actualmente no están disponibles en las implementaciones de Microsoft 365 gubernamentales GCC High o DoD.
 
 ## <a name="overview"></a>Información general
 
@@ -38,19 +41,19 @@ Los paquetes de directivas predefinen directivas para los siguientes elementos, 
 - Configuración de la aplicación
 - Eventos en directo
 
-Teams actualmente incluye los siguientes paquetes de política de cuidado de la salud.
+Actualmente, Teams incluye los siguientes paquetes de directivas para administración pública.
 
 |Nombre del paquete en el centro de administración de Microsoft Teams|Recomendado para|Descripción |
 |---------|---------|---------|
-|Trabajador clínico de sanidad  |Trabajadores clínicos de su organización de salud  |Crea un conjunto de directivas y configuraciones de directivas que proporcionan a los trabajadores clínicos como enfermeras registradas, enfermeras, médicos y trabajadores sociales acceso completo a chats, llamadas, administración de turnos y reuniones. |
-|Trabajador de información de asistencia sanitaria  |Trabajadores de la información en su organización de la salud |Crea un conjunto de directivas y opciones de directiva que ofrecen a trabajadores de la información como personal de ti, personal de informática, personal de finanzas y funcionarios de cumplimiento, acceso completo a chats, llamadas y reuniones.|
-|Sala de pacientes sanitarios  |Dispositivos de sala de pacientes|Crea un conjunto de directivas y parámetros de directivas que se aplican a las salas de pacientes de su organización de salud.|
+|Funcionario de seguridad pública  |Funcionarios de seguridad pública de su organización gubernamental  |Crea un conjunto de directivas y parámetros de directivas que se aplican a los directores de seguridad pública de su organización. |
+|Los Firstline Manager  |Los Firstline managers en su organización gubernamental |Crea un conjunto de directivas y aplica esta configuración a los administradores de los Firstline de su organización.|
+|Trabajador de los Firstline  |Trabajadores de los Firstline en su organización gubernamental |Crea un conjunto de directivas y aplica esta configuración a los trabajadores de los Firstline de su organización.|
 
-![Captura de pantalla de paquetes de política sanitaria](media/policy-packages-healthcare.png)
+![Captura de pantalla de paquetes de política sanitaria](media/policy-packages-gov.png)
 
-A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, cuando se asigna el paquete de política de trabajadores de salud clínica a médicos de su organización, se crea una directiva llamada Healthcare_ClinicalWorker para cada Directiva del paquete.
+A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, cuando se asigna el paquete de directiva del oficial de seguridad pública a los usuarios de su organización, se crea una directiva denominada PublicSafety_Officer para cada Directiva del paquete.
 
-![Captura de pantalla de directivas en el paquete de trabajadores clínico de cuidado de la salud](media/policy-packages-healthcare-clinical-worker.png)
+![Captura de pantalla de directivas en el paquete de trabajadores clínico de cuidado de la salud](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Administrar los paquetes de directivas 
 
@@ -72,7 +75,7 @@ Asignar el paquete de directivas a los usuarios. Para asignar un paquete de dire
 
 Para conocer los pasos sobre cómo asignar un paquete de directivas mediante el centro de administración de Microsoft Teams o PowerShell, consulte [asignar un paquete de directivas](manage-policy-packages.md#assign-a-policy-package).
 
-![Captura de pantalla de cómo asignar un paquete de directivas en el centro de administración](media/policy-packages-healthcare-assign.png)
+![Captura de pantalla de cómo asignar un paquete de directivas en el centro de administración](media/policy-packages-gov-assign.png)
 
 Si un usuario tiene asignada una directiva y posteriormente asigna otra, la asignación más reciente tendrá prioridad.
 
@@ -80,4 +83,4 @@ Si un usuario tiene asignada una directiva y posteriormente asigna otra, la asig
 
 [Administrar los paquetes de directivas para Teams](manage-policy-packages.md)
 
-[Asignar directivas a los usuarios de Teams](assign-policies.md)
+[Asignar directivas a los usuarios de Teams](assign-policies.md) 

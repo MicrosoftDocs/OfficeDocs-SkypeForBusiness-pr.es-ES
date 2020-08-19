@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Configure los dispositivos de salas de equipos y Surface hub para que se unan a las reuniones cuando un dispositivo o el otro se unan a una reunión.
-ms.openlocfilehash: c1200b4e949cb866440907f8577f61f4528630e2
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: cfd8bd423d8f7765a973d55e42d64773a06bba32
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761459"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803942"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniones coordinadas con Microsoft Team salas y Surface Hub
 
@@ -52,10 +52,10 @@ Para obtener acceso al centro de administración de Microsoft 365, debe tener as
 
 Para obtener los UPN de sus dispositivos de salas de sala de equipos y Surface Hub, haga lo siguiente:
 
-1. Para iniciar sesión en el centro de administración de Microsoft 365, visite https://admin.microsoft.com
-2. Ir a **Users**usuarios  >  **activos** de usuarios
-3. Busque el nombre del dispositivo de salas de las salas de equipos o del Surface Hub en la columna **nombre para mostrar** (puede usar el cuadro de **búsqueda** si tiene muchos usuarios).
-4. Busque el UPN en la columna **username** (tendrá un aspecto similar a alias@contoso.com o alias@contoso.onmicrosoft.com)
+1. Para iniciar sesión en el centro de administración de Microsoft 365, visite https://admin.microsoft.com .
+2. Vaya a **usuarios**  >  **activos**.
+3. Busque el nombre del dispositivo de salas de las salas de equipos o del concentrador de Surface en la columna **nombre para mostrar** (puede usar el cuadro de **búsqueda** si tiene muchos usuarios).
+4. Busque el UPN en la columna **username** (tendrá un aspecto similar a alias@contoso.com o alias@contoso.onmicrosoft.com).
 5. Repita este paso para cada dispositivo que vaya a participar en reuniones coordinadas.
 
 ## <a name="step-3-create-a-deployment-worksheet"></a>Paso 3: crear una hoja de cálculo de implementación
@@ -71,6 +71,7 @@ En una aplicación de hoja de cálculo, agregue las filas siguientes en la prime
 | **Valor predeterminado de vídeo**      | Determina el dispositivo en el que la cámara estará activa cuando se inicie una reunión. Para obtener la mejor experiencia, le recomendamos que solo se establezca el dispositivo salas de equipos `true` mientras todos los demás dispositivos están configurados en `false` .          |
 | **Vídeo habilitado**      | Determina si los participantes de una reunión pueden activar o desactivar la cámara. Puede establecer esta configuración en `true` en cualquier otro dispositivo de los participantes del evento que deseen compartir diferentes perspectivas de vídeo (como si un participante usa la pizarra de Surface hub). Si no desea que los participantes enciendan o apaguen una cámara en un dispositivo, establezca este valor en `false` .<p> Si el **valor predeterminado de vídeo** se establece en `true` , esta configuración se omite y los participantes pueden activar o desactivar la cámara.         |
 | **Pizarra predeterminada** | Determina si el dispositivo salas de equipos mostrará una pizarra compartida por uno de los participantes de la reunión. Le recomendamos que establezca esta configuración en `false` si tiene un Surface Hub y `true` no tiene uno. Esta configuración no tiene efecto en Surface Hub. Surface Hub siempre mostrará una pizarra compartida por los participantes de la reunión.         |
+| **Pizarra habilitada** | Determina si los participantes de una reunión pueden activar o desactivar la pizarra. Si no desea que los participantes puedan activar o desactivar la pizarra en un dispositivo, establezca este valor en `false` . <p>Si la opción **predeterminada de whiteboard** está configurada en `true` , esta configuración se ignora y los participantes pueden activar o desactivar la pizarra.
 | **Cuentas de confianza**   | Esta es una lista separada por comas de UPN para cada dispositivo de la sala de equipos o Surface Hub en el que el dispositivo debe aceptar solicitudes de participación en la reunión de, o a las que se deben enviar solicitudes de unirse a la reunión. |
 
 En las columnas siguientes, agregue cada uno de los dispositivos de las salas de equipos y Surface Hub. En cada columna, rellene los valores que correspondan a la experiencia que desea para la sala de reuniones. Este es un ejemplo con un dispositivo de salas de equipos y un Surface Hub:
@@ -88,7 +89,7 @@ En las columnas siguientes, agregue cada uno de los dispositivos de las salas de
 | **Audio habilitado**      | `true`          | `false`          |
 | **Valor predeterminado de vídeo**      | `true`          | `false`          |
 | **Vídeo habilitado**      | `true`          | `true`           |
-| **Pizarra predeterminada** | `false`         | No aplicable   |
+| **Pizarra predeterminada** | `false`         | `false`          |
 | **Cuentas de confianza**   | hub@contoso.com | room@contoso.com |
 
 ## <a name="step-4-configure-teams-rooms-device"></a>Paso 4: configurar el dispositivo salas de equipo
@@ -101,17 +102,17 @@ Use la hoja de cálculo que creó en el paso anterior para ayudarle a configurar
 
 Para configurar reuniones coordinadas en un dispositivo, haga lo siguiente:
 
-1. Seleccione **... Más**  >  **Opciones de configuración**
-2. Escriba la contraseña de administrador y seleccione **sí**
-3. Seleccionar **reuniones coordinadas**
-4. En **Opciones**, establezca **reunión coordinada** en activado
-5. Si el **valor predeterminado de audio** de la hoja de cálculo es `true` , **Active activar el micrófono de este dispositivo** , de lo contrario, déjelo apagado
+1. Seleccione **... Más**  >  **Opciones de configuración**.
+2. Escriba la contraseña de administrador y seleccione **sí**.
+3. Seleccione **reuniones coordinadas**.
+4. En **Opciones**, establezca **reunión coordinada** en _activado_.
+5. Si el **valor predeterminado de audio** de la hoja de cálculo es `true` , **activa activar el micrófono de este dispositivo** , de lo contrario, dejarlo _desactivado_.
 6. Si el **audio habilitado** en la hoja de cálculo es `true` , seleccione **permitir que los usuarios puedan habilitar al unirse a una reunión** en **activar el micrófono de este dispositivo**. Esta opción no se puede desactivar si **activa el micrófono de este dispositivo** .
-7. Si el **valor predeterminado de vídeo** de la hoja de cálculo es `true` , active la **cámara del dispositivo** como activado; de lo contrario, déjelo fuera
-8. Si el **vídeo está habilitado** en la hoja de cálculo `true` , seleccione **permitir que los usuarios puedan habilitar al unirse a una reunión** en **activar la cámara de este dispositivo**. Esta opción no se puede desactivar si **activa la cámara de este dispositivo** .
-9. Si la **pizarra predeterminada** de la hoja de cálculo es `true` , **Active la pizarra en este dispositivo** como activado; de lo contrario, déjelo fuera
+7. Si el **vídeo predeterminado** de la hoja de cálculo es `true` , **Active la cámara del dispositivo** como activado; de lo contrario, déjelo como _desactivado_.
+8. Si el **vídeo está habilitado** en la hoja de cálculo `true` , seleccione **permitir que los usuarios puedan habilitar al unirse a una reunión** en **activar la cámara de este dispositivo**. Esta opción no se puede desactivar si **activa la cámara de este dispositivo** _._
+9. Si la **pizarra predeterminada** de la hoja de cálculo es `true` , **Active la pizarra en este dispositivo** como _activado; de_lo contrario, déjelo _desactivado_.
 10. En **cuentas de dispositivos de confianza**, escriba los UPN que aparecen en **cuentas de confianza** en la hoja de cálculo. Separa varios UPN con comas.
-11. Seleccione **Guardar y salir**
+11. Seleccione **Guardar y salir**.
 
 Después de seleccionar **Guardar y salir**, el dispositivo se reiniciará y estará listo para participar en reuniones coordinadas.
 
@@ -126,7 +127,7 @@ Esta es la sintaxis de la configuración de reuniones coordinadas en el archivo 
     <Settings>
         <Audio default="true" enabled="true"/>
         <Video default="true" enabled="true"/>
-        <Whiteboard default="false"/>
+        <Whiteboard default="false" enabled="false"/>
     </Settings>
     <TrustedAccounts>hub@contoso.com</TrustedAccounts>
 </CoordinatedMeetings>
@@ -134,15 +135,22 @@ Esta es la sintaxis de la configuración de reuniones coordinadas en el archivo 
 
 Para configurar reuniones coordinadas en un dispositivo, haga lo siguiente:
 
-1. En un editor de archivos de texto, como el código de Visual Studio o el Bloc de notas, pegue el código XML anterior en un nuevo archivo
+1. En un editor de archivos de texto, como el código de Visual Studio o el Bloc de notas, pegue el código XML anterior en un archivo nuevo.
+
 2. Establezca cada uno de los elementos XML en el correspondiente `true` o `false` en el valor de la hoja de cálculo. Por ejemplo, si el **valor predeterminado de audio** es `true` , establezca `<Audio default="true">` .
-3. Asegúrate `TrustedAccounts` de cambiar a la lista de UPN
-4. Guardar el archivo con el nombre `SkypeSettings.xml`
+
+3. Asegúrese de cambiar `TrustedAccounts` a la lista de UPN.
+
+4. Guarde el archivo con el nombre `SkypeSettings.xml` .
+
 5. Coloque el archivo en la carpeta del dispositivo de salas de equipos `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Puede hacerlo de varias maneras:
+
     - **Copie el archivo en el dispositivo salas de equipos** Deberás habilitar el uso compartido de archivos y crear un recurso compartido de red antes de poder copiar archivos en tu dispositivo. Después de hacerlo, puede conectarse al recurso compartido de red y copiarlo en el dispositivo. Para obtener más información, vea [mantenimiento y operaciones de salas de Microsoft Teams](../rooms/rooms-operations.md).
     - **Usar una directiva de grupo** Crear una directiva de grupo para copiar el archivo en el dispositivo. Para obtener más información, consulte [Introducción a la Directiva de grupo](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)).
     - **Descargar el archivo en el dispositivo de salas de equipos** Puede iniciar sesión en el dispositivo con el modo de administrador y, a continuación, copiar el archivo en el dispositivo desde un recurso compartido de red o una unidad USB. Para obtener más información, vea [cambiar al modo de administrador](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
+    
 6. Reinicie el dispositivo. Puede hacerlo de varias maneras:
+
     - **PowerShell remoto** Puede ejecutar el comando shutdown en el dispositivo mediante PowerShell remoto. Para obtener más información, vea [administración remota con PowerShell](../rooms/rooms-operations.md).
     - **Ejecutar restart-Computer** Puede ejecutar el `Restart-Computer` cmdlet en su equipo local y especificar el nombre del equipo del dispositivo que desea reiniciar. Para obtener más información, consulte [restart-Computer](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
 
@@ -172,15 +180,18 @@ A continuación se encuentra la sintaxis del archivo de configuración XML de re
 
 Siga este procedimiento para preparar el diseñador de configuración de XML para Windows o Microsoft Intune:
 
-1. En un editor de archivos de texto, como el código de Visual Studio o el Bloc de notas, pegue el código XML anterior en un nuevo archivo
+1. En un editor de archivos de texto, como el código de Visual Studio o el Bloc de notas, pegue el código XML anterior en un archivo nuevo.
+
 2. Establezca cada uno de los elementos XML en el correspondiente `true` o `false` en el valor de la hoja de cálculo. Por ejemplo, si el **valor predeterminado de audio** es `true` , establezca `<Audio default="true">` .
-3. Asegúrate `TrustedAccounts` de cambiar a la lista de UPN
+
+3. Asegúrese de cambiar `TrustedAccounts` a la lista de UPN.
+
 4. El diseñador de configuración de Windows requiere que el código XML esté en una sola línea. Quite todos los saltos de línea entre las líneas para que el código XML tenga el siguiente aspecto:
 
     ```xml
     <SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...
     ```
 
-5. Guardar el archivo en el equipo
+5. Guarde el archivo en el equipo.
 
 Una vez que haya creado el archivo de configuración XML, siga los pasos que se indican en [administrar la configuración de Microsoft Teams en Surface Hub](surface-hub-manage-config.md) para aplicarlo a sus Surface hubs.
