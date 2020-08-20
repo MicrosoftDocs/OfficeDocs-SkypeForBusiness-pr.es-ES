@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085246"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814106"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -120,6 +120,7 @@ Solo puede aplicar esta directiva a usuarios que están en modo islas y tener el
 
 El complemento para reunión de Microsoft Teams sigue en proceso de desarrollo para ampliar sus funcionalidades, por lo que le recomendamos que tenga en cuenta lo siguiente:
 
+- El complemento de reunión de Teams requiere un buzón de Exchange para el usuario principal que programa la reunión. Asegúrese de que tiene al menos un buzón de Exchange configurado en su perfil de Outlook y utilícelo para programar las reuniones de Teams con el complemento. Para obtener información sobre los requisitos de Exchange, vea [cómo interactúan Exchange y Teams](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
 - Este complemento es para reuniones programadas con participantes específicos, no para reuniones en un canal. Las reuniones de canal se deben programar desde Microsoft Teams.
 - El complemento no funcionará si un proxy de autenticación se encuentra en la ruta de acceso de red de los servicios de equipo y equipo del usuario.
 - Los usuarios no pueden programar eventos en directo desde Outlook. Vaya a Teams para programar eventos en directo. Para obtener más información, vea [¿Qué son los eventos en directo de Microsoft Teams?](teams-live-events/what-are-teams-live-events.md)

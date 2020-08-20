@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para socios de Microsoft y/o para operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572365"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814246"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -81,7 +81,7 @@ Los subdominios **deben** coincidir con el nombre de FQDN del tronco que se conf
 
 Cuando una llamada llega a la interfaz de enrutamiento directo de Microsoft 365 o de Office 365, la interfaz usa el encabezado de contacto para buscar el inquilino en el que se debe buscar el usuario. El enrutamiento directo no usa la búsqueda de números de teléfono en la invitación, ya que es posible que algunos clientes tengan números no realizados que pueden superponerse en varios inquilinos. Por lo tanto, el nombre de dominio completo en el encabezado del contacto es necesario para identificar el inquilino exacto para buscar al usuario por el número de teléfono.
 
-*Consulte [obtener ayuda con los dominios de Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo crear nombres de dominio en organizaciones de Microsoft 365 u Office 365.*
+*Consulte  [obtener ayuda con los dominios de Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo crear nombres de dominio en organizaciones de Microsoft 365 u Office 365.*
 
 En el diagrama siguiente se resumen los requisitos para el dominio, los subdominios y el encabezado de contacto básicos.
 
@@ -137,7 +137,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
 ### <a name="activate-the-domain-name"></a>Activar el nombre de dominio
 
-Después de haber registrado un nombre de dominio, debe activarlo agregando al menos un usuario con licencia de E1, E3 o E5 y asignando una dirección SIP a la parte FQDN de la dirección SIP que coincide con el dominio base creado. 
+Después de haber registrado un nombre de dominio, debe activarlo agregando al menos un usuario con licencia de E1, E3 o E5 y asignando una dirección SIP a la parte FQDN de la dirección SIP que coincide con el dominio base creado. La licencia se puede revocar después de la activación del dominio (puede tardar hasta 24 horas).
 
 *Consulte [obtener ayuda con los dominios de microsoft 365 u office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios en Microsoft 365 u Office 365 organizaciones.*
 
@@ -199,7 +199,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
 ### <a name="activate-the-subdomain-name"></a>Activar el nombre del subdominio
 
-Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignarle una dirección SIP con la parte FQDN de la dirección SIP que coincide con el subdominio creado en el inquilino del cliente.
+Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignarle una dirección SIP con la parte FQDN de la dirección SIP que coincide con el subdominio creado en el inquilino del cliente. La licencia puede ser revocada por el usuario después de la activación del subdominio (puede tardar hasta 24 horas).
 
 *Consulte [obtener ayuda con los dominios de microsoft 365 u office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios en Microsoft 365 u Office 365 organizaciones.*
 

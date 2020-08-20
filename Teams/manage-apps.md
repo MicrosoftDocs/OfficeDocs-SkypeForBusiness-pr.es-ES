@@ -9,7 +9,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: ritikag
+ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
@@ -17,17 +17,17 @@ description: Obtener información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ecc03ff6a6baf1333028b949b590f3018d66e393
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 23ff7cc90d30dc931b0677ce5ec5aa8db98981fb
+ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552323"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818189"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro de administración de Microsoft Teams
 ======================================================
 
-Como administrador, la página Manage Apps en el centro de administración de Microsoft Teams es donde ve y administra todas las aplicaciones de Teams para su organización. Aquí puede ver el estado y las propiedades del nivel de organización de las aplicaciones, aprobar o cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, bloquear o permitir aplicaciones en el nivel de la organización y administrar la configuración de aplicaciones en toda la organización.
+Como administrador, la página Manage Apps en el centro de administración de Microsoft Teams es donde ve y administra todas las aplicaciones de Teams para su organización. Aquí puede ver el estado de organización y las propiedades de las aplicaciones, aprobar o cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, bloquear o permitir aplicaciones en el nivel de organización, comprar servicios para aplicaciones de terceros y administrar la configuración de aplicaciones de toda la organización.
 
 La página Manage apps le ofrece una vista de todas las aplicaciones disponibles, y le proporciona la información que necesita para decidir qué aplicaciones quiere permitir o bloquear en toda la organización. Después, puede usar [las directivas de permisos](teams-app-permission-policies.md)de la aplicación, [las directivas de configuración](teams-app-setup-policies.md)de la aplicación y [las directivas de aplicaciones personalizadas y la configuración](teams-custom-app-policies-and-settings.md) para configurar la experiencia de la aplicación para usuarios específicos de su organización.
 
@@ -47,7 +47,6 @@ Puede ver todas las aplicaciones, incluida la siguiente información sobre cada 
   ![Captura de pantalla de la página de detalles de aplicaciones de una aplicación](media/manage-apps-app-details.png)
   
 - **Certificación**: Si la aplicación ha superado la certificación, verá la atestación de **Microsoft 365** o la **atestación de Publisher**. Haga clic en el vínculo para ver los detalles de certificación de la aplicación. Si ves " **--** ", no tenemos información de certificación de la aplicación. Para obtener más información sobre las aplicaciones certificadas en Teams, lea el [programa de certificación de aplicaciones de Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
-
 - **Publisher**: nombre del editor.
 - **Estado de publicación**: estado de publicación de aplicaciones personalizadas.
 - **Estado**: el estado de la aplicación en el nivel de la organización, que puede ser uno de los siguientes:
@@ -58,12 +57,13 @@ Puede ver todas las aplicaciones, incluida la siguiente información sobre cada 
     
     - **Organización bloqueada**: la aplicación está bloqueada en la configuración de la aplicación en toda la organización.
     
-      Es importante saber que esta columna representa el estado permitido y bloqueado de las aplicaciones que anteriormente se encontraban en el panel **configuración de toda la organización** . Ahora ve, bloquea y permite aplicaciones en el ámbito de la organización en la página Manage apps.
-
+      Es importante saber que esta columna representa el estado permitido y bloqueado de las aplicaciones que anteriormente se encontraban en el panel **configuración de toda la organización** . Ahora ve, bloquea y permite aplicaciones en el ámbito de la organización en la página **Manage apps** . 
+- **Licencias**: indica si una aplicación ofrece una suscripción de software como servicio (SaaS) para la compra. Esta columna solo se aplica a aplicaciones de terceros. Cada aplicación de terceros tendrá uno de los siguientes valores:
+    - **Comprar ahora**: la aplicación ofrece una suscripción de SaaS y está disponible para la compra.  
+    - **Comprado**: la aplicación ofrece una suscripción de SaaS y ha comprado las licencias para él.
+    - **--**: La aplicación no ofrece una suscripción de SaaS.
 - **Aplicación personalizada**: Si la aplicación es una aplicación personalizada.
-
 - **Categorías**: categorías que se aplican a la aplicación.
-
 - **Versión**: versión de la aplicación.
 
 Para ver la información que desea en la tabla, haga clic en **Editar columna** , en la esquina superior derecha, para agregar o quitar columnas a la tabla.
@@ -102,7 +102,11 @@ Para permitir o bloquear una aplicación, selecciónela y, a continuación, haga
 Cuando bloquea o permite una aplicación en la página Administrar aplicaciones, la aplicación está bloqueada o está permitida para todos los usuarios de su organización.  Al bloquear o permitir una aplicación en una directiva de permisos de la aplicación de Teams, se bloquea o permite a los usuarios que tienen asignada esa Directiva. Para que un usuario pueda instalar e interactuar con cualquier aplicación, debe permitir la aplicación en el nivel de la organización en la página Administrar aplicaciones y en la Directiva de permisos de la aplicación que está asignada al usuario.
 
  > [!NOTE]
- > Para desinstalar una aplicación, haga clic con el botón derecho en la aplicación y, a continuación, haga clic en **desinstalar** o use el menú **más aplicaciones** en el lado izquierdo. 
+ > Para desinstalar una aplicación, haga clic con el botón derecho en la aplicación y, a continuación, haga clic en **desinstalar** o use el menú **más aplicaciones** en el lado izquierdo.
+
+## <a name="purchase-services-for-third-party-apps"></a>Servicios de compra para aplicaciones de terceros
+
+Puede buscar y comprar licencias de servicios ofrecidos por aplicaciones de terceros para los usuarios de su organización directamente desde la página Manage apps. La columna **licencias** de la tabla indica si una aplicación ofrece una suscripción de SaaS de pagos. Haga clic en **comprar ahora** para ver los planes y la información de precios y comprar licencias para los usuarios. Para obtener más información, vea [servicios de compra de aplicaciones de terceros para equipos en el centro de administración de Microsoft Teams](purchase-third-party-apps.md).
 
 ## <a name="manage-org-wide-app-settings"></a>Administrar la configuración de la aplicación en toda la organización
 

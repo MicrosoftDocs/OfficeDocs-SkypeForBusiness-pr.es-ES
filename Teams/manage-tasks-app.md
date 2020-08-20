@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 48465336e0c3657b8bfd1d3adb1eb69c239ecdb6
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042497"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814236"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación tareas de su organización en Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "44042497"
 
 ## <a name="overview-of-tasks"></a>Descripción general de las tareas
 
-La aplicación tareas ofrece una experiencia de administración de tareas cohesiva a Microsoft Teams, lo que integra tareas personales con tecnología de [Microsoft to do](https://todo.microsoft.com/tasks/) y las tareas de equipo con la tecnología Planner en un solo lugar. Los usuarios pueden tener acceso a las tareas como una aplicación en el lado izquierdo de los equipos y como una pestaña en un canal dentro de equipos individuales. Las **listas personales** y **las listas de equipos** de las tareas permiten a los usuarios ver y administrar todas sus tareas personales y de equipo y priorizar su trabajo. Tareas está disponible en equipos de escritorio, Web y móviles de equipos de escritorio. 
+La aplicación tareas ofrece una experiencia de administración de tareas cohesiva a Microsoft Teams, lo que integra tareas individuales con tecnología de [Microsoft to do](https://todo.microsoft.com/tasks/) y tareas de equipo desarrollado por Planner en un solo lugar. Los usuarios pueden tener acceso a las tareas como una aplicación en el lado izquierdo de los equipos y como una pestaña en un canal dentro de equipos individuales. **Mis tareas** y **planes compartidos** en tareas permiten a los usuarios ver y administrar todas sus tareas individuales y de equipo y priorizar su trabajo. Tareas está disponible en equipos de escritorio, Web y móviles de equipos de escritorio. 
 
 > [!NOTE]
 > A medida que implementemos la experiencia de tareas en los clientes de escritorio de Teams, el nombre de la aplicación aparecerá inicialmente como **planeador** para los usuarios. El nombre cambiará temporalmente a **tareas por Planner y tareas pendientes**, y después, se le cambiará el nombre a **tareas**. En los clientes móviles de Teams, los usuarios siempre verán el nombre de la aplicación como **tareas**. Es posible que haya un pequeño retraso en la disponibilidad de la experiencia móvil después de que la experiencia de escritorio esté disponible.
@@ -39,13 +39,13 @@ Para las organizaciones que desean simplificar la administración de tareas para
 
 ## <a name="what-you-need-to-know-about-tasks"></a>Lo que debe saber sobre las tareas
 
-Tareas está disponible como una aplicación y como una pestaña en un canal. Tenga en cuenta que la aplicación incluye las tareas personales de tareas pendientes y de equipo de Planner, mientras que la pestaña solo muestra tareas de equipo.
+Tareas está disponible como una aplicación y como una pestaña en un canal. Tenga en cuenta que la aplicación incluye las tareas individuales de tareas pendientes y de equipo desde Planner, mientras que la pestaña solo muestra tareas de equipo.
 
 Con las tareas, los usuarios obtienen una experiencia de escritorio, Web y móvil. Si se instala Tasks en el cliente de escritorio de Teams, los usuarios también la verán en sus equipos web y en sus clientes móviles. La excepción son los usuarios invitados. Es importante saber que los invitados solo pueden tener acceso a las tareas como una aplicación desde el cliente móvil de Teams. Los invitados verán las pestañas tareas en los equipos de escritorio y en los clientes Web.
 
-Las listas personales muestran las tareas individuales de un usuario. En las listas de equipos se muestran las tareas en las que está trabajando todo el equipo e incluye cualquier lista de tareas que se agregue como pestaña tareas a un canal. Tenga en cuenta lo siguiente:
+**Mis tareas** muestra las tareas individuales de un usuario. **Planes compartidos** muestra las tareas en las que está trabajando todo el equipo e incluye cualquier lista de tareas que se agregue como una ficha tareas a un canal. Tenga en cuenta lo siguiente:
 
-- Las listas personales que crea un usuario en la aplicación tareas también aparecerán en los clientes para ese usuario. Del mismo modo, las listas de tareas que un usuario cree en to do aparecerán en listas personales en las tareas de ese usuario. Lo mismo sucede con las tareas individuales.
+- Las listas de tareas que crea un usuario en la aplicación tareas también aparecerán en los clientes para ese usuario. Del mismo modo, las listas de tareas que un usuario cree en to do aparecerán en **mis tareas** en tareas para ese usuario. Lo mismo sucede con las tareas individuales.
 
 - Las pestañas de tareas que se agreguen a un canal también aparecerán en los clientes de Planner. Cuando un usuario crea un plan en Planner, el plan no se mostrará en la aplicación tareas o en Planner, a menos que se agregue como una pestaña a un canal. Cuando un usuario agrega una nueva pestaña tareas, puede crear una lista o un plan nuevos o elegir uno existente.
 
@@ -58,7 +58,7 @@ Las listas personales muestran las tareas individuales de un usuario. En las lis
 
 Tareas está habilitada de forma predeterminada para todos los usuarios de equipos de su organización. Puede desactivar o activar la aplicación en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del centro de administración de Microsoft Teams.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **aplicaciones** > de Teams**Manage apps** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **aplicaciones de Teams**  >  **Manage apps** .
 2. En la lista de aplicaciones, realice una de las siguientes acciones:
 
     - Para desactivar las tareas de su organización, busque la aplicación tareas, selecciónela y, a continuación, haga clic en **bloquear**.
@@ -70,13 +70,15 @@ Para permitir o bloquear a determinados usuarios de su organización el uso de t
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Usar una directiva de configuración de la aplicación para anclar tareas a teams
 
-Las directivas de configuración de la aplicación le permiten personalizar Teams para resaltar las aplicaciones más importantes para los usuarios de su organización. Las aplicaciones que establezca en una directiva se anclan a la barra&mdash;de la aplicación, que se encuentra en el costado del cliente de escritorio de Teams y en&mdash;la parte inferior de los clientes móviles de Teams donde los usuarios pueden acceder a ellas de forma rápida y fácil.
+Las directivas de configuración de la aplicación le permiten personalizar Teams para resaltar las aplicaciones más importantes para los usuarios de su organización. Las aplicaciones que establezca en una directiva se anclan a la barra de la aplicación, que se &mdash; encuentra en el costado del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams &mdash; donde los usuarios pueden acceder a ellas de forma rápida y fácil.
 
 Para anclar la aplicación tareas para los usuarios, puede editar la directiva global (opción predeterminada para toda la organización) o crear y asignar una directiva personalizada de configuración de la aplicación. Para obtener más información, vea [Administrar directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
-### <a name="hide-users-personal-lists-if-you-dont-want-users-to-see-them"></a>Ocultar las listas personales de los usuarios si no quiere que los usuarios las vean 
+### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Mis tareas de un usuario está visible si el usuario tiene una licencia de Exchange Online
 
-Si no quiere que los usuarios vean las listas personales, puede ocultarla. Para ello, [Quite la licencia de Exchange online del usuario](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Tenga en cuenta que después de quitar una licencia de Exchange Online, el usuario ya no tendrá acceso a su buzón. Los datos del buzón se conservan durante 30 días, después de los cuales se eliminan los datos y no se pueden recuperar a menos que el buzón de correo se coloque en [una conservación local o en una](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)retención por juicio.
+Si no desea que un usuario vea **mis tareas**, puede ocultarlo. Para ello, [Quite la licencia de Exchange online del usuario](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Es importante saber que después de quitar una licencia de Exchange Online, el usuario ya no tendrá acceso a su buzón.  Los datos del buzón se conservan durante 30 días, después de los cuales se eliminan los datos y no se pueden recuperar a menos que el buzón de correo se coloque en [una conservación local o en una](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)retención por juicio.
+
+No recomendamos esto a los trabajadores de la información, pero es posible que haya algunos escenarios en los que se pueda aplicar este tipo de trabajadores, como los de los trabajadores de los Firstline que no dependan de su correo electrónico.
 
 ## <a name="task-publishing"></a>Publicación de tareas
 

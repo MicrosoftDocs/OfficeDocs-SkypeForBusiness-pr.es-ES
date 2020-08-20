@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: En este artículo, obtendrá información sobre las directivas de mensajería y sobre cómo se pueden usar para controlar la mensajería de chat en Teams.
-ms.openlocfilehash: 75ea34b23f80538fad2cbf2b1e456ad6ab98ea2c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 0a548eee32fc196157b6a363dd0427b187e52112
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583297"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814186"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
 <!--- Add zone marker here--->
 
-Las directivas de mensajería se utilizan para controlar qué características de mensajería en canales y chats tienen disponibles los usuarios en Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas de mensajería personalizadas.
+Las directivas de mensajería se usan para controlar qué características de mensajería instantánea y mensajería están disponibles para [los usuarios (propietarios y miembros)](assign-roles-permissions.md) en Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas de mensajería personalizadas.
 
 Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada. Puede editar la configuración en la directiva global o crear y asignar una o más directivas personalizadas para activar o desactivar las características que desee.
 
@@ -53,7 +53,7 @@ A continuación, asigne la Directiva a los usuarios.
 
 ## <a name="edit-a-messaging-policy"></a>Editar una directiva de mensajería
 
-Puede editar la directiva global en cualquier directiva personalizada que cree. 
+Puede editar la directiva global y las directivas personalizadas que cree. 
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **directivas de mensajería**.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
@@ -112,3 +112,4 @@ Estos son los valores de configuración de la Directiva de mensajería que puede
 ### <a name="related-topics"></a>Temas relacionados
 
 - [Asignar directivas a los usuarios de Teams](assign-policies.md)
+- [Asignar miembros y propietarios de equipo en Microsoft Teams](assign-roles-permissions.md)
