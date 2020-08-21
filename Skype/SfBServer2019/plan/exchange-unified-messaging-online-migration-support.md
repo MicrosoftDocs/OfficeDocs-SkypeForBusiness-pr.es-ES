@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 587a6f0e17729181d7e0ba2389ed32faee07ff71
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778042"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824901"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -176,6 +176,7 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | VM | Inquilino-características de administración | Directiva de correo de voz    |   | v | v    |
 | VM | Inquilino-características de administración | Administración de portal web   |  | CY19   | v    |
 | VM | Inquilino-características de administración | PowerShell   |  | v | v    |
+| MU | Características de usuario | Indicador de mensaje en espera (MWI) en teléfonos certificados para Skype empresarial   |Puede ser proporcionada por un asociado de teléfono  | No | Sí    |
 | AQ | Características del servicio | AA admite PBX de terceros    |  | N | v    |
 | AQ | Características del servicio | Compatibilidad con Skype empresarial Server   |  | v | v    |
 | AQ | Características del servicio | Soporte técnico de Microsoft Teams|  | v | N    |
