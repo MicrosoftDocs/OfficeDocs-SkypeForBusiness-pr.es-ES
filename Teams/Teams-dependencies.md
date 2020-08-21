@@ -18,12 +18,12 @@ f1.keywords:
 description: Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9ecf6893539204909bb6f583bbba982e8ee8d19
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6bf763caf0b44490ee578f0bf130a1d4db56a3b
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656161"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845572"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 ===========================================
@@ -60,7 +60,13 @@ La configuración de las invitaciones se aplica a nivel de inquilino y controla 
 
 Azure AD incluye las siguientes opciones para configurar usuarios externos:
 
-- **Los permisos de usuario invitado están limitados**: **Sí** significa que los invitados no tienen permiso para determinadas tareas de directorio, como enumerar los usuarios, grupos y otros recursos de directorio. Además, los invitados no se pueden asignar a las funciones administrativas en el directorio. **No** significa que los invitados tienen el mismo acceso a los datos que los usuarios normales en el directorio.
+- **Restricciones de acceso de usuario invitado**: esta directiva define permisos para invitados en el directorio. Existen tres opciones de directiva.
+
+    - La configuración **Los usuarios invitados tienen el mismo acceso que los miembros (más inclusiva)** significa que los invitados tienen el mismo acceso a los datos del directorio como los usuarios habituales del directorio.
+    - La configuración **Los usuarios invitados tienen acceso limitado a las propiedades y la pertenencia a los objetos de directorio** significa que los invitados no tienen permisos para determinadas tareas de directorio, como la enumeración de usuarios, grupos u otros recursos de directorio con Microsoft Graph.
+    - La configuración **El acceso de usuarios invitados está restringido a las propiedades y la pertenencia a sus propios objetos de directorio (más restrictiva)** significa que los invitados solo puedan tener acceso a sus propios objetos de directorio.
+    
+  Para obtener más información, vea [¿Cuáles son los permisos de usuario predeterminados en Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
 - **Los administradores y los usuarios con el rol Invitador de usuarios pueden invitar**: **Sí** significa que los administradores y usuarios con la función Invitador de usuarios podrán añadir invitar a usuarios en el espacio empresarial. **No** significa que los administradores y usuarios no pueden invitar a usuarios en el espacio empresarial.
 - **Los miembros pueden invitar**: para permitir que los miembros de su directorio que no sean administradores inviten a otros usuarios, establezca esta directiva en **Sí** (recomendado). Si prefiere que solo los administradores puedan agregar invitados, puede establecer esta directiva en **No**. Tenga en cuenta que, al establecer **No**, se limitará la experiencia de invitado para los propietarios de equipos que no sean administradores. Solo podrán agregar invitados a los equipos que el administrador ya haya agregado en AAD.
 - **Los invitados pueden invitar**: **Sí** significa que los invitados en el directorio pueden invitar a otros usuarios a colaborar en recursos protegidos por Azure AD, como sitios de SharePoint o recursos de Azure. **No** significa que los invitados no pueden invitar a otros invitados para colaborar con su organización.
@@ -76,7 +82,6 @@ No es necesario agregar la cuenta de usuario invitado manualmente en Azure AD B2
 
 ### <a name="licensing-for-guest-access"></a>Licencias para acceso de invitado
 Las licencias de acceso de invitado forman parte de la licencia de Azure AD. El acceso de invitado está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar y Office 365 Enterprise. Para obtener más información sobre las licencias, consulte [Guía de concesión de licencias de colaboración B2B de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
-
 
 > [!NOTE]
 > Los usuarios de su organización que solo tengan planes de suscripción de Office 365 independientes, como Exchange Online Plan 2, no pueden participar como invitados en su organización porque Teams considera que estos usuarios pertenecen a la misma organización. Para que estos usuarios puedan usar Teams, deben tener asignada una suscripción a Microsoft 365 Empresa Estándar, Office 365 Enterprise u Office 365 Education. 
