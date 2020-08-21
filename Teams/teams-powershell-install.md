@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 966dd62a9917c616c53fc57e13ca468e64acf218
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085886"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824941"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar Microsoft Teams PowerShell
 
@@ -73,8 +73,11 @@ Install-Module PowerShellGet -Force -AllowClobber
 
 Para instalar la versión preliminar pública de Teams PowerShell, ejecute el siguiente comando de PowerShell.
 
+> [!NOTE]
+> Puede encontrar la versión preliminar más reciente en la [Galería de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) o en PowerShell ejecutando "Find-Module MicrosoftTeams-AllowPrerelease"
+
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 ```
 
 ## <a name="install-the-skype-for-business-online-connector"></a>Instalar el conector de Skype empresarial online
@@ -99,13 +102,13 @@ Para empezar a trabajar con Teams PowerShell, inicie sesión con sus credenciale
 > Si está usando la última versión de la [versión preliminar pública de Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), no necesita instalar el conector de Skype empresarial online.
 
 ```powershell
-$credential = Get-Credentials
+$credential = Get-Credential
 
 #Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credentials $credential
+Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credentials $credential
+$session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 

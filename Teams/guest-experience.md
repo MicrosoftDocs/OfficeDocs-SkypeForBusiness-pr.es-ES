@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 591cd6447f9430905fce1e84f22708d19adf70c5
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655951"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845582"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -40,6 +40,8 @@ Consulte estos vídeos sobre la experiencia de invitado en Teams:
 - [Unirse a un equipo como invitado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [Unirse a una reunión de equipos con invitados](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
+> [!NOTE]
+> Los administradores de Microsoft 365 y Office 365 controlan las características disponibles para los invitados.
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparación de las capacidades de miembro de equipo y de invitado
 
@@ -64,7 +66,6 @@ En la siguiente tabla se compara la funcionalidad de Teams disponible para los m
 |Usar traducción en línea  <br/> |&#x2713;||
 |Convertirse en propietario del equipo  <br/> |&#x2713;||
 
-   
 En la tabla siguiente se muestran las características de llamadas y reuniones disponibles para los invitados, en comparación con otros tipos de usuarios.
 
 | Característica de llamadas | Invitado | Usuario E1 y E3 | E5 y usuarios de la telefonía IP empresarial |
@@ -95,34 +96,46 @@ En la tabla siguiente se muestran las características de llamadas y reuniones d
 | Puede tener delegados | No | No | Sí |
 |  Puede ser un delegado | No | No | Sí |
 
-
 <sup>1</sup> esta característica estará disponible próximamente.
 
 > [!NOTE]
-> Los administradores de Microsoft 365 y Office 365 controlan las características disponibles para los invitados. 
+> La Directiva de **restricciones de acceso de usuario invitado** en Azure Active Directory (Azure ad) determina los permisos para los invitados de su directorio. Existen tres opciones de directiva.
+>  - Los **usuarios invitados tienen el mismo acceso que la configuración de miembros (la mayoría)** significa que los invitados tienen el mismo acceso a los datos de directorio que los usuarios normales de su directorio.
+>  - Los **usuarios invitados tienen acceso limitado a las propiedades y la pertenencia a la configuración de los objetos de directorio** significa que los invitados no tienen permisos para determinadas tareas de directorio, como la enumeración de usuarios, grupos u otros recursos de directorio con Microsoft Graph.
+>  - El **acceso de usuarios invitados está restringido a las propiedades y miembros de su propia configuración de objetos de directorio (la más restrictiva), lo que significa que** los invitados solo tienen acceso a sus propios objetos de directorio.
+>
+>Para obtener más información, consulte [¿Cuáles son los permisos de usuario predeterminados en Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 ### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>¿Cómo abandono una organización a la que me han invitado?
+
 Si ha sido invitado a una organización de la que no desea ser invitado, puede elegir abandonar la organización. Para obtener más información, vaya a [abandonar una organización como usuario invitado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). También puede pedir al administrador de la organización que lo quite de su inquilino. Tenga en cuenta que en cualquiera de los casos tendrá que volver a invitar al inquilino si desea obtener acceso a la organización en el futuro.
 
 ### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>¿Los invitados tienen las mismas funciones que los miembros del equipo?
+
 No. Para obtener más información sobre lo que un invitado puede hacer y qué no, vaya a [comparación de las capacidades de miembro del equipo y de invitado](#comparison-of-team-member-and-guest-capabilities) en este artículo.
 
 ### <a name="do-guests-have-access-to-onedrive-for-business"></a>¿Tienen acceso los invitados a OneDrive para la empresa?
+
 No.
 
 ### <a name="do-guests-have-access-to-sharepoint-files"></a>¿Los invitados tienen acceso a los archivos de SharePoint?
+
 Sí.
 
 ### <a name="can-guests-search-within-files"></a>¿Pueden los invitados buscar en archivos?
+
 No.
 
 ### <a name="can-guests-attach-files"></a>¿Los invitados pueden adjuntar archivos?
+
 Sí, un invitado puede adjuntar archivos de estas dos maneras:
 
-   - Seleccione **archivos** en el panel izquierdo y, a continuación, vaya a la ubicación del archivo.
-   - Cargar archivos desde su equipo.
+  - Seleccione **archivos** en el panel izquierdo y, a continuación, vaya a la ubicación del archivo.
+  - Cargar archivos desde su equipo.
 
 ### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>¿Puede un invitado descargar un archivo en una conversación privada?
+
 Sí, pueden recibir un archivo de un miembro en un chat privado y, a continuación, descargarlo en el escritorio.
+
