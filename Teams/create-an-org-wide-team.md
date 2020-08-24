@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7c1ad054fb12ade67a15d2e8c80c1a68178c1dc9
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086227"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860821"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de la organización en Microsoft Teams
 
@@ -86,6 +86,10 @@ Si esto no es una opción, puede usar PowerShell para crear un equipo público y
 
 Los administradores globales pueden convertir un equipo existente en un equipo de toda la organización editándolo en el cliente de Teams. Vaya al nombre del equipo, haga clic en**más opciones** > **Editar equipo**.
 
-## <a name="see-also"></a>Consulte también
+### <a name="can-i-create-an-org-wide-team-using-a-team-template"></a>¿Puedo crear un equipo para toda la organización con una plantilla de equipo?
 
-Vea un video sobre la [creación de un equipo de toda la empresa en Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Las plantillas de equipo no se pueden usar para crear un equipo de toda la organización. El trabajo para esta característica está actualmente en curso. 
+
+## <a name="see-also"></a>Vea también
+
+Vea un vídeo sobre cómo [crear un equipo de toda la empresa en Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

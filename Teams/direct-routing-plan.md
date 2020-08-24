@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788714"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860811"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -163,7 +163,7 @@ El certificado debe ser generado por una de las siguientes entidades emisoras de
 
 - AffirmTrust
 - Raíz de la entidad emisora de AddTrust externa
-- Baltimore CyberTrust Root
+- Raíz de Baltimore CyberTrust *
 - Buypass
 - Cybertrust
 - Entidad de certificación principal pública de clase 3
@@ -185,6 +185,11 @@ El certificado debe ser generado por una de las siguientes entidades emisoras de
 - TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
+
+
+
+> [!NOTE]
+> * Si la compatibilidad con TLS Mutual (MTLS) está habilitada para la conexión de Teams en el SBC, debe instalar el certificado raíz de Baltimore CyberTrust en el almacén raíz de confianza de SBC del contexto de TLS de Teams. (Esto se debe a que los certificados de servicio de Microsoft usan el certificado de raíz de Baltimore). Para descargar el certificado de la raíz de Baltimore, consulte [cadenas de cifrado de Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).
 
 Microsoft está trabajando en la adición de entidades de certificación adicionales basadas en solicitudes de los clientes. 
 

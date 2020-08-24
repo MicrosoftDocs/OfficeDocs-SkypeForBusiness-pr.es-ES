@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: 5a43a34ac130f4b5b168d46fa2a69476c42abd7b
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634736"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860801"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Introducción a las plantillas de Teams en la consola de administración de Teams
 
@@ -71,7 +71,6 @@ Una vez que se define un tipo de plantilla base, puede extender o invalidar esta
 > [!NOTE]
 > Las plantillas básicas predefinidas proporcionadas en Microsoft Teams se pueden duplicar, pero no editar.
 
-
 | Tipo de plantilla base | Propiedades que vienen con esta plantilla base |
 | ------------------ |----------------------------------------------------- |
 | Adopción de Office 365 |  Canales <ul><li>General</li> <li>Anuncios</li> <li>La esquina de los campeones</li> <li>Formularios de equipo</li></ul> Phone <ul><li>Wiki</li>  <li>Calendario</li> |
@@ -88,6 +87,22 @@ Una vez que se define un tipo de plantilla base, puede extender o invalidar esta
 |Calidad y seguridad |Canales <ul><li>General<li>Anuncios</li><li>Línea 1</li><li>Línea 2</li><li>Línea 3</li><li>Opera</li><li>Aprendizaje</li><li>Mantenimiento</li><li>Cosas divertidas</li></ul> Phone <ul><li>Wiki</li></ul>|
 |Colaboración minorista-Gerente |Canales <ul><li>General<li>Operations</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
 |||
+
+## <a name="template-size-limits"></a>Límites de tamaño de plantilla
+
+Las plantillas se limitan a un número específico de canales, pestañas y aplicaciones.
+
+ > [!Note]
+ > Puede agregar más canales, pestañas y aplicaciones al equipo después de que se haya creado a partir de una plantilla.
+
+|Característica | Límite|
+|-|-|
+|Canales por plantilla | 4,5 |
+|Pestañas por canal en una plantilla | veinte |
+|Aplicaciones por plantilla | 50|
+|||
+
+Para obtener más información [, consulte límites y especificaciones de Teams](limits-specifications-teams.md) .
 
 ## <a name="related-topics"></a>Temas relacionados
 
