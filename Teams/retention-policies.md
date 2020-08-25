@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45247389"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864574"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -192,7 +192,7 @@ Los siguientes son problemas conocidos para las directivas de retención en Team
 
 - En **Elegir usuarios** en la fila de ubicación de **Chats de Teams**, es posible que vea invitados y usuarios que no son buzones. Las directivas de retención no están pensadas para ser establecidas para invitados y estamos trabajando para quitarlas de la lista.
 
-- El asistente de ciclo de vida de Exchange (ELC) se ejecuta a diario, pero tiene un Acuerdo de Nivel de Servicio de 7 días. Como resultado, es posible que, si tiene una directiva de retención de Teams para eliminar elementos anteriores a 60 días, estos elementos se puedan guardar hasta 67 días. Esto no es una nueva situación: sigue el modelo de Exchange. Por supuesto, en la mayoría de los casos, no hay ningún retraso.
+- El Asistente de ciclo de vida de Exchange (ELC) se ejecuta diariamente, pero se sabe que la latencia se ha ejecutado hasta 7 días, en algunos casos. Como resultado, es posible que, si tiene una directiva de retención de Teams para eliminar elementos anteriores a 60 días, estos elementos se puedan guardar hasta 67 días. Esto no es una nueva situación: sigue el modelo de Exchange. Por supuesto, en la mayoría de los casos, no hay ningún retraso.
 
 ## <a name="related-topics"></a>Temas relacionados
 

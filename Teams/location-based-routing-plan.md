@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572245"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864584"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -257,7 +257,11 @@ Un usuario con capacidad de enrutamiento basado en la ubicación en una llamada 
 
 Si implementas el enrutamiento basado en la ubicación en India, también es necesario configurar la omisión de medios. Para obtener más información, vea [planear la omisión de multimedia con el enrutamiento directo](direct-routing-plan-media-bypass.md) y la [optimización de medios locales para el enrutamiento directo](direct-routing-media-optimization.md).
 
-## <a name="next-steps"></a>Siguientes pasos
+### <a name="direct-voice-over-ip-voip"></a>Voz sobre IP directa (VoIP)
+
+La voz directa sobre IP (VoIP) no debe implementarse con ningún equipo de telefonía en la India.
+
+## <a name="next-steps"></a>Pasos siguientes
 
 Vaya a [configurar la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md).
 
