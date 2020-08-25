@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: f3a9166f6e1bb9659a7fb43b9e7c35dba673f176
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868437"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868689"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -43,7 +43,7 @@ Si el operador automático del sistema telefónico o la cola de llamadas van a n
 
 Si el operador automático o la cola de llamadas están anidados bajo un operador automático de nivel superior, la cuenta de recurso asociada solo necesita un número de teléfono si desea tener varios puntos de entrada en la estructura de los operadores automáticos y las colas de llamadas.
 
-Para redirigir las llamadas a los usuarios de su organización que estén hospedados en línea, deben tener una licencia de **sistema telefónico** y estar habilitados para telefonía IP empresarial o tener planes de llamadas de Microsoft 365 o Office 365. Consulte [asignar licencias de Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitarlos para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirigir las llamadas a los usuarios de su organización que estén hospedados en línea, deben tener una licencia de **sistema telefónico** y estar habilitados para telefonía IP empresarial o tener planes de llamadas de Microsoft 365 o Office 365. Consulte [asignar licencias de Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitarlos para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Si el operador automático del sistema telefónico o la cola de llamadas que está creando estarán anidados y no necesitará un número de teléfono, el proceso es:
 
@@ -83,6 +83,8 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
     ```
 
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obtener más información sobre este comando.
+    
+    Nota: en este momento, es posible que la cuenta se haya sincronizado, pero el aprovisionamiento no se ha completado.  Compruebe el resultado de [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Si el punto de conexión sincronizado todavía no ha completado el aprovisionamiento, no aparecerá aquí.  Puede comprobar el estado de las solicitudes de aprovisionamiento en el portal de M365 en [Teams Setup status](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  Esta fase de aprovisionamiento puede tardar hasta 24 horas.
 
 5. Asigne la licencia de sistema telefónico o usuario virtual a la cuenta del recurso. Consulte [asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) y [asignar licencias a usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -117,7 +119,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
 8. Asocie la cuenta de recurso con el operador automático de sistema telefónico o la cola de llamadas que eligió anteriormente.
 
-Un ejemplo de implementación de una pequeña empresa está disponible en [Small Business ejemplo: configurar un operador automático](/microsoftteams/tutorial-org-aa) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Un ejemplo de implementación de una pequeña empresa está disponible en  [Small Business ejemplo: configurar un operador automático](/microsoftteams/tutorial-org-aa) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Crear una cuenta de recurso sin un número de teléfono
 
@@ -148,7 +150,7 @@ Inicie sesión en el servidor front-end de Skype empresarial y ejecute los sigui
    - [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Asocie la cuenta de recurso y el operador automático o la cola de llamadas del sistema telefónico que eligió anteriormente.
 
-Un ejemplo de implementación de una pequeña empresa está disponible en [Small Business ejemplo: configurar un operador automático](/microsoftteams/tutorial-org-aa) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Un ejemplo de implementación de una pequeña empresa está disponible en  [Small Business ejemplo: configurar un operador automático](/microsoftteams/tutorial-org-aa) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Probar la implementación
 
@@ -191,7 +193,7 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
    En este punto, si ya ha migrado el correo de voz de mensajería unificada, debe estar en una ubicación para migrar a Exchange Server 2019.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)
 
