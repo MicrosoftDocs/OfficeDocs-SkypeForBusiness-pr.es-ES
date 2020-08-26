@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: daeacf5e5019dd8b63ef19b194b241cbdfe9d84f
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672761"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864514"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -180,6 +180,26 @@ Ya que Teams se ejecuta en un back-end de SharePoint Online para compartir archi
 Las copias de seguridad de los canales se encuentran en carpetas dentro de la colección de sitios de SharePoint Online que se creó para el equipo, por lo que las pestañas de archivo de los canales comparten los límites de almacenamiento del equipo al que pertenecen.
 
 Para obtener más información, vea [Límites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## <a name="class-teams"></a>Equipos de clase
+
+Microsoft Teams para Educación ofrece plantillas diseñadas para escenarios educativos únicos, como la enseñanza en el aula. Puede obtener más información sobre los tipos de equipo, incluidos los equipos de clase, en [Elegir un tipo de equipo para colaborar en Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+
+Un equipo de clase es un tipo de plantilla con aplicaciones adicionales incluidas y con límites separados para el número de miembros del equipo.
+
+> [!NOTE]
+> Se requiere una [Licencia de Microsoft Office 365 para el ámbito educativo](https://www.microsoft.com/education/products/office) para usar los equipos de clase.
+
+En la siguiente tabla se muestran los límites de los equipos de clase:
+
+|Característica  |Límite máximo  |
+|---------|---------|
+|Número de miembros de un equipo    | Vea la sección [Equipos y canales](#teams-and-channels) de este artículo        |
+|Número de miembros que pueden usar Tareas en un equipo de clase    | 200        |
+|Número de miembros para usar un Bloc de notas de clase de OneNote en un equipo de clase     |200         |
+
+Un equipo de clase puede admitir a más de 200 miembros. Sin embargo, si tiene previsto usar la aplicación Tareas o la aplicación Bloc de notas de clase en su equipo, tendrá que mantener el número de miembros por debajo de los límites máximos mencionados.
+
 
 ## <a name="tags"></a>Etiquetas
 
