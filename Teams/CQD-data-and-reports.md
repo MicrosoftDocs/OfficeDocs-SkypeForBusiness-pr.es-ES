@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga más información sobre los datos y los informes disponibles en el panel de calidad de llamadas de Microsoft (CQD).
-ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4b96f64f7f182c0d4c95796358b20b38d8c726b4
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583097"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897850"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en el panel de calidad de llamadas (CQD)
 
@@ -59,14 +59,14 @@ Descargue [dos plantillas de informe de CQD de protegida](https://aka.ms/qertemp
 
 4. Repita los pasos 2 y 3 para la segunda plantilla de CQD.
 
-> [!NOTE]
-> Cada usuario debe importar las plantillas del CQD a su instancia de CQD. 
+   > [!NOTE]
+   > Cada usuario debe importar las plantillas del CQD a su instancia de CQD. 
 
 
 
 ## <a name="euii-data"></a>Datos de EUII
 
-Por razones de cumplimiento, los datos de información identificable (EUII) de los usuarios finales (también conocidos como información de identificación personal o PII) solo se conservan durante 30 días. A medida que los datos NRT cruzan la marca de 30 días, los campos que contienen EUII se borran, lo que da como resultado datos NRT de EUII gratuitos. Los campos que contienen datos de EUII son los siguientes:
+Por razones de cumplimiento, los datos de información identificable (EUII) del usuario final (también conocidos como información de identificación personal o PII) solo se mantienen por 28 días. A medida que los datos NRT cruzan la marca de 28 días, los campos que contienen EUII se borran, lo que da como resultado datos NRT gratuitos de EUII. Los campos que contienen datos de EUII son los siguientes:
 
 - Dirección IP completa
 - Dirección de control de acceso de medios (MAC)
@@ -151,12 +151,12 @@ En los informes detallados, puede usar la dimensión **es equipos** para filtrar
 
 Estos son los informes que verá en el panel del CQD cuando inicie sesión por primera vez en el CQD. Proporcionan una visión rápida de las tendencias de calidad con informes diarios, mensuales y de tablas para ayudarle a identificar las subredes que tienen una mala calidad. 
 
-|Limitado  |  |
+| Limitado | Descripción |
 |---------|---------|
-|Calidad general de las llamadas     | Agregar las otras 3 pestañas        |
-|Servidor: cliente     |Detalles de las transmisiones entre los puntos de conexión de servidor y cliente         |
-|Cliente: cliente     |Detalles de las transmisiones entre dos puntos de conexión cliente         |
-|SLA de calidad de voz     |Información sobre las llamadas incluidas en el [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252) de calidad de voz de Skype empresarial         |
+|Calidad general de las llamadas     | Agregar las otras 3 pestañas.       |
+|Servidor: cliente     |Detalles de las transmisiones entre los puntos de conexión de servidor y cliente.        |
+|Cliente: cliente     |Detalles de las transmisiones entre dos puntos de conexión cliente.        |
+|SLA de calidad de voz     |Información sobre las llamadas incluidas en el [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)de calidad de voz de Skype empresarial.        |
 
 ### <a name="overall-call-quality-tab"></a>Ficha calidad general de las llamadas
 
@@ -164,7 +164,7 @@ Use los datos de esta pestaña para evaluar el estado de la calidad de la llamad
   
 ![Captura de pantalla: Mostrar la pestaña calidad de la llamada](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Las transmisiones se clasifican en tres grupos: buenos, deficientes y no clasificados. También se calculan valores *deficientes de%* que le dan la proporción de las transmisiones clasificadas como *malas* para el número total de streams clasificados. Debido a la mala transferencia de *% = secuencias defectuosas/(secuencias deficientes, secuencias muy buenas) * 100*, el *mal porcentaje* no se ve afectado por la presencia de varias secuencias sin *clasificar* . Para ver qué clasifica una secuencia como mala o buena, consulte [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).
+Las transmisiones se clasifican en tres grupos: buenos, deficientes y no clasificados. También se calculan valores  *deficientes de%*  que le dan la proporción de las transmisiones clasificadas como *malas*  para el número total de streams clasificados. Debido a la mala transferencia de *% = secuencias defectuosas/(secuencias deficientes, secuencias muy buenas) * 100*, el *mal porcentaje*  no se ve afectado por la presencia de varias secuencias sin *clasificar*  . Para ver qué clasifica una secuencia como mala o buena, consulte [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).
   
 Use la escala de la izquierda para medir los valores de recuento de transmisiones.
   
@@ -202,13 +202,14 @@ De forma similar, la ficha cliente-cliente tiene cinco secciones contraíbles:
 
 #### <a name="inside-versus-outside"></a>Dentro frente a fuera
 
-El CQD clasifica una secuencia como *dentro* o *fuera* mediante la información de compilación, si existe. Los puntos de conexión de cada secuencia están asociados con una dirección de subred. Si la subred está en la lista de subredes marcada como InsideCorp en la información de la compilación cargada, se considera *dentro*. Si aún no se ha cargado la generación de información, la prueba dentro de siempre clasifica las transmisiones como *externas*. 
+El CQD clasifica una secuencia como  *dentro*  o *fuera*  mediante la información de compilación, si existe. Los puntos de conexión de cada secuencia están asociados con una dirección de subred. Si la subred está en la lista de subredes marcada como InsideCorp en la información de la compilación cargada, se considera *dentro*. Si aún no se ha cargado la generación de información, la prueba dentro de siempre clasifica las transmisiones como *externas*. 
 
 La prueba de dentro para un escenario de cliente de servidor solo tiene en cuenta el punto de conexión de cliente. Como los servidores siempre están fuera del punto de vista del usuario, esto no se tiene en cuenta en la prueba.
   
 #### <a name="wired-versus-wifi"></a>Con cable frente a WiFi
 
 Como indican los nombres, los criterios de clasificación se basan en el tipo de conexiones de cliente. El servidor está siempre cableado y no está incluido en el cálculo. En una transmisión determinada, si uno de los dos puntos de conexión está conectado a una red WiFi, el CQD lo clasifica como WiFi.
+
 > [!NOTE]
 > Dada una transmisión por secuencias, si uno de los dos puntos de conexión está conectado a una red WiFi, se clasifica como WiFi en el CQD.
   
@@ -217,8 +218,8 @@ Como indican los nombres, los criterios de clasificación se basan en el tipo de
 
 El panel informes de resumen del CQD incluye una página de **carga de datos de inquilino** , a la que se accede seleccionando carga de datos de **inquilino** en el menú configuración en la esquina superior derecha. Esta página se usa para que los administradores carguen su propia información, por ejemplo:
 
-- Mapa de dirección IP e información geográfica
-- Un mapa de cada punto de conexión inalámbrico y su dirección MAC
+- Un mapa de la dirección IP y la información geográfica.
+- Un mapa de cada punto de conexión inalámbrico y su dirección MAC.
 - Un mapa de punto final para la marca, modelo o tipo de extremo, etc.
   
 Le recomendamos que cargue los datos de espacio empresarial, creación y ubicación para que el CQD pueda incluir esta información en los informes. Si aún no ha cargado estos datos, lea el [espacio empresarial de carga y los datos de compilación](CQD-upload-tenant-building-data.md). 
@@ -226,13 +227,13 @@ Le recomendamos que cargue los datos de espacio empresarial, creación y ubicaci
 
 ## <a name="detailed-reports"></a>Informes detallados
 
-|Nombre  |  |
+| Nombre | Descripción |
 |---------|---------|
 |Informes de ubicación mejorada     |Muestra tendencias de calidad en función de la información de ubicación. Este informe solo aparece si ha [cargado los datos de su espacio empresarial](CQD-upload-tenant-building-data.md).        |
-|Informes de confiabilidad     |Incluye informes de audio, vídeo, uso compartido de pantalla basado en vídeo (VBSS) y uso compartido de aplicaciones         |
+|Informes de confiabilidad     |Incluye informes de audio, vídeo, pantalla compartida basada en vídeo (VBSS) y uso compartido de aplicaciones.        |
 |Informes sobre la calidad de la experiencia     |Calidad de audio y confiabilidad para todos los clientes y dispositivos, incluidas las salas de reuniones. Estos informes son una versión "Slimmed" de las [plantillas de CQD](https://aka.ms/QERtemplates)descargables, centrándose en las áreas clave para analizar la calidad y la fiabilidad del audio.         |
-|Informes de calidad desglosada     | Explorar en profundidad: fecha por región, ubicaciones, subredes, hora y usuarios         |
-|Informes de error de análisis detallado     | Explorar en profundidad: fecha por región, ubicaciones, subredes, hora y usuarios        |
+|Informes de calidad desglosada     | Desglose: fecha por región, ubicaciones, subredes, hora y usuarios.        |
+|Informes de error de análisis detallado     | Desglose: fecha por región, ubicaciones, subredes, hora y usuarios.        |
 |Clasifica mis informes de llamadas     |Analizar la clasificación de llamadas de usuario por región, ubicación o usuario. Incluye comentarios literales.         |
 |Informes del Departamento de soporte técnico     |Los informes de asistencia ayudan a consultar los datos de las llamadas y las reuniones de usuarios individuales, grupos de usuarios o todos los usuarios. Con la incorporación de datos de construcción y EUII, estos informes le ayudan a identificar posibles problemas del sistema basados en la ubicación de la red, detalles de la Conferencia, dispositivos o firmware.         |
 |Informes de versión de cliente     |Resumen de la versión del cliente: ver las sesiones y los recuentos de usuarios de cada versión de la aplicación cliente<br><br>Versión del cliente por usuario: ver los nombres de usuario de cada versión de la aplicación cliente <br><br>Los filtros predefinidos para el tipo de producto y cliente ayudan a centrar las versiones en clientes específicos.         |
@@ -243,7 +244,8 @@ Le recomendamos que cargue los datos de espacio empresarial, creación y ubicaci
 
 Si los informes predeterminados del CQD no satisfacen sus necesidades, siga estas instrucciones para crear un informe personalizado. O (a partir de enero de 2020) [use Power BI para informes de CQD ](cqd-power-bi-query-templates.md).
 
-En la lista desplegable de informes, en la parte superior de la pantalla, que se muestra al inicio de sesión \( la pantalla **informes de Resumen** \) , seleccione **informes detallados** y, a continuación, **nuevo**. Haga clic en **Editar** en un informe para ver el editor de consultas. Cada informe está respaldado por una consulta dentro del cubo. Un informe es una visualización de los datos devueltos por su consulta. El editor de consultas le ayuda a editar estas consultas y las opciones de presentación del informe.
+En la lista desplegable de informes, en la parte superior de la pantalla, que se muestra al inicio de sesión \( la pantalla **informes de Resumen** \) , seleccione **informes detallados**  y, a continuación, **nuevo**. Haga clic en **Editar** en un informe para ver el editor de consultas. Cada informe está respaldado por una consulta dentro del cubo. Un informe es una visualización de los datos devueltos por su consulta. El editor de consultas le ayuda a editar estas consultas y las opciones de presentación del informe.
+
 > [!IMPORTANT]
 > El intervalo de red se puede usar para representar una superred (combinación de varias subredes con un único prefijo de enrutamiento). Todas las nuevas cargas de creación se marcarán para todos los intervalos superpuestos. Si ha cargado previamente un archivo de compilación, debe descargar el archivo actual y volver a cargarlo para identificar cualquier solapamiento y corregir el problema antes de volver a cargar. Cualquier solapamiento de los archivos cargados previamente puede dar lugar a asignaciones erróneas de subredes a edificios de los informes. Ciertas implementaciones de VPN no informan con precisión de la información de subred. Se recomienda que al agregar una subred VPN al archivo de creación, en lugar de una entrada para la subred, se agreguen entradas independientes para cada dirección de la subred VPN como una red de 32 bits independiente. Cada fila puede tener los mismos metadatos de compilación. Por ejemplo, en lugar de una fila para 172.16.18.0/24, debe tener 256 filas, con una fila por cada dirección entre 172.16.18.0/32 y 172.16.18.255/32, ambos incluidos.
 >
@@ -306,7 +308,7 @@ Para seleccionar varios valores de filtro, empiece agregando un filtro nuevo al 
 
 Después, haga clic en **Buscar** (un icono de lupa junto al nuevo filtro). Verá un campo de texto y varias opciones, entre las que se incluyen **seleccionar todo** e **invertir**. Escriba un valor y haga clic en **Buscar** , junto a ese campo, para buscar. Como alternativa, deje el campo de texto en blanco y haga clic en **Buscar** para ver hasta las primeras 100 opciones.
 
-```PowerShell
+```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -318,7 +320,7 @@ Ejemplo
 Ciertos informes de CQD tienen los filtros de nivel de panel agregados, lo que facilita la tarea de filtrar por parámetros comunes. Estos filtros aparecen fuera de las pestañas del informe normal y directamente debajo del filtro de producto, y se aplican a todos los filtros del panel.
 
 ![Captura de pantalla de un filtro de panel](media/qerguide-image-dashboardfilters.png)
-```PowerShell
+```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -329,29 +331,29 @@ La exclusión de datos federados de informes de CQD es útil cuando se corrigen 
 
 Para agregar un filtro, anexe lo siguiente al final de la dirección URL:
 
-```
+```console
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
 Ejemplo  
 
-```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+`https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]`
 
 Para agregar un filtro de nivel de panel a una dirección URL, ese filtro debe existir en el CQD como filtro de nivel de panel o producto. Agregue estos filtros a la dirección URL después del mes de tendencia y antes de los parámetros de la dirección URL:
 
-```filter/DATA_MODEL_NAME|VALUE```
+`filter/DATA_MODEL_NAME|VALUE`
 
 Por ejemplo, para aplicar un valor de filtro de producto de Microsoft Teams, debe agregar lo siguiente:
 
-```filter/[AllStreams].[Is%20Teams]|[True]```
+`filter/[AllStreams].[Is%20Teams]|[True]`
 
 La dirección URL completa tendría un aspecto similar a este:
 
-```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+`https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]`
 
 Para aplicar filtros de URL con valores de selección múltiple, separe cada valor con un carácter de barra vertical (|). Por ejemplo:
 
-```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
+`filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 
 Si especifica un nombre o valor no válido, no se aplicará el filtro de dirección URL.
 
@@ -369,23 +371,22 @@ Puede usar un filtro de URL para filtrar cada informe para una dimensión espec�
 
 El identificador de inquilino de CQD corresponde al identificador de directorio de Azure. Si no conoce el identificador de su directorio, puede encontrarlo en el portal de Azure:
 
-1.  Inicie sesión en el portal de Microsoft Azure:<https://portal.azure.com>
+1.  Inicie sesión en el portal de Microsoft Azure: <https://portal.azure.com>
 
 2.  Seleccione **Azure Active Directory**.
 
 3.  En **administrar**, seleccione **propiedades**. Su identificador de inquilino se encuentra en el cuadro **identificador de directorio** .
 
 También puede encontrar su identificador de inquilino con PowerShell: 
-  ```
-  Login-AzureRmAccount
-  ```
 
-
+```powershell
+Login-AzureRmAccount
+```
 
 ## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparación de equipos y datos del CQD de Skype empresarial
 
 Incluso dentro del último CQD (cqd.teams.microsoft.com), verá diferencias en los datos entre los equipos y Skype empresarial. Algunas razones:
-- Diferencias en los mecanismos para garantizar el rendimiento y la confiabilidad
+- Diferencias en los mecanismos para garantizar el rendimiento y la confiabilidad:
   - Teams tiene la reconexión automática y la itinerancia rápida. Skype para empresas no lo hace.
   - Teams tiene administración dinámica de ancho de banda. Skype para empresas no lo hace.
 - Diferencias en los [intervalos de direcciones IP](Office-365-URLs-IP-address-ranges.md) entre Teams y Skype empresarial. Los intervalos IP de Teams son más recientes, lo que puede provocar problemas de conectividad en el firewall.
@@ -395,10 +396,12 @@ Incluso dentro del último CQD (cqd.teams.microsoft.com), verá diferencias en l
 ![Un icono del logotipo de Skype empresarial ](media/sfb-logo-30x30.png) **con el portal heredado de Skype empresarial**
 
 1. Inicie sesión en su organización de Office 365 con una cuenta de administrador y, a continuación, seleccione el icono **Administrador** para abrir el centro de administración.
+
 2. En el panel izquierdo, en **centros de administración**, seleccione **Microsoft Teams** para abrir el centro de administración de Teams.
+
 3. En el centro de administración de Teams, seleccione **portal heredado** en el panel izquierdo, seleccione **herramientas**y, a continuación, seleccione **Panel de calidad de llamadas de Skype empresarial online**.
 
-     ![Captura de pantalla: seleccionar el panel de calidad de llamadas](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+   ![Captura de pantalla: seleccionar el panel de calidad de llamadas](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
 
 4. En la página que se abre, inicie sesión con su cuenta de administrador global y, a continuación, proporcione las credenciales de la cuenta cuando se le solicite.
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 587a6f0e17729181d7e0ba2389ed32faee07ff71
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824901"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897820"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -149,7 +149,8 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | VM | Características de usuario | Registrar saludos personales (RTC): reproducción en teléfono |  | N | v    |
 | VM | Características de usuario | Configuración del usuario para deshabilitar la transcripción |  | N | v    |
 | VM | Características de usuario | Transcripción  |  | v | v    |
-| VM | Características de usuario | Correo de voz de visual en todos los extremos   | Con control de usuario para reproducir, eliminar, indicador de mensaje en espera y alternar estado, en todos los extremos admitidos  | v | v    |
+| VM | Características de usuario | MWI (indicador de mensaje en espera) mediante mensajes de notificación SIP |  | N | v    |
+| VM | Características de usuario | Correo de voz de visual en todos los extremos   | Con control de usuario para reproducir, eliminar, notificar mensajes en espera y alternar estado, en todos los extremos admitidos  | v | v    |
 | VM | Características de usuario | Formato de archivo de audio MP3 en Outlook    |  | v | v    |
 | VM | Características de usuario | Control de reproducción de velocidad variable |  | v | v    |
 | VM | Características de usuario | Reenviar un correo de voz  | Reenviar correo de voz recibido a otros usuarios | v | v    |

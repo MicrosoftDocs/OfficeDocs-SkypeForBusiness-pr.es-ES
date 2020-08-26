@@ -20,12 +20,12 @@ description: El administrador de Teams o de TI puede configurar el acceso extern
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: e845012b35bddc32c357d416d8fbb2cbe160d84a
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: b3d6eafe5f2ab5989e5b21a060901dc317332127
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814196"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897830"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 ======================================================
@@ -118,7 +118,7 @@ Para obtener más información sobre las formas en las que pueden comunicarse lo
 |Permitir que los **usuarios de Teams** de su organización se comuniquen con **usuarios de Skype Empresarial Online** de la misma organización.  |Habilite el modo de coexistencia o elija el modo de actualización de aplicaciones aisladas para admitir usuarios de Skype Empresarial de su organización.   |
 |Permitir que los **usuarios de Teams** de su organización se comuniquen con **usuarios de Skype Empresarial Online** de otra organización (externa).      |En Acceso externo, agregue el dominio externo a la lista de permitidos o use la federación abierta. <br><br>En Acceso externo, active la opción **Los usuarios pueden comunicarse con otros usuarios de Skype Empresarial y Teams**. Después, haga que el administrador de la otra organización de Teams haga lo mismo. <br><br>**NOTA**: El dominio externo con los usuarios de Skype Empresarial debe habilitar el modo de coexistencia o elegir el modo de actualización de aplicaciones aisladas para admitir usuarios de Skype Empresarial de esa organización.|
 |Permita que **los usuarios de Teams** de la organización se comuniquen con **usuarios locales de Skype empresarial** en otra organización (externa).      |En Acceso externo, agregue el dominio externo a la lista de permitidos o use la federación abierta. <br><br>En Acceso externo, active la opción **Los usuarios pueden comunicarse con otros usuarios de Skype Empresarial y Teams**. A continuación, haga que el administrador de la otra organización configure el servidor local de Skype empresarial para permitir la Federación con su dominio.|
-|Permitir que los **usuarios de Teams** de su organización se comuniquen con usuarios de **Skype**.<br> (en la versión preliminar)  |En Acceso externo, active la opción **Los usuarios pueden comunicarse con usuarios de Skype**. |
+|Permitir que los **usuarios de Teams** de su organización se comuniquen con usuarios de **Skype**.<br>  |En Acceso externo, active la opción **Los usuarios pueden comunicarse con usuarios de Skype**. |
 |Permita que los **usuarios de Skype empresarial online** se comuniquen con **los usuarios de Teams** en otro Microsoft 365 u Office 365.| Los usuarios de Skype Empresarial Online podrán comunicarse con los usuarios de Teams de otra organización si los primeros se encuentran en uno de los siguientes modos de actualización: aplicaciones aisladas, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; y los usuarios de Teams de la otra organización se encuentran en el modo TeamsOnly. <br><br>En Acceso externo, active la opción **Los usuarios pueden comunicarse con otros usuarios de Skype Empresarial y Teams**. Después, haga que el administrador de la otra organización de Teams haga lo mismo.|
 |Permita que los **usuarios de Skype empresarial online** se comuniquen con **usuarios de Skype empresarial online** desde otro Microsoft 365 u Office 365.    | Los usuarios de Skype Empresarial Online podrán comunicarse con los usuarios de Skype Empresarial Online de otra organización si los primeros se encuentran en uno de los siguientes modos de actualización: aplicaciones aisladas, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; y los usuarios de Skype Empresarial Online de la otra organización se encuentran en los siguientes modos de actualización: aplicaciones aisladas, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings.<br><br>En Acceso externo, active la opción **Los usuarios pueden comunicarse con otros usuarios de Skype Empresarial y Teams**. Después, haga que el administrador de la otra organización de Teams haga lo mismo.|
 |Permitir que sus **usuarios de Skype Empresarial Online** se comuniquen con **usuarios de Skype Empresarial** de una organización local.     |Los usuarios de Skype empresarial online pueden comunicarse con usuarios de Skype empresarial desde una organización local si los usuarios tienen uno de los siguientes modos de actualización: Islas, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings. <br><br> En Acceso externo, active la opción **Los usuarios pueden comunicarse con otros usuarios de Skype Empresarial y Teams**. A continuación, haga que el administrador de la otra organización configure el servidor local de Skype empresarial para permitir la Federación con su dominio.|

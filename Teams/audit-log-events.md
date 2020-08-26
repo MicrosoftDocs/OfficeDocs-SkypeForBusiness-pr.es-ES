@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría en el centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778012"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897710"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -162,9 +162,9 @@ Si su organización usa la aplicación turnos en Teams, puede buscar en el regis
 
 |Nombre descriptivo  |Operación  |Descripción  |
 |---------|---------|---------|
-|Grupo de programación agregado      |SchedulingGroupAdded          |Un usuario agrega correctamente un nuevo grupo de programación a la programación.          |
-|Grupo de programación editado     |SchedulingGroupEdited         |Un usuario modifica correctamente un grupo de programación.          |
-|Grupo de programación eliminado         |SchedulingGroupDeleted              |Un usuario elimina correctamente un grupo de programación de la programación.|
+|Grupo de programación agregado |ScheduleGroupAdded          |Un usuario agrega correctamente un nuevo grupo de programación a la programación.|
+|Grupo de programación editado     |ScheduleGroupEdited         |Un usuario modifica correctamente un grupo de programación.          |
+|Grupo de programación eliminado         |ScheduleGroupDeleted              |Un usuario elimina correctamente un grupo de programación de la programación.|
 |Se ha agregado un turno      |ShiftAdded          |Un usuario agrega un turno correctamente.           |
 |Turno modificado       |ShiftEdited       |Un usuario modifica correctamente un turno.        |
 |Turno eliminado          |ShiftDeleted          | Un usuario elimina correctamente un turno.               |

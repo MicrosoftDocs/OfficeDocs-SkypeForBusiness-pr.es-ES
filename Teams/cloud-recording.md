@@ -16,12 +16,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662090"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897810"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -105,7 +105,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>Dónde se almacenan las grabaciones de reuniones
 
-Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de Microsoft Stream. Una vez que grabe una reunión, Microsoft Stream la conservará para siempre (o hasta que el propietario de la grabación la elimine). Si la grabación no se carga en la secuencia, se almacena en el almacenamiento en la nube de Teams, que está disponible para su descarga durante 20 días. Actualmente, la característica de grabación de reuniones está desactivada para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país en la que se almacenan los datos.
+Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de Microsoft Stream. Las grabaciones se conservan y están disponibles para su visualización y descarga durante veintiún días. Actualmente, la característica de grabación de reuniones está desactivada para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país en la que se almacenan los datos. En el futuro se activará la característica de grabación de reuniones para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país.
+
+Cuando este cambio se haya hecho efectivo, las grabaciones de reuniones se almacenarán de forma predeterminada en la región geográfica más cercana para Microsoft Stream. Si los datos de Teams se almacenan en el país y prefiere almacenar las grabaciones de reuniones en el país, se recomienda que desactive la característica y la active después de que se implemente Microsoft Stream en su región de residencia de datos del país. Para desactivar la característica para todos los usuarios de su organización, desactive la opción **permitir la grabación** en la nube de la Directiva de reunión global de Teams, que se encuentra en el centro de administración de Microsoft Teams.
+
+Aquí se muestra un resumen de lo que ocurre al activar la grabación de reuniones cuando este cambio se haga efectivo:
+
+|Si activa las grabaciones de la reunión...|Las grabaciones de reuniones se almacenan... |
+|---|---|
+|Antes de que Microsoft Stream esté disponible en su región de residencia de datos en el país |En la región de Microsoft Stream más cercana|
+|Después de que Microsoft Stream esté disponible en su región de residencia de datos en el país |En la región de residencia de datos en el país|
+
+En caso de los espacios empresariales nuevos y existentes que todavía no hayan activado la grabación de reuniones, las nuevas grabaciones se almacenan en el país después de que Microsoft Stream esté disponible en la región de residencia de datos del país. Sin embargo, cualquier inquilino que permita la grabación de reuniones antes de que Microsoft Stream esté disponible en la región de residencia del país seguirá usando el almacenamiento de Microsoft Stream para las grabaciones nuevas y existentes, incluso después de que Microsoft Stream esté disponible en la región de residencia de datos en el país.
 
 Para buscar la región donde se almacenan los datos de Microsoft Stream, en Microsoft Stream, haga clic en **?** en la esquina superior derecha, haga clic en **Acerca de Microsoft Stream** y, después, haga clic en **Los datos se almacenan en**.  Para obtener más información sobre las regiones donde Microsoft Stream almacena datos, consulte [Preguntas frecuentes sobre Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
