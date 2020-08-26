@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533907"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868709"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
 
@@ -74,7 +74,9 @@ Antes de asignar directivas a los usuarios, tiene que agregar y crear las defini
 De forma predeterminada, todos los usuarios nuevos (estudiantes o educadores) tendrán asignada la definición de directiva global (predeterminada para toda la organización) para cada área de funciones. Le recomendamos que siga estos pasos:
 
 1. Cree una definición de directiva personalizada para cada área de funcionalidad de Teams que luego pueda asignarse a sus educadores (sin esto, cualquier cambio que realice en la directiva global restringirá a los educadores hasta que tengan su propia directiva).
+
 1. Asigne a los educadores esta nueva definición de directiva.
+
 1. Actualice la definición de directiva global (predeterminada para toda la organización) y asígnela a los alumnos.
 
 Para crear o editar definiciones de directiva, vaya al área de funcionalidad de la directiva en la que quiera trabajar (por ejemplo, directivas de mensajería). Seleccione **Agregar** si quiere crear una nueva definición de directiva personalizada (que realizará para la definición de directiva personalizada que cree para educadores). En caso contrario, para cambiar una definición de directiva existente, seleccione **Editar** (que será lo que haga si decide actualizar la directiva global para estudiantes).
@@ -155,26 +157,52 @@ Cada directiva individual se indica con el nombre del paquete de directivas para
 Para asegurarse de que los alumnos no puedan programar una reunión para comunicarse sin supervisión, en las directivas de reunión establezca en **Desactivado** las funciones de creación de reunión a través de esta configuración general:
 
 - **Permitir la opción Reunirse ahora en canales**: desactivado
+
 - **Permitir el complemento de Outlook**: desactivado
+
 - **Permitir la programación de reuniones de canal**: desactivado
+
 - **Permitir la programación de reuniones privadas**: desactivado
 
-![Estudiantes en la página de aprendizaje remoto, con la sección General en la que se muestran todas las opciones desactivadas.](media/edu-policy-list-a.png)
+  ![Estudiantes en la página de aprendizaje remoto, con la sección General en la que se muestran todas las opciones desactivadas.](media/edu-policy-list-a.png)
 
 - Y en la misma página, en la sección de Participantes e invitados en la reunión:
+
   - **Permitir Reunirse ahora en reuniones privadas:**: desactivado
   - **Permitir chat en reuniones**: deshabilitado
 
-![Sección de Participantes e invitados, con la opción permitir Reunirse ahora en reuniones privadas puesta en Desactivado.](media/edu-participants-and-guests.png)
+  ![Sección de Participantes e invitados, con la opción permitir Reunirse ahora en reuniones privadas puesta en Desactivado.](media/edu-participants-and-guests.png)
 
 Desactivando la opción **Permitir reunirse ahora en canales**, **Permitir la programación de reuniones en canales**, **Permitir la programación de reuniones privadas**, y **Reunirse ahora en reuniones privadas**para los estudiantes no sólo bloquea a los estudiantes de la programación de una reunión como organizador, sino que también proporciona las siguientes medidas de seguridad para la educación:
 
 - Si los estudiantes intentan unirse a la reunión antes que el educador, no podrán unirse a la reunión en la última versión de la aplicación Teams.
+
 - Aunque la creación de reuniones se aplica a todos los usuarios y a todas las licencias, las medidas de seguridad en el bloque de unión de reuniones descritas anteriormente sólo se aplican a los clientes de educación en los equipos en función del tipo de licencia de los usuarios.
+
+Aquí se muestra una tabla que describe la lógica para cada directiva de creación de reuniones:
+
+| Directiva de creación de reuniones | Crear una reunión | Iniciar una reunión desatendida | Omitir la sala de espera al unirse | Finalizar la reunión |
+| --- | --- | --- | --- | --- |
+| **Activada (p. ej., educador)** | Sí | Sí | Determinado por las [opciones de reunión](https://go.microsoft.com/fwlink/?linkid=2093366) | Sí, como organizador
+| **Apagada (p.ej., estudiante)** | No | No\*\* | Determinado por las [opciones de reunión](https://go.microsoft.com/fwlink/?linkid=2093366) | No
+
+> [!NOTE]
+> \*\* Esto solo se aplica a los usuarios con licencia EDU y aplica para reuniones, reuniones del canal, reuniones instantáneas y reuniones del canal instantáneo.
 
 Cuando se cambia la directiva de **Permitir el chat en las reuniones **para desactivar y bloquear a los estudiantes de la programación de las reuniones desde arriba mientras y mantener esta directiva para los educadores (para las reuniones que no se programan desde un canal o se reúnen ahora en un canal), los estudiantes no podrán chatear antes de que el educador se una a la reunión, ni después de la reunión. Podrán seguir viendo la historia del chat antes, durante y después de la reunión. Por ejemplo, podrán ver los mensajes del profesor, o el enlace de grabación de la reunión, si la reunión fue grabada.
 
 Si tanto los estudiantes como los educadores tienen desactivada la directiva de **Permitir chat en las reuniones**, nadie podrá chatear en la ventana de chat de la reunión. La medida de seguridad sobre la restricción del chat de reuniones descrita anteriormente sólo se aplica a los clientes de educación en Teams, basados en el tipo de licencia de los usuarios.
+
+Aquí se muestra una tabla que describe la lógica para permitir el chat en las reuniones:
+
+| Directiva para ‘Permitir el chat en las reuniones‘ | Ver el historial de chats en cualquier momento | Publicar mensajes durante la reunión | Publicar mensajes antes o después de la reunión |
+| --- | --- | --- | --- | 
+| **Activada para todos** | Sí | Sí | Sí |
+| **Apagada para todos los** | N/D | No aplicable | N/D |
+| **Activada para profesores y Desactivada para estudiantes** | Educador: Sí<br>Alumno Sí | Educador: Sí<br>Alumno Sí | Educador: Sí<br>Alumno No\*\* | 
+
+> [!NOTE]
+> \*\* Esto solo se aplica a los usuarios con licencia EDU y aplica para reuniones y reuniones instantáneas. No aplica para reuniones de canales ni reuniones del canal instantáneo.
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>Controlar si los alumnos pueden compartir o no sus vídeos durante las llamadas y reuniones
 
@@ -209,17 +237,20 @@ Para asegurarse de que los alumnos no pueden realizar llamadas privadas con otro
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Desactivar la posibilidad de eliminar o editar mensajes enviados
 
 - Para los alumnos: para asegurarse de que los mensajes que envían los alumnos no se eliminen o se modifiquen, los alumnos deben tener estas configuraciones en **Desactivado**:
+
   - **Eliminar mensajes enviados**
   - **Editar mensajes enviados**
+  
 - Para educadores: para asegurarse de que los formadores pueden moderar o eliminar los mensajes inadecuados que envíen los alumnos, los educadores deben tener estas opciones configuradas en **Activado**:
+
   - **Los propietarios pueden eliminar los mensajes enviados** (esta configuración permite a los educadores eliminar mensajes inadecuados de alumnos).
   - **Eliminar mensajes enviados**
   - **Editar mensajes enviados**
 
-![Estudiante en la página de aprendizaje remoto, configuración para mensajes enviados para estudiantes y profesores.](media/edu-delete-edit-sent.png)
+  ![Estudiante en la página de aprendizaje remoto, configuración para mensajes enviados para estudiantes y profesores.](media/edu-delete-edit-sent.png)
 
 > [!NOTE]
-> Para más información sobre este tema, consulte [Silenciar comentarios de los alumnos en un equipo de clase.](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
+> Para más información sobre este tema, consulte [Silenciar los comentarios de los alumnos en un equipo de clase](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
 
 #### <a name="control-whether-students-can-chat-privately"></a>Controlar si los alumnos pueden chatear de forma privada
 
@@ -254,7 +285,7 @@ Para asegurarse de que los alumnos no puedan crear un canal privado como espacio
 ![Página de directiva de equipos con el panel de directivas de Nuevo equipo en la parte derecha de la página, con la opción Crear canales privados en ese panel configurada como Desactivada.](media/edu-private-channels.png)
 
 > [!IMPORTANT]
-> Es probable que también quiera asegurarse de que los alumnos no puedan crear nuevos equipos en Microsoft Teams. Esta es en realidad una configuración de grupos de M365, y puede leer más al respecto [aquí](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+> Es probable que también quiera asegurarse de que los alumnos no puedan crear nuevos equipos en Microsoft Teams. En realidad, se trata de una opción de configuración de grupos de M365 y puede obtener más información en [Administrar quién puede crear Grupos de Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 ### <a name="app-permission-policies"></a>Directivas de permisos de aplicación
 
@@ -312,7 +343,9 @@ Las opciones de reunión le permiten controlar si los participantes de la reuni�
 ![Invitación para Unirse a la reunión de Microsoft Teams, las opciones de reunión se encuentran en el extremo derecho debajo del enlace de invitación.](media/edu-join-meeting-options.png)
 
 - Controle qué usuarios pueden entrar directamente en la reunión con la selección de **Quién puede pasar por alto la sala de espera**. Configúrelo en **Personas de mi organización** para impedir que los usuarios externos tengan la opción de ingresar y establezca **Las personas que llaman siempre omiten la sala de espera** en **Desactivado** para que los participantes tengan que esperar para poder participar en la reunión en lugar de unirse inmediatamente. También tiene la opción de **Anunciar cuando las personas que llaman se unen o se van**, y esto debe establecerse en **Activado** por lo que siempre estará al tanto de quién está en la reunión.
+
 - Controle quién se une a la reunión como moderador o asistente. Puede seleccionar **Solo yo** para designar al resto de los participantes como asistentes. Esta es la configuración más segura para las reuniones que se celebran en una configuración de clase.
+
   - Si espera tener más de un moderador en la reunión, seleccione **Usuarios específicos** y elija a los demás participantes que deben unirse como moderadores. Seleccione **Todos los usuarios** si quiere que todos los participantes se unan a la reunión como moderadores.
 
 :::image type="content" source="media/edu-meeting-options.png" alt-text="Lista desplegable de Usuarios que pueden omitir la sala de espera con Personas de mi organización seleccionado y el menú desplegable Quién pueden presentar con Solo yo seleccionado.":::
@@ -339,11 +372,11 @@ Se asigna un rol como moderador o asistente a todos los participantes de una reu
 
 - Para cambiar el rol de un participante, haga clic o pulse para **Mostrar participantes** en los controles de llamada. Haga clic con el botón derecho en el participante cuyo rol necesita cambiar y seleccione **Convertir en asistente** o **Convertir en moderador**.
 
-![Barra de personas que muestra una opción de menú, Convertir en asistente es la cuarta opción en el menú.](media/edu-make-attendee-menu.png)
+  ![Barra de personas que muestra una opción de menú, Convertir en asistente es la cuarta opción en el menú.](media/edu-make-attendee-menu.png)
 
 - Para obtener acceso rápido a las opciones de la reunión y cambiar la configuración de rol de la reunión tanto para los participantes actuales como para los usuarios que se unan a la reunión en el futuro, haga clic o pulse en **Más acciones** en los controles de llamada y después en **Mostrar detalles de la reunión** Encontrará el vínculo a las **Opciones de la reunión** junto al vínculo de la reunión.
 
-:::image type="content" source="media/edu-meeting-details.png" alt-text="Ventana de la reunión con el panel Detalles de la reunión en la parte derecha.":::
+  :::image type="content" source="media/edu-meeting-details.png" alt-text="Ventana de la reunión con el panel Detalles de la reunión en la parte derecha.":::
 
 ### <a name="mute-student-comments"></a>Silenciar comentarios de estudiante
 
@@ -367,4 +400,4 @@ Puede controlar cuándo los estudiantes pueden publicar y responder en los chats
 
 ## <a name="further-reading"></a>Lecturas adicionales
 
-Revise [Mantener a los estudiantes seguros mientras usa las reuniones en Teams para aprendizaje a distancia](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8) para obtener más información sobre cómo proteger a los estudiantes.
+Para obtener más información acerca de cómo proteger a los estudiantes, consulte [Mantener a los estudiantes seguros al usar las reuniones en Teams para el aprendizaje a distancia](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
