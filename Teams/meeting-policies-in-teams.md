@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: a075a432f57a6634a49e9442da0bdc215b1546d9
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640965"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255523"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "46640965"
 Las Directivas de reunión se usan para controlar las características disponibles para sus participantes en reuniones programadas por usuarios de la organización. Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas personalizadas. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o mediante [PowerShell](teams-powershell-overview.md).
 
 > [!NOTE]
-> Para obtener información sobre el uso de roles para administrar los permisos de moderadores y asistentes de reuniones, vea [roles de una reunión de Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> Para obtener información sobre el uso de roles para administrar los permisos de moderadores y asistentes de reuniones, vea [roles de una reunión de Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 Puede implementar directivas de las siguientes maneras, que afectan a la experiencia de la reunión para los usuarios antes de que se inicie una reunión, durante una reunión o después de una reunión.
 
@@ -76,7 +76,7 @@ Luego asigne la directiva a los usuarios:
 
 ## <a name="edit-a-meeting-policy"></a>Editar una directiva de reunión
 
-Puede editar la directiva global en cualquier directiva personalizada que cree. 
+Puede editar la directiva global en cualquier directiva personalizada que cree.
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  **Meeting policies**.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
@@ -102,7 +102,7 @@ Cuando selecciona una directiva existente en la página **directivas** de la reu
 - [Uso compartido de contenido](#meeting-policy-settings---content-sharing)
 - [Participantes & invitados](#meeting-policy-settings---participants--guests)
 
-::: zone-end 
+::: zone-end
 
 <a name="bkgeneral"> </a>
 
@@ -130,11 +130,37 @@ Si desactiva esta opción, los usuarios no podrán programar reuniones de Teams 
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir programación de reuniones de canal
 
-Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si los usuarios pueden programar una reunión en un canal de Teams.  Si lo desactiva, la opción **programar una reunión** no estará disponible para el usuario cuando inicie una reunión en un canal de Teams y la opción **Agregar canal** esté deshabilitada para los usuarios en Teams. El valor predeterminado es True.
+Use la Directiva de AllowChannelMeetingScheduling existente para controlar los tipos de eventos que se pueden crear en los calendarios de canal del equipo. Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si los usuarios pueden programar una reunión en un canal de Teams. El valor predeterminado es True.
 
-![Captura de pantalla que muestra la opción programar una reunión en Teams](media/meeting-policies-schedule-a-meeting.png)
+Si esta directiva está desactivada, los usuarios no podrán crear nuevas reuniones de canal. Sin embargo, el organizador del evento puede editar las reuniones de canal existentes.
 
-![Captura de pantalla que muestra la opción seleccionar un canal para reunirse en](media/meeting-policies-select-a-channel-to-meet-in.png)
+Programar una reunión se deshabilitará.
+
+![Captura de pantalla que muestra la opción programar una reunión en Teams](media/schedule-meeting-option.png)
+
+La selección de canal está deshabilitada.
+
+![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/meeting-policies-select-a-channel-to-meet-in.png)
+
+En la página publicaciones del canal, se deshabilitarán los siguientes elementos:
+
+- Botón **programar una reunión** en el cuadro de redacción de respuesta del canal.
+![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/schedule-meeting-disabled-in-chat2.png)
+- Botón **programar una reunión** en el encabezado del canal.
+![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/schedule-now-in-header.png)
+
+En el calendario del canal:
+
+- El botón **Agregar nuevo evento** en el encabezado del calendario del canal se deshabilitará.
+![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/add-new-event-disabled.png)
+- Los usuarios no podrán arrastrar y seleccionar un bloque de tiempo en el calendario de canal para crear una reunión de canal.
+- Los usuarios no pueden usar métodos abreviados de teclado para crear una reunión en el calendario del canal.
+
+En el centro de administración:
+
+La aplicación de calendario del canal se mostrará en la sección **aplicaciones de Microsoft** del panel de administración para las directivas de permisos.
+
+![Captura de pantalla que muestra la Directiva aplicaciones de Microsoft en la consola de administración de Teams.](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Permitir la programación de reuniones privadas
 
@@ -157,7 +183,7 @@ Esta es una directiva por usuario y se aplica antes de que se inicie una reunió
 
 ### <a name="allow-transcription"></a>Permitir la transcripción
 
-Esta es una combinación de una directiva por organizador y por usuario. Esta configuración controla si las características de subtítulos y transcripción están disponibles durante la reproducción de grabaciones de reunión. Si desactiva esta opción, las opciones **Buscar** y **CC** no estarán disponibles durante la reproducción de una grabación de reunión. La persona que inició la grabación necesita esta configuración activada para que la grabación también incluya transcripción. 
+Esta es una combinación de una directiva por organizador y por usuario. Esta configuración controla si las características de subtítulos y transcripción están disponibles durante la reproducción de grabaciones de reunión. Si desactiva esta opción, las opciones **Buscar** y **CC** no estarán disponibles durante la reproducción de una grabación de reunión. La persona que inició la grabación necesita esta configuración activada para que la grabación también incluya transcripción.
 
 Tenga en cuenta que la transcripción para las reuniones grabadas solo se admite en este momento para los usuarios que tienen el idioma de Teams establecido en inglés y cuando se habla de inglés en la reunión.
 
@@ -167,7 +193,7 @@ Tenga en cuenta que la transcripción para las reuniones grabadas solo se admite
 
 Esta es una combinación de una directiva por organizador y por usuario. Esta configuración controla si las reuniones de este usuario se pueden grabar. La grabación puede ser iniciada por el organizador de la reunión o por otro participante de la reunión si la configuración de directiva está activada para el participante y si es un usuario autenticado de la misma organización.
 
-Las personas de fuera de su organización, como los usuarios federados y anónimos, no pueden iniciar la grabación. Los usuarios invitados no pueden iniciar ni detener la grabación. 
+Las personas de fuera de su organización, como los usuarios federados y anónimos, no pueden iniciar la grabación. Los usuarios invitados no pueden iniciar ni detener la grabación.
 
 ![Captura de pantalla que muestra las opciones de grabación](media/meeting-policies-recording.png)
 
@@ -208,7 +234,7 @@ Esta es una directiva por usuario. Esta configuración determina la velocidad de
 
 Si no hay suficiente ancho de banda para una reunión, los participantes verán un mensaje que indica una mala calidad de la red.
 
-Para las reuniones que necesitan una experiencia de video de la más alta calidad, como las reuniones de los paneles CEO y los equipos en vivo, le recomendamos que configure el ancho de banda en 10 Mbps. Incluso cuando se establece la experiencia máxima, la pila de medios de Teams se adapta a condiciones de ancho de banda bajo cuando se detectan ciertas condiciones de red, según el escenario. 
+Para las reuniones que necesitan una experiencia de video de la más alta calidad, como las reuniones de los paneles CEO y los equipos en vivo, le recomendamos que configure el ancho de banda en 10 Mbps. Incluso cuando se establece la experiencia máxima, la pila de medios de Teams se adapta a condiciones de ancho de banda bajo cuando se detectan ciertas condiciones de red, según el escenario.
 
 ## <a name="meeting-policy-settings---content-sharing"></a>Configuración de la Directiva de reunión: uso compartido de contenido
 
@@ -242,9 +268,9 @@ Por el momento, los usuarios no pueden reproducir video ni compartir su pantalla
 
 ### <a name="allow-a-participant-to-give-or-request-control"></a>Permitir que un participante pueda ceder o solicitar el control
 
-Esta es una directiva por usuario. Esta configuración controla si el usuario puede ceder el control del escritorio o de la ventana compartidos a otros participantes de la reunión. Para darle el control, mantenga el mouse sobre la parte superior de la pantalla. 
+Esta es una directiva por usuario. Esta configuración controla si el usuario puede ceder el control del escritorio o de la ventana compartidos a otros participantes de la reunión. Para darle el control, mantenga el mouse sobre la parte superior de la pantalla.
 
-Si esta configuración está activada para el usuario, la opción **ceder el control** se muestra en la barra superior de una sesión compartida. 
+Si esta configuración está activada para el usuario, la opción **ceder el control** se muestra en la barra superior de una sesión compartida.
 
 ![Captura de pantalla que muestra la opción ceder control](media/meeting-policies-give-control.png)
 
@@ -264,7 +290,7 @@ Daniela puede ceder el control del escritorio o de la ventana compartidos a otro
 Para usar PowerShell para controlar quién puede ceder el control o aceptar solicitudes de control, use el cmdlet AllowParticipantGiveRequestControl.
 
 > [!NOTE]
-> Para conceder y tomar el control del contenido compartido durante el uso compartido, ambas partes deben usar el cliente de escritorio de Teams. El control no es compatible cuando cualquiera de las partes ejecuta Teams en un explorador. Esto se debe a una limitación técnica que planeamos solucionar. 
+> Para conceder y tomar el control del contenido compartido durante el uso compartido, ambas partes deben usar el cliente de escritorio de Teams. El control no es compatible cuando cualquiera de las partes ejecuta Teams en un explorador. Esto se debe a una limitación técnica que planeamos solucionar.
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Permitir que un participante externo pueda ceder o solicitar el control
 
@@ -294,7 +320,7 @@ Amanda puede compartir diapositivas de PowerPoint en reuniones incluso si es el 
 
 ### <a name="allow-whiteboard"></a>Permitir pizarra
 
-Esta es una directiva por usuario. Esta configuración controla si un usuario puede compartir la pizarra en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la Directiva del organizador de la reunión. 
+Esta es una directiva por usuario. Esta configuración controla si un usuario puede compartir la pizarra en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la Directiva del organizador de la reunión.
 
 Echemos un vistazo al ejemplo siguiente.
 
@@ -333,19 +359,18 @@ Esta configuración controla los participantes de la reunión en la sala de espe
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir a personas anónimas iniciar una reunión
 
-Se trata de una directiva por organizador que permite realizar reuniones de conferencia de acceso telefónico y no guía. Esta opción controla si los usuarios con acceso telefónico pueden unirse a la reunión sin un usuario autenticado de la organización en asistencia. El valor predeterminado es falso, lo que significa que los usuarios marcados esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión. 
+Se trata de una directiva por organizador que permite realizar reuniones de conferencia de acceso telefónico y no guía. Esta opción controla si los usuarios con acceso telefónico pueden unirse a la reunión sin un usuario autenticado de la organización en asistencia. El valor predeterminado es falso, lo que significa que los usuarios marcados esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
 
-**Nota:** Si es falso y un usuario con marcado se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de recepción. No hay ningún control de sala de recepción disponible para los usuarios marcados. 
-
+**Nota:** Si es falso y un usuario con marcado se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de recepción. No hay ningún control de sala de recepción disponible para los usuarios marcados.
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente personas
 
-Esta es una directiva por organizador. Esta opción controla si los usuarios pueden unirse a una reunión directamente o aguardar en la sala de espera hasta que un usuario autenticado las admita. Esta configuración no se aplica a los usuarios de acceso telefónico. 
+Esta es una directiva por organizador. Esta opción controla si los usuarios pueden unirse a una reunión directamente o aguardar en la sala de espera hasta que un usuario autenticado las admita. Esta configuración no se aplica a los usuarios de acceso telefónico.
 
 ![Captura de pantalla que muestra una reunión con un usuario en la sala de recepción](media/meeting-policies-lobby.png)
 
  Los organizadores de reuniones pueden hacer clic en **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración para cada reunión que programe.
- 
+
  **Nota:** En las opciones de la reunión, la configuración se denomina "quién puede omitir la sala de recepción"
   
 |Valor de configuración  |Comportamiento de combinación |
@@ -356,10 +381,9 @@ Esta es una directiva por organizador. Esta opción controla si los usuarios pue
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de recepción
 
-Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. El valor predeterminado es False. Si es falso, los usuarios con acceso telefónico esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y los retenga. Cuando el valor es true, los usuarios con marcado se unen automáticamente a la reunión cuando un usuario de la organización se une a la reunión. 
+Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. El valor predeterminado es False. Si es falso, los usuarios con acceso telefónico esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y los retenga. Cuando el valor es true, los usuarios con marcado se unen automáticamente a la reunión cuando un usuario de la organización se une a la reunión.
 
-**Nota:** Si un usuario se une a una reunión antes de que un usuario de la organización se una a la reunión, se colocará en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y se pueda tener acceso a ella. 
-
+**Nota:** Si un usuario se une a una reunión antes de que un usuario de la organización se una a la reunión, se colocará en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y se pueda tener acceso a ella.
 
 ### <a name="enable-live-captions"></a>Habilitar títulos en vivo
 

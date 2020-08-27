@@ -1,7 +1,7 @@
 ---
 title: Estacionamiento y recuperación de llamadas en Microsoft Teams
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Obtenga más información sobre cómo usar el servicio de atención telefónica y recuperar para poner una llamada en espera en el servicio de Teams en la nube.
-ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1fddc7acb6d670515fd5903731fab7cacd319f80
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582657"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255543"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 

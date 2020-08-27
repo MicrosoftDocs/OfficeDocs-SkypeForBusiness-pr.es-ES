@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: 0db8b037bdf67f920e1089ae8f67f477e85e3e06
+ms.sourcegitcommit: 39fa1aee7a5e067097b126aa619be5aa099888ff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864574"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903809"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -146,6 +146,14 @@ Para editar una directiva de retención de Teams, haga lo siguiente:
 3. Seleccione **editar** junto a lo que desea editar, realice los cambios que desee, haga clic en **guardar**y, a continuación, haga clic en **cerrar**.
 
     ![Captura de pantalla de las opciones de mensajes del canal de Teams y chats de Teams en la página elegir ubicaciones](media/retention-policies-edit.png)
+
+> [!WARNING]
+> Si ha configurado equipos específicos o usuarios específicos para que se incluyan para los mensajes de canal de Teams o los chats de Teams, y los modifica para quitar el último de la ubicación, la configuración de esa ubicación se revierte a **todos**. Asegúrese de que esta es la configuración que desea antes de guardar la Directiva.
+> 
+> Por ejemplo, si ha especificado un usuario de la conversación de equipos para incluir en su Directiva de retención que está configurada para eliminar datos y, a continuación, modifica la Directiva para quitar a este usuario, todos los usuarios estarán sujetos a la Directiva de retención que elimina de forma permanente los mensajes de chat de sus equipos. Lo mismo se aplica a las inclusiones de los mensajes de canal de Teams.
+> 
+> En este escenario, alterne la ubicación si no quiere que la configuración **todo** para los mensajes de canal de equipos o los mensajes de chats de Teams estén sujetas a la Directiva de retención. También puede especificar que no se excluya de la Directiva.
+
 
 #### <a name="delete-a-retention-policy"></a>Eliminar una directiva de retención
 

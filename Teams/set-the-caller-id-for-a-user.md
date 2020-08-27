@@ -1,7 +1,7 @@
 ---
 title: Establecer el identificador de llamada de un usuario
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Obtenga más información sobre la identificación de llamadas predeterminada de Microsoft 365 y Office 365 (el número de teléfono asignado a un usuario), también conocido como identificador de línea de llamada. Puede cambiar o bloquear la identificación de llamadas de un usuario.
-ms.openlocfilehash: 059e92f04f3d4a5df73ed9201f1f784f2bd01f30
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691126"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255433"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
 El sistema telefónico en Microsoft 365 y Office 365 proporciona una identificación de llamadas predeterminada que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Para obtener más información sobre cómo usar la identificación de llamadas en su organización, vaya a [cómo se puede usar la identificación de llamadas en la organización](how-can-caller-id-be-used-in-your-organization.md).

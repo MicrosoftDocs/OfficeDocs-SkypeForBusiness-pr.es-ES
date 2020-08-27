@@ -17,12 +17,12 @@ description: Aprenda a configurar el enrutamiento directo de las llamadas de Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576932"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255383"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -81,7 +81,7 @@ Actualmente se admiten los siguientes clientes.  Vuelva a consultar a menudo par
 
 ## <a name="assign-emergency-addresses"></a>Asignar direcciones de emergencia
 
-Puede asignar direcciones de emergencia tanto a los usuarios del plan de llamadas como a los identificadores de red necesarios para obtener dinámicamente una ubicación. (Se admiten la subred y el punto de conexión WiFi; la compatibilidad con el conmutador o puerto Ethernet está pendiente).
+Puede asignar direcciones de emergencia tanto a los usuarios del plan de llamadas como a los identificadores de red necesarios para obtener dinámicamente una ubicación. (Se admite la subred y el punto de conexión WiFi. El conmutador o puerto Ethernet es compatible con Windows 8,1 y versiones posteriores en este momento).
 
 Para admitir el enrutamiento automatizado de llamadas de emergencia dentro de los Estados Unidos, debe asegurarse de que las ubicaciones de emergencia asignadas a identificadores de red incluyan los códigos geográficas asociados. (Las direcciones de emergencia sin códigos geográficas no se pueden asignar a los identificadores de red necesarios para las ubicaciones dinámicas).
 
@@ -216,7 +216,7 @@ Algunos proveedores de servicios de enrutamiento de emergencia (ERSPs) de los Es
 
 - [Administrar las llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Administrar directivas de llamadas de emergencia](manage-emergency-calling-policies.md)
-- [Administrar las directivas de enrutamiento de llamadas de emergencia](manage-emergency-call-routing-policies.md)
+- [Administrar las directivas de enrutamiento de llamadas de emergencia ](manage-emergency-call-routing-policies.md)
 - [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md)
 - [Asignar o cambiar una ubicación de emergencia para el usuario](assign-change-emergency-location-user.md)
 - [Configuración de red para características de voz en la nube](cloud-voice-network-settings.md)

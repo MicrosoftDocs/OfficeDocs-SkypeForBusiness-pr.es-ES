@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897820"
+ms.locfileid: "47255443"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -150,7 +150,6 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | VM | Características de usuario | Configuración del usuario para deshabilitar la transcripción |  | N | v    |
 | VM | Características de usuario | Transcripción  |  | v | v    |
 | VM | Características de usuario | MWI (indicador de mensaje en espera) mediante mensajes de notificación SIP |  | N | v    |
-| VM | Características de usuario | Correo de voz de visual en todos los extremos   | Con control de usuario para reproducir, eliminar, notificar mensajes en espera y alternar estado, en todos los extremos admitidos  | v | v    |
 | VM | Características de usuario | Formato de archivo de audio MP3 en Outlook    |  | v | v    |
 | VM | Características de usuario | Control de reproducción de velocidad variable |  | v | v    |
 | VM | Características de usuario | Reenviar un correo de voz  | Reenviar correo de voz recibido a otros usuarios | v | v    |

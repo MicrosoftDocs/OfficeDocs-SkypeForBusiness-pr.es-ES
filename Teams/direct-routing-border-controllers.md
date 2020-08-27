@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Administrador puede saber qué controladores de borde de sesión (SBCs) se han certificado para el enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aa35fe23796f3ee248e2797aba86c9982aa8364
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: cf37165459d1d9f492b74cf9f0000eec45c632f2
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788724"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255373"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -78,6 +78,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                   |     Elemento de borde unificado (cubo) de Cisco para el enrutador de servicios en la nube serie 1000V       |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Elemento de borde unificado (cubo) de Cisco para enrutadores de servicios de agregación de la serie 1000      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borde de sesión de Avaya para la empresa (ASBCE)    |     &#10004;     |           |       Liberar 8.1.1       |     |    | 
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de borde de sesión Nokia    |     &#10004;     |           |       19,5 (1908)       |     |    | 
 
 <br/>
 <br/>

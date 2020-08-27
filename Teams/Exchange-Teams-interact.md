@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52f40e9eacc75c15720d5d908709c5840d9474b3
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 689b2fcad408f0fe18651ada1a5ed03467bea345
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803792"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255243"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -30,13 +30,16 @@ ms.locfileid: "46803792"
 
 Para la experiencia completa de Teams, todos los usuarios deben estar habilitados para la creación de grupos de Exchange Online, SharePoint Online y Microsoft 365.
 
-Los buzones de Exchange de los usuarios se pueden hospedar en línea o local. Para la integración en local, se recomienda disponer de una implementación híbrida completa de Exchange. Para obtener más información acerca de la configuración de una implementación híbrida, consulte [implementaciones híbridas de Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid).
+Los buzones de Exchange de los usuarios se pueden hospedar en línea o local.
 
 Los usuarios alojados en Exchange online o Exchange Dedicated vNext pueden usar todas las características de Teams. Pueden crear y unirse a equipos y canales, crear y ver reuniones, llamar y conversar, modificar imágenes de Perfil de usuario (si la Directiva de buzón de Outlook en la web lo permite), y agregar y configurar conectores, fichas y bots. Para obtener una lista más completa de las características disponibles, consulte la tabla siguiente.
 
 Los usuarios alojados en Exchange Online Dedicated (Legacy) deben sincronizarse con Azure Active Directory en Microsoft 365 u Office 365. Pueden crear y unirse a equipos y canales, agregar y configurar pestañas y bots, y usar las características de chat y llamada. Sin embargo, no pueden modificar las imágenes de perfil, administrar reuniones, obtener acceso a los contactos de Outlook ni administrar conectores.
 
-Los usuarios con buzones locales se deben sincronizar con Azure Active Directory. Pueden usar todas las características del escenario anterior, pero además pueden administrar reuniones, lo que proporciona a Exchange Server 2016 (actualización acumulativa 3) o posterior, se ejecuta localmente con OAuth configurado (preferiblemente a través del asistente de configuración híbrida de Exchange) según se describe en [configurar la autenticación de OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Para habilitar la delegación de calendario para estos usuarios, también debe completar los pasos 2-3 según se describe en [configurar la integración y OAuth entre Skype empresarial online y Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estos pasos proporcionarán a la aplicación de programación de Teams los permisos necesarios para confirmar los permisos de delegado.
+> [!IMPORTANT]
+> Para la integración en local, se recomienda encarecidamente tener una implementación híbrida completa de Exchange completa con Exchange Server 2016 o posterior para cumplir con los siguientes requisitos. Para obtener más información acerca de la configuración de una implementación híbrida, consulte [implementaciones híbridas de Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid).
+
+Los usuarios con buzones locales se deben sincronizar con Azure Active Directory. Pueden usar todas las características del escenario anterior, pero además, pueden administrar reuniones si se cumplen los requisitos [de los buzones hospedados en](#requirements-for-mailboxes-hosted-on-premises) la sección local.
 
 La siguiente tabla proporciona una referencia rápida y útil sobre la disponibilidad de las características basadas en el entorno de Exchange.
 
@@ -47,7 +50,7 @@ La siguiente tabla proporciona una referencia rápida y útil sobre la disponibi
 | **Exchange Online**                                                 | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí        | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí <sup>6</sup>        | Sí        | Sí                          | Sí                    | Sí                    |
 | **Exchange Online Dedicated vNext**                                 | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí        | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí <sup>6</sup>        | Sí        | Sí                          | Sí                    | Sí                    |
 | **Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)  | Sí <sup>1</sup> | Sí <sup>, 1, 2</sup> | Sí <sup> 3 | Sí                   | No                                | No                          | Sí          | Sí             | No                      | Sí <sup> 4 | Sí <sup> 5                   | Sí                    | Sí                    |
-| **Exchange local** (sincronizar con la configuración de OAuth de Azure ad & es necesario) | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí <sup> 3 | Sí                   | Sí (Exchange 2016 CU3 +)          | No                          | Sí          | Sí             | No                      | Sí <sup> 4 | Sí <sup> 5                   | Sí                    | Sí                    |
+| **Exchange local** (sincronizar con Azure ad) | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí <sup>3</sup> | Sí                   | Sí <sup>8</sup>         | No                          | Sí          | Sí             | No                      | Sí <sup> 4 | Sí <sup> 5                   | Sí                    | Sí                    |
 
 <sup>1</sup> las opciones de hospedaje admiten EDiscovery y retención legal para el cumplimiento de los mensajes de canal.
 
@@ -61,11 +64,15 @@ los mensajes de chat privado de <sup>2</sup> equipos aún no son compatibles con
 
 <sup>6</sup> solo los contactos de la carpeta contactos predeterminada. No se admite el acceso a otras carpetas o subcarpetas de contactos.
 
-<sup>7</sup> Teams respeta la configuración de la [Directiva de buzón de correo web de Outlook](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) que está configurada por los administradores de inquilinos para controlar si los usuarios pueden cambiar su imagen de perfil. Si la opción **-SetPhotoEnabled** está desactivada en la Directiva, los usuarios no pueden agregar, modificar ni quitar su imagen de perfil. Por ejemplo, si un usuario carga una imagen de perfil aprobada por el Departamento de ti o de RRHH de su organización, no es necesario realizar ninguna acción. Sin embargo, si un usuario carga una imagen que no es apropiada, cámbiela de acuerdo con las directivas internas de la organización.
+<sup>7</sup> Teams respeta la configuración de la [Directiva de buzón de correo web de Outlook](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) que está configurada por los administradores de inquilinos para controlar si los usuarios pueden cambiar su imagen de perfil. Si la opción **-SetPhotoEnabled** está desactivada en la Directiva, los usuarios no pueden agregar, modificar ni quitar su imagen de perfil. Por ejemplo, si un usuario carga una imagen de perfil aprobada por el Departamento de ti o de RRHH de su organización, no es necesario realizar ninguna acción. Sin embargo, si un usuario carga una imagen inadecuada, cámbiela de acuerdo con las directivas internas de la organización.
+
+<sup>8</sup> necesita cumplir los requisitos enumerados en [los requisitos para los buzones hospedados en una sección local](#requirements-for-mailboxes-hosted-on-premises) .
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para sacar el máximo provecho de Microsoft Teams
 
 Microsoft Teams funciona con varios servicios de Microsoft 365 y Office 365 para ofrecer a los usuarios una experiencia enriquecida. Para admitir esta experiencia, debe habilitar ciertas características o servicios y asignar licencias.
+
+- Los usuarios deben tener asignada una licencia de Exchange Online.
 
 - Para poder compartir y almacenar archivos en las conversaciones del equipo se requiere SharePoint Online. Microsoft Teams no es compatible con SharePoint local.
 
@@ -73,16 +80,42 @@ Microsoft Teams funciona con varios servicios de Microsoft 365 y Office 365 para
 
 - Los usuarios deben estar habilitados para la creación de grupos de Microsoft 365 para crear equipos en Microsoft Teams.
 
-- Para permitir que Microsoft Teams funcione con Exchange local, debe configurar el nuevo protocolo de autenticación de OAuth de Exchange, preferiblemente ejecutando el Asistente de implementación híbrida de Exchange, como se describe en [configurar la autenticación OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Para que los buzones locales funcionen con el acceso al calendario, Teams necesita acceder a la organización local de Exchange para la detección automática y EWS, y los buzones deben ubicarse en Exchange 2016 CU3 o versiones posteriores. Para permitir que los usuarios con buzones locales de Exchange programen reuniones de Teams en nombre de otro usuario, también debe completar los pasos 2 y 3 tal como se describe en [configurar la integración y OAuth entre Skype empresarial online y Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
-
-> [!NOTE]
-> El complemento de equipos de Outlook se puede usar para programar una reunión de equipos para buzones hospedados en Exchange local. Sin embargo, la programación de una reunión de los equipos en nombre de otro usuario con Exchange local requiere Exchange 2016 CU3 y versiones posteriores, así como el nuevo protocolo de autenticación OAuth de Exchange. Tanto el delegado como el delegador deben tener un buzón en Exchange local.
-
-> [!NOTE]
-> Para la integración de Exchange local y de Teams, es necesario asignar la licencia necesaria para el usuario sincronizado de AAD.
-
 > [!IMPORTANT]
 > Si desinstala el cliente de Skype empresarial después de mover un usuario al modo **solo para equipos** , es posible que el estado de presencia deje de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Para resolver este problema, seleccione su imagen de perfil en la esquina superior derecha de Microsoft Teams y, a continuación, seleccione **configuración**. En la pestaña **General** , en **aplicación**, seleccione **registrar equipos como la aplicación de chat de Office (se debe reiniciar las aplicaciones de Office)**. Después de seleccionar esta opción, cierre y vuelva a abrir todas las aplicaciones de Office, incluido Outlook. Después de abrir Outlook, la información de presencia estará disponible.
+
+## <a name="requirements-for-mailboxes-hosted-on-premises"></a>Requisitos para buzones alojados en local
+
+Si los usuarios desean tener la capacidad de programar una reunión de Teams con Exchange Server local, deben cumplirse los siguientes requisitos:
+
+- Es necesario asignar la licencia de Teams requerida para el usuario sincronizado de Azure Active Directory.
+
+- Los usuarios deben estar sincronizados con Azure Active Directory. Para obtener más información sobre cómo usar Azure AD Connect para sincronizar con Azure Active Directory, consulte la documentación de la [identidad híbrida](https://docs.microsoft.com/azure/active-directory/hybrid/).
+
+- Los buzones se hospedan en la actualización acumulativa 3 de Exchange Server 2016 o una versión posterior.
+
+- Detección automática y los servicios Web de Exchange se publican externamente.
+ 
+> [!NOTE]
+> La detección automática (automática) de la versión 2 es necesaria para que el servicio de los equipos pueda realizar una detección sin autenticar del buzón del usuario. La versión 2 automática es compatible con Exchange 2016 CU3 y versiones posteriores.
+
+- La autenticación de OAuth se configura preferiblemente mediante el Asistente de configuración híbrida de Exchange que ejecuta una configuración híbrida completa (clásica o moderna). Si no puede usar el Asistente para la configuración híbrida, configure OAuth como se describe en [configurar la autenticación OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+
+> [!NOTE]
+> El token de OAuth de Exchange confía del servicio de Teams, que se conoce como EvoSTS. El paso 1 debe ser suficiente, pero solo el EvoSTS; ACS se usa para la búsqueda de disponibilidad en el calendario.
+
+- Se establece la casilla de verificación de la característica implementación híbrida de Exchange en Azure AD Connect.
+
+- Para el soporte técnico de la aplicación de calendario y el complemento de Outlook para Mac, las direcciones URL del servicio Web de Exchange deben configurarse como SPN en Azure AD de inquilino para la entidad de servicio de Exchange. Este paso se realiza con el Asistente para la configuración híbrida o siguiendo [los pasos manuales de la autenticación moderna híbrida](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
+
+Para habilitar la delegación de calendario para estos usuarios:
+
+
+- Tanto el delegado como el delegador deben tener un buzón en el servidor de Exchange.
+
+- También debe completar los pasos 2-3 según se describe en [configurar integración y OAuth entre Skype empresarial online y Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estos pasos proporcionarán a la aplicación de programación de Teams los permisos necesarios para confirmar los permisos de delegado.
+ 
+> [!NOTE]
+> El paso 2 incluye asignación de roles para ArchiveApplication, que no es necesario para la delegación.
 
 ## <a name="additional-considerations"></a>Consideraciones adicionales
 
@@ -92,33 +125,9 @@ A continuación se muestran algunas cosas que debe tener en cuenta al implementa
 
 - Controlar y proteger la configuración de directivas de cumplimiento en Teams y Exchange mediante el acceso condicional. Para obtener más información, vea [¿Cómo funcionan las directivas de acceso condicional para Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
 
-- Si su organización tiene requisitos de cumplimiento para garantizar que todas las discusiones de reuniones se descubran, debe deshabilitar las reuniones privadas si el organizador tiene un buzón local de Exchange.
+- Si su organización tiene requisitos de cumplimiento para garantizar que todas las discusiones de reuniones se descubran, debe deshabilitar las reuniones privadas si el organizador tiene un buzón local de Exchange. Para obtener más información, consulte [permitir la programación de reuniones privadas](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 
 - En una implementación híbrida de Exchange, el contenido de los mensajes instantáneos se pueden buscar independientemente de si los participantes del chat tienen un buzón basado en la nube o un buzón local. Para obtener más información, lea [búsqueda de buzones de correo basados en la nube para usuarios locales](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre la búsqueda de contenido en Teams, lea [búsqueda de contenido en el centro de cumplimiento de Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
-
-> [!TIP]
-> Para obtener más información sobre cómo usar Azure AD Connect para sincronizar con Azure Active Directory, consulte [integrar las identidades locales con Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
-
-## <a name="requirements-for-on-premises-exchange-mailbox-user"></a>Requisitos para usuarios de buzones de Exchange local
-
-Si los usuarios desean tener la capacidad de programar una reunión de Teams con Exchange, debe asegurarse de lo siguiente:
-
-- Tanto el delegado como el delegador deben tener un buzón en el servidor de Exchange.
-
-- La detección automática (automática) de la versión 2 es necesaria para permitir que el servicio de los equipos realice una detección no autenticada del buzón del usuario. La versión de versión 2 automática es compatible con Exchange 2016 CU3 +.
-
-- El servidor de Exchange debe estar configurado con el servidor de autenticación para EVOSTS. Se configura automáticamente como parte del asistente híbrido para Exchange (HWA).
-
-    Si no desea ejecutar HWA, puede crear manualmente el servidor de autenticación para STS de EVO en el servidor de Exchange, siguiendo estas instrucciones para [configurar la autenticación de OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Sin embargo, le recomendamos que use el HWA.
-
-- El servidor de Exchange debe tener una aplicación de socio configurada con un identificador de aplicación de **Skype empresarial online, 00000004-0000-0ff1-ce00-000000000000**. El servicio de programación de Teams usa el identificador y una cuenta de usuario vinculada que tiene las siguientes propiedades:
-
-  - Oculto en la libreta de direcciones de Exchange. Es recomendable que la oculte de la libreta de direcciones porque es una cuenta de usuario deshabilitada.
-
-  - Asignación de roles de administración de Exchange de **UserApplication**.
-
-Para completar la integración, siga los pasos 1-3 de la configuración de la [autenticación de OAuth entre las organizaciones locales de Exchange y Exchange Online?](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) Tenga en cuenta que el paso 2 incluye asignación de roles para ArchiveApplication que no es necesaria para la delegación, pero que es para archivar SfB online chat en un buzón de Exchange.
-
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
