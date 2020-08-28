@@ -73,7 +73,7 @@
 #### [Editar información del usuario invitado](edit-guests-information.md)
 #### [Controle el acceso de invitados a PowerShell](guest-access-PowerShell.md)
 #### [Solucionar problemas de acceso de invitado](troubleshoot-guest-access.md)
-
+## [Cortana en Teams](cortana-in-teams.md)
 
 
 
@@ -294,6 +294,7 @@
 #### [Ejemplo de pequeña empresa: configurar una cola de llamada](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Administrar cuentas de recursos de Teams](manage-resource-accounts.md)
 #### [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
+#### [Configurar vacaciones](set-up-holidays-in-teams.md)
 #### [Responder al operador automático y llamar a la cola de llamadas directamente desde Teams](answer-auto-attendant-and-call-queue-calls.md)
 
 ### [Bloquear llamadas entrantes](block-inbound-calls.md)
