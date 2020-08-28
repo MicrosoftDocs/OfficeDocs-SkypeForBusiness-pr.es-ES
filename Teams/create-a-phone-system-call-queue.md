@@ -1,7 +1,7 @@
 ---
 title: Crear una cola de llamada
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -23,21 +23,25 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams, que proporcionan un mensaje de saludo, mantener música, redirigir llamadas y otras características.
-ms.openlocfilehash: f0631eece5b8f67cd93c46b34c56bb2283826c3f
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: be43c2dc378b985b63c47b9322b336eeadfeecb6
+ms.sourcegitcommit: 515f6cf7c16c0ab6ea7acbbd59084ac89b57dfb8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46556665"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47295289"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
 Las colas de llamadas en nube pueden proporcionar:
 
 - Un mensaje de bienvenida.
+
 - Música que se reproduce mientras los usuarios se mantienen a la espera.
+
 - Redireccionamiento de llamadas a agentes de llamadas en listas de distribución habilitadas para correo electrónico y grupos de seguridad.
+
 - Establecer distintos parámetros, como el tamaño máximo de la cola, el tiempo de espera y las opciones de administración de llamadas.
+
 - Buzón de voz compartido para que las personas que llaman dejen un mensaje para una organización.
 
 No asocia directamente un número de teléfono a una cola de llamadas, sino que el número de teléfono está asociado a una [cuenta de recursos](manage-resource-accounts.md). Una cola de llamadas puede marcarse directamente o tener acceso a la misma mediante una selección en un operador automático.
@@ -47,8 +51,11 @@ La persona que llama escucha la música mientras está en espera y la llamada se
 Todas las llamadas de la cola se envían a los agentes mediante uno de los siguientes métodos:
 
 - Con el enrutamiento del operador, la primera llamada de la cola suena a todos los agentes al mismo tiempo.
+
 - Con el enrutamiento en serie, la primera llamada de la cola suena una por una por todos los agentes de llamadas.
+
 - Con el enrutamiento más largo de inactividad, el agente de llamada que ha estado inactivo recibe la siguiente llamada disponible. El tiempo de inactividad se define como la cantidad de tiempo que el estado de presencia de un agente de llamada se establece en **disponible** o **ausente** (si hay menos de 10 minutos), en el momento de la llamada. Si la presencia de un agente de llamada está **ausente** durante más de 10 minutos, se restablecerá el temporizador de inactividad.
+
 - Con la operación por turnos, el enrutamiento de las llamadas entrantes está equilibrado, de modo que cada agente de llamadas obtiene el mismo número de llamadas de la cola.
 
 Puede configurar las opciones de administración de llamadas, como la participación en el agente, la opción de enrutamiento basado en la presencia, el tiempo de espera de llamada y las opciones de tiempo de espera de la llamada con cualquiera de los métodos anteriores.
@@ -63,13 +70,14 @@ Solo una notificación de llamada entrante (para la llamada al principio de la c
 Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas:
 
 - Se necesita una cola de llamadas para tener una cuenta de recursos asociada. Para obtener más información sobre las cuentas de recursos, consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) .
+
 - Cuando asigne un número de teléfono a una cuenta de recursos, ahora puede usar la [licencia de usuario virtual](teams-add-on-licensing/virtual-user.md)del sistema telefónico para el coste. El sistema telefónico permite números de teléfono en el nivel de la organización para su uso con los servicios de cola de llamadas y los operadores automáticos de bajo costo.
 
   > [!NOTE]
   > Los números del servicio de enrutamiento directo para colas de llamadas solo se admiten para usuarios y agentes de Microsoft Teams.
 
-> [!NOTE]
-> Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas a Microsoft 365 o de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute: ' Set-CsUser-Identity "amos Marble"-EnterpriseVoiceEnabled $true.
+  > [!NOTE]
+  > Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas a Microsoft 365 o de Office 365. Consulte [asignar licencias de complemento de Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute: ' Set-CsUser-Identity "amos Marble"-EnterpriseVoiceEnabled $true.
 
 - Para obtener más información sobre los planes de llamadas, consulte planes de llamadas y [sistemas telefónicos](calling-plan-landing-page.md) y [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md).
 
@@ -176,7 +184,7 @@ Los agentes de llamadas seleccionados deben ser uno de los siguientes:
   > [!NOTE]
   > Esto también se aplica si desea redirigir las llamadas a las personas de su organización que están conectadas. Estas personas deben tener una licencia de sistema telefónico y la telefonía IP empresarial habilitada *o* tener un plan de llamadas. Para obtener más información, vea [asignar licencias de Skype empresarial](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [asignar licencias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)o [el plan de llamadas es adecuado para usted](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) .
 
-   Para habilitar un agente para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   Para habilitar un agente para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Usuarios con una licencia de sistema telefónico o un plan de llamadas que se agregan a un grupo de Microsoft 365, una lista de distribución habilitada para correo o un grupo de seguridad. Al agregar un agente en una lista de distribución o un grupo de seguridad como agente de la cola de llamadas, puede demorar hasta tres horas en llegar a la primera llamada. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Microsoft 365 recién creados están disponibles casi de inmediato.
 
@@ -188,8 +196,10 @@ Los agentes de llamadas seleccionados deben ser uno de los siguientes:
 El modo de conferencia está deshabilitado de forma predeterminada, pero se puede habilitar en cualquier momento si se cumplen los siguientes requisitos:
 
 - Los agentes añadidos a la cola de llamadas deben usar uno de los siguientes clientes:
+
   - La versión más reciente del cliente de escritorio de Microsoft Teams, la aplicación Android o la aplicación iOS
   - Microsoft Teams Phone versión 1449/1.0.94.2020051601 o posterior
+  
 - Las cuentas de los agentes de Teams deben establecerse en modo de solo Teams
 
 > [!IMPORTANT]
@@ -229,6 +239,15 @@ Si un agente opta por recibir llamadas, no se incluirán en la lista de enrutami
 
 > [!IMPORTANT]
 > Los agentes que usan el cliente de Skype empresarial no se incluyen en la lista de enrutamiento de llamadas cuando el enrutamiento basado en presencia está habilitado, independientemente de su estado de disponibilidad. Los agentes que no se encuentren en la lista de enrutamiento de llamadas no recibirán llamadas. Si tiene agentes que usan Skype empresarial, no habilite el enrutamiento de llamadas basado en presencia.
+
+> [!IMPORTANT]
+> En el caso de las llamadas de gran volumen, la configuración recomendada es:
+>
+> Modo de Conferencia: automático<br>
+> Método de enrutamiento: enrutamiento de operador<br>
+> Enrutamiento basado en presencia: activado<br>
+> Hora de la alerta del agente: 20 segundos
+
 
 ### <a name="select-an-agent-opt-out-option"></a>Seleccionar una opción de cancelación de la suscripción
 
@@ -276,6 +295,7 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
  **cuando se alcanza el número máximo de llamadas** cuando la cola de llamadas alcanza su tamaño máximo (establecido mediante las **llamadas máximas en la configuración de la cola** ), puede elegir qué sucede con las llamadas entrantes nuevas.
 
 - **Desconectar** La llamada se desconectará.
+
 - **Redirigir a** Si elige esta opción, seleccione una de las siguientes opciones:
 
   - **Persona en la organización** Un usuario en línea con una licencia de sistema telefónico y está habilitado para telefonía IP empresarial o tiene un plan de llamadas.
@@ -293,6 +313,7 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
             - Si se establece en deshabilitado, se muestra el número de teléfono de la persona que llama original. Esta es la configuración predeterminada y recomendada.
             - Si se establece en habilitado, se muestra el número de teléfono de la cuenta del recurso.
     - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
+    
   - **Buzón de voz** Seleccione el grupo de Microsoft 365 que contiene los usuarios de su organización que necesitan obtener acceso al buzón de voz recibido por esta cola de llamadas y, a continuación, seleccione una de las siguientes opciones:
       - **Reproducir un archivo de audio** Si elige esta opción, seleccione **Cargar archivo** para cargar un mensaje de bienvenida grabado. La grabación no puede tener más de 5 MB. 
       - **Escribir un mensaje de bienvenida** Si elige esta opción, escriba el texto que quiere que el sistema Lea (hasta 1000 caracteres). Por ejemplo, puedes escribir "Lamentamos que no podamos hacer tu llamada en este momento. Deja el nombre, el número de teléfono y el motivo de la llamada después del pitido.
@@ -312,7 +333,9 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
  **cuando la llamada supera el tiempo** de espera cuando la llamada alcanza el límite establecido en el valor de **tiempo de espera de una llamada en la cola** , puede elegir qué sucede con la llamada:
 
 - **Desconectar** La llamada se desconectará.
+
 - **Redirigir esta llamada a** Si elige esta opción, tiene estas opciones:
+
   - **Persona en la organización** Un usuario en línea con una licencia de sistema telefónico y habilitado para telefonía IP empresarial o para tener planes de llamadas.
 
   - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada con una cola de llamadas o un operador automático que ya haya creado.
@@ -330,6 +353,7 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
     - No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
     - **Buzón de voz** Seleccione el grupo de Microsoft 365 que contiene los usuarios de su organización que necesitan obtener acceso al buzón de voz recibido por esta cola de llamadas y, a continuación, seleccione una de las siguientes opciones:
       - **Reproducir un archivo de audio** Si elige esta opción, seleccione **Cargar archivo** para cargar un mensaje de bienvenida grabado. La grabación no puede tener más de 5 MB.
+      
       - **Escribir un mensaje de bienvenida** Si elige esta opción, escriba el texto que quiere que el sistema Lea (hasta 1000 caracteres). Por ejemplo, puedes escribir "Lamentamos que no podamos hacer tu llamada en este momento. Deja el nombre, el número de teléfono y el motivo de la llamada después del pitido.
 
       Active la transcripción si quiere habilitar la transcripción de voz a texto de los mensajes de voz.
@@ -340,13 +364,13 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
 
 Para proteger la identidad de un agente de llamada, cambie la identificación de llamadas para llamadas salientes a una cola de llamadas, operador automático o cualquier número de servicio con el cmdlet **New-CsCallingLineIdentity** como en el siguiente ejemplo:
 
-``` Powershell
+```powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
 A continuación, aplique la Directiva al usuario con el cmdlet **Grant-CallingLineIdentity** como en el siguiente ejemplo: 
 
-``` Powershell
+```powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
