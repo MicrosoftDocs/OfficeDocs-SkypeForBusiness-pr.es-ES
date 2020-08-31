@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre el control de acceso basado en roles con el servicio administrado salones de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: ec8bb770f1dd843c569a98dd909c87ef3ca14dd0
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788793"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300294"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Control de acceso basado en roles con el servicio administrado de salas de Microsoft Teams
 
@@ -59,12 +59,12 @@ En la tabla siguiente se resume lo que puede hacer cada rol.
 |    |Restablecer clave         |&#10004;           |         ||
 |    |Descargar clave         |&#10004;           |&#10004;          |&#10004; |
 |    |Anular inscripción         |&#10004;           |&#10004;           |&#10004; |
-|Administración de grupos   |Crear         |&#10004;           |&#10004;           ||
+|Administración de grupos   |Crear         |&#10004;           |           ||
 |    |Ver       |&#10004;          |&#10004;           ||
-|    |Cambiar         |&#10004;           |&#10004;           ||
-|Actualizar la administración de timbre    |Crear         |&#10004;           |&#10004;           ||
-|    |Ver         |&#10004;           |&#10004;           ||
-|    |Cambiar         |&#10004;           |&#10004;           ||
+|    |Cambiar         |&#10004;           |           ||
+|Actualizar la administración de timbre    |Crear         |&#10004;           |           ||
+|    |Ver         |&#10004;           |           ||
+|    |Cambiar         |&#10004;           |           ||
 |Informar   |Ver        |&#10004;           |&#10004;           ||
 |Administración de vales   |Crear incidente del cliente         |&#10004;           |&#10004;           |&#10004;  |
 |    |Ver         |&#10004;           |&#10004;           |&#10004;  |
@@ -78,7 +78,7 @@ En la tabla siguiente se resume lo que puede hacer cada rol.
 
 Para asignar roles, debe ser administrador global o administrador de servicios administrados.
 
-1. En el sitio de navegación izquierdo de Microsoft Teams salas de servicios administrados, vaya a **roles**.
+1. En el sitio de navegación izquierdo del portal de servicios administrados de Microsoft Team salas, vaya a roles de **configuración**  >  **Roles**.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de pantalla de la página de control de acceso que muestra roles":::
 
