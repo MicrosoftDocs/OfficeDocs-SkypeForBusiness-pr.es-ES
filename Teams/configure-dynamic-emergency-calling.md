@@ -17,12 +17,12 @@ description: Aprenda a configurar el enrutamiento directo de las llamadas de Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255383"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321743"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -42,7 +42,11 @@ Para las llamadas de emergencia dinámicas, se debe hacer lo siguiente:
 
    - Si hay una coincidencia de sitio de configuración de red: las directivas de llamadas de emergencia se devuelven al cliente de equipos de ese sitio. Para obtener más información acerca de las directivas, consulte [configurar directivas de emergencia](#configure-emergency-policies).
 
-   - Si hay una coincidencia de LIS: una ubicación de emergencia del elemento de red al que está conectado el cliente de Teams se devuelve al cliente de Teams.
+   - Si hay una coincidencia de LIS: una ubicación de emergencia del elemento de red al que está conectado el cliente de Teams se devuelve al cliente de Teams. La coincidencia se realiza en el orden siguiente y se devuelve el primer resultado coincidente:
+       - WAP
+       - Conmutador/puerto Ethernet
+       - Conmutador Ethernet
+       - Subred
 
 3. Cuando el cliente de Teams realiza una llamada de emergencia, la ubicación de emergencia se transmite a la red PSTN.
 

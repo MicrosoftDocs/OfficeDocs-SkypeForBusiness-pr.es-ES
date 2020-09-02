@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: 01f32f1141ce46aa45073571ccfaabc8646fc215
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45374368"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47327220"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -115,6 +115,14 @@ Puede editar la configuración de una directiva a través de la página **paquet
     - Haga clic en el tipo de directiva.  Por ejemplo, haga clic en **directivas de mensajería**.
 2. Haga clic en la Directiva que desea editar. Las directivas vinculadas a un paquete de directivas tienen el mismo nombre que el paquete de directivas.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar**.
+
+## <a name="supported-policy-types"></a>Tipos de directiva admitidos
+
+- Mensajería 
+- Reuniones
+- Llamadas
+- Configuración de la aplicación
+- Eventos en directo
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
