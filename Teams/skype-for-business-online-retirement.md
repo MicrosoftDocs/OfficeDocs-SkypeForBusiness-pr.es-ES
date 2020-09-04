@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10fa7e13289a4696dd723b2b6634dc7147321342
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 5810eb2ef38251ad88bd2accf12d857adda9dcbe
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597095"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359396"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
@@ -93,13 +93,16 @@ Los clientes que actualmente están implementando Skype Empresarial Online, pued
 **¿Qué significa esto desde una perspectiva de licencias? ¿Cómo pagarán los clientes los servicios de comunicaciones inteligentes en Teams?**<br>
 Teams está disponible en muchos de los conjuntos de programas de Microsoft 365. Las funcionalidades que son cargas de trabajo premium en Skype Empresarial Online hoy seguirán considerándose del mismo modo en Microsoft Teams. Los clientes que ya tengan licencias las mantendrán en Microsoft Teams. Por ejemplo, si un cliente ha comprado audio conferencia independiente o como parte de E5 con Skype Empresarial, la audio conferencia se habilitará en Teams en cuanto esté disponible hoy.
 
-**¿Microsoft piensa tener actualizaciones programadas?**<br>
+**¿Microsoft planea contar con actualizaciones programadas?**<br>
 Por el momento no hay planes de programar actualizaciones para los clientes de empresa. Los clientes pueden optar por pasarse a Microsoft Teams cuando sea más conveniente para sus organizaciones, pero antes de la fecha de retiro de Skype Empresarial Online del 31 de julio de 2021. Dotaremos a los administradores y usuarios de herramientas y orientación para ayudar en la transición a Teams.
 
 Para admitir clientes más pequeños que posiblemente no tengan recursos de TI dedicados, Microsoft está ayudando con las actualizaciones automáticas de Skype empresarial online a teams. Los clientes que puedan optar reciben una notificación de la actualización a través de correos electrónicos y notificaciones del Centro de mensajes. Se ofrecerán más detalles en las comunicaciones. Para obtener más información, consulte [Actualizaciones automáticas de Skype Empresarial Online a Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-automated).
 
 **¿Cómo afecta el anuncio de retirada de Skype Empresarial Online a las organizaciones con configuraciones híbridas (Skype Empresarial Online y Skype Empresarial Server)?**<br>
 Los clientes híbridos con configuraciones locales y en línea tendrán que pasar a los usuarios de Skype Empresarial Online a Microsoft Teams antes de la fecha de retiro del 31 de julio de 2021. Las rutas de actualización para configuraciones híbridas creadas en torno a los principios de coexistencia e interoperabilidad se conservarán después de la retirada de Skype Empresarial Online. Para más información, consulte[Coexistencia con Skype empresarial](coexistence-chat-calls-presence.md) y [Comprender la coexistencia e interoperabilidad de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+
+**¿Cómo afectará la retirada de Skype empresarial online a las organizaciones con las configuraciones híbridas de Skype empresarial para la conectividad de la red telefónica conmutada (RTC) local y las capacidades del sistema telefónico en línea?**<br>
+Algunas organizaciones tienen usuarios divididos en instalaciones locales para la conectividad RTC y en Internet para capacidades de los sistemas telefónicos. Una vez que el acceso a Skype empresarial online finalice, las organizaciones necesitarán realizar la transición de los usuarios en línea a Microsoft Teams y conectar su red de telefonía local a teams a través del [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Se recomienda a los clientes con suscripciones para ello que participen en [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) para recibir asistencia en la incorporación a Teams.
 

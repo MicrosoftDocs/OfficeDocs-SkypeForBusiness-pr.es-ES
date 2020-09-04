@@ -12,25 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
-description: Lea este tema para obtener información sobre cómo supervisar la implementación de la versión 2,1 y posteriores de su conector de la nube mediante Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 6c63baf078dc865a4e3aef574cff30bedabf3819
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Lea este tema para obtener información sobre cómo supervisar la implementación de la versión 2,1 y posteriores de Cloud Connector mediante Microsoft Operations Management Suite (OMS).
+ms.openlocfilehash: eca2f56bf564e376717a42bd8d297710905f8dc6
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888639"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359096"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar Cloud Connector con Operations Management Suite (OMS)
 
-Lea este tema para obtener información sobre cómo supervisar la implementación de la versión 2,1 y posteriores de su conector de la nube mediante Microsoft Operations Management Suite (OMS).
+> [!Important]
+> Cloud Connector Edition se retirará del 31 de julio de 2021 junto con Skype empresarial online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Microsoft Teams mediante el [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
-Ahora puede supervisar la implementación de la versión 2,1 y posterior de su conector de nube con Operations Management Suite (OMS), una solución de administración de TI en la nube de Microsoft. El análisis de registros de OMS le permite supervisar y analizar la disponibilidad y el rendimiento de los recursos, incluidas las máquinas físicas y virtuales. Para obtener más información sobre OMS y el análisis de registros, consulte [¿Qué es Operations Management Suite (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
+Lea este tema para obtener información sobre cómo supervisar la implementación de la versión 2,1 y posteriores de Cloud Connector mediante Microsoft Operations Management Suite (OMS).
 
-Este tema incluye las secciones siguientes:
+Ahora puede supervisar su implementación de Cloud Connector versión 2,1 y posterior mediante Operations Management Suite (OMS), una solución de administración de TI en la nube de Microsoft. El análisis de registros de OMS le permite supervisar y analizar la disponibilidad y el rendimiento de los recursos, incluidas las máquinas físicas y virtuales. Para obtener más información sobre OMS y el análisis de registros, vea [¿Qué es Operations Management Suite (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
+
+En este tema se presentan las siguientes secciones:
 
 - Requisitos previos
 
-- Configurar el conector de nube para usar OMS
+- Configurar Cloud Connector para usar OMS
 
 - Configurar OMS
 
@@ -40,100 +43,100 @@ Este tema incluye las secciones siguientes:
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de poder usar OMS para supervisar la implementación de su conector de nube, necesitará lo siguiente:
+Antes de poder usar OMS para supervisar la implementación de Cloud Connector, necesitará lo siguiente:
 
-- **Una cuenta de Azure y un área de trabajo de OMS.** Si aún no tiene una cuenta de Azure, tendrá que crear una para usar análisis de registros de OMS. Para obtener información sobre cómo crear una cuenta de Azure y configurar un área de trabajo de OMS, consulte [Introducción a un área de trabajo de análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
+- **Una cuenta de Azure y un área de trabajo de OMS.** Si aún no tiene una cuenta de Azure, tendrá que crear una para usar el análisis de registros de OMS. Para obtener información sobre cómo crear una cuenta de Azure y configurar un área de trabajo de OMS, consulte Introducción [a un área de trabajo de análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
 
 - **Cloud Connector versión 2,1 o posterior**
 
-- Análisis de registros se requiere una **nueva búsqueda de registros** para la supervisión del conector en la nube. Para obtener más información, vea [actualizar el área de trabajo de análisis de registros de Azure a nueva búsqueda de registro](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
+- Se requiere la **búsqueda de registros nueva de análisis de registros** para la supervisión de Cloud Connector. Para obtener más información, vea [actualizar el área de trabajo de análisis de registros de Azure a nueva búsqueda de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
 
-## <a name="configure-cloud-connector-to-use-oms"></a>Configurar el conector de nube para usar OMS
+## <a name="configure-cloud-connector-to-use-oms"></a>Configurar Cloud Connector para usar OMS
 
-Tendrá que configurar su entorno local de conector de nube para usar OMS. Para ello, necesitará su identificador de área de trabajo de OMS y clave, que puede encontrar mediante el portal de OMS de la siguiente manera:\>configuración: orígenes conectados\> --servidores de Windows:
+Deberá configurar su entorno local de Cloud Connector para usar OMS. Para ello, necesitará el identificador y la clave del área de trabajo de OMS, que puede encontrar mediante el portal de OMS, como se indica a continuación: configuración-- \> orígenes conectados-- \> servidores Windows:
 
-![Captura de pantalla de Cloud Connector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![Captura de pantalla del OMS de Cloud Connector](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
-La configuración del conector de nube para usar OMS depende de su escenario:
+La configuración de Cloud Connector para que use OMS depende de su escenario:
 
-- **Si está instalando un nuevo dispositivo de conexión en la nube o desea volver a implementar un dispositivo**, siga estos pasos antes de ejecutar install-CcAppliance:
+- **Si va a instalar un nuevo dispositivo de Cloud Connector o desea volver a implementar un dispositivo**, siga estos pasos antes de ejecutar install-CcAppliance:
 
-    1. En la sección [Common] del archivo CloudConnector. ini, establezca el parámetro OMSEnabled en true.
+    1. En la sección CloudConnector.ini archivo [común], establezca el parámetro OMSEnabled en true.
 
-        Cada vez que se implemente o actualice un conector de nube, intentará instalar el agente OMS automáticamente en las máquinas virtuales. Habilite esta característica para que el agente OMS pueda sobrevivir a la actualización automática de conector de nube.
+        Cada vez que se implemente o actualice Cloud Connector, se intentará instalar el agente OMS automáticamente en las máquinas virtuales. Habilite esta característica para que el agente OMS pueda sobrevivir a la actualización automática de Cloud Connector.
 
-    2. Para configurar la clave y el identificador de OMS, ejecute Set-CcCredential-AccountType OMSWorkspace. 
+    2. Para configurar el identificador y la clave de OMS, ejecute Set-CcCredential-AccountType OMSWorkspace. 
 
-- **Si va a instalar un agente OMS en un dispositivo de conector de nube existente**, siga estos pasos:
+- **Si va a instalar un agente OMS en un dispositivo existente de Cloud Connector**, siga estos pasos:
 
-    1. En la sección [Common] del archivo CloudConnector. ini, establezca OMSEnabled = true. 
+    1. En la sección archivo de CloudConnector.ini [Common], establezca OMSEnabled = true. 
 
     2. Ejecute Import-CcConfiguration. 
 
     3. Ejecute install-CcOMSAgent. 
 
         > [!NOTE]
-        > Si la credencial OMSWorkspace nunca se ha establecido, se le solicitará la credencial cuando ejecute install-CcOMSAgent. 
+        > Si nunca se ha establecido la credencial OMSWorkspace, se le pedirán las credenciales al ejecutar install-CcOMSAgent. 
 
-- **Si desea actualizar el identificador de área de trabajo de OMS o clave en un dispositivo de conector de nube que ya tiene instalado un agente OMS:**
+- **Si desea actualizar la clave o el identificador del área de trabajo de OMS en un dispositivo de Cloud Connector que ya tiene instalado un agente OMS:**
 
-    1. Para configurar la clave y el identificador de OMS, ejecute Set-CcCredential-AccountType OMSWorkspace. 
+    1. Para configurar el identificador y la clave de OMS, ejecute Set-CcCredential-AccountType OMSWorkspace. 
 
     2. Para aplicar las actualizaciones, ejecute install-CcOMSAgent. 
 
-- **Para todos los escenarios, verifique que los agentes estén conectados de la siguiente manera:**
+- **Para todos los escenarios, compruebe que los agentes estén conectados de la siguiente manera:**
 
-    En el portal de OMS, vaya a configuración\> -orígenes conectados\> -servidores de Windows. Verá una lista de las máquinas conectadas. 
+    En el portal de OMS, vaya a configuración- \> orígenes conectados- \> servidores Windows. Verá una lista de las máquinas conectadas. 
 
 ## <a name="configure-oms"></a>Configurar OMS
 
-A continuación, tendrá que especificar la configuración de OMS mediante el portal de OMS. En concreto, necesitará lo siguiente:
+A continuación, tendrá que especificar la configuración de OMS mediante el portal de OMS. Concretamente, tendrá que:
 
-- Especifique la información sobre los registros de eventos y los contadores de rendimiento.
+- Especifique información sobre los registros de eventos y los contadores de rendimiento.
 
-- Crear alertas. 
+- Cree alertas. 
 
 ### <a name="specify-information-about-event-logs-and-performance-counters"></a>Especificar información sobre los registros de eventos y los contadores de rendimiento
 
 En el portal de OMS, debe especificar información sobre los registros de eventos y los contadores de rendimiento de la siguiente manera:
 
-1. Vaya a configuración-\>datos-\>registros de eventos de Windows y agregue registros de eventos para: 
+1. Vaya a configuración- \> datos- \> registros de eventos de Windows y agregue registros de eventos para: 
 
    - Lync Server
 
    - Aplicación
 
      > [!NOTE]
-     > Debe introducir manualmente Lync Server en el cuadro de texto. No aparece como una opción en la lista desplegable. 
+     > Debe especificar manualmente Lync Server en el cuadro de texto. No aparece como una opción en la lista desplegable. 
 
-     Para obtener más información, consulte [orígenes de datos del registro de eventos de Windows en análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Para obtener más información, vea [orígenes de datos del registro de eventos de Windows en el análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events) .
 
-2. Vaya a configuración-\>datos-\> contadores de rendimiento de Windows y agregue contadores de rendimiento para: 
+2. Vaya a configuración- \> datos- \> contadores de rendimiento de Windows y agregue contadores de rendimiento para: 
 
-   - **Contadores de nivel del sistema operativo**. Puede Agregar contadores de nivel del sistema operativo, como el uso del procesador, el uso de la memoria, el uso de la red, o puede usar soluciones existentes como capacidad y rendimiento, monitor de rendimiento de red sin agregar contadores de forma explícita. Independientemente de cómo decida supervisarlos, Microsoft recomienda que supervise estos contadores del sistema operativo.
+   - **Contadores de nivel del sistema operativo**. Puede Agregar contadores a nivel del sistema operativo, como el uso del procesador, el uso de la memoria, el uso de la red o puede usar soluciones existentes como capacidad y rendimiento, monitor de rendimiento de red sin agregar contadores de forma explícita. Independientemente de cómo decida supervisarlas, Microsoft recomienda que supervise estos contadores del sistema operativo.
 
-   - **Contadores de Skype empresarial**. Hay muchos contadores proporcionados por Skype empresarial. Puede encontrar estos contadores iniciando sesión en cualquier servidor de mediación y abriendo el monitor de rendimiento. Estos contadores comienzan con "LS:". Microsoft recomienda que comience con los siguientes contadores de capacidad como mínimo y agregue otros que tengan interés:
+   - **Contadores de Skype empresarial**. Hay muchos contadores proporcionados por Skype empresarial. Puede encontrar estos contadores iniciando sesión en cualquier servidor de mediación y abriendo el monitor de rendimiento. Estos contadores comienzan con "LS:". Microsoft recomienda comenzar con los siguientes contadores de capacidad como mínimo y agregar otros que sean de interés:
 
      Total de llamadas activas:
 
-       - LS: MediationServer: llamadas entrantes (_Total)\- actuales 
+       - LS: MediationServer-llamadas entrantes (_Total) \- actual 
 
-       - LS: MediationServer: llamadas salientes (_Total)\- al día 
+       - LS: MediationServer-llamadas salientes (_Total) \- actual 
 
      Llamadas de omisión de medios activos totales:
 
-       - LS: MediationServer-llamadas entrantes (_Total)\- llamadas de omisión de medios activos 
+       - LS: MediationServer-llamadas entrantes (_Total) \- llamadas de omisión de medios activos 
 
-       - LS: MediationServer-llamadas salientes (_Total)\- llamadas de omisión de medios activos 
+       - LS: MediationServer-llamadas salientes (_Total) \- llamadas de omisión de medios activos 
 
      > [!NOTE]
-     > Debe introducir manualmente los contadores de rendimiento en el cuadro de texto. No aparecen como opciones en la lista desplegable. 
+     > Debe especificar manualmente los contadores de rendimiento en el cuadro de texto. No aparecen como opciones en la lista desplegable. 
 
-     Para obtener más información, vea [orígenes de datos de rendimiento de Windows y Linux en análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Para obtener más información, vea [orígenes de datos de rendimiento de Windows y Linux en el análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters) .
 
 ### <a name="create-alerts"></a>Crear alertas
 
-Existen dos tipos de alertas en OMS: número de alertas de resultados y alertas de medición de métricas. Para obtener más información sobre cómo crear alertas, consulte [trabajar con reglas de alertas en análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
+Hay dos tipos de alertas en OMS: número de alertas de resultados y alertas de medida métricas. Para obtener más información acerca de la creación de alertas, vea [trabajar con reglas de alerta en el análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
 
 Debe tener en cuenta lo siguiente al crear alertas:
 
@@ -141,81 +144,81 @@ Debe tener en cuenta lo siguiente al crear alertas:
 
 - Las consultas de demostración requieren que "número de resultados" esté establecido en "mayor que 0". 
 
-- Se recomienda configurar la frecuencia de la ventana tiempo y la alerta en 5 minutos. 
+- Se recomienda que establezca la frecuencia de la ventana tiempo y de la alerta en 5 minutos. 
 
 - Se recomienda no habilitar "suprimir alertas" para las alertas de demostración. 
 
-- Para los escenarios de alerta típicos, Microsoft recomienda crear un par de alertas: una alerta de error y una alerta de restablecimiento. Para la alerta de error, seleccione nivel de gravedad crítico; para la alerta de restablecimiento, seleccione nivel de gravedad de la información.
+- Para los escenarios de alerta típicos, Microsoft recomienda crear un par de alertas: un mensaje de error y una alerta de restablecimiento. Para la alerta de error, seleccione nivel de gravedad crítico; para la alerta de restablecimiento, seleccione información de nivel de gravedad.
 
-En las siguientes secciones se describe cómo crear alertas de ejemplo.
+En las secciones siguientes se describe cómo crear alertas de ejemplo.
 
- **Crear un par de alertas: "RTCMEDSRV no se está ejecutando en servidores de mediación" y "RTCMEDSRV está en ejecución en servidores de mediación"**
+ **Cree un par de alertas: "RTCMEDSRV no se está ejecutando en los servidores de mediación" y "RTCMEDSRV se ha vuelto a ejecutar en los servidores de mediación"**
 
 Para crear este par de alertas:
 
-- La consulta para la alerta de error es la siguiente:
+- La consulta de la alerta de error es la siguiente:
 
   ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
-    La consulta usa el filtro de equipo *donde equipo contiene "MediationServer"* . El filtro selecciona solo el equipo cuyo nombre contiene la cadena "MediationServer".
+    La consulta usa el filtro del equipo  *en el que el equipo contiene "MediationServer"*  . El filtro selecciona solo el equipo cuyo nombre contiene la cadena "MediationServer".
 
-     Debería reemplazar el filtro con su propio filtro informático o simplemente quitarlo. Puede crear filtros de cadena complejos sin expresiones regulares. Para obtener más información, consulte [operadores de cadena](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). También puede optar por usar expresiones regulares. Además, puede crear un grupo de equipos guardando una consulta de búsqueda y utilizando ese grupo como filtro de equipo en la consulta de alertas. Para obtener más información, consulte [grupos de equipos en las búsquedas del registro de análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
+     Debe reemplazar el filtro por su propio filtro de equipo o simplemente quitarlo. Puede crear filtros de cadena complejos sin expresiones regulares. Para obtener más información, consulte [operadores de cadena](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). También puede optar por usar expresiones regulares. Además, puede crear un grupo de equipos si guarda una consulta de búsqueda y usa ese grupo como filtro de equipo en la consulta de alertas. Para obtener más información, vea [grupos de equipos en el registro de registros del análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
 
-    Para cada equipo, la consulta de error recibirá el último registro de eventos para el inicio del servicio RTCMEDSRV y la detención de servicio. Devolverá un registro si el último evento es el evento de detención de servicio; no devolverá Nothing si el último evento es el evento de inicio de servicio. En Resumen, la consulta devolvería una lista de servidores cuya RTCMEDSRV está detenida en la ventana de tiempo. 
+    Para cada equipo, la consulta de error obtendrá el último registro de eventos para el inicio del servicio de RTCMEDSRV y para detener el servicio. Se devolverá un registro si el último evento es el evento de detención de servicio; no devolverá Nothing si el último evento es el evento de inicio del servicio. En Resumen, la consulta devolvería una lista de servidores cuya RTCMEDSRV se ha detenido en el período de tiempo. 
 
-- La consulta para la alerta de restablecimiento es la siguiente:
+- La consulta para la alerta de restablecimiento es:
 
   ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
-    La consulta de restablecimiento hace exactamente lo opuesto de la consulta de error. Para cada equipo, devolverá uno si el último evento es el evento de inicio del servicio; no devolverá nada si el último evento es el evento de detención de servicio.
+    La consulta de restablecimiento hace exactamente lo opuesto a la consulta de error. Para cada equipo, se devolverá uno si el último evento es el evento de inicio del servicio; no devolverá Nothing si el último evento es el evento de detención de servicio.
 
-**Crear un par de alertas: "demasiadas llamadas simultáneas en servidores de mediación" y "las llamadas simultáneas vuelven a carga normal"**
+**Crear un par de alertas: "demasiadas llamadas simultáneas en los servidores de mediación" y "las llamadas simultáneas se revierten a la carga normal"**
 
 Para crear esta alerta:
 
-- La consulta para la alerta de error es la siguiente:
+- La consulta de la alerta de error es la siguiente:
 
   ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
-    Para cada equipo, la consulta recibirá los últimos contadores para las llamadas entrantes y salientes, y sumará esos dos valores. Devolverá un registro si el valor de suma supera 500; no volverá nada si lo hace. En Resumen, la consulta devolvería una lista de servidores cuyas llamadas simultáneas son demasiado numerosas en la ventana de tiempo.
+    Para cada equipo, la consulta obtendrá los últimos contadores para las llamadas entrantes y salientes, y sumará esos dos valores. Devolverá un registro si el valor de suma supera 500; no devolverá nada si no lo es. En Resumen, la consulta devolvería una lista de servidores cuyas llamadas simultáneas son demasiado numerosas en el intervalo de tiempo.
 
-- La consulta para la alerta de restablecimiento es la siguiente:
+- La consulta para la alerta de restablecimiento es:
 
   ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
-    La consulta de restablecimiento hace exactamente lo opuesto de la consulta de error. Para cada equipo, la consulta recibirá los últimos contadores para las llamadas entrantes y salientes, y sumará esos dos valores. Devolverá un registro si el valor de suma es menor que 500; de lo contrario, no devolverá nada.
+    La consulta de restablecimiento hace exactamente lo opuesto a la consulta de error. Para cada equipo, la consulta obtendrá los últimos contadores para las llamadas entrantes y salientes, y sumará esos dos valores. Devolverá un registro si el valor de sum es inferior a 500; de lo contrario, devolverá Nothing.
 
-**Crear una alerta: alerta "uso \> de CPU 90 o RTCMEDIARELAY detenidas en los servidores"**
+**Cree una alerta: el uso \> de CPU 90 o RTCMEDIARELAY se detuvo en la alerta de los servidores**
 
-Para crear esta alerta, la consulta es la siguiente:
+Para crear esta alerta, la consulta es:
 
 ```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
-La consulta obtendrá todo el contador de uso del procesador y el evento de detención de servicio de todos los equipos y devolverá un registro si alguno de los usos del procesador supera el 90% o el servicio se detiene. 
+La consulta recibirá todos los contadores de uso del procesador y el evento de detención del servicio de todos los equipos y devolverá un registro si cualquier uso del procesador supera el 90% o si el servicio se detiene alguna vez. 
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Analizar las alertas de su repositorio de análisis de registros
 
-Para analizar las alertas de su repositorio, use la solución de administración de alertas. Para obtener más información, vea [solución de administración de alertas en Operations Management Suite (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management) .
+Para analizar las alertas del repositorio, use la solución de administración de alertas. Para obtener más información, vea [Alert Management Solution in Operations Management Suite (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management) .
 
 ## <a name="recommended-minimal-monitoring-set"></a>Conjunto de supervisión mínimo recomendado
 
 Para identificar problemas con los registros de eventos y los contadores de rendimiento: 
 
-- **Registros de eventos.** Para cualquier problema, debería haber un par de eventos, con un conjunto de eventos para indicar que algo está mal, mientras que el otro indica que todo está bien. Durante un período de tiempo determinado, es el último evento registrado que indicará si hay algo incorrecto para ese período de tiempo.
+- **Registros de eventos.** Para cualquier problema, debe haber un par de eventos, con un conjunto de eventos para indicar que algo es incorrecto, mientras que el otro indica que todo está bien. Durante un período de tiempo determinado, es el último evento registrado que indicará si hay algo amiss para ese período de tiempo.
 
 - **Contadores de rendimiento.** Debe haber un umbral para los contadores supervisados.
 
-En la tabla siguiente se enumeran los servicios que Microsoft recomienda supervisar al hacer una lista de los identificadores de sucesos detener y iniciar:
+En la siguiente tabla se enumeran los servicios que Microsoft recomienda supervisar enumerando los identificadores de eventos de detención e Inicio:
 
 |Nombre del servicio  <br/> |Rol de servidor de destino  <br/> |Detener identificador de evento  <br/> |IDENTIFICADOR de evento de inicio  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -224,35 +227,35 @@ En la tabla siguiente se enumeran los servicios que Microsoft recomienda supervi
 |RTCMRAUTH  <br/> |Servidor perimetral  <br/> |19003  <br/> |19002  <br/> |
 |RTCMEDIARELAY  <br/> |Servidor perimetral  <br/> |22003  <br/> |22002  <br/> |
 
-En la tabla siguiente se enumeran los problemas de red que Microsoft recomienda supervisar:
+En la siguiente tabla se enumeran los problemas de red que Microsoft recomienda supervisar:
 
 
-| Nombre del monitor  <br/>                                        | Rol de servidor de destino  <br/> | Expresión de identificador de evento de éxito  <br/> | Expresión de identificador de evento de error  <br/> | Ejemplo de error  <br/> |
+| Nombre de monitor  <br/>                                        | Rol de servidor de destino  <br/> | Expresión de identificador de evento correcto  <br/> | Expresión de identificador de evento de error  <br/> | Ejemplo de error  <br/> |
 |:-----------------------------------------------------------|:--------------------------|:-----------------------------------|:---------------------------------|:-----------------------|
-| Error de conectividad de servidor de mediación a puerta de enlace  <br/>    | Servidor de mediación  <br/>   | 25062                              |                                  | 25002  <br/>           |
-| Error de finalización de llamada de servidor de mediación a puerta de enlace  <br/> | Servidor de mediación  <br/>   | 25064                              |                                  | 25002  <br/>           |
+| Error de Conectividad del servidor de mediación a la puerta de enlace  <br/>    | Servidor de mediación  <br/>   | 25062                              |                                  | 25002  <br/>           |
+| Error de finalización de la llamada del servidor de mediación  <br/> | Servidor de mediación  <br/>   | 25064                              |                                  | 25002  <br/>           |
 | Problemas de red críticos  <br/>                           | Servidor perimetral  <br/>        | 14353                              |                                  | 12288  <br/>           |
 
-A continuación se enumeran los contadores de capacidad de llamadas que deberían supervisarse. Estos números deberían ser menos de 500 para el conector de nube Standard Edition; menos de 50 para la edición mínima de Cloud Connector.
+A continuación se enumeran los contadores de capacidad de llamadas que deben supervisarse. Estos números deben ser inferiores a 500 para Cloud Connector Standard Edition; menor que 50 para la edición mínima de Cloud Connector.
 
-- LS: MediationServer: llamadas entrantes (_Total)\- actuales 
+- LS: MediationServer-llamadas entrantes (_Total) \- actual 
 
-- LS: MediationServer: llamadas salientes (_Total)\- al día 
+- LS: MediationServer-llamadas salientes (_Total) \- actual 
 
-- LS: MediationServer-llamadas entrantes (_Total)\- llamadas de omisión de medios activos
+- LS: MediationServer-llamadas entrantes (_Total) \- llamadas de omisión de medios activos
 
-- LS: MediationServer-llamadas salientes (_Total)\- llamadas de omisión de medios activos
+- LS: MediationServer-llamadas salientes (_Total) \- llamadas de omisión de medios activos
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Recursos adicionales
 
 Para obtener más información sobre cómo trabajar con OMS, consulte lo siguiente:
 
-- [Buscar datos mediante búsquedas de registro en análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
+- [Buscar datos mediante búsquedas de registros en el análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
 
-- [Referencia del lenguaje de análisis de registros de Azure](https://docs.loganalytics.io/docs/Language-Reference)
+- [Referencia de lenguaje de análisis de registros de Azure](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [Descripción de las alertas de análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
+- [Descripción de las alertas en el análisis de registros](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
 
-- [Conectar equipos de Windows con el servicio de análisis de registros en Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
+- [Conectar equipos Windows al servicio log Analytics en Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
 
 

@@ -16,14 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de la implementación de Cloud Connector Edition.
-ms.openlocfilehash: 97ece0ee1bcc11c22fd55709d025169ed95b16ff
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a1caea67c5b5899c2dc0909ef771a57c7c50389
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220230"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359336"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
+
+> [!Important]
+> Cloud Connector Edition se retirará del 31 de julio de 2021 junto con Skype empresarial online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Microsoft Teams mediante el [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
  
 Solucionar problemas de la implementación de Cloud Connector Edition.
   
@@ -151,7 +154,7 @@ A continuación se muestran soluciones a los problemas más comunes:
   Get-CsHybridPSTNSite
   ```
 
-    Si _EnableAutoUpdate_ se establece en **true**, puede pasar por alto este mensaje de advertencia sin ningún problema porque el servicio CCEManagement va a controlar la descarga e instalación de las actualizaciones de Windows tanto para las máquinas virtuales como para el servidor host. Si _EnableAutoUpdate_ se establece en **false**, ejecute el siguiente cmdlet para establecerlo en **true**.
+    Si  _EnableAutoUpdate_ se establece en **true**, puede pasar por alto este mensaje de advertencia sin ningún problema porque el servicio CCEManagement va a controlar la descarga e instalación de las actualizaciones de Windows tanto para las máquinas virtuales como para el servidor host. Si  _EnableAutoUpdate_ se establece en **false**, ejecute el siguiente cmdlet para establecerlo en **true**.
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -159,13 +162,13 @@ A continuación se muestran soluciones a los problemas más comunes:
 
     Como alternativa, puede buscar e instalar actualizaciones manualmente. Vea la sección siguiente.
     
-- **Problema: recibe un mensaje de error que indica que no se puede registrar el dispositivo porque el nombre del sitio de entrada/configuración actual o la dirección IP del servidor de \< \> \< \> \< \> \< mediación ApplianceName \> conflictos con los dispositivos existentes. Quitar el dispositivo de conflicto o actualizar la información de entrada o configuración y volver a registrarse. ' cuando se ejecute Register-CcAppliance para registrar el dispositivo actual en línea.**
+- **Problema: recibe un mensaje de error: no se puede registrar el dispositivo porque la entrada o configuración actual, o o \<SiteName\> \<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> conflictos con los dispositivos existentes. Quitar el dispositivo de conflicto o actualizar la información de entrada o configuración y volver a registrarse. ' cuando se ejecute Register-CcAppliance para registrar el dispositivo actual en línea.**
     
-    **Solución:** Los valores para el \< ApplianceName \> , el FQDN del servidor de \< mediación \> y la \< dirección IP del servidor de mediación \> deben ser únicos y solo se usan para el registro de un dispositivo. De forma predeterminada, \< ApplianceName \> proviene del nombre de host. \<Servidor de mediación FQDN \> y \< dirección IP \> del servidor de mediación definida en el archivo ini de configuración.
+    **Solución:** Los valores para \<ApplianceName\> el \<Mediation Server FQDN\> y \<Mediation Server IP Address\> deben ser únicos y solo se usan para el registro de un dispositivo. De forma predeterminada, \<ApplianceName\> procede del nombre de host. \<Mediation Server FQDN\> y se \<Mediation Server IP Address\> define en el archivo ini de configuración.
     
     Por ejemplo, usar (ApplianceName = MyserverNew, Mediation Server FQDN = ms. contoso. com, Mediation Server IP address = 10.10.10.10) para registrarse en SiteName =, pero si hay un dispositivo registrado (ApplianceName = mi servidor, Mediation Server FQDN = ms. contoso. com, Mediation Server address = 10.10.10.10), tendrá el conflicto.
     
-    En primer lugar, compruebe el archivo CloudConnector. ini en la sección ApplianceRoot del directorio. Obtendrá \< \> \< \> \< los valores de la dirección IP del servidor de mediación y el FQDN del servidor de mediación \> en el archivo. \<ApplianceName \> es el nombre del servidor host.
+    En primer lugar, consulte el archivo de CloudConnector.ini en la sección directorio de ApplianceRoot. Obtendrá \<SiteName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> los valores y los valores del archivo. \<ApplianceName\> es el nombre del servidor host.
     
     Segundo, inicie el PowerShell remoto del inquilino con sus credenciales de administrador de inquilinos de Skype empresarial y, a continuación, ejecute el siguiente cmdlet para comprobar los dispositivos registrados.
     
@@ -173,7 +176,7 @@ A continuación se muestran soluciones a los problemas más comunes:
   Get-CsHybridPSTNAppliance
   ```
 
-    Después de identificar los conflictos, puede actualizar el archivo CloudConnector. ini con información que coincida con el dispositivo registrado, o bien anular el registro del dispositivo existente para resolver los conflictos.
+    Después de identificar los conflictos, puede actualizar el archivo de CloudConnector.ini con información que coincida con el dispositivo registrado o anular el registro del dispositivo existente para resolver los conflictos.
     
   ```powershell
   Unregister-CsHybridPSTNAppliance -Force
@@ -182,13 +185,13 @@ A continuación se muestran soluciones a los problemas más comunes:
     
 - **Problema: el cmdlet Get-CcRunningVersion devuelve un valor vacío si hay un dispositivo implementado en ejecución en el host.**
     
-  **Solución:** Esto puede ocurrir cuando se actualiza de 1.3.4 o de 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con el. msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance`migrará el archivo Module. ini de%UserProfile%\CloudConnector a%ProgramData%\CloudConnector. Si lo perdió, se creará un nuevo Module. ini en la carpeta%ProgramData%\CloudConnector y se reemplazará la información de la versión de ejecución/copia de seguridad para 1.3.4 o 1.3.8.
+  **Solución:** Esto puede ocurrir cuando se actualiza de 1.3.4 o de 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con el. msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance` migrará el archivo de module.ini de%UserProfile%\CloudConnector a%ProgramData%\CloudConnector. Si se perdió, se creará una nueva module.ini en la carpeta%ProgramData%\CloudConnector y se reemplazará la información de la versión de ejecución/copia de seguridad para 1.3.4 o 1.3.8.
     
-  Compare los archivos Module. ini de la carpeta%UserProfile%\CloudConnector y%ProgramData%\CloudConnector. Si hay diferencias, elimine el archivo Module. ini en%ProgramData%\CloudConnector y vuelva a ejecutar `Register-CcAppliance` . También puede modificar el archivo manualmente a la versión correcta de ejecución y copia de seguridad.
+  Compare module.ini archivos de la carpeta%UserProfile%\CloudConnector y%ProgramData%\CloudConnector. Si hay diferencias, elimine el archivo module.ini en%ProgramData%\CloudConnector y vuelva a ejecutar  `Register-CcAppliance` . También puede modificar el archivo manualmente a la versión correcta de ejecución y copia de seguridad.
     
 - **Problema: después de ejecutar el cmdlet switch-CcVersion para cambiar a una versión anterior que sea diferente de la versión de script actual, no hay compatibilidad de alta disponibilidad para esta versión anterior.**
     
-    **Solución:** Por ejemplo, ha actualizado de 1.4.1 a 1.4.2. La versión de script actual, que se puede determinar mediante `Get-CcVersion` la ejecución, y la versión en ejecución, que se puede determinar mediante la ejecución, `Get-CcRunningVersion` son las dos 1.4.2. En este momento, si ejecuta `Switch-CcVersion` para cambiar la versión en marcha a la versión 1.4.1, no habrá compatibilidad con alta disponibilidad para esta versión anterior.
+    **Solución:** Por ejemplo, ha actualizado de 1.4.1 a 1.4.2. La versión de script actual, que se puede determinar mediante `Get-CcVersion` la ejecución, y la versión en ejecución, que se puede determinar mediante la ejecución,  `Get-CcRunningVersion` son las dos 1.4.2. En este momento, si ejecuta `Switch-CcVersion` para cambiar la versión en marcha a la versión 1.4.1, no habrá compatibilidad con alta disponibilidad para esta versión anterior.
     
     Para obtener compatibilidad total con alta disponibilidad, vuelva a 1.4.2, de modo que la versión en ejecución y la versión de script sean las mismas. Si tiene problemas con la implementación de 1.4.2, desinstálelo y vuelva a instalarlo tan pronto como sea posible.
     
@@ -246,7 +249,7 @@ A continuación se muestran soluciones a los problemas más comunes:
     
     Microsoft recomienda que realice estos pasos durante los períodos de uso no máximos.
     
-1. En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar los archivos de copia de seguridad de la entidad de certificación en el \< \> directorio SiteRoot
+1. En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar los archivos de copia de seguridad de la entidad de certificación en el \<SiteRoot\> directorio.
 
      ```powershell
      Remove-CcCertificationAuthorityFile
@@ -276,7 +279,7 @@ A continuación se muestran soluciones a los problemas más comunes:
      Remove-CcLegacyServerCertificate 
      ```
 
-4. En el primer dispositivo, ejecute el siguiente cmdlet para realizar una copia de seguridad de los archivos de CA en la \< \> carpeta SiteRoot
+4. En el primer dispositivo, ejecute el siguiente cmdlet para realizar una copia de seguridad de los archivos de la entidad de certificación en la \<SiteRoot\> carpeta.
     
      ```powershell
      Backup-CcCertificationAuthority
@@ -303,7 +306,7 @@ A continuación se muestran soluciones a los problemas más comunes:
      ```
     
     
-- **Problema: recibe el siguiente mensaje de error en el registro del servicio de administración de Cloud Connector, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService error: 0: excepción inesperada al notificar el estado a online: System. Management. Automation. CmdletInvocationException: error de inicio de sesión para el \< Administrador de inquilinos global de usuario \> . Cree un nuevo objeto Credential, asegurándose de que ha usado el nombre de usuario y la contraseña correctos. ---\>**
+- **Problema: recibe el siguiente mensaje de error en el registro del servicio de administración de Cloud Connector, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService error: 0: excepción inesperada al notificar el estado a en línea: System. Management. Automation. CmdletInvocationException: error de inicio de sesión para el usuario \<Global Tenant Admin\> . Cree un nuevo objeto Credential, asegurándose de que ha usado el nombre de usuario y la contraseña correctos. ---\>**
     
     **Solución:** Se han cambiado las credenciales globales de administrador de inquilinos de Microsoft 365 u Office 365 desde que se registró el dispositivo de Cloud Connector. Para actualizar las credenciales almacenadas localmente en el dispositivo de Cloud Connector, ejecute lo siguiente desde el administrador de PowerShell en el dispositivo de host:
     
@@ -313,13 +316,13 @@ A continuación se muestran soluciones a los problemas más comunes:
 
 - **Problema: después de cambiar la contraseña de la cuenta del servidor host usada para la implementación, recibirá el siguiente mensaje de error: "ConvertTo-SecureString: clave no válida para usarla en el estado especificado" en%ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log o mientras ejecutamos el cmdlet Get-CcCredential.**
     
-    **Solución:** Todas las credenciales de Cloud Connector se almacenan en el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ". Cuando cambie la contraseña en el servidor host, tendrá que actualizar las credenciales almacenadas localmente.
+    **Solución:** Todas las credenciales de Cloud Connector se almacenan en el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ". Cuando cambie la contraseña en el servidor host, tendrá que actualizar las credenciales almacenadas localmente.
     
     **Si ejecuta la versión 1.4.2 de Cloud Connector,** vuelva a generar todas las contraseñas de Cloud Connector; para ello, siga estos pasos:
     
   1. Reinicie el servidor host.
     
-  2. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ".
+  2. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ".
     
   3. Inicie una consola de PowerShell como administrador y, después, ejecute "Register-CcAppliance-local" para volver a escribir las contraseñas después de la descripción. Escriba las mismas contraseñas que especificó antes para la implementación de Cloud Connector.
     
@@ -327,7 +330,7 @@ A continuación se muestran soluciones a los problemas más comunes:
     
   4. Reinicie el servidor host.
     
-  5. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ".
+  5. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ".
     
   6. Inicie una consola de PowerShell como administrador y, después, ejecute "Register-CcAppliance-local" para volver a escribir las contraseñas después de la descripción. 
     
@@ -355,15 +358,15 @@ A continuación se muestran soluciones a los problemas más comunes:
     
        2. Cuando se le soliciten las credenciales de cuenta nuevas, escriba la contraseña para la contraseña de VmAdmin que usó antes. 
     
-- **Problema: con Cloud Connector versión 2,1 y posteriores, cuando se ejecuta Register-CcAppliance u otros cmdlets en el dispositivo, recibe un mensaje de error como: "para cada objeto: no se encuentra la propiedad ' Common ' en este objeto. Compruebe que la propiedad existe. En C:\Archivos de Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char: 14 "**
+- **Problema: con Cloud Connector versión 2,1 y posteriores, cuando se ejecuta Register-CcAppliance u otros cmdlets en el dispositivo, recibe un mensaje de error como: "para cada objeto: no se encuentra la propiedad ' Common ' en este objeto. Compruebe que la propiedad existe. En C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char: 14 "**
     
     **Solución:** Cloud Connector 2,1 y versiones posteriores requieren .NET Framework 4.6.1 o posterior. Actualice .NET Framework en el dispositivo a la versión 4.6.1 o posterior y vuelva a ejecutar los cmdlets.
 
 - **Problema: con Cloud Connector Edition 2,1, cuando se ejecuta install-CcAppliance, recibe un mensaje de error como el siguiente: "error al instalar una nueva instancia con error: no se puede establecer" State "porque solo se pueden usar cadenas como valores para establecer las propiedades de XmlNode"**
 
-   **Solución:** En Cloudconnector. ini, en la sección [Common], agregue el config "State" como se muestra a continuación: CountryCode = US State = WA City = Redmond
+   **Solución:** En Cloudconnector.ini, en la sección [común], agregue el config "State" como sigue: CountryCode = US State = WA City = Redmond
 
-   No es obligatorio que la línea "State" tenga valor, pero la línea "State" no se puede quitar del archivo Cloudconnector. ini.
+   No es obligatorio que la línea "State" tenga valor, pero la línea "State" no se puede quitar del archivo de Cloudconnector.ini.
 
 - **Problema: recibe el siguiente mensaje de error "Dismount-WindowsImage: Dismount-WindowsImage failed. Código de error = 0xc1550115 "al instalar o actualizar Cloud Connector Edition.**
     
@@ -466,4 +469,4 @@ Si necesita instalar software antivirus en el equipo host de Cloud Connector, de
     
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
-- El proceso Microsoft. RTC. CCE. ManagementService. exe.
+- El proceso Microsoft.Rtc.CCE.ManagementService.exe.

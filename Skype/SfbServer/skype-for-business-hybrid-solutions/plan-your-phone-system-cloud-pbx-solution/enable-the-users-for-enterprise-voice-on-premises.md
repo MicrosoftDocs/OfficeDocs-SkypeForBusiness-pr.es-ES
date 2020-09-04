@@ -19,16 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Para que un usuario pueda usar el sistema telefónico (PBX en la nube), primero debe habilitarlo para telefonía IP empresarial y asignarle un número de teléfono. Para ello, use la implementación local mientras el usuario sigue hospedado en la implementación local.
-ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221704"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359196"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilitar a los usuarios para Enterprise Voice local
  
 Para que un usuario pueda usar el sistema telefónico (PBX en la nube), primero debe habilitarlo para telefonía IP empresarial y asignarle un número de teléfono. Para ello, use la implementación local mientras el usuario sigue hospedado en la implementación local.
+
+> [!Important]
+> Skype empresarial online se retirará el 31 de julio de 2021 después del cual el servicio ya no será accesible.  Además, la conectividad con RTC entre su entorno local, ya sea a través de Skype empresarial Server o Cloud Connector Edition y Skype empresarial online, ya no será compatible.  Obtenga información sobre cómo conectar su red de telefonía local a Microsoft Teams con [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Para habilitar a un usuario para telefonía IP empresarial en local y asignarle un número de teléfono
 

@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenga información sobre Skype empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementan la conectividad con RTC local con el sistema telefónico (PBX en la nube).
-ms.openlocfilehash: d2b7f4203da082112b846cc3f12f57dd7758fc82
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ec96662e3dbe432ce8cebe7dc59004350124451e
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220090"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358996"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planeación de Skype empresarial Cloud Connector Edition
+
+> [!Important]
+> Cloud Connector Edition se retirará del 31 de julio de 2021 junto con Skype empresarial online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Microsoft Teams mediante el [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Obtenga información sobre Skype empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementan la conectividad con RTC local con el sistema telefónico (PBX en la nube).
 
@@ -242,7 +245,7 @@ Antes de implementar Cloud Connector Edition, asegúrese de que tiene lo siguien
 
 - Si se requiere un servidor proxy en el equipo host para explorar Internet, debe realizar los siguientes cambios en la configuración:
 
-  - Para omitir el proxy, especifique la configuración de proxy WinHTTP con el servidor proxy y una lista de omisión que incluya el \* "192.168.213". red usada por los servicios de administración de Cloud Connector y la subred de red corporativa de Skype empresarial, tal como se define en el archivo CloudConnector. ini. De lo contrario, se producirá un error en la conectividad de administración y se evitará la implementación y la recuperación automática de Cloud Connector. A continuación se muestra un ejemplo de comando de configuración WinHTTP: netsh WinHTTP Set proxy "10.10.10.175:8080" bypass-List = " \* . local; 1. \* ; 172,20. \* ; 192.168.218. \* ' \< local \> ".
+  - Para omitir el proxy, especifique la configuración de proxy WinHTTP con el servidor proxy y una lista de omisión que incluya el \* "192.168.213". red usada por los servicios de administración de Cloud Connector y la subred de red corporativa de Skype empresarial, tal como se define en el archivo de CloudConnector.ini. De lo contrario, se producirá un error en la conectividad de administración y se evitará la implementación y la recuperación automática de Cloud Connector. A continuación se muestra un ejemplo de comando de configuración WinHTTP: netsh WinHTTP Set proxy "10.10.10.175:8080" bypass-List = " \* . local; 1. \* ; 172,20. \* ; 192.168.218. \* ' \<local\> ".
 
   - Especifique la configuración de proxy por equipo en lugar de por usuario. De lo contrario, se producirá un error de descargas de Cloud Connector. Puede especificar la configuración de proxy por equipo con un cambio en el registro o con la configuración de la Directiva de grupo como se indica a continuación:
 
@@ -258,14 +261,14 @@ Antes de implementar Cloud Connector Edition, asegúrese de que tiene lo siguien
 
 - Durante la implementación, se le pedirá que cree una cuenta de administrador de dominio con permisos para crear y publicar la topología en el dominio de Cloud Connector.
 
-- Los registros DNS externos, que se definen en el archivo CloudConnector. ini que se incluye con el paquete de instalación:
+- Los registros DNS externos, que se definen en el archivo de CloudConnector.ini que se incluye con el paquete de instalación:
 
-  - Registro DNS externo para el servicio perimetral de acceso del componente perimetral; por ejemplo, AP. \< Nombre de dominio \> . Necesita un registro por cada sitio RTC. Este registro debe contener direcciones IP de todos los bordes de ese sitio.
+  - Registro DNS externo para el servicio perimetral de acceso del componente perimetral; por ejemplo, AP. \<Domain Name\> . Necesita un registro por cada sitio RTC. Este registro debe contener direcciones IP de todos los bordes de ese sitio.
 
 - Una organización de Microsoft 365 u Office 365 con todos los registros DNS y SRV necesarios creados.
 
     > [!IMPORTANT]
-    > Al integrar el inquilino con Cloud Connector Edition, no se admite el uso del sufijo de dominio predeterminado,. onmicrosoft.com, como dominio SIP de su organización. > no puede usar SIP. \< Nombre \> de dominio como el nombre de su interfaz proxy de acceso perimetral de Cloud Connector porque Microsoft 365 y Office 365 usan este registro DNS.
+    > Al integrar el inquilino con Cloud Connector Edition, no se admite el uso del sufijo de dominio predeterminado,. onmicrosoft.com, como dominio SIP de su organización. > no puede usar SIP.\<Domain Name\> como nombre de la interfaz del proxy de acceso perimetral de Cloud Connector porque este registro DNS se usa en Microsoft 365 y Office 365.
 
 - Un certificado para el servidor perimetral externo Obtenido de una entidad de certificación (CA) pública.
 
@@ -352,11 +355,11 @@ En esta tabla se muestran los puertos y los intervalos de puertos para habilitar
 |Clientes internos  <br/> |Componente de mediación de Cloud Connector  <br/> |TCP 50000-50019  <br/> |TCP 49 152-57 500\*  <br/> |
 |Clientes internos  <br/> |Componente de mediación de Cloud Connector  <br/> |UDP 50000-50019  <br/> |UDP 49 152-57 500\*  <br/> |
 
-\*Se trata del intervalo de puertos predeterminado en el componente de mediación. Para un flujo de llamadas óptimo, se necesitan cuatro puertos por llamada.
+\* Se trata del intervalo de puertos predeterminado en el componente de mediación. Para un flujo de llamadas óptimo, se necesitan cuatro puertos por llamada.
 
-\*\*Este puerto debe configurarse en la puerta de enlace RTC/SBC; 5060 es un ejemplo. Puede configurar otros puertos en la puerta de enlace RTC/SBC.
+\*\* Este puerto debe configurarse en la puerta de enlace RTC/SBC; 5060 es un ejemplo. Puede configurar otros puertos en la puerta de enlace RTC/SBC.
 
-\*\*\*Tenga en cuenta que también puede limitar el intervalo de puertos en su SBC/Gateway si lo permite el fabricante de SBC/puerta de enlace.
+\*\*\* Tenga en cuenta que también puede limitar el intervalo de puertos en su SBC/Gateway si lo permite el fabricante de SBC/puerta de enlace.
 
 Por motivos de seguridad, puede limitar el intervalo de puertos para el componente de mediación con el cmdlet [set-CsMediationServer](https://docs.microsoft.com/powershell/module/skype/set-csmediationserver?view=skype-ps) .
 
@@ -419,7 +422,7 @@ En este caso, todo el tráfico de medios para el punto de conexión en Internet 
 
 El equipo host debe ser capaz de llegar a los recursos externos para instalar, actualizar y administrar Cloud Connector correctamente. En la siguiente tabla se muestran los destinos y puertos necesarios entre el equipo host y los recursos externos.
 
-|Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Objetivo  <br/> |
+|Dirección  <br/> |IP de origen  <br/> |IP de destino  <br/> |Puerto de origen  <br/> |Puerto de destino  <br/> |Protocolo  <br/> |Finalidad  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Salida  <br/> |IP de host de Cloud Connector  <br/> |cualquiera  <br/> |cualquiera  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Salida  <br/> |IP de host de Cloud Connector  <br/> |cualquiera  <br/> |cualquiera  <br/> |80, 443  <br/> |TCP  <br/> |Lista de revocación de certificados (CRL)  <br/> |
@@ -435,7 +438,7 @@ Si se requieren reglas más restrictivas, consulte las siguientes direcciones UR
 
     Si necesita una exclusión de proxy para este destino, tendrá que agregarla a la lista de omisión de WinHTTP.
 
-- Actualización de Cloud Connector: [centro de descarga](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) y[https://download.microsoft.com](https://download.microsoft.com)
+- Actualización de Cloud Connector: [centro de descarga](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) y [https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>Resolución de nombres DNS para el componente perimetral
 <a name="BKMB_Ports"> </a>
@@ -444,7 +447,7 @@ El componente perimetral necesita resolver los nombres externos de los servicios
 
 Cada componente perimetral es un equipo multitarjeta con interfaces de conexión externa e interna. Cloud Connector implementa los servidores DNS en el componente de controlador de dominio dentro de la red perimetral. Puede dirigir el servidor perimetral al servidor DNS dentro del perímetro para todas las resoluciones de nombres, pero debe habilitar el servidor DNS de Cloud Connector para resolver los nombres externos estableciendo una zona DNS que contenga uno o más registros A de DNS para las consultas externas que hacen referencia a búsquedas de nombres en otros servidores DNS públicos.
 
-En el archivo. ini, si establece el nombre de dominio completo para puertas de enlace del mismo espacio de dominio que el dominio SIP, la zona de autorización de este dominio SIP se creará en el servidor DNS dentro del perímetro. Si el servidor perimetral apunta a este servidor DNS para resolver nombres, Edge nunca resolverá el _sipfederationtls. \< \>registro DNS sudominio, que es necesario para el flujo de llamadas. En este caso, Microsoft recomienda proporcionar un servidor DNS en la interfaz perimetral externa para resolver las búsquedas de nombres de Internet, y cada componente perimetral debe usar un archivo HOST para resolver otros nombres de componentes de Cloud Connector en direcciones IP.
+En el archivo. ini, si establece el nombre de dominio completo para puertas de enlace del mismo espacio de dominio que el dominio SIP, la zona de autorización de este dominio SIP se creará en el servidor DNS dentro del perímetro. Si el servidor perimetral apunta a este servidor DNS para resolver nombres, Edge nunca resolverá el _sipfederationtls.\<yourdomain\> Registro DNS, que es necesario para el flujo de llamadas. En este caso, Microsoft recomienda proporcionar un servidor DNS en la interfaz perimetral externa para resolver las búsquedas de nombres de Internet, y cada componente perimetral debe usar un archivo HOST para resolver otros nombres de componentes de Cloud Connector en direcciones IP.
 
 > [!NOTE]
 > Por motivos de seguridad, le recomendamos que no apunte el servidor DNS de Cloud Connector a los servidores internos en el dominio de producción para la resolución de nombres.
@@ -460,7 +463,7 @@ En primer lugar, debe definir los siguientes parámetros de implementación comu
 |Dominios SIP  <br/> |URI de SIP que usan los usuarios de la empresa. Proporcionar todos los dominios SIP que se servirán por esta implementación. Puede tener más de un dominio SIP.  <br/> ||
 |Número de sitios RTC  <br/> |El número de sitios RTC que va a implementar.  <br/> ||
 
-Para cada sitio de RTC que vaya a implementar, tendrá que recopilar la siguiente información antes de comenzar la implementación. Tendrá que proporcionar esta información cuando actualice el archivo CloudConnector. ini.
+Para cada sitio de RTC que vaya a implementar, tendrá que recopilar la siguiente información antes de comenzar la implementación. Tendrá que proporcionar esta información cuando actualice el archivo de CloudConnector.ini.
 
 Al configurar la información de la puerta de enlace, recuerde lo siguiente:
 
@@ -557,7 +560,7 @@ Cada componente perimetral requiere un certificado de una entidad de certificaci
   ```
 
 > [!NOTE]
-> No debe crear una entrada DNS externa para SIP. \< sipdomain \> . com porque este nombre pertenece a la implementación de Microsoft 365 o de Office 365.
+> No debe crear una entrada DNS externa para SIP. \<sipdomain\> . com porque este nombre pertenece a la implementación de Microsoft 365 o de Office 365.
 
 > [!NOTE]
 > Si desea usar un único certificado para todos los grupos de servidores perimetrales implementados en su organización y no puede usar un certificado comodín definido en la opción 2, deberá incluir el FQDN de todos los grupos de servidores perimetrales implementados en el nombre SAN del certificado.
@@ -581,7 +584,7 @@ Tendrá que agregar sip.sipdomain.com para cada dominio SIP y el nombre de los g
   ```
 
 > [!NOTE]
-> No debe crear una entrada DNS externa para SIP. \< sipdomain \> . com porque este nombre pertenece a la implementación de Microsoft 365 o de Office 365.
+> No debe crear una entrada DNS externa para SIP. \<sipdomain\> . com porque este nombre pertenece a la implementación de Microsoft 365 o de Office 365.
 
 Para fines de implementación, puede usar la siguiente tabla:
 
@@ -706,7 +709,7 @@ Cloud Connector 2,1 y versiones posteriores admiten la supervisión de Cloud Con
 ## <a name="for-more-information"></a>Más información
 <a name="BKMK_MoreInfo"> </a>
 
-Para obtener más información, vea los artículos siguientes:
+Para obtener más información, vea los artículos siguientes: 
 
 - [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 

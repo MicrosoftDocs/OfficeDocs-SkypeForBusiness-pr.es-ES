@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar el enrutamiento de voz con el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 0611684c79d92572ade41f2545096fe1d9bb4dd2
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159017"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359416"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>Configurar el enrutamiento de voz para el enrutamiento directo
 
@@ -53,6 +53,13 @@ El enrutamiento de voz consta de los siguientes elementos:
 
 - **Puerta de enlace RTC en línea** : puntero a un SBC que también almacena la configuración que se aplica cuando una llamada se coloca a través de SBC, como la identidad de aserción de P (PAI) o los códecs preferidos. se puede Agregar a las rutas de voz.
 
+## <a name="voice-routing-policy-considerations"></a>Consideraciones de directiva de enrutamiento de voz
+
+Si un usuario tiene una licencia de plan de llamadas, las llamadas salientes de ese usuario se enrutan automáticamente a través de la infraestructura RTC del plan de llamadas de Microsoft. Si configura y asigna una directiva de enrutamiento de voz en línea a un usuario del plan de llamadas, se comprobarán las llamadas salientes de ese usuario para determinar si el número marcado coincide con un patrón de número definido en la Directiva de enrutamiento de voz en línea. Si hay una coincidencia, la llamada se dirige a través del tronco de enrutamiento directo. Si no hay ninguna coincidencia, la llamada se dirige a través de la infraestructura RTC del plan de llamadas.
+
+> [!CAUTION]
+> Si configura y aplica la Directiva de enrutamiento de voz en línea global (predeterminada para toda la organización), todos los usuarios habilitados para voz de la organización heredarán esa Directiva, lo que puede provocar que las llamadas RTC se dirijan de forma inadvertida a un tronco de enrutamiento directo. Si no desea que todos los usuarios usen la Directiva de enrutamiento de voz en línea global, configure una directiva de enrutamiento de voz en línea personalizada y asígnela a usuarios habilitados para voz.
+
 ## <a name="example-1-voice-routing-with-one-pstn-usage"></a>Ejemplo 1: enrutamiento de voz con un uso de RTC
 
 En el siguiente diagrama se muestran dos ejemplos de directivas de enrutamiento de voz en un flujo de llamadas.
@@ -72,11 +79,7 @@ En el ejemplo que se muestra en el siguiente diagrama, se agrega una ruta de voz
 
 ![Muestra la Directiva de enrutamiento de voz con una tercera ruta](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-Para todas las demás llamadas:
-
-- Si un usuario tiene ambas licencias (Microsoft Phone System y Microsoft Call plan), se usa la ruta automática. 
-- Si nada coincide con los patrones de número de las rutas de voz en línea creadas por el administrador, la llamada se dirige a través del plan de llamadas de Microsoft.
-- Si el usuario solo tiene Microsoft Phone System, la llamada se descarta porque no hay disponibles reglas coincidentes.
+Para todas las demás llamadas, si un usuario tiene ambas licencias (Microsoft Phone System y Microsoft Call plan), se usa la ruta automática. Si nada coincide con los patrones de número de las rutas de voz en línea creadas por el administrador, la llamada se dirige a través del plan de llamadas de Microsoft. Si el usuario solo tiene Microsoft Phone System, la llamada se descarta porque no hay disponibles reglas coincidentes.
 
   > [!NOTE]
   > El valor de prioridad para la ruta "otros + 1" no importa en este caso porque hay una sola ruta que coincide con el patrón + 1 XXX XXX XX XX. Si un usuario llama a + 1 324 567 89 89 y tanto sbc5.contoso.biz como sbc6.contoso.biz no están disponibles, la llamada se cancela.
@@ -85,9 +88,9 @@ En la tabla siguiente se resume la configuración mediante tres rutas de voz. En
 
 |**Uso de RTC**|**Ruta de voz**|**Patrón de números**|**Prioridad**|**SBC**|**Descripción**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Estados Unidos y Canadá|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Ruta activa para números llamados + 1 425 XXX XX XX o + 1 206 XXX XX XX|
-|Estados Unidos y Canadá|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de copia de seguridad para los números + 1 425 XXX XX XX ó + 1 206 XXX XX XX|
-|Estados Unidos y Canadá|"Otros + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Ruta de números llamados + 1 XXX XXX XX XX (excepto + 1 425 XXX XX XX o + 1 206 XXX XX XX)|
+|Estados Unidos y Canadá|"Redmond 1"|^\\+ 1 (425 \| 206) (\d {7} ) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Ruta activa para números llamados + 1 425 XXX XX XX o + 1 206 XXX XX XX|
+|Estados Unidos y Canadá|"Redmond 2"|^\\+ 1 (425 \| 206) (\d {7} ) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de copia de seguridad para los números + 1 425 XXX XX XX ó + 1 206 XXX XX XX|
+|Estados Unidos y Canadá|"Otros + 1"|^\\+ 1 (\d {10} ) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Ruta de números llamados + 1 XXX XXX XX XX (excepto + 1 425 XXX XX XX o + 1 206 XXX XX XX)|
 |||||||
 
 ## <a name="example-1-configuration-steps"></a>Ejemplo 1: pasos de configuración
@@ -106,14 +109,14 @@ Puede usar el [centro de administración de Microsoft Teams](#admincenterexample
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>Paso 1: crear el uso de la RTC "Estados Unidos y Canadá"
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a enrutamiento de **voz** > **directo**y, a continuación, en la esquina superior derecha, seleccione **administrar registros de uso de RTC**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a enrutamiento de **voz**  >  **directo**y, a continuación, en la esquina superior derecha, seleccione **administrar registros de uso de RTC**.
 2. Haga clic en **Agregar**, escriba **Estados Unidos y Canadá**y, a continuación, haga clic en **aplicar**.
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>Paso 2: crear tres rutas de voz (Redmond 1, Redmond 2 y otros + 1)
 
 Los pasos siguientes describen cómo crear una ruta de voz. Siga estos pasos para crear las tres rutas de voz llamada Redmond 1, Redmond 2 y otro + 1 para este ejemplo con la configuración descrita en la tabla anterior.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a enrutamiento de **voz** > **directo**y, a continuación, seleccione la pestaña **rutas de voz** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a enrutamiento de **voz**  >  **directo**y, a continuación, seleccione la pestaña **rutas de voz** .
 2. Haga clic en **Agregar**y, a continuación, escriba un nombre y una descripción para la ruta de voz.
 3. Establezca la prioridad y especifique el patrón de número marcado.
 4. Para inscribir un SBC con la ruta de voz, en **SBCS inscrito (opcional)**, haga clic en **Agregar SBCS**, seleccione el SBCS que desea inscribir y, a continuación, haga clic en **aplicar**.
@@ -122,7 +125,7 @@ Los pasos siguientes describen cómo crear una ruta de voz. Siga estos pasos par
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Paso 3: crear una directiva de enrutamiento de voz denominada "solo para EE. UU." y agregar el uso de RTC "Estados Unidos y Canadá" a la Directiva
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de enrutamiento de voz**de **voz** > y haga clic en **Agregar**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de enrutamiento de voz de **voz**  >  **Voice routing policies**y haga clic en **Agregar**.
 2. Escriba **solo** el nombre del contacto y agregue una descripción.
 3. En **registros de uso de RTC**, haga clic en **Agregar uso de RTC**, seleccione el registro de uso de RTC "Estados Unidos y Canadá" y, a continuación, haga clic en **aplicar**.
 4. Haga clic en **Guardar **.
@@ -162,7 +165,7 @@ Identity    : Global
 Usage        : {testusage, US and Canada, International, karlUsage. . .}
 ```
 
-En el siguiente ejemplo se muestra el resultado de `(Get-CSOnlinePSTNUsage).usage` ejecutar el comando PowerShell para mostrar nombres completos (no truncado):
+En el siguiente ejemplo se muestra el resultado de ejecutar el `(Get-CSOnlinePSTNUsage).usage` comando PowerShell para mostrar nombres completos (no truncado):
 
 <pre>
  testusage
@@ -211,7 +214,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 ```
 
   > [!CAUTION]
-  > Asegúrese de que la expresión regular en el atributo NumberPattern es una expresión válida. Puede probarla con este sitio web:[https://www.regexpal.com](https://www.regexpal.com)
+  > Asegúrese de que la expresión regular en el atributo NumberPattern es una expresión válida. Puede probarla con este sitio web: [https://www.regexpal.com](https://www.regexpal.com)
 
 En algunos casos, es necesario enrutar todas las llamadas a la misma SBC; Use-NumberPattern ". *"
 
@@ -314,9 +317,9 @@ En la siguiente tabla se resumen las denominaciones de uso y las rutas de voz de
 
 |**Uso de RTC**|**Ruta de voz**|**Patrón de números**|**Prioridad**|**SBC**|**Descripción**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Estados Unidos y Canadá|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Ruta activa para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
-|Estados Unidos y Canadá|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de reserva para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
-|Estados Unidos y Canadá|"Otros + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Ruta para números de la llamada + 1 XXX XXX XX XX (excepto + 1 425 XXX XX XX o + 1 206 XXX XX XX)|
+|Estados Unidos y Canadá|"Redmond 1"|^\\+ 1 (425 \| 206) (\d {7} ) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Ruta activa para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
+|Estados Unidos y Canadá|"Redmond 2"|^\\+ 1 (425 \| 206) (\d {7} ) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de reserva para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
+|Estados Unidos y Canadá|"Otros + 1"|^\\+ 1 (\d {10} ) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Ruta para números de la llamada + 1 XXX XXX XX XX (excepto + 1 425 XXX XX XX o + 1 206 XXX XX XX)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Ruta para cualquier patrón de números |
 
   > [!NOTE]
@@ -339,12 +342,12 @@ Puede usar el [centro de administración de Microsoft Teams](#admincenterexample
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>Paso 1: crear el uso de RTC "internacional"
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a enrutamiento de **voz** > **directo**y, a continuación, en la esquina superior derecha, seleccione **administrar registros de uso de RTC**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a enrutamiento de **voz**  >  **directo**y, a continuación, en la esquina superior derecha, seleccione **administrar registros de uso de RTC**.
 2. Haga clic en **Agregar**, escriba **internacional**y, a continuación, haga clic en **aplicar**.
 
 #### <a name="step-2-create-the-international-voice-route"></a>Paso 2: crear la ruta de voz "internacional"
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a enrutamiento de **voz** > **directo**y, a continuación, seleccione la pestaña **rutas de voz** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a enrutamiento de **voz**  >  **directo**y, a continuación, seleccione la pestaña **rutas de voz** .
 2. Haga clic en **Agregar**, escriba "internacional" como nombre y, a continuación, agregue la descripción.
 3. Establezca la prioridad en 4 y, a continuación, establezca el patrón de número marcado como \d +.
 4. En **SBCS inscrito (opcional)**, haga clic en **Agregar SBCs**, seleccione sbc2.contoso.BIZ y sbc5.contoso.BIZ y, a continuación, haga clic en **aplicar**.
@@ -355,7 +358,7 @@ Puede usar el [centro de administración de Microsoft Teams](#admincenterexample
 
 El uso de la RTC "Estados Unidos y Canadá" se reutiliza en esta directiva de enrutamiento de voz para mantener el control especial de las llamadas al número "+ 1 425 XXX XX XX" y "+ 1 206 XXX XX XX" como llamadas locales o locales.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de enrutamiento de voz**de **voz** > y haga clic en **Agregar**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de enrutamiento de voz de **voz**  >  **Voice routing policies**y haga clic en **Agregar**.
 2. Escriba **ninguna restricción** como nombre y agregue una descripción.
 3. En **registros de uso de RTC**, haga clic en **Agregar uso de RTC**, seleccione el registro de uso de RTC "Estados Unidos y Canadá" y, a continuación, seleccione el registro de uso de RTC "internacional". Haga clic en **Aplicar**.
 

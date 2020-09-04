@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Descubra qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Teams.
-ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691366"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359426"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 
@@ -95,6 +95,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 > Si se configura un CsVoiceRoutingPolicy global, se recomienda quitar los usos de RTC asociados a esta directiva global. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migrar desde el Sistema telefónico de Office 365 con una conectividad RTC local mediante la edición de conector en la nube 
+
+> [!Important]
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype empresarial online. Una vez que su organización haya actualizado a Teams, obtenga información sobre cómo conectar su red de telefonía local a los equipos mediante [enrutamiento directo](direct-routing-landing-page.md).
 
 Para más información sobre cómo migrar desde el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server, vea lo siguiente:
 

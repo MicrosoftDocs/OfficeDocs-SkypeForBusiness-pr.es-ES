@@ -16,17 +16,14 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f428a40e5a9adf4a53d4b2e12064b90b4ceebe43
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: e5987588fd3df8f327502eace7f31b29483a2eba
+ms.sourcegitcommit: ab56033346426a018a8a6920d67526a9772f644c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46657108"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47363363"
 ---
 # <a name="manage-microsoft-teams-device-tags"></a>Administrar etiquetas de dispositivos de Microsoft Teams
-
-> [!NOTE]
-> La capacidad de agregar etiquetas a dispositivos está disponible para los clientes de Microsoft Teams en ondas. Si no ve la opción de administrar etiquetas en el centro de administración de Teams, aún no se han habilitado en su inquilino las etiquetas del dispositivo. Vuelve a consultar más tarde.
 
 Las etiquetas de dispositivos de Microsoft Teams le permiten agrupar, organizar y administrar más fácilmente los dispositivos que ha implementado en su organización. Con el centro de administración de Microsoft Teams, puede Agregar una o más etiquetas a los dispositivos, usar filtros para ver los dispositivos que coincidan con la etiqueta que especifique y, a continuación, realizar acciones en los dispositivos que tienen esa etiqueta.
 
@@ -46,11 +43,11 @@ Con el panel de administración de etiquetas de dispositivos, puede hacer lo sig
 - Quite las etiquetas de dispositivo que ya no se necesiten. Antes de que pueda quitar una etiqueta de dispositivo, tendrá que quitarla de todos los dispositivos a la que se ha agregado.
 - Cambie el nombre de las etiquetas del dispositivo. Al cambiar el nombre de una etiqueta de dispositivo, ese cambio se refleja en todos los dispositivos a los que se ha agregado. Las etiquetas pueden tener hasta 25 caracteres.
 
-1. Inicie sesión en el centro de administración de Microsoft Teams visitandohttps://admin.teams.microsoft.com
-2. Vaya a **dispositivos** y, a continuación, elija cualquier panel de dispositivos, como **teléfonos**
-3. Seleccione **acciones** en la esquina superior derecha de la página y seleccione **todas las etiquetas de dispositivo**
+1. Para iniciar sesión en el centro de administración de Microsoft Teams, visite https://admin.teams.microsoft.com .
+2. Vaya a **dispositivos** y, a continuación, elija cualquier panel de dispositivos, como **teléfonos**.
+3. Seleccione **acciones** en la esquina superior derecha de la página y seleccione **todas las etiquetas de dispositivo**.
 4. Para crear una etiqueta de dispositivo, seleccione **+ Agregar**, proporcione un valor para la etiqueta de dispositivo y seleccione el icono **Guardar** .
-5. Para quitar una etiqueta de dispositivo, seleccione los puntos suspensivos **...** junto a la etiqueta de dispositivo que desea quitar y, después, seleccione **eliminar** .
+5. Para quitar una etiqueta de dispositivo, seleccione los puntos suspensivos **...** junto a la etiqueta de dispositivo que desea quitar y, después, haga clic en **eliminar**.
     > [!NOTE]
     > Si intenta quitar una etiqueta de dispositivo que se ha agregado a los dispositivos, recibirá un mensaje en el que se le preguntará si desea quitarlo de todos los dispositivos. Si desea hacerlo y continuar con la eliminación de la etiqueta de dispositivo, seleccione quitar **dispositivos**.
 6. Para cambiar el nombre de una etiqueta de dispositivo, seleccione los puntos suspensivos **...** junto a la etiqueta de dispositivo a la que desea cambiarle el nombre y seleccione **Editar**. Proporcione un nuevo valor para la etiqueta de dispositivo y seleccione el icono **Guardar** .
@@ -59,46 +56,46 @@ Con el panel de administración de etiquetas de dispositivos, puede hacer lo sig
 
 Al agregar etiquetas a un dispositivo, puede seleccionar una etiqueta existente o crear una nueva. Las etiquetas pueden tener hasta 25 caracteres.
 
-1. Inicie sesión en el centro de administración de Microsoft Teams visitandohttps://admin.teams.microsoft.com
+1. Para iniciar sesión en el centro de administración de Microsoft Teams, visite https://admin.teams.microsoft.com .
 2. Vaya a **dispositivos** y, a continuación, elija el panel de dispositivos que contiene el dispositivo en el que desea agregar o quitar etiquetas.
-3. Coloca una marca de verificación junto al dispositivo en el que deseas agregar o quitar etiquetas y selecciona **administrar etiquetas** .
+3. Active la casilla situada junto al dispositivo en el que desea agregar o quitar etiquetas y seleccione **administrar etiquetas**.
 4. Si desea agregar una etiqueta:
-    1. Comience a escribir el nombre de etiqueta que desea agregar.
-    2. Si la etiqueta ya existe, selecciónela de la lista de etiquetas que se devuelven
+    1. Empiece a escribir el nombre de etiqueta que desea agregar.
+    2. Si la etiqueta ya existe, selecciónela de la lista de etiquetas que se devuelven.
     3. Si la etiqueta no existe, seleccione **Agregar " \<tag name> " como nueva etiqueta**. Las etiquetas pueden tener hasta 25 caracteres.
 5. Si desea quitar una etiqueta, seleccione **X** junto a la etiqueta que quiere quitar.
 6. Repita los pasos anteriores si desea agregar o quitar más etiquetas.
-7. Seleccione **aplicar**
+7. Seleccione **aplicar**.
 
 ## <a name="add-or-remove-tags-on-multiple-devices"></a>Agregar o quitar etiquetas en varios dispositivos
 
 Al agregar etiquetas a un dispositivo, puede seleccionar una etiqueta existente o crear una nueva. Las etiquetas pueden tener hasta 25 caracteres. Si desea quitar una etiqueta de varios dispositivos, debe seleccionar el usuario de teams que está asociado con el dispositivo y quitar la etiqueta del usuario.
 
-1. Inicie sesión en el centro de administración de Microsoft Teams visitandohttps://admin.teams.microsoft.com
+1. Para iniciar sesión en el centro de administración de Microsoft Teams, visite https://admin.teams.microsoft.com .
 2. Vaya a **dispositivos** y, a continuación, elija el panel de dispositivos que contiene los dispositivos en los que desea agregar o quitar etiquetas.
-3. Coloca una marca de verificación junto a los dispositivos en los que deseas agregar o quitar etiquetas y selecciona **administrar etiquetas** .
+3. Active las casillas situadas junto a los dispositivos en los que desea agregar o quitar etiquetas y seleccione **administrar etiquetas**.
 4. Si desea agregar una etiqueta:
-    1. Comience a escribir el nombre de etiqueta que desea agregar en **administrar etiquetas para todos los dispositivos de los usuarios de Teams**
-    2. Si la etiqueta ya existe, selecciónela de la lista de etiquetas que se devuelven
-    3. Si la etiqueta no existe, selecciona **añadir " \<tag name> " como nueva etiqueta**
+    1. Empiece a escribir el nombre de etiqueta que desea agregar en **administrar etiquetas para todos los dispositivos de los usuarios de Teams**.
+    2. Si la etiqueta ya existe, selecciónela de la lista de etiquetas que se devuelven.
+    3. Si la etiqueta no existe, seleccione **Agregar " \<tag name> " como nueva etiqueta**.
 5. Si desea quitar una etiqueta:
-    1. Expandir **Seleccionar usuarios de Teams**
-    2. Expandir ** \<x> etiquetas** debajo del nombre del usuario de Teams del que desea quitar etiquetas
-    3. Seleccione una **X** junto a la etiqueta que quiere quitar.
+    1. Expanda **Seleccionar usuarios de Teams**.
+    2. Expandir ** \<x> etiquetas** debajo del nombre del usuario de Teams del que desea quitar etiquetas.
+    3. Seleccione **X** junto a la etiqueta que quiere quitar.
 6. Repita los pasos anteriores si desea agregar o quitar más etiquetas.
-7. Seleccione **aplicar**
+7. Seleccione **aplicar**.
 
 ## <a name="use-filters-to-return-devices-with-a-specific-tag"></a>Usar filtros para devolver dispositivos con una etiqueta específica
 
 Si ha agregado etiquetas de dispositivo a sus dispositivos, puede usarlas para filtrar la lista de dispositivos y devolver solo los dispositivos a los que se les haya agregado una etiqueta especificada. Esto puede ser útil si solo quiere ver todos los dispositivos de un salón específico, todos los dispositivos de un tipo determinado o cualquier otro criterio que haya usado al agregar las etiquetas. También puede realizar acciones en masa en dispositivos devueltos, como aplicar actualizaciones en ondas o establecer diferentes directivas de configuración según los grupos de dispositivos identificados mediante etiquetas de dispositivo.
 
-1. Inicie sesión en el centro de administración de Microsoft Teams visitandohttps://admin.teams.microsoft.com
+1. Para iniciar sesión en el centro de administración de Microsoft Teams, visite https://admin.teams.microsoft.com .
 2. Vaya a **dispositivos** y, a continuación, elija el panel de dispositivos que contiene los dispositivos que desea filtrar.
-3. Seleccione el icono de **filtro**
+3. Seleccione el icono de **filtro** .
 4. Si solo desea especificar una única etiqueta o si desea buscar dispositivos que tengan todas las etiquetas que especifique, seleccione **cumplir todas estas condiciones**.
-5. Si desea buscar dispositivos que coincidan con una o más etiquetas de dispositivo, seleccione **coincidir cualquiera de estas condiciones** .
-6. Seleccione el campo de **etiqueta** y, a continuación, especifique un nombre de etiqueta de dispositivo en el campo **introducir un valor**
-7. Si quiere agregar más etiquetas de dispositivo, seleccione **Agregar más** y repita el paso 6 para cada etiqueta que desee agregar.
-8. Seleccione **aplicar**
+5. Si desea buscar dispositivos que coincidan con una o más etiquetas de dispositivo, seleccione **coincidir cualquiera de estas condiciones**.
+6. Seleccione el campo de **etiqueta** y, a continuación, especifique un nombre de etiqueta de dispositivo en el campo **Escriba un valor** .
+7. Si desea agregar más etiquetas de dispositivo, seleccione **Agregar más** y repita el paso 6 para cada etiqueta que desee agregar.
+8. Seleccione **aplicar**.
 
-Después de filtrar los dispositivos en la lista de dispositivos, puede realizar acciones en ellos como lo haría normalmente. Por ejemplo, puede seleccionarlos y, a continuación, asignar configuraciones, editar su configuración (si son dispositivos de salas de equipos) y así sucesivamente. Cuando haya terminado, puede quitar el filtro seleccionando la **X** junto a la entrada de filtro de **etiqueta** o seleccionando **Borrar todo** en el lado derecho de la lista.
+Después de filtrar los dispositivos en la lista de dispositivos, puede realizar acciones en ellos como lo haría normalmente. Por ejemplo, puede seleccionarlos y, a continuación, asignar configuraciones, editar su configuración (si son dispositivos de salas de equipos) y así sucesivamente. Cuando haya terminado, puede quitar el filtro seleccionando la **X**  junto a la entrada de filtro de **etiqueta** o seleccionando **Borrar todo** en el lado derecho de la lista.

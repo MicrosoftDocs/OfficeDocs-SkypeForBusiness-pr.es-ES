@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860811"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359406"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -34,7 +34,10 @@ El enrutamiento directo de Microsoft Phone System le permite conectar un control
 ![Diagrama que muestra la configuración de conectividad RTC local](media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de conectividad RTC local con el cliente de Microsoft Teams")
 
   > [!NOTE]
-  > Skype empresarial online también le permite emparejar un SBC proporcionado por el cliente, pero esto requiere una implementación local de Skype empresarial Server o una edición especial de Skype empresarial, denominada Cloud Connector, entre el SBC y la nube de Microsoft. Este escenario se conoce como voz híbrida. Por el contrario, el enrutamiento directo permite una conexión directa entre el SBC compatible y la nube de Microsoft. 
+  > Skype empresarial online también le permite emparejar un SBC proporcionado por el cliente, pero esto requiere una implementación local de Skype empresarial Server o una edición especial de Skype empresarial, denominada Cloud Connector, entre el SBC y la nube de Microsoft. Este escenario se conoce como voz híbrida. Por el contrario, el enrutamiento directo permite una conexión directa entre el SBC compatible y la nube de Microsoft.
+
+> [!Important]
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype empresarial online. Una vez que su organización haya actualizado a Teams, obtenga información sobre cómo conectar su red de telefonía local a los equipos mediante [enrutamiento directo](direct-routing-landing-page.md). 
 
 Con el enrutamiento directo, puede conectar su SBC a casi cualquier troncal de telefonía o interconexión con equipos con RTC de terceros. El enrutamiento directo le permite: 
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255443"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359306"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -77,7 +77,7 @@ Microsoft sigue ofreciendo otras funciones de operador automático que los clien
 La migración del correo de voz está controlada por Microsoft. No es necesario que los administradores hagan nada, dado que se ha establecido la topología híbrida de requisitos previos. Microsoft realiza la validación y las pruebas necesarias para asegurarse de que no se interrumpa la migración del correo de voz de los usuarios. Se recomienda a los administradores que realicen pruebas y validaciones en su lado. Vea el [plan de pruebas sugerido y la validación posterior a la migración para administradores](#suggested-test-plan-and-post-migration-validation-for-admins) de un plan de pruebas recomendado.
 
 > [!Note]
-> Lync Server 2010 no es compatible. Si está en una implementación de servidor 2010, debe planear una actualización de servidor o considerar la posibilidad de migrar los usuarios a Microsoft Teams o Skype empresarial online.  
+> Lync Server 2010 no es compatible. Si está en una implementación de 2010 Server, debe planear una actualización de servidor o considerar la posibilidad de migrar los usuarios a Microsoft Teams.  
 
 ### <a name="monitor-the-admin-notification-center"></a>Supervisar el centro de notificaciones de administrador
 

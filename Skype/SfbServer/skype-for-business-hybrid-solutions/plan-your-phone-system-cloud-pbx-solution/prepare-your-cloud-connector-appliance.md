@@ -16,14 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Obtenga información sobre cómo preparar el dispositivo de Cloud Connector para su implementación y uso con el sistema telefónico (PBX en la nube).
-ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 74c4885a25b4176f4d5eb3ac27926bd9528387c6
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220070"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358946"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
+
+> [!Important]
+> Cloud Connector Edition se retirará del 31 de julio de 2021 junto con Skype empresarial online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Microsoft Teams mediante el [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Obtenga información sobre cómo preparar el dispositivo de Cloud Connector para su implementación y uso con el sistema telefónico (PBX en la nube).
 
@@ -150,11 +153,11 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
     Establezca el nombre del conmutador que conecta la red perimetral a Internet **SFB CCE Internet switch**.
 
-## <a name="update-the-cloudconnectorini-configuration-file"></a>Actualizar el archivo de configuración de CloudConnector. ini
+## <a name="update-the-cloudconnectorini-configuration-file"></a>Actualizar el archivo de configuración de CloudConnector.ini
 
-Prepare el archivo CloudConnector. ini con la información que recopiló en [determinar los parámetros de implementación](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) en el tema [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) .
+Prepare el archivo de CloudConnector.ini con la información que ha recopilado en [determinar parámetros de implementación](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) en el tema [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) .
 
-Para actualizar el archivo, primero ejecute el siguiente cmdlet para obtener la plantilla de ejemplo (CloudConnector. sample. ini):
+Para actualizar el archivo, primero ejecute el siguiente cmdlet para obtener la plantilla de ejemplo (CloudConnector.Sample.ini):
 
 ```powershell
 Export-CcConfigurationSampleFile
@@ -162,7 +165,7 @@ Export-CcConfigurationSampleFile
 
 La plantilla de muestra se almacena en el **Directorio de dispositivos**.
 
-Después de actualizarlo con los valores de su entorno, guarde el archivo como CloudConnector. ini en el **Directorio de dispositivos**. Puede ejecutar **Get-CcApplianceDirectory** para determinar la ruta de acceso al **Directorio de dispositivos**.
+Después de actualizarlo con los valores de su entorno, guarde el archivo como CloudConnector.ini en el **directorio**de la aplicación. Puede ejecutar **Get-CcApplianceDirectory** para determinar la ruta de acceso al **Directorio de dispositivos**.
 
 Al actualizar el archivo. ini, tenga en cuenta lo siguiente:
 
@@ -243,7 +246,7 @@ Este paso prepara un archivo de disco duro virtual (VHDX) a partir de la imagen 
 > [!NOTE]
 > Debe realizar este paso solo para el primer dispositivo. 
 
-Antes de continuar con este paso, asegúrese de que se haya creado el conmutador de red corporativa. Además, confirme que las siguientes opciones de configuración están correctamente configuradas en el archivo CloudConnector. ini:
+Antes de continuar con este paso, asegúrese de que se haya creado el conmutador de red corporativa. Además, confirme que las siguientes opciones de configuración están correctamente configuradas en el archivo CloudConnector.ini:
 
 - Red CorpnetSwitchName
 
@@ -295,7 +298,7 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > Esta tarea no es necesaria para las versiones de Cloud Connector 1.4.2 y posterior. 
 
-La cuenta CceService se crea durante la implementación de Skype empresarial Cloud Connector Edition. Ejecuta el servicio de administración de Cloud Connector y requiere permiso para desinstalar cloudconnector. msi. Debe cambiar la configuración de la Directiva de grupo en la máquina host de Cloud Connector para especificar que el registro de usuarios no se debe descargar cuando el usuario cierra la sesión. Siga los pasos siguientes:
+La cuenta CceService se crea durante la implementación de Skype empresarial Cloud Connector Edition. Ejecuta el servicio de administración de Cloud Connector y requiere permiso para desinstalar el cloudconnector.msi. Debe cambiar la configuración de la Directiva de grupo en la máquina host de Cloud Connector para especificar que el registro de usuarios no se debe descargar cuando el usuario cierra la sesión. Siga los pasos siguientes:
 
 ### <a name="to-change-the-group-policy-setting"></a>Para cambiar la configuración de la Directiva de grupo
 

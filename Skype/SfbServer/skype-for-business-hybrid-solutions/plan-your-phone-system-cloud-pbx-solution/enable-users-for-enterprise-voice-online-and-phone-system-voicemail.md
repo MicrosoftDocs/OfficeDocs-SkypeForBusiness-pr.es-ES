@@ -1,5 +1,5 @@
 ---
-title: Habilitar a los usuarios para la telefonía IP empresarial en línea y el correo de voz del sistema telefónico
+title: Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para sus usuarios de Skype empresarial.
-ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221110"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359186"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar a los usuarios para la telefonía IP empresarial en línea y el correo de voz del sistema telefónico
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz
  
+> [!Important]
+> Skype empresarial online se retirará el 31 de julio de 2021 después del cual el servicio ya no será accesible.  Además, la conectividad con RTC entre su entorno local, ya sea a través de Skype empresarial Server o Cloud Connector Edition y Skype empresarial online, ya no será compatible.  Obtenga información sobre cómo conectar su red de telefonía local a Microsoft Teams con [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para sus usuarios de Skype empresarial.
   
 El último paso de la implementación del sistema telefónico con la conectividad RTC local es habilitar a los usuarios para el sistema telefónico y el correo de voz. Para habilitar estas funciones, debe ser un usuario con el rol de administrador global y poder ejecutar PowerShell remoto. Debe seguir los pasos de este tema para todas las cuentas de usuario que todavía no tienen habilitada la telefonía IP empresarial para Skype empresarial online.

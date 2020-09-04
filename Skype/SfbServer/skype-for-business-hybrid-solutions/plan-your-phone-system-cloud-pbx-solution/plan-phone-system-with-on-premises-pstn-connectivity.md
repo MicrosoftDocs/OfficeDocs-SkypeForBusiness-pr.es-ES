@@ -1,5 +1,5 @@
 ---
-title: Planeación del sistema telefónico con conectividad con RTC local en Skype empresarial Server
+title: Planear el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información sobre las consideraciones de planeación para el sistema telefónico (PBX en la nube) con conectividad con RTC local.
-ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f8baab67191f32013a9d7a01ddc12f1b04b62c03
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220241"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358816"
 ---
-# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planeación del sistema telefónico con conectividad con RTC local en Skype empresarial Server
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server
+
+> [!Important]
+> Skype empresarial online se retirará el 31 de julio de 2021 después del cual el servicio ya no será accesible.  Además, la conectividad con RTC entre su entorno local, ya sea a través de Skype empresarial Server o Cloud Connector Edition y Skype empresarial online, ya no será compatible.  Obtenga información sobre cómo conectar su red de telefonía local a Microsoft Teams con [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Obtenga información sobre las consideraciones de planeación para el sistema telefónico (PBX en la nube) con conectividad con RTC local.
 
@@ -59,7 +62,7 @@ Mediante la implementación de sistema telefónico con conectividad con RTC loca
 
 Puede tener una característica personalizada o un complemento principal para su PBX heredada, como un centro de llamadas. Si la característica personalizada no está disponible actualmente en el sistema telefónico, debe dejar a los usuarios que requieran la característica personalizada local con la PBX heredada y simplemente portar a los usuarios que no necesitan tener acceso a la característica personalizada en el sistema telefónico con conectividad con RTC local.
 
-Para obtener una lista de PBX heredadas que interoperen directamente con Skype empresarial Server 2015 consulte [Infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si su PBX no se encuentra en esta lista, puede usar un controlador de borde de sesión para conectar su PBX con sistema telefónico en Skype empresarial online.
+Para obtener una lista de PBX heredadas que interoperen directamente con Skype empresarial Server 2015 consulte  [Infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Si su PBX no se encuentra en esta lista, puede usar un controlador de borde de sesión para conectar su PBX con sistema telefónico en Skype empresarial online.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Consideraciones de red para la calidad y el rendimiento
 

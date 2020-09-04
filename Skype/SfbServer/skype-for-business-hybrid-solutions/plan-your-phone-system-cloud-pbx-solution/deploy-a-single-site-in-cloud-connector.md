@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Obtenga información sobre cómo implementar un solo sitio RTC en Cloud Connector Edition.
-ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220540"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358936"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Implementar un solo sitio en Cloud Connector
  
+> [!Important]
+> Cloud Connector Edition se retirará del 31 de julio de 2021 junto con Skype empresarial online. Una vez que la organización haya actualizado a Teams, obtenga información sobre cómo conectar la red de telefonía local a Microsoft Teams mediante el [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Obtenga información sobre cómo implementar un solo sitio RTC en Cloud Connector Edition.
   
 Puede implementar Skype empresarial Cloud Connector Edition con compatibilidad con o sin alta disponibilidad (HA). Si desea habilitar HA, debe implementar dos o más dispositivos dentro de un sitio. También puede convertir un dispositivo existente para que sea compatible con HA una vez que se ha implementado.
