@@ -12,14 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019
-ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f6a1b8959bb5411909f8627c5d02a6cdc1935b20
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221300"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359086"
 ---
-# <a name="plan-cloud-auto-attendants"></a>Planeación de operadores automáticos en la nube
+# <a name="plan-cloud-auto-attendants"></a>Planear los operadores automáticos en la nube
 
 El operador automático que se usa con la mensajería unificada de Exchange (Exchange Server 2013 o Exchange Server 2016) ya no está disponible en Exchange Server 2019 ni en Exchange Online. Si la implementación de Skype empresarial Server 2019 se integra con cualquiera de estas versiones de Exchange, deberá usar las características de voz en la nube en línea asociadas con el sistema telefónico. Consulte [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md) para obtener información sobre cómo mover los servicios de mensajería unificada de Exchange hospedados en exchange Server 2013 y 2016 a la nube.
 
@@ -49,7 +49,7 @@ En los siguientes requisitos se da por sentado que ya ha implementado Skype empr
 
 - Si ya usa la mensajería unificada de Exchange en línea o local y actualiza a Skype empresarial 2019, deberá capturar la estructura de los operadores automáticos y volver a crearla en la nube con operadores automáticos de la nube. Para obtener más información, vea [mover un operador automático de mensajería unificada de Exchange o una cola de llamadas al sistema telefónico](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
-- Para una nueva configuración de operadores automáticos de la nube, siga los pasos descritos en [Configure Resource accounts](configure-onprem-ra.md).
+- Para una nueva configuración de operadores automáticos de la nube, siga los pasos descritos en  [Configure Resource accounts](configure-onprem-ra.md).
 
 Además de los requisitos anteriores, deben configurarse los siguientes requisitos para conectarse al servicio del operador automático de la nube de Microsoft:
 
@@ -85,7 +85,7 @@ Actualmente no se admite la migración automatizada a la nube de un sistema de o
 1. Use los comandos de PowerShell de administración de Exchange para revisar la estructura del antiguo sistema de operadores automáticos, incluidos los operadores automáticos anidados y las colas de llamadas.  
 2. Cree copias de secuencias de comandos de texto a voz o mensajes grabados asociados con cada nodo de operador automático de mensajería unificada.
 3. Cree extremos locales para cada nodo de operador automático, incluida la asignación de licencias y números de teléfono de prueba a los objetos. Tenga en cuenta que ahora tiene la posibilidad de asignar licencias de números de teléfono locales que usan los servicios en línea como sistema telefónico.
-4. Implemente un nuevo servicio de operador automático de la nube con Skype empresarial online y el sistema telefónico. Vea [Configure Resource accounts](configure-onprem-ra.md) para obtener detalles de implementación. Al hacerlo, cargue los scripts de texto a voz o los mensajes grabados asociados con cada nodo de operador automático de mensajería unificada.
+4. Implemente un nuevo servicio de operador automático de la nube con Microsoft Teams y el sistema telefónico. Vea [Configure Resource accounts](configure-onprem-ra.md) para obtener detalles de implementación. Al hacerlo, cargue los scripts de texto a voz o los mensajes grabados asociados con cada nodo de operador automático de mensajería unificada.
 5. Pruebe la funcionalidad del operador automático de la nube.
 6. Reasigne el número de teléfono asignado al operador automático de mensajería unificada de Exchange anterior al operador automático de la nube principal recién creado.
 
@@ -100,9 +100,9 @@ Cuando tenga una estructura sólida que satisfaga sus necesidades y un script qu
 > [!CAUTION]
 > Como se mencionó en [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), no se recomienda mover los operadores automáticos de mensajería unificada de Exchange creados en el servidor 2015 a los servidores que ejecutan el servidor 2019. Por el momento, tendría que mantenerlas en un grupo de servidores de Skype empresarial Server 2015 que se ejecuten en el modo de coexistencia.
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Vea también
 
-[Planeación de la migración de Skype empresarial Server y Exchange Server](plan-um-migration.md)
+[Planificar la migración de Skype Empresarial Server y Exchange Server](plan-um-migration.md)
 
 [Configurar cuentas de recursos](configure-onprem-ra.md)
 

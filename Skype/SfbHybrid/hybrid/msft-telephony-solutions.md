@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Describe las soluciones de telefonía de Microsoft.
-ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221330"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359106"
 ---
 # <a name="microsoft-telephony-solutions"></a>Soluciones de telefonía de Microsoft
 
@@ -126,7 +126,7 @@ Sistema telefónico con plan de llamadas es una opción todo en la nube para los
 | Requiere contrato con un proveedor de terceros      | No   |
 | Requiere la implementación y el mantenimiento de Skype empresarial Server o Cloud Connector Edition | No |
 
-\*Para obtener más información acerca de los países en los que está disponible el plan de llamadas, consulte [disponibilidad de países y regiones para audioconferencia y planes de llamada](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+\* Para obtener más información acerca de los países en los que está disponible el plan de llamadas, consulte [disponibilidad de países y regiones para audioconferencia y planes de llamada](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 
 Si responde afirmativamente a las siguientes preguntas, esta es la solución adecuada para usted:
@@ -158,7 +158,7 @@ Esta opción proporciona el sistema telefónico de Microsoft en la nube con prá
 | Requiere contrato con un proveedor de terceros *      | Sí   |
 | Requiere la implementación y el mantenimiento de Skype empresarial Server o Cloud Connector Edition | No |
 
-\*A menos que se implemente como una opción para proporcionar conexión a un PBX de terceros, dispositivos analógicos u otros equipos de telefonía para los usuarios de sistema telefónico con planes de llamada.
+\* A menos que se implemente como una opción para proporcionar conexión a un PBX de terceros, dispositivos analógicos u otros equipos de telefonía para los usuarios de sistema telefónico con planes de llamada.
 
 Si responde afirmativamente a las siguientes preguntas, esta es la solución adecuada para usted:
 
@@ -172,6 +172,9 @@ Para obtener más información, consulte [What is Phone System in Microsoft 365 
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Sistema telefónico con operador propio a través de Skype empresarial Server o Cloud Connector Edition
+
+> [!Important]
+> Skype empresarial online se retirará el 31 de julio de 2021 después del cual el servicio ya no será accesible.  Además, la conectividad con RTC entre su entorno local, ya sea a través de Skype empresarial Server o Cloud Connector Edition y Skype empresarial online, ya no será compatible.  Obtenga información sobre cómo conectar su red de telefonía local a Microsoft Teams con [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Esta opción proporciona el sistema telefónico de Microsoft en la nube con conectividad a una red de telefonía local para los usuarios de Skype empresarial online.
 

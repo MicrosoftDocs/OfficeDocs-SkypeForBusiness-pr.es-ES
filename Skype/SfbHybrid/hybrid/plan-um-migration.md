@@ -1,5 +1,5 @@
 ---
-title: Planeación de la migración de Skype empresarial Server y Exchange Server
+title: Planificar la migración de Skype Empresarial Server y Exchange Server
 ms.reviewer: ''
 author: dstrome
 ms.author: dstrome
@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Este tema cubre lo que debe tener en cuenta cuando decida migrar las implementaciones existentes de Skype empresarial Server o Exchange Server a la versión más reciente o a Skype empresarial online o Exchange Online.
-ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cb6d58cf839b6260bc8889817ea568528e4832f4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221270"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359046"
 ---
-# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planeación de la migración de Skype empresarial Server y Exchange Server
+# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planificar la migración de Skype Empresarial Server y Exchange Server
 
-Este tema cubre lo que debe tener en cuenta cuando decida migrar las implementaciones existentes de Skype empresarial Server o Exchange Server a la versión más reciente o a Skype empresarial online o Exchange Online. Qué puede migrar y cuándo, depende en gran medida de lo que ya ha configurado en su organización.
+En este tema se explica lo que debe tener en cuenta cuando decida migrar las implementaciones existentes de Skype empresarial Server o Exchange Server a Exchange Online. Qué puede migrar y cuándo, depende en gran medida de lo que ya ha configurado en su organización.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Cambios de características en Exchange 2019 y Skype empresarial Server 2019
 

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Consideraciones de planeación para implementar la conectividad híbrida entre Skype empresarial Server y Skype empresarial online o Teams.
-ms.openlocfilehash: 3a7df5ef36a7d0e6bf58c1784edb0bbe0baa9409
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221280"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359066"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Planeación de la conectividad híbrida entre Skype empresarial Server y Microsoft 365 u Office 365
 
@@ -37,6 +37,9 @@ También hay que configurar la conectividad híbrida y trasladar a todos los usu
 En este tema se describen los requisitos del sistema y de la infraestructura que necesitará para configurar la conectividad híbrida entre su implementación local existente de Skype empresarial Server y Microsoft Teams o Skype empresarial online.
 
 Una vez que haya leído este tema y esté listo para configurar la conectividad híbrida, vea [configurar la conectividad híbrida entre Skype empresarial Server y Microsoft 365 u Office 365](configure-hybrid-connectivity.md). Los temas de configuración proporcionan instrucciones paso a paso para configurar la conectividad híbrida entre su implementación local y Microsoft Teams o Skype empresarial online.
+
+> [!Important]
+> Skype empresarial online se retirará el 31 de julio de 2021 después del cual el servicio ya no será accesible.  Además, la conectividad con RTC entre su entorno local, ya sea a través de Skype empresarial Server o Cloud Connector Edition y Skype empresarial online, ya no será compatible.  Obtenga información sobre cómo conectar su red de telefonía local a Microsoft Teams con [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Acerca de la funcionalidad del espacio de direcciones SIP compartido
 
@@ -84,8 +87,8 @@ Después de configurar la conectividad híbrida, puede mover usuarios a Microsof
 
 Para configurar la implementación de en entornos híbridos con Microsoft **Teams o Skype empresarial online**, debe disponer de una de las siguientes topologías admitidas:
 
-- Una implementación de Skype empresarial Server 2019 con todos los servidores que ejecutan Skype empresarial Server 2019.
-- Una implementación de Skype empresarial Server 2015 con todos los servidores que ejecutan Skype empresarial Server 2015.
+- Una implementación de Skype Empresarial Server 2019 con todos los servidores que ejecuten Skype Empresarial Server 2019.
+- Una implementación de Skype Empresarial Server 2015 con todos los servidores que ejecuten Skype Empresarial Server 2015.
 - Una implementación de Lync Server 2013 con todos los servidores que ejecutan Lync Server 2013.  Sin embargo, si se requiere conectividad de voz híbrida, debe usar una topología de versión mixta como se indica a continuación.
 - Una implementación con un máximo de 2 versiones de servidor diferentes, como se indica a continuación:
   - Skype empresarial Server 2015 y Skype empresarial Server 2019
@@ -149,7 +152,7 @@ Además, debe asegurarse de que la resolución DNS que se describe en la tabla s
 
 |Registro DNS  <br/> |Resuelto por  <br/> |Requisito de DNS  <br/> |
 |:-----|:-----|:-----|
-|Registro SRV de DNS para _sipfederationtls. _tcp. \< sipdomain.com \> para todos los dominios SIP compatibles que se resuelven para obtener acceso a las IP externas perimetrales  <br/> |Servidor (es) perimetral  <br/> |Habilitar la comunicación federada en una configuración híbrida. El servidor perimetral tiene que saber dónde enrutar el tráfico federado para el dominio SIP que se divide entre las instalaciones locales y en línea.  <br/> Debe usar una coincidencia de nombres DNS estricta entre el dominio del nombre de usuario y el registro SRV.  <br/> |
+|Registro SRV de DNS para _sipfederationtls. _tcp.\<sipdomain.com\> para todos los dominios SIP compatibles que se resuelven para obtener acceso a las IP externas perimetrales  <br/> |Servidor (es) perimetral  <br/> |Habilitar la comunicación federada en una configuración híbrida. El servidor perimetral tiene que saber dónde enrutar el tráfico federado para el dominio SIP que se divide entre las instalaciones locales y en línea.  <br/> Debe usar una coincidencia de nombres DNS estricta entre el dominio del nombre de usuario y el registro SRV.  <br/> |
 |Registros A de DNS para el FQDN del servicio de conferencia web perimetral, por ejemplo, webcon.contoso.com para la resolución de direcciones IP externas del servidor perimetral de conferencia Web  <br/> |Equipos de usuarios conectados a la red corporativa interna  <br/> |Permitir que los usuarios en línea presenten o vean contenido en las reuniones hospedadas locales. El contenido incluye archivos de PowerPoint, pizarras, sondeos y notas compartidas.  <br/> |
 
 En función de la configuración de DNS en la organización, es posible que deba agregar estos registros a la zona DNS hospedada interna para los dominios SIP correspondientes para proporcionar resolución DNS interna a estos registros.
