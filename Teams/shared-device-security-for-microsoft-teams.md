@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: a2d10048cf668c15060147b8426c5226e98fdaa4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868699"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359386"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Usar Microsoft Teams de forma segura en equipos compartidos
 
@@ -46,18 +46,20 @@ Deben elaborarse planes para ceñirse a las directrices tan pronto como sea posi
 
 1. Haga uso de las funciones de seguridad de la plataforma del sistema operativo.
     1. Asegúrese de que el sistema operativo se haya configurado para instalar actualizaciones automáticas desde el proveedor del sistema operativo (lo que, en el caso de Microsoft Systems, se puede realizar mediante [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq)). 
-    2. Asegúrese de que todas las funciones de cifrado de dispositivo, como [**BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview), estén habilitadas y de que la clave utilizada para acceder al dispositivo esté protegida.  Tenga en cuenta que la mayoría de los [**dispositivos modernos con Windows 10 son compatibles con BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10). 
+    1. Asegúrese de que todas las funciones de cifrado de dispositivo, como [**BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview), estén habilitadas y de que la clave utilizada para acceder al dispositivo esté protegida.  Tenga en cuenta que la mayoría de los [**dispositivos modernos con Windows 10 son compatibles con BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10). 
     1. Utilice funciones antivirus como las ofrecidas por [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) en sus dispositivos.
     1. Se recomienda encarecidamente el uso de [cuentas de usuario independientes](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account) para cada usuario del sistema.
     1. *No* conceda ni utilice privilegios de administrador para las funciones no administrativas (como navegar por la web, ejecutar Teams, etc.).
 
-2. Aproveche las funciones de seguridad del explorador.
+Si no se pueden cumplir las instrucciones anteriores, le recomendamos que use los procedimientos recomendados de seguridad adicionales del explorador:
+
+1. Aproveche las funciones de seguridad del explorador.
     1. Utilice sesiones de exploración privada para minimizar los datos y el historial que se conservan en el disco. Por ejemplo, use [la exploración de InPrivate en Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [la exploración en modo incógnito de Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) o las funcionalidades que ofrezca su explorador para navegar de forma privada. 
     1. Se recomienda cambiar el comportamiento del sistema para activar la exploración privada *de forma predeterminada*. 
 
-3. Utilice el explorador para desplazarse a la [aplicación web de Teams](https://teams.microsoft.com) (también conocido como cliente *web*) y utilícela, en lugar de usar el cliente descargable de Teams.
+2. Utilice el explorador para desplazarse a la [aplicación web de Teams](https://teams.microsoft.com) (también conocido como cliente *web*) y utilícela, en lugar de usar el cliente descargable de Teams.
 
-4. Cuando termine de usar el sistema compartido, debe: 
+3. Cuando termine de usar el sistema compartido, debe: 
     1. [Cerrar la sesión de Teams](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487).
     1. Cerrar todas las pestañas y ventanas del explorador.
     1. Cerrar sesión en el dispositivo.
