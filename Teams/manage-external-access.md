@@ -20,12 +20,12 @@ description: El administrador de Teams o de TI puede configurar el acceso extern
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: a8139c01f5e79eab451abc1eb47a97c94849147a
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 1acc8bea66791c7e8cfc38cae2d394b6360ceec9
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255423"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395409"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 ======================================================
@@ -56,6 +56,9 @@ El acceso externo está activado en Teams de forma predeterminada, lo que signif
 - **Permitir dominios específicos**: al agregar dominios a una lista de dominios **permitidos**, solo se permite el acceso externo a los dominios permitidos. Una vez que se configura una lista de dominios permitidos, se bloquearán todos los demás dominios. Para permitir dominios específicos, haga clic en **Agregar un dominio**, agregue el nombre del dominio, haga clic en **Acción que se realizará en este dominio** y, después, seleccione **Permitido**.
 
 - **Bloquear dominios específicos**: al agregar dominios a una lista de dominios **bloqueados**, se permite la comunicación con todos los dominios externos, *excepto* con aquellos que se han bloqueado. Para bloquear dominios específicos, haga clic en **Agregar un dominio**, agregue el nombre del dominio, haga clic en **Acción que se realizará en este dominio** y, después, seleccione **Bloqueado**. Una vez que haya configurado una lista de dominios bloqueados, se permitirán todos los demás dominios.
+
+> [!NOTE]
+> Si desactiva el acceso externo a su organización, los usuarios externos podrán unirse a las reuniones a través de una combinación anónima. Para obtener más información, vea [administrar la configuración de la reunión en Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
 
 ## <a name="allow-or-block-domains"></a>Permitir o bloquear dominios
 

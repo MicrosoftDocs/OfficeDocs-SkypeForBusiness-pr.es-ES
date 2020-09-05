@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión para las características de administrador de Microsoft Teams.
-ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
-ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
+ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797448"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399515"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión para las características de administrador de Microsoft Teams
 
 Estas notas de la versión proporcionan información sobre las nuevas características de administración de Microsoft Teams.
+
+## <a name="september-3-2020"></a>3 de septiembre de 2020
+
+### <a name="custom-apps-store-in-microsoft-teams"></a>Tienda de aplicaciones personalizadas en Microsoft Teams
+
+Ahora puede personalizar la tienda de aplicaciones de Teams con la personalización de la organización agregando un logotipo, fondos personalizados y colores de texto personalizados para que sea más fácil invitar a los usuarios finales. [Aprende más](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
+## <a name="september-1-2020"></a>1 de septiembre de 2020
+
+### <a name="on-demand-translation-in-android"></a>Traducción a petición en Android
+
+La traducción de mensajes en línea es una característica de Microsoft teams que permite a los usuarios traducir los mensajes de los equipos en el idioma especificado por la configuración de Idioma personal. La configuración de la traducción está **activada de** forma predeterminada. [Más información](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams).
 
 ## <a name="august-17-2020"></a>17 de agosto de 2020
 
@@ -75,6 +87,16 @@ Aprobar aplicaciones personalizadas enviadas a través de la API de envío de la
 
 Las aplicaciones de Teams son gratuitas de instalar y algunas pueden requerir la compra de suscripciones de servicio para experimentar la funcionalidad y el ámbito completo de la aplicación. Estas suscripciones de servicio se denominan ofertas de software como servicio (SaaS), que se encuentran disponibles para su compra a través de AppSource y ahora a través del centro de administración de Microsoft Teams. [Más información](../purchase-third-party-apps.md).
 
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API de envío de la aplicación de Teams
+
+Los programadores pueden usar la API de envío de aplicaciones de Teams para enviar aplicaciones personalizadas directamente al centro de administración de Microsoft Teams para que los administradores las revisen y aprueben. [Más información](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
+
+## <a name="july-31-2020"></a>31 de julio de 2020
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Los administradores pueden configurar la presencia basada en turnos (en turno, desactivado) para sus trabajadores de los Firstline
+
+Los administradores pueden configurar sus trabajadores de los Firstline para que tengan Estados de presencia basados en turnos: en turnos, ocupado (se puede alternar al desplazar el turno) y desactivado.
+
 ## <a name="july-29-2020"></a>29 de julio de 2020
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Capacidad de administración mejorada con la funcionalidad de etiquetado de dispositivos
@@ -103,7 +125,7 @@ Hemos agregado la posibilidad de habilitar la NDI a una reunión de Teams. NDI-o
 
 ### <a name="enable-suggested-replies"></a>Habilitar las respuestas sugeridas
 
-Activa esta opción para habilitar las respuestas sugeridas para los mensajes instantáneos. [Más información](../messaging-policies-in-teams.md)
+Activa esta opción para habilitar las respuestas sugeridas para los mensajes instantáneos. [Aprende más](../messaging-policies-in-teams.md)
 
 ## <a name="july-9-2020"></a>9 de julio de 2020
 
@@ -139,6 +161,10 @@ Hemos agregado la posibilidad de que los operadores automáticos y las llamadas 
 
 Usted elige qué aplicaciones se instalan de forma predeterminada para los usuarios cuando inician Teams. [Más información](../teams-app-setup-policies.md).
 
+### <a name="screen-sharing-on-behalf-of-others"></a>Pantalla compartida en nombre de otros usuarios
+
+Muchos administradores de TI se han quejado de que no pueden tener la pantalla de sus empleados compartida desde la conversación cuando deshabilitan la Directiva AllowPrivateCalling. Este trabajo de características ha desvinculado la posibilidad de iniciar una Screenshare desde la conversación de la AllowPrivateCalling, pero sigue bloqueando a los usuarios para que no agreguen audio o vídeo a la sesión de Screenshare si su Directiva AllowPrivateCalling está deshabilitada.
+
 ## <a name="june-29-2020"></a>29 de junio de 2020
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación talkie de walkie en Microsoft Teams
@@ -160,6 +186,12 @@ Agregamos un nuevo widget de Resumen de usuario que está disponible cuando se a
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Restricciones de inicio de sesión para usuarios de Android e iOS
 
 Si el usuario no ha iniciado sesión en su cuenta de Microsoft 365 en ningún otro lugar, se le pedirá que proporcione una autenticación de factor único o multifactorial (SFA o MFA), dependiendo de lo que su organización haya configurado para las directivas de inicio de sesión móvil. [Más información](../sign-in-teams.md).
+
+## <a name="june-15-2020"></a>15 de junio de 2020
+
+### <a name="monitor-shifts-with-audit-logs"></a>Supervisar los turnos con registros de auditoría
+
+Puede buscar en el registro de auditoría para ver la actividad de los turnos en su organización. [Más información](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11 de junio de 2020
 
