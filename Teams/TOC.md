@@ -499,21 +499,8 @@
 
 ### [Flujos de llamadas de Microsoft Teams](microsoft-teams-online-call-flows.md)
 
-## Guía práctica para grandes organizaciones
 ### [Tutorial: Llamadas en Microsoft Teams](Tutorial-calling-in-teams.yml)
-### [Guía de voz en la nube](cloud-voice-landing-page.md)
-#### [Definir mi éxito](1-envision-define-my-success-cloud-voice.md)
-#### [Tomar decisiones relacionadas con el servicio del Sistema telefónico con planes de llamada](calling-plan-landing-page.md)
-#### [Tomar decisiones relacionadas con el servicio de enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
-#### [Evaluar mi entorno](3-envision-evaluate-my-environment.md)
-#### [Planificar la administración de mis servicios](4-envision-plan-my-service-management.md)
 #### [Planificar la experiencia de mis usuarios](5-envision-plan-my-users-experience.md)
-#### [Documentar el plan de éxito](6-envision-document-my-success-plan.md)
-#### [Preparar mis servicios](1-onboard-prepare-my-service.md)
-#### [Preparar a mis usuarios](2-onboard-prepare-my-users.md)
-#### [Implementar mis servicios](3-onboard-deploy-my-service.md)
-#### [Ejecutar mis servicios](1-drive-value-operate-my-service.md)
-#### [Mejorar mis servicios](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
