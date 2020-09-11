@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: implemente la aplicación Web de Skype empresarial y la aplicación reuniones de Skype que se usan con Skype empresarial.'
-ms.openlocfilehash: 7f6bebbc9950a7eb5da202c3b818b1288c811f17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a2a28bf634524d6f61ba579652a6dddfd06de3
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029051"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429426"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar clientes Web descargables en Skype empresarial Server
 
@@ -33,7 +33,7 @@ Las características de voz, vídeo y uso compartido de la aplicación Web de Sk
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar multi-factor Authentication para la aplicación Web de Skype empresarial
 <a name="MFA"> </a>
 
-La aplicación Web de Skype empresarial, la aplicación reuniones de Skype y Skype empresarial para Mac admiten la autenticación multifactor. Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unen desde redes externas cuando inician sesión en reuniones de Skype empresarial. Puede habilitar la autenticación multifactor mediante la implementación del servidor de Federación del servicio de Federación de Active Directory (AD FS) y la habilitación de la autenticación pasiva en Skype empresarial Server. Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Skype empresarial recibirán una página web de autenticación multifactor de AD FS que contiene el nombre de usuario y la contraseña, junto con los métodos de autenticación adicionales que se haya configurado.
+La aplicación Web de Skype empresarial, la aplicación reuniones de Skype y Skype empresarial para Mac admiten la autenticación multifactor. Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unen desde redes externas cuando inician sesión en reuniones de Skype empresarial. Puede habilitar la autenticación multifactor mediante la implementación del servidor de Federación del servicio de Federación de Active Directory (AD FS) y la habilitación de la autenticación pasiva en Skype empresarial Server. Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Skype empresarial recibirán una página web de autenticación multifactor de AD FS con el nombre de usuario y la contraseña, junto con los métodos de autenticación adicionales que haya configurado.
 
 > [!IMPORTANT]
 > A continuación, se indican algunas consideraciones importantes que debe tener en cuenta si tiene previsto configurar AD FS para la autenticación multifactor:
@@ -106,7 +106,7 @@ Si se produce un error en la instalación del complemento en un equipo que ejecu
 
 ### <a name="modify-the-disablemsi-registry-setting"></a>Modificación de la configuración del registro DisableMSI
 
-1. Haga clic en **Inicio** y, a continuación, haga clic en **Ejecutar**.
+1. Haga clic en **Inicio** y luego en **Ejecutar**.
 
 2. Para obtener acceso al editor del registro, escriba **regedit**.
 
@@ -135,7 +135,7 @@ Este procedimiento es opcional y se aplica a Skype empresarial Server 2015 CU5 y
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    La información que se envía a Microsoft cumple rigurosamente con las [prácticas de recopilación de datos de Skype empresarial](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    La información que se envía a Microsoft se ajusta al estricto cumplimiento de la [privacidad y Microsoft Teams](../../../../Teams/teams-privacy.md).
 
 3. Establezca el tiempo de espera antes de revertir a la experiencia de la aplicación Web de Skype empresarial hospedada localmente si la red CDN no está disponible. El valor predeterminado es 6 segundos. Si este valor se establece en 0, no habrá tiempo de espera.
 
@@ -147,7 +147,7 @@ Este procedimiento es opcional y se aplica a Skype empresarial Server 2015 CU5 y
 > Con MeetingUxUseCdn en Skype empresarial Server 2015 de la actualización acumulativa 5, el valor predeterminado se establece en false. Esto causa un problema en el que el cliente de Skype empresarial para Mac no puede unirse a reuniones de socios no federados como invitado, incluso si el administrador de Skype empresarial ha establecido MeetingUxUseCdn en true. Para que esto funcione, Skype empresarial Server 2015 debe tener la actualización acumulativa 7, 6.0.9319.534 o posterior. Consulte [Habilitar la aplicación reuniones de Skype para reemplazar la aplicación Web de Skype empresarial en Skype empresarial Server 2015](https://support.microsoft.com/kb/4132312).
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="SMA_Enable"> </a>
 
 [Planeación de clientes de reuniones (aplicación web y aplicación de reuniones)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
