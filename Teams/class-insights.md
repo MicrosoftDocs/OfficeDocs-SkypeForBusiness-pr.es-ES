@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
+ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778102"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47408236"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Guía de Insights en Teams para el ámbito educativo para administradores de TI
 
@@ -34,14 +34,16 @@ Insights está activa en los SKU A1, A3 y A5 de Office 365 Educación.
 
 ## <a name="permissions"></a>Permisos
 
-Tipos de usuario: 
-- Los estudiantes se identifican por sus licencias y no tienen acceso a la pestaña Insights (incluso si son los propietarios de un equipo). 
-- Los formadores se identifican por las licencias del profesorado. Los formadores deben tener una licencia para profesores y ser los propietarios de un equipo de clase para agregar y ver los datos en la pestaña Insights. 
-- Asimismo, se identifica a los líderes según su licencia de facultad, pero además necesitan permisos específicos de los administradores globales de TI para ver los informes en la aplicación Insights.
+### <a name="user-types"></a>Tipos de usuario
+- Los **alumnos** se pueden identificar por sus licencias y  _no tienen_ acceso a la pestaña Insights (incluso si son los propietarios de un equipo). 
+- Los **formadores** se pueden identificar por sus licencias para profesores. Los formadores deben tener una licencia para profesores y ser los propietarios de un equipo de clase para agregar y ver los datos en la pestaña Insights. 
+- Asimismo, se identifica a los **líderes** según su licencia de facultad, pero además necesitan permisos específicos de los administradores globales de TI para ver los informes en la aplicación Insights.
+- Las cuentas de invitado _no tienen_ acceso a Insights.
 
-Los formadores y los líderes tienen niveles de permisos y lógica diferentes:
-- Los formadores pueden agregar Insights a un canal público de un equipo de clase yendo a Aplicaciones en la barra aplicaciones de Teams y buscando Insights. La pestaña refleja la actividad de todos los miembros del equipo de clase que no son propietarios (incluidos los formadores que no son propietarios del equipo). 
-- Los líderes pueden agregar la aplicación de Insights como una aplicación personal (aparece en el menú izquierdo de Teams) yendo a Aplicaciones en la barra de aplicaciones de Teams y buscando Insights. 
+### <a name="permission-levels"></a>Niveles de permisos
+Los formadores y los líderes tienen niveles de permisos y una lógica diferentes:
+- Los **formadores** pueden agregar la aplicación Insights a un canal público dentro un equipo de clase yendo a Aplicaciones en la barra aplicaciones de Teams y buscando Insights. La pestaña refleja la actividad de todos los miembros del equipo de clase que no son propietarios (incluidos los formadores que no son propietarios del equipo). 
+- Los **líderes** pueden agregar la aplicación Insights como una aplicación personal (aparece en el menú izquierdo de Teams) yendo a Aplicaciones en la barra de aplicaciones de Teams y buscando Insights. 
 
 ## <a name="compliance"></a>Cumplimiento
 
@@ -58,9 +60,9 @@ Nuestro objetivo es ayudar a los formadores a entender el compromiso y centrar l
 
 ## <a name="data-collection"></a>Recopilación de datos
 
-Recopilamos datos para Insights cuando se activa Education Analytics para el espacio empresarial. Los datos se recopilan a partir de la actividad de Teams para presentar recomendaciones accionables sobre formación y aprendizaje.
-
-Education Analytics está **activado** de manera predeterminada.
+- Recopilamos datos para Insights cuando se activa Education Analytics para el espacio empresarial. Los datos se recopilan a partir de la actividad de Teams para presentar recomendaciones accionables sobre formación y aprendizaje.
+- Los datos de los invitados _no_ se recopilan en Insights.
+- Education Analytics está **activado** de manera predeterminada.
 
 Actualmente, estos datos se extraen de las siguientes áreas de actividad de los estudiantes y formadores en los equipos de clase:
 
