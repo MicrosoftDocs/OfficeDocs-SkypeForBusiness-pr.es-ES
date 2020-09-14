@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 4315ab438131e6b7e119a3e0dc48fee661190552
+ms.sourcegitcommit: 272995feb5661712668404ba57ce7afdf3b848be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788404"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "47474649"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -39,7 +39,7 @@ Para obtener una visión general guiada de la experiencia del asesor de Teams, c
 
 ## <a name="using-advisor-for-teams"></a>Usar el Asesor de Teams
 
-**Se necesitan licencias de Teams, de Forms y de Planner para usar el Asesor para Teams.** Sin embargo, no es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquier usuario de su organización puede hacerlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Usted tiene que ser un administrador de Teams, un administrador de servicio de Teams o un administrador global para abrir las evaluaciones de preparación del inquilino (esto se debe a que los roles especiales no administrativos no tienen acceso a las APIs de Microsoft Graph subyacentes a las evaluaciones). Sin embargo, no es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquier usuario de su organización puede hacerlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Usted tiene que ser un administrador de Teams, un administrador de servicio de Teams o un administrador global para abrir las evaluaciones de preparación del inquilino (esto se debe a que los roles especiales no administrativos no tienen acceso a las APIs de Microsoft Graph subyacentes a las evaluaciones).
+**Se necesitan licencias de Teams, de Forms y de Planner para usar el Asesor para Teams.** Sin embargo, no es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquier usuario de su organización puede hacerlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Usted tiene que ser un administrador de Teams, un administrador de servicio de Teams o un administrador global para abrir las evaluaciones de preparación del inquilino (esto se debe a que los roles especiales no administrativos no tienen acceso a las APIs de Microsoft Graph subyacentes a las evaluaciones).
 
 > [!IMPORTANT]
 > Si no se muestra el **Asesor para Teams** en **Planificar** en el centro de administración de Teams, esto significa que el usuario no tiene licencia para Teams.
