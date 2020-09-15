@@ -85,10 +85,7 @@
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr",
       "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "master": "master"
-      }
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
@@ -116,5 +113,8 @@
     }
   },
   "need_generate_pdf": true,
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "docs_build_engine": {
+    "name": "docfx_v2"
+   }
 }
