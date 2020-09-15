@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para China.
-ms.openlocfilehash: d0629cfe16e5e917a358c55d0b6ec6b78bfbcf29
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230578"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766894"
 ---
 # <a name="availability-in-china"></a>Disponibilidad en China
 
@@ -42,9 +42,9 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y M
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
-|¿Se asignan números de teléfono automáticamente para las audioconferencias?  <br/> | No geográficos. Los números de teléfono no se vinculan a una ciudad o ubicación específica. <br/>  Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí, para que lo usen los usuarios ubicados fuera de China. Para obtener más información, comunícate con el equipo de tu cuenta.  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | No geográficos. Los números de teléfono no se vinculan a una ciudad o ubicación específica. <br/>  Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Sí, excepto para los clientes que compran el servicio de China. Las capacidades de acceso telefónico están deshabilitadas para los clientes que compran el servicio de China.   <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 
@@ -71,7 +71,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Pekín  <br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), excepto para los clientes que compran el servicio de China. Los números gratuitos no están disponibles para los clientes que compran el servicio de China. <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -81,7 +81,6 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 |:-----|:-----|
 |¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
    
-Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   
 ## <a name="related-topics"></a>Temas relacionados
 

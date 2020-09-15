@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804002"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766924"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -80,7 +80,11 @@ Para obtener los últimos requisitos de servidor y cliente, consulte [este sitio
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>Espacio de trabajo de horizonte de VMware y requisitos de escritorio
 
-El horizonte de VMware proporciona soporte de AV optimizado para los equipos de VDI para mejorar la productividad en todos los escritorios virtuales. Puede descargar la última versión de horizonte de VMware desde la página de [descargas de VMware](https://my.vmware.com/web/vmware/downloads/#all_products) .
+El horizonte de VMware es una plataforma moderna para la entrega segura de escritorios virtuales y aplicaciones en la nube híbrida. Para ofrecer una excelente experiencia para el usuario final, VMware horizonte ofrece optimización de medios para los equipos. Esta optimización mejora la productividad general en las aplicaciones y los escritorios virtuales, y mejora la experiencia del usuario al llamar y realizar reuniones con Teams.
+
+Puede descargar la última versión de horizonte de VMware desde la página de [descargas de VMware](https://my.vmware.com/web/vmware/downloads/#all_products) . Los componentes de optimización multimedia necesarios son parte del cliente de horizonte y el agente de horizonte de forma predeterminada y no es necesario instalar ningún complemento adicional para usar la característica de optimización de Teams.
+
+Para obtener los últimos requisitos e instrucciones sobre cómo configurar la optimización de medios para Teams, consulte [este sitio web de VMware](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Instalar o actualizar la aplicación de escritorio de Teams en VDI
 
@@ -374,10 +378,12 @@ No se admiten las siguientes características de llamadas y reuniones:
 - Servicios de emergencia mejorados
 - Botones HID y controles LED entre la aplicación de Teams y los dispositivos
 - Efectos y desenfoque de fondo
-- Eventos de difusión/Live
+- Funciones de moderador y emisor de eventos en directo y difusión
 - Enrutamiento basado en la ubicación (LBR)
 - Estacionar llamada
 - Cola de llamadas
+- Audio del sistema compartido/sonido del equipo
+- Desvío de medios para enrutamiento directo
 
 > [!NOTE]
 > Estamos trabajando para agregar características de llamadas y reuniones que actualmente solo están disponibles en entornos ajenos a VDI. Esto puede incluir más control de administración de la calidad, escenarios de pantalla compartida adicionales y características avanzadas que se han agregado recientemente a teams. Póngase en contacto con el representante de su equipo para obtener más información sobre las próximas características.

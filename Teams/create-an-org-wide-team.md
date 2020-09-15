@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1950c395c61bd1f6d70741e3d9a8a26553f3445a
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405797"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766874"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de la organización en Microsoft Teams
 
@@ -32,7 +32,7 @@ Con los equipos de la organización, los administradores globales pueden crear f
 
 ![Captura de pantalla de la opción de crear un equipo de la organización](media/create-org-wide-team.png "Captura de pantalla de la opción Toda la organización para crear un equipo de la organización")
 
-Cuando se crea un equipo a nivel de la organización, todos los administradores globales se añaden como propietarios del equipo y todos los usuarios activos se añaden como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se asigna al usuario una licencia de exploratorias de Microsoft Teams. Para obtener más información sobre la licencia de exploratorias, consulte [administrar la licencia de exploración de Microsoft Teams](teams-exploratory.md). 
+Cuando se crea un equipo de toda la organización, todos los administradores globales y los administradores de servicios de Teams se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se asigna al usuario una licencia de exploratorias de Microsoft Teams. Para obtener más información sobre la licencia de exploratorias, consulte [administrar la licencia de exploración de Microsoft Teams](teams-exploratory.md). 
 
 Este tipo de cuentas no se añadirán a su equipo de la organización:
 

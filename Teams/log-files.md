@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582117"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766764"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -81,7 +81,7 @@ Los registros de depuración se descargan automáticamente en las siguientes car
 
 -   Windows: %userprofile%\\Descargas
 
--   Mac OSX: Descargas
+-   Mac OSX: ~/downloads
 
 -   Linux: ~/downloads
 
@@ -90,8 +90,11 @@ Los registros de depuración se descargan automáticamente en las siguientes car
 <a name="media-logs"></a>Registros de medios
 ---------------------------
 
-Los registros de medios contienen datos de diagnóstico sobre el uso compartido de pantalla, audio, vídeo. Son necesarios para resolver casos de soporte técnico. Se generan únicamente bajo petición y solo pueden ser inspeccionados por Microsoft. En la siguiente tabla se muestra la ubicación del registro.
+Los registros multimedia contienen datos de diagnóstico sobre el audio, el vídeo y la pantalla compartida en reuniones de Teams. Solo se necesitan para los casos de soporte técnico cuando se solicitan y solo Microsoft puede inspeccionarlas. 
 
+El registro multimedia está desactivado de forma predeterminada. Para registrar los datos de diagnóstico de las reuniones de Teams, los usuarios deben activar la opción en el cliente de Teams. Vaya a **configuración**  >  **General**, active la casilla **Habilitar el registro de diagnóstico para la reunión (se debe reiniciar Teams**) y, a continuación, reinicie Teams.
+
+En la tabla siguiente se describen las ubicaciones de registro.
 
 |Cliente |Ubicación |
 |---------|---------|
@@ -103,7 +106,15 @@ Los registros de medios contienen datos de diagnóstico sobre el uso compartido 
 |Linux       |~/.config/Microsoft/Microsoft Teams/media-Stack/*. blog         |
 |            |~/.config/Microsoft/Microsoft Teams/skylib/*. blog         |
 
+Esta es una lista de los archivos de registro que se generan y la información que contienen.
 
+|Nombre de archivo de registro  |Descripción  |
+|---------|---------|
+|Teams. MSRTC-0-s1039525249. blog     | Contiene información relacionada con la pila de medios. Esto incluye el estado del canal, como la resolución, los descodificadores y los codificadores que se usan, así como el número de tramas enviadas y recibidas y el estado de sesión de pantalla compartida basada en vídeo y en vídeo (VBSS).         |
+|rtmcontrol. MSRTC-0-2415069487. blog      |Registra información relacionada con acciones de control remoto, como la marca de tiempo cuando se proporciona el control e información sobre el puntero del mouse.          |
+|Teams_MediaStackETW -2-U-xr-U. ETL      |Registra eventos de seguimiento de pila de medios.         |
+|Depurar: 0-s2790420889. blog    | Contiene información relacionada con el agente multimedia, incluida la calidad de representación.          |
+|tscalling-0-2061129496. blog   |Registra eventos en la API de llamadas de TS.       |
 
 <a name="desktop-logs"></a>Registros de escritorio
 ---------------------

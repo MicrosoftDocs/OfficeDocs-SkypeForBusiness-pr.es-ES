@@ -16,12 +16,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897810"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766914"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -36,8 +36,8 @@ Relacionado: [Documentación de usuario final de grabación de reuniones de Team
 
 Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream debe estar habilitado para el inquilino. Además, son necesarios los siguientes requisitos previos tanto para el organizador de la reunión como para la persona que inicia la grabación:
 
-- El usuario tiene Office 365 E1, E3, E5, a1, a3, A5, M365 Business Premium, M365 Business Standard o M365 Business Basic.
-- El usuario debe tener una licencia para Microsoft Stream<sup>1</sup> 
+- El usuario tiene Office 365 E1, E3, E5, a1, a3, A5, Microsoft 365 empresa Premium, Business Standard o Business Basic<sup>1</sup>
+- El usuario debe tener una licencia para Microsoft Stream<sup>2</sup> 
 - El usuario tiene permisos de carga de vídeo para Microsoft Stream
 - El usuario ha dado su consentimiento a las directrices de la empresa, si han sido configuradas por el administrador
 - El usuario tiene suficiente espacio de almacenamiento en Microsoft Stream para guardar las grabaciones
@@ -45,7 +45,9 @@ Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream 
 - El usuario no es un usuario anónimo, Invitado o federado en la reunión
 - Para habilitar la transcripción de la reunión de un usuario, la política de reunión de Teams a la que están asignadas debe tener el valor-AllowTranscription establecido en true.
 
-<sup>1</sup> el usuario debe tener licencia para cargar o descargar reuniones a o desde Microsoft Stream; sin embargo, no necesitan la licencia para grabar una reunión. Si no desea que un usuario pueda grabar una Reunión de Microsoft Teams, debe otorgar una TeamsMeetingPolicy que tenga la opción AllowCloudRecording establecida en $False.
+<sup>1</sup> a partir del 20 de agosto de 2020, el acceso al archivo de grabación de la reunión vencerá después de 21 días para los usuarios con a1. Para obtener más información, vea [cargar una grabación de reunión de Microsoft Teams en una secuencia](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
+
+<sup>2</sup> el usuario debe tener licencia para cargar o descargar reuniones a o desde Microsoft Stream; sin embargo, no necesitan la licencia para grabar una reunión. Si no desea que un usuario pueda grabar una Reunión de Microsoft Teams, debe otorgar una TeamsMeetingPolicy que tenga la opción AllowCloudRecording establecida en $False.
 
 > [!IMPORTANT] 
 > Los usuarios no necesitarán una licencia de Microsoft Stream asignada si quiere que los usuarios solo graben y descarguen las grabaciones. Esto significa que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en el servicio multimedia de Azure (AMS) con un límite de 21 días antes de que se elimine. En este momento, no es algo que un administrador pueda controlar o administrar, incluida la capacidad de eliminarlo.
@@ -126,7 +128,8 @@ Para obtener más información sobre dónde se almacenan los datos en los servic
 
 Esta configuración controla si las características de subtítulos y transcripción están disponibles durante la reproducción de grabaciones de reunión. Si desactiva esta opción, las opciones **Buscar** y **CC** no estarán disponibles durante la reproducción de una grabación de reunión. La persona que inició la grabación necesita esta configuración activada para que la grabación también incluya transcripción.
 
-**Tenga en cuenta** que la transcripción para las reuniones grabadas solo se admite en este momento para los usuarios que tienen el idioma de Teams establecido en inglés y cuando se habla de inglés en la reunión.
+> [!NOTE]
+> Actualmente, esta transcripción para reuniones grabadas solo es compatible con los usuarios que tienen el idioma de Teams establecido en inglés y cuando se habla de inglés en la reunión. Se almacenan junto con las grabaciones de la reunión en el almacenamiento en la nube de Microsoft Stream.
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 
