@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga más información sobre las características, la disponibilidad y cómo planificar y configurar el sistema telefónico de Microsoft para su empresa. '
-ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788434"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814890"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 
@@ -35,6 +35,8 @@ En este artículo se describen las características del sistema telefónico. Par
 
 Los clientes están disponibles para PC, Mac y dispositivos móviles, que proporcionan características en dispositivos de tabletas y teléfonos móviles a PC y teléfonos IP de escritorio. Para obtener más información, consulte [obtener clientes de Microsoft Teams](get-clients.md).
 
+ > [!Note]
+ > Para obtener más información [, vea características de equipo por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
   
 ## <a name="phone-system-features"></a>Características del sistema telefónico
 

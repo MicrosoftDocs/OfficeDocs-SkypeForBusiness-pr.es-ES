@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 4af24f66aa82bbd0f0099e062981157b08c639db
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 12d5a6c736616cb9448dc1f75a6f67424d940d7f
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164099"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814609"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activar o desactivar los mensajes sin conexión para administradores
 
@@ -52,7 +52,7 @@ Para obtener más información, consulte [usar mensajería sin conexión en Skyp
 
 3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le solicite.
 
-4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
+4. También tendrá que instalar el módulo de Windows PowerShell para Teams, que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype empresarial online.
 
 Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
@@ -64,12 +64,13 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
 
 2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
 
-    > [!NOTE]
-    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
+   > [!NOTE]
+   > En este momento, el conector de Skype empresarial online forma parte del módulo de PowerShell más reciente de Teams.
+   >
+   > Si está usando la [versión pública de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online.
 
->
   ```PowerShell
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+  Import-Module -Name MicrosoftTeams
   $credential = Get-Credential
   $session = New-CsOnlineSession -Credential $credential
   Import-PSSession $session
@@ -82,7 +83,7 @@ Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [
 > [!NOTE]
 > Los mensajes sin conexión **solo** están disponibles en la última versión del cliente de Skype empresarial de hacer clic y ejecutar y no están disponibles cuando se usa un antiguo hacer clic y ejecutar de Skype empresarial o se usó un archivo *. msi para instalar el cliente de Skype empresarial.
 
-Para habilitar o deshabilitar los mensajes sin conexión, envíe mensajes sin conexión para los usuarios de `True` su `False`organización, establezca _EnableIMAutoArchiving_ en o. De forma predeterminada, esta opción está `True`establecida en.
+Para habilitar o deshabilitar los mensajes sin conexión, envíe mensajes sin conexión para los usuarios de su organización, establezca  _EnableIMAutoArchiving_ en `True` o `False` . De forma predeterminada, esta opción está establecida en `True` .
 
 Para desactivarlo, use el cmdlet **Set-CsClientPolicy** y ejecute:
 
@@ -90,7 +91,7 @@ Para desactivarlo, use el cmdlet **Set-CsClientPolicy** y ejecute:
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-Para habilitar o deshabilitar los mensajes sin conexión, envíe mensajes sin conexión para un `True` usuario `False`, establezca _EnableIMAutoArchiving_ en o. De forma predeterminada, esta opción está establecida en  `True`. Puede usar una directiva existente o crear una como en el ejemplo siguiente.
+Para habilitar o deshabilitar los mensajes sin conexión, envíe mensajes sin conexión para un usuario, establezca  _EnableIMAutoArchiving_ en `True` o `False` . De forma predeterminada, esta opción está establecida en  `True`. Puede usar una directiva existente o crear una como en el ejemplo siguiente.
 
 
   ```PowerShell

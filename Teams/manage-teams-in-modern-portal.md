@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c963e88d33928add9c7f5c611f44919250b847
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583157"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814559"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 ==========================================
@@ -67,6 +67,9 @@ La cuadrícula muestra las siguientes propiedades:
 ### <a name="add"></a>Agregar
 
 Para agregar un nuevo equipo, haga clic en **Agregar**. En el panel **Agregar un nuevo equipo**, otorgue un nombre y una descripción al equipo, indique si quiere convertirlo en un equipo público o privado y establezca la clasificación.
+
+> [!NOTE]
+> Los equipos recién creados pueden administrarse inmediatamente en el centro de administración de equipos, a diferencia de la experiencia de otros clientes como, por ejemplo, Outlook.
 
 ### <a name="edit"></a>Editar 
 

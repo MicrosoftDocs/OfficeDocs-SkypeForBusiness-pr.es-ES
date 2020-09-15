@@ -13,16 +13,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones de Skype empresarial Server 2015/2019 y Lync 2013 en un solo punto. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
-ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326577"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814319"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
-Busque y administre actualizaciones de [Skype empresarial server 2019](#skype-for-business-server-2019-update-history), [skype empresarial Server 2015](#skype-for-business-server-2015-update-history), [Lync server 2013](#lync-server-2013-update-history)y [Lync Server 2010](#lync-server-2010-update-history) en un solo punto. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
+Busque y administre actualizaciones de [Skype empresarial server 2019](#skype-for-business-server-2019-update-history), [skype empresarial Server 2015](#skype-for-business-server-2015-update-history),  [Lync server 2013](#lync-server-2013-update-history)y [Lync Server 2010](#lync-server-2010-update-history) en un solo punto. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
 
 Para obtener las actualizaciones más recientes de Skype empresarial online y Microsoft 365, consulte el [mapa de ruta de microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
@@ -32,6 +32,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
+|Revisión 1 de actualización acumulativa 3 de Skype empresarial Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Julio de 2020 |
 |Actualización acumulativa 3 de Skype empresarial Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Marzo de 2020 |
 |Actualización acumulativa 2 de Skype empresarial Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Diciembre de 2019 |
 |Revisión 1 de actualización acumulativa 1 de Skype empresarial Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septiembre de 2019 |
@@ -42,7 +43,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 
 |Nombre de paquete/vínculo|Fecha de lanzamiento|
 |:--- |:--- |
-|[SDK DE UCMA 6,0](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Junio de 2019       |
+|[SDK DE UCMA 6,0 ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Junio de 2019       |
 |[API administrada de comunicaciones unificadas 5,0 tiempo de ejecución](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Junio de 2018        |
 |[Skype empresarial Server 2019, módulo de administración](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Junio de 2018        |
 |||
@@ -54,6 +55,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
+|Actualización acumulativa 11 Hotfix 1 de Skype empresarial Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 14 de julio de 2020 |
 |Actualización acumulativa 11 de Skype empresarial Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de mayo de 2020 |
 |Actualización acumulativa 10 Hotfix 1 de Skype empresarial Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |
 |Actualización acumulativa 10 de Skype empresarial Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Julio de 2019 |
@@ -77,7 +79,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 
 |Nombre de paquete/vínculo|Fecha de lanzamiento|
 |:--- |:--- |
-|[SDK DE UCMA 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mayo de 2015       |
+|[SDK DE UCMA 5,0 ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mayo de 2015       |
 |[API administrada de comunicaciones unificadas 5,0 tiempo de ejecución](https://www.microsoft.com/download/details.aspx?id=47344)     |   Mayo de 2015      |
 |[Skype empresarial Server 2015, módulo de administración](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  Junio de 2019       |
 |||
@@ -88,6 +90,7 @@ KB 4470124 es el KB principal para Skype empresarial Server 2019, que tiene la l
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
+|Actualización acumulativa 10 Hotfix 4 de Lync Server 2013 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Junio de 2020|
 |Actualización acumulativa 10 hotfix 3 de Lync Server 2013 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Septiembre de 2019|
 |Actualización acumulativa 10 Hotfix 2 de Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Junio de 2019|
 |Actualización acumulativa 10 Hotfix 1 de Lync Server 2013 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Enero de 2019|
