@@ -17,17 +17,22 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 857c9c4d830cb3264a83a41b555d26ee004751de
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
+ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581751"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47652482"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configure el uso compartido del escritorio en Microsoft Teams
 ============================================
 
-Al compartir el escritorio, los usuarios pueden presentar una pantalla o aplicación durante una reunión o un chat. Los administradores pueden configurar la pantalla compartiendo en Microsoft Teams para que los usuarios puedan compartir una pantalla completa, una aplicación o un archivo. Puede permitir que los usuarios puedan dar control, permitir el uso compartido de PowerPoint, agregar una pizarra y permitir notas compartidas. Asimismo, puede configurar si los usuarios anónimos o externos pueden solicitar el control de la pantalla compartida.
+Al compartir el escritorio, los usuarios pueden presentar una pantalla o aplicación durante una reunión o un chat. Los administradores pueden configurar la pantalla compartiendo en Microsoft Teams para que los usuarios puedan compartir una pantalla completa, una aplicación o un archivo. Puede permitir que los usuarios puedan dar control, permitir el uso compartido de PowerPoint, agregar una pizarra y permitir notas compartidas. Asimismo, puede configurar si los usuarios anónimos o externos pueden solicitar el control de la pantalla compartida. Los participantes externos de las reuniones de Teams se pueden clasificar de la siguiente manera:
+
+- Usuario anónimo
+- Usuarios invitados
+- Usuario B2B
+- Usuario federado
 
 Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva de reuniones y, a continuación, asignarla a los usuarios que quiera administrar.
 
@@ -35,11 +40,11 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
 
 1. Seleccione **Reuniones** > **Directivas de reunión**.
 
-    ![Captura de pantalla que muestra las directivas de reuniones seleccionadas](media/configure-desktop-sharing-image1.png)
+    ![Directivas de reunión seleccionadas](media/configure-desktop-sharing-image1.png)
 
-2. En la página **Directivas de reunión**, seleccione **Nueva Directiva**.
+2. En la página políticas de la **reunión** , seleccione **Agregar**.
 
-    ![Captura de pantalla que muestra el mensaje directivas de reunión](media/configure-desktop-sharing-image2.png)
+    ![El mensaje directivas de la reunión](media/addMeeting.png)
 
 3. Asigne un título único a la directiva y escriba una breve descripción.
 
@@ -49,7 +54,10 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
    - **Una sola aplicación**: esto permite a los usuarios limitar el uso compartido de la pantalla a una única aplicación activa.
    - **Deshabilitada**: desactiva el uso compartido de la pantalla.
 
-    ![Captura de pantalla que muestra las opciones del modo de uso compartido](media/configure-desktop-sharing-image3.png)
+    ![Las opciones del modo de uso compartido](media/configure-desktop-sharing-image3.png)
+
+  > [!Note]
+  > No es necesario habilitar la Directiva de llamadas para que los usuarios usen compartir pantalla de la conversación. Sin embargo, el audio se desactiva hasta que se reactivan. Además, el usuario que comparte la pantalla puede hacer clic en **Agregar audio** para habilitar el audio. Si la Directiva de llamadas está deshabilitada, los usuarios no podrán agregar audio al recurso compartido de pantalla desde una sesión de chat.
 
 5. Activar o desactivar la siguiente configuración:
 
@@ -67,6 +75,7 @@ También puede usar [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powers
 
 - Descripción
 - ScreenSharingMode
+- AllowPrivateCalling
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl
 - AllowPowerPointSharing
@@ -74,4 +83,3 @@ También puede usar [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powers
 - AllowSharedNotes
 
 [Obtenga más información sobre el uso del cmdlet csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
-
