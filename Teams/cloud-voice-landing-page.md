@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Obtenga más información sobre la característica de voz en la nube y comprenda las decisiones de implementación necesarias a las que se enfrentará.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5a05ba72f52d4131229b28072a615bf12f6b5930
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814880"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820504"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>Opciones de conectividad RTC y sistema telefónico de voz
 
@@ -38,7 +38,7 @@ Este artículo le ayudará a decidir si necesita cambiar cualquiera de la config
 Recomendamos que todas las organizaciones prosigan las decisiones básicas y, a continuación, si su organización tiene requisitos adicionales, revise el siguiente material.
 
  > [!Note]
- > Para obtener más información [, vea características de equipo por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
+> Para obtener detalles sobre las funciones del sistema telefónico en diferentes plataformas, vea [características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="learn-more-about-voice"></a>Más información sobre la voz
 

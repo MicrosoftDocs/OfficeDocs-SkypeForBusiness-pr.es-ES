@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a944616fef0c3fd9821486a41025adf5f0fdbcc
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814579"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820524"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -31,7 +31,7 @@ La presencia es parte del perfil de un usuario en Microsoft Teams (y en Microsof
 La presencia de Teams en Outlook es compatible con la aplicación de escritorio Outlook 2013 y posteriores.
 
  > [!Note]
- > Para obtener más información [, vea características de equipo por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
+ > Para obtener más información sobre los perfiles de usuario de Teams en diferentes plataformas, consulte [características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="presence-states-in-teams"></a>Estados de presencia en Teams
 

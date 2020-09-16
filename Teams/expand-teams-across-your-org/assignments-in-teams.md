@@ -21,12 +21,12 @@ description: Aprenda a administrar tareas en el centro de administración de Mic
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1747075caecdbc4bcd0c83eb037682b023701799
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: fd2cef56b4b59461ea1eeb5028c6c77a92e20500
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814779"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820634"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -34,8 +34,8 @@ Las asignaciones son tareas o unidades de trabajo asignadas a un estudiante o mi
 
 [Más información sobre tareas](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
- > [!Note]
- > Para obtener más información [, vea características de equipo por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
+> [!Note]
+> Para obtener más información acerca de las tareas de Teams en diferentes plataformas, consulte [características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Tareas en el centro de administración de Microsoft Teams
 

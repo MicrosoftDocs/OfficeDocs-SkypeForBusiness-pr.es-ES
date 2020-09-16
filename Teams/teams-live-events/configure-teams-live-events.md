@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222e7e51fcf87e0e76c3ab18f33357f7489a1ce1
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: 1f118585b28edaea63b3416aa4671337ee436345
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558600"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820594"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -78,6 +78,11 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
+**Riverbed** 
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
+```
+
 Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 
 > [!NOTE]

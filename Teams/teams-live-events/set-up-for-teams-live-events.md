@@ -17,12 +17,12 @@ description: Configure los eventos en directo de Teams, incluyendo la configurac
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938509"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820534"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -98,6 +98,8 @@ Las siguientes soluciones de SDN y eCDN están preintegradas y pueden ser config
 - **Kollective** es una plataforma en la nube con un emparejamiento inteligente que aprovecha la infraestructura de red existente para ofrecer contenidos en muchos formatos (vídeo de transmisión en directo, vídeo bajo demanda, actualizaciones de software, correcciones de seguridad, etc.) de manera más rápida y confiable, y con menos ancho de banda. Nuestra plataforma segura cuenta con la confianza de las instituciones financieras más grandes del mundo y, sin hardware adicional, es fácil de configurar y mantener. [Más información](https://kollective.com/microsoft-pilot/).
  
 - **Tabla OmniCache** proporciona una distribución en red de nueva generación y garantiza una entrega de contenido de vídeo sin problemas a través de las redes WAN globales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y el soporte de difusión de eventos en directo y las transmisiones a petición. La compatibilidad de la tabla OmniCache con los eventos en directo creados de Teams estará disponible próximamente. [Más información](https://rampecdn.com). 
+
+- **Riverbed**, el estándar de la industria en la optimización de red, está extendiendo sus soluciones de aceleración a Microsoft Teams y streaming.  Ahora, los clientes de Microsoft 365 pueden acelerar el tráfico 365, incluidos los equipos y la transmisión, junto con una amplia variedad de servicios líderes de SaaS empresarial para aumentar la productividad del personal desde cualquier lugar. Los equipos y la aceleración de la transmisión por secuencias se pueden habilitar mediante una configuración sin esfuerzo, que incluye toda la seguridad del soporte de primer nivel de Riverbed y de la inversión continua.
  
 > [!NOTE] 
 > La solución de SDN y eCDN elegida estará sujeta a los **términos de servicio y a la directiva de privacidad del proveedor de terceros** y controlará el uso de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de la licencia por volumen de Microsoft ni a los términos de servicios en línea. Si no está de acuerdo con los**términos del proveedor de terceros**, entonces no necesita habilitar la solución en Teams. 

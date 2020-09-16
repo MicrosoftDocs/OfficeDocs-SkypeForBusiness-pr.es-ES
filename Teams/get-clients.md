@@ -18,17 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1db2aa6eae0dadbd2043198a167daa5cc6fe098
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581681"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820334"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
+Microsoft Teams tiene clientes disponibles para web, escritorio (Windows, Mac y Linux) y móvil (iOS y Android). Todos estos clientes requieren una conexión a Internet activa y no admiten el modo sin conexión. 
 
-Microsoft Teams tiene clientes disponibles para web, escritorio (Windows, Mac y Linux) y móvil (iOS y Android). Todos estos clientes requieren una conexión a Internet activa y no admiten el modo sin conexión.
+> [!Note]
+> Para obtener más información sobre las capacidades de cada cliente en distintas plataformas, consulte [características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 > [!NOTE]
 > A partir del 29 de noviembre de 2018, ya no podrá usar la aplicación de Microsoft Teams para Windows 10 S (versión preliminar), disponible en Microsoft Store. En su lugar, ahora puede descargar e instalar el cliente de escritorio de Teams en los dispositivos que ejecutan Windows 10 en modo S. Para descargar el cliente de escritorio, vaya a [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). Las compilaciones de MSI del cliente de escritorio de Teams aún no están disponibles para los dispositivos que ejecutan Windows 10 en modo S.
