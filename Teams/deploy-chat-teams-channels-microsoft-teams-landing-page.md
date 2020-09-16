@@ -19,18 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 31207fe6720b62653076958ab1005df25579880d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f1fe37d41b0a1ede8e5957ad63016c5447a921ae
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583989"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814870"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
-Teams proporciona una experiencia de colaboración excelente para su organización y la configuración predeterminada parece funcionar para la mayoría de organizaciones. Este artículo le ayudará a decidir si cambiar alguna opción de la configuración predeterminada, en función del perfil y los requisitos empresariales de su organización, después, le guiará con cada cambio. Hemos dividido las opciones en dos grupos, comenzando por el conjunto principal de [cambios que es más probable que realice](#core-deployment-decisions). El segundo grupo incluye las [opciones adicionales](#additional-deployment-decisions) que puede que quiera configurar, según las necesidades de su organización. 
+Teams proporciona una experiencia de colaboración excelente para su organización y la configuración predeterminada parece funcionar para la mayoría de organizaciones. Este artículo le ayudará a decidir si cambiar alguna opción de la configuración predeterminada, en función del perfil y los requisitos empresariales de su organización, después, le guiará con cada cambio. Hemos dividido las opciones en dos grupos, comenzando por el conjunto principal de [cambios que es más probable que realice](#core-deployment-decisions). El segundo grupo incluye las [opciones adicionales](#additional-deployment-decisions) que puede que quiera configurar, según las necesidades de su organización.
 
-Para empezar, vea nuestro breve vídeo sobre el chat, los equipos y los canales de Teams (4:30 minutos): 
+Para empezar, vea nuestro breve vídeo sobre el chat, los equipos y los canales de Teams (4:30 minutos):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
@@ -40,6 +40,9 @@ Para empezar, vea nuestro breve vídeo sobre el chat, los equipos y los canales 
 
 > [!TIP]
 > Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Añada otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que maneja la adopción de Teams.
+
+ > [!Note]
+ > Para obtener más información, consulte las [Características de Teams de acuerdo con la plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="chat-deployment-prerequisites"></a>Requisitos previos a la implementación del chat
 
@@ -143,7 +146,6 @@ Teams ofrece una serie de aplicaciones propias (proporcionadas por Microsoft) y 
 
 Para obtener más información sobre cómo implementar y administrar aplicaciones en Teams, consulte las instrucciones detalladas sobre [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md).
 
-
 ## <a name="additional-deployment-decisions"></a>Decisiones de implementación adicionales
 
 Puede que le interese cambiar esta configuración en función de las necesidades y la configuración de su organización.
@@ -183,7 +185,6 @@ Las organizaciones que mantienen el control específico de su tráfico de intern
 |------------|-------|
 | ¿Necesito reglas de acceso a internet para que los usuarios puedan usar Teams o es suficiente con abrir los puertos mínimos necesarios? | Para obtener más información, consulte [direcciones URL e intervalos de direcciones IP](office-365-urls-ip-address-ranges.md).|
 |||
-
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>Gobierno (convenciones de nomenclatura, quién puede crear equipos)
 
@@ -252,4 +253,3 @@ El uso de Office 365 para la Administración Pública de Estados Unidos - GCC (G
 - Incluya aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que impulsa la adopción de Teams.
 - [Implementar reuniones y conferencias](deploy-meetings-microsoft-teams-landing-page.md)
 - [Implementar voz en la nube](cloud-voice-landing-page.md)
-
