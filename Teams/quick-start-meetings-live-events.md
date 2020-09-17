@@ -17,16 +17,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814400"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820624"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
 
 Existen dos formas de reunirse en Microsoft Teams: reuniones y eventos en directo. Use este artículo para implementar y configurar rápidamente reuniones y eventos en directo para su organización. 
+
+> [!Note]
+> Para obtener más información sobre cómo configurar rápidamente las reuniones y los eventos de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  - Las **reuniones** en Teams incluyen audio, vídeo y uso compartido de la pantalla para hasta 300* personas. Es uno de los métodos clave para colaborar en Teams. Y no es necesario ser un miembro de una organización (ni siquiera tener una cuenta de equipo) para unirse a una reunión de Teams, solo tiene que buscar en la invitación instrucciones sobre cómo realizar llamadas. 
 
@@ -43,9 +46,6 @@ Para las personas que organizarán, programen y alberguen reuniones o eventos en
 > <sup>1</sup>  Los organizadores de las reuniones deben tener una [licencia del complemento de audioconferencia](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para enviar una invitación que incluya una conferencia de acceso telefónico local.
 >
 > <sup>2</sup> La llamada de acceso telefónico de la reunión [**a través de un** número de teléfono](set-up-the-call-me-feature-for-your-users.md) requiere que los organizadores tengan una licencia E5 o una [licencia del complemento de audioconferencia](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). También puede ser necesario un [plan de marcado](what-are-dial-plans.md). 
-
- > [!Note]
- > Para obtener más información, consulte las [Características de Teams de acuerdo con la plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Para más información sobre las licencias, consulte [Descripción del servicio de Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 

@@ -18,19 +18,19 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efde7de344d03ae41ac577f4c44e3b72ee76a9f5
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 2258103e73b13a22965e0fbf7749d012e09ed485
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814309"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820494"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
 Cuando planee a los equipos eventos para tener reuniones grandes en la organización, debe tener en cuenta varios factores antes de empezar a configurarlo.
 
  > [!Note]
- > Para obtener más información, consulte las [Características de Teams de acuerdo con la plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para obtener más información sobre los eventos en directo de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>¿Quién puede crear, asistir y programar eventos en directo?
 

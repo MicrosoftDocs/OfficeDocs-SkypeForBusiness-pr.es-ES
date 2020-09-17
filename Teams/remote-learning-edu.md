@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 781828d8a94595a6b686fdaa729c3480d2712581
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814349"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820604"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -33,8 +33,8 @@ Los recursos para ayudar a los profesores y alumnos con el aprendizaje remoto es
 
 En este artículo se explican los pasos que deben seguirse para configurar el centro educativo para el aprendizaje remoto.
 
- > [!Note]
- > Para obtener más información, consulte las [Características de Teams de acuerdo con la plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> [!Note]
+> Para obtener más información sobre las capacidades de aprendizaje remoto en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 > [!NOTE]
 > Si usted es un profesor, responsable educativo o un profesional de TI, estos recursos pueden ayudarle:

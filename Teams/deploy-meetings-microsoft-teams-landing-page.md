@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: d90e33d2e8d40f93a070d050eb8c8437f4e8629d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814769"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820454"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -45,7 +45,7 @@ Para obtener más información sobre la experiencia de reuniones para los usuari
 *Nuevo en noviembre de 2019*: ahora puede [usar el Asesor de Teams (versión preliminar) para que le ayude a implementar Microsoft Teams](use-advisor-teams-roll-out.md). El Asesor de Teams (vista previa) le guiará en la implementación de Teams, incluidas las reuniones y las conferencias. Evalúa el entorno de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente las reuniones y conferencias en Teams.
 
  > [!Note]
- > Para obtener más información, consulte las [Características de Teams de acuerdo con la plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para obtener más información sobre las reuniones y conferencias de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Decisiones sobre la implementación de reuniones y conferencias
 
