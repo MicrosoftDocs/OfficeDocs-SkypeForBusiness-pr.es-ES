@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a administrar cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324024"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940530"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
@@ -94,11 +94,11 @@ A continuación se explica cómo agregar etiquetas personalizadas y cómo config
 
 ### <a name="create-and-assign-custom-tags"></a>Crear y asignar etiquetas personalizadas
 
-Para crear y asignar etiquetas personalizadas, seleccione **Teams** en el lado izquierdo de la aplicación y, a continuación, busque su equipo en la lista. Seleccione **más opciones**y, a continuación, elija **administrar etiquetas**. Aquí puede crear etiquetas y asignarlas a personas de su equipo.
+Para crear y asignar etiquetas personalizadas, seleccione **Teams** en el lado izquierdo de la aplicación y, a continuación, busque su equipo en la lista. Seleccione **̇ ̇ ̇ más opciones**y, a continuación, elija **administrar etiquetas**. Aquí puede crear etiquetas y asignarlas a personas de su equipo.
 
 ![Captura de pantalla de cómo aplicar etiquetas en el cliente de Teams ](media/manage-tags-teams.png)
 
-Para eliminar una etiqueta, quite todos los miembros del equipo asociados a la etiqueta.
+Para eliminar una etiqueta, seleccione **̇ ̇ ̇ más opciones** junto a la etiqueta y, a continuación, seleccione **Eliminar etiqueta**.
 
 ### <a name="set-up-tagging-by-shift-coming-soon"></a>Configurar el etiquetado por turno (próximamente)
 

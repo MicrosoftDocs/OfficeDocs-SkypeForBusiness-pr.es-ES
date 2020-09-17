@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1981640ab06d00e7895e11c0e15adf7555577908
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 0b63473dcb07c5fcac49902ced6d11777217a0c5
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648611"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940600"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Actualizar de Skype empresarial local a teams
 
@@ -86,6 +86,6 @@ El sistema telefónico con Teams es compatible cuando el usuario está en modo T
 
 A la hora de considerar las opciones de conectividad de la red de telefonía pública conmutada (RTC), hay dos situaciones posibles para pasar de Skype empresarial en modo de TeamsOnly:
 
-- Un usuario de Skype empresarial local con telefonía IP empresarial, que se va a migrar a en línea y usar un plan de llamadas de Microsoft. Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar el movimiento con una o A una) el puerto del número de ese usuario a un plan de llamadas de Microsoft o B asignar un nuevo número de suscriptor de las regiones disponibles.  Para obtener más información, consulte [de Skype empresarial Server local, con telefonía IP empresarial, en plan de llamadas de Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan).
+- Un usuario de Skype empresarial local con telefonía IP empresarial, que se va a migrar a en línea y usar un plan de llamadas de Microsoft. Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar el movimiento con una o A una) el puerto del número de ese usuario a un plan de llamadas de Microsoft o B asignar un nuevo número de suscriptor de las regiones disponibles.  Para obtener más información, consulte [de Skype empresarial Server local, con telefonía IP empresarial, en plan de llamadas de Microsoft](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan).
 
-- Un usuario de Skype empresarial local con telefonía IP empresarial, que se va a migrar a en línea y mantener la conectividad RTC local. Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar ese movimiento con la migración del usuario al enrutamiento directo. Para obtener más información, consulte [de Skype empresarial Server local, con Enterprise Voice, para dirigir el enrutamiento](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing).
+- Un usuario de Skype empresarial local con telefonía IP empresarial, que se va a migrar a en línea y mantener la conectividad RTC local. Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar ese movimiento con la migración del usuario al enrutamiento directo. Para obtener más información, consulte [de Skype empresarial Server local, con Enterprise Voice, para dirigir el enrutamiento](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing).

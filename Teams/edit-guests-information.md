@@ -18,16 +18,33 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e36c23c9c462a70a42b92046b5f7d91c9f8c49f9
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6add221744234d8169b7b602d3fb46dff91a093
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656081"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950836"
 ---
-<a name="edit-guest-user-information"></a>Editar información del usuario invitado
-===========================
+# <a name="edit-guest-user-information"></a>Editar información del usuario invitado
 
-Para editar las cuentas de invitado (como el nombre para mostrar o la foto del perfil), vaya a su portal de Azure Active Directory. Para obtener más información, consulte Descripción de la [identidad y Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
+Puede editar la información de invitados desde el centro de administración de Microsoft 365 o desde el portal de Azure Directory.
 
-Por el momento, no puede editar la información de invitados desde el centro de administración de Microsoft Teams, el centro de administración de Microsoft 365 o el centro de administración de Exchange.
+## <a name="guest-users-in-the-microsoft-365-admin"></a>Usuarios invitados en el administrador de Microsoft 365
+
+1. Para editar la información de invitados desde el centro de administración de Microsoft 365, seleccione **usuarios**  >  **invitados**.
+
+   ![La información de usuario Guest que se está editando](media/access-guest-user.png)
+
+2. Seleccione un usuario de **usuarios invitados**.
+
+3. En información de usuario invitado, seleccione **administrar la información de contacto**.
+
+   ![Administrar información de contacto ](media/guest-user-data1.png)
+
+4. Edite los campos que elija, excepto **nombre para mostrar** , en **administrar información de contacto**y, a continuación, seleccione **Guardar cambios**.
+
+   ![Editar la información de contacto de los usuarios invitados](media/manage-guest-contact.png)
+
+## <a name="guest-users-in-the-azure-active-directory"></a>Usuarios invitados en Azure Active Directory
+
+Como opción, puede editar el usuario Guest desde el portal de Azure Active Directory. Para obtener más información, consulte Descripción de la [identidad y Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).

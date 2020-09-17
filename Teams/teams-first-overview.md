@@ -15,12 +15,12 @@ description: Use esta guía para implementar Microsoft Teams como la primera car
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 2f7acdfb092e74ae5e10e818b4007c4e22762a36
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691006"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950866"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implementar Microsoft Teams en primer lugar
 
@@ -100,25 +100,27 @@ Este punto de partida supone que su organización no utiliza actualmente Skype e
 <tbody>
 <tr class="odd">
 <td>Configuración de equipos de inquilino</td>
-<td>Modo solo para equipos; todas las características de chat y de llamada están en Teams solamente</td>
+<td>El modo solo para equipos, todas las características de chat y de llamada están en Teams.</td>
 </tr>
 <tr class="even">
 <td>Chat/comunicación externa en Teams</td>
-<td><p>Comunicaciones internas (dentro de la organización intra365 o de Office 365) y conversaciones externas posibles de los equipos</p>
-<p><em>Nota: las entradas DNS deben configurarse para acceso externo. Los registros DNS de Skype empresarial son necesarios incluso si no tiene Skype empresarial local o en Microsoft 365 u Office 365, para permitir la Federación con entornos Lync y Skype empresarial.<br />
+<td><p>Las comunicaciones internas (intra365 o de Office 365) y chat externo posibles de Teams.</p>
+<p><em>Nota: las entradas DNS deben configurarse para acceso externo. Los registros DNS de Skype empresarial son necesarios incluso si no tiene Skype empresarial local o en Microsoft 365 u Office 365, para permitir la Federación con entornos de Lync y Skype empresarial:<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Registros del sistema de nombres de dominio externo</a></em></p></td>
 </tr>
 <tr class="odd">
-<td><em>Crear y ver reuniones en Teams</em></td>
-<td><p><em>Posibilidad de crear reuniones mediante el complemento de Outlook</em></p>
-<p><em>La función de marcado y salida de llamadas RTC está disponible con las licencias de audioconferencia.<br />
-Nota: Team Calendar Access requiere Exchange 2016 CU3 + local implementado con Exchange híbrido establecido: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">crear una implementación híbrida con el Asistente para la configuración híbrida</a><br />
-Además de la configuración híbrida de Exchange, establezca la autenticación de OAuth de Exchange: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">configurar la autenticación de OAuth entre Exchange y las organizaciones de Exchange Online</a></em></p></td>
+<td>Crear y ver reuniones en Teams</td>
+<td><p>Puede crear reuniones internas y externas a través del complemento de Outlook.</p>
+<p>La función de marcado y salida de llamadas RTC está disponible con las licencias de audioconferencia.</p>
+<p>Teams Access Calendar requiere Exchange 2016 CU3 + local implementado con Exchange híbrido establecido: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">crear una implementación híbrida con el Asistente para la configuración híbrida.</a> </p>
+<p>Además de la configuración híbrida de Exchange, establezca la autenticación de OAuth de Exchange: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> configurar la autenticación de OAuth entre Exchange y las organizaciones de Exchange Online.</p>
+
+</p></td>
 </tr>
 <tr class="even">
 <td>Llamadas a características<br />
 VoIP/PSTN en Teams</td>
-<td><p>VoIP de forma interna y externa al inquilino está disponible</p>
+<td><p>VoIP de forma interna y externa al inquilino está disponible.</p>
 <p>Los servicios RTC se pueden configurar a través de Microsoft Phone System, además de agregar un plan de llamadas de Microsoft o enrutamiento directo.</p></td>
 </tr>
 <tr class="odd">
@@ -138,11 +140,11 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
 <tr class="even">
 <td>Características de seguridad y cumplimiento</td>
 <td><ul>
-<li><p>Las directivas de retención están disponibles</p></li>
-<li><p>eDiscovery y retención legal para el cumplimiento de los mensajes de canal es compatible</p></li>
-<li><p>Están disponibles las directivas de prevención de pérdida de datos (DLP)</p></li>
+<li><p>Hay directivas de retención disponibles.</p></li>
+<li><p>se admite eDiscovery y retención legal para el cumplimiento de los mensajes de canal.</p></li>
+<li><p>Están disponibles las directivas de prevención de pérdida de datos (DLP).</p></li>
 </ul>
-<p>Conjunto completo de características disponibles con Exchange Online, Exchange local admite la mayoría de estas características, vea <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Cómo Exchange y Teams interactúan</a> con toda la lista.</p></td>
+<p>Conjunto completo de características disponibles con Exchange Online; Exchange local es compatible con la mayoría de estas características. Para obtener una lista completa, vea <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">cómo interactúan Exchange y Teams</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -178,7 +180,7 @@ Este punto de partida supone que su organización utiliza los servidores de Skyp
 <tbody>
 <tr class="odd">
 <td>Configuración de equipos de inquilino</td>
-<td>Modo islas</td>
+<td>Modo islas.</td>
 </tr>
 <tr class="even">
 <td>Chat/comunicación externa en Teams</td>
@@ -186,16 +188,18 @@ Este punto de partida supone que su organización utiliza los servidores de Skyp
 </tr>
 <tr class="odd">
 <td>Crear y ver reuniones en Teams</td>
-<td><p>Posibilidad de crear reuniones mediante el complemento de Outlook</p>
-<p>La función de marcado y salida de llamadas RTC está disponible con las licencias de audioconferencia.<br />
-Teams Access Calendar requiere Exchange 2016 CU3 + local implementado con Exchange híbrido establecido:<br />
-<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Crear una implementación híbrida con el Asistente para la configuración híbrida</a></p></td>
+<td><p>Puede crear reuniones internas y externas a través del complemento de Outlook.</p>
+<p>La función de marcado y salida de llamadas RTC está disponible con las licencias de audioconferencia.</p>
+<p>Teams Access Calendar requiere Exchange 2016 CU3 + local implementado con Exchange híbrido establecido:<br />
+<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Crear una implementación híbrida con el Asistente para la configuración híbrida.</a></p>
+<p>El administrador puede controlar el complemento de Outlook para Skype empresarial a través del atributo PreferredMeetingProviderForIslandsMode de la Directiva de reunión de Teams:<a href="https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> set-csteamsmeetingpolicy</a>.</p> 
+</td>
 </tr>
 <tr class="even">
 <td>Llamadas a características<br />
 VoIP/PSTN en Teams</td>
-<td><p>VoIP interno del inquilino está disponible</p>
-<p>Los servicios de plan de llamadas o RTC no están disponibles hasta que el usuario solo se mueve a la experiencia de Teams</p></td>
+<td><p>El VoIP interno del inquilino está disponible.</p>
+<p>Los servicios de plan de llamadas o RTC no están disponibles hasta que el usuario solo se mueve a la experiencia de Teams.</p></td>
 </tr>
 <tr class="odd">
 <td>Colaboración de equipos y canales en Teams</td>
@@ -214,14 +218,12 @@ Más información aquí: <a href="https://docs.microsoft.com/microsoftteams/admi
 <tr class="even">
 <td>Características de seguridad y cumplimiento</td>
 <td><ul>
-<li><p>Las directivas de retención están disponibles</p></li>
-<li><p>eDiscovery y retención legal para el cumplimiento de los mensajes de canal es compatible</p></li>
-<li><p>Están disponibles las directivas de prevención de pérdida de datos (DLP)</p></li>
+<li><p>Hay directivas de retención disponibles.</p></li>
+<li><p>se admite eDiscovery y retención legal para el cumplimiento de los mensajes de canal.</p></li>
+<li><p>Están disponibles las directivas de prevención de pérdida de datos (DLP).</p></li>
 </ul>
-<p>Conjunto completo de características disponibles con Exchange Online, Exchange local admite la mayoría de estas características, vea</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Interacción entre Exchange y Microsoft Teams</a></p>
+<p>Conjunto completo de características disponibles con Exchange Online; Exchange local es compatible con la mayoría de estas características. Para obtener una lista completa, vea <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">cómo interactúan Exchange y Teams.</a></p>
 <ul>
-<li><p>para obtener una lista completa</p></li>
 </ul></td>
 </tr>
 </tbody>
