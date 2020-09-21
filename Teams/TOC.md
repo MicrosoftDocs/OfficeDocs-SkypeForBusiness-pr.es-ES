@@ -311,6 +311,7 @@
 ## Planes de llamadas
 ### [¿Qué plan de llamada es adecuado para usted?](calling-plan-landing-page.md)
 ### [Cómo comprar un plan de llamadas](calling-plans-for-office-365.md)
+### [Minutos extendidos para llamadas en EE. UU. y Canadá](dial-out-minutes-canada-us.md)
 ### [Configurar planes de llamadas para su organización](set-up-calling-plans.md)
 ### [Guía de inicio rápido: Configurar Planes de llamadas](configuring-teams-calling-quickstartguide.md)
 ### [Disponibilidad de país y región para los planes de llamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -573,13 +574,19 @@
 ## [Retirada de Skype Empresarial Online](skype-for-business-online-retirement.md)
 ## [Preguntas frecuentes](FAQ-journey.md)
 
-## Biblioteca técnica 
-### [Guía de actualización para administradores de IT](upgrade-to-teams-on-prem-overview.md)
-### [Migración e interoperabilidad con Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistencia con Skype Empresarial](coexistence-chat-calls-presence.md)
-### [Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [Establecer configuración de actualización y coexistencia](setting-your-coexistence-and-upgrade-settings.md)
+## Biblioteca técnica  
+### Guía de actualización para administradores de TI
+#### [Información general](upgrade-to-teams-on-prem-overview.md)
+#### [Métodos de actualización](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Herramientas para administrar la actualización](upgrade-to-teams-on-prem-tools.md)
+#### [Consideraciones para las organizaciones con Skype Empresarial local](upgrade-to-teams-on-prem-considerations.md)
+#### [Implementar la actualización](upgrade-to-teams-on-prem-implement.md)
+#### [Coexistencia de Teams y Skype Empresarial](upgrade-to-teams-on-prem-coexistence.md)
+#### [Consideraciones PSTN](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [Modos de coexistencia: referencia](migration-interop-guidance-for-teams-with-skype.md)
+#### [Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Establecer configuración de actualización y coexistencia](setting-your-coexistence-and-upgrade-settings.md)
 ### [Reuniones primero](meetings-first.md)
 
 
