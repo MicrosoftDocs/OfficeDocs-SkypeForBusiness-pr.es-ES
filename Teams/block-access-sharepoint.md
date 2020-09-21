@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtener información sobre cómo bloquear el acceso a SharePoint para usuarios específicos
-ms.openlocfilehash: 959de8c06e26d2d12c3a3698375b11d373392447
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956041"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135934"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Bloquear el acceso a SharePoint para usuarios específicos
 
-Aplicar cualquier directiva de acceso condicional en SharePoint Online (SPO) también se aplica a teams. Sin embargo, algunas organizaciones desean bloquear el acceso a los archivos de SharePoint (cargar, descargar, ver, editar, crear) y permitir que sus empleados usen equipos de escritorio, dispositivos móviles y clientes Web en dispositivos no administrados. En las reglas de directiva de la entidad emisora, el bloqueo de SPO también provocaría el bloqueo de Teams. En este artículo se explica cómo puede eludir esta limitación y permitir que los empleados sigan usando Teams mientras bloquean completamente el acceso a los archivos almacenados en SPO.
+Aplicar cualquier directiva de acceso condicional (CA) en SharePoint en Microsoft 365 también se aplica a teams. Sin embargo, algunas organizaciones desean bloquear el acceso a los archivos de SharePoint (cargar, descargar, ver, editar, crear) y permitir que sus empleados usen equipos de escritorio, dispositivos móviles y clientes Web en dispositivos no administrados. En las reglas de directiva de la entidad emisora, el bloqueo de SharePoint también provocaría el bloqueo de Teams. En este artículo se explica cómo puede eludir esta limitación y permitir que los empleados sigan usando Teams mientras bloquean completamente el acceso a los archivos almacenados en SharePoint.
 
 > [!Note]
-> Bloquear o limitar el acceso a dispositivos no administrados depende de las directivas de acceso condicional de Azure AD. Más información sobre las [licencias de Azure ad](https://azure.microsoft.com/pricing/details/active-directory/). Para obtener información general sobre el acceso condicional en Azure AD, consulte [acceso condicional en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Para obtener información sobre las directivas de acceso de SharePoint recomendadas, consulte [recomendaciones de directiva para proteger los sitios y archivos de SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Si limita el acceso a los dispositivos no administrados, los usuarios de los dispositivos administrados deben usar una de las [combinaciones de sistema operativo y explorador compatibles](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition), o bien también tendrán acceso limitado.
+> Bloquear o limitar el acceso a dispositivos no administrados depende de las directivas de acceso condicional de Azure AD. Más información sobre las [licencias de Azure ad](https://azure.microsoft.com/pricing/details/active-directory/). Para obtener información general sobre el acceso condicional en Azure AD, consulte [acceso condicional en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Para obtener información sobre las directivas de acceso de SharePoint Online recomendadas, consulte [recomendaciones de directivas para proteger los sitios y archivos de SharePoint](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Si limita el acceso a los dispositivos no administrados, los usuarios de los dispositivos administrados deben usar una de las [combinaciones de sistema operativo y explorador compatibles](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition), o bien también tendrán acceso limitado.
 
 Puede bloquear o limitar el acceso a:
 
@@ -61,9 +61,9 @@ Cuando se bloquea el acceso, los usuarios verán un mensaje de error. Bloquear e
   > [!Note]
 > Al configurar esta Directiva, se cortará el acceso al portal de administración de SharePoint. Le recomendamos que configure la Directiva de exclusión y seleccione los administradores globales y de SharePoint.
 
-6. Comprobar que solo se selecciona SharePoint Online como aplicación de nube de destino
+6. Comprobar que solo SharePoint está seleccionado como aplicación de nube de destino
 
-    ![SharePoint Online está seleccionado como la aplicación de destino.](media/no-sharepoint-access3.png)
+    ![SharePoint está seleccionado como la aplicación de destino.](media/no-sharepoint-access3.png)
 
 7. Actualice **las condiciones** para incluir también los clientes de escritorio.
 
@@ -79,11 +79,11 @@ Cuando se bloquea el acceso, los usuarios verán un mensaje de error. Bloquear e
 
     ![Está habilitada la aplicación de restricciones obligatorias.](media/no-sharepoint-access6.png)
 
-Para probar su Directiva, debe cerrar sesión en cualquier cliente, como la aplicación de escritorio de Teams o el cliente de sincronización de OneDrive, e iniciar sesión de nuevo para ver cómo funciona la Directiva. Si su acceso ha sido bloqueado, verá un mensaje en teams que indica que el elemento podría no existir.
+Para probar la Directiva, debe cerrar la sesión de cualquier cliente, como la aplicación de escritorio de Teams o el cliente de sincronización de OneDrive para la empresa, e iniciar sesión de nuevo para ver cómo funciona la Directiva. Si su acceso ha sido bloqueado, verá un mensaje en teams que indica que el elemento podría no existir.
 
  ![El mensaje de elemento no encontrado.](media/access-denied-sharepoint.png)
 
-En SharePoint, recibirá un mensaje de acceso denegado. 
+En SharePoint, recibirá un mensaje de acceso denegado.
 
 ![El mensaje de acceso denegado.](media/blocked-access-warning.png)
 
