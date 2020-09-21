@@ -3,7 +3,7 @@ title: Actualizar a teams desde una implementación local de Skype empresarial-M
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,18 +12,18 @@ description: Actualización de Skype Empresarial a Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a7071cf6adbfa423e4c0fa12ac21a5bc777268
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2a6c4fb2e2f6433b21972a3c5e5c324d0c3d78f3
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940741"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955947"
 ---
 # <a name="upgrade-methods-mdash-for-it-administrators"></a>Métodos &mdash; de actualización para administradores de ti
 
@@ -45,7 +45,7 @@ Además, los artículos siguientes describen los conceptos de actualización imp
 
 ## <a name="upgrade-methods"></a>Métodos de actualización
 
-Existen dos métodos para actualizar una organización existente con Skype empresarial (ya sea en línea o local) a teams: método de funciones superpuestas y el método de funciones SELECT.  Este artículo le ayuda a elegir el método adecuado para su organización, ya que describe ambos métodos y presenta los pros y los inconvenientes de cada uno. 
+Existen dos métodos para actualizar una organización existente con Skype empresarial (ya sea en línea o local) a teams: método de funciones superpuestas y el método de funciones SELECT. Este artículo le ayuda a elegir el método adecuado para su organización, ya que describe ambos métodos y presenta los pros y los inconvenientes de cada uno. 
 
 - [Método de funciones superpuestas (con el modo Islas)](#overlapping-capabilities-method-using-islands-mode)
 
@@ -78,11 +78,11 @@ Cuando el usuario A está en modo islas, la presencia del usuario A tal y como l
 - Los otros usuarios que utilicen Teams verán la presencia en función de la actividad del Usuario A en Teams. 
 - Los otros usuarios que utilicen Skype Empresarial verán la presencia en función de la actividad del Usuario A en Skype Empresarial. 
 
-Esto significa que los otros usuarios pueden ver diferentes estados de presencia para el Usuario A en función del cliente que utilicen. Para obtener más información, consulte [Presencia](upgrade-to-teams-on-prem-coexistence.md#presence).
+Esto significa que los otros usuarios pueden ver diferentes estados de presencia para el Usuario A en función del cliente que utilicen. Para obtener más información, vea [presencia](upgrade-to-teams-on-prem-coexistence.md#presence).
 
 Una vez que esté listo para actualizar a los usuarios al modo TeamsOnly, puede actualizar los usuarios de forma individual o puede actualizar todo el inquilino a la vez con la Directiva para todo el inquilino. Una vez que un usuario se actualiza al modo TeamsOnly, este recibe todas las conversaciones y llamadas entrantes en Teams. (Tenga en cuenta que la migración de reuniones de Skype empresarial a reuniones de Teams solo se desencadena cuando se aplica TeamsUpgradePolicy a usuarios individuales, no por espacio empresarial. Consulte [migración de reuniones](upgrade-to-teams-on-prem-tools.md#meeting-migration) para obtener más información.)
 
-Sin embargo, los destinatarios no actualizados en modo Islas pueden seguir recibiendo chats y llamadas de un usuario TeamsOnly en los clientes de Skype Empresarial o de Teams.  Esto se debe a que el cliente de Teams mantiene hilos de conversación independientes para las comunicaciones Teams-Teams y Teams-Skype Empresarial, incluso para el mismo usuario.  (Consulte [conversaciones de Teams: interoperabilidad frente a subprocesos nativos](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)).  Por ejemplo, supongamos que el usuario A de las islas usa Teams para enviar un mensaje a TeamsOnly usuario B. Cuando el usuario B responda a esa conversación, la comunicación se situará en el cliente de equipos del usuario A. Supongamos que el usuario A usa su cliente de Skype empresarial para enviar un mensaje a TeamsOnly usuario B. el usuario B recibirá la conversación en Teams, pero será una conversación independiente en el cliente de equipos del usuario B en comparación con la otra conversación. Si el usuario B responde a esta conversación con el usuario A, se colocará en el cliente de Skype empresarial del usuario A. 
+Sin embargo, los destinatarios no actualizados en modo Islas pueden seguir recibiendo chats y llamadas de un usuario TeamsOnly en los clientes de Skype Empresarial o de Teams.  Esto se debe a que el cliente de Teams mantiene hilos de conversación independientes para las comunicaciones Teams-Teams y Teams-Skype Empresarial, incluso para el mismo usuario.  (Consulte [conversaciones de Teams: interoperabilidad frente a subprocesos nativos](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)).  Por ejemplo, supongamos que el usuario A de las islas usa Teams para enviar un mensaje a TeamsOnly usuario B. Cuando el usuario B responda a esa conversación, la comunicación se situará en el cliente de equipos del usuario A. Supongamos que el usuario A usa el cliente de Skype empresarial para enviar un mensaje a TeamsOnly usuario B. el usuario B recibirá la conversación en Teams, pero será una conversación independiente en el cliente de equipos del usuario B en comparación con la otra conversación. Si el usuario B responde a esta conversación con el usuario A, se colocará en el cliente de Skype empresarial del usuario A. 
 
 En la tabla siguiente se resume la experiencia de Teams para los modos Islas y TeamsOnly:  
 
@@ -97,8 +97,8 @@ En la tabla siguiente se resumen las ventajas e inconvenientes de usar el métod
 
 | Ventajas     |       Inconvenientes |
 | :------------------ | :---------------- |
-| Permite una rápida adopción en la organización.| Existe un potencial de confusión para el usuario final debido a que existen dos clientes con funcionalidades similares pero interfaces de usuario diferentes. Además, no tienen control sobre el cliente al que llegan los mensajes de chat o llamadas entrantes. |
-| Permite a los usuarios aprender y familiarizarse con Teams y seguir teniendo acceso completo a Skype Empresarial. | Existe un potencial de insatisfacción para el usuario final debido a la pérdida de mensajes si el usuario no ejecuta los dos clientes. Los usuarios pueden quejarse de que no reciben mensajes.|
+| Permite una rápida adopción en la organización.| Posibilidad de confusión entre usuarios finales, ya que existen dos clientes con una funcionalidad similar, pero distintas interfaces de usuario. Además, no tienen control sobre el cliente al que llegan los mensajes de chat o llamadas entrantes. |
+| Permite a los usuarios aprender y familiarizarse con Teams y seguir teniendo acceso completo a Skype Empresarial. | Potencial de insatisfacción del usuario final debido a mensajes perdidos si el usuario no está ejecutando ambos clientes. Los usuarios pueden quejarse de que no reciben mensajes.|
 | Mínimo esfuerzo de administración para empezar a trabajar en Teams. | Puede ser desafiante "salir del modo islas" y pasar al modo TeamsOnly si no todos los miembros de la organización usan equipos, especialmente si no todos los usuarios están activos en Teams. Por ejemplo, una vez que un subconjunto de usuarios se actualiza al modo TeamsOnly, los usuarios solo se enviarán en Teams. Para el resto de la población en el modo islas, esos mensajes siempre estarán en el equipo. Pero si algunos de esos rellenados no se ejecutan en Teams, percibirán estos mensajes como perdidos. |
 |  | Cuando se usan equipos, los usuarios que tienen una cuenta local en Skype empresarial Server no admiten la compatibilidad con la interoperabilidad o la Federación.  Esto puede crear confusión si tiene una combinación de usuarios de islas, algunas personas que se encuentran en Skype empresarial online y otras en Skype empresarial local.   |
 

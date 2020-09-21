@@ -19,14 +19,14 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5a43a34ac130f4b5b168d46fa2a69476c42abd7b
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860801"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135874"
 ---
-# <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Introducción a las plantillas de Teams en la consola de administración de Teams
+# <a name="get-started-with-teams-templates-in-the-admin-console"></a>Introducción a las plantillas de Teams en la consola de administración
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
@@ -71,22 +71,31 @@ Una vez que se define un tipo de plantilla base, puede extender o invalidar esta
 > [!NOTE]
 > Las plantillas básicas predefinidas proporcionadas en Microsoft Teams se pueden duplicar, pero no editar.
 
-| Tipo de plantilla base | Propiedades que vienen con esta plantilla base |
-| ------------------ |----------------------------------------------------- |
-| Adopción de Office 365 |  Canales <ul><li>General</li> <li>Anuncios</li> <li>La esquina de los campeones</li> <li>Formularios de equipo</li></ul> Phone <ul><li>Wiki</li>  <li>Calendario</li> |
-| Administrar un proyecto | Canales <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
-| Administrar un evento | Canales <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y PR</li></ul> Phone<ul><li>Wiki</li><li>Página</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|Empleados de la placa | Canales <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Phone<ul><li>Wiki</li><li>Comunitarios</li>|</ul>
-|Organizar el Departamento de soporte técnico| Canales<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
-| Colaborar en el cuidado del paciente | Canales<ul><li>General</li><li>Anuncios</li><li>Huddles</li><li>Hacia</li><li>Personal</li><li>Aprendizaje</li></ul> Phone <ul><li>Wiki</li>|
-| Colaborar en crisis global o evento |Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li></ul>|
-|Colaborar dentro de una sucursal bancaria |Canales <ul><li>General<li>Anuncios</li><li>Huddles</li><li>Reuniones de clientes</li><li>Tren</li><li>Desarrollo de competencias</li><li>Procesamiento de préstamos</li><li>Quejas de los clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
-|Coordinar la respuesta a incidentes |Canales <ul><li>General<li>Anuncios</li><li>Logística</li><li>Planeación</li><li>Recuperar</li><li>Urgente</li></ul> Phone <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|Hospital |Canales <ul><li>General<li>Anuncios</li><li>Cumplimiento</li><li>> de Private/Li<li>Recursos humanos</li><li>Pertenecie</li></ul> Phone <ul><li>Wiki</li></ul>|
-|Organizar un almacén |Canales <ul><li>General<li>Transición de turno</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
-|Calidad y seguridad |Canales <ul><li>General<li>Anuncios</li><li>Línea 1</li><li>Línea 2</li><li>Línea 3</li><li>Opera</li><li>Aprendizaje</li><li>Mantenimiento</li><li>Cosas divertidas</li></ul> Phone <ul><li>Wiki</li></ul>|
-|Colaboración minorista-Gerente |Canales <ul><li>General<li>Operations</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
-|||
+| Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
+| ------------------ |----|----------------------------------------------------- |
+| Adopción de Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canales <ul><li>General</li> <li>Anuncios</li> <li>La esquina de los campeones</li> <li>Formularios de equipo</li></ul> Phone <ul><li>Wiki</li>  <li>Calendario</li> |
+| Administrar un proyecto |`com.microsoft.teams.template.ManageAnEvent`| Canales <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Administrar un evento|`com.microsoft.teams.template.ManageAnEvent` | Canales <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y PR</li></ul> Phone<ul><li>Wiki</li><li>Página</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|Empleados de la placa|`com.microsoft.teams.template.OnboardEmployees` | Canales <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Phone<ul><li>Wiki</li><li>Comunitarios</li></ul>|
+|Organizar el Departamento de soporte técnico| `com.microsoft.teams.template.OrganizeHelpDesk`|Canales<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Colaborar en el cuidado del paciente| `healthcareWard `| Canales<ul><li>General</li><li>Anuncios</li><li>Huddles</li><li>Hacia</li><li>Personal</li><li>Aprendizaje</li></ul> Phone <ul><li>Wiki</li>|
+| Colaborar en crisis global o evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li></ul>|
+|Colaborar dentro de una sucursal bancaria| `com.microsoft.teams.template.CollaborateWithinABankBranch `|Canales <ul><li>General<li>Anuncios</li><li>Huddles</li><li>Reuniones de clientes</li><li>Tren</li><li>Desarrollo de competencias</li><li>Procesamiento de préstamos</li><li>Quejas de los clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
+|Coordinar la respuesta a incidentes| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canales <ul><li>General<li>Anuncios</li><li>Logística</li><li>Planeación</li><li>Recuperar</li><li>Urgente</li></ul> Phone <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Hospital| `healthcareHospita`cuenta |Canales <ul><li>General<li>Anuncios</li><li>Cumplimiento</li><li>Private</li><li>Recursos humanos</li><li>Pertenecie</li></ul> Phone <ul><li>Wiki</li></ul>|
+|Organizar un almacén| `retailStore` |Canales <ul><li>General<li>Transición de turno</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
+|Calidad y seguridad |`com.microsoft.teams.template.QualitySafety`|Canales <ul><li>General<li>Anuncios</li><li>Línea 1</li><li>Línea 2</li><li>Línea 3</li><li>Opera</li><li>Aprendizaje</li><li>Mantenimiento</li><li>Cosas divertidas</li></ul> Phone <ul><li>Wiki</li></ul>|
+|Colaboración minorista-Gerente| `retailManagerCollaboration` |Canales <ul><li>General<li>Operations</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
+||||
+
+Para obtener más información sobre las categorías de plantillas, vea los temas siguientes:
+
+- [Plantillas financieras](financial-teams-templates-in-the-admin-console.md)
+- [Plantillas generales](general-teams-templates-in-the-admin-console.md)
+- [Plantillas gubernamentales](government-teams-templates-in-the-admin-console.md)
+- [Plantillas de asistencia sanitaria](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+- [Plantillas de fabricación](manufacturing-teams-templates-in-the-admin-console.md)
+- [Plantillas comerciales](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="template-size-limits"></a>Límites de tamaño de plantilla
 

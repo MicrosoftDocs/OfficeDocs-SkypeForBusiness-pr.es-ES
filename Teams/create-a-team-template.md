@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583699"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135864"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Crear una plantilla de equipo personalizada en Microsoft Teams
 
@@ -34,7 +34,7 @@ Una plantilla de equipo personalizado es una estructura de equipo predefinida co
 
 Para comenzar:
 
-1. Inicie sesión en el centro de administración en  <a href="<<<https://admin.teams.microsoft.com>>>" target="_blank">https://admin.teams.microsoft.com</a> .
+1. Inicie sesión en el centro de administración de Teams.
 
 2. En el navegación izquierdo, expanda plantillas de equipo **de Teams**  >  **Team templates**.
 
@@ -57,7 +57,7 @@ Para comenzar:
     2. En el cuadro de diálogo **Agregar** , asigne un nombre al canal.
     3. Agregue una descripción.
     4. Decida si el canal se debe mostrar de forma predeterminada.
-    5. Busque el nombre de una aplicación que desee addd en el canal.
+    5. Busque el nombre de una aplicación que quiera agregar al canal.
     6. Cuando haya terminado, haga clic en **aplicar** .
 
 ![Una imagen de la pantalla canales, pestañas y aplicaciones del equipo.](media/template-channels-tabs-apps.png)

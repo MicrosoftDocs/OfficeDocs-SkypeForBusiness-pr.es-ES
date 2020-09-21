@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: a075a432f57a6634a49e9442da0bdc215b1546d9
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255523"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135974"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -76,7 +76,7 @@ Luego asigne la directiva a los usuarios:
 
 ## <a name="edit-a-meeting-policy"></a>Editar una directiva de reunión
 
-Puede editar la directiva global en cualquier directiva personalizada que cree.
+Puede editar la directiva global y las directivas personalizadas que cree.
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  **Meeting policies**.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
@@ -118,7 +118,7 @@ Cuando selecciona una directiva existente en la página **directivas** de la reu
 
 Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si activa esta opción, cuando un usuario publique un mensaje en un canal de Teams, el usuario podrá hacer clic en **reunirse ahora** en el cuadro de redacción para iniciar una reunión ad hoc en el canal. El valor predeterminado es True.
 
-![Captura de pantalla que muestra el icono reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png)
+[![Captura de pantalla que muestra el icono reunirse ahora debajo de un mensaje ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir el complemento de Outlook
 
@@ -140,20 +140,23 @@ Programar una reunión se deshabilitará.
 
 La selección de canal está deshabilitada.
 
-![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/meeting-policies-select-a-channel-to-meet-in.png)
+[![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 En la página publicaciones del canal, se deshabilitarán los siguientes elementos:
 
 - Botón **programar una reunión** en el cuadro de redacción de respuesta del canal.
-![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/schedule-meeting-disabled-in-chat2.png)
+  ![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/schedule-meeting-disabled-in-chat2.png)
+  
 - Botón **programar una reunión** en el encabezado del canal.
-![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/schedule-now-in-header.png)
+  ![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/schedule-now-in-header.png)
 
 En el calendario del canal:
 
 - El botón **Agregar nuevo evento** en el encabezado del calendario del canal se deshabilitará.
-![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/add-new-event-disabled.png)
+  ![Captura de pantalla que muestra la opción calendario para seleccionar un canal en el que desea programar una reunión.](media/add-new-event-disabled.png)
+
 - Los usuarios no podrán arrastrar y seleccionar un bloque de tiempo en el calendario de canal para crear una reunión de canal.
+
 - Los usuarios no pueden usar métodos abreviados de teclado para crear una reunión en el calendario del canal.
 
 En el centro de administración:
@@ -234,7 +237,7 @@ Esta es una directiva por usuario. Esta configuración determina la velocidad de
 
 Si no hay suficiente ancho de banda para una reunión, los participantes verán un mensaje que indica una mala calidad de la red.
 
-Para las reuniones que necesitan una experiencia de video de la más alta calidad, como las reuniones de los paneles CEO y los equipos en vivo, le recomendamos que configure el ancho de banda en 10 Mbps. Incluso cuando se establece la experiencia máxima, la pila de medios de Teams se adapta a condiciones de ancho de banda bajo cuando se detectan ciertas condiciones de red, según el escenario.
+Para las reuniones que necesitan la experiencia de video de mayor calidad, como las reuniones de los paneles CEO y los equipos en vivo, le recomendamos que establezca el ancho de banda en 10 Mbps. Incluso cuando se establece la experiencia máxima, la pila de medios de Teams se adapta a condiciones de ancho de banda bajo cuando se detectan ciertas condiciones de red, según el escenario.
 
 ## <a name="meeting-policy-settings---content-sharing"></a>Configuración de la Directiva de reunión: uso compartido de contenido
 
@@ -333,7 +336,7 @@ Amanda puede compartir la pizarra en una reunión incluso si es el organizador d
 
 ### <a name="allow-shared-notes"></a>Permitir notas compartidas
 
-Esta es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la Directiva del organizador de la reunión. Actualmente, la pestaña notas de la **reunión** solo se admite en reuniones que tengan menos de 20 participantes.
+Esta es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la Directiva del organizador de la reunión. Actualmente, la pestaña notas de la **reunión** solo se admite en reuniones con menos de 20 participantes.
 
 Echemos un vistazo al ejemplo siguiente.
 
@@ -359,9 +362,10 @@ Esta configuración controla los participantes de la reunión en la sala de espe
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir a personas anónimas iniciar una reunión
 
-Se trata de una directiva por organizador que permite realizar reuniones de conferencia de acceso telefónico y no guía. Esta opción controla si los usuarios con acceso telefónico pueden unirse a la reunión sin un usuario autenticado de la organización en asistencia. El valor predeterminado es falso, lo que significa que los usuarios marcados esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
+Esta es una directiva por organizador que permite reuniones de conferencia de acceso telefónico local no superpuestos. Esta opción controla si los usuarios de acceso telefónico local pueden unirse a la reunión sin un usuario autenticado de la organización en la asistencia. El valor predeterminado es falso, lo que significa que los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
 
-**Nota:** Si es falso y un usuario con marcado se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de recepción. No hay ningún control de sala de recepción disponible para los usuarios marcados.
+> [!NOTE]
+> Si es falso y un usuario de acceso telefónico se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de recepción. No hay ningún control de sala de recepción disponible para los usuarios marcados.
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente personas
 
@@ -371,19 +375,22 @@ Esta es una directiva por organizador. Esta opción controla si los usuarios pue
 
  Los organizadores de reuniones pueden hacer clic en **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración para cada reunión que programe.
 
- **Nota:** En las opciones de la reunión, la configuración se denomina "quién puede omitir la sala de recepción"
+> [!NOTE]
+> En las opciones de la reunión, la configuración se denomina "quién puede omitir la sala de recepción". Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y a las reuniones anteriores en las que el usuario no haya modificado las opciones de la reunión.
   
 |Valor de configuración  |Comportamiento de combinación |
 |---------|---------|
 |**Todos**   |Todos los participantes de la reunión se unen directamente desde la sala de espera. Esto incluye usuarios autenticados, usuarios externos de organizaciones de confianza (federados), invitados y usuarios anónimos.     |
 |**Todas las personas de la organización y las organizaciones federadas**     |Usuarios autenticados dentro de la organización, incluidos los usuarios invitados y los usuarios de organizaciones de confianza, únase a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios anónimos esperan en la sala de espera.   |
 |**Todas las personas de su organización**    |Los usuarios autenticados de la organización, incluidos los invitados, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios de organizaciones de confianza y usuarios anónimos esperan en la sala de espera. Esta configuración es la predeterminada.           |
+|**Solo Organizer**    |Solo los organizadores de reuniones pueden unirse a la reunión directamente, sin tener que esperar en la sala de espera. Todos los demás, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de recepción
 
-Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. El valor predeterminado es False. Si es falso, los usuarios con acceso telefónico esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y los retenga. Cuando el valor es true, los usuarios con marcado se unen automáticamente a la reunión cuando un usuario de la organización se une a la reunión.
+Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. El valor predeterminado es False. Cuando sea falso, los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y los retenga. Cuando sea verdadero, los usuarios de acceso telefónico local se unirán automáticamente a la reunión cuando un usuario de la organización se una a la reunión.
 
-**Nota:** Si un usuario se une a una reunión antes de que un usuario de la organización se una a la reunión, se colocará en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y se pueda tener acceso a ella.
+> [!NOTE]
+> Si un usuario de acceso telefónico se une a una reunión antes de que un usuario de la organización se una a la reunión, se colocará en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y se pueda tener acceso a ella. Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y a las reuniones anteriores en las que el usuario no haya modificado las opciones de la reunión.
 
 ### <a name="enable-live-captions"></a>Habilitar títulos en vivo
 

@@ -18,12 +18,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2258103e73b13a22965e0fbf7749d012e09ed485
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820494"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962821"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -128,7 +128,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Subtítulos en directo y otros subtítulos |&#x2714; |&#x2714; |&#x274C; |
 |Subtítulos para las grabaciones de eventos en directo |&#x2714; |&#x2714; |&#x2714; |
 |Controles DVR de los asistentes (pausa, retroceso) |&#x2714; |&#x2714; |&#x2714; |
-|Soporte técnico eCDN Partner |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
+|Soporte técnico eCDN Partner |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |&#x274C; |
 |Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

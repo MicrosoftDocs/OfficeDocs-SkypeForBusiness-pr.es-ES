@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Ver qué dispositivos y periféricos USB, como, por ejemplo, auriculares con micrófono, teléfonos, cámaras Web y monitores, están certificados para Microsoft Teams.
-ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: 90c97ffb98fafa8908c2e746487d5ffca7412282
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331636"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962921"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -85,8 +85,6 @@ Si es un fabricante y desea participar en el programa de certificación, consult
 |EPOS/Sennheiser      |Impacto SC 660 con USB-ED CC 01 MS Connecta                |8/20/2020       |Skype empresarial con la actualización a Microsoft Teams      |
 |EPOS/Sennheiser      |Impacto SC 630 con USB-ED CC 01 MS Connecta                |8/20/2020       |Skype empresarial con la actualización a Microsoft Teams      |
 |EPOS/Sennheiser      |Impacto SC 260 con USB-ED CC 01 MS Connecta                |8/20/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certificado para Skype empresarial                        |
-|ViewSonic            |WCD- IFP6570                                               |7/31/2020       |Certificado para Skype empresarial                        |
 |Jabra                |Otros auriculares con micrófono 75                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
 |Jabra                |Otros auriculares con micrófono 65                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
 |Jabra                |Enganchar auriculares con micrófono 50                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |

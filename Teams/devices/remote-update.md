@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Actualizar teléfonos y barras de colaboración de Microsoft Teams de forma remota con el centro de administración de Teams
-ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: e57ca3f357deeb005f845d37a17c4b20db5d2035
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125953"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962891"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Actualizar dispositivos de Microsoft Teams de forma remota
 
@@ -34,20 +34,25 @@ Las actualizaciones del firmware del dispositivo se pueden aplicar automáticame
 > [!NOTE]
 > Si bien las actualizaciones del firmware del dispositivo se pueden programar, si la fecha y la hora programadas caen después del retraso máximo configurado de 30 o 90, la actualización del firmware se aplicará cuando se alcance el retraso máximo. La fecha y la hora programadas se pasan por alto. Además, la actualización remota de dispositivos de Microsoft Teams es una característica que aún no está disponible en los inquilinos de la nube del gobierno de Estados Unidos (GCC-High).
 
+Para administrar dispositivos, debe ser un administrador global, un administrador de servicios de equipo o un administrador de dispositivos de Teams. Para obtener más información sobre los roles de administrador, consulte [usar los roles de administrador de Microsoft Teams para administrar equipos](../using-admin-roles.md).
+
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Elegir comportamiento de actualización automática del firmware del dispositivo
 
-Las actualizaciones del firmware del dispositivo se aplican automáticamente. Puede decidir si desea aplicar las actualizaciones tan pronto como se publique una, o 30 o 90 días después de que se publique una actualización. De forma predeterminada, las actualizaciones del firmware del dispositivo se aplican 30 días de la publicación.
+Las actualizaciones del firmware del dispositivo se aplican automáticamente. Puede decidir si desea aplicar las actualizaciones tan pronto como se publique una (si elige esta opción, las actualizaciones se aplicarán el primer fin de semana después de que se publique una actualización) o 30 o 90 días después de que se publique una actualización. De forma predeterminada, las actualizaciones del firmware del dispositivo se aplican 30 días de la publicación.
 
 > [!IMPORTANT]
 > La versión más reciente de la actualización de firmware no se aplica en el dispositivo de Teams. En su lugar, la actualización que se aplica automáticamente en el dispositivo se retrasa en una versión. Por ejemplo, supongamos que el dispositivo tiene la versión "10" aplicada y que la versión "11" está publicada. La versión "11" aún no se aplicará. En su lugar, el dispositivo solo se actualizará a la versión "11" después de que se publique la versión "12".
 
+> [!NOTE]
+> Algunos dispositivos aún no admiten la actualización automática del firmware. La aplicación de la configuración de actualización de firmware automática en dispositivos que no admiten actualizaciones automáticas no afectará a esos dispositivos. Para obtener más información sobre si el dispositivo admite actualizaciones automáticas de firmware, póngase en contacto con el fabricante del dispositivo.
+
 Para elegir el comportamiento de actualizaciones automáticas para sus dispositivos, haga lo siguiente:
 
-1. Inicie sesión en el centro de administración de Microsoft Teams visitandohttps://admin.teams.microsoft.com
+1. Inicie sesión en el centro de administración de Microsoft Teams visitando https://admin.teams.microsoft.com
 2. Navegar por los **dispositivos**  >  **Phones** o las **barras de colaboración**
 3. Seleccione uno o más dispositivos y, después, seleccione **Actualizar** .
 4. En **actualización automática del firmware**, seleccione una de las opciones siguientes:
-    - **Tan pronto como esté disponible** Second-la actualización del firmware del dispositivo más reciente se aplica lo antes posible después de que se publique la última actualización.
+    - **Tan pronto como esté disponible** Second-la actualización del firmware del dispositivo más reciente se aplica el primer fin de semana después de que se publique la última actualización.
     - **Aplazar 30 días** Second-la actualización del firmware del dispositivo más reciente se aplica 30 días después de que se publique la actualización más reciente.
     - **Diferir 90 días** Segunda: se aplica la actualización del firmware del dispositivo más reciente 90 días después de que se publique la actualización más reciente.
 5. Seleccione **Actualizar**
@@ -60,7 +65,7 @@ Al actualizar uno o más dispositivos con el centro de administración, puede de
 
 Para actualizar los dispositivos remotos de forma manual, haga lo siguiente:
 
-1. Inicie sesión en el centro de administración de Microsoft Teams visitandohttps://admin.teams.microsoft.com
+1. Inicie sesión en el centro de administración de Microsoft Teams visitando https://admin.teams.microsoft.com
 2. Navegar por los **dispositivos**  >  **Phones** o las **barras de colaboración**
 3. Seleccione uno o más dispositivos y, después, seleccione **Actualizar** .
 4. En **actualizaciones manuales**, seleccione **programación** si desea programar la actualización para una fecha y hora futuras. Las actualizaciones se aplican en la fecha y hora de la zona horaria seleccionada en la zona **horaria**.

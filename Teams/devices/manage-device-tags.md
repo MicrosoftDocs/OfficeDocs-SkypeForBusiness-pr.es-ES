@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5987588fd3df8f327502eace7f31b29483a2eba
-ms.sourcegitcommit: ab56033346426a018a8a6920d67526a9772f644c
+ms.openlocfilehash: d29bc28de39c8d145914d3bddab4ed949ad0a338
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47363363"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962901"
 ---
 # <a name="manage-microsoft-teams-device-tags"></a>Administrar etiquetas de dispositivos de Microsoft Teams
 
@@ -29,7 +29,7 @@ Las etiquetas de dispositivos de Microsoft Teams le permiten agrupar, organizar 
 
 Puede Agregar una etiqueta de dispositivo a más de un tipo de dispositivo. Sin embargo, al abrir un panel de dispositivos en el centro de administración, solo se devuelven los dispositivos de ese tipo. Por ejemplo, puede asignar la etiqueta "empresa" a teléfonos y a dispositivos de salas de equipos. Si buscas la etiqueta "empresa" en teléfonos de **dispositivos**  >  **Phones**, solo se devuelven teléfonos. De forma similar, si busca la etiqueta "Corporate" en **dispositivos**  >  **salas de equipos**, solo se devolverán los dispositivos de salas de equipos.
 
-Para administrar etiquetas de dispositivo, debe ser un administrador global o un administrador del servicio de Teams.
+Para administrar etiquetas de dispositivo, debe ser un administrador global, un administrador de servicios de equipo o un administrador de dispositivos de Teams. Para obtener más información sobre los roles de administrador, consulte [usar los roles de administrador de Microsoft Teams para administrar equipos](../using-admin-roles.md).
 
 > [!IMPORTANT]
 > Las etiquetas de dispositivos se asignan a la cuenta de recursos que se ha conectado en un dispositivo. Si firma una cuenta de recursos fuera de un dispositivo y luego la usa para iniciar sesión en otros dispositivos, las etiquetas del dispositivo se aplican al nuevo dispositivo.

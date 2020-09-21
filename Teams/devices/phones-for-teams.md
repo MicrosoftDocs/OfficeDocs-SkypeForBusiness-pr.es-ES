@@ -17,18 +17,20 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: En este artículo se describe la lista de teléfonos que están certificados para Microsoft Teams y las características compatibles con los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: b017e02b2d3d2bdc6b01886929d034abb6650384
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: cd38586b67f728febb4a43d3f018875b378cffd8
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583959"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962851"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
 Microsoft Teams es compatible con una cartera de teléfonos de escritorio para usuarios que requieren una experiencia de teléfono tradicional. Este artículo proporciona una descripción completa de los teléfonos de los equipos y puede ayudarle a planear, entregar y administrar teléfonos de Microsoft Teams como parte de su solución de sistema de Microsoft Phone. 
 
 Para ofrecer una experiencia de alta calidad y confiable de Microsoft Teams en teléfonos, estamos asociados y trabajando activamente con Yealink, Crestron, Lenovo, Polycom y AudioCodes con el fin de desarrollar y certificar una amplia cartera de teléfonos de escritorio y dispositivos de audio de sala de conferencias. Para obtener la información más reciente y actualizada sobre los dispositivos de Teams, vaya a [Teams Marketplace](https://office.com/teamsdevices).
+
+Para administrar teléfonos, debe ser un administrador global, un administrador de servicios de equipo o un administrador de dispositivos de Teams. Para obtener más información sobre los roles de administrador, consulte [usar los roles de administrador de Microsoft Teams para administrar equipos](../using-admin-roles.md).
 
 ## <a name="features-supported-by-teams-phones"></a>Características admitidas por teléfonos de Teams
 Los teléfonos certificados por Teams tienen una amplia variedad de características para ayudar a los usuarios a realizar sus trabajos y ayudarle a administrar su uso. Este es un resumen de las características disponibles en los teléfonos certificados por Teams:

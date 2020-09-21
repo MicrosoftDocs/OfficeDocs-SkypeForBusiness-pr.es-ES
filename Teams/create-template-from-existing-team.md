@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9a6f183bcdf0871753f34acbf1f753a7e4c76fcb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ee1c121f4d42e2d093a3b9eabef9adedd0605128
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584019"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135954"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Crear una plantilla a partir de un equipo existente en Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "46584019"
 
 Microsoft Teams le permite crear una plantilla a partir de un equipo existente que se puede guardar y modificar para satisfacer las necesidades particulares de su organización.
 
-1. Inicie sesión en el centro de administración.
+1. Inicie sesión en el centro de administración de Teams.
 
 2. En el navegación izquierdo, expanda plantillas de equipo **de Teams**  >  **Team templates**.
 
