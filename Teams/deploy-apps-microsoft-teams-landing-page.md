@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d377b18080d9208529b9c6196cd3879bd03a011f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584009"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177340"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
@@ -45,7 +45,7 @@ Estas son las opciones de aplicaciones que la mayoría de organizaciones cambian
 
 Teams ofrece una serie de aplicaciones proporcionadas por Microsoft y aplicaciones de terceros para interactuar con los usuarios, ayudar en la productividad e integrar los servicios empresariales usados frecuentemente en Teams. Obtener aplicaciones desde la Tienda Teams. De forma predeterminada, todas las aplicaciones, incluidas las aplicaciones personalizadas que ha enviado a través del [proceso de aprobación de Teams Store](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), están activadas para todos los usuarios. Por ejemplo, los usuarios pueden usar la aplicación de Planner para crear y administrar tareas de equipo en Teams.
 
-De forma predeterminada, todas las aplicaciones proporcionadas por Microsoft, así como las personalizadas, están disponibles y puede activarlas o desactivarlas individualmente. Hay una configuración que abarca toda la organización que le permite activar o desactivar todas las aplicaciones personalizadas para toda la organización.
+De forma predeterminada, todas las aplicaciones proporcionadas por Microsoft, así como las personalizadas y las de terceros, están disponibles y puede activarlas o desactivarlas individualmente. Hay configuraciones de toda la organización que le permiten activar o desactivar todas las aplicaciones personalizadas o de terceros para toda la organización.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
