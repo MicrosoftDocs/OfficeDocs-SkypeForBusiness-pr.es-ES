@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868709"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135884"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
 
@@ -147,7 +147,7 @@ Cada directiva individual se indica con el nombre del paquete de directivas para
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Directivas que se deben asignar para la seguridad de los alumnos
 
-### <a name="meeting-policies"></a>Directivas de reunión
+### <a name="meeting-policies-for-students"></a>Directivas de reuniones para estudiantes
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Desactivar la posibilidad de crear e iniciar reuniones
 
@@ -216,7 +216,7 @@ Las opciones aquí:
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="Estudiantes en la página de aprendizaje remoto mostrando las opciones de vídeo.":::
 
-### <a name="live-events-policies"></a>Directivas de eventos en directo
+### <a name="live-events-policies-for-students"></a>Directivas de eventos en directo para estudiantes
 
 #### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>Desactivar la posibilidad de crear e iniciar eventos en directo
 
@@ -224,7 +224,7 @@ Para asegurarse de que los alumnos no puedan programar eventos en directo para c
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="Estudiante en la página de aprendizaje remoto con la opción permitir programación Desactivada.":::
 
-### <a name="calling-policies"></a>Directivas de llamada
+### <a name="calling-policies-for-students"></a>Directivas de llamada para estudiantes
 
 #### <a name="turn-off-the-ability-to-make-private-calls"></a>Desactivar la posibilidad de realizar llamadas privadas
 
@@ -232,7 +232,7 @@ Para asegurarse de que los alumnos no pueden realizar llamadas privadas con otro
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="Estudiante en la página de aprendizaje remoto con la opción Hacer llamadas privadas configurada como Desactivada.":::
 
-### <a name="messaging-policies"></a>Directivas de mensajería
+### <a name="messaging-policies-for-students"></a>Directivas de mensajería para estudiantes
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Desactivar la posibilidad de eliminar o editar mensajes enviados
 
@@ -276,7 +276,7 @@ Los alumnos no deberían tener la posibilidad de quitar otros usuarios de los ch
 
 ![Estudiante en la página de aprendizaje remoto, con la opción Quitar usuarios de los chat de grupo establecida como desactivada.](media/edu-remove-users-from-chat-for-students.png)
 
-### <a name="teams-policies"></a>Directivas de equipos
+### <a name="teams-policies-for-students"></a>Directivas de Teams para estudiantes
 
 #### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>Desactivar la posibilidad de detectar y crear canales privados
 
@@ -287,7 +287,7 @@ Para asegurarse de que los alumnos no puedan crear un canal privado como espacio
 > [!IMPORTANT]
 > Es probable que también quiera asegurarse de que los alumnos no puedan crear nuevos equipos en Microsoft Teams. En realidad, se trata de una opción de configuración de grupos de M365 y puede obtener más información en [Administrar quién puede crear Grupos de Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
-### <a name="app-permission-policies"></a>Directivas de permisos de aplicación
+### <a name="app-permission-policies-for-students"></a>Directivas de permisos de aplicación para estudiantes
 
 #### <a name="control-whether-students-can-add-apps-within-teams"></a>Controlar si los alumnos pueden agregar aplicaciones en Teams
 
@@ -309,7 +309,7 @@ Se recomienda a los administradores aplicar esta configuración de directiva par
 > [!NOTE]
 > Las recomendaciones de directiva para los alumnos contienen más información que las secciones de educadores que se muestran a continuación. Aunque puede establecer la configuración de directivas en línea con las directivas y los procedimientos propios de su centro educativo, las recomendaciones aquí indicadas son estrictamente relevantes en lo que respecta a la seguridad de los estudiantes.
 
-### <a name="meeting-policies"></a>Directivas de reunión
+### <a name="meeting-policies-for-educators"></a>Directivas de reuniones para educadores
 
 Esta configuración permitirá que los formadores puedan controlar el acceso a sus reuniones.
 
