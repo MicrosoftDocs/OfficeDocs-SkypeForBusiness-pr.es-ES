@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9138c1e1222f106c9eaf67b44bf7deca0a250790
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136110"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171124"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Usar plantillas generales de Teams en la consola de administración
 
@@ -45,28 +45,28 @@ Para obtener más información sobre las plantillas de equipo en general, consul
 
 Centralizar la colaboración de su equipo de crisis en todas las unidades de negocio y ayudar a crear planes de continuidad empresarial, compartir consejos de trabajo remotos, realizar un seguimiento de las comunicaciones con los clientes y mantener a todos en el bucle con anuncios y noticias.
 
-| Tipo de plantilla base | Propiedades que vienen con esta plantilla base |
-| ------------------ |----------------------------------------------------- |
-| Colaborar en crisis global o evento |Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li></ul>|
-|||
+| Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
+| ------------------ |--|----------------------------------------------------- |
+| Colaborar en crisis global o evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li></ul>|
+||||
 
-## <a name="adopt-officd-365"></a>Adoptar Officd 365
+## <a name="adopt-office-365"></a>Adopción de Office 365
 
 Ayuda a crear, crecer y mantener a los campeones la implantación de la comunidad al educar y ayudar a sus colegas con la nueva tecnología.
 
-| Tipo de plantilla base | Propiedades que vienen con esta plantilla base |
-| ------------------ |----------------------------------------------------- |
-| Adopción de Office 365 |  Canales <ul><li>General</li> <li>Anuncios</li> <li>La esquina de los campeones</li> <li>Formularios de equipo</li></ul> Phone <ul><li>Wiki</li>  <li>Calendario</li> |Li><li>Desarrollo de competencias</li><li>Procesamiento de préstamos</li><li>Quejas de los clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
-|||
+| Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
+| ------------------|-- |----------------------------------------------------- |
+| Adopción de Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Canales <ul><li>General</li> <li>Anuncios</li> <li>La esquina de los campeones</li> <li>Formularios de equipo</li></ul> Phone <ul><li>Wiki</li>  <li>Calendario</li> |Li><li>Desarrollo de competencias</li><li>Procesamiento de préstamos</li><li>Quejas de los clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
+||||
 
-## <a name="manage-a-project"></a>Administrar un proyecto 
+## <a name="manage-a-project"></a>Administrar un proyecto
 
 Administre tareas, comparta documentos, lleve a cabo reuniones y riesgos de documentos y decisiones con esta plantilla para la administración general de proyectos.
 
-| Tipo de plantilla base | Propiedades que vienen con esta plantilla base |
-| ------------------ |----------------------------------------------------- |
-| Administrar un proyecto | Canales <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
-|||
+| Tipo de plantilla base| baseTemplateId | Propiedades que vienen con esta plantilla base |
+| ------------------|-- |----------------------------------------------------- |
+| Administrar un proyecto| com. Microsoft. Teams. template. ManageAProject  | Canales <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
+||||
 
 ## <a name="manage-an-event"></a>Administrar un evento
 
@@ -74,24 +74,25 @@ Administre tareas, documentos y colabore con todo lo que necesita para ofrecer u
 
 Es posible que no tenga acceso a determinadas aplicaciones basadas en la Directiva de permisos de la aplicación.
 
-| Tipo de plantilla base | Propiedades que vienen con esta plantilla base |
-| ------------------ |----------------------------------------------------- |
-| Administrar un evento | Canales <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y PR</li></ul> Phone<ul><li>Wiki</li><li>Página</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|||
+| Tipo de plantilla base | baseTemplateId| Propiedades que vienen con esta plantilla base |
+| ------------------ |--|----------------------------------------------------- |
+| Administrar un evento| `com.microsoft.teams.template.ManageAnEvent` | Canales <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y PR</li></ul> Phone<ul><li>Wiki</li><li>Página</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+||||
 
 ## <a name="onboard-employees"></a>Empleados de la placa
+
 Mejore su cultura y simplifique la incorporación de empleados con este equipo central de recursos, preguntas y diversión.
 
-| Tipo de plantilla base | Propiedades que vienen con esta plantilla base |
-| ------------------ |----------------------------------------------------- |
-|Empleados de la placa | Canales <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Phone<ul><li>Wiki</li><li>Comunitarios</li></ul>|
-|||
+| Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
+| ------------------|- |----------------------------------------------------- |
+|Empleados de la placa|`com.microsoft.teams.template.OnboardEmployees`  | Canales <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Phone<ul><li>Wiki</li><li>Comunitarios</li></ul>|
+||||
 
 ## <a name="organize-a-help-desk"></a>Organizar un servicio de asistencia al cliente
 
 Colaborar en documentación, directivas y procesos que sean compatibles con el servicio de asistencia al usuario. Integre el sistema de vales existente o use nuestra plantilla para administrar solicitudes.
 
-| Tipo de plantilla base | Propiedades que vienen con esta plantilla base |
-| ------------------ |----------------------------------------------------- |
-|Organizar el Departamento de soporte técnico| Canales<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
-|||
+| Tipo de plantilla base | | Propiedades que vienen con esta plantilla base |
+| ------------------|-- |----------------------------------------------------- |
+|Organizar el Departamento de soporte técnico|`com.microsoft.teams.template.OrganizeHelpDesk`| Canales<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
+||||

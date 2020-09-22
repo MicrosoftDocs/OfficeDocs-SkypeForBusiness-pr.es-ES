@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 896435daaf7b1036a54649e8670b0a19d88b2474
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 919bfc1bc3e13985ac90484cd203bf93201babd2
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136127"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171034"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>Usar las plantillas de mecanizado de Teams en la consola de administración
 

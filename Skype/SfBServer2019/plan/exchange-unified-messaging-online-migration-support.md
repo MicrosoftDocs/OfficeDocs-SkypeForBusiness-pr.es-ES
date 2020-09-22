@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft retira el servicio en línea de mensajería unificada (ExchUMO) de Exchange antes del 28 de febrero de 2020. En este artículo se resumen lo que los clientes afectados deben conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359306"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177430"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -158,7 +158,7 @@ Le recomendamos encarecidamente que inicie la configuración de los nuevos opera
 | VM | Características de usuario | Idiomas de saludo compatibles | Detalles aquí: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
 | VM | Características de usuario | Reglas de contestador automático |  | v | v    |
 | VM | Características de usuario | Reproducir en teléfono (RTC): mensaje para reproducir | Llamar a me en mi celda para escuchar el mensaje de voz  | N | v    |
-| VM | Características de usuario | Reproducir en teléfono (autenticación): mensaje para reproducir | Llamarme en mi dispositivo autenticado  | v | v    |
+| VM | Características de usuario | Reproducir en teléfono (autenticación): mensaje para reproducir | Llamarme en mi dispositivo autenticado  | N | v    |
 | VM | Características de usuario | Buzones compartidos entre varios usuarios |  | v | v    |
 | VM | Características del autor de la llamada  | Experiencia del autor de la llamada: buzón de voz protegido | El autor de la llamada puede elegir una opción para marcar un mensaje grabado como protegido| N | v    |
 | VM | Características del autor de la llamada  | Experiencia del autor de la llamada: correo de voz privado | El autor de la llamada puede elegir una opción para marcar un mensaje grabado como privado  | N | v    |

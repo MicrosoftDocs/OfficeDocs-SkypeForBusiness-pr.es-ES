@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administrador puede obtener información sobre una lista de problemas conocidos para salas de Microsoft Teams, como la actualización, la interfaz de usuario, el hardware, así como las limitaciones y comportamientos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 584b71d39552990b3e4009efb177ef4fee61f1a4
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761346"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177370"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -60,7 +60,7 @@ Sala de Microsoft Teams no admite la incorporación de HDCP, ya que se ha visto 
 
 ***
 
-Si desea que la pantalla frontal de la sala de espera cambie automáticamente a una fuente de video activa (como una consola de MTR) cuando el origen se reactiva al modo de espera, deben cumplirse ciertas condiciones. Esta característica es opcional pero es compatible con el software de las salas de Microsoft Teams, siempre que el hardware subyacente admita esta característica. Un televisor de consumo que se usa como parte frontal de la presentación de la sala debe admitir la característica control de electrónica de consumo (CEC) de HDMI.  Según el Dock o la consola seleccionados (que podrían no admitir CEC, consulte la documentación de soporte del fabricante), es posible que se necesite un controlador de área de trabajo como [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) para habilitar el comportamiento deseado. 
+Si desea que la pantalla frontal de la sala de espera cambie automáticamente a una fuente de video activa (como una consola de MTR) cuando el origen se reactiva al modo de espera, deben cumplirse ciertas condiciones. Esta característica es opcional pero es compatible con el software de las salas de Microsoft Teams, siempre que el hardware subyacente admita esta característica. Un televisor de consumo que se usa como parte frontal de la presentación de la sala debe admitir la característica control de electrónica de consumo (CEC) de HDMI.  Según el Dock o la consola seleccionados (que podrían no admitir CEC, consulte la documentación de asistencia del fabricante), es posible que se necesite un controlador como, por ejemplo, [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron o [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron para habilitar el comportamiento deseado. 
 
 ***
 

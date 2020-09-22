@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: d0ce589ef972639928e4c8696f3ed23146126086
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583899"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177533"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
@@ -38,26 +38,23 @@ Si ya ha [optimizado su red para microsoft 365 u Office 365](https://docs.micros
     |Puertos     |Puertos UDP <strong>3478</strong> a <strong>3481</strong>        |
     |[Direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>y <strong>52.120.0.0/14</strong>         |
 
-> [!IMPORTANT]
-> Si necesita federar con Skype empresarial, ya sea local o en línea, tendrá que configurar algunos registros DNS adicionales.
->
->|Registros CNAME/nombre de host  |TD  |Dirección o valor de destino  |
->|---------|---------|---------|
->|SIP     |    3600     |    sipdir.online.lync.com     |
->|lyncdiscover     |   3600      |    webdir.online.lync.com     |
->
-
-
+    > [!IMPORTANT]
+    > Si necesita federar con Skype empresarial, ya sea local o en línea, tendrá que configurar algunos registros DNS adicionales.
+    >
+    >|Registros CNAME/nombre de host  |TD  |Dirección o valor de destino  |
+    >|---------|---------|---------|
+    >|SIP     |    3600     |    sipdir.online.lync.com     |
+    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
     
 2.  ¿Tiene un dominio verificado para Microsoft 365 u Office 365 (por ejemplo, contoso.com)?
     
-      - Si su organización no ha implementado Microsoft 365 u Office 365, [consulte Introducción](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
-      - Si su organización no ha agregado ni configurado un dominio verificado para Microsoft 365 u Office 365, consulte las [preguntas más frecuentes sobre los dominios](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
+    - Si su organización no ha implementado Microsoft 365 u Office 365, [consulte Introducción](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+    - Si su organización no ha agregado ni configurado un dominio verificado para Microsoft 365 u Office 365, consulte las [preguntas más frecuentes sobre los dominios](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  ¿Su organización ha implementado Exchange Online y SharePoint Online?
     
-      - Si su organización no tiene Exchange Online, consulte [comprender cómo interactúan Exchange y Microsoft Teams](exchange-teams-interact.md).
-      - Si su organización no tiene SharePoint Online, consulte [comprender cómo SharePoint Online y OneDrive para la empresa interactúan con Microsoft Teams](sharepoint-onedrive-interact.md).
+    - Si su organización no tiene Exchange Online, consulte [comprender cómo interactúan Exchange y Microsoft Teams](exchange-teams-interact.md).
+    - Si su organización no tiene SharePoint Online, consulte [comprender cómo SharePoint Online y OneDrive para la empresa interactúan con Microsoft Teams](sharepoint-onedrive-interact.md).
 
 Una vez que haya verificado que cumple con estos requisitos de red, es posible que esté listo para [implementar Teams](How-to-roll-out-teams.md). Si es una gran empresa multinacional, o si sabe que tiene algunas limitaciones de red, siga leyendo para obtener información sobre cómo evaluar y optimizar su red para Teams.
 
@@ -122,7 +119,7 @@ Para obtener información detallada sobre la optimización de red, incluidas las
 </tr>
 <tr class="even">
 <td>Configurar VPN de túnel dividido</td>
-<td><p>Le recomendamos que proporcione una ruta de acceso alternativa para el tráfico de teams que omita la red privada virtual (VPN), generalmente conocida como [VPN de túnel dividido](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing). El túnel dividido significa que el tráfico de Microsoft 365 u Office 365 no atraviesa la red privada virtual, sino que se dirige directamente a Microsoft 365 u Office 365. Omitir su VPN tendrá un impacto positivo en la calidad de los equipos y reducirá la carga de los dispositivos VPN y de la red de la organización. Para implementar una VPN de túnel dividido, trabaje con su proveedor de VPN.</p>
+<td><p>Le recomendamos que proporcione una ruta de acceso alternativa para el tráfico de teams que omita la red privada virtual (VPN), generalmente conocida como <a href="https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing">VPN de túnel dividido</a>. El túnel dividido significa que el tráfico de Microsoft 365 u Office 365 no atraviesa la red privada virtual, sino que se dirige directamente a Microsoft 365 u Office 365. Omitir su VPN tendrá un impacto positivo en la calidad de los equipos y reducirá la carga de los dispositivos VPN y de la red de la organización. Para implementar una VPN de túnel dividido, trabaje con su proveedor de VPN.</p>
 <p>Otras razones por las que recomendamos omitir la red privada virtual:
 <ul>
 <li><p>Por lo general, las redes privadas virtuales no están diseñadas o configuradas para admitir medios en tiempo real.</p></li> 

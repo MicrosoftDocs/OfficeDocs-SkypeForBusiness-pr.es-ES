@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820334"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177230"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
@@ -78,7 +78,7 @@ Cuando los usuarios inician una llamada utilizando el cliente de Microsoft Teams
 ![Captura de pantalla de un cuadro de diálogo Alerta de seguridad de Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> La configuración del firewall de Windows se modificará incluso si el mensaje se descarta seleccionando "Cancelar". Se crearán dos reglas de entrada para teams.exe con la acción de bloqueo para los protocolos TCP y UDP.
+> La configuración del firewall de Windows se modificará incluso cuando el aviso se descartará seleccionando "Cancelar". Se crearán dos reglas de entrada para teams.exe con la acción permitir para los protocolos TCP y UDP.
 
 Si quiere evitar que los equipos soliciten a los usuarios que creen reglas de Firewall cuando los usuarios hacen su primera llamada desde Teams, use la siguiente [regla de Firewall de entrada de script de PowerShell](#sample-powershell-script---inbound-firewall-rule) que se muestra a continuación. 
 

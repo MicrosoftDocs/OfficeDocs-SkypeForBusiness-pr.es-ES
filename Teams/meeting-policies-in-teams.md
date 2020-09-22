@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135974"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177410"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -116,7 +116,7 @@ Cuando selecciona una directiva existente en la página **directivas** de la reu
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir reunirse ahora en los canales
 
-Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si activa esta opción, cuando un usuario publique un mensaje en un canal de Teams, el usuario podrá hacer clic en **reunirse ahora** en el cuadro de redacción para iniciar una reunión ad hoc en el canal. El valor predeterminado es True.
+Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si activa esta opción, los usuarios pueden hacer clic en el botón **reunirse** para iniciar una reunión ad hoc o programar una reunión en el canal. El valor predeterminado es True.
 
 [![Captura de pantalla que muestra el icono reunirse ahora debajo de un mensaje ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -407,7 +407,7 @@ Esta es una directiva por usuario y se aplica durante una reunión. Esta configu
 
 ### <a name="allow-chat-in-meetings"></a>Permitir la conversación en reuniones
 
-Esta es una directiva por organizador. Esta opción controla si se permite la conversación de la reunión en la reunión del usuario.
+Esta es una configuración por participante. Esta opción controla si se permite la conversación de la reunión en la reunión del usuario.
 
 <a name="bkparticipantsandguests"> </a>
 

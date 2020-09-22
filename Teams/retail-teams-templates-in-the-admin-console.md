@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a7cdac4b64f8a6fb10f3b36544e3361b6c413ad7
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136145"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171084"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>Usar las plantillas comerciales de Teams en la consola de administración
 
@@ -45,7 +45,7 @@ Para obtener más información sobre las plantillas de equipo en general, consul
 
 Reúna a sus empleados minoristas en una experiencia centralizada para administrar tareas, compartir documentos y resolver problemas de los clientes. Integre aplicaciones adicionales para simplificar los procesos de inicio & final de desplazamiento.
 
-| Tipo de plantilla base| | Propiedades que vienen con esta plantilla base |
+| Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------|-- |----------------------------------------------------- |
 |Organizar un almacén| `retailStore`|Canales <ul><li>General<li>Transición de turno</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
 ||||
@@ -54,8 +54,7 @@ Reúna a sus empleados minoristas en una experiencia centralizada para administr
 
 La plantilla de colaboración de administrador es ideal para crear un equipo para un grupo de administradores que colaboren en tiendas/regiones, etc. Por ejemplo, si su organización tiene regiones, puede crear un equipo de colaboración de administradores para la región de California e incluir a todos los administradores de la tienda de esa región, así como al administrador regional de esa región.
 
-| Tipo de plantilla base|  | Propiedades que vienen con esta plantilla base |
+| Tipo de plantilla base| baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------|- |----------------------------------------------------- |
 |Colaboración minorista-Gerente|`retailManagerCollaboration` |Canales <ul><li>General<li>Operations</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
 ||||
-
