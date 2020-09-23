@@ -8,35 +8,35 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePstnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
-description: 'Para definir la puerta de enlace de red de telefonía pública conmutada (RTC) para un equipo de sucursales con la mayoría de las sucursales, especifique lo siguiente:'
-ms.openlocfilehash: a20c2d4296b7e262cf73ef89b4c20c54eaa3ad0e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para definir la puerta de enlace de la red telefónica conmutada (RTC) de una aplicación de sucursal con funciones de supervivencia en una sucursal, especifique los elementos siguientes:'
+ms.openlocfilehash: 477aa014d6b4450dae3422e6893e7f7f0a48c703
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820592"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217081"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>Agregar RTC de aplicación de sucursal con funciones de supervivencia
  
-Para definir la puerta de enlace de red de telefonía pública conmutada (RTC) para un equipo de sucursales con la mayoría de las sucursales, especifique lo siguiente: 
+Para definir la puerta de enlace de la red telefónica conmutada (RTC) de una aplicación de sucursal con funciones de supervivencia en una sucursal, especifique los elementos siguientes: 
   
-- Un nombre de dominio completo (FQDN) o una dirección IP para la puerta de enlace del mismo nivel a la que se asocia la aplicación de la sucursal o el servidor de sucursal con la supervivencia para enrutar llamadas RTC entrantes y salientes.
+- Un nombre de dominio completo o una dirección IP para la puerta de enlace del mismo nivel con el que esté asociado la aplicación o el servidor de sucursal con funciones de supervivencia para llamadas de red telefónica conmutada (RTC) de enrutamiento de entrada y de salida.
     
     > [!IMPORTANT]
-    > Si está definiendo un dispositivo de sucursal que funciona bien, esta es la puerta de enlace a la que se conectará el servidor de mediación de la aplicación de la sucursal con la que se puede obtener conectividad RTC. 
+    > Si está definiendo una aplicación de sucursal con funciones de supervivencia, esta es la puerta de enlace a la que se conectará el servidor de mediación de dicha aplicación para conectividad de red telefónica conmutada (RTC). 
   
-- El puerto de escucha que debe usarse para los mensajes del Protocolo de inicio de sesión (SIP). De forma predeterminada, los puertos son 5066 para el protocolo de control de transmisión (TCP) y 5067 para seguridad de la capa de transporte (TLS) en una puerta de enlace, central de conmutación (PBX) o controlador del borde de sesión (SBC). En una aplicación de sucursal con funciones de supervivencia de una sucursal, los puertos predeterminados son 5081 para TCP y 5082 para Seguridad de la capa de transporte (TLS).
+- El puerto de escucha que debe usarse para los mensajes del Protocolo de inicio de sesión (SIP). De forma predeterminada, los puertos son 5066 para el protocolo de control de transmisión (TCP) y 5067 para seguridad de la capa de transporte (TLS) en una puerta de enlace, central de conmutación (PBX) o controlador del borde de sesión (SBC). En una aplicación de sucursal con funciones de supervivencia de una sucursal, los puertos predeterminados son 5081 para TCP y 5082 para Seguridad de la capa de transporte (TLS).
     
-- Por motivos de seguridad, se recomienda encarecidamente usar TLS. Si está definiendo un dispositivo de sucursal que es reviviente, consulte la documentación del proveedor de su equipo de sucursales que sea superviviente para verificar que su equipo de sucursales con la supervivencia es compatible con el protocolo TLS.
+- Por motivos de seguridad, se recomienda usar Seguridad de la capa de transporte (TLS). Si está definiendo una aplicación de sucursal con funciones de supervivencia, consulte la documentación del proveedor para verificar que dicha aplicación admita el protocolo de Seguridad de la capa de transporte (TLS).
     
     > [!IMPORTANT]
-    > Por motivos de seguridad, se recomienda encarecidamente implementar una puerta de enlace que pueda usar TLS. 
+    > Por motivos de seguridad, se recomienda encarecidamente implementar una puerta de enlace que pueda usar TLS. 
   
 > [!NOTE]
 > Si desea agregar una puerta de enlace de RTC, puede configurarla posteriormente; sin embargo, no estará plenamente operativa hasta que se haya definido y configurado la puerta de enlace de red telefónica conmutada (RTC). 

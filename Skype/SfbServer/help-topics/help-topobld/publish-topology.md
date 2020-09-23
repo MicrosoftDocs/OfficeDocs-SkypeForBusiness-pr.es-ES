@@ -1,5 +1,5 @@
 ---
-title: Publicar topología
+title: Publicar la topología
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
-description: La página publicar la topología aparece cuando comienza el proceso de publicación. Lea y confirme que las tareas que se muestran se completan antes de continuar. Cuando esté listo para continuar, haga clic en siguiente. Si necesita cerrar el proceso de publicación, haga clic en Cancelar.
-ms.openlocfilehash: 0fb9e626988ff83b7e01974d4af3201f0b8cff9f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La página Publicar la topología se muestra en pantalla al comenzar el proceso de publicación. Antes de continuar, lea y confirme que estén completas las tareas que aparecen. Cuando desee continuar, haga clic en Siguiente. Si desea salir del proceso de publicación, haga clic en Cancelar.
+ms.openlocfilehash: d8e9244e8259a3966f2dd1ef8200993ee04b2b99
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819362"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217231"
 ---
-# <a name="publish-topology"></a>Publicar topología
+# <a name="publish-topology"></a>Publicar la topología
  
-La página **publicar la topología** aparece cuando comienza el proceso de publicación. Lea y confirme que las tareas que se muestran se completan antes de continuar. Cuando esté listo para continuar, haga clic en **siguiente**. Si necesita cerrar el proceso de publicación, haga clic en **Cancelar**.
+La página **Publicar la topología** se muestra en pantalla al comenzar el proceso de publicación. Antes de continuar, lea y confirme que estén completas las tareas que aparecen. Cuando desee continuar, haga clic en **Siguiente**. Si desea salir del proceso de publicación, haga clic en **Cancelar**.
   
 

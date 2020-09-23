@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
-description: Seleccione cada característica que quiera habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea (mi), que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como conferencias, telefonía IP empresarial y control de admisión de llamadas (CAC). Algunas características dependen de su topología.
-ms.openlocfilehash: 3f97bb6adc854c0366692c44b4ce38cad0fecf99
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Seleccione cada característica que quiera habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea, que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como la Conferencia, la telefonía IP empresarial y el control de admisión de llamadas (CAC). Algunas características dependen de la topología.
+ms.openlocfilehash: dc89ee19c9dbed0193a57133e545c82139dd06f0
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820902"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218371"
 ---
 # <a name="add-front-end-features-2010"></a>Agregar características front-end 2010
 
-Seleccione cada característica que quiera habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea (mi), que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como conferencias, telefonía IP empresarial y control de admisión de llamadas (CAC). Algunas características dependen de su topología.
+Seleccione cada característica que quiera habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea, que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como la Conferencia, la telefonía IP empresarial y el control de admisión de llamadas (CAC). Algunas características dependen de la topología.
 
-Para obtener información detallada sobre cómo especificar características para un servidor Standard Edition o un grupo de servidores Enterprise Edition, vea [definir y configurar un grupo de servidores front-end o un servidor Standard Edition](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación de implementación.
+Para obtener información detallada sobre cómo especificar características para un servidor Standard Edition o un grupo de servidores Enterprise Edition, consulte [define and configure a front end Pool or Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación sobre implementación.
 
 

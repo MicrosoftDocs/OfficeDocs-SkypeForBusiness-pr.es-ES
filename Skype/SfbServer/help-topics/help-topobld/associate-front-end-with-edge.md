@@ -8,24 +8,24 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
-description: Un grupo de servidores front-end puede tener asociado un solo servidor perimetral o grupo de servidores perimetrales. Al habilitar el acceso de usuarios externos para un sitio, puede permitir el acceso a usuarios remotos. También puede permitir el acceso a usuarios federados, que pueden ser usuarios de determinados proveedores de conectividad para mensajería instantánea (como Windows Live), y a usuarios anónimos.
-ms.openlocfilehash: 949c111c718e314455cd6603472ce1bbb1d7e11c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cada grupo de servidores front-end solo puede tener un servidor perimetral o un grupo de servidores perimetrales asociados. Cuando se habilita el acceso de usuarios externos para un sitio, se puede proporcionar compatibilidad con usuarios remotos. También puede habilitar la compatibilidad con usuarios federados, lo que puede incluir soporte para usuarios de proveedores de conectividad de mensajería instantánea (mi) específicos (como Windows Live) y soporte para usuarios anónimos.
+ms.openlocfilehash: cc804ed9a21b81ce0315664bcb1b3530e8087584
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820402"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217761"
 ---
 # <a name="associate-front-end-with-edge"></a>Asociar front-end con servidor perimetral
 
-Un grupo de servidores front-end puede tener asociado un solo servidor perimetral o grupo de servidores perimetrales. Al habilitar el acceso de usuarios externos para un sitio, puede permitir el acceso a usuarios remotos. También puede permitir el acceso a usuarios federados, que pueden ser usuarios de determinados proveedores de conectividad para mensajería instantánea (como Windows Live), y a usuarios anónimos.
+Cada grupo de servidores front-end solo puede tener un servidor perimetral o un grupo de servidores perimetrales asociados. Cuando se habilita el acceso de usuarios externos para un sitio, se puede proporcionar compatibilidad con usuarios remotos. También puede habilitar la compatibilidad con usuarios federados, lo que puede incluir soporte para usuarios de proveedores de conectividad de mensajería instantánea (mi) específicos (como Windows Live) y soporte para usuarios anónimos.
 
-Todos los grupos de servidores de un sitio y los grupos de servidores de varios sitios centrales pueden usar el mismo servidor perimetral, siempre que el uso no sobrepase la capacidad del servidor perimetral. Para más información sobre la supervisión y escala, consulte [Planning for External User Access](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx) en la documentación de planeación. Para más información sobre cómo diseñar una topología que permita el acceso de usuarios externos, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) en la documentación sobre implementación.
+Todos los grupos de servidores de un sitio y los grupos de servidores de varios sitios centrales pueden usar el mismo servidor perimetral, siempre que el uso no sobrepase la capacidad del servidor perimetral. Para obtener más información sobre supervisión y escala, consulte [Planear el acceso de usuarios externos](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx) en la documentación sobre planeación. Para obtener más información sobre cómo diseñar una topología que permita el acceso de usuarios externos, consulte[Definir la topología perimetral](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) en la documentación sobre implementación.
 
 

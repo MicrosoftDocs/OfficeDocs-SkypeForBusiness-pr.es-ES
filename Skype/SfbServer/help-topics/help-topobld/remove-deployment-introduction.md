@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
-description: Ejecute el Asistente para quitar la implementación solo si desea dar de baja a toda la implementación. Este asistente crea una topología vacía formada por un único servidor front-end. Después de ejecutar este asistente y publicar la topología vacía, no podrá revertir a su topología original.
-ms.openlocfilehash: 6b9bce53e9836a3b19bf5b78d3bf43f4924ba589
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Ejecute el Asistente para quitar implementación únicamente si desea retirar toda la implementación. Este asistente crea una topología vacía que se compone de un único servidor front-end. Después de ejecutar este asistente y publicar la topología vacía, no puede volver a la topología original.
+ms.openlocfilehash: 03e35836f8d01ce6356f021e334ba612bbd65491
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819322"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217141"
 ---
 # <a name="remove-deployment-introduction"></a>Quitar introducción de implementación
  
-Ejecute el **Asistente para quitar la implementación** solo si desea dar de baja a toda la implementación. Este asistente crea una topología vacía formada por un único servidor front-end. Después de ejecutar este asistente y publicar la topología vacía, no podrá revertir a su topología original.
+Ejecute el **Asistente para quitar implementación** únicamente si desea retirar toda la implementación. El asistente crea una topología vacía formada por un solo servidor front-end. Una vez se haya ejecutado el asistente y publicado la topología vacía, no podrá volver a la topología original.
   
 > [!IMPORTANT]
-> Antes de hacer clic en **siguiente**, asegúrese de quitar todos los equipos inactivos, deshabilitar todos los usuarios y extremos de comunicaciones unificadas y quitar todos los directorios de la Conferencia como se especifica en la primera página del asistente. 
+> Antes de hacer clic en **Siguiente**, asegúrese de quitar todos los equipos inactivos, deshabilitar a todos los usuarios y externos de las comunicaciones unificadas y de quitar todos los directorios de conferencia según lo especificado en la primera página del asistente. 
   
 

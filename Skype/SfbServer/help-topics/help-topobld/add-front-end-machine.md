@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
-description: Especifique el nombre de dominio completo (FQDN) de cada equipo que quiera agregar como servidor front-end en este grupo. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, cambiar el FQDN requiere que se elimine el servidor en el generador de topología y que, después, se agregue un nuevo servidor al grupo con el nuevo FQDN. Para obtener más información sobre cómo agregar un grupo de servidores front-end a la topología, vea definir y configurar un grupo de servidores front-end en la documentación de implementación.
-ms.openlocfilehash: 7c97a0f1d1b22bd79e1ac234ba419a919b9067b0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Especifique el nombre de dominio completo de cada equipo que desee agregar como servidor front-end en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Topology Builder y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo. Para obtener más información sobre cómo agregar un grupo de servidores front-end a la topología, consulte Definir y configurar un grupo de servidores front-end en la documentación sobre implementación.s
+ms.openlocfilehash: 69837016022f30453a287b6264936e20ec4883ca
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820872"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218321"
 ---
 # <a name="add-front-end-machine"></a>Agregar equipo front-end
 
-Especifique el nombre de dominio completo (FQDN) de cada equipo que quiera agregar como servidor front-end en este grupo. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, cambiar el FQDN requiere que se elimine el servidor en el generador de topología y que, después, se agregue un nuevo servidor al grupo con el nuevo FQDN. Para obtener más información sobre cómo agregar un grupo de servidores front-end a la topología, vea [definir y configurar un grupo de servidores front-end](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación de implementación.
+Especifique el nombre de dominio completo de cada equipo que desee agregar como servidor front-end en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Topology Builder y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo. Para obtener más información sobre cómo agregar un grupo de servidores front-end a la topología, consulte [Definir y configurar un grupo de servidores front-end](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación sobre implementación.s
 
 > [!IMPORTANT]
-> Tenga en cuenta que el generador de topología indica que puede tener hasta 20 servidores front-end en un grupo. El número máximo admitido de servidores es de 12. Puede tener hasta 20 servidores statefull definidos en el tejido, de los cuales 12 puede estar activo y conectado en cualquier momento.
+> Tenga en cuenta que el generador de topologías indica que puede tener hasta 20 servidores front-end en un grupo de servidores. El número máximo admitido de servidores es 12. Puede tener hasta 20 servidores de statefull definidos en el tejido, de los cuales 12 puede estar activo y en línea en un momento dado.
 
 

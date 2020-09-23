@@ -1,5 +1,5 @@
 ---
-title: Combinación de implementación heredada - Agregar equipo
+title: Combinación de información heredada Agregar equipo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,22 +8,22 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeAddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
-description: Para definir los equipos que componen el grupo de servidores perimetrales, especifique al menos el nombre de dominio completo de un equipo perteneciente al grupo de servidores perimetrales consolidados y con equilibrio de carga heredados.
-ms.openlocfilehash: 80e078b9555c56121c6f21c13152f6e437369b5b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para definir los equipos que componen el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forme parte del grupo de servidores perimetrales consolidados con equilibrio de carga heredado.
+ms.openlocfilehash: b303a9b5e083e3646f3e39e74782d4810d3d473c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819782"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218491"
 ---
-# <a name="legacy-merge-add-machine"></a>Combinación de implementación heredada - Agregar equipo
+# <a name="legacy-merge-add-machine"></a>Combinación de información heredada Agregar equipo
  
-Para definir los equipos que componen el grupo de servidores perimetrales, especifique al menos el nombre de dominio completo de un equipo perteneciente al grupo de servidores perimetrales consolidados y con equilibrio de carga heredados. 
+Para definir los equipos que componen el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forme parte del grupo de servidores perimetrales consolidados con equilibrio de carga heredado. 
   
 

@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171104"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218581"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Introducción a las plantillas de Teams en la consola de administración
 
@@ -37,7 +37,7 @@ ms.locfileid: "48171104"
 
 Las plantillas de Teams son definiciones preconstruidas de una estructura de equipo diseñada según una necesidad o un proyecto empresarial. Use plantillas predefinidas o cree su propia plantilla. Las plantillas de Teams le permiten crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y Preinstalar aplicaciones para extraer contenido y servicios de misión crítica. Las plantillas de Teams proporcionan una estructura de equipo predefinida que le puede ayudar a crear fácilmente equipos coherentes en toda la organización. Por el momento, puede crear un equipo a partir de una plantilla en Teams o con [Microsoft Graph](get-started-with-teams-templates.md).
 
-En este artículo, explicaremos las propiedades que se pueden definir en plantillas, qué son los tipos de plantilla base y cómo puede usar algunas solicitudes de ejemplo para crear un equipo a partir de una plantilla.
+En este artículo, explicaremos las propiedades que se pueden definir en plantillas, qué son los tipos de plantilla base y cómo puede usar algunas solicitudes de ejemplos para crear un equipo a partir de una plantilla.
 
 Este artículo le interesa si:
 
@@ -88,7 +88,7 @@ Una vez que se define un tipo de plantilla base, puede extender o invalidar esta
 |Colaboración minorista-Gerente| `retailManagerCollaboration` |Canales <ul><li>General<li>Operations</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
 ||||
 
-Para obtener más información sobre las categorías de plantillas, vea los temas siguientes:
+Para obtener más información sobre las categorías de plantillas, vea las categorías siguientes:
 
 - [Plantillas financieras](financial-teams-templates-in-the-admin-console.md)
 - [Plantillas generales](general-teams-templates-in-the-admin-console.md)

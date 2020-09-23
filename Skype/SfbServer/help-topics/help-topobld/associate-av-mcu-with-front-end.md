@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateAvMcuWithFrontEndPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
-description: Todas las agrupaciones de aplicaciones para el usuario de Enterprise Edition con habilitado para conferencias deben tener un servicio de conferencia A/V colocada o deben usar un grupo de conferencias A/V independiente. Cualquier grupo de servidores front-end de Enterprise Edition que tenga actualmente un servicio de conferencia A/V incluido en su lugar puede estar seleccionado para usar este nuevo grupo de conferencia A/V.
-ms.openlocfilehash: 3344d256977d1031aa170cc17edec4d9d998e2bf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Todos los grupos de servidores front-end de Enterprise Edition que tengan habilitada Conferencia deben tener combinado un servicio de conferencia A/V o deben usar un grupo de servidores de conferencia A/V independiente. Cualquier grupo de servidores front-end de Enterprise Edition que tenga combinado un servicio de conferencia A/V puede seleccionarse para que en su lugar use este nuevo grupo de servidores de conferencia A/V independiente.
+ms.openlocfilehash: b7f3a856096388d03ddf7f1669576eedfabaa718
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820462"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216811"
 ---
 # <a name="associate-av-mcu-with-front-end"></a>Asociar MCU AV con front-end
  
-Todas las agrupaciones de aplicaciones para el usuario de Enterprise Edition con habilitado para conferencias deben tener un servicio de conferencia A/V colocada o deben usar un grupo de conferencias A/V independiente. Cualquier grupo de servidores front-end de Enterprise Edition que tenga actualmente un servicio de conferencia A/V incluido en su lugar puede estar seleccionado para usar este nuevo grupo de conferencia A/V.
+Todos los grupos de servidores front-end de Enterprise Edition que tengan habilitada Conferencia deben tener combinado un servicio de conferencia A/V o deben usar un grupo de servidores de conferencia A/V independiente. Cualquier grupo de servidores front-end de Enterprise Edition que tenga combinado un servicio de conferencia A/V puede seleccionarse para que en su lugar use este nuevo grupo de servidores de conferencia A/V independiente.
   
 

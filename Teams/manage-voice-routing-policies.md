@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords: ''
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -16,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a crear y administrar directivas de enrutamiento de voz en Microsoft Teams.
-ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 2bef422f22dc212b2c615e2ca2ab98806b396e9f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938136"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217661"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Administrar directivas de enrutamiento de voz en Microsoft Teams
 
@@ -38,7 +39,7 @@ Es importante saber que asignar una directiva de enrutamiento de voz a un usuari
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de enrutamiento de voz de **voz**  >  **Voice routing policies**y haga clic en **Agregar**.<br>
-    ![Captura de pantalla de la página Agregar Directiva de enrutamiento de voz en el centro de administración de Microsoft Teams](media/manage-voice-routing-policies.png) 
+    ![Captura de pantalla de la página Agregar Directiva de enrutamiento de voz en el centro de administración de Microsoft Teams ](media/manage-voice-routing-policies.png) 
 2. Escriba un nombre y una descripción para la directiva.
 3. En **registros de uso de RTC**, haga clic en **Agregar uso de RTC**y, a continuación, seleccione los registros que desee agregar. Si necesita crear un registro de uso de RTC nuevo, haga clic en **Agregar**.
 4. Si ha agregado varios registros de uso de RTC, organícelos en el orden que desee.

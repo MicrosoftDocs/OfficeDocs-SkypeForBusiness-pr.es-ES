@@ -1,5 +1,5 @@
 ---
-title: Expansor de nodo de ámbito del servidor de Office Web Apps
+title: Expansor de nodo de ámbito del servidor Office Web Apps
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,32 +8,32 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 'Haga clic con el botón secundario en los servidores de Office Web Apps en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: b4c6fcd522b3a49375794023a0600447c6c70c1d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Haga clic con el botón secundario en servidores de Office Web Apps en el generador de topologías para realizar lo siguiente:'
+ms.openlocfilehash: cea7b34e8d5a34fa16a335a839ac9a2a48046257
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819502"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217621"
 ---
-# <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor de Office Web Apps
+# <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor Office Web Apps
  
-Haga clic con el botón secundario en **los servidores de Office Web Apps** en el generador de topología para realizar lo siguiente:
+Haga clic con el botón secundario en **servidores de Office Web Apps** en el generador de topologías para realizar lo siguiente:
   
-- **Nuevo Office Web Apps Server**: inicia el Asistente para **definir nuevo Office Web Apps Server** que se usa para definir un nuevo servidor de Office Web Apps.
+- **Nuevo servidor de Office Web Apps**: inicia el asistente **definir nuevo servidor de Office Web Apps** que se usa para definir un nuevo servidor de Office Web Apps.
     
-Además de la nueva opción de Office Web Apps Server, puede realizar las siguientes tareas generales:
+Además de la nueva opción Office Web Apps Server, puede realizar las siguientes tareas generales:
   
-![Nodo de ámbito del servidor de Office Web Apps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Nodo de ámbito del servidor de Office WebApps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- **Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     
-- **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
+- **Ayuda**. Use esta opción para obtener acceso a la Ayuda del nodo activo.
     
 

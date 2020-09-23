@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddAvMcuMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
-description: Especifique el nombre de dominio completo (FQDN) de cada equipo que quiera agregar como un servidor de conferencia A/V en este grupo de conferencia A/V. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, cambiar el FQDN requiere que se elimine el servidor en el generador de topología y que, después, se agregue un nuevo servidor al grupo con el nuevo FQDN.
-ms.openlocfilehash: e84973addc7090e920f84f76ddce2014586e0093
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Especifique el nombre de dominio completo de cada equipo que desee agregar como servidor de conferencia A/V en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Generador de topologías y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo.
+ms.openlocfilehash: 01252ece501be8481b2b381d70000698b105cd80
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821332"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217591"
 ---
 # <a name="add-av-mcu-machine"></a>Agregar equipo MCU A/V
  
-Especifique el nombre de dominio completo (FQDN) de cada equipo que quiera agregar como un servidor de conferencia A/V en este grupo de conferencia A/V. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, cambiar el FQDN requiere que se elimine el servidor en el generador de topología y que, después, se agregue un nuevo servidor al grupo con el nuevo FQDN. 
+Especifique el nombre de dominio completo de cada equipo que desee agregar como servidor de conferencia A/V en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Generador de topologías y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo. 
   
 

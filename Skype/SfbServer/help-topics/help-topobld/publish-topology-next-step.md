@@ -8,33 +8,33 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyNextStepPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
-description: Al finalizar la publicación de la topología, se muestra la página Asistente para publicación completada.
-ms.openlocfilehash: 13ae9e668b459fce6c95bb668511f1eef5f40bbb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Una vez publicada la topología, se muestra la página El Asistente para publicaciones ha finalizado.
+ms.openlocfilehash: 663e7534bc8ae4ed61a060140d673acae6613eef
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819392"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217291"
 ---
 # <a name="publish-topology-next-step"></a>Próximo paso para publicar la topología
 
-Al finalizar la publicación de la topología, se muestra la página **Asistente para publicación completada** .
+Una vez publicada la topología, se muestra la página **El Asistente para publicaciones ha finalizado**.
 
-A medida que finaliza los pasos del proceso de topología de publicación, se crean registros que contienen información sobre las tareas que se han realizado. Para ver un archivo de registro relacionado con un paso determinado, seleccione el paso para el que necesita revisar el archivo de registro y, a continuación, haga clic en **Ver registros**.
+A medida que complete los pasos durante la publicación de la topología, se crearán registros con información sobre las tareas realizadas. Si desea ver un archivo de registro relacionado con un paso concreto, seleccione el paso en cuestión y haga clic en **Ver registro**.
 
 > [!NOTE]
-> No todos los pasos del proceso de topología de publicación tendrán archivos de registro asociados. Si selecciona un paso y **Ver registros** está disponible, este paso ha creado un archivo de registro. Si el botón **Ver registros** no está disponible (atenuado), no se creó ningún archivo de registro para este paso.
+> No todos los pasos de la publicación de topología tienen asociados archivos de registro. Si selecciona un paso y está disponible **Ver registro**, significa que este paso ha creado un archivo de registro. Si el botón **Ver registro** no está disponible (atenuado en gris), significa que en este paso no se ha creado ningún archivo de registro.
 
-Para revisar los pasos siguientes sugeridos para completar la topología, haga clic en el vínculo **haga clic aquí para abrir la lista de tareas pendientes**. El archivo de texto que se abre al hacer clic en este vínculo indicará los servidores que tendrá que ejecutar la configuración local y los pasos adicionales que necesita realizar para completar la implementación. Para cada una de las tareas que aparecen en la lista, consulte la sección correspondiente en la documentación de la implementación. Para obtener más información, consulte [implementar Lync Server 2013 Preview](https://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx)y consulte la sección relacionada para cada rol de servidor que se indica en la lista de tareas pendientes.
+Para revisar los pasos siguientes que se recomiendan para finalizar la topología, haga clic en el vínculo **Hacer clic aquí para abrir la lista de tareas**. El archivo de texto que se abre al hacer clic en el vínculo indicará los servidores en los que debe ejecutar la instalación local, así como todos los pasos adicionales que se deben emprender para completar la implementación. En la documentación sobre implementación, consulte la sección relativa a cada una de las tareas que aparezcan. Para obtener más información, consulte [Deploying Lync Server 2013 Preview](https://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx) y vaya a la sección correspondiente a cada rol de servidor que figure en la lista de tareas.
 
 Haga clic en **Finalizar**
 
-Para obtener más información, consulte [publicar la topología](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).
+Para obtener más información, consulte [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).
 
 

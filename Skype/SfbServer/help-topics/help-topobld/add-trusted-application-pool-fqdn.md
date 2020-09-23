@@ -8,31 +8,31 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddExternalApplicationPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
-description: 'Para definir un nombre de dominio completo (FQDN) de un grupo de aplicaciones de confianza, especifique lo siguiente:'
-ms.openlocfilehash: 5dcf5317c3234db310ed7b80bca6403190690348
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para definir un nombre de dominio completo (FQDN) del grupo de servidores de aplicaciones de confianza, especifique lo siguiente:'
+ms.openlocfilehash: 94cf0f611d754dc614111add734bf231c92c5a81
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820572"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217011"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>Agregar FQDN de grupo de servidores de aplicaciones de confianza
  
-Para definir un nombre de dominio completo (FQDN) de un grupo de aplicaciones de confianza, especifique lo siguiente:
+Para definir un nombre de dominio completo (FQDN) del grupo de servidores de aplicaciones de confianza, especifique lo siguiente:
   
-Un FQDN del servidor o grupo de servidores que hospedarán las aplicaciones de confianza.
+El nombre de dominio completo del servidor o el grupo de servidores que hospedarán las aplicaciones de confianza.
   
-Seleccione **varios grupos de equipos** si va a implementar un grupo de servidores para las aplicaciones de confianza desde el equilibrio de carga y alta disponibilidad, o bien seleccione un **solo grupo de equipos** si no necesita equilibrio de carga o alta disponibilidad.
+Seleccione **Grupo de servidores de varios equipos** si va a implementar un grupo de servidores para las aplicaciones de confianza desde equilibrio de carga y alta disponibilidad; si no necesita equilibrio de carga ni alta disponibilidad, seleccione **Grupo de servidores de un solo equipo**.
   
 > [!IMPORTANT]
-> Un servidor de aplicaciones de confianza único no se puede convertir en un grupo de servidores más adelante. Si cree que puede necesitar un grupo en el futuro, puede implementar un grupo de varios servidores que contenga un solo equipo y agregar servidores cuando sea necesario. 
+> Un solo servidor de aplicaciones de confianza no se puede convertir en un grupo de servidores posteriormente. Si cree que puede necesitar un grupo en el futuro, puede implementar un grupo de varios servidores que contenga un solo equipo y agregar servidores cuando sea necesario. 
   
-Para obtener más información sobre los grupos de aplicaciones de confianza, vea [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).
+Para obtener más información sobre las aplicaciones de confianza, consulte [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).
   
 
