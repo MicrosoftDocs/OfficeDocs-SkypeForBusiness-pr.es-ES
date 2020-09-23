@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ee1c121f4d42e2d093a3b9eabef9adedd0605128
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135954"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219131"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Crear una plantilla a partir de un equipo existente en Microsoft Teams
 
@@ -36,31 +36,31 @@ Microsoft Teams le permite crear una plantilla a partir de un equipo existente q
 
 2. En el navegación izquierdo, expanda plantillas de equipo **de Teams**  >  **Team templates**.
 
-3. Haga clic en **Agregar**.
+3. Seleccione **Agregar**.
 
-4. Seleccione **usar un equipo existente como plantilla**y haga clic en **siguiente**.
+4. Seleccione **usar un equipo existente como plantilla**y, a continuación, seleccione **siguiente**.
 
  ![Una imagen de la pantalla punto de partida de plantillas de equipo con usar un equipo existente como una plantilla resaltada.](media/team-existing-team-as-template.png)
 
-5. Seleccione un equipo para usarlo como punto de partida haciendo clic en junto al nombre del equipo y, a continuación, haga clic en **siguiente**.
+5. Seleccione un equipo para usarlo como punto de partida, seleccionando junto al nombre del equipo y, a continuación, seleccione **siguiente**.
 
 ![Una imagen de la lista de equipos con un equipo resaltado.](media/team-existing-team-selection.png)
 
-6. En la sección **configuración de plantillas** , complete los siguientes campos y, a continuación, haga clic en **siguiente**:
+6. En la sección **configuración de plantillas** , complete los campos siguientes y, a continuación, seleccione **siguiente**:
     - Nombre de la plantilla
     - Descripciones breves y cortas de plantilla
     - Visibilidad de la configuración regional  
   
 7. En la sección **canales, fichas y aplicaciones** , agregue los canales y las aplicaciones que necesite el equipo.
 
-    1. En la sección **canales** , haga clic en **Agregar**.
+    1. En la sección **canales** , seleccione **Agregar**.
     2. En el cuadro de diálogo **Agregar** , asigne un nombre al canal.
     3. Agregue una descripción.
     4. Decida si el canal se debe mostrar de forma predeterminada.
-    5. Busque el nombre de una aplicación que desee addd en el canal.
-    6. Cuando haya terminado, haga clic en **aplicar** .
+    5. Busque el nombre de una aplicación que quiera agregar al canal.
+    6. Seleccione **aplicar** cuando haya terminado.
 
-8. Haga clic en **Enviar** para guardar los cambios.
+8. Seleccione **Enviar** para guardar los cambios.
 
 La nueva plantilla aparecerá en la lista **plantillas de equipo** . La plantilla se puede usar para crear un equipo en Teams.
 

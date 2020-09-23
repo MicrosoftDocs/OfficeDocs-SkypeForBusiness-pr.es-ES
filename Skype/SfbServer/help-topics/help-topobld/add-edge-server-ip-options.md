@@ -8,34 +8,34 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerIPOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
-description: 'Microsoft Lync Server 2013 le permite configurar direcciones IPv4 e IPv6 para cada interfaz del servidor perimetral y el grupo Edge. Para ello, haga lo siguiente:'
-ms.openlocfilehash: 7dd3766bf88dee6e59fb890925cd9f73c23ceab6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Microsoft Lync Server 2013 permite configurar direcciones IPv4 e IPv6 para cada interfaz del servidor perimetral y el grupo de servidores perimetrales. Para ello, siga este procedimiento:'
+ms.openlocfilehash: 2c68fcfcb2e99759536224889a818639b61d5fcc
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821032"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219795"
 ---
 # <a name="add-edge-server-ip-options"></a>Agregar opciones IP de servidor perimetral
  
-Microsoft Lync Server 2013 le permite configurar direcciones IPv4 e IPv6 para cada interfaz del servidor perimetral y el grupo Edge. Para ello, haga lo siguiente:
+Microsoft Lync Server 2013 permite configurar direcciones IPv4 e IPv6 para cada interfaz del servidor perimetral y el grupo de servidores perimetrales. Para ello, siga este procedimiento:
   
-- **Habilitar IPv4 en la interfaz interna**: Active la casilla si desea aplicar una dirección IPv4 al servidor perimetral o a la interfaz interna de grupo perimetral.
+- **Habilitar IPv4 en la interfaz interna**: Active la casilla si desea aplicar una dirección IPv4 a la interfaz interna del servidor perimetral o del grupo de servidores perimetrales.
     
-- **Habilitar IPv6 en la interfaz interna**: Active la casilla si desea aplicar una dirección IPv6 al servidor perimetral o a la interfaz interna de la agrupación perimetral.
+- **Habilitar IPv6 en la interfaz interna**: Active la casilla si desea aplicar una dirección IPv6 a la interfaz interna del servidor perimetral o del grupo de servidores perimetrales.
     
-- **Habilitar IPv4 en la interfaz externa**: Active la casilla si desea aplicar una dirección IPv4 al servidor perimetral o a la interfaz externa del grupo perimetral.
+- **Habilitar IPv4 en la interfaz externa**: Active la casilla si desea aplicar una dirección IPv4 a la interfaz externa del servidor perimetral o del grupo de servidores perimetrales.
     
-- **Habilitar IPv6 en la interfaz externa**: Active la casilla si desea aplicar una dirección IPv6 al servidor perimetral o a la interfaz externa del grupo perimetral.
+- **Habilitar IPv6 en la interfaz externa**: Active la casilla si desea aplicar una dirección IPv6 al servidor perimetral o a la interfaz externa del grupo de servidores perimetrales.
     
-También puede configurar el servidor perimetral o el grupo Edge para usar una dirección de traducción de direcciones de red para las direcciones IP externas. Para ello, active la casilla **la dirección IP externa de este grupo de límites la traduce nat**.
+También puede configurar el servidor perimetral o el grupo de servidores perimetrales para que usen una dirección de traducción de direcciones de red para las direcciones IP externas. Para hacerlo, active la casilla **La dirección IP externa del grupo de servidores perimetral se traduce mediante NAT**.
   
-Compatibilidad con NAT. La traducción de direcciones de red (NAT) no es compatible cuando se usa el equilibrio de carga de hardware, por lo tanto, no seleccione la opción NAT si está implementando un grupo de servidores perimetrales con el equilibrio de carga de hardware.
+Compatibilidad con NAT. La traducción de direcciones de red (NAT) no es compatible cuando se usa el equilibrio de carga de hardware, por lo que no seleccione la opción NAT si va a implementar un grupo de servidores perimetrales con el equilibrio de carga de hardware.
   
 

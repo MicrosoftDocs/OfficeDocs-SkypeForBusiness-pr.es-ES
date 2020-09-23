@@ -8,17 +8,18 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.Federation
+- ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Los servidores perimetrales se pueden configurar para permitir que los usuarios internos y externos tengan acceso a contactos de organizaciones o servicios asociados.
-ms.openlocfilehash: 9a54bd99c579cc1cc1a99faf9eab18f19262e456
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16ac8fb77a8f15be9da7bc58f96954ffff2c7255
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037700"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219805"
 ---
 # <a name="federation-planning-tool"></a>Federación (herramienta de planeación)
  

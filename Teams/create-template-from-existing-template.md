@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d12a9422fe7f189d8ad85cf0b139e905550428f
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 0edb682f4d39e6371c68029f6014945d3de441c9
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135964"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219091"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Crear una nueva plantilla a partir de una plantilla de equipo existente en Microsoft Teams
 
@@ -36,21 +36,21 @@ Microsoft Teams proporciona plantillas preconstruidas que se pueden guardar y mo
 
 2. En el navegación izquierdo, expanda plantillas de equipo **de Teams**  >  **Team templates**.
 
-3. En la sección **plantillas de equipo** , haga clic en junto a una plantilla que quiera duplicar para resaltarla.
+3. En la sección **plantillas de equipo** , seleccione junto a una plantilla que quiera duplicar para resaltarla.
 
-4. Haga clic en **duplicar**.
+4. Seleccione **duplicar**.
 
 ![Una imagen del cuadro de diálogo de plantillas de equipo con agregar resaltado.](media/template-duplicate.png)
 
-(También puede hacer clic en **Agregar**  >  **Empiece con una plantilla existente** para abrir la pantalla **Seleccione la plantilla que desea usar como punto de partida** .)
+(También puede seleccionar **Agregar**  >  **Comience con una plantilla existente** para abrir **Seleccione la plantilla que se va a usar como punto de partida**.)
 
 ![Una imagen de la pantalla punto de inicio de las plantillas de equipo con empezar con una plantilla existente resaltada.](media/template-start-existing-template.png)
 
-5. En la pantalla **seleccionar la plantilla que se usará como punto de partida** , haga clic en **siguiente**.
+5. En la pantalla **seleccionar la plantilla que se usará como punto de partida** , seleccione **siguiente**.
 
     Se abre la plantilla duplicada y la palabra **copia** se anexa al nombre.
 
-6. Complete los siguientes campos y, a continuación, haga clic en **siguiente**:
+6. Complete los siguientes campos y, a continuación, seleccione **siguiente**:
     - Nombre de la plantilla
     - Descripciones breves y cortas de plantilla
     - Visibilidad de la configuración regional  
@@ -62,14 +62,14 @@ Microsoft Teams proporciona plantillas preconstruidas que se pueden guardar y mo
 
 8. Agregue los canales o las aplicaciones que necesita su equipo.
 
-    1. En la sección **canales** , haga clic en **Agregar**.
+    1. En la sección **canales** , seleccione **Agregar**.
     2. En el cuadro de diálogo **Agregar** , asigne un nombre al canal.
     3. Agregue una descripción.
     4. Decida si el canal se debe mostrar de forma predeterminada.
-    5. Busque el nombre de una aplicación que desee addd en el canal.
-    6. Cuando haya terminado, haga clic en **aplicar** .
+    5. Busque el nombre de una aplicación que quiera agregar al canal.
+    6. Seleccione **aplicar** cuando haya terminado.
 
-7. Haga clic en **Enviar** cuando haya terminado de agregar canales y aplicaciones.
+7. Seleccione **Enviar** cuando haya terminado de agregar canales y aplicaciones.
 
     La nueva plantilla se guarda en la biblioteca de plantillas.
 

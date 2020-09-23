@@ -8,97 +8,97 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
-description: 'Para editar las propiedades del servidor front-end o del grupo front-end, edite o configure los siguientes atributos. La página de configuración se divide en las siguientes secciones:'
-ms.openlocfilehash: c417cd95d43354ad2466138ef6c9382c1a2cd00f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para editar las propiedades del servidor front-end o del grupo de servidores front-end, edite o configure los siguientes atributos. La página de configuración consta de las secciones siguientes:'
+ms.openlocfilehash: 6d7cdb9067ff88b383077538e38c39c2f8e86a5a
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819902"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219101"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general front-end para Lync Server 2010
 
-Para editar las propiedades del servidor front-end o del grupo front-end, edite o configure los siguientes atributos. La página de configuración se divide en las siguientes secciones:
+Para editar las propiedades del servidor front-end o del grupo de servidores front-end, edite o configure los siguientes atributos. La página de configuración consta de las secciones siguientes:
 
  **General**
 
 - **FQDN**: el nombre de dominio completo del servidor front-end o del grupo de servidores front-end.
 
-- Seleccione **usar todas las direcciones IP configuradas** para usar todas las direcciones configuradas en el servidor front-end o en el grupo front-end.
+- Seleccione **usar todas las direcciones IP configuradas** para usar todas las direcciones configuradas en el servidor front-end o el grupo de servidores front-end.
 
     > [!IMPORTANT]
-    > No debe seleccionar esta opción si Collocate el servidor de mediación en el servidor front-end o en el grupo front-end. Los servidores de mediación y los servidores front-end necesitan direcciones IP dedicadas en las que comunicarse.
+    > No debe seleccionar esta opción si combinar el servidor de mediación en el servidor front-end o en el grupo de servidores front-end. Los servidores de mediación y los servidores front-end necesitan direcciones IP dedicadas en las que comunicarse.
 
-- Seleccione **limitar el uso del servicio a las direcciones IP seleccionadas** y escriba la dirección IP de la **dirección IP principal** de la comunicación del servidor front-end o del grupo de servidores front-end con el resto de la implementación. Escriba la **dirección IP de RTC** la dirección IP asociada con el servidor de mediación.
+- Seleccione **limitar el uso del servicio a las direcciones IP seleccionadas** y escriba la dirección IP para la **dirección IP principal** del servidor front-end o la comunicación del grupo de servidores front-end con el resto de la implementación. Escriba la dirección IP de **RTC** que está asociada con el servidor de mediación.
 
-    **Características y funciones**
+    **Características y funcionalidad**
 
-- **Conferencias**: Active la casilla si quiere características de conferencia en su implementación. Las conferencias incluyen audio, vídeo, uso compartido de aplicaciones, uso compartido de escritorio y conferencias por Internet. Tendrá que crear y asociar un servidor de Office Web Apps para las conferencias web (definido más adelante en esta página de propiedades).
+- **Conferencia**: seleccione esta casilla de verificación si desea tener características de conferencia en la implementación. La conferencia incluye, audio, vídeo, recurso compartido de aplicaciones y escritorio y conferencia web. Tendrá que crear y asociar un servidor de Office Web Apps para conferencias web (definido más adelante en esta página de propiedades).
 
-- Si selecciona conferencias, se pueden seleccionar **conferencias de acceso telefónico local (RTC)** . Seleccione la casilla para habilitar las características de conferencia de acceso telefónico local.
+- Si ha seleccionado Conferencia, puede seleccionar **Conferencia de acceso telefónico local (RTC)**. Seleccione la casilla de verificación para habilitar las características de conferencia de acceso telefónico local.
 
-- Active la casilla **voz empresarial** si desea implementar características para habilitar Lync Server 2013 para que actúe como el sistema de voz telefónica usando las tecnologías de voz sobre IP (VoIP), entre las que se incluyen la opción de implementar teléfonos de telefonía, troncos SIP o conectividad de red telefónica pública conmutada con el servidor de mediación, las puertas de enlace RTC e IP-PBX, en forma combinada Para obtener información detallada sobre la telefonía IP empresarial, consulte la [telefonía IP empresarial](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) y el [plan de telefonía IP empresarial en Skype empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Seleccione la casilla **telefonía IP empresarial** si tiene previsto implementar características para permitir que Lync Server 2013 funcione como sistema de voz telefónica mediante tecnologías de voz sobre IP (VoIP), incluida la opción de implementar teléfonos móviles, troncos SIP o conectividad de red telefónica conmutada pública mediante el uso del servidor de mediación, las puertas de enlace RTC y el IP-PBX, en combinación o en los requisitos. Para obtener información detallada sobre la telefonía IP empresarial, consulte [Enterprise Voice](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) y [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Asociaciones**
 
-- **Almacén de SQL Server**: el FQDN de SQL Server (y, opcionalmente, una instancia con nombre) asociada al servidor front-end o al grupo de servidores front-end. Para seleccionar el almacén SQL Server de la lista o para crear un nuevo almacén de SQL Server, haga clic en **nuevo**
+- **Almacén de SQL Server**: el FQDN de SQL Server (y, opcionalmente, una instancia con nombre) asociado con el servidor front-end o el grupo de servidores front-end. Seleccione el almacén SQL Server de la lista o cree un nuevo almacén SQL Server haciendo clic en **Nuevo**
 
-- **Almacén de archivos**: seleccione el nombre completo del servidor y el recurso compartido (en el `\\<FQDN of server>\<share name>`formato) que actuará como la ubicación del almacén de archivos para los archivos compartidos que el Lync Server 2013 crea y usa para la replicación, los directorios de conferencia y otros propósitos. Para seleccionar el almacén de archivos de la lista o crear un nuevo almacén de archivos, haga clic en **nuevo**.
+- **Almacén de archivos**: seleccione el FQDN del servidor y el recurso compartido (en el formato  `\\<FQDN of server>\<share name>` ) que actuará como la ubicación del almacén de archivos para los archivos compartidos que Lync Server 2013 crea y usa para la replicación, los directorios de conferencia y otros fines. Seleccione el almacén de archivos de la lista o cree un nuevo almacén de archivos haciendo clic en **Nuevo**.
 
-- Seleccione la casilla **asociar servidor** de archivado para habilitar un servidor de archivado para este servidor front-end o grupo de servidores front-end. Después de activar la casilla, seleccione un servidor de archivado existente de la lista o haga clic en **nuevo** para crear las definiciones de un nuevo servidor de archivado.
+- Active la casilla **asociar servidor de archivado** para habilitar un servidor de archivado para este servidor front-end o grupo de servidores front-end. Después de seleccionar la casilla, seleccione un servidor de archivado existente de la lista o haga clic en **nuevo** para crear las definiciones de un nuevo servidor de archivado.
 
-- Seleccione la casilla de verificación **asociar servidor de supervisión** para habilitar un servidor de supervisión para este servidor front-end o grupo de servidores front-end. Después de seleccionar la casilla, seleccione un servidor de supervisión existente de la lista o haga clic en **nuevo** para crear las definiciones de un nuevo servidor de supervisión.
+- Seleccione la casilla **asociar servidor de supervisión** para habilitar un servidor de supervisión para este servidor front-end o grupo de servidores front-end. Después de seleccionar la casilla de verificación, seleccione un servidor de supervisión existente de la lista o haga clic en **nuevo** para crear las definiciones de un nuevo servidor de supervisión.
 
-- Seleccione la casilla **asociar grupo perimetral (para componentes multimedia** para habilitar un servidor perimetral para este servidor front-end o grupo de servidores front-end. Después de seleccionar la casilla, seleccione un servidor perimetral o un grupo existente de la lista o haga clic en **nuevo** para crear las definiciones para un nuevo servidor perimetral o un grupo de servidores.
+- Seleccione la casilla **asociar grupo de servidores perimetrales (para componentes multimedia** para habilitar un servidor perimetral para este servidor front-end o grupo de servidores front-end. Después de seleccionar la casilla, seleccione un servidor perimetral o un grupo de servidores perimetral existente de la lista o haga clic en **nuevo** para crear las definiciones para un nuevo servidor perimetral o un grupo de servidores perimetrales.
 
   **Resistencia**
 
-- Active la casilla de verificación grupo de registro de la **copia de seguridad asociado** para seleccionar de la lista un servidor front-end o un grupo de servidores front-end que será el registrador de la copia de seguridad (es decir, el servidor front-end o el grupo front-end designado como registrador secundario en caso de que se produzcan errores en el principal)
+- Active la casilla de verificación **grupo de registradores de reserva asociado** para seleccionar de la lista un servidor front-end o un grupo de servidores front-end que será el registrador de reserva (es decir, el servidor front-end o el grupo de servidores front-end designado como registrador secundario en el caso de que se produzca un error en el principal)
 
-- Si seleccionó un grupo de registro de copia de seguridad asociado y ha elegido un registrador de copia de seguridad, puede activar la casilla de verificación de **conmutación por error automática y la conmutación por error para voz**. Ahora puede definir propiedades numéricas para la detección de la **conmutación por error de voz interna (SEC)** y **intervalo de failback de voz (s)**. Para obtener más información, consulte [planificación de la resistencia de telefonía IP empresarial](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+- Si selecciona Grupo asociado de registradores de copia de seguridad y ha elegido un registrador de copia de seguridad, puede marcar la casilla de verificación **Conmutación por error automática y conmutación por recuperación para voz**. Ahora puede definir propiedades numéricas para **Detección interna de conmutación por error de voz (seg)** y **Intervalo de conmutación por recuperación de voz (seg)**. Para más información, consulte [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
-  **Servicios Web**
+  **Servicios web**
 
-- Para configurar los **servicios Web internos**, debe definir los **puertos de escucha** para **http** y **https**. De forma predeterminada, son el puerto TCP 80 y el puerto TCP 443, respectivamente. También puede configurar los **puertos publicados** para **http** y **https**. De forma predeterminada, son el puerto TCP 80 y el puerto TCP 443, respectivamente. Según la configuración de los servicios Web internos y el uso de los equilibradores de carga (equilibradores de carga de hardware y equilibrio de carga de DNS), ajuste los valores del puerto para definir los puertos de escucha y los puertos publicados.
-
-    > [!IMPORTANT]
-    > Los servicios Web internos y los puertos de escucha y publicación definidos son para clientes y dispositivos internos. Los clientes y dispositivos externos usan los puertos de escucha y los puertos publicados externos, junto con el nombre de dominio completo (FQDN) del servicio Web externo definido.
-
-- Para configurar los **servicios web externos**, debe definir los **puertos de escucha** para **http** y **https**. De forma predeterminada, son el puerto TCP 80 y el puerto TCP 443, respectivamente. También puede configurar los **puertos publicados** para **http** y **https**. De forma predeterminada, son el puerto TCP 80 y el puerto TCP 443, respectivamente. Según la configuración de los servicios Web internos y el uso de los equilibradores de carga (equilibradores de carga de hardware y equilibrio de carga de DNS), ajuste los valores del puerto para definir los puertos de escucha y los puertos publicados.
+- Para configurar los **Servicios web internos**, defina los **Puertos de escucha** de **HTTP** y **HTTPS**. De forma predeterminada son puerto TCP 80 y puerto TCP 443, respectivamente. Configure también los **Puertos publicados** para **HTTP** y **HTTPS**. De forma predeterminada son puerto TCP 80 y puerto TCP 443, respectivamente. En función de la configuración de los servicios web internos y el uso de equilibradores de carga (equilibradores de carga de hardware y equilibradores de carga de DNS), ajuste los valores de puerto para definir los puertos de escucha y los puertos publicados.
 
     > [!IMPORTANT]
-    > Los servicios web externos y los puertos de escucha y publicación definidos son para clientes y dispositivos externos. Los clientes y dispositivos externos usan los puertos de escucha y los puertos publicados del servicio Web externo, que normalmente define el proxy inverso junto con el nombre de dominio completo (FQDN) del servicio Web externo definido. La relación del FQDN de los servicios web externos y las direcciones URL simples define las direcciones del localizador uniforme de recursos (URL) que los clientes externos usarán para acceder a los servicios disponibles para los usuarios y dispositivos externos. Para obtener más detalles sobre direcciones URL simples, consulte [planificación de direcciones URL simples](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
+    > Los servicios web internos y los puertos definidos de escucha y publicados son para dispositivos y clientes internos. Los dispositivos y clientes externos utilizan los puertos de escucha y publicados de los servicios web externos junto con el nombre de dominio completo (FQDN) de los servicios web externos definidos.
+
+- Para configurar los **Servicios web externos**, defina los **Puertos de escucha** para **HTTP** y **HTTPS**. De forma predeterminada son puerto TCP 80 y puerto TCP 443, respectivamente. Configure también los **Puertos publicados** para **HTTP** y **HTTPS**. De forma predeterminada son puerto TCP 80 y puerto TCP 443, respectivamente. En función de la configuración de los servicios web internos y el uso de equilibradores de carga (equilibradores de carga de hardware y equilibradores de carga de DNS), ajuste los valores de puerto para definir los puertos de escucha y los puertos publicados.
+
+    > [!IMPORTANT]
+    > Los servicios web externos y los puertos definidos de escucha y publicados son para dispositivos y clientes externos. Los dispositivos y clientes externos utilizan los puertos de escucha y publicados de los servicios web externos, generalmente definidos por el proxy inverso junto con el nombre de dominio completo (FQDN) de los servicios web externos definidos. La relación del FQDN de los servicios web externos y las Direcciones URL simples define las direcciones del localizador uniforme de recursos (URL) que utilizarán los clientes externos para acceder a los servicios disponibles para los dispositivos y usuarios externos. Para más información sobre las Direcciones URL simples, consulte [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
   **Servidor de mediación**
 
-- Para configurar las propiedades del **servidor** de mediación para un servidor de mediación en cola (es decir, un servidor de mediación implementado en el servidor front-end o en el grupo de servidores front-end), seleccione **servidor de mediación**agrupado.
+- Para configurar las propiedades del **servidor** de mediación de un servidor de mediación combinado (es decir, un servidor de mediación implementado en el servidor front-end o el grupo de servidores front-end), seleccione **servidor de mediación combinado habilitado**.
 
-- Para definir los **puertos de escucha** de un servidor de mediación, escriba el valor de puerto **TCP** y **TLS** que está escuchando el servidor de mediación. De forma predeterminada, TLS se define como el puerto TCP 5067.
+- Para definir los **puertos de escucha** de un servidor de mediación combinado, escriba el valor del puerto **TCP** y de **TLS** en el que escucha el servidor de mediación combinado. De forma predeterminada, TLS está definido como puerto TCP 5067.
 
-- Para definir un valor de puerto TCP para el servidor de mediación, active la casilla **Habilitar puerto TCP** . De forma predeterminada, el servidor de mediación usa la seguridad de la capa de transporte (TLS) sobre el protocolo TCP. Los puertos TCP solo están disponibles cuando la opción Habilitar puerto TCP está habilitada.
+- Para definir un valor de puerto TCP para el servidor de mediación, active la casilla **Habilitar puerto TCP** . De forma predeterminada, el servidor de mediación usa la seguridad de la capa de transporte (TLS) a través del protocolo TCP. Los puertos TCP solamente están disponible cuando la selección Habilitar puerto TCP está habilitada.
 
     > [!NOTE]
-    > Esta es una configuración opcional y debe consultar los requisitos de la puerta de enlace o de la RTC para determinar si lo necesita. El valor de este puerto es 5068 de forma predeterminada.
+    > Se trata de una configuración opcional y deberá consultar los requisitos de su puerta de enlace o RTC para asegurarse de si es necesaria. De forma predeterminada, el valor del puerto TCP es 5068.
 
-- Usted define los troncos asociados con el servidor de mediación que se encuentra. Si ya ha definido troncos, se podrán asociar inmediatamente con el servidor de mediación.
+- Defina los troncos que se asocian con el servidor de mediación colocado. Si ya ha definido troncos, éstos se podrán asociar con el servidor de mediación.
 
-    Si tiene más de una puerta de enlace asociada con un servidor de mediación, puede especificar la puerta de enlace predeterminada seleccionando la puerta de enlace que desee establecer como predeterminada y haciendo clic en **establecer como predeterminado**. Si decide quitar la puerta de enlace predeterminada actual, seleccione la puerta de enlace y haga clic en **Deshacer predeterminada**.
+    Si tiene más de una puerta de enlace asociada a un servidor de mediación, puede especificar la puerta de enlace predeterminada seleccionando la puerta de enlace que desee establecer como predeterminada y haciendo clic en **convertir en predeterminada**. Si decide eliminar la puerta de enlace que actualmente es la predeterminada, selecciónela y haga clic en **Eliminar predeterminado**.
 
 > [!IMPORTANT]
-> Si realiza cambios en las propiedades de este cuadro de diálogo, debe publicar la topología y ejecutar el Asistente para la implementación de Skype empresarial Server en todos los servidores afectados. Después de publicar la nueva topología, se proporcionará una lista de los servidores afectados en los que debe ejecutarse el Asistente para la implementación de Skype empresarial Server como un vínculo en la pantalla de Resumen de publicación de topología correcta. Para obtener más información sobre la publicación de la topología actualizada, consulte [publicar la](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx)topología. Para obtener más información sobre el Asistente para la implementación de Skype empresarial Server, consulte [herramientas administrativas de Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
+> Si realiza cambios en las propiedades de este cuadro de diálogo, debe publicar la topología y ejecutar el Asistente para la implementación de Skype empresarial Server en todos los servidores afectados. Después de publicar la nueva topología, se proporciona una lista de los servidores afectados en los que se debe ejecutar el Asistente para la implementación de Skype empresarial Server como un vínculo en la pantalla de Resumen de publicación de topología correcta. Para más información sobre la topología actualizada, consulte [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Para obtener más información sobre el Asistente para la implementación de Skype empresarial Server, consulte [herramientas administrativas de Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
 
-Haga clic en **Aceptar** para guardar y confirmar los cambios en el documento de topología.
+Haga clic en **Aceptar** para guardar y confirmar los cambios en el documento de la topología.
 
-Haga clic en **Cancelar** para descartar los cambios y cerrar las **propiedades de edición** del servidor front-end o del grupo front-end.
+Haga clic en **Cancelar** para descartar los cambios y cerrar las **propiedades de edición** para el servidor front-end o el grupo de servidores front-end.
 
-Haga clic en **ayuda** para leer este tema de ayuda.
+Haga clic en **Ayuda** para leer este tema de la ayuda.
 
 ## <a name="see-also"></a>Vea también
 
-[Definir y configurar un grupo de servidores front-end o un servidor Standard Edition](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
+[Definir y configurar un grupo de servidores front-end](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
