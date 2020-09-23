@@ -8,32 +8,32 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PersistentChatNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
-description: Para configurar el grupo de próximos saltos de chat persistente, seleccione un servidor front-end o un grupo front-end de la lista.
-ms.openlocfilehash: db729901a1df53fd3c69b0dec626a4add628bc5e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para configurar el grupo de servidores de próximo salto de chat persistente, seleccione un servidor front-end o un grupo de servidores front-end de la lista.
+ms.openlocfilehash: 32e8b8ab0e2427458b42d58e08b99e845481630f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819462"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215971"
 ---
-# <a name="persistent-chat-next-hop-settings-expander"></a><span data-ttu-id="d72a2-103">Expansor de configuración de próximo salto del chat persistente</span><span class="sxs-lookup"><span data-stu-id="d72a2-103">Persistent Chat Next Hop Settings Expander</span></span>
+# <a name="persistent-chat-next-hop-settings-expander"></a><span data-ttu-id="9cc46-103">Expansor de configuración de próximo salto del chat persistente</span><span class="sxs-lookup"><span data-stu-id="9cc46-103">Persistent Chat Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="d72a2-104">Para configurar el grupo de **próximos saltos** de chat persistente, seleccione un servidor front-end o un grupo front-end de la lista.</span><span class="sxs-lookup"><span data-stu-id="d72a2-104">You configure the Persistent Chat **Next hop pool** by selecting a Front End Server or Front End pool from the list.</span></span>
+<span data-ttu-id="9cc46-104">Para configurar el grupo de servidores de **próximo salto** de chat persistente, seleccione un servidor front-end o un grupo de servidores front-end de la lista.</span><span class="sxs-lookup"><span data-stu-id="9cc46-104">You configure the Persistent Chat **Next hop pool** by selecting a Front End Server or Front End pool from the list.</span></span>
   
- <span data-ttu-id="d72a2-105">**Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="d72a2-105">**OK** Accepts and commits changes to the dialog.</span></span>
+ <span data-ttu-id="9cc46-105">**Aceptar** Acepta y confirma los cambios realizados en el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="9cc46-105">**OK** Accepts and commits changes to the dialog.</span></span>
   
- <span data-ttu-id="d72a2-106">**Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="d72a2-106">**Cancel** Discards changes and closes the dialog.</span></span>
+ <span data-ttu-id="9cc46-106">**Cancelar** Descarta los cambios y cierra el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="9cc46-106">**Cancel** Discards changes and closes the dialog.</span></span>
   
- <span data-ttu-id="d72a2-107">**Ayuda.** Abre esta pantalla de ayuda.</span><span class="sxs-lookup"><span data-stu-id="d72a2-107">**Help** Displays this help screen.</span></span>
+ <span data-ttu-id="9cc46-107">**Ayuda** Muestra la ayuda de esta pantalla.</span><span class="sxs-lookup"><span data-stu-id="9cc46-107">**Help** Displays this help screen.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d72a2-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="d72a2-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9cc46-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="9cc46-108">See also</span></span>
 
-[<span data-ttu-id="d72a2-109">Planificar el servidor de chat persistente en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="d72a2-109">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="9cc46-109">Planeación del servidor de chat persistente en Skype empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="9cc46-109">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="d72a2-110">Agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d72a2-110">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="9cc46-110">Agregar un servidor de chat persistente a la topología de Skype empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="9cc46-110">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

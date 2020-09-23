@@ -8,37 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
-description: 'Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, haga lo siguiente:'
-ms.openlocfilehash: 81746baeec304fd04cb612144ad0aaafb04e07dc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, realice las acciones siguientes:'
+ms.openlocfilehash: afb85c1248de7a145ba412c66763193d80a12eb4
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820332"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216191"
 ---
-# <a name="av-mcu-settings-expander"></a><span data-ttu-id="0633f-103">Expansor de configuración MCU AV</span><span class="sxs-lookup"><span data-stu-id="0633f-103">AV MCU Settings Expander</span></span>
+# <a name="av-mcu-settings-expander"></a><span data-ttu-id="80dc2-103">Expansor de configuración MCU AV</span><span class="sxs-lookup"><span data-stu-id="80dc2-103">AV MCU Settings Expander</span></span>
  
-<span data-ttu-id="0633f-104">Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="0633f-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, do the following:</span></span>
+<span data-ttu-id="80dc2-104">Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, realice las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="80dc2-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, do the following:</span></span>
   
-## <a name="general-settings"></a><span data-ttu-id="0633f-105">Configuración general</span><span class="sxs-lookup"><span data-stu-id="0633f-105">General Settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="80dc2-105">Configuración general</span><span class="sxs-lookup"><span data-stu-id="80dc2-105">General Settings</span></span>
 
-<span data-ttu-id="0633f-106">Para actualizar el nombre de dominio completo (FQDN) del grupo de servidores de conferencia A/V, escriba el nombre del grupo como se define en el sistema de nombres de dominio (DNS).</span><span class="sxs-lookup"><span data-stu-id="0633f-106">To update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool, type in the name of the pool as it is defined in the Domain Name System (DNS).</span></span> <span data-ttu-id="0633f-107">Debe tener un registro de host DNS (A) que se corresponda con el nombre del grupo de servidores de conferencia A/V.</span><span class="sxs-lookup"><span data-stu-id="0633f-107">You must have a DNS host (A) record that corresponds with the A/V Conferencing Server pool name.</span></span>
+<span data-ttu-id="80dc2-p101">Para actualizar el nombre de dominio completo (FQDN) del grupo de servidores de conferencia A/V, escriba el nombre del grupo de servidores como se haya definido en el sistema de nombres de dominio (DNS). Debe tener un registro de host (A) de DNS que se corresponda con el nombre del grupo de servidores de conferencia A/V.</span><span class="sxs-lookup"><span data-stu-id="80dc2-p101">To update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool, type in the name of the pool as it is defined in the Domain Name System (DNS). You must have a DNS host (A) record that corresponds with the A/V Conferencing Server pool name.</span></span>
   
-## <a name="av-conferencing-service"></a><span data-ttu-id="0633f-108">Servicio de conferencias A/V</span><span class="sxs-lookup"><span data-stu-id="0633f-108">A/V Conferencing Service</span></span>
+## <a name="av-conferencing-service"></a><span data-ttu-id="80dc2-108">Servicio de conferencia de A/V</span><span class="sxs-lookup"><span data-stu-id="80dc2-108">A/V Conferencing Service</span></span>
 
-<span data-ttu-id="0633f-109">Para asociar un grupo de servidores de conferencia a/V, seleccione el grupo de servidores front-end o los grupos de servidores que tiene que asociar al grupo de servidores de conferencia a/V.</span><span class="sxs-lookup"><span data-stu-id="0633f-109">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
+<span data-ttu-id="80dc2-109">Para asociar un grupo de servidores de conferencia A/V, seleccione el grupo o grupo de servidores front-end que deba asociar con el grupo de servidores de conferencia A/V.</span><span class="sxs-lookup"><span data-stu-id="80dc2-109">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="0633f-110">Si no se muestran grupos de servidores front-end en el panel **Seleccione las agrupaciones front-end para asociar con este grupo de conferencias a/V** , ya ha colocado el servidor de conferencia a/v con el grupo de servidores front-end o no seleccionó agregar conferencias en la sección **características y funcionalidad** de las propiedades de la agrupación frontal.</span><span class="sxs-lookup"><span data-stu-id="0633f-110">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool, or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
+> <span data-ttu-id="80dc2-110">Si en el panel **Seleccione los grupos de servidores front-end que desea asociar con este grupo de servidores de conferencia A/V** no aparece ningún grupo de servidores front-end, significa que ha instalado el servidor de conferencia A/V con el grupo de servidores front-end o no ha agregado Conferencia en la sección **Características y funciones** en las propiedades del grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="80dc2-110">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool, or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
   
 
 
-<span data-ttu-id="0633f-111">Cuando haya terminado, haga clic en **Aceptar** para completar la edición de la configuración del grupo de servidores de conferencia a/V.</span><span class="sxs-lookup"><span data-stu-id="0633f-111">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="0633f-112">Haga clic en **Cancelar** para descartar los cambios.</span><span class="sxs-lookup"><span data-stu-id="0633f-112">Click **Cancel** to discard any changes.</span></span>
+<span data-ttu-id="80dc2-p102">Cuando haya finalizado, haga clic en **Aceptar** para completar la edición de la configuración del grupo de servidores de conferencia A/V. Haga clic en **Cancelar** para descartara todos los cambios.</span><span class="sxs-lookup"><span data-stu-id="80dc2-p102">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings. Click **Cancel** to discard any changes.</span></span>
   
 

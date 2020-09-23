@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams para el ámbito educativo
 description: Obtenga más información sobre los recursos de administración disponibles para ayudarle a implementar, adoptar y administrar correctamente equipos de su escuela o institución.
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: conceptual
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-f1.keywords: ms.teamsadmincenter.assignments.overview
+f1.keywords:
+- NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
@@ -15,88 +15,25 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d2ca8d15e25636da12bc48e14bd46dfae68ba1f6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.custom:
+- seo-marvel-apr2020
+- ms.teamsadmincenter.assignments.overview
+ms.openlocfilehash: 452f75284e67f600406e16075e1f01c7de491975
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905712"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216741"
 ---
-# <a name="teams-for-education"></a>Microsoft Teams para el ámbito educativo
+# <a name="teams-for-education"></a><span data-ttu-id="71718-103">Microsoft Teams para el ámbito educativo</span><span class="sxs-lookup"><span data-stu-id="71718-103">Teams for Education</span></span>
 
-Con Teams, educadores y profesores pueden crear clases de colaboración, conectarse en comunidades profesionales de aprendizaje y comunicarse con estudiantes y educadores. Use los recursos de administración aquí para ayudarle a implementar, adoptar y administrar correctamente equipos de su escuela o institución. 
+<span data-ttu-id="71718-104">Con Teams, educadores y profesores pueden crear clases de colaboración, conectarse en comunidades profesionales de aprendizaje y comunicarse con estudiantes y educadores.</span><span class="sxs-lookup"><span data-stu-id="71718-104">With Teams, educators and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and educators.</span></span> <span data-ttu-id="71718-105">Use los recursos de administración aquí para ayudarle a implementar, adoptar y administrar correctamente equipos de su escuela o institución.</span><span class="sxs-lookup"><span data-stu-id="71718-105">Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution.</span></span> 
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/teams-quick-start-edu">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Inicio rápido: Administradores de Teams para el ámbito educativo</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Tareas en Teams para educación</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/resources-teams-edu">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Recursos para los administradores de equipos para el ámbito educativo</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li><li>
-        <a href="https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Preguntas más frecuentes sobre el gobierno de Teams para el ámbito educativo</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+
+|               |               |
+| ------------- | ------------- |
+| ![flecha derecha-dos equipos](../media/arrow-right-2-teams.svg)  |  [<span data-ttu-id="71718-107">Inicio rápido: Administradores de Teams para el ámbito educativo</span><span class="sxs-lookup"><span data-stu-id="71718-107">Quick start - Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
+| ![suscripción: equipos](../media/sign-up-teams.svg) | [<span data-ttu-id="71718-109">Tareas en Teams para educación</span><span class="sxs-lookup"><span data-stu-id="71718-109">Assignments in Teams for Education</span></span>](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
+| ![prácticas](../media/toolbox.svg)  |  [<span data-ttu-id="71718-111">Recursos para los administradores de equipos para el ámbito educativo</span><span class="sxs-lookup"><span data-stu-id="71718-111">Resources for Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
+| ![lista de tareas-planeación-Teams](../media/task-checklist-planning-teams.svg)  |  [<span data-ttu-id="71718-113">Preguntas más frecuentes sobre el gobierno de Teams para el ámbito educativo</span><span class="sxs-lookup"><span data-stu-id="71718-113">Governance FAQ for Teams for Education admins</span></span>](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
+
