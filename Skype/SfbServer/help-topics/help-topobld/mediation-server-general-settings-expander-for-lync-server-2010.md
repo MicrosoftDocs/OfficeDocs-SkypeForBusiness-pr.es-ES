@@ -8,47 +8,47 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServerGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
-description: 'Edite las propiedades de los servidores de mediación en este diálogo. En el lado izquierdo hay un conjunto de vínculos rápidos que le lleva a la configuración general, la configuración del próximo salto y la configuración de la puerta de enlace RTC. En cada sección se encuentran los siguientes ajustes:'
-ms.openlocfilehash: 3f7dad61778f54fee7a9be984191bc21f5029502
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Edite las propiedades de los servidores de mediación en este cuadro de diálogo. En el lazo izquierdo se encuentra un conjunto de vínculos rápidos que le llevan a la configuración general, la configuración de próximo salto y la configuración de puerta de enlace RTC. En cada sección se encuentran las siguientes opciones:'
+ms.openlocfilehash: 19687f8d6a97a9174782c094f80c5b52d6973caf
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819622"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215161"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general del servidor de mediación para Lync Server 2010
 
-Edite las propiedades de los servidores de mediación en este diálogo. En el lado izquierdo hay un conjunto de vínculos rápidos que le lleva a la configuración general, la configuración del próximo salto y la configuración de la puerta de enlace RTC. En cada sección se encuentran los siguientes ajustes:
+Edite las propiedades de los servidores de mediación en este cuadro de diálogo. En el lazo izquierdo se encuentra un conjunto de vínculos rápidos que le llevan a la configuración general, la configuración de próximo salto y la configuración de puerta de enlace RTC. En cada sección se encuentran las siguientes opciones:
 
  **General**:
 
-- **FQDN**: usted edita el nombre de dominio completo del servidor de mediación
+- **FQDN**: edite el nombre de dominio completo del servidor de mediación
 
-- **Asociaciones**: seleccione la casilla de verificación **asociar grupo perimetral (para componentes multimedia)** y seleccione un servidor perimetral o un grupo perimetral para que el servidor de mediación use como la ruta multimedia para el acceso externo.
+- **Asociaciones**: Active la casilla **asociar grupo de servidores perimetrales (para componentes multimedia)** y seleccione un servidor perimetral o un grupo de servidores perimetrales para que el servidor de mediación use como la ruta de medios para el acceso externo.
 
   **Próximo salto**:
 
-- **Selección del próximo salto**: seleccione en una lista el servidor front-end o el grupo front-end que se usará como la ruta de acceso del servidor de mediación para la comunicación con su implementación.
+- **Selección de próximo salto**: seleccione en una lista el servidor front-end o el grupo de servidores front-end que se usará como la ruta de acceso del servidor de mediación que se va a usar para comunicarse con la implementación.
 
   **Puerta de enlace RTC**:
 
   **Puerta de enlace RTC del servidor de mediación**:
 
-- **Puertos de escucha**: defina los puertos en los que escuchará el servidor de mediación. Puede definir un puerto para **TLS** o para la seguridad de la capa de transporte, **TCP**o protocolo de control de transporte. Para que la entrada de puerto para TCP esté disponible, debe activar la casilla de **Habilitar puerto TCP**.
+- **Puertos de escucha**: defina los puertos en los que escuchará el servidor de mediación. Puede definir un puerto para **TLS** o seguridad de la capa de transporte, o **TCP**, o protocolo de control de transporte. Para que la entrada de puerto de TCP esté disponible, debe seleccionar la casilla de verificación **Habilitar puerto TCP**.
 
     > [!IMPORTANT]
-    > Consulte la documentación y la configuración de la puerta de enlace de la red de telefonía pública conmutada (RTC) para determinar si necesita habilitar y definir los valores de los puertos TLS, TCP o ambos. TLS es un protocolo más seguro, que usa certificados para cifrar el tráfico entre el servidor de mediación y la puerta de enlace PSTN. No todas las puertas de enlace RTC admiten TLS.
+    > Consulte la documentación y los ajustes de configuración de la puerta de enlace de la red telefónica conmutada (RTC) para determinar si necesita habilitar y definir valores de puerto TLS, TCP o ambos. TLS es un protocolo más seguro, con certificados para cifrar el tráfico entre el servidor de mediación y la puerta de enlace RTC. No todas las puertas de enlace RTC son compatibles con TLS.
 
-- Se muestra una lista de los troncos SIP y las puertas de enlace definidas y configuradas para su implementación. Si no hay ninguna entrada presente, no hay ningún troncal o puerta de enlace SIP configurada para su implementación. Defina y configure los troncos y las puertas de enlace en **componentes compartidos** en el generador de topología.
+- Se muestra una lista de los troncos SIP y las puertas de enlace que se han definido y configurado para la implementación. Si no se muestra ninguna entrada, significa que no hay troncos SIP ni puertas de enlace RTC configurados para la implementación. Puede definir y configurar troncos y puertas de enlace en **componentes compartidos** en el generador de topologías.
 
 ## <a name="see-also"></a>Vea también
 
-[Descripción general de la Troncalización SIP](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
+[Información general sobre los enlaces troncales SIP](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
 
 [Opciones de implementación de la puerta de enlace RTC](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

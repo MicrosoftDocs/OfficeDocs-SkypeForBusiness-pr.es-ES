@@ -8,31 +8,31 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
-description: 'Para definir un servidor de mediación, especifique la configuración que asocia el servidor de mediación con un servidor front-end y con un servidor perimetral o un grupo. Para asociar el servidor o grupo de mediación a un grupo de servidores perimetrales o perimetrales, haga lo siguiente:'
-ms.openlocfilehash: 37aa9061bca1f12e024fdf84601997911fb20c93
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para definir un servidor de mediación, especifique los valores de las opciones que asocian el servidor de mediación con un servidor front-end, así como con un servidor o grupo de servidores perimetrales. Para asociar un servidor o un grupo de servidores de mediación con un servidor o un grupo de servidores perimetrales, efectúe los pasos siguientes:'
+ms.openlocfilehash: 11e00e84891c062662151449f07ecdb3f67c39d2
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820372"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216361"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Asociar servidor de mediación con perimetral
  
-Para definir un servidor de mediación, especifique la configuración que asocia el servidor de mediación con un servidor front-end y con un servidor perimetral o un grupo. Para asociar el servidor o grupo de mediación a un grupo de servidores perimetrales o perimetrales, haga lo siguiente:
+Para definir un servidor de mediación, especifique los valores de las opciones que asocian el servidor de mediación con un servidor front-end, así como con un servidor o grupo de servidores perimetrales. Para asociar un servidor o un grupo de servidores de mediación con un servidor o un grupo de servidores perimetrales, efectúe los pasos siguientes:
   
-1. En la lista desplegable, seleccione el grupo perimetral o el servidor perimetral que se va a asociar con el servidor de mediación.
+1. En la lista desplegable, seleccione el servidor o el grupo de servidores perimetrales que deben asociarse con el servidor de mediación.
     
 2. Haga clic en **Siguiente** para continuar.
     
 > [!NOTE]
-> Si aún no ha definido un servidor perimetral o un grupo de servidores perimetrales en su implementación, la lista desplegable no contendrá entradas. Puede hacer clic en **siguiente** para continuar y editar la configuración del servidor de mediación una vez que haya agregado un servidor perimetral o un grupo de servidores a su implementación.
+> Si todavía no ha definido un servidor o un grupo de servidores perimetrales en la implementación, en la lista desplegable no habrá ninguna entrada. Haga clic en **Siguiente** para continuar y editar la configuración del servidor de mediación una vez haya agregado un servidor o un grupo de servidores de mediación a la implementación.
   
-Para obtener más información, consulte [implementar un servidor de mediación en el generador de topologías en Skype empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Para obtener más información, consulte [implementar un servidor de mediación en el generador de topologías de Skype empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171124"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216701"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Usar plantillas generales de Teams en la consola de administración
 
@@ -90,7 +90,7 @@ Mejore su cultura y simplifique la incorporación de empleados con este equipo c
 
 ## <a name="organize-a-help-desk"></a>Organizar un servicio de asistencia al cliente
 
-Colaborar en documentación, directivas y procesos que sean compatibles con el servicio de asistencia al usuario. Integre el sistema de vales existente o use nuestra plantilla para administrar solicitudes.
+Colaborar en la documentación, la Directiva y los procesos que sean compatibles con el servicio de asistencia al usuario. Integre el sistema de vales existente o use nuestra plantilla para administrar solicitudes.
 
 | Tipo de plantilla base | | Propiedades que vienen con esta plantilla base |
 | ------------------|-- |----------------------------------------------------- |

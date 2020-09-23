@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581361"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203723"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
@@ -31,6 +31,9 @@ Las pestañas permiten a los miembros del equipo acceder a servicios y contenido
 Los propietarios y los miembros del equipo pueden agregar pestañas adicionales a cada canal para integrar mejor sus servicios en la nube. Se pueden agregar pestañas para ayudar a los usuarios a obtener acceso y administrar fácilmente los datos que necesitan o con los que interactúan. Puede ser un informe de Power BI, un panel o incluso un canal de vídeo de [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) en el que se publiquen vídeos de aprendizaje.
 
 ![Tres capturas de pantalla con contenido diverso en las fichas.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+
+>[!Note]
+> El cambio de usar Microsoft Stream a [OneDrive para la empresa y SharePoint para las grabaciones](tmr-meeting-recording-change.md) de la reunión será un enfoque por fases. En el lanzamiento podrá optar por esta experiencia, en noviembre tendrá que optar por no participar si desea seguir usando la secuencia y, a principios de 2021, necesitaremos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
 
 ## <a name="work-with-tabs"></a>Trabajar con pestañas
 

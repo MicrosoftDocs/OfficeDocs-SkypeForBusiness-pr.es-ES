@@ -8,69 +8,69 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
-description: 'Para agregar un nuevo servidor a un grupo de servidores existente, donde el grupo es uno de los siguientes:'
-ms.openlocfilehash: d4f4afc0d4a7cb6fafe47de95c648aa1769027e6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para agregar un nuevo servidor a un grupo de servidores ya creado que puede ser uno de los siguientes:'
+ms.openlocfilehash: 5e6d1772b1cb18fe8c392e3ad9fa4f131415e522
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820652"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216411"
 ---
 # <a name="add-server"></a>Agregar servidor
  
-Para agregar un nuevo servidor a un grupo de servidores existente, donde el grupo es uno de los siguientes:
+Para agregar un nuevo servidor a un grupo de servidores ya creado que puede ser uno de los siguientes:
   
-- Servidor front-end Enterprise Edition
+- Servidor front-end de Enterprise Edition
     
-- Servidor Director
+- Servidor director
     
 - Servidor de mediación
     
-- Servidor de conferencias de audio y vídeo
+- Servidor de conferencia A/V
     
 - Servidor de aplicaciones de confianza
     
-Cada uno de los nuevos servidores de grupo tiene requisitos diferentes. En las secciones siguientes, busque el tipo de servidor que está agregando al grupo existente y proporcione la información solicitada, ya que se define para cada tipo de servidor. Proporcione la información solicitada para definir el nuevo servidor de grupo.
+Cada uno de los nuevos servidores del grupo de servidores tiene sus propios requisitos. En las secciones siguientes, busque el tipo de servidor que va a agregar al grupo de servidores ya creado y proporcione la información pertinente para cada tipo de servidor. La información solicitada se proporciona para definir el nuevo servidor del grupo de servidores.
   
- **Servidor front-end Enterprise Edition**
+ **Servidor front-end de Enterprise Edition**
   
-- Nombre de dominio completo (FQDN) del nuevo servidor como se define en el sistema de nombres de dominio (DNS).
+- Nombre de dominio completo del nuevo servidor como se haya especificado en el Sistema de nombres de dominio (DNS).
     
-- Seleccione **usar todas las direcciones IP configuradas**, lo que significa que se puede usar cualquier dirección IP definida en el equipo. También puede seleccionar **limitar el uso del servicio a las direcciones IP seleccionadas** e introducir una dirección específica en el nuevo servidor. La dirección IP introducida es la única dirección IP que responderá a los servicios hospedados.
+- Seleccione **Usar todas las direcciones IP configuradas**; de este modo, se puede usar cualquier dirección IP que se haya definido en el equipo. Si lo prefiere, seleccione **Limitar el uso del servicio a las direcciones IP seleccionadas** e indique una determinada dirección en el nuevo servidor. La dirección IP que se especifica es la única dirección IP que se encargará de los servicios hospedados.
     
-- Defina una **dirección IP de RTC** cuando se colocará un servidor de mediación en el servidor front-end.
+- Defina una **dirección IP RTC** cuando un servidor de mediación se coloca en el servidor front-end.
     
-- Seleccione **Habilitar IPv6** para habilitar IPv6 en este servidor.
+- Seleccione **Habilitar IPv6** para habilitar IPv6 para este servidor.
     
-  **Servidor Director**
+  **Servidor de director**
   
-- El FQDN del nuevo servidor como se define en DNS.
+- El nombre de dominio completo del nuevo servidor es el mismo que en DNS.
     
-- Seleccione **usar todas las direcciones IP configuradas**, lo que significa que se usará cualquier dirección IP definida en el equipo. También puede seleccionar limitar el **uso del servicio a las direcciones IP seleccionadas** e introducir una dirección IP específica en el nuevo servidor. La dirección IP introducida es la única dirección IP que responderá a los servicios hospedados.
+- Seleccione **Usar todas las direcciones IP configuradas**, lo que significa que se puede utilizar cualquier dirección IP definida en el equipo. De forma alternativa, puede seleccionar **Limitar el uso de servicio a las direcciones IP seleccionadas** y escribir una dirección específica en el nuevo servidor. La dirección IP especificada es la única dirección IP que responderá para los servicios hospedados.
     
   **Servidor de mediación**
   
-- El FQDN del nuevo servidor como se define en DNS.
+- El nombre de dominio completo del nuevo servidor es el mismo que en DNS.
     
-- Seleccione **usar todas las direcciones IP configuradas**, lo que significa que se puede usar cualquier dirección IP definida en el equipo. También puede seleccionar limitar el **uso del servicio a las direcciones IP seleccionadas** e introducir una dirección IP específica en el nuevo servidor como dirección IP principal y una dirección IP para la dirección IP de la red de telefonía pública conmutada (RTC). Las direcciones IP especificadas son la única dirección IP que responderá a los servicios designados.
+- Seleccione **Usar todas las direcciones IP configuradas**; de este modo, se puede usar cualquier dirección IP que se haya definido en el equipo. Si lo desea, seleccione **Limitar el uso del servicio a las direcciones IP seleccionadas** y especifique una dirección IP en el nuevo servidor como dirección IP principal; asimismo, indique una dirección IP para la dirección IP de la RTC. Las direcciones IP que se especifican son las únicas direcciones IP que se encargarán de los servicios hospedados.
     
     > [!NOTE]
-    > Para el servidor de mediación, la dirección IP especificada para la dirección IP principal y la dirección IP de RTC es la misma de forma predeterminada. Las direcciones IP se pueden definir por separado si está usando interfaces de red dedicadas o direcciones IP independientes en la misma interfaz de red. Si tiene dos interfaces de red, una para la conexión de red local y otra para la conexión RTC, debe asignar direcciones IP diferentes. 
+    > En el caso del servidor de mediación, la dirección IP especificada como IP principal y la dirección IP de RTC coinciden por defecto. Las direcciones IP se pueden definir por separado si utiliza interfaces de red dedicada o direcciones IP separadas en la misma interfaz de red. Si tiene dos interfaces de red diferentes, una para la conexión de red local y otra para la conexión de RTC, debe asignar direcciones IP diferentes. 
   
-  **Servidor de conferencias de audio y vídeo**
+  **Servidor de conferencia audio/vídeo**
   
-- El FQDN del nuevo servidor como se define en DNS.
+- El nombre de dominio completo del nuevo servidor es el mismo que en DNS.
     
-- Seleccione **usar todas las direcciones IP configuradas**, lo que significa que se puede usar cualquier dirección IP definida en el equipo. También puede seleccionar **limitar el uso del servicio a las direcciones IP seleccionadas** e introducir una dirección específica en el nuevo servidor. La dirección IP introducida es la única dirección IP que responderá a los servicios hospedados.
+- Seleccione **Usar todas las direcciones IP configuradas**, lo que significa que se puede utilizar cualquier dirección IP definida en el equipo. De forma alternativa, puede seleccionar **Limitar el uso de servicio a las direcciones IP seleccionadas** y escribir una dirección específica en el nuevo servidor. La dirección IP especificada es la única dirección IP que responderá para los servicios hospedados.
     
-  **Servidor de aplicaciones de confianza**
+  **Servidor de aplicación de confianza**
   
-- El FQDN del nuevo servidor como se define en DNS.
+- El FQDN del nuevo servidor tal como se define en el DNS.
     
 

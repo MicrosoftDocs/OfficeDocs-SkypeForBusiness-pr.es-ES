@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d90e33d2e8d40f93a070d050eb8c8437f4e8629d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: a08a646ed2f89a857d2126ef9551bc84e6389a11
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820454"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203833"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -148,6 +148,9 @@ El planeamiento de ancho de banda permite a las organizaciones estimar el ancho 
 ### <a name="meeting-recording-and-archiving"></a>Grabación y archivado de reuniones
 
 Los usuarios pueden grabar sus reuniones y llamadas de grupo para capturar el vídeo, el audio y la actividad de pantalla compartida. También hay una opción para que las grabaciones tengan una transcripción automática, para que los usuarios puedan reproducir grabaciones de reunión con subtítulos y buscar elementos de discusión importantes en la transcripción. La grabación se produce en la nube y se guarda en Microsoft Stream, para que los usuarios puedan compartirla de forma segura en su organización. Para buscar la grabación de una reunión, vaya a la conversación de la reunión.
+
+>[!Note]
+> El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento, podrá participar en esta experiencia; en noviembre tendrá que dejar de participar si quiere seguir usando Stream y, en algún momento a principios de 2021, requeriremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para nuevas grabaciones de reuniones.
 
 Para obtener más información, consulte [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 

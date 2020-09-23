@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 1740e36c496b4df4df796d00d2be6a644ae0933b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177447"
+ms.locfileid: "48209489"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sesiones de Teams en encendido 2020
 
@@ -55,7 +55,7 @@ ms.locfileid: "48177447"
 | Título | Extracción            | Nivel| Altavoces |
 |---|----------|---|---|---|
 |[Impulso de la adopción con eventos virtuales: procedimientos recomendados para los organizadores y productores](https://aka.ms/PR101)|Esta sesión de lecciones del mundo real revisará nuestra guía de eventos virtuales para los organizadores de eventos y los profesionales de ti.  Aprenda todo lo que necesita saber de Karuana Gatimu, productor técnico de eventos principales de la ingeniería de Microsoft Teams durante las fases iniciales del Pandemic.   Escuche la orientación recopilada de la transición de Microsoft a eventos virtuales y cómo puede usar reuniones de Teams y eventos en directo para ofrecer eventos atractivos que mantengan la conexión de su organización.  |300|Karuana Gatimu, Ashwin Appiah|
-|[Profundizar en el gobierno de los grupos de Office 365 y Microsoft Teams](https://aka.ms/PR102)|Vea estas prácticas de demostración de las herramientas de gobierno capabilties que administrarán su experiencia de usuarios finales de Microsoft Teams y le permitirán sentirse seguro de la seguridad y el cumplimiento de su información. Incluye la configuración de capacidades de complementos de Azure Active Director. |300|Karuana Gatimu|
+|[Profundizar en el gobierno de los grupos de Office 365 y Microsoft Teams](https://aka.ms/PR102)|Consulte esta práctica de demostración de las funcionalidades y capacidades de gobierno que administrarán la experiencia de los usuarios finales de Microsoft Teams y le permitirán sentirse seguro de la seguridad y el cumplimiento de la información. Incluye la configuración de capacidades de complementos de Azure Active Director. |300|Karuana Gatimu|
 |[Impulso de la adopción de la industria: características y características especiales para los Firstline, sin ánimo de lucro, cuidado de la salud y mucho más.](https://aka.ms/PR121)|En esta sesión controlada por escenarios, revisaremos las características, tanto existentes como nuevas, en el contexto de los profesionales de ti que deben ofrecerle.  Incluye plantillas para usuarios finales y ITPro, características para dispositivos móviles|200|Karuana Gatimu, Kathy Minnis|
 |[¿Está listo para implementar Microsoft Teams?](https://aka.ms/PR127) |En esta sesión, analizaremos todos los productos y recursos clave que pueden ayudarle a garantizar que el lanzamiento de su equipo se realice correctamente. Desde herramientas y recursos hasta procedimientos recomendados, esta sesión es un debe asistir si el planeamiento y la implementación de Teams están en la lista de tareas pendientes.|300|Stephen Rose|
 |[Implementación de Teams y administrador de punto final de Microsoft](https://aka.ms/PR122)|Ver las demostraciones de las prácticas recomendadas que le ayudarán a implementar y administrar Microsoft Teams a través de End Point Manager|300|Mayunk Jain, Mayank Verma|

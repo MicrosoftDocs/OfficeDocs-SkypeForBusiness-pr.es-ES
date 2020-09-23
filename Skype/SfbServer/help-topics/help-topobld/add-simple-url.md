@@ -8,31 +8,31 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
-description: Para agregar direcciones URL simples adicionales a la definición de la implementación, especifique la dirección URL de la nueva dirección URL simple.
-ms.openlocfilehash: 66d7599d0686c4c78536f4d166cd2d7b1a60a1dc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para agregar más direcciones URL sencillas a la definición de la implementación, indique la dirección URL de la nueva dirección URL sencilla.
+ms.openlocfilehash: 243dae47571286e60deb4ecdfc61beb7f175eb95
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820642"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216391"
 ---
 # <a name="add-simple-url"></a>Agregar dirección URL simple
  
-Para agregar direcciones URL simples adicionales a la definición de la implementación, especifique la dirección URL de la nueva dirección URL simple. El formato de la dirección URL _es\<http://simple\>.\< \> nombre de dominio o nombre_ de _\<dominio\>/\<http://tipo\>de dirección URL simple_, donde el tipo de dirección URL simple es uno de los siguientes:
+Para agregar más direcciones URL sencillas a la definición de la implementación, indique la dirección URL de la nueva dirección URL sencilla. El formato de la dirección URL _es \<simple URL type\> http:// \<domain name\> ._ o _ \<domain name\> / http:// \<simple URL type\> _, donde el tipo de dirección URL simple es uno de los siguientes:
   
-- Reunión
+- Cumplir
     
-- Marcación telefónica
+- Acceso telefónico local
     
 > [!IMPORTANT]
-> Puede tener un dial en una simple dirección URL y otro con una dirección URL simple activa en cualquier momento. Agregar una nueva dirección URL sencilla y convertirla en la dirección URL activa definirá todas las solicitudes futuras para usar la nueva dirección URL simple. Deja la dirección URL no activa para controlar las conferencias y otras solicitudes que se realizaron cuando la dirección URL simple anterior estaba activa. 
+> Puede tener activa una dirección URL sencilla de reunión y una de marcado en cualquier momento. Al agregar una dirección URL sencilla nueva y convertirla en la dirección URL activa, la usarán todas las solicitudes posteriores. La dirección URL sencilla no activa se destina a administrar conferencias y otras solicitudes realizadas cuando estaba activa la dirección URL sencilla antigua. 
   
-Para obtener más información sobre cómo agregar una dirección URL simple, consulte [requisitos de DNS para obtener direcciones URL simples en Skype empresarial Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).
+Para obtener más información sobre cómo agregar una dirección URL sencilla, consulte [DNS Requirements for simple URLs in Skype for Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).
   
 

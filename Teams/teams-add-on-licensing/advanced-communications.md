@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f330b183a02654f6c56cad27332fcc9ed81d93f4
-ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
+ms.openlocfilehash: 351a15172b121f0bb937630747d7d0e61b80b96c
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "46542878"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203823"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento de comunicaciones avanzadas para Microsoft Teams
 
@@ -71,7 +71,10 @@ La prueba de 60 está disponible a partir del 4 de agosto de 2020. Puede obtener
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>Diferencia entre las reuniones de desbordamiento y los eventos en directo
 
-Con las comunicaciones avanzadas, cualquier reunión con más de 300 asistentes le proporcionará una manera de que hasta 1.000 participantes tengan una experiencia interactiva y hasta 20.000 participantes puedan unirse a la reunión con una experiencia de solo lectura. Evento en directo que habilita capacidades adicionales. En Live Events, 20.000 asistentes pueden ver la difusión e interactuar con Q&A en Teams, conversaciones en Yammer o solo en vista en Microsoft Stream. Además, aumentamos la duración de los eventos en vivo de 4 horas a 16 horas y habilitamos hasta 50 eventos en vivo simultáneos para cada inquilino.  
+Con las comunicaciones avanzadas, cualquier reunión con más de 300 asistentes le proporcionará una manera de que hasta 1.000 participantes tengan una experiencia interactiva y hasta 20.000 participantes puedan unirse a la reunión con una experiencia de solo lectura. Evento en directo que habilita capacidades adicionales. En Live Events, 20.000 asistentes pueden ver la difusión e interactuar con Q&A en Teams, conversaciones en Yammer o solo en vista en Microsoft Stream. Además, aumentamos la duración de los eventos en vivo de 4 horas a 16 horas y habilitamos hasta 50 eventos en vivo simultáneos para cada inquilino. 
+
+>[!Note]
+> El cambio de usar Microsoft Stream a [OneDrive para la empresa y SharePoint para las grabaciones](../tmr-meeting-recording-change.md) de la reunión será un enfoque por fases. En el lanzamiento podrá optar por esta experiencia, en noviembre tendrá que optar por no participar si desea seguir usando la secuencia y, a principios de 2021, necesitaremos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
 
 > [!NOTE]
 > Las SKU para empresas y educación pueden suspender temporalmente eventos en vivo para un máximo de 20.000 asistentes, con una duración del evento de 16 horas por difusión, y 50 eventos simultáneos en un inquilino hasta el 1 de octubre de 2020.

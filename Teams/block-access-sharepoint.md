@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtener información sobre cómo bloquear el acceso a SharePoint para usuarios específicos
-ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135934"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203843"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Bloquear el acceso a SharePoint para usuarios específicos
 
@@ -40,7 +40,7 @@ Puede bloquear o limitar el acceso a:
 
 Cuando se bloquea el acceso, los usuarios verán un mensaje de error. Bloquear el acceso ayuda a proporcionar seguridad y protege los datos seguros. Cuando se bloquea el acceso, los usuarios verán un mensaje de error.
 
-1. Abra el [centro de administración](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)de SharePoint.
+1. Abra el centro de administración de SharePoint.
 
 2. Expanda directivas de acceso de **directivas**  >  **Access Policies**.
 

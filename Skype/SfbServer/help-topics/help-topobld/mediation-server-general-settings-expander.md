@@ -8,18 +8,18 @@ ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: 1936034831ca3d66007e7f2186ce3772fbaaa06b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: bd3047832b23604f87a1e298a42798b13bb6822a
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819612"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215171"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de configuración general del servidor de mediación
  
@@ -27,22 +27,22 @@ ms.locfileid: "41819612"
 
 ## <a name="general-settings"></a>Configuración general
 
-Nombre de dominio completo (FQDN) del grupo de servidores de mediación o el servidor de mediación. Edite el FQDN del servidor para cambiar el valor correspondiente. Necesita haber un registro host (A) de DNS que coincida con el nuevo valor.
+Nombre de dominio completo (FQDN) del servidor de mediación o el grupo de servidores de mediación. Edite el nombre de dominio completo del servidor que se va a cambiar. Debe tener un registro host (A) de DNS que coincida con el nuevo valor.
   
-En la sección **asociaciones** , seleccione un servidor perimetral o un grupo de servidores perimetrales para asociar con el grupo de servidores de mediación o el servidor de mediación. Seleccione el borde que usarán los componentes multimedia del servidor de mediación para la telefonía IP empresarial de usuario externo.
+En la sección **Asociaciones**, seleccione un servidor perimetral o un grupo de servidores perimetrales para asociar con el servidor de mediación o el grupo de servidores de mediación. Seleccione el perímetro que los componentes multimedia del servidor de mediación usarán para la telefonía IP empresarial del usuario externo.
   
-Si no tiene un servidor perimetral definido actualmente y necesita asociar el servidor de mediación con un servidor perimetral, haga clic en **nuevo** y defina el nuevo servidor perimetral o grupo de servidores perimetrales en el Asistente para definir el nuevo grupo de límites.
+Si no tiene definido ningún servidor perimetral y necesita asociar el servidor de mediación con un servidor perimetral, haga clic en **Nuevo** y defina el nuevo servidor perimetral o el grupo de servidores perimetrales en el asistente para definir un nuevo grupo de servidores perimetrales.
   
 ## <a name="next-hop-settings"></a>Configuración del próximo salto
 
-Para especificar el grupo de servidores de mediación o el próximo salto del servidor de mediación, seleccione en la lista desplegable el servidor front-end de Enterprise Edition o el servidor front-end Standard Edition definido. Un director o grupo de directores no es una selección válida para un grupo de servidores de mediación o un próximo salto al servidor de mediación, y no aparecerá en la lista. Haga clic en **Aceptar** para aceptar y guardar los cambios. Haga clic en **Cancelar** para descartar los cambios y salir de la página de propiedades.
+Se especifica el servidor de mediación o el grupo de servidores de mediación del próximo salto seleccionando el grupo de servidores front-end Enterprise Edition o el servidor front-end Standard Edition en la lista desplegable. Un servidor o un grupo de servidores director no son una selección válida para el siguiente salto de un servidor de mediación o un grupo de servidores de mediación; por lo tanto, no figurarán en la lista. Haga clic en **Aceptar** para aceptar y guardar los cambios. Haga clic en **Cancelar** para descartar los cambios y salir de la página de propiedades.
   
 ## <a name="pstn-gateway-settings"></a>Configuración de la puerta de enlace RTC
 
-1. Defina las puertas de enlace RTC que se asocian con el grupo de servidores de mediación o el servidor de mediación. Si ya ha definido las puertas de enlace, estarán disponibles para asociarlas con el servidor de mediación. Si habilita la combinación del servidor de mediación, necesitará definir el intervalo de puertos de escucha del servidor en los servidores del grupo para la Seguridad de la capa de transporte (TLS). Este puerto es 5067 de forma predeterminada. Si selecciona **Habilitar puerto TCP**, necesita definir un puerto TCP para el servidor de mediación combinado. Se trata de una configuración opcional; recomendamos revisar los requisitos de la puerta de enlace o los de la RTC para saber si realmente necesita esto. El valor de este puerto es 5068 de forma predeterminada.
+1. Defina las puertas de enlace de RTC asociadas con el servidor de mediación o el grupo de servidores de mediación. Si ya ha definido puertas de enlace, estarán disponibles para asociar con el servidor de mediación. Si habilita la colocación del servidor de mediación, el puerto de escucha del servidor en los servidores del grupo debe definirse para Seguridad de la capa de transporte (TLS). De forma predeterminada, este puerto es 5067. Si selecciona **Habilitar puerto TCP**, debe definir un puerto TCP para el servidor de mediación colocado. Se trata de una configuración opcional; se recomienda consultar los requisitos de la puerta de enlace o los de la RTC para saber si realmente necesita esto. De forma predeterminada, el valor de este puerto es 5068.
     
-2. Los troncos asociados con el servidor de mediación combinado. Si ya ha definido troncos, se podrán asociar inmediatamente con el servidor de mediación. 
+2. Los troncos asociados con el servidor de mediación colocado. Si ya ha definido troncos, se podrán asociar inmediatamente con el servidor de mediación. 
     
-3. Si tiene más de un tronco asociado a un servidor de mediación, puede especificar un tronco predeterminado seleccionando el tronco y, a continuación, haciendo clic en **establecer como predeterminado**. Para anular la selección de una puerta de enlace como predeterminada, haga clic en **No establecer como predeterminado**. 
+3. Si tiene asociado más de un tronco con un servidor de mediación, se puede especificar un tronco predeterminado seleccionando ese tronco y haciendo clic en **Convertir en predeterminada**. Para anular la selección de una puerta de enlace como predeterminada, haga clic en **Anular como predeterminada**. 
     
 

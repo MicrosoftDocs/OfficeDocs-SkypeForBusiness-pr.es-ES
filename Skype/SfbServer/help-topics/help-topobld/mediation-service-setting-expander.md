@@ -8,22 +8,22 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
-description: Use esta página para configurar los puertos de escucha para este servidor de mediación y establecer sus asociaciones con puertas de enlace de red de telefonía pública conmutada (RTC).
-ms.openlocfilehash: 9b678269905c54d225b276ea2c937adacb6eb826
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Use esta página para definir los puertos de este servidor de mediación y establecer sus asociaciones con puertas de enlace de red telefónica conmutada (RTC).
+ms.openlocfilehash: b771538ec5ff6bbd7eb0cf24be7574278f3428e8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819582"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215121"
 ---
 # <a name="mediation-service-setting-expander"></a>Expansor de configuración de servidor de mediación
  
-Use esta página para configurar los puertos de escucha para este servidor de mediación y establecer sus asociaciones con puertas de enlace de red de telefonía pública conmutada (RTC). 
+Use esta página para definir los puertos de este servidor de mediación y establecer sus asociaciones con puertas de enlace de red telefónica conmutada (RTC). 
   
 

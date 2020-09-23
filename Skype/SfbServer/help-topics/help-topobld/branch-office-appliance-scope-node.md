@@ -8,34 +8,34 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 'Este nodo muestra el nombre de dominio completo (FQDN), los grupos y los servidores asociados, y la información de resistencia de este equipo con la sucursal superviviente. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 7f0314d93b4aa66312275acba9152f2b664ee4dc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Este nodo muestra el nombre de dominio completo (FQDN), los grupos de servidores y servidores asociados y la información de resistencia de esta aplicación de sucursal con funciones de supervivencia. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 4ea58b26a3afa6dd2a96479d878aa043b0633f6c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820292"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216111"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nodo de ámbito de aplicación de sucursal
  
-Este nodo muestra el nombre de dominio completo (FQDN), los grupos y los servidores asociados, y la información de resistencia de este equipo con la sucursal superviviente. Puede realizar las acciones siguientes:
+Este nodo muestra el nombre de dominio completo (FQDN), los grupos de servidores y servidores asociados y la información de resistencia de esta aplicación de sucursal con funciones de supervivencia. Puede realizar las acciones siguientes:
   
-- **Editar propiedades**. Abre la página **Editar propiedades** de este dispositivo de sucursal superviviente, donde puede cambiar el FQDN (si la topología no está ya publicada), las asociaciones y la configuración de resistencia.
+- **Editar propiedades**. Abre la página **Editar propiedades** de esta aplicación de sucursal con funciones de supervivencia, en la que puede cambiar el FQDN (si no se ha publicado la topología), las asociaciones y la configuración de resistencia.
     
-- **Eliminar**. Elimina el servidor de la topología.
+- **Eliminar** Elimina el servidor de la topología.
     
 Además de estas opciones, puede realizar las tareas generales siguientes:
   
-- **Topología**. Esta opción permite definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos o quitar la implementación.
     
-- **Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.
+- **Ver**. Use esta opción para personalizar la vista del Generador de topologías seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     
-- **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
+- **Ayuda**. Use esta opción para obtener acceso a la Ayuda del nodo activo.
     
 

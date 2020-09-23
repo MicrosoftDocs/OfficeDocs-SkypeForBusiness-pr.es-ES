@@ -8,17 +8,18 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.MediationCollocation
+- ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 'De forma predeterminada, el servidor de mediación se combina con el servidor front-end. El servidor de mediación también se puede implementar en un grupo de servidores independiente por motivos de rendimiento o si se implementa el enlace troncal SIP, en cuyo caso se recomienda encarecidamente el grupo de servidores independiente. Combinación en Skype empresarial Server funciona igual que lo hacía en Lync Server 2013. Para obtener más información, consulte los temas siguientes:'
-ms.openlocfilehash: ea77dbcf7752afd95c5ef9379b5fdb4be60bc166
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 29bf9ac043b037112cdd6c7560756ac59caec086
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "42043162"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216321"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Combinación de mediación (herramienta de planeación)
  

@@ -8,44 +8,44 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
-description: 'Puede definir el almacén de SQL Server de supervisión mediante la configuración de las siguientes propiedades:'
-ms.openlocfilehash: a424cb7ae23688224d52510df5db793b3348a176
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Puede Definir el almacén SQL Server de supervisión configurando las propiedades siguientes:'
+ms.openlocfilehash: 48a626483da0dd69f46eca9740b0a9b224218f4d
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821202"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215501"
 ---
 # <a name="add-director-monitoring"></a>Agregar supervisión de director
  
-Puede **definir el almacén de SQL Server de supervisión** mediante la configuración de las siguientes propiedades:
+Puede **Definir el almacén SQL Server de supervisión** configurando las propiedades siguientes:
   
-- **Supervisar el almacén de SQL Server**: seleccione de la lista un nombre de dominio completo (FQDN) de SQL Server (y, opcionalmente, una instancia de SQL Server con nombre).
+- **Supervisión del almacén de SQL Server**: Seleccione un nombre de dominio completo (FQDN) de SQL Server (y, opcionalmente, una instancia de SQL Server con nombre) de la lista.
     
-    Haga clic en **nuevo** para crear una nueva definición de FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén del servidor de supervisión.
+    Haga clic en **nuevo** para crear una nueva definición FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén del servidor de supervisión.
     
-- Active la casilla de verificación Habilitar el reflejo de la **tienda de SQL Server** si quiere agregar reflejo de base de datos para el servidor de supervisión.
+- Active la casilla **Habilitar la creación de reflejos del almacén de SQL Server** si desea agregar la creación de reflejo de la base de datos para el servidor de supervisión.
     
-    Seleccione en la lista un espejo de la **tienda SQL Server de supervisión** existente.
+    Seleccione el **Reflejo del almacén SQL Server de supervisión** existente de la lista.
     
-    Haga clic en **nuevo** para crear una nueva definición de FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén de reflejo.
+    Haga clic en **nuevo** para crear una nueva definición FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén de reflejos.
     
-- Si seleccionó **Habilitar reflejo de la tienda SQL Server**, seleccione **usar el testigo de reflejo de SQL Server para habilitar la conmutación automática por error** para seleccionar un almacén testigo de reflejo de SQL Server de la lista.
+- Si seleccionó **Habilitar la creación de reflejos del almacén de SQL Server**, puede seleccionar usar el testigo de creación de reflejos de **SQL Server para habilitar la conmutación automática por error** para seleccionar un almacén de testigos de reflejo de SQL Server en la lista.
     
-    Haga clic en **nuevo** para crear una nueva definición de FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén testigo de creación de reflejo.
+    Haga clic en **nuevo** para crear una nueva definición FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén testigo de creación de reflejos.
     
-Haga clic en **Atrás** para retroceder al cuadro de diálogo anterior de definición de grupo de servidores.
+Haga clic en **Atrás** para volver al cuadro de diálogo anterior de definición del grupo de servidores.
   
-Cuando haya terminado de escribir las opciones de este cuadro de diálogo, haga clic en **siguiente** para continuar con la configuración.
+Haga clic en **Siguiente** una vez haya terminado de introducir las opciones de este cuadro de diálogo para proceder con la configuración.
   
 Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asistente.
   
-Haga clic en **ayuda** para acceder a ayuda sensible al contexto, como esta página.
+Haga clic en **Ayuda** para acceder a la ayuda contextual, como esta página.
   
 

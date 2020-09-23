@@ -8,23 +8,23 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
-description: 'Para editar la configuración de una sucursal existente o de un servidor de sucursal que sea reviviente, se le presentarán las siguientes secciones:'
-ms.openlocfilehash: ebc3c0d0961fd239ad2b72469b1029ac7b7274d0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para editar la configuración de una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia, dispone de las secciones siguientes:'
+ms.openlocfilehash: 40ebf4a22bcfc3392c2f1dc8238a46b610d22281
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820302"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216131"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
 
-Para editar la configuración de una sucursal existente o de un servidor de sucursal que sea reviviente, se le presentarán las siguientes secciones:
+Para editar la configuración de una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia, dispone de las secciones siguientes:
 
 - Configuración general
 
@@ -34,48 +34,48 @@ Para editar la configuración de una sucursal existente o de un servidor de sucu
 
 
 
-Para una sucursal o un servidor de sucursal con la supervivencia, se le presenta lo siguiente:
+Para una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia, cuenta con lo siguiente:
 
 ## <a name="general-settings"></a>Configuración general
 
-El nombre de dominio completo (FQDN) del equipo de sucursal o del servidor de sucursal que sea reviviente. Edite el FQDN del servidor para cambiar el valor correspondiente. Necesita haber un registro host (A) de DNS que coincida con el nuevo valor.
+El nombre de dominio completo (FQDN) de la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia. Edite el FQDN del servidor para cambiar el valor. Debe tener un registro de host (A) del sistema de nombres de dominio (DNS) que coincida con el valor nuevo.
 
-Puede seleccionar **Usar todas las direcciones IP configuradas** o **Limitar el uso del servicio a las direcciones IP seleccionadas**. Si selecciona **Limitar el uso del servicio a las direcciones IP seleccionadas**, definirá la dirección IP principal que el servidor usará para todas las comunicaciones, excepto para la puerta de enlace de la red de telefonía conmutada (RTC). Para la RTC se define otra dirección IP.
+Puede seleccionar **Usar todas las direcciones IP configuradas** o **Limitar el uso de servicio a las direcciones IP seleccionadas**. Si selecciona **Limitar el uso de servicio a las direcciones IP seleccionadas**, definirá la dirección IP principal que utilizará el servidor para todas las comunicaciones excepto para la puerta de enlace de la red de telefonía conmutada (RTC). Defina otra dirección IP para la RTC.
 
 En **Asociaciones**, puede editar o especificar lo siguiente:
 
-- Asociar el servidor de archivado le permite seleccionar la Asociación de un servidor de archivado con el equipo de sucursal o el servidor de sucursal superviviente. Puede seleccionar de un servidor de archivado ya definido seleccionando el servidor de la lista desplegable o hacer clic en **nuevo** para especificar un nuevo servidor de archivado.
+- Associate archiving Server le permite asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o con un servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor de archivado ya definido seleccionando el servidor en la lista desplegable o hacer clic en **nuevo** para especificar un nuevo servidor de archivado.
 
     > [!IMPORTANT]
-    > Antes de publicar la topología recién definida, el servidor que especifique tiene que existir y estar unido al dominio.
+    > Antes de publicar la topología recién definida, el servidor que especifique debe existir y se debe unir en el dominio.
 
-- El servidor de supervisión asociado le permite seleccionar la Asociación de un servidor de supervisión con el equipo de la sucursal o el servidor de sucursal superviviente. Puede seleccionar uno de los servidores de supervisión ya definidos seleccionando el servidor en la lista desplegable o hacer clic en **nuevo** para especificar un nuevo servidor de supervisión.
+- El servidor de supervisión asociado permite asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o con un servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor de supervisión que ya esté definido seleccionando el servidor en la lista desplegable o hacer clic en **nuevo** para especificar un nuevo servidor de supervisión.
 
-- Asociar grupo Edge le permite seleccionar asociar un servidor perimetral o un grupo de servidores a la sucursal o servidor de sucursal superviviente. Puede elegir un servidor perimetral o un grupo de servidores perimetrales que ya esté definido seleccionándolo en la lista desplegable o hacer clic en **Nuevo** para especificar un servidor perimetral o grupo de servidores perimetrales nuevo.
+- Asociar grupo de servidores perimetrales permite asociar un servidor perimetral o un grupo con la aplicación de sucursal con funciones de supervivencia o con un servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor perimetral o un grupo de servidores perimetrales que ya estén definidos seleccionándolos en la lista desplegable o hacer clic en **Nuevo** para especificar un servidor perimetral o grupo de servidores perimetrales nuevo.
 
 ## <a name="resiliency"></a>Resistencia
 
 La resistencia proporciona una gran disponibilidad al grupo de registradores. Al proporcionar un registrador de copia de seguridad, si el primer registrador falla, el registrador de copia de seguridad puede reemplazar al que ha fallado de modo que los usuarios puedan seguir registrándose y comunicándose. Es posible que algunos usuarios tengan una funcionalidad reducida según los sistemas que hayan fallado con el registrador principal.
 
-En la lista desplegable, seleccione el grupo de servidores front-end de Enterprise Edition o el servidor front-end Standard Edition que actuará como registrador de copias de seguridad de la aplicación de sucursales que es modificable o el servidor de sucursal con la supervivencia. También puede habilitar intervalos de tiempo de conmutación por error y conmutación por recuperación. Al habilitar la configuración de tiempo de conmutación por error y la conmutación por recuperación (lo que se especifica en segundos), se habilita la detección automática de registradores erróneos y un tiempo de conmutación por recuperación que permite la determinación automática que el registrador principal vuelve a estar recuperado y puede retomar el proceso del registrador.
+En la lista desplegable, seleccione el grupo de servidores front-end Enterprise Edition o el servidor front-end Standard Edition que actuará como registrador de reserva de la aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia. También puede habilitar intervalos de tiempo de la conmutación por error y conmutación por recuperación. Al habilitar la configuración de tiempo de la conmutación por error y la conmutación por recuperación (especificada en segundos) se habilita la detección automática de los registradores erróneos, y el tiempo de conmutación por recuperación que permite la determinación automática que el principal vuelve a estar recuperado y puede retomar el proceso del registrador.
 
 > [!IMPORTANT]
-> Al definir la detección de fallos y el intervalo de conmutación por recuperación, tenga mucho cuidado de no introducir un intervalo que provoque la ejecución de la conmutación por error y por recuperación en el caso que el registrador no logre responder durante un espacio breve de tiempo. Es posible que el registrador principal no responda durante breves periodos de tiempo en función de la carga de los grupos o servidores. Los valores predeterminados para un equipo de sucursal con capacidad de supervivencia o un servidor de sucursal que se pueda realizar en un sitio a un grupo de servidores front-end Standard Edition son 120 segundos para la conmutación por error y 240 segundos para la reserva.
+> Al definir la detección de fallos y el intervalo de conmutación por recuperación, tenga mucho cuidado de no introducir un intervalo que provoque la ejecución de la conmutación por error y por recuperación en el caso que el registrador no logre responder durante un espacio breve de tiempo. Es posible que el registrador principal no responda durante breves periodos de tiempo en función de la carga de los grupos o servidores. Los valores predeterminados de una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia de un sitio en un servidor front-end Standard Edition es de 120 segundos para la conmutación por error y 240 segundos para la reserva.
 
 ## <a name="mediation-server"></a>Servidor de mediación
 
-Puede especificar lo siguiente en relación con un **servidor de mediación**:
+Para **Servidor de mediación** puede especificar lo siguiente:
 
-La casilla de verificación para el **servidor de mediación activada** no está disponible en una aplicación de sucursal o servidor de sucursal superviviente, porque el servidor de mediación está en el mismo lugar.
+La casilla de verificación **Servidor de mediación combinado habilitado** no está disponible en una Aplicación de sucursal con funciones de supervivencia o Servidor de sucursal con funciones de supervivencia porque el servidor de mediación está combinado.
 
-Defina el puerto de escucha de los servidores del grupo para Seguridad de la capa de transporte (TLS). Este puerto es 5067 de forma predeterminada. Si selecciona **Habilitar puerto TCP**, necesitará definir un puerto TCP para el servidor de mediación combinado. Se trata de una configuración opcional; recomendamos revisar los requisitos de la puerta de enlace o los de la RTC para saber si realmente necesita esto. El valor de este puerto es 5068 de forma predeterminada.
+Defina el puerto de escucha de los servidores del grupo para la Seguridad de la capa de transporte (TLS). De forma predeterminada, este puerto es 5067. Si selecciona **Habilitar puerto TCP**, debe definir un puerto TCP para el servidor de mediación combinado. Esta configuración es opcional y debería consultar los requisitos de su puerta de enlace o de la RTC para determinar si la necesita. De forma predeterminada, el valor del puerto TCP es 5068.
 
-Las puertas de enlace RTC se definen con el servidor de mediación de anuncios. Si ya ha definido las puertas de enlace, estarán disponibles para asociarlas con el servidor de mediación. Si no ha definido ninguna puerta de enlace, pero hay disponibles para definirlas, puede seleccionar **Nuevo**. También puede quitar las puertas de enlace que ya están configuradas para este servidor de mediación. Seleccione la puerta de enlace y, luego, haga clic en **Quitar**.
+Defina las puertas de enlace de la RTC que están asociadas con el servidor de mediación combinado. Si ya ha definido puertas de enlace, éstas se podrán asociar con el servidor de mediación. Si no a definido ninguna puerta de enlace, pero las tiene disponibles para definirlas, puede seleccionar **Nuevo**. También puede quitar puertas de enlace que ya estén configuradas para este servidor de mediación. Seleccione la puerta de enlace y, a continuación, haga clic en **Quitar**.
 
-Si tiene más de una puerta de enlace asociada con un servidor de mediación, la primera puerta de enlace asociada será la predeterminada. Si tiene que elegir otra puerta de enlace como predeterminada, seleccione la que quiera y, luego, haga clic en **Establecer como predeterminado**.
+Si tiene más de una puerta de enlace asociada con el servidor de mediación, la primera puerta de enlace asociada será la predeterminada. Si debe elegir otra puerta de enlace como predeterminada, seleccione la que desee y, a continuación, haga clic en **Convertir en predeterminada**.
 
 ## <a name="see-also"></a>Vea también
 
-Para obtener detalles acerca de la definición y configuración de la configuración de la aplicación de sucursal o servidor de sucursal supervivientes, consulte [soluciones de resistencia para sitios de sucursales](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
+Para más información sobre cómo definir y configurar la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia, consulte [Branch-Site Resiliency Solutions](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
 
 

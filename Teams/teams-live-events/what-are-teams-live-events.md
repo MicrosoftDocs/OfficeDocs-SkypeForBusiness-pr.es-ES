@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902295"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203963"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -66,10 +66,13 @@ La entrada de video es el fundamento del evento en vivo y puede variar desde una
 
     ![Captura de pantalla que muestra un evento en directo producido mediante una aplicación o un dispositivo externo](../media/teams-live-events-external-encoder.png "Captura de pantalla que muestra un evento en directo que se produce con el método de producción de dispositivo o aplicación externa")
 
+>[!Note]
+> El cambio de usar Microsoft Stream a [OneDrive para la empresa y SharePoint para las grabaciones](../tmr-meeting-recording-change.md) de la reunión será un enfoque por fases. En el lanzamiento podrá optar por esta experiencia, en noviembre tendrá que optar por no participar si desea seguir usando la secuencia y, a principios de 2021, necesitaremos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
+
 ### <a name="streaming-platform"></a>Plataforma de streaming
 La plataforma de transmisión por secuencias de eventos en directo consta de las siguientes partes:
 
-- **Servicios multimedia de Azure**: [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) le ofrece servicios de streaming de video de alta calidad para alcanzar audiencias mayores en los dispositivos móviles más populares de la actualidad. Servicios multimedia mejora la accesibilidad, la distribución y la escalabilidad, y hace que sea más fácil y rentable transmitir contenido a sus audiencias locales o de todo el mundo, a la vez que protege su contenido.
+- **Servicios multimedia de Azure**:  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) le ofrece servicios de streaming de video de alta calidad para alcanzar audiencias mayores en los dispositivos móviles más populares de la actualidad. Servicios multimedia mejora la accesibilidad, la distribución y la escalabilidad, y hace que sea más fácil y rentable transmitir contenido a sus audiencias locales o de todo el mundo, a la vez que protege su contenido.
 - **Red de entrega de contenido (CDN) de Azure**: una vez que la secuencia llega a funcionar, se realiza a través de la [red de entrega de contenido (CDN) de Azure](https://docs.microsoft.com/azure/cdn/). Servicios multimedia de Azure proporciona CDN integrado para los puntos de conexión de streaming. Esto permite que las transmisiones se vean en todo el mundo sin ningún almacenamiento en búfer.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Red de entrega de contenido empresarial (eCDN)
@@ -86,7 +89,7 @@ La experiencia de los asistentes es el aspecto más importante de los eventos en
 ### <a name="live-event-usage-report"></a>Informe de uso de eventos en directo 
 Los administradores de inquilinos pueden ver análisis de uso de tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El [Informe de uso de eventos en directo](../teams-analytics-and-reports/teams-live-event-usage-report.md) muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 Vaya a [planificar eventos en vivo de Teams](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados
