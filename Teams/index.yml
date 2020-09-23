@@ -13,12 +13,12 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: 57976f5f6f205c7392a3a426c59a0eac84580a50
+  ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43905482"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "48203933"
 highlightedContent:
   items:
   - title: 'Respuesta frente a la COVID-19: dar soporte técnico a los trabajadores remotos con Teams'
@@ -39,6 +39,20 @@ highlightedContent:
   - title: Centro de adopción
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+productDirectory:
+  items:
+  - title: Integración con Microsoft Power Platform
+    imageSrc: ./media/blocks-teams.svg
+    summary: Implemente procesos empresariales y agregue valor con Microsoft Power Platform
+    url: teams-power-platfom-integration.md
+  - title: 'Caso práctico de Contoso: migración de voz de Teams'
+    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-teams.svg
+    summary: Vea cómo una corporación multinacional ficticia ha implementado la solución de voz de Teams en su organización.
+    url: voice-case-study-overview.md
+  - title: Gobierno de colaboración en Microsoft 365
+    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
+    summary: Desarrolle una estrategia de gobernanza para servicios de colaboración de Microsoft 365 que se adapte a las necesidades de su organización.
+    url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
 additionalContent:
   sections:
   - items:
