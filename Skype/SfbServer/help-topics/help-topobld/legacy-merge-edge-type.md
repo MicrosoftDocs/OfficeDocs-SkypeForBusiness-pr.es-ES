@@ -8,22 +8,22 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeEdgeTypePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
-description: Para un servidor perimetral único o un servidor perimetral consolidado con equilibrio de carga, haga clic en siguiente para especificar la información de configuración. Para un borde más amplio, la configuración de cada servidor debe cambiarse a una configuración de borde consolidado antes de poder combinarse con Lync Server 2013.
-ms.openlocfilehash: a0bb81fde0366415d93329436a32b287ada55a50
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En caso de Un solo servidor perimetral o un Servidor perimetral consolidado con equilibrio de carga, haga clic en Siguiente para especificar la información de configuración. Para un perímetro expandido, la configuración de cada servidor se debe cambiar a una configuración perimetral consolidada antes de poder combinarla con Lync Server 2013.
+ms.openlocfilehash: c4f208fc1ec45ca9a50082843195cfcf47c1c1a7
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819772"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218481"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="27fad-104">Tipo de perímetro combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="27fad-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="2798c-104">Tipo de perímetro combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="2798c-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="27fad-105">Para un **servidor perimetral único** o un servidor **perimetral consolidado con equilibrio de carga** , haga clic en **siguiente** para especificar la información de configuración.</span><span class="sxs-lookup"><span data-stu-id="27fad-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="27fad-106">Para un **borde más amplio**, la configuración de cada servidor debe cambiarse a una configuración de borde consolidado antes de poder combinarse con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="27fad-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
+<span data-ttu-id="2798c-105">En caso de **Un solo servidor perimetral** o un **Servidor perimetral consolidado con equilibrio de carga**, haga clic en **Siguiente** para especificar la información de configuración.</span><span class="sxs-lookup"><span data-stu-id="2798c-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="2798c-106">Para un **perímetro expandido**, la configuración de cada servidor se debe cambiar a una configuración perimetral consolidada antes de poder combinarla con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2798c-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
   
 

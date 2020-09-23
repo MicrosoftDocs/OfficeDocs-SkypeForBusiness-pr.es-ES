@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithArchivingPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
-description: Cada grupo de servidores front-end y la aplicación de rama superviviente puede tener solo un servidor de archivado asociado. Cuando el archivado está habilitado para el sitio, el servidor de archivado recopila y registra el contenido del mensaje de mensajería instantánea y el contenido de la conferencia Web de las conversaciones en las que los usuarios están alojados en los grupos y en los equipos de las sucursales.
-ms.openlocfilehash: f8c860f41aed271d42fc8c077306f03ab9a12a51
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo puede tener asociado un servidor de archivado. Si el sitio tiene el archivado habilitado, el servidor de archivado recopila y registra el contenido de mensajes de la mensajería instantánea y el contenido de conferencias web de las conversaciones mantenidas por usuarios hospedados en los grupos asociados y aplicaciones de sucursal con funciones de supervivencia.
+ms.openlocfilehash: 8a4a1f4da9ef9f484547bb90b64b128d78dba5d4
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820422"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217801"
 ---
-# <a name="associate-front-end-with-archiving"></a><span data-ttu-id="20762-104">Asociar front-end con archivado</span><span class="sxs-lookup"><span data-stu-id="20762-104">Associate Front End With Archiving</span></span>
+# <a name="associate-front-end-with-archiving"></a><span data-ttu-id="9ad0d-104">Asociar front-end con archivado</span><span class="sxs-lookup"><span data-stu-id="9ad0d-104">Associate Front End With Archiving</span></span>
  
-<span data-ttu-id="20762-105">Cada grupo de servidores front-end y la aplicación de rama superviviente puede tener solo un servidor de archivado asociado.</span><span class="sxs-lookup"><span data-stu-id="20762-105">Each Front End pool and Survivable Branch Appliance can have only one Archiving Server associated with it.</span></span> <span data-ttu-id="20762-106">Cuando el archivado está habilitado para el sitio, el servidor de archivado recopila y registra el contenido del mensaje de mensajería instantánea y el contenido de la conferencia Web de las conversaciones en las que los usuarios están alojados en los grupos y en los equipos de las sucursales.</span><span class="sxs-lookup"><span data-stu-id="20762-106">When archiving is enabled for the site, Archiving Server then collects and records instant messaging (IM) message content and web conference content from conversations involving the users homed on the associated pools and Survivable Branch Appliances.</span></span> 
+<span data-ttu-id="9ad0d-p102">Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo puede tener asociado un servidor de archivado. Si el sitio tiene el archivado habilitado, el servidor de archivado recopila y registra el contenido de mensajes de la mensajería instantánea y el contenido de conferencias web de las conversaciones mantenidas por usuarios hospedados en los grupos asociados y aplicaciones de sucursal con funciones de supervivencia.</span><span class="sxs-lookup"><span data-stu-id="9ad0d-p102">Each Front End pool and Survivable Branch Appliance can have only one Archiving Server associated with it. When archiving is enabled for the site, Archiving Server then collects and records instant messaging (IM) message content and web conference content from conversations involving the users homed on the associated pools and Survivable Branch Appliances.</span></span> 
   
-<span data-ttu-id="20762-107">Todas las agrupaciones en un sitio y los grupos de varios sitios centrales pueden usar el mismo servidor de archivado si el uso no supera la capacidad del servidor de archivado.</span><span class="sxs-lookup"><span data-stu-id="20762-107">All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server.</span></span> 
+<span data-ttu-id="9ad0d-107">Todos los grupos de servidores de un sitio y los grupos de servidores de varios sitios centrales pueden utilizar el mismo servidor de archivado, siempre y cuando este uso no supere la capacidad del servidor de archivado.</span><span class="sxs-lookup"><span data-stu-id="9ad0d-107">All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server.</span></span> 
   
 
