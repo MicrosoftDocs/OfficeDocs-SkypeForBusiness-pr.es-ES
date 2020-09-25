@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820644"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262537"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -189,7 +189,9 @@ El certificado debe ser generado por una de las siguientes entidades emisoras de
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 
-
+Para el enrutamiento directo en Office 365 GCC de entorno DoD, es necesario que una de las siguientes entidades emisoras de certificados raíz genere el certificado:
+- Entidad de certificación raíz global de DigiCert
+- DigiCert raíz de validación extendida de alta seguridad
 
 > [!NOTE]
 > * Si la compatibilidad con TLS Mutual (MTLS) está habilitada para la conexión de Teams en el SBC, debe instalar el certificado raíz de Baltimore CyberTrust en el almacén raíz de confianza de SBC del contexto de TLS de Teams. (Esto se debe a que los certificados de servicio de Microsoft usan el certificado de raíz de Baltimore). Para descargar el certificado de la raíz de Baltimore, consulte [cadenas de cifrado de Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).

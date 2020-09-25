@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: Administrador puede aprender a usar las conferencias de audio con enrutamiento directo en entornos GCCH y DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55efdc0c79f80a2a7b7ca44fd9c80481b163c63f
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 34fcb84ee0e5126188f47a4ccc231c04ffd093b2
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868597"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262497"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencia con enrutamiento directo para GCC High y DoD
 
@@ -91,25 +91,79 @@ Puede ver el identificador de su puente de audioconferencia con get-CsOnlineDial
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Paso 4: asignar audioconferencias con enrutamiento directo para las licencias de GCC High o DoD a los usuarios
+
+### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>Paso 4: definir una directiva de enrutamiento de voz global para habilitar el enrutamiento de llamadas salientes desde reuniones
+
+El enrutamiento de las llamadas salientes que se realizan a la RTC desde las reuniones organizadas por los usuarios de su organización se define mediante la Directiva de enrutamiento de voz global de su organización. Si su organización tiene definida una directiva de enrutamiento de voz global, compruebe que la Directiva de enrutamiento de voz global permita las llamadas salientes a la RTC que se espera que se inicien desde las reuniones organizadas por los usuarios de su organización. Si su organización no tiene definida una directiva de enrutamiento de voz global, tendrá que definir una para habilitar el enrutamiento de llamadas salientes a la RTC desde las reuniones organizadas por los usuarios de su organización. Tenga en cuenta que la Directiva de enrutamiento de voz global de su organización también se aplica a las llamadas individuales hechas a la RTC por los usuarios de su organización. Si las llamadas de uno a uno a la RTC están habilitadas para los usuarios de su organización, asegúrese de que la Directiva de enrutamiento de voz global cumpla con las necesidades de su organización para ambos tipos de llamadas. 
+
+> [!NOTE]
+> El enrutamiento basado en la ubicación no está disponible en las implementaciones High o DoD de la comunidad de Microsoft 365 pública Cloud (GCC). Al habilitar la audioconferencia, compruebe que no hay usuarios de conferencias de audio en los entornos GCC High o DoD habilitados para el enrutamiento basado en la ubicación.
+
+#### <a name="defining-a-global-voice-routing-policy"></a>Definir una directiva de enrutamiento de voz global
+
+Se puede definir una directiva de enrutamiento de voz global definiendo un uso de RTC, una ruta de voz, una directiva de enrutamiento de voz y asignando la nueva Directiva de enrutamiento de voz como la Directiva de enrutamiento de voz global de su organización.
+
+Los pasos siguientes describen cómo definir una nueva Directiva de enrutamiento de voz global para una organización sin una. Si su organización ya tiene directivas de enrutamiento de voz definidas, compruebe que la siguiente configuración no entra en conflicto con las directivas de enrutamiento de voz existentes de su organización.
+
+Para crear un nuevo uso de RTC en una sesión de PowerShell remota en Skype empresarial online, use el siguiente comando:
+
+  ```PowerShell
+  Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+  ```
+
+Para obtener más información, consulte [set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage).
+
+Para crear una nueva ruta de voz, use el siguiente comando:
+
+  ```PowerShell
+  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
+  ```
+
+Al definir una nueva ruta de voz para su organización, especifique una o varias de las puertas de enlace RTC en línea RTC que haya definido para su organización durante la configuración del enrutamiento directo. 
+
+El patrón de número especifica qué llamadas se redirigirán a través de la lista especificada de puertas de enlace basándose en el número de teléfono de destino de la llamada. En el ejemplo anterior, las llamadas a cualquier destino del mundo coincidirán con la ruta de voz. Si desea restringir los números de teléfono que se pueden marcar desde las reuniones de los usuarios de su organización, puede cambiar el patrón de número para que la ruta de voz coincida solo con los patrones de número de los destinos permitidos. Ten en cuenta que si no hay rutas de voz que coincidan con el patrón de número del número de teléfono de destino de una llamada determinada, la llamada no se redirigirá.
+
+Para obtener más información, consulte [New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute).
+
+Para crear una nueva Directiva de enrutamiento de voz, use el siguiente comando:
+
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
+  ```
+
+Si se definen varios usos de RTC en la Directiva de enrutamiento de voz, se evaluarán en el orden en que se hayan definido. Se recomienda que los usos de RTC se definan en el orden más específico para el más genérico, en cuanto a los patrones de número de las rutas de voz asociadas con los usos de RTC. Por ejemplo, si se definió un uso de RTC para enrutar llamadas a los Estados Unidos y otro uso de RTC se definió para enrutar llamadas a cualquier otra ubicación del mundo, el uso de RTC para llamadas a Estados Unidos debe mostrarse en la Directiva de enrutamiento de voz antes del uso de la RTC para enrutar llamadas a cualquier otra ubicación del mundo.
+
+Para obtener más información, consulte [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+
+Para asignar la nueva ruta de voz a la Directiva de enrutamiento de voz global de su organización, use el siguiente comando:
+
+  ```PowerShell
+  Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
+  ```
+
+Para obtener más información, consulte [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+
+Una vez que se haya definido la Directiva de enrutamiento de voz global, cualquier llamada saliente realizada por los usuarios de su organización se evaluará con las rutas de voz asociadas a los usos de RTC de la Directiva de enrutamiento de voz global. Las llamadas salientes se redirigirán según la primera ruta de voz que coincida con el patrón de número del número de teléfono marcado.
+
+### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Paso 5: asignar audioconferencias con enrutamiento directo para las licencias de GCC High o DoD a los usuarios
 
 Para asignar conferencias de audio con enrutamiento directo para las licencias GCC High o DoD para el usuario, consulte [asignar licencias a usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
-### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Paso 5: (opcional) ver una lista de números de conferencias de audio en Teams
+### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Paso 6: (opcional) ver una lista de números de conferencias de audio en Teams
 
-Para ver la lista de números de audioconferencia de su organización, vaya a [ver una lista de los números de audioconferencia en Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Para ver la lista de números de audioconferencia de su organización, vaya a [ver una lista de los números de audioconferencia en Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
-### <a name="step-6-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>Paso 6: (opcional) establecer los idiomas del operador automático para los números de acceso telefónico de las conferencias de audio de la organización
+### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>Paso 7: (opcional) establecer los idiomas del operador automático para los números de acceso telefónico de las conferencias de audio de la organización
 
-Para cambiar los idiomas de los números de acceso telefónico de las conferencias de audio de su organización, consulte [establecer los idiomas del operador automático para audioconferencia en Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+Para cambiar los idiomas de los números de acceso telefónico de las conferencias de audio de su organización, consulte [establecer los idiomas del operador automático para audioconferencia en Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
 
-### <a name="step-7-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>Paso 7: (opcional) cambiar la configuración del puente de audioconferencia de su organización
+### <a name="step-8-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>Paso 8: (opcional) cambiar la configuración del puente de audioconferencia de su organización
 
-Para cambiar la configuración del puente de conferencias de audio de su organización, consulte [cambiar la configuración de un puente de audioconferencia](change-the-settings-for-an-audio-conferencing-bridge.md)
+Para cambiar la configuración del puente de conferencias de audio de su organización, consulte [cambiar la configuración de un puente de audioconferencia](change-the-settings-for-an-audio-conferencing-bridge.md).
 
-### <a name="step-8-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>Paso 8: (opcional) establecer los números de teléfono incluidos en las invitaciones a reuniones de los usuarios de su organización
+### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>Paso 9: (opcional) establecer los números de teléfono incluidos en las invitaciones a reuniones de los usuarios de su organización
 
-Para cambiar el conjunto de números de teléfono que se incluyen en las invitaciones a reuniones de los usuarios es su organización, consulte [configurar los números de teléfono incluidos en los invitados en Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) .
+Para cambiar el conjunto de números de teléfono que se incluyen en las invitaciones a reuniones de los usuarios es su organización, consulte [configurar los números de teléfono incluidos en los invitados en Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 ## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Capacidades de audioconferencia no compatibles con las conferencias de audio con enrutamiento directo para GCC High y DoD
 

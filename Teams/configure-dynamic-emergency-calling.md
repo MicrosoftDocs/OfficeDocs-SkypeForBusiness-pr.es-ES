@@ -17,12 +17,12 @@ description: Aprenda a configurar el enrutamiento directo de las llamadas de Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321743"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269654"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -141,7 +141,7 @@ Tenga en cuenta que puede tardar un poco de tiempo (hasta un par de horas) en al
 
 ## <a name="configure-location-information-service"></a>Configurar servicio de información de ubicación
 
-Un cliente de Teams obtiene las direcciones de emergencia de las ubicaciones asociadas a identificadores de red diferentes. Se admiten las subredes y los puntos de acceso inalámbrico (WAP). (La compatibilidad con el conmutador/puerto Ethernet está pendiente).
+Un cliente de Teams obtiene las direcciones de emergencia de las ubicaciones asociadas a identificadores de red diferentes. Se admiten las subredes y los puntos de acceso inalámbrico (WAP). El conmutador o puerto Ethernet es compatible con Windows 8,1 y versiones posteriores en este momento.
 
 Para que un cliente obtenga una ubicación, debe rellenar el LIS con identificadores de red (subredes, WAP, conmutadores, puertos) y ubicaciones de emergencia. Puede hacerlo en el centro de administración de Microsoft Teams o mediante PowerShell.
 

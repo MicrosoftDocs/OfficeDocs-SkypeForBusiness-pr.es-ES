@@ -16,12 +16,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 04ddae49ae16db6c85f67a078f5f5cc1b59c60e8
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203973"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262467"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -30,7 +30,7 @@ En Microsoft Teams, los usuarios pueden grabar sus reuniones y llamadas de grupo
 Relacionado: [Documentación de usuario final de grabación de reuniones de Teams](https://aka.ms/recordmeeting)
 
 >[!Note]
-> El cambio de usar Microsoft Stream a [OneDrive para la empresa y SharePoint para las grabaciones](tmr-meeting-recording-change.md) de la reunión será un enfoque por fases. En el lanzamiento podrá optar por esta experiencia, en noviembre tendrá que optar por no participar si desea seguir usando la secuencia y, a principios de 2021, necesitaremos todos los clientes de OneDrive para la empresa y SharePoint para las grabaciones de la reunión.
+> El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento, podrá participar en esta experiencia; en noviembre tendrá que dejar de participar si quiere seguir usando Stream y, en algún momento a principios de 2021, requeriremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para las grabaciones de reuniones.
 
 > [!NOTE]
 > Para obtener información sobre el uso de roles en reuniones de Teams y sobre cómo cambiar los roles de los usuarios, vea [roles en una reunión de Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -112,7 +112,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de Microsoft Stream. Las grabaciones se conservan y están disponibles para su visualización y descarga durante veintiún días. Actualmente, la característica de grabación de reuniones está desactivada para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país en la que se almacenan los datos. En el futuro se activará la característica de grabación de reuniones para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país.
 
-Cuando este cambio se haya hecho efectivo, las grabaciones de reuniones se almacenarán de forma predeterminada en la región geográfica más cercana para Microsoft Stream. Si los datos de Teams se almacenan en el país y prefiere almacenar las grabaciones de reuniones en el país, se recomienda que desactive la característica y la active después de que se implemente Microsoft Stream en su región de residencia de datos del país. Para desactivar la característica para todos los usuarios de su organización, desactive la opción **permitir la grabación** en la nube de la Directiva de reunión global de Teams, que se encuentra en el centro de administración de Microsoft Teams.
+Cuando este cambio se haya hecho efectivo, las grabaciones de reuniones se almacenarán de forma predeterminada en la región geográfica más cercana para Microsoft Stream. Si los datos de Teams se almacenan en el país y prefiere almacenar las grabaciones de reuniones en el país, se recomienda que desactive la característica y la active después de que se implemente Microsoft Stream en su región de residencia de datos del país. Para desactivar la característica para todos los usuarios de su organización, desactive la opción **permitir la grabación** en la nube de la Directiva de reunión global de Teams, que se encuentra en el centro de administración de Microsoft Teams. Sin embargo, si aún desea habilitar las grabaciones para que se almacenen en la región geográfica más cercana de Microsoft Stream, debe activar la **opción permitir grabación en nube** y **permitir el almacenamiento de grabaciones fuera** de la región antes de que se produzca este cambio.
+
+Para habilitar las grabaciones en la región de la directiva global, use el siguiente cmdlet:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
+
 
 Aquí se muestra un resumen de lo que ocurre al activar la grabación de reuniones cuando este cambio se haga efectivo:
 

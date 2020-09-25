@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 Groups y Microsoft Teams
-ms.reviewer: Kyle Blevins
-author: SerdarSoysal
-ms.author: serdars
+ms.reviewer: kblevins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
@@ -18,15 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4861683d3c46eaa6122ffbac0d2ae17b4f3a7979
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 2b76dd455aa2ec4e478254f6a4dbaceefc57562b
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656001"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262387"
 ---
-<a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groups y Microsoft Teams
-=====================================
+# <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groups y Microsoft Teams
 
 > [!Tip]
 > Vea la siguiente sesión para obtener información sobre cómo Teams interactúa con Azure Active Directory (Azure AD), grupos de Microsoft 365, Exchange, SharePoint y OneDrive para la empresa: [bases de Microsoft Teams](https://aka.ms/teams-foundations)

@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65c0d50686346b715ca7e10b455845927ff22341
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218411"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269644"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
 > [!Note]
-> El cambio de usar Microsoft Stream a OneDrive para la empresa y SharePoint para las grabaciones de la reunión será un enfoque por fases. En el lanzamiento podrá optar por esta experiencia, en noviembre tendrá que optar por no participar si desea seguir usando la secuencia y, a principios de 2021, necesitaremos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
+> El cambio de uso desde Microsoft Stream a OneDrive para la Empresa y SharePoint para grabar las reuniones estará basado en fases. En el inicio, los administradores de inquilinos pueden elegir esta nueva opción de flujo de trabajo hoy y empezar a ver la carga automática de grabaciones para OneDrive para la empresa y SharePoint en el 2020 de octubre. En noviembre, tendrá que optar por no poder seguir usando Stream, y durante principios de 2021 requerimos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
 
-Microsoft Teams tiene un nuevo método para guardar las grabaciones de la reunión. Como salida de Stream, el método usa Microsoft OneDrive y SharePoint en Microsoft 365 y ofrece muchas ventajas:
+Microsoft Teams tiene un nuevo método para guardar las grabaciones de la reunión. Como salida de Stream, el método usa Microsoft OneDrive y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 
 Entre las ventajas de usar OneDrive para la empresa y SharePoint para almacenar grabaciones, se incluyen:
 
@@ -53,9 +53,9 @@ Hay algunas limitaciones que debe tener en cuenta:
 - Puede controlar con quién comparte la grabación, pero no podrá bloquear a los usuarios con acceso compartido para que no descarguen la grabación.
 - No recibirá un correo electrónico cuando la grabación termine de guardar, pero la grabación aparecerá en la conversación de la reunión una vez que haya finalizado. Esto se hará mucho más rápido de lo que hacía en la secuencia anteriormente
 
-Vea "grabación de reuniones" para obtener más información. 
+Vea "grabación de reuniones" para obtener más información.
 
-> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8] 
+> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurar la opción de grabación de la reunión para OneDrive para la empresa y SharePoint
 

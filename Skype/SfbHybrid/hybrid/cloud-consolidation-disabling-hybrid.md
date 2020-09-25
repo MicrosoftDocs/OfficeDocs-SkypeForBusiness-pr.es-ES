@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apéndice incluye pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación en la nube para Teams y Skype empresarial.
-ms.openlocfilehash: a049491550ed26c61c587824034035a4c3a40a07
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221504"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269664"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deshabilitar la implementación híbrida para completar la migración a la nube
 
@@ -39,6 +39,8 @@ Después de mover todos los usuarios del entorno local a la nube, puede desactiv
 3. Deshabilite la capacidad local para comunicarse con Microsoft 365 u Office 365.
 
 Estos pasos deben realizarse juntos como una unidad. A continuación se proporcionan detalles. Además, se proporcionan instrucciones para administrar los números de teléfono de los usuarios migrados una vez que la implementación local está desconectada.
+
+Una vez completados estos pasos, los servidores locales de Skype empresarial ya no se usan y se pueden volver a crear las imágenes de estos servidores.
 
 > [!Important] 
 >Debe seguir haciendo que los atributos de msRTCSIP en la sincronización de Active Directory mediante Azure AD se conecten a Azure AD.  No borre ninguno de estos atributos a menos que se lo indique el soporte técnico.  No ejecute Disable-CsUser en el entorno local. Si necesita modificar la dirección SIP de un usuario, haga esto en su Active Directory local y deje que este cambio se sincronice en Azure AD a través de Azure AD Connect, como se describe a continuación. De forma similar, si necesita cambiar un número de teléfono y la LineURI del usuario ya está definida en local, debe modificarla en el entorno local de Active Directory.
@@ -53,8 +55,8 @@ El DNS externo de la organización para la organización local debe actualizarse
 
     |Tipo de registro|Nombre|TTL|Valor|
     |---|---|---|---|
-    |SRV|_sipfederationtls. _tcp|3600|100 1 5061 sipfed. online. Lync. <span> Puerto|
-    |SRV|_sip. _tls|3600|100 1 443 sipdir. online. Lync. <span> Puerto|
+    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed. online. Lync. <span> Puerto|
+    |SRV|_sip._tls|3600|100 1 443 sipdir. online. Lync. <span> Puerto|
     |CNAME| lyncdiscover|   3600|   webdir. online. Lync. <span> Puerto|
     |CNAME| sip|    3600|   sipdir. online. Lync. <span> Puerto|
     |CNAME| cumplir|   3600|   webdir. online. Lync. <span> Puerto|
