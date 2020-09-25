@@ -8,9 +8,11 @@
 
 # Aprendizaje
 ## [Información general](training-microsoft-teams-landing-page.md)
-## [Cursos de entrenamiento dirigidos por un instructor para Teams](instructor-led-training-teams-landing-page.yml)
 ## [Formación de administradores para Teams](itadmin-readiness.md)
 ## [Formación del usuario final para Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Sesiones de Teams en Ignite 2020](ignite-2020-landing-page.md)
+## [Formación en directo de Teams](instructor-led-training-teams-landing-page.yml)
+## [Formación en línea de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Cómo implementar Teams](How-to-roll-out-teams.md)
@@ -85,7 +87,6 @@
 ### [Asignar directivas a los usuarios](assign-policies.md)
 ### [Ver las asignaciones de directivas en el registro de actividades](activity-log.md)
 ### [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
-### [Bloquear el acceso a SharePoint para determinados usuarios](block-access-sharepoint.md)
 ### [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)
 ### [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)
 ### [Administrar las políticas de comentarios para Teams](manage-feedback-policies-in-teams.md)
@@ -112,21 +113,24 @@
 # Aplicaciones, bots y conectores
 
 ## [Información general](deploy-apps-microsoft-teams-landing-page.md)
+## [Integración con Power Platform](teams-power-platfom-integration.md)
 ## [Administrar aplicaciones para Teams](manage-apps.md)
 ## [Configurar la administración para aplicaciones en Teams](admin-settings.md)
 ## [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
 ## [Usar Microsoft 365 u Office 365 y los conectores personalizados](Office-365-custom-connectors.md)
 ## [Consentimiento específico del recurso](resource-specific-consent.md)
-## [Publicar una aplicación personalizada que se ha enviado a través de la API de envío de aplicaciones de Teams](submit-approve-custom-apps.md)
-## [Publicar una aplicación personalizada cargando un paquete de aplicación](upload-custom-apps.md)
+## Aplicaciones personalizadas
+### [Publicar una aplicación personalizada enviada a través de la API de envío de aplicaciones de Teams](submit-approve-custom-apps.md)
+### [Administrar aplicaciones de Power Platform en el Centro de administración de Microsoft Teams](manage-power-platform-apps.md)
+### [Publicar una aplicación personalizada cargando un paquete de aplicación](upload-custom-apps.md)
 ## [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Consideraciones y permisos de las aplicaciones](app-permissions.md)
 ## [Comprar servicios para aplicaciones de terceros de Teams](purchase-third-party-apps.md)
 ## [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Administrar la aplicación Listas para su organización en Teams](manage-lists-app.md)
 ## [Administrar la aplicación Tareas para su organización](manage-tasks-app.md)
-## [Administrar la app Elogio en el Centro de administración de Teams](manage-praise-app.md)
 ## [Configurar la jerarquía de destinos de equipo](set-up-your-team-hierarchy.md)
+## [Administrar la aplicación Praise en el Centro de administración de Microsoft Teams](manage-praise-app.md)
 ## [Configurar la aplicación de Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -183,6 +187,7 @@
 ## [Reuniones de equipo en exploradores no compatibles](unsupported-browsers.md)
 ## [Configurar Compartir escritorio en Microsoft Teams](configure-desktop-sharing.md)
 ## [Grabación de reuniones en la nube de Teams](cloud-recording.md)
+## [Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones](tmr-meeting-recording-change.md)
 ## [Integración con el centro de contactos](teams-contact-center.md)
 ## [Usar el complemento para reunión de Microsoft Teams en Outlook](teams-add-in-for-outlook.md)
 ## [Configure la característica llamarme para sus usuarios](set-up-the-call-me-feature-for-your-users.md)
@@ -255,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [Interoperabilidad de vídeos en la nube](cloud-video-interop.md)
 
 ## Eventos en directo
@@ -290,14 +294,15 @@
 #### [Más información sobre Identificadores de línea de la llamada entrante y nombres para mostrar a la persona que llama](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Operadores automáticos y las colas de llamadas 
-#### [Qué son los operadores automáticos en la nube](what-are-phone-system-auto-attendants.md)
-#### [Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)
+#### [Planificación](plan-auto-attendant-call-queue.md)
+#### [Configuración del operador automático](create-a-phone-system-auto-attendant.md)
+#### [Configuración de la cola de llamadas](create-a-phone-system-call-queue.md)
 #### [Ejemplo de pequeña empresa: configurar un operador automático](tutorial-org-aa.yml)
 #### [Ejemplo de pequeña empresa: configurar una cola de llamada](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Administrar cuentas de recursos de Teams](manage-resource-accounts.md)
-#### [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
 #### [Configurar vacaciones](set-up-holidays-in-teams.md)
 #### [Responder al operador automático y llamar a la cola de llamadas directamente desde Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Referencia de voz y marcado](dial-voice-reference.md)
 
 ### [Bloquear llamadas entrantes](block-inbound-calls.md)
 ### [Estacionar llamadas y recuperar](call-park-and-retrieve.md)
@@ -733,7 +738,12 @@
 #### [Buscar eventos en el registro de auditoría](audit-log-events.md)
 ## Privacidad
 ### [Privacidad y Microsoft Teams](teams-privacy.md)
+### [Prácticas de recopilación de datos](data-collection-practices.md)
 ### [Ubicación de los datos en Teams](location-of-data-in-teams.md)
+### [Bloquear el acceso a SharePoint Online para determinados usuarios](block-access-sharepoint.md)
+### [Información general sobre el control de directivas](policy-control-overview.md)
+### [Datos de diagnóstico móviles](policy-control-diagnostic-data-mobile.md)
+### [Datos de diagnóstico de cliente de escritorio](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Supervisar, mantener y solucionar problemas
@@ -780,8 +790,6 @@
 # Referencia
 
 ## [Especificaciones y límites de Teams](limits-specifications-teams.md)
-## [Ubicación de los datos en Teams](location-of-data-in-teams.md)
-## [Prácticas de recopilación de datos](data-collection-practices.md)
 
 ## Prepararse para implementar Teams
 ### [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
@@ -979,5 +987,5 @@
 ### [Términos y condiciones de llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
 ## [Cuestionario de detección de actualización](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Exportar contenido con la API para exportar de Microsoft Teams](export-teams-content.md)
 ## [Notas de la versión de las características de administración de Teams](release-notes/release-notes.md)
