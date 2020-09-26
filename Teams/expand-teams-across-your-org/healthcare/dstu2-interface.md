@@ -18,14 +18,21 @@ appliesto:
 ms.reviewer: anach
 description: Obtenga más información sobre la especificación de la interfaz de DSTU2 en Teams, incluida la configuración o la reconfiguración de un servidor de FHIR para que funcione con la aplicación de pacientes de Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fbbff4eda0eb1426bdf92068d95ccf00abe62a61
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136960"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277270"
 ---
 # <a name="dstu2-interface-specification"></a>Especificación de la interfaz DSTU2
+
+> [!IMPORTANT]
+> **A partir del 30 de septiembre de 2020, la aplicación para pacientes estará obsoleta y los usuarios ya no podrán instalarla desde la tienda de aplicaciones de Teams. Le recomendamos que empiece a usar la [aplicación lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams hoy.**
+>
+>Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Cuando se retira la aplicación de pacientes, todos los datos asociados con ella se conservarán en este grupo, pero ya no se podrá obtener acceso a ellas a través de la interfaz de usuario. Los usuarios actuales pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>La [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) está preinstalada para todos los usuarios de Teams y está disponible como una pestaña en todos los equipos y canales. Con las listas, los equipos de cuidados pueden crear listas de pacientes con la plantilla de pacientes integrados, desde cero o importando datos a Excel. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -43,7 +50,7 @@ Para configurar o volver a configurar un servidor de FHIR para que funcione con 
 > [!NOTE]
 > El recurso paciente es el único recurso obligatorio (sin que la aplicación se cargue en absoluto). Sin embargo, se recomienda que el socio implemente la compatibilidad de todos los recursos mencionados anteriormente según las especificaciones proporcionadas a continuación para obtener la mejor experiencia para el usuario final con la aplicación de pacientes de Microsoft Teams.
 
-Las consultas de la aplicación de pacientes de Microsoft Teams para más de un recurso publican un paquete (lote) de solicitudes a la dirección URL del servidor FHIR. El servidor procesa cada solicitud y devuelve un paquete de los recursos coincidentes con cada solicitud. Para obtener más información y ejemplos, [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction)consulte.
+Las consultas de la aplicación de pacientes de Microsoft Teams para más de un recurso publican un paquete (lote) de solicitudes a la dirección URL del servidor FHIR. El servidor procesa cada solicitud y devuelve un paquete de los recursos coincidentes con cada solicitud. Para obtener más información y ejemplos, consulte [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) .
 
 Todos los siguientes recursos de FHIR deben ser accesibles mediante la referencia directa de recursos.
 
@@ -83,7 +90,7 @@ Además de los campos Argonaut, para una experiencia de usuario excelente, la ap
     Respuesta: {"resourceType": "patient", "ID": "<ID de paciente>",.
       .
       .
-      "nombre": [{"use": "funcionario", "prefijo": ["Mr"], "familia": ["Chau"], "dado": ["Hugh"]}], "identificador": [{"use": "oficial", "tipo": {"código": [{"System": "https://hl7.org/fhir/v2/0203", "": ",". ",", ",", ".", ".", ",", ",": [{"careProvider": "Juana Pérez"}],} 1957-06-05 1234567
+      "nombre": [{"use": "funcionario", "prefijo": ["Mr"], "familia": ["Chau"], "dado": ["Hugh"]}], "identificador": [{"use": "oficial", "tipo": {"código": [{"System": "", "": ",". ",", ",", ".", ".", ",", ",": [{ https://hl7.org/fhir/v2/0203 "careProvider": "Juana Pérez"}],} 1957-06-05 1234567
 
 * * *
 
@@ -91,11 +98,11 @@ Una búsqueda de recursos usa el método POST en/patient/_search y los siguiente
 
 1. identificar
 2. Family: contiene = (busca todos los pacientes cuyo nombre contenga el valor).
-3. proporcionado =\<substring>
-4. name =\<substring>
+3. dado =\<substring>
+4. Name =\<substring>
 5. FechaNacimiento = (coincidencia exacta)
-6. \_contar (número máximo de resultados que se deben devolver) <br> La respuesta debe contener el recuento total de registros devueltos como resultado de la búsqueda \_, y el PatientsApp usará Count para limitar el número de registros devueltos.
-7. Identifier =\<MRN>
+6. \_contar (número máximo de resultados que se deben devolver) <br> La respuesta debe contener el recuento total de registros devueltos como resultado de la búsqueda, y \_ el PatientsApp usará Count para limitar el número de registros devueltos.
+7. Identifier =\<mrn>
 
 El objetivo es poder buscar y filtrar a un paciente por lo siguiente:
 
@@ -136,8 +143,8 @@ Si se usan observaciones de componentes, se aplica la misma lógica para cada ob
 
 Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<ID de paciente\>
-2. ordenar: DESC =\<campo ex. Posteriormente\>
+1. paciente =\<patient id\>
+2. ordenar: DESC =\<field ex. date\>
 
 El objetivo es poder recuperar los últimos signos vitales para un paciente, [VitalSigns. DSTU. Saz] (observación?).
 
@@ -145,7 +152,7 @@ El objetivo es poder recuperar los últimos signos vitales para un paciente, [Vi
 
     Solicitud: obtener <fhir-Server>/Observation? patient =<paciente-ID>&_sort:d ESC = Date&Category = invienes
     
-    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "escribe": "searchset", "total": 20, "Entry": [{"recurso": {"nombre de recurso": "," nombre "," nombre ":", "", "," <= ">."} ","} "," "código": {"codificación": [{"System": "http://loinc.org", "Code": "39156-5", "display": "BMI"}],}, "effectiveDateTime": "2009-12-01", "valueQuantity": {"valor": 34,4, "unidad": "kg/m2", "sistema": "http://unitsofmeasure.org", "código": "kg/m2"}},},.
+    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "escribe": "searchset", "total": 20, "Entry": [{"recurso": {"nombre de recurso": "," nombre "," nombre ":", "", "," <= ">."} ","} "," "código": {"codificación": [{"System": " http://loinc.org ", "Code": "39156-5", "display": "BMI"}],}, "effectiveDateTime": "2009-12-01", "valueQuantity": {"valor": 34,4, "unidad": "kg/m2", "sistema": " http://unitsofmeasure.org ", "código": "kg/m2"}},},.
         .
         .
       ] }
@@ -167,8 +174,8 @@ Además de los campos Argonaut, para una experiencia de usuario excelente, la ap
 
 Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<ID de paciente>
-2. _count =\<resultados máximos>
+1. paciente =\<patient id>
+2. _count =\<max results>
 
 Consulte el siguiente ejemplo de esta llamada:
 
@@ -176,7 +183,7 @@ Consulte el siguiente ejemplo de esta llamada:
 
     Solicitud: obtener <fhir-Server>/Condition? patient =<ID de paciente>&_count = 10
     
-    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "type": "searchset", "total": 1, "Entry": [{"recurso": {"resourceType": "Condition", "ID": "<Resource-ID>", "Code": {"codificación": [{"System": "http://snomed.info/sct", "Code": "386033004", "display": "neuropathy (Nerve Damage)"}]}, "dateRecorded": "2018-09-17", "gravedad": {"codificación": [{"System": "http://snomed.info/sct", "code": "24484000", "display": "grave"}]}},}]}
+    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "type": "searchset", "total": 1, "Entry": [{"recurso": {"resourceType": "Condition", "ID": "<Resource-ID>", "Code": {"codificación": [{"System": " http://snomed.info/sct ", "Code": "386033004", "display": "neuropathy (Nerve Damage)"}]}, "dateRecorded": "2018-09-17", "gravedad": {"codificación": [{"System": " http://snomed.info/sct ", "Code": "24484000", "display": "grave"}]}},}]}
 
 * * *
 
@@ -196,16 +203,16 @@ Además, los siguientes campos de la parte central de Estados Unidos tienen los 
 
 Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<ID de paciente>
-2. _sort: DESC =\<campo ex. > de fecha
-3. _count =\<resultados máximos>
+1. paciente =\<patient id>
+2. _sort: DESC =\<field ex. date>
+3. _count =\<max results>
 
 El objetivo es poder recuperar el último lugar conocido del paciente. Cada uno de ellos hace referencia a un recurso de ubicación. La referencia también incluirá el campo de visualización de la ubicación. Consulta el siguiente ejemplo de esta llamada.
 * * *
 
     Solicitud: obtener <fhir-Server>/Encounter? patient =<ID de paciente>&_sort:d ESC = Date&_count = 1
     
-    Respuesta: {"resourceType": "paquete", "tipo": "searchset", "total": 1, "entrada": [{"recurso": {"nombre del recurso": "<nombre", "ID.": ","> "," nombre de recurso: "<id>"} ","... "} estado": "ha llegado", "tipo": [{"código": [{"display": "appointment}", "... a. de paciente de pacientes/<>"}, "período": {"Start": "09/17/2018 1:00:00 PM"}, "ubicación": [{"ubicación": {"display": "Clinic-ENT"},}]}}]}
+    Respuesta: {"resourceType": "paquete", "tipo": "searchset", "total": 1, "entrada": [{"recurso": {"nombre del recurso": "<nombre", "id.": ","> "," nombre de recurso: ""} ","... " <id> } Estado": "ha llegado", "tipo": [{"código": [{"display": "appointment}", "... a. de paciente de pacientes/<>"}, "período": {"Start": "09/17/2018 1:00:00 PM"}, "ubicación": [{"ubicación": {"display": "Clinic-ENT"},}]}}]}
 
 * * *
 
@@ -229,7 +236,7 @@ Además de los campos Argonaut, para una experiencia de usuario excelente, la ap
 
 Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. Paciente = \<ID de paciente>
+1. Paciente =  \<patient id>
 
 Consulte el siguiente ejemplo de esta llamada:
 
@@ -260,8 +267,8 @@ Además de los campos Argonaut, para una experiencia de usuario excelente, la ap
 
 Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<ID de paciente>
-2. _count =\<resultados máximos>
+1. paciente =\<patient id>
+2. _count =\<max results>
 
 Consulte el siguiente ejemplo de esta llamada:
 
@@ -283,7 +290,7 @@ Estos son los campos mínimos obligatorios, no incluidos en los perfiles de los 
 
 Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<ID de paciente>
+1. paciente =\<patient id>
 
 Consulte el siguiente ejemplo de esta llamada:
 

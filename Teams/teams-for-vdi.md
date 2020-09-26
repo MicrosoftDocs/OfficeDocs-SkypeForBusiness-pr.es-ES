@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
+ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820614"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286116"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -413,7 +413,13 @@ Para los problemas conocidos de teams que no se relacionan con VDI, consulte [so
 
 ### <a name="troubleshoot-citrix-components"></a>Solución de problemas de componentes de Citrix
 
-Para obtener información sobre cómo solucionar problemas de VDA y CWA, consulte [este sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>Teams se bloquea o la pantalla de inicio de sesión de Teams está en blanco
+
+Este es un problema conocido con las versiones 1906 y 1909 de Citrix VDA. Para evitar este problema, agregue el siguiente valor DWORD del registro y establézcalo en 204 (hexadecimal).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+Después, reinicie VDA. Para obtener más información, consulte este artículo de soporte [de Citrix, solución de problemas de optimización de HDX para Teams](https://support.citrix.com/article/CTX253754).
 
 ## <a name="related-topics"></a>Temas relacionados
 
