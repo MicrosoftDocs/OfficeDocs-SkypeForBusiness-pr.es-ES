@@ -18,20 +18,20 @@ appliesto:
 ms.reviewer: ''
 description: Use las plantillas de Microsoft Teams para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7f5fbeb967b72a25e4df5dee6f0597c3140d85b6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756609"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294446"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
+# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Introducción a las plantillas de Teams para organizaciones de cuidados de la salud con Microsoft Graph
 
 Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
-Para las organizaciones de cuidado de la salud, las plantillas pueden ser especialmente eficaces, puesto que proporcionan una estructura para que los usuarios se orienten con la mejor manera de aprovechar Teams. Las plantillas también permiten a los administradores implementar equipos coherentes en sus organizaciones. Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización de la salud.
+Para las organizaciones de salud, las plantillas pueden ser especialmente eficaces, puesto que proporcionan una estructura para que los usuarios se orienten con el uso eficaz de Teams. Las plantillas también permiten a los administradores implementar equipos coherentes en sus organizaciones. Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización de la salud.
 
-Actualmente ofrecemos dos plantillas de atención médica de primera parte que puede aprovechar para diversas situaciones. Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas](../../get-started-with-teams-templates.md)de Teams.
+Actualmente ofrecemos dos plantillas de atención médica de origen que puede usar para una gran variedad de situaciones. Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas](../../get-started-with-teams-templates.md)de Teams.
 
 ## <a name="ward-template"></a>Plantilla en adelante
 
@@ -42,7 +42,7 @@ La plantilla en adelante está pensada para la comunicación y la colaboración 
 |Atención médica en adelante | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Anuncios\* <br> Huddles\* <br> Hacia\* <br> Personal\* <br> Aprendizaje\* |
 |     | |         |
 
-\*Con favoritos automáticos
+\* Con favoritos automáticos
 
 ## <a name="hospital-template"></a>Plantilla de hospital
 
@@ -50,12 +50,12 @@ La plantilla del hospital está pensada para la comunicación y la colaboración
 
 |Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
 |:--- |:---|:---|
-|Asistencia sanitaria-Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Anuncios\* <br> Respeto\* <br> Private <br> Recursos humanos <br> Pertenecie |
+|Asistencia sanitaria-Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Anuncios\* <br> Cumplimiento\* <br> Private <br> Recursos humanos <br> Pertenecie |
 | | |  |
 
-\*Con favoritos automáticos 
+\* Con favoritos automáticos 
 
-## <a name="how-to-use-first-party-templates"></a>Cómo usar las plantillas de primera fiesta
+## <a name="how-to-use-first-party-templates"></a>Cómo usar las plantillas de origen
 
 Para usar estas plantillas, simplemente cambie la propiedad ' template@odata. bind ' en el cuerpo de la solicitud de ' Standard ' a la TemplateIDs anterior.  Para obtener más información sobre cómo implementar las plantillas de Teams, vea el artículo de Microsoft Graph sobre cómo [crear un equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
@@ -169,3 +169,5 @@ Para usar estas plantillas, simplemente cambie la propiedad ' template@odata. bi
 [Introducción a las plantillas de Teams](../../get-started-with-teams-templates.md)
 
 [Introducción a Teams para organizaciones sanitarias](teams-in-hc.md)
+
+[Introducción a las plantillas de Teams en la consola de administración](../../get-started-with-teams-templates-in-the-admin-console.md)

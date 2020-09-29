@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f386531772a9debddca5d3be2dad8c3c778d69b6
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219131"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294576"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Crear una plantilla a partir de un equipo existente en Microsoft Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Las plantillas personalizadas aún no son compatibles con los clientes de EDU.**
 
@@ -63,6 +60,9 @@ Microsoft Teams le permite crear una plantilla a partir de un equipo existente q
 8. Seleccione **Enviar** para guardar los cambios.
 
 La nueva plantilla aparecerá en la lista **plantillas de equipo** . La plantilla se puede usar para crear un equipo en Teams.
+
+> [!Note]
+> Los usuarios de equipos pueden tardar hasta 24 horas en ver una plantilla personalizada en la galería.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Use las plantillas predefinidas de Microsoft Teams integradas en Microsoft Graph para crear de forma rápida y sencilla equipos para pequeñas y medianas empresas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9807e7f3694731af398abd83189698420ec36b8a
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: 7196dd93fc1245102a333c150715c4b4570986c7
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506153"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294556"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Plantillas de Teams integradas en Microsoft Graph para pequeñas y medianas empresas
 
@@ -57,11 +57,11 @@ Content-Type: application/json
 
 ## <a name="executive-team-template"></a>Plantilla de equipo ejecutivo
 
-La plantilla del equipo ejecutivo es ideal para crear un equipo para que los ejecutivos de la empresa puedan comunicarse y colaborar en iniciativas de la empresa, como prioridades anuales, presupuestos fiscales, iniciativas estratégicas, clientes principales, etc. Esta plantilla viene con un canal *privado* para invitar a determinados usuarios a determinados temas.
+La plantilla del equipo ejecutivo es ideal para crear un equipo para que los ejecutivos de la empresa puedan comunicarse y colaborar en iniciativas de la empresa, como prioridades anuales, presupuestos fiscales, iniciativas estratégicas y clientes superiores. Esta plantilla viene con un canal *privado* para invitar a determinados usuarios a determinados temas.
 
 | Tipo de plantilla base  | baseTemplateId | Propiedades que vienen con esta plantilla base |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| Pequeñas <br>Equipo ejecutivos | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Canales <ul><li>General\*</li><li>Empresa\*</li></ul> Aplicaciones<ul><li>OneNote (anclado al canal **privado** )</li> <li>Planner (anclado al canal **privado** ) </li></ul><br>Propiedades del equipo <ul><li>Visibilidad del equipo establecida en privado</li></ul> | 
+| Pequeñas <br>Equipo ejecutivos | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Canales <ul><li>General\*</li><li>Empresa \*</li></ul> Aplicaciones<ul><li>OneNote (anclado al canal **privado** )</li> <li>Planner (anclado al canal **privado** ) </li></ul><br>Propiedades del equipo <ul><li>Visibilidad del equipo establecida en privado</li></ul> | 
 
 * Canales favoritos automáticos<br>
 
@@ -81,11 +81,11 @@ Content-Type: application/json
 
 ## <a name="departmental-team-template"></a>Plantilla de equipo departamental
 
-La plantilla de equipo departamental se puede usar para crear un equipo para departamentos individuales o para proyectos. La plantilla del equipo de finanzas es ideal para todas las publicaciones, anuncios y colaboración y comunicación diaria dentro de los miembros del equipo de Finanzas (y miembros del equipo ejecutivo según corresponda). La plantilla viene con un canal *privado* para invitar a determinados usuarios a determinados temas. También proporcionamos la siguiente secuencia de comandos para el equipo de finanzas, que se puede usar para ampliar la plantilla a otros departamentos o proyectos específicos agregando, eliminando o editando a su gusto. Por ejemplo, si tiene un departamento de *marketing* , el script puede adaptarse cambiando el nombre del equipo de *Finance* a *marketing* para crear un nuevo equipo de marketing
+La plantilla de equipo departamental se puede usar para crear un equipo para departamentos individuales o para proyectos. La plantilla del equipo de finanzas es ideal para todas las publicaciones, anuncios y colaboración y comunicación diaria dentro de los miembros del equipo de finanzas y miembros del equipo ejecutivo según corresponda. La plantilla viene con un canal *privado* para invitar a determinados usuarios a determinados temas. También proporcionamos la siguiente secuencia de comandos para el equipo de finanzas que se puede usar para ampliar la plantilla a otros departamentos o proyectos específicos agregando, eliminando o editando a su gusto. Por ejemplo, si tiene un departamento de *marketing* , el script puede adaptarse cambiando el nombre del equipo de *Finance* a *marketing* para crear un nuevo equipo de marketing
 
 | Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| Pequeñas <br>Finanzas  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Canales <ul><li>General\*</li><li>Empresa\*</li></ul><br> Aplicaciones<ul><li>OneNote (anclado al canal **privado** )</li> <li>Planner (anclado al canal **privado** ) </li> </ul><br>Propiedades del equipo <ul><li>Visibilidad del equipo establecida en privado</li></ul> | 
+| Pequeñas <br>Finanzas  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Canales <ul><li>General\*</li><li>Empresa \*</li></ul><br> Aplicaciones<ul><li>OneNote (anclado al canal **privado** )</li> <li>Planner (anclado al canal **privado** ) </li> </ul><br>Propiedades del equipo <ul><li>Visibilidad del equipo establecida en privado</li></ul> | 
 
 * Canales favoritos automáticos
 
@@ -176,6 +176,7 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Temas relacionados
 
+- [Introducción a las plantillas de Teams en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md)
 - [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
 - [Crear equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en versión preliminar)
 

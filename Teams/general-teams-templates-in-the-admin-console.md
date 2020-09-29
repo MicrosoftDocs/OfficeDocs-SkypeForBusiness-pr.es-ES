@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216701"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294456"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Usar plantillas generales de Teams en la consola de administración
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Las plantillas de Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
 Las plantillas de Teams tienen definiciones preconstruidas de estructuras de equipo diseñadas en relación con las necesidades financieras. También puede ampliar las plantillas de Teams para crear equipos que estén adaptados a las necesidades específicas de su organización.
 
-En este artículo, presentaremos cada una de las plantillas de Teams y cómo le recomendamos que las use.
+En este artículo, presentaremos cada una de las plantillas de Teams y le recomendamos que las use.
 
-Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización financiera. Damos por hecho que ya ha implementado el servicio de Teams en su organización. Si aún no ha implementado Teams, empiece por leer [cómo implementar Microsoft Teams](How-to-roll-out-teams.md).
+Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización financiera. Ya ha implementado el servicio de Teams en su organización. Si no ha implementado Teams, empiece por leer la información [sobre cómo implementar Microsoft Teams](How-to-roll-out-teams.md).
 
 Para obtener más información sobre las plantillas de equipo en general, consulte Introducción a [las plantillas](get-started-with-teams-templates-in-the-admin-console.md)de Teams.
 

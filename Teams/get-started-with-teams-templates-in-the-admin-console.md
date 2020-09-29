@@ -18,17 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e3269a49072f9e050a139d9bd6463ab4c85a358d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218581"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294616"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Introducción a las plantillas de Teams en la consola de administración
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Las plantillas personalizadas aún no son compatibles con los clientes de EDU.**
 
@@ -37,12 +34,9 @@ ms.locfileid: "48218581"
 
 Las plantillas de Teams son definiciones preconstruidas de una estructura de equipo diseñada según una necesidad o un proyecto empresarial. Use plantillas predefinidas o cree su propia plantilla. Las plantillas de Teams le permiten crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y Preinstalar aplicaciones para extraer contenido y servicios de misión crítica. Las plantillas de Teams proporcionan una estructura de equipo predefinida que le puede ayudar a crear fácilmente equipos coherentes en toda la organización. Por el momento, puede crear un equipo a partir de una plantilla en Teams o con [Microsoft Graph](get-started-with-teams-templates.md).
 
-En este artículo, explicaremos las propiedades que se pueden definir en plantillas, qué son los tipos de plantilla base y cómo puede usar algunas solicitudes de ejemplos para crear un equipo a partir de una plantilla.
+En este artículo se describen las propiedades que se pueden definir en plantillas, qué son los tipos de plantilla base y cómo puede usar algunas solicitudes de ejemplo para crear un equipo a partir de una plantilla.
 
-Este artículo le interesa si:
-
-- Responsable de planear, implementar y administrar varios equipos en la organización<br>
-- Un desarrollador que desea crear mediante programación un equipo con canales y aplicaciones predefinidos
+Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización.
 
 ## <a name="teams-template-capabilities"></a>Capacidades de las plantillas de Teams
 
@@ -55,7 +49,7 @@ La mayoría de las propiedades de un equipo están incluidas y son compatibles c
 | Descripción del equipo | Configuración del canal |
 | Visibilidad del equipo (pública o privada) | Conectores |
 | Configuración del equipo (por ejemplo, miembro, invitado, @ menciones) | Archivos y contenido |
-| Canal de favoritos automático | |
+| Canal autofavorito | |
 | Aplicación instalada | |
 | Pestañas ancladas | |
 
@@ -64,9 +58,9 @@ La mayoría de las propiedades de un equipo están incluidas y son compatibles c
 
 ## <a name="what-are-base-template-types"></a>Qué son los tipos de plantilla base
 
-Los tipos de plantillas base son plantillas especiales que Microsoft creó para sectores específicos. Estas plantillas básicas a menudo contienen aplicaciones propias que están disponibles en la tienda de aplicaciones.
+Los tipos de plantillas base son plantillas especiales que Microsoft creó para sectores específicos. Estas plantillas básicas a menudo contienen aplicaciones propias que no están disponibles en la tienda de aplicaciones.
 
-Una vez que se define un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que le gustaría especificar. Pero algunos tipos de plantillas base contienen propiedades que no se pueden reemplazar.
+Una vez que se define un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que le gustaría especificar. Algunos tipos de plantillas base contienen propiedades que no se pueden reemplazar.
 
 > [!NOTE]
 > Las plantillas básicas predefinidas proporcionadas en Microsoft Teams se pueden duplicar, pero no editar.
@@ -88,7 +82,7 @@ Una vez que se define un tipo de plantilla base, puede extender o invalidar esta
 |Colaboración minorista-Gerente| `retailManagerCollaboration` |Canales <ul><li>General<li>Operations</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
 ||||
 
-Para obtener más información sobre las categorías de plantillas, vea las categorías siguientes:
+Para obtener más información acerca de las categorías de plantillas, vea las categorías siguientes:
 
 - [Plantillas financieras](financial-teams-templates-in-the-admin-console.md)
 - [Plantillas generales](general-teams-templates-in-the-admin-console.md)

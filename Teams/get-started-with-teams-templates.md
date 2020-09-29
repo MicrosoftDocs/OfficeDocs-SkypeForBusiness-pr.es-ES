@@ -19,21 +19,21 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135844"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294606"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Introducción a las plantillas de Teams con Microsoft Graph
 
 > [!NOTE]
 > Las plantillas de Teams actualmente no admiten la creación de canales privados. La creación de canales privados no se incluye en las definiciones de plantilla.
 
-Las plantillas de Teams son definiciones preconstruidas de una estructura de equipo diseñada según una necesidad o un proyecto empresarial. No puede crear su propia plantilla. En su lugar, se usan las plantillas predefinidas con Microsoft Graph. Puede usar las plantillas de Teams para crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y para preinstalar aplicaciones para extraer contenido y servicios de misión crítica. Las plantillas de Teams proporcionan una estructura de equipo predefinida que le puede ayudar a crear fácilmente equipos coherentes en toda la organización.
+Las plantillas de Teams son definiciones preconstruidas de una estructura de equipo diseñada según una necesidad o un proyecto empresarial. Puede [crear su propia plantilla en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md). Con Microsoft Graph, se usan las plantillas predefinidas. Puede usar las plantillas de Teams para crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y para preinstalar aplicaciones para extraer contenido y servicios de misión crítica. Las plantillas de Teams proporcionan una estructura de equipo predefinida que le puede ayudar a crear fácilmente equipos coherentes en toda la organización.
 
-En este artículo, explicaremos las propiedades que se pueden definir en plantillas, qué son los tipos de plantilla base y cómo puede usar algunas solicitudes de ejemplo para crear un equipo a partir de una plantilla.
+En este artículo, explicaremos las propiedades que se pueden definir en plantillas, qué son los tipos de plantilla base y cómo puede usar algunas solicitudes de ejemplos para crear un equipo a partir de una plantilla.
 
 Este artículo le interesa si:
 
@@ -60,11 +60,11 @@ La mayoría de las propiedades de un equipo están incluidas y son compatibles c
 
 ## <a name="what-are-base-template-types"></a>Qué son los tipos de plantilla base
 
-Los tipos de plantillas base son plantillas especiales que Microsoft creó para sectores específicos. Estas plantillas básicas a menudo contienen aplicaciones propias que no están disponibles en las propiedades del equipo y del almacén que aún no se admiten individualmente en las plantillas de Teams. Aprenda a usar las [plantillas de equipo en la consola de administración](get-started-with-teams-templates.md).
+Los tipos de plantillas base son plantillas especiales que Microsoft creó para sectores específicos. Estas plantillas básicas a menudo contienen aplicaciones propias que no están disponibles en la tienda. Además, las plantillas básicas a menudo contienen propiedades de equipo que aún no se admiten individualmente en las plantillas de Teams. Aprenda a usar las [plantillas de equipo en Microsoft Graph](get-started-with-teams-templates.md).
 
-Una vez que se define un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que le gustaría especificar. Pero algunos tipos de plantillas base contienen propiedades que no se pueden reemplazar.
+Una vez que se define un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que le gustaría especificar. Algunos tipos de plantillas base contienen propiedades que no se pueden reemplazar.
 
-De forma predeterminada, la plantilla base se establece en **estándar** , que no contiene ninguna aplicación de propiedad adicional ni propiedades especiales. A continuación se muestra la lista actual de tipos de plantillas base disponibles.
+De forma predeterminada, la plantilla base se establece en **estándar**, que no contiene ninguna aplicación de propiedad adicional ni propiedades especiales. A continuación se muestra la lista actual de tipos de plantillas base disponibles.
 
 | Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -80,9 +80,7 @@ De forma predeterminada, la plantilla base se establece en **estándar** , que n
 
 ## <a name="related-topics"></a>Temas relacionados
 
+- [Introducción a las plantillas de Teams en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md)
 - [Crear equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en versión preliminar)
 - [Nuevo: equipo](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Formación de administradores para Microsoft Teams](itadmin-readiness.md)
-- [Introducción a las plantillas comerciales de Teams](get-started-with-retail-teams-templates.md)
-- [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
-- [Introducción a las plantillas de Teams en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md)

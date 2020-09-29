@@ -18,17 +18,14 @@ appliesto:
 ms.reviewer: ''
 description: Use las plantillas de Microsoft Teams en la consola de administración para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171094"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294586"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Usar las plantillas de Healthcare de Teams en la consola de administración
-
-[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
@@ -38,7 +35,7 @@ Actualmente ofrecemos dos plantillas de cuidados de la atención médica de terc
 
 ## <a name="collaborate-on-patient-care"></a>Colaborar en el cuidado del paciente
 
- Simplificar la comunicación y la colaboración sanitaria dentro de un mismo puesto, conjunto Pod o departamento. La plantilla se puede usar para facilitar la administración de pacientes, así como las necesidades operacionales de un mismo.
+ Simplificar la comunicación y la colaboración sanitaria dentro de un mismo puesto, conjunto Pod o departamento. La plantilla se puede usar para facilitar la administración de pacientes y las necesidades operacionales de en adelante.
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------ |---|----------------------------------------------------- |
@@ -47,7 +44,7 @@ Actualmente ofrecemos dos plantillas de cuidados de la atención médica de terc
 
 ## <a name="hospital"></a>Hospital
 
-Simplificar la comunicación y la colaboración entre múltiples departamentos, pods y otros departamentos dentro de un hospital. Esta plantilla incluye un conjunto de canales básicos para operaciones de hospitales y puede ser autoampliado para incluir especialidades, ad-hoc.
+Simplificar la comunicación y la colaboración entre múltiples departamentos, pods y otros departamentos dentro de un hospital. Esta plantilla incluye un conjunto de canales básicos para operaciones de hospitales y se puede autoampliar para incluir especialidades, ad-hoc.
 
 | Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------|-- |----------------------------------------------------- |
