@@ -16,14 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89489ff40cf42fb297ab5ea6b5d61cbc874d272b
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: f8a86794c6517904c2e1329c6c5eab5b55c5c116
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294566"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308103"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Crear una nueva plantilla a partir de una plantilla de equipo existente en Microsoft Teams
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **Las plantillas personalizadas aún no son compatibles con los clientes de EDU.**
 

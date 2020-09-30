@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177410"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308433"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -130,7 +130,7 @@ Si desactiva esta opción, los usuarios no podrán programar reuniones de Teams 
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir programación de reuniones de canal
 
-Use la Directiva de AllowChannelMeetingScheduling existente para controlar los tipos de eventos que se pueden crear en los calendarios de canal del equipo. Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si los usuarios pueden programar una reunión en un canal de Teams. El valor predeterminado es True.
+Use la Directiva de AllowChannelMeetingScheduling existente para controlar los tipos de eventos que se pueden crear en los calendarios de canal del equipo. Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si los usuarios pueden programar una reunión en un canal de Teams. Esta opción está activada de forma predeterminada. 
 
 Si esta directiva está desactivada, los usuarios no podrán crear nuevas reuniones de canal. Sin embargo, el organizador del evento puede editar las reuniones de canal existentes.
 
@@ -169,11 +169,11 @@ La aplicación de calendario del canal se mostrará en la sección **aplicacione
 
 Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta opción controla si los usuarios pueden programar reuniones privadas en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
 
-Tenga en cuenta que si desactiva permitir la programación de **reuniones privadas** y **permitir la programación de reuniones de canal**, los usuarios de Teams deshabilitarán las opciones **agregar asistentes requeridos** y agregar opciones de **canal** . El valor predeterminado es True.
+Tenga en cuenta que si desactiva permitir la programación de **reuniones privadas** y **permitir la programación de reuniones de canal**, los usuarios de Teams deshabilitarán las opciones **agregar asistentes requeridos** y agregar opciones de **canal** . Esta opción está activada de forma predeterminada.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Permitir reunirse ahora en reuniones privadas
 
-Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc.  El valor predeterminado es True.
+Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc.  Esta opción está activada de forma predeterminada.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -181,6 +181,8 @@ Esta es una directiva por usuario y se aplica antes de que se inicie una reunió
 
 - [Permitir la transcripción](#allow-transcription)
 - [Permitir la grabación en la nube](#allow-cloud-recording)
+- [Modo para audio IP](#mode-for-ip-audio) 
+- [Modo para video IP](#mode-for-ip-video) 
 - [Permitir vídeo IP](#allow-ip-video)
 - [Velocidad de bits multimedia (KB)](#media-bit-rate-kbs)
 
@@ -204,32 +206,101 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Directiva de reuniones  |Permitir la grabación en la nube |
 |---------|---------|---------|
-|Daniela | Global   | Falso |
-|Amanda | Location1MeetingPolicy | Verdadero|
+|Daniela | Global   | Desactivado |
+|Amanda | Location1MeetingPolicy | Activado|
 |Juan (usuario externo) | No aplicable | No aplicable|
 
 Las reuniones organizadas por Daniela no se pueden grabar y Amanda, que tiene la configuración de directiva habilitada, no puede grabar reuniones organizadas por Daniela. Las reuniones organizadas por Amanda se pueden grabar, pero Daniela, que tiene la configuración de directiva deshabilitada y Juan es un usuario externo, no puede grabar reuniones organizadas por Amanda.
 
 Para obtener más información sobre la grabación de reuniones en la nube, vea [grabación de reuniones en la nube de Teams](cloud-recording.md).
 
+### <a name="mode-for-ip-audio"></a>Modo para audio IP
+
+Esta es una directiva por usuario. Esta opción controla si el audio puede activarse en las reuniones y en las llamadas grupales. Estos son los valores de esta configuración.
+
+|Valor de configuración |Comportamiento  |
+|---------|---------|
+|**Audio entrante y saliente habilitado**    |El audio entrante y saliente está permitido en la reunión. Esta configuración es la predeterminada. |
+|**Deshabilitado**     |El audio entrante y saliente está desactivado en la reunión.     |
+
+Si se establece en **deshabilitado** para un usuario, ese usuario podrá programar y organizar reuniones, pero no podrá usar el audio. Para unirse a una reunión, deben llamar a través de la red de telefonía pública conmutada (RTC) o hacer la llamada de la reunión y unirse a ella por teléfono. Los participantes de la reunión que no tienen ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esta opción establecida en el **audio saliente y entrante habilitado** de forma predeterminada. En los clientes móviles de Teams, si esta configuración está deshabilitada, el usuario tiene que marcar la reunión a través de la RTC.
+
+Esta configuración no se aplica a las llamadas de 1:1. Para restringir las llamadas de 1:1, configure una [Directiva](teams-calling-policy.md) de llamadas de equipo y desactive la opción **hacer llamadas privadas** . Esta configuración tampoco se aplica a dispositivos de salas de conferencias, como Surface Hub y los dispositivos de salas de Microsoft Teams.
+
+Para obtener más información, consulte [administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
+
+### <a name="mode-for-ip-video"></a>Modo para video IP
+
+Esta es una directiva por usuario. Esta opción controla si se puede activar el vídeo en las reuniones y en las llamadas grupales. Estos son los valores de esta configuración.
+
+|Valor de configuración |Comportamiento  |
+|---------|---------|
+|**Video entrante y saliente habilitado**    | El vídeo entrante y saliente está permitido en la reunión. Esta configuración es la predeterminada. |
+|**Deshabilitado**     | El vídeo entrante y saliente está desactivado en la reunión. En los clientes móviles de Teams, los usuarios no pueden compartir vídeos ni fotos en la reunión. <br><br>Ten en cuenta que si el **modo para el audio IP** está deshabilitado, el **modo para el video IP** también quedará deshabilitado.  |
+
+Si se establece en **deshabilitado** para un usuario, ese usuario no puede activar el vídeo o ver vídeos compartidos por otros participantes de la reunión. Los participantes de la reunión que no tienen ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen este valor establecido en el **vídeo saliente y entrante habilitado** de forma predeterminada.
+
+Esta configuración no se aplica a dispositivos de salas de conferencias, como Surface Hub y los dispositivos de salas de Microsoft Teams.
+
+> [!NOTE]
+> Tenga en cuenta que esta configuración controla tanto el vídeo entrante como el saliente, mientras que la configuración de **permitir el vídeo IP** controla el vídeo saliente. Para obtener más información, vea [¿cuál es la configuración de la Directiva de video IP?](#which-ip-video-policy-setting-takes-precedence) y [administrar el audio o vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
+
 ### <a name="allow-ip-video"></a>Permitir vídeo IP
 
-Esta es una combinación de una directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden desear más control sobre las reuniones de los usuarios que tienen vídeo. Esta opción controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas de 1:1 y llamadas grupales iniciadas por un usuario. Reuniones organizadas por un usuario que tiene habilitada esta Directiva, permitir el uso compartido de vídeos en la reunión por parte de los participantes de la reunión, si los participantes de la reunión también tienen la Directiva habilitada. Los participantes de la reunión que no tienen ninguna directiva asignada (por ejemplo, participantes anónimos y federados) heredan la Directiva del organizador de la reunión.
+Esta es una combinación de una directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden desear más control sobre las reuniones de los usuarios que tienen vídeo. Esta opción controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en 1:1 y llamadas grupales iniciadas por un usuario. En los clientes móviles de Teams, esta configuración controla si los usuarios pueden compartir fotos y vídeos en una reunión. 
 
-![Captura de pantalla que muestra una reunión con la configuración de audio y vídeo](media/meeting-policies-audio-video-settings.png)
+Reuniones organizadas por un usuario que tiene habilitada esta configuración de Directiva, permitir el uso compartido de vídeo en la reunión por parte de los participantes de la reunión, si los participantes también tienen la configuración de directiva habilitada. Los participantes de la reunión que no tienen ninguna directiva asignada (por ejemplo, participantes anónimos y federados) heredan la Directiva del organizador de la reunión.
+
+> [!NOTE]
+> Tenga en cuenta que esta configuración controla el vídeo saliente, mientras que el **modo de configuración de video IP** controla tanto el video entrante como el saliente. Para obtener más información, vea [¿cuál es la configuración de la Directiva de video IP?](#which-ip-video-policy-setting-takes-precedence) y [administrar el audio o vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
+
+| Escritorio de Teams y cliente web |Cliente móvil de Teams  |
+|:-------:|:-------:|
+|![Captura de pantalla que muestra la combinación de reuniones con la configuración de audio y vídeo en el escritorio](media/meeting-policies-audio-video-settings.png)    |![Captura de pantalla que muestra la combinación de reuniones sreen con la configuración de audio/vídeo en dispositivos móviles](media/meeting-policies-mobile-join.png)          |
+
 
 Echemos un vistazo al ejemplo siguiente.
 
-|Usuario |Directiva de reuniones  |Permitir video IP |
+|Usuario |Directiva de reuniones  |Permitir vídeo IP |
 |---------|---------|---------|
-|Daniela   | Global   | Verdadero        |
-|Amanda    | Location1MeetingPolicy        | Falso      |
+|Daniela   | Global   | Activado       |
+|Amanda    | Location1MeetingPolicy        | Desactivado      |
 
 Las reuniones hospedadas por Daniela permiten que el vídeo esté activado. Daniela puede unirse a la reunión y encender el video. Amanda no puede activar el video en la reunión de Daniela porque la Directiva de Amanda está configurada para no permitir el vídeo. Amanda puede ver vídeos compartidos por otros participantes de la reunión.
 
 En las reuniones hospedadas por Amanda, nadie puede activar el video, independientemente de la Directiva de vídeo que se les haya asignado. Esto significa que Daniela no puede activar el video en las reuniones de Amanda.  
 
 Si Daniela llama Amanda con video on, Amanda puede contestar la llamada solo con audio.  Cuando la llamada está conectada, Amanda puede ver el vídeo de Daniela, pero no puede activar el vídeo. Si Amanda llama a Daniela, Daniela puede responder a la llamada con video y audio. Cuando la llamada está conectada, Daniela puede activar o desactivar el video, según sea necesario.
+
+#### <a name="which-ip-video-policy-setting-takes-precedence"></a>¿Cuál es la configuración de directiva de video IP?
+
+Para un usuario, tiene prioridad la configuración de directiva más restrictiva para el vídeo. A continuación se muestran algunos ejemplos.
+
+|Permitir vídeo IP|Modo para video IP|Experiencia de reunión|
+|---------|---------|---------|
+|Organizador: **activado**<br><br>Participante: **activado** |Participante: **deshabilitado**        |El **modo de configuración de video IP** tiene prioridad. El participante que tiene asignada esta Directiva no puede activar o ver vídeos compartidos por otras personas.|
+|Organizador: **activado**<br><br>Participante: **activado** |Participante: el **vídeo entrante y saliente está habilitado**          |El participante que tiene asignada esta Directiva puede activar o ver vídeos compartidos por otros usuarios.         |
+|Organizador: **activado**<br><br>Participante: **deshabilitado** |Participante: el **vídeo entrante y saliente está habilitado**         |La configuración de **permitir video IP** tiene prioridad. Los participantes solo pueden ver el vídeo entrante y no pueden enviar video de salida.         |
+|Organizador: **activado**<br><br>Participante: **deshabilitado** |Participante: **deshabilitado**         |El **modo de configuración de video IP** tiene prioridad. El participante no puede ver video entrante o saliente.|
+|Organizador: **deshabilitado**    |       |La configuración de **permitir video IP** tiene prioridad porque está desactivada para el organizador. Nadie puede activar el video en las reuniones organizadas por el usuario que tenga asignada esta Directiva.         |
+
+### <a name="manage-audiovideo-for-meeting-participants"></a>Administrar el audio y el vídeo de los participantes de la reunión
+
+|Si desea...  |Establecer la siguiente configuración de Directiva  |
+|---------|---------|
+|Deshabilitar el audio y el vídeo de los participantes de las reuniones  |Modo para audio IP: **deshabilitado**<br> Modo para vídeo IP: **deshabilitado**<br>Permitir video IP: N/A       |
+|Habilitar solo vídeo y audio entrante para los participantes en las reuniones  |Modo de audio IP: **habilitado el audio saliente y entrante**<br> Modo para video IP: **vídeo entrante y saliente habilitado**<br>Permitir video IP: **deshabilitado**       |
+|Deshabilitar el vídeo para los participantes en las reuniones (los participantes solo tienen audio)|  Modo para audio IP: **Habilitar audio entrante y saliente**<br> Modo para vídeo IP: **deshabilitado**<br>Permitir video IP: N/A        
+|Habilitar el audio y el vídeo para los participantes en las reuniones    |Modo de audio IP: **habilitado el audio saliente y entrante** (predeterminado)<br> Modo para video IP: **vídeo entrante y saliente habilitado** (predeterminado)<br>Permitir video IP: **activado** (valor predeterminado)    |
+
+Se aplica la directiva más restrictiva entre la Directiva del organizador de la reunión y la Directiva del usuario. Por ejemplo, si un organizador tiene una directiva que restringe el vídeo y la Directiva de un usuario no restringe el vídeo, los participantes de la reunión heredan la Directiva del organizador de la reunión y no tienen acceso al vídeo de las reuniones. Esto significa que pueden unirse a la reunión solo con audio.
+
+> [!NOTE]
+> Cuando un usuario inicia una llamada grupal para unirse por teléfono, no aparece la pantalla **usar teléfono para audio** . Este es un problema conocido que estamos trabajando para resolver. Para solucionar este problema, seleccione **audio del teléfono** en **otras opciones de combinación**.  
+
+#### <a name="teams-mobile-clients"></a>Equipos clientes móviles
+
+Para los usuarios de los clientes móviles de Teams, la capacidad de compartir fotos y vídeos durante una reunión también viene determinada por la opción **permitir** modo de vídeo IP o **IP** . En función de la configuración de directiva que tenga prioridad, la capacidad de compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con una configuración de [modo de uso compartido de pantalla](#screen-sharing-mode) independiente. Además, puede establecer una [Directiva de movilidad de equipos](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles usen video IP a través de una conexión móvil, lo que significa que debe usar una conexión WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Velocidad de bits multimedia (KB)
 
@@ -285,8 +356,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Directiva de reuniones  |Permitir al participante ceder o solicitar el control |
 |---------|---------|---------|
-|Daniela   | Global   | Verdadero       |
-|Babek    | Location1MeetingPolicy        | Falso   |
+|Daniela   | Global   | Activado       |
+|Babek    | Location1MeetingPolicy        | Desactivado   |
 
 Daniela puede ceder el control del escritorio o de la ventana compartidos a otros participantes de una reunión organizada por Babek mientras que Babek no puede ceder el control a otros participantes.
 
@@ -316,8 +387,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Directiva de reuniones  |Permitir el uso compartido de PowerPoint |
 |---------|---------|---------|
-|Daniela   | Global   | Verdadero       |
-|Amanda   | Location1MeetingPolicy        | Falso   |
+|Daniela   | Global   | Activado       |
+|Amanda   | Location1MeetingPolicy        | Desactivado   |
 
 Amanda puede compartir diapositivas de PowerPoint en reuniones incluso si es el organizador de la reunión. Daniela puede compartir las diapositivas de PowerPoint incluso si la reunión está organizada por Amanda. Amanda puede ver los decks de diapositivas de PowerPoint compartidos por otros usuarios de la reunión, aunque no pueda compartir diapositivas de PowerPoint.
 
@@ -329,8 +400,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Directiva de reuniones  |Permitir pizarra|
 |---------|---------|---------|
-|Daniela   | Global   | Verdadero       |
-|Amanda   | Location1MeetingPolicy        | Falso   |
+|Daniela   | Global   | Activado       |
+|Amanda   | Location1MeetingPolicy        | Desactivado   |
 
 Amanda puede compartir la pizarra en una reunión incluso si es el organizador de la reunión. Daniela puede compartir la pizarra incluso si una reunión está organizada por Amanda.  
 
@@ -342,8 +413,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Directiva de reuniones  |Permitir notas compartidas |
 |---------|---------|---------|
-|Daniela   | Global   | Verdadero       |
-|Amanda   | Location1MeetingPolicy | Falso |
+|Daniela   | Global   | Activado       |
+|Amanda   | Location1MeetingPolicy | Desactivado |
 
 Daniela puede tomar notas en las reuniones de Amanda y Amanda no puede tomar notas en ninguna reunión.
 
@@ -358,14 +429,14 @@ Esta configuración controla los participantes de la reunión en la sala de espe
 - [Permitir la conversación en reuniones](#allow-chat-in-meetings)
 
 > [!NOTE]
->Las opciones para unirse a una reunión variarán en función de la configuración de cada grupo de equipos y del método de conexión. Si su grupo tiene audioconferencias y lo usa para conectarse, vea [audioconferencia](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si su grupo de equipos no tiene audioconferencia, consulte unirse a [una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+>Las opciones para unirse a una reunión variarán en función de la configuración de cada grupo de equipos y del método de conexión. Si su grupo tiene audioconferencias y lo usa para conectarse, vea [audioconferencia](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si su grupo de equipos no tiene audioconferencia, consulte [unirse a una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir a personas anónimas iniciar una reunión
 
-Esta es una directiva por organizador que permite reuniones de conferencia de acceso telefónico local no superpuestos. Esta opción controla si los usuarios de acceso telefónico local pueden unirse a la reunión sin un usuario autenticado de la organización en la asistencia. El valor predeterminado es falso, lo que significa que los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
+Esta es una directiva por organizador que permite reuniones de conferencia de acceso telefónico local no superpuestos. Esta opción controla si los usuarios de acceso telefónico local pueden unirse a la reunión sin un usuario autenticado de la organización en la asistencia. De forma predeterminada, esta opción está desactivada, lo que significa que los usuarios de acceso telefónico estarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
 
 > [!NOTE]
-> Si es falso y un usuario de acceso telefónico se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de recepción. No hay ningún control de sala de recepción disponible para los usuarios marcados.
+> Si esta opción está desactivada y un usuario de acceso telefónico se une a la reunión en primer lugar y se coloca en la sala de recepción, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de recepción. No hay ningún control de sala de recepción disponible para los usuarios marcados.
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente personas
 
@@ -387,7 +458,7 @@ Esta es una directiva por organizador. Esta opción controla si los usuarios pue
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de recepción
 
-Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. El valor predeterminado es False. Cuando sea falso, los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y los retenga. Cuando sea verdadero, los usuarios de acceso telefónico local se unirán automáticamente a la reunión cuando un usuario de la organización se una a la reunión.
+Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios. Esta opción está desactivada de forma predeterminada. Cuando esta opción está desactivada, los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y lo retenga. Cuando esta configuración está activada, los usuarios de acceso telefónico local se unirán automáticamente a la reunión cuando un usuario de la organización se una a la reunión.
 
 > [!NOTE]
 > Si un usuario de acceso telefónico se une a una reunión antes de que un usuario de la organización se una a la reunión, se colocará en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y se pueda tener acceso a ella. Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y a las reuniones anteriores en las que el usuario no haya modificado las opciones de la reunión.

@@ -19,14 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9e0a75c558888fcd1c558eb3f87718a85e22471
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 77411e734ebbcfaea4d3e2a0454f48e43a8b8a7d
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294546"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308333"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>Usar las plantillas comerciales de Teams en la consola de administración
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Las plantillas de Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 

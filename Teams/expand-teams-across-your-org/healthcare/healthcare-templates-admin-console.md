@@ -18,14 +18,16 @@ appliesto:
 ms.reviewer: ''
 description: Use las plantillas de Microsoft Teams en la consola de administración para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294586"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308283"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Usar las plantillas de Healthcare de Teams en la consola de administración
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 

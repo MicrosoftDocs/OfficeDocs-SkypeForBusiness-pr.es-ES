@@ -17,22 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323994"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308173"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Usar la tecnología de NDI® en Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
+ La tecnología NewTek NDI® (interfaz de dispositivo de red) es una solución moderna para conectar dispositivos de medios (como una cámara de estudio y un mezclador). En lugar de usar conexiones físicas, la tecnología de® de NDI permite la conectividad en una Intranet local, incluso en un equipo local.
 
- La tecnología NDI® (interfaz de dispositivo de red) es una solución moderna para conectar dispositivos de medios (como una cámara de estudio y un mezclador). En lugar de usar conexiones físicas, la tecnología de® de NDI permite la conectividad en una Intranet local, incluso en un equipo local.
+NDI® tecnología se ha convertido en una solución estándar de la industria para producir contenido en vivo para transmisiones por secuencias y ha obtenido un importante conocimiento y adopción en el mundo de la difusión profesional.
 
-NewTek NDI® tecnología se ha convertido en una solución estándar del sector para producir contenido en vivo para transmisiones por secuencias y ha obtenido un importante conocimiento y adopción en el mundo de la difusión profesional.
-
-Skype añadió previamente la funcionalidad de® de salida de NDI a Skype a finales del 2018. Microsoft Teams aprovecha esta funcionalidad para mejorar la experiencia de la reunión.
+Skype añadió previamente la funcionalidad de® de salida de NDI a Skype a finales del 2018. Microsoft Teams usa esta funcionalidad para mejorar la experiencia de la reunión.
 
 NDI® tecnología está limitada a una red local y solo se debe considerar parte del flujo de trabajo de producción, no de una solución de difusión.
 

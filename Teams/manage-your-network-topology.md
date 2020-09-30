@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar las opciones de red para las características de voz en la nube en Microsoft Teams.
-ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 21d47b5b2fae0b22ea585168acdce4a5e25af2ea
+ms.sourcegitcommit: 7631af666ae439cc85f1dae8955653a67170cf20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539630"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304584"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Administrar la topología de red para las características de voz en la nube en Microsoft Teams
 
@@ -147,10 +147,10 @@ En la tabla siguiente se muestran las subredes definidas en este ejemplo.
 En el caso de varias subredes, puede importar un archivo CSV con una secuencia de comandos como la siguiente.
 
 ```PowerShell
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
+Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-En este ejemplo, el archivo CSV tiene un aspecto similar a este:
+En este ejemplo, el archivo CSV tiene un aspecto similar a este: 
 
 ```console
 Identity, Mask, SiteID
