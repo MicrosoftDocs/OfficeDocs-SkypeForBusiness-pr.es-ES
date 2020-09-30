@@ -9,7 +9,6 @@
 # Aprendizaje
 ## [Información general](training-microsoft-teams-landing-page.md)
 ## [Formación de administradores para Teams](itadmin-readiness.md)
-## [Formación del usuario final para Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 ## [Sesiones de Teams en Ignite 2020](ignite-2020-landing-page.md)
 ## [Formación en directo de Teams](instructor-led-training-teams-landing-page.yml)
 ## [Formación en línea de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
@@ -367,7 +366,6 @@
 ##### [Definiciones y estándares RFC](direct-routing-protocols.md)
 ##### [Protocolo SIP](direct-routing-protocols-SIP.md)
 ##### [Protocolos multimedia](direct-routing-protocols-media.md)
-#### [Configurar robot de devolución de llamada](direct-routing-ringback-bot.md)
 #### [Administrar directivas de enrutamiento de voz](manage-voice-routing-policies.md)
 
 
