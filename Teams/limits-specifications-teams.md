@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82140caa97d8e754d6264429b7fbbd07d1877f0a
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203733"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308203"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -111,7 +111,16 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 ## <a name="meetings-and-calls"></a>Reuniones y llamadas
 
 > [!IMPORTANT]
-> En abril, [anunciamos](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) que los incrementos en el límite predeterminado temporal se habilitarían para los eventos en directo de Microsoft 365 con el fin de ayudar a los clientes, hasta el 1 de julio. Para seguir satisfaciendo las necesidades de los clientes, ampliaremos los límites temporales predeterminados hasta el 1 de octubre de 2020. Los eventos en directo hospedados en Teams, Stream y Yammer seguirán admitiendo temporalmente eventos de hasta 20 000 asistentes, 16 horas de duración y 50 eventos simultáneos. Además, los clientes pueden hospedar un evento en directo en Stream de hasta 100 000 asistentes cuando se planee en el [programa de asistencia de eventos en directo de Microsoft](https://resources.techcommunity.microsoft.com/live-events/assistance/).
+> **Aumentamos el límite de eventos en directo de Microsoft 365**
+>
+> **Para dar nuestro apoyo a los clientes, hasta el 1 de enero de 2021, prolongaremos los aumentos temporales del límite de eventos en directo alojados en Teams, Stream y Yammer, incluido**:
+>
+>- Hasta 20 000 asistentes por evento
+>- Hasta 50 eventos simultáneos por espacio empresarial de Teams
+>- Hasta 16 horas para cada difusión
+>
+> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para eventos en directo de Microsoft. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](teams-add-on-licensing/advanced-communications.md).**
+
 
 |Característica     | Límite máximo |
 |------------|---------------|
@@ -151,11 +160,13 @@ Para obtener más información sobre los eventos en directo y una comparación d
 > [!IMPORTANT]
 > **Aumentamos el límite de eventos en directo de Microsoft 365**
 >
-> Para ayudar a los clientes a cumplir con unas necesidades de comunicación que cambian cada día, los eventos en directo de Microsoft 365 elevarán temporalmente sus límites predeterminados hasta el 1 de octubre de 2020 para eventos en directo alojados en Teams. Se están implementando los siguientes incrementos:
+> Para ayudar a los clientes a satisfacer las necesidades de comunicación que cambian cada día, hasta el 1 de enero de 2021, aumentaremos temporalmente los límites predeterminados para los eventos en directo alojados en Teams, Stream y Yammer.
 >
 > - Límite de asistentes: los eventos pueden dar cabida a hasta 20 000 asistentes.
 > - Eventos simultáneos: 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial.
 > - Duración del evento: se ha aumentado la duración del evento hasta a 16 horas por difusión.
+>
+> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para eventos en directo de Microsoft. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](teams-add-on-licensing/advanced-communications.md).**
 
 ## <a name="presence-in-outlook"></a>Presencia en Outlook
 

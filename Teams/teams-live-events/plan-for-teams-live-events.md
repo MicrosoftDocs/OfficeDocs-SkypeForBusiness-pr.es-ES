@@ -18,19 +18,19 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3bd06ff936f0c26e34cf72fb9519b53896cf2f
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 675bcd9a8a7bdc65095cbc1a93979a4588e41fa5
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203923"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308323"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
 Cuando planee a los equipos eventos para tener reuniones grandes en la organización, debe tener en cuenta varios factores antes de empezar a configurarlo.
 
  > [!Note]
-> Para obtener más información sobre los eventos en directo de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para obtener más información sobre los eventos en directo de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Para más información sobre los requisitos de ancho de banda para los eventos en directo de Teams, consulte [preparar la organización](../prepare-network.md). 
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>¿Quién puede crear, asistir y programar eventos en directo?
 
@@ -100,11 +100,15 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 
 > [!IMPORTANT]
 > **Aumentamos el límite de eventos en directo de Microsoft 365**
-> 
-> Para ayudar a los clientes a cumplir con unas necesidades de comunicación que cambian cada día, los eventos en directo de Microsoft 365 Live elevarán temporalmente sus límites predeterminados hasta el 1 de julio de 2020 para eventos en directo alojados en Teams. A finales de abril de 2020 se comenzaron a elevar los siguientes límites:
-> - Límite de asistentes: los eventos pueden dar cabida a hasta 20 000 asistentes.
-> - Eventos simultáneos: 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial.
-> - Duración del evento: se ha aumentado la duración del evento hasta a 16 horas por difusión.
+>
+> **Para dar nuestro apoyo a los clientes, hasta el 1 de enero de 2021, prolongaremos los aumentos temporales del límite de eventos en directo alojados en Teams, Stream y Yammer, incluido**:
+>
+>- Hasta 20 000 asistentes por evento
+>- Hasta 50 eventos simultáneos por espacio empresarial de Teams
+>- Hasta 16 horas para cada difusión
+>
+> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para eventos en directo de Microsoft. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](../teams-add-on-licensing/advanced-communications.md).**
+
 
 |**Función**   |**Difusión de reunión de Skype** |**Eventos producidos en Teams** |**Eventos producidos en las aplicaciones o dispositivos externos** |
 |---------|---------|---------|---------|
