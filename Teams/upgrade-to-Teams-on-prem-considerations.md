@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955917"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328219"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>Consideraciones de actualización para organizaciones con Skype empresarial Server local &mdash; para administradores de ti
 
@@ -52,7 +52,7 @@ Además, los artículos siguientes describen los conceptos de actualización imp
 
 - Los usuarios de equipos que tienen una cuenta de Skype empresarial local (es decir, que aún no se han movido a la nube mediante Move-CsUser) no pueden interoperar con ningún usuario de Skype empresarial ni pueden federarse a usuarios externos. Esta función solo está disponible cuando los usuarios se mueven a la nube (ya sea en modo islas o como usuarios de TeamsOnly). 
 
-- Si tiene usuarios de Skype empresarial locales, no debe asignar el modo TeamsOnly en el nivel del espacio empresarial, a menos que asigne de forma explícita algún otro modo a todos los usuarios con cuentas locales de Skype empresarial. 
+- Si tiene usuarios con cuentas de Skype empresarial en local, no puede asignar el modo TeamsOnly en el nivel de espacio empresarial. Primero debe mover a la nube todos los usuarios que tengan cuentas locales de Skype empresarial `Move-CsUser` y, a continuación, [deshabilitar la implementación híbrida para completar la migración a la nube](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid).  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` no funcionará en el nivel de inquilino si se detecta un registro DNS lyncdiscover que señala a una ubicación distinta de Office 365.
 
 - Debe asegurarse de que los usuarios estén sincronizados correctamente en Azure AD con los atributos correctos de Skype empresarial. Estos atributos son todos los prefijos con "msRTCSIP-". Si los usuarios no se sincronizan correctamente con Azure AD, las herramientas de administración de Teams no podrán administrar estos usuarios. (Por ejemplo, no podrá asignar directivas de Teams a usuarios locales, a menos que esté sincronizando estos atributos correctamente). Para obtener más información, vea [configurar Azure ad Connect para Teams y Skype empresarial](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
@@ -64,12 +64,6 @@ Además, los artículos siguientes describen los conceptos de actualización imp
 
 >[!NOTE]
 > Los nuevos inquilinos creados después del 3 de septiembre de 2019 se crean como inquilinos de TeamsOnly, a menos que la organización ya tenga una implementación local de Skype empresarial Server. Microsoft usa los registros DNS para identificar las organizaciones locales de Skype empresarial Server. Si su organización tiene Skype empresarial Server local sin entradas DNS públicas, tendrá que llamar al servicio de soporte técnico de Microsoft para descalificar el nuevo inquilino. 
-
-
-
-
-
-
 
 
 

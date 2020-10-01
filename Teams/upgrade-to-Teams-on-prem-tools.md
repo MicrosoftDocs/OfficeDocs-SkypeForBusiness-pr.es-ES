@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b910a93435cedfc1dcc83c34b766d9121f93eea
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955957"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328199"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Herramientas para actualizar a teams &mdash; para administradores de ti
 
@@ -45,11 +45,11 @@ Además, los artículos siguientes describen los conceptos de actualización imp
 
 ## <a name="tools-for-managing-the-upgrade"></a>Herramientas para administrar la actualización
 
-Independientemente del método de actualización que elija, administra la transición a TeamsOnly con [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), que controla el modo de coexistencia de un usuario. Para obtener más información sobre cada uno de los modos, vea [modos de coexistencia](migration-interop-guidance-for-teams-with-skype.md).
+Independientemente del método de actualización que elija, para los usuarios que ya tienen Skype empresarial online, puede administrar la transición a TeamsOnly con [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), que controla el modo de coexistencia de un usuario. Para los usuarios con una cuenta local en Skype empresarial Server, también puede usarlos `Move-CsUser` para [moverlos a la nube](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Para obtener más información sobre cada uno de los modos, vea [modos de coexistencia](migration-interop-guidance-for-teams-with-skype.md).  
 
-Tanto si realiza una transición de funciones seleccionadas con los modos de Skype empresarial o simplemente si actualiza el modo TeamsOnly desde la configuración de islas predeterminadas, TeamsUpgradePolicy es la herramienta principal. Como cualquier otra directiva de Teams, puede asignar TeamsUpgradePolicy directamente a un usuario. También puede establecer la Directiva como el valor predeterminado para todo el inquilino. Cualquier asignación a un usuario tiene prioridad sobre la configuración predeterminada de inquilino.  Puede administrar la Directiva en la consola de administración de Teams y en PowerShell.
+Tanto si realiza una transición de funciones seleccionadas con los modos de Skype empresarial o simplemente si actualiza el modo TeamsOnly desde la configuración de islas predeterminadas, TeamsUpgradePolicy es la principal herramienta para los usuarios que ya tienen Skype empresarial online. Como cualquier otra directiva de Teams, puede asignar TeamsUpgradePolicy directamente a un usuario. También puede establecer la Directiva como el valor predeterminado para todo el inquilino. Cualquier asignación a un usuario tiene prioridad sobre la configuración predeterminada de inquilino.  Puede administrar la Directiva en la consola de administración de Teams y en PowerShell.
 
-Puede asignar cualquier modo de TeamsUpgradePolicy a los usuarios, independientemente de si el usuario está alojado en Skype empresarial online o en un entorno local, **excepto que el modo TeamsOnly solo se puede asignar a un usuario que ya esté alojado en Skype empresarial online**. Esto se debe a que la interoperabilidad con usuarios y Federación de Skype empresarial, así como con la funcionalidad del sistema telefónico de Microsoft 365 solo es posible si el usuario se ha alojado en Skype empresarial online.
+También puede asignar cualquier modo de TeamsUpgradePolicy, excepto el modo TeamsOnly, a los usuarios alojados en Skype empresarial local. **El modo TeamsOnly solo se puede asignar a un usuario que ya está alojado en Skype empresarial online**. Esto se debe a que la interoperabilidad con usuarios y Federación de Skype empresarial, así como con la funcionalidad del sistema telefónico de Microsoft 365 solo es posible si el usuario se ha alojado en Skype empresarial online. Además, **no puede asignar el modo de TeamsOnly como predeterminado para todo el inquilino si tiene una implementación local de Skype empresarial** (que es detectada por presencia de un registro DNS de lyncdiscover que apunta a una ubicación distinta de Office 365.
 
 Los usuarios con cuentas de Skype empresarial domésticas locales [deben moverse por Internet](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (ya sea a Skype empresarial online o directamente a teams) mediante Move-CsUser en el conjunto de herramientas de Skype empresarial local. Estos usuarios se pueden mover a TeamsOnly en 1 o 2 pasos:
 
@@ -83,7 +83,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->Si tiene usuarios de Skype empresarial locales, no debe asignar el modo TeamsOnly en el nivel del espacio empresarial, a menos que asigne de forma explícita algún otro modo a todos los usuarios con cuentas locales de Skype empresarial.
+>Si tiene usuarios con cuentas de Skype empresarial en local, no puede asignar el modo TeamsOnly en el nivel de espacio empresarial. Debe mover estos usuarios de forma individual a la nube mediante Move-CsUser.
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>Uso de notificaciones en clientes de Skype empresarial

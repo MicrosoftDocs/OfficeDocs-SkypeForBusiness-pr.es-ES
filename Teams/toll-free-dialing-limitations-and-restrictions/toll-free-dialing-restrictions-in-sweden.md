@@ -1,11 +1,10 @@
 ---
 title: Restricciones de marcado de número gratuito en Suecia
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 2d5f5cf4-1068-4a6d-a9e5-3dc4c67f1105
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 299c39791968a488dc5ad8d210f5841824c83c50
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681827"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321903"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Restricciones de marcado de número gratuito en Suecia
 
@@ -38,7 +37,7 @@ ms.locfileid: "41681827"
 |**Detalles**|**Descripción**|
 |:-----|:-----|
 |¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> | 02 XXX XXXX <br/>  0200 XX XXXX <br/> |
+|Formato (s) de marcado  <br/> | 020 <br/> |
 |Código ISO de país o región  <br/> |SE  <br/> |
 |Isla/territorio cubierta  <br/> |No aplicable  <br/> |
 |Isla/territorio no cubierto  <br/> |No aplicable  <br/> |

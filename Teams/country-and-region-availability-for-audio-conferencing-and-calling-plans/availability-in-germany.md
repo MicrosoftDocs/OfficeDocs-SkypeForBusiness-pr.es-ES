@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Alemania.
-ms.openlocfilehash: 9a8c6675ec7116fb8e358c394fb54d169a56c432
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: ba3389abd0555db7ff269ec969e216bd40d22bdf
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231169"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321893"
 ---
 # <a name="availability-in-germany"></a>Disponibilidad en Alemania
 
@@ -60,7 +60,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y M
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se haya alcanzado antes de cada mes del calendario)</li></li> 
+|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se haya alcanzado antes de cada mes del calendario)</li></li>|
 |¿Se pueden realizar llamadas a números premium? <br/> | No se admite en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

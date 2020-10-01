@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de las salas de Microsoft Teams, que enumeran las mejoras acumulativas de las salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761326"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328229"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -29,6 +29,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 |Prensa |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
@@ -66,6 +67,13 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+
+### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
+
+Introdujo en esta actualización:
+- Ver más vídeos con la galería de vídeos de 3x3 en la parte frontal de la sala  
+- Iniciar subtítulos locales activos en vivo desde MTR 
+- Unirse a las reuniones de zoom de las salas de equipos con la Unión directa de invitados (vista previa)
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

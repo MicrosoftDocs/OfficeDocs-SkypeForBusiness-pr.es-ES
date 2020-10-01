@@ -1,11 +1,10 @@
 ---
 title: Restricciones de marcado de número gratuito en Dinamarca
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,14 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: Más información sobre el marcado de números gratuitos en el sur de China, incluida la disponibilidad, la disponibilidad de redes móviles, por cable o de línea fija, y las restricciones.
-ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: c3db94798c56ca35886992d8d4c3496b45b258a7
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140449"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320775"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Restricciones de marcado de número gratuito en Dinamarca
 
@@ -39,7 +37,7 @@ ms.locfileid: "43140449"
 |**Detalles**|**Descripción**|
 |:-----|:-----|
 |¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
+|Formato (s) de marcado  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |Código ISO de país o región  <br/> |DK  <br/> |
 |Isla/territorio cubierta  <br/> |No aplicable  <br/> |
 |Isla/territorio no cubierto  <br/> | Sin acceso en las Islas Feroe ni en Groenlandia. <br/> |
@@ -50,7 +48,7 @@ ms.locfileid: "43140449"
 ## <a name="related-topics"></a>Temas relacionados
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Cómo obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers)
 
   
  

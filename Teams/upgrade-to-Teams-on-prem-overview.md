@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e146394b5f000ce984d7bfaff5e6674c2c091b98
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8030f1504e56fb6bd9aee528e7969c9d66bf8c96
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955897"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328239"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Actualizar de Skype empresarial a teams &mdash; para administradores de ti
 
@@ -52,6 +52,9 @@ Además, los artículos siguientes describen los conceptos de actualización imp
 Antes de empezar, tenga en cuenta que un usuario que se ha migrado a teams ya no usa un cliente de Skype empresarial, excepto para unirse a una reunión hospedada en Skype empresarial.  Todos los chats y llamadas pasan al cliente de Teams del usuario, independientemente de si el remitente utiliza Teams o Skype Empresarial. Todas las reuniones nuevas organizadas por el usuario migrado se programarán como reuniones de Teams. Si el usuario intenta usar el cliente de Skype empresarial, la iniciación de chats y llamadas estará bloqueada.  Sin embargo, el usuario puede (y debe) seguir usando el cliente de Skype empresarial para unirse a las reuniones de Skype empresarial a las que está invitado. (Los antiguos clientes de Skype empresarial que se entregaron antes 2017 no son compatibles con TeamsUpgradePolicy. Asegúrese de estar usando el último cliente de Skype empresarial.)
  
 Puede administrar la transición de su usuario a teams mediante el concepto de [modo](migration-interop-guidance-for-teams-with-skype.md), que es una propiedad de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un usuario que se ha migrado a Teams, como se describe anteriormente, está en modo "TeamsOnly".  En el caso de una organización que va a migrar a Teams, el objetivo final es pasar a todos los usuarios al modo TeamsOnly.
+
+>[!NOTE]
+>Los usuarios que tienen una cuenta local de Skype empresarial no se pueden TeamsOnly. Aunque estos usuarios pueden [usar Teams en modo islas](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype), esto no proporciona el conjunto completo de funciones de teams que está disponible en el modo TeamsOnly. Para que estos usuarios TeamsOnly, deben moverse a la nube mediante `Move-CsUser` las herramientas locales de Skype empresarial Server.
 
 Vale. Comencemos.  El primer paso es comprender los [métodos de actualización disponibles](upgrade-to-teams-on-prem-upgrade-methods.md).
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Japón para Microsoft Teams.
-ms.openlocfilehash: ad21620896800411f72a699d19cf9704485d0207
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 5cc9168b1ab0b881c2f7737f00369b5a286962b9
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824931"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322259"
 ---
 # <a name="phone-number-management-for-japan"></a>Administración de números de teléfono para Japón
 
@@ -43,7 +43,8 @@ Para obtener más información, vea  [administrar números de teléfono de su or
 |Obtener números de teléfono transferidos a Microsoft 365 u Office 365 para **usuarios** de Japón.|Para transferir los números de teléfono de los usuarios, comunícate con las [llamadas de Softbank](https://aka.ms/SoftBankVoicePlan) . A continuación, agregará los números a la organización.  <br/> |
 |Obtener números de teléfono transferidos a Microsoft 365 u Office 365 para las **colas de llamadas** en Japón.|Para transferir números de teléfono de servicio, comunícate con las [llamadas de Softbank](https://aka.ms/SoftBankVoicePlan) . A continuación, agregará los números a la organización.|
 |Cambie la dirección de emergencia asignada a los usuarios que tengan un número de teléfono de plan de llamadas.|Para hacer cambios en las direcciones de emergencia, comunícate con las [llamadas de Softbank](https://aka.ms/SoftBankVoicePlan) . Pueden actualizar esta información por usted.|
-|Cambiar un número de usuario a un número de servicio. |Actualmente no es compatible con las llamadas de SoftBank.
+|Cambiar un número de usuario a un número de servicio. |Actualmente no es compatible con las llamadas de SoftBank.|
+|Realizar actualizaciones del servicio de directorio para la cola de llamadas o números de operador automático|Para agregar o cambiar números de cola de llamadas o de operador automático, póngase en contacto con [el servicio de asistencia al cliente de RTC](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Temas relacionados
 

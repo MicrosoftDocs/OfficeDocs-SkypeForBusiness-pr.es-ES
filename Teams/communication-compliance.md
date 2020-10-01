@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: bb9400778b8e000a438343e74bc6b030087ff297
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597154"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328259"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Cumplimiento de la comunicación con Microsoft Teams
 
@@ -32,9 +32,6 @@ Para Microsoft Teams, el cumplimiento de la comunicación ayuda a identificar lo
 - Lenguaje ofensivo, irreverente y de acoso
 - Imágenes de adultos, racy y Gory
 - Uso compartido de información confidencial
-
->[!IMPORTANT]
->Los canales privados de Microsoft Teams no son compatibles con el cumplimiento de la comunicación. Las comunicaciones por chat enviadas por usuarios invitados a los usuarios de los equipos no se supervisan para el contenido inapropiado.
 
 Para obtener más información sobre el cumplimiento de las comunicaciones y sobre cómo configurar directivas para su organización, consulte [cumplimiento de la comunicación en Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
