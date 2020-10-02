@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220090"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48337596"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -175,7 +175,7 @@ Cuando haya agregado todos los días no laborables, haga clic en **siguiente**.
 
 El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando una persona que llama usa el método de marcado por nombre o la extensión de marcado. El valor predeterminado de **todos los usuarios en línea** incluye todos los usuarios de su organización que son usuarios en línea con una licencia de sistema de teléfono o que se han hospedado de forma local con Skype empresarial Server.
 
-Puede incluir o excluir determinados usuarios seleccionando **grupo de usuarios personalizado** en **incluir** o **excluir** y eligiendo uno o varios grupos de Microsoft 365, listas de distribución o grupos de seguridad. Por ejemplo, es posible que desee excluir ejecutivos de su organización del directorio de marcado.
+Puede incluir o excluir determinados usuarios seleccionando **grupo de usuarios personalizado** en **incluir** o **excluir** y eligiendo uno o varios grupos de Microsoft 365, listas de distribución o grupos de seguridad. Por ejemplo, es posible que desee excluir ejecutivos de su organización del directorio de marcado. (Si un usuario está en ambas listas, se excluirá del directorio).
 
 > [!NOTE]
 > Es posible que tarde hasta 36 horas para que un nuevo usuario tenga su nombre en el directorio.

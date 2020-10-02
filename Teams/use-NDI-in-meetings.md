@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308173"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337019"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Usar la tecnología de NDI® en Microsoft Teams
 
@@ -50,7 +49,7 @@ Cuando un usuario se une a una reunión, verá un mensaje en el que se le notifi
 
 La imagen siguiente muestra el mensaje emergente que un usuario ve en una reunión de Teams.
 
-![Una imagen del banner de tecnología de NDI® que se muestra en una reunión de Teams.](media/NDI-disclosure.png)
+![NDI® banner tecnológico que se muestra en una reunión de Teams.](media/NDI-disclosure.png)
 
 La pancarta tiene un vínculo a la [política de privacidad de Microsoft](https://aka.ms/teamsprivacy).
 
@@ -60,7 +59,7 @@ NDI® tecnología es compatible con todas las configuraciones regionales. Los si
 
 - En el inquilino: soporte completo, entregado en función de ring/tenantId/userId (controlado por la Directiva de reuniones)
 - Federado: sin acceso a secuencias (incluso cuando tiene activada la tecnología® NDI)<sup>1</sup>
-- Freemium: sin acceso a la transmisión por secuencias
+- Premium: sin acceso por secuencias
 - Anónimo: sin acceso a secuencias
 - Invitado: sin acceso a secuencias  
 

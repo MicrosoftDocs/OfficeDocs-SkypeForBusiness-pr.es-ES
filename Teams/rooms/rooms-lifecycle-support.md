@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Obtenga más información sobre la compatibilidad del ciclo de vida con salas de Microsoft Teams, incluida la estructura de soporte dinámico y sus fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201194"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336989"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  
@@ -44,7 +44,7 @@ Las salas de Microsoft Teams requieren las SKU de Windows 10 IoT Enterprise o Wi
 - Windows 10 Internet of Things (IoT) Enterprise LTSB/LTSC Edition
 - cualquier otra edición de Windows, como Windows 10 Pro o Home Edition
 
-Una actualización de características de Windows 10 no se ofrece ni actualiza inmediatamente en los dispositivos de las salas de Microsoft Teams. Un retraso intencionado de hasta seis meses después de la fecha de disponibilidad general Publicada en la página de información de la [versión de Windows 10](https://docs.microsoft.com/windows/release-information/) . El tiempo de retraso se usa para validar la compatibilidad de la versión de Windows 10 para la aplicación salas de Microsoft Teams, hardware de dispositivo y periféricos de video de audio certificados. La validación comienza y continúa durante el desarrollo activo de cada versión principal de Windows 10. Se necesita más tiempo para validar que todos los fabricantes de dispositivos han creado imágenes actualizadas para sus dispositivos y Microsoft Teams para certificar y probar dichas imágenes. Durante el período de validación, la aplicación de Microsoft Team Room usa [las directivas de grupo de Windows Update para empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) para retrasar las actualizaciones de características de Windows 10. Después de encontrar y resolver cualquier problema de compatibilidad, el bloque se eleva mediante la actualización de directivas de grupo a través de una nueva versión de la aplicación en la tienda Windows. Los dispositivos que ejecutan la aplicación salas de Microsoft Teams se actualizan automáticamente a una versión de Windows 10 adecuada durante el reinicio de mantenimiento nocturno. Una versión de MSI está disponible para los clientes que desean administrar las actualizaciones de forma manual.  
+Una actualización de características de Windows 10 no se ofrece ni actualiza inmediatamente en los dispositivos de las salas de Microsoft Teams. Un retraso intencionado de hasta seis meses después de la fecha de disponibilidad general Publicada en la página de información de la [versión de Windows 10](https://docs.microsoft.com/windows/release-information/) . El tiempo de retraso se usa para validar la compatibilidad de la versión de Windows 10 para la aplicación salas de Microsoft Teams, hardware de dispositivo y periféricos de video de audio certificados. La validación comienza y continúa durante el desarrollo activo de cada versión principal de Windows 10. Se necesita más tiempo para validar que todos los fabricantes de dispositivos han creado imágenes actualizadas para sus dispositivos y Microsoft Teams para certificar y probar dichas imágenes. Durante el período de validación, la aplicación de Microsoft Team Room usa  [las directivas de grupo de Windows Update para empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) para retrasar las actualizaciones de características de Windows 10. Después de encontrar y resolver cualquier problema de compatibilidad, el bloque se eleva mediante la actualización de directivas de grupo a través de una nueva versión de la aplicación en la tienda Windows. Los dispositivos que ejecutan la aplicación salas de Microsoft Teams se actualizan automáticamente a una versión de Windows 10 adecuada durante el reinicio de mantenimiento nocturno. Una versión de MSI está disponible para los clientes que desean administrar las actualizaciones de forma manual.  
 
 > [!IMPORTANT]
 > Durante el período de validación, los dispositivos de salas de Microsoft Teams Rooms **no** se actualizarán de ninguna manera a la siguiente versión de Windows 10. Esto incluye la invalidación de las directivas de grupo vigentes o el uso de System Center u otros servicios de administración de dispositivos de terceros. Cualquiera de estas causas puede causar problemas en la aplicación de Microsoft Teams Room o puede dejar los dispositivos inutilizables.  
@@ -56,8 +56,8 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles de Wi
 | 2004 |2020-05-27 |En validación, <br/>No recomendado|&#x2014; |19041,264 |
 | 1909 |2019-11-12 |Posible <br/>Recomendado |4.5.33.0 |18363,418  |
 | 1903 |2019-05-21 |Compatible  |4.2.4.0 |18362,356 |
-| 1809 |2019-03-28 |Omitidos <br/>No se recomienda &#x2780;|&#x2014; |&#x2014; |
-| 1803 |2018-07-10 |Compatible                             |4.1.22.0 |17134,191|
+| 1809 |2019-03-28 |No es compatible, <br/>Problemas de compatibilidad conocidos &#x2780;|&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |No compatible                             |&#x2014;  |&#x2014; |
 | 1709 |2018-01-18 |No se admite                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |No compatible                         |&#x2014; |&#x2014; |
 
