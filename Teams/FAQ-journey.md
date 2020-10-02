@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc99ac35344ff0628ec16c474d849320cf931afe
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597005"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320905"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams
 
@@ -167,14 +167,8 @@ Al igual que ocurre con la Consola de administración de Skype Empresarial, el [
 **¿Puedo usar Microsoft Teams en Surface Hub?**<br>
 Las reuniones de Teams ahora están disponibles en Surface Hub con la experiencia de llamadas y reuniones. Para obtener más información, vea [Implementar Microsoft Teams para Surface Hub](https://docs.microsoft.com/microsoftteams/teams-surface-hub).
 
-**¿Seguirán funcionando los teléfonos IP de terceros (3PIP) en Microsoft Teams? Y si es así, ¿por cuánto tiempo?**<br>
-Después de la fecha de retirada de Skype Empresarial Online del 31 de julio de 2021, los usuarios con dispositivos 3PIP que hayan migrado a Microsoft Teams podrán seguir usando sus dispositivos 3PIP con un número limitado de funciones hasta el 31 de julio de 2023.
+**¿Seguirán funcionando los teléfonos IP de terceros (3PIP) en Microsoft Teams? ¿Qué sucederá con los teléfonos SIP de terceros?**<br>
+Poder usar el hardware existente puede ofrecer ahorros de costos importantes al cambiarse a un nuevo sistema telefónico. Microsoft ha ampliado el soporte técnico para los teléfonos (3PIP) de Skype Empresarial más allá de 2023, por lo que puede seguir usando sus teléfonos de Skype Empresarial existentes mientras se cambia a Teams. Además, a partir de la primera mitad de 2021, Teams será compatible con las características de llamada principales en teléfonos SIP de Cisco, Yealink, Polycom y otros.
 
 **¿Los teléfonos certificados para Skype Empresarial Online funcionarán con Microsoft Teams?**<br>
 Para todas las preguntas relacionadas con la compatibilidad de teléfonos, consulte el [blog sobre teléfonos certificados para Skype Empresarial Online y su relevancia en Teams](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309).
-
-
-
-
-
-
