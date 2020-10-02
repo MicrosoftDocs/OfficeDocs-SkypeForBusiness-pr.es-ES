@@ -13,12 +13,12 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 57976f5f6f205c7392a3a426c59a0eac84580a50
-  ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+  ms.openlocfilehash: d3e7841b2a849ff7c6d58a62fcc080047c250a75
+  ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/22/2020
-  ms.locfileid: "48203933"
+  ms.lasthandoff: 09/30/2020
+  ms.locfileid: "48308213"
 highlightedContent:
   items:
   - title: 'Respuesta frente a la COVID-19: dar soporte técnico a los trabajadores remotos con Teams'
@@ -60,6 +60,8 @@ additionalContent:
       links:
       - text: Preparar la red para Teams
         url: /MicrosoftTeams/prepare-network
+      - text: Mantener a los alumnos seguros mientras usan Teams para el aprendizaje a distancia
+        url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
       - text: Usar el Asesor de Teams para ayudarle a implementar Teams
         url: /MicrosoftTeams/use-advisor-teams-roll-out
       - text: Cómo se usa la memoria en Teams
