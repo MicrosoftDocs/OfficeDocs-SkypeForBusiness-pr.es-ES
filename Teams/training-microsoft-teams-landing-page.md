@@ -3,8 +3,8 @@ title: Formación de administradores de Microsoft Teams
 ms.reviewer: ''
 description: Use estos recursos impartidos por usuarios finales, administradores e instructores para sacar el máximo provecho de Microsoft Teams en su organización.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656341"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336986"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656341"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Aprendizaje en directo de Teams](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Clases de aprendizaje gratuitas en línea y en directo ofrecidas por Microsoft diseñadas para empezar a trabajar con Teams. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Aprendizaje en línea de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Use estos recursos de aprendizaje autodirigido para ayudar a los usuarios de su organización a sacar el máximo provecho de Teams. |
 
-## <a name="dont-miss-this-key-training"></a>No se pierda este aprendizaje clave
+## <a name="dont-miss-these-key-training-offerings"></a>No se pierda estas ofertas de aprendizaje esenciales
 
 Vuelve a menudo para ver las novedades. Esta lista se actualiza para que estés siempre al día con lo último del aprendizaje de Teams.
 
@@ -51,7 +51,7 @@ Vuelve a menudo para ver las novedades. Esta lista se actualiza para que estés 
    :::column-end:::
 
    :::column:::
-   **[Trabajo en equipo](https://aka.ms/edx-cld267x-about)** </br>
+   **[Trabajo en equipo](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    Curso: Facilitar el trabajo en equipo con Teams
 
    :::column-end:::
