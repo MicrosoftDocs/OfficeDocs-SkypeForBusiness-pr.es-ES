@@ -10,47 +10,45 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 search.appverid: MET150
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
-localization_priority: Priority
-description: Los administradores pueden obtener más información sobre cómo agregar nuevos usuarios invitados a una organización en clientes de escritorio y web de Microsoft Teams y en el portal de colaboración de Azure Active Directory B2B.
+localization_priority: Normal
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a67fd7ed111c1020eaf133e96e26ae03d4250637
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
-ms.translationtype: HT
+description: Los administradores pueden obtener más información sobre cómo agregar nuevos usuarios invitados a una organización en clientes de escritorio y web de Microsoft Teams y en el portal de colaboración de Azure Active Directory B2B.
+ms.openlocfilehash: e74819ba46af8a9f6bcf3b2198f78354bf7bfb79
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405717"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346181"
 ---
-<a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
-=====================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
 
 Todo contacto que tenga una cuenta de correo electrónico empresarial o de consumidor (como Outlook.com o Gmail.com) puede participar como invitado en Teams.
 
 Como administrador, puede agregar un usuario invitado nuevo a la organización de dos formas:
+
 - Los administradores globales o de Teams y los propietarios de equipo agregan un invitado a un equipo en los clientes de Teams o en el Centro de administración de Teams. Para obtener más información, consulte [Agregar invitados a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Si aún no ha configurado el acceso de invitado, siga los pasos de [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
-- Agregue invitados a la organización a través de la colaboración B2B de Azure Active Directory (Azure AD). La colaboración B2B de Azure AD permite a un administrador global invitar y autorizar a un conjunto de usuarios externos mediante la carga de un archivo de valores separados por comas (CSV) de no más de 2 000 líneas en el portal de colaboración B2B. Para obtener más información, consulte [Colaboración de B2B de Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=826383).
+- Agregue invitados a la organización a través de la colaboración B2B de Azure Active Directory (Azure AD). Para obtener información detallada, consulte [QuickStart: agregar usuarios invitados a su directorio en el portal de Azure](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
 
 Los administradores también pueden delegar permisos para agregar invitados a otras personas de su organización asignando el rol de invitado. Para más información, consulte [Habilitar la colaboración externa B2B y gestionar quién puede invitar a los invitados](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations).
 
 Con la colaboración B2B de Azure AD, las organizaciones pueden exigir que se cumplan las directivas de acceso condicional y autenticación multifactor (MFA) para los usuarios de B2B. Estas directivas se pueden exigir en el nivel de inquilino, aplicación o usuario individual, del mismo modo que pueden habilitarse para empleados a tiempo completo y miembros de la organización. Estas directivas se aplican en la organización de recursos. Para obtener más información, vea [Acceso condicional para usuarios de colaboración B2B](https://go.microsoft.com/fwlink/?linkid=857454). No es posible bloquear a usuarios invitados particulares.
 
-Los usuarios invitados que ya ha agregado a través de Azure AD B2B, los Grupos de Microsoft 365, o SharePoint Online están listos. El administrador de Microsoft 365 u Office 365 o el propietario de un equipo podrá agregar a esos invitados a sus respectivos equipos. Si un equipo ya está con un grupo de Microsoft 365 y se agrega un invitado al grupo, el invitado tendrá acceso al equipo. Cuando se agrega un invitado a través del grupo de Microsoft 365, el invitado no recibe ninguna invitación por correo electrónico, por lo que algún miembro del equipo tendrá que notificárselo.
+Los usuarios invitados que ya ha agregado mediante la B2B de Azure AD, los grupos de Microsoft 365 o SharePoint están listos para usar. El administrador de Microsoft 365 o el propietario de un equipo pueden agregar a esos invitados a sus respectivos equipos. Si agrega un invitado directamente al grupo de Microsoft 365 asociado a un equipo, el invitado obtendrá acceso al equipo pero el grupo Microsoft 365 no generará un correo electrónico de invitación al invitado, por lo que una persona del equipo debe notificar al invitado.
 
 > [!NOTE]
 > Los invitados están sujetos a los límites de servicio de [Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) y [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).
 
-Puede llevar un registro de qué invitados se han agregado en Azure AD o en el Centro de seguridad de Microsoft 365. Cuando se agrega un invitado en Microsoft Teams, esta actividad se audita y se registra como actividad de administración del grupo de Azure AD "Added member to group" (Se ha agregado un miembro al grupo). Si desea más detalles, vea [Auditoría y generación de informes para usuarios de colaboración B2B](https://go.microsoft.com/fwlink/p/?linkid=858884) y [Buscar en el registro de auditoría del Centro de seguridad de Microsoft 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
+Puede llevar un registro de qué invitados se han agregado en Azure AD o en el Centro de seguridad de Microsoft 365. Cuando se agrega un invitado en Microsoft Teams, esta actividad se audita y se registra como actividad de administración del grupo de Azure AD "Added member to group" (Se ha agregado un miembro al grupo). Para obtener más información, consulte [Auditoría e informes de un usuario de colaboración B2B](https://docs.microsoft.com/azure/active-directory/external-identities/auditing-and-reporting) y [Buscar en el registro de auditoría del centro de cumplimiento](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 
-## <a name="more-information"></a>Más información
+## <a name="related-topics"></a>Temas relacionados
 
-[Autorizar el acceso de invitado en Microsoft Teams](teams-dependencies.md)</br>
-[Activar o desactivar el acceso de invitado en Microsoft Teams](set-up-guests.md)</br>
-[Usar PowerShell para controlar el acceso de invitados a un equipo](guest-access-powershell.md)
+[Autorizar el acceso de invitado en Microsoft Teams](teams-dependencies.md)
+
+[Activar o desactivar el acceso de invitado en Microsoft Teams](set-up-guests.md)

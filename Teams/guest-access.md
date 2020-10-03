@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
 localization_priority: Normal
@@ -18,69 +18,72 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales.
-ms.openlocfilehash: f04fce7f75df32111b2577119c12b14eadf963b9
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 388fb68196a6e68c13066b7b94a1b24a31834b37
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761246"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346171"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 
-Con el acceso de invitado, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales existentes en Teams. Cualquier persona que tenga una cuenta de correo electrónico empresarial o de usuario, como Microsoft 365, Outlook, gmail u otras personas, puede participar como invitado en Teams con acceso total a los chats, las reuniones y los archivos del equipo. Como administrador de Teams, puede controlar qué características pueden (y no pueden) usar los invitados en Teams. Para más información, consulte [Administrar el acceso de invitados](manage-guests.md).
+Con el acceso como invitado, puede proporcionar acceso a los equipos, documentos de canales, recursos, chats y aplicaciones a personas de fuera de su organización, a la vez que mantiene el control sobre sus datos empresariales.
 
-Para comparar el acceso externo (federación) con el acceso de invitado (y decidir cuál de ellos debe usar), lea [Comunicarse con usuarios de otras organizaciones en Teams](communicate-with-users-from-other-organizations.md).
+Un invitado es un usuario que no es empleado, estudiante ni es un miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores. Cualquier persona que no forma parte de su organización puede agregarse como invitado en Teams. Esto significa que cualquier persona que tenga una cuenta empresarial (es decir, una cuenta de Azure Active Directory) o una cuenta de correo electrónico de consumidor (con Outlook.com, Gmail.com u otros) puede participar como invitado en Teams, con acceso a los equipos y a las experiencias de los canales.
 
-El acceso de invitado es una configuración de Teams a nivel de toda la organización y se encuentra desactivada de forma predeterminada. (Puede controlar el acceso de invitados a equipos individuales mediante el uso de [etiquetas de confidencialidad](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)).
+Como administrador de equipos, usted [controla las características que los invitados pueden usar en Teams (y no)](manage-guests.md). Los invitados de los equipos están cubiertos por la misma protección de cumplimiento y cumplimiento que el resto de Microsoft 365, y se pueden administrar dentro de Azure AD. El acceso de invitado está sujeto a los límites de servicio de Azure AD y de Microsoft 365 u Office 365.
 
-Si está listo para empezar a invitar a invitados a los equipos, lea una de las siguientes opciones:
-
-- Para configurar el acceso de invitado para el uso general de Teams, consulte [colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
-- Para colaborar con una organización asociada que usa Azure Active Directory y permitir que los invitados realicen una inscripción automática para obtener acceso al equipo, consulte [crear una extranet B2B con invitados administrados](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet).
-
-El acceso de invitado está sujeto a los límites de servicio de Azure AD y de Microsoft 365 u Office 365.
+La experiencia de invitado tiene limitaciones deliberadamente establecidas. Para obtener una lista completa de lo que un invitado puede o no puede hacer en Teams, vea[comparación de las capacidades de miembro del equipo y de invitado](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
 > Los usuarios invitados siguen la configuración a nivel de organización en Teams para el modo de Actualización en coexistencia. Esto no se puede cambiar.
 
-## <a name="licensing-for-guest-access"></a>Licencias para acceso de invitado
+Para comparar el acceso externo (federación) con el acceso de invitado (y decidir cuál de ellos debe usar), lea [Comunicarse con usuarios de otras organizaciones en Teams](communicate-with-users-from-other-organizations.md).
 
-El acceso de invitados está incluido en todas las suscripciones de Microsoft 365 Empresa Estándar, Office 365 Enterprise y Office 365 Education. No se necesita ninguna otra licencia de Microsoft 365 u Office 365. Teams no limita el número de invitados que se pueden agregar. Sin embargo, es posible que el número total de invitados que se pueden agregar a su espacio empresarial esté restringido por las características de pago de Azure AD. Para obtener más información, vea [Licencia de colaboración de Azure AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+## <a name="set-up-guest-access"></a>Configurar el acceso de invitados
 
+El acceso de invitados en Teams requiere establecer otras opciones de configuración en Microsoft 365, incluyendo la configuración de Azure AD, los grupos de Microsoft 365 y SharePoint. Si está listo para empezar a invitar a invitados a los equipos, lea una de las siguientes opciones:
+
+- Para configurar el acceso de invitado para el uso general de Teams, consulte [colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+- Para colaborar con una organización asociada que usa Azure Active Directory y permitir que los invitados realicen una inscripción automática para obtener acceso al equipo, consulte [crear una extranet B2B con invitados administrados](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet).
+
+El acceso de invitados en Teams es una configuración de toda la organización y está desactivado de forma predeterminada. Puede controlar el acceso de invitados a equipos individuales mediante el uso de [etiquetas de confidencialidad](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
+## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Cómo un invitado se convierte en miembro de un equipo
+
+1. Un propietario del equipo o un administrador de Microsoft 365 [agrega un invitado a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+2. El invitado recibe un correo electrónico de bienvenida del dueño del equipo, con información sobre el equipo y qué esperar ahora que es miembro.
+3. El invitado acepta la invitación.
+  Los usuarios invitados que tengan una cuenta profesional o educativa en Azure Active Directory pueden aceptar la invitación y autenticar directamente. Se envía a otros usuarios un código de acceso único para validar su identidad (es necesaria la[autenticación de código de acceso de un solo uso](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) ).
+4. Tras aceptar la invitación, el invitado puede [participar en los equipos y los canales](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), recibir mensajes del canal y responder a ellos, [acceder a los archivos de los canales](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participar en el chat, unirse a reuniones, colaborar en documentos, etc. 
+
+En Teams, los invitados están claramente identificados. El nombre de usuario de un invitado incluye la etiqueta **(Invitado)** y un canal incluye un icono para indicar que hay invitados en el equipo. Para obtener más detalles, vea [Cómo es la experiencia de invitado](guest-experience.md).
+  
+Los invitados pueden dejar el equipo en cualquier momento dentro de Teams. Para obtener más información, consulte [¿Cómo abandono un equipo?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
 > [!NOTE]
-> Los usuarios de su organización que solo tengan planes de suscripción de Microsoft 365 u Office 365 independientes, como Exchange Online Plan 2, no pueden participar como invitados en su organización porque Teams considera que estos usuarios pertenecen a la misma organización. Para que estos usuarios puedan utilizar Teams, se les debe asignar una suscripción a Microsoft 365 Empresa Estándar, Office 365 Enterprise o Office 365 Education. 
+> Si abandona el equipo, no se quita la cuenta de invitado del directorio de la organización. Esto debe realizarlo un administrador global de Microsoft 365 o un administrador de Azure AD.
 
-## <a name="who-is-a-guest"></a>¿Quién es un invitado?
+## <a name="licensing-for-guest-access"></a>Licencias para acceso de invitado
 
-Un invitado es un usuario que no es empleado, estudiante ni es un miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores. Cualquier persona que no forma parte de su organización puede agregarse como invitado en Teams. Esto significa que cualquier usuario con una cuenta de empresa (es decir, una cuenta de Azure Active Directory) o una cuenta de correo electrónico de consumidor (con Outlook.com, Gmail.com u otros) puede participar como invitado en Teams con acceso completo a las experiencias de canales y equipos.
+El acceso de invitados se incluye en todas las suscripciones de Microsoft 365 Business Standard, Microsoft 365 Enterprise y Microsoft 365 Education. No es necesaria ninguna licencia adicional de Microsoft 365. Teams no limita el número de invitados que se pueden agregar. Sin embargo, es posible que el número total de invitados que se pueden agregar a su espacio empresarial esté restringido por las características de pago de Azure AD. Para obtener más información, vea [Licencia de colaboración de Azure AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
-Para más información sobre qué pueden y no pueden hacer los invitados, lea [Autorización del acceso de invitado en Microsoft Teams](teams-dependencies.md). También puede consultar la tabla de [Comparación de funciones entre miembros del equipo e invitados](guest-experience.md#comparison-of-team-member-and-guest-capabilities). 
+> [!NOTE]
+> Los usuarios de su organización que solo tienen planes de suscripción independientes de Microsoft 365, como Exchange Online plan 2, no pueden ser invitados a su organización porque Teams considera que los usuarios pertenecen a la misma organización. Para que estos usuarios puedan usar Teams, deben tener asignada una suscripción a Microsoft 365 Empresa Estándar, Office 365 Enterprise u Office 365 Education. 
 
-Por último, todos los invitados de Teams están cubiertos por el mismo cumplimiento y protección de auditoría que el resto de Microsoft 365, y se pueden administrar dentro de Azure AD.
+## <a name="guest-access-reviews"></a>Revisiones de acceso de invitados
 
-## <a name="why-use-guest-access"></a>¿Por qué usar el acceso de invitado?
+Puede usar Azure AD para crear una revisión de Access para miembros del grupo o usuarios asignados a una aplicación. Crear revisiones recurrentes de Access puede ahorrar tiempo. Si necesita revisar de forma rutinaria los usuarios que tienen acceso a una aplicación, un equipo o son miembros de un grupo, puede definir la frecuencia de dichas revisiones. 
 
-Con el acceso de invitado, las organizaciones que utilizan Microsoft Teams pueden proporcionar acceso a sus socios para que accedan a equipos, documentos en canales, recursos, chats y aplicaciones, sin perder por ello el control total de sus datos corporativos. 
-
-## <a name="understand-the-limitations-for-guests"></a>Comprender las limitaciones para los invitados
-
-La experiencia de invitado tiene limitaciones deliberadamente establecidas. Asegúrese de comprender la experiencia de invitado para no intentar solucionar algo que no sea realmente un problema. A continuación se ofrece una lista de algunas de las funciones que no están disponibles para un invitado en Microsoft Teams:
-
-- OneDrive
-- Búsqueda de personas fuera de Teams
-- Calendario, Reuniones programadas o Detalles de la reunión
-- RTC
-- Organigrama
-- Crear o revisar un equipo
-- Explorar en un equipo
-- Cargar archivos en un chat entre personas
-- Actualmente, Teams solo admite [tipos de estado 1 y estado 2 de usuarios invitados](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
-
-Para obtener una lista completa de qué puede y no puede hacer un invitado en Teams, vea la tabla de [comparación entre las funciones de los miembros del equipo y los invitados](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Para obtener más información sobre el acceso de invitados en el nivel de Microsoft 365, lea [colaborar con personas de fuera de su organización](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization).
-
+Puede realizar una revisión de acceso de invitado, pedir a los invitados que revisen su propio miembro o pedirle al propietario de la aplicación o al responsable de la toma de decisiones que realice la revisión de Access. Use el portal de Azure para realizar revisiones de acceso de invitado. Para obtener más información, vea [administrar el acceso de invitados con revisiones de Access de Azure ad](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews).
 
 ## <a name="related-topics"></a>Temas relacionados
+
+[Colaborar con personas fuera de la organización](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
+
+[Bloquear usuarios invitados de un grupo de Microsoft 365 específico o de un equipo de Microsoft Teams](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+
+[Crear un entorno seguro de uso compartido de invitados](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
 [Contactar al soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
