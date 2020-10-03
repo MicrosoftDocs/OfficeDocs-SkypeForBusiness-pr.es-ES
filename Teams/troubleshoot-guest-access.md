@@ -14,22 +14,21 @@ search.appverid: MET150
 description: Obtenga ayuda para solucionar problemas y solucionar problemas con el acceso de invitados en Microsoft Teams.
 f1.keywords:
 - NOCSH
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 466728a50a5a610ee00665f3661b5c5701bcbad1
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 0ce7744aa18fe8ffe3fc83ca40649672f521bbba
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656281"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346361"
 ---
-<a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solución de problemas con el acceso de invitado en Microsoft Teams
-======================================================
+# <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solución de problemas con el acceso de invitado en Microsoft Teams
 
 - Para saber si conocemos su problema, consulte los [equipos de soporte técnico de su organización](Known-issues.md).
 - Para comprobar si hay problemas de soporte técnico actuales relacionados con el acceso de invitados en Teams, vaya a [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
-- Los invitados son usuarios de fuera de su organización. Si alguien se encuentra en su organización (incluidos los empleados, los contratistas in situ o los agentes in situ), no se pueden agregar como invitados. Esto mismo se aplica a las filiales.
+- Los invitados son personas fuera de su organización. Si alguien se encuentra en su organización (incluidos los empleados, los contratistas in situ o los agentes in situ), no se pueden agregar como invitados. Esto mismo se aplica a las filiales.
 - Obtenga más información sobre las próximas características de acceso de invitados nuevas o actualizadas en la [Hoja de ruta de Teams](https://aka.ms/teamsroadmap).
 - Díganos lo que quiere en [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 
@@ -40,18 +39,17 @@ El acceso de invitado en Teams usa Azure Active Directory (Azure AD) negocio a n
 > [!NOTE]
 > Los equipos deben estar habilitados en el inquilino principal de un invitado para que los invitados puedan iniciar sesión y usar Teams como invitado en otro inquilino (recurso).
 
-Si ve errores de licencias, asegúrese de leer las instrucciones de licencias [B2B de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) para determinar los requisitos de licencia para satisfacer sus necesidades de acceso de invitados en su organización.
-
+Si ve errores de licencias, asegúrese de leer el [modelo de facturación de las identidades externas de Azure ad](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) para determinar los requisitos de licencias para satisfacer sus necesidades de acceso de invitados en su organización.
 
 - Las licencias de invitado se cuentan contra la organización que invita. Considere esto al calcular el número de licencias que necesita.
-- Las licencias se cuentan en relación con su organización si los invitados invitados provienen de otra organización de Microsoft 365 u Office 365 o si usan sus direcciones de correo electrónico personales.
+- Las licencias se cuentan en relación con su organización si los invitados invitados provienen de otra organización de Microsoft 365 o si usan sus direcciones de correo electrónico personales.
 
 ## <a name="support-for-b2b-user-types"></a>Soporte técnico para los tipos de usuario B2B
+
 Actualmente, Teams solo admiten los tipos de estado 1 y estado 2 de usuarios invitados [definido por Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
 
 ## <a name="related-topics"></a>Temas relacionados
 
 [Acceso de invitado a Teams](guest-access.md)
-
 
 [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
