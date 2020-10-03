@@ -18,12 +18,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 675bcd9a8a7bdc65095cbc1a93979a4588e41fa5
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308323"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333518"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -107,7 +107,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 >- Hasta 50 eventos simultáneos por espacio empresarial de Teams
 >- Hasta 16 horas para cada difusión
 >
-> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para eventos en directo de Microsoft. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](../teams-add-on-licensing/advanced-communications.md).**
+> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para eventos en directo de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](../teams-add-on-licensing/advanced-communications.md).**
 
 
 |**Función**   |**Difusión de reunión de Skype** |**Eventos producidos en Teams** |**Eventos producidos en las aplicaciones o dispositivos externos** |
