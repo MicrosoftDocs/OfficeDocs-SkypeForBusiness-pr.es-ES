@@ -73,15 +73,12 @@
 ### Acceso de invitado
 #### [Sobre el acceso de invitado](guest-access.md)
 #### [Lista de comprobación de acceso de invitado](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
-#### [Cómo se une un invitado a un equipo](guest-joins.md)
-#### [Cómo es la experiencia de invitado](guest-experience.md)
-#### [Autorizar el acceso de invitado en Teams](teams-dependencies.md)
-#### [Activar o desactivar el acceso de invitado en Teams](set-up-guests.md)
-#### [Administrar el acceso de invitado a Teams](manage-guests.md)
+#### [Experiencia de invitado](guest-experience.md)
+#### [Autorizar el acceso de invitado](teams-dependencies.md)
+#### [Activar o desactivar el acceso de invitado](set-up-guests.md)
 #### [Agregar un invitado a un equipo](add-guests.md)
 #### [Ver los usuarios invitados de un equipo](view-guests.md)
 #### [Editar información del usuario invitado](edit-guests-information.md)
-#### [Controle el acceso de invitados a PowerShell](guest-access-PowerShell.md)
 #### [Solucionar problemas de acceso de invitado](troubleshoot-guest-access.md)
 ## [Cortana en Teams](cortana-in-teams.md)
 
@@ -131,6 +128,7 @@
 ### [Administrar aplicaciones de Power Platform en el Centro de administración de Microsoft Teams](manage-power-platform-apps.md)
 ### [Publicar una aplicación personalizada cargando un paquete de aplicación](upload-custom-apps.md)
 ## [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Ver permisos de aplicaciones y conceder consentimiento de administrador en el centro de administración de Microsoft Teams](app-permissions-admin-center.md)
 ## [Consideraciones y permisos de las aplicaciones](app-permissions.md)
 ## [Comprar servicios para aplicaciones de terceros de Teams](purchase-third-party-apps.md)
 ## [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -190,6 +188,7 @@
 ## [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que los usuarios registren su nombre cuando se unan a una reunión](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Activar o desactivar los anuncios de entrada y salida para las reuniones](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Usar la tecnología NDI® en Teams](use-NDI-in-meetings.md)
 ## [Activar la opción de levantar la mano en reuniones de Teams](raise-hand-meetings.md)
 ## [Reuniones de equipo en exploradores no compatibles](unsupported-browsers.md)
 ## [Configurar Compartir escritorio en Microsoft Teams](configure-desktop-sharing.md)
@@ -215,8 +214,8 @@
 ### [Prestación del plan de audioconferencia «Llamada de salida»/«Llamarme al»](audio-conferencing-subscription-dial-out.md)
 
 
-### [Configurar audioconferencias en Microsoft Teams](set-up-audio-conferencing-in-teams.md)
-
+### [Configurar Audioconferencia](set-up-audio-conferencing-in-teams.md)
+### [Configurar Audioconferencia: inicio rápido para empresas pequeñas y medianas](audio-conferencing-smb.md)
 ### [Asignar a Microsoft como proveedor de servicios de audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### Administrar el puente de Audioconferencia
@@ -281,7 +280,7 @@
 
 # Voz: Sistema telefónico de telefonía y conectividad RTC 
 
-## [Planear la implementación](cloud-voice-landing-page.md)
+## [Planear la solución de voz de Teams](cloud-voice-landing-page.md)
 
 ## Sistema telefónico
 ### [¿Qué es el Sistema telefónico?](what-is-phone-system-in-office-365.md)
@@ -426,23 +425,31 @@
 
 
 ## Referencia
-### Administración de números telefónicos por país o región 
+### Administración de números telefónicos por país o región
 #### [Administración de números de teléfono para Australia](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Administración de números de teléfono para Austria](manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md)
 #### [Administración de números de teléfono para Bélgica](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Administración de números de teléfono para Canadá](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
+#### [Administración de números de teléfono para Dinamarca](manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md)
 #### [Administración de números de teléfono para Francia](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [Administración de números de teléfono para Alemania](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [Administración de números de teléfono para Irlanda](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
+#### [Administración de números de teléfono para Italia](manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md)
 #### [Administración de números de teléfono para Japón](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
+#### [Administración de números de teléfono para Portugal](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
 #### [Administración de números de teléfono para España](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [Administración de números de teléfono para Países Bajos](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
+
+#### [Administración de números de teléfono para Suecia](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
+#### [Administración de números de teléfono para Suiza](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
 #### [Administración de números de teléfono para Reino Unido](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
-#### [Administración de números de teléfono para EE. UU.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+#### [Administración de números de teléfono para Estados Unidos](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 ### Restricciones y limitaciones de marcado de número gratuito
 #### [Información general](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+#### [Austria](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
 #### [Belarús](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 #### [Bélgica](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [Belice](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
@@ -470,6 +477,7 @@
 #### [Indonesia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 #### [Irlanda](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 #### [Israel](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+#### [Italia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 #### [Japón](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 #### [Kenia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 #### [Luxemburgo](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -493,8 +501,9 @@
 #### [Eslovenia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 #### [Sudáfrica](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 #### [Corea del Sur](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
-#### [España]] (restricciones-y-limitaciones-de-marcado-de-número-gratuito/restricciones-de-marcado-de-número-gratuito-en-españa.md)
+#### [España](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 #### [Suecia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+#### [Suiza](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 #### [Taiwán](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 #### [Tailandia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 #### [Turquía](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
