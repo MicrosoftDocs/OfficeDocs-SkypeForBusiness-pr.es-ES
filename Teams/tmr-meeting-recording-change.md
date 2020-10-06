@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346341"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361340"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
 > [!Note]
-> El cambio de uso desde Microsoft Stream a OneDrive para la Empresa y SharePoint para grabar las reuniones estará basado en fases. En el inicio, los administradores de inquilinos pueden elegir esta nueva opción de flujo de trabajo hoy y empezar a ver la carga automática de grabaciones para OneDrive para la empresa y SharePoint en el 2020 de octubre. En noviembre, tendrá que optar por no poder seguir usando Stream, y durante principios de 2021 requerimos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
+> El cambio del uso de Microsoft Stream a OneDrive para la Empresa y SharePoint para grabaciones de reuniones estará basado en fases. En el inicio, los administradores de inquilinos pueden elegir esta nueva opción de flujo de trabajo hoy y empezar a ver la carga automática de grabaciones para OneDrive para la empresa y SharePoint en el 2020 de octubre. En noviembre, tendrá que optar por no poder seguir usando Stream, y durante principios de 2021 requerimos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
 
 Microsoft Teams tiene un nuevo método para guardar las grabaciones de la reunión. Como salida de Stream, el método usa Microsoft OneDrive y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 
@@ -85,7 +85,7 @@ Vea "grabación de reuniones" para obtener más información.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>No se puede elegir OneDrive para la empresa y SharePoint para seguir usando Stream
 
-Incluso si una directiva dice que ya está configurada para **transmitirse**, es posible que no esté configurada. Si se establece en Nothing, el valor predeterminado es Stream. Si desea optar por no participar, **debe** restablecer la Directiva en **Stream** para asegurarse de que la secuencia es la predeterminada.
+Incluso si una directiva dice que está configurada para **transmitirse**, es posible que no esté configurada. Normalmente, si no se establece la Directiva, la configuración predeterminada es **transmitir**. Sin embargo, con este nuevo cambio, si desea optar por no usar SharePoint o OneDrive, debe restablecer la Directiva en **Stream** para asegurarse de que es la opción predeterminada.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"

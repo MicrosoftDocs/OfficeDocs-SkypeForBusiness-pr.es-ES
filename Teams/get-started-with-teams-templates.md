@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294606"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361660"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Introducción a las plantillas de Teams con Microsoft Graph
 
@@ -73,7 +73,7 @@ De forma predeterminada, la plantilla base se establece en **estándar**, que no
 | Educativo<br>Equipo del personal | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Phone<ul><li>Bloc de notas para docentes de OneNote (anclado a la pestaña **General** )</li></ul> |
 |Educativo<br>Equipo de PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Phone<ul><li>Bloc de notas PLC de OneNote (anclado a la pestaña **General** )</ul></li>|
 | Anuales<br>Tienda | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canales<ul><li>Transición de turno</li><li>Aprendiendo</li></ul>Propiedades del equipo<ul><li>Visibilidad de equipo establecida como pública</li></ul>Permisos de miembro<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul> |
-| Anuales<br>Colaboración de administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales<ul><li>Transición de turno</li><li>Aprendiendo</li></ul>Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en privado</li></ul>Permisos de miembro:<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul>|
+| Anuales<br>Colaboración de administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales<ul><li>Aprendiendo</li><li>Operations</li></ul>Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en privado</li></ul>Permisos de miembro:<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul>|
 | Healthcare<br>Hacia |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Hacia</li><li>Personal\*</li><li>Aprendizaje\*</li></ul>\*Canales favoritos automáticos |
 |Healthcare<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales<ul><li>Anuncios\*</li><li>Cumplimiento\*</li><li>Private</li><li>Recursos humanos</li></li><li>Pertenecie</li></ul>\*Canal de favoritos automáticos|
 |||

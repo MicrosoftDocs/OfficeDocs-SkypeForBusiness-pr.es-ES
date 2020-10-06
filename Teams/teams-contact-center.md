@@ -13,12 +13,12 @@ f1.keywords:
 description: Información general de la solución centro de contacto integrado como servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 906af5df0e4ec7c4f4b658210e127b5ad0ef0044
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322289"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361470"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del centro de contactos para Microsoft Teams
 
@@ -38,7 +38,7 @@ Para otras personas que deseen soluciones integradas con el flujo de trabajo y l
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Centro de contacto conectado para el programa de certificación de Microsoft Teams
 
-Las API que permiten a los socios desarrollar e integrar soluciones de CCaaS para Teams están disponibles con una licencia de comunicaciones avanzadas. Además, hemos desarrollado el centro de contactos conectado para el programa de certificación de Microsoft Teams a fin de ofrecer a los clientes la seguridad de que la solución de cada socio participante ha sido probada y verificada para proporcionar la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.
+Las API permiten a los socios desarrollar e integrar soluciones de CCaaS para Teams. Además, hemos desarrollado el centro de contactos conectado para el programa de certificación de Microsoft Teams a fin de ofrecer a los clientes la seguridad de que la solución de cada socio participante ha sido probada y verificada para proporcionar la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.
 
 Los siguientes socios están en el proceso de certificar su solución para Microsoft Teams y están listos para participar en los clientes:
 

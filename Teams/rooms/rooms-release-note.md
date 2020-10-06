@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de las salas de Microsoft Teams, que enumeran las mejoras acumulativas de las salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328229"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361500"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -74,6 +74,10 @@ Introdujo en esta actualización:
 - Ver más vídeos con la galería de vídeos de 3x3 en la parte frontal de la sala  
 - Iniciar subtítulos locales activos en vivo desde MTR 
 - Unirse a las reuniones de zoom de las salas de equipos con la Unión directa de invitados (vista previa)
+
+> [!NOTE]
+> la galería de videos de 3x3 y los subtítulos locales en vivo se proporcionan a través del servicio Microsoft Teams. Estas características están disponibles para todas las salas de equipos con la versión de la aplicación 4.5.37.0 y versiones posteriores. 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Austria para Microsoft Teams.
-ms.openlocfilehash: 5924296d98696b0505b4ebad3d4b6b2d41cbebe0
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 4653dd744460dffc3407867e27d51f41f9fbb5a5
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324246"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361780"
 ---
 # <a name="phone-number-management-for-austria"></a>Administración de números de teléfono para Austria
 
@@ -34,7 +34,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtener nuevos números de teléfono de usuario y de servicio que no se muestran en el centro de administración de Microsoft Teams.   <br/> |Descargue este formulario. <br/>  [Solicitud de nuevo número de teléfono para Austria (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/>  <br/>También debes incluir una factura de utilidad de la dirección de la empresa para la que deseas obtener números nuevos. <br/> 
+|Obtener nuevos números de teléfono de usuario y de servicio que no se muestran en el centro de administración de Microsoft Teams.   <br/> |Descargue uno de estos formularios. <br/>  [Solicitud de nuevo número de teléfono para Austria (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Solicitud de nuevo número de teléfono para Austria (v. 5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/>  <br/>También debes incluir una factura de utilidad de la dirección de la empresa para la que deseas obtener números nuevos. <br/> 
 |Obtener números de teléfono transferidos a nosotros.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Austria (todos los números) (v. 5.0) (de-at)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf?raw=true) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> <br/>También debes incluir una factura de utilidad de la dirección de la empresa para la que deseas transferir números.<br/> |
 |Publicar o anular la publicación de números de teléfono en el directorio telefónico nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía.      <br/> |
 |Cambiar el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |

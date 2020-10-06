@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 3d0534d4c0a62573bd3ac649c39b3d0f17a235f6
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766874"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361440"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo de la organización en Microsoft Teams
 
@@ -38,7 +38,7 @@ Este tipo de cuentas no se añadirán a su equipo de la organización:
 
 - Las cuentas que están bloqueadas para iniciar sesión
 - Usuarios invitados
-- Cuentas de servicio 
+- Cuentas de recursos o de servicio (por ejemplo, cuentas asociadas con los operadores automáticos y las colas de llamadas)
 - Cuentas de sala o equipamiento
 - Cuentas respaldadas por un buzón compartido
 
