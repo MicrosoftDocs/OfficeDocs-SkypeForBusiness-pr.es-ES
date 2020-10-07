@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 877dcef8848c7e1bf05ed19c05ede5b5304bd4c8
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203963"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367682"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -67,7 +67,7 @@ La entrada de video es el fundamento del evento en vivo y puede variar desde una
     ![Captura de pantalla que muestra un evento en directo producido mediante una aplicación o un dispositivo externo](../media/teams-live-events-external-encoder.png "Captura de pantalla que muestra un evento en directo que se produce con el método de producción de dispositivo o aplicación externa")
 
 >[!Note]
-> El cambio de usar Microsoft Stream a [OneDrive para la empresa y SharePoint para las grabaciones](../tmr-meeting-recording-change.md) de la reunión será un enfoque por fases. En el lanzamiento podrá optar por esta experiencia, en noviembre tendrá que optar por no participar si desea seguir usando la secuencia y, a principios de 2021, necesitaremos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
+> El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones.
 
 ### <a name="streaming-platform"></a>Plataforma de streaming
 La plataforma de transmisión por secuencias de eventos en directo consta de las siguientes partes:
@@ -80,6 +80,7 @@ El objetivo de eCDN es tomar el contenido de video de Internet y distribuir el c
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Movimiento](https://rampecdn.com)
+- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### <a name="attendee-experience"></a>Experiencia de asistente 
 La experiencia de los asistentes es el aspecto más importante de los eventos en directo y es fundamental que los asistentes puedan participar en el evento en vivo sin tener ningún problema. La experiencia de asistente usa el reproductor de flujo (para eventos generados en Teams) y el reproductor multimedia de Azure (para eventos generados en una aplicación o dispositivo externo) y funciona a través de equipos de escritorio, exploradores y móviles (iOS, Android). Microsoft 365 y Office 365 proporcionan Yammer y Teams como dos concentradores de colaboración y la experiencia de los asistentes en vivo se integra en estas herramientas de colaboración. 
@@ -89,7 +90,7 @@ La experiencia de los asistentes es el aspecto más importante de los eventos en
 ### <a name="live-event-usage-report"></a>Informe de uso de eventos en directo 
 Los administradores de inquilinos pueden ver análisis de uso de tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El [Informe de uso de eventos en directo](../teams-analytics-and-reports/teams-live-event-usage-report.md) muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 Vaya a [planificar eventos en vivo de Teams](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados

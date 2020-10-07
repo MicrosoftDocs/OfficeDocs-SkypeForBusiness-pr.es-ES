@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Obtenga más información sobre las características de atención médica que incluyen coordinación de cuidados, mensajería segura, TeleHealth, integración de EHR y integración con el sistema de los Firstline.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68954745bc1631e2031fce80ff1681056e9f4bdd
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: f2654eab71d240a12f544fbee3521dacd2c49a17
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361590"
+ms.locfileid: "48367670"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -40,7 +40,7 @@ El contenido de esta sección se basa en las funciones fundamentales de los equi
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Coordinación de cuidados-aplicación de pacientes de Microsoft Teams
 
 > [!IMPORTANT]
-> **A partir del 15 de octubre de 2020, la aplicación para pacientes quedará obsoleta y los usuarios ya no podrán instalarla desde la tienda de aplicaciones de Teams. Le recomendamos que empiece a usar la [aplicación lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams hoy.**
+> **Desde el 30 de octubre de 2020, la aplicación de pacientes estará obsoleta y los usuarios ya no podrán instalarla desde la tienda de aplicaciones de Teams. Le recomendamos que empiece a usar la [aplicación lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams hoy.**
 >
 >Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Cuando se retira la aplicación de pacientes, todos los datos asociados con ella se conservarán en este grupo, pero ya no se podrá obtener acceso a ellas a través de la interfaz de usuario. Los usuarios actuales pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
