@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A continuación se describe la funcionalidad de Open Preview para las conferencias de audio en red.
-ms.openlocfilehash: 3b33c67cc79f79d36cf2a11213dc934103b026fb
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321817"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369185"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Abrir vista previa de conferencias en red para conferencias de audio
 
@@ -38,7 +38,7 @@ En este artículo se describen los requisitos previos y los pasos de configuraci
 
 Antes de configurar las conferencias en red, asegúrese de que su organización cumple los siguientes requisitos previos: 
 
-- Asegúrese de que todos los usuarios de su organización que estén habilitados o que se habilitarán para las conferencias de audio están en el modo solo de Teams. El enrutamiento de llamadas entrantes y salientes de conferencias de audio a través de conferencias en red solo es compatible con las reuniones de Teams.
+- Asegúrese de que todos los usuarios de su organización que estén habilitados o que se habilitarán para las conferencias de audio están en el modo solo de Teams. El enrutamiento de llamadas de conferencia de audio entrantes y salientes a través de conferencias en red solo es compatible con las reuniones de Teams.
 
 - Asigne licencias de audioconferencia a todos los usuarios que vayan a usar conferencias en la red.
 
@@ -56,6 +56,8 @@ Debe configurar el equipo de telefonía de sus sitios para que enrute las llamad
 
 Puede encontrar los números de servicio en el centro de administración de Teams en **reuniones-> puentes de conferencia** o mediante el cmdlet de PowerShell de Skype empresarial online Get-CsOnlineDialInConferencingBridge. Para obtener más información, consulte una lista de [números de audioconferencia en Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
+> [!NOTE]
+> Esta característica no está disponible para los usuarios con la licencia de conferencia de audio por minuto.
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Habilitar el enrutamiento de las llamadas de llamada de reunión de los equipos mediante enrutamiento directo
 

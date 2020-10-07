@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Evalúe regularmente las oportunidades para mejorar el servicio de Teams después de la actualización, supervise la guía básica de Teams para las mejoras de las características interesantes.
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a000cb8b09f4b1eebf5ca1c2805d52222ce7ec5c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780469"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369205"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Saque el máximo partido a teams después de actualizar
 
@@ -39,9 +39,7 @@ Después de implementar correctamente Teams en su organización y de trabajar co
 
 Una excelente forma de asegurarse de que siempre obtenga el máximo provecho de sus servicios es supervisar los [planes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de los equipos para obtener nuevas características que pueden interesar a su organización. Si tiene acceso al centro de administración de Microsoft 365, recibirá actualizaciones periódicas de nosotros sobre nuevas y cambiando características a través de nuestro centro de mensajes.
 
-Cuando vea oportunidades para mejorar el servicio, dedique el tiempo adecuado. Vuelva a visitar [implementar chat, equipos, canales y aplicaciones en Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplique la misma orientación de principio a fin. Cuando se realizan cambios incrementales pequeños, es improbable que sea necesario completar todas las actividades y todas las tareas, pero debe asegurarse de evaluar cada actividad y tarea en la forma de dar la mejor oportunidad a un resultado satisfactorio.
-
-Cuando vea oportunidades para mejorar el servicio, dedique el tiempo adecuado. Vuelve a visitar nuestras [fases de implementación](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplica la misma orientación de principio a fin. Cuando se realizan cambios incrementales pequeños, es improbable que sea necesario completar todas las actividades y todas las tareas, pero debe asegurarse de evaluar cada actividad y tarea en la forma de dar la mejor oportunidad a un resultado satisfactorio.
+Cuando vea oportunidades para mejorar el servicio, dedique el tiempo adecuado. Vuelva a visitar [implementar chat, equipos, canales y aplicaciones en Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y nuestras [fases de implementación](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplique la misma orientación de principio a fin. Cuando se realizan cambios incrementales pequeños, es improbable que sea necesario completar todas las actividades y todas las tareas, pero debe asegurarse de evaluar cada actividad y tarea en la forma de dar la mejor oportunidad a un resultado satisfactorio.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida quién supervisará las guías públicas y otros anuncios de servicio para las nuevas características o servicios de los que su organización podría beneficiar.</li><li>Decidir el ritmo en el que se deben denunciar las nuevas características o servicios a los accionistas clave a través del Comité de dirección.</li></ul></td></tr>

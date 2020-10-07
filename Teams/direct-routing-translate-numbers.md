@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 545d6a77fd9b3ee0462437b5b710d1d4eb782138
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 7d48e9163dd5927cbeddf4a4104d2382e69e7e2b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077655"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369165"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traducir números de teléfono a un formato alternativo
 
@@ -30,7 +30,7 @@ En este artículo se describe cómo traducir números de llamadas salientes y en
 - Paso 1. [Conectar el SBC con Microsoft Phone System y validar la conexión](direct-routing-connect-the-sbc.md) 
 - Paso 2. [Habilitar a los usuarios para el enrutamiento directo, la voz y el buzón de voz](direct-routing-enable-users.md)   
 - Paso 3. [Configurar el enrutamiento de voz](direct-routing-voice-routing.md)
-- **Paso 4. Traducir números a un formato alternativo** (este artículo)
+- **Paso 4. Traducir números a un formato alternativo**   (este artículo)
 
 Para obtener información sobre todos los pasos necesarios para configurar el enrutamiento directo, consulte [configurar el enrutamiento directo](direct-routing-configure.md).
 
@@ -45,10 +45,10 @@ La Directiva se aplica en el nivel de SBC. Puede asignar varias reglas de traduc
 
 Para crear, modificar, ver y eliminar reglas de manipulación de números, use los cmdlets [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [set-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)y [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) .
 
-Para asignar, configurar y enumerar reglas de manipulación de números en SBCs, use los cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) y [set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) junto con los parámetros InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRulesList, InboundPSTNNumberTranslationRulesList, OutboundTeamsNumberTranslationRulesList y OutboundPSTNNumberTranslationRulesList.
+Para asignar, configurar y enumerar reglas de manipulación de números en SBCs, use los cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) y [set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) junto con los parámetros InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules y OutboundPSTNNumberTranslationRules.
 
->[!NOTE]
-> El número total máximo de reglas de traducción es 400, la longitud máxima del nombre del parámetro de traducción es de 100 símbolos, la longitud máxima del parámetro de traducción es 1024 símbolos y el parámetro de traducción máxima la longitud de la traducción es de 256.
+> [!NOTE]
+> El número total máximo de reglas de traducción es 400, la longitud máxima del nombre del parámetro de traducción es de 100 símbolos, la longitud máxima del parámetro de traducción es 1024 símbolos y la longitud máxima de la traducción del parámetro de traducción es 256.
 
 
 ## <a name="example-sbc-configuration"></a>Ejemplo de configuración de SBC
@@ -56,7 +56,7 @@ Para asignar, configurar y enumerar reglas de manipulación de números en SBCs,
 Para este escenario, el ```New-CsOnlinePSTNGateway``` cmdlet se ejecuta para crear la siguiente configuración de SBC:
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 Las reglas de traducción asignadas a SBC se resumen en la tabla siguiente:
@@ -78,9 +78,9 @@ SBC usa 2065550100 en el RequestURI y en los encabezados y 4255550100 en el enca
 
 |Encabezado  |Texto original en |Encabezado traducido |Parámetro y regla aplicados  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITAr sip:2065550100@sbc.contoso.com|INVITAr sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRulesList 'AddPlus1'|
-|Para    |Para:\<sip:2065550100@sbc.contoso.com>|Para:\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
-|De   |De:\<sip:4255550100@sbc.contoso.com>|De:\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
+|RequestURI  |INVITAr sip:2065550100@sbc.contoso.com|INVITAr sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
+|Para    |Para: \<sip:2065550100@sbc.contoso.com>|Para: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
+|De   |De: \<sip:4255550100@sbc.contoso.com>|De: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Ejemplo 2: llamada entrante a un número de cuatro dígitos
 
@@ -90,9 +90,9 @@ SBC usa 0100 en el RequestURI y en los encabezados y 4255550100 en el encabezado
 
 |Encabezado  |Texto original en |Encabezado traducido |Parámetro y regla aplicados  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITAr sip:0100@sbc.contoso.com          |INVITAr sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'        |
-|Para    |Para:\<sip:0100@sbc.contoso.com>|Para:\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
-|De   |De:\<sip:4255550100@sbc.contoso.com>|De:\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
+|RequestURI  |INVITAr sip:0100@sbc.contoso.com          |INVITAr sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
+|Para    |Para: \<sip:0100@sbc.contoso.com>|Para: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
+|De   |De: \<sip:4255550100@sbc.contoso.com>|De: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Ejemplo 3: llamada saliente con un número de diez dígitos que no es E. 164 número
 
@@ -104,9 +104,9 @@ En este escenario, un plan de marcado traduce el número antes de enviarlo a la 
 
 |Encabezado  |Texto original en |Encabezado traducido |Parámetro y regla aplicados  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITAr sip:+14255550100@sbc.contoso.com          |INVITAr sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRulesList 'StripPlus1'         |
-|Para    |Para:\<sip:+14255550100@sbc.contoso.com>|Para:\<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
-|De   |De:\<sip:+12065550100@sbc.contoso.com>|De:\<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRulesList 'StripPlus1'         |
+|RequestURI  |INVITAr sip:+14255550100@sbc.contoso.com          |INVITAr sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules 'StripPlus1'         |
+|Para    |Para: \<sip:+14255550100@sbc.contoso.com>|Para: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
+|De   |De: \<sip:+12065550100@sbc.contoso.com>|De: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Ejemplo 4: llamada saliente con un número de cuatro dígitos que no es E. 164 número
 
@@ -116,9 +116,9 @@ SBC está configurado para usar números de cuatro dígitos que no son E. 164 pa
 
 |Encabezado  |Texto original en |Encabezado traducido |Parámetro y regla aplicados  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITAr sip:0100@sbc.contoso.com           |INVITAr sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'         |
-|Para    |Para:\<sip:0100@sbc.contoso.com>|Para:\<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
-|De   |De:\<sip:+12065550100@sbc.contoso.com>|De:\<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
+|RequestURI  |INVITAr sip:0100@sbc.contoso.com           |INVITAr sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
+|Para    |Para: \<sip:0100@sbc.contoso.com>|Para: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|De   |De: \<sip:+12065550100@sbc.contoso.com>|De: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
 
 ## <a name="see-also"></a>Vea también
 

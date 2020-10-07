@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: bdbfed095cf522702f55963ba7e46d79b765d59c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48220129"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48370577"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "48220129"
 
 Un paquete de directivas de Microsoft Teams es una colección de directivas y opciones de directiva predefinidas que puede asignar a los usuarios que tienen roles similares en su organización. Hemos creado paquetes de directivas para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios de toda la organización.  
 
-Puede usar los [paquetes de directivas incluidos en Teams](#policy-packages-included-in-teams) o [crear sus propios paquetes de directivas personalizados](#custom-policy-packages) (próximamente en la versión preliminar privada).
+Puede usar los [paquetes de directivas incluidos en Teams](#policy-packages-included-in-teams) o [crear sus propios paquetes de directivas personalizados](#custom-policy-packages) (en la versión preliminar privada).
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de pantalla de la página paquetes de directivas en el centro de administración":::
 
@@ -83,7 +83,7 @@ Por ejemplo, al asignar el paquete de directivas Educación (profesor) a los pro
 
 ## <a name="custom-policy-packages"></a>Paquetes de directivas personalizados
 
-**Esta característica pronto estará disponible en la versión preliminar privada**
+**Esta característica está en versión preliminar privada**
 
 Los paquetes de directivas personalizados le permiten empaquetar su propio conjunto de directivas para usuarios con roles similares en su organización. Cree sus propios paquetes de directivas agregando los tipos de directivas y directivas que necesite.
 

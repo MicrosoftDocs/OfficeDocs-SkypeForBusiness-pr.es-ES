@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104dab27af75d346af990369ee78fc2fb1f0a77d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336847"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367600"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Ver permisos de aplicación y conceder consentimiento de administrador en el centro de administración de Microsoft Teams
 
@@ -32,7 +32,7 @@ Si es un administrador global, puede revisar y conceder consentimiento a las apl
 
 Entre los ejemplos de permisos solicitados por las aplicaciones se incluye la capacidad de leer información almacenada en un equipo, leer el perfil de un usuario y enviar un correo electrónico en nombre de los usuarios. Para obtener más información, consulte [permisos y consentimiento en el punto de conexión de la plataforma de identidades de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). 
 
-La columna **permisos** indica si una aplicación tiene permisos que necesitan consentimiento. Verá un vínculo **Ver detalles** para cada aplicación registrada en Azure ad que tenga permisos que necesiten conceder. Tenga en cuenta que esto solo se aplica a aplicaciones personalizadas y de terceros y. No verá este vínculo o tendrá que conceder consentimiento de administrador para las aplicaciones publicadas por Microsoft.
+La columna **permisos** indica si una aplicación tiene permisos que necesitan consentimiento. Verá un vínculo **Ver detalles** para cada aplicación registrada en Azure ad que tenga permisos que necesiten conceder. Tenga en cuenta que esto solo se aplica a aplicaciones personalizadas y de terceros. No verá este vínculo o tendrá que conceder consentimiento de administrador para las aplicaciones publicadas por Microsoft.
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Captura de pantalla de la columna permisos en la página Administrar aplicaciones":::
 

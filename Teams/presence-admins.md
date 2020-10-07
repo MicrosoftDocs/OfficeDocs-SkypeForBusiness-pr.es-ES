@@ -1,7 +1,7 @@
 ---
 title: Presencia del usuario en Teams
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 9f14aeaf83862cbdd695eb6ec4646d8da81a0c5b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820524"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369215"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -49,22 +49,32 @@ La presencia de Teams en Outlook es compatible con la aplicación de escritorio 
 | ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Ausente| ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Ausente|
 || ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Última vez visto ausente*hora*|
 |![Icono del reloj amarillo, indica que está ausente, ahora vuelvo.](media/Presence_Away.png) Ahora vuelvo| |
-|| ![Icono de reloj amarillo, indica que está ausente, fuera del trabajo](media/Presence_Away.png)  Fuera del trabajo|
-|| ![Círculo gris con una x, indica que está Desconectado](media/Presence_Offline.png) Offline |
+|![Círculo gris con una x, indica que está Desconectado](media/Presence_Offline.png) Aparecer como desconectado | ![Círculo gris con una x, indica que está Desconectado](media/Presence_Offline.png) Offline| |
 || ![Círculo gris abierto, indica estado desconocido](media/Presence_Unknown.png) Estado desconocido|
-||![Círculo rojo abierto con línea diagonal, indica que está bloqueado](media/Presence_Blocked.png) Bloqueado |
 || ![Círculo púrpura con flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina|
 |||
 
-Los Estados de presencia configurados por la aplicación se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando). Tenga en cuenta que cuando se encuentra en el modo de foco basado en el calendario, el foco será el estado que verán los usuarios en Teams, pero se mostrarán como no molestar en otros productos.
+Los Estados de presencia configurados por la aplicación se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando). Tenga en cuenta que cuando se encuentra en el modo de enfoque basado en el calendario, el foco será el estado que verán los usuarios en Teams, pero se mostrarán como no molestar en otros productos.
 
-El estado actual de presencia cambiará a ausente cuando bloquee el equipo o cuando entre en modo de suspensión o de espera. En dispositivos móviles, el estado de presencia cambiará a ausente cuando la aplicación de Teams esté en segundo plano.
+El estado actual de presencia cambiará a ausente cuando bloquee el equipo o cuando el equipo entre en modo de inactividad o de suspensión. En un dispositivo móvil, el estado de presencia cambiará a ausente cuando la aplicación de Teams esté en segundo plano.
 
-Los usuarios reciben todos los mensajes de chat que se les envían en los equipos, independientemente de su estado de presencia. Si un usuario está desconectado cuando alguien le envía un mensaje, el mensaje de chat aparece en Teams la próxima vez que el usuario se conecta. Si un usuario no molesta, el usuario aún recibirá mensajes instantáneos pero no se mostrarán las notificaciones de banner.
+Los usuarios reciben todos los mensajes de chat que se les envían en los equipos, independientemente de su estado de presencia. Si un usuario está desconectado cuando alguien le envía un mensaje, el mensaje de chat aparece en Teams la próxima vez que el usuario se conecta. Si el estado de un usuario se establece en no molestar, el usuario seguirá recibiendo mensajes de chat, pero no se mostrarán las notificaciones de banner.
 
 Los usuarios reciben llamadas en todos los Estados de presencia excepto en no molestar, en el que las llamadas entrantes se dirigen al buzón de voz. Si el destinatario bloqueó la llamada, la llamada no será entregada y la persona que llama ve la presencia del destinatario como desconectada.
 
-Los usuarios pueden agregar a personas a su lista de acceso prioritario yendo a **Configuración** > **Privacidad** en Teams. Las personas con acceso prioritario pueden ponerse en contacto con el usuario incluso cuando el usuario está en no molestar.
+Los usuarios pueden agregar a personas a su lista de acceso prioritario yendo a **Configuración** > **Privacidad** en Teams. Los usuarios con prioridad pueden ponerse en contacto con el usuario aunque el estado del usuario esté establecido en no molestar.
+
+## <a name="user-configured-states-expiration"></a>Expiración de Estados configurados por el usuario
+Cuando un usuario selecciona un estado de presencia específico, tiene prioridad sobre cualquier actualización de actividad de la aplicación. Por ejemplo, si un usuario se establece como no molestar, su presencia permanecerá como no molestar aunque asista a una reunión o responda a una llamada.
+
+Los Estados configurados por el usuario tienen una configuración de expiración predeterminada en Teams, para evitar que los usuarios muestren un estado que puede no ser relevante después de un período de tiempo.
+
+|Estado configurado por el usuario|Caducidad predeterminada|
+|:--- |:---|
+| Ocupado|1 día|
+| No molestar|1 día|
+| Ven|7 días|
+|||
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Configuración de administración en equipos en comparación con Skype Empresarial
 
