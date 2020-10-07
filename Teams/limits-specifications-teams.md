@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333270"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361650"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -34,7 +34,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Característica    | Límite máximo |
 |-----------|---------------|
 |Número de equipos que un usuario puede crear | Sujeto a un límite de 250 objetos&sup1;         |
-|Número de equipos en los que un usuario puede ser un miembro de|1 000 |
+|Número de equipos en los que un usuario puede ser un miembro de|1 000&sup2;|
 |Número de miembros de un equipo | 10 000       |
 |Número de propietarios por equipo | 100   |
 |Número de equipos de la organización que se pueden usar en un espacio empresarial | 5     |
@@ -49,7 +49,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 <sup>1</sup> todos los objetos de directorio de Azure Active Directory se comparan hacia este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llaman a Microsoft Graph usando[permisos de aplicación](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> este límite incluye equipos archivados.
+<sup>2</sup> este límite incluye equipos archivados. Para superar el límite máximo, debe ponerse en contacto con el soporte técnico de Microsoft.
 
 <sup>3</sup>Los canales borrados pueden ser restaurados en un plazo de 30 días. Durante estos 30 días, se sigue contando el canal eliminado en el límite de 200 canales por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal en el límite de 200 canales por equipo.
 
