@@ -1,10 +1,10 @@
 ---
-redirect_url: optimizing-your-network-for-skype-for-business-online
+redirect_url: optimizing-your-network
 redirect_document_id: true
-ms.openlocfilehash: ae5c9ebcdde46901f17cb70b2c58811b5baf523b
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 1e6a22b4852a5fb0d2e3689457c1e5c11ce70d0d
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33401877"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376453"
 ---

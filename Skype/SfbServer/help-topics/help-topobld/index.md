@@ -1,10 +1,10 @@
 ---
-redirect_url: help-topobld
+redirect_url: topology-builder-startup-dialog
 redirect_document_id: true
-ms.openlocfilehash: 024ed1355d03ffde367672d20ba35a4f0b15be65
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 0aa116be2d6e3dd7fe612df997c439e7df734774
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33400824"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376603"
 ---

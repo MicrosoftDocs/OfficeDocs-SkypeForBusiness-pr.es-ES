@@ -1,10 +1,10 @@
 ---
-redirect_url: help-depwiz
+redirect_url: ms.lync.dep.DeployAdminToolsIntro
 redirect_document_id: true
-ms.openlocfilehash: 4ebac8041fd1a358fb38d79b52b2dfe5ee04fc13
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 93e8fbca834798de451338ac2e0869c18161aa69
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33402510"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376823"
 ---

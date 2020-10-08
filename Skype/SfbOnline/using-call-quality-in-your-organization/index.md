@@ -1,10 +1,10 @@
 ---
-redirect_url: using-call-quality-in-your-organization
+redirect_url: https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.jsonbreadcrumb/toc.json
 redirect_document_id: true
-ms.openlocfilehash: a8a90d7979fc780742d75b53ba42b3324a559315
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: f916ccc85050dc5440eaf99eaa9fc125fd9ae40c
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33400428"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376463"
 ---
