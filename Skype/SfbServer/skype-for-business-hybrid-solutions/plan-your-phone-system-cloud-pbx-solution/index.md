@@ -1,10 +1,10 @@
 ---
-redirect_url: plan-your-phone-system-cloud-pbx-solution
+redirect_url: https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity
 redirect_document_id: true
-ms.openlocfilehash: 3d65ce23dec4b532afa7102af3ffa82fc89a25bb
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: c929b9acb6e209e87a720868734e70fa11958727
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33400788"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376583"
 ---

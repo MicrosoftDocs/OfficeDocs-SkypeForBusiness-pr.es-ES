@@ -1,10 +1,10 @@
 ---
-redirect_url: conferencing-0
+redirect_url: conferencing
 redirect_document_id: true
-ms.openlocfilehash: 2288373ffe8bdbabf122a1465e6903ecfdc81bd9
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: aaed4704f1b06005ac45966ab265764861f54e8c
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33401731"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376593"
 ---

@@ -1,10 +1,10 @@
 ---
-redirect_url: help-topics
+redirect_url: https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015
 redirect_document_id: true
-ms.openlocfilehash: e596412e4d6c8c42e70e44ee8311895c30e99a3b
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 28953c54d12c2c046431996c516906749f111e0a
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33400488"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376633"
 ---

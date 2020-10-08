@@ -18,13 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: 74b5c53e3440afc2dc30632549ea35d31207ba03
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706535"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376563"
 ---
 # <a name="set-up-policies-in-your-organization"></a>Configurar directivas de su organización
 
+Las directivas ayudan a determinar las características de Skype empresarial online que se ponen a disposición de los usuarios. Para obtener más información, consulte los artículos siguientes.
 
+- [Bloquear las transferencias de archivos punto a punto](block-point-to-point-file-transfers.md)
+- [Crear directivas personalizadas de acceso externo](create-custom-external-access-policies.md)
+- [Conservar los archivos grandes que se han adjuntado a una reunión](retaining-large-files-attached-to-a-meeting.md)
+- [Establecer directivas de conferencia en su organización](set-up-conferencing-policies-for-your-organization.md)
+- [Establecer directivas móviles en su organización](set-up-mobile-policies-for-your-organization.md)
+- [Establecer directivas de cliente en su organización](set-up-client-policies-for-your-organization.md)

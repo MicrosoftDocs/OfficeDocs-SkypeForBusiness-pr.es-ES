@@ -1,10 +1,10 @@
 ---
-redirect_url: help-lscp
+redirect_url: https://docs.microsoft.com/SkypeForBusiness/management-tools-2019
 redirect_document_id: true
-ms.openlocfilehash: 96019de4495b8b1ff2cf17fa8fc7ab643165d8db
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: b2979e7083043bccf3ded9b3fb121c18aa095325
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33401350"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376783"
 ---

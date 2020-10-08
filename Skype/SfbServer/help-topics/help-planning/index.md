@@ -1,10 +1,10 @@
 ---
-redirect_url: help-planning
+redirect_url: https://docs.microsoft.com/SkypeForBusiness/management-tools/planning-tool/feature-overview
 redirect_document_id: true
-ms.openlocfilehash: 65b9b384eba2c177cb73b3d4871d856b0c4a36b2
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 8deee848968740acb633d38c1f83f0b0232f79c7
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "33400450"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376733"
 ---
