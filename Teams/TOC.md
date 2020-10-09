@@ -674,25 +674,25 @@
 
 # Instrucciones para sectores y gobiernos
 ## [Información general](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Introducción a las plantillas de Teams con Microsoft Graph](get-started-with-teams-templates.md)
-## [Aplicación de reservas y visitas virtuales](bookings-app-admin.md)
-## [Turnos para Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Se ha retirado Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Administrar la aplicación Turnos para su organización en Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+## Todos los sectores
+### [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
+### [Turnos para Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+#### [Administrar la aplicación Turnos para su organización en Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams para sanidad
 ### [Introducción a Teams para organizaciones sanitarias](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Introducción a las plantillas de Teams para las organizaciones sanitarias en la consola de administración](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-### [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
-### [Introducción a la mensajería segura para las organizaciones sanitarias](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [Delegación de mensajes](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Aplicación de reservas y visitas virtuales](bookings-app-admin.md)
 ### [Paquetes de directivas de Teams para sanidad](policy-packages-healthcare.md)
-### [Información general de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### [Integración de registros sanitarios electrónicos en Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [Especificación de la interfaz DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [Especificación de la interfaz STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [Conectar la aplicación Pacientes a la API de Azure para FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [Registros de auditoría de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-audit.md)
+### Directivas de mensajería segura
+#### [Mensajería segura para organizaciones sanitarias](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+#### [Delegación de mensajes](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### Plantillas de Teams para organizaciones sanitarias
+#### [Usar plantillas sanitarias de Teams en la consola de administración](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [Administrar la aplicación Listas](manage-lists-app.md)
+### Turnos para Teams
+#### [Turnos para Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+#### [Administrar la aplicación Turnos](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams para el ámbito educativo](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Inicio rápido: Administradores de Teams para el ámbito educativo](teams-quick-start-edu.yml)
