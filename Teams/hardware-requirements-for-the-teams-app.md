@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0555296da359a916b512bde878d5c87207a6e549
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389888"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416865"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para Microsoft Teams
 
@@ -54,7 +54,7 @@ Todos los requisitos de las siguientes secciones se aplican tanto a la aplicaci�
 |Memoria     |   4,0 GB DE RAM      |
 |Disco duro    |   1.5 GB de espacio en disco disponible      |
 |Pantalla    | resolución de 1280 × 800 o superior    |
-|Sistema operativo  |    Una de las tres versiones más recientes de macOS. Puede encontrar las versiones más recientes de macOS [aquí](https://support.apple.com/en-us/HT201260). Por ejemplo, cuando se publica una nueva versión de macOS, la nueva versión y las dos inmediatamente anteriores se convierten en las versiones admitidas.      |
+|Sistema operativo  |    Una de las tres versiones más recientes de macOS. Puede encontrar información sobre las versiones más recientes de macOS y sobre cómo actualizar su versión de macOS, [aquí](https://support.apple.com/en-us/HT201260). Por ejemplo, cuando se publica una nueva versión de macOS, la nueva versión y las dos inmediatamente anteriores se convierten en las versiones admitidas.      |
 |Vídeo  |    Cámara web compatible     |
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
 |Reuniones y llamadas de vídeo | <ul><li>Requiere un procesador de 2 núcleos. Se recomienda un procesador de 4 núcleos o superior para la resolución de video y la resolución de recursos compartidos de pantalla. </li><li>Unirse a una reunión mediante la detección de proximidad en un salón de Microsoft Teams no está disponible en macOS.</li></ul>

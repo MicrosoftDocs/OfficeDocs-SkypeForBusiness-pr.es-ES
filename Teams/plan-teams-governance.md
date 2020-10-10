@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 2180c819491b3067225ada993aec60ec052bc69f
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662120"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416910"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -33,14 +33,14 @@ Teams proporciona un amplio conjunto de herramientas para implementar cualquier 
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Creación, nomenclatura, clasificación y acceso de invitados a grupos y equipos
 
-Es posible que su organización requiera que implemente controles estrictos sobre el nombre y la clasificación de los equipos, si los invitados pueden agregarse como miembros del equipo y quién puede crear equipos. Puede configurar cada una de estas áreas con Azure Active Directory (Azure AD). 
+Es posible que su organización requiera que implemente controles estrictos sobre el nombre y la clasificación de los equipos, si los invitados pueden agregarse como miembros del equipo y quién puede crear equipos. Puede configurar estas áreas con Azure Active Directory (Azure AD) y etiquetas de confidencialidad. 
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Puntos de decisión|<ul><li>¿Su organización requiere una Convención de nomenclatura específica para Teams?</li><li>¿Los creadores de equipos necesitan la capacidad de asignar clasificaciones específicas de la organización a teams?</li><li>¿Necesita restringir la posibilidad de agregar invitados a los equipos de acuerdo con cada equipo?</li><li>¿Requiere su organización limitar quién puede crear equipos?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Siguientes pasos|<ul><li>Documente los requisitos de la organización para la creación, denominación, clasificación y acceso de invitados de su organización.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
 
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de la organización.
@@ -52,6 +52,7 @@ Es posible que su organización requiera que implemente controles estrictos sobr
 |Acceso de invitado de equipo |Permitir o impedir que los invitados se agreguen a teams. |No |DETERMINADO |
 |Creación de equipos |Limitar la creación de equipos a los administradores. |No |DETERMINADO|
 |Creación de equipos |Limitar la creación del equipo a miembros del grupo de seguridad. |Min |DETERMINADO|
+|Etiquetas de confidencialidad|Configurar la privacidad y el uso compartido de invitados|No|DETERMINADO|
 
 > [!NOTE]
 > Para ayudarle a planificar con antelación, [Obtenga más información sobre cómo establecer estas directivas y qué licencias necesitan](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
@@ -64,16 +65,19 @@ Es posible que su organización requiera que implemente controles estrictos sobr
 
 Una vez que haya determinado sus requisitos, puede implementarlos con los controles de Azure AD. Para obtener instrucciones técnicas sobre cómo implementar esta configuración, consulte:
 
-- [Cmdlets de Azure Active Directory para configurar las opciones de la comunidad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+- [Cmdlets de Azure Active Directory para configurar las opciones de grupo](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Aplicar una directiva de nomenclatura para los grupos de Microsoft 365 en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+- [Exigir una directiva de nomenclatura para los grupos de Microsoft 365 en Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Directiva de nomenclatura de grupos de 365 de Microsoft](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+- [Directiva de nomenclatura de Microsoft 365 Groups](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
+- [Usar etiquetas de confidencialidad para proteger el contenido en Microsoft Teams, grupos de Microsoft 365 y sitios de SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+
+- [Opciones de fin del ciclo de vida para grupos, equipos y Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Caducidad, retención y archivado de grupo y equipo
 
-Es posible que su organización tenga requisitos adicionales para establecer directivas para el vencimiento, la retención y los datos de Teams y de almacenamiento (mensajes de canal y archivos de canal). Puede configurar directivas de expiración de grupo para administrar automáticamente el ciclo de vida del grupo y las directivas de retención para conservar o eliminar información según sea necesario y puede archivar los equipos (establecerlos en el modo de solo lectura) para conservar una vista puntual de un equipo que ya no esté activo.
+Es posible que su organización tenga requisitos adicionales para establecer directivas para el vencimiento, la retención y los datos de Teams y de almacenamiento (mensajes de canal y archivos de canal). Puede configurar directivas de expiración de grupo para administrar automáticamente el ciclo de vida del grupo y las directivas de retención para conservar o eliminar información según sea necesario y puede archivar los equipos (establecerlos en el modo de solo lectura) para conservar una vista puntual de un equipo que ya no esté activo. Tenga en cuenta que los equipos que están archivados continúan teniendo la Directiva de expiración aplicada y se pueden eliminar a menos que se excluyan o renueven.
 
 |           |            |
 |-----------|------------|
@@ -149,8 +153,10 @@ Para obtener listas detalladas de todas las opciones de configuración, incluyen
 
 - [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
 - [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Canales privados en Microsoft Teams](private-channels.md)
 - [Administrar directivas de reunión en Teams](meeting-policies-in-teams.md)
 - [Administrar directivas de mensajería de Teams](messaging-policies-in-teams.md)
+- [Administrar las aplicaciones en el centro de administración de Microsoft Teams](manage-apps.md)
 
 Además, puede configurar la moderación de un canal y proporcionar capacidades de moderador a determinados usuarios para que puedan controlar quién puede crear publicaciones de canal y responder a ellas. Para obtener más información [, vea Configurar y administrar la moderación de canales en Microsoft Teams](manage-channel-moderation-in-teams.md) .
 
