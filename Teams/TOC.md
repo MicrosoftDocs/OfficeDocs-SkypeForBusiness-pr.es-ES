@@ -693,6 +693,14 @@
 ### Turnos para Teams
 #### [Turnos para Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Administrar la aplicación Turnos](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### Información general de la aplicación Pacientes
+#### [Información general de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### Integrar registros de sanidad electrónico en la aplicación pacientes
+##### [Integrar registros de sanidad electrónico en la aplicación pacientes con API de FHIR](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [Especificación de la interfaz DSTU2 para la aplicación pacientes](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [Especificación de la interfaz STU3 para la aplicación pacientes](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [Conectar la aplicación Pacientes a la Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [Registros de Auditoría de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams para el ámbito educativo](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Inicio rápido: Administradores de Teams para el ámbito educativo](teams-quick-start-edu.yml)
