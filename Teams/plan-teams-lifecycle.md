@@ -3,7 +3,6 @@ title: Planear la administración del ciclo de vida
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 09/26/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bdc9df2d0d7d55e806ad0faca896f3c78a145c96
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 44be1d139fe37a34cad620cb449ac8bfe10eb99b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656371"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416916"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -58,10 +57,10 @@ Determinan quién puede unirse al equipo:
 
 Los tipos de usuario de los equipos determinan la cantidad de control que tiene un miembro del equipo:
 
--   El _creador del equipo_ tiene permisos para crear un grupo o un equipo en el directorio. El administrador puede limitar este tipo de usuario a un subconjunto de administradores o usuarios. Si desea más información, consulte [Administrar quién puede crear Grupos de Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   El _propietario del equipo_ administra la pertenencia y la configuración del equipo. Puede haber hasta 100 propietarios de equipo en un equipo.
--   El _miembro del equipo_ es un miembro de su organización que participa en un equipo.
--   El _invitado_ es un usuario que no pertenece a la organización. A cualquier persona que tenga una dirección de correo electrónico se le puede invitar como invitado, siempre que la organización tenga habilitado el [acceso de invitado](guest-access.md).
+-   El *creador del equipo* tiene permisos para crear un grupo o un equipo en el directorio. El administrador puede limitar este tipo de usuario a un subconjunto de administradores o usuarios. Si desea más información, consulte [Administrar quién puede crear Grupos de Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Los creadores del equipo se convierten automáticamente en propietarios del equipo.
+-   El *propietario del equipo* administra la pertenencia y la configuración del equipo. Puede haber hasta 100 propietarios de equipo en un equipo.
+-   El *miembro del equipo* es un miembro de su organización que participa en un equipo.
+-   El *invitado* es un usuario que no pertenece a la organización. A cualquier persona que tenga una dirección de correo electrónico se le puede invitar como invitado, siempre que la organización tenga habilitado el [acceso de invitado](guest-access.md).
 
 > [!Note]
 > Puede obtener más información sobre las funcionalidades del propietario de equipo y el miembro del equipo en el artículo [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md).
@@ -164,6 +163,8 @@ Cualquier miembro o propietario de equipo que tenga los permisos adecuados podr�
 
 Para despertar el interés, el propietario del canal puede publicar un mensaje de bienvenida, cargar documentos relevantes en la ficha **Archivos** o agregar fichas o conectores al canal. El propietario también establece la descripción del canal y puede marcar automáticamente como favoritos los canales importantes para que aparezcan de forma predeterminada para todos los miembros del equipo.
 
+Considere la posibilidad de usar nombres de canal antes de crearlos, ya que cambiar el nombre de un canal en el equipo no cambiará el nombre de la carpeta correspondiente de la biblioteca de documentos de SharePoint, lo que puede resultar confuso para el usuario final. 
+
 |    |     |
 |-----------|------------|
 | ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué canales iniciales se agregarán al equipo?</li><li>¿Qué instrucciones, en caso de haber alguna, se ofrecerán para agregar nuevos canales? (¿Se configurarán según el proyecto, el tema, etc.?)</li></ul> |
@@ -177,17 +178,13 @@ La confianza, la tolerancia y un espíritu de colaboración aumentan de forma or
 
 Como los equipos son organismos vivos, precisan que se les revise y se les atienda de vez en cuando. Estas son las prácticas recomendadas:
 
--   Use expertos para mantener el nivel de uso si este empieza a caer, así como para descubrir y propagar nuevos comportamientos. 
--   Administre a los invitados con buen juicio y asegúrese de que su acceso termina cuando termine la necesidad de la empresa.
--   Deje que los canales evolucionen a la par que las necesidades del negocio, añada nuevos canales según sea necesario y permita que los antiguos vayan desapareciendo (o considere la opción de archivarlos o eliminarlos si contienen datos confidenciales o efímeros, según sean los requisitos de retención).
--   Forje nuevos equipos cuando surjan grupos más grandes o áreas basadas en un tema de interés.
--   Pruebe con diferentes colaboraciones de canal, como las reuniones de canal o las conversaciones en ficha sobre documentos.
-
-Si un equipo empieza a estancarse, considere las siguientes opciones:
-
--   Impulse las comunicaciones en los equipos en lugar de hacerlo por correo electrónico.
--   Use las aplicaciones móviles para aumentar el nivel de interacción.
--   Recorte el número de canales.
+- Use expertos para mantener el nivel de uso si este empieza a caer, así como para descubrir y propagar nuevos comportamientos. 
+- Administre a los invitados con buen juicio y asegúrese de que su acceso termina cuando termine la necesidad de la empresa.
+- Anime a los miembros a usar conversaciones encadenadas con líneas de asunto para mejorar la visibilidad y la atención al desplazarse por un canal.
+- Deje que los canales evolucionen a la par que las necesidades del negocio, añada nuevos canales según sea necesario y permita que los antiguos vayan desapareciendo (o considere la opción de archivarlos o eliminarlos si contienen datos confidenciales o efímeros, según sean los requisitos de retención).
+- Forje nuevos equipos cuando surjan grupos más grandes o áreas basadas en un tema de interés.
+- Pruebe con diferentes colaboraciones de canal, como las reuniones de canal o las conversaciones en ficha sobre documentos.
+- Use la aplicación móvil de Microsoft Teams para aumentar la participación.
 
 |    |     |
 |-----------|------------|
@@ -198,9 +195,11 @@ Si un equipo empieza a estancarse, considere las siguientes opciones:
 
 Cuando el trabajo de un equipo llega a su fin, es importante reconocer formalmente que ha terminado. De este modo, el equipo se queda con una sensación de cierre y se evita que alguien más acceda a información obsoleta. Podrá usar el equipo para llevar a cabo los rituales de cierre, como análisis finales y resúmenes ejecutivos.
 
-Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). De hecho, los equipos se eliminan con una “eliminación temporal” que el departamento de TI puede revertir hasta en un máximo de 21 días (30 días para los Grupos de Microsoft 365). El hecho de eliminar equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta veintiún días después de la eliminación.
+Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). De hecho, los equipos se eliminan con una “eliminación temporal” que el departamento de TI puede revertir hasta en un máximo de 21 días (30 días para los Grupos de Microsoft 365). El hecho de eliminar equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta veintiún días después de la eliminación. Al eliminar un canal, no se eliminará la carpeta ni su contenido de la biblioteca de documentos de SharePoint.
 
 También se pueden usar las directivas de expiración y retención, además de las funcionalidades de archivado, para reducir la exposición de los equipos que ya no están activos o cuyos miembros han dejado la organización.
+
+Puede que las directivas de retención aplicadas a Teams o a servicios asociados, como SharePoint, prohíban la eliminación de equipos. Además, tenga en cuenta que el contenido de un equipo a menudo constituye algo más que archivos de la biblioteca de documentos de SharePoint; también incluye las conversaciones, placas de Planner, wikis, resultados de Forms, reuniones grabadas, blocs de notas de OneNote y otros.
 
 Para obtener información sobre cómo se configuran las directivas de expiración y retención, consulte [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md).
 
