@@ -14,23 +14,23 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: En este artículo encontrará información sobre los factores que debe tener en cuenta antes de configurar eventos en vivo en Microsoft Teams.
+description: En este artículo encontrará información sobre los factores que debe tener en cuenta antes de configurar eventos en directo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 4cae6ee3f4a335cc1be1636917a5b200d279d374
+ms.sourcegitcommit: 5571e27276d89df97edbce72a42638921c235311
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333518"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408153"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
-Cuando planee a los equipos eventos para tener reuniones grandes en la organización, debe tener en cuenta varios factores antes de empezar a configurarlo.
+Cuando planee eventos en directo de Teams para tener reuniones grandes en la organización, debe tener en cuenta varios factores antes de empezar la configuración.
 
  > [!Note]
-> Para obtener más información sobre los eventos en directo de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Para más información sobre los requisitos de ancho de banda para los eventos en directo de Teams, consulte [preparar la organización](../prepare-network.md). 
+> Para más información sobre los eventos en directo de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Para más información sobre los requisitos de ancho de banda para los eventos en directo de Teams, consulte [preparar la organización](../prepare-network.md).
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>¿Quién puede crear, asistir y programar eventos en directo?
 
@@ -40,11 +40,11 @@ Para que el usuario programe un evento en directo de Teams se requieren los sigu
 
 Estas son las licencias que debe asignar para producir o presentar un evento de Teams en directo:  
 
-- Una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 Educación A3 o A5.
-- Una licencia de Microsoft Teams. - esta se incluye en las licencias anteriores. 
-- Se requiere una licencia de Microsoft Stream si tiene previsto compartir el contenido en una aplicación o dispositivo externo. Consulte [licencias de Microsoft Stream](https://docs.microsoft.com/stream/license-overview). 
+- Una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 Educación A3 o A5. La excepción de este requisito es que los usuarios invitados pueden presentar sin una licencia si se cumplen los otros criterios para [usuarios invitados](plan-for-teams-live-events.md#guest-to-present).
+- Una licencia de Microsoft Teams: se incluye en las licencias que aparecen en la primera viñeta.
+- Se requiere una licencia de Microsoft Stream si tiene previsto compartir el contenido en una aplicación o dispositivo externo. Consulte [licencias de Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
-  Los usuarios no necesitarán una licencia de Microsoft Stream asignada si quiere que los usuarios solo graben y descarguen las grabaciones. Esto significará que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en Azure Media Services (AMS) con un límite de 30 días antes de que se eliminen. En este momento, no es algo que un administrador pueda controlar o administrar, incluida la capacidad de eliminarlo.
+  Los usuarios no necesitarán una licencia de Microsoft Stream asignada si quiere que los usuarios solo graben y descarguen las grabaciones. Esto significará que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en Azure Media Services (AMS) con un límite de 30 días antes de que se eliminen. En este momento, no es algo que un administrador pueda controlar o administrar para incluir la capacidad de eliminarlo.
 
 >[!Note]
 > El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento, podrá participar en esta experiencia; en noviembre tendrá que dejar de participar si quiere seguir usando Stream y, en algún momento a principios de 2021, requeriremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para las grabaciones de reuniones.
@@ -74,13 +74,15 @@ El usuario debe tener:
 > [!IMPORTANT]
 > Los usuarios anónimos sin autenticar no pueden ser invitados como productores ni moderadores de los eventos en directo de Teams.
 
+### <a name="guest-to-present"></a>[Invitado a presentar](#guest-to-present)
+
 Para que un invitado pueda presentar en un evento en directo, haga lo siguiente:
 
 1. [Agregue el usuario como invitado a un equipo](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. Pida al usuario que acepte la invitación y se una al equipo.
 3. [Programe el evento en directo y agregue el invitado al grupo de eventos](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Recomendamos que cree un canal para los productores y moderadores del evento en directo para que puedan chatear y compartir información antes del evento. Los invitados que no dispongan de credenciales de Microsoft 365 no podrán ver el calendario en Teams. Para que sea más fácil para ellos unirse al evento, los productores pueden publicar el vínculo del evento en el canal. Los moderadores pueden abrir Teams, ir al canal y, después, hacer clic en el vínculo para unirse al evento. 
+Recomendamos que cree un canal para los productores y moderadores del evento en directo para que puedan chatear y compartir información antes del evento. Los invitados que no dispongan de credenciales de Microsoft 365 no podrán ver el calendario en Teams. Para que sea más fácil para ellos unirse al evento, los productores pueden publicar el vínculo del evento en el canal. Los moderadores pueden abrir Teams, ir al canal y, después, hacer clic en el vínculo para unirse al evento.
 
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver los eventos en directo?
 
@@ -158,6 +160,7 @@ Puede usar los eventos en directo de Teams en varias regiones a través de todo 
 - Europa / África
 
 **Ubicación de los datos para estos países y regiones (compatibles)**
+
 - Australia
 - Canada
 - India
@@ -165,6 +168,7 @@ Puede usar los eventos en directo de Teams en varias regiones a través de todo 
 - Reino Unido
 
 **Estos países o regiones y estas nubes no son compatibles**
+
 - Alemania
 - Francia
 - Noruega
