@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización de cuidado de la salud.
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: e55102e07f7ffc77dc67c5d6697cb754c398cc40
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803981"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427175"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para el cuidado de la salud
 
@@ -51,6 +51,16 @@ Teams actualmente incluye los siguientes paquetes de política de cuidado de la 
 A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, cuando se asigna el paquete de política de trabajadores de salud clínica a médicos de su organización, se crea una directiva llamada Healthcare_ClinicalWorker para cada Directiva del paquete.
 
 ![Captura de pantalla de directivas en el paquete de trabajadores clínico de cuidado de la salud](media/policy-packages-healthcare-clinical-worker.png)
+
+## <a name="get-started-with-policy-packages"></a>Introducción a los paquetes de directivas
+
+Para empezar a usar los paquetes de directivas de asistencia sanitaria, en el Hub de incorporación del centro de administración de Microsoft, seleccione **conceptos básicos de asistencia sanitaria**y, a continuación, seleccione **asignar configuración de Directiva por rol**. Una vez que esté listo para empezar, decida a qué paquetes de directivas desea asignar a las personas de su organización.
+
+Seleccione **Ver detalles de directiva** para obtener más información sobre las directivas específicas de un paquete y su configuración correspondiente. [Se pueden personalizar](manage-policy-packages.md#customize-policies-in-a-policy-package) después de asignarlos en el centro de administración de Teams.
+
+Elija uno o varios paquetes para asignar y haga clic en **siguiente**. Puede buscar y agregar personas al paquete de directivas que mejor se adapte a su rol. No se puede asignar una persona a más de un paquete de directivas a la vez.
+
+Una vez que haya agregado personas al paquete de directivas adecuado, **Finalizar** finalizará las selecciones. Puede seguir personalizando y administrando paquetes de directivas en el centro de administración de Microsoft Teams.
 
 ## <a name="manage-policy-packages"></a>Administrar los paquetes de directivas 
 

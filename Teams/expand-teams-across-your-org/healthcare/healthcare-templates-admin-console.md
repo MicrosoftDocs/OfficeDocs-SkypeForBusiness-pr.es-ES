@@ -1,5 +1,5 @@
 ---
-title: Usar las plantillas de Healthcare de Teams en la consola de administración
+title: Usar Teams Healthcare templates en el centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Use las plantillas de Microsoft Teams en la consola de administración para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
+description: Use las plantillas de Microsoft Teams en el centro de administración para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d030d19cbd3c11283649ffb7fa02124854bfce23
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308283"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424740"
 ---
-# <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Usar las plantillas de Healthcare de Teams en la consola de administración
+# <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Usar Teams Healthcare templates en el centro de administración
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -33,7 +33,7 @@ Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y s
 
 Para las organizaciones de cuidado de la salud, las plantillas pueden ser especialmente eficaces, puesto que proporcionan una estructura para que los usuarios se orienten con la mejor manera de aprovechar Teams. Las plantillas también permiten a los administradores implementar equipos coherentes en sus organizaciones. Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización de la salud.
 
-Actualmente ofrecemos dos plantillas de cuidados de la atención médica de terceros que puede aprovechar para diversas situaciones. Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de Teams en la consola de administración](../../get-started-with-teams-templates-in-the-admin-console.md).
+Actualmente ofrecemos dos plantillas de cuidados de la atención médica de terceros que puede aprovechar para diversas situaciones. Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de Teams en el centro de administración](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="collaborate-on-patient-care"></a>Colaborar en el cuidado del paciente
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 50a9abbd7e5872229c09d7d80c00c5d432723da1
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367600"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433053"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Ver permisos de aplicación y conceder consentimiento de administrador en el centro de administración de Microsoft Teams
 
@@ -94,5 +94,6 @@ Por el momento, la capacidad de revisar los permisos y conceder consentimiento n
 - [Permisos y consentimiento en el punto de conexión de la plataforma de identidades de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 - [Consentimiento específico de recursos en Teams](resource-specific-consent.md)
 - [Consentimiento específico de recursos (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+- [Navegar por el ciclo de vida de la aplicación de Microsoft Teams](https://aka.ms/PR132) (sesión de encendido 2020)
 
 

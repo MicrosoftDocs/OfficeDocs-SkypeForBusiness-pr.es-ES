@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346201"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426935"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje de administración para Microsoft Teams
 
@@ -56,9 +56,9 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 <h2>Teams Rooms Foundations para ti & profesionales de AV</h2>
 
-<p>La tabla siguiente contiene vínculos a cursos de aprendizaje en vídeo completo, con diapositivas complementarias de PowerPoint, en salas de Microsoft Teams.  
+<p>La tabla siguiente contiene vínculos a cursos de aprendizaje en vídeo completo, con diapositivas complementarias de PowerPoint (en formato PDF), en salas de Microsoft Teams.  
 
-| Módulo | Vídeo | Presentación de PowerPoint   |
+| Módulo | Vídeo | Presentación de PowerPoint (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | Módulo 1: Introducción a las salas de Microsoft Teams (18:29 min) | [Vídeo](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | Módulo 2: Microsoft Teams Networking (34:10 min) | [Vídeo](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

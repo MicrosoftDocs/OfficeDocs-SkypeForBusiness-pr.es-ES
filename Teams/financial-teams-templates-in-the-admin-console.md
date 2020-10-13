@@ -1,5 +1,5 @@
 ---
-title: Introducción a las plantillas financieras de Teams mediante la consola de administración
+title: Introducción a las plantillas financieras de Teams con el centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Más información sobre cómo usar. Plantillas de Teams para crear estructuras de equipo diseñadas para necesidades financieras al proporcionar una configuración predefinida, canales y aplicaciones preinstaladas con la consola de administración.
+description: Más información sobre cómo usar. Plantillas de Teams para crear estructuras de equipo diseñadas para necesidades financieras proporcionando una configuración predefinida, canales y aplicaciones preinstaladas con el centro de administración.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8273e63213b6a0c3d99d6ef66cb778a2541c0327
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294416"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424610"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-console"></a>Usar las plantillas financieras de Teams en la consola de administración
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>Usar las plantillas financieras de Teams en el centro de administración
 
 Las plantillas de Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 

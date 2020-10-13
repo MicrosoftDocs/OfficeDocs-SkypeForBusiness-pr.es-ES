@@ -1,5 +1,5 @@
 ---
-title: Usar plantillas generales de Teams en la consola de administración
+title: Usar plantillas generales de Teams en el centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Aprenda a usar las plantillas generales de Teams para crear estructuras de equipo proporcionando una configuración predefinida, canales y aplicaciones preinstaladas con la consola de administración.
+description: Aprenda a usar las plantillas generales de Teams para crear estructuras de equipo proporcionando una configuración predefinida, canales y aplicaciones preinstaladas con el centro de administración.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a16634246bf301cde3b9cbdbd5df551b10706471
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2905fe25d3051f322630d75473597e69425e2dc0
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308163"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424710"
 ---
-# <a name="use-general-teams-templates-in-the-admin-console"></a>Usar plantillas generales de Teams en la consola de administración
+# <a name="use-general-teams-templates-in-the-admin-center"></a>Usar plantillas generales de Teams en el centro de administración
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

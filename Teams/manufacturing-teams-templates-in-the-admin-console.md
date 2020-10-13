@@ -1,5 +1,5 @@
 ---
-title: Introducción a teams Manufacturing templates en la consola de administración
+title: Introducción a teams Manufacturing templates en el centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Más información sobre cómo usar. Plantillas de Teams para crear estructuras de equipo diseñadas para necesidades de fabricación al proporcionar una configuración predefinida, canales y aplicaciones preinstaladas con la consola de administración.
+description: Más información sobre cómo usar. Plantillas de Teams para crear estructuras de equipo diseñadas para las necesidades de fabricación mediante el uso del centro de administración de las opciones de configuración predefinidas, los canales y las aplicaciones preinstaladas.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308403"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424620"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>Usar las plantillas de mecanizado de Teams en la consola de administración
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Usar las plantillas de mecanizado de Teams en el centro de administración
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

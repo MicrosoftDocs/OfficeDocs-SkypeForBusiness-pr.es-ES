@@ -1,5 +1,5 @@
 ---
-title: Usar las plantillas gubernamentales de Teams en la consola de administración
+title: Usar las plantillas gubernamentales de Teams en el centro de administración
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Más información sobre cómo usar. Plantillas de Teams para crear estructuras de equipo diseñadas para necesidades gubernamentales mediante la administración de las opciones predefinidas, los canales y las aplicaciones preinstaladas con la consola de administración.
+description: Más información sobre cómo usar. Plantillas de Teams para crear estructuras de equipo diseñadas para necesidades gubernamentales mediante el uso del centro de administración para la configuración predefinida, los canales y las aplicaciones preinstaladas.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308143"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424720"
 ---
-# <a name="use-teams-government-templates-in-the-admin-console"></a>Usar las plantillas gubernamentales de Teams en la consola de administración
+# <a name="use-teams-government-templates-in-the-admin-center"></a>Usar las plantillas gubernamentales de Teams en el centro de administración
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

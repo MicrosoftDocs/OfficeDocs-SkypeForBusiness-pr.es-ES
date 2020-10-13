@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e65fd33ed47b54d220925353bdb350557fc81bcb
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308193"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424660"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-console"></a>Introducción a las plantillas de Teams en la consola de administración
+# <a name="get-started-with-teams-templates-in-the-admin-center"></a>Introducción a las plantillas de Teams en el centro de administración
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
