@@ -19,25 +19,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: Aprenda a configurar las festividades en Microsoft Teams y a conectarlas a su operador automático con la característica de días festivos.
-ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: Obtenga información sobre cómo configurar los días no laborables en Microsoft Teams para usarlos con los operadores automáticos.
+ms.openlocfilehash: cac41995f8faa072eaac2596d246808ac77fe431
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255413"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444253"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar vacaciones en Microsoft Teams
 
-Puede usar la característica de días festivos de Microsoft Teams para programar fechas y horas específicas en las que las personas de su organización tendrán tiempo libre de trabajo y no estarán disponibles durante el horario laboral normal. 
+Puede usar la característica de días festivos de Teams para programar fechas y horas específicas en las que los usuarios de su organización tendrán tiempo libre de trabajo y no estarán disponibles. Por ejemplo, puede crear un día festivo para los años nuevos días festivos cuando muchos de sus empleados no están en el trabajo.
 
-Puede vincular los días no laborables a los operadores automáticos que cree dentro de su organización. Los operadores automáticos permiten que los autores de llamadas naveguen por un sistema de menús para llegar al Departamento adecuado o ir a la información que necesitan. Al establecer la configuración de llamadas navideñas para un operador automático, puede seleccionar el día festivo de una lista, agregar un saludo y especificar qué hacer con la llamada cuando el operador automático las responda durante las vacaciones.
-
-Un buen ejemplo es crear un día festivo por el que Navidad cuando muchos de sus empleados no están en el trabajo. Después de crear los días festivos y de establecer horas, agregaría las festividades al operador automático principal para que cuando las personas llamen, escucharán un mensaje de audio que haya creado. Algo así, "Estamos cerrados por Navidad desde el 22 de diciembre hasta el 27 de diciembre. Déjenos un mensaje de voz para que podamos devolver su llamada cuando vuelvan a la oficina.
-
-Para obtener más información sobre los operadores automáticos, vea [¿Qué son los operadores automáticos de la nube](what-are-phone-system-auto-attendants.md)?  
+Los días no laborables que crea aquí están disponibles al [configurar un operador automático](create-a-phone-system-auto-attendant.md), cada uno con su propio saludo y la configuración de enrutamiento de llamadas.
 
 ## <a name="create-a-holiday"></a>Crear un día festivo
+
+Para crear un día festivo:
 
 1. En el centro de administración de Microsoft Teams, vaya a **configuración de toda la organización**  >  **días festivos**.
 
@@ -55,9 +53,15 @@ Para obtener más información sobre los operadores automáticos, vea [¿Qué so
 
 8. Use la lista desplegable para seleccionar una hora de finalización para los días no laborables.
 
-9. Seleccione **Guardar**.
+9. De manera opcional, puede agregar más fechas para las vacaciones recurrentes.
+
+10. Seleccione **Guardar**.
+
+    ![](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Cambiar un día festivo
+
+Para cambiar un día festivo:
 
 1. En el centro de administración de Microsoft Teams, vaya a **configuración de toda la organización**  >  **días festivos**.
 
@@ -73,21 +77,6 @@ Para obtener más información sobre los operadores automáticos, vea [¿Qué so
 
 7. Seleccione **Guardar**.
 
-## <a name="connect-a-holiday-to-an-auto-attendant"></a>Conectar un día festivo a un operador automático
-
-1. En el centro de administración de Microsoft Teams **Voice**, vaya a  >  **operadores automáticos**de voz.
-2. Seleccione una cuenta de recursos de la lista.
-3. En el panel izquierdo, seleccione **configuración de llamadas de días festivos**.
-4. Seleccione **vacaciones nuevas**.
-5. Seleccione el día festivo de la lista desplegable.
-6. Puede Agregar un saludo opcional:
-    - Para reproducir un saludo grabado, seleccione **reproducir un archivo de audio**y, a continuación, haga clic en **Cargar archivo**. Vaya a la ubicación del archivo de audio, seleccione el archivo y, a continuación, seleccione **abrir**.
-    - Para crear un saludo, seleccione **escribir un mensaje de bienvenida**y, a continuación, escriba el mensaje. Las personas que llamen escucharán este mensaje si no ha proporcionado un archivo de audio.
-7. Para finalizar la llamada después del saludo, en **acciones**, seleccione **desconectar**. 
-
-    Para desviar la llamada, seleccione **redirigir llamada**y, a continuación, seleccione la persona que recibirá la llamada redirigida de la lista desplegable o busque a la persona con el nombre para mostrar.
-8. Seleccione **Guardar**.
-
 ## <a name="related-topics"></a>Temas relacionados
 
-[¿Qué son los operadores automáticos de la nube](what-are-phone-system-auto-attendants.md)?
+[Planear los operadores automáticos de Teams y las colas de llamadas](plan-auto-attendant-call-queue.md)

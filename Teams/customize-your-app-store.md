@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre el almacén de aplicaciones personalizadas en Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fcfaee55f73ef86f1a03e99364fde1aaa306ed8a
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359905"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456154"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Tienda de aplicaciones personalizadas en Microsoft Teams
 
@@ -57,7 +57,7 @@ El logotipo se muestra en la esquina superior derecha del catálogo de aplicacio
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Su organización logomark o pequeño logotipo es una imagen o un símbolo que representa la marca de su organización y no incluye el nombre de su empresa. La logomark ayuda a los miembros del equipo a identificar el almacén de aplicaciones. El logotipo seleccionado aparecerá en la página del cliente de Teams en las aplicaciones.
+Su organización Lovemark o pequeño logotipo es una imagen o un símbolo que representa la marca de su organización y no incluye el nombre de su empresa. La logomark ayuda a los miembros del equipo a identificar el almacén de aplicaciones. El logotipo seleccionado aparecerá en la página del cliente de Teams en las aplicaciones.
 
 Al seleccionar la opción **elegir una imagen** , puede cargar el archivo que desee. El logomark debe ser de 32x32 píxeles o se escalará a ese tamaño. No debe ser mayor de 5 MB. Los formatos admitidos son:
 
@@ -100,8 +100,8 @@ Al seleccionar **elegir un color personalizado**, se abre un selector de color. 
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>Completar la personalización de la tienda de aplicaciones de equipo
 
-Cuando haya terminado de personalizar la tienda de aplicaciones, asegúrese de hacer clic en **Guardar** para guardar los cambios.
-Para obtener una vista previa de los cambios, haga clic en **vista previa** de la tienda de aplicaciones para ver una representación de su tienda de aplicaciones personalizadas.
+Cuando haya terminado de personalizar la tienda de aplicaciones, asegúrese de seleccionar **Guardar** para guardar los cambios.
+Para obtener una vista previa de los cambios, seleccione **vista previa** de la tienda de aplicaciones para ver una representación de su tienda de aplicaciones personalizadas.
 
 > [!Note]
 > La representación puede variar de la versión final de la tienda de aplicaciones personalizada porque algunos colores predeterminados se basan en la versión de usuario del cliente de Teams.

@@ -52,7 +52,7 @@
 ## [Archivar o eliminar un equipo](archive-or-delete-a-team.md)
 ## [Migrar de Slack a Teams](migrate-slack-to-teams.md)
 ## Trabajar con plantillas de Teams
-### [Usar plantillas de Teams en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md)
+### [Usar plantillas de Teams en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
 ### [Plantillas de Teams integradas en Graph para pequeñas y medianas empresas](smb-templates.md)
 ### [Crear una plantilla personalizada de Teams](create-a-team-template.md)
 ### [Crear una plantilla a partir de un equipo ya existente](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [Mensajería segura para organizaciones sanitarias](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Delegación de mensajes](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### Plantillas de Teams para organizaciones sanitarias
-#### [Usar plantillas sanitarias de Teams en la consola de administración](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Usar plantillas sanitarias de Teams en el centro de administración](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Administrar la aplicación Listas](manage-lists-app.md)
 ### Turnos para Teams
@@ -725,7 +725,7 @@
 ### [Crear una aplicación de portal de intranet de Teams desde un sitio o página de SharePoint Online](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams para el comercio](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [Introducción a las plantillas comerciales de Teams en la consola de administración](retail-teams-templates-in-the-admin-console.md)
+### [Introducción a las plantillas comerciales de Teams en el centro de administración](retail-teams-templates-in-the-admin-console.md)
 ### [Introducción a las plantillas comerciales de Teams](get-started-with-retail-teams-templates.md)
 
 ## [Teams para Administración Pública](expand-teams-across-your-org/teams-for-government-landing-page.md)
