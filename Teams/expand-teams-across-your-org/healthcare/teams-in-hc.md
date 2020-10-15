@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Obtenga más información sobre las características de atención médica que incluyen coordinación de cuidados, mensajería segura, visitas virtuales, integración de HCI y los Firstline integración de sistemas de trabajo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03de58e9fef94dcf63649920cde5a3663a25889e
-ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
+ms.openlocfilehash: 07f5e87a454091319775bf5e1124e2c4651ea736
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48433063"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469556"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -92,8 +92,6 @@ Para obtener más información sobre la implementación, consulte [integrar regi
 Las nuevas plantillas para crear equipos fueron desarrolladas para aplicarse a una configuración hospitalaria y pronto se espera más. Esto facilita la creación de equipos que los trabajadores de cuidado de la salud usan para coordinar la atención de pacientes en varios departamentos o en adelante. Consulte [Introducción a las plantillas de Teams para organizaciones de salud](healthcare-templates.md). Los equipos se pueden iniciar para departamentos internos, como Cardiología, o por cuidados y más plantillas en desarrollo.
 
 ## <a name="lists-app"></a>Lista de aplicaciones
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 La aplicación listas de Teams ayuda a los equipos a realizar un seguimiento de la información y organizar el trabajo. La aplicación está preinstalada para todos los usuarios de Teams y está disponible como una pestaña en todos los equipos y canales. Las listas se pueden crear desde cero, desde plantillas predefinidas o importando datos a Excel.
 
