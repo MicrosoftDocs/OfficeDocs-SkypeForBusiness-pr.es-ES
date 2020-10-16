@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308433"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486825"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -161,9 +161,9 @@ En el calendario del canal:
 
 En el centro de administración:
 
-La aplicación de calendario del canal se mostrará en la sección **aplicaciones de Microsoft** del panel de administración para las directivas de permisos.
+La aplicación de calendario del canal se mostrará en la sección **aplicaciones de Microsoft** en la página directivas de permisos de aplicaciones.
 
-![Captura de pantalla que muestra la Directiva aplicaciones de Microsoft en la consola de administración de Teams.](media/manage-microsoft-apps-policy.png)
+![Captura de pantalla que muestra la Directiva de permisos de aplicaciones en el centro de administración de Teams.](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Permitir la programación de reuniones privadas
 
@@ -227,6 +227,8 @@ Si se establece en **deshabilitado** para un usuario, ese usuario podrá program
 
 Esta configuración no se aplica a las llamadas de 1:1. Para restringir las llamadas de 1:1, configure una [Directiva](teams-calling-policy.md) de llamadas de equipo y desactive la opción **hacer llamadas privadas** . Esta configuración tampoco se aplica a dispositivos de salas de conferencias, como Surface Hub y los dispositivos de salas de Microsoft Teams.
 
+Esta configuración aún no está disponible para los entornos Microsoft 365 administración pública Cloud (GCC), GCC High o Department of Defense (DoD).
+
 Para obtener más información, consulte [administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
 
 ### <a name="mode-for-ip-video"></a>Modo para video IP
@@ -240,10 +242,14 @@ Esta es una directiva por usuario. Esta opción controla si se puede activar el 
 
 Si se establece en **deshabilitado** para un usuario, ese usuario no puede activar el vídeo o ver vídeos compartidos por otros participantes de la reunión. Los participantes de la reunión que no tienen ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen este valor establecido en el **vídeo saliente y entrante habilitado** de forma predeterminada.
 
-Esta configuración no se aplica a dispositivos de salas de conferencias, como Surface Hub y los dispositivos de salas de Microsoft Teams.
+Esta configuración no se aplica a dispositivos de salas de conferencias, como Surface Hub y los dispositivos de salas de Microsoft Teams. 
+
+Esta configuración aún no está disponible para los entornos Microsoft 365 administración pública Cloud (GCC), GCC High o Department of Defense (DoD).
 
 > [!NOTE]
 > Tenga en cuenta que esta configuración controla tanto el vídeo entrante como el saliente, mientras que la configuración de **permitir el vídeo IP** controla el vídeo saliente. Para obtener más información, vea [¿cuál es la configuración de la Directiva de video IP?](#which-ip-video-policy-setting-takes-precedence) y [administrar el audio o vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
+
+Para obtener más información, consulte [administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
 
 ### <a name="allow-ip-video"></a>Permitir vídeo IP
 
@@ -258,7 +264,6 @@ Reuniones organizadas por un usuario que tiene habilitada esta configuración de
 |:-------:|:-------:|
 |![Captura de pantalla que muestra la combinación de reuniones con la configuración de audio y vídeo en el escritorio](media/meeting-policies-audio-video-settings.png)    |![Captura de pantalla que muestra la combinación de reuniones sreen con la configuración de audio/vídeo en dispositivos móviles](media/meeting-policies-mobile-join.png)          |
 
-
 Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Directiva de reuniones  |Permitir vídeo IP |
@@ -271,6 +276,8 @@ Las reuniones hospedadas por Daniela permiten que el vídeo esté activado. Dani
 En las reuniones hospedadas por Amanda, nadie puede activar el video, independientemente de la Directiva de vídeo que se les haya asignado. Esto significa que Daniela no puede activar el video en las reuniones de Amanda.  
 
 Si Daniela llama Amanda con video on, Amanda puede contestar la llamada solo con audio.  Cuando la llamada está conectada, Amanda puede ver el vídeo de Daniela, pero no puede activar el vídeo. Si Amanda llama a Daniela, Daniela puede responder a la llamada con video y audio. Cuando la llamada está conectada, Daniela puede activar o desactivar el video, según sea necesario.
+
+Para obtener más información, consulte [administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>¿Cuál es la configuración de directiva de video IP?
 

@@ -16,12 +16,12 @@ description: En este artículo, obtendrá información sobre los informes de equ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 027be1837f7a3761a7e1bf97489c49d900173663
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690976"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476705"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -29,7 +29,7 @@ En el centro de administración de Microsoft Teams está disponible una nueva ex
 
 ## <a name="how-to-access-the-reports"></a>Cómo acceder a los informes
 
-Para acceder a los informes, debe ser un administrador global en Microsoft 365 u Office 365, administración de servicios de equipo, administrador de comunicaciones de equipos o administrador de Skype empresarial. Para obtener más información sobre los roles de administrador de Teams y los informes a los que tiene acceso cada rol de administrador, consulte [usar los roles de administrador de Teams para administrar equipos](../using-admin-roles.md).
+Para acceder a los informes, debe ser un administrador global en Microsoft 365 u Office 365, administrador de servicios de equipo o administrador de Skype empresarial. Para obtener más información sobre los roles de administrador de Teams y los informes a los que tiene acceso cada rol de administrador, consulte [usar los roles de administrador de Teams para administrar equipos](../using-admin-roles.md).
 
 Vaya al centro de administración de Microsoft Teams, en el navegación de la izquierda, seleccione **análisis & informes**y, a continuación, en **Informe**, elija el informe que desea ejecutar.
 

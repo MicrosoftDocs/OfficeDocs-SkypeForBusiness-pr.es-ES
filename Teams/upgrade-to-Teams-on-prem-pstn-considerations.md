@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486765"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Consideraciones sobre RTC al actualizar a teams &mdash; para administradores de ti
 
@@ -44,7 +44,8 @@ Además, los artículos siguientes describen los conceptos de actualización imp
 
 
  > [!NOTE]
- > El uso del sistema telefónico con Teams solo se admite cuando el usuario está en modo TeamsOnly.  Si el usuario está en modo islas, el sistema telefónico solo es compatible con Skype empresarial. 
+ > - El uso del sistema telefónico con Teams solo se admite cuando el usuario está en modo TeamsOnly.  Si el usuario está en modo islas, el sistema telefónico solo es compatible con Skype empresarial. 
+ > - La configuración del desvío de llamadas y de la delegación de Skype empresarial no se migrará y tendrá que volver a crearla para Teams.
 
 
 ## <a name="pstn-calling-scenarios"></a>Escenarios de llamadas RTC
@@ -109,7 +110,7 @@ A continuación se enumeran los pasos básicos.  Los pasos 1-5 se enumeran en la
 
 6. Actualice el usuario: estos pasos deben ser coordinados. 
 
-   - Con las herramientas locales de Skype empresarial, ejecute Move-CsUser with-MoveToTeams switch. Si está usando una versión de Skype empresarial Server que no admite el modificador-MoveToTeams, ejecute primero Move-CsUser y, a continuación, asigne el modo TeamsOnly en PowerShell Remote de inquilino o en la consola de administración de Teams.
+   - Con las herramientas locales de Skype empresarial, ejecute Move-CsUser con el modificador-MoveToTeams. Si está usando una versión de Skype empresarial Server que no admite el modificador-MoveToTeams, ejecute primero Move-CsUser y, después, asigne el modo TeamsOnly en PowerShell remoto del inquilino o en la consola de administración de Teams.
 
    - En la SBC, configure el enrutamiento de voz para habilitar las llamadas entrantes enviando llamadas al enrutamiento directo en lugar de al servidor de mediación local. 
 
@@ -135,7 +136,7 @@ A continuación se enumeran los pasos básicos.Los pasos 1-5 se enumeran en la s
    - Si va a volver a usar los números, envíe una solicitud de portabilidad a su operador.  
    - También puede adquirir números nuevos directamente desde Microsoft. 
 
-6. Actualice el usuario y, si es necesario, asigne LineUri. Con las herramientas locales de Skype empresarial, ejecute Move-CsUser con el modificador-MoveToTeams.  
+6. Actualice el usuario y, si es necesario, asigne LineUri. Con las herramientas de Skype para empresas locales, ejecute Move-CsUser con el modificador-MoveToTeams.  
 
     - Si va a trasladar números a Microsoft, debe coordinar los intervalos de esta operación para que se produzcan cuando se produzca el puerto. 
 

@@ -3,6 +3,7 @@ title: Guía de seguridad para Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486805"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -239,7 +240,7 @@ Permitir que los usuarios externos participen en las reuniones de Teams puede se
 También es posible que un organizador establezca las opciones de configuración para permitir que los autores de llamadas de acceso por marcado sean los primeros en una reunión. Esta opción se establece en la configuración de conferencia de audio para los usuarios y se aplicará a todas las reuniones programadas por el usuario.
 
 > [!NOTE]
-> Para obtener más información sobre el acceso externo y de invitados en Teams, consulte este [artículo](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). En él se explican las características que los usuarios externos o invitados pueden ver y usar cuando inician sesión en Teams.
+> Para obtener más información sobre el acceso externo y de invitados en Teams, consulte este [artículo](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). En él se explican las características que los usuarios externos o invitados pueden ver y usar cuando inician sesión en Teams. <p> Si está grabando reuniones y desea ver una matriz de permisos que tiene acceso al contenido, consulte [este artículo](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) y su matriz.
 
 ### <a name="participant-roles"></a>Roles de los participantes
 
@@ -305,3 +306,5 @@ Las opciones de reunión se pueden modificar mientras se celebra la reunión. Cu
 [Optimizar la conectividad de Microsoft 365 u Office 365 para usuarios remotos que usan túnel dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [Implementación de túnel dividido por VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[Grabaciones de reuniones en Teams, donde se almacenan grabaciones, y quien puede acceder a ellas](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)

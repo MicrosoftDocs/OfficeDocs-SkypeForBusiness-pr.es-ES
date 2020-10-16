@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: 624dcb4f99bc8ae2b83a1b8f62917ac0a5701888
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444236"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486775"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
 > [!Note]
 > El cambio de usar Microsoft Stream a OneDrive para la empresa y a Microsoft SharePoint para las grabaciones de la reunión será un enfoque por fases.
 
-|||
-|---|-----------------|
+
 |Fecha|Produce|
+|---|-----------------|
 |Principios del cuarto trimestre de CY20|**Los equipos que se registran en OneDrive para la empresa y SharePoint están disponibles para participar o para anular la suscripción.**<br> Los administradores de inquilinos pueden optar por OneDrive para la empresa o no participar en la configuración de la Directiva de Teams de PowerShell|
 |CY20 Trim Trim|**Los equipos graban el registro de OneDrive para la empresa y SharePoint como predeterminado para los inquilinos que no se desactivan**<br> Esta es la ruta recomendada para la mayoría de los clientes|
-T1 CY21|**Guardar equipos ya no se permite la grabación de reuniones en una secuencia clásica**<br>Todos los inquilinos guardarán los equipos de la grabación de reuniones en OneDrive para la empresa y SharePoint|
-|||
+|T1 CY21|**Guardar equipos ya no se permite la grabación de reuniones en una secuencia clásica**<br>Todos los inquilinos guardarán los equipos de la grabación de reuniones en OneDrive para la empresa y SharePoint|
+
 
 Microsoft Teams tiene un nuevo método para guardar las grabaciones de la reunión. Como primera fase de una transición de la secuencia clásica de Microsoft a la [nueva secuencia](https://docs.microsoft.com/stream/streamnew/new-stream), este método almacena las grabaciones en Microsoft OneDrive y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 
@@ -98,6 +98,23 @@ Incluso si una directiva dice que está configurada para **transmitirse**, es po
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
+
+## <a name="permissions-or-role-based-access"></a>Permisos o acceso basado en roles
+
+
+|Tipo de reunión                               | ¿Quién hizo clic en grabar?| ¿Dónde se encuentran las tierras de la grabación?                               |¿Quién tiene acceso? Lectura/escritura, d o compartida                                                                                                                                                                                                                                                     |
+|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|llamada de 1:1 con partes internas             |Autor de llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |-La persona que llama es propietaria, tiene derechos completos: el destinatario de la llamada (si está en el mismo inquilino) tiene acceso de solo lectura, sin acceso de uso compartido (si se encuentra en un inquilino diferente). La persona que llama debe compartirla con el destinatario|
+|llamada de 1:1 con partes internas             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        |-La persona que llama es propietario, tiene un llamador de derechos completos (si en el mismo inquilino tiene acceso de solo lectura, sin acceso compartido, el autor de la llamada (si se encuentra en un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con el destinatario de la llamada|
+|llamada de 1:1 con una llamada externa             |Autor de llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |-Quien llama es propietario, tiene derechos completos; la llamada no tiene acceso. La persona que llama debe compartirla con el destinatario|
+|llamada de 1:1 con una llamada externa             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |-Quien llama es propietario, tiene derechos plenos; el autor de la llamada no tiene acceso. La persona que llama debe compartirla con quien llama|
+|Llamada grupal                                 |Cualquier miembro de la llamada |Miembro que hizo clic en la cuenta de OneDrive para la empresa del registro  |-El miembro que hizo clic en el registro tiene derechos completos; otros miembros del mismo inquilino tienen derechos de lectura; otros miembros de los que no tienen derechos.|
+|Reunión programada/ad hoc                    |Organizador              |Cuenta de OneDrive para la empresa del organizador                     |-Organizer tiene derechos plenos para la grabación; todos los demás miembros de la reunión tienen acceso de lectura|
+|Reunión programada/ad hoc                    |Otro miembro de la reunión   |Miembro que hizo clic en el registro                                  |-El miembro que hizo clic en el registro tiene derechos plenos para que el organizador de grabaciones tenga derechos de edición y se pueda compartir; todos los demás miembros tienen acceso de lectura|
+|Reunión ad hoc o programada con usuarios externos|Organizador              |Cuenta de OneDrive para la empresa del organizador                     |-Organizer tiene derechos plenos en la grabación: todos los demás miembros de la reunión desde el mismo inquilino que el organizador tienen acceso de lectura; todos los demás miembros externos no tienen acceso y el organizador debe compartirlo.|
+|Reunión ad hoc o programada con usuarios externos|Otro miembro de la reunión   |Miembro que hizo clic en el registro                                  |-El miembro que hizo clic en el registro tiene derechos plenos para que el organizador de grabaciones tenga derechos de edición y se pueda compartir: todos los demás miembros de la reunión desde el mismo inquilino como el organizador tienen acceso de lectura; todos los demás miembros externos no tienen acceso y el organizador debe compartirlos.|
+|Reunión de canal                            |Miembro del canal         |Ubicación de SharePoint de los equipos de ese canal                   |-El miembro que hizo clic en el registro tiene derechos de edición para la grabación; los permisos de todos los miembros se basan en los permisos de SharePoint de canal|
+
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 

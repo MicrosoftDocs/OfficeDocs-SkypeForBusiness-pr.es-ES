@@ -17,17 +17,17 @@ description: Obtener información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 226bd98c741a84a2d7f26c1808a4c8d7e9a6bb53
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486785"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro de administración de Microsoft Teams
 ======================================================
 
-Como administrador, la página Manage Apps en el centro de administración de Microsoft Teams es donde ve y administra todas las aplicaciones de Teams para su organización. Aquí puede ver el estado de organización y las propiedades de las aplicaciones, aprobar o cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, bloquear o permitir aplicaciones en el nivel de organización, agregar aplicaciones a Teams (en versión preliminar), comprar servicios para aplicaciones de terceros, ver permisos solicitados por aplicaciones, conceder consentimiento de administrador a las aplicaciones y administrar la configuración de aplicaciones
+Como administrador, la página Manage Apps en el centro de administración de Microsoft Teams es donde ve y administra todas las aplicaciones de Teams para su organización. Aquí puede ver el estado de organización y las propiedades de las aplicaciones, aprobar o cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, bloquear o permitir aplicaciones en el nivel de la organización, agregar aplicaciones a Teams, comprar servicios para aplicaciones de terceros, ver permisos solicitados por aplicaciones, conceder consentimiento de administrador a las aplicaciones y administrar la configuración de aplicaciones de toda la organización.
 
 La página Manage apps le ofrece una vista de todas las aplicaciones disponibles, y le proporciona la información que necesita para decidir qué aplicaciones quiere permitir o bloquear en toda la organización. Después, puede usar [las directivas de permisos](teams-app-permission-policies.md)de la aplicación, [las directivas de configuración](teams-app-setup-policies.md)de la aplicación y [las directivas de aplicaciones personalizadas y la configuración](teams-custom-app-policies-and-settings.md) para configurar la experiencia de la aplicación para usuarios específicos de su organización.
 
@@ -108,8 +108,6 @@ Cuando bloquea o permite una aplicación en la página Administrar aplicaciones,
  > Para desinstalar una aplicación, haga clic con el botón derecho en la aplicación y, a continuación, haga clic en **desinstalar** o use el menú **más aplicaciones** en el lado izquierdo.
 
 ## <a name="add-an-app-to-a-team"></a>Agregar una aplicación a un equipo
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Use el botón **Agregar al equipo** para instalar una aplicación en un equipo. Tenga en cuenta que esto es solo para las aplicaciones que se pueden instalar en un ámbito de equipo. El botón **Agregar a equipo** no está disponible para las aplicaciones que solo se pueden instalar en el ámbito personal.
 
