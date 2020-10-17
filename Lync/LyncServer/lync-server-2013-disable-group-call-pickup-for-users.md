@@ -12,20 +12,22 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 777ca1494738707014c2e121b56e8d01e87f4a3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5d30fc0dd317b9de1a5af76c5a3a10734f0877b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529027"
 ---
+# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="54924-102">Deshabilitar la atención de llamadas grupales para los usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54924-102">Disable Group Call Pickup for users in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="8dc51-102">Deshabilitar la atención de llamadas grupales para los usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8dc51-102">Disable Group Call Pickup for users in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42197593"
 
 <span> </span>
 
-<span data-ttu-id="8dc51-103">_**Última modificación del tema:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="8dc51-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="54924-103">_**Última modificación del tema:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="54924-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="8dc51-104">Use el siguiente procedimiento para deshabilitar la atención de llamadas grupales para un usuario.</span><span class="sxs-lookup"><span data-stu-id="8dc51-104">Use the following procedure to disable Group Call Pickup for a user.</span></span>
+<span data-ttu-id="54924-104">Use el siguiente procedimiento para deshabilitar la atención de llamadas grupales para un usuario.</span><span class="sxs-lookup"><span data-stu-id="54924-104">Use the following procedure to disable Group Call Pickup for a user.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="8dc51-105">Cuando se deshabilita la recepción de llamadas de grupo para un usuario, no se conserva el número del grupo de atención de llamadas que se asignó al usuario.</span><span class="sxs-lookup"><span data-stu-id="8dc51-105">When you disable Group Call Pickup for a user, the call pickup group number that was assigned to the user is not retained.</span></span> <span data-ttu-id="8dc51-106">Si, posteriormente, desea volver a habilitar la atención de llamadas grupales para ese usuario, debe asignar el número de grupo de recogida de llamadas de nuevo con el parámetro/enablegrouppickup.</span><span class="sxs-lookup"><span data-stu-id="8dc51-106">If you subsequently want to re-enable Group Call Pickup for that user, you must assign the call pickup group number again with the /enablegrouppickup parameter.</span></span>
+> <span data-ttu-id="54924-105">Cuando se deshabilita la recepción de llamadas de grupo para un usuario, no se conserva el número del grupo de atención de llamadas que se asignó al usuario.</span><span class="sxs-lookup"><span data-stu-id="54924-105">When you disable Group Call Pickup for a user, the call pickup group number that was assigned to the user is not retained.</span></span> <span data-ttu-id="54924-106">Si, posteriormente, desea volver a habilitar la atención de llamadas grupales para ese usuario, debe asignar el número de grupo de recogida de llamadas de nuevo con el parámetro/enablegrouppickup.</span><span class="sxs-lookup"><span data-stu-id="54924-106">If you subsequently want to re-enable Group Call Pickup for that user, you must assign the call pickup group number again with the /enablegrouppickup parameter.</span></span>
 
 
 
@@ -51,15 +53,15 @@ ms.locfileid: "42197593"
 
 <div>
 
-## <a name="to-disable-group-call-pickup-for-a-user"></a><span data-ttu-id="8dc51-107">Para deshabilitar la recepción de llamadas de grupo para un usuario</span><span class="sxs-lookup"><span data-stu-id="8dc51-107">To disable Group Call Pickup for a user</span></span>
+## <a name="to-disable-group-call-pickup-for-a-user"></a><span data-ttu-id="54924-107">Para deshabilitar la recepción de llamadas de grupo para un usuario</span><span class="sxs-lookup"><span data-stu-id="54924-107">To disable Group Call Pickup for a user</span></span>
 
-1.  <span data-ttu-id="8dc51-108">Inicie sesión en el equipo donde instaló la herramienta SEFAUtil con derechos de administrador.</span><span class="sxs-lookup"><span data-stu-id="8dc51-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1.  <span data-ttu-id="54924-108">Inicie sesión en el equipo donde instaló la herramienta SEFAUtil con derechos de administrador.</span><span class="sxs-lookup"><span data-stu-id="54924-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
 
-2.  <span data-ttu-id="8dc51-109">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="8dc51-109">At the command line, run:</span></span>
+2.  <span data-ttu-id="54924-109">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="54924-109">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /disablegrouppickup
     
-    <span data-ttu-id="8dc51-110">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8dc51-110">For example:</span></span>
+    <span data-ttu-id="54924-110">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="54924-110">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /disablegrouppickup
 
@@ -67,11 +69,11 @@ ms.locfileid: "42197593"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8dc51-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="8dc51-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="54924-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="54924-111">See Also</span></span>
 
 
-[<span data-ttu-id="8dc51-112">Asignar números de llamada de llamada de grupo a los usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8dc51-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[<span data-ttu-id="8dc51-113">Habilitar la atención de llamadas grupales para los usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8dc51-113">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="54924-112">Asignar números de llamada de llamada de grupo a los usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54924-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[<span data-ttu-id="54924-113">Habilitar la atención de llamadas grupales para los usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54924-113">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
   
 
 </div>

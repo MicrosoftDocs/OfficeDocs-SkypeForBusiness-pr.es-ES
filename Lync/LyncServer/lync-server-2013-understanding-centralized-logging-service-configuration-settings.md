@@ -12,20 +12,22 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4bd4403bedbf6fe3b6983e6071a162ce02c16936
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221200"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527757"
 ---
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="74493-102">Información sobre las opciones de configuración del servicio de registro centralizado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74493-102">Understanding Centralized Logging Service configuration settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="9ab33-102">Información sobre las opciones de configuración del servicio de registro centralizado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ab33-102">Understanding Centralized Logging Service configuration settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "44221200"
 
 <span> </span>
 
-<span data-ttu-id="9ab33-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="9ab33-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="74493-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="74493-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="9ab33-104">El servicio de registro centralizado está configurado para definir lo que debe recopilar el servicio de registro, cómo lo recopila, dónde se recopilará y cuál será la configuración del registro.</span><span class="sxs-lookup"><span data-stu-id="9ab33-104">The Centralized Logging Service is configured to define what the logging service is intended to collect, how it collects, where it will collect from, and what the log settings are.</span></span> <span data-ttu-id="9ab33-105">Estas opciones se definen de forma global (es decir, para toda la implementación) o para un sitio (es decir, un sitio con nombre de la implementación).</span><span class="sxs-lookup"><span data-stu-id="9ab33-105">You define these settings globally (that is, for the entire deployment) or for a site (that is, a named site in your deployment).</span></span> <span data-ttu-id="9ab33-106">Cualquier registro que defina utilizará las configuraciones apropiadas para la identidad que utiliza para iniciar, detener, vaciar y buscar registros.</span><span class="sxs-lookup"><span data-stu-id="9ab33-106">Any logging that you define will use the settings that are appropriate for the identity that you use for commands to start, stop, flush, and search logs.</span></span>
+<span data-ttu-id="74493-104">El servicio de registro centralizado está configurado para definir lo que debe recopilar el servicio de registro, cómo lo recopila, dónde se recopilará y cuál será la configuración del registro.</span><span class="sxs-lookup"><span data-stu-id="74493-104">The Centralized Logging Service is configured to define what the logging service is intended to collect, how it collects, where it will collect from, and what the log settings are.</span></span> <span data-ttu-id="74493-105">Estas opciones se definen de forma global (es decir, para toda la implementación) o para un sitio (es decir, un sitio con nombre de la implementación).</span><span class="sxs-lookup"><span data-stu-id="74493-105">You define these settings globally (that is, for the entire deployment) or for a site (that is, a named site in your deployment).</span></span> <span data-ttu-id="74493-106">Cualquier registro que defina utilizará las configuraciones apropiadas para la identidad que utiliza para iniciar, detener, vaciar y buscar registros.</span><span class="sxs-lookup"><span data-stu-id="74493-106">Any logging that you define will use the settings that are appropriate for the identity that you use for commands to start, stop, flush, and search logs.</span></span>
 
 <div>
 
-## <a name="to-display-the-current-centralized-logging-service-configuration"></a><span data-ttu-id="9ab33-107">Para mostrar la configuración actual del servicio de registro centralizado</span><span class="sxs-lookup"><span data-stu-id="9ab33-107">To display the current Centralized Logging Service configuration</span></span>
+## <a name="to-display-the-current-centralized-logging-service-configuration"></a><span data-ttu-id="74493-107">Para mostrar la configuración actual del servicio de registro centralizado</span><span class="sxs-lookup"><span data-stu-id="74493-107">To display the current Centralized Logging Service configuration</span></span>
 
-1.  <span data-ttu-id="9ab33-108">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="9ab33-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="74493-108">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="74493-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="9ab33-109">Escriba lo siguiente en un símbolo del sistema:</span><span class="sxs-lookup"><span data-stu-id="9ab33-109">Type the following at a command-line prompt:</span></span>
+2.  <span data-ttu-id="74493-109">Escriba lo siguiente en un símbolo del sistema:</span><span class="sxs-lookup"><span data-stu-id="74493-109">Type the following at a command-line prompt:</span></span>
     
         Get-CsClsConfiguration
     
@@ -53,14 +55,14 @@ ms.locfileid: "44221200"
     
 
     > [!TIP]
-    > <span data-ttu-id="9ab33-110">Puede restringir o ampliar el ámbito de las opciones de configuración que se devuelven al definir <CODE>-Identity</CODE> y un ámbito, como "site: Redmond" para devolver solo el CsClsConfiguration para el sitio Redmond.</span><span class="sxs-lookup"><span data-stu-id="9ab33-110">You can narrow or expand the scope of the configuration settings that are returned by defining <CODE>-Identity</CODE> and a scope, such as "Site:Redmond" to return only the CsClsConfiguration for the site Redmond.</span></span> <span data-ttu-id="9ab33-111">Si desea obtener información detallada sobre una parte determinada de la configuración, puede canalizar la salida a otro cmdlet de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="9ab33-111">If you want details about a given portion of the configuration, you can pipe the output into another Windows PowerShell cmdlet.</span></span> <span data-ttu-id="9ab33-112">Por ejemplo, para obtener detalles sobre los escenarios definidos en la configuración del sitio "Redmond", escriba:<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE></span><span class="sxs-lookup"><span data-stu-id="9ab33-112">For example, to get details about the scenarios defined in the configuration for site "Redmond", type: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE></span></span>
+    > <span data-ttu-id="74493-110">Puede restringir o ampliar el ámbito de las opciones de configuración que se devuelven al definir <CODE>-Identity</CODE> y un ámbito, como "site: Redmond" para devolver solo el CsClsConfiguration para el sitio Redmond.</span><span class="sxs-lookup"><span data-stu-id="74493-110">You can narrow or expand the scope of the configuration settings that are returned by defining <CODE>-Identity</CODE> and a scope, such as "Site:Redmond" to return only the CsClsConfiguration for the site Redmond.</span></span> <span data-ttu-id="74493-111">Si desea obtener información detallada sobre una parte determinada de la configuración, puede canalizar la salida a otro cmdlet de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="74493-111">If you want details about a given portion of the configuration, you can pipe the output into another Windows PowerShell cmdlet.</span></span> <span data-ttu-id="74493-112">Por ejemplo, para obtener detalles sobre los escenarios definidos en la configuración del sitio "Redmond", escriba: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE></span><span class="sxs-lookup"><span data-stu-id="74493-112">For example, to get details about the scenarios defined in the configuration for site "Redmond", type: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE></span></span>
 
     
     </div>
     
-    <span data-ttu-id="9ab33-113">![Resultado de ejemplo de Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Resultado de ejemplo de Get-CsClsConfiguration.")</span><span class="sxs-lookup"><span data-stu-id="9ab33-113">![Sample output from Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Sample output from Get-CsClsConfiguration.")</span></span>
+    <span data-ttu-id="74493-113">![Resultado de ejemplo de Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Resultado de ejemplo de Get-CsClsConfiguration.")</span><span class="sxs-lookup"><span data-stu-id="74493-113">![Sample output from Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Sample output from Get-CsClsConfiguration.")</span></span>
     
-    <span data-ttu-id="9ab33-114">El resultado del cmdlet muestra la configuración actual del servicio de registro centralizado.</span><span class="sxs-lookup"><span data-stu-id="9ab33-114">The result from the cmdlet displays the current configuration of the Centralized Logging Service.</span></span>
+    <span data-ttu-id="74493-114">El resultado del cmdlet muestra la configuración actual del servicio de registro centralizado.</span><span class="sxs-lookup"><span data-stu-id="74493-114">The result from the cmdlet displays the current configuration of the Centralized Logging Service.</span></span>
     
     
     <table>
@@ -70,74 +72,74 @@ ms.locfileid: "44221200"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="9ab33-115">Opciones de configuración</span><span class="sxs-lookup"><span data-stu-id="9ab33-115">Configuration Setting</span></span></th>
-    <th><span data-ttu-id="9ab33-116">Descripción</span><span class="sxs-lookup"><span data-stu-id="9ab33-116">Description</span></span></th>
+    <th><span data-ttu-id="74493-115">Opciones de configuración</span><span class="sxs-lookup"><span data-stu-id="74493-115">Configuration Setting</span></span></th>
+    <th><span data-ttu-id="74493-116">Descripción</span><span class="sxs-lookup"><span data-stu-id="74493-116">Description</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="9ab33-117"><strong>Identidad</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-117"><strong>Identity</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-p103">Identifica el ámbito y el nombre de esta configuración. Hay solamente una configuración global y una configuración por sitio.</span><span class="sxs-lookup"><span data-stu-id="9ab33-p103">Identifies the scope and name for this configuration. There is only one Global configuration, and one configuration per site.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-117"><strong>Identidad</strong></span><span class="sxs-lookup"><span data-stu-id="74493-117"><strong>Identity</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-p103">Identifica el ámbito y el nombre de esta configuración. Hay solamente una configuración global y una configuración por sitio.</span><span class="sxs-lookup"><span data-stu-id="74493-p103">Identifies the scope and name for this configuration. There is only one Global configuration, and one configuration per site.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="9ab33-120"><strong>Scenarios</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-120"><strong>Scenarios</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-121">Listado de todos los escenarios que se definen para esta configuración.</span><span class="sxs-lookup"><span data-stu-id="9ab33-121">Listing of all scenarios that are defined for this configuration.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-120"><strong>Scenarios</strong></span><span class="sxs-lookup"><span data-stu-id="74493-120"><strong>Scenarios</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-121">Listado de todos los escenarios que se definen para esta configuración.</span><span class="sxs-lookup"><span data-stu-id="74493-121">Listing of all scenarios that are defined for this configuration.</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="9ab33-122"><strong>SearchTerms</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-122"><strong>SearchTerms</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-123">Términos de búsqueda definidos para la configuración.</span><span class="sxs-lookup"><span data-stu-id="9ab33-123">Defined search terms for the configuration.</span></span> <span data-ttu-id="9ab33-124">Office 365 o Microsoft 365, no en implementaciones locales.</span><span class="sxs-lookup"><span data-stu-id="9ab33-124">Office 365 or Microsoft 365, not on-premises deployments.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-122"><strong>SearchTerms</strong></span><span class="sxs-lookup"><span data-stu-id="74493-122"><strong>SearchTerms</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-123">Términos de búsqueda definidos para la configuración.</span><span class="sxs-lookup"><span data-stu-id="74493-123">Defined search terms for the configuration.</span></span> <span data-ttu-id="74493-124">Office 365 o Microsoft 365, no en implementaciones locales.</span><span class="sxs-lookup"><span data-stu-id="74493-124">Office 365 or Microsoft 365, not on-premises deployments.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="9ab33-125"><strong>SecurityGroups</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-125"><strong>SecurityGroups</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-126">Grupos de seguridad definidos que controlan quiénes (es decir, miembros de los grupos de seguridad) pueden ver equipos basados en el sitio en el que se encuentran.</span><span class="sxs-lookup"><span data-stu-id="9ab33-126">Defined security groups that control who (that is, members of the security groups) can see computers based on the site they are located in.</span></span> <span data-ttu-id="9ab33-127">Sitio, en este contexto, es el sitio tal como se define en Topology Builder.</span><span class="sxs-lookup"><span data-stu-id="9ab33-127">Site, in this context, is the site as defined in Topology Builder.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-125"><strong>SecurityGroups</strong></span><span class="sxs-lookup"><span data-stu-id="74493-125"><strong>SecurityGroups</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-126">Grupos de seguridad definidos que controlan quiénes (es decir, miembros de los grupos de seguridad) pueden ver equipos basados en el sitio en el que se encuentran.</span><span class="sxs-lookup"><span data-stu-id="74493-126">Defined security groups that control who (that is, members of the security groups) can see computers based on the site they are located in.</span></span> <span data-ttu-id="74493-127">Sitio, en este contexto, es el sitio tal como se define en Topology Builder.</span><span class="sxs-lookup"><span data-stu-id="74493-127">Site, in this context, is the site as defined in Topology Builder.</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="9ab33-128"><strong>Regiones</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-128"><strong>Regions</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-129">Las regiones definidas se utilizan para reunir SecurityGroups en una región, por ejemplo EMEA.</span><span class="sxs-lookup"><span data-stu-id="9ab33-129">Defined regions are used to collect SecurityGroups into a region, for example EMEA.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-128"><strong>Regiones</strong></span><span class="sxs-lookup"><span data-stu-id="74493-128"><strong>Regions</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-129">Las regiones definidas se utilizan para reunir SecurityGroups en una región, por ejemplo EMEA.</span><span class="sxs-lookup"><span data-stu-id="74493-129">Defined regions are used to collect SecurityGroups into a region, for example EMEA.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="9ab33-130"><strong>EtlFileFolder</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-130"><strong>EtlFileFolder</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-p106">Ruta definida de la ubicación en la que se escriben los archivos de registro en los equipos. CLSAgent escribe los archivos de registro y se ejecuta en el contexto del servicio de red. En este caso, %TEMP% se expande a %WINDIR%\ServiceProfiles\NetworkService\AppData\Local</span><span class="sxs-lookup"><span data-stu-id="9ab33-p106">Defined path to the location where log files are written on computers. CLSAgent writes the log files and runs under the context of the Network Service. In this case, %TEMP% expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local</span></span></p></td>
+    <td><p><span data-ttu-id="74493-130"><strong>EtlFileFolder</strong></span><span class="sxs-lookup"><span data-stu-id="74493-130"><strong>EtlFileFolder</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-p106">Ruta definida de la ubicación en la que se escriben los archivos de registro en los equipos. CLSAgent escribe los archivos de registro y se ejecuta en el contexto del servicio de red. En este caso, %TEMP% se expande a %WINDIR%\ServiceProfiles\NetworkService\AppData\Local</span><span class="sxs-lookup"><span data-stu-id="74493-p106">Defined path to the location where log files are written on computers. CLSAgent writes the log files and runs under the context of the Network Service. In this case, %TEMP% expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="9ab33-134"><strong>EtlFileRolloverSizeMB</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-134"><strong>EtlFileRolloverSizeMB</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-p107">El parámetro indica el tamaño máximo del archivo de registro antes de que se cree un nuevo archivo de registro de seguimiento de eventos (.etl). Un nuevo archivo de registro se crea cuando se alcanza el tamaño definido incluso si aún no se ha alcanzado el tiempo máximo establecido en EtlFileRolloverMinutes.</span><span class="sxs-lookup"><span data-stu-id="9ab33-p107">The parameter indicates the maximum size of the log file before a new event trace log (.etl) file is created. A new log file is created when the defined size is reached even if the maximum time set in EtlFileRolloverMinutes has not yet been reached.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-134"><strong>EtlFileRolloverSizeMB</strong></span><span class="sxs-lookup"><span data-stu-id="74493-134"><strong>EtlFileRolloverSizeMB</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-p107">El parámetro indica el tamaño máximo del archivo de registro antes de que se cree un nuevo archivo de registro de seguimiento de eventos (.etl). Un nuevo archivo de registro se crea cuando se alcanza el tamaño definido incluso si aún no se ha alcanzado el tiempo máximo establecido en EtlFileRolloverMinutes.</span><span class="sxs-lookup"><span data-stu-id="74493-p107">The parameter indicates the maximum size of the log file before a new event trace log (.etl) file is created. A new log file is created when the defined size is reached even if the maximum time set in EtlFileRolloverMinutes has not yet been reached.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="9ab33-137"><strong>EtlFileRolloverMinutes</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-137"><strong>EtlFileRolloverMinutes</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-p108">Cantidad máxima definida de tiempo, en minutos, que puede durar un registro antes de que se cree un nuevo archivo .etl. Un nuevo archivo de registro se crea cuando expira el tiempo definido incluso si aún no se ha alcanzado el tamaño máximo establecido en EtlFileRolloverSizeMB.</span><span class="sxs-lookup"><span data-stu-id="9ab33-p108">Defined maximum amount of time, in minutes, that a log can elapse before a new .etl file is created. A new log file is created when the timer expires even if the maximum size set in EtlFileRolloverSizeMB has not yet been reached.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-137"><strong>EtlFileRolloverMinutes</strong></span><span class="sxs-lookup"><span data-stu-id="74493-137"><strong>EtlFileRolloverMinutes</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-p108">Cantidad máxima definida de tiempo, en minutos, que puede durar un registro antes de que se cree un nuevo archivo .etl. Un nuevo archivo de registro se crea cuando expira el tiempo definido incluso si aún no se ha alcanzado el tamaño máximo establecido en EtlFileRolloverSizeMB.</span><span class="sxs-lookup"><span data-stu-id="74493-p108">Defined maximum amount of time, in minutes, that a log can elapse before a new .etl file is created. A new log file is created when the timer expires even if the maximum size set in EtlFileRolloverSizeMB has not yet been reached.</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="9ab33-140"><strong>TmfFileSearchPath</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-140"><strong>TmfFileSearchPath</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-p109">Ubicación en la que se buscará archivos con formato de mensaje de seguimiento. Los archivos con formato de mensaje de seguimiento se utilizan para convertir los archivos binarios en un formato legible.</span><span class="sxs-lookup"><span data-stu-id="9ab33-p109">Location to search for the trace message format files. The trace message format files are used to convert the binary files into a human readable format.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-140"><strong>TmfFileSearchPath</strong></span><span class="sxs-lookup"><span data-stu-id="74493-140"><strong>TmfFileSearchPath</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-p109">Ubicación en la que se buscará archivos con formato de mensaje de seguimiento. Los archivos con formato de mensaje de seguimiento se utilizan para convertir los archivos binarios en un formato legible.</span><span class="sxs-lookup"><span data-stu-id="74493-p109">Location to search for the trace message format files. The trace message format files are used to convert the binary files into a human readable format.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="9ab33-143"><strong>CacheFileLocalFolders</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-143"><strong>CacheFileLocalFolders</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-p110">Ruta definida de la ubicación en la que se escriben los archivos de caché en los equipos. CLSAgent escribe los archivos de caché y se ejecuta en el contexto del servicio de red. En este caso, %TEMP% se expande a %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. De manera predeterminada, los archivos de caché y los archivos de registro se escriben en el mismo directorio.</span><span class="sxs-lookup"><span data-stu-id="9ab33-p110">Defined path to the location where cache files are written on computers. CLSAgent writes the cache files and runs under the context of the Network Service. In this case, %TEMP% expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. By default, cache files and log files are written to the same directory.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-143"><strong>CacheFileLocalFolders</strong></span><span class="sxs-lookup"><span data-stu-id="74493-143"><strong>CacheFileLocalFolders</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-p110">Ruta definida de la ubicación en la que se escriben los archivos de caché en los equipos. CLSAgent escribe los archivos de caché y se ejecuta en el contexto del servicio de red. En este caso, %TEMP% se expande a %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. De manera predeterminada, los archivos de caché y los archivos de registro se escriben en el mismo directorio.</span><span class="sxs-lookup"><span data-stu-id="74493-p110">Defined path to the location where cache files are written on computers. CLSAgent writes the cache files and runs under the context of the Network Service. In this case, %TEMP% expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. By default, cache files and log files are written to the same directory.</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="9ab33-148"><strong>CacheFileNetworkFolder</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-148"><strong>CacheFileNetworkFolder</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-149">Puede definir una ruta de acceso UNC (convención de nomenclatura universal) para recibir los archivos de caché durante las operaciones de registro.</span><span class="sxs-lookup"><span data-stu-id="9ab33-149">You can define a universal naming convention (UNC) path to receive the cache files during logging operations.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-148"><strong>CacheFileNetworkFolder</strong></span><span class="sxs-lookup"><span data-stu-id="74493-148"><strong>CacheFileNetworkFolder</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-149">Puede definir una ruta de acceso UNC (convención de nomenclatura universal) para recibir los archivos de caché durante las operaciones de registro.</span><span class="sxs-lookup"><span data-stu-id="74493-149">You can define a universal naming convention (UNC) path to receive the cache files during logging operations.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="9ab33-150"><strong>CacheFileLocalRetentionPeriod</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-150"><strong>CacheFileLocalRetentionPeriod</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-151">Definido como el tiempo máximo, en días, que se pueden retener los archivos de caché.</span><span class="sxs-lookup"><span data-stu-id="9ab33-151">Defined as the maximum time, in days, that cache files are retained.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-150"><strong>CacheFileLocalRetentionPeriod</strong></span><span class="sxs-lookup"><span data-stu-id="74493-150"><strong>CacheFileLocalRetentionPeriod</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-151">Definido como el tiempo máximo, en días, que se pueden retener los archivos de caché.</span><span class="sxs-lookup"><span data-stu-id="74493-151">Defined as the maximum time, in days, that cache files are retained.</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="9ab33-152"><strong>CacheFileMaxDiskUsage</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-152"><strong>CacheFileMaxDiskUsage</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-153">Definido como el porcentaje de espacio en disco que pueden utilizar los archivos de caché.</span><span class="sxs-lookup"><span data-stu-id="9ab33-153">Defined as the percentage of disk space that can be used by the cache files.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-152"><strong>CacheFileMaxDiskUsage</strong></span><span class="sxs-lookup"><span data-stu-id="74493-152"><strong>CacheFileMaxDiskUsage</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-153">Definido como el porcentaje de espacio en disco que pueden utilizar los archivos de caché.</span><span class="sxs-lookup"><span data-stu-id="74493-153">Defined as the percentage of disk space that can be used by the cache files.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="9ab33-154"><strong>Puede componentthrottlelimit</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-154"><strong>ComponentThrottleLimit</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-155">Definido como la cantidad máxima de seguimientos por segundo que puede producir un componente antes de que se active el limitador de aceleración automático.</span><span class="sxs-lookup"><span data-stu-id="9ab33-155">Defined as the maximum number of traces per second that a component can produce before the automatic throttle limiter is triggered.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-154"><strong>Puede componentthrottlelimit</strong></span><span class="sxs-lookup"><span data-stu-id="74493-154"><strong>ComponentThrottleLimit</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-155">Definido como la cantidad máxima de seguimientos por segundo que puede producir un componente antes de que se active el limitador de aceleración automático.</span><span class="sxs-lookup"><span data-stu-id="74493-155">Defined as the maximum number of traces per second that a component can produce before the automatic throttle limiter is triggered.</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="9ab33-156"><strong>ComponentThrottleSample</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-156"><strong>ComponentThrottleSample</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-157">Cantidad de veces en 60 segundos que puede excederse el ComponentThrottleLimit.</span><span class="sxs-lookup"><span data-stu-id="9ab33-157">Number of times in 60 seconds that the ComponentThrottleLimit can be exceeded.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-156"><strong>ComponentThrottleSample</strong></span><span class="sxs-lookup"><span data-stu-id="74493-156"><strong>ComponentThrottleSample</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-157">Cantidad de veces en 60 segundos que puede excederse el ComponentThrottleLimit.</span><span class="sxs-lookup"><span data-stu-id="74493-157">Number of times in 60 seconds that the ComponentThrottleLimit can be exceeded.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="9ab33-158"><strong>MinimumClsAgentServiceVersion</strong></span><span class="sxs-lookup"><span data-stu-id="9ab33-158"><strong>MinimumClsAgentServiceVersion</strong></span></span></p></td>
-    <td><p><span data-ttu-id="9ab33-159">La versión mínima del CLSAgent que se permite ejecutar.</span><span class="sxs-lookup"><span data-stu-id="9ab33-159">The minimum version of the CLSAgent allowed to run.</span></span> <span data-ttu-id="9ab33-160">Este elemento está pensado para Office 365 o Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="9ab33-160">This element is intended for Office 365 or Microsoft 365.</span></span></p></td>
+    <td><p><span data-ttu-id="74493-158"><strong>MinimumClsAgentServiceVersion</strong></span><span class="sxs-lookup"><span data-stu-id="74493-158"><strong>MinimumClsAgentServiceVersion</strong></span></span></p></td>
+    <td><p><span data-ttu-id="74493-159">La versión mínima del CLSAgent que se permite ejecutar.</span><span class="sxs-lookup"><span data-stu-id="74493-159">The minimum version of the CLSAgent allowed to run.</span></span> <span data-ttu-id="74493-160">Este elemento está pensado para Office 365 o Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="74493-160">This element is intended for Office 365 or Microsoft 365.</span></span></p></td>
     </tr>
     </tbody>
     </table>
@@ -147,16 +149,16 @@ ms.locfileid: "44221200"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9ab33-161">Consulta también</span><span class="sxs-lookup"><span data-stu-id="9ab33-161">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="74493-161">Consulte también</span><span class="sxs-lookup"><span data-stu-id="74493-161">See Also</span></span>
 
 
-[<span data-ttu-id="9ab33-162">Información general sobre el servicio de registro centralizado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ab33-162">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[<span data-ttu-id="74493-162">Información general sobre el servicio de registro centralizado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74493-162">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-<span data-ttu-id="9ab33-163">[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ab33-163">[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))</span></span>  
-<span data-ttu-id="9ab33-164">[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ab33-164">[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))</span></span>  
-<span data-ttu-id="9ab33-165">[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ab33-165">[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))</span></span>  
-<span data-ttu-id="9ab33-166">[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ab33-166">[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))</span></span>  
+<span data-ttu-id="74493-163">[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="74493-163">[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))</span></span>  
+<span data-ttu-id="74493-164">[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="74493-164">[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))</span></span>  
+<span data-ttu-id="74493-165">[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="74493-165">[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))</span></span>  
+<span data-ttu-id="74493-166">[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="74493-166">[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))</span></span>  
   
 
 </div>
