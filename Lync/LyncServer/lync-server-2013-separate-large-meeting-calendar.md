@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: calendarios de reuniones grandes independientes'
+description: 'Lync Server 2013: independiente calendario de reuniones grandes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d06e12baf9529ea1d3a417fc04a839693ca346d4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 63da7e6dfb134472880ec52dd6b2fb759d8f736b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510417"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549906"
 ---
-# <a name="separate-large-meeting-calendar-in-lync-server-2013"></a><span data-ttu-id="7cdb3-102">Calendario de reuniones grandes independiente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7cdb3-102">Separate large-meeting calendar in Lync Server 2013</span></span>
+# <a name="separate-large-meeting-calendar-in-lync-server-2013"></a><span data-ttu-id="2baa2-103">Calendario de reuniones grandes independiente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2baa2-103">Separate large-meeting calendar in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48510417"
 
 <span> </span>
 
-<span data-ttu-id="7cdb3-103">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="7cdb3-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="2baa2-104">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="2baa2-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="7cdb3-104">Para cada grupo de reunión grande, debe mantener un calendario independiente de grandes reuniones programadas en ese grupo.</span><span class="sxs-lookup"><span data-stu-id="7cdb3-104">For each large-meeting pool, you should maintain a separate a calendar of large meetings scheduled on that pool.</span></span> <span data-ttu-id="7cdb3-105">Por ejemplo, puede hospedar una sola cuenta de usuario en el grupo de grandes reuniones y usar Outlook con Exchange y el complemento de reunión en línea para Lync 2013 para mantener un calendario independiente.</span><span class="sxs-lookup"><span data-stu-id="7cdb3-105">For example, you can home a single user account on the large-meeting pool and use Outlook with Exchange and Online Meeting Add-in for Lync 2013 to maintain a separate calendar.</span></span> <span data-ttu-id="7cdb3-106">Si usa varias cuentas de usuario para habilitar personal de ayuda para crear grandes reuniones, puede configurar un calendario independiente que agrupe todas las reuniones grandes creadas por los miembros del personal de ayuda.</span><span class="sxs-lookup"><span data-stu-id="7cdb3-106">If you use multiple user accounts to enable a support staff to create large meetings, you can set up a separate calendar that aggregates all large meetings created by the members of the support staff.</span></span>
+<span data-ttu-id="2baa2-105">Para cada grupo de reunión grande, debe mantener un calendario independiente de grandes reuniones programadas en ese grupo.</span><span class="sxs-lookup"><span data-stu-id="2baa2-105">For each large-meeting pool, you should maintain a separate a calendar of large meetings scheduled on that pool.</span></span> <span data-ttu-id="2baa2-106">Por ejemplo, puede hospedar una sola cuenta de usuario en el grupo de grandes reuniones y usar Outlook con Exchange y el complemento de reunión en línea para Lync 2013 para mantener un calendario independiente.</span><span class="sxs-lookup"><span data-stu-id="2baa2-106">For example, you can home a single user account on the large-meeting pool and use Outlook with Exchange and Online Meeting Add-in for Lync 2013 to maintain a separate calendar.</span></span> <span data-ttu-id="2baa2-107">Si usa varias cuentas de usuario para habilitar personal de ayuda para crear grandes reuniones, puede configurar un calendario independiente que agrupe todas las reuniones grandes creadas por los miembros del personal de ayuda.</span><span class="sxs-lookup"><span data-stu-id="2baa2-107">If you use multiple user accounts to enable a support staff to create large meetings, you can set up a separate calendar that aggregates all large meetings created by the members of the support staff.</span></span>
 
-<span data-ttu-id="7cdb3-107">Mantener un calendario de reuniones independiente ayuda a evitar conflictos y garantizar que solo una reunión grande está activa en un determinado momento.</span><span class="sxs-lookup"><span data-stu-id="7cdb3-107">Maintaining a separate large meeting calendar helps to prevent conflicts and ensure that only one large meeting is active at any time.</span></span>
+<span data-ttu-id="2baa2-108">Mantener un calendario de reuniones independiente ayuda a evitar conflictos y garantizar que solo una reunión grande está activa en un determinado momento.</span><span class="sxs-lookup"><span data-stu-id="2baa2-108">Maintaining a separate large meeting calendar helps to prevent conflicts and ensure that only one large meeting is active at any time.</span></span>
 
 </div>
 

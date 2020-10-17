@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: crear grupos de agentes de grupos de respuesta'
+description: 'Lync Server 2013: crear grupos de agentes de grupos de respuesta.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b3df5b191abea7aea75c2ad55afa586479d6e89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a9420ee5f6fbd4b995c8542b848ef30f53e46fc4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514707"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548696"
 ---
-# <a name="create-response-group-agent-groups-lync-server-2013"></a><span data-ttu-id="ab44b-102">Crear grupos de agentes de grupo de respuesta Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ab44b-102">Create Response Group agent groups Lync Server 2013</span></span>
+# <a name="create-response-group-agent-groups-lync-server-2013"></a><span data-ttu-id="268f1-103">Crear grupos de agentes de grupo de respuesta Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="268f1-103">Create Response Group agent groups Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48514707"
 
 <span> </span>
 
-<span data-ttu-id="ab44b-103">_**Última modificación del tema:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="ab44b-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="268f1-104">_**Última modificación del tema:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="268f1-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="ab44b-104">Cuando se crea un grupo de agentes, se seleccionan los agentes que se asignan al grupo y se especifica la configuración de grupo adicional, como el método de enrutamiento y si un agente puede iniciar y cerrar sesión en el grupo.</span><span class="sxs-lookup"><span data-stu-id="ab44b-104">When you create an agent group, you select the agents that are assigned to the group and specify additional group settings, such as the routing method and whether an agent can sign in to and out of the group.</span></span>
+<span data-ttu-id="268f1-105">Cuando se crea un grupo de agentes, se seleccionan los agentes que se asignan al grupo y se especifica la configuración de grupo adicional, como el método de enrutamiento y si un agente puede iniciar y cerrar sesión en el grupo.</span><span class="sxs-lookup"><span data-stu-id="268f1-105">When you create an agent group, you select the agents that are assigned to the group and specify additional group settings, such as the routing method and whether an agent can sign in to and out of the group.</span></span>
 
-<span data-ttu-id="ab44b-105">Un agente que debe iniciar y cerrar sesión en el grupo, que es distinto de iniciar o cerrar sesión en Lync Server, se denomina *agente formal*.</span><span class="sxs-lookup"><span data-stu-id="ab44b-105">An agent who must sign in and out of the group, which is different from signing in or out of Lync Server, is called a *formal agent*.</span></span> <span data-ttu-id="ab44b-106">Los agentes formales deben iniciar sesión en el grupo para poder recibir llamadas enrutadas al grupo.</span><span class="sxs-lookup"><span data-stu-id="ab44b-106">Formal agents must be signed in to the group before they can receive calls routed to the group.</span></span> <span data-ttu-id="ab44b-107">Esto puede resultar útil para los agentes que atienden llamadas del grupo a media jornada.</span><span class="sxs-lookup"><span data-stu-id="ab44b-107">This can be useful for agents who answer calls from the group on a part-time basis.</span></span> <span data-ttu-id="ab44b-108">Los agentes formales iniciar y cerrar sesión en sus grupos haciendo clic en un elemento de menú en Lync 2013 para abrir el explorador de Internet Internet Explorer y mostrar una consola de página web.</span><span class="sxs-lookup"><span data-stu-id="ab44b-108">Formal agents sign in and out of their groups by clicking a menu item in Lync 2013 to open the Windows Internet Explorer Internet browser and display a webpage console.</span></span>
+<span data-ttu-id="268f1-106">Un agente que debe iniciar y cerrar sesión en el grupo, que es distinto de iniciar o cerrar sesión en Lync Server, se denomina *agente formal*.</span><span class="sxs-lookup"><span data-stu-id="268f1-106">An agent who must sign in and out of the group, which is different from signing in or out of Lync Server, is called a *formal agent*.</span></span> <span data-ttu-id="268f1-107">Los agentes formales deben iniciar sesión en el grupo para poder recibir llamadas enrutadas al grupo.</span><span class="sxs-lookup"><span data-stu-id="268f1-107">Formal agents must be signed in to the group before they can receive calls routed to the group.</span></span> <span data-ttu-id="268f1-108">Esto puede resultar útil para los agentes que atienden llamadas del grupo a media jornada.</span><span class="sxs-lookup"><span data-stu-id="268f1-108">This can be useful for agents who answer calls from the group on a part-time basis.</span></span> <span data-ttu-id="268f1-109">Los agentes formales iniciar y cerrar sesión en sus grupos haciendo clic en un elemento de menú en Lync 2013 para abrir el explorador de Internet Internet Explorer y mostrar una consola de página web.</span><span class="sxs-lookup"><span data-stu-id="268f1-109">Formal agents sign in and out of their groups by clicking a menu item in Lync 2013 to open the Windows Internet Explorer Internet browser and display a webpage console.</span></span>
 
-<span data-ttu-id="ab44b-109">Un agente que no inicia ni cierra sesión en el grupo recibe el nombre de *agente informal*.</span><span class="sxs-lookup"><span data-stu-id="ab44b-109">An agent who does not sign in or out of the group is called an *informal agent*.</span></span> <span data-ttu-id="ab44b-110">Los agentes informales inician sesión automáticamente en el grupo cuando inician sesión en Lync Server y no pueden cerrar sesión en el grupo.</span><span class="sxs-lookup"><span data-stu-id="ab44b-110">Informal agents are automatically signed in to the group when they sign in to Lync Server, and they cannot sign out of the group.</span></span>
+<span data-ttu-id="268f1-110">Un agente que no inicia ni cierra sesión en el grupo recibe el nombre de *agente informal*.</span><span class="sxs-lookup"><span data-stu-id="268f1-110">An agent who does not sign in or out of the group is called an *informal agent*.</span></span> <span data-ttu-id="268f1-111">Los agentes informales inician sesión automáticamente en el grupo cuando inician sesión en Lync Server y no pueden cerrar sesión en el grupo.</span><span class="sxs-lookup"><span data-stu-id="268f1-111">Informal agents are automatically signed in to the group when they sign in to Lync Server, and they cannot sign out of the group.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="ab44b-p103">Solo los usuarios locales pueden ser agentes. Si un agente deja de ser local para estar en línea, las llamadas al grupo de respuesta no se enrutarán a dicho agente.</span><span class="sxs-lookup"><span data-stu-id="ab44b-p103">Only on-premises users can be agents. If an agent is moved from on-premises to online, Response Group calls will not be routed to that agent.</span></span>
+> <span data-ttu-id="268f1-p103">Solo los usuarios locales pueden ser agentes. Si un agente deja de ser local para estar en línea, las llamadas al grupo de respuesta no se enrutarán a dicho agente.</span><span class="sxs-lookup"><span data-stu-id="268f1-p103">Only on-premises users can be agents. If an agent is moved from on-premises to online, Response Group calls will not be routed to that agent.</span></span>
 
 
 
@@ -57,9 +58,9 @@ ms.locfileid: "48514707"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ab44b-113">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ab44b-113">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="268f1-114">En esta sección</span><span class="sxs-lookup"><span data-stu-id="268f1-114">In This Section</span></span>
 
-[<span data-ttu-id="ab44b-114">Crear o modificar un grupo de agentes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ab44b-114">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)
+[<span data-ttu-id="268f1-115">Crear o modificar un grupo de agentes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="268f1-115">Create or modify an agent group in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-agent-group.md)
 
 </div>
 
