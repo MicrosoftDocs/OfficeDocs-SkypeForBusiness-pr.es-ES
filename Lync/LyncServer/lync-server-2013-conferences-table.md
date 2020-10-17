@@ -12,20 +12,22 @@ ms:contentKeyID: 48185340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3dbaf1a721433cc04aa681dad56d753de8bc9a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef5e8811ad4b0adaccd8964e2f0bca718ca531e2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190253"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529267"
 ---
+# <a name="conferences-table-in-lync-server-2013"></a>Tabla conferencias en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferences-table-in-lync-server-2013"></a>Tabla conferencias en Lync Server 2013
+
 
 </div>
 
@@ -64,13 +66,13 @@ Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número de identificador para identificar la sesión. Se usa junto con <strong>SessionIdTime</strong> para identificar de forma única una instancia de conferencia. *</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>URI de conferencia. Consulte la <a href="lync-server-2013-conferenceuris-table.md">tabla ConferenceUris en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -94,7 +96,7 @@ Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
 </tr>
 <tr class="odd">
 <td><p><strong>PoolId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Número de identificador para identificar el grupo de servidores en el que se capturó la Conferencia. Consulte la <a href="lync-server-2013-pools-table.md">tabla grupos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -126,7 +128,7 @@ Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
 </table>
 
 
-\*Para la mayoría de las sesiones, SessionIdSeq tendrá el valor de 1. Si dos sesiones comienzan exactamente al mismo tiempo, el SessionIdSeq para uno será 1, y el otro será 2, y así sucesivamente.
+\* Para la mayoría de las sesiones, SessionIdSeq tendrá el valor de 1. Si dos sesiones comienzan exactamente al mismo tiempo, el SessionIdSeq para uno será 1, y el otro será 2, y así sucesivamente.
 
 </div>
 

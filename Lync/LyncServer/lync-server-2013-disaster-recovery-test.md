@@ -12,20 +12,22 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0b274d933fbb1c9f47b219a492403bd1c5f58d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2d36ec6ad1afb8c41c7c5f614e90e03ce4d9282
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197503"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528957"
 ---
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Prueba de recuperación ante desastres en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disaster-recovery-test-in-lync-server-2013"></a>Prueba de recuperación ante desastres en Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Estos datos se pueden restaurar a través de los dos procesos siguientes:
 
   - RTC Database puede restaurarse a partir del dispositivo de volcado de copia de seguridad original desde el SQL Server de producción mediante el proceso de restauración estándar de SQL Server o mediante una utilidad de copia de seguridad y restauración de terceros.
 
-  - Los datos de contacto de los usuarios se pueden restaurar con la utilidad DBIMPEXP. exe mediante el archivo XML que se creó a partir de la exportación de SQL Server de producción.
+  - Los datos de contacto de los usuarios se pueden restaurar con la utilidad de DBIMPEXP.exe mediante el archivo XML que se creó a partir de la exportación de SQL Server de producción.
 
 Una vez que se han restaurado estos datos, los usuarios pueden conectarse de forma eficaz al grupo de recuperación ante desastres de Lync Server 2013 y funcionar como de costumbre.
 
@@ -82,21 +84,21 @@ Para permitir que los usuarios se conecten al grupo de recuperación ante desast
 
 Los clientes harán referencia al grupo de producción Lync Server 2013 mediante la configuración automática y los registros SRV de DNS de:
 
-  - SRV: \_SIP. \_TLS. \</CNAME\> de dominio: SIP. \<dominio\>
+  - SRV: \_ SIP. \_ MTLS.\<domain\> /CNAME: SIP.\<domain\>
 
-  - CNAME: SIP. \<dominio\> /CVC-Pool-1. \<dominio\>
+  - CNAME: SIP.\<domain\> /cvc-pool-1.\<domain\>
 
 Para facilitar la conmutación por error, este registro CNAME debe actualizarse para que haga referencia al FQDN DROCSPool:
 
-  - CNAME: SIP. \<dominio\> /DROCSPool. \<dominio\>
+  - CNAME: SIP.\<domain\> /DROCSPool.\<domain\>
 
-  - SIP. \<dominio\>
+  - SIP.\<domain\>
 
-  - AV.\<dominio\>
+  - Va.\<domain\>
 
-  - WebConf. \<dominio\>
+  - WebConf.\<domain\>
 
-  - OCSServices. \<dominio\>
+  - OCSServices.\<domain\>
 
 <div>
 
@@ -112,7 +114,7 @@ Para facilitar la conmutación por error, este registro CNAME debe actualizarse 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1e8203d7ca76ed6bb6e9caab33d633af97c21ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 646f4ae59ce5058af84c0e5ddd3197f7a9f47fe7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197553"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528997"
 ---
+# <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Deshabilitar o volver a habilitar la cuenta de usuario para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Deshabilitar o volver a habilitar la cuenta de usuario para Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario ha
 
 ## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Uso de Windows PowerShell para deshabilitar o volver a habilitar cuentas de usuario
 
-Las cuentas de usuario se pueden deshabilitar temporalmente y, más adelante, volver a habilitarlas mediante el cmdlet **set-CsUser** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Las cuentas de usuario se pueden deshabilitar temporalmente y, más adelante, volver a habilitarlas mediante el cmdlet **set-CsUser** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -103,7 +105,7 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsUser
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Agregar y habilitar la cuenta de usuario para Lync Server 2013](lync-server-2013-add-and-enable-user-account-for-lync-server.md)  

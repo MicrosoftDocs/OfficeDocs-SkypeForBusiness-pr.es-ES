@@ -12,20 +12,22 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8c1acad5682e5c74c825f32de3fa6a37105234a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e7a2d73f09a3cb48b1d50f06aa530c91d779b28
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204456"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529557"
 ---
+# <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a>Tabla AppSharingMetricsThreshold en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a>Tabla AppSharingMetricsThreshold en Lync Server 2013
+
 
 </div>
 
@@ -60,19 +62,19 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 <tbody>
 <tr class="odd">
 <td><p><strong>CallType</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Tipo de llamada realizada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthLimitOptimal</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Limitación del ancho de banda óptima para el uso compartido de aplicaciones. El valor predeterminado es 1000000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AppliedBandwidthLimitAcceptable</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Limitación del ancho de banda aceptable para el uso compartido de aplicaciones. El valor predeterminado es 500000.</p></td>
 </tr>
@@ -90,13 +92,13 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalOptimal</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Esta columna no se usa en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>JitterInterArrivalAcceptable</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Esta columna no se usa en Microsoft Lync Server 2013.</p></td>
 </tr>

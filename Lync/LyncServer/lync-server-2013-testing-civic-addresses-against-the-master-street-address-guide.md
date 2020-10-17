@@ -12,20 +12,22 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe41a6bd898c6f23bc746f5922c98113339a5ee7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d03647df3752860c114a16967a3bea5271a89d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527817"
 ---
+# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Comprobación de direcciones cívicas con la guía de dirección de Master Street en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Comprobación de direcciones cívicas con la guía de dirección de Master Street en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsRegistration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsRegistration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisCivicAddress &quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsLisCivicAddress se usa para comprobar las ubicaciones que se agregaron a la base de datos del servicio de información de ubicaciones (LIS). El cmdlet de funciona comparando las ubicaciones con las ubicaciones que se encuentran en la guía de direcciones maestras (MSAG) que pertenece a su proveedor de enrutamiento de red E9-1-1. Si no tiene un proveedor de enrutamiento de red o si no se puede obtener acceso al proveedor, se producirá un error en las pruebas.
+El cmdlet Test-CsLisCivicAddress se usa para comprobar las ubicaciones que se agregaron a la base de datos del servicio de información de ubicaciones (LIS). El cmdlet de funciona comparando las ubicaciones con las ubicaciones que se encuentran en la guía de direcciones maestras (MSAG) que pertenece a su proveedor de enrutamiento de red E9-1-1. Si no tiene un proveedor de enrutamiento de red o si no se puede obtener acceso al proveedor, se producirá un error en las pruebas.
 
 Si agrega el parámetro switch opcional UpdateValidationStatus a su comando, la propiedad de base de datos MSAGValid correspondiente se establecerá en true para cada dirección que pase la prueba.
 
@@ -76,7 +78,7 @@ Si agrega el parámetro switch opcional UpdateValidationStatus a su comando, la 
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsLisCivicAddress se puede usar para probar direcciones individuales o para probar varias direcciones. Por ejemplo, este comando comprueba una única dirección que se encuentra en Redmond, WA:
+El cmdlet Test-CsLisCivicAddress se puede usar para probar direcciones individuales o para probar varias direcciones. Por ejemplo, este comando comprueba una única dirección que se encuentra en Redmond, WA:
 
     Test-CsLisCivicAddress -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName Main -StreetSuffix St -PostDirectional "" -City Redmond -State WA -PostalCode 98052 -Country US -UpdateValidationStatus
 
@@ -92,7 +94,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 ## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Test-CsLisCivicAddress informará de que se ha realizado correctamente o no un error en las direcciones suministradas. Se producirá un error en una prueba de dirección si no se encuentra la dirección o si no se puede establecer contacto con el proveedor de servicios.
+Test-CsLisCivicAddress notificará la operación correcta o incorrecta para las direcciones suministradas. Se producirá un error en una prueba de dirección si no se encuentra la dirección o si no se puede establecer contacto con el proveedor de servicios.
 
 </div>
 
@@ -100,7 +102,7 @@ Test-CsLisCivicAddress informará de que se ha realizado correctamente o no un e
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsLisCivicAddress podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsLisCivicAddress podría producir un error:
 
   - Es posible que el proveedor de servicios LIS no esté disponible. Para recuperar la dirección URL de su proveedor de servicios de LIS, ejecute el cmdlet Get-CsLisConfiguration:
     

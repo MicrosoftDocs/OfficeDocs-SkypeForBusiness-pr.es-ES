@@ -12,20 +12,22 @@ ms:contentKeyID: 48185748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ede940e1126660aaae89fe6552f050632f841b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1dae7088982fd3f28ead762c6f50ed4543a5cdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528197"
 ---
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Administración de objetos de contacto de Exchange hospedado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Administración de objetos de contacto de Exchange hospedado en Lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ El ejemplo siguiente crea un objeto de contacto de operador automático.
 
 Este ejemplo crea un objeto de contacto de mensajería unificada de Exchange con la dirección SIP sip:exumaa1@fabrikam.com. El nombre del grupo de servidores en el que se ejecuta el servicio de registro 2013 de Lync Server es RedmondPool.litwareinc.com. La unidad organizativa de Active Directory donde se guardará esta información es OU=ExUmContacts,DC=litwareinc,DC=com. El número de teléfono del objeto de contacto es 2065554567. El parámetro opcional -AutoAttendant $True especifica que se trata de un objeto de contacto de operador automático. Si el parámetro -AutoAttendant se establece en False (valor predeterminado), se especifica un objeto de contacto con acceso de suscriptor.
 
-Para obtener más información sobre los cmdlets New-CsExUmContact y set-CsExUmContact, consulte la documentación del shell de administración de Lync Server.
+Para obtener más información sobre los cmdlets New-CsExUmContact y Set-CsExUmContact, consulte la documentación del shell de administración de Lync Server.
 
 </div>
 

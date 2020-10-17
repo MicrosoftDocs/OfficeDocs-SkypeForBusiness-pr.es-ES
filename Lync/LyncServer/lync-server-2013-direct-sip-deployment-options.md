@@ -12,20 +12,22 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e521e1665361e15fffdf1e058731d04bc2eb9aa4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197613"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529117"
 ---
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opciones de implementación SIP directa en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opciones de implementación SIP directa en Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ En este tema se proporcionan ejemplos de topologías para implementar conexiones
 
 <div>
 
-## <a name="lync-server-stand-alone"></a>Lync Server independiente
+## <a name="lync-server-stand-alone"></a>Lync Server Stand-Alone
 
 Si su organización usa una de las implementaciones descritas en esta sección, puede usar Lync Server 2013 como solución de telefonía única para una parte o la totalidad de una organización. En esta sección se describen las siguientes implementaciones en detalle:
 
@@ -71,7 +73,7 @@ En la siguiente figura se muestra la topología genérica para la implementació
 
 
 > [!NOTE]  
-> Si va a conectar su implementación de Lync Server a un socio de SIP directo certificado, no se requiere una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX. Para obtener una lista de asociados de SIP directos certificados, consulte el sitio web del programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft en <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>.
+> Si va a conectar su implementación de Lync Server a un socio de SIP directo certificado, no se requiere una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX. Para obtener una lista de asociados de SIP directos certificados, consulte el sitio web del programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft en <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A> .
 
 
 
@@ -141,9 +143,9 @@ Cuando se implementa la telefonía IP empresarial delante de la PBX, todas las l
 
 <div>
 
-## <a name="lync-server-voip-only-deployment"></a>Implementación de solo VoIP de Lync Server
+## <a name="lync-server-voip-only-deployment"></a>Implementación de VoIP-Only de Lync Server
 
-La telefonía IP empresarial proporciona nuevas empresas y también nuevos sitios de Office para las empresas existentes, con la oportunidad de implementar una solución VoIP completa sin tener que preocuparse de la integración de PBX o incurrir en la implementación y el mantenimiento importantes. costos de una infraestructura de IP-PBX. Esta solución admite tanto a los trabajadores en el sitio como a los remotos.
+La telefonía IP empresarial proporciona nuevas empresas, así como nuevos sitios de Office para las empresas existentes, con la oportunidad de implementar una solución VoIP completa sin tener que preocuparse de la integración de PBX o incurrir en los costos sustanciales de implementación y mantenimiento de una infraestructura IP-PBX. Esta solución admite tanto a los trabajadores en el sitio como a los remotos.
 
 En esta implementación, todas las llamadas se enrutan a través de la red IP. Las llamadas a la RTC se enrutan a la puerta de enlace RTC correspondiente. Lync 2013 o Lync Phone Edition sirve como softphone. El control remoto de llamadas no está disponible y no es necesario porque no hay teléfonos PBX para que los usuarios los controlen. Los servicios de correo de voz y de operador automático están disponibles a través de la implementación opcional de mensajería unificada (UM) de Exchange.
 

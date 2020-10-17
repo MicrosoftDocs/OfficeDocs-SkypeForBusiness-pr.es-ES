@@ -12,20 +12,22 @@ ms:contentKeyID: 49733545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff0c4b685c607850921be6b15b2611e427e5e226
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aad1ac0197c4f7755b334624e46f7cec096897f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196843"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528827"
 ---
+# <a name="edge-server-disaster-recovery-in-lync-server-2013"></a>Recuperación ante desastres del servidor perimetral en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-disaster-recovery-in-lync-server-2013"></a>Recuperación ante desastres del servidor perimetral en Lync Server 2013
+
 
 </div>
 

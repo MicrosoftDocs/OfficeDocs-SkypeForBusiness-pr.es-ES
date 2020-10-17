@@ -12,20 +12,22 @@ ms:contentKeyID: 48184814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3046cc7daf0dd1fbaba16ffff4e8f41ee6d2e757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9345cdf2665a5a02d04a372606b95111d870a727
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197203"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528787"
 ---
+# <a name="enable-call-park-for-users-in-lync-server-2013"></a>Habilitar el estacionamiento de llamadas para los usuarios en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-call-park-for-users-in-lync-server-2013"></a>Habilitar el estacionamiento de llamadas para los usuarios en Lync Server 2013
+
 
 </div>
 
@@ -91,7 +93,7 @@ Puede habilitar el estacionamiento de llamadas en el ámbito global o en el ámb
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear una directiva de voz y configurar los registros de uso de RTC en Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  

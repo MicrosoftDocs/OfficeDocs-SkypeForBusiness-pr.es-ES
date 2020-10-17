@@ -12,20 +12,22 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfb985d8c1432e238a813646d9f3cc5b55902a85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5768378532722556fd824b0a2fdd257666e41a99
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197323"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528777"
 ---
+# <a name="emergency-procedures-in-lync-server-2013"></a>Procedimientos de emergencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="emergency-procedures-in-lync-server-2013"></a>Procedimientos de emergencia en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Le recomendamos que implemente procedimientos de cambio de emergencia. Por ejemp
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939)  

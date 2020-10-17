@@ -12,20 +12,22 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e991f6240d9c21815299a3ef169c5824cf5ef3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57d8e3cb0a79c8ce6a6c1c51891fbad265f045de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529207"
 ---
+# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Tabla ConferenceSessionDetails en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Tabla ConferenceSessionDetails en Lync Server 2013
+
 
 </div>
 
@@ -64,13 +66,13 @@ Cada registro representa una sesión de conferencia, que podría ser la sesión 
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Principal, externa</p></td>
+<td><p>entero</p></td>
+<td><p>Principal, Exterior</p></td>
 <td><p>Número del identificador para identificar la sesión. Se usa junto con <strong>SessionIdTime</strong> para identificar de forma única una sesión de conferencia. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información. *</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>URI de conferencia basada en Foco relacionada con esta sesión. Consulte la <a href="lync-server-2013-conferenceuris-table.md">tabla ConferenceUris en Lync Server 2013</a> para obtener más información. Esta URI es una URI de conferencia basada en Foco.</p></td>
 </tr>
@@ -83,13 +85,13 @@ Cada registro representa una sesión de conferencia, que podría ser la sesión 
 </tr>
 <tr class="odd">
 <td><p><strong>McuConferenceUriId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>URI de conferencia para servidor de conferencia relacionada con esta sesión. Consulte la <a href="lync-server-2013-conferenceuris-table.md">tabla ConferenceUris en Lync Server 2013</a> para obtener más información. Esta URI es la URI de conferencia basada en servidor de conferencia. En las sesiones de conferencia basadas en Foco, esta columna será nula.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>IDENTIFICADOR de un usuario en la sesión de conferencia. Consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -101,25 +103,25 @@ Cada registro representa una sesión de conferencia, que podría ser la sesión 
 </tr>
 <tr class="even">
 <td><p><strong>OnBehalfOfId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Señala el identificador de usuario en cuyo nombre llama el autor de la llamada. Consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReferredById</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Identificador del usuario por el que se hace referencia a la sesión. Consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientVersionId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Versión del cliente utilizada por el usuario de conferencia. Consulte la <a href="lync-server-2013-clientversions-table.md">tabla ClientVersions en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConfClientVersionId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Versión del cliente utilizada por el usuario de servidor. Consulte la <a href="lync-server-2013-clientversions-table.md">tabla ClientVersions en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -131,7 +133,7 @@ Cada registro representa una sesión de conferencia, que podría ser la sesión 
 </tr>
 <tr class="odd">
 <td><p><strong>ReplaceDialogIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Número con el que se identifica la sesión. Se usa junto con <strong>ReplacesDialogIdTime</strong> para identificar de manera exclusiva una sesión que se reemplazó por esta sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -155,49 +157,49 @@ Cada registro representa una sesión de conferencia, que podría ser la sesión 
 </tr>
 <tr class="odd">
 <td><p><strong>ResponseCode</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Código de respuesta de protocolo de inicio de sesión (SIP) a la invitación de sesión. Este campo suele rellenarse con datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje INVITE, el campo se rellena con la hora y la fecha del primer mensaje SIP correspondiente (BYE, CANCEL, MESSAGE o INFO).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DiagnosticId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Identificador de diagnóstico capturado del encabezado SIP.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ServerId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Identificador del servidor front-end usado en esta sesión. Consulte la <a href="lync-server-2013-servers-table.md">tabla servidores en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Identificador del grupo en el que se capturó la sesión. Consulte la <a href="lync-server-2013-pools-table.md">tabla grupos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediationServerId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>El servidor de mediación que está utilizando la llamada. Consulte la <a href="lync-server-2013-mediationservers-table.md">tabla MediationServers en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>GatewayId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>La puerta de enlace que está utilizando la llamada. Consulte la <a href="lync-server-2013-gateways-table.md">tabla puertas de enlace en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EdgeServerId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>El servidor perimetral que está utilizando la llamada. Consulte la <a href="lync-server-2013-edgeservers-table.md">tabla EdgeServers en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentTypeId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Tipo de contenido empleado en la sesión. Consulte la <a href="lync-server-2013-contenttypes-table.md">tabla contentTypes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -248,7 +250,7 @@ Cada registro representa una sesión de conferencia, que podría ser la sesión 
 </table>
 
 
-\*Para la mayoría de las sesiones, SessionIdSeq tendrá el valor de 1. Si hay varias sesiones que comienzan exactamente a la misma hora, el valor de SessionIdSeq para una será 1, para otra, 2 y así sucesivamente.
+\* Para la mayoría de las sesiones, SessionIdSeq tendrá el valor de 1. Si hay varias sesiones que comienzan exactamente a la misma hora, el valor de SessionIdSeq para una será 1, para otra, 2 y así sucesivamente.
 
 </div>
 

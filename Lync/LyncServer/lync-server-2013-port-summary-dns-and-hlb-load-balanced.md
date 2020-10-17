@@ -12,20 +12,22 @@ ms:contentKeyID: 48185149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e6175f83e1cea20e21ed25c372849c0e6b80b49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6ba03a73538426b9c820388f65e728c36881148
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527947"
 ---
+# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Resumen de Puerto-carga equilibrada DNS y HLB en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Resumen de Puerto-carga equilibrada DNS y HLB en Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Los requisitos de puerto de Firewall para un solo Director constan de los puerto
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Grupo de servidores front-end o servidor front-end</p></td>
 <td><p>Comunicación entre servidores entre el director HLB VIP y el servidor front-end o el servidor front-end.</p></td>
 </tr>
@@ -90,26 +92,26 @@ Los requisitos de puerto de Firewall para un solo Director constan de los puerto
 <tr class="even">
 <td><p>SIP/MTLS/TCP 5061</p></td>
 <td><p>Interfaz interna del servidor perimetral</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Comunicación SIP del servidor perimetral al Director, así como los servidores front-end.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Dirección</p></td>
-<td><p>Controlador del servicio de registro centralizado (ClsController. exe) o comandos del agente (ClsAgent. exe) y colección de registros</p></td>
+<td><p>Director</p></td>
+<td><p>Controlador del servicio de registro centralizado (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registros</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Dirección</p></td>
-<td><p>Controlador del servicio de registro centralizado (ClsController. exe) o comandos del agente (ClsAgent. exe) y colección de registros</p></td>
+<td><p>Director</p></td>
+<td><p>Controlador del servicio de registro centralizado (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registros</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Dirección</p></td>
-<td><p>Controlador del servicio de registro centralizado (ClsController. exe) o comandos del agente (ClsAgent. exe) y colección de registros</p></td>
+<td><p>Director</p></td>
+<td><p>Controlador del servicio de registro centralizado (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registros</p></td>
 </tr>
 </tbody>
 </table>

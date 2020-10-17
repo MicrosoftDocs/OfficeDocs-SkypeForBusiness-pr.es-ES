@@ -12,20 +12,22 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 262e31ac6049920ca4e327f50dccaae18d69a2f5
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: d0da9f9913804bb10b9bf5fd1e4c4e8ad467e7d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528397"
 ---
+# <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a>Compatibilidad con la integración de Exchange y SharePoint en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a>Compatibilidad con la integración de Exchange y SharePoint en Lync Server 2013
+
 
 </div>
 

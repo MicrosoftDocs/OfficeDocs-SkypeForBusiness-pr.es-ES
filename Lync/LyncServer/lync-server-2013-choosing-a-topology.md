@@ -12,20 +12,22 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4f128c827845ac06a736b849e6fa3242e319decb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221744"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529387"
 ---
+# <a name="choosing-a-topology-in-lync-server-2013"></a>Elección de una topología en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="choosing-a-topology-in-lync-server-2013"></a>Elección de una topología en Lync Server 2013
+
 
 </div>
 
@@ -172,12 +174,12 @@ El uso de NAT para todas las interfaces externas perimetrales requiere el uso de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
 <td><p>6 </p></td>
 <td><p>3 (1 por VIP) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>9 </p></td>
 <td><p>3 (1 por VIP) + 9</p></td>
 </tr>
@@ -212,13 +214,13 @@ El uso de NAT para todas las interfaces externas perimetrales requiere el uso de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>2 </p></td>
+<td><p>segundo</p></td>
+<td><p>segundo</p></td>
 <td><p>1 (1 por VIP) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
 <td><p>1 (1 por VIP) + 3</p></td>
 </tr>
 <tr class="odd">

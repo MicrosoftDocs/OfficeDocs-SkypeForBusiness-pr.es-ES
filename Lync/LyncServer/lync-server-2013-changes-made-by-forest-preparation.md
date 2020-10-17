@@ -12,20 +12,22 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6954e8a4cd76e103516fd1f2323ef04d820dc056
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b0429eabd9a02a08918e5590043bbad9faca83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529477"
 ---
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Cambios realizados por la preparación del bosque en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Cambios realizados por la preparación del bosque en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ En esta sección se describe la configuración global y los objetos, así como e
 
 ## <a name="active-directory-global-settings-and-objects"></a>Configuración global y objetos de Active Directory
 
-Si almacena la configuración global en el contenedor de configuración (como ocurre con todas las implementaciones nuevas de Lync Server 2013), la preparación del bosque utiliza el contenedor de servicios existente y agrega un objeto de\\ **servicio RTC** en el objeto de servicios de configuración. Al preparar el bosque, se agrega un objeto de **Global Settings** de tipo msRTCSIP-GlobalContainer dentro del objeto RTC Service. El objeto global Settings contiene toda la configuración que se aplica a la implementación de Lync Server. Si almacena la configuración global en el contenedor del sistema, la preparación del bosque utiliza un contenedor de Microsoft en el contenedor del sistema del dominio raíz y un\\objeto de servicio RTC en el objeto del sistema de Microsoft.
+Si almacena la configuración global en el contenedor de configuración (como ocurre con todas las implementaciones nuevas de Lync Server 2013), la preparación del bosque utiliza el contenedor de servicios existente y agrega un objeto de **servicio RTC** en el objeto de servicios de configuración \\ . Al preparar el bosque, se agrega un objeto de **Global Settings** de tipo msRTCSIP-GlobalContainer dentro del objeto RTC Service. El objeto global Settings contiene toda la configuración que se aplica a la implementación de Lync Server. Si almacena la configuración global en el contenedor del sistema, la preparación del bosque utiliza un contenedor de Microsoft en el contenedor del sistema del dominio raíz y un objeto de servicio RTC en el objeto del sistema de \\ Microsoft.
 
 Al preparar el bosque, se agrega también un nuevo objeto **msRTCSIP-Domain** para el dominio raíz en el que se ejecuta el procedimiento.
 
@@ -57,11 +59,11 @@ La preparación del bosque crea grupos universales basados en el dominio especif
 
 Los grupos universales permiten a los administradores obtener acceso a la configuración global y los servicios y administrarlos. La preparación del bosque agrega los siguientes tipos de grupos universales:
 
-  - **Grupos administrativos estos**   grupos definen roles de administrador para una red de Lync Server.
+  - **Grupos administrativos**     Estos grupos definen los roles de administrador para una red de Lync Server.
 
-  - **Grupos de infraestructura**   estos grupos proporcionan permiso para acceder a áreas específicas de la infraestructura de Lync Server. Funcionan como componentes de grupos administrativos. No debe modificar estos grupos ni agregar usuarios directamente.
+  - **Grupos**     de infraestructura Estos grupos proporcionan permiso para acceder a áreas específicas de la infraestructura de Lync Server. Funcionan como componentes de grupos administrativos. No debe modificar estos grupos ni agregar usuarios directamente.
 
-  - **Grupos de servicios**   estos grupos son cuentas de servicio necesarias para tener acceso a varios servicios de Lync Server.
+  - **Grupos**     de servicio Estos grupos son cuentas de servicio necesarias para tener acceso a varios servicios de Lync Server.
 
 En la tabla siguiente se describen los grupos administrativos.
 

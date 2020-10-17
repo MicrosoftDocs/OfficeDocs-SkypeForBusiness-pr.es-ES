@@ -12,20 +12,22 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88353019a266fbb094df8808faa4543e31bf562
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528037"
 ---
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planeación del control de acceso basado en roles en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planeación del control de acceso basado en roles en Lync Server 2013
+
 
 </div>
 
@@ -159,11 +161,11 @@ Todos los roles predefinidos que se incluyen en Lync Server tienen un ámbito gl
 
 ## <a name="creating-a-scoped-role"></a>Creación de un rol con un ámbito
 
-Cuando crea un rol con un ámbito limitado (un rol con ámbito), puede especificar el ámbito junto con el rol existente con el que se basa y el grupo de Active Directory al que se le asignará el rol. El grupo de Active Directory que se especifique debe haberse creado ya. El siguiente cmdlet es un ejemplo de una creación de un rol que tiene los privilegios de uno de los roles administrativos predefinidos, pero con un ámbito limitado. Crea un nuevo rol denominado `Site01 Server Administrators`. El rol tiene la capacidad de un rol CsServerAdministrator predefinido, pero solo para los servidores ubicados en el sitio Site01. Para que este cmdlet funcione, el sitio de Site01 debe estar ya definido y el grupo de seguridad universal `Site01 Server Administrators` debe existir previamente.
+Cuando crea un rol con un ámbito limitado (un rol con ámbito), puede especificar el ámbito junto con el rol existente con el que se basa y el grupo de Active Directory al que se le asignará el rol. El grupo de Active Directory que se especifique debe haberse creado ya. El siguiente cmdlet es un ejemplo de una creación de un rol que tiene los privilegios de uno de los roles administrativos predefinidos, pero con un ámbito limitado. Crea un nuevo rol denominado `Site01 Server Administrators` . El rol tiene la capacidad de un rol CsServerAdministrator predefinido, pero solo para los servidores ubicados en el sitio Site01. Para que este cmdlet funcione, el sitio de Site01 debe estar ya definido y el grupo de seguridad universal `Site01 Server Administrators` debe existir previamente.
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-Después de ejecutar este cmdlet, todos los usuarios que sean miembros `Site01 Server Administrators` del grupo tendrán privilegios de administrador de servidor para los servidores de Site01. Además, los usuarios que se agreguen posteriormente a este grupo de seguridad universal también obtendrán los privilegios de esta función. Tenga en cuenta que se llama `Site01 Server Administrators`al propio rol y al grupo de seguridad universal al que está asignado.
+Después de ejecutar este cmdlet, todos los usuarios que sean miembros del `Site01 Server Administrators` grupo tendrán privilegios de administrador de servidor para los servidores de Site01. Además, los usuarios que se agreguen posteriormente a este grupo de seguridad universal también obtendrán los privilegios de esta función. Tenga en cuenta que se llama al propio rol y al grupo de seguridad universal al que está asignado `Site01 Server Administrators` .
 
 En el siguiente ejemplo se limita el ámbito de usuario en lugar del ámbito de servidor. Crea una `Sales Users Administrator` función para administrar las cuentas de usuario en la unidad organizativa ventas. El grupo de seguridad universal de SalesUsersAdministrator ya debe estar creado para que funcione este cmdlet.
 
@@ -177,13 +179,13 @@ En el siguiente ejemplo se limita el ámbito de usuario en lugar del ámbito de 
 
 Para crear un rol que tenga acceso a un conjunto de cmdlets no incluido en uno de los roles predefinidos, o a un conjunto de scripts o módulos, debe empezar de nuevo utilizando uno de los roles predefinidos como plantilla. Tenga en cuenta que los scripts y los módulos que pueden ejecutar estos roles se deben almacenar en las ubicaciones siguientes:
 
-  - La ruta del módulo de Lync, que de forma predeterminada\\es C\\: archivos\\de programa Archivos comunes\\Microsoft\\Lync Server 2013 módulos Lync
+  - La ruta del módulo de Lync, que de forma predeterminada es C: \\ archivos de programa archivos \\ comunes \\ Microsoft Lync Server 2013 \\ módulos \\ Lync
 
-  - La ruta de acceso del script de usuario, que es\\de forma\\predeterminada C\\: archivos de programa\\archivos comunes Microsoft Lync Server 2013 AdminScripts
+  - La ruta de acceso del script de usuario, que es de forma predeterminada C: \\ archivos de programa archivos \\ comunes \\ Microsoft Lync Server 2013 \\ AdminScripts
 
 Para crear un nuevo rol, debe utilizar el cmdlet **New-CsAdminRole**. Antes **de ejecutar New-CsAdminRole**, debe crear primero el grupo de seguridad universal subyacente que se asociará a este rol.
 
-Los siguientes cmdlets constituyen un ejemplo de la creación de un nuevo rol. Crean un nuevo tipo de rol denominado `MyHelpDeskScriptRole`. El nuevo rol tiene la capacidad del rol CsHelpDesk predefinido, y se puede ejecutar adicionalmente las funciones en un script denominado “testscript”.
+Los siguientes cmdlets constituyen un ejemplo de la creación de un nuevo rol. Crean un nuevo tipo de rol denominado `MyHelpDeskScriptRole` . El nuevo rol tiene la capacidad del rol CsHelpDesk predefinido, y se puede ejecutar adicionalmente las funciones en un script denominado “testscript”.
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 

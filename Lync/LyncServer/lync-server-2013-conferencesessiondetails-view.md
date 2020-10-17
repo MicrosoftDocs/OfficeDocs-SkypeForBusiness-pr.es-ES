@@ -12,20 +12,22 @@ ms:contentKeyID: 49733660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc6d1888753edbeb076d60d6725b6d9cffc509e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf8023408990b7f0243aaf0e937e2d1095dff0c2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529187"
 ---
+# <a name="conferencesessiondetails-view-in-lync-server-2013"></a>Vista ConferenceSessionDetails en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-view-in-lync-server-2013"></a>Vista ConferenceSessionDetails en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ La vista ConferenceSessionDetails almacena información sobre sesiones con vario
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de identificador para identificar la sesión. Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -126,7 +128,7 @@ La vista ConferenceSessionDetails almacena información sobre sesiones con vario
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceClientType</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tipo del servidor de conferencias. Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
@@ -141,7 +143,7 @@ La vista ConferenceSessionDetails almacena información sobre sesiones con vario
 </tr>
 <tr class="even">
 <td><p><strong>UserClientType</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Cliente usado por el usuario que participó en la sesión. Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -192,7 +194,7 @@ La vista ConferenceSessionDetails almacena información sobre sesiones con vario
 </tr>
 <tr class="even">
 <td><p><strong>ReplaceDialogIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de identificador que identifica la sesión. Se usa junto a ReplaceDialogIdTime para identificar únicamente una sesión que se reemplaza por esta sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -223,12 +225,12 @@ La vista ConferenceSessionDetails almacena información sobre sesiones con vario
 </tr>
 <tr class="even">
 <td><p><strong>ResponseCode</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Código de respuesta SIP a la invitación a la sesión. Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no hay ningún mensaje INVITE, el campo se rellena con la hora y la fecha del primer mensaje SIP correspondiente (BYE, CANCEL, MESSAGE o INFO).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DiagnosticId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Identificador de diagnóstico capturado de los encabezados SIP de la sesión.</p></td>
 </tr>
 <tr class="even">
@@ -242,7 +244,7 @@ La vista ConferenceSessionDetails almacena información sobre sesiones con vario
 <td><p>FQDN del servidor front-end que capturó los datos de la sesión.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>FQDN del grupo que captura los datos de la sesión.</p></td>
 </tr>

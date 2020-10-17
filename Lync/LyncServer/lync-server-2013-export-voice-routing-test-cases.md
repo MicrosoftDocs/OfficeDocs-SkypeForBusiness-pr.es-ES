@@ -12,20 +12,22 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d871379f9c9be161aec879b7ca8da16ac40e2b5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4f366c286c332625779a7ebf45fecfa918ea16b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202376"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528357"
 ---
+# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Exportar casos de prueba de enrutamiento de voz en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Exportar casos de prueba de enrutamiento de voz en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202376"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Los casos de prueba proporcionan una forma de probar rutas de voz en su organización: puede definir aspectos como el número que se va a marcar y el plan de marcado y la Directiva de voz que se van a usar, y Lync Server puede comprobar que, dadas las condiciones, el número proporcionado puede se enrutó correctamente a la red RTC.
+Los casos de prueba permiten probar rutas de voz en su organización: puede definir aspectos como el número que se va a marcar y el plan de marcado y la Directiva de voz que se van a usar, y Lync Server puede comprobar que, dadas las condiciones, el número proporcionado puede enrutarse correctamente a la red RTC.
 
 Los casos de prueba, que se pueden crear mediante el panel de control de Lync Server, normalmente solo se guardan en el servidor donde se creó y ejecutó originalmente el caso. Sin embargo, estos casos de prueba pueden exportarse como archivos XML (con la extensión .vtest) y luego importarse en otros servidores. Esto le permite ejecutar las mismas pruebas en diferentes equipos ubicados en diferentes puntos de la topología.
 
@@ -59,7 +61,7 @@ Los casos de prueba, que se pueden crear mediante el panel de control de Lync Se
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Importar casos de prueba de enrutamiento de voz en Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  

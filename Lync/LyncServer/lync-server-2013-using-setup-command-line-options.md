@@ -12,20 +12,22 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c181c16e5480d1dc7659ed3778faf738eed70949
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c530387fa9f504120ff3a8f38128eeb07b04e615
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212706"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527647"
 ---
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Uso de las opciones de la línea de comandos del programa de instalación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Uso de las opciones de la línea de comandos del programa de instalación en Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ La línea de comandos de Setup.exe de Office reconoce las opciones de línea de 
 </tr>
 <tr class="odd">
 <td><p>/config [path]</p></td>
-<td><p>Especifica el archivo Config.xml que usa el programa de instalación durante la instalación. Use la opción/config para especificar el archivo config. XML que ha personalizado para las instalaciones de Lync 2013, por ejemplo:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>Especifica el archivo Config.xml que usa el programa de instalación durante la instalación. Use la opción/config para especificar el archivo de Config.xml que ha personalizado para las instalaciones de Lync 2013, por ejemplo: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
 <td><p>/modify Lync</p></td>
@@ -83,7 +85,7 @@ La línea de comandos de Setup.exe de Office reconoce las opciones de línea de 
 </table>
 
 
-Para obtener más información sobre el uso de las opciones de la <https://go.microsoft.com/fwlink/p/?linkid=267515>línea de comandos del programa de instalación, consulte.
+Para obtener más información sobre el uso de las opciones de la línea de comandos del programa de instalación, consulte <https://go.microsoft.com/fwlink/p/?linkid=267515> .
 
 </div>
 

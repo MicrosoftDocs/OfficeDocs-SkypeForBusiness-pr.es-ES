@@ -12,20 +12,22 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93750418bce8ea98d0cee385232bc09bb0bd63bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57397d3c2629c0f3f69ebb616c3d933c8312f7b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208826"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527957"
 ---
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Resumen de Puerto-detección automática en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Resumen de Puerto-detección automática en Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208826"
 
 _**Última modificación del tema:** 2013-03-05_
 
-El servicio Detección automática de Lync Server 2013 se ejecuta en los servidores de director y de grupo de servidores front-end y `lyncdiscover.<domain>` , `lyncdiscoverinternal.<domain>` cuando se publican en DNS con los registros de host y, pueden ser usados por los clientes para localizar las características de Lync Server. Para que los dispositivos móviles que ejecutan Lync Mobile usen la detección automática, es posible que primero necesite modificar las listas de nombres alternativos de sujeto de certificado en cualquier Director y servidor front-end que ejecute el servicio Detección automática. Además, es posible que haya que modificar las listas de nombres alternativos de sujeto en certificados usados para las reglas de publicación de servicios web en proxies inversos.
+El servicio Detección automática de Lync Server 2013 se ejecuta en los servidores de director y de grupo de servidores front-end y, cuando se publican en DNS con los `lyncdiscover.<domain>` `lyncdiscoverinternal.<domain>` registros de host y, pueden ser usados por los clientes para localizar las características de Lync Server. Para que los dispositivos móviles que ejecutan Lync Mobile usen la detección automática, es posible que primero necesite modificar las listas de nombres alternativos de sujeto de certificado en cualquier Director y servidor front-end que ejecute el servicio Detección automática. Además, es posible que haya que modificar las listas de nombres alternativos de sujeto en certificados usados para las reglas de publicación de servicios web en proxies inversos.
 
 La decisión sobre si usar listas de nombres alternativos de sujetos en servidores proxy inversos se basa en si publica el servicio Detección automática en el puerto 80 o en el puerto 443:
 
-  - **Publicado en el puerto 80**   para dispositivos móviles, no es necesario realizar cambios en los certificados si la consulta inicial al servicio Detección automática se produce a través del puerto 80. Esto se debe a que los dispositivos móviles que ejecutan Lync tendrán acceso al proxy inverso en el puerto 80 externamente y, a continuación, se redirigirán a un director o a un servidor front-end en el puerto 8080 de forma interna.
+  - **Publicado en el puerto 80**     Para dispositivos móviles, no es necesario realizar cambios en los certificados si la consulta inicial al servicio Detección automática se produce a través del puerto 80. Esto se debe a que los dispositivos móviles que ejecutan Lync tendrán acceso al proxy inverso en el puerto 80 externamente y, a continuación, se redirigirán a un director o a un servidor front-end en el puerto 8080 de forma interna.
 
-  - **Publicado en el puerto 443**   la lista de nombres alternativos de sujeto en los certificados usados por la regla de publicación de `lyncdiscover.<sipdomain>` servicios web externos debe contener una entrada para cada dominio SIP dentro de la organización.
+  - **Publicado en el puerto 443**     La lista de nombres alternativos de sujeto en los certificados usados por la regla de publicación de servicios web externos debe contener una `lyncdiscover.<sipdomain>` entrada para cada dominio SIP dentro de la organización.
     
     <div>
     
@@ -76,7 +78,7 @@ La decisión sobre si usar listas de nombres alternativos de sujetos en servidor
 <td><p>HTTP/TCP/80</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Escucha de proxy inverso</p></td>
-<td><p>Opcional Redirección a HTTPS si el usuario escribe&lt;http://&gt;publishedSiteFQDN. También es necesario si usa Office Web Apps para conferencias y el servicio Detección automática para dispositivos móviles que ejecutan Lync en situaciones en las que la organización no desea modificar el certificado de la regla de publicación de servicios web externos.</p></td>
+<td><p>Opcional Redirección a HTTPS si el usuario escribe http:// &lt; publishedSiteFQDN &gt; . También es necesario si usa Office Web Apps para conferencias y el servicio Detección automática para dispositivos móviles que ejecutan Lync en situaciones en las que la organización no desea modificar el certificado de la regla de publicación de servicios web externos.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>

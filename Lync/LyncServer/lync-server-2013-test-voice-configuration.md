@@ -12,20 +12,22 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3bd2e9b86ee0c14d8fd9e2bbe386d48398d2418
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1491aa1d28de238bcadd2a024021fabf16e9128a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527907"
 ---
+# <a name="test-voice-configuration-in-lync-server-2013"></a>Probar la configuración de voz en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-configuration-in-lync-server-2013"></a>Probar la configuración de voz en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-05-20_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsVoiceTestConfiguration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsVoiceTestConfiguration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceTestConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-05-20_
 
 ## <a name="description"></a>Descripción
 
-Lync Server incluye varios cmdlets de Windows PowerShell (como test-CsVoiceRoute y test-CsVoicePolicy, test-CsTrunkConfiguration) que le permiten comprobar que las partes individuales de su infraestructura de telefonía IP empresarial (rutas de voz, voz) directivas, troncos SIP: funcionan según lo previsto.
+Lync Server incluye varios cmdlets de Windows PowerShell (por ejemplo, Test-CsVoiceRoute y test-CsVoicePolicy, test-CsTrunkConfiguration) que permiten comprobar que las partes individuales de la infraestructura de voz empresarial (rutas de voz, directivas de voz, troncos SIP) funcionan según lo esperado.
 
 Aunque es importante con telefonía IP empresarial que funcionan todas las piezas individuales: es posible tener una ruta de voz válida, una directiva de voz válida y un tronco SIP válido, pero seguir haciendo que los usuarios no puedan realizar o recibir llamadas telefónicas. Por eso, Lync Server también ofrece la posibilidad de crear configuraciones de prueba de voz. Las configuraciones de prueba de voz representan escenarios comunes de Enterprise Voice: puede especificar aspectos como una ruta de voz, una directiva de voz y un plan de marcado y, a continuación, comprobar que esos elementos individuales funcionan conjuntamente para proporcionar el servicio telefónico. Además, puede validar sus expectativas en un escenario determinado. Por ejemplo, supongamos que espera que la combinación de plan de marcado A y Directiva de voz B dé como resultado que las llamadas se enruten a través de la ruta de voz C. Puede escribir la ruta de voz C como ExpectedRoute. Cuando se ejecuta la prueba, si no se usa la ruta de voz C, la prueba se marcará como con error.
 
@@ -84,7 +86,7 @@ Para validar todas las opciones de configuración de prueba de voz al mismo tiem
 
 `Get-CsVoiceTestConfiguration | Test-CsVoiceTestConfiguration`
 
-Para obtener más información, consulte la documentación de ayuda del cmdlet test-CsVoiceTestConfiguration.
+Para obtener más información, consulte la documentación de ayuda del cmdlet Test-CsVoiceTestConfiguration.
 
 </div>
 
@@ -92,13 +94,13 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet t
 
 ## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-El cmdlet test-CsVoiceTestConfiguration informa si una prueba ha tenido éxito o no se ha realizado correctamente y proporciona información adicional acerca de cada una de las pruebas, como la regla de conversión, la ruta de voz y el uso de RTC que se usan para completar la tarea:
+El cmdlet Test-CsVoiceTestConfiguration informa si una prueba ha tenido éxito o no se ha realizado correctamente y proporciona información adicional acerca de cada una de las pruebas, como la regla de conversión, la ruta de voz y el uso de RTC que se usan para completar la tarea:
 
 Resultado: correcto
 
 TranslatedNumber: + 15551234
 
-MatchingRule: Description =; Pattern = ^ (\\d{4}) $; Traducción = + 1\\d; Name = test; IsInternalExtension = false
+MatchingRule: Description =; Pattern = ^ ( \\ d {4} ) $; Traducción = + 1 \\ d; Name = test; IsInternalExtension = false
 
 FirstMatchingRoute: sitio: Redmond
 
@@ -128,7 +130,7 @@ Si la configuración parece estar correctamente configurada, vuelva a ejecutar l
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-El parámetro verbose proporcionará una cuenta paso a paso de cada acción que test-CsVoiceTestConfiguration toma como se muestra en este ejemplo:
+El parámetro verbose proporcionará una cuenta paso a paso de cada acción realizada por Test-CsVoiceTestConfiguration como se muestra en este ejemplo:
 
 VERBOse: cargando plan de marcado: "global"
 
@@ -142,7 +144,7 @@ Además, tenga en cuenta que es posible que una prueba pueda enrutar una llamada
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Test-CsVoiceTestConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceTestConfiguration)  

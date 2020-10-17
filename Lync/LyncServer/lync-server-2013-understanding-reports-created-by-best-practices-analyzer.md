@@ -12,20 +12,22 @@ ms:contentKeyID: 48183471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f676482badb5c00d007fced66bfc9a8abbb33a68
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 24699e685b58c718f6b67306c1eaa2d6974c87c5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193153"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527727"
 ---
+# <a name="understanding-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Información sobre los informes creados por el analizador de procedimientos recomendados en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Información sobre los informes creados por el analizador de procedimientos recomendados en Lync Server 2013
+
 
 </div>
 
@@ -45,11 +47,11 @@ El Analizador de procedimientos recomendados ofrece varios tipos de informes org
 
 Puede tener acceso a los resultados del análisis viendo consultando cada uno de los informes siguientes:
 
-  - ****   Enumerar informes: los informes se organizan según criterios específicos. Puede organizar los resultados por clase, gravedad o problema. Por ejemplo, si organiza los resultados por clase, los problemas relacionados con los Directivos se incluyen en la sección Directivos del informe. Puede ver todos los problemas o solo los elementos informativos. Puede ver un informe de la lista con elementos específicos como, por ejemplo, la memoria. También puede imprimir el informe o exportarlo.
+  - **Enumerar informes**     Los informes de lista se organizan según criterios específicos. Puede organizar los resultados por clase, gravedad o problema. Por ejemplo, si organiza los resultados por clase, los problemas relacionados con los Directivos se incluyen en la sección Directivos del informe. Puede ver todos los problemas o solo los elementos informativos. Puede ver un informe de la lista con elementos específicos como, por ejemplo, la memoria. También puede imprimir el informe o exportarlo.
 
-  - ****   Los informes de árbol de informes de árbol están organizados por las reglas que se usan para ejecutar el análisis y otras opciones especificadas en el momento en que se ejecutó el análisis. Por ejemplo, los problemas relacionados con la topología de pruebas se incluyen en la sección Topología de pruebas del informe. Puede ver los detalles de todos los problemas o solo un resumen de los problemas. Puede buscar un informe ramificado con elementos específicos como, por ejemplo, la memoria. También puede imprimir el informe o exportarlo.
+  - **Informes**     de árbol Los informes de árbol están organizados por las reglas que se usan para ejecutar el análisis y otras opciones especificadas en el momento en que se ejecutó el análisis. Por ejemplo, los problemas relacionados con la topología de pruebas se incluyen en la sección Topología de pruebas del informe. Puede ver los detalles de todos los problemas o solo un resumen de los problemas. Puede buscar un informe ramificado con elementos específicos como, por ejemplo, la memoria. También puede imprimir el informe o exportarlo.
 
-  - **Otros**   elementos de informes en otros informes incluyen el registro de tiempo de ejecución de las tareas incluidas en el examen. Puede buscar elementos específicos de otros informes como, por ejemplo, la memoria. También puede imprimir el informe o exportarlo.
+  - **Otros informes**     Los elementos de otros informes incluyen el registro en tiempo de ejecución de las tareas incluidas en el examen. Puede buscar elementos específicos de otros informes como, por ejemplo, la memoria. También puede imprimir el informe o exportarlo.
 
 </div>
 
@@ -59,15 +61,15 @@ Puede tener acceso a los resultados del análisis viendo consultando cada uno de
 
 Los informes que genera el Analizador de procedimientos recomendados indican que existen problemas específicos identificados durante el análisis del entorno, entre los que se incluyen los siguientes:
 
-  - **Errores**   : problemas críticos que requieren que se realice un cambio en el entorno. Por ejemplo, si los componentes principales de Lync Server 2013 no están instalados, se registra un error.
+  - **Errores**     Problemas críticos que requieren que se realice un cambio en el entorno. Por ejemplo, si los componentes principales de Lync Server 2013 no están instalados, se registra un error.
 
     Los problemas clasificados como errores se identifican en el informe con una X de color rojo. Los errores se muestran en la pestaña **Todos los problemas** de la vista **Informes de la lista** y en la pestaña **Vista detallada** y **Vista reducida** de la vista **Informes ramificados**. Si desea que no se muestre un error específico en un informe, puede especificar que no se muestre una instancia o todas las instancias de dicho error en el informe. De este modo, el error solo se mostrará en la pestaña **Elementos ocultos** de la vista **Otros informes** a menos que modifique la configuración y especifique que se muestre el error en el informe.
 
-  - **ADVERTENCIAS**   problemas que no son coherentes con la implementación de un procedimiento recomendado. Esto puede indicar que es necesario realizar un cambio en el entorno, o no. El problema puede ser un problema conocido con una configuración específica que no es necesario cambiar. Por ejemplo, los servicios que no se inician en un servidor se registran como advertencias.
+  - **Advertencias**     Problemas que no son coherentes con la implementación de un procedimiento recomendado. Esto puede indicar que es necesario realizar un cambio en el entorno, o no. El problema puede ser un problema conocido con una configuración específica que no es necesario cambiar. Por ejemplo, los servicios que no se inician en un servidor se registran como advertencias.
 
     Los problemas clasificados como advertencias se identifican en el informe con un signo de advertencia triangular de color amarillo. Las advertencias se muestran en la pestaña **Todos los problemas** de la vista **Informes de la lista**, así como en la pestaña **Vista detallada** y **Vista reducida** de la vista **Informes ramificados**. Si desea que no se muestre un error específico en un informe, puede especificar que no se muestre una instancia o todas las instancias de dicho error en el informe. De este modo, la advertencia solo se mostrará en la pestaña **Elementos ocultos** de la vista **Otros informes** a menos que modifique la configuración y especifique que se muestre el error en el informe.
 
-  - **La información**   incluye todos los problemas que no se clasifican como errores o advertencias. Por ejemplo, el número de objetos de servidor de Lync Server 2013 Standard Edition en servicios de dominio de Active Directory se clasifica como un problema de información.
+  - **Información sobre**     Incluye todos los problemas que no se clasifican como errores o advertencias. Por ejemplo, el número de objetos de servidor de Lync Server 2013 Standard Edition en servicios de dominio de Active Directory se clasifica como un problema de información.
 
     Los problemas informativos se muestran en la pestaña **Todos los problemas** de la vista **Informes de la lista** y en la pestaña **Vista detallada** de la vista **Informes ramificados**.
 

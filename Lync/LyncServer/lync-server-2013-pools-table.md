@@ -12,20 +12,22 @@ ms:contentKeyID: 48185680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 023f1b3ecc8c105e96591305daf5fad366f3f333
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f9895307599210a7d30fde58d7e09b8353388db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527997"
 ---
+# <a name="pools-table-in-lync-server-2013"></a>Tabla pools en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pools-table-in-lync-server-2013"></a>Tabla pools en Lync Server 2013
+
 
 </div>
 
@@ -58,7 +60,7 @@ La tabla pools es una tabla de apoyo que almacena información sobre los distint
 <tbody>
 <tr class="odd">
 <td><p><strong>PoolId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número único con el que se identifica a este grupo.</p></td>
 </tr>
