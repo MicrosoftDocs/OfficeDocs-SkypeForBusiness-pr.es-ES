@@ -12,20 +12,22 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72b04170df1a616aec595f72dce74cd15e8059b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a98bdaa5b97193ad20a78939560190a413a87161
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515977"
 ---
+# <a name="verify-lync-server-2010-environment"></a><span data-ttu-id="888eb-102">Comprobar el entorno de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="888eb-102">Verify Lync Server 2010 environment</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-lync-server-2010-environment"></a><span data-ttu-id="d9de4-102">Comprobar el entorno de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="d9de4-102">Verify Lync Server 2010 environment</span></span>
+
 
 </div>
 
@@ -35,75 +37,75 @@ ms.locfileid: "42188953"
 
 <span> </span>
 
-<span data-ttu-id="d9de4-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="d9de4-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="888eb-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="888eb-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="d9de4-104">Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Server 2010, debe comprobar que los servicios de Lync Server 2010 se han configurado e iniciado.</span><span class="sxs-lookup"><span data-stu-id="d9de4-104">Before deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you need to verify that Lync Server 2010 services have been configured and started.</span></span> <span data-ttu-id="d9de4-105">Es importante identificar los servicios y características clave que existen en el entorno heredado antes de implementar un grupo piloto de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9de4-105">It is important to identify key services and features that exist in your legacy environment, prior to deploying a Lync Server 2013 pilot pool.</span></span> <span data-ttu-id="d9de4-106">Antes de implementar Microsoft Lync Server 2013 XMPP en un estado de coexistencia con una implementación de XMPP heredada, debe comprobar que los servicios de XMPP heredado se han configurado e iniciado, e identificar qué socio federado admite la configuración de XMPP heredado.</span><span class="sxs-lookup"><span data-stu-id="d9de4-106">Before deploying Microsoft Lync Server 2013 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting.</span></span> <span data-ttu-id="d9de4-107">La comprobación de la implementación heredada de Lync Server 2010 implica lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d9de4-107">Verifying your legacy Lync Server 2010 deployment entails the following:</span></span>
+<span data-ttu-id="888eb-104">Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Server 2010, debe comprobar que los servicios de Lync Server 2010 se han configurado e iniciado.</span><span class="sxs-lookup"><span data-stu-id="888eb-104">Before deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you need to verify that Lync Server 2010 services have been configured and started.</span></span> <span data-ttu-id="888eb-105">Es importante identificar los servicios y características clave que existen en el entorno heredado antes de implementar un grupo piloto de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="888eb-105">It is important to identify key services and features that exist in your legacy environment, prior to deploying a Lync Server 2013 pilot pool.</span></span> <span data-ttu-id="888eb-106">Antes de implementar Microsoft Lync Server 2013 XMPP en un estado de coexistencia con una implementación de XMPP heredada, debe comprobar que los servicios de XMPP heredado se han configurado e iniciado, e identificar qué socio federado admite la configuración de XMPP heredado.</span><span class="sxs-lookup"><span data-stu-id="888eb-106">Before deploying Microsoft Lync Server 2013 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting.</span></span> <span data-ttu-id="888eb-107">La comprobación de la implementación heredada de Lync Server 2010 implica lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="888eb-107">Verifying your legacy Lync Server 2010 deployment entails the following:</span></span>
 
-  - <span data-ttu-id="d9de4-108">Comprobación de que se han iniciado los servicios de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="d9de4-108">Verifying the Lync Server 2010 services are started</span></span>
+  - <span data-ttu-id="888eb-108">Comprobación de que se han iniciado los servicios de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="888eb-108">Verifying the Lync Server 2010 services are started</span></span>
 
-  - <span data-ttu-id="d9de4-109">Revisión de la topología y los usuarios en Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="d9de4-109">Reviewing the topology and users in Lync Server 2010.</span></span>
+  - <span data-ttu-id="888eb-109">Revisión de la topología y los usuarios en Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="888eb-109">Reviewing the topology and users in Lync Server 2010.</span></span>
 
-  - <span data-ttu-id="d9de4-110">Comprobar la configuración de la federación y del servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="d9de4-110">Verifying the federation and Edge server settings.</span></span>
+  - <span data-ttu-id="888eb-110">Comprobar la configuración de la federación y del servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="888eb-110">Verifying the federation and Edge server settings.</span></span>
 
-  - <span data-ttu-id="d9de4-111">Comprobar los servicios de XMPP y los socios federados.</span><span class="sxs-lookup"><span data-stu-id="d9de4-111">Verifying XMPP services and federated partners.</span></span>
+  - <span data-ttu-id="888eb-111">Comprobar los servicios de XMPP y los socios federados.</span><span class="sxs-lookup"><span data-stu-id="888eb-111">Verifying XMPP services and federated partners.</span></span>
 
-<span data-ttu-id="d9de4-112">**Comprobar que se han iniciado los servicios de Lync Server 2010**</span><span class="sxs-lookup"><span data-stu-id="d9de4-112">**Verify Lync Server 2010 Services are started**</span></span>
+<span data-ttu-id="888eb-112">**Comprobar que se han iniciado los servicios de Lync Server 2010**</span><span class="sxs-lookup"><span data-stu-id="888eb-112">**Verify Lync Server 2010 Services are started**</span></span>
 
-1.  <span data-ttu-id="d9de4-113">Desde el servidor front-end de Lync Server 2010, vaya al subprograma Servicios de herramientas\\administrativas.</span><span class="sxs-lookup"><span data-stu-id="d9de4-113">From the Lync Server 2010 Front End Server, navigate to the Administrative Tools\\Services applet.</span></span>
+1.  <span data-ttu-id="888eb-113">Desde el servidor front-end de Lync Server 2010, vaya al \\ subprograma Servicios de herramientas administrativas.</span><span class="sxs-lookup"><span data-stu-id="888eb-113">From the Lync Server 2010 Front End Server, navigate to the Administrative Tools\\Services applet.</span></span>
 
-2.  <span data-ttu-id="d9de4-114">Compruebe que los servicios siguientes se están ejecutando en el servidor front-end:</span><span class="sxs-lookup"><span data-stu-id="d9de4-114">Verify that the following services are running on the Front End Server:</span></span>
+2.  <span data-ttu-id="888eb-114">Compruebe que los servicios siguientes se están ejecutando en el servidor front-end:</span><span class="sxs-lookup"><span data-stu-id="888eb-114">Verify that the following services are running on the Front End Server:</span></span>
     
-    <span data-ttu-id="d9de4-115">![Lista de servicios que se ejecutan en el servidor front-end](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "Lista de servicios que se ejecutan en el servidor front-end")</span><span class="sxs-lookup"><span data-stu-id="d9de4-115">![List of services running on Front End Server](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "List of services running on Front End Server")</span></span>
+    <span data-ttu-id="888eb-115">![Lista de servicios que se ejecutan en el servidor front-end](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "Lista de servicios que se ejecutan en el servidor front-end")</span><span class="sxs-lookup"><span data-stu-id="888eb-115">![List of services running on Front End Server](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "List of services running on Front End Server")</span></span>
 
-<span data-ttu-id="d9de4-116">**Revisar la topología de Lync Server 2010 en el panel de control de Lync Server**</span><span class="sxs-lookup"><span data-stu-id="d9de4-116">**Review the Lync Server 2010 topology in Lync Server Control Panel**</span></span>
+<span data-ttu-id="888eb-116">**Revisar la topología de Lync Server 2010 en el panel de control de Lync Server**</span><span class="sxs-lookup"><span data-stu-id="888eb-116">**Review the Lync Server 2010 topology in Lync Server Control Panel**</span></span>
 
-1.  <span data-ttu-id="d9de4-117">Inicie sesión en el servidor front-end con una cuenta que sea miembro del grupo RTCUniversalServerAdmins, o del rol administrativo CsAdministrator o CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="d9de4-117">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
+1.  <span data-ttu-id="888eb-117">Inicie sesión en el servidor front-end con una cuenta que sea miembro del grupo RTCUniversalServerAdmins, o del rol administrativo CsAdministrator o CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="888eb-117">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
 
-2.  <span data-ttu-id="d9de4-118">Abra el Panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d9de4-118">Open the Lync Server Control Panel.</span></span>
+2.  <span data-ttu-id="888eb-118">Abra el Panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="888eb-118">Open the Lync Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="d9de4-119">Seleccione **Topología**.</span><span class="sxs-lookup"><span data-stu-id="d9de4-119">Select **Topology**.</span></span> <span data-ttu-id="d9de4-120">Compruebe que se muestran los diversos servidores de la implementación de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="d9de4-120">Verify that the various servers in your Lync Server 2010 deployment are listed.</span></span>
+3.  <span data-ttu-id="888eb-119">Seleccione **Topología**.</span><span class="sxs-lookup"><span data-stu-id="888eb-119">Select **Topology**.</span></span> <span data-ttu-id="888eb-120">Compruebe que se muestran los diversos servidores de la implementación de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="888eb-120">Verify that the various servers in your Lync Server 2010 deployment are listed.</span></span>
     
-    <span data-ttu-id="d9de4-121">![Página de topología del panel de control 2010 de Lync Server](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Página de topología del panel de control 2010 de Lync Server")</span><span class="sxs-lookup"><span data-stu-id="d9de4-121">![Lync Server 2010 Control Panel topology page](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010 Control Panel topology page")</span></span>
+    <span data-ttu-id="888eb-121">![Página de topología del panel de control 2010 de Lync Server](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Página de topología del panel de control 2010 de Lync Server")</span><span class="sxs-lookup"><span data-stu-id="888eb-121">![Lync Server 2010 Control Panel topology page](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010 Control Panel topology page")</span></span>
 
-<span data-ttu-id="d9de4-122">**Para revisar los usuarios de Lync Server 2010 en el panel de control de Lync Server**</span><span class="sxs-lookup"><span data-stu-id="d9de4-122">**To review Lync Server 2010 users in Lync Server Control Panel**</span></span>
+<span data-ttu-id="888eb-122">**Para revisar los usuarios de Lync Server 2010 en el panel de control de Lync Server**</span><span class="sxs-lookup"><span data-stu-id="888eb-122">**To review Lync Server 2010 users in Lync Server Control Panel**</span></span>
 
-1.  <span data-ttu-id="d9de4-123">Abra el Panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d9de4-123">Open the Lync Server Control Panel.</span></span>
+1.  <span data-ttu-id="888eb-123">Abra el Panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="888eb-123">Open the Lync Server Control Panel.</span></span>
 
-2.  <span data-ttu-id="d9de4-124">Seleccione **Usuarios** y haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="d9de4-124">Select **Users** and then click **Find**.</span></span>
+2.  <span data-ttu-id="888eb-124">Seleccione **Usuarios** y haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="888eb-124">Select **Users** and then click **Find**.</span></span>
 
-3.  <span data-ttu-id="d9de4-125">Compruebe que la columna **grupo de registrador** apunta al grupo de servidores de Lync Server 2010 para cada usuario enumerado.</span><span class="sxs-lookup"><span data-stu-id="d9de4-125">Verify that the **Registrar Pool** column points to the Lync Server 2010 pool for each user listed.</span></span>
+3.  <span data-ttu-id="888eb-125">Compruebe que la columna **grupo de registrador** apunta al grupo de servidores de Lync Server 2010 para cada usuario enumerado.</span><span class="sxs-lookup"><span data-stu-id="888eb-125">Verify that the **Registrar Pool** column points to the Lync Server 2010 pool for each user listed.</span></span>
     
-    <span data-ttu-id="d9de4-126">![Panel de control de Lync Server 2010 enumerar usuarios](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Panel de control de Lync Server 2010 enumerar usuarios")</span><span class="sxs-lookup"><span data-stu-id="d9de4-126">![Lync Server 2010 Control Panel listing users](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 Control Panel listing users")</span></span>
+    <span data-ttu-id="888eb-126">![Panel de control de Lync Server 2010 enumerar usuarios](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Panel de control de Lync Server 2010 enumerar usuarios")</span><span class="sxs-lookup"><span data-stu-id="888eb-126">![Lync Server 2010 Control Panel listing users](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 Control Panel listing users")</span></span>
 
-<span data-ttu-id="d9de4-127">**Para comprobar la configuración de la Federación y el servidor perimetral de Lync Server 2010**</span><span class="sxs-lookup"><span data-stu-id="d9de4-127">**To verify Lync Server 2010 Edge and Federation Settings**</span></span>
+<span data-ttu-id="888eb-127">**Para comprobar la configuración de la Federación y el servidor perimetral de Lync Server 2010**</span><span class="sxs-lookup"><span data-stu-id="888eb-127">**To verify Lync Server 2010 Edge and Federation Settings**</span></span>
 
-1.  <span data-ttu-id="d9de4-128">Inicie el Generador de topologías.</span><span class="sxs-lookup"><span data-stu-id="d9de4-128">Start Topology Builder.</span></span>
+1.  <span data-ttu-id="888eb-128">Inicie el Generador de topologías.</span><span class="sxs-lookup"><span data-stu-id="888eb-128">Start Topology Builder.</span></span>
 
-2.  <span data-ttu-id="d9de4-129">Seleccione **Descargar una topología desde una implementación existente**.</span><span class="sxs-lookup"><span data-stu-id="d9de4-129">Select **Download Topology from existing deployment**.</span></span>
+2.  <span data-ttu-id="888eb-129">Seleccione **Descargar una topología desde una implementación existente**.</span><span class="sxs-lookup"><span data-stu-id="888eb-129">Select **Download Topology from existing deployment**.</span></span>
 
-3.  <span data-ttu-id="d9de4-130">Elija un nombre de archivo y guarde la topología con el tipo de archivo .tbxml predeterminado.</span><span class="sxs-lookup"><span data-stu-id="d9de4-130">Choose a file name and save the topology with the default .tbxml file type.</span></span>
+3.  <span data-ttu-id="888eb-130">Elija un nombre de archivo y guarde la topología con el tipo de archivo .tbxml predeterminado.</span><span class="sxs-lookup"><span data-stu-id="888eb-130">Choose a file name and save the topology with the default .tbxml file type.</span></span>
 
-4.  <span data-ttu-id="d9de4-131">Expanda el nodo 2010 de Lync Server para mostrar los distintos roles de servidor en la implementación.</span><span class="sxs-lookup"><span data-stu-id="d9de4-131">Expand the Lync Server 2010 node to reveal the various server roles in the deployment.</span></span>
+4.  <span data-ttu-id="888eb-131">Expanda el nodo 2010 de Lync Server para mostrar los distintos roles de servidor en la implementación.</span><span class="sxs-lookup"><span data-stu-id="888eb-131">Expand the Lync Server 2010 node to reveal the various server roles in the deployment.</span></span>
 
-5.  <span data-ttu-id="d9de4-132">Seleccione el nodo del sitio y compruebe si se ha establecido un valor de **Asignación de ruta de federación del sitio**.</span><span class="sxs-lookup"><span data-stu-id="d9de4-132">Select the site node and verify if a **Site federation route assignment** value is set.</span></span>
+5.  <span data-ttu-id="888eb-132">Seleccione el nodo del sitio y compruebe si se ha establecido un valor de **Asignación de ruta de federación del sitio**.</span><span class="sxs-lookup"><span data-stu-id="888eb-132">Select the site node and verify if a **Site federation route assignment** value is set.</span></span>
     
-    <span data-ttu-id="d9de4-133">![Generador de topologías, ruta de Federación del sitio](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Generador de topologías, ruta de Federación del sitio")</span><span class="sxs-lookup"><span data-stu-id="d9de4-133">![Topology Builder, Site Federation Route](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Topology Builder, Site Federation Route")</span></span>
+    <span data-ttu-id="888eb-133">![Generador de topologías, ruta de Federación del sitio](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Generador de topologías, ruta de Federación del sitio")</span><span class="sxs-lookup"><span data-stu-id="888eb-133">![Topology Builder, Site Federation Route](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Topology Builder, Site Federation Route")</span></span>
 
-6.  <span data-ttu-id="d9de4-p103">A continuación, seleccione el grupo de servidores front-end de Standard Edition o Enterprise Edition. Determine si se ha configurado un grupo de servidores perimetrales para los medios bajo **Asociaciones**.</span><span class="sxs-lookup"><span data-stu-id="d9de4-p103">Next, select the Standard Edition Server or Enterprise Edition front end pool. Determine if an Edge pool has been configured for Media below **Associations**.</span></span>
+6.  <span data-ttu-id="888eb-p103">A continuación, seleccione el grupo de servidores front-end de Standard Edition o Enterprise Edition. Determine si se ha configurado un grupo de servidores perimetrales para los medios bajo **Asociaciones**.</span><span class="sxs-lookup"><span data-stu-id="888eb-p103">Next, select the Standard Edition Server or Enterprise Edition front end pool. Determine if an Edge pool has been configured for Media below **Associations**.</span></span>
     
-    <span data-ttu-id="d9de4-136">![Generador de topologías que muestra servidores y grupos de servidores](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Generador de topologías que muestra servidores y grupos de servidores")</span><span class="sxs-lookup"><span data-stu-id="d9de4-136">![Topology Builder showing servers and pools](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Topology Builder showing servers and pools")</span></span>
+    <span data-ttu-id="888eb-136">![Generador de topologías que muestra servidores y grupos de servidores](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Generador de topologías que muestra servidores y grupos de servidores")</span><span class="sxs-lookup"><span data-stu-id="888eb-136">![Topology Builder showing servers and pools](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Topology Builder showing servers and pools")</span></span>
 
-7.  <span data-ttu-id="d9de4-137">Por último, seleccione el grupo de servidores perimetrales e identifique si un grupo de próximo salto se ha configurado bajo **Selección de próximo salto**.</span><span class="sxs-lookup"><span data-stu-id="d9de4-137">Finally, select the Edge pool and identify if a Next hop pool is configured below **Next hop selection**.</span></span>
+7.  <span data-ttu-id="888eb-137">Por último, seleccione el grupo de servidores perimetrales e identifique si un grupo de próximo salto se ha configurado bajo **Selección de próximo salto**.</span><span class="sxs-lookup"><span data-stu-id="888eb-137">Finally, select the Edge pool and identify if a Next hop pool is configured below **Next hop selection**.</span></span>
     
-    <span data-ttu-id="d9de4-138">![Generador de topologías, selección de próximo salto](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Generador de topologías, selección de próximo salto")</span><span class="sxs-lookup"><span data-stu-id="d9de4-138">![Topology Builder, Next hop selection](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Topology Builder, Next hop selection")</span></span>
+    <span data-ttu-id="888eb-138">![Generador de topologías, selección de próximo salto](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Generador de topologías, selección de próximo salto")</span><span class="sxs-lookup"><span data-stu-id="888eb-138">![Topology Builder, Next hop selection](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Topology Builder, Next hop selection")</span></span>
 
-<span data-ttu-id="d9de4-139">**Compruebe la configuración del socio federado XMPP heredado**</span><span class="sxs-lookup"><span data-stu-id="d9de4-139">**Verify legacy XMPP Federated Partner Configuration**</span></span>
+<span data-ttu-id="888eb-139">**Compruebe la configuración del socio federado XMPP heredado**</span><span class="sxs-lookup"><span data-stu-id="888eb-139">**Verify legacy XMPP Federated Partner Configuration**</span></span>
 
-1.  <span data-ttu-id="d9de4-140">Desde el servidor de XMPP heredado, vaya al subprograma Servicios de herramientas\\administrativas.</span><span class="sxs-lookup"><span data-stu-id="d9de4-140">From the legacy XMPP server, navigate to the Administrative Tools\\Services applet.</span></span>
+1.  <span data-ttu-id="888eb-140">Desde el servidor de XMPP heredado, vaya al \\ subprograma Servicios de herramientas administrativas.</span><span class="sxs-lookup"><span data-stu-id="888eb-140">From the legacy XMPP server, navigate to the Administrative Tools\\Services applet.</span></span>
 
-2.  <span data-ttu-id="d9de4-141">Compruebe que se haya iniciado el servicio de puerta de enlace XMPP de Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="d9de4-141">Verify that the Office Communications Server XMPP Gateway service is started.</span></span>
+2.  <span data-ttu-id="888eb-141">Compruebe que se haya iniciado el servicio de puerta de enlace XMPP de Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="888eb-141">Verify that the Office Communications Server XMPP Gateway service is started.</span></span>
     
-    <span data-ttu-id="d9de4-142">![Servicio de puerta de enlace XMPP de Office Communications Server](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Servicio de puerta de enlace XMPP de Office Communications Server")</span><span class="sxs-lookup"><span data-stu-id="d9de4-142">![Office Communications Server XMPP Gateway Service](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server XMPP Gateway Service")</span></span>
+    <span data-ttu-id="888eb-142">![Servicio de puerta de enlace XMPP de Office Communications Server](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Servicio de puerta de enlace XMPP de Office Communications Server")</span><span class="sxs-lookup"><span data-stu-id="888eb-142">![Office Communications Server XMPP Gateway Service](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server XMPP Gateway Service")</span></span>
 
 </div>
 

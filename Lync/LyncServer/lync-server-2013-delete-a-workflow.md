@@ -12,20 +12,22 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1f3265591b1beb7180864b8e3a613989dfca397
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b46f3b9bd89df2594c7ca8a3b382839437e40eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213996"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516297"
 ---
+# <a name="delete-a-workflow-in-lync-server-2013"></a><span data-ttu-id="ddc4a-102">Eliminar un flujo de trabajo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddc4a-102">Delete a workflow in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-workflow-in-lync-server-2013"></a><span data-ttu-id="70b5b-102">Eliminar un flujo de trabajo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="70b5b-102">Delete a workflow in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,54 +37,54 @@ ms.locfileid: "42213996"
 
 <span> </span>
 
-<span data-ttu-id="70b5b-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="70b5b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="ddc4a-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="ddc4a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="70b5b-104">Utilice uno de los procedimientos siguientes para eliminar flujos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="70b5b-104">Use one of the following procedures to delete a workflow.</span></span>
+<span data-ttu-id="ddc4a-104">Utilice uno de los procedimientos siguientes para eliminar flujos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-104">Use one of the following procedures to delete a workflow.</span></span>
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a><span data-ttu-id="70b5b-105">Para usar el panel de control de Lync Server eliminar un flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="70b5b-105">To use Lync Server Control Panel delete a workflow</span></span>
+## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a><span data-ttu-id="ddc4a-105">Para usar el panel de control de Lync Server eliminar un flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="ddc4a-105">To use Lync Server Control Panel delete a workflow</span></span>
 
-1.  <span data-ttu-id="70b5b-106">Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="70b5b-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="ddc4a-106">Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="70b5b-107">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="70b5b-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="70b5b-108">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="70b5b-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="ddc4a-107">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="ddc4a-108">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="ddc4a-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="70b5b-109">En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Flujo de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="70b5b-109">In the left navigation bar, click **Response Groups**, and then click **Workflow**.</span></span>
+3.  <span data-ttu-id="ddc4a-109">En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Flujo de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-109">In the left navigation bar, click **Response Groups**, and then click **Workflow**.</span></span>
 
-4.  <span data-ttu-id="70b5b-110">En la página **Flujo de trabajo**, haga clic en **Crear o editar flujo de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="70b5b-110">On the **Workflow** page, click **Create or edit a workflow**.</span></span>
+4.  <span data-ttu-id="ddc4a-110">En la página **Flujo de trabajo**, haga clic en **Crear o editar flujo de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-110">On the **Workflow** page, click **Create or edit a workflow**.</span></span>
 
-5.  <span data-ttu-id="70b5b-111">En el campo de búsqueda **Seleccionar un servicio**, escriba parte del nombre, o el nombre completo, del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea eliminar.</span><span class="sxs-lookup"><span data-stu-id="70b5b-111">In the **Select a Service** search field, type part or all of the name of the **ApplicationServer** service that hosts the workflow that you want to delete.</span></span>
+5.  <span data-ttu-id="ddc4a-111">En el campo de búsqueda **Seleccionar un servicio**, escriba parte del nombre, o el nombre completo, del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea eliminar.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-111">In the **Select a Service** search field, type part or all of the name of the **ApplicationServer** service that hosts the workflow that you want to delete.</span></span>
 
-6.  <span data-ttu-id="70b5b-112">En la lista de servicios, haga clic en el servicio que desee y, a continuación, en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="70b5b-112">In the list of services, click the service that you want, and then click **OK**.</span></span>
+6.  <span data-ttu-id="ddc4a-112">En la lista de servicios, haga clic en el servicio que desee y, a continuación, en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-112">In the list of services, click the service that you want, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="70b5b-113">Se abre la página web herramienta de configuración del grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="70b5b-113">The Response Group Configuration Tool webpage opens.</span></span> <span data-ttu-id="70b5b-114">También puede abrir la Página Web de la herramienta de configuración del grupo de respuesta directamente desde un explorador Web conectándose a <STRONG>&lt;https://fqdngrupoweb&gt;/RgsConfig</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="70b5b-114">You can also open the Response Group Configuration Tool webpage directly from a web browser by connecting to <STRONG>https://&lt;webPoolFqdn&gt;/RgsConfig</STRONG>.</span></span>
+    > <span data-ttu-id="ddc4a-113">Se abre la página web herramienta de configuración del grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-113">The Response Group Configuration Tool webpage opens.</span></span> <span data-ttu-id="ddc4a-114">También puede abrir la Página Web de la herramienta de configuración del grupo de respuesta directamente desde un explorador Web conectándose a <STRONG>https:// &lt; fqdngrupoweb &gt; /RgsConfig</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-114">You can also open the Response Group Configuration Tool webpage directly from a web browser by connecting to <STRONG>https://&lt;webPoolFqdn&gt;/RgsConfig</STRONG>.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="70b5b-115">En **Administrar un flujo de trabajo existente**, localice el flujo de trabajo que desea eliminar y, a continuación, en **Acción**, haga clic en **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="70b5b-115">Under **Manage an Existing Workflow**, locate the workflow you want to delete, and then under **Action**, click **Delete**.</span></span>
+7.  <span data-ttu-id="ddc4a-115">En **Administrar un flujo de trabajo existente**, localice el flujo de trabajo que desea eliminar y, a continuación, en **Acción**, haga clic en **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-115">Under **Manage an Existing Workflow**, locate the workflow you want to delete, and then under **Action**, click **Delete**.</span></span>
 
-8.  <span data-ttu-id="70b5b-116">Haga clic en **Yes** (Sí).</span><span class="sxs-lookup"><span data-stu-id="70b5b-116">Click **Yes**.</span></span>
+8.  <span data-ttu-id="ddc4a-116">Haga clic en **Yes** (Sí).</span><span class="sxs-lookup"><span data-stu-id="ddc4a-116">Click **Yes**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-a-workflow"></a><span data-ttu-id="70b5b-117">Para usar Windows PowerShell para eliminar un flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="70b5b-117">To use Windows PowerShell to delete a workflow</span></span>
+## <a name="to-use-windows-powershell-to-delete-a-workflow"></a><span data-ttu-id="ddc4a-117">Para usar Windows PowerShell para eliminar un flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="ddc4a-117">To use Windows PowerShell to delete a workflow</span></span>
 
-1.  <span data-ttu-id="70b5b-118">Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="70b5b-118">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="ddc4a-118">Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-118">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="70b5b-119">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="70b5b-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="ddc4a-119">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="ddc4a-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="70b5b-120">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="70b5b-120">At the command line, run:</span></span>
+3.  <span data-ttu-id="ddc4a-120">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="ddc4a-120">At the command line, run:</span></span>
     
         Get-CsRgsWorkflow -Identity <Application Server service> -Name "<name of workflow>" | Remove-CsRgsWorkflow
     
-    <span data-ttu-id="70b5b-121">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="70b5b-121">For example:</span></span>
+    <span data-ttu-id="ddc4a-121">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="ddc4a-121">For example:</span></span>
     
         Get-CsRgsWorkflow -Identity service:ApplicationServer:redmond.contoso.com -Name "Help Desk" | Remove-CsRgsWorkflow
 

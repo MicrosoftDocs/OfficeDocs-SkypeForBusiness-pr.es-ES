@@ -12,20 +12,22 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 787286c660106a27a9b6df7d4aedb22adecfb5cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dae2fadbfa9a51d322189be028d835432c796d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517627"
 ---
+# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a><span data-ttu-id="47270-102">Configurar una implementación local para un entorno híbrido con Lync Online</span><span class="sxs-lookup"><span data-stu-id="47270-102">Configuring an on-premises deployment for hybrid with Lync Online</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a><span data-ttu-id="fb781-102">Configurar una implementación local para un entorno híbrido con Lync Online</span><span class="sxs-lookup"><span data-stu-id="fb781-102">Configuring an on-premises deployment for hybrid with Lync Online</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42191923"
 
 <span> </span>
 
-<span data-ttu-id="fb781-103">_**Última modificación del tema:** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="fb781-103">_**Topic Last Modified:** 2014-05-28_</span></span>
+<span data-ttu-id="47270-103">_**Última modificación del tema:** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="47270-103">_**Topic Last Modified:** 2014-05-28_</span></span>
 
-<span data-ttu-id="fb781-104">Una implementación híbrida es una implementación en la que algunos usuarios están hospedados en local y algunos usuarios están alojados en línea, pero todos comparten el mismo dominio, como user@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="fb781-104">A hybrid deployment is a deployment in which some users are homed on-premises and some users are homed online, but all users share the same domain, such as user@contoso.com.</span></span> <span data-ttu-id="fb781-105">Esta sección le guía a lo largo de la implementación de las aplicaciones necesarias para una implementación híbrida y para configurar, a continuación, su implementación para habilitarlo.</span><span class="sxs-lookup"><span data-stu-id="fb781-105">This section guides you through deploying the applications required for a hybrid deployment, and then configuring your deployment to enable it.</span></span>
+<span data-ttu-id="47270-104">Una implementación híbrida es una implementación en la que algunos usuarios están hospedados en local y algunos usuarios están alojados en línea, pero todos comparten el mismo dominio, como user@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="47270-104">A hybrid deployment is a deployment in which some users are homed on-premises and some users are homed online, but all users share the same domain, such as user@contoso.com.</span></span> <span data-ttu-id="47270-105">Esta sección le guía a lo largo de la implementación de las aplicaciones necesarias para una implementación híbrida y para configurar, a continuación, su implementación para habilitarlo.</span><span class="sxs-lookup"><span data-stu-id="47270-105">This section guides you through deploying the applications required for a hybrid deployment, and then configuring your deployment to enable it.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="fb781-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="fb781-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="47270-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="47270-106">In This Section</span></span>
 
-  - [<span data-ttu-id="fb781-107">Información general sobre el entorno híbrido de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb781-107">Overview of the Lync Server 2013 hybrid environment</span></span>](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
+  - [<span data-ttu-id="47270-107">Información general sobre el entorno híbrido de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47270-107">Overview of the Lync Server 2013 hybrid environment</span></span>](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
 
-  - [<span data-ttu-id="fb781-108">Pasos para preparar e implementar el entorno híbrido de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb781-108">Steps to prepare and deploy Lync Server 2013 hybrid environment</span></span>](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
+  - [<span data-ttu-id="47270-108">Pasos para preparar e implementar el entorno híbrido de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47270-108">Steps to prepare and deploy Lync Server 2013 hybrid environment</span></span>](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
 
-  - [<span data-ttu-id="fb781-109">Configurar la Federación de Lync Server 2013 con Lync Online</span><span class="sxs-lookup"><span data-stu-id="fb781-109">Configure federation of Lync Server 2013 with Lync Online</span></span>](lync-server-2013-configure-federation-with-lync-online.md)
+  - [<span data-ttu-id="47270-109">Configurar la Federación de Lync Server 2013 con Lync Online</span><span class="sxs-lookup"><span data-stu-id="47270-109">Configure federation of Lync Server 2013 with Lync Online</span></span>](lync-server-2013-configure-federation-with-lync-online.md)
 
-  - [<span data-ttu-id="fb781-110">Configurar la Federación para un proveedor de servicios de audioconferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb781-110">Configure federation for an audio conferencing provider in Lync Server 2013</span></span>](lync-server-2013-configure-federation-for-an-audio-conferencing-provider.md)
+  - [<span data-ttu-id="47270-110">Configurar la Federación para un proveedor de servicios de audioconferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47270-110">Configure federation for an audio conferencing provider in Lync Server 2013</span></span>](lync-server-2013-configure-federation-for-an-audio-conferencing-provider.md)
 
-  - [<span data-ttu-id="fb781-111">Mover usuarios a Lync Online en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb781-111">Move users to Lync Online in Lync Server 2013</span></span>](lync-server-2013-move-users-to-lync-online.md)
+  - [<span data-ttu-id="47270-111">Mover usuarios a Lync Online en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47270-111">Move users to Lync Online in Lync Server 2013</span></span>](lync-server-2013-move-users-to-lync-online.md)
 
-  - [<span data-ttu-id="fb781-112">Administración de usuarios en una implementación híbrida de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb781-112">Administering users in a hybrid Lync Server 2013 deployment</span></span>](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
+  - [<span data-ttu-id="47270-112">Administración de usuarios en una implementación híbrida de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47270-112">Administering users in a hybrid Lync Server 2013 deployment</span></span>](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
 
 </div>
 
