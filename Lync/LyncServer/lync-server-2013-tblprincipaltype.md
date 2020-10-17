@@ -12,20 +12,22 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0de18da521bd4dadc63d5be592009bd60b643e7b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60fa841f7f88e0da2c428ae68c5007fb79e6c69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536327"
 ---
+# <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-09-12_
 
 tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan para clasificar lo que aparece en la tabla tblPrincipal.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -67,7 +69,7 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 </tr>
 <tr class="odd">
 <td><p>ptypeIsSystemUser</p></td>
-<td><p>bit, not null</p></td>
+<td><p>bit, no NULL</p></td>
 <td><p>Verdadero si el tipo corresponde a las entidades de seguridad utilizadas para fines internos.</p></td>
 </tr>
 <tr class="even">
@@ -138,13 +140,13 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>SystemUser</p></td>
 <td><p>Entidad de identidad usada internamente por el servidor de chat persistente.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>Usuario</p></td>
 <td><p>Usuario habitual.</p></td>
 <td><p>Sí</p></td>
@@ -157,12 +159,12 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 </tr>
 <tr class="odd">
 <td><p>9 </p></td>
-<td><p>Group</p></td>
+<td><p>Grupo</p></td>
 <td><p>Grupo de seguridad de Active Directory.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>Folder</p></td>
 <td><p>Unidad organizativa o contenedor de Active Directory.</p></td>
 <td></td>
@@ -173,7 +175,7 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [tblPrincipal en Lync Server 2013](lync-server-2013-tblprincipal.md)  

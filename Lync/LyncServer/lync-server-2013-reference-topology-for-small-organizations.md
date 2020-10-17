@@ -12,20 +12,22 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 726056b63dfa37864171a77913b5126c23b27045
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68163756f2c2153d1e164999532bc6265400ac5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536737"
 ---
+# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Topología de referencia para Lync Server 2013 en pequeñas organizaciones
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Topología de referencia para Lync Server 2013 en pequeñas organizaciones
+
 
 </div>
 
@@ -43,9 +45,9 @@ La topología de referencia para organizaciones pequeñas muestra cómo puede im
 
 ![Topología de referencia implementar tres diagramas de servidores](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Topología de referencia implementar tres diagramas de servidores")
 
-  - **Par de servidores Standard Edition implementados**     esta organización tiene 4.000 usuarios en su sitio central. La organización ha implementado dos servidores Standard Edition y los ha combinado para habilitar la alta disponibilidad y la recuperación ante desastres. Cada servidor aloja 2.000 usuarios, pero la información acerca de todos los usuarios se sincroniza entre los dos servidores. Si se produce un error, un administrador puede conmutar por error a los usuarios para que los atienda el otro servidor, con el mínimo de interrupciones para los usuarios. Para obtener más información sobre las características de alta disponibilidad y recuperación ante desastres en Lync Server 2013, consulte [planeación de alta disponibilidad y recuperación ante desastres en Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Par de servidores Standard Edition implementados**     Esta organización tiene 4.000 usuarios en su sitio central. La organización ha implementado dos servidores Standard Edition y los ha combinado para habilitar la alta disponibilidad y la recuperación ante desastres. Cada servidor aloja 2.000 usuarios, pero la información acerca de todos los usuarios se sincroniza entre los dos servidores. Si se produce un error, un administrador puede conmutar por error a los usuarios para que los atienda el otro servidor, con el mínimo de interrupciones para los usuarios. Para obtener más información sobre las características de alta disponibilidad y recuperación ante desastres en Lync Server 2013, consulte [planeación de alta disponibilidad y recuperación ante desastres en Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-  - **Se recomienda la implementación de servidores perimetrales.**    Aunque no se requiere la implementación de un servidor perimetral para la mensajería instantánea interna, la presencia y la Conferencia, le recomendamos incluso en el caso de implementaciones pequeñas. Puede maximizar la inversión de Lync Server implementando un servidor perimetral para proporcionar servicio a los usuarios que están actualmente fuera de los firewalls de la organización. Entre las ventajas se incluye lo siguiente:
+  - **Se recomienda la implementación de servidores perimetrales.**     Aunque no se requiere la implementación de un servidor perimetral para la mensajería instantánea interna, la presencia y la Conferencia, le recomendamos incluso en el caso de implementaciones pequeñas. Puede maximizar la inversión de Lync Server implementando un servidor perimetral para proporcionar servicio a los usuarios que están actualmente fuera de los firewalls de la organización. Entre las ventajas se incluye lo siguiente:
     
       - Los propios usuarios de su organización pueden usar la funcionalidad de Lync Server, si trabajan desde casa o están de viaje.
     
@@ -53,7 +55,7 @@ La topología de referencia para organizaciones pequeñas muestra cómo puede im
     
       - Si tiene una organización de asociados, proveedores o clientes que también usa Lync Server, puede crear una *relación federada* con esa organización. La implementación de Lync Server entonces reconocerá a los usuarios de esa organización federada, lo que le proporcionará una mejor colaboración.
     
-      - Los usuarios pueden intercambiar mensajes instantáneos con usuarios de servicios de mensajería instantánea pública, entre los que se incluyen los siguientes: Windows Live,\!AOL, Yahoo y Google Talk. Es posible que se requiera una licencia independiente para la conectividad de mensajería instantánea pública con estos servicios.
+      - Los usuarios pueden intercambiar mensajes instantáneos con usuarios de servicios de mensajería instantánea pública, entre los que se incluyen los siguientes: Windows Live, AOL, Yahoo \! y Google Talk. Es posible que se requiera una licencia independiente para la conectividad de mensajería instantánea pública con estos servicios.
         
         <div>
         
@@ -70,7 +72,7 @@ La topología de referencia para organizaciones pequeñas muestra cómo puede im
         
         </div>
 
-  - **Supervivencia del sitio de sucursal.**    Esta organización está ejecutando un programa piloto de la característica Enterprise Voice de Lync Server. Algunos usuarios usan Lync Server como su única solución de voz. Algunos de estos usuarios de la prueba piloto de voz se encuentran en el sitio de sucursal. El sitio de sucursal no tiene un vínculo de red de área extensa (WAN) confiable al sitio central, por lo que se implementa una aplicación de sucursal con funciones de supervivencia. Con esta implementación, si el vínculo WAN deja de funcionar, los usuarios del sitio de sucursal pueden seguir realizando y recibiendo llamadas (ambas llamadas dentro de la organización y las llamadas RTC), tienen funcionalidad de correo de voz y se comunican con la mensajería instantánea de dos participantes (mi). Los usuarios también pueden autenticarse cuando el vínculo WAN tampoco está disponible.
+  - **Supervivencia del sitio de sucursal.**     Esta organización está ejecutando un programa piloto de la característica Enterprise Voice de Lync Server. Algunos usuarios usan Lync Server como su única solución de voz. Algunos de estos usuarios de la prueba piloto de voz se encuentran en el sitio de sucursal. El sitio de sucursal no tiene un vínculo de red de área extensa (WAN) confiable al sitio central, por lo que se implementa una aplicación de sucursal con funciones de supervivencia. Con esta implementación, si el vínculo WAN deja de funcionar, los usuarios del sitio de sucursal pueden seguir realizando y recibiendo llamadas (ambas llamadas dentro de la organización y las llamadas RTC), tienen funcionalidad de correo de voz y se comunican con la mensajería instantánea de dos participantes (mi). Los usuarios también pueden autenticarse cuando el vínculo WAN tampoco está disponible.
 
   - **Implementación de mensajería unificada de Exchange.** Esta topología de referencia incluye un servidor de mensajería unificada (UM) de Exchange, que ejecuta Microsoft Exchange Server, no Lync Server.
     

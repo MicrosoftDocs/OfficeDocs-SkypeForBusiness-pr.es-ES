@@ -12,20 +12,22 @@ ms:contentKeyID: 48184151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f44f187b751ec9baa78df8890e64332070d8b33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 608757b71903ce5290f5f75936b5e5a3904f07fb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536337"
 ---
+# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>Informar sobre las asignaciones de cuentas Kerberos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>Informar sobre las asignaciones de cuentas Kerberos en Lync Server 2013
+
 
 </div>
 

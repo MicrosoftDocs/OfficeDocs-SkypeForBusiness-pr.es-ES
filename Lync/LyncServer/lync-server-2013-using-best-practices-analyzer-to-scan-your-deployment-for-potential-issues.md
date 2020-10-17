@@ -12,20 +12,22 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f620712404fffe8e46f8f2a6f066c6ffa7b77d74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20a7b43056071ddc2322ff5147de72d818548b86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535887"
 ---
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Uso del analizador de procedimientos recomendados para examinar la implementación de Lync Server 2013 para detectar posibles problemas
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Uso del analizador de procedimientos recomendados para examinar la implementación de Lync Server 2013 para detectar posibles problemas
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Última modificación del tema:** 2012-10-21_
 
 Para ejecutar un examen del Analizador de procedimientos recomendados, debe especificar lo siguiente:
 
-  - **Credenciales**   para ejecutar un examen, debe iniciar sesión en un equipo en el que se haya instalado el analizador de procedimientos recomendados con una cuenta que sea miembro del grupo de administradores locales. Además, tiene que iniciar sesión usando una cuenta de usuario que tenga los derechos de usuario y los permisos necesarios para ejecutar los exámenes adecuados o bien, debe especificar credenciales que tengan los derechos de usuario y permisos adecuados al ejecutar el Analizador de procedimientos recomendados. Para obtener más información, consulte [pertenencias a grupos y requisitos de derechos de usuario para el analizador de procedimientos recomendados en Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
+  - **Credenciales**     Para ejecutar un examen, debe iniciar sesión en un equipo en el que se instale Best Practices Analyzer con una cuenta que sea miembro del grupo de administradores locales. Además, tiene que iniciar sesión usando una cuenta de usuario que tenga los derechos de usuario y los permisos necesarios para ejecutar los exámenes adecuados o bien, debe especificar credenciales que tengan los derechos de usuario y permisos adecuados al ejecutar el Analizador de procedimientos recomendados. Para obtener más información, consulte [pertenencias a grupos y requisitos de derechos de usuario para el analizador de procedimientos recomendados en Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
 
-  - **Ámbito del análisis**   para especificar el ámbito del análisis, seleccione las categorías y los servidores que desee analizar. Puede seleccionar todas las categorías, una o varias categorías, o uno o más servidores dentro de una categoría específica en su entorno de Lync Server.
+  - **Ámbito del examen**     Para especificar el ámbito del análisis, seleccione las categorías y los servidores que desee analizar. Puede seleccionar todas las categorías, una o varias categorías, o uno o más servidores dentro de una categoría específica en su entorno de Lync Server.
 
-  - **Tipo de análisis**   actualmente, el análisis de comprobación de estado es el único tipo de examen disponible (opción predeterminada). El análisis de comprobación de estado genera un informe que incluye errores, advertencias y otra información para todos los servidores especificados en el ámbito.
+  - **Tipo de examen**     Actualmente, el análisis de comprobación de estado es el único tipo de examen disponible (seleccionado de forma predeterminada). El análisis de comprobación de estado genera un informe que incluye errores, advertencias y otra información para todos los servidores especificados en el ámbito.
 
-  - **Velocidad de red**   las opciones de velocidad de red incluyen Fast LAN (100 Mbps o más), LAN (10 Mbps), WAN rápida (1,5 Mbps) o WAN (64 kbps). El tiempo estimado para completar el análisis se basa en esta configuración. Esta configuración también se usa para establecer el período de tiempo de espera. Durante el análisis, el Analizador de procedimientos recomendados espera una respuesta de un servidor durante un tiempo especificado. Si no recibe una respuesta dentro del período de tiempo de espera especificado, pasa al siguiente servidor en el examen. En redes más lentas, este período de tiempo especificado es superior para latencias de red de mayor duración. Se recomienda que seleccione el vínculo más lento en su topología para este parámetro de manera que la herramienta no supere el tiempo de espera tan rápidamente.
+  - **Velocidad**     de red Las opciones de velocidad de la red incluyen Fast LAN (100 Mbps o más), LAN (10 Mbps), WAN rápida (1,5 Mbps) o WAN (64 kbps). El tiempo estimado para completar el análisis se basa en esta configuración. Esta configuración también se usa para establecer el período de tiempo de espera. Durante el análisis, el Analizador de procedimientos recomendados espera una respuesta de un servidor durante un tiempo especificado. Si no recibe una respuesta dentro del período de tiempo de espera especificado, pasa al siguiente servidor en el examen. En redes más lentas, este período de tiempo especificado es superior para latencias de red de mayor duración. Se recomienda que seleccione el vínculo más lento en su topología para este parámetro de manera que la herramienta no supere el tiempo de espera tan rápidamente.
 
 <div>
 

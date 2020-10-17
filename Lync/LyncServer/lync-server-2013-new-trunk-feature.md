@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: nueva característica de tronco'
+description: 'Lync Server 2013: nueva característica de tronco.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0feda45fd6c035209783d173da3a85dec3876e50
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d8f923ceada899608cc350bd1343345c12d0996b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505287"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541946"
 ---
 # <a name="new-trunk-feature-in-lync-server-2013"></a>Nueva característica de tronco en Lync Server 2013
 

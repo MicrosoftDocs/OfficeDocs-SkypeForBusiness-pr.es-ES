@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: prueba de la publicación y suscripción de presencia de usuario'
+description: 'Lync Server 2013: prueba de la publicación y suscripción de presencia de usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335ad014595f855c1ccefab363f3cf34ad7c282b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 90913f270fbd034ca4d2ea7cf3b93c255fc95c66
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503857"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541856"
 ---
 # <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Prueba de publicación de presencia de usuario y suscripción en Lync Server 2013
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50b2908b3f2403cc59f4cb7ce26f176d366ce2e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8893964ce1982c67dc97ed93bca9ba19ec2f24e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194133"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536023"
 ---
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>Prueba de la configuración del servidor LIS en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>Prueba de la configuración del servidor LIS en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsLisConfiguration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsLisConfiguration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsLisConfiguration comprueba su capacidad para ponerse en contacto con el servicio Web de LIS. Si se puede contactar con el servicio Web, la prueba se considerará un éxito, independientemente de si se encuentra alguna ubicación específica.
+El cmdlet Test-CsLisConfiguration comprueba su capacidad para ponerse en contacto con el servicio Web de LIS. Si se puede contactar con el servicio Web, la prueba se considerará un éxito, independientemente de si se encuentra alguna ubicación específica.
 
 </div>
 
@@ -74,7 +76,7 @@ El cmdlet test-CsLisConfiguration comprueba su capacidad para ponerse en contact
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsLisConfguration se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
+El cmdlet Test-CsLisConfguration se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -93,7 +95,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 Si el LIS está configurado correctamente, recibirá un resultado similar al siguiente, con la propiedad result marcada como **correcta:**
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/
+TargetUri https://atl-cs-001.litwareinc.com:443/locationinformation/
 
 liservice. SVC
 
@@ -127,15 +129,15 @@ Test-CsLisConfiguration: no se encontró ningún clúster que coincida en la top
 
 Por ejemplo, la salida anterior incluye la nota "no se encontró ningún clúster que coincida en la topología". Esto suele indicar un problema con el servidor perimetral: el LIS que usa el servidor perimetral para conectarse al proveedor de servicios y validar las direcciones.
 
-Si test-CsLisConfiguration produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
+Si Test-CsLisConfiguration da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Cuando se incluye el parámetro verbose, test-CsLisConfiguration devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo:
+Cuando se incluye el parámetro verbose, Test-CsLisConfiguration devolverá una cuenta paso a paso por cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo:
 
 Servicio de información de ubicación de llamadas.
 
-Ruta de acceso al servicio =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
+Ruta de acceso al servicio = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
 
 Subnet =
 
@@ -165,7 +167,7 @@ No es un valor válido para el identificador de conjunto de servicios (BssID) b�
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsLisConfiguration podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsLisConfiguration podría producir un error:
 
   - Se ha suministrado un valor de parámetro incorrecto. Como se muestra en el ejemplo anterior, los parámetros opcionales deben configurarse correctamente o se producirá un error en la prueba. Vuelva a ejecutar el comando sin los parámetros opcionales y vea si se realiza correctamente.
 

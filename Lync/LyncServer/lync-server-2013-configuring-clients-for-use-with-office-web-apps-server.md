@@ -12,20 +12,22 @@ ms:contentKeyID: 48185668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c1ad26366baef7de4a82896ef5bc35d28c08d89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2bf46a16d38e37dd8faac39a438053dcc7b8c103
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203136"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537067"
 ---
+# <a name="configuring-clients-of-lync-server-2013-for-use-with-office-web-apps-server"></a>Configuración de clientes de Lync Server 2013 para su uso con Office Web Apps Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-clients-of-lync-server-2013-for-use-with-office-web-apps-server"></a>Configuración de clientes de Lync Server 2013 para su uso con Office Web Apps Server
+
 
 </div>
 

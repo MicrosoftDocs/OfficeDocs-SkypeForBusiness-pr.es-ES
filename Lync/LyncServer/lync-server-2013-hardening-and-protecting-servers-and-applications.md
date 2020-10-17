@@ -12,20 +12,22 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2a8de372a8ca0ae6ec8c80a147eb74ffb01d0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3533bcf01338a056bab8c75d1409530fab7c901f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536887"
 ---
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Protección y protección de servidores y aplicaciones para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Protección y protección de servidores y aplicaciones para Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ En el caso de los servidores de aplicaciones, deben protegerse el sistema operat
 
 ## <a name="securing-virtual-servers"></a>Proteger los servidores virtuales
 
-Las instantáneas del servidor virtual contienen copias de los discos de datos del servidor y también contienen volcados de datos en memoria, que pueden contener datos criptográficos confidenciales que podrían dar lugar a ataques. Para los servidores de producción implementados mediante la virtualización, debe deshabilitar todas las instantáneas del servidor o administrarlas de manera controlada. Para obtener más información sobre cómo proteger los servidores virtuales Hyper-V, consulte la guía de seguridad de [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)Hyper-v en:.
+Las instantáneas del servidor virtual contienen copias de los discos de datos del servidor y también contienen volcados de datos en memoria, que pueden contener datos criptográficos confidenciales que podrían dar lugar a ataques. Para los servidores de producción implementados mediante la virtualización, debe deshabilitar todas las instantáneas del servidor o administrarlas de manera controlada. Para obtener más información sobre cómo proteger los servidores virtuales Hyper-V, consulte la guía de seguridad de Hyper-V en: [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176) .
 
 </div>
 
@@ -85,7 +87,7 @@ En Windows Server 2008 y Windows Server 2008 R2, la directiva de grupo permite l
 
 Para proporcionar una interfaz de usuario para que el Administrador configure estas opciones, se incluyen plantillas administrativas con versiones de sistema operativo, versiones de Service Pack y algunas aplicaciones, incluido Lync Server 2013.
 
-El archivo Communicator. adm es una plantilla administrativa que se incluye con Lync Server 2013, se instala en el directorio%\\WINDIR\\ % inf y proporciona una interfaz a la configuración de la Directiva de grupo. Cada valor de configuración de Communicator.adm se corresponde con un valor del Registro que afecta al comportamiento de la aplicación.
+El archivo Communicator. adm es una plantilla administrativa que se incluye con Lync Server 2013, se instala en el directorio% WINDIR% \\ INF \\ y proporciona una interfaz a la configuración de la Directiva de grupo. Cada valor de configuración de Communicator.adm se corresponde con un valor del Registro que afecta al comportamiento de la aplicación.
 
 Se puede obtener acceso a esta configuración desde GPedit.dll, que está disponible en la consola Usuarios y equipos de Active Directory y en la Consola de administración de directivas de grupo (GPMC).
 
@@ -95,7 +97,7 @@ Se puede obtener acceso a esta configuración desde GPedit.dll, que está dispon
 
 ## <a name="group-policy-security-settings"></a>Configuración de seguridad de la directiva de grupo
 
-La directiva de grupo contiene una configuración de seguridad para un GPO en Configuración del equipo/Configuración de Windows/Configuración de seguridad si se obtiene acceso desde GPedit.dll. Puede importar plantillas de seguridad para definir la configuración de seguridad del GPO. La guía de seguridad de Windows Server [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) 2008 en y el kit de herramientas de administración de cumplimiento [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) de seguridad de Windows Server 2008 R2 incluyen una serie de plantillas de ejemplo que puede modificar para satisfacer sus necesidades.
+La directiva de grupo contiene una configuración de seguridad para un GPO en Configuración del equipo/Configuración de Windows/Configuración de seguridad si se obtiene acceso desde GPedit.dll. Puede importar plantillas de seguridad para definir la configuración de seguridad del GPO. La guía de seguridad de Windows Server 2008 en [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) y el kit de herramientas de administración de cumplimiento de seguridad de Windows server 2008 R2 [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) incluyen una serie de plantillas de ejemplo que puede modificar para satisfacer sus necesidades.
 
 </div>
 

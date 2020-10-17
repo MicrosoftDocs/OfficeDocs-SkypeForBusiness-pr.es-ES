@@ -12,20 +12,22 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8b2059048823c1a8f063d0d7832759ec64e6341
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 831968516ef155d6ad018f33bfa27226f58292dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204516"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537147"
 ---
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Configurar el DNS para el equilibrio de carga en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Configurar el DNS para el equilibrio de carga en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-10-01_
 
 Para completar con éxito este procedimiento, debe iniciar sesión en el servidor o dominio, al menos, como miembro del grupo administradores del dominio o como miembro del grupo DnsAdmins.
 
-El equilibrio de carga del sistema de nombres de dominio (DNS) equilibra el tráfico de red que es único en Lync Server 2013, como el tráfico SIP y el tráfico multimedia. El equilibrio de carga de DNS es compatible con los grupos de servidores front-end, los grupos de servidores perimetrales, los grupos de directores y los grupos de servidores de mediación independientes. Un grupo configurado para usar el equilibrio de carga de DNS debe tener definidos dos nombres de dominio completos (FQDN): el FQDN de grupo de servidores normal que usa el equilibrio de carga de DNS (por ejemplo, pool1.contoso.com) y que se resuelve en las IP físicas de los servidores del grupo. y otro FQDN para los servicios web del grupo de servidores (por ejemplo, web1.contoso.net), que se resuelve en la dirección IP virtual del grupo de servidores. Para obtener más información sobre el equilibrio de carga de DNS, vea [equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación referente a la planeación.
+El equilibrio de carga del sistema de nombres de dominio (DNS) equilibra el tráfico de red que es único en Lync Server 2013, como el tráfico SIP y el tráfico multimedia. El equilibrio de carga de DNS es compatible con los grupos de servidores front-end, los grupos de servidores perimetrales, los grupos de directores y los grupos de servidores de mediación independientes. Un grupo de servidores configurado para usar el equilibrio de carga de DNS debe tener definidos dos nombres de dominio completos (FQDN): el FQDN de grupo normal que usa el equilibrio de carga de DNS (por ejemplo, pool1.contoso.com) y que se resuelve en las direcciones IP físicas de los servidores del grupo, y otro FQDN para los servicios web del grupo de servidores (por ejemplo, web1.contoso.net), que se resuelve en la dirección IP virtual del grupo. Para obtener más información sobre el equilibrio de carga de DNS, vea [equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación referente a la planeación.
 
 <div>
 
@@ -180,7 +182,7 @@ Antes de usar el equilibrio de carga de DNS, deberá hacer lo siguiente:
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb58becb1b495c16338ef9590ede8fb4005bc2d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dc5d3905df971cf5ce09bfb026acc4838974ff18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215666"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536807"
 ---
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Informe de voz y vídeo punto a punto en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Informe de voz y vídeo punto a punto en Lync Server 2013
+
 
 </div>
 
@@ -94,12 +96,12 @@ Los filtros proporcionan una forma de devolver un conjunto de datos más especí
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 13:00</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
+<p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -177,7 +179,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>No</p></td>
 <td><p>Nombre del grupo de registrador o servidor perimetral usado para la llamada.</p></td>
 </tr>
@@ -274,7 +276,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 <td><p>Indica si los clientes iniciaron sesión en la red interna o en la red externa cuando se realizó la llamada. Los valores suelen ser los siguientes:</p>
 <ul>
 <li><p>Interno</p></li>
-<li><p>External</p></li>
+<li><p>Externo</p></li>
 <li><p>Mixtos</p></li>
 </ul></td>
 </tr>

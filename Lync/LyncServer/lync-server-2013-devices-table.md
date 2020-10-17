@@ -12,20 +12,22 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8906519253445ea67f3fa674a9a1315f8f6cf18b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5fdc4c3b20bdd60d2c8013b79a15bdfd30b56af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213506"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536937"
 ---
+# <a name="devices-table-in-lync-server-2013"></a>Tabla Devices en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="devices-table-in-lync-server-2013"></a>Tabla Devices en Lync Server 2013
+
 
 </div>
 
@@ -58,19 +60,19 @@ La tabla Dispositivos es una tabla de apoyo. Cada registro almacena información
 <tbody>
 <tr class="odd">
 <td><p><strong>DeviceId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número único que identifica esta versión de hardware.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ManufacturerId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Fabricante de este dispositivo. Consulte la <a href="lync-server-2013-manufacturers-table.md">tabla fabricantes en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HardwareVersionId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Versión de hardware de este dispositivo. Consulte la <a href="lync-server-2013-hardwareversions-table.md">tabla HardwareVersions en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>

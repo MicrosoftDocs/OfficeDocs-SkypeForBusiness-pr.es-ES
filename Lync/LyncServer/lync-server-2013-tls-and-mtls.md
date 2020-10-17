@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: TLS y MTLS'
+description: 'Lync Server 2013: TLS y MTLS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 59893873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e22fcf910062df155bb62a9da183bbe6ad73e0f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a0ccee47e635435dd5f0d5eae03711c0cd5e517b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541796"
 ---
 # <a name="tls-and-mtls-for-lync-server-2013"></a>TLS y MTLS para Lync Server 2013
 

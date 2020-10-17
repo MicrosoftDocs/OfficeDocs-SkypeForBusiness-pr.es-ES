@@ -12,20 +12,22 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 629fa8ea52148e25bd37fa448d9762fbfd557788
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7da23bc56d18b1b5e6235551f7b99cc15e658fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535937"
 ---
+# <a name="troubleshooting-lync-server-2013-control-panel"></a>Solución de problemas del Panel de control de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-lync-server-2013-control-panel"></a>Solución de problemas del Panel de control de Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ El panel de control de Lync Server requiere que esté instalada la versión 4.0.
 
 </div>
 
-Si su explorador de Internet bloquea la instalación de Silverlight por motivos de seguridad, agregue el localizador uniforme de recursos (URL) que abre el panel de control de Lync Server a la lista de sitios de confianza. En la configuración de seguridad de Internet Explorer, asegúrese de que **Ejecutar controles y complementos de ActiveX** esté **Habilitado**. Para obtener más información [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060), consulte. Además, asegúrese de que el explorador esté configurado para usar SSL 3.0.
+Si su explorador de Internet bloquea la instalación de Silverlight por motivos de seguridad, agregue el localizador uniforme de recursos (URL) que abre el panel de control de Lync Server a la lista de sitios de confianza. En la configuración de seguridad de Internet Explorer, asegúrese de que **Ejecutar controles y complementos de ActiveX** esté **Habilitado**. Para obtener más información, consulte [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060) . Además, asegúrese de que el explorador esté configurado para usar SSL 3.0.
 
 Si el explorador de Internet está configurado para usar un servidor proxy, compruebe que el explorador esté configurado para omitir el servidor proxy en sitios detectados automáticamente como sitios internos. También puede agregar la dirección a la lista de excepciones del explorador en los valores de configuración del servidor proxy.
 
@@ -121,7 +123,7 @@ Si usa una dirección URL sencilla para acceder al panel de control de Lync Serv
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Herramientas administrativas de Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)  

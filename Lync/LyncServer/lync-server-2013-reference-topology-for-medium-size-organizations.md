@@ -12,20 +12,22 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10246ff2c6257376a0252cf2f9540007a1fc59ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b2549acbf8b5eac2ac909eb213d6d73e8233b0a2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536707"
 ---
+# <a name="reference-topology-for-lync-server-2013-in-medium-size-organizations"></a>Topología de referencia para Lync Server 2013 en organizaciones de tamaño mediano
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topology-for-lync-server-2013-in-medium-size-organizations"></a>Topología de referencia para Lync Server 2013 en organizaciones de tamaño mediano
+
 
 </div>
 
@@ -43,23 +45,23 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
 
 ![Topología de referencia para un solo diagrama de centro de datos](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Topología de referencia para un solo diagrama de centro de datos")
 
-  - **Agregar más servidores front-end para dar cabida a más usuarios.**    La topología exacta de este diagrama tiene tres servidores front-end para proporcionar compatibilidad con 20.000 usuarios. Si tiene un único sitio central y más usuarios, simplemente puede agregar más servidores front-end al grupo. El número máximo de usuarios por grupo es 80.000, con doce servidores front-end.
+  - **Agregar más servidores front-end para dar cabida a más usuarios.**     La topología exacta de este diagrama tiene tres servidores front-end para proporcionar compatibilidad con 20.000 usuarios. Si tiene un único sitio central y más usuarios, simplemente puede agregar más servidores front-end al grupo. El número máximo de usuarios por grupo es 80.000, con doce servidores front-end.
     
     Sin embargo, la topología de sitio único puede admitir aún más usuarios si se agrega otro grupo de servidores front-end al sitio.
 
-  - **Se puede Agregar la recuperación ante desastres.**    Para esta organización, la alta disponibilidad de los servicios de Lync Server es una característica necesaria, pero no la de recuperación ante desastres. El grupo de servidores front-end que ha implementado proporciona alta disponibilidad.
+  - **Se puede Agregar la recuperación ante desastres.**     Para esta organización, la alta disponibilidad de los servicios de Lync Server es una característica necesaria, pero no la de recuperación ante desastres. El grupo de servidores front-end que ha implementado proporciona alta disponibilidad.
     
     Si quisieran agregar la capacidad de recuperación ante desastres, podrían considerar la posibilidad de establecer otro centro de recursos y agregar otro grupo de servidores front-end y emparejarlo con el grupo de servidores front-end en su centro de recursos actual. A continuación, si hubiera un desastre que afectara a su grupo principal, los administradores podrían conmutar por error a los usuarios al grupo de copia de seguridad.
 
-  - **Los servidores back-end están reflejados**   para proporcionar una mayor disponibilidad para las características básicas de usuario, la organización ha implementado un par de servidores back-end reflejados para cada grupo de servidores front-end. Se trata de una nueva opción de topología para Lync Server 2013 y es opcional. En su lugar, puede optar por implementar un único servidor back-end.
+  - **Los servidores back-end están reflejados**     Para proporcionar mayor disponibilidad para las características básicas de usuario, la organización ha implementado un par reflejado de servidores back-end para cada grupo de servidores front-end. Se trata de una nueva opción de topología para Lync Server 2013 y es opcional. En su lugar, puede optar por implementar un único servidor back-end.
 
-  - **Opciones de base de datos del servidor de supervisión.**    Esta organización ha implementado la supervisión para garantizar la calidad de las llamadas de telefonía IP empresarial y las conferencias de a/V. La supervisión se implementa en todos los servidores front-end y la base de datos de supervisión se combina con los servidores back-end. También se admiten topologías en las que la base de datos de supervisión se encuentra en un servidor independiente.
+  - **Opciones de base de datos del servidor de supervisión.**     Esta organización ha implementado la supervisión para garantizar la calidad de las llamadas de telefonía IP empresarial y las conferencias de A/V. La supervisión se implementa en todos los servidores front-end y la base de datos de supervisión se combina con los servidores back-end. También se admiten topologías en las que la base de datos de supervisión se encuentra en un servidor independiente.
 
-  - **Alta disponibilidad**    del servidor perimetral en esta organización de ejemplo con 20.000 usuarios, solo un servidor perimetral sería suficiente para el rendimiento. Sin embargo, hay un grupo de dos servidores perimetrales implementados para proporcionar alta disponibilidad.
+  - **Alta disponibilidad**     del servidor perimetral En esta organización de ejemplo con 20.000 usuarios, solo un servidor perimetral sería suficiente para el rendimiento. Sin embargo, hay un grupo de dos servidores perimetrales implementados para proporcionar alta disponibilidad.
 
-  - **Opciones de implementación de sitios de sucursal.**    La organización de esta topología tiene implementada la telefonía IP empresarial como solución de voz. El sitio de sucursal 1 no tiene un vínculo de red de área extensa (WAN) resistente al sitio central, por lo que tiene una aplicación de sucursal con funciones de supervivencia implementada para mantener muchas características de Lync Server en caso de que el vínculo WAN al sitio central deje de funcionar. Sin embargo, el sitio de sucursal 2 tiene un vínculo WAN resistente, por lo que solo se necesita una puerta de enlace de red telefónica conmutada (RTC). La puerta de enlace RTC implementada allí permite el desvío de medios, por lo que no se necesita ningún servidor de mediación en el sitio de sucursal 2. Para obtener más información sobre cómo decidir qué implementar en un sitio de sucursal, consulte [Planning for Branch-site Voice Resiliency en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) en la documentación referente a la planeación.
+  - **Opciones de implementación de sitios de sucursal.**     La organización de esta topología tiene implementada la telefonía IP empresarial como solución de voz. El sitio de sucursal 1 no tiene un vínculo de red de área extensa (WAN) resistente al sitio central, por lo que tiene una aplicación de sucursal con funciones de supervivencia implementada para mantener muchas características de Lync Server en caso de que el vínculo WAN al sitio central deje de funcionar. Sin embargo, el sitio de sucursal 2 tiene un vínculo WAN resistente, por lo que solo se necesita una puerta de enlace de red telefónica conmutada (RTC). La puerta de enlace RTC implementada allí permite el desvío de medios, por lo que no se necesita ningún servidor de mediación en el sitio de sucursal 2. Para obtener más información sobre cómo decidir qué implementar en un sitio de sucursal, consulte [Planning for Branch-site Voice Resiliency en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) en la documentación referente a la planeación.
 
-  - **Equilibrio de carga de DNS.**    El grupo de servidores front-end andEdge, tiene el equilibrio de carga de DNS para el tráfico SIP implementado. Este equilibrio elimina la necesidad de equilibradores de carga de hardware para los servidores perimetrales y reduce notablemente la configuración y el mantenimiento de los equilibradores de carga de hardware de otros grupos de servidores, ya que estos equilibradores solo se necesitan para tráfico HTTP. Para obtener más información sobre el equilibrio de carga de DNS, vea [equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación referente a la planeación.
+  - **Equilibrio de carga de DNS.**     El grupo de servidores front-end andEdge, tiene el equilibrio de carga de DNS para el tráfico SIP implementado. Este equilibrio elimina la necesidad de equilibradores de carga de hardware para los servidores perimetrales y reduce notablemente la configuración y el mantenimiento de los equilibradores de carga de hardware de otros grupos de servidores, ya que estos equilibradores solo se necesitan para tráfico HTTP. Para obtener más información sobre el equilibrio de carga de DNS, vea [equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación referente a la planeación.
 
   - **Implementación de mensajería unificada de Exchange.** Esta topología de referencia incluye un servidor de mensajería unificada (UM) de Exchange, que ejecuta Microsoft Exchange Server, no Lync Server.
     
@@ -67,7 +69,7 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
 
   - **Office Web Apps Server.** Se recomienda implementar un Office Web Apps Server o granja de servidores de Office Web Apps Server en cada organización que use conferencias web. Office Web Apps Server permite presentar diapositivas de PowerPoint en conferencias web. Para obtener más información, consulte Configuración de la [integración con Office Web Apps Server y Lync server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-  - **Se recomiendan los servidores perimetrales.**    Aunque no es necesario implementar un servidor perimetral, se recomienda para cualquier tamaño de implementación. Puede maximizar la inversión de Lync Server implementando un servidor perimetral para proporcionar servicio a los usuarios que están actualmente fuera de los firewalls de la organización. Entre las ventajas se incluye lo siguiente:
+  - **Se recomiendan los servidores perimetrales.**     Aunque no es necesario implementar un servidor perimetral, se recomienda para cualquier tamaño de implementación. Puede maximizar la inversión de Lync Server implementando un servidor perimetral para proporcionar servicio a los usuarios que están actualmente fuera de los firewalls de la organización. Entre las ventajas se incluye lo siguiente:
     
       - Los propios usuarios de su organización pueden usar la funcionalidad de Lync Server, si trabajan desde casa o están de viaje.
     
@@ -75,7 +77,7 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
     
       - Si tiene una organización de asociados, proveedores o clientes que también usa Lync Server, puede crear una *relación federada* con esa organización. La implementación de Lync Server entonces reconocerá a los usuarios de esa organización federada, lo que le proporcionará una mejor colaboración.
     
-      - Los usuarios pueden intercambiar mensajes instantáneos con usuarios de servicios de mensajería instantánea pública, entre los que se incluyen los siguientes: Windows Live,\!AOL, Yahoo y Google Talk. Es posible que se requiera una licencia independiente para la conectividad de mensajería instantánea pública con estos servicios.
+      - Los usuarios pueden intercambiar mensajes instantáneos con usuarios de servicios de mensajería instantánea pública, entre los que se incluyen los siguientes: Windows Live, AOL, Yahoo \! y Google Talk. Es posible que se requiera una licencia independiente para la conectividad de mensajería instantánea pública con estos servicios.
         
         <div>
         
@@ -92,9 +94,9 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
         
         </div>
 
-  - **Se pueden agregar directores.**    Si esta organización deseara ayudar a aumentar la seguridad contra ataques por denegación de servicio, también podría implementar un grupo de directores. Un director es un rol de servidor opcional e independiente en Lync Server que no aloja cuentas de usuario ni proporciona servicios de presencia o conferencia. Actúa como un servidor interno del próximo salto en el que un servidor perimetral enruta el tráfico SIP entrante destinado a los servidores internos. El director autentica previamente las solicitudes entrantes y las redirige al servidor o grupo de servidores principales del usuario. La preautenticación en el Director permite omitir solicitudes de cuentas de usuario desconocidas en la implementación. Un director ayuda a aislar los servidores front-end del tráfico malintencionado, como los ataques por denegación de servicio (DoS). Si la red está inundada con tráfico externo no válido en un ataque de este tipo, el tráfico termina en el director.
+  - **Se pueden agregar directores.**     Si esta organización deseara ayudar a aumentar la seguridad contra ataques por denegación de servicio, también podría implementar un grupo de directores. Un director es un rol de servidor opcional e independiente en Lync Server que no aloja cuentas de usuario ni proporciona servicios de presencia o conferencia. Actúa como un servidor interno del próximo salto en el que un servidor perimetral enruta el tráfico SIP entrante destinado a los servidores internos. El director autentica previamente las solicitudes entrantes y las redirige al servidor o grupo de servidores principales del usuario. La preautenticación en el Director permite omitir solicitudes de cuentas de usuario desconocidas en la implementación. Un director ayuda a aislar los servidores front-end del tráfico malintencionado, como los ataques por denegación de servicio (DoS). Si la red está inundada con tráfico externo no válido en un ataque de este tipo, el tráfico termina en el director.
 
-  - **Se recomienda System Center Operations Manager.**   Le recomendamos que supervise el estado de la implementación de Lync Server para ayudar a garantizar la disponibilidad del servicio para los usuarios finales. Puede supervisar Lync con el módulo de administración de System Center Operations Manager para Lync que está disponible como descarga gratuita de Microsoft. Con el paquete de administración de Lync, puede obtener alertas en tiempo real de forma proactiva cuando surgen problemas, ejecutar transacciones sintéticas para probar la funcionalidad de un extremo a otro de Lync, obtener informes para la disponibilidad del servicio y así sucesivamente. Esto le ayudará a responder de forma proactiva a los problemas con su implementación antes de que los usuarios finales los experimenten.
+  - **Se recomienda System Center Operations Manager.**    Le recomendamos que supervise el estado de la implementación de Lync Server para ayudar a garantizar la disponibilidad del servicio para los usuarios finales. Puede supervisar Lync con el módulo de administración de System Center Operations Manager para Lync que está disponible como descarga gratuita de Microsoft. Con el paquete de administración de Lync, puede obtener alertas en tiempo real de forma proactiva cuando surgen problemas, ejecutar transacciones sintéticas para probar la funcionalidad de un extremo a otro de Lync, obtener informes para la disponibilidad del servicio y así sucesivamente. Esto le ayudará a responder de forma proactiva a los problemas con su implementación antes de que los usuarios finales los experimenten.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 625400f6b6cd602de247cc0bdf612e81713e1663
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3cac704c6f62903c502ae5a4345ee0848c775d6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195153"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536217"
 ---
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a>tblSiopWhiteList en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblsiopwhitelist-in-lync-server-2013"></a>tblSiopWhiteList en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-06-28_
 
 tblSiopWhiteList es la lista de complementos registrados que es posible asociar con nodos.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>

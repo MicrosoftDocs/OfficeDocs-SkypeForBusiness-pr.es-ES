@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: iniciar servicios en servidores'
+description: 'Lync Server 2013: inicie los servicios en los servidores.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185912
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d276dfdedacdcb00b4cc19a486fea1103c0bc8d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c238d7ddbba66604314d146a2e7f86eaa85eeb9f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541916"
 ---
 # <a name="start-services-on-servers-for-lync-server-2013"></a>Inicie los servicios en los servidores para Lync Server 2013
 

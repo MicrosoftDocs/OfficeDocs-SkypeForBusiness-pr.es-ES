@@ -12,20 +12,22 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94999d2f3ce69308e38da1b261a4b0d96a2ef5cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a7c3251ef5ff907dbf9964daaca222584953e75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194153"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536087"
 ---
+# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>Prueba de la sesión de conferencia de acceso telefónico local en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>Prueba de la sesión de conferencia de acceso telefónico local en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsDialInConferencing. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsDialInConferencing. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialInConferencing&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsDialInConferencing comprueba si un usuario puede participar en una conferencia de acceso telefónico local. Test-CsDialInConferencing funciona intentando registrar un usuario de prueba en el sistema. Si el inicio de sesión se realiza correctamente, el cmdlet usará las credenciales y permisos del usuario para probar todos los números de acceso de conferencia de acceso telefónico disponibles. Se indicará el éxito o el error de cada intento de acceso telefónico y, a continuación, el usuario de prueba se cerrará en Lync Server. test-CsDialInConferencing solo comprueba que se puedan realizar las conexiones adecuadas. El cmdlet no realiza ninguna llamada telefónica real ni crea ninguna conferencia de acceso telefónico a la que puedan unirse otros usuarios.
+El cmdlet Test-CsDialInConferencing comprueba si un usuario puede participar en una conferencia de acceso telefónico local. Test-CsDialInConferencing funciona tratando de registrar un usuario de prueba en el sistema. Si el inicio de sesión se realiza correctamente, el cmdlet usará las credenciales y permisos del usuario para probar todos los números de acceso de conferencia de acceso telefónico disponibles. Se indicará el éxito o el error de cada intento de acceso telefónico y, a continuación, el usuario de prueba se cerrará en Lync Server. test-CsDialInConferencing solo comprueba que se puedan realizar las conexiones adecuadas. El cmdlet no realiza ninguna llamada telefónica real ni crea ninguna conferencia de acceso telefónico a la que puedan unirse otros usuarios.
 
 </div>
 
@@ -74,7 +76,7 @@ El cmdlet test-CsDialInConferencing comprueba si un usuario puede participar en 
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsDialInConferencing se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
+El cmdlet Test-CsDialInConferencing se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 
@@ -121,7 +123,7 @@ Excepción interna: error de NegotiateSecurityAssociation, error:-
 
 Diagnóstico
 
-El resultado anterior indica que se ha denegado el acceso del usuario de prueba a Lync Server. Normalmente, esto significa que las credenciales de usuario pasadas a test-CsDialInConferencing no eran válidas. A su vez, debe volver a crear el objeto de credenciales de Windows PowerShell. Aunque puede recuperar la contraseña de la cuenta de usuario, puede comprobar la dirección SIP con un comando similar a este:
+El resultado anterior indica que se ha denegado el acceso del usuario de prueba a Lync Server. Normalmente, esto significa que las credenciales de usuario pasadas a Test-CsDialInConferencing no eran válidas. A su vez, debe volver a crear el objeto de credenciales de Windows PowerShell. Aunque puede recuperar la contraseña de la cuenta de usuario, puede comprobar la dirección SIP con un comando similar a este:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress
 
@@ -131,7 +133,7 @@ El resultado anterior indica que se ha denegado el acceso del usuario de prueba 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsDialInConferencing podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsDialInConferencing podría producir un error:
 
   - Ha especificado una cuenta de usuario que no es válida. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     

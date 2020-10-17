@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: iniciar servicios en el director'
+description: 'Lync Server 2013: inicie los servicios en el director.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1958ce00884bcb60318598f8088fe60aae69ac3f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 51c134099fb328b8647ed7a9176987c06eeb8070
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509587"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541816"
 ---
 # <a name="start-services-on-the-director-in-lync-server-2013"></a>Iniciar servicios en el Director en Lync Server 2013
 

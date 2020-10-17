@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: usar config. XML para realizar tareas de instalación'
+title: 'Lync Server 2013: usar Config.xml para realizar tareas de instalación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2933da3fc52cc6a5c23f74806ff3a4e81dcb2ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 901d95797955c6f545c0d305e2c855829c92addf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535787"
 ---
+# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Uso de Config.xml para realizar tareas de instalación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Uso de config. XML para realizar tareas de instalación en Lync Server 2013
+
 
 </div>
 
@@ -51,13 +53,13 @@ Aunque la Herramienta de personalización de Office (OCT) es la principal herram
 
   - Agregar o quitar idiomas de la instalación.
 
-Le recomendamos que use el archivo config. XML para configurar la instalación silenciosa de Lync 2013.
+Le recomendamos que use el archivo Config.xml para configurar la instalación silenciosa de Lync 2013.
 
-De forma predeterminada, el archivo config. XML que se almacena en la carpeta de producto principal (por \\ejemplo, producto. WW) indica al programa de instalación que instale ese producto. Por ejemplo, el archivo config. XML de la siguiente carpeta instala Lync 2013:
+De forma predeterminada, el archivo de Config.xml que se almacena en la carpeta de producto principal (por ejemplo, \\ producto. WW) indica al programa de instalación que instale ese producto. Por ejemplo, el archivo de Config.xml de la siguiente carpeta instala Lync 2013:
 
-  - \\\\Server\\share\\Lync15\\Lync. WW \\config. XML
+  - \\\\servidor \\ compartir \\ Lync15 \\ Lync. WW \\Config.xml
 
-Los elementos de config. XML que se usan con más frecuencia para la instalación de Lync 2013 se enumeran en la siguiente tabla.
+En la tabla siguiente se enumeran los elementos de Config.xml más usados para la instalación de Lync 2013.
 
 ### <a name="configxml-elements"></a>Elementos de Config.xml
 
@@ -81,24 +83,24 @@ Los elementos de config. XML que se usan con más frecuencia para la instalació
 <td><p>OptionState</p></td>
 <td><p>Especifica cómo las características específicas del producto se controlan durante la instalación. Use los siguientes atributos para impedir la instalación de servicios de conectividad empresarial, que incluye componentes compartidos que interfieren con Outlook 2010:</p>
 <ul>
-<li><p>ID =&quot;LOBiMain&quot;</p></li>
-<li><p>Estado =&quot;ausente&quot;</p></li>
-<li><p>Children =&quot;forzar&quot;</p></li>
+<li><p>ID = &quot; LOBiMain&quot;</p></li>
+<li><p>Estado = &quot; ausente&quot;</p></li>
+<li><p>Children = &quot; forzar&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Visualización</p></td>
 <td><p>El nivel de interfaz de usuario que el programa de instalación muestra al usuario. Los atributos típicos incluyen los siguientes:</p>
 <ul>
-<li><p>CompletionNotice =&quot;Yes&quot; | &quot;no&quot;(valor predeterminado)</p></li>
-<li><p>AcceptEula =&quot;Yes&quot; | &quot;no&quot;(valor predeterminado)</p></li>
+<li><p>CompletionNotice = &quot; yes &quot;  |  &quot; no &quot; (valor predeterminado)</p></li>
+<li><p>AcceptEula = &quot; yes &quot;  |  &quot; no &quot; (valor predeterminado)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Registro</p></td>
 <td><p>Opciones para el tipo de registro que realiza el programa de instalación. Los atributos típicos incluyen los siguientes:</p>
 <ul>
-<li><p>Tipo =&quot;OFF&quot; | &quot;Standard&quot;(valor predeterminado) | &quot;Verbose&quot;</p></li>
+<li><p>Tipo = &quot; OFF &quot;  |  &quot; Standard &quot; (valor predeterminado) | &quot; Detallado&quot;</p></li>
 <li><p>Template=”nombredearchivo.txt” (el nombre del archivo de registro)</p></li>
 </ul></td>
 </tr>
@@ -106,8 +108,8 @@ Los elementos de config. XML que se usan con más frecuencia para la instalació
 <td><p>Configuración</p></td>
 <td><p>Especifica los valores de propiedades de Windows Installer. Los atributos típicos incluyen los siguientes:</p>
 <ul>
-<li><p>Setting ID =&quot;name&quot; (el nombre de la propiedad de Windows Installer)</p></li>
-<li><p>Valor =&quot;valor&quot; (el valor para asignar a la propiedad)</p></li>
+<li><p>Setting ID = &quot; name &quot; (el nombre de la propiedad de Windows Installer)</p></li>
+<li><p>Valor = &quot; valor &quot; (el valor para asignar a la propiedad)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -121,7 +123,7 @@ Los elementos de config. XML que se usan con más frecuencia para la instalació
 </table>
 
 
-En el ejemplo siguiente se muestra un archivo config. XML para una instalación silenciosa típica de Lync 2013.
+En el ejemplo siguiente se muestra un archivo de Config.xml para una instalación silenciosa típica de Lync 2013.
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,7 +133,7 @@ En el ejemplo siguiente se muestra un archivo config. XML para una instalación 
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Encontrará información detallada sobre cómo usar el archivo config. XML para realizar tareas de instalación y mantenimiento de <https://go.microsoft.com/fwlink/p/?linkid=267514>Office en.
+Encontrará información detallada sobre cómo usar el archivo de Config.xml para realizar tareas de instalación y mantenimiento de Office en <https://go.microsoft.com/fwlink/p/?linkid=267514> .
 
 <div>
 
@@ -141,7 +143,7 @@ Encontrará información detallada sobre cómo usar el archivo config. XML para 
 
 2.  Localice las líneas que contienen los elementos que desee cambiar.
 
-3.  Modifique la entrada de elemento con las opciones silenciosas que desea usar. Asegúrese de quitar los delimitadores de comentario, "\<\!--" y "--\>". Por ejemplo, utilice la sintaxis siguiente:
+3.  Modifique la entrada de elemento con las opciones silenciosas que desea usar. Asegúrese de quitar los delimitadores de comentarios (" \<\!--" and "--\> "). Por ejemplo, utilice la sintaxis siguiente:
     
         < DistributionPoint Location="\\server\share\Lync15" />
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b07ddfa11f23c7e5183c243020c441db7219660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0b06176a033c90ff915fccb145dac3b3ed6fe87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536127"
 ---
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Requisitos técnicos para el grupo de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Requisitos técnicos para el grupo de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ La aplicación de grupo de respuesta tiene los mismos requisitos de hardware que
 
 La aplicación de grupo de respuesta tiene los mismos requisitos de sistema operativo y requisitos previos de software que los servidores front-end. Para obtener más información sobre los requisitos de software, consulte [Server and Tools Operating System support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación sobre compatibilidad.
 
-Si usa archivos de audio de Windows Media (. WMA) para la música del grupo de respuesta y los anuncios, todos los servidores front-end o los servidores de Standard Edition que ejecutan la aplicación de grupo de respuesta deben tener instalado el tiempo de ejecución de Windows Media Format para los servidores que ejecutan Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecutan Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, el tiempo de ejecución de Windows Media Format se instala como parte de la experiencia de escritorio de Windows.
+Si usa archivos de audio de Windows Media (. WMA) para la música del grupo de respuesta y anuncios, todos los servidores front-end o los servidores Standard Edition que ejecutan la aplicación de grupo de respuesta deben tener instalado el tiempo de ejecución de Windows Media Format para los servidores que ejecutan Windows Server 2008 R2 o Microsoft Media Foundation para los servidores que ejecutan Windows Server 2012 o Windows 2012 Server Para Windows Server 2008 R2, el tiempo de ejecución de Windows Media Format se instala como parte de la experiencia de escritorio de Windows.
 
 Para más detalles sobre los requisitos de audio, vea "Requisitos de archivos de audio" más adelante en esta sección.
 
@@ -75,9 +77,9 @@ Para más detalles sobre los requisitos de audio, vea "Requisitos de archivos de
 
 La aplicación de grupo de respuesta usa los siguientes puertos:
 
-  - **Puerto 5071**   usado para solicitudes de escucha SIP
+  - **Puerto 5071**     Se usa para solicitudes de escucha SIP
 
-  - **Puerto 8404**   usado para las comunicaciones entre servidores
+  - **Puerto 8404**     Se usa para las comunicaciones entre servidores
     
     <div>
     
@@ -132,7 +134,7 @@ Para obtener el máximo rendimiento de los archivos wave, se recomienda usar un 
 
 Si usa un archivo de audio Windows Media, considere la posibilidad de usar velocidades de bits lentas y compruebe el rendimiento del sistema cuando se somete a carga.
 
-Puede usar Microsoft Expression Encoder 4 para convertir un archivo al formato de audio de Windows Media. Para descargar Expression Encoder 4, mira [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843).
+Puede usar Microsoft Expression Encoder 4 para convertir un archivo al formato de audio de Windows Media. Para descargar Expression Encoder 4, mira [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) .
 
 </div>
 
@@ -172,7 +174,7 @@ La herramienta de configuración de grupos de respuesta admite las combinaciones
 <td><p>Windows Vista con Service Pack (SP) 2</p></td>
 <td><p>Internet Explorer 7</p>
 <p>Internet Explorer 8 (modo nativo)</p>
-<p>Internet Explorer 9 (native mode)</p></td>
+<p>Internet Explorer 9 (modo nativo)</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 7</p>
@@ -232,7 +234,7 @@ La consola de agente admite combinaciones de los sistemas operativos y los explo
 <td><p>Windows Vista con Service Pack (SP) 2</p></td>
 <td><p>Internet Explorer 7</p>
 <p>Internet Explorer 8 (modo nativo)</p>
-<p>Internet Explorer 9 (native mode)</p></td>
+<p>Internet Explorer 9 (modo nativo)</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 7</p>

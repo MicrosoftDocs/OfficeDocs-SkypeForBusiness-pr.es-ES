@@ -12,20 +12,22 @@ ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be41eb547589c74b070a55325efcfd05e33f4588
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 22d3e88cae787a47d1fe519cfbe5c27acf5ad821
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196533"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537277"
 ---
+# <a name="building-an-edge-and-director-topology-in-lync-server-2013"></a>Creación de una topología perimetral y de Director en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="building-an-edge-and-director-topology-in-lync-server-2013"></a>Creación de una topología perimetral y de Director en Lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Última modificación del tema:** 2012-09-08_
 
 La creación de la topología implica las siguientes tareas de planeación e implementación:
 
-  - **Planeación**   tiene que definir una topología adecuada para su organización e identificar los componentes necesarios para implementarla. Estos son los pasos estándar del proceso de planeación. La herramienta de planeación de Microsoft Lync Server 2013, que se proporciona con Lync Server 2013 facilita el inicio del proceso de planeación, así como la capacidad de realizar cambios fácilmente a medida que se finalizan los requisitos y los planes.
+  - **Planeación**     Debe definir una topología adecuada para su organización e identificar los componentes necesarios para implementarla. Estos son los pasos estándar del proceso de planeación. La herramienta de planeación de Microsoft Lync Server 2013, que se proporciona con Lync Server 2013 facilita el inicio del proceso de planeación, así como la capacidad de realizar cambios fácilmente a medida que se finalizan los requisitos y los planes.
 
-  - **Implementación**   la topología que se define mediante el generador de topologías es esencial para la implementación de cualquier servidor de Lync Server 2013. Si no termina de definir y publicar la topología con el generador de topologías como parte de los esfuerzos de planeación, debe completarla y publicar la topología antes de implementar los servidores perimetrales.
+  - **Implementación**     de La topología que se define mediante el generador de topologías es esencial para la implementación de cualquier servidor de Lync Server 2013. Si no termina de definir y publicar la topología con el generador de topologías como parte de los esfuerzos de planeación, debe completarla y publicar la topología antes de implementar los servidores perimetrales.
 
 No puede implementar componentes del servidor perimetral hasta que haya implementado al menos un grupo interno y debe instalar el generador de topologías para implementar un grupo de servidores interno. Esta sección no cubre la instalación del generador de topologías porque es parte del proceso de instalación del grupo interno.
 

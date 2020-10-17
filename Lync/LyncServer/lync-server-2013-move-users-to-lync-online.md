@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: mover usuarios a Lync Online'
+description: 'Lync Server 2013: mover usuarios a Lync Online.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 189bf46da6c6bdaa6749f899d2a672967680cc45
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 501eda3a76cec3226831c0af3631317377cd82cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500577"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542005"
 ---
 # <a name="move-users-to-lync-online-in-lync-server-2013"></a>Mover usuarios a Lync Online en Lync Server 2013
 

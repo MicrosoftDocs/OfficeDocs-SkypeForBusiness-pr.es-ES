@@ -12,20 +12,22 @@ ms:contentKeyID: 49733564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db68b4612e2adb08a391d6ee3d8e590aefbb7a8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b613a8cd890b3c31028715a6eaac98462295602
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211406"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535747"
 ---
+# <a name="view-lync-phone-edition-configuration-settings-information-in-lync-server-2013"></a>Ver información de opciones de configuración de Lync Phone Edition en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-lync-phone-edition-configuration-settings-information-in-lync-server-2013"></a>Ver información de opciones de configuración de Lync Phone Edition en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211406"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Puede ver la información de configuración de los dispositivos que ejecutan Lync Phone Edition. La información se organiza en colecciones. Al instalar Lync Server, obtiene una colección de opciones de configuración de Lync Phone Edition que se aplican a todos los dispositivos que ejecutan Lync Phone Edition en su implementación. También puede crear nuevas colecciones de opciones de configuración para un sitio específico. La configuración del sitio tiene prioridad sobre la configuración global. Cada colección de opciones de configuración consta de un nombre, el ámbito (global o sitio), la configuración de seguridad SIP, el nivel de registro, el nivel de calidad de servicio (QoS), la configuración de bloqueo de teléfono y los detalles de bloqueo de teléfono, es decir, la longitud mínima del bloque de identificación personal número (PIN) y tiempo antes de que el teléfono se bloquee a sí mismo.
+Puede ver la información de configuración de los dispositivos que ejecutan Lync Phone Edition. La información se organiza en colecciones. Al instalar Lync Server, obtiene una colección de opciones de configuración de Lync Phone Edition que se aplican a todos los dispositivos que ejecutan Lync Phone Edition en su implementación. También puede crear nuevas colecciones de opciones de configuración para un sitio específico. La configuración del sitio tiene prioridad sobre la configuración global. Cada colección de opciones de configuración consta de un nombre, el ámbito (global o sitio), la configuración de seguridad SIP, el nivel de registro, el nivel de calidad de servicio (QoS), la configuración de bloqueo de teléfono y los detalles de bloqueo de teléfono, es decir, la longitud mínima del número de identificación personal (PIN) y el tiempo antes de que el teléfono se bloquee
 
 <div>
 
@@ -57,7 +59,7 @@ Puede ver la información de configuración de los dispositivos que ejecutan Lyn
 
 ## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a>Ver la información de configuración de Lync Phone Edition mediante cmdlets de Windows PowerShell
 
-Puede ver las opciones de configuración de Lync Phone Edition mediante el shell de administración de Lync Server y el cmdlet **Get-CsUCPhoneConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede ver las opciones de configuración de Lync Phone Edition mediante el shell de administración de Lync Server y el cmdlet **Get-CsUCPhoneConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -87,7 +89,7 @@ Para obtener más información, consulte [Get-CsUCPhoneConfiguration](https://do
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear o modificar una colección de opciones de configuración de Lync Phone Edition en Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)  

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: procedimientos estándar'
+description: 'Lync Server 2013: procedimientos estándar.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98f08eb27b35f6b8b9bcdbfcd4c5daff19bc2f70
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: df5de93b36423115a5785dde9fcbd40a05af602b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533007"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541756"
 ---
 # <a name="standard-procedures-in-lync-server-2013"></a>Procedimientos estándar en Lync Server 2013
 

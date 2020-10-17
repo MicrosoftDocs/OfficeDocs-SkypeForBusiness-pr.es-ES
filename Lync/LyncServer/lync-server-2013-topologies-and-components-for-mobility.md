@@ -12,20 +12,22 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ccce5823e997cafc5e8c8e7555df18bc67d1fe6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b27472526f98bc0f867b027fe111aac9c4f9aab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535977"
 ---
+# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Topologías y componentes para movilidad en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Topologías y componentes para movilidad en Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Para admitir aplicaciones móviles de Lync en dispositivos móviles, Lync Server
 
 Los servicios compatibles con la movilidad son los siguientes:
 
-  - **Lync Server 2013 la API Web de comunicaciones unificadas (UCWA)**   proporciona servicios para comunicaciones en tiempo real con clientes móviles y Web en Lync Server 2013. Al implementar las actualizaciones acumulativas para Lync Server 2013: el 2013 de febrero al Director y al servidor front-end, la instalación crea un directorio virtual en los servicios Web internos y externos (Ucwa). Un componente web que forma parte del directorio virtual Ucwa acepta llamadas de clientes habilitados con UCWA. Las aplicaciones cliente se comunican a través de una interfaz REST para presencia, contactos, mensajería instantánea, VoIP, videoconferencia y colaboración. UCWA usa un canal basado en P-GET para enviar eventos, como una llamada entrante, un mensaje instantáneo entrante o un mensaje a la aplicación cliente.
+  - **Lync Server 2013 API Web de comunicaciones unificadas (UCWA)**     Proporciona servicios para comunicaciones en tiempo real con clientes móviles y Web en Lync Server 2013. Al implementar las actualizaciones acumulativas para Lync Server 2013: el 2013 de febrero al Director y al servidor front-end, la instalación crea un directorio virtual en los servicios Web internos y externos (Ucwa). Un componente web que forma parte del directorio virtual Ucwa acepta llamadas de clientes habilitados con UCWA. Las aplicaciones cliente se comunican a través de una interfaz REST para presencia, contactos, mensajería instantánea, VoIP, videoconferencia y colaboración. UCWA usa un canal basado en P-GET para enviar eventos, como una llamada entrante, un mensaje instantáneo entrante o un mensaje a la aplicación cliente.
     
     <div>
     
@@ -78,7 +80,7 @@ Los servicios compatibles con la movilidad son los siguientes:
     
     </div>
 
-  - **Lync Server 2013 Mobility Service (MCX)**   este servicio admite la funcionalidad de Lync, como la mensajería instantánea (mi), la presencia y los contactos, en dispositivos móviles. El servicio de movilidad se instala en todos los servidores front-end de cada grupo de servidores que admitan la funcionalidad de Lync en dispositivos móviles. Al instalar Lync Server 2013, se crea un nuevo directorio virtual (MCX) en el sitio Web interno y en el sitio web externo de los servidores front-end.
+  - **Lync Server 2013 Mobility Service (MCX)**     Este servicio admite la funcionalidad de Lync, como la mensajería instantánea (mi), la presencia y los contactos, en dispositivos móviles. El servicio de movilidad se instala en todos los servidores front-end de cada grupo de servidores que admitan la funcionalidad de Lync en dispositivos móviles. Al instalar Lync Server 2013, se crea un nuevo directorio virtual (MCX) en el sitio Web interno y en el sitio web externo de los servidores front-end.
     
     <div>
     
@@ -89,7 +91,7 @@ Los servicios compatibles con la movilidad son los siguientes:
     
     </div>
 
-  - **Servicio Detección automática de Lync Server 2013**   este servicio identifica la ubicación del usuario y habilita los dispositivos móviles y otros clientes de Lync para localizar recursos (como las direcciones URL internas y externas para los servicios Web de Lync Server 2013) y la dirección URL de MCX o UCWA, independientemente de la ubicación de red. La detección automática usa nombres de host codificados (lyncdiscoverinternal para los usuarios dentro de la red; lyncdiscover para los usuarios fuera de la red) y el dominio SIP del usuario. Admite conexiones de cliente que usan HTTP o HTTPS.
+  - Servicio Detección automática de **Lync Server 2013**     Este servicio identifica la ubicación del usuario y habilita los dispositivos móviles y otros clientes de Lync para localizar recursos (como las direcciones URL internas y externas para los servicios Web de Lync Server 2013) y la dirección URL para MCX o UCWA, independientemente de la ubicación de red. La detección automática usa nombres de host codificados (lyncdiscoverinternal para los usuarios dentro de la red; lyncdiscover para los usuarios fuera de la red) y el dominio SIP del usuario. Admite conexiones de cliente que usan HTTP o HTTPS.
     
     El servicio de detección automática se instala en todos los servidores front-end y en todos los directores de cada grupo que es compatible con la funcionalidad de Lync en dispositivos móviles. Al instalar el servicio Detección automática, se crea un nuevo directorio virtual (detección automática) en el sitio Web interno y en el sitio web externo, tanto en los servidores front-end como en los directores.
     
@@ -102,7 +104,7 @@ Los servicios compatibles con la movilidad son los siguientes:
     
     </div>
 
-  - **Servicio de notificaciones de inserción**   este servicio es un servicio basado en la nube que se encuentra en el centro de datos de Lync Online. Cuando la aplicación móvil de Lync en un dispositivo iOS de Apple compatible o Windows Phone está inactiva, no puede responder a nuevos eventos, como una nueva invitación de mensajería instantánea (mi), un mensaje instantáneo perdido, una llamada perdida o un correo de voz, porque estos dispositivos no admiten aplicaciones móviles que se ejecutan en segundo plano. En estos casos, se envía una notificación del nuevo evento (denominado *notificación de inserción*) al dispositivo móvil. El servicio de movilidad envía la notificación al servicio de notificación de inserción basado en la nube, que, a continuación, envía la notificación al servicio de notificaciones push de Apple (APN) (para dispositivos Apple iOS compatibles) o al servicio de notificación de inserción de Microsoft (MPNS ) (para Windows Phone), que a su vez la envía al dispositivo móvil. A continuación, el usuario puede responder a la notificación en el dispositivo móvil para activar la aplicación.
+  - Servicio de notificaciones de **inserción**     Este servicio es un servicio basado en la nube que se encuentra en el centro de datos de Lync Online. Cuando la aplicación móvil de Lync en un dispositivo iOS de Apple compatible o Windows Phone está inactiva, no puede responder a nuevos eventos, como una nueva invitación de mensajería instantánea (mi), un mensaje instantáneo perdido, una llamada perdida o un correo de voz, porque estos dispositivos no admiten las aplicaciones móviles que se ejecutan en segundo plano. En estos casos, se envía una notificación del nuevo evento (denominado *notificación de inserción*) al dispositivo móvil. El servicio de movilidad envía la notificación al servicio de notificación de inserción basado en la nube, que, a continuación, envía la notificación al servicio de notificaciones de inserción de Apple (APNS) (para dispositivos compatibles de Apple iOS) o a Microsoft Push Notification Service (MPNS) (para Windows Phone), que, a continuación, lo envía al dispositivo móvil. A continuación, el usuario puede responder a la notificación en el dispositivo móvil para activar la aplicación.
     
     Lync 2010 Mobile en dispositivos Apple y Windows Phone usan notificaciones de inserción. El cliente móvil de Lync 2013 para dispositivos Apple que se incorporó con las actualizaciones acumulativas para Lync Server 2013: febrero de 2013 ya no usa la notificación de inserción ni el centro de enrutamiento de notificaciones de inserción (PNCH).
 
@@ -144,7 +146,7 @@ Una implementación de Lync Server 2013 sin las actualizaciones acumulativas par
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación del acceso de usuarios externos en Lync Server 2013](lync-server-2013-planning-for-external-user-access.md)  
