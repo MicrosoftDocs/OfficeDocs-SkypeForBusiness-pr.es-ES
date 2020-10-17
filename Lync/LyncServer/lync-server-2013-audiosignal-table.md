@@ -12,20 +12,22 @@ ms:contentKeyID: 48183217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de07393ef9f43346d0c1b4c96dcfdcf33f00513a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2605bfbd3e1d4023c013557aea2bcf75404fb23c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195843"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533517"
 ---
+# <a name="audiosignal-table-in-lync-server-2013"></a>Tabla AudioSignal en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiosignal-table-in-lync-server-2013"></a>Tabla AudioSignal en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Cada registro representa métricas de señal de audio para un punto de conexión
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
@@ -83,43 +85,43 @@ Cada registro representa métricas de señal de audio para un punto de conexión
 </tr>
 <tr class="odd">
 <td><p><strong>SendSignalLevel</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Representa el nivel de señal de audio de control de ganancia posterior analógico. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe tener al menos 30 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvSignalLevel</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Consulte SendSignalLevel.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SendNoiseLevel</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Representa el nivel de ruido de audio del control de ganancia posterior analógico. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe ser inferior a 35 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvNoiseLevel</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Consulte SendNoiseLevel.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EchoReturn</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Métrica de mejora de pérdida de devolución de eco. La unidad para esta métrica es dB. Los valores inferiores representan menos eco. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioSpeakerGlitchRate</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Media de problemas por cinco minutos para la representación del altavoz. Para obtener una buena calidad, debe ser inferior a uno por cinco minutos. No notificado por los servidores de conferencia A/V, los servidores de mediación o los teléfonos IP.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AudioMicGlitchRate</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Media de problemas por cinco minutos para la captura del micrófono. Para una buena calidad, debe ser inferior a uno por cinco minutos. No notificado por los servidores de conferencia A/V, los servidores de mediación o los teléfonos IP.</p></td>
 </tr>
@@ -187,19 +189,19 @@ Cada registro representa métricas de señal de audio para un punto de conexión
 </tr>
 <tr class="even">
 <td><p><strong>RxAGCSignalLevel</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Nivel de señal recibido en el servidor de mediación de la puerta de enlace; Esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para obtener una buena calidad, el intervalo aceptable debe ser [-30 a-18] dBoV.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RxAGCNoiseLevel</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Nivel de señal recibido en el servidor de mediación de la puerta de enlace. Esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para obtener una buena calidad, el intervalo aceptable debe ser inferior a-50 dBoV.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RxAvgAGCGain</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Control de ganancia automático (AGC) en el servidor de mediación.</p></td>
 </tr>
@@ -211,56 +213,56 @@ Cada registro representa métricas de señal de audio para un punto de conexión
 </tr>
 <tr class="even">
 <td><p><strong>RecvSignalLevelCh1</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Nivel de señal tal y como se recibe en el canal 1.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvSignalLevelCh2</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Nivel de señal como recibido en el canal 2.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvNoiseLevelCh1</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Nivel de ruido según se recibe en el canal 1.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvNoiseLevelCh2</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Nivel de ruido que se recibe en el canal 2.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendSignalLevelCh1</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Nivel de señal como enviado en el canal 1.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SendSignalLevelCh2</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Nivel de señal como enviado en el canal 2.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendNoiseLevelCh1</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Nivel de ruido enviado en el canal 1.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SendNoiseLevelCh2</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Nivel de ruido enviado en el canal 2.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50457100f1ba476fd3ddfa923b73acd6bfe6d843
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33461781f0392d0e6e4fbfa21bdde8948e7a9a1e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532587"
 ---
+# <a name="configuring-network-site-links-in-lync-server-2013"></a>Configuración de vínculos a sitios de red en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-site-links-in-lync-server-2013"></a>Configuración de vínculos a sitios de red en Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ En una configuración de control de admisión de llamadas (CAC), puede crear dir
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    En este ejemplo se crea un nuevo vínculo de sitio\_de red denominado Reno Portland que establece las limitaciones de ancho de banda entre los sitios de red Reno y Portland. El perfil de la directiva de sitios de red y de ancho de banda debe existir antes de ejecutar este comando.
+    En este ejemplo se crea un nuevo vínculo de sitio de red denominado Reno \_ Portland que establece las limitaciones de ancho de banda entre los sitios de red Reno y Portland. El perfil de la directiva de sitios de red y de ancho de banda debe existir antes de ejecutar este comando.
 
 Para obtener descripciones de parámetros detalladas, consulte [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) en la documentación del shell de administración de Lync Server. Para recuperar una lista de perfiles de directivas de ancho de banda que puedan aplicarse al vínculo de sitio de red, ejecute el cmdlet **Get-CsNetworkBandwidthPolicyProfile**. Para obtener más información, consulte [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) en la documentación del shell de administración de Lync Server.
 
@@ -65,7 +67,7 @@ Para obtener descripciones de parámetros detalladas, consulte [New-CsNetworkInt
 
 2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  Use el cmdlet **Set-CsNetworkInterSitePolicy** para modificar las propiedades de un vínculo de sitio de red. Puede modificar uno de los sitios conectados (o ambos), y también puede modificar el perfil de directiva de banda de ancha asociado al vínculo. Este es un ejemplo de cómo modificar el perfil de directiva de ancho de banda de un\_vínculo a sitios denominado Reno Portland:
+3.  Use el cmdlet **Set-CsNetworkInterSitePolicy** para modificar las propiedades de un vínculo de sitio de red. Puede modificar uno de los sitios conectados (o ambos), y también puede modificar el perfil de directiva de banda de ancha asociado al vínculo. Este es un ejemplo de cómo modificar el perfil de directiva de ancho de banda de un vínculo a sitios denominado Reno \_ Portland:
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
@@ -81,7 +83,7 @@ Para obtener descripciones de parámetros detalladas, consulte [set-CsNetworkInt
 
 2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-3.  Use el cmdlet **Remove-CsNetworkInterSitePolicy** para quitar un vínculo de sitio de red. En el siguiente ejemplo se elimina el\_vínculo de sitio de red Reno Portland:
+3.  Use el cmdlet **Remove-CsNetworkInterSitePolicy** para quitar un vínculo de sitio de red. En el siguiente ejemplo se elimina el \_ vínculo de sitio de red Reno Portland:
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
@@ -91,7 +93,7 @@ Para obtener descripciones de parámetros detalladas, consulte [Remove-CsNetwork
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Cmdlets de control de admisión de llamadas en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)  

@@ -16,30 +16,77 @@ metadata:
   ms.collection:
   - M365-collaboration
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 04e3c6ea65a010d995c109819b7e4a58384344f4
-  ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+  ms.openlocfilehash: 20ecaa02743b4de8664287d41118761e1da00b74
+  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 07/09/2020
-  ms.locfileid: "45086136"
+  ms.lasthandoff: 10/16/2020
+  ms.locfileid: "48531737"
 items:
 - durationInMinutes: 2
-  content: "\nLa herramienta Network Planner está disponible en el centro de administración de Teams. Le ayuda a determinar los requisitos de red para su organización. Este escenario de ejemplo muestra cómo puede usar la herramienta para crear sitios, roles y ejecutar informes para una empresa llamada contoso. \n\n## <a name=\"before-you-begin\"></a>Antes de comenzar\n\nDamos por hecho que ya conoce el camino del centro de administración de Teams, y que está familiarizado con lo que tiene que hacer para preparar su red para Teams. Si este es el primer artículo que ha visto en planificador de red, le recomendamos que siga los artículos siguientes en primer lugar.\n\n- [Preparar la red de la organización para Microsoft Teams](prepare-network.md)\n- [Usar el planificador de red para Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Información general de la red de Contoso\n\nContoso tiene tres ubicaciones:\n\n- **Sede central de Seattle:** Esta es la ubicación principal de contoso. Tiene 1000 empleados y 25 de ellos solo llaman. El sitio está conectado a Internet y hay una conexión telefónica local (RTC). Contoso tiene la configuración de enrutamiento directo para poder usar la conexión telefónica local con Teams. \n- **Kirkland Office:** Esta sucursal tiene 400 empleados y 10 solo está llamando. El sitio usa su conexión a la sede central para el tráfico por Internet y por teléfono (RTC). Esta oficina está conectada a la sede de Seattle mediante una conexión WAN.\n- **Oficina de Denver:** Esta oficina tiene 250 empleados y 50 son solo llamadas. El sitio tiene su propia conexión local a Internet, pero no tiene conexión telefónica directa (RTC).\n\nComencemos.\n"
+  content: "La herramienta Network Planner está disponible en el centro de administración de Teams. Le ayuda a determinar los requisitos de red para su organización. Este escenario de ejemplo muestra cómo puede usar la herramienta para crear sitios, roles y ejecutar informes para una empresa llamada contoso. \n\n## <a name=\"before-you-begin\"></a>Antes de comenzar\n\nDamos por hecho que ya conoce el camino del centro de administración de Teams, y que está familiarizado con lo que tiene que hacer para preparar su red para Teams. Si este es el primer artículo que ha visto en planificador de red, le recomendamos que siga los artículos siguientes en primer lugar.\n\n- [Preparar la red de la organización para Microsoft Teams](prepare-network.md)\n- [Usar el planificador de red para Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Información general de la red de Contoso\n\nContoso tiene tres ubicaciones:\n\n- **Sede central de Seattle:** Esta es la ubicación principal de contoso. Tiene 1000 empleados y 25 de ellos solo llaman. El sitio está conectado a Internet y hay una conexión telefónica local (RTC). Contoso tiene la configuración de enrutamiento directo para poder usar la conexión telefónica local con Teams. \n- **Kirkland Office:** Esta sucursal tiene 400 empleados y 10 solo está llamando. El sitio usa su conexión a la sede central para el tráfico por Internet y por teléfono (RTC). Esta oficina está conectada a la sede de Seattle mediante una conexión WAN.\n- **Oficina de Denver:** Esta oficina tiene 250 empleados y 50 son solo llamadas. El sitio tiene su propia conexión local a Internet, pero no tiene conexión telefónica directa (RTC).\n\nComencemos.\n"
 - title: Agregar un plan de red
   durationInMinutes: 2
-  content: "\nEn el centro de administración de Teams, expanda **configuración para toda la organización** y, a continuación, seleccione **planificador de red**. Lo primero que debe hacer es crear un plan de red. \n\n1. Haga clic en **Agregar un plan de red** \n2. En el panel **nuevo plan de red** , agregue un nombre y una descripción para el plan de red. Para este ejemplo, usaremos *Contoso1* como nombre de plan y plan de *red de Contoso* como descripción.\n3. Haga clic en **Guardar**\n\n![Agregar un nuevo plan de red](media/network-planner-new-network-plan.png)\n\nDespués de guardar el plan de red, aparecerá en la lista de planes de red. \n\n![Lista de planes de red](media/network-planner-network-plans.png)\n"
+  content: "En el centro de administración de Teams, expanda **configuración para toda la organización** y, a continuación, seleccione **planificador de red**. Lo primero que debe hacer es crear un plan de red. \n\n1. Haga clic en **Agregar un plan de red** \n2. En el panel **nuevo plan de red** , agregue un nombre y una descripción para el plan de red. Para este ejemplo, usaremos *Contoso1* como nombre de plan y plan de *red de Contoso* como descripción.\n3. Haga clic en **Guardar**\n\n![Agregar un nuevo plan de red](media/network-planner-new-network-plan.png)\n\nDespués de guardar el plan de red, aparecerá en la lista de planes de red. \n\n![Lista de planes de red](media/network-planner-network-plans.png)\n"
 - title: Crear personas personalizadas
   durationInMinutes: 2
-  content: "\nA continuación, debe crear los roles necesarios para representar a los usuarios. Puesto que cada ubicación tiene usuarios especializados que solo realizarán llamadas telefónicas, debe crear ese rol.\n\n1. En la página planificador de redes, haga clic en la pestaña **personas** y, a continuación, haga clic en **+ rol personalizado**. \n2. Agregar un nombre y una descripción para este rol, para este ejemplo, simplemente llamaremos *a*él.\n3. Active el **audio** y desactive todo lo demás para que las llamadas sean el único permiso activado.\n4. Haga clic en **Guardar** para agregar el rol a la lista.\n\n![Agregar un rol en el organizador de red](media/network-planner-add-persona.png)\n"
+  content: "A continuación, debe crear los roles necesarios para representar a los usuarios. Puesto que cada ubicación tiene usuarios especializados que solo realizarán llamadas telefónicas, debe crear ese rol.\n\n1. En la página planificador de redes, haga clic en la pestaña **personas** y, a continuación, haga clic en **+ rol personalizado**. \n2. Agregar un nombre y una descripción para este rol, para este ejemplo, simplemente llamaremos *a*él.\n3. Active el **audio** y desactive todo lo demás para que las llamadas sean el único permiso activado.\n4. Haga clic en **Guardar** para agregar el rol a la lista.\n\n![Agregar un rol en el organizador de red](media/network-planner-add-persona.png)\n"
 - title: Agregar sitios a su plan de red
   durationInMinutes: 5
-  content: "\nAhora, debe agregar los tres sitios a su plan de red. En la tabla siguiente se resumen las características de las ubicaciones de red de contoso.\n\n|Ubicación       |Número total de empleados|Llamar solo a empleados|Conexión a Internet       |Conexión RTC                |\n|---------------|-------------------------|----------------------|--------------------------|-------------------------------|\n|Oficina central de Seattle     |1000                     |veinticinco                    |Internet local            |RTC locales con enrutamiento directo|\n|Kirkland Office|400                      |base10                    |Internet remoto a través de HQ|RTC remotos a través de HQ         |\n|Oficina de Denver  |250                      |50                    |Internet local            |Sin conexión RTC             |\n\n1. Haga clic en su plan de red en planificador de red.\n2. Seleccione la pestaña **sitios de red** y haga clic en **Agregar un sitio de red**.\n\n![Agregar un sitio de red](media/network-planner-add-network-site.png)\n\n3. Con la tabla anterior, rellene los detalles del sitio de Seattle HQ.\n\n![Detalles del nuevo sitio](media/network-planner-add-network-site-2.png)\n\n4. Puesto que el sitio de Seattle HQ tiene conexiones a Internet locales y RTC locales, necesita especificar correctamente estas características.\n\n![Nueva configuración de salida del sitio](media/network-planner-add-network-site-egress.png)\n\n5. Haga clic en **Guardar** para completar la adición del sitio de Seattle HQ.\n6. Crear el sitio de Denver con el mismo proceso.\n7. Puesto que el sitio de Kirkland aprovecha la conexión a la sede central de Seattle, tanto para la conectividad de Internet como con la RTC, se considera un sitio remoto. Al crear el sitio Kirkland, debe especificar que está conectado a la red WAN y seleccionar el *modo remoto* para la **salida de Internet** y la salida de **RTC**.\n\n![Configuración de salida del sitio remoto](media/network-planner-add-remote-site-egress.png)\n"
+  content: >
+    Ahora, debe agregar los tres sitios a su plan de red. En la tabla siguiente se resumen las características de las ubicaciones de red de contoso.
+
+
+    |Ubicación       |Número total de empleados|Llamar solo a empleados|Conexión a Internet       |Conexión RTC                |
+
+    |---------------|-------------------------|----------------------|--------------------------|-------------------------------|
+
+    |Oficina central de Seattle     |1000                     |veinticinco                    |Internet local            |RTC locales con enrutamiento directo|
+
+    |Kirkland Office|400                      |base10                    |Internet remoto a través de HQ|RTC remotos a través de HQ         |
+
+    |Oficina de Denver  |250                      |50                    |Internet local            |Sin conexión RTC             |
+
+
+    1. Haga clic en su plan de red en planificador de red.
+
+    2. Seleccione la pestaña **sitios de red** y haga clic en **Agregar un sitio de red**.
+
+
+    ![Agregar un sitio de red](media/network-planner-add-network-site.png)
+
+
+    3. Con la tabla anterior, rellene los detalles del sitio de Seattle HQ.
+
+
+    ![Detalles del nuevo sitio](media/network-planner-add-network-site-2.png)
+
+
+    4. Puesto que el sitio de Seattle HQ tiene conexiones a Internet locales y RTC locales, necesita especificar correctamente estas características.
+
+
+    ![Nueva configuración de salida del sitio](media/network-planner-add-network-site-egress.png)
+
+
+    5. Haga clic en **Guardar** para completar la adición del sitio de Seattle HQ.
+
+    6. Crear el sitio de Denver con el mismo proceso.
+
+    7. Puesto que el sitio de Kirkland aprovecha la conexión a la sede central de Seattle, tanto para la conectividad de Internet como con la RTC, se considera un sitio remoto. Al crear el sitio Kirkland, debe especificar que está conectado a la red WAN y seleccionar el *modo remoto* para la **salida de Internet** y la salida de **RTC**.
+
+
+    ![Configuración de salida del sitio remoto](media/network-planner-add-remote-site-egress.png)
 - title: Crear un informe
   durationInMinutes: 3
-  content: "\nAhora que ha agregado los sitios, puede crear un informe. Definirá su distribución de usuario al crear el informe.\n\n1. Seleccione la pestaña **Informe** y, a continuación, haga clic en **iniciar un informe**. Se abrirá la página de distribución de usuario. Para empezar, agregue un nombre y una descripción para el informe.\n\n![Crear un informe de Network Planner](media/network-planner-add-report.png)  \n\n2. La primera vez que inicie un informe, los recuentos de usuarios de cada sitio se distribuirán automáticamente, por ejemplo 80% a los trabajadores de Office, 20% a trabajadores remotos. Aquí es donde ajustará la cantidad de usuarios de cada rol para que coincidan con el llenado de usuario. Supongamos que Contoso tiene el mismo 80/20 dividido entre los trabajadores de oficina y los trabajadores remotos de cada sitio. Asegúrese de tomar las llamadas únicamente de la cantidad de usuarios de la oficina. La distribución resultante debería tener un aspecto similar a la imagen a continuación.\n\n![Distribución de usuarios entre diferentes roles para cada sitio](media/network-planner-persona-distribution-2.png)\n"
+  content: "Ahora que ha agregado los sitios, puede crear un informe. Definirá su distribución de usuario al crear el informe.\n\n1. Seleccione la pestaña **Informe** y, a continuación, haga clic en **iniciar un informe**. Se abrirá la página de distribución de usuario. Para empezar, agregue un nombre y una descripción para el informe.\n\n![Crear un informe de Network Planner](media/network-planner-add-report.png)  \n\n2. La primera vez que inicie un informe, los recuentos de usuarios de cada sitio se distribuirán automáticamente, por ejemplo 80% a los trabajadores de Office, 20% a trabajadores remotos. Aquí es donde ajustará la cantidad de usuarios de cada rol para que coincidan con el llenado de usuario. Supongamos que Contoso tiene el mismo 80/20 dividido entre los trabajadores de oficina y los trabajadores remotos de cada sitio. Asegúrese de tomar las llamadas únicamente de la cantidad de usuarios de la oficina. La distribución resultante debería tener un aspecto similar a la imagen a continuación.\n\n![Distribución de usuarios entre diferentes roles para cada sitio](media/network-planner-persona-distribution-2.png)\n"
 - title: Analizar la salida del informe
   durationInMinutes: 5
-  content: "\nUna vez que haya generado el informe, verá una pantalla en la que se muestran los requisitos de ancho de banda como valores específicos generales y de modalidad. De forma predeterminada, el ancho de banda permitido se establece en 30%. Si cambia este valor y hace clic en **Ejecutar Informe**, puede ver el impacto diferente en el ancho de banda de la red. Todas las áreas que necesiten más ancho de banda se resaltarán en rojo.\n\n![Análisis de informes](media/network-planner-report-output.png)\n\nNetwork Planner también le ofrece recomendaciones basadas en el impacto proyectado de los equipos de su red. Haga clic en el icono de la vista recomendación para ver las recomendaciones de cada sitio, si las hay. La imagen siguiente muestra una vista de recomendación de ejemplo.\n\n![Vista de recomendaciones](media/network-planner-recommendation-view.png)\n\nAquí puede ver que actualmente es necesario aumentar el ancho de banda del sitio de Kirkland para obtener el mejor rendimiento de los equipos. \n"
+  content: "Una vez que haya generado el informe, verá una pantalla en la que se muestran los requisitos de ancho de banda como valores específicos generales y de modalidad. De forma predeterminada, el ancho de banda permitido se establece en 30%. Si cambia este valor y hace clic en **Ejecutar Informe**, puede ver el impacto diferente en el ancho de banda de la red. Todas las áreas que necesiten más ancho de banda se resaltarán en rojo.\n\n![Análisis de informes](media/network-planner-report-output.png)\n\nNetwork Planner también le ofrece recomendaciones basadas en el impacto proyectado de los equipos de su red. Haga clic en el icono de la vista recomendación para ver las recomendaciones de cada sitio, si las hay. La imagen siguiente muestra una vista de recomendación de ejemplo.\n\n![Vista de recomendaciones](media/network-planner-recommendation-view.png)\n\nAquí puede ver que actualmente es necesario aumentar el ancho de banda del sitio de Kirkland para obtener el mejor rendimiento de los equipos. \n"
 - title: Recursos adicionales
   durationInMinutes: 1
-  content: "\nEsto completa el escenario de ejemplo de organizador de red. Puede volver [al artículo de Network Planner](network-planner.md), o bien, consulte los siguientes recursos para obtener más información sobre cómo preparar su organización para equipos:\n\n - [Preparar la red de la organización para Microsoft Teams](prepare-network.md)\n - [Mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md)\n - [Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)"
+  content: >-
+    Esto completa el escenario de ejemplo de organizador de red. Puede volver [al artículo de Network Planner](network-planner.md), o bien, consulte los siguientes recursos para obtener más información sobre cómo preparar su organización para equipos:
+
+     - [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
+     - [Mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md)
+     - [Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)

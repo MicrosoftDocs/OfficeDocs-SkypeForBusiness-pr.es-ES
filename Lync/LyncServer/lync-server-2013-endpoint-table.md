@@ -12,20 +12,22 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb9430ba8b8c169176d39768491f0122e644d39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a71e59b6cf9b4143a5b984cc7b169279aa2cb57
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533327"
 ---
+# <a name="endpoint-table-in-lync-server-2013"></a>Tabla Endpoint en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="endpoint-table-in-lync-server-2013"></a>Tabla Endpoint en Lync Server 2013
+
 
 </div>
 
@@ -58,7 +60,7 @@ La tabla de extremos es una tabla de apoyo que almacena información sobre los p
 <tbody>
 <tr class="odd">
 <td><p><strong>EndpointKey</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número único que identifica este extremo.</p></td>
 </tr>
@@ -88,7 +90,7 @@ La tabla de extremos es una tabla de apoyo que almacena información sobre los p
 </tr>
 <tr class="even">
 <td><p><strong>CPUProcessorSpeed</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Velocidad del procesador de la CPU del extremo.</p></td>
 </tr>

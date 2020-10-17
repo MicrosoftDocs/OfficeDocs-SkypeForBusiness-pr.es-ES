@@ -12,20 +12,22 @@ ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58990adbd0b5240a5054a9d88ec34e3614831bf5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 93532cae14d64a69a0aa7e948607f075f5ae4240
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203066"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532617"
 ---
+# <a name="configuring-dial-plans-in-lync-server-2013"></a>Configurar planes de marcado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-plans-in-lync-server-2013"></a>Configurar planes de marcado en Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ Un plan de marcado de Lync Server 2013 es un conjunto con nombre de reglas de no
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planes de marcado y reglas de normalización en Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)  

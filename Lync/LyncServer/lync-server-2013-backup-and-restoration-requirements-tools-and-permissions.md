@@ -12,20 +12,22 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900421ed081d5fb8e37fb6b23ddbb80dc85963eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188093"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532647"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Requisitos de copia de seguridad y restauración en Lync Server 2013: herramientas y permisos
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Requisitos de copia de seguridad y restauración en Lync Server 2013: herramientas y permisos
+
 
 </div>
 
@@ -41,7 +43,7 @@ En este tema se identifican las herramientas que se pueden usar para realizar co
 
 <div>
 
-## <a name="backups"></a>Copias
+## <a name="backups"></a>Copias de seguridad
 
 Para hacer una copia de seguridad de Lync Server, use las herramientas que se identifican en la tabla siguiente. Todos los comandos necesarios para hacer una copia de seguridad de Lync Server se pueden ejecutar en scripts y se pueden ejecutar de forma remota.
 
@@ -165,8 +167,8 @@ Para restaurar Lync Server, use las herramientas de la tabla siguiente. Se puede
 <tr class="even">
 <td><p>Publicación y habilitación de la topología</p></td>
 <td><p>Topology Builder</p>
-<p>O bien,</p>
-<p>Publish-CsTopology y enable-CsTopology</p></td>
+<p>– O bien –</p>
+<p>Publish-CsTopology y Enable-CsTopology</p></td>
 </tr>
 <tr class="odd">
 <td><p>Habilitar la última topología publicada</p></td>
@@ -212,7 +214,7 @@ Para restaurar Lync Server, use las herramientas de la tabla siguiente. Se puede
 </tr>
 <tr class="odd">
 <td><p>Base de datos de chat persistente (MGS. MDF)</p></td>
-<td><p>Procedimientos de restauración de SQL Server o Import-CsPersistentChatData. Puede usar Import-CsPersistentChatData con un archivo creado mediante Export-CsPersistentChatData y los datos se importarán a la base de datos de chat persistente.</p></td>
+<td><p>Procedimientos de restauración de SQL Server o Import-CsPersistentChatData. Puede usar Import-CsPersistentChatData con un archivo creado por Export-CsPersistentChatData y los datos se importarán a la base de datos de chat persistente.</p></td>
 </tr>
 </tbody>
 </table>

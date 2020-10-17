@@ -12,20 +12,22 @@ ms:contentKeyID: 48185514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9619eb758f95c3d43d1db09a4e6dc64c36a6931
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 00b8414675109a69bec6baeceef4f4496bcf0c84
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533317"
 ---
+# <a name="endpointsubnet-table-in-lync-server-2013"></a>Tabla EndpointSubnet en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="endpointsubnet-table-in-lync-server-2013"></a>Tabla EndpointSubnet en Lync Server 2013
+
 
 </div>
 
@@ -58,7 +60,7 @@ La tabla EndpointSubnet es una tabla auxiliar. Cada registro representa una subr
 <tbody>
 <tr class="odd">
 <td><p><strong>SubnetIP</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Representación de enteros para la subred.</p></td>
 </tr>

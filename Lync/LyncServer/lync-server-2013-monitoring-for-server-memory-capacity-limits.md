@@ -12,20 +12,22 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e969de7198eecf43b57ea00fa0591bbeb06da0b1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 160d90a5a79291d18afdab00c23ff0a6726fa5b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531947"
 ---
+# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Supervisión de los límites de capacidad de la memoria del servidor en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Supervisión de los límites de capacidad de la memoria del servidor en Lync Server 2013
+
 
 </div>
 
@@ -61,25 +63,25 @@ Debe establecer un límite en el **recuento de sesiones actualmente activas con 
 
 Para determinar los límites apropiados, primero debe determinar la cantidad de memoria disponible en el servidor front-end para el servicio de movilidad. Supervise los contadores para determinar cuándo es necesario planear la capacidad extra, de acuerdo con la siguiente fórmula:
 
-Memoria total usada por el servicio de movilidad de MCX (MB) = 164 + (400 + 134)/1024 \* **recuento de sesiones actualmente activas con suscripciones de presencia activa** + 400/1024 \* (recuento de**sesiones actualmente activas** ; **número de sesiones actualmente activas con suscripciones de presencia activa**)
+Memoria total usada por el servicio de movilidad de MCX (MB) = 164 + (400 + 134)/1024 \* **recuento de sesiones actualmente activas con suscripciones de presencia activa** + 400/1024 (recuento de \* **sesiones actualmente activas** ; **número de sesiones actualmente activas con suscripciones de presencia activa**)
 
 <div>
 
 
 > [!IMPORTANT]  
-> La calculadora de capacidad 2010 de Microsoft Lync Server es una hoja de cálculo que se rellena previamente con todas las fórmulas que permiten a un planificador determinar cuáles serán los requisitos para los servidores, incluidos la CPU, la memoria y el disco duro. Puede descargar la hoja de cálculo y un documento asociado en:<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
+> La calculadora de capacidad 2010 de Microsoft Lync Server es una hoja de cálculo que se rellena previamente con todas las fórmulas que permiten a un planificador determinar cuáles serán los requisitos para los servidores, incluidos la CPU, la memoria y el disco duro. Puede descargar la hoja de cálculo y un documento asociado en: <A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
 
 
 
 </div>
 
-El servidor front-end necesita suficiente memoria disponible para admitir el servicio de movilidad en situaciones de conmutación por error. Puede supervisar la memoria disponible actual en el servidor front-end mediante el contador **memoria\\Mbytes disponibles** o mediante la ecuación mencionada anteriormente, para planear la cantidad de memoria que espera que use el servicio de movilidad.
+El servidor front-end necesita suficiente memoria disponible para admitir el servicio de movilidad en situaciones de conmutación por error. Puede supervisar la memoria disponible actual en el servidor front-end mediante el contador **memoria \\ Mbytes disponibles** o mediante la ecuación mencionada anteriormente, para planear la cantidad de memoria que espera que use el servicio de movilidad.
 
 Si la cantidad de memoria disponible en el servidor front-end es inferior a 1.500 MB cuando planea el número previsto de usuarios de movilidad, necesita agregar más hardware para admitir el servicio de movilidad. Para obtener más información, consulte [Monitoring Mobility for performance in Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md) en la documentación de operaciones.
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Supervisión de la movilidad para el rendimiento en Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md)  

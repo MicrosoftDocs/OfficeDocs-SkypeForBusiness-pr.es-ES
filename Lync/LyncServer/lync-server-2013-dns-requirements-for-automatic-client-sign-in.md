@@ -12,20 +12,22 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e49d50173439e36bd5bb7f35f668837fe04b46b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b421656d5fefbefa308178962f5c25b9ae72013f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532187"
 ---
+# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Requisitos de DNS para el inicio de sesión automático de los clientes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Requisitos de DNS para el inicio de sesión automático de los clientes en Lync Server 2013
+
 
 </div>
 
@@ -54,9 +56,9 @@ Para admitir el inicio de sesión automático de los clientes, debe:
     
     </div>
 
-Para habilitar la configuración automática de los clientes, debe crear un registro SRV de DNS interno que asigne uno de los siguientes registros al nombre de dominio completo (FQDN) del grupo de servidores front-end o del servidor Standard Edition que distribuye las solicitudes de inicio de sesión de Lync. equipos
+Para habilitar la configuración automática de los clientes, debe crear un registro SRV de DNS interno que asigne uno de los siguientes registros al nombre de dominio completo (FQDN) del grupo de servidores front-end o del servidor Standard Edition que distribuye las solicitudes de inicio de sesión de los clientes de Lync:
 
-  - \_sipinternaltls. \_TCP. \<domain\> -para conexiones TLS internas
+  - \_sipinternaltls. \_ TPC.\<domain\> -para conexiones TLS internas
 
 Solo tiene que crear un único registro SRV para el servidor Standard Edition o el grupo de servidores front-end que distribuirá las solicitudes de inicio de sesión.
 
@@ -108,9 +110,9 @@ En la tabla siguiente se muestran algunos registros de ejemplo que se requieren 
 
 En este ejemplo se utilizan los mismos nombres de ejemplo de la tabla anterior. La organización Contoso admite los dominios SIP de contoso.com y retail.contoso.com, y todos sus usuarios tienen un URI de SIP con uno de los formatos siguientes:
 
-  - \<@retail\>de usuario. contoso.com
+  - \<user\>@retail. contoso.com
 
-  - \<@contoso\>de usuario. com
+  - \<user\>@contoso. com
 
 </div>
 

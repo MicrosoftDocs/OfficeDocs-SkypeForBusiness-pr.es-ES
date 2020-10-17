@@ -12,20 +12,22 @@ ms:contentKeyID: 48185251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e1267710405cb9b6c4e64d9cf2e31fb63feddaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87657340205722a721485f213029220641885075
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187572"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533397"
 ---
+# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a>Requisitos de certificados para movilidad en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a>Requisitos de certificados para movilidad en Lync Server 2013
+
 
 </div>
 
@@ -75,11 +77,11 @@ En esta sección se describen las entradas de nombre alternativo del sujeto nece
 <tbody>
 <tr class="odd">
 <td><p>URL de servicio Detección automática interna</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; sipdomain&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL de servicio Detección automática externa</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +91,7 @@ En esta sección se describen las entradas de nombre alternativo del sujeto nece
 
 
 > [!NOTE]  
-> Como alternativa, puede usar SAN = *. &lt;sipdomain&gt;
+> Como alternativa, puede usar SAN = *. &lt; sipdomain&gt;
 
 
 
@@ -111,11 +113,11 @@ En esta sección se describen las entradas de nombre alternativo del sujeto nece
 <tbody>
 <tr class="odd">
 <td><p>URL de servicio Detección automática interna</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; sipdomain&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL de servicio Detección automática externa</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -125,7 +127,7 @@ En esta sección se describen las entradas de nombre alternativo del sujeto nece
 
 
 > [!NOTE]  
-> Como alternativa, puede usar SAN = *. &lt;sipdomain&gt;
+> Como alternativa, puede usar SAN = *. &lt; sipdomain&gt;
 
 
 
@@ -147,7 +149,7 @@ En esta sección se describen las entradas de nombre alternativo del sujeto nece
 <tbody>
 <tr class="odd">
 <td><p>URL de servicio Detección automática externa</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>

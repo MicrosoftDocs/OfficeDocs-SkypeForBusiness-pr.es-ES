@@ -12,20 +12,22 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce7f6855e792b5edd339ee87f2955336a943615
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a565c09e09e10eeb160b1d0514c89499427d1283
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194333"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532927"
 ---
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Probar la capacidad de conectarse a un dominio federado desde Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Probar la capacidad de conectarse a un dominio federado desde Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsFederatedPartner. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsFederatedPartner. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -78,7 +80,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-FederatedPartner requiere dos datos: el FQDN del servidor perimetral y el FQDN del socio federado. Por ejemplo, este comando comprueba la capacidad de conectarse al dominio contoso.com:
+El cmdlet Test-FederatedPartner requiere dos datos: el FQDN del servidor perimetral y el FQDN del socio federado. Por ejemplo, este comando comprueba la capacidad de conectarse al dominio contoso.com:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
@@ -124,7 +126,7 @@ Microsoft. RTC. Signaling. DiagnosticHeader
 
 Por ejemplo, la salida anterior indica que la prueba produjo un error debido a un error de tiempo de espera del servidor. Normalmente, esto indica problemas de conectividad de red o problemas al contactar con el servidor perimetral.
 
-Si test-CsFederatedPartner produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
+Si Test-CsFederatedPartner da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -134,7 +136,7 @@ Si test-CsFederatedPartner produce un error, es posible que desee volver a ejecu
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsFederatedPartner podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsFederatedPartner podría producir un error:
 
   - Es posible que el servidor perimetral no esté disponible. Puede usar este comando para los FQDN de los servidores perimetrales:
     

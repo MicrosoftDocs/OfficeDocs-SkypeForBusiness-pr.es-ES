@@ -12,20 +12,22 @@ ms:contentKeyID: 48183216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e77d5ddf74d43cd277a701608e801a65262c929
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 61462b7910375959e002938a91efa27d8d45c988
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533367"
 ---
+# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a>Editar o configurar direcciones URL sencillas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a>Editar o configurar direcciones URL sencillas en Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Este procedimiento no requiere pertenencia al grupo de dominio con privilegios o
 
 Lync Server 2013 usa direcciones URL sencillas para dirigir llamadas internas y externas a los servicios del servidor front-end o del Director, si se ha implementado una. Para obtener más información acerca de las direcciones URL sencillas, consulte [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) en la documentación referente a la planeación. Puede seleccionar el formato de las direcciones URL sencillas desde varias opciones. Para obtener más información sobre estas opciones, consulte [DNS Requirements for simple URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) en la documentación referente a la planeación.
 
-De forma predeterminada, las direcciones URL sencillas se configurarán con el formato (por ejemplo, la dirección URL sencilla de https://dialin.\<SIP acceso telefónico): dominio\>
+De forma predeterminada, las direcciones URL sencillas se configurarán en forma de (por ejemplo, la dirección URL sencilla de acceso telefónico): https://dialin .\<SIP Domain\>
 
 <div>
 
@@ -51,7 +53,7 @@ De forma predeterminada, las direcciones URL sencillas se configurarán con el f
 
 2.  En el panel **direcciones URL simples** , seleccione **direcciones URL de acceso telefónico:** (acceso telefónico) o **direcciones URL de reunión:** (reunirse) para editar y, a continuación, haga clic en **Editar dirección URL**.
 
-3.  Actualice la dirección URL al valor deseado y haga clic en **Aceptar** para guardar la dirección URL modificada. El ejemplo que se muestra aquí ha modificado la dirección URL de https://pool01.contoso.net/dialinacceso telefónico a.
+3.  Actualice la dirección URL al valor deseado y haga clic en **Aceptar** para guardar la dirección URL modificada. El ejemplo que se muestra aquí ha modificado la dirección URL de acceso telefónico a https://pool01.contoso.net/dialin .
 
 4.  Edite la dirección URL de reunión realizando los mismos pasos, si es necesario.
 
@@ -69,7 +71,7 @@ De forma predeterminada, las direcciones URL sencillas se configurarán con el f
     
 
     > [!TIP]  
-    > Recomendamos usar la dirección URL más simple posible para la dirección URL de administración. La opción más sencilla es <STRONG> https://admin.</STRONG> &lt;dominio&gt;.
+    > Recomendamos usar la dirección URL más simple posible para la dirección URL de administración. La opción más sencilla es <STRONG> https://admin .</STRONG> &lt; dominio &gt; .
 
     
     </div>
@@ -78,7 +80,7 @@ De forma predeterminada, las direcciones URL sencillas se configurarán con el f
     
 
     > [!IMPORTANT]  
-    > Si cambia una dirección URL sencilla tras la implementación inicial, deberá conocer qué cambios afectan a los certificados y los registros de su sistema de nombres de dominio (DNS) para direcciones de URL sencillas. Si el cambio afecta a la base de una dirección URL sencilla, deberá modificar también los certificados y registros DNS. Por ejemplo, si se https://lync.contoso.com/Meet cambia https://meet.contoso.com de para cambia la dirección URL base de Lync.contoso.com a meet.contoso.com, es necesario cambiar los registros DNS y los certificados para hacer referencia a meet.contoso.com. Si ha cambiado la dirección URL sencilla https://lync.contoso.com/Meet de https://lync.contoso.com/Meetingsa, la dirección URL base de Lync.contoso.com permanece igual, por lo que no es necesario ningún cambio de certificado o DNS. Sin embargo, cada vez que cambie un nombre de dirección URL simple, debe ejecutar el cmdlet <STRONG>enable-CsComputer</STRONG> en cada director y en el servidor front-end para registrar el cambio.
+    > Si cambia una dirección URL sencilla tras la implementación inicial, deberá conocer qué cambios afectan a los certificados y los registros de su sistema de nombres de dominio (DNS) para direcciones de URL sencillas. Si el cambio afecta a la base de una dirección URL sencilla, deberá modificar también los certificados y registros DNS. Por ejemplo, si se cambia de https://lync.contoso.com/Meet para https://meet.contoso.com cambia la dirección URL base de lync.contoso.com a meet.contoso.com, es necesario cambiar los registros DNS y los certificados para hacer referencia a meet.contoso.com. Si ha cambiado la dirección URL sencilla de https://lync.contoso.com/Meet a https://lync.contoso.com/Meetings , la dirección URL base de Lync.contoso.com permanece igual, por lo que no es necesario ningún cambio de certificado o DNS. Sin embargo, cada vez que cambie un nombre de dirección URL simple, debe ejecutar el cmdlet <STRONG>enable-CsComputer</STRONG> en cada director y en el servidor front-end para registrar el cambio.
 
     
     </div>
@@ -87,7 +89,7 @@ De forma predeterminada, las direcciones URL sencillas se configurarán con el f
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de direcciones URL sencillas en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  

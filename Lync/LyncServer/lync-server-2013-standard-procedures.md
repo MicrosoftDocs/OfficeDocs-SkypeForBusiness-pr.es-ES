@@ -12,20 +12,22 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 270261ea61aa8d2b0b8f1d3bbb97257ddd7a17e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 98f08eb27b35f6b8b9bcdbfcd4c5daff19bc2f70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533007"
 ---
+# <a name="standard-procedures-in-lync-server-2013"></a>Procedimientos estándar en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="standard-procedures-in-lync-server-2013"></a>Procedimientos estándar en Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Con frecuencia, la administración de cambios se lleva a cabo cuando finaliza la
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Lista de comprobación de tareas diarias](lync-server-2013-operations-checklists.md)  

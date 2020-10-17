@@ -12,20 +12,22 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532557"
 ---
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configurar la telefonía IP empresarial en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configurar la telefonía IP empresarial en Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Para implementar la telefonía IP empresarial, deberá configurar lo siguiente:
 
 ## <a name="create-a-trunk"></a>Crear un tronco
 
-Debe definir troncos en su implementación de telefonía IP empresarial. Para el enrutamiento basado en ubicación, debe crear una configuración de tronco por tronco. Use el generador de topologías de Lync Server para definir los troncos y use el comando de Windows PowerShell de Lync Server, New-CsTrunkConfiguration o el panel de control de Lync Server para definir las configuraciones de tronco correspondientes. Encontrará más información sobre cómo habilitar el enrutamiento basado en ubicación en las configuraciones de tronco en la sección, habilitar el enrutamiento basado en ubicación a troncos, en el tema [Habilitar el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). En este ejemplo, en la tabla siguiente se muestran los troncos que se usan en este escenario.
+Debe definir troncos en su implementación de telefonía IP empresarial. Para Location-Based el enrutamiento, debe crear una configuración de tronco por tronco. Use el generador de topologías de Lync Server para definir los troncos y use el comando de Windows PowerShell de Lync Server, New-CsTrunkConfiguration o el panel de control de Lync Server para definir las configuraciones de tronco correspondientes. Puede encontrar más información sobre cómo habilitar el enrutamiento de Location-Based en las configuraciones de tronco en la sección, habilitar el enrutamiento de Location-Based a troncos, en el tema sobre [Cómo habilitar el enrutamiento de Location-Based en Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). En este ejemplo, en la tabla siguiente se muestran los troncos que se usan en este escenario.
 
 Para obtener más información, consulte [definir troncos adicionales en el generador de topologías en Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
 
@@ -117,7 +119,7 @@ Para obtener más información, consulte [definir troncos adicionales en el gene
 
 ## <a name="defines-voice-policies"></a>Define directivas de voz
 
-Debe definir directivas de voz para la implementación de telefonía IP empresarial. Definir una directiva de voz para aplicar restricciones de enrutamiento basadas en la ubicación a un subconjunto de usuarios si solo se requiere un subconjunto de ellas para usar el enrutamiento basado en la ubicación. En este ejemplo, la tabla siguiente muestra las directivas de voz usadas en este escenario. Solo la configuración específica para el enrutamiento basado en ubicación se incluye en la tabla con fines ilustrativos.
+Debe definir directivas de voz para la implementación de telefonía IP empresarial. Definir una directiva de voz para aplicar Location-Based restricciones de enrutamiento a un subconjunto de usuarios si sólo se requiere un subconjunto de ellas para usar Location-Based enrutamiento. En este ejemplo, la tabla siguiente muestra las directivas de voz usadas en este escenario. En la tabla sólo se incluye la configuración específica de Location-Based enrutamiento para fines de ilustración.
 
 Para obtener más información, vea [configuración de directivas de voz y registros de uso de RTC para autorizar características y privilegios de llamada en Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
 
@@ -166,7 +168,7 @@ Para obtener más información, vea [configuración de directivas de voz y regis
 
 ## <a name="define-voice-routes"></a>Definir rutas de voz
 
-Debe definir rutas de voz para la implementación de telefonía IP empresarial. En este ejemplo, la tabla siguiente muestra las rutas de voz usadas en este escenario. Solo la configuración específica para el enrutamiento basado en ubicación se incluye en la tabla con fines ilustrativos.
+Debe definir rutas de voz para la implementación de telefonía IP empresarial. En este ejemplo, la tabla siguiente muestra las rutas de voz usadas en este escenario. En la tabla sólo se incluye la configuración específica de Location-Based enrutamiento para fines de ilustración.
 
 Para obtener más información, consulte [configurar rutas de voz para llamadas salientes en Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
@@ -225,7 +227,7 @@ Para obtener más información, consulte [configurar rutas de voz para llamadas 
 
 ## <a name="enable-users-for-enterprise-voice"></a>Habilitar usuarios para Enterprise Voice
 
-Habilite a los usuarios para la telefonía IP empresarial y asígneles una directiva de voz que haya definido previamente. En este ejemplo, en la tabla siguiente se muestra la asignación que se usa en este escenario. Solo la configuración específica para el enrutamiento basado en ubicación se incluye en la tabla con fines ilustrativos.
+Habilite a los usuarios para la telefonía IP empresarial y asígneles una directiva de voz que haya definido previamente. En este ejemplo, en la tabla siguiente se muestra la asignación que se usa en este escenario. En la tabla sólo se incluye la configuración específica de Location-Based enrutamiento para fines de ilustración.
 
 Para obtener más información, consulte [enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
@@ -267,10 +269,10 @@ Para obtener más información, consulte [enable users for Enterprise Voice in L
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
-[Configuración del enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Configuración del enrutamiento de Location-Based en Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

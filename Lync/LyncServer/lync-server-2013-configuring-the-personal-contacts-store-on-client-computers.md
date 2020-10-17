@@ -12,20 +12,22 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d791943f8d4057c173851e5d6eedb4a713b3cdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6020182c0083ecadcb65c07fa71be213f9458f0f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532351"
 ---
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configuración del almacén de contactos personales en equipos cliente para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configuración del almacén de contactos personales en equipos cliente para Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Para configurar este valor en un solo equipo, siga este procedimiento:
 
 2.  En el cuadro de diálogo **Ejecutar**, escriba regedit y, a continuación, presione ENTRAR.
 
-3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **software**, expanda **directivas**, expanda **Microsoft**y, a continuación, expanda **Communicator**.
+3.  En el editor del registro, expanda el ** \_ \_ equipo local HKEY**, expanda **software**, expanda **directivas**, expanda **Microsoft**y, a continuación, expanda **Communicator**.
 
 4.  Haga clic con el botón secundario en **Communicator**, seleccione **nuevo**y, a continuación, haga clic en **valor DWORD (32-bit)**.
 
@@ -55,7 +57,7 @@ Para configurar este valor en un solo equipo, siga este procedimiento:
 
 6.  Compruebe que el valor de PersonalContactStoreOverride es 0 y, a continuación, cierre el Editor del Registro.
 
-Si necesita realizar este procedimiento en más de un equipo, cree un objeto Directiva de grupo personalizado. Para obtener más información, consulte la documentación de [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543)la Directiva de grupo en.
+Si necesita realizar este procedimiento en más de un equipo, cree un objeto Directiva de grupo personalizado. Para obtener más información, consulte la documentación de la Directiva de grupo en [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543) .
 
 </div>
 

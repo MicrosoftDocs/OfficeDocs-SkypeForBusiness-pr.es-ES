@@ -12,20 +12,22 @@ ms:contentKeyID: 48184613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea7503caa674a61de4f3e75f161e94865e1f748b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91f20a5a1df722e92454e0200a0c8174ff37d4dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533207"
 ---
+# <a name="enterprise-voice-cmdlets-in-lync-server-2013"></a>Cmdlets de telefonía IP empresarial en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-cmdlets-in-lync-server-2013"></a>Cmdlets de telefonía IP empresarial en Lync Server 2013
+
 
 </div>
 
@@ -203,7 +205,7 @@ La mayoría de las tareas de administración que se aplican a la telefonía IP e
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Cmdlets avanzados de telefonía IP empresarial en Lync Server 2013](lync-server-2013-advanced-enterprise-voice-cmdlets.md)  

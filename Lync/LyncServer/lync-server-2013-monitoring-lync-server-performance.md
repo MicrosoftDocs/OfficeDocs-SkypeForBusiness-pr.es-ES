@@ -12,20 +12,22 @@ ms:contentKeyID: 63969592
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd46beb944f676b9916472cc39394d84ae205786
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0db9afa670cd21428a3dc4f4c812240abaa10468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531917"
 ---
+# <a name="monitoring-lync-server-2013-performance"></a>Supervisión del rendimiento de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-lync-server-2013-performance"></a>Supervisión del rendimiento de Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217286"
 
 _**Última modificación del tema:** 2014-05-15_
 
-El rendimiento de Lync Server 2013 se ve afectado por diversos factores, como los perfiles de usuario, la arquitectura del sistema, el software, los componentes de hardware, los puntos de integración de terceros como puertas de enlace y equipos de telefonía, conectividad de red y rendimiento, Windows Configuración y rendimiento del servicio Active Directory además de la funcionalidad del sistema operativo Windows.
+El rendimiento de Lync Server 2013 se ve afectado por diversos factores, como los perfiles de usuario, la arquitectura del sistema, el software, los componentes de hardware, los puntos de integración de terceros como puertas de enlace y equipos de telefonía, la conectividad y el rendimiento de la red, el rendimiento y la configuración del servicio Active Directory de Windows, además de la funcionalidad del sistema operativo Windows.
 
 En el centro del rendimiento de las implementaciones de Lync Server 2013 es el software y el hardware del servidor en el que se implementa. Por ejemplo, un servidor front-end debe tener suficientes recursos de hardware para hacer frente a la carga de usuarios prevista (a corto plazo). Si se requiere un servidor front-end respectivo para proporcionar servicios a usuarios de 10000, un servidor configurado adecuadamente debe cumplir con los requisitos de carga esperados para poder garantizar la mejor experiencia posible del usuario final.
 
@@ -45,25 +47,25 @@ Por lo tanto, el rendimiento del servidor de supervisión es muy importante para
 
 Mientras que la información detallada de todos los objetos y contadores de rendimiento que deben tenerse en cuenta está vinculada a en la [supervisión de Lync Server 2013 con System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md), algunos contadores de rendimiento que debe seguir pueden proporcionar a los administradores una vista rápida del rendimiento del sistema:
 
-  - Para realizar un seguimiento del estado general del sistema del servidor front-end, un buen punto de partida\\es comprobar el procesador% de tiempo de procesador. El valor siempre debe ser inferior 80 por ciento.
+  - Para realizar un seguimiento del estado general del sistema del servidor front-end, un buen punto de partida es comprobar \\ el procesador% de tiempo de procesador. El valor siempre debe ser inferior 80 por ciento.
 
   - Para realizar un seguimiento del rendimiento de la instancia de software back-end de base de datos de SQL Server utilizada por el grupo de servidores front-end, supervise los siguientes contadores de rendimiento:
     
-    LC: ServU – 00 – DBStore\\ServU – 002 – latencia en cola (MS)
+    LC: ServU – 00 – DBStore \\ ServU – 002 – latencia en cola (MS)
     
-    LC: ServU-00 – DBStore\\servu – 0 04 – latencia de SPROC (mseg)
+    LC: ServU-00 – DBStore \\ ServU – 0 04 – latencia de SPROC (mseg)
     
-    El servidor en buen estado constante debería mostrar \<100 ms de latencia. El mecanismo de limitación se activará cuando la latencia alcance 12 segundos, lo que significa que el servidor front-end empieza a limitar las solicitudes al back-end. Esto hace que los clientes se inicien recibiendo un mensaje de error de servidor de 503 muy ocupado.
+    El servidor en buen estado constante debería mostrar \< 100 ms de latencia. El mecanismo de limitación se activará cuando la latencia alcance 12 segundos, lo que significa que el servidor front-end empieza a limitar las solicitudes al back-end. Esto hace que los clientes se inicien recibiendo un mensaje de error de servidor de 503 muy ocupado.
 
   - Para realizar un seguimiento del tiempo de procesamiento en el servidor front-end, supervise el siguiente contador:
     
-    LC: SIP-07-Load Management\\SIP-000-tiempo medio de retención de mensajes entrantes
+    LC: SIP-07-Load Management \\ SIP-000-tiempo medio de retención de mensajes entrantes
     
     Este es otro mecanismo de limitación en los servidores front-end, esta vez que comienza cuando el tiempo de procesamiento en el front-end es alto. Si el tiempo medio de procesamiento es superior a seis segundos, el servidor entra en el modo de limitación y solo permite una transacción pendiente por conexión de cliente.
 
   - Para realizar un seguimiento de los problemas de memoria en el servidor Back-End SQL, supervise el siguiente contador:
     
-    Esperanza de vida de\\página del administrador de búfer de SQL Server
+    Esperanza de vida de página del administrador de búfer de SQL Server \\
     
     Un valor bajo, por debajo de 3600 segundos (junto con latencia alta de escrituras/s y páginas de puntos/seg.) indica la presión de la memoria.
 
@@ -77,9 +79,9 @@ El servidor front-end puede indicar problemas que pueden deberse a cuellos de bo
 
 Los dos contadores adicionales que deben revisarse primero son los siguientes:
 
-LC: ServU-00-DBStore\\ServU-002-latencia en cola (MS)
+LC: ServU-00-DBStore \\ ServU-002-latencia en cola (MS)
 
-LC: ServU-00-DBStore\\ServU-004-latencia de procedimiento almacenado (MS)
+LC: ServU-00-DBStore \\ ServU-004-latencia de procedimiento almacenado (MS)
 
 El contador de latencia de cola representa el tiempo que una solicitud de la cola dedica al back-end y la latencia del procedimiento almacenado representa el tiempo que tardó el back-end en procesar la solicitud. Si, por algún motivo, el disco, la memoria, la red y el procesador del back-end tienen problemas, el contador de latencia de cola será alto.
 
@@ -103,21 +105,21 @@ Puede determinar si SQL Server requiere RAM adicional mediante la revisión del 
 
 Hay un mecanismo de limitación adicional en un servidor front-end de Lync Server 2013 que se inicia si el tiempo de procesamiento del servidor es alto. La limitación de latencia de DBStore solo está habilitada si la latencia para SQL Server es alta. Un ejemplo en el que esta limitación está habilitada se encuentra en el caso de que el servidor front-end esté enlazado a la CPU.
 
-Si el tiempo medio de procesamiento **(LC: SIP-07-Load\\Management SIP-000-promedio de tiempo de retención de mensajes entrantes)** en el servidor supera los seis segundos, el servidor entrará en el modo de limitación y solo dará a los usuarios una transacción pendiente por conexión de cliente. Una vez que el tiempo de procesamiento cae en tres segundos, el servidor sale del modo de limitación de peticiones y proporciona a los usuarios hasta 20 transacciones pendientes por conexión de cliente. Siempre que el número de transacciones en una conexión específica supera el umbral anterior, la conexión se marca como controlado por flujo. El resultado es que el servidor no envía ningún recepción a él y se incrementa el contador de **conexiones controladas por\\flujo SIP-01-Peers** . Si una conexión permanece en un Estado controlado por flujo durante más de un minuto, el servidor la cierra. Lo hace de forma diferida. Cuando tiene una oportunidad para comprobar la conexión, determina si se ha limitado durante demasiado tiempo y la cierra si tiene más de un minuto.
+Si el tiempo medio de procesamiento **(LC: SIP-07-Load Management \\ SIP-000-promedio de tiempo de retención de mensajes entrantes)** en el servidor supera los seis segundos, el servidor entrará en el modo de limitación y solo dará a los usuarios una transacción pendiente por conexión de cliente. Una vez que el tiempo de procesamiento cae en tres segundos, el servidor sale del modo de limitación de peticiones y proporciona a los usuarios hasta 20 transacciones pendientes por conexión de cliente. Siempre que el número de transacciones en una conexión específica supera el umbral anterior, la conexión se marca como controlado por flujo. El resultado es que el servidor no envía ningún recepción a él y se incrementa el contador de ** \\ conexiones controladas por flujo SIP-01-Peers** . Si una conexión permanece en un Estado controlado por flujo durante más de un minuto, el servidor la cierra. Lo hace de forma diferida. Cuando tiene una oportunidad para comprobar la conexión, determina si se ha limitado durante demasiado tiempo y la cierra si tiene más de un minuto.
 
 Estos son los dos mecanismos de limitación de peticiones y hay un contador de rendimiento que resume qué es lo que, en caso de existir, está realizando una limitación del servidor.
 
-**LC: SIP-04-Responses\\sip-053-local 503 respuestas/seg**
+**LC: SIP-04-Responses \\ SIP-053-Local 503 respuestas/seg**
 
   - El término "local" del contador anterior hace referencia a respuestas generadas localmente.
 
   - El código 503 corresponde al servidor no disponible, en el que no se deben ver los códigos 503 en un servidor en buen estado. Durante el período en el que se acaba de poner en línea un servidor, es posible que vea algunos códigos de 503. Cuando todos los usuarios vuelven a iniciar sesión y el servidor vuelve a un estado estable, no deberían existir códigos 503 adicionales.
 
-**LC: SIP-04-Responses\\sip-074-local 504 respuestas/seg**
+**LC: SIP-04-Responses \\ SIP-074-Local 504 respuestas/seg**
 
 Este contador de rendimiento indica problemas de conectividad con otros servidores y puede indicar errores de conexión o de retrasos en la conexión. Si ve 504 errores, se debe comprobar el siguiente contador de rendimiento.
 
-**LC: SIP-01-Peers\\SIP-017-envíos pendientes**
+**LC: SIP-01-Peers \\ SIP-017-envíos pendientes**
 
 Este contador indica el número de solicitudes y respuestas salientes en cola. Si este contador es alto, lo más probable es que el problema no esté en el servidor local. Tenga en cuenta que este contador puede ser alto si hay problemas de latencia de red. También podría indicar problemas con el adaptador de red local, pero es más probable que se deba a un problema en un servidor remoto. Es muy probable que este contador sea alto en un servidor Director cuando el grupo con el que está intentando comunicarse está sobrecargado. La clave con este contador es mirar las instancias, no solo el total.
 

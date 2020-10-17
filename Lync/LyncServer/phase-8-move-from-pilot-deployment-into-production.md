@@ -12,20 +12,22 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f572836c4ccb64fdb8bf85926e68dbcdbf5c712f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 13b5edff336b73b84183162bec3243a55f8aeb67
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756459"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532907"
 ---
+# <a name="phase-8-move-from-pilot-deployment-into-production"></a>Fase 8: pasar de la implementación piloto a la producción
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-move-from-pilot-deployment-into-production"></a>Fase 8: pasar de la implementación piloto a la producción
+
 
 </div>
 

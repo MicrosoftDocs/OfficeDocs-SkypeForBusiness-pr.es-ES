@@ -3,7 +3,7 @@ title: Actualizar a teams desde una implementación local de Skype empresarial-M
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 6b27694c476fc1ab571716939ad57cc3f2dae20e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486765"
+ms.locfileid: "48533557"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Consideraciones sobre RTC al actualizar a teams &mdash; para administradores de ti
 

@@ -3,7 +3,9 @@ title: Implementación de servicios de voz de nube de Microsoft Teams
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-audience: admin
+audience:
+- ITPro
+- admin
 ms.date: 05/16/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ae9a1e6abf7dbf97e625be4eb69a0ef95b1910da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610052"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532577"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 
@@ -107,7 +109,7 @@ Preste atención a las actividades que pueden tardar más tiempo del que planeó
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida si la guía de habilitación de sitios es necesaria para su implementación.</li><li>Decida quién será el responsable de personalizar la guía de habilitación del sitio de Microsoft Teams para cada sitio que vaya a implementar.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Descargue la guía de habilitación de sitios</a>.</li><li>Personalizar la guía de habilitación del sitio para su primer sitio.</li><li>Repita los pasos necesarios para los sitios adicionales.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Descargue la guía de habilitación de sitios</a>.</li><li>Personalizar la guía de habilitación del sitio para su primer sitio.</li><li>Repita los pasos necesarios para los sitios adicionales.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

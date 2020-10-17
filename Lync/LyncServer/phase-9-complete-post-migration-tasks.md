@@ -12,20 +12,22 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e12268cce33526ba2602a2efc9a611ebb211801
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 33e4b97e0290ef14acda9201bb25897d7a517113
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532817"
 ---
+# <a name="phase-9-complete-post-migration-tasks"></a>Fase 9: completar las tareas posteriores a la migración
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-9-complete-post-migration-tasks"></a>Fase 9: completar las tareas posteriores a la migración
+
 
 </div>
 

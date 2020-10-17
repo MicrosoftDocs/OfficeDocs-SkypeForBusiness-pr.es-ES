@@ -12,20 +12,22 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ac4ab62bdbb9b33a7c64014433dfd4f950a6298
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aad04524df22c9d299b4a871b580330052d2aa5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531957"
 ---
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Supervisar el rendimiento del almacenamiento back-end de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Supervisar el rendimiento del almacenamiento back-end de Lync Server 2013
+
 
 </div>
 

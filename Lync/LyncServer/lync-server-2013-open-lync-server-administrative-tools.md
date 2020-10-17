@@ -12,20 +12,22 @@ ms:contentKeyID: 48184778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 172d448b3967782226335a5a3b9a4066514b7a9b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3b8ae0dd21221700101d1c94e1a72a4e987de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216649"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531767"
 ---
+# <a name="open-lync-server-2013-administrative-tools"></a>Abrir las herramientas administrativas de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="open-lync-server-2013-administrative-tools"></a>Abrir las herramientas administrativas de Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Use el siguiente procedimiento para abrir el generador de topologías y definir 
     
 
     > [!NOTE]  
-    > Puede definir una topología con una cuenta que sea miembro del grupo de usuarios locales, pero para leer, publicar o habilitar una topología, lo cual es necesario para instalar Lync Server 2013 en un servidor, debe usar una cuenta que sea miembro del grupo administradores de dominio y de la RTCUniv Grupo ersalServerAdmins y que tiene permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que se va a usar para el almacén de archivos de archivado, de modo que el generador de topologías pueda configurar la lista de control de acceso discrecional (DACL) requerida. o una cuenta con derechos de usuario equivalentes.
+    > Puede definir una topología con una cuenta que sea miembro del grupo de usuarios locales, pero para leer, publicar o habilitar una topología, que es necesaria para instalar Lync Server 2013 en un servidor, debe usar una cuenta que sea miembro del grupo administradores de dominio y del grupo RTCUniversalServerAdmins, y que tenga permisos de control total (es decir, , leer, escribir y modificar) en el recurso compartido de archivos que se va a usar para el almacén de archivos de archivado, de modo que el generador de topologías pueda configurar la lista de control de acceso discrecional (DACL) necesaria o una cuenta con derechos de usuario equivalentes.
 
     
     </div>
@@ -137,7 +139,7 @@ Use uno de los siguientes procedimientos para abrir el panel de control de Lync 
 
 ## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a>Para abrir el panel de control de Lync Server 2013 en un equipo que ejecuta Lync Server 2013
 
-1.  Desde una cuenta de usuario que sea miembro de la función CsAdministrator o de otro rol que tenga los derechos y permisos de usuario adecuados para la tarea que se va a realizar, inicie sesión en un equipo en el que tenga instalado Lync Server 2013 o, como mínimo, en el servidor Lync Server 2013 Ive Tools. Para configurar las opciones, el equipo debe tener una resolución de pantalla mínima de 1024 x 768.
+1.  Desde una cuenta de usuario que sea miembro de la función CsAdministrator o de otro rol que tenga los derechos y permisos de usuario adecuados para la tarea que se va a realizar, inicie sesión en un equipo en el que tenga instalado Lync Server 2013 o, como mínimo, en las herramientas administrativas de Lync Server 2013. Para configurar las opciones, el equipo debe tener una resolución de pantalla mínima de 1024 x 768.
 
 2.  Inicie el panel de control 2013 de Lync Server: haga clic en **Inicio**, **todos los programas**, **herramientas administrativas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Panel de control de Lync Server 2013**.
 
@@ -179,7 +181,7 @@ Use el siguiente procedimiento para abrir Shell de administración de Lync Serve
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Instalación de las herramientas administrativas de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)  

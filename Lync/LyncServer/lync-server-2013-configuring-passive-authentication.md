@@ -12,20 +12,22 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96c2c94bde12e6b8b77060a82f1990b673421de9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 780b539aeaf6a6bc6956fc5f8b6185092675632b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198783"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532497"
 ---
+# <a name="configuring-lync-server-2013-passive-authentication"></a>Configuración de la autenticación pasiva de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-passive-authentication"></a>Configuración de la autenticación pasiva de Lync Server 2013
+
 
 </div>
 
@@ -99,7 +101,7 @@ En los pasos siguientes se describe cómo crear una configuración de proxy pers
 
 **Para crear una configuración de proxy personalizada**
 
-1.  Desde la línea de comandos del shell de administración de Lync Server, cree una nueva configuración de proxy para cada Lync Server 2013 con actualizaciones acumulativas: 2013 el grupo de servidores perimetrales, el grupo de servidores Enterprise y el servidor Standard Edition que se habilitarán para la autenticación pasiva mediante la ejecución del comandos siguientes:
+1.  Desde la línea de comandos del shell de administración de Lync Server, cree una nueva configuración de proxy para cada Lync Server 2013 con actualizaciones acumulativas: 2013 de julio de grupo de servidores perimetrales, grupo de servidores Enterprise y servidor Standard Edition que se habilitarán para la autenticación pasiva mediante la ejecución de los siguientes comandos:
     
        ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 

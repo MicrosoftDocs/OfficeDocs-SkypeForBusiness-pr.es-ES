@@ -12,20 +12,22 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d18bea94d7844f611afb14d388d6655379ee047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8af979b36564fef40a4839e31f2597d82117741
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533387"
 ---
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Cmdlets de servidor perimetral en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Cmdlets de servidor perimetral en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179957"
 
 _**Última modificación del tema:** 2013-10-07_
 
-Los servidores perimetrales proporcionan una forma de ampliar las capacidades de Microsoft Lync Server 2013 a los usuarios que no han iniciado sesión en la red interna. Por ejemplo, si tiene usuarios remotos autenticados que inician sesión en Lync Server 2013 a través de Internet en lugar de usar la red interna, deberá configurar un servidor perimetral que ejecute el servicio perimetral de acceso de Lync Server. Además, los servidores perimetrales son necesarios si desea establecer la Federación con otra organización o si desea proporcionar a los usuarios el derecho de comunicarse con las personas que tienen cuentas con un servicio de mensajería instantánea pública,\!como Yahoo, AOL o MSN.
+Los servidores perimetrales proporcionan una forma de ampliar las capacidades de Microsoft Lync Server 2013 a los usuarios que no han iniciado sesión en la red interna. Por ejemplo, si tiene usuarios remotos autenticados que inician sesión en Lync Server 2013 a través de Internet en lugar de usar la red interna, deberá configurar un servidor perimetral que ejecute el servicio perimetral de acceso de Lync Server. Además, los servidores perimetrales son necesarios si desea establecer la Federación con otra organización o si desea proporcionar a los usuarios el derecho de comunicarse con las personas que tienen cuentas con un servicio de mensajería instantánea pública, como Yahoo \! , AOL o MSN.
 
 <div>
 
@@ -97,7 +99,7 @@ A continuación se presenta una lista de cmdlets directamente relacionados con l
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  

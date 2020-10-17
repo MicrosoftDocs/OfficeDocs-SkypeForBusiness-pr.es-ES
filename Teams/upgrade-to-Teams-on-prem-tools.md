@@ -3,7 +3,7 @@ title: Actualizar a teams desde una implementación local de Skype empresarial-M
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 952214d615b62d0175841e2c7b24b45f1ae2d2b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328199"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533577"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Herramientas para actualizar a teams &mdash; para administradores de ti
 
@@ -51,7 +51,7 @@ Tanto si realiza una transición de funciones seleccionadas con los modos de Sky
 
 También puede asignar cualquier modo de TeamsUpgradePolicy, excepto el modo TeamsOnly, a los usuarios alojados en Skype empresarial local. **El modo TeamsOnly solo se puede asignar a un usuario que ya está alojado en Skype empresarial online**. Esto se debe a que la interoperabilidad con usuarios y Federación de Skype empresarial, así como con la funcionalidad del sistema telefónico de Microsoft 365 solo es posible si el usuario se ha alojado en Skype empresarial online. Además, **no puede asignar el modo de TeamsOnly como predeterminado para todo el inquilino si tiene una implementación local de Skype empresarial** (que es detectada por presencia de un registro DNS de lyncdiscover que apunta a una ubicación distinta de Office 365.
 
-Los usuarios con cuentas de Skype empresarial domésticas locales [deben moverse por Internet](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (ya sea a Skype empresarial online o directamente a teams) mediante Move-CsUser en el conjunto de herramientas de Skype empresarial local. Estos usuarios se pueden mover a TeamsOnly en 1 o 2 pasos:
+Los usuarios con cuentas de Skype empresarial domésticas locales [deben moverse por Internet](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (ya sea a Skype empresarial online o directamente a teams) mediante Move-CsUser en el conjunto de herramientas local de Skype empresarial. Estos usuarios se pueden mover a TeamsOnly en 1 o 2 pasos:
 
 -   1 paso: especificar el modificador-MoveToTeams en Move-CsUser. Para ello, necesita Skype empresarial Server 2019 o Skype empresarial Server 2015 con CU8 o posterior.
 
@@ -112,7 +112,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 Cuando se migra un usuario al modo TeamsOnly, las reuniones de Skype empresarial existentes que organizó se convertirán en Teams de forma predeterminada. Si lo desea, puede deshabilitar el comportamiento predeterminado al asignar el modo de TeamsOnly a un usuario. Al mover usuarios de forma local, las reuniones se deben migrar a la nube para que funcione con la cuenta de usuario en línea, pero si no especifica-MoveToTeams, las reuniones se migrarán como reuniones de Skype empresarial, en lugar de convertirlas a teams. 
 
-Al asignar el modo de TeamsOnly en el nivel de espacio empresarial, la migración de reuniones no se desencadena para ningún usuario. Si desea asignar el modo de TeamsOnly en el nivel de inquilino y migrar reuniones, puede usar PowerShell para obtener una lista de los usuarios en el espacio empresarial (por ejemplo, usar Get-CsOnlineUser con los filtros necesarios) y, a continuación, recorra cada uno de estos usuarios para desencadenar la migración de reuniones con Start-CsExMeetingMigration. Para obtener más información, vea [usar el servicio de migración de reuniones (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Al asignar el modo de TeamsOnly en el nivel de espacio empresarial, la migración de reuniones no se desencadena para ningún usuario. Si desea asignar el modo de TeamsOnly en el nivel de inquilino y migrar reuniones, puede usar PowerShell para obtener una lista de los usuarios en el inquilino (por ejemplo, usando Get-CsOnlineUser con los filtros que sean necesarios) y, a continuación, recorra cada uno de estos usuarios para desencadenar la migración de reuniones con Start-CsExMeetingMigration. Para obtener más información, vea [usar el servicio de migración de reuniones (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
 

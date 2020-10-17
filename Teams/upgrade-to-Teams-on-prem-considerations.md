@@ -3,7 +3,7 @@ title: Actualizar a teams desde una implementación local de Skype empresarial-M
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: cf034969c2b6ca030eede72ff358a517fafe501f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533597"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>Consideraciones de actualización para organizaciones con Skype empresarial Server local &mdash; para administradores de ti
 

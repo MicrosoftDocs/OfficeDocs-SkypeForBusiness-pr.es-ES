@@ -12,20 +12,22 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c8622e2c32af698d599b4ed541945b4d1de0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d9a06a7bf01664c260ace3a86537665e185b64f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532607"
 ---
+# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Configurar el modo de privacidad de presencia mejorada en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Configurar el modo de privacidad de presencia mejorada en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202966"
 
 _**Última modificación del tema:** 2014-12-08_
 
-Con el modo de privacidad de presencia mejorada, los usuarios pueden restringir la información de presencia para que esté visible solo para los contactos que aparecen en la lista de contactos de Lync 2013. Los cmdlets **New-CsPrivacyConfiguration** y **set-CsPrivacyConfiguration** tienen un parámetro EnablePrivacyMode controla esta opción. Cuando EnablePrivacyMode se establece en true, la opción para restringir la información de presencia a los contactos está disponible en las opciones de estado de Lync 2013. Si EnablePrivacyMode está definido en False, los usuarios pueden elegir si quieren permitir que todo el mundo vea siempre su información de presencia o adaptarse a los posibles cambios que el administrador realice en el modo de privacidad.
+Con el modo de privacidad de presencia mejorada, los usuarios pueden restringir la información de presencia para que esté visible solo para los contactos que aparecen en la lista de contactos de Lync 2013. Los cmdlets **New-CsPrivacyConfiguration**   y **set-CsPrivacyConfiguration** tienen un parámetro EnablePrivacyMode controla esta opción. Cuando EnablePrivacyMode se establece en true, la opción para restringir la información de presencia a los contactos está disponible en las opciones de estado de Lync 2013. Si EnablePrivacyMode está definido en False, los usuarios pueden elegir si quieren permitir que todo el mundo vea siempre su información de presencia o adaptarse a los posibles cambios que el administrador realice en el modo de privacidad.
 
 <div>
 
@@ -70,7 +72,7 @@ Con el modo de privacidad de presencia mejorada, los usuarios pueden restringir 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Get-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPrivacyConfiguration)  

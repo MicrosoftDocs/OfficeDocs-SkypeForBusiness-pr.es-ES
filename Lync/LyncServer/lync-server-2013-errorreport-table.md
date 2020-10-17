@@ -12,20 +12,22 @@ ms:contentKeyID: 48185129
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fad1f4138f1fae95f4e3d2ea88c8a8c72f7198a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 321a975e9461e39de882d9620cdded9d2554e8ed
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533147"
 ---
+# <a name="errorreport-table-in-lync-server-2013"></a>Tabla ErrorReport en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorreport-table-in-lync-server-2013"></a>Tabla ErrorReport en Lync Server 2013
+
 
 </div>
 
@@ -64,31 +66,31 @@ La tabla ErrorReport almacena información sobre los errores que se han producid
 </tr>
 <tr class="even">
 <td><p><strong>ErrorReportSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número de identificador para identificar el informe de errores. Se usa junto con <strong>campos errortime</strong> para identificar de forma exclusiva un informe de errores.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ErrorId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>IDENTIFICADOR único del tipo de error. Consulte la <a href="lync-server-2013-errordef-table.md">tabla ErrorDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromUserId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Usuario que originó la solicitud que causó el error. Consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToUserId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Usuario de destino de la solicitud que provocó el error. Consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>URI de conferencia relacionado con el error. Consulte la <a href="lync-server-2013-conferenceuris-table.md">tabla ConferenceUris en Lync Server 2013</a> para obtener más información. Normalmente, si ConferenceUriId no es null, entonces FromUserId o ToUserId será null.</p></td>
 </tr>
@@ -100,20 +102,20 @@ La tabla ErrorReport almacena información sobre los errores que se han producid
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Número con el que se identifica la sesión. Se usa en combinación con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SourceId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Servidor que ha enviado el informe de errores (si el informe se está enviando desde un componente de servidor). Consulte la <a href="lync-server-2013-servers-table.md">tabla servidores en Lync Server 2013</a> para obtener más información.</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ApplicationId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Servidor que ha enviado el informe de errores (si el informe se está enviando desde un componente de servidor). Consulte la <a href="lync-server-2013-application-table.md">tabla de la aplicación en Lync Server 2013</a> para obtener más información.</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -128,7 +130,7 @@ La tabla ErrorReport almacena información sobre los errores que se han producid
 </tr>
 <tr class="even">
 <td><p><strong>ClientVersionId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>La versión de cliente del extremo que envía el informe de errores. Consulte la <a href="lync-server-2013-clientversions-table.md">tabla ClientVersions en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -153,20 +155,20 @@ La tabla ErrorReport almacena información sobre los errores que se han producid
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Tiempo (en milisegundos) que necesita un componente determinado para unirse a una conferencia.</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ServerId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Representa el nombre de dominio completo del servidor que generó el informe de errores.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Representa el nombre de dominio completo del grupo en el que se generó el informe de errores.</p></td>
 </tr>
