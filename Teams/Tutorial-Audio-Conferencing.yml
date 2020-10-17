@@ -3,7 +3,9 @@ title: 'Tutorial: audioconferencias-Microsoft Teams'
 metadata:
   title: Audioconferencia en Microsoft Teams
   description: Use este tutorial interactivo para obtener información sobre los requisitos, los pasos de planeación y los informes de audioconferencias en Microsoft Teams.
-  ms.custom: seo-marvel-mar2020
+  ms.custom:
+  - seo-marvel-apr2020
+  - seo-marvel-mar2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -20,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 28e1cf02f9f25bded8f0e28f5d82fc18065f6f52
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: fc4f57607a0a96de6754eec0e693b7cf5cb0b767
+  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43904555"
+  ms.lasthandoff: 10/16/2020
+  ms.locfileid: "48532767"
 items:
 - durationInMinutes: 1
   content: >
@@ -68,7 +70,7 @@ items:
     Para enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Audioconferencia en Teams
   durationInMinutes: 12
-  content: "\nCon las audioconferencias, los participantes usan un teléfono común para participar en las reuniones de Teams, ya sea mediante el acceso telefónico a la reunión desde su teléfono o mediante la funcionalidad de acceso telefónico desde la reunión. Revise los siguientes recursos para obtener más información sobre las conferencias de audio:\n-   [Características](https://products.office.com/skype-for-business/audio-conferencing#Features) de la audioconferencia (tiempo de lectura estimado 1 minuto)\n-   [9 Consejos para reunirse con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (el tiempo de lectura\\#estimado para \"1-unirse a una reunión a través de audioconferencias\" es de 1 minuto; más si lee todo el artículo)\n-   [Preguntas frecuentes sobre las conferencias de audio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (tiempo de lectura estimado de 7 minutos)\n-   [Llamar desde una reunión para que otras personas puedan unirse a ella](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tiempo de lectura estimado 2 minutos)\n"
+  content: "\nCon las audioconferencias, los participantes usan un teléfono común para participar en las reuniones de Teams, ya sea mediante el acceso telefónico a la reunión desde su teléfono o mediante la funcionalidad de acceso telefónico desde la reunión. Revise los siguientes recursos para obtener más información sobre las conferencias de audio:\n-   [Características](https://products.office.com/skype-for-business/audio-conferencing#Features) de la audioconferencia (tiempo de lectura estimado 1 minuto)\n-   [9 Consejos para reunirse con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (el tiempo de lectura estimado para \" \\# 1-unirse a una reunión a través de audioconferencias\" es de 1 minuto; más si lee todo el artículo)\n-   [Preguntas frecuentes sobre las conferencias de audio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (tiempo de lectura estimado de 7 minutos)\n-   [Llamar desde una reunión para que otras personas puedan unirse a ella](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tiempo de lectura estimado 2 minutos)\n"
 - title: 'Escenario: audioconferencia'
   durationInMinutes: 1
   content: "\nJorge funciona en Contoso, una empresa que tiene varias oficinas. Juan necesita con frecuencia conectar con personas de otras ubicaciones de oficina y, como a menudo trabaja desde casa o sale de viaje, es un gran abanico de reuniones de Teams. Cuando Jorge envía una invitación de reunión, la información se agrega automáticamente para las conferencias de audio. Esto hace que las siguientes situaciones sean posibles:\n-   Alicia desea asistir a la reunión de Jorge, pero ella está en camino y no tiene acceso a una red confiable. Por lo tanto, se une a la reunión con las coordenadas de acceso telefónico de la invitación a la reunión. Durante el proceso de acceso telefónico, usa su PIN para autenticar, de modo que el sistema lo reconoce como \"Alicia\".\n-   Bob, que está actualmente en un hotel, se une a la reunión usando el cliente de Teams en su PC. Lamentablemente, la calidad de audio a través de la conexión a Internet en el Hotel no es buena, por lo que Bob llama a su propio número de teléfono de la reunión para unirse a través de la red de telefonía pública conmutada (RTC).\n-   Si los participantes de la reunión deciden durante la llamada que desean agregar usuarios en un número de teléfono diferente, pueden simplemente llamar al número de teléfono y añadir más personas a la reunión.\n-   Otros usuarios también pueden unirse desde el cliente de Teams en su PC, Mac o dispositivo móvil.\n\nEn Teams, los organizadores de reuniones pueden finalizar una reunión para todos los participantes de la reunión. Esto es útil en escenarios como los siguientes:\n\n-   Los educadores pueden garantizar que los alumnos no se mantengan en una reunión sin supervisar después de que haya finalizado una clase.\n-   En el caso de las reuniones que se graban, como seminarios web, los organizadores de reuniones pueden asegurarse de que la grabación finaliza cuando finaliza la reunión.\n-   Finalizar una reunión para todos los participantes puede ayudar a reducir el uso y la facturación de RTC de la organización. \n\nPor ejemplo, cuando la reunión ha terminado, Jorge puede hacer clic en **Finalizar reunión** dentro de la reunión en Teams para finalizarla y quitar a todos los participantes de ella.\n"
