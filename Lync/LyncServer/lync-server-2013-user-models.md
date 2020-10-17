@@ -12,20 +12,22 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389d545c18edb4a3c14fc2f0abdf5fb185fcd0ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a5f110e6b2badd5b0651a2ad32860f421fab167
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213056"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508737"
 ---
+# <a name="user-models-in-lync-server-2013"></a>Modelos de usuario en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-models-in-lync-server-2013"></a>Modelos de usuario en Lync Server 2013
+
 
 </div>
 
@@ -153,7 +155,7 @@ En la tabla siguiente se describe el modelo de usuario para el registro, los con
 <td><p>Sesiones de MI de punto a punto</p></td>
 <td><p>Cada usuario mantiene una media diaria de seis sesiones de MI de punto a punto.</p>
 <p>Diez mensajes instantáneos por sesión.</p>
-<p>Cada mensaje se corresponde con dos mensajes SIP INFO y dos mensajes SIP 200 OK (para los indicadores de estado como "&lt;el nombre&gt; está escribiendo")</p></td>
+<p>Cada mensaje se corresponde con dos mensajes SIP INFO y dos mensajes SIP 200 OK (para los indicadores de estado como " &lt; el nombre &gt; está escribiendo")</p></td>
 </tr>
 <tr class="even">
 <td><p>Sondeo de presencia</p></td>
@@ -234,7 +236,7 @@ En la siguiente tabla se describe el modelo de conferencia.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Reuniones programadas &quot;frente a&quot; reunirse ahora</p></td>
+<td><p>Reuniones programadas frente a &quot; reunirse ahora &quot;</p></td>
 <td><p>60 % programadas, 40 % no programadas.</p>
 <p>De las reuniones programadas, se supone que el 80 % son conferencias asignadas, que son ocurrencias de conferencias periódicas. El 10 % son reuniones abiertas de una sola vez. El 8 % son reuniones anónimas de una sola vez y el 2 % son reuniones cerradas de una sola vez.</p></td>
 </tr>

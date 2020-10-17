@@ -12,20 +12,22 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 496d1c5e420ab20787d526f1a9fa93070e9eafb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60c2260f5729c45455596f0ab2477f7a190ef520
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206506"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509227"
 ---
+# <a name="lync-server-2013-resource-kit-tools-documentation"></a>Documentación de las herramientas del kit de recursos de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-resource-kit-tools-documentation"></a>Documentación de las herramientas del kit de recursos de Lync Server 2013
+
 
 </div>
 
@@ -43,9 +45,9 @@ En este tema se describen las herramientas que forman parte del kit de recursos 
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Instalación de las herramientas del kit de recursos
 
-Para instalar las herramientas del kit de recursos de Lync Server 2013, descargue **OCSReskit. msi**. Puede descargar el instalador de las herramientas del kit de recursos desde el [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429)centro de descarga en.
+Para instalar las herramientas del kit de recursos de Lync Server 2013, descargue **OCSReskit.msi**. Puede descargar el instalador de las herramientas del kit de recursos desde el centro de descarga en [https://go.microsoft.com/fwlink/p/?LinkID=330429](https://go.microsoft.com/fwlink/p/?linkid=330429) .
 
-Ejecute **OCSResKit. msi** para realizar una instalación sencilla. El archivo. msi instala todas las herramientas en la siguiente ruta de acceso: **% Program\\files% Microsoft\\Lync Server 2013 reskit**. Las herramientas que son ejecutables independientes se encuentran en esta carpeta. Las herramientas que también tienen archivos se encuentran en sus propias subcarpetas.
+Ejecute **OCSResKit.msi** para realizar una instalación sencilla. El archivo. msi instala todas las herramientas en la siguiente ruta de acceso: **% Program Files% \\ Microsoft Lync Server 2013 \\ reskit**. Las herramientas que son ejecutables independientes se encuentran en esta carpeta. Las herramientas que también tienen archivos se encuentran en sus propias subcarpetas.
 
 </div>
 
@@ -89,7 +91,7 @@ En la siguiente lista se describen las herramientas que se proporcionan en el ki
 
   - SEFAUtil
 
-  - SYSPrep. ps1
+  - SYSPrep.ps1
 
   - Número de anuncios no asignados a la migración
 
@@ -117,7 +119,7 @@ Los escenarios principales de la herramienta son los siguientes:
 
   - Para permitir a los administradores restaurar la configuración predeterminada del servicio de libreta de direcciones.
 
-La herramienta ABSConfig se puede iniciar mediante el archivo absConfig. exe. La herramienta se abre en la ficha **configurar atributos** . Esta tabla tiene opciones para asignar atributos de servicios de dominio de Active Directory a los campos de atributo de Lync Server 2013 y para especificar qué usuarios se deben incluir o excluir en los archivos del servicio de libreta de direcciones basándose en filtros de atributo específicos. También tiene opciones para personalizar el valor del número de teléfono que se incluirá en el archivo de la libreta de direcciones. La opción **Restaurar valores predeterminados** permite a los administradores restaurar la configuración del servicio de libreta de direcciones en los valores predeterminados.
+La herramienta ABSConfig se puede iniciar mediante el archivo absConfig.exe. La herramienta se abre en la ficha **configurar atributos** . Esta tabla tiene opciones para asignar atributos de servicios de dominio de Active Directory a los campos de atributo de Lync Server 2013 y para especificar qué usuarios se deben incluir o excluir en los archivos del servicio de libreta de direcciones basándose en filtros de atributo específicos. También tiene opciones para personalizar el valor del número de teléfono que se incluirá en el archivo de la libreta de direcciones. La opción **Restaurar valores predeterminados** permite a los administradores restaurar la configuración del servicio de libreta de direcciones en los valores predeterminados.
 
 </div>
 
@@ -201,9 +203,9 @@ Administradores que tienen los permisos necesarios para actualizar la implementa
 
 ## <a name="examples"></a>Ejemplos
 
-Para iniciar ABSConfig, escriba **ABSConfig. exe** en un símbolo del sistema. A continuación se muestra la interfaz de usuario de la herramienta ABSConfig.
+ABSConfig se puede iniciar escribiendo **ABSConfig.exe** en un símbolo del sistema. A continuación se muestra la interfaz de usuario de la herramienta ABSConfig.
 
-![La herramienta ABSConfig. exe.](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "La herramienta ABSConfig. exe.")
+![La herramienta de ABSConfig.exe.](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "La herramienta de ABSConfig.exe.")
 
 </div>
 
@@ -233,7 +235,7 @@ La herramienta de supervisión del servicio de directiva de ancho de banda está
 
 ## <a name="description"></a>Descripción
 
-La herramienta de supervisión del servicio de directiva de ancho de banda se implementa como una aplicación basada en GUI. Los administradores inician la herramienta ejecutando PDPMonUI. exe.
+La herramienta de supervisión del servicio de directiva de ancho de banda se implementa como una aplicación basada en GUI. Los administradores inician la herramienta mediante la ejecución de PDPMonUI.exe.
 
 Cuando se inicia la herramienta, intenta descubrir la lista de servicios de directivas de ancho de banda en la topología. Una vez realizada la actualización inicial, el panel de la izquierda de la ventana se rellena con una lista de servicios agrupados por los clústeres a los que pertenecen.
 
@@ -295,7 +297,7 @@ La herramienta de supervisión del servicio de directiva de ancho de banda debe 
 
 ## <a name="summary"></a>Resumen
 
-La herramienta de supervisión del servicio de directiva de ancho de banda puede ser un recurso valioso para los administradores, de modo que puedan inspeccionar el estado de todos los servicios de directivas de ancho de banda de la topología y, lo que sea más importante, puedan obtener un uso de ancho de banda en tiempo real para los vínculos que se se define en las opciones de configuración de red.
+La herramienta de supervisión del servicio de directiva de ancho de banda puede ser un recurso valioso para los administradores, de modo que puedan inspeccionar el estado de todos los servicios de directivas de ancho de banda de la topología y, lo que sea más importante, puedan obtener un uso de ancho de banda en tiempo real para los vínculos definidos en las opciones de configuración de red.
 
 </div>
 
@@ -355,9 +357,9 @@ El analizador de uso de ancho de banda puede generar trazados gráficos de la ca
 
 El analizador de uso de ancho de banda tiene las dos aplicaciones siguientes (herramientas):
 
-  - **WanLinkLogCollector. exe**   esta herramienta permite al usuario especificar la información necesaria.
+  - **WanLinkLogCollector.exe**     Esta herramienta permite al usuario especificar la información necesaria.
 
-  - **BandwidthUtilizationAnalyzer. xlsm**  se inicia automáticamente un informe de software de hoja de cálculo de Microsoft Excel mediante WanLinkLogCollector. exe. Esta aplicación permite al usuario aplicar filtros al informe, tal como se muestra más adelante en este artículo.
+  - **BandwidthUtilizationAnalyzer.xlsm**    WanLinkLogCollector.exe inicia automáticamente un informe de software de hoja de cálculo de Microsoft Excel. Esta aplicación permite al usuario aplicar filtros al informe, tal como se muestra más adelante en este artículo.
 
 </div>
 
@@ -367,15 +369,15 @@ El analizador de uso de ancho de banda tiene las dos aplicaciones siguientes (he
 
 Hay dos fases al usar el analizador de uso de ancho de banda:
 
-  - Recopilar registros, que se realiza mediante WanLinkLogCollector. exe
+  - Recopilar registros, que se realiza mediante WanLinkLogCollector.exe
 
-  - Personalización de informes, que se realiza mediante BandwidthUtilizationAnalyzer. xlsm
+  - Personalización de informes, que se realiza con BandwidthUtilizationAnalyzer.xlsm
 
 <div>
 
 
 > [!IMPORTANT]  
-> Se recomienda encarecidamente que los usuarios finales no inicien manualmente BandwidthUtilizationAnalyzer. xlsm.
+> Se recomienda encarecidamente que BandwidthUtilizationAnalyzer.xlsm no sea iniciado manualmente por los usuarios finales.
 
 
 
@@ -387,17 +389,17 @@ Hay dos fases al usar el analizador de uso de ancho de banda:
 
 ## <a name="starting-bandwidth-utilization-analyzer"></a>Inicio del analizador de uso de ancho de banda
 
-Inicie WanLinkLogCollector. exe en el símbolo del sistema o mediante el explorador de Windows.
+Inicie WanLinkLogCollector.exe en el símbolo del sistema o con el explorador de Windows.
 
-**Uso de WanLinkLogCollector. exe**
+**Uso de WanLinkLogCollector.exe**
 
-Hay tres pasos para usar WanLinkLogCollector. exe:
+Hay tres pasos para usar WanLinkLogCollector.exe:
 
-1.  **Registrar la escala de tiempo**   proporcione la escala de tiempo que debe generarse el informe para
+1.  **Registrar la escala de tiempo**     Proporcionar la escala de tiempo que debe generarse el informe para
 
-2.  **Especificar los directorios**   de archivos proporcionar información de ubicación de archivos
+2.  **Especificar los directorios**     de archivos Proporcionar información de ubicación de archivos
 
-3.  **Recopilar los registros e iniciar el visor**  de informes ejecute el comando para generar el informe.
+3.  **Recopilar los registros e iniciar el visor**    de informes Ejecutar el comando para generar el informe
 
 <div>
 
@@ -419,7 +421,7 @@ El registro de la escala de tiempo permite que el usuario de la herramienta espe
 
 El usuario puede especificar los siguientes directorios de archivos, tal y como se muestra.
 
-  - **Ubicación de los archivos de registro del servidor** La ubicación de la carpeta donde se almacenan los registros del servidor de directivas de ancho de banda. Por lo general, \<se\>\\\<encuentra en el\>\\fileserver elegido de fe AppServerFiles\\PDP.
+  - **Ubicación de los archivos de registro del servidor** La ubicación de la carpeta donde se almacenan los registros del servidor de directivas de ancho de banda. Suele estar en \<fileserver\> \\ \<choice of FE\> \\ PDP de AppServerFiles \\ .
 
   - **Ubicación de almacenamiento de archivos temporales** Ubicación del archivo temporal donde se almacenan los archivos intermedios mientras se genera el informe.
 
@@ -449,20 +451,20 @@ Cuando la validación de entrada es correcta, se muestra el mensaje que se muest
 
 ![Registros recopilados de la notificación en el uso de ancho de banda](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Registros recopilados de la notificación en el uso de ancho de banda")
 
-Haga clic en **Aceptar**. BandwidthUtilizationAnalyzer. xlsm se inicia automáticamente. Siga las instrucciones del cuadro de mensaje. Para obtener más información, consulte **uso de BandwidthUtilizationAnalyzer. xlsm** en la siguiente sección.
+Haga clic en **Aceptar**. BandwidthUtilizationAnalyzer.xlsm se inicia automáticamente. Siga las instrucciones del cuadro de mensaje. Para obtener información detallada, consulte **Using BandwidthUtilizationAnalyzer.xlsm** en la sección siguiente.
 
 </div>
 
 <div>
 
 
-**Uso de BandwidthUtilizationAnalyzer. xlsm**
+**Uso de BandwidthUtilizationAnalyzer.xlsm**
 
-1.  Cuando BandwidthUtilizationAnalyzer. xlsm se inicie automáticamente, haga clic en **Actualizar** como se muestra a continuación.
+1.  Cuando se inicie BandwidthUtilizationAnalyzer.xlsm automáticamente, haga clic en **Actualizar** como se muestra a continuación.
     
-    ![BandwidthUtilizationAnalyzer. xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer. xlsm")
+    ![BandwidthUtilizationAnalyzer.xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer.xlsm")
 
-2.  Cuando se abre una carpeta de archivos, seleccione Consolidated. csv en la ubicación que se especifica en el cuadro de mensaje, como se muestra a continuación. También se muestra la ubicación como **C:\\Temp**.
+2.  Cuando se abre una carpeta de archivos, seleccione consolidated.csv de la ubicación especificada en el cuadro de mensaje como se muestra a continuación. También se muestra la ubicación como **C: \\ temp**.
     
     ![Abrir una carpeta en BandwidthUtilizationAnalyzer.](images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "Abrir una carpeta en BandwidthUtilizationAnalyzer.")
 
@@ -584,7 +586,7 @@ Todas las opciones se excluyen mutuamente. La sintaxis de la línea de comandos 
 
   - **– f** parámetro: enumera el número de órbitas libres actualmente en el grupo.
 
-  - **parámetro – \<r\> n** — enumera las \<n\> últimas llamadas estacionadas. La información mostrada es la siguiente:
+  - **– r \<n\> ** parámetro: muestra las \<n\> últimas llamadas estacionadas. La información mostrada es la siguiente:
     
       - URI del SIP estacionado.
     
@@ -594,7 +596,7 @@ Todas las opciones se excluyen mutuamente. La sintaxis de la línea de comandos 
     
       - Marca de tiempo de Cuándo se recuperó o se quitó la llamada.
 
-  - **-t\<n\> ** parámetro-pruebas que reservan una órbita en la base de datos para mostrar la aleatoriedad de los números de órbitas asignados.
+  - **-t \<n\> ** parámetro: comprueba la reserva de una órbita en la base de datos para mostrar la aleatoriedad de los números de órbitas asignados.
 
 </div>
 
@@ -628,7 +630,7 @@ La finalidad de la herramienta CPS es proporcionar acceso desde la línea de com
 
 ## <a name="requirements"></a>Requirements
 
-No hay requisitos si esta herramienta se ejecuta en el mismo equipo que ejecuta CPS. Si esta herramienta se ejecuta en un equipo remoto, la base de datos de SQL Server que usa Lync Server 2013 debe estar configurada para permitir el acceso remoto. Llamar a Parkometer debe configurarse con una cadena de conexión de base de datos de SQL Server para conectarse al servidor SQL Server del grupo. Esta cadena de conexión de base de datos de SQL Server se define en el archivo de configuración, **parkometer. exe. config**. Debe colocarse en el mismo directorio donde se encuentra parkometer. exe. El siguiente archivo XML es un ejemplo de parkometer. exe. config. Los parámetros que deben configurarse son el nombre de usuario (por ejemplo\\, administrador de dominio), la contraseña (por ejemplo, contraseña) y el nombre de host (por ejemplo, mi servidor).
+No hay requisitos si esta herramienta se ejecuta en el mismo equipo que ejecuta CPS. Si esta herramienta se ejecuta en un equipo remoto, la base de datos de SQL Server que usa Lync Server 2013 debe estar configurada para permitir el acceso remoto. Llamar a Parkometer debe configurarse con una cadena de conexión de base de datos de SQL Server para conectarse al servidor SQL Server del grupo. Esta cadena de conexión de base de datos de SQL Server se define en el archivo de configuración, **parkometer.exe.config**. Debe colocarse en el mismo directorio en el que se encuentra parkometer.exe. El siguiente archivo XML es un ejemplo de parkometer.exe.config. Los parámetros que deben configurarse son el nombre de usuario (por ejemplo, administrador de dominio \\ ), la contraseña (por ejemplo, contraseña) y el nombre de host (por ejemplo, mi servidor).
 
 ```xml
     <?xml version="1.0" encoding="utf-8" ?>
@@ -661,11 +663,11 @@ Número de órbitas libres: el parámetro – f enumera el número de órbitas l
 
 ![Órbitas libres en llamadas Parkometer.](images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "Órbitas libres en llamadas Parkometer.")
 
-Llamadas estacionadas recientemente: el parámetro – \<r\> n enumera las \<llamadas\> de las que se han estacionado las n últimas, como se muestra
+Llamadas estacionadas recientemente: el parámetro – r \<n\> enumera las \<n\> últimas llamadas estacionadas, como se muestra
 
 ![Llamadas estacionadas recientemente en Call Parkometer.](images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "Llamadas estacionadas recientemente en Call Parkometer.")
 
-Prueba de reserva orbital: el parámetro \<–\> t n comprueba la reserva de una órbita en la base de datos tal como se muestra
+Prueba de reserva orbital: el parámetro – t comprueba la reserva \<n\> de una órbita en la base de datos tal como se muestra.
 
 ![Pruebe las reservas de órbitas en Call Parkometer.](images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "Pruebe las reservas de órbitas en Call Parkometer.")
 
@@ -699,7 +701,7 @@ Para admitir la alta disponibilidad, LYSS acepta y guarda copias de los datos en
 
 ## <a name="requirements"></a>Requirements
 
-Instale las herramientas del kit de recursos de Lync Server 2013. La herramienta se ejecuta en equipos Unidos a un dominio en los que se han instalado Lync Server y Lync Server 2013 Management Shell. La herramienta usa un cmdlet desde el shell de administración para identificar todos los servidores front-end del grupo. En segundo lugar, la herramienta debe ejecutarse desde un equipo en el grupo de servidores que tenga instalada la base de datos **RtcLocal** . Esta base de datos se usa con la herramienta CleanupStorageServiceData para obtener los detalles de conexión necesarios para comunicarse con el servicio de enrutamiento de Lync Server. por último, la cuenta o credencial que invoca la herramienta debe tener permiso de lectura y escritura en el recurso compartido de archivos en el que desea escribir el registro de salida. Además, esta herramienta depende de que el grupo esté en un estado estable. En esencia, esto significa que cada servidor front-end debe estar activo y en funcionamiento, la instancia de SQL Server LYNCLOCAL y la base de datos de LYSS deben poder conectarse a y cada grupo de enrutamiento debe tener un conjunto completo de 1 servidor front-end principal y 2 servidores front-end secundarios ervers.
+Instale las herramientas del kit de recursos de Lync Server 2013. La herramienta se ejecuta en equipos Unidos a un dominio en los que se han instalado Lync Server y Lync Server 2013 Management Shell. La herramienta usa un cmdlet desde el shell de administración para identificar todos los servidores front-end del grupo. En segundo lugar, la herramienta debe ejecutarse desde un equipo en el grupo de servidores que tenga instalada la base de datos **RtcLocal** . Esta base de datos se usa con la herramienta CleanupStorageServiceData para obtener los detalles de conexión necesarios para comunicarse con el servicio de enrutamiento de Lync Server. por último, la cuenta o credencial que invoca la herramienta debe tener permiso de lectura y escritura en el recurso compartido de archivos en el que desea escribir el registro de salida. Además, esta herramienta depende de que el grupo esté en un estado estable. En esencia, esto significa que cada servidor front-end debe estar activo y en funcionamiento, la instancia de SQL Server LYNCLOCAL y la base de datos LYSS deben poder conectarse a y cada grupo de enrutamiento debe tener un conjunto completo de 1 servidor front-end principal y 2 servidores front-end secundarios.
 
 </div>
 
@@ -707,7 +709,7 @@ Instale las herramientas del kit de recursos de Lync Server 2013. La herramienta
 
 ## <a name="examples"></a>Ejemplos
 
-C:\\archivos\\de programa Microsoft Lync Server\\2013 reskit\\StorageService\> ImportStorageServiceData. exe
+C: \\ archivos de programa \\ Microsoft Lync Server 2013 \\ reskit \\ StorageService \> ImportStorageServiceData.exe
 
     Description:
     This tool will remove orphaned data from the Storage Service database
@@ -779,7 +781,7 @@ C:\\archivos\\de programa Microsoft Lync Server\\2013 reskit\\StorageService\> I
 
 DBAnalyze es una herramienta de línea de comandos que ayuda a los administradores a recopilar informes de análisis sobre las bases de datos de Lync Server 2013. DBAnalyze tiene los siguientes modos: diagnóstico, datos de usuario, Conferencia, MCU y fragmentación de disco:
 
-  - **El modo**   de diagnóstico crea un informe que incluye información sobre las tablas (número de registros, fragmentación, tamaño de los datos y el tamaño del índice), los tamaños de los archivos de registro y de datos, el último tiempo de copia de seguridad, la distribución de contactos entre servidores que ejecutan Microsoft Office Communications Server, el número promedio de permisos, contactos, contenedores, suscripciones, publicaciones, extremos por usuario, usuarios alojados incorrectamente, usuarios que no se pueden enrutar, número medio conferencias, conferencias activas y la versión de la base de datos.
+  - **Modo**     de diagnóstico Crea un informe que incluye información sobre tablas (el número de registros, la fragmentación, el tamaño de los datos y el tamaño del índice), los tamaños de los archivos de registro y de datos. el último tiempo de copia de seguridad, la distribución de contactos entre servidores que ejecutan Microsoft Office Communications Server, el número promedio de permisos, contactos, contenedores, suscripciones, publicaciones, extremos por usuario, los usuarios alojados incorrectamente, los usuarios que no se pueden enrutar, el número medio de conferencias organizadas por usuario, conferencias programadas, conferencias activas y la versión
     
     <div>
     
@@ -790,17 +792,17 @@ DBAnalyze es una herramienta de línea de comandos que ayuda a los administrador
     
     </div>
 
-  - El **modo**  de datos de usuario informa sobre los datos de contactos, contenedores, suscripciones, publicaciones, permisos y grupos de contactos para un usuario específico o para los usuarios que tengan ese usuario en sus listas de contactos y permisos. Este modo también informa de los datos de Resumen de las conferencias a las que un usuario organiza o al que está invitado.
+  - Modo de datos de **usuario**   Informa sobre los datos del contacto, el contenedor, la suscripción, la publicación, el permiso y el grupo de contactos para un usuario específico o para los usuarios que tienen ese usuario en sus listas de contactos y permisos. Este modo también informa de los datos de Resumen de las conferencias a las que un usuario organiza o al que está invitado.
 
-  - **El modo**   de conferencia muestra datos detallados de una conferencia específica, incluidos todos los detalles de tiempo de programación de la Conferencia, la lista de invitados, la lista de tipos de medios permitidos para la Conferencia, MCU activos (unidades de control multipunto), la lista de participantes activos y el estado de señalización de cada participante.
+  - **Modo**     de conferencia Informa de datos detallados para una conferencia específica, incluidos todos los detalles de tiempo de programación de la Conferencia, la lista de invitados, la lista de tipos de medios permitidos para la Conferencia, las MCU activas (unidades de control multipunto), la lista de participantes activos y el estado de señalización de cada participante.
 
-  - **El identificador**  de reunión descodificar descodifica un identificador de reunión de red telefónica conmutada (RTC) especificado por el conmutador **/pstnid** , pero no se conecta al back-end para obtener información detallada.
+  - IDENTIFICADOR de reunión de **descodificación**    Descodifica un identificador de reunión de la red telefónica conmutada (RTC) que especifica el conmutador **/pstnid** pero no se conecta al back-end para obtener información detallada.
 
-  - **Resolver Conferencia**   descodifica un identificador de reunión RTC especificado por el modificador **/pstnid** y muestra información sobre la Conferencia indicada por el identificador.
+  - **Resolver Conferencia**     Descodifica un identificador de reunión RTC especificado por el modificador **/pstnid** y muestra información sobre la Conferencia indicada por el identificador.
 
-  - **El modo**  MCU informa del identificador, el tipo de medio, la dirección URL, el estado de latido, la carga de conferencia y la carga de participantes para cada MCU del grupo.
+  - **Modo MCU**    Informa del identificador, el tipo de medio, la dirección URL, el estado de latido, la carga de conferencia y la carga de participantes de cada MCU del grupo.
 
-  - **El modo**  de fragmentación de disco muestra el estado de fragmentación de todos los discos.
+  - Modo de fragmentación de **disco**    Muestra el estado de fragmentación de todos los discos.
 
 Esta herramienta se puede usar para diagnosticar varios problemas o ayudar a los administradores con la planeación de la capacidad. Por ejemplo, si la mayoría de los usuarios hospedados en el servidor A eligen a los usuarios hospedados en el servidor B como sus contactos, el administrador puede mover a los usuarios del servidor a al servidor B para reducir el tráfico entre servidores.
 
@@ -810,7 +812,7 @@ Esta herramienta se puede usar para diagnosticar varios problemas o ayudar a los
 
 ## <a name="output"></a>Output
 
-Esta herramienta genera informes predefinidos sobre la base de datos de Lync Server 2013. **Ruta de acceso:** %\\ProgramFiles% Microsoft Lync\\Server 2013 reskit
+Esta herramienta genera informes predefinidos sobre la base de datos de Lync Server 2013. **Ruta de acceso:** % ProgramFiles% \\ Microsoft Lync Server 2013 \\ reskit
 
 </div>
 
@@ -818,9 +820,9 @@ Esta herramienta genera informes predefinidos sobre la base de datos de Lync Ser
 
 ## <a name="purpose"></a>Finalidad
 
-Para instalar Dbanalyze. exe, cópielo en una carpeta local y, a continuación, ejecute la herramienta. Para usar la herramienta, ejecute el siguiente comando desde la línea de comandos.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` A continuación se muestran las descripciones de las opciones de la línea de comandos.
+Para instalar Dbanalyze.exe, cópielo en una carpeta local y, a continuación, ejecute la herramienta. Para usar la herramienta, ejecute el siguiente comando desde la línea de comandos.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` A continuación se muestran las descripciones de las opciones de la línea de comandos.
 
-![Opciones de la línea de comandos para Dbanalyze. exe.](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Opciones de la línea de comandos para Dbanalyze. exe.")
+![Opciones de la línea de comandos para Dbanalyze.exe.](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Opciones de la línea de comandos para Dbanalyze.exe.")
 
 </div>
 
@@ -836,7 +838,7 @@ Para instalar Dbanalyze. exe, cópielo en una carpeta local y, a continuación, 
 
 **Usuarios** de En la tabla siguiente se muestran los administradores que tienen los permisos necesarios para acceder a las bases de datos de Lync Server 2013.
 
-![Tabla de permisos para Dbanalyze. exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Tabla de permisos para Dbanalyze. exe.")
+![Tabla de permisos para obtener Dbanalyze.exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Tabla de permisos para obtener Dbanalyze.exe.")
 
 <div>
 
@@ -854,7 +856,7 @@ Para instalar Dbanalyze. exe, cópielo en una carpeta local y, a continuación, 
 
 ## <a name="examples"></a>Ejemplos
 
-Los siguientes son ejemplos de comandos Dbanalyze. exe válidos:
+Los siguientes son ejemplos de comandos de Dbanalyze.exe válidos:
 
     dbanalyze.exe /report:diag
     dbanalyze.exe /report:user /user:usera@domainb.com
@@ -891,7 +893,7 @@ Los datos vaciados del servicio de almacenamiento podrían haber sido automátic
 
 **Escenario 2:** los datos se vacían automáticamente cada día o en respuesta a la base de datos del servicio de almacenamiento que supera determinados umbrales de tamaño (por ejemplo, 60%, 80%, 90% completo). El administrador debe volver a importar periódicamente los datos vaciados de forma automática. En la situación anterior, si no se implementa el paquete SCOM de supervisión, hay eventos para el servicio de almacenamiento de Lync Server relacionados con los datos que se vacían del servicio de almacenamiento. Se han iniciado los identificadores de evento de 32075 (operación de vaciado completa), 32076 (vaciado completo), 32082 (se inició el vaciado de nivel de mantenimiento), 32083 (vaciado de nivel de mantenimiento completo), 32089 (vaciado debido a rellenar la base de datos). Nota estos identificadores de evento corresponden a la versión RTM. Cuando un administrador ve estos eventos, significa que hay archivos que se han vaciado. Estos datos deben volver a importarse rutinariamente con esta herramienta, por ejemplo, una vez por semana.
 
-Para la versión de servicio en línea, si se implementa el paquete SCOM de supervisión de mantenimiento de Lync Server, hay nuevas alertas que se pueden plantear y que piden al administrador que vuelva a importar los datos vaciados en el servicio de almacenamiento. Habrá un evento correspondiente en el registro de eventos del servidor front-end que activó la alerta. El evento proporcionará una descripción de la ruta de acceso principal en la que se ubican los archivos de datos vaciados, así como el número de archivos que cumplen los criterios de alerta. Los criterios de alerta son que hay X o más archivos en la ruta de acceso del elemento primario concreta que tienen al menos días Y de antigüedad (donde X e Y están preestablecidos en el StorageService, pero se pueden invalidar cambiando el archivo APPCONFIG). A continuación, se muestran dos ejemplos de eventos que pueden desencadenar la alerta de mantenimiento, con la diferencia de que la ruta de acceso principal. Una posibilidad está en el uso compartido de archivos del servicio Web, mientras que la otra posibilidad es el directorio de datos de la aplicación local de cada front-end. (por ejemplo, c\\:\\ProgramData\\Microsoft Lync\\Server StorageService). A continuación, el administrador ejecutará esta herramienta de reskit.
+Para la versión de servicio en línea, si se implementa el paquete SCOM de supervisión de mantenimiento de Lync Server, hay nuevas alertas que se pueden plantear y que piden al administrador que vuelva a importar los datos vaciados en el servicio de almacenamiento. Habrá un evento correspondiente en el registro de eventos del servidor front-end que activó la alerta. El evento proporcionará una descripción de la ruta de acceso principal en la que se ubican los archivos de datos vaciados, así como el número de archivos que cumplen los criterios de alerta. Los criterios de alerta son que hay X o más archivos en la ruta de acceso del elemento primario concreta que tienen al menos días Y de antigüedad (donde X e Y están preestablecidos en el StorageService, pero se pueden invalidar cambiando el archivo APPCONFIG). A continuación, se muestran dos ejemplos de eventos que pueden desencadenar la alerta de mantenimiento, con la diferencia de que la ruta de acceso principal. Una posibilidad está en el uso compartido de archivos del servicio Web, mientras que la otra posibilidad es el directorio de datos de la aplicación local de cada front-end. (por ejemplo, c: \\ ProgramData \\ Microsoft \\ Lync Server \\ StorageService). A continuación, el administrador ejecutará esta herramienta de reskit.
 
 Esta herramienta aumentará la carga de la CPU y de e/s en el front-end en el que se ejecuta, así como otros front-end, en la situación en que los datos no son propiedad del servidor front-end en el que se ejecuta la herramienta. Se recomienda ejecutar esta herramienta cuando los servidores front-end no tienen una carga de CPU y de e/s intensa, por ejemplo, fuera de las horas pico. En segundo lugar, esta herramienta puede tener entre 2 y 3 minutos para importar un archivo de datos. Tenga esto en cuenta al estimar cuánto tiempo se ejecutará la herramienta. El archivo de registro detallado generado por la herramienta aparecerá de forma predeterminada en el almacén de archivos. Elimínelo si no se han notificado errores, ya que el archivo de registro puede tener decenas de MB o más.
 
@@ -1116,7 +1118,7 @@ La herramienta LookupUserConsole muestra información de enrutamiento de Lync Se
 
 ## <a name="description"></a>Descripción
 
-Al ejecutar LookupUserConsole. exe se abrirá un símbolo del sistema que acepta direcciones SIP e intenta Mostrar información de enrutamiento de Lync Server interna relacionada. Escriba **Exit** para salir de la herramienta LookupUserConsole.
+Al ejecutar LookupUserConsole.exe se abrirá un símbolo del sistema que acepta direcciones SIP e intenta Mostrar información de enrutamiento de Lync Server interna relacionada. Escriba **Exit** para salir de la herramienta LookupUserConsole.
 
 </div>
 
@@ -1132,7 +1134,7 @@ Instale las herramientas del kit de recursos de Lync Server 2013. La herramienta
 
 ## <a name="examples"></a>Ejemplos
 
-C:\\archivos\\de programa Microsoft Lync Server\\2013 reskit\>LookupUserConsole. exe
+C: \\ archivos de programa \\ Microsoft Lync Server 2013 \\ reskit \>LookupUserConsole.exe
 
     > sip:john.doe@vdomain.com
     
@@ -1260,13 +1262,13 @@ Esta herramienta puede ser un recurso valioso para los administradores de Lync S
 
 ## <a name="network-configuration-viewer"></a>Visor de configuración de red
 
-Los administradores de software de comunicaciones de Microsoft Lync Server 2013 pueden usar el visor de configuración de red para ver la topología de red de control de admisión de llamadas (CAC) para una empresa que se aprovisiona para permitir sesiones de comunicación en tiempo real, como voz o llamadas de vídeo basadas en la capacidad de ancho de banda especificada. Lync Server 2013 los administradores definen directivas de CAC, que aplican los servicios de directivas de ancho de banda que se instalan con Lync Server 2013.
+Los administradores de software de comunicaciones de Microsoft Lync Server 2013 pueden usar el visor de configuración de red para ver la topología de red de control de admisión de llamadas (CAC) para una empresa que se aprovisiona para permitir sesiones de comunicación en tiempo real, como llamadas de voz o vídeo basadas en la capacidad de ancho de banda especificada. Lync Server 2013 los administradores definen directivas de CAC, que aplican los servicios de directivas de ancho de banda que se instalan con Lync Server 2013.
 
 <div>
 
 ## <a name="description"></a>Descripción
 
-El visor de configuración de red (NetworkConfigurationViewer. exe) permite a los administradores realizar las siguientes tareas:
+El visor de configuración de red (NetworkConfigurationViewer.exe) permite a los administradores realizar las siguientes tareas:
 
   - Cargar y ver la topología de red de CAC de una implementación de Lync Server 2013 en un formato gráfico.
 
@@ -1400,7 +1402,7 @@ Response Group Agent Live requiere .NET Framework 4,0. Además, para aprovechar 
 
 ## <a name="configuration"></a>Configuración
 
-Response Group Agent Live puede personalizarse según las preferencias individuales mediante el cuadro de diálogo Opciones de la aplicación. Además, el administrador puede definir la dirección de host predeterminada editando directamente la propiedad defaultHostAddress del archivo RGAgentLive. exe. config.
+Response Group Agent Live puede personalizarse según las preferencias individuales mediante el cuadro de diálogo Opciones de la aplicación. Además, el administrador puede definir la dirección de host predeterminada editando directamente la propiedad defaultHostAddress del archivo de RGAgentLive.exe.config.
 
 La ilustración siguiente muestra el cuadro de diálogo Opciones que los agentes pueden usar para configurar las teclas de acceso directo y dirección de host. Para obtener acceso a este cuadro de diálogo, haga clic en el botón Opciones de la parte superior derecha de la interfaz principal.
 
@@ -1446,9 +1448,9 @@ La rapidez en el inicio y el cierre de sesión, la pertenencia a grupos y las es
 
 ## <a name="sefautil"></a>SEFAUtil
 
-SEFAUtil (la activación de características de extensión secundaria) es una herramienta de línea de comandos que permite a los administradores de software de comunicaciones Microsoft Lync Server 2013 y a los agentes de asistencia técnica configurar las llamadas delegadas, el desvío de llamadas, las llamadas simultáneas, la llamada de equipo configuración y recogida de llamadas de grupo en nombre de un usuario de Lync Server 2013. La herramienta también permite a los administradores consultar la configuración de enrutamiento de llamadas publicada para un usuario en particular. La herramienta SEFAUtil permite al administrador habilitar/deshabilitar/modificar el desvío de llamadas o las llamadas simultáneas en nombre del usuario. El administrador puede especificar el destino (en forma de URI de SIP) o usar un destino ya publicado por el usuario. Esta herramienta también permite a los administradores agregar o quitar delegados o miembros del grupo de llamada de equipo en nombre del usuario. Esta herramienta se basa en la API administrada de comunicaciones unificadas de Microsoft (UCMA) 3,0 y requiere que los administradores creen una aplicación de confianza en el almacén de administración central para SEFAUtil
+SEFAUtil (la activación de características de extensión secundaria) es una herramienta de línea de comandos que permite a los administradores de software de comunicaciones de Microsoft Lync Server 2013 y a los agentes de asistencia técnica configurar las llamadas delegadas, el desvío de llamadas, las llamadas simultáneas, la configuración de llamada de equipo y la recogida de llamadas de grupo en nombre de un usuario de Lync Server 2013. La herramienta también permite a los administradores consultar la configuración de enrutamiento de llamadas publicada para un usuario en particular. La herramienta SEFAUtil permite al administrador habilitar/deshabilitar/modificar el desvío de llamadas o las llamadas simultáneas en nombre del usuario. El administrador puede especificar el destino (en forma de URI de SIP) o usar un destino ya publicado por el usuario. Esta herramienta también permite a los administradores agregar o quitar delegados o miembros del grupo de llamada de equipo en nombre del usuario. Esta herramienta se basa en la API administrada de comunicaciones unificadas de Microsoft (UCMA) 3,0 y requiere que los administradores creen una aplicación de confianza en el almacén de administración central para SEFAUtil
 
-SEFAUtil (activación de características de extensión secundaria) permite a los administradores y a los agentes del Departamento de soporte técnico de Lync Server 2013 configurar llamadas delegadas, el desvío de llamadas, las llamadas simultáneas, la configuración de llamada de equipo y la recogida de llamadas de grupo en nombre de un usuario de Lync Server 2013 . Esta herramienta también permite a los administradores consultar la configuración de enrutamiento de llamadas publicada para un usuario en particular.
+SEFAUtil (activación de características de extensión secundaria) permite a los administradores y los agentes del Departamento de soporte técnico de Lync Server 2013 configurar llamadas delegadas, el desvío de llamadas, las llamadas simultáneas, la configuración de llamada de equipo y la recogida de llamadas de grupo en nombre de un usuario de Lync Server 2013. Esta herramienta también permite a los administradores consultar la configuración de enrutamiento de llamadas publicada para un usuario en particular.
 
 <div>
 
@@ -1525,7 +1527,7 @@ A continuación se muestran algunos de los escenarios clave en los que se puede 
 
   - Las llamadas de Joe a su número de trabajo van a su correo de voz móvil siempre que esté en el trabajo; sin embargo, las cosas parecen funcionar correctamente en la mayoría de las demás ubicaciones. El técnico del Departamento de soporte técnico puede ver la configuración de enrutamiento de Joe y detecta que José ha configurado las llamadas simultáneas a su teléfono móvil. El técnico pregunta a Joe sobre la cobertura móvil en su oficina y puede determinar que la regla de timbre simultáneo es lo que está causando que las llamadas se desplazan al correo de voz móvil de Joe cuando su cobertura de red es deficiente.
 
-  - Mike es un nuevo empleado de Contoso y se une a un nuevo equipo en el que todos los miembros están configurados para la llamada de equipo, cuando está habilitado para Microsoft Lync, el administrador puede establecer la configuración del grupo de llamada de equipo para incluir a todos los nuevos miembros del equipo, además del el administrador agrega Mike como miembro del grupo de llamada de equipo para cada uno de los miembros de su equipo.
+  - Mike es un nuevo empleado de Contoso y se une a un nuevo equipo en el que todos los miembros están configurados para la llamada de equipo, cuando se habilita para Microsoft Lync, el administrador puede establecer la configuración del grupo de llamada de equipo para incluir a todos los nuevos miembros del equipo, además, el administrador agrega Mike como miembro del grupo de llamada de equipo para cada miembro de su equipo
 
   - Una práctica de servicio al cliente en el Departamento de recursos humanos de Contoso es proporcionar servicio personal para todos los autores de llamadas desde la primera llamada. Dado que todos los miembros del Departamento se encuentran muy cercanos entre sí, tener todos los teléfonos que suenen al mismo tiempo con la llamada de equipo es muy disruptiva para el equipo. Para proporcionar el mejor servicio sin interrumpir a los miembros del equipo, el administrador de Lync aprovecha la capacidad de RECALL de llamadas grupales. El administrador agrega todos los miembros del Departamento a un grupo de recogida y se comunica con el número de grupo de recogida del Departamento. Cuando Samantha no está en su escritorio, Joe detecta su timbre telefónico y continúa respondiendo a la llamada desde su escritorio.
 
@@ -1571,7 +1573,7 @@ La herramienta SEFAUtil solo puede ejecutarse en un equipo que forme parte de un
 
 4.  Si es necesario, instale las herramientas del kit de recursos de Lync Server 2013 en el servidor que se usará para ejecutar la herramienta SEFAUtil (el servidor debe formar parte de un grupo de aplicaciones de confianza).
 
-5.  Compruebe que la SEFAUtil se está ejecutando correctamente. Para ello, ejecute la herramienta desde un símbolo del sistema de Windows con privilegios de administrador para mostrar la configuración de desvío de llamadas de un usuario en la implementación. De forma predeterminada, la herramienta estará ubicada en: "... \\Archivos\\de programa Microsoft Lync Server\\2013 reskit ". Para mostrar la configuración de desvío de llamadas de un usuario, use el siguiente comando:
+5.  Compruebe que la SEFAUtil se está ejecutando correctamente. Para ello, ejecute la herramienta desde un símbolo del sistema de Windows con privilegios de administrador para mostrar la configuración de desvío de llamadas de un usuario en la implementación. De forma predeterminada, la herramienta estará ubicada en: "... \\ Archivos de programa \\ Microsoft Lync Server 2013 \\ reskit ". Para mostrar la configuración de desvío de llamadas de un usuario, use el siguiente comando:
     
         SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
     
@@ -1579,7 +1581,7 @@ La herramienta SEFAUtil solo puede ejecutarse en un equipo que forme parte de un
 
 <div>
 
-## <a name="group-call-pickup"></a>Recogida de llamadas grupales
+## <a name="group-call-pickup"></a>Atender llamada grupal
 
 La atención de llamadas grupales requiere una configuración adicional en Lync Server para que la capacidad esté totalmente habilitada. Antes de asignar grupos de recogida a los usuarios, consulte la documentación del producto de recogida de llamadas de grupo para conocer los pasos de planeación e implementación de esta función.
 
@@ -1740,7 +1742,7 @@ En este ejemplo se quita el delegado.
 
 <div>
 
-## <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>Adición de un delegado y configuración de la regla de desvío de llamadas a delegados
+## <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>Adición de un delegado y configuración de la regla de Call-Forward a delegados
 
 En este ejemplo se agrega un delegado y se configura la regla de desvío de llamadas a delegados.
 
@@ -1804,7 +1806,7 @@ En este ejemplo se deshabilita la característica de llamadas simultáneas.
 
 <div>
 
-## <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>Agregar un integrante del grupo para la llamada de equipo y configurar las llamadas simultáneas al grupo de miembros de llamada de equipo
+## <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>Adición de un integrante del grupo para Team-Call y configuración de llamadas simultáneas al grupo miembros del Team-Call
 
 En este ejemplo se agrega un integrante del grupo al grupo de llamada de equipo de un usuario y se habilita la característica de llamadas simultáneas al grupo de llamada de equipo.
 
@@ -1831,7 +1833,7 @@ En este ejemplo se agrega un integrante del grupo al grupo de llamada de equipo 
 
 <div>
 
-## <a name="remove-a-member-from-the-team-call-group"></a>Quitar un miembro del grupo de llamada de equipo
+## <a name="remove-a-member-from-the-team-call-group"></a>Quitar un miembro del grupo de Team-Call
 
 En este ejemplo se quita un miembro del equipo del grupo de llamada de equipo de un usuario.
 
@@ -1859,7 +1861,7 @@ En este ejemplo se quita un miembro del equipo del grupo de llamada de equipo de
 
 <div>
 
-## <a name="set-the-delayed-ring-to-the-team-call-group"></a>Establecer el anillo retrasado en el grupo de llamada de equipo
+## <a name="set-the-delayed-ring-to-the-team-call-group"></a>Establecer el anillo retrasado en el grupo de Team-Call
 
 En este ejemplo se cambia el timbre retrasado a la configuración de hora de grupo de llamada de equipo.
 
@@ -1876,7 +1878,7 @@ En este ejemplo se cambia el timbre retrasado a la configuración de hora de gru
 
 <div>
 
-## <a name="enable-team-call"></a>Habilitar llamada de equipo
+## <a name="enable-team-call"></a>Habilitar Team-Call
 
 En este ejemplo se habilita la llamada de equipo para un usuario determinado.
 
@@ -1898,7 +1900,7 @@ En este ejemplo se habilita la llamada de equipo para un usuario determinado.
 
 <div>
 
-## <a name="disable-team-call"></a>Deshabilitar llamada de equipo
+## <a name="disable-team-call"></a>Deshabilitar Team-Call
 
 En este ejemplo se deshabilita la llamada de equipo para un usuario determinado.
 
@@ -1961,13 +1963,13 @@ En este ejemplo se deshabilita la llamada de llamadas grupales para un usuario d
 
 <div>
 
-## <a name="sysprepps1"></a>SYSPrep. ps1
+## <a name="sysprepps1"></a>SYSPrep.ps1
 
 <div>
 
 ## <a name="description"></a>Descripción
 
-SYSPrep. PS1 es un script de Windows PowerShell que instalará los siguientes requisitos previos de Lync Server 2013 en el equipo del sistema operativo Windows Server 2008.
+SYSPrep.ps1 es un script de Windows PowerShell que instalará los siguientes requisitos previos de Lync Server 2013 en el equipo del sistema operativo Windows Server 2008.
 
   - Microsoft .NET Framework 4,5
 
@@ -1991,7 +1993,7 @@ Aunque el nombre del script es similar a la herramienta de preparación del sist
 
 ## <a name="requirements"></a>Requirements
 
-Antes de ejecutar el script SYSPrep. ps1, debe copiar los archivos de requisitos previos en una carpeta local del equipo del sistema operativo Windows Server 2008 (por ejemplo, **D:\\Setup)**. Esta carpeta también debe incluir una copia de los archivos de Lync Server 2013, en concreto **setup. exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
+Antes de ejecutar el script de SYSPrep.ps1, debe copiar los archivos de requisitos previos en una carpeta local del equipo del sistema operativo Windows Server 2008 (por ejemplo, **D: \\ Setup)**. Esta carpeta también debe incluir una copia de los archivos de Lync Server 2013, en concreto **Setup.exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
 
 
 <table>
@@ -2001,7 +2003,7 @@ Antes de ejecutar el script SYSPrep. ps1, debe copiar los archivos de requisitos
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito previo</th>
+<th>Requisitos previos</th>
 <th>Ubicación</th>
 </tr>
 </thead>
@@ -2031,7 +2033,7 @@ Antes de ejecutar el script SYSPrep. ps1, debe copiar los archivos de requisitos
 <td><p>https://www.microsoft.com/download/details.aspx?id=17331</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 Setup. exe</p></td>
+<td><p>Lync Server 2013 Setup.exe</p></td>
 <td><p>Copiar desde medios de Lync Server 2013</p></td>
 </tr>
 </tbody>
@@ -2052,7 +2054,7 @@ El parámetro **– SetupFolder** toma como argumento la ubicación del director
 
 ## <a name="examples"></a>Ejemplos
 
-Para ejecutar el script SYSPrep. PS1 e instalar los requisitos previos de Lync Server 2013, ejecute el siguiente comando desde un símbolo del sistema con privilegios elevados:
+Para ejecutar el script de SYSPrep.ps1 e instalar los requisitos previos de Lync Server 2013, ejecute el siguiente comando desde un símbolo del sistema con privilegios elevados:
 
     ./SysPrep.PS1 -SetupFolder D:\Setup
 
@@ -2127,11 +2129,11 @@ Los siguientes son los requisitos principales necesarios para ejecutar correctam
 
 <div>
 
-## <a name="move-csannouncementconfiguration-script"></a>Secuencia de comandos Move-CsAnnouncementConfiguration
+## <a name="move-csannouncementconfiguration-script"></a>Script de Move-CsAnnouncementConfiguration
 
-El script Move-CsAnnouncementConfiguration requiere los dos parámetros que se describen en la tabla siguiente.
+La secuencia de comandos Move-CsAnnouncementConfiguration requiere los dos parámetros que se describen en la tabla siguiente.
 
-![Parámetros Move-CsAnnouncementConfiguration.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Parámetros Move-CsAnnouncementConfiguration.")
+![Parámetros Move-CsAnnouncementConfiguration.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Parámetros de Move-CsAnnouncementConfiguration.")
 
 </div>
 

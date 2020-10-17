@@ -12,20 +12,22 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 590453f6270ebcd2beebbb26b8035f9e33cc2cd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 445448633bc35b8071455ccd0c8e6ff93c3862b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509217"
 ---
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Preguntas más frecuentes de la herramienta stress and performance de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Preguntas más frecuentes de la herramienta stress and performance de Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Estas son algunas de las preguntas más frecuentes sobre la herramienta de esfue
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>¿Puedo ejecutar LyncPerfTool. exe en producción?
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>¿Puedo ejecutar LyncPerfTool.exe en producción?
 
 No se recomienda esto. Esta herramienta afectará al rendimiento del servidor, la seguridad y la experiencia del usuario.
 
@@ -85,7 +87,7 @@ No. Este escenario no es compatible y puede producirse un error debido a un erro
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>¿Puedo ejecutar LyncPerfTool. exe en un servidor virtual o en Microsoft Hyper-V Server 2008/2012?
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>¿Puedo ejecutar LyncPerfTool.exe en un servidor virtual o en Microsoft Hyper-V Server 2008/2012?
 
 Sí.
 
@@ -95,13 +97,13 @@ Sí.
 
 ## <a name="what-does-mpop-mean"></a>¿Qué significa MPOP?
 
-MPOP representa varios puntos de presencia. Se pretende simular el escenario en el que los usuarios inician sesión en Lync 2013 desde varios equipos. Tenga en cuenta que en LyncPerfTool. exe, cada punto de conexión usa el perfil predeterminado (es decir, el perfil no se divide entre los dos puntos de presencia).
+MPOP representa varios puntos de presencia. Se pretende simular el escenario en el que los usuarios inician sesión en Lync 2013 desde varios equipos. Tenga en cuenta que en LyncPerfTool.exe, cada punto de conexión usa el perfil predeterminado (es decir, el perfil no se divide entre los dos puntos de presencia).
 
 </div>
 
 <div>
 
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Comencé LyncPerfTool. exe, pero no ocurre nada. ¿Qué sucede?
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Comencé LyncPerfTool.exe pero no ocurre nada. ¿Qué sucede?
 
 Compruebe el contador de extremos activos totales en los clientes para ver si los usuarios se conectan. Si los usuarios no se conectan, Compruebe la configuración de Lync Server 2013. Este problema suele producirse porque el nombre del servidor, el prefijo de usuario o la contraseña son incorrectos. Tenga en cuenta que los clientes externos deben especificar el proxy de acceso como el valor TargetServer. Compruebe el puerto en el archivo de configuración.
 

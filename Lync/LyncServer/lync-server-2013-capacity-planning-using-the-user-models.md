@@ -12,20 +12,22 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7665a8edb5e77514633de5e66a063ab509fdd821
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d315de4f8b18a5ecbeabe7ba29231c70ff893e8a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191203"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508147"
 ---
+# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Planeación de la capacidad para Lync Server 2013 mediante los modelos de usuario
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Planeación de la capacidad para Lync Server 2013 mediante los modelos de usuario
+
 
 </div>
 
@@ -73,7 +75,7 @@ Todas las recomendaciones de implementación y los resultados de rendimiento de 
 <td><ul>
 <li><p>8 o más unidades de disco duro 10.000-RPM con al menos 72 GB de espacio libre en disco.</p>
 <p>Dos de los discos deben usar RAID 1 y seis deben usar RAID 10.</p>
-<p>-O</p></li>
+<p>- O</p></li>
 <li><p>Unidades de estado sólido (SSD) con rendimiento igual al de 8 unidades de disco mecánicas de 10.000 rpm.</p></li>
 </ul></td>
 </tr>
@@ -175,7 +177,7 @@ Si en su lugar ha empezado con seis servidores front-end para los usuarios de 30
 
 La cantidad máxima de usuarios en un grupo de servidores front-end es 80.000. El número máximo de servidores front-end en un grupo es de 12.
 
-Para un grupo de servidores front-end con 80.000 usuarios, doce servidores front-end son suficientes para el rendimiento, en implementaciones típicas que sigan los [modelos de usuario en Lync Server 2013](lync-server-2013-user-models.md). Las implementaciones diseñadas para admitir la conmutación por error de recuperación ante desastres suponen que se puede hospedar un máximo de 40.000 usuarios en cada uno de los dos grupos de servidores front-end emparejados, en los que cada grupo tiene suficientes servidores front-end para acomodar a los usuarios de ambos grupos de servidores en caso de que un grupo necesite un error. sobre la otra.
+Para un grupo de servidores front-end con 80.000 usuarios, doce servidores front-end son suficientes para el rendimiento, en implementaciones típicas que sigan los [modelos de usuario en Lync Server 2013](lync-server-2013-user-models.md). Las implementaciones diseñadas para admitir la conmutación por error de recuperación ante desastres suponen que se puede hospedar un máximo de 40.000 usuarios en cada uno de los dos grupos de servidores front-end emparejados, en los que cada grupo tiene suficientes servidores front-end para acomodar a los usuarios en ambos grupos, en caso de que un grupo necesite conmutar por error al otro.
 
 El número de usuarios que un grupo de servidores front-end concreto admite con un buen rendimiento puede diferir de estos números por los motivos siguientes:
 
@@ -220,7 +222,7 @@ En la tabla siguiente se muestra el ancho de banda medio para mensajería instan
 
 
 > [!NOTE]  
-> Para mejorar el rendimiento de los medios en los servidores front-end de conferencias A/V y servidores de mediación colocalizados, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de los servidores front-end. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
+> Para mejorar el rendimiento de los medios en los servidores front-end de conferencias A/V y servidores de mediación colocalizados, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de los servidores front-end. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción en Windows Server 2008" en <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
 
 
 
@@ -266,7 +268,7 @@ Cuando calcule el número de usuarios de los servidores perimetrales, incluya lo
 
 
 > [!NOTE]  
-> Para mejorar el rendimiento del servicio de conferencia A/V en los servidores perimetrales, debe habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de los servidores perimetrales. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
+> Para mejorar el rendimiento del servicio de conferencia A/V en los servidores perimetrales, debe habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de los servidores perimetrales. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción en Windows Server 2008" en <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
 
 
 
@@ -276,7 +278,7 @@ Cuando calcule el número de usuarios de los servidores perimetrales, incluya lo
 
 <div>
 
-## <a name="director"></a>Dirección
+## <a name="director"></a>Director
 
 <div>
 
@@ -310,7 +312,7 @@ Cuando calcule el número de usuarios de los directores, incluya los usuarios ho
 
 Si combinar servidor de mediación con el servidor front-end, el servidor de mediación se ejecuta en todos los servidores front-end del grupo y debe proporcionar suficiente capacidad para los usuarios del grupo.
 
-Si implementa un grupo de servidores de mediación independiente, entonces el número de servidores de mediación que se van a implementar depende de muchos factores, como el hardware usado para el servidor de mediación, el número de usuarios de VoIP que tiene, el número de puertas de enlace del mismo nivel que cada grupo de servidores de mediación controles, el tráfico de horas de disponibilidad a través de estas puertas de enlace y el porcentaje de llamadas con medios que omiten el servidor de mediación.
+Si implementa un grupo de servidores de mediación independiente, entonces el número de servidores de mediación que se van a implementar depende de muchos factores, como el hardware usado para el servidor de mediación, el número de usuarios de VoIP que tiene, el número de puertas de enlace que controla cada grupo de servidores de mediación, el tráfico de horas de disponibilidad a través de dichas puertas de enlace y el
 
 En las tablas siguientes se proporciona una guía para conocer cuántas llamadas simultáneas puede controlar un servidor de mediación, suponiendo que el hardware de los servidores de mediación cumpla los requisitos de las [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) y que la tecnología Hyper-Threading esté habilitada. Para obtener más información sobre la escalabilidad del servidor de mediación, consulte [Estimating Voice Usage and Traffic for Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) y [Deployment Guidelines for Mediation Server in Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
 
@@ -396,7 +398,7 @@ En las tablas siguientes se supone que el uso se resume en los [modelos de usuar
 
 
 > [!NOTE]  
-> Para mejorar el rendimiento del servidor de mediación, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de los servidores de mediación. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>en Windows Server 2008" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
+> Para mejorar el rendimiento del servidor de mediación, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de los servidores de mediación. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción en Windows Server 2008" en <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
 
 
 

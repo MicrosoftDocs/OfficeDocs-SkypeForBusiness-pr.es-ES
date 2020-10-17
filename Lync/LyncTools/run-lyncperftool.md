@@ -12,20 +12,22 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82df3ee8cfccb91aec4e284674ace72e23a202c4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 4221eaf042fcaee163491d7688b7097e9bcca7a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509117"
 ---
+# <a name="run-lyncperftool"></a>Ejecutar LyncPerfTool
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-lyncperftool"></a>Ejecutar LyncPerfTool
+
 
 </div>
 
@@ -89,7 +91,7 @@ Para finalizar el proceso, presione Ctrl + C.
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear usuarios y contactos](create-users-and-contacts.md)  

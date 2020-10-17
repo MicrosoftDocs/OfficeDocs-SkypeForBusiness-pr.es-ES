@@ -12,20 +12,22 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f2c781b01aaa1ac00793f97067f24233c1e8db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc4f354d985ed9e0fc85909e232e06e7c34dd593
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200566"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509657"
 ---
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Configuración de la autenticación Kerberos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Configuración de la autenticación Kerberos en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200566"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Lync Server 2013 admite la autenticación NTLM y Kerberos para los servicios Web. Office Communications Server 2007 y Office Communications Server 2007 R2 usaron el valor predeterminado de RTCComponentService y RTCService como las cuentas de usuario para ejecutar los grupos de aplicaciones de servicios Web, lo que permite que se asigne al usuario un nombre principal de servicio (SPN). cuentas y para actuar como entidad de autenticación. Lync Server usa NetworkService para ejecutar servicios web y NetworkService no puede tener SPN asignados.
+Lync Server 2013 admite la autenticación NTLM y Kerberos para los servicios Web. Office Communications Server 2007 y Office Communications Server 2007 R2 usaron el valor predeterminado de RTCComponentService y RTCService como las cuentas de usuario para ejecutar los grupos de aplicaciones de servicios Web, lo que permite que se asigne un nombre principal de servicio (SPN) a las cuentas de usuario y actúe como entidad de autenticación. Lync Server usa NetworkService para ejecutar servicios web y NetworkService no puede tener SPN asignados.
 
 Para solucionar el problema de no tener los objetos de Active Directory que contengan los SPN, el panel de control de Lync Server puede usar objetos de cuenta de equipo para este propósito. Los objetos de cuenta de equipo pueden contener las SPN y no están sujetos a la expiración de las contraseñas, lo que suponía un problema si se usaban cuentas de usuario en versiones anteriores.
 

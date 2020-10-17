@@ -12,20 +12,22 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13026da5515615610c960fe4648d5c58f64f99fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 555169f6de67ae23bc63d81aad549b0033a6696c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507747"
 ---
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Requisitos de configuración para el proxy inverso en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Requisitos de configuración para el proxy inverso en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Las operaciones funcionales que Lync Server 2013 espera que realice un proxy inv
 
   - Puede publicar un sitio web hospedado internamente de forma externa mediante un nombre de dominio completo (FQDN).
 
-  - Puede publicar todo el contenido del sitio web hospedado. De forma predeterminada, puede usar la ** / ** Directiva, que es reconocida por la mayoría de los servidores web para indicar "publicar todo el contenido en el servidor Web". También puede modificar la Directiva, por ejemplo, **/Uwca/\***, que significa "publicar todo el contenido en el directorio virtual Ucwa".
+  - Puede publicar todo el contenido del sitio web hospedado. De forma predeterminada, puede usar la **/\*** Directiva, que es reconocida por la mayoría de los servidores web para indicar "publicar todo el contenido en el servidor Web". También puede modificar la Directiva, por ejemplo, **/Uwca/ \* **, que significa "publicar todo el contenido en el directorio virtual Ucwa".
 
   - Debe poder configurarse para requerir conexiones de capa de sockets seguros (SSL) y seguridad de la capa de transporte (TLS) con clientes que soliciten contenido desde un sitio Web publicado.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ef0d68cc06582339ed066108efa28a7a85bb00
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e730b1e44bbe6e6fbec4d84a2c81ce474cff693
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507627"
 ---
+# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Configurar las opciones globales de omisión de medios en Lync Server 2013 para usar la información de sitio y región
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Configurar las opciones globales de omisión de medios en Lync Server 2013 para usar la información de sitio y región
+
 
 </div>
 
@@ -66,7 +68,7 @@ La información de región de red y sitio de red se comparte entre las caracter�
 
 O bien, siga estos pasos si desea usar la información de sitio y región al tomar la decisión de desvío, pero no pretende habilitar el control de admisión de llamadas. En este caso, los vínculos restringidos de ancho de banda tendrán que representarse mediante directivas entre sitios de red, tal y como se describe en [Create Network intersite policies in Lync Server 2013](lync-server-2013-create-network-intersite-policies.md). En este caso, las restricciones del ancho de banda real no son tan importantes, ya que no se ha habilitado el control de admisión de llamadas. En su lugar, se usan estos vínculos para que las subredes de división especifiquen cuáles son las que no presentan límites de ancho de banda y pueden usar, por consiguiente, el desvío de medios. Tenga en cuenta que esto también es posible cuando se ha habilitado tanto el control de admisión de llamadas como el desvío de medios.
 
-Además, para que el desvío funcione correctamente, debe existir coherencia entre un sitio definido en el generador de topologías y, como se define al configurar regiones de red y sitios de red. Por ejemplo, si tiene un sitio de sucursal que ha definido en el generador de topologías y tiene una puerta de enlace RTC implementada, dicho sitio de sucursal debe configurarse con una directiva de telefonía IP empresarial que permita a los usuarios de sitios de sucursal tener sus llamadas RTC enrutadas a través de la RTC. puerta de enlace en el sitio de sucursal.
+Además, para que el desvío funcione correctamente, debe existir coherencia entre un sitio definido en el generador de topologías y, como se define al configurar regiones de red y sitios de red. Por ejemplo, si tiene un sitio de sucursal que ha definido en el generador de topologías que tiene solo una puerta de enlace RTC implementada, dicho sitio de sucursal debe configurarse con una directiva de telefonía IP empresarial que permita a los usuarios de sitios de sucursal tener sus llamadas RTC enrutadas a través de la puerta de enlace RTC en el sitio de sucursal.
 
 <div>
 
@@ -111,7 +113,7 @@ A continuación, agregue subredes al sitio de red, como se describe en [asociar 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Asociar subredes con sitios de red para el desvío de medios en Lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md)  

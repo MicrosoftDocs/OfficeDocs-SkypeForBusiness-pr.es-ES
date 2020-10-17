@@ -12,20 +12,22 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998787b3f052d2271eb2323bcdb71ddc106b57f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210236"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508528"
 ---
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Compatibilidad con certificados comodín en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Compatibilidad con certificados comodín en Lync Server 2013
+
 
 </div>
 
@@ -52,25 +54,25 @@ Lync Server 2013 usa certificados para proporcionar cifrado de comunicaciones y 
 No hay compatibilidad para una entrada de comodín como nombre de sujeto (también denominado nombre común o CN) para ninguna función. Las siguientes funciones de servidor son compatibles al usar entradas de comodín en el SAN:
 
   - <span></span>  
-    **Proxy inverso.**    La entrada San comodín se admite para el certificado de publicación de dirección URL sencilla (reunirse y llamar).
+    **Proxy inverso.**     La entrada SAN comodín se admite para el certificado de publicación de dirección URL sencilla (reunirse y llamar).
 
   - <span></span>  
-    **Proxy inverso.**    La entrada San comodín es compatible con las entradas de San para LyncDiscover en el certificado de publicación.
+    **Proxy inverso.**     La entrada SAN comodín es compatible con las entradas de SAN para LyncDiscover en el certificado de publicación.
 
   - <span></span>  
-    **Director.**    La entrada de San comodín se admite para las direcciones URL sencillas (reunirse y llamar) y para las entradas de San para LyncDiscover y LyncDiscoverInternal en componentes Web de director.
+    **Director.**     La entrada de SAN comodín se admite para las direcciones URL sencillas (reunirse y llamar) y para las entradas de SAN para LyncDiscover y LyncDiscoverInternal en componentes Web de director.
 
   - <span></span>  
     **Servidor front-end (Standard Edition) y grupo de servidores front-end (Enterprise Edition).** La entrada SAN comodín se admite para las direcciones URL sencillas (reunirse y llamar) y para las entradas de SAN para LyncDiscover y LyncDiscoverInternal en los componentes Web front-end.
 
   - <span></span>  
-    **Mensajería unificada (MU) de Exchange.**    El servidor no usa entradas de San cuando se implementa como un servidor independiente.
+    **Mensajería unificada (MU) de Exchange.**     El servidor no usa entradas de SAN cuando se implementa como un servidor independiente.
 
   - <span></span>  
-    **Servidor de acceso de cliente de Microsoft Exchange Server.**    Las entradas de comodín en el San son compatibles con los clientes internos y externos.
+    **Servidor de acceso de cliente de Microsoft Exchange Server.**     Las entradas de comodín en el SAN son compatibles con los clientes internos y externos.
 
   - <span></span>  
-    **Mensajería unificada (MU) de Exchange y servidor de acceso de cliente de Microsoft Exchange Server en el mismo servidor.**    Se admiten las entradas San de comodín.
+    **Mensajería unificada (MU) de Exchange y servidor de acceso de cliente de Microsoft Exchange Server en el mismo servidor.**     Se admiten las entradas SAN de comodín.
 
 Funciones de servidor que no se abordan en este tema:
 

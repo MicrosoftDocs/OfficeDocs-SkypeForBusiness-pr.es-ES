@@ -12,20 +12,22 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c9d43f6424a8d960ad5d0eee911b2f48455a39d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d89e2882d3f1990a794e103849c1fa705caca98b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508117"
 ---
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planeación de la capacidad para el grupo de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planeación de la capacidad para el grupo de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ En la tabla siguiente se describe el modelo de usuario del grupo de respuesta qu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Biometría</th>
+<th>Métrica</th>
 <th>Por grupo de servidores Enterprise Edition (con 8 servidores front-end)</th>
 <th>Por servidor Standard Edition</th>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c90183d13581387d444301278d4c1c1125e5dc91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a90dd3c40267f0994e7f41eabb689c869182cea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508647"
 ---
+# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Uso de la autenticación en dos fases con Lync Client y Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Uso de la autenticación en dos fases con Lync Client y Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ La información de inicio de sesión de Lync suele configurarse automáticamente
 
 1.  Inicie sesión en la red de su organización.
 
-2.  Seleccione **iniciar** \> **todos los programas** \> **Microsoft \> Lync Lync 2013**.
+2.  Seleccione **iniciar** \> **todos los programas** \> **Microsoft Lync \> Lync 2013**.
     
     Debería ver la pantalla de inicio de sesión de Lync.
     
@@ -90,7 +92,7 @@ Cuando haya terminado de usar Lync, podrá cerrar la pantalla, cerrar la sesión
 <p>Puede volver a mostrar la presentación en cualquier momento haciendo clic en el icono de Lync de la barra de tareas o en el área de notificación en la parte inferior de la pantalla.</p></td>
 <td><p>En la ventana principal de Lync, realice una de las siguientes acciones:</p>
 <ol>
-<li><p>Seleccione el <strong>botón Opciones</strong> y, después, haga clic en <strong>cerrar</strong> <strong>archivo</strong> &gt; .</p></li>
+<li><p>Seleccione el botón <strong>Opciones</strong> y, después, haga clic en <strong>File</strong> &gt; <strong>cerrar</strong>archivo.</p></li>
 <li><p>Haga clic en el botón Cerrar (X) que se <strong>incluye</strong> en la esquina superior derecha de la ventana.</p></li>
 </ol></td>
 </tr>
@@ -104,12 +106,12 @@ Cuando haya terminado de usar Lync, podrá cerrar la pantalla, cerrar la sesión
 
 
 </div></td>
-<td><p>En la ventana principal de Lync, seleccione el botón <strong>Opciones</strong> y, después, seleccione <strong>Cerrar sesión</strong>en el <strong>archivo</strong> &gt; .</p></td>
+<td><p>En la ventana principal de Lync, seleccione el botón <strong>Opciones</strong> y, después, seleccione <strong>File</strong> &gt; <strong>Cerrar sesión</strong>en el archivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Salir</p></td>
 <td><p>Finaliza la sesión de Lync y cierra Lync en el equipo. Después de salir, si quiere reiniciar Lync, seleccione <strong>iniciar</strong> &gt; <strong>todos los programas</strong> &gt; <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong>.</p></td>
-<td><p>En la ventana principal de Lync, seleccione el botón <strong>Opciones</strong> y, a continuación, seleccione <strong>salida</strong>de <strong>archivo</strong> &gt; .</p></td>
+<td><p>En la ventana principal de Lync, seleccione el botón <strong>Opciones</strong> y, a continuación, seleccione salida de <strong>archivo</strong> &gt; <strong>Exit</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,9 +125,9 @@ Cuando haya terminado de usar Lync, podrá cerrar la pantalla, cerrar la sesión
 
 Algunas organizaciones ahora usan un proceso de inicio de sesión de varios pasos, denominado autenticación en dos fases, para aumentar la seguridad de los usuarios de Lync 2013. Si tiene previsto usar esta opción, necesitará una "tarjeta inteligente" para iniciar sesión en Lync. Las tarjetas inteligentes vienen en dos variedades, físicas y virtuales:
 
-  - **Físico**   sobre el tamaño de una tarjeta de crédito. Insértelo en un lector de tarjetas inteligentes cuando inicie sesión.
+  - **Física**     Sobre el tamaño de una tarjeta de crédito. Insértelo en un lector de tarjetas inteligentes cuando inicie sesión.
 
-  - **Virtual**   no es un objeto físico, sino un identificador electrónico que se escribe en un chip especial del equipo, que, en esencia, crea la tarjeta inteligente en el equipo. Disponible solo para usar con equipos con Windows 8 que contengan el chip TPM (módulo de plataforma segura).
+  - **Virtual**     No es un objeto físico, sino un identificador electrónico que se escribe en un chip especial del equipo, que, en esencia, crea la tarjeta inteligente en el equipo. Disponible solo para usar con equipos con Windows 8 que contengan el chip TPM (módulo de plataforma segura).
 
 <div>
 
@@ -149,7 +151,7 @@ Para poder iniciar sesión con una tarjeta inteligente, la tarjeta debe estar "i
 
 2.  Con Internet Explorer, vaya a la página de inscripción Web de la entidad de certificación de la organización.
     
-    Solicite a su administrador de Lync Server la dirección Web de este recurso si todavía no la tiene. La dirección URL tendrá un aspecto similar a https://MyCA.\este:\][nombredesuempresa. com/certsrv.
+    Solicite a su administrador de Lync Server la dirección Web de este recurso si todavía no la tiene. La dirección URL tendrá un aspecto similar a este: https://MyCA.\ [nombredesuempresa \] . com/certsrv.
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fce9f00d84465928d942220b1ca2275e59a3817
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a83aa6c21be0a1055be091ab7195f3c03c4c6e2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205446"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508277"
 ---
+# <a name="audiovideo-av-edge-servers-in-lync-server-2013"></a>Servidores perimetrales de audio y vídeo (A/V) en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiovideo-av-edge-servers-in-lync-server-2013"></a>Servidores perimetrales de audio y vídeo (A/V) en Lync Server 2013
+
 
 </div>
 

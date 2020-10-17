@@ -12,20 +12,22 @@ ms:contentKeyID: 49733642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f85595acd38e69af9fb8108cab44f4839904799a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 47202d91fdf0020a7692a9ff7b0c346ee3cb7aef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756559"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509277"
 ---
+# <a name="prevent-sessions-for-services"></a>Impedir sesiones para servicios
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services"></a>Impedir sesiones para servicios
+
 
 </div>
 
@@ -47,11 +49,11 @@ Puede usar el panel de control de Microsoft Lync Server 2010 para evitar nuevas 
 
 2.  Abra Panel de control de Lync Server
 
-3.  En la barra de navegación izquierda, haga clic en **Topología** y después en **Estado**.
+3.  En la barra de navegación izquierda, haga clic en **Topología ** y, a continuación, en **Estado **.
 
 4.  En la página **Estado **, clasifique o busque en la lista, según sea necesario, para localizar el equipo que está ejecutando los servicios para los que desea impedir que se creen sesiones nuevas y, a continuación, haga clic en él.
 
-5.  Haga clic en **Acción**.
+5.  Haga clic en **Acción **.
 
 6.  Haga clic en **Evitar sesiones nuevas en todos los servicios **.
 

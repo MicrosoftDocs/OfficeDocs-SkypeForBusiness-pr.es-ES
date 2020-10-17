@@ -12,20 +12,22 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02bbebae55504fcc27550bae3b90d7fca662a487
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 299d4c6d5b8a8cd53cee9fdae0a38769a535b118
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205493"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508847"
 ---
+# <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Crear o modificar una regla de normalización con la creación de una regla de normalización en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Crear o modificar una regla de normalización con la creación de una regla de normalización en Lync Server 2013
+
 
 </div>
 
@@ -55,25 +57,25 @@ Complete los pasos siguientes si desea crear o modificar una regla de normalizac
 
 6.  En **Generar regla de normalización**, escriba valores en los siguientes campos:
     
-      - **Dígitos iniciales (**   opcional) especifique los dígitos iniciales de los números marcados a los que desea que corresponda el patrón. Por ejemplo, escriba **425** si desea que el patrón coincida con los números marcados que empiecen por 425.
+      - **Dígitos iniciales**     Opcional Especifique los dígitos iniciales de los números marcados a los que desea que corresponda el patrón. Por ejemplo, escriba **425** si desea que el patrón coincida con los números marcados que empiecen por 425.
     
-      - **Longitud**   especifique el número de dígitos en el patrón de coincidencia y seleccione si desea que el patrón coincida exactamente con esta longitud, que coincida con números marcados que tengan como mínimo esta longitud o que coincidan con los números marcados de cualquier longitud.
+      - **Longitud**     Especifique el número de dígitos en el patrón de coincidencia y seleccione si desea que el patrón coincida exactamente con esta longitud, que coincida con números marcados que tengan como mínimo esta longitud o que coincidan con números marcados de cualquier longitud.
     
-      - **Dígitos que**   se quitarán (opcional) especifique el número de dígitos iniciales que se quitarán de los números marcados con los que desea que se haga coincidir el patrón.
+      - **Dígitos que se van a quitar**     Opcional Especifique el número de dígitos iniciales que se quitarán de los números marcados con los que desea que se ajuste la trama.
     
-      - **Dígitos que**   se agregarán (opcional) especifique los dígitos que se agregarán a los números marcados con los que desea que se ajuste la trama.
+      - **Dígitos que se van a agregar**     Opcional Especifique los dígitos que se agregarán a los números marcados con los que desea que se ajuste la trama.
     
     Los valores que introduzca en estos campos se reflejarán en **Patrón con el que hacer coincidir** y **Regla de conversión**. Por ejemplo, si deja en blanco **Dígitos iniciales**, escriba **7** en el campo **Longitud** y seleccione **Exactamente**, e introduzca **0** en **Dígitos que se quitarán**, la expresión regular que se creará como resultado en **Patrón con el que hacer coincidir** es:
     
-    **^ (\\d{7}) $**
+    **^ ( \\ d {7} ) $**
 
 7.  En **Regla de conversión**, especifique un patrón para el formato de los números de teléfono E.164 convertidos, así:
     
-      - Un valor que represente la cantidad de dígitos especificada en el patrón de coincidencia. Por ejemplo, si el patrón de coincidencia es **^\\({7}d) $** , **$1** en la regla de conversión representa los números marcados de 7 dígitos.
+      - Un valor que represente la cantidad de dígitos especificada en el patrón de coincidencia. Por ejemplo, si el patrón de coincidencia es **^ ( \\ d {7} ) $** , **$1** en la regla de conversión representa los números marcados de 7 dígitos.
     
       - (Opcional) Escriba un valor en el campo **Dígitos que se agregarán** para especificar los dígitos que se agregarán al principio del número convertido (por ejemplo, **+1425**).
     
-    Por ejemplo, si el **patrón que debe coincidir** contiene **^\\(d{7}) $** como patrón para los números marcados y la regla de **conversión** contiene **+ 1425 $1** como modelo para los números de teléfono e. 164, la regla normaliza 5550100 a + 14255550100.
+    Por ejemplo, si el **patrón que debe coincidir** contiene **^ ( \\ d {7} ) $** como patrón para los números marcados y la **regla de conversión** contiene **+ 1425 $1** como modelo para los números de teléfono e. 164, la regla normaliza 5550100 a + 14255550100.
 
 8.  (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
 
@@ -107,7 +109,7 @@ Complete los pasos siguientes si desea crear o modificar una regla de normalizac
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear o modificar una regla de normalización manualmente en Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-manually.md)  

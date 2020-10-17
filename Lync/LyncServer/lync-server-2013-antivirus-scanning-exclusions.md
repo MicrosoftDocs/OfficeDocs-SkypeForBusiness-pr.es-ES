@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187263"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508977"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusiones de detección de virus para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusiones de detección de virus para Lync Server 2013
+
 
 </div>
 
@@ -61,101 +63,101 @@ Para asegurarse de que el detector de virus no interfiera con el funcionamiento 
 
   - Lync Server 2013 procesos de:
     
-      - Abel. exe
+      - ABServer.exe
     
-      - AcpMcuSvc. exe
+      - AcpMcuSvc.exe
     
-      - ASMCUSvc. exe
+      - ASMCUSvc.exe
     
-      - AVMCUSvc. exe
+      - AVMCUSvc.exe
     
-      - ChannelService. exe
+      - ChannelService.exe
     
-      - ClsAgent. exe
+      - ClsAgent.exe
     
-      - ComplianceService. exe
+      - ComplianceService.exe
     
-      - DataMCUSvc. exe
+      - DataMCUSvc.exe
     
-      - Inproxy. exe
+      - DataProxy.exe
     
-      - FileTransferAgent. exe
+      - FileTransferAgent.exe
     
-      - IMMCUSvc. exe
+      - IMMCUSvc.exe
     
-      - LysSvc. exe
+      - LysSvc.exe
     
-      - MasterReplicatorAgent. exe
+      - MasterReplicatorAgent.exe
     
-      - MediaRelaySvc. exe
+      - MediaRelaySvc.exe
     
-      - MediationServerSvc. exe
+      - MediationServerSvc.exe
     
-      - MRASSvc. exe
+      - MRASSvc.exe
     
-      - OcsAppServerHost. exe
+      - OcsAppServerHost.exe
     
-      - ReplicaReplicatorAgent. exe
+      - ReplicaReplicatorAgent.exe
     
-      - ReplicationApp. exe
+      - ReplicationApp.exe
     
-      - RtcHost. exe
+      - RtcHost.exe
     
-      - RTCSrv. exe
+      - RTCSrv.exe
     
-      - XmppProxy. exe
+      - XmppProxy.exe
     
-      - XmppTGW. exe
+      - XmppTGW.exe
 
   - Procesos del servicio host de Windows Fabric:
     
-      - Fabric. exe
+      - Fabric.exe
     
-      - FabricDCA. exe
+      - FabricDCA.exe
     
-      - FabricHost. exe
+      - FabricHost.exe
 
   - Procesos de IIS:
     
-      - % SystemRoot%\\system32\\Inetsrv\\, w3wp. exe
+      - % SystemRoot% \\ system32 \\ Inetsrv \\w3wp.exe
     
-      - % SystemRoot%\\SysWOW64\\Inetsrv\\. exe
+      - % SystemRoot% \\ SysWOW64 \\ Inetsrv \\w3wp.exe
 
-  - Procesos back-end de SQL Server:
+  - Procesos de Back-End de SQL Server:
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\SQLServr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. \\Binn MSSQL de MSSQLSERVER \\ \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11. Papelera\\de Reporting Services\\ReportServer\\bin\\ReportingServicesService. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSRS11. \\Papelera ReportServer de Reporting Services de MSSQLSERVER \\ \\ \\ReportingServicesService.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11. Papelera\\\\OLAP\\de MSSQLServer MSMDSrv. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSAS11. \\MSMDSrv.exe de \\ bin \\ OLAP de MSSQLServer
 
-  - Procesos front-end de SQL Server:
+  - Procesos de Front-End de SQL Server:
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\SQLServr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. \\ \\SQLServr.exe Binn de LYNCLOCAL MSSQL \\
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. RTCLOCAL\\MSSQL\\Binn\\SQLServr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. \\ \\SQLServr.exe Binn de RTCLOCAL MSSQL \\
 
   - Directorios y archivos:
     
-      - archivos de registro\\de\\% SystemRoot% system32
+      - archivos de registro de% SystemRoot% \\ system32 \\
     
-      - % SystemRoot%\\archivos\\de registro SysWow64
+      - % SystemRoot% \\ \\ archivos de registro SysWow64
     
-      - % SystemRoot%\\Microsoft.net\\\\ensamblado\_GAC MSIL
+      - % SystemRoot% \\ Microsoft.net \\ ensamblado \\ GAC \_ MSIL
     
-      - % programfiles%\\Microsoft Lync Server 2013
+      - % programfiles% \\ Microsoft Lync Server 2013
     
-      - Archivos\\\\comunes de% ProgramFiles% nodo de monitor\\de Microsoft Lync Server 2013
+      - Archivos comunes de% ProgramFiles% \\ \\ nodo de monitor de Microsoft Lync Server 2013 \\
     
-      - Archivos\\comunes de\\% ProgramFiles% Microsoft Lync Server 2013
+      - Archivos comunes de% ProgramFiles% \\ \\ Microsoft Lync Server 2013
     
-      - % SystemDrive%\\RtcReplicaRoot
+      - % SystemDrive% \\ RtcReplicaRoot
     
       - Almacén de recurso compartido de archivos (especificado en el Generador de topologías). Los almacenes de archivos se especifican en el Generador de topologías.
     
       - Datos y archivos de registro de SQL Server, incluidos los relativos a la base de datos back-end, el almacén de usuarios, el almacén de archivado, el almacén de supervisión y el almacén de aplicaciones. Las bases de datos y los archivos de registro se pueden especificar en el Generador de topologías. Para obtener información detallada sobre los archivos de datos y de registro de cada base de datos, incluidos los nombres predeterminados, consulte [SQL Server Data and log file Placement for Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) en la documentación referente a la implementación.
     
-      - Archivos de registro y datos de SQL Server, incluidos los de la base de datos front-end, la tienda Lync y el almacén RtcDatabase. Normalmente se encuentran en% UnidadLocal%\\CSData.
+      - Archivos de registro y datos de SQL Server, incluidos los de la base de datos front-end, la tienda Lync y el almacén RtcDatabase. Normalmente se encuentran en% UnidadLocal% \\ CSData.
 
 </div>
 

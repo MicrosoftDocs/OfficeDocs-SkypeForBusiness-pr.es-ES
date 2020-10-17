@@ -12,20 +12,22 @@ ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfae4aef6e6f5ec0a33fe64d42ea7bfd093badee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f536f2d67010856259abf6b98936cd9e096fc93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208416"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509627"
 ---
+# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Ubicación de los archivos de registro y datos de SQL Server para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Ubicación de los archivos de registro y datos de SQL Server para Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208416"
 
 _**Última modificación del tema:** 2013-02-21_
 
-Durante la planeación y la implementación de Microsoft SQL Server 2012 o Microsoft SQL Server 2008 R2 SP1 para el grupo de servidores front-end de Lync Server 2013, una consideración importante es la colocación de los datos y los archivos de registro en discos duros físicos para el rendimiento. La configuración de disco recomendada es implementar un conjunto de RAID 1 + 0 con 6 ejes. Colocar todos los archivos de base de datos y registro que usan el grupo de servidores front-end y los roles y servicios asociados del servidor (es decir, el servidor de archivado y supervisión, el servicio de grupo de respuesta de Lync Server, el servicio de estacionamiento de llamadas de Lync Server) en el conjunto de unidades RAID mediante Lync Server. El Asistente para la implementación dará como resultado una configuración que se ha probado para obtener un buen rendimiento. En la siguiente tabla se detallan los archivos de base de datos y las funciones de las que son responsables.
+Durante la planeación y la implementación de Microsoft SQL Server 2012 o Microsoft SQL Server 2008 R2 SP1 para el grupo de servidores front-end de Lync Server 2013, una consideración importante es la colocación de los datos y los archivos de registro en discos duros físicos para el rendimiento. La configuración de disco recomendada es implementar un conjunto de RAID 1 + 0 con 6 ejes. Colocar todos los archivos de base de datos y de registro que se usan en el grupo de servidores front-end y en los roles y servicios asociados del servidor (es decir, el servidor de archivado y supervisión, el servicio de grupo de respuesta de Lync Server, el servicio de estacionamiento de llamadas de Lync Server) en el conjunto de unidades RAID mediante el Asistente para la implementación de Lync En la siguiente tabla se detallan los archivos de base de datos y las funciones de las que son responsables.
 
 <div>
 

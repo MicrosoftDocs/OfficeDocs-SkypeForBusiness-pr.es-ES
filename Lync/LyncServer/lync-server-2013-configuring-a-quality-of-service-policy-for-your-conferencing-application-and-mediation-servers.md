@@ -12,20 +12,22 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37462eb9f15553138dc6bb7285a5d0786dbc4b57
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ca1e1e243fe6957fdc5233b248c358d82817516
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508877"
 ---
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configuración de una directiva de calidad de servicio en Lync Server 2013 para los servidores de conferencia, aplicación y mediación
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configuración de una directiva de calidad de servicio en Lync Server 2013 para los servidores de conferencia, aplicación y mediación
+
 
 </div>
 
@@ -103,7 +105,7 @@ Para comprobar que se han aplicado las nuevas directivas de QoS, haga lo siguien
 
 2.  En el cuadro de diálogo **Ejecutar**, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el editor del registro, expanda **equipo**, expanda el **equipo local\_\_HKEY**, expanda **software**, expanda **directivas**, expanda **Microsoft**, expanda **Windows**y, a continuación, haga clic en **QoS**. Debajo de **QoS**, debería ver las claves del Registro de cada una de las directivas de QoS que acaba de crear. Por ejemplo, si ha creado dos nuevas directivas (una llamada QoS de audio de Lync Server y la otra llamada de QoS de Lync Server), debe entradas de registro para QoS de audio de Lync Server y QoS de Lync Server.
+3.  En el editor del registro, expanda **equipo**, expanda el ** \_ \_ equipo local HKEY**, expanda **software**, expanda **directivas**, expanda **Microsoft**, expanda **Windows**y, a continuación, haga clic en **QoS**. Debajo de **QoS**, debería ver las claves del Registro de cada una de las directivas de QoS que acaba de crear. Por ejemplo, si ha creado dos nuevas directivas (una llamada QoS de audio de Lync Server y la otra llamada de QoS de Lync Server), debe entradas de registro para QoS de audio de Lync Server y QoS de Lync Server.
 
 Para asegurarse de que los paquetes de red se marquen con el valor de DSCP adecuado, debe crear también una nueva entrada del Registro en cada equipo, mediante el siguiente procedimiento:
 
@@ -111,7 +113,7 @@ Para asegurarse de que los paquetes de red se marquen con el valor de DSCP adecu
 
 2.  En el cuadro de diálogo **Ejecutar**, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **servicios**y, a continuación, expanda **TCPIP**.
+3.  En el editor del registro, expanda el ** \_ \_ equipo local HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **servicios**y, a continuación, expanda **TCPIP**.
 
 4.  Haga clic con el botón secundario en **Tcpip**, elija **Nuevo** y, a continuación, haga clic en **Clave**. Después de que se cree una nueva clave del Registro, escriba **QoS** y presione ENTRAR para cambiar el nombre de la clave.
 
