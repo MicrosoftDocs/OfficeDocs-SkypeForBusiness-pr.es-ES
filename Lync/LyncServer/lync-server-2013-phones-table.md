@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla de teléfonos'
+description: 'Lync Server 2013: tabla de teléfonos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1f7e2a4cb5d55dad8284e71688d3ee41ce05856
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9c62fffecd2442b79aefde77eb037dca4bffc9d4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524187"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554816"
 ---
-# <a name="phones-table-in-lync-server-2013"></a><span data-ttu-id="b56a8-102">Tabla teléfonos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b56a8-102">Phones table in Lync Server 2013</span></span>
+# <a name="phones-table-in-lync-server-2013"></a><span data-ttu-id="d208a-103">Tabla teléfonos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d208a-103">Phones table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48524187"
 
 <span> </span>
 
-<span data-ttu-id="b56a8-103">_**Última modificación del tema:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="b56a8-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="d208a-104">_**Última modificación del tema:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="d208a-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="b56a8-104">La tabla teléfonos es una tabla de apoyo.</span><span class="sxs-lookup"><span data-stu-id="b56a8-104">The Phones table is a supporting table.</span></span> <span data-ttu-id="b56a8-105">Cada registro de la tabla almacena información sobre un número de teléfono implicado en llamadas de VoIP que tienen registros en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="b56a8-105">Each record in the table stores information about one phone number involved in VoIP calls that have records in the database.</span></span>
+<span data-ttu-id="d208a-105">La tabla teléfonos es una tabla de apoyo.</span><span class="sxs-lookup"><span data-stu-id="d208a-105">The Phones table is a supporting table.</span></span> <span data-ttu-id="d208a-106">Cada registro de la tabla almacena información sobre un número de teléfono implicado en llamadas de VoIP que tienen registros en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="d208a-106">Each record in the table stores information about one phone number involved in VoIP calls that have records in the database.</span></span>
 
 
 <table>
@@ -51,31 +52,31 @@ ms.locfileid: "48524187"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b56a8-106">Columna</span><span class="sxs-lookup"><span data-stu-id="b56a8-106">Column</span></span></th>
-<th><span data-ttu-id="b56a8-107">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="b56a8-107">Data Type</span></span></th>
-<th><span data-ttu-id="b56a8-108">Clave o índice</span><span class="sxs-lookup"><span data-stu-id="b56a8-108">Key/Index</span></span></th>
-<th><span data-ttu-id="b56a8-109">Detalles</span><span class="sxs-lookup"><span data-stu-id="b56a8-109">Details</span></span></th>
+<th><span data-ttu-id="d208a-107">Columna</span><span class="sxs-lookup"><span data-stu-id="d208a-107">Column</span></span></th>
+<th><span data-ttu-id="d208a-108">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="d208a-108">Data Type</span></span></th>
+<th><span data-ttu-id="d208a-109">Clave o índice</span><span class="sxs-lookup"><span data-stu-id="d208a-109">Key/Index</span></span></th>
+<th><span data-ttu-id="d208a-110">Detalles</span><span class="sxs-lookup"><span data-stu-id="d208a-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b56a8-110"><strong>PhoneId</strong></span><span class="sxs-lookup"><span data-stu-id="b56a8-110"><strong>PhoneId</strong></span></span></p></td>
-<td><p><span data-ttu-id="b56a8-111">entero</span><span class="sxs-lookup"><span data-stu-id="b56a8-111">int</span></span></p></td>
-<td><p><span data-ttu-id="b56a8-112">Principal</span><span class="sxs-lookup"><span data-stu-id="b56a8-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="b56a8-113">Número único que identifica este teléfono.</span><span class="sxs-lookup"><span data-stu-id="b56a8-113">Unique number identifying this phone.</span></span></p></td>
+<td><p><span data-ttu-id="d208a-111"><strong>PhoneId</strong></span><span class="sxs-lookup"><span data-stu-id="d208a-111"><strong>PhoneId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d208a-112">entero</span><span class="sxs-lookup"><span data-stu-id="d208a-112">int</span></span></p></td>
+<td><p><span data-ttu-id="d208a-113">Principal</span><span class="sxs-lookup"><span data-stu-id="d208a-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="d208a-114">Número único que identifica este teléfono.</span><span class="sxs-lookup"><span data-stu-id="d208a-114">Unique number identifying this phone.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b56a8-114"><strong>PhoneUri</strong></span><span class="sxs-lookup"><span data-stu-id="b56a8-114"><strong>PhoneUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="b56a8-115">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="b56a8-115">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="d208a-115"><strong>PhoneUri</strong></span><span class="sxs-lookup"><span data-stu-id="d208a-115"><strong>PhoneUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="d208a-116">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="d208a-116">nvarchar(450)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b56a8-116">Número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="b56a8-116">Phone number.</span></span></p></td>
+<td><p><span data-ttu-id="d208a-117">Número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="d208a-117">Phone number.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b56a8-117"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="b56a8-117"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="b56a8-118">dateTime</span><span class="sxs-lookup"><span data-stu-id="b56a8-118">dateTime</span></span></p></td>
+<td><p><span data-ttu-id="d208a-118"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="d208a-118"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="d208a-119">dateTime</span><span class="sxs-lookup"><span data-stu-id="d208a-119">dateTime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="b56a8-119">Marca de tiempo (solo para uso interno).</span><span class="sxs-lookup"><span data-stu-id="b56a8-119">Time stamp (for internal use only).</span></span></p>
-<p><span data-ttu-id="b56a8-120">Este campo se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b56a8-120">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="d208a-120">Marca de tiempo (solo para uso interno).</span><span class="sxs-lookup"><span data-stu-id="d208a-120">Time stamp (for internal use only).</span></span></p>
+<p><span data-ttu-id="d208a-121">Este campo se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d208a-121">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>

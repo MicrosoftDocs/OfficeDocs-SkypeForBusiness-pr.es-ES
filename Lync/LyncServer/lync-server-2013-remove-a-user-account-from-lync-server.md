@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: quitar una cuenta de usuario de Lync Server'
+description: 'Lync Server 2013: quitar una cuenta de usuario de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 782077cc532dc751076d3152467de865fe799a29
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 201eb8a7ba620792b92e2c7983890047c249ce86
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536517"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555756"
 ---
-# <a name="remove-a-user-account-from-lync-server-2013"></a><span data-ttu-id="672a8-102">Quitar una cuenta de usuario de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="672a8-102">Remove a user account from Lync Server 2013</span></span>
+# <a name="remove-a-user-account-from-lync-server-2013"></a><span data-ttu-id="03224-103">Quitar una cuenta de usuario de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03224-103">Remove a user account from Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48536517"
 
 <span> </span>
 
-<span data-ttu-id="672a8-103">_**Última modificación del tema:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="672a8-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="03224-104">_**Última modificación del tema:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="03224-104">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="672a8-104">Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada anteriormente en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="672a8-104">You can use the following procedure to remove a previously added user account in Lync Server 2013.</span></span>
+<span data-ttu-id="03224-105">Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada anteriormente en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="03224-105">You can use the following procedure to remove a previously added user account in Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="672a8-105">Eliminar un usuario provocará que pierda los parámetros que haya configurado para la cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="672a8-105">Removing a user will cause you to lose any settings you configured for the user account.</span></span> <span data-ttu-id="672a8-106">Si quiere deshabilitar temporalmente una cuenta de usuario en su lugar, consulte el tema <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">sobre cómo deshabilitar o volver a habilitar la cuenta de usuario para Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="672a8-106">If you would like to temporarily disable a user account instead, see the topic <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="03224-106">Eliminar un usuario provocará que pierda los parámetros que haya configurado para la cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="03224-106">Removing a user will cause you to lose any settings you configured for the user account.</span></span> <span data-ttu-id="03224-107">Si quiere deshabilitar temporalmente una cuenta de usuario en su lugar, consulte el tema <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">sobre cómo deshabilitar o volver a habilitar la cuenta de usuario para Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="03224-107">If you would like to temporarily disable a user account instead, see the topic <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Disable or re-enable user account for Lync Server 2013</A>.</span></span>
 
 
 
@@ -53,55 +54,55 @@ ms.locfileid: "48536517"
 
 <div>
 
-## <a name="to-remove-a-user-account-by-using-lync-server-management-shell"></a><span data-ttu-id="672a8-107">Para quitar una cuenta de usuario mediante el shell de administración de Lync Server</span><span class="sxs-lookup"><span data-stu-id="672a8-107">To remove a user account by using Lync Server Management Shell</span></span>
+## <a name="to-remove-a-user-account-by-using-lync-server-management-shell"></a><span data-ttu-id="03224-108">Para quitar una cuenta de usuario mediante el shell de administración de Lync Server</span><span class="sxs-lookup"><span data-stu-id="03224-108">To remove a user account by using Lync Server Management Shell</span></span>
 
-1.  <span data-ttu-id="672a8-108">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="672a8-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="03224-109">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="03224-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="672a8-109">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="672a8-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="672a8-110">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="672a8-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="03224-110">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="03224-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="03224-111">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="03224-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="672a8-111">En la barra de navegación izquierda, haga clic en **Usuarios**.</span><span class="sxs-lookup"><span data-stu-id="672a8-111">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="03224-112">En la barra de navegación izquierda, haga clic en **Usuarios**.</span><span class="sxs-lookup"><span data-stu-id="03224-112">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="672a8-112">En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea de la cuenta de usuario que desee deshabilitar o volver a habilitar y, a continuación, haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="672a8-112">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to disable or re-enable, and then click **Find**.</span></span>
+4.  <span data-ttu-id="03224-113">En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea de la cuenta de usuario que desee deshabilitar o volver a habilitar y, a continuación, haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="03224-113">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to disable or re-enable, and then click **Find**.</span></span>
 
-5.  <span data-ttu-id="672a8-113">En la tabla, haga clic en la cuenta de usuario que desee quitar.</span><span class="sxs-lookup"><span data-stu-id="672a8-113">In the table, click the user account that you want to remove.</span></span>
+5.  <span data-ttu-id="03224-114">En la tabla, haga clic en la cuenta de usuario que desee quitar.</span><span class="sxs-lookup"><span data-stu-id="03224-114">In the table, click the user account that you want to remove.</span></span>
 
-6.  <span data-ttu-id="672a8-114">En el menú **Acción**, seleccione **Quitar de Lync Server** y, a continuación, aparecerá un cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="672a8-114">On the **Action** menu, select **Remove from Lync Server**, and a dialog box appears.</span></span>
+6.  <span data-ttu-id="03224-115">En el menú **Acción**, seleccione **Quitar de Lync Server** y, a continuación, aparecerá un cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="03224-115">On the **Action** menu, select **Remove from Lync Server**, and a dialog box appears.</span></span>
 
-7.  <span data-ttu-id="672a8-115">En el cuadro de diálogo, seleccione **Aceptar** para quitar el usuario.</span><span class="sxs-lookup"><span data-stu-id="672a8-115">From the dialog box, select **OK** to remove the user.</span></span>
+7.  <span data-ttu-id="03224-116">En el cuadro de diálogo, seleccione **Aceptar** para quitar el usuario.</span><span class="sxs-lookup"><span data-stu-id="03224-116">From the dialog box, select **OK** to remove the user.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="672a8-116">Eliminación de cuentas de usuario mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="672a8-116">Removing User Accounts by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="03224-117">Eliminación de cuentas de usuario mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="03224-117">Removing User Accounts by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="672a8-117">Puede eliminar cuentas de usuario con el cmdlet Disable-CsUser.</span><span class="sxs-lookup"><span data-stu-id="672a8-117">You can remove user accounts by using the Disable-CsUser cmdlet.</span></span> <span data-ttu-id="672a8-118">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="672a8-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session Windows PowerShell.</span></span> <span data-ttu-id="672a8-119">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="672a8-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="03224-118">Puede eliminar cuentas de usuario con el cmdlet Disable-CsUser.</span><span class="sxs-lookup"><span data-stu-id="03224-118">You can remove user accounts by using the Disable-CsUser cmdlet.</span></span> <span data-ttu-id="03224-119">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="03224-119">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session Windows PowerShell.</span></span> <span data-ttu-id="03224-120">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="03224-120">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-user-account"></a><span data-ttu-id="672a8-120">Para quitar una cuenta de usuario</span><span class="sxs-lookup"><span data-stu-id="672a8-120">To remove a user account</span></span>
+## <a name="to-remove-a-user-account"></a><span data-ttu-id="03224-121">Para quitar una cuenta de usuario</span><span class="sxs-lookup"><span data-stu-id="03224-121">To remove a user account</span></span>
 
-  - <span data-ttu-id="672a8-p104">Para quitar una cuenta de usuario, utilice el cmdlet Disable-CsUser. Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="672a8-p104">To remove a user account, use the Disable-CsUser cmdlet. For example:</span></span>
+  - <span data-ttu-id="03224-p104">Para quitar una cuenta de usuario, utilice el cmdlet Disable-CsUser. Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="03224-p104">To remove a user account, use the Disable-CsUser cmdlet. For example:</span></span>
     
         Disable-CsUser -Identity "Ken Myer"
     
-    <span data-ttu-id="672a8-p105">Una vez que se haya ejecutado este comando, no hay manera de volver a habilitar la cuenta y las configuraciones previas. En su lugar, necesitará utilizar el cmdlet Enable-CsUser para crear una cuenta nueva para Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="672a8-p105">After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.</span></span>
+    <span data-ttu-id="03224-p105">Una vez que se haya ejecutado este comando, no hay manera de volver a habilitar la cuenta y las configuraciones previas. En su lugar, necesitará utilizar el cmdlet Enable-CsUser para crear una cuenta nueva para Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="03224-p105">After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.</span></span>
 
 </div>
 
-<span data-ttu-id="672a8-125">Para obtener más información, consulte el tema de ayuda para el cmdlet [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) .</span><span class="sxs-lookup"><span data-stu-id="672a8-125">For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) cmdlet.</span></span>
+<span data-ttu-id="03224-126">Para obtener más información, consulte el tema de ayuda para el cmdlet [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) .</span><span class="sxs-lookup"><span data-stu-id="03224-126">For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="672a8-126">Consulte también</span><span class="sxs-lookup"><span data-stu-id="672a8-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03224-127">Consulte también</span><span class="sxs-lookup"><span data-stu-id="03224-127">See Also</span></span>
 
 
-[<span data-ttu-id="672a8-127">Deshabilitar o volver a habilitar la cuenta de usuario para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="672a8-127">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[<span data-ttu-id="03224-128">Deshabilitar o volver a habilitar la cuenta de usuario para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03224-128">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
 
 
-[<span data-ttu-id="672a8-128">Habilitación y deshabilitación de usuarios para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="672a8-128">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+[<span data-ttu-id="03224-129">Habilitación y deshabilitación de usuarios para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03224-129">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
   
 
 </div>
