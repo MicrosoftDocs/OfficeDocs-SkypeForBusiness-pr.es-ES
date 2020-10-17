@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos del sistema de nombres de dominio (DNS)'
+description: 'Lync Server 2013: requisitos del sistema de nombres de dominio (DNS).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ddbab6e4d0b1a0654c91027cbf0676ad6445f1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f84868d4929cc410cddbb6c9ad2019a12841e80f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501137"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553206"
 ---
-# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a><span data-ttu-id="ce35b-102">Requisitos del sistema de nombres de dominio (DNS) para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce35b-102">Domain Name System (DNS) requirements for Lync Server 2013</span></span>
+# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a><span data-ttu-id="bba44-103">Requisitos del sistema de nombres de dominio (DNS) para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bba44-103">Domain Name System (DNS) requirements for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,41 +38,41 @@ ms.locfileid: "48501137"
 
 <span> </span>
 
-<span data-ttu-id="ce35b-103">_**Última modificación del tema:** 2012-06-18_</span><span class="sxs-lookup"><span data-stu-id="ce35b-103">_**Topic Last Modified:** 2012-06-18_</span></span>
+<span data-ttu-id="bba44-104">_**Última modificación del tema:** 2012-06-18_</span><span class="sxs-lookup"><span data-stu-id="bba44-104">_**Topic Last Modified:** 2012-06-18_</span></span>
 
-<span data-ttu-id="ce35b-104">Para implementar Lync Server, debe crear registros de sistema de nombres de dominio (DNS) que permitan la detección de clientes y servidores y, opcionalmente, la compatibilidad con el inicio de sesión automático de los clientes si su organización desea ser compatible.</span><span class="sxs-lookup"><span data-stu-id="ce35b-104">To deploy Lync Server, you must create Domain Name System (DNS) records that enable the discovery of clients and servers, and, optionally, support for automatic client sign-in if your organization wants to support it.</span></span>
+<span data-ttu-id="bba44-105">Para implementar Lync Server, debe crear registros de sistema de nombres de dominio (DNS) que permitan la detección de clientes y servidores y, opcionalmente, la compatibilidad con el inicio de sesión automático de los clientes si su organización desea ser compatible.</span><span class="sxs-lookup"><span data-stu-id="bba44-105">To deploy Lync Server, you must create Domain Name System (DNS) records that enable the discovery of clients and servers, and, optionally, support for automatic client sign-in if your organization wants to support it.</span></span>
 
-<span data-ttu-id="ce35b-105">Lync Server usa DNS de las siguientes maneras:</span><span class="sxs-lookup"><span data-stu-id="ce35b-105">Lync Server uses DNS in the following ways:</span></span>
+<span data-ttu-id="bba44-106">Lync Server usa DNS de las siguientes maneras:</span><span class="sxs-lookup"><span data-stu-id="bba44-106">Lync Server uses DNS in the following ways:</span></span>
 
-  - <span data-ttu-id="ce35b-106">Para detectar los servidores o grupos de servidores internos para las comunicaciones entre servidores.</span><span class="sxs-lookup"><span data-stu-id="ce35b-106">To discover internal servers or pools for server-to-server communications.</span></span>
+  - <span data-ttu-id="bba44-107">Para detectar los servidores o grupos de servidores internos para las comunicaciones entre servidores.</span><span class="sxs-lookup"><span data-stu-id="bba44-107">To discover internal servers or pools for server-to-server communications.</span></span>
 
-  - <span data-ttu-id="ce35b-107">Para permitir que los clientes detecten el grupo de servidores front-end o el servidor Standard Edition usado para diversas transacciones SIP.</span><span class="sxs-lookup"><span data-stu-id="ce35b-107">To allow clients to discover the Front End pool or Standard Edition server used for various SIP transactions.</span></span>
+  - <span data-ttu-id="bba44-108">Para permitir que los clientes detecten el grupo de servidores front-end o el servidor Standard Edition usado para diversas transacciones SIP.</span><span class="sxs-lookup"><span data-stu-id="bba44-108">To allow clients to discover the Front End pool or Standard Edition server used for various SIP transactions.</span></span>
 
-  - <span data-ttu-id="ce35b-108">Para permitir que los dispositivos de comunicaciones unificadas (UC) que no han iniciado sesión detecten el grupo de servidores front-end o el servidor Standard Edition que ejecuta el servicio Web de actualización de dispositivos, obtenga las actualizaciones y envíe los registros.</span><span class="sxs-lookup"><span data-stu-id="ce35b-108">To allow unified communications (UC) devices that are not logged on to discover the Front End pool or Standard Edition server running Device Update Web Service, obtain updates, and send logs.</span></span>
+  - <span data-ttu-id="bba44-109">Para permitir que los dispositivos de comunicaciones unificadas (UC) que no han iniciado sesión detecten el grupo de servidores front-end o el servidor Standard Edition que ejecuta el servicio Web de actualización de dispositivos, obtenga las actualizaciones y envíe los registros.</span><span class="sxs-lookup"><span data-stu-id="bba44-109">To allow unified communications (UC) devices that are not logged on to discover the Front End pool or Standard Edition server running Device Update Web Service, obtain updates, and send logs.</span></span>
 
-  - <span data-ttu-id="ce35b-109">Para permitir que los servidores externos y los clientes se conecten a los servidores perimetrales o al proxy inverso HTTP para la mensajería instantánea (mi) o las conferencias.</span><span class="sxs-lookup"><span data-stu-id="ce35b-109">To allow external servers and clients to connect to Edge Servers or the HTTP reverse proxy for instant messaging (IM) or conferencing.</span></span>
+  - <span data-ttu-id="bba44-110">Para permitir que los servidores externos y los clientes se conecten a los servidores perimetrales o al proxy inverso HTTP para la mensajería instantánea (mi) o las conferencias.</span><span class="sxs-lookup"><span data-stu-id="bba44-110">To allow external servers and clients to connect to Edge Servers or the HTTP reverse proxy for instant messaging (IM) or conferencing.</span></span>
 
-  - <span data-ttu-id="ce35b-110">Para permitir que los dispositivos de comunicaciones unificadas externas se conecten al servicio Web de actualización de dispositivos a través de servidores perimetrales o el proxy inverso HTTP, y obtenga actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="ce35b-110">To allow external UC devices to connect to Device Update Web service through Edge Servers or the HTTP reverse proxy and obtain updates.</span></span>
+  - <span data-ttu-id="bba44-111">Para permitir que los dispositivos de comunicaciones unificadas externas se conecten al servicio Web de actualización de dispositivos a través de servidores perimetrales o el proxy inverso HTTP, y obtenga actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="bba44-111">To allow external UC devices to connect to Device Update Web service through Edge Servers or the HTTP reverse proxy and obtain updates.</span></span>
 
-  - <span data-ttu-id="ce35b-111">Para permitir que los clientes móviles detecten automáticamente recursos de servicios web sin que los usuarios tengan que escribir manualmente las direcciones URL en la configuración del dispositivo.</span><span class="sxs-lookup"><span data-stu-id="ce35b-111">To allow mobile clients to automatically discover Web Services resources without requiring users to manually enter URLs in device settings.</span></span>
+  - <span data-ttu-id="bba44-112">Para permitir que los clientes móviles detecten automáticamente recursos de servicios web sin que los usuarios tengan que escribir manualmente las direcciones URL en la configuración del dispositivo.</span><span class="sxs-lookup"><span data-stu-id="bba44-112">To allow mobile clients to automatically discover Web Services resources without requiring users to manually enter URLs in device settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ce35b-112">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ce35b-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bba44-113">En esta sección</span><span class="sxs-lookup"><span data-stu-id="bba44-113">In This Section</span></span>
 
-  - [<span data-ttu-id="ce35b-113">Determinación de los requisitos de DNS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce35b-113">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)
+  - [<span data-ttu-id="bba44-114">Determinación de los requisitos de DNS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bba44-114">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)
 
-  - [<span data-ttu-id="ce35b-114">Requisitos de DNS para grupos de servidores front-end en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce35b-114">DNS requirements for Front End pools in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-front-end-pools.md)
+  - [<span data-ttu-id="bba44-115">Requisitos de DNS para grupos de servidores front-end en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bba44-115">DNS requirements for Front End pools in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-front-end-pools.md)
 
-  - [<span data-ttu-id="ce35b-115">Requisitos de DNS para servidores Standard Edition en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce35b-115">DNS requirements for Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
+  - [<span data-ttu-id="bba44-116">Requisitos de DNS para servidores Standard Edition en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bba44-116">DNS requirements for Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
 
-  - [<span data-ttu-id="ce35b-116">Requisitos de DNS para direcciones URL sencillas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce35b-116">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [<span data-ttu-id="bba44-117">Requisitos de DNS para direcciones URL sencillas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bba44-117">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [<span data-ttu-id="ce35b-117">Requisitos de DNS para el inicio de sesión automático de los clientes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce35b-117">DNS requirements for automatic client sign-in in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)
+  - [<span data-ttu-id="bba44-118">Requisitos de DNS para el inicio de sesión automático de los clientes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bba44-118">DNS requirements for automatic client sign-in in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)
 
-  - [<span data-ttu-id="ce35b-118">Requisitos de DNS para la movilidad con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce35b-118">DNS requirements for mobility with Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-mobility.md)
+  - [<span data-ttu-id="bba44-119">Requisitos de DNS para la movilidad con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bba44-119">DNS requirements for mobility with Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-mobility.md)
 
-  - [<span data-ttu-id="ce35b-119">Equilibrio de carga de DNS en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ce35b-119">DNS load balancing in Lync Server 2013</span></span>](lync-server-2013-dns-load-balancing.md)
+  - [<span data-ttu-id="bba44-120">Equilibrio de carga de DNS en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bba44-120">DNS load balancing in Lync Server 2013</span></span>](lync-server-2013-dns-load-balancing.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 tiene nuevas características de control de acceso basado en roles
+description: Lync Server 2013 tiene nuevas características de control de acceso basadas en roles.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4637d41ddd8f36012ead0ac89f733bb6e0c5f62
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ecf42d46670cd1848bece8e4dc6ea70b27f3a68f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528327"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552846"
 ---
-# <a name="new-role-based-access-control-features-in-lync-server-2013"></a><span data-ttu-id="3bbf9-102">Nuevas características de control de acceso basado en roles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3bbf9-102">New role based access control features in Lync Server 2013</span></span>
+# <a name="new-role-based-access-control-features-in-lync-server-2013"></a><span data-ttu-id="0869a-103">Nuevas características de control de acceso basado en roles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0869a-103">New role based access control features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,22 +38,22 @@ ms.locfileid: "48528327"
 
 <span> </span>
 
-<span data-ttu-id="3bbf9-103">_**Última modificación del tema:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="3bbf9-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="0869a-104">_**Última modificación del tema:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="0869a-104">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="3bbf9-104">Lync Server 2013 mejora la característica de control de acceso basado en roles (RBAC) de dos maneras principales.</span><span class="sxs-lookup"><span data-stu-id="3bbf9-104">Lync Server 2013 enhances the role-based access control (RBAC) feature in two major ways.</span></span> <span data-ttu-id="3bbf9-105">Ahora puede crear funciones personalizadas, cada una de las cuales tiene privilegios solo para un conjunto de cmdlets que especifique.</span><span class="sxs-lookup"><span data-stu-id="3bbf9-105">You can now create custom roles, which each have privileges for only a set of cmdlets you specify.</span></span> <span data-ttu-id="3bbf9-106">A estos roles personalizados también se les pueden dar privilegios para ejecutar secuencias de comandos de los cmdlets.</span><span class="sxs-lookup"><span data-stu-id="3bbf9-106">These custom roles can also be given privilege to run scripts of cmdlets.</span></span>
+<span data-ttu-id="0869a-105">Lync Server 2013 mejora la característica de control de acceso basado en roles (RBAC) de dos maneras principales.</span><span class="sxs-lookup"><span data-stu-id="0869a-105">Lync Server 2013 enhances the role-based access control (RBAC) feature in two major ways.</span></span> <span data-ttu-id="0869a-106">Ahora puede crear funciones personalizadas, cada una de las cuales tiene privilegios solo para un conjunto de cmdlets que especifique.</span><span class="sxs-lookup"><span data-stu-id="0869a-106">You can now create custom roles, which each have privileges for only a set of cmdlets you specify.</span></span> <span data-ttu-id="0869a-107">A estos roles personalizados también se les pueden dar privilegios para ejecutar secuencias de comandos de los cmdlets.</span><span class="sxs-lookup"><span data-stu-id="0869a-107">These custom roles can also be given privilege to run scripts of cmdlets.</span></span>
 
-<span data-ttu-id="3bbf9-107">Además, Lync Server 2013 incluye dos nuevos roles predefinidos.</span><span class="sxs-lookup"><span data-stu-id="3bbf9-107">Additionally, Lync Server 2013 includes two new predefined roles.</span></span>
+<span data-ttu-id="0869a-108">Además, Lync Server 2013 incluye dos nuevos roles predefinidos.</span><span class="sxs-lookup"><span data-stu-id="0869a-108">Additionally, Lync Server 2013 includes two new predefined roles.</span></span>
 
-  - <span data-ttu-id="3bbf9-108">Los usuarios que reciban el rol de *administrador del grupo de respuestas* pueden administrar colas del grupo de respuestas específicas de su organización pero no necesariamente tienen derechos de administración para otras colas o la aplicación de grupo de respuesta en su conjunto.</span><span class="sxs-lookup"><span data-stu-id="3bbf9-108">Users given the *Response Group Manager* role can manage specific Response Group queues in your organization, but not necessarily have management rights for other queues or the Response Group application as a whole.</span></span>
+  - <span data-ttu-id="0869a-109">Los usuarios que reciban el rol de *administrador del grupo de respuestas* pueden administrar colas del grupo de respuestas específicas de su organización pero no necesariamente tienen derechos de administración para otras colas o la aplicación de grupo de respuesta en su conjunto.</span><span class="sxs-lookup"><span data-stu-id="0869a-109">Users given the *Response Group Manager* role can manage specific Response Group queues in your organization, but not necessarily have management rights for other queues or the Response Group application as a whole.</span></span>
 
-  - <span data-ttu-id="3bbf9-109">Los usuarios que tengan el rol de *Administrador de chat persistente* pueden administrar salones de chat persistente específicos en su organización, pero no necesariamente tienen derechos de administración para otros salones o la característica de chat persistente en su totalidad.</span><span class="sxs-lookup"><span data-stu-id="3bbf9-109">Users given the *Persistent Chat Manager* role can manage specific Persistent Chat rooms in your organization, but not necessarily have management rights for other rooms or the Persistent Chat feature as a whole.</span></span>
+  - <span data-ttu-id="0869a-110">Los usuarios que tengan el rol de *Administrador de chat persistente* pueden administrar salones de chat persistente específicos en su organización, pero no necesariamente tienen derechos de administración para otros salones o la característica de chat persistente en su totalidad.</span><span class="sxs-lookup"><span data-stu-id="0869a-110">Users given the *Persistent Chat Manager* role can manage specific Persistent Chat rooms in your organization, but not necessarily have management rights for other rooms or the Persistent Chat feature as a whole.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3bbf9-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="3bbf9-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0869a-111">Consulte también</span><span class="sxs-lookup"><span data-stu-id="0869a-111">See Also</span></span>
 
 
-[<span data-ttu-id="3bbf9-111">Planeación del control de acceso basado en roles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3bbf9-111">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)  
+[<span data-ttu-id="0869a-112">Planeación del control de acceso basado en roles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0869a-112">Planning for role-based access control in Lync Server 2013</span></span>](lync-server-2013-planning-for-role-based-access-control.md)  
   
 
 </div>

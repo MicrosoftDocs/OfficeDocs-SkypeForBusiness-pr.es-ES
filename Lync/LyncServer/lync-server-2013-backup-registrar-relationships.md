@@ -1,5 +1,6 @@
 ---
 title: Relaciones de registrador de copia de seguridad 2013 de Lync Server
+description: Relaciones de registrador de copia de seguridad 2013 de Lync Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184631
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd41595fed0d16327f65f4e6af39fe80c049daa4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b0bfce6444ae78c2fb792a6d63dba4bf36b1791
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499337"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552322"
 ---
-# <a name="backup-registrar-relationships-in-lync-server-2013"></a><span data-ttu-id="989b3-102">Relaciones de registrador de reserva en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="989b3-102">Backup Registrar relationships in Lync Server 2013</span></span>
+# <a name="backup-registrar-relationships-in-lync-server-2013"></a><span data-ttu-id="aa275-103">Relaciones de registrador de reserva en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa275-103">Backup Registrar relationships in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48499337"
 
 <span> </span>
 
-<span data-ttu-id="989b3-103">_**Última modificación del tema:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="989b3-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="aa275-104">_**Última modificación del tema:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="aa275-104">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="989b3-104">Además de proporcionar la capacidad de recuperación ante desastres, dos grupos de servidores emparejados sirven como registradores de copia de seguridad entre sí.</span><span class="sxs-lookup"><span data-stu-id="989b3-104">In addition to providing disaster recovery ability, two paired pools serve as the backup Registrars for each other.</span></span> <span data-ttu-id="989b3-105">En Lync Server 2013, las relaciones de registrador de reserva entre grupos de servidores front-end son siempre 1:1 y recíprocas.</span><span class="sxs-lookup"><span data-stu-id="989b3-105">In Lync Server 2013, backup Registrar relationships between Front End pools are always 1:1 and reciprocal.</span></span> <span data-ttu-id="989b3-106">Esto significa que, si P1 es la copia de seguridad de P2, entonces P2 deberá ser la copia de seguridad de P1, y ninguna de ellas podrá ser la copia de seguridad de ningún otro grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="989b3-106">This means that if P1 is the backup for P2, then P2 must be the backup for P1, and neither can be the backup for any other Front End pool.</span></span> <span data-ttu-id="989b3-107">Se trata de un cambio en Lync Server 2010, en el que las relaciones de copia de seguridad del grupo de servidores front-end podrían ser varias a una.</span><span class="sxs-lookup"><span data-stu-id="989b3-107">This is a change from Lync Server 2010, in which Front End pool backup relationships could be many to one.</span></span>
+<span data-ttu-id="aa275-105">Además de proporcionar la capacidad de recuperación ante desastres, dos grupos de servidores emparejados sirven como registradores de copia de seguridad entre sí.</span><span class="sxs-lookup"><span data-stu-id="aa275-105">In addition to providing disaster recovery ability, two paired pools serve as the backup Registrars for each other.</span></span> <span data-ttu-id="aa275-106">En Lync Server 2013, las relaciones de registrador de reserva entre grupos de servidores front-end son siempre 1:1 y recíprocas.</span><span class="sxs-lookup"><span data-stu-id="aa275-106">In Lync Server 2013, backup Registrar relationships between Front End pools are always 1:1 and reciprocal.</span></span> <span data-ttu-id="aa275-107">Esto significa que, si P1 es la copia de seguridad de P2, entonces P2 deberá ser la copia de seguridad de P1, y ninguna de ellas podrá ser la copia de seguridad de ningún otro grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="aa275-107">This means that if P1 is the backup for P2, then P2 must be the backup for P1, and neither can be the backup for any other Front End pool.</span></span> <span data-ttu-id="aa275-108">Se trata de un cambio en Lync Server 2010, en el que las relaciones de copia de seguridad del grupo de servidores front-end podrían ser varias a una.</span><span class="sxs-lookup"><span data-stu-id="aa275-108">This is a change from Lync Server 2010, in which Front End pool backup relationships could be many to one.</span></span>
 
-<span data-ttu-id="989b3-108">Aunque las relaciones de copia de seguridad entre dos grupos de servidores front-end deben ser 1:1 y simétricas, cada grupo de servidores front-end también puede ser el registrador de reserva de cualquier número de aplicaciones de sucursal con funciones de supervivencia, al igual que en Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="989b3-108">Even though backup relationships between two Front End pools must be 1:1 and symmetrical, each Front End pool can still also be the backup registrar for any number of Survivable Branch Appliances, just as in Lync Server 2010.</span></span>
+<span data-ttu-id="aa275-109">Aunque las relaciones de copia de seguridad entre dos grupos de servidores front-end deben ser 1:1 y simétricas, cada grupo de servidores front-end también puede ser el registrador de reserva de cualquier número de aplicaciones de sucursal con funciones de supervivencia, al igual que en Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="aa275-109">Even though backup relationships between two Front End pools must be 1:1 and symmetrical, each Front End pool can still also be the backup registrar for any number of Survivable Branch Appliances, just as in Lync Server 2010.</span></span>
 
-<span data-ttu-id="989b3-109">Tenga en cuenta que Lync Server 2013 no amplía la compatibilidad con la recuperación ante desastres a los usuarios hospedados en una aplicación de sucursal con funciones de supervivencia.</span><span class="sxs-lookup"><span data-stu-id="989b3-109">Note that Lync Server 2013 does not extend disaster recovery support to users homed on a Survivable Branch Appliance.</span></span> <span data-ttu-id="989b3-110">Si un grupo de servidores front-end que actúa como copia de seguridad de una aplicación de sucursal con funciones de supervivencia disminuye, los usuarios que iniciaron sesión en la sucursal con funciones de supervivencia entrarán en el modo de resistencia, incluso después de que los usuarios hospedados en el grupo de servidores front-end realicen una conmutación por error al grupo de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="989b3-110">If a Front End pool that serves as the backup for a Survivable Branch Appliance goes down, users signed into the Survivable Branch Appliance fall into resiliency mode even after users homed on the Front End pool are failed over to the backup Front End pool.</span></span>
+<span data-ttu-id="aa275-110">Tenga en cuenta que Lync Server 2013 no amplía la compatibilidad con la recuperación ante desastres a los usuarios hospedados en una aplicación de sucursal con funciones de supervivencia.</span><span class="sxs-lookup"><span data-stu-id="aa275-110">Note that Lync Server 2013 does not extend disaster recovery support to users homed on a Survivable Branch Appliance.</span></span> <span data-ttu-id="aa275-111">Si un grupo de servidores front-end que actúa como copia de seguridad de una aplicación de sucursal con funciones de supervivencia disminuye, los usuarios que iniciaron sesión en la sucursal con funciones de supervivencia entrarán en el modo de resistencia, incluso después de que los usuarios hospedados en el grupo de servidores front-end realicen una conmutación por error al grupo de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="aa275-111">If a Front End pool that serves as the backup for a Survivable Branch Appliance goes down, users signed into the Survivable Branch Appliance fall into resiliency mode even after users homed on the Front End pool are failed over to the backup Front End pool.</span></span>
 
 </div>
 
