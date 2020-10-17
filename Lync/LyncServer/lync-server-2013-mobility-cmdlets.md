@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de movilidad'
+description: 'Lync Server 2013: cmdlets de movilidad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2434eb38f0f27de7f9726361f8c574e8d565b17b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f2b70a3db192753804d15ed9649c9068c65a6013
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565916"
 ---
 # <a name="mobility-cmdlets-in-lync-server-2013"></a>Cmdlets de movilidad en Lync Server 2013
 

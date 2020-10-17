@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla DeviceDriver'
+description: 'Lync Server 2013: tabla DeviceDriver.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc67c4096cde54252cec432fd8ad2196b05c00e0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3d81e2e27ff5196112c6057c429f924e5b1c3e4b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565976"
 ---
 # <a name="devicedriver-table-in-lync-server-2013"></a>Tabla DeviceDriver en Lync Server 2013
 

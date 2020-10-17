@@ -1,5 +1,6 @@
 ---
 title: 'Fase 7: agregar un servidor perimetral de Lync Server 2013 a un grupo piloto'
+description: 'Fase 7: agregar el servidor perimetral de Lync Server 2013 al grupo piloto.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 215e877820d4fac8cb00bbf036dd31e90f71dcdb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4bfd628b4633e6dff4ffe13d3ba4818962138986
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566196"
 ---
 # <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a>Fase 7: agregar un servidor perimetral de Lync Server 2013 a un grupo piloto
 
@@ -45,7 +46,7 @@ En los temas de esta sección se explica cómo agregar un servidor perimetral de
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Implementar el servidor perimetral piloto](deploy-pilot-edge-server_1.md)
+  - [Implementar el servidor perimetral piloto](deploy-pilot-edge-server.md)
 
   - [Validar la replicación de las opciones de configuración](validate-replication-of-configuration-settings.md)
 

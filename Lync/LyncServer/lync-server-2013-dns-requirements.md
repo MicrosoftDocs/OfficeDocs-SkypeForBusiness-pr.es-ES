@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos de DNS'
+description: 'Lync Server 2013: requisitos de DNS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fea1f35c9536667eefe2fc82f2d05f8071b5766a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 676c2fca275c170dc6a377dae0c45c1cd7c1dc4d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501317"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564956"
 ---
 # <a name="dns-requirements-for-lync-server-2013"></a>Requisitos de DNS para Lync Server 2013
 

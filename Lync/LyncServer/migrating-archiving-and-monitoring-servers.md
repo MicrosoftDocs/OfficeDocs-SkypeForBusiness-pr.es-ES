@@ -1,5 +1,6 @@
 ---
 title: Migrar servidores de archivado y supervisión
+description: Migrar los servidores de archivado y supervisión.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ba32bf2b35a0d2e8b0048ebb9c62aac09cb6eb7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2dabd16fd38dbf463a4bc608fe77368e781571fd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527417"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565386"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Migrar servidores de archivado y supervisión
 

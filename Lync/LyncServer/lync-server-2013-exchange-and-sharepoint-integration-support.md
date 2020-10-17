@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: compatibilidad con la integración de Exchange y SharePoint'
+description: 'Lync Server 2013: compatibilidad con la integración de Exchange y SharePoint.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0da9f9913804bb10b9bf5fd1e4c4e8ad467e7d2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f7416ffa23de9a0820c3087d18254810d58444ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528397"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564866"
 ---
 # <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a>Compatibilidad con la integración de Exchange y SharePoint en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (opcional) modificar la asignación de teclas para comandos DTMF'
+description: 'Lync Server 2013: (opcional) modificar la asignación de teclas para comandos DTMF.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7104a24c7bf02c310cb1deb7b8f9de3ad51407c9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7581001c31d929163962378a8734435f6d07c6c8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524427"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565796"
 ---
 # <a name="optional-modify-key-mapping-for-dtmf-commands-in-lync-server-2013"></a>Opcional Modificar la asignación de teclas para comandos DTMF en Lync Server 2013
 

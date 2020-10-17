@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: presentación del identificador denominado'
+description: 'Lync Server 2013: presentación del identificador denominado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dddb1902422cb3efc52f4f0b3271976ab9b9950e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b438c7c19bc3c4ad641a8b9f8dac319c9fc2b1c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565206"
 ---
 # <a name="called-id-presentation-in-lync-server-2013"></a>Presentación del identificador denominado presentación en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Guía de operaciones'
+description: 'Lync Server 2013: Guía de operaciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 212a640577d55e80225a597c9263b7a2573d257f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 85e562b96e87f54529a9e2ce077a0a82574020c1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524537"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565892"
 ---
 # <a name="operations-guide-for-lync-server-2013"></a>Guía de operaciones para Lync Server 2013
 

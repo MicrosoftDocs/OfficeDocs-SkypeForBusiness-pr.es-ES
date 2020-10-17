@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: compatibilidad con mensajería instantánea pública'
+description: 'Lync Server 2013: compatibilidad con mensajería instantánea pública.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 026ceb24ef3e046d6d800db4ba82381c8905b99d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1e071e8b79be82d865a85a9488e48dd0a4264c7f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512407"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565576"
 ---
 # <a name="public-instant-messaging-support-in-lync-server-2013"></a>Compatibilidad con mensajería instantánea pública en Lync Server 2013
 

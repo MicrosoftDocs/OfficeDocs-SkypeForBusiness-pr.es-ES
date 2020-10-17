@@ -1,5 +1,6 @@
 ---
 title: Configurar las reglas de número de identificación personal (PIN) de conferencia de acceso telefónico local
+description: Configurar las reglas de número de identificación personal (PIN) de conferencia de acceso telefónico local.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b446d38b3a2a2c054619373a605192ca05886174
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 799092ba57e9a85cd196840fc81c1f46b96e9900
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537207"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565056"
 ---
 # <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a>Configurar reglas de número de identificación personal (PIN) de conferencia de acceso telefónico en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: componentes de conectividad con RTC'
+description: 'Lync Server 2013: componentes de conectividad con RTC.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa82336ed96c61315da4c25a0152ba75d15d7b6e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c2ae5a6a7bc5db1cd7a23c44719d7123a624317d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531747"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565686"
 ---
 # <a name="pstn-connectivity-components-in-lync-server-2013"></a>Componentes de conectividad con RTC en Lync Server 2013
 

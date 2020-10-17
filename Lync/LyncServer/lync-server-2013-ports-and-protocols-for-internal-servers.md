@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: puertos y protocolos para servidores internos'
+description: 'Lync Server 2013: puertos y protocolos para servidores internos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d7d8f12c78c5dec5caacaeb1156f4d228b7cd591
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513407"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566366"
 ---
 # <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Puertos y protocolos para servidores internos en Lync Server 2013
 

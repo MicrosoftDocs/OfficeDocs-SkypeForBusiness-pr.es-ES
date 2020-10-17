@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: opciones de configuración de reuniones'
+description: 'Lync Server 2013: opciones de configuración de reunión.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29f17628a7e7b577812678afb50ee26e8b1d9f06
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 66879a39b88ee532df0965f7f84830d511b95444
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513657"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566466"
 ---
 # <a name="meeting-configuration-settings-in-lync-server-2013"></a>Opciones de configuración de reunión en Lync Server 2013
 

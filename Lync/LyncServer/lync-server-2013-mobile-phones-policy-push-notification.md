@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: teléfonos móviles (Directiva/notificación de inserción)'
+description: 'Lync Server 2013: teléfonos móviles (Directiva/notificación de inserción).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dc176adef1f08e54ec0fa56aa55ad16ead0a3b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f29f96c75abb8f510a1265daa3ec88a5d061ad7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505667"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564606"
 ---
 # <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a>Teléfonos móviles (Directiva/notificación de inserción) en Lync Server 2013
 

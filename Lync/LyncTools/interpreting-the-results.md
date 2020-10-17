@@ -1,5 +1,6 @@
 ---
 title: Interpretación de los resultados
+description: Interpretación de los resultados.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3a15880de861b850d3e0355491e85219ba3579d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b8342a1ec1e15e42852fc5293f87342e98587a60
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499917"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565346"
 ---
 # <a name="interpreting-the-results"></a>Interpretación de los resultados
 

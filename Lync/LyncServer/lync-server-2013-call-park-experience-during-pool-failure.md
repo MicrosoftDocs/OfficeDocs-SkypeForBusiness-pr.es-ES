@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: experiencia de estacionamiento de llamadas durante un error de grupo'
+description: 'Lync Server 2013: experiencia de estacionamiento de llamadas durante un error del grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 605900501a141c053459c690292b1e0a10c8abbc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b97a0af13d378b0753979c32b6d5ffe7a525cf0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508257"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565276"
 ---
 # <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>Experiencia de estacionamiento de llamadas en Lync Server 2013 durante un error de grupo
 

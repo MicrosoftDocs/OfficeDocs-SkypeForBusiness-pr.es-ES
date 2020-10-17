@@ -1,5 +1,6 @@
 ---
 title: 'Fase 6: Pasar de la implementación piloto a la producción'
+description: 'Fase 6: pasar de la implementación piloto a la producción.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11c7efbf12ecde9bf58e5eedb676358032028485
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 76bd1fa39b510093ba10927200164429ed7b1c62
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518197"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566186"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Fase 6: Pasar de la implementación piloto a la producción
 

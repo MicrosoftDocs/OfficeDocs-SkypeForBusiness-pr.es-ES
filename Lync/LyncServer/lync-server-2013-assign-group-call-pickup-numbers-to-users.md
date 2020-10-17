@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asignar números de llamada de llamadas de grupo a los usuarios'
+description: 'Lync Server 2013: asignar números de llamada de llamadas de grupo a los usuarios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ced3de74542edc65de68ab5f803934aa671575cc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d550b4556af427e11e99ffb26fb2a6c34d019490
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499487"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566136"
 ---
 # <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>Asignar números de llamada de llamada de grupo a los usuarios en Lync Server 2013
 

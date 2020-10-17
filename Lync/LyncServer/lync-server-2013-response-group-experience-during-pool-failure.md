@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 experiencia de grupo de respuesta durante un error de grupo
+description: Lync Server 2013 la experiencia del grupo de respuesta durante un error en el grupo.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184116
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 684d33219bb6146a0c5dc85894c060affd6745a2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7d8d5904bc6934d4c330202bafa66d6dd8a16ff5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564576"
 ---
 # <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>Experiencia de grupo de respuesta en Lync Server 2013 durante un error de grupo de servidores
 

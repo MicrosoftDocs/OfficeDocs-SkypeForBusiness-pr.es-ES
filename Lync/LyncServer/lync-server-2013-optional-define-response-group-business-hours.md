@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (opcional) definir horario comercial de grupo de respuesta'
+description: 'Lync Server 2013: (opcional) definir el horario comercial del grupo de respuesta.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 891dd05caf5e2ec3411da73c1151ae61c2d0630c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d5780ee362ff11fc4b6fe2ccf8f119f35d0bee36
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524467"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565776"
 ---
 # <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>Opcional Definir el horario comercial del grupo de respuesta en Lync Server 2013
 

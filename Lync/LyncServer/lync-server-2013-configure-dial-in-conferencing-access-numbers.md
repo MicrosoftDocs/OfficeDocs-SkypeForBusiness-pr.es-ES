@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar los números de acceso de conferencia de acceso telefónico local'
+description: 'Lync Server 2013: configurar los números de acceso de conferencia de acceso telefónico local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83c7069db95d36e79d74cea81faf3aa98685832f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0edb3492c243b36b69c4b48df8c22adc4ece7999
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565086"
 ---
 # <a name="configure-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Configurar los números de acceso de conferencia de acceso telefónico local en Lync Server 2013
 

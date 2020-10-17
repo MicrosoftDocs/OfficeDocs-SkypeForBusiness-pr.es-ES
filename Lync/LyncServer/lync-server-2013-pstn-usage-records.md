@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: registros de uso de RTC'
+description: 'Lync Server 2013: registros de uso de RTC.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74c9f6dda4112325d6a408cc1bbb543373e9de61
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0f8ff428dc2fa5cf8cf0f10e37f0f79c38d70d70
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512437"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565586"
 ---
 # <a name="pstn-usage-records-in-lync-server-2013"></a>Registros de uso de RTC en Lync Server 2013
 

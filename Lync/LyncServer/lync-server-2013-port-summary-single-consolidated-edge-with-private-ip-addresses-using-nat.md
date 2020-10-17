@@ -1,5 +1,6 @@
 ---
 title: Resumen de Puerto-perímetro consolidado de un solo servidor con direcciones IP privadas con NAT
+description: Resumen de Puerto-perímetro consolidado de un solo servidor con direcciones IP privadas con NAT.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a5aaa4628a92174aca39579c5f2e6a8e4f31987
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a3fc182b9fbbd24d589feb7f73e3c0086fa23152
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534007"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564566"
 ---
 # <a name="port-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Resumen de Puerto-perímetro consolidado de un solo servidor con direcciones IP privadas mediante NAT en Lync Server 2013
 

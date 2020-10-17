@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: infraestructura de clave pública'
+description: 'Lync Server 2013: infraestructura de clave pública.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7cee633f877a34dcf2ec0fd0b98891c62faf0bad
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0b8f2ee8c6b1524cec461ad90a4d4cb1a1003b51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512417"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565566"
 ---
 # <a name="public-key-infrastructure-for-lync-server-2013"></a>Infraestructura de clave pública para Lync Server 2013
 

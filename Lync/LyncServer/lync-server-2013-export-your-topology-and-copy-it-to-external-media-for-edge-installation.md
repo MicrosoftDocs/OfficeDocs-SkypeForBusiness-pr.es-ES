@@ -1,5 +1,6 @@
 ---
 title: Exportar la topología y copiarla en un medio externo para la instalación perimetral
+description: Exportar la topología y copiarla en un medio externo para la instalación perimetral.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dd461e6a8ce184e5e418feddede258af68d2c25
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 47fcee032b4c0e667455ae7f35afe8b99c2d12cc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528377"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564766"
 ---
 # <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Exportar la topología de Lync Server 2013 y copiarla en un medio externo para la instalación perimetral
 

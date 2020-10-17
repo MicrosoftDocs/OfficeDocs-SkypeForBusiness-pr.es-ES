@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de distribución de errores'
+description: 'Lync Server 2013: informe de distribución de errores.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65735c6b5eba4ff8d15aced6fcc94e38591bdb3e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f5a87f779f87d6b7002fa108f1969c33739eed9b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515397"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564736"
 ---
 # <a name="failure-distribution-report-in-lync-server-2013"></a>Informe de distribución de errores en Lync Server 2013
 

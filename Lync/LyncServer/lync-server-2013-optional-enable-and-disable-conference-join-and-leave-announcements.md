@@ -1,5 +1,6 @@
 ---
 title: Opcional Habilitar y deshabilitar la Unión de conferencia y dejar anuncios
+description: Opcional Habilitar y deshabilitar los anuncios de unirse a Conferencia y dejarlos.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a50431ee1917c580440f8a47cff0ca09f5e47f07
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 70cd6b452a44d7d40f23d5ca96b6e4b7b063d2ec
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524437"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565786"
 ---
 # <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Opcional Habilitar y deshabilitar la Unión a Conferencia y dejar anuncios en Lync Server 2013
 

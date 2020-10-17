@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ejecutar, conceder, obtener, quitar o establecer una directiva de chat persistente'
+description: 'Lync Server 2013: ejecutar, conceder, obtener, quitar o establecer una directiva de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddee21d10f9aba438c6d320a076151b76eaebd9b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 45763fa4d521efccd5ada62589e76e893d7a4933
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511177"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566296"
 ---
 # <a name="run-grant-get-remove-or-set-persistent-chat-policy-in-lync-server-2013"></a>Ejecutar, conceder, obtener, quitar o configurar directiva de chat persistente en Lync Server 2013
 

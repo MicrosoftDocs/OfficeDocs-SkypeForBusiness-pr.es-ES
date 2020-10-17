@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ver información de Perfil de la Directiva de ancho de banda de red'
+description: 'Lync Server 2013: ver la información de Perfil de la Directiva de ancho de banda de red.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08b8b984b1fd0c468f5ca340880ec294bf870e0e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c72a3533ae6f49f91db91b2c3b515c0b5153ec27
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518317"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565406"
 ---
 # <a name="viewing-network-bandwidth-policy-profile-information-in-lync-server-2013"></a>Ver la información de Perfil de la Directiva de ancho de banda de red en Lync Server 2013
 

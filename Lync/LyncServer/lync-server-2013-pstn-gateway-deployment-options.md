@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: opciones de implementación de la puerta de enlace RTC'
+description: 'Lync Server 2013: opciones de implementación de la puerta de enlace RTC.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2761473e609f8891af14387858ca76bc2a247baa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 871bc4d573e927f83cdb07d4fb2b5d5b954e6383
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512467"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565596"
 ---
 # <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Opciones de implementación de la puerta de enlace RTC en Lync Server 2013
 
