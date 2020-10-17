@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar un nuevo servidor de aplicaciones de confianza'
+description: 'Lync Server 2013: configurar un nuevo servidor de aplicaciones de confianza.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4d01e817e1a874af8c6beccdee332f85cc79ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3cc13c747c5755297b01ae36f27f06d19591acc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206996"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552126"
 ---
+# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a><span data-ttu-id="1bd01-103">Configurar un nuevo servidor de aplicaciones de confianza en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bd01-103">Configure a new trusted application server in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a><span data-ttu-id="91318-102">Configurar un nuevo servidor de aplicaciones de confianza en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="91318-102">Configure a new trusted application server in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,37 +38,37 @@ ms.locfileid: "42206996"
 
 <span> </span>
 
-<span data-ttu-id="91318-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="91318-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="1bd01-104">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1bd01-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="91318-104">Una aplicación de confianza es una aplicación basada en el SDK de Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK en el que confía Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="91318-104">A trusted application is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Microsoft Lync Server 2013.</span></span> <span data-ttu-id="91318-105">Para obtener más información acerca de las aplicaciones de UCMA, consulte la documentación de Unified Communications Managed API 3,0 Core SDK en [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320).</span><span class="sxs-lookup"><span data-stu-id="91318-105">For details about UCMA applications, see “Unified Communications Managed API 3.0 Core SDK Documentation” at [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320).</span></span>
+<span data-ttu-id="1bd01-105">Una aplicación de confianza es una aplicación basada en el SDK de Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK en el que confía Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1bd01-105">A trusted application is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Microsoft Lync Server 2013.</span></span> <span data-ttu-id="1bd01-106">Para obtener más información acerca de las aplicaciones de UCMA, consulte la documentación de Unified Communications Managed API 3,0 Core SDK en [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320) .</span><span class="sxs-lookup"><span data-stu-id="1bd01-106">For details about UCMA applications, see “Unified Communications Managed API 3.0 Core SDK Documentation” at [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320).</span></span>
 
-<span data-ttu-id="91318-106">Para obtener información acerca de la configuración de Microsoft Outlook Web Access (OWA) y Lync Server 2013, consulte "configure Outlook Web App and Lync Server 2010 Integration" en la documentación de Microsoft Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="91318-106">For information about configuring Microsoft Outlook Web Access (OWA) and Lync Server 2013, see “Configure Outlook Web App and Lync Server 2010 Integration” at the Microsoft Exchange Server 2013 documentation.</span></span>
+<span data-ttu-id="1bd01-107">Para obtener información acerca de la configuración de Microsoft Outlook Web Access (OWA) y Lync Server 2013, consulte "configure Outlook Web App and Lync Server 2010 Integration" en la documentación de Microsoft Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1bd01-107">For information about configuring Microsoft Outlook Web Access (OWA) and Lync Server 2013, see “Configure Outlook Web App and Lync Server 2010 Integration” at the Microsoft Exchange Server 2013 documentation.</span></span>
 
-<span data-ttu-id="91318-107">Para publicar, habilitar o deshabilitar correctamente una topología al agregar o quitar un rol de servidor, debe haber iniciado sesión como usuario miembro de los grupos Administradores del dominio y RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="91318-107">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged on as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups.</span></span> <span data-ttu-id="91318-108">También es posible delegar los permisos y derechos de administrador adecuados para agregar roles de servidor.</span><span class="sxs-lookup"><span data-stu-id="91318-108">It is also possible to delegate the proper administrator permissions and rights for adding server roles.</span></span> <span data-ttu-id="91318-109">Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) en la documentación sobre implementación.</span><span class="sxs-lookup"><span data-stu-id="91318-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in the Deployment documentation.</span></span> <span data-ttu-id="91318-110">Para realizar otros cambios de configuración, solo se requiere pertenecer al grupo RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="91318-110">For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
+<span data-ttu-id="1bd01-108">Para publicar, habilitar o deshabilitar correctamente una topología al agregar o quitar un rol de servidor, debe haber iniciado sesión como usuario miembro de los grupos Administradores del dominio y RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="1bd01-108">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged on as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups.</span></span> <span data-ttu-id="1bd01-109">También es posible delegar los permisos y derechos de administrador adecuados para agregar roles de servidor.</span><span class="sxs-lookup"><span data-stu-id="1bd01-109">It is also possible to delegate the proper administrator permissions and rights for adding server roles.</span></span> <span data-ttu-id="1bd01-110">Para obtener más información, consulte [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) en la documentación sobre implementación.</span><span class="sxs-lookup"><span data-stu-id="1bd01-110">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in the Deployment documentation.</span></span> <span data-ttu-id="1bd01-111">Para realizar otros cambios de configuración, solo se requiere pertenecer al grupo RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="1bd01-111">For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
 
 <div>
 
-## <a name="to-configure-a-trusted-application-server"></a><span data-ttu-id="91318-111">Para configurar un servidor de aplicaciones de confianza</span><span class="sxs-lookup"><span data-stu-id="91318-111">To configure a trusted application server</span></span>
+## <a name="to-configure-a-trusted-application-server"></a><span data-ttu-id="1bd01-112">Para configurar un servidor de aplicaciones de confianza</span><span class="sxs-lookup"><span data-stu-id="1bd01-112">To configure a trusted application server</span></span>
 
-1.  <span data-ttu-id="91318-112">Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="91318-112">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="1bd01-113">Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="1bd01-113">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="91318-113">Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="91318-113">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+2.  <span data-ttu-id="1bd01-114">Inicie el generador de topologías: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topologías de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="1bd01-114">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-3.  <span data-ttu-id="91318-114">Seleccione **Descargar topología de la implementación existente** y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="91318-114">Select **Download topology from existing deployment**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="1bd01-115">Seleccione **Descargar topología de la implementación existente** y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="1bd01-115">Select **Download topology from existing deployment**, and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="91318-115">En el cuadro de diálogo **Guardar topología como** , haga clic en el archivo del generador de topologías que desee usar y, a continuación, haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="91318-115">In the **Save Topology As** dialog box, click the Topology Builder file you want to use, and then click **Save**.</span></span>
+4.  <span data-ttu-id="1bd01-116">En el cuadro de diálogo **Guardar topología como** , haga clic en el archivo del generador de topologías que desee usar y, a continuación, haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="1bd01-116">In the **Save Topology As** dialog box, click the Topology Builder file you want to use, and then click **Save**.</span></span>
 
-5.  <span data-ttu-id="91318-116">En el panel izquierdo, haga clic con el botón secundario en **servidores de aplicaciones de confianza**y haga clic en **nuevo grupo de aplicaciones de confianza**.</span><span class="sxs-lookup"><span data-stu-id="91318-116">In the left pane, right-click **Trusted application servers**, and then click **New Trusted Application Pool**.</span></span>
+5.  <span data-ttu-id="1bd01-117">En el panel izquierdo, haga clic con el botón secundario en **servidores de aplicaciones de confianza**y haga clic en **nuevo grupo de aplicaciones de confianza**.</span><span class="sxs-lookup"><span data-stu-id="1bd01-117">In the left pane, right-click **Trusted application servers**, and then click **New Trusted Application Pool**.</span></span>
 
-6.  <span data-ttu-id="91318-117">Escriba el\*\*\*\* FQDN del grupo de servidores del grupo de aplicaciones de confianza, seleccione si va a ser un servidor único o varios servidores y haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="91318-117">Enter the **Pool FQDN** of the trusted application pool, select whether it will be a single-server or multiple-server, and then click **Next**.</span></span>
+6.  <span data-ttu-id="1bd01-118">Escriba el\*\*\*\* FQDN del grupo de servidores del grupo de aplicaciones de confianza, seleccione si va a ser un servidor único o varios servidores y haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="1bd01-118">Enter the **Pool FQDN** of the trusted application pool, select whether it will be a single-server or multiple-server, and then click **Next**.</span></span>
 
-7.  <span data-ttu-id="91318-118">En la página **seleccionar el próximo salto** , en la lista, seleccione el grupo de servidores front-end 2013 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="91318-118">On the **Select the next hop** page, from the list, select the Lync Server 2013 Front End pool.</span></span>
+7.  <span data-ttu-id="1bd01-119">En la página **seleccionar el próximo salto** , en la lista, seleccione el grupo de servidores front-end 2013 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1bd01-119">On the **Select the next hop** page, from the list, select the Lync Server 2013 Front End pool.</span></span>
 
-8.  <span data-ttu-id="91318-119">Haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="91318-119">Click **Finish**.</span></span>
+8.  <span data-ttu-id="1bd01-120">Haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="1bd01-120">Click **Finish**.</span></span>
 
-9.  <span data-ttu-id="91318-120">Seleccione el nodo superior **Lync Server 2013**y, a continuación, en el menú **acciones** , haga clic en **publicar topología**.</span><span class="sxs-lookup"><span data-stu-id="91318-120">Select the top node **Lync Server 2013**, and then, from the **Actions** menu, click **Publish Topology**.</span></span>
+9.  <span data-ttu-id="1bd01-121">Seleccione el nodo superior **Lync Server 2013**y, a continuación, en el menú **acciones** , haga clic en **publicar topología**.</span><span class="sxs-lookup"><span data-stu-id="1bd01-121">Select the top node **Lync Server 2013**, and then, from the **Actions** menu, click **Publish Topology**.</span></span>
     
-    <span data-ttu-id="91318-121">El **grupo de aplicaciones de confianza** debe haberse creado correctamente y asociado con el grupo de servidores front-end correcto.</span><span class="sxs-lookup"><span data-stu-id="91318-121">The **Trusted Application Pool** should have been created successfully and associated with the correct Front End pool.</span></span>
+    <span data-ttu-id="1bd01-122">El **grupo de aplicaciones de confianza** debe haberse creado correctamente y asociado con el grupo de servidores front-end correcto.</span><span class="sxs-lookup"><span data-stu-id="1bd01-122">The **Trusted Application Pool** should have been created successfully and associated with the correct Front End pool.</span></span>
 
 </div>
 
