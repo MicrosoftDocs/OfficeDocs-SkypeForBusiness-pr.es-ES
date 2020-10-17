@@ -12,20 +12,22 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bee98cdc88a836be8b629d76b5bed57af402a3ca
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: d95f38ab0adc1457abee7cdd90e8f385f7176ce3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527367"
 ---
+# <a name="migrating-multiple-sites-and-pools"></a>Migrar múltiples sitios y grupos de servidores
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-multiple-sites-and-pools"></a>Migrar múltiples sitios y grupos de servidores
+
 
 </div>
 

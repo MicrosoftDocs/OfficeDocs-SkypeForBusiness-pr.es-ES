@@ -12,20 +12,22 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 63f789abee1949f7fae5a7a3d7dcdc03c86dc352
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756821"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527227"
 ---
+# <a name="migration-phases"></a>Fases de la migración
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-phases"></a>Fases de la migración
+
 
 </div>
 

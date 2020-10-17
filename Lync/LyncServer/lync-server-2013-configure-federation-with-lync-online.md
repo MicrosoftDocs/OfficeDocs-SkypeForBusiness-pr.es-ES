@@ -12,20 +12,22 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cfeffc8a72d26167b9771e6437d21ba55c8f5636
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525957"
 ---
+# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Configurar la Federación de Lync Server 2013 con Lync Online
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Configurar la Federación de Lync Server 2013 con Lync Online
+
 
 </div>
 
@@ -65,7 +67,7 @@ La Federación permite que los usuarios de su implementación local se comunique
 
 Una dirección de protocolo de inicio de sesión (SIP) es un identificador único para cada usuario de una red, similar a un número de teléfono o a una dirección de correo electrónico. Antes de intentar mover a los usuarios de Lync de forma local a Skype empresarial online, necesitará configurar la organización de Microsoft 365 u Office 365 para compartir el espacio de direcciones del Protocolo de inicio de sesión (SIP) compartido con su implementación local. Si no está configurado, es posible que vea el siguiente mensaje de error:
 
-Move-CsUser: HostedMigration error: error = (510), descripción = (el inquilino del usuario no está habilitado para el espacio de direcciones SIP compartido).
+Move-CsUser: error de HostedMigration: error = (510), descripción = (el inquilino del usuario no está habilitado para el espacio de direcciones SIP compartido).
 
 Para configurar un espacio de direcciones SIP compartido, establezca una sesión de PowerShell remota con Skype empresarial online y, a continuación, ejecute el siguiente cmdlet:
 ```powershell
@@ -99,7 +101,7 @@ Para obtener más información sobre el uso del módulo de PowerShell de Skype e
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider)  

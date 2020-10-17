@@ -12,20 +12,22 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5a6cd54732bb6c33e358eeb1a5dbb72a1a4e789
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05147e469ce120663992e5ae7b8a3ee59acaf78c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526617"
 ---
+# <a name="incoming-calls-in-lync-server-2013"></a>Llamadas entrantes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="incoming-calls-in-lync-server-2013"></a>Llamadas entrantes en Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42204756"
 
 _**Última modificación del tema:** 2013-03-09_
 
-El enrutamiento de llamadas entrantes a los usuarios habilitados para el enrutamiento basado en ubicación depende de la ubicación del extremo del usuario. El enrutamiento de las llamadas entrantes se ve afectado de la siguiente manera. Si un usuario tiene una llamada entrante a un punto de conexión que se encuentra en un sitio de red habilitado para enrutamiento basado en ubicación y el extremo se encuentra en el mismo sitio de red que la puerta de enlace RTC, la llamada se redirigirá. Si un usuario tiene una llamada entrante a un punto de conexión que se encuentra en un sitio de red habilitado para enrutamiento basado en ubicación y el extremo se encuentra en un sitio de red diferente de la puerta de enlace RTC, la llamada no se enrutará. Cuando un usuario no tiene extremos ubicados en el mismo sitio de red que la puerta de enlace RTC desde la que se origina la llamada entrante, la llamada entrante se redirigirá directamente al correo de voz del usuario y se enviará una notificación de llamada perdida a la persona que ha recibido la llamada.
+El enrutamiento de llamadas entrantes a los usuarios habilitados para Location-Based el enrutamiento depende de la ubicación del extremo del usuario. El enrutamiento de las llamadas entrantes se ve afectado de la siguiente manera. Si un usuario tiene una llamada entrante a un punto de conexión que se encuentra en un sitio de red habilitado para enrutamiento de Location-Based y el extremo se encuentra en el mismo sitio de red que la puerta de enlace RTC, la llamada se redirigirá. Si un usuario tiene una llamada entrante a un punto de conexión que se encuentra en un sitio de red habilitado para enrutamiento de Location-Based y el extremo se encuentra en un sitio de red diferente de la puerta de enlace RTC, no se enrutará la llamada. Cuando un usuario no tiene extremos ubicados en el mismo sitio de red que la puerta de enlace RTC desde la que se origina la llamada entrante, la llamada entrante se redirigirá directamente al correo de voz del usuario y se enviará una notificación de llamada perdida a la persona que ha recibido la llamada.
 
-La configuración del desvío de llamadas de un usuario que está habilitado para el enrutamiento basado en ubicación seguirá aplicándose, pero las llamadas reenviadas estarán sujetas a las restricciones de enrutamiento del usuario en función de la ubicación.
+La configuración de desvío de llamadas de un usuario que está habilitada para Location-Based el enrutamiento seguirá aplicándose, pero las llamadas reenviadas estarán sujetas a Location-Based restricciones de enrutamiento del usuario.
 
-En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afecta al enrutamiento de las llamadas entrantes en función de la ubicación del extremo del destinatario de la llamada. El sitio de red de la puerta de enlace RTC está habilitado para el enrutamiento basado en ubicación y el enrutamiento basado en ubicación solo permite el enrutamiento de llamadas RTC a extremos dentro del mismo sitio de red.
+En la tabla siguiente se muestra cómo el enrutamiento de Location-Based afecta al enrutamiento de las llamadas entrantes en función de la ubicación del extremo del destinatario de la llamada. El sitio de red de la puerta de enlace RTC está habilitado para el enrutamiento Location-Based y Location-Based enrutamiento solo permite el enrutamiento de llamadas RTC a extremos dentro del mismo sitio de red.
 
 ### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>Destinatario de la llamada que recibe una llamada entrante de la RTC
 
@@ -57,7 +59,7 @@ En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afec
 <th></th>
 <th>Extremo del destinatario de la llamada que se encuentra en el mismo sitio de red que la puerta de enlace RTC</th>
 <th>Extremo del destinatario de la llamada no ubicado en el mismo sitio de red que la puerta de enlace RTC</th>
-<th>Extremo del destinatario de la llamada ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</th>
+<th>Extremo del destinatario de la llamada ubicado en un sitio de red desconocido o no habilitado para el enrutamiento de Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -74,10 +76,10 @@ En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afec
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
-[Escenarios para el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Escenarios para Location-Based el enrutamiento en Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

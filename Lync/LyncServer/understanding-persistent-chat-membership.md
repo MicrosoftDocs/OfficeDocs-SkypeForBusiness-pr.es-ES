@@ -12,20 +12,22 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 400866812ab2d5efb12960dc3c2f37c2fcb8eb45
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: dfed05d4cb2ce55971a9964d5360002599d0fe0c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527187"
 ---
+# <a name="understanding-persistent-chat-membership"></a>Descripción de la pertenencia al chat persistente
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-persistent-chat-membership"></a>Descripción de la pertenencia al chat persistente
+
 
 </div>
 

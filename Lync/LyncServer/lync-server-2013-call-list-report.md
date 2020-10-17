@@ -12,20 +12,22 @@ ms:contentKeyID: 48184921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06486ddc8d84c165422e7f4ffea9bb62be5dd683
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d9d437b32907108d5666ef9e1b175c170030585
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188413"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526297"
 ---
+# <a name="call-list-report-in-lync-server-2013"></a>Informe de lista de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-list-report-in-lync-server-2013"></a>Informe de lista de llamadas en Lync Server 2013
+
 
 </div>
 
@@ -172,7 +174,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 <tr class="odd">
 <td><p><strong>JIT</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
+<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de la &quot; irregularidad &quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tasa de recuperación de muestras ocultas</strong></p></td>

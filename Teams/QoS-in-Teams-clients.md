@@ -8,7 +8,6 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: Aprenda a usar la calidad de servicio (QoS) para optimizar el tráfico de red para el cliente de escritorio de Microsoft Teams.
-ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77f1754277cfeacd31de28dcee089a8f97991c87
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: bc352303cf63ea966927aece0aef36854a0ace1b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583689"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526407"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementar calidad de servicio (QoS) en clientes de Microsoft Teams
 
@@ -37,7 +39,7 @@ Puede usar la calidad de servicio (QoS) basada en directivas en la Directiva de 
 |Aplicación/Compartir pantalla| 50 040 – 50 059|TCP/UDP|18|Desvío garantizado (AF21)|
 | | | | | |
 
-Siempre que sea posible, establezca la configuración de QoS basada en directivas dentro de un objeto de directiva de grupo. Los pasos siguientes son muy similares a la [configuración de intervalos de puertos y una directiva de calidad de servicio para los clientes de Skype empresarial Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tiene algunos detalles adicionales que pueden no ser necesarios.
+Siempre que sea posible, establezca la configuración de QoS basada en directivas dentro de un objeto de directiva de grupo. Los pasos siguientes son muy similares a la  [configuración de intervalos de puertos y una directiva de calidad de servicio para los clientes de Skype empresarial Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tiene algunos detalles adicionales que pueden no ser necesarios.
 
 Para crear una directiva de audio de QoS para equipos con Windows 10 Unidos a un dominio, primero debe iniciar sesión en un equipo en el que se haya instalado administración de directivas de grupo. Abra administración de directivas de grupo (haga clic en Inicio, seleccione Herramientas administrativas y, a continuación, haga clic en administración de directivas de grupo) y siga los pasos siguientes:
 

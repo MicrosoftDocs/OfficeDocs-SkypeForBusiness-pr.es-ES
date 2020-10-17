@@ -12,20 +12,22 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebce894ae93b9071a880b35dffd039225b5485cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7376ce3cbafe1321878a28e43e9bc3ab065c990f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213596"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525947"
 ---
+# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Configuración de la mensajería unificada de Microsoft Exchange Server 2013 para el correo de voz de Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Configuración de la mensajería unificada de Microsoft Exchange Server 2013 para el correo de voz de Microsoft Lync Server 2013
+
 
 </div>
 
@@ -46,15 +48,15 @@ Si ya ha configurado la autenticación de servidor a servidor entre Lync Server 
 
 En el primer comando del ejemplo, el parámetro VoIPSecurity y el valor de parámetro "Secured" indican que el canal de señalización se cifra mediante la seguridad de la capa de transporte (TLS). La URIType "SipName" indica que los mensajes se enviarán y recibirán mediante el protocolo SIP y el CountryOrRegionCode 1 indica que el plan de marcado se aplica a los Estados Unidos.
 
-En el segundo comando, el valor del parámetro que se pasa al parámetro ConfiguredInCountryOrRegionGroups especifica los grupos nacionales que se pueden usar con este plan de marcado. El valor del parámetro "Anywhere\*,\*,\*," define lo siguiente:
+En el segundo comando, el valor del parámetro que se pasa al parámetro ConfiguredInCountryOrRegionGroups especifica los grupos nacionales que se pueden usar con este plan de marcado. El valor del parámetro "Anywhere, \* , \* , \* " define lo siguiente:
 
   - Nombre de grupo ("Anywhere")
 
-  - AllowedNumberString (\*, un carácter comodín que indica que cualquier cadena de números está permitida)
+  - AllowedNumberString ( \* , un carácter comodín que indica que cualquier cadena de números está permitida)
 
-  - DialNumberString (\*, un carácter comodín que indica que cualquier número marcado está permitido)
+  - DialNumberString ( \* , un carácter comodín que indica que cualquier número marcado está permitido)
 
-  - TextComment (\*, un carácter comodín que indica que cualquier comando de texto está permitido)
+  - TextComment ( \* , un carácter comodín que indica que cualquier comando de texto está permitido)
 
 <div>
 
@@ -70,7 +72,7 @@ Después de crear y configurar el nuevo plan de marcado, debe agregar el nuevo p
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
-Una vez configurado el servidor de mensajería unificada, debe ejecutar el cmdlet enable-ExchangeCertificate para asegurarse de que el certificado de Exchange se aplica al servicio de mensajería unificada:
+Una vez configurado el servidor de mensajería unificada, debe ejecutar el cmdlet Enable-ExchangeCertificate para asegurarse de que el certificado de Exchange se aplica al servicio de mensajería unificada:
 
     Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 

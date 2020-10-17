@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: proceso de implementación para el enrutamiento basado en ubicación'
+title: 'Lync Server 2013: proceso de implementación para el enrutamiento Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08def9741ad6ba4f91759e88a38fccdea0d44333
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f9d2dfa15dce07fa66678932d8d765ec7308ba75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198313"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526927"
 ---
+# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Proceso de implementación para el enrutamiento Location-Based en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Proceso de implementación para el enrutamiento basado en ubicación en Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42198313"
 
 _**Última modificación del tema:** 2013-03-09_
 
-En este tema se proporciona información general sobre el proceso implicado en la configuración del enrutamiento basado en ubicación. Debe implementar Lync Server Enterprise Edition o Standard Edition con Enterprise Voice antes de configurar el enrutamiento basado en ubicación. Los componentes requeridos por el enrutamiento basado en ubicación ya están instalados y habilitados al implementar la telefonía IP empresarial.
+En este tema se proporciona información general sobre el proceso implicado en la configuración del enrutamiento de Location-Based. Debe implementar Lync Server Enterprise Edition o Standard Edition con Enterprise Voice antes de configurar el enrutamiento de Location-Based. Los componentes necesarios para el enrutamiento de Location-Based ya están instalados y habilitados al implementar la telefonía IP empresarial.
 
-### <a name="location-based-routing-deployment-process"></a>Proceso de implementación de enrutamiento basado en ubicación
+### <a name="location-based-routing-deployment-process"></a>Proceso de implementación de Location-Based enrutamiento
 
 <table>
 <colgroup>
@@ -93,12 +95,12 @@ Crear o modificar un sitio de red<br />
 Asociar una subred a un sitio de red</p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar el enrutamiento basado en ubicación</p></td>
+<td><p>Configurar enrutamiento de Location-Based</p></td>
 <td><ul>
 <li><p>Crear directivas de enrutamiento de voz</p></li>
 <li><p>Definir una configuración de tronco separada por tronco</p></li>
 <li><p>Modificar directivas de voz</p></li>
-<li><p>Habilitar la configuración de enrutamiento basada en ubicación</p></li>
+<li><p>Habilitar la configuración de enrutamiento Location-Based</p></li>
 </ul></td>
 <td><p>CSVoiceAdmins<br />
 CsAdministrator<br />
@@ -113,7 +115,7 @@ CsServerAdministrator</p></td>
 
 ## <a name="sample-deployment"></a>Implementación de ejemplo
 
-La siguiente implementación se usa para ilustrar aún más los mecanismos habilitados por el enrutamiento basado en ubicación.
+La siguiente implementación se usa para ilustrar más los mecanismos habilitados por Location-Based el enrutamiento.
 
 ![e1bd2230-44da-4784-b359-24572b6ce02d](images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44da-4784-b359-24572b6ce02d")
 
@@ -121,7 +123,7 @@ La siguiente implementación se usa para ilustrar aún más los mecanismos habil
 
 ## <a name="incoming-pstn-calls"></a>Llamadas RTC entrantes
 
-Un administrador puede habilitar el tronco definido para enrutar las llamadas a "puerta de enlace del sitio 1" para el enrutamiento basado en ubicación y asociar la "puerta de enlace del sitio 1" al sitio 1. Una vez habilitada, las llamadas que se redirigen a través de "puerta de enlace del sitio 1" solo se enrutarán a los usuarios que se encuentren en el sitio 1. Todas las llamadas enrutadas a través del tronco "puerta de enlace de sitio 1" dirigidas a los usuarios de un sitio diferente, como el sitio 2, se bloquearán para evitar el desvío de llamadas RTC.
+Un administrador puede habilitar el tronco definido para enrutar las llamadas a "puerta de enlace del sitio 1" para el enrutamiento Location-Based y asociar la "puerta de enlace del sitio 1" al sitio 1. Una vez habilitada, las llamadas que se redirigen a través de "puerta de enlace del sitio 1" solo se enrutarán a los usuarios que se encuentren en el sitio 1. Todas las llamadas enrutadas a través del tronco "puerta de enlace de sitio 1" dirigidas a los usuarios de un sitio diferente, como el sitio 2, se bloquearán para evitar el desvío de llamadas RTC.
 
 Todas las llamadas RTC entrantes a través de la "puerta de enlace del sitio 1" solo se permitirán enrutar a extremos ubicados en el sitio 1. Por ejemplo, cuando "el usuario de Lync 1" se desplaza al sitio 2, todas las llamadas RTC entrantes a través de la "puerta de enlace del sitio 1" no se enrutarán a los puntos de conexión de "usuario de Lync 1" ubicados en el sitio 2. La misma regla de enrutamiento se aplica si "Lync User 1" se desplaza a un sitio de red desconocido en el que no se puede determinar la ubicación del usuario.
 
@@ -162,7 +164,7 @@ En la tabla siguiente se describe la experiencia del usuario de "Lync User 1" en
 
 Se hace referencia a las rutas de voz en las dos directivas de voz asignadas directamente a los usuarios y en las directivas de enrutamiento de voz asignadas a los sitios de red. Ambas directivas contienen referencias a rutas, que se pueden usar para enrutar una llamada de forma diferente. Por ejemplo, un administrador puede definir una directiva de enrutamiento de voz para todos los usuarios ubicados en el sitio de red 1 para enrutar todas las llamadas salientes a través de la "puerta de enlace del sitio 1", mientras que la Directiva de voz de algunos usuarios define una ruta para todas las llamadas salientes a través de la "puerta de enlace del sitio 2". Mientras que estos usuarios se encuentran en el sitio de red 1, sus llamadas salientes se enrutarán a través de la "puerta de enlace del sitio 1".
 
-Cuando un usuario se encuentra en un sitio de red configurado para el enrutamiento basado en ubicación, la ruta de la Directiva de enrutamiento de voz del sitio de red invalida la ruta de la Directiva de voz del usuario. Esta regla es especialmente útil para los usuarios que se mueven temporalmente a un sitio diferente. En este caso concreto, un usuario siempre usará una puerta de enlace local a su ubicación; Si el "usuario de Lync 3" se encuentra en "sitio 2", todas sus llamadas salientes se enrutarán a través de "puerta de enlace de sitio 2", pero si viajan al sitio 1, todas las llamadas salientes realizadas mientras se encuentre en el sitio 1 se enrutarán a través de la "puerta de enlace del sitio 1".
+Cuando un usuario se encuentra en un sitio de red configurado para Location-Based el enrutamiento, la ruta de la Directiva de enrutamiento de voz del sitio de red invalida la ruta de la Directiva de voz del usuario. Esta regla es especialmente útil para los usuarios que se mueven temporalmente a un sitio diferente. En este caso concreto, un usuario siempre usará una puerta de enlace local a su ubicación; Si el "usuario de Lync 3" se encuentra en "sitio 2", todas sus llamadas salientes se enrutarán a través de "puerta de enlace de sitio 2", pero si viajan al sitio 1, todas las llamadas salientes realizadas mientras se encuentre en el sitio 1 se enrutarán a través de la "puerta de enlace del sitio 1".
 
 En la tabla siguiente se muestra la experiencia del usuario de Lync usuario 1 que realiza una llamada saliente desde los siguientes sitios de red.
 
@@ -179,7 +181,7 @@ En la tabla siguiente se muestra la experiencia del usuario de Lync usuario 1 qu
 <th></th>
 <th>Sitio de red 1</th>
 <th>Sitio de red 2</th>
-<th>Sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</th>
+<th>Sitio de red desconocido o no habilitado para el enrutamiento Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -193,7 +195,7 @@ En la tabla siguiente se muestra la experiencia del usuario de Lync usuario 1 qu
 <td><p>Enrutamiento de llamadas salientes</p></td>
 <td><p>Directiva de enrutamiento de voz de sitio 1</p></td>
 <td><p>Directiva de enrutamiento de voz de sitio 2</p></td>
-<td><p>Directiva de voz del usuario y solo en sistemas no habilitados para el enrutamiento basado en ubicación</p></td>
+<td><p>Directiva de voz del usuario y solo en sistemas no habilitados para el enrutamiento Location-Based</p></td>
 </tr>
 </tbody>
 </table>
@@ -205,7 +207,7 @@ En la tabla siguiente se muestra la experiencia del usuario de Lync usuario 1 qu
 
 ## <a name="call-transfers-and-forwards"></a>Transferencias y reenvío de llamadas
 
-Cuando se transfieren o reenvían llamadas, el enrutamiento de las llamadas se ve afectado por el enrutamiento basado en ubicación.
+Cuando se transfieren o reenvían llamadas, el enrutamiento de las llamadas se ve afectado por Location-Based enrutamiento.
 
 La siguiente tabla muestra el usuario de Lync 1 que transfiere o reenvía una llamada RTC a otro usuario de Lync.
 
@@ -222,7 +224,7 @@ La siguiente tabla muestra el usuario de Lync 1 que transfiere o reenvía una ll
 <th>Inicio de la transferencia o reenvío de llamadas de usuario</th>
 <th>Lync usuario 2</th>
 <th>Lync usuario 4</th>
-<th>El usuario de Lync del sitio de red no está habilitado para el enrutamiento basado en ubicación</th>
+<th>El usuario de Lync del sitio de red no está habilitado para el enrutamiento Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -236,7 +238,7 @@ La siguiente tabla muestra el usuario de Lync 1 que transfiere o reenvía una ll
 </table>
 
   
-En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afecta a cómo se enruta la llamada en función de la ubicación del usuario de Lync que se está transfiriendo (Lync User 2, Lync User 4, etc.) a un punto de conexión de RTC.
+En la tabla siguiente se muestra cómo el enrutamiento de Location-Based afecta a la forma en que se redirige la llamada en función de la ubicación del usuario de Lync que se está transfiriendo (Lync User 2, Lync User 4, etc.) a un punto de conexión de RTC.
 
 
 <table>
@@ -251,7 +253,7 @@ En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afec
 <th>Punto de conexión en el que se transfiere o reenvía una llamada</th>
 <th>Lync usuario 2</th>
 <th>Lync usuario 4</th>
-<th>El usuario de Lync del sitio de red no está habilitado para el enrutamiento basado en ubicación</th>
+<th>El usuario de Lync del sitio de red no está habilitado para el enrutamiento Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -273,7 +275,7 @@ En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afec
 
 Una vez que se haya configurado el enrutamiento basado en ubicación en la topología de muestra, se aplican las siguientes interacciones.
 
-En la tabla siguiente se muestra si el enrutamiento basado en ubicación permite las llamadas simultáneas para diferentes usuarios de Lync (por ejemplo, el usuario de Lync 2, el usuario de Lync 4, etc.).
+En la tabla siguiente se muestra si el enrutamiento de Location-Based permite realizar llamadas simultáneas para diferentes usuarios de Lync (por ejemplo, el usuario de Lync 2, el usuario de Lync 4, etc.).
 
 
 <table>
@@ -288,7 +290,7 @@ En la tabla siguiente se muestra si el enrutamiento basado en ubicación permite
 <th>Destino de llamada RTC entrante</th>
 <th>Lync usuario 2</th>
 <th>Lync usuario 4</th>
-<th>El usuario de Lync del sitio de red no está habilitado para el enrutamiento basado en ubicación</th>
+<th>El usuario de Lync del sitio de red no está habilitado para el enrutamiento Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -302,7 +304,7 @@ En la tabla siguiente se muestra si el enrutamiento basado en ubicación permite
 </table>
 
   
-La siguiente tabla muestra si el enrutamiento basado en ubicación permite realizar llamadas simultáneas a un punto de conexión de RTC de diferentes usuarios de Lync (por ejemplo, el usuario de Lync 2, el usuario de Lync 4, etc.).
+En la tabla siguiente se muestra si el enrutamiento de Location-Based permite realizar llamadas simultáneas a un punto de conexión de RTC de diferentes usuarios de Lync (por ejemplo, el usuario de Lync 2, el usuario de Lync 4, etc.).
 
 
 <table>
@@ -317,7 +319,7 @@ La siguiente tabla muestra si el enrutamiento basado en ubicación permite reali
 <th>Destino de llamada simultánea</th>
 <th>Lync usuario 2</th>
 <th>Lync usuario 4</th>
-<th>El usuario de Lync del sitio de red no está habilitado para el enrutamiento basado en ubicación</th>
+<th>El usuario de Lync del sitio de red no está habilitado para el enrutamiento Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -325,7 +327,7 @@ La siguiente tabla muestra si el enrutamiento basado en ubicación permite reali
 <td><p>Usuario de Lync 1 teléfono móvil (extremo de RTC)</p></td>
 <td><p>Llamada enrutada a través de la Directiva de enrutamiento de voz del sitio de red 1 y salida a través de la puerta de enlace del sitio 1</p></td>
 <td><p>Llamada enrutada a través de la Directiva de enrutamiento de voz del sitio 2 de red y salida a través de la puerta de enlace del sitio 2</p></td>
-<td><p>Llamada enrutada a través de la Directiva de voz del autor de la llamada y se deshará a través de una puerta de enlace RTC que no está habilitada para el enrutamiento basado en ubicación</p></td>
+<td><p>Llamada enrutada a través de la Directiva de voz del autor de la llamada y se deshará a través de una puerta de enlace RTC no habilitada para el enrutamiento Location-Based</p></td>
 </tr>
 </tbody>
 </table>
@@ -337,10 +339,10 @@ La siguiente tabla muestra si el enrutamiento basado en ubicación permite reali
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
-[Planeación del enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planeación del enrutamiento de Location-Based en Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

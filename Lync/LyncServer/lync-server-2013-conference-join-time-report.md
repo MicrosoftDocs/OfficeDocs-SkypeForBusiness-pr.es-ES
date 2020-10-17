@@ -12,20 +12,22 @@ ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76388655fc8ed893e09b192ae24c7807b46f9f6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5fe20dd1e3e5387b4b31873ec0d3c6ae914c2cec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526007"
 ---
+# <a name="conference-join-time-report-in-lync-server-2013"></a>Informe de tiempo de incorporación a la Conferencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-join-time-report-in-lync-server-2013"></a>Informe de tiempo de incorporación a la Conferencia en Lync Server 2013
+
 
 </div>
 
@@ -70,12 +72,12 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
+<p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -99,7 +101,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <p>Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio del 7/8/2012 y una fecha de finalización del 28/9/2012, aparecerán los datos correspondientes a los días entre el 7/8/2012 a las 12:00 horas y el 7/9/2012 a las 12:00 horas (es decir, datos para un total de 31 días).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
 </tr>
 <tr class="odd">
@@ -142,7 +144,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Fecha</strong></p>
+<td><p><strong>Date</strong></p>
 <p>El título real de esta métrica variará en función del intervalo seleccionado.</p></td>
 <td><p>No</p></td>
 <td><p>Fecha y hora en las que tuvo lugar la conferencia.</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b60ba1c402a629c0a85b2bd99dc4819da3455660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 874b73af42869bc5cbe6a66b7efaf792d231b95d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525757"
 ---
+# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Crear o modificar un grupo de agentes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Crear o modificar un grupo de agentes en Lync Server 2013
+
 
 </div>
 
@@ -152,7 +154,7 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
         
           - Si se ha configurado una lista de distribución para que la pertenencia esté oculta y el administrador del grupo de respuesta asigna la lista de distribución a la lista de agentes, los usuarios pueden llamar al grupo para averiguar quiénes son los miembros.
         
-          - Si se ha configurado una lista de distribución para que quede oculta en la lista global de direcciones de Exchange, es posible que el administrador del grupo de respuesta pueda ver la lista de distribución y asignarla a la lista de agentes si el proceso del grupo de respuesta tiene los derechos de usuario adecuados y permisos, incluso si el administrador no dispone de los permisos y derechos de usuario adecuados.
+          - Si se ha configurado una lista de distribución para que quede oculta en la lista global de direcciones de Exchange, es posible que el administrador del grupo de respuesta pueda ver la lista de distribución y asignarla a la lista de agentes si el proceso del grupo de respuesta tiene los derechos y permisos de usuario adecuados, incluso si el administrador no tiene los permisos y derechos de usuario adecuados.
 
 11. Haga clic en **Confirmar**.
 
@@ -191,7 +193,7 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Eliminar un grupo de agentes en Lync Server 2013](lync-server-2013-delete-an-agent-group.md)  

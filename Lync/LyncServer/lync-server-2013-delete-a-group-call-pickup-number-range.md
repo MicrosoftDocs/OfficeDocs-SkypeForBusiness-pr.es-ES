@@ -12,20 +12,22 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d56bb73b16b2f7c028578d9d34666027bd60afbe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de031dd73f5fe74ba6d343cdea5414fa15988f2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525657"
 ---
+# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Eliminar un intervalo de números de atención de llamadas grupales en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Eliminar un intervalo de números de atención de llamadas grupales en Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ Use el siguiente procedimiento para eliminar un intervalo de números de atenci�
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  

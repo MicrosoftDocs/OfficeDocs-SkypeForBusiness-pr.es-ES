@@ -12,20 +12,22 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca48668bf0a19392558e10366f7a9bf4bb202ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 547f117a9706aa0ab5bf1202c31d0bc9f8ce34fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526217"
 ---
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Comprobar las reglas de normalización de voz en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Comprobar las reglas de normalización de voz en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-05-20_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsVoiceNormalizationRule. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsVoiceNormalizationRule. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceNormalizationRule&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -68,7 +70,7 @@ _**Última modificación del tema:** 2014-05-20_
 
 Las reglas de normalización de voz se usan para convertir un número de teléfono marcado por un usuario (por ejemplo, 2065551219) al formato E. 164 que usa Lync Server (+ 12065551219). Por ejemplo, si los usuarios tienen la costumbre de marcar un número de teléfono sin incluir el código de país o el código de área (por ejemplo, 5551219), debe tener una regla de normalización de voz que pueda convertir ese número al formato E. 164: + 12065551219. Sin dicha regla, el usuario no podrá llamar a 555-1219.
 
-El cmdlet test-CsVoiceNormalizationRule comprueba que una regla de normalización de voz especificada puede convertir correctamente un número de teléfono especificado. Por ejemplo, este comando comprueba si la regla de normalización global NoAreaCode puede normalizar y convertir la cadena de marcado 5551219.
+El cmdlet Test-CsVoiceNormalizationRule comprueba que una regla de normalización de voz especificada puede convertir correctamente un número de teléfono especificado. Por ejemplo, este comando comprueba si la regla de normalización global NoAreaCode puede normalizar y convertir la cadena de marcado 5551219.
 
 `Get-CsVoiceNormalizationRule -Identity "global/NoAreaCode" | Test-CsVoiceNormalizationRule -DialedNumber "5551219"`
 
@@ -78,13 +80,13 @@ El cmdlet test-CsVoiceNormalizationRule comprueba que una regla de normalizació
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-Para ejecutar el cmdlet test-CsVoiceNormalizationRule, primero debe usar el cmdlet Get-CsVoiceNormalizationRule para recuperar una instancia de la regla que se está probando y, a continuación, canalizar esa instancia para probar la CsVoiceNormalizationRule. Una sintaxis similar a esta no funcionará:
+Para ejecutar el cmdlet Test-CsVoiceNormalizationRule, primero debe usar el cmdlet Get-CsVoiceNormalizationRule para recuperar una instancia de la regla que se está probando y, a continuación, canalizar esa instancia para probar-CsVoiceNormalizationRule. Una sintaxis similar a esta no funcionará:
 
 Test-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "global/prefix All"
 
-En su lugar, use una sintaxis como la siguiente, que combina los cmdlets Get-CsVoiceNormalizationRule y test-CsVoiceNormalizationRule:
+En su lugar, use una sintaxis como la siguiente, que combina los cmdlets Get-CsVoiceNormalizationRule y Test-CsVoiceNormalizationRule:
 
-Get-CsVoiceNormalizationRule-Identity "global/prefix All" | Test-CsVoiceNormalizationRule-DialedNumber "12065551219"
+Get-CsVoiceNormalizationRule-Identity "global/prefix All" | Test-CsVoiceNormalizationRule DialedNumber "12065551219"
 
 <div>
 
@@ -106,7 +108,7 @@ Escriba el valor del parámetro DialedNumber exactamente como esperaba que se ma
 
 Si la regla está correctamente configurada, se agregará automáticamente el código de país al traducir el número al formato E. 164 que usa Lync Server.
 
-Para obtener más información, consulte la documentación de ayuda del cmdlet test-CsVoiceNormalizationRule.
+Para obtener más información, consulte la documentación de ayuda del cmdlet Test-CsVoiceNormalizationRule.
 
 </div>
 
@@ -134,7 +136,7 @@ TranslatedNumber
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Si el test-CsVoiceNormalizationRule devuelve un número convertido que significa que la regla de normalización de voz especificada no ha podido traducir el número de teléfono proporcionado en el formato E. 164 que usa Lync Server. Para comprobar que, primero debe asegurarse de que escribió el número de teléfono correctamente. Por ejemplo, esperaría que la regla de normalización de voz tenga problemas para traducir un número similar al siguiente:
+Si el Test-CsVoiceNormalizationRule devuelve un número convertido que significa que la regla de normalización de voz especificada no ha podido traducir el número de teléfono proporcionado en el formato E. 164 que usa Lync Server. Para comprobar que, primero debe asegurarse de que escribió el número de teléfono correctamente. Por ejemplo, esperaría que la regla de normalización de voz tenga problemas para traducir un número similar al siguiente:
 
 `-DialedNumber "1"`
 
@@ -150,7 +152,7 @@ Para obtener información detallada sobre todas las reglas de normalización de 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Test-CsVoiceNormalizationRule](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  

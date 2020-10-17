@@ -12,20 +12,22 @@ ms:contentKeyID: 48184690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd5f09d80aa86c9c0f692fbe0e744a445067e74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4edc22c1cfc46b032e679a9dc0718113bc6967bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526657"
 ---
+# <a name="importing-the-lync-server-2013-management-packs"></a>Importación de los paquetes de administración de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="importing-the-lync-server-2013-management-packs"></a>Importación de los paquetes de administración de Lync Server 2013
+
 
 </div>
 
@@ -37,20 +39,20 @@ ms.locfileid: "42197163"
 
 _**Última modificación del tema:** 2012-10-22_
 
-Puede ampliar las capacidades de System Center Operations Manager mediante la instalación de los paquetes de administración (software que determina qué elementos puede supervisar System Center Operations Manager) y cómo se deben supervisar esos elementos y cómo se deben desencadenar alertas y Enviado. Lync Server 2013 incluye dos paquetes de administración de System Center Operations Manager que proporcionan las siguientes capacidades:
+Puede ampliar las capacidades de System Center Operations Manager mediante la instalación de paquetes de administración: software que determina qué elementos puede supervisar System Center Operations Manager y cómo se deben supervisar esos elementos y cómo se deben desencadenar y notificar las alertas. Lync Server 2013 incluye dos paquetes de administración de System Center Operations Manager que proporcionan las siguientes capacidades:
 
-  - El componente y el módulo de administración de usuarios (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) realiza un seguimiento de los problemas de Lync Server registrados en los registros de eventos, registrados por los contadores de rendimiento o registrados en los registros de detalles de llamadas (CDR) o la calidad de la experiencia (QoE). bases. Para los problemas críticos, System Center Operations Manager se puede configurar para que notifique inmediatamente a los administradores a través de mensajes de correo electrónico, mensajes instantáneos o servicio de mensajes cortos (SMS). SMS es la tecnología usada para enviar mensajes de texto desde un dispositivo móvil a otro).
+  - El componente y el módulo de administración de usuarios (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) realiza un seguimiento de los problemas de Lync Server registrados en registros de eventos, registrados por los contadores de rendimiento o registrados en las bases de datos de registros de detalles de llamadas (CDR) o de calidad de la experiencia (QoE). Para los problemas críticos, System Center Operations Manager se puede configurar para que notifique inmediatamente a los administradores a través de mensajes de correo electrónico, mensajes instantáneos o servicio de mensajes cortos (SMS). SMS es la tecnología usada para enviar mensajes de texto desde un dispositivo móvil a otro).
     
     <div>
     
 
     > [!NOTE]  
-    > Para obtener más información sobre cómo configurar la notificación de Operations Manager, vea la notificación <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A>de configuración en la biblioteca de TechNet en.
+    > Para obtener más información sobre cómo configurar la notificación de Operations Manager, vea la notificación de configuración en la biblioteca de TechNet en <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A> .
 
     
     </div>
 
-  - El módulo de administración de supervisión activa (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) comprueba proactivamente los componentes clave de Lync Server, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o realizar llamadas a un teléfono ubicado en el conmutador público red telefónica (RTC). Estas pruebas se llevan a cabo con los cmdlets de transacciones sintéticas de Lync Server. Por ejemplo, puede usar el cmdlet **Test-CsIM** para simular una conversación por mensaje instantáneo (IM) entre un par de usuarios de prueba. Si esta conversación de mensajes simulados falla, se genera una alerta.
+  - El módulo de administración de supervisión activa (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) comprueba proactivamente los componentes clave de Lync Server, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o realizar llamadas a un teléfono ubicado en la red telefónica conmutada (RTC). Estas pruebas se llevan a cabo con los cmdlets de transacciones sintéticas de Lync Server. Por ejemplo, puede usar el cmdlet **Test-CsIM** para simular una conversación por mensaje instantáneo (IM) entre un par de usuarios de prueba. Si esta conversación de mensajes simulados falla, se genera una alerta.
 
 Debe importar los paquetes de administración. Si no importa los paquetes de administración, no puede usar Operations Manager para supervisar los eventos de Lync Server ni ejecutar transacciones sintéticas de Lync Server.
 
@@ -68,9 +70,9 @@ El módulo de administración de componentes y usuarios solo se usa para supervi
 
 Puede usar una de las siguientes herramientas para importar los paquetes de administración:
 
-  - **System Center Operations Manager**   con este método, se usa Operations Manager para agregar supervisión para Lync Server.
+  - **System Center Operations Manager**     Con este método, se usa Operations Manager para agregar supervisión para Lync Server.
 
-  - **Shell de Operations Manager**   puede usar el shell de Operations Manager para importar directamente o para solucionar los problemas que se encuentren al importar módulos de administración mediante la consola de System Center Operations Manager.
+  - Shell de Operations **Manager**     Puede usar el shell de Operations Manager para importar directamente o para solucionar los problemas que se encuentren al importar los paquetes de administración mediante la consola de System Center Operations Manager.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cf838e59c95528a1c32870d90f5c2e2babf10fc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 363baeb3065b04dc936b69fff34f2314726f495a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198403"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526937"
 ---
+# <a name="configuring-network-region-links-in-lync-server-2013"></a>Configuración de vínculos de región de red en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-region-links-in-lync-server-2013"></a>Configuración de vínculos de región de red en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 
 2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y luego en **Vínculo de región**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Vínculo regional**.
 
 4.  En la página **Vínculo regional**, haga clic en **Nuevo**.
 
@@ -62,9 +64,9 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
     
     </div>
 
-6.  En la lista desplegable ** \#región de red 1** , seleccione una de las dos regiones que se van a vincular.
+6.  En la lista desplegable **región de red \# 1** , seleccione una de las dos regiones que se van a vincular.
 
-7.  En la lista desplegable ** \#región de red 2** , seleccione la otra región que se va a vincular. Esta región debe ser diferente de la región seleccionada para la región \#de red 1.
+7.  En la lista desplegable **región de red \# 2** , seleccione la otra región que se va a vincular. Esta región debe ser diferente de la región seleccionada para la región de red \# 1.
 
 8.  (Opcional) Si desea establecer limitaciones de ancho de banda en llamadas de audio o vídeo entre estas regiones, seleccione un perfil de directiva de ancho de banda en la lista desplegable **Directiva de ancho de banda**.
 
@@ -94,7 +96,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Eliminación de vínculos de regiones de red en Lync Server 2013](lync-server-2013-deleting-network-region-links.md)  

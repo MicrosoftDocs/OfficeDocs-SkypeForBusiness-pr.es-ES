@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944023"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526397"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destino de su equipo
 
@@ -90,9 +90,9 @@ Cuando agregue una columna de cubo, tenga en cuenta lo siguiente:
 
 Este es un ejemplo de un archivo CSV de esquema que se crearía para admitir la jerarquía que se muestra en la imagen de arriba. Este esquema contiene lo siguiente:
 
-- Hay tres columnas obligatorias denominadas `TargetName` , `ParentName` y`TeamId`
-- Tres columnas de atributos denominadas `Store layout` , `Departments:Clothing` y`Departments:Foods`
-- Tres columnas de cubo denominadas `Fresh Foods` , `Frozen Foods` y`Womenswear`
+- Hay tres columnas obligatorias denominadas `TargetName` , `ParentName` y `TeamId`
+- Tres columnas de atributos denominadas `Store layout` , `Departments:Clothing` y `Departments:Foods`
+- Tres columnas de cubo denominadas `Fresh Foods` , `Frozen Foods` y `Womenswear`
 
 El `Store layout` atributo tiene valores que incluyen `Compact` , `Standard` , y `Large` . Las `Departments` columnas de atributos pueden establecerse en un valor de `0` (cero) o `1` . El `Store` diseño y los `Departments` atributos no se muestran en la imagen de arriba. Se han agregado aquí para ayudar a mostrar cómo se pueden agregar atributos a las entradas de nodo. Lo mismo sucede con las tres columnas de cubo.
 
@@ -139,9 +139,26 @@ Remove-TeamTargetingHierarchy
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-### <a name="you-receive-an-error-message-when-you-upload-your-schema-file"></a>Recibe un mensaje de error al cargar el archivo de esquema
+### <a name="you-receive-an-error-message-when-you-upload-your-schema-csv-file"></a>Recibe un mensaje de error cuando carga el archivo CSV de esquema
 
 Tome nota del mensaje de error, ya que debe incluir información de solución de problemas para indicar por qué no se pudo cargar el esquema. Revise y edite el archivo CSV de esquema en función de la información del mensaje de error e inténtelo de nuevo.
+
+### <a name="you-receive-an-error-invalidteamid-error-message-when-you-upload-your-schema-csv-file"></a>Recibe un mensaje de error "error: InvalidTeamId" al cargar el archivo CSV de esquema
+
+Cuando intenta cargar el archivo CSV de esquema, recibe el siguiente mensaje de error:
+
+```console
+Error: InvalidTeamId
+Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
+```
+
+Asegúrese de que está usando el TeamId correcto para el equipo en el archivo CSV de esquema. El TeamId debe ser el mismo que el identificador de grupo del grupo de Microsoft 365 que respalda al equipo. Puede buscar el identificador de grupo del equipo en el centro de administración de Microsoft Teams. 
+
+1. En el centro de navegación izquierdo del [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/), vaya a **Teams**  >  **Manage Teams**.
+2. Si la columna **identificador de grupo** no se muestra en la tabla, seleccione **Editar columnas** en la esquina superior derecha de la tabla y, a continuación, active la opción **ID grupo**.
+3. Busque el equipo en la lista y, a continuación, localice el identificador de grupo.
+
+Asegúrese de que el TeamId de su archivo CSV de esquema coincide con el identificador de grupo que se muestra en el centro de administración de Microsoft Teams. 
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48706004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27ca186fa31b1207238c3a7d254bbd6066cc1d89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3b417f0a6a76c145be1eeabb57958a791883e9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192633"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526607"
 ---
+# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>Mover un salón de chat de una categoría a otra en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>Mover un salón de chat de una categoría a otra en Lync Server 2013
+
 
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: Clasificación de la transmisión en el panel de calidad de llamadas (CQD)
-ms.author: serdarsacobsen
+ms.author: serdars
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Obtenga información sobre cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas (CQD) para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: b27de2bb3dc62e8344b51d564f2c295a08f45932
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583829"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526357"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Clasificación de la transmisión en el panel de calidad de llamadas (CQD)
 
@@ -50,7 +50,7 @@ Si se cumplen una o varias de las siguientes condiciones, una secuencia de audio
 
 ### <a name="video-classifier-due-to-freeze"></a>Clasificador de vídeos por inmovilizar
 
-La secuencia de vídeo se marca como _buena_ o _mala_ según el valor de una puntuación de clasificador generada para estimar que el usuario final experimentó un vídeo congelado. Este clasificador solo está disponible para los productos de Microsoft Teams.
+La secuencia de vídeo se marca como  _buena_ o _mala_ según el valor de una puntuación de clasificador generada para estimar que el usuario final experimentó un vídeo congelado. Este clasificador solo está disponible para los productos de Microsoft Teams.
 
 |Paso N. º|Métrica|Escenario|Condición |Clasificación si la condición es verdadera |Clasificación si la condición es falsa |Clasificación si la métrica no está disponible |Explicación |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |

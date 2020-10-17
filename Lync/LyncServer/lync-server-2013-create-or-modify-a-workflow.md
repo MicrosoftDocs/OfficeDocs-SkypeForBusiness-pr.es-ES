@@ -12,20 +12,22 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19fa6bc4d4b3ca60ad7a9d540251489005a23255
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b79e4be39f461364b43efa9c3420cd8f4aa3eac0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525777"
 ---
+# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a>Crear o modificar un flujo de trabajo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-workflow-in-lync-server-2013"></a>Crear o modificar un flujo de trabajo en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Lync Server 2013 admite dos tipos de flujos de trabajo: Grupo de extensiones y r
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear o modificar un grupo de agentes en Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  

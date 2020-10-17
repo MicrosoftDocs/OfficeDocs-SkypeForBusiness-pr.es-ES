@@ -12,20 +12,22 @@ ms:contentKeyID: 48185437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c592b0ee0ba2794391c539bdc52e9344bc43b27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54335e8f70753a77f937819f896135ec1fe67b93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198253"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526897"
 ---
+# <a name="deployment-process-for-response-group-in-lync-server-2013"></a>Proceso de implementación del grupo de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-response-group-in-lync-server-2013"></a>Proceso de implementación del grupo de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -52,7 +54,7 @@ En esta sección se proporciona información general sobre las fases y los pasos
 <tr class="header">
 <th>Fase</th>
 <th>Pasos</th>
-<th>Permissions</th>
+<th>Permisos</th>
 <th>Documentación de implementación</th>
 </tr>
 </thead>

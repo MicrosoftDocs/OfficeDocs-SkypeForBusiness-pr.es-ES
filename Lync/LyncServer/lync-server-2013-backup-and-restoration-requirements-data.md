@@ -12,20 +12,22 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf5b2b6e707820986b20f0592d2f2051e6f47bc5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8431e16e976f0ad189205f0c42c04d50e6936e90
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196053"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527047"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Requisitos de copia de seguridad y restauración en Lync Server 2013: datos
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Requisitos de copia de seguridad y restauración en Lync Server 2013: datos
+
 
 </div>
 
@@ -165,7 +167,7 @@ En la tabla siguiente se identifican los datos necesarios para la copia de segur
 
 En una implementación de Enterprise Edition, el almacén de archivos de Lync Server suele estar ubicado en un servidor de archivos. En una implementación de Standard Edition, el almacén de archivos de Lync Server se encuentra de forma predeterminada en el servidor Standard Edition. Normalmente, hay un almacén de archivos de Lync Server que se comparte en un sitio. El almacén de archivos de chat persistente usa el mismo recurso compartido de archivos que el almacén de archivos de Lync Server.
 
-Las ubicaciones del almacén de archivos \\ \\se\\identifican como nombre del recurso compartido del servidor. Para buscar las ubicaciones específicas de los almacenes de archivos, abra el generador de topologías y mire en el nodo **almacenes de archivos** .
+Las ubicaciones del almacén de archivos se identifican como \\ \\ \\ nombre del recurso compartido del servidor. Para buscar las ubicaciones específicas de los almacenes de archivos, abra el generador de topologías y mire en el nodo **almacenes de archivos** .
 
 En la siguiente tabla se identifican los almacenes de archivos necesarios para hacer una copia de seguridad y restaurar el servicio.
 
@@ -203,7 +205,7 @@ En la siguiente tabla se identifican los almacenes de archivos necesarios para h
 
 Para ayudar a garantizar la posibilidad de restaurar los servicios de Lync Server en caso de que se produzca un error, debe hacer una copia de seguridad de algunos componentes necesarios que no formen parte de Lync Server. Los siguientes componentes no se incluyen en la copia de seguridad ni se restauran como parte del proceso de copia de seguridad y restauración de Lync Server que se describe en este documento:
 
-  - **Servicios de dominio de Active**   Directory es necesario realizar una copia de seguridad de AD DS mediante las herramientas de Active Directory al mismo tiempo que se realiza una copia de seguridad de Lync Server. Es importante mantener AD DS sincronizado con Lync Server, para evitar problemas que se pueden producir cuando Lync Server espera objetos de contacto que no coinciden con los de AD DS. AD DS almacena los siguientes valores de configuración que se usan en Lync Server:
+  - Servicios de dominio de **Active**     Directory Debe hacer una copia de seguridad de AD DS con las herramientas de Active Directory al mismo tiempo que realiza una copia de seguridad de Lync Server. Es importante mantener AD DS sincronizado con Lync Server, para evitar problemas que se pueden producir cuando Lync Server espera objetos de contacto que no coinciden con los de AD DS. AD DS almacena los siguientes valores de configuración que se usan en Lync Server:
     
       - URI del SIP del usuario y otras opciones de configuración del usuario.
     
@@ -213,19 +215,19 @@ Para ayudar a garantizar la posibilidad de restaurar los servicios de Lync Serve
     
       - Cuenta de autenticación Kerberos (un objeto de equipo opcional) y grupos de seguridad de Lync Server.
     
-    Para obtener información detallada sobre cómo realizar copias de seguridad y restaurar AD DS en Windows Server 2008, consulte la guía paso a paso de copia de seguridad y [https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105)recuperación de AD DS en.
+    Para obtener información detallada sobre cómo realizar copias de seguridad y restaurar AD DS en Windows Server 2008, consulte la guía paso a paso de copia de seguridad y recuperación de AD DS en [https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105) .
 
-  - **La entidad de certificación y los certificados**   usan la Directiva de la organización para hacer una copia de seguridad de la entidad de certificación (CA) y los certificados. Si usa claves privadas exportables, puede hacer una copia de seguridad del certificado y la clave privada y, a continuación, exportarlos si usa los procedimientos de este documento para restaurar Lync Server. Si usa una CA interna, puede volver a inscribirse si necesita restaurar Lync Server. Es importante que conserve la clave privada en un lugar seguro donde esté disponible en caso de que se produzca un error en un equipo.
+  - **Entidad de certificación y certificados**     Use la Directiva de la organización para hacer una copia de seguridad de la entidad de certificación (CA) y los certificados. Si usa claves privadas exportables, puede hacer una copia de seguridad del certificado y la clave privada y, a continuación, exportarlos si usa los procedimientos de este documento para restaurar Lync Server. Si usa una CA interna, puede volver a inscribirse si necesita restaurar Lync Server. Es importante que conserve la clave privada en un lugar seguro donde esté disponible en caso de que se produzca un error en un equipo.
 
-  - **System Center Operations Manager**   si usa Microsoft System Center Operations Manager (anteriormente, Microsoft Operations Manager) para supervisar la implementación de Lync Server, puede realizar una copia de seguridad de los datos que crea mientras supervisa Lync Server. Use el proceso de copia de seguridad estándar de SQL Server para hacer una copia de seguridad de los archivos de System Center Operations Manager. Estos archivos no se restauran durante la recuperación.
+  - **System Center Operations Manager**     Si usa Microsoft System Center Operations Manager (anteriormente, Microsoft Operations Manager) para supervisar la implementación de Lync Server, puede hacer una copia de seguridad de los datos que crea mientras supervisa Lync Server. Use el proceso de copia de seguridad estándar de SQL Server para hacer una copia de seguridad de los archivos de System Center Operations Manager. Estos archivos no se restauran durante la recuperación.
 
-  - **Configuración de puerta de enlace de red telefónica conmutada (RTC)**   si usa dispositivos de telefonía IP empresarial o de sucursal con funciones de supervivencia, debe realizar una copia de seguridad de la configuración de la puerta de enlace RTC. Consulte con su proveedor para obtener más detalles sobre cómo hacer una copia de seguridad y restaurar configuraciones de puerta de enlace RTC.
+  - **Configuración de puerta de enlace de red telefónica conmutada (RTC)**     Si usa dispositivos de telefonía IP empresarial o de sucursal con funciones de supervivencia, debe realizar una copia de seguridad de la configuración de la puerta de enlace RTC. Consulte con su proveedor para obtener más detalles sobre cómo hacer una copia de seguridad y restaurar configuraciones de puerta de enlace RTC.
 
-  - **Versiones coexistentes de Lync Server u Office Communications Server**   si su implementación de Lync Server 2013 coexiste con Lync Server 2010 o con una versión anterior de Office Communications Server, no puede usar los procedimientos de este documento para realizar copias de seguridad o restaurar la versión anterior. En lugar de ello, debe seguir los procedimientos de copias de seguridad y restauración documentados específicamente para la versión anterior. Para más detalles sobre cómo realizar copias de seguridad y restaurar Lync Server [https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417) 2010, consulte. Para obtener más información sobre cómo realizar copias de seguridad y restaurar Microsoft Office Communications Server [https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162)2007 R2, consulte.
+  - **Versiones coexistentes de Lync Server u Office Communications Server**     Si su implementación de Lync Server 2013 coexiste con Lync Server 2010 o con una versión anterior de Office Communications Server, no puede usar los procedimientos de este documento para realizar copias de seguridad o restaurar la versión anterior. En lugar de ello, debe seguir los procedimientos de copias de seguridad y restauración documentados específicamente para la versión anterior. Para más detalles sobre cómo realizar copias de seguridad y restaurar Lync Server 2010, consulte [https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417) . Para obtener más información sobre cómo realizar copias de seguridad y restaurar Microsoft Office Communications Server 2007 R2, consulte [https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162) .
 
-  - **Información de infraestructura**   que necesita para hacer una copia de seguridad de la infraestructura, como la configuración del firewall, la configuración del equilibrio de carga, la configuración de Internet Information Services (IIS), los registros del sistema de nombres de dominio (DNS) y las direcciones IP, y la configuración del Protocolo de configuración dinámica de host (DHCP). Para más información detallada sobre cómo hacer una copia de seguridad de estos componentes, consulte con los proveedores correspondientes.
+  - **Información**     de infraestructura Debe hacer una copia de seguridad de la infraestructura, como la configuración del firewall, la configuración del equilibrio de carga, la configuración de Internet Information Services (IIS), los registros del sistema de nombres de dominio (DNS) y las direcciones IP, y la configuración del Protocolo de configuración dinámica de host (DHCP). Para más información detallada sobre cómo hacer una copia de seguridad de estos componentes, consulte con los proveedores correspondientes.
 
-  - **Copia de seguridad de mensajería unificada (MU)**   de Microsoft Exchange y de Exchange y restaurar Microsoft Exchange y Exchange um tal como se describe en la documentación de Microsoft Exchange. Para más detalles sobre cómo realizar copias de seguridad y restaurar Exchange Server [https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384)2013, consulte. Para más detalles sobre cómo realizar copias de seguridad y restaurar Exchange Server [https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179)2010, consulte.
+  - **Mensajería unificada (MU) de Microsoft Exchange y Exchange**     Realice una copia de seguridad y restaure Microsoft Exchange y Exchange UM tal como se describe en la documentación de Microsoft Exchange. Para más detalles sobre cómo realizar copias de seguridad y restaurar Exchange Server 2013, consulte [https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384) . Para más detalles sobre cómo realizar copias de seguridad y restaurar Exchange Server 2010, consulte [https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179) .
     
     Tenga en cuenta que Lync Server 2013 presenta la capacidad de tener listas de contactos de usuarios, fotos de usuarios de alta definición y datos de archivado almacenados en Exchange 2013. Consulte la lista siguiente para ver cómo realizar una copia de seguridad de estos tipos de datos:
     
@@ -237,7 +239,7 @@ Para ayudar a garantizar la posibilidad de restaurar los servicios de Lync Serve
         
         **Escenario 1:** Los contactos de usuario se migran al almacén de contactos unificado y se realiza una restauración desde una copia de seguridad de Lync Server realizada antes de la migración de los contactos de usuario. En este escenario, el usuario tendrá un estado de contactos obsoletos durante un máximo de un día hasta que la tarea de migración de Lync Server comience a migrar los contactos de usuario a Exchange. (Tenga en cuenta que, puesto que los contactos de usuario se han migrado anteriormente al almacén de contactos unificado, se usará la información de contacto de Exchange). No se necesita ninguna intervención del administrador en este escenario.
         
-        **Escenario 2:** Los contactos de usuario se almacenaban anteriormente en el almacén de contactos unificados, pero luego se revirtieron. Se realiza una restauración desde una copia de seguridad de Lync Server tomada cuando los contactos de usuario se almacenaron en el almacén de contactos unificado. En este escenario, un mensaje de error `Error: Incorrect Exchange Version` de en los registros del servidor o el cliente de Lyss puede indicar que se trata de un problema. El usuario podrá tener acceso a su lista de contactos en Lync 2013 directamente desde Exchange, pero el estado del cliente no coincidirá con el estado de Lync Server. Para solucionar esto, un administrador tendrá que ejecutar los cmdlets **Invoke-CsUCSRollback** para los usuarios afectados.
+        **Escenario 2:** Los contactos de usuario se almacenaban anteriormente en el almacén de contactos unificados, pero luego se revirtieron. Se realiza una restauración desde una copia de seguridad de Lync Server tomada cuando los contactos de usuario se almacenaron en el almacén de contactos unificado. En este escenario, un mensaje de error de `Error: Incorrect Exchange Version` en los registros del servidor o el cliente de Lyss puede indicar que se trata de un problema. El usuario podrá tener acceso a su lista de contactos en Lync 2013 directamente desde Exchange, pero el estado del cliente no coincidirá con el estado de Lync Server. Para solucionar esto, un administrador tendrá que ejecutar los cmdlets **Invoke-CsUCSRollback** para los usuarios afectados.
     
       - Los **datos de archivado** se pueden almacenar en Exchange 2013. Estos datos no son críticos para Lync Server, pero pueden ser críticos para su organización con fines normativos. Si los datos de archivado se almacenan en Exchange y son críticos para su organización, siga los procedimientos de copia de seguridad y restauración de Exchange. Tenga en cuenta que los datos de archivado almacenados en Exchange no se pueden volver a mover a Lync Server. Además, no hay ninguna forma de mover los datos que ya están almacenados en la base de datos de archivado de Lync a Exchange.
 

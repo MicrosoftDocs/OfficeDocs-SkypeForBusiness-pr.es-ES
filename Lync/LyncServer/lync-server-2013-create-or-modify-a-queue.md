@@ -12,20 +12,22 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b805553349e6958671bc024cb862b296b74fc697
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4c85dd6da5ba15a6ce946c4e331e09c8617974
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187003"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525827"
 ---
+# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Crear o modificar una cola en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Crear o modificar una cola en Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
 
 6.  En **Descripción**, escriba una descripción para la cola.
 
-7.  En **grupos**, especifique los grupos que desea asignar a la cola. Realice una de las acciones siguientes:
+7.  En **grupos**, especifique los grupos que desea asignar a la cola. Realice una de las siguientes acciones:
     
       - Para agregar un grupo a la cola, haga clic en **seleccionar**. En el campo de búsqueda **seleccionar grupos** , escriba todo o parte del nombre del grupo de agentes que desee asignar a la cola, haga clic en el grupo de agentes que desee y, a continuación, haga clic en **Aceptar**.
     
@@ -95,11 +97,11 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     
       - Para desconectar la llamada tras el tiempo de espera, haga clic en **Desconectar**.
     
-      - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección\>@\<de\> correo de voz con el formato SIP: username domainname (por ejemplo, SIP:Bob@contoso.com).
+      - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato SIP: \<username\> @ \<domainname\> (por ejemplo, SIP:Bob@contoso.com).
     
-      - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el\>@\<número\> de teléfono con el formato SIP: Number domainname (por ejemplo, SIP:+14255550121@contoso.com).
+      - Para desviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono con el formato SIP: \<number\> @ \<domainname\> (por ejemplo, SIP:+14255550121@contoso.com).
     
-      - Para reenviar la llamada a otro usuario, haga clic en **desviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario\<con\>@\<el\>formato SIP: nombreusuario nombredominio.
+      - Para reenviar la llamada a otro usuario, haga clic en **desviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario con el formato SIP: \<username\> @ \<domainname\> .
     
       - Para desviar la llamada a otra cola, haga clic en **Desviar a otra cola** y, a continuación, vaya a la cola que desee utilizar.
 
@@ -115,11 +117,11 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     
       - Para desconectar la llamada tras el tiempo de espera, haga clic en **Desconectar**.
     
-      - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección\>@\<de\> correo de voz con el formato SIP: username domainname (por ejemplo, SIP:Bob@contoso.com).
+      - Para reenviar la llamada al correo de voz, haga clic en **desviar a correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato SIP: \<username\> @ \<domainname\> (por ejemplo, SIP:Bob@contoso.com).
     
-      - Para reenviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el\>@\<número\> de teléfono con el formato SIP: Number domainname (por ejemplo, SIP:+14255550121@contoso.com).
+      - Para desviar la llamada a otro número de teléfono, haga clic en **desviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono con el formato SIP: \<number\> @ \<domainname\> (por ejemplo, SIP:+14255550121@contoso.com).
     
-      - Para reenviar la llamada a otro usuario, haga clic en **desviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario\<con\>@\<el\>formato SIP: nombreusuario nombredominio.
+      - Para reenviar la llamada a otro usuario, haga clic en **desviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI del usuario con el formato SIP: \<username\> @ \<domainname\> .
     
       - Para desviar la llamada a otra cola, haga clic en **Desviar a otra cola** y, a continuación, vaya a la cola que desee utilizar.
 
@@ -245,7 +247,7 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  

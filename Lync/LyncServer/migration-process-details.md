@@ -12,20 +12,22 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0c15c5cf8a2eaa207467f53d57d82e6cf4491e13
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756715"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527207"
 ---
+# <a name="migration-process---details"></a>Proceso de migración: detalles
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-process---details"></a>Proceso de migración: detalles
+
 
 </div>
 

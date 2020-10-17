@@ -12,20 +12,22 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bd350a4b552d63b635f8ec5a25ed7803de4b55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c56554a26e5f64089a766300f375039409680578
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187573"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526247"
 ---
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Requisitos de certificado para servidores internos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Requisitos de certificado para servidores internos en Lync Server 2013
+
 
 </div>
 
@@ -49,11 +51,11 @@ Los servidores internos que ejecutan Lync Server y que requieren certificados in
 
 </div>
 
-Aunque para los servidores internos se recomienda una entidad de certificación (CA) empresarial interna, también puede usar una pública. Para obtener una lista de las entidades de certificación públicas que proporcionan certificados que cumplen los requisitos específicos para los certificados de comunicaciones unificadas (UC) y que se han asociado con Microsoft para garantizar que funcionan con el Asistente para certificados de Lync Server, vea el artículo 929395 de Microsoft Knowledge base, "asociados de [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)certificados de comunicaciones unificadas para Exchange Server y para Communications Server" en.
+Aunque para los servidores internos se recomienda una entidad de certificación (CA) empresarial interna, también puede usar una pública. Para obtener una lista de las entidades de certificación públicas que proporcionan certificados que cumplen los requisitos específicos para los certificados de comunicaciones unificadas (UC) y que se han asociado con Microsoft para garantizar que funcionan con el Asistente para certificados de Lync Server, vea el artículo 929395 de Microsoft Knowledge base, "asociados de certificados de comunicaciones unificadas para Exchange Server y para Communications Server" en [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 La comunicación con otras aplicaciones y servidores, como Exchange 2013, requiere un certificado que sea compatible con las demás aplicaciones y productos. Para la versión 2013, Lync Server 2013 y otros productos de servidor de Microsoft, incluidos Exchange 2013 y SharePoint Server, admiten el protocolo Open Authorization (OAuth) para la autenticación y autorización de servidor a servidor. Para obtener más información, consulte [Managing Server-to-Server Authentication (OAuth) and Partner Applications in Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) en la documentación sobre implementación o sobre operaciones.
 
-Para las conexiones de clientes que ejecutan el sistema operativo Windows 7, el sistema operativo Windows Server 2008, el sistema operativo Windows Server 2008 R2, el sistema operativo Windows Vista y Microsoft Lync Phone Edition, Lync Server 2013 incluye soporte para (pero no require) certificados firmados con la función de hash criptográfica SHA-256. Para permitir el acceso externo mediante SHA-256, el certificado externo lo emite una CA pública que usa SHA-256.
+Para las conexiones de clientes que ejecutan el sistema operativo Windows 7, el sistema operativo Windows Server 2008, el sistema operativo Windows Server 2008 R2, el sistema operativo Windows Vista y Microsoft Lync Phone Edition, Lync Server 2013 incluye compatibilidad con certificados (pero no obligatorios) firmados con la función de hash criptográfica SHA-256. Para permitir el acceso externo mediante SHA-256, el certificado externo lo emite una CA pública que usa SHA-256.
 
 En las tablas siguientes, se muestran los requisitos de certificado por rol de servidor para los grupos de servidores front-end y los servidores Standard Edition. Todos ellos son certificados de servidor web estándar, con clave privada y no exportables.
 
@@ -100,7 +102,7 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>Nombre de dominio completo (FQDN) del grupo de servidores</p></td>
 <td><p>FQDN del grupo de servidores y el FQDN del servidor</p>
 <p>Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.</p>
@@ -137,7 +139,7 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 <li><p>FQDN web externo</p></li>
 <li><p>URL sencilla de marcado</p></li>
 <li><p>Cumplir direcciones URL sencillas por dominio SIP</p></li>
-<li><p>O una entrada con comodín para las direcciones URL simples</p></li>
+<li><p>O una entrada de comodín para las direcciones URL sencillas</p></li>
 </ul></td>
 <td><p>SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com</p>
 <p>Con un certificado de comodín:</p>
@@ -170,7 +172,7 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>FQDN del grupo de servidores</p></td>
 <td><p>FQDN del grupo de servidores y FQDN del servidor.</p>
 <p>Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.</p>
@@ -238,7 +240,7 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>FQDN del grupo de servidores del director</p></td>
 <td><p>FQDN del director, FQDN del grupo de servidores del director</p>
 <p>Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</p></td>
@@ -300,7 +302,7 @@ Si tiene un grupo de servidores de mediación independientes, cada uno de los se
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>FQDN del grupo de servidores</p></td>
 <td><p>FQDN del grupo de servidores</p>
 <p>FQDN del servidor miembro del grupo</p></td>
@@ -329,9 +331,9 @@ Si tiene un grupo de servidores de mediación independientes, cada uno de los se
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>FQDN de la aplicación</p></td>
-<td><p>SIP. &lt;sipdomain&gt; (necesita una entrada por dominio SIP)</p></td>
+<td><p>SIP. &lt; sipdomain &gt; (necesita una entrada por dominio SIP)</p></td>
 <td><p>SN = sba01. contoso. net; SAN = SIP. contoso. com; SAN = SIP. fabrikam. com</p></td>
 </tr>
 </tbody>
@@ -340,7 +342,7 @@ Si tiene un grupo de servidores de mediación independientes, cada uno de los se
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Compatibilidad con certificados comodín en Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)  

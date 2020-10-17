@@ -12,20 +12,22 @@ ms:contentKeyID: 63969597
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2403fde7387c1ef5af7d402ad9bc859aa95fe6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e506fbbe204b7248396c25c3728556c61681cbf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216636"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526577"
 ---
+# <a name="operational-dependencies-in-lync-server-2013"></a>Dependencias operativas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operational-dependencies-in-lync-server-2013"></a>Dependencias operativas en Lync Server 2013
+
 
 </div>
 
@@ -212,7 +214,7 @@ A partir de la información obtenida anteriormente, ahora tenemos un conocimient
 <tr class="even">
 <td></td>
 <td><p>Implementación del nodo de monitor de transacciones sintéticas.</p>
-<p>Consulte el documento MonitoringCS_withSCOM. docx de la documentación de conexión de UCTAP.</p></td>
+<p>Consulte el documento MonitoringCS_withSCOM.docx de la documentación de UCTAP Connect.</p></td>
 <td><p>Sitio central</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7f1c637c49784dd5acb81c26d8ab36400730278
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 04b3cca41b0ea7a7060e6349127dc7c7fb1732ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190893"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526057"
 ---
+# <a name="lync-server-2010-metropolitan-site-resiliency"></a>Lync Server 2010 resistencia del sitio metropolitana
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2010-metropolitan-site-resiliency"></a>Lync Server 2010 resistencia del sitio metropolitana
+
 
 </div>
 

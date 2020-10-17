@@ -12,20 +12,22 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8574681353a6082ce46efb514923871a01c1427d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: edbd977eb8023d5001a5b8e4a6a1c706eea84fc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526197"
 ---
+# <a name="checking-event-logs-in-lync-server-2013"></a>Comprobación de registros de eventos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-event-logs-in-lync-server-2013"></a>Comprobación de registros de eventos en Lync Server 2013
+
 
 </div>
 
@@ -53,13 +55,13 @@ Use el visor de eventos para:
 
 Un servidor que ejecuta Lync Server en un sistema operativo Windows Server registra eventos en cuatro tipos de registros:
 
-  - **Registros de aplicación**   el registro de aplicación contiene los eventos registrados por aplicaciones o programas. Los desarrolladores determinan los eventos que se registrarán. Por ejemplo, un programa de base de datos podría registrar un error de archivo en el registro de la aplicación. La mayoría de los eventos relacionados con Lync Server 2013 aparecen en el registro de la aplicación.
+  - **Registros**     de aplicación El registro de aplicación contiene los eventos registrados por aplicaciones o programas. Los desarrolladores determinan los eventos que se registrarán. Por ejemplo, un programa de base de datos podría registrar un error de archivo en el registro de la aplicación. La mayoría de los eventos relacionados con Lync Server 2013 aparecen en el registro de la aplicación.
 
-  - **Registros de seguridad**   el registro de seguridad registra eventos como intentos válidos y no válidos de inicio de sesión, además de eventos relacionados con el uso de recursos, como la creación, apertura o eliminación de archivos u otros objetos. Por ejemplo, si la auditoría de inicio de sesión está habilitada, los intentos de iniciar sesión en el sistema se registran en el registro de seguridad.
+  - **Registros**     de seguridad El registro de seguridad registra eventos como intentos válidos y no válidos de inicio de sesión, además de eventos relacionados con el uso de recursos, como la creación, apertura o eliminación de archivos u otros objetos. Por ejemplo, si la auditoría de inicio de sesión está habilitada, los intentos de iniciar sesión en el sistema se registran en el registro de seguridad.
 
-  - **Registros**   del sistema el registro del sistema contiene eventos registrados por los componentes del sistema de Windows. Por ejemplo, el error de la carga de un controlador u otro componente del sistema durante el inicio se registra en el registro del sistema. Los tipos de eventos registrados por los componentes del sistema están predeterminados por el servidor.
+  - **Registros**     del sistema El registro del sistema contiene los eventos registrados por los componentes del sistema de Windows. Por ejemplo, el error de la carga de un controlador u otro componente del sistema durante el inicio se registra en el registro del sistema. Los tipos de eventos registrados por los componentes del sistema están predeterminados por el servidor.
 
-  - **Lync Server 2013**   la herramienta de registro registra eventos importantes relacionados con la autenticación, las conexiones y las acciones del usuario. Después de habilitar el registro de diagnóstico, puede ver las entradas de registro en el visor de eventos.
+  - **Lync Server 2013**     La herramienta de registro registra eventos importantes relacionados con la autenticación, las conexiones y las acciones del usuario. Después de habilitar el registro de diagnóstico, puede ver las entradas de registro en el visor de eventos.
 
 <div>
 
@@ -93,13 +95,13 @@ El módulo de administración proporciona las siguientes características:
 
 Para obtener más información acerca del paquete de administración de Lync Server 2013, consulte [Monitoring Lync server 2013 con System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
 
-**Event COMB**   la herramienta Event COMB recopila eventos específicos de los registros de eventos de varios equipos en una ubicación central. Permite informar únicamente de los identificadores de evento o los orígenes de eventos que especifica. Para obtener más información acerca de Event COMB, consulte el sitio web de [herramientas de bloqueo y administración de cuentas](https://go.microsoft.com/fwlink/?linkid=35607) .
+**Event COMB**     La herramienta Event COMB recopila eventos específicos de los registros de eventos de varios equipos en una ubicación central. Permite informar únicamente de los identificadores de evento o los orígenes de eventos que especifica. Para obtener más información acerca de Event COMB, consulte el sitio web de [herramientas de bloqueo y administración de cuentas](https://go.microsoft.com/fwlink/?linkid=35607) .
 
-**Desencadenadores de eventos**   en Windows Server 2012 puede "adjuntar una tarea a este evento" en el visor de eventos de Windows, donde un administrador puede ejecutar un programa, enviar un mensaje de correo electrónico o mostrar un mensaje en pantalla. Para obtener más información acerca de esta característica, vea el tema sobre Windows Server 2008 R2 [ejecutar una tarea en respuesta a un evento determinado](https://technet.microsoft.com/library/cc748900.aspx). También puede usar herramientas de línea de comandos como "EventTrigger. exe" para crear y consultar registros de eventos y asociar programas con determinados eventos registrados. Mediante eventtriggers. exe, puede crear desencadenadores de eventos que ejecutan programas cuando se producen eventos específicos.
+**Desencadenadores**     de eventos En Windows Server 2012 puede "adjuntar una tarea a este evento" en el visor de eventos de Windows, donde un administrador puede ejecutar un programa, enviar un mensaje de correo electrónico o mostrar un mensaje en pantalla. Para obtener más información acerca de esta característica, vea el tema sobre Windows Server 2008 R2 [ejecutar una tarea en respuesta a un evento determinado](https://technet.microsoft.com/library/cc748900.aspx). También puede usar herramientas de línea de comandos como "Eventtrigger.exe" para crear y consultar registros de eventos y asociar programas con determinados eventos registrados. Mediante el uso de Eventtriggers.exe, puede crear desencadenadores de eventos que ejecutan programas cuando se producen eventos específicos.
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Visor de eventos de Windows](https://go.microsoft.com/fwlink/p/?linkid=314067)  

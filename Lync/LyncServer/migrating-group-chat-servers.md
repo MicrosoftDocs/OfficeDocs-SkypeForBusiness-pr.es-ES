@@ -12,20 +12,22 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae1105d20314e3133458ac404549337c7ee3c3db
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9373a04f7b8d7aa95532d33c875b5e6acc9d58d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527397"
 ---
+# <a name="migrating-group-chat-servers"></a>Migrar servidores de chat en grupo
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-group-chat-servers"></a>Migrar servidores de chat en grupo
+
 
 </div>
 

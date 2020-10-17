@@ -12,20 +12,22 @@ ms:contentKeyID: 48184892
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77884bdca8d02a29d98a2a4c2dd116abb72d8f20
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4308bd09d571c41349ed9362affa220cf9723e3a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526537"
 ---
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Planeación de la Federación de protocolo extensible de mensajería y presencia (XMPP) en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Planeación de la Federación de protocolo extensible de mensajería y presencia (XMPP) en Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ La implementación y la configuración de XMPP se trata en [Deploying external U
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de la Federación XMPP en Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md)  

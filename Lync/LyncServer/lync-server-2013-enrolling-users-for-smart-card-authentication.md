@@ -12,20 +12,22 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a157d5492378771cf40a6438bbf8672efd01412
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfbfcd73aba4079d74074adcd2710b8a2d45aeba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213376"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526777"
 ---
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Inscripción de usuarios para la autenticación de tarjeta inteligente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Inscripción de usuarios para la autenticación de tarjeta inteligente en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2013-07-03_
 
 Generalmente hay dos métodos para inscribir a los usuarios para la autenticación de tarjeta inteligente. El método más sencillo implica que los usuarios se inscriban directamente en la autenticación de tarjetas inteligentes mediante la inscripción Web, mientras que el método más complejo implica el uso de un agente de inscripción. Este tema se centra en la inscripción automática de certificados de tarjetas inteligentes.
 
-Para obtener más información sobre la inscripción en nombre de usuarios como agente de inscripción, consulte inscribirse para certificados en nombre de otros usuarios en [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367).
+Para obtener más información sobre la inscripción en nombre de usuarios como agente de inscripción, consulte inscribirse para certificados en nombre de otros usuarios en [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367) .
 
 <div>
 
@@ -49,7 +51,7 @@ Para obtener más información sobre la inscripción en nombre de usuarios como 
 
 2.  Inicie Internet Explorer.
 
-3.  Vaya a la página de **inscripción Web** de la entidad de https://MyCA.contoso.com/certsrv)certificación (por ejemplo,.
+3.  Vaya a la página de **inscripción Web** de la entidad de certificación (por ejemplo, https://MyCA.contoso.com/certsrv) .
     
     <div>
     
