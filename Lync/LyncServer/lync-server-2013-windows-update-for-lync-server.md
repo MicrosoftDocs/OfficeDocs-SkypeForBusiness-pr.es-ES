@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Windows Update para Lync Server'
+description: 'Lync Server 2013: Windows Update para Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f537e8cea8f3bf4cc08afe89de21e06f1c671d52
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fe4b6d201a35584fceae5628b91631b48b30faae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535297"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546066"
 ---
 # <a name="windows-update-for-lync-server-2013"></a>Windows Update para Lync Server 2013
 

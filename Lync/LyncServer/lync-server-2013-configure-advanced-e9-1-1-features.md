@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar las características avanzadas de E9-1-1'
+description: 'Lync Server 2013: configurar las características avanzadas de E9-1-1.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08822702ddef63fbfc709776c1d75207cb4a04b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 773b3151f8c1c8f5a3d93ba0024674479518dbd5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523037"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546746"
 ---
 # <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a>Configurar las características avanzadas de E9-1-1 en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: pasos para preparar e implementar el entorno híbrido de Lync Server'
+description: 'Lync Server 2013: pasos para preparar e implementar el entorno híbrido de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e7acf5fa315e566094728066bbc798267f029ed
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ffb791a8a45b2220d8987c8d688f346447747c00
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519457"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546336"
 ---
 # <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Pasos para preparar e implementar el entorno híbrido de Lync Server 2013
 

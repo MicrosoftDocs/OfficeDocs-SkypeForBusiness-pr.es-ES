@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: validación de la consulta Web de la libreta de direcciones'
+description: 'Lync Server 2013: validación de la consulta Web de la libreta de direcciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ae10fa68703393459a72eaab7236f214502a614
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e73c39fc33f8d1851fc89d277333a94aaa137790
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508557"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547256"
 ---
 # <a name="validating-address-book-web-query-in-lync-server-2013"></a>Validación de la consulta Web de la libreta de direcciones en Lync Server 2013
 

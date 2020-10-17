@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla IMReportSummary'
+description: 'Lync Server 2013: tabla IMReportSummary.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e750da3fd42a726012f089291d3e2c770e52b44
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dfafa81d1605845b29a3627321fcbc0f72ca7ac7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526637"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547746"
 ---
 # <a name="imreportsummary-table-in-lync-server-2013"></a>Tabla IMReportSummary en Lync Server 2013
 

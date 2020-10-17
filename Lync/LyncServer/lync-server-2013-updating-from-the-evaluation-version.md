@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: actualización desde la versión de evaluación'
+description: 'Lync Server 2013: actualización desde la versión de evaluación.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21fa1c35cff49205a7287841ac90c5dd9f0a4510
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 340badf9f5d2506c50cf8c03faa82223eabbd5af
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506697"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546256"
 ---
 # <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Actualización de la versión de evaluación de Lync Server 2013
 

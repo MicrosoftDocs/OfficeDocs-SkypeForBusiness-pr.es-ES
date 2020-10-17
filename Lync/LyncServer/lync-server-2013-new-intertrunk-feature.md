@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: nueva característica de tronco cruzado'
+description: 'Lync Server 2013: nueva característica de tronco cruzado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f8a4d066bd5d5843a02a8892214a69a4624a77
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f924e564daa2dd8a5a221b40a91243c588f5c9f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500569"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547716"
 ---
 # <a name="new-intertrunk-feature-in-lync-server-2013"></a>Nueva característica de tronco cruzado en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar las opciones del estacionamiento de llamadas'
+description: 'Lync Server 2013: configurar las opciones del estacionamiento de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72d3f60747f9b3456a6999358b0cf318b5e6d91d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e8862208a68c89151096349508a4c849a5649b70
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546646"
 ---
 # <a name="configure-call-park-settings-in-lync-server-2013"></a>Configurar las opciones del estacionamiento de llamadas en Lync Server 2013
 

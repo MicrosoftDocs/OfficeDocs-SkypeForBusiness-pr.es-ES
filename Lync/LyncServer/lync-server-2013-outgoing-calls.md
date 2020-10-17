@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: llamadas salientes'
+description: 'Lync Server 2013: llamadas salientes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a77ddf0757cd463bb8f1b95dbecfe90fd1086c9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e14f19dec35a6da47a2ddd62657d5d087a854f16
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524407"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546856"
 ---
 # <a name="outgoing-calls-in-lync-server-2013"></a>Llamadas salientes en Lync Server 2013
 

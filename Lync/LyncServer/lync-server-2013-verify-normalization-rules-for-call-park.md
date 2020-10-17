@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: comprobar reglas de normalización para el estacionamiento de llamadas'
+description: 'Lync Server 2013: comprobar las reglas de normalización para el estacionamiento de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 627832870de3a8306912d07134bb92caeee3076e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2ac4c15091141e3069e7b77533d0e4148459f570
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518627"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547066"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Comprobar reglas de normalización para el estacionamiento de llamadas en Lync Server 2013
 

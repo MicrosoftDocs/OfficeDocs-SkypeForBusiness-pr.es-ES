@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar usuarios para E9-1-1'
+description: 'Lync Server 2013: habilitar usuarios para E9-1-1.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95f03e3f0249897a17af8354cfca9f58a4d6508b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6ba29406dc0d7a1140c83a1a9d271afca5d6b0c7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500917"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546446"
 ---
 # <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Habilitación de usuarios para E9-1-1 en Lync Server 2013
 

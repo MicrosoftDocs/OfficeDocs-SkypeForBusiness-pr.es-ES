@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar el desvío de medios de red'
+description: 'Lync Server 2013: habilitar el desvío de medios de red.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4caab36c57c3c8901bd0691e5623f232879bd03
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1218376903aa42e1ea55205e3a9e8d16aade9a3a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546556"
 ---
 # <a name="enabling-network-media-bypass-in-lync-server-2013"></a>Habilitación del desvío de medios de red en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla categoría'
+description: 'Lync Server 2013: tabla categoría.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3052aa95aa6cd846717aa98c5778531aeee6f7e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8154c73f33b5dad62a338335a960553cfc06ec13
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213336"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546436"
 ---
+# <a name="errorcategory-table-in-lync-server-2013"></a>Tabla categoría en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorcategory-table-in-lync-server-2013"></a>Tabla categoría en Lync Server 2013
+
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Fases de la migración
+description: Fases de la migración.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63f789abee1949f7fae5a7a3d7dcdc03c86dc352
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 72ef47cb9b6c9eba75c395eb9bd94c887ca5a433
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547056"
 ---
 # <a name="migration-phases"></a>Fases de la migración
 

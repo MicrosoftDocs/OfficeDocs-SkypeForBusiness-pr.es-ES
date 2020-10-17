@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tareas semanales'
+description: 'Lync Server 2013: tareas semanales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8177cf0a647ec5155a32a91c6e764e9c13e1dcb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d818e1140141a470bb57a1471bb04931f505a6bd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546146"
 ---
 # <a name="weekly-tasks-in-lync-server-2013"></a>Tareas semanales en Lync Server 2013
 

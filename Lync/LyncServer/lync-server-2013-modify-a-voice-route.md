@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: modificar una ruta de voz'
+description: 'Lync Server 2013: modificar una ruta de voz.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6e2a3f255a77d7773d24d654c5c207b59b887bc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0aa507f3d0f459dd200b9c772f3a330d7da36197
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515347"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546416"
 ---
 # <a name="modify-a-voice-route-in-lync-server-2013"></a>Modificar una ruta de voz en Lync Server 2013
 

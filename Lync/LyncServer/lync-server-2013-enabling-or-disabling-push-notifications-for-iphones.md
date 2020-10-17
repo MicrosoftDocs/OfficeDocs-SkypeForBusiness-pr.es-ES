@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar o deshabilitar las notificaciones de inserción para iPhone'
+description: 'Lync Server 2013: habilitar o deshabilitar las notificaciones de inserción para iPhone.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733719
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c942a9f12727a73125809113080a25ddd11a3f5d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 07a9c5ec442c3628455797b987d8b2f22677e70e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515467"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546506"
 ---
 # <a name="enabling-or-disabling-push-notifications-for-iphones-in-lync-server-2013"></a>Habilitar o deshabilitar las notificaciones de inserción para iPhone en Lync Server 2013
 

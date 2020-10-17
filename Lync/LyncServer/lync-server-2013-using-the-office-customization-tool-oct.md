@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: uso de la herramienta de personalización de Office (OCT)'
+description: 'Lync Server 2013: uso de la herramienta de personalización de Office (OCT).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8943712ff78dcc065a6a75e3756c1c689234eec2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 602502ba4579ed6c640eee909d4c6b056ce247d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503717"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547336"
 ---
 # <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Uso de la herramienta de personalización de Office (OCT) en Lync Server 2013
 

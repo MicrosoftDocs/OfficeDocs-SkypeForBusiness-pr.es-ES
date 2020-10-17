@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: novedades para clientes'
+description: 'Lync Server 2013: novedades para los clientes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6103c6cd8ae762402a94412a56eda107f43a58fd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 90c1b93666b556c7ce7c4f3d94bea583dbf9b1a1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518207"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546136"
 ---
 # <a name="whats-new-for-clients-in-lync-server-2013"></a>Novedades para clientes en Lync Server 2013
 

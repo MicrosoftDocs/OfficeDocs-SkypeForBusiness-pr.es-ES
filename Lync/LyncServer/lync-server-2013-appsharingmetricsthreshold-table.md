@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla AppSharingMetricsThreshold'
+description: 'Lync Server 2013: tabla AppSharingMetricsThreshold.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e7a2d73f09a3cb48b1d50f06aa530c91d779b28
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 092c7d08026e6b736b81043a71b4ecaabc4d5f1b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529557"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546816"
 ---
 # <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a>Tabla AppSharingMetricsThreshold en Lync Server 2013
 

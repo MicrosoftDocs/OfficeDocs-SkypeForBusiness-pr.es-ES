@@ -1,5 +1,6 @@
 ---
 title: Cmdlets en Skype empresarial online que usan el parámetro tenant
+description: Cmdlets de Skype empresarial online que usan el parámetro tenant.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ff2b8053dd855a854fa26699770d3dafaa0dcbd7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755046"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546806"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets en Skype empresarial online que usan el parámetro tenant
 
@@ -60,11 +61,11 @@ Por ejemplo, se puede llamar al cmdlet **Get-CsTenantFederationConfiguration** c
 
     Get-CsTenantFederationConfiguration
 
-Aunque no es necesario, puede incluir el parámetro tenant al llamar a get-CsTenantFederationConfiguration:
+Aunque no es necesario, puede incluir el parámetro tenant al llamar a Get-CsTenantFederationConfiguration:
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Identidades, ámbitos e inquilinos en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  

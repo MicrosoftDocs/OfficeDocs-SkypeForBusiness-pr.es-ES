@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013; Crear rutas entre regiones de red
+description: Lync Server 2013; Crear rutas entre regiones de red.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2890d903df512e2f7eef26e6d1c22fa5bc029839
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44c8c62a86f7cfb6ca5b1148dc097c1d7786ad29
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508537"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546056"
 ---
 # <a name="create-network-interregion-routes-in-lync-server-2013"></a>Crear rutas entre regiones de red en Lync Server 2013
 

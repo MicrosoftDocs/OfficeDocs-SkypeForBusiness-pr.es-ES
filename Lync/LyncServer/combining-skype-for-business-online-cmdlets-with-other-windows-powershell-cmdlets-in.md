@@ -1,5 +1,6 @@
 ---
 title: Combinar los cmdlets de Skype empresarial online con otros cmdlets de Windows PowerShell en
+description: Combinar los cmdlets de Skype empresarial online con otros cmdlets de Windows PowerShell en.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb395820f9f90060ac24b737fab08c7d615727c2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5bd18f60891d48a54eb2f77f189ea8417e0b5e93
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499617"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548006"
 ---
 # <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a>Combinar los cmdlets de Skype empresarial online con otros cmdlets de Windows PowerShell en
 

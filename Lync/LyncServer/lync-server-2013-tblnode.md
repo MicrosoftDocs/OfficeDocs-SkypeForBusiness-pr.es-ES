@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblNode'
+description: 'Lync Server 2013: tblNode.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6070f6a575466d9ce7063c588e5d470e047d52
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d0a5d630621c32cbc54501249c7a679bf4023c60
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523817"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547556"
 ---
 # <a name="tblnode-in-lync-server-2013"></a>tblNode en Lync Server 2013
 

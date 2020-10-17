@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar la Directiva del servidor de chat persistente'
+description: 'Lync Server 2013: habilitar la Directiva del servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 794fe378f9e7d8024f4bc06000d6d7d1cd89481e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e58da577679795f00492af72b43ca72106d40f4f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528577"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547886"
 ---
 # <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a>Habilitar la Directiva de servidor de chat persistente en Lync Server 2013
 

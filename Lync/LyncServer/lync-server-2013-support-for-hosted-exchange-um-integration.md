@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 compatibilidad con la integración de mensajería unificada de Exchange hospedada
+description: Lync Server 2013 compatibilidad con la integración de mensajería unificada de Exchange hospedada.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ebc49336712e96bca428132f3ccad631817208d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 88920667d703bc634921903e8e3995cb65db6873
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524177"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546326"
 ---
 # <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Compatibilidad con la integración de mensajería unificada de Exchange hospedada en Lync Server 2013
 
