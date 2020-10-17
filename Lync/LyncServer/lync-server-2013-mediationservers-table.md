@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla MediationServers'
+description: 'Lync Server 2013: tabla MediationServers.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07fd3905fcf6876af270cdab437691edb68cff98
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a227f76272790d3a23ff06f0c97ba4a263f418a5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513677"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568606"
 ---
-# <a name="mediationservers-table-in-lync-server-2013"></a><span data-ttu-id="d634c-102">Tabla MediationServers en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d634c-102">MediationServers table in Lync Server 2013</span></span>
+# <a name="mediationservers-table-in-lync-server-2013"></a><span data-ttu-id="89bc3-103">Tabla MediationServers en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89bc3-103">MediationServers table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48513677"
 
 <span> </span>
 
-<span data-ttu-id="d634c-103">_**Última modificación del tema:** 2010-11-06_</span><span class="sxs-lookup"><span data-stu-id="d634c-103">_**Topic Last Modified:** 2010-11-06_</span></span>
+<span data-ttu-id="89bc3-104">_**Última modificación del tema:** 2010-11-06_</span><span class="sxs-lookup"><span data-stu-id="89bc3-104">_**Topic Last Modified:** 2010-11-06_</span></span>
 
-<span data-ttu-id="d634c-104">La tabla MediationServers es una tabla de apoyo.</span><span class="sxs-lookup"><span data-stu-id="d634c-104">The MediationServers table is a supporting table.</span></span> <span data-ttu-id="d634c-105">Cada registro almacena información sobre un servidor de mediación implicado en llamadas que tienen registros en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="d634c-105">Each record stores information about one Mediation Server that is involved in calls that have records in the database.</span></span>
+<span data-ttu-id="89bc3-105">La tabla MediationServers es una tabla de apoyo.</span><span class="sxs-lookup"><span data-stu-id="89bc3-105">The MediationServers table is a supporting table.</span></span> <span data-ttu-id="89bc3-106">Cada registro almacena información sobre un servidor de mediación implicado en llamadas que tienen registros en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="89bc3-106">Each record stores information about one Mediation Server that is involved in calls that have records in the database.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48513677"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d634c-106">Columna</span><span class="sxs-lookup"><span data-stu-id="d634c-106">Column</span></span></th>
-<th><span data-ttu-id="d634c-107">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="d634c-107">Data Type</span></span></th>
-<th><span data-ttu-id="d634c-108">Clave o índice</span><span class="sxs-lookup"><span data-stu-id="d634c-108">Key/Index</span></span></th>
-<th><span data-ttu-id="d634c-109">Detalles</span><span class="sxs-lookup"><span data-stu-id="d634c-109">Details</span></span></th>
+<th><span data-ttu-id="89bc3-107">Columna</span><span class="sxs-lookup"><span data-stu-id="89bc3-107">Column</span></span></th>
+<th><span data-ttu-id="89bc3-108">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="89bc3-108">Data Type</span></span></th>
+<th><span data-ttu-id="89bc3-109">Clave o índice</span><span class="sxs-lookup"><span data-stu-id="89bc3-109">Key/Index</span></span></th>
+<th><span data-ttu-id="89bc3-110">Detalles</span><span class="sxs-lookup"><span data-stu-id="89bc3-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d634c-110"><strong>MediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="d634c-110"><strong>MediationServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="d634c-111">entero</span><span class="sxs-lookup"><span data-stu-id="d634c-111">int</span></span></p></td>
-<td><p><span data-ttu-id="d634c-112">Principal</span><span class="sxs-lookup"><span data-stu-id="d634c-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d634c-113">Número único que identifica este servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="d634c-113">Unique number identifying this Mediation Server.</span></span></p></td>
+<td><p><span data-ttu-id="89bc3-111"><strong>MediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="89bc3-111"><strong>MediationServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="89bc3-112">entero</span><span class="sxs-lookup"><span data-stu-id="89bc3-112">int</span></span></p></td>
+<td><p><span data-ttu-id="89bc3-113">Principal</span><span class="sxs-lookup"><span data-stu-id="89bc3-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="89bc3-114">Número único que identifica este servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="89bc3-114">Unique number identifying this Mediation Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d634c-114"><strong>MediationServer</strong></span><span class="sxs-lookup"><span data-stu-id="d634c-114"><strong>MediationServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="d634c-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d634c-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="89bc3-115"><strong>MediationServer</strong></span><span class="sxs-lookup"><span data-stu-id="89bc3-115"><strong>MediationServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="89bc3-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="89bc3-116">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="d634c-116">Nombre del servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="d634c-116">Mediation Server name.</span></span></p></td>
+<td><p><span data-ttu-id="89bc3-117">Nombre del servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="89bc3-117">Mediation Server name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

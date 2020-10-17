@@ -1,5 +1,6 @@
 ---
 title: Administración de aplicaciones de lenguaje de procesamiento de SIP de Microsoft (MSPL)
+description: Administrar aplicaciones de lenguaje de procesamiento de SIP de Microsoft (MSPL).
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2c98791b92d9cabc635aa59900dc52066f409ca
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3ee9ad3d4892d66f7a0a70baf4c9ede9ff06ec89
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498077"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568736"
 ---
-# <a name="managing-microsoft-sip-processing-language-mspl-applications-in-lync-server-2013"></a><span data-ttu-id="ca4c7-102">Administración de aplicaciones de lenguaje de procesamiento de SIP de Microsoft (MSPL) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca4c7-102">Managing Microsoft SIP Processing Language (MSPL) applications in Lync Server 2013</span></span>
+# <a name="managing-microsoft-sip-processing-language-mspl-applications-in-lync-server-2013"></a><span data-ttu-id="ec839-103">Administración de aplicaciones de lenguaje de procesamiento de SIP de Microsoft (MSPL) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ec839-103">Managing Microsoft SIP Processing Language (MSPL) applications in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48498077"
 
 <span> </span>
 
-<span data-ttu-id="ca4c7-103">_**Última modificación del tema:** 2012-10-14_</span><span class="sxs-lookup"><span data-stu-id="ca4c7-103">_**Topic Last Modified:** 2012-10-14_</span></span>
+<span data-ttu-id="ec839-104">_**Última modificación del tema:** 2012-10-14_</span><span class="sxs-lookup"><span data-stu-id="ec839-104">_**Topic Last Modified:** 2012-10-14_</span></span>
 
-<span data-ttu-id="ca4c7-104">Puede usar los procedimientos de esta sección para administrar aplicaciones de servidor de lenguaje de procesamiento de SIP de Microsoft (MSPL).</span><span class="sxs-lookup"><span data-stu-id="ca4c7-104">You can use the procedures in this section to manage Microsoft SIP Processing Language (MSPL) Applications.</span></span>
+<span data-ttu-id="ec839-105">Puede usar los procedimientos de esta sección para administrar aplicaciones de servidor de lenguaje de procesamiento de SIP de Microsoft (MSPL).</span><span class="sxs-lookup"><span data-stu-id="ec839-105">You can use the procedures in this section to manage Microsoft SIP Processing Language (MSPL) Applications.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ca4c7-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ca4c7-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ec839-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ec839-106">In This Section</span></span>
 
-  - [<span data-ttu-id="ca4c7-106">Ver aplicaciones de servidor del lenguaje de procesamiento de SIP de Microsoft (MSPL) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca4c7-106">View Microsoft SIP Processing Language (MSPL) server applications in Lync Server 2013</span></span>](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)
+  - [<span data-ttu-id="ec839-107">Ver aplicaciones de servidor del lenguaje de procesamiento de SIP de Microsoft (MSPL) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ec839-107">View Microsoft SIP Processing Language (MSPL) server applications in Lync Server 2013</span></span>](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)
 
-  - [<span data-ttu-id="ca4c7-107">Marcar una aplicación de lenguaje de procesamiento de SIP de Microsoft (MSPL) como crítica o no crítica en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca4c7-107">Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical in Lync Server 2013</span></span>](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
+  - [<span data-ttu-id="ec839-108">Marcar una aplicación de lenguaje de procesamiento de SIP de Microsoft (MSPL) como crítica o no crítica en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ec839-108">Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical in Lync Server 2013</span></span>](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
 
-  - [<span data-ttu-id="ca4c7-108">Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de SIP de Microsoft (MSPL) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca4c7-108">Enable or disable a Microsoft SIP Processing Language (MSPL) server application in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
+  - [<span data-ttu-id="ec839-109">Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de SIP de Microsoft (MSPL) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ec839-109">Enable or disable a Microsoft SIP Processing Language (MSPL) server application in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
 
 </div>
 
