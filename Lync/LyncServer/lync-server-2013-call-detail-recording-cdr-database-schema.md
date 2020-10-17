@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: esquema de la base de datos de registro detallado de llamadas (CDR)'
+description: 'Lync Server 2013: esquema de la base de datos de registro detallado de llamadas (CDR).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 980ed8e42ea7a6209e4ef70f78b0211e4ad5397e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 190b01d53485b6e1e726679fff7892119ee0a654
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561806"
 ---
 # <a name="call-detail-recording-cdr-database-schema-in-lync-server-2013"></a>Esquema de la base de datos del registro detallado de llamadas (CDR) en Lync Server 2013
 

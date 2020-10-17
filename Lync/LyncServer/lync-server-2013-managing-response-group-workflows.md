@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración de flujos de trabajo de grupos de respuesta'
+description: 'Lync Server 2013: administración de flujos de trabajo de grupos de respuesta.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54f24b79c9b06beaae2c0964b662e62f330a5061
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2223fed2b5b030a2c92e0b958ae8545a7717f848
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560416"
 ---
 # <a name="managing-response-group-workflows-in-lync-server-2013"></a>Administración de flujos de trabajo de grupos de respuesta en Lync Server 2013
 

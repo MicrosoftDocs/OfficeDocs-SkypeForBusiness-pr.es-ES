@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla ConferenceJoinTimeThresholds'
+description: 'Lync Server 2013: tabla ConferenceJoinTimeThresholds.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d8dcf3d8b5f74abe6e145d7ac25e43411ca085c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5e38c8b99f444e16309882b6a8885d166fdceb9b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502317"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561676"
 ---
 # <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>Tabla ConferenceJoinTimeThresholds en Lync Server 2013
 

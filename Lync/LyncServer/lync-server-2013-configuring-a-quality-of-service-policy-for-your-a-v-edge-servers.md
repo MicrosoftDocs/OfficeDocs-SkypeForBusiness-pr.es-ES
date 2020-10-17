@@ -1,5 +1,6 @@
 ---
 title: Configuración de una directiva de calidad de servicio para los servidores perimetrales A/V
+description: Configurar una directiva de calidad de servicio para los servidores perimetrales A/V.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69b9beb119ebd7189c31f9e239ac45409758ba00
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1ec1f012260aa32df984925a86882a3201e07db0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515697"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560476"
 ---
 # <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>Configurar una directiva de calidad de servicio para los servidores perimetrales A/V en Lync Server 2013
 

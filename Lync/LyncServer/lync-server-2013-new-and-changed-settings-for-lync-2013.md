@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración nueva y modificada para Lync 2013'
+description: 'Lync Server 2013: configuración nueva y modificada para Lync 2013.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5aa98f8935a692f06b78db523e4e109e8cba9ddf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1bf744e1bae774904733390ec624be523ad32bc1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505437"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561396"
 ---
 # <a name="new-and-changed-settings-for-lync-2013"></a>Configuración nueva y modificada para Lync 2013
 

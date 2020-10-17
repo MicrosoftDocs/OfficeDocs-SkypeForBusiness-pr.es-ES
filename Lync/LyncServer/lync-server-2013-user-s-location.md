@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Ubicación del usuario'
+description: 'Lync Server 2013: Ubicación del usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 854e887605cc1d3d2b6d394228ebd3e8059644ee
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a92ec780809cdb3e1ee582ce6c348c884bbb5890
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518837"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561216"
 ---
 # <a name="users-location-in-lync-server-2013"></a>Ubicación del usuario en Lync Server 2013
 

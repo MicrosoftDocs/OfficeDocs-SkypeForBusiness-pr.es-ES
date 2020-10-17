@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 características de administración de llamadas para la recuperación ante desastres
+description: Lync Server 2013 características de administración de llamadas para la recuperación ante desastres.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4321162d195ec22fa6809eacefba2f014d5814be
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cf7ed561d3d75bd87cddb1d813825729e3f25389
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533507"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561686"
 ---
 # <a name="call-management-features-for-disaster-recovery-in-lync-server-2013"></a>Características de administración de llamadas para la recuperación ante desastres en Lync Server 2013
 

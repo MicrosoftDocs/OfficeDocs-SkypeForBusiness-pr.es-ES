@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Directiva de ubicación de pruebas'
+description: 'Lync Server 2013: Directiva de ubicación de prueba.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5cd477b02aa261b762f728ca15d296f49dfbac1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4efc7ac6f3beef875ce1496b19b875ff252b145b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560606"
 ---
 # <a name="testing-location-policy-in-lync-server-2013"></a>Directiva de ubicación de pruebas en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: nuevas características de archivado'
+description: 'Lync Server 2013: nuevas características de archivado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3150d56bbd4935d6139c8584fcd69d721056317e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b5b69c90e62914284f178ae328375c6e350f5b3e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505387"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561356"
 ---
 # <a name="new-archiving-features-in-lync-server-2013"></a>Nuevas características de archivado en Lync Server 2013
 

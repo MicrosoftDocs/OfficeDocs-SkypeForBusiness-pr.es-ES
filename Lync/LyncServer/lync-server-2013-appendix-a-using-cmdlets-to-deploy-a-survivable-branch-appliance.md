@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Apéndice A: usar cmdlets para implementar una aplicación de sucursal con funciones de supervivencia'
+description: 'Lync Server 2013: Apéndice A: usar cmdlets para implementar una aplicación de sucursal con funciones de supervivencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e09cd7e0c5cc8bc20f50ba2c2ae5a1d912f949ab
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6bf1fe5d86900ec5da95ed9020720149a5015f19
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531627"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561876"
 ---
 # <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Apéndice A: uso de cmdlets para implementar una aplicación de sucursal con funciones de supervivencia en Lync Server 2013
 

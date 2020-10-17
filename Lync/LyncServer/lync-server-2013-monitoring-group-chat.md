@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: supervisión del chat en grupo'
+description: 'Lync Server 2013: supervisión del chat en grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf44bbaa00412de24af21c493fd05b88bd6259af
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 625e45f455e8dba50a5fa64240b62cb010623d16
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531937"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562036"
 ---
 # <a name="monitoring-group-chat-in-lync-server-2013"></a>Supervisión del chat en grupo en Lync Server 2013
 

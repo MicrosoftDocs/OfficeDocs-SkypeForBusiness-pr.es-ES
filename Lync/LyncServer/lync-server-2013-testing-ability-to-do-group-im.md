@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: capacidad de prueba para realizar la mensajería instantánea en grupo'
+description: 'Lync Server 2013: capacidad de prueba para realizar la mensajería instantánea en grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f33d34644f76c9773edbfd9ad5d3945c0c1974c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f6988a0c1a7ba569f7b4da098ae741beab5e14fa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527827"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560816"
 ---
 # <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Capacidad de prueba para hacer grupo de mensajería instantánea en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: registro de detalles de llamadas (CDR)'
+description: 'Lync Server 2013: registro de detalles de llamadas (CDR).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 113daa592f0fbbcf1e897a78303853721a6d3619
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 590f99fd0b8649ffb3c4df039488dc54a8f3b7b4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502767"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561796"
 ---
 # <a name="call-detail-recording-cdr-in-lync-server-2013"></a>Registro detallado de llamadas (CDR) en Lync Server 2013
 

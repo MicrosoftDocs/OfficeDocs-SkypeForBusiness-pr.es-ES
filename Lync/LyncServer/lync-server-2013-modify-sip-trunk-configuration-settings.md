@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: modificar las opciones de configuración del tronco SIP'
+description: 'Lync Server 2013: modificar las opciones de configuración del tronco SIP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 356c418c620cbbf38a97da2df652b5767f9fced9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 42cb213211a11494a96b5a762734a2b5db49dfbb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515327"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562146"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Modificar las opciones de configuración de tronco SIP en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: probar la capacidad de usar la expansión de grupos'
+description: 'Lync Server 2013: probar la capacidad de usar la expansión de grupos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969634
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8c12d687d6c23c7c7bdc2bf2d8046038154c871
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6267bc2099fc420c5c57e1ef80f4bf4491334938
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520747"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560796"
 ---
 # <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>Probar la capacidad de usar la expansión de grupos en Lync Server 2013
 

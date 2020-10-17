@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de detalles de llamadas'
+description: 'Lync Server 2013: informe de detalles de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ef309873ef51e06903123dfb5a1b6ecf68b4ea8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d72ae6c1c1ec869041eee5b0dc35941c33609710
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561776"
 ---
 # <a name="call-detail-report-in-lync-server-2013"></a>Informe de detalles de llamadas en Lync Server 2013
 

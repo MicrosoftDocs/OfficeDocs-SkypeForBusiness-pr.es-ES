@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: escenarios de proxy inverso'
+description: 'Lync Server 2013: escenarios de proxy inverso.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 767df1e427cd29e9437b4bd04d2859b382b48267
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cb714182fd13e42c6295e26ffd1edbb8b6041866
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510837"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561996"
 ---
 # <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Escenarios de proxy inverso en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: regiones de red'
+description: 'Lync Server 2013: regiones de red.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541beafe32dcfbe830573ae5954f81ee7febe8de
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3506f3c543c0728f27bd091b9cd63991c4633da7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505497"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561486"
 ---
 # <a name="network-regions-in-lync-server-2013"></a>Regiones de red en Lync Server 2013
 

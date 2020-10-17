@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de regiones de red, sitios y subredes'
+description: 'Lync Server 2013: implementar regiones de red, sitios y subredes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b95d9f7e38e3169474aee33a3004b388c0b13f14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f1c4c08cd9b78b1439000cdb4a7bbe3ffc2f99d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531153"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561096"
 ---
 # <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Implementar regiones de red, sitios y subredes en Lync Server 2013
 

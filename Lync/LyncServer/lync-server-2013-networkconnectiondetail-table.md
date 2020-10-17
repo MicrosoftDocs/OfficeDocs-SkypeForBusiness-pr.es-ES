@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla NetworkConnectionDetail'
+description: 'Lync Server 2013: tabla NetworkConnectionDetail.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1dad115cb658289e20cf376c246c4e546bc0642
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dcd0f429999b6629826a9f9369d154afe3c1af2f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505447"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561406"
 ---
 # <a name="networkconnectiondetail-table-in-lync-server-2013"></a>Tabla NetworkConnectionDetail en Lync Server 2013
 

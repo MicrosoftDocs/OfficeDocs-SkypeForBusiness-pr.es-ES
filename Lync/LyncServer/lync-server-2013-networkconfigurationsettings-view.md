@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista de NetworkConfigurationSettings'
+description: 'Lync Server 2013: vista de NetworkConfigurationSettings.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2a08fdc55158bf2266d6be75859477075fe91f2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 60779a89d7d98c68832e5f9c9bd87dcbcc67d3a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505457"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561416"
 ---
 # <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Vista NetworkConfigurationSettings en Lync Server 2013
 

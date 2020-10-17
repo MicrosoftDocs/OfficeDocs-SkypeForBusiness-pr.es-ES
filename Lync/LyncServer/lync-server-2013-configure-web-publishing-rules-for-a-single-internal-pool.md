@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar las reglas de publicación web para un solo grupo interno'
+description: 'Lync Server 2013: configurar las reglas de publicación web para un grupo interno único.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d159fd8fa4ade4cb2dee44da7fd7bbd2376b2a80
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 45015c90fdac92fb488affc871f2cfaf9d7506a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520107"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560516"
 ---
 # <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Configurar las reglas de publicación web para un solo grupo de servidores interno en Lync Server 2013
 

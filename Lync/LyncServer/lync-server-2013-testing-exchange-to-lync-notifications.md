@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: pruebas de Exchange a las notificaciones de Lync'
+description: 'Lync Server 2013: pruebas de Exchange a las notificaciones de Lync.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969665
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e0d3354a71079f20d552aa3175083540744a5b1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bdf453bfdaab7e7b6bdaae8b67ac7759c0d55af4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536027"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560626"
 ---
 # <a name="testing-exchange-to-lync-notifications-in-lync-server-2013"></a>Prueba de las notificaciones de Exchange para Lync en Lync Server 2013
 

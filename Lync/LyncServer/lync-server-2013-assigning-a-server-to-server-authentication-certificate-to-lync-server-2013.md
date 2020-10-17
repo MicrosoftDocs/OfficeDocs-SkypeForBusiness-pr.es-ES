@@ -1,5 +1,6 @@
 ---
 title: Asignar un certificado de autenticación de servidor a servidor a Lync Server 2013
+description: Asignar un certificado de autenticación de servidor a servidor a Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec8ac614cdc829ab2b1efd7d6ff9179c33d5a33e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 042158167f89dc2b6e743e8db94149d4f1cbc1a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499477"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560546"
 ---
 # <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Asignar un certificado de autenticación de servidor a servidor a Microsoft Lync Server 2013
 

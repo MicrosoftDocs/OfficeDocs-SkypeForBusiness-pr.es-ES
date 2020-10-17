@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: capacidad de prueba para conectarse a un dominio federado'
+description: 'Lync Server 2013: capacidad de prueba para conectarse a un dominio federado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a565c09e09e10eeb160b1d0514c89499427d1283
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bf1f5bdef66d34b9ca2e39797df0b4ad32d9afde
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532927"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560826"
 ---
 # <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Probar la capacidad de conectarse a un dominio federado desde Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Prueba de direcciones cívicas con la guía de dirección principal
+description: Prueba de direcciones cívicas con la guía de dirección principal.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d03647df3752860c114a16967a3bea5271a89d4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 16e0d721b70e3db175b2d23ddee6f59d13a13c4e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527817"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560706"
 ---
 # <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Comprobación de direcciones cívicas con la guía de dirección de Master Street en Lync Server 2013
 

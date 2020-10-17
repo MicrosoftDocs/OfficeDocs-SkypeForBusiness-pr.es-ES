@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: prueba de la configuración del servidor LIS'
+description: 'Lync Server 2013: prueba de la configuración del servidor LIS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8893964ce1982c67dc97ed93bca9ba19ec2f24e0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ba4d16d2ce48e3e5bb89e863f02902d05ce77bd7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536023"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560616"
 ---
 # <a name="testing-lis-server-configuration-in-lync-server-2013"></a>Prueba de la configuración del servidor LIS en Lync Server 2013
 

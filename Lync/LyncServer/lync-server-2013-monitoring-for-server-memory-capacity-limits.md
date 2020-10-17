@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: supervisión de los límites de capacidad de la memoria del servidor'
+description: 'Lync Server 2013: supervisión de los límites de capacidad de la memoria del servidor.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 160d90a5a79291d18afdab00c23ff0a6726fa5b0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6561908af2c8f2f7b5fb9e347cc6247f7ca6642e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562056"
 ---
 # <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Supervisión de los límites de capacidad de la memoria del servidor en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de lista de llamadas'
+description: 'Lync Server 2013: informe de lista de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d9d437b32907108d5666ef9e1b175c170030585
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5b08d4c5f3011facc9cd8d4f6b2800638f3cc896
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526297"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561696"
 ---
 # <a name="call-list-report-in-lync-server-2013"></a>Informe de lista de llamadas en Lync Server 2013
 

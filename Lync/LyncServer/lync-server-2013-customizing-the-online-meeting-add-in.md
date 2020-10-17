@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: personalización del complemento para reunión en línea'
+description: 'Lync Server 2013: personalización del complemento para reunión en línea.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e196c8e933a2f7cd361712a38e309d6699e35dbd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 75c3662fee1c755dede245d92c9583c436799dc3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516667"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561106"
 ---
 # <a name="customizing-the-online-meeting-add-in-in-lync-server-2013"></a>Personalización del complemento para reunión en línea en Lync Server 2013
 

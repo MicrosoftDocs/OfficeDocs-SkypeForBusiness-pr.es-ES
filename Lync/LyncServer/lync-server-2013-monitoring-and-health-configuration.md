@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de supervisión y mantenimiento'
+description: 'Lync Server 2013: configuración de supervisión y mantenimiento.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 595d4d6e977e7f98422adc9a88836f14e6293d1f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 435bd40d8bf5490c555b14d185a1bd233a8a3a40
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562096"
 ---
 # <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Configuración de supervisión y mantenimiento en Lync Server 2013
 

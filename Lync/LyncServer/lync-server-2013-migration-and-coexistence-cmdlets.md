@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de migración y coexistencia'
+description: 'Lync Server 2013: cmdlets de migración y coexistencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c234a8b2fcfea1473c52da69eea9f5cccb2f4b1d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eecd1adad53d8f917d7db7ca201b25442a7d5e85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513627"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561016"
 ---
 # <a name="migration-and-coexistence-cmdlets-in-lync-server-2013"></a>Cmdlets de migración y coexistencia en Lync Server 2013
 

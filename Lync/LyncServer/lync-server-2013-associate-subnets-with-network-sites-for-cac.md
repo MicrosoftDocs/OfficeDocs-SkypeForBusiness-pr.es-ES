@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asociar subredes con sitios de red para CAC'
+description: 'Lync Server 2013: asocie subredes con sitios de red para CAC.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fde0eb443a643371072c4c0018c05e2cd4538d0e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8d68607c1674bb964c27c8408583be7f5e092f4c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531607"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560506"
 ---
 # <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>Asociar subredes a sitios de red para CAC en Lync Server 2013
 

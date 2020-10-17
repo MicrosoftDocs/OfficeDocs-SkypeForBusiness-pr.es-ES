@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: crear directivas entre sitios de red'
+description: 'Lync Server 2013: crear directivas entre sitios de red.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185148
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55c8523fe86cfee7b9e2332e459959b096831abb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9666efcb9c6da459a8e50eeae66cd1a513b46f65
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515597"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562276"
 ---
 # <a name="create-network-intersite-policies-in-lync-server-2013"></a>Crear directivas entre sitios de red en Lync Server 2013
 

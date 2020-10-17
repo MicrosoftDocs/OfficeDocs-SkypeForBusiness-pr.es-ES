@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: información general sobre el proceso de implementación para telefonía IP empresarial'
+description: 'Lync Server 2013: información general sobre el proceso de implementación para telefonía IP empresarial.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34b6e60786d8e46549a3f1e8fed70a96d4d28d2c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5c8163dae21435490badd5633ae799e651ab2def
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499077"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561086"
 ---
 # <a name="deployment-process-overview-for-enterprise-voice-in-lync-server-2013"></a>Información general sobre el proceso de implementación para telefonía IP empresarial en Lync Server 2013
 
