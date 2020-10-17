@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eliminar una directiva de versión de cliente existente'
+description: 'Lync Server 2013: eliminar una directiva de versión de cliente existente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50675349
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8915d828dd81c61e7d0c94f01fb7fdcb70e43a2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1328d54790b2a7856fa2776bb59feeb515bab1cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525617"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553666"
 ---
 # <a name="delete-an-existing-client-version-policy-in-lync-server-2013"></a>Eliminar una directiva de versión de cliente existente en Lync Server 2013
 

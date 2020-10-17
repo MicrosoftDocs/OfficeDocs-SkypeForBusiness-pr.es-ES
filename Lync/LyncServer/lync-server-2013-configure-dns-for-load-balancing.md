@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar el DNS para el equilibrio de carga'
+description: 'Lync Server 2013: configurar el DNS para el equilibrio de carga.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 831968516ef155d6ad018f33bfa27226f58292dc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4b13db22d65ee67723ebc0a31544137d467d5c6b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537147"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553456"
 ---
 # <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Configurar el DNS para el equilibrio de carga en Lync Server 2013
 

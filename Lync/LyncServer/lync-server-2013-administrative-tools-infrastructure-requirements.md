@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos de infraestructura de herramientas administrativas'
+description: 'Lync Server 2013: requisitos de infraestructura de las herramientas administrativas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f35433b8becdf0574866f7c327abc2ac0a579e5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0fdf025990a5b205a1c47e6e975aebf08afa7d41
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518017"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552976"
 ---
 # <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Requisitos de infraestructura de herramientas administrativas en Lync Server 2013
 

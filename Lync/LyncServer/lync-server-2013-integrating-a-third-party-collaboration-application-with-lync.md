@@ -1,5 +1,6 @@
 ---
 title: Integración de una aplicación de colaboración de terceros con Lync
+description: Integración de una aplicación de colaboración de terceros con Lync.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7bbe3f6439b357253ae49a5c1609319b6a91bfb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7adbe1abab83a569f581af034fc46abfef4cf819
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534767"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552656"
 ---
 # <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Integración de una aplicación de colaboración de terceros con Lync Server 2013
 

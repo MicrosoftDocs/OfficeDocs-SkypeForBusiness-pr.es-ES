@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar la compatibilidad con dominios externos permitidos'
+description: 'Lync Server 2013: configurar la compatibilidad con dominios externos permitidos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eaa9da579561464c46776662cacaca80dafe016
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 13845638bca8791d43b8644c5dcb30ec73751a5b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517693"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553986"
 ---
 # <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>Configurar la compatibilidad con dominios externos permitidos en Lync Server 2013
 

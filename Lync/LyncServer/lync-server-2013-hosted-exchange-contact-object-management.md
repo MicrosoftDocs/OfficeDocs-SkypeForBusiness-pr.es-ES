@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración de objetos de contacto de Exchange hospedado'
+description: 'Lync Server 2013: administración de objetos de contacto de Exchange hospedado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dae7088982fd3f28ead762c6f50ed4543a5cdef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 691bcea10d3a4f8b523c6565f384d6c4c9a2a2a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528197"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552776"
 ---
 # <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Administración de objetos de contacto de Exchange hospedado en Lync Server 2013
 

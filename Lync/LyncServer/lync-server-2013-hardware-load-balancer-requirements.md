@@ -1,5 +1,6 @@
 ---
 title: Requisitos del equilibrador de carga de hardware de Lync Server 2013
+description: Requisitos del equilibrador de carga de hardware de Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 69cbf79c1fd7551dfd428c23ed22c924d0805c43
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530877"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552926"
 ---
 # <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Requisitos del equilibrador de carga de hardware para Lync Server 2013
 

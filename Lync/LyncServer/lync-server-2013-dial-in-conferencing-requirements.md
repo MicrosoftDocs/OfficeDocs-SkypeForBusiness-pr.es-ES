@@ -1,5 +1,6 @@
 ---
 title: Requisitos para conferencias de acceso telefónico local de Lync Server 2013
+description: 'Lync Server 2013: requisitos de conferencias de acceso telefónico local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 944aaf06ce81e5ba326841f6abe91614cdffd134
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0850204993935998c4c098bc7c2866a8a6f3fa1e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498917"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552486"
 ---
 # <a name="dial-in-conferencing-requirements-in-lync-server-2013"></a>Requisitos de conferencia de acceso telefónico local en Lync Server 2013
 

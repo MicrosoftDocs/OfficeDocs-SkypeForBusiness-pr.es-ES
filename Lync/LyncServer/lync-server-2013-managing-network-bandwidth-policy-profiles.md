@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración de perfiles de directiva de ancho de banda de red'
+description: 'Lync Server 2013: administración de perfiles de directiva de ancho de banda de red.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6283e0480a8923170efd4f44b2609146abec562
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4f140fd2666244c6b67cf1e95009e32cfdfe86c2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498067"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553526"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Administración de perfiles de directiva de ancho de banda de red en Lync Server 2013
 

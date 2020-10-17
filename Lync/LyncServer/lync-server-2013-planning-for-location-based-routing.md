@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de enrutamiento de Location-Based'
+description: 'Lync Server 2013: Planeación de Location-Based enrutamiento.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 114f92d0963e8d61c4b0854862ff7ebd59a12b64
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 894a596e998fe07b97ad7911441eced670ba85b2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522047"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553086"
 ---
 # <a name="planning-for-location-based-routing-in-lync-server-2013"></a>Planeación del enrutamiento de Location-Based en Lync Server 2013
 

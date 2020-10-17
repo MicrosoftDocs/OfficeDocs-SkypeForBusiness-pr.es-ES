@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 voz admitido
+description: Lync Server 2013 voz support.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af65dd046dfcb902a827d7a61dd1c45f4cbe73d6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b97b8e5ade1d97d458117adc04f161077abc9beb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535427"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554016"
 ---
 # <a name="voice-support-in-lync-server-2013"></a>Compatibilidad con voz en Lync Server 2013
 

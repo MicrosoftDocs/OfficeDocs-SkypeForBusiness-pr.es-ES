@@ -1,5 +1,6 @@
 ---
 title: Configuración de registros DNS para un grupo de servidores front-end o un servidor Standard Edition
+description: Configure registros DNS para un grupo de servidores front-end o un servidor Standard Edition.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5048763ba239e161825d1250446ac60853499223
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3b41bddc147c8d95dde0f9c0db129574fb87f38c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537127"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553376"
 ---
 # <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Configurar registros DNS en Lync Server 2013 para un grupo de servidores front-end o un servidor Standard Edition
 

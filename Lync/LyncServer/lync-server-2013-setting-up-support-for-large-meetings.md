@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la compatibilidad para reuniones grandes'
+description: 'Lync Server 2013: configuración de la compatibilidad para reuniones grandes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e7d7796a879398d5f73ebfc67cc6cc6a68b5b1c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cb04b4192c6daa9e6ea255b52566dacee1bd2dcd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497587"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554216"
 ---
 # <a name="setting-up-support-for-large-meetings-in-lync-server-2013"></a>Configuración de la compatibilidad para reuniones grandes en Lync Server 2013
 

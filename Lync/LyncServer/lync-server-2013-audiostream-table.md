@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla AudioStream'
+description: 'Lync Server 2013: tabla AudioStream.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 331b2afbfa4b6c4147ffab3765af4e9e5031c190
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8af2e622e14c54fa4f9a6313e1b0dae8f2483132
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502877"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552346"
 ---
 # <a name="audiostream-table-in-lync-server-2013"></a>Tabla AudioStream en Lync Server 2013
 

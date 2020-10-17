@@ -1,5 +1,6 @@
 ---
 title: Identidades, ámbitos e inquilinos en Skype empresarial online
+description: Identidades, ámbitos e inquilinos en Skype empresarial online.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80af780f0e7e78553cf8796569f668eae0b0e7e6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 00ab84c3ca83dea2e328315ae7e616ad7830c227
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505147"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552516"
 ---
 # <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>Identidades, ámbitos e inquilinos en Skype empresarial online
 

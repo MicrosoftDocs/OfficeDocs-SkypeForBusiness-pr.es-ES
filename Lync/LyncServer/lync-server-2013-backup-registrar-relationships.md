@@ -1,5 +1,6 @@
 ---
 title: Relaciones de registrador de copia de seguridad 2013 de Lync Server
+description: Relaciones de registrador de copia de seguridad 2013 de Lync Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184631
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd41595fed0d16327f65f4e6af39fe80c049daa4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b0bfce6444ae78c2fb792a6d63dba4bf36b1791
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499337"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552322"
 ---
 # <a name="backup-registrar-relationships-in-lync-server-2013"></a>Relaciones de registrador de reserva en Lync Server 2013
 

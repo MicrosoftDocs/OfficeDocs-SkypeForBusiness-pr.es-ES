@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar la Federación con Lync Online'
+description: 'Lync Server 2013: configurar la Federación con Lync Online.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfeffc8a72d26167b9771e6437d21ba55c8f5636
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3372a76b5ff7ad9dde5a00fd562b74877bd679a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553316"
 ---
 # <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Configurar la Federación de Lync Server 2013 con Lync Online
 

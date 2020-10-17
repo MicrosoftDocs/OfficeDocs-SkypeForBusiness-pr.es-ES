@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de sitios de sucursal'
+description: 'Lync Server 2013: implementación de sitios de sucursal.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed57a78637639d5e6402f88b7909114f3aabce7a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d653e3f06de832693d97bfb229f122a67c28640e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531297"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552646"
 ---
 # <a name="deploying-branch-sites-in-lync-server-2013"></a>Implementación de sitios de sucursal en Lync Server 2013
 

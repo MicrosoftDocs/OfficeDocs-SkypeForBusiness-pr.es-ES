@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: control de admisión de llamadas para sitios'
+description: 'Lync Server 2013: control de admisión de llamadas para sitios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c42ccca677aba50fda3768847fcd59843ef7720
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6bbc73e8c594c1113ee7c239097e5a95149a73c5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537237"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552946"
 ---
 # <a name="call-admission-control-for-sites-in-lync-server-2013"></a>Control de admisión de llamadas para sitios en Lync Server 2013
 

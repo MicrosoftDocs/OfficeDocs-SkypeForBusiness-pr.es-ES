@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar 9-1-1 mejorado'
+description: 'Lync Server 2013: configurar 9-1-1 mejorado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184205
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 642117d89936741cf2610b4d76e1a20125336e4a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fc7a2a9ed10e7f29f53a4dfff6dff926ded18d38
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537117"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553336"
 ---
 # <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>Configurar 9-1-1 mejorado en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia'
+description: 'Lync Server 2013: usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185926
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: add711ca547648a6071a22fee6a0bcd0eeb0f6c0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 124eb7a51a8d5ff672d720fdad8956f682e29090
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528207"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552786"
 ---
 # <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013
 

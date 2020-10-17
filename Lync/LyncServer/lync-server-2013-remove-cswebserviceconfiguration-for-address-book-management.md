@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Remove-CsWebServiceConfiguration para la administración de la libreta de direcciones'
+description: 'Lync Server 2013: Remove-CsWebServiceConfiguration para la administración de la libreta de direcciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62ad914027fc1d406ba66d2dead2b8eab7601ff7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 145cb1cb98bcb4c988a8fdaea74a4eae86d5fc4f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536497"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553516"
 ---
 # <a name="remove-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Remove-CsWebServiceConfiguration para la administración de la libreta de direcciones en Lync Server 2013
 

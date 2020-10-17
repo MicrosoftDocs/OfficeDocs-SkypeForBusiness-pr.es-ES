@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de AD FS 2,0 para admitir la autenticación de cliente'
+description: 'Lync Server 2013: configuración de AD FS 2,0 para admitir la autenticación de cliente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d2b713d109a72431e78e966258a84c084523a7a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 156eb6d7e8af85dec04601ab8f88c55181db20d5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553256"
 ---
 # <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuración de AD FS 2,0 para admitir la autenticación de cliente en Lync Server 2013
 

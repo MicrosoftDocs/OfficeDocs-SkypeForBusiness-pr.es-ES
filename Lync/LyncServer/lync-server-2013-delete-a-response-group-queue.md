@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eliminar una cola de grupo de respuesta'
+description: 'Lync Server 2013: eliminar una cola de grupo de respuesta.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c768edeff7facc1030b414d0e0e54e3516abe52
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 76b00257a12b872615ebc124abff595268b120e1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525627"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553726"
 ---
 # <a name="delete-a-response-group-queue-in-lync-server-2013"></a>Eliminar una cola de grupo de respuesta en Lync Server 2013
 

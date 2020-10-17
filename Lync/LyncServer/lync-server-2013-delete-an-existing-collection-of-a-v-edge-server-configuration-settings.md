@@ -1,5 +1,6 @@
 ---
 title: Eliminar una colección existente de opciones de configuración del servidor perimetral A/V
+description: Eliminar una colección existente de opciones de configuración del servidor perimetral A/V.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80a90e58c1dee8aacae052f916c6fdf6e260b7ba
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d7fe444e8bcb7e7e8e2633e59c23aeb2e80e9b98
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514697"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553626"
 ---
 # <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Eliminar una colección existente de opciones de configuración del servidor perimetral A/V en Lync Server 2013
 

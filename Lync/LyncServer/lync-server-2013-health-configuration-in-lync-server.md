@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de mantenimiento en Lync Server'
+description: 'Lync Server 2013: configuración de mantenimiento en Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa0164a9e3003c130bc7b14a4312397a4559843c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 999a6d5401cb34382a4120f9255c91c846f72422
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528247"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552856"
 ---
 # <a name="health-configuration-in-lync-server-2013"></a>Configuración de mantenimiento en Lync Server 2013
 

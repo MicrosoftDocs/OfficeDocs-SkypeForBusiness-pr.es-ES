@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: realizar una llamada de punto a punto de RTC'
+description: 'Lync Server 2013: realizar una llamada de punto a punto de RTC.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33aa0447c90ea9c76a1956cb817f0e61ce0d626e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8bf8726c46374e3a799b986e071566d0ae1de138
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504047"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552686"
 ---
 # <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Probar la llamada RTC de punto a punto en Lync Server 2013
 

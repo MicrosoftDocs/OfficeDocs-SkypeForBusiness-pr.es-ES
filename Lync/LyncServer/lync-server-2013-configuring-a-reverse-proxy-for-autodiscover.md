@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de un proxy inverso para detección automática'
+description: 'Lync Server 2013: configurar un proxy inverso para detección automática.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0fb05667ea6ebcb8176353d42fda5cf2eaadfd7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1f7873df063c526b4e51678ded02ca11d27c5e01
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515587"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553956"
 ---
 # <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a>Configuración de un proxy inverso para detección automática en Lync Server 2013
 
