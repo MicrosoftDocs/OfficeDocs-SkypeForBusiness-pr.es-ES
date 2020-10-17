@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la autenticación en dos fases'
+description: 'Lync Server 2013: configuración de la autenticación en dos fases.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed219dcc90ffb6527a25a39af9fcb8c4ba172d75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c473ff7fec37840a76f3156b0e38c61bfa9f7ab6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517327"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544136"
 ---
-# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="e2436-102">Configuración de la autenticación en dos fases en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2436-102">Configuring two-factor authentication in Lync Server 2013</span></span>
+# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="a8b8d-103">Configuración de la autenticación en dos fases en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8b8d-103">Configuring two-factor authentication in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,31 +38,31 @@ ms.locfileid: "48517327"
 
 <span> </span>
 
-<span data-ttu-id="e2436-103">_**Última modificación del tema:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="e2436-103">_**Topic Last Modified:** 2013-07-03_</span></span>
+<span data-ttu-id="a8b8d-104">_**Última modificación del tema:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="a8b8d-104">_**Topic Last Modified:** 2013-07-03_</span></span>
 
-<span data-ttu-id="e2436-104">En las secciones siguientes se describen los pasos necesarios para configurar la autenticación en dos fases para la implementación.</span><span class="sxs-lookup"><span data-stu-id="e2436-104">The following sections describe the steps necessary to configure two-factor authentication for your deployment.</span></span> 
+<span data-ttu-id="a8b8d-105">En las secciones siguientes se describen los pasos necesarios para configurar la autenticación en dos fases para la implementación.</span><span class="sxs-lookup"><span data-stu-id="a8b8d-105">The following sections describe the steps necessary to configure two-factor authentication for your deployment.</span></span> 
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e2436-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="e2436-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a8b8d-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="a8b8d-106">In This Section</span></span>
 
-[<span data-ttu-id="e2436-106">Configuración de la entidad de certificación empresarial para la autenticación de tarjetas inteligentes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2436-106">Configuring Enterprise CA for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
+[<span data-ttu-id="a8b8d-107">Configuración de la entidad de certificación empresarial para la autenticación de tarjetas inteligentes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8b8d-107">Configuring Enterprise CA for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
 
-[<span data-ttu-id="e2436-107">Configurar Windows 8 para usar tarjetas inteligentes virtuales con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2436-107">Configuring Windows 8 for using Virtual Smart Cards with Lync Server 2013</span></span>](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
+[<span data-ttu-id="a8b8d-108">Configurar Windows 8 para usar tarjetas inteligentes virtuales con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8b8d-108">Configuring Windows 8 for using Virtual Smart Cards with Lync Server 2013</span></span>](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
 
-[<span data-ttu-id="e2436-108">Inscripción de usuarios para la autenticación de tarjeta inteligente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2436-108">Enrolling users for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
+[<span data-ttu-id="a8b8d-109">Inscripción de usuarios para la autenticación de tarjeta inteligente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8b8d-109">Enrolling users for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
 
-[<span data-ttu-id="e2436-109">Configuración de los servicios de Federación de Active Directory (AD FS 2,0) para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2436-109">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+[<span data-ttu-id="a8b8d-110">Configuración de los servicios de Federación de Active Directory (AD FS 2,0) para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8b8d-110">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
 
-[<span data-ttu-id="e2436-110">Configuración de AD FS 2,0 para admitir la autenticación de cliente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2436-110">Configuring AD FS 2.0 to support client authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
+[<span data-ttu-id="a8b8d-111">Configuración de AD FS 2,0 para admitir la autenticación de cliente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8b8d-111">Configuring AD FS 2.0 to support client authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
 
-[<span data-ttu-id="e2436-111">Configuración de la autenticación pasiva de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2436-111">Configuring Lync Server 2013 passive authentication</span></span>](lync-server-2013-configuring-passive-authentication.md)
+[<span data-ttu-id="a8b8d-112">Configuración de la autenticación pasiva de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8b8d-112">Configuring Lync Server 2013 passive authentication</span></span>](lync-server-2013-configuring-passive-authentication.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="e2436-112">Secciones relacionadas</span><span class="sxs-lookup"><span data-stu-id="e2436-112">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="a8b8d-113">Secciones relacionadas</span><span class="sxs-lookup"><span data-stu-id="a8b8d-113">Related Sections</span></span>
 
 </div>
 

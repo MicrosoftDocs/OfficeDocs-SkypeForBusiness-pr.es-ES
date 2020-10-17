@@ -1,5 +1,6 @@
 ---
 title: Migrar servidores de chat en grupo
+description: Migrar servidores de chat en grupo.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9373a04f7b8d7aa95532d33c875b5e6acc9d58d4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 87c2373e8d182255c3037f70a365f49f3c64f57e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527397"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545956"
 ---
-# <a name="migrating-group-chat-servers"></a><span data-ttu-id="6deed-102">Migrar servidores de chat en grupo</span><span class="sxs-lookup"><span data-stu-id="6deed-102">Migrating Group Chat servers</span></span>
+# <a name="migrating-group-chat-servers"></a><span data-ttu-id="9282b-103">Migrar servidores de chat en grupo</span><span class="sxs-lookup"><span data-stu-id="9282b-103">Migrating Group Chat servers</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48527397"
 
 <span> </span>
 
-<span data-ttu-id="6deed-103">_**Última modificación del tema:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="6deed-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="9282b-104">_**Última modificación del tema:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="9282b-104">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="6deed-104">Si implementó el servidor de chat en grupo en el entorno heredado de Lync Server 2010, debe implementar el servidor de chat persistente de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6deed-104">If you deployed Group Chat Server in your legacy Lync Server 2010 environment, you must deploy Lync Server 2013 Persistent Chat Server.</span></span> <span data-ttu-id="6deed-105">El servidor de chat en grupo y el servidor de chat persistente pueden coexistir, pero el contenido (por ejemplo, salones de chat, etc.) no se comparte entre estos servidores.</span><span class="sxs-lookup"><span data-stu-id="6deed-105">Group Chat Server and Persistent Chat Server can coexist, but content (for example, chat rooms, etc.) is not shared across these servers.</span></span> <span data-ttu-id="6deed-106">Para acceder al contenido del servidor de chat de grupo heredado desde el servidor de chat persistente, debe migrar el servidor de chat en grupo al servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="6deed-106">To access the legacy Group Chat Server content from Persistent Chat Server, you must migrate the Group Chat Server to Persistent Chat Server.</span></span> <span data-ttu-id="6deed-107">Para obtener más información sobre cómo migrar a un servidor de chat persistente, consulte [migración desde Lync server 2010, chat grupal o grupo de Office Communications server 2007 R2 a Lync server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) en la documentación de migración.</span><span class="sxs-lookup"><span data-stu-id="6deed-107">For details on migrating to Persistent Chat Server, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in the Migration documentation.</span></span>
+<span data-ttu-id="9282b-105">Si implementó el servidor de chat en grupo en el entorno heredado de Lync Server 2010, debe implementar el servidor de chat persistente de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9282b-105">If you deployed Group Chat Server in your legacy Lync Server 2010 environment, you must deploy Lync Server 2013 Persistent Chat Server.</span></span> <span data-ttu-id="9282b-106">El servidor de chat en grupo y el servidor de chat persistente pueden coexistir, pero el contenido (por ejemplo, salones de chat, etc.) no se comparte entre estos servidores.</span><span class="sxs-lookup"><span data-stu-id="9282b-106">Group Chat Server and Persistent Chat Server can coexist, but content (for example, chat rooms, etc.) is not shared across these servers.</span></span> <span data-ttu-id="9282b-107">Para acceder al contenido del servidor de chat de grupo heredado desde el servidor de chat persistente, debe migrar el servidor de chat en grupo al servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="9282b-107">To access the legacy Group Chat Server content from Persistent Chat Server, you must migrate the Group Chat Server to Persistent Chat Server.</span></span> <span data-ttu-id="9282b-108">Para obtener más información sobre cómo migrar a un servidor de chat persistente, consulte [migración desde Lync server 2010, chat grupal o grupo de Office Communications server 2007 R2 a Lync server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) en la documentación de migración.</span><span class="sxs-lookup"><span data-stu-id="9282b-108">For details on migrating to Persistent Chat Server, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in the Migration documentation.</span></span>
 
 </div>
 

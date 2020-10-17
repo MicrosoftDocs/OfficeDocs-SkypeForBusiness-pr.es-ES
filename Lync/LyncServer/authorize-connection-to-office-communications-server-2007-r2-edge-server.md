@@ -1,5 +1,6 @@
 ---
 title: Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2
+description: Autorice la conexión al servidor perimetral de Office Communications Server 2007 R2.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,14 +14,14 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6181f3d42facaf49b84b7c07776dc8717e88b271
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: de8dadb2c476c892f4ffd548ce176d12d3b1a1cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499767"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545836"
 ---
-# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="89520-102">Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="89520-102">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="fead9-103">Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="fead9-103">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,31 +39,31 @@ ms.locfileid: "48499767"
 
 <span> </span>
 
-<span data-ttu-id="89520-103">_**Última modificación del tema:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="89520-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="fead9-104">_**Última modificación del tema:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="fead9-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="89520-104">Para cada servidor front-end de Lync Server 2013 o servidor Standard Edition del grupo piloto, debe actualizar la lista de servidores internos que están autorizados a conectarse al servidor perimetral de Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="89520-104">For each Lync Server 2013 Front End Server or Standard Edition server in your pilot pool, you must update the list of internal servers that are authorized to connect to the Office Communications Server 2007 R2 Edge Server.</span></span> <span data-ttu-id="89520-105">Sin estas actualizaciones, no funcionará la conferencia de audio/vídeo (A/V) externa para los usuarios que se unen al servidor perimetral heredado.</span><span class="sxs-lookup"><span data-stu-id="89520-105">Without these updates, external audio/visual (A/V) conferencing for users joining by using the legacy Edge Server will not work.</span></span>
+<span data-ttu-id="fead9-105">Para cada servidor front-end de Lync Server 2013 o servidor Standard Edition del grupo piloto, debe actualizar la lista de servidores internos que están autorizados a conectarse al servidor perimetral de Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="fead9-105">For each Lync Server 2013 Front End Server or Standard Edition server in your pilot pool, you must update the list of internal servers that are authorized to connect to the Office Communications Server 2007 R2 Edge Server.</span></span> <span data-ttu-id="fead9-106">Sin estas actualizaciones, no funcionará la conferencia de audio/vídeo (A/V) externa para los usuarios que se unen al servidor perimetral heredado.</span><span class="sxs-lookup"><span data-stu-id="fead9-106">Without these updates, external audio/visual (A/V) conferencing for users joining by using the legacy Edge Server will not work.</span></span>
 
 <div>
 
-## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="89520-106">Para autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="89520-106">To Authorize Connection to Office Communications Server 2007 R2 Edge Server</span></span>
+## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="fead9-107">Para autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="fead9-107">To Authorize Connection to Office Communications Server 2007 R2 Edge Server</span></span>
 
-1.  <span data-ttu-id="89520-107">Desde el servidor perimetral de Office Communications Server 2007 R2, en el grupo **herramientas administrativas** , abra el complemento **Administración de equipos** .</span><span class="sxs-lookup"><span data-stu-id="89520-107">From the Office Communications Server 2007 R2 Edge Server, from the **Administrative Tools** group, open the **Computer Management** snap-in.</span></span>
+1.  <span data-ttu-id="fead9-108">Desde el servidor perimetral de Office Communications Server 2007 R2, en el grupo **herramientas administrativas** , abra el complemento **Administración de equipos** .</span><span class="sxs-lookup"><span data-stu-id="fead9-108">From the Office Communications Server 2007 R2 Edge Server, from the **Administrative Tools** group, open the **Computer Management** snap-in.</span></span>
 
-2.  <span data-ttu-id="89520-108">En el árbol de consola, expanda **Servicios y Aplicaciones**.</span><span class="sxs-lookup"><span data-stu-id="89520-108">In the console tree, expand **Services and Applications**.</span></span>
+2.  <span data-ttu-id="fead9-109">En el árbol de consola, expanda **Servicios y Aplicaciones**.</span><span class="sxs-lookup"><span data-stu-id="fead9-109">In the console tree, expand **Services and Applications**.</span></span>
 
-3.  <span data-ttu-id="89520-109">Haga clic con el botón secundario en **Office Communications Server 2007 R2** y, a continuación, haga clic en **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="89520-109">Right-click **Office Communications Server 2007 R2**, and then click **Properties**.</span></span>
+3.  <span data-ttu-id="fead9-110">Haga clic con el botón secundario en **Office Communications Server 2007 R2** y, a continuación, haga clic en **Propiedades**.</span><span class="sxs-lookup"><span data-stu-id="fead9-110">Right-click **Office Communications Server 2007 R2**, and then click **Properties**.</span></span>
 
-4.  <span data-ttu-id="89520-110">Haga clic en la pestaña **Interno**.</span><span class="sxs-lookup"><span data-stu-id="89520-110">Click the **Internal** tab.</span></span>
+4.  <span data-ttu-id="fead9-111">Haga clic en la pestaña **Interno**.</span><span class="sxs-lookup"><span data-stu-id="fead9-111">Click the **Internal** tab.</span></span>
 
-5.  <span data-ttu-id="89520-111">En **Agregar servidor**, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="89520-111">Under **Add Server**, click **Add**.</span></span>
+5.  <span data-ttu-id="fead9-112">En **Agregar servidor**, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="fead9-112">Under **Add Server**, click **Add**.</span></span>
 
-6.  <span data-ttu-id="89520-112">En el cuadro de diálogo **Agregar Office Communications Server**, escriba la información apropiada:</span><span class="sxs-lookup"><span data-stu-id="89520-112">In the **Add Office Communications Server** dialog box, enter the appropriate information:</span></span>
+6.  <span data-ttu-id="fead9-113">En el cuadro de diálogo **Agregar Office Communications Server**, escriba la información apropiada:</span><span class="sxs-lookup"><span data-stu-id="fead9-113">In the **Add Office Communications Server** dialog box, enter the appropriate information:</span></span>
     
-      - <span data-ttu-id="89520-113">Especifique el nombre de dominio completo (FQDN) de cada servidor front-end de Lync Server 2013 o servidor Standard Edition, y grupo de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="89520-113">Specify the fully qualified domain name (FQDN) of each Lync Server 2013 Front End Server or Standard Edition server, and Lync Server 2013 pool.</span></span>
+      - <span data-ttu-id="fead9-114">Especifique el nombre de dominio completo (FQDN) de cada servidor front-end de Lync Server 2013 o servidor Standard Edition, y grupo de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fead9-114">Specify the fully qualified domain name (FQDN) of each Lync Server 2013 Front End Server or Standard Edition server, and Lync Server 2013 pool.</span></span>
     
-      - <span data-ttu-id="89520-114">Especifique el FQDN del Director de Lync Server 2013 si configuró una ruta estática en el grupo de servidores que especifica el equipo del próximo salto por su FQDN.</span><span class="sxs-lookup"><span data-stu-id="89520-114">Specify the FQDN of the Lync Server 2013 Director if you configured a static route on the pool that specifies the next hop computer by its FQDN.</span></span>
+      - <span data-ttu-id="fead9-115">Especifique el FQDN del Director de Lync Server 2013 si configuró una ruta estática en el grupo de servidores que especifica el equipo del próximo salto por su FQDN.</span><span class="sxs-lookup"><span data-stu-id="fead9-115">Specify the FQDN of the Lync Server 2013 Director if you configured a static route on the pool that specifies the next hop computer by its FQDN.</span></span>
 
-7.  <span data-ttu-id="89520-115">Una vez que haya agregado una entrada para cada 2013, servidor front-end, servidor Standard Edition, grupo de servidores y director de Lync Server, haga clic en **aplicar** y, a continuación, haga clic en **Aceptar** para cerrar la página de propiedades.</span><span class="sxs-lookup"><span data-stu-id="89520-115">After you have added an entry for each Lync Server 2013, Front End Server, Standard Edition server, pool, and Director, click **Apply** and then click **OK** to close the Properties page.</span></span>
+7.  <span data-ttu-id="fead9-116">Una vez que haya agregado una entrada para cada 2013, servidor front-end, servidor Standard Edition, grupo de servidores y director de Lync Server, haga clic en **aplicar** y, a continuación, haga clic en **Aceptar** para cerrar la página de propiedades.</span><span class="sxs-lookup"><span data-stu-id="fead9-116">After you have added an entry for each Lync Server 2013, Front End Server, Standard Edition server, pool, and Director, click **Apply** and then click **OK** to close the Properties page.</span></span>
 
 </div>
 

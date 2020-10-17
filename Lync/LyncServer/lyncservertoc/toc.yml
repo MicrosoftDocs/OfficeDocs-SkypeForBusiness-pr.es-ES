@@ -275,7 +275,7 @@
                       href: ../lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md
                     - name: Implementación de tipos de direcciones IP en un servidor perimetral
                       href: ../lync-server-2013-deploy-ip-address-types-on-an-edge-server.md
-            - name: Requisitos de equilibrio de carga
+            - name: Requisitos del equilibrio de carga
               href: ../lync-server-2013-load-balancing-requirements.md
               items:
                 - name: Requisitos del equilibrador de carga de hardware
@@ -743,7 +743,7 @@
               href: ../lync-server-2013-estimating-voice-usage-and-traffic.md
             - name: Configuración de red para las características avanzadas de telefonía IP empresarial
               href: ../lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md
-            - name: Componentes necesarios para la telefonía IP empresarial
+            - name: "Componentes necesarios de la Telefonía\_IP empresarial"
               href: ../lync-server-2013-components-required-for-enterprise-voice.md
               items:
                 - name: Componentes VoIP del servidor front-end
@@ -792,7 +792,7 @@
                       href: ../lync-server-2013-pstn-gateway-deployment-options.md
                 - name: 'Tronco M:N'
                   href: ../lync-server-2013-m-n-trunk.md
-                - name: Enrutamiento entre tronco
+                - name: Enrutamiento entre troncos
                   href: ../lync-server-2013-inter-trunk-routing.md
                 - name: Reglas de conversión
                   href: ../lync-server-2013-translation-rules.md
@@ -913,19 +913,19 @@
                   href: ../lync-server-2013-technical-requirements-for-media-bypass.md
             - name: Planeación de líneas telefónicas privadas
               href: ../lync-server-2013-planning-for-private-telephone-lines.md
-            - name: Planeación del enrutamiento basado en ubicación
+            - name: Planeación del enrutamiento Location-Based
               href: ../lync-server-2013-planning-for-location-based-routing.md
               items:
-                - name: Información general sobre el enrutamiento basado en ubicación
+                - name: Información general sobre el enrutamiento de Location-Based
                   href: ../lync-server-2013-overview-of-location-based-routing.md
-                - name: Guía para el enrutamiento basado en ubicación
+                - name: Guía para el enrutamiento Location-Based
                   href: ../lync-server-2013-guidance-for-location-based-routing.md
                   items:
                     - name: Ubicación del usuario
                       href: ../lync-server-2013-user-s-location.md
                     - name: Ubicación de la puerta de enlace RTC
                       href: ../lync-server-2013-pstn-gateway-s-location.md
-                - name: Escenarios para el enrutamiento basado en ubicación
+                - name: Escenarios para Location-Based enrutamiento
                   href: ../lync-server-2013-scenarios-for-location-based-routing.md
                   items:
                     - name: Llamadas salientes
@@ -940,24 +940,24 @@
                       href: ../lync-server-2013-delegation.md
                     - name: Llamadas de equipo
                       href: ../lync-server-2013-team-calling-with-location-based-routing.md
-                - name: Consideraciones técnicas para el enrutamiento basado en ubicación
+                - name: Consideraciones técnicas para el enrutamiento Location-Based
                   href: ../lync-server-2013-technical-considerations-for-location-based-routing.md
-                - name: Compatibilidad de cliente y servidor para el enrutamiento basado en ubicación
+                - name: Compatibilidad de cliente y servidor para el enrutamiento Location-Based
                   href: ../lync-server-2013-client-and-server-support-for-location-based-routing.md
-                - name: Capacidades no compatibles con el enrutamiento basado en ubicación
+                - name: Capacidades no compatibles con el enrutamiento de Location-Based
                   href: ../lync-server-2013-capabilities-not-supported-by-location-based-routing.md
-                - name: Proceso de implementación para el enrutamiento basado en ubicación
+                - name: Proceso de implementación para el enrutamiento Location-Based
                   href: ../lync-server-2013-deployment-process-for-location-based-routing.md
-                - name: Enrutamiento basado en ubicación para conferencias
+                - name: Enrutamiento de Location-Based para conferencias
                   href: ../lync-server-2013-location-based-routing-for-conferencing.md
                   items:
-                    - name: Información general sobre el enrutamiento basado en ubicación para conferencias
+                    - name: Información general sobre el enrutamiento de Location-Based para conferencias
                       href: ../lync-server-2013-overview-of-location-based-routing-for-conferencing.md
-                    - name: Enrutamiento basado en ubicación y transferencias de llamadas de asesoría
+                    - name: Location-Based el enrutamiento y las transferencias de llamadas de asesoría
                       href: ../lync-server-2013-location-based-routing-and-consultative-call-transfers.md
-                    - name: Requisitos para el enrutamiento basado en ubicación para conferencias
+                    - name: Requisitos para el enrutamiento de Location-Based para conferencias
                       href: ../lync-server-2013-requirements-for-location-based-routing-for-conferencing.md
-                    - name: Configuración del enrutamiento basado en ubicación para conferencias
+                    - name: Configuración de enrutamiento de Location-Based para conferencias
                       href: ../lync-server-2013-configuration-of-location-based-routing-for-conferencing.md
             - name: Planeación de características de administración de llamadas
               href: ../lync-server-2013-planning-for-call-management-features.md
@@ -990,7 +990,7 @@
                       href: ../lync-server-2013-clients-supported-for-group-call-pickup.md
                     - name: Planeación de la capacidad para la recogida de llamadas grupales
                       href: ../lync-server-2013-capacity-planning-for-group-call-pickup.md
-                    - name: Proceso de implementación para la recogida de llamadas grupales
+                    - name: Proceso de implementación de la atención de llamadas grupales
                       href: ../lync-server-2013-deployment-process-for-group-call-pickup.md
                 - name: Planeación de grupos de respuesta
                   href: ../lync-server-2013-planning-for-response-groups.md
@@ -1005,7 +1005,7 @@
                       href: ../lync-server-2013-clients-supported-for-response-group.md
                     - name: Planeación de la capacidad para el grupo de respuesta
                       href: ../lync-server-2013-capacity-planning-for-response-group.md
-                    - name: Proceso de implementación del grupo de respuesta
+                    - name: Proceso de implementación de grupos de respuesta
                       href: ../lync-server-2013-deployment-process-for-response-group.md
                 - name: Planeación de anuncios
                   href: ../lync-server-2013-planning-for-announcements.md
@@ -1016,7 +1016,7 @@
                       href: ../lync-server-2013-components-used-by-the-announcement-application.md
                     - name: Requisitos técnicos para la aplicación de anuncio
                       href: ../lync-server-2013-technical-requirements-for-the-announcement-application.md
-                    - name: Proceso de implementación de la aplicación de anuncio
+                    - name: Proceso de implementación de la aplicación Anuncio
                       href: ../lync-server-2013-deployment-process-for-the-announcement-application.md
             - name: Planeación de la resistencia de la telefonía IP empresarial
               href: ../lync-server-2013-planning-for-enterprise-voice-resiliency.md
@@ -1285,7 +1285,7 @@
         - name: Implementación de Lync Server 2013
           href: ../lync-server-2013-deploying-lync-server.md
           items:
-            - name: Introducción a la implementación
+            - name: Información general sobre la implementación
               href: ../lync-server-2013-deployment-overview.md
             - name: Requisitos del sistema
               href: ../lync-server-2013-system-requirements.md
@@ -1346,7 +1346,7 @@
                     - name: Información general sobre la preparación de los servicios de dominio de Active Directory
                       href: ../lync-server-2013-overview-of-active-directory-domain-services-preparation.md
                     - name: Preparar los Servicios de dominio de Active Directory
-                      href: ../lync-server-2013-preparing-active-directory-domain-services_1.md
+                      href: ../lync-server-2013-preparing-active-directory-domain-services.md
                       items:
                         - name: Preparación del esquema de Active Directory
                           href: ../lync-server-2013-preparing-the-active-directory-schema.md
@@ -1561,7 +1561,7 @@
                   href: ../lync-server-2013-start-services-on-the-director.md
                 - name: Probar el director
                   href: ../lync-server-2013-test-the-director.md
-                - name: Configurar el inicio de sesión automático de los clientes para usar el director
+                - name: Configurar el Sign-In de cliente automático para usar el director
                   href: ../lync-server-2013-configure-automatic-client-sign-in-to-use-the-director.md
             - name: Configuración de servidores perimetrales
               href: ../lync-server-2013-setting-up-edge-servers.md
@@ -1605,11 +1605,11 @@
             - name: Configuración de la compatibilidad para el acceso de usuarios externos
               href: ../lync-server-2013-configuring-support-for-external-user-access.md
               items:
-                - name: Configuración de directivas para controlar el acceso de usuarios remotos
+                - name: Configurar directivas para el control del acceso de usuarios remotos
                   href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                - name: Habilitar o deshabilitar el acceso de usuarios remotos
+                - name: Habilitar y deshabilitar el acceso de usuarios remotos
                   href: ../lync-server-2013-enable-or-disable-remote-user-access.md
-                - name: Habilitar o deshabilitar el acceso de usuarios anónimos
+                - name: Habilitar y deshabilitar el acceso anónimo de usuarios
                   href: ../lync-server-2013-enable-or-disable-anonymous-user-access.md
                 - name: Asignar directivas de conferencia para admitir usuarios anónimos
                   href: ../lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md
@@ -1626,16 +1626,16 @@
                   href: ../lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md
             - name: Publicación de Office Web Apps Server con un servidor proxy inverso
               href: ../lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md
-            - name: Guía de aprovisionamiento para la conectividad de Lync y Skype
+            - name: Guía de aprovisionamiento para conectividad de Lync-Skype
               href: ../lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md
               items:
-                - name: Nota sobre la conectividad entre Lync y Skype para Lync Online
+                - name: Nota acerca de la conectividad de Lync-Skype para Lync Online
                   href: ../lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md
                 - name: Acceso al sitio de aprovisionamiento de conectividad de mensajería instantánea pública de Lync Server
                   href: ../lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md
-                - name: Habilitar la conectividad de Lync y Skype
+                - name: Habilitación de la conectividad Lync-Skype
                   href: ../lync-server-2013-enabling-lync-skype-connectivity.md
-                - name: Uso de la conectividad de Lync y Skype como usuario final
+                - name: Uso de la conectividad Lync-Skype como un usuario final
                   href: ../lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md
                 - name: 'Preguntas más frecuentes: aprovisionamiento de Lync Server para conectividad de Skype'
                   href: ../lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md
@@ -1645,14 +1645,14 @@
                 - name: Configuración de la Federación de Lync
                   href: ../lync-server-2013-setting-up-lync-federation.md
                   items:
-                    - name: Configuración de directivas para controlar el acceso de usuarios federados
+                    - name: Configurar directivas para controlar el acceso de usuarios federados
                       href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                 - name: Configuración de la conectividad de mensajería instantánea pública
                   href: ../lync-server-2013-setting-up-public-instant-messaging-connectivity.md
                   items:
                     - name: Configurar el cifrado de medios para proveedores públicos
                       href: ../lync-server-2013-configure-media-encryption-for-public-providers.md
-                    - name: Configuración de directivas para controlar el acceso de usuarios públicos
+                    - name: Configurar directivas para controlar el acceso de usuarios públicos
                       href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                 - name: Configuración de la Federación XMPP
                   href: ../lync-server-2013-setting-up-xmpp-federation.md
@@ -1713,7 +1713,7 @@
             - name: Configuración de troncos
               href: ../lync-server-2013-configuring-trunks.md
               items:
-                - name: Compatibilidad con varios tronco
+                - name: Compatibilidad con varios troncos
                   href: ../lync-server-2013-multiple-trunk-support.md
                 - name: Configurar un tronco con desvío de medios
                   href: ../lync-server-2013-configure-a-trunk-with-media-bypass.md
@@ -1731,7 +1731,7 @@
                           href: ../lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md
                         - name: Crear o modificar una regla de conversión de forma manual
                           href: ../lync-server-2013-create-or-modify-a-translation-rule-manually.md
-                - name: Enrutamiento entre tronco
+                - name: Enrutamiento entre troncos
                   href: ../lync-server-2013-inter-trunk-routing.md
             - name: Configurar planes de marcado
               href: ../lync-server-2013-configuring-dial-plans.md
@@ -1761,7 +1761,7 @@
                       href: ../lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md
                     - name: Configurar el escape de correo de voz
                       href: ../lync-server-2013-configuring-voice-mail-escape.md
-                - name: Ver registros de uso de RTC
+                - name: Ver registros de uso de la RTC
                   href: ../lync-server-2013-view-pstn-usage-records.md
                 - name: Configuración de rutas de voz para llamadas salientes
                   href: ../lync-server-2013-configuring-voice-routes-for-outbound-calls.md
@@ -1847,13 +1847,13 @@
                   items:
                     - name: Configuración de regiones de red para CAC
                       href: ../lync-server-2013-configure-network-regions-for-cac.md
-                    - name: Crear perfiles de directiva de ancho de banda
+                    - name: Crear perfiles de directivas de ancho de banda
                       href: ../lync-server-2013-create-bandwidth-policy-profiles.md
                     - name: Configuración de sitios de red para CAC
                       href: ../lync-server-2013-configure-network-sites-for-cac.md
                     - name: Asociar subredes a sitios de red para CAC
                       href: ../lync-server-2013-associate-subnets-with-network-sites-for-cac.md
-                    - name: Crear vínculos de región de red
+                    - name: Crear vínculos de regiones de red
                       href: ../lync-server-2013-create-network-region-links.md
                     - name: Crear rutas entre regiones de red
                       href: ../lync-server-2013;-create-network-interregion-routes.md
@@ -1873,7 +1873,7 @@
                     - name: Configuración de la información del sitio para E9-1-1
                       href: ../lync-server-2013-configure-site-information-for-e9-1-1.md
                       items:
-                        - name: Adición de una directiva de ubicación a un sitio de red
+                        - name: Agregar una directiva de ubicación a un sitio de red
                           href: ../lync-server-2013-add-a-location-policy-to-a-network-site.md
                         - name: Asociar subredes con sitios de red para E9-1-1
                           href: ../lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md
@@ -1916,14 +1916,14 @@
                           items:
                             - name: Asociar subredes con sitios de red para el desvío de medios
                               href: ../lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md
-                - name: Configuración del enrutamiento basado en ubicación
+                - name: Configuración del enrutamiento de Location-Based
                   href: ../lync-server-2013-configuring-location-based-routing.md
                   items:
                     - name: Configurar la telefonía IP empresarial
                       href: ../lync-server-2013-configuring-enterprise-voice.md
                     - name: 'Implementación de regiones de red, sitios y subredes'
                       href: ../lync-server-2013-deploying-network-regions-sites-and-subnets.md
-                    - name: Habilitar el enrutamiento basado en ubicación
+                    - name: Habilitación del enrutamiento Location-Based
                       href: ../lync-server-2013-enabling-location-based-routing.md
             - name: Implementación de características de administración de llamadas
               href: ../lync-server-2013-deploying-call-management-features.md
@@ -1940,31 +1940,31 @@
                       items:
                         - name: Crear o modificar un intervalo de órbitas de estacionamiento de llamadas
                           href: ../lync-server-2013-create-or-modify-a-call-park-orbit-range.md
-                    - name: Configurar las opciones del estacionamiento de llamadas
+                    - name: Configurar opciones de estacionamiento de llamadas
                       href: ../lync-server-2013-configure-call-park-settings.md
-                    - name: Personalizar la música de estacionamiento de llamadas en espera
+                    - name: Personalizar la música de espera para el estacionamiento de llamadas
                       href: ../lync-server-2013-customize-call-park-music-on-hold.md
-                    - name: Habilitar el estacionamiento de llamadas para los usuarios
+                    - name: Habilitar estacionamiento de llamadas para los usuarios
                       href: ../lync-server-2013-enable-call-park-for-users.md
-                    - name: Comprobar reglas de normalización para el estacionamiento de llamadas
+                    - name: Comprobar las reglas de normalización para el estacionamiento de llamadas
                       href: ../lync-server-2013-verify-normalization-rules-for-call-park.md
-                    - name: Opcional Comprobar la implementación del estacionamiento de llamadas
+                    - name: (Opcional) Comprobar la implementación del estacionamiento de llamadas
                       href: ../lync-server-2013-optional-verify-call-park-deployment.md
                 - name: Configuración de la recogida de llamadas de grupo
                   href: ../lync-server-2013-configuring-group-call-pickup.md
                   items:
                     - name: Requisitos previos y derechos de usuario para la configuración de llamada de grupo
                       href: ../lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md
-                    - name: Proceso de implementación para la recogida de llamadas grupales
+                    - name: Proceso de implementación de la atención de llamadas grupales
                       href: ../lync-server-2013-deployment-process-for-group-call-pickup.md
-                    - name: Implementación de la herramienta SEFAUtil
+                    - name: Implementar la herramienta SEFAUtil
                       href: ../lync-server-2013-deploy-the-sefautil-tool.md
                     - name: Configurar los números de grupo de atención de llamadas
                       href: ../lync-server-2013-configure-call-pickup-group-numbers.md
                       items:
-                        - name: Crear o modificar un intervalo de números de atención de llamadas grupales
+                        - name: Crear o modificar un intervalo numérico de respuesta de llamadas grupales
                           href: ../lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md
-                    - name: Habilitar la atención de llamadas grupales para los usuarios y asignar un número de grupo
+                    - name: Habilitar la respuesta de llamadas grupales para los usuarios y asignar un número de grupo
                       href: ../lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md
                     - name: Notificar la asignación de llamada de grupo a los usuarios
                       href: ../lync-server-2013-communicate-group-call-pickup-assignment-to-users.md
@@ -1975,23 +1975,23 @@
                   items:
                     - name: Permisos y requisitos previos de configuración del grupo de respuesta
                       href: ../lync-server-2013-response-group-configuration-permissions-and-prerequisites.md
-                    - name: Proceso de implementación del grupo de respuesta
+                    - name: Proceso de implementación de grupos de respuesta
                       href: ../lync-server-2013-deployment-process-for-response-group.md
                     - name: Introducción a los escenarios de creación de flujos de trabajo
                       href: ../lync-server-2013-overview-of-workflow-creation-scenarios.md
                     - name: Crear grupos de agentes de grupos de respuesta
                       href: ../lync-server-2013-create-response-group-agent-groups.md
                       items:
-                        - name: Creación o modificación de un grupo de agentes
+                        - name: Crear o modificar un grupo de agentes
                           href: ../lync-server-2013-create-or-modify-an-agent-group.md
                     - name: Crear colas de grupo de respuesta
                       href: ../lync-server-2013-create-response-group-queues.md
                       items:
-                        - name: Creación o modificación de una cola
+                        - name: Crear o modificar una cola
                           href: ../lync-server-2013-create-or-modify-a-queue.md
-                    - name: Opcional Definir el horario comercial del grupo de respuesta
+                    - name: (Opcional) Definir horarios laborales de grupos de respuesta
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: Opcional Definir conjuntos de días festivos del grupo de respuesta
+                    - name: (Opcional) Definir conjuntos de días festivos para grupos de respuesta
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: Crear flujos de trabajo de grupo de respuesta
                       href: ../lync-server-2013-create-response-group-workflows.md
@@ -2002,16 +2002,16 @@
                           href: ../lync-server-2013-design-interactive-voice-response-call-flows.md
                         - name: Creación o modificación de un flujo de trabajo interactivo
                           href: ../lync-server-2013-create-or-modify-an-interactive-workflow.md
-                    - name: Administrar la configuración del grupo de respuesta de nivel de aplicación
+                    - name: Administrar la configuración del grupo de respuesta de la aplicación
                       href: ../lync-server-2013-managing-application-level-response-group-settings.md
-                    - name: Opcional Comprobar la implementación del grupo de respuesta
+                    - name: (Opcional) Comprobar la implementación del grupo de respuesta
                       href: ../lync-server-2013-optional-verify-response-group-deployment.md
                 - name: Configuración de anuncios para números sin asignar
                   href: ../lync-server-2013-configuring-announcements-for-unassigned-numbers.md
                   items:
                     - name: Requisitos previos y roles de configuración del anuncio
                       href: ../lync-server-2013-announcement-configuration-prerequisites-and-roles.md
-                    - name: Proceso de implementación de la aplicación de anuncio
+                    - name: Proceso de implementación de la aplicación Anuncio
                       href: ../lync-server-2013-deployment-process-for-the-announcement-application.md
                     - name: Crear un anuncio
                       href: ../lync-server-2013-create-an-announcement.md
@@ -2020,11 +2020,11 @@
                       items:
                         - name: Crear o modificar un intervalo numérico sin asignar
                           href: ../lync-server-2013-create-or-modify-an-unassigned-number-range.md
-                    - name: Opcional Comprobar la implementación del anuncio
+                    - name: (Opcional) Comprobar la implementación de Anuncio
                       href: ../lync-server-2013-optional-verify-announcement-deployment.md
-            - name: Habilitar a los usuarios para la telefonía IP empresarial
+            - name: Habilitar usuarios para telefonía IP empresarial
               href: ../lync-server-2013-enable-users-for-enterprise-voice.md
-            - name: Implementar apariencia de línea compartida
+            - name: Implementar la apariencia de línea compartida
               href: ../lync-server-2013-deploy-shared-line-appearance.md
         - name: Implementación de la Conferencia
           href: ../lync-server-2013-deploying-conferencing.md
@@ -2177,7 +2177,7 @@
                               href: ../lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md
                         - name: Configuración de directivas para el archivado al usar la integración de Exchange Server
                           href: ../lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md
-                - name: Habilitar o deshabilitar el envío de una declinación de responsabilidades de archivado a socios federados
+                - name: Habilitar o deshabilitar el envío de una renuncia de archivado a socios federados
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
         - name: Planeación e implementación de vídeo
           href: ../lync-server-2013-planning-and-deploying-video.md
@@ -2221,7 +2221,7 @@
                 - name: Configuración de usuarios para la resistencia de sitios de sucursal
                   href: ../lync-server-2013-configuring-users-for-branch-site-resiliency.md
                   items:
-                    - name: Habilitar a los usuarios para la telefonía IP empresarial
+                    - name: Habilitar usuarios para telefonía IP empresarial
                       href: ../lync-server-2013-enable-users-for-enterprise-voice.md
                     - name: Crear la Directiva de enrutamiento VoIP para usuarios de sucursal
                       href: ../lync-server-2013-create-the-voip-routing-policy-for-branch-users.md
@@ -2343,7 +2343,7 @@
                   items:
                     - name: Uso de la herramienta de personalización de Office (OCT)
                       href: ../lync-server-2013-using-the-office-customization-tool-oct.md
-                    - name: 'Uso de config. XML para realizar tareas de instalación [W15]'
+                    - name: 'Uso de Config.xml para realizar tareas de instalación [W15]'
                       href: ../lync-server-2013-using-config-xml-to-perform-installation-tasks.md
                     - name: 'Uso de las opciones de la línea de comandos del programa de instalación [W15]'
                       href: ../lync-server-2013-using-setup-command-line-options.md
@@ -2626,7 +2626,7 @@
                   items:
                     - name: Descargar e instalar el módulo de conector de Skype empresarial online
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: Descarga e instalación del ayudante para el inicio de sesión de Microsoft Online Services
+                    - name: Descarga e instalación del Asistente para Sign-In de Microsoft Online Services
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: 'Descarga e instalación de Windows PowerShell 3,0'
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2711,9 +2711,9 @@
                 - name: Diagnosticar y resolver problemas de conexión con Skype empresarial online
                   href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                   items:
-                    - name: Import-error de módulo causado por la Directiva de ejecución de Windows PowerShell
+                    - name: Error de Import-Module provocado por la Directiva de ejecución de Windows PowerShell
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: Error de módulo de importación causado por una versión incorrecta de Windows PowerShell
+                    - name: Error de Import-Module causado por una versión incorrecta de Windows PowerShell
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: No se pudo conectar con el servidor de Live ID
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2747,24 +2747,24 @@
             - name: 'Fase 1: planear la migración desde Lync Server 2010'
               href: ../phase-1-plan-your-migration-from-lync-server-2010.md
               items:
-                - name: Migración de usuarios
+                - name: Migración de usuario
                   href: ../user-migration.md
-                - name: Migración de servidores de archivado y supervisión
+                - name: Migrar servidores de archivado y supervisión
                   href: ../migrating-archiving-and-monitoring-servers.md
                 - name: Migrar servidores de chat en grupo
                   href: ../migrating-group-chat-servers.md
-                - name: Administración de servidores tras la migración
+                - name: Administrar los servidores tras la migración
                   href: ../administering-servers-after-migration.md
-                - name: Migrar varios sitios y grupos de servidores
+                - name: Migrar múltiples sitios y grupos de servidores
                   href: ../migrating-multiple-sites-and-pools.md
-                - name: Migración de la Federación XMPP
+                - name: Migrar la federación XMPP
                   href: ../migrating-xmpp-federation.md
-            - name: 'Fase 2: preparar la migración'
+            - name: 'Fase 2: Preparación de la migración'
               href: ../phase-2-prepare-for-migration.md
               items:
                 - name: Aplicar actualizaciones de Lync Server 2010
                   href: ../apply-lync-server-2010-updates.md
-                - name: Configurar registros DNS para la implementación del grupo piloto
+                - name: Configurar registros DNS para una implementación de grupo de servidores piloto
                   href: ../configure-dns-records-for-pilot-pool-deployment.md
                 - name: Ejecución del Analizador de procedimientos recomendados
                   href: ../run-best-practices-analyzer.md
@@ -2783,18 +2783,18 @@
                   href: ../download-topology-from-existing-deployment.md
                 - name: Implementar el grupo piloto de Lync Server 2013
                   href: ../deploy-lync-server-2013-pilot-pool.md
-                - name: Comprobar la coexistencia del grupo piloto con el grupo heredado
+                - name: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
                   href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
-                - name: Conectar el grupo piloto a servidores perimetrales heredados
+                - name: Conecte el grupo de servidores piloto a los servidores perimetrales heredados
                   href: ../connect-pilot-pool-to-legacy-edge-servers.md
-                - name: Configurar las directivas y los certificados de acceso a puertas de enlace XMPP
+                - name: Configurar certificados y directivas de acceso por puerta de enlace XMPP
                   href: ../configure-xmpp-gateway-access-policies-and-certificates.md
             - name: 'Fase 4: mover usuarios de prueba al grupo piloto'
               href: ../phase-4-move-test-users-to-the-pilot-pool.md
               items:
                 - name: Ver usuarios actuales en el grupo de servidores 2010 de Lync Server
                   href: ../view-current-users-in-lync-server-2010-pool.md
-                - name: Comprobar que la replicación de usuarios se ha completado
+                - name: La comprobación de la replicación de usuarios ha finalizado
                   href: ../verify-user-replication-has-completed.md
                 - name: Mover un solo usuario al grupo piloto
                   href: ../move-a-single-user-to-the-pilot-pool.md
@@ -2807,23 +2807,23 @@
                   href: ../deploy-pilot-edge-server.md
                 - name: Comprobación de los parámetros de configuración
                   href: ../verify-configuration-settings.md
-            - name: 'Fase 6: pasar de la implementación piloto a la producción'
+            - name: 'Fase 6: Pasar de la implementación piloto a la producción'
               href: ../phase-6-move-from-pilot-deployment-into-production.md
               items:
                 - name: Configurar las rutas de federación y el tráfico multimedia
                   href: ../configure-federation-routes-and-media-traffic.md
                 - name: Comprobar la federación y el acceso remoto de usuarios externos
                   href: ../verify-federation-and-remote-access-for-external-users.md
-                - name: Cambiar direcciones URL sencillas después de la migración
+                - name: Cambiar las direcciones URL simples tras la migración
                   href: ../change-simple-urls-after-migration.md
                 - name: Mover los usuarios restantes a Lync Server 2013
                   href: ../move-remaining-users-to-lync-server-2013.md
                 - name: Configurar la puerta de enlace XMPP en Lync Server 2013
                   href: ../configure-xmpp-gateway-on-lync-server-2013.md
-            - name: 'Fase 7: completar las tareas posteriores a la migración'
+            - name: 'Fase 7: Finalización de las tareas posteriores a la migración'
               href: ../phase-7-complete-post-migration-tasks.md
               items:
-                - name: Migrar las reuniones y el contenido de reuniones existentes
+                - name: Migración de reuniones existentes y contenido de reuniones
                   href: ../migrate-existing-meetings-and-meeting-content.md
                 - name: Migrar los números de acceso telefónico
                   href: ../migrate-dial-in-access-numbers.md
@@ -2833,7 +2833,7 @@
                   href: ../migrate-response-groups.md
                 - name: Migrar la Libreta de direcciones
                   href: ../migrate-address-book.md
-                - name: Configurar la página de participación en la reunión
+                - name: Configurar la página para unirse a la reunión
                   href: ../configure-the-meeting-join-page.md
                 - name: Quitar los servidores de archivado y supervisión heredados
                   href: ../remove-legacy-archiving-and-monitoring-servers.md
@@ -2841,26 +2841,26 @@
                   href: ../configure-trusted-application-servers.md
                 - name: Implementar clientes de Lync Server 2013
                   href: ../deploy-lync-server-2013-clients.md
-                - name: Conexión de una aplicación de sucursal con funciones de supervivencia
+                - name: Conectar una aplicación de sucursal con funciones de supervivencia
                   href: ../connect-a-survivable-branch-appliance.md
-                - name: Configurar la supervisión de SCOM
+                - name: Configurar la supervisión SCOM
                   href: ../configure-scom-monitoring.md
                 - name: Migrar teléfonos de área común
                   href: ../migrate-common-area-phones.md
                 - name: Migrar dispositivos analógicos
                   href: ../migrate-analog-devices.md
-            - name: 'Fase 8: retirar grupos heredados'
+            - name: 'Fase 8: Retirar los grupos de servidores heredados'
               href: ../phase-8-decommission-legacy-pools.md
               items:
-                - name: Actualizar registros DNS SRV
+                - name: Actualizar registros SRV de DNS
                   href: ../update-dns-srv-records.md
                 - name: Mover el servidor de administración central de Lync Server 2010 a Lync Server 2013
                   href: ../move-the-lync-server-2010-central-management-server-to-lync-server-2013.md
                 - name: Mover directorios de conferencia
                   href: ../move-lync-server-2010-conference-directories-to-lync-server-2013.md
-                - name: Quitar la Asociación del servidor de archivado
+                - name: Quitar la asociación del servidor de archivado
                   href: ../remove-the-archiving-server-association.md
-                - name: Quitar la Asociación del servidor de supervisión
+                - name: Quitar la asociación del servidor de supervisión
                   href: ../remove-the-monitoring-server-association.md
                 - name: Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition
                   href: ../remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md
@@ -2873,9 +2873,9 @@
                       href: ../stop-lync-server-2010-services.md
                     - name: Quitar un servidor front-end de un grupo de servidores
                       href: ../remove-a-front-end-server-from-a-pool.md
-                    - name: Quitar un grupo de servidores front-end o un servidor Standard Edition
+                    - name: Quitar un grupo de servidores front-end o servidor Standard Edition
                       href: ../remove-front-end-pool-or-standard-edition-server.md
-                - name: Quitar instancias y bases de datos de SQL Server en el servidor back-end
+                - name: Quitar instancias de SQL Server y bases de datos en el servidor back-end
                   href: ../remove-sql-server-instances-and-databases-on-the-back-end-server.md
                   items:
                     - name: Quitar la base de datos de SQL Server para un grupo de servidores front-end
@@ -2888,51 +2888,51 @@
           href: ../migration-from-office-communications-server-2007-r2-to-lync-server-2013.md
           items:
             - name: Antes de comenzar la migración
-              href: ../before-you-begin-the-migration_1.md
+              href: ../before-you-begin-the-migration.md
               items:
                 - name: Proceso de migración
-                  href: ../migration-process_1.md
+                  href: ../migration-process.md
                 - name: Fases de la migración
-                  href: ../migration-phases_1.md
+                  href: ../migration-phases.md
             - name: 'Fase 1: planear la migración desde Office Communications Server 2007 R2'
               href: ../phase-1-plan-your-migration-from-office-communications-server-2007-r2.md
               items:
-                - name: Migración de usuarios
-                  href: ../user-migration_1.md
-                - name: Migración de servidores de archivado y supervisión
-                  href: ../migrating-archiving-and-monitoring-servers_1.md
-                - name: Administración de servidores tras la migración
-                  href: ../administering-servers-after-migration_1.md
-                - name: Migrar varios sitios y grupos de servidores
-                  href: ../migrating-multiple-sites-and-pools_1.md
-                - name: Migración de la Federación XMPP
-                  href: ../migrating-xmpp-federation_1.md
-            - name: 'Fase 2: preparar la migración'
-              href: ../phase-2-prepare-for-migration_1.md
+                - name: Migración de usuario
+                  href: ../user-migration.md
+                - name: Migrar servidores de archivado y supervisión
+                  href: ../migrating-archiving-and-monitoring-servers.md
+                - name: Administrar los servidores tras la migración
+                  href: ../administering-servers-after-migration.md
+                - name: Migrar múltiples sitios y grupos de servidores
+                  href: ../migrating-multiple-sites-and-pools.md
+                - name: Migrar la federación XMPP
+                  href: ../migrating-xmpp-federation.md
+            - name: 'Fase 2: Preparación de la migración'
+              href: ../phase-2-prepare-for-migration.md
               items:
                 - name: Aplicar actualizaciones de Office Communications Server 2007 R2
                   href: ../apply-office-communications-server-2007-r2-updates.md
-                - name: Configurar registros DNS para la implementación del grupo piloto
-                  href: ../configure-dns-records-for-pilot-pool-deployment_1.md
+                - name: Configurar registros DNS para una implementación de grupo de servidores piloto
+                  href: ../configure-dns-records-for-pilot-pool-deployment.md
                 - name: Ejecución del Analizador de procedimientos recomendados
-                  href: ../run-best-practices-analyzer_1.md
+                  href: ../run-best-practices-analyzer.md
                 - name: Copia de seguridad de los datos y sistemas
-                  href: ../back-up-systems-and-data_1.md
+                  href: ../back-up-systems-and-data.md
                 - name: Configurar los clientes para la migración
-                  href: ../configure-clients-for-migration_1.md
+                  href: ../configure-clients-for-migration.md
                 - name: Comprobar el entorno de Office Communications Server 2007 R2
                   href: ../verify-office-communications-server-2007-r2-environment.md
             - name: 'Fase 3: implementar el grupo piloto de Lync Server 2013'
-              href: ../phase-3-deploy-lync-server-2013-pilot-pool_1.md
+              href: ../phase-3-deploy-lync-server-2013-pilot-pool.md
               items:
                 - name: Preparar Active Directory para Lync Server 2013
                   href: ../prepare-active-directory-for-lync-server-2013.md
                 - name: Instalación de las herramientas de administración de Lync Server
                   href: ../install-lync-server-administration-tools.md
                 - name: Implementar el grupo piloto de Lync Server 2013
-                  href: ../deploy-lync-server-2013-pilot-pool_1.md
-                - name: Comprobar la coexistencia del grupo piloto con el grupo heredado
-                  href: ../verify-pilot-pool-coexistence-with-legacy-pool_1.md
+                  href: ../deploy-lync-server-2013-pilot-pool.md
+                - name: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
+                  href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
             - name: 'Fase 4: combinar topologías'
               href: ../phase-4-merge-topologies.md
               items:
@@ -2947,57 +2947,57 @@
             - name: 'Fase 5: configurar el grupo piloto'
               href: ../phase-5-configure-the-pilot-pool.md
               items:
-                - name: Conectar el grupo piloto a servidores perimetrales heredados
-                  href: ../connect-pilot-pool-to-legacy-edge-servers_1.md
+                - name: Conecte el grupo de servidores piloto a los servidores perimetrales heredados
+                  href: ../connect-pilot-pool-to-legacy-edge-servers.md
                 - name: Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2
                   href: ../authorize-connection-to-office-communications-server-2007-r2-edge-server.md
                 - name: Comprobación de los parámetros de configuración
-                  href: ../verify-configuration-settings_1.md
-                - name: Configurar las directivas y los certificados de acceso a puertas de enlace XMPP
-                  href: ../configure-xmpp-gateway-access-policies-and-certificates_1.md
+                  href: ../verify-configuration-settings.md
+                - name: Configurar certificados y directivas de acceso por puerta de enlace XMPP
+                  href: ../configure-xmpp-gateway-access-policies-and-certificates.md
             - name: 'Fase 6: mover usuarios al grupo piloto'
               href: ../phase-6-move-users-to-the-pilot-pool.md
               items:
-                - name: Comprobar que la replicación de usuarios se ha completado
-                  href: ../verify-user-replication-has-completed_1.md
+                - name: La comprobación de la replicación de usuarios ha finalizado
+                  href: ../verify-user-replication-has-completed.md
                 - name: Mover un solo usuario al grupo piloto
-                  href: ../move-a-single-user-to-the-pilot-pool_1.md
+                  href: ../move-a-single-user-to-the-pilot-pool.md
                 - name: Mover varios usuarios al grupo piloto
-                  href: ../move-multiple-users-to-the-pilot-pool_1.md
+                  href: ../move-multiple-users-to-the-pilot-pool.md
             - name: 'Fase 7: agregar un servidor perimetral de Lync Server 2013 a un grupo piloto'
               href: ../phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md
               items:
                 - name: Implementar el servidor perimetral piloto
-                  href: ../deploy-pilot-edge-server_1.md
+                  href: ../deploy-pilot-edge-server.md
                 - name: Validar la replicación de las opciones de configuración
                   href: ../validate-replication-of-configuration-settings.md
             - name: 'Fase 8: pasar de la implementación piloto a la producción'
               href: ../phase-8-move-from-pilot-deployment-into-production.md
               items:
                 - name: Configurar las rutas de federación y el tráfico multimedia
-                  href: ../configure-federation-routes-and-media-traffic_1.md
+                  href: ../configure-federation-routes-and-media-traffic.md
                 - name: Mover los usuarios restantes a Lync Server 2013
-                  href: ../move-remaining-users-to-lync-server-2013_1.md
+                  href: ../move-remaining-users-to-lync-server-2013.md
                 - name: Configurar la puerta de enlace XMPP en Lync Server 2013
-                  href: ../configure-xmpp-gateway-on-lync-server-2013_1.md
+                  href: ../configure-xmpp-gateway-on-lync-server-2013.md
             - name: 'Fase 9: completar las tareas posteriores a la migración'
               href: ../phase-9-complete-post-migration-tasks.md
               items:
                 - name: Migrar los grupos de respuesta
-                  href: ../migrate-response-groups_1.md
+                  href: ../migrate-response-groups.md
                 - name: Migrar los números de acceso telefónico
-                  href: ../migrate-dial-in-access-numbers_1.md
+                  href: ../migrate-dial-in-access-numbers.md
                 - name: Habilitar la integración de Exchange 2013 Outlook Web App y mensajería instantánea
                   href: ../enable-exchange-2013-outlook-web-app-and-im-integration.md
                 - name: Migrar la Libreta de direcciones
-                  href: ../migrate-address-book_1.md
+                  href: ../migrate-address-book.md
                 - name: Habilitar control remoto de llamadas
                   href: ../enable-remote-call-control.md
                   items:
                     - name: Quitar una entrada de host autorizado
                       href: ../remove-an-authorized-host-entry.md
                 - name: Quitar los servidores de archivado y supervisión heredados
-                  href: ../remove-legacy-archiving-and-monitoring-servers_1.md
+                  href: ../remove-legacy-archiving-and-monitoring-servers.md
                 - name: Migrar el servidor de mediación
                   href: ../migrate-mediation-server.md
                   items:
@@ -3008,11 +3008,11 @@
                     - name: Transición de un servidor de mediación combinado a un servidor de mediación independiente (opcional)
                       href: ../transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md
                 - name: Configuración de servidores de aplicaciones de confianza
-                  href: ../configure-trusted-application-servers_1.md
-                - name: Configurar la página de participación en la reunión
-                  href: ../configure-the-meeting-join-page_1.md
+                  href: ../configure-trusted-application-servers.md
+                - name: Configurar la página para unirse a la reunión
+                  href: ../configure-the-meeting-join-page.md
                 - name: Implementar clientes de Lync Server 2013
-                  href: ../deploy-lync-server-2013-clients_1.md
+                  href: ../deploy-lync-server-2013-clients.md
                 - name: Mover objetos de contacto de mensajería unificada de Exchange
                   href: ../move-exchange-unified-messaging-contact-objects.md
                 - name: Comprobar que todos los objetos de contacto de mensajería unificada de Exchange se han quitado del grupo heredado
@@ -3022,8 +3022,8 @@
               items:
                 - name: Mover directorios de conferencia
                   href: ../move-conference-directories.md
-                - name: Actualizar registros DNS SRV
-                  href: ../update-dns-srv-records_1.md
+                - name: Actualizar registros SRV de DNS
+                  href: ../update-dns-srv-records.md
                 - name: Retirar servidores y grupos de servidores
                   href: ../decommissioning-servers-and-pools.md
                 - name: Quitar BackCompatSite
@@ -3037,7 +3037,7 @@
               href: ../migration-process-details.md
             - name: Consideraciones sobre la coexistencia
               href: ../coexistence-considerations.md
-    - name: Operaciones
+    - name: Operations
       href: ../lync-server-2013-operations.md
       items:
         - name: Guía de operaciones
@@ -3308,7 +3308,7 @@
                 - name: Administración de la telefonía IP empresarial para los usuarios
                   href: ../lync-server-2013-managing-enterprise-voice-for-users.md
                   items:
-                    - name: Habilitar a los usuarios para la telefonía IP empresarial
+                    - name: Habilitar usuarios para telefonía IP empresarial
                       href: ../lync-server-2013-enable-users-for-enterprise-voice.md
                     - name: Deshabilitar a un usuario para la telefonía IP empresarial
                       href: ../lync-server-2013-disable-a-user-for-enterprise-voice.md
@@ -3319,16 +3319,16 @@
                       href: ../lync-server-2013-configure-telephony-for-a-user.md
                     - name: Mover usuarios a otro grupo
                       href: ../lync-server-2013-move-users-to-another-pool.md
-                - name: Administrar la Directiva de acceso externo para la organización
+                - name: Administración de la directiva de acceso externo a la organización
                   href: ../lync-server-2013-manage-external-access-policy-for-your-organization.md
                   items:
-                    - name: Configuración de directivas para controlar el acceso de usuarios federados
+                    - name: Configurar directivas para controlar el acceso de usuarios federados
                       href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                     - name: Configuración de directivas para controlar el acceso de usuarios federados de XMPP
                       href: ../lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md
-                    - name: Configuración de directivas para controlar el acceso de usuarios remotos
+                    - name: Configurar directivas para el control del acceso de usuarios remotos
                       href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                    - name: Configuración de directivas para controlar el acceso de usuarios públicos
+                    - name: Configurar directivas para controlar el acceso de usuarios públicos
                       href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                     - name: Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync
                       href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
@@ -3505,11 +3505,11 @@
             - name: Configuración de troncos
               href: ../lync-server-2013-configuring-trunks.md
               items:
-                - name: Compatibilidad con varios tronco
+                - name: Compatibilidad con varios troncos
                   href: ../lync-server-2013-multiple-trunk-support.md
                 - name: Enrutamiento de intertronco
                   href: ../lync-server-2013-intertrunk-routing.md
-                - name: Ver la información de configuración de tronco
+                - name: Visualización de la información de configuración de troncos
                   href: ../lync-server-2013-view-trunk-configuration-information.md
                 - name: Configurar un tronco con desvío de medios
                   href: ../lync-server-2013-configure-a-trunk-with-media-bypass.md
@@ -3537,7 +3537,7 @@
                       href: ../lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md
                     - name: Configurar el escape de correo de voz
                       href: ../lync-server-2013-configuring-voice-mail-escape.md
-                - name: Ver registros de uso de RTC
+                - name: Ver registros de uso de la RTC
                   href: ../lync-server-2013-view-pstn-usage-records.md
                 - name: Configuración de rutas de voz para llamadas salientes
                   href: ../lync-server-2013-configuring-voice-routes-for-outbound-calls.md
@@ -3593,9 +3593,9 @@
                       href: ../lync-server-2013-create-or-modify-a-call-park-orbit-range.md
                     - name: Eliminar un intervalo de órbitas de estacionamiento de llamadas
                       href: ../lync-server-2013-delete-a-call-park-orbit-range.md
-                - name: Configurar las opciones del estacionamiento de llamadas
+                - name: Configurar opciones de estacionamiento de llamadas
                   href: ../lync-server-2013-configure-call-park-settings.md
-                - name: Personalizar la música de estacionamiento de llamadas en espera
+                - name: Personalizar la música de espera para el estacionamiento de llamadas
                   href: ../lync-server-2013-customize-call-park-music-on-hold.md
                 - name: Administrar el estacionamiento de llamadas durante la recuperación ante desastres
                   href: ../lync-server-2013-manage-call-park-during-disaster-recovery.md
@@ -3610,7 +3610,7 @@
                 - name: Configurar intervalos de números de llamadas de grupo
                   href: ../lync-server-2013-configure-group-call-pickup-number-ranges.md
                   items:
-                    - name: Crear o modificar un intervalo de números de atención de llamadas grupales
+                    - name: Crear o modificar un intervalo numérico de respuesta de llamadas grupales
                       href: ../lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md
                     - name: Eliminar un intervalo de números de atención de llamadas grupales
                       href: ../lync-server-2013-delete-a-group-call-pickup-number-range.md
@@ -3631,14 +3631,14 @@
                 - name: Administración de grupos de agentes de grupo de respuesta
                   href: ../lync-server-2013-managing-response-group-agent-groups.md
                   items:
-                    - name: Creación o modificación de un grupo de agentes
+                    - name: Crear o modificar un grupo de agentes
                       href: ../lync-server-2013-create-or-modify-an-agent-group.md
                     - name: Eliminar un grupo de agentes
                       href: ../lync-server-2013-delete-an-agent-group.md
                 - name: Administración de colas de grupo de respuesta
                   href: ../lync-server-2013-managing-response-group-queues.md
                   items:
-                    - name: Creación o modificación de una cola
+                    - name: Crear o modificar una cola
                       href: ../lync-server-2013-create-or-modify-a-queue.md
                     - name: Eliminación de una cola de grupo de respuesta
                       href: ../lync-server-2013-delete-a-response-group-queue.md
@@ -3647,9 +3647,9 @@
                   items:
                     - name: Diseñar flujos de llamadas de respuesta de voz interactiva
                       href: ../lync-server-2013-design-interactive-voice-response-call-flows.md
-                    - name: Opcional Definir el horario comercial del grupo de respuesta
+                    - name: (Opcional) Definir horarios laborales de grupos de respuesta
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: Opcional Definir conjuntos de días festivos del grupo de respuesta
+                    - name: (Opcional) Definir conjuntos de días festivos para grupos de respuesta
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: Creación o modificación de un flujo de trabajo
                       href: ../lync-server-2013-create-or-modify-a-workflow.md
@@ -3660,7 +3660,7 @@
                           href: ../lync-server-2013-create-or-modify-an-interactive-workflow.md
                     - name: Eliminación de un flujo de trabajo
                       href: ../lync-server-2013-delete-a-workflow.md
-                - name: Administrar la configuración del grupo de respuesta de nivel de aplicación
+                - name: Administrar la configuración del grupo de respuesta de la aplicación
                   href: ../lync-server-2013-managing-application-level-response-group-settings.md
                 - name: Mover grupos de respuesta a un nuevo grupo de servidores
                   href: ../lync-server-2013-moving-response-groups-to-a-new-pool.md
@@ -3881,16 +3881,16 @@
         - name: Administración de la Federación y el acceso externo a Lync Server 2013
           href: ../lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md
           items:
-            - name: Administrar la Directiva de acceso externo para la organización
+            - name: Administración de la directiva de acceso externo a la organización
               href: ../lync-server-2013-manage-external-access-policy-for-your-organization.md
               items:
-                - name: Configuración de directivas para controlar el acceso de usuarios federados
+                - name: Configurar directivas para controlar el acceso de usuarios federados
                   href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                 - name: Configuración de directivas para controlar el acceso de usuarios federados de XMPP
                   href: ../lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md
-                - name: Configuración de directivas para controlar el acceso de usuarios remotos
+                - name: Configurar directivas para el control del acceso de usuarios remotos
                   href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                - name: Configuración de directivas para controlar el acceso de usuarios públicos
+                - name: Configurar directivas para controlar el acceso de usuarios públicos
                   href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                 - name: Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync
                   href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
@@ -3904,15 +3904,15 @@
             - name: Administrar la configuración perimetral de acceso para su organización
               href: ../lync-server-2013-manage-access-edge-configuration-for-your-organization.md
               items:
-                - name: Habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública
+                - name: Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública
                   href: ../lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md
-                - name: Habilitar o deshabilitar la detección de socios de Federación
+                - name: Habilitar o deshabilitar la detección de socios de federación
                   href: ../lync-server-2013-enable-or-disable-discovery-of-federation-partners.md
-                - name: Habilitar o deshabilitar el envío de una declinación de responsabilidades de archivado a socios federados
+                - name: Habilitar o deshabilitar el envío de una renuncia de archivado a socios federados
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
-                - name: Habilitar o deshabilitar el acceso de usuarios remotos
+                - name: Habilitar y deshabilitar el acceso de usuarios remotos
                   href: ../lync-server-2013-enable-or-disable-remote-user-access.md
-                - name: Habilitar o deshabilitar el acceso de usuarios anónimos
+                - name: Habilitar y deshabilitar el acceso anónimo de usuarios
                   href: ../lync-server-2013-enable-or-disable-anonymous-user-access.md
                 - name: Asignar directivas de conferencia para admitir usuarios anónimos
                   href: ../lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md
@@ -3979,7 +3979,7 @@
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: Habilitar o deshabilitar el modo crítico para bloquear o permitir sesiones de mensajería instantánea y conferencias web si se produce un error de archivado
                   href: ../lync-server-2013-enable-disable-critical-mode.md
-                - name: Habilitar o deshabilitar el envío de una declinación de responsabilidades de archivado a socios federados
+                - name: Habilitar o deshabilitar el envío de una renuncia de archivado a socios federados
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: Habilitar o deshabilitar la integración con el almacenamiento de Exchange
                   href: ../lync-server-2013-enabling-or-disabling-integration-with-exchange-storage.md
@@ -3995,7 +3995,7 @@
             - name: Administración de certificados para procesos operativos
               href: ../lync-server-2013-managing-certificates-for-operational-processes.md
               items:
-                - name: Almacenamiento provisional de certificados AV y OAuth usando-Roll en Set-CsCertificate
+                - name: Almacenamiento provisional de certificados AV y OAuth mediante la puesta en Set-CsCertificate
                   href: 'https://technet.microsoft.com/library/Gg398518(v=OCS.15)'
             - name: Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de socio
               href: ../lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
@@ -4029,7 +4029,7 @@
                   items:
                     - name: Ver la Directiva de PIN información
                       href: ../lync-server-2013-view-pin-policy-inforrmation.md
-                    - name: Crear una nueva Directiva de PIN
+                    - name: Crear una directiva de PIN nueva
                       href: ../lync-server-2013-create-a-new-pin-policy.md
                     - name: Modificar una directiva de PIN existente
                       href: ../lync-server-2013-modify-an-existing-pin-policy.md
@@ -4040,11 +4040,11 @@
                 - name: Administración de PIN de usuario
                   href: ../lync-server-2013-managing-user-pins.md
                   items:
-                    - name: Establecer el PIN de conferencia de acceso telefónico local de un usuario
+                    - name: Establecer el PIN de conferencia de acceso telefónico local para un usuario
                       href: ../lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md
-                    - name: Ver información de PIN de usuario
+                    - name: Ver la información del PIN del usuario
                       href: ../lync-server-2013-view-user-pin-information.md
-                    - name: Bloqueo o desbloqueo de un PIN de usuario
+                    - name: Bloquear o desbloquear el PIN de un usuario
                       href: ../lync-server-2013-lock-or-unlock-a-user-pin.md
         - name: Administración de la infraestructura de red de Lync Server 2013
           href: ../lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md
@@ -4234,7 +4234,7 @@
         - name: 'Administración del servicio de copia de seguridad, alta disponibilidad y recuperación ante desastres de Lync Server 2013'
           href: ../lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md
           items:
-            - name: Configuración y supervisión del servicio de copia de seguridad
+            - name: Configurar y supervisar el servicio de copia de seguridad
               href: ../lync-server-2013-configuring-and-monitoring-the-backup-service.md
             - name: Conmutación por error de un grupo de servidores
               href: ../lync-server-2013-failing-over-a-pool.md
@@ -4505,12 +4505,12 @@
     - name: Referencia del esquema
       href: ../lync-server-2013-schema-reference.md
       items:
-        - name: Esquema de base de datos de registro detallado de llamadas (CDR)
+        - name: Esquema de la base de datos de registro de detalles de llamadas (CDR)
           href: ../lync-server-2013-call-detail-recording-cdr-database-schema.md
           items:
             - name: Lista de tablas de CDR
               href: ../lync-server-2013-list-of-cdr-tables.md
-            - name: Detalles de la tabla de CDR
+            - name: Detalles de tablas CDR
               href: ../lync-server-2013-cdr-table-details.md
               items:
                 - name: Tabla de aplicaciones
@@ -4651,7 +4651,7 @@
           items:
             - name: Lista de tablas de QoE
               href: ../lync-server-2013-list-of-qoe-tables.md
-            - name: Detalles de la tabla QoE
+            - name: Detalles de la tabla de QoE
               href: ../lync-server-2013-qoe-table-details.md
               items:
                 - name: Tabla AppliedBandwidthSource
@@ -4741,7 +4741,7 @@
                   href: ../lync-server-2013-videostreamdetail-view.md
             - name: Consultas de base de datos de QoE de ejemplo
               href: ../lync-server-2013-sample-qoe-database-queries.md
-        - name: Esquema de base de datos de chat persistente
+        - name: Esquema de la base de datos de chat persistente
           href: ../lync-server-2013-persistent-chat-database-schema.md
           items:
             - name: Lista de tablas de servidores de chat persistente
@@ -4795,7 +4795,7 @@
                   href: ../lync-server-2013-tblpreference.md
                 - name: tblFileToken
                   href: ../lync-server-2013-tblfiletoken.md
-                - name: Tabla tblserveridentity
+                - name: tblServerIdentity
                   href: ../lync-server-2013-tblserveridentity.md
                 - name: tblAdminLock
                   href: ../lync-server-2013-tbladminlock.md
@@ -4813,7 +4813,7 @@
                   href: ../lync-server-2013-tblcomplianceparticipant.md
                 - name: tblComplianceState
                   href: ../lync-server-2013-tblcompliancestate.md
-            - name: Consultas de base de datos de chat persistente de ejemplo
+            - name: Consultas de base de datos del chat persistente de ejemplo
               href: ../lync-server-2013-sample-persistent-chat-database-queries.md
         - name: 'Extensiones de esquema, clases y atributos de Active Directory usados por Lync Server 2013'
           href: ../lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md
@@ -4824,7 +4824,7 @@
               href: ../lync-server-2013-schema-classes-and-descriptions.md
             - name: Atributos de esquema por clase
               href: ../lync-server-2013-schema-attributes-by-class.md
-            - name: Atributos y descripciones del esquema
+            - name: Atributos de esquema y descripciones
               href: ../lync-server-2013-schema-attributes-and-descriptions.md
             - name: Cambios realizados por la preparación del bosque
               href: ../lync-server-2013-changes-made-by-forest-preparation.md
