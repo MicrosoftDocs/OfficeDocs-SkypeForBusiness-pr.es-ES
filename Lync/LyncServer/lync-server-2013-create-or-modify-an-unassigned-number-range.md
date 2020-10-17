@@ -12,20 +12,22 @@ ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7252b2cda2f957dc72e006b7ce298bc5dd87fd5a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4409a0c5688d131b34c792230c992142dd4f9c51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206306"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514687"
 ---
+# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Crear o modificar un intervalo numérico sin asignar en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Crear o modificar un intervalo numérico sin asignar en Lync Server 2013
+
 
 </div>
 
@@ -86,7 +88,7 @@ Use uno de los siguientes procedimientos para configurar intervalos numéricos s
     > <LI>
     > <P>Si el número inicial o final del intervalo incluye un número de extensión, ambos números del intervalo deben incluir la extensión y el número de extensión debe ser igual al número inicial y final del intervalo.</P>
     > <LI>
-    > <P>El número debe coincidir con la expresión regular (Tel:) ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9})?. Esto significa que el número puede comenzar con la cadena de caracteres tel: (si no especifica la cadena de caracteres, se agregará automáticamente), un signo más (+), y un dígito del 1 al 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".</P></LI></UL>
+    > <P>El número debe coincidir con la expresión regular (Tel:)? ( \+ )? [1-9] \d {0,17} (; ext = [1-9] \d {0,9} )?. Esto significa que el número puede comenzar con la cadena de caracteres tel: (si no especifica la cadena de caracteres, se agregará automáticamente), un signo más (+), y un dígito del 1 al 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".</P></LI></UL>
 
     
     </div>
@@ -167,7 +169,7 @@ Use uno de los siguientes procedimientos para configurar intervalos numéricos s
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Eliminar un intervalo numérico sin asignar en Lync Server 2013](lync-server-2013-delete-an-unassigned-number-range.md)  

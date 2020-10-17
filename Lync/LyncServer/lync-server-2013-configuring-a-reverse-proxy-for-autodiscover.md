@@ -12,20 +12,22 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 568e96b999a74ec621f8c7386f24e83d3848721c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b0fb05667ea6ebcb8176353d42fda5cf2eaadfd7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208026"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515587"
 ---
+# <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a>Configuración de un proxy inverso para detección automática en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a>Configuración de un proxy inverso para detección automática en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-12-12_
 
 La detección automática y la compatibilidad de clientes con detección automática requieren la modificación de una regla de publicación web existente o la creación de una nueva regla de publicación web para el proxy inverso. La modificación o la creación de una nueva regla de publicación no depende de la decisión de actualizar o no actualizar las listas de nombres alternativos de sujeto en los certificados de proxy inverso.
 
-Si decide usar HTTPS para las solicitudes del servicio de detección automática de Lync Server 2013 y actualizar las listas de nombres alternativos de sujeto en los certificados de proxy inverso, debe asignar el certificado público actualizado a la escucha de capa de sockets seguros (SSL) en el proxy inverso. La actualización necesaria para el certificado externo (público) incluirá la entrada de nombre alternativo de sujeto (SAN) para lyncdiscover. \<nombre\>de dominio. A continuación, debe modificar la escucha existente para los servicios web externos o crear una nueva regla de publicación web para la dirección URL externa del servicio Detección automática, por ejemplo **lyncdiscover.contoso.com**. Si aún no tiene una regla de publicación web para la dirección URL externa de servicios Web de Lync Server 2013 para el grupo de servidores front-end y el grupo de servidores de Director (si ha implementado directores), también deberá publicar una regla para ello.
+Si decide usar HTTPS para las solicitudes del servicio de detección automática de Lync Server 2013 y actualizar las listas de nombres alternativos de sujeto en los certificados de proxy inverso, debe asignar el certificado público actualizado a la escucha de capa de sockets seguros (SSL) en el proxy inverso. La actualización necesaria para el certificado externo (público) incluirá la entrada de nombre alternativo de sujeto (SAN) para lyncdiscover. \<domain name\> . A continuación, debe modificar la escucha existente para los servicios web externos o crear una nueva regla de publicación web para la dirección URL externa del servicio Detección automática, por ejemplo **lyncdiscover.contoso.com**. Si aún no tiene una regla de publicación web para la dirección URL externa de servicios Web de Lync Server 2013 para el grupo de servidores front-end y el grupo de servidores de Director (si ha implementado directores), también deberá publicar una regla para ello.
 
 <div>
 
@@ -83,15 +85,15 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 7.  En la página **detalles internos de publicación** , en **nombre de sitio interno**, escriba el nombre de dominio completo (FQDN) de su grupo de directores (por ejemplo, lyncdir01. contoso. local). Si va a crear una regla para la dirección URL de servicios web externos en el grupo de servidores front-end, escriba el nombre de dominio completo (FQDN) del grupo de servidores front-end (por ejemplo, lyncpool01. contoso. local).
 
-8.  En la **página Detalles internos de publicación** , en **ruta de acceso (opcional)**, escriba ** / ** como la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original**.
+8.  En la página **detalles internos de publicación** , en **ruta de acceso (opcional)**, escriba **/\*** como la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original**.
 
 9.  En la página **Detalles de nombre público**, siga este procedimiento:
     
       - En **Aceptar peticiones para**, seleccione **Este nombre de dominio**.
     
-      - En **nombre público**, escriba **lyncdiscover.** \<sipdomain\> (la dirección URL externa del servicio Detección automática). Si va a crear una regla para la dirección URL de servicios web externos en el grupo de servidores front-end, escriba el nombre de dominio completo (FQDN) de los servicios web externos en el grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com).
+      - En **nombre público**, escriba **lyncdiscover.**\<sipdomain\> (la dirección URL externa del servicio Detección automática). Si va a crear una regla para la dirección URL de servicios web externos en el grupo de servidores front-end, escriba el nombre de dominio completo (FQDN) de los servicios web externos en el grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com).
     
-      - En **ruta**de acceso ** / **, escriba.
+      - En **ruta de acceso**, escriba **/\*** .
 
 10. En **Seleccionar escucha de web**, en **Escucha**, seleccione su escucha SSL existente con el certificado público actualizado.
 
@@ -119,7 +121,7 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 17. Haga clic en **Aceptar**.
 
-18. Haga clic en **Aplicar** en el panel de detalles para guardar los cambios y actualizar la configuración.
+18. Haga clic en  **Aplicar ** en el panel de detalles para guardar los cambios y actualizar la configuración.
 
 19. Haga clic en **Probar regla** para comprobar que la nueva regla se ha configurado correctamente.
 
@@ -172,15 +174,15 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 7.  En la página **detalles internos de publicación** , en **nombre de sitio interno**, escriba el FQDN de servicios Web internos del grupo de servidores front-end (por ejemplo, lyncpool01. contoso. local).
 
-8.  En la **página Detalles internos de publicación** , en **ruta de acceso (opcional)**, escriba ** / ** como la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original en lugar del especificado en el campo Nombre de sitio interno**.
+8.  En la página **detalles internos de publicación** , en **ruta de acceso (opcional)**, escriba **/\*** como la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original en lugar del especificado en el campo Nombre de sitio interno**.
 
 9.  En la página **Detalles de nombre público**, siga este procedimiento:
     
       - En **Aceptar peticiones para**, seleccione **Este nombre de dominio**.
     
-      - En **nombre público**, escriba **lyncdiscover.** \<sipdomain\> (la dirección URL externa del servicio Detección automática).
+      - En **nombre público**, escriba **lyncdiscover.**\<sipdomain\> (la dirección URL externa del servicio Detección automática).
     
-      - En **ruta**de acceso ** / **, escriba.
+      - En **ruta de acceso**, escriba **/\*** .
 
 10. En la página **Seleccionar escucha de web**, en **Escucha de web**, seleccione una escucha de web o use el nuevo Asistente para la definición de escucha de web para crear una nueva.
 
@@ -202,7 +204,7 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 16. Haga clic en **Aceptar**.
 
-17. Haga clic en **Aplicar** en el panel de detalles para guardar los cambios y actualizar la configuración.
+17. Haga clic en  **Aplicar ** en el panel de detalles para guardar los cambios y actualizar la configuración.
 
 18. Haga clic en **Probar regla** para comprobar que su nueva regla se ha configurado correctamente.
 
@@ -212,7 +214,7 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)  

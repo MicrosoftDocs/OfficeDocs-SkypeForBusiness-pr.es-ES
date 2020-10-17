@@ -12,20 +12,22 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96c97301221e50873ab53dc06452721c74ed6627
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec067e84c87321374ed1d9beb98c086633f3e28c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213066"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515337"
 ---
+# <a name="global-media-bypass-options-in-lync-server-2013"></a>Opciones de omisión de medios globales en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="global-media-bypass-options-in-lync-server-2013"></a>Opciones de omisión de medios globales en Lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**Última modificación del tema:** 2012-10-04_
 
 
 > [!NOTE]  
-> En este tema se supone que ya se ha configurado un desvío de medios para los troncos a un interlocutor (una puerta de enlace de red telefónica conmutada (RTC), un IP-PBX o un controlador de borde de sesión (SBC) en un proveedor de servicios de telefonía por Internet) para un sitio o servicio específico para que desea que los medios omitan el servidor de mediación.
+> En este tema se supone que ya se ha configurado un desvío de medios para los troncos a un interlocutor (una puerta de enlace de red telefónica conmutada (RTC), un IP-PBX o un controlador de borde de sesión (SBC) en un proveedor de servicios de telefonía por Internet) para un sitio o servicio específico para el que desea que los medios omitan el servidor de mediación
 
 
 
 </div>
 
-Además de habilitar el desvío de medios para conexiones de tronco individuales asociadas con un par, también debe habilitar la omisión de medios globalmente. La configuración de desvío de medios globales puede especificar que se intente siempre una omisión de medios para las llamadas a la RTC o que la omisión de medios se emplee mediante la asignación de subredes a sitios de red y regiones de red, de manera similar a lo que hace el control de admisión de llamadas, otro característica de voz avanzada. Cuando se habilitan tanto el desvío de medios como el control de admisión de llamadas, la región de red, el sitio de red y la información de subred especificados para el control de admisión de llamadas se usan automáticamente al determinar si se debe emplear una omisión de medios. Esto significa que no puede especificar que el desvío de medios se intente siempre para las llamadas a la RTC cuando el control de admisión de llamadas esté habilitado.
+Además de habilitar el desvío de medios para conexiones de tronco individuales asociadas con un par, también debe habilitar la omisión de medios globalmente. La configuración de desvío de medios globales puede especificar que se intente siempre una omisión de medios para las llamadas a la RTC o que la omisión de medios se emplee mediante la asignación de subredes a sitios de red y regiones de red, de manera similar a lo que hace el control de admisión de llamadas, otra característica avanzada de voz. Cuando se habilitan tanto el desvío de medios como el control de admisión de llamadas, la región de red, el sitio de red y la información de subred especificados para el control de admisión de llamadas se usan automáticamente al determinar si se debe emplear una omisión de medios. Esto significa que no puede especificar que el desvío de medios se intente siempre para las llamadas a la RTC cuando el control de admisión de llamadas esté habilitado.
 
 En este tema se describe cómo usar el panel de control de Lync Server y el shell de administración de Lync Server a la vez que se configura la configuración de omisión de medios globales.
 
@@ -55,7 +57,7 @@ En este tema se describe cómo usar el panel de control de Lync Server y el shel
 
 
 > [!NOTE]  
-> Cuando se usan estos pasos para configurar el desvío de medios, se da por hecho que existe una buena conectividad entre los clientes y el nivel de servidor de mediación (por ejemplo, una puerta de enlace RTC, un sistema PBX IP o un SBC en un proveedor de enlace troncal SIP). En caso de que haya limitaciones de ancho de banda en el vínculo, no podrá efectuarse el desvío de medios en la llamada. La omisión de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con la IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones que se enumeran en el programa de interoperabilidad abierto de comunicaciones unificadas – Lync Server en <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>.
+> Cuando se usan estos pasos para configurar el desvío de medios, se da por hecho que existe una buena conectividad entre los clientes y el nivel de servidor de mediación (por ejemplo, una puerta de enlace RTC, un sistema PBX IP o un SBC en un proveedor de enlace troncal SIP). En caso de que haya limitaciones de ancho de banda en el vínculo, no podrá efectuarse el desvío de medios en la llamada. La omisión de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con la IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones que se enumeran en el programa de interoperabilidad abierto de comunicaciones unificadas – Lync Server en <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A> .
 
 
 
@@ -75,7 +77,7 @@ Una vez habilitado el desvío de medios en las conexión de tronco a un nivel de
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configurar un tronco con la omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fe04aea0cc0d6ab38b0bfa9597b420d608c7597
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1ecf0a1313519a74bb054c7fa3b441580758018
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180147"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514787"
 ---
+# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
     > <LI>
     > <P>Si el intervalo de órbitas comienza con el carácter * o #, el intervalo debe ser mayor de 100.</P>
     > <LI>
-    > <P>Valores válidos: deben coincidir con la cadena de\*expresión regular ([| #]? [ 1-9] \d{0,7}) | ([1-9] \d{0,8}). Esto significa que el valor debe ser una cadena que comience con el carácter * o #, o un número del 1 al 9 (el primer carácter no puede ser un cero). Si el primer carácter es * o #, el siguiente debe ser un número del 1 al 9 (no puede ser un cero). Los siguientes caracteres pueden ser cualquier número del 0 al 9, hasta un máximo de siete caracteres adicionales (por ejemplo, "#6000", "*92000", "* 95551212" y "915551212"). Si el primer carácter no es * o #, tiene que ser un número entre 1 y 9 (no puede ser cero), seguido de un máximo de ocho caracteres, que deben ser números del 0 al 9 (por ejemplo, "915551212", "41212", "300").</P>
+    > <P>Valores válidos: deben coincidir con la cadena de expresión regular ([ \* | #]? [ 1-9] \d {0,7} ) | ([1-9] \d {0,8} ). Esto significa que el valor debe ser una cadena que comience con el carácter * o #, o un número del 1 al 9 (el primer carácter no puede ser un cero). Si el primer carácter es * o #, el siguiente debe ser un número del 1 al 9 (no puede ser un cero). Los siguientes caracteres pueden ser cualquier número del 0 al 9, hasta un máximo de siete caracteres adicionales (por ejemplo, "#6000", "*92000", "* 95551212" y "915551212"). Si el primer carácter no es * o #, tiene que ser un número entre 1 y 9 (no puede ser cero), seguido de un máximo de ocho caracteres, que deben ser números del 0 al 9 (por ejemplo, "915551212", "41212", "300").</P>
     > <LI>
     > <P>No debe tener más de 50.000 órbitas por grupo de servidores. Cada intervalo de órbitas normalmente está formado por 100 órbitas o menos, pero puede ser mucho mayor siempre que tenga menos de 10.000 órbitas. Por ejemplo, en lugar de especificar un número de inicio de "7000000" y un número de finalización de "8000000", piense en especificar un número de inicio de "7000000" y un número de finalización de "7000100".</P></LI></UL>
 
@@ -119,7 +121,7 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Eliminar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)  

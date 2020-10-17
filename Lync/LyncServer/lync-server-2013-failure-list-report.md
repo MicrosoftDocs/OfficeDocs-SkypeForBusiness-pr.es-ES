@@ -12,20 +12,22 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 010e8314eb7d2cbb33354461bdc2a1eb2c5b2cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 467dbfe14cbcbe7a032439fd437d3ce2c58c6d46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204357"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515387"
 ---
+# <a name="failure-list-report-in-lync-server-2013"></a>Informe de lista de errores en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Informe de lista de errores en Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ En el informe de lista de errores, puede ver una descripción de cada código de
 
 Error interno del servidor al crear medios para el usuario.
 
-Es importante tener en cuenta que el informe de lista de errores no ofrece una forma sencilla de recuperar directamente una lista de todos los usuarios que participaron en al menos una sesión con errores, ni tampoco proporciona una forma de determinar qué usuarios han participado con mayor frecuencia en un error sesión. (Por un lado, el informe de lista de errores no tiene funciones de filtrado). Sin embargo, si exporta los datos y, a continuación, los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para buscar las respuestas a preguntas como esas. Por ejemplo, supongamos que guarda los datos en un. Archivo CSV denominado C:\\Data\\Failure\_List. csv. En función de los datos guardados en ese archivo, este comando enumera todos los usuarios que participaron en al menos una sesión con errores:
+Es importante tener en cuenta que el informe de lista de errores no ofrece una forma sencilla de recuperar directamente una lista de todos los usuarios que participaron en al menos una sesión con errores, ni tampoco proporciona una forma de determinar qué usuarios suelen participar en una sesión con errores. (Por un lado, el informe de lista de errores no tiene funciones de filtrado). Sin embargo, si exporta los datos y, a continuación, los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para buscar las respuestas a preguntas como esas. Por ejemplo, supongamos que guarda los datos en un. Archivo CSV denominado C: \\ Data \\ Failure \_List.csv. En función de los datos guardados en ese archivo, este comando enumera todos los usuarios que participaron en al menos una sesión con errores:
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f64676494916bf2c2bd71399bbdd04642da50cee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b10ea662d055812b9fccaa730a936033aaea077c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217306"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515167"
 ---
+# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Modificación de certificados para movilidad en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Modificación de certificados para movilidad en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217306"
 
 _**Última modificación del tema:** 2014-06-20_
 
-Para admitir conexiones seguras entre el entorno de Lync y los clientes móviles, los certificados de capa de sockets seguros (SSL) para el grupo de directores, el grupo de servidores front-end y el proxy inverso deben actualizarse con un nombre alternativo de sujeto adicional ( SAN). Si necesita consultar más detalles sobre los requisitos de certificados para la movilidad, consulte la sección requisitos [técnicos para la movilidad en Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), pero básicamente necesitará obtener nuevos certificados de la entidad de certificación con las entradas de San adicionales incluidas y, a continuación, agregar dichos certificados con los pasos de este artículo.
+Para admitir conexiones seguras entre el entorno de Lync y los clientes móviles, los certificados de capa de sockets seguros (SSL) para el grupo de directores, el grupo de servidores front-end y el proxy inverso deben actualizarse con algunas entradas de nombre alternativo de sujeto (SAN) adicionales. Si necesita consultar más detalles sobre los requisitos de certificados para la movilidad, consulte la sección requisitos [técnicos para la movilidad en Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), pero básicamente necesitará obtener nuevos certificados de la entidad de certificación con las entradas de San adicionales incluidas y, a continuación, agregar dichos certificados con los pasos de este artículo.
 
 Por supuesto, antes de empezar, suele ser una buena idea conocer los nombres de sujeto alternativos que ya tienen los certificados. Si no está seguro de lo que ya está configurado, hay muchas formas de averiguarlo. Mientras que la opción se encuentra ahí para ejecutar **Get-CsCertificate** y otros comandos de PowerShell para ver esta información, (que analizaremos a continuación) de forma predeterminada, los datos se truncarán, por lo que es posible que no vea todas las propiedades que necesita. Para obtener un buen vistazo al certificado y a todas sus propiedades, puede ir a Microsoft Management Console (MMC) y cargar el complemento certificados (que también trataremos a continuación), o puede simplemente comprobar el Asistente para la implementación de Lync Server.
 
@@ -95,7 +97,7 @@ Un último aspecto que se debe tener en cuenta es que puede tener un único cert
     
       - Nombres externos de servicios Web internos y servicios web (por ejemplo, webpool01.contoso.net, webpool01.contoso.com), en función de las elecciones realizadas en el generador de topologías y las selecciones de servicios web invalidadas.
     
-      - Si ya está asignado, el lyncdiscover. \<sipdomain\> y lyncdiscoverinternal. \<sipdomain\> registros.
+      - Si ya está asignado, el lyncdiscover.\<sipdomain\> y lyncdiscoverinternal.\<sipdomain\> registro.
     
     El último elemento es lo que más le interesa: si hay una entrada de SAN de lyncdiscover y lyncdiscoverinternal.
     
@@ -147,7 +149,7 @@ Un último aspecto que se debe tener en cuenta es que puede tener un único cert
     
 
     > [!NOTE]  
-    > Solo para tener en cuenta, los pasos 12 y 13 solo deben ejecutarse si la cuenta que los ejecuta tiene acceso a la entidad de certificación con los permisos adecuados. Si no puede iniciar sesión con una cuenta que tiene estos permisos, o si está usando una entidad de certificación pública o remota para los certificados, necesitará solicitarlos mediante el Asistente para la implementación de Lync Server, que se toca en la parte superior de la artículo.
+    > Solo para tener en cuenta, los pasos 12 y 13 solo deben ejecutarse si la cuenta que los ejecuta tiene acceso a la entidad de certificación con los permisos adecuados. Si no puede iniciar sesión con una cuenta que tiene estos permisos, o si está usando una entidad de certificación pública o remota para los certificados, necesitará solicitarlos mediante el Asistente para la implementación de Lync Server, que se ha tocado en la parte superior del artículo.
 
     
     </div>

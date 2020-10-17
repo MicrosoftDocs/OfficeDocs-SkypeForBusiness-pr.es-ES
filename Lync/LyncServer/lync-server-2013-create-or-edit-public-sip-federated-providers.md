@@ -12,20 +12,22 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8a8da9937e31f0544dd93b1994745dc3a9eb10b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 58b0ffdc009d48ef82d1bdf3ba8662cd4072ea1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180177"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514857"
 ---
+# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Crear o editar proveedores federados de SIP públicos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Crear o editar proveedores federados de SIP públicos en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180177"
 
 _**Última modificación del tema:** 2012-10-19_
 
-La conectividad de mensajería instantánea pública permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por los proveedores de servicios de\!mensajería instantánea públicos, como Windows Live Messenger, Yahoo y AOL.
+La conectividad de mensajería instantánea pública permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por los proveedores de servicios de mensajería instantánea públicos, como Windows Live Messenger, Yahoo \! y AOL.
 
 Lync Server 2013 tiene configuraciones de proveedor público para America Online, Windows Live y Yahoo\! mensajería instantánea. Cada proveedor público se configura con el nombre de dominio completo del servidor perimetral del proveedor y el nivel de verificación predeterminado **permite a los usuarios comunicarse sólo con las personas de su lista de contactos que usan este proveedor**.
 
@@ -61,13 +63,13 @@ Use el siguiente procedimiento para crear o cambiar proveedores públicos.
 
 6.  En la página **Editar proveedor SIP federado**, puede escribir o cambiar los siguientes parámetros:
     
-      - **Habilitar comunicaciones con este proveedor**   : al seleccionar esta opción, se permite la mensajería instantánea con los usuarios de este proveedor.
+      - **Habilitar comunicaciones con este proveedor**     La selección de esta opción permite la mensajería instantánea con los usuarios de este proveedor.
     
-      - **Nombre del proveedor:**   una propiedad necesaria, escriba el nombre del proveedor tal y como se reflejará en la lista de proveedores federados SIP.
+      - **Nombre del proveedor:**     Una propiedad necesaria, escriba el nombre del proveedor tal y como se reflejará en la lista de proveedores federados SIP.
     
-      - **Servicio perimetral de acceso (FQDN):**   una propiedad necesaria, escriba el nombre de dominio completo del servicio perimetral de acceso del proveedor que está configurando. Esta información se proporciona como un elemento predeterminado y debe cambiarse solo si el proveedor cambia el FQDN del servicio perimetral de acceso en el proveedor de público.
+      - **Servicio perimetral de acceso (FQDN):**     Una propiedad necesaria, escriba el nombre de dominio completo del servicio perimetral de acceso del proveedor que está configurando. Esta información se proporciona como un elemento predeterminado y debe cambiarse solo si el proveedor cambia el FQDN del servicio perimetral de acceso en el proveedor de público.
     
-      - **Nivel de verificación predeterminado:**   la configuración predeterminada, **permitir a los usuarios comunicarse con personas de su lista de contactos que utilizan este proveedor** , limitará la comunicación a los contactos que haya aceptado y que se encuentren en su lista de contactos.
+      - **Nivel de verificación predeterminado:**     La configuración predeterminada, **permitir que los usuarios se comuniquen con las personas de su lista de contactos que utilizan este proveedor** , limitará la comunicación a los contactos que haya aceptado y que se encuentren en su lista de contactos.
         
         La activación de **Permitir a los usuarios comunicarse con todos los que usan este proveedor** elimina la restricción que debe haber recibido y aceptado como una invitación de contacto. Este parámetro no limita quién puede comunicarse con usted desde la red del proveedor público.
 
@@ -77,7 +79,7 @@ Use el siguiente procedimiento para crear o cambiar proveedores públicos.
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configurar directivas para controlar el acceso de usuarios públicos en Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)  

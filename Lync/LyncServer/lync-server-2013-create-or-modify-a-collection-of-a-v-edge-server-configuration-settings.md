@@ -12,20 +12,22 @@ ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2890dd69b8b5fdff58ed2b047b642456657eb0d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ec601a9c51e1b8d5785e91bae1f1f82c13bf245
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514777"
 ---
+# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Crear o modificar una colección de opciones de configuración del servidor perimetral A/V en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Crear o modificar una colección de opciones de configuración del servidor perimetral A/V en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-11-01_
 
 El servicio perimetral A/V constituye un modo de que los usuarios internos (aquellos que han iniciado sesión en la red de la organización) puedan compartir audio y vídeo con los usuarios externos (aquellos que no han iniciado sesión en la red de la organización). El servicio perimetral A/V se administra principalmente a mediante la configuración de servidor perimetral A/V, que se puede definir en el ámbito de sitio o en el ámbito de servicio (esto es, se puede configurar para un solo servidor perimetral A/V).
 
-Al instalar Lync Server, se crea una colección global de opciones de configuración perimetral A/V. Además, puede usar Windows PowerShell y el cmdlet New-CsAVEdgeConfiguration para crear una nueva configuración en el ámbito de sitio o en el ámbito de servicio (es decir, para un servidor perimetral A/V individual). Si crea nuevos valores, tenga en cuenta que:
+Al instalar Lync Server, se crea una colección global de opciones de configuración perimetral A/V. Además de esto, puede usar Windows PowerShell y el cmdlet New-CsAVEdgeConfiguration para crear una nueva configuración en el ámbito de sitio o el ámbito de servicio (es decir, para un servidor perimetral A/V individual). Si crea nuevos valores, tenga en cuenta que:
 
   - Los valores configurados en el ámbito del servicio (es decir, en un servidor individual) tienen prioridad sobre todo.
 
@@ -92,7 +94,7 @@ Los valores pueden modificarse después con el cmdlet Set-CsAVEdgeConfiguration.
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Devolver información de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  

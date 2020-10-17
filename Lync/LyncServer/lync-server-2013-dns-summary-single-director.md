@@ -12,20 +12,22 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692cfd5f04a80a674fffb5e3a0f2f1890309c371
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1eaaebf1fb695bc1ee6ea1b86f980a666cf0a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192843"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515537"
 ---
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>Resumen de DNS-Director único en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>Resumen de DNS-Director único en Lync Server 2013
+
 
 </div>
 
@@ -60,31 +62,31 @@ La siguiente tabla contiene un resumen de los registros DNS necesarios para admi
 <tr class="odd">
 <td><p>DNS interno/A</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Registro de host de Director usado para la replicación y el servidor a servidor</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interno/A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Protocolo de inicio de sesión (SIP) entrante de la interfaz perimetral interna del servidor perimetral</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interno/A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Servicios Web de marcado publicados desde el proxy inverso</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interno/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Se publicaron los servicios web desde el proxy inverso</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interno/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Publicado y definido por los servicios web externos de vale Web de proxy inverso para el director</p></td>
 </tr>
 </tbody>

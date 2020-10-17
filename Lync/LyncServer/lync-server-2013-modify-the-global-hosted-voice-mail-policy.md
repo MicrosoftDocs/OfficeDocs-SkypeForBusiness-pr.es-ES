@@ -12,20 +12,22 @@ ms:contentKeyID: 48185757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88d0e29981df18ed883d6c33fb810d86da09d255
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f9a7e9dcb3c626c076d51fa32fa195f0787a922c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515177"
 ---
+# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Modifique la directiva global de correo de voz hospedado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Modifique la directiva global de correo de voz hospedado en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Para obtener más información sobre el cmdlet [set-CsHostedVoicemailPolicy](htt
 
 1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Ejecute el cmdlet Set-CsHostedVoicemailPolicy para establecer los parámetros de directiva global de su entorno. Por ejemplo, ejecute:
+2.  Ejecute el cmdlet Set-CsHostedVoicemailPolicy para establecer los parámetros de directiva global para su entorno. Por ejemplo, ejecute:
     
         Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe995d08bf334308603512b4812b02c672d400f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a9abfbc214e72cf059250910ecec4ad3bcdba33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205796"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515787"
 ---
+# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Vista AudioStreamDetail en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Vista AudioStreamDetail en Lync Server 2013
+
 
 </div>
 
@@ -61,12 +63,12 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>SessionSeq</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>StreamId</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Identificador único de una línea de medios.</p></td>
 </tr>
 <tr class="even">
@@ -91,13 +93,13 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>MediaBypassWarningFlag</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Si está presente, indica por qué no se omitió una llamada incluso si coinciden los identificadores de omisión. Solo se define un valor:</p>
 <p>0x0001: identificador de omisión desconocido para el adaptador de red predeterminado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallPriority</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Prioridad de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -192,12 +194,12 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>CallerCPUProcessorSpeed</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Velocidad del procesador de la CPU del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCPUProcessorSpeed</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Velocidad del procesador de la CPU del extremo del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -222,12 +224,12 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>CallerIceWarningFlags</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el autor de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeIceWarningFlags</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el destinatario de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
 </tr>
 <tr class="even">
@@ -242,7 +244,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>CallerPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
@@ -257,7 +259,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="odd">
 <td><p>CalleePort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -292,7 +294,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>CallerRelayPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto usado en el servicio perimetral A/V usado por el autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
@@ -302,7 +304,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>CalleeRelayPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto usado en el servicio perimetral A/V usado por el autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
@@ -382,17 +384,17 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>AppliedBandwidthLimit</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Ancho de banda real aplicado a una secuencia de envío determinada en un entorno regido por diversas directivas (TURN, API, SDP, Servidor de directivas, etc.). No se debe confundir con el ancho de banda efectivo, ya que el ancho de banda efectivo puede ser menor en función de las previsiones de ancho de banda. Básicamente, este es el ancho de banda máximo que la secuencia de envío puede tomar límites de bloqueo impuestas por la estimación del ancho de banda</p></td>
 </tr>
 <tr class="odd">
 <td><p>JitterInterArrival</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Promedio de vibración de red de las estadísticas de Protocolo de control en tiempo real (RTCP).</p></td>
 </tr>
 <tr class="even">
 <td><p>JitterInterArrivalMax</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Vibración máxima de la red durante la llamada.</p></td>
 </tr>
 <tr class="odd">
@@ -412,7 +414,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>BurstDuration</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Duración media de la pérdida de paquetes durante las ráfagas de pérdidas durante la llamada.</p></td>
 </tr>
 <tr class="odd">
@@ -422,17 +424,17 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>BurstGapDuration</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Duración media de brechas entre ráfagas de pérdida de paquetes.</p></td>
 </tr>
 <tr class="odd">
 <td><p>PacketUtilization</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de paquetes de la secuencia de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p>Ancho de banda más</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Previsiones de ancho de banda de la secuencia de audio.</p></td>
 </tr>
 <tr class="odd">
@@ -457,47 +459,47 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="odd">
 <td><p>PayloadDescription</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>El códec de audio usado para la llamada, al que se hace referencia desde la <a href="lync-server-2013-payloaddescription-table.md">tabla PayloadDescription en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>AudioSampleRate</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Frecuencia de muestreo de la secuencia de audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerSendSignalLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de señal de audio de control de ganancia posterior analógico para el audio que envió el autor de la llamada. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe tener al menos 30 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRecvSignalLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de señal de audio para el audio que el autor de la llamada ha recibido. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe tener al menos 30 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerSendNoiseLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>El nivel de ruido de audio del control de ganancia posterior analógico para el audio que envió el autor de la llamada. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe ser inferior a 35 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRecvNoiseLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>El nivel de ruido de audio del control de ganancia posterior analógico para el audio que ha recibido la persona que llama. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe ser inferior a 35 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerEchoReturn</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Devolución de pérdida eco mejora para el autor de la llamada. La unidad para esta métrica es dB. Los valores inferiores representan menos eco. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerSpeakerGlitchRate</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Media de problemas por cinco minutos para la representación del altavoz del autor de la llamada. Para obtener una buena calidad, debe ser inferior a uno por cinco minutos. No notificado por los servidores de conferencia A/V, los servidores de mediación o los teléfonos IP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerMicGlitchRate</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Media de problemas por cinco minutos para la captura del micrófono del autor de la llamada. Para una buena calidad, debe ser inferior a uno por cinco minutos. No notificado por los servidores de conferencia A/V, los servidores de mediación o los teléfonos IP.</p></td>
 </tr>
 <tr class="even">
@@ -542,17 +544,17 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>CallerRxAGCSignalLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de señal recibido en el servidor de mediación de la puerta de enlace para el audio del autor de la llamada; Esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para obtener una buena calidad, el intervalo aceptable debe ser de-30 a-18 dBoV.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerRxAGCNoiseLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de señal recibido en el servidor de mediación de la puerta de enlace para el audio del autor de la llamada. Esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para obtener una buena calidad, el intervalo aceptable debe ser inferior a-50 dBoV.</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRxAGCGain</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Control de ganancia automático (AGC) en el servidor de mediación aplicado al audio del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
@@ -562,37 +564,37 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>CalleeSendSignalLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Representa el nivel de señal de audio de control de ganancia posterior analógico para el audio que envió el destinatario de la llamada. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe tener al menos 30 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRecvSignalLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de señal de audio para el audio que el destinatario de la llamada ha recibido. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe tener al menos 30 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeSendNoiseLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de ruido de audio del control de ganancia posterior analógico para el audio que envió el destinatario de la llamada. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe ser inferior a 35 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRecvNoiseLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de ruido de audio del control de ganancia posterior analógico para el audio que el destinatario de la llamada ha recibido. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe ser inferior a 35 dBmo. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeEchoReturn</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Devolución de pérdida de Eco para el destinatario de la llamada. La unidad para esta métrica es dB. Los valores inferiores representan menos eco. El servidor de conferencia A/V o los teléfonos IP no notifican esta métrica.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeSpeakerGlitchRate</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Media de problemas por cinco minutos para la representación del altavoz del destinatario de la llamada. Para obtener una buena calidad, debe ser inferior a uno por cinco minutos. No notificado por los servidores de conferencia A/V, los servidores de mediación o los teléfonos IP.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeMicGlitchRate</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Media de problemas por cinco minutos para la captura del micrófono del destinatario de la llamada. Para una buena calidad, debe ser inferior a uno por cinco minutos. No notificado por los servidores de conferencia A/V, los servidores de mediación o los teléfonos IP.</p></td>
 </tr>
 <tr class="odd">
@@ -637,17 +639,17 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="odd">
 <td><p>CalleeRxAGCSignalLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de señal recibido en el servidor de mediación de la puerta de enlace para el audio del destinatario de la llamada; Esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para obtener una buena calidad, el intervalo aceptable debe ser [-30 a-18] dBoV.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRxAGCNoiseLevel</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Nivel de señal recibido en el servidor de mediación de la puerta de enlace para el audio del destinatario de la llamada. Esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para obtener una buena calidad, el intervalo aceptable debe ser inferior a-50 dBoV.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRxAGCGain</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Control de ganancia automático (AGC) en el servidor de mediación aplicado al audio del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -672,12 +674,12 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 </tr>
 <tr class="even">
 <td><p>Vuelta</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tiempo de ida y vuelta de las estadísticas de RTCP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RoundTripMax</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tiempo de ida y vuelta máximo de la secuencia de audio.</p></td>
 </tr>
 <tr class="even">

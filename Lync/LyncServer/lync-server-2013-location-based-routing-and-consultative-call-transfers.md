@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: enrutamiento basado en ubicación y transferencias de llamadas de asesoría'
+title: 'Lync Server 2013: transferencias de llamadas de consultoría y enrutamiento de Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dff8b723889be65f26e2c04d7f6a594515bfd09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 75284736af1307aff4e9c51c8118cf64dbd08568
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513817"
 ---
+# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Location-Based el enrutamiento y las transferencias de llamadas de asesoría en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Enrutamiento basado en ubicación y transferencias de llamadas de asesoría en Lync Server 2013
+
 
 </div>
 
@@ -37,19 +39,19 @@ ms.locfileid: "42186563"
 
 _**Última modificación del tema:** 2013-07-31_
 
-Además de aplicar el enrutamiento basado en ubicación a las reuniones de Lync, la aplicación de conferencia de enrutamiento basada en ubicación aplica las restricciones de enrutamiento basadas en ubicación en las transferencias de llamadas de consulta que se transfieren a los extremos de RTC. Una transferencia de llamada Consultiva es una llamada establecida entre dos partes en la que una de las partes transfiere la llamada a un nuevo usuario. Por ejemplo, un punto de conexión RTC llama al usuario A (llamado de Lync). El usuario A determina el usuario de RTC que se debe reenviar al usuario B (usuario de Lync). El usuario A realiza la llamada con el usuario RTC en espera y llama al usuario B. el usuario B acuerda hablar con el usuario RTC. El usuario A transfiere la llamada en espera al usuario B.
+Además de imponer el enrutamiento de Location-Based a las reuniones de Lync, la aplicación de conferencia de enrutamiento de Location-Based aplica Location-Based restricciones de enrutamiento en las transferencias de llamadas de consultoría que se transfieren a los extremos de RTC. Una transferencia de llamada Consultiva es una llamada establecida entre dos partes en la que una de las partes transfiere la llamada a un nuevo usuario. Por ejemplo, un punto de conexión RTC llama al usuario A (llamado de Lync). El usuario A determina el usuario de RTC que se debe reenviar al usuario B (usuario de Lync). El usuario A realiza la llamada con el usuario RTC en espera y llama al usuario B. el usuario B acuerda hablar con el usuario RTC. El usuario A transfiere la llamada en espera al usuario B.
 
 **Flujo de llamada de transferencia de llamada Consultiva**
 
 ![Enrutamiento basado en ubicación para diagrama de conferencia](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Enrutamiento basado en ubicación para diagrama de conferencia")
 
-Cuando un usuario habilitado para el enrutamiento basado en ubicación inicia una transferencia de llamada Consultiva de un extremo de RTC (como se muestra en la figura anterior), se crean dos llamadas activas, una llamada entre el usuario de RTC y el usuario de Lync A, y la otra entre el usuario de Lync A y el usuario B de Lync. la aplicación de conferencia de enrutamiento basada en ubicación aplica el siguiente comportamiento:
+Cuando un usuario habilitado para el enrutamiento de Location-Based inicia una transferencia de llamada Consultiva de un extremo de RTC (tal como se muestra en la figura anterior), se crean dos llamadas activas, una llamada entre el usuario de RTC y el usuario de Lync A y la otra entre el usuario de Lync A y el usuario B de Lync. el comportamiento de la aplicación de conferencia de enrutamiento de Location-Based:
 
   - Si el enrutamiento de tronco SIP la llamada RTC está autorizada para redirigir la llamada RTC al sitio de red donde se encuentra el usuario B de Lync (por ejemplo, el destino de transferencia), se permitirá la transferencia de llamadas; de lo contrario, se bloqueará la transferencia de la llamada Consultiva. Esta autorización se realiza en función de la ubicación de la entidad transferida que se encuentra en el mismo sitio de red que el tronco SIP que enruta la llamada activa al punto de conexión de RTC.
 
-  - Si el enrutamiento de tronco SIP, la llamada RTC entrante no está autorizada para enrutar llamadas al sitio de red donde se encuentra la entidad de transferencia (usuario de Lync B) o la entidad transferida se encuentra en un sitio de red desconocido y, a continuación, la transferencia de la llamada consultiva a la RTC. se bloqueará el punto de conexión (por ejemplo, el destino de transferencia de llamadas).
+  - Si el enrutamiento de tronco SIP la llamada RTC entrante no está autorizada para enrutar llamadas al sitio de red en el que se encuentra la entidad de transferencia (usuario de Lync B) o la entidad transferida se encuentra en un sitio de red desconocido, se bloqueará la transferencia de la llamada Consultiva al punto de conexión de RTC (por ejemplo, el destino de transferencia de llamadas).
 
-En la tabla siguiente se describe el modo en que la aplicación de conferencia de enrutamiento basada en ubicación aplica las restricciones de enrutamiento basadas en ubicación para las transferencias de llamadas de consultoría. Aunque los extremos de PBX no están directamente asociados a un sitio de red, el tronco SIP al que se conecta la PBX se puede asignar a un sitio de red. Por lo tanto, el extremo de PBX se puede asociar indirectamente con un sitio de red.
+En la tabla siguiente se describe cómo se aplican las restricciones de enrutamiento de Location-Based por la aplicación de conferencia de Location-Based enrutamiento para las transferencias de llamadas de consultoría. Aunque los extremos de PBX no están directamente asociados a un sitio de red, el tronco SIP al que se conecta la PBX se puede asignar a un sitio de red. Por lo tanto, el extremo de PBX se puede asociar indirectamente con un sitio de red.
 
 
 <table>

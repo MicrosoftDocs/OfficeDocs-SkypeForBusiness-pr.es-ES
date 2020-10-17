@@ -12,20 +12,22 @@ ms:contentKeyID: 49733719
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28820bacf3208d8918e18e3bbb9904f762cfdd21
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c942a9f12727a73125809113080a25ddd11a3f5d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515467"
 ---
+# <a name="enabling-or-disabling-push-notifications-for-iphones-in-lync-server-2013"></a>Habilitar o deshabilitar las notificaciones de inserción para iPhone en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-push-notifications-for-iphones-in-lync-server-2013"></a>Habilitar o deshabilitar las notificaciones de inserción para iPhone en Lync Server 2013
+
 
 </div>
 
@@ -79,7 +81,7 @@ Las notificaciones de inserción, en forma de identificadores, iconos o alertas,
 
 ## <a name="enabling-or-disabling-push-notifications-to-iphone-by-using-windows-powershell-cmdlets"></a>Habilitación o deshabilitación de notificaciones de inserción en iPhone mediante cmdlets de Windows PowerShell
 
-Se pueden habilitar o deshabilitar las notificaciones de inserción para Apple iPhone con el cmdlet **set-CsPushNotificationConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Se pueden habilitar o deshabilitar las notificaciones de inserción para Apple iPhone con el cmdlet **set-CsPushNotificationConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -107,7 +109,7 @@ Si desea obtener más información, consulte el tema de ayuda del cmdlet [Set-Cs
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  

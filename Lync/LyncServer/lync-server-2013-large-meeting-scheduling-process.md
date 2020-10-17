@@ -12,20 +12,22 @@ ms:contentKeyID: 48185639
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a11e24f6131ace7323a407d739e2174b24b57a7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4fb2de8387abb48ad67b8a39bc1ac3ffc353a9b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514017"
 ---
+# <a name="large-meeting-scheduling-process-in-lync-server-2013"></a>Proceso de programación de reuniones grandes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-scheduling-process-in-lync-server-2013"></a>Proceso de programación de reuniones grandes en Lync Server 2013
+
 
 </div>
 

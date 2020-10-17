@@ -12,20 +12,22 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bcb5e8ecf3843a8997daa818ed75b33162cfb70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186703"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514007"
 ---
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Preguntas más frecuentes de soporte de reuniones grandes para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Preguntas más frecuentes de soporte de reuniones grandes para Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Las siguientes secciones ofrecen respuestas a preguntas habituales para crear y 
 
 ## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a>P: ¿Cuántos usuarios pueden participar en una reunión grande?
 
-El modelo de usuario de Lync Server especifica los límites de 250 usuarios en un grupo compartido o 1000 usuarios en un grupo dedicado a reuniones grandes, pero estos números solo representan el número de usuarios que se probaron y solo para el conjunto específico de hardware que usamos en nuestras pruebas. En función de nuestra prueba, se recomiendan dichos límites para tamaños máximos. Sin embargo, se controla el número real de participantes permitidos en las reuniones de la organización mediante la configuración de una o varias directivas de conferencia (que se configuran mediante cmdlets de Windows PowerShell en el shell de administración de Lync Server o mediante el uso de Lync Server Panel de control). El número que especifica en una directiva de conferencia puede ser cualquier número entero de 32 bits comprendido entre 1 y 4.294.967.295, pero el tamaño recomendado se encuentra entre 2 y 250 participantes, inclusive; y el valor predeterminado es 250.
+El modelo de usuario de Lync Server especifica los límites de 250 usuarios en un grupo compartido o 1000 usuarios en un grupo dedicado a reuniones grandes, pero estos números solo representan el número de usuarios que se probaron y solo para el conjunto específico de hardware que usamos en nuestras pruebas. En función de nuestra prueba, se recomiendan dichos límites para tamaños máximos. Sin embargo, se controla el número real de participantes permitidos en las reuniones de la organización mediante la configuración de una o más directivas de conferencia (que se configuran mediante cmdlets de Windows PowerShell en el shell de administración de Lync Server o mediante el panel de control de Lync Server). El número que especifica en una directiva de conferencia puede ser cualquier número entero de 32 bits comprendido entre 1 y 4.294.967.295, pero el tamaño recomendado se encuentra entre 2 y 250 participantes, inclusive; y el valor predeterminado es 250.
 
 </div>
 
@@ -75,7 +77,7 @@ Las reuniones grandes con un máximo de 1000 usuarios pueden incluir audio, vide
 
 ## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a>P: ¿Puedo usar la mensajería instantánea de grupo (MI) en reuniones grandes?
 
-Sí. Sin embargo, los números grandes de mensajes instantáneos, especialmente cuando se envían por un gran número de participantes de reunión, pueden afectar a la experiencia del usuario debido a problemas con el desplazamiento de texto rápido en la ventana de MI. La entrega de una gran cantidad de mensajes instantáneos de un máximo de 1000 usuarios también puede introducir cargas de servidor importantes, que pueden afectar al rendimiento. Por lo general, la mensajería instantánea solo es necesaria para las\&preguntas y respuestas (Q como).
+Sí. Sin embargo, los números grandes de mensajes instantáneos, especialmente cuando se envían por un gran número de participantes de reunión, pueden afectar a la experiencia del usuario debido a problemas con el desplazamiento de texto rápido en la ventana de MI. La entrega de una gran cantidad de mensajes instantáneos de un máximo de 1000 usuarios también puede introducir cargas de servidor importantes, que pueden afectar al rendimiento. Por lo general, la mensajería instantánea solo es necesaria para las preguntas y respuestas (Q \& como).
 
 </div>
 

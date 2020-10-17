@@ -12,20 +12,22 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 41d89241cdddd129ea5e7fad38e7a3d761fb220b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756479"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514977"
 ---
+# <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un solo usuario al grupo piloto
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un solo usuario al grupo piloto
+
 
 </div>
 
@@ -91,7 +93,7 @@ Puede mover un usuario del grupo de servidores de Office Communications Server 2
 
 4.  La identidad **RegistrarPool** ahora apunta al grupo de servidores de Lync 2013. La presencia de esta identidad confirma que se movió al usuario correctamente.
     
-    ![Resultado del cmdlet Get-CsUser con el filtro de identidad](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Resultado del cmdlet Get-CsUser con el filtro de identidad")  
+    ![Resultado de Get-CsUser cmdlet con el filtro de identidad](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Resultado de Get-CsUser cmdlet con el filtro de identidad")  
     
     <div>
     

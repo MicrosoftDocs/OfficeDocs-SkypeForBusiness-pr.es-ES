@@ -12,20 +12,22 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec6c3ada06312f816a75f5539593336addc8d2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cf4a26c9f0b36cd239daabbc2538716e2bcd3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515777"
 ---
+# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Requisitos del servicio Detección automática para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Requisitos del servicio Detección automática para Lync Server 2013
+
 
 </div>
 
@@ -43,9 +45,9 @@ Para obtener información detallada sobre las entradas de nombre alternativo de 
 
 La decisión de usar listas de nombres alternativos de sujeto en proxies inversos se basa en si se publica el servicio Detección automática en el puerto 80 o en el puerto 443:
 
-  - **Publicado en el puerto 80**   no es necesario realizar cambios en los certificados si la consulta inicial al servicio Detección automática se produce a través del puerto 80. Esto se debe a que los dispositivos móviles que ejecutan Lync tendrán acceso al proxy inverso en el puerto 80 externamente y, a continuación, se redirigirán a un director o a un servidor front-end en el puerto 8080 de forma interna. Para obtener más información, vea la sección “Proceso de detección automática inicial usando el puerto 80” más adelante en este tema.
+  - **Publicado en el puerto 80**     No es necesario realizar cambios en los certificados si la consulta inicial al servicio Detección automática se produce a través del puerto 80. Esto se debe a que los dispositivos móviles que ejecutan Lync tendrán acceso al proxy inverso en el puerto 80 externamente y, a continuación, se redirigirán a un director o a un servidor front-end en el puerto 8080 de forma interna. Para obtener más información, vea la sección “Proceso de detección automática inicial usando el puerto 80” más adelante en este tema.
 
-  - **Publicado en el puerto 443**   la lista de nombres alternativos de sujeto en los certificados usados por la regla de publicación de servicios web externos debe contener un *lyncdiscover.\< entrada\> sipdomain* para cada dominio SIP dentro de la organización.
+  - **Publicado en el puerto 443**     La lista de nombres alternativos de sujeto en los certificados usados por la regla de publicación de servicios web externos debe contener un *lyncdiscover. \<sipdomain\> * entrada para cada dominio SIP dentro de la organización.
 
 La reemisión de certificados usando una entidad de certificación interna suele ser un proceso sencillo, pero para certificados públicos usados en la regla de publicación de servicios web, puede resultar caro agregar varias entradas de nombres alternativos de sujeto. Para solucionar este problema, admitimos la conexión de detección automática inicial a través del puerto 80, que luego se redirige al puerto 8080 en el director o el servidor front-end.
 
@@ -59,7 +61,7 @@ Por ejemplo, supongamos que un cliente móvil que ejecuta Lync Mobile está conf
 
 2.  El DNS externo devuelve la dirección IP de los servicios web externos al cliente.
 
-3.  Un dispositivo móvil que ejecuta Lync Mobile http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com envía una solicitud al proxy inverso
+3.  Un dispositivo móvil que ejecuta Lync Mobile envía una solicitud http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com al proxy inverso
 
 4.  La regla de publicación de web enlazará la solicitud del puerto 80 externamente al puerto 8080 de forma interna, que la enrutará a un director o a un servidor front-end.
     
@@ -77,7 +79,7 @@ Por ejemplo, supongamos que un cliente móvil que ejecuta Lync Mobile está conf
     
 
     > [!NOTE]  
-    > Si el servidor web de destino tiene un certificado que no tiene un valor coincidente para lyncdiscover.contoso.com como valor de lista de nombres alternativos de sujeto:<BR>a.&nbsp;&nbsp;&nbsp;el servidor web responde con un "servidor Hello" y ningún certificado.<BR>b.&nbsp;&nbsp;&nbsp;el dispositivo móvil que ejecuta Lync Mobile finaliza inmediatamente la sesión.<BR>Si el servidor web de destino tiene un certificado que incluye lyncdiscover.contoso.com como valor de lista de nombres alternativos de sujeto:<BR>a.&nbsp;&nbsp;&nbsp;el servidor web responde con un "servidor Hello" y un certificado.<BR>b.&nbsp;&nbsp;&nbsp;el dispositivo móvil que ejecuta Lync Mobile valida el certificado y completa el protocolo de enlace.
+    > Si el servidor web de destino tiene un certificado que no tiene un valor coincidente para lyncdiscover.contoso.com como valor de lista de nombres alternativos de sujeto:<BR>un. &nbsp; &nbsp; &nbsp; El servidor web responde con un "servidor Hello" y ningún certificado.<BR>b. &nbsp; &nbsp; &nbsp; El dispositivo móvil que ejecuta Lync Mobile finaliza inmediatamente la sesión.<BR>Si el servidor web de destino tiene un certificado que incluye lyncdiscover.contoso.com como valor de lista de nombres alternativos de sujeto:<BR>un. &nbsp; &nbsp; &nbsp; El servidor web responde con un "servidor Hello" y un certificado.<BR>b. &nbsp; &nbsp; &nbsp; El dispositivo móvil que ejecuta Lync Mobile valida el certificado y completa el protocolo de enlace.
 
     
     </div>

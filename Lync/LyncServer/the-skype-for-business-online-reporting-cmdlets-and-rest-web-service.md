@@ -12,20 +12,22 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f92f2be5987ad6ffc76d19e7ccad81da4115487a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755704"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514957"
 ---
+# <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Los cmdlets de informes de Skype empresarial online y el servicio Web REST
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Los cmdlets de informes de Skype empresarial online y el servicio Web REST
+
 
 </div>
 
@@ -59,7 +61,7 @@ Los administradores con un fondo de desarrollo pueden usar el servicio Web REST 
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Informes de Lync Online](https://technet.microsoft.com/library/dn362827\(v=ocs.15\))  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185358
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335f7680a98eb53414a8b438975d79327b515946
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f5b2fe64b4f32a43ff1462ab27daef04694c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515757"
 ---
+# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Alta disponibilidad del servidor back-end en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Alta disponibilidad del servidor back-end en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Puede configurar fácilmente la creación de reflejos de SQL con el generador de
 
 Si usa la creación de reflejo de SQL o un clúster de SQL en un grupo que está emparejado con otro grupo de servidores front-end para la recuperación ante desastres, debe usar la solución de alta disponibilidad back-end en ambos grupos. No debe emparejar un grupo con la creación de reflejos de SQL con un grupo de servidores mediante clústeres de SQL.
 
-Al implementar la creación de reflejos de SQL, todas las bases de datos de Lync Server del grupo están reflejadas, incluido el almacén de administración central, si se encuentra en este grupo, así como la base de datos de aplicación de grupo de respuesta y la base de datos de aplicación de estacionamiento de llamadas, si esas aplicaciones se están ejecutando en el grupo.
+Al implementar la creación de reflejos de SQL, todas las bases de datos de Lync Server del grupo están reflejadas, incluido el almacén de administración central, si se encuentra en este grupo, así como la base de datos de aplicación de grupo de respuesta y la base de datos de aplicación de estacionamiento de llamadas, si esas aplicaciones se ejecutan en el grupo.
 
 Con la creación de reflejos SQL, no necesita utilizar almacenamiento compartido para los servidores. Cada servidor guarda su copia de la base de datos en un almacenamiento local.
 

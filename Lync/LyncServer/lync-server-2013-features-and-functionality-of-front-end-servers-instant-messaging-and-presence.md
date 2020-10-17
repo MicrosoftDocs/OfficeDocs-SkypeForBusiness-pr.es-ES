@@ -12,20 +12,22 @@ ms:contentKeyID: 48183294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab1b2285b80098ec6acf1faad64f21a78472c0b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26f80eb823af5ec50c18390fe2ebca2b25498874
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179657"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515377"
 ---
+# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Características y funciones de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Características y funciones de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ La mensajería instantánea (MI) permite a los usuarios comunicarse entre sí en
 
 </div>
 
-*Presencia* proporciona información a los usuarios acerca del estado de los otros usuarios en la red. El estado de presencia de un usuario proporciona información que ayuda a los demás usuarios a decidir si deben intentar ponerse en contacto con él y si deben usar la mensajería instantánea, el teléfono o el correo electrónico. El estado de presencia fomenta la comunicación instantánea cada vez que sea posible, pero también proporciona información sobre si un usuario está en una reunión o fuera de la oficina, indicando que la comunicación instantánea no es posible. Este estado de presencia se muestra como un icono de presencia en Lync y otras aplicaciones para la presencia, como el cliente de mensajería y colaboración de Microsoft Outlook, las tecnologías de Microsoft SharePoint, Microsoft Word y la hoja de cálculo de Microsoft Excel. aplicaciones. El icono del estado de presencia representa la disponibilidad y la disposición de comunicación del usuario.
+*Presencia* proporciona información a los usuarios acerca del estado de los otros usuarios en la red. El estado de presencia de un usuario proporciona información que ayuda a los demás usuarios a decidir si deben intentar ponerse en contacto con él y si deben usar la mensajería instantánea, el teléfono o el correo electrónico. El estado de presencia fomenta la comunicación instantánea cada vez que sea posible, pero también proporciona información sobre si un usuario está en una reunión o fuera de la oficina, indicando que la comunicación instantánea no es posible. Este estado de presencia se muestra como un icono de presencia en Lync y en otras aplicaciones para la presencia, incluido el cliente de mensajería y colaboración de Microsoft Outlook, las tecnologías de Microsoft SharePoint, Microsoft Word y el software de hoja de cálculo de Microsoft Excel. El icono del estado de presencia representa la disponibilidad y la disposición de comunicación del usuario.
 
 </div>
 

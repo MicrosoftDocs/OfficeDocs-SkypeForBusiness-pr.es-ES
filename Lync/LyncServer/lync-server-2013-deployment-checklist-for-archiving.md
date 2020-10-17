@@ -12,20 +12,22 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df74bda74f1b9af01e1c4e73fa2f21b7119363f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccec3917e892d1ba6c3e1841773c77e8c2d015d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514533"
 ---
+# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lista de comprobación para la implementación del archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lista de comprobación para la implementación del archivado en Lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ El archivado se instala automáticamente en cada uno de los servidores front-end
 
 La configuración del archivado depende de la opción de almacenamiento que elija:
 
-  - Si usa la integración de Microsoft Exchange para todos los usuarios de la implementación, no es necesario que configure las directivas de archivado de Lync Server 2013 para los usuarios. En su lugar, configure las directivas de conservación local de Exchange para admitir el archivado para los usuarios hospedados en Exchange 2013, con sus buzones en conservación local. Para obtener más información acerca de la configuración de estas directivas, consulte la documentación del producto de Exchange 2013.
+  - Si usa la integración de Microsoft Exchange para todos los usuarios de la implementación, no es necesario que configure las directivas de archivado de Lync Server 2013 para los usuarios. En su lugar, configure las directivas de suspensión de In-Place de Exchange para admitir el archivado para los usuarios hospedados en Exchange 2013, con sus buzones colocados en In-Place retenido. Para obtener más información acerca de la configuración de estas directivas, consulte la documentación del producto de Exchange 2013.
 
-  - Si no usa la integración de Microsoft Exchange para todos los usuarios de la implementación, debe agregar bases de datos de archivado de Lync Server (bases de datos de SQL Server) a la topología y, a continuación, publicarla, así como configurar directivas y opciones de configuración para los usuarios, antes de que pueda archivar datos para esos usuarios. Puede implementar las bases de datos de archivado al mismo tiempo que implementa la topología inicial o después de haber implementado al menos un grupo de servidores front-end o un servidor Standard Edition. En este documento se describe cómo implementar las bases de datos de archivado agregándolas a una implementación existente.
+  - Si no usa la integración de Microsoft Exchange para todos los usuarios de la implementación, debe agregar bases de datos de archivado de Lync Server (bases de datos de SQL Server) a la topología y, a continuación, publicarla, así como configurar directivas y opciones de configuración para los usuarios, antes de poder archivar datos para esos usuarios. Puede implementar las bases de datos de archivado al mismo tiempo que implementa la topología inicial o después de haber implementado al menos un grupo de servidores front-end o un servidor Standard Edition. En este documento se describe cómo implementar las bases de datos de archivado agregándolas a una implementación existente.
 
 Si habilita el archivado en un grupo de servidores front-end o un servidor Standard Edition, debe habilitarlo para todos los demás grupos de servidores front-end y servidores Standard Edition de la implementación. Esto se debe a que los usuarios cuyas comunicaciones deben archivarse pueden ser invitados a una conversación de mensajería instantánea en grupo o a reuniones hospedadas en un grupo de servidores diferente. Si el archivado no está habilitado en el grupo en el que está hospedada la conversación o la reunión, es posible que no se Archive la sesión completa. En estos casos, los mensajes instantáneos con usuarios habilitados para archivado todavía pueden archivarse, pero no para los archivos de contenido de conferencias, ni eventos de unión o abandono de conferencias.
 
@@ -121,8 +123,8 @@ En la tabla siguiente se proporciona información general sobre los pasos necesa
 </tr>
 <tr class="even">
 <td><p><strong>Configuración de directivas y configuraciones de archivado</strong></p></td>
-<td><p>Configurar el archivado, incluido si se va a usar la integración de Microsoft Exchange, la directiva global y las directivas de sitio y de usuario (cuando no se usa la integración de Microsoft Exchange para todo el almacenamiento de datos) y opciones de archivado específicas, como el modo crítico y los datos exportar y purgar.</p>
-<p>Si usa la integración de Microsoft Exchange, configure las directivas de conservación local de Exchange según corresponda.</p></td>
+<td><p>Configurar el archivado, incluido si se va a usar la integración de Microsoft Exchange, la directiva global y las directivas de sitio y de usuario (cuando no se usa la integración de Microsoft Exchange para todo el almacenamiento de datos) y opciones de archivado específicas, como el modo crítico y la exportación y depuración de datos.</p>
+<p>Si usa la integración de Microsoft Exchange, configure las directivas de retención de Exchange In-Place según corresponda.</p></td>
 <td><p>Grupo RTCUniversalServerAdmins (solo Windows PowerShell) o asignar usuarios al rol rol csarchivingadministrator o CSAdministrator.</p></td>
 <td><p><a href="lync-server-2013-configuring-support-for-archiving.md">Configuring Support for archiving in Lync Server 2013</a> en la documentación de implementación.</p>
 <p>Documentación del producto de Exchange (si se usa la integración de Microsoft Exchange).</p></td>

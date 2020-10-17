@@ -12,20 +12,22 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f2b88b43c41a5a8bf990a72f0fdfef1c5537e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 213e42a7477202cf40a0b06c79edde49976f0bbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515277"
 ---
+# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Modificar la acción predeterminada para clientes no admitidos explícitamente o restringidos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Modificar la acción predeterminada para clientes no admitidos explícitamente o restringidos en Lync Server 2013
+
 
 </div>
 
@@ -53,13 +55,13 @@ Además de especificar la versión de clientes que desea admitir en su entorno d
 
 5.  En el cuadro de diálogo **Editar configuración de versiones de cliente**, compruebe que la casilla **Habilitar control de versiones** esté activada y, a continuación, en **Acción predeterminada**, seleccione una de las opciones siguientes:
     
-      - **Permitir**   permite que el cliente inicie sesión si la versión de cliente no coincide con ningún filtro de la lista **directivas de versiones de cliente** .
+      - **Permitir**     Permite que el cliente inicie sesión si la versión de cliente no coincide con ningún filtro de la lista de **directivas de versión de cliente** .
     
-      - **Bloquear**   impide que el cliente inicie sesión si la versión de cliente no coincide con ningún filtro de la lista de **directivas de versión de cliente** .
+      - **Bloquear**     Impide que el cliente inicie sesión si la versión de cliente no coincide con ningún filtro de la lista de **directivas de versión de cliente** .
     
-      - **Bloquear con dirección URL**   impide que el cliente inicie sesión si la versión de cliente no coincide con ningún filtro de la lista **directivas de versiones de cliente** e incluye un mensaje de error con una dirección URL en la que se puede descargar un cliente más reciente.
+      - **Bloquear con dirección URL**     Impide que el cliente inicie sesión si la versión de cliente no coincide con ningún filtro de la lista **directivas de versiones de cliente** e incluye un mensaje de error con una dirección URL en la que se puede descargar un cliente más reciente.
     
-      - **Permitir con dirección URL**   permite que el cliente inicie sesión si la versión de cliente no coincide con ningún filtro de la lista **directivas de versiones de cliente** e incluye un mensaje de error con una dirección URL en la que se puede descargar un cliente más reciente.
+      - **Permitir con dirección URL**     Permite que el cliente inicie sesión si la versión de cliente no coincide con ningún filtro de la lista **directivas de versiones de cliente** e incluye un mensaje de error con una dirección URL en la que se puede descargar un cliente más reciente.
 
 6.  Si selecciona **Bloquear con dirección URL**, escriba en el cuadro **URL** la dirección URL de descarga del cliente que debe incluirse en el mensaje de error.
 
@@ -79,7 +81,7 @@ Además de especificar la versión de clientes que desea admitir en su entorno d
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Modificación de la acción predeterminada mediante cmdlets de Windows PowerShell
 
-La acción predeterminada que se realizará cuando los usuarios intenten iniciar sesión mediante clientes que no son explícitamente compatibles o restringidos por una directiva de versión de cliente se pueden administrar mediante la interfaz de línea de comandos de Windows PowerShell y el cmdlet **set-CsClientVersionPolicy** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+La acción predeterminada que se realizará cuando los usuarios intenten iniciar sesión mediante clientes que no son explícitamente compatibles o restringidos por una directiva de versión de cliente se pueden administrar mediante la interfaz de línea de comandos de Windows PowerShell y el cmdlet **set-CsClientVersionPolicy** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -107,7 +109,7 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsClie
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Administración de dispositivos, teléfonos y aplicaciones cliente en Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  

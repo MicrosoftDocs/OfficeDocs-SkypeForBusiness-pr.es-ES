@@ -12,20 +12,22 @@ ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7043b2ce5fd35e36615b7b92d1561d725a86cc92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80a90e58c1dee8aacae052f916c6fdf6e260b7ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514697"
 ---
+# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Eliminar una colección existente de opciones de configuración del servidor perimetral A/V en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Eliminar una colección existente de opciones de configuración del servidor perimetral A/V en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-11-01_
 
 El servicio perimetral A/V constituye un modo de que los usuarios internos (aquellos que han iniciado sesión en la red de la organización) puedan compartir audio y vídeo con los usuarios externos (aquellos que no han iniciado sesión en la red de la organización). El servicio perimetral A/V se administra principalmente a mediante la configuración de servidor perimetral A/V, que se puede definir en el ámbito de sitio o en el ámbito de servicio (esto es, se puede configurar para un solo servidor perimetral A/V).
 
-Al instalar Lync Server, se crea una colección global de opciones de configuración perimetral A/V. Esta colección global no se puede eliminar. Sin embargo, puede usar Windows PowerShell y el cmdlet Remove-CsAVEdgeConfiguration para "restablecer" la recopilación global; Esto simplemente significa que todos los valores de propiedad de la colección global se restablecerán a su valor predeterminado. Por ejemplo, si ha establecido la propiedad MaxTokenLifetime para 16 horas, esa propiedad se restablecerá a su valor predeterminado de 8 horas.
+Al instalar Lync Server, se crea una colección global de opciones de configuración perimetral A/V. Esta colección global no se puede eliminar. Sin embargo, puede usar Windows PowerShell y el cmdlet Remove-CsAVEdgeConfiguration para "restablecer" la colección global; Esto simplemente significa que todos los valores de propiedad de la colección global se restablecerán a su valor predeterminado. Por ejemplo, si ha establecido la propiedad MaxTokenLifetime para 16 horas, esa propiedad se restablecerá a su valor predeterminado de 8 horas.
 
 En cambio, las colecciones de opciones de configuración personalizadas que haya creado (ya sea en el ámbito de sitio o de servicio) se pueden eliminar con el cmdlet Remove-CsAVEdgeConfiguration. Si elimina la configuración de sitio, los servidores perimetrales A/V de dicho sitio pasarán a administrarse mediante la configuración global y, si elimina la configuración de servicio, el servidor se administrará por medio de su configuración de sitio (si la hay) o por la configuración global (en caso de que no haya configuración de sitio disponible).
 
@@ -77,7 +79,7 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsA
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Devolver información de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  

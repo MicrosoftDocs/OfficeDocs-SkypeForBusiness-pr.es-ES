@@ -12,20 +12,22 @@ ms:contentKeyID: 48183786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2db559f1404e8b3dcf3319ed61b6bb66b77e48ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57e420088258ba8585206d8ec2e08cb540454b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204826"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514207"
 ---
+# <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Cmdlets de mensajería unificada de Exchange en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Cmdlets de mensajería unificada de Exchange en Lync Server 2013
+
 
 </div>
 
@@ -113,7 +115,7 @@ Los cmdlets siguientes pueden usarse para administrar la mensajería unificada d
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8400c6bbcf0cfc7d69bcba9dbebab07d14b5e0a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1517ef4a7515a46b9237b1788c457c3aee10953d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180167"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514807"
 ---
+# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Crear o editar la configuración del socio XMPP en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Crear o editar la configuración del socio XMPP en Lync Server 2013
+
 
 </div>
 
@@ -75,12 +77,12 @@ Microsoft Lync Server 2013 integra un proxy de protocolo extensible de mensajer�
     
     Consulte el documento XEP-0178 de XSF para obtener más información sobre los requisitos de XMPP. Para obtener información detallada, consulte “XEP-0178: Procedimientos recomendados para el uso de SASL EXTERNO con certificados”. <http://xmpp.org/extensions/xep-0178.html>
     
-    Consulte el documento IETF "extensible Messaging and Presence Protocol (XMPP): Core", sección 5,0, negociación <https://tools.ietf.org/html/rfc6120>de STARTTLS.
+    Consulte el documento IETF "extensible Messaging and Presence Protocol (XMPP): Core", sección 5,0, negociación de STARTTLS <https://tools.ietf.org/html/rfc6120> .
     
       - **Negociación TLS**. Define las reglas de negociación de TLS. Un servicio de XMPP puede requerir TLS, determinar que TLS es opcional o definir que TLS no se admite. Si se opta por la posibilidad opcional, es el servicio de XMPP quien decide si la negociación es obligatoria. Para ver todos los valores y detalles posibles para la negociación de SASL, TLS y devolución, incluidas las configuraciones de error conocidas y no válidas, vea [configuración de la negociación para socios federados XMPP en Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
           - <span></span>  
-            **Es obligatorio**. El servicio de XMPP requiere la negociación TLS.
+            **Necesario**. El servicio de XMPP requiere la negociación TLS.
         
           - <span></span>  
             **Opcional**. El servicio de XMPP determina que TLS es de negociación obligatoria.
@@ -100,7 +102,7 @@ Microsoft Lync Server 2013 integra un proxy de protocolo extensible de mensajer�
         </div>
         
           - <span></span>  
-            **Es obligatorio**. El servicio de XMPP requiere la negociación SASL.
+            **Necesario**. El servicio de XMPP requiere la negociación SASL.
         
           - <span></span>  
             **Opcional**. El servicio de XMPP determina que SASL es de negociación obligatoria.
@@ -108,7 +110,7 @@ Microsoft Lync Server 2013 integra un proxy de protocolo extensible de mensajer�
           - <span></span>  
             **No se admite**. El servicio de XMPP no admite SASL.
     
-      - **Negociación de devolución**. La devolución negociación se define mediante el XSF en el documento **XEP-220: Server devolución** <http://xmpp.org/extensions/xep-0220.html>. El proceso de devolución de llamada del servidor usa el sistema de nombres de dominio (DNS) y un servidor relevante para comprobar que la solicitud procedía de un socio XMPP válido. Para ello, el servidor de origen crea un mensaje específico con una clave de devolución de llamada generada y busca el servidor de recepción en el DNS. El servidor de origen envía la clave en un flujo XML al resultado de la búsqueda de DNS, en principio, el servidor destinatario. A recibir la clave por el flujo XML, el servidor destinatario no responde al servidor de origen, sino que envía la clave a un servidor de autorización conocido. Este verifica que la validez de la clave. Si no lo es, el servidor destinatario no responde al servidor de origen. Si lo es, el servidor destinatario informa al servidor de origen de que la identidad y la clave son válidas, y la conversación puede iniciarse.
+      - **Negociación de devolución**. La devolución negociación se define mediante el XSF en el documento **XEP-220: Server devolución** <http://xmpp.org/extensions/xep-0220.html> . El proceso de devolución de llamada del servidor usa el sistema de nombres de dominio (DNS) y un servidor relevante para comprobar que la solicitud procedía de un socio XMPP válido. Para ello, el servidor de origen crea un mensaje específico con una clave de devolución de llamada generada y busca el servidor de recepción en el DNS. El servidor de origen envía la clave en un flujo XML al resultado de la búsqueda de DNS, en principio, el servidor destinatario. A recibir la clave por el flujo XML, el servidor destinatario no responde al servidor de origen, sino que envía la clave a un servidor de autorización conocido. Este verifica que la validez de la clave. Si no lo es, el servidor destinatario no responde al servidor de origen. Si lo es, el servidor destinatario informa al servidor de origen de que la identidad y la clave son válidas, y la conversación puede iniciarse.
         
         Existen dos estados válidos en la **negociación de rellamada**:
         

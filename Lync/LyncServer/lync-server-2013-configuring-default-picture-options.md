@@ -12,20 +12,22 @@ ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3b5007a1d850e1a271c507290c48a2c8d345c7b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc6bb0368b97e41402f2e0abf0834cf23f078c08
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203096"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514817"
 ---
+# <a name="configuring-default-picture-options-in-lync-server-2013"></a>Configuración de las opciones predeterminadas de imagen en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-default-picture-options-in-lync-server-2013"></a>Configuración de las opciones predeterminadas de imagen en Lync Server 2013
+
 
 </div>
 

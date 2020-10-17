@@ -12,20 +12,22 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791fa7e697622a4274655a77a2f02a6cdee140cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6c394d3535acb9b1842ac49f13eda1459d68c95
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213456"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514517"
 ---
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Requisitos previos y permisos de configuración para conferencias de acceso telefónico local en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Requisitos previos y permisos de configuración para conferencias de acceso telefónico local en Lync Server 2013
+
 
 </div>
 
@@ -119,17 +121,17 @@ Use estas herramientas administrativas para configurar la configuración de conf
 
 La configuración de la Conferencia de acceso telefónico local requiere cualquiera de los siguientes roles administrativos, en función de la tarea:
 
-  - **CsVoiceAdministrator**   este rol de administrador puede crear, configurar y administrar configuraciones y directivas relacionadas con la voz.
+  - **CsVoiceAdministrator**     Este rol de administrador puede crear, configurar y administrar configuraciones y directivas relacionadas con la voz.
 
-  - **CsUserAdministrator**   este rol de administrador puede habilitar y deshabilitar usuarios para Lync Server y asignar directivas existentes, como directivas de conferencia y directivas de PIN, a los usuarios.
+  - **CsUserAdministrator**     Este rol de administrador puede habilitar y deshabilitar usuarios para Lync Server y asignar directivas existentes, como directivas de conferencia y directivas de PIN, a los usuarios.
 
-  - **CsAdministrator**   este rol de administrador puede realizar todas las tareas de CsVoiceAdministrator y CsUserAdministrator.
+  - **CsAdministrator**     Este rol de administrador puede realizar todas las tareas de CsVoiceAdministrator y CsUserAdministrator.
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Implementar la telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  

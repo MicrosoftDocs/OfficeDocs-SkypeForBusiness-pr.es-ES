@@ -12,20 +12,22 @@ ms:contentKeyID: 49733812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 828c02e11d9e5adfe7028dd8d224c10df14c2247
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 582df13f3bcd7c1d25e8bf15ce1534992ba6aeeb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190473"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514797"
 ---
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Crear o modificar una colección de opciones de configuración de CDR en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Crear o modificar una colección de opciones de configuración de CDR en Lync Server 2013
+
 
 </div>
 
@@ -91,7 +93,7 @@ Puede crear opciones de configuración de CDR con el panel de control de Lync Se
 
 
 > [!NOTE]  
-> Los cmdlets New-CsCdrConfiguration y set-CsCdrConfiguration incluyen opciones adicionales que no están disponibles en el panel de control de Lync Server. Vea los temas de ayuda de <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> y <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">set-CsCdrConfiguration</A> para obtener más información.
+> Los cmdlets New-CsCdrConfiguration y Set-CsCdrConfiguration incluyen opciones adicionales que no están disponibles en el panel de control de Lync Server. Vea los temas de ayuda de <A href="https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</A> y <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration">set-CsCdrConfiguration</A> para obtener más información.
 
 
 
@@ -127,7 +129,7 @@ Puede crear opciones de configuración de CDR con el panel de control de Lync Se
 
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Creación de opciones de configuración de CDR con los cmdlets de Windows PowerShell
 
-Puede crear opciones de configuración de CDR también mediante Windows PowerShell y el cmdlet **New-CsCdrConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede crear opciones de configuración de CDR también mediante Windows PowerShell y el cmdlet **New-CsCdrConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

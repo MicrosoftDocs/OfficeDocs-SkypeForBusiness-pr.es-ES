@@ -12,20 +12,22 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd0378ee0aead4529b61be5f71aa37a64faf86c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb052f3a0743edac47ccfbe3786943820c59f78f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199493"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515553"
 ---
+# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Habilitar o deshabilitar la entrada manuscrita activa en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Habilitar o deshabilitar la entrada manuscrita activa en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2013-02-20_
 
 Puede configurar teléfonos de área común como *teléfonos de escritorio rápido*. Con los teléfonos de escritorio activo, los usuarios pueden iniciar sesión en su propia cuenta de usuario y, una vez iniciada la sesión, usar las características de Lync Server y su propia configuración de Perfil de usuario. La entrada manuscrita en caliente se administra mediante directivas de cliente: para habilitar o deshabilitar la entrada manuscrita activa, debe modificar las directivas de cliente que usan los teléfonos de área común. Para obtener información detallada sobre cómo determinar las directivas de conferencia que se han asignado a los teléfonos de área común, consulte [ver información de teléfono de área común en Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
 
-Use el parámetro EnableHotdesking del cmdlet **New-CSClientPolicy** o el cmdlet **set-CSClientPolicy** para habilitar o deshabilitar la entrada manuscrita activa en un teléfono, como se indica a continuación. Ejecute estos cmdlets desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Use el parámetro EnableHotdesking del cmdlet **New-CSClientPolicy** o el cmdlet **set-CSClientPolicy** para habilitar o deshabilitar la entrada manuscrita activa en un teléfono, como se indica a continuación. Ejecute estos cmdlets desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

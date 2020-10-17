@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: enrutamiento basado en ubicación para conferencias'
+title: 'Lync Server 2013: enrutamiento de Location-Based para conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58bc253427e26c63d97610f5958ae26287fd42e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 03e216e80b50bd7b2d5c0515700c4f1cd7260f22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186523"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513807"
 ---
+# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Location-Based el enrutamiento para conferencias en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Enrutamiento basado en ubicación para conferencias en Lync Server 2013
+
 
 </div>
 
@@ -37,19 +39,19 @@ ms.locfileid: "42186523"
 
 _**Última modificación del tema:** 2013-07-31_
 
-El enrutamiento basado en ubicación permite restringir el enrutamiento de las llamadas entre los extremos de VoIP y los extremos de RTC en función de la ubicación de las partes en la llamada. Con la actualización acumulativa 2 de Lync Server 2013, las reglas de enrutamiento basadas en ubicación se pueden aplicar en reuniones de Lync (es decir, conferencias) para evitar el desvío de llamadas RTC. La aplicación supervisa una conferencia activa y aplica las restricciones de enrutamiento basadas en la ubicación en función de la ubicación de los usuarios que participan. La aplicación de conferencia de enrutamiento basada en ubicación además permite la aplicación de restricciones de enrutamiento basadas en ubicación a las transferencias de consulta que implican extremos RTC.
+Location-Based enrutamiento permite restringir el enrutamiento de las llamadas entre los extremos de VoIP y los extremos de RTC en función de la ubicación de las partes en la llamada. Con la actualización acumulativa 2 de Lync Server 2013, se pueden aplicar reglas de enrutamiento Location-Based en reuniones de Lync (es decir, conferencias) para evitar el desvío de llamadas RTC. La aplicación supervisa una conferencia activa y aplica Location-Based restricciones de enrutamiento en función de la ubicación de los usuarios que participan. La aplicación de conferencia de Location-Based enrutamiento además permite la obligatoriedad de Location-Based restricciones de enrutamiento a las transferencias de consulta que implican extremos de RTC.
 
 <div>
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Información general sobre el enrutamiento basado en ubicación para conferencias en Lync Server 2013](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+  - [Información general sobre el enrutamiento de Location-Based para conferencias en Lync Server 2013](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
 
   - [Enrutamiento basado en ubicación y transferencias de llamadas de asesoría en Lync Server 2013](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
 
-  - [Requisitos para el enrutamiento basado en ubicación para conferencias en Lync Server 2013](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+  - [Requisitos para Location-Based el enrutamiento para conferencias en Lync Server 2013](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
 
-  - [Configuración del enrutamiento basado en ubicación para conferencias en Lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+  - [Configuración del enrutamiento de Location-Based para conferencias en Lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
 
 </div>
 

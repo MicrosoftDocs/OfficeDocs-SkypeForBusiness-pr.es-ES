@@ -12,20 +12,22 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e635cd289f0224a7f8d4106cecc3d8b047e9bb92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8792154c88c74049a785ddfb9ebbca55a52bc26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207538"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514457"
 ---
+# <a name="errorreport-view-in-lync-server-2013"></a>Vista ErrorReport en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorreport-view-in-lync-server-2013"></a>Vista ErrorReport en Lync Server 2013
+
 
 </div>
 
@@ -61,12 +63,12 @@ La vista ErrorReport almacena información sobre los errores que se notifican. C
 </tr>
 <tr class="even">
 <td><p><strong>ErrorReportSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número para identificar el error. Se usa en combinación con ErrorTime para identificar el error de forma exclusiva.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Identificador de diagnóstico del informe de errores.</p></td>
 </tr>
 <tr class="even">
@@ -116,7 +118,7 @@ La vista ErrorReport almacena información sobre los errores que se notifican. C
 </tr>
 <tr class="odd">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número para identificar la solicitud de sesión que originó el informe de errores. Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
@@ -134,7 +136,7 @@ La vista ErrorReport almacena información sobre los errores que se notifican. C
 </tr>
 <tr class="even">
 <td><p><strong>ClientType</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Cliente que usa el usuario que originó el error. Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -154,7 +156,7 @@ La vista ErrorReport almacena información sobre los errores que se notifican. C
 </tr>
 <tr class="even">
 <td><p><strong>ResponseCode</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Código de respuesta SIP a la sesión del mensaje SIP que contiene el informe de errores.</p></td>
 </tr>
 <tr class="odd">
@@ -179,7 +181,7 @@ La vista ErrorReport almacena información sobre los errores que se notifican. C
 </tr>
 <tr class="odd">
 <td><p><strong>SetupTime</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tiempo (en milisegundos) que necesita un componente determinado para unirse a una conferencia.</p></td>
 </tr>
 <tr class="even">
@@ -203,7 +205,7 @@ La vista ErrorReport almacena información sobre los errores que se notifican. C
 <td><p>Nombre de dominio completo del servidor front-end que ha enviado el informe.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>nvarchar</p></td>
 <td><p>Nombre de dominio completo del grupo de servidores que contiene el servidor front-end que ha enviado el informe.</p></td>
 </tr>

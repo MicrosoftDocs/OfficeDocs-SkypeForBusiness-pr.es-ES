@@ -12,20 +12,22 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b83ebadddea5f510b6eee731240119478bdc9da8
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f379092a1ca17524c50db3376d3668ca84388f0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757191"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514997"
 ---
+# <a name="monitoredusersitelink-table"></a>Tabla MonitoredUserSiteLink
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoredusersitelink-table"></a>Tabla MonitoredUserSiteLink
+
 
 </div>
 
@@ -58,13 +60,13 @@ La tabla MonitoredUserSiteLink es una tabla auxiliar. Cada registro representa u
 <tbody>
 <tr class="odd">
 <td><p><strong>UserSite1Key</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal, Externa</p></td>
 <td><p>Referencia de la <a href="lync-server-2013-usersite-table.md">tabla UserSite en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSite2Key</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal, Externa</p></td>
 <td><p>Referencia de la <a href="lync-server-2013-usersite-table.md">tabla UserSite en Lync Server 2013</a>.</p></td>
 </tr>

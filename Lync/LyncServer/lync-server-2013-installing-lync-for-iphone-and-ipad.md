@@ -12,20 +12,22 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91d8f26e0ae1b0777823380ca4888cad4c13ee90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 42d83536b3fac3f4050ce76015ce69a6a28522a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197023"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514197"
 ---
+# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Instalar Lync para iPhone y iPad en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Instalar Lync para iPhone y iPad en Lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ Lync 2013 para iPhone y Lync 2013 para iPad son aplicaciones que pueden ser inst
 
 Puede indicar a los usuarios que instalen Lync 2013 para iPhone y Lync 2013 para iPad al dirigirlos a la tienda de aplicaciones desde sus dispositivos. App Store también está en línea para cada dispositivo.
 
-  - Lync para iPhone está disponible en la App Store de \< h<span></span>TTP://www.Apple.com/iphone/From-The-App-Store/>
+  - Lync para iPhone está disponible en la App Store en \< h<span> </span> TTP://www.Apple.com/iphone/From-The-App-Store/>
 
-  - Lync para iPad está disponible en la App Store en \< ht<span></span>TP://www.Apple.com/iPad/From-The-App-Store/>
+  - Lync para iPad está disponible en la App Store en \< ht<span> </span> TP://www.Apple.com/iPad/From-The-App-Store/>
 
 <div>
 

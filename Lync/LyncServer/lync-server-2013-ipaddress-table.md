@@ -12,20 +12,22 @@ ms:contentKeyID: 48184771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 663494ad52fd8351df7a036fd2954dff0497c608
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d23e9aba844cb03779b220ed8d898a2e7664891
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514177"
 ---
+# <a name="ipaddress-table-in-lync-server-2013"></a>Tabla IPAddress en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ipaddress-table-in-lync-server-2013"></a>Tabla IPAddress en Lync Server 2013
+
 
 </div>
 
@@ -58,12 +60,12 @@ La tabla IPAddress asigna direcciones IP a los identificadores de dirección IP 
 <tbody>
 <tr class="odd">
 <td><p><strong>IPAddressKey</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Identificador único de la dirección IP especificada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DirIP</strong></p></td>
+<td><p><strong>IPAddress</strong></p></td>
 <td><p>VARCHAR (50)</p></td>
 <td><p>Única</p></td>
 <td><p>Dirección IP única (por ejemplo, 189.168.1.1) que se asigna a IpAddressKey. Puede ser una dirección IPv4 o IPv6.</p></td>
