@@ -12,20 +12,22 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 921db63f02be50866e6d26cb33007ac8ddbb32eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 928de572305cdbe19f5222f34e6616a8022e37b3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531547"
 ---
+# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Creación de registros DNS para el servicio Detección automática en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Creación de registros DNS para el servicio Detección automática en Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Los registros DNS que cree pueden ser registros A (host) o registros CNAME. Para
 
 4.  Compruebe si existe un registro de host A (AAAA para IPv6) para el grupo de directores para un registro DNS interno, debe haber un registro de host A para el nombre de dominio completo (FQDN) de servicios Web internos del grupo de directores (por ejemplo, lyncwebdir01. contoso. local). Si no es así, es posible que no esté usando un grupo de directores, por lo que necesitará usar el FQDN del grupo de servidores front-end o incluso un FQDN de servidor único, si es su configuración.
 
-5.  Teniendo esto en cuenta, compruebe si existe un registro de host A (AAAA para IPv6) para el grupo de servidores front-end para un registro DNS interno, debe existir un registro de host A (o AAAA) para el FQDN de servicios Web internos del grupo de servidores front-end (por ejemplo , lyncwebpool01. contoso. local). Si no es así, tendrá que anotar el FQDN del servidor front-end o del servidor Standard Edition.
+5.  Teniendo esto en cuenta, compruebe si existe un registro de host A (AAAA para IPv6) para el grupo de servidores front-end para un registro DNS interno, debe haber un registro de host A (o AAAA) para el FQDN de servicios Web internos del grupo de servidores front-end (por ejemplo, lyncwebpool01. contoso. local). Si no es así, tendrá que anotar el FQDN del servidor front-end o del servidor Standard Edition.
 
 6.  Una vez que sepa qué registros de host A (o AAAA) existen, en el árbol de la consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).
 
@@ -83,7 +85,7 @@ Los registros DNS que cree pueden ser registros A (host) o registros CNAME. Para
 
 3.  Ya debe tener un dominio SIP creado para este entorno. Expanda la **zona de búsqueda directa** para este dominio SIP o seleccione en función de la interfaz DNS externa que se use.
 
-4.  Ya debería ver un registro de host A (AAAA para IPv6) para el grupo de directores (por ejemplo, lyncwebexdir01.contoso.com), por lo que debe confirmar que está ahí. Si no es así, es posible que no use un grupo de directores. Si ese es el caso, deberá usar el FQDN del grupo de servidores front-end o, si lo hace para un único servidor, para el servidor front-end o el servidor Standard Edition.
+4.  Ya debería ver un registro de host A (AAAA para IPv6) para el grupo de directores (por ejemplo, lyncwebexdir01.contoso.com), por lo que debe confirmar que está ahí. Si no es así, es posible que no use un grupo de directores. Si ese es el caso, deberá usar el FQDN del grupo de servidores front-end o, si lo hace para un único servidor, para el servidor de Front-End Server o Standard Edition.
 
 5.  También necesitará confirmar que existe un registro de host A (AAAA para IPv6) para el nombre de dominio completo (FQDN) de servicios web externos del grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com) o un FQDN para el FQDN de servidor único si no tiene ningún grupo de servidores front-end. Como se indicó en el paso anterior, necesitará lo siguiente si no tiene un grupo de directores.
 
@@ -109,7 +111,7 @@ Los registros DNS que cree pueden ser registros A (host) o registros CNAME. Para
 
 4.  Compruebe si existe un registro de host A (AAAA para IPv6) para el grupo de directores para un registro DNS interno, debe haber un registro de host A para el nombre de dominio completo (FQDN) de servicios Web internos del grupo de directores (por ejemplo, lyncwebdir01. contoso. local). Si no es así, es posible que no esté usando un grupo de directores, por lo que tendrá que usar la dirección IP de su grupo de servidores front-end o incluso una dirección IP de servidor única, si es su configuración.
 
-5.  Teniendo esto en cuenta, compruebe si existe un registro de host A (AAAA para IPv6) para el grupo de servidores front-end para un registro DNS interno, debe existir un registro de host A (o AAAA) para el FQDN de servicios Web internos del grupo de servidores front-end (por ejemplo , lyncwebpool01. contoso. local). Si no es así, tendrá que anotar la dirección IP del servidor front-end o del servidor Standard Edition.
+5.  Teniendo esto en cuenta, compruebe si existe un registro de host A (AAAA para IPv6) para el grupo de servidores front-end para un registro DNS interno, debe haber un registro de host A (o AAAA) para el FQDN de servicios Web internos del grupo de servidores front-end (por ejemplo, lyncwebpool01. contoso. local). Si no es así, tendrá que anotar la dirección IP del servidor front-end o del servidor Standard Edition.
 
 6.  Una vez que sepa qué registros de host A (o AAAA) existen, en el árbol de la consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).
 
@@ -137,9 +139,9 @@ Los registros DNS que cree pueden ser registros A (host) o registros CNAME. Para
 
 3.  Para un registro DNS externo, en el árbol de la consola del servidor DNS, expanda  **Zonas de búsqueda directa**para su dominio SIP (por ejemplo, contoso.com). Para un registro DNS externo, en el árbol de la consola del servidor DNS, expanda  **Zonas de búsqueda directa**para su dominio SIP (por ejemplo, contoso.com).
 
-4.  Ya debería ver un registro de host A (AAAA para IPv6) para el grupo de directores (como lyncwebexdir01.contoso.com), por lo que debe confirmar que está ahí y cuál es la dirección IP. Si no es así, es posible que no use un grupo de directores. Si ese es el caso, tendrá que usar la dirección IP del grupo de servidores front-end o, si está haciendo esto para un único servidor, para el servidor front-end o el servidor Standard Edition. Tenga en cuenta que los servidores también pueden estar detrás de un equilibrador de carga o mediante un proxy inverso. Tome nota de las direcciones IP también para seguir los pasos que se indican a continuación.
+4.  Ya debería ver un registro de host A (AAAA para IPv6) para el grupo de directores (como lyncwebexdir01.contoso.com), por lo que debe confirmar que está ahí y cuál es la dirección IP. Si no es así, es posible que no use un grupo de directores. Si ese es el caso, tendrá que usar la dirección IP del grupo de servidores front-end o, si está haciendo esto para un único servidor, para el servidor de Front-End o servidor Standard Edition. Tenga en cuenta que los servidores también pueden estar detrás de un equilibrador de carga o mediante un proxy inverso. Tome nota de las direcciones IP también para seguir los pasos que se indican a continuación.
 
-5.  También necesitará confirmar que existe un registro de host A (AAAA para IPv6) para el nombre de dominio completo (FQDN) de servicios web externos del grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com) o una dirección IP para la instalación de Lync de servidor único si no tienen grupo de servidores front-end. Como se indicó en el paso anterior, necesitará lo siguiente si no tiene un grupo de directores.
+5.  También necesitará confirmar que existe un registro de host A (AAAA para IPv6) para el nombre de dominio completo (FQDN) de servicios web externos del grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com) o una dirección IP para la instalación de Lync de servidor único si no tiene ningún grupo de servidores front-end. Como se indicó en el paso anterior, necesitará lo siguiente si no tiene un grupo de directores.
 
 6.  Ahora, en el formato adecuado para su proveedor de DNS externo, elija la opción para crear un **nuevo host a o AAAA** (puede ser una opción de menú o un vínculo, según el formato del proveedor DNS).
 

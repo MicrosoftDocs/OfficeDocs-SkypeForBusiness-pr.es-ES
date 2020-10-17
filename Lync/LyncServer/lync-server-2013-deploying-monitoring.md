@@ -12,20 +12,22 @@ ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 49d62537f91145803f60f51c18b86816a0af657f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6fd56d0c06c9c81eda8cd1d7ef64b57da3219f3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195263"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531177"
 ---
+# <a name="deploying-monitoring-in-lync-server-2013"></a>Implementación de la supervisión en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-monitoring-in-lync-server-2013"></a>Implementación de la supervisión en Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Aunque a menudo es más sencillo habilitar la supervisión al mismo tiempo que c
 
 
 > [!NOTE]  
-> Si se ha habilitado la supervisión para un grupo de servidores, puede deshabilitar el proceso de recopilación de datos de supervisión sin tener que cambiar la topología: el shell de administración de Lync Server proporciona una forma de deshabilitar (y volver a habilitar) el registro detallado de llamadas (CDR) o la calidad de la experiencia (QoE) de recopilación de datos. Para obtener más información, vea la sección de configuración del registro de detalles de llamadas y los valores de calidad de experiencia de este documento.
+> Si se ha habilitado la supervisión para un grupo de servidores, puede deshabilitar el proceso de recopilación de datos de supervisión sin tener que cambiar la topología: el shell de administración de Lync Server proporciona una forma de deshabilitar (y volver a habilitar) el registro detallado de llamadas (CDR) o la recopilación de datos de calidad de la experiencia (QoE). Para obtener más información, vea la sección de configuración del registro de detalles de llamadas y los valores de calidad de experiencia de este documento.
 
 
 
@@ -77,7 +79,7 @@ Otra mejora importante para la supervisión en Lync Server 2013 es que los infor
 
 
 > [!NOTE]  
-> Asegúrese de que el tipo de inicio del servicio Agente SQL Server es automático y de que el servicio del Agente SQL Server se está ejecutando para la instancia de SQL que retiene las bases de datos de supervisión, de modo que los trabajos de mantenimiento de SQL Server de supervisión predeterminada puedan ejecutarse de acuerdo a su programación. bajo el control del servicio del Agente SQL Server.
+> Asegúrese de que el tipo de inicio del servicio Agente SQL Server es automático y de que el servicio Agente SQL Server se está ejecutando para la instancia de SQL que contiene las bases de datos de supervisión, de modo que los trabajos de mantenimiento de SQL Server de supervisión predeterminados se puedan ejecutar según el control del servicio Agente SQL Server.
 
 
 

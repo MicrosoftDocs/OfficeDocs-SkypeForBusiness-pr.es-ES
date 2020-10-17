@@ -12,20 +12,22 @@ ms:contentKeyID: 48183504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c5f2664275b4c6c0e3c93810a7a9521f155f21f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 278bbc82d0952cbc0eda81eb2a85febd16446a8f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531277"
 ---
+# <a name="deploying-call-management-features-in-lync-server-2013"></a>Implementación de características de administración de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-call-management-features-in-lync-server-2013"></a>Implementación de características de administración de llamadas en Lync Server 2013
+
 
 </div>
 

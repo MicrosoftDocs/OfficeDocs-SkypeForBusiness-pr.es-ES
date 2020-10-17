@@ -12,20 +12,22 @@ ms:contentKeyID: 48185242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 057253527615164b4b8b22a1fa13e7ea48778ee1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d0aa4d6d60c57adb35086ce653cbd906f11c600
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193493"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530367"
 ---
+# <a name="traceroute-table-in-lync-server-2013"></a>TraceRoute tabla en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="traceroute-table-in-lync-server-2013"></a>TraceRoute tabla en Lync Server 2013
+
 
 </div>
 
@@ -64,8 +66,8 @@ La tabla TraceRoute contiene información de enrutamiento de las llamadas. Esta 
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Principal, externa</p></td>
+<td><p>entero</p></td>
+<td><p>Principal, Externa</p></td>
 <td><p>Identificador único que se usa para diferenciar varias llamadas que pueden haber empezado el mismo día a la misma hora.</p></td>
 </tr>
 <tr class="odd">
@@ -88,19 +90,19 @@ La tabla TraceRoute contiene información de enrutamiento de las llamadas. Esta 
 </tr>
 <tr class="odd">
 <td><p><strong>Únicos</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Salto de red.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IPAddressKey</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Identificador único de la dirección IP. La información de la dirección IP se almacena en la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RTT</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Tiempo de ida y vuelta. El tiempo de ida y vuelta mide el tiempo que tarda el paquete de voz en llegar a su destino y devolver una notificación que informe de que se ha recibido.</p></td>
 </tr>

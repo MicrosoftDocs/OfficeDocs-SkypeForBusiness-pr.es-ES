@@ -12,20 +12,22 @@ ms:contentKeyID: 49733810
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aa78a49686ca555fdbc26d3ffd4953d88d64a95
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0381f65ee233abcac60268b9c8e491b31e88c24f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756549"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529877"
 ---
+# <a name="remove-the-monitoring-server-association"></a>Quitar la asociación del servidor de supervisión
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-monitoring-server-association"></a>Quitar la asociación del servidor de supervisión
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93f6aadd6cde7f09d7c6bdde118055cde8a56de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1bf54f1949627c39291388be248e0029077e9278
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530967"
 ---
+# <a name="failing-over-a-pool-in-lync-server-2013"></a>Conmutación por error de un grupo de servidores en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-pool-in-lync-server-2013"></a>Conmutación por error de un grupo de servidores en Lync Server 2013
+
 
 </div>
 
@@ -63,33 +65,33 @@ Además, si se produce un error en un grupo de servidores front-end pero el serv
     
         Invoke-CsManagementServerFailover -Whatif
     
-    Los resultados de este cmdlet muestran el grupo que hospeda actualmente el servidor de administración central. En el resto de este procedimiento, este grupo se conoce como grupo\_CMS.
+    Los resultados de este cmdlet muestran el grupo que hospeda actualmente el servidor de administración central. En el resto de este procedimiento, este grupo se conoce como \_ Grupo CMS.
 
-2.  Use el generador de topologías para buscar la versión de Lync Server que se\_ejecuta en el grupo de servidores CMS. Si ejecuta Lync Server 2013, use el siguiente cmdlet para encontrar el grupo de copia de seguridad del grupo de servidores 1.
+2.  Use el generador de topologías para buscar la versión de Lync Server que se ejecuta en el grupo de servidores CMS \_ . Si ejecuta Lync Server 2013, use el siguiente cmdlet para encontrar el grupo de copia de seguridad del grupo de servidores 1.
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    Permita que\_el grupo de copia de seguridad sea el grupo de copia de seguridad.
+    Permita que \_ el grupo de copia de seguridad sea el grupo de copia de seguridad.
 
 3.  Compruebe el estado del almacén de administración central con el siguiente cmdlet:
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    Este cmdlet debería mostrar que tanto ActiveMasterFQDN como ActiveFileTransferAgents apuntan al FQDN del grupo de\_CMS. Si están vacíos, el servidor de administración central no está disponible y se debe producir un error.
+    Este cmdlet debería mostrar que tanto ActiveMasterFQDN como ActiveFileTransferAgents apuntan al FQDN del grupo de CMS \_ . Si están vacíos, el servidor de administración central no está disponible y se debe producir un error.
 
 4.  Si el almacén de administración central no está disponible o si el almacén de administración central se estaba ejecutando en Grupo1 (es decir, el grupo de servidores que ha fallado), debe realizar una conmutación por error del servidor de administración central antes de realizar la conmutación por error del grupo. Si necesita realizar una conmutación por error del servidor de administración central que se hospeda en un grupo de servidores que ejecuta Lync Server 2013, use el cmdlet en el paso 5 de este procedimiento. Si necesita realizar una conmutación por error del servidor de administración central que se hospeda en un grupo de servidores que ejecuta Lync Server 2010, use el cmdlet en el paso 6 de este procedimiento. Si no necesita realizar la conmutación por error del servidor de administración central, vaya al paso 7 de este procedimiento.
 
 5.  Para conmutar por error el almacén de administración central en un grupo de servidores que ejecute Lync Server 2013, haga lo siguiente:
     
-      - En primer lugar, compruebe el servidor back-\_end del grupo de copia de seguridad que ejecuta la instancia principal del almacén de administración central; para ello, escriba lo siguiente:
+      - En primer lugar, compruebe el servidor back-end del grupo de copia de seguridad que \_ ejecuta la instancia principal del almacén de administración central; para ello, escriba lo siguiente:
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - Si el servidor back-end principal del\_grupo de copia de seguridad es el principal, escriba:
+      - Si el servidor back-end principal del grupo de copia de seguridad \_ es el principal, escriba:
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        Si el servidor back-end reflejado\_en el grupo de copia de seguridad es el principal, escriba:
+        Si el servidor back-end reflejado en el grupo de copia de seguridad \_ es el principal, escriba:
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
@@ -97,7 +99,7 @@ Además, si se produce un error en un grupo de servidores front-end pero el serv
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Compruebe que tanto ActiveMasterFQDN como ActiveFileTransferAgents estén señalando al FQDN del grupo\_de copia de seguridad.
+        Compruebe que tanto ActiveMasterFQDN como ActiveFileTransferAgents estén señalando al FQDN del grupo de copia de seguridad \_ .
     
       - Por último, compruebe el estado de la réplica para todos los servidores front-end; para ello, escriba lo siguiente:
         
@@ -107,7 +109,7 @@ Además, si se produce un error en un grupo de servidores front-end pero el serv
         
         Vaya al paso 7 de este procedimiento.
 
-6.  Instale el almacén de administración central en el servidor back-end\_del grupo de copia de seguridad.
+6.  Instale el almacén de administración central en el servidor back-end del grupo de copia de seguridad \_ .
     
       - En primer lugar, ejecute el siguiente comando:
         
@@ -115,7 +117,7 @@ Además, si se produce un error en un grupo de servidores front-end pero el serv
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Ejecute el comando siguiente en uno de los servidores front-end del\_grupo de copia de seguridad para forzar la transferencia del almacén de administración central:
+      - Ejecute el comando siguiente en uno de los servidores front-end del grupo de copia de seguridad \_ para forzar la transferencia del almacén de administración central:
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
@@ -123,7 +125,7 @@ Además, si se produce un error en un grupo de servidores front-end pero el serv
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Compruebe que tanto ActiveMasterFQDN como ActiveFileTransferAgents estén señalando al FQDN del grupo\_de copia de seguridad.
+        Compruebe que tanto ActiveMasterFQDN como ActiveFileTransferAgents estén señalando al FQDN del grupo de copia de seguridad \_ .
     
       - Compruebe el estado de réplica para todos los servidores front-end escribiendo lo siguiente:
         
@@ -131,7 +133,7 @@ Además, si se produce un error en un grupo de servidores front-end pero el serv
         
         Compruebe que todas las réplicas tengan un valor de True.
     
-      - Instale el servicio de servidor de administración central en el resto de los servidores Front-\_end del grupo de copia de seguridad. Para ello, ejecute el siguiente comando en todos los servidores front-end, excepto el que usó para forzar el movimiento del almacén de administración central anteriormente en este procedimiento:
+      - Instale el servicio de servidor de administración central en el resto de los servidores front-end del grupo de copia de seguridad \_ . Para ello, ejecute el siguiente comando en todos los servidores front-end, excepto el que usó para forzar el movimiento del almacén de administración central anteriormente en este procedimiento:
         
             Bootstrapper /Setup 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc2aed62b9ad26fd1498787ecd3d58144a005b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb614726458f2cf9c77bdfe740ddb13d99d54f2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212646"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529927"
 ---
+# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Uso de los paquetes de administración de Lync Server 2010 en un escenario de coexistencia
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Uso de los paquetes de administración de Lync Server 2010 en un escenario de coexistencia
+
 
 </div>
 
@@ -41,7 +43,7 @@ Muchos clientes adoptan un programa de implementación dentro de sus empresas en
 
 En Lync Server 2010, los equipos con Lync Server se detectaron a través del documento de topología almacenado con el almacén de administración central. En esta configuración, un único equipo notificaría la existencia de todos los demás equipos de Lync Server.
 
-Los paquetes de administración de Lync Server 2013 ahora usan la detección en el nivel de equipo en lugar del mecanismo de detección central que se usó en Lync Server 2010. Por ello, cada agente de System Center, básicamente, se detecta a sí mismo e informa de su existencia a System Center Operations Manager. El uso de la detección en el nivel de máquina simplifica la administración de la infraestructura de System Center y también habilita distintas versiones de los paquetes de administración de Lync Server (por ejemplo, módulos de administración para Lync Server 2010 y paquetes de administración para Lync Server 2013) coexistir más fácilmente.
+Los paquetes de administración de Lync Server 2013 ahora usan la detección en el nivel de equipo en lugar del mecanismo de detección central que se usó en Lync Server 2010. Por ello, cada agente de System Center, básicamente, se detecta a sí mismo e informa de su existencia a System Center Operations Manager. El uso de la detección en el nivel de máquina simplifica la administración de la infraestructura de System Center y también permite que las distintas versiones de los paquetes de administración de Lync Server (por ejemplo, los módulos de administración de Lync Server 2010 y los paquetes de administración de Lync Server 2013) coexistan con mayor facilidad.
 
 Para admitir esta migración, primero tendrá que actualizar la supervisión de Lync Server 2010 existente para evitar brechas en la cobertura. Para ello, elija un equipo de Lync Server 2010 existente para que servicio el script de detección central de Lync Server 2010 antes de actualizar el almacén de administración central a Lync Server 2013. Este proceso tiene cuatro pasos:
 
@@ -59,7 +61,7 @@ Para admitir esta migración, primero tendrá que actualizar la supervisión de 
 
 Para designar un equipo que no sea el almacén de administración central (por ejemplo, un servidor front-end de Lync Server) que controle la detección central, deberá crear la siguiente clave del registro en el servidor no central de almacenamiento de administración:
 
-Software\\\\HKLM CentralDiscoveryCandidate\\de estado\\de comunicaciones\\en tiempo real de Microsoft
+\\Software HKLM \\ \\ CentralDiscoveryCandidate de estado de comunicaciones en tiempo real de Microsoft \\ \\
 
 Puede crear esta clave del Registro llevando a cabo el siguiente procedimiento:
 
@@ -67,7 +69,7 @@ Puede crear esta clave del Registro llevando a cabo el siguiente procedimiento:
 
 2.  En el cuadro de diálogo **Ejecutar**, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el editor del registro, expanda el **\_equipo local\_HKEY**, expanda **software**, expanda **Microsoft**y, a continuación, expanda **comunicaciones en tiempo real**.
+3.  En el editor del registro, expanda el ** \_ \_ equipo local HKEY**, expanda **software**, expanda **Microsoft**y, a continuación, expanda **comunicaciones en tiempo real**.
 
 4.  Haga clic con el botón secundario en **Health**, haga clic en **Nuevo** y, después, haga clic en **Clave**. Si no existe la clave **Health**, haga clic con el botón secundario en **Real-Time Communications**, elija **Nuevo** y, luego, haga clic en **Clave**. Cuando se haya creado la nueva clave, escriba Health y presione ENTRAR.
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a5aa8e93bed162219da1ad522483d61b003a603
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 276cc87d6ec943332fc30dc21c0906a03703382d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529957"
 ---
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Uso del servicio de registro centralizado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>Uso del servicio de registro centralizado en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ El servicio de registro centralizado es una nueva característica de Lync Server
     
       - Defina el ámbito de la sesión de registro desde las opciones **Sitio** (ejecutar las capturas de registro en los PC solo en ese sitio) o **Global** (ejecutar las capturas de registro en todas los PC de la implementación).
 
-El servicio de registro centralizado es extremadamente eficaz y puede satisfacer casi todas las necesidades de solución de problemas, tanto grandes como pequeñas. Desde el análisis de causa raíz a problemas de rendimiento, el servicio de registro centralizado puede ser una herramienta importante para los administradores. Todos los ejemplos se muestran con el shell de administración de Lync Server. Hay un componente de línea de comandos para el servicio de registro centralizado denominado **CLSController. exe**. Se proporciona ayuda para la herramienta de la línea de comandos a través de la misma herramienta. Sin embargo, existe una cantidad limitada de funciones que puede ejecutar desde la línea de comandos. Mediante el shell de administración de Lync Server, tiene acceso a un conjunto de características mucho más amplio y mucho más configurable. Debe considerar siempre el shell de administración de Lync Server como el primer y más importante método al usar el servicio de registro centralizado.
+El servicio de registro centralizado es extremadamente eficaz y puede satisfacer casi todas las necesidades de solución de problemas, tanto grandes como pequeñas. Desde el análisis de causa raíz a problemas de rendimiento, el servicio de registro centralizado puede ser una herramienta importante para los administradores. Todos los ejemplos se muestran con el shell de administración de Lync Server. Hay un componente de línea de comandos para el servicio de registro centralizado denominado **CLSController.exe**. Se proporciona ayuda para la herramienta de la línea de comandos a través de la misma herramienta. Sin embargo, existe una cantidad limitada de funciones que puede ejecutar desde la línea de comandos. Mediante el shell de administración de Lync Server, tiene acceso a un conjunto de características mucho más amplio y mucho más configurable. Debe considerar siempre el shell de administración de Lync Server como el primer y más importante método al usar el servicio de registro centralizado.
 
 En los temas de esta sección se explica cómo usar el servicio de registro centralizado y ejemplos de cómo usar sus numerosas características.
 

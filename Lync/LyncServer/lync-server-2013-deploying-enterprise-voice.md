@@ -12,20 +12,22 @@ ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a19016a095e38a0df70a561976c6b03d59fdfd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b2784c5cb04994004503010426ebc98763c0250
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188303"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531157"
 ---
+# <a name="deploying-enterprise-voice-in-lync-server-2013"></a>Implementar la telefonía IP empresarial en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-enterprise-voice-in-lync-server-2013"></a>Implementar la telefonía IP empresarial en Lync Server 2013
+
 
 </div>
 
@@ -90,7 +92,7 @@ Para ver una topología de referencia que ilustre y explique un ejemplo de imple
 
 En esta sección se incluyen procedimientos para implementaciones en las que se combina un servidor de mediación en cada servidor front-end o servidor Standard Edition, como se recomienda, y también para implementaciones con un grupo de servidores de mediación independiente.
 
-Puede omitir el siguiente contenido si usó el generador de topologías para definir y publicar una topología que instala un servidor de mediación en cada servidor front-end o servidor Standard Edition, ya que el Asistente para la implementación ya instaló automáticamente los archivos para Servidor de mediación al instalar archivos para el grupo de servidores front-end o el servidor Standard Edition:
+Puede omitir el siguiente contenido si usó el generador de topologías para definir y publicar una topología que instala un servidor de mediación en cada servidor front-end o servidor Standard Edition, ya que el Asistente para la implementación ya instaló automáticamente los archivos del servidor de mediación al instalar los archivos para el grupo de servidores front-end o el servidor Standard Edition:
 
   - [Configuración de troncos en Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
@@ -161,7 +163,7 @@ Si usó el generador de topologías para definir y publicar un servidor de media
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Implementación de sitios de sucursal en Lync Server 2013](lync-server-2013-deploying-branch-sites.md)  

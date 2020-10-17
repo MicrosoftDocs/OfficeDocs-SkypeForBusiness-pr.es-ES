@@ -12,20 +12,22 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04614e970064f765e24b86b6e875d1fb284b3fbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f43a2c86dcbd88f8e9af4ae54f302b4abc943fc0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529977"
 ---
+# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>Uso de inicio para el servicio de registro centralizado para capturar registros en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>Uso de inicio para el servicio de registro centralizado para capturar registros en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ El servicio de registro centralizado ofrece dos maneras de emitir comandos. Una 
 
 
 > [!NOTE]
-> Si decide usar el conjunto de comandos limitado disponible en la línea de comandos, puede obtener ayuda con CLSController. exe escribiendo <CODE>ClsController.exe</CODE>. De forma predeterminada, <STRONG>ClsController. exe</STRONG> se instala en el directorio C:\Archivos de Programa\microsoft Lync Server 2013 \ ClsAgent.
+> Si decide usar el conjunto de comandos limitado disponible en la línea de comandos, puede obtener ayuda con CLSController.exe escribiendo <CODE>ClsController.exe</CODE> . De forma predeterminada, <STRONG>ClsController.exe</STRONG> se instala en el directorio C:\Archivos de Programa\microsoft Lync Server 2013 \ ClsAgent.
 
 
 
@@ -57,7 +59,7 @@ El servicio de registro centralizado ofrece dos maneras de emitir comandos. Una 
 
 <div>
 
-## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Para ejecutar Start-CsClsLogging con Windows PowerShell usando comandos básicos
+## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Para ejecutar Start-CsClsLogging con Windows PowerShell con comandos básicos
 
 1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
@@ -108,7 +110,7 @@ El servicio de registro centralizado ofrece dos maneras de emitir comandos. Una 
 
 <div>
 
-## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>Para ejecutar Start-CsClsLogging con Windows PowerShell mediante comandos avanzados
+## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>Para ejecutar Start-CsClsLogging con Windows PowerShell con comandos avanzados
 
 1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
@@ -128,7 +130,7 @@ El servicio de registro centralizado ofrece dos maneras de emitir comandos. Una 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Información general sobre el servicio de registro centralizado en Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  

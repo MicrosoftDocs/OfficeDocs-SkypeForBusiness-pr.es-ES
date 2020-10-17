@@ -12,20 +12,22 @@ ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39119f423f1bc06b6f51f9f18cbbf39d670c7270
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 656bf8f692617392db02e186fcccebba25a01b0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530007"
 ---
+# <a name="usersite-table-in-lync-server-2013"></a>Tabla UserSite en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="usersite-table-in-lync-server-2013"></a>Tabla UserSite en Lync Server 2013
+
 
 </div>
 
@@ -58,7 +60,7 @@ La tabla UserSite es una tabla de apoyo. Cada registro representa un sitio de us
 <tbody>
 <tr class="odd">
 <td><p><strong>UserSiteKey</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número único que identifica el sitio del usuario.</p></td>
 </tr>
@@ -70,7 +72,7 @@ La tabla UserSite es una tabla de apoyo. Cada registro representa un sitio de us
 </tr>
 <tr class="odd">
 <td><p><strong>RegionKey</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Referencia de la <a href="lync-server-2013-region-table.md">tabla region en Lync Server 2013</a>.</p></td>
 </tr>

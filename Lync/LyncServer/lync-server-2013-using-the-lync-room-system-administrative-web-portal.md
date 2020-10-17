@@ -12,20 +12,22 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d950bd62b2db91f60dd5828f79977472a9c5d573
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 677fdd070994c8cc1f63f775ffb2569642768f0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529947"
 ---
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Usar el portal web administrativo del sistema Lync Room en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Usar el portal web administrativo del sistema Lync Room en Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Después de implementar LRS en el servidor, puede comprobar el estado de todos l
 
 1.  Vaya a la siguiente dirección URL:
     
-    https://\<fe-servidor\>/LRS
+    https:// \<fe-server\> /LRS
 
 2.  Escriba las credenciales de la cuenta LRSSupport o de una cuenta que se haya agregado al grupo de seguridad LRSSupportAdminGroup.
 
@@ -59,15 +61,15 @@ Después de implementar LRS en el servidor, puede comprobar el estado de todos l
 
 La página de Resumen proporciona la siguiente información para todos los salones de LRS implementados en el servidor:
 
-  - **Etiquete**   el nombre personalizado que el administrador da al salón. La etiqueta se puede establecer en el portal haciendo clic en el nombre del salón.
+  - **Etiqueta**     El nombre personalizado que el administrador da al salón. La etiqueta se puede establecer en el portal haciendo clic en el nombre del salón.
 
-  - **Mantenimiento**   el estado de mantenimiento de la sala, que se deriva del estado de mantenimiento agregado de la sala, que se muestra en la sección estado de la página Configuración de la sala.
+  - **Estado**     de El estado de mantenimiento de la sala, que se deriva del estado de mantenimiento agregado de la sala, que se muestra en la sección estado de la página Configuración de la sala.
 
-  - **Siguiente reunión**   la fecha y hora en que se programó la próxima reunión.
+  - **Próxima reunión**     La fecha y la hora en que se programó la próxima reunión.
 
-  - **Versión LRS, fabricante, modelo**   estos valores están preestablecidos en LRS. Según el fabricante, estos campos podrían dejarse en blanco.
+  - **Versión LRS, fabricante, modelo**     Estos valores están preestablecidos en LRS. Según el fabricante, estos campos podrían dejarse en blanco.
 
-  - **Última actualización**   muestra la última vez que se actualizó la Página Web.
+  - **Última actualización**     Muestra la última vez que se actualizó la Página Web.
 
 ![Vista de resumen del portal de administración del sistema Lync Room](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Vista de resumen del portal de administración del sistema Lync Room")
 
@@ -151,7 +153,7 @@ La sección estado ofrece una indicación visual del estado de la conexión de L
 
 ## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>¿Por qué no puedo iniciar sesión en el portal web administrativo?
 
-  - Al abrir https://localhost/lrs, podrás ver la página de inicio de sesión, pero, cuando escribas tus credenciales, no podrás iniciar sesión. En este caso, debe abrir https://FQDNofFEserver/lrs para iniciar sesión en el portal web administrativo.
+  - Al abrir, podrás https://localhost/lrs ver la página de inicio de sesión, pero, cuando escribas tus credenciales, no podrás iniciar sesión. En este caso, debe abrir https://FQDNofFEserver/lrs para iniciar sesión en el portal web administrativo.
 
   - Si el equipo desde el que tiene acceso al portal web administrativo se encuentra en un grupo de trabajo, "http://" no funcionará. Use "https" en su lugar.
 
@@ -173,7 +175,7 @@ La sección estado ofrece una indicación visual del estado de la conexión de L
 
   - Asegúrese de que la cuenta de usuario de LRSApp esté habilitada para SIP.
 
-  - Si sigue teniendo problemas, recopile el archivo **Trace. log** en el sistema LRS de D:\\Tracing\\LRSAdminLogs\\y, a continuación, envíelo al contacto de soporte LRS.
+  - Si sigue teniendo problemas, recopile el archivo **Trace. log** en el sistema LRS de D: \\ Tracing \\ LRSAdminLogs \\ y, a continuación, envíelo al contacto de soporte LRS.
 
 </div>
 

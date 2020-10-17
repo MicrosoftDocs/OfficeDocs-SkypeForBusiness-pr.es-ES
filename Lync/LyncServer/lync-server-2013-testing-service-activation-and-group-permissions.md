@@ -12,20 +12,22 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce58dae337121af9e2754b38ad5c1c0dafbfab4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92e29cafcfac7a74e43617841a174653f6072c5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193913"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530527"
 ---
+# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Probar la activación del servicio y los permisos de grupo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Probar la activación del servicio y los permisos de grupo en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsTopology. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsTopology. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTopology&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsTopology permite comprobar que Lync Server 2013 funciona correctamente en un ámbito global. De forma predeterminada, el cmdlet comprueba toda la infraestructura de Lync Server, comprobando que los servicios necesarios se están ejecutando y que se han establecido los permisos adecuados para estos servicios y para los grupos de seguridad universal que se crean al instalar Lync Server. .
+El cmdlet Test-CsTopology permite comprobar que Lync Server 2013 funciona correctamente en un ámbito global. De forma predeterminada, el cmdlet comprueba toda la infraestructura de Lync Server, comprobando que los servicios necesarios se están ejecutando y que se han establecido los permisos adecuados para estos servicios y para los grupos de seguridad universal que se crean al instalar Lync Server.
 
-Además de comprobar la validez de la instalación de Lync Server, test-CsTopology también le permite comprobar la validez de un servicio específico. Por ejemplo, este comando comprueba el estado del servidor de conferencia A/V en el grupo atl-cs-001.litwareinc.com:
+Además de comprobar la validez de la instalación de Lync Server, Test-CsTopology también le permite comprobar la validez de un servicio específico. Por ejemplo, este comando comprueba el estado del servidor de conferencia A/V en el grupo atl-cs-001.litwareinc.com:
 
     Test-CsTopology -Service "ConferencingServer:atl-cs-001.litwareinc.com"
 
@@ -78,9 +80,9 @@ Además de comprobar la validez de la instalación de Lync Server, test-CsTopolo
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-De forma predeterminada, test-CsTopology muestra muy poco resultados en pantalla. En su lugar, la información devuelta por el cmdlet se escribe en un archivo HTML. El parámetro Report permite especificar una ruta de acceso de archivo y un nombre de archivo para el archivo HTML generado por test-CsTopology. Si no incluye el parámetro de informe, el archivo HTML se guardará automáticamente en la carpeta de usuarios y se le asignará un nombre similar al siguiente: ce84964a-c4da-4622-Ad34-c54ff3ed361f. html.
+De forma predeterminada, Test-CsTopology muestra muy poco resultados en pantalla. En su lugar, la información devuelta por el cmdlet se escribe en un archivo HTML. El parámetro Report permite especificar una ruta de acceso de archivo y un nombre de archivo para el archivo HTML generado por test-CsTopology. Si no incluye el parámetro de informe, el archivo HTML se guardará automáticamente en la carpeta de usuarios y se le asignará un nombre similar al siguiente: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.
 
-El siguiente comando de ejemplo ejecuta test-CsTopology y guarda el resultado en un archivo denominado C:\\logs\\ComputerTest. html:
+El siguiente comando de ejemplo ejecuta Test-CsTopology y guarda el resultado en un archivo denominado C: \\ Logs \\ComputerTest.html:
 
     Test-CsTopology -Report "C:\Logs\ComputerTest.html" -Verbose
 
@@ -92,7 +94,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 ## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-A diferencia de la mayoría de los cmdlets test, test-CsTopology informa de que la operación se ha realizado correctamente o con errores. En parte, esto es debido a la gran cantidad de comprobaciones de comprobación que el cmdlet debe realizar cada vez que se ejecuta. En su lugar, los datos se guardan en un informe HTML que, a continuación, se puede ver con Internet Explorer.
+A diferencia de la mayoría de los cmdlets test, Test-CsTopology informa de que la operación se ha realizado correctamente o con errores. En parte, esto es debido a la gran cantidad de comprobaciones de comprobación que el cmdlet debe realizar cada vez que se ejecuta. En su lugar, los datos se guardan en un informe HTML que, a continuación, se puede ver con Internet Explorer.
 
 </div>
 
@@ -100,9 +102,9 @@ A diferencia de la mayoría de los cmdlets test, test-CsTopology informa de que 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsTopology podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsTopology podría producir un error:
 
-  - Es posible que la replicación no esté actualizada en el equipo de prueba. Puede comprobar el estado de replicación actual de un equipo mediante la ejecución del cmdlet Get-CsManagementStoreReplicationStatus:
+  - Es posible que la replicación no esté actualizada en el equipo de prueba. Puede comprobar el estado de replicación actual de un equipo ejecutando el cmdlet Get-CsManagementStoreReplicationStatus:
     
         Get-CsManagementStoreReplicationStatus -ReplicaFqdn "atl-cs-001.litwareinc.com"
     

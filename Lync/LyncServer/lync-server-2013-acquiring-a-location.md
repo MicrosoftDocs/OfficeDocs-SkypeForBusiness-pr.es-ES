@@ -12,20 +12,22 @@ ms:contentKeyID: 48184903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88ed32ed07f709e0a047e8fc07e9124bc129adca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e5b3a6f9e781efbc3c8b7672ad28f1753490e17
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199373"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529747"
 ---
+# <a name="acquiring-a-location-in-lync-server-2013"></a>Adquirir una ubicación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="acquiring-a-location-in-lync-server-2013"></a>Adquirir una ubicación en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-06-06_
 
 En una implementación de Lync Server 2013 E9-1-1, cada cliente conectado internamente a Lync o Lync Phone Edition adquiere su propia ubicación de forma activa. Después del registro SIP, el cliente facilita toda la información de conectividad de red que se conoce a sí misma en una solicitud de ubicación en el servicio de información de ubicaciones, que es un servicio Web respaldado por una base de datos replicada de SQL Server. Cada grupo de sitio central tiene un servicio de información de ubicación, que usa la información de red para consultar sus registros en busca de una ubicación coincidentes. Si hay una coincidencia, el servicio de información de ubicación devuelve una ubicación al cliente. Si no hay ninguna coincidencia, puede que se pida al usuario que escriba una ubicación manualmente (según la configuración de la directiva de ubicación). Los datos de ubicación se devuelven al cliente en un formato XML estándar de grupo de trabajo de ingeniería de Internet (IETF) denominado PIDF-LO (Presence Information Data Format Location Object).
 
-El cliente de Lync Server incluye los datos de PIDF-lo como parte de una llamada de emergencia y el proveedor de servicios E9-1-1 utiliza estos datos para determinar el PSAP adecuado y enrutar la llamada a dicho PSAP junto con el ESQK correcto, lo que permite que el distribuidor de PSAP obtenga el Ubicación del autor de la llamada.
+El cliente de Lync Server incluye los datos PIDF-lo como parte de una llamada de emergencia y el proveedor de servicios E9-1-1 utiliza estos datos para determinar el PSAP adecuado y enrutar la llamada a dicho PSAP junto con el ESQK correcto, lo que permite que el distribuidor de PSAP obtenga la ubicación del autor de la llamada.
 
 El siguiente diagrama muestra cómo un cliente de Lync Server adquiere una ubicación (excepto para el método de ubicación basado en direcciones MAC de cliente de terceros):
 

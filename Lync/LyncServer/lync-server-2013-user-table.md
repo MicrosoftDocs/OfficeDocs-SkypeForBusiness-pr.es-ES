@@ -12,20 +12,22 @@ ms:contentKeyID: 48184437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f3ea921981726ad1865741a1e8e37f82f8ac125
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed3f2372621b2b098a6b235d1bdc151ddac054bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530167"
 ---
+# <a name="user-table-in-lync-server-2013"></a>Tabla user en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-table-in-lync-server-2013"></a>Tabla user en Lync Server 2013
+
 
 </div>
 
@@ -58,7 +60,7 @@ La tabla User es una tabla de apoyo donde se almacena una lista de los distintos
 <tbody>
 <tr class="odd">
 <td><p><strong>UserKey</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número único que identifica a este usuario.</p></td>
 </tr>
@@ -70,7 +72,7 @@ La tabla User es una tabla de apoyo donde se almacena una lista de los distintos
 </tr>
 <tr class="odd">
 <td><p><strong>URIType</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>1 es un tipo de URI desconocido.</p>
 <p>2 es un URI de usuario.</p>
@@ -79,7 +81,7 @@ La tabla User es una tabla de apoyo donde se almacena una lista de los distintos
 </tr>
 <tr class="even">
 <td><p><strong>TenantKey</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Inquilino del usuario, con referencia a la tabla Tenant.</p></td>
 </tr>

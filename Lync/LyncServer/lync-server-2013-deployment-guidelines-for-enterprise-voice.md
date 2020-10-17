@@ -12,20 +12,22 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 688cf48c7f716047f0d7412c34ce84006a5a9348
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05cde2a845dd6314d8822e6b58445eed5c6a1d19
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531077"
 ---
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Instrucciones de implementación para telefonía IP empresarial en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Instrucciones de implementación para telefonía IP empresarial en Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Para obtener una experiencia óptima al implementar la telefonía IP empresarial
     
 
     > [!NOTE]  
-    > Lync Server admite números E. 164 y números de marcado hacia adentro (DID) no directo. Los números no DID pueden representarse con el formato <STRONG> &lt;E.&gt;164; ext&lt;=&gt; Extension</STRONG> o como una cadena de dígitos, con el requisito de que la extensión privada sea única en toda la empresa. Por ejemplo, el número privado 1001 se puede representar como <STRONG>+1425550100;ext=1001</STRONG> o como <STRONG>1001</STRONG>. Cuando se representa como <STRONG>1001</STRONG>, se espera que este número privado sea único en toda la empresa.
+    > Lync Server admite números E. 164 y números de marcado hacia adentro (DID) no directo. Los números no DID pueden representarse con el formato <STRONG> &lt; E. 164 &gt; ; ext &lt; = &gt; Extension</STRONG> o como una cadena de dígitos, con el requisito de que la extensión privada sea única en toda la empresa. Por ejemplo, el número privado 1001 se puede representar como <STRONG>+1425550100;ext=1001</STRONG> o como <STRONG>1001</STRONG>. Cuando se representa como <STRONG>1001</STRONG>, se espera que este número privado sea único en toda la empresa.
 
     
     </div>
@@ -106,7 +108,7 @@ Las comunicaciones de voz con Lync Server dependen de la disponibilidad del soft
 
 ## <a name="alternative-means-of-accessing-emergency-services"></a>Métodos de acceso alternativos a los servicios de emergencia
 
-Para las ubicaciones en las que se instala un cliente de voz (por ejemplo, un equipo con cliente de Lync o un dispositivo de Lync Phone Edition), se recomienda mantener una opción de copia de seguridad para que los usuarios llamen a los servicios de emergencia (por ejemplo, 911 o 999) en caso de un error de alimentación , la degradación de la conectividad de red, la interrupción del servicio telefónico u otros problemas que puedan impedir el funcionamiento de los dispositivos Lync Server, Lync o Lync Phone Edition. Esas opciones alternativas pueden ser un teléfono conectado a una línea de la red telefónica conmutada estándar o un teléfono móvil.
+Para las ubicaciones en las que se instala un cliente de voz (por ejemplo, un equipo con cliente de Lync o un dispositivo de Lync Phone Edition), se recomienda mantener una opción de copia de seguridad para que los usuarios llamen a los servicios de emergencia (por ejemplo, 911 o 999) en caso de que se produzca un error en la alimentación, degradación de la conectividad de red, interrupción del , Lync o dispositivos de Lync Phone Edition. Esas opciones alternativas pueden ser un teléfono conectado a una línea de la red telefónica conmutada estándar o un teléfono móvil.
 
 </div>
 

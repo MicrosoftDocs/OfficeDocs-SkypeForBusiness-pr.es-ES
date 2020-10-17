@@ -12,20 +12,22 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfd8cc2b12032e1283c10e26d4a9fa879621233f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 847aeda66657b2bd665964d6fec3276dc22807ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531517"
 ---
+# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync Server 2013
+
 
 </div>
 
@@ -68,11 +70,11 @@ Si va a implementar un servidor de empresa, debe ejecutarse en todo momento un n
 </tr>
 <tr class="even">
 <td><p>7-8</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>9-10</p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>11-12</p></td>
@@ -119,7 +121,7 @@ Una vez que haya definido la topología, use el siguiente procedimiento para def
 
 4.  En la página **Seleccionar características**, active las casillas de las características que desee en este grupo de servidores front-end. Por ejemplo, si va a implementar sólo las características de mensajería instantánea (mi) y presencia, active la casilla de verificación **Conferencia** para permitir la mensajería instantánea de varios participantes pero no activar las casillas **Conferencia de acceso telefónico local (RTC)**, **telefonía IP empresarial**o **control de admisión de llamadas** , ya que representan características de conferencia de voz, vídeo y colaboración.
     
-      - **Conferencia**   : esta selección permite un amplio conjunto de características, entre las que se incluyen:
+      - **Conferencia**     Esta selección habilita un amplio conjunto de características, entre las que se incluyen:
         
           - Mensajería instantánea con más de dos interlocutores en una sesión de mensajería instantánea
         
@@ -127,15 +129,15 @@ Una vez que haya definido la topología, use el siguiente procedimiento para def
         
           - Conferencia a/V, que permite a los usuarios tener conferencias de audio y vídeo (A/V) en tiempo real sin necesidad de servicios externos, como el servicio de Live Meeting o un puente de audio de terceros.
     
-      - **Las conferencias**   de acceso telefónico local (RTC) permiten a los usuarios unirse a la parte de audio de una conferencia de Lync Server 2013 mediante un teléfono de red telefónica conmutada (RTC) sin necesidad de un proveedor de servicios de audioconferencia.
+      - Conferencias de acceso **telefónico local (RTC)**     Permite a los usuarios unirse a la parte de audio de una conferencia de Lync Server 2013 mediante un teléfono de red telefónica conmutada (RTC) sin necesidad de un proveedor de servicios de audioconferencia.
     
-      - **Enterprise Voice**   Enterprise Voice es la solución de voz sobre IP (VoIP) de Lync Server 2013 que permite a los usuarios realizar y recibir llamadas telefónicas. Implementaría esta característica si planea usar Lync Server 2013 para llamadas de voz, correo de voz y otras funciones que usan un dispositivo de hardware o un cliente de software.
+      - **Telefonía IP empresarial**     Enterprise Voice es la solución de voz sobre IP (VoIP) en Lync Server 2013 que permite a los usuarios realizar y recibir llamadas telefónicas. Implementaría esta característica si planea usar Lync Server 2013 para llamadas de voz, correo de voz y otras funciones que usan un dispositivo de hardware o un cliente de software.
     
-      - **El CAC de control de admisión de llamadas (CAC)**   determina, en función del ancho de banda de red disponible, si se permite que se establezcan sesiones de comunicaciones en tiempo real, como las llamadas de voz o vídeo. Si solo ha implementado mensajería instantánea y presencia, no necesita el CAC, ya que ninguna de estas características lo usa.
+      - **Control de admisión de llamadas (CAC)**     El CAC determina, en función del ancho de banda de red disponible, si se permite que se establezcan sesiones de comunicaciones en tiempo real, como las llamadas de voz o vídeo. Si solo ha implementado mensajería instantánea y presencia, no necesita el CAC, ya que ninguna de estas características lo usa.
     
-      - **** El archivado de archivado proporciona una forma de archivar contenido de mensajería instantánea, contenido de conferencias (reuniones) o ambos que se envían a través de Lync Server 2013.   
+      - **Archivado**     El archivado proporciona una forma de archivar contenido de mensajería instantánea, contenido de conferencias (reuniones) o ambos que se envían a través de Lync Server 2013.
     
-      - ****   El servidor de supervisión de supervisión permite recopilar datos numéricos que describen la calidad de los medios en la red y los puntos de conexión, la información de uso relacionada con llamadas VoIP, mensajes de mensajería instantánea, conversaciones a/V, reuniones, uso compartido de aplicaciones y transferencias de archivos, así como la información de errores y solución de problemas de llamadas erróneas.
+      - **Supervisión**     El servidor de supervisión permite recopilar datos numéricos que describen la calidad de los medios en la red y los extremos, la información de uso relacionada con las llamadas de VoIP, los mensajes de mensajería instantánea, las conversaciones A/V, las reuniones, el uso compartido de aplicaciones y las transferencias de archivos, así como la información de errores y solución de problemas de llamadas fallidas.
     
     <div>
     
@@ -162,7 +164,7 @@ Una vez que haya definido la topología, use el siguiente procedimiento para def
     <th></th>
     <th>Conferencia</th>
     <th>Conferencia de acceso telefónico local</th>
-    <th>Enterprise Voice</th>
+    <th>Telefonía IP empresarial</th>
     <th>Control de admisión de llamadas</th>
     </tr>
     </thead>
@@ -218,7 +220,7 @@ Una vez que haya definido la topología, use el siguiente procedimiento para def
 
 6.  La página **asociar roles de servidor con este grupo de servidores front-end** permite definir y asociar roles de servidor con el grupo de servidores front-end. Los tres roles disponibles son:
     
-    **La habilitación**   de un grupo de servidores perimetrales define y asocia un solo servidor perimetral o un grupo de servidores perimetrales. Un servidor perimetral facilita la comunicación y la colaboración entre usuarios dentro de la organización y personas fuera de la organización, incluidos los usuarios federados.
+    **Habilitación de un grupo**     de servidores perimetrales Define y asocia un solo servidor perimetral o un grupo de servidores perimetrales. Un servidor perimetral facilita la comunicación y la colaboración entre usuarios dentro de la organización y personas fuera de la organización, incluidos los usuarios federados.
     
     Existen dos escenarios posibles que pueden usarse para implementar y asociar roles de servidor:
     
@@ -265,7 +267,7 @@ Una vez que haya definido la topología, use el siguiente procedimiento para def
     
 
     > [!IMPORTANT]
-    > La dirección URL base es la identidad de servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de los servicios web del grupo es https://pool01.contoso.net, la dirección URL base es pool01.contoso.net.
+    > La dirección URL base es la identidad de servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de los servicios web del grupo es https://pool01.contoso.net , la dirección URL base es pool01.contoso.net.
 
     
     </div>
@@ -279,7 +281,7 @@ Una vez que haya definido la topología, use el siguiente procedimiento para def
     
     </div>
     
-    1.  Si está configurando el equilibrio de carga de DNS, active la casilla **invalidar el FQDN del grupo de servicios Web interno** , escriba la dirección URL base interna (que debe ser diferente del FQDN del grupo de\<servidores y podría\>ser, por ejemplo, Internal-la dirección URL base) en la **dirección URL base interna**.
+    1.  Si está configurando el equilibrio de carga de DNS, active la casilla **invalidar el FQDN del grupo de servicios Web interno** , escriba la dirección URL base interna (que debe ser diferente del FQDN del grupo de servidores y podría ser, por ejemplo, Internal- \<your base URL\> ) en la **dirección URL base interna**.
         
         <div>
         

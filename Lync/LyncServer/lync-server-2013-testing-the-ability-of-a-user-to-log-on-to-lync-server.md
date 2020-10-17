@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193853"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530477"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Probar la capacidad de un usuario para iniciar sesión en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Probar la capacidad de un usuario para iniciar sesión en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsRegistration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsRegistration. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsRegistration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsRegistration permite comprobar que los usuarios de la organización pueden iniciar sesión en Lync Server. Al ejecutar test-CsRegistration, el cmdlet intenta iniciar sesión en un usuario de prueba en Lync Server y, a continuación, si el resultado es correcto, desconecta ese usuario de prueba del sistema. Todo esto ocurre sin la interacción de ningún usuario y sin afectar a los usuarios reales. Por ejemplo, supongamos que el sip:kenmyer@litwareinc.com de la cuenta de prueba corresponde a un usuario real que tiene una cuenta real de Lync Server. En ese caso, la prueba se realizará sin ningún tipo de interrupción ocasionada al Ken Myer real. Cuando la prueba de Ken Myer cierre sesión en el sistema, Ken Myer (la persona) permanecerá conectado.
+El cmdlet Test-CsRegistration permite comprobar que los usuarios de la organización pueden iniciar sesión en Lync Server. Al ejecutar test-CsRegistration, el cmdlet intenta iniciar sesión en un usuario de prueba en Lync Server y, a continuación, si el resultado es correcto, desconecta ese usuario de prueba del sistema. Todo esto ocurre sin la interacción de ningún usuario y sin afectar a los usuarios reales. Por ejemplo, supongamos que el sip:kenmyer@litwareinc.com de la cuenta de prueba corresponde a un usuario real que tiene una cuenta real de Lync Server. En ese caso, la prueba se realizará sin ningún tipo de interrupción ocasionada al Ken Myer real. Cuando la prueba de Ken Myer cierre sesión en el sistema, Ken Myer (la persona) permanecerá conectado.
 
 </div>
 
@@ -74,7 +76,7 @@ El cmdlet test-CsRegistration permite comprobar que los usuarios de la organizac
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsRegistration se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de registrador de Lync Server que se está probando. Por ejemplo:
+El cmdlet Test-CsRegistration se puede ejecutar con una cuenta de prueba preconfigurada (consulte la configuración de las cuentas de prueba para ejecutar pruebas de Lync Server) o en la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación con una cuenta de prueba, solo tiene que especificar el FQDN del grupo de registrador de Lync Server que se está probando. Por ejemplo:
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -123,11 +125,11 @@ Por ejemplo, la salida anterior indica que se produjo un error en la prueba porq
 
     Get-CsUser "sip:kenmyer@litwareinc.com"
 
-Si test-CsRegistration produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
+Si Test-CsRegistration da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Cuando se incluye el parámetro verbose, test-CsRegistration devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo:
+Cuando se incluye el parámetro verbose, Test-CsRegistration devolverá una cuenta paso a paso por cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo:
 
 VERBOse: Activity "Register" (registro) iniciada.
 
@@ -151,7 +153,7 @@ Pila de llamadas de excepción: en Microsoft. RTC. Signaling. SipAsyncResult'1. 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsRegistration podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsRegistration podría producir un error:
 
   - Ha especificado una cuenta de usuario incorrecta. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     

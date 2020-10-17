@@ -12,20 +12,22 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80c58b532c36e74aecd4d7ecb758afee1e2c2bdd
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 15d0bffd92c4c2e2448938c467eec73c9bab1a94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531417"
 ---
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Implementar la apariencia de línea compartida en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Implementar la apariencia de línea compartida en Lync Server 2013
+
 
 </div>
 
@@ -98,7 +100,7 @@ Apariencia de línea compartida (SLA) es una nueva característica de Lync Serve
     
 
     > [!NOTE]  
-    > Tenga en <CODE>-Identity</CODE> cuenta que lo que especifique debe ser una cuenta de usuario habilitada de Enterprise Voice existente válida.
+    > Tenga en cuenta que lo que especifique <CODE>-Identity</CODE> debe ser una cuenta de usuario habilitada de Enterprise Voice existente válida.
 
     
     </div>
@@ -126,7 +128,7 @@ Apariencia de línea compartida (SLA) es una nueva característica de Lync Serve
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    En el siguiente ejemplo se establecen llamadas que superan el número máximo de llamadas simultáneas que se van a reenviar al número de teléfono 202-555-1234. El destino puede ser un usuario de la organización en lugar de un número de teléfono; en ese caso, la sintaxis de la persona que va a recibir las llamadas enviadas es la misma que cuando se especifica un `sip:<NameofDelegate@domain>`delegado:. El otro parámetro posible `BusyOption` es: `Voicemail`
+    En el siguiente ejemplo se establecen llamadas que superan el número máximo de llamadas simultáneas que se van a reenviar al número de teléfono 202-555-1234. El destino puede ser un usuario de la organización en lugar de un número de teléfono; en ese caso, la sintaxis de la persona que va a recibir las llamadas enviadas es la misma que cuando se especifica un delegado: `sip:<NameofDelegate@domain>` . El otro parámetro posible `BusyOption` es `Voicemail` :
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -143,7 +145,7 @@ Apariencia de línea compartida (SLA) es una nueva característica de Lync Serve
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    En el siguiente ejemplo se especifica que las llamadas perdidas se reenviarán al `sla_forward_number`usuario denominado. Las opciones válidas para `-MissedCallOption` el parámetro `Forward`son `BusySignal`, o `Disconnect`. Si lo prefiere `Forward`, también debe incluir el `-MissedCallForwardTarget` parámetro, con un usuario o número de teléfono como destino:
+    En el siguiente ejemplo se especifica que las llamadas perdidas se reenviarán al usuario denominado `sla_forward_number` . Las opciones válidas para el `-MissedCallOption` parámetro son `Forward` , `BusySignal` o `Disconnect` . Si lo prefiere `Forward` , también debe incluir el `-MissedCallForwardTarget` parámetro, con un usuario o número de teléfono como destino:
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d3825891fe6934699e310073825e50a4aee731
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c20bd593e11f032ba0a0ed852a50b6d417fa604
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213787"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531097"
 ---
+# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lista de comprobación para la implementación de conferencias web en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lista de comprobación para la implementación de conferencias web en Lync Server 2013
+
 
 </div>
 
@@ -105,7 +107,7 @@ En la siguiente tabla se ofrece información general sobre los pasos necesarios 
 
 Lync Server 2013 ahora incluye la configuración **MaxUploadFileSizeMb** , que limita el tamaño de los archivos que se pueden cargar durante una reunión. El valor predeterminado de esta opción es 500 MB. Puede ajustar **MaxUploadFileSizeMb** usando el cmdlet **Set-CsConferencingConfiguration**.
 
-**MaxUploadFileSizeMb** no limita la configuración de carga de archivos para Lync Web App. El límite de carga de tamaño de archivo para Lync Web App se establece en aproximadamente 30 MB y se controla mediante el archivo Web.\[config\]de IIS:/DataCollabWeb/int ext/handler/Web.config. Para configurar el límite de carga de tamaño de archivo para Lync Web `maxRequestLength` APP `maxAllowedContentLength` , actualice y en el archivo Web. config tal como se muestra a continuación.
+**MaxUploadFileSizeMb** no limita la configuración de carga de archivos para Lync Web App. El límite de carga de tamaño de archivo para Lync Web App se establece en aproximadamente 30 MB y se controla mediante el archivo web.config de IIS:/DataCollabWeb/Int \[ ext \] /handler/web.config. Para configurar el límite de carga de tamaño de archivo para Lync Web App, actualice `maxRequestLength` y `maxAllowedContentLength` en el archivo de web.config como se muestra a continuación.
 
     <system.web>
         <!-- 
@@ -125,7 +127,7 @@ Lync Server 2013 ahora incluye la configuración **MaxUploadFileSizeMb** , que l
                     </requestFiltering>
                     </security>
 
-Debe actualizar el archivo Web. config para cada servidor front-end.
+Debe actualizar el archivo de web.config para cada servidor front-end.
 
 </div>
 

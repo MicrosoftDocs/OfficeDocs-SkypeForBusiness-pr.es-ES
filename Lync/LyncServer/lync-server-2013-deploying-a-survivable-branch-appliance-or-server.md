@@ -12,20 +12,22 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63e3379e2c703df1d4ce66eda0942befb1569c7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 258f53cf16287b29c739c5a232376fa629b401f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197403"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531357"
 ---
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2014-12-10_
 
 Resistente Enterprise Voice hace referencia a la resistencia de los sitios de sucursal, es decir, a la capacidad de proporcionar un servicio de telefonía IP empresarial continuo a los usuarios de sitios de sucursal en el caso de que el vínculo al sitio central deje de estar disponible.
 
-Para sitios de sucursal pequeños y medianos (sitios de sucursal con 25 a 1.000 usuarios), se recomienda implementar una aplicación de sucursal con funciones de supervivencia, que finalizará las llamadas de red telefónica conmutada (RTC) mediante la puerta de enlace RTC integrada o un tronco SIP a un teléfono. proveedor de servicios. Una aplicación de sucursal con funciones de supervivencia es un dispositivo de terceros que incluye un servidor blade que ejecuta el sistema operativo Windows Server 2008 R2, el registrador de Lync Server 2013, el software de servidor de mediación y una puerta de enlace RTC, todo en un solo chasis de dispositivo.
+Para sitios de sucursal pequeños y medianos (sitios de sucursal con 25 a 1.000 usuarios), se recomienda implementar una aplicación de sucursal con funciones de supervivencia, que finalizará las llamadas de red telefónica conmutada (RTC) mediante la puerta de enlace RTC integrada o un tronco SIP a un proveedor de servicios telefónicos. Una aplicación de sucursal con funciones de supervivencia es un dispositivo de terceros que incluye un servidor blade que ejecuta el sistema operativo Windows Server 2008 R2, el registrador de Lync Server 2013, el software de servidor de mediación y una puerta de enlace RTC, todo en un solo chasis de dispositivo.
 
 Para los sitios de sucursal con 1.000 a 5.000 y ninguna WAN resistente, se recomienda conectar un servidor de sucursal con funciones de supervivencia a una puerta de enlace RTC o a un tronco SIP a un proveedor de servicios telefónicos. Un servidor de sucursal con funciones de supervivencia es un equipo basado en Windows Server que tiene el registrador y el software de servidor de mediación instalado.
 
@@ -81,7 +83,7 @@ Para los sitios de sucursal con 1.000 a 5.000 y ninguna WAN resistente, se recom
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md)  

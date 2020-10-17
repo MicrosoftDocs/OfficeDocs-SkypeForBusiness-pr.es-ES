@@ -12,20 +12,22 @@ ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345116ebdd353fccf85f05a4a3f3ffc82fab6de2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce1c97914abf8e5db393cd932c0a453885e86a5c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530627"
 ---
+# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Información general sobre E9-1-1 en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Información general sobre E9-1-1 en Lync Server 2013
+
 
 </div>
 
@@ -58,9 +60,9 @@ Cuando se usa una puerta de enlace ELIN, también se agrega ERL a la base de dat
 > Los dispositivos analógicos conectados a Lync no pueden recibir información de ubicación del servicio de información de ubicación o la ubicación de transmisión al proveedor de servicios E9-1-1. Si usa la opción del proveedor de servicios E9-1-1 de enlace troncal SIP y tiene que admitir llamadas E9-1-1 desde teléfonos analógicos, tiene dos opciones: 
 > <UL>
 > <LI>
-> <P><STRONG></STRONG>&nbsp;Opción&nbsp;tradicional&nbsp;PS-Ali si tiene puertas de enlace RTC locales en cada sitio donde se implementan teléfonos analógicos y cada teléfono analógico tiene un, puede aprovisionar la ubicación del dispositivo analógico directamente con un proveedor de servicios de identificación de ubicación automática (PS-Ali) o conmutador privado. En este caso, debe configurar directivas de voz específicas de Lync y asignarlas a los objetos contacto del dispositivo analógico para que las llamadas E9-1-1 que se realizan desde esos teléfonos se redirijan directamente a través de la puerta de enlace local al proveedor de RTC del sitio (en lugar de redirigir la llamada a un enlace troncal SIP del proveedor de servicios E9-1-1). Cuando se realiza una llamada SOS, una base de datos de un proveedor de PS-ALI asociado con el enlace troncal de RTC asigna el DID de cada teléfono analógico a una ubicación física, y proporciona esta ubicación al PSAP. Estos registros deben actualizarse con el proveedor de servicios de PS-ALI cada vez que los teléfonos se desplazan a ERL diferentes.</P>
+> <P>Opción tradicional PS <STRONG>-Ali</STRONG> &nbsp; &nbsp; &nbsp; Si tiene puertas de enlace RTC locales en cada sitio en el que se implementan los teléfonos analógicos y cada teléfono analógico tiene un, puede aprovisionar la ubicación del dispositivo analógico directamente con un proveedor de servicios de conmutadores privados o de identificación de ubicación automática (PS-ALI). En este caso, debe configurar directivas de voz específicas de Lync y asignarlas a los objetos contacto del dispositivo analógico para que las llamadas E9-1-1 que se realizan desde esos teléfonos se redirijan directamente a través de la puerta de enlace local al proveedor de RTC del sitio (en lugar de redirigir la llamada a un enlace troncal SIP del proveedor de servicios E9-1-1). Cuando se realiza una llamada SOS, una base de datos de un proveedor de PS-ALI asociado con el enlace troncal de RTC asigna el DID de cada teléfono analógico a una ubicación física, y proporciona esta ubicación al PSAP. Estos registros deben actualizarse con el proveedor de servicios de PS-ALI cada vez que los teléfonos se desplazan a ERL diferentes.</P>
 > <LI>
-> <P><STRONG></STRONG>&nbsp;Opción&nbsp;del&nbsp;proveedor de servicios E9-1-1 puede registrar el analógico de teléfono analógico y su ERL correspondiente con el proveedor de servicios E9-1-1, si el proveedor de servicios E9-1-1 lo admite. Si el proveedor recibe una llamada de Lync Server que no incluye datos PIDF-lo, el proveedor puede ver si hay una coincidencia de base de datos en el número DID de la persona que llama. Mediante la ERL que se recupera desde su base de datos, el proveedor puede redirigir automáticamente la llamada SOS al PSAP correcto y este recibirá el DID del dispositivo analógico y un registro de ESQK que permite al distribuidor buscar la ubicación del autor de la llamada.</P></LI></UL>Si usa la opción de puerta de enlace de ELIN y necesita compatibilidad con las llamadas E9-1-1 desde teléfonos analógicos, puede dar la ubicación del dispositivo analógico directamente con el proveedor de servicios PS-ALI, como se describe en la primera opción mencionada anteriormente.</div>
+> <P>Opción del proveedor <STRONG>de servicios E9-1-1</STRONG> &nbsp; &nbsp; &nbsp; Puede registrar el analógico de teléfono analógico y su ERL correspondiente con el proveedor de servicios E9-1-1, si el proveedor de servicios E9-1-1 lo admite. Si el proveedor recibe una llamada de Lync Server que no incluye datos PIDF-lo, el proveedor puede ver si hay una coincidencia de base de datos en el número DID de la persona que llama. Mediante la ERL que se recupera desde su base de datos, el proveedor puede redirigir automáticamente la llamada SOS al PSAP correcto y este recibirá el DID del dispositivo analógico y un registro de ESQK que permite al distribuidor buscar la ubicación del autor de la llamada.</P></LI></UL>Si usa la opción de puerta de enlace de ELIN y necesita compatibilidad con las llamadas E9-1-1 desde teléfonos analógicos, puede dar la ubicación del dispositivo analógico directamente con el proveedor de servicios PS-ALI, como se describe en la primera opción mencionada anteriormente.</div>
 
 Desde el punto de vista de Lync Server, el proceso de E9-1-1 se puede separar en dos fases:
 

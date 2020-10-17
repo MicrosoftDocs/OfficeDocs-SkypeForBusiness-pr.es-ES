@@ -12,20 +12,22 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a3282315d50b0a5075afc380487fb9204d4285c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757041"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529907"
 ---
+# <a name="migrate-address-book"></a>Migrar la Libreta de direcciones
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a>Migrar la Libreta de direcciones
+
 
 </div>
 
@@ -102,7 +104,7 @@ Si establece el valor de **UseNormalizationRules** en false para que los usuario
 
 1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Realice una de las acciones siguientes:
+2.  Realice una de las siguientes acciones:
     
       - Si su implementación incluye solo Lync Server 2013, ejecute el siguiente cmdlet en el nivel global para cambiar los valores de **UseNormalizationRules** y **IgnoreGenericRules** a true:
         

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ac61976923bac8bff0162a61e5496df6181127
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192993"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530237"
 ---
+# <a name="user-activity-report-in-lync-server-2013"></a>Informe de actividad de usuario en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Informe de actividad de usuario en Lync Server 2013
+
 
 </div>
 
@@ -150,7 +152,7 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de acti
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>17/7/2012 1:00 PM</p>
+<p>17/7/2012 13:00</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/17/12012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
@@ -173,7 +175,7 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de acti
 <ul>
 <li><p>Todos</p></li>
 <li><p>Punto a punto</p></li>
-<li><p>Conversación</p></li>
+<li><p>Conferencia</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -186,11 +188,11 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de acti
 <td><p>Indica si la actividad correspondiente se desarrolló correctamente o causó errores. Seleccione una de las siguientes opciones:</p>
 <ul>
 <li><p>Todos</p></li>
-<li><p>Success</p></li>
+<li><p>Correcto</p></li>
 <li><p>Error esperado</p></li>
 <li><p>Error inesperado</p></li>
 </ul>
-<p>Un &quot;error esperado&quot; es un error que se espera que suceda; por ejemplo, si un usuario ha establecido su estado en no molestar, se espera que se produzca un error en cualquier llamada a ese usuario. Un &quot;error&quot; inesperado es un error que se produce en lo que parecería ser un sistema en mal estado. Por ejemplo, una llamada no debería finalizarse si el autor de la llamada está en espera. De ser así, dicha situación se identificaría como un error inesperado.</p></td>
+<p>Un error &quot; esperado &quot; es un error que se espera que suceda; por ejemplo, si un usuario ha establecido su estado en no molestar, se espera que se produzca una llamada a ese usuario. Un &quot; error inesperado &quot; es un error que se produce en lo que parecería ser un sistema en mal estado. Por ejemplo, una llamada no debería finalizarse si el autor de la llamada está en espera. De ser así, dicha situación se identificaría como un error inesperado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Prefijo de URI de usuario</strong></p></td>
@@ -253,7 +255,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 <tr class="even">
 <td><p><strong>Tiempo de respuesta</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Fecha y hora en las &quot;que&quot; el usuario aceptó la invitación a la sesión.</p></td>
+<td><p>Fecha y hora en las que el &quot; &quot; usuario aceptó la invitación a la sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Hora de finalización</strong></p></td>
@@ -296,7 +298,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 <tr class="odd">
 <td><p><strong>URI de conferencia</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Identificador único de la conferencia. Al hacer clic en este elemento, el informe le muestra el informe de detalles de conferencia de la sesión seleccionada. Al desplegar este elemento, el informe le muestra información sobre los participantes en la conferencia. Para obtener más información, &quot;vea la sección métricas&quot; de los participantes de la Conferencia más adelante en este tema.</p></td>
+<td><p>Identificador único de la conferencia. Al hacer clic en este elemento, el informe le muestra el informe de detalles de conferencia de la sesión seleccionada. Al desplegar este elemento, el informe le muestra información sobre los participantes en la conferencia. Para obtener más información, vea la &quot; sección métricas de los participantes de la Conferencia &quot; más adelante en este tema.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Organizador</strong></p></td>
@@ -304,7 +306,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 <td><p>Dirección SIP del usuario que organizó la conferencia</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>Sí</p></td>
 <td><p>Nombre del servidor perimetral (si lo hay) usado en la conferencia.</p></td>
 </tr>
@@ -359,7 +361,7 @@ En la tabla siguiente se muestra la información que recoge el informe de activi
 <tr class="odd">
 <td><p><strong>Conectividad</strong></p></td>
 <td><p>No</p></td>
-<td><p>Tipo de conexión de red. Por ejemplo &quot;, desde&quot; Internal para la conexión &quot;interna o&quot; desde RTC para usuarios de acceso telefónico local.</p></td>
+<td><p>Tipo de conexión de red. Por ejemplo, &quot; desde Internal &quot; para la conexión interna o &quot; desde RTC &quot; para usuarios de acceso telefónico local.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Hora de conexión</strong></p></td>

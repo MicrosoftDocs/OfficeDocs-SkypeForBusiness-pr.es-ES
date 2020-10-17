@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530947"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Conmutación por error del servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Conmutación por error del servidor de chat persistente en Lync Server 2013
+
 
 </div>
 
@@ -69,15 +71,15 @@ La base de datos de cumplimiento de chat persistente (mgccomp) no se conmuta por
 
 2.  Copie cualquier archivo de copia de seguridad no copiado desde el recurso compartido de copia de seguridad a la carpeta de destino de copias del servidor de copias de seguridad.
 
-3.  Aplique cualquier copia de seguridad de registro de transacciones no aplicadas en secuencia con la base de datos secundaria. Para obtener más información, consulte "Cómo: aplicar una copia de seguridad del registro de transacciones (Transact https://go.microsoft.com/fwlink/p/?linkid=247428-SQL)" en.
+3.  Aplique cualquier copia de seguridad de registro de transacciones no aplicadas en secuencia con la base de datos secundaria. Para obtener más información, consulte "Cómo: aplicar una copia de seguridad del registro de transacciones (Transact-SQL)" en https://go.microsoft.com/fwlink/p/?linkid=247428 .
 
 4.  Publique en línea la base de datos mgc de copia de seguridad. Utilizando la ventana de consultas que se abre en el paso 1b, realice lo siguiente:
     
     1.  Finalice todas las conexiones a la base de datos mgc, si existe alguna:
         
-        1.  **exec Sp\_who2** para identificar conexiones a la base de datos MGC.
+        1.  **exec Sp \_ who2** para identificar conexiones a la base de datos MGC.
         
-        2.  **Kill \<SPID\> ** para finalizar estas conexiones.
+        2.  **Kill \<spid\> ** para finalizar estas conexiones.
     
     2.  Publique en línea la base de datos:
         

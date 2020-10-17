@@ -12,20 +12,22 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ec702870cffcd6801cf125d2cc130dbe15b9481
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a4be9b6d89f58be67eb341d051d025b795f7feb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184083"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530567"
 ---
+# <a name="planning-for-response-groups-in-lync-server-2013"></a>Planeación de grupos de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-groups-in-lync-server-2013"></a>Planeación de grupos de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42184083"
 
 _**Última modificación del tema:** 2012-06-19_
 
-Si su organización tiene grupos de personas que responden y administran determinados tipos de llamadas, como el servicio de atención al cliente, una asistencia técnica interna o el soporte técnico telefónico general de un departamento, puede implementar la aplicación del grupo de respuesta de Lync Server para administrar estos tipos. de llamadas. La aplicación de grupo de respuesta dirige y pone en cola llamadas entrantes para personas designadas, conocidas como agentes. Puede aumentar el uso de los servicios de asistencia telefónica y reducir los gastos de estos servicios por medio de estos grupos de respuesta. En esta sección se describen las consideraciones de planeación para el grupo de respuesta.
+Si su organización tiene grupos de personas que responden y administran determinados tipos de llamadas, como el servicio de atención al cliente, un departamento de soporte técnico interno o un soporte técnico telefónico general para un departamento, puede implementar la aplicación del grupo de respuesta de Lync Server para administrar estos tipos de llamadas. La aplicación de grupo de respuesta dirige y pone en cola llamadas entrantes para personas designadas, conocidas como agentes. Puede aumentar el uso de los servicios de asistencia telefónica y reducir los gastos de estos servicios por medio de estos grupos de respuesta. En esta sección se describen las consideraciones de planeación para el grupo de respuesta.
 
 <div>
 

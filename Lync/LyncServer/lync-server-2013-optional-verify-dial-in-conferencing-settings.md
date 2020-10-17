@@ -12,20 +12,22 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ae67001d7e041cf0b4e8f6a01fb9278f3d79300
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c43646572171a93880dd5013c87a08a2051ab2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530797"
 ---
+# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>Opcional Comprobar la configuración de conferencia de acceso telefónico local en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>Opcional Comprobar la configuración de conferencia de acceso telefónico local en Lync Server 2013
+
 
 </div>
 

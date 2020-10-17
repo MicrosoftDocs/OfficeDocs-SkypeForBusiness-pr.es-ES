@@ -12,20 +12,22 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2daba0f4e37a07065edf6a9c80955047a7d26b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7294c70a0ebfd49f954bbe911d2fccb81d79fa54
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212956"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530107"
 ---
+# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Tabla UserAgentDef (QoE) en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="useragentdef-table-qoe-in-lync-server-2013"></a>Tabla UserAgentDef (QoE) en Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ La tabla UserAgentDef asigna identificadores de agente de usuario a los nombres 
 <td><p>MCU AV</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>°</p></td>
 <td><p>°</p></td>
 </tr>
@@ -96,8 +98,8 @@ La tabla UserAgentDef asigna identificadores de agente de usuario a los nombres 
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Auxiliar</p></td>
-<td><p>Auxiliar</p></td>
+<td><p>Attendant</p></td>
+<td><p>Attendant</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb8c3ff97930411cb8d679054015ffc18ab3ce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191693"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530877"
 ---
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Requisitos del equilibrador de carga de hardware para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Requisitos del equilibrador de carga de hardware para Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ La topología perimetral consolidada escalada 2013 de Lync Server está optimiza
 
 </div>
 
-Para determinar si el equilibrador de carga de hardware admite las características necesarias para Lync Server 2013, consulte "Lync Server 2010 load balancer Partners" [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)en.
+Para determinar si el equilibrador de carga de hardware admite las características necesarias para Lync Server 2013, consulte "Lync Server 2010 load balancer Partners" en [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) .
 
 <div>
 
@@ -143,7 +145,7 @@ Si se implementan dispositivos móviles, el equilibrador de carga de hardware de
 
 
 > [!WARNING]  
-> Los equilibradores de carga de hardware F5 tienen una característica llamada OneConnect que asegura que cada solicitud dentro de una conexión TCP tenga carga equilibrada individualmente. Si va a implementar dispositivos móviles, asegúrese de que su proveedor del equilibrador de carga de hardware admita la misma funcionalidad. Las últimas aplicaciones móviles que utilizan el sistema Apple iOS requieren el uso seguridad de capa de transporte (TLS), versión 1.2. F5 proporciona opciones de configuración específicas para este sistema.<BR>Para obtener más información sobre los equilibradores de carga de hardware de terceros, consulte<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> Los equilibradores de carga de hardware F5 tienen una característica llamada OneConnect que asegura que cada solicitud dentro de una conexión TCP tenga carga equilibrada individualmente. Si va a implementar dispositivos móviles, asegúrese de que su proveedor del equilibrador de carga de hardware admita la misma funcionalidad. Las últimas aplicaciones móviles que utilizan el sistema Apple iOS requieren el uso seguridad de capa de transporte (TLS), versión 1.2. F5 proporciona opciones de configuración específicas para este sistema.<BR>Para obtener más información sobre los equilibradores de carga de hardware de terceros, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -151,7 +153,7 @@ Si se implementan dispositivos móviles, el equilibrador de carga de hardware de
 
 A continuación se muestran los requisitos del equilibrador de carga de hardware para servicios web de grupo de directores y de servidores front-end:
 
-  - Para VIP de servicios Web internos, establezca\_la persistencia de la dirección de origen (puerto interno 80, 443) en el equilibrador de carga de hardware. Para Lync Server 2013, la\_persistencia de la dirección de origen significa que siempre se envían varias conexiones procedentes de una dirección IP a un servidor para mantener el estado de la sesión.
+  - Para VIP de servicios Web internos, establezca \_ la persistencia de la dirección de origen (puerto interno 80, 443) en el equilibrador de carga de hardware. Para Lync Server 2013, \_ la persistencia de la dirección de origen significa que siempre se envían varias conexiones procedentes de una dirección IP a un servidor para mantener el estado de la sesión.
 
   - Use un tiempo de espera de inactividad TCP de 1.800 segundos.
 
@@ -239,7 +241,7 @@ Es necesario definir la supervisión de puertos en los equilibradores de carga d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Web&gt;-int_mco_443_vs de grupo</p>
+<td><p>&lt;&gt;Web-int_mco_443_vs de grupo</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>Front-end</p>
@@ -248,7 +250,7 @@ Es necesario definir la supervisión de puertos en los equilibradores de carga d
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Web&gt;-int_mco_80_vs de grupo</p>
+<td><p>&lt;&gt;Web-int_mco_80_vs de grupo</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>Front-end</p>
@@ -281,7 +283,7 @@ Es necesario definir la supervisión de puertos en los equilibradores de carga d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;web_mco_443_vs&gt;de grupo</p>
+<td><p>&lt;web_mco_443_vs de grupo &gt;</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>Front-end</p>
@@ -290,7 +292,7 @@ Es necesario definir la supervisión de puertos en los equilibradores de carga d
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;web_mco_80_vs&gt;de grupo</p>
+<td><p>&lt;web_mco_80_vs de grupo &gt;</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>Front-end</p>

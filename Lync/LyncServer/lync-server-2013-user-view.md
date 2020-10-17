@@ -12,20 +12,22 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12499f63e262d681297b8289231f58262ba75999
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f978b6acaa1cdfdf6abf2d768c1fb679af260a63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212997"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530157"
 ---
+# <a name="user-view-in-lync-server-2013"></a>Vista de usuario en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-view-in-lync-server-2013"></a>Vista de usuario en Lync Server 2013
+
 
 </div>
 
@@ -56,7 +58,7 @@ La vista de usuario almacena información sobre usuarios que han participado en 
 <tbody>
 <tr class="odd">
 <td><p>UserId</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número único que identifica a este usuario.</p></td>
 </tr>
 <tr class="even">

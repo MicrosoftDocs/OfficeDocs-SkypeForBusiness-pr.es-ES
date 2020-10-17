@@ -12,20 +12,22 @@ ms:contentKeyID: 49733549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f764bbc93ae327e30fa6ac9daf3128963856460
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed971c014eb62f539dcb6551a78066a3462688ac
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529967"
 ---
+# <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Uso de STOP para el servicio de registro centralizado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Uso de STOP para el servicio de registro centralizado en Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Por ejemplo:
     
         Show-CsClsLogging
     
-    ![Consola de Windows PowerShell después de llamar a show-CsCl](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Consola de Windows PowerShell después de llamar a show-CsCl")
+    ![Consola de Windows PowerShell después de llamar a show-CsCl](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Consola de Windows PowerShell después de llamar a Show-CsCl")
     
     El resultado de Show-CsClsLogging es un resumen de los escenarios que se están ejecutando y en qué ámbito se está ejecutando. Para obtener detalles, vea [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Show-CsClsLogging).
 
@@ -96,7 +98,7 @@ Actuando como el comando complementario para Start-CsClsLogging, el cmdlet Stop-
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Uso de inicio para el servicio de registro centralizado para capturar registros en Lync Server 2013](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)  
