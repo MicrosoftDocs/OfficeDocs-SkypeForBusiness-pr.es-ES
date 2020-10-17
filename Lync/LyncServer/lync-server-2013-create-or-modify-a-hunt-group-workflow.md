@@ -12,20 +12,22 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e8fd10947bab25e522f35e9cd121a04abbb4a45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 90b4c7c07718faf93237dfe11357dc103bf77e9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501687"
 ---
+# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Crear o modificar un flujo de trabajo de grupo de búsqueda en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Crear o modificar un flujo de trabajo de grupo de búsqueda en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
 
 
 > [!NOTE]  
-> Puede usar el shell de administración de Lync Server o la herramienta de configuración de grupos de respuesta para crear y modificar flujos de trabajo de grupo de búsqueda. Puede obtener acceso a la herramienta Configuración del grupo de respuesta desde el panel de control de Lync Server o abriendo la página web directamente desde un explorador web escribiendo la siguiente dirección URL: <STRONG>https://</STRONG>&lt;fqdngrupoweb&gt;<STRONG>/RgsConfig</STRONG>.
+> Puede usar el shell de administración de Lync Server o la herramienta de configuración de grupos de respuesta para crear y modificar flujos de trabajo de grupo de búsqueda. Puede obtener acceso a la herramienta Configuración del grupo de respuesta desde el panel de control de Lync Server o abriendo la página web directamente desde un explorador web escribiendo la siguiente dirección URL: <STRONG>https://</STRONG> &lt; fqdngrupoweb &gt; <STRONG>/RgsConfig</STRONG>.
 
 
 
@@ -67,7 +69,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
 
     > [!NOTE]  
-    > Se abre la herramienta de configuración del grupo de respuesta. También puede abrir la herramienta de configuración del grupo de respuesta directamente desde un explorador Web; para ello, escriba la siguiente dirección URL: <STRONG>https://</STRONG>&lt;fqdngrupoweb&gt;<STRONG>/RgsConfig</STRONG>.
+    > Se abre la herramienta de configuración del grupo de respuesta. También puede abrir la herramienta de configuración del grupo de respuesta directamente desde un explorador Web; para ello, escriba la siguiente dirección URL: <STRONG>https://</STRONG> &lt; fqdngrupoweb &gt; <STRONG>/RgsConfig</STRONG>.
 
     
     </div>
@@ -137,7 +139,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
 
     > [!NOTE]  
-    > No incluya los caracteres "&lt;" ni "&gt;" en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: <STRONG>Observador de presencia de RGS</STRONG> o <STRONG>Servicio de anuncio</STRONG>.
+    > No incluya los caracteres " &lt; " ni "" &gt; en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: <STRONG>Observador de presencia de RGS</STRONG> o <STRONG>Servicio de anuncio</STRONG>.
 
     
     </div>
@@ -184,7 +186,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
         
 
         > [!NOTE]  
-        > Todos los archivos de audio proporcionados por el usuario deben cumplir ciertos requisitos. Para obtener más información sobre los formatos de archivo compatibles, consulte <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical Requirements for Response Group in Lync Server 2013</A>.
+        > Todos los archivos de audio suministrados por el usuario deben cumplir determinados requisitos. Para obtener más información sobre los formatos de archivo compatibles, consulte <A href="lync-server-2013-technical-requirements-for-response-group.md">Technical Requirements for Response Group in Lync Server 2013</A>.
 
         
         </div>
@@ -239,7 +241,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
 
 22. Si desea reproducir un mensaje cuando la oficina no esté abierta, active la casilla **Reproducir un mensaje cuando el grupo de respuesta no está en horario de oficina** y, a continuación, especifique el mensaje que se va a reproducir mediante uno de los procedimientos siguientes:
     
-      - Para especificar el mensaje como texto convertido en voz para el autor de la llamada, haga clic en **Utilizar texto a voz** y, a continuación, escriba el mensaje en el cuadro de texto.
+      - Para escribir el mensaje como texto que se convertirá en voz para el autor de la llamada, haga clic en **Usar texto a voz** y, a continuación, escriba el mensaje de bienvenida en el cuadro de texto.
         
         <div>
         
@@ -265,11 +267,11 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
       - Para desconectar la llamada, haga clic en **Desconectar llamada**.
     
-      - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de \<voz\>@\<es\> nombre de usuario nombredominio (por ejemplo, Bob@contoso.com).
+      - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz es \<username\> @ \<domainName\> (por ejemplo, Bob@contoso.com).
     
-      - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario \<es\>@\<nombre\>de usuario nombredominio.
+      - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es \<username\> @ \<domainName\> .
     
-      - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono es \<el\>@\<número\> nombredominio (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+      - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono es \<number\> @ \<domainName\> (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar días festivos**, haga clic en las casillas para uno o más conjuntos de días festivos que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
     
@@ -310,11 +312,11 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
     
       - Para desconectar la llamada, haga clic en **Desconectar llamada**.
     
-      - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de \<voz\>@\<es\> nombre de usuario nombredominio (por ejemplo, Bob@contoso.com).
+      - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz es \<username\> @ \<domainName\> (por ejemplo, Bob@contoso.com).
     
-      - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario \<es\>@\<nombre\>de usuario nombredominio.
+      - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es \<username\> @ \<domainName\> .
     
-      - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono es \<el\>@\<número\> nombredominio (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
+      - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono es \<number\> @ \<domainName\> (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
 
 27. En **Paso 6 Configurar una cola**, en **Seleccionar la cola que recibirá las llamadas**, seleccione la cola donde desea que los autores de las llamadas se mantengan en espera hasta que un agente esté disponible.
 
@@ -423,7 +425,7 @@ Use uno de los procedimientos siguientes para crear o modificar un flujo de trab
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Opcional Definir conjuntos de días festivos para grupos de respuesta en Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)  

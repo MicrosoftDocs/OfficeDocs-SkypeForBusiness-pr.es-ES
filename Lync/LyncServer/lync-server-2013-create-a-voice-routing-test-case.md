@@ -12,20 +12,22 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9fac6f65d1bb1c04b8d8597454df775f8545d2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da110d7e3bfb7188384163cb572591d0bf7f8ff3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501777"
 ---
+# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Crear un caso de prueba de enrutamiento de voz en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>Crear un caso de prueba de enrutamiento de voz en Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Última modificación del tema:** 2014-02-07_
 
 5.  En **Nombre**, escriba un nombre único para el caso de prueba.
     
-    El nombre debe ser único entre todos los casos de prueba de enrutamiento de voz en la implementación de telefonía IP empresarial. Puede tener hasta 32 caracteres de longitud y puede contener caracteres alfanuméricos, además de la barra diagonal inversa (\\), el punto (.) o el carácter de subrayado (\_).
+    El nombre debe ser único entre todos los casos de prueba de enrutamiento de voz en la implementación de telefonía IP empresarial. Puede tener hasta 32 caracteres de longitud y puede contener caracteres alfanuméricos, además de la barra diagonal inversa ( \\ ), el punto (.) o el carácter de subrayado ( \_ ).
 
 6.  En **Número marcado para prueba**, escriba el número marcado que desea usar para probar la configuración de enrutamiento especificada para este caso de prueba. Según el plan de marcado, la ruta y la directiva de voz, este número se normalizará y se mostrará como resultado.
 
@@ -80,13 +82,13 @@ _**Última modificación del tema:** 2014-02-07_
     
     </div>
     
-    Si el plan de marcado que se usa en la prueba normaliza los números de teléfono que comienzan con un signo más (por ejemplo, + 12065551219), es posible que se produzca un error en la prueba de enrutamiento de voz. (El plan de marcado y la ruta de voz funcionarán; de hecho, test-CsDialPlan se realizará correctamente. Sin embargo, es posible que se produzca un error en la prueba de enrutamiento de voz. Esto es algo que se debe tener en cuenta al probar las rutas de voz.
+    Si el plan de marcado que se usa en la prueba normaliza los números de teléfono que comienzan con un signo más (por ejemplo, + 12065551219), es posible que se produzca un error en la prueba de enrutamiento de voz. (El plan de marcado y la ruta de voz funcionarán; de hecho, Test-CsDialPlan se realizarán correctamente. Sin embargo, es posible que se produzca un error en la prueba de enrutamiento de voz. Esto es algo que se debe tener en cuenta al probar las rutas de voz.
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Exportar casos de prueba de enrutamiento de voz en Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  

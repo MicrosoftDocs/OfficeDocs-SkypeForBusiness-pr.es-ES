@@ -12,20 +12,22 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51d102c6a810730d6c748dafc6a4fcdc3dd6821e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8721cc82651710ab5fc8158eeb6f297f80847c33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180412"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502917"
 ---
+# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Implementación de un puerto y alias no estándar de SQL Server en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Implementación de un puerto y alias no estándar de SQL Server en Lync Server 2013
+
 
 </div>
 
@@ -55,13 +57,13 @@ Para poder determinar correctamente el puerto que Lync Server 2013 usa para comu
 
 
 > [!NOTE]  
-> SQL Server proporciona dos métodos de tolerancia a errores (clústeres de conmutación por error y reflejos). Ambos métodos de tolerancia a errores de SQL Server se admiten con un puerto no estándar de SQL Server y un alias con Lync Server 2013. Si el back-end de SQL Server usado por el grupo está en una configuración reflejada, el servicio de explorador SQL de los servidores back-end de SQL Server debe ejecutarse para que los servidores front-end se conecten a la base de datos reflejada cuando las bases de datos se conmutan por error a la copia de SQL reflejada. Server.
+> SQL Server proporciona dos métodos de tolerancia a errores (clústeres de conmutación por error y reflejos). Ambos métodos de tolerancia a errores de SQL Server se admiten con un puerto no estándar de SQL Server y un alias con Lync Server 2013. Si el back-end de SQL Server usado por el grupo está en una configuración reflejada, el servicio de explorador SQL de los servidores back-end de SQL Server debe ejecutarse para que los servidores front-end se conecten a la base de datos reflejada cuando las bases de datos se conmutan por error al servidor SQL Server reflejado.
 
 
 
 </div>
 
-Al configurar la conectividad de base de datos de SQL Server desde el generador de topologías o al usar el cmdlet install-CsDatabase, no es posible definir explícitamente un número de puerto no estándar de SQL Server y asociarlo con una instancia de SQL. Para establecer un puerto no estándar, deberá usar las utilidades de SQL Server y Windows Server.
+Al configurar la conectividad de base de datos de SQL Server desde el generador de topologías o al usar el cmdlet Install-CsDatabase, no es posible definir explícitamente un número de puerto no estándar de SQL Server y asociarlo con una instancia de SQL. Para establecer un puerto no estándar, deberá usar las utilidades de SQL Server y Windows Server.
 
 Para configurar un puerto y un alias no estándar de SQL Server para su uso con Lync Server 2013, tendrá que completar tres pasos principales. Los pasos son:
 
@@ -99,7 +101,7 @@ El alias y el puerto no estándar de SQL Server se deben configurar en la instan
     
     ![El icono de SQL Server Management Studio](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "El icono de SQL Server Management Studio")
 
-2.  En el panel de navegación, expanda la **instancia de SQL Server**, expanda la opción **configuración de red de SQL Server**y elija **protocolos\>para nombre \<de instancia**, como se muestra en la siguiente ilustración.
+2.  En el panel de navegación, expanda la **instancia de SQL Server**, expanda la opción **configuración de red de SQL Server**y elija **protocolos para \<instance name\> **, como se muestra en la siguiente ilustración.
     
     ![Ir a propiedades de TCP/IP](images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "Ir a propiedades de TCP/IP")
 
@@ -121,7 +123,7 @@ El alias y el puerto no estándar de SQL Server se deben configurar en la instan
 
 8.  Haga clic en **Aceptar** para salir del cuadro de diálogo Propiedades de TCP/IP.
 
-9.  Reinicie la instancia de SQL Server seleccionando **servicios de SQL Server** en el panel izquierdo del administrador de configuración de SQL Server. A continuación, haga clic con el botón secundario en **nombre \<\> de instancia de SQL Server** en el panel derecho y seleccione **reiniciar**, como se muestra en la ilustración siguiente.
+9.  Reinicie la instancia de SQL Server seleccionando **servicios de SQL Server** en el panel izquierdo del administrador de configuración de SQL Server. A continuación, haga clic con el botón secundario en **SQL Server \<instance name\> ** en el panel derecho y seleccione **reiniciar**, como se muestra en la ilustración siguiente.
     
     ![Restablezca el servicio de SQL Server para la instancia.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Restablezca el servicio de SQL Server para la instancia.")
 
@@ -141,7 +143,7 @@ El alias y el puerto no estándar de SQL Server se deben configurar en la instan
     
     ![El icono de SQL Server Management Studio](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "El icono de SQL Server Management Studio")
 
-2.  En el panel izquierdo, elija expandir la **instancia de SQL Server**, expanda la configuración de la ** \<versión\> de SQL Native Client**y, a continuación, elija **alias**, como se muestra en la ilustración siguiente.
+2.  En el panel izquierdo, elija expandir **instancia de SQL Server**, expandir la ** \<version\> configuración de SQL Native Client**y, a continuación, elija **alias**, como se muestra en la ilustración siguiente.
     
     ![Alias en el administrador de configuración de SQL Server.](images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "Alias en el administrador de configuración de SQL Server.")
 
@@ -210,7 +212,7 @@ Hay muchas formas diferentes de asegurarse de que funciona. Desea asegurarse de 
     
     ![Uso de netstat para comprobar el puerto.](images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "Uso de netstat para comprobar el puerto.")
 
-3.  Escriba **Puerto \< \# de nombre\> \<de alias de Telnet** para confirmar la conexión a la instancia de SQL Server. Si la conexión se realiza correctamente, Telnet se conectará y no aparecerá un error. Esto muestra que la instancia de SQL Server está escuchando en el puerto correcto con el alias correcto. Si hay un problema de conexión a la base de datos de SQL Server, Telnet muestra un error que indica que no se puede establecer la conexión. Ahora que ya ha comprobado la conectividad de base de datos en el servidor de bases de datos, puede hacer lo mismo con Lync Server (a través de la red) y asegurarse de que no haya ningún firewall que bloquee el acceso a lo largo del proceso.
+3.  Escriba **telnet \<alias name\> \<port \#\> ** para confirmar la conexión a la instancia de SQL Server. Si la conexión se realiza correctamente, Telnet se conectará y no aparecerá un error. Esto muestra que la instancia de SQL Server está escuchando en el puerto correcto con el alias correcto. Si hay un problema de conexión a la base de datos de SQL Server, Telnet muestra un error que indica que no se puede establecer la conexión. Ahora que ya ha comprobado la conectividad de base de datos en el servidor de bases de datos, puede hacer lo mismo con Lync Server (a través de la red) y asegurarse de que no haya ningún firewall que bloquee el acceso a lo largo del proceso.
 
 </div>
 
@@ -226,11 +228,11 @@ Una vez que se haya configurado el alias de SQL Server, puede usarlo para crear 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
-[Microsoft Lync Server 2013](microsoft-lync-server-2013.md) 
-[planeación de la seguridad en Lync Server 2013](lync-server-2013-planning-for-security.md)  
+[Microsoft Lync Server 2013](microsoft-lync-server-2013.md)  
+ [Planeación de la seguridad en Lync Server 2013](lync-server-2013-planning-for-security.md)  
 [Definición y configuración de la topología en Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md)  
 [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md)  
   

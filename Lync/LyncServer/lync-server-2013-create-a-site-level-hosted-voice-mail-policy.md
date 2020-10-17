@@ -12,20 +12,22 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9518b605ed6c79418e58fd0d3f9aab0e4d493957
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e23f14b1db7c846d5dbaa0aa6861274a7b6a2611
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501887"
 ---
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Crear una directiva de correo de voz hospedado de nivel de sitio en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Crear una directiva de correo de voz hospedado de nivel de sitio en Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Para obtener más información sobre cómo configurar directivas de sitio, consu
     
     Con este ejemplo se crea una directiva de correo de voz hospedado con ámbito de sitio y se establecen los parámetros descritos a continuación:
     
-      - **Identity** hace referencia a un identificador único de la directiva, en el que se incluye el ámbito. Para una directiva con ámbito de sitio, el valor del parámetro Identity debe especificarse en `site:` * \<el\>nombre*de formato, `site:Redmond`por ejemplo,.
+      - **Identity** hace referencia a un identificador único de la directiva, en el que se incluye el ámbito. Para una directiva con ámbito de sitio, el valor del parámetro Identity debe especificarse en el formato `site:` *\<name\>* , por ejemplo, `site:Redmond` .
     
       - **Destination** especifica el nombre de dominio completo (FQDN) del servicio de mensajería unificada de Exchange hospedado. Este parámetro es opcional pero, si trata de habilitar a un usuario para el correo de voz hospedado y la directiva asignada al usuario no tiene ningún valor de Destination, no podrá habilitarlo.
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af8c2f5ed78bb228c4e650da983a1c82456c47b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3df30b2aa45fe9519d724f904e8b375bed794042
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180503"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502966"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>Implementar el grupo piloto de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>Implementar el grupo piloto de Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2013-11-22_
 
 Uno de los primeros pasos necesarios para la migración a Lync Server 2013 es implementar un grupo piloto. El grupo piloto es donde se prueba la coexistencia de Lync Server 2013 con la implementación de Office Communications Server 2007 R2. La coexistencia es un estado temporal que dura hasta que haya movido todos los usuarios y grupos a Lync Server 2013.
 
-Cuando se implementa un grupo piloto, se utiliza el Asistente para definir nuevo grupo de servidores front-end. Debe implementar las mismas características y cargas de trabajo en el grupo piloto de Lync Server 2013 que tiene en su grupo de servidores de Office Communications Server 2007 R2. Si ha implementado el servidor de archivado, el servidor de supervisión o System Center Operations Manager para archivar o supervisar el entorno de Office Communications Server 2007 R2, y desea continuar el archivado o la supervisión durante la migración, debe Implemente también estas características en el entorno piloto. La versión que ha implementado para archivar o supervisar el entorno de Office Communications Server 2007 R2 no capturará datos en su entorno de Lync Server 2013.
+Cuando se implementa un grupo piloto, se utiliza el Asistente para definir nuevo grupo de servidores front-end. Debe implementar las mismas características y cargas de trabajo en el grupo piloto de Lync Server 2013 que tiene en su grupo de servidores de Office Communications Server 2007 R2. Si ha implementado el servidor de archivado, el servidor de supervisión o System Center Operations Manager para archivar o supervisar el entorno de Office Communications Server 2007 R2 y desea continuar el archivado o la supervisión durante la migración, también debe implementar estas características en el entorno piloto. La versión que ha implementado para archivar o supervisar el entorno de Office Communications Server 2007 R2 no capturará datos en su entorno de Lync Server 2013.
 
 <div>
 
@@ -84,7 +86,7 @@ Cuando se implementa un grupo piloto, se utiliza el Asistente para definir nuevo
     
     ![Página de selección de características del grupo de servidores front-end](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "Página de selección de características del grupo de servidores front-end")
 
-8.  En la página **Seleccionar roles de servidor combinados** , le recomendamos que combinar el servidor de mediación en Lync Server 2013. Al combinar una topología heredada con Lync Server 2013, es necesario que primero combinar el servidor de mediación de Office Communications Server 2007 R2. Después de combinar las topologías y configurar el servidor de mediación de Lync Server 2013, puede decidir si desea mantener el servidor de mediación combinado o cambiarlo a un servidor independiente cuando mueva la función de servidor de mediación a Lync Server 2013 más adelante en la implementación. proceso.
+8.  En la página **Seleccionar roles de servidor combinados** , le recomendamos que combinar el servidor de mediación en Lync Server 2013. Al combinar una topología heredada con Lync Server 2013, es necesario que primero combinar el servidor de mediación de Office Communications Server 2007 R2. Después de combinar las topologías y configurar el servidor de mediación de Lync Server 2013, puede decidir si desea mantener el servidor de mediación combinado o cambiarlo a un servidor independiente cuando mueva la función de servidor de mediación a Lync Server 2013 más adelante en el proceso de implementación.
     
     ![Página de selección de roles de servidor combinados del grupo de servidores front-end](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "Página de selección de roles de servidor combinados del grupo de servidores front-end")
 

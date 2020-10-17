@@ -12,20 +12,22 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05c4b2845f4146c6394712951089750299ce60b7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a97635c66d66703fc2e9879024004a95c2c09eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502457"
 ---
+# <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Componentes necesarios para el acceso de usuarios externos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Componentes necesarios para el acceso de usuarios externos en Lync Server 2013
+
 
 </div>
 
@@ -142,7 +144,7 @@ Un director ayuda a aislar los servidores Standard Edition y los servidores fron
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Requisitos del equilibrador de carga de hardware para Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)  

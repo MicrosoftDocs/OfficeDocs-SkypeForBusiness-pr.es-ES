@@ -12,20 +12,22 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 128f8acd543a0b1d2eb9f196d3915726786cd7d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41f4dab3cef81cc29fc300d42fb0a46193a04b43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502727"
 ---
+# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a>Informes de diagnósticos de llamadas (por usuario) en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a>Informes de diagnósticos de llamadas (por usuario) en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Los informes de diagnósticos de llamadas ofrecen información usuario por usuar
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [El informe de actividad de usuario en Lync Server 2013](lync-server-2013-user-activity-report.md)   proporciona información sobre actividades de conferencia y punto a punto para cada uno de los usuarios.
+  - [Informe de actividad de usuario en Lync Server 2013](lync-server-2013-user-activity-report.md)     Proporciona información sobre actividades de conferencia y punto a punto para cada uno de los usuarios.
 
 </div>
 

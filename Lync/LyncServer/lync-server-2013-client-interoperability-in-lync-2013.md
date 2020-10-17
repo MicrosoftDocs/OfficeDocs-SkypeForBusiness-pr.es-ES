@@ -12,20 +12,22 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 437051279393b9dedc7c4def0c75cd119cded914
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e00071edd4a3d65e9db763914577983306491fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502677"
 ---
+# <a name="client-interoperability-in-lync-2013"></a>Interoperabilidad de clientes en Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a>Interoperabilidad de clientes en Lync 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ En la siguiente tabla se muestran las combinaciones compatibles de versiones de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client</th>
+<th>Cliente</th>
 <th>Lync Server 2013</th>
 <th>Lync Server 2010</th>
 <th>Office Communications Server 2007 R2</th>
@@ -64,33 +66,33 @@ En la siguiente tabla se muestran las combinaciones compatibles de versiones de 
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>Compatible.</p></td>
+<td><p>Compatible</p></td>
 <td><p>Supported5</p></td>
 <td><p>No compatible</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
-<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>No se admite</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Web App 2013</p></td>
-<td><p>Compatible.</p></td>
-<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>No se admite</p></td>
 <td><p>No se admite</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
-<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>No se admite</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
-<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>No se admite</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Group Chat</p></td>
@@ -100,45 +102,45 @@ En la siguiente tabla se muestran las combinaciones compatibles de versiones de 
 </tr>
 <tr class="odd">
 <td><p>Lync Web App 2010</p></td>
-<td><p>No se admite</p></td>
-<td><p>Compatible.</p></td>
 <td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>No se admite</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendee</p></td>
 <td><p>No Supported3</p></td>
-<td><p>Compatible.</p></td>
-<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>No se admite</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
 <td><p>Interoperable4</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
 </tr>
 <tr class="even">
 <td><p>Operador de Microsoft Office Communications Server 2007 R2</p></td>
-<td><p>No se admite</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
+<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007</p></td>
-<td><p>No se admite</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
+<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Live Meeting 2007</p></td>
-<td><p>No se admite</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
+<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
 </tr>
 <tr class="odd">
 <td><p>Aplicación Lync de la tienda Windows</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
-<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>No se admite</p></td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +199,7 @@ En la tabla siguiente se compara la disponibilidad de las características de la
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client</th>
+<th>Cliente</th>
 <th>Mensajería instantánea</th>
 <th>Presencia</th>
 <th>Voz</th>
@@ -361,7 +363,7 @@ En las reuniones de Lync Server 2013, se admiten ciertas características de con
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client</th>
+<th>Cliente</th>
 <th>Mensajería instantánea punto a punto</th>
 <th>Voz</th>
 <th>Vídeo</th>
@@ -450,11 +452,11 @@ las características de presencia y mensajería instantánea de 4The en Office C
 
 La compatibilidad del servidor con varios complementos de programación es consistente con la compatibilidad de versión del cliente y del servidor. En general, los siguientes complementos de programación se admiten en Lync Server 2013. Sin embargo, las versiones anteriores de los complementos no proporcionan nuevas características de complemento de Lync 2013, como la opción de silenciar todo el audio y vídeo de los asistentes tras la entrada de la reunión.
 
-  - **Complemento para reunión en línea para Lync 2013**   proporciona las mismas características que el complemento de conferencia en línea para Lync 2010, con la adición de controles de silencio de asistentes, que permiten a los organizadores de la reunión programar conferencias en las que el audio y el vídeo del asistente están silenciados de forma predeterminada. Los administradores también pueden personalizar las invitaciones de la organización para la reunión agregando un logo personalizado, una URL de ayuda, una dirección URL del aviso legal o un texto de pie de página personalizado.
+  - **Complemento para reunión en línea para Lync 2013**     Proporciona las mismas características que el complemento de reunión en línea para Lync 2010, con la adición de controles de silencio de asistentes, que permiten a los organizadores de reuniones programar conferencias en las que el audio y el vídeo del asistente están silenciados de forma predeterminada. Los administradores también pueden personalizar las invitaciones de la organización para la reunión agregando un logo personalizado, una URL de ayuda, una dirección URL del aviso legal o un texto de pie de página personalizado.
 
-  - **Complemento para reunión en línea para Lync 2010**   proporciona una programación para reuniones de Lync y elimina la capacidad de programar conferencias de Office Live Meeting.
+  - **Complemento para reunión en línea para Lync 2010**     Proporciona una programación para reuniones de Lync y elimina la capacidad de programar conferencias de Office Live Meeting.
 
-  - **El complemento para conferencias de Office Communicator 2007 R2**   proporciona programación para conferencias de Office Live Meeting y para conferencias de Office Communicator 2007 R2. 
+  - **Complemento de conferencia de**     Office Communicator 2007 R2 Proporciona una programación para las conferencias de Office Live Meeting y las conferencias de Office Communicator 2007 R2. 
 
 <div>
 
@@ -485,27 +487,27 @@ La compatibilidad del servidor con varios complementos de programación es consi
 <tbody>
 <tr class="odd">
 <td><p>Complemento para reunión en línea para Lync 2013 (se puede usar con Office 2013, Outlook 2010 y Outlook 2007)</p></td>
-<td><p>Compatible.</p></td>
+<td><p>Compatible</p></td>
 <td><p>Compatible (nuevas características del complemento no disponibles)</p></td>
 <td><p>No se admite</p></td>
 </tr>
 <tr class="even">
 <td><p>Programador web de Lync 2013</p></td>
-<td><p>Compatible.</p></td>
-<td><p>No compatible</p></td>
-<td><p>No compatible</p></td>
+<td><p>Compatible</p></td>
+<td><p>No se admite</p></td>
+<td><p>No se admite</p></td>
 </tr>
 <tr class="odd">
 <td><p>Complemento de conferencia en línea para Lync 2010</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
 <td><p>No se admite</p></td>
 </tr>
 <tr class="even">
 <td><p>Complemento para conferencias de Office Communicator 2007 R2</p></td>
 <td><p>No compatible</p></td>
-<td><p>Compatible.</p></td>
-<td><p>Compatible.</p></td>
+<td><p>Compatible</p></td>
+<td><p>Compatible</p></td>
 </tr>
 </tbody>
 </table>
@@ -525,7 +527,7 @@ Los clientes de Lync 2013 pueden unirse a reuniones hospedadas en Lync 2010 y Of
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Requisitos de aplicaciones de la tienda Windows Lync para Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)  

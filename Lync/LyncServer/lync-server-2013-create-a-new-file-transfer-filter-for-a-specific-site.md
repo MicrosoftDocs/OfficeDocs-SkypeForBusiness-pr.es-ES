@@ -12,20 +12,22 @@ ms:contentKeyID: 48185577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bec5e9e33850fc1da53d370f70b948b7ec6b3f27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 10e33523c18f323c34ed129616f0e6012a4ebf11
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501937"
 ---
+# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a>Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a>Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico
+
 
 </div>
 
@@ -75,7 +77,7 @@ Además de modificar el filtro de transferencia global de archivos, puede config
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de la transferencia de archivos y el filtrado de URL para la mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  

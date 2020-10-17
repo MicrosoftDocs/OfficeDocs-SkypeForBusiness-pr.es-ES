@@ -12,20 +12,22 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11c5e545bc00de48fa5590dc8c4b119a46ffe9e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f5e8465ce7f0343bea96ee6f0613b8725d0e540
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190373"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502707"
 ---
+# <a name="check-lync-server-2013-server-certificates"></a>Comprobar los certificados de servidor de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-lync-server-2013-server-certificates"></a>Comprobar los certificados de servidor de Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-11-01_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet Get-CsCertificate le permite recuperar información sobre cada uno de los certificados de Lync Server. Esto es especialmente importante porque los certificados tienen una fecha de expiración integrada. Por ejemplo, los certificados emitidos de forma privada suelen expirar después de 12 meses. Si alguno de los certificados de Lync Server expira, perderá la funcionalidad adjunta hasta que el certificado se renueve o se reemplace.
+El cmdlet Get-CsCertificate permite recuperar información acerca de cada uno de los certificados de Lync Server. Esto es especialmente importante porque los certificados tienen una fecha de expiración integrada. Por ejemplo, los certificados emitidos de forma privada suelen expirar después de 12 meses. Si alguno de los certificados de Lync Server expira, perderá la funcionalidad adjunta hasta que el certificado se renueve o se reemplace.
 
 </div>
 
@@ -84,7 +86,7 @@ O bien, puede filtrar la información de los certificados de devolución según 
 
 Para obtener más información, consulte la documentación de ayuda del cmdlet Get-CsCertificate.
 
-Tenga en cuenta que, aunque existe el cmdlet test-CsCertificateConfiguration, no es muy útil para los administradores. (En su lugar, el Asistente para certificados se usa principalmente con este cmdlet). Aunque el cmdlet funciona, la información que devuelve es de un valor mínimo, como se muestra en el siguiente ejemplo de salida:
+Tenga en cuenta que, aunque exista el cmdlet Test-CsCertificateConfiguration, no es muy útil para los administradores. (En su lugar, el Asistente para certificados se usa principalmente con este cmdlet). Aunque el cmdlet funciona, la información que devuelve es de un valor mínimo, como se muestra en el siguiente ejemplo de salida:
 
 Uso de la huella digital
 
@@ -134,7 +136,7 @@ WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM
 
 WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
 
-Si tiene problemas con el certificado, es posible que desee revisar la AlternativeNames configurada para un certificado. A primera vista, parece ser un problema. De forma predeterminada, y según el tamaño de la ventana de la consola, Get-CsCertificate puede que no pueda mostrar todos los nombres:
+Si tiene problemas con el certificado, es posible que desee revisar la AlternativeNames configurada para un certificado. A primera vista, parece ser un problema. De forma predeterminada, y según el tamaño de la ventana de la consola, Get-CsCertificate posible que no pueda mostrar todos los nombres:
 
 AlternativeNames: {sip.fabrikam.com, LYNC.fabrikam.com,
 
@@ -162,7 +164,7 @@ Dialin.fabrikam.com
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Get-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  

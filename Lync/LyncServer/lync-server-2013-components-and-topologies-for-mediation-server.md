@@ -12,20 +12,22 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b6c824da8eccaec0cb48450b0d81dddcc60f99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ac46c8aba06bdfedaafa7846142d5a584c703c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187993"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502567"
 ---
+# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Componentes y topologías para el servidor de mediación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Componentes y topologías para el servidor de mediación en Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ En este tema se describen los componentes de los que depende el servidor de medi
 
 El servidor de mediación tiene las siguientes dependencias:
 
-  - **Dominios.** Necesario. El registrador es el próximo salto para la señalización en las interacciones del servidor de mediación con la red Lync Server 2013. Tenga en cuenta que el servidor de mediación se puede combinar en un servidor front-end junto con el registrador, además de estar instalado en un grupo independiente que solo consista en servidores de mediación. El registrador se combina con un servidor de mediación y una puerta de enlace RTC en una aplicación de sucursal con funciones de supervivencia.
+  - **Dominios.** Obligatorio. El registrador es el próximo salto para la señalización en las interacciones del servidor de mediación con la red Lync Server 2013. Tenga en cuenta que el servidor de mediación se puede combinar en un servidor front-end junto con el registrador, además de estar instalado en un grupo independiente que solo consista en servidores de mediación. El registrador se combina con un servidor de mediación y una puerta de enlace RTC en una aplicación de sucursal con funciones de supervivencia.
 
   - **Servidor de supervisión.** Opcional pero muy recomendable. El servidor de supervisión permite que el servidor de mediación registre las métricas de calidad asociadas con sus sesiones de medios.
 

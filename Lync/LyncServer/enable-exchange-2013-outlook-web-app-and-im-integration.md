@@ -12,20 +12,22 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b2f06999b3f7dad3a6dfd92e5e2246b95105fbd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da6866565df12ff4484124836f9164d2bf8c35c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502887"
 ---
+# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Habilitar la integración de Exchange 2013 Outlook Web App y mensajería instantánea
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Habilitar la integración de Exchange 2013 Outlook Web App y mensajería instantánea
+
 
 </div>
 
@@ -76,7 +78,7 @@ Para habilitar la integración de Exchange 2013 Outlook Web Access (OWA) y la me
 
 6.  En el panel izquierdo, expanda el árbol hasta llegar a **Servidores de aplicaciones de confianza**.
 
-7.  Expanda el nodo **Servidores de aplicaciones de confianza **.
+7.  Expanda el nodo **Servidores de aplicaciones de confianza**.
 
 8.  Ahora debería ver el servidor CAS de Exchange 2013 como un servidor de aplicaciones de confianza.
 

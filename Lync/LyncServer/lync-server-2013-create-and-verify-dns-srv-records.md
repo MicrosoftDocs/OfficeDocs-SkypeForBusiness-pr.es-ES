@@ -12,20 +12,22 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7faf0cd00b59d5df5bab1650a28eff8b9563f91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b80b5dccfeab136f02705264fea985550cb11240
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501727"
 ---
+# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Crear y comprobar registros DNS SRV en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Crear y comprobar registros DNS SRV en Lync Server 2013
+
 
 </div>
 
@@ -53,9 +55,9 @@ En este tema se describe cómo configurar los registros del sistema de nombres d
 
 4.  En **Seleccione el tipo de registro del recurso**, haga clic en **Ubicación de servicio (SRV)** y, a continuación, haga clic en **Crear registro**.
 
-5.  Haga clic en **servicio**y, a continuación, escriba ** \_sipinternaltls**.
+5.  Haga clic en **servicio**y, a continuación, escriba ** \_ sipinternaltls**.
 
-6.  Haga clic en **Protocolo**y, a continuación, escriba ** \_TCP**.
+6.  Haga clic en **Protocolo**y, a continuación, escriba ** \_ TCP**.
 
 7.  Haga clic en **Número de puerto** y escriba **5061**.
 
@@ -79,15 +81,15 @@ En este tema se describe cómo configurar los registros del sistema de nombres d
 
 5.  Escriba **set type=srv** y, a continuación, presione ENTRAR.
 
-6.  Escriba ** \_sipinternaltls.\_ tcp.contoso.com**y, a continuación, presione Entrar. El resultado que se muestra para el registro de Seguridad de la capa de transporte (TLS) es el siguiente:
+6.  Escriba ** \_ sipinternaltls. \_ tcp.contoso.com**y, a continuación, presione Entrar. El resultado que se muestra para el registro de Seguridad de la capa de transporte (TLS) es el siguiente:
     
-    Servidor: \<servidor\>DNS. contoso.com
+    Servidor: \<dns server\> . contoso.com
     
-    Dirección: \<dirección IP del servidor DNS\>
+    Visita \<IP address of DNS server\>
     
     Respuesta no autoritativa:
     
-    \_sipinternaltls. \_Ubicación del servicio SRV de TCP.contoso.com:
+    \_sipinternaltls. \_ Ubicación del servicio SRV de tcp.contoso.com:
     
     prioridad = 0
     
@@ -97,7 +99,7 @@ En este tema se describe cómo configurar los registros del sistema de nombres d
     
     SVR hostname = poolname.contoso.com (o registro A de servidor Standard Edition)
     
-    poolname.contoso.com internet address = \<dirección IP virtual del equilibrador de carga\> o \<dirección IP de un servidor Enterprise Edition único para grupos con un solo servidor\> Enterprise Edition o \<dirección IP del servidor Standard Edition\>
+    poolname.contoso.com Dirección de Internet = \<virtual IP Address of the load balancer\> o \<IP address of a single Enterprise Edition server for pools with only one Enterprise Edition server\> o \<IP address of the Standard Edition server\>
 
 7.  Cuando termine, en el símbolo del sistema, escriba **exit** y, a continuación, presione ENTRAR.
 
@@ -109,11 +111,11 @@ En este tema se describe cómo configurar los registros del sistema de nombres d
 
 1.  Inicie sesión en un equipo cliente en el dominio.
 
-2.  Haga clic en **Iniciar** y, a continuación, en **Ejecutar**.
+2.  Haga clic en **Inicio** y, a continuación, en **Ejecutar**.
 
 3.  En el cuadro **Abrir**, escriba **cmd** y, a continuación, haga clic en **Aceptar**.
 
-4.  En el símbolo del sistema, escriba **nslookup** \<FQDN del grupo\> de servidores Front \<-end o el FQDN del\>servidor Standard Edition y, a continuación, presione Entrar.
+4.  En el símbolo del sistema, escriba **nslookup** \<FQDN of the Front End pool\> o \<FQDN of the Standard Edition server\> y, a continuación, presione Entrar.
 
 5.  Compruebe que recibe una respuesta que resuelve la dirección IP adecuada para el FQDN.
 

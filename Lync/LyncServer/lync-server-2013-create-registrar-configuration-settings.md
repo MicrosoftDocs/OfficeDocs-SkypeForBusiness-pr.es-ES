@@ -12,20 +12,22 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2f9eac959e9061e42bdc05982593c9f21aa2b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2baa4cd40ae0f6421dbb01facecf0ab41825fc31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501597"
 ---
+# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Crear opciones de configuración de registrador en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Crear opciones de configuración de registrador en Lync Server 2013
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**Última modificación del tema:** 2013-03-17_
 
 Puede usar el registrador para configurar los métodos de autenticación de servidores proxy. El protocolo de autenticación que especifique definirá el tipo de desafío que presentarán los servidores del grupo a los clientes. Los protocolos disponibles son:
 
-  - **Kerberos**   es el esquema de autenticación basado en contraseña más seguro disponible para los clientes, pero normalmente solo está disponible para los clientes de la empresa, ya que requiere la conexión del cliente a un centro de distribución de claves (controlador de dominio de Kerberos). Esta configuración es adecuada si el servidor autentica solo a los clientes de empresa.
+  - **Kerberos**     Este es el esquema de autenticación basado en contraseña más seguro disponible para los clientes, pero normalmente solo está disponible para los clientes de la empresa, ya que requiere la conexión del cliente a un centro de distribución de claves (controlador de dominio de Kerberos). Esta configuración es adecuada si el servidor autentica solo a los clientes de empresa.
 
-  - **NTLM**   esta es la autenticación basada en contraseña disponible para los clientes que usan un esquema de hash de desafío-respuesta en la contraseña. Esta es la única forma de autenticación disponible para los clientes sin conectividad a un centro de distribución de claves (controlador de dominio de Kerberos), como usuarios remotos. Si un servidor autentica solo a usuarios remotos, debe elegir NTLM.
+  - **NTLM**     Se trata de la autenticación basada en contraseña disponible para los clientes que usan un esquema de hash de desafío-respuesta en la contraseña. Esta es la única forma de autenticación disponible para los clientes sin conectividad a un centro de distribución de claves (controlador de dominio de Kerberos), como usuarios remotos. Si un servidor autentica solo a usuarios remotos, debe elegir NTLM.
 
-  - **Autenticación de certificados**   este es el nuevo método de autenticación cuando el servidor necesita obtener certificados de los clientes de Lync Phone Edition, los teléfonos de área común, Lync 2013 y la aplicación de la tienda Windows de Lync. En los clientes de Lync Phone Edition, después de que un usuario inicie sesión y se autentique correctamente proporcionando un número de identificación personal (PIN), Lync Server 2013, a continuación, aprovisiona el URI del SIP en el teléfono y aprovisiona un certificado firmado de Lync Server o un certificado de usuario que identifica a Joe (por ejemplo: SN=joe@contoso.com) al teléfono. Este certificado se usa para la autenticación con el registrador y los Servicios web.
+  - **Autenticación**     de certificados Este es el nuevo método de autenticación cuando el servidor necesita obtener certificados de clientes de Lync Phone Edition, teléfonos de área común, Lync 2013 y la aplicación de la tienda Windows de Lync. En los clientes de Lync Phone Edition, después de que un usuario inicie sesión y se autentique correctamente proporcionando un número de identificación personal (PIN), Lync Server 2013, a continuación, aprovisiona el URI del SIP en el teléfono y aprovisiona un certificado firmado de Lync Server o un certificado de usuario que identifica a Joe (por ejemplo: SN=joe@contoso.com) al teléfono. Este certificado se usa para la autenticación con el registrador y los Servicios web.
 
 <div>
 

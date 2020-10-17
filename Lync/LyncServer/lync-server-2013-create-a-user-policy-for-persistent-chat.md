@@ -12,20 +12,22 @@ ms:contentKeyID: 48185103
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40e992bbbd5d2559619e2ebe5a0d67c83102e546
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2dba93ca943c16caa6ee4982533e59c958e60ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195883"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501847"
 ---
+# <a name="create-a-user-policy-for-persistent-chat-in-lync-server-2013"></a>Crear una directiva de usuario para chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-user-policy-for-persistent-chat-in-lync-server-2013"></a>Crear una directiva de usuario para chat persistente en Lync Server 2013
+
 
 </div>
 

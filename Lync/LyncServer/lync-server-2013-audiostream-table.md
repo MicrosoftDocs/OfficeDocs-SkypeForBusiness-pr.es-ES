@@ -12,20 +12,22 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2da0884915f44246e316f80cb9fd35fb7aecaad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 331b2afbfa4b6c4147ffab3765af4e9e5031c190
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502877"
 ---
+# <a name="audiostream-table-in-lync-server-2013"></a>Tabla AudioStream en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostream-table-in-lync-server-2013"></a>Tabla AudioStream en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
@@ -76,19 +78,19 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 </tr>
 <tr class="even">
 <td><p><strong>StreamID</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Identificador único de una línea de medios.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>JitterInterArrival</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Promedio de vibración de red de las estadísticas de Protocolo de control en tiempo real (RTCP).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Vibración máxima de la red durante la llamada.</p></td>
 </tr>
@@ -112,7 +114,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 </tr>
 <tr class="even">
 <td><p><strong>BurstDuration</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Duración media de la pérdida de paquetes durante las ráfagas de pérdidas durante la llamada.</p></td>
 </tr>
@@ -124,7 +126,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 </tr>
 <tr class="even">
 <td><p><strong>BurstGapDuration</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Duración media de brechas entre ráfagas de pérdida de paquetes.</p></td>
 </tr>
@@ -166,25 +168,25 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 </tr>
 <tr class="odd">
 <td><p><strong>AudioPayloadDescription</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>El códec de audio usado para la llamada, a la que se hace referencia desde la tabla PayloadDescription.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioSampleRate</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Frecuencia de muestreo de la secuencia de audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Vuelta</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Tiempo de ida y vuelta de las estadísticas de RTCP. Para obtener una calidad aceptable, debe ser inferior a 100 ms.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RoundTripMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Tiempo de ida y vuelta máximo de la secuencia de audio.</p></td>
 </tr>
@@ -255,7 +257,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 <td><p>Se reciben datos de secuencia en el lado del receptor.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Salida</strong></p></td>
+<td><p><strong>Saliente</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
 <td><p>Se reciben datos de secuencia en el lado del remitente.</p></td>
@@ -332,28 +334,28 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 </tr>
 <tr class="odd">
 <td><p><strong>BandwidthEstMin</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad mínima de estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BandwidthEstMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad máxima de estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BandwidthEstStdDev</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Desviación estándar de la estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BandwidthEstAvge</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad promedio de estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -381,7 +383,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad total de ráfagas unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -402,7 +404,7 @@ Cada registro representa una secuencia de audio. Una línea de medios de audio s
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad total de intervalos unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>

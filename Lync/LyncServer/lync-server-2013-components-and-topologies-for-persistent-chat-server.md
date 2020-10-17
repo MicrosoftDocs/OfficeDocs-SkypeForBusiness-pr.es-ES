@@ -12,20 +12,22 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45707cafca4a7ed9da7cdeb5e162128ccd73468d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 586a24f4cfacd2ed28947102a7d5a129159a26bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191513"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502507"
 ---
+# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Componentes y topologías para el servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Componentes y topologías para el servidor de chat persistente en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ La instalación de la versión más reciente del servidor de chat persistente re
     
 
     > [!IMPORTANT]  
-    > En Lync Server 2013, los servicios Web de chat persistente para la carga y descarga de archivos se encuentra ahora en&nbsp;el servidor front-end de lync Server 2013.<BR>Los servicios Web de chat persistente para la administración de salones de chat también se combinan&nbsp;con el servidor front-end de Lync Server 2013.
+    > En Lync Server 2013, los servicios Web de chat persistente para la carga y descarga de archivos se encuentra ahora en el &nbsp; servidor front-end de Lync Server 2013.<BR>Los servicios Web de chat persistente para la administración de salones de chat también se combinan con el &nbsp; servidor front-end de Lync Server 2013.
 
     
     </div>
@@ -83,7 +85,7 @@ Para obtener más información acerca de los requisitos de hardware y software p
 
 ## <a name="supported-collocation"></a>Escenarios de instalación compatibles
 
-Lync Server 2013 admite una amplia variedad de escenarios de combinación, lo que proporciona la flexibilidad necesaria para ahorrar costos de hardware mediante la ejecución de varios componentes en un servidor (si tiene una organización pequeña) o para ejecutar componentes individuales en diferentes servidores (si tiene un organización más grande que necesita escalabilidad y rendimiento). Los factores de escalabilidad se deben tener en cuenta antes de decidir si los componentes se van a combinar.
+Lync Server 2013 admite una amplia variedad de escenarios de combinación, lo que proporciona la flexibilidad necesaria para ahorrar costos de hardware mediante la ejecución de varios componentes en un servidor (si tiene una organización pequeña) o para ejecutar componentes individuales en diferentes servidores (si tiene una organización más grande que necesita escalabilidad y rendimiento). Los factores de escalabilidad se deben tener en cuenta antes de decidir si los componentes se van a combinar.
 
 El servicio de cumplimiento de chat persistente, si el cumplimiento está habilitado, se combina con el servidor front-end de Lync Server 2013.
 
@@ -139,7 +141,7 @@ Puede Agregar un servidor de chat persistente a la implementación de Lync Serve
 
 ## <a name="single-server-topology"></a>Topología de un solo servidor
 
-La configuración mínima y la implementación más sencilla para el servidor de chat persistente son una única topología de servidor front-end de chat persistente. Esta implementación requiere un único servidor que ejecute el servidor de chat persistente (que, opcionalmente, ejecuta el servicio de cumplimiento, si el cumplimiento está habilitado), un servidor que hospede la base de datos de SQL Server y, si es necesario el cumplimiento normativo, la base de datos de SQL Server para almacenar el datos de cumplimiento.
+La configuración mínima y la implementación más sencilla para el servidor de chat persistente son una única topología de servidor front-end de chat persistente. Esta implementación requiere un único servidor que ejecute el servidor de chat persistente (que, opcionalmente, ejecuta el servicio de cumplimiento, si el cumplimiento está habilitado), un servidor que hospede tanto la base de datos de SQL Server, como si se requiere el cumplimiento normativo, la base de datos de SQL Server donde se almacenarán los datos de cumplimiento.
 
 <div>
 

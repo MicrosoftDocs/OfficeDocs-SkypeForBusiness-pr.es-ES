@@ -12,20 +12,22 @@ ms:contentKeyID: 49557731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85a9a1d035994c143336abc83312fb56f67b927d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6f557c95b9bf706b3a38b51bdbea4fea156b314
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180633"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503167"
 ---
+# <a name="configuring-microsoft-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving"></a>Configuración de Microsoft Lync Server 2013 para usar el archivado de Microsoft Exchange Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving"></a>Configuración de Microsoft Lync Server 2013 para usar el archivado de Microsoft Exchange Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180633"
 
 _**Última modificación del tema:** 2014-06-24_
 
-Microsoft Lync Server 2013 ofrece a los administradores la opción de hacer que las transcripciones de mensajería instantánea y de conferencias web se archiven en un buzón de correo de Microsoft Exchange Server 2013 de un usuario en lugar de una base de datos de SQL Server. Si se habilita esta opción, las transcripciones se escribirán en la carpeta Purga del buzón del usuario. La carpeta Purga es una carpeta oculta que se encuentra en la carpeta Elementos recuperables. Aunque esta carpeta no es visible para los usuarios finales, el motor de búsqueda de Exchange indiza la carpeta y se puede detectar mediante la búsqueda en buzones de Exchange o Microsoft SharePoint Server 2013. Debido a que la información se almacena en la misma carpeta que usa la característica de conservación local de Exchange (responsable del archivado de correo electrónico y otras comunicaciones de Exchange), los administradores pueden usar una única herramienta para buscar todas las comunicaciones electrónicas archivadas para un usuario.
+Microsoft Lync Server 2013 ofrece a los administradores la opción de hacer que las transcripciones de mensajería instantánea y de conferencias web se archiven en un buzón de correo de Microsoft Exchange Server 2013 de un usuario en lugar de una base de datos de SQL Server. Si se habilita esta opción, las transcripciones se escribirán en la carpeta Purga del buzón del usuario. La carpeta Purga es una carpeta oculta que se encuentra en la carpeta Elementos recuperables. Aunque esta carpeta no es visible para los usuarios finales, el motor de búsqueda de Exchange indiza la carpeta y se puede detectar mediante la búsqueda en buzones de Exchange o Microsoft SharePoint Server 2013. Debido a que la información se almacena en la misma carpeta que usa la característica de retención de In-Place de Exchange (responsable de archivar el correo electrónico y otras comunicaciones de Exchange), los administradores pueden usar una única herramienta para buscar todas las comunicaciones electrónicas archivadas para un usuario.
 
 <div>
 
@@ -107,7 +109,7 @@ El archivado de Exchange también se puede habilitar (o deshabilitar) mediante e
 
 </div>
 
-Si Lync Server 2013 y Exchange 2013 están ubicados en el mismo bosque, el archivado para usuarios individuales (o al menos para usuarios que tienen cuentas de correo en Exchange 2013) se administra mediante las directivas de conservación local de Exchange. Si tiene usuarios hospedados en una versión anterior de Exchange, el archivado para esos usuarios se administrará con las directivas de archivado de Lync Server. Tenga en cuenta que solo los usuarios con cuentas en Exchange 2013 pueden archivar sus transcripciones de Lync en Exchange.
+Si Lync Server 2013 y Exchange 2013 están ubicados en el mismo bosque, el archivado para usuarios individuales (o al menos para usuarios que tienen cuentas de correo en Exchange 2013) se administra mediante las directivas de suspensión de Exchange In-Place. Si tiene usuarios hospedados en una versión anterior de Exchange, el archivado para esos usuarios se administrará con las directivas de archivado de Lync Server. Tenga en cuenta que solo los usuarios con cuentas en Exchange 2013 pueden archivar sus transcripciones de Lync en Exchange.
 
 Si Lync Server 2013 y Exchange 2013 están ubicados en bosques diferentes, el archivado para usuarios individuales se administra configurando la propiedad ExchangeArchivingPolicy para cada cuenta de usuario individual. Vea el paso 3 para obtener más información.
 
@@ -145,13 +147,13 @@ Las directivas de archivado también se pueden administrar mediante el panel de 
 
 Si Lync Server 2013 y Exchange 2013 están ubicados en bosques diferentes, no basta con habilitar el archivado de Exchange en las opciones de configuración de archivado; eso no provocará que se archiven las transcripciones de mensajería instantánea y de conferencias web en Exchange. En su lugar, también debe configurar la propiedad ExchangeArchivingPolicy en cada una de las cuentas de usuario de Lync Server relevantes. Esta propiedad puede establecerse con uno de los cuatro valores posibles:
 
-1.  Sin inicializar. Indica que el archivado se basará en la configuración de conservación local configurada para el buzón de Exchange del usuario; Si no se ha habilitado la conservación local en el buzón de correo del usuario, el usuario tendrá archivado sus expedientes de mensajería y conferencias web en Lync Server.
+1.  Sin inicializar. Indica que el archivado se basará en la configuración de retención de In-Place configurada para el buzón de Exchange del usuario; Si no se ha habilitado la retención de In-Place en el buzón del usuario, el usuario tendrá archivado sus expedientes de mensajería y conferencias web en Lync Server.
 
 2.  **UseLyncArchivingPolicy**. Indica que la mensajería instantánea del usuario y las transcripciones de conferencias web deben archivarse en Lync Server en lugar de en Exchange.
 
 3.  No **archivar**. Indica que las transcripciones de mensajería instantánea y de las conferencias web no deben archivarse. Tenga en cuenta que esta configuración reemplaza cualquier directiva de archivado de Lync Server asignada al usuario.
 
-4.  **ArchivingToExchange**. Indica que las transcripciones de mensajería instantánea y de conferencia web del usuario deben archivarse en Exchange independientemente de la configuración de conservación local que tenga (o no) se haya asignado al buzón de correo del usuario.
+4.  **ArchivingToExchange**. Indica que la mensajería instantánea del usuario y las transcripciones de conferencias web deben archivarse en Exchange independientemente de la configuración de retención de In-Place que se haya asignado (o no) al buzón del usuario.
 
 Por ejemplo, para configurar una cuenta de usuario para que las transcripciones de mensajería instantánea y de conferencias web siempre se archiven en Exchange, puede usar un comando similar al siguiente desde el shell de administración de Lync Server:
 

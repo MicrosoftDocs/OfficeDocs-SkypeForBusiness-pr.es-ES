@@ -12,20 +12,22 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4c843bbe5c34aaf0ad98ca73e8ebd33820b87d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfdb6ae250e3ccb97f044892daa8ac11e7c1b99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502587"
 ---
+# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Componentes y topologías para conferencias en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Componentes y topologías para conferencias en Lync Server 2013
+
 
 </div>
 
@@ -49,15 +51,15 @@ Lync Server 2013 usa Office Web Apps y Office Web Apps Server para controlar el 
 
 Además de los requisitos de conferencia web y conferencia A/V, las conferencias de acceso telefónico local usan los siguientes componentes de Lync Server 2013:
 
-  - ****   El servicio de aplicación de servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas (UC). Las conferencias de acceso telefónico local usan dos aplicaciones de comunicaciones unificadas que requieren el servicio de aplicación: operador de conferencia y anuncio de conferencia. El servicio de aplicación se instala y se activa de forma predeterminada en todos los servidores front-end de un grupo de servidores front-end, y en todos los servidores Standard Edition, al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencias de acceso telefónico local.
+  - **Servicio**     de aplicación El servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas (UC). Las conferencias de acceso telefónico local usan dos aplicaciones de comunicaciones unificadas que requieren el servicio de aplicación: operador de conferencia y anuncio de conferencia. El servicio de aplicación se instala y se activa de forma predeterminada en todos los servidores front-end de un grupo de servidores front-end, y en todos los servidores Standard Edition, al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencias de acceso telefónico local.
 
-  - ****   La aplicación de operador de conferencia de aplicaciones operador de conferencia es una aplicación de comunicaciones unificadas que acepta llamadas de red telefónica conmutada (RTC), reproduce preguntas y une las llamadas a una conferencia a/V. La aplicación operador de conferencia se instala y activa de forma predeterminada al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencia de acceso telefónico local.
+  - Aplicación de operador de **Conferencia**     La aplicación de operador de conferencia es una aplicación de comunicaciones unificadas que acepta llamadas de red telefónica conmutada (RTC), reproduce preguntas y une las llamadas a una conferencia a/V. La aplicación operador de conferencia se instala y activa de forma predeterminada al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencia de acceso telefónico local.
 
-  - **Anuncio de conferencia**   la aplicación de anuncio de conferencia de aplicaciones es una aplicación de comunicaciones unificadas que reproduce tonos y mensajes a los participantes de la RTC en determinadas acciones, como cuando un participante se une a una conferencia o la abandona, los participantes se silencian o se desactivan, por ejemplo, alguien entra en la sala de espera o la Conferencia está bloqueada o desbloqueada. La aplicación de anuncio de conferencia también admite comandos de tono de marcado de frecuencia múltiple (DTMF) del teclado del teléfono. La aplicación de anuncio de conferencia se instala y activa automáticamente de forma predeterminada al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencia de acceso telefónico local.
+  - Aplicación de anuncio de **Conferencia**     La aplicación de anuncio de conferencia es una aplicación de comunicaciones unificadas que reproduce tonos y mensajes a los participantes de RTC en determinadas acciones, como cuando un participante se une a una conferencia o la abandona, los participantes se silencian o se desactivan, por ejemplo, alguien entra en la sala de espera o la Conferencia está bloqueada o desbloqueada. La aplicación de anuncio de conferencia también admite comandos de tono de marcado de frecuencia múltiple (DTMF) del teclado del teléfono. La aplicación de anuncio de conferencia se instala y activa automáticamente de forma predeterminada al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencia de acceso telefónico local.
 
-  - **Página configuración de conferencia de acceso telefónico**   local la página Configuración de conferencia de acceso telefónico local muestra los números de acceso telefónico de la Conferencia con los idiomas disponibles, asignada información de conferencia (es decir, para las reuniones que no necesitan programarse) y controles DTMF en la Conferencia, y admite la administración del número de identificación personal (PIN) y la información de conferencia asignada. La página de configuración de la Conferencia de acceso telefónico local se instala automáticamente como parte de los servicios Web.
+  - **Página de configuración de conferencia de acceso telefónico local**     La página de configuración de la Conferencia de acceso telefónico local muestra los números de acceso telefónico de conferencia con los idiomas disponibles, la información de conferencia asignada (es decir, para las reuniones que no necesitan programarse) y los controles de DTMF en conferencia, y admite la administración del número de identificación personal (PIN) y la información de conferencia asignada. La página de configuración de la Conferencia de acceso telefónico local se instala automáticamente como parte de los servicios Web.
 
-  - **Lync Server 2013, Mediation Server y**   la Conferencia RTC para conferencias de acceso telefónico local requieren un servidor de mediación para convertir la señalización (y los medios, en algunas configuraciones) entre Lync Server 2013 y la puerta de enlace RTC, y una puerta de enlace RTC para convertir la señalización y los medios entre el servidor de mediación y la puerta de enlace RTC. Para las conferencias de acceso telefónico local, debe implementar al menos un servidor de mediación y, al menos, uno de los siguientes elementos:
+  - **Lync server 2013, servidor de mediación y puerta de enlace RTC**     La Conferencia de acceso telefónico local requiere un servidor de mediación para convertir la señalización (y los medios, en algunas configuraciones) entre Lync Server 2013 y la puerta de enlace RTC y una puerta de enlace RTC para convertir la señalización y los medios entre el servidor de mediación y la puerta de enlace RTC. Para las conferencias de acceso telefónico local, debe implementar al menos un servidor de mediación y, al menos, uno de los siguientes elementos:
     
       - Una puerta de enlace RTC
     
@@ -74,13 +76,13 @@ Además de los requisitos de conferencia web y conferencia A/V, las conferencias
     
     </div>
 
-  - ****   Almacén de archivos del almacén de archivos se usa para los archivos de audio de nombre grabado. El almacenamiento de archivos es un componente estándar de toda implementación Enterprise Edition o Standard Edition.
+  - **Almacén**     de archivos El almacén de archivos se usa para los archivos de audio de nombre grabado. El almacenamiento de archivos es un componente estándar de toda implementación Enterprise Edition o Standard Edition.
 
-  - **Almacén de usuario el**almacén de usuario se usa para almacenar los PIN del usuario Lync Server 2013.    Los PIN tienen asignado un algoritmo hash. El almacenamiento de usuarios es un componente estándar de toda implementación Enterprise Edition o Standard Edition.
+  - **Almacén**     de usuario El almacén de usuario se usa para almacenar los PIN del usuario Lync Server 2013. Los PIN tienen asignado un algoritmo hash. El almacenamiento de usuarios es un componente estándar de toda implementación Enterprise Edition o Standard Edition.
 
-  - **Panel de control de Lync Server**   algunas opciones de configuración de acceso telefónico se pueden configurar mediante el panel de control de Lync Server.
+  - Panel de control de **Lync Server**     Algunas opciones de configuración de acceso telefónico se pueden configurar mediante el panel de control de Lync Server.
 
-  - **Shell de administración de Lync Server**   todas las opciones de acceso telefónico local se pueden configurar con los cmdlets del shell de administración de Lync Server. Los cmdlets del shell de administración de Lync Server están disponibles para implementar, configurar, ejecutar, supervisar y solucionar problemas de aplicación del operador de conferencia y de la aplicación de anuncio de conferencia. Para obtener más información acerca de los cmdlets específicos, consulte Lync Server Management Shell Documentation.
+  - Shell de administración de **Lync Server**     Todas las opciones de configuración de acceso telefónico local se pueden configurar con los cmdlets del shell de administración de Lync Server. Los cmdlets del shell de administración de Lync Server están disponibles para implementar, configurar, ejecutar, supervisar y solucionar problemas de aplicación del operador de conferencia y de la aplicación de anuncio de conferencia. Para obtener más información acerca de los cmdlets específicos, consulte Lync Server Management Shell Documentation.
 
 </div>
 

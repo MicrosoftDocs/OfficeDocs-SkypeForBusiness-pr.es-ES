@@ -12,20 +12,22 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501507"
 ---
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Tablas de comparación de clientes de escritorio para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Tablas de comparación de clientes de escritorio para Lync Server 2013
+
 
 </div>
 
@@ -1702,7 +1704,7 @@ Estas tablas indican las características que están disponibles para los usuari
 
 1 para los usuarios de Skype empresarial online, Microsoft 365 o Office 365, el operador Lync 2010 no es compatible.
 
-2 para los usuarios de Skype empresarial online, Microsoft 365 o Office 365, esta característica requiere Exchange Online y se controla mediante el atributo de conservación local del buzón de Exchange del usuario.
+2 para los usuarios de Skype empresarial online, Microsoft 365 o Office 365, esta característica requiere Exchange Online y se controla mediante el buzón de correo de Exchange del usuario In-Place el atributo Hold.
 
 3 en el caso de los usuarios de Skype empresarial online, Microsoft 365 o Office 365, el archivado de transferencias de archivos, páginas compartidas de OneNote y anotaciones de PowerPoint no está disponible.
 

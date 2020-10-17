@@ -12,20 +12,22 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ceddef859ebc24168c12fdf0721448c6d2b658
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 508e9c8e030de7aeb496a1285ff7b965e43c2a6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208893"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501437"
 ---
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Requisitos de DNS para la movilidad con Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Requisitos de DNS para la movilidad con Lync Server 2013
+
 
 </div>
 
@@ -70,12 +72,12 @@ Debe crear uno de los siguientes registros DNS internos:
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscoverinternal. &lt; sipdomain&gt;</p></td>
 <td><p>Nombre de dominio completo (FQDN) de servicios Web internos para el grupo de directores, si tiene uno, o para el grupo de servidores front-end si no tiene un director</p></td>
 </tr>
 <tr class="even">
 <td><p>A (host)</p></td>
-<td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscoverinternal. &lt; sipdomain&gt;</p></td>
 <td><p>Dirección IP de servicios Web internos (dirección IP virtual (VIP) si usa un equilibrador de carga) de su grupo de directores, si tiene uno o el grupo de servidores front-end si no tiene un director</p></td>
 </tr>
 </tbody>
@@ -113,7 +115,7 @@ Debe crear uno de los siguientes registros DNS externos:
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls. _tcp. &lt;sipdomain&gt;</p>
+<td><p>_sipfederationtls _sipfederationtls._tcp. &lt;sipdomain&gt;</p>
 <p>Se resuelve en un registro de host (A o AAAA) para el servicio perimetral de acceso</p></td>
 <td><p>Para admitir el servicio de notificaciones de inserción y el servicio de notificaciones de inserción de Apple, cree un registro SRV para cada dominio SIP que tenga clientes móviles de Microsoft Lync.</p>
 <div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4390c2f3aa18820668415543496dfdcfd5aa79e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213076"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502357"
 ---
+# <a name="conference-summary-report-in-lync-server-2013"></a>Informe de Resumen de conferencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Informe de Resumen de conferencia en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2014-09-03_
 
 El informe de resumen de conferencia ofrece una vista general de las sesiones de conferencia en línea. Una conferencia suele implicar a más de 2 usuarios y requiere el uso de los servicios de conferencia de Microsoft Lync Server 2013. Por su parte, una sesión punto a punto suele implicar a solo dos usuarios y no precisa del uso de los servicios de conferencia de Lync Server. Las actividades punto a punto se indican en el [Informe de Resumen de actividad punto a punto en Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).
 
-El informe de Resumen de conferencia no solo indica el número de conferencias que se realizaron durante un período de tiempo determinado (cada hora, diariamente, semanalmente, mensualmente), sino que también indica el número total de personas que participaron en esas conferencias y el número total de conferencias únicas organizadores.
+El informe de Resumen de conferencia no solo indica el número de conferencias que se realizaron durante un período de tiempo determinado (cada hora, diariamente, semanalmente, mensualmente), sino que también indica el número total de personas que participaron en esas conferencias y el número total de organizadores de conferencia únicos.
 
 Un organizador "único” es alguien que programa al menos una conferencia. Así, por ejemplo, si Pilar Ackerman programa una conferencia, se contabilizará como una organizadora única y, si Ken Myer programa 148 conferencias, también se considerará como organizador único. En la siguiente tabla se recogen ocho conferencias programadas, pero solo tres organizadores únicos (Ken Myer, Pilar Ackerman y David Ahs).
 
@@ -190,17 +192,17 @@ La siguiente tabla muestra los filtros que puede utilizar con el informe de resu
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
+<p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
-<p>07.07.12 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>

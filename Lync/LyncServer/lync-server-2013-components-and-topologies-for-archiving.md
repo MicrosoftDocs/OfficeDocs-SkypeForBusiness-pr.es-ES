@@ -12,20 +12,22 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca674be0059a235439df637f07cb4ca834806d4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec153b237df086f3622acc70c104bddc64fef28a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209438"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502617"
 ---
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Componentes y topologías para el archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Componentes y topologías para el archivado en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ La característica Archivado incluye los siguientes componentes:
 
   - **Almacenamiento de datos de archivado**. El almacenamiento de datos para Lync Server 2013 puede ser cualquiera de los siguientes:
     
-      - Almacenamiento de Exchange 2013. Si habilita la opción de integración de Microsoft Exchange, los buzones de correo de usuario hospedados en el servidor Exchange 2013 usan el almacenamiento de Exchange 2013 para los datos archivados, pero solo si los buzones se han colocado en conservación local.
+      - Almacenamiento de Exchange 2013. Si habilita la opción de integración de Microsoft Exchange, los buzones de correo de usuario hospedados en el servidor Exchange 2013 usan el almacenamiento de Exchange 2013 para los datos archivados, pero solo si los buzones se han puesto en retención de In-Place.
     
       - Almacenamiento de SQL Server. Si tiene usuarios en su implementación hospedados en Lync Server 2013, puede configurar las bases de datos de archivado que ejecutan una versión compatible de SQL Server para habilitar el archivado para esos usuarios.
 
@@ -69,7 +71,7 @@ Implemente el archivado en cada grupo que tenga usuarios que requieran compatibi
 
   - Implementación mediante bases de datos de SQL Server independientes
 
-Si su implementación de Exchange 2013 no incluye a todos los usuarios de su implementación de Lync Server, debe usar la integración de Microsoft Exchange para los usuarios cuyos buzones se encuentran en servidores de Exchange 2013 y debe implementar bases de datos de SQL Server independientes para todos los demás Los usuarios de Lync que deben usar para el archivado.
+Si su implementación de Exchange 2013 no incluye a todos los usuarios de su implementación de Lync Server, debe usar la integración de Microsoft Exchange para los usuarios cuyos buzones se encuentran en servidores de Exchange 2013 y debe implementar bases de datos de SQL Server independientes para el resto de los usuarios de Lync que se vayan a usar para el archivado.
 
 </div>
 
@@ -77,7 +79,7 @@ Si su implementación de Exchange 2013 no incluye a todos los usuarios de su imp
 
 ## <a name="supported-collocation"></a>Escenarios de instalación compatibles
 
-Lync Server 2013 admite una amplia variedad de escenarios de combinación, lo que permite ahorrar costes de hardware mediante la ejecución de varios componentes en un servidor (si tiene una organización pequeña) o para ejecutar componentes individuales en diferentes servidores (si tiene un mayor organización que necesita escalabilidad y rendimiento). Los factores de escalabilidad se deben tener en cuenta antes de decidir si los componentes se van a combinar.
+Lync Server 2013 admite una amplia variedad de escenarios de combinación, lo que le permite ahorrarse los costos de hardware mediante la ejecución de varios componentes en un servidor (si tiene una organización pequeña) o para ejecutar componentes individuales en diferentes servidores (si tiene una organización más grande que necesita escalabilidad y rendimiento). Los factores de escalabilidad se deben tener en cuenta antes de decidir si los componentes se van a combinar.
 
 El archivado se implementa en los servidores front-end de un grupo de servidores o servidores Standard Edition. Para obtener más información sobre los componentes que se pueden combinar allí, consulte [Supported Server combinación en Lync server 2013](lync-server-2013-supported-server-collocation.md) en la documentación sobre compatibilidad.
 
