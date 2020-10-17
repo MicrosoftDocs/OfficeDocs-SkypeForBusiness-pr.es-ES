@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tareas diarias'
+description: 'Lync Server 2013: tareas diarias.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 777d0fdfc8857022c0a54fcb1cd237b90f68d9d9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d9e2d62eb29db2bafa23565637bb655ba932c7b6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550186"
 ---
 # <a name="daily-tasks-in-lync-server-2013"></a>Tareas diarias en Lync Server 2013
 

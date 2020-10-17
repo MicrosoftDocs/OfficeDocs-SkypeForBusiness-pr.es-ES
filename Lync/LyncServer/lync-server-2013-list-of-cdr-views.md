@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: lista de vistas de CDR'
+description: 'Lync Server 2013: lista de vistas de CDR.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37f41be7781f3cdce6b458b1eeaeb5cb8431b8d0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f1c29560851c0e4466dbf4316bf0b1335906d4e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550086"
 ---
 # <a name="list-of-cdr-views-in-lync-server-2013"></a>Lista de vistas de CDR en Lync Server 2013
 

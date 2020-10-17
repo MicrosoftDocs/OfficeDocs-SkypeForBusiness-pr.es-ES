@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración de usuarios hospedados de Exchange'
+description: 'Lync Server 2013: administración de usuarios hospedados de Exchange.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4a54c4a7a3833fdd31999d7613659f9a35f9732
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9ceda9352fc627fc7b762b5995d788ffafa159ae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504207"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550116"
 ---
 # <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Administración de usuarios de Exchange hospedada en Lync Server 2013
 

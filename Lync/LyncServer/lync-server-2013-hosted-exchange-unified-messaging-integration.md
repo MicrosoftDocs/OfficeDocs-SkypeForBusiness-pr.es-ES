@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: integración de mensajería unificada de Exchange hospedada'
+description: 'Lync Server 2013: integración de mensajería unificada de Exchange hospedada.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44a66f82e9eefd9c4b68e753635abc90aea0ad5a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 980c0bc47258e9fae94ff623559342ca36eea145
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533107"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550126"
 ---
 # <a name="hosted-exchange-unified-messaging-integration-in-lync-server-2013"></a>Integración de mensajería unificada de Exchange hospedada en Lync Server 2013
 

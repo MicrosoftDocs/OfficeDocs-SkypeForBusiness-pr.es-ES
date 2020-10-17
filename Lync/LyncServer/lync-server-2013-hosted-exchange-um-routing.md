@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: enrutamiento de mensajería unificada de Exchange hospedado'
+description: 'Lync Server 2013: enrutamiento de mensajería unificada de Exchange hospedado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31091da9a80dc03c798cbf674c1c46e0ea7b901c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 72fbdee5550ae53d5ff5e7513ea384cedad62c5a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533117"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550136"
 ---
 # <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Enrutamiento de mensajería unificada de Exchange hospedado en Lync Server 2013
 
