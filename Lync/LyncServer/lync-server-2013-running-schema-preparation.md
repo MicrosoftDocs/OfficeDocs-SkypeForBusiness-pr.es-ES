@@ -12,20 +12,22 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12dda05b36406e620c08abac494dceecc7d314d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 202052ce01bca6cdc11e8ed36dfede9afba74b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201136"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511107"
 ---
+# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Ejecución de la preparación del esquema de Active Directory en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Ejecución de la preparación del esquema de Active Directory en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Puede usar los cmdlets del shell de administración de Lync Server o de instalac
 
 
 > [!NOTE]  
-> El cmdlet de preparación del esquema (<STRONG>Install-CsAdServerSchema</STRONG>) debe tener acceso al maestro de esquema, que requiere que el servicio del Registro remoto esté en ejecución y que la clave del Registro remoto esté habilitada. Si el servicio del Registro remoto no se puede habilitar en el maestro de esquema, puede ejecutar el cmdlet de forma local en el maestro de esquema. Para obtener más información acerca del acceso remoto al registro, consulte el artículo 314837 de Microsoft Knowledge base, "How to Manage Remote <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>Access to the Registry", en.
+> El cmdlet de preparación del esquema (<STRONG>Install-CsAdServerSchema</STRONG>) debe tener acceso al maestro de esquema, que requiere que el servicio del Registro remoto esté en ejecución y que la clave del Registro remoto esté habilitada. Si el servicio del Registro remoto no se puede habilitar en el maestro de esquema, puede ejecutar el cmdlet de forma local en el maestro de esquema. Para obtener más información acerca del acceso remoto al registro, consulte el artículo 314837 de Microsoft Knowledge base, "How to Manage Remote Access to the Registry", en <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A> .
 
 
 
@@ -57,7 +59,7 @@ Una vez preparado el esquema, compruebe manualmente que la división del esquema
 
 1.  Inicie sesión en un servidor del bosque como miembro del grupo Administradores de esquema y con derechos de administrador en el maestro de esquema.
 
-2.  Desde el medio o la carpeta de instalación 2013 de Lync Server, ejecute setup. exe para iniciar el Asistente para la implementación.
+2.  Desde la carpeta o los medios de instalación de Lync Server 2013, ejecute Setup.exe para iniciar el Asistente para la implementación.
 
 3.  Si se le pide que instale el Paquete redistribuible de Microsoft Visual C++, haga clic en **Sí**.
 
@@ -75,7 +77,7 @@ Una vez preparado el esquema, compruebe manualmente que la división del esquema
 
 10. En la página **Ejecución de comandos**, busque **Estado de la tarea: completado** y, a continuación, haga clic en **Ver registro**.
 
-11. En la columna **acción** , expanda **preparación del esquema**, busque el resultado de la ** \<ejecución\> correcta** al final de cada tarea para comprobar que la preparación del esquema se completó correctamente, cierre el registro y, a continuación, haga clic en **Finalizar**.
+11. En la columna **acción** , expanda **preparación del esquema**, busque el **\<Success\>** resultado de ejecución al final de cada tarea para comprobar que la preparación del esquema se completó correctamente, cierre el registro y, a continuación, haga clic en **Finalizar**.
 
 12. Espere a que la replicación de Active Directory finalice o fuerce la replicación.
 
@@ -91,7 +93,7 @@ Una vez preparado el esquema, compruebe manualmente que la división del esquema
 
 2.  Instale los componentes principales de Lync Server de la siguiente manera:
     
-    1.  Desde el medio o la carpeta de instalación de Lync Server 2013, ejecute setup. exe para iniciar el Asistente para la implementación de Lync Server.
+    1.  Desde la carpeta o los medios de instalación de Lync Server 2013, ejecute Setup.exe para iniciar el Asistente para la implementación de Lync Server.
     
     2.  Si se le pide que instale el Paquete redistribuible de Microsoft Visual C++, haga clic en **Sí**.
     
@@ -115,7 +117,7 @@ Una vez preparado el esquema, compruebe manualmente que la división del esquema
     
         Get-CsAdServerSchema 
     
-    Este cmdlet devuelve un valor de **estado\_\_de\_versión de esquema actual** si la preparación del esquema se realizó correctamente.
+    Este cmdlet devuelve un valor de **Estado de versión de esquema \_ \_ \_ actual** si la preparación del esquema se realizó correctamente.
 
 6.  Espere a que la replicación de Active Directory finalice o fuerce la replicación.
 
@@ -125,7 +127,7 @@ Una vez preparado el esquema, compruebe manualmente que la división del esquema
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Comprobar la replicación de esquemas de Active Directory en Lync Server 2013](lync-server-2013-verifying-schema-replication.md)  

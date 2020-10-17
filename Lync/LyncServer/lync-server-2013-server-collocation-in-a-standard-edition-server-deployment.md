@@ -12,20 +12,22 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1122605aabea32d86fbacd1f23675fcdef687539
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8e50aa9339d992e73cf4e5b32b1e49fc2a144e67
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510317"
 ---
+# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Combinación de servidor en una implementación de servidor Standard Edition para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Combinación de servidor en una implementación de servidor Standard Edition para Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Puede recopilar un servidor de aplicaciones de confianza con el servidor Standar
 
 Cada uno de los siguientes roles de servidor deben implementarse en un equipo aparte:
 
-  - Dirección
+  - Director
 
   - Servidor perimetral
 
@@ -67,7 +69,7 @@ De manera predeterminada, la base de datos back-end de SQL Server Express se com
 
 Se puede combinar cada una de las siguientes bases de datos en un único servidor de base de datos:
 
-  - Base de datos de supervisión
+  - Servidor de supervisión
 
   - Base de datos de archivado
 
@@ -77,7 +79,7 @@ Se puede combinar cualquiera de estas bases de datos, o todas ellas, en una úni
 
   - Cada instancia de SQL puede contener únicamente una base de datos back-end (para un grupo de servidores front-end de Enterprise Edition), una sola base de datos de supervisión, una sola base de datos de archivado, una sola base de datos de chat persistente o una sola base de datos de cumplimiento de chat persistente.
 
-  - El servidor de base de datos no admite más de un grupo de servidores front-end Enterprise Edition, un servidor que ejecuta el archivado, un servidor que ejecuta la supervisión, una base de datos de chat persistente y una base de datos de cumplimiento de chat persistente, pero puede admitir uno de cada uno de ellos. independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias independientes de SQL Server.
+  - El servidor de base de datos no admite más de un grupo de servidores front-end Enterprise Edition, un servidor que ejecuta el archivado, un servidor que ejecuta la supervisión, una base de datos de chat persistente única y una base de datos de cumplimiento de chat persistente, pero admite una de cada uno, independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias independientes
 
 Se puede combinar un recurso compartido de archivos con las bases de datos, como se describe más adelante en este sección.
 

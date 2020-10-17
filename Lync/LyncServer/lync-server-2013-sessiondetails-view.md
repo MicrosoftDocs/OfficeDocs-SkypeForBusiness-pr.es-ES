@@ -12,20 +12,22 @@ ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66d883b48d1269fff8a57594101f083c88f1fbd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8baf67ce72103ef0dda64a9b0b43a8f6dd6402f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510067"
 ---
+# <a name="sessiondetails-view-in-lync-server-2013"></a>Vista SessionDetails en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessiondetails-view-in-lync-server-2013"></a>Vista SessionDetails en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de identificador para identificar la sesión. Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -116,12 +118,12 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 </tr>
 <tr class="odd">
 <td><p><strong>FromMessageCount</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de mensajes que envió el usuario que inició la sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMessageCount</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de mensajes que envió el usuario que se unió a la sesión.</p></td>
 </tr>
 <tr class="odd">
@@ -131,7 +133,7 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 </tr>
 <tr class="even">
 <td><p><strong>FromClientType</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Cliente que usa el usuario que inició la sesión. Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -146,7 +148,7 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 </tr>
 <tr class="odd">
 <td><p><strong>ToClientType</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Cliente que usa el usuario que se unió a la sesión. Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
@@ -212,7 +214,7 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 </tr>
 <tr class="even">
 <td><p><strong>ReplaceDialogIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de identificador de la sesión. Se usa en combinación con ReplaceDialogIdTime para identificar de forma exclusiva un diálogo que se sustituye con la sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -228,12 +230,12 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 </tr>
 <tr class="odd">
 <td><p><strong>ResponseCode</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Código de respuesta SIP a la invitación a la sesión. Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no hay ningún mensaje INVITE, el campo se rellena con la hora y la fecha del primer mensaje SIP correspondiente (BYE, CANCEL, MESSAGE o INFO).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DiagnosticId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Identificador de diagnóstico capturado de los encabezados SIP.</p></td>
 </tr>
 <tr class="odd">
@@ -247,7 +249,7 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 <td><p>FQDN del servidor front-end que capturó los datos de la sesión.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>FQDN del grupo que capturó los datos de la sesión.</p></td>
 </tr>
@@ -296,7 +298,7 @@ La vista SessionDetails almacena información sobre sesiones punto a punto, que 
 <p>0x02 - Una llamada realizada por un agente en nombre de un Grupo de respuesta</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Ubicación</strong></p></td>
+<td><p><strong>Location</strong></p></td>
 <td><p>VARCHAR (Max)</p></td>
 <td><p>Ubicación de una llamada de emergencia.</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad28eb7214cb6762e8b0941f22da8b97966e9024
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d63156f0eae10d71e0af7721f4e69fe6e2bd8fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510027"
 ---
+# <a name="set-a-users-dial-in-conferencing-pin-in-lync-server-2013"></a>Establecer el PIN de conferencia de acceso telefónico local de un usuario en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-a-users-dial-in-conferencing-pin-in-lync-server-2013"></a>Establecer el PIN de conferencia de acceso telefónico local de un usuario en Lync Server 2013
+
 
 </div>
 
@@ -119,7 +121,7 @@ Para unirse a una conferencia de acceso telefónico local como usuario autentica
 
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Asignación de un PIN de usuario mediante cmdlets de Windows PowerShell
 
-Puede asignar números de PIN que también se pueden asignar mediante el cmdlet Set-CsClientPin. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede asignar números de PIN que también se pueden asignar mediante el cmdlet Set-CsClientPin. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -147,7 +149,7 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsClie
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Número de acceso telefónico local](https://technet.microsoft.com/library/gg133674\(v=ocs.15\))  

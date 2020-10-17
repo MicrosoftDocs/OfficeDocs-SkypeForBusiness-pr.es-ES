@@ -12,20 +12,22 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77c49b7d1b02fc2d1cb41efd3fd68213fa8a0dfb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201396"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511567"
 ---
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Restaurar un servidor Standard Edition en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Restaurar un servidor Standard Edition en Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Si se produce un error en un servidor Standard Edition que no hospeda el almacé
     
     3.  Seleccione la topología y, a continuación, haga clic en **Guardar**. Haga clic en **Sí** para confirmar la selección.
 
-5.  Vaya a la carpeta o los medios de instalación de Lync Server y, a continuación, inicie el asistente \\para\\la\\implementación de Lync Server que se encuentra en Setup AMD64 Setup. exe. Use el Asistente para la implementación de Lync Server para hacer lo siguiente:
+5.  Vaya a la carpeta o los medios de instalación de Lync Server y, a continuación, inicie el Asistente para la implementación de Lync Server que se encuentra en la \\ configuración de \\ AMD64 \\Setup.exe. Use el Asistente para la implementación de Lync Server para hacer lo siguiente:
     
     1.  Ejecute el **Paso 1: Instalar el almacén de configuración local** para instalar los archivos de configuración local.
     
@@ -99,7 +101,7 @@ Si se produce un error en un servidor Standard Edition que no hospeda el almacé
 
 6.  Para restaurar los datos del usuario, haga lo siguiente:
     
-    1.  Copie ExportedUserData. zip de $Backup\\ a un directorio local.
+    1.  Copie ExportedUserData.zip de $Backup \\ a un directorio local.
     
     2.  Antes de restaurar los datos de usuario, debe detener los servicios de Lync. Para ello, escriba:
         
@@ -123,7 +125,7 @@ Si se produce un error en un servidor Standard Edition que no hospeda el almacé
     
     Si usó la copia de seguridad de SQL Server para hacer una copia de seguridad de la base de datos de chat persistente, use los procedimientos de restauración de SQL Server para restaurarla.
     
-    Si usó el cmdlet Export-CsPersistentChatData para realizar una copia de seguridad, use el cmdlet Import-CsPersistentChatData para restaurarlo.
+    Si usó el cmdlet Export-CsPersistentChatData para hacer una copia de seguridad, use el Import-CsPersistentChatData para restaurarlo.
 
 </div>
 

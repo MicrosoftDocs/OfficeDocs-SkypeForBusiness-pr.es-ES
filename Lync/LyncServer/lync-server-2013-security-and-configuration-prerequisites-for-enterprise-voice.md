@@ -12,20 +12,22 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8aec487e2ef5c6f5a756305a6e44df0c31cbec0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa8f0f3dd113b10a01f18a0542561de946d4acd0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200936"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510477"
 ---
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Requisitos previos de seguridad y configuración para telefonía IP empresarial en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Requisitos previos de seguridad y configuración para telefonía IP empresarial en Lync Server 2013
+
 
 </div>
 

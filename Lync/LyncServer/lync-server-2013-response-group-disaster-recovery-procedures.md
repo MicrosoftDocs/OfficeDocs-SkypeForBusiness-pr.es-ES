@@ -12,20 +12,22 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 254f9e95edfb445d996948a17064ae460dbdb7d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea967dc717f36b8ab5951fa758e7c78d6130dc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511667"
 ---
+# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Procedimientos de recuperación ante desastres del grupo de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Procedimientos de recuperación ante desastres del grupo de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214876"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Durante la fase de conmutación por error de la recuperación ante desastres, los grupos de respuesta residen en varios grupos de servidores: en el grupo de servidores principal (que no está disponible) y en el grupo de servidores de reserva. Los grupos de respuesta de ambos grupos de servidores tienen el mismo nombre y el mismo propietario (el grupo de servidores principal), pero diferentes elementos primarios. Durante este tiempo, los cmdlets del grupo de respuesta funcionan de manera ligeramente distinta. Asegúrese de usar los parámetros como se especifica en el procedimiento siguiente. Para obtener más información sobre cómo funcionan los cmdlets durante la fase de conmutación por error, vea el artículo del blog NextHop "Lync Server 2013: [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957)recuperación de grupos de respuesta durante la recuperación ante desastres" en. Este artículo del blog también se aplica a la versión publicada de Lync Server 2013.
+Durante la fase de conmutación por error de la recuperación ante desastres, los grupos de respuesta residen en varios grupos de servidores: en el grupo de servidores principal (que no está disponible) y en el grupo de servidores de reserva. Los grupos de respuesta de ambos grupos de servidores tienen el mismo nombre y el mismo propietario (el grupo de servidores principal), pero diferentes elementos primarios. Durante este tiempo, los cmdlets del grupo de respuesta funcionan de manera ligeramente distinta. Asegúrese de usar los parámetros como se especifica en el procedimiento siguiente. Para obtener más información sobre cómo funcionan los cmdlets durante la fase de conmutación por error, vea el artículo del blog NextHop "Lync Server 2013: recuperación de grupos de respuesta durante la recuperación ante desastres" en [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957) . Este artículo del blog también se aplica a la versión publicada de Lync Server 2013.
 
 Siga los pasos descritos en el siguiente procedimiento para preparar y realizar la recuperación ante desastres para el servicio de grupo de respuesta de Lync Server.
 

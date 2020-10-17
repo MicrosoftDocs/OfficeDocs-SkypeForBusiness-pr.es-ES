@@ -12,20 +12,22 @@ ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9aee487bb9e1a42c7a02e384101b81625482116
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9780963614a1d0f5049fdc5226391e2ee2b6d59c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511547"
 ---
+# <a name="restoring-an-enterprise-edition-back-end-server-in-lync-server-2013"></a>Restauración de un servidor back-end de Enterprise Edition en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-back-end-server-in-lync-server-2013"></a>Restauración de un servidor back-end de Enterprise Edition en Lync Server 2013
+
 
 </div>
 
@@ -121,7 +123,7 @@ Si se produce un error en el almacén de administración central, consulte [rest
 
 5.  Para restaurar los datos del usuario, lleve a cabo el siguiente procedimiento:
     
-    1.  Copie ExportedUserData. zip de $Backup\\ a un directorio local.
+    1.  Copie ExportedUserData.zip de $Backup \\ a un directorio local.
     
     2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
     

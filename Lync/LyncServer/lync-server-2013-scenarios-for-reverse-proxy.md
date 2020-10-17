@@ -12,20 +12,22 @@ ms:contentKeyID: 48183468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af3b987cfc1a982139aa0151e43918f0ed082034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 767df1e427cd29e9437b4bd04d2859b382b48267
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510837"
 ---
+# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Escenarios de proxy inverso en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Escenarios de proxy inverso en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Durante la fase de planeación, defina los requisitos para el proxy inverso en u
 
 Al planear la implementación de Lync Server 2013, debe asignar los requisitos reales para Lync Server 2013 a las características de proxy inverso.
 
-1.  Los clientes externos se conectarán al proxy inverso en el puerto TCP 443 y usarán la capa de sockets seguros (SSL) o la seguridad de la capa de transporte (TLS). Los clientes móviles de Microsoft Lync pueden conectarse en el puerto TCP 80, pero solo cuando se realiza la conexión inicial a los servicios de detección de Lync, el administrador ha configurado los registros CNAME (o alias) del sistema de nombres de dominio (DNS) adecuados y acepta que este no se cifrará la comunicación.
+1.  Los clientes externos se conectarán al proxy inverso en el puerto TCP 443 y usarán la capa de sockets seguros (SSL) o la seguridad de la capa de transporte (TLS). Los clientes móviles de Microsoft Lync pueden conectarse en el puerto TCP 80, pero solo cuando se realiza la conexión inicial a los servicios de detección de Lync y el administrador ha configurado los registros CNAME (o alias) del sistema de nombres de dominio (DNS) adecuados y se acepta que esta comunicación no se cifrará.
 
 2.  Lync Server 2013 servicios web externos (implementados en el servidor front-end o el director) esperan una conexión de un proxy inverso en el puerto TCP 4443 y espera que la conexión sea SSL/TLS.
     
@@ -78,7 +80,7 @@ Al planear la implementación de Lync Server 2013, debe asignar los requisitos r
     
       - El vDir "detección automática" de la aplicación de la tienda Windows de Lync, Lync Mobile y el cliente de escritorio Lync 2013. La detección automática en Lync Server 2013 se conoce con el nombre DNS "lyncdiscover"
     
-      - El cliente externo tiene acceso a los servicios no definidos por llamadas directas a los servicios web externos. Por ejemplo, las llamadas directas a los servicios web externos y los vDirs asociados tienen acceso a la expansión del grupo de distribución (DLX) y al servicio de libreta de direcciones (ABS). El cliente conoce la ruta de acceso real al vDir y crea un localizador uniforme de registros (URL) en función de esta información. El cliente tendría acceso al servicio de libreta de direcciones mediante una dirección URL similar a`https://externalweb.contoso.com/abs/handler`
+      - El cliente externo tiene acceso a los servicios no definidos por llamadas directas a los servicios web externos. Por ejemplo, las llamadas directas a los servicios web externos y los vDirs asociados tienen acceso a la expansión del grupo de distribución (DLX) y al servicio de libreta de direcciones (ABS). El cliente conoce la ruta de acceso real al vDir y crea un localizador uniforme de registros (URL) en función de esta información. El cliente tendría acceso al servicio de libreta de direcciones mediante una dirección URL similar a `https://externalweb.contoso.com/abs/handler`
     
       - Office Web Apps Server cuando se definen y configuran conferencias como parte de la topología de Lync Server
         

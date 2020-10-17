@@ -12,20 +12,22 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e48af9dd5b35676ee0141b771f8e50e1fbdedae6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b958b10fc8c801d680cf17cac8fb493eae82df8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511453"
 ---
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restauración de un servidor miembro de Enterprise Edition en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restauración de un servidor miembro de Enterprise Edition en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Si se produce un error en un servidor que ejecuta uno de los siguientes roles de
 
   - Servidor de mediación
 
-  - Dirección
+  - Director
 
   - Servidor de chat persistente
 
@@ -76,7 +78,7 @@ Si se produce un error en un servidor que ejecuta uno de los siguientes roles de
 
 2.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins, inicie sesión en el servidor que va a restaurar.
 
-3.  Vaya a la carpeta o los medios de instalación de Lync Server e inicie el Asistente para la implementación \\de\\Lync\\Server que se encuentra en Setup AMD64 Setup. exe.
+3.  Vaya a la carpeta o los medios de instalación de Lync Server e inicie el Asistente para la implementación de Lync Server que se encuentra en la \\ instalación de \\ AMD64 \\Setup.exe.
 
 4.  Siga el asistente para la implementación para hacer lo siguiente:
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184991
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d9f0f1bc18cf7c0a54a5bacc9257e4264b7b93c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e4ed33466e9b31fbabb3432927baea8f087ea1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208466"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511127"
 ---
+# <a name="running-forest-preparation-for-lync-server-2013"></a>Ejecutar la preparación del bosque para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-forest-preparation-for-lync-server-2013"></a>Ejecutar la preparación del bosque para Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Después de preparar el bosque, debe comprobar que la configuración global se h
 
 1.  Inicie sesión en un equipo que se haya unido a un dominio como miembro del grupo de administradores de la empresa para el dominio raíz del bosque.
 
-2.  Desde el medio o la carpeta de instalación 2013 de Lync Server, ejecute setup. exe para iniciar el Asistente para la implementación.
+2.  Desde la carpeta o los medios de instalación de Lync Server 2013, ejecute Setup.exe para iniciar el Asistente para la implementación.
 
 3.  Haga clic en **Preparar Active Directory** y espere hasta que se determine el estado de implementación.
 
@@ -66,7 +68,7 @@ Después de preparar el bosque, debe comprobar que la configuración global se h
 
 6.  En la página **Ejecución de comandos**, busque **Estado de la tarea: completado** y, a continuación, haga clic en **Ver registro**.
 
-7.  En la columna **acción** , expanda **preparación del bosque**, busque un ** \<\> ** resultado de ejecución correcta al final de cada tarea para comprobar que la preparación del bosque se completó correctamente, cierre el registro y, a continuación, haga clic en **Finalizar**.
+7.  En la columna **acción** , expanda **preparación del bosque**, busque un **\<Success\>** resultado de ejecución al final de cada tarea para comprobar que la preparación del bosque se completó correctamente, cierre el registro y, a continuación, haga clic en **Finalizar**.
 
 8.  Espere a que se complete la replicación de Active Directory o fuércela en todos los controladores de dominio que se enumeran en el complemento **Sitios y servicios de Active Directory** del controlador del dominio raíz del bosque antes de ejecutar la preparación del dominio. Fuerce la replicación entre los controladores de dominio en todos los sitios de Active Directory para que la replicación en los sitios se produzca en cuestión de minutos.
 
@@ -80,7 +82,7 @@ Después de preparar el bosque, debe comprobar que la configuración global se h
 
 2.  Instale los componentes principales de Lync Server de la siguiente manera:
     
-    1.  Desde el medio o la carpeta de instalación de Lync Server 2013, ejecute setup. exe para iniciar el Asistente para la implementación de Lync Server.
+    1.  Desde la carpeta o los medios de instalación de Lync Server 2013, ejecute Setup.exe para iniciar el Asistente para la implementación de Lync Server.
     
     2.  Si se le pide que instale el Paquete redistribuible de Microsoft Visual C++, haga clic en **Sí**.
     
@@ -106,13 +108,13 @@ Después de preparar el bosque, debe comprobar que la configuración global se h
     
         Get-CsAdForest 
     
-    Este cmdlet devuelve un valor de **LC\_FORESTSETTINGS\_estado\_listo** si la preparación del bosque se ha realizado correctamente.
+    Este cmdlet devuelve un valor de **LC \_ FORESTSETTINGS \_ estado \_ listo** si la preparación del bosque se ha realizado correctamente.
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Uso de cmdlets para invertir la preparación del bosque para Lync Server 2013](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)  

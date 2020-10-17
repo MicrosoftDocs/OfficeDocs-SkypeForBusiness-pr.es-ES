@@ -12,20 +12,22 @@ ms:contentKeyID: 48183871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f503736b22453f6c3aafd76bc2fac7211f11dec7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b690b0880e1da838b3b8f15392e64c4f4c650c10
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510497"
 ---
+# <a name="search-for-lync-server-users-in-lync-server-2013"></a>Buscar usuarios de Lync Server en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="search-for-lync-server-users-in-lync-server-2013"></a>Buscar usuarios de Lync Server en Lync Server 2013
+
 
 </div>
 
@@ -79,7 +81,7 @@ Puede buscar usuarios con el panel de control de Lync Server o el complemento de
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Visualización de la información sobre las cuentas de usuario habilitadas para Lync Server 2013](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e153e41e0c5d452ec136daf2ad46d4ea67541d83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a413bde093c375a887f1ea39c435401b3ce1c4a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510267"
 ---
+# <a name="server-roles-in-lync-server-2013"></a>Roles de servidor en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-roles-in-lync-server-2013"></a>Roles de servidor en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Incluso si no está familiarizado con los roles de servidor de Lync Server, la h
 
   - Servidor de mediación
 
-  - Dirección
+  - Director
 
   - Servidor front-end de chat persistente
 
@@ -127,7 +129,7 @@ La información almacenada en las bases de datos del servidor back-end incluye i
 
 ## <a name="edge-server"></a>Servidor perimetral
 
-Servidor perimetral permite a los usuarios comunicarse y colaborar con usuarios fuera de los firewalls de la organización. Estos usuarios externos pueden incluir los propios usuarios de la organización que actualmente trabajan fuera del sitio, usuarios de organizaciones de socios federados y usuarios externos que han invitado a unirse a conferencias hospedadas en su implementación de Lync Server. El servidor perimetral también habilita la conectividad con los servicios de conectividad de mensajería instantánea pública, incluidos\!Windows Live, AOL, Yahoo y Google Talk.
+Servidor perimetral permite a los usuarios comunicarse y colaborar con usuarios fuera de los firewalls de la organización. Estos usuarios externos pueden incluir los propios usuarios de la organización que actualmente trabajan fuera del sitio, usuarios de organizaciones de socios federados y usuarios externos que han invitado a unirse a conferencias hospedadas en su implementación de Lync Server. El servidor perimetral también habilita la conectividad con los servicios de conectividad de mensajería instantánea pública, incluidos Windows Live, AOL, Yahoo \! y Google Talk.
 
 <div>
 
@@ -165,7 +167,7 @@ Para obtener más información, consulte [Mediation Server Component in Lync ser
 
 <div>
 
-## <a name="director"></a>Dirección
+## <a name="director"></a>Director
 
 Los directores pueden autenticar solicitudes de usuario de Lync Server, pero no alojan cuentas de usuario ni proporcionan servicios de presencia o conferencia. Los directores son de mucha utilidad para mejorar la seguridad en las implementaciones que habilitan el acceso de usuarios externos. El director puede autenticar las solicitudes antes de enviarlas a los servidores internos. En caso de un ataque por denegación de servicio, el ataque termina en el director y no alcanza los servidores front-end. Para obtener más información, consulte [escenarios del Director en Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) en la documentación referente a la planeación.
 
@@ -185,7 +187,7 @@ Para obtener más información, consulte [Planning for persistent chat Server in
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Componente de servidor de mediación en Lync Server 2013](lync-server-2013-mediation-server-component.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59aafcda7cbe94401cdbd77479eecf38e3e9e351
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 29bd5bff0b215060b1d352d5cc5798b114140c15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200615"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509787"
 ---
+# <a name="set-up-system-platforms-in-lync-server-2013"></a>Configurar plataformas del sistema en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-system-platforms-in-lync-server-2013"></a>Configurar plataformas del sistema en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ También puede implementar un servidor de chat persistente con Lync Server 2013 
 
 
 > [!IMPORTANT]  
-> No se admite el servidor&nbsp;de chat persistente Standard Edition para alta disponibilidad. El rendimiento y la escala se limitarán. Además, solo se admiten las implementaciones&nbsp;de servidor de servidor de chat persistente de Standard Edition nuevas. No se admite una actualización de Lync Server 2010, servidor de chat en grupo a un servidor&nbsp;&nbsp;de chat persistente de Lync Server 2013 Standard Edition.
+> No se admite el servidor de chat persistente &nbsp; Standard Edition para alta disponibilidad. El rendimiento y la escala se limitarán. Además, solo se admiten las implementaciones de servidor de servidor de chat persistente de &nbsp; Standard Edition nuevas. No se admite una actualización de Lync Server 2010, servidor de chat en grupo a un servidor de chat persistente de Lync Server 2013 &nbsp; &nbsp; Standard Edition.
 
 
 
@@ -63,7 +65,7 @@ También puede implementar un servidor de chat persistente con Lync Server 2013 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Compatibilidad de servidor adicional y requisitos en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  

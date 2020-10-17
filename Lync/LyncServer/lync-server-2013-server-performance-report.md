@@ -12,20 +12,22 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff400c0384d6b9e6b51da09666629d1bb6b725ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8e348882ffa07d1784e62a458455a1ad32a5bbd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510297"
 ---
+# <a name="server-performance-report-in-lync-server-2013"></a>Informe de rendimiento del servidor en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-performance-report-in-lync-server-2013"></a>Informe de rendimiento del servidor en Lync Server 2013
+
 
 </div>
 
@@ -104,7 +106,7 @@ En la siguiente tabla se muestran los filtros que se pueden usar en el informe d
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
@@ -136,8 +138,8 @@ En la siguiente tabla se muestran los filtros que se pueden usar en el informe d
 <td><p>Indica el número de servidores (en función de su escaso porcentaje de llamadas) que se va a mostrar en cada categoría. Por ejemplo, si selecciona <strong>5</strong>, aparecerán los cinco servidores con peor rendimiento. Seleccione una de las opciones siguientes:</p>
 <ol>
 <li><p>Todos</p></li>
-<li><p>2,5</p></li>
-<li><p>10 </p></li>
+<li><p>5 </p></li>
+<li><p>10  </p></li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -146,7 +148,7 @@ En la siguiente tabla se muestran los filtros que se pueden usar en el informe d
 <ol>
 <li><p>Todos</p></li>
 <li><p>Interno</p></li>
-<li><p>External</p></li>
+<li><p>Externo</p></li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -196,7 +198,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Servidor</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>No</p></td>
 <td><p>Nombre/dirección IP del servidor.</p></td>
 </tr>
@@ -208,7 +210,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
 <tr class="odd">
 <td><p><strong>Porcentaje de llamadas deficientes</strong></p></td>
 <td><p>No</p></td>
-<td><p>Número total de llamadas clasificadas como deficientes. Una llamada deficiente es aquella durante la cual uno de los valores medidos, como mínimo, supera el valor permitido (por ejemplo, una llamada con exceso de vibraciones).</p></td>
+<td><p>Número total de llamadas clasificadas como deficientes. Una llamada deficiente es aquella durante la que al menos uno de los valores medidos supera el valor permitido, por ejemplo, una llamada con un exceso de vibraciones.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Recorrido de ida y vuelta (ms)</strong></p></td>
@@ -230,7 +232,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
 <tr class="odd">
 <td><p><strong>Vibración (ms)</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
+<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de la &quot; irregularidad &quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tasa de recuperación de muestras ocultas</strong></p></td>
@@ -408,7 +410,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
 <tr class="odd">
 <td><p><strong>Vibración (ms)</strong></p></td>
 <td><p>No</p></td>
-<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
+<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de la &quot; irregularidad &quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unidireccional relativo medio</strong></p></td>

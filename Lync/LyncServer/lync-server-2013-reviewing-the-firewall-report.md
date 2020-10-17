@@ -12,20 +12,22 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd9bd46b58b25999932127482b01c91a6b36461f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c8975f63f0596f9f3c0bb149c565879524f5df5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511287"
 ---
+# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a>Revisión del informe de firewall en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a>Revisión del informe de firewall en Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Desde el punto de vista de la administración del firewall, el informe debe revi
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Revisión de los informes del administrador en Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  

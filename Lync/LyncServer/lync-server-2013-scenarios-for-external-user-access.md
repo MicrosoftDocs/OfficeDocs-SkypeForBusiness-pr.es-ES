@@ -12,20 +12,22 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9a2f60b2273cf8d43833226ede66a2a90478a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8404a48ae4a8fce5f0d0a85fd5aa36824152c9d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182718"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510857"
 ---
+# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Escenarios para el acceso de usuarios externos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Escenarios para el acceso de usuarios externos en Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Para permitir el acceso de usuarios externos para Lync Server 2013, es necesario
 
 Si necesita una capacidad mayor a la que un solo servidor perimetral puede proporcionar, o si necesita una alta disponibilidad para la implementación del servidor perimetral, puede configurar el equilibrio de carga e implementar varios servidores perimetrales en un grupo de carga equilibrada. Si su organización tiene varios centros de datos, puede tener implementaciones del servidor perimetral o del grupo de servidores perimetrales en más de una ubicación. Sin embargo, solo una de las implementaciones del servidor perimetral se puede designar como la ruta de Federación.
 
-En esta sección se definen los escenarios para las implementaciones del servidor perimetral y se asignan las secciones de planeación a los escenarios posibles. Por ejemplo, si su implementación requiere alta disponibilidad, Federación con contactos extensibles de mensajería y presencia (XMPP) y movilidad de Lync, debe seleccionar las entradas coincidentes que se indican en la siguiente tabla para cumplir con estos requisitos y usar el secciones de planeación a las que se hace referencia para definir la implementación, como se muestra en el siguiente diagrama de flujo.
+En esta sección se definen los escenarios para las implementaciones del servidor perimetral y se asignan las secciones de planeación a los escenarios posibles. Por ejemplo, si la implementación requiere alta disponibilidad, Federación con contactos extensibles de mensajería y presencia (XMPP) y movilidad de Lync, debe seleccionar las entradas coincidentes de la siguiente tabla que satisfarían estos requisitos y usar las secciones de planeación a las que se hace referencia para definir la implementación, como se muestra en el siguiente diagrama de flujo.
 
 **Proceso de selección del escenario de implementación del servidor perimetral**
 
@@ -53,7 +55,7 @@ Mediante este proceso, puede planear y documentar la configuración de todas las
 
 
 > [!TIP]  
-> Si tiene previsto instalar los servidores perimetrales y el proxy inverso y, a continuación, agregar características más adelante (por ejemplo, Federación y movilidad), determine qué certificados necesitará para todos los servicios después de la implementación. La planeación y adquisición de los certificados para todas las características de antemano, implementadas inicialmente o no, le evita tener que pedir nuevos certificados para satisfacer los requisitos de la Federación (es decir, en los servidores perimetrales) o el proxy inverso (es decir, para la movilidad servicios).
+> Si tiene previsto instalar los servidores perimetrales y el proxy inverso y, a continuación, agregar características más adelante (por ejemplo, Federación y movilidad), determine qué certificados necesitará para todos los servicios después de la implementación. La planeación y adquisición de los certificados para todas las características de antemano, implementadas inicialmente o no, le evita tener que pedir nuevos certificados para satisfacer los requisitos de la Federación (es decir, en los servidores perimetrales) o el proxy inverso (es decir, para los servicios de movilidad).
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddcfc08ff983ec080bd2382394bfc4b8c3bae3a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200816"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510277"
 ---
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Plataformas de hardware de servidor para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Plataformas de hardware de servidor para Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Para obtener el mejor rendimiento, se recomienda ejecutar Lync Server en servido
 <td><ul>
 <li><p>8 o más unidades de disco duro (HHD) de 10.000 RPM con al menos 72 GB de espacio libre en disco.</p>
 <p>Dos de los discos deben usar RAID 1 y seis deben usar RAID 10.</p>
-<p>-O</p></li>
+<p>- O</p></li>
 <li><p>Unidades de estado sólido (SSD) con rendimiento igual al de 8 unidades de disco mecánicas de 10.000 rpm.</p></li>
 </ul></td>
 </tr>
@@ -124,7 +126,7 @@ Para obtener el mejor rendimiento, se recomienda ejecutar Lync Server en servido
 <td><p>CPU</p></td>
 <td><ul>
 <li><p>procesador dual de 64 bits, cuatro núcleos, 2,0 gigahercios (GHz) o superior.</p>
-<p>-O</p></li>
+<p>- O</p></li>
 <li><p>procesador de 4 vías de 64 bits, de doble núcleo, de 2,0 GHz o superior.</p></li>
 </ul>
 <p>Los roles de servidor de Lync Server no admiten los procesadores Intel Itanium.</p></td>
@@ -138,7 +140,7 @@ Para obtener el mejor rendimiento, se recomienda ejecutar Lync Server en servido
 <td><ul>
 <li><p>4 o más unidades de disco duro de 10.000 RPM con al menos 72 GB de espacio libre en disco.</p>
 <p>Los discos deben estar en una configuración RAID 1 2x.</p>
-<p>-O</p></li>
+<p>- O</p></li>
 <li><p>Unidades de estado sólido (SSD) con un rendimiento igual al de 4 unidades de disco duro mecánicas de 10.000 rpm.</p></li>
 </ul></td>
 </tr>

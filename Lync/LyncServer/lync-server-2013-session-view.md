@@ -12,20 +12,22 @@ ms:contentKeyID: 49733641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dd289ab5035e8030b161609b69e764995e7f7e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 30183ffde7380b5029ac458f102eaf81ecee914b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182333"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510097"
 ---
+# <a name="session-view-in-lync-server-2013"></a>Vista de sesión en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="session-view-in-lync-server-2013"></a>Vista de sesión en Lync Server 2013
+
 
 </div>
 
@@ -81,7 +83,7 @@ La vista de sesión almacena información sobre las sesiones que tienen registro
 </tr>
 <tr class="even">
 <td><p>MediaBypassWarningFlag</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Para Lync Server, solo se define un valor:</p>
 <p>0x0001: identificador de omisión desconocido del adaptador de red predeterminado</p></td>
 </tr>
@@ -167,7 +169,7 @@ La vista de sesión almacena información sobre las sesiones que tienen registro
 </tr>
 <tr class="odd">
 <td><p>CallPrioirty</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Prioridad de la llamada.</p></td>
 </tr>
 </tbody>

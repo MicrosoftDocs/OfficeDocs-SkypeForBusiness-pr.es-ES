@@ -12,20 +12,22 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50cfd257e387c48af8446adc43b25d4fd0818ea5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b73a6460b6045d5f1f2e35afcf91af0ebdd9e2b9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201326"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511387"
 ---
+# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>Devolver información de configuración del servidor perimetral A/V en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>Devolver información de configuración del servidor perimetral A/V en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-11-01_
 
 El servicio perimetral A/V constituye un modo de que los usuarios internos (aquellos que han iniciado sesión en la red de la organización) puedan compartir audio y vídeo con los usuarios externos (aquellos que no han iniciado sesión en la red de la organización). El servicio perimetral A/V se administra principalmente a mediante la configuración de servidor perimetral A/V, que se puede definir en el ámbito de sitio o en el ámbito de servicio (esto es, se puede configurar para un solo servidor perimetral A/V).
 
-Para devolver información acerca de las opciones de configuración del servidor perimetral A/V en uso en su organización, debe usar Windows PowerShell y el cmdlet Get-CsAVEdgeConfiguration. Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
+Para devolver información acerca de las opciones de configuración perimetral A/V que se usan en la organización, debe usar Windows PowerShell y el cmdlet Get-CsAVEdgeConfiguration. Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
 
 La información devuelta desde el cmdlet Get-CsAVEdgeConfiguration tendrá un aspecto similar a este:
 
@@ -80,7 +82,7 @@ La información devuelta desde el cmdlet Get-CsAVEdgeConfiguration tendrá un as
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear o modificar una colección de opciones de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebd127948ec612be61254d97101c0dcd193eeeee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fd8c20adfa98a10bd0b9a89ad31dda37e4510e8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182903"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511167"
 ---
+# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Ejecutar pruebas de enrutamiento de voz informal en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Ejecutar pruebas de enrutamiento de voz informal en Lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ Puede usar el cuadro de diálogo **Crear información de caso de prueba de enrut
     
     1.  En el campo **Nombre** del cuadro de diálogo **Guardar información de caso de prueba de enrutamiento de voz**, escriba un nombre único para el caso de prueba.
         
-        El nombre debe ser único entre todos los casos de prueba de enrutamiento de voz en la implementación de telefonía IP empresarial. Puede tener hasta 32 caracteres de longitud y puede contener caracteres alfanuméricos, además de la barra diagonal inversa (\\), el punto (.) o el carácter de subrayado (\_).
+        El nombre debe ser único entre todos los casos de prueba de enrutamiento de voz en la implementación de telefonía IP empresarial. Puede tener hasta 32 caracteres de longitud y puede contener caracteres alfanuméricos, además de la barra diagonal inversa ( \\ ), el punto (.) o el carácter de subrayado ( \_ ).
     
     2.  No olvide que los demás campos del cuadro de diálogo **Guardar información de caso de prueba de enrutamiento de voz** son de solo lectura, y se rellenan automáticamente con la configuración de la prueba informal *y* sus resultados. Compruebe que es la configuración que desea guardar para el caso de prueba.
         
@@ -111,7 +113,7 @@ Puede usar el cuadro de diálogo **Crear información de caso de prueba de enrut
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear un caso de prueba de enrutamiento de voz en Lync Server 2013](lync-server-2013-create-a-voice-routing-test-case.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d70b090f59c0a0f8510d778ef659def77cfd0747
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1c3733eee90fb1ea0bb3e0a67be88243dee56aa7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182693"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510787"
 ---
+# <a name="schema-changes-in-lync-server-2013"></a>Cambios de esquema en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-changes-in-lync-server-2013"></a>Cambios de esquema en Lync Server 2013
+
 
 </div>
 
@@ -79,7 +81,7 @@ En la tabla siguiente se describen los atributos de Active Directory que se agre
 <thead>
 <tr class="header">
 <th>Atributo</th>
-<th>Descripción</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -125,15 +127,15 @@ En la tabla siguiente se describen las clases de Active Directory que se modific
 <tbody>
 <tr class="odd">
 <td><p>Usuario</p></td>
-<td><p>add: mayContain</p>
-<p>add: mayContain</p></td>
+<td><p>agregar: mayContain</p>
+<p>agregar: mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="even">
 <td><p>Contacto</p></td>
-<td><p>add: mayContain</p>
-<p>add: mayContain</p></td>
+<td><p>agregar: mayContain</p>
+<p>agregar: mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>

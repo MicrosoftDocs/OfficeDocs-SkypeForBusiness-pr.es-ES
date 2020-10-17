@@ -12,20 +12,22 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772646b8122e228aa43818aa5fe7fe2fb6689366
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201367"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511397"
 ---
+# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Restauración del servidor que hospeda el almacén de administración central en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Restauración del servidor que hospeda el almacén de administración central en Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Una implementación de Lync Server tiene un solo almacén de administración cen
 
 Para encontrar el grupo de servidores en el que se encuentra el servidor de administración central, abra el generador de topologías, haga clic en **Lync Server**y mire en el panel derecho del **servidor de administración central**.
 
-Si el servidor back-end que hospeda el almacén de administración central está en una instalación reflejada y la base de datos reflejada sigue funcionando, le recomendamos que realice una copia de seguridad de este reflejo que sigue funcionando y, a continuación, realice una restauración completa en la base de datos principal y en la base de datos reflejada, con esta copia de seguridad, siguiendo el procedimiento de restauración que se muestra a continuación. Esto es necesario porque la restauración de back-end requiere modificar y publicar la topología, y esto solo puede realizarse si el CMS de hospedaje de la base de datos principal está operativo. Además, tenga en cuenta que las funciones de base de datos principal y reflejada no se pueden intercambiar si no se puede publicar la topología.
+Si el servidor back-end que hospeda el almacén de administración central está en una instalación reflejada y la base de datos reflejada sigue funcionando, le recomendamos que realice una copia de seguridad de este reflejo que sigue funcionando y, a continuación, realice una restauración completa en la base de datos principal y en la base de datos reflejada, mediante el siguiente procedimiento de restauración. Esto es necesario porque la restauración de back-end requiere modificar y publicar la topología, y esto solo puede realizarse si el CMS de hospedaje de la base de datos principal está operativo. Además, tenga en cuenta que las funciones de base de datos principal y reflejada no se pueden intercambiar si no se puede publicar la topología.
 
 <div>
 
@@ -91,9 +93,9 @@ Si el servidor back-end que hospeda el almacén de administración central está
     
     </div>
 
-4.  Realice una de las acciones siguientes:
+4.  Realice una de las siguientes acciones:
     
-      - Si va a instalar un servidor Standard Edition, vaya a la carpeta o los medios de instalación de Lync Server y, a continuación, inicie el asistente \\para\\la\\implementación de Lync Server que se encuentra en Setup AMD64 Setup. exe. En el Asistente para la implementación, haga clic en **preparar el primer servidor Standard Edition** y siga el Asistente para instalar el almacén de administración central.
+      - Si va a instalar un servidor Standard Edition, vaya a la carpeta o los medios de instalación de Lync Server y, a continuación, inicie el Asistente para la implementación de Lync Server que se encuentra en la \\ instalación de \\ AMD64 \\Setup.exe. En el Asistente para la implementación, haga clic en **preparar el primer servidor Standard Edition** y siga el Asistente para instalar el almacén de administración central.
     
       - Si va a instalar un servidor back-end empresarial, instale SQL Server 2012 o SQL Server 2008 R2, manteniendo los nombres de instancia iguales que antes del error.
         
@@ -190,7 +192,7 @@ Si el servidor back-end que hospeda el almacén de administración central está
     
     </div>
 
-11. Si va a restaurar un servidor Standard Edition, vaya a la carpeta o los medios de instalación de Lync Server e inicie el Asistente para la implementación de \\Lync\\Server\\que se encuentra en Setup AMD64 Setup. exe. Use el Asistente para la implementación de Lync Server para hacer lo siguiente:
+11. Si va a restaurar un servidor Standard Edition, vaya a la carpeta o los medios de instalación de Lync Server e inicie el Asistente para la implementación de Lync Server que se encuentra en la \\ instalación de \\ AMD64 \\Setup.exe. Use el Asistente para la implementación de Lync Server para hacer lo siguiente:
     
     1.  Ejecute el **Paso 1: Instalar el almacén de configuración local** para instalar los archivos de configuración local.
     
@@ -204,7 +206,7 @@ Si el servidor back-end que hospeda el almacén de administración central está
 
 12. Para restaurar los datos del usuario, siga el siguiente procedimiento:
     
-    1.  Copie ExportedUserData. zip de $Backup\\ a un directorio local.
+    1.  Copie ExportedUserData.zip de $Backup \\ a un directorio local.
     
     2.  Antes de restaurar los datos de usuario, debe detener los servicios de Lync. Para ello, escriba:
         

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182673"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510877"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Atributos y descripciones de esquema en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Atributos y descripciones de esquema en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Algunos atributos tienen un valor de máscara de bits. Para estos atributos, cad
 <thead>
 <tr class="header">
 <th>Atributo</th>
-<th>Descripción</th>
+<th>Description</th>
 <th>Comentarios</th>
 </tr>
 </thead>
@@ -385,7 +387,7 @@ Algunos atributos tienen un valor de máscara de bits. Para estos atributos, cad
 <tr class="odd">
 <td><p>msRTCSIP-FederationEnabled</p></td>
 <td><p>Este atributo controla si un usuario está habilitado para la federación. Lo aplica la capa de los Enterprise Services. Se marca para la replicación del catálogo global.</p>
-<p>Los valores válidos son <strong>true</strong> o <strong>false</strong>.</p></td>
+<p>Los valores válidos son <strong>TRUE</strong> o <strong>FALSE</strong>.</p></td>
 <td><p>Nuevo en Live Communications Server 2005.</p></td>
 </tr>
 <tr class="even">
@@ -546,7 +548,7 @@ Algunos atributos tienen un valor de máscara de bits. Para estos atributos, cad
 <td><p>msRTCSIP-MCUFactoryData</p></td>
 <td><p>Este es un atributo reservado de varias cadenas. La configuración almacenada en este atributo se representa como pares nombre=valor. Los pares nombre=valor actualmente definidos son:</p>
 <ul>
-<li><p>FactoryURL = &lt;URL&gt;</p></li>
+<li><p>FactoryURL = &lt; URL&gt;</p></li>
 </ul></td>
 <td><p>Nuevo en Office Communications Server 2007.</p></td>
 </tr>
@@ -1082,7 +1084,7 @@ Algunos atributos tienen un valor de máscara de bits. Para estos atributos, cad
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-UserExtension</p></td>
-<td><p>Este atributo de varios valores contiene una lista de pares nombre-valor en el formato de &quot;name = value. &quot; Este atributo se marca para la replicación del catálogo global.</p></td>
+<td><p>Este atributo de varios valores contiene una lista de pares nombre-valor en el formato de &quot; name = value. &quot; Este atributo se marca para la replicación del catálogo global.</p></td>
 <td><p>Nuevo en Live Communications Server 2005 con SP1.</p></td>
 </tr>
 <tr class="odd">
@@ -1148,7 +1150,7 @@ Algunos atributos tienen un valor de máscara de bits. Para estos atributos, cad
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>Este atributo de varios valores existente de Active Directory forma parte del esquema base de Active Directory introducido en Windows 2000. Este atributo contiene las diferentes direcciones X400, X500 y SMTP del correo electrónico del usuario. En Live Communications Server 2003 y versiones posteriores, el URI del SIP del usuario se agrega a esta lista mediante &quot;la etiqueta&quot; SIP:.</p>
+<td><p>Este atributo de varios valores existente de Active Directory forma parte del esquema base de Active Directory introducido en Windows 2000. Este atributo contiene las diferentes direcciones X400, X500 y SMTP del correo electrónico del usuario. En Live Communications Server 2003 y versiones posteriores, el URI del SIP del usuario se agrega a esta lista mediante la &quot; etiqueta SIP: &quot; .</p>
 <p>Las siguientes aplicaciones buscan el URI del SIP del usuario en este atributo:</p>
 <ul>
 <li><p>Cliente de mensajería y colaboración de Microsoft Office Outlook 2003</p></li>
