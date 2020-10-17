@@ -12,20 +12,22 @@ ms:contentKeyID: 48184130
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7845f919f04985e67d6825b8722904a9158606b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33a9039c65d059042d9eb93c9d5437a00ebff266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216956"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512567"
 ---
+# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a><span data-ttu-id="8c11a-102">Nuevas características de recuperación ante desastres y alta disponibilidad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c11a-102">New disaster recovery and high availability features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a><span data-ttu-id="3e46e-102">Nuevas características de recuperación ante desastres y alta disponibilidad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e46e-102">New disaster recovery and high availability features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,20 +37,20 @@ ms.locfileid: "42216956"
 
 <span> </span>
 
-<span data-ttu-id="3e46e-103">_**Última modificación del tema:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="3e46e-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="8c11a-103">_**Última modificación del tema:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="8c11a-103">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="3e46e-104">Como en Lync Server 2010, el esquema principal de alta disponibilidad (HA) para Lync Server 2013 se basa en la redundancia de servidores a través de la agrupación.</span><span class="sxs-lookup"><span data-stu-id="3e46e-104">As in Lync Server 2010, the main high availability (HA) scheme for Lync Server 2013 is based on server redundancy via pooling.</span></span> <span data-ttu-id="3e46e-105">Si se produce un error en un servidor que ejecuta un rol de servidor determinado, los demás servidores del grupo que ejecutan el mismo rol asumen la carga de dicho servidor.</span><span class="sxs-lookup"><span data-stu-id="3e46e-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="3e46e-106">Esto se aplica a los servidores front-end, los servidores perimetrales, los servidores de mediación y los directores.</span><span class="sxs-lookup"><span data-stu-id="3e46e-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span>
+<span data-ttu-id="8c11a-104">Como en Lync Server 2010, el esquema principal de alta disponibilidad (HA) para Lync Server 2013 se basa en la redundancia de servidores a través de la agrupación.</span><span class="sxs-lookup"><span data-stu-id="8c11a-104">As in Lync Server 2010, the main high availability (HA) scheme for Lync Server 2013 is based on server redundancy via pooling.</span></span> <span data-ttu-id="8c11a-105">Si se produce un error en un servidor que ejecuta un rol de servidor determinado, los demás servidores del grupo que ejecutan el mismo rol asumen la carga de dicho servidor.</span><span class="sxs-lookup"><span data-stu-id="8c11a-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="8c11a-106">Esto se aplica a los servidores front-end, los servidores perimetrales, los servidores de mediación y los directores.</span><span class="sxs-lookup"><span data-stu-id="8c11a-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span>
 
-<span data-ttu-id="3e46e-107">Lync Server 2013 agrega nuevas medidas de recuperación ante desastres al permitirle emparejar grupos de servidores front-end ubicados en dos centros de recursos.</span><span class="sxs-lookup"><span data-stu-id="3e46e-107">Lync Server 2013 adds new disaster recovery measures by enabling you to pair Front End pools located in two datacenters.</span></span> <span data-ttu-id="3e46e-108">Si uno de los grupos emparejadas se desactiva, un administrador puede conmutar por error los usuarios de un grupo a otro grupo de la pareja, para proporcionar continuidad del servicio.</span><span class="sxs-lookup"><span data-stu-id="3e46e-108">If one of the paired pools goes down, an administrator can fail over the users from that pool to the other pool in the pair, to provide continuation of service.</span></span> <span data-ttu-id="3e46e-109">Estas funciones no necesitan una red o soluciones de hardware caras como redes de almacenamiento o discos compartidos.</span><span class="sxs-lookup"><span data-stu-id="3e46e-109">This functionality does not require expensive network or hardware solutions such as storage networks or shared disks.</span></span>
+<span data-ttu-id="8c11a-107">Lync Server 2013 agrega nuevas medidas de recuperación ante desastres al permitirle emparejar grupos de servidores front-end ubicados en dos centros de recursos.</span><span class="sxs-lookup"><span data-stu-id="8c11a-107">Lync Server 2013 adds new disaster recovery measures by enabling you to pair Front End pools located in two datacenters.</span></span> <span data-ttu-id="8c11a-108">Si uno de los grupos emparejadas se desactiva, un administrador puede conmutar por error los usuarios de un grupo a otro grupo de la pareja, para proporcionar continuidad del servicio.</span><span class="sxs-lookup"><span data-stu-id="8c11a-108">If one of the paired pools goes down, an administrator can fail over the users from that pool to the other pool in the pair, to provide continuation of service.</span></span> <span data-ttu-id="8c11a-109">Estas funciones no necesitan una red o soluciones de hardware caras como redes de almacenamiento o discos compartidos.</span><span class="sxs-lookup"><span data-stu-id="8c11a-109">This functionality does not require expensive network or hardware solutions such as storage networks or shared disks.</span></span>
 
-<span data-ttu-id="3e46e-110">Lync Server 2013 también agrega alta disponibilidad del servidor back-end.</span><span class="sxs-lookup"><span data-stu-id="3e46e-110">Lync Server 2013 also adds Back End Server high availability.</span></span> <span data-ttu-id="3e46e-111">Se trata de una topología opcional en la que se implementan dos servidores back-end para un grupo de servidores front-end y se configuran los reflejos de SQL sincrónicos para todas las bases de datos de Lync que se ejecutan en los servidores back-end.</span><span class="sxs-lookup"><span data-stu-id="3e46e-111">This is an optional topology in which you deploy two Back End Servers for a Front End pool, and set up synchronous SQL mirroring for all the Lync databases running on the Back End Servers.</span></span> <span data-ttu-id="3e46e-112">Puede elegir si desea implementar un testigo para el reflejo.</span><span class="sxs-lookup"><span data-stu-id="3e46e-112">You may choose whether to deploy a witness for the mirror.</span></span>
+<span data-ttu-id="8c11a-110">Lync Server 2013 también agrega alta disponibilidad del servidor back-end.</span><span class="sxs-lookup"><span data-stu-id="8c11a-110">Lync Server 2013 also adds Back End Server high availability.</span></span> <span data-ttu-id="8c11a-111">Se trata de una topología opcional en la que se implementan dos servidores back-end para un grupo de servidores front-end y se configuran los reflejos de SQL sincrónicos para todas las bases de datos de Lync que se ejecutan en los servidores back-end.</span><span class="sxs-lookup"><span data-stu-id="8c11a-111">This is an optional topology in which you deploy two Back End Servers for a Front End pool, and set up synchronous SQL mirroring for all the Lync databases running on the Back End Servers.</span></span> <span data-ttu-id="8c11a-112">Puede elegir si desea implementar un testigo para el reflejo.</span><span class="sxs-lookup"><span data-stu-id="8c11a-112">You may choose whether to deploy a witness for the mirror.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3e46e-113">Consulta también</span><span class="sxs-lookup"><span data-stu-id="3e46e-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8c11a-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="8c11a-113">See Also</span></span>
 
 
-[<span data-ttu-id="3e46e-114">Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e46e-114">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[<span data-ttu-id="8c11a-114">Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c11a-114">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
   
 
 </div>
