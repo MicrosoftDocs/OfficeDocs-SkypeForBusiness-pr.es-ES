@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de anuncios'
+description: 'Lync Server 2013: configurar anuncios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21eed897d0f85e7d7041f5e86db2fe41e7c30bdd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 819653e63fe6279f7b477259de7af034082bdcf0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546666"
 ---
-# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="1f463-102">Configurar anuncios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f463-102">Configure announcements in Lync Server 2013</span></span>
+# <a name="configure-announcements-in-lync-server-2013"></a><span data-ttu-id="a9997-103">Configurar anuncios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9997-103">Configure announcements in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48522977"
 
 <span> </span>
 
-<span data-ttu-id="1f463-103">_**Última modificación del tema:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="1f463-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="a9997-104">_**Última modificación del tema:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="a9997-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="1f463-p101">Cuando configura anuncios, en realidad está configurando la forma en que desea administrar las llamadas a números no asignados. Reproduzca un mensaje, que puede tratarse de un archivo de audio o de un archivo de texto a voz (TTS), o bien transferir la llamada a un destino determinado sin reproducir ningún mensaje.</span><span class="sxs-lookup"><span data-stu-id="1f463-p101">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled. You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
+<span data-ttu-id="a9997-p101">Cuando configura anuncios, en realidad está configurando la forma en que desea administrar las llamadas a números no asignados. Reproduzca un mensaje, que puede tratarse de un archivo de audio o de un archivo de texto a voz (TTS), o bien transferir la llamada a un destino determinado sin reproducir ningún mensaje.</span><span class="sxs-lookup"><span data-stu-id="a9997-p101">When you configure announcements, you are really configuring how you want calls to unassigned numbers to be handled. You can play a prompt, which can be an audio file or a text-to-speech (TTS) file, or you can just transfer the call to a specified destination without playing a prompt.</span></span>
 
-<span data-ttu-id="1f463-p102">Cree los anuncios antes de definir la tabla de números sin asignar. Ejecute este paso para todos los anuncios que usan un mensaje de audio, un mensaje TTS o no tienen mensaje.</span><span class="sxs-lookup"><span data-stu-id="1f463-p102">You need to create announcements before you define the unassigned number table. You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
+<span data-ttu-id="a9997-p102">Cree los anuncios antes de definir la tabla de números sin asignar. Ejecute este paso para todos los anuncios que usan un mensaje de audio, un mensaje TTS o no tienen mensaje.</span><span class="sxs-lookup"><span data-stu-id="a9997-p102">You need to create announcements before you define the unassigned number table. You need to perform this step for all announcements that use an audio prompt, a TTS prompt, or no prompt.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1f463-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="1f463-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a9997-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="a9997-109">In This Section</span></span>
 
-  - [<span data-ttu-id="1f463-109">Crear un anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f463-109">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
+  - [<span data-ttu-id="a9997-110">Crear un anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9997-110">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
 
-  - [<span data-ttu-id="1f463-110">Eliminar un anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f463-110">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
+  - [<span data-ttu-id="a9997-111">Eliminar un anuncio en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9997-111">Delete an announcement in Lync Server 2013</span></span>](lync-server-2013-delete-an-announcement.md)
 
 </div>
 
