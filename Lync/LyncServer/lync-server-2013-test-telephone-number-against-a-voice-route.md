@@ -12,20 +12,22 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5476d47d0aac550d048e35e617d6d342084ccd75
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e2db63b7f8c4d801c7e2e89da93593a5745c9c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519127"
 ---
+# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Probar el número de teléfono con una ruta de voz en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a>Probar el número de teléfono con una ruta de voz en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-05-20_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsVoiceRoute. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsVoiceRoute. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceRoute&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -76,7 +78,7 @@ La ruta no podría controlar ninguno de los dos números siguientes, ninguno de 
 
   - 12065551219
 
-El cmdlet test-CsVoiceRoute comprueba si una ruta de voz determinada puede enrutar un número de teléfono especificado.
+El cmdlet Test-CsVoiceRoute comprueba si una ruta de voz determinada puede enrutar un número de teléfono especificado.
 
 </div>
 
@@ -84,7 +86,7 @@ El cmdlet test-CsVoiceRoute comprueba si una ruta de voz determinada puede enrut
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-Comprobar que la capacidad de una ruta de voz para enrutar un número de teléfono especificado es un proceso de dos pasos. Primero tiene que usar el cmdlet Get-CsVoiceRoute para devolver una instancia de esa ruta de voz y, a continuación, tiene que usar el cmdlet test-CsVoiceRoute para comprobar la capacidad de esa ruta para controlar el número de teléfono de destino. Por ejemplo, este comando comprueba si la ruta de voz RedmondVoiceRoute puede enrutar el número de teléfono 2065551219:
+Comprobar que la capacidad de una ruta de voz para enrutar un número de teléfono especificado es un proceso de dos pasos. Primero tiene que usar el cmdlet Get-CsVoiceRoute para devolver una instancia de esa ruta de voz y, a continuación, debe usar el cmdlet Test-CsVoiceRoute para comprobar la capacidad de esa ruta para controlar el número de teléfono de destino. Por ejemplo, este comando comprueba si la ruta de voz RedmondVoiceRoute puede enrutar el número de teléfono 2065551219:
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
@@ -98,7 +100,7 @@ Para usar un único comando para probar todas las rutas de voz con un número de
 
 `Get-CsVoiceRoute | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
-Para obtener más información, consulte la documentación de ayuda del cmdlet test-CsVoiceRoute.
+Para obtener más información, consulte la documentación de ayuda del cmdlet Test-CsVoiceRoute.
 
 </div>
 
@@ -106,15 +108,15 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet t
 
 ## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si la ruta de voz puede enrutar el número de teléfono de destino, el cmdlet test-CsVoiceRoute solo devuelve el valor true:
+Si la ruta de voz puede enrutar el número de teléfono de destino, el cmdlet Test-CsVoiceRoute solo devuelve el valor true:
 
 MatchesPattern
 
 \--------------
 
-True
+Verdadero
 
-Esto significa que Route puede controlar números similares al número de destino. Si la ruta de voz no puede controlar el número de destino, test-CsVoiceRoute devuelve el valor false:
+Esto significa que Route puede controlar números similares al número de destino. Si la ruta de voz no puede controlar el número de destino, Test-CsVoiceRoute devuelve el valor false:
 
 MatchesPattern
 
@@ -128,7 +130,7 @@ False
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Al probar rutas de voz, "error" es un término relativo. En este caso, no significa que la ruta se "rompe" de algún modo, sino simplemente que la ruta no puede controlar el número de destino. Esto puede deberse a que la ruta de voz no se ha configurado correctamente. También podría significar que la ruta nunca se diseñó para controlar números con este patrón. Por ejemplo, si no desea enrutar las llamadas a otros países a través de una ruta determinada, es posible que la ruta esté configurada para rechazar todos los números de teléfono que incluyan un código de país. Si test-CsVoiceRoute devuelve false cuando esperaba que devolverse true, compruebe que escribió el número de destino correctamente. Si lo hizo, use un comando similar al siguiente para ver la NumberPattern configurada para la ruta:
+Al probar rutas de voz, "error" es un término relativo. En este caso, no significa que la ruta se "rompe" de algún modo, sino simplemente que la ruta no puede controlar el número de destino. Esto puede deberse a que la ruta de voz no se ha configurado correctamente. También podría significar que la ruta nunca se diseñó para controlar números con este patrón. Por ejemplo, si no desea enrutar las llamadas a otros países a través de una ruta determinada, es posible que la ruta esté configurada para rechazar todos los números de teléfono que incluyan un código de país. Si Test-CsVoiceRoute devuelve false cuando esperaba que devolvera el valor true, compruebe que escribió el número de destino correctamente. Si lo hizo, use un comando similar al siguiente para ver la NumberPattern configurada para la ruta:
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Select-Object NumberPattern`
 
@@ -136,7 +138,7 @@ Al probar rutas de voz, "error" es un término relativo. En este caso, no signif
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Test-CsVoiceRoute](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceRoute)  

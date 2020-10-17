@@ -12,20 +12,22 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8ea4abd3608863dea1bf914f5d89cc0ad43fae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6103c6cd8ae762402a94412a56eda107f43a58fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210982"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518207"
 ---
+# <a name="whats-new-for-clients-in-lync-server-2013"></a>Novedades para clientes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-clients-in-lync-server-2013"></a>Novedades para clientes en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft Lync 2013 tiene una interfaz de usuario rediseñada y nuevas caracter�
 
 
 > [!NOTE]  
-> Para obtener una vista ilustrada de las actualizaciones de la interfaz de usuario de Lync 2013, consulte "What's <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A>New in Lync 2013" en.
+> Para obtener una vista ilustrada de las actualizaciones de la interfaz de usuario de Lync 2013, consulte "What's New in Lync 2013" en <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A> .
 
 
 
@@ -57,11 +59,11 @@ El cliente de Lync 2013 y el complemento de reunión en línea para Lync 2013 (q
 
 En versiones anteriores de Lync y Office Communicator, podía usar las propiedades de Windows Installer para personalizar y controlar la instalación de Office. Como Lync 2013 está integrado con el programa de instalación de Office, puede usar los siguientes métodos para personalizar la instalación de Lync 2013:
 
-  - Usar la herramienta de personalización de Office (OCT)
+  - Usar la Herramienta de personalización de Office (OCT)
 
-  - Uso de config. XML para realizar tareas de instalación
+  - Usar el Config.xml para realizar tareas de instalación
 
-  - Usar las opciones de la línea de comandos del programa de instalación
+  - Uso de opciones de Command-Line de configuración
 
 <div>
 
@@ -81,7 +83,7 @@ Para obtener más información, consulte [Deploying Lync clients in Lync Server 
 
 ## <a name="group-policy-deployment"></a>Implementación de la Directiva de grupo
 
-Como Lync 2013 ahora se incluye en el programa de instalación de Office, el método para implementar la configuración de la Directiva de grupo de Lync ha cambiado. En versiones anteriores de Lync y Office Communicator, podía usar Communicator. ADM para definir la configuración de la Directiva de grupo, mientras que en Lync 2013 ahora puede usar las plantillas administrativas de ADMX y ADML de Lync que se proporcionan junto con la Directiva de grupo de Office. Plantillas administrativas.
+Como Lync 2013 ahora se incluye en el programa de instalación de Office, el método para implementar la configuración de la Directiva de grupo de Lync ha cambiado. En versiones anteriores de Lync y Office Communicator, podía usar Communicator. ADM para definir la configuración de la Directiva de grupo, mientras que en Lync 2013 ahora puede usar las plantillas administrativas de ADMX y ADML de Lync que se proporcionan junto con las plantillas administrativas de directiva de grupo de Office.
 
 Para obtener más información, consulte [configuración de directiva de grupo para Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md).
 
@@ -287,7 +289,7 @@ Lync 2013 ofrece varias mejoras a las características de conferencia.
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de clientes en Lync Server 2013](lync-server-2013-planning-for-clients.md)  

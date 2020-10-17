@@ -12,20 +12,22 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56a030329f9d69a3748b2b76179c7a783b13cb0f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 404ce93e841bbbefd62498a1dbb3da664eb927ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210996"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518257"
 ---
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Requisitos de conferencia web en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Requisitos de conferencia web en Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Puede usar los siguientes valores para administrar la forma en que se almacena e
 
   - **MaxContentStorageMb**, que se encuentra en [set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration), establece la cantidad máxima de espacio en archivo permitida para el almacenamiento de contenido durante una única reunión.
 
-**MaxUploadFileSizeMb** no limita la configuración de carga de archivos para Lync Web App. El límite de carga de tamaño de archivo para Lync Web App se establece en aproximadamente 30 MB y se controla mediante el archivo Web.\[config\]de IIS:/DataCollabWeb/int ext/handler/Web.config. Para configurar el límite de carga de tamaño de archivo para Lync Web `maxRequestLength` APP `maxAllowedContentLength` , actualice y en el archivo Web. config tal como se muestra a continuación.
+**MaxUploadFileSizeMb** no limita la configuración de carga de archivos para Lync Web App. El límite de carga de tamaño de archivo para Lync Web App se establece en aproximadamente 30 MB y se controla mediante el archivo web.config de IIS:/DataCollabWeb/Int \[ ext \] /handler/web.config. Para configurar el límite de carga de tamaño de archivo para Lync Web App, actualice `maxRequestLength` y `maxAllowedContentLength` en el archivo de web.config como se muestra a continuación.
 
     <system.web>
         <!-- 
@@ -105,7 +107,7 @@ Puede usar los siguientes valores para administrar la forma en que se almacena e
                     </requestFiltering>
                     </security>
 
-Debe actualizar el archivo Web. config para cada servidor front-end.
+Debe actualizar el archivo de web.config para cada servidor front-end.
 
 </div>
 
@@ -113,13 +115,13 @@ Debe actualizar el archivo Web. config para cada servidor front-end.
 
 ## <a name="office-web-apps-server"></a>Servidor Office Web Apps
 
-Para poder usar estas nuevas funciones, los administradores deben instalar Office Web Apps Server y deben configurar Lync Server 2013 para comunicarse con Office Web Apps Server. En esta documentación se proporciona información sobre cómo configurar Lync Server 2013 para que funcione con Office Web Apps Server. Lo que no proporciona esta documentación es información sobre cómo instalar Office Web Apps Server. Para obtener información sobre la instalación, consulte el sitio web de implementación <https://go.microsoft.com/fwlink/p/?linkid=257525>de Microsoft Office Web Apps en. Esta guía incluye la información de requisitos previos completos para Office Web Apps Server. Tenga en cuenta que Office Web Apps Server debe instalarse en un equipo independiente que no ejecute Lync Server, SQL Server o cualquier otra aplicación de servidor. (No debe tener ninguna versión de Office instalada en ese equipo). Cualquier equipo que se use para ejecutar Office Web Apps Server también debe tener instalado un conjunto específico de software (incluido .NET Framework 4,5 y Windows PowerShell 3,0). Estos requisitos, junto con información sobre la configuración de certificados y servicios de Internet Information Server (IIS), se describen en detalle en el sitio web de <https://go.microsoft.com/fwlink/p/?linkid=257525>implementación de Microsoft Office Web Apps en.
+Para poder usar estas nuevas funciones, los administradores deben instalar Office Web Apps Server y deben configurar Lync Server 2013 para comunicarse con Office Web Apps Server. En esta documentación se proporciona información sobre cómo configurar Lync Server 2013 para que funcione con Office Web Apps Server. Lo que no proporciona esta documentación es información sobre cómo instalar Office Web Apps Server. Para obtener información sobre la instalación, consulte el sitio web de implementación de Microsoft Office Web Apps en <https://go.microsoft.com/fwlink/p/?linkid=257525> . Esta guía incluye la información de requisitos previos completos para Office Web Apps Server. Tenga en cuenta que Office Web Apps Server debe instalarse en un equipo independiente que no ejecute Lync Server, SQL Server o cualquier otra aplicación de servidor. (No debe tener ninguna versión de Office instalada en ese equipo). Cualquier equipo que se use para ejecutar Office Web Apps Server también debe tener instalado un conjunto específico de software (incluido .NET Framework 4,5 y Windows PowerShell 3,0). Estos requisitos, junto con información sobre la configuración de certificados y servicios de Internet Information Server (IIS), se describen en detalle en el sitio web de implementación de Microsoft Office Web Apps en <https://go.microsoft.com/fwlink/p/?linkid=257525> .
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Información general sobre conferencias web en Lync Server 2013](lync-server-2013-web-conferencing-overview.md)  

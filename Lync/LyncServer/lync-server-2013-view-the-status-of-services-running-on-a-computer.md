@@ -12,20 +12,22 @@ ms:contentKeyID: 48185804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66a2b8846c0d285d245260dc9d9a477b9db23916
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 95c633079e45eba40bd59c7666c752c2ef68b498
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518397"
 ---
+# <a name="view-the-status-of-services-running-on-a-computer-in-lync-server-2013"></a>Ver el estado de los servicios que se ejecutan en un equipo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-the-status-of-services-running-on-a-computer-in-lync-server-2013"></a>Ver el estado de los servicios que se ejecutan en un equipo en Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ Puede usar el panel de control de Lync Server 2013 para ver todos los servicios 
 
 ## <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Visualización del estado del servicio mediante cmdlets de Windows PowerShell
 
-También puede ver el estado del servicio con Windows PowerShell y el cmdlet **Get-CsWindowsService** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+También puede ver el estado del servicio con Windows PowerShell y el cmdlet **Get-CsWindowsService** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -73,7 +75,7 @@ También puede ver el estado del servicio con Windows PowerShell y el cmdlet **G
     
         Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
     
-    Este comando devuelve información similar a la siguiente:
+    Este comando devolverá información similar a la siguiente:
     
         RoleName                                  Status
         --------                                  ------
@@ -93,7 +95,7 @@ Para obtener más información, consulte [Get-CsWindowsService](https://docs.mic
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Administración de dispositivos, teléfonos y aplicaciones cliente en Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  

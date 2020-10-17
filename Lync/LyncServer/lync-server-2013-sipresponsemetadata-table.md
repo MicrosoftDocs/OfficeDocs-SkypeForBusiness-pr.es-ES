@@ -12,20 +12,22 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0143bdd74b955f2cba5f68540be7c969f748aa47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2418851ed66500937dab92f2820c36a8d1afac3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519637"
 ---
+# <a name="sipresponsemetadata-table-in-lync-server-2013"></a>Tabla SIPResponseMetaData en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sipresponsemetadata-table-in-lync-server-2013"></a>Tabla SIPResponseMetaData en Lync Server 2013
+
 
 </div>
 
@@ -60,13 +62,13 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 <tbody>
 <tr class="odd">
 <td><p><strong>ResponseCode</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Valor numérico que representa el código de respuesta SIP.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Clase</strong></p></td>
-<td><p>int</p></td>
+<td><p><strong>Class</strong></p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Clasificación general para el código de respuesta. Las clasificaciones incluyen:</p>
 <ul>

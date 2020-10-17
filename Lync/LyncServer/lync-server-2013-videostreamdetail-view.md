@@ -12,20 +12,22 @@ ms:contentKeyID: 49733863
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9b6cc13721ff249d9f8bd8bc0c38260c4ca7f55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3d419800842fed080efe4005e7282a25c91f29df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211626"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518527"
 ---
+# <a name="videostreamdetail-view-in-lync-server-2013"></a>Vista VideoStreamDetail en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostreamdetail-view-in-lync-server-2013"></a>Vista VideoStreamDetail en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="even">
 <td><p>SessionSeq</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -71,7 +73,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="even">
 <td><p>StreamId</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Identificador único de una línea de medios.</p></td>
 </tr>
 <tr class="odd">
@@ -86,7 +88,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="odd">
 <td><p>CallPriority</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Prioridad de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -181,12 +183,12 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="even">
 <td><p>CallerCPUProcessorSpeed</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Velocidad del procesador de la CPU del extremo del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCPUProcessorSpeed</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Velocidad del procesador de la CPU del extremo del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -206,17 +208,17 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="odd">
 <td><p>CallerIceWarningFlags</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el autor de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeIceWarningFlags</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el destinatario de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Transport</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tipo de transporte: 0 es UDP y 1 es TCP.</p></td>
 </tr>
 <tr class="even">
@@ -226,7 +228,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="odd">
 <td><p>CallerPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -241,7 +243,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="even">
 <td><p>CalleePort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto del destinatario de la llamada.</p></td>
 </tr>
 <tr class="odd">
@@ -276,7 +278,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="odd">
 <td><p>CallerRelayPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto en el servicio perimetral A/V que usa el autor de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -286,7 +288,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto en el servicio perimetral A/V que usa el destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -366,27 +368,27 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="odd">
 <td><p>AppliedBandwidthLimit</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Ancho de banda real aplicado a una secuencia de envío determinada en un entorno regido por diversas directivas (TURN, API, SDP, Servidor de directivas, etc.). No se debe confundir con el ancho de banda efectivo, ya que el ancho de banda efectivo puede ser menor en función de las previsiones de ancho de banda. Este valor es, a grandes rasgos, el ancho de banda máximo que la secuencia de envío puede ocupar asumiendo los límites impuestos por la previsión de ancho de banda.</p></td>
 </tr>
 <tr class="even">
 <td><p>JitterInterArrival</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Promedio de vibración de red de las estadísticas de Protocolo de control en tiempo real (RTCP).</p></td>
 </tr>
 <tr class="odd">
 <td><p>JitterInterArrivalMax</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Vibración máxima de la red durante la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p>Vuelta</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tiempo de ida y vuelta de las estadísticas de RTCP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RoundTripMax</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tiempo de ida y vuelta máximo de la secuencia de audio.</p></td>
 </tr>
 <tr class="even">
@@ -401,17 +403,17 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="even">
 <td><p>PacketUtilization</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de paquetes de la secuencia de vídeo (Protocolo de transporte en tiempo real, RTP).</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ancho de banda más</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Previsiones de ancho de banda de la secuencia de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p>PayloadDescription</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Códec de audio usado para la llamada, a la que se hace referencia desde la <a href="lync-server-2013-payloaddescription-table.md">tabla PayloadDescription en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -421,7 +423,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="even">
 <td><p>VideoBitRateAvg</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tasa de bits media de la secuencia de vídeo.</p></td>
 </tr>
 <tr class="odd">
@@ -436,7 +438,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="odd">
 <td><p>ViideoBitRateMax</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tasa de bits de vídeo máxima durante la sesión de vídeo.</p></td>
 </tr>
 <tr class="even">
@@ -456,7 +458,7 @@ La vista VideoStreamDetail almacena información de todas las secuencias de víd
 </tr>
 <tr class="odd">
 <td><p>VideoAllocateBWAvg</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Cantidad máxima del ancho de banda asignada para vídeo.</p></td>
 </tr>
 <tr class="even">

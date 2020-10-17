@@ -12,20 +12,22 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: c96b2ad99ce403df32cc224d854c34160bd6c613
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755774"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518097"
 ---
+# <a name="run-backward-compatibility-for-persistent-chat-server"></a>Ejecutar compatibilidad con versiones anteriores para el servidor de chat persistente
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-backward-compatibility-for-persistent-chat-server"></a>Ejecutar compatibilidad con versiones anteriores para el servidor de chat persistente
+
 
 </div>
 
@@ -77,7 +79,7 @@ Para agregar el extremo del servidor de chat persistente mediante la interfaz de
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Migración desde Lync Server 2010, chat grupal o grupo de Office Communications Server 2007 R2 a Lync Server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)  

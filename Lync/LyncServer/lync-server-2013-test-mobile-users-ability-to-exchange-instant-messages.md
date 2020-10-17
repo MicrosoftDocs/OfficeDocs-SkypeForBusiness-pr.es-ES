@@ -12,20 +12,22 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3536e7bc95aced3a8bd68cab15b8994aa9e697c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7c599e2199a605b4d24a79c450d7abe2bd4473c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194562"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519227"
 ---
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Probar la capacidad de los usuarios móviles para intercambiar mensajes instantáneos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Probar la capacidad de los usuarios móviles para intercambiar mensajes instantáneos en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-07_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsMcxP2PIM. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsMcxP2PIM. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ El servicio de movilidad permite a los usuarios de dispositivos móviles realiza
 
 3.  Aproveche las ventajas de las capacidades de Lync Server, como las llamadas a través del trabajo y las conferencias de acceso telefónico local.
 
-El cmdlet test-CsMxcP2PIM proporciona una forma rápida y sencilla de comprobar que los usuarios pueden usar el servicio de movilidad para intercambiar mensajes instantáneos.
+El cmdlet Test-CsMxcP2PIM proporciona una forma rápida y sencilla de comprobar que los usuarios pueden usar el servicio de movilidad para intercambiar mensajes instantáneos.
 
 </div>
 
@@ -97,11 +99,11 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [Test-CsMcx
 
 ## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si los dos usuarios de prueba pueden intercambiar mensajes instantáneos mediante el servicio de movilidad, test-CsMcxP2PIM devolverá el resultado de la prueba correcta:
+Si los dos usuarios de prueba pueden intercambiar mensajes instantáneos mediante el servicio de movilidad, Test-CsMcxP2PIM devolverá el resultado de la prueba correcta:
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
-URI de destino:http://atl-cs-001.litwareinc.com:443/mcx
+URI de destino: http://atl-cs-001.litwareinc.com:443/mcx
 
 Resultado: correcto
 
@@ -115,13 +117,13 @@ Si se produce un error en la prueba, el resultado se establecerá en error y se 
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
-URI de destino:https://atl-cs-001.litwareinc.com:443/mcx
+URI de destino: https://atl-cs-001.litwareinc.com:443/mcx
 
 Resultado: error
 
 Latencia: 00:00:00
 
-Mensaje de error: no se recibió ninguna respuesta para el servicio de vales Web.
+Mensaje de error: no se recibió ninguna respuesta para el servicio de Web-Ticket.
 
 Excepción interna: la solicitud HHTP no está autorizada con
 
@@ -139,7 +141,7 @@ Diagnóstico interno: X-MS-Server-Fqdb: ATL-CS-
 
 001.litwareinc.com
 
-Cache-control: privado
+Cache-Control: privado
 
 Content-Type: text/html; charset = utf-8.
 
@@ -161,7 +163,7 @@ Longitud del contenido: 6305
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Si test-CsMcxP2PIM produce un error, el primer paso debe ser comprobar que el servicio de movilidad está en funcionamiento. Esto se puede hacer con un explorador Web para comprobar que se puede tener acceso a la dirección URL del servicio de movilidad de su grupo de Lync Server. Por ejemplo, este comando comprueba la dirección URL del grupo atl-cs-001.litwareinc.com:
+Si Test-CsMcxP2PIM no supera el primer paso debe ser comprobar que el servicio de movilidad está en funcionamiento. Esto se puede hacer con un explorador Web para comprobar que se puede tener acceso a la dirección URL del servicio de movilidad de su grupo de Lync Server. Por ejemplo, este comando comprueba la dirección URL del grupo atl-cs-001.litwareinc.com:
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
@@ -175,7 +177,7 @@ También debe comprobar que el usuario está habilitado para la movilidad. Para 
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-Una vez que conoce el nombre de la Directiva, use el cmdlet Get-CsMobilityPolicy para comprobar que la Directiva en cuestión (por ejemplo, RedmondMobilityPolicy) tiene la propiedad Enablemobility configurada establecida en true:
+Una vez que se conoce el nombre de la Directiva, use el cmdlet Get-CsMobilityPolicy para comprobar que la Directiva en cuestión (por ejemplo, RedmondMobilityPolicy) tiene la propiedad Enablemobility configurada establecida en true:
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 

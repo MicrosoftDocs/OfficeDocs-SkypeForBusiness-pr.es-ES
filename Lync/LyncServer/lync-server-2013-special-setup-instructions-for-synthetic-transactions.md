@@ -12,20 +12,22 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: defed8a0356d489a628f883b42ae658aadd6442d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3841cb8a582e44e14b9ae7c73f3b3aed6b6ded33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181793"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519577"
 ---
+# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Instrucciones de configuración especiales para transacciones sintéticas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Instrucciones de configuración especiales para transacciones sintéticas en Lync Server 2013
+
 
 </div>
 
@@ -43,9 +45,9 @@ La mayoría de las transacciones sintéticas se puede ejecutar en un nodo de mon
 
 ## <a name="dealing-with-server-timeout-errors"></a>Tratar errores de tiempo de espera del servidor
 
-En algunos casos, es posible que las transacciones sintéticas fallen con errores de tiempo de espera del servidor (código de error 504). Estos errores suelen deberse a problemas del firewall. Cuando se ejecuta una transacción sintética, esa transacción se ejecuta en el proceso MonitoringHost. exe; a su vez, MonitoringHost. exe inicia una instancia del proceso PowerShell. exe. Si el Firewall bloquea MonitoringHost. exe o PowerShell. exe, se producirá un error en la transacción sintética y se generará un error 504.
+En algunos casos, es posible que las transacciones sintéticas fallen con errores de tiempo de espera del servidor (código de error 504). Estos errores suelen deberse a problemas del firewall. Cuando se ejecuta una transacción sintética, esa transacción se ejecuta en el proceso de MonitoringHost.exe; a su vez, MonitoringHost.exe inicia una instancia del proceso de PowerShell.exe. Si el Firewall bloquea MonitoringHost.exe o PowerShell.exe, se producirá un error en la transacción sintética y se generará un error 504.
 
-Para resolver este problema, debe crear manualmente reglas de Firewall de entrada para MonitoringHost. exe y PowerShell. exe en el equipo local. Esto puede realizarse a través de Firewall de Windows o de un software de Firewall local de terceros, en función de la configuración preexistente del servidor.
+Para resolver este problema, debe crear manualmente reglas de Firewall de entrada para MonitoringHost.exe y PowerShell.exe en el equipo local. Esto puede realizarse a través de Firewall de Windows o de un software de Firewall local de terceros, en función de la configuración preexistente del servidor.
 
 Si va a usar un dispositivo de Firewall de red entre el equipo de host de transacción sintética y los servidores de Lync que está tratando de supervisar, debe tratar el host como un equipo cliente y todos los requisitos de puerto de Firewall de [puertos y protocolos para los servidores internos en Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
 
@@ -99,7 +101,7 @@ Esta tarea de configuración debe realizarse desde la empresa:
 
   - Si se realiza desde el propio servidor, el usuario que ejecute el cmdlet debe pertenecer al grupo RTCUniversalServerAdmins.
 
-El comando anterior incluía el parámetro Setup establecido en True ($True). Si incluye el parámetro Setup, test-CsPersistentChatMessage creará un salón de chat persistente especial y rellenará ese salón con los usuarios de prueba. Esto sirve para garantizar que existe realmente un salón de chat destinado a realizar pruebas. Tenga en cuenta que el parámetro Setup solo debe ejecutarse desde un servidor front-end.
+El comando anterior incluía el parámetro Setup establecido en True ($True). Si incluye el parámetro Setup, Test-CsPersistentChatMessage creará un salón de chat persistente especial y rellenará ese salón con los usuarios de prueba. Esto sirve para garantizar que existe realmente un salón de chat destinado a realizar pruebas. Tenga en cuenta que el parámetro Setup solo debe ejecutarse desde un servidor front-end.
 
 Solo un administrador puede eliminar el salón de chat que Test-CsPersistentChatMessage crea.
 
@@ -139,7 +141,7 @@ Si se cumplen, los administradores pueden ejecutar el siguiente comando a fin de
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer -Setup
 
-Tenga en cuenta el uso del parámetro de configuración usado en el comando anterior. Si se incluye el parámetro setup cuando se ejecuta test-CsUnifiedContactStore, los contactos del usuario especificado (en este caso, sip:kenmyer@litwareinc.com) se moverán al almacén de contactos unificados. (Por supuesto, si los contactos del usuario ya están en el almacén de contactos unificados, no es necesario moverlos). El parámetro Setup se suele usar una sola vez (la primera vez que se ejecuta test-CsUnifiedContactStore) y solo debe usarse con usuarios de prueba; es decir, con las cuentas de usuario que nunca se iniciarán sesión en Lync Server en realidad. Una vez que se ha migrado el usuario de prueba al almacén de contactos unificado, puede comprobar que los contactos del usuario se pueden recuperar llamando a test-CsUnifiedContactStore sin el parámetro Setup:
+Tenga en cuenta el uso del parámetro de configuración usado en el comando anterior. Si se incluye el parámetro Setup al ejecutar Test-CsUnifiedContactStore, los contactos del usuario especificado (en este caso, sip:kenmyer@litwareinc.com) se moverán al almacén de contactos unificados. (Por supuesto, si los contactos del usuario ya están en el almacén de contactos unificados, no es necesario moverlos). El parámetro Setup suele usarse una sola vez (la primera vez que se ejecuta Test-CsUnifiedContactStore) y solo debe usarse con usuarios de prueba; es decir, con las cuentas de usuario que nunca se iniciarán sesión en Lync Server en realidad. Una vez que se ha migrado el usuario de prueba al almacén de contactos unificado, puede comprobar que los contactos del usuario se pueden recuperar llamando a Test-CsUnifiedContactStore sin el parámetro de configuración:
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer
 

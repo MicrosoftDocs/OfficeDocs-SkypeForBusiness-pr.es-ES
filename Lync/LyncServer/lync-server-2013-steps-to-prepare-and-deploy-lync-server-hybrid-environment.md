@@ -12,20 +12,22 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1e7acf5fa315e566094728066bbc798267f029ed
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519457"
 ---
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Pasos para preparar e implementar el entorno híbrido de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Pasos para preparar e implementar el entorno híbrido de Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ En la siguiente tabla se enumeran los pasos necesarios para preparar el entorno 
 <td><p>Agregar el dominio y comprobar la propiedad</p></td>
 <td><p>A veces, su dominio también se conoce como su <em>dominio</em>personal. Debe agregar el dominio a su organización de Office 365 y, a continuación, seguir los pasos para validar el dominio con Office 365. Esto es para confirmar que es el propietario del dominio.</p>
 <p>Para agregar su dominio a su organización de Office 365, siga los pasos descritos en <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Agregar un dominio a office 365</a>.</p>
-<p>Complete todos los pasos de cada sección del tema, incluida &quot;editar registros DNS para los servicios de Office 365.&quot;</p></td>
+<p>Complete todos los pasos de cada sección del tema, incluida &quot; Editar registros DNS para los servicios de Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td></td>

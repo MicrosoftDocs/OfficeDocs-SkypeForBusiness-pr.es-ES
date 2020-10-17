@@ -12,20 +12,22 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6c6ca5761959b8b98cb4eb6a8f17e87c543e788
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 558efe06fb8a91a4a1f923b004756b5791e4367e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518447"
 ---
+# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Ver los registros de uso de RTC en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Ver los registros de uso de RTC en Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Un registro de uso de la red telefónica conmutada (RTC) especifica una clase de
 
 ## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Ver la información de uso de RTC mediante cmdlets de Windows PowerShell
 
-También puede ver los usos de RTC con Windows PowerShell y el cmdlet **Get-CsPstnUsage** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+También puede ver los usos de RTC con Windows PowerShell y el cmdlet **Get-CsPstnUsage** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -76,7 +78,7 @@ También puede ver los usos de RTC con Windows PowerShell y el cmdlet **Get-CsPs
     
         Get-CsPstnUsage
     
-    Este comando devuelve información similar a la siguiente:
+    Este comando devolverá información similar a la siguiente:
     
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
@@ -89,7 +91,7 @@ Para obtener más información, consulte [Get-CsPstnUsage](https://docs.microsof
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear una directiva de voz y configurar los registros de uso de RTC en Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  

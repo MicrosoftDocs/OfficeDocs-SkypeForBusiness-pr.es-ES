@@ -12,20 +12,22 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d61e01574945fe090d3fd9425133f9569bd111
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1c1ff2b667c0529dfb7a90291dba7ad5ab154a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517967"
 ---
+# <a name="call-admission-control-report-in-lync-server-2013"></a>Informe de control de admisión de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a>Informe de control de admisión de llamadas en Lync Server 2013
+
 
 </div>
 
@@ -88,7 +90,7 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar con el Info
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>17/7/2012 1:00 PM</p>
+<p>17/7/2012 13:00</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/17/12012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
@@ -106,7 +108,7 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar con el Info
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
 </tr>
 <tr class="even">
@@ -115,7 +117,7 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar con el Info
 <ul>
 <li><p>Todos</p></li>
 <li><p>Punto a punto</p></li>
-<li><p>Conversación</p></li>
+<li><p>Conferencia</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -234,7 +236,7 @@ En la siguiente tabla se muestra información proporcionada en el Informe de con
 <td><p>Dirección SIP del usuario que organizó la conferencia</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>Sí</p></td>
 <td><p>Servidor perimetral usado en la conferencia.</p></td>
 </tr>

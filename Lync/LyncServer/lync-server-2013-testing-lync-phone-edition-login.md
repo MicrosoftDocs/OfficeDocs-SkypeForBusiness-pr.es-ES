@@ -12,20 +12,22 @@ ms:contentKeyID: 63969583
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce22e6c7f5fb48132f3f67c79c33daaa568d93ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2b55ef9024caedaecb27bba3e01eb2bde5181fca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194063"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519027"
 ---
+# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a>Probar el inicio de sesión de Lync Phone Edition en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a>Probar el inicio de sesión de Lync Phone Edition en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsPhoneBootstrap. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsPhoneBootstrap. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPhoneBootstrap&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsPhoneBootstrap permite a los administradores comprobar que un usuario determinado (con el número de teléfono y el PIN que se le ha asignado) puede iniciar sesión en el sistema desde un dispositivo compatible con Lync 2013 Phone Edition. (En realidad, no se necesita ningún dispositivo para ejecutar la prueba).
+El cmdlet Test-CsPhoneBootstrap permite a los administradores comprobar que un usuario determinado (con el número de teléfono y el PIN que tiene asignado) puede iniciar sesión en el sistema desde un dispositivo compatible con Lync 2013 Phone Edition. (En realidad, no se necesita ningún dispositivo para ejecutar la prueba).
 
 Para que Test-CsPhoneBootstrap pueda realizar su comprobación, el grupo de registradores que hospeda la cuenta de usuario que se está probando debe ser detectable con DHCP. Para determinar si un registrador se detecta de esta manera, use el cmdlet Get-CsRegistrarConfiguration y compruebe el valor de la propiedad EnableDHCPServer. Si esta propiedad se establece en false, debe usar Set-CsRegistrarConfiguration para establecer el valor de la propiedad en true y hacer que el registrador sea detectable mediante DHCP. Esto también se puede hacer con el servidor DHCP de empresa y configurar las opciones específicas de Lync Server.
 
@@ -76,7 +78,7 @@ Para que Test-CsPhoneBootstrap pueda realizar su comprobación, el grupo de regi
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-Para ejecutar el cmdlet test-CsPhoneBootstrap, debe proporcionar, como mínimo, el número de teléfono y el número de identificación personal del cliente (PIN) para un usuario válido de Lync Server. Por ejemplo, este comando comprueba la capacidad de inicio de sesión del usuario que tiene el número de teléfono 12065551219 y el PIN 0712:
+Para ejecutar el cmdlet Test-CsPhoneBootstrap, debe proporcionar, como mínimo, el número de teléfono y el número de identificación personal del cliente (PIN) para un usuario válido de Lync Server. Por ejemplo, este comando comprueba la capacidad de inicio de sesión del usuario que tiene el número de teléfono 12065551219 y el PIN 0712:
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712"
 
@@ -94,7 +96,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 Si el usuario especificado pudo conectar con Lync Server, recibirá un resultado similar a este, con la propiedad result marcada como **correcta:**
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/CertProv/
+TargetUri https://atl-cs-001.litwareinc.com:443/CertProv/
 
 CertProvisioningService. SVC
 
@@ -116,7 +118,7 @@ Resultado: error
 
 Latencia: 00:00:04.1993845
 
-Error: ERROR: no se recibió ninguna respuesta para el servicio de vales Web.
+Error: ERROR: no se recibió ninguna respuesta para el servicio Web-Ticket.
 
 Diagnóstico
 
@@ -128,23 +130,23 @@ Además, puede comprobar que el usuario tiene un PIN válido con un comando de l
 
     Get-CsClientPinInfo -Identity "sip:kenmyer@litwareinc.com" 
 
-Si test-CsPhoneBootstrap produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
+Si Test-CsPhoneBootstrap da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712" -Verbose
 
-Cuando se incluye el parámetro verbose, test-CsPhoneBootstrap devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, a continuación se muestra una parte de la salida de un inicio de sesión incorrecto, una sesión en la que se incluyó un PIN incorrecto:
+Cuando se incluye el parámetro verbose, Test-CsPhoneBootstrap devolverá una cuenta paso a paso por cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, a continuación se muestra una parte de la salida de un inicio de sesión incorrecto, una sesión en la que se incluyó un PIN incorrecto:
 
-Uso de la autenticación de\\pin con extensión de teléfono: 12065551219 PIN: 0712
+Uso de la autenticación de PIN con extensión de teléfono \\ : 12065551219 PIN: 0712
 
 No se pudo obtener el vale Web
 
 SILLA
 
-\-La URL del servicio web es válida y los servicios web son funcionales
+\- La URL del servicio web es válida y los servicios web son funcionales
 
-\-Si usa PhoneNo\\PIN para autenticarse, asegúrese de que coinciden con el URI de usuario
+\- Si usa PhoneNo \\ PIN para autenticarse, asegúrese de que coinciden con el URI de usuario
 
-\-Si se usa\\la autenticación Kerberos NTLM, asegúrese de que ha proporcionado credenciales válidas
+\- Si se usa la \\ autenticación Kerberos NTLM, asegúrese de que ha proporcionado credenciales válidas
 
 </div>
 
@@ -152,7 +154,7 @@ SILLA
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsPhoneBootstrap podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsPhoneBootstrap podría producir un error:
 
   - Es posible que haya especificado una dirección SIP que no sea válida. Puede comprobar que la dirección SIP es correcta usando un comando como el siguiente:
     

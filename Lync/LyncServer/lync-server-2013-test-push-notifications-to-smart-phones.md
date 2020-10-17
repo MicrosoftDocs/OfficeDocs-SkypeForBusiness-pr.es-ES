@@ -12,20 +12,22 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06684665819e14540628e5cd45309ef2c920b227
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0e8d6198fc022c03e69e68475d77f513d577ad4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194533"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519207"
 ---
+# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Probar las notificaciones de inserción con teléfonos inteligentes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Probar las notificaciones de inserción con teléfonos inteligentes en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2017-03-15_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsMcxPushNotification. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsMcxPushNotification. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxPushNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2017-03-15_
 
 ## <a name="description"></a>Descripción
 
-El servicio de notificaciones de inserción (servicio de notificaciones de inserción de Apple y servicio de notificaciones de inserción de Microsoft) puede enviar notificaciones sobre eventos como nuevos mensajes instantáneos o correo de voz a dispositivos móviles, como iPhone y Windows Phone, incluso si el cliente de Lync en estos dispositivos se suspende actualmente o se está ejecutando en segundo plano. El servicio de notificaciones de inserción es un servicio basado en la nube que se ejecuta en servidores de Microsoft. Para aprovechar las notificaciones de inserción, debe ser capaz de conectarse y autenticarse con el centro de notificaciones de inserción. El cmdlet test-CsMcxPushNotification permite a los administradores comprobar que las solicitudes de notificación de inserción se pueden enrutar a través del servidor perimetral hacia el centro de notificaciones de inserción.
+El servicio de notificaciones de inserción (servicio de notificaciones de inserción de Apple y servicio de notificaciones de inserción de Microsoft) puede enviar notificaciones sobre eventos como nuevos mensajes instantáneos o correo de voz nuevo a dispositivos móviles, como iPhone y Windows Phone, incluso si el cliente de Lync en estos dispositivos está actualmente suspendido o en ejecución en segundo plano. El servicio de notificaciones de inserción es un servicio basado en la nube que se ejecuta en servidores de Microsoft. Para aprovechar las notificaciones de inserción, debe ser capaz de conectarse y autenticarse con el centro de notificaciones de inserción. El cmdlet Test-CsMcxPushNotification permite a los administradores comprobar que las solicitudes de notificación de inserción se pueden enrutar a través del servidor perimetral hacia el centro de notificaciones de inserción.
 
 </div>
 
@@ -74,7 +76,7 @@ El servicio de notificaciones de inserción (servicio de notificaciones de inser
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-Para probar el servicio de notificaciones de inserción, llame al cmdlet test-CsMcxPushNotification. Asegúrese de especificar el nombre de dominio completo del servidor perimetral:
+Para probar el servicio de notificaciones de inserción, llame al cmdlet Test-CsMcxPushNotification. Asegúrese de especificar el nombre de dominio completo del servidor perimetral:
 
     Test-CsMcxPushNotification -AccessEdgeFqdn "atl-edge-001.litwareinc.com"
 
@@ -86,7 +88,7 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [Test-CsMcx
 
 ## <a name="determining-success-or-failure"></a>Determinar si se ha realizado correctamente o erróneo
 
-Si test-CsMcxPushNotification se ejecuta correctamente, el cmdlet devolverá el resultado de la prueba:
+Si Test-CsMcxPushNotification tiene éxito, el cmdlet devolverá el resultado de la prueba:
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -98,17 +100,17 @@ Error
 
 Diagnóstico
 
-Si test-CsMcxPushNotification no puede conectarse al centro de notificaciones de inserción, el cmdlet no devolverá normalmente un resultado de prueba de error. En su lugar, el comando producirá un error por completo. Por ejemplo:
+Si Test-CsMcxPushNotification no puede conectarse al centro de notificaciones de inserción, el cmdlet no devolverá normalmente un resultado de prueba de error. En su lugar, el comando producirá un error por completo. Por ejemplo:
 
-Test-CsMcxPushNotification: se recibió una respuesta de 504 (tiempo de espera del servidor) desde la red y se produjo un error en la operación. Vea los detalles de la excepción para obtener más información.
+Test-CsMcxPushNotification: se recibió una respuesta 504 (tiempo de espera del servidor) desde la red y se produjo un error en la operación. Vea los detalles de la excepción para obtener más información.
 
 En la línea: 1 carácter: 27
 
-\+Test-CsMcxPushNotification \< \< \< \< -AccessEdgeFqdn lyncedge.mydomain.com
+\+Test-CsMcxPushNotification \< \< \< \< AccessEdgeFqdn lyncedge.mydomain.com
 
-\+CategoryInfo: OperationStopped: (:) \[Test-CsMcxPushNotification\], FailureResponseException
+\+ CategoryInfo: OperationStopped: (:) \[ Test-CsMcxPushNotification \] , FailureResponseException
 
-\+FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
 </div>
 
@@ -116,7 +118,7 @@ En la línea: 1 carácter: 27
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Si se produce un error en el servicio de notificaciones de inserción que normalmente indica problemas de comunicación con el servidor perimetral o problemas de comunicación con el centro de enrutamiento de notificaciones de inserción. Si surgen problemas al ejecutar test-CsMcxPushNotification, lo primero que debe hacer es comprobar que el servidor perimetral funciona correctamente. Una forma de hacerlo es usar el cmdlet test-CsAVEdgeConnectivity:
+Si se produce un error en el servicio de notificaciones de inserción que normalmente indica problemas de comunicación con el servidor perimetral o problemas de comunicación con el centro de enrutamiento de notificaciones de inserción. Si surgen problemas al ejecutar test-CsMcxPushNotification, lo primero que debe hacer es comprobar que el servidor perimetral funciona correctamente. Una forma de hacerlo es usar el cmdlet Test-CsAVEdgeConnectivity:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -138,17 +140,17 @@ Si el URI está configurado correctamente, el siguiente paso debe ser comprobar 
 
 Se ha recibido una respuesta 504 (tiempo de espera del servidor) de la red y se ha producido un error en la operación. Vea los detalles de la excepción para obtener más información.
 
-También es posible que test-CsMcxConfiguration falle con este mensaje de error:
+También es posible que se produzca un error en Test-CsMcxConfiguration con este mensaje de error:
 
 Test-CsMcxPushNotification: se rechazó la solicitud de notificación de inserción.
 
 En la línea: 1 carácter: 27
 
-\+Test-CsMcxPushNotification\<\<\<\<
+\+ Test-CsMcxPushNotification \<\<\<\<
 
-\+CategoryInfo: OperationStopped: (:) \[Test-CsMcxPushNotification\], SyntheticTransactionException
+\+ CategoryInfo: OperationStopped: (:) \[ Test-CsMcxPushNotification \] , SyntheticTransactionException
 
-\+FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
+\+ FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
 El mensaje "se rechazó la solicitud de notificación de inserción" suele producirse si ha habilitado el filtrado de URL y está bloqueando los prefijos http: y https:. Puede determinar qué prefijos se están bloqueando mediante un comando similar al siguiente:
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d306c17f2c399d38e406d466664a49e3e2df6ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b054f3ea8a1054be1e920fbbacbfe2e88b157ba7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518767"
 ---
+# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Uso de la búsqueda en registros de captura creados por el servicio de registro centralizado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Uso de la búsqueda en registros de captura creados por el servicio de registro centralizado en Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ El resto de este tema se centra en cómo definir una búsqueda para optimizar su
     
 
     > [!NOTE]
-    > Por defecto, Search-CsClsLogging envía los resultados de la búsqueda a la consola. Si desea guardar los resultados de la búsqueda en un archivo, use la ruta &lt;de acceso&gt;completa del archivo de cadena de OutputFilePath. Para definir el parámetro –OutputFilePath, suministre una ruta y un nombre de archivo como parte del parámetro en un formato de cadena encerrado entre comillas (por ejemplo; C:\LogFiles\SearchOutput.txt). En este ejemplo, debe asegurarse de que exista el directorio C:\LogFiles y de que tenga los permisos de lectura y escritura (permiso NTFS Modificar) de archivos de la carpeta. El resultado se anexa y no se sobreescribe. Si necesita archivos independientes, defina un nombre de archivo diferente para cada búsqueda.
+    > Por defecto, Search-CsClsLogging envía los resultados de la búsqueda a la consola. Si desea guardar los resultados de la búsqueda en un archivo, use la &lt; ruta de acceso completa del archivo de cadena de OutputFilePath &gt; . Para definir el parámetro –OutputFilePath, suministre una ruta y un nombre de archivo como parte del parámetro en un formato de cadena encerrado entre comillas (por ejemplo; C:\LogFiles\SearchOutput.txt). En este ejemplo, debe asegurarse de que exista el directorio C:\LogFiles y de que tenga los permisos de lectura y escritura (permiso NTFS Modificar) de archivos de la carpeta. El resultado se anexa y no se sobreescribe. Si necesita archivos independientes, defina un nombre de archivo diferente para cada búsqueda.
 
     
     </div>
@@ -124,7 +126,7 @@ El resto de este tema se centra en cómo definir una búsqueda para optimizar su
 
 2.  Por defecto, la hora de inicio para los parámetros específicos de hora de una búsqueda es de 30 minutos antes de la hora en que inició la búsqueda. En otras palabras, si inicia su búsqueda a las 16:00:00, la búsqueda se hará sobre los registros para los equipos y grupos de servidores que defina desde las 15:30:00 hasta las 16:00:00. Si necesita buscar desde 60 minutos o 3 horas antes de la hora actual, utilice el parámetro –StartTime y defina la cadena de fecha y hora para indicar la hora en la que quiera que empiece la búsqueda.
     
-    Por ejemplo, utilizando los parámetros –StartTime y –EndTime para definir un rango de fecha y hora, puede definir una búsqueda you entre las 8 y las 9 del 20/11/2012 en su grupo de servidores. Puede establecer la ruta de acceso de los resultados para escribir los resultados en un archivo\\denominado c: logfile. txt de la siguiente manera:
+    Por ejemplo, utilizando los parámetros –StartTime y –EndTime para definir un rango de fecha y hora, puede definir una búsqueda you entre las 8 y las 9 del 20/11/2012 en su grupo de servidores. Puede establecer la ruta de acceso de los resultados para escribir los resultados en un archivo denominado c: \\logfile.txt de la siguiente manera:
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     

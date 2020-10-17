@@ -12,20 +12,22 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fa081247a4d3932bfe7b83268a250324b17af4d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f35433b8becdf0574866f7c327abc2ac0a579e5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179917"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518017"
 ---
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Requisitos de infraestructura de herramientas administrativas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Requisitos de infraestructura de herramientas administrativas en Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ No existen requisitos de infraestructura adicionales para instalar las herramien
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Instalación de las herramientas administrativas de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)  

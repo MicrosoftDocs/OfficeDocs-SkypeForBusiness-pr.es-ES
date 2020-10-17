@@ -12,20 +12,22 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcde0adac292b8773a81c759c72765f832ce745
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 627832870de3a8306912d07134bb92caeee3076e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518627"
 ---
+# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Comprobar reglas de normalización para el estacionamiento de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Comprobar reglas de normalización para el estacionamiento de llamadas en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211786"
 
 _**Última modificación del tema:** 2012-09-11_
 
-Las órbitas de estacionamiento de llamadas no deben normalizarse. Compruebe los planes de marcado para asegurarse de que los números de órbita no se normalizan. Si debe crear una regla de normalización adicional para evitar que las órbitas se normalizan, siga el procedimiento descrito en [Create a Dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) para definir una nueva regla de normalización, de modo que el **patrón para la coincidencia** identifique el intervalo de órbita y el **patrón de traducción** sea **$1**. Por ejemplo, si el intervalo de órbita de estacionamiento de llamadas es de 7000 – 7999, el **patrón de coincidencia** es **\\^ (7 d{3}) $** y el modelo de **conversión** es **$1**.
+Las órbitas de estacionamiento de llamadas no deben normalizarse. Compruebe los planes de marcado para asegurarse de que los números de órbita no se normalizan. Si debe crear una regla de normalización adicional para evitar que las órbitas se normalizan, siga el procedimiento descrito en [Create a Dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) para definir una nueva regla de normalización, de modo que el **patrón para la coincidencia** identifique el intervalo de órbita y el **patrón de traducción** sea **$1**. Por ejemplo, si el intervalo de órbita de estacionamiento de llamadas es de 7000 – 7999, el **patrón de coincidencia** es **^ (7 \\ d {3} ) $** y el **modelo de conversión** es **$1**.
 
 <div>
 
@@ -51,7 +53,7 @@ Las órbitas de estacionamiento de llamadas no deben normalizarse. Compruebe los
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md)  

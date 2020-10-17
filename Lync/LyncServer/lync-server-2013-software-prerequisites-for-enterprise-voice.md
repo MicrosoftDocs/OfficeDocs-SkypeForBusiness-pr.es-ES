@@ -12,20 +12,22 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4b0b2e2708abbf3b92223474ec0804c1d11ac8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b504c498b2f07915f741e6c3172e911c7d40dae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181813"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519627"
 ---
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Requisitos previos de software para la telefonía IP empresarial en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Requisitos previos de software para la telefonía IP empresarial en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Compruebe que la infraestructura en la que tiene pensado implementar la Telefon�
 
   - Todos los servidores perimetrales se implementan y funcionan en la red perimetral, incluidos los servidores perimetrales que ejecutan el servicio perimetral de acceso, el servicio perimetral A/V, el servicio perimetral de conferencia web y un proxy inverso.
 
-  - Se requiere Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 o Microsoft Exchange Server 2013 para integrar la mensajería unificada de Exchange con Lync Server y proporcionar notificaciones enriquecidas e información del registro de llamadas al Puntos de conexión de Lync.
+  - Se requiere Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 o Microsoft Exchange Server 2013 para integrar la mensajería unificada de Exchange con Lync Server y proporcionar notificaciones enriquecidas e información de registro de llamadas a los puntos de conexión de Lync.
 
   - Se han creado uno o más usuarios y están habilitados para Lync Server.
 

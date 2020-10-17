@@ -12,20 +12,22 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7d01b15c035b3f14a0f2d6dba92719d7f885437
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c91fcb656d936d0fb469cdec4b01824d3fa97d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213016"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518857"
 ---
+# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Roles de usuario en el servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Roles de usuario en el servidor de chat persistente en Lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ A continuación se muestran los cuatro roles de usuario servidor de chat persist
     
     </div>
 
-  - **Miembro:** Usuarios que son miembros de un salón de chat. Estos usuarios pueden ver los salones de chat en el directorio (incluso si el salón de chat es secreto), así como suscribirse al salón de chat (incluidas las opciones de metadatos, como los mensajes no leídos, los filtros de ego y los filtros de palabras clave), y participar en el salón de chat (puede publicar, a menos que el salón es un salón de auditorio donde solo los moderadores pueden publicar, obtener contenido y buscar). Los usuarios que no son miembros del salón de chat pueden buscar el salón de chat si están en la lista de miembros permitidos de la categoría, pero necesitan solicitar acceso para unirse a estos salones de chat para tener acceso al contenido. (No hay acceso ni aprobaciones de solicitud integradas en el sistema; estas se realizan de forma externa por correo electrónico, teléfono u otros formularios de contacto).
+  - **Miembro:** Usuarios que son miembros de un salón de chat. Estos usuarios pueden ver los salones de chat en el directorio (incluso si el salón de chat es secreto), así como suscribirse al salón de chat (incluidas las opciones de metadatos, como los mensajes no leídos, los filtros de ego y los filtros de palabras clave), y participar en el salón de chat (puede publicar, a menos que el salón sea un salón de auditorio en el Los usuarios que no son miembros del salón de chat pueden buscar el salón de chat si están en la lista de miembros permitidos de la categoría, pero necesitan solicitar acceso para unirse a estos salones de chat para tener acceso al contenido. (No hay acceso ni aprobaciones de solicitud integradas en el sistema; estas se realizan de forma externa por correo electrónico, teléfono u otros formularios de contacto).
 
   - **Moderador:** Usuarios que pueden publicar en un salón de Auditorio.
 
@@ -93,9 +95,9 @@ A continuación se muestran los cuatro roles de usuario servidor de chat persist
 
 Los siguientes roles son roles de administrador para el servidor de chat persistente:
 
-  - **Administrador de chat persistente (CsPersistentChatAdministrator):** Se trata de un nuevo rol de control de acceso basado en roles (RBAC) para administrar y administrar el servidor de chat persistente. Los usuarios o grupos de seguridad designados como CsPersistentChatAdministrator pueden administrar el servidor de chat persistente con los cmdlets de Windows PowerShell de forma remota (es decir, desde un equipo que no sea el servidor de chat persistente). El servidor de chat persistente comprueba que el administrador de chat persistente sea miembro del grupo local de administradores de RTC local en el servidor front-end del servidor de chat persistente.
+  - **Administrador de chat persistente (CsPersistentChatAdministrator):** Se trata de un nuevo rol de control de acceso de Role-Based (RBAC) para administrar y administrar el servidor de chat persistente. Los usuarios o grupos de seguridad designados como CsPersistentChatAdministrator pueden administrar el servidor de chat persistente con los cmdlets de Windows PowerShell de forma remota (es decir, desde un equipo que no sea el servidor de chat persistente). El servidor de chat persistente comprueba que el administrador de chat persistente sea miembro del grupo local de administradores de RTC local en el servidor front-end del servidor de chat persistente.
     
-    El rol CsPersistentChatAdministrator puede administrar los salones de chat (modificar todas las propiedades como, por ejemplo, la pertenencia a grupos, los administradores o las categorías, marcar los salones como deshabilitados, etc.) y crear y administrar categorías de salones de chat que definan quién puede crear y tener acceso a los salones. Los administradores también pueden marcar salones de chat como deshabilitados y eliminar los salones de chat que ya no estén activos. Los administradores no están sujetos a las restricciones que tienen los Autores o los Miembros permitidos. Los administradores pueden crear cualquier tipo de salón de chat y agregarse a sí mismos como miembros de cualquier salón de chat. Los administradores también pueden modificar y administrar la configuración de los chats persistentes (propiedades de grupo, configuraciones globales y configuración de cumplimiento) y también pueden planear e implementar la migración de una implementación de servidor de chat en un grupo anterior a Lync Server 2013 chat persistente Server.
+    El rol CsPersistentChatAdministrator puede administrar los salones de chat (modificar todas las propiedades como, por ejemplo, la pertenencia a grupos, los administradores o las categorías, marcar los salones como deshabilitados, etc.) y crear y administrar categorías de salones de chat que definan quién puede crear y tener acceso a los salones. Los administradores también pueden marcar salones de chat como deshabilitados y eliminar los salones de chat que ya no estén activos. Los administradores no están sujetos a las restricciones que tienen los Autores o los Miembros permitidos. Los administradores pueden crear cualquier tipo de salón de chat y agregarse a sí mismos como miembros de cualquier salón de chat. Los administradores también pueden modificar y administrar la configuración de los chats persistentes (propiedades de grupo, la configuración global y la configuración de cumplimiento) y también pueden planear e implementar la migración desde una implementación de servidor de chat de grupo anterior al servidor de chat persistente de Lync Server 2013.
 
   - **Administrador de Lync:** Administrador empresarial general de Lync Server 2013 responsable de la implementación.
 
