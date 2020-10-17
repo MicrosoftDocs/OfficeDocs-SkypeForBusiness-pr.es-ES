@@ -12,20 +12,22 @@ ms:contentKeyID: 48185095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29c01fd5af83c770844d05034baff5c3eb69e229
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c11830fa7047a9a732b10888b392a367dc36451c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534377"
 ---
+# <a name="modify-existing-registrar-configuration-settings-in-lync-server-2013"></a>Modificar las opciones de configuración existentes del registrador en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-existing-registrar-configuration-settings-in-lync-server-2013"></a>Modificar las opciones de configuración existentes del registrador en Lync Server 2013
+
 
 </div>
 

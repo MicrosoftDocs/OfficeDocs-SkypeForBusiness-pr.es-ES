@@ -12,20 +12,22 @@ ms:contentKeyID: 48184522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d459262d5126dc6d55f930b20e54cbb1e69e04e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26feac5b9995aa1a8444029442adcb9c935083d3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535417"
 ---
+# <a name="voipdetails-table-in-lync-server-2013"></a>Tabla VoipDetails en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voipdetails-table-in-lync-server-2013"></a>Tabla VoipDetails en Lync Server 2013
+
 
 </div>
 
@@ -64,55 +66,55 @@ Cada registro representa una llamada de 1 2-Party en la que al menos un usuario 
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número del identificador para identificar la sesión. Se usa en combinación con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromNumberId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p><strong>PhoneId</strong> del autor de la llamada. Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información. Si no es NULL y <strong>FromGatewayId</strong> no es null, el autor de la llamada era un usuario de RTC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConnectedNumberId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p><strong>PhoneId</strong> del receptor de llamadas. Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información. Si no es NULL y <strong>ToGatewayId</strong> no es null, el receptor de la llamada fue un usuario de RTC.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServerId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>El servidor de mediación del que procede la llamada. Consulte la <a href="lync-server-2013-mediationservers-table.md">tabla MediationServers en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServerId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>El servidor de mediación al que se llama se dirige a. Consulte la <a href="lync-server-2013-mediationservers-table.md">tabla MediationServers en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGatewayId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Puerta de enlace desde la que procede la llamada. Consulte la <a href="lync-server-2013-gateways-table.md">tabla puertas de enlace en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToGatewayId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Puerta de enlace a la que va a llamar. Consulte la <a href="lync-server-2013-gateways-table.md">tabla puertas de enlace en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedbyURIId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>URI del usuario que ha desconectado la llamada, si el usuario tiene un URI. Consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedbyPhoneId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>IDENTIFICADOR del teléfono que desconectó la llamada se desconectó de un teléfono. Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>

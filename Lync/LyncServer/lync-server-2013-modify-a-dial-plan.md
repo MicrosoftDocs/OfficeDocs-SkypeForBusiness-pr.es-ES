@@ -12,20 +12,22 @@ ms:contentKeyID: 48185099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2c4f922565b5b3af5613de4a5e43c79cf573410
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db84f9b353450419a8cc8029e4a24d01f0df76b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534417"
 ---
+# <a name="modify-a-dial-plan-in-lync-server-2013"></a>Modificar un plan de marcado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-dial-plan-in-lync-server-2013"></a>Modificar un plan de marcado en Lync Server 2013
+
 
 </div>
 
@@ -84,7 +86,7 @@ Para modificar un plan de marcado existente, siga los pasos del procedimiento a 
     
     </div>
 
-8.  (Opcional) En el campo **Prefijo de acceso externo**, especifique el valor únicamente si los usuarios necesitan marcar uno o más dígitos iniciales para tener acceso a una línea externa (por ejemplo, 9). Puede escribir un valor de prefijo de hasta cuatro caracteres (es decir, \# \*, y 0-9).
+8.  (Opcional) En el campo **Prefijo de acceso externo**, especifique el valor únicamente si los usuarios necesitan marcar uno o más dígitos iniciales para tener acceso a una línea externa (por ejemplo, 9). Puede escribir un valor de prefijo de hasta cuatro caracteres (es decir,, \# \* y 0-9).
     
     <div>
     
@@ -122,7 +124,7 @@ Para modificar un plan de marcado existente, siga los pasos del procedimiento a 
     
 
     > [!IMPORTANT]  
-    > Lync Server recorre la lista de reglas de normalización de arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<BR>La regla de normalización predeterminada de <STRONG>guardar todas</STRONG> las reglas de normalización <STRONG>^ ({11}\d) $</STRONG> coincide con cualquier número de 11 dígitos. Si, por ejemplo, agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que la regla <STRONG>mantener todos</STRONG> está ordenada por debajo de la regla <STRONG>^ ({7}1425 \ d) $</STRONG> más restrictiva.
+    > Lync Server recorre la lista de reglas de normalización de arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<BR>La regla de normalización predeterminada de <STRONG>guardar todas</STRONG> las reglas de normalización <STRONG>^ (\d {11} ) $</STRONG> coincide con cualquier número de 11 dígitos. Si, por ejemplo, agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que la regla <STRONG>mantener todos</STRONG> está ordenada por debajo de la regla <STRONG>^ (1425 \ d {7} ) $</STRONG> más restrictiva.
 
     
     </div>
@@ -155,7 +157,7 @@ Para modificar un plan de marcado existente, siga los pasos del procedimiento a 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md)  

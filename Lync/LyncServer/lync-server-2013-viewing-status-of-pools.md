@@ -12,20 +12,22 @@ ms:contentKeyID: 63969579
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eff882d58b1bdbec9920f7ea5b8bf099b986e83c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 06415d68a468a45ae849b27b7f57cba502d64cbf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535567"
 ---
+# <a name="viewing-status-of-pools-in-lync-server-2013"></a>Ver el estado de los grupos de servidores en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-status-of-pools-in-lync-server-2013"></a>Ver el estado de los grupos de servidores en Lync Server 2013
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5ba88a00ed00a36005f9c1a60806e18253d2ce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 970a638a84849120a27748980fa4017570672a35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534797"
 ---
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Instalar la herramienta de planeación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Instalar la herramienta de planeación en Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Una vez cumplidos los requisitos de preinstalación, puede instalar la herramien
 
 5.  Lea el **Contrato de licencia para el usuario final**, seleccione **Acepto los términos del contrato de licencia**, si quiere aceptar los términos de uso del contrato de licencia, y haga clic en **Siguiente**.
 
-6.  Elija donde quiere instalar los archivos de la Herramienta de planeación. La ubicación predeterminada es C:\\archivos de programa (x86\\) Microsoft Lync Server\\2013 Planning Tool (en inglés). Si desea cambiar la ubicación de instalación, haga clic en **Cambiar**. En **Cambiar carpeta de destino**, busque o escriba la ubicación donde desea instalar los archivos; a continuación, haga clic en **Aceptar** y en **Siguiente**.
+6.  Elija donde quiere instalar los archivos de la Herramienta de planeación. La ubicación predeterminada es C: \\ archivos de programa (x86) \\ Microsoft Lync Server 2013 Planning Tool (en inglés) \\ . Si desea cambiar la ubicación de instalación, haga clic en **Cambiar**. En **Cambiar carpeta de destino**, busque o escriba la ubicación donde desea instalar los archivos; a continuación, haga clic en **Aceptar** y en **Siguiente**.
 
 7.  El instalador ya está listo para instalar la herramienta de planeación. Haga clic en **Instalar** para comenzar el proceso de instalación.
 
@@ -95,7 +97,7 @@ Una vez cumplidos los requisitos de preinstalación, puede instalar la herramien
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Instalación de software opcional en Lync Server 2013](lync-server-2013-installing-optional-software.md)  

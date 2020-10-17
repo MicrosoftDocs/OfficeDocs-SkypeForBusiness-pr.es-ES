@@ -12,20 +12,22 @@ ms:contentKeyID: 48183694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abfe8c9848e5e015a22bcc7975c6bbdaf1c7465e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 77366884d83d29c39c1f19fc710030ea8457dd7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535017"
 ---
+# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Configuración de intervalos de puertos para los clientes de Microsoft Lync en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Configuración de intervalos de puertos para los clientes de Microsoft Lync en Lync Server 2013
+
 
 </div>
 

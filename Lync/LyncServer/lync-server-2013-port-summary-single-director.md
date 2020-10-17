@@ -12,20 +12,22 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27095f154d4a79af949d3568bb444adfc83699c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541cd7eb560cd9d509c5c0beec206803f2cddecc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208956"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533997"
 ---
+# <a name="port-summary---single-director-in-lync-server-2013"></a>Resumen de Puerto-Director único en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>Resumen de Puerto-Director único en Lync Server 2013
+
 
 </div>
 
@@ -60,18 +62,18 @@ Los requisitos de puerto de Firewall para un solo Director constan de los puerto
 <tr class="odd">
 <td><p>HTTP/TCP 8080</p></td>
 <td><p>Interfaz interna de proxy inverso</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Recibida inicialmente por el lado externo del proxy inverso, la comunicación se envía al Director y a los servicios web del servidor front-end</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP 4443</p></td>
 <td><p>Interfaz interna de proxy inverso</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Recibida inicialmente por el lado externo del proxy inverso, la comunicación se envía al Director y a los servicios web del servidor front-end</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Servidor front-end o grupo de servidores front-end</p></td>
 <td><p>Comunicación entre servidores entre el director y el servidor front-end</p></td>
 </tr>
@@ -90,7 +92,7 @@ Los requisitos de puerto de Firewall para un solo Director constan de los puerto
 <tr class="even">
 <td><p>SIP/MTLS/TCP 5061</p></td>
 <td><p>Interfaz interna del servidor perimetral</p></td>
-<td><p>Dirección</p></td>
+<td><p>Director</p></td>
 <td><p>Comunicación SIP desde el servidor perimetral al Director y el servidor front-end.</p></td>
 </tr>
 <tr class="odd">

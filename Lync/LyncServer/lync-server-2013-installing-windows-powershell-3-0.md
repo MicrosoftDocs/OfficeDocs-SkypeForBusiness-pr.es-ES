@@ -12,20 +12,22 @@ ms:contentKeyID: 48185621
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a799ba54fe7677ed2ccfa8051f295b2b775cdc0e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18de45679983221d80171dde8dd37397a8b3a965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534787"
 ---
+# <a name="installing-windows-powershell-30-for-lync-server-2013"></a>Instalación de Windows PowerShell 3,0 para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-windows-powershell-30-for-lync-server-2013"></a>Instalación de Windows PowerShell 3,0 para Lync Server 2013
+
 
 </div>
 

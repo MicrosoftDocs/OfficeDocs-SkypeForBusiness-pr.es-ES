@@ -12,20 +12,22 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69af5cc5bc9279b1be748cb9a38477ea6d0f3aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 170936c8ca4445a7dc4e816c2300176d9b730f80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210227"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535327"
 ---
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Cmdlets de Windows PowerShell para servicios de libreta de direcciones en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Cmdlets de Windows PowerShell para servicios de libreta de direcciones en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42210227"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Lync Server proporciona una serie de cmdlets de interfaz de línea de comandos de Windows PowerShell para administrar y configurar el servicio de libreta de direcciones. Algunos de estos cmdlets son reemplazos para los comandos ABserver. exe usados en versiones anteriores de Office Communications Server. Los siguientes temas son los cmdlets que se usan para establecer, crear y recuperar información sobre el servicio de libreta de direcciones, su configuración e información sobre los servicios web que usa el servicio de libreta de direcciones cuando los clientes recuperan el servicio de libreta de direcciones archivos y opciones de configuración.
+Lync Server proporciona una serie de cmdlets de interfaz de línea de comandos de Windows PowerShell para administrar y configurar el servicio de libreta de direcciones. Algunos de estos cmdlets son reemplazos para los comandos ABServer.exe usados en versiones anteriores de Office Communications Server. Los siguientes temas son los cmdlets que se usan para establecer, crear y recuperar información sobre el servicio de libreta de direcciones, su configuración e información sobre los servicios web que usa el servicio de libreta de direcciones cuando los clientes recuperan los archivos y la configuración del servicio de libreta de direcciones.
 
 Todos estos cmdlets se emiten a través del shell de administración de Lync Server que se encuentra en las herramientas de Lync Server en un servidor o estación de trabajo en el que se han instalado las herramientas de administración.
 
@@ -83,7 +85,7 @@ Todos estos cmdlets se emiten a través del shell de administración de Lync Ser
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [https://go.microsoft.com/fwlink/p/?linkId=205826](https://go.microsoft.com/fwlink/p/?linkid=205826)  

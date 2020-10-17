@@ -12,20 +12,22 @@ ms:contentKeyID: 49733636
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c61c6c9c27fb6ba642a8996588dc2e4a3c3c42d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 453d66d35d02d6b0e91f0c6b82b1ccfe71f149b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535607"
 ---
+# <a name="viewing-network-subnet-information-in-lync-server-2013"></a>Ver la información de subred de red en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-subnet-information-in-lync-server-2013"></a>Ver la información de subred de red en Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ Puede usar el siguiente procedimiento para ver una subred de la red. Desde el pa
 
 ## <a name="viewing-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Visualización de la información de configuración de subred de red mediante cmdlets de Windows PowerShell
 
-La información de subred de red se puede ver con Windows PowerShell y el cmdlet Get-CsNetworkSubnet. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+La información de la subred de red se puede ver con Windows PowerShell y el cmdlet Get-CsNetworkSubnet. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -94,7 +96,7 @@ Para más información, vea el tema de ayuda del cmdlet [Get-CsNetworkSubnet](ht
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear o modificar subredes de red en Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)  

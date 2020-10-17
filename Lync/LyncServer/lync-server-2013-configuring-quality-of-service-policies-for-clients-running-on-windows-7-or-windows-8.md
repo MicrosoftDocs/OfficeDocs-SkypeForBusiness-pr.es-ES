@@ -12,20 +12,22 @@ ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c372cae4bd55f4dec59be91c47dbee6497cbf7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cd058e2903160f1c9f4ea06e30959b63953ab01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206006"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534977"
 ---
+# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>Configurar directivas de calidad de servicio en Lync Server 2013 para clientes que ejecutan Windows 7 o Windows 8
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>Configurar directivas de calidad de servicio en Lync Server 2013 para clientes que ejecutan Windows 7 o Windows 8
+
 
 </div>
 
@@ -94,7 +96,7 @@ Para crear una directiva de audio de calidad de servicio para equipos con Window
 
 6.  En el cuadro de diálogo **QoS basada en directivas**, en la página de inicio, escriba un nombre para la directiva nueva (por ejemplo, **Lync Audio**) en el cuadro **Nombre**. Seleccione **Especificar el valor de DSCP** y, a continuación, defina el valor en **46**. Deje sin seleccionar **Especificar velocidad de salida del acelerador** y, a continuación, haga clic en **Siguiente**.
 
-7. En la página siguiente, seleccione **solo aplicaciones con este nombre de archivo ejecutable** y escriba el nombre **Lync. exe**y, a continuación, haga clic en **siguiente**. Esta configuración le indica a la Directiva que solo Asigne prioridades de tráfico que coincidan con el cliente de Lync.
+7. En la página siguiente, seleccione **sólo aplicaciones con este nombre de archivo ejecutable** y escriba el nombre **Lync.exe**y, a continuación, haga clic en **siguiente**. Esta configuración le indica a la Directiva que solo Asigne prioridades de tráfico que coincidan con el cliente de Lync.
 
 8.  En la tercera página, compruebe que las opciones **Cualquier dirección IP de origen** y **Cualquier dirección IP de destino** están seleccionadas y haga clic en **Siguiente**. Estas dos opciones garantizan que se gestionarán todos los paquetes, sin tener en cuenta el equipo (o dirección IP) que los envió y el equipo (o dirección IP) que los recibirá.
 
@@ -140,11 +142,11 @@ Para asegurarse de que los paquetes de red se marquen con el valor de DSCP adecu
 
 2.  En el cuadro de diálogo **Ejecutar**, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **servicios**y, a continuación, expanda **TCPIP**.
+3.  En el editor del registro, expanda el ** \_ \_ equipo local HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **servicios**y, a continuación, expanda **TCPIP**.
 
 4.  Haga clic con el botón secundario en **Tcpip**, elija **Nuevo** y, a continuación, haga clic en **Clave**. Después de que se cree una nueva clave del Registro, escriba **QoS** y presione ENTRAR para cambiar el nombre de la clave.
 
-5.  Haga clic con el botón secundario en **QoS**, elija **Nuevo** y, a continuación, haga clic en **Valor de cadena**. Después de que se cree un nuevo valor del Registro, escriba **No usar NLA** y presione ENTRAR para cambiar el nombre del valor.
+5.  Haga clic con el botón secundario en **QoS**, elija **Nuevo** y, a continuación, haga clic en **Valor de cadena**. Cuando se haya creado el nuevo valor de registro, escriba **No usar NLA** y presione ENTRAR para cambiar el nombre al valor.
 
 6.  Haga doble clic en **No usar NLA**. En el cuadro de diálogo **Editar cadena**, escriba **1** en el cuadro **Datos del valor** y, a continuación, haga clic en **Aceptar**.
 
@@ -162,7 +164,7 @@ Si desea etiquetar valores DSCP para todos los adaptadores de red de un equipo, 
 
 2.  En el cuadro de diálogo **Ejecutar**, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **servicios**y, a continuación, expanda **TCPIP**.
+3.  En el editor del registro, expanda el ** \_ \_ equipo local HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **servicios**y, a continuación, expanda **TCPIP**.
 
 4.  Si no ve una clave de registro con la etiqueta **QoS**, haga clic con el botón secundario en **Tcpip**, seleccione **Nuevo** y, a continuación, haga clic en **Clave**. Después de crear la clave nueva, escriba **QoS** y pulse ENTRAR para cambiarle el nombre.
 

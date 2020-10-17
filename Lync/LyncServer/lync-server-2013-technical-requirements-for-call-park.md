@@ -12,20 +12,22 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6467f4047754697322780373521cdd47fe1e1ba3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b5fb5f86dd575daf603bd0a21235184346bca05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533957"
 ---
+# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Requisitos técnicos para el estacionamiento de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Requisitos técnicos para el estacionamiento de llamadas en Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Todos los servidores front-end y los servidores Standard Edition en los que se i
 
 La aplicación de estacionamiento de llamadas usa el siguiente puerto:
 
-  - **Puerto 5075**   usado para solicitudes de escucha SIP.
+  - **Puerto 5075**     Se usa para las solicitudes de escucha SIP.
 
 <div>
 
@@ -89,7 +91,7 @@ La aplicación de estacionamiento de llamadas usa el siguiente puerto:
 
 ## <a name="audio-file-requirements"></a>Requisitos de archivos de audio
 
-La aplicación estacionamiento de llamadas solo admite archivos de audio de Windows Media (. WMA) para la música en espera. Puede usar Microsoft Expression Encoder 4 para personalizar los archivos para la música en espera. Para descargar Expression Encoder 4, mira "Expression Encoder 4" en [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843). Use la herramienta para convertir el archivo en un formato .wma. El formato recomendado para los archivos de música en espera de estacionamiento de llamadas es media audio 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
+La aplicación estacionamiento de llamadas solo admite archivos de audio de Windows Media (. WMA) para la música en espera. Puede usar Microsoft Expression Encoder 4 para personalizar los archivos para la música en espera. Para descargar Expression Encoder 4, mira "Expression Encoder 4" en [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) . Use la herramienta para convertir el archivo en un formato .wma. El formato recomendado para los archivos de música en espera de estacionamiento de llamadas es media audio 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
 
 <div>
 

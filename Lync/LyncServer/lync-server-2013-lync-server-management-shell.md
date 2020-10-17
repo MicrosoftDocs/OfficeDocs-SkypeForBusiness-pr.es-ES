@@ -12,20 +12,22 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc4ab6a9c32a8b060308526fcdb1f1da403a9e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b77fae816140784e35c81dd9c30f4cf8790f5bef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534737"
 ---
+# <a name="lync-server-2013-management-shell"></a>Shell de administración de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-management-shell"></a>Shell de administración de Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**Última modificación del tema:** 2017-09-20_
 
 
 > [!NOTE]  
-> La referencia del cmdlet de Skype empresarial se ha movido a docs.microsoft.com. Al hacer clic en los siguientes vínculos, se le llevará a la nueva página de docs.microsoft.com. El contenido se encuentra ahora abierto y disponible para contribuciones de la comunidad a través de GitHub. ¿Está interesado en colaborar? Consulte el archivo Léame en el repositorio aquí:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> La referencia del cmdlet de Skype empresarial se ha movido a docs.microsoft.com. Al hacer clic en los siguientes vínculos, se le llevará a la nueva página de docs.microsoft.com. El contenido se encuentra ahora abierto y disponible para contribuciones de la comunidad a través de GitHub. ¿Está interesado en colaborar? Consulte el archivo Léame en el repositorio aquí: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -74,7 +76,7 @@ Aspectos que debe conocer sobre Windows PowerShell en Lync Server 2013:
 
   - El shell de administración de Lync Server se instala automáticamente en cada servidor front-end de Lync Server Enterprise Edition o servidor Standard Edition.
 
-  - La información nueva y actualizada, los scripts de ejemplo y la ayuda para empezar y aprender más acerca de Windows PowerShell y los cmdlets de 2013 de Microsoft Lync Server están disponibles [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)en el blog de Lync Server Windows PowerShell.
+  - La información nueva y actualizada, los scripts de ejemplo y la ayuda para empezar y aprender más acerca de Windows PowerShell y los cmdlets de 2013 de Microsoft Lync Server están disponibles en el blog de Lync Server Windows PowerShell [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150) .
 
 </div>
 

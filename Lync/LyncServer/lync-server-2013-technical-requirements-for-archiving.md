@@ -12,20 +12,22 @@ ms:contentKeyID: 48184732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d2ba284f64b311ad48191cf251d1b3d903f595a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f0d1b609f7e053823de68363059d7c8b35c0659
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533937"
 ---
+# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>Requisitos técnicos para el archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>Requisitos técnicos para el archivado en Lync Server 2013
+
 
 </div>
 
@@ -108,7 +110,7 @@ De manera adicional, debe configurar la infraestructura de almacenamiento de arc
     
     </div>
     
-    Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluida como parte del procedimiento de instalación. Para obtener más información acerca de SQL Server, vea SQL Server [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045)TechCenter en.
+    Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluida como parte del procedimiento de instalación. Para obtener más información acerca de SQL Server, vea SQL Server TechCenter en [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045) .
 
 </div>
 

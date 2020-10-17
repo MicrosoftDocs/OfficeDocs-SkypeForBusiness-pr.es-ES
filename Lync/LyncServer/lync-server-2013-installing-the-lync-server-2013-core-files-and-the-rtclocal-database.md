@@ -12,20 +12,22 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41eefd8316e0e33ab8c4418a6ce72ea9eb05fc84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc12092e08980fcb1863b18805260ac307cc6d3d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534867"
 ---
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Instalación de los archivos principales de Lync Server 2013 y la base de datos de RTCLocal
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Instalación de los archivos principales de Lync Server 2013 y la base de datos de RTCLocal
+
 
 </div>
 

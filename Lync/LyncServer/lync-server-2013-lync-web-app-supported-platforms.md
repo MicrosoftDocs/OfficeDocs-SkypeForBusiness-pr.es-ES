@@ -12,20 +12,22 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcc5de45da918547a2c26b0e3fcc1e7768c1cbe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186103"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534617"
 ---
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Plataformas compatibles con Lync Web App para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Plataformas compatibles con Lync Web App para Lync Server 2013
+
 
 </div>
 
@@ -183,7 +185,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 
 <sup>3</sup> en sistemas operativos Windows Server 2008 compatibles, no hay disponibles voz y vídeo basados en el equipo. Están disponibles la visualización de aplicaciones, el uso compartido de aplicaciones, la visualización de escritorio y el uso compartido de escritorio.
 
-<sup>4</sup> el complemento requiere compatibilidad con NPAPI en el explorador. Firefox eliminó la compatibilidad con NPAPI en la versión 52,0 y la compatibilidad con Chrome eliminados en la versión 45, por lo que estos exploradores ya no son compatibles con sus versiones actuales.
+<sup>4</sup>  el complemento requiere compatibilidad con NPAPI en el explorador. Firefox eliminó la compatibilidad con NPAPI en la versión 52,0 y la compatibilidad con Chrome eliminados en la versión 45, por lo que estos exploradores ya no son compatibles con sus versiones actuales.
 
 </div>
 

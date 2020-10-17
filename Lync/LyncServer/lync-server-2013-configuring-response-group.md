@@ -12,20 +12,22 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c40f48b52759bfc12441a558b85de89d149f4bf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56c9c9afd351709430efd4e42d5db6b79113fa80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196493"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534997"
 ---
+# <a name="configuring-response-group-in-lync-server-2013"></a>Configuración del grupo de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-response-group-in-lync-server-2013"></a>Configuración del grupo de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Esta sección le guiará a través de la configuración del grupo de respuesta 2
 
 
 > [!TIP]  
-> Para obtener información detallada sobre cómo crear un grupo de respuesta mediante el shell de administración de Lync Server, incluido un script de ejemplo, consulte "creación del primer grupo de <A href="https://go.microsoft.com/fwlink/p/?linkid=204108">https://go.microsoft.com/fwlink/p/?linkId=204108</A>respuesta con el shell de administración de Lync Server" en.
+> Para obtener información detallada sobre cómo crear un grupo de respuesta mediante el shell de administración de Lync Server, incluido un script de ejemplo, consulte "creación del primer grupo de respuesta con el shell de administración de Lync Server" en <A href="https://go.microsoft.com/fwlink/p/?linkid=204108">https://go.microsoft.com/fwlink/p/?linkId=204108</A> .
 
 
 
@@ -79,7 +81,7 @@ Esta sección le guiará a través de la configuración del grupo de respuesta 2
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de características de administración de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7be6cd7dcf58cae1cfe794c6a27d27fc5aaa5193
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63ee7f494b131fc194d6bf9d028525efd71cf0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186113"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534687"
 ---
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Requisitos previos del complemento Lync VDI en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Requisitos previos del complemento Lync VDI en Lync Server 2013
+
 
 </div>
 
@@ -46,9 +48,9 @@ En un entorno de infraestructura de escritorio virtual (VDI), las máquinas virt
 > Consulte al proveedor de soluciones de virtualización para obtener más información sobre la instalación y la implementación del entorno virtualizado. Para más información sobre la implementación de un entorno virtualizado en función de los servicios de Hyper-V y de escritorio remoto, consulte los artículos siguientes en la biblioteca de TechNet de Microsoft: 
 > <UL>
 > <LI>
-> <P>Hyper-V en<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
+> <P>Hyper-V en <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
 > <LI>
-> <P>Servicios de escritorio remoto en Windows&nbsp;Server&nbsp;2008 R2 en<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
+> <P>Servicios de escritorio remoto en Windows Server &nbsp; 2008 &nbsp; R2 en <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
 
 
 
@@ -66,7 +68,7 @@ A continuación se indican los requisitos para el usuario y el equipo local del 
 
   - Si usa servicios de escritorio remoto, el bits de complemento de VDI de Lync (es decir, si la aplicación es de 32 bits o de 64 bits) debe coincidir con los bits del sistema operativo del equipo local. No es necesario que coincidan el valor de bits del sistema operativo del equipo local y del sistema operativo de la máquina virtual. Si usa otra plataforma u otra solución de virtualización, consulte a su proveedor de soluciones de virtualización para informarse de los requisitos del valor de bits.
 
-  - El equipo local debe ejecutar la última versión del cliente de escritorio remoto. Instale las últimas actualizaciones de cliente de los servicios de escritorio remoto de Microsoft o el último software cliente de escritorio remoto del proveedor de soluciones de virtualización. Para obtener las actualizaciones más recientes de servicios de [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)escritorio remoto, consulte.
+  - El equipo local debe ejecutar la última versión del cliente de escritorio remoto. Instale las últimas actualizaciones de cliente de los servicios de escritorio remoto de Microsoft o el último software cliente de escritorio remoto del proveedor de soluciones de virtualización. Para obtener las actualizaciones más recientes de servicios de escritorio remoto, consulte [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
   - En el PC local, configure el cliente de escritorio remoto para que el audio se reproduzca en el PC local y que la grabación remota esté deshabilitada. Para configurar estas opciones para conexión a escritorio remoto en Windows, consulte la sección siguiente, "para configurar las opciones de conexión a escritorio remoto".
 
@@ -76,7 +78,7 @@ A continuación se indican los requisitos para el usuario y el equipo local del 
 
 Para preparar la conexión a escritorio remoto en Windows para el complemento de VDI de Lync, siga estos pasos.
 
-1.  Si el equipo local ejecuta Windows 8, omita este paso. Si el equipo local ejecuta Windows 7 con SP1, instale la versión más reciente de Windows 8 del cliente de servicios de escritorio remoto, [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)disponible en.
+1.  Si el equipo local ejecuta Windows 8, omita este paso. Si el equipo local ejecuta Windows 7 con SP1, instale la versión más reciente de Windows 8 del cliente de servicios de escritorio remoto, disponible en [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) .
 
 2.  Inicie el cliente de servicios de escritorio remoto haciendo clic en **Iniciar** y después en **Conexión a escritorio remoto**.
 

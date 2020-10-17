@@ -12,20 +12,22 @@ ms:contentKeyID: 48184996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e5af1f53cc35bd22fcc09058a0aecb1b499897f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8da75a0be0e2f6aadd6cca95b19134f0653b3c9c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534357"
 ---
+# <a name="modify-quality-of-experience-settings-in-lync-server-2013"></a>Modificar la configuración de la calidad de la experiencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-quality-of-experience-settings-in-lync-server-2013"></a>Modificar la configuración de la calidad de la experiencia en Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ El procedimiento siguiente describe cómo establecer la configuración de la dep
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Especificación de la retención de la QoE mediante cmdlets de Windows PowerShell
 
-Puede crear la configuración de retención de la QoE con Windows PowerShell y el cmdlet **set-CsQoEConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede crear la configuración de retención de la QoE con Windows PowerShell y el cmdlet **set-CsQoEConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -103,7 +105,7 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [set-CsQoEC
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Implementación de la supervisión en Lync Server 2013](lync-server-2013-deploying-monitoring.md)  

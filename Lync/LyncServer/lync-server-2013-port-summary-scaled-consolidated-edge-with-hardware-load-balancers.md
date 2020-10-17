@@ -12,20 +12,22 @@ ms:contentKeyID: 48184841
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6af913a6be7b92a7a640a2e06537197ba21351c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dc4a56edb79d2eff52bf0d234aedcee1b3cdced4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183873"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534117"
 ---
+# <a name="port-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Resumen de Puerto-servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Resumen de Puerto-servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013
+
 
 </div>
 
@@ -193,19 +195,19 @@ Para que el acceso remoto funcione para cualquier servicio perimetral, es obliga
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Interfaz interna del servidor perimetral</p></td>
-<td><p>Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</p></td>
+<td><p>Controlador del servicio de registro centralizado con el shell de administración de Lync Server y los cmdlets del servicio de registro centralizado, la línea de comandos de ClsController (ClsController.exe) o los comandos y la colección de registros del agente (ClsAgent.exe)</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Interfaz interna del servidor perimetral</p></td>
-<td><p>Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</p></td>
+<td><p>Controlador del servicio de registro centralizado con el shell de administración de Lync Server y los cmdlets del servicio de registro centralizado, la línea de comandos de ClsController (ClsController.exe) o los comandos y la colección de registros del agente (ClsAgent.exe)</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Interfaz interna del servidor perimetral</p></td>
-<td><p>Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</p></td>
+<td><p>Controlador del servicio de registro centralizado con el shell de administración de Lync Server y los cmdlets del servicio de registro centralizado, la línea de comandos de ClsController (ClsController.exe) o los comandos y la colección de registros del agente (ClsAgent.exe)</p></td>
 </tr>
 </tbody>
 </table>

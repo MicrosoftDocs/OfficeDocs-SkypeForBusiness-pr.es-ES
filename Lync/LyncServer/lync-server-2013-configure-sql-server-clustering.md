@@ -12,20 +12,22 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59c02a5ab417a17c7c81b2c495ce96e6948aebc7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 21fac13a22e2b2acf400ca154551a0705544644f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179897"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535217"
 ---
+# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Configurar la organización en clústeres de SQL Server para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Configurar la organización en clústeres de SQL Server para Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2014-01-10_
 
 Microsoft Lync Server 2013 admite clústeres para SQL Server 2012 y SQL Server 2008 R2. Para obtener más información sobre lo que se admite, consulte [compatibilidad de software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md).
 
-Debe configurar y configurar el clúster de SQL Server antes de instalar e implementar la base de datos back-end y el servidor front-end Enterprise Edition. Para conocer los procedimientos recomendados y las instrucciones de configuración de los clústeres de conmutación <https://technet.microsoft.com/library/hh231721.aspx>por error en SQL Server 2012, consulte. Para clústeres de conmutación por error en SQL Server <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>2008, consulte.
+Debe configurar y configurar el clúster de SQL Server antes de instalar e implementar la base de datos back-end y el servidor front-end Enterprise Edition. Para conocer los procedimientos recomendados y las instrucciones de configuración de los clústeres de conmutación por error en SQL Server 2012, consulte <https://technet.microsoft.com/library/hh231721.aspx> . Para clústeres de conmutación por error en SQL Server 2008, consulte <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> .
 
 Cuando instale SQL Server, instale también SQL Server Management Studio para administrar las ubicaciones de la base de datos y las ubicaciones de archivo de registro. SQL Server Management Studio se instala como componente adicional al instalar SQL Server.
 
@@ -57,7 +59,7 @@ Cuando instale SQL Server, instale también SQL Server Management Studio para ad
 
 ## <a name="to-configure-sql-server-clustering"></a>Para configurar clústeres SQL Server
 
-1.  Una vez completada la instalación y la configuración de la agrupación en clústeres de SQL Server, defina el almacén de SQL Server en Topology Builder mediante el nombre del clúster virtual de instancia de SQL Server (tal y como se ha configurado en la configuración de la agrupación en clústeres de SQL Server) y la instancia nombre de la base de datos de SQL Server. A diferencia de lo que sucede con un solo servidor basado en SQL Server, usará el nombre de dominio completo (FQDN) del nodo virtual para un servidor en clúster basado en SQL Server.
+1.  Una vez completada la instalación y la configuración de la agrupación en clústeres de SQL Server, defina el almacén de SQL Server en Topology Builder mediante el nombre del clúster virtual de instancia de SQL Server (como se ha configurado en la configuración de clústeres de SQL Server) y el nombre de instancia de la base de datos de SQL Server. A diferencia de lo que sucede con un solo servidor basado en SQL Server, usará el nombre de dominio completo (FQDN) del nodo virtual para un servidor en clúster basado en SQL Server.
     
     <div>
     

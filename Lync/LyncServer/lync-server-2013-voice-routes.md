@@ -12,20 +12,22 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434f7cc92fd6a6bc284074cce476f4bc3b2eca01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0f457fc96981927ea2b6cb4d4177488dc3f5231
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211076"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535497"
 ---
+# <a name="voice-routes-in-lync-server-2013"></a>Rutas de voz en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routes-in-lync-server-2013"></a>Rutas de voz en Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ Lync Server proporciona flexibilidad en la forma en que las llamadas se enrutan 
 
 <div>
 
-## <a name="least-cost-routing"></a>Enrutamiento de menor costo
+## <a name="least-cost-routing"></a>Enrutamiento de Least-Cost
 
 La capacidad de especificar los troncos a los que se redirigen varios números le permite determinar qué rutas incurren en el menor costo y las implementan en consecuencia. La regla general en la selección de troncos es elegir el tronco con la puerta de enlace más cercana a la ubicación del número de destino con el fin de minimizar los gastos de larga distancia. Por ejemplo, si se encuentran en Nueva York y se llama a un número en Roma, se llevará a cabo la llamada a través de la red IP al tronco con la puerta de enlace en la oficina de la Roma, por lo que incurre en una carga solo para una llamada local.
 
@@ -97,7 +99,7 @@ En la planeación de los troncos que asocian puertas de enlace: pares de puertos
 
 ## <a name="configuring-caller-id"></a>Configuración del identificador de llamada
 
-Lync Server proporciona una forma de manipular el identificador de llamada para las llamadas salientes. Por ejemplo, si una organización desea enmascarar las extensiones de marcado directo de los empleados y reemplazarlas por el número genérico Corporate o departamental, un administrador puede hacerlo mediante el panel de control de Lync Server para suprimir el identificador de llamada y reemplazarlo por un IDENTIFICADOR de llamada alternativo especificado. En planear la lógica de enrutamiento, tenga en cuenta qué individuos, grupos y sitios desea que tenga esta opción (quizá, incluso, para todos los empleados).
+Lync Server proporciona una forma de manipular el identificador de llamada para las llamadas salientes. Por ejemplo, si una organización desea enmascarar las extensiones de marcado directo de los empleados y reemplazarlas por el número genérico Corporate o departamental, un administrador puede hacerlo mediante el panel de control de Lync Server para suprimir el identificador de llamada y reemplazarlo por un identificador de llamada alternativo especificado. En planear la lógica de enrutamiento, tenga en cuenta qué individuos, grupos y sitios desea que tenga esta opción (quizá, incluso, para todos los empleados).
 
 <div>
 

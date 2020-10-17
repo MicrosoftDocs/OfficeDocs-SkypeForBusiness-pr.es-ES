@@ -12,20 +12,22 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2fc5aec6371bff867c2e33dbe7b88aa0d2a888c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534553"
 ---
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Administrar anuncios durante la recuperación ante desastres en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Administrar anuncios durante la recuperación ante desastres en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Esta sección se aplica a los intervalos de números sin asignar que usan la apl
 
 Independientemente de si decide usar anuncios durante las interrupciones, debe realizar copias de seguridad separadas de los archivos de audio personalizados que haya configurado para la aplicación de anuncio. No se realiza una copia de seguridad de los anuncios personalizados como parte del proceso de recuperación ante desastres de Lync Server. Si no hace copias de seguridad independientes, los archivos que ha cargado en el servidor o en el grupo se perderán si se dañan o se borran.
 
-Si no tiene copias de seguridad de los archivos de audio personalizados y los archivos de audio originales ya no están disponibles, puede buscar los archivos de audio que configuró para una aplicación de anuncio en el almacén de archivos del servidor o grupo de servidores donde originalmente importado los archivos. Puede copiar todos los archivos de audio que haya configurado para la aplicación de anuncio desde el almacén de archivos.
+Si no tiene copias de seguridad de los archivos de audio personalizados y los archivos de audio originales ya no están disponibles, puede buscar los archivos de audio que configuró para una aplicación de anuncio en el almacén de archivos del servidor o grupo de servidores donde importó originalmente los archivos. Puede copiar todos los archivos de audio que haya configurado para la aplicación de anuncio desde el almacén de archivos.
 
 **Para copiar archivos de audio desde el almacén de archivos**
 

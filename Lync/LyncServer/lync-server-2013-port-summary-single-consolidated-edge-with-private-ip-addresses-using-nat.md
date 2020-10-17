@@ -12,20 +12,22 @@ ms:contentKeyID: 48183877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 870732df847d589ebb24751977babc8182d79a3f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a5aaa4628a92174aca39579c5f2e6a8e4f31987
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183849"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534007"
 ---
+# <a name="port-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Resumen de Puerto-perímetro consolidado de un solo servidor con direcciones IP privadas mediante NAT en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Resumen de Puerto-perímetro consolidado de un solo servidor con direcciones IP privadas mediante NAT en Lync Server 2013
+
 
 </div>
 
@@ -241,19 +243,19 @@ Para que el acceso remoto funcione para cualquier servicio perimetral, es obliga
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Interfaz interna del servidor perimetral</p></td>
-<td><p>Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</p></td>
+<td><p>Controlador del servicio de registro centralizado con el shell de administración de Lync Server y los cmdlets del servicio de registro centralizado, la línea de comandos de ClsController (ClsController.exe) o los comandos y la colección de registros del agente (ClsAgent.exe)</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Interfaz interna del servidor perimetral</p></td>
-<td><p>Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</p></td>
+<td><p>Controlador del servicio de registro centralizado con el shell de administración de Lync Server y los cmdlets del servicio de registro centralizado, la línea de comandos de ClsController (ClsController.exe) o los comandos y la colección de registros del agente (ClsAgent.exe)</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Interfaz interna del servidor perimetral</p></td>
-<td><p>Controlador del servicio de registro centralizado con los cmdlets del shell de administración de Lync Server y el servicio de registro centralizado, la línea de comandos de ClsController (ClsController. exe) o los comandos y la colección de registros del agente (ClsAgent. exe)</p></td>
+<td><p>Controlador del servicio de registro centralizado con el shell de administración de Lync Server y los cmdlets del servicio de registro centralizado, la línea de comandos de ClsController (ClsController.exe) o los comandos y la colección de registros del agente (ClsAgent.exe)</p></td>
 </tr>
 </tbody>
 </table>
@@ -286,7 +288,7 @@ Para que el acceso remoto funcione para cualquier servicio perimetral, es obliga
 <td><p>Acceso/SIP (MTLS)/TCP/5061</p></td>
 <td><p>Dirección IP pública del servicio perimetral de acceso</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Para conectividad de mensajería instantánea pública y federada mediante SIP</p></td>
+<td><p>Para la conectividad de MI pública y federada mediante SIP</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93ce3e013f5c0578c78db3ceee8ab1d65481efbb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ffa6108760955de643b7ffa4afe841464ae140f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211117"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535597"
 ---
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>Ver informes desde el analizador de procedimientos recomendados en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>Ver informes desde el analizador de procedimientos recomendados en Lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ Use este procedimiento para visualizar los resultados de análisis que el Analiz
       - Para ver informes desde la lista de resultados de análisis almacenados localmente, haga clic en el nombre del análisis y, después, en **Ver un informe de este análisis**.
         
         > [!NOTE]  
-        > El analizador de procedimientos recomendados crea la lista de archivos locales de la &lt;carpeta&gt;\\unidadDelSistema Documents\\&lt;and&gt;Settings usuario \Datos de Data\Microsoft\RtcBPA.
+        > El analizador de procedimientos recomendados crea la lista de archivos locales de la carpeta &lt; unidadDelSistema &gt; \\ Documents and Settings \\ &lt; usuario &gt; \Datos de Data\Microsoft\RtcBPA.
     
       - Para ver los informes de resultados de un análisis que están almacenados en otra ubicación, haga clic en **Importar análisis**, busque el archivo que contiene los resultados del análisis y haga clic en **Abrir**.
         

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112f9e5a90e0b7b73acc40c6c7ec9d68b256d45d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2118cac5e8380d27e8f273f5cb469efdbddfd9bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184913"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534337"
 ---
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Modificar la configuración de los archivos de registro de actualización de dispositivos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Modificar la configuración de los archivos de registro de actualización de dispositivos en Lync Server 2013
+
 
 </div>
 
@@ -57,25 +59,25 @@ La configuración del registro se puede cambiar y aplicar globalmente o por siti
 <tr class="odd">
 <td><p>Tamaño máximo (en bytes) de un archivo de registro</p></td>
 <td><p>Panel de Control de Lync Server</p>
-<p>O bien,</p>
+<p>– O bien –</p>
 <p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="even">
 <td><p>La cantidad máxima de información (en bytes) que se puede almacenar en la memoria caché</p></td>
 <td><p>Panel de Control de Lync Server</p>
-<p>O bien,</p>
+<p>– O bien –</p>
 <p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="odd">
 <td><p>Frecuencia (en minutos) con la que se escribe la información almacenada en caché en el archivo de registro</p></td>
 <td><p>Panel de Control de Lync Server</p>
-<p>O bien,</p>
+<p>– O bien –</p>
 <p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="even">
 <td><p>Tiempo (en días) que se conservarán los archivos de registro</p></td>
 <td><p>Panel de Control de Lync Server</p>
-<p>O bien,</p>
+<p>– O bien –</p>
 <p>Shell de administración de Communications Server</p></td>
 </tr>
 <tr class="odd">
@@ -106,13 +108,13 @@ La configuración del registro se puede cambiar y aplicar globalmente o por siti
 
 4.  En el cuadro de diálogo **Editar configuración del registro** , cambie cualquiera de las siguientes opciones de configuración:
     
-      - **Tamaño máximo de archivo (bytes)**   especifica el tamaño máximo que puede tener un archivo de registro antes de ser purgado. El valor predeterminado es 1.024.000 (1 MB).
+      - **Tamaño máximo de archivo (bytes)**     Especifica el tamaño máximo que puede llegar a un archivo de registro antes de purgarse. El valor predeterminado es 1.024.000 (1 MB).
     
-      - **Tamaño máximo de la memoria caché (bytes)**   especifica la cantidad máxima de información (en bytes) que se puede conservar en la memoria caché de archivos de registro antes de que se borre dicha memoria caché y se escriban los datos en un archivo de registro. El valor predeterminado es 512.000 (0,5 MB).
+      - **Tamaño máximo de la memoria caché (bytes)**     Especifica la cantidad máxima de información (en bytes) que se puede conservar en la memoria caché de archivos de registro antes de que se elimine la memoria caché y se escriban los datos en un archivo de registro. El valor predeterminado es 512.000 (0,5 MB).
     
-      - **Número de minutos para vaciar la memoria caché (1-60)**   indica la frecuencia con la que la información almacenada en la memoria caché del archivo de registro se escribe en el archivo de registro real. Una vez se ha registrado la información, la memoria caché se borra. El valor predeterminado es cinco minutos.
+      - **Número de minutos de vaciado de la memoria caché (1-60)**     Indica la frecuencia con la que la información almacenada en la memoria caché del archivo de registro se escribe en el archivo de registro real. Una vez se ha registrado la información, la memoria caché se borra. El valor predeterminado es cinco minutos.
     
-      - **Número de días que se conservarán los archivos de registro (1-365)**   especifica el número de días que se conservan los archivos de registro antes de que se purguen. El valor predeterminado es 10 días.
+      - **Número de días que se conservarán los archivos de registro (1-365)**     Especifica el número de días que se conservan los archivos de registro antes de que se purguen. El valor predeterminado es 10 días.
 
 5.  Haga clic en **Confirmar**.
 
@@ -128,7 +130,7 @@ La configuración del archivo de registro de actualización de dispositivos se p
 
 
 > [!NOTE]  
-> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
+> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .
 
 
 

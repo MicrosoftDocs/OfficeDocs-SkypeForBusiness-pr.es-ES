@@ -12,20 +12,22 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6259614da322e79f69db40441125b28c95e379c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dfe8a797fa926899774386101ff57fa5733b9918
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183913"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534157"
 ---
+# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Resumen de Puerto-proxy inverso en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Resumen de Puerto-proxy inverso en Lync Server 2013
+
 
 </div>
 
@@ -84,7 +86,7 @@ El proxy inverso tiene requisitos mínimos para el firewall y el puerto/protocol
 <td><p>HTTP/TCP/80</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Escucha de proxy inverso</p></td>
-<td><p>Opcional Redirección a HTTPS si el usuario escribe&lt;http://&gt;publishedSiteFQDN.</p>
+<td><p>Opcional Redirección a HTTPS si el usuario escribe http:// &lt; publishedSiteFQDN &gt; .</p>
 <p>También es necesario si usa Office Web Apps para conferencias y el servicio Detección automática para dispositivos móviles que ejecutan Lync en situaciones en las que la organización no desea modificar el certificado de la regla de publicación de servicios web externos.</p></td>
 </tr>
 <tr class="even">

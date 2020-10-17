@@ -12,20 +12,22 @@ ms:contentKeyID: 48184143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99f77fd153b9c4a111504ac16737527cb68b1ad7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b11b9921d7eda940c5ad8debf48aeb6f2388bfda
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217416"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534387"
 ---
+# <a name="modify-an-existing-pin-policy-in-lync-server-2013"></a>Modificar una directiva de PIN existente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-an-existing-pin-policy-in-lync-server-2013"></a>Modificar una directiva de PIN existente en Lync Server 2013
+
 
 </div>
 

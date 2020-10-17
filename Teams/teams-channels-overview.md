@@ -12,17 +12,22 @@ description: Obtenga información sobre los diferentes equipos, canales y aplica
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: okr_smb
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
+- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
+- ms.teamsadmincenter.teamschannel.overview
+- ms.teamsadmincenter.teamssettings.overview
+- okr_smb
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36c29eaba8a16bde44e9f3537eee9950c53d2715
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a6c4e8f37a00ddfb464630eeb644db3d550781d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534957"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 

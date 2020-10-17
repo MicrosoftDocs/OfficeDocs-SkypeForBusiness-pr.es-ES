@@ -12,20 +12,22 @@ ms:contentKeyID: 49733678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bc8ad2f5372ee9b434a1236e9d0cbba0f34a5de
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec5d280d05089c4f1efc4fd8c54ab4841d24621d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535007"
 ---
+# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Configuración de proveedores para el servicio de registro centralizado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>Configuración de proveedores para el servicio de registro centralizado en Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42204876"
 
 _**Última modificación del tema:** 2014-03-19_
 
-Los conceptos y la configuración de los *proveedores* en el servicio de registro centralizado son uno de los más importantes que se deben comprender. Los *proveedores* se asignan directamente a los componentes del rol de servidor de Lync Server en el modelo de seguimiento de Lync Server. El proveedor define los componentes de un 2013 de Lync Server en los que se realizará un seguimiento, el tipo de mensajes (por ejemplo, fatal, error o Warning) que se van a recopilar y las\_marcas (por\_ejemplo, TF Connection o TF Diag). Los proveedores son los componentes que se pueden rastrear en cada rol de servidor de Lync Server. Si usa proveedores, deberá establecer el nivel y el tipo de seguimiento de los componentes (S4, SIPStack, MI y presencia, por ejemplo). El proveedor definido se usa en un escenario para agrupar a todos los proveedores de una colección lógica determinada que abordan un problema concreto.
+Los conceptos y la configuración de los *proveedores* en el servicio de registro centralizado son uno de los más importantes que se deben comprender. Los *proveedores* se asignan directamente a los componentes del rol de servidor de Lync Server en el modelo de seguimiento de Lync Server. El proveedor define los componentes de un 2013 de Lync Server en los que se realizará un seguimiento, el tipo de mensajes (por ejemplo, fatal, error o Warning) que se van a recopilar y las marcas (por ejemplo, TF \_ Connection o TF \_ Diag). Los proveedores son los componentes que se pueden rastrear en cada rol de servidor de Lync Server. Si usa proveedores, deberá establecer el nivel y el tipo de seguimiento de los componentes (S4, SIPStack, MI y presencia, por ejemplo). El proveedor definido se usa en un escenario para agrupar a todos los proveedores de una colección lógica determinada que abordan un problema concreto.
 
-Para ejecutar las funciones del servicio de registro centralizado con el shell de administración de Lync Server, debe ser miembro de los grupos de seguridad CsAdministrator o CsServerAdministrator role-based access control (RBAC), o un rol RBAC personalizado que contenga cualquiera de Estos dos grupos. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se ha asignado este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), ejecute el siguiente comando desde el shell de administración de Lync Server o el símbolo del sistema de Windows PowerShell:
+Para ejecutar las funciones del servicio de registro centralizado con el shell de administración de Lync Server, debe ser miembro de los grupos de seguridad CsAdministrator o CsServerAdministrator role-based access control (RBAC), o un rol RBAC personalizado que contenga cualquiera de estos dos grupos. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se ha asignado este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), ejecute el siguiente comando desde el shell de administración de Lync Server o el símbolo del sistema de Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -47,7 +49,7 @@ Por ejemplo:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-El resto de este tema se centra en cómo definir proveedores, modificar un proveedor y qué contiene una definición de proveedor para optimizar la solución de problemas. Hay dos formas de emitir comandos de servicio de registro centralizado. Puede usar el CLSController. exe que se encuentra, de manera predeterminada, en el directorio C:\\archivos de\\programa archivos\\comunes Microsoft Lync Server\\2013 CLSAgent. O bien, puede usar el shell de administración de Lync Server para emitir comandos de Windows PowerShell. La diferencia importante es que cuando se utiliza CLSController. exe en la línea de comandos, hay una selección finita de escenarios disponibles en los que los proveedores ya están definidos y no son modificables, pero puede definir el nivel de registro. Con Windows PowerShell, puede definir nuevos proveedores para usarlos en sus sesiones de registro y tener un control completo sobre su creación, lo que recopilan y el nivel en el que recopilan datos.
+El resto de este tema se centra en cómo definir proveedores, modificar un proveedor y qué contiene una definición de proveedor para optimizar la solución de problemas. Hay dos formas de emitir comandos de servicio de registro centralizado. Puede usar el CLSController.exe ubicado, de forma predeterminada, en el directorio C: archivos \\ comunes de archivos de programa \\ \\ Microsoft Lync Server 2013 \\ CLSAgent. O bien, puede usar el shell de administración de Lync Server para emitir comandos de Windows PowerShell. La diferencia importante es que cuando utiliza CLSController.exe en la línea de comandos, hay una selección finita de escenarios disponibles en los que los proveedores ya están definidos y no se pueden usar, pero puede definir el nivel de registro. Con Windows PowerShell, puede definir nuevos proveedores para usarlos en sus sesiones de registro y tener un control completo sobre su creación, lo que recopilan y el nivel en el que recopilan datos.
 
 <div class="">
 
@@ -61,35 +63,35 @@ El resto de este tema se centra en cómo definir proveedores, modificar un prove
 
 Se incorporó en [información general del servicio de registro centralizado en Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), los elementos clave de la definición de un proveedor para usarlo en un escenario son los siguientes:
 
-  - **Proveedores**   si está familiarizado con OCSLogger, los proveedores son los componentes que elija para determinar OCSLogger de qué debe recopilar los registros el motor de seguimiento. Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son componentes específicos de roles de servidor de los que el servicio de registro centralizado puede recopilar registros. En el caso del servicio de registro centralizado, CLSAgent es la parte de la arquitectura del servicio de registro centralizado que realiza el seguimiento de los componentes que se definen en la configuración de los proveedores.
+  - **Proveedores**     Si está familiarizado con OCSLogger, los proveedores son los componentes que elija para determinar OCSLogger de qué debe recopilar los registros el motor de seguimiento. Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son componentes específicos de roles de servidor de los que el servicio de registro centralizado puede recopilar registros. En el caso del servicio de registro centralizado, CLSAgent es la parte de la arquitectura del servicio de registro centralizado que realiza el seguimiento de los componentes que se definen en la configuración de los proveedores.
 
-  - **Los niveles**   de registro OCSLogger proporcionan la opción de elegir un número de niveles de detalle para los datos recopilados. Esta característica forma parte integral del servicio de registro centralizado y los escenarios, y se define mediante el parámetro **Type** . Se puede elegir entre las opciones siguientes:
+  - **Niveles**     de registro OCSLogger proporcionó la opción de elegir un número de niveles de detalle para los datos recopilados. Esta característica forma parte integral del servicio de registro centralizado y los escenarios, y se define mediante el parámetro **Type** . Se puede elegir entre las opciones siguientes:
     
-      - **All**   recopila mensajes de seguimiento de tipo error irrecuperable, error, advertencia e información en el registro para el proveedor definido.
+      - **Todas las**     Recopila mensajes de seguimiento de tipo error irrecuperable, error, advertencia e información en el registro para el proveedor definido.
     
-      - **Fatal**   recopila solo los mensajes de seguimiento que indican un error para el proveedor definido.
+      - **Error irrecuperable**     Recopila solo los mensajes de seguimiento que indican un error para el proveedor definido.
     
-      - **Error**   recopila solo los mensajes de seguimiento que indican un error para el proveedor definido, además de los mensajes irrecuperables.
+      - **Error**     Recopila solo los mensajes de seguimiento que indican un error para el proveedor definido, además de los mensajes irrecuperables.
     
-      - **ADVERTENCIA**   recopila solo los mensajes de seguimiento que indican una advertencia para el proveedor definido, además de los mensajes de error y de errores irrecuperables.
+      - **ADVERTENCIA**     Recopila solo los mensajes de seguimiento que indican una advertencia para el proveedor definido, además de los mensajes de error y de errores irrecuperables.
     
-      - **Información**   recopila solo los mensajes de seguimiento que indican un mensaje informativo para el proveedor definido, además de los mensajes de error, de errores y de advertencia.
+      - **Información**     Recopila solo los mensajes de seguimiento que indican un mensaje informativo para el proveedor definido, además de los mensajes de error, error y de advertencia.
     
-      - **Verbose**   recopila todos los mensajes de seguimiento de tipo error, advertencia e información del proveedor definido.
+      - **Verbose**     Recopila todos los mensajes de seguimiento de tipo error irrecuperable, error, advertencia e información para el proveedor definido.
 
-  - **Flags**   OCSLogger proporcionó la opción de elegir marcas para cada proveedor que definió el tipo de información que podía recuperar de los archivos de seguimiento. Se pueden elegir las siguientes marcas según el proveedor:
+  - **Marcas**     OCSLogger proporcionó la opción de elegir marcas para cada proveedor que definió el tipo de información que podría recuperar de los archivos de seguimiento. Se pueden elegir las siguientes marcas según el proveedor:
     
-      - **TF\_Connection**   proporciona entradas de registro relacionadas con la conexión. Estos registros incluyen información sobre las conexiones establecidas con un componente en particular. También pueden incluir información de nivel de red relevante (esto es, relacionada con componentes sin concepto de conexión).
+      - **TF \_ Conexión**     proporciona entradas de registro relacionadas con la conexión. Estos registros incluyen información sobre las conexiones establecidas con un componente en particular. También pueden incluir información de nivel de red relevante (esto es, relacionada con componentes sin concepto de conexión).
     
-      - **TF\_Security**   proporciona todos los eventos/entradas de registro relacionadas con la seguridad. Por ejemplo, para SipStack existen eventos de seguridad como error de validación de dominio y errores de autenticación/autorización de clientes.
+      - **TF \_ Security**     proporciona todos los eventos y las entradas de registro relacionadas con la seguridad. Por ejemplo, para SipStack existen eventos de seguridad como error de validación de dominio y errores de autenticación/autorización de clientes.
     
-      - **TF\_Diag**   proporciona eventos de diagnóstico que puede usar para diagnosticar o solucionar problemas del componente. Siguiendo con el ejemplo de SipStack, existen errores de certificado y errores/advertencias de DNS.
+      - **TF \_ Diag**     proporciona eventos de diagnóstico que puede usar para diagnosticar o solucionar problemas del componente. Siguiendo con el ejemplo de SipStack, existen errores de certificado y errores/advertencias de DNS.
     
-      - **TF\_Protocol**   proporciona mensajes de protocolo, como mensajes de SIP y del paquete de códecs de comunidad combinada.
+      - **TF \_ El protocolo**     proporciona mensajes de protocolo, como mensajes de SIP y del paquete de códecs de comunidad combinada.
     
-      - **TF\_Component**   habilita el registro de los componentes especificados como parte de los proveedores.
+      - **TF \_ El componente**     habilita el registro en los componentes especificados como parte de los proveedores.
     
-      - **All**   establece todas las marcas disponibles para el proveedor.
+      - **Todas las**     Establece todas las marcas disponibles para el proveedor.
 
 <div>
 
@@ -127,7 +129,7 @@ Se incorporó en [información general del servicio de registro centralizado en 
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
 
-–Level recopila los mensajes de error, error irrecuperable, advertencia y de carácter informativos. Las marcas usadas son todas las que se han definido para el proveedor Lyss e incluyen\_TF Connection,\_TF Diag and\_TF Protocol.
+–Level recopila los mensajes de error, error irrecuperable, advertencia y de carácter informativos. Las marcas usadas son todas las que se han definido para el proveedor Lyss e incluyen TF \_ Connection, TF \_ Diag and TF \_ Protocol.
 
 Después de definir la variable $LyssProvider, puede usarla con el cmdlet **New-CsClsScenario** para recopilar seguimiento del proveedor Lyss. Escriba lo siguiente para crear y asignar el proveedor a un nuevo escenario:
 
@@ -177,7 +179,7 @@ Donde cada proveedor definido con la directiva Add ya se ha definido a través d
 
 1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
-2.  Los cmdlets aquí suministrados permiten crear proveedores y actualizar los ya existentes. Para eliminar un proveedor, debe usar la directiva Replace del parámetro Provider de **Set-CsClsScenario**. La única forma de eliminar un proveedor por completo consiste en reemplazarlo por un proveedor predefinido que tenga el mismo nombre y usar la directiva Update. Por ejemplo, nuestro proveedor LyssProvider se define con WPP como el tipo de registro, Level establecido en Debug y Flags set es\_TF Connection y\_TF diag. Deberá cambiar las marcas a “All”. Escriba lo siguiente para cambiar el proveedor:
+2.  Los cmdlets aquí suministrados permiten crear proveedores y actualizar los ya existentes. Para eliminar un proveedor, debe usar la directiva Replace del parámetro Provider de **Set-CsClsScenario**. La única forma de eliminar un proveedor por completo consiste en reemplazarlo por un proveedor predefinido que tenga el mismo nombre y usar la directiva Update. Por ejemplo, nuestro proveedor LyssProvider se define con WPP como el tipo de registro, Level establecido en Debug y Flags set es TF \_ Connection y TF \_ diag. Deberá cambiar las marcas a “All”. Escriba lo siguiente para cambiar el proveedor:
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
 
@@ -208,7 +210,7 @@ Cuando se elimina un escenario con el cmdlet **Remove-CsClsScenario**, se quita 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 59893869
 ms.date: 07/20/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c24a94bf74b2ecf911179d64691e95153acceeeb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1acd743d3737232c6e6681b84e524549258d5ffe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210214"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535347"
 ---
+# <a name="windows-powershell-and-lync-server-2013-management-tools"></a>Herramientas de administración de Windows PowerShell y Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-and-lync-server-2013-management-tools"></a>Herramientas de administración de Windows PowerShell y Lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ En Microsoft Lync Server 2013, las herramientas de administración se implementa
 
   - **Panel de control de Lync Server**. Puede usar la interfaz de usuario del panel de control de Microsoft Lync Server 2013 para administrar las tareas más comunes en su implementación.
 
-Estas herramientas usan los cmdlets de Windows PowerShell para la administración de la implementación, incluidos los cmdlets cercanos a 550 específicos del producto. Los cmdlets de seguridad incluidos en Lync Server 2013 se usan principalmente para administrar la autenticación y los permisos y derechos de usuario. Hay una gran variedad de cmdlets para administrar la autenticación, por ejemplo cmdlets para certificado y autenticación del PIN. Además, una serie de cmdlets le permiten usar la nueva característica de control de acceso basado en roles (RBAC) para delegar el control administrativo de Lync Server 2013. Para obtener más información sobre los cmdlets de Lync Server, consulte [Lync server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md).
+Estas herramientas usan los cmdlets de Windows PowerShell para la administración de la implementación, incluidos los cmdlets cercanos a 550 específicos del producto. Los cmdlets de seguridad incluidos en Lync Server 2013 se usan principalmente para administrar la autenticación y los permisos y derechos de usuario. Hay una gran variedad de cmdlets para administrar la autenticación, por ejemplo cmdlets para certificado y autenticación del PIN. Además, una serie de cmdlets le permiten usar la nueva característica de control de acceso Role-Based (RBAC) para delegar el control administrativo de Lync Server 2013. Para obtener más información sobre los cmdlets de Lync Server, consulte [Lync server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md).
 
-Las características de seguridad de scripts de Windows PowerShell están diseñadas específicamente para ayudar a evitar algunos de los problemas de seguridad relacionados con las secuencias de comandos de tecnologías anteriores, como Microsoft Visual Basic Scripting Edition (VBScript). Las características de seguridad de Windows PowerShell están pensadas para crear un entorno en el que los usuarios no puedan ejecutar scripts fácilmente o sin saberlo. De forma predeterminada, las características de seguridad de Windows PowerShell están habilitadas. Puede modificar el estado de esas características para adaptarlo a sus necesidades de scripting y a una variedad de objetivos de seguridad. Esto no quiere decir que el shell impida a los usuarios ejecutar scripts. En su lugar, el shell dificulta (de forma predeterminada) que los usuarios ejecuten scripts sin darse cuenta de que lo hacen. Para obtener más información, consulte Seguridad de scripts de Windows PowerShell en [https://go.microsoft.com/fwlink/p/?LinkId=213145](https://go.microsoft.com/fwlink/p/?linkid=213145).
+Las características de seguridad de scripts de Windows PowerShell están diseñadas específicamente para ayudar a evitar algunos de los problemas de seguridad relacionados con las secuencias de comandos de tecnologías anteriores, como Microsoft Visual Basic Scripting Edition (VBScript). Las características de seguridad de Windows PowerShell están pensadas para crear un entorno en el que los usuarios no puedan ejecutar scripts fácilmente o sin saberlo. De forma predeterminada, las características de seguridad de Windows PowerShell están habilitadas. Puede modificar el estado de esas características para adaptarlo a sus necesidades de scripting y a una variedad de objetivos de seguridad. Esto no quiere decir que el shell impida a los usuarios ejecutar scripts. En su lugar, el shell dificulta (de forma predeterminada) que los usuarios ejecuten scripts sin darse cuenta de que lo hacen. Para obtener más información, consulte Seguridad de scripts de Windows PowerShell en [https://go.microsoft.com/fwlink/p/?LinkId=213145](https://go.microsoft.com/fwlink/p/?linkid=213145) .
 
 </div>
 

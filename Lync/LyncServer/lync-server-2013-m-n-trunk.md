@@ -12,20 +12,22 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: accb2efafddc9253deda7fa20006dd9093e32496
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91c0878623a68863aea219d1b3f3735042abc085
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186013"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534597"
 ---
+# <a name="mn-trunk-in-lync-server-2013"></a>M:N troncal en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mn-trunk-in-lync-server-2013"></a>M:N troncal en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ El servidor de mediación se puede implementar como un grupo de servidores; Este
 
   - **Controlador de borde de sesión.** Para un tronco SIP, la entidad del mismo nivel es un controlador de borde de sesión (SBC) en un proveedor de servicios de telefonía por Internet. En la dirección del grupo de servidores de mediación al SBC, el SBC puede recibir conexiones de cualquier servidor de mediación del grupo. En la dirección desde el SBC hasta el grupo, el tráfico puede enviarse a cualquier servidor de mediación del grupo. Esto puede conseguirse mediante el equilibrio de carga de DNS, si el SBC y el proveedor de servicios lo permiten. Una alternativa es proporcionar al proveedor de servicios las direcciones IP de todos los servidores de mediación en el grupo, y el proveedor de servicios aprovisionará estos en su SBC como un tronco SIP independiente para cada servidor de mediación. Después, el proveedor de servicios administrará el equilibrio de carga para sus propios servidores. No todos los proveedores de servicios y SBC admiten estas capacidades. Además, es posible que el proveedor de servicios exija costos adicionales. Por lo general, cada tronco SIP al SBC conlleva una cuota mensual.
 
-  - **IP-PBX.** En la dirección del grupo de servidores de mediación a la terminación SIP de IP-PBX, el IP-PBX puede recibir conexiones de cualquier servidor de mediación del grupo. En la dirección desde el IP-PBX hacia el grupo, el tráfico puede enviarse a cualquier servidor de mediación del grupo. Como la mayoría de IP-PBX no admiten el equilibrio de carga de DNS, se recomienda que las conexiones SIP directas individuales se puedan definir desde el IP-PBX a cada servidor de mediación del grupo. El sistema IP-PBX administrará su propio equilibrio de carga distribuyendo el tráfico en el grupo troncal. Se da por supuesto que el grupo troncal tiene un conjunto coherente de reglas de enrutamiento en el sistema IP-PBX. Si un IP-PBX en particular admite este concepto de grupo de tronco y cómo se interseca con la arquitectura de clústeres y la redundancia de IP-PBX que se debe determinar antes de decidir si un clúster de servidores de mediación puede interactuar correctamente con una IP-PBX.
+  - **IP-PBX.** En la dirección del grupo de servidores de mediación a la terminación SIP de IP-PBX, el IP-PBX puede recibir conexiones de cualquier servidor de mediación del grupo. En la dirección desde el IP-PBX hacia el grupo, el tráfico puede enviarse a cualquier servidor de mediación del grupo. Como la mayoría de IP-PBXs no admiten el equilibrio de carga de DNS, se recomienda que las conexiones SIP directas individuales se puedan definir desde el IP-PBX a cada servidor de mediación del grupo. El sistema IP-PBX administrará su propio equilibrio de carga distribuyendo el tráfico en el grupo troncal. Se da por supuesto que el grupo troncal tiene un conjunto coherente de reglas de enrutamiento en el sistema IP-PBX. Si un IP-PBX en particular admite este concepto de grupo de tronco y cómo se interseca con la arquitectura de clústeres y la redundancia de IP-PBX que se debe determinar antes de decidir si un clúster de servidores de mediación puede interactuar correctamente con una IP-PBX.
 
 Un grupo de servidores de mediación debe tener una vista uniforme de la puerta de enlace del mismo nivel con la que interactúe. Esto significa que todos los miembros del grupo de servidores obtienen acceso a la misma definición de la puerta de enlace de mismo nivel del almacén de configuración y tienen las mismas posibilidades de interactuar con ella para las llamadas salientes. Por lo tanto, no hay forma de segmentar el grupo para que algunos servidores de mediación se comuniquen solo con determinados homólogos de puerta de enlace para las llamadas salientes. Si esta segmentación es necesaria, se debe usar un grupo independiente de servidores de mediación. Por ejemplo, esto sucedería si las puertas de enlace RTC, troncos SIP o sistemas IP-PBX no tuvieran capacidades asociadas para interactuar con un grupo de servidores, tal y como se ha explicado anteriormente en este mismo tema.
 

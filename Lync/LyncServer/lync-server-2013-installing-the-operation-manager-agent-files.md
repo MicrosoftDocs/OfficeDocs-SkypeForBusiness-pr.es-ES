@@ -12,20 +12,22 @@ ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e685abf7916c446bf9acf73e50f5633271b2942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0216c05dd039f907d0ac54ff8afa13f6015a923d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534807"
 ---
+# <a name="installing-the-operation-manager-agent-files-in-lync-server-2013"></a>Instalar los archivos del agente Operations Manager en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-operation-manager-agent-files-in-lync-server-2013"></a>Instalar los archivos del agente Operations Manager en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-10-20_
 
 Para instalar los archivos del agente Operations Manager en el equipo, complete los siguientes pasos.
 
-1.  En los medios de configuración de System Center, haga doble clic en **SetupOM. exe**.
+1.  En los medios de configuración de System Center, haga doble clic en **SetupOM.exe**.
 
 2.  En el programa de instalación de System Center Operations Manager, haga clic en **instalar agente de Operations Manager**.
 

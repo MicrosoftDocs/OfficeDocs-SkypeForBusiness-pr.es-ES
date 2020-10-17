@@ -12,20 +12,22 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab574067b05b494601e0dd769003cb01904c52bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7922fe79d97a1fa83fdaa5afbc1eeddee8523e37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211112"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535587"
 ---
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Ver el estado de la configuración global de un bosque en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Ver el estado de la configuración global de un bosque en Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ La configuración de reunión incluye definiciones de directivas de reuniones y 
 
 Las opciones de configuración de reuniones se pueden recuperar con Windows PowerShell y el cmdlet **Get-CsMeetingConfiguration** . Por ejemplo, este comando devuelve información sobre las opciones de configuración de reunión global:
 
-Get-CsMeetingConfiguration – Identity "global" las opciones de configuración de reuniones también se pueden configurar en el ámbito del sitio. Por ello, es posible que desee usar el siguiente comando, que devuelve información sobre todas las opciones de configuración de reuniones:
+Get-CsMeetingConfiguration la identidad "global" las opciones de configuración de reuniones también se pueden configurar en el ámbito del sitio. Por ello, es posible que desee usar el siguiente comando, que devuelve información sobre todas las opciones de configuración de reuniones:
 
 `Get-CsMeetingConfiguration`
 
@@ -247,7 +249,7 @@ Tenga en cuenta que la configuración de archivado también se puede configurar 
 
 `Get-CsArchivingConfiguration`
 
-El cmdlet Get-CsArchivingConfiguration devuelve datos similares a estos:
+El cmdlet Get-CsArchivingConfiguration devuelve datos similares a los siguientes:
 
 Identidad: global
 
@@ -391,7 +393,7 @@ La información devuelta por el cmdlet Get-CsVoicePolicy es similar a la siguien
 
 Identidad: global
 
-PstnUsages{}
+PstnUsages {}
 
 Descriptiva
 
@@ -437,11 +439,11 @@ Prioridad: 0
 
 Descriptiva
 
-NumberPattern: ^ (\\+ 1\[0-9\]{10}) $
+NumberPattern: ^ ( \\ + 1 \[ 0-9 \] {10} ) $
 
-PstnUsages{}
+PstnUsages {}
 
-PstnGatewayList :{}
+PstnGatewayList : {}
 
 Nombre: LocalRoute
 
@@ -471,7 +473,7 @@ Tenga en cuenta que la configuración del operador de conferencia también se pu
 
 `Get-CsDialInConferencingConfiguration`
 
-El cmdlet Get-CsDialInConferencingConfiguration devuelve datos similares a estos:
+El cmdlet Get-CsDialInConferencingConfiguration devuelve datos similares a los siguientes:
 
 Identidad: global
 
@@ -489,7 +491,7 @@ Si EntryExitAnnouncementsEnabledByDefault se establece en false, significa que l
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Get-CsSipDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsSipDomain)  
