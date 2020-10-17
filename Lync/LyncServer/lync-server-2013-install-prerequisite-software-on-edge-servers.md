@@ -12,20 +12,22 @@ ms:contentKeyID: 48184811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e4d872839353e0eeddabb1be2bb52aa560e84e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a2417772f5a6e4be4c44667280b77d7b76d12d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498687"
 ---
+# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a><span data-ttu-id="66e8f-102">Instalar el software necesario como requisito previo en los servidores perimetrales para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66e8f-102">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a><span data-ttu-id="9c114-102">Instalar el software necesario como requisito previo en los servidores perimetrales para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c114-102">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42197143"
 
 <span> </span>
 
-<span data-ttu-id="9c114-103">_**Última modificación del tema:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="9c114-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="66e8f-103">_**Última modificación del tema:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="66e8f-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="9c114-104">Debe implementar el software necesario como requisito previo en cada servidor perimetral que implemente antes de instalar Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9c114-104">You need to deploy prerequisite software on each Edge Server that you deploy prior to installing Lync Server 2013.</span></span> <span data-ttu-id="9c114-105">Este proceso incluye la instalación del sistema operativo en un servidor que cumpla los requisitos del sistema.</span><span class="sxs-lookup"><span data-stu-id="9c114-105">This includes installing the operating system on a server that meets system requirements.</span></span> <span data-ttu-id="9c114-106">Para obtener más información sobre los requisitos del sistema, incluidos los sistemas operativos compatibles, vea [requisitos del sistema para componentes de acceso de usuarios externos para Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span><span class="sxs-lookup"><span data-stu-id="9c114-106">For details about system requirements, including the supported operating systems, see [System requirements for external user access components for Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span></span>
+<span data-ttu-id="66e8f-104">Debe implementar el software necesario como requisito previo en cada servidor perimetral que implemente antes de instalar Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="66e8f-104">You need to deploy prerequisite software on each Edge Server that you deploy prior to installing Lync Server 2013.</span></span> <span data-ttu-id="66e8f-105">Este proceso incluye la instalación del sistema operativo en un servidor que cumpla los requisitos del sistema.</span><span class="sxs-lookup"><span data-stu-id="66e8f-105">This includes installing the operating system on a server that meets system requirements.</span></span> <span data-ttu-id="66e8f-106">Para obtener más información sobre los requisitos del sistema, incluidos los sistemas operativos compatibles, vea [requisitos del sistema para componentes de acceso de usuarios externos para Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span><span class="sxs-lookup"><span data-stu-id="66e8f-106">For details about system requirements, including the supported operating systems, see [System requirements for external user access components for Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span></span>
 
 </div>
 
