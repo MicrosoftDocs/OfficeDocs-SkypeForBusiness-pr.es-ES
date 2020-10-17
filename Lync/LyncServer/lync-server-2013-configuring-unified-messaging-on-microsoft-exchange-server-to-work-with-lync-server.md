@@ -12,20 +12,22 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3d90f738741c2815d01041a7d2293e978cd2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 462252b1826802ec424c6684e3a6347754095508
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195683"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517057"
 ---
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Configuración de la mensajería unificada en Microsoft Exchange Server para trabajar con Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Configuración de la mensajería unificada en Microsoft Exchange Server para trabajar con Lync Server 2013
+
 
 </div>
 
@@ -62,7 +64,7 @@ Para configurar la mensajería unificada (MU) de Exchange para que funcione con 
 
   - Cree uno o varios planes de marcado URI de SIP de mensajería unificada, junto con los números de teléfono de acceso de suscriptor, según sea necesario y, a continuación, cree los planes de marcado de Lync Server correspondientes.
 
-  - Use el script **script ExchUCUtil. PS1** para:
+  - Use el script **exchucutil.ps1** para:
     
       - Crear puertas de enlace IP de Mensajería unificada.
     
@@ -82,7 +84,7 @@ Para configurar la mensajería unificada (MU) de Exchange para que funcione con 
 
 Antes de empezar, en la documentación de esta sección se supone que ha implementado los siguientes roles de Exchange 2013: acceso de cliente y buzón de correo. En Microsoft Exchange Server 2013, la mensajería unificada de Exchange se ejecuta como un servicio en estos servidores.
 
-Para obtener más información sobre la implementación de Exchange 2013, consulte la biblioteca de TechNet de Exchange 2013 en[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
+Para obtener más información sobre la implementación de Exchange 2013, consulte la biblioteca de TechNet de Exchange 2013 en [https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 También debe tener en cuenta lo siguiente:
 

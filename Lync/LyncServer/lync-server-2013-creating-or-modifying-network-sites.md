@@ -12,20 +12,22 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d95073a590b9e5ddde54df4f77cd15e936234d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c88ca28478cbd9d38e9e85c5a852fb93b49c0df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200152"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516727"
 ---
+# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a>Crear o modificar sitios de red en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a>Crear o modificar sitios de red en Lync Server 2013
+
 
 </div>
 
@@ -161,7 +163,7 @@ No es posible modificar la tabla **Subredes asociadas** de esta página. La list
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Eliminación de un sitio de red existente en Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  

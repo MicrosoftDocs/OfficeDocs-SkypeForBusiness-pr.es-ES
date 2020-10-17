@@ -12,20 +12,22 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e907a8f0c31555763f6563622c4f3916e4a54ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 95f425a461d628ccf7da6021c20b578f639fe605
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516197"
 ---
+# <a name="delete-an-announcement-in-lync-server-2013"></a>Eliminar un anuncio en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-announcement-in-lync-server-2013"></a>Eliminar un anuncio en Lync Server 2013
+
 
 </div>
 
@@ -72,7 +74,7 @@ Use el siguiente procedimiento para eliminar un anuncio que se usa para llamadas
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear un anuncio en Lync Server 2013](lync-server-2013-create-an-announcement.md)  

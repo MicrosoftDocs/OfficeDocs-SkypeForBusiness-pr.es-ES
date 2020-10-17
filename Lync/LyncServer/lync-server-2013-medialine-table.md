@@ -12,20 +12,22 @@ ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84aa652a51934a8b513392869a0875f60689f759
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 03f967b50c2fa9eae4f2599ce96dc9c592a57006
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516147"
 ---
+# <a name="medialine-table-in-lync-server-2013"></a>Tabla MediaLine en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-table-in-lync-server-2013"></a>Tabla MediaLine en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Se hace referencia a ella desde la <a href="lync-server-2013-session-table.md">tabla Session en Lync Server 2013</a>.</p></td>
 </tr>
@@ -82,13 +84,13 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="odd">
 <td><p><strong>CallerIceWarningFlags</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Información sobre el proceso de establecimiento interactivo de conectividad (ICE) que se describe en indicadores de bits. Para obtener más información, consulte la <em>especificación de protocolo de servidor de supervisión de calidad de la experiencia</em>, disponible para su descarga.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeIceWarningFlags</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Igual que CallerIceWarningFlags, pero en el lado del destinatario de la llamada. Para obtener más información, consulte la <em>especificación de protocolo de servidor de supervisión de calidad de la experiencia</em>, disponible para su descarga.</p></td>
 </tr>
@@ -106,19 +108,19 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="odd">
 <td><p><strong>CallerIPAddr</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dirección IP del autor de la llamada. Consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPort</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Puerto del autor de la llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerSubnet</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> Externa</p></td>
 <td><p>La subred del autor de la llamada. Consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -130,43 +132,43 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="odd">
 <td><p><strong>CallerMacAddress</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dirección Mac del autor de la llamada, a la que se hace referencia desde la <a href="lync-server-2013-macaddress-table.md">tabla MacAddress en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerRelayIPAddr</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dirección IP del servicio perimetral A/V de Lync Server que usa el autor de la llamada. Consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRelayPort</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Puerto usado en el servicio perimetral A/V por parte del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerCaptureDev</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dispositivo de captura usado por el autor de la llamada. Se hace referencia a ella desde la <a href="lync-server-2013-device-table.md">tabla Device en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRenderDev</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dispositivo de representación usado por el autor de la llamada. Se hace referencia a ella desde la <a href="lync-server-2013-device-table.md">tabla Device en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerCaptureDevDriver</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Controlador del dispositivo de captura del autor de la llamada, a la que se hace referencia desde la <a href="lync-server-2013-devicedriver-table.md">tabla DeviceDriver en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRenderDevDriver</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Controlador del dispositivo de representación del autor de la llamada, a la que se hace referencia desde la <a href="lync-server-2013-devicedriver-table.md">tabla DeviceDriver en Lync Server 2013</a>.</p></td>
 </tr>
@@ -178,7 +180,7 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="odd">
 <td><p><strong>CallerBssid</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>BSSID del autor de la llamada si se usa la tecnología inalámbrica. Referencia de la <a href="lync-server-2013-macaddress-table.md">tabla MacAddress en Lync Server 2013</a>.</p></td>
 </tr>
@@ -196,7 +198,7 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="even">
 <td><p><strong>CalleeIPAddr</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dirección IP del receptor de la llamada. Consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -208,7 +210,7 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="even">
 <td><p><strong>CalleeSubnet</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Subred del destinatario de la llamada. Consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
@@ -220,37 +222,37 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="even">
 <td><p><strong>CalleeMacAddress</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dirección Mac del destinatario de la llamada. Se hace referencia a ella desde la <a href="lync-server-2013-macaddress-table.md">tabla MacAddress en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeRelayIPAddr</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dirección IP del servicio perimetral A/V que usa el receptor de llamadas. Consulte la <a href="lync-server-2013-ipaddress-table.md">tabla IPAddress en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRelayPort</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Puerto usado en el servicio perimetral A/V por parte del receptor de llamadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeCaptureDev</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>externa</p></td>
 <td><p>Dispositivo de captura usado por el receptor de llamadas. Se hace referencia a ella desde la <a href="lync-server-2013-device-table.md">tabla Device en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRenderDev</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dispositivo de representación usado por el receptor de llamadas. Se hace referencia a ella desde la <a href="lync-server-2013-device-table.md">tabla Device en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeCaptureDevDriver</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Controlador del dispositivo de captura del destinatario de la llamada. Referencia de la <a href="lync-server-2013-devicedriver-table.md">tabla DeviceDriver en Lync Server 2013</a>.</p></td>
 </tr>
@@ -268,7 +270,7 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="even">
 <td><p><strong>CalleeBssid</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>BSSID del destinatario de la llamada si se usa la tecnología inalámbrica. Referencia de la <a href="lync-server-2013-macaddress-table.md">tabla MacAddress en Lync Server 2013</a>.</p></td>
 </tr>
@@ -292,7 +294,7 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthLimit</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Este es el ancho de banda real que se aplica a la transmisión de la parte de envío determinada dadas varias configuraciones de directiva (TURN, API, SDP, Policy Server, etc.). No se debe confundir con el ancho de banda efectivo, ya que el ancho de banda efectivo puede ser menor en función de las previsiones de ancho de banda. Este valor es, a grandes rasgos, el ancho de banda máximo que la secuencia de envío puede ocupar asumiendo los límites impuestos por la previsión de ancho de banda.</p></td>
 </tr>
@@ -344,42 +346,42 @@ Cada registro representa una línea de medios. (Una sesión de audio suele conte
 </tr>
 <tr class="even">
 <td><p><strong>CallerReflexiveLocalIPAddr</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dirección IP reflexiva del usuario que realizó la llamada. En las organizaciones que usan NAT (traducción de direcciones de red), la dirección IP reflexiva es la dirección IP del servidor proxy.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerWiFiDriverDevicesDesc</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Descripción del dispositivo del controlador WiFi empleado por el usuario que realizó la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerWiFiDriverVersion</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Número de versión del controlador WiFi empleado por el usuario que realizó la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleReflexiveLocalIPAddr</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Dirección IP reflexiva del usuario que recibió la llamada. En las organizaciones que usan NAT (traducción de direcciones de red), la dirección IP reflexiva es la dirección IP del servidor proxy.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeWiFiDriverDevicesDesc</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Descripción del dispositivo del controlador WiFi empleado por el usuario que recibió la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeWiFiDriverVersion</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Número de versión del controlador WiFi empleado por el usuario que recibió la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>

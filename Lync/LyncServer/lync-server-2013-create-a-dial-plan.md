@@ -12,20 +12,22 @@ ms:contentKeyID: 48185424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 382b04f9b0aa835d0230cb05fb56cb272546c038
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f530faa83cb2e924d93abce6f7496c3ef1b82311
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516927"
 ---
+# <a name="create-a-dial-plan-in-lync-server-2013"></a>Crear un plan de marcado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dial-plan-in-lync-server-2013"></a>Crear un plan de marcado en Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Para crear un plan de marcado nuevo, siga los pasos del procedimiento a continua
     
 
     > [!IMPORTANT]  
-    > El <STRONG>nombre simple</STRONG> debe ser único entre todos los planes de marcado de la implementación de Lync Server. No puede superar los 256 caracteres Unicode, que pueden ser caracteres alfabéticos o numéricos, un guión (-), un punto (.) o un carácter de subrayado (_).<BR>Caracteres <STRONG>no admitidos</STRONG> incluyen espacios y caracteres reservados tal y como se definenhttp://www.ietf.org/rfc/rfc3966.txt)en RFC 3966 (. Los caracteres reservados que <STRONG>no se admiten</STRONG> en el <STRONG>nombre simple</STRONG> son los siguientes:<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+    > El <STRONG>nombre simple</STRONG> debe ser único entre todos los planes de marcado de la implementación de Lync Server. No puede superar los 256 caracteres Unicode, que pueden ser caracteres alfabéticos o numéricos, un guión (-), un punto (.) o un carácter de subrayado (_).<BR>Caracteres <STRONG>no admitidos</STRONG> incluyen espacios y caracteres reservados tal y como se definen en RFC 3966 ( http://www.ietf.org/rfc/rfc3966.txt) . Los caracteres reservados que <STRONG>no se admiten</STRONG> en el <STRONG>nombre simple</STRONG> son los siguientes:<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
     
     </div>
@@ -101,7 +103,7 @@ Para crear un plan de marcado nuevo, siga los pasos del procedimiento a continua
     
     </div>
 
-9.  (Opcional) En el campo **Prefijo de acceso externo**, especifique el valor únicamente si los usuarios necesitan marcar uno o más dígitos iniciales para tener acceso a una línea externa (por ejemplo, 9). Puede escribir un valor de prefijo de hasta cuatro caracteres (\#, \*y 0-9).
+9.  (Opcional) En el campo **Prefijo de acceso externo**, especifique el valor únicamente si los usuarios necesitan marcar uno o más dígitos iniciales para tener acceso a una línea externa (por ejemplo, 9). Puede escribir un valor de prefijo de hasta cuatro caracteres ( \# , \* y 0-9).
     
     <div>
     
@@ -139,7 +141,7 @@ Para crear un plan de marcado nuevo, siga los pasos del procedimiento a continua
     
 
     > [!IMPORTANT]  
-    > Lync Server recorre la lista de reglas de normalización de arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<BR>La regla de normalización predeterminada de <STRONG>guardar todas</STRONG> las reglas de normalización <STRONG>^ ({11}\d) $</STRONG> coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que <STRONG>mantener todas</STRONG> se ordena por debajo de la regla <STRONG>^ (1425 \{7}d) $</STRONG> más restrictiva.
+    > Lync Server recorre la lista de reglas de normalización de arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<BR>La regla de normalización predeterminada de <STRONG>guardar todas</STRONG> las reglas de normalización <STRONG>^ (\d {11} ) $</STRONG> coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que <STRONG>mantener todas</STRONG> se ordena por debajo de la regla <STRONG>^ (1425 \ d {7} ) $</STRONG> más restrictiva.
 
     
     </div>
@@ -172,7 +174,7 @@ Para crear un plan de marcado nuevo, siga los pasos del procedimiento a continua
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Modificar un plan de marcado en Lync Server 2013](lync-server-2013-modify-a-dial-plan.md)  

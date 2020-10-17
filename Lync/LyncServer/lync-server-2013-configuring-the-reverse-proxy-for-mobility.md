@@ -12,20 +12,22 @@ ms:contentKeyID: 48183946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e2a84b07821601b82e0268c6f5f167105f7d55c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ed1a67fbc037f0828b386bf1339d59851e13680
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209386"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517407"
 ---
+# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>Configuración del proxy inverso para movilidad en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-reverse-proxy-for-mobility-in-lync-server-2013"></a>Configuración del proxy inverso para movilidad en Lync Server 2013
+
 
 </div>
 
@@ -83,15 +85,15 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 7.  En la página **detalles internos de publicación** , en **nombre de sitio interno**, escriba el nombre de dominio completo (FQDN) de su grupo de directores (por ejemplo, lyncdir01. contoso. local). Si va a crear una regla para la dirección URL de servicios web externos en el grupo de servidores front-end, escriba la dirección VIP del equilibrador de carga de hardware (HLB) delante del grupo de servidores front-end.
 
-8.  En la **página Detalles internos de publicación** , en **ruta de acceso (opcional)**, escriba ** / ** como la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original**.
+8.  En la página **detalles internos de publicación** , en **ruta de acceso (opcional)**, escriba **/\*** como la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original**.
 
 9.  En la página **Detalles de nombre público**, siga este procedimiento:
     
       - En **Aceptar peticiones para**, seleccione **Este nombre de dominio**.
     
-      - En **nombre público**, escriba **lyncdiscover.** \<sipdomain\> (la dirección URL externa del servicio Detección automática). Si va a crear una regla para la dirección URL de servicios web externos en el grupo de servidores front-end, escriba el nombre de dominio completo (FQDN) de los servicios web externos en el grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com).
+      - En **nombre público**, escriba **lyncdiscover.**\<sipdomain\> (la dirección URL externa del servicio Detección automática). Si va a crear una regla para la dirección URL de servicios web externos en el grupo de servidores front-end, escriba el nombre de dominio completo (FQDN) de los servicios web externos en el grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com).
     
-      - En **ruta**de acceso ** / **, escriba.
+      - En **ruta de acceso**, escriba **/\*** .
 
 10. En **Seleccionar escucha de web**, en **Escucha**, seleccione su escucha SSL existente con el certificado público actualizado.
 
@@ -119,7 +121,7 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 17. Haga clic en **Aceptar**.
 
-18. Haga clic en **Aplicar** en el panel de detalles para guardar los cambios y actualizar la configuración.
+18. Haga clic en  **Aplicar ** en el panel de detalles para guardar los cambios y actualizar la configuración.
 
 19. Haga clic en **Probar regla** para comprobar que la nueva regla se ha configurado correctamente.
 
@@ -172,15 +174,15 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 7.  En la página **detalles internos de publicación** , en **nombre de sitio interno**, escriba la dirección VIP del equilibrador de carga de hardware (HLB) delante del grupo de servidores front-end.
 
-8.  En la **página Detalles internos de publicación** , en **ruta de acceso (opcional)**, escriba ** / ** como la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original en lugar del especificado en el campo Nombre de sitio interno**.
+8.  En la página **detalles internos de publicación** , en **ruta de acceso (opcional)**, escriba **/\*** como la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original en lugar del especificado en el campo Nombre de sitio interno**.
 
 9.  En la página **Detalles de nombre público**, siga este procedimiento:
     
       - En **Aceptar peticiones para**, seleccione **Este nombre de dominio**.
     
-      - En **nombre público**, escriba **lyncdiscover.** \<sipdomain\> (la dirección URL externa del servicio Detección automática).
+      - En **nombre público**, escriba **lyncdiscover.**\<sipdomain\> (la dirección URL externa del servicio Detección automática).
     
-      - En **ruta**de acceso ** / **, escriba.
+      - En **ruta de acceso**, escriba **/\*** .
 
 10. En la página **Seleccionar escucha de web**, en **Escucha de web**, seleccione una escucha de web o use el nuevo Asistente para la definición de escucha de web para crear una nueva.
 
@@ -202,7 +204,7 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 16. Haga clic en **Aceptar**.
 
-17. Haga clic en **Aplicar** en el panel de detalles para guardar los cambios y actualizar la configuración.
+17. Haga clic en  **Aplicar ** en el panel de detalles para guardar los cambios y actualizar la configuración.
 
 18. Haga clic en **Probar regla** para comprobar que su nueva regla se ha configurado correctamente.
 
@@ -212,7 +214,7 @@ Los procedimientos de esta sección describen cómo crear o modificar las nuevas
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e6ef9454912b2d421302d7e696350a6f83bc9fd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01e6c75a4a557ff44d626f006210bec3a3c38472
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516577"
 ---
+# <a name="data-collection-in-lync-server-2013"></a>Recopilación de datos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="data-collection-in-lync-server-2013"></a>Recopilación de datos en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42206957"
 
 _**Última modificación del tema:** 2012-09-08_
 
-En el software de comunicaciones Microsoft Lync Server 2013, puede ejecutar Microsoft Lync Server 2013, la herramienta de planeación sin documentar las direcciones IP existentes y propuestas y los nombres de dominio completos (FQDN) del servidor perimetral, pero es mucho más difícil por lo tanto, sin causar errores de configuración. Por ejemplo, si se requiere la coexistencia durante un período de tiempo, un error común es reutilizar FQDN de una implementación perimetral existente para la implementación perimetral de Lync Server 2013. Si tiene las direcciones IP existentes y las direcciones IP propuestas, así como los FQDN en una misma hoja de cálculo, tabla u otra forma visual, le será más fácil evitar problemas de configuración durante la instalación.
+En el software de comunicaciones de Microsoft Lync Server 2013, puede ejecutar la herramienta de planeación de Microsoft Lync Server 2013, sin documentar las direcciones IP existentes y propuestas y los nombres de dominio completos (FQDN) del servidor perimetral, pero es mucho más difícil hacerlo sin provocar errores de configuración. Por ejemplo, si se requiere la coexistencia durante un período de tiempo, un error común es reutilizar FQDN de una implementación perimetral existente para la implementación perimetral de Lync Server 2013. Si tiene las direcciones IP existentes y las direcciones IP propuestas, así como los FQDN en una misma hoja de cálculo, tabla u otra forma visual, le será más fácil evitar problemas de configuración durante la instalación.
 
 <div>
 

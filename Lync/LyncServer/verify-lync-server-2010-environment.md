@@ -12,20 +12,22 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72b04170df1a616aec595f72dce74cd15e8059b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a98bdaa5b97193ad20a78939560190a413a87161
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515977"
 ---
+# <a name="verify-lync-server-2010-environment"></a>Comprobar el entorno de Lync Server 2010
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-lync-server-2010-environment"></a>Comprobar el entorno de Lync Server 2010
+
 
 </div>
 
@@ -49,7 +51,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Serv
 
 **Comprobar que se han iniciado los servicios de Lync Server 2010**
 
-1.  Desde el servidor front-end de Lync Server 2010, vaya al subprograma Servicios de herramientas\\administrativas.
+1.  Desde el servidor front-end de Lync Server 2010, vaya al \\ subprograma Servicios de herramientas administrativas.
 
 2.  Compruebe que los servicios siguientes se están ejecutando en el servidor front-end:
     
@@ -99,7 +101,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Serv
 
 **Compruebe la configuración del socio federado XMPP heredado**
 
-1.  Desde el servidor de XMPP heredado, vaya al subprograma Servicios de herramientas\\administrativas.
+1.  Desde el servidor de XMPP heredado, vaya al \\ subprograma Servicios de herramientas administrativas.
 
 2.  Compruebe que se haya iniciado el servicio de puerta de enlace XMPP de Office Communications Server.
     

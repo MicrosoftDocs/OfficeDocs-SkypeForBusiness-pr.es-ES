@@ -12,20 +12,22 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58cfee7b89d2e7e66bd39b28a6d3361b4521cdc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207576"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517587"
 ---
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Configuración de una aplicación de socio local para Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Configuración de una aplicación de socio local para Microsoft Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Una vez que haya asignado el certificado OAuthTokenIssuer, debe configurar las a
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-Después de copiar el código, guarde el script con un. Extensión de archivo PS1 (por ejemplo, C\\:\\scripts ServerToServerAuth. PS1). Tenga en cuenta que, antes de ejecutar este script, debe reemplazar las direcciones https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 URL http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx de metadatos y con las direcciones URL de metadatos usadas por los servidores de Exchange 2013 y SharePoint, respectivamente. Consulte la documentación del producto de Exchange 2013 y SharePoint para obtener información sobre cómo identificar la dirección URL de metadatos del producto correspondiente.
+Después de copiar el código, guarde el script con un. Extensión de archivo PS1 (por ejemplo, C: \\ scripts \\ServerToServerAuth.ps1). Tenga en cuenta que, antes de ejecutar este script, debe reemplazar las direcciones URL de metadatos https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 y http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx con las direcciones URL de metadatos usadas por los servidores de Exchange 2013 y SharePoint, respectivamente. Consulte la documentación del producto de Exchange 2013 y SharePoint para obtener información sobre cómo identificar la dirección URL de metadatos del producto correspondiente.
 
 Si observamos la última línea del script, veremos que se usa la siguiente sintaxis para llamar al cmdlet Set-CsOAuthConfiguration:
 
@@ -107,7 +109,7 @@ Cuando este script se ejecuta, es posible que aparezca un mensaje de error parec
 
 Este mensaje de error suele indicar una de estas dos situaciones: 1) una de las direcciones URL especificadas en el script no es válida (dicho de otro modo, una de las direcciones URL de metadatos no es realmente una dirección URL de metadatos) o 2) no se pudo establecer contacto con una de las direcciones URL de metadatos. Si esto sucede, compruebe que las direcciones URL son correctas y accesibles y vuelva a ejecutar el script.
 
-Después de crear la aplicación de socio para Lync Server 2013, debe configurar Lync Server para que sea una aplicación de socio para Exchange 2013. Puede configurar aplicaciones de socio para Exchange 2013 ejecutando el script configure-enterprisepartnerapplication. ps1; todo lo que debe hacer es especificar la dirección URL de los metadatos para Lync Server e indicar que Lync Server es la nueva aplicación de asociado.
+Después de crear la aplicación de socio para Lync Server 2013, debe configurar Lync Server para que sea una aplicación de socio para Exchange 2013. Puede configurar las aplicaciones de socio para Exchange 2013 ejecutando el script Configure-EnterprisePartnerApplication.ps1; todo lo que debe hacer es especificar la dirección URL de los metadatos para Lync Server e indicar que Lync Server es la nueva aplicación de asociado.
 
 Para configurar Lync Server como una aplicación de socio para Exchange, abra el shell de administración de Exchange y ejecute un comando similar a este
 

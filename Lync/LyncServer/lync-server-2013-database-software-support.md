@@ -12,20 +12,22 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16c37644e07fd0dfd192867d7d8372d3630d13fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7290a6d4e80c522d29c886b49723cca51d19e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516507"
 ---
+# <a name="database-software-support-in-lync-server-2013"></a>Compatibilidad con software de base de datos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-software-support-in-lync-server-2013"></a>Compatibilidad con software de base de datos en Lync Server 2013
+
 
 </div>
 
@@ -120,7 +122,7 @@ Se incluye la siguiente compatibilidad:
 
 Para obtener más información acerca de la creación de reflejos de SQL, vea [back end Server High Availability in Lync Server 2013](lync-server-2013-back-end-server-high-availability.md). Para obtener más información sobre cómo implementar clústeres de SQL, vea [Configure SQL Server clustering for Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).
 
-Para obtener más información y procedimientos recomendados para clústeres de conmutación por error en SQL <https://technet.microsoft.com/library/hh231721.aspx>Server 2012, consulte. Para clústeres de conmutación por error en SQL Server <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>2008, consulte.
+Para obtener más información y procedimientos recomendados para clústeres de conmutación por error en SQL Server 2012, consulte <https://technet.microsoft.com/library/hh231721.aspx> . Para clústeres de conmutación por error en SQL Server 2008, consulte <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> .
 
 </div>
 

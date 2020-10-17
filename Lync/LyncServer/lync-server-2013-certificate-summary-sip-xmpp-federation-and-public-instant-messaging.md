@@ -1,5 +1,5 @@
 ---
-title: 'Resumen del certificado: SIP, Federación XMPP y mensajería instantánea pública'
+title: Resumen de certificado-SIP, Federación XMPP y mensajería instantánea pública
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49105659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fc3b7a1745d045954fb06403dbb3359fb699a29
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 284a633a2c5ce820009c6672058837bbecb7ecd6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517877"
 ---
+# <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumen de certificado: SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumen del certificado: SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "41730220"
 
 _**Última modificación del tema:** 2013-03-15_
 
-Los certificados que necesita para la Federación con Microsoft Lync Server 2013, Lync Server 2010 y Office Communications Server generalmente se cumplirán con los certificados que configure, solicite y asigne a su servidor perimetral.
+Los certificados que se necesitan para federar con Microsoft Lync Server 2013, Lync Server 2010 y Office Communications Server se suelen cumplir con los certificados que configure, solicite y asigne a su servidor perimetral.
 
-Los requisitos de certificados para habilitar y establecer comunicaciones con los partners protocolo de presencia y mensajería extensible (XMPP) requieren agregar entradas a los dominios XMPP. El registro que se incluye en el certificado como un nombre alternativo del sujeto (SAN) será el dominio que puede participar en las comunicaciones XMPP. El dominio puede ser el dominio de nivel raíz (por ejemplo, contoso.com) Si desea habilitar XMPP para todo el dominio o puede seleccionar dominios secundarios (por ejemplo, corp.contoso.com, finance.contoso.com) si va a habilitar XMPP para un subconjunto de usuarios.
+Los requisitos de certificado para habilitar y establecer comunicaciones con los asociados del protocolo extensible de mensajería y presencia (XMPP) requieren la adición de entradas para los dominios XMPP. El registro incluido en el certificado como nombre alternativo del firmante (SAN) será el dominio que puede participar en las comunicaciones XMPP. El dominio puede ser el dominio de nivel de raíz (por ejemplo, contoso.com) si desea habilitar XMPP para todo el dominio, o bien dominios secundarios seleccionados (por ejemplo, corp.contoso.com, finance.contoso.com) si desea habilitar XMPP para un subconjunto de usuarios.
 
-Para configurar certificados para la conectividad de mensajería instantánea pública, tenga en cuenta que no hay nada diferente de otros tipos de Federación SIP o incluso de certificados de servidor perimetral estándar, excepto en que America Online (AOL) requiere el certificado o certificados (en el caso de un grupo perimetral) para contener también el EKU de cliente. El EKU de cliente es una adición al certificado y forma parte del certificado público externo que se asigna al servidor perimetral.
+Para configurar certificados para la conectividad de mensajería instantánea pública, tenga en cuenta que no hay nada diferente de otros tipos de Federación SIP o de certificados de servidor perimetral estándar, excepto que America Online (AOL) requiere el certificado o los certificados (en el caso de un grupo de servidores perimetrales) que también contengan el EKU de cliente. El EKU de cliente es una adición al certificado y forma parte del certificado público externo que se asigna a su servidor perimetral.
 
-Para confirmar que ha cumplido los requisitos de certificado correctos para su implementación del servidor perimetral, revise los temas que aparecen en la sección titulada **también**.
+Para confirmar que ha cumplido los requisitos de certificado correctos para la implementación del servidor perimetral, revise los temas que se enumeran en la sección **vea también**.
 
 <div>
 
@@ -59,14 +61,14 @@ Para confirmar que ha cumplido los requisitos de certificado correctos para su i
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Nombre del asunto</th>
-<th>Nombres alternativos de asunto (SAN)</th>
+<th>Nombre de sujeto</th>
+<th>Nombres alternativos del sujeto (SAN)</th>
 <th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Perimetral de acceso externo</p></td>
+<td><p>Servidor perimetral de acceso/externo</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
@@ -97,17 +99,17 @@ Para confirmar que ha cumplido los requisitos de certificado correctos para su i
 <td><p>El certificado debe ser de una entidad de certificación pública y debe tener el EKU de servidor y el EKU de cliente si se va a implementar la conectividad de mensajería instantánea pública con AOL. El certificado se asigna a las interfaces del servidor perimetral externo para:</p>
 <ul>
 <li><p>Servicio perimetral de acceso</p></li>
-<li><p>Servicio perimetral de conferencia web</p></li>
+<li><p>Servicio perimetral de conferencias web</p></li>
 <li><p>Servicio perimetral A/V</p></li>
 </ul>
 
 
 
 > [!NOTE]
-> Técnicamente, no se asigna un certificado al borde de A/V. La comunicación y la autenticación seguras se administran mediante el servicio de autenticación de retransmisión multimedia (MRAS). MRAS usa el certificado asignado a la interfaz interna del servidor perimetral.
+> Técnicamente, no se asigna un certificado al servidor perimetral a/V. La comunicación y la autenticación seguras se administran mediante el servicio de autenticación relé multimedia (MRAS). MRAS usa el certificado asignado a la interfaz interna del servidor perimetral.
 
 
-<p>Tenga en cuenta que las redes San se agregan automáticamente al certificado según sus definiciones en el generador de topologías. Agregue las entradas de SAN según sea necesario para dominios SIP adicionales y otras entradas que necesite admitir. El nombre del asunto se replica en el SAN y debe estar presente para que funcione correctamente.</p></td>
+<p>Tenga en cuenta que las SAN se agregan automáticamente al certificado basado en las definiciones del Generador de topologías. Agregue entradas SAN según sea necesario para dominios adicionales de SIP y otras entradas que necesite admitir. El nombre del sujeto se replica en la SAN y debe estar presente para el correcto funcionamiento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -117,18 +119,18 @@ Para confirmar que ha cumplido los requisitos de certificado correctos para su i
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
-[Configuración XMPP de ejemplo en Lync Server 2013 - Federación XMPP con Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[Configuración XMPP de ejemplo en Lync Server 2013: Federación XMPP con Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
-[Plan para certificados de servidores perimetrales en Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
-[Resumen de certificado - Servidor perimetral consolidado simple con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)  
-[Resumen de certificado - Perímetro consolidado de equipo único con direcciones IP públicas en Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)  
-[Resumen de certificado - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas con NAT en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)  
-[Resumen de certificado - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
-[Resumen de certificado - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)  
+[Planeación de certificados de servidor perimetral en Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
+[Resumen de certificado-perímetro consolidado de un solo consolidado con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)  
+[Resumen de certificado-perímetro consolidado de un solo consolidado con direcciones IP públicas en Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)  
+[Resumen de certificado-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)  
+[Resumen de certificado-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
+[Resumen de certificado-servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)  
   
 
 </div>

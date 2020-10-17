@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191703"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516637"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personalización del archivo de definición XSLT en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personalización del archivo de definición XSLT en Lync Server 2013
+
 
 </div>
 
@@ -99,7 +101,7 @@ En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
 <thead>
 <tr class="header">
 <th>Atributo</th>
-<th>Descripción</th>
+<th>Description</th>
 <th>Opcional/obligatorio</th>
 </tr>
 </thead>
@@ -107,7 +109,7 @@ En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
 <tr class="odd">
 <td><p>Tipo</p></td>
 <td><p>Especifica el tipo de mensaje. Los tipos de mensaje se describen en la tabla Tipos de mensaje de los elmentos de mensaje.</p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 </tr>
 <tr class="even">
 <td><p>Contenido</p></td>
@@ -136,7 +138,7 @@ Cada elemento Sender contiene cinco atributos: nombre de usuario, Id., correo el
 <thead>
 <tr class="header">
 <th>Atributo</th>
-<th>Descripción</th>
+<th>Description</th>
 <th>Opcional/obligatorio</th>
 </tr>
 </thead>
@@ -149,7 +151,7 @@ Cada elemento Sender contiene cinco atributos: nombre de usuario, Id., correo el
 <tr class="even">
 <td><p>ID</p></td>
 <td><p>Id. único del remitente</p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 </tr>
 <tr class="odd">
 <td><p>Correo electrónico</p></td>
@@ -164,7 +166,7 @@ Cada elemento Sender contiene cinco atributos: nombre de usuario, Id., correo el
 <tr class="odd">
 <td><p>Uri</p></td>
 <td><p>URI del SIP del usuario.</p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +199,7 @@ La siguiente tabla describe los tipos de mensaje que el elemento Messages puede 
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Parte</p></td>
+<td><p>Part</p></td>
 <td><p>Un usuario sale de una sala de chat.</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 

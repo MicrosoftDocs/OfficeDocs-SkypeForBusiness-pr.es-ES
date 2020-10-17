@@ -12,20 +12,22 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1f3265591b1beb7180864b8e3a613989dfca397
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b46f3b9bd89df2594c7ca8a3b382839437e40eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213996"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516297"
 ---
+# <a name="delete-a-workflow-in-lync-server-2013"></a>Eliminar un flujo de trabajo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-workflow-in-lync-server-2013"></a>Eliminar un flujo de trabajo en Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Utilice uno de los procedimientos siguientes para eliminar flujos de trabajo.
     
 
     > [!NOTE]  
-    > Se abre la página web herramienta de configuración del grupo de respuesta. También puede abrir la Página Web de la herramienta de configuración del grupo de respuesta directamente desde un explorador Web conectándose a <STRONG>&lt;https://fqdngrupoweb&gt;/RgsConfig</STRONG>.
+    > Se abre la página web herramienta de configuración del grupo de respuesta. También puede abrir la Página Web de la herramienta de configuración del grupo de respuesta directamente desde un explorador Web conectándose a <STRONG>https:// &lt; fqdngrupoweb &gt; /RgsConfig</STRONG>.
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a2f2d5575bee6e6b29b6a5c289cfa589a33c411
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f87bf9aff433b70bc50b3fcff209ecd14ea268e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213206"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516787"
 ---
+# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>Creación o modificación de una directiva de ubicación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>Creación o modificación de una directiva de ubicación en Lync Server 2013
+
 
 </div>
 
@@ -61,15 +63,15 @@ En Lync Server 2013, puede invalidar la cantidad de tiempo predeterminada entre 
 
 5.  Rellene los campos restantes como se muestra a continuación:
     
-      - **Habilitar los servicios**   de emergencia mejorados Active esta casilla para habilitar los usuarios asociados con esta directiva para E9-1-1. Cuando se habilitan los servicios de emergencia, los clientes de Lync Server recuperarán la información de ubicación en el registro y la incluirán cuando se realice una llamada de emergencia.
+      - **Habilitar los servicios**     de emergencia mejorados Active esta casilla para habilitar los usuarios asociados con esta directiva para E9-1-1. Cuando se habilitan los servicios de emergencia, los clientes de Lync Server recuperarán la información de ubicación en el registro y la incluirán cuando se realice una llamada de emergencia.
     
-      - **Location**   especifique uno de los siguientes valores:
+      - **Ubicación**     Especifique uno de los siguientes valores:
         
-          - **Obligatorio**   se le pedirá al usuario que especifique la información de ubicación cuando el cliente se registre en una nueva ubicación. El usuario puede anular la solicitud sin especificar ninguna información. Si se especifica información, primero responderá a la llamada de emergencia el proveedor de servicios de emergencia para verificar la ubicación antes de enrutar la llamada al operador PSAP (Punto de respuesta de seguridad pública), o lo que es lo mismo, al operador del 911.
+          - **Es necesario**     Se pedirá al usuario que escriba la información de ubicación cuando el cliente se registre en una nueva ubicación. El usuario puede anular la solicitud sin especificar ninguna información. Si se especifica información, primero responderá a la llamada de emergencia el proveedor de servicios de emergencia para verificar la ubicación antes de enrutar la llamada al operador PSAP (Punto de respuesta de seguridad pública), o lo que es lo mismo, al operador del 911.
         
-          - **No es necesario**   no se le pedirá una ubicación al usuario. Al realizar una llamada sin información de ubicación, el proveedor de servicios de emergencia responderá a la llamada y solicitará que se especifique una ubicación.
+          - **No es necesario**     No se pedirá al usuario una ubicación. Al realizar una llamada sin información de ubicación, el proveedor de servicios de emergencia responderá a la llamada y solicitará que se especifique una ubicación.
         
-          - **Declinación de responsabilidades**   esta opción es la misma que la **necesaria** , excepto en que el usuario no puede descartar el aviso sin especificar la información de ubicación. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto del aviso de declinación de responsabilidades, debe usar el shell de administración de Lync Server para ejecutar el cmdlet **set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, vea [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) en la documentación del shell de administración de Lync Server.
+          - **Renuncia de responsabilidad**     Esta opción es la misma que **required** , excepto en que el usuario no puede descartar el aviso sin especificar la información de ubicación. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto del aviso de declinación de responsabilidades, debe usar el shell de administración de Lync Server para ejecutar el cmdlet **set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, vea [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) en la documentación del shell de administración de Lync Server.
             
             <div>
             
@@ -80,13 +82,13 @@ En Lync Server 2013, puede invalidar la cantidad de tiempo predeterminada entre 
             
             </div>
     
-      - **Usar ubicación para servicios de emergencia solo**   Lync puede usar la información de ubicación por diversos motivos (por ejemplo, para notificar a los compañeros de equipo de su ubicación actual). Seleccione esta casilla para garantizar que la información de ubicación solo está disponible para su uso en una llamada de emergencia.
+      - **Usar la ubicación solo**     para los servicios de emergencia Lync puede usar la información de ubicación por varios motivos (por ejemplo, para notificar a los compañeros de equipo de su ubicación actual). Seleccione esta casilla para garantizar que la información de ubicación solo está disponible para su uso en una llamada de emergencia.
     
-      - **Uso de RTC**   el uso de la red telefónica conmutada (RTC) que se usará para determinar qué ruta de voz se usará para enrutar llamadas de emergencia de clientes que usen este perfil. La ruta asociada con este uso debe hacer referencia a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que desvíe las llamadas de emergencia al PSAP (Punto de respuesta de seguridad pública) más cercano.
+      - **Uso**     de RTC Uso de la red telefónica conmutada (RTC) que se usará para determinar qué ruta de voz se usará para enrutar llamadas de emergencia de clientes que usen este perfil. La ruta asociada con este uso debe hacer referencia a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que desvíe las llamadas de emergencia al PSAP (Punto de respuesta de seguridad pública) más cercano.
     
-      - **Número de marcado de emergencia**   el número que se marca para tener acceso a los servicios de emergencia. En los EE. UU. el número es 911. La cadena debe estar formada por dígitos del 0 al 9 y puede contener de uno a diez dígitos.
+      - Número de marcado de **emergencia**     El número que se marca para tener acceso a los servicios de emergencia. En los EE. UU. el número es 911. La cadena debe estar formada por dígitos del 0 al 9 y puede contener de uno a diez dígitos.
     
-      - **Máscara de marcado de emergencia**   número que desea traducir en el valor del número de emergencia cuando se marca. Por ejemplo, si especifica el valor "212" en este campo y el número de teléfono de emergencia tiene el valor "911", cuando un usuario marca 212, la llamada se realizará al 911. Esto permite marcar números de emergencia alternativos y seguir teniendo acceso a los servicios de emergencia (por ejemplo, si una persona de un país o una región con otro número de emergencia intenta marcar el número de su país o región, en lugar del número del país o la región donde se encuentra.) Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
+      - Máscara de marcado de **emergencia**     Un número que desea traducir en el valor del número de marcado de emergencia cuando se marca. Por ejemplo, si especifica el valor "212" en este campo y el número de teléfono de emergencia tiene el valor "911", cuando un usuario marca 212, la llamada se realizará al 911. Esto permite marcar números de emergencia alternativos y seguir teniendo acceso a los servicios de emergencia (por ejemplo, si una persona de un país o una región con otro número de emergencia intenta marcar el número de su país o región, en lugar del número del país o la región donde se encuentra.) Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
         
         <div>
         
@@ -97,15 +99,15 @@ En Lync Server 2013, puede invalidar la cantidad de tiempo predeterminada entre 
         
         </div>
     
-      - **URI de notificación**   uno o más identificadores uniformes de recursos (URI) de SIP que se notificarán cuando se realice una llamada de emergencia. Por ejemplo, el departamento de seguridad de la empresa puede recibir una notificación por mensajería instantánea si se realiza una llamada de emergencia. Si la ubicación del autor de la llamada está disponible, se incluirá dicha ubicación en la notificación. Se pueden incluir varios URI del SIP, separados por comas, en una lista. Por ejemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". No se admiten listas de distribución. La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo "sip:". Antes de que haga clic en el campo URI de notificación aparecerá un ejemplo.
+      - **URI**     de notificación Uno o más identificadores uniformes de recursos (URI) de SIP a los que se va a notificar cuando se realice una llamada de emergencia. Por ejemplo, el departamento de seguridad de la empresa puede recibir una notificación por mensajería instantánea si se realiza una llamada de emergencia. Si la ubicación del autor de la llamada está disponible, se incluirá dicha ubicación en la notificación. Se pueden incluir varios URI del SIP, separados por comas, en una lista. Por ejemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". No se admiten listas de distribución. La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo "sip:". Antes de que haga clic en el campo URI de notificación aparecerá un ejemplo.
     
-      - **URI de conferencia**   el URI del SIP, en este caso el número de teléfono, de un tercero que se unirá a las llamadas de emergencia realizadas. Por ejemplo, el departamento de seguridad de la empresa puede recibir una llamada cuando se realiza una llamada de emergencia y escuchar o participar en la conversación (según el valor proporcionado en el campo **Modo de conferencia**). La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo sip:. Aparece un ejemplo hasta que se hace clic dentro del campo.
+      - **URI**     de conferencia El URI del SIP, en este caso, el número de teléfono de un tercero que se unirá a las llamadas de emergencia realizadas. Por ejemplo, el departamento de seguridad de la empresa puede recibir una llamada cuando se realiza una llamada de emergencia y escuchar o participar en la conversación (según el valor proporcionado en el campo **Modo de conferencia**). La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo sip:. Aparece un ejemplo hasta que se hace clic dentro del campo.
     
-      - **Modo**   de conferencia si especifica un valor en el campo **URI de conferencia** , el modo de **Conferencia** determina si un tercero puede participar en la llamada o solo puede escuchar. Especifique una de las opciones siguientes:
+      - **Modo**     de conferencia Si especifica un valor en el campo **URI de conferencia** , el **modo de conferencia** determina si un tercero puede participar en la llamada o solo puede escuchar. Especifique una de las opciones siguientes:
         
-          - **Una tercera**parte solo puede escuchar la conversación entre el autor de la llamada y el operador PSAP.   
+          - **Unidireccional**     Un tercero solo puede escuchar la conversación entre el autor de la llamada y el operador PSAP.
         
-          - **Dos sentidos**   un tercero puede escuchar y participar en la llamada entre el autor de la llamada y el operador PSAP.
+          - **Ambos sentidos**     Un tercero puede escuchar y participar en la llamada entre el autor de la llamada y el operador PSAP.
 
 6.  Haga clic en **Confirmar**.
     
@@ -142,7 +144,7 @@ En Lync Server 2013, puede invalidar la cantidad de tiempo predeterminada entre 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Eliminación de una directiva de ubicación en Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)  

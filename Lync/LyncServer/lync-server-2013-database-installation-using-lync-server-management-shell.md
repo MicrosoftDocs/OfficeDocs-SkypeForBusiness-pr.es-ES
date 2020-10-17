@@ -12,20 +12,22 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 443f353a43c2fdfd2f9fc8c7ce1a1b20c11a4a84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b602e29e0f90a49a031c25d6bb919337bef87b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187403"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516547"
 ---
+# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Instalación de bases de datos mediante el shell de administración de Lync Server en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Instalación de bases de datos mediante el shell de administración de Lync Server en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ La separación de roles y responsabilidades entre los administradores de servido
 
 
 > [!IMPORTANT]  
-> El siguiente procedimiento presupone que, al menos, Lync Server 2013 OCSCore. msi, SQL Server Native Client (SQLNCLI. msi) objetos de administración de Microsoft SQL Server 2012, tipos CLR para Microsoft SQL Server 2012 y Microsoft SQL Server 2012 ADOMD.NET están instalados. El archivo OCSCore.msi está ubicado en el medio de instalación en el directorio \Setup\AMD64\Setup. Los componentes restantes se encuentran en \Setup\amd64. Además, la preparación de Active Directory para Lync Server 2013 se ha completado correctamente.
+> En el siguiente procedimiento se supone que, como mínimo, se instalan los objetos de administración de Lync Server 2013 OCSCore.msi, SQL Server Native Client (sqlncli.msi) de Microsoft SQL Server 2012, los tipos CLR para Microsoft SQL Server 2012 y Microsoft SQL Server 2012 ADOMD.NET. El archivo OCSCore.msi está ubicado en el medio de instalación en el directorio \Setup\AMD64\Setup. Los componentes restantes se encuentran en \Setup\amd64. Además, la preparación de Active Directory para Lync Server 2013 se ha completado correctamente.
 
 
 
@@ -77,7 +79,7 @@ Para instalar bases de datos, **install-CsDatabase** usa tres métodos principal
 
 1.  Inicie sesión en cualquier equipo con credenciales administrativas para la creación de bases de datos en el servidor de SQL Server. Para obtener información detallada, consulte [permisos de implementación para SQL Server en Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Abra el shell de administración de Lync Server 2013. Si no ha ajustado la Directiva de ejecución de Windows PowerShell, debe ajustar la Directiva para permitir que se ejecuten los scripts de Windows PowerShell. Para obtener más información, consulte "examen de la Directiva de [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)ejecución" en.
+2.  Abra el shell de administración de Lync Server 2013. Si no ha ajustado la Directiva de ejecución de Windows PowerShell, debe ajustar la Directiva para permitir que se ejecuten los scripts de Windows PowerShell. Para obtener más información, consulte "examen de la Directiva de ejecución" en [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093) .
 
 3.  Use el cmdlet **install-CsDatabase** para instalar el almacén de administración central.
     
@@ -122,7 +124,7 @@ Para instalar bases de datos, **install-CsDatabase** usa tres métodos principal
     
 
     > [!IMPORTANT]  
-    > Para poder configurar las bases de datos basadas en SQL Server, asegúrese de que la cuenta de administrador de SQL Server que se usa para ejecutar los pasos descritos aquí también es miembro del grupo sysadmins (o equivalente) en el servidor que ejecuta SQL Server y que mantiene la administración central. Rol de servidor. Esto es especialmente importante para comprobar si hay otros grupos de servidores de Lync Server 2013 que requieran la instalación o configuración de la base de datos de SQL Server. Por ejemplo, si va a implementar un segundo grupo de servidores (pool02), pero el rol de servidor de administración central se mantiene mediante grupo01. El grupo sysadmin de SQL Server (o equivalente) debe tener permisos en ambas bases de datos basadas en SQL Server.
+    > Para poder configurar las bases de datos basadas en SQL Server, asegúrese de que la cuenta de administrador de SQL Server que se usa para ejecutar los pasos descritos aquí también es miembro del grupo sysadmins (o equivalente) en el servidor que ejecuta SQL Server y que mantiene el rol de servidor de administración central. Esto es especialmente importante para comprobar si hay otros grupos de servidores de Lync Server 2013 que requieran la instalación o configuración de la base de datos de SQL Server. Por ejemplo, si va a implementar un segundo grupo de servidores (pool02), pero el rol de servidor de administración central se mantiene mediante grupo01. El grupo sysadmin de SQL Server (o equivalente) debe tener permisos en ambas bases de datos basadas en SQL Server.
 
     
     </div>
@@ -166,7 +168,7 @@ Para instalar bases de datos, **install-CsDatabase** usa tres métodos principal
     
 
     > [!IMPORTANT]  
-    > Para poder configurar las bases de datos basadas en SQL Server, asegúrese de que la cuenta de administrador de SQL Server que se usa para ejecutar los pasos descritos aquí también es miembro del grupo sysadmins (o equivalente) en el servidor que ejecuta SQL Server y que mantiene la administración central. Rol de servidor. Esto es especialmente importante para comprobar si hay otros grupos de servidores de Lync Server que requieran la instalación o configuración de la base de datos de SQL Server. Por ejemplo, si va a implementar un segundo grupo de servidores (pool02), pero el rol de servidor de administración central se mantiene mediante grupo01. El grupo sysadmin de SQL Server (o equivalente) debe tener permisos en ambas bases de datos basadas en SQL Server.
+    > Para poder configurar las bases de datos basadas en SQL Server, asegúrese de que la cuenta de administrador de SQL Server que se usa para ejecutar los pasos descritos aquí también es miembro del grupo sysadmins (o equivalente) en el servidor que ejecuta SQL Server y que mantiene el rol de servidor de administración central. Esto es especialmente importante para comprobar si hay otros grupos de servidores de Lync Server que requieran la instalación o configuración de la base de datos de SQL Server. Por ejemplo, si va a implementar un segundo grupo de servidores (pool02), pero el rol de servidor de administración central se mantiene mediante grupo01. El grupo sysadmin de SQL Server (o equivalente) debe tener permisos en ambas bases de datos basadas en SQL Server.
 
     
     </div>
@@ -175,7 +177,7 @@ Para instalar bases de datos, **install-CsDatabase** usa tres métodos principal
 
 4.  Use el cmdlet **install-CsDatabase** con el parámetro DatabasePathMap y una tabla hash de PowerShell para instalar las bases de datos configuradas del generador de topologías.
 
-5.  En el código de ejemplo, las rutas de acceso definidas para las bases de datos pueden determinarse de una manera granular mediante el parámetro – DatabasePathMap y una tabla hash definida de la siguiente manera (en el\\ejemplo, se usa "c: CSData" para todos los archivos de base\\de datos (. MDF) y "c: CSLogFiles" para todos los archivos de registro (. ldf). La carpeta se creará según sea necesario mediante install-CsDatabase):
+5.  En el código de ejemplo, las rutas de acceso definidas para las bases de datos pueden determinarse de una manera granular mediante el parámetro – DatabasePathMap y una tabla hash definida de la siguiente manera (en el ejemplo, se usa "C: \\ CSData" para todos los archivos de base de datos (. MDF) y "c: \\ CSLogFiles" para todos los archivos de registro (. ldf). La carpeta se creará según sea necesario mediante install-CsDatabase):
     ```powershell
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
@@ -192,29 +194,29 @@ Para instalar bases de datos, **install-CsDatabase** usa tres métodos principal
     ```
 6.  Dado que la base de datos y los archivos de registro se denominan explícitamente con su ubicación en el servidor de la base de datos de destino, puede definir ubicaciones específicas para la ubicación de registro y base de datos real de cada tipo de servicio. En el siguiente ejemplo se colocan bases de datos para cada tipo de servicio específico en discos independientes y archivos de registro asociados en otro. Por ejemplo:
     
-      - Todas las bases de datos RTC a "D\\: RTCDatabase"
+      - Todas las bases de datos RTC a "D: \\ RTCDatabase"
     
-      - Todos los archivos de registro RTC a "\\E: RTCLogs"
+      - Todos los archivos de registro RTC a "E: \\ RTCLogs"
     
-      - Todas las bases de datos del almacén de aplicaciones en\\"F: CPSDatabases"
+      - Todas las bases de datos del almacén de aplicaciones en "F: \\ CPSDatabases"
     
-      - Todos los registros del almacén de aplicaciones en\\"G: CPSLogs"
+      - Todos los registros del almacén de aplicaciones en "G: \\ CPSLogs"
     
-      - Todas las bases de datos del almacén de grupos de respuesta\\a "H: RGSDatabases"
+      - Todas las bases de datos del almacén de grupos de respuesta a "H: \\ RGSDatabases"
     
-      - Todos los registros del almacén de grupos de respuesta\\en "I: RGSLogs"
+      - Todos los registros del almacén de grupos de respuesta en "I: \\ RGSLogs"
     
-      - Todas las bases de datos del almacén de la libreta de\\direcciones en "J: ABSDatabases"
+      - Todas las bases de datos del almacén de la libreta de direcciones en "J: \\ ABSDatabases"
     
-      - Todos los archivos de registro del almacén de la libreta\\de direcciones en "K: ABSLogs"
+      - Todos los archivos de registro del almacén de la libreta de direcciones en "K: \\ ABSLogs"
     
-      - Todas las bases de datos de almacenamiento de archivado en\\"L: ArchivingDatabases"
+      - Todas las bases de datos de almacenamiento de archivado en "L: \\ ArchivingDatabases"
     
-      - Todos los registros del almacén de archivado en\\"M: ArchivingLogs"
+      - Todos los registros del almacén de archivado en "M: \\ ArchivingLogs"
     
-      - Todas las bases de datos del almacén de supervisión a\\"N: MonitoringDatabases"
+      - Todas las bases de datos del almacén de supervisión a "N: \\ MonitoringDatabases"
     
-      - Todos los archivos de registro del almacén de supervisión\\a "O: MonitoringLogfiles"
+      - Todos los archivos de registro del almacén de supervisión a "O: \\ MonitoringLogfiles"
     
     <!-- end list -->
     

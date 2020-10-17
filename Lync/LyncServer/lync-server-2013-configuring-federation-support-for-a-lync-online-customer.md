@@ -12,20 +12,22 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cffed0c856577a60a9782850006b82f2c9d45374
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbb7421f204ded840dc627354b0d66627840c594
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517537"
 ---
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Configuración de la compatibilidad de Federación para un cliente de Lync Online en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Configuración de la compatibilidad de Federación para un cliente de Lync Online en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Si implementa Lync 2013 en su organización, puede federar a los dominios de uno
 
 
 > [!NOTE]  
-> En esta documentación solo se describen los procedimientos para configurar su organización para que admitan la Federación con un cliente de Lync Online 2010. En esta documentación no se describen los procedimientos para configurar el cliente de Lync Online 2010 para que admita la Federación. Para obtener más información sobre los servicios de Lync Online, <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>consulte Lync Online en.
+> En esta documentación solo se describen los procedimientos para configurar su organización para que admitan la Federación con un cliente de Lync Online 2010. En esta documentación no se describen los procedimientos para configurar el cliente de Lync Online 2010 para que admita la Federación. Para obtener más información sobre los servicios de Lync Online, consulte Lync Online en <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A> .
 
 
 

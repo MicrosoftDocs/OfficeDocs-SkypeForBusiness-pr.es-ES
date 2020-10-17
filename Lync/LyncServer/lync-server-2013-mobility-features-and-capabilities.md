@@ -12,20 +12,22 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c534aa912e2564f8a8934aafa75bc52b76600795
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3eecf3d55ba3bb8e8629d41a9a924c65ac7a4c0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217476"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516137"
 ---
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Características y capacidades de movilidad en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Características y capacidades de movilidad en Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ La característica de movilidad que se ha incluido en las actualizaciones acumul
 
 </div>
 
-Los usuarios de Apple iPad tendrán acceso a funciones mejoradas. Después de unirse a una reunión mediante la devolución de llamada de audio, un usuario de iPad podrá ver las presentaciones cargadas de Microsoft PowerPoint en una reunión, compartir aplicaciones y escritorios, ver la lista de participantes de la reunión y recibir notificaciones de otros tipos de contenido. que se comparten en la reunión.
+Los usuarios de Apple iPad tendrán acceso a funciones mejoradas. Después de unirse a una reunión mediante la devolución de llamada de audio, un usuario de iPad podrá ver las presentaciones cargadas de Microsoft PowerPoint dentro de una reunión, compartir aplicaciones y escritorios, ver la lista de participantes de la reunión y recibir notificaciones de otros tipos de contenido que se comparten en la reunión.
 
 <div>
 
@@ -99,7 +101,7 @@ Los usuarios de Apple iPad tendrán acceso a funciones mejoradas. Después de un
 
 
 > [!NOTE]  
-> No todas las características funcionan exactamente igual en todos los dispositivos móviles. Para obtener más información sobre las características admitidas en los dispositivos móviles, consulte las <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A>tablas de comparación de clientes móviles en. Para más detalles sobre los dispositivos compatibles y los dispositivos compatibles, consulte los temas de requisitos en <A href="lync-server-2013-planning-for-mobile-clients.md">Planning for Mobile clients in Lync Server 2013</A>.
+> No todas las características funcionan exactamente igual en todos los dispositivos móviles. Para obtener más información sobre las características admitidas en los dispositivos móviles, consulte las tablas de comparación de clientes móviles en <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A> . Para más detalles sobre los dispositivos compatibles y los dispositivos compatibles, consulte los temas de requisitos en <A href="lync-server-2013-planning-for-mobile-clients.md">Planning for Mobile clients in Lync Server 2013</A>.
 
 
 

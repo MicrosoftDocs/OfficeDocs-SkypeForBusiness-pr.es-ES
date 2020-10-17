@@ -12,20 +12,22 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8a47e395e74dae1eb6ec454e63fb343dcea7872
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 435af3ab537097592325438707b89ce901da9bcd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516397"
 ---
+# <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a>Definir una puerta de enlace RTC para un sitio de sucursal en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a>Definir una puerta de enlace RTC para un sitio de sucursal en Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ Lleve a cabo este procedimiento en el sitio central, que contiene al menos un gr
 > Antes de llevar a cabo el procedimiento, se deben cumplir las siguientes condiciones: 
 > <UL>
 > <LI>
-> <P>El software de&nbsp;comunicaciones de Lync Server 2013 debe estar configurado en el sitio central.</P>
+> <P>El software de comunicaciones de Lync Server 2013 &nbsp; debe estar configurado en el sitio central.</P>
 > <LI>
 > <P>El servidor de mediación debe implementarse en el sitio central.</P></LI></UL>
 
@@ -95,7 +97,7 @@ Lleve a cabo este procedimiento en el sitio central, que contiene al menos un gr
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Opciones de implementación de la puerta de enlace RTC en Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c5f3cdd8000892886b3273fbb33fc1b1f668e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0cdc05978b6fb8d81c81995d7b089d14ed4bec3b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196243"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516747"
 ---
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Creación o modificación de rutas de región de red en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Creación o modificación de rutas de región de red en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en  **Configuración de red ** y, a continuación, en **Ruta de región **.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Ruta regional**.
 
 4.  En la página **Ruta regional**, haga clic en **Nueva**.
 
@@ -62,9 +64,9 @@ Todas las regiones dentro de una configuración de control de admisión de llama
     
     </div>
 
-6.  En la lista desplegable ** \#región de red 1** , seleccione una de las dos regiones que se conectarán mediante esta ruta.
+6.  En la lista desplegable **región de red \# 1** , seleccione una de las dos regiones que se conectarán mediante esta ruta.
 
-7.  En la lista desplegable ** \#región de red 2** , seleccione la otra región de esta ruta. Esta región debe ser diferente de la región seleccionada para la región \#de red 1.
+7.  En la lista desplegable **región de red \# 2** , seleccione la otra región de esta ruta. Esta región debe ser diferente de la región seleccionada para la región de red \# 1.
 
 8.  Use el cuadro de lista **Vínculos de región de red** para agregar vínculos de red a la ruta. Haga clic en el botón **Agregar** para mostrar la página **Vínculo regional**. Haga clic en un vínculo regional para agregarlo a esta ruta y, a continuación, haga clic en **Aceptar**.
     
@@ -103,7 +105,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Eliminación de rutas de región de red existentes en Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)  

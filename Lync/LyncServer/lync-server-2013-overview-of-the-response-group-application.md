@@ -12,20 +12,22 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 007d6b21ab37aee16ae8c98b202bd3900f4dab45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31c2d15b8a50a67b70b320afc8da5dfdc83d2cc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215866"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516097"
 ---
+# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Información general sobre la aplicación grupo de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Información general sobre la aplicación grupo de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -86,7 +88,7 @@ Para acomodar el nuevo rol de administrador, la aplicación de grupo de respuest
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Administrado</p></td>
+<td><p>Administrados</p></td>
 <td><ul>
 <li><p>Los administradores de grupos de respuesta pueden configurar cualquier aspecto de los grupos de respuesta administrados.</p></li>
 <li><p>Los administradores del grupo de respuesta no pueden ver ni modificar los grupos de respuesta que no se les haya asignado explícitamente.</p></li>
@@ -118,7 +120,7 @@ En la tabla siguiente se describen las acciones que los administradores del grup
 <tbody>
 <tr class="odd">
 <td><ul>
-<li><p>Gelifica</p></li>
+<li><p>Agents</p></li>
 <li><p>Mensajes de bienvenida</p></li>
 <li><p>Nombre del grupo de respuesta</p></li>
 <li><p>Descripción</p></li>

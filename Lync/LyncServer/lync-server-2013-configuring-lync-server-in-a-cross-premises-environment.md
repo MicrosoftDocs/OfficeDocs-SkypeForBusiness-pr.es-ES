@@ -12,20 +12,22 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dcbdb7ac12dcb8fc768a1f9e537622d01191b8f
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6f6399185e045afb56231550abc33ab514db0d04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517393"
 ---
+# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>Configuración de Microsoft Lync Server 2013 en un entorno entre entornos
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>Configuración de Microsoft Lync Server 2013 en un entorno entre entornos
+
 
 </div>
 

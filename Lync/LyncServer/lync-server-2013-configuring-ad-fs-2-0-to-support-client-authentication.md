@@ -12,20 +12,22 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c48e474c511fd8d2e4b3e84bea0d74fcfeb650ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d2b713d109a72431e78e966258a84c084523a7a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517647"
 ---
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuración de AD FS 2,0 para admitir la autenticación de cliente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuración de AD FS 2,0 para admitir la autenticación de cliente en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Hay dos tipos de autenticación posibles que se pueden configurar para permitir 
 
   - Autenticación de cliente de seguridad de capa de transporte
 
-Mediante el uso de la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse con su nombre de usuario/contraseña o con su tarjeta inteligente y su PIN. Este tema se centra en cómo implementar la autenticación de cliente de seguridad de capa de transporte con AD FS 2,0. Para obtener más información acerca de los tipos de autenticación 2,0 de AD FS, consulte AD FS 2,0: Cómo cambiar el [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384)tipo de autenticación local en.
+Mediante el uso de la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse con su nombre de usuario/contraseña o con su tarjeta inteligente y su PIN. Este tema se centra en cómo implementar la autenticación de cliente de seguridad de capa de transporte con AD FS 2,0. Para obtener más información acerca de los tipos de autenticación 2,0 de AD FS, consulte AD FS 2,0: Cómo cambiar el tipo de autenticación local en [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384) .
 
 <div>
 
@@ -54,21 +56,21 @@ Mediante el uso de la autenticación basada en formularios, puede desarrollar un
 
 2.  Inicie Windows Explorer.
 
-3.  Ir a C:\\Inetpub\\ADFS\\LS
+3.  Ir a C: \\ Inetpub \\ ADFS \\ LS
 
-4.  Realice una copia de seguridad del archivo Web. config existente.
+4.  Haga una copia de seguridad del archivo de web.config existente.
 
-5.  Abra el archivo Web. config existente con el Bloc de notas.
+5.  Abra el archivo de web.config existente con el Bloc de notas.
 
 6.  En la barra de menús, seleccione **Editar** y, a continuación, seleccione **Buscar**.
 
-7.  Busque ** \<localAuthenticationTypes\>**.
+7.  Buscar **\<localAuthenticationTypes\>** .
     
     Tenga en cuenta que hay cuatro tipos de autenticación enumerados, uno por línea.
 
 8.  Mueva la línea que contiene el tipo de autenticación TLSClient a la parte superior de la lista de la sección.
 
-9.  Guarde y cierre el archivo Web. config.
+9.  Guarde y cierre el archivo de web.config.
 
 10. Inicie un símbolo del sistema con privilegios elevados.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2da630e422aaf7068a4252333d5221f552bce525
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f560df21555bf15c1a51c055861898860ff8dc6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516337"
 ---
+# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Definición de los requisitos de movilidad para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Definición de los requisitos de movilidad para Lync Server 2013
+
 
 </div>
 
@@ -45,13 +47,13 @@ Estas son las decisiones que debe tener en cuenta:
 
   - **¿Quiere usar la detección automática para clientes móviles de Lync?**
     
-    Si desea admitir la detección automática, debe crear nuevos registros internos y externos del sistema de nombres de dominio (DNS), agregar nombres alternativos del sujeto a certificados en los servidores front-end, directores y proxy inverso, y modificar las reglas de publicación existentes. en el proxy inverso. Para obtener más información, consulte [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Con la detección automática, los usuarios pueden ubicar automáticamente los servicios Web de Lync Server 2013 desde cualquier lugar dentro o fuera de la red corporativa, sin especificar las direcciones URL en la configuración del dispositivo móvil.
+    Si desea admitir la detección automática, debe crear nuevos registros internos y externos del sistema de nombres de dominio (DNS), agregar nombres alternativos del sujeto a certificados en los servidores front-end, directores y proxy inverso, y modificar las reglas de publicación existentes en el proxy inverso. Para obtener más información, consulte [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md). Con la detección automática, los usuarios pueden ubicar automáticamente los servicios Web de Lync Server 2013 desde cualquier lugar dentro o fuera de la red corporativa, sin especificar las direcciones URL en la configuración del dispositivo móvil.
     
     Si usa la configuración manual en lugar de la detección automática, los usuarios móviles deben especificar manualmente las siguientes direcciones URL en sus dispositivos móviles:
     
-      - https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.SVC/root para acceso externo
+      - https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.SVC/root para acceso externo
     
-      - https://\<IntPoolFQDN\>/AutoDiscover/Autodiscoverservice. SVC/root para acceso interno
+      - https:// \<IntPoolFQDN\> /AutoDiscover/autodiscoverservice. SVC/root para acceso interno
     
     Se recomienda encarecidamente usar la detección automática. El uso principal de los parámetros manuales es para solucionar problemas.
 
@@ -82,7 +84,7 @@ Estas son las decisiones que debe tener en cuenta:
     
 
     > [!IMPORTANT]  
-    > Si usa un servidor front-end de&nbsp;lync Server 2013 o grupos de servidores front-end y <STRONG>no tiene</STRONG> servidores Front-&nbsp;end de Lync Server 2010 o grupos de servidores front-end, no hay <STRONG>ningún requisito para la persistencia basada en cookies</STRONG>. Si necesita conservar los servidores front-end de&nbsp;lync Server 2010 o los grupos de servidores front-end, se siguen aplicando las mismas reglas que en lync Server 2010 para la persistencia basada en cookies.
+    > Si usa un servidor front-end de Lync Server 2013 &nbsp; o grupos de servidores front-end y <STRONG>no tiene</STRONG> servidores front-end de Lync Server 2010 &nbsp; o grupos de servidores front-end, no hay <STRONG>ningún requisito para la persistencia basada en cookies</STRONG>. Si necesita conservar los servidores front-end de Lync Server 2010 o los grupos de servidores &nbsp; front-end, se siguen aplicando las mismas reglas que en Lync Server 2010 para la persistencia basada en cookies.
 
     
     </div>
@@ -91,7 +93,7 @@ Estas son las decisiones que debe tener en cuenta:
     
     Si admite notificaciones de inserción, los dispositivos Apple iOS y Windows Phone admitidos reciben una notificación de eventos que ocurren cuando la aplicación móvil está inactiva. Debe configurar el servidor perimetral para que tenga una relación de Federación con el servicio de notificación de inserción de Lync Server basado en la nube, que se encuentra en el centro de servicios de Lync Online, y ejecutar un cmdlet para habilitar las notificaciones de inserción.
     
-    Si desea admitir notificaciones de inserción a través de la red Wi-Fi, además de admitir notificaciones de inserción a través de redes de datos o 3G de proveedores de dispositivos móviles, debe abrir el puerto 5223 de salida en la red Wi-Fi de su empresa. La admisión de notificaciones de inserción a través de la red Wi-Fi es compatible con dispositivos móviles que usan solo Wi-Fi y dispositivos móviles que tienen una recepción interior débil.
+    Si desea admitir las notificaciones de inserción a través de la red de Wi-Fi, además de admitir las notificaciones de inserción a través de redes de datos o 3G de proveedores de dispositivos móviles, debe abrir el puerto 5223 de salida en la red Wi-Fi de su empresa. La admisión de notificaciones de inserción a través de la red Wi-Fi es compatible con dispositivos móviles que usan solo Wi-Fi y dispositivos móviles que tienen una recepción interior débil.
     
     <div>
     
@@ -134,7 +136,7 @@ Estas son las decisiones que debe tener en cuenta:
     <tbody>
     <tr class="odd">
     <td><p>Habilitar la movilidad</p>
-    <p>Nombre del parámetro:<code>EnableMobility</code></p>
+    <p>Nombre del parámetro: <code>EnableMobility</code></p>
     <p>Ámbito: global, sitio o usuario</p></td>
     <td><p>Configuración administrativa para controlar a los usuarios de un ámbito determinado que tienen Lync Mobile instalado, si la Directiva se establece en false, el usuario no podrá iniciar sesión en el cliente.</p>
     <p>El valor predeterminado es True.</p></td>
@@ -142,7 +144,7 @@ Estas son las decisiones que debe tener en cuenta:
     </tr>
     <tr class="even">
     <td><p>Habilitar voz externa</p>
-    <p>Nombre del parámetro:<code>EnableOutsideVoice</code></p>
+    <p>Nombre del parámetro: <code>EnableOutsideVoice</code></p>
     <p>Ámbito: global, sitio o usuario</p></td>
     <td><p>Controla la capacidad de un usuario de usar llamadas vía trabajo, una característica que permite a los usuarios realizar y recibir llamadas mediante su número de trabajo en lugar de su número de teléfono móvil. Si se establece en false, el usuario no podrá realizar o recibir llamadas a través de su número de trabajo desde su dispositivo móvil.</p>
     <p>El valor predeterminado es true.</p></td>
@@ -150,7 +152,7 @@ Estas son las decisiones que debe tener en cuenta:
     </tr>
     <tr class="odd">
     <td><p>Habilitar audio y vídeo IP</p>
-    <p>Nombre del parámetro:<code>EnableIPAudioVideo</code></p>
+    <p>Nombre del parámetro: <code>EnableIPAudioVideo</code></p>
     <p>Ámbito: global, sitio o usuario</p></td>
     <td><p>Controla si un usuario puede usar VoIP para realizar o recibir llamadas de voz o vídeo en su dispositivo móvil. Si se establece en false, el usuario no podrá realizar o recibir llamadas de VoIP o vídeo en su dispositivo.</p>
     <p>El valor predeterminado es True.</p></td>
@@ -158,7 +160,7 @@ Estas son las decisiones que debe tener en cuenta:
     </tr>
     <tr class="even">
     <td><p>Requerir Wi-Fi para audio IP</p>
-    <p>Nombre del parámetro:<code>RequireWiFiForIPAudio</code></p>
+    <p>Nombre del parámetro: <code>RequireWiFiForIPAudio</code></p>
     <p>Ámbito: global, sitio o usuario</p></td>
     <td><p>Esta configuración define si el cliente tendrá que realizar y recibir llamadas a través de VoIP en WiFi en lugar de hacerlo en la red de datos de telefonía móvil. Si se establece en true, el usuario solo puede realizar y recibir llamadas de VoIP cuando esté conectado a una red WiFi.</p>
     <p>El valor predeterminado es false.</p></td>
@@ -166,9 +168,9 @@ Estas son las decisiones que debe tener en cuenta:
     </tr>
     <tr class="odd">
     <td><p>Requerir Wi-Fi para vídeo IP</p>
-    <p>Nombre del parámetro:<code>RequireWiFiForIPVideo</code></p>
+    <p>Nombre del parámetro: <code>RequireWiFiForIPVideo</code></p>
     <p>Ámbito: global, sitio o usuario</p></td>
-    <td><p>Esta configuración define si el cliente tendrá que realizar y recibir llamadas de vídeo en Wi-Fi en lugar de hacerlo en la red de datos de telefonía móvil. Si se establece en true, el usuario solo puede realizar y recibir llamadas de vídeo cuando esté conectado a una red Wi-Fi.</p>
+    <td><p>Esta configuración define si el cliente tendrá que realizar y recibir llamadas de vídeo en Wi-Fi en lugar de en la red de datos de telefonía móvil. Si se establece en true, el usuario solo puede realizar y recibir llamadas de vídeo cuando esté conectado a un Wi-Fi red.</p>
     <p>El valor predeterminado es false.</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>
@@ -192,7 +194,7 @@ Estas son las decisiones que debe tener en cuenta:
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Requisitos técnicos para la movilidad en Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89f8fe84e046f49304d987fa51adf6dda61b8ce3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c352e7a4f062e6a9a1aab0bf52289c20102cc7fe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517557"
 ---
+# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>Configuración de anuncios para números sin asignar en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>Configuración de anuncios para números sin asignar en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Esta sección le guiará a través de la configuración de los anuncios de Lync 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de características de administración de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  

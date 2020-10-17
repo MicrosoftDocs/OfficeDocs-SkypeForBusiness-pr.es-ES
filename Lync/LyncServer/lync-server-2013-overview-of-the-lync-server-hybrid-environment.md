@@ -12,20 +12,22 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f99aeda6136c79b7ffda9b5cd3d5dced3b1f6ee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221534"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516117"
 ---
+# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Información general sobre el entorno híbrido de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Información general sobre el entorno híbrido de Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Tendrá que tener instaladas las siguientes aplicaciones y utilidades para compl
 
   - [Instalar Windows PowerShell para el inicio de sesión único con AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - El Asistente para el inicio de sesión de Microsoft Online Services (msoidcli-7.0. msi) se incluye en la configuración de escritorio de Microsoft 365, que se puede obtener en la página de descargas a la que se vincula desde el centro de administración de Microsoft 365.
+  - El Asistente para el inicio de sesión de Microsoft Online Services (msoidcli-7.0.msi) se incluye con la configuración de escritorio de Microsoft 365, que se puede obtener en la página de descargas a la que se vincula desde el centro de administración de Microsoft 365.
 
 </div>
 

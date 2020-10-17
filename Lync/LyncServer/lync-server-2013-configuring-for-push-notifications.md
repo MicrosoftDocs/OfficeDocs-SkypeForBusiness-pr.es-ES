@@ -12,20 +12,22 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad1967bea18e0a03ac3a34bf187c1248ec5a1ab2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f68cafcfcc616bd6e467514704416f134de3665
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517497"
 ---
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Configuración de notificaciones de inserción en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Configuración de notificaciones de inserción en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197803"
 
 _**Última modificación del tema:** 2013-02-12_
 
-Las notificaciones de inserción, en la forma de distintivos, iconos o alertas, se pueden enviar a un dispositivo móvil aunque la aplicación móvil se encuentre inactiva. Las notificaciones de inserción notifican a un usuario eventos como correo de voz o invitaciones de mensajería instantánea nuevas o perdidas. El servicio de movilidad Lync Server 2013 envía las notificaciones al servicio de notificación de inserción de Lync Server basado en la nube, que a su vez envía las notificaciones al servicio de notificación de inserción de Apple (APNS) (para un dispositivo Apple que ejecuta el cliente móvil de Lync 2010) o el Servicio de notificaciones de inserción de Microsoft (MPNS) (para un dispositivo de Windows Phone que ejecuta Lync 2010 Mobile o Lync 2013 Mobile Client).
+Las notificaciones de inserción, en la forma de distintivos, iconos o alertas, se pueden enviar a un dispositivo móvil aunque la aplicación móvil se encuentre inactiva. Las notificaciones de inserción notifican a un usuario eventos como correo de voz o invitaciones de mensajería instantánea nuevas o perdidas. El servicio de movilidad de Lync Server 2013 envía las notificaciones al servicio de notificación de inserción de Lync Server basado en la nube que, a continuación, envía las notificaciones al servicio de notificaciones de inserción de Apple (para un dispositivo Apple que ejecuta el cliente móvil de Lync 2010) o a Microsoft Push Notification Service (MPNS) (para un dispositivo de Windows Phone que ejecuta Lync 2013 2010
 
 <div>
 

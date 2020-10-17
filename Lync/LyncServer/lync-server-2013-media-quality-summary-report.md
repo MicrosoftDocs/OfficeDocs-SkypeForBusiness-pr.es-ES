@@ -12,20 +12,22 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edeec17bccc4c2084f71d3a052d3a44a34f4ed94
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4080460083074f7ad74618034ab2e7910de5e53d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516188"
 ---
+# <a name="media-quality-summary-report-in-lync-server-2013"></a>Informe de Resumen de calidad de medios en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-summary-report-in-lync-server-2013"></a>Informe de Resumen de calidad de medios en Lync Server 2013
+
 
 </div>
 
@@ -112,12 +114,12 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar en el infor
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
+<p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -135,7 +137,7 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar en el infor
 <ul>
 <li><p>Todos</p></li>
 <li><p>Interno</p></li>
-<li><p>External</p></li>
+<li><p>Externo</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -243,7 +245,7 @@ En la tabla siguiente se muestra la información que recoge el informe de resume
 <tr class="even">
 <td><p><strong>Vibración (ms)</strong></p></td>
 <td><p>No</p></td>
-<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
+<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de la &quot; irregularidad &quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tasa de recuperación de muestras ocultas</strong></p></td>
@@ -421,7 +423,7 @@ En la tabla siguiente se muestra la información que recoge el informe de resume
 <tr class="odd">
 <td><p><strong>Vibración (ms)</strong></p></td>
 <td><p>No</p></td>
-<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
+<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de la &quot; irregularidad &quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unidireccional relativo medio</strong></p></td>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar el enrutamiento basado en ubicación'
+title: 'Lync Server 2013: configurar el enrutamiento de Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b88df8bf0b8362a09ea2e5b779b7fa9d789a0a48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b703aa084204a2c103e02ebff5f913a6647ae94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517424"
 ---
+# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configuración del enrutamiento de Location-Based en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configuración del enrutamiento basado en ubicación en Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42206366"
 
 _**Última modificación del tema:** 2013-03-12_
 
-Lync Server 2013 CU1, el enrutamiento basado en ubicación es una característica de Enterprise Voice. El enrutamiento basado en ubicación es una característica de administración de llamadas que controla cómo se enrutan las llamadas por parte de Lync Server 2013 CU1. Aplica restricciones en cuanto a si las llamadas se pueden enrutar a los destinos de PBX o RTC en función de la ubicación del autor de la llamada de Lync. El enrutamiento basado en ubicación aplica las reglas de autorización de llamadas a las llamadas RTC en función de la ubicación de red del autor de la llamada. La ubicación del autor de la llamada se determina en función del sitio de red asociado a la subred de red en la que está conectado el autor de la llamada. La configuración del enrutamiento basado en ubicación requiere la implementación de Enterprise Voice en primer lugar y, a continuación, la configuración de regiones de red, sitios y subredes. Esto configura la base para habilitar el enrutamiento basado en la ubicación.
+Lync Server 2013 CU1, Location-Based Routing es una característica de Enterprise Voice. El enrutamiento Location-Based es una característica de administración de llamadas que controla cómo se enrutan las llamadas por parte de Lync Server 2013 CU1. Aplica restricciones en cuanto a si las llamadas se pueden enrutar a los destinos de PBX o RTC en función de la ubicación del autor de la llamada de Lync. El enrutamiento Location-Based se aplica a las reglas de autorización de llamadas a RTC en función de la ubicación de red del autor de la llamada. La ubicación del autor de la llamada se determina en función del sitio de red asociado a la subred de red en la que está conectado el autor de la llamada. La configuración del enrutamiento de Location-Based requiere que se implemente primero la telefonía IP empresarial y, a continuación, la configuración de regiones de red, sitios y subredes. De esta forma se establece la base para habilitar el enrutamiento de Location-Based.
 
-Antes de implementar el enrutamiento basado en ubicación, primero debe implementar Enterprise Voice y configurar regiones de red, sitios y asociar subredes de red a los sitios de red. Una vez completado, puede configurar el enrutamiento basado en ubicación. Para conocer los pasos necesarios para configurar regiones de red, sitios y subredes, vea [Deploying Advanced Enterprise Voice Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+Antes de implementar el enrutamiento de Location-Based, primero debe implementar Enterprise Voice y configurar regiones de red, sitios y asociar subredes de red a los sitios de red. Una vez completada, puede configurar el enrutamiento de Location-Based. Para conocer los pasos necesarios para configurar regiones de red, sitios y subredes, vea [Deploying Advanced Enterprise Voice Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
-Esta sección le guiará a través de la configuración del enrutamiento basado en ubicación mediante el siguiente ejemplo como ilustración.
+Esta sección le guiará a través de la configuración del enrutamiento de Location-Based mediante el siguiente ejemplo como ilustración.
 
 ![Ejemplo de enrutamiento basado en Enterprise Voice Location](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Ejemplo de enrutamiento basado en Enterprise Voice Location")
 
@@ -157,13 +159,13 @@ La siguiente tabla representa los sistemas que se ilustran en este entorno de ej
 
   - [Implementar regiones de red, sitios y subredes en Lync Server 2013](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
 
-  - [Habilitación del enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)
+  - [Habilitación del enrutamiento Location-Based en Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Implementación de características avanzadas de telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  

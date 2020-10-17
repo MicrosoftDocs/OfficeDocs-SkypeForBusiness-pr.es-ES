@@ -12,20 +12,22 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ec182619bca0cf6e52093a28a72f1f8bca077d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18f7ac9793c8275caa20725d2d303c5fca7f534f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200153"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516717"
 ---
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Personalizar la música de estacionamiento de llamadas en espera en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Personalizar la música de estacionamiento de llamadas en espera en Lync Server 2013
+
 
 </div>
 
@@ -79,7 +81,7 @@ Puede especificar su propio archivo de música para usarlo para música en esper
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  

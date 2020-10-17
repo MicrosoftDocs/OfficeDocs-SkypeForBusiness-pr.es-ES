@@ -12,20 +12,22 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cad247f2643261e02e475c459e703db843f18fbe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3faf28bdd85f32de1560d35aaf35392fef9746
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195573"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516957"
 ---
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Configurar el escape de correo de voz en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Configurar el escape de correo de voz en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195573"
 
 _**Última modificación del tema:** 2013-02-22_
 
-Cuando un usuario configura llamadas simultáneas a un teléfono móvil, normalmente se enrutará al autor de la llamada al buzón de voz personal del usuario si el teléfono móvil está apagado, fuera de cobertura o se ha quedado sin batería. Con Lync Server 2013, los usuarios pueden optar por hacer que las llamadas relacionadas con la empresa se enruten a su sistema de correo de voz corporativo. En concreto, se puede configurar un temporizador y, si la llamada se responde por el correo de voz del transportista dentro del intervalo de tiempo definido, Lync Server se desconectará del sistema de correo de voz del operador (y del correo de voz personal del usuario), mientras que el resto del usuario los puntos de conexión del sistema corporativo continúan sonando. De esta manera, se enrutará automáticamente al autor de la llamada al buzón de voz corporativo del usuario.
+Cuando un usuario configura llamadas simultáneas a un teléfono móvil, normalmente se enrutará al autor de la llamada al buzón de voz personal del usuario si el teléfono móvil está apagado, fuera de cobertura o se ha quedado sin batería. Con Lync Server 2013, los usuarios pueden optar por hacer que las llamadas relacionadas con la empresa se enruten a su sistema de correo de voz corporativo. En concreto, se puede configurar un temporizador y, si la llamada se responde por el correo de voz del transportista dentro del intervalo de tiempo definido, Lync Server se desconectará del sistema de correo de voz del operador (y del correo de voz personal del usuario), mientras que los extremos restantes del usuario en el sistema corporativo continúan sonando. De esta manera, se enrutará automáticamente al autor de la llamada al buzón de voz corporativo del usuario.
 
 Esta configuración se lleva a cabo mediante el cmdlet del shell de administración de Lync Server, **set-CsVoicePolicy**, en el nivel de la Directiva de voz, con los siguientes parámetros.
 

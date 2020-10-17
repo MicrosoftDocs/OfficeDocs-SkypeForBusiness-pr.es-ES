@@ -12,20 +12,22 @@ ms:contentKeyID: 48183424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68040d639a3fafee5162b41ea6124bc0d5aabc67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e196c8e933a2f7cd361712a38e309d6699e35dbd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516667"
 ---
+# <a name="customizing-the-online-meeting-add-in-in-lync-server-2013"></a>Personalización del complemento para reunión en línea en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-online-meeting-add-in-in-lync-server-2013"></a>Personalización del complemento para reunión en línea en Lync Server 2013
+
 
 </div>
 
