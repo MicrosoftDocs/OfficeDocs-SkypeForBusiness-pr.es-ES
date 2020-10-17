@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: selección de una topología'
+description: 'Lync Server 2013: elegir una topología.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f128c827845ac06a736b849e6fa3242e319decb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 01ded739c3c5e4e0bd8c0f25f3f0fe8ff1f350b9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529387"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549686"
 ---
 # <a name="choosing-a-topology-in-lync-server-2013"></a>Elección de una topología en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de la supervisión'
+description: 'Lync Server 2013: Planeación de la supervisión.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d5af3506eccd9cccfd3771d0e983f62bfaad15
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f8ee78f06423bc167e26455d399ce2dd16f24262
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549336"
 ---
 # <a name="planning-for-monitoring-in-lync-server-2013"></a>Planeación de la supervisión en Lync Server 2013
 

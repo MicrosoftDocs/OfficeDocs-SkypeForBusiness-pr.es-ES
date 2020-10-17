@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: supervisar el uso de UCWA y del servicio de movilidad'
+description: 'Lync Server 2013: supervisar el uso de UCWA y del servicio de movilidad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2248bbd2eea4bb9204a98b5c5805ef196cbf2015
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6575941faf904e46cd1f66d7226a16c88e8cbaa3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531803"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548116"
 ---
 # <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a>Supervisar el uso de UCWA y del servicio de movilidad en Lync Server 2013
 

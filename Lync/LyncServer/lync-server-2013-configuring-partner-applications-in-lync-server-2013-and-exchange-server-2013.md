@@ -1,5 +1,6 @@
 ---
 title: Configuración de aplicaciones de socio en Lync Server 2013 y Exchange Server 2013
+description: Configurar aplicaciones de socio en Lync Server 2013 y Exchange Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8743b012042738ea25653cf49a804e08d59a423
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b149642e7b81a3e8befd321c3a62c8ceeeb00eac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532517"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548326"
 ---
 # <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Configuración de aplicaciones de socio en Microsoft Lync Server 2013 y Microsoft Exchange Server 2013
 

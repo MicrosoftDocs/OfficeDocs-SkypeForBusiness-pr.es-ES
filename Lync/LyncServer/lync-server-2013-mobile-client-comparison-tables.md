@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tablas de comparación de clientes móviles'
+description: 'Lync Server 2013: tablas de comparación de clientes móviles.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4034bf512a27bed194dd702ef6e4106b10a3dd1d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec1171b89507a37ad1db190ec4ff1ac5c5c165c3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505697"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548146"
 ---
 # <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Tablas de comparación de clientes móviles para Lync Server 2013
 

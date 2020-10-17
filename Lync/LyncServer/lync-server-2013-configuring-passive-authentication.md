@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la autenticación pasiva'
+description: 'Lync Server 2013: configurar la autenticación pasiva.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 780b539aeaf6a6bc6956fc5f8b6185092675632b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 52a83c1413dcac18fb37ff0fe308266a3d7aeab4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532497"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548296"
 ---
 # <a name="configuring-lync-server-2013-passive-authentication"></a>Configuración de la autenticación pasiva de Lync Server 2013
 

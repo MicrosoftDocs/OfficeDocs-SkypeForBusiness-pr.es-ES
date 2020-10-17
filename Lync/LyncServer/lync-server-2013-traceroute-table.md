@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla TraceRoute'
+description: 'Lync Server 2013: tabla TraceRoute.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d0aa4d6d60c57adb35086ce653cbd906f11c600
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8af33e572065fbab1eaaaef684997e7f95edaed9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549066"
 ---
 # <a name="traceroute-table-in-lync-server-2013"></a>TraceRoute tabla en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de la seguridad'
+description: 'Lync Server 2013: Planeación de la seguridad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56107267
 ms.date: 06/22/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f99fbd5e511063d7687dbb9e1b9a73fa0cb6ab6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1abc02aa3f42a6b12c66c621b071e0b3ddb545c9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507007"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549236"
 ---
 # <a name="planning-for-security-in-lync-server-2013"></a>Planeación de la seguridad en Lync Server 2013
 

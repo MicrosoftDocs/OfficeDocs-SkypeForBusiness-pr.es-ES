@@ -1,5 +1,6 @@
 ---
 title: Accesibilidad de Lync Server 2013
+description: Lync Server 2013 accesibilidad.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3e374825b762d059cc4b56a232d8e8b518319bf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d1d1690277fe1ac8f24f0badff45830f8a1c0513
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523237"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549706"
 ---
 # <a name="accessibility-in-lync-server-2013"></a>Accesibilidad en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: compatibilidad con infraestructura y software de dispositivos y clientes.'
+description: 'Lync Server 2013: compatibilidad con infraestructura y software de dispositivos y clientes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e599a7628cd24c59b34616f0c108d7a8c292b9e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 155fe1f2925af45350dee500d8a545481f891e59
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549646"
 ---
 # <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Compatibilidad con infraestructura y software de dispositivo y cliente en Lync Server 2013
 

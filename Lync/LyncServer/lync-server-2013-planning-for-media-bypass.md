@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de la omisión de medios'
+description: 'Lync Server 2013: Planeación de la omisión de medios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5d9687069e82cde803f7a01873db482ea2afa2f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7d92a50d9d838b0f13fd6837cbfadee1c48712f0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549446"
 ---
 # <a name="planning-for-media-bypass-in-lync-server-2013"></a>Planeación de la omisión de medios en Lync Server 2013
 

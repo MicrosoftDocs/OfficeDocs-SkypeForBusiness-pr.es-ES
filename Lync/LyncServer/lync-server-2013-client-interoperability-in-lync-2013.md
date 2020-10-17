@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: interoperabilidad de clientes en Lync 2013'
+description: 'Lync Server 2013: interoperabilidad de clientes en Lync 2013.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e00071edd4a3d65e9db763914577983306491fc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8ea6e90d9479f03dd6d946787e70a2b3cc078699
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502677"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549616"
 ---
 # <a name="client-interoperability-in-lync-2013"></a>Interoperabilidad de clientes en Lync 2013
 

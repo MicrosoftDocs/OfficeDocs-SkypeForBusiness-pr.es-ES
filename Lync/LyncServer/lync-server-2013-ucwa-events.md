@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eventos de UCWA'
+description: 'Lync Server 2013: eventos de UCWA.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ae71fa6e91c0bc212bc019b1afa85ebcacb4d0d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8104ce9c7533350f40ce194e1cde205bc3692792
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527797"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548856"
 ---
 # <a name="ucwa-events-in-lync-server-2013"></a>Eventos de UCWA en Lync Server 2013
 

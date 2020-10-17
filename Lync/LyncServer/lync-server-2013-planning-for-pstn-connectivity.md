@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de la conectividad con RTC'
+description: 'Lync Server 2013: Planeación de la conectividad con RTC.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41de8ee220ef1bbe88601d53886046c28f72e954
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 45c0df6aa6dc9d9cc8522223056f1834849e6ddb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549326"
 ---
 # <a name="planning-for-pstn-connectivity-in-lync-server-2013"></a>Planeación de la conectividad con RTC en Lync Server 2013
 

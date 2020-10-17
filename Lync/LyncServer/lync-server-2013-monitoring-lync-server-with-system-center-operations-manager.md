@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: supervisión de Lync Server con System Center Operations Manager'
+description: 'Lync Server 2013: supervisión de Lync Server con System Center Operations Manager.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c402ca88e45b70f26eb4de9691c95e1935a609f6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2ad93c47ab8d157b1e18b4bccc5094408f3d68ee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531897"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548096"
 ---
 # <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a>Supervisión de Lync Server 2013 con System Center Operations Manager
 

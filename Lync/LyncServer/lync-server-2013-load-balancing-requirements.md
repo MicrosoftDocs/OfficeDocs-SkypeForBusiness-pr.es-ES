@@ -1,5 +1,6 @@
 ---
 title: Requisitos de equilibrio de carga de Lync Server 2013
+description: Lync Server 2013 requisitos de equilibrio de carga.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 016ace11375483fbeaa59199e9f1cdae23654cd6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a768b2cbfe444e6915c932835d3cc2abaf6a98c3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513827"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550036"
 ---
 # <a name="load-balancing-requirements-for-lync-server-2013"></a>Requisitos de equilibrio de carga para Lync Server 2013
 

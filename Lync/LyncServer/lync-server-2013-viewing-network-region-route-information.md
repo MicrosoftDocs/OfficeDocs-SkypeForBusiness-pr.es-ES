@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: visualización de información de ruta de región de red'
+description: 'Lync Server 2013: visualización de información de ruta de región de red.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e671bb8f714e2444cc2f271f6ad7ecebc74f7ddb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3eca6348ecb13cd0b0b28950d57c741c056c1bd7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535687"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549846"
 ---
 # <a name="viewing-network-region-route-information-in-lync-server-2013"></a>Ver información de ruta de región de red en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de intervalos de puertos para servidores perimetrales'
+description: 'Lync Server 2013: configuración de intervalos de puertos para los servidores perimetrales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184469
 ms.date: 07/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9124ba5b2a800190f49a9ac81fd9a2477eac215
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c085a5dbc32bbf56842984eae2ef8896ab895c65
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535027"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548256"
 ---
 # <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Configuración de intervalos de puertos para los servidores perimetrales en Lync Server 2013
 

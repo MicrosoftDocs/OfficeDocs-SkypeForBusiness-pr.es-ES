@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar la telefonía IP empresarial'
+description: 'Lync Server 2013: configurar la telefonía IP empresarial.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 49a231b92bf7b04aa3466927a79258f0cbad4e3f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532557"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548436"
 ---
 # <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configurar la telefonía IP empresarial en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalType'
+description: 'Lync Server 2013: tblPrincipalType.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60fa841f7f88e0da2c428ae68c5007fb79e6c69d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ba0f607d4499b54b16d7ecf8a4e7de603e874788
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536327"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549866"
 ---
 # <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType en Lync Server 2013
 

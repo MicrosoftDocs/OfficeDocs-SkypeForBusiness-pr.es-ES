@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: solución de problemas y indicadores de estado clave'
+description: 'Lync Server 2013: solución de problemas y indicadores de estado clave.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5bb06f43a77f36d742d8cbf32fbff57b29394f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8fdb214d4ce8472800272a05e81b0402d3bf820e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530337"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549056"
 ---
 # <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a>Solución de problemas y indicadores de estado clave en Lync Server 2013
 

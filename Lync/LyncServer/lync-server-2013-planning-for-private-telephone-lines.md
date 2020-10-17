@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de líneas telefónicas privadas'
+description: 'Lync Server 2013: Planeación de líneas telefónicas privadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a5381d0f71dd6e15a3b4b6d76f2a03be558b9d0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 120c1804bc3ce58e8746f68cbda9c66f02568ccb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549316"
 ---
 # <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Planeación de líneas telefónicas privadas con Lync Server 2013
 

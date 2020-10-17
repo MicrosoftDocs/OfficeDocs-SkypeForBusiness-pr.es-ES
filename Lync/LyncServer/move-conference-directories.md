@@ -1,5 +1,6 @@
 ---
 title: Mover directorios de conferencia
+description: Mover directorios de conferencia.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d53e3183d781f527373ffcfb8573da9fbb52d41f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3a91c30c0bedc84c684a096f5ea482fa911dc798
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500307"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549736"
 ---
 # <a name="move-conference-directories"></a>Mover directorios de conferencia
 

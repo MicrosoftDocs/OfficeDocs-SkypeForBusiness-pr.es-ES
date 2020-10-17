@@ -1,5 +1,6 @@
 ---
 title: Configurar registros DNS para una implementación de grupo de servidores piloto
+description: Configure los registros DNS para la implementación del grupo piloto.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 49733855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac28f32d6dc68cbfa23c3c1620a23b67fc182c43
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1e41e163432ba910f6d083cc508e8ad8c9f2006d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548496"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>Configurar registros DNS para una implementación de grupo de servidores piloto
 

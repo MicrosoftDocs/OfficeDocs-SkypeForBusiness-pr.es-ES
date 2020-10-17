@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración del control de admisión de llamadas'
+description: 'Lync Server 2013: administración del control de admisión de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9663f867e38319b0105373af81c8857be3e1abe
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0a1c01bff6d1dce48dea314b6704cc0f5ff7d6b2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549466"
 ---
 # <a name="managing-call-admission-control-in-lync-server-2013"></a>Administración del control de admisión de llamadas en Lync Server 2013
 

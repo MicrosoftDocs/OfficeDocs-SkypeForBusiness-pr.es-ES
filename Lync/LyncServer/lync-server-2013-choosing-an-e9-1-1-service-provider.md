@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: selección de un proveedor de servicios E9-1-1'
+description: 'Lync Server 2013: selección de un proveedor de servicios E9-1-1.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184198
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d15c3283cb775dd052843eac4a279ce4390bbd81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 01cadd501f08c17f9f0b9494de0cd6ef86ae4b2e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529377"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549666"
 ---
 # <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a>Selección de un proveedor de servicios E9-1-1 para Lync Server 2013
 

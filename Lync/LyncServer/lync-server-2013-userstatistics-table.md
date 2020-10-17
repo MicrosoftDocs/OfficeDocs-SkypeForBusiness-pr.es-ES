@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla UserStatistics'
+description: 'Lync Server 2013: tabla UserStatistics.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55df55ba8c9953a1efce25269c24b43328472d7f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 75b34fa3c34af4cc9cf2cacc6ae7feb4d217114c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548536"
 ---
 # <a name="userstatistics-table-in-lync-server-2013"></a>Tabla UserStatistics en Lync Server 2013
 

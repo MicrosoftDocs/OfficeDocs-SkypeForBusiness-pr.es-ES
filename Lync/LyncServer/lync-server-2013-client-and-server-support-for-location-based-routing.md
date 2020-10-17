@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: compatibilidad del cliente y el servidor con el enrutamiento Location-Based'
+description: 'Lync Server 2013: compatibilidad del cliente y el servidor con el enrutamiento Location-Based.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85e2ce1738ee5de9d4d542cedd7a9e544771938
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 20dca7444f58ee62dbc36edbb7d9e1c976a97807
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529347"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549636"
 ---
 # <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Compatibilidad de cliente y servidor para el enrutamiento Location-Based en Lync Server 2013
 

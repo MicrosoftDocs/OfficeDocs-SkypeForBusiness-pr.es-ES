@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: crear grupos de agentes de grupos de respuesta'
+description: 'Lync Server 2013: crear grupos de agentes de grupos de respuesta.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b3df5b191abea7aea75c2ad55afa586479d6e89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a9420ee5f6fbd4b995c8542b848ef30f53e46fc4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514707"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548696"
 ---
 # <a name="create-response-group-agent-groups-lync-server-2013"></a>Crear grupos de agentes de grupo de respuesta Lync Server 2013
 
