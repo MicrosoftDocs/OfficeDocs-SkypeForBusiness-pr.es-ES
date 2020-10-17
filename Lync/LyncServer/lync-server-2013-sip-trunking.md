@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: enlace troncal SIP'
+description: 'Lync Server 2013: enlace troncal SIP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adf8dcee7ccd7adb393c8d13f7e9a8b186d2bb6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 60b68d9d0400c87de2832d7fe7bdabe4057ec47a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519667"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559016"
 ---
 # <a name="sip-trunking-in-lync-server-2013"></a>Enlace troncal SIP en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: comprobación de la replicación del esquema'
+description: 'Lync Server 2013: comprobación de la replicación del esquema.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185124
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 483a8125969fffc0db2c8f72bca3fc5b8001d943
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 019cd06db05a9ba683767f550a712ef188b47508
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527627"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560176"
 ---
 # <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>Comprobar la replicación de esquemas de Active Directory en Lync Server 2013
 

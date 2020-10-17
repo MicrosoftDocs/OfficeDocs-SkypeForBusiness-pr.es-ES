@@ -1,5 +1,6 @@
 ---
 title: Configurar las opciones globales de omisión de medios para usar información de sitio y región
+description: Configure las opciones globales de omisión de medios para usar información de sitio y región.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e730b1e44bbe6e6fbec4d84a2c81ce474cff693
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a65dcec966030262d6d0fb5530b94f2411003c7a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507627"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559806"
 ---
 # <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Configurar las opciones globales de omisión de medios en Lync Server 2013 para usar la información de sitio y región
 

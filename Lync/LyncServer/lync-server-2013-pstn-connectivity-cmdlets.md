@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de conectividad de RTC'
+description: 'Lync Server 2013: cmdlets de conectividad con RTC.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d58f168c858a8fd231d2a6cefe692a2f7535da82
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b36311ea2f983bb65864d13929b5052d0a408c2c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513057"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559216"
 ---
 # <a name="pstn-connectivity-cmdlets-in-lync-server-2013"></a>Cmdlets de conectividad RTC en Lync Server 2013
 

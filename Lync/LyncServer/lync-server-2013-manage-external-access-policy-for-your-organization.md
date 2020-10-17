@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administrar la Directiva de acceso externo para la organización'
+description: 'Lync Server 2013: administre la Directiva de acceso externo para su organización.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46242343d6da54a6ac1123663734645fd4f64a5a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f0bb0e6764f67403065187c62debef13c77fcc3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525007"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558416"
 ---
 # <a name="manage-external-access-policy-in-lync-server-2013"></a>Administrar la Directiva de acceso externo en Lync Server 2013
 

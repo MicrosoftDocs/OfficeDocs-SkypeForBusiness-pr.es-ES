@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla SIPResponseMetaData'
+description: 'Lync Server 2013: tabla SIPResponseMetaData.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2418851ed66500937dab92f2820c36a8d1afac3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 402cff331f81a9b46028d76de69deeaace8d5ae1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519637"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558986"
 ---
 # <a name="sipresponsemetadata-table-in-lync-server-2013"></a>Tabla SIPResponseMetaData en Lync Server 2013
 

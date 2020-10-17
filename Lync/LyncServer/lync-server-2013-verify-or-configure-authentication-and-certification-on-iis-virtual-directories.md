@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: comprobar o configurar la autenticación y la certificación en los directorios virtuales de IIS'
+description: 'Lync Server 2013: Compruebe o configure la autenticación y la certificación en los directorios virtuales de IIS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c07fc83680fd6b1d3f4d0d24429165ff9cc5ca65
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5e4d583eda7f0c7fb32b51dd5df6eb48af9b20d9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518617"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560216"
 ---
 # <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Comprobar o configurar la autenticación y la certificación en directorios virtuales de IIS en Lync Server 2013
 

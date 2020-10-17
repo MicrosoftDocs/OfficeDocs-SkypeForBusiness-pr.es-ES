@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar la supervisión'
+description: 'Lync Server 2013: habilitación de la supervisión.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0b637ea06d0255d53f73eef0385c3e929045071
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d8995042bdc9b121dc5253940104bb167567ddcc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528537"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558486"
 ---
 # <a name="enabling-monitoring-in-lync-server-2013"></a>Habilitación de la supervisión en Lync Server 2013
 

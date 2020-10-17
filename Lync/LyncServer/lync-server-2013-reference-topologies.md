@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 topologías de referencia
+description: 'Lync Server 2013: topologías de referencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a902a996ad713cfc1d3b4dddd72a5bc3a96b76a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e55626e03bb53f5555fe570051b7a97b8938014a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559106"
 ---
 # <a name="reference-topologies-in-lync-server-2013"></a>Topologías de referencia en Lync Server 2013
 

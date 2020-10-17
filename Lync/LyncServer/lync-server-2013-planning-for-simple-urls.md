@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de direcciones URL sencillas'
+description: 'Lync Server 2013: Planeación de direcciones URL sencillas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7d5ae03267b266b1ef2abbacc2e3fce06e034ec
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10a7f2aaf85dafe5facba7cfd2509cfcc8812d67
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558406"
 ---
 # <a name="planning-for-simple-urls-in-lync-server-2013"></a>Planeación de direcciones URL sencillas en Lync Server 2013
 

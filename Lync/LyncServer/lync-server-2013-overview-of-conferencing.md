@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: información general sobre las conferencias'
+description: 'Lync Server 2013: información general sobre las conferencias.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5ca54eb1243aaf645b5c968588f3f2663fecccc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 60c4b3d2cc3d9c5f4b11a1c2c21504c13051d455
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559256"
 ---
 # <a name="overview-of-conferencing-in-lync-server-2013"></a>Información general sobre las conferencias en Lync Server 2013
 

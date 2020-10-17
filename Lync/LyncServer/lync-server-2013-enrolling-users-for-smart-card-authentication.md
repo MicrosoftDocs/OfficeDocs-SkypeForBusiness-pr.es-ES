@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: inscripción de usuarios para la autenticación de tarjeta inteligente'
+description: 'Lync Server 2013: inscripción de usuarios para la autenticación de tarjeta inteligente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfbfcd73aba4079d74074adcd2710b8a2d45aeba
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d67994d2152ac344934d093a1b6f7d482a7933a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558476"
 ---
 # <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Inscripción de usuarios para la autenticación de tarjeta inteligente en Lync Server 2013
 

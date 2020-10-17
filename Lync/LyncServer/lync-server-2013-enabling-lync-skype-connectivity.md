@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar la conectividad de Lync-Skype'
+description: 'Lync Server 2013: habilitar la conectividad de Lync-Skype.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43e26e54d0704ed009af1ef528e60979b759eb69
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f31856299b05af7d6b8e934d6e9784d1571b7e29
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528587"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558496"
 ---
 # <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Habilitación de la conectividad de Lync-Skype en Lync Server 2013
 

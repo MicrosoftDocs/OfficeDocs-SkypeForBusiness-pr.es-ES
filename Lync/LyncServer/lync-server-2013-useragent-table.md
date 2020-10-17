@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla UserAgent'
+description: 'Lync Server 2013: tabla UserAgent.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32586ddbe4dd6fac410a859fa00a1710bbaa2b47
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b701d8384313d0267dd566e0c32242f6cc077472
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530137"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558896"
 ---
 # <a name="useragent-table-in-lync-server-2013"></a>Tabla UserAgent en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: comprobación de los requisitos previos de la copia de seguridad'
+description: 'Lync Server 2013: comprobando los requisitos previos de la copia de seguridad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85f65ab9afb33889c111133ea80826cf8651a0d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7bd79ded1a0e7cba223692c8d73b5c1008897528
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518577"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560186"
 ---
 # <a name="verifying-backup-prerequisites-in-lync-server-2013"></a>Comprobar los requisitos previos de la copia de seguridad en Lync Server 2013
 

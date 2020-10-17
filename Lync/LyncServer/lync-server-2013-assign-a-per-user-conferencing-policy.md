@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asignar una directiva de conferencia por usuario'
+description: 'Lync Server 2013: asignar una directiva de conferencia por usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47419dfde4bf41b0edfccb2bce23393f04c49a3d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 819d1431a2a7a921ff8c306c47c8b5f86bf5d5bb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134456"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559926"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Asignar una directiva de conferencia por usuario en Lync Server 2013
 
@@ -77,10 +78,10 @@ Para obtener más información sobre cómo crear directivas de conferencia, cons
     
 
     > [!NOTE]  
-    > Debido a que hay varias directivas que puede configurar en <STRONG>asignar directivas</STRONG>, <STRONG> &lt;mantener como está&gt; </STRONG> seleccionada de forma predeterminada para cada directiva en el cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
+    > Debido a que hay varias directivas que puede configurar en <STRONG>asignar directivas</STRONG>, <STRONG> &lt; mantener como está &gt; </STRONG> seleccionada de forma predeterminada para cada directiva en el cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
 
     
-      - Seleccione ** \<automático\> ** para permitir que Lync Server 2013 elija automáticamente la Directiva de nivel global o, si está definida, la Directiva de nivel de sitio.
+      - Seleccione esta opción **\<Automatic\>** para permitir que Lync Server 2013 elija automáticamente la Directiva de nivel global o, si está definida, la Directiva de nivel de sitio.
     
       - Haga clic en el nombre de una directiva de conferencia por usuario que haya definido anteriormente en la página **Directiva de conferencia**.
         
@@ -92,9 +93,9 @@ Para obtener más información sobre cómo crear directivas de conferencia, cons
 
 8.  Cuando haya terminado, haga clic en **Aceptar**.
 
-## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Asignar una directiva de conferencia por usuario mediante cmdlets de Windows PowerShell
+## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Asignar una directiva de conferencia de Per-User mediante cmdlets de Windows PowerShell
 
-Las directivas de conferencia por usuario se pueden asignar mediante Windows PowerShell y el cmdlet Grant-CsConferencingPolicy. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Las directivas de conferencia por usuario se pueden asignar mediante Windows PowerShell y el cmdlet Grant-CsConferencingPolicy. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>Para asignar una directiva de conferencia por usuario a un solo usuario
 
@@ -116,7 +117,7 @@ Las directivas de conferencia por usuario se pueden asignar mediante Windows Pow
 
 Para obtener más información, consulte el tema de ayuda para el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/gg425937\(v=ocs.15\)) .
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear o modificar una directiva de conferencia en Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)  

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de archivado y supervisión'
+description: 'Lync Server 2013: cmdlets de archivado y supervisión.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11cd7a2f9cb9eceb68535cec1160dc48ce12b2a9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e351e2f9e637bc57905773ede3a7f546b02462c0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560026"
 ---
 # <a name="archiving-and-monitoring-cmdlets-in-lync-server-2013"></a>Cmdlets de archivado y supervisión en Lync Server 2013
 

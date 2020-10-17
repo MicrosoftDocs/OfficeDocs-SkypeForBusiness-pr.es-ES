@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 tiempo de recuperación para la conmutación por error del grupo y la conmutación por recuperación
+description: Lync Server 2013 tiempo de recuperación para la conmutación por error del grupo y la conmutación por recuperación del grupo.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1221d145951b4f780638cc2681f6d6cff822a4e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1bb09c32ac4d062358a511464dc21aa7346ee034
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512027"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559176"
 ---
 # <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a>Tiempo de recuperación para la conmutación por error del grupo y la conmutación por recuperación del grupo en Lync Server 2013
 

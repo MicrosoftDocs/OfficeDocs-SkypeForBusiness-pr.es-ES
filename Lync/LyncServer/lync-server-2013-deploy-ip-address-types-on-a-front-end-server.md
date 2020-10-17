@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementar tipos de direcciones IP en un servidor front-end'
+description: 'Lync Server 2013: implemente tipos de direcciones IP en un servidor front-end.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185193
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5037a723b16758280eec5ec4500e6f561cb9a8bc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 57d27cbc6ae23af1f15e28b19e1871c0aaf35dde
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521637"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559796"
 ---
 # <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>Implementar tipos de direcciones IP en un servidor front-end para Lync Server 2013
 

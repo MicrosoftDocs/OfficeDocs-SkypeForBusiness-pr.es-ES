@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: usar STOP para el servicio de registro centralizado'
+description: 'Lync Server 2013: usar STOP para el servicio de registro centralizado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed971c014eb62f539dcb6551a78066a3462688ac
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 114530d976b623bd4e5d75555a91a0ec3240ba07
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560226"
 ---
 # <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Uso de STOP para el servicio de registro centralizado en Lync Server 2013
 

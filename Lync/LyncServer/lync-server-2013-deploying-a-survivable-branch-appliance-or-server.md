@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de una aplicación o un servidor de sucursal con funciones de supervivencia'
+description: 'Lync Server 2013: implementación de una aplicación o un servidor de sucursal con funciones de supervivencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 258f53cf16287b29c739c5a232376fa629b401f6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b8c8610ab85b61d33a5f181f1d5f51d0e5095f49
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531357"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558596"
 ---
 # <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013
 

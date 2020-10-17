@@ -1,5 +1,6 @@
 ---
 title: Sitios de 2013 de Lync Server
+description: Sitios de 2013 de Lync Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7193d657ad1e585b1a82ba8e934e5bf99d83e65b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 59739c5a81fca1f1f3ab5c1b83a23f0be0a5ee2d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519617"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558966"
 ---
 # <a name="lync-server-sites-for-lync-server-2013"></a>Sitios de Lync Server para Lync Server 2013
 

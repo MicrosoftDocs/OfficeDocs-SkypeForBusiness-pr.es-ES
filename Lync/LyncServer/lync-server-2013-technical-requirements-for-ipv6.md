@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 requisitos técnicos para IPv6
+description: Lync Server 2013 requisitos técnicos para IPv6.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3484dd6ff1404d5d2a4adf77c4ab27a5a29e66b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c54dfbdba56c45f19e7664db075331591c8e87cc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533817"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559466"
 ---
 # <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Requisitos técnicos para IPv6 en Lync Server 2013
 

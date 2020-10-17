@@ -1,5 +1,6 @@
 ---
 title: Instalación
+description: Setup.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5cd5ef156a61daa0c57ffbaf692f56af6691b76
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a0e10472341bb6d6939806322f9aec1703b05544
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509087"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560096"
 ---
 # <a name="setup"></a>Instalación
 

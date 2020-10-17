@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: rutas de migración de servidor compatibles y escenarios de coexistencia'
+description: 'Lync Server 2013: rutas de migración de servidor compatibles y escenarios de coexistencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44d0a40ac6cc6570cf79b56dc896277c83909b5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560236"
 ---
 # <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Rutas de migración de servidor compatibles y escenarios de coexistencia en Lync Server 2013
 
@@ -82,7 +83,7 @@ Durante una migración por fases en la que una implementación anterior de Lync 
 
 Debe usar equipos independientes y distintos que ejecuten Microsoft SQL Server 2008 R2 o Microsoft SQL Server 2012 para las instancias de base de datos de Lync Server 2013. No se puede usar la misma instancia de SQL Server para un grupo de servidores front-end 2013 de Lync Server que se usa para un grupo de servidores front-end de Lync Server 2010 o de Office Communications Server 2007 R2. Si define y configura Lync Server 2013 en Topology Builder para una implementación que ya tiene instalado Lync Server 2010 o Office Communications Server 2007 R2, el generador de topologías no le permitirá definir una instancia de un servidor de Lync Server 2013 que ya esté en uso en la topología.
 
-El generador de topologías mostrará el siguiente mensaje para informarle de este problema: "el \[ FQDN de SQL Server del servidor \] ya contiene una instancia de SQL que hospeda el rol ' almacén de usuario '."
+El generador de topologías mostrará el siguiente mensaje para informarle de este problema: "el \[ FQDN de SQL Server del servidor \] ya contiene una instancia de SQL que hospeda el rol de host" almacén de usuario ".
 
 <div>
 

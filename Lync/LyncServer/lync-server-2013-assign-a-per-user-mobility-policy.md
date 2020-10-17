@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asignar una directiva de movilidad por usuario'
+description: 'Lync Server 2013: asignar una directiva de movilidad por usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9a5a1bf5132fb78086fdd424714e03af2caab5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9b17c58cf3477002a7fa43035b72c77963663316
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134426"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559836"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Asignar una directiva de movilidad por usuario en Lync Server 2013
 
@@ -69,10 +70,10 @@ La Directiva de movilidad es una de las configuraciones individuales de una cuen
     
 
     > [!NOTE]  
-    > Debido a que hay varias directivas que puede configurar en <STRONG>asignar directivas</STRONG>, <STRONG> &lt;mantener como está&gt; </STRONG> seleccionada de forma predeterminada para cada directiva en el cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
+    > Debido a que hay varias directivas que puede configurar en <STRONG>asignar directivas</STRONG>, <STRONG> &lt; mantener como está &gt; </STRONG> seleccionada de forma predeterminada para cada directiva en el cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
 
     
-      - Seleccione ** \<automático\> ** para permitir que Lync Server 2013 elija automáticamente la Directiva de nivel global o, si está definida, la Directiva de nivel de sitio.
+      - Seleccione esta opción **\<Automatic\>** para permitir que Lync Server 2013 elija automáticamente la Directiva de nivel global o, si está definida, la Directiva de nivel de sitio.
     
       - Haga clic en el nombre de una directiva de movilidad por usuario que haya definido anteriormente en la página **Directiva de movilidad** .
         
@@ -84,9 +85,9 @@ La Directiva de movilidad es una de las configuraciones individuales de una cuen
 
 8.  Cuando haya terminado, haga clic en **Aceptar**.
 
-## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Asignación de una directiva de movilidad por usuario mediante cmdlets de Windows PowerShell
+## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Asignación de una directiva de movilidad de Per-User mediante cmdlets de Windows PowerShell
 
-Puede asignar directivas de movilidad por usuario con Windows PowerShell y el cmdlet **Grant-CsMobilityPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede asignar directivas de movilidad por usuario con Windows PowerShell y el cmdlet **Grant-CsMobilityPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>Para asignar una directiva de movilidad por usuario a un solo usuario
 
@@ -108,7 +109,7 @@ Puede asignar directivas de movilidad por usuario con Windows PowerShell y el cm
 
 Para obtener más información, consulte [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/hh690038\(v=ocs.15\)).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de la Directiva de movilidad en Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)

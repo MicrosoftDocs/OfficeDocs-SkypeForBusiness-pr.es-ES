@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de intervalos de puertos para los servidores de conferencia, aplicación y mediación'
+description: 'Lync Server 2013: configuración de intervalos de puertos para los servidores de conferencia, aplicación y mediación.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b3df859017ca54d32ad56580c842f748114166d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eb3f51e42c86b667b6990f41640bf09e12e840c2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535067"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558766"
 ---
 # <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configuración de intervalos de puertos en Lync Server 2013 para los servidores de conferencia, aplicación y mediación
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista de usuario'
+description: 'Lync Server 2013: vista de usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f978b6acaa1cdfdf6abf2d768c1fb679af260a63
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: aa606887e8050a51f1e5a87656bb74a7cd58bbc3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530157"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558916"
 ---
 # <a name="user-view-in-lync-server-2013"></a>Vista de usuario en Lync Server 2013
 

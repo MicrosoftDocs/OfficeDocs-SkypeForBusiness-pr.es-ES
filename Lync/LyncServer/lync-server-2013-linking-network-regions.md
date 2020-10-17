@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vincular regiones de red'
+description: 'Lync Server 2013: vincular regiones de red.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6786cbd383417509f2cb7a1392b3c02320a8ea1b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2067430022295cb7fe2ce24beec6f7e4de28e2a6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513993"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559386"
 ---
 # <a name="linking-network-regions-in-lync-server-2013"></a>Vincular regiones de red en Lync Server 2013
 

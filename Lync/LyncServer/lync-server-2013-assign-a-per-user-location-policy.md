@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asignar una directiva de ubicación por usuario'
+description: 'Lync Server 2013: asignar una directiva de ubicación por usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d66df7f2d0c8a2b8603f7c08312f5b8b6aaad56
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 81631740e0a6c908c392ccacb6b37d7033d9224c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134436"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559886"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Asignar una directiva de ubicación por usuario en Lync Server 2013
 
@@ -77,7 +78,7 @@ Para obtener información detallada sobre cómo crear directivas de ubicación, 
     
 
     > [!NOTE]  
-    > Debido a que hay varias directivas que puede configurar mediante el cuadro de diálogo <STRONG>asignar directivas</STRONG> , <STRONG> &lt;se selecciona la&gt; opción mantener como está</STRONG> seleccionada de forma predeterminada para cada Directiva del cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
+    > Debido a que hay varias directivas que puede configurar mediante el cuadro de diálogo <STRONG>asignar directivas</STRONG> , se selecciona la opción <STRONG> &lt; mantener como está &gt; </STRONG> seleccionada de forma predeterminada para cada Directiva del cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
 
     
       - Permita que Lync Server 2013 elija automáticamente la Directiva de nivel global o, si está definida, la Directiva de nivel de subred.
@@ -92,9 +93,9 @@ Para obtener información detallada sobre cómo crear directivas de ubicación, 
 
 8.  Cuando haya terminado, haga clic en **Aceptar**.
 
-## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Asignación de una directiva de ubicación por usuario mediante el uso de cmdlets del shell de administración de Lync Server
+## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Asignación de una directiva de ubicación de Per-User mediante el uso de cmdlets del shell de administración de Lync Server
 
-Puede asignar directivas de ubicación por usuario con el cmdlet Grant-CsLocationPolicy. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede asignar directivas de ubicación por usuario con el cmdlet Grant-CsLocationPolicy. Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>Para asignar una directiva de ubicación por usuario a un único usuario
 

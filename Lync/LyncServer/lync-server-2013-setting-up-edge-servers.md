@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de servidores perimetrales'
+description: 'Lync Server 2013: configuración de servidores perimetrales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bb9717df659368a1b5b8078fee7672df1f211cf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4e25c40e8d642d38b38afbab35225b2c7dda4d68
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509687"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559506"
 ---
 # <a name="setting-up-edge-servers-in-lync-server-2013"></a>Configuración de servidores perimetrales en Lync Server 2013
 

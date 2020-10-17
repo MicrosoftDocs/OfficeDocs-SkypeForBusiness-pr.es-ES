@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de la apariencia de línea compartida'
+description: 'Lync Server 2013: implementar la apariencia de línea compartida.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15d0bffd92c4c2e2448938c467eec73c9bab1a94
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c83c06bbc9b91e11cabc0abee20de28fc7281205
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531417"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558626"
 ---
 # <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Implementar la apariencia de línea compartida en Lync Server 2013
 

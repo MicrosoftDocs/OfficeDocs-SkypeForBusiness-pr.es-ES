@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista UserAgent'
+description: 'Lync Server 2013: vista UserAgent.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb9e70635fc4c54448f6fe3f549d3d6853612070
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9fc5ef2ec01b50f3714dca3690d0844286baaef5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530127"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558866"
 ---
 # <a name="useragent-view-in-lync-server-2013"></a>Vista UserAgent en Lync Server 2013
 

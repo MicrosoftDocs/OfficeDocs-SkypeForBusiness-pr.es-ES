@@ -1,5 +1,6 @@
 ---
 title: Herramientas de Lync Server 2013
+description: Herramientas de Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 52253957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 660ebbadcd0de35eead3b2f2c783c73c42e4b026
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 86c239fbb198fec59fefd3c6fc9ed06eb52c6f8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509157"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560126"
 ---
 # <a name="lync-server-2013-tools"></a>Herramientas de Lync Server 2013
 

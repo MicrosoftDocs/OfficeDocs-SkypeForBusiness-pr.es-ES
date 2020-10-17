@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 opciones de emparejamiento de grupo admitidas y procedimientos recomendados
+description: Lync Server 2013 opciones de emparejamiento de grupo admitidas y procedimientos recomendados.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183478
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90e1c28e6c16a7008232ef65d91cd252a3e2855f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 76d0f8331c0b6998008efff8af70ae3c4b43a9c2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524017"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560286"
 ---
 # <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a>Opciones de emparejamiento de grupo admitidas y procedimientos recomendados para Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Ejecutar LyncPerfTool
+description: Ejecute LyncPerfTool.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4221eaf042fcaee163491d7688b7097e9bcca7a7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3278754c9154f47602c5c4f1fa95cdc4b465b228
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509117"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560086"
 ---
 # <a name="run-lyncperftool"></a>Ejecutar LyncPerfTool
 

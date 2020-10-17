@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: clientes admitidos para la recogida de llamadas de grupo'
+description: 'Lync Server 2013: clientes compatibles con la recogida de llamadas de grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e5e2a7ecf248f1b27d41a7a9db8da56ac98d971
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec8bdb2ed34eb11ab622406d76c7cf49e116c09c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499217"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558806"
 ---
 # <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Clientes compatibles con la recogida de llamadas en grupo en Lync Server 2013
 

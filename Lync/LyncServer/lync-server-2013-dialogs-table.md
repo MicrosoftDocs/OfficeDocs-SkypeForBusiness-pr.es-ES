@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla Dialogs'
+description: 'Lync Server 2013: tabla DIALOGS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36a96ccc61716a6606c700a2d6b4f13ad7e6336b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8c2c9cf9ec59fc48f7f5ffc6232980e3f8aa68c1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519987"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559706"
 ---
 # <a name="dialogs-table-in-lync-server-2013"></a>Tabla de cuadros de diálogo en Lync Server 2013
 

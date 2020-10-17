@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de telefonía IP empresarial'
+description: 'Lync Server 2013: cmdlets de telefonía IP empresarial.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91f20a5a1df722e92454e0200a0c8174ff37d4dc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 447876de74a63e1def03f41bca512d57c46daf91
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533207"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558436"
 ---
 # <a name="enterprise-voice-cmdlets-in-lync-server-2013"></a>Cmdlets de telefonía IP empresarial en Lync Server 2013
 

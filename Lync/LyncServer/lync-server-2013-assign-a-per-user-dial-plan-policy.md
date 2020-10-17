@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asignar una directiva de plan de marcado por usuario'
+description: 'Lync Server 2013: asignar una directiva de plan de marcado por usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bd4d46e2cd41c972258a84a1e8fb34549dc8b4e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 654c1f15ccb1efa4d1aa35d957df7a2654fa41d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134446"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559906"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Asignar una directiva de plan de marcado por usuario en Lync Server 2013
 
@@ -48,9 +49,9 @@ Para completar la configuración de cuentas de usuario para los usuarios de Tele
 
 Para obtener más información sobre cómo configurar planes de marcado, consulte el tema [Configuring dial Plans in Lync Server 2013](lync-server-2013-configuring-dial-plans.md) .
 
-## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Asignar un plan de marcado por usuario mediante cmdlets de Windows PowerShell
+## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Asignación de un plan de marcado Per-User mediante cmdlets de Windows PowerShell
 
-Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet **Grant-CsdialPlan** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet **Grant-CsdialPlan** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Para asignar un plan de marcado por usuario a un solo usuario
 
@@ -72,7 +73,7 @@ Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet *
 
 Para obtener más información, consulte el tema de ayuda para el cmdlet [Grant-CsDialPlan](https://technet.microsoft.com/library/gg398547\(v=ocs.15\)) .
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Configurar planes de marcado en Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  
