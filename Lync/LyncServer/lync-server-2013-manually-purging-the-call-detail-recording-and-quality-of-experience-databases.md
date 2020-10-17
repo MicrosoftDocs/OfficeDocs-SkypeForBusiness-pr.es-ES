@@ -12,20 +12,22 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6797d5e65f182e8a28bb442858070ffed19fcc80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b34b3a0dd79651ef288740243313d58482959e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524787"
 ---
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Purgado manual del registro detallado de llamadas y de las bases de datos de calidad de la experiencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Purgado manual del registro detallado de llamadas y de las bases de datos de calidad de la experiencia en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2014-07-07_
 
 Los administradores pueden configurar el registro de detalles de llamadas (CDR) o las bases de datos de calidad de la experiencia (QoE) para depurar automáticamente los registros antiguos de la base de datos; Esto ocurre si se ha habilitado la depuración para la base de datos especificada (CDR o QoE) y si hay registros que han estado en la base de datos durante más tiempo que la cantidad especificada. Por ejemplo, cada día a la 1:00 AM los administradores podrían configurar el sistema de modo tal que los registros de QoE que tengan más de 60 días de antigüedad se eliminen de la base de datos de QoE.
 
-Además de esta purga automática, se han agregado dos cmdlets nuevos--Invoke-CsCdrDatabasePurge e Invoke-CsQoEDatbasePurge--a Microsoft Lync Server 2013; Estos cmdlets permiten a los administradores depurar manualmente los registros de las bases de datos de CDR y QoE en cualquier momento. Por ejemplo, para depurar manualmente todos los registros que tengan más de 10 días de antigüedad de la base de datos CDR puede utilizar un comando similar al siguiente:
+Además de esta purga automática, se han agregado dos cmdlets nuevos (Invoke-CsCdrDatabasePurge y Invoke-CsQoEDatbasePurge) a Microsoft Lync Server 2013; Estos cmdlets permiten a los administradores depurar manualmente los registros de las bases de datos de CDR y QoE en cualquier momento. Por ejemplo, para depurar manualmente todos los registros que tengan más de 10 días de antigüedad de la base de datos CDR puede utilizar un comando similar al siguiente:
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51803960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aa72bb1da56862765279f25f73070863d218067
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a77ddf0757cd463bb8f1b95dbecfe90fd1086c9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524407"
 ---
+# <a name="outgoing-calls-in-lync-server-2013"></a>Llamadas salientes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="outgoing-calls-in-lync-server-2013"></a>Llamadas salientes en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216395"
 
 _**Última modificación del tema:** 2013-03-09_
 
-El enrutamiento de llamadas salientes de usuarios habilitados para el enrutamiento basado en ubicación se ve afectado por la ubicación de red del extremo del usuario. En la tabla siguiente se muestra cómo el enrutamiento basado en ubicación afecta al enrutamiento de las llamadas salientes en función de la ubicación del extremo del autor de la llamada.
+El enrutamiento de llamadas salientes de usuarios habilitados para el enrutamiento Location-Based se ve afectado por la ubicación de red del extremo del usuario. En la tabla siguiente se muestra cómo el enrutamiento de Location-Based afecta al enrutamiento de las llamadas salientes en función de la ubicación del extremo del autor de la llamada.
 
 ### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>Autor de la llamada que realiza una llamada saliente a la RTC
 
@@ -50,8 +52,8 @@ El enrutamiento de llamadas salientes de usuarios habilitados para el enrutamien
 <thead>
 <tr class="header">
 <th></th>
-<th>Extremo de usuario ubicado en un sitio de red habilitado para el enrutamiento basado en ubicación</th>
-<th>Extremo de usuario ubicado en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación</th>
+<th>Extremo de usuario ubicado en un sitio de red habilitado para el enrutamiento Location-Based</th>
+<th>Extremo de usuario ubicado en un sitio de red desconocido o no habilitado para el enrutamiento Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -63,7 +65,7 @@ El enrutamiento de llamadas salientes de usuarios habilitados para el enrutamien
 <tr class="even">
 <td><p>Enrutamiento de llamadas salientes</p></td>
 <td><p>La llamada se enruta según la Directiva de enrutamiento de voz del sitio de red</p></td>
-<td><p>La llamada se enruta según la Directiva de voz del usuario y solo a través de troncos no habilitados para el enrutamiento basado en ubicación (si está disponible).</p></td>
+<td><p>La llamada se redirige según la Directiva de voz del usuario y solo a través de troncos no habilitados para Location-Based enrutamiento (si está disponible)</p></td>
 </tr>
 </tbody>
 </table>
@@ -71,10 +73,10 @@ El enrutamiento de llamadas salientes de usuarios habilitados para el enrutamien
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
-[Escenarios para el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Escenarios para Location-Based el enrutamiento en Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b8eb302dc63a01ad052fd86debec5baac9dd68a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7512054e3b0f1e4edaf7736558bed1df8c9b08d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524657"
 ---
+# <a name="mcus-view-in-lync-server-2013"></a>Vista MCU en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mcus-view-in-lync-server-2013"></a>Vista MCU en Lync Server 2013
+
 
 </div>
 
@@ -56,7 +58,7 @@ La vista de MCU almacena información sobre las MCU que han participado en sesio
 <tbody>
 <tr class="odd">
 <td><p><strong>McuId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número único que identifica la MCU.</p></td>
 </tr>
 <tr class="even">

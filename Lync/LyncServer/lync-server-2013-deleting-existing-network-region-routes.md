@@ -12,20 +12,22 @@ ms:contentKeyID: 49733669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a8674e635bb5663ebbca994d7d8f865601a193
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f07a0331563c4d78c4e8fc3391b7f8423a2ecc21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525397"
 ---
+# <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Eliminación de rutas de región de red existentes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Eliminación de rutas de región de red existentes en Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Creación o modificación de rutas de región de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md)  

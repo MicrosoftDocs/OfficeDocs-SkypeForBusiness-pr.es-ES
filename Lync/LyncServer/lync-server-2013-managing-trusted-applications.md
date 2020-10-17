@@ -12,20 +12,22 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f914a63f564b9ccf9b6bbe0ca7cc436b06570125
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6b859faeb66cae59e9f8f05ad49f861653779c24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524867"
 ---
+# <a name="managing-trusted-applications-in-lync-server-2013"></a>Administración de aplicaciones de confianza en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-trusted-applications-in-lync-server-2013"></a>Administración de aplicaciones de confianza en Lync Server 2013
+
 
 </div>
 

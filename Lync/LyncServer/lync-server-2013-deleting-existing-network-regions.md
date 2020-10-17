@@ -12,20 +12,22 @@ ms:contentKeyID: 49733815
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad0f1c88e7c0a1ec855a69ad75f834f0a8982221
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3a1c1e697e681eec4886dca9e942d9bc133b0f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525407"
 ---
+# <a name="deleting-existing-network-regions-in-lync-server-2013"></a>Eliminación de regiones de red existentes en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-existing-network-regions-in-lync-server-2013"></a>Eliminación de regiones de red existentes en Lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Creación o modificación de regiones de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)  

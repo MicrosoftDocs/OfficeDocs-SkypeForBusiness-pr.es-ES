@@ -12,20 +12,22 @@ ms:contentKeyID: 48184043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a09e06925f414782ce516091383381a44cb80c2c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 387c7dcbf1d53b99bb3dd31b308ff4786f8f5803
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525427"
 ---
+# <a name="deleting-an-archiving-policy-in-lync-server-2013"></a>Eliminación de una directiva de archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-archiving-policy-in-lync-server-2013"></a>Eliminación de una directiva de archivado en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Es posible eliminar directivas de usuario o de sitio. Las directivas globales no
 
 
 > [!NOTE]  
-> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios que están hospedados en Exchange 2013 y cuyos buzones se colocan en conservación local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuración de directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación sobre implementación.
+> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios hospedados en Exchange 2013 y para los que sus buzones se han puesto en espera In-Place. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuración de directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación sobre implementación.
 
 
 
@@ -69,7 +71,7 @@ Es posible eliminar directivas de usuario o de sitio. Las directivas globales no
 
 ## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>Eliminación de directivas de archivado con los cmdlets de Windows PowerShell
 
-Las directivas de archivado se pueden eliminar con Windows PowerShell y el cmdlet **Remove-CsArchivingPolicy** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Las directivas de archivado se pueden eliminar con Windows PowerShell y el cmdlet **Remove-CsArchivingPolicy** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -107,7 +109,7 @@ Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsA
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Administración del archivado de comunicaciones internas y externas en Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  

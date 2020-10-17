@@ -12,20 +12,22 @@ ms:contentKeyID: 48183454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10915a298fe2e50abdef09dc5acf92927a43cc65
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4afa8f26e28fbb4261b0d8524c02efeb8d2a3132
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185303"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524637"
 ---
+# <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Omisión de medios y control de admisión de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Omisión de medios y control de admisión de llamadas en Lync Server 2013
+
 
 </div>
 
@@ -53,11 +55,11 @@ El desvío de medios y el control de admisión de llamadas (CAC) funcionan junto
     
     Aunque el CAC está deshabilitado globalmente, es necesario definir la Directiva de ancho de banda para cada sitio y vínculo si desea usar la configuración de sitio y región para controlar la decisión de omisión. El valor real de la restricción de ancho de banda o su modalidad no importa. El objetivo final es hacer que el sistema calcule automáticamente distintos identificadores de omisión para asociarlos con distintas configuraciones regionales que no estén bien conectadas. Definir una restricción de ancho de banda por definición significa que un vínculo no está bien conectado.
 
-  - El CAC está habilitado y la omisión de medios no está habilitada. Esto sólo se aplicará cuando todas las puertas de enlace y las PBX IP no están conectadas correctamente o no cumplen otros requisitos para la omisión de medios. Para obtener más información sobre los requisitos para la omisión de medios, consulte [Technical Requirements for Media bypass in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md).
+  - El CAC está habilitado y la omisión de medios no está habilitada. Esto sólo se aplicará cuando todas las puertas de enlace y IP-PBXs no estén bien conectados o no cumplan otros requisitos para la omisión de medios. Para obtener más información sobre los requisitos para la omisión de medios, consulte [Technical Requirements for Media bypass in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md).
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Información general sobre la omisión de medios en Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c87de9c57abaf4938b350aa40e8deea1150d22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ebc49336712e96bca428132f3ccad631817208d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524177"
 ---
+# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Compatibilidad con la integración de mensajería unificada de Exchange hospedada en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Compatibilidad con la integración de mensajería unificada de Exchange hospedada en Lync Server 2013
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42208296"
 
 _**Última modificación del tema:** 2012-09-21_
 
-La aplicación Lync Server 2013 ExUM de enrutamiento admite la integración con la mensajería unificada (MU) de Exchange en un entorno local, donde Lync Server 2013 y mensajería unificada de Exchange están instaladas localmente en su empresa o en con la mensajería unificada de Exchange hospedada por un proveedor de servicios, como se muestra en el siguiente diagrama.
+La aplicación Lync Server 2013 ExUM de enrutamiento admite la integración con la mensajería unificada de Exchange en un entorno local, donde Lync Server 2013 y la mensajería unificada de Exchange están instaladas localmente en la empresa o con la mensajería unificada de Exchange hospedada por un proveedor de servicios, tal como se muestra en el siguiente diagrama.
 
 ![Implementación local de mensajería unificada de Lync Server Exchange](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Implementación local de mensajería unificada de Lync Server Exchange")
 
 Se admiten los siguientes modos:
 
-  - **Modo local Lync**   Server 2013 y mensajería unificada de Exchange se implementan en los servidores locales de la empresa.
+  - **Modo local**     Lync Server 2013 y la mensajería unificada de Exchange se implementan en servidores locales de la empresa.
 
-  - **Modo entre locales**   Lync Server 2013 se implementa en servidores locales de la empresa y la mensajería unificada de Exchange se hospeda en una instalación de un proveedor de servicios en línea, como un centro de datos de Microsoft Exchange Online.
+  - **Modo**     entre locales Lync Server 2013 se implementa en servidores locales de la empresa y la mensajería unificada de Exchange se hospeda en las instalaciones de un proveedor de servicios en línea, como un centro de datos de Microsoft Exchange Online.
 
-  - **Modo mixto su**   implementación de Lync Server 2013 tiene algunos buzones de usuario alojados en servidores locales que ejecutan Microsoft Exchange Server dentro de su empresa y otros buzones en un centro de datos de servicio de Exchange hospedado.
+  - **Modo mixto**     La implementación de Lync Server 2013 tiene algunos buzones de usuario alojados en servidores locales que ejecutan Microsoft Exchange Server en su empresa y otros buzones en un centro de datos de servicio de Exchange hospedado.
     
     <div>
     

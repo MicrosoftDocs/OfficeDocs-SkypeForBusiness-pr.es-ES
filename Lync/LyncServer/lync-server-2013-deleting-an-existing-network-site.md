@@ -12,20 +12,22 @@ ms:contentKeyID: 49733589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9db3328ef79dcbbd95592a7bb3149c3d6f64a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d37e08eddac5b6166043a45d7e669c7e0ecd71a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525387"
 ---
+# <a name="deleting-an-existing-network-site-in-lync-server-2013"></a>Eliminación de un sitio de red existente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-existing-network-site-in-lync-server-2013"></a>Eliminación de un sitio de red existente en Lync Server 2013
+
 
 </div>
 

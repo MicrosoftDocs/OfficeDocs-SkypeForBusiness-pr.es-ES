@@ -12,20 +12,22 @@ ms:contentKeyID: 48184774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5d346948fc40298f7825a2d141432583a1c2e08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ef294e9aa5a9d53b11316ab8d64a0880ea6a938
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217696"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524627"
 ---
+# <a name="media-bypass-and-mediation-server-in-lync-server-2013"></a>Omisión de medios y servidor de mediación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-and-mediation-server-in-lync-server-2013"></a>Omisión de medios y servidor de mediación en Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42217696"
 
 _**Última modificación del tema:** 2012-09-21_
 
-La omisión de medios es una capacidad de Lync Server que permite a un administrador configurar el enrutamiento de llamadas para que fluya directamente entre el punto de conexión del usuario y la puerta de enlace de la red telefónica conmutada (RTC) sin atravesar el servidor de mediación. La omisión de medios mejora la calidad de las llamadas al reducir la latencia, la traducción innecesaria, la posibilidad de pérdida de paquetes y la cantidad de puntos de error potenciales. Cuando un sitio remoto sin un servidor de mediación está conectado a un sitio central por uno o más vínculos WAN con ancho de banda restringido, la omisión de medios disminuye el requisito de ancho de banda habilitando los medios de un cliente en un sitio remoto para fluir directamente a su puerta de enlace local sin primero tiene que fluir a través del vínculo WAN hacia un servidor de mediación en el sitio central y hacia atrás. Esta reducción en el procesamiento de medios también complementa la capacidad del servidor de mediación para controlar varias puertas de enlace.
+La omisión de medios es una capacidad de Lync Server que permite a un administrador configurar el enrutamiento de llamadas para que fluya directamente entre el punto de conexión del usuario y la puerta de enlace de la red telefónica conmutada (RTC) sin atravesar el servidor de mediación. La omisión de medios mejora la calidad de las llamadas al reducir la latencia, la traducción innecesaria, la posibilidad de pérdida de paquetes y la cantidad de puntos de error potenciales. Cuando un sitio remoto sin un servidor de mediación está conectado a un sitio central por uno o más vínculos WAN con ancho de banda restringido, la omisión de medios reduce el requisito de ancho de banda habilitando los medios de un cliente en un sitio remoto para fluir directamente a su puerta de enlace local sin tener que fluir primero a través del vínculo WAN hacia un servidor de mediación en el sitio central Esta reducción en el procesamiento de medios también complementa la capacidad del servidor de mediación para controlar varias puertas de enlace.
 
 El desvío de medios y el control de admisión de llamadas (CAC) se excluyen mutuamente. Si se usa desvío de medios en una llamada, no se aplicará el CAC en esa llamada. Se asume que no hay vínculos relacionados con la llamada que tengan restringido el ancho de banda.
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Control de admisión de llamadas y servidor de mediación en Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f19c7eac607ffcba65435cea2faf53c91e75609c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7fc614b2c571df14eac5382e9a022554fc32a260
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208226"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524127"
 ---
+# <a name="supported-devices-in-lync-server-2013"></a>Dispositivos compatibles en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-devices-in-lync-server-2013"></a>Dispositivos compatibles en Lync Server 2013
+
 
 </div>
 
@@ -43,13 +45,13 @@ Lync Server admite todos los teléfonos que aparecen en la tabla siguiente. Teng
 
 
 > [!NOTE]  
-> Se admiten tres tipos de teléfonos: teléfonos de escritorio (dispositivos de telefonía IP o USB diseñados para que los utilicen los empleados de su escritorio), dispositivos de conferencia (teléfonos IP o USB manos libres diseñados para usarse en salas de reuniones) y teléfonos de área común (teléfonos IP que están diseñados para usarse en áreas compartidas (como salas, cocinas, fábricas y áreas de trabajo compartidas) y se pueden personalizar para proporcionar diferentes conjuntos de características de Lync Phone Edition.
+> Se admiten tres tipos de teléfonos: teléfonos de escritorio (dispositivos de telefonía IP o USB diseñados para que los usen los empleados de su escritorio), dispositivos de conferencia (teléfonos IP o USB manos libres para su uso en salas de reuniones) y teléfonos de área común (teléfonos IP diseñados para usarse en áreas compartidas, como salas, cocinas, plantas de fábricas y áreas de trabajo compartidas, y se pueden personalizar para proporcionar diferentes conjuntos de características de Lync Phone Edition.
 
 
 
 </div>
 
-Para obtener más información acerca de las tablas de comparación de todos los dispositivos optimizados para trabajar con Lync, consulte "teléfonos y dispositivos <https://go.microsoft.com/fwlink/p/?linkid=208938>cualificados para Microsoft Lync" en. Las tablas de comparación de teléfonos de este sitio web incluyen información sobre precios y especificaciones técnicas.
+Para obtener más información acerca de las tablas de comparación de todos los dispositivos optimizados para trabajar con Lync, consulte "teléfonos y dispositivos cualificados para Microsoft Lync" en <https://go.microsoft.com/fwlink/p/?linkid=208938> . Las tablas de comparación de teléfonos de este sitio web incluyen información sobre precios y especificaciones técnicas.
 
 
 <table>
@@ -60,7 +62,7 @@ Para obtener más información acerca de las tablas de comparación de todos los
 </colgroup>
 <thead>
 <tr class="header">
-<th>Teléfono</th>
+<th>Phone</th>
 <th>Ejecuta Lync Phone Edition</th>
 <th>Más información</th>
 </tr>

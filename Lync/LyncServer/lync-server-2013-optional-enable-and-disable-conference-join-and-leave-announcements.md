@@ -12,20 +12,22 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5007ec14ad197afb2cfb8d2c73baa41ed144a4e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a50431ee1917c580440f8a47cff0ca09f5e47f07
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216506"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524437"
 ---
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Opcional Habilitar y deshabilitar la Unión a Conferencia y dejar anuncios en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Opcional Habilitar y deshabilitar la Unión a Conferencia y dejar anuncios en Lync Server 2013
+
 
 </div>
 
@@ -60,11 +62,11 @@ Cuando los usuarios de acceso telefónico local se unen a una conferencia o la a
         [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
         [-EntryExitAnnouncementsType <UseNames | ToneOnly]
     
-    **EnableNameRecording**   determina si se pide a los participantes anónimos que registren su nombre antes de entrar en la Conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unan a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
+    **EnableNameRecording**     Determina si se pide a los participantes anónimos que registren su nombre antes de entrar en la Conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unan a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
     
-    **EntryExitAnnouncementsEnabledByDefault**   indica si los anuncios están activados o desactivados de forma predeterminada. El valor predeterminado es "$false," lo que significa que no hay anuncios de forma predeterminada cuando los participantes se unen a una conferencia o la abandonan. El organizador de la reunión puede invalidar esta opción cuando programa una reunión.
+    **EntryExitAnnouncementsEnabledByDefault**     Indica si los anuncios están activados o desactivados de forma predeterminada. El valor predeterminado es "$false," lo que significa que no hay anuncios de forma predeterminada cuando los participantes se unen a una conferencia o la abandonan. El organizador de la reunión puede invalidar esta opción cuando programa una reunión.
     
-    **EntryExitAnnouncementsType**   indica la acción que se realiza siempre que un participante se une a una conferencia en la que los anuncios están habilitados o sale de la misma. El valor predeterminado es "UseNames," lo que significa que hay un anuncio parecido al siguiente: "Ken Myer se ha unido a la conferencia" cuando los anuncios están activados.
+    **EntryExitAnnouncementsType**     Indica la acción que se realiza siempre que un participante se une a una conferencia en la que los anuncios están habilitados o sale de la misma. El valor predeterminado es "UseNames," lo que significa que hay un anuncio parecido al siguiente: "Ken Myer se ha unido a la conferencia" cuando los anuncios están activados.
     
     Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. Las opciones configuradas en el ámbito del sitio tienen precedencia sobre las opciones configuradas en el ámbito global.
     

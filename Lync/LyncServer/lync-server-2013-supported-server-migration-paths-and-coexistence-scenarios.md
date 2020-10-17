@@ -12,20 +12,22 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab7d85bd25c6123b3befd3520289e40c63461970
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181573"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523977"
 ---
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Rutas de migración de servidor compatibles y escenarios de coexistencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Rutas de migración de servidor compatibles y escenarios de coexistencia en Lync Server 2013
+
 
 </div>
 
@@ -78,15 +80,15 @@ Lync Server 2013 puede coexistir con componentes de una implementación de Lync 
 
 Durante una migración por fases en la que una implementación anterior de Lync Server 2010 o de Office Communications Server 2007 R2 coexiste temporalmente con la nueva implementación de Lync Server 2013, la compatibilidad con el enrutamiento de versiones mixtas es limitada. Para más información, consulte la documentación sobre migración.
 
-Debe usar equipos independientes y distintos que ejecuten Microsoft SQL Server 2008 R2 o Microsoft SQL Server 2012 para las instancias de base de datos de Lync Server 2013. No se puede usar la misma instancia de SQL Server para un grupo de servidores front-end 2013 de Lync Server que se usa para un grupo de servidores front-end de Lync Server 2010 o de Office Communications Server 2007 R2. Si define y configura Lync Server 2013 en el generador de topologías para una implementación que ya tiene instalado Lync Server 2010 o Office Communications Server 2007 R2, el generador de topologías no le permitirá definir una instancia de un servidor de Lync Server 2013 que ya esté en uso en la topología.
+Debe usar equipos independientes y distintos que ejecuten Microsoft SQL Server 2008 R2 o Microsoft SQL Server 2012 para las instancias de base de datos de Lync Server 2013. No se puede usar la misma instancia de SQL Server para un grupo de servidores front-end 2013 de Lync Server que se usa para un grupo de servidores front-end de Lync Server 2010 o de Office Communications Server 2007 R2. Si define y configura Lync Server 2013 en Topology Builder para una implementación que ya tiene instalado Lync Server 2010 o Office Communications Server 2007 R2, el generador de topologías no le permitirá definir una instancia de un servidor de Lync Server 2013 que ya esté en uso en la topología.
 
-El generador de topologías mostrará el siguiente mensaje para informarle de este problema: "el \[FQDN de SQL Server\] del servidor ya contiene una instancia de SQL que hospeda el rol ' almacén de usuario '."
+El generador de topologías mostrará el siguiente mensaje para informarle de este problema: "el \[ FQDN de SQL Server del servidor \] ya contiene una instancia de SQL que hospeda el rol ' almacén de usuario '."
 
 <div>
 
 
 > [!NOTE]  
-> Si tiene previsto implementar roles de servidor que son nuevos en su implementación de Lync Server 2013, primero debe actualizar la implementación existente tal como se describe en la documentación de la migración y la documentación de implementación y, a continuación, implementar los nuevos roles de servidor tal y como se describe en documentación de planeación y documentación sobre la implementación. Si va a migrar una versión anterior de conversación en grupo, migre la última después de completar el proceso de migración de todos los demás componentes de Lync Server 2010 o de Office Communications Server 2007 R2.
+> Si tiene previsto implementar roles de servidor que son nuevos en su implementación de Lync Server 2013, primero debe actualizar la implementación existente tal como se describe en la documentación de la migración y la documentación de implementación y, a continuación, implementar los nuevos roles de servidor tal y como se describe en la documentación de planeación y la documentación sobre implementación. Si va a migrar una versión anterior de conversación en grupo, migre la última después de completar el proceso de migración de todos los demás componentes de Lync Server 2010 o de Office Communications Server 2007 R2.
 
 
 

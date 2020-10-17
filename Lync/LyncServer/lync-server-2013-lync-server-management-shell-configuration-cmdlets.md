@@ -12,20 +12,22 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4587d26c69d91e23d81de30cfab3307d7c84f2e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5d2ccb31c06a13aa659370013bbe6e970464748
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524997"
 ---
+# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Cmdlets de configuración del shell de administración de Lync Server en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Cmdlets de configuración del shell de administración de Lync Server en Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Use estos cmdlets para configurar determinadas propiedades personalizadas del sh
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  

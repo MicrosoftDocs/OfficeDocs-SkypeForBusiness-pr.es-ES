@@ -12,20 +12,22 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 459b5393f255ade4e510f17c11beccf2f38f7cfc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e6070f6a575466d9ce7063c588e5d470e047d52
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523817"
 ---
+# <a name="tblnode-in-lync-server-2013"></a>tblNode en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblnode-in-lync-server-2013"></a>tblNode en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-09-12_
 
 tblNode contiene el árbol de objetos (con nodos de categoría o de salón de chat) tal como se administra en el panel de control de Lync Server 2013 y en los cmdlets administrativos.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -67,7 +69,7 @@ tblNode contiene el árbol de objetos (con nodos de categoría o de salón de ch
 </tr>
 <tr class="odd">
 <td><p>parentID</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>IDENTIFICADOR de nodo de primario. El nodo raíz (con identificador 1) también se incluye como primario.</p></td>
 </tr>
 <tr class="even">
@@ -127,7 +129,7 @@ tblNode contiene el árbol de objetos (con nodos de categoría o de salón de ch
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>capacidad</p></td>
+<td><p>deshabilitado</p></td>
 <td><p>bit, not null</p></td>
 <td><p>True si el salón de chat está deshabilitado. Solo se aplica a salones de chat. (False para las categorías.)</p></td>
 </tr>
@@ -160,7 +162,7 @@ tblNode contiene el árbol de objetos (con nodos de categoría o de salón de ch
 <tr class="even">
 <td><p>siopID</p></td>
 <td><p>GUID</p></td>
-<td><p>GUID de complemento si un complemento está asociado con este salón de chat. (Las categorías no tienen complementos).</p>
+<td><p>Add-In GUID si un complemento está asociado con este salón de chat. (Las categorías no tienen complementos).</p>
 <p>La información del complemento se busca en la tabla SiopWhiteList.</p></td>
 </tr>
 <tr class="odd">

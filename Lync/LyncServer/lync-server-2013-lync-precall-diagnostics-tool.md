@@ -12,20 +12,22 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0377460340e1b639a7fca5862dcd85aed399b94a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19051eb183dc12f091de0d90ebb707bc6cee8fc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525157"
 ---
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Herramienta de diagnóstico de PRELLAMADA de Lync en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Herramienta de diagnóstico de PRELLAMADA de Lync en Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ PCD es más útil en situaciones en las que es probable que el último salto de 
 
   - Mejoras en la estabilidad
 
-Agradecemos cualquier comentario. Envíe todas las preguntas o problemas de soporte al alias de [comentarios PCD](mailto:pcdfb@microsoft.com) en <pcdfb@microsoft.com>.
+Agradecemos cualquier comentario. Envíe todas las preguntas o problemas de soporte al alias de [comentarios PCD](mailto:pcdfb@microsoft.com) en <pcdfb@microsoft.com> .
 
 En este tema se incluyen las siguientes secciones:
 
@@ -75,7 +77,7 @@ En este tema se incluyen las siguientes secciones:
 
 En este tema se describen las siguientes versiones de la herramienta, disponibles para su descarga gratuita:
 
-  - Aplicación de escritorio de[https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914)Windows ()
+  - Aplicación de escritorio de Windows ( [https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914) )
 
 </div>
 
@@ -101,7 +103,7 @@ En este tema se describen las siguientes versiones de la herramienta, disponible
 
   - Cualquier edición del sistema operativo Windows 7 o Windows 8
 
-  - Microsoft .NET Framework 4,5 está disponible en[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft .NET Framework 4,5 está disponible en [https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 

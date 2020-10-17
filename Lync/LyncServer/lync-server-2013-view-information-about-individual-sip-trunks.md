@@ -12,20 +12,22 @@ ms:contentKeyID: 49733780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9663c6e762143eca572c0343ce21e91ad86b0b6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d01a56ca0365c041ae9469dee2d328f81acd3e65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211416"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523587"
 ---
+# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>Ver información sobre troncos SIP individuales en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>Ver información sobre troncos SIP individuales en Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Los troncos SIP se usan para conectar la red telefónica de Lync Server 2013 Voi
 
 Sin embargo, en Lync Server 2013, ahora se pueden asignar varios troncos a una única puerta de enlace RTC; Esto significa que las puertas de enlace y los troncos ya no tienen una y otra. A su vez, esto significa que los administradores deben usar el nuevo cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) para ver información acerca de un tronco SIP individual.
 
-El cmdlet Get-CsTrunk se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+El cmdlet Get-CsTrunk se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

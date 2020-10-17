@@ -12,20 +12,22 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0968f79b8c9aedc3dc2d2318a2e8abf5c51531d7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 61d2d884566c21933e00dd3897f5fe394b4a2624
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221150"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523937"
 ---
+# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Tecnologías de virtualización admitidas y limitaciones conocidas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Tecnologías de virtualización admitidas y limitaciones conocidas en Lync Server 2013
+
 
 </div>
 

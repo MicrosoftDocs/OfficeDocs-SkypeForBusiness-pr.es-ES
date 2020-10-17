@@ -12,20 +12,22 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b25a989913db4e76b306eaaf7efba38612a2315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2878f47fcace98bbd9e156f24c2b87e85faf728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186873"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525237"
 ---
+# <a name="introduction-to-lync-server-2013"></a>Introducción a Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction-to-lync-server-2013"></a>Introducción a Lync Server 2013
+
 
 </div>
 
@@ -90,7 +92,7 @@ Esta tabla y las siguientes secciones ilustran los conjuntos de características
 </tr>
 <tr class="odd">
 <td><p>Compatibilidad con clientes móviles</p></td>
-<td><p>Además, con los servicios de movilidad de Lync Server, los usuarios pueden acceder a la funcionalidad de Lync cuando usan dispositivos móviles Apple iOS, Android, Windows Phone o Nokia compatibles, y realizan actividades como enviar y recibir mensajes instantáneos, ver contactos y ver la presencia. Asimismo, los dispositivos móviles admiten algunas características de Enterprise Voice, como hacer clic para unirse a una conferencia, Vía trabajo, conexión con un solo número, correo de voz y llamadas perdidas. También se admiten las notificaciones push para dispositivos móviles que no admiten aplicaciones en ejecución en segundo plano.</p></td>
+<td><p>Además, con los servicios de movilidad de Lync Server, los usuarios pueden acceder a la funcionalidad de Lync cuando usan dispositivos móviles Apple iOS, Android, Windows Phone o Nokia compatibles, y realizan actividades como enviar y recibir mensajes instantáneos, ver contactos y ver presencia. Asimismo, los dispositivos móviles admiten algunas características de Enterprise Voice, como hacer clic para unirse a una conferencia, Vía trabajo, conexión con un solo número, correo de voz y llamadas perdidas. También se admiten las notificaciones push para dispositivos móviles que no admiten aplicaciones en ejecución en segundo plano.</p></td>
 </tr>
 <tr class="even">
 <td><p>Integración con otros productos</p></td>

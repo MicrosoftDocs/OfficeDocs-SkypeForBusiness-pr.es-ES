@@ -12,20 +12,22 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68764952ebfe2a45895e480d923d76a108fdda8e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 107a6a2094537c6937ae401f68807b494634f75f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218266"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525057"
 ---
+# <a name="lync-server-2013-cmdlets-by-category"></a>Cmdlets de Lync Server 2013 por categoría
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-cmdlets-by-category"></a>Cmdlets de Lync Server 2013 por categoría
+
 
 </div>
 
@@ -53,7 +55,7 @@ Si no sabe los cmdlets que necesita, también se proporciona una lista de los cm
 
 
 > [!NOTE]
-> La referencia del cmdlet de Skype empresarial se ha movido a docs.microsoft.com. Al hacer clic en los siguientes vínculos, se le llevará a la nueva página de docs.microsoft.com. El contenido se encuentra ahora abierto y disponible para contribuciones de la comunidad a través de GitHub. ¿Está interesado en colaborar? Consulte el archivo Léame en el repositorio aquí:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> La referencia del cmdlet de Skype empresarial se ha movido a docs.microsoft.com. Al hacer clic en los siguientes vínculos, se le llevará a la nueva página de docs.microsoft.com. El contenido se encuentra ahora abierto y disponible para contribuciones de la comunidad a través de GitHub. ¿Está interesado en colaborar? Consulte el archivo Léame en el repositorio aquí: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -118,7 +120,7 @@ Si no sabe los cmdlets que necesita, también se proporciona una lista de los cm
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  

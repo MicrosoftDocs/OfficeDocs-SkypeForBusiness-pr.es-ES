@@ -12,20 +12,22 @@ ms:contentKeyID: 48184226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d87de03662cc3c4bdca2695c348c86d473069475
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73e56e02dbd4b76aaa90a4556f688aad2e4ae37c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524237"
 ---
+# <a name="persistent-chat-server-cmdlets-in-lync-server-2013"></a>Cmdlets del servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-server-cmdlets-in-lync-server-2013"></a>Cmdlets del servidor de chat persistente en Lync Server 2013
+
 
 </div>
 

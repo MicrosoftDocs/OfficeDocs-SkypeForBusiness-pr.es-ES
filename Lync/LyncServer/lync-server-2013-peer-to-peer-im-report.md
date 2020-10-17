@@ -12,20 +12,22 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddfd9bc59a42a8ab8cad77fa0c434adc1da02c27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 16098a1d549c155f9a642f7e68f056f07973217d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524377"
 ---
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Informe de mensajería instantánea punto a punto en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Informe de mensajería instantánea punto a punto en Lync Server 2013
+
 
 </div>
 
@@ -82,17 +84,17 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 13:00</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
+<p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 pm</p>
 <p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
@@ -147,7 +149,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pool</strong></p></td>
+<td><p><strong>Grupo</strong></p></td>
 <td><p>No</p></td>
 <td><p>Nombre del grupo de registrador o servidor perimetral.</p></td>
 </tr>
@@ -194,7 +196,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 <td><p>No</p></td>
 <td><p>Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes:</p>
 <ul>
-<li><p>Empresa</p></li>
+<li><p>Enterprise</p></li>
 <li><p>Federadas</p></li>
 <li><p>IMG</p></li>
 </ul></td>

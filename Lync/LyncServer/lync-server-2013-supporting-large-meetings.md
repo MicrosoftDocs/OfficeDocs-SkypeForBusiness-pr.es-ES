@@ -12,20 +12,22 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 949e5fb209722d8a0d8476d017bba1b7144561a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19359dd785b846fa765e72adb810ccd255c2bd2e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523927"
 ---
+# <a name="supporting-large-meetings-using-lync-server-2013"></a>Compatibilidad con reuniones grandes con Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a>Compatibilidad con reuniones grandes con Lync Server 2013
+
 
 </div>
 
@@ -56,7 +58,7 @@ La compatibilidad con grandes reuniones de hasta 1.000 usuarios requiere abordar
 
 Para disponer de suficientes recursos de CPU y memoria para reuniones de hasta 1000 usuarios, los servidores front-end de hospedaje no deben hospedar otras cargas de trabajo de mensajería instantánea (mi) y presencia o de telefonía IP empresarial. Tampoco debe alojar otras reuniones, independientemente de su tamaño. Esto significa que para hospedar reuniones de hasta 1000 usuarios es necesario configurar un grupo de Lync Server independiente dedicado a hospedar grandes reuniones de hasta 1000 usuarios.
 
-Un grupo de servidores de Lync Server dedicado a hospedar reuniones grandes debe hospedar una sola reunión de hasta 1000 usuarios al mismo tiempo, por lo que las horas de reunión deben reservarse por adelantado a través de un proceso de programación fuera de banda para garantizar el soporte dedicado desde el serv front-end ers. Para admitir más de una gran reunión al mismo tiempo, recomendamos configurar varios grupos de grandes reuniones dedicados.
+Un grupo de servidores de Lync Server dedicado a hospedar reuniones grandes debe hospedar una sola reunión de hasta 1000 usuarios al mismo tiempo, por lo que las horas de reunión deben reservarse por adelantado a través de un proceso de programación fuera de banda para garantizar un soporte dedicado desde los servidores front-end. Para admitir más de una gran reunión al mismo tiempo, recomendamos configurar varios grupos de grandes reuniones dedicados.
 
 Recomendamos que una persona dedicada ejecute y supervise la parte en línea de una gran reunión. Esta persona podría ser el organizador, el delegado del organizador o presentador, o un miembro del equipo de soporte técnico de la gran reunión, dependiendo de las preferencias de la organización.
 

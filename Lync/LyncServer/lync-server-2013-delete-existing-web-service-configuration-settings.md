@@ -12,20 +12,22 @@ ms:contentKeyID: 48185333
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a6b1ddb7d4bf36186bec0ade8cacf75b15e8b70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4635e0c2c12f25f438aadd17d1241fdc88334a39
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525557"
 ---
+# <a name="delete-existing-web-service-configuration-settings-in-lync-server-2013"></a>Eliminación de las opciones de configuración de un servicio web existente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-existing-web-service-configuration-settings-in-lync-server-2013"></a>Eliminación de las opciones de configuración de un servicio web existente en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Siga estos pasos para eliminar las opciones de configuración del servicio Web.
 
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Eliminación de opciones de configuración del servicio Web mediante cmdlets de Windows PowerShell
 
-Puede eliminar las opciones de configuración del servicio Web con Windows PowerShell y el cmdlet **Remove-CsWebServiceConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede eliminar las opciones de configuración del servicio Web con Windows PowerShell y el cmdlet **Remove-CsWebServiceConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -99,7 +101,7 @@ Para obtener más información, consulte [Remove-CsWebServiceConfiguration](http
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de la autenticación en el panel de control de Lync Server 2013](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)  

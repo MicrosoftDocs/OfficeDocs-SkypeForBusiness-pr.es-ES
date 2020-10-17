@@ -12,20 +12,22 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb24be3ba069bcf900c86c4e4b45ef31420a3ff9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0be055238c2e8db45337b9e66d936bb73c73e61
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186813"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525207"
 ---
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Informe de inventario de teléfono IP en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Informe de inventario de teléfono IP en Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Se puede tener acceso al informe de inventario de teléfono IP desde la página 
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Aprovechar al máximo el informe de inventario de teléfono IP
 
-Si solo le interesa la información de uso de un tipo de teléfono en particular (por ejemplo, "¿con qué frecuencia usan los usuarios un teléfono Polycom CX600?"), puede obtener esa información directamente del informe de inventario de teléfono IP filtrando para ese tipo de teléfono en particular. Sin embargo, si desea obtener información de Resumen de todos los teléfonos (cuántas personas usan un Polycom CX600, cuántos están usando un IP8540 de LG-Nortel), tendrá que exportar los datos y usar otra aplicación (como Windows PowerShell) para realizar ese tipo de analice. Por ejemplo, supongamos que exporta los datos a un archivo de valores separados por comas\\(\_C\_:\_\\Data IP Phone Inventory Report. csv). En ese caso, podría usar estos dos comandos para proporcionar datos de resumen para todos los teléfonos:
+Si solo le interesa la información de uso de un tipo de teléfono en particular (por ejemplo, "¿con qué frecuencia usan los usuarios un teléfono Polycom CX600?"), puede obtener esa información directamente del informe de inventario de teléfono IP filtrando para ese tipo de teléfono en particular. Sin embargo, si desea obtener información resumida de todos los teléfonos (cuántas personas usan un Polycom CX600, cuántos están usando un LG-Nortel IP8540, etc.), tendrá que exportar los datos y usar otra aplicación (como Windows PowerShell) para realizar ese tipo de análisis. Por ejemplo, supongamos que exporta los datos a un archivo de valores separados por comas (C: \\ Data \\ IP \_ Phone \_ Inventory \_Report.csv). En ese caso, podría usar estos dos comandos para proporcionar datos de resumen para todos los teléfonos:
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
@@ -133,12 +135,12 @@ En la siguiente tabla verá una lista de los filtros que puede usar con el infor
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
+<p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -174,7 +176,7 @@ En la siguiente tabla verá una lista de los filtros que puede usar con el infor
 <td><p>Seleccione uno de los siguientes valores:</p>
 <ul>
 <li><p>Todos</p></li>
-<li><p>10 </p></li>
+<li><p>10  </p></li>
 <li><p>20</p></li>
 <li><p>semestre</p></li>
 </ul></td>
@@ -184,7 +186,7 @@ En la siguiente tabla verá una lista de los filtros que puede usar con el infor
 <td><p>Seleccione uno de los siguientes valores:</p>
 <ul>
 <li><p>Todos</p></li>
-<li><p>10 </p></li>
+<li><p>10  </p></li>
 <li><p>20</p></li>
 <li><p>semestre</p></li>
 </ul></td>

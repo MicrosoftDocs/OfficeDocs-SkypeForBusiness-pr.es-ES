@@ -12,20 +12,22 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9437df126889aefb8400b50d118d44dac12f285d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46f9236bfbd110ee17811edec2e3e81fc4a0e0f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208266"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524167"
 ---
+# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Topologías de Active Directory admitidas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Topologías de Active Directory admitidas en Lync Server 2013
+
 
 </div>
 

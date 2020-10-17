@@ -12,20 +12,22 @@ ms:contentKeyID: 49733643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 460bbda3d9402bd98c83043d51546beb5cdae62f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f6f43f8c6aae2dec5ea55463c1896f327f008980
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525357"
 ---
+# <a name="deleting-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Eliminación de perfiles de directiva de ancho de banda de red en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Eliminación de perfiles de directiva de ancho de banda de red en Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Como parte del control de admisión de llamadas (CAC), se usa una directiva de a
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Creación o modificación de perfiles de directiva de ancho de banda en Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  

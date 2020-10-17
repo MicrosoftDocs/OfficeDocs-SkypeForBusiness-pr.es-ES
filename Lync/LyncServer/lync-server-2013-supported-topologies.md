@@ -12,20 +12,22 @@ ms:contentKeyID: 48183832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 732b9a70ee61ce4ecdf19b3f668ba09a3416cca9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4754881d2ed3205c4f06d5468001c6e45880278c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523967"
 ---
+# <a name="supported-topologies-in-lync-server-2013"></a>Topologías admitidas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-topologies-in-lync-server-2013"></a>Topologías admitidas en Lync Server 2013
+
 
 </div>
 
@@ -84,7 +86,7 @@ Aunque una topología de sitio central debe incluir un grupo front-end o servido
 
   - Office Web Apps Server, que se usa con aplicaciones Web de Office en Lync Server 2013 para controlar el uso compartido y la representación de presentaciones de Microsoft PowerPoint.
 
-  - Servidor perimetral o grupo de servidores perimetrales en la red perimetral, si desea que la implementación admita socios federados, conectividad de mensajería instantánea pública, una puerta de enlace de protocolo extensible de mensajería y presencia (XMPP), acceso de usuarios remotos, participación de usuarios anónimos en reuniones, o mensajería unificada de Exchange (UM). No se puede colocar ningún otro rol de servidor en un servidor perimetral. Se recomienda un equilibrio de carga de DNS, siempre que sea apropiado, aunque también se admite un equilibrio de carga de hardware. La interfaz perimetral interna y la interfaz perimetral externa deben usar el mismo tipo de equilibrio de carga. No puede usar el equilibrio de carga de DNS en una interfaz perimetral y el equilibrio de carga de hardware en la otra interfaz perimetral. Para obtener más información sobre los requisitos y la compatibilidad de equilibrio de carga, consulte [Planning for external User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) en la documentación de planeación y [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación sobre implementación.
+  - Servidor perimetral o grupo de servidores perimetrales en la red perimetral, si desea que la implementación admita socios federados, conectividad de mensajería instantánea pública, una puerta de enlace de protocolo extensible de mensajería y presencia (XMPP), acceso de usuarios remotos, participación de usuarios anónimos en reuniones o mensajería unificada (MU) de Exchange. No se puede colocar ningún otro rol de servidor en un servidor perimetral. Se recomienda un equilibrio de carga de DNS, siempre que sea apropiado, aunque también se admite un equilibrio de carga de hardware. La interfaz perimetral interna y la interfaz perimetral externa deben usar el mismo tipo de equilibrio de carga. No puede usar el equilibrio de carga de DNS en una interfaz perimetral y el equilibrio de carga de hardware en la otra interfaz perimetral. Para obtener más información sobre los requisitos y la compatibilidad de equilibrio de carga, consulte [Planning for external User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) en la documentación de planeación y [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación sobre implementación.
 
   - Servidor o grupo de servidores de mediación, si desea admitir Enterprise Voice o conferencias de acceso telefónico local en un grupo de servidores front-end en el sitio central. En función de cómo implemente la asistencia de telefonía IP empresarial, puede combinar el servidor de mediación en un grupo de servidores front-end (opción predeterminada) o implementar un servidor o grupo de servidores de mediación independiente. Puede usar el equilibrio de carga de DNS, hardware o aplicación (cuando corresponda) para distribuir el tráfico de la puerta de enlace del grupo de servidores de mediación, incluidos una puerta de enlace RTC, una IP-PBX o un control de borde de sesión (SBC) del tronco SIP. Para obtener más información sobre cómo planear la topología del servidor de mediación adecuada, consulte [directrices de implementación para servidor de mediación en Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) en la documentación referente a la planeación.
 
@@ -96,7 +98,7 @@ Aunque una topología de sitio central debe incluir un grupo front-end o servido
 
   - Un director o un grupo de directores, si desea facilitar la resistencia y el redireccionamiento de las solicitudes de usuario de Lync Server 2013 al grupo principal del usuario, que puede ser un grupo de servidores front-end Enterprise Edition o un servidor Standard Edition. Recomendamos implementar un director o grupo de directores en cada sitio central que permita el acceso de usuarios externos y en cada sitio central en el que implemente uno o varios grupos front-end. Cada grupo de directores puede tener un máximo de diez directores. Un director no se puede instalar con ningún otro rol de servidor. Para obtener más información sobre cómo planear la topología de Director adecuada, consulte [escenarios para el Director en Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) en la documentación referente a la planeación.
 
-  - Proxy inverso, que no es un componente 2013 de Lync Server, pero es necesario si desea admitir el uso compartido de contenido web para usuarios federados o para admitir el tráfico de movilidad. No se puede combinar un servidor proxy inverso con ningún rol de servidor de Lync Server 2013, pero se puede implementar la compatibilidad con un proxy inverso para una implementación de Lync Server 2013 mediante la configuración de la compatibilidad en un servidor proxy inverso existente en la organización que se usa para otros aplicaciones. Para obtener más información sobre los servidores proxy inversos, consulte [configuración de servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) en la documentación sobre implementación.
+  - Proxy inverso, que no es un componente 2013 de Lync Server, pero es necesario si desea admitir el uso compartido de contenido web para usuarios federados o para admitir el tráfico de movilidad. No se puede combinar un servidor proxy inverso con ningún rol de servidor de Lync Server 2013, pero se puede implementar la compatibilidad con un proxy inverso para una implementación de Lync Server 2013 mediante la configuración de la compatibilidad en un servidor proxy inverso existente en la organización que se usa para otras aplicaciones. Para obtener más información sobre los servidores proxy inversos, consulte [configuración de servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) en la documentación sobre implementación.
 
 <div>
 
