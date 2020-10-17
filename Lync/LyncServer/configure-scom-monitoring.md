@@ -1,5 +1,6 @@
 ---
 title: Configurar la supervisión SCOM
+description: Configurar la supervisión de SCOM.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de0ca4d569c8a67eb134c5a1bd018ed143041046
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c93e10c705a1a1e08972d7534e00a33c472d23a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542996"
 ---
 # <a name="configure-scom-monitoring"></a>Configurar la supervisión SCOM
 

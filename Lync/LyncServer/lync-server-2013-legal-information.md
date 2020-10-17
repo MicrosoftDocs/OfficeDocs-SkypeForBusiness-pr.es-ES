@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 información legal
+description: Lync Server 2013 información legal.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8e4705a2c48de3707deca5508417d039de2ff45
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b5b9761e7962f849fb3826c58e94bd3fb1083b53
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542576"
 ---
 # <a name="legal-information-for-lync-server-2013"></a>Información legal para Lync Server 2013
 

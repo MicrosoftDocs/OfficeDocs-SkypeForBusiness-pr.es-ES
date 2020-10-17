@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: crear un dispositivo para probar la funcionalidad de actualización'
+description: 'Lync Server 2013: cree un dispositivo para probar la funcionalidad de actualización.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbf4d45edce186819241ce6244e1ea1cd6677bfa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1d45d8970dc72abc8ea6095c879272394e34c54d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542176"
 ---
 # <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a>Crear un dispositivo para probar la funcionalidad de actualización en Lync Server 2013
 

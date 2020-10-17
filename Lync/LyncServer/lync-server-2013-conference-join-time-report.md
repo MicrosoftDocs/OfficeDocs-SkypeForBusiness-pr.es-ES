@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de tiempo de unirse a la Conferencia'
+description: 'Lync Server 2013: informe de tiempo de unirse a la Conferencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fe20dd1e3e5387b4b31873ec0d3c6ae914c2cec
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fd4aa5d21a8109a323bb953c7196f43715d51413
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526007"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542796"
 ---
 # <a name="conference-join-time-report-in-lync-server-2013"></a>Informe de tiempo de incorporación a la Conferencia en Lync Server 2013
 

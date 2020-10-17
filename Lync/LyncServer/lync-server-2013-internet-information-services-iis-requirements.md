@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos de Internet Information Services (IIS)'
+description: 'Lync Server 2013: requisitos de Internet Information Services (IIS).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b0c1c9966945554af6d1d9cec02a17dd884a857
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dd8de55fa4611c3ab29eac7d7c28c522b418e77d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498487"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543996"
 ---
 # <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Requisitos de Internet Information Services (IIS) en Lync Server 2013
 

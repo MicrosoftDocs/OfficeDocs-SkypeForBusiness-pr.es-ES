@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Set-CsClientPolicy para la administración de la libreta de direcciones'
+description: 'Lync Server 2013: Set-CsClientPolicy para la administración de la libreta de direcciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ffa2cfb5435919d28f959bf6d8bc49673b87ef7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10cbf6cb23315715ddb71680f3725808a55ad4a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543296"
 ---
 # <a name="set-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Set-CsClientPolicy para la administración de la libreta de direcciones en Lync Server 2013
 

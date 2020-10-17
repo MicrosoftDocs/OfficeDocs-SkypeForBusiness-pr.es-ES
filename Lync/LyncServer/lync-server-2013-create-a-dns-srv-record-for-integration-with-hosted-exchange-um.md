@@ -1,5 +1,6 @@
 ---
 title: Crear un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada
+description: Cree un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 694a595977abe33bebbb5fbcf2a508c9bb4e35a4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507477"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542146"
 ---
 # <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Crear un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cambiar las opciones de base de datos de archivado'
+description: 'Lync Server 2013: cambiar las opciones de base de datos de archivado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f06b1327b1f0718015de0a877963ad7eb04cc03c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7a3751be63e17688ad9258b9773a1a5397b67952
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502717"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543586"
 ---
 # <a name="changing-archiving-database-options-in-lync-server-2013"></a>Cambiar las opciones de base de datos de archivado en Lync Server 2013
 

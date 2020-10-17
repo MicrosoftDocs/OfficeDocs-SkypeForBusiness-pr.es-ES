@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: restaurar un servidor Standard Edition'
+description: 'Lync Server 2013: restaurar un servidor Standard Edition.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1d2cd6976324492e0539c47999f78434e1a82706
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511567"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542396"
 ---
 # <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Restaurar un servidor Standard Edition en Lync Server 2013
 

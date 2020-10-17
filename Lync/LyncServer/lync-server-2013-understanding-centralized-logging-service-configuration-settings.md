@@ -1,5 +1,6 @@
 ---
 title: Descripción de las opciones de configuración del servicio de registro centralizado
+description: Descripción de las opciones de configuración del servicio de registro centralizado.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bd4403bedbf6fe3b6983e6071a162ce02c16936
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0f99dbffe15c4b3f0dc13d231c3a2732a8554397
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542406"
 ---
 # <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Información sobre las opciones de configuración del servicio de registro centralizado en Lync Server 2013
 

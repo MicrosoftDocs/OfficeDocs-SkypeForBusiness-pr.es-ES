@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de Federación y de acceso externo'
+description: 'Lync Server 2013: cmdlets de Federación y de acceso externo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4f02160ad9991905bf0f149a2beb72ef21169e7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 930de66a54d3f8db07394baf2d8470affe5090e9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507297"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543396"
 ---
 # <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Cmdlets de Federación y acceso externo en Lync Server 2013
 

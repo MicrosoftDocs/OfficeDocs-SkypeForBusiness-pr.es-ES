@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cambios realizados por la preparación del dominio'
+description: 'Lync Server 2013: cambios realizados por la preparación del dominio.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b1eea02c41acf748674cdd7976028a51fdb367e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 26400bd1c72c6ae3b8dc1f2d2d8f6c6906b80595
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529507"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543696"
 ---
 # <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Cambios realizados por la preparación del dominio en Lync Server 2013
 

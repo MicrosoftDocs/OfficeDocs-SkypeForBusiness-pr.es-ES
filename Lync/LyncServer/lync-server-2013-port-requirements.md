@@ -1,5 +1,6 @@
 ---
 title: Requisitos del puerto de Lync Server 2013
+description: Lync Server 2013 los requisitos de puerto.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e02ad7b00f2f0ce0771633a6533986327bf2b80b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ba7ae9a1ee098f55c61ae476f12c3b856c69f90e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543166"
 ---
 # <a name="port-requirements-for-lync-server-2013"></a>Requisitos de puertos para Lync Server 2013
 

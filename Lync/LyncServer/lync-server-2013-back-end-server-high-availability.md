@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: alta disponibilidad del servidor back-end'
+description: 'Lync Server 2013: alta disponibilidad del servidor back-end.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185358
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f5b2fe64b4f32a43ff1462ab27daef04694c99b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 805cbf96e107329aa5c374cfa1e2d01234d360a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543776"
 ---
 # <a name="back-end-server-high-availability-in-lync-server-2013"></a>Alta disponibilidad del servidor back-end en Lync Server 2013
 

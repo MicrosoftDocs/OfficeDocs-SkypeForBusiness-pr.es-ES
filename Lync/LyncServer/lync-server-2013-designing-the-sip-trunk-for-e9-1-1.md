@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: diseño del tronco SIP para E9-1-1'
+description: 'Lync Server 2013: diseño del tronco SIP para E9-1-1.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35efd8571a30b3d0dd067cbfc27f292985b6ee14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ced3c92cb14739367c4e54da933a536cb66deb08
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542606"
 ---
 # <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Diseño del tronco SIP para E9-1-1 en Lync Server 2013
 

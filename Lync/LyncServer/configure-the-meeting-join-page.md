@@ -1,5 +1,6 @@
 ---
 title: Configurar la página para unirse a la reunión
+description: Configurar la página de participación en la reunión.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 48183260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 208f2d24d5617da703b04ea9888dd8b187f31476
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: af49a57a6844c59bf6f6631d996d8efe12152c52
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503327"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542966"
 ---
 # <a name="configure-the-meeting-join-page"></a>Configurar la página para unirse a la reunión
 

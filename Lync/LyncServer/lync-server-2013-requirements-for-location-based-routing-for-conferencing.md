@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos para el enrutamiento Location-Based para conferencias'
+description: 'Lync Server 2013: requisitos para el enrutamiento de Location-Based para conferencias.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56335085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66be7f9dd3faeb167519d9ce815e84f8cf692c22
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fbaa1af2690c3148d2ecfb173b13be288a21d80f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511857"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542526"
 ---
 # <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a>Requisitos para Location-Based el enrutamiento para conferencias en Lync Server 2013
 

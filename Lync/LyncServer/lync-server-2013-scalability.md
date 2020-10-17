@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 escalabilidad
+description: Lync Server 2013 escalabilidad.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2b26f8f7b7b254a8576a08e9b24fdeb2da633b2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 28cd5820755ffd1eb863ed6f2369b5756a7ae3f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543796"
 ---
 # <a name="scalability-with-lync-server-2013"></a>Escalabilidad con Lync Server 2013
 

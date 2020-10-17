@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: rellenar la base de datos de ubicaciones'
+description: 'Lync Server 2013: rellenar la base de datos de ubicaciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9a5c9015dcaf83252260c89837a473a6a2291f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c6cf3204795ae2c4f8248517b84d7a5ac1bad0d9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543176"
 ---
 # <a name="populate-the-location-database-in-lync-server-2013"></a>Rellenar la base de datos de ubicaciones en Lync Server 2013
 

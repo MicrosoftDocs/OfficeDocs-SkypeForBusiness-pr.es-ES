@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar directivas de voz y registros de uso de RTC para autorizar características y privilegios de llamada'
+description: 'Lync Server 2013: configurar directivas de voz y registros de uso de RTC para autorizar características y privilegios de llamada.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f13057306d278d871ca7e4cba530ae8eba974ea5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a12c9c64c3f02effba7c7709321eda91350ebb75
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542286"
 ---
 # <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a>Configurar directivas de voz y registros de uso de RTC para autorizar características y privilegios de llamada en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: restaurar un almacén de archivos'
+description: 'Lync Server 2013: restaurar un almacén de archivos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd1984c6e51866b1ace707f305fb2a6cc356a132
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 201c4b20f224fa3a25e931689e564410c60143e6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511617"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543836"
 ---
 # <a name="restoring-a-file-store-in-lync-server-2013"></a>Restaurar un almacén de archivos en Lync Server 2013
 

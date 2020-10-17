@@ -1,5 +1,6 @@
 ---
 title: Configuración del servidor de chat persistente mediante cmdlets de Windows PowerShell
+description: Configurar el servidor de chat persistente mediante cmdlets de Windows PowerShell.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9963b918b64e56f87aba6eb243f513c41a87499
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 39d97657684227ef3c36f6ac39389220a6805f82
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503127"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542876"
 ---
 # <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>Configuración del servidor de chat persistente mediante cmdlets de Windows PowerShell
 

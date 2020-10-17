@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar directivas para controlar el acceso de usuarios federados de XMPP'
+description: 'Lync Server 2013: configurar directivas para controlar el acceso de usuarios federados de XMPP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48679557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7cc0eec0dc1371e27834dda69b25a32b9346ab5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cdb2b7a3da6c00aa7725ecbb69856756f229ed97
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542786"
 ---
 # <a name="configure-policies-to-control-xmpp-federated-user-access-in-lync-server-2013"></a>Configurar directivas para controlar el acceso de usuarios federados de XMPP en Lync Server 2013
 

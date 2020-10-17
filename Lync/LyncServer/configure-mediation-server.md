@@ -1,5 +1,6 @@
 ---
 title: Configurar el servidor de mediación
+description: Configure el servidor de mediación.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72b5742d264efb8c84518511d40195a109594e2a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5723d9446122b85f7bd1812f7c6f411c5c1c9dbe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503377"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543006"
 ---
 # <a name="configure-mediation-server"></a>Configurar el servidor de mediación
 

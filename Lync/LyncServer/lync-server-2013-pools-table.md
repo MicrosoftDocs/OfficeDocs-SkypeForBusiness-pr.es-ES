@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla pools'
+description: 'Lync Server 2013: tabla pools.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f9895307599210a7d30fde58d7e09b8353388db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a587eba6798121f39fe64ff8bd720b62e9311ec0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543196"
 ---
 # <a name="pools-table-in-lync-server-2013"></a>Tabla pools en Lync Server 2013
 

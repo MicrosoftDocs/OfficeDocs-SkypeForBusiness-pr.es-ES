@@ -1,5 +1,6 @@
 ---
 title: Herramientas del kit de recursos de chat persistente de Lync Server 2013
+description: Lync Server 2013 las herramientas del kit de recursos de chat persistente.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80a9116374914c212d305ef2e55d0b8c4fecb782
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 336e81c97da73da47eee654161a7d8d8956f9edb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533677"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542356"
 ---
 # <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Herramientas del kit de recursos de chat persistente de Lync Server 2013
 

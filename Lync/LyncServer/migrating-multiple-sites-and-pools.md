@@ -1,5 +1,6 @@
 ---
 title: Migrar múltiples sitios y grupos de servidores
+description: Migrar varios sitios y grupos de servidores.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d95f38ab0adc1457abee7cdd90e8f385f7176ce3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7efaa6f038286ff9138e631f23da88bb445e20f1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543256"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migrar múltiples sitios y grupos de servidores
 

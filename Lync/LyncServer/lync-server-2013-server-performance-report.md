@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de rendimiento del servidor'
+description: 'Lync Server 2013: informe de rendimiento del servidor.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e348882ffa07d1784e62a458455a1ad32a5bbd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: aed9b3b9eeec4487dce4d401df0d70ffba89677b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510297"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543346"
 ---
 # <a name="server-performance-report-in-lync-server-2013"></a>Informe de rendimiento del servidor en Lync Server 2013
 

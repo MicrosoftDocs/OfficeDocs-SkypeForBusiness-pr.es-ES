@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definir reglas de normalización'
+description: 'Lync Server 2013: definir reglas de normalización.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 935df08bd1ede124b048427de21594aa6e727e7c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3a123e17b1d3256781ff34e4cade2b344ba8fe14
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504517"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542046"
 ---
 # <a name="defining-normalization-rules-in-lync-server-2013"></a>Definición de reglas de normalización en Lync Server 2013
 
