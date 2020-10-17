@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511767"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Informe de lista de llamadas de grupo de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a>Informe de lista de llamadas de grupo de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -87,7 +89,7 @@ una pregunta como esta: "¿qué flujo de trabajo individual recibió más llamad
 
 3.  Ejecute los análisis con Windows PowerShell.
 
-Por ejemplo, si ha guardado los datos en un archivo denominado C\\: Data\\Response\_Group\_\_List\_Report. csv, puede usar el siguiente comando para devolver el número total de llamadas recibidas para cada flujo de trabajo que se muestra en el informe:
+Por ejemplo, si ha guardado los datos en un archivo denominado C: \\ \\ \_ lista de llamadas de grupo de respuesta \_ de datos \_ \_Report.csv, puede usar el siguiente comando para devolver el número total de llamadas recibidas para cada flujo de trabajo que aparece en el informe:
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
@@ -127,7 +129,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>

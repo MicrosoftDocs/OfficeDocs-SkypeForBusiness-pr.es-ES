@@ -12,20 +12,22 @@ ms:contentKeyID: 48183752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07c19a8f046ecd4c7bc03459f756a1d0ceaeebd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0905fad737fe7da1cbc8ac36334700eb91409df7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513187"
 ---
+# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a>Suministro de correo de voz de los usuarios de Lync Server 2013 en mensajería unificada de Exchange hospedada
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a>Suministro de correo de voz de los usuarios de Lync Server 2013 en mensajería unificada de Exchange hospedada
+
 
 </div>
 

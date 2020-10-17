@@ -12,20 +12,22 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55312d4043a140f51ec4805550555d2a0ff23a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 899cd5b23cf4823e9d65803e6e8f651e04a4e9b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183373"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512057"
 ---
+# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Calidad de la experiencia (QoE) en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Calidad de la experiencia (QoE) en Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ La calidad de la experiencia (QoE) registra datos numéricos que indican la cali
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de registros de detalles de llamadas y de la calidad de la experiencia en Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: get-CsAddressBookConfiguration para la administración de la libreta de direcciones'
+title: 'Lync Server 2013: Get-CsAddressBookConfiguration para la administración de la libreta de direcciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185264
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a055a91aa3f082a48d2defa73cc9a40f7c4a298e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 03a13705381c127a6c2c04e7c4ffa70214c49cb6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181293"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512647"
 ---
+# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsAddressBookConfiguration para la administración de la libreta de direcciones en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsAddressBookConfiguration para la administración de la libreta de direcciones en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Se obtienen todas las configuraciones en todos los sitios y se aplica el RunTime
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Get-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAddressBookConfiguration)  

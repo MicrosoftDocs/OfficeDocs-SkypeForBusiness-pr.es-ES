@@ -12,20 +12,22 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e5365675efbcc7427cc29143c21b6656a4dba7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3ac7a336fc65b6e9b9222fc2f19e1983cb53c79
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512537"
 ---
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Nuevas características de integración de Exchange Server en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Nuevas características de integración de Exchange Server en Lync Server 2013
+
 
 </div>
 
@@ -43,11 +45,11 @@ Lync Server 2013 admite nuevas características cuando se implementa junto con M
 
   - Puede usar las **fotografías de alta resolución** para los contactos. Las fotos con un máximo de 648x648 píxeles se almacenan en Exchange 2013 y se ponen a disposición de los clientes, incluidos Lync 2013, Outlook 2013, Microsoft Lync Web App y Outlook Web App.
 
-  - Puede habilitar la **integración de archivado de Lync**, que integra el archivado de lync Server 2013 en la característica de conservación local de Exchange 2013, para los usuarios hospedados en Exchange 2013, que permite una experiencia común para los administradores sobre el cumplimiento y la exhibición de documentos electrónicos.
+  - Puede habilitar la **integración de archivado de Lync**, que integra el archivado de lync Server 2013 en la característica de retención de In-Place de Exchange 2013, para los usuarios hospedados en Exchange 2013, que habilita una experiencia común para los administradores sobre el cumplimiento y la exhibición de documentos electrónicos.
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación e implementación de almacén de contactos unificados en Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  

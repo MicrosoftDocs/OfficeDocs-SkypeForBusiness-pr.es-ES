@@ -12,20 +12,22 @@ ms:contentKeyID: 48184786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb165fa762b23bd271dde56c0846ccb18adfbf7f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c1221d145951b4f780638cc2681f6d6cff822a4e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183253"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512027"
 ---
+# <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a>Tiempo de recuperación para la conmutación por error del grupo y la conmutación por recuperación del grupo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="recovery-time-for-pool-failover-and-pool-failback-in-lync-server-2013"></a>Tiempo de recuperación para la conmutación por error del grupo y la conmutación por recuperación del grupo en Lync Server 2013
+
 
 </div>
 

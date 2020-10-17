@@ -12,20 +12,22 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7cbe8543f1d26f42186654d2988258e796d7eebb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 84c75e96c9a1541a8bd56f68d5fcf9d1a8655204
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512217"
 ---
+# <a name="purgesettings-table-in-lync-server-2013"></a>Tabla PurgeSettings en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="purgesettings-table-in-lync-server-2013"></a>Tabla PurgeSettings en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 <tbody>
 <tr class="odd">
 <td><p><strong>Id</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Identificador único de la recopilación de opciones de configuración para depuración de CDR.</p></td>
 </tr>
@@ -76,19 +78,19 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 </tr>
 <tr class="odd">
 <td><p><strong>KeepCallDetailForDays</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Especifica la antigüedad de los registros de CDR (en días) que se depurarán de la base de datos: si se habilita la depuración, los registros de CDR cuya antigüedad sea mayor que este valor se eliminarán de la base de datos. El valor predeterminado es 60 días.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>KeepErrorReportForDays</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Especifica la antigüedad de los registros de informe de errores (en días) que se depurarán de la base de datos: si se habilita la depuración, los registros de informe de errores cuya antigüedad sea mayor que este valor se eliminarán de la base de datos. El valor predeterminado es 60 días.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PurgeHour</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Especifica la hora local del día a la que se realizará la depuración de la base de datos. La hora del día se especifica con el formato de 24 horas, donde 0 representa la media noche (12:00 AM) y 23 representa las 11:00 PM. Tenga en cuenta que solo se pueden especificar horas en formato convencional: se permite un valor 10 (que indicaría las 10:00 a.m.), pero no un valor 10:30 o 10.5 (que indicaría las 10:30 a.m.). El valor predeterminado es 2 (2:00 AM).</p></td>
 </tr>

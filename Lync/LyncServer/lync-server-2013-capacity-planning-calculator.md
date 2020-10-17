@@ -12,20 +12,22 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b920f7fd0325c3232abb5670a2da66fc98352d38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 230b731bf7b63a1ce86b5652d9e3d3b2956c94a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207386"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512827"
 ---
+# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Uso de la calculadora de planeación de capacidad para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Uso de la calculadora de planeación de capacidad para Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42207386"
 
 _**Última modificación del tema:** 2013-11-21_
 
-La calculadora de planeación de capacidad de Microsoft® Lync™ Server 2013 está <https://www.microsoft.com/download/details.aspx?id=36828>disponible para su descarga en. Está diseñado para ayudarle a determinar los requisitos del servidor en función de las cantidades de usuarios y las modalidades de comunicación que están habilitadas en su organización. Escriba el perfil de su organización y la calculadora le proporcionará recomendaciones que le ayudarán a planear la topología.
+La calculadora de planeación de capacidad de Microsoft® Lync™ Server 2013 está disponible para su descarga en <https://www.microsoft.com/download/details.aspx?id=36828> . Está diseñado para ayudarle a determinar los requisitos del servidor en función de las cantidades de usuarios y las modalidades de comunicación que están habilitadas en su organización. Escriba el perfil de su organización y la calculadora le proporcionará recomendaciones que le ayudarán a planear la topología.
 
 Las recomendaciones creadas por la calculadora son solo para fines de planeación. La simulación de carga real es necesaria para garantizar que Lync Server 2013 se haya aprovisionado correctamente. Para realizar pruebas de esfuerzo con una carga simulada, use la [herramienta de esfuerzo y rendimiento de Lync Server 2013](https://go.microsoft.com/fwlink/?linkid=282724).
 

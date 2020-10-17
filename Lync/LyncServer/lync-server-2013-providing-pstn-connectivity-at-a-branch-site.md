@@ -12,20 +12,22 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4998db2c00699e766b664caf79fa271af0395a6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38c76d378db31cb8a6619a18072ec0218260843e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513177"
 ---
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Suministro de conectividad RTC en un sitio de sucursal en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Suministro de conectividad RTC en un sitio de sucursal en Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Si no usa la herramienta de planeación, use los procedimientos descritos en los
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  

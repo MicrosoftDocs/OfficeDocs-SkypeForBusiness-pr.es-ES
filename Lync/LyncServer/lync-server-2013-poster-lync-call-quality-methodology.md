@@ -12,20 +12,22 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: caff54dd2919bacfda02fceff138650f90bae650
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3647de7f803a8ec90d50236c5cf14c1a1cf8e0da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513397"
 ---
+# <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Metodología de calidad de llamadas de Lync en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Metodología de calidad de llamadas de Lync en Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ La metodología de calidad de llamadas es un nuevo marco de solución de problem
 
 CQM divide la solución de problemas del sistema en tres rutas o "carreteras". Estos son los siguientes: la planta de servidor, que examina los servidores y los vínculos entre ellos, los puntos finales de la carretera, que analizan los dispositivos de usuario y medios usados para llevar llamadas y la calle del pasado kilómetro, que se ocupa de la integración de llamadas de red telefónicas conmutadas tradicionales.
 
-Cada carretera se divide en varios segmentos relacionados con un área o tema específicos, y en cada segmento se realizan definiciones sobre qué es un nivel de calidad aceptable, se realizan acciones para lograr ese nivel de calidad y se establece un plan de administración de servicios para mantener ese nivel de calidad antes de pasar al siguiente tema.
+Cada carretera se divide en varios segmentos relacionados con un área o tema específicos, y en cada segmento se realizan definiciones sobre cuál es un nivel de calidad aceptable, se realizan acciones para lograr ese nivel de calidad y se establece un plan de administración de servicios para mantener ese nivel de calidad antes de pasar al siguiente tema.
 
 El póster presenta Lync CQM como un juego de mesa para tres jugadores, cada uno de los cuales pasará por una de las carreteras. Las tarjetas incluidas con la descarga se usan para simular impedimentos para la calidad de la llamada que deben superarse. Las sugerencias y sugerencias sobre los objetivos y cómo lograrlos se incluyen en las tres rutas, así como instrucciones de priorización para las cuales la carretera debe llegar en primer lugar en las aplicaciones reales (en el juego, las tres carreteras se abordan en paralelo).
 
@@ -103,7 +105,7 @@ Después de elegir un camino para empezar, defina un objetivo para cada área (a
 
 ## <a name="pcd"></a>PCD
 
-La herramienta de diagnóstico de llamada anterior (PCD) le ayudará a identificar y diagnosticar problemas en la red perimetral (la base de datos de QoE no recopila información en su periferia o en la red perimetral) y también para solucionar problemas de conexiones en el último kilómetro. La herramienta está disponible como aplicación moderna de Windows 8 o en una aplicación de escritorio de https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88Windows en.
+La herramienta de diagnóstico de llamada anterior (PCD) le ayudará a identificar y diagnosticar problemas en la red perimetral (la base de datos de QoE no recopila información en su periferia o en la red perimetral) y también para solucionar problemas de conexiones en el último kilómetro. La herramienta está disponible como aplicación moderna de Windows 8 o en una aplicación de escritorio de Windows en https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88 .
 
 </div>
 
@@ -129,9 +131,9 @@ Para mejorar la calidad de la voz en el espacio no administrado, es necesario te
 
 El segmento 1 de la planta de servidor se dirige a los servidores reales de la implementación de Lync. Recopilar datos de KHI sobre el propio servidor y su rol en la implementación y analizar el resultado. Si la acción está garantizada, corrija los problemas encontrados. Encontrará más información sobre este tema en el artículo sobre los [indicadores de estado clave en Lync Server 2013](lync-server-2013-poster-key-health-indicators.md) que acompaña al póster KHI.
 
-El siguiente segmento trata las secuencias de medios entre el servidor de la MCU AV y el servidor de mediación. Para empezar, determine los destinos para los umbrales de transmisión deficientes. Las secuencias defectuosas suelen \> ser PacketLossRate .01 \> o PacketLossRateMax. 05. Otro destino deseable es \< PoorStreamsRatio 2%. A continuación, use consultas detalladas para buscar pares de AVMCU y servidores de mediación con flujos de baja calidad, investigar la causa de las secuencias defectuosas, mirar el equipo de red en las rutas de flujo deficientes, corregir secuencias defectuosas y definir una configuración óptima o "Gold" para la red. Equipamiento. Para mantener su logro, implemente procesos y herramientas para administrar el desplazamiento de la configuración e informar sobre nuevas áreas de problemas.
+El siguiente segmento trata las secuencias de medios entre el servidor de la MCU AV y el servidor de mediación. Para empezar, determine los destinos para los umbrales de transmisión deficientes. Las secuencias defectuosas suelen ser PacketLossRate \> .01 o PacketLossRateMax \> . 05. Otro destino deseable es PoorStreamsRatio \< 2%. A continuación, use consultas detalladas para buscar pares de AVMCU y servidores de mediación con flujos de baja calidad, investigar la causa de las secuencias defectuosas, mirar el equipamiento de la red en las rutas de flujo deficientes, corregir secuencias defectuosas y definir una configuración óptima o "Gold" para el equipo de red. Para mantener su logro, implemente procesos y herramientas para administrar el desplazamiento de la configuración e informar sobre nuevas áreas de problemas.
 
-A continuación, examine los flujos de medios entre el servidor de mediación y la puerta de enlace de red telefónica conmutada (RTC). Para empezar, determine los destinos para los umbrales de transmisión deficientes. Las secuencias defectuosas suelen \> ser PacketLossRate .01 \> o PacketLossRateMax. 05. Otro destino deseable es \< PoorStreamsRatio 2%. A continuación, use consultas detalladas para encontrar pares de servidores de mediación y puertas de enlace con secuencias deficientes, investigar la causa de las secuencias defectuosas, mirar el equipo de red en las rutas de flujo deficientes, corregir las secuencias defectuosas y definir una configuración óptima o "Gold" para la red. Equipamiento. Para mantener su logro, implemente procesos y herramientas para administrar el desplazamiento de la configuración e informar sobre nuevas áreas de problemas.
+A continuación, examine los flujos de medios entre el servidor de mediación y la puerta de enlace de red telefónica conmutada (RTC). Para empezar, determine los destinos para los umbrales de transmisión deficientes. Las secuencias defectuosas suelen ser PacketLossRate \> .01 o PacketLossRateMax \> . 05. Otro destino deseable es PoorStreamsRatio \< 2%. A continuación, use consultas detalladas para encontrar pares de servidores de mediación y puertas de enlace con flujos de baja calidad, investigar la causa de las secuencias defectuosas, mirar el equipo de red en las rutas de flujo deficientes, corregir las transmisiones defectuosas y definir una configuración óptima o "Gold" para el equipo de red. Para mantener su logro, implemente procesos y herramientas para administrar el desplazamiento de la configuración e informar sobre nuevas áreas de problemas.
 
 Por último, examine las métricas de estado de la puerta de enlace RTC. Identificar las estadísticas que muestran el estado y definir los objetivos contra ellos. No se proporcionan instrucciones específicas porque se pueden usar muchas puertas de enlace posibles. Una vez que se hayan establecido los objetivos, corrija lo que sea necesario para lograr el destino; en el proceso, es probable que defina una configuración "Gold" o una configuración óptima para la puerta de enlace. Para mantener su logro, implemente procesos y herramientas para administrar el desplazamiento de la configuración e informar sobre nuevas áreas de problemas. Tenga en cuenta que las actualizaciones de firmware y software pueden alterar la configuración o llevarle a cambiar la definición de la configuración "Gold", por lo que debe enfocar estas actividades con cuidado.
 
@@ -143,9 +145,9 @@ Por último, examine las métricas de estado de la puerta de enlace RTC. Identif
 
 ## <a name="the-last-mile-road"></a>La carretera del último kilómetro
 
-De las dos formas en las que los clientes se conectan a la red, se espera que la conexión cableada ofrezca la calidad más alta y, en su caso, este debe ser el primer foco para los últimos problemas de kilómetros. Use la consulta cableada CQM (\_LastMile\_0 con cable) y los datos de la proporción de flujo deficiente que proporciona. Se recomienda definir un PoorStreamsRatio \< de destino del 5% para \> los sitios con transmisiones 300). Para lograr sus objetivos, corrija las subredes ordenadas de peor a mejor e implemente QoS.
+De las dos formas en las que los clientes se conectan a la red, se espera que la conexión cableada ofrezca la calidad más alta y, en su caso, este debe ser el primer foco para los últimos problemas de kilómetros. Use la consulta cableada CQM (LastMile \_ 0 con \_ cable) y los datos de la proporción de flujo deficiente que proporciona. Se recomienda definir un destino PoorStreamsRatio \< 5% for sites with \> 300 secuencias de destino). Para lograr sus objetivos, corrija las subredes ordenadas de peor a mejor e implemente QoS.
 
-Después de optimizar la calidad de las conexiones cableadas, mejorar la calidad inalámbrica es más fácil porque la infraestructura inalámbrica se basa en el núcleo con cable en cada ubicación. Las secuencias inalámbricas deficientes en un sitio con buena calidad de cable deben atribuirse a los componentes inalámbricos específicos. La consulta inalámbrica CQM (LastMile\_1\_Wireless) funciona en un intervalo de fechas y devolverá todas las secuencias inalámbricas internas de su entorno desde los clientes de Lync hacia o desde servidores de conferencias o servidores de mediación. Se recomienda definir un PoorStreamsRatio \< de destino del 5% para \> los sitios con transmisiones 300). Para lograr sus objetivos, corrija las subredes ordenadas de peor a mejor e implemente QoS.
+Después de optimizar la calidad de las conexiones cableadas, mejorar la calidad inalámbrica es más fácil porque la infraestructura inalámbrica se basa en el núcleo con cable en cada ubicación. Las secuencias inalámbricas deficientes en un sitio con buena calidad de cable deben atribuirse a los componentes inalámbricos específicos. La consulta inalámbrica CQM (LastMile \_ 1 \_ Wireless) funciona en un intervalo de fechas y devolverá todas las secuencias inalámbricas internas de su entorno desde los clientes de Lync hacia o desde servidores de conferencias o servidores de mediación. Se recomienda definir un destino PoorStreamsRatio \< 5% for sites with \> 300 secuencias de destino). Para lograr sus objetivos, corrija las subredes ordenadas de peor a mejor e implemente QoS.
 
 </div>
 
@@ -157,9 +159,9 @@ Después de optimizar la calidad de las conexiones cableadas, mejorar la calidad
 
 Comience las consultas en los puntos finales de la carretera con los auriculares y otros dispositivos que se sabe que producen calidad aceptable cuando se usan con Lync. Se recomienda un destino AvgSendListen MOS \> 3,6 para implementaciones con más de 100 secuencias.) Obtenga el destino identificando los dispositivos problemáticos y corríjalos o reemplácelos.
 
-A continuación, examine el dispositivo o el equipo que procesa el audio para las llamadas de usuario final. Una métrica de calidad de destino sugerida \<es un AudioMicGlitchRate = 1. A medida que se identifican las configuraciones de sistema óptimas para los sistemas de usuario, defina una configuración de equipo "Golden", incluidas las versiones de los controladores.
+A continuación, examine el dispositivo o el equipo que procesa el audio para las llamadas de usuario final. Una métrica de calidad de destino sugerida es un AudioMicGlitchRate \< = 1. A medida que se identifican las configuraciones de sistema óptimas para los sistemas de usuario, defina una configuración de equipo "Golden", incluidas las versiones de los controladores.
 
-Examine ahora la ruta de red que toma una secuencia de audio de un sistema de punto de conexión de Lync, lo que puede provocar una calidad de audio deficiente. Si el audio se transmite a través de una conexión VPN, es posible que vea problemas de latencia. Si un cliente de Lync interno no puede establecer un flujo de medios directo a otro cliente de Lync interno para una llamada de dos o de punto a punto, se revertirá a una ruta de acceso que retransmitirá a través de un servidor perimetral de Lync, con lo que se obtendrán problemas de latencia, así como un mayor potencial para pérdida y vibración. Le recomendamos que defina una métrica de calidad de 0% de medios a través de VPN. A medida que se corrige para lograr el destino establecido, identifique las subredes problemáticas y investigue las reglas de firewall, los forma de paquetes y otra configuración de equipamiento de red relevante.
+Examine ahora la ruta de red que toma una secuencia de audio de un sistema de punto de conexión de Lync, lo que puede provocar una calidad de audio deficiente. Si el audio se transmite a través de una conexión VPN, es posible que vea problemas de latencia. Si un cliente de Lync interno no puede establecer un flujo de medios directo a otro cliente de Lync interno para una llamada de dos o de punto a punto, revertirá a una ruta de acceso que retransmitirá a través de un servidor perimetral de Lync, con lo que se obtendrán problemas de latencia, así como un mayor potencial de pérdida y vibración. Le recomendamos que defina una métrica de calidad de 0% de medios a través de VPN. A medida que se corrige para lograr el destino establecido, identifique las subredes problemáticas y investigue las reglas de firewall, los forma de paquetes y otra configuración de equipamiento de red relevante.
 
 Los paquetes IP pueden usar el protocolo de control de transmisión (TCP) o el protocolo de datagramas de usuario (UDP). TCP es óptimo para las secuencias de datos. UDP es sin conexión y es más eficaz para los medios, ya que los mecanismos de recuperación de TCP no pueden resolver la pérdida en los medios en tiempo real. Lync siempre prefiere UDP, pero se revertirá a TCP si no se puede establecer una sesión UDP. Las sesiones multimedia a través de TCP mostrarán una calidad deficiente que a través de UDP. Se recomienda una definición de calidad de 0% de conexiones sobre TCP. A medida que se corrige para lograr el destino establecido, identifique las subredes problemáticas y investigue las reglas de firewall, los forma de paquetes y otra configuración de equipamiento de red relevante.
 
@@ -201,7 +203,7 @@ Para **mantenerlo** en el juego, indique en alto el plan de administración de s
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Guía de redes de Lync Server](https://go.microsoft.com/fwlink/p/?linkid=390677)  

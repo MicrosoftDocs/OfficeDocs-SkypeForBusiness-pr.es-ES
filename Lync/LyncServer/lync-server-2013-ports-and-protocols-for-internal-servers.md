@@ -12,20 +12,22 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f40265cf7b8fff7fd6cbf3d4f67a2fb9f558fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208797"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513407"
 ---
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Puertos y protocolos para servidores internos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Puertos y protocolos para servidores internos en Lync Server 2013
+
 
 </div>
 
@@ -96,21 +98,21 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 </tr>
 <tr class="even">
 <td><p>Servidores front-end</p></td>
-<td><p>Servicio front-end de Lync Server</p></td>
+<td><p>Servicio de Front-End de Lync Server</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>Opcionalmente lo usan los servidores Standard Edition y front-end para rutas estáticas a servicios de confianza, como los servidores de control remoto de llamadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Servidores front-end</p></td>
-<td><p>Servicio front-end de Lync Server</p></td>
+<td><p>Servicio de Front-End de Lync Server</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS)</p></td>
 <td><p>Lo usan los servidores Standard Edition y los grupos de servidores front-end para todas la comunicaciones SIP internas entre los servidores (MTLS), para las comunicaciones SIP entre el cliente y del servidor (TLS) y para las comunicaciones entre los servidores front-end y los servidores de mediación (MTLS). También se usa para las comunicaciones con el servidor de supervisión.</p></td>
 </tr>
 <tr class="even">
 <td><p>Servidores front-end</p></td>
-<td><p>Servicio front-end de Lync Server</p></td>
+<td><p>Servicio de Front-End de Lync Server</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -119,7 +121,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 </tr>
 <tr class="odd">
 <td><p>Servidores front-end</p></td>
-<td><p>Servicio front-end de Lync Server</p></td>
+<td><p>Servicio de Front-End de Lync Server</p></td>
 <td><p>135</p></td>
 <td><p>DCOM y llamada a procedimiento remoto (RPC)</p></td>
 <td><p>Se usa para operaciones basadas en DCOM como la migración de los usuarios, la sincronización del replicador de usuarios y la sincronización de la libreta de direcciones.</p></td>
@@ -371,14 +373,14 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 </tr>
 <tr class="odd">
 <td><p>Reparto</p></td>
-<td><p>Servicio front-end de Lync Server</p></td>
+<td><p>Servicio de Front-End de Lync Server</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>Se usa opcionalmente para rutas estáticas a servicios de confianza, como los servidores de control remoto de llamadas.</p></td>
 </tr>
 <tr class="even">
 <td><p>Reparto</p></td>
-<td><p>Servicio front-end de Lync Server</p></td>
+<td><p>Servicio de Front-End de Lync Server</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -400,7 +402,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 </tr>
 <tr class="odd">
 <td><p>Reparto</p></td>
-<td><p>Servicio front-end de Lync Server</p></td>
+<td><p>Servicio de Front-End de Lync Server</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>Se usa para comunicaciones internas entre servidores y para conexiones de cliente.</p></td>

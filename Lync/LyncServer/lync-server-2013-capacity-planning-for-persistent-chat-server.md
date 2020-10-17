@@ -12,20 +12,22 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f24d99a8b22c78acd32efdb5867c92a5621fe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c6bb3c7dcd8d03ffb0a57fb165fe1dba4ee933d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191253"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512807"
 ---
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Planeación de la capacidad para el servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Planeación de la capacidad para el servidor de chat persistente en Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42191253"
 
 _**Última modificación del tema:** 2012-10-05_
 
-El servidor de chat persistente puede realizar chat en tiempo real para varios usuarios que puede persistir para una recuperación y búsqueda en el futuro. A diferencia de la mensajería instantánea (mi) de grupo que se guarda en el buzón de un usuario si está configurado el historial de la conversación, una sesión del servidor de chat persistente permanece abierta más tiempo y el contenido se guarda en un servidor, junto con los mensajes, archivos, direcciones URL y otros datos que forman parte de un conversación en curso.
+El servidor de chat persistente puede realizar chat en tiempo real para varios usuarios que puede persistir para una recuperación y búsqueda en el futuro. A diferencia de la mensajería instantánea (mi) de grupo que se guarda en el buzón de un usuario si está configurado el historial de la conversación, una sesión del servidor de chat persistente permanece abierta más tiempo y el contenido se guarda en un servidor, junto con los mensajes, archivos, direcciones URL y otros datos que forman parte de una conversación en curso.
 
 La planeación de la capacidad es una parte importante de la preparación para implementar el servidor de chat persistente. En este tema se proporcionan detalles sobre las topologías de servidor de chat persistente admitidas y las tablas de planeación de capacidad que puede usar para determinar la mejor configuración para su implementación. También se describe cómo administrar mejor las implementaciones del servidor de chat persistente que requieren mayor capacidad en horas punta.
 
-Para descargar el servidor de chat persistente, consulte "servidor de chat persistente de Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)Server 13" en.
+Para descargar el servidor de chat persistente, consulte "servidor de chat persistente de Microsoft Lync Server 13" en [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539) .
 
 Para obtener información detallada sobre la instalación del servidor de chat persistente, vea [Installing persistent chat Server in Lync server 2013](lync-server-2013-installing-persistent-chat-server.md) y [Configuring persistent chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) en la documentación sobre implementación.
 
@@ -69,7 +71,7 @@ Ahora también se admite el servidor de chat persistente en un servidor Standard
 
 ## <a name="single-server-topology"></a>Topología de un solo servidor
 
-La configuración mínima y la implementación más sencilla para el servidor de chat persistente son una única topología de servidor front-end de chat persistente. Esta implementación requiere un único servidor que ejecute el servidor de chat persistente (que, opcionalmente, ejecuta el servicio de cumplimiento, si el cumplimiento está habilitado), un servidor que hospede la base de datos de SQL Server y, si es necesario el cumplimiento normativo, la base de datos de SQL Server para almacenar el datos de cumplimiento.
+La configuración mínima y la implementación más sencilla para el servidor de chat persistente son una única topología de servidor front-end de chat persistente. Esta implementación requiere un único servidor que ejecute el servidor de chat persistente (que, opcionalmente, ejecuta el servicio de cumplimiento, si el cumplimiento está habilitado), un servidor que hospede tanto la base de datos de SQL Server, como si se requiere el cumplimiento normativo, la base de datos de SQL Server donde se almacenarán los datos de cumplimiento.
 
 <div>
 
@@ -188,10 +190,10 @@ La siguiente tabla de ejemplo puede ayudarle a planificar la administración del
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Salones de chat</p></td>
+<td><p>Salas de chat</p></td>
 <td><p>32.000</p></td>
 <td><p>1.067</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>33.077</p></td>
 </tr>
 <tr class="odd">
@@ -212,21 +214,21 @@ La siguiente tabla de ejemplo puede ayudarle a planificar la administración del
 <td><p>Salas abiertas (no hay pertenencia explícita)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>Salones no abiertos (salas normales con pertenencia explícita)</p></td>
 <td><p>31.040</p></td>
 <td><p>1,035</p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>32.080</p></td>
 </tr>
 <tr class="odd">
 <td><p>Salones de auditorio (entrada de moderadores adicionales)</p></td>
 <td><p>comprendi</p></td>
 <td><p>32</p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -239,7 +241,7 @@ La siguiente tabla de ejemplo puede ayudarle a planificar la administración del
 <tr class="odd">
 <td><p>Salones administrados por grupos de usuarios</p></td>
 <td><p>50%</p></td>
-<td><p>90%</p></td>
+<td><p>90 %</p></td>
 <td><p>100 %</p></td>
 <td></td>
 </tr>
@@ -260,8 +262,8 @@ La siguiente tabla de ejemplo puede ayudarle a planificar la administración del
 <tr class="even">
 <td><p>Grupos de usuarios en la lista de pertenencia de cada salón de chat para salas no abiertas</p></td>
 <td><p>3</p></td>
-<td><p>2,5</p></td>
-<td><p>10 </p></td>
+<td><p>5 </p></td>
+<td><p>10  </p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -316,8 +318,8 @@ La siguiente tabla de ejemplo puede ayudarle a planificar la administración del
 <tr class="even">
 <td><p>Salones de chat por usuario</p></td>
 <td><p><em>12</em></p></td>
-<td><p><em>segundo</em></p></td>
-<td><p><em>segundo</em></p></td>
+<td><p><em>2</em></p></td>
+<td><p><em>2</em></p></td>
 <td><p><em>16</em></p></td>
 </tr>
 <tr class="odd">
@@ -515,7 +517,7 @@ Los datos de ejemplo de la siguiente tabla asumen que, en la página de **config
 <tr class="odd">
 <td><p>Tasa de chat por usuario y día</p></td>
 <td><p>15 </p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>0,1</p></td>
 <td><p>20</p></td>
 </tr>
@@ -559,7 +561,7 @@ En la tabla siguiente se describe el modelo de usuario para el servidor de chat 
 </tr>
 <tr class="even">
 <td><p>Número de instancias de servicio del servidor de chat persistente</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Tamaño de salones de chat pequeños</p></td>
@@ -587,7 +589,7 @@ En la tabla siguiente se describe el modelo de usuario para el servidor de chat 
 </tr>
 <tr class="odd">
 <td><p>Número de salones de chat grandes</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 </tr>
 <tr class="even">
 <td><p>Cantidad total de salones de chat por usuario</p></td>
@@ -595,7 +597,7 @@ En la tabla siguiente se describe el modelo de usuario para el servidor de chat 
 </tr>
 <tr class="odd">
 <td><p>Número de salones de chat pequeños por usuario</p></td>
-<td><p>12</p></td>
+<td><p>12 </p></td>
 </tr>
 <tr class="even">
 <td><p>Número de salones de chat medianos por usuario</p></td>
@@ -667,7 +669,7 @@ En la tabla siguiente se describe el modelo de usuario para el servidor de chat 
 </tr>
 <tr class="odd">
 <td><p>Longitud del intervalo de sondeo</p></td>
-<td><p>5 minutos</p></td>
+<td><p>5 minutos</p></td>
 </tr>
 <tr class="even">
 <td><p>Número de participantes sondeados por segundo</p></td>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: get-CsWebServiceConfiguration para la administración de la libreta de direcciones'
+title: 'Lync Server 2013: Get-CsWebServiceConfiguration para la administración de la libreta de direcciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc131bdcd4713b4bdf5971825675dc770da8ec3f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 143b4964de91c10f2fce0272d6e882ff68c9f862
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213956"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512637"
 ---
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsWebServiceConfiguration para la administración de la libreta de direcciones en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsWebServiceConfiguration para la administración de la libreta de direcciones en Lync Server 2013
+
 
 </div>
 

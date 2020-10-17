@@ -12,20 +12,22 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce25a61ef74c38b5455b7b8d437b43d24e12397e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 087cfed02e3b28df88508446c57e451f42ef067c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206758"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513007"
 ---
+# <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Procedimientos recomendados para la infraestructura básica en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Procedimientos recomendados para la infraestructura básica en Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Es probable que ya haya tomado las medidas necesarias para diseñar la toleranci
 
 Para ayudar a proteger los servidores de la implementación de Lync Server 2013 de daños accidentales o intencionados que puedan provocar un tiempo de inactividad, adopte las siguientes precauciones:
 
-  - Mantenga los servidores actualizados con las actualizaciones de seguridad. Al suscribirse al Servicio de notificación de seguridad de Microsoft (Microsoft Security Notification Service), se garantiza que recibirá notificación inmediata de las nuevas versiones de los boletines de seguridad de los productos de Microsoft. Para suscribirse, vaya al sitio web de notificaciones de seguridad [https://go.microsoft.com/fwlink/p/?LinkId=145202](https://go.microsoft.com/fwlink/p/?linkid=145202)técnica de Microsoft en.
+  - Mantenga los servidores actualizados con las actualizaciones de seguridad. Al suscribirse al Servicio de notificación de seguridad de Microsoft (Microsoft Security Notification Service), se garantiza que recibirá notificación inmediata de las nuevas versiones de los boletines de seguridad de los productos de Microsoft. Para suscribirse, vaya al sitio web de notificaciones de seguridad técnica de Microsoft en [https://go.microsoft.com/fwlink/p/?LinkId=145202](https://go.microsoft.com/fwlink/p/?linkid=145202) .
 
   - Asegúrese de que los derechos de acceso estén correctamente configurados.
 

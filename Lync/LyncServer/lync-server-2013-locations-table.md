@@ -12,20 +12,22 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d93300acda297a026af03070680825899a608d86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 948581815b6e38fd08b47a95ea7176a694879e96
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186413"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513787"
 ---
+# <a name="locations-table-in-lync-server-2013"></a>Tabla Locations in Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="locations-table-in-lync-server-2013"></a>Tabla Locations in Lync Server 2013
+
 
 </div>
 
@@ -59,17 +61,17 @@ Cada registro representa una referencia de ubicación en una llamada de emergenc
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Principal, Externa</p></td>
+<td><p>Principal, Exterior</p></td>
 <td><p>Hora de la solicitud de sesión. Se usa junto con <strong>SessionIdSeq</strong> para identificar una sesión de manera exclusiva. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal, Exterior</p></td>
 <td><p>Número del identificador para identificar la sesión. Se usa en combinación con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ubicación</strong></p></td>
+<td><p><strong>Location</strong></p></td>
 <td><p>nvarchar (Max)</p></td>
 <td></td>
 <td><p>Ubicación de una llamada de emergencia.</p></td>

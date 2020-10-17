@@ -12,20 +12,22 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d53797c490ba53872786311b51e310e6400addf5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aae84d208df1d7c2945fee641b243bf7110902c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513197"
 ---
+# <a name="protecting-iis-in-lync-server-2013"></a>Proteger IIS en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="protecting-iis-in-lync-server-2013"></a>Proteger IIS en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2013-12-05_
 
 En Microsoft Office Communications Server 2007 y Microsoft Office Communications Server 2007 R2, Internet Information Services (IIS) se ejecutó con una cuenta de usuario estándar. Esto podía provocar problemas: si la contraseña expiraba, se podían perder los servicios web, un problema que a menudo era difícil de diagnosticar. Para evitar un problema de expiración de contraseñas, Microsoft Lync Server 2013 permite crear una cuenta de equipo (para un equipo que no existe realmente) que puede servir como entidad de autenticación para todos los equipos de un sitio que ejecutan IIS. Dado que estas cuentas usan el protocolo de autenticación Kerberos, se llaman cuentas Kerberos, mientras que el nuevo proceso de autenticación se denomina autenticación web Kerberos. Esto le permite administrar todos sus servidores IIS usando una sola cuenta.
 
-Para ejecutar los servidores con esta entidad de seguridad de autenticación, antes debe crear una cuenta de equipo usando el cmdlet New-CsKerberosAccount; a continuación, esta cuenta se asigna a uno o más sitios. Una vez realizada la asignación, se habilita la asociación entre la cuenta y el sitio de Lync Server 2013 mediante la ejecución del cmdlet enable-CsTopology. Esta acción crea, entre otras cosas, el nombre de entidad de seguridad de servicio (SPN) necesario en los servicios de dominio de Active Directory (AD DS). Los SPN ofrecen un modo para que las aplicaciones cliente ubiquen un servicio concreto. Para obtener más información, consulte [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) en la documentación de operaciones.
+Para ejecutar los servidores con esta entidad de seguridad de autenticación, antes debe crear una cuenta de equipo usando el cmdlet New-CsKerberosAccount; a continuación, esta cuenta se asigna a uno o más sitios. Una vez realizada la asignación, se habilita la asociación entre la cuenta y el sitio de Lync Server 2013 ejecutando el cmdlet Enable-CsTopology. Esta acción crea, entre otras cosas, el nombre de entidad de seguridad de servicio (SPN) necesario en los servicios de dominio de Active Directory (AD DS). Los SPN ofrecen un modo para que las aplicaciones cliente ubiquen un servicio concreto. Para obtener más información, consulte [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) en la documentación de operaciones.
 
 <div>
 

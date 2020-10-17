@@ -12,20 +12,22 @@ ms:contentKeyID: 48183777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cb0a0770136fa5b9d61f80825e49d319f872f32
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac236e08f79adbe1ec7cbe92ea04405de46d0055
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215176"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512227"
 ---
+# <a name="purgesettings-table-qoe-in-lync-server-2013"></a>Tabla PurgeSettings (QoE) en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="purgesettings-table-qoe-in-lync-server-2013"></a>Tabla PurgeSettings (QoE) en Lync Server 2013
+
 
 </div>
 
@@ -62,7 +64,7 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 <tbody>
 <tr class="odd">
 <td><p><strong>Id.</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Identificador único para la colección de valores de depuración de QoE.</p></td>
 </tr>
@@ -74,13 +76,13 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 </tr>
 <tr class="odd">
 <td><p><strong>KeepQoEDataForDays</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Especifica la antigüedad de los registros de QoE (en días) que se depurarán desde la base de datos: si la depuración está habilitada, se eliminarán de la base de datos los registros de QoE anteriores a este valor. El valor predeterminado es 60 días.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PurgeHour</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Especifica la hora local del día en la que tendrá lugar la depuración de la base de datos. La hora del día se especifica con el formato de 24 horas, donde 0 representa la media noche (12:00 AM) y 23 representa las 11:00 PM. Tenga en cuenta que solo puede especificar la hora del día: se permite un valor de 10 (indicando 10:00 *AM) pero no se permite un valor de 10:30 de 10.5 (indicando 10:30 AM). El valor predeterminado es 1 (1:00 AM). Especifica la hora local del día en que tendrá lugar la depuración de la base de datos. La hora del día se especifica mediante un reloj de 24 horas, representando el 0 la medianoche (12:00 AM) y el 23, las 11:00 PM. Tenga en cuenta que solo puede especificar la hora del día: se permite un valor de 10 (que indica 10:00 AM) pero no se permite un valor de 10:30 de 10.5 (que indica 10:30 AM). El valor predeterminado es 1 (1:00 AM).</p></td>
 </tr>

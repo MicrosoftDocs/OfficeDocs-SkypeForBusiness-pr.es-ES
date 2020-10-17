@@ -12,20 +12,22 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c68855f3f0ae36e0934959b820dc84a716cf2a51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c92adf48a09f83c3c3dec18f91e4aadc3a3cbd39
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513237"
 ---
+# <a name="progressreport-table-in-lync-server-2013"></a>Tabla ProgressReport en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-table-in-lync-server-2013"></a>Tabla ProgressReport en Lync Server 2013
+
 
 </div>
 
@@ -61,44 +63,44 @@ Los campos ErrorTime, ErrorReportSeq y ProgressReportSeq no se refieren necesari
 <tr class="odd">
 <td><p><strong>Campos errortime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Principal, Externa</p></td>
+<td><p>Principal, Exterior</p></td>
 <td><p>Fecha y hora del informe de errores de progreso que contiene este informe de progreso. Consulte la <a href="lync-server-2013-errorreport-table.md">tabla errorreport en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ErrorId</strong></p></td>
-<td><p>int</p></td>
-<td><p>Principal, Externa</p></td>
+<td><p>entero</p></td>
+<td><p>Principal, Exterior</p></td>
 <td><p>Número de identificación usado junto con ErrorTime, ProgressReportSeq para identificar de manera única un informe de progreso. Consulte la <a href="lync-server-2013-errorreport-table.md">tabla errorreport en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ErrorReportSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal, Exterior</p></td>
 <td><p>Número de id. que identifica el informe de errores. ErrorReporSeq se usa junto con ErrorTime para identificar de manera única un informe de errores. Consulte la <a href="lync-server-2013-errorreport-table.md">tabla errorreport en Lync Server 2013</a> para obtener más información</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ProgressReportSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Número de identificación usado para identificar el informe de progreso. Se utiliza junto con ErrorTime y ErrorReportSeq para identificar de manera única un informe de progreso.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Id. de diagnóstico del informe de progreso.</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SourceId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Servidor que ha enviado el informe de errores (si el informe se envió desde un componente de servidor). Consulte la <a href="lync-server-2013-servers-table.md">tabla servidores en Lync Server 2013</a> para obtener más información. Este campo se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>El proceso de Lync Server al que se refiere el informe. Vea la tabla de aplicaciones para obtener más información.</p></td>
 </tr>
@@ -118,7 +120,7 @@ Los campos ErrorTime, ErrorReportSeq y ProgressReportSeq no se refieren necesari
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Tiempo (en milisegundos) para que un componente específico se una a una conferencia.</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>

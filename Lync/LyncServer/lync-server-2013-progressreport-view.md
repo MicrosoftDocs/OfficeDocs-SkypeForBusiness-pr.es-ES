@@ -12,20 +12,22 @@ ms:contentKeyID: 49733790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac09e1b22e4807b039daf4b5da4778a54cb91d4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 492f7f5e34631de5ff843a00dd3fdf75b6f32f00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201796"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513227"
 ---
+# <a name="progressreport-view-in-lync-server-2013"></a>Vista ProgressReport en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-view-in-lync-server-2013"></a>Vista ProgressReport en Lync Server 2013
+
 
 </div>
 
@@ -71,17 +73,17 @@ La vista ProgressReport almacena información sobre las sesiones finalizadas. So
 </tr>
 <tr class="even">
 <td><p><strong>ErrorReportSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número para identificar el error. Se usa junto con ErrorTime como identificación única de un error.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ProgressReportSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Identificador del informe de progreso. Se usa para diferenciar informes de progreso del mismo informe de errores.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MsDiagId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Identificador de diagnóstico del informe de errores.</p></td>
 </tr>
 <tr class="odd">
@@ -101,7 +103,7 @@ La vista ProgressReport almacena información sobre las sesiones finalizadas. So
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Tiempo (en milisegundos) necesario para que un componente específico se una a las conferencias.</p></td>
 </tr>
 <tr class="odd">

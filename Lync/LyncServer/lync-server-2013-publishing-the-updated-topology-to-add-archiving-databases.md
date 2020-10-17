@@ -12,20 +12,22 @@ ms:contentKeyID: 48184034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff09dc330c7194ebe3657220c20a6138dc2f9a4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5834c6c7d0386f7943c523a184ea63f8ba129a89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512247"
 ---
+# <a name="publishing-the-updated-topology-to-add-archiving-databases-in-lync-server-2013"></a>Publicación de la topología actualizada para agregar bases de datos de archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publishing-the-updated-topology-to-add-archiving-databases-in-lync-server-2013"></a>Publicación de la topología actualizada para agregar bases de datos de archivado en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Después de actualizar la topología en el generador de topologías, debe public
     
 
     > [!NOTE]  
-    > Puede definir una topología con una cuenta que sea miembro del grupo de usuarios locales, pero para publicar una topología, que es necesaria para agregar un servidor a la topología. debe usar una cuenta que sea miembro del grupo <STRONG>administradores de dominio</STRONG> y del grupo <STRONG>RTCUniversalServerAdmins</STRONG> , y que tenga permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Lync Server 2013 (es decir, el generador de topología puede configurar la lista de control de acceso discrecional (DACL) requerida. o una cuenta con derechos equivalentes.
+    > Puede definir una topología con una cuenta que sea miembro del grupo de usuarios locales, pero para publicar una topología, que es necesaria para agregar un servidor a la topología, debe usar una cuenta que sea miembro del grupo administradores de dominio y del grupo <STRONG>RTCUniversalServerAdmins</STRONG> de <STRONG>dominio</STRONG> , y que tiene permisos de control total (es decir, de lectura, escritura y modificación) en el recurso compartido de archivos que usa para el almacén de archivos de Lync Server 2013 (es decir, el generador de topologías puede configurar la lista de control de acceso discrecional (DACL) necesaria o una cuenta con derechos equivalentes.
 
     
     </div>

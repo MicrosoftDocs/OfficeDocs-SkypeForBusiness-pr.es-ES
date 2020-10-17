@@ -12,20 +12,22 @@ ms:contentKeyID: 63969586
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc20882362de83a83d60be4c2a70a092df2e603b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: efef66bcac833bb67c67dc453c25f3e0f6d51ba1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198443"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512857"
 ---
+# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Administración de la capacidad y la disponibilidad en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Administración de la capacidad y la disponibilidad en Lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ El propósito de la administración de la capacidad y la administración de la d
 
 La administración de la capacidad implica la planeación, el ajuste de tamaño y el control de la capacidad del servicio para ayudar a garantizar que se superen los niveles de rendimiento mínimos especificados en el SLA. Una buena administración de la capacidad contribuye a garantizar que puede proporcionar servicios de ti a un coste razonable y seguir cumpliendo los niveles de rendimiento definidos en los SLAs con el cliente. Estos criterios pueden incluir lo siguiente:
 
-  - **Tiempo de respuesta del sistema**   es el tiempo que tarda el sistema en realizar las acciones típicas. Algunos ejemplos son el tiempo necesario para que el rol de servidor de audio y vídeo procese el tráfico de audio y vídeo, el tiempo necesario para que un cliente cree y se una a una conferencia, o el tiempo que se tarda en actualizar la presencia en todos los clientes de monitor.
+  - Tiempo de respuesta **del sistema**     Se trata del tiempo medido que el sistema lleva a cabo acciones típicas. Algunos ejemplos son el tiempo necesario para que el rol de servidor de audio y vídeo procese el tráfico de audio y vídeo, el tiempo necesario para que un cliente cree y se una a una conferencia, o el tiempo que se tarda en actualizar la presencia en todos los clientes de monitor.
 
-  - **Capacidad de almacenamiento**   esta es la capacidad de un sistema de almacenamiento, ya sea una base de datos de contenido, un dispositivo de copia de seguridad o una unidad local. Algunos ejemplos son la cantidad máxima de espacio de almacenamiento que se debe proporcionar por sitio y el tiempo que se almacenan las copias de seguridad antes de que se sobrescriban.
+  - **Capacidad**     de almacenamiento Esta es la capacidad de un sistema de almacenamiento, ya sea una base de datos de contenido, un dispositivo de copia de seguridad o una unidad local. Algunos ejemplos son la cantidad máxima de espacio de almacenamiento que se debe proporcionar por sitio y el tiempo que se almacenan las copias de seguridad antes de que se sobrescriban.
 
 El ajuste de la capacidad suele ser un caso para asegurarse de que haya suficientes recursos físicos disponibles, como espacio en disco y ancho de banda de la red. En la siguiente tabla se enumeran las soluciones típicas para problemas relacionados con la capacidad.
 
@@ -83,9 +85,9 @@ La capacidad se ve afectada por la configuración del sistema y depende de los r
 
 La administración de la capacidad es el proceso de mantener la capacidad de un sistema dentro de los niveles aceptables y resuelve los problemas siguientes:
 
-  - **Reaccionar ante los cambios en los**   requisitos de capacidad se deben ajustar los requisitos de capacidad para tener en cuenta los cambios en el sistema o la organización. Por ejemplo, si su entorno decide implementar la telefonía IP empresarial, la cantidad y la ubicación de los servidores de mediación y las puertas de enlace de la red telefónica conmutada (RTC) serán muy importantes. Si va a realizar un enlace troncal del Protocolo de inicio de sesión (SIP) o un SIP directo, el diseño general se cambiará significativamente para proporcionar el mejor rendimiento de la telefonía IP empresarial.
+  - **Reaccionar ante los cambios en los requisitos**     Los requisitos de capacidad deben ajustarse para tener en cuenta los cambios en el sistema o la organización. Por ejemplo, si su entorno decide implementar la telefonía IP empresarial, la cantidad y la ubicación de los servidores de mediación y las puertas de enlace de la red telefónica conmutada (RTC) serán muy importantes. Si va a realizar un enlace troncal del Protocolo de inicio de sesión (SIP) o un SIP directo, el diseño general se cambiará significativamente para proporcionar el mejor rendimiento de la telefonía IP empresarial.
 
-  - **Predecir los requisitos**   futuros algunos requisitos de capacidad cambian de forma predecible con el tiempo. Al realizar un seguimiento de las tendencias, puede planear actualizaciones por adelantado. Por ejemplo, el ancho de banda disponible entre varios sitios de Lync debe supervisarse para crear una línea base. Esta línea base le permitirá predecir cuándo tiene que agregar más ancho de banda a estos vínculos, ya que el recuento de usuarios en estos sitios remotos aumenta con el tiempo.
+  - **Predecir los requisitos futuros**     Algunos requisitos de capacidad cambian de forma predecible a lo largo del tiempo. Al realizar un seguimiento de las tendencias, puede planear actualizaciones por adelantado. Por ejemplo, el ancho de banda disponible entre varios sitios de Lync debe supervisarse para crear una línea base. Esta línea base le permitirá predecir cuándo tiene que agregar más ancho de banda a estos vínculos, ya que el recuento de usuarios en estos sitios remotos aumenta con el tiempo.
 
 </div>
 
@@ -99,23 +101,23 @@ Si tiene que proporcionar informes a su administración sobre la disponibilidad 
 
 Las medidas relacionadas con la disponibilidad son las siguientes:
 
-  - **Disponibilidad**   suele expresarse como el momento en que se puede tener acceso a un sistema o servicio en comparación con el tiempo que está inactivo. Normalmente se expresa como un porcentaje. (Es posible que vea referencias a "tres nueves" o "cinco nueves". Estos hacen referencia a la disponibilidad de 99,9 por ciento o el 99,999 por ciento.)
+  - **Disponibilidad**     Normalmente, esto se expresa como la hora a la que se puede tener acceso a un sistema o servicio en comparación con el momento en que está inactivo. Normalmente se expresa como un porcentaje. (Es posible que vea referencias a "tres nueves" o "cinco nueves". Estos hacen referencia a la disponibilidad de 99,9 por ciento o el 99,999 por ciento.)
 
-  - **Confiabilidad**   es una medida del tiempo entre errores de un sistema y a veces se expresa como media (o media) tiempo entre errores (MTBF).
+  - **Confiabilidad**     Se trata de una medida del tiempo entre errores de un sistema y a veces se expresa como media (o media) tiempo entre errores (MTBF).
 
-  - **Tiempo de reparación**   es el tiempo que se tarda en recuperar un servicio cuando se ha producido un error y suele expresarse como media (lo que significa promedio) tiempo de reparación (MTTR).
+  - **Tiempo de reparación**     Este es el tiempo que se tarda en recuperar un servicio después de que se haya producido un error y que a menudo se expresa como media (que significa promedio) de tiempo de reparación (MTTR).
 
 La disponibilidad, la confiabilidad y el tiempo de reparación se relacionan de la siguiente manera:
 
-**Disponibilidad = (MTBF – MTTR)/MTBF**   por ejemplo, si se produce un error en un servidor dos veces durante un período de seis meses y no está disponible durante un promedio de 20 minutos, la MTBF es de tres meses o 90 días y el MTTR es de 20 minutos. Por lo tanto, Availability = (90 días – 20 minutos)/90 días = 99,985 por ciento.
+**Disponibilidad = (MTBF – MTTR)/MTBF**     Por ejemplo, si se produce un error en un servidor dos veces durante un período de seis meses y no está disponible durante un promedio de 20 minutos, la MTBF es de tres meses o 90 días y el MTTR es de 20 minutos. Por lo tanto, Availability = (90 días – 20 minutos)/90 días = 99,985 por ciento.
 
 La administración de la disponibilidad es el proceso de garantizar que la disponibilidad se maximice y se mantenga dentro de los parámetros definidos en los SLA. La administración de la disponibilidad incluye los siguientes procesos:
 
-  - **Supervisión**     : se examina Cuándo y durante cuánto tiempo los servicios no están disponibles.
+  - **Supervisión**     Examinar Cuándo y durante cuánto tiempo los servicios no están disponibles.
 
-  - **Los informes**   de las cifras de disponibilidad deben proporcionarse con regularidad a los equipos de administración, usuarios y operaciones. Estos informes deben resaltar tendencias e identificar las áreas que están haciendo bien y las que requieren atención. El informe debe resumir el cumplimiento de los objetivos establecidos en los SLA.
+  - **Informes**     Las cifras de disponibilidad deben proporcionarse con regularidad a los equipos de administración, usuarios y operaciones. Estos informes deben resaltar tendencias e identificar las áreas que están haciendo bien y las que requieren atención. El informe debe resumir el cumplimiento de los objetivos establecidos en los SLA.
 
-  - **Mejora**   si la disponibilidad no cumple con los objetivos definidos en los SLAs o donde la tendencia es a reducir la disponibilidad, el proceso de administración de la disponibilidad debe planear los pasos necesarios para los remedios. Esto debe incluir trabajar con otros equipos responsables para resaltar los motivos de las interrupciones y planear las acciones correctivas para evitar una reaparición de las interrupciones.
+  - **Mejora**     Si la disponibilidad no cumple con los objetivos definidos en los SLAs o donde la tendencia es a reducir la disponibilidad, el proceso de administración de la disponibilidad debe planear los pasos necesarios para los remedios. Esto debe incluir trabajar con otros equipos responsables para resaltar los motivos de las interrupciones y planear las acciones correctivas para evitar una reaparición de las interrupciones.
 
 Las medidas de capacidad y disponibilidad son tareas repetitivas que resultan adecuadas para las herramientas automatizadas y scripts como Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager), que se describen más adelante en este documento.
 
@@ -123,7 +125,7 @@ Las medidas de capacidad y disponibilidad son tareas repetitivas que resultan ad
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Supervisión de Lync Server 2013 con System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)  

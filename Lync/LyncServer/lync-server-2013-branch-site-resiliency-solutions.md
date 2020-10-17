@@ -12,20 +12,22 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42ede6730357f50967f13089e02e32ad1a21d8ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 25541f7681ece7b299d6e4c8076fb190382650ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512987"
 ---
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Soluciones de resistencia de sitios de sucursal en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Soluciones de resistencia de sitios de sucursal en Lync Server 2013
+
 
 </div>
 
@@ -61,14 +63,14 @@ Si decide proporcionar resistencia en las sucursales, tiene tres maneras de hace
 <td><p>Hospeda entre 25 y 1000 usuarios en la sucursal y no compensa una implementación completa o no se dispone de asistencia administrativa local</p></td>
 <td><p>Aplicación de sucursal con funciones de supervivencia</p>
 <p>La aplicación de sucursal con funciones de supervivencia es un servidor blade estándar de la industria con un registrador de Lync Server y un servidor de mediación que se ejecuta en Windows Server 2008 R2. La aplicación de sucursal con funciones de supervivencia también contiene una puerta de enlace de red telefónica conmutada (RTC). Los dispositivos de otros fabricantes calificados (desarrollados por socios de Microsoft en el programa de certificación/calificación de aplicación de sucursal con funciones de supervivencia [SBA]) ofrecen una conexión RTC ininterrumpida en caso de que se produzca un error de WAN, aunque este enfoque no proporciona presencia y conferencia resistentes, ya que ambas características dependen de los servidores front-end del sitio central.</p>
-<p>Para obtener más información sobre las aplicaciones de sucursal &quot;con funciones de supervivencia, consulte&quot; detalles de aplicación de sucursal con funciones de supervivencia, más adelante en este tema.</p>
+<p>Para obtener más información sobre las aplicaciones de sucursal con funciones de supervivencia, consulte &quot; detalles de aplicación de sucursal con funciones de supervivencia, &quot; más adelante en este tema.</p>
 <p><strong>Nota:</strong> Si decide usar también un tronco SIP con la aplicación de sucursal con funciones de supervivencia, póngase en contacto con el proveedor de la aplicación de sucursal con funciones de supervivencia para obtener información sobre qué proveedor de servicios es el mejor para su organización.</p></td>
 </tr>
 <tr class="even">
 <td><p>Host entre los usuarios de 1000 y 2000 en su sitio de sucursal, carecen de una conexión WAN resistente y tienen los administradores de Lync Server capacitados disponibles</p></td>
 <td><p>Servidor de sucursal con funciones de supervivencia o dos aplicaciones de sucursal con funciones de supervivencia.</p>
 <p>El servidor de sucursal con funciones de supervivencia es un servidor de Windows Server que cumple los requisitos de hardware especificados que tiene instalado el software del servidor de mediación y el registrador de Lync Server. Debe conectarse a una puerta de enlace RTC o a un tronco SIP hacia un proveedor de servicios telefónicos.</p>
-<p>Para obtener más información sobre los servidores de sucursal &quot;con funciones de supervivencia, vea&quot; detalles del servidor de sucursal con funciones de supervivencia, más adelante en este tema.</p></td>
+<p>Para obtener más información sobre los servidores de sucursal con funciones de supervivencia, vea &quot; detalles del servidor de sucursal con funciones de supervivencia, &quot; más adelante en este tema.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Si necesita características de presencia y Conferencia además de las características de voz para un máximo de 5000 usuarios y tiene los administradores de Lync Server capacitados disponibles</p></td>
@@ -187,7 +189,7 @@ En el generador de topologías, cree el sitio de sucursal, agregue el servidor d
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md)  

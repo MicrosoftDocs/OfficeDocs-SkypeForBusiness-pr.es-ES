@@ -12,20 +12,22 @@ ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e5e301b2cfe386fe70888174abc7e0e9d0bbe05
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f65e7d210c069a5b629e0fbf093e3abea291ce6a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206466"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513027"
 ---
+# <a name="best-practices-for-lync-server-2013-environments"></a>Procedimientos recomendados para entornos de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-lync-server-2013-environments"></a>Procedimientos recomendados para entornos de Lync Server 2013
+
 
 </div>
 
@@ -39,15 +41,15 @@ _**Última modificación del tema:** 2014-08-04_
 
 Se deben aplicar los siguientes principios generales a las operaciones en curso del sistema:
 
-  - **Comprender y utilizar MOF**   MOF es una colección de procedimientos recomendados, principios y modelos que proporcionan orientación técnica a las organizaciones sobre la administración de activos de ti, como las operaciones diarias de Lync Server 2013. Las siguientes instrucciones de MOF pueden ayudarle a conseguir confiabilidad, disponibilidad, compatibilidad y capacidad de administración de sistemas de producción críticos para los productos de Microsoft. Para obtener más información, consulte [Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939).
+  - **Comprender y usar MOF**     MOF es una colección de procedimientos recomendados, principios y modelos que proporcionan orientación técnica a las organizaciones sobre la administración de activos de ti, como las operaciones diarias de Lync Server 2013. Las siguientes instrucciones de MOF pueden ayudarle a conseguir confiabilidad, disponibilidad, compatibilidad y capacidad de administración de sistemas de producción críticos para los productos de Microsoft. Para obtener más información, consulte [Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939).
 
-  - **Obtenga información sobre los procedimientos recomendados para Lync Server 2013**   le recomendamos que implemente procedimientos prácticos y probados para administrar Lync Server 2013. El uso de métodos probados, probados y documentados de administración de operaciones puede resultar más eficaz que el desarrollo de sus propios métodos.
+  - **Obtenga información sobre los procedimientos recomendados para Lync Server 2013**     Le recomendamos que implemente procedimientos prácticos y probados para administrar Lync Server 2013. El uso de métodos probados, probados y documentados de administración de operaciones puede resultar más eficaz que el desarrollo de sus propios métodos.
 
-  - **Las operaciones independientes en procesos**   diarios, semanales y mensuales documentan las tareas operativas necesarias que se realizarán con regularidad. La documentación sobre cómo realizar tareas ayuda a asegurarse de que la información se conserva cuando hay un cambio en el entorno operativo, como cuando se implementan nuevas tecnologías o cuando se producen cambios en el personal. Se recomienda que las tareas operativas se separan en cargas de trabajo fáciles de administrar, en las que las tareas se realizan diariamente, semanalmente y mensualmente. Las tareas diarias podrían centrar esfuerzos en el funcionamiento de un sistema, y las tareas mensuales se centrarían más en asegurar el mantenimiento a largo plazo de un sistema.
+  - **Separar operaciones en procesos diarios, semanales y mensuales**     Documente las tareas operativas necesarias que realizará con regularidad. La documentación sobre cómo realizar tareas ayuda a asegurarse de que la información se conserva cuando hay un cambio en el entorno operativo, como cuando se implementan nuevas tecnologías o cuando se producen cambios en el personal. Se recomienda que las tareas operativas se separan en cargas de trabajo fáciles de administrar, en las que las tareas se realizan diariamente, semanalmente y mensualmente. Las tareas diarias podrían centrar esfuerzos en el funcionamiento de un sistema, y las tareas mensuales se centrarían más en asegurar el mantenimiento a largo plazo de un sistema.
     
     Este documento se puede usar en entornos que implementan solo componentes de mensajería instantánea y presencia (IM/P) o mensajería instantánea/P con Enterprise Voice. Cuando las tareas o los elementos de lista de comprobación son específicos de Enterprise Voice, esto se menciona y, si el entorno no incluye la telefonía IP empresarial, es posible que se omita la parte.
 
-  - **Implementar las herramientas necesarias para el funcionamiento de Lync Server 2013**   muchas herramientas están disponibles para ayudar a solucionar problemas, automatizar tareas y ayudar a supervisar y mantener el entorno de Lync Server 2013. Definir un conjunto estándar de herramientas para su organización, de modo que las tareas realizadas por el equipo de operaciones se realicen de forma precisa, eficiente, coherente y controlada. También debe implementar procesos para realizar un seguimiento de incidentes y cambios de configuración importantes.
+  - **Implementar las herramientas necesarias para el funcionamiento de Lync Server 2013**     Hay muchas herramientas disponibles para ayudar a solucionar problemas, automatizar tareas y ayudar a supervisar y mantener el entorno de Lync Server 2013. Definir un conjunto estándar de herramientas para su organización, de modo que las tareas realizadas por el equipo de operaciones se realicen de forma precisa, eficiente, coherente y controlada. También debe implementar procesos para realizar un seguimiento de incidentes y cambios de configuración importantes.
 
 <div>
 
@@ -59,19 +61,19 @@ Los procedimientos recomendados son recomendaciones que se basan en el conocimie
 
 Las tareas típicas para los administradores de Lync son las siguientes:
 
-  - **La administración**   de la capacidad y la disponibilidad definen cómo y qué se debe medir para predecir los requisitos futuros de capacidad y para informar sobre la capacidad, la confiabilidad y la disponibilidad de los sistemas. Debe comprobar que se ajusta el tamaño de los servidores que ejecutan Lync Server para controlar la carga en el sistema y que el tiempo de inactividad imprevisto se mantiene bajo los niveles definidos en el contrato de nivel de servicio (SLA). Además, tendrá que actualizar el hardware para seguir cumpliendo los requisitos definidos.
+  - Administración de la **capacidad y la disponibilidad**     Definir cómo y qué se debe medir para predecir los requisitos de capacidad futuros y para informar sobre la capacidad, la confiabilidad y la disponibilidad de los sistemas. Debe comprobar que se ajusta el tamaño de los servidores que ejecutan Lync Server para controlar la carga en el sistema y que el tiempo de inactividad imprevisto se mantiene bajo los niveles definidos en el contrato de nivel de servicio (SLA). Además, tendrá que actualizar el hardware para seguir cumpliendo los requisitos definidos.
 
-  - **Administración de cambios y administración**   de la configuración controle cómo se realizan los cambios en los sistemas de ti. Esto debe incluir la prueba, los comentarios sobre la aplicación y los planes de contingencia, la documentación de todos los cambios y la aprobación de la administración en caso de producirse problemas. Mantener un registro de los activos de software y hardware y sus configuraciones.
+  - Administración **de cambios y administración de la configuración**     Controlar la forma en que se realizan los cambios en los sistemas de ti. Esto debe incluir la prueba, los comentarios sobre la aplicación y los planes de contingencia, la documentación de todos los cambios y la aprobación de la administración en caso de producirse problemas. Mantener un registro de los activos de software y hardware y sus configuraciones.
 
-  - **Administración del sistema**   métodos estándar para realizar tareas administrativas, como la administración de bases de datos y la administración de sitios.
+  - **Administración**     del sistema Esquema métodos estándar para realizar tareas administrativas, como la administración de bases de datos y la administración de sitios.
 
-  - **La administración**   de seguridad tiene una directiva y un plan detallados que protegen la confidencialidad de los datos, la integridad de los datos y la disponibilidad de los datos de la infraestructura de ti. Esto incluye actividades y tareas cotidianas relacionadas con el mantenimiento y el ajuste de la infraestructura de seguridad de ti.
+  - **Administración**     de seguridad Tener una directiva y un plan detallados que protejan la confidencialidad de los datos, la integridad de los datos y la disponibilidad de los datos de la infraestructura de ti. Esto incluye actividades y tareas cotidianas relacionadas con el mantenimiento y el ajuste de la infraestructura de seguridad de ti.
 
-  - **Solución de problemas del sistema**   métodos de esquema para tratar problemas inesperados, incluidos pasos para evitar problemas similares en el futuro.
+  - **Solución de problemas**     del sistema Los métodos de esquema para tratar problemas inesperados, incluidos pasos para evitar problemas similares en el futuro.
 
-  - **Los contratos**   de nivel de servicio mantienen un conjunto de objetivos para el rendimiento de los sistemas de ti y miden regularmente el rendimiento frente a estos objetivos.
+  - Contratos de nivel de **servicio**     Mantener un conjunto de objetivos para el rendimiento de los sistemas de ti y medir el rendimiento de forma regular frente a estos objetivos.
 
-  - **Documentar**los procedimientos estándar del documento, como la información de configuración y las lecciones aprendidas, y ponerlos a disposición de los miembros del personal que los necesiten.    Cuando se realicen cambios en la configuración, actualice la documentación en consecuencia.
+  - **Documentación**     Documente los procedimientos estándar, como la información de configuración y las lecciones aprendidas, y que estén disponibles para los miembros del personal que los necesiten. Cuando se realicen cambios en la configuración, actualice la documentación en consecuencia.
 
 </div>
 
@@ -101,7 +103,7 @@ Revise los siguientes temas sobre las operaciones del sistema antes de continuar
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939)  

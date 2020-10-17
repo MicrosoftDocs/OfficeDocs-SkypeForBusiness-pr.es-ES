@@ -12,20 +12,22 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6bbbe8650ae1d7746c9b87ecf4518236f8b1575
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7d5ae03267b266b1ef2abbacc2e3fce06e034ec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513527"
 ---
+# <a name="planning-for-simple-urls-in-lync-server-2013"></a>Planeación de direcciones URL sencillas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-simple-urls-in-lync-server-2013"></a>Planeación de direcciones URL sencillas en Lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ Las direcciones URL sencillas facilitan la Unión de reuniones a los usuarios y 
 
 Lync Server admite tres direcciones URL sencillas:
 
-  - **Reunión** sirve como dirección URL base de todas las conferencias del sitio o la organización. Un ejemplo de una dirección URL sencilla de https://meet.contoso.comreunión es. Una dirección URL de una reunión concreta podría https://meet.contoso.com/ser *nombre de usuario*/7322994.
+  - **Reunión** sirve como dirección URL base de todas las conferencias del sitio o la organización. Un ejemplo de una dirección URL sencilla de reunión es https://meet.contoso.com . Una dirección URL de una reunión concreta podría ser https://meet.contoso.com/ *nombre de usuario*/7322994.
     
     Con una dirección URL simple de reunión, los vínculos para unirse a reuniones son fáciles de identificar, comunicar y distribuir.
 
-  - **Acceso telefónico** permite el acceso a la página web Configuración de conferencia de acceso telefónico local. Esta página muestra los números de acceso telefónico de conferencia con los idiomas disponibles, la información de conferencia asignada (es decir, para las reuniones que no necesitan programarse) y los controles de DTMF en conferencia, y admite la administración del número de identificación personal ( PIN) y la información de conferencia asignada. La dirección URL simple de acceso telefónico aparece en todas las invitaciones a reuniones para que los usuarios que marquen para unirse a la reunión puedan tener acceso al número de teléfono e información de PIN necesarios. Un ejemplo de la dirección URL sencilla de acceso telefónico https://dialin.contoso.comes.
+  - **Acceso telefónico** permite el acceso a la página web Configuración de conferencia de acceso telefónico local. Esta página muestra los números de acceso telefónico de conferencia con los idiomas disponibles, la información de conferencia asignada (es decir, para las reuniones que no necesitan programarse) y los controles de DTMF en conferencia, y admite la administración del número de identificación personal (PIN) y la información de conferencia asignada. La dirección URL simple de acceso telefónico aparece en todas las invitaciones a reuniones para que los usuarios que marquen para unirse a la reunión puedan tener acceso al número de teléfono e información de PIN necesarios. Un ejemplo de la dirección URL sencilla de acceso telefónico es https://dialin.contoso.com .
 
-  - El **Administrador** habilita el acceso rápido al panel de control de Lync Server. Desde cualquier equipo de los firewalls de su organización, un administrador puede abrir el panel de control de Lync Server escribiendo la dirección URL sencilla de administración en un explorador. La dirección URL simple de administración es de uso interno para la organización. Un ejemplo de la dirección URL sencilla de administración eshttps://admin.contoso.com
+  - El **Administrador** habilita el acceso rápido al panel de control de Lync Server. Desde cualquier equipo de los firewalls de su organización, un administrador puede abrir el panel de control de Lync Server escribiendo la dirección URL sencilla de administración en un explorador. La dirección URL simple de administración es de uso interno para la organización. Un ejemplo de la dirección URL sencilla de administración es https://admin.contoso.com
 
 <div>
 
@@ -61,7 +63,7 @@ La mayor parte de las veces es recomendable definir direcciones URL sencillas ú
 
 
 > [!NOTE]  
-> Si decide usar direcciones URL sencillas con ámbito de sitio, los usuarios no podrán moverse entre los grupos de servidores front-end de sitios diferentes sin que los usuarios vuelvan a programar todas sus reuniones programadas, ya que las direcciones URL sencillas de reunión son diferentes entre los sitios. Esto incluye escenarios de conmutación por error en los que los grupos de servidores de las relaciones de copia de seguridad se encuentran en sitios independientes. Cuando necesite conmutar por error entre sitios en los que se implementen direcciones URL sencillas en el ámbito del sitio, los usuarios no podrán unirse a sus reuniones debido al ámbito de la dirección URL. Para obtener más información, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
+> Si elige usar direcciones URL sencillas con ámbito en el sitio, los usuarios no podrán desplazarse entre Front-End grupos de sitios diferentes sin que los usuarios vuelvan a programar todas las reuniones programadas, ya que las direcciones URL sencillas de la reunión son diferentes entre los sitios. Esto incluye escenarios de conmutación por error en los que los grupos de servidores de las relaciones de copia de seguridad se encuentran en sitios independientes. Cuando necesite conmutar por error entre sitios en los que se implementen direcciones URL sencillas en el ámbito del sitio, los usuarios no podrán unirse a sus reuniones debido al ámbito de la dirección URL. Para obtener más información, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
 
 
 
@@ -99,14 +101,14 @@ Si se decanta por esta opción, necesitará un registro A de DNS por cada direcc
 </tr>
 <tr class="even">
 <td><p>Cumplir</p></td>
-<td><p>https://meet.contoso.com, https://meet.fabrikam.comy así sucesivamente (uno para cada dominio SIP de la organización)</p></td>
+<td><p>https://meet.contoso.com, https://meet.fabrikam.com y así sucesivamente (uno para cada dominio SIP de la organización)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Acceso telefónico local</p></td>
 <td><p>https://dialin.contoso.com</p></td>
 </tr>
 <tr class="even">
-<td><p>Administración</p></td>
+<td><p>Admin</p></td>
 <td><p>https://admin.contoso.com</p></td>
 </tr>
 </tbody>
@@ -129,14 +131,14 @@ Con la opción 2, las direcciones URL sencillas se basan en el nombre de domini
 </tr>
 <tr class="even">
 <td><p>Cumplir</p></td>
-<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meety así sucesivamente (uno para cada dominio SIP de la organización)</p></td>
+<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet y así sucesivamente (uno para cada dominio SIP de la organización)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Acceso telefónico local</p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p>Administración</p></td>
+<td><p>Admin</p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
@@ -167,7 +169,7 @@ La opción 3 es la más práctica si existen muchos dominios SIP y quiere que c
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p>Administración</p></td>
+<td><p>Admin</p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
@@ -180,7 +182,7 @@ La opción 3 es la más práctica si existen muchos dominios SIP y quiere que c
 
 El generador de topologías y los cmdlets del shell de administración de Lync Server exigen varias reglas de validación para las direcciones URL simples. Las direcciones URL sencillas para reunión y acceso telefónico deben definirse obligatoriamente, si bien esto es opcional en el caso de las direcciones URL de administración. Cada dominio SIP debe tener una dirección URL sencilla de reunión particular, mientras que solo es preciso tener una dirección URL sencilla de acceso telefónico y de administración para toda la organización.
 
-Cada dirección URL sencilla de la organización debe tener un nombre único y no puede ser un prefijo de otra dirección URL sencilla (por ejemplo, no es posible definir lync.contoso.com/Meet como dirección URL sencilla de reunión y lync.contoso.com/Meet/Dialin como dirección URL sencilla de acceso telefónico). Los nombres de dirección URL simple no pueden contener el FQDN de ninguno de sus grupos o cualquier información de puerto https://FQDN:88/meet (por ejemplo, no está permitido). Todas las direcciones URL sencillas deben empezar por el prefijo https://.
+Cada dirección URL sencilla de la organización debe tener un nombre único y no puede ser un prefijo de otra dirección URL sencilla (por ejemplo, no es posible definir lync.contoso.com/Meet como dirección URL sencilla de reunión y lync.contoso.com/Meet/Dialin como dirección URL sencilla de acceso telefónico). Los nombres de dirección URL simple no pueden contener el FQDN de ninguno de sus grupos o cualquier información de puerto (por ejemplo, https://FQDN:88/meet no está permitido). Todas las direcciones URL sencillas deben empezar por el prefijo https://.
 
 Las direcciones URL sencillas solo pueden contener caracteres alfanuméricos, esto es, a-z, A-Z, 0-9 y el signo de punto (.); si usa otros caracteres, podrían no funcionar del modo previsto.
 
@@ -190,7 +192,7 @@ Las direcciones URL sencillas solo pueden contener caracteres alfanuméricos, es
 
 ## <a name="changing-simple-urls-after-deployment"></a>Cambiar las direcciones URL sencillas tras la implementación
 
-Si modifica una dirección URL sencilla tras la implementación inicial, deberá tener presentes los cambios que podrían afectar a los registros DNS y certificados de dichas direcciones. Si el cambio afecta a la base de una dirección URL sencilla, deberá modificar también los certificados y registros DNS. Por ejemplo, si se https://lync.contoso.com/Meet cambia https://meet.contoso.com de para cambia la dirección URL base de Lync.contoso.com a meet.contoso.com, es necesario cambiar los registros DNS y los certificados para hacer referencia a meet.contoso.com. Si ha cambiado la dirección URL sencilla https://lync.contoso.com/Meet de https://lync.contoso.com/Meetingsa, la dirección URL base de Lync.contoso.com permanece igual, por lo que no es necesario ningún cambio de certificado o DNS.
+Si modifica una dirección URL sencilla tras la implementación inicial, deberá tener presentes los cambios que podrían afectar a los registros DNS y certificados de dichas direcciones. Si el cambio afecta a la base de una dirección URL sencilla, deberá modificar también los certificados y registros DNS. Por ejemplo, si se cambia de https://lync.contoso.com/Meet para https://meet.contoso.com cambia la dirección URL base de lync.contoso.com a meet.contoso.com, es necesario cambiar los registros DNS y los certificados para hacer referencia a meet.contoso.com. Si ha cambiado la dirección URL sencilla de https://lync.contoso.com/Meet a https://lync.contoso.com/Meetings , la dirección URL base de Lync.contoso.com permanece igual, por lo que no es necesario ningún cambio de certificado o DNS.
 
 Sin embargo, cada vez que cambie un nombre de dirección URL simple, debe ejecutar **enable-CsComputer** en cada director y en el servidor front-end para registrar el cambio.
 
@@ -200,7 +202,7 @@ Sin embargo, cada vez que cambie un nombre de dirección URL simple, debe ejecut
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Requisitos de DNS para direcciones URL sencillas en Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)  

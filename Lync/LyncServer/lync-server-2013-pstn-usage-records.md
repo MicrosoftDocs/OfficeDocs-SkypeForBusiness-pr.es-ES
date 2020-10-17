@@ -12,20 +12,22 @@ ms:contentKeyID: 48185188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81f459c7ae6b581dedc5843fd2a89568a2f755a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 74c9f6dda4112325d6a408cc1bbb543373e9de61
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512437"
 ---
+# <a name="pstn-usage-records-in-lync-server-2013"></a>Registros de uso de RTC en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-usage-records-in-lync-server-2013"></a>Registros de uso de RTC en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42215208"
 
 _**Última modificación del tema:** 2012-09-23_
 
-La planeación de los registros de uso de RTC consiste principalmente en enumerar todos los permisos de llamada que hay actualmente en vigor en la organización, desde el CEO hasta trabajadores temporales, consultores y personal contingente. Este proceso también ofrece la oportunidad de volver a examinar los permisos de llamada existentes y revisarlos. Puede crear registros de uso de RTC solo para los permisos de llamada que se aplican a los usuarios de voz de empresa que se prevén, pero una mejor solución de largo alcance puede ser crear registros de uso de RTC para todos los permisos de llamadas, independientemente de si algunos no se encuentran se aplican al grupo de usuarios que se van a habilitar para la telefonía IP empresarial. Si los permisos de llamada cambian o se agregan nuevos usuarios con permisos de llamada diferentes, ya habrá creado los registros de uso de RTC necesarios.
+La planeación de los registros de uso de RTC consiste principalmente en enumerar todos los permisos de llamada que hay actualmente en vigor en la organización, desde el CEO hasta trabajadores temporales, consultores y personal contingente. Este proceso también ofrece la oportunidad de volver a examinar los permisos de llamada existentes y revisarlos. Puede crear registros de uso de RTC solo para los permisos de llamada que se aplican a los usuarios de telefonía IP empresarial previstos, pero una mejor solución de larga duración podría ser crear registros de uso de RTC para todos los permisos de llamadas, independientemente de si algunos usuarios no se aplican actualmente al grupo de usuarios para que estén habilitados para telefonía IP empresarial. Si los permisos de llamada cambian o se agregan nuevos usuarios con permisos de llamada diferentes, ya habrá creado los registros de uso de RTC necesarios.
 
 En la tabla siguiente se muestra una tabla típica de uso de RTC.
 
@@ -60,7 +62,7 @@ En la tabla siguiente se muestra una tabla típica de uso de RTC.
 <td><p>Llamadas locales</p></td>
 </tr>
 <tr class="even">
-<td><p>A larga distancia</p></td>
+<td><p>Long-Distance</p></td>
 <td><p>Llamadas de larga distancia</p></td>
 </tr>
 <tr class="odd">

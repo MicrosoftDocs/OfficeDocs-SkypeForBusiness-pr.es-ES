@@ -12,20 +12,22 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0a917364c31da4a944f41da586b53bc6a59b6ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 826f732f25996a9f8fcbd708f7e76157a5753a01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203156"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512777"
 ---
+# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Configuración de directivas de arranque de cliente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Configuración de directivas de arranque de cliente en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42203156"
 
 _**Última modificación del tema:** 2013-02-21_
 
-La consola de administración de directivas de grupo (GPMC) y el editor de objetos de directiva de grupo son herramientas que se usan para administrar la Directiva de grupo. En la plantilla administrativa de la Directiva de grupo de Office se incluyen plantillas administrativas de Lync 2013. ADMX (ADMX) y. ADML (ADML), que contienen las opciones de directiva basadas en el registro que se configuran para los objetos de directiva de grupo en el dominio. Los archivos ADML son complementos específicos de idioma para archivos ADMX. Cada archivo ADMX y ADML contiene la configuración de directiva para una sola aplicación de Office. Para obtener más información, consulte "Office 2013 Administrative template files (ADMX, ADML)" en la documentación de <https://go.microsoft.com/fwlink/p/?linkid=267516>Office 2013 en.
+La consola de administración de directivas de grupo (GPMC) y el editor de objetos de directiva de grupo son herramientas que se usan para administrar la Directiva de grupo. En la plantilla administrativa de la Directiva de grupo de Office se incluyen plantillas administrativas de Lync 2013. ADMX (ADMX) y. ADML (ADML), que contienen las opciones de directiva basadas en el registro que se configuran para los objetos de directiva de grupo en el dominio. Los archivos ADML son complementos específicos de idioma para archivos ADMX. Cada archivo ADMX y ADML contiene la configuración de directiva para una sola aplicación de Office. Para obtener más información, consulte "Office 2013 Administrative template files (ADMX, ADML)" en la documentación de Office 2013 en <https://go.microsoft.com/fwlink/p/?linkid=267516> .
 
 Para Lync 2013, hay varias directivas de arranque de cliente que debe considerar configurar antes de que los usuarios inicien sesión en el servidor por primera vez. Por ejemplo, el modo de seguridad y los servidores predeterminados que el cliente debe usar hasta que se complete el inicio de sesión. Puede usar la Directiva de grupo para establecer estas opciones en los registros del equipo de los usuarios antes de iniciar sesión y comenzar a recibir la configuración de aprovisionamiento en banda del servidor. En la siguiente tabla se enumeran las opciones de configuración de directiva de grupo que están disponibles para Lync 2013.
 
@@ -160,14 +162,14 @@ Las directivas configuradas en el servidor tienen prioridad frente a la configur
 </tr>
 <tr class="even">
 <td><p>segundo</p></td>
-<td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
-<td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>El cuadro de diálogo Lync-opciones en Lync 2013</p></td>
 </tr>
 </tbody>

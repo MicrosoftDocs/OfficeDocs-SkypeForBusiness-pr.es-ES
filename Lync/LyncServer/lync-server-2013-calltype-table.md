@@ -12,20 +12,22 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80e26d2d0db659a82159220fa3c8fa8f06a078f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d369243bd8083191d4956896acbdbc1c7e575bf8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198493"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512917"
 ---
+# <a name="calltype-table-in-lync-server-2013"></a>Tabla CallType en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="calltype-table-in-lync-server-2013"></a>Tabla CallType en Lync Server 2013
+
 
 </div>
 
@@ -58,7 +60,7 @@ La tabla CallType es una tabla estática donde se almacena la lista de posibles 
 <tbody>
 <tr class="odd">
 <td><p><strong>CallTypeId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td></td>
 </tr>

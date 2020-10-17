@@ -12,20 +12,22 @@ ms:contentKeyID: 48183625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc787dee62152e9ace76663a084fe5c1c428b1f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dd1881050e5226df9c36d3b92194e27e1123df13
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183573"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513267"
 ---
+# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>Impedir nuevas conexiones a Lync Server 2013 para el mantenimiento del servidor
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>Impedir nuevas conexiones a Lync Server 2013 para el mantenimiento del servidor
+
 
 </div>
 
@@ -43,7 +45,7 @@ Si especifica la opción para prevenir nuevas conexiones o llamadas al servidor 
 
 Cuando evita nuevas conexiones a un servidor front-end, algunas características y servicios de Lync Server se basan en el equilibrio de carga de DNS para asegurarse de que funcionan correctamente. Si no usa el equilibrador de carga de DNS en el grupo de servidores, puede que las conexiones a través de dichos servicios no se redirijan a otros servidores durante el período en que el servidor no admite nuevas conexiones, por lo cual es posible que cuando el servidor se desconecte se vean interrumpidas algunas sesiones y llamadas. Las características que dependen del equilibrador de carga de DNS para garantizar que esta opción funciona correctamente son las siguientes:
 
-  - Auxiliar
+  - Attendant
 
   - Aplicación de anuncio de conferencia
 
@@ -55,7 +57,7 @@ Cuando evita nuevas conexiones a un servidor front-end, algunas características
 
 Para obtener más información sobre el equilibrio de carga de DNS, vea [equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación referente a la planeación.
 
-Además de impedir nuevas conexiones para todos los servicios en un servidor que ejecuta Lync Server, también puede evitar nuevas conexiones para servicios individuales de Lync Server. Por ejemplo, este método es útil en una situación en la que se debe aplicar una actualización de Lync Server que no requiera que se cierre todo el servidor. Tenga en cuenta que cuando deje de admitir conexiones para un servicio, es necesario seleccionar un servicio según está agrupado y según se muestra en la lista de servicios de Windows. Por ejemplo, el servicio front-end de Lync Server y el agente de recopilación de datos para la supervisión son servicios independientes de Lync Server, pero en la lista de servicios de Windows se consolidan y se muestran como el servicio front-end de Lync Server. Puede evitar nuevas conexiones para el servicio front-end de Lync Server, pero no puede evitar nuevas conexiones para estos dos servicios de Lync Server subyacentes por separado.
+Además de impedir nuevas conexiones para todos los servicios en un servidor que ejecuta Lync Server, también puede evitar nuevas conexiones para servicios individuales de Lync Server. Por ejemplo, este método es útil en una situación en la que se debe aplicar una actualización de Lync Server que no requiera que se cierre todo el servidor. Tenga en cuenta que cuando deje de admitir conexiones para un servicio, es necesario seleccionar un servicio según está agrupado y según se muestra en la lista de servicios de Windows. Por ejemplo, el servicio de Front-End de Lync Server y el agente de recopilación de datos para la supervisión son servicios independientes de Lync Server, pero en la lista de servicios de Windows se consolidan y se muestran como el servicio front-end de Lync Server. Puede evitar nuevas conexiones para el servicio front-end de Lync Server, pero no puede evitar nuevas conexiones para estos dos servicios de Lync Server subyacentes por separado.
 
 <div>
 

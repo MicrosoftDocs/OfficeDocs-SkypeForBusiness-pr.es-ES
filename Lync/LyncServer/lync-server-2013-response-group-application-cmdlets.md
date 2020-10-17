@@ -12,20 +12,22 @@ ms:contentKeyID: 48184199
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5055b70abe58cbec5ea345e6bcb41b459d00241f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8be904bdd19ab45f83b09ed631e90bf76f9d65f0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511787"
 ---
+# <a name="response-group-application-cmdlets-in-lync-server-2013"></a>Cmdlets de aplicación de grupo de respuesta en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-application-cmdlets-in-lync-server-2013"></a>Cmdlets de aplicación de grupo de respuesta en Lync Server 2013
+
 
 </div>
 
@@ -171,7 +173,7 @@ Los cmdlets siguientes pueden usarse para administrar la aplicación de grupo de
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Blog de Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: capacidades no compatibles con el enrutamiento basado en ubicación'
+title: 'Lync Server 2013: capacidades no compatibles con el enrutamiento de Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 321a48efd056f1f544a02d56e47d44da23951fb9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 40a7d32c0448abfe3552fdfe657b9c6bec960a08
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198483"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512867"
 ---
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Capacidades no compatibles con el enrutamiento de Location-Based en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Capacidades no compatibles con el enrutamiento basado en ubicación en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198483"
 
 _**Última modificación del tema:** 2014-03-12_
 
-El enrutamiento basado en ubicación no se aplica a los siguientes tipos de interacciones. El enrutamiento basado en ubicación no se aplica cuando los puntos de conexión de Lync interactúan con extremos RTC mediante estas funciones.
+El enrutamiento Location-Based no se aplica a los siguientes tipos de interacciones. Location-Based el enrutamiento no se aplica cuando los extremos de Lync interactúan con los extremos RTC mediante estas funciones.
 
   - Acceso telefónico a conferencias RTC
 
@@ -49,7 +51,7 @@ El enrutamiento basado en ubicación no se aplica a los siguientes tipos de inte
 
   - Llamadas RTC entrantes recuperadas a través de la atención de llamadas grupales
 
-Para aplicar reglas de enrutamiento basadas en la ubicación a los tipos de interacciones de la lista siguiente, debe habilitar el enrutamiento basado en ubicación para las conferencias:
+Para aplicar Location-Based reglas de enrutamiento a los tipos de interacciones de la lista siguiente, debe habilitar el enrutamiento de Location-Based para las conferencias:
 
   - Acceso telefónico PSTN desde conferencias
 
@@ -57,14 +59,14 @@ Para aplicar reglas de enrutamiento basadas en la ubicación a los tipos de inte
 
   - Transferencias de consulta que implican extremos de RTC
 
-Para habilitar el enrutamiento basado en ubicación para las conferencias, consulte [enrutamiento basado en ubicación para conferencias en Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
+Para habilitar el enrutamiento de Location-Based para conferencias, consulte [enrutamiento basado en ubicación para conferencias en Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
-[Planeación del enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planeación del enrutamiento de Location-Based en Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

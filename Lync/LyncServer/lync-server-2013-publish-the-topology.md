@@ -12,20 +12,22 @@ ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46212fc9910885ed1d6d833ef0f4b30c3a49b7c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e94e47536c8af6ef8fd3c22dba245b03c961c575
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183413"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512367"
 ---
+# <a name="publish-the-topology-in-lync-server-2013"></a>Publicar la topología en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-topology-in-lync-server-2013"></a>Publicar la topología en Lync Server 2013
+
 
 </div>
 
@@ -112,7 +114,7 @@ Después de definir la topología en el generador de topologías, debe publicar 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de servidores front-end y grupos de servidores front-end para Lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)  

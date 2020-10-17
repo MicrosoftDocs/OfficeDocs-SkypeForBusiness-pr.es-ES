@@ -12,20 +12,22 @@ ms:contentKeyID: 48184866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b1737bddb680f597b8009c59dff9e772a7719df
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bfb2316de9ea09db49ac22e0cf0addd0a699739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513247"
 ---
+# <a name="prevent-sessions-for-services-in-lync-server-2013"></a>Impedir sesiones para servicios en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services-in-lync-server-2013"></a>Impedir sesiones para servicios en Lync Server 2013
+
 
 </div>
 
@@ -47,11 +49,11 @@ Puede usar el panel de control de Lync Server para evitar nuevas sesiones para t
 
 2.  Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Topología** y después en **Estado**.
+3.  En la barra de navegación izquierda, haga clic en **Topología ** y, a continuación, en **Estado **.
 
 4.  En la página **Estado **, clasifique o busque en la lista, según sea necesario, para localizar el equipo que está ejecutando los servicios para los que desea impedir que se creen sesiones nuevas y, a continuación, haga clic en él.
 
-5.  Haga clic en **Acción**.
+5.  Haga clic en **Acción **.
 
 6.  Haga clic en **Evitar sesiones nuevas en todos los servicios **.
 
@@ -83,7 +85,7 @@ Puede usar el panel de control de Lync Server para evitar nuevas sesiones para t
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Administración de la topología de Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  

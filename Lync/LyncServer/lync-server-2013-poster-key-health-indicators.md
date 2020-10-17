@@ -12,20 +12,22 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aca31ca681c75438bbcbb67b1d2dc5c0b6305cb7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6db6a701c98a44b042d9ee36d0a749bf6363bd2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513387"
 ---
+# <a name="key-health-indicators-in-lync-server-2013"></a>Indicadores de estado clave en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-health-indicators-in-lync-server-2013"></a>Indicadores de estado clave en Lync Server 2013
+
 
 </div>
 
@@ -105,15 +107,15 @@ Para cada servidor de la implementación de Lync, primero Compruebe que el estad
 
 Empiece por recopilar datos de rendimiento de KHI para todos los servidores. Para cada uno de los roles del sistema (los detalles que se describen más adelante en este documento) determinan si los componentes básicos del sistema cumplen con los objetivos recomendados. Si no es así, corrija el rendimiento del sistema y vuelva a recopilar datos de KHI y garantice el estado del sistema antes de ver las métricas específicas del rol del servidor en la implementación de Lync. El estado del componente para todos los roles se define como:
 
-  - Uso de \< la CPU 80%
+  - Uso de la CPU \< 80%
 
-  - Promedio de escrituras \< en disco 10 ms
+  - Promedio de escrituras en disco \< 10 ms
 
-  - Promedio de lectura \< de disco 10 ms
+  - Promedio de lectura de disco \< 10 ms
 
-  - Memoria \>disponible 20% total de MB de sistema
+  - Memoria disponible \> 20% total de MB de sistema
 
-  - Longitud \< 2 de cola de red
+  - Longitud 2 de cola de red \<
 
   - Paquetes descartados (in/out) = 0
 
@@ -170,39 +172,39 @@ Los siguientes destinos KHI recomendados son específicos de los servidores fron
 <tbody>
 <tr class="odd">
 <td><p>MCU AS/AV/IM</p></td>
-<td><p>Estado &lt;de mantenimiento de MCU 2</p></td>
+<td><p>Estado de mantenimiento de MCU &lt; 2</p></td>
 </tr>
 <tr class="even">
-<td><p>Componentes Web</p></td>
-<td><p>Tiempo de espera de AD de &lt;expansión de lista de distribución 0</p>
+<td><p>Web Components</p></td>
+<td><p>Tiempo de espera de AD de expansión de lista de distribución &lt; 0</p>
 <p>Errores de ABWQ = 0</p>
 <p>Errores de LIS = 0</p>
-<p>Errores &lt; de autenticación 1/seg.</p>
+<p>Errores de autenticación &lt; 1/seg.</p>
 <p>Solicitudes ASP.NET V4 rechazadas = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Pila SIP</p></td>
-<td><p>Promedio de procesamiento &lt; de mensajes entrantes 1 seg.</p>
-<p>Respuestas entrantes &lt; descartadas 1/s &lt; solicitudes entrantes descartadas 1/seg</p>
-<p>Latencia &lt; de cola 100 ms</p>
-<p>Latencia &lt; de SPROC 100 ms</p>
+<td><p>Promedio de procesamiento de mensajes entrantes &lt; 1 seg.</p>
+<p>Respuestas entrantes descartadas &lt; 1/s solicitudes entrantes descartadas &lt; 1/seg</p>
+<p>Latencia de cola &lt; 100 ms</p>
+<p>Latencia de SPROC &lt; 100 ms</p>
 <p>Solicitudes limitadas = 0</p>
-<p>Errores &lt; de autenticación 1/seg.</p>
-<p>Se agotó el tiempo de &lt; espera de los mensajes entrantes 2</p>
-<p>Tiempo medio de espera &lt; de mensajes entrantes 1 seg.</p>
-<p>Conexiones &lt; controladas por flujo 2</p>
-<p>Retraso &lt; de la cola de salida promedio 2 segundos</p></td>
+<p>Errores de autenticación &lt; 1/seg.</p>
+<p>Se agotó el tiempo de espera de los mensajes entrantes &lt; 2</p>
+<p>Tiempo medio de espera de mensajes entrantes &lt; 1 seg.</p>
+<p>Conexiones controladas por flujo &lt; 2</p>
+<p>Retraso de la cola de salida promedio &lt; 2 segundos</p></td>
 </tr>
 <tr class="even">
 <td><p>LySS</p></td>
-<td><p>% de espacio usado por la base &lt; de datos del servicio de almacenamiento 80</p>
-<p>#de errores de replicación de réplica = 0</p>
-<p>#de eventos de pérdida de datos = 0</p></td>
+<td><p>% de espacio usado por la base de datos del servicio de almacenamiento &lt; 80</p>
+<p># de errores de replicación de réplica = 0</p>
+<p># de eventos de pérdida de datos = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>Esperanza &gt; de vida de la página 300 seg.</p>
-<p>Solicitudes de lote por &lt; segundo 2500</p></td>
+<td><p>Esperanza de vida de la página &gt; 300 seg.</p>
+<p>Solicitudes de lote por segundo &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -233,8 +235,8 @@ Los siguientes destinos KHI recomendados son específicos de los servidores SQL 
 <tbody>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>Esperanza &gt; de vida de la página 300 seg.</p>
-<p>Solicitudes de lote por &lt; segundo 2500</p></td>
+<td><p>Esperanza de vida de la página &gt; 300 seg.</p>
+<p>Solicitudes de lote por segundo &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -266,8 +268,8 @@ Los siguientes destinos KHI recomendados son específicos de los servidores de m
 <tr class="odd">
 <td><p>Servicio de servidor de mediación</p></td>
 <td><p>Índice de error de llamada de carga = 0</p>
-<p>Llamadas con error debido al &lt;proxy 10</p>
-<p>Llamadas con error debido a &lt;la puerta de enlace 10</p>
+<p>Llamadas con error debido al proxy &lt; 10</p>
+<p>Llamadas con error debido a la puerta de enlace &lt; 10</p>
 <p>Llamadas (in o out) rechazadas = 0</p>
 <p>Candidatos con medios ausentes = 0</p>
 <p>Errores de comprobación de conectividad de medios = 0</p></td>
@@ -301,26 +303,26 @@ Los siguientes destinos KHI recomendados son específicos de los servidores peri
 <tbody>
 <tr class="odd">
 <td><p>Autenticación de antivirus</p></td>
-<td><p>Solicitudes &lt; incorrectas 20/seg</p></td>
+<td><p>Solicitudes incorrectas &lt; 20/seg</p></td>
 </tr>
 <tr class="even">
 <td><p>Borde AV</p></td>
-<td><p>Errores &lt;de auth. 20/seg</p>
-<p>Errores &lt;de asignación de 20/seg.</p>
-<p>Paquetes descartados &lt;300/seg</p></td>
+<td><p>Errores de auth. &lt; 20/seg</p>
+<p>Errores de asignación de &lt; 20/seg.</p>
+<p>Paquetes descartados &lt; 300/seg</p></td>
 </tr>
 <tr class="odd">
 <td><p>Proxy de datos</p></td>
-<td><p>Conexiones &lt; de servidor limitadas 3</p>
-<p>El sistema se está &lt;limitando a 1</p></td>
+<td><p>Conexiones de servidor limitadas &lt; 3</p>
+<p>El sistema se está limitando a &lt; 1</p></td>
 </tr>
 <tr class="even">
 <td><p>Pila SIP</p></td>
-<td><p>Conexiones superadas por &lt; límite descartadas 1</p>
-<p>Envíos agotados &lt;10</p>
-<p>Conexiones &lt;controladas por flujo 100</p>
-<p>Solicitudes entrantes &lt; descartadas 1/seg.</p>
-<p>Promedio de procesamiento &lt; de mensajes 3 seg.</p></td>
+<td><p>Conexiones superadas por límite descartadas &lt; 1</p>
+<p>Envíos agotados &lt; 10</p>
+<p>Conexiones controladas por flujo &lt; 100</p>
+<p>Solicitudes entrantes descartadas &lt; 1/seg.</p>
+<p>Promedio de procesamiento de mensajes &lt; 3 seg.</p></td>
 </tr>
 </tbody>
 </table>
@@ -330,7 +332,7 @@ Los siguientes destinos KHI recomendados son específicos de los servidores peri
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Guía de redes de Lync Server](https://go.microsoft.com/fwlink/p/?linkid=390677)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353e0941f443e2cb971f8ebd037413232e21b827
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69caa96c6f0e49d472f13da11b34f7d199322184
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183433"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512187"
 ---
+# <a name="qoe-reports-in-lync-server-2013"></a>Informes de QoE en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-reports-in-lync-server-2013"></a>Informes de QoE en Lync Server 2013
+
 
 </div>
 
@@ -129,7 +131,7 @@ Para cada servidor de conferencia A/V, el informe muestra lo siguiente:
 
 ## <a name="location-based-performance-report"></a>Informe de rendimiento basado en ubicación
 
-El informe de rendimiento basado en ubicación proporciona una lista de ubicaciones de red y para cada ubicación muestra el número de llamadas en cada rango de calidad predeterminado. El objetivo de este informe es proporcionar información sobre la calidad de los medios de la mayor parte de las llamadas telefónicas de la organización en varias ubicaciones, de modo que pueda identificar las ubicaciones con un rendimiento deficiente y ver los diferentes grados de calidad de los medios en la organización. distintas ubicaciones.
+El Location-Based informe de rendimiento proporciona una lista de ubicaciones de red y para cada ubicación muestra el número de llamadas en cada rango de calidad predeterminado. El objetivo de este informe es proporcionar información sobre la calidad de los medios de la mayor parte de las llamadas telefónicas de la organización en varias ubicaciones, de modo que pueda identificar las ubicaciones de bajo rendimiento y ver los distintos grados de calidad de los medios en las distintas ubicaciones de la organización.
 
 Cuando se muestra el informe, aparecen diferentes tablas de métricas: una tabla para cada métrica a la que la organización decide informar. Puede elegir entre las siguientes métricas para este informe:
 
