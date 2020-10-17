@@ -12,20 +12,22 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89a8969924acdf8268f059ae3b3660b70ca1dca7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3150d56bbd4935d6139c8584fcd69d721056317e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217065"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505387"
 ---
+# <a name="new-archiving-features-in-lync-server-2013"></a>Nuevas características de archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-archiving-features-in-lync-server-2013"></a>Nuevas características de archivado en Lync Server 2013
+
 
 </div>
 
@@ -47,13 +49,13 @@ El archivado en Lync Server 2013 puede archivar los siguientes tipos de contenid
 
 Además, el archivado en Lync Server 2013 proporciona nuevas características que mejoran la eficacia de la implementación y las operaciones. Estas nuevas características son:
 
-  - **Combinación de archivado en los servidores front-end.**    Lync Server 2013 no tiene un rol de servidor de archivado independiente. El archivado es una característica opcional disponible en todos los servidores front-end de una implementación Enterprise Edition y en servidores Standard Edition, que pueden implementarse configurados para un grupo o un sitio.
+  - **Combinación de archivado en los servidores front-end.**     Lync Server 2013 no tiene un rol de servidor de archivado independiente. El archivado es una característica opcional disponible en todos los servidores front-end de una implementación Enterprise Edition y en servidores Standard Edition, que pueden implementarse configurados para un grupo o un sitio.
 
-  - **Integración de Microsoft Exchange.**    Al implementar el archivado, puede integrar el almacenamiento de datos para archivado con el almacenamiento de Exchange 2013 existente para todos los usuarios hospedados en Exchange 2013 y cuyos buzones se colocan en conservación local, por lo que no es necesario implementar bases de datos de SQL Server independientes para archivar datos de Lync. Si no dispone de una implementación de Exchange 2013, o si prefiere no integrarlo, o si tiene algún usuario de Lync 2013 que no esté hospedado en Exchange 2013 con sus buzones en conservación local, puede implementar bases de datos de archivado independientes mediante SQL Server para Stor e datos archivados desde comunicaciones de Lync. Puede usar las bases de datos de archivado de Microsoft Exchange Integration y Lync Server 2013 si desea usar la integración de Microsoft Exchange para algunos, pero no para todos los usuarios de la implementación. Para obtener más información sobre la conservación local, vea "conservación local" en [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500).
+  - **Integración de Microsoft Exchange.**     Al implementar el archivado, puede integrar el almacenamiento de datos para archivado con el almacenamiento de Exchange 2013 existente para todos los usuarios hospedados en Exchange 2013 y que sus buzones se colocan en In-Place, por lo que no es necesario que implemente bases de datos de SQL Server independientes para archivar datos de Lync. Si no dispone de una implementación de Exchange 2013, o si prefiere no integrarlo, o si tiene algún usuario de Lync 2013 que no esté hospedado en Exchange 2013 con sus buzones de correo que se encuentran en retención de In-Place, puede implementar bases de datos de archivado independientes mediante SQL Server para almacenar datos archivados desde comunicaciones de Lync. Puede usar las bases de datos de archivado de Microsoft Exchange Integration y Lync Server 2013 si desea usar la integración de Microsoft Exchange para algunos, pero no para todos los usuarios de la implementación. Para obtener más información sobre la retención de In-Place, consulte "conservación local" en [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500) .
 
-  - **Creación de reflejo del almacén de SQL.**    Al implementar el archivado, puede habilitar la creación de reflejo de la base de datos de SQL Server para la base de datos de archivado.
+  - **Creación de reflejo del almacén de SQL.**     Al implementar el archivado, puede habilitar la creación de reflejo de la base de datos de SQL Server para la base de datos de archivado.
 
-  - **Archivado de pizarras y sondeos.**    El contenido de conferencia archivado ahora incluye pizarras y sondeos compartidos durante la reunión.
+  - **Archivado de pizarras y sondeos.**     El contenido de conferencia archivado ahora incluye pizarras y sondeos compartidos durante la reunión.
 
 No se archivan los tipos de contenido siguientes:
 
@@ -65,7 +67,7 @@ No se archivan los tipos de contenido siguientes:
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación del archivado en Lync Server 2013](lync-server-2013-planning-for-archiving.md)  

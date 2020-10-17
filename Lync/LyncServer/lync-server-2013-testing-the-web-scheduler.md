@@ -12,20 +12,22 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83f9eb59a14fc0ede5cc5d61f0c9f8dff0e1e445
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b385184486cdbf8e2ee18956df1546d09335e6c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503947"
 ---
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Probar el programador web en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Probar el programador web en Lync Server 2013
+
 
 </div>
 
@@ -92,7 +94,7 @@ Si no se definen los usuarios de prueba, se producirá un error en el comando po
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Los comandos que se muestran en el siguiente ejemplo prueban la capacidad de un usuario\\específico (litwareinc kenmeyer) para programar una reunión en línea mediante el programador web. Para ello, el primer comando del ejemplo usa el cmdlet **Get-Credential** para crear un objeto de credencial de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Ken Meyer. (Como el nombre de inicio\\de sesión litwareinc kenmeyer se incluye como un parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta Ken Meyer). El objeto Credential resultante se almacena en una variable llamada $cred 1.
+Los comandos que se muestran en el siguiente ejemplo prueban la capacidad de un usuario específico (litwareinc \\ kenmeyer) para programar una reunión en línea mediante el programador web. Para ello, el primer comando del ejemplo usa el cmdlet **Get-Credential** para crear un objeto de credencial de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Ken Meyer. (Como el nombre de inicio de sesión litwareinc \\ kenmeyer se incluye como un parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta Ken Meyer). El objeto Credential resultante se almacena en una variable llamada $cred 1.
 
 A continuación, el segundo comando comprueba si este usuario puede iniciar sesión en el grupo atl-cs-001.litwareinc.com y programar una reunión en línea. Para ejecutar esta tarea, se llama al cmdlet **Test-CsWebScheduler** , junto con tres parámetros: TargetFqdn (el FQDN del grupo de registrador); UserCredential (el objeto de Windows PowerShell que contiene las credenciales de usuario de Pilar Ackerman); y UserSipAddress (la dirección SIP que corresponde a las credenciales de usuario suministradas).
 
@@ -164,7 +166,7 @@ Estas son algunas de las razones comunes por las que **Test-CsWebScheduler** pod
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Set-CsWebServer](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServer)  

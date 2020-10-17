@@ -12,20 +12,22 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea5283f588315d06387ed2d441f138538cd13ca3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a8522a1f3a8aedd44a6d39faa0ba6f59ba773677
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504087"
 ---
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Probar la llamada de audio y vídeo de punto a punto en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Probar la llamada de audio y vídeo de punto a punto en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsP2PAV. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsP2PAV. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -68,7 +70,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 Test-CsP2PAV se usa para determinar si un par de usuarios de prueba pueden participar en una conversación A/V de punto a punto. Para probar este escenario, el cmdlet se inicia al iniciar sesión en los dos usuarios en Lync Server. Suponiendo que los dos inicios de sesión se hayan realizado correctamente, el primer usuario invita al segundo usuario a unirse a una llamada de A/V. El segundo usuario acepta la llamada, se prueba la conexión entre los dos usuarios y, a continuación, finaliza la llamada y se cierra la sesión de los usuarios de prueba desde el sistema.
 
-Test-CsP2PAV realmente no realiza una llamada A/V. La información multimedia no se intercambiará entre los usuarios de prueba. En su lugar, el cmdlet simplemente comprueba que se pueden realizar las conexiones adecuadas y que los dos usuarios pueden realizar dicha llamada.
+Test-CsP2PAV no realiza realmente una llamada A/V. La información multimedia no se intercambiará entre los usuarios de prueba. En su lugar, el cmdlet simplemente comprueba que se pueden realizar las conexiones adecuadas y que los dos usuarios pueden realizar dicha llamada.
 
 Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) .
 
@@ -78,7 +80,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsP2PAV se puede ejecutar usando un par de cuentas de prueba preconfiguradas (consulte Setting up test accounts for Running Lync Server test) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
+El cmdlet Test-CsP2PAV puede ejecutarse con un par de cuentas de prueba preconfiguradas (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -124,15 +126,15 @@ Microsoft. RTC. Signaling. DiagnosticHeader
 
 Por ejemplo, la salida anterior indica que se produjo un error en la prueba porque no se pudo establecer contacto con el servidor de Microsoft Exchange. Este mensaje de error suele indicar un problema con la configuración de la mensajería unificada de Exchange.
 
-Si test-CsP2PAV produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
+Si Test-CsP2PAV da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
-Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-verbose
+Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com": detallado
 
-Cuando se incluye el parámetro verbose, test-CsP2PAV devolverá una cuenta paso a paso por cada acción que se intentó, ya que se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, supongamos que la prueba ha fallado con el siguiente diagnóstico:
+Cuando se incluye el parámetro verbose, Test-CsP2PAV devolverá una cuenta paso a paso por cada acción que se intentó, ya que se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, supongamos que la prueba ha fallado con el siguiente diagnóstico:
 
 ErrorCode = 6003, Source = ATL-CS-001. litwareinc. com, causa = no se admite fuera de la solicitud de cuadro de diálogo
 
-Si vuelve a ejecutar test-CsP2PAV e incluye el parámetro verbose, obtendrá un resultado similar al siguiente:
+Si vuelve a ejecutar Test-CsP2PAV e incluye el parámetro verbose, obtendrá un resultado similar al siguiente:
 
 VERBOse: Activity "Register" (registro) iniciada.
 
@@ -156,7 +158,7 @@ Aunque es posible que no sea obvio inmediatamente, si examina el resultado con c
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsP2PAV podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsP2PAV podría producir un error:
 
   - Ha especificado una cuenta de usuario que no es válida. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     

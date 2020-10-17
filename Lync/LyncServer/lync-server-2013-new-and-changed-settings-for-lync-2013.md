@@ -12,20 +12,22 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de4a1a82dbefb5a7f55a4c5872a6702933af08c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5aa98f8935a692f06b78db523e4e109e8cba9ddf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505437"
 ---
+# <a name="new-and-changed-settings-for-lync-2013"></a>Configuración nueva y modificada para Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-and-changed-settings-for-lync-2013"></a>Configuración nueva y modificada para Lync 2013
+
 
 </div>
 
@@ -52,7 +54,7 @@ En este tema se tratan los cambios en los cmdlets del shell de administración d
 </colgroup>
 <thead>
 <tr class="header">
-<th>New</th>
+<th>Nuevo</th>
 <th>Cmdlet de Shell de administración de Lync Server</th>
 <th>Descripción</th>
 </tr>
@@ -61,7 +63,7 @@ En este tema se tratan los cambios en los cmdlets del shell de administración d
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Cuando se establece en true, el seguimiento de software se habilita en Lync; Si se establece en false, el seguimiento de software se deshabilitará. El seguimiento de software implica mantener un registro detallado de todo lo que hace un programa (incluso el seguimiento de llamadas API). El seguimiento es más útil para los programadores y el personal de soporte técnico de aplicaciones. Esta configuración es equivalente a la opción &quot;de directiva de grupo de Communications Server 2007 R2 para activar el seguimiento de Communicator. &quot; La configuración es la siguiente:</p>
+<td><p>Cuando se establece en true, el seguimiento de software se habilita en Lync; Si se establece en false, el seguimiento de software se deshabilitará. El seguimiento de software implica mantener un registro detallado de todo lo que hace un programa (incluso el seguimiento de llamadas API). El seguimiento es más útil para los programadores y el personal de soporte técnico de aplicaciones. Esta configuración es equivalente a la opción de directiva de grupo de Communications Server 2007 R2 para &quot; activar el seguimiento de Communicator. &quot; La configuración es la siguiente:</p>
 <ul>
 <li><p>Off = El seguimiento está deshabilitado y el usuario no puede cambiar este valor.</p></li>
 <li><p>Light = Se realiza el seguimiento mínimo y el usuario no puede cambiar este valor.</p></li>
@@ -77,7 +79,7 @@ En este tema se tratan los cambios en los cmdlets del shell de administración d
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Cuando se establece en true, todas las reuniones de Lync &quot;se tratan como reuniones grandes. &quot; Con una reunión grande, las restricciones se colocan en el número de notificaciones que se envían a los participantes, además del tamaño de la lista de la reunión que se transmite de forma predeterminada.</p></td>
+<td><p>Cuando se establece en true, todas las reuniones de Lync se tratan como &quot; reuniones grandes. &quot; Con una reunión grande, las restricciones se colocan en el número de notificaciones que se envían a los participantes, además del tamaño de la lista de la reunión que se transmite de forma predeterminada.</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
@@ -150,8 +152,8 @@ En este tema se tratan los cambios en los cmdlets del shell de administración d
 <tr class="odd">
 <td><p>EnableSQMData</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>El parámetro EnableSQMData del cmdlet Set-CSClientPolicy se ha eliminado en Lync Server 2013. En su lugar, puede usar el valor compartido de directiva de grupo para los datos de la administración de calidad de software (SQM), para determinar la interfaz de usuario para la opción de mejora de la experiencia del usuario en la página de opciones generales del cliente de Lync:</p>
-<p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
+<td><p>El parámetro EnableSQMData del cmdlet Set-CSClientPolicy se ha quitado en Lync Server 2013. En su lugar, puede usar el valor compartido de directiva de grupo para los datos de la administración de calidad de software (SQM), para determinar la interfaz de usuario para la opción de mejora de la experiencia del usuario en la página de opciones generales del cliente de Lync:</p>
+<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>Valor</p>
 <p>1 = Mostrar y activar la casilla (el usuario puede desactivarla).</p>
 <p>0 = Desactivar y deshabilitar la casilla (el usuario no puede invalidarlo).</p>

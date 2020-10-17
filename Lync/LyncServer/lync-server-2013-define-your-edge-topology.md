@@ -12,20 +12,22 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dec463e960a60e1c6d0251bf0c77300626e57c66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ceba1f397493ac0ef6961099877643f802c11d93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504567"
 ---
+# <a name="define-your-edge-topology-in-lync-server-2013"></a>Definir la topología perimetral en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-your-edge-topology-in-lync-server-2013"></a>Definir la topología perimetral en Lync Server 2013
+
 
 </div>
 
@@ -91,7 +93,7 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
         
 
         > [!IMPORTANT]  
-        > El nombre que especifique debe ser idéntico al nombre del equipo configurado en el servidor. De manera predeterminada, el nombre de un equipo que no está unido a un dominio es un nombre corto, en lugar de un nombre de dominio completo (FQDN). Topology Builder usa nombres de dominio completos, no nombres cortos. Así pues, debe configurar un sufijo de DNS en el nombre del equipo para poder implementarlo como servidor perimetral no incorporado a un dominio. Utilice únicamente caracteres estándar  (A–Z, a–z, 0–9 y guiones) cuando asigne los nombres de dominio completo a los servidores Lync, servidores perimetrales y grupos de servidores. No use caracteres Unicode ni de subrayado. Los DNS externos y las entidades de certificación públicas no admiten caracteres que no sean estándar en un nombre de dominio completo (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado). Para obtener información detallada sobre cómo agregar un sufijo DNS a un nombre de equipo, vea <A href="lync-server-2013-configure-dns-for-edge-support.md">configurar DNS para compatibilidad con servidores perimetrales en Lync Server 2013</A>.
+        > El nombre que especifique debe ser idéntico al nombre del equipo configurado en el servidor. De manera predeterminada, el nombre de un equipo que no está unido a un dominio es un nombre corto, en lugar de un nombre de dominio completo (FQDN). Topology Builder usa nombres de dominio completos, no nombres cortos. Así pues, debe configurar un sufijo de DNS en el nombre del equipo para poder implementarlo como un servidor perimetral no unido a un dominio. Utilice únicamente caracteres estándar  (A–Z, a–z, 0–9 y guiones) cuando asigne los nombres de dominio completo a los servidores Lync, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Los DNS externos y las entidades de certificación públicas no admiten caracteres que no sean estándar en un nombre de dominio completo (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado). Para obtener información detallada sobre cómo agregar un sufijo DNS a un nombre de equipo, vea <A href="lync-server-2013-configure-dns-for-edge-support.md">configurar DNS para compatibilidad con servidores perimetrales en Lync Server 2013</A>.
 
         
         </div>
@@ -226,7 +228,7 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
         
 
         > [!IMPORTANT]  
-        > El nombre que especifique para el grupo de servidores debe ser el nombre del grupo de servidores perimetrales interno. Debe definirse como un FQDN. Topology Builder usa nombres de dominio completos, no nombres cortos. Use únicamente caracteres estándar (A–Z, a–z, 0–9 y guiones) cuando asigne los nombres de dominio completo a los servidores Lync, servidores perimetrales y grupos de servidores. No use caracteres Unicode ni de subrayado. Los DNS externos y las entidades de certificación públicas no admiten caracteres que no sean estándar en un nombre de dominio completo (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado).
+        > El nombre que especifique para el grupo de servidores debe ser el nombre del grupo de servidores perimetrales interno. Debe definirse como un FQDN. Topology Builder usa nombres de dominio completos, no nombres cortos. Use únicamente caracteres estándar (A–Z, a–z, 0–9 y guiones) cuando asigne los nombres de dominio completo a los servidores Lync, servidores perimetrales y grupos de servidores. No utilice caracteres Unicode ni de subrayado. Los DNS externos y las entidades de certificación públicas no admiten caracteres que no sean estándar en un nombre de dominio completo (cuando dicho nombre debe asignarse al nombre del sujeto en el certificado).
 
         
         </div>
@@ -264,7 +266,7 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
     
     También puede configurar el servidor perimetral o el grupo de servidores perimetrales para que usen una dirección de traducción de direcciones de red para las direcciones IP externas. Para hacerlo, active la casilla **La dirección IP externa del grupo de servidores perimetral se traduce mediante NAT**.
 
-9.  En **FQDN externos**, siga este procedimiento:
+9.  En **FQDN externos**, haga lo siguiente:
     
       - Si, en **Seleccionar características**, decidió usar un FQDN único y una dirección IP para el acceso SIP, el servicio de conferencia web y el servicio perimetral A/V, escriba el FQDN externo en **Acceso SIP**.
         

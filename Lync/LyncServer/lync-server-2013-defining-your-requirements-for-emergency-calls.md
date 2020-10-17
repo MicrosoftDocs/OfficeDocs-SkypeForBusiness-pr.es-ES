@@ -12,20 +12,22 @@ ms:contentKeyID: 48184276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3404a2c9ada6bf73a4fd99dfaa5f386b32b60b03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d190d240db85016bd13bfd2480b42b088ca5f88
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504367"
 ---
+# <a name="defining-your-requirements-for-emergency-calls-in-lync-server-2013"></a>Definición de los requisitos para las llamadas de emergencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-emergency-calls-in-lync-server-2013"></a>Definición de los requisitos para las llamadas de emergencia en Lync Server 2013
+
 
 </div>
 

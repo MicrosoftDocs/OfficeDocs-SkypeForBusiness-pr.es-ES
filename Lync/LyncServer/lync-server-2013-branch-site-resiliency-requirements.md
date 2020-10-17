@@ -12,20 +12,22 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1e8fb2cdbf2b9192411f74c5099930d8bd7d7a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d76107fc419891561b8c98cf0989bbb0cbddbee4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504847"
 ---
+# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Requisitos de resistencia de sitios de sucursal para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-requirements-for-lync-server-2013"></a>Requisitos de resistencia de sitios de sucursal para Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Este tema le ayudará a preparar a los usuarios para la resistencia del sitio de
 
 <div>
 
-## <a name="preparing-branch-users-for-branch-site-resiliency"></a>Preparación de usuarios de sucursal para la resistencia de sitios de sucursal
+## <a name="preparing-branch-users-for-branch-site-resiliency"></a>Preparación de usuarios de sucursal para la resistencia Branch-Site
 
 Preparar a los usuarios para la resistencia de sitios de sucursal mediante la configuración de su grupo de registrador como aplicación de sucursal con funciones de supervivencia (SBA) o servidor de sucursal con funciones de supervivencia.
 
@@ -75,7 +77,7 @@ Le recomendamos que cree una directiva de protocolo de voz sobre IP (VoIP) de ni
 
 </div>
 
-Para ayudar a garantizar que las llamadas entrantes a los usuarios de sitios de sucursal llegarán a los usuarios cuando la puerta de enlace de sucursal o el componente de Windows del sitio de aplicación de sucursal con funciones de supervivencia no estén disponibles (lo que ocurriría, por ejemplo, si la aplicación de sucursal o sucursal con funciones de supervivencia la puerta de enlace no estaba disponible para el mantenimiento), cree una ruta de conmutación por error en la puerta de enlace (o trabaje con su proveedor de marcado hacia adentro directo) para redirigir las llamadas entrantes al grupo de registrador de reserva en el sitio central. Desde allí, las llamadas se enrutarán a través del vínculo WAN a los usuarios de la sucursal. Asegúrese de que la ruta traduce los números para que se ajusten a la puerta de enlace RTC o a otros formatos de número de teléfono aceptado del interlocutor del tronco. Para obtener información detallada sobre cómo crear una ruta de conmutación por error, consulte [configuración de una ruta de conmutación por error en Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Cree también planes de marcado de nivel de servicio para el tronco asociado con la puerta de enlace en el sitio de sucursal para normalizar las llamadas entrantes. Si tiene dos aplicaciones de sucursal con funciones de supervivencia en un sitio de sucursal, puede crear un plan de marcado de nivel de sitio para ambas, a menos que sea necesario un plan de nivel de servicio independiente para cada uno de ellos.
+Para ayudar a garantizar que las llamadas entrantes a los usuarios de sitios de sucursal llegarán a los usuarios cuando la puerta de enlace de sucursal o el componente de Windows del sitio de aplicación de sucursal con funciones de supervivencia no estén disponibles (lo que ocurriría, por ejemplo, si la aplicación de sucursal con funciones de supervivencia o la puerta de enlace de sucursal están inactivas para el mantenimiento, cree una ruta de conmutación por error en la puerta de enlace (o trabaje con su proveedor de marcado interno directo) para redirigir las llamadas entrantes al grupo de registrador de reserva en el sitio central. Desde allí, las llamadas se enrutarán a través del vínculo WAN a los usuarios de la sucursal. Asegúrese de que la ruta traduce los números para que se ajusten a la puerta de enlace RTC o a otros formatos de número de teléfono aceptado del interlocutor del tronco. Para obtener información detallada sobre cómo crear una ruta de conmutación por error, consulte [configuración de una ruta de conmutación por error en Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Cree también planes de marcado de nivel de servicio para el tronco asociado con la puerta de enlace en el sitio de sucursal para normalizar las llamadas entrantes. Si tiene dos aplicaciones de sucursal con funciones de supervivencia en un sitio de sucursal, puede crear un plan de marcado de nivel de sitio para ambas, a menos que sea necesario un plan de nivel de servicio independiente para cada uno de ellos.
 
 <div>
 
@@ -93,7 +95,7 @@ También se recomienda crear un plan de marcado de nivel de usuario y una direct
 
 ## <a name="routing-extension-numbers"></a>Números de extensión de enrutamiento
 
-Al preparar planes de marcado y directivas de voz para usuarios de sitios de sucursal, asegúrese de incluir reglas de normalización y reglas de conversión que coinciden con las cadenas y el formato de número que se usan en el atributo msRTCSIP-line (o URI de línea), de modo que las llamadas de Lync 2013 a habilitada entre bifurcación los usuarios del sitio y los usuarios del sitio central se enrutarán correctamente, especialmente cuando las llamadas se deben desviar a través de la RTC porque el vínculo WAN no está disponible. Además, hay consideraciones especiales para los números marcados que incluyen números de extensión, en lugar de números de teléfono.
+Al preparar planes de marcado y directivas de voz para usuarios de sitios de sucursal, asegúrese de incluir reglas de normalización y reglas de conversión que coinciden con las cadenas y el formato de número que se usan en el atributo msRTCSIP-line (o URI de línea), para que las llamadas de Lync 2013 entre usuarios de sitios de sucursal y usuarios de sitio central se enruten correctamente, especialmente cuando las llamadas se deben desviar a través de la RTC porque el vínculo WAN Además, hay consideraciones especiales para los números marcados que incluyen números de extensión, en lugar de números de teléfono.
 
 Reglas de normalización y traducciones que coinciden con los URI de línea que contienen un número de extensión, ya sea en exclusiva o además de un número de teléfono E. 164 completo, tienen requisitos adicionales. En esta sección se describen varios escenarios de ejemplo para enrutar las llamadas de URI de línea con un número de extensión.
 
@@ -123,7 +125,7 @@ En un escenario en el que el vínculo WAN entre un sitio de sucursal y un sitio 
 <tr class="odd">
 <td><p>5digitExtensions</p></td>
 <td><p>No traduce números de 5 dígitos</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>$1</p></td>
 <td><p>10001 no se traduce</p></td>
 </tr>
@@ -131,7 +133,7 @@ En un escenario en el que el vínculo WAN entre un sitio de sucursal y un sitio 
 </table>
 
 
-También debe acomodar los números de extensión para escenarios específicos, como cuando el vínculo WAN entre un sitio de sucursal y el sitio central no está disponible y una llamada desde un sitio de sucursal debe enrutarse a través de la RTC. Durante una interrupción de la WAN, si un usuario del sitio de sucursal solo llama a un usuario del sitio central mediante la marcación de la extensión del usuario del sitio central, debe tener una regla de conversión de salida que agregue el número de teléfono completo del usuario del sitio central. Si el URI de línea de un usuario contiene el número de teléfono completo de la organización y el número de extensión único del usuario en lugar de un número de teléfono completo único para el usuario, debe tener una regla de conversión de salida que agregue el número de teléfono completo de la organización en su lugar. . Por ejemplo:
+También debe acomodar los números de extensión para escenarios específicos, como cuando el vínculo WAN entre un sitio de sucursal y el sitio central no está disponible y una llamada desde un sitio de sucursal debe enrutarse a través de la RTC. Durante una interrupción de la WAN, si un usuario del sitio de sucursal solo llama a un usuario del sitio central mediante la marcación de la extensión del usuario del sitio central, debe tener una regla de conversión de salida que agregue el número de teléfono completo del usuario del sitio central. Si el URI de línea de un usuario contiene el número de teléfono completo de su organización y el número de extensión única del usuario en lugar de un número de teléfono completo único para el usuario, debe tener una regla de conversión de salida que agregue el número de teléfono completo de su organización en su lugar. Por ejemplo:
 
 
 <table>
@@ -152,13 +154,13 @@ También debe acomodar los números de extensión para escenarios específicos, 
 <tbody>
 <tr class="odd">
 <td><p>Traduce números de 5 dígitos al número de teléfono y la extensión de un usuario</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>+ 14255550123; EXT = $1</p></td>
 <td><p>10001 se convierte en + 14255550123; ext = 10001</p></td>
 </tr>
 <tr class="even">
 <td><p>Traduce números de 5 dígitos al número de teléfono de la organización y a la extensión de un usuario</p></td>
-<td><p>^ (\d{5}) $</p></td>
+<td><p>^ (\d {5} ) $</p></td>
 <td><p>+ 14255550100; EXT = $1</p></td>
 <td><p>10001 se convierte en + 14255550100; ext = 10001</p></td>
 </tr>
@@ -195,7 +197,7 @@ En este escenario, si el tronco del mismo nivel que controla el redireccionamien
 </table>
 
 
-Si un vínculo WAN está o no disponible, si la organización no tiene los números realizados para usuarios individuales y el URI de línea de un usuario contiene el número de teléfono de la organización y el número de extensión único del usuario, debe configurar el URI de línea de número de teléfono de la organización con un número que es accesible para el tronco del mismo nivel o la puerta de enlace RTC en el sitio de sucursal. También debe configurar el URI de línea de número de teléfono de la organización para que incluya su propia extensión única para que las llamadas se enruten a ese número.
+Si un vínculo WAN está o no disponible, si la organización no tiene los números realizados para usuarios individuales y el URI de línea de un usuario contiene el número de teléfono de la organización y el número de extensión único del usuario, debe configurar el URI de línea de número de teléfono de la organización con un número al que el tronco del mismo nivel o la puerta de enlace RTC en el sitio de sucursal tenga También debe configurar el URI de línea de número de teléfono de la organización para que incluya su propia extensión única para que las llamadas se enruten a ese número.
 
 Para obtener información detallada sobre las llamadas realizadas desde un usuario del sitio central a un usuario de un sitio de sucursal cuando no está disponible el vínculo WAN entre los sitios, consulte "preparación para la supervivencia del correo de voz" más adelante en este tema. Para obtener más información sobre los planes de marcado y las reglas de normalización, incluidas otras reglas de ejemplo, consulte [planes de marcado y reglas de normalización en Lync server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) en la documentación de planeación y [configuración de planes de marcado en Lync Server 2013](lync-server-2013-configuring-dial-plans.md) en la documentación sobre implementación. Para obtener más información sobre las reglas de conversión de salida, consulte [reglas de traducción en Lync server 2013](lync-server-2013-translation-rules.md) en la documentación de planeación y [definición de reglas de conversión en Lync Server 2013](lync-server-2013-defining-translation-rules.md) en la documentación sobre implementación.
 
@@ -209,7 +211,7 @@ Para obtener información detallada sobre las llamadas realizadas desde un usuar
 
 ## <a name="preparing-for-voice-mail-survivability"></a>Preparación para la supervivencia del correo de voz
 
-La mensajería unificada (MU) de Exchange suele instalarse únicamente en un sitio central y no en sitios de sucursal. Un autor de llamada debe poder dejar un mensaje de correo de voz, incluso si el vínculo WAN entre el sitio de sucursal y el sitio central no está disponible. Como resultado, la configuración del URI de línea para el número de teléfono del operador automático de mensajería unificada de Exchange que proporciona correo de voz para los usuarios del sitio de sucursal requiere consideraciones especiales, además de la Directiva de voz, el plan de marcado y las reglas de normalización que se aplican a ese correo de voz números.
+La mensajería unificada (MU) de Exchange suele instalarse únicamente en un sitio central y no en sitios de sucursal. Un autor de llamada debe poder dejar un mensaje de correo de voz, incluso si el vínculo WAN entre el sitio de sucursal y el sitio central no está disponible. Como resultado, la configuración del URI de línea para el número de teléfono del operador automático de mensajería unificada de Exchange que proporciona correo de voz a los usuarios de sitios de sucursal requiere consideraciones especiales, además de la Directiva de voz, el plan de marcado y las reglas de normalización que se aplican a ese número de correo de voz.
 
 Las aplicaciones de sucursal con funciones de supervivencia (las) y servidores de sucursal con funciones de supervivencia proporcionan supervivencia de correo de voz para usuarios de sucursal durante una interrupción de la WAN. En concreto, si está usando una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia y la WAN deja de estar disponible, el servidor de sucursal o el servidor de sucursal con funciones de supervivencia redirige las llamadas no respondidas a través de la RTC a la mensajería unificada de Exchange en el sitio central. Con una SBA o un servidor de sucursal con funciones de supervivencia, los usuarios también pueden recuperar los mensajes de correo de voz a través de la RTC durante una interrupción de la WAN. Por último, durante una interrupción de la WAN, la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia colocan en cola las notificaciones de llamadas perdidas y, después, las carga en el servidor de mensajería unificada de Exchange cuando se restaura la WAN. Para ayudar a garantizar que el reenrutamiento del correo de voz sea resistente, asegúrese de agregar una entrada para el FQDN del grupo de sitios central y una entrada para el FQDN del servidor perimetral al archivo de hosts en el servidor de sucursal con funciones de supervivencia. De lo contrario, la resolución de DNS puede agotar el tiempo de espera si no dispone de un servidor DNS en el sitio de sucursal.
 
@@ -223,13 +225,13 @@ Se recomiendan las siguientes configuraciones para la supervivencia del correo d
 
   - El administrador de Lync Server debe configurar la mensajería unificada de Exchange para que solo se asocie un plan de marcado a todos los usuarios de la sucursal que necesiten obtener acceso al correo de voz durante una interrupción de la WAN.
 
-  - Cuando el vínculo WAN no está disponible, las llamadas a los usuarios de un sitio de sucursal se pueden enrutar al buzón de voz de mensajería unificada (MU) de Exchange del usuario, pero solo si la Directiva de voz aplicada a la llamada especifica un número de teléfono de correo de voz que es único y no incluye una extensión números.
+  - Cuando el vínculo WAN no está disponible, las llamadas a los usuarios de un sitio de sucursal se pueden enrutar al buzón de voz de mensajería unificada (MU) de Exchange del usuario, pero solo si la Directiva de voz aplicada a la llamada especifica un número de teléfono de correo de voz que es único y no incluye un número de extensión.
 
 </div>
 
 <div>
 
-## <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Requisitos de hardware y software para la resistencia de sitios de sucursal
+## <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Requisitos de hardware y software para la resistencia de Branch-Site
 
 Los requisitos de hardware y software varían en función de la solución de resistencia.
 
@@ -273,7 +275,7 @@ Los requisitos de los servidores de sucursal con funciones de supervivencia son 
 
 <div>
 
-## <a name="requirements-for-full-scale-lync-server-branch-site-deployments"></a>Requisitos para implementaciones de sitio de sucursal de Lync Server a escala completa
+## <a name="requirements-for-full-scale-lync-server-branch-site-deployments"></a>Requisitos para las implementaciones de Full-Scale Lync Server Branch-Site
 
 Para obtener más información, consulte [determining Your Infrastructure Requirements for Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) en la documentación referente a la planeación.
 

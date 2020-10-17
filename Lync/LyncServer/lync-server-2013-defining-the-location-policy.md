@@ -12,20 +12,22 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64c164f24f0f2c140a140b7343dd526979cc2bff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bdb3b556f5b9a8d552a3c48e300b8c4b7b19f5f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504527"
 ---
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definición de la Directiva de ubicación para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definición de la Directiva de ubicación para Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Cada directiva de ubicación contiene la información siguiente:
 <!-- end list -->
 
   - **Ubicación obligatoria**  
-    Esta configuración solo se usa cuando los **servicios de emergencia habilitados** están establecidos en **sí**.
+    Esta configuración solo se usa cuando los **servicios de emergencia habilitados**   están establecidos en **sí**.
     
     Configure el parámetro de **Ubicación obligatoria** para definir el comportamiento del cliente. Si se define el valor en **No**, no se pedirá al usuario una ubicación. Si se define en **Sí**, se pedirá al usuario una ubicación, pero este puede anular la solicitud. Si se define en **Declinación de responsabilidades**, el usuario deberá especificar una ubicación y no podrá anular la solicitud hasta que haya introducido una solicitud. En ambos casos el usuario puede continuar usando el cliente.
     
@@ -81,7 +83,7 @@ Cada directiva de ubicación contiene la información siguiente:
     
 
     > [!NOTE]  
-    > Si su organización no utiliza un prefijo de acceso de línea externo, no tendrá que crear una regla de normalización de planes de marcado correspondiente que añada un signo “+” a la cadena 911 antes de enviar la llamada al enrutamiento de salida en el servidor de grupo de Lync; el signo “+” se agregará automáticamente por parte del cliente de Lync como resultado de la directiva de ubicación. Sin embargo, si su sitio utiliza un prefijo de acceso externo, agregue una regla de normalización a la directiva de plan de marcado aplicable que quite el prefijo de acceso externo y agregue el signo “+”. Por ejemplo, si su ubicación usa un prefijo de acceso externo de 9 y un usuario marca&nbsp;9 911 para realizar una llamada de emergencia, el cliente usará su Directiva de plan de marcado para normalizarlo a + 911 antes de que las rutas del perfil de ubicación del autor de la llamada evalúen el número marcado.
+    > Si su organización no utiliza un prefijo de acceso de línea externo, no tendrá que crear una regla de normalización de planes de marcado correspondiente que añada un signo “+” a la cadena 911 antes de enviar la llamada al enrutamiento de salida en el servidor de grupo de Lync; el signo “+” se agregará automáticamente por parte del cliente de Lync como resultado de la directiva de ubicación. Sin embargo, si su sitio utiliza un prefijo de acceso externo, agregue una regla de normalización a la directiva de plan de marcado aplicable que quite el prefijo de acceso externo y agregue el signo “+”. Por ejemplo, si su ubicación usa un prefijo de acceso externo de 9 y un usuario marca 9 &nbsp; 911 para realizar una llamada de emergencia, el cliente usará su Directiva de plan de marcado para normalizarlo a + 911 antes de que las rutas del perfil de ubicación del autor de la llamada evalúen el número marcado.
 
     
     </div>

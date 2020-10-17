@@ -12,20 +12,22 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f90e6cbb1afb9c4c2dd2b43e1448ca635899531b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a911124af0ac4dc57eca01e0ef6e2a801a61caa5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755484"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505227"
 ---
+# <a name="create-users-and-contacts"></a>Crear usuarios y contactos
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-users-and-contacts"></a>Crear usuarios y contactos
+
 
 </div>
 

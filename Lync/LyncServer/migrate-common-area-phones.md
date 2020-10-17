@@ -12,20 +12,22 @@ ms:contentKeyID: 49733604
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 138068c73264ded3483d8d9f0902d403833a306d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: af08e6de9b832289e898fd27003b896dd40fa81c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757001"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503577"
 ---
+# <a name="migrate-common-area-phones"></a>Migrar teléfonos de área común
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-common-area-phones"></a>Migrar teléfonos de área común
+
 
 </div>
 

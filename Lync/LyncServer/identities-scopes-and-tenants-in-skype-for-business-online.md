@@ -12,20 +12,22 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3e5217c4214e6e86ca4c1dff62410c247cf7f8c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 80af780f0e7e78553cf8796569f668eae0b0e7e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755434"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505147"
 ---
+# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>Identidades, ámbitos e inquilinos en Skype empresarial online
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>Identidades, ámbitos e inquilinos en Skype empresarial online
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b68398f14043492db5b4bd23ef7a31a68f06f72
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cee0478dfecd11d90e3c47d0ccf4921e43885e02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503677"
 ---
+# <a name="microsoft-lync-server-2013"></a>Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="microsoft-lync-server-2013"></a>Microsoft Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2014-03-14_
 
 El software de comunicaciones Microsoft Lync Server 2013 ofrece mensajería instantánea (mi), presencia, conferencias y soluciones de telefonía que admiten los requisitos de colaboración en el nivel empresarial.
 
-¿Quiere descargar una copia de la documentación de Lync Server 2013? Puede descargar el archivo de ayuda compilada (. chm) **LyncServer2013\_de itpro** desde el centro [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103)de descarga de Microsoft en.
+¿Quiere descargar una copia de la documentación de Lync Server 2013? Puede descargar el archivo de ayuda compilada (. chm) **LyncServer2013 de \_ itpro** desde el centro de descarga de Microsoft en [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103) .
 
 En las tablas siguientes se enumeran los temas de la biblioteca de documentación de Lync Server 2013.
 
@@ -295,7 +297,7 @@ En las tablas siguientes se enumeran los temas de la biblioteca de documentació
 
 <div>
 
-## <a name="operations"></a>Operaciones
+## <a name="operations"></a>Operations
 
 
 <table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5857e979b48dd3fee5f19016a7109eb15584b83f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33aa0447c90ea9c76a1956cb817f0e61ce0d626e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504047"
 ---
+# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Probar la llamada RTC de punto a punto en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Probar la llamada RTC de punto a punto en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsPstnPeerToPeerCall. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsPstnPeerToPeerCall. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnPeerToPeerCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsPstnPeerToPeerCall comprueba la capacidad que tiene un par de usuarios para realizar una llamada de punto a punto a través de la puerta de enlace de la red telefónica conmutada (RTC). Cuando se llama a test-CsPstnPeerToPeerCall, el cmdlet intenta primero iniciar sesión en dos usuarios de prueba en Lync Server. Suponiendo que los inicios de sesión se realizan correctamente, el cmdlet tendrá un intento del usuario 1 de llamar al usuario 2 a través de la puerta de enlace RTC. Test-CsPstnPeerToPeerCall realizará esta llamada con el plan de marcado, la Directiva de voz y otras opciones de configuración y directivas asignadas al usuario de prueba. Si la prueba se realiza como planeada, el cmdlet comprobará que el usuario 2 pudo responder a la llamada y, a continuación, cierra sesión ambas cuentas de prueba desde el sistema.
+El cmdlet Test-CsPstnPeerToPeerCall comprueba la capacidad de un par de usuarios de realizar una llamada punto a punto a través de la puerta de enlace de la red telefónica conmutada (RTC). Cuando se llama a test-CsPstnPeerToPeerCall, el cmdlet intenta primero iniciar sesión en dos usuarios de prueba en Lync Server. Suponiendo que los inicios de sesión se realizan correctamente, el cmdlet tendrá un intento del usuario 1 de llamar al usuario 2 a través de la puerta de enlace RTC. Test-CsPstnPeerToPeerCall hará esta llamada con el plan de marcado, la Directiva de voz y otras opciones de configuración y directivas asignadas al usuario de prueba. Si la prueba se realiza como planeada, el cmdlet comprobará que el usuario 2 pudo responder a la llamada y, a continuación, cierra sesión ambas cuentas de prueba desde el sistema.
 
 Test-CsPstnPeerToPeerCall realiza una llamada de teléfono real, una que comprueba que se puede realizar una conexión y que también transmite códigos DTMF a través de la red para determinar si se pueden enviar medios a través de la conexión. La llamada la responde el propio cmdlet, y no es necesaria una finalización manual de la llamada. (Es decir, nadie debe contestar y, a continuación, colgar el teléfono al que se llamó).
 
@@ -76,7 +78,7 @@ Test-CsPstnPeerToPeerCall realiza una llamada de teléfono real, una que comprue
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsPstnPeerToPeerCall se puede ejecutar usando un par de cuentas de prueba preconfiguradas (consulte Setting up test accounts for Running Lync Server test) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
+El cmdlet Test-CsPstnPeerToPeerCall puede ejecutarse con un par de cuentas de prueba preconfiguradas (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
 
 `Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com"`
 
@@ -122,11 +124,11 @@ Razón = la Directiva de usuario no contiene uso de ruta telefónica
 
 La salida anterior indica que la prueba produjo un error porque la Directiva de voz asignada a al menos uno de los usuarios especificados no incluye un uso de teléfono. (Los usos de teléfono unen las directivas de voz a las rutas de voz. Sin una directiva de voz y una ruta de voz correspondiente, no se pueden realizar llamadas a través de la RTC.)
 
-Si test-CsPstnPeerToPeerCall produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
+Si Test-CsPstnPeerToPeerCall da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Cuando se incluye el parámetro verbose, test-CsPstnPeerToPeerCall devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, este resultado indica que hay problemas de red que impiden la conexión con la RTC:
+Cuando se incluye el parámetro verbose, Test-CsPstnPeerToPeerCall devolverá una cuenta paso a paso por cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, este resultado indica que hay problemas de red que impiden la conexión con la RTC:
 
 Establecimiento de una llamada de audio en vídeo a ' SIP: + 12065551219@litwareinc. com; User = Phone '.
 
@@ -138,7 +140,7 @@ Se ha recibido una respuesta de excepción de 404 (no se encontró) desde la red
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsPstnPeerToPeerCall podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsPstnPeerToPeerCall podría producir un error:
 
   - Ha especificado una cuenta de usuario que no es válida. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     

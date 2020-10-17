@@ -12,20 +12,22 @@ ms:contentKeyID: 49733739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85b286355f765342a2c7b240f23e0aac1c7daad6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: d45abd1599666079705f3e77b74ac2ba81d9df71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755674"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503517"
 ---
+# <a name="update-dns-srv-records"></a>Actualizar registros SRV de DNS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="update-dns-srv-records"></a>Actualizar registros SRV de DNS
+
 
 </div>
 

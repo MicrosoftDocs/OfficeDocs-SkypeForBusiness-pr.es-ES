@@ -12,20 +12,22 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bc6266cdf81f4462adf82c5878bcc47a6060fdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2e982884e0e73a5315f0c6281876be225ccab6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504167"
 ---
+# <a name="how-archiving-works-in-lync-server-2013"></a>Cómo funciona el archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-archiving-works-in-lync-server-2013"></a>Cómo funciona el archivado en Lync Server 2013
+
 
 </div>
 
@@ -77,15 +79,15 @@ Lync Server tampoco archiva conversaciones de chat persistente. Para archivar co
 
 El archivado se instala automáticamente en cada servidor front-end al implementar el servidor, pero el archivado no está habilitado hasta que se configura. La forma de configurar viene determinada por la forma de implementar el archivado:
 
-  - **Archivado con la integración de Microsoft Exchange.** Si tiene usuarios hospedados en Exchange 2013 y sus buzones se han colocado en conservación local, puede seleccionar la opción de integrar el almacenamiento de Lync Server 2013 con el almacenamiento de Exchange. Si elige la opción de integración de Microsoft Exchange, use las directivas y configuraciones de Exchange 2013 para controlar el archivado de los datos de Lync Server 2013 para esos usuarios.
+  - **Archivado con la integración de Microsoft Exchange.** Si tiene usuarios hospedados en Exchange 2013 y sus buzones se han colocado en In-Place suspendidas, puede seleccionar la opción de integrar el almacenamiento de Lync Server 2013 con el almacenamiento de Exchange. Si elige la opción de integración de Microsoft Exchange, use las directivas y configuraciones de Exchange 2013 para controlar el archivado de los datos de Lync Server 2013 para esos usuarios.
 
-  - **Archivado mediante las bases de datos de archivado de Lync Server.** Si tiene usuarios que no están hospedados en Exchange 2013 o que no tienen buzones en conservación local, o si no desea usar la integración de Microsoft Exchange para alguno o todos los usuarios de la implementación, puede implementar las bases de datos de archivado de Lync Server con SQL Server.  para almacenar datos de archivado para esos usuarios. En este caso, las directivas y configuraciones de archivado de Lync Server 2013 determinan si el archivado está habilitado y cómo se implementa. Para usar Lync Server 2013, debe agregar las bases de datos de SQL Server adecuadas a la topología y publicar la topología.
+  - **Archivado mediante las bases de datos de archivado de Lync Server.** Si tiene usuarios que no están hospedados en Exchange 2013 o a los que no se les ha puesto en espera In-Place o si no desea usar la integración de Microsoft Exchange para ninguno o todos los usuarios de la implementación, puede implementar las bases de datos de archivado de Lync Server con SQL Server para almacenar datos de archivado para esos usuarios. En este caso, las directivas y configuraciones de archivado de Lync Server 2013 determinan si el archivado está habilitado y cómo se implementa. Para usar Lync Server 2013, debe agregar las bases de datos de SQL Server adecuadas a la topología y publicar la topología.
 
 <div>
 
 ## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>Configuración de archivado al usar la integración de Microsoft Exchange
 
-Si los usuarios están hospedados en Exchange 2013 y sus buzones se han puesto en conservación local, puede elegir la opción de **integración de Microsoft Exchange** (tal y como se describe más adelante en esta sección) para archivar Lync Server 2013 para esos usuarios y, a continuación, controlar el archivado para esos usuarios especificando la configuración y las directivas de conservación local de Exchange, así como las configuraciones de Lync Server para controlar lo siguiente:
+Si los usuarios están hospedados en Exchange 2013 y sus buzones se han colocado en In-Place, puede elegir la opción de **integración de Microsoft Exchange** (como se describe más adelante en esta sección) para archivar Lync Server 2013 para esos usuarios y, a continuación, controlar el archivado para esos usuarios especificando la configuración y las directivas de retención de Exchange In-Place, así como configuraciones de Lync Server.
 
   - Si desea archivar MI, conferencias o ambas.
 
@@ -93,7 +95,7 @@ Si los usuarios están hospedados en Exchange 2013 y sus buzones se han puesto e
 
   - Selección de la opción de integración de Microsoft Exchange para usar Exchange 2013 para el almacenamiento de datos archivados.
 
-Estas opciones de configuración de archivado de Lync Server 2013 se describen más adelante en esta sección. Para obtener información sobre cómo configurar las directivas y configuraciones de conservación local de Exchange para admitir el archivado, consulte la documentación del producto de Exchange 2013.
+Estas opciones de configuración de archivado de Lync Server 2013 se describen más adelante en esta sección. Para obtener información acerca de cómo configurar las directivas y configuraciones de retención de Exchange In-Place para admitir el archivado, consulte la documentación del producto de Exchange 2013.
 
 </div>
 
@@ -123,7 +125,7 @@ Para obtener más información sobre cómo configurar las directivas de archivad
 
 
 > [!NOTE]  
-> Si implementa las bases de datos de archivado de Lync Server 2013 y habilita la integración de Microsoft Exchange, las directivas de Exchange 2013 invalidan las directivas de archivado de Lync Server, pero solo para los usuarios hospedados en Exchange 2013 y cuyos buzones se han puesto en conservación local . El archivado de Lync depende solo de la Directiva de conservación local de Microsoft Exchange.
+> Si implementa las bases de datos de archivado de Lync Server 2013 y habilita la integración de Microsoft Exchange, las directivas de Exchange 2013 invalidan las directivas de archivado de Lync Server, pero solo para los usuarios que están hospedados en Exchange 2013 y a los que se les han asignado buzones de In-Place. El archivado de Lync depende solo de la Directiva de retención de In-Place de Microsoft Exchange.
 
 
 
@@ -167,7 +169,7 @@ La configuración de nivel global se crea automáticamente cuando implementa el 
     
 
     > [!NOTE]  
-    > Si habilita la integración de Microsoft Exchange, la depuración para usuarios hospedados en Exchange 2013 y con sus buzones en conservación local se controla mediante Exchange. La única calificación es para los archivos de conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. Estos archivos se purgan del recurso compartido de solo después de que los archivos se hayan exportado (cargado a Exchange), si selecciona la opción para purgar datos después de que se exporten los datos de archivado o después de un número máximo especificado de días, si especifica un número máximo de días para la retención.
+    > Si habilita la integración de Microsoft Exchange, la depuración para usuarios hospedados en Exchange 2013 y con sus buzones de correo que se almacenan en In-Place retención se controla mediante Exchange. La única calificación es para los archivos de conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. Estos archivos se purgan del recurso compartido de solo después de que los archivos se hayan exportado (cargado a Exchange), si selecciona la opción para purgar datos después de que se exporten los datos de archivado o después de un número máximo especificado de días, si especifica un número máximo de días para la retención.
 
     
     </div>
@@ -208,9 +210,9 @@ Mediante el shell de administración de Lync Server 2013, puede usar cmdlets par
 
 El acceso a los datos archivados depende de dónde se almacenan los datos:
 
-  - **Almacenamiento de Microsoft Exchange**. Si elige la opción de integración de Exchange, Lync Server deposita el contenido de archivado en el almacén de Exchange 2013 para todos los usuarios hospedados en Exchange 2013 y cuyos buzones se han puesto en conservación local. Los datos archivados se almacenan en la carpeta elementos recuperables de los buzones de usuario, que suele ser invisible para los usuarios, y solo los usuarios pueden buscar en ellos un rol de **Administración de detección** de Exchange. Exchange permite la búsqueda y detección federadas, junto con SharePoint, si se implementa. Para obtener más información sobre el almacenamiento, la retención y la detección de datos almacenados en Exchange, consulte la documentación de Exchange 2013 y SharePoint.
+  - **Almacenamiento de Microsoft Exchange**. Si elige la opción de integración de Exchange, Lync Server deposita el contenido de archivado en el almacén de 2013 de Exchange para todos los usuarios que están hospedados en Exchange 2013 y a los que se les ha puesto en espera In-Place. Los datos archivados se almacenan en la carpeta elementos recuperables de los buzones de usuario, que suele ser invisible para los usuarios, y solo los usuarios pueden buscar en ellos un rol de **Administración de detección** de Exchange. Exchange permite la búsqueda y detección federadas, junto con SharePoint, si se implementa. Para obtener más información sobre el almacenamiento, la retención y la detección de datos almacenados en Exchange, consulte la documentación de Exchange 2013 y SharePoint.
 
-  - **Almacenamiento de Lync Server.** Si configura las bases de datos de archivado de Lync Server 2013 para el almacenamiento de datos de Lync Server, el contenido de archivado de los depósitos de Lync Server en las bases de datos de archivado de Lync Server (bases de datos de SQL Server) para los usuarios no hospedados en Exchange 2013 y a los que no se hayan puesto en sus buzones Conservación local. Estos datos no pueden buscarse, pero se pueden exportar a formatos que se pueden buscar mediante otras herramientas. Para obtener información detallada sobre cómo exportar datos almacenados en bases de datos de archivado, consulte [exportar datos archivados desde Lync Server 2013](lync-server-2013-exporting-archived-data.md) en la documentación de operaciones.
+  - **Almacenamiento de Lync Server.** Si configura las bases de datos de archivado de Lync Server 2013 para el almacenamiento de datos de Lync Server, el contenido de archivado de los depósitos de Lync Server en las bases de datos de archivado de Lync Server (bases de datos de SQL Server) para los usuarios que no estén hospedados en Exchange 2013 y cuyos buzones no se hayan puesto en In-Place suspensión. Estos datos no pueden buscarse, pero se pueden exportar a formatos que se pueden buscar mediante otras herramientas. Para obtener información detallada sobre cómo exportar datos almacenados en bases de datos de archivado, consulte [exportar datos archivados desde Lync Server 2013](lync-server-2013-exporting-archived-data.md) en la documentación de operaciones.
 
 Para obtener más información acerca de cómo Lync Server 2013 y Exchange 2013 funcionan conjuntamente, consulte [Exchange Server and SharePoint Integration support in Lync server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) en la documentación sobre compatibilidad.
 

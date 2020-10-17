@@ -12,20 +12,22 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2177e4fce4d32bb2dc6c82e1f3fecae367eb2543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c1980d66649ff465ad251d5b95a9642e5bcd43c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504077"
 ---
+# <a name="testing-persistent-chat-in-lync-server-2013"></a>Prueba de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-persistent-chat-in-lync-server-2013"></a>Prueba de chat persistente en Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ El cmdlet **Test-CsPersistentChatMessage** comprueba que un par de usuarios de p
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-Los comandos que se muestran en el siguiente ejemplo prueban la capacidad de un par de\\usuarios (litwareinc\\Pilar y litwareinc kenmyer) para iniciar sesión en Lync Server 2013 y, a continuación, intercambiar mensajes con el servicio de chat persistente. Para ello, el primer comando del ejemplo usa el cmdlet **Get-Credential** para crear un objeto de credencial de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Pilar Ackerman. (Como el nombre de inicio de\\sesión, litwareinc pilar, se incluyó como parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta Pilar Ackerman). A continuación, el objeto de credenciales resultante se almacena en una variable llamada $cred 1. El segundo comando realiza la misma acción pero, esta vez, devuelve un objeto de credenciales de la cuenta de Ken Myer.
+Los comandos que se muestran en el siguiente ejemplo prueban la capacidad de un par de usuarios (litwareinc \\ Pilar y litwareinc \\ kenmyer) para iniciar sesión en Lync Server 2013 y, a continuación, intercambiar mensajes con el servicio de chat persistente. Para ello, el primer comando del ejemplo usa el cmdlet **Get-Credential** para crear un objeto de credencial de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Pilar Ackerman. (Como el nombre de inicio de sesión, litwareinc \\ pilar, se incluyó como parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta Pilar Ackerman). A continuación, el objeto de credenciales resultante se almacena en una variable llamada $cred 1. El segundo comando realiza la misma acción pero, esta vez, devuelve un objeto de credenciales de la cuenta de Ken Myer.
 
 Con los objetos de credenciales a mano, el tercer comando determina si estos dos usuarios pueden iniciar sesión en Lync Server 2013 y intercambiar mensajes con el chat persistente. Para realizar esta tarea, se llama al cmdlet **Test-CsPersistentChatMessage** con los parámetros siguientes: TargetFqdn (el FQDN del grupo de registrador); SenderSipAddress (la dirección SIP del primer usuario de prueba); SenderCredential (el objeto de Windows PowerShell que contiene las credenciales para este mismo usuario); ReceiverSipAddress (la dirección SIP del otro usuario de prueba); y ReceiverCredential (el objeto de Windows PowerShell que contiene las credenciales del otro usuario de prueba).
 
@@ -127,7 +129,7 @@ no respondió correctamente después de un período de tiempo o
 
 error en la conexión establecida porque el host conectado tiene
 
-no se pudo \[responder 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
+no se pudo responder \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Excepción interna: error en el intento de conexión porque el
 
@@ -137,7 +139,7 @@ tiempo o error de conexión establecida debido a que el host conectado
 
 no respondió
 
-\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Diagnóstico
 
@@ -157,7 +159,7 @@ Estas son algunas de las razones comunes por las que **Test-CsPersistentChatMess
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  

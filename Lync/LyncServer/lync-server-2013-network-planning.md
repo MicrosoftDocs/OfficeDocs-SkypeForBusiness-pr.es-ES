@@ -12,20 +12,22 @@ ms:contentKeyID: 49733817
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0feffa5971cff463eb4f8d70c6a2e629d4c8f7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 55a9c719d7a33e817024ed4bc8ff4d8e730a2e25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505537"
 ---
+# <a name="network-planning-for-lync-server-2013"></a>Planeación de red para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-planning-for-lync-server-2013"></a>Planeación de red para Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Los temas de esta sección sirven para asegurar que la red está preparada para 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Determinación de los requisitos de infraestructura para Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md)  

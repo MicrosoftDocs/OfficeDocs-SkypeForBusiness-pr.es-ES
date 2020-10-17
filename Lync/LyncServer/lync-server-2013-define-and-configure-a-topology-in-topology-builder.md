@@ -12,20 +12,22 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 597f331ba95ee563155fdabc6b95d35367d12080
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0aa4a2c12771adf41972fc0c69222935d6935570
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209182"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504607"
 ---
+# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Definir y configurar una topología en el generador de topologías para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Definir y configurar una topología en el generador de topologías para Lync Server 2013
+
 
 </div>
 

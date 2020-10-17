@@ -12,20 +12,22 @@ ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c3fcfd33668918eb330b64d816ceca818de27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a33a5e9bb93371bdccac3c88b7a1c080e3efaa8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211826"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503687"
 ---
+# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Validación de la configuración de Office Web Apps Server en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Validación de la configuración de Office Web Apps Server en Lync Server 2013
+
 
 </div>
 
@@ -45,13 +47,13 @@ Además, debe ver otro evento LS Data MCU (Id. de evento 41032) que informa sobr
 
 **Servidor de conferencia web la detección del servidor de Office Web Apps se ha realizado correctamente.**
 
-**Página de moderadores internos de Office Web Apps Server:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
+**Página de moderadores internos de Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
 
-**Página de asistentes internos de Office Web Apps Server:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
+**Página de asistentes internos de Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
 
-**Página de moderadores externos de Office Web Apps Server:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
+**Página de moderadores externos de Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
 
-**Página de asistentes internos de Office Web Apps Server:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
+**Página de asistentes internos de Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
 
 Si ve un evento LS Data MCU con el Id. de evento 41033, indicará un error en la detección de Office Web Apps Server. En ese caso, Microsoft Lync Server 2013 probará tantas veces como sea necesario para descubrir el servidor de Office Web Apps recién configurado. Si el proceso de detección falla repetidas veces, deberá quitar Office Web Apps Server del documento de la topología, publicar la topología actualizada y, a continuación, cuando los problemas de conectividad estén resueltos, agregar de nuevo Office Web Apps Server a la topología.
 

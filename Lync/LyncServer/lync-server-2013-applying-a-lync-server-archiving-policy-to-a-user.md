@@ -12,20 +12,22 @@ ms:contentKeyID: 48185024
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1cc8659035e6df437d10684eb1bd0158a76b7a0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cad9784eb2c50662bfedc460cb0dbc8c892206c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204466"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504937"
 ---
+# <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Aplicar una directiva de archivado de Lync Server a un usuario en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Aplicar una directiva de archivado de Lync Server a un usuario en Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Para obtener más información sobre cómo funcionan las directivas de archivado
 
 
 > [!NOTE]  
-> Para poder configurar y usar el archivado, primero debe implementar el archivado. Para obtener más información, consulte <A href="lync-server-2013-deploying-archiving.md">implementación del archivado en Lync Server 2013</A> en la documentación sobre implementación.<BR>Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de conservación local de Exchange controlan si el archivado está habilitado para los usuarios que están hospedados en Exchange 2013 y que tienen sus buzones en conservación local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuración de directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación sobre implementación.<BR>Antes de habilitar el archivado, debe especificar todas las opciones adecuadas en las configuraciones de archivado. Para obtener más información, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configuring archiving Options in Lync Server 2013</A> en la documentación sobre implementación.
+> Para poder configurar y usar el archivado, primero debe implementar el archivado. Para obtener más información, consulte <A href="lync-server-2013-deploying-archiving.md">implementación del archivado en Lync Server 2013</A> en la documentación sobre implementación.<BR>Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de Exchange In-Place retenciones controlan si el archivado está habilitado para los usuarios que están hospedados en Exchange 2013 y que sus buzones se colocan en In-Place suspensión. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuración de directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación sobre implementación.<BR>Antes de habilitar el archivado, debe especificar todas las opciones adecuadas en las configuraciones de archivado. Para obtener más información, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configuring archiving Options in Lync Server 2013</A> en la documentación sobre implementación.
 
 
 
@@ -69,7 +71,7 @@ Para obtener más información sobre cómo funcionan las directivas de archivado
     
 
     > [!NOTE]  
-    > La <STRONG> &lt;configuración&gt; automática</STRONG> aplica la configuración de la instalación del servidor predeterminada. Esta configuración se aplica automáticamente por el servidor.
+    > La configuración <STRONG> &lt; automática &gt; </STRONG> aplica la configuración de la instalación del servidor predeterminada. Esta configuración se aplica automáticamente por el servidor.
 
     
     </div>

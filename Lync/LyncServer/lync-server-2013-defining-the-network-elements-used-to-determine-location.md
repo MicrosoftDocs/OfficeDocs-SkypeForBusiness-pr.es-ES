@@ -12,20 +12,22 @@ ms:contentKeyID: 48184508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6578c0cca54c41f079c682862b9e96a54e3d456
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6cfedb09cdcdebdc12cdd2aed69e56532dcca5ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208936"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504507"
 ---
+# <a name="defining-the-network-elements-used-to-determine-location-in-lync-server-2013"></a>Definición de los elementos de red que se usan para determinar la ubicación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-network-elements-used-to-determine-location-in-lync-server-2013"></a>Definición de los elementos de red que se usan para determinar la ubicación en Lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ Este método de ubicación presupone que el BSSID de cada WAP es estático. Sin 
 
 ## <a name="lldp-ports-and-switches"></a>Conmutadores y puertos LLDP
 
-Los conmutadores Ethernet administrados que admiten el protocolo de detección de niveles de vínculo: detección de extremos de medios (LLDP-MED) puede anunciar su identidad y la información de los puertos a los clientes compatibles con LLDP-MED, que se pueden consultar en la base de datos de ubicaciones para proporcionar el Ubicación del dispositivo. Puede asociar ERL únicamente en el identificador del chasis del conmutador, o puede asignarlos al nivel de puerto.
+Los conmutadores Ethernet administrados que admiten la detección de la capa de vínculo Protocol-Media detección de extremos (LLDP-MED) pueden anunciar información de identidades y puertos a clientes compatibles con LLDP-MED, que se pueden consultar en la base de datos de ubicaciones para proporcionar la ubicación del dispositivo. Puede asociar ERL únicamente en el identificador del chasis del conmutador, o puede asignarlos al nivel de puerto.
 
 <div>
 

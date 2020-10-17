@@ -12,20 +12,22 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6615e283e0e426e738cd3cdaf714dd90f57b393e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 63e00301a01920cc836ccc4d227952de4e9a4c78
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505267"
 ---
+# <a name="configure-user-profile"></a>Configurar el perfil de usuario
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-profile"></a>Configurar el perfil de usuario
+
 
 </div>
 
@@ -181,7 +183,7 @@ Use la pestaña **escenarios de voz** para configurar todos los escenarios relac
 
 ## <a name="reach"></a>Acceder
 
-REACH es una nueva experiencia en Lync Server 2013 que admite escenarios de conferencia a través del servidor de API Web de comunicaciones unificadas (UCWA) instalado en el servidor front-end. En la siguiente figura se muestra la ficha **alcance** de la herramienta de configuración de carga de Lync Server 2013.
+REACH es una nueva experiencia en Lync Server 2013 que admite escenarios de conferencia a través del servidor de API Web de comunicaciones unificadas (UCWA) instalado en el servidor de Front-End. En la siguiente figura se muestra la ficha **alcance** de la herramienta de configuración de carga de Lync Server 2013.
 
 Use la ficha **alcance** para configurar todos los escenarios relacionados con el alcance.
 
@@ -239,7 +241,7 @@ La pestaña **Resumen** indica qué usuarios deben usar para cada uno de los esc
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear usuarios y contactos](create-users-and-contacts.md)  

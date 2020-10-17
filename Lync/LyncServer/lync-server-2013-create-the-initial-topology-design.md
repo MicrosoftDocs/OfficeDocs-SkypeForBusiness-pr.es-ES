@@ -12,20 +12,22 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71ccdec2c39839674c6304000680ec611a48c016
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bbd021a6b3804c369bccea5affcf26558802de2c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179727"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504737"
 ---
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Crear el diseño de topología inicial para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Crear el diseño de topología inicial para Lync Server 2013
+
 
 </div>
 
@@ -57,11 +59,11 @@ Una vez que haya finalizado la instalación de la herramienta de planeación de 
 
 2.  Una vez iniciada la herramienta de planeación, aparece la página **de bienvenida de la herramienta de planeación de Microsoft Lync Server 2013** . Elija una de las siguientes opciones para comenzar el diseño:
     
-      - **Opción 1:**   Introducción **al hacer clic en Introducción proporciona** una serie específica de preguntas de la entrevista con las selecciones pertinentes para definir los criterios. Una vez completada la sección de entrevistas de **Introducción**, se pasa a la fase **Diseñar sitios** para definir la arquitectura del sitio. Para completar esta opción, vaya al paso 3.
+      - **Opción 1: Introducción**     Al hacer clic en **Introducción** , se proporciona una serie específica de preguntas de la entrevista con las selecciones pertinentes para definir los criterios. Una vez completada la sección de entrevistas de **Introducción**, se pasa a la fase **Diseñar sitios** para definir la arquitectura del sitio. Para completar esta opción, vaya al paso 3.
     
-      - **Opción 2: diseñar sitios**   al hacer clic en **diseñar sitios** en la página de bienvenida se omiten las preguntas **de la entrevista** que se presentan en la sección introducción. La información que se habría recopilado al responder a las preguntas de la entrevista en **la sección introducción se establece en valores** predeterminados con esta opción. Al hacer clic en **diseñar sitios**, el diseñador experimentado puede omitir la entrevista inicial y cambiar los valores predeterminados, según sea necesario, en la página de inicio de los **sitios centrales** . Para completar esta opción, omita los pasos del 3 al 5 y comience en el paso 6.
+      - **Opción 2: diseñar sitios**     Al hacer clic en **diseñar sitios** en la página de bienvenida se omiten las preguntas de la entrevista que se presentan en **la sección introducción** . La información que se habría recopilado al responder a las preguntas de la entrevista en **la sección introducción se establece en valores** predeterminados con esta opción. Al hacer clic en **diseñar sitios**, el diseñador experimentado puede omitir la entrevista inicial y cambiar los valores predeterminados, según sea necesario, en la página de inicio de los **sitios centrales** . Para completar esta opción, omita los pasos del 3 al 5 y comience en el paso 6.
     
-      - **Opción 3: Mostrar la topología**   guardada si ya ha completado y guardado una topología a través del uso anterior de la herramienta de planeación, puede omitir la mayoría de estos pasos y empezar por abrir y mostrar la topología. También puede realizar cambios y actualizaciones en la topología, reguardarla y, a continuación, exportarla a Microsoft Excel o Microsoft Visio. Para completar esta opción, omita los pasos del 3 al 12 y comience en el paso 13.
+      - **Opción 3: Mostrar la topología**     guardada Si ya ha completado y guardado una topología a través del uso anterior de la herramienta de planeación, puede omitir la mayoría de estos pasos y empezar por abrir y mostrar la topología. También puede realizar cambios y actualizaciones en la topología, reguardarla y, a continuación, exportarla a Microsoft Excel o Microsoft Visio. Para completar esta opción, omita los pasos del 3 al 12 y comience en el paso 13.
 
 3.  Haga **clic en introducción para** empezar a diseñar su topología de Lync Server 2013.
 
@@ -122,7 +124,7 @@ Una vez que haya finalizado la instalación de la herramienta de planeación de 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Edición del diseño en Lync Server 2013](lync-server-2013-editing-the-design.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88d6f6f6f5578994831fd15329988d963a295832
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9b77d515ebe743b038f3f0099a9702a383e7b797
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755444"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505157"
 ---
+# <a name="how-user-photos-are-displayed-in-lync"></a>Cómo se muestran las fotos de los usuarios en Lync
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-user-photos-are-displayed-in-lync"></a>Cómo se muestran las fotos de los usuarios en Lync
+
 
 </div>
 

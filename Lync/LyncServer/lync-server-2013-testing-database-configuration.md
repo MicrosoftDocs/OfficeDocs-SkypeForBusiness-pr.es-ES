@@ -12,20 +12,22 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69dea9e2b75125740729f658e1c370838bb5d8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1d57659c93aa42392f5408721157df1d14b56b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504107"
 ---
+# <a name="testing-database-configuration-in-lync-server-2013"></a>Prueba de la configuración de la base de datos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-database-configuration-in-lync-server-2013"></a>Prueba de la configuración de la base de datos en Lync Server 2013
+
 
 </div>
 
@@ -180,7 +182,7 @@ InstalledVersion :
 
 Correcto: falso
 
-ADVERTENCIA: test-CsDatabase detectó errores. Consulte el archivo de registro para obtener una
+ADVERTENCIA: Test-CsDatabase detectó errores. Consulte el archivo de registro para obtener una
 
 Análisis detallado y asegurarse de que se tratan todos los errores (2) y advertencias (0)
 
@@ -188,9 +190,9 @@ antes de continuar.
 
 ADVERTENCIA: los resultados detallados se pueden encontrar en
 
-"C:\\usuarios\\probando\\AppData\\local\\Temp\\2\\test-CsDatabase-b18d488a-8044-4679-bbf2-
+"C: \\ usuarios \\ probando \\ AppData \\ local \\ temp \\ 2 \\ Test-CsDatabase-b18d488a-8044-4679-bbf2-
 
-04d593cce8e6. html ".
+04d593cce8e6.html ".
 
 </div>
 
@@ -208,7 +210,7 @@ Estas son algunas de las razones comunes por las que **Test-CsDatabase** podría
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  

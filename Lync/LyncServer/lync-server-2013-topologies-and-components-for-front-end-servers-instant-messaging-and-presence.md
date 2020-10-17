@@ -12,20 +12,22 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4abe15d3884bc24d4facb26e2fc0c2df9e31bdcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 103d03920df57023ae7dbb953beb0c426d0a43df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503757"
 ---
+# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologías y componentes para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologías y componentes para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
+
 
 </div>
 
@@ -99,20 +101,20 @@ La primera vez que inicie un nuevo grupo de servidores front-end, es esencial qu
 <td><p>3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>3</p></td>
 </tr>
 <tr class="even">
-<td><p>2,5</p></td>
-<td><p>4</p></td>
+<td><p>5 </p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>7 </p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="odd">
 <td><p>8 </p></td>
@@ -123,16 +125,16 @@ La primera vez que inicie un nuevo grupo de servidores front-end, es esencial qu
 <td><p>7 </p></td>
 </tr>
 <tr class="odd">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>8 </p></td>
 </tr>
 <tr class="even">
-<td><p>11 </p></td>
-<td><p>9 </p></td>
-</tr>
-<tr class="odd">
 <td><p>12</p></td>
-<td><p>10 </p></td>
+<td><p>9 </p></td>
+</tr>
+<tr class="odd">
+<td><p>12 </p></td>
+<td><p>10  </p></td>
 </tr>
 </tbody>
 </table>
@@ -231,7 +233,7 @@ Debe vigilar un par de otros factores para asegurarse de que los grupos de servi
 
   - Al mover usuarios al grupo por primera vez, asegúrese de que al menos tres de los servidores front-end se están ejecutando.
 
-  - Si establece una relación de emparejamiento entre este grupo de servidores y otro grupo para fines de recuperación ante desastres, después de establecer esa relación, debe asegurarse de que este grupo tenga tres servidores front-end que se ejecuten simultáneamente en algún momento para sincronizar correctamente datos con el grupo de copia de seguridad. Para obtener más información sobre el emparejamiento de grupos de servidores y las características de recuperación ante desastres, consulte [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - Si establece una relación de emparejamiento entre este grupo de servidores y otro grupo para fines de recuperación ante desastres, después de establecer esa relación, debe asegurarse de que este grupo tenga tres servidores front-end que se ejecuten simultáneamente para sincronizar correctamente los datos con el grupo de copia de seguridad. Para obtener más información sobre el emparejamiento de grupos de servidores y las características de recuperación ante desastres, consulte [Planning for High Availability and Disaster Recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
 </div>
 

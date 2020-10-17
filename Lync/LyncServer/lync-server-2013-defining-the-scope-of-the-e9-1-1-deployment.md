@@ -12,20 +12,22 @@ ms:contentKeyID: 48183707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed4a5fb3e34192aab9c94d72a3bc79b733828e3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27d280580f4d9cae1f6240b554be760d1689daa3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208906"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504487"
 ---
+# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>Definir el ámbito de la implementación de E9-1-1 en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>Definir el ámbito de la implementación de E9-1-1 en Lync Server 2013
+
 
 </div>
 
@@ -55,13 +57,13 @@ Antes de configurar Microsoft Lync Server 2013 para E9-1-1, debe planear la impl
 <!-- end list -->
 
   - **¿Se habilitará E9-1-1 para los usuarios que trabajan fuera de la red?**  
-    La adquisición de ubicación automática solo está disponible para los clientes que se encuentran dentro de la red de la organización, por lo que su organización debe decidir si será compatible con las llamadas de E9-1-1 realizadas desde los clientes de Lync mientras se encuentran fuera del entorno. Por ejemplo, ¿permitirá que los usuarios realicen llamadas de emergencia si están trabajando desde casa o desde un sitio del cliente? Si un cliente se encuentra fuera de la red de la empresa, se puede configurar el cliente para que solicite una ubicación al usuario. Sin embargo, debido a que estas ubicaciones proporcionadas por el usuario no se pueden prevalidar con respecto a la guía de dirección principal (MSAG), el distribuidor de proveedores de servicios de emergencias deberá confirmar la validez de la ubicación verbalmente con la persona que realiza la llamada antes de la distribución la llamada al punto de respuesta de seguridad pública (PSAP).
+    La adquisición de ubicación automática solo está disponible para los clientes que se encuentran dentro de la red de la organización, por lo que su organización debe decidir si será compatible con las llamadas de E9-1-1 realizadas desde los clientes de Lync mientras se encuentran fuera del entorno. Por ejemplo, ¿permitirá que los usuarios realicen llamadas de emergencia si están trabajando desde casa o desde un sitio del cliente? Si un cliente se encuentra fuera de la red de la empresa, se puede configurar el cliente para que solicite una ubicación al usuario. Sin embargo, debido a que estas ubicaciones proporcionadas por el usuario no se pueden prevalidar con respecto a la guía de dirección principal (MSAG), el distribuidor de proveedores de servicios de emergencias deberá confirmar la validez de la ubicación verbalmente con la persona que realiza la llamada antes de enrutar la llamada al punto de respuesta de seguridad pública (PSAP).
     
     <div>
     
 
     > [!NOTE]  
-    > Los clientes de Lync de los usuarios que se conectan a la red de su organización mediante VPN pueden recoger la información de dirección IP interna, pero debido a que estas direcciones no se pueden usar para identificar la ubicación real del usuario, es esencial que las subredes VPN se excluyan del Servicio de información de ubicación.
+    > Los clientes de Lync de los usuarios que se conectan a la red de su organización mediante VPN pueden recoger información de direcciones IP internas, pero como estas direcciones no se pueden usar para identificar la ubicación real del usuario, es esencial que las subredes VPN se excluyan del servicio de información de ubicación.
 
     
     </div>

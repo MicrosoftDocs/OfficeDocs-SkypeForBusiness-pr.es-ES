@@ -12,20 +12,22 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e55661d2d28052f7672798059d458563ab5c8d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51f728bfb5617185bdd9a1ef3b5f21b3e12ca61f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193763"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503937"
 ---
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Prueba de conferencias de audio de terceros en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Prueba de conferencias de audio de terceros en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-11-01_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsAudioConferencingProvider. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsAudioConferencingProvider. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAudioConferencingProvider&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -82,9 +84,9 @@ En el ejemplo 1, se comprueba si un usuario de prueba definido para el grupo atl
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-Los comandos que se muestran en el ejemplo 2 prueban la capacidad de un\\usuario específico (litwareinc kenmyer) para conectarse a su proveedor de servicios de audioconferencia. Para ello, el primer comando del ejemplo usa el cmdlet Get-Credential para crear un objeto de credenciales de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Ken Myer. (Dado que el nombre de\\inicio de sesión litwareinc kenmyer se incluyó como un parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta de Ken Myer). El objeto Credentials resultante se almacena en una variable denominada $credential.
+Los comandos que se muestran en el ejemplo 2 prueban la capacidad de un usuario específico (litwareinc \\ kenmyer) para conectarse a su proveedor de servicios de audioconferencia. Para ello, el primer comando del ejemplo usa el cmdlet Get-Credential para crear un objeto de credenciales de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Ken Myer. (Dado que el nombre de inicio de sesión litwareinc \\ kenmyer se incluyó como un parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta de Ken Myer). El objeto Credentials resultante se almacena en una variable denominada $credential.
 
-Luego, el segundo comando comprueba si este usuario puede conectar con el proveedor de servicios de audioconferencia. Para llevar a cabo esta tarea, se llama al cmdlet test-CsAudioConferencingProvider, junto con tres parámetros: TargetFqdn (el FQDN del grupo de registrador); UserCredential (el objeto de Windows PowerShell que contiene las credenciales de usuario de Ken Myer); y UserSipAddress (la dirección SIP correspondiente a las credenciales de usuario suministradas).
+Luego, el segundo comando comprueba si este usuario puede conectar con el proveedor de servicios de audioconferencia. Para llevar a cabo esta tarea, se llama al cmdlet Test-CsAudioConferencingProvider, junto con tres parámetros: TargetFqdn (el FQDN del grupo de registrador); UserCredential (el objeto de Windows PowerShell que contiene las credenciales de usuario de Ken Myer); y UserSipAddress (la dirección SIP correspondiente a las credenciales de usuario suministradas).
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -121,7 +123,7 @@ no respondió correctamente después de un período de tiempo o
 
 error en la conexión establecida porque el host conectado tiene
 
-no se pudo \[responder 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
+no se pudo responder \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Excepción interna: error en el intento de conexión porque el
 
@@ -131,7 +133,7 @@ tiempo o error de conexión establecida debido a que el host conectado
 
 no respondió
 
-\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Diagnóstico
 

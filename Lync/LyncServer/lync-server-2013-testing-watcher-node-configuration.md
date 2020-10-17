@@ -12,20 +12,22 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d5b73b0c56aa2f1ce4a0db2925354dd658ec2f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a52b251f238b8d79602e5fe1bf2803902cbae23f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193693"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503817"
 ---
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Probar la configuración de nodo de monitor en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Probar la configuración de nodo de monitor en Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-11-03_
 
 ## <a name="description"></a>Descripción
 
-Si usa Microsoft System Center Operations Manager para supervisar Lync Server 2013, tiene la opción de configurar "nodos de monitor": equipos que ejecutan transacciones sintéticas de forma periódica y automática para comprobar que Lync Server funciona como esperaba. Los nodos de monitor se asignan a grupos y se administran mediante los cmdlets **CsWatcherNodeConfiguration** . Tenga en cuenta que no necesita instalar los nodos de monitor si está utilizando el System Center Operations Manager. Todavía puede supervisar el sistema sin usar nodos de monitor. La única diferencia es que las transacciones sintéticas que desee ejecutar deben invocarse manualmente en lugar de invocarse de forma automática por parte de Operations Manager.
+Si usa Microsoft System Center Operations Manager para supervisar Lync Server 2013, tiene la opción de configurar "nodos de monitor": equipos que ejecutan transacciones sintéticas de forma periódica y automática, para comprobar que Lync Server funciona según lo esperado. Los nodos de monitor se asignan a grupos y se administran mediante los cmdlets **CsWatcherNodeConfiguration** . Tenga en cuenta que no necesita instalar los nodos de monitor si está utilizando el System Center Operations Manager. Todavía puede supervisar el sistema sin usar nodos de monitor. La única diferencia es que las transacciones sintéticas que desee ejecutar deben invocarse manualmente en lugar de invocarse de forma automática por parte de Operations Manager.
 
 El cmdlet **Test-CsWatcherNodeConfiguration** permite comprobar que un nodo de monitor se configuró correctamente y que se asigna a un grupo de servidores de Lync Server 2013 válido. Tenga en cuenta que el cmdlet **Test-CsWatcherNodeConfiguration** debe ejecutarse en el nodo de monitor en sí. El cmdlet no se puede ejecutar en equipos remotos.
 
@@ -124,7 +126,7 @@ inicia. Si se detecta algún error, se imprimirá.
 
 Test-CsWatcherNodeConfiguration: no se encuentra la clave del registro de mantenimiento en
 
-Software\\de\\comunicaciones en tiempo real de Microsoft. Asegúrese de que el nodo de monitor. msi es
+Software \\ \\ de comunicaciones en tiempo real de Microsoft. Asegúrese de que el nodo de monitor. msi es
 
 instalado correctamente.
 
@@ -144,7 +146,7 @@ Estas son algunas de las razones comunes por las que **Test-CsWatcherNodeConfigu
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  

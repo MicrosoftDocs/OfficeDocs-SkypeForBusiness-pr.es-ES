@@ -12,20 +12,22 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb206930dae08d0c2fcf5fa6a26b427b28c03e1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503707"
 ---
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Validar conferencias de audio y vídeo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Validar conferencias de audio y vídeo en Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="even">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsAVConference. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsAVConference. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,9 +72,9 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsAVConference comprueba si dos usuarios de prueba pueden participar en una conferencia de audio y vídeo (A/V). Cuando se ejecuta el cmdlet, los dos usuarios ya deben haber iniciado sesión en el sistema. Una vez que se han conectado correctamente, el primer usuario crea una conferencia A/V y, a continuación, espera a que el segundo usuario se una a la Conferencia. Después de un breve intercambio de datos, la conferencia se elimina y los dos usuarios de prueba finalizan la sesión.
+El cmdlet Test-CsAVConference comprueba si dos usuarios de prueba pueden participar en una conferencia de audio y vídeo (A/V). Cuando se ejecuta el cmdlet, los dos usuarios ya deben haber iniciado sesión en el sistema. Una vez que se han conectado correctamente, el primer usuario crea una conferencia A/V y, a continuación, espera a que el segundo usuario se una a la Conferencia. Después de un breve intercambio de datos, la conferencia se elimina y los dos usuarios de prueba finalizan la sesión.
 
-Tenga en cuenta que test-CsAVConference no lleva A cabo una conferencia A/V real entre los dos usuarios de prueba. En su lugar, el cmdlet comprueba que los dos usuarios pueden realizar todas las conexiones necesarias para llevar a cabo una conferencia de este tipo.
+Tenga en cuenta que Test-CsAVConference no lleva A cabo una conferencia A/V real entre los dos usuarios de prueba. En su lugar, el cmdlet comprueba que los dos usuarios pueden realizar todas las conexiones necesarias para llevar a cabo una conferencia de este tipo.
 
 Puede encontrar más ejemplos para este comando en [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference).
 
@@ -82,7 +84,7 @@ Puede encontrar más ejemplos para este comando en [Test-CsAVConference](https:/
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsAVConference se puede ejecutar usando un par de cuentas de prueba preconfiguradas (consulte Setting up test accounts for Running Lync Server test) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
+El cmdlet Test-CsAVConference puede ejecutarse con un par de cuentas de prueba preconfiguradas (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -134,11 +136,11 @@ Por ejemplo, la salida anterior indica que se produjo un error en la prueba porq
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-Si test-CsAVConference produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
+Si Test-CsAVConference da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Cuando se incluye el parámetro verbose, test-CsAVConference devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad de los usuarios especificados para participar en una conferencia antivirus. Por ejemplo, supongamos que la prueba produce un error y recibe el siguiente diagnóstico:
+Cuando se incluye el parámetro verbose, Test-CsAVConference devolverá una cuenta paso a paso por cada acción que se intentó realizar cuando se comprobó la capacidad de los usuarios especificados para participar en una conferencia antivirus. Por ejemplo, supongamos que la prueba produce un error y recibe el siguiente diagnóstico:
 
 ErrorCode = 1008, Source = accessproxy. litwareinc. com, causa = no se puede resolver el registro SRV de DNS
 
@@ -178,7 +180,7 @@ La última línea del resultado indica que el usuario sip:kenmyer@litwareinc.com
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsAVConference podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsAVConference podría producir un error:
 
   - Ha especificado una cuenta de usuario que no es válida. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     
