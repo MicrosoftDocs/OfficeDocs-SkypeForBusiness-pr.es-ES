@@ -1,5 +1,6 @@
 ---
 title: Copia de seguridad de la base de datos de chat persistente y del cumplimiento
+description: Copia de seguridad de la base de datos de chat persistente y del cumplimiento.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1b498c0f34ebd361f390be732684f3b03f6b93
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: db832872f61ee6f18273433884618372aafbaa85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504907"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563216"
 ---
-# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="42e1a-102">Copia de seguridad de la base de datos de chat persistente y la base de datos de cumplimiento en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42e1a-102">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
+# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="7e1de-103">Copia de seguridad de la base de datos de chat persistente y la base de datos de cumplimiento en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e1de-103">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48504907"
 
 <span> </span>
 
-<span data-ttu-id="42e1a-103">_**Última modificación del tema:** 2012-08-01_</span><span class="sxs-lookup"><span data-stu-id="42e1a-103">_**Topic Last Modified:** 2012-08-01_</span></span>
+<span data-ttu-id="7e1de-104">_**Última modificación del tema:** 2012-08-01_</span><span class="sxs-lookup"><span data-stu-id="7e1de-104">_**Topic Last Modified:** 2012-08-01_</span></span>
 
-<span data-ttu-id="42e1a-104">Debe hacer una copia de seguridad de la base de datos de chat persistente y la base de datos de cumplimiento.</span><span class="sxs-lookup"><span data-stu-id="42e1a-104">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="42e1a-105">Póngase en contacto con el administrador de la base de datos para determinar cuál es la mejor opción para su entorno.</span><span class="sxs-lookup"><span data-stu-id="42e1a-105">Contact the database administrator to determine the best way to do this in your environment.</span></span>
+<span data-ttu-id="7e1de-105">Debe hacer una copia de seguridad de la base de datos de chat persistente y la base de datos de cumplimiento.</span><span class="sxs-lookup"><span data-stu-id="7e1de-105">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="7e1de-106">Póngase en contacto con el administrador de la base de datos para determinar cuál es la mejor opción para su entorno.</span><span class="sxs-lookup"><span data-stu-id="7e1de-106">Contact the database administrator to determine the best way to do this in your environment.</span></span>
 
 </div>
 
