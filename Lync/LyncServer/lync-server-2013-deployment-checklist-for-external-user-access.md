@@ -12,20 +12,22 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f2897434eb275b82ef9ab4ef78e32e99e8d0a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 010d4437f2eb90d596ace15cc392690dba5544d6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213916"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522777"
 ---
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lista de comprobación para la implementación para el acceso de usuarios externos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lista de comprobación para la implementación para el acceso de usuarios externos en Lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ Antes de implementar la red perimetral y de implementar la compatibilidad con us
 
 Microsoft Lync Server 2013 incluye herramientas que facilitan la planeación y la implementación de servidores internos y servidores perimetrales. Después que se haya completado la topología, publique la definición de la topología resultante a su entorno de producción. Para ello, deberá ser miembro de los grupos  **Administradores de dominio ** y  **RTCUniversalServerAdmins**.
 
-  - **Herramienta de planeación**   Office Communications Server 2007 R2 incluye una herramienta de planeación y una herramienta de planeación de la periferia que puede usar para guiar el diseño de la topología. En Lync Server 2010, estas dos herramientas se combinaron en una sola herramienta de planeación con características y funciones adicionales, como la recopilación de recuentos de usuarios planeados, los requisitos de voz, los tipos de acceso de usuarios externos y las opciones de Federación. Además, puede planificar los parámetros de la red de la infraestructura, como las direcciones IP, los tipos de equilibradores de carga y otras consideraciones de red perimetrales.
+  - Herramienta de planeación **Planning Tool**     Office Communications Server 2007 R2 incluye una herramienta de planeación y una herramienta de planeación de la periferia que puede usar para guiar el diseño de la topología. En Lync Server 2010, estas dos herramientas se combinaron en una sola herramienta de planeación con características y funciones adicionales, como la recopilación de recuentos de usuarios planeados, los requisitos de voz, los tipos de acceso de usuarios externos y las opciones de Federación. Además, puede planificar los parámetros de la red de la infraestructura, como las direcciones IP, los tipos de equilibradores de carga y otras consideraciones de red perimetrales.
 
-  - ****   El generador de topologías el generador de topologías de Lync Server 2013 ayuda a definir la topología y los componentes. El generador de topologías es esencial para implementar servidores que ejecutan Lync Server 2013. El generador de topologías publica los resultados en un almacén de administración central que se usa para configurar todos los servidores que ejecutan Lync Server 2013 en su organización. No puede instalar Lync Server 2013 en servidores sin usar el generador de topologías.
+  - Generador de topologías **Topology Builder**     El generador de topologías de Lync Server 2013 ayuda a definir la topología y los componentes. El generador de topologías es esencial para implementar servidores que ejecutan Lync Server 2013. El generador de topologías publica los resultados en un almacén de administración central que se usa para configurar todos los servidores que ejecutan Lync Server 2013 en su organización. No puede instalar Lync Server 2013 en servidores sin usar el generador de topologías.
 
 Si ha diseñado la topología perimetral durante el proceso de planeación, incluida la ejecución del generador de topologías para definir la topología perimetral, puede usar estos resultados para iniciar la implementación del servidor perimetral. Si no ha terminado de crear la topología perimetral anteriormente o desea cambiar la información que especificó anteriormente, debe terminar de ejecutar Topology Builder antes de continuar con otros pasos de implementación. Para obtener más información sobre cómo crear su topología, consulte [escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
@@ -85,7 +87,7 @@ Para mejorar el rendimiento y la seguridad de los servidores perimetrales, adem�
 <tr class="header">
 <th>Fase</th>
 <th>Pasos</th>
-<th>Permissions</th>
+<th>Permisos</th>
 <th>Documentación</th>
 </tr>
 </thead>
@@ -135,7 +137,7 @@ Para mejorar el rendimiento y la seguridad de los servidores perimetrales, adem�
 <tr class="odd">
 <td><p>Configure el proxy inverso.</p></td>
 <td><ul>
-<li><p>Configure el proxy inverso (por ejemplo, para Microsoft Forefront Threat Management Gateway 2010 o Microsoft Internet Security and Acceleration (ISA) Server con Service Pack 1) en la red perimetral, obtenga los certificados públicos necesarios y configure el reglas de publicación web en el servidor de proxy inverso.</p>
+<li><p>Configure el proxy inverso (por ejemplo, para Microsoft Forefront Threat Management Gateway 2010 o Microsoft Internet Security and Acceleration (ISA) Server con Service Pack 1) en la red perimetral, obtenga los certificados públicos necesarios y configure las reglas de publicación web en el servidor de proxy inverso.</p>
 <p>Prepare el servidor proxy inverso para los servicios de movilidad si ha planificado la movilidad y está implementado los servicios de movilidad en el grupo de servidores front-end o el servidor Standard Edition.</p></li>
 </ul></td>
 <td><p>Grupo <strong>Administradores</strong> o administrador de proxy inverso</p></td>
@@ -185,7 +187,7 @@ Para mejorar el rendimiento y la seguridad de los servidores perimetrales, adem�
 <td><ol>
 <li><p>Compruebe la conectividad del servidor y la replicación de datos de configuración de servidores internos.</p></li>
 <li><p>Compruebe que se pueden conectar los usuarios externos, como usuarios remotos, usuarios de dominios federados, usuarios de mensajería instantánea pública y usuarios anónimos, según corresponda a la implementación.</p></li>
-<li><p>Comprobación de la configuración y la comunicación con el analizador de conectividad remota de Lync Server<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>Comprobación de la configuración y la comunicación con el analizador de conectividad remota de Lync Server <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
 <li><p>Solucione las dificultades de comunicación y configuración</p></li>
 </ol></td>
 <td><p>Para la comprobación de la replicación, el grupo <strong>RTCUniversalServerAdmins</strong> o una cuenta de usuario que esté asignada al rol <strong>CSAdministrator</strong></p>

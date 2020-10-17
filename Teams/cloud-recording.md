@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- M365-voice
 - M365-collaboration
 ms.reviewer: nakulm
 search.appverid: MET150
@@ -16,12 +17,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04ddae49ae16db6c85f67a078f5f5cc1b59c60e8
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: c0030cdc3a7e4929435127f9c4fbe549c7a6bf20
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262467"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503467"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 

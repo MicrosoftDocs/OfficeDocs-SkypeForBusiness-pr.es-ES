@@ -12,20 +12,22 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 577d6bb312ae2b31f96fed5f3e5b02e84844adf6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 085b7c10416fddefa8b869bbb617160f03b1e89a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522947"
 ---
+# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Implementación de la creación de reflejos de SQL para la alta disponibilidad del servidor back-end en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Implementación de la creación de reflejos de SQL para la alta disponibilidad del servidor back-end en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188193"
 
 _**Última modificación del tema:** 2014-01-08_
 
-Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar un mínimo de SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921), consulte.
+Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar un mínimo de SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información, consulte [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921) .
 
 En general, la configuración de creación de reflejo de SQL entre los dos servidores back-end con un testigo requiere lo siguiente:
 
@@ -47,19 +49,19 @@ En general, la configuración de creación de reflejo de SQL entre los dos servi
 
   - El servidor principal y el reflejo deben tener la misma edición de SQL Server. El testigo puede tener una edición diferente.
 
-Para conocer los procedimientos recomendados de SQL en relación con las versiones de SQL compatibles con un rol de testigo, consulte "testigo de creación de reflejo de [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)la base de datos" en MSDN Library, en.
+Para conocer los procedimientos recomendados de SQL en relación con las versiones de SQL compatibles con un rol de testigo, consulte "testigo de creación de reflejo de la base de datos" en MSDN Library, en [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345) .
 
 El generador de topologías se usa para implementar la creación de reflejos de SQL. Seleccione una opción en el generador de topologías para reflejar las bases de datos y el generador de topologías configura la creación de reflejos (incluida la configuración de un testigo, si lo desea) cuando publique la topología. Tenga en cuenta que puede configurar o quitar el testigo al mismo tiempo que configura o quita el reflejo. No hay ningún comando independiente para implementar o quitar un solo testigo.
 
-Para configurar la creación de reflejo de servidor, es necesario que primero configure los permisos de base de datos SQL correctamente. Para obtener más información, consulte "configurar cuentas de inicio de sesión para la creación de reflejo de la base de datos o [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)grupos de disponibilidad AlwaysOn (SQL Server)" en.
+Para configurar la creación de reflejo de servidor, es necesario que primero configure los permisos de base de datos SQL correctamente. Para obtener más información, consulte "configurar cuentas de inicio de sesión para la creación de reflejo de la base de datos o grupos de disponibilidad AlwaysOn (SQL Server)" en [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454) .
 
 Con el reflejo de SQL, el modo de recuperación de bases de datos siempre está configurado como **Completa**. Esto significa que deberá controlar atentamente el tamaño del registro de transacciones y crear copias de seguridad de los registros de transacciones periódicamente para evitar que los servidores back-end se queden sin espacio en disco. La frecuencia con que se deben crear copias de seguridad de los registros de transacciones depende de la tasa de crecimiento del registro, que, a su vez, depende de las transacciones de la base de datos producidas por las actividades del usuario en el grupo de servidores front-end. Le recomendamos que determine el crecimiento estimado del registro de transacciones que se necesitará para la carga de trabajo de su implementación de Lync, de modo que pueda realizar la planeación en consonancia. En los artículos siguientes encontrará información adicional sobre la administración del registro y la copia de seguridad de SQL:
 
-  - Modelos de recuperación de bases de datos: "modelos de recuperación (SQL Server)" en[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
+  - Modelos de recuperación de bases de datos: "modelos de recuperación (SQL Server)" en [https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - Información general sobre copia de seguridad: "información general de copia de seguridad (SQL Server)" en[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
+  - Información general sobre copia de seguridad: "información general de copia de seguridad (SQL Server)" en [https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - Registro de transacciones de copia de seguridad: "copia de seguridad de un registro de transacciones (SQL Server)" en[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
+  - Registro de transacciones de copia de seguridad: "copia de seguridad de un registro de transacciones (SQL Server)" en [https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 Con el reflejo de SQL, puede configurar la topología de creación de reflejos al crear los grupos o después de que ya se hayan creado los grupos.
 
@@ -86,7 +88,7 @@ Con el reflejo de SQL, puede configurar la topología de creación de reflejos a
 
 
 > [!NOTE]
-> Se debe crear un recurso compartido de archivos para que se escriban los archivos reflejados y el servicio en el que se ejecutan SQL Server y SQL Agent necesita acceso de lectura y escritura. Si el servicio de SQL Server se está ejecutando en el contexto del servicio de red, &lt;puede&gt; agregar &lt;el&gt;&#92;de dominio SQLSERVERNAME $ de los servidores SQL principal y de reflejo a los permisos de uso compartido. La $ es importante para identificar que se trata de una cuenta de equipo.
+> Se debe crear un recurso compartido de archivos para que se escriban los archivos reflejados y el servicio en el que se ejecutan SQL Server y SQL Agent necesita acceso de lectura y escritura. Si el servicio de SQL Server se está ejecutando en el contexto del servicio de red, puede Agregar el &lt; &gt;&#92;&lt; de dominio SQLSERVERNAME &gt; $ de los servidores SQL principal y de reflejo a los permisos de uso compartido. La $ es importante para identificar que se trata de una cuenta de equipo.
 
 
 <div>
@@ -151,9 +153,9 @@ Debe tener en cuenta lo siguiente al configurar la creación de reflejos de SQL:
 
   - Cualquier puerto que ya haya sido asignado a otras aplicaciones en el mismo servidor, incluidos aquellos para otras instancias de SQL, no deben utilizarse para las instancias de SQL instaladas a mano. Esto implica que si tiene más de una instancia de SQL instalada en el mismo servidor, no deben usar el mismo puerto para la creación de reflejos. Para obtener más información, consulte los artículos siguientes:
     
-      - "Especificar una dirección de red de servidor (creación de reflejo de la base de datos)" en MSDN Library, en[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
+      - "Especificar una dirección de red de servidor (creación de reflejo de la base de datos)" en MSDN Library, en [https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - "El punto de conexión de creación de reflejo de la base de datos (SQL Server)" en[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
+      - "El punto de conexión de creación de reflejo de la base de datos (SQL Server)" en [https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -249,13 +251,13 @@ La forma más sencilla de configurar la creación de reflejos es con el generado
 
 2.  Compruebe lo siguiente:
     
-      - El puerto 5022 es accesible a través del firewall si firewall de Windows está habilitado en la primario E04 de\_SQL Server principal. RTC\\local. OCS. local.
+      - El puerto 5022 es accesible a través del firewall si firewall de Windows está habilitado en la primario E04 de SQL Server principal. \_ RTC local. OCS. local \\ .
     
-      - El puerto 5022 es accesible a través del firewall si firewall de Windows está habilitado en la copia de\_seguridad de SQL Server reflejo K16\\. OCS. RTC local.
+      - El puerto 5022 es accesible a través del firewall si firewall de Windows está habilitado en la copia de seguridad de SQL Server reflejo K16. \_ OCS. \\ RTC local.
     
-      - El puerto 7022 es accesible a través del firewall si firewall de Windows está habilitado en el testigo SQL\_Server testigo ab14. RTC local\\. OCS. local.
+      - El puerto 7022 es accesible a través del firewall si firewall de Windows está habilitado en el testigo SQL Server testigo ab14. \_ RTC local. OCS. local \\ .
     
-      - Las cuentas que ejecutan los servidores SQL en todos los servidores SQL Server principal y de reflejo tienen permiso de \\ \\lectura y escritura\\en el recurso compartido de archivos E04-OCS csdatabackup
+      - Las cuentas que ejecutan los servidores SQL en todos los servidores SQL Server principal y de reflejo tienen permiso de lectura y escritura en el recurso compartido \\ \\ de archivos E04-OCS \\ csdatabackup
     
       - Asegúrese de que el proveedor de Instrumental de administración de Windows (WMI) se está ejecutando en todos estos servidores. El cmdlet utiliza dicho proveedor para encontrar la información de cuenta de los servicios de SQL Server que se ejecutan en el servidor principal, el reflejado y el testigo.
     
@@ -299,7 +301,7 @@ Después, para quitar el reflejo de la topología, haga lo siguiente:
 
 2.  Desactive **Habilitar creación de reflejos del almacén de SQL** y haga clic en **Aceptar**.
 
-3.  Publicar la topología.
+3.  Publique la topología.
 
 </div>
 
@@ -321,7 +323,7 @@ Use este procedimiento si necesita quitar el testigo de una configuración de cr
     
     Sin embargo, no siga este paso y no escriba `Uninstall-CsMirrorDatabase` como eso que desinstalaría toda la configuración de creación de reflejos.
 
-4.  Para quitar solo el testigo de la configuración de SQL Server, siga las instrucciones que se indican en "quitar el testigo de una sesión de creación de reflejo de [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456)la base de datos (SQL Server)" en.
+4.  Para quitar solo el testigo de la configuración de SQL Server, siga las instrucciones que se indican en "quitar el testigo de una sesión de creación de reflejo de la base de datos (SQL Server)" en [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456) .
 
 </div>
 

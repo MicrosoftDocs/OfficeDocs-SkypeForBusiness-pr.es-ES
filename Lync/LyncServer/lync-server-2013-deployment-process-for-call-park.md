@@ -12,20 +12,22 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6e11f85cb929cdd3dbddcab23caaffcf434f303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 997097da30db000df82cba020b043748a1a5f62d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522637"
 ---
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Proceso de implementación del estacionamiento de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Proceso de implementación del estacionamiento de llamadas en Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ En esta sección se proporciona información general sobre los pasos necesarios 
 <td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar las opciones del estacionamiento de llamadas</p></td>
+<td><p>Configurar opciones de estacionamiento de llamadas</p></td>
 <td><p>Use el cmdlet <strong>set-CsCpsConfiguration</strong> para configurar las opciones de estacionamiento de llamadas. Como mínimo, se recomienda configurar la opción <strong>OnTimeoutURI</strong> para configurar el destino de reserva que se usará cuando se agote el tiempo de espera de una llamada estacionada. También puede configurar las siguientes opciones:</p>
 <ul>
 <li><p><strong>EnableMusicOnHold</strong> (opcional), con la que se habilita o deshabilita las música en espera.</p></li>
@@ -120,7 +122,7 @@ En esta sección se proporciona información general sobre los pasos necesarios 
 <td><p><a href="lync-server-2013-enable-call-park-for-users.md">Habilitar el estacionamiento de llamadas para los usuarios en Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Comprobar reglas de normalización para el estacionamiento de llamadas</p></td>
+<td><p>Comprobar las reglas de normalización para el estacionamiento de llamadas</p></td>
 <td><p>Las órbitas de estacionamiento de llamadas no deben estar normalizadas. Por lo tanto, compruebe que las reglas de normalización no contemplan ninguno de los intervalos de órbitas existentes. Si procede, cree más reglas de normalización con objeto de evitar que las órbitas se normalicen.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>

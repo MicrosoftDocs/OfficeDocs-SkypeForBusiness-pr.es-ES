@@ -12,20 +12,22 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcbfec56f4cfee3def2a0ef6deb82934534dbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4e627dfdc161093d07243e6598807f3ad91cab1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213826"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522717"
 ---
+# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Instrucciones de implementación para el servidor de mediación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Instrucciones de implementación para el servidor de mediación en Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ El servidor de mediación se combina de forma predeterminada en el servidor Stan
 
 Al planear, asegúrese de tener en cuenta los requisitos de procesamiento de medios para las llamadas RTC y las conferencias de A/V que no están configuradas para el desvío de medios, así como el procesamiento necesario para controlar las interacciones de señalización para el número de llamadas de horas no disponibles que deben admitirse. Si no hay suficiente CPU, debe implementar un grupo independiente de servidores de mediación; Además, las puertas de enlace RTC, las IP-PBX y los SBC deberán dividirse en subconjuntos controlados por los servidores de mediación combinados en un grupo y los servidores de mediación independientes en uno o más grupos de servidores independientes.
 
-Si ha implementado puertas de enlace RTC, IP-PBX o controladores de borde de sesión (SBC) que no son compatibles con las funciones correctas para interactuar con un grupo de servidores de mediación, incluidos los siguientes, se deben asociar a un grupo independiente que consista de un servidor de mediación único:
+Si ha implementado puertas de enlace RTC, IP-PBX o controladores de borde de sesión (SBC) que no admiten las capacidades correctas para interactuar con un grupo de servidores de mediación, como los siguientes, se deberán asociar a un grupo independiente que consista en un único servidor de mediación:
 
   - Realizar el equilibrio de carga del sistema de nombres de dominio (DNS) de la capa de red en los servidores de mediación de un grupo (o enrutar el tráfico uniformemente a todos los servidores de mediación de un grupo)
 
@@ -73,7 +75,7 @@ Los servidores de mediación del sitio central se pueden usar para enrutar llama
 
 
 > [!NOTE]  
-> El desvío de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con la IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones que se enumeran en el programa de interoperabilidad abierto de comunicaciones unificadas – Lync Server en <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>.
+> El desvío de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con la IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones que se enumeran en el programa de interoperabilidad abierto de comunicaciones unificadas – Lync Server en <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A> .
 
 
 
@@ -89,7 +91,7 @@ Por último, si el sitio central tiene un PBX TDM, o si el IP-PBX no evita la ne
 
 
 > [!NOTE]  
-> Para mejorar el rendimiento de medios de un servidor de mediación independiente, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de estos servidores. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>recepción en Windows Server" en. Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
+> Para mejorar el rendimiento de medios de un servidor de mediación independiente, debe habilitar el ajuste de escala en el lado de recepción (RSS) en los adaptadores de red de estos servidores. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "mejoras en el ajuste de escala en lado de recepción en Windows Server" en <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A> . Para obtener más información sobre cómo habilitar RSS, consulte la documentación de su adaptador de red.
 
 
 

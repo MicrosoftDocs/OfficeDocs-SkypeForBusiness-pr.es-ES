@@ -12,20 +12,22 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93e750d66f3c18ee0960237ab5ffdfb37784f157
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 97971d339dc57ab8786ff4a05adadd016a87e23a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197993"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522457"
 ---
+# <a name="device-report-in-lync-server-2013"></a>Informe de dispositivos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-report-in-lync-server-2013"></a>Informe de dispositivos en Lync Server 2013
+
 
 </div>
 
@@ -197,7 +199,7 @@ En cuanto a los nombres de dispositivo, el informe de dispositivo es muy detalla
 
 </div>
 
-A menudo deseará un nivel de detalle; en otras ocasiones, sin embargo, es posible que solo le interese el número de llamadas que usan un micrófono Aastra, independientemente del número de modelo. Una forma de obtener información como ésta es exportar los datos del informe de dispositivos a Microsoft Excel y, a continuación, guardarlos en un archivo de valores separados por comas (\\por\\ejemplo\_, C: Data Devices Report. csv). A continuación, puede usar un conjunto de comandos similares a estos para importar el. CSV en Windows PowerShell e Informe sobre el número total de llamadas realizadas con un dispositivo de captura de Aastra:
+A menudo deseará un nivel de detalle; en otras ocasiones, sin embargo, es posible que solo le interese el número de llamadas que usan un micrófono Aastra, independientemente del número de modelo. Una forma de obtener información como ésta es exportar los datos del informe de dispositivos a Microsoft Excel y, a continuación, guardarlos en un archivo de valores separados por comas (por ejemplo, C: \\ dispositivos de datos \\ \_Report.csv). A continuación, puede usar un conjunto de comandos similares a estos para importar el. CSV en Windows PowerShell e Informe sobre el número total de llamadas realizadas con un dispositivo de captura de Aastra:
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -235,7 +237,7 @@ En la siguiente tabla se enumeran los filtros que se pueden usar con el informe 
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
@@ -338,7 +340,7 @@ En la siguiente tabla se enumeran los filtros que se pueden usar con el informe 
 <dd><p>Interno</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>External</p>
+<dd><p>Externo</p>
 </dd>
 </dl></td>
 </tr>
@@ -393,7 +395,7 @@ En la siguiente tabla se enumeran los filtros que se pueden usar con el informe 
 <p>Micrófono (Microsoft LifeCam VX-1000.)</p>
 <p>O bien, puede escribir sólo una parte del nombre. Por ejemplo:</p>
 <p>LifeCam</p>
-<p>Tenga en cuenta que el filtro anterior devuelve cualquier dispositivo que contenga la cadena &quot;LifeCam&quot; en cualquier lugar en su nombre.</p></td>
+<p>Tenga en cuenta que el filtro anterior devuelve cualquier dispositivo que contenga la cadena &quot; LifeCam &quot; en cualquier lugar en su nombre.</p></td>
 </tr>
 </tbody>
 </table>
@@ -441,7 +443,7 @@ En la siguiente tabla se muestra la información proporcionada en el informe de 
 <tr class="even">
 <td><p><strong>Porcentaje de llamadas deficientes</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Porcentaje de llamadas que se han clasificado &quot;como malas. &quot; Una llamada deficiente es cualquier llamada que al menos una de las métricas medidas superó el valor permitido (por ejemplo, una llamada que experimentó una vibración excesiva).</p></td>
+<td><p>Porcentaje de llamadas que se han clasificado como &quot; malas. &quot; Una llamada deficiente es cualquier llamada que al menos una de las métricas medidas superó el valor permitido (por ejemplo, una llamada que experimentó una vibración excesiva).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Usuarios únicos</strong></p></td>

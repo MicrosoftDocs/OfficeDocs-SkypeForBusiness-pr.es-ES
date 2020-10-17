@@ -12,14 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
 description: Use una cámara de contenido en una sala de Microsoft Teams, que interactúa con el software de procesamiento de imágenes para permitir que los moderadores dibujen en una pizarra analógica.
-ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ced0a65c0c1fab25bd1b244aea7301d654c44a9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756901"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508317"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
@@ -96,7 +97,7 @@ Una vez instalada la cámara en la sala, configúrelo en la consola de salas de 
 
 También puede ajustar esta configuración de forma remota con un [archivo de configuración XML](xml-config-file.md).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML](xml-config-file.md)
 

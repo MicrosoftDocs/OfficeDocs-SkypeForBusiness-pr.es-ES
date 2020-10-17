@@ -2,7 +2,9 @@
 title: Directivas de retención en Microsoft Teams
 author: cabailey
 ms.author: cabailey
-ms.reviewer: prvijay
+ms.reviewer:
+- anwara
+- prvijay
 manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0db8b037bdf67f920e1089ae8f67f477e85e3e06
-ms.sourcegitcommit: 39fa1aee7a5e067097b126aa619be5aa099888ff
+ms.openlocfilehash: 18364c69baa2bbf226a898a141d5070580177c24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903809"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520767"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 

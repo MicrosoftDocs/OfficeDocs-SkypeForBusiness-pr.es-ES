@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1.keywords:
-- CSH
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Aprenda a administrar el acceso de los usuarios a los equipos asignando o quitando una licencia de Teams a los usuarios de su organización.
+f1.keywords:
+- CSH
+- ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32ab8f68ef1c37fbb5cb724b322b4db0ee757b84
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521387"
 ---
 # <a name="manage-user-access-to-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 
@@ -31,6 +32,7 @@ Para administrar el acceso a los equipos en el nivel de usuario, asigne o quite 
 
 De forma predeterminada, cuando un plan de licencias (por ejemplo, Microsoft 365 Enterprise E3 o Microsoft 365 Business Premium) se asigna a un usuario, se asigna automáticamente una licencia de Teams y el usuario habilita Teams. Puede deshabilitar o habilitar Teams para un usuario si quita o asigna una licencia en cualquier momento.
 
+Use directivas de mensajería, administradas desde el <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administración de equipos</a>, para controlar las características de mensajería instantánea y de canales disponibles para los usuarios en Teams. Puede usar la directiva predeterminada o bien crear una o más directivas de mensajería personalizadas para los miembros de su organización. Para obtener más información, lea [Administrar directivas de mensajería en Teams](messaging-policies-in-teams.md).
 Administra las licencias de Teams en el centro de administración de Microsoft 365 o mediante PowerShell. Para administrar las licencias, debe ser administrador global o administrador de administración de usuarios.
 
 > [!NOTE]
@@ -38,6 +40,10 @@ Administra las licencias de Teams en el centro de administración de Microsoft 3
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Usar el centro de administración de Microsoft 365
 
+Las licencias de nivel de usuario de Teams se administran directamente a través de las interfaces de administración de usuarios del centro de administración de Microsoft 365. Un administrador puede asignar licencias a nuevos usuarios al crear cuentas de usuario, así como a los usuarios con cuentas existentes. 
+
+> [!IMPORTANT]
+> El administrador debe tener privilegios de administrador global o de administrador de administración de usuarios para administrar las licencias de Microsoft Teams.
 Use el centro de administración de Microsoft 365 para administrar licencias de Teams para usuarios individuales o conjuntos pequeños de usuarios a la vez. Puede administrar las licencias de Teams en la página **licencias** (para un máximo de 20 usuarios a la vez) o en la página **usuarios activos** . El método que elija dependerá de si desea administrar las licencias de producto para usuarios específicos o administrar licencias de usuario para productos específicos.
 
 Si necesita administrar licencias de Teams para un gran número de usuarios, como cientos o miles de usuarios, [use PowerShell](#using-powershell) o [licencias basadas en grupos en Azure Active Directory (Azure ad)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). 
@@ -85,7 +91,7 @@ Ejecute el siguiente comando para mostrar todos los planes de licencias disponib
 
       Get-MsolAccountSku
 
-Ejecute los siguientes comandos, donde \<CompanyName: License> es el nombre de su organización y el identificador del plan de licencias que recuperó en el paso anterior. Por ejemplo, ContosoSchool: ENTERPRISEPACK_STUDENT.
+Ejecute los siguientes comandos, donde \<CompanyName:License> es el nombre de su organización y el identificador del plan de licencias que recuperó en el paso anterior. Por ejemplo, ContosoSchool: ENTERPRISEPACK_STUDENT.
 
       $acctSKU="<CompanyName:License>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"

@@ -4,13 +4,16 @@ description: Encuentre todos los cursos de aprendizaje disponibles para el centr
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
-ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
-ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
+audience: admin
+manager: serdars
+ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514947"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sesiones de Teams en encendido 2020
 
@@ -85,7 +88,7 @@ ms.locfileid: "48357608"
 |[Creación de aplicaciones personalizadas, bots y automatización para Microsoft Teams con capacidades de bajo código](https://aka.ms/PR134)|Aprenda a empezar a crear soluciones personalizadas para equipos.  Profundizaremos en la integración de Teams + Power Platform para mostrar cómo el usuario puede crear herramientas digitales personalizadas, incluso si no tienen experiencia de desarrollador|300|Pedro Daderko, Geneve Estrada|
 |[Eleva las experiencias de usuario con Teams y tarjeta adaptativa](https://aka.ms/PR135)|La plataforma de Teams con tarjetas adaptables permite crear experiencias de usuario que se integran y son perfectamente integradas en Teams. En esta sesión, trataremos cómo los desarrolladores pueden aprovechar las nuevas capacidades para crear experiencias contextuales y conformes que eleven la colaboración en Teams.|300|Suryamanohar Mallela, Shubham Chauhan|
 |[Sugerencias y trucos: procedimientos recomendados y desafíos comunes al crear aplicaciones de Microsoft Teams](https://aka.ms/PR136) |Únase a nosotros en una sesión en la que tratamos algunos desafíos comunes en los que los desarrolladores ejecutan a medida que crean aplicaciones de Teams. Los desarrolladores dejarán esta sesión con sugerencias y perspectivas que pueden usar a medida que continúan el viaje de desarrollo de aplicaciones de Teams.|400|Asier Solis, desescape de Susana|
-|[Creación de aplicaciones sin fricción & habilitar la adopción perfecta con capacidades de autorización y autenticación y Microsoft Graph](https://aka.ms/PR137)|Desarrolle aplicaciones con funciones eficaces como el inicio de sesión único (SSO), el consentimiento específico de recursos (RSC), permisos granulares y dónde los administradores de TI pueden aprender a aprovechar las API de gráficos para automatizar el ciclo de vida de la aplicación y la administración.|400|Nick Kramer|
+|[Creación de aplicaciones sin fricción & habilitar la adopción perfecta con capacidades de autorización y autenticación y Microsoft Graph](https://aka.ms/PR137)|Desarrolle aplicaciones con capacidades eficaces como Sign-On único (SSO), consentimiento de Resource-Specific (RSC), permisos granulares y dónde los administradores de TI pueden aprender a aprovechar las API de gráficos para automatizar la administración y el ciclo de vida de las aplicaciones.|400|Nick Kramer|
 ||||||
 
 ### <a name="industry"></a>Del sector

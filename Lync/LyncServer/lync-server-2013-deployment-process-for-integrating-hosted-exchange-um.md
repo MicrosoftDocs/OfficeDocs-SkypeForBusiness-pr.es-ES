@@ -12,20 +12,22 @@ ms:contentKeyID: 48185586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfd58efd994e7034253fd3314e66d956e3259bcb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68ae12ee384a78acd8c5c390715b05791b7a0df8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522597"
 ---
+# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>Proceso de implementación para integrar la mensajería unificada de Exchange hospedada con Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>Proceso de implementación para integrar la mensajería unificada de Exchange hospedada con Lync Server 2013
+
 
 </div>
 

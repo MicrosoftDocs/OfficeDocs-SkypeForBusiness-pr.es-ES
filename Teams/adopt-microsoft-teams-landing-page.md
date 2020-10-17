@@ -9,23 +9,24 @@ manager: serdars
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.adoption
-- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
+- seo-marvel-apr2020
+- Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d6e00077b3d3d563ab35358ab93942db4fa5aa4
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 14738e22293dfb543cf49019a5df6a4539c8e251
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503487"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 

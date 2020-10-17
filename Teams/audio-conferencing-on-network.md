@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A continuación se describe la funcionalidad de Open Preview para las conferencias de audio en red.
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444216"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503477"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Abrir vista previa de conferencias en red para conferencias de audio
 
@@ -63,7 +63,7 @@ Puede encontrar los números de servicio en el centro de administración de Team
 
 Los equipos que reúnen las llamadas de acceso telefónico se inician desde una reunión de su organización a números RTC, incluidas las llamadas y llamadas en persona, y las llamadas para incluir a nuevos participantes en una reunión. 
 
-Para habilitar a los equipos el enrutamiento de marcado saliente mediante enrutamiento directo, debe crear y asignar una directiva de enrutamiento de audioconferencia denominada "OnlineAudioConferencingRoutingPolicy". 
+Para habilitar a los equipos a hacer reuniones de acceso telefónico saliente a través del enrutamiento directo a los usuarios de la red, debe crear y asignar una directiva de enrutamiento de audioconferencia denominada "OnlineAudioConferencingRoutingPolicy". 
 
 La Directiva OnlineAudioConferencingRoutingPolicy es equivalente a la CsOnlineVoiceRoutingPolicy para llamadas RTC de 1:1 a través de enrutamiento directo. La Directiva OnlineAudioConferencingRoutingPolicy se puede administrar con los siguientes cmdlets:
 

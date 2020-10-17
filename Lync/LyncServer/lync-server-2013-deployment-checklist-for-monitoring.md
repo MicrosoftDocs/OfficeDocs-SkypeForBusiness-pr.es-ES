@@ -12,20 +12,22 @@ ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca72cf23ea3cb761dd652efae63ef086cae2e198
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f6cf28170044b7580fd07321b081e9366b056cd1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522767"
 ---
+# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Lista de comprobación de implementación para la supervisión en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Lista de comprobación de implementación para la supervisión en Lync Server 2013
+
 
 </div>
 

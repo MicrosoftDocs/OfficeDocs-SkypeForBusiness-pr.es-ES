@@ -3,10 +3,10 @@ title: Recursos de Microsoft Teams para administradores de educación
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
+ms.reviewer: olbesede
 description: Los administradores de educación pueden obtener información sobre los recursos disponibles en Microsoft Teams para habilitar el aprendizaje remoto.
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3c34fa27053e83b9c9d05f9ab4f6e8fb4222cd7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9af89101620902c86ba52dfb986f54a8637ce097
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905512"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518037"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para administradores de educación
 ==============================================

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a8bc7072cb1faa197f733d01eb545a964ed6612
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52920c81e2055b5151280bbd65e9b2b6a90c0b73
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522807"
 ---
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lista de comprobación para la implementación de E9-1-1 en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lista de comprobación para la implementación de E9-1-1 en Lync Server 2013
+
 
 </div>
 
@@ -104,7 +106,7 @@ En la tabla siguiente se proporciona información general del proceso de impleme
 <td><p>Configurar la base de datos de ubicaciones</p></td>
 <td><ol>
 <li><p>Rellene la base de datos con asignaciones de elementos de red a ubicaciones.</p></li>
-<li><p>Para las puertas de enlace ELIN, agregue Elin a &lt;la&gt; columna CompanyName.</p></li>
+<li><p>Para las puertas de enlace ELIN, agregue Elin a &lt; la &gt; columna CompanyName.</p></li>
 <li><p>Configure la conexión con el proveedor de servicios de E9-1-1 para validar las direcciones.</p></li>
 <li><p>Valide las direcciones con el proveedor de servicios E9-1-1.</p></li>
 <li><p>Publique la base de datos actualizada.</p></li>

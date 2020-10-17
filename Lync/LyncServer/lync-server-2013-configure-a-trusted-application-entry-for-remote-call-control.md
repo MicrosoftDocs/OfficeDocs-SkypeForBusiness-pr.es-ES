@@ -12,20 +12,22 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0135d26f0483b10752c8a823fdbda15ab9ba37b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f8175a351d13675c048efce7a2f831af7ab2c31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205226"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523067"
 ---
+# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Configurar una entrada de aplicación de confianza para el control remoto de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Configurar una entrada de aplicación de confianza para el control remoto de llamadas en Lync Server 2013
+
 
 </div>
 
@@ -101,7 +103,7 @@ La puerta de enlace SIP/CSTA debe estar configurada como aplicación de confianz
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configurar una ruta estática para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  

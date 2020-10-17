@@ -3,7 +3,7 @@ title: Teams en 30
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.date: 7/1/19
+ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
 ms.collection:
@@ -19,12 +19,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e108db74324deef93b2306e1d0fda8a8c69ad3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f87375db770db8ef6df85989dd228a4ccb376b02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584109"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515877"
 ---
 # <a name="teams-in-30"></a>Teams en 30
 <div id="main" class="v2">

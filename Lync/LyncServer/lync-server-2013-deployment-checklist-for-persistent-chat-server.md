@@ -12,20 +12,22 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a01d38cec8d03a75d5f295c61f6e591da43f4a61
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2399d6ce6fc17a802c8f6bc39730370948ef0253
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213825"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522747"
 ---
+# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lista de comprobación para la implementación del servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lista de comprobación para la implementación del servidor de chat persistente en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ En la siguiente tabla se enumeran los pasos básicos para implementar el servido
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tarea</th>
+<th>Task</th>
 <th>Pasos</th>
 <th>Roles y pertenencias a grupos necesarios</th>
 <th>Temas relacionados</th>
@@ -107,7 +109,7 @@ En la siguiente tabla se enumeran los pasos básicos para implementar el servido
 <li><p>Haga clic en la casilla definición del grupo de servidores de chat persistente para habilitar el cumplimiento</p></li>
 <li><p>Publicar la topología</p></li>
 </ul>
-<p>Si instala el servidor de chat persistente en Standard Edition, el nombre de dominio completo (FQDN) del grupo de servidores de chat persistente debe coincidir con el servidor Standard Edition y las bases de datos de SQL Server se combinan en la instancia de SQL Server Express en el estándar Servidor de edición</p></td>
+<p>Si instala el servidor de chat persistente en Standard Edition, el nombre de dominio completo (FQDN) del grupo de servidores de chat persistente debe coincidir con el servidor Standard Edition y las bases de datos de SQL Server se combinan en la instancia de SQL Server Express en el servidor Standard Edition.</p></td>
 <td><p>Para definir una topología, una cuenta que pertenezca al grupo de usuarios locales.</p>
 <p>Para publicar la topología, una cuenta que sea miembro del grupo administradores de dominio y del grupo RTCUniversalServerAdmins, y el usuario también debe tener permisos de control total (lectura/escritura/modificación) en el almacén de archivos de Lync para los archivos del servidor de chat persistente (para que el generador de topologías pueda configurar las DACL necesarias).</p></td>
 <td><p><a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adición de un servidor de chat persistente a la implementación en Lync Server 2013</a> en la documentación de implementación</p></td>

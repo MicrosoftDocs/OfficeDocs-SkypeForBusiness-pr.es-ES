@@ -12,20 +12,22 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 049de11361f0d27390df75592035bd31eca17c18
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 298e0f2667707c0ff73819b6fdd38ab105474d91
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201996"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522247"
 ---
+# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Planeación de la integración de la mensajería unificada de Exchange en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Planeación de la integración de la mensajería unificada de Exchange en Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server 2013 admite la integración con la mensajería unificada (UM) de Exc
 
 En Microsoft Exchange Server 2013, la mensajería unificada de Exchange se ejecuta como un servicio en un servidor de buzones de Exchange. Para las implementaciones de Lync Server 2013 Enterprise Voice, la mensajería unificada combina la mensajería de voz y la mensajería de correo electrónico en un solo almacén que está disponible desde un teléfono (Outlook Voice Access) o un equipo. La mensajería unificada y Lync Server 2013 funcionan de forma conjunta para proporcionar servicios de contestador automático, Outlook Voice Access y operador automático a los usuarios de telefonía IP empresarial.
 
-Para obtener más información acerca de los cambios en la arquitectura de Microsoft Exchange Server 2013, consulte "Voice Architecture Changes" en la documentación [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730)de Microsoft exchange Server 2013 en.
+Para obtener más información acerca de los cambios en la arquitectura de Microsoft Exchange Server 2013, consulte "Voice Architecture Changes" en la documentación de Microsoft Exchange Server 2013 en [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730) .
 
 Para que estas características se admitan en una implementación local de mensajería unificada de Exchange, debe estar ejecutando una de las siguientes opciones:
 

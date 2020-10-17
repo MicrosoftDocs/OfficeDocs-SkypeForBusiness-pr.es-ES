@@ -4,7 +4,7 @@ ms.reviewer: corbinm
 ms.author: v-cichur
 author: cichur
 manager: serdars
-ms.date: 06/04/20
+ms.date: 06/04/2020
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Obtenga información sobre la compatibilidad de la virtualización con Skype empresarial Server 2019.'
-ms.openlocfilehash: b4524b1284a85e7ab372b415d45c2005f8212887
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: edced9b0f884cbf76b224c9049cf3498c8f8b45c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509037"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>Compatibilidad con la virtualización en Skype empresarial Server 2019
 

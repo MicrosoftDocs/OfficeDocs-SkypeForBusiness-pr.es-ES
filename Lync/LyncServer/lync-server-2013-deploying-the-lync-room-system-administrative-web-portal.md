@@ -12,20 +12,22 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b95e9b1ba6543add17ec27fec9e5f787ec7acd29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7a7f3589f809fa9dfcbfa872653fb4cb8161ea8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205386"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522917"
 ---
+# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Implementación del portal web administrativo de Lync Room System en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Implementación del portal web administrativo de Lync Room System en Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Después de implementar el portal web administrativo de LRS en el servidor, los 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Implementación de conferencias en Lync Server 2013](lync-server-2013-deploying-conferencing.md)  

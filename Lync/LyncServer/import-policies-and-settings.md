@@ -12,20 +12,22 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c6a56f1a622aca4d3f50565bc86528cf474c845
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1163a8abc54f60d55f1042d6d82552ca9f133a60
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756539"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523397"
 ---
+# <a name="import-policies-and-settings"></a>Importación de directivas y parámetros
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-policies-and-settings"></a>Importación de directivas y parámetros
+
 
 </div>
 

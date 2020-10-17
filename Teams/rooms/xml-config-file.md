@@ -13,14 +13,15 @@ localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada usada por un dispositivo de salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración maestra.
-ms.openlocfilehash: a9a9015891782e306b772e55c2ce132e4d2f3b15
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: def2076398e54137c125489ef4da1fb84e4f57d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803932"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521607"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML
 
@@ -178,7 +179,7 @@ Para ubicar la ruta de acceso de la instancia:
 6. Seleccione la pestaña **detalles** y busque la propiedad de la ruta de acceso de la **instancia de dispositivo** en la lista desplegable.
 7. El valor que se muestra es la ruta de instancia de dispositivo que se establece en el archivo de configuración XML. Al especificar la ruta de acceso en XML, reemplace el símbolo de y comercial (&) con `&amp;` .
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Cámaras de contenido](content-camera.md)
 
