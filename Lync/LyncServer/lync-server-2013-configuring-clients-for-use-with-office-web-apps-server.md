@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de clientes para su uso con Office Web Apps Server'
+description: 'Lync Server 2013: configuración de clientes para su uso con Office Web Apps Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2bf46a16d38e37dd8faac39a438053dcc7b8c103
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b9bd7cf1e76c481c40381234ba1a84cda5500dc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537067"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545526"
 ---
 # <a name="configuring-clients-of-lync-server-2013-for-use-with-office-web-apps-server"></a>Configuración de clientes de Lync Server 2013 para su uso con Office Web Apps Server
 

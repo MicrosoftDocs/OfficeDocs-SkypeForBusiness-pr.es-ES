@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de la capacidad para el estacionamiento de llamadas'
+description: 'Lync Server 2013: Planeación de la capacidad para el estacionamiento de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 079d1517afa72eeff607920d86b093ac01d673de
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 053a6dabad9d10540e84e9e4f43de09057c295f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512837"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544546"
 ---
 # <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Planeación de la capacidad para el estacionamiento de llamadas en Lync Server 2013
 

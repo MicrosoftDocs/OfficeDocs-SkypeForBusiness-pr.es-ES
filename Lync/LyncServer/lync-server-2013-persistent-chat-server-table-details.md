@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: detalles de la tabla del servidor de chat persistente'
+description: 'Lync Server 2013: detalles de la tabla del servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cde75ceb141a81af1b6a093742edd23b4adf1716
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a27feaaccf861d537127f06920cf903be5ae000
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545136"
 ---
 # <a name="persistent-chat-server-table-details-in-lync-server-2013"></a>Detalles de la tabla del servidor de chat persistente en Lync Server 2013
 

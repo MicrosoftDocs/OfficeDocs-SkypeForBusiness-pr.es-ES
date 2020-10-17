@@ -1,5 +1,6 @@
 ---
 title: Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition
+description: Quite el servidor front-end Enterprise Edition o el servidor front-end Standard Edition.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68f84d28dbf38eab710f4f16e30c4474720d8014
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 722c2ba7cc4b841b283d0f230fd4dc2ecaf4cc5f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526437"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545916"
 ---
 # <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>Quitar el servidor front-end Enterprise Edition o el servidor front-end Standard Edition
 

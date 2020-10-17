@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cumplimiento de chat persistente'
+description: 'Lync Server 2013: cumplimiento de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8255d4d2600366d63142d5c7cff2f74edff1399a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4524ab38b5d7faa76123a156dd9b726f57ac6ed1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524277"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544756"
 ---
 # <a name="persistent-chat-compliance-in-lync-server-2013"></a>Cumplimiento de chat persistente en Lync Server 2013
 

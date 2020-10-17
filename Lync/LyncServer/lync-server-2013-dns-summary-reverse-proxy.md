@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Resumen de DNS-proxy inverso'
+description: 'Lync Server 2013: Resumen de DNS-proxy inverso.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a468e74206fdc6bad8f078267688450636b8a725
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dc2d806893786a11317be1eff9bfdc08c9230bf3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532147"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544796"
 ---
 # <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>Resumen de DNS-proxy inverso en Lync Server 2013
 

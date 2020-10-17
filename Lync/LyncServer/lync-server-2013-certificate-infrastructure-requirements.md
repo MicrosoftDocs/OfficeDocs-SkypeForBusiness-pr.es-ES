@@ -1,5 +1,6 @@
 ---
 title: Requisitos de infraestructura de certificados 2013 de Lync Server
+description: Requisitos de infraestructura de certificados 2013 de Lync Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18666f33becabcbdf61370a32900ae7a4819e0cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 02c7e69f272c29f0ba9386f403db326b4d39bbff
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508027"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544296"
 ---
 # <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Requisitos de infraestructura de certificados para Lync Server 2013
 

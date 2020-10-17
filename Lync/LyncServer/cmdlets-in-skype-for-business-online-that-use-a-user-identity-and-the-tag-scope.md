@@ -1,5 +1,6 @@
 ---
 title: Cmdlets de Skype empresarial online que usan una identidad de usuario y el ámbito de etiqueta
+description: Cmdlets de Skype empresarial online que usan una identidad de usuario y el ámbito de la etiqueta.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9adf86a6ec6d2bd859411005dcc67b0dcbe09c7f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3e2ddbcc9c90096cea5fad4cb680f4ea1797ce48
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755122"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545616"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>Cmdlets de Skype empresarial online que usan una identidad de usuario y el ámbito de etiqueta
 
@@ -37,7 +38,7 @@ Este comando produce un error porque no es necesario asignar la directiva global
 
 
 > [!NOTE]  
-> ¿Qué ocurre si el usuario ya tiene asignada una directiva por usuario y desea quitar la asignación de esa Directiva y, en su lugar, administrar al usuario la directiva global? En ese caso, primero usará la siguiente sintaxis, que anula la asignación de una directiva por usuario al conceder a esa usuario una directiva nula:<BR>Grant-CsVoicePolicy – Identity "Ken Myer" – PolicyName $Null
+> ¿Qué ocurre si el usuario ya tiene asignada una directiva por usuario y desea quitar la asignación de esa Directiva y, en su lugar, administrar al usuario la directiva global? En ese caso, primero usará la siguiente sintaxis, que anula la asignación de una directiva por usuario al conceder a esa usuario una directiva nula:<BR>Grant-CsVoicePolicy – Identity "Ken Myer": PolicyName $Null
 
 
 
@@ -64,7 +65,7 @@ Los siguientes cmdlets usan la identidad del usuario y el ámbito de la etiqueta
 
   - [Grant-CsVoicePolicy](https://technet.microsoft.com/library/gg398828\(v=ocs.15\))
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Identidades, ámbitos e inquilinos en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  

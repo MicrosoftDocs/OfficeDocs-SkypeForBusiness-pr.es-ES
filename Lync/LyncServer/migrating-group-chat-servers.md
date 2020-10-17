@@ -1,5 +1,6 @@
 ---
 title: Migrar servidores de chat en grupo
+description: Migrar servidores de chat en grupo.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9373a04f7b8d7aa95532d33c875b5e6acc9d58d4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 87c2373e8d182255c3037f70a365f49f3c64f57e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527397"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545956"
 ---
 # <a name="migrating-group-chat-servers"></a>Migrar servidores de chat en grupo
 

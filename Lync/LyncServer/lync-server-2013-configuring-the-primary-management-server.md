@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar el servidor de administración principal'
+description: 'Lync Server 2013: configurar el servidor de administración principal.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4fee1fa728c3c418c1f837a83248d95df7e7544
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 43f986f4f03e96cafa27dfdd302bb98a00d8b2ae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532317"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544166"
 ---
 # <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>Configurar el servidor de administración principal en Lync Server 2013
 

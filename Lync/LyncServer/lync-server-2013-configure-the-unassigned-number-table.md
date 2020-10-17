@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar la tabla de números sin asignar'
+description: 'Lync Server 2013: configurar la tabla de números sin asignar.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c73027511ec8798010f1d22fb9bd19eeab27a7f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8ed8ba6c709311dab791b711d6ba69aaff72a630
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520257"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544896"
 ---
 # <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a>Configurar la tabla de números sin asignar en Lync Server 2013
 

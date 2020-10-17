@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de movilidad'
+description: 'Lync Server 2013: implementación de la movilidad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 118e0d1384f3ef74c3b42341e659694a228c3675
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cf927b950f8b94884fb91224a87e196fc815fca1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507347"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545206"
 ---
 # <a name="deploying-mobility-in-lync-server-2013"></a>Implementación de la movilidad en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar o deshabilitar el acceso de usuarios anónimos'
+description: 'Lync Server 2013: habilitar o deshabilitar el acceso de usuarios anónimos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f58ab7d0f3d47da8bae3df94c3c83b1eae0059e6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4ca36cffc25cd31d057b00c22cb299c56cfd7b3c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501087"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544776"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a>Habilitar o deshabilitar el acceso de usuarios anónimos en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definición de los requisitos para los servidores front-end, la mensajería instantánea y la presencia'
+description: 'Lync Server 2013: definir los requisitos para los servidores front-end, la mensajería instantánea y la presencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54629a270fcba5f6237deaaa1146108e16bafef7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 923132b32d5aef80191b19a7b85c3f17276e5946
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504337"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545376"
 ---
 # <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Definición de los requisitos para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
 

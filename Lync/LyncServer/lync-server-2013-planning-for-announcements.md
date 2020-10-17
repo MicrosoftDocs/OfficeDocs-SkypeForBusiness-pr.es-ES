@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de anuncios'
+description: 'Lync Server 2013: Planeación de anuncios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8a55c8d4e1cb564cb3e83d3616baeb931383173
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ae712ffd8a1ca17166d92b0014d0a2acf2060e8d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497917"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544696"
 ---
 # <a name="planning-for-announcements-in-lync-server-2013"></a>Planeación de anuncios en Lync Server 2013
 

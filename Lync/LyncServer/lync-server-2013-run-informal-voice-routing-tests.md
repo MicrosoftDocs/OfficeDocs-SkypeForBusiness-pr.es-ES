@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ejecutar pruebas de enrutamiento de voz informal'
+description: 'Lync Server 2013: ejecutar pruebas de enrutamiento de voz informal.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fd8c20adfa98a10bd0b9a89ad31dda37e4510e8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6029be34f4e4e7b366cb73f56ca611b4773331fd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545036"
 ---
 # <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Ejecutar pruebas de enrutamiento de voz informal en Lync Server 2013
 

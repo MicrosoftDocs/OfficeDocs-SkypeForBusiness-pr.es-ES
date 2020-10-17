@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: detalles de la tabla de CDR'
+description: 'Lync Server 2013: detalles de la tabla de CDR.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47a9554be31e4ea93d7b8a0a2fc0de040d26d78c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 331a3dfd4ffccac2ac4a442eeb9ad9171defb41c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508057"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544396"
 ---
 # <a name="cdr-table-details-in-lync-server-2013"></a>Detalles de la tabla de CDR en Lync Server 2013
 

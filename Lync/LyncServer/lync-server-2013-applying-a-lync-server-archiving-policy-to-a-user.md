@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: aplicar una directiva de archivado de Lync Server a un usuario'
+description: 'Lync Server 2013: aplicar una directiva de archivado de Lync Server a un usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185024
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cad9784eb2c50662bfedc460cb0dbc8c892206c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 69dcca5601185d65735b963673322a0630af6ebd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504937"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544996"
 ---
 # <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Aplicar una directiva de archivado de Lync Server a un usuario en Lync Server 2013
 

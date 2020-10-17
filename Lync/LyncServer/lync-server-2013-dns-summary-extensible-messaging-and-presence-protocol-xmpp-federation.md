@@ -1,5 +1,6 @@
 ---
 title: Resumen de DNS-Federación del protocolo extensible de mensajería y presencia (XMPP)
+description: Resumen de DNS-Federación del protocolo extensible de mensajería y presencia (XMPP).
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ac2e44382aa75b61ae4e2966b5ef87fd977e798
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b8088e30c93faa52c575fefa97e572ed20b6ad9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532137"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544806"
 ---
 # <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Resumen de DNS-Federación del protocolo extensible de mensajería y presencia (XMPP) en Lync Server 2013
 

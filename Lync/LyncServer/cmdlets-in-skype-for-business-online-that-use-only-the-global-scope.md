@@ -1,5 +1,6 @@
 ---
 title: Cmdlets de Skype empresarial online que solo usan el ámbito global
+description: Cmdlets de Skype empresarial online que solo usan el ámbito global.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97f3c8d9ca7dda0b96db211192350184cbf27b1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a2f59806128ceea825a4cdd966e85852b98079b0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755102"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545606"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>Cmdlets de Skype empresarial online que solo usan el ámbito global
 
@@ -82,22 +83,22 @@ En segundo lugar, el cmdlet **Remove-CsVoicePolicy** no elimina realmente la Dir
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Falso</p></td>
+<td><p>False</p></td>
 <td><p>Valor predeterminado</p></td>
 </tr>
 <tr class="even">
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Una vez modificada la directiva global</p></td>
 </tr>
 <tr class="odd">
-<td><p>Falso</p></td>
+<td><p>False</p></td>
 <td><p>Después <strong>de ejecutar el cmdlet Remove-CsVoicePolicy</strong></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Identidades, ámbitos e inquilinos en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  

@@ -1,5 +1,6 @@
 ---
 title: Implementar una aplicación de sucursal con funciones de supervivencia o una tarea de sitio de sucursal de servidor
+description: Implementar una aplicación de sucursal con funciones de supervivencia o una tarea de sitio de sucursal de servidor.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184586
 ms.date: 10/29/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 835de118f46dba61fe86ee3f412c55d945dfb2a9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b84f603f185bd507111d4767a22e9009fc0e8b3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521657"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545306"
 ---
 # <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Implementar una aplicación o un servidor de sucursal con funciones de supervivencia con Lync Server 2013: tarea de sitio de sucursal
 

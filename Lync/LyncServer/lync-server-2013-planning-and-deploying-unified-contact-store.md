@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación e implementación de almacén de contactos unificados'
+description: 'Lync Server 2013: planear e implementar el almacén de contactos unificado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82c5b2da6cb20a286cccbd0608bb0195f4030029
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dc918e0543eb5dadabb5c64a84ef9747c0e5835f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519827"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544736"
 ---
 # <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a>Planeación e implementación de almacén de contactos unificados en Lync Server 2013
 

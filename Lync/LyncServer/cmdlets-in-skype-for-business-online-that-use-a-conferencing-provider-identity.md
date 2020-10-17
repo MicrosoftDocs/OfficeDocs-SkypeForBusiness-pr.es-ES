@@ -1,5 +1,6 @@
 ---
 title: Cmdlets de Skype empresarial online que usan una identidad de proveedor de conferencias
+description: Cmdlets de Skype empresarial online que usan una identidad de proveedor de conferencias.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558858
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: accaad94f5e29863ac948ea64d061d23b811105f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 61ab4fb410878ca73314b73737948d9961462c87
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755132"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545736"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a>Cmdlets de Skype empresarial online que usan una identidad de proveedor de conferencias
 
@@ -37,7 +38,7 @@ Solo hay un cmdlet de Skype empresarial online que acepta un identificador de pr
 
   - [Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Identidades, ámbitos e inquilinos en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  

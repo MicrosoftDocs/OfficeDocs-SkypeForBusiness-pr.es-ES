@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de servidores de mediación y definición de homólogos'
+description: 'Lync Server 2013: implementación de servidores de mediación y definición de sistemas del mismo nivel.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b22a232bd304d4db3faae168f42dae11cea8fc4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fc3afce038371920beea1cc52549d8d027429e08
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507387"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545236"
 ---
 # <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Implementación de servidores de mediación y definición de pares en Lync Server 2013
 

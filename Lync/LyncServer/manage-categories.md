@@ -1,5 +1,6 @@
 ---
 title: Administración de categorías
+description: Administrar categorías.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87dee81fa0a8b51b3d3834b0ad8cca4e18b321e6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bf335b96c455647ebeb665364944e15d2e463fbe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506307"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545936"
 ---
 # <a name="manage-categories"></a>Administración de categorías
 

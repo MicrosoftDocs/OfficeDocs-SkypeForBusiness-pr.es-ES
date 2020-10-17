@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definición de los requisitos para el control de admisión de llamadas'
+description: 'Lync Server 2013: definición de los requisitos para el control de admisión de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13a06cfc55481fcfada5782fcbedbac52e6a7660
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c9f675ac5811e0c0c1c23dc76ebb8b4525857836
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504427"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545426"
 ---
 # <a name="defining-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Definición de los requisitos para el control de admisión de llamadas en Lync Server 2013
 

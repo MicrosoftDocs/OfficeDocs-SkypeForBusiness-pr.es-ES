@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definición de los requisitos para las conferencias'
+description: 'Lync Server 2013: definición de los requisitos para las conferencias.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9572317dc88d354f7df815be5dcb3cae4ffeba6b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 009a80d2fd48341723743bb6a06ad2ee05289a6c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504377"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545416"
 ---
 # <a name="defining-your-requirements-for-conferencing-in-lync-server-2013"></a>Definición de los requisitos para las conferencias en Lync Server 2013
 

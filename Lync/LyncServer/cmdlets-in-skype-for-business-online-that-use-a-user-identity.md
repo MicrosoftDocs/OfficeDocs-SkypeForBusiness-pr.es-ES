@@ -1,5 +1,6 @@
 ---
 title: Cmdlets de Skype empresarial online que usan una identidad de usuario
+description: Cmdlets de Skype empresarial online que usan una identidad de usuario.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aee680c6e55de62ff9d49724d3e480c00159aa4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 29f838317f8b2779de862eb2df82ae1b348871e4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755112"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545656"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Cmdlets de Skype empresarial online que usan una identidad de usuario
 
@@ -77,7 +78,7 @@ El parámetro Identity solo es necesario si desea devolver información de un us
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Identidades, ámbitos e inquilinos en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  

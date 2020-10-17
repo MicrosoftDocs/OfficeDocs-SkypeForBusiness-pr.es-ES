@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de la detección automática'
+description: 'Lync Server 2013: Planeación de detección automática.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6416e2ed817dc3cc03a0ec516175c92623bb31b3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e28a6a3a317f063151eadde7c5de51b02a46b482
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497877"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544636"
 ---
 # <a name="planning-for-autodiscover-in-lync-server-2013"></a>Planeación de la detección automática en Lync Server 2013
 

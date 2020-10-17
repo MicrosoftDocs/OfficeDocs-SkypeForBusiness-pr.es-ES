@@ -1,5 +1,6 @@
 ---
 title: Control de admisión de llamadas con una puerta de enlace RTC o PBX de terceros
+description: Control de admisión de llamadas con una puerta de enlace RTC o PBX de terceros.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7abd33af2dd2a7a5858fd8b888201b6471d0cf9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: aaab42992047ecedcc00ea1ecf5cf69023e51097
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502817"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545666"
 ---
 # <a name="call-admission-control-in-lync-server-2013-with-a-third-party-pstn-gateway-or-pbx"></a>Control de admisión de llamadas en Lync Server 2013 con una puerta de enlace RTC o PBX de terceros
 
