@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: directivas de conferencia'
+description: 'Lync Server 2013: directivas de conferencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 681dbf0d6786656afcee12120e1b26d95bee41df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6f117cfb077fc24c3e728e208d8bef78cd3284ae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502307"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542746"
 ---
-# <a name="conferencing-policies-in-lync-server-2013"></a><span data-ttu-id="db98c-102">Directivas de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="db98c-102">Conferencing policies in Lync Server 2013</span></span>
+# <a name="conferencing-policies-in-lync-server-2013"></a><span data-ttu-id="10557-103">Directivas de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10557-103">Conferencing policies in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48502307"
 
 <span> </span>
 
-<span data-ttu-id="db98c-103">_**Última modificación del tema:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="db98c-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="10557-104">_**Última modificación del tema:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="10557-104">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="db98c-p101">La directiva de conferencias define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también denominada "reunión") La configuración de la directiva de conferencias engloba una gran variedad de opciones de programación y participación, que van desde la posibilidad de que una reunión incluya audio IP hasta la capacidad de decidir el número máximo de personas que puede asistir a dicha reunión. Los administradores pueden usar la directiva de conferencias para administrar la seguridad, el ancho de banda y los aspectos legales de las reuniones.</span><span class="sxs-lookup"><span data-stu-id="db98c-p101">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting). Conferencing policy settings encompass a wide variety of scheduling and participation options, ranging from whether a meeting can include IP audio and video to the maximum number of people who can attend. Administrators can use conferencing policy to manage security, bandwidth, and legal aspects of meetings.</span></span>
+<span data-ttu-id="10557-p101">La directiva de conferencias define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también denominada "reunión") La configuración de la directiva de conferencias engloba una gran variedad de opciones de programación y participación, que van desde la posibilidad de que una reunión incluya audio IP hasta la capacidad de decidir el número máximo de personas que puede asistir a dicha reunión. Los administradores pueden usar la directiva de conferencias para administrar la seguridad, el ancho de banda y los aspectos legales de las reuniones.</span><span class="sxs-lookup"><span data-stu-id="10557-p101">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting). Conferencing policy settings encompass a wide variety of scheduling and participation options, ranging from whether a meeting can include IP audio and video to the maximum number of people who can attend. Administrators can use conferencing policy to manage security, bandwidth, and legal aspects of meetings.</span></span>
 
-<span data-ttu-id="db98c-p102">Puede definir la directiva de conferencias en tres niveles: ámbito global, ámbito de sitio y ámbito de usuario. La configuración se aplica a un usuario específico del ámbito más limitado al ámbito más extenso. Si asigna una directiva de usuario a un usuario, dicha configuración tendrá preferencia. Si no asigna una directiva de usuario, se aplicará la configuración de sitio. Si no se aplica ni la directiva de usuario ni la de sitio, la directiva global proporcionará la configuración predeterminada.</span><span class="sxs-lookup"><span data-stu-id="db98c-p102">You can define conferencing policy on three levels: global scope, site scope, and user scope. Settings apply to a specific user from the narrowest scope to the widest scope. If you assign a user policy to a user, those settings take precedence. If you do not assign a user policy, site settings apply. If no user or site policies apply, global policy provides the default settings.</span></span>
+<span data-ttu-id="10557-p102">Puede definir la directiva de conferencias en tres niveles: ámbito global, ámbito de sitio y ámbito de usuario. La configuración se aplica a un usuario específico del ámbito más limitado al ámbito más extenso. Si asigna una directiva de usuario a un usuario, dicha configuración tendrá preferencia. Si no asigna una directiva de usuario, se aplicará la configuración de sitio. Si no se aplica ni la directiva de usuario ni la de sitio, la directiva global proporcionará la configuración predeterminada.</span><span class="sxs-lookup"><span data-stu-id="10557-p102">You can define conferencing policy on three levels: global scope, site scope, and user scope. Settings apply to a specific user from the narrowest scope to the widest scope. If you assign a user policy to a user, those settings take precedence. If you do not assign a user policy, site settings apply. If no user or site policies apply, global policy provides the default settings.</span></span>
 
-<span data-ttu-id="db98c-p103">Existe una directiva global predeterminada, de modo que no puede crear una nueva directiva global. Tampoco puede eliminar la directiva global existente, pero puede cambiar la directiva global para personalizar la configuración predeterminada.</span><span class="sxs-lookup"><span data-stu-id="db98c-p103">A global policy exists by default, so you cannot create a new global policy. You also cannot delete the existing global policy, but you can change the existing global policy to customize your default settings.</span></span>
+<span data-ttu-id="10557-p103">Existe una directiva global predeterminada, de modo que no puede crear una nueva directiva global. Tampoco puede eliminar la directiva global existente, pero puede cambiar la directiva global para personalizar la configuración predeterminada.</span><span class="sxs-lookup"><span data-stu-id="10557-p103">A global policy exists by default, so you cannot create a new global policy. You also cannot delete the existing global policy, but you can change the existing global policy to customize your default settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="db98c-114">En esta sección</span><span class="sxs-lookup"><span data-stu-id="db98c-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="10557-115">En esta sección</span><span class="sxs-lookup"><span data-stu-id="10557-115">In This Section</span></span>
 
-  - [<span data-ttu-id="db98c-115">Ver información de directiva de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="db98c-115">View conferencing policy information in Lync Server 2013</span></span>](lync-server-2013-view-conferencing-policy-information.md)
+  - [<span data-ttu-id="10557-116">Ver información de directiva de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10557-116">View conferencing policy information in Lync Server 2013</span></span>](lync-server-2013-view-conferencing-policy-information.md)
 
-  - [<span data-ttu-id="db98c-116">Crear o modificar una directiva de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="db98c-116">Create or modify a conferencing policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-conferencing-policy.md)
+  - [<span data-ttu-id="10557-117">Crear o modificar una directiva de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10557-117">Create or modify a conferencing policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-conferencing-policy.md)
 
-  - [<span data-ttu-id="db98c-117">Eliminar una directiva de conferencia existente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="db98c-117">Delete an existing conferencing policy in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-conferencing-policy.md)
+  - [<span data-ttu-id="10557-118">Eliminar una directiva de conferencia existente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10557-118">Delete an existing conferencing policy in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-conferencing-policy.md)
 
-  - [<span data-ttu-id="db98c-118">Referencia de configuración de directiva de conferencia para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="db98c-118">Conferencing policy settings reference for Lync Server 2013</span></span>](lync-server-2013-conferencing-policy-settings-reference.md)
+  - [<span data-ttu-id="10557-119">Referencia de configuración de directiva de conferencia para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10557-119">Conferencing policy settings reference for Lync Server 2013</span></span>](lync-server-2013-conferencing-policy-settings-reference.md)
 
 </div>
 

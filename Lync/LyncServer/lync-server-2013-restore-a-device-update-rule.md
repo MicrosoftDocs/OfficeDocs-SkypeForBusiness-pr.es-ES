@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: restaurar una regla de actualización de dispositivos'
+description: 'Lync Server 2013: restaurar una regla de actualización de dispositivos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20c6b6084577979264648e706c70fb6387b47971
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b3696bc7e074bfd7bea04b08246f07e107d4d0b9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511637"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543896"
 ---
-# <a name="restore-a-device-update-rule-in-lync-server-2013"></a><span data-ttu-id="a452e-102">Restaurar una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a452e-102">Restore a Device Update rule in Lync Server 2013</span></span>
+# <a name="restore-a-device-update-rule-in-lync-server-2013"></a><span data-ttu-id="f26f1-103">Restaurar una regla de actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f26f1-103">Restore a Device Update rule in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,43 +38,43 @@ ms.locfileid: "48511637"
 
 <span> </span>
 
-<span data-ttu-id="a452e-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="a452e-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="f26f1-104">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="f26f1-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="a452e-104">Para desinstalar una regla de actualización de dispositivos de los dispositivos de su implementación, restáurela.</span><span class="sxs-lookup"><span data-stu-id="a452e-104">To uninstall a device update rule from the devices in your deployment, restore it.</span></span> <span data-ttu-id="a452e-105">La restauración de una regla de actualización de dispositivos desinstala la actualización y reinstala la versión anterior de dicha regla.</span><span class="sxs-lookup"><span data-stu-id="a452e-105">Restoring a device update rule both uninstalls the update and reinstalls the previous version of that rule.</span></span>
+<span data-ttu-id="f26f1-105">Para desinstalar una regla de actualización de dispositivos de los dispositivos de su implementación, restáurela.</span><span class="sxs-lookup"><span data-stu-id="f26f1-105">To uninstall a device update rule from the devices in your deployment, restore it.</span></span> <span data-ttu-id="f26f1-106">La restauración de una regla de actualización de dispositivos desinstala la actualización y reinstala la versión anterior de dicha regla.</span><span class="sxs-lookup"><span data-stu-id="f26f1-106">Restoring a device update rule both uninstalls the update and reinstalls the previous version of that rule.</span></span>
 
-<span data-ttu-id="a452e-106">Puede restaurar una regla de actualización de dispositivos con el panel de control de Lync Server o Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a452e-106">You can restore a device update rule by using either Lync Server Control Panel or Windows PowerShell.</span></span>
+<span data-ttu-id="f26f1-107">Puede restaurar una regla de actualización de dispositivos con el panel de control de Lync Server o Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f26f1-107">You can restore a device update rule by using either Lync Server Control Panel or Windows PowerShell.</span></span>
 
 <div>
 
-## <a name="to-restore-device-update-rules-by-using-lync-server-control-panel"></a><span data-ttu-id="a452e-107">Para restaurar reglas de actualización de dispositivos mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="a452e-107">To restore device update rules by using Lync Server Control Panel</span></span>
+## <a name="to-restore-device-update-rules-by-using-lync-server-control-panel"></a><span data-ttu-id="f26f1-108">Para restaurar reglas de actualización de dispositivos mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="f26f1-108">To restore device update rules by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="a452e-108">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="a452e-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="f26f1-109">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="f26f1-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="a452e-109">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a452e-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a452e-110">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a452e-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="f26f1-110">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f26f1-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="f26f1-111">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="f26f1-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="a452e-111">En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, en el botón de navegación **actualización de dispositivos** .</span><span class="sxs-lookup"><span data-stu-id="a452e-111">In the left navigation bar, click **Clients**, and then click the **Device Update** navigation button.</span></span>
+3.  <span data-ttu-id="f26f1-112">En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, en el botón de navegación **actualización de dispositivos** .</span><span class="sxs-lookup"><span data-stu-id="f26f1-112">In the left navigation bar, click **Clients**, and then click the **Device Update** navigation button.</span></span>
 
-4.  <span data-ttu-id="a452e-112">En la página **actualización de dispositivo** , realice una de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="a452e-112">On the **Device Update** page, do one of the following:</span></span>
+4.  <span data-ttu-id="f26f1-113">En la página **actualización de dispositivo** , realice una de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="f26f1-113">On the **Device Update** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="a452e-113">Para restaurar una regla, seleccione esa regla.</span><span class="sxs-lookup"><span data-stu-id="a452e-113">To restore one rule, select that rule.</span></span>
+      - <span data-ttu-id="f26f1-114">Para restaurar una regla, seleccione esa regla.</span><span class="sxs-lookup"><span data-stu-id="f26f1-114">To restore one rule, select that rule.</span></span>
     
-      - <span data-ttu-id="a452e-114">Para restaurar todas las reglas, haga clic en **Editar**y, a continuación, haga clic en **seleccionar todo**.</span><span class="sxs-lookup"><span data-stu-id="a452e-114">To restore all rules, click **Edit**, and then click **Select All**.</span></span>
+      - <span data-ttu-id="f26f1-115">Para restaurar todas las reglas, haga clic en **Editar**y, a continuación, haga clic en **seleccionar todo**.</span><span class="sxs-lookup"><span data-stu-id="f26f1-115">To restore all rules, click **Edit**, and then click **Select All**.</span></span>
 
-5.  <span data-ttu-id="a452e-115">Haga clic en el menú **acción** y, a continuación, en **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="a452e-115">Click the **Action** menu, and then click **Restore**.</span></span>
+5.  <span data-ttu-id="f26f1-116">Haga clic en el menú **acción** y, a continuación, en **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="f26f1-116">Click the **Action** menu, and then click **Restore**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="restoring-device-update-rules-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="a452e-116">Restauración de reglas de actualización de dispositivos mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a452e-116">Restoring Device Update Rules by Using Windows PowerShell Cmdlets</span></span>
+## <a name="restoring-device-update-rules-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="f26f1-117">Restauración de reglas de actualización de dispositivos mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="f26f1-117">Restoring Device Update Rules by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="a452e-117">Las reglas de actualización de dispositivos también se pueden restaurar mediante Windows PowerShell y el cmdlet **restore-CsDeviceUpdateRule** .</span><span class="sxs-lookup"><span data-stu-id="a452e-117">Device updates rules can also be restored by using Windows PowerShell and the **Restore-CsDeviceUpdateRule** cmdlet..</span></span> <span data-ttu-id="a452e-118">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a452e-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="f26f1-118">Las reglas de actualización de dispositivos también se pueden restaurar mediante Windows PowerShell y el cmdlet **restore-CsDeviceUpdateRule** .</span><span class="sxs-lookup"><span data-stu-id="f26f1-118">Device updates rules can also be restored by using Windows PowerShell and the **Restore-CsDeviceUpdateRule** cmdlet..</span></span> <span data-ttu-id="f26f1-119">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f26f1-119">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a452e-119">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="a452e-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="f26f1-120">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="f26f1-120">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -81,9 +82,9 @@ ms.locfileid: "48511637"
 
 <div>
 
-## <a name="to-restore-a-single-device-update-rule-on-a-server"></a><span data-ttu-id="a452e-120">Para restaurar una única regla de actualización de dispositivos en un servidor</span><span class="sxs-lookup"><span data-stu-id="a452e-120">To restore a single device update rule on a server</span></span>
+## <a name="to-restore-a-single-device-update-rule-on-a-server"></a><span data-ttu-id="f26f1-121">Para restaurar una única regla de actualización de dispositivos en un servidor</span><span class="sxs-lookup"><span data-stu-id="f26f1-121">To restore a single device update rule on a server</span></span>
 
-  - <span data-ttu-id="a452e-121">El siguiente comando restaura la regla de actualización de dispositivos d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 en el servidor Web atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="a452e-121">The following command restores the device update rule d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 on the Web server atl-cs-001.litwareinc.com:</span></span>
+  - <span data-ttu-id="f26f1-122">El siguiente comando restaura la regla de actualización de dispositivos d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 en el servidor Web atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="f26f1-122">The following command restores the device update rule d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 on the Web server atl-cs-001.litwareinc.com:</span></span>
     
         Restore-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
@@ -91,15 +92,15 @@ ms.locfileid: "48511637"
 
 <div>
 
-## <a name="to-restore-all-the-device-update-rules-on-a-server"></a><span data-ttu-id="a452e-122">Para restaurar todas las reglas de actualización de dispositivos en un servidor</span><span class="sxs-lookup"><span data-stu-id="a452e-122">To restore all the device update rules on a server</span></span>
+## <a name="to-restore-all-the-device-update-rules-on-a-server"></a><span data-ttu-id="f26f1-123">Para restaurar todas las reglas de actualización de dispositivos en un servidor</span><span class="sxs-lookup"><span data-stu-id="f26f1-123">To restore all the device update rules on a server</span></span>
 
-  - <span data-ttu-id="a452e-123">Este comando restaura todas las reglas de actualización de dispositivos en el servidor Web atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="a452e-123">This command restores all the device update rules on the web server atl-cs-001.litwareinc.com:</span></span>
+  - <span data-ttu-id="f26f1-124">Este comando restaura todas las reglas de actualización de dispositivos en el servidor Web atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="f26f1-124">This command restores all the device update rules on the web server atl-cs-001.litwareinc.com:</span></span>
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Restore-CsDeviceUpdateRule
 
 </div>
 
-<span data-ttu-id="a452e-124">Para obtener más información, consulte el tema de ayuda del cmdlet [restore-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) .</span><span class="sxs-lookup"><span data-stu-id="a452e-124">For details, see the Help topic for the [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) cmdlet.</span></span>
+<span data-ttu-id="f26f1-125">Para obtener más información, consulte el tema de ayuda del cmdlet [restore-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) .</span><span class="sxs-lookup"><span data-stu-id="f26f1-125">For details, see the Help topic for the [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) cmdlet.</span></span>
 
 </div>
 
