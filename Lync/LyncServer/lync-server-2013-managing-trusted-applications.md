@@ -12,20 +12,22 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f914a63f564b9ccf9b6bbe0ca7cc436b06570125
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6b859faeb66cae59e9f8f05ad49f861653779c24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524867"
 ---
+# <a name="managing-trusted-applications-in-lync-server-2013"></a><span data-ttu-id="9c439-102">Administración de aplicaciones de confianza en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c439-102">Managing trusted applications in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-trusted-applications-in-lync-server-2013"></a><span data-ttu-id="f12bc-102">Administración de aplicaciones de confianza en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f12bc-102">Managing trusted applications in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42217736"
 
 <span> </span>
 
-<span data-ttu-id="f12bc-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f12bc-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="9c439-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9c439-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="f12bc-104">Use los procedimientos de esta sección para ver una lista de aplicaciones de confianza o ver información acerca de una aplicación de confianza en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f12bc-104">Use the procedures in this section to view either a list of trusted applications or view information about a trusted application in Lync Server 2013.</span></span> <span data-ttu-id="f12bc-105">Puede realizar estos procedimientos en el panel de control de Lync Server 2013 o en el shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f12bc-105">You can do these procedures in Lync Server 2013 Control Panel or Lync Server Management Shell.</span></span>
+<span data-ttu-id="9c439-104">Use los procedimientos de esta sección para ver una lista de aplicaciones de confianza o ver información acerca de una aplicación de confianza en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9c439-104">Use the procedures in this section to view either a list of trusted applications or view information about a trusted application in Lync Server 2013.</span></span> <span data-ttu-id="9c439-105">Puede realizar estos procedimientos en el panel de control de Lync Server 2013 o en el shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9c439-105">You can do these procedures in Lync Server 2013 Control Panel or Lync Server Management Shell.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f12bc-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f12bc-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9c439-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="9c439-106">In This Section</span></span>
 
-  - [<span data-ttu-id="f12bc-107">Ver una lista de aplicaciones de confianza en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f12bc-107">View a list of trusted applications in Lync Server 2013</span></span>](lync-server-2013-view-a-list-of-trusted-applications.md)
+  - [<span data-ttu-id="9c439-107">Ver una lista de aplicaciones de confianza en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c439-107">View a list of trusted applications in Lync Server 2013</span></span>](lync-server-2013-view-a-list-of-trusted-applications.md)
 
-  - [<span data-ttu-id="f12bc-108">Ver información de aplicaciones de confianza en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f12bc-108">View trusted application information in Lync Server 2013</span></span>](lync-server-2013-view-trusted-application-information.md)
+  - [<span data-ttu-id="9c439-108">Ver información de aplicaciones de confianza en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c439-108">View trusted application information in Lync Server 2013</span></span>](lync-server-2013-view-trusted-application-information.md)
 
 </div>
 

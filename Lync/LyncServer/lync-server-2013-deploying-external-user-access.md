@@ -12,20 +12,22 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 960f5d895f821e8d9bbc6fa71f451ee455d88388
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1878b011ce62ff732f9b31fb905c012872fe743
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198333"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525317"
 ---
+# <a name="deploying-external-user-access-in-lync-server-2013"></a><span data-ttu-id="74e29-102">Implementar el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-102">Deploying external user access in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-external-user-access-in-lync-server-2013"></a><span data-ttu-id="22ba3-102">Implementar el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-102">Deploying external user access in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42198333"
 
 <span> </span>
 
-<span data-ttu-id="22ba3-103">_**Última modificación del tema:** 2013-09-23_</span><span class="sxs-lookup"><span data-stu-id="22ba3-103">_**Topic Last Modified:** 2013-09-23_</span></span>
+<span data-ttu-id="74e29-103">_**Última modificación del tema:** 2013-09-23_</span><span class="sxs-lookup"><span data-stu-id="74e29-103">_**Topic Last Modified:** 2013-09-23_</span></span>
 
-<span data-ttu-id="22ba3-104">La implementación de componentes perimetrales para Microsoft Lync Server 2013 permite a los usuarios externos que no han iniciado sesión en la red interna de su organización, incluidos usuarios remotos autenticados y anónimos, socios federados (incluidos asociados de XMPP), clientes móviles y usuarios de servicios de mensajería instantánea pública (mi) para comunicarse con otros usuarios de la organización mediante Lync Server.</span><span class="sxs-lookup"><span data-stu-id="22ba3-104">Deploying edge components for Microsoft Lync Server 2013 makes it possible for external users who are not logged into your organization’s internal network, including authenticated and anonymous remote users, federated partners (including XMPP partners), mobile clients and users of public instant messaging (IM) services, to communicate with other users in your organization using Lync Server.</span></span> <span data-ttu-id="22ba3-105">Los procesos de implementación y configuración de Lync Server 2013 no son significativamente distintos de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="22ba3-105">The deployment and configuration processes for Lync Server 2013 are not significantly different from Lync Server 2010.</span></span> <span data-ttu-id="22ba3-106">Las herramientas de instalación y administración son muy parecidas a las de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="22ba3-106">The tools for installation and administration are much the same as in Lync Server 2010.</span></span>
+<span data-ttu-id="74e29-104">La implementación de componentes perimetrales para Microsoft Lync Server 2013 permite a los usuarios externos que no han iniciado sesión en la red interna de su organización, incluidos usuarios remotos autenticados y anónimos, socios federados (incluidos asociados de XMPP), clientes móviles y usuarios de servicios de mensajería instantánea pública, comunicarse con otros usuarios de su organización mediante Lync Server.</span><span class="sxs-lookup"><span data-stu-id="74e29-104">Deploying edge components for Microsoft Lync Server 2013 makes it possible for external users who are not logged into your organization’s internal network, including authenticated and anonymous remote users, federated partners (including XMPP partners), mobile clients and users of public instant messaging (IM) services, to communicate with other users in your organization using Lync Server.</span></span> <span data-ttu-id="74e29-105">Los procesos de implementación y configuración de Lync Server 2013 no son significativamente distintos de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="74e29-105">The deployment and configuration processes for Lync Server 2013 are not significantly different from Lync Server 2010.</span></span> <span data-ttu-id="74e29-106">Las herramientas de instalación y administración son muy parecidas a las de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="74e29-106">The tools for installation and administration are much the same as in Lync Server 2010.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="22ba3-107">La instalación y configuración&nbsp;del servidor perimetral 2013 de Microsoft Lync Server puede ser un proceso complejo que requiera una cantidad potencialmente importante de planeación y coordinación con los equipos internos, entre los que se incluyen, entre otros, la seguridad, la red, el firewall, el sistema de nombres de dominio (DNS), el equilibrador de carga y las consideraciones de infraestructura de clave pública (PKI).</span><span class="sxs-lookup"><span data-stu-id="22ba3-107">Microsoft Lync Server 2013&nbsp;Edge Server installation and configuration can be a complex process requiring a potentially significant amount of planning and coordination with your internal teams, including – but not limited to – security, networking, firewall, domain name system (DNS), load balancer, and public key infrastructure (PKI) considerations.</span></span> <span data-ttu-id="22ba3-108">Se recomienda encarecidamente revisar y usar el proceso de planeación y la documentación proporcionada antes de implementar los componentes de acceso externo.</span><span class="sxs-lookup"><span data-stu-id="22ba3-108">It is strongly recommended that you review and use the planning process and documentation provided before deploying your external access components.</span></span> <span data-ttu-id="22ba3-109">Esto le ayudará a limitar la cantidad y la frecuencia de los cambios no deseados y los problemas que se produzcan al avanzar en el proceso de implementación.</span><span class="sxs-lookup"><span data-stu-id="22ba3-109">This will assist in limiting the number and frequency of undesired changes and problems as you proceed through the deployment process.</span></span> <span data-ttu-id="22ba3-110">Para obtener información sobre cómo planear el acceso de usuarios externos, consulte <A href="lync-server-2013-planning-for-external-user-access.md">planeación del acceso de usuarios externos en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="22ba3-110">For information on planning you external user access, see <A href="lync-server-2013-planning-for-external-user-access.md">Planning for external user access in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="74e29-107">&nbsp;La instalación y configuración del servidor perimetral 2013 de Microsoft Lync Server puede ser un proceso complejo que requiera una cantidad potencialmente importante de planeación y coordinación con los equipos internos, entre los que se incluyen, entre otros, la seguridad, la red, el firewall, el sistema de nombres de dominio (DNS), el equilibrador de carga y las consideraciones de infraestructura de clave pública (PKI).</span><span class="sxs-lookup"><span data-stu-id="74e29-107">Microsoft Lync Server 2013&nbsp;Edge Server installation and configuration can be a complex process requiring a potentially significant amount of planning and coordination with your internal teams, including – but not limited to – security, networking, firewall, domain name system (DNS), load balancer, and public key infrastructure (PKI) considerations.</span></span> <span data-ttu-id="74e29-108">Se recomienda encarecidamente revisar y usar el proceso de planeación y la documentación proporcionada antes de implementar los componentes de acceso externo.</span><span class="sxs-lookup"><span data-stu-id="74e29-108">It is strongly recommended that you review and use the planning process and documentation provided before deploying your external access components.</span></span> <span data-ttu-id="74e29-109">Esto le ayudará a limitar la cantidad y la frecuencia de los cambios no deseados y los problemas que se produzcan al avanzar en el proceso de implementación.</span><span class="sxs-lookup"><span data-stu-id="74e29-109">This will assist in limiting the number and frequency of undesired changes and problems as you proceed through the deployment process.</span></span> <span data-ttu-id="74e29-110">Para obtener información sobre cómo planear el acceso de usuarios externos, consulte <A href="lync-server-2013-planning-for-external-user-access.md">planeación del acceso de usuarios externos en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="74e29-110">For information on planning you external user access, see <A href="lync-server-2013-planning-for-external-user-access.md">Planning for external user access in Lync Server 2013</A>.</span></span>
 
 
 
@@ -51,31 +53,31 @@ ms.locfileid: "42198333"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="22ba3-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="22ba3-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="74e29-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="74e29-111">In This Section</span></span>
 
-  - [<span data-ttu-id="22ba3-112">Lista de comprobación para la implementación para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-112">Deployment checklist for external user access in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-external-user-access.md)
+  - [<span data-ttu-id="74e29-112">Lista de comprobación para la implementación para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-112">Deployment checklist for external user access in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-external-user-access.md)
 
-  - [<span data-ttu-id="22ba3-113">Requisitos del sistema para componentes de acceso de usuarios externos para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-113">System requirements for external user access components for Lync Server 2013</span></span>](lync-server-2013-system-requirements-for-external-user-access-components.md)
+  - [<span data-ttu-id="74e29-113">Requisitos del sistema para componentes de acceso de usuarios externos para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-113">System requirements for external user access components for Lync Server 2013</span></span>](lync-server-2013-system-requirements-for-external-user-access-components.md)
 
-  - [<span data-ttu-id="22ba3-114">Preparación de la instalación de los servidores en la red perimetral para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-114">Preparing for installation of servers in the perimeter network for Lync Server 2013</span></span>](lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md)
+  - [<span data-ttu-id="74e29-114">Preparación de la instalación de los servidores en la red perimetral para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-114">Preparing for installation of servers in the perimeter network for Lync Server 2013</span></span>](lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md)
 
-  - [<span data-ttu-id="22ba3-115">Creación de una topología perimetral y de Director en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-115">Building an edge and Director topology in Lync Server 2013</span></span>](lync-server-2013-building-an-edge-and-director-topology.md)
+  - [<span data-ttu-id="74e29-115">Creación de una topología perimetral y de Director en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-115">Building an edge and Director topology in Lync Server 2013</span></span>](lync-server-2013-building-an-edge-and-director-topology.md)
 
-  - <span data-ttu-id="22ba3-116">[Configuración del Director en Lync Server 2013](lync-server-2013-setting-up-the-director.md) (opcional)</span><span class="sxs-lookup"><span data-stu-id="22ba3-116">[Setting up the Director in Lync Server 2013](lync-server-2013-setting-up-the-director.md) (optional)</span></span>
+  - <span data-ttu-id="74e29-116">[Configuración del Director en Lync Server 2013](lync-server-2013-setting-up-the-director.md) (opcional)</span><span class="sxs-lookup"><span data-stu-id="74e29-116">[Setting up the Director in Lync Server 2013](lync-server-2013-setting-up-the-director.md) (optional)</span></span>
 
-  - [<span data-ttu-id="22ba3-117">Configuración de servidores perimetrales en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-117">Setting up Edge Servers in Lync Server 2013</span></span>](lync-server-2013-setting-up-edge-servers.md)
+  - [<span data-ttu-id="74e29-117">Configuración de servidores perimetrales en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-117">Setting up Edge Servers in Lync Server 2013</span></span>](lync-server-2013-setting-up-edge-servers.md)
 
-  - [<span data-ttu-id="22ba3-118">Configuración de servidores proxy inversos para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-118">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [<span data-ttu-id="74e29-118">Configuración de servidores proxy inversos para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-118">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
-  - [<span data-ttu-id="22ba3-119">Configuración de la compatibilidad para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-119">Configuring support for external user access in Lync Server 2013</span></span>](lync-server-2013-configuring-support-for-external-user-access.md)
+  - [<span data-ttu-id="74e29-119">Configuración de la compatibilidad para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-119">Configuring support for external user access in Lync Server 2013</span></span>](lync-server-2013-configuring-support-for-external-user-access.md)
 
-  - [<span data-ttu-id="22ba3-120">Guía de aprovisionamiento para Lync-conectividad de Skype en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-120">Provisioning guide for Lync-Skype connectivity in Lync Server 2013</span></span>](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+  - [<span data-ttu-id="74e29-120">Guía de aprovisionamiento para la conectividad de Lync-Skype en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-120">Provisioning guide for Lync-Skype connectivity in Lync Server 2013</span></span>](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
 
-  - [<span data-ttu-id="22ba3-121">Configurar la Federación SIP, la Federación XMPP y la mensajería instantánea pública en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-121">Configuring SIP federation, XMPP federation and public instant messaging in Lync Server 2013</span></span>](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)
+  - [<span data-ttu-id="74e29-121">Configurar la Federación SIP, la Federación XMPP y la mensajería instantánea pública en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-121">Configuring SIP federation, XMPP federation and public instant messaging in Lync Server 2013</span></span>](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)
 
-  - [<span data-ttu-id="22ba3-122">Implementación de la movilidad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-122">Deploying mobility in Lync Server 2013</span></span>](lync-server-2013-deploying-mobility.md)
+  - [<span data-ttu-id="74e29-122">Implementación de la movilidad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-122">Deploying mobility in Lync Server 2013</span></span>](lync-server-2013-deploying-mobility.md)
 
-  - [<span data-ttu-id="22ba3-123">Comprobar la implementación perimetral en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22ba3-123">Verifying your edge deployment in Lync Server 2013</span></span>](lync-server-2013-verifying-your-edge-deployment.md)
+  - [<span data-ttu-id="74e29-123">Comprobar la implementación perimetral en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e29-123">Verifying your edge deployment in Lync Server 2013</span></span>](lync-server-2013-verifying-your-edge-deployment.md)
 
 </div>
 
