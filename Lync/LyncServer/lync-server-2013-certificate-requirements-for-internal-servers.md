@@ -12,20 +12,22 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bd350a4b552d63b635f8ec5a25ed7803de4b55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c56554a26e5f64089a766300f375039409680578
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187573"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526247"
 ---
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a><span data-ttu-id="f65bf-102">Requisitos de certificado para servidores internos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f65bf-102">Certificate requirements for internal servers in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a><span data-ttu-id="9e74c-102">Requisitos de certificado para servidores internos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e74c-102">Certificate requirements for internal servers in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,35 +37,35 @@ ms.locfileid: "42187573"
 
 <span> </span>
 
-<span data-ttu-id="9e74c-103">_**Última modificación del tema:** 2017-02-17_</span><span class="sxs-lookup"><span data-stu-id="9e74c-103">_**Topic Last Modified:** 2017-02-17_</span></span>
+<span data-ttu-id="f65bf-103">_**Última modificación del tema:** 2017-02-17_</span><span class="sxs-lookup"><span data-stu-id="f65bf-103">_**Topic Last Modified:** 2017-02-17_</span></span>
 
-<span data-ttu-id="9e74c-104">Los servidores internos que ejecutan Lync Server y que requieren certificados incluyen el servidor Standard Edition, el servidor front-end Enterprise Edition, el servidor de mediación y el director.</span><span class="sxs-lookup"><span data-stu-id="9e74c-104">Internal servers that are running Lync Server and that require certificates include Standard Edition server, Enterprise Edition Front End Server, Mediation Server, and Director.</span></span> <span data-ttu-id="9e74c-105">En la siguiente tabla se muestran los requisitos de certificado para estos servidores.</span><span class="sxs-lookup"><span data-stu-id="9e74c-105">The following table shows the certificate requirements for these servers.</span></span> <span data-ttu-id="9e74c-106">Puede usar el Asistente para certificados de Lync Server para solicitar estos certificados.</span><span class="sxs-lookup"><span data-stu-id="9e74c-106">You can use the Lync Server certificate wizard to request these certificates.</span></span>
+<span data-ttu-id="f65bf-104">Los servidores internos que ejecutan Lync Server y que requieren certificados incluyen el servidor Standard Edition, el servidor front-end Enterprise Edition, el servidor de mediación y el director.</span><span class="sxs-lookup"><span data-stu-id="f65bf-104">Internal servers that are running Lync Server and that require certificates include Standard Edition server, Enterprise Edition Front End Server, Mediation Server, and Director.</span></span> <span data-ttu-id="f65bf-105">En la siguiente tabla se muestran los requisitos de certificado para estos servidores.</span><span class="sxs-lookup"><span data-stu-id="f65bf-105">The following table shows the certificate requirements for these servers.</span></span> <span data-ttu-id="f65bf-106">Puede usar el Asistente para certificados de Lync Server para solicitar estos certificados.</span><span class="sxs-lookup"><span data-stu-id="f65bf-106">You can use the Lync Server certificate wizard to request these certificates.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="9e74c-107">Los certificados comodín son compatibles con los nombres alternativos de sujeto asociados con las direcciones URL simples en el grupo de servidores front-end, el servidor front-end o el director.</span><span class="sxs-lookup"><span data-stu-id="9e74c-107">Wildcard certificates are supported for the subject alternative names associated with the simple URLs on the Front End pool, Front End Server, or Director.</span></span> <span data-ttu-id="9e74c-108">Para obtener más información sobre la compatibilidad con certificados comodín, consulte <A href="lync-server-2013-wildcard-certificate-support.md">compatibilidad con certificados comodín en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="9e74c-108">For details about wildcard certificate support, see <A href="lync-server-2013-wildcard-certificate-support.md">Wildcard certificate support in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="f65bf-107">Los certificados comodín son compatibles con los nombres alternativos de sujeto asociados con las direcciones URL simples en el grupo de servidores front-end, el servidor front-end o el director.</span><span class="sxs-lookup"><span data-stu-id="f65bf-107">Wildcard certificates are supported for the subject alternative names associated with the simple URLs on the Front End pool, Front End Server, or Director.</span></span> <span data-ttu-id="f65bf-108">Para obtener más información sobre la compatibilidad con certificados comodín, consulte <A href="lync-server-2013-wildcard-certificate-support.md">compatibilidad con certificados comodín en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="f65bf-108">For details about wildcard certificate support, see <A href="lync-server-2013-wildcard-certificate-support.md">Wildcard certificate support in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="9e74c-109">Aunque para los servidores internos se recomienda una entidad de certificación (CA) empresarial interna, también puede usar una pública.</span><span class="sxs-lookup"><span data-stu-id="9e74c-109">Although an internal enterprise certification authority (CA) is recommended for internal servers, you can also use a public CA.</span></span> <span data-ttu-id="9e74c-110">Para obtener una lista de las entidades de certificación públicas que proporcionan certificados que cumplen los requisitos específicos para los certificados de comunicaciones unificadas (UC) y que se han asociado con Microsoft para garantizar que funcionan con el Asistente para certificados de Lync Server, vea el artículo 929395 de Microsoft Knowledge base, "asociados de [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)certificados de comunicaciones unificadas para Exchange Server y para Communications Server" en.</span><span class="sxs-lookup"><span data-stu-id="9e74c-110">For a list of public CAs that provide certificates that comply with specific requirements for unified communications (UC) certificates and have partnered with Microsoft to ensure they work with the Lync Server Certificate Wizard, see article Microsoft Knowledge Base 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server," at [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).</span></span>
+<span data-ttu-id="f65bf-109">Aunque para los servidores internos se recomienda una entidad de certificación (CA) empresarial interna, también puede usar una pública.</span><span class="sxs-lookup"><span data-stu-id="f65bf-109">Although an internal enterprise certification authority (CA) is recommended for internal servers, you can also use a public CA.</span></span> <span data-ttu-id="f65bf-110">Para obtener una lista de las entidades de certificación públicas que proporcionan certificados que cumplen los requisitos específicos para los certificados de comunicaciones unificadas (UC) y que se han asociado con Microsoft para garantizar que funcionan con el Asistente para certificados de Lync Server, vea el artículo 929395 de Microsoft Knowledge base, "asociados de certificados de comunicaciones unificadas para Exchange Server y para Communications Server" en [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .</span><span class="sxs-lookup"><span data-stu-id="f65bf-110">For a list of public CAs that provide certificates that comply with specific requirements for unified communications (UC) certificates and have partnered with Microsoft to ensure they work with the Lync Server Certificate Wizard, see article Microsoft Knowledge Base 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server," at [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).</span></span>
 
-<span data-ttu-id="9e74c-111">La comunicación con otras aplicaciones y servidores, como Exchange 2013, requiere un certificado que sea compatible con las demás aplicaciones y productos.</span><span class="sxs-lookup"><span data-stu-id="9e74c-111">Communication with other applications and servers, such as Exchange 2013, requires a certificate that is supported by the other applications and products.</span></span> <span data-ttu-id="9e74c-112">Para la versión 2013, Lync Server 2013 y otros productos de servidor de Microsoft, incluidos Exchange 2013 y SharePoint Server, admiten el protocolo Open Authorization (OAuth) para la autenticación y autorización de servidor a servidor.</span><span class="sxs-lookup"><span data-stu-id="9e74c-112">For the 2013 release, Lync Server 2013 and other Microsoft server products, including Exchange 2013 and SharePoint Server, support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization.</span></span> <span data-ttu-id="9e74c-113">Para obtener más información, consulte [Managing Server-to-Server Authentication (OAuth) and Partner Applications in Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) en la documentación sobre implementación o sobre operaciones.</span><span class="sxs-lookup"><span data-stu-id="9e74c-113">For details, see [Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in the Deployment documentation or the Operations documentation.</span></span>
+<span data-ttu-id="f65bf-111">La comunicación con otras aplicaciones y servidores, como Exchange 2013, requiere un certificado que sea compatible con las demás aplicaciones y productos.</span><span class="sxs-lookup"><span data-stu-id="f65bf-111">Communication with other applications and servers, such as Exchange 2013, requires a certificate that is supported by the other applications and products.</span></span> <span data-ttu-id="f65bf-112">Para la versión 2013, Lync Server 2013 y otros productos de servidor de Microsoft, incluidos Exchange 2013 y SharePoint Server, admiten el protocolo Open Authorization (OAuth) para la autenticación y autorización de servidor a servidor.</span><span class="sxs-lookup"><span data-stu-id="f65bf-112">For the 2013 release, Lync Server 2013 and other Microsoft server products, including Exchange 2013 and SharePoint Server, support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization.</span></span> <span data-ttu-id="f65bf-113">Para obtener más información, consulte [Managing Server-to-Server Authentication (OAuth) and Partner Applications in Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) en la documentación sobre implementación o sobre operaciones.</span><span class="sxs-lookup"><span data-stu-id="f65bf-113">For details, see [Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in the Deployment documentation or the Operations documentation.</span></span>
 
-<span data-ttu-id="9e74c-114">Para las conexiones de clientes que ejecutan el sistema operativo Windows 7, el sistema operativo Windows Server 2008, el sistema operativo Windows Server 2008 R2, el sistema operativo Windows Vista y Microsoft Lync Phone Edition, Lync Server 2013 incluye soporte para (pero no require) certificados firmados con la función de hash criptográfica SHA-256.</span><span class="sxs-lookup"><span data-stu-id="9e74c-114">For connections from clients running Windows 7 operating system, Windows Server 2008 operating system, Windows Server 2008 R2 operating system, Windows Vista operating system, and Microsoft Lync Phone Edition, Lync Server 2013 includes support for (but does not require) certificates signed using the SHA-256 cryptographic hash function.</span></span> <span data-ttu-id="9e74c-115">Para permitir el acceso externo mediante SHA-256, el certificado externo lo emite una CA pública que usa SHA-256.</span><span class="sxs-lookup"><span data-stu-id="9e74c-115">To support external access using SHA-256, the external certificate is issued by a public CA using SHA-256.</span></span>
+<span data-ttu-id="f65bf-114">Para las conexiones de clientes que ejecutan el sistema operativo Windows 7, el sistema operativo Windows Server 2008, el sistema operativo Windows Server 2008 R2, el sistema operativo Windows Vista y Microsoft Lync Phone Edition, Lync Server 2013 incluye compatibilidad con certificados (pero no obligatorios) firmados con la función de hash criptográfica SHA-256.</span><span class="sxs-lookup"><span data-stu-id="f65bf-114">For connections from clients running Windows 7 operating system, Windows Server 2008 operating system, Windows Server 2008 R2 operating system, Windows Vista operating system, and Microsoft Lync Phone Edition, Lync Server 2013 includes support for (but does not require) certificates signed using the SHA-256 cryptographic hash function.</span></span> <span data-ttu-id="f65bf-115">Para permitir el acceso externo mediante SHA-256, el certificado externo lo emite una CA pública que usa SHA-256.</span><span class="sxs-lookup"><span data-stu-id="f65bf-115">To support external access using SHA-256, the external certificate is issued by a public CA using SHA-256.</span></span>
 
-<span data-ttu-id="9e74c-p106">En las tablas siguientes, se muestran los requisitos de certificado por rol de servidor para los grupos de servidores front-end y los servidores Standard Edition. Todos ellos son certificados de servidor web estándar, con clave privada y no exportables.</span><span class="sxs-lookup"><span data-stu-id="9e74c-p106">The following tables show certificate requirements by server role for Front End pools and Standard Edition servers. All these are standard web server certificates, private key, non-exportable.</span></span>
+<span data-ttu-id="f65bf-p106">En las tablas siguientes, se muestran los requisitos de certificado por rol de servidor para los grupos de servidores front-end y los servidores Standard Edition. Todos ellos son certificados de servidor web estándar, con clave privada y no exportables.</span><span class="sxs-lookup"><span data-stu-id="f65bf-p106">The following tables show certificate requirements by server role for Front End pools and Standard Edition servers. All these are standard web server certificates, private key, non-exportable.</span></span>
 
-<span data-ttu-id="9e74c-118">Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura automáticamente al usar el asistente para certificados para solicitar certificados.</span><span class="sxs-lookup"><span data-stu-id="9e74c-118">Note that server enhanced key usage (EKU) is automatically configured when you use the certificate wizard to request certificates.</span></span>
+<span data-ttu-id="f65bf-118">Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura automáticamente al usar el asistente para certificados para solicitar certificados.</span><span class="sxs-lookup"><span data-stu-id="f65bf-118">Note that server enhanced key usage (EKU) is automatically configured when you use the certificate wizard to request certificates.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9e74c-119">Cada nombre descriptivo del certificado debe ser único en el almacén del equipo.</span><span class="sxs-lookup"><span data-stu-id="9e74c-119">Each certificate Friendly Name must be unique in the computer store.</span></span>
+> <span data-ttu-id="f65bf-119">Cada nombre descriptivo del certificado debe ser único en el almacén del equipo.</span><span class="sxs-lookup"><span data-stu-id="f65bf-119">Each certificate Friendly Name must be unique in the computer store.</span></span>
 
 
 
@@ -73,13 +75,13 @@ ms.locfileid: "42187573"
 
 
 > [!NOTE]  
-> <span data-ttu-id="9e74c-120">Si ha configurado sipinternal.contoso.com o sipexternal.contoso.com en su DNS, tendrá que agregarlos en el nombre alternativo de sujeto del certificado.</span><span class="sxs-lookup"><span data-stu-id="9e74c-120">If you have configured sipinternal.contoso.com or sipexternal.contoso.com in your DNS, you will need to add them in the certificate’s Subject Alternative Name.</span></span>
+> <span data-ttu-id="f65bf-120">Si ha configurado sipinternal.contoso.com o sipexternal.contoso.com en su DNS, tendrá que agregarlos en el nombre alternativo de sujeto del certificado.</span><span class="sxs-lookup"><span data-stu-id="f65bf-120">If you have configured sipinternal.contoso.com or sipexternal.contoso.com in your DNS, you will need to add them in the certificate’s Subject Alternative Name.</span></span>
 
 
 
 </div>
 
-### <a name="certificates-for-standard-edition-server"></a><span data-ttu-id="9e74c-121">Certificados para el servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="9e74c-121">Certificates for Standard Edition Server</span></span>
+### <a name="certificates-for-standard-edition-server"></a><span data-ttu-id="f65bf-121">Certificados para el servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="f65bf-121">Certificates for Standard Edition Server</span></span>
 
 <table>
 <colgroup>
@@ -91,65 +93,65 @@ ms.locfileid: "42187573"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9e74c-122">Certificado</span><span class="sxs-lookup"><span data-stu-id="9e74c-122">Certificate</span></span></th>
-<th><span data-ttu-id="9e74c-123">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="9e74c-123">Subject name/ Common name</span></span></th>
-<th><span data-ttu-id="9e74c-124">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="9e74c-124">Subject alternative name</span></span></th>
-<th><span data-ttu-id="9e74c-125">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9e74c-125">Example</span></span></th>
-<th><span data-ttu-id="9e74c-126">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9e74c-126">Comments</span></span></th>
+<th><span data-ttu-id="f65bf-122">Certificado</span><span class="sxs-lookup"><span data-stu-id="f65bf-122">Certificate</span></span></th>
+<th><span data-ttu-id="f65bf-123">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="f65bf-123">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="f65bf-124">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="f65bf-124">Subject alternative name</span></span></th>
+<th><span data-ttu-id="f65bf-125">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f65bf-125">Example</span></span></th>
+<th><span data-ttu-id="f65bf-126">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f65bf-126">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9e74c-127">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="9e74c-127">Default</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-128">Nombre de dominio completo (FQDN) del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="9e74c-128">Fully qualified domain name (FQDN) of the pool</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-129">FQDN del grupo de servidores y el FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="9e74c-129">FQDN of the pool and the FQDN of the server</span></span></p>
-<p><span data-ttu-id="9e74c-130">Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.</span><span class="sxs-lookup"><span data-stu-id="9e74c-130">If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.</span></span></p>
-<p><span data-ttu-id="9e74c-131">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</span><span class="sxs-lookup"><span data-stu-id="9e74c-131">If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-132">SN = SE01. contoso. com; SAN = SE01. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-132">SN=se01.contoso.com; SAN=se01.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-133">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="9e74c-133">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-134">En el servidor Standard Edition, el FQDN del servidor es igual que el FQDN del grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="9e74c-134">On Standard Edition server, the server FQDN is the same as the pool FQDN.</span></span></p>
-<p><span data-ttu-id="9e74c-135">El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.</span><span class="sxs-lookup"><span data-stu-id="9e74c-135">The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.</span></span></p>
-<p><span data-ttu-id="9e74c-136">También puede usar este certificado para la autenticación de servidor a servidor.</span><span class="sxs-lookup"><span data-stu-id="9e74c-136">You can also use this certificate for Server-to-Server Authentication.</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-127">Predeterminado</span><span class="sxs-lookup"><span data-stu-id="f65bf-127">Default</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-128">Nombre de dominio completo (FQDN) del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="f65bf-128">Fully qualified domain name (FQDN) of the pool</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-129">FQDN del grupo de servidores y el FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="f65bf-129">FQDN of the pool and the FQDN of the server</span></span></p>
+<p><span data-ttu-id="f65bf-130">Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.</span><span class="sxs-lookup"><span data-stu-id="f65bf-130">If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.</span></span></p>
+<p><span data-ttu-id="f65bf-131">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</span><span class="sxs-lookup"><span data-stu-id="f65bf-131">If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-132">SN = SE01. contoso. com; SAN = SE01. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-132">SN=se01.contoso.com; SAN=se01.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-133">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="f65bf-133">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-134">En el servidor Standard Edition, el FQDN del servidor es igual que el FQDN del grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="f65bf-134">On Standard Edition server, the server FQDN is the same as the pool FQDN.</span></span></p>
+<p><span data-ttu-id="f65bf-135">El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.</span><span class="sxs-lookup"><span data-stu-id="f65bf-135">The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.</span></span></p>
+<p><span data-ttu-id="f65bf-136">También puede usar este certificado para la autenticación de servidor a servidor.</span><span class="sxs-lookup"><span data-stu-id="f65bf-136">You can also use this certificate for Server-to-Server Authentication.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9e74c-137">Web interno</span><span class="sxs-lookup"><span data-stu-id="9e74c-137">Web internal</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-138">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="9e74c-138">FQDN of the server</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-139">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="9e74c-139">Each of the following:</span></span></p>
+<td><p><span data-ttu-id="f65bf-137">Web interno</span><span class="sxs-lookup"><span data-stu-id="f65bf-137">Web internal</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-138">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="f65bf-138">FQDN of the server</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-139">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="f65bf-139">Each of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9e74c-140">FQDN web interno (que es igual que el FQDN del servidor)</span><span class="sxs-lookup"><span data-stu-id="9e74c-140">Internal web FQDN (which is the same as the FQDN of the server)</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-141">URL sencillas de reunión</span><span class="sxs-lookup"><span data-stu-id="9e74c-141">Meet simple URLs</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-142">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="9e74c-142">Dial-in simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-143">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="9e74c-143">Admin simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-144">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="9e74c-144">Or, a wildcard entry for the simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-140">FQDN web interno (que es igual que el FQDN del servidor)</span><span class="sxs-lookup"><span data-stu-id="f65bf-140">Internal web FQDN (which is the same as the FQDN of the server)</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-141">URL sencillas de reunión</span><span class="sxs-lookup"><span data-stu-id="f65bf-141">Meet simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-142">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="f65bf-142">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-143">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="f65bf-143">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-144">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="f65bf-144">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="9e74c-145">SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com; SAN = admin. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-145">SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-146">Con un certificado de comodín:</span><span class="sxs-lookup"><span data-stu-id="9e74c-146">Using a wildcard certificate:</span></span></p>
-<p><span data-ttu-id="9e74c-147">SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-147">SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-148">No puede invalidar el FQDN de la web interna en el generador de topologías.</span><span class="sxs-lookup"><span data-stu-id="9e74c-148">You cannot override the Internal web FQDN in Topology Builder.</span></span></p>
-<p><span data-ttu-id="9e74c-149">Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</span><span class="sxs-lookup"><span data-stu-id="9e74c-149">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
-<p><span data-ttu-id="9e74c-150">Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="9e74c-150">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-145">SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com; SAN = admin. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-145">SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-146">Con un certificado de comodín:</span><span class="sxs-lookup"><span data-stu-id="f65bf-146">Using a wildcard certificate:</span></span></p>
+<p><span data-ttu-id="f65bf-147">SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-147">SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-148">No puede invalidar el FQDN de la web interna en el generador de topologías.</span><span class="sxs-lookup"><span data-stu-id="f65bf-148">You cannot override the Internal web FQDN in Topology Builder.</span></span></p>
+<p><span data-ttu-id="f65bf-149">Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</span><span class="sxs-lookup"><span data-stu-id="f65bf-149">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
+<p><span data-ttu-id="f65bf-150">Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="f65bf-150">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9e74c-151">Web externo</span><span class="sxs-lookup"><span data-stu-id="9e74c-151">Web external</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-152">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="9e74c-152">FQDN of the server</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-153">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="9e74c-153">Each of the following:</span></span></p>
+<td><p><span data-ttu-id="f65bf-151">Web externo</span><span class="sxs-lookup"><span data-stu-id="f65bf-151">Web external</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-152">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="f65bf-152">FQDN of the server</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-153">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="f65bf-153">Each of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9e74c-154">FQDN web externo</span><span class="sxs-lookup"><span data-stu-id="9e74c-154">External web FQDN</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-155">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="9e74c-155">Dial-in simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-156">Cumplir direcciones URL sencillas por dominio SIP</span><span class="sxs-lookup"><span data-stu-id="9e74c-156">Meet simple URLs per SIP domain</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-157">O una entrada con comodín para las direcciones URL simples</span><span class="sxs-lookup"><span data-stu-id="9e74c-157">Or, a wildcard entry for the simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-154">FQDN web externo</span><span class="sxs-lookup"><span data-stu-id="f65bf-154">External web FQDN</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-155">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="f65bf-155">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-156">Cumplir direcciones URL sencillas por dominio SIP</span><span class="sxs-lookup"><span data-stu-id="f65bf-156">Meet simple URLs per SIP domain</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-157">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="f65bf-157">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="9e74c-158">SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-158">SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-159">Con un certificado de comodín:</span><span class="sxs-lookup"><span data-stu-id="9e74c-159">Using a wildcard certificate:</span></span></p>
-<p><span data-ttu-id="9e74c-160">SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-160">SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-161">Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</span><span class="sxs-lookup"><span data-stu-id="9e74c-161">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
-<p><span data-ttu-id="9e74c-162">Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="9e74c-162">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-158">SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-158">SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-159">Con un certificado de comodín:</span><span class="sxs-lookup"><span data-stu-id="f65bf-159">Using a wildcard certificate:</span></span></p>
+<p><span data-ttu-id="f65bf-160">SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-160">SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-161">Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</span><span class="sxs-lookup"><span data-stu-id="f65bf-161">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
+<p><span data-ttu-id="f65bf-162">Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="f65bf-162">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="certificates-for-front-end-server-in-a-front-end-pool"></a><span data-ttu-id="9e74c-163">Certificados para un servidor front-end en un grupo de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="9e74c-163">Certificates for Front End Server in a Front End Pool</span></span>
+### <a name="certificates-for-front-end-server-in-a-front-end-pool"></a><span data-ttu-id="f65bf-163">Certificados para un servidor front-end en un grupo de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="f65bf-163">Certificates for Front End Server in a Front End Pool</span></span>
 
 <table>
 <colgroup>
@@ -161,65 +163,65 @@ ms.locfileid: "42187573"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9e74c-164">Certificado</span><span class="sxs-lookup"><span data-stu-id="9e74c-164">Certificate</span></span></th>
-<th><span data-ttu-id="9e74c-165">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="9e74c-165">Subject name/ Common name</span></span></th>
-<th><span data-ttu-id="9e74c-166">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="9e74c-166">Subject alternative name</span></span></th>
-<th><span data-ttu-id="9e74c-167">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9e74c-167">Example</span></span></th>
-<th><span data-ttu-id="9e74c-168">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9e74c-168">Comments</span></span></th>
+<th><span data-ttu-id="f65bf-164">Certificado</span><span class="sxs-lookup"><span data-stu-id="f65bf-164">Certificate</span></span></th>
+<th><span data-ttu-id="f65bf-165">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="f65bf-165">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="f65bf-166">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="f65bf-166">Subject alternative name</span></span></th>
+<th><span data-ttu-id="f65bf-167">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f65bf-167">Example</span></span></th>
+<th><span data-ttu-id="f65bf-168">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f65bf-168">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9e74c-169">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="9e74c-169">Default</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-170">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="9e74c-170">FQDN of the pool</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-171">FQDN del grupo de servidores y FQDN del servidor.</span><span class="sxs-lookup"><span data-stu-id="9e74c-171">FQDN of the pool and FQDN of the server.</span></span></p>
-<p><span data-ttu-id="9e74c-172">Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.</span><span class="sxs-lookup"><span data-stu-id="9e74c-172">If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.</span></span></p>
-<p><span data-ttu-id="9e74c-173">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</span><span class="sxs-lookup"><span data-stu-id="9e74c-173">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-174">SN = eepool. contoso. com; SAN = eepool. contoso. com; SAN = ee01. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-174">SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-175">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="9e74c-175">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-176">El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.</span><span class="sxs-lookup"><span data-stu-id="9e74c-176">The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.</span></span></p>
-<p><span data-ttu-id="9e74c-177">También puede usar este certificado para la autenticación de servidor a servidor.</span><span class="sxs-lookup"><span data-stu-id="9e74c-177">You can also use this certificate for Server-to-Server Authentication.</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-169">Predeterminado</span><span class="sxs-lookup"><span data-stu-id="f65bf-169">Default</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-170">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="f65bf-170">FQDN of the pool</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-171">FQDN del grupo de servidores y FQDN del servidor.</span><span class="sxs-lookup"><span data-stu-id="f65bf-171">FQDN of the pool and FQDN of the server.</span></span></p>
+<p><span data-ttu-id="f65bf-172">Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.</span><span class="sxs-lookup"><span data-stu-id="f65bf-172">If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.</span></span></p>
+<p><span data-ttu-id="f65bf-173">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</span><span class="sxs-lookup"><span data-stu-id="f65bf-173">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-174">SN = eepool. contoso. com; SAN = eepool. contoso. com; SAN = ee01. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-174">SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-175">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="f65bf-175">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-176">El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.</span><span class="sxs-lookup"><span data-stu-id="f65bf-176">The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.</span></span></p>
+<p><span data-ttu-id="f65bf-177">También puede usar este certificado para la autenticación de servidor a servidor.</span><span class="sxs-lookup"><span data-stu-id="f65bf-177">You can also use this certificate for Server-to-Server Authentication.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9e74c-178">Web interno</span><span class="sxs-lookup"><span data-stu-id="9e74c-178">Web Internal</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-179">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="9e74c-179">FQDN of the pool</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-180">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="9e74c-180">Each of the following:</span></span></p>
+<td><p><span data-ttu-id="f65bf-178">Web interno</span><span class="sxs-lookup"><span data-stu-id="f65bf-178">Web Internal</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-179">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="f65bf-179">FQDN of the pool</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-180">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="f65bf-180">Each of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9e74c-181">FQDN Web interno (que no es el mismo que el FQDN del servidor)</span><span class="sxs-lookup"><span data-stu-id="9e74c-181">Internal web FQDN (which is NOT the same as the FQDN of the server)</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-182">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="9e74c-182">Server FQDN</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-183">FQDN del grupo de Lync</span><span class="sxs-lookup"><span data-stu-id="9e74c-183">Lync pool FQDN</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-184">URL sencillas de reunión</span><span class="sxs-lookup"><span data-stu-id="9e74c-184">Meet simple URLs</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-185">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="9e74c-185">Dial-in simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-186">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="9e74c-186">Admin simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-187">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="9e74c-187">Or, a wildcard entry for the simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-181">FQDN Web interno (que no es el mismo que el FQDN del servidor)</span><span class="sxs-lookup"><span data-stu-id="f65bf-181">Internal web FQDN (which is NOT the same as the FQDN of the server)</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-182">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="f65bf-182">Server FQDN</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-183">FQDN del grupo de Lync</span><span class="sxs-lookup"><span data-stu-id="f65bf-183">Lync pool FQDN</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-184">URL sencillas de reunión</span><span class="sxs-lookup"><span data-stu-id="f65bf-184">Meet simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-185">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="f65bf-185">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-186">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="f65bf-186">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-187">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="f65bf-187">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="9e74c-188">SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com; SAN = admin. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-188">SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-189">Con un certificado de comodín:</span><span class="sxs-lookup"><span data-stu-id="9e74c-189">Using a wildcard certificate:</span></span></p>
-<p><span data-ttu-id="9e74c-190">SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-190">SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-191">Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</span><span class="sxs-lookup"><span data-stu-id="9e74c-191">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
-<p><span data-ttu-id="9e74c-192">Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="9e74c-192">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-188">SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com; SAN = admin. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-188">SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-189">Con un certificado de comodín:</span><span class="sxs-lookup"><span data-stu-id="f65bf-189">Using a wildcard certificate:</span></span></p>
+<p><span data-ttu-id="f65bf-190">SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-190">SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-191">Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</span><span class="sxs-lookup"><span data-stu-id="f65bf-191">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
+<p><span data-ttu-id="f65bf-192">Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="f65bf-192">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9e74c-193">Web externo</span><span class="sxs-lookup"><span data-stu-id="9e74c-193">Web external</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-194">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="9e74c-194">FQDN of the pool</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-195">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="9e74c-195">Each of the following:</span></span></p>
+<td><p><span data-ttu-id="f65bf-193">Web externo</span><span class="sxs-lookup"><span data-stu-id="f65bf-193">Web external</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-194">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="f65bf-194">FQDN of the pool</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-195">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="f65bf-195">Each of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9e74c-196">FQDN web externo</span><span class="sxs-lookup"><span data-stu-id="9e74c-196">External web FQDN</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-197">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="9e74c-197">Dial-in simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-198">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="9e74c-198">Admin simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-199">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="9e74c-199">Or, a wildcard entry for the simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-196">FQDN web externo</span><span class="sxs-lookup"><span data-stu-id="f65bf-196">External web FQDN</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-197">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="f65bf-197">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-198">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="f65bf-198">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-199">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="f65bf-199">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="9e74c-200">SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-200">SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-201">Con un certificado de comodín:</span><span class="sxs-lookup"><span data-stu-id="9e74c-201">Using a wildcard certificate:</span></span></p>
-<p><span data-ttu-id="9e74c-202">SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-202">SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-203">Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</span><span class="sxs-lookup"><span data-stu-id="9e74c-203">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
-<p><span data-ttu-id="9e74c-204">Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="9e74c-204">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-200">SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-200">SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-201">Con un certificado de comodín:</span><span class="sxs-lookup"><span data-stu-id="f65bf-201">Using a wildcard certificate:</span></span></p>
+<p><span data-ttu-id="f65bf-202">SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-202">SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-203">Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</span><span class="sxs-lookup"><span data-stu-id="f65bf-203">If you have multiple Meet simple URLs, you must include all of them as subject alternative names.</span></span></p>
+<p><span data-ttu-id="f65bf-204">Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</span><span class="sxs-lookup"><span data-stu-id="f65bf-204">Wildcard entries are supported for the simple URL entries.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="certificates-for-director"></a><span data-ttu-id="9e74c-205">Certificados para el director</span><span class="sxs-lookup"><span data-stu-id="9e74c-205">Certificates for Director</span></span>
+### <a name="certificates-for-director"></a><span data-ttu-id="f65bf-205">Certificados para el director</span><span class="sxs-lookup"><span data-stu-id="f65bf-205">Certificates for Director</span></span>
 
 <table>
 <colgroup>
@@ -230,58 +232,58 @@ ms.locfileid: "42187573"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9e74c-206">Certificado</span><span class="sxs-lookup"><span data-stu-id="9e74c-206">Certificate</span></span></th>
-<th><span data-ttu-id="9e74c-207">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="9e74c-207">Subject name/ Common name</span></span></th>
-<th><span data-ttu-id="9e74c-208">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="9e74c-208">Subject alternative name</span></span></th>
-<th><span data-ttu-id="9e74c-209">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9e74c-209">Example</span></span></th>
+<th><span data-ttu-id="f65bf-206">Certificado</span><span class="sxs-lookup"><span data-stu-id="f65bf-206">Certificate</span></span></th>
+<th><span data-ttu-id="f65bf-207">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="f65bf-207">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="f65bf-208">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="f65bf-208">Subject alternative name</span></span></th>
+<th><span data-ttu-id="f65bf-209">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f65bf-209">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9e74c-210">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="9e74c-210">Default</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-211">FQDN del grupo de servidores del director</span><span class="sxs-lookup"><span data-stu-id="9e74c-211">FQDN of the Director pool</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-212">FQDN del director, FQDN del grupo de servidores del director</span><span class="sxs-lookup"><span data-stu-id="9e74c-212">FQDN of the Director, FQDN of the Director pool</span></span></p>
-<p><span data-ttu-id="9e74c-213">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</span><span class="sxs-lookup"><span data-stu-id="9e74c-213">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-214">SN = dir-pool.contoso.com; SAN = dir-pool.contoso.com; SAN = dir01. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-214">SN=dir-pool.contoso.com; SAN=dir-pool.contoso.com; SAN=dir01.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-215">Si este grupo de servidores del director es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="9e74c-215">If this Director pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-210">Predeterminado</span><span class="sxs-lookup"><span data-stu-id="f65bf-210">Default</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-211">FQDN del grupo de servidores del director</span><span class="sxs-lookup"><span data-stu-id="f65bf-211">FQDN of the Director pool</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-212">FQDN del director, FQDN del grupo de servidores del director</span><span class="sxs-lookup"><span data-stu-id="f65bf-212">FQDN of the Director, FQDN of the Director pool</span></span></p>
+<p><span data-ttu-id="f65bf-213">Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</span><span class="sxs-lookup"><span data-stu-id="f65bf-213">If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-214">SN = dir-pool.contoso.com; SAN = dir-pool.contoso.com; SAN = dir01. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-214">SN=dir-pool.contoso.com; SAN=dir-pool.contoso.com; SAN=dir01.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-215">Si este grupo de servidores del director es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="f65bf-215">If this Director pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9e74c-216">Web interno</span><span class="sxs-lookup"><span data-stu-id="9e74c-216">Web Internal</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-217">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="9e74c-217">FQDN of the server</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-218">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="9e74c-218">Each of the following:</span></span></p>
+<td><p><span data-ttu-id="f65bf-216">Web interno</span><span class="sxs-lookup"><span data-stu-id="f65bf-216">Web Internal</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-217">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="f65bf-217">FQDN of the server</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-218">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="f65bf-218">Each of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9e74c-219">FQDN web interno (que es igual que el FQDN del servidor)</span><span class="sxs-lookup"><span data-stu-id="9e74c-219">Internal web FQDN (which is the same as the FQDN of the server)</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-220">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="9e74c-220">Server FQDN</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-221">FQDN del grupo de Lync</span><span class="sxs-lookup"><span data-stu-id="9e74c-221">Lync pool FQDN</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-222">URL sencillas de reunión</span><span class="sxs-lookup"><span data-stu-id="9e74c-222">Meet simple URLs</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-223">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="9e74c-223">Dial-in simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-224">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="9e74c-224">Admin simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-225">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="9e74c-225">Or, a wildcard entry for the simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-219">FQDN web interno (que es igual que el FQDN del servidor)</span><span class="sxs-lookup"><span data-stu-id="f65bf-219">Internal web FQDN (which is the same as the FQDN of the server)</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-220">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="f65bf-220">Server FQDN</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-221">FQDN del grupo de Lync</span><span class="sxs-lookup"><span data-stu-id="f65bf-221">Lync pool FQDN</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-222">URL sencillas de reunión</span><span class="sxs-lookup"><span data-stu-id="f65bf-222">Meet simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-223">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="f65bf-223">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-224">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="f65bf-224">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-225">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="f65bf-225">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="9e74c-226">SN = dir01. contoso. com; SAN = dir01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com; SAN = admin. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-226">SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-227">SN = dir01. contoso. com; SAN = dir01. contoso. com SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-227">SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-226">SN = dir01. contoso. com; SAN = dir01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com; SAN = admin. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-226">SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-227">SN = dir01. contoso. com; SAN = dir01. contoso. com SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-227">SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9e74c-228">Web externo</span><span class="sxs-lookup"><span data-stu-id="9e74c-228">Web external</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-229">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="9e74c-229">FQDN of the server</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-230">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="9e74c-230">Each of the following:</span></span></p>
+<td><p><span data-ttu-id="f65bf-228">Web externo</span><span class="sxs-lookup"><span data-stu-id="f65bf-228">Web external</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-229">FQDN del servidor</span><span class="sxs-lookup"><span data-stu-id="f65bf-229">FQDN of the server</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-230">Cada uno de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="f65bf-230">Each of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9e74c-231">FQDN web externo</span><span class="sxs-lookup"><span data-stu-id="9e74c-231">External web FQDN</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-232">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="9e74c-232">Dial-in simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-233">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="9e74c-233">Admin simple URL</span></span></p></li>
-<li><p><span data-ttu-id="9e74c-234">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="9e74c-234">Or, a wildcard entry for the simple URLs</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-231">FQDN web externo</span><span class="sxs-lookup"><span data-stu-id="f65bf-231">External web FQDN</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-232">URL sencilla de marcado</span><span class="sxs-lookup"><span data-stu-id="f65bf-232">Dial-in simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-233">URL sencilla de administración</span><span class="sxs-lookup"><span data-stu-id="f65bf-233">Admin simple URL</span></span></p></li>
+<li><p><span data-ttu-id="f65bf-234">O una entrada de comodín para las direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="f65bf-234">Or, a wildcard entry for the simple URLs</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="9e74c-235">El FQDN Web externo del Director debe ser diferente del grupo de servidores front-end o del servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="9e74c-235">The Director external web FQDN must be different from the Front End pool or Front End Server.</span></span></p>
-<p><span data-ttu-id="9e74c-236">SN = dir01. contoso. com; SAN = directorwebcon01. contoso. com SAN = meet. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-236">SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
-<p><span data-ttu-id="9e74c-237">SN = dir01. contoso. com; SAN = directorwebcon01. contoso. com SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-237">SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-235">El FQDN Web externo del Director debe ser diferente del grupo de servidores front-end o del servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="f65bf-235">The Director external web FQDN must be different from the Front End pool or Front End Server.</span></span></p>
+<p><span data-ttu-id="f65bf-236">SN = dir01. contoso. com; SAN = directorwebcon01. contoso. com SAN = meet. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-236">SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="f65bf-237">SN = dir01. contoso. com; SAN = directorwebcon01. contoso. com SAN = \*. contoso. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-237">SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="9e74c-p107">Si tiene un grupo de servidores de mediación independientes, cada uno de los servidores de mediación que incluya necesitará los certificados listados en la siguiente tabla. Si combina el servidor de mediación con los servidores front-end, bastará con los certificados enumerados anteriormente en la tabla "Certificados para un servidor front-end en un grupo de servidores front-end" de este tema.</span><span class="sxs-lookup"><span data-stu-id="9e74c-p107">If you have a stand-alone Mediation Server pool, the Mediation Servers in it each need the certificates listed in the following table. If you collocate Mediation Server with the Front End Servers, the certificates listed in the “Certificates for Front End Server in Front End Pool” table earlier in this topic are sufficient.</span></span>
+<span data-ttu-id="f65bf-p107">Si tiene un grupo de servidores de mediación independientes, cada uno de los servidores de mediación que incluya necesitará los certificados listados en la siguiente tabla. Si combina el servidor de mediación con los servidores front-end, bastará con los certificados enumerados anteriormente en la tabla "Certificados para un servidor front-end en un grupo de servidores front-end" de este tema.</span><span class="sxs-lookup"><span data-stu-id="f65bf-p107">If you have a stand-alone Mediation Server pool, the Mediation Servers in it each need the certificates listed in the following table. If you collocate Mediation Server with the Front End Servers, the certificates listed in the “Certificates for Front End Server in Front End Pool” table earlier in this topic are sufficient.</span></span>
 
-### <a name="certificates-for-stand-alone-mediation-server"></a><span data-ttu-id="9e74c-240">Certificados para un servidor de mediación independiente</span><span class="sxs-lookup"><span data-stu-id="9e74c-240">Certificates for Stand-alone Mediation Server</span></span>
+### <a name="certificates-for-stand-alone-mediation-server"></a><span data-ttu-id="f65bf-240">Certificados para un servidor de mediación independiente</span><span class="sxs-lookup"><span data-stu-id="f65bf-240">Certificates for Stand-alone Mediation Server</span></span>
 
 <table>
 <colgroup>
@@ -292,25 +294,25 @@ ms.locfileid: "42187573"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9e74c-241">Certificado</span><span class="sxs-lookup"><span data-stu-id="9e74c-241">Certificate</span></span></th>
-<th><span data-ttu-id="9e74c-242">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="9e74c-242">Subject name/ Common name</span></span></th>
-<th><span data-ttu-id="9e74c-243">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="9e74c-243">Subject alternative name</span></span></th>
-<th><span data-ttu-id="9e74c-244">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9e74c-244">Example</span></span></th>
+<th><span data-ttu-id="f65bf-241">Certificado</span><span class="sxs-lookup"><span data-stu-id="f65bf-241">Certificate</span></span></th>
+<th><span data-ttu-id="f65bf-242">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="f65bf-242">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="f65bf-243">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="f65bf-243">Subject alternative name</span></span></th>
+<th><span data-ttu-id="f65bf-244">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f65bf-244">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9e74c-245">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="9e74c-245">Default</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-246">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="9e74c-246">FQDN of the pool</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-247">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="9e74c-247">FQDN of the pool</span></span></p>
-<p><span data-ttu-id="9e74c-248">FQDN del servidor miembro del grupo</span><span class="sxs-lookup"><span data-stu-id="9e74c-248">FQDN of pool member server</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-249">SN = medsvr-pool.contoso.net; SAN = medsvr-pool.contoso.net; SAN = medsvr01. contoso. net</span><span class="sxs-lookup"><span data-stu-id="9e74c-249">SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-245">Predeterminado</span><span class="sxs-lookup"><span data-stu-id="f65bf-245">Default</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-246">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="f65bf-246">FQDN of the pool</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-247">FQDN del grupo de servidores</span><span class="sxs-lookup"><span data-stu-id="f65bf-247">FQDN of the pool</span></span></p>
+<p><span data-ttu-id="f65bf-248">FQDN del servidor miembro del grupo</span><span class="sxs-lookup"><span data-stu-id="f65bf-248">FQDN of pool member server</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-249">SN = medsvr-pool.contoso.net; SAN = medsvr-pool.contoso.net; SAN = medsvr01. contoso. net</span><span class="sxs-lookup"><span data-stu-id="f65bf-249">SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="certificates-for-survivable-branch-appliance"></a><span data-ttu-id="9e74c-250">Certificados para una aplicación de sucursal con funciones de supervivencia</span><span class="sxs-lookup"><span data-stu-id="9e74c-250">Certificates for Survivable Branch Appliance</span></span>
+### <a name="certificates-for-survivable-branch-appliance"></a><span data-ttu-id="f65bf-250">Certificados para una aplicación de sucursal con funciones de supervivencia</span><span class="sxs-lookup"><span data-stu-id="f65bf-250">Certificates for Survivable Branch Appliance</span></span>
 
 <table>
 <colgroup>
@@ -321,18 +323,18 @@ ms.locfileid: "42187573"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9e74c-251">Certificado</span><span class="sxs-lookup"><span data-stu-id="9e74c-251">Certificate</span></span></th>
-<th><span data-ttu-id="9e74c-252">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="9e74c-252">Subject name/ Common name</span></span></th>
-<th><span data-ttu-id="9e74c-253">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="9e74c-253">Subject alternative name</span></span></th>
-<th><span data-ttu-id="9e74c-254">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9e74c-254">Example</span></span></th>
+<th><span data-ttu-id="f65bf-251">Certificado</span><span class="sxs-lookup"><span data-stu-id="f65bf-251">Certificate</span></span></th>
+<th><span data-ttu-id="f65bf-252">Nombre de sujeto/nombre común</span><span class="sxs-lookup"><span data-stu-id="f65bf-252">Subject name/ Common name</span></span></th>
+<th><span data-ttu-id="f65bf-253">Nombre alternativo de sujeto</span><span class="sxs-lookup"><span data-stu-id="f65bf-253">Subject alternative name</span></span></th>
+<th><span data-ttu-id="f65bf-254">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="f65bf-254">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9e74c-255">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="9e74c-255">Default</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-256">FQDN de la aplicación</span><span class="sxs-lookup"><span data-stu-id="9e74c-256">FQDN of the appliance</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-257">SIP. &lt;sipdomain&gt; (necesita una entrada por dominio SIP)</span><span class="sxs-lookup"><span data-stu-id="9e74c-257">SIP.&lt;sipdomain&gt; (need one entry per SIP domain)</span></span></p></td>
-<td><p><span data-ttu-id="9e74c-258">SN = sba01. contoso. net; SAN = SIP. contoso. com; SAN = SIP. fabrikam. com</span><span class="sxs-lookup"><span data-stu-id="9e74c-258">SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-255">Predeterminado</span><span class="sxs-lookup"><span data-stu-id="f65bf-255">Default</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-256">FQDN de la aplicación</span><span class="sxs-lookup"><span data-stu-id="f65bf-256">FQDN of the appliance</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-257">SIP. &lt; sipdomain &gt; (necesita una entrada por dominio SIP)</span><span class="sxs-lookup"><span data-stu-id="f65bf-257">SIP.&lt;sipdomain&gt; (need one entry per SIP domain)</span></span></p></td>
+<td><p><span data-ttu-id="f65bf-258">SN = sba01. contoso. net; SAN = SIP. contoso. com; SAN = SIP. fabrikam. com</span><span class="sxs-lookup"><span data-stu-id="f65bf-258">SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -340,10 +342,10 @@ ms.locfileid: "42187573"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9e74c-259">Consulta también</span><span class="sxs-lookup"><span data-stu-id="9e74c-259">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f65bf-259">Consulte también</span><span class="sxs-lookup"><span data-stu-id="f65bf-259">See Also</span></span>
 
 
-[<span data-ttu-id="9e74c-260">Compatibilidad con certificados comodín en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e74c-260">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)  
+[<span data-ttu-id="f65bf-260">Compatibilidad con certificados comodín en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f65bf-260">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)  
   
 
 </div>

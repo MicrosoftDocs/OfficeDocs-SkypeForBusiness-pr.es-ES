@@ -12,20 +12,22 @@ ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3e79a2d5ba9eeb21cf437eb643a8a12c3c64b61
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c768edeff7facc1030b414d0e0e54e3516abe52
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190763"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525627"
 ---
+# <a name="delete-a-response-group-queue-in-lync-server-2013"></a><span data-ttu-id="fe85d-102">Eliminar una cola de grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe85d-102">Delete a Response Group queue in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-response-group-queue-in-lync-server-2013"></a><span data-ttu-id="c892b-102">Eliminar una cola de grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c892b-102">Delete a Response Group queue in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,41 +37,41 @@ ms.locfileid: "42190763"
 
 <span> </span>
 
-<span data-ttu-id="c892b-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="c892b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="fe85d-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="fe85d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="c892b-104">Use uno de los siguientes procedimientos para eliminar una cola.</span><span class="sxs-lookup"><span data-stu-id="c892b-104">Use one of the following procedures to delete a queue.</span></span>
+<span data-ttu-id="fe85d-104">Use uno de los siguientes procedimientos para eliminar una cola.</span><span class="sxs-lookup"><span data-stu-id="fe85d-104">Use one of the following procedures to delete a queue.</span></span>
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-delete-a-queue"></a><span data-ttu-id="c892b-105">Para usar el panel de control de Lync Server para eliminar una cola</span><span class="sxs-lookup"><span data-stu-id="c892b-105">To use Lync Server Control Panel to delete a queue</span></span>
+## <a name="to-use-lync-server-control-panel-to-delete-a-queue"></a><span data-ttu-id="fe85d-105">Para usar el panel de control de Lync Server para eliminar una cola</span><span class="sxs-lookup"><span data-stu-id="fe85d-105">To use Lync Server Control Panel to delete a queue</span></span>
 
-1.  <span data-ttu-id="c892b-106">Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="c892b-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="fe85d-106">Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="fe85d-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="c892b-107">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c892b-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c892b-108">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="c892b-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="fe85d-107">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fe85d-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="fe85d-108">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="fe85d-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="c892b-109">En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Cola**.</span><span class="sxs-lookup"><span data-stu-id="c892b-109">In the left navigation bar, click **Response Groups**, and then click **Queue**.</span></span>
+3.  <span data-ttu-id="fe85d-109">En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Cola**.</span><span class="sxs-lookup"><span data-stu-id="fe85d-109">In the left navigation bar, click **Response Groups**, and then click **Queue**.</span></span>
 
-4.  <span data-ttu-id="c892b-110">En el campo de búsqueda, escriba el nombre completo o parcial de la cola que desea eliminar.</span><span class="sxs-lookup"><span data-stu-id="c892b-110">In the search field, type part or all of the name of the queue you want to delete.</span></span>
+4.  <span data-ttu-id="fe85d-110">En el campo de búsqueda, escriba el nombre completo o parcial de la cola que desea eliminar.</span><span class="sxs-lookup"><span data-stu-id="fe85d-110">In the search field, type part or all of the name of the queue you want to delete.</span></span>
 
-5.  <span data-ttu-id="c892b-111">En la lista de colas, haga clic en la cola que desee, haga clic en **Editar** y, a continuación, en **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="c892b-111">In the list of queues, click the queue that you want, click **Edit**, and then click **Delete**.</span></span>
+5.  <span data-ttu-id="fe85d-111">En la lista de colas, haga clic en la cola que desee, haga clic en **Editar** y, a continuación, en **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="fe85d-111">In the list of queues, click the queue that you want, click **Edit**, and then click **Delete**.</span></span>
 
-6.  <span data-ttu-id="c892b-112">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c892b-112">Click **OK**.</span></span>
+6.  <span data-ttu-id="fe85d-112">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="fe85d-112">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-a-queue"></a><span data-ttu-id="c892b-113">Para usar Windows PowerShell para eliminar una cola</span><span class="sxs-lookup"><span data-stu-id="c892b-113">To use Windows PowerShell to delete a queue</span></span>
+## <a name="to-use-windows-powershell-to-delete-a-queue"></a><span data-ttu-id="fe85d-113">Para usar Windows PowerShell para eliminar una cola</span><span class="sxs-lookup"><span data-stu-id="fe85d-113">To use Windows PowerShell to delete a queue</span></span>
 
-1.  <span data-ttu-id="c892b-114">Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="c892b-114">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="fe85d-114">Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="fe85d-114">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="c892b-115">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="c892b-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="fe85d-115">Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="fe85d-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="c892b-116">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="c892b-116">At the command line, run:</span></span>
+3.  <span data-ttu-id="fe85d-116">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="fe85d-116">At the command line, run:</span></span>
     
         Get-CsRgsQueue -Identity <Application Server service> -Name "<name of queue>" | Remove-CsRgsQueue
     
-    <span data-ttu-id="c892b-117">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="c892b-117">For example:</span></span>
+    <span data-ttu-id="fe85d-117">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fe85d-117">For example:</span></span>
     
         Get-CsRgsQueue -Identity service:ApplicationServer:redmond.contoso.com -Name "Help Desk" | Remove-CsRgsQueue
 

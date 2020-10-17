@@ -12,20 +12,22 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 344f15589e113a54b539d351ed8d4745e1fd3a5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a71ac7e0e1291dedfa45e4e358b5b3495d8a623b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527257"
 ---
+# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a><span data-ttu-id="2f356-102">Migración de Office Communications Server 2007 R2 a Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2f356-102">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a><span data-ttu-id="b57d7-102">Migración de Office Communications Server 2007 R2 a Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b57d7-102">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,69 +37,69 @@ ms.locfileid: "42209846"
 
 <span> </span>
 
-<span data-ttu-id="b57d7-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="b57d7-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="2f356-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="2f356-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="b57d7-104">Los temas de esta sección le guiarán por el proceso de migración de Office Communications Server 2007 R2 a Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b57d7-104">The topics in this section guide you through the process of migrating from Office Communications Server 2007 R2 to Lync Server 2013</span></span>
+<span data-ttu-id="2f356-104">Los temas de esta sección le guiarán por el proceso de migración de Office Communications Server 2007 R2 a Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2f356-104">The topics in this section guide you through the process of migrating from Office Communications Server 2007 R2 to Lync Server 2013</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="b57d7-p101">Este documento describe los pasos necesarios generalmente para llevar a cabo cada fase de migración. No aborda toda la topología de implementación heredada posible o cada posible escenario de migración. Por lo tanto, dependiendo de su implementación, es posible que no necesite realizar cada paso descrito o también es posible que necesite realizar pasos adicionales. Este documento también proporciona ejemplos de pasos de verificación. Estos pasos de verificación se ofrecen para ayudarle a entender lo que necesita buscar para garantizar que cada fase finalice correctamente mientras progresa a lo largo de la migración. Individualice estos pasos de verificación para su proceso de migración particular.</span><span class="sxs-lookup"><span data-stu-id="b57d7-p101">This document describes the steps generally required to accomplish each phase of migration. It does not address every possible legacy deployment topology or every possible migration scenario. Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment. This document also provides examples of verification steps. These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration. Tailor these verification steps to your specific migration process.</span></span>
+> <span data-ttu-id="2f356-p101">Este documento describe los pasos necesarios generalmente para llevar a cabo cada fase de migración. No aborda toda la topología de implementación heredada posible o cada posible escenario de migración. Por lo tanto, dependiendo de su implementación, es posible que no necesite realizar cada paso descrito o también es posible que necesite realizar pasos adicionales. Este documento también proporciona ejemplos de pasos de verificación. Estos pasos de verificación se ofrecen para ayudarle a entender lo que necesita buscar para garantizar que cada fase finalice correctamente mientras progresa a lo largo de la migración. Individualice estos pasos de verificación para su proceso de migración particular.</span><span class="sxs-lookup"><span data-stu-id="2f356-p101">This document describes the steps generally required to accomplish each phase of migration. It does not address every possible legacy deployment topology or every possible migration scenario. Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment. This document also provides examples of verification steps. These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration. Tailor these verification steps to your specific migration process.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="b57d7-p102">Esta guía le ofrece información específica para actualizar su implementación existente. No explica cómo cambiar su topología existente. Tampoco aborda la implementación de nuevas características. Cuando se documenta en otro lugar un procedimiento detallado, esta guía le dirige al documento o sección del documento pertinente.</span><span class="sxs-lookup"><span data-stu-id="b57d7-p102">This guide provides information specific to upgrading your existing deployment. It does not explain how to change your existing topology. This guide does not cover the implementation of new features. When a detailed procedure is documented elsewhere, this guide directs you to the appropriate document or document section.</span></span>
+<span data-ttu-id="2f356-p102">Esta guía le ofrece información específica para actualizar su implementación existente. No explica cómo cambiar su topología existente. Tampoco aborda la implementación de nuevas características. Cuando se documenta en otro lugar un procedimiento detallado, esta guía le dirige al documento o sección del documento pertinente.</span><span class="sxs-lookup"><span data-stu-id="2f356-p102">This guide provides information specific to upgrading your existing deployment. It does not explain how to change your existing topology. This guide does not cover the implementation of new features. When a detailed procedure is documented elsewhere, this guide directs you to the appropriate document or document section.</span></span>
 
-<span data-ttu-id="b57d7-115">Este documento define términos siguiendo las especificaciones de la lista siguiente.</span><span class="sxs-lookup"><span data-stu-id="b57d7-115">This document defines terms as specified in the following list.</span></span>
+<span data-ttu-id="2f356-115">Este documento define términos siguiendo las especificaciones de la lista siguiente.</span><span class="sxs-lookup"><span data-stu-id="2f356-115">This document defines terms as specified in the following list.</span></span>
 
-  - <span data-ttu-id="b57d7-116">*Migraciones*</span><span class="sxs-lookup"><span data-stu-id="b57d7-116">*migration*</span></span>  
-    <span data-ttu-id="b57d7-117">Mover la implementación de producción de una versión anterior de Office Communications Server 2007 R2 a Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b57d7-117">Moving your production deployment from a previous version of Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
-
-<!-- end list -->
-
-  - <span data-ttu-id="b57d7-118">*actualización*</span><span class="sxs-lookup"><span data-stu-id="b57d7-118">*upgrade*</span></span>  
-    <span data-ttu-id="b57d7-119">Instalar una versión de software más reciente en un equipo cliente o servidor.</span><span class="sxs-lookup"><span data-stu-id="b57d7-119">Installing a newer version of software on a server or client computer.</span></span>
+  - <span data-ttu-id="2f356-116">*Migraciones*</span><span class="sxs-lookup"><span data-stu-id="2f356-116">*migration*</span></span>  
+    <span data-ttu-id="2f356-117">Mover la implementación de producción de una versión anterior de Office Communications Server 2007 R2 a Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2f356-117">Moving your production deployment from a previous version of Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="b57d7-120">*coexistencia*</span><span class="sxs-lookup"><span data-stu-id="b57d7-120">*coexistence*</span></span>  
-    <span data-ttu-id="b57d7-121">El entorno temporal que existe durante la migración cuando alguna funcionalidad se ha migrado a Lync Server 2013 y la funcionalidad sigue siendo una versión anterior de Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="b57d7-121">The temporary environment that exists during migration when some functionality has been migrated to Lync Server 2013 and other functionality still remains on a prior version of Office Communications Server 2007 R2.</span></span>
+  - <span data-ttu-id="2f356-118">*actualización*</span><span class="sxs-lookup"><span data-stu-id="2f356-118">*upgrade*</span></span>  
+    <span data-ttu-id="2f356-119">Instalar una versión de software más reciente en un equipo cliente o servidor.</span><span class="sxs-lookup"><span data-stu-id="2f356-119">Installing a newer version of software on a server or client computer.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="b57d7-122">*interoperabilidad*</span><span class="sxs-lookup"><span data-stu-id="b57d7-122">*interoperability*</span></span>  
-    <span data-ttu-id="b57d7-123">La capacidad de su implementación para funcionar correctamente durante el período e coexistencia.</span><span class="sxs-lookup"><span data-stu-id="b57d7-123">The ability of your deployment to operate successfully during the period of coexistence.</span></span>
+  - <span data-ttu-id="2f356-120">*coexistencia*</span><span class="sxs-lookup"><span data-stu-id="2f356-120">*coexistence*</span></span>  
+    <span data-ttu-id="2f356-121">El entorno temporal que existe durante la migración cuando alguna funcionalidad se ha migrado a Lync Server 2013 y la funcionalidad sigue siendo una versión anterior de Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="2f356-121">The temporary environment that exists during migration when some functionality has been migrated to Lync Server 2013 and other functionality still remains on a prior version of Office Communications Server 2007 R2.</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="2f356-122">*interoperabilidad*</span><span class="sxs-lookup"><span data-stu-id="2f356-122">*interoperability*</span></span>  
+    <span data-ttu-id="2f356-123">La capacidad de su implementación para funcionar correctamente durante el período e coexistencia.</span><span class="sxs-lookup"><span data-stu-id="2f356-123">The ability of your deployment to operate successfully during the period of coexistence.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b57d7-124">En esta sección</span><span class="sxs-lookup"><span data-stu-id="b57d7-124">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2f356-124">En esta sección</span><span class="sxs-lookup"><span data-stu-id="2f356-124">In This Section</span></span>
 
-  - [<span data-ttu-id="b57d7-125">Antes de comenzar la migración</span><span class="sxs-lookup"><span data-stu-id="b57d7-125">Before you begin the migration</span></span>](before-you-begin-the-migration_1.md)
+  - [<span data-ttu-id="2f356-125">Antes de comenzar la migración</span><span class="sxs-lookup"><span data-stu-id="2f356-125">Before you begin the migration</span></span>](before-you-begin-the-migration_1.md)
 
-  - [<span data-ttu-id="b57d7-126">Fases de la migración</span><span class="sxs-lookup"><span data-stu-id="b57d7-126">Migration phases</span></span>](migration-phases_1.md)
+  - [<span data-ttu-id="2f356-126">Fases de la migración</span><span class="sxs-lookup"><span data-stu-id="2f356-126">Migration phases</span></span>](migration-phases_1.md)
 
-  - [<span data-ttu-id="b57d7-127">Fase 1: planear la migración desde Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="b57d7-127">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
+  - [<span data-ttu-id="2f356-127">Fase 1: planear la migración desde Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="2f356-127">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [<span data-ttu-id="b57d7-128">Fase 2: preparar la migración</span><span class="sxs-lookup"><span data-stu-id="b57d7-128">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration_1.md)
+  - [<span data-ttu-id="2f356-128">Fase 2: Preparación de la migración</span><span class="sxs-lookup"><span data-stu-id="2f356-128">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration_1.md)
 
-  - [<span data-ttu-id="b57d7-129">Fase 3: implementar el grupo piloto de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b57d7-129">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [<span data-ttu-id="2f356-129">Fase 3: implementar el grupo piloto de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2f356-129">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [<span data-ttu-id="b57d7-130">Fase 4: combinar topologías</span><span class="sxs-lookup"><span data-stu-id="b57d7-130">Phase 4: Merge topologies</span></span>](phase-4-merge-topologies.md)
+  - [<span data-ttu-id="2f356-130">Fase 4: combinar topologías</span><span class="sxs-lookup"><span data-stu-id="2f356-130">Phase 4: Merge topologies</span></span>](phase-4-merge-topologies.md)
 
-  - [<span data-ttu-id="b57d7-131">Fase 5: configurar el grupo piloto</span><span class="sxs-lookup"><span data-stu-id="b57d7-131">Phase 5: Configure the pilot pool</span></span>](phase-5-configure-the-pilot-pool.md)
+  - [<span data-ttu-id="2f356-131">Fase 5: configurar el grupo piloto</span><span class="sxs-lookup"><span data-stu-id="2f356-131">Phase 5: Configure the pilot pool</span></span>](phase-5-configure-the-pilot-pool.md)
 
-  - [<span data-ttu-id="b57d7-132">Fase 6: mover usuarios al grupo piloto</span><span class="sxs-lookup"><span data-stu-id="b57d7-132">Phase 6: Move users to the pilot pool</span></span>](phase-6-move-users-to-the-pilot-pool.md)
+  - [<span data-ttu-id="2f356-132">Fase 6: mover usuarios al grupo piloto</span><span class="sxs-lookup"><span data-stu-id="2f356-132">Phase 6: Move users to the pilot pool</span></span>](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [<span data-ttu-id="b57d7-133">Fase 7: agregar un servidor perimetral de Lync Server 2013 a un grupo piloto</span><span class="sxs-lookup"><span data-stu-id="b57d7-133">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [<span data-ttu-id="2f356-133">Fase 7: agregar un servidor perimetral de Lync Server 2013 a un grupo piloto</span><span class="sxs-lookup"><span data-stu-id="2f356-133">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [<span data-ttu-id="b57d7-134">Fase 8: pasar de la implementación piloto a la producción</span><span class="sxs-lookup"><span data-stu-id="b57d7-134">Phase 8: Move from pilot deployment into production</span></span>](phase-8-move-from-pilot-deployment-into-production.md)
+  - [<span data-ttu-id="2f356-134">Fase 8: pasar de la implementación piloto a la producción</span><span class="sxs-lookup"><span data-stu-id="2f356-134">Phase 8: Move from pilot deployment into production</span></span>](phase-8-move-from-pilot-deployment-into-production.md)
 
-  - [<span data-ttu-id="b57d7-135">Fase 9: completar las tareas posteriores a la migración</span><span class="sxs-lookup"><span data-stu-id="b57d7-135">Phase 9: Complete post-migration tasks</span></span>](phase-9-complete-post-migration-tasks.md)
+  - [<span data-ttu-id="2f356-135">Fase 9: completar las tareas posteriores a la migración</span><span class="sxs-lookup"><span data-stu-id="2f356-135">Phase 9: Complete post-migration tasks</span></span>](phase-9-complete-post-migration-tasks.md)
 
-  - [<span data-ttu-id="b57d7-136">Fase 10: retirar el sitio heredado</span><span class="sxs-lookup"><span data-stu-id="b57d7-136">Phase 10: Decommission legacy site</span></span>](phase-10-decommission-legacy-site.md)
+  - [<span data-ttu-id="2f356-136">Fase 10: retirar el sitio heredado</span><span class="sxs-lookup"><span data-stu-id="2f356-136">Phase 10: Decommission legacy site</span></span>](phase-10-decommission-legacy-site.md)
 
 </div>
 
