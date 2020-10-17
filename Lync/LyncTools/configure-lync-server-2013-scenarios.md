@@ -1,5 +1,6 @@
 ---
 title: Configuración de escenarios de 2013 de Lync Server
+description: Configure Lync Server 2013 escenarios.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541420
 ms.date: 12/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d108cc3a2c49c40eb04c9039c83689fb8c5abf4c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c4a5b7bd271191067779ac358807cc54918b16bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555466"
 ---
 # <a name="configure-lync-server-2013-scenarios"></a>Configuración de escenarios de 2013 de Lync Server
 

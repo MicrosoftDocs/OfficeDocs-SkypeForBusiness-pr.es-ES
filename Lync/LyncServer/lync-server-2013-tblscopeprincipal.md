@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblScopePrincipal'
+description: 'Lync Server 2013: tblScopePrincipal.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8263369e9224c4a3aeb20bbb664392fbe3ba7c6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 63315f8525e5c2f05fe54a0f9ed9e8a97b9e8bce
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536287"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555616"
 ---
 # <a name="tblscopeprincipal-in-lync-server-2013"></a>tblScopePrincipal en Lync Server 2013
 

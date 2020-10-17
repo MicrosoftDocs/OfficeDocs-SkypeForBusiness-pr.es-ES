@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: quitar una cuenta de usuario de Lync Server'
+description: 'Lync Server 2013: quitar una cuenta de usuario de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 782077cc532dc751076d3152467de865fe799a29
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 201eb8a7ba620792b92e2c7983890047c249ce86
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536517"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555756"
 ---
 # <a name="remove-a-user-account-from-lync-server-2013"></a>Quitar una cuenta de usuario de Lync Server 2013
 

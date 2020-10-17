@@ -1,5 +1,6 @@
 ---
 title: Crear un nuevo filtro de dirección URL para administrar hipervínculos en conversaciones de mensajería instantánea
+description: Cree un nuevo filtro de dirección URL para controlar los hipervínculos en las conversaciones de mensajería instantánea.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b129f2f9f1aa4b9a2a07a63d0432957f2b79941
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6e583b3e8cbd04279ab7f54b4138a349fa0d1e85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501917"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554666"
 ---
 # <a name="create-a-new-url-filter-in-lync-server-2013-to-handle-hyperlinks-in-im-conversations"></a>Crear un nuevo filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea
 

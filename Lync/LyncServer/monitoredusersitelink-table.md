@@ -1,5 +1,6 @@
 ---
 title: Tabla MonitoredUserSiteLink
+description: Tabla MonitoredUserSiteLink.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f379092a1ca17524c50db3376d3668ca84388f0e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 07c0ae8fba03f3720cbc293657d2fb08f6a98a7e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555096"
 ---
 # <a name="monitoredusersitelink-table"></a>Tabla MonitoredUserSiteLink
 

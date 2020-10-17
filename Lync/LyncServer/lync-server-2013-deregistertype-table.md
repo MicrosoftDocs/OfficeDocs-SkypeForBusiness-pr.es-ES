@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla DeRegisterType'
+description: 'Lync Server 2013: tabla DeRegisterType.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c4aa5ea27cdf86d9c8e0c0cdf7260b20cca4478
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: afad63c2abeba3e91565e07dac75d0ac6c96ca3a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555356"
 ---
 # <a name="deregistertype-table-in-lync-server-2013"></a>Tabla DeRegisterType en Lync Server 2013
 

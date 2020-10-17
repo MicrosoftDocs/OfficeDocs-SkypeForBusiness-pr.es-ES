@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: probar el plan de marcado'
+description: 'Lync Server 2013: probar el plan de marcado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c758f2f16d59db92841a5e7ef727a41cee8a8d4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a0ef2e3fce9d1fbbb0186b1b7aef608834145d3e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530447"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556176"
 ---
 # <a name="testing-the-dial-plan-in-lync-server-2013"></a>Probar el plan de marcado en Lync Server 2013
 

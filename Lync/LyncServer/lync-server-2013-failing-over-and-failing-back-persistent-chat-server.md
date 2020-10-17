@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: conmutación por error y conmutación por recuperación del servidor de chat persistente'
+description: 'Lync Server 2013: conmutación por error y conmutación por recuperación del servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bc7e8638b395cf233786e45c177d63b1b9a0d95
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a86a9f809a853d48103a8c50a04773e4625a2b8a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530937"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554976"
 ---
 # <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a>Conmutación por recuperación y conmutación por recuperación del servidor de chat persistente en Lync Server 2013
 

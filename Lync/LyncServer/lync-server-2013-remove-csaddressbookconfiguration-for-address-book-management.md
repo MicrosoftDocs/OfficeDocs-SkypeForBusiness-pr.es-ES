@@ -1,5 +1,6 @@
 ---
 title: Remove-CsAddressBookConfiguration para la administración de la libreta de direcciones
+description: Remove-CsAddressBookConfiguration para la administración de la libreta de direcciones.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fbb16b55191d115047208cd74f3276815f49b1d0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d513c128dfe87c5a6e92b66a6ba4e1dbdfbfb651
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536507"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555696"
 ---
 # <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Remove-CsAddressBookConfiguration para la administración de la libreta de direcciones en Lync Server 2013
 

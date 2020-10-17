@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administrar la configuración del grupo de respuesta de nivel de aplicación'
+description: 'Lync Server 2013: administrar la configuración del grupo de respuesta de nivel de aplicación.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733776
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af64929beba67b29b4588bae12a5a45c9de64460
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dd362cbe8ce738a16639b89edd79439b564444ee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498347"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555276"
 ---
 # <a name="managing-application-level-response-group-settings-in-lync-server-2013"></a>Administración de la configuración del grupo de respuesta de nivel de aplicación en Lync Server 2013
 

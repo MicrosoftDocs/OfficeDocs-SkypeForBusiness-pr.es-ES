@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: probar el programador web'
+description: 'Lync Server 2013: probar el programador web.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b385184486cdbf8e2ee18956df1546d09335e6c8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6512bf074078005eac66d1e4f5cd3d8ba2dc4bc7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556156"
 ---
 # <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Probar el programador web en Lync Server 2013
 

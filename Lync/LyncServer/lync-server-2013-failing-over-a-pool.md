@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: conmutación por error de un grupo'
+description: 'Lync Server 2013: conmutación por error de un grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bf54f1949627c39291388be248e0029077e9278
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 819137c1277c5058f4e5d36ef5dbe71e672e8641
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554986"
 ---
 # <a name="failing-over-a-pool-in-lync-server-2013"></a>Conmutación por error de un grupo de servidores en Lync Server 2013
 

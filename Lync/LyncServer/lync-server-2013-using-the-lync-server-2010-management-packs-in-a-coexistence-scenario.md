@@ -1,5 +1,6 @@
 ---
 title: Uso de los paquetes de administración de Lync Server 2010 en un escenario de coexistencia
+description: Uso de los paquetes de administración de Lync Server 2010 en un escenario de coexistencia.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb614726458f2cf9c77bdfe740ddb13d99d54f2f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f5f6e76f49b74badd0f40d115101abb38aa35172
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529927"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556076"
 ---
 # <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>Uso de los paquetes de administración de Lync Server 2010 en un escenario de coexistencia
 

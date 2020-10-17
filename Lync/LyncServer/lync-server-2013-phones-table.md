@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla de teléfonos'
+description: 'Lync Server 2013: tabla de teléfonos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1f7e2a4cb5d55dad8284e71688d3ee41ce05856
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9c62fffecd2442b79aefde77eb037dca4bffc9d4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524187"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554816"
 ---
 # <a name="phones-table-in-lync-server-2013"></a>Tabla teléfonos en Lync Server 2013
 

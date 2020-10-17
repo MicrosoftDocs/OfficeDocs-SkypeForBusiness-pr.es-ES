@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: obtener disponibilidad del grupo de servidores de chat persistente'
+description: 'Lync Server 2013: obtener la disponibilidad del grupo de servidores de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c6acc9e2ffb3ef4e636383f91e1e4c81a37ac6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 835f4b6008e61a46fa3969b4d09f76ee7c1533ff
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512617"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554616"
 ---
 # <a name="get-persistent-chat-server-pool-availability-in-lync-server-2013"></a>Obtener disponibilidad del grupo de servidores de chat persistente en Lync Server 2013
 

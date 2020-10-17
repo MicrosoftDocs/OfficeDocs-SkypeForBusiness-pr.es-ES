@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: conmutación por error del servidor de chat persistente'
+description: 'Lync Server 2013: conmutación por error del servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 42a3a8f5df203cc23be39a4a691ad713330eab59
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554966"
 ---
 # <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Conmutación por error del servidor de chat persistente en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de configuración del shell de administración de Lync Server'
+description: 'Lync Server 2013: cmdlets de configuración del shell de administración de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5d2ccb31c06a13aa659370013bbe6e970464748
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ccf38f18a253c7d864a87ccb85d1fc9a3e49916e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555306"
 ---
 # <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Cmdlets de configuración del shell de administración de Lync Server en Lync Server 2013
 

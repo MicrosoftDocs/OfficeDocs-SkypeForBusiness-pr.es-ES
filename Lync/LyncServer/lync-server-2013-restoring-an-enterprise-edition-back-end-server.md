@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: restauración de un servidor back-end de Enterprise Edition'
+description: 'Lync Server 2013: restauración de un servidor back-end de Enterprise Edition.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9780963614a1d0f5049fdc5226391e2ee2b6d59c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a2147aec00714704195399449e5d5e4d6ce609fd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555216"
 ---
 # <a name="restoring-an-enterprise-edition-back-end-server-in-lync-server-2013"></a>Restauración de un servidor back-end de Enterprise Edition en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Cmdlets, parámetros y valores de parámetros de Windows PowerShell en Skype empresarial online
+description: Cmdlets, parámetros y valores de parámetros de Windows PowerShell en Skype empresarial online.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ad45c9deecf364c273ff64e939c4379d169f3c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b1500713a02f85384be5a9cd9a7338b58d3c365f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555456"
 ---
 # <a name="windows-powershell-cmdlets-parameters-and-parameter-values-in-skype-for-business-online"></a>Cmdlets, parámetros y valores de parámetros de Windows PowerShell en Skype empresarial online
 

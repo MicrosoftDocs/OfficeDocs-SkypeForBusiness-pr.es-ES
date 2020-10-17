@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: pruebas de uso compartido en conferencias'
+description: 'Lync Server 2013: pruebas de uso compartido en conferencias.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969660
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36cf05d0d3d5cce13a100d23cb541eb5aa186ef7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e569a97d102664b64c201af9b60061813df69ef5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530497"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556246"
 ---
 # <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>Probar el uso compartido en conferencias en Lync Server 2013
 

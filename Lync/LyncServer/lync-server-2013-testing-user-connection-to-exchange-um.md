@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: prueba de la conexión del usuario a la mensajería unificada de Exchange'
+description: 'Lync Server 2013: prueba de la conexión del usuario a la mensajería unificada de Exchange.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87b6fd59ed0efb3a775017af1effd7bd022071fc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ea6f7d446fe3fd98db67bab4ffee9cc976202689
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503877"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556072"
 ---
 # <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Prueba de la conexión del usuario a la mensajería unificada de Exchange en Lync Server 2013
 

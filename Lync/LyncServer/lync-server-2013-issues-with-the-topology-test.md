@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: problemas con la prueba de topología'
+description: 'Lync Server 2013: problemas con la prueba de topología.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7095e539ec8e9cc832b4ce69f2e347bfcea38ccc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a0f24942844bcf371eff94ee04c8faafcf513d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514037"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554446"
 ---
 # <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Problemas con la prueba de topología en Lync Server 2013
 

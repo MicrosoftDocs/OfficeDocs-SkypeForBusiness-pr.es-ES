@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la Federación XMPP'
+description: 'Lync Server 2013: configuración de la Federación XMPP.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cb6b2904ee2a8883c492e570173e73bc001cc03
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b8a1fa15e399b0e0596a697420042b7504f8b791
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555706"
 ---
 # <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Configuración de la Federación XMPP en Lync Server 2013
 
