@@ -12,20 +12,22 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59bcaca40414c9bd99e451846c0339d0af6e7bf3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6a1ddaff4813035cabc8ca6b7468f1d4d06c93e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183723"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506937"
 ---
+# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Preparación e instalación del analizador de procedimientos recomendados en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Preparación e instalación del analizador de procedimientos recomendados en Lync Server 2013
+
 
 </div>
 
@@ -93,9 +95,9 @@ Se recomienda instalar Lync Server 2013, Best Practices Analyzer en un equipo de
 
 ## <a name="installing-best-practices-analyzer"></a>Instalación del Analizador de procedimientos recomendados
 
-Puede descargar el analizador de procedimientos recomendados para Lync Server 2013 en [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539).
+Puede descargar el analizador de procedimientos recomendados para Lync Server 2013 en [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539) .
 
-Para instalar el Analizador de procedimientos recomendados, inicie el archivo RtcBPA.msi de Microsoft Installer en el equipo donde desea instalar la herramienta y luego siga las instrucciones que aparecen en pantalla. La ubicación predeterminada para instalar los archivos de programa \<es archivos\>\\\\de programa de unidad de\\sistema Lync Server 2013 BPA.
+Para instalar el Analizador de procedimientos recomendados, inicie el archivo RtcBPA.msi de Microsoft Installer en el equipo donde desea instalar la herramienta y luego siga las instrucciones que aparecen en pantalla. La ubicación predeterminada para instalar los archivos de programa es \<system drive\> \\ archivos de programa \\ Lync Server 2013 \\ BPA.
 
 </div>
 

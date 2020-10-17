@@ -12,20 +12,22 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78d52e6a7eb36ce0f000a9986480d62692d3a33d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65ecb6946bcbb7244ef3e5ef8504312063ab1bd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195533"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507527"
 ---
+# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Configuración de usuarios y opciones de configuración de prueba de nodos de monitor en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Configuración de usuarios y opciones de configuración de prueba de nodos de monitor en Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ En esta sección se describen estos temas:
 
 ## <a name="configuring-test-user-accounts"></a>Configurar cuentas de usuario de prueba
 
-Los usuarios de prueba no necesitan representar a personas reales, pero deben ser cuentas de servicios de dominio de Active Directory válidas; Además, estas cuentas deben estar habilitadas para Lync Server 2013, deben tener direcciones SIP válidas y deben estar habilitadas para telefonía IP empresarial (para usar la transacción sintética test-CsPstnPeerToPeerCall). Si usa el método de autenticación TrustedServer, todo lo que debe hacer es asegurarse de que estas cuentas existen y se han configurado tal y como se especifica aquí. Debe asignar al menos tres usuarios de prueba para cada grupo de servidores que quiera probar.
+Los usuarios de prueba no necesitan representar a personas reales, pero deben ser cuentas de servicios de dominio de Active Directory válidas; Además, estas cuentas deben estar habilitadas para Lync Server 2013, deben tener direcciones SIP válidas y deben estar habilitadas para telefonía IP empresarial (para usar la transacción sintética Test-CsPstnPeerToPeerCall). Si usa el método de autenticación TrustedServer, todo lo que debe hacer es asegurarse de que estas cuentas existen y se han configurado tal y como se especifica aquí. Debe asignar al menos tres usuarios de prueba para cada grupo de servidores que quiera probar.
 
 Si usa el método de autenticación Negotiate, también debe usar el cmdlet **set-CsTestUserCredential** y el shell de administración de Lync Server para habilitar estas cuentas de prueba para que funcionen con las transacciones sintéticas. Para ello, puede ejecutar un comando similar al siguiente. (Estos comandos suponen que las tres cuentas de usuario de Active Directory ya se han creado y que esas cuentas se han habilitado para Lync Server 2013):
 
@@ -67,7 +69,7 @@ Si usa el método de autenticación Negotiate, también debe usar el cmdlet **se
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-Tenga en cuenta que debe incluir no solo la dirección SIP sino también el nombre de usuario y la contraseña. Si no incluye la contraseña Set-CsTestUserCredential le pedirá que escriba dicha información. El nombre de usuario se puede especificar con el formato\\de nombre de usuario nombre de dominio que se muestra arriba o mediante el formato de usuario Name@domain nombre; por ejemplo:
+Tenga en cuenta que debe incluir no solo la dirección SIP sino también el nombre de usuario y la contraseña. Si no incluye la contraseña Set-CsTestUserCredential le pedirá que escriba dicha información. El nombre de usuario puede especificarse con el formato de nombre de usuario nombre de dominio \\ que se muestra arriba o con el formato usuario Name@domain nombre; por ejemplo:
 
     -UserName "watcher3@litwareinc.com"
 

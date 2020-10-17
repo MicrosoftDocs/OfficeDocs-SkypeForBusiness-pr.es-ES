@@ -12,20 +12,22 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab897bf5bc9d959089090ebeaaddc4d766549401
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdb09d52970b5fd97395acda6a2e4fbc824a378d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505597"
 ---
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Configuración de la negociación para socios federados XMPP en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Configuración de la negociación para socios federados XMPP en Lync Server 2013
+
 
 </div>
 
@@ -69,21 +71,21 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <tr class="even">
 <td><p>Obligatorio</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><p>Al requerir el uso de TLS, si el socio federado de XMPP ha definido el uso de SASL como opcional u obligatorio, se utilizará. Si la SASL no se encuentra disponible, se utilizará la Devolución de llamada TLS.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Opcional</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><p>A pesar de ser muy flexibles en cuanto a los métodos de negociación ofrecidos, estas opciones dependen de la configuración del socio de federación XMPP. Si el socio tiene el uso de TLS como opcional u obligatorio, pero no es compatible con la SASL, se tendrá disponible la Devolución de llamada TLS. Si el socio ha definido TLS y SASL como opcionales u obligatorio, se usará la opción óptima, es decir, TLS por SASL.</p></td>
 </tr>
 <tr class="even">
 <td><p>No se admite</p></td>
-<td><p>No compatible</p></td>
-<td><p>True</p></td>
+<td><p>No se admite</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TCP</p></td>
 <td><p>En muchos casos, la Devolución de llamada TCP es la única solución posible. Aunque es menos recomendable que otras opciones, ofrece cierto nivel de confianza.</p></td>
 </tr>
@@ -114,7 +116,7 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <tr class="odd">
 <td><p>Obligatorio</p></td>
 <td><p>Obligatorio</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>SASL por TLS</p></td>
 <td><div>
 
@@ -133,8 +135,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </tr>
 <tr class="odd">
 <td><p>Opcional</p></td>
-<td><p>Obligatorio</p></td>
-<td><p>True</p></td>
+<td><p>Necesario</p></td>
+<td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><div>
 
@@ -146,7 +148,7 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </tr>
 <tr class="even">
 <td><p>Opcional</p></td>
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 <td><p>False</p></td>
 <td><p>SASL por TLS</p></td>
 <td><div>
@@ -158,9 +160,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>No compatible</p></td>
-<td><p>Obligatorio</p></td>
-<td><p>True</p></td>
+<td><p>No se admite</p></td>
+<td><p>Necesario</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TCP</p></td>
 <td><div>
 
@@ -171,8 +173,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </div></td>
 </tr>
 <tr class="even">
-<td><p>No compatible</p></td>
-<td><p>Obligatorio</p></td>
+<td><p>No se admite</p></td>
+<td><p>Necesario</p></td>
 <td><p>False</p></td>
 <td><div>
 
@@ -192,7 +194,7 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <tr class="odd">
 <td><p>Obligatorio</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS</p></td>
 <td></td>
 </tr>
@@ -206,7 +208,7 @@ Las opciones de configuración de los tipos de negociación en la configuración
 <tr class="odd">
 <td><p>Opcional</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>SASL por TLS, Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><div>
 
@@ -230,9 +232,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>No compatible</p></td>
+<td><p>No se admite</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TCP</p></td>
 <td><div>
 
@@ -243,7 +245,7 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </div></td>
 </tr>
 <tr class="even">
-<td><p>No compatible</p></td>
+<td><p>No se admite</p></td>
 <td><p>Opcional</p></td>
 <td><p>False</p></td>
 <td><div>
@@ -262,14 +264,14 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>Obligatorio</p></td>
-<td><p>No compatible</p></td>
-<td><p>True</p></td>
+<td><p>Necesario</p></td>
+<td><p>No se admite</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TLS</p></td>
 <td><p>La configuración permite la Devolución de llamada TLS.</p></td>
 </tr>
 <tr class="even">
-<td><p>Obligatorio</p></td>
+<td><p>Necesario</p></td>
 <td><p>No se admite</p></td>
 <td><p>False</p></td>
 <td><p>La configuración no es válida</p></td>
@@ -283,8 +285,8 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </tr>
 <tr class="odd">
 <td><p>Opcional</p></td>
-<td><p>No compatible</p></td>
-<td><p>True</p></td>
+<td><p>No se admite</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TLS, Devolución de llamada TCP</p></td>
 <td><p>La Devolución de llamada TCP o TLS se aceptarán o no en función de las opciones de negociación del otro extremo.</p></td>
 </tr>
@@ -302,9 +304,9 @@ Las opciones de configuración de los tipos de negociación en la configuración
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>No compatible</p></td>
-<td><p>No compatible</p></td>
-<td><p>True</p></td>
+<td><p>No se admite</p></td>
+<td><p>No se admite</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Devolución de llamada TCP</p></td>
 <td><p>La Devolución de llamada TCP es el único método de negociación disponible</p></td>
 </tr>

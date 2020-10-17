@@ -12,20 +12,22 @@ ms:contentKeyID: 48185605
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5709ed924a922755156aec1c65c03aaf5e31532f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 97ef19b9a83d0800abda844e0e07b389adb7b16e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188402"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506247"
 ---
+# <a name="configuring-lync-server-2013-to-route-to-a-sipcsta-gateway"></a>Configuración de Lync Server 2013 para enrutar a una puerta de enlace SIP/CSTA
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-route-to-a-sipcsta-gateway"></a>Configuración de Lync Server 2013 para enrutar a una puerta de enlace SIP/CSTA
+
 
 </div>
 

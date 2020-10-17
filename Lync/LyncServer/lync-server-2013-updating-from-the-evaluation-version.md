@@ -12,20 +12,22 @@ ms:contentKeyID: 48184294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 787aa9f1983dc755f1ce9b35ff66320be1d5dba5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 21fa1c35cff49205a7287841ac90c5dd9f0a4510
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193133"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506697"
 ---
+# <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Actualización de la versión de evaluación de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Actualización de la versión de evaluación de Lync Server 2013
+
 
 </div>
 

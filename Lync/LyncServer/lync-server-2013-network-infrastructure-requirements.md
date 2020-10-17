@@ -12,20 +12,22 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3571dba317998af4fe19f7d2dfd1677d3691f278
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 338e2387b08898694bd621e220d7f889a8d25e0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217116"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505547"
 ---
+# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Requisitos de la infraestructura de red para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Requisitos de la infraestructura de red para Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Entre los requisitos de red para audio y vídeo (A/V) en una implementación de 
     
 
     > [!IMPORTANT]  
-    > Si tiene un grupo de servidores perimetrales y usa un equilibrador de carga de hardware, debe usar direcciones IP públicas en cada uno de los servidores perimetrales y no puede usar NAT para los servidores o el grupo en el dispositivo NAT (por ejemplo, el Firewall u otro dispositivo de infraestructura que pueda ser NAT Inbou tráfico ND o saliente). Para obtener más información, consulte <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port Summary-Scaled Consolidated Edge with hardware Load balances in Lync Server 2013</A> en la documentación de Planning for external User Access.
+    > Si tiene un grupo de servidores perimetrales y usa un equilibrador de carga de hardware, debe usar direcciones IP públicas en cada uno de los servidores perimetrales y no puede usar NAT para los servidores o el grupo de servidores en el dispositivo NAT (por ejemplo, el Firewall u otro dispositivo de infraestructura que NAT tráfico entrante o saliente). Para obtener más información, consulte <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port Summary-Scaled Consolidated Edge with hardware Load balances in Lync Server 2013</A> en la documentación de Planning for external User Access.
 
     
     </div>
@@ -70,7 +72,7 @@ Para asegurar una calidad óptima de los medios, siga este procedimiento:
 
   - Aprovisione los vínculos de red para que admitan una capacidad de proceso de 65 kilobits por segundo (Kbps) por secuencia de audio y 500 Kbps por secuencia de vídeo en los períodos de uso máximo. Una sesión bidireccional de audio o vídeo consta de dos secuencias.
 
-  - Para hacer frente a picos inesperados en el tráfico por encima de este nivel y mayor uso a lo largo del tiempo, los extremos de medios de Lync Server se pueden adaptar a distintas condiciones de red y admitir cargas tres veces el rendimiento (ver párrafo anterior) para audio y vídeo al mismo tiempo mantener la calidad aceptable. No obstante, no se puede dar por sentado que esta capacidad de adaptación admita una red mal aprovisionada. En una red aprovisionada inhabilitada, se reduce la capacidad de los extremos de medios de Lync Server para tratar dinámicamente las distintas condiciones de red (por ejemplo, una pérdida de paquetes alta temporal).
+  - Para hacer frente a picos inesperados en el tráfico por encima de este nivel y mayor uso a lo largo del tiempo, los extremos de medios de Lync Server se pueden adaptar a distintas condiciones de red y admitir cargas de tres veces el rendimiento (ver párrafo anterior) para audio y vídeo, al mismo tiempo que conservan la calidad aceptable. No obstante, no se puede dar por sentado que esta capacidad de adaptación admita una red mal aprovisionada. En una red aprovisionada inhabilitada, se reduce la capacidad de los extremos de medios de Lync Server para tratar dinámicamente las distintas condiciones de red (por ejemplo, una pérdida de paquetes alta temporal).
 
   - En el caso de los vínculos de red donde el aprovisionamiento resulta muy costoso y difícil, puede que se vea obligado a considerar un aprovisionamiento para un menor volumen de tráfico. En este escenario, permita que la elasticidad de los puntos de conexión multimedia de Lync Server absorba la diferencia entre el volumen de tráfico y el nivel de tráfico máximo, a costa de una reducción de la calidad de la voz. También hay una disminución en el margen que normalmente está disponible para absorber los picos de tráfico repentinos.
 

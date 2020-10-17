@@ -12,20 +12,22 @@ ms:contentKeyID: 48183945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dd399ef7a0ed2dd6609fe0455d9593e1e567b3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0be98112431b9e57486bb33e0eab84eada94e50
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183643"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506787"
 ---
+# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>Requisitos previos para habilitar la autenticación Kerberos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>Requisitos previos para habilitar la autenticación Kerberos en Lync Server 2013
+
 
 </div>
 

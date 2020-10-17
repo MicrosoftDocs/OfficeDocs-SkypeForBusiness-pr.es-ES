@@ -12,20 +12,22 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd5875dc7e0dd999a1d94e6e7722eeba07c3a37e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f31354ee87cdf7df5efdb6c4e2accf3758829c1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183613"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506837"
 ---
+# <a name="preparing-to-restore-lync-server-2013"></a>Preparación de la restauración de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-to-restore-lync-server-2013"></a>Preparación de la restauración de Lync Server 2013
+
 
 </div>
 
@@ -150,7 +152,7 @@ Al restaurar un servidor, se debe empezar con un equipo nuevo o limpio. Además,
     
     </div>
 
-  - Software de instalación de Lync Server 2013. El Asistente para la implementación de Lync Server se encuentra en la carpeta de instalación de \\Lync\\Server\\o en el medio de instalación de AMD64 Setup. exe.
+  - Software de instalación de Lync Server 2013. El Asistente para la implementación de Lync Server se encuentra en la carpeta o medio de instalación de Lync Server en la \\ instalación de \\ AMD64 \\Setup.exe.
 
 Durante la restauración se usan las siguientes herramientas:
 

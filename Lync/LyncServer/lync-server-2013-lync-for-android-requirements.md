@@ -12,20 +12,22 @@ ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 633cecceae362c25470cbea88dd5bda4f7f4be36
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cca08828dd91a7b6c26e11330f0e8839f4677be4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506057"
 ---
+# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Requisitos de Lync para Android en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Requisitos de Lync para Android en Lync Server 2013
+
 
 </div>
 

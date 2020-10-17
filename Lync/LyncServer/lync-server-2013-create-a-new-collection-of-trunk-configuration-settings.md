@@ -12,20 +12,22 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f988b096b6f991cb52b4d1238219b67364c37ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7d019bfe7bb1dbb1322281a50f393decc8e5cc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507467"
 ---
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Crear una nueva colección de opciones de configuración de tronco en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Crear una nueva colección de opciones de configuración de tronco en Lync Server 2013
+
 
 </div>
 
@@ -96,7 +98,7 @@ Al crear opciones de configuración de tronco SIP mediante el panel de control d
 <td><p>Parámetro enable3pccrefer</p>
 <p>EnableReferSupport</p></td>
 <td><p>Si se configura en <strong>Habilitar enviar referencia a la puerta de enlace</strong>, indica que el tronco admite la recepción de Solicitudes de referencia desde el Servidor de mediación.</p>
-<p>Si está establecido como <strong>Habilitar la referencia mediante un control de llamadas de terceros</strong>, indica que el protocolo 3pcc puede ser utilizado para permitir llamadas transferidas para desviar el sitio hospedado. 3pcc también se conoce como &quot;control de terceros&quot; y se produce cuando se usa un tercero para conectar un par de llamadores (por ejemplo, un operador que realiza una llamada de la persona a a la persona B).</p></td>
+<p>Si está establecido como <strong>Habilitar la referencia mediante un control de llamadas de terceros</strong>, indica que el protocolo 3pcc puede ser utilizado para permitir llamadas transferidas para desviar el sitio hospedado. 3pcc también se conoce como &quot; control &quot; de terceros y se produce cuando se usa un tercero para conectar un par de llamadores (por ejemplo, un operador que realiza una llamada de la persona a a la persona B).</p></td>
 </tr>
 <tr class="even">
 <td><p>Habilitar el desvío de medios</p></td>

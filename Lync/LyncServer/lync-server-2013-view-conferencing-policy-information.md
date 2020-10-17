@@ -12,20 +12,22 @@ ms:contentKeyID: 49733852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 664078db23ecba5d26852c2e1348935a3e4c60b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f2417af7b1258a1b0bd9fce1bd5aafb6c691c59
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211516"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506527"
 ---
+# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Ver información de directiva de conferencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Ver información de directiva de conferencia en Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ En el panel de control de Lync Server 2013, puede usar directivas de conferencia
 
 5.  En **Editar filtro de archivo**, active la casilla **Mostrar detalles…**.
     
-    **Editar Directiva de conferencia \<:\> ** se abre la Directiva y se muestra la configuración de la Directiva seleccionada. Para obtener más información sobre cómo configurar las opciones, consulte [crear o modificar una directiva de conferencia en Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
+    **Editar Directiva de conferencia \<policy\> :** se abre para mostrar la configuración de la Directiva seleccionada. Para obtener más información sobre cómo configurar las opciones, consulte [crear o modificar una directiva de conferencia en Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
 
 </div>
 
@@ -65,7 +67,7 @@ En el panel de control de Lync Server 2013, puede usar directivas de conferencia
 
 ## <a name="viewing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Ver directivas de conferencia con los cmdlets de Windows PowerShell
 
-Las directivas de conferencia se pueden ver con Windows PowerShell y el cmdlet Get-CsConferencingPolicy. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Las directivas de conferencia se pueden ver con Windows PowerShell y el cmdlet Get-CsConferencingPolicy. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

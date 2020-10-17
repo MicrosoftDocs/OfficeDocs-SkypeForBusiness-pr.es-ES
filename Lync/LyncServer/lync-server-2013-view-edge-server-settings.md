@@ -12,20 +12,22 @@ ms:contentKeyID: 63969612
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c76eb9580c7ee394e0e60e5d0f8cfe38dcae65e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ceb3f536a0aadb181b1b740d74c8f61715efed21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211436"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506397"
 ---
+# <a name="view-edge-server-settings-in-lync-server-2013"></a>Ver la configuración del servidor perimetral en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-edge-server-settings-in-lync-server-2013"></a>Ver la configuración del servidor perimetral en Lync Server 2013
+
 
 </div>
 
@@ -97,7 +99,7 @@ Puede ver la configuración de servidores perimetrales en el panel de detalles d
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Get-CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  

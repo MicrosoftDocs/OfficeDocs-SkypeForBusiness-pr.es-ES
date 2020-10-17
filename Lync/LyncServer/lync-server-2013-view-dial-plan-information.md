@@ -12,20 +12,22 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a4b668291c0e8ba5c402f17288bebe342ccceb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 763e60533af230f613be89cad16379b851549801
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211446"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506437"
 ---
+# <a name="view-dial-plan-information-in-lync-server-2013"></a>Ver información de plan de marcado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-plan-information-in-lync-server-2013"></a>Ver información de plan de marcado en Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Para ver información para un plan de marcado existente, lleve a cabo los pasos 
 
 ## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a>Para ver planes de marcado mediante cmdlets de Windows PowerShell
 
-  - Los planes de marcado se pueden ver mediante la interfaz de línea de comandos de Windows PowerShell y el cmdlet **Get-CsDialPlan** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+  - Los planes de marcado se pueden ver mediante la interfaz de línea de comandos de Windows PowerShell y el cmdlet **Get-CsDialPlan** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
     
     Para ver información sobre todos los planes de marcado, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
     
@@ -91,7 +93,7 @@ Para ver información para un plan de marcado existente, lleve a cabo los pasos 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md)  

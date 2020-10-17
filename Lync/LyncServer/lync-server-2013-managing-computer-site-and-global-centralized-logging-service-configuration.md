@@ -12,20 +12,22 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 868005d0a719bc8bc021f1a0b82260037c1f6ea6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8b7dfb9d96e452fc18dc5a7a962a18802388410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505857"
 ---
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Administración de equipos, sitios y configuración del servicio de registro centralizado global en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Administración de equipos, sitios y configuración del servicio de registro centralizado global en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42218126"
 
 _**Última modificación del tema:** 2014-02-04_
 
-El servicio de registro centralizado se puede ejecutar en un ámbito que incluya un solo equipo, un grupo de equipos, en un ámbito de sitio (es decir, un sitio definido, como el sitio Redmond, que contiene una colección de equipos y grupos de servidores de la implementación) o en un ámbito global (es decir, , todos los equipos y grupos de la implementación).
+El servicio de registro centralizado se puede ejecutar en un ámbito que incluya un solo equipo, un grupo de equipos, en un ámbito de sitio (es decir, un sitio definido, como el sitio Redmond, que contiene una colección de equipos y grupos de servidores de la implementación) o en un ámbito global (es decir, todos los equipos y grupos de servidores de la implementación).
 
 Para configurar el ámbito del servicio de registro centralizado mediante el shell de administración de Lync Server, debe ser miembro de los grupos de seguridad CsAdministrator o CsServerAdministrator role-based access control (RBAC), o un rol RBAC personalizado que contenga cualquiera de estos dos grupos. Para devolver una lista de todos los roles RBAC a los que se ha asignado este cmdlet (incluidos los roles RBAC personalizados que haya creado), ejecute el siguiente comando desde el shell de administración de Lync Server o el símbolo del sistema de Windows PowerShell:
 
@@ -51,7 +53,7 @@ Por ejemplo:
 
 
 > [!NOTE]
-> Windows PowerShell proporciona más opciones y opciones de configuración adicionales que no están disponibles mediante CLSController. exe. CLSController ofrece un método rápido y conciso de ejecutar comandos, pero está limitado al conjunto de comandos disponible para CLSController. Windows PowerShell no está limitado solo al comando disponible para el procesador de comandos de la CLSController y proporciona un conjunto más amplio de comandos y un conjunto más amplio de opciones. Por ejemplo, CLSController.exe proporciona las opciones de ámbito -computers y -pools. Con Windows PowerShell, puede indicar equipos o grupos en la mayoría de los comandos y, cuando define nuevos escenarios (CLSController tiene un número finito de escenarios que no son modificables por el usuario), puede definir un ámbito global o de sitio. Esta eficaz característica de Windows PowerShell permite definir un escenario de un sitio o un ámbito global, pero limita el registro real a un equipo o grupo de servidores.<BR>Existen diferencias fundamentales entre los comandos de la línea de comandos que se pueden ejecutar en Windows PowerShell o CLSController. Windows PowerShell proporciona un método enriquecido para configurar y definir escenarios y reutilizarlos de forma significativa para los escenarios de solución de problemas. Aunque CLSController ofrece una manera rápida y eficaz de ejecutar comandos y obtener resultados, el conjunto de comandos de CLSController se limita al número finito de comandos que hay disponibles en la línea de comandos. A diferencia de los cmdlets de Windows PowerShell, CLSController no puede definir nuevos escenarios, administrar ámbitos en un sitio o nivel global, y muchas otras limitaciones de un conjunto de comandos finito que no se pueden configurar dinámicamente. Aunque CLSController proporciona un medio para una ejecución rápida, Windows PowerShell ofrece un medio para extender la funcionalidad del servicio de registro centralizado más allá de lo que es posible con CLSController.
+> Windows PowerShell proporciona más opciones y opciones de configuración adicionales que no están disponibles mediante el uso de CLSController.exe. CLSController ofrece un método rápido y conciso de ejecutar comandos, pero está limitado al conjunto de comandos disponible para CLSController. Windows PowerShell no está limitado solo al comando disponible para el procesador de comandos de la CLSController y proporciona un conjunto más amplio de comandos y un conjunto más amplio de opciones. Por ejemplo, CLSController.exe proporciona las opciones de ámbito -computers y -pools. Con Windows PowerShell, puede indicar equipos o grupos en la mayoría de los comandos y, cuando define nuevos escenarios (CLSController tiene un número finito de escenarios que no son modificables por el usuario), puede definir un ámbito global o de sitio. Esta eficaz característica de Windows PowerShell permite definir un escenario de un sitio o un ámbito global, pero limita el registro real a un equipo o grupo de servidores.<BR>Existen diferencias fundamentales entre los comandos de la línea de comandos que se pueden ejecutar en Windows PowerShell o CLSController. Windows PowerShell proporciona un método enriquecido para configurar y definir escenarios y reutilizarlos de forma significativa para los escenarios de solución de problemas. Aunque CLSController ofrece una manera rápida y eficaz de ejecutar comandos y obtener resultados, el conjunto de comandos de CLSController se limita al número finito de comandos que hay disponibles en la línea de comandos. A diferencia de los cmdlets de Windows PowerShell, CLSController no puede definir nuevos escenarios, administrar ámbitos en un sitio o nivel global, y muchas otras limitaciones de un conjunto de comandos finito que no se pueden configurar dinámicamente. Aunque CLSController proporciona un medio para una ejecución rápida, Windows PowerShell ofrece un medio para extender la funcionalidad del servicio de registro centralizado más allá de lo que es posible con CLSController.
 
 
 
@@ -232,7 +234,7 @@ Si decide quitar una configuración en el nivel de sitio, el sitio usará la con
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Información general sobre el servicio de registro centralizado en Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  

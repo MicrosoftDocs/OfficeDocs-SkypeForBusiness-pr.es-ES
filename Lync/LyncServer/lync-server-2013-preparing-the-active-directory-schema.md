@@ -12,20 +12,22 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efabd082fce4dba5cf210e2c0f9c390324474cd2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27c785596d1fe994e3156eb0e52ed840609a5c26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506857"
 ---
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Preparar el esquema de Active Directory en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Preparar el esquema de Active Directory en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Antes de empezar a preparar los servicios de dominio de Active Directory, puede 
 
   - VersionSchema.ldf, que se usa para la información de versión del esquema preparado
 
-Todos los archivos .ldf se instalan durante la preparación del esquema, sin importar si se está migrando desde una versión anterior o si se está realizando una instalación limpia. Estos archivos de esquema se instalan en la secuencia que se muestra en la lista anterior y \\se\\encuentran en la carpeta esquema de soporte en los medios de instalación.
+Todos los archivos .ldf se instalan durante la preparación del esquema, sin importar si se está migrando desde una versión anterior o si se está realizando una instalación limpia. Estos archivos de esquema se instalan en la secuencia que se muestra en la lista anterior y se encuentran en la \\ \\ carpeta esquema de soporte en los medios de instalación.
 
 Las extensiones de esquema de Lync Server se replican en todos los dominios, lo que afecta al tráfico de red. Ejecute la preparación del esquema cuando el uso de la red sea bajo.
 
@@ -55,7 +57,7 @@ Las extensiones de esquema de Lync Server se replican en todos los dominios, lo 
 
 
 > [!NOTE]  
-> Si necesita agregar compatibilidad con los clientes móviles de Microsoft® Office Communicator Mobile 2007 R2 para Java y Microsoft® Office Communicator Mobile para Nokia 1,0 a su implementación de Lync Server 2013, debe preparar el esquema de Active Directory para Microsoft Office Communications Server 2007 R2 durante la instalación de Lync Server 2013. Para consultar la documentación y el software necesario <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A>, consulte.
+> Si necesita agregar compatibilidad con los clientes móviles de Microsoft® Office Communicator Mobile 2007 R2 para Java y Microsoft® Office Communicator Mobile para Nokia 1,0 a su implementación de Lync Server 2013, debe preparar el esquema de Active Directory para Microsoft Office Communications Server 2007 R2 durante la instalación de Lync Server 2013. Para consultar la documentación y el software necesario, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A> .
 
 
 
@@ -69,7 +71,7 @@ El editor de interfaces de servicio de Active Directory (ADSI Edit) es una herra
 
 ADSI Edit se instala de forma predeterminada al instalar el rol AD DS para hacer del servidor un controlador de dominios. Para Windows Server 2008 y Windows Server 2008 R2, ADSI Edit (AdsiEdit. msc) se incluye con las herramientas de administración remota del servidor (RSAT). También puede instalar las RSAT en servidores de miembros de domino o en servidores independientes. El paquete de RSAT se copia de forma predeterminada en estos servidores al instalar Windows, pero no se instala de forma predeterminada. Las herramientas individuales se instalan con el Administrador de servidores. El editor ADSI se incluye en **Herramientas de administración de roles**, **Herramientas de los Servicios de dominio de Active Directory**, **Herramientas del controlador de dominio de Active Directory**.
 
-Para Windows Server 2003, el editor ADSI se incluye con las herramientas de soporte técnico. Las herramientas de soporte están disponibles en el CD de Windows Server 2003 \\,\\en la carpeta Support Tools, o puede descargarlas desde "herramientas de soporte técnico de Windows server 2003 Service [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770)Pack 2 32-bit" en. Las instrucciones para instalar las herramientas de soporte desde el CD del producto están disponibles en "instalar herramientas de [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771)soporte de Windows" en. Adsiedit. dll se registra automáticamente al instalar las herramientas de soporte técnico. Sin embargo, si copió los archivos en el equipo, debe ejecutar el comando **regsvr32** para registrar el archivo ADSIEdit. dll antes de poder ejecutar la herramienta.
+Para Windows Server 2003, el editor ADSI se incluye con las herramientas de soporte técnico. Las herramientas de soporte están disponibles en el CD de Windows Server 2003 \\ , en la \\ carpeta Support Tools, o puede descargarlas desde "herramientas de soporte técnico de windows Server 2003 Service Pack 2 32-bit" en [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770) . Las instrucciones para instalar las herramientas de soporte desde el CD del producto están disponibles en "instalar herramientas de soporte de Windows" en [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771) . Adsiedit.dll se registra automáticamente al instalar las herramientas de soporte técnico. Sin embargo, si copió los archivos en el equipo, debe ejecutar el comando **regsvr32** para registrar el archivo de adsiedit.dll para poder ejecutar la herramienta.
 
 </div>
 
@@ -85,7 +87,7 @@ Para Windows Server 2003, el editor ADSI se incluye con las herramientas de sopo
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Preparar el bosque para Lync Server 2013](lync-server-2013-preparing-the-forest.md)  

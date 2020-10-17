@@ -12,20 +12,22 @@ ms:contentKeyID: 48185077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03eca427f644d6f94ae7a52900b80320e2517ed2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b22a232bd304d4db3faae168f42dae11cea8fc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195333"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507387"
 ---
+# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Implementación de servidores de mediación y definición de pares en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Implementación de servidores de mediación y definición de pares en Lync Server 2013
+
 
 </div>
 

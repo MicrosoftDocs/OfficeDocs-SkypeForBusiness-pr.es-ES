@@ -12,20 +12,22 @@ ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25fceca5dfb3b308d7f9d545268c258c3e32609c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26e4b9c2814b8e9e5bf57e2e798b4b803d7401fb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199743"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507267"
 ---
+# <a name="im-and-presence-in-lync-server-2013"></a>Mensajería instantánea y presencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="im-and-presence-in-lync-server-2013"></a>Mensajería instantánea y presencia en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Con solo mirar la lista de contactos, los usuarios podrán encontrar de inmediat
 
 Con la integración entre Lync Server y otros productos como Outlook y SharePoint, siempre que aparezca el nombre de un contacto, como en un mensaje de correo electrónico o en un sitio web de grupo, también se muestra el estado y la información de contacto. Además, si implementa Exchange 2013, Lync Server y Exchange 2013 pueden compartir un almacén de contactos unificado, al que pueden tener acceso los clientes de ambos productos.
 
-Con la mensajería instantánea en Lync Server, los usuarios pueden crear mensajes rápidamente entre sí con información oportuna. Si lo prefiere, los usuarios también pueden comunicarse con usuarios de redes de mensajería instantánea pública, como MSN/Windows Live\!, Yahoo y AOL. Tenga en cuenta que es posible que se requiera una licencia independiente para la conectividad de mensajería instantánea pública con Windows Live, AOL y Yahoo\! Lync Server también incluye compatibilidad con el protocolo extensible de mensajería y presencia (XMPP), por lo que los usuarios pueden intercambiar mensajes INSTANTÁNEos e información de presencia con usuarios de servicios XMPP, como Google Talk.
+Con la mensajería instantánea en Lync Server, los usuarios pueden crear mensajes rápidamente entre sí con información oportuna. Si lo prefiere, los usuarios también pueden comunicarse con usuarios de redes de mensajería instantánea pública, como MSN/Windows Live, Yahoo \! y AOL. Tenga en cuenta que es posible que se requiera una licencia independiente para la conectividad de mensajería instantánea pública con Windows Live, AOL y Yahoo\! Lync Server también incluye compatibilidad con el protocolo extensible de mensajería y presencia (XMPP), por lo que los usuarios pueden intercambiar mensajes INSTANTÁNEos e información de presencia con usuarios de servicios XMPP, como Google Talk.
 
 <div>
 
@@ -69,7 +71,7 @@ El historial de la conversación permite que los usuarios mantengan un registro 
 
 La característica chat persistente permite a los usuarios participar en conversaciones basadas en temas con varios participantes que persisten a lo largo del tiempo. Los mensajes enviados a los salones de chat (foros de discusión) pueden ser persistentes (esto es, disponibles en el tiempo) para que las personas en diferentes ubicaciones y departamentos puedan participar, incluso cuando no están todos en línea al mismo tiempo.
 
-Si su organización debe seguir normativas de cumplimiento, puede implementar una característica de archivado de mensajes para almacenar el contenido de los mensajes instantáneos de todos los usuarios de su organización, o solo de algunos usuarios que se especifiquen. Si también implementa Exchange 2013, el archivo de mensajería instantánea se puede integrar con la característica de conservación local de Exchange, para proporcionar una única experiencia de administración para el cumplimiento.
+Si su organización debe seguir normativas de cumplimiento, puede implementar una característica de archivado de mensajes para almacenar el contenido de los mensajes instantáneos de todos los usuarios de su organización, o solo de algunos usuarios que se especifiquen. Si también implementa Exchange 2013, el archivo de mensajería instantánea puede integrarse con la característica de retención de In-Place de Exchange, para proporcionar una única experiencia de administración para el cumplimiento.
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4eb457dbaee5e91b7b4f408018242384cd8992c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a76f3bb2a3ccc182f16e2e1416bdec00aefe3e7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188263"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506097"
 ---
+# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>Implementación del servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>Implementación del servidor de chat persistente en Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Para obtener más información sobre las configuraciones de colocaciones admitid
 
 
 > [!IMPORTANT]  
-> No se admite la alta disponibilidad para el servidor&nbsp;de chat persistente Standard Edition. El rendimiento y la escala se limitarán. Además, solo admitimos un nuevo servidor de&nbsp;servidor de chat persistente Server Standard Edition. No se admite la actualización de Lync Server 2010, el servidor de chat en grupo a un&nbsp;servidor&nbsp;de chat persistente de Lync Server 2013 Standard Edition.
+> No se admite la alta disponibilidad para el servidor de chat persistente &nbsp; Standard Edition. El rendimiento y la escala se limitarán. Además, solo admitimos un nuevo servidor de servidor de chat persistente Server &nbsp; Standard Edition. No se admite la actualización de Lync Server 2010, el servidor de chat en grupo a un servidor de chat persistente de Lync Server 2013 &nbsp; &nbsp; Standard Edition.
 
 
 

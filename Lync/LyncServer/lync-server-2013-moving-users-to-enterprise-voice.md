@@ -12,20 +12,22 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5554a9c7fde74b5bcf9c81c451023d0f48bbf918
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507057"
 ---
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Mover usuarios a telefonía IP empresarial en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Mover usuarios a telefonía IP empresarial en Lync Server 2013
+
 
 </div>
 
@@ -125,7 +127,7 @@ El formato esperado del número especificado en este atributo es:
 
 <div>
 
-## <a name="step-2-enable-users-for-enterprise-voice"></a>Paso 2. Habilitar a los usuarios para la telefonía IP empresarial
+## <a name="step-2-enable-users-for-enterprise-voice"></a>Paso 2. Habilitar usuarios para telefonía IP empresarial
 
 Aparte de identificar los usuarios que se van a habilitar, no se requiere una planificación especial para completar este paso.
 
@@ -175,7 +177,7 @@ El traslado de usuarios a la mensajería unificada de Exchange consta de las sig
 
   - Configurar la mensajería unificada de Exchange y Lync Server para que funcionen conjuntamente.
 
-  - Habilite a los usuarios para el contestador automático de mensajería unificada de Exchange y Outlook Voice Access. Esta tarea se realiza en el servidor de mensajería unificada de Exchange. Para obtener más información, consulte la biblioteca de TechNet de [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372)Exchange Server 2010 en.
+  - Habilite a los usuarios para el contestador automático de mensajería unificada de Exchange y Outlook Voice Access. Esta tarea se realiza en el servidor de mensajería unificada de Exchange. Para obtener más información, consulte la biblioteca de TechNet de Exchange Server 2010 en [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372) .
 
 </div>
 

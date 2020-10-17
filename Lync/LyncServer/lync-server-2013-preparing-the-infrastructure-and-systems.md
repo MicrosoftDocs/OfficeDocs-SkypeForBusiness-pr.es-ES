@@ -12,20 +12,22 @@ ms:contentKeyID: 48183458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb33552fde0da6dc91f21eeecaf1ea5e85d72159
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1391d57232d261edcdfcdd7c4668ee025b1420b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506847"
 ---
+# <a name="preparing-the-infrastructure-and-systems-for-lync-server-2013"></a>Preparación de la infraestructura y los sistemas para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-infrastructure-and-systems-for-lync-server-2013"></a>Preparación de la infraestructura y los sistemas para Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2013-02-21_
 
 La implementación de Lync Server 2013 requiere el uso del generador de topologías para definir y publicar el diseño de la topología. Para identificar los componentes necesarios para la topología, use el generador de topologías para crear y guardar el diseño de la topología. Antes de publicar la topología en el generador de topologías, haga lo siguiente:
 
-  - Adquirir e instalar el hardware para cada componente del diseño de la topología que ha creado y guardado mediante el generador de topologías, incluidos todos los equipos necesarios (servidores que ejecutan Lync Server 2013, servidores de bases de datos, servidores que ejecutan Internet Information Services ( IIS), y los servidores proxy inversos, según corresponda, los adaptadores de red, los equilibradores de carga de hardware y los dispositivos de almacenamiento (por ejemplo, los servidores de archivos). Para obtener información detallada sobre cómo definir una topología que especifique los componentes necesarios para la implementación, consulte [Defining and Configuring the Topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Para obtener más información sobre los requisitos de hardware para los servidores, consulte [Supported hardware for Lync Server 2013](lync-server-2013-supported-hardware.md) en la documentación sobre compatibilidad.
+  - Adquirir e instalar el hardware para cada componente en el diseño de la topología que creó y guardó mediante el generador de topologías, incluidos todos los equipos necesarios (servidores que ejecutan Lync Server 2013, servidores de bases de datos, servidores que ejecutan Internet Information Services (IIS) y servidores de proxy inverso, según corresponda), adaptadores de red, equilibradores de carga de hardware y dispositivos Para obtener información detallada sobre cómo definir una topología que especifique los componentes necesarios para la implementación, consulte [Defining and Configuring the Topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Para obtener más información sobre los requisitos de hardware para los servidores, consulte [Supported hardware for Lync Server 2013](lync-server-2013-supported-hardware.md) en la documentación sobre compatibilidad.
 
   - Asegúrese de que la infraestructura de red cumple los requisitos. Para obtener más información, consulte [requisitos de la infraestructura de red para Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md) en la documentación referente a la planeación.
 

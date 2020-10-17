@@ -12,20 +12,22 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a89517fb83fa5cd0c7defd62b47f7ddf9b29a303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d10ef9e4ebf2c30c12e40c7f6f48f5ac36e58dce
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192553"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505577"
 ---
+# <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Requisitos de ancho de banda de red para el tráfico multimedia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Requisitos de ancho de banda de red para el tráfico multimedia en Lync Server 2013
+
 
 </div>
 
@@ -127,9 +129,9 @@ Para vídeo, el códec predeterminado es el estándar de codificación de video 
 
 El ancho de banda requerido depende de la resolución, calidad y frecuencia de marco. Para cada resolución, existen dos secuencias de bits interesantes:
 
-  - **Velocidad de bits**   de carga máxima es la velocidad de bits que un punto de conexión 2013 de Lync usará para la resolución a la velocidad de fotogramas máxima admitida para esta resolución. Este valor es interesante debido a que permite la mayor calidad y video con velocidad de fotogramas.
+  - **Velocidad de bits**     de carga máxima Se trata de la velocidad de bits que usará un punto de conexión 2013 de Lync para la resolución a la velocidad de fotogramas máxima admitida para esta resolución. Este valor es interesante debido a que permite la mayor calidad y video con velocidad de fotogramas.
 
-  - **Velocidad de bits**   de carga mínima es la velocidad de bits a partir de la cual un punto final de Lync 2013 cambiará a la siguiente resolución más baja. Para poder garantizar una determinada resolución, la velocidad de bits de carga de vídeo disponible no debe ser menor que esta velocidad de bits mínima para esta resolución. Este valor es interesante para que pueda comprender el menor valor posible en los casos donde la velocidad de bits máxima no está disponible o no resulta práctica. Para algunos usuarios, esta baja velocidad de bits de vídeo puede ser considerada una experiencia de video no aceptada, por lo que aconsejamos precaución al considerar estas velocidades de bits mínimas de vídeo. Tenga en cuenta que para las escenas de vídeo con poco o sin movimiento del usuario también pueden temporalmente caer por debajo de la velocidad de bits mínima.
+  - **Velocidad de bits**     de carga mínima Esta es la velocidad de bits a partir de la cual un punto final de Lync 2013 cambiará a la siguiente resolución más baja. Para poder garantizar una determinada resolución, la velocidad de bits de carga de vídeo disponible no debe ser menor que esta velocidad de bits mínima para esta resolución. Este valor es interesante para que pueda comprender el menor valor posible en los casos donde la velocidad de bits máxima no está disponible o no resulta práctica. Para algunos usuarios, esta baja velocidad de bits de vídeo puede ser considerada una experiencia de video no aceptada, por lo que aconsejamos precaución al considerar estas velocidades de bits mínimas de vídeo. Tenga en cuenta que para las escenas de vídeo con poco o sin movimiento del usuario también pueden temporalmente caer por debajo de la velocidad de bits mínima.
 
 Lync 2013 admite muchas más resoluciones. Esto permite que ajuste mejor los diferentes anchos de banda y recibir mejor las capacidades de los clientes. Además, la relación de aspecto predeterminada para Lync 2013 se ha cambiado a 16:9. La relación de aspecto 4:3 aún se admite para cámaras web que no permiten una captura con un radio de 16:9 relación de aspecto.
 
@@ -258,18 +260,18 @@ Además del ancho de banda requerido para el tráfico de protocolo seguro en tie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Multimedia</th>
+<th>Audiovisual</th>
 <th>Ancho de banda máximo RTCP (Kbps)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Audio</p></td>
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>Video (solo se envía/recibe H.264 o RTVideo)</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 </tr>
 <tr class="odd">
 <td><p>Video (se envía/recibe H.264 y RTVideo)</p></td>
@@ -281,9 +283,9 @@ Además del ancho de banda requerido para el tráfico de protocolo seguro en tie
 
 Para los fines de planificación, los siguientes dos anchos de banda son de interés:
 
-  - **Ancho de banda máximo sin FEC**   el ancho de banda máximo que consumirá un flujo, incluida la actividad típica de la secuencia y el códec típico que se usa en el escenario sin FEC.Este es el ancho de banda cuando la secuencia está con el 100% de actividad y no existe una pérdida de paquetes que desencadena el uso de FEC.Esto resulta interesante para contabilizar cuánto ancho de banda debe asignarse para permitir que el códec se utilice en un escenario determinado. 
+  - **Ancho de banda máximo sin FEC**     El ancho de banda máximo que consumirá un flujo, incluida la actividad típica de la secuencia y el códec típico que se usa en el escenario sin FEC.Este es el ancho de banda cuando la secuencia está con el 100% de actividad y no existe una pérdida de paquetes que desencadena el uso de FEC.Esto resulta interesante para contabilizar cuánto ancho de banda debe asignarse para permitir que el códec se utilice en un escenario determinado. 
 
-  - **Ancho de banda máximo con FEC**   el ancho de banda máximo que consume una secuencia, incluida la actividad típica de la secuencia y el códec típico usado en el escenario con FEC. Este es el ancho de banda cuando la secuencia está con el 100% de actividad y existe una pérdida de paquetes que desencadena el uso de FEC para mejorar la calidad. Esto resulta interesante para contabilizar cuánto ancho de banda debe asignarse para permitir que el códec se utilice en un escenario determinado y permite el uso de FEC para preservar la calidad en condiciones de pérdida de paquetes. 
+  - **Ancho de banda máximo con FEC**     El ancho de banda máximo que consume una secuencia, incluida la actividad típica de la secuencia y el códec típico usado en el escenario con FEC. Este es el ancho de banda cuando la secuencia está con el 100% de actividad y existe una pérdida de paquetes que desencadena el uso de FEC para mejorar la calidad. Esto resulta interesante para contabilizar cuánto ancho de banda debe asignarse para permitir que el códec se utilice en un escenario determinado y permite el uso de FEC para preservar la calidad en condiciones de pérdida de paquetes. 
 
 Las siguientes tablas también enumeran un valor adicional de ancho de banda, **Ancho de banda típico**. Este es el ancho de banda típico que consume una secuencia, incluso la actividad típica de la secuencia y el códec típico usado en el escenario. Este ancho de banda puede utilizarse para calcular cuánto ancho de banda en cualquier momento se está utilizando en el tráfico de medios, pero no deberá utilizarse para la planificación de capacidad, debido a que las llamadas individuales excederán este valor cuando todo el nivel de actividad es superior que el promedio. El ancho de banda de secuencia de video típico en las tablas a continuación se basa en una mezcla de resoluciones de video tal como se observan en los datos cliente medidos. Por ejemplo, en sesiones de punto a punto, la mayoría de los usuarios utilizarían la ventana presentación de vídeo predeterminada, mientras que un porcentaje de usuarios aumentaría o maximizaría la aplicación Lync para permitir resoluciones de vídeo de mayor nivel.
 
@@ -301,9 +303,9 @@ Las siguientes tablas proporcionan estos tres valores de ancho de banda para los
 </colgroup>
 <thead>
 <tr class="header">
-<th>Multimedia</th>
+<th>Audiovisual</th>
 <th>Códec</th>
-<th>Ancho de banda de secuencia típica (Kbps)</th>
+<th>Ancho de banda de secuencia típico (Kbps)</th>
 <th>Ancho de banda de secuencia máximo sin FEC</th>
 <th>Ancho de banda de secuencia máximo con FEC</th>
 </tr>
@@ -367,7 +369,7 @@ Las siguientes tablas proporcionan estos tres valores de ancho de banda para los
 </colgroup>
 <thead>
 <tr class="header">
-<th>Multimedia</th>
+<th>Audiovisual</th>
 <th>Códec típico</th>
 <th>Ancho de banda de secuencia típica (Kbps)</th>
 <th>Ancho de banda de secuencia máximo sin FEC</th>
@@ -437,7 +439,7 @@ El ancho de banda típico para el video panorámico se basa en los dispositivos 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Multimedia</th>
+<th>Audiovisual</th>
 <th>Códec típico</th>
 <th>Ancho de banda de secuencia típica (Kbps)</th>
 <th>Ancho de banda de secuencia máximo sin FEC</th>

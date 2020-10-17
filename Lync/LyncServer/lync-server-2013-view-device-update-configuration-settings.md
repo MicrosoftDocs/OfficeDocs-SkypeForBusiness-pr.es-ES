@@ -12,20 +12,22 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b5cc0ff742c81cb6480df1d4ae8cb83a686c2e8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7f3d6ae80aa83d7edcf6d64a13c4cbda90c9ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506457"
 ---
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Ver las opciones de configuración de actualización de dispositivos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Ver las opciones de configuración de actualización de dispositivos en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Puede ver las opciones de configuración del servicio de actualización de dispo
 
 
 > [!NOTE]  
-> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
+> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .
 
 
 
@@ -59,7 +61,7 @@ Puede ver las opciones de configuración del servicio de actualización de dispo
     
         Get-CsDeviceUpdateConfiguration
     
-    Este comando devuelve información similar a la siguiente:
+    Este comando devolverá información similar a la siguiente:
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}

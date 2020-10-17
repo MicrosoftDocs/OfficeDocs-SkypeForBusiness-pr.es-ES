@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507477"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Crear un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Crear un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada
+
 
 </div>
 
@@ -62,9 +64,9 @@ En este tema se describe cómo configurar el registro SRV del sistema de nombres
 
 5.  En **Tipo de registro del recurso**, haga clic en **Ubicación de servicio (SRV)** y en **Crear registro**.
 
-6.  En **nuevo registro de recursos**, haga clic en **servicio**y, a continuación, escriba ** \_sipfederationtls**.
+6.  En **nuevo registro de recursos**, haga clic en **servicio**y, a continuación, escriba ** \_ sipfederationtls**.
 
-7.  Haga clic en **Protocolo**y, a continuación, escriba ** \_TCP**.
+7.  Haga clic en **Protocolo**y, a continuación, escriba ** \_ TCP**.
 
 8.  Haga clic en **Número de puerto** y escriba **5061**.
 
@@ -74,7 +76,7 @@ En este tema se describe cómo configurar el registro SRV del sistema de nombres
     
 
     > [!NOTE]
-    > El dominio también debe estar configurado como un dominio aceptado y autoritativo en la configuración de Exchange Online. Para obtener más información, consulte crear dominios <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>aceptados en.
+    > El dominio también debe estar configurado como un dominio aceptado y autoritativo en la configuración de Exchange Online. Para obtener más información, consulte crear dominios aceptados en <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> .
 
     
     </div>
@@ -101,7 +103,7 @@ En este tema se describe cómo configurar el registro SRV del sistema de nombres
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear registros DNS para servidores de proxy inverso en Lync Server 2013](lync-server-2013-create-dns-records-for-reverse-proxy-servers.md)  

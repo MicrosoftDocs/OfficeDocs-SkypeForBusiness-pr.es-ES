@@ -12,20 +12,22 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8babb6bf37e3dd75f2051dd08f0b2ebf3a4f093b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2156466e0238a061f2358127c75408fa37e3b823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507537"
 ---
+# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Implementación de Lync Web App en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Implementación de Lync Web App en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Las características de voz, vídeo y uso compartido de Lync Web App requieren u
 
 ## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a>Habilitación de multi-factor Authentication para Lync Web App
 
-La versión de Lync Server 2013 de Lync Web App admite la autenticación de varios factores. Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unen desde redes externas cuando inician sesión en reuniones de Lync. Puede habilitar la autenticación multifactor mediante la implementación del servidor de Federación del servicio de Federación de Active Directory (AD FS) y la habilitación de la autenticación pasiva en Lync Server 2013. Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Lync reciben una página web de autenticación multifactor de AD FS con el nombre de usuario y la contraseña, junto con los métodos de autenticación adicionales que haya configurado. .
+La versión de Lync Server 2013 de Lync Web App admite la autenticación de varios factores. Además del nombre de usuario y la contraseña, puede requerir métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unen desde redes externas cuando inician sesión en reuniones de Lync. Puede habilitar la autenticación multifactor mediante la implementación del servidor de Federación del servicio de Federación de Active Directory (AD FS) y la habilitación de la autenticación pasiva en Lync Server 2013. Una vez configurado AD FS, los usuarios externos que intenten unirse a reuniones de Lync reciben una página web de autenticación multifactor de AD FS que contiene el desafío de nombre de usuario y contraseña junto con los métodos de autenticación adicionales que haya configurado.
 
 <div class=" ">
 
@@ -78,9 +80,9 @@ La versión de Lync Server 2013 de Lync Web App admite la autenticación de vari
 
 **Para configurar la autenticación multifactor**
 
-1.  Instale un rol de servidor de Federación de AD FS. Para obtener más información, consulte la guía de implementación de los servicios de Federación de Active Directory 2,0 en<https://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  Instale un rol de servidor de Federación de AD FS. Para obtener más información, consulte la guía de implementación de los servicios de Federación de Active Directory 2,0 en <https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  Crear certificados para AD FS. Para obtener más información, consulte la sección "certificados de servidor de Federación" del tema Plan for and Deploy AD FS for use with Single Sign- [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)on.
+2.  Crear certificados para AD FS. Para obtener más información, consulte la sección "certificados de servidor de Federación" del tema Plan for and Deploy AD FS for use with Single Sign-on [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  Desde la interfaz de línea de comandos de Windows PowerShell, ejecute el siguiente comando:
     ```powershell
@@ -113,7 +115,7 @@ La versión de Lync Server 2013 de Lync Web App admite la autenticación de vari
 
 La característica BranchCache en Windows 7 y Windows Server 2008 R2 puede interferir con los componentes Web de Lync Web App. Para evitar problemas con los usuarios de Lync Web App, asegúrese de que BranchCache no esté habilitado.
 
-Para obtener más información acerca de cómo deshabilitar BranchCache, consulte la guía de implementación de BranchCache, que está disponible en formato de [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) Word en el centro de descarga de Microsoft, en formato HTML en [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)la biblioteca técnica de Windows Server 2008 R2, en.
+Para obtener más información acerca de cómo deshabilitar BranchCache, consulte la guía de implementación de BranchCache, que está disponible en formato de Word en el centro de descarga de Microsoft, en [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) formato HTML en la biblioteca técnica de Windows Server 2008 R2, en [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789) .
 
 </div>
 
@@ -121,7 +123,7 @@ Para obtener más información acerca de cómo deshabilitar BranchCache, consult
 
 ## <a name="verifying-lync-web-app-deployment"></a>Comprobación de la implementación de Lync Web App
 
-Puede usar el cmdlet test-CsUcwaConference para comprobar que un par de usuarios de prueba pueden participar en una conferencia mediante la API Web de comunicaciones unificadas (UCWA). Para obtener más información sobre este cmdlet, vea [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference) en la documentación del shell de administración de Lync Server.
+Puede usar el cmdlet Test-CsUcwaConference para comprobar que un par de usuarios de prueba pueden participar en una conferencia mediante la API Web de comunicaciones unificadas (UCWA). Para obtener más información sobre este cmdlet, vea [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference) en la documentación del shell de administración de Lync Server.
 
 </div>
 
@@ -154,13 +156,13 @@ Si se produce un error en la instalación del complemento en un equipo que ejecu
 
 **Para modificar la configuración del registro DisableMSI**
 
-1.  Haga clic en **Inicio** y, a continuación, haga clic en **Ejecutar**.
+1.  Haga clic en **Inicio** y luego en **Ejecutar**.
 
 2.  Para obtener acceso al editor del registro, escriba **regedit**.
 
-3.  Vaya a HKEY\_local\_Machine\\software\\\\Policies\\Microsoft\\Windows Installer.
+3.  Vaya a HKEY \_ local \_ Machine \\ software \\ Policies \\ Microsoft \\ Windows \\ Installer.
 
-4.  Edite o agregue la clave del registro DisableMSI de\_tipo REG DWORD y establézcalo en 0.
+4.  Edite o agregue la clave del registro DisableMSI de tipo REG \_ DWORD y establézcalo en 0.
 
 5.  Vuelva a unirse a la reunión.
 
@@ -168,7 +170,7 @@ Si se produce un error en la instalación del complemento en un equipo que ejecu
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración de la página de participación en la reunión en Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)  

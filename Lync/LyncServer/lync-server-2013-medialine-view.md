@@ -12,20 +12,22 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21fa89b5afe53937ee515dac45053dbd84ae12ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1b8cac172b4973f86916269585d2d9b02cdc728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217606"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505737"
 ---
+# <a name="medialine-view-in-lync-server-2013"></a>Vista MediaLine en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-view-in-lync-server-2013"></a>Vista MediaLine en Lync Server 2013
+
 
 </div>
 
@@ -50,7 +52,7 @@ La vista MediaLine almacena información acerca de cada línea de medios de la b
 <tr class="header">
 <th>Columna</th>
 <th>Tipo de datos</th>
-<th>detalles</th>
+<th>details</th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +63,7 @@ La vista MediaLine almacena información acerca de cada línea de medios de la b
 </tr>
 <tr class="even">
 <td><p>SessionSeq</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Referencia de la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -71,12 +73,12 @@ La vista MediaLine almacena información acerca de cada línea de medios de la b
 </tr>
 <tr class="even">
 <td><p>CallerIceWarningFlags</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el autor de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeIceWarningFlags</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Información acerca del proceso de establecimiento interactivo de conectividad (ICE), proceso descrito en indicadores de bits para el destinatario de la llamada. Para obtener detalles, consulte el protocolo de servidor de supervisión de calidad de experiencia.</p></td>
 </tr>
 <tr class="even">
@@ -96,7 +98,7 @@ La vista MediaLine almacena información acerca de cada línea de medios de la b
 </tr>
 <tr class="odd">
 <td><p>CallerPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto del autor de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -116,7 +118,7 @@ La vista MediaLine almacena información acerca de cada línea de medios de la b
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto usado en el servicio perimetral A/V usado por el autor de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -176,7 +178,7 @@ La vista MediaLine almacena información acerca de cada línea de medios de la b
 </tr>
 <tr class="odd">
 <td><p>CalleePort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto del destinatario de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -196,7 +198,7 @@ La vista MediaLine almacena información acerca de cada línea de medios de la b
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Puerto usado en el servicio perimetral A/V usado por el autor de la llamada.</p></td>
 </tr>
 <tr class="even">
@@ -256,7 +258,7 @@ La vista MediaLine almacena información acerca de cada línea de medios de la b
 </tr>
 <tr class="odd">
 <td><p>AppliedBandwidthLimit</p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Este es el ancho de banda real aplicado a la secuencia de envío determinada en un entorno regido por diversas directivas (TURN, API, SDP, Servidor de directivas, etc.). No se debe confundir con el ancho de banda efectivo, ya que el ancho de banda efectivo puede ser menor en función de las previsiones de ancho de banda. Este valor es, a grandes rasgos, el ancho de banda máximo que la secuencia de envío puede ocupar asumiendo los límites impuestos por la previsión de ancho de banda.</p></td>
 </tr>
 <tr class="even">

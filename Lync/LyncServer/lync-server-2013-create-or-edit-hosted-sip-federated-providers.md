@@ -12,20 +12,22 @@ ms:contentKeyID: 48679556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b78e9be0f3b885a40fcf313173a1281ac5489936
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: d7704074db1b210ca341b05df9fbd02afabbc70a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507497"
 ---
+# <a name="create-or-edit-hosted-sip-federated-providers-lync-server-2013"></a>Creación o edición de proveedores federados de SIP hospedados Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-hosted-sip-federated-providers-lync-server-2013"></a>Creación o edición de proveedores federados de SIP hospedados Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Utilice los siguientes procedimientos para crear o editar proveedores hospedados
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configurar directivas para controlar el acceso de usuarios públicos en Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)  

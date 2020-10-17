@@ -12,20 +12,22 @@ ms:contentKeyID: 48183894
 ms.date: 05/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7f3f32b4e0c13ea68df183d19b020118e32205b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 2bea847e1d0c4d9c42808a93f3c56bcd7391bece
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221614"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507167"
 ---
+# <a name="managing-server-to-server-authentication-oauth-and-partner-applications-in-lync-server-2013"></a>Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de socio en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-server-to-server-authentication-oauth-and-partner-applications-in-lync-server-2013"></a>Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de socio en Lync Server 2013
+
 
 </div>
 
@@ -91,7 +93,7 @@ Tenga en cuenta que OAuth es una parte principal del producto y no se puede desh
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Asignar un certificado de autenticación de servidor a servidor a Microsoft Lync Server 2013](lync-server-2013-assigning-a-server-to-server-authentication-certificate-to-lync-server-2013.md)  

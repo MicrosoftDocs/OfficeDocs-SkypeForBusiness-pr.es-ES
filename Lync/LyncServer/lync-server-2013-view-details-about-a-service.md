@@ -12,20 +12,22 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0769c8cc327a3cc4889a79f32bb5b9af0b1e3087
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b64f728cb1fa128f0c3c2fbfe5b34ffab67283d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211506"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506467"
 ---
+# <a name="view-details-about-a-service-in-lync-server-2013"></a>Ver los detalles de un servicio en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-details-about-a-service-in-lync-server-2013"></a>Ver los detalles de un servicio en Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Puede usar el panel de control de Lync Server para ver los detalles de cada serv
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Administración de la topología de Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  
