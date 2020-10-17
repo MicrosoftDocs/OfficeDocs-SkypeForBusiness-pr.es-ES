@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 lista de comprobación para la implementación de conferencias
+description: Lync Server 2013 lista de comprobación para la implementación de conferencias.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d5d2fa19f9ba181a96b16ac9f30d3c49136a58a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e4b5585c00c7be9a6c453798c87f9e9701813077
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522817"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568386"
 ---
 # <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a>Lista de comprobación para la implementación de conferencias en Lync Server 2013
 

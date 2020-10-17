@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de los servicios de Federación de Active Directory (AD FS 2,0)'
+description: 'Lync Server 2013: configuración de los servicios de Federación de Active Directory (AD FS 2,0).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac26f7ec2be8390ee913c810928cc99c4e20d53c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bc21500273d8576f54f6110783e61764ec9723a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517657"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567846"
 ---
 # <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Configuración de los servicios de Federación de Active Directory (AD FS 2,0) para Lync Server 2013
 

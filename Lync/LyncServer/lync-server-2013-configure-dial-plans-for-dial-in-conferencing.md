@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar planes de marcado para conferencias de acceso telefónico local'
+description: 'Lync Server 2013: configurar planes de marcado para conferencias de acceso telefónico local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185051
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4178d443d8577a9a141cbdd5bbeee05856ae6b40
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 28123f905288ce35b6f470168962a3d8e6faa22b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504767"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567586"
 ---
 # <a name="configure-dial-plans-for-dial-in-conferencing-in-lync-server-2013"></a>Configurar planes de marcado para las conferencias de acceso telefónico local en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla Videostream'
+description: 'Lync Server 2013: tabla Videostream.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a313419ca4072fe4d1841ba66a9cb603671e6c56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d741478e1f6290685181bff471f143e41ce9ca1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211655"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567996"
 ---
+# <a name="videostream-table-in-lync-server-2013"></a>Tabla Videostream en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostream-table-in-lync-server-2013"></a>Tabla Videostream en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +67,7 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>R al que se hace referencia desde la <a href="lync-server-2013-medialine-table.md">tabla MediaLine en Lync Server 2013</a>.</p></td>
 </tr>
@@ -76,7 +79,7 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>StreamID</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Identificador único de una línea de medios.</p></td>
 </tr>
@@ -88,25 +91,25 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrival</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Promedio de vibración de red de las estadísticas de Protocolo de control en tiempo real (RTCP).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Vibración máxima de la red durante la sesión de vídeo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Vuelta</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Tiempo de ida y vuelta de las estadísticas de RTCP.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RoundTripMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Tiempo de ida y vuelta máximo de la secuencia de vídeo.</p></td>
 </tr>
@@ -124,13 +127,13 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>PacketUtilization</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Número de paquetes de la secuencia de vídeo (Protocolo de transporte en tiempo real, RTP).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ancho de banda más</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Estimaciones de ancho de banda para la secuencia de vídeo.</p></td>
 </tr>
@@ -142,7 +145,7 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="odd">
 <td><p><strong>VideoBitRateAvg</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>Tasa de bits media de la secuencia de vídeo.</p></td>
 </tr>
@@ -160,7 +163,7 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>VideoBitRateMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>La velocidad de bits de vídeo máxima durante la sesión de vídeo.</p></td>
 </tr>
@@ -237,7 +240,7 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 <td><p>Se reciben datos de secuencia en el lado del receptor.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Salida</strong></p></td>
+<td><p><strong>Saliente</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
 <td><p>Se reciben datos de secuencia en el lado del remitente.</p></td>
@@ -272,28 +275,28 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>BandwidthEstMin</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad mínima de estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BandwidthEstMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad máxima de estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BandwidthEstStdDev</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Desviación estándar de la estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BandwidthEstAvge</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad promedio de estimación del ancho de banda medido durante la llamada.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -328,14 +331,14 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad total de ráfagas unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Densidad total de ráfagas unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -349,7 +352,7 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad total de intervalos unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -377,7 +380,7 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="odd">
 <td><p><strong>VideoAllocateBWAvg</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad máxima del ancho de banda asignada para vídeo.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -391,14 +394,14 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="odd">
 <td><p><strong>SendResolutionWidth</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Ancho de resolución usado por el remitente.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendResolutionHeight</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Alto de resolución usado por el remitente.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -412,20 +415,20 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>SendBitRateMaximum</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Velocidad de bits máxima del remitente.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SendBitRateAverage</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Velocidad de bits media del remitente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendVideoStreamsMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Número máximo de transmisiones de vídeo usadas por el remitente.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -439,14 +442,14 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="even">
 <td><p><strong>RecvResolutionWidth</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Ancho de resolución usado por el receptor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvResolutionHeight</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Altura de resolución usada por el receptor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
@@ -460,35 +463,35 @@ Cada registro representa una secuencia de vídeo. Una línea de medios de vídeo
 </tr>
 <tr class="odd">
 <td><p><strong>RecvBitRateMaximum</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Velocidad de bits máxima del receptor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvBitRateAverage</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Velocidad de bits media del receptor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvVideoStreamsMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Secuencias de vídeo máximas para el receptor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvVideoStreamsMin</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Secuencias de vídeo mínimas para el receptor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvVideoStreamsMode</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Modo de vídeo (por ejemplo, Galería o secuencia única) para el receptor.</p>
 <p>Esta columna se introdujo en Microsoft Lync Server 2013.</p></td>

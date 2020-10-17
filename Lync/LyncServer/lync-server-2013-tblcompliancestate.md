@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblComplianceState'
+description: 'Lync Server 2013: tblComplianceState.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84608b7cb701fe4c394ed413539759d9469a5a4e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6eaf35eee8b4e24ec4d04e607fa77fd91b91e4e8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509417"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568086"
 ---
 # <a name="tblcompliancestate-in-lync-server-2013"></a>tblComplianceState en Lync Server 2013
 

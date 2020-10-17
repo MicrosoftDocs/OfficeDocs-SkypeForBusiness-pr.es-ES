@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eliminar un número de acceso de conferencia de acceso telefónico local'
+description: 'Lync Server 2013: eliminar un número de acceso de conferencia de acceso telefónico local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50f9bd0929fff858a6e76cc41eccaf2930f0d0c1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fa5bed6099f7464884c3bcde8e4ee86ad4207222
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525677"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566596"
 ---
 # <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>Eliminar un número de acceso de conferencia de acceso telefónico local en Lync Server 2013
 

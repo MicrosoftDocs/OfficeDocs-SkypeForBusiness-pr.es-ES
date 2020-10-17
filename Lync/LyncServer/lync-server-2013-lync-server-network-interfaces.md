@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: interfaces de red de Lync Server'
+description: 'Lync Server 2013: interfaces de red de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34c172f6e536f28a7c586e5804ad621f28fb6ad8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 51dd62c80fd55cbb64bf9361cdbc532118866904
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534707"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566566"
 ---
 # <a name="lync-server-2013-network-interfaces"></a>Interfaces de red de Lync Server 2013
 

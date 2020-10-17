@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 lista de comprobación para la implementación de la Conferencia de acceso telefónico local
+description: Lync Server 2013 lista de comprobación para la implementación de la Conferencia de acceso telefónico local.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184987
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a81a4baee7062936144d0a6d066d59cf0a8ef1e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 743b5120bf011ab8467679bea9869a46231b0835
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522797"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568366"
 ---
 # <a name="deployment-checklist-for-dial-in-conferencing-in-lync-server-2013"></a>Lista de comprobación para la implementación de la Conferencia de acceso telefónico local en Lync Server 2013
 

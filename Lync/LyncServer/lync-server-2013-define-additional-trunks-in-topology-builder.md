@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definir troncos adicionales en el generador de topologías'
+description: 'Lync Server 2013: definir troncos adicionales en el generador de topologías.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e8e5650492cc51b024b03cc0c92f64ff46d818b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 57983d3e4d6a47c14f2dcdc153fe6872a33eb6e9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567566"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-lync-server-2013"></a>Definir troncos adicionales en el generador de topologías de Lync Server 2013
 

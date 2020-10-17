@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: opciones de implementación SIP directa'
+description: 'Lync Server 2013: opciones de implementación SIP directa.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5afe361a5522ee4869bbdb572e5016437d5580d1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529117"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568246"
 ---
 # <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opciones de implementación SIP directa en Lync Server 2013
 

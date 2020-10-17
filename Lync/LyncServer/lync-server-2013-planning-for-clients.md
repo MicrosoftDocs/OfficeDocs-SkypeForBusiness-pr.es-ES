@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de clientes'
+description: 'Lync Server 2013: Planeación de clientes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93166d5f10aa91b937377f114f38d3a7efc63f86
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3fbbf0756dcb9438a809859b3ec9dedde607459
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497717"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567356"
 ---
 # <a name="planning-for-clients-in-lync-server-2013"></a>Planeación de clientes en Lync Server 2013
 

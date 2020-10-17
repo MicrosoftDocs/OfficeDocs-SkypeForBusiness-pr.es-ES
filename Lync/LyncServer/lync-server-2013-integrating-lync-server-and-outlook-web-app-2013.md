@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: integración de Lync Server y Outlook Web App 2013'
+description: 'Lync Server 2013: integración de Lync Server y Outlook Web App 2013.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f822afb4ba0f3dabfd133caf92a434eadac82fa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0d9c7e91dba22f78325eaddc5b5d7469ccf4cc92
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534766"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567396"
 ---
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-outlook-web-app-2013"></a>Integración de Microsoft Lync Server 2013 y Microsoft Outlook Web App 2013
 

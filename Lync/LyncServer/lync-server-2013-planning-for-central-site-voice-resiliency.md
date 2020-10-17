@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de resistencia de voz de sitio central'
+description: 'Lync Server 2013: Planeación de resistencia de voz de sitio central.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dd41943212459311abdb64b3ed77c918539d082d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497737"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567386"
 ---
 # <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planeación de resistencia de voz de sitio central en Lync Server 2013
 

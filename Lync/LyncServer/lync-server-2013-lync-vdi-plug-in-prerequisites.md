@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos previos del complemento Lync VDI'
+description: 'Lync Server 2013: requisitos previos del complemento Lync VDI.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b63ee7f494b131fc194d6bf9d028525efd71cf0a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4389f776747426d07442e29418ab97e9609de7ee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534687"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566546"
 ---
 # <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Requisitos previos del complemento Lync VDI en Lync Server 2013
 

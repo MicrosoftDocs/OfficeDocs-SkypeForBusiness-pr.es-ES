@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: modificar la configuración predeterminada de PIN de conferencia de acceso telefónico local'
+description: 'Lync Server 2013: modifique la configuración predeterminada de los PIN de conferencias de acceso telefónico local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183712
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fa34bf6320a290dc774971699ca6f99d05dc2b0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3983cb212cd1029232141d7a4b98c9db116c61c7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515267"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566946"
 ---
 # <a name="modify-the-default-dial-in-conferencing-pin-settings-in-lync-server-2013"></a>Modificar la configuración de PIN de conferencia de acceso telefónico local predeterminada en Lync Server 2013
 

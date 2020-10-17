@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: información general sobre el archivado'
+description: 'Lync Server 2013: información general sobre el archivado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1bbb6e5a94aad896e977145df56ea196277adf9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 548d82d6731fd28fafbde5816a7a0dc77a1fcc02
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522237"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566806"
 ---
 # <a name="overview-of-archiving-in-lync-server-2013"></a>Información general sobre el archivado en Lync Server 2013
 

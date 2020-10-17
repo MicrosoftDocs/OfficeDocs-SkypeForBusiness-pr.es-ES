@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: agregar una aplicación de sucursal con funciones de supervivencia a Active Directory'
+description: 'Lync Server 2013: agregar una aplicación de sucursal con funciones de supervivencia a Active Directory.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f52d9c5e88e88665f530d6d7ace06a07c4814b4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bd06332679be0819cf3002f344a62a7ce1d5a9f3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529567"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567896"
 ---
 # <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory en Lync Server 2013
 

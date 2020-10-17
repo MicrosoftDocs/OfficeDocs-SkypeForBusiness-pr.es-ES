@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de clientes y dispositivos'
+description: 'Lync Server 2013: Planeación de clientes y dispositivos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73a4fac968b05aaf4080920ed81e9a904f152de2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 78163948ba190b4e2d6a421bdaea42a12ef65152
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497727"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567376"
 ---
 # <a name="planning-for-clients-and-devices-in-lync-server-2013"></a>Planeación de clientes y dispositivos en Lync Server 2013
 

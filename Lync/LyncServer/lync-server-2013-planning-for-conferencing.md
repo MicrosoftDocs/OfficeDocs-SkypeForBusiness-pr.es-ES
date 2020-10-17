@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de conferencias'
+description: 'Lync Server 2013: Planeación de conferencias.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bf1bf0ce10281bf4d31fc8fdb1be9251b72caf6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 28e71d185b7be8971c451351aac60dcaaf7eaeda
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507027"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567336"
 ---
 # <a name="planning-for-conferencing-in-lync-server-2013"></a>Planeación de conferencias en Lync Server 2013
 

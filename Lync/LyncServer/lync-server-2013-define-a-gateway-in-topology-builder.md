@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definir una puerta de enlace en el generador de topologías'
+description: 'Lync Server 2013: definir una puerta de enlace en el generador de topologías.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184036
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f23ef91f7f0a6f1205f5f95326b8ebe58b66df4b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1f8bf09f06f54d8988c8c9a9e385ef251a960bd6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516497"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567806"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-lync-server-2013"></a>Definir una puerta de enlace en el generador de topologías de Lync Server 2013
 

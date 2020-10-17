@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: seguridad de datos de emparejamiento de grupo de servidores front-end'
+description: 'Lync Server 2013: seguridad de los datos de emparejamiento de grupo de servidores front-end.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d86f60e81e053a1ba07878728dd9c7273bd7feeb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 32a2ce72752819392429c8407649e663494f1daf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500727"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567136"
 ---
 # <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Seguridad de datos de emparejamiento de grupo de servidores front-end en Lync Server 2013
 

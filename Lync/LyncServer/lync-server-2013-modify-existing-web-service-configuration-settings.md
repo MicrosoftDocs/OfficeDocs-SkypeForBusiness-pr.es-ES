@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: modificar las opciones de configuración de un servicio web existente'
+description: 'Lync Server 2013: modificar las opciones de configuración de un servicio web existente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 675cc97e8e16f4e8734f56a9d666b976606c4d2b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 455ddf60d171fe584115d646b16f63595285a906
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534355"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566996"
 ---
 # <a name="modify-existing-web-service-configuration-settings-in-lync-server-2013"></a>Modificación de las opciones de configuración de un servicio web existente en Lync Server 2013
 

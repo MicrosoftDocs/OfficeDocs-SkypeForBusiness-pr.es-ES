@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: recuperación ante desastres del grupo de servidores front-end'
+description: 'Lync Server 2013: recuperación ante desastres del grupo de servidores front-end.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1702ed7adc91c2e1745a12f6f81f355d8c25c561
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 52db174dad121285068fb213de3b49bb93050a39
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500797"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567156"
 ---
 # <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a>Recuperación ante desastres del grupo de servidores front-end en Lync Server 2013
 

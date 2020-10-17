@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar las opciones de redireccionamiento del correo de voz'
+description: 'Lync Server 2013: configurar las opciones de reenrutamiento del correo de voz.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b51a529ee7bc4fd1148413058ceaf1f1f6d61e06
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 669ea5585f9e732b6a49d9749b8939c14b4e0d9f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520187"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566736"
 ---
 # <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Configurar la configuración de reenrutamiento del correo de voz en Lync Server 2013
 

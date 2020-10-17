@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: modificar el filtro de dirección URL predeterminado'
+description: 'Lync Server 2013: modificar el filtro de dirección URL predeterminado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9d730bcdf17c9f78aee25ba3cec56f99a67086
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 079fcc83cd9041f99f1d14663ad51e86f6c23619
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515187"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566906"
 ---
 # <a name="modify-the-default-url-filter-in-lync-server-2013"></a>Modificar el filtro de direcciones URL predeterminado en Lync Server 2013
 

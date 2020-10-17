@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: modificar la Directiva de correo de voz hospedado global'
+description: 'Lync Server 2013: modificar la Directiva de correo de voz hospedado global.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9a7e9dcb3c626c076d51fa32fa195f0787a922c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9cd5e16c78049ce79abd936a79b2025a14e45943
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515177"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566866"
 ---
 # <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Modifique la directiva global de correo de voz hospedado en Lync Server 2013
 

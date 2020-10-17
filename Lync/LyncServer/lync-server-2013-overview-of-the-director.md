@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: información general del Director'
+description: 'Lync Server 2013: información general del director.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185393
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb187711174785833716b2d14ffe7979cedcbc96
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6686534e22bab5b02a2663789298e4cf7ea582c2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520827"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567636"
 ---
 # <a name="overview-of-the-director-in-lync-server-2013"></a>Información general sobre el Director en Lync Server 2013
 

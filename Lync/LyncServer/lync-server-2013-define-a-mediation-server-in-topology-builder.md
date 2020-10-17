@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definir un servidor de mediación en el generador de topologías'
+description: 'Lync Server 2013: definir un servidor de mediación en el generador de topologías.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 368dc6d5e19adede1752c148c661c1c04788a9b6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2159b06c5587a17d24928febc11a883bc1520778
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516477"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567796"
 ---
 # <a name="define-a-mediation-server-in-topology-builder-in-lync-server-2013"></a>Definir un servidor de mediación en el generador de topologías de Lync Server 2013
 

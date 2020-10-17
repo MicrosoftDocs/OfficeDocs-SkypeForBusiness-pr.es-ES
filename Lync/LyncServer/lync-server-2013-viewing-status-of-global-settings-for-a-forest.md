@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ver el estado de la configuración global de un bosque'
+description: 'Lync Server 2013: ver el estado de la configuración global de un bosque.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7922fe79d97a1fa83fdaa5afbc1eeddee8523e37
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d9f722ea66f6c54c816703bd1af1d3def57bbd84
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535587"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567596"
 ---
 # <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Ver el estado de la configuración global de un bosque en Lync Server 2013
 

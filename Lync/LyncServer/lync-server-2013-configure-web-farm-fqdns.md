@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar FQDN de granja de servidores Web'
+description: 'Lync Server 2013: configurar FQDN de granja de servidores Web.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37799ed65cca468ea7bac18956ed08783c9b6a1c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8a07faac4d4809ffe10e7ca3699e7441e6dbcb7b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520137"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566666"
 ---
 # <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Configurar FQDN de granja de servidores web para Lync Server 2013
 

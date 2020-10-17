@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista de VideoStreamDetail'
+description: 'Lync Server 2013: vista de VideoStreamDetail.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733863
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d419800842fed080efe4005e7282a25c91f29df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a3f420c292627d15fd0d54f2eba01c565a49a72d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567976"
 ---
 # <a name="videostreamdetail-view-in-lync-server-2013"></a>Vista VideoStreamDetail en Lync Server 2013
 

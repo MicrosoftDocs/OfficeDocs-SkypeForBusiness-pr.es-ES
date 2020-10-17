@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: nuevas características de cliente'
+description: 'Lync Server 2013: nuevas características de cliente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b414f6ced9f956b6a566fb8668da0f2d7c33ab84
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3d7cfd0a1db524678111f493176eed344931d102
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505297"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568126"
 ---
 # <a name="new-client-features-in-lync-server-2013"></a>Nuevas características de cliente en Lync Server 2013
 

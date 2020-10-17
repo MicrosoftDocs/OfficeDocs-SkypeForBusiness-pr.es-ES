@@ -1,5 +1,6 @@
 ---
 title: Los cmdlets de informes de Skype empresarial online y el servicio Web REST
+description: Los cmdlets de informes de Skype empresarial online y el servicio Web REST.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f92f2be5987ad6ffc76d19e7ccad81da4115487a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f2160e0910d42f811ec8b03fa50450d5f73c59b1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567946"
 ---
 # <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Los cmdlets de informes de Skype empresarial online y el servicio Web REST
 
