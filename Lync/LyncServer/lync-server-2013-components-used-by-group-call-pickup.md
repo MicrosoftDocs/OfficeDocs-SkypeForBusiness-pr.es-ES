@@ -12,20 +12,22 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e868ecc20dcafbb5da12c91deb26a91f4efacb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 062dc114534abb7d2a011c31b9747c2d6a0a45bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213186"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502367"
 ---
+# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="ef67e-102">Componentes usados por la recogida de llamadas grupales en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef67e-102">Components used by Group Call Pickup in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="0f848-102">Componentes usados por la recogida de llamadas grupales en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f848-102">Components used by Group Call Pickup in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42213186"
 
 <span> </span>
 
-<span data-ttu-id="0f848-103">_**Última modificación del tema:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="0f848-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="ef67e-103">_**Última modificación del tema:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="ef67e-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="0f848-104">La recogida de llamadas de grupo se implementa automáticamente al implementar la telefonía IP empresarial y la aplicación estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="0f848-104">Group Call Pickup is automatically deployed when you deploy Enterprise Voice and the Call Park application.</span></span> <span data-ttu-id="0f848-105">Para habilitar la recogida de llamadas de grupo, configure la tabla de órbitas de estacionamiento de llamadas con intervalos de números designados como números de grupo de atención de llamadas y, a continuación, asigne usuarios a los grupos de atención de llamadas y habilite a los usuarios para la recogida de llamadas de grupo.</span><span class="sxs-lookup"><span data-stu-id="0f848-105">You enable Group Call Pickup by configuring the Call Park orbit table with separate ranges of numbers designated as call pickup group numbers, and then by assigning users to call pickup groups and enabling the users for Group Call Pickup.</span></span> <span data-ttu-id="0f848-106">Los siguientes componentes de Lync Server admiten la recogida de llamadas de Grupo:</span><span class="sxs-lookup"><span data-stu-id="0f848-106">The following Lync Server components support Group Call Pickup:</span></span>
+<span data-ttu-id="ef67e-104">La recogida de llamadas de grupo se implementa automáticamente al implementar la telefonía IP empresarial y la aplicación estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="ef67e-104">Group Call Pickup is automatically deployed when you deploy Enterprise Voice and the Call Park application.</span></span> <span data-ttu-id="ef67e-105">Para habilitar la recogida de llamadas de grupo, configure la tabla de órbitas de estacionamiento de llamadas con intervalos de números designados como números de grupo de atención de llamadas y, a continuación, asigne usuarios a los grupos de atención de llamadas y habilite a los usuarios para la recogida de llamadas de grupo.</span><span class="sxs-lookup"><span data-stu-id="ef67e-105">You enable Group Call Pickup by configuring the Call Park orbit table with separate ranges of numbers designated as call pickup group numbers, and then by assigning users to call pickup groups and enabling the users for Group Call Pickup.</span></span> <span data-ttu-id="ef67e-106">Los siguientes componentes de Lync Server admiten la recogida de llamadas de Grupo:</span><span class="sxs-lookup"><span data-stu-id="ef67e-106">The following Lync Server components support Group Call Pickup:</span></span>
 
-  - <span data-ttu-id="0f848-107">\*\*\*\*   El servicio de aplicación de servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas, como la aplicación de estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="0f848-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="0f848-108">El servicio de aplicación se instala automáticamente en todos los servidores front-end de un grupo de servidores front-end y en cada servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="0f848-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
+  - <span data-ttu-id="ef67e-107">**Servicio**     de aplicación El servicio de aplicación proporciona una plataforma para implementar, hospedar y administrar aplicaciones de comunicaciones unificadas, como la aplicación de estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="ef67e-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="ef67e-108">El servicio de aplicación se instala automáticamente en todos los servidores front-end de un grupo de servidores front-end y en cada servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="ef67e-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
 
-  - <span data-ttu-id="0f848-109">**Aplicación estacionamiento de llamadas**   la aplicación de estacionamiento de llamadas es una de las aplicaciones de comunicaciones unificadas que se hospedan en el servicio de aplicación.</span><span class="sxs-lookup"><span data-stu-id="0f848-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="0f848-110">La recogida de llamadas de grupo se basa en la aplicación de estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="0f848-110">Group Call Pickup is based on the Call Park application.</span></span>
+  - <span data-ttu-id="ef67e-109">Aplicación de estacionamiento de **llamadas**     La aplicación de estacionamiento de llamadas es una de las aplicaciones de comunicaciones unificadas que hospeda el servicio de aplicación.</span><span class="sxs-lookup"><span data-stu-id="ef67e-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="ef67e-110">La recogida de llamadas de grupo se basa en la aplicación de estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="ef67e-110">Group Call Pickup is based on the Call Park application.</span></span>
 
-  - <span data-ttu-id="0f848-111">**Shell de administración de Lync Server**   use el shell de administración de Lync Server para administrar grupos de recogida de llamadas de grupo.</span><span class="sxs-lookup"><span data-stu-id="0f848-111">**Lync Server Management Shell**   You use Lync Server Management Shell to manage Group Call Pickup groups.</span></span>
+  - <span data-ttu-id="ef67e-111">Shell de administración de **Lync Server**     Use el shell de administración de Lync Server para administrar grupos de recogida de llamadas de grupo.</span><span class="sxs-lookup"><span data-stu-id="ef67e-111">**Lync Server Management Shell**   You use Lync Server Management Shell to manage Group Call Pickup groups.</span></span>
 
-  - <span data-ttu-id="0f848-112">**Herramienta del kit de recursos de SEFAUtil**   usa la utilidad de activación de la característica de extensión secundaria (SEFAUtil) para asignar usuarios a un grupo de atención de llamadas y para habilitar o deshabilitar la atención de llamadas para los usuarios.</span><span class="sxs-lookup"><span data-stu-id="0f848-112">**SEFAUtil resource kit tool**   You use the secondary extension feature activation utility (SEFAUtil) to assign users to a call pickup group and to enable or disable call pickup for users.</span></span>
+  - <span data-ttu-id="ef67e-112">Herramienta del kit de **recursos de SEFAUtil**     Use la utilidad de activación de característica de extensión secundaria (SEFAUtil) para asignar usuarios a un grupo de atención de llamadas y para habilitar o deshabilitar la atención de llamadas para los usuarios.</span><span class="sxs-lookup"><span data-stu-id="ef67e-112">**SEFAUtil resource kit tool**   You use the secondary extension feature activation utility (SEFAUtil) to assign users to a call pickup group and to enable or disable call pickup for users.</span></span>
 
 </div>
 
