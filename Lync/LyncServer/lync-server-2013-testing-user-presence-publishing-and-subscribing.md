@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: prueba de la publicación y suscripción de presencia de usuario'
+description: 'Lync Server 2013: prueba de la publicación y suscripción de presencia de usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335ad014595f855c1ccefab363f3cf34ad7c282b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 90913f270fbd034ca4d2ea7cf3b93c255fc95c66
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503857"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541856"
 ---
-# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a><span data-ttu-id="d67c5-102">Prueba de publicación de presencia de usuario y suscripción en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d67c5-102">Testing user presence publishing and subscribing in Lync Server 2013</span></span>
+# <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a><span data-ttu-id="68ae2-103">Prueba de publicación de presencia de usuario y suscripción en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68ae2-103">Testing user presence publishing and subscribing in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +38,7 @@ ms.locfileid: "48503857"
 
 <span> </span>
 
-<span data-ttu-id="d67c5-103">_**Última modificación del tema:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="d67c5-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="68ae2-104">_**Última modificación del tema:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="68ae2-104">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -47,17 +48,17 @@ ms.locfileid: "48503857"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d67c5-104">Programación de comprobación</span><span class="sxs-lookup"><span data-stu-id="d67c5-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="d67c5-105">Diario</span><span class="sxs-lookup"><span data-stu-id="d67c5-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="68ae2-105">Programación de comprobación</span><span class="sxs-lookup"><span data-stu-id="68ae2-105">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="68ae2-106">Diario</span><span class="sxs-lookup"><span data-stu-id="68ae2-106">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d67c5-106">Herramienta de prueba</span><span class="sxs-lookup"><span data-stu-id="d67c5-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="d67c5-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d67c5-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="68ae2-107">Herramienta de prueba</span><span class="sxs-lookup"><span data-stu-id="68ae2-107">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="68ae2-108">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="68ae2-108">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d67c5-108">Permisos necesarios</span><span class="sxs-lookup"><span data-stu-id="d67c5-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="d67c5-109">Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="d67c5-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="d67c5-110">Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsPresence.</span><span class="sxs-lookup"><span data-stu-id="d67c5-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsPresence cmdlet.</span></span> <span data-ttu-id="d67c5-111">Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="d67c5-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="68ae2-109">Permisos necesarios</span><span class="sxs-lookup"><span data-stu-id="68ae2-109">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="68ae2-110">Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="68ae2-110">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="68ae2-111">Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsPresence.</span><span class="sxs-lookup"><span data-stu-id="68ae2-111">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsPresence cmdlet.</span></span> <span data-ttu-id="68ae2-112">Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="68ae2-112">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPresence&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,109 +67,109 @@ ms.locfileid: "48503857"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="d67c5-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="d67c5-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="68ae2-113">Descripción</span><span class="sxs-lookup"><span data-stu-id="68ae2-113">Description</span></span>
 
-<span data-ttu-id="d67c5-113">Test-CsPresence se usa para determinar si un par de usuarios de prueba pueden iniciar sesión en Lync Server y, a continuación, intercambiar información de presencia.</span><span class="sxs-lookup"><span data-stu-id="d67c5-113">Test-CsPresence is used to determine whether a pair of test users can log on to Lync Server and then exchange presence information.</span></span> <span data-ttu-id="d67c5-114">Para esto, el cmdlet primero inicia la sesión de ambos usuarios en el sistema.</span><span class="sxs-lookup"><span data-stu-id="d67c5-114">To do this, the cmdlet first logs the two users on to the system.</span></span> <span data-ttu-id="d67c5-115">Si los dos inicios de sesión se realizan correctamente, el primer usuario de prueba solicita recibir información de presencia del segundo usuario.</span><span class="sxs-lookup"><span data-stu-id="d67c5-115">If both logons succeed, the first test user then asks to receive presence information from the second user.</span></span> <span data-ttu-id="d67c5-116">El segundo usuario publica esta información y Test-CsPresence comprueba que esta se transmita correctamente al primer usuario.</span><span class="sxs-lookup"><span data-stu-id="d67c5-116">The second user publishes this information, and Test-CsPresence verifies that the information was successfully transmitted to the first user.</span></span> <span data-ttu-id="d67c5-117">Después del intercambio de información de presencia, los dos usuarios de prueba se desconectan de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d67c5-117">After the exchange of presence information, the two test users are then logged off from Lync Server.</span></span>
+<span data-ttu-id="68ae2-114">Test-CsPresence se usa para determinar si un par de usuarios de prueba pueden iniciar sesión en Lync Server y, a continuación, intercambiar información de presencia.</span><span class="sxs-lookup"><span data-stu-id="68ae2-114">Test-CsPresence is used to determine whether a pair of test users can log on to Lync Server and then exchange presence information.</span></span> <span data-ttu-id="68ae2-115">Para esto, el cmdlet primero inicia la sesión de ambos usuarios en el sistema.</span><span class="sxs-lookup"><span data-stu-id="68ae2-115">To do this, the cmdlet first logs the two users on to the system.</span></span> <span data-ttu-id="68ae2-116">Si los dos inicios de sesión se realizan correctamente, el primer usuario de prueba solicita recibir información de presencia del segundo usuario.</span><span class="sxs-lookup"><span data-stu-id="68ae2-116">If both logons succeed, the first test user then asks to receive presence information from the second user.</span></span> <span data-ttu-id="68ae2-117">El segundo usuario publica esta información y Test-CsPresence comprueba que esta se transmita correctamente al primer usuario.</span><span class="sxs-lookup"><span data-stu-id="68ae2-117">The second user publishes this information, and Test-CsPresence verifies that the information was successfully transmitted to the first user.</span></span> <span data-ttu-id="68ae2-118">Después del intercambio de información de presencia, los dos usuarios de prueba se desconectan de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="68ae2-118">After the exchange of presence information, the two test users are then logged off from Lync Server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="d67c5-118">Ejecutar la prueba</span><span class="sxs-lookup"><span data-stu-id="d67c5-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="68ae2-119">Ejecutar la prueba</span><span class="sxs-lookup"><span data-stu-id="68ae2-119">Running the test</span></span>
 
-<span data-ttu-id="d67c5-119">El cmdlet Test-CsPresence puede ejecutarse con un par de cuentas de prueba preconfiguradas (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o las cuentas de dos usuarios que están habilitados para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d67c5-119">The Test-CsPresence cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="d67c5-120">Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando.</span><span class="sxs-lookup"><span data-stu-id="d67c5-120">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="d67c5-121">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="d67c5-121">For example:</span></span>
+<span data-ttu-id="68ae2-120">El cmdlet Test-CsPresence puede ejecutarse con un par de cuentas de prueba preconfiguradas (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o las cuentas de dos usuarios que están habilitados para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="68ae2-120">The Test-CsPresence cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="68ae2-121">Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando.</span><span class="sxs-lookup"><span data-stu-id="68ae2-121">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="68ae2-122">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="68ae2-122">For example:</span></span>
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="d67c5-122">Para ejecutar esta comprobación con las cuentas de usuario reales, debe crear dos objetos de credenciales de Windows PowerShell (objetos que contienen el nombre de cuenta y la contraseña) para cada cuenta.</span><span class="sxs-lookup"><span data-stu-id="d67c5-122">To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="d67c5-123">A continuación, debe incluir dichos objetos de credenciales y las direcciones SIP de las dos cuentas cuando llame a test-CsPresence:</span><span class="sxs-lookup"><span data-stu-id="d67c5-123">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsPresence:</span></span>
+<span data-ttu-id="68ae2-123">Para ejecutar esta comprobación con las cuentas de usuario reales, debe crear dos objetos de credenciales de Windows PowerShell (objetos que contienen el nombre de cuenta y la contraseña) para cada cuenta.</span><span class="sxs-lookup"><span data-stu-id="68ae2-123">To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="68ae2-124">A continuación, debe incluir dichos objetos de credenciales y las direcciones SIP de las dos cuentas cuando llame a test-CsPresence:</span><span class="sxs-lookup"><span data-stu-id="68ae2-124">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsPresence:</span></span>
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -PublisherSipAddress "sip:kenmyer@litwareinc.com" -PublisherCredential $credential1 -SubscriberSipAddress "sip:davidlongmire@litwareinc.com" -SubscriberCredential $credential2
 
-<span data-ttu-id="d67c5-124">Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence) .</span><span class="sxs-lookup"><span data-stu-id="d67c5-124">For more information, see the Help documentation for the [Test-CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence) cmdlet.</span></span>
+<span data-ttu-id="68ae2-125">Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence) .</span><span class="sxs-lookup"><span data-stu-id="68ae2-125">For more information, see the Help documentation for the [Test-CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="d67c5-125">Determinar si se ha realizado correctamente o erróneo</span><span class="sxs-lookup"><span data-stu-id="d67c5-125">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="68ae2-126">Determinar si se ha realizado correctamente o erróneo</span><span class="sxs-lookup"><span data-stu-id="68ae2-126">Determining success or failure</span></span>
 
-<span data-ttu-id="d67c5-126">Si los usuarios especificados pueden intercambiar información de presencia, recibirá una salida similar a la siguiente, con la propiedad result marcada como **correcta:**</span><span class="sxs-lookup"><span data-stu-id="d67c5-126">If the specified users can exchange presence information, then you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="68ae2-127">Si los usuarios especificados pueden intercambiar información de presencia, recibirá una salida similar a la siguiente, con la propiedad result marcada como **correcta:**</span><span class="sxs-lookup"><span data-stu-id="68ae2-127">If the specified users can exchange presence information, then you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="d67c5-127">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d67c5-127">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="68ae2-128">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="68ae2-128">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="d67c5-128">Resultado: correcto</span><span class="sxs-lookup"><span data-stu-id="d67c5-128">Result : Success</span></span>
+<span data-ttu-id="68ae2-129">Resultado: correcto</span><span class="sxs-lookup"><span data-stu-id="68ae2-129">Result : Success</span></span>
 
-<span data-ttu-id="d67c5-129">Latencia: 00:00:06.3280315</span><span class="sxs-lookup"><span data-stu-id="d67c5-129">Latency : 00:00:06.3280315</span></span>
+<span data-ttu-id="68ae2-130">Latencia: 00:00:06.3280315</span><span class="sxs-lookup"><span data-stu-id="68ae2-130">Latency : 00:00:06.3280315</span></span>
 
-<span data-ttu-id="d67c5-130">Error</span><span class="sxs-lookup"><span data-stu-id="d67c5-130">Error :</span></span>
+<span data-ttu-id="68ae2-131">Error</span><span class="sxs-lookup"><span data-stu-id="68ae2-131">Error :</span></span>
 
-<span data-ttu-id="d67c5-131">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="d67c5-131">Diagnosis :</span></span>
+<span data-ttu-id="68ae2-132">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="68ae2-132">Diagnosis :</span></span>
 
-<span data-ttu-id="d67c5-132">Si los dos usuarios no pueden intercambiar información de presencia, el resultado se mostrará como error y la información adicional se registrará en las propiedades error y diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="d67c5-132">If the two users can't exchange presence information, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="68ae2-133">Si los dos usuarios no pueden intercambiar información de presencia, el resultado se mostrará como error y la información adicional se registrará en las propiedades error y diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="68ae2-133">If the two users can't exchange presence information, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="d67c5-133">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d67c5-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="68ae2-134">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="68ae2-134">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="d67c5-134">Resultado: error</span><span class="sxs-lookup"><span data-stu-id="d67c5-134">Result : Failure</span></span>
+<span data-ttu-id="68ae2-135">Resultado: error</span><span class="sxs-lookup"><span data-stu-id="68ae2-135">Result : Failure</span></span>
 
-<span data-ttu-id="d67c5-135">Latencia: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="d67c5-135">Latency : 00:00:00</span></span>
+<span data-ttu-id="68ae2-136">Latencia: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="68ae2-136">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="d67c5-136">Error: 404, no encontrado</span><span class="sxs-lookup"><span data-stu-id="d67c5-136">Error : 404, Not Found</span></span>
+<span data-ttu-id="68ae2-137">Error: 404, no encontrado</span><span class="sxs-lookup"><span data-stu-id="68ae2-137">Error : 404, Not Found</span></span>
 
-<span data-ttu-id="d67c5-137">Diagnosis: ErrorCode = 4005, Source = ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d67c5-137">Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,</span></span>
+<span data-ttu-id="68ae2-138">Diagnosis: ErrorCode = 4005, Source = ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="68ae2-138">Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,</span></span>
 
-<span data-ttu-id="d67c5-138">Razón = URI de destino no habilitado para SIP o no</span><span class="sxs-lookup"><span data-stu-id="d67c5-138">Reason=Destination URI either not enabled for SIP or does not</span></span>
+<span data-ttu-id="68ae2-139">Razón = URI de destino no habilitado para SIP o no</span><span class="sxs-lookup"><span data-stu-id="68ae2-139">Reason=Destination URI either not enabled for SIP or does not</span></span>
 
-<span data-ttu-id="d67c5-139">haber.</span><span class="sxs-lookup"><span data-stu-id="d67c5-139">exist.</span></span>
+<span data-ttu-id="68ae2-140">haber.</span><span class="sxs-lookup"><span data-stu-id="68ae2-140">exist.</span></span>
 
-<span data-ttu-id="d67c5-140">Microsoft. RTC. Signaling. DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="d67c5-140">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
+<span data-ttu-id="68ae2-141">Microsoft. RTC. Signaling. DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="68ae2-141">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-<span data-ttu-id="d67c5-141">Por ejemplo, la salida anterior indica que se produjo un error en la prueba porque al menos una de las dos cuentas de usuario no es válida: la cuenta no existe o no se ha habilitado para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d67c5-141">For example, the previous output states that the test failed because at least one of the two user accounts is not valid: either the account does not exist or it has not been enabled for Lync Server.</span></span> <span data-ttu-id="d67c5-142">Puede comprobar que las cuentas existen y determinar si están habilitadas para Lync Server ejecutando un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="d67c5-142">You can verify that the accounts exist, and determine whether they are enabled for Lync Server, by running a command similar to this:</span></span>
+<span data-ttu-id="68ae2-142">Por ejemplo, la salida anterior indica que se produjo un error en la prueba porque al menos una de las dos cuentas de usuario no es válida: la cuenta no existe o no se ha habilitado para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="68ae2-142">For example, the previous output states that the test failed because at least one of the two user accounts is not valid: either the account does not exist or it has not been enabled for Lync Server.</span></span> <span data-ttu-id="68ae2-143">Puede comprobar que las cuentas existen y determinar si están habilitadas para Lync Server ejecutando un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="68ae2-143">You can verify that the accounts exist, and determine whether they are enabled for Lync Server, by running a command similar to this:</span></span>
 
     "sip:kenmyer@litwareinc.com", "sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, Enabled
 
-<span data-ttu-id="d67c5-143">Si Test-CsPresence da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:</span><span class="sxs-lookup"><span data-stu-id="d67c5-143">If Test-CsPresence fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="68ae2-144">Si Test-CsPresence da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:</span><span class="sxs-lookup"><span data-stu-id="68ae2-144">If Test-CsPresence fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-<span data-ttu-id="d67c5-144">Cuando se incluye el parámetro verbose, Test-CsPresence devolverá una cuenta paso a paso por cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d67c5-144">When the Verbose parameter is included, Test-CsPresence will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="d67c5-145">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="d67c5-145">For example:</span></span>
+<span data-ttu-id="68ae2-145">Cuando se incluye el parámetro verbose, Test-CsPresence devolverá una cuenta paso a paso por cada acción que se intentó realizar cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server.</span><span class="sxs-lookup"><span data-stu-id="68ae2-145">When the Verbose parameter is included, Test-CsPresence will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="68ae2-146">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="68ae2-146">For example:</span></span>
 
-<span data-ttu-id="d67c5-146">Aciertos de solicitud de registro contra desconocido</span><span class="sxs-lookup"><span data-stu-id="d67c5-146">Registration Request hit against Unknown</span></span>
+<span data-ttu-id="68ae2-147">Aciertos de solicitud de registro contra desconocido</span><span class="sxs-lookup"><span data-stu-id="68ae2-147">Registration Request hit against Unknown</span></span>
 
-<span data-ttu-id="d67c5-147">La actividad "Register" se completó en "0,0345791" segundos.</span><span class="sxs-lookup"><span data-stu-id="d67c5-147">'Register' activity completed in '0.0345791' secs.</span></span>
+<span data-ttu-id="68ae2-148">La actividad "Register" se completó en "0,0345791" segundos.</span><span class="sxs-lookup"><span data-stu-id="68ae2-148">'Register' activity completed in '0.0345791' secs.</span></span>
 
-<span data-ttu-id="d67c5-148">Se inició la actividad ' SelfSubscribeActivity '.</span><span class="sxs-lookup"><span data-stu-id="d67c5-148">'SelfSubscribeActivity' activity started.</span></span>
+<span data-ttu-id="68ae2-149">Se inició la actividad ' SelfSubscribeActivity '.</span><span class="sxs-lookup"><span data-stu-id="68ae2-149">'SelfSubscribeActivity' activity started.</span></span>
 
-<span data-ttu-id="d67c5-149">Actividad ' SelfSubscribeActivity ' completada en ' 0,0041174 ' en segundos.</span><span class="sxs-lookup"><span data-stu-id="d67c5-149">'SelfSubscribeActivity' activity completed in '0.0041174' secs.</span></span>
+<span data-ttu-id="68ae2-150">Actividad ' SelfSubscribeActivity ' completada en ' 0,0041174 ' en segundos.</span><span class="sxs-lookup"><span data-stu-id="68ae2-150">'SelfSubscribeActivity' activity completed in '0.0041174' secs.</span></span>
 
-<span data-ttu-id="d67c5-150">Se inició la actividad ' SubscribePresence '.</span><span class="sxs-lookup"><span data-stu-id="d67c5-150">'SubscribePresence' activity started.</span></span>
+<span data-ttu-id="68ae2-151">Se inició la actividad ' SubscribePresence '.</span><span class="sxs-lookup"><span data-stu-id="68ae2-151">'SubscribePresence' activity started.</span></span>
 
-<span data-ttu-id="d67c5-151">Actividad ' SubscribePresence ' completada en ' 0,0038764 ' en segundos.</span><span class="sxs-lookup"><span data-stu-id="d67c5-151">'SubscribePresence' activity completed in '0.0038764' secs.</span></span>
+<span data-ttu-id="68ae2-152">Actividad ' SubscribePresence ' completada en ' 0,0038764 ' en segundos.</span><span class="sxs-lookup"><span data-stu-id="68ae2-152">'SubscribePresence' activity completed in '0.0038764' secs.</span></span>
 
-<span data-ttu-id="d67c5-152">Se inició la actividad ' PublishPresence '.</span><span class="sxs-lookup"><span data-stu-id="d67c5-152">'PublishPresence' activity started.</span></span>
+<span data-ttu-id="68ae2-153">Se inició la actividad ' PublishPresence '.</span><span class="sxs-lookup"><span data-stu-id="68ae2-153">'PublishPresence' activity started.</span></span>
 
-<span data-ttu-id="d67c5-153">No se recibe una notificación de presencia de excepción en 25 segundos.</span><span class="sxs-lookup"><span data-stu-id="d67c5-153">An exception 'Presence notification is not received within 25 secs.'</span></span> <span data-ttu-id="d67c5-154">se produjo ruing flujo de trabajo Microsoft. RTC. SyntheticTransactions. workflows. STPresenceWorkflow Execution.</span><span class="sxs-lookup"><span data-stu-id="d67c5-154">occurred ruing Workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STPresenceWorkflow execution.</span></span>
+<span data-ttu-id="68ae2-154">No se recibe una notificación de presencia de excepción en 25 segundos.</span><span class="sxs-lookup"><span data-stu-id="68ae2-154">An exception 'Presence notification is not received within 25 secs.'</span></span> <span data-ttu-id="68ae2-155">se produjo ruing flujo de trabajo Microsoft. RTC. SyntheticTransactions. workflows. STPresenceWorkflow Execution.</span><span class="sxs-lookup"><span data-stu-id="68ae2-155">occurred ruing Workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STPresenceWorkflow execution.</span></span>
 
-<span data-ttu-id="d67c5-155">El hecho de que la notificación de presencia no se haya recibido en 25 segundos podría indicar que hay problemas de red que impiden que se intercambie la información.</span><span class="sxs-lookup"><span data-stu-id="d67c5-155">The fact that the presence notification was not received within 25 seconds might indicate that network issues are preventing information from being exchanged.</span></span>
+<span data-ttu-id="68ae2-156">El hecho de que la notificación de presencia no se haya recibido en 25 segundos podría indicar que hay problemas de red que impiden que se intercambie la información.</span><span class="sxs-lookup"><span data-stu-id="68ae2-156">The fact that the presence notification was not received within 25 seconds might indicate that network issues are preventing information from being exchanged.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="d67c5-156">Motivos por los que se ha producido un error en la prueba</span><span class="sxs-lookup"><span data-stu-id="d67c5-156">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="68ae2-157">Motivos por los que se ha producido un error en la prueba</span><span class="sxs-lookup"><span data-stu-id="68ae2-157">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="d67c5-157">Estas son algunas de las razones comunes por las que Test-CsPresence podría producir un error:</span><span class="sxs-lookup"><span data-stu-id="d67c5-157">Here are some common reasons why Test-CsPresence might fail:</span></span>
+<span data-ttu-id="68ae2-158">Estas son algunas de las razones comunes por las que Test-CsPresence podría producir un error:</span><span class="sxs-lookup"><span data-stu-id="68ae2-158">Here are some common reasons why Test-CsPresence might fail:</span></span>
 
-  - <span data-ttu-id="d67c5-158">Ha especificado una cuenta de usuario incorrecta.</span><span class="sxs-lookup"><span data-stu-id="d67c5-158">You specified an incorrect user account.</span></span> <span data-ttu-id="d67c5-159">Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="d67c5-159">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="68ae2-159">Ha especificado una cuenta de usuario incorrecta.</span><span class="sxs-lookup"><span data-stu-id="68ae2-159">You specified an incorrect user account.</span></span> <span data-ttu-id="68ae2-160">Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="68ae2-160">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="d67c5-160">La cuenta de usuario es válida, pero la cuenta no está habilitada actualmente para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d67c5-160">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="d67c5-161">Para comprobar que una cuenta de usuario está habilitada para Lync Server, ejecute un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="d67c5-161">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="68ae2-161">La cuenta de usuario es válida, pero la cuenta no está habilitada actualmente para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="68ae2-161">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="68ae2-162">Para comprobar que una cuenta de usuario está habilitada para Lync Server, ejecute un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="68ae2-162">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    <span data-ttu-id="d67c5-162">Si la propiedad Enabled se establece en false, significa que el usuario no está habilitado actualmente para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d67c5-162">If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="68ae2-163">Si la propiedad Enabled se establece en false, significa que el usuario no está habilitado actualmente para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="68ae2-163">If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.</span></span>
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 62803597
 ms.date: 08/15/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5974f8a495ab555dd6d2ebd1e96e685a0d809863
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f02bbec8e2546045e44ed7fd37f61af27af1374
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195053"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536167"
 ---
+# <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="600e4-102">Llamadas de equipo con enrutamiento Location-Based en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="600e4-102">Team calling with Location-Based Routing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="e27a5-102">Llamadas de equipo con enrutamiento basado en ubicación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e27a5-102">Team calling with Location-Based Routing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42195053"
 
 <span> </span>
 
-<span data-ttu-id="e27a5-103">_**Última modificación del tema:** 2014-08-11_</span><span class="sxs-lookup"><span data-stu-id="e27a5-103">_**Topic Last Modified:** 2014-08-11_</span></span>
+<span data-ttu-id="600e4-103">_**Última modificación del tema:** 2014-08-11_</span><span class="sxs-lookup"><span data-stu-id="600e4-103">_**Topic Last Modified:** 2014-08-11_</span></span>
 
-<span data-ttu-id="e27a5-104">Lync Server 2013 admite llamadas de equipo con enrutamiento basado en ubicación.</span><span class="sxs-lookup"><span data-stu-id="e27a5-104">Lync Server 2013 supports team calling with Location-Based Routing.</span></span>
+<span data-ttu-id="600e4-104">Lync Server 2013 admite llamadas de equipo con enrutamiento Location-Based.</span><span class="sxs-lookup"><span data-stu-id="600e4-104">Lync Server 2013 supports team calling with Location-Based Routing.</span></span>
 
 </div>
 

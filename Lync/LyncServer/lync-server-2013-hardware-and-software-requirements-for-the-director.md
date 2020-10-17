@@ -12,20 +12,22 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e0c75135d1ccfbb544c14c5cdc530b4e9a67b47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b00e294291bcafb859cc900ca71463f1315cdfe8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205266"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536867"
 ---
+# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a><span data-ttu-id="83912-102">Requisitos de hardware y software para el Director en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83912-102">Hardware and software requirements for the Director in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a><span data-ttu-id="91e00-102">Requisitos de hardware y software para el Director en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="91e00-102">Hardware and software requirements for the Director in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42205266"
 
 <span> </span>
 
-<span data-ttu-id="91e00-103">_**Última modificación del tema:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="91e00-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="83912-103">_**Última modificación del tema:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="83912-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="91e00-104">En esta sección se detallan los requisitos de hardware y software para el director y los escenarios de combinación compatibles con el director.</span><span class="sxs-lookup"><span data-stu-id="91e00-104">This section details the hardware and software requirements for the Director, and the supported collocation scenarios for the Director.</span></span>
+<span data-ttu-id="83912-104">En esta sección se detallan los requisitos de hardware y software para el director y los escenarios de combinación compatibles con el director.</span><span class="sxs-lookup"><span data-stu-id="83912-104">This section details the hardware and software requirements for the Director, and the supported collocation scenarios for the Director.</span></span>
 
 <div>
 
-## <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="91e00-105">Requisitos de hardware para el director</span><span class="sxs-lookup"><span data-stu-id="91e00-105">Hardware Requirements for the Director</span></span>
+## <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="83912-105">Requisitos de hardware para el director</span><span class="sxs-lookup"><span data-stu-id="83912-105">Hardware Requirements for the Director</span></span>
 
-<span data-ttu-id="91e00-106">En la siguiente tabla se enumeran los requisitos de hardware para el Director:</span><span class="sxs-lookup"><span data-stu-id="91e00-106">The following table lists the hardware requirements for the Director:</span></span>
+<span data-ttu-id="83912-106">En la siguiente tabla se enumeran los requisitos de hardware para el Director:</span><span class="sxs-lookup"><span data-stu-id="83912-106">The following table lists the hardware requirements for the Director:</span></span>
 
-### <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="91e00-107">Requisitos de hardware para el director</span><span class="sxs-lookup"><span data-stu-id="91e00-107">Hardware Requirements for the Director</span></span>
+### <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="83912-107">Requisitos de hardware para el director</span><span class="sxs-lookup"><span data-stu-id="83912-107">Hardware Requirements for the Director</span></span>
 
 <table>
 <colgroup>
@@ -54,35 +56,35 @@ ms.locfileid: "42205266"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91e00-108">Componente de hardware</span><span class="sxs-lookup"><span data-stu-id="91e00-108">Hardware component</span></span></th>
-<th><span data-ttu-id="91e00-109">Requisito mínimo</span><span class="sxs-lookup"><span data-stu-id="91e00-109">Minimum requirement</span></span></th>
+<th><span data-ttu-id="83912-108">Componente de hardware</span><span class="sxs-lookup"><span data-stu-id="83912-108">Hardware component</span></span></th>
+<th><span data-ttu-id="83912-109">Requisito mínimo</span><span class="sxs-lookup"><span data-stu-id="83912-109">Minimum requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91e00-110">CPU</span><span class="sxs-lookup"><span data-stu-id="91e00-110">CPU</span></span></p></td>
+<td><p><span data-ttu-id="83912-110">CPU</span><span class="sxs-lookup"><span data-stu-id="83912-110">CPU</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="91e00-111">procesador de 64 bits, Quad-Core, 2,0 GHz o superior</span><span class="sxs-lookup"><span data-stu-id="91e00-111">64-bit processor, quad-core, 2.0 GHz or higher</span></span></p></li>
-<li><p><span data-ttu-id="91e00-112">procesador dual de 64 bits, doble núcleo, 2,0 GHz o superior</span><span class="sxs-lookup"><span data-stu-id="91e00-112">64-bit dual processor, dual-core, 2.0 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="83912-111">procesador de 64 bits, Quad-Core, 2,0 GHz o superior</span><span class="sxs-lookup"><span data-stu-id="83912-111">64-bit processor, quad-core, 2.0 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="83912-112">procesador dual de 64 bits, doble núcleo, 2,0 GHz o superior</span><span class="sxs-lookup"><span data-stu-id="83912-112">64-bit dual processor, dual-core, 2.0 GHz or higher</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91e00-113">Memoria</span><span class="sxs-lookup"><span data-stu-id="91e00-113">Memory</span></span></p></td>
-<td><p><span data-ttu-id="91e00-114">4 gigabytes (GB)</span><span class="sxs-lookup"><span data-stu-id="91e00-114">4 gigabytes (GB)</span></span></p></td>
+<td><p><span data-ttu-id="83912-113">Memoria</span><span class="sxs-lookup"><span data-stu-id="83912-113">Memory</span></span></p></td>
+<td><p><span data-ttu-id="83912-114">4 gigabytes (GB)</span><span class="sxs-lookup"><span data-stu-id="83912-114">4 gigabytes (GB)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91e00-115">Disco</span><span class="sxs-lookup"><span data-stu-id="91e00-115">Disk</span></span></p></td>
+<td><p><span data-ttu-id="83912-115">Disco</span><span class="sxs-lookup"><span data-stu-id="83912-115">Disk</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="91e00-116">unidad de disco duro (HDD) a 10.000 RPM</span><span class="sxs-lookup"><span data-stu-id="91e00-116">10K RPM hard disk drive (HDD)</span></span></p></li>
-<li><p><span data-ttu-id="91e00-117">Unidad de estado sólido (SSD) de alto rendimiento con rendimiento igual o superior a un disco duro de 10K RPM</span><span class="sxs-lookup"><span data-stu-id="91e00-117">High-performance solid state drive (SSD) with performance equal to or better than 10K RPM HDD</span></span></p></li>
-<li><p><span data-ttu-id="91e00-118">2x discos RAID 10 (seccionados y reflejados) a 15.000 RPM para archivos de datos de bases de datos</span><span class="sxs-lookup"><span data-stu-id="91e00-118">2x RAID 10 (striped and mirrored) 15K RPM disks for database data files</span></span></p></li>
+<li><p><span data-ttu-id="83912-116">unidad de disco duro (HDD) a 10.000 RPM</span><span class="sxs-lookup"><span data-stu-id="83912-116">10K RPM hard disk drive (HDD)</span></span></p></li>
+<li><p><span data-ttu-id="83912-117">Unidad de estado sólido (SSD) de alto rendimiento con rendimiento igual o superior a un disco duro de 10K RPM</span><span class="sxs-lookup"><span data-stu-id="83912-117">High-performance solid state drive (SSD) with performance equal to or better than 10K RPM HDD</span></span></p></li>
+<li><p><span data-ttu-id="83912-118">2x discos RAID 10 (seccionados y reflejados) a 15.000 RPM para archivos de datos de bases de datos</span><span class="sxs-lookup"><span data-stu-id="83912-118">2x RAID 10 (striped and mirrored) 15K RPM disks for database data files</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91e00-119">Red</span><span class="sxs-lookup"><span data-stu-id="91e00-119">Network</span></span></p></td>
+<td><p><span data-ttu-id="83912-119">Red</span><span class="sxs-lookup"><span data-stu-id="83912-119">Network</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="91e00-120">Adaptadores de red duales de 1 Gigabit por segundo (Gbps) (recomendado)</span><span class="sxs-lookup"><span data-stu-id="91e00-120">Dual 1 gigabit per second (Gbps) network adapters (recommended)</span></span></p></li>
-<li><p><span data-ttu-id="91e00-121">Adaptador de red único de 1 Gbps (admitido)</span><span class="sxs-lookup"><span data-stu-id="91e00-121">Single 1 Gbps network adapter (supported)</span></span></p></li>
+<li><p><span data-ttu-id="83912-120">Adaptadores de red duales de 1 Gigabit por segundo (Gbps) (recomendado)</span><span class="sxs-lookup"><span data-stu-id="83912-120">Dual 1 gigabit per second (Gbps) network adapters (recommended)</span></span></p></li>
+<li><p><span data-ttu-id="83912-121">Adaptador de red único de 1 Gbps (admitido)</span><span class="sxs-lookup"><span data-stu-id="83912-121">Single 1 Gbps network adapter (supported)</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -93,31 +95,31 @@ ms.locfileid: "42205266"
 
 <div>
 
-## <a name="software-requirements-for-the-director"></a><span data-ttu-id="91e00-122">Requisitos de software para el director</span><span class="sxs-lookup"><span data-stu-id="91e00-122">Software Requirements for the Director</span></span>
+## <a name="software-requirements-for-the-director"></a><span data-ttu-id="83912-122">Requisitos de software para el director</span><span class="sxs-lookup"><span data-stu-id="83912-122">Software Requirements for the Director</span></span>
 
-<span data-ttu-id="91e00-123">El rol de Director solo se puede implementar en servidores que ejecuten Lync Server 2013 Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="91e00-123">The Director role can be deployed only on servers running Lync Server 2013 Enterprise Edition.</span></span>
+<span data-ttu-id="83912-123">El rol de Director solo se puede implementar en servidores que ejecuten Lync Server 2013 Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="83912-123">The Director role can be deployed only on servers running Lync Server 2013 Enterprise Edition.</span></span>
 
-<span data-ttu-id="91e00-124">Se requiere uno de los siguientes sistemas operativos de 64 bits para los directores:</span><span class="sxs-lookup"><span data-stu-id="91e00-124">One of the following 64-bit operating systems is required for the Directors:</span></span>
+<span data-ttu-id="83912-124">Se requiere uno de los siguientes sistemas operativos de 64 bits para los directores:</span><span class="sxs-lookup"><span data-stu-id="83912-124">One of the following 64-bit operating systems is required for the Directors:</span></span>
 
-  - <span data-ttu-id="91e00-125">Sistema operativo Windows Server 2008 R2 Standard con Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="91e00-125">The Windows Server 2008 R2 Standard operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="83912-125">Sistema operativo Windows Server 2008 R2 Standard con Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="83912-125">The Windows Server 2008 R2 Standard operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="91e00-126">El sistema operativo Windows Server 2008 R2 Enterprise con Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="91e00-126">The Windows Server 2008 R2 Enterprise operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="83912-126">El sistema operativo Windows Server 2008 R2 Enterprise con Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="83912-126">The Windows Server 2008 R2 Enterprise operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="91e00-127">El sistema operativo Windows Server 2008 R2 Datacenter con Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="91e00-127">The Windows Server 2008 R2 Datacenter operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="83912-127">El sistema operativo Windows Server 2008 R2 Datacenter con Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="83912-127">The Windows Server 2008 R2 Datacenter operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="91e00-128">Sistema operativo Windows Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="91e00-128">The Windows Server 2012 Standard operating system</span></span>
+  - <span data-ttu-id="83912-128">Sistema operativo Windows Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="83912-128">The Windows Server 2012 Standard operating system</span></span>
 
-  - <span data-ttu-id="91e00-129">El sistema operativo Windows Server 2012 Datacenter</span><span class="sxs-lookup"><span data-stu-id="91e00-129">The Windows Server 2012 Datacenter operating system</span></span>
+  - <span data-ttu-id="83912-129">El sistema operativo Windows Server 2012 Datacenter</span><span class="sxs-lookup"><span data-stu-id="83912-129">The Windows Server 2012 Datacenter operating system</span></span>
 
-<span data-ttu-id="91e00-130">Lync Server 2013 también requiere la instalación de los siguientes programas y actualizaciones que se detallan en el tema [compatibilidad y requisitos de servidor adicionales en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="91e00-130">Lync Server 2013 also requires installation of the following programs and updates detailed in the topic [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span></span>
+<span data-ttu-id="83912-130">Lync Server 2013 también requiere la instalación de los siguientes programas y actualizaciones que se detallan en el tema [compatibilidad y requisitos de servidor adicionales en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="83912-130">Lync Server 2013 also requires installation of the following programs and updates detailed in the topic [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a><span data-ttu-id="91e00-131">Escenarios de instalación compatibles</span><span class="sxs-lookup"><span data-stu-id="91e00-131">Supported Collocation</span></span>
+## <a name="supported-collocation"></a><span data-ttu-id="83912-131">Escenarios de instalación compatibles</span><span class="sxs-lookup"><span data-stu-id="83912-131">Supported Collocation</span></span>
 
-<span data-ttu-id="91e00-132">El rol de servidor Director no se puede combinar con ningún otro rol de servidor en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="91e00-132">The Director server role cannot be collocated with any other server role in Lync Server 2013.</span></span> <span data-ttu-id="91e00-133">Sin embargo, si no implementa un director, los servidores front-end asumirán el rol.</span><span class="sxs-lookup"><span data-stu-id="91e00-133">However, if you do not deploy a Director, the Front End Servers will assume the role.</span></span>
+<span data-ttu-id="83912-132">El rol de servidor Director no se puede combinar con ningún otro rol de servidor en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="83912-132">The Director server role cannot be collocated with any other server role in Lync Server 2013.</span></span> <span data-ttu-id="83912-133">Sin embargo, si no implementa un director, los servidores front-end asumirán el rol.</span><span class="sxs-lookup"><span data-stu-id="83912-133">However, if you do not deploy a Director, the Front End Servers will assume the role.</span></span>
 
 </div>
 
