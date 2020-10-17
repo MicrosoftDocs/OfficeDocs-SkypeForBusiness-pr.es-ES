@@ -12,20 +12,22 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a8bc7072cb1faa197f733d01eb545a964ed6612
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52920c81e2055b5151280bbd65e9b2b6a90c0b73
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522807"
 ---
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="412d0-102">Lista de comprobación para la implementación de E9-1-1 en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="412d0-102">Deployment checklist for E9-1-1 in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="0d7ce-102">Lista de comprobación para la implementación de E9-1-1 en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d7ce-102">Deployment checklist for E9-1-1 in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42205806"
 
 <span> </span>
 
-<span data-ttu-id="0d7ce-103">_**Última modificación del tema:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="0d7ce-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="412d0-103">_**Última modificación del tema:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="412d0-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="0d7ce-104">Para planear eficazmente 9-1-1 mejorado (E9-1-1), no olvide incluir los siguientes requisitos en la implementación:</span><span class="sxs-lookup"><span data-stu-id="0d7ce-104">To plan effectively for Enhanced 9-1-1 (E9-1-1), be sure to include the following deployment requirements:</span></span>
+<span data-ttu-id="412d0-104">Para planear eficazmente 9-1-1 mejorado (E9-1-1), no olvide incluir los siguientes requisitos en la implementación:</span><span class="sxs-lookup"><span data-stu-id="412d0-104">To plan effectively for Enhanced 9-1-1 (E9-1-1), be sure to include the following deployment requirements:</span></span>
 
-  - <span data-ttu-id="0d7ce-105">Requisitos previos para implementar E9-1-1</span><span class="sxs-lookup"><span data-stu-id="0d7ce-105">Prerequisites for deploying E9-1-1.</span></span>
+  - <span data-ttu-id="412d0-105">Requisitos previos para implementar E9-1-1</span><span class="sxs-lookup"><span data-stu-id="412d0-105">Prerequisites for deploying E9-1-1.</span></span>
 
-  - <span data-ttu-id="0d7ce-106">Pasos necesarios para implementar E9-1-1</span><span class="sxs-lookup"><span data-stu-id="0d7ce-106">Steps that are required to deploy E9-1-1.</span></span>
+  - <span data-ttu-id="412d0-106">Pasos necesarios para implementar E9-1-1</span><span class="sxs-lookup"><span data-stu-id="412d0-106">Steps that are required to deploy E9-1-1.</span></span>
 
 <div>
 
-## <a name="deployment-prerequisites-for-e9-1-1"></a><span data-ttu-id="0d7ce-107">Requisitos previos para implementar E9-1-1</span><span class="sxs-lookup"><span data-stu-id="0d7ce-107">Deployment Prerequisites for E9-1-1</span></span>
+## <a name="deployment-prerequisites-for-e9-1-1"></a><span data-ttu-id="412d0-107">Requisitos previos para implementar E9-1-1</span><span class="sxs-lookup"><span data-stu-id="412d0-107">Deployment Prerequisites for E9-1-1</span></span>
 
-<span data-ttu-id="0d7ce-108">Antes de implementar E9-1-1, debe haber implementado ya los servidores internos de Lync Server, incluido un almacén de administración central, un grupo de servidores front-end o un servidor Standard Edition, uno o varios servidores de mediación o grupos de servidores de mediación, y clientes de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-108">Before you deploy E9-1-1, you must already have deployed your Lync Server internal servers, including a Central Management store, a Front End pool or a Standard Edition server, one or more Mediation Servers or Mediation Server pools, and Lync Server clients.</span></span> <span data-ttu-id="0d7ce-109">Además, una implementación de E9-1-1 requiere un tronco SIP con un proveedor de servicios de E9-1-1 certificado una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) para la Red telefónica conmutada (RTC).</span><span class="sxs-lookup"><span data-stu-id="0d7ce-109">In addition, an E9-1-1 deployment requires a SIP trunk to a qualified E9-1-1 service provider or an Emergency Location Identification Number (ELIN) gateway to your public switched telephone network (PSTN).</span></span> <span data-ttu-id="0d7ce-110">Lync Server admite el uso de proveedores de servicios de E9-1-1 solo dentro de los Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-110">Lync Server supports using E9-1-1 service providers only inside the United States.</span></span>
+<span data-ttu-id="412d0-108">Antes de implementar E9-1-1, debe haber implementado ya los servidores internos de Lync Server, incluido un almacén de administración central, un grupo de servidores front-end o un servidor Standard Edition, uno o varios servidores de mediación o grupos de servidores de mediación, y clientes de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="412d0-108">Before you deploy E9-1-1, you must already have deployed your Lync Server internal servers, including a Central Management store, a Front End pool or a Standard Edition server, one or more Mediation Servers or Mediation Server pools, and Lync Server clients.</span></span> <span data-ttu-id="412d0-109">Además, una implementación de E9-1-1 requiere un tronco SIP con un proveedor de servicios de E9-1-1 certificado una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) para la Red telefónica conmutada (RTC).</span><span class="sxs-lookup"><span data-stu-id="412d0-109">In addition, an E9-1-1 deployment requires a SIP trunk to a qualified E9-1-1 service provider or an Emergency Location Identification Number (ELIN) gateway to your public switched telephone network (PSTN).</span></span> <span data-ttu-id="412d0-110">Lync Server admite el uso de proveedores de servicios de E9-1-1 solo dentro de los Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="412d0-110">Lync Server supports using E9-1-1 service providers only inside the United States.</span></span>
 
 </div>
 
 <div>
 
-## <a name="deployment-process"></a><span data-ttu-id="0d7ce-111">Proceso de implementación</span><span class="sxs-lookup"><span data-stu-id="0d7ce-111">Deployment Process</span></span>
+## <a name="deployment-process"></a><span data-ttu-id="412d0-111">Proceso de implementación</span><span class="sxs-lookup"><span data-stu-id="412d0-111">Deployment Process</span></span>
 
-<span data-ttu-id="0d7ce-112">En la tabla siguiente se proporciona información general del proceso de implementación de E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-112">The following table provides an overview of the E9-1-1 deployment process.</span></span> <span data-ttu-id="0d7ce-113">Para obtener más información sobre los pasos de implementación, vea [Configure enhanced 9-1-1 in Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) en la documentación sobre implementación.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-113">For details about deployment steps, see [Configure Enhanced 9-1-1 in Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="412d0-112">En la tabla siguiente se proporciona información general del proceso de implementación de E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="412d0-112">The following table provides an overview of the E9-1-1 deployment process.</span></span> <span data-ttu-id="412d0-113">Para obtener más información sobre los pasos de implementación, vea [Configure enhanced 9-1-1 in Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) en la documentación sobre implementación.</span><span class="sxs-lookup"><span data-stu-id="412d0-113">For details about deployment steps, see [Configure Enhanced 9-1-1 in Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md) in the Deployment documentation.</span></span>
 
 
 <table>
@@ -67,62 +69,62 @@ ms.locfileid: "42205806"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0d7ce-114">Fase</span><span class="sxs-lookup"><span data-stu-id="0d7ce-114">Phase</span></span></th>
-<th><span data-ttu-id="0d7ce-115">Pasos</span><span class="sxs-lookup"><span data-stu-id="0d7ce-115">Steps</span></span></th>
-<th><span data-ttu-id="0d7ce-116">Roles</span><span class="sxs-lookup"><span data-stu-id="0d7ce-116">Roles</span></span></th>
-<th><span data-ttu-id="0d7ce-117">Documentación de implementación</span><span class="sxs-lookup"><span data-stu-id="0d7ce-117">Deployment documentation</span></span></th>
+<th><span data-ttu-id="412d0-114">Fase</span><span class="sxs-lookup"><span data-stu-id="412d0-114">Phase</span></span></th>
+<th><span data-ttu-id="412d0-115">Pasos</span><span class="sxs-lookup"><span data-stu-id="412d0-115">Steps</span></span></th>
+<th><span data-ttu-id="412d0-116">Roles</span><span class="sxs-lookup"><span data-stu-id="412d0-116">Roles</span></span></th>
+<th><span data-ttu-id="412d0-117">Documentación de implementación</span><span class="sxs-lookup"><span data-stu-id="412d0-117">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0d7ce-118">Realizar configuraciones de tronco, rutas y usos de voz</span><span class="sxs-lookup"><span data-stu-id="0d7ce-118">Configure voice usages, routes, and trunk configurations</span></span></p></td>
+<td><p><span data-ttu-id="412d0-118">Realizar configuraciones de tronco, rutas y usos de voz</span><span class="sxs-lookup"><span data-stu-id="412d0-118">Configure voice usages, routes, and trunk configurations</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="0d7ce-p103">Cree un registro de uso de RTC. Se trata del mismo nombre que se ha usado para el parámetro <strong>Uso de RTC</strong> en la directiva de ubicación.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-p103">Create a new PSTN usage record. This is the same name that is used for the <strong>PSTN Usage</strong> setting in the location policy.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-121">Cree o asigne una ruta de voz con el registro de uso de RTC creado en el paso anterior y apunte el atributo de puerta de enlace al tronco SIP E9-1-1 o la puerta de enlace ELIN.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-121">Create or assign a voice route to the PSTN usage record created in the previous step and then point the gateway attribute to the E9-1-1 SIP trunk or ELIN gateway.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-122">Para un proveedor de servicios E9-1-1 de tronco SIP, defina el tronco que va a gestionar las llamadas E9-1-1 sobre el SIP para transferir datos PIDF-LO con el cmdlet <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong>.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-122">For a SIP trunk E9-1-1 service provider, set the trunk that will be handling E9-1-1 calls over the SIP to pass PIDF-LO data by using the <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong> cmdlet.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-p104">Opcionalmente, para un proveedor de servicios E9-1-1 de tronco SIP, cree o asigne una ruta RTC local para llamadas no gestionadas por el tronco SIP del proveedor de servicios E9-1-1. Esta ruta se usará si la conexión al proveedor de servicios E9-1-1 no está disponible. Si lo admite el proveedor de servicios E9-1-1, asigne una regla de configuración de tronco a la puerta de enlace que convierte la cadena de marcado 911 en el número de llamada directa a la extensión (DID) del Centro de respuesta a llamadas de emergencia nacional y/o regional.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-p104">Optionally, for a SIP trunk E9-1-1 service provider, create or assign a local PSTN route for calls that are not handled by the E9-1-1 service provider’s SIP trunk. This route will be used if the connection to the E9-1-1 service provider is not available. If supported by your E9-1-1 service provider, assign a trunk configuration rule to the gateway that translates the 911 dial string into the direct inward dialing (DID) number of the national/regional Emergency Call Response Center (ECRC).</span></span></p></li>
+<li><p><span data-ttu-id="412d0-p103">Cree un registro de uso de RTC. Se trata del mismo nombre que se ha usado para el parámetro <strong>Uso de RTC</strong> en la directiva de ubicación.</span><span class="sxs-lookup"><span data-stu-id="412d0-p103">Create a new PSTN usage record. This is the same name that is used for the <strong>PSTN Usage</strong> setting in the location policy.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-121">Cree o asigne una ruta de voz con el registro de uso de RTC creado en el paso anterior y apunte el atributo de puerta de enlace al tronco SIP E9-1-1 o la puerta de enlace ELIN.</span><span class="sxs-lookup"><span data-stu-id="412d0-121">Create or assign a voice route to the PSTN usage record created in the previous step and then point the gateway attribute to the E9-1-1 SIP trunk or ELIN gateway.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-122">Para un proveedor de servicios E9-1-1 de tronco SIP, defina el tronco que va a gestionar las llamadas E9-1-1 sobre el SIP para transferir datos PIDF-LO con el cmdlet <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong>.</span><span class="sxs-lookup"><span data-stu-id="412d0-122">For a SIP trunk E9-1-1 service provider, set the trunk that will be handling E9-1-1 calls over the SIP to pass PIDF-LO data by using the <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong> cmdlet.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-p104">Opcionalmente, para un proveedor de servicios E9-1-1 de tronco SIP, cree o asigne una ruta RTC local para llamadas no gestionadas por el tronco SIP del proveedor de servicios E9-1-1. Esta ruta se usará si la conexión al proveedor de servicios E9-1-1 no está disponible. Si lo admite el proveedor de servicios E9-1-1, asigne una regla de configuración de tronco a la puerta de enlace que convierte la cadena de marcado 911 en el número de llamada directa a la extensión (DID) del Centro de respuesta a llamadas de emergencia nacional y/o regional.</span><span class="sxs-lookup"><span data-stu-id="412d0-p104">Optionally, for a SIP trunk E9-1-1 service provider, create or assign a local PSTN route for calls that are not handled by the E9-1-1 service provider’s SIP trunk. This route will be used if the connection to the E9-1-1 service provider is not available. If supported by your E9-1-1 service provider, assign a trunk configuration rule to the gateway that translates the 911 dial string into the direct inward dialing (DID) number of the national/regional Emergency Call Response Center (ECRC).</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="0d7ce-126">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="0d7ce-126">CSVoiceAdmin</span></span></p></td>
-<td><p><span data-ttu-id="0d7ce-127"><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Configurar una ruta de voz E9-1-1 en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="0d7ce-127"><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Configure an E9-1-1 voice route in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="412d0-126">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="412d0-126">CSVoiceAdmin</span></span></p></td>
+<td><p><span data-ttu-id="412d0-127"><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Configurar una ruta de voz E9-1-1 en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="412d0-127"><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">Configure an E9-1-1 voice route in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d7ce-128">Crear directivas de ubicación y asignarlas a usuarios y subredes</span><span class="sxs-lookup"><span data-stu-id="0d7ce-128">Create location policies and assign them to users and subnets</span></span></p></td>
+<td><p><span data-ttu-id="412d0-128">Crear directivas de ubicación y asignarlas a usuarios y subredes</span><span class="sxs-lookup"><span data-stu-id="412d0-128">Create location policies and assign them to users and subnets</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="0d7ce-129">Revise la directiva de ubicación global.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-129">Review the global location policy.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-130">Cree una directiva de ubicación con un ámbito en el nivel de usuario o si la organización tiene más de un sitio con diferentes usos de emergencia, cree una directiva de ubicación con un ámbito de nivel de red.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-130">Create a location policy with a user-level scope; or, if the organization has more than one site with different emergency usages, create a location policy with a network-level scope.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-131">Asigne la directiva de ubicación a sitios de red.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-131">Assign the location policy to network sites.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-132">Agregue las subredes apropiadas al sitio de red.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-132">Add the appropriate subnets to the network site.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-133">Asigne la directiva de ubicación a directivas de usuario (opcional).</span><span class="sxs-lookup"><span data-stu-id="0d7ce-133">(Optional) Assign the location policy to user policies.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-129">Revise la directiva de ubicación global.</span><span class="sxs-lookup"><span data-stu-id="412d0-129">Review the global location policy.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-130">Cree una directiva de ubicación con un ámbito en el nivel de usuario o si la organización tiene más de un sitio con diferentes usos de emergencia, cree una directiva de ubicación con un ámbito de nivel de red.</span><span class="sxs-lookup"><span data-stu-id="412d0-130">Create a location policy with a user-level scope; or, if the organization has more than one site with different emergency usages, create a location policy with a network-level scope.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-131">Asigne la directiva de ubicación a sitios de red.</span><span class="sxs-lookup"><span data-stu-id="412d0-131">Assign the location policy to network sites.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-132">Agregue las subredes apropiadas al sitio de red.</span><span class="sxs-lookup"><span data-stu-id="412d0-132">Add the appropriate subnets to the network site.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-133">Asigne la directiva de ubicación a directivas de usuario (opcional).</span><span class="sxs-lookup"><span data-stu-id="412d0-133">(Optional) Assign the location policy to user policies.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="0d7ce-134">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="0d7ce-134">CSVoiceAdmin</span></span></p>
-<p><span data-ttu-id="0d7ce-135">CSLocationAdmin (excepto para crear directivas de ubicación)</span><span class="sxs-lookup"><span data-stu-id="0d7ce-135">CSLocationAdmin (except for creating Location Policies)</span></span></p></td>
-<td><p><span data-ttu-id="0d7ce-136"><a href="lync-server-2013-create-location-policies.md">Crear directivas de ubicación en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="0d7ce-136"><a href="lync-server-2013-create-location-policies.md">Create location policies in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="0d7ce-137"><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Agregar una directiva de ubicación a un sitio de red en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="0d7ce-137"><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Add a location policy to a network site in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="0d7ce-138"><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Asociar subredes a sitios de red para E9-1-1 en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="0d7ce-138"><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Associate subnets with network sites for E9-1-1 in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="412d0-134">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="412d0-134">CSVoiceAdmin</span></span></p>
+<p><span data-ttu-id="412d0-135">CSLocationAdmin (excepto para crear directivas de ubicación)</span><span class="sxs-lookup"><span data-stu-id="412d0-135">CSLocationAdmin (except for creating Location Policies)</span></span></p></td>
+<td><p><span data-ttu-id="412d0-136"><a href="lync-server-2013-create-location-policies.md">Crear directivas de ubicación en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="412d0-136"><a href="lync-server-2013-create-location-policies.md">Create location policies in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="412d0-137"><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Agregar una directiva de ubicación a un sitio de red en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="412d0-137"><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">Add a location policy to a network site in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="412d0-138"><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Asociar subredes a sitios de red para E9-1-1 en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="412d0-138"><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">Associate subnets with network sites for E9-1-1 in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0d7ce-139">Configurar la base de datos de ubicaciones</span><span class="sxs-lookup"><span data-stu-id="0d7ce-139">Configure the location database</span></span></p></td>
+<td><p><span data-ttu-id="412d0-139">Configurar la base de datos de ubicaciones</span><span class="sxs-lookup"><span data-stu-id="412d0-139">Configure the location database</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="0d7ce-140">Rellene la base de datos con asignaciones de elementos de red a ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-140">Populate the database with a mapping of network elements to locations.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-141">Para las puertas de enlace ELIN, agregue Elin a &lt;la&gt; columna CompanyName.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-141">For ELIN gateways, add the ELINs to the &lt;CompanyName&gt; column.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-142">Configure la conexión con el proveedor de servicios de E9-1-1 para validar las direcciones.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-142">Configure the connection to the E9-1-1 service provider for validating addresses.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-143">Valide las direcciones con el proveedor de servicios E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-143">Validate the addresses with the E9-1-1 service provider.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-144">Publique la base de datos actualizada.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-144">Publish the updated database.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-145">Para las puertas de enlace ELIN, cargue los ELIN en la base de datos de identificación automática de ubicaciones (ALI) del proveedor de RTC.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-145">For ELIN gateways, upload the ELINs to your PSTN carrier's Automatic Location Identification (ALI) database.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-140">Rellene la base de datos con asignaciones de elementos de red a ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="412d0-140">Populate the database with a mapping of network elements to locations.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-141">Para las puertas de enlace ELIN, agregue Elin a &lt; la &gt; columna CompanyName.</span><span class="sxs-lookup"><span data-stu-id="412d0-141">For ELIN gateways, add the ELINs to the &lt;CompanyName&gt; column.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-142">Configure la conexión con el proveedor de servicios de E9-1-1 para validar las direcciones.</span><span class="sxs-lookup"><span data-stu-id="412d0-142">Configure the connection to the E9-1-1 service provider for validating addresses.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-143">Valide las direcciones con el proveedor de servicios E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="412d0-143">Validate the addresses with the E9-1-1 service provider.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-144">Publique la base de datos actualizada.</span><span class="sxs-lookup"><span data-stu-id="412d0-144">Publish the updated database.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-145">Para las puertas de enlace ELIN, cargue los ELIN en la base de datos de identificación automática de ubicaciones (ALI) del proveedor de RTC.</span><span class="sxs-lookup"><span data-stu-id="412d0-145">For ELIN gateways, upload the ELINs to your PSTN carrier's Automatic Location Identification (ALI) database.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="0d7ce-146">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="0d7ce-146">CSVoiceAdmin</span></span></p>
-<p><span data-ttu-id="0d7ce-147">CSLocationAdmin</span><span class="sxs-lookup"><span data-stu-id="0d7ce-147">CSLocationAdmin</span></span></p></td>
-<td><p><span data-ttu-id="0d7ce-148"><a href="lync-server-2013-configure-the-location-database.md">Configurar la base de datos de ubicaciones en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="0d7ce-148"><a href="lync-server-2013-configure-the-location-database.md">Configure the location database in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="412d0-146">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="412d0-146">CSVoiceAdmin</span></span></p>
+<p><span data-ttu-id="412d0-147">CSLocationAdmin</span><span class="sxs-lookup"><span data-stu-id="412d0-147">CSLocationAdmin</span></span></p></td>
+<td><p><span data-ttu-id="412d0-148"><a href="lync-server-2013-configure-the-location-database.md">Configurar la base de datos de ubicaciones en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="412d0-148"><a href="lync-server-2013-configure-the-location-database.md">Configure the location database in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d7ce-149">Configurar características avanzadas (opcional)</span><span class="sxs-lookup"><span data-stu-id="0d7ce-149">Configure Advanced Features (optional)</span></span></p></td>
+<td><p><span data-ttu-id="412d0-149">Configurar características avanzadas (opcional)</span><span class="sxs-lookup"><span data-stu-id="412d0-149">Configure Advanced Features (optional)</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="0d7ce-150">Configure la dirección URL de la aplicación SNMP.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-150">Configure the URL for the SNMP application.</span></span></p></li>
-<li><p><span data-ttu-id="0d7ce-151">Configure la dirección URL para la ubicación del servicio de información de ubicación secundaria.</span><span class="sxs-lookup"><span data-stu-id="0d7ce-151">Configure the URL for the location of the Secondary Location Information service.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-150">Configure la dirección URL de la aplicación SNMP.</span><span class="sxs-lookup"><span data-stu-id="412d0-150">Configure the URL for the SNMP application.</span></span></p></li>
+<li><p><span data-ttu-id="412d0-151">Configure la dirección URL para la ubicación del servicio de información de ubicación secundaria.</span><span class="sxs-lookup"><span data-stu-id="412d0-151">Configure the URL for the location of the Secondary Location Information service.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="0d7ce-152">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="0d7ce-152">CSVoiceAdmin</span></span></p></td>
-<td><p><span data-ttu-id="0d7ce-153"><a href="lync-server-2013-configure-an-snmp-application.md">Configurar una aplicación SNMP en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="0d7ce-153"><a href="lync-server-2013-configure-an-snmp-application.md">Configure an SNMP application in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="0d7ce-154"><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configurar un servicio de información de ubicación secundaria en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="0d7ce-154"><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configure a secondary Location Information service in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="412d0-152">CSVoiceAdmin</span><span class="sxs-lookup"><span data-stu-id="412d0-152">CSVoiceAdmin</span></span></p></td>
+<td><p><span data-ttu-id="412d0-153"><a href="lync-server-2013-configure-an-snmp-application.md">Configurar una aplicación SNMP en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="412d0-153"><a href="lync-server-2013-configure-an-snmp-application.md">Configure an SNMP application in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="412d0-154"><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configurar un servicio de información de ubicación secundaria en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="412d0-154"><a href="lync-server-2013-configure-a-secondary-location-information-service.md">Configure a secondary Location Information service in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

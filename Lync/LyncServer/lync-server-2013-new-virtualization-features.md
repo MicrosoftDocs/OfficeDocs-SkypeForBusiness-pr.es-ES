@@ -12,20 +12,22 @@ ms:contentKeyID: 49733861
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e0b7b6d0d4af8d5aa922262004cf14d33757f42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c54b7661183064df13b340ad47ed6d3af801200
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216666"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522317"
 ---
+# <a name="new-virtualization-features-in-lync-server-2013"></a><span data-ttu-id="c79f8-102">Nuevas características de virtualización en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79f8-102">New virtualization features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-virtualization-features-in-lync-server-2013"></a><span data-ttu-id="36782-102">Nuevas características de virtualización en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36782-102">New virtualization features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42216666"
 
 <span> </span>
 
-<span data-ttu-id="36782-103">_**Última modificación del tema:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="36782-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+<span data-ttu-id="c79f8-103">_**Última modificación del tema:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="c79f8-103">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-<span data-ttu-id="36782-104">Lync Server 2013 admite la virtualización en Windows Server 2012, Windows Server 2012 R2 y Windows Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="36782-104">Lync Server 2013 supports virtualization on both Windows Server 2012, Windows Server 2012 R2, and Windows Server 2008 R2.</span></span> <span data-ttu-id="36782-105">La compatibilidad con Windows Server 2012 y Windows Server 2012 R2 incluye compatibilidad con la única funcionalidad de virtualización de e/s de raíz (SR-IOV).</span><span class="sxs-lookup"><span data-stu-id="36782-105">Support on Windows Server 2012 and Windows Server 2012 R2 includes support for the Single Root I/O Virtualization (SR-IOV) capabilities.</span></span> <span data-ttu-id="36782-106">Con la SR-IOV, la función virtual de un adaptador de red físico se asigna directamente a una máquina virtual.</span><span class="sxs-lookup"><span data-stu-id="36782-106">With SR-IOV, the virtual function of a physical network adapter is assigned directly to a virtual machine.</span></span> <span data-ttu-id="36782-107">De este modo se aumenta el rendimiento de la red y se reduce la latencia de la red y la sobrecarga de la CPU host necesaria para el procesamiento del tráfico de red.</span><span class="sxs-lookup"><span data-stu-id="36782-107">This increases network throughput and reduces network latency while also reducing the host CPU overhead that is required for processing network traffic.</span></span> <span data-ttu-id="36782-108">Para poder utilizar la SR-IOV, debe usar un servidor host con una BIOS compatible con SR-IOV y adaptadores de red compatibles con SR-IOV.</span><span class="sxs-lookup"><span data-stu-id="36782-108">To take advantage of SR-IOV, you must use a host server which has BIOS which supports SR-IOV, as well as use network adapters that support SR-IOV.</span></span>
+<span data-ttu-id="c79f8-104">Lync Server 2013 admite la virtualización en Windows Server 2012, Windows Server 2012 R2 y Windows Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="c79f8-104">Lync Server 2013 supports virtualization on both Windows Server 2012, Windows Server 2012 R2, and Windows Server 2008 R2.</span></span> <span data-ttu-id="c79f8-105">La compatibilidad con Windows Server 2012 y Windows Server 2012 R2 incluye compatibilidad con la única funcionalidad de virtualización de e/s de raíz (SR-IOV).</span><span class="sxs-lookup"><span data-stu-id="c79f8-105">Support on Windows Server 2012 and Windows Server 2012 R2 includes support for the Single Root I/O Virtualization (SR-IOV) capabilities.</span></span> <span data-ttu-id="c79f8-106">Con la SR-IOV, la función virtual de un adaptador de red físico se asigna directamente a una máquina virtual.</span><span class="sxs-lookup"><span data-stu-id="c79f8-106">With SR-IOV, the virtual function of a physical network adapter is assigned directly to a virtual machine.</span></span> <span data-ttu-id="c79f8-107">De este modo se aumenta el rendimiento de la red y se reduce la latencia de la red y la sobrecarga de la CPU host necesaria para el procesamiento del tráfico de red.</span><span class="sxs-lookup"><span data-stu-id="c79f8-107">This increases network throughput and reduces network latency while also reducing the host CPU overhead that is required for processing network traffic.</span></span> <span data-ttu-id="c79f8-108">Para poder utilizar la SR-IOV, debe usar un servidor host con una BIOS compatible con SR-IOV y adaptadores de red compatibles con SR-IOV.</span><span class="sxs-lookup"><span data-stu-id="c79f8-108">To take advantage of SR-IOV, you must use a host server which has BIOS which supports SR-IOV, as well as use network adapters that support SR-IOV.</span></span>
 
 </div>
 
