@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informes de QoE'
+description: 'Lync Server 2013: informes de QoE.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69caa96c6f0e49d472f13da11b34f7d199322184
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 55965d246b7f0ddd71eaeeec99d218eaf8819c2e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512187"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571406"
 ---
 # <a name="qoe-reports-in-lync-server-2013"></a>Informes de QoE en Lync Server 2013
 

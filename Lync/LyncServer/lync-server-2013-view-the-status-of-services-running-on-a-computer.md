@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ver el estado de los servicios que se ejecutan en un equipo'
+description: 'Lync Server 2013: ver el estado de los servicios que se ejecutan en un equipo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95c633079e45eba40bd59c7666c752c2ef68b498
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 22aeb13f2beb5d3b0ee5eec8109eceeb14e40213
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518397"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571356"
 ---
 # <a name="view-the-status-of-services-running-on-a-computer-in-lync-server-2013"></a>Ver el estado de los servicios que se ejecutan en un equipo en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Resumen de DNS-servidor perimetral consolidado único con direcciones IP privadas con NAT
+description: Resumen de DNS-servidor perimetral consolidado único con direcciones IP privadas con NAT.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185025
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f97c44b0d199ec257b6e8b8e1d5f4c6d7fa307b4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 80402e04c1993fddda4d33ece22374e73175b5f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501247"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571676"
 ---
 # <a name="dns-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Resumen de DNS-servidor perimetral consolidado único con direcciones IP privadas que usan NAT en Lync Server 2013
 

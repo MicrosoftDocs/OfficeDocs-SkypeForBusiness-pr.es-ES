@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de Lync Server por categoría'
+description: 'Lync Server 2013: cmdlets de Lync Server por categoría.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 107a6a2094537c6937ae401f68807b494634f75f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: df562bd11d54c9ecda4fe3d6172ed1d8bd2627d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525057"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571876"
 ---
 # <a name="lync-server-2013-cmdlets-by-category"></a>Cmdlets de Lync Server 2013 por categoría
 

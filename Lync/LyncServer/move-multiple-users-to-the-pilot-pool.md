@@ -1,5 +1,6 @@
 ---
 title: Mover varios usuarios al grupo piloto
+description: Mover varios usuarios al grupo piloto.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be7fd473b858c6a35b23f8aaa0c525875218d3f7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 121509fbad863b0ce2d6cc9c7e9afaef360e2eb6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500237"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571336"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios al grupo piloto
 

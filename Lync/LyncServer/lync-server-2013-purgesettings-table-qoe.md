@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla PurgeSettings (QoE)'
+description: 'Lync Server 2013: tabla PurgeSettings (QoE).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac236e08f79adbe1ec7cbe92ea04405de46d0055
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d515d799a7cc442dc6d34f2ece1a968de51cdad6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571446"
 ---
 # <a name="purgesettings-table-qoe-in-lync-server-2013"></a>Tabla PurgeSettings (QoE) en Lync Server 2013
 

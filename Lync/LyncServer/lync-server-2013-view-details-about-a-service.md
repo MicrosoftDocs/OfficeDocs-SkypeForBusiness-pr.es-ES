@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ver detalles acerca de un servicio'
+description: 'Lync Server 2013: ver detalles sobre un servicio.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b64f728cb1fa128f0c3c2fbfe5b34ffab67283d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 09cc5a86748f18a9a032fbf7e90682f46b324902
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506467"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572446"
 ---
 # <a name="view-details-about-a-service-in-lync-server-2013"></a>Ver los detalles de un servicio en Lync Server 2013
 

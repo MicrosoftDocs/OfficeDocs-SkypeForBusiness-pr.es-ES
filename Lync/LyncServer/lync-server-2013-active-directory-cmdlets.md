@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de Active Directory'
+description: 'Lync Server 2013: cmdlets de Active Directory.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9102adc17b5177264cc3e4daa1329cced5d9fe4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8c5e87cda24d5517b9c4501523fd06804ea20020
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529727"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571086"
 ---
 # <a name="active-directory-cmdlets-in-lync-server-2013"></a>Cmdlets de Active Directory en Lync Server 2013
 

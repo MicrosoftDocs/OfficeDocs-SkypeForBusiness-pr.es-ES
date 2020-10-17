@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Resumen de certificado-servidor perimetral consolidado de un solo servidor con direcciones IP privadas con NAT'
+description: 'Lync Server 2013: Resumen de certificado-servidor perimetral consolidado de un solo servidor con direcciones IP privadas con NAT.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e41a2734feed26a929ed35fef3ec2c1dd320d9ac
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 53c8fa23bd7d5a2faf91da956d363474095a09d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507907"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572206"
 ---
 # <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Resumen de certificado-perímetro consolidado de un solo consolidado con direcciones IP privadas mediante NAT en Lync Server 2013
 

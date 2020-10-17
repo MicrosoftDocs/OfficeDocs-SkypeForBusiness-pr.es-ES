@@ -1,5 +1,6 @@
 ---
 title: Resumen de certificado-grupo de Director escalado, equilibrador de carga de hardware
+description: Resumen de certificado-grupo de Director escalado, equilibrador de carga de hardware.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c08fb5710e25bf4504d7cb2d10020138221b22c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 08abc37940cd41a29d6620cfc0a2a801de4a8e38
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507927"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572236"
 ---
 # <a name="certificate-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Resumen de certificado-grupo de Director escalado, equilibrador de carga de hardware en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: bloquear o desbloquear un PIN de usuario'
+description: 'Lync Server 2013: bloquear o desbloquear un PIN de usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8e009e2e93b8de06e1c42aae376987ce96ff5e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2cf04be333e9d17dd0a06e6eb98d314c2960c3b7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513767"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570556"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-lync-server-2013"></a>Bloquear o desbloquear un PIN de usuario en Lync Server 2013
 

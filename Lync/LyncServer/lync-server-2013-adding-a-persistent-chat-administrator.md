@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: adición de un administrador de chat persistente'
+description: 'Lync Server 2013: adición de un administrador de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2caffd50fb904ebb93a789278ece9f13665ca4b4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d98ef6420ce976cd983b287a0f7c63b514d083d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521437"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572406"
 ---
 # <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>Adición de un administrador de chat persistente en Lync Server 2013
 

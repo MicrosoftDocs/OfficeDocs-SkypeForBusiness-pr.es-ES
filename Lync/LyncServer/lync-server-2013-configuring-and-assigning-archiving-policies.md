@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración y asignación de directivas de archivado'
+description: 'Lync Server 2013: configuración y asignación de directivas de archivado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185121
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af6a253de4d35b3505b5ffa8be42fae297221641
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ebe08715433e04e56758c7fb09b331065fbd6f44
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517577"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570916"
 ---
 # <a name="configuring-and-assigning-archiving-policies-in-lync-server-2013"></a>Configuración y asignación de directivas de archivado en Lync Server 2013
 

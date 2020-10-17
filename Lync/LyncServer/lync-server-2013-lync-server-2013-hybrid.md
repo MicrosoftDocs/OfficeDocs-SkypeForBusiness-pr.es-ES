@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 2013 híbrido'
+description: 'Lync Server 2013: Lync Server 2013 híbrido.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abbb70ed4ba69b0a058ea84d2cf141a4cb634c18
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 119c3ca9c1e79df7fc4fb0f7c0b1bdb61bb74a2d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525147"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571980"
 ---
 # <a name="lync-server-2013-hybrid"></a>Lync Server 2013 híbrido
 

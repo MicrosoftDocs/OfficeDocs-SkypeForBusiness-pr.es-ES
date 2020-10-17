@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: publicar la topología'
+description: 'Lync Server 2013: publique la topología.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aed74df38f1d09d4aff46531bb6f61bdb6f03c8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f4d27d2d3644eb1f174e2f3fab47197f2c122a97
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512267"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571756"
 ---
 # <a name="publish-your-topology-in-lync-server-2013"></a>Publicar la topología en Lync Server 2013
 

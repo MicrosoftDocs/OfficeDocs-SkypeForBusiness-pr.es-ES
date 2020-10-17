@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Resumen de certificado-Federación de protocolo extensible de mensajería y presencia (XMPP)'
+description: 'Lync Server 2013: Resumen de certificado-Federación de protocolo extensible de mensajería y presencia (XMPP).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2dd5f09f9abbfb1e01935552238d966b5060d9a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6e2bb593d909c2eec6032dc89c07cc5f5b1a72db
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520657"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572346"
 ---
 # <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Resumen de certificado-Federación del protocolo extensible de mensajería y presencia (XMPP) en Lync Server 2013
 

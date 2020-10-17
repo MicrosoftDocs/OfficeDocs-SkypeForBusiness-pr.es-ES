@@ -1,5 +1,6 @@
 ---
 title: Acceso al sitio de aprovisionamiento de conectividad de mensajería instantánea pública de Lync Server
+description: Acceso al sitio de aprovisionamiento de conectividad de mensajería instantánea pública de Lync Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 57793364
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e57bac3460c8feb5b3417f433aa228825d824a1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e12916b12de1ef3a3f990c6bee54c312ba6c1992
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571136"
 ---
 # <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a>Acceso al sitio de aprovisionamiento de conectividad de mensajería instantánea pública de Lync Server desde Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de las opciones de archivado en el nivel global'
+description: 'Lync Server 2013: configurar las opciones de archivado en el nivel global.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185303
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 939928b99c4372f3dafe9536365481fb737478a6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44b8939ec95d00afa2aa7632f4555bc6fef89834
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571746"
 ---
 # <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>Configurar las opciones de archivado en el nivel global en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla MediaLine'
+description: 'Lync Server 2013: tabla MediaLine.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03f967b50c2fa9eae4f2599ce96dc9c592a57006
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2acea8e14ba0608d9ebf72a48f888bfc4501fae3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516147"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572116"
 ---
 # <a name="medialine-table-in-lync-server-2013"></a>Tabla MediaLine en Lync Server 2013
 

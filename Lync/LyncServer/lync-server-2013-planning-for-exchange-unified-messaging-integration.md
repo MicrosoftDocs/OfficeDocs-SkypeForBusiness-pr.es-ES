@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de la integración de la mensajería unificada de Exchange'
+description: 'Lync Server 2013: Planeación de la integración de la mensajería unificada de Exchange.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 298e0f2667707c0ff73819b6fdd38ab105474d91
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 31296444d21a86a7837da3e29fc2152f3ca96ccc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522247"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571886"
 ---
 # <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Planeación de la integración de la mensajería unificada de Exchange en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: información general sobre E9-1-1'
+description: 'Lync Server 2013: información general sobre E9-1-1.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce1c97914abf8e5db393cd932c0a453885e86a5c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2fa13d8bfd1c273e8cbbb1d70f1fb3d733ac6167
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530627"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571906"
 ---
 # <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Información general sobre E9-1-1 en Lync Server 2013
 

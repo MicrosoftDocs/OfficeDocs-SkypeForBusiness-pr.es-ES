@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar el enrutamiento de Location-Based'
+description: 'Lync Server 2013: configurar el enrutamiento de Location-Based.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b703aa084204a2c103e02ebff5f913a6647ae94
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 080c2a3a82a8714fc35ce882b0c6cb1630552f27
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517424"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570886"
 ---
 # <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configuración del enrutamiento de Location-Based en Lync Server 2013
 

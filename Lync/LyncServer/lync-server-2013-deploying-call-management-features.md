@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementar características de administración de llamadas'
+description: 'Lync Server 2013: implementación de características de administración de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 278bbc82d0952cbc0eda81eb2a85febd16446a8f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: aa89b75dbcae9de1069daf99986076b66e0411cc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531277"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570686"
 ---
 # <a name="deploying-call-management-features-in-lync-server-2013"></a>Implementación de características de administración de llamadas en Lync Server 2013
 

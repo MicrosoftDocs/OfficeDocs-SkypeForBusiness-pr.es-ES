@@ -1,5 +1,6 @@
 ---
 title: 'Fase 4: combinar topologías'
+description: 'Fase 4: combinar topologías.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b66ce3c7fa5560bc241ddfa6b0a2f56832aafec
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 421cb83a57979ae677d4db76d2c8c3535f8e0dcb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523457"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571156"
 ---
 # <a name="phase-4-merge-topologies"></a>Fase 4: combinar topologías
 

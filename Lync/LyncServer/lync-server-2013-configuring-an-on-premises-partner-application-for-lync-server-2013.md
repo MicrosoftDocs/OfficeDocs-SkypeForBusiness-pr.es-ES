@@ -1,5 +1,6 @@
 ---
 title: Configuración de una aplicación de socio local para Lync Server 2013
+description: Configurar una aplicación de socio local para Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f0401634c6cb7afc451652ffbaf55cdc01a7ca89
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517587"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570926"
 ---
 # <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Configuración de una aplicación de socio local para Microsoft Lync Server 2013
 

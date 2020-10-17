@@ -1,5 +1,6 @@
 ---
 title: 'Fase 2: Preparación de la migración'
+description: 'Fase 2: preparar la migración.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8608330c0de6d01d509234401d6a722e17c14838
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ab5eed13c342c1e325f8233e5ad6bf0a42ab582f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533747"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571186"
 ---
 # <a name="phase-2-prepare-for-migration"></a>Fase 2: Preparación de la migración
 

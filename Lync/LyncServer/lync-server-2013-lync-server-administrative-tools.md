@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: herramientas administrativas de Lync Server'
+description: 'Lync Server 2013: herramientas administrativas de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23ac976f2c05268b5cf864511b19db1fd251edbc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b654d48c6ad52175bfdfe745518007d76d626a37
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525117"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571966"
 ---
 # <a name="lync-server-2013-administrative-tools"></a>Herramientas administrativas de Lync Server 2013
 

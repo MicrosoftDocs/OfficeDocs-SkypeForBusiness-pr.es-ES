@@ -1,5 +1,6 @@
 ---
 title: Mover los usuarios restantes a Lync Server 2013
+description: Mueva los usuarios restantes a Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 966182705fd3f18bfa10d1d6042e1c3c94204e9e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 291b58d6644f9ac8f10c63f6585ba865602580df
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500217"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571316"
 ---
 # <a name="move-remaining-users-to-lync-server-2013"></a>Mover los usuarios restantes a Lync Server 2013
 

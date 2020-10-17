@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla ContentTypes'
+description: 'Lync Server 2013: tabla ContentTypes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5aa26746e8c970fe2685aea63ef3ff43a672846f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 446623ae0ef15d70cd6d85019dfe8eb999f3b2fe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571686"
 ---
 # <a name="contenttypes-table-in-lync-server-2013"></a>Tabla ContentTypes en Lync Server 2013
 

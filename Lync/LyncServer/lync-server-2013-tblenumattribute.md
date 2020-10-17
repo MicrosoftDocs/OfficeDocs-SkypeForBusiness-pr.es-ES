@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblEnumAttribute'
+description: 'Lync Server 2013: tblEnumAttribute.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3b015d1148c3c820c27cdbe48e191bd09d2f55e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ca979a68e758ad47b691ac704f24c68c1841938a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509357"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571396"
 ---
 # <a name="tblenumattribute-in-lync-server-2013"></a>tblEnumAttribute en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de control de admisión de llamadas'
+description: 'Lync Server 2013: informe de control de admisión de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1c1ff2b667c0529dfb7a90291dba7ad5ab154a3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8764e51603e7097095894bc1230c2a2bb1126b9c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572366"
 ---
 # <a name="call-admission-control-report-in-lync-server-2013"></a>Informe de control de admisión de llamadas en Lync Server 2013
 

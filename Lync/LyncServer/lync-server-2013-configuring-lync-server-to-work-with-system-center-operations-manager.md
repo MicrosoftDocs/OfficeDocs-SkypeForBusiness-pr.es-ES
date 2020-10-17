@@ -1,5 +1,6 @@
 ---
 title: Configuración de Lync Server para trabajar con System Center Operations Manager
+description: Configurar Lync Server para que funcione con System Center Operations Manager.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 150b240fe0c2be769e407cacecd8440bd4596ae5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f58126c9e56d48548ba5ce6d74059809c55fecf5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506237"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570776"
 ---
 # <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Configuración de Lync Server 2013 para trabajar con System Center Operations Manager
 

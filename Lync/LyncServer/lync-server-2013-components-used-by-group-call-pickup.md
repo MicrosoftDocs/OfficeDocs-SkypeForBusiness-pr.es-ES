@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: componentes usados por la recogida de llamadas de grupo'
+description: 'Lync Server 2013: componentes usados por la atención de llamadas grupales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 062dc114534abb7d2a011c31b9747c2d6a0a45bb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 517f75dcbac8bfed0e749c061a9696b7667e10ed
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571836"
 ---
 # <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>Componentes usados por la recogida de llamadas grupales en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Fase 1: planear la migración desde Lync Server 2010'
+description: 'Fase 1: planear la migración desde Lync Server 2010.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fd011e39a04b048e528289daa7dc0babb5e7042
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c63d435966ab7b3cedfdac8d604333a2a6b3647b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533807"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571276"
 ---
 # <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>Fase 1: planear la migración desde Lync Server 2010
 
