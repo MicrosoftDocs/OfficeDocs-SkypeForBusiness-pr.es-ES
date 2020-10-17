@@ -12,20 +12,22 @@ ms:contentKeyID: 63969617
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3857ffa37ac3b50be6dc35ed281616aafff87c48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d6cad561761b7387cb4c268229f76b52f4bd24b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184703"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500637"
 ---
+# <a name="monitoring-operating-system-in-lync-server-2013"></a>Supervisar el sistema operativo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-operating-system-in-lync-server-2013"></a>Supervisar el sistema operativo en Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Debe supervisar el rendimiento de todos los servidores y componentes en el 2013 
 
 La forma más transparente de supervisar un sistema operativo es mediante el módulo de administración del sistema operativo de Windows Server. Proporciona los conceptos básicos de supervisión fundamentales, como rendimiento, estado y disponibilidad para los equipos que ejecutan Windows Server 2012, Windows Server 2012 R2 y Windows Server 2008 R2.
 
-Al detectar, alertar y responder automáticamente a eventos importantes y indicadores de rendimiento, estos módulos de administración reducen los tiempos de resolución de problemas y aumentan la disponibilidad y el rendimiento generales de los sistemas que ejecutan Windows Server. sistemas operativos.
+Al detectar, alertar y responder automáticamente a eventos importantes y indicadores de rendimiento, estos módulos de administración reducen los tiempos de resolución de problemas y aumentan la disponibilidad y el rendimiento generales de los sistemas que ejecutan los sistemas operativos de Windows Server.
 
 Aparte de los paquetes de administración de Windows Server relevantes para System Center Operations Manager, se pueden usar las siguientes herramientas y recursos del sistema para supervisar el estado del sistema operativo (en función de la versión del sistema operativo).
 
@@ -77,7 +79,7 @@ También incluye el monitor de confiabilidad, un complemento de MMC que realiza 
 
 ## <a name="windows-reliability-and-performance-monitor"></a>Monitor de confiabilidad y rendimiento de Windows
 
-Mientras que el monitor de confiabilidad y rendimiento de Windows combina funcionalidades de algunas herramientas independientes anteriores, como registros y alertas de rendimiento, y el monitor del sistema y el asesor de rendimiento del servidor, también proporciona funcionalidad nueva a Windows Server 2008 y Windows Server 2008 R2, como el siguiente:
+Mientras que el monitor de confiabilidad y rendimiento de Windows combina funcionalidades de algunas herramientas independientes anteriores, como registros y alertas de rendimiento, y el monitor del sistema y el asesor de rendimiento del servidor, también ofrece una funcionalidad nueva a Windows Server 2008 y Windows Server 2008 R2, como las siguientes:
 
   - Conjuntos de recopiladores de datos
 
@@ -91,7 +93,7 @@ El **conjunto de recopiladores de datos** agrupa los recopiladores de datos en e
 
 La Página principal del monitor de confiabilidad y rendimiento de Windows es la nueva pantalla **vista de recursos** , que proporciona una introducción gráfica en tiempo real del uso de la CPU, el disco, la red y la memoria. Expandiendo cada uno de estos elementos supervisados, los administradores del sistema pueden identificar qué recursos usan qué recursos. En versiones anteriores de Windows, estos datos en tiempo real y específicos del proceso solo estaban disponibles en un formulario limitado en el administrador de tareas.
 
-El **monitor de confiabilidad** calcula un índice de estabilidad del sistema que refleja si los problemas inesperados han reducido la confiabilidad del sistema. Un gráfico del índice de estabilidad a lo largo del tiempo identifica rápidamente las fechas en las que comenzaron a producirse los problemas. El informe de estabilidad del sistema adjunto proporciona detalles para ayudar a solucionar la causa de la menor confiabilidad. Mediante la visualización de los cambios en el sistema (instalación o eliminación de aplicaciones, actualizaciones del sistema operativo o adición o modificación de controladores) en paralelo con los errores (errores de aplicaciones, bloqueos del sistema operativo o errores de hardware), una estrategia para el direccionamiento de los problemas se puede desarrollar rápidamente.
+El **monitor de confiabilidad** calcula un índice de estabilidad del sistema que refleja si los problemas inesperados han reducido la confiabilidad del sistema. Un gráfico del índice de estabilidad a lo largo del tiempo identifica rápidamente las fechas en las que comenzaron a producirse los problemas. El informe de estabilidad del sistema adjunto proporciona detalles para ayudar a solucionar la causa de la menor confiabilidad. Mediante la visualización de los cambios en el sistema (instalación o eliminación de aplicaciones, actualizaciones del sistema operativo, o adición o modificación de controladores) en paralelo con los errores (errores de aplicaciones, bloqueos del sistema operativo o errores de hardware), se puede desarrollar rápidamente una estrategia para solucionar los problemas.
 
 La adición de contadores a los archivos de registro y la programación de inicio, detención y duración se pueden realizar ahora a través de una **interfaz de asistente**. Además, si se guarda esta configuración como una plantilla, los administradores del sistema pueden recopilar el mismo registro en otros equipos sin repetir los procesos de programación y selección del recopilador de datos. Las características de registros y alertas de rendimiento se incorporaron en el monitor de confiabilidad y rendimiento de Windows para su uso con cualquier conjunto de recopiladores de datos.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6c2a11be8baabd74d8928fcb805ecf7367d23d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 058c12ed9f1b07df885e9e7b90f43780043cdf56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185203"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500697"
 ---
+# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a>Informes de diagnóstico de calidad de medios en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a>Informes de diagnóstico de calidad de medios en Lync Server 2013
+
 
 </div>
 
@@ -43,25 +45,25 @@ Los Informes de diagnósticos de calidad de medios proporcionan información ace
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [El informe de Resumen de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   proporciona datos de calidad general para diferentes tipos de punto de conexión, incluidas las llamadas de punto a punto de telefonía IP empresarial, llamadas de conferencia de telefonía IP empresarial y llamadas que dependen, al menos en parte, en la red telefónica conmutada (RTC).
+  - [Informe de Resumen de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-summary-report.md)     Proporciona datos de calidad general para diferentes tipos de punto de conexión, incluidas las llamadas de punto a punto de la telefonía IP empresarial, las llamadas de conferencia de telefonía IP empresarial y las llamadas que dependen, al menos en parte, de la red telefónica conmutada (RTC).
 
-  - [El informe de comparación de calidad de los medios en Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   proporciona una comparación de los valores de calidad de llamadas para diferentes tipos de llamadas de audio (por ejemplo, llamadas realizadas a través de una red inalámbrica frente a llamadas realizadas a través de una conexión cableada).
+  - [Informe de comparación de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)     Proporciona una comparación de los valores de calidad de las llamadas para diferentes tipos de llamadas de audio (por ejemplo, llamadas realizadas a través de una red inalámbrica frente a llamadas realizadas a través de una conexión con cable).
 
-  - [Server Performance Report in Lync Server 2013](lync-server-2013-server-performance-report.md)   enumera los servidores que han experimentado la mayoría de los problemas, según las mediciones de métricas de calidad clave como degradación, pérdida de paquetes y vibración.
+  - [Informe de rendimiento del servidor en Lync Server 2013](lync-server-2013-server-performance-report.md)     Enumera los servidores que han experimentado más problemas, según las mediciones de métricas de calidad clave como degradación, pérdida de paquetes y vibración.
 
-  - [El informe de ubicaciones en Lync Server 2013](lync-server-2013-location-report.md)   proporciona una lista de ubicaciones de red y un resumen de la calidad de los medios de las llamadas que se producen en cada ubicación. Para este informe, las ubicaciones se basan en subredes IP.
+  - [Informe de ubicaciones en Lync Server 2013](lync-server-2013-location-report.md)     Proporciona una lista de ubicaciones de red y un resumen de la calidad de los medios de las llamadas que se producen en cada ubicación. Para este informe, las ubicaciones se basan en subredes IP.
 
-  - [Informe de dispositivos en Lync Server 2013](lync-server-2013-device-report.md)   proporciona un resumen de los dispositivos que se usan para las llamadas de telefonía IP empresarial e incluye la media calidad de los medios de las llamadas por dispositivo.
+  - [Informe de dispositivos en Lync Server 2013](lync-server-2013-device-report.md)     Proporciona un resumen de los dispositivos que se usan para las llamadas de telefonía IP empresarial e incluye la media calidad de los medios de las llamadas por dispositivo.
 
-  - [Call list Report en Lync Server 2013](lync-server-2013-call-list-report.md)   proporciona información detallada sobre las llamadas telefónicas realizadas o recibidas dentro de la organización.
+  - [Informe de lista de llamadas en Lync Server 2013](lync-server-2013-call-list-report.md)     Proporciona información detallada sobre las llamadas telefónicas realizadas o recibidas dentro de la organización.
 
-  - [El informe de detalles de llamadas en Lync Server 2013](lync-server-2013-call-detail-report.md)   proporciona información detallada sobre las llamadas telefónicas realizadas en su organización o recibidas en ella.
+  - [Informe de detalles de llamadas en Lync Server 2013](lync-server-2013-call-detail-report.md)     Proporciona información detallada sobre las llamadas telefónicas que se han realizado desde la organización o en ella.
 
-  - [El informe de tendencias de calidad de medios del servidor en Lync Server 2013](lync-server-2013-server-media-quality-trend-report.md)   permite comparar de forma gráfica hasta 5 servidores en métricas de calidad de la experiencia, como volumen de llamadas, porcentaje de llamadas deficientes, pérdida de paquetes y vibración.
+  - [Informe de tendencias de calidad de medios de servidores en Lync Server 2013](lync-server-2013-server-media-quality-trend-report.md)     Permite comparar de forma gráfica hasta 5 servidores en métricas de calidad de la experiencia, como volumen de llamadas, porcentaje de llamadas deficientes, pérdida de paquetes y vibración.
 
-  - [El informe de distribución de métricas de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   proporciona un gráfico que muestra los valores de distribución de una métrica de calidad de la experiencia como la vibración o la pérdida de paquetes.
+  - [Informe de distribución de métricas de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)     Proporciona un gráfico que muestra los valores de distribución de una métrica de calidad de experiencia como la vibración o la pérdida de paquetes.
 
-  - [El informe de tendencias de ubicación en Lync Server 2013](lync-server-2013-location-trend-report.md)   proporciona información sobre la tendencia de calidad de llamadas para ubicaciones de red.
+  - [Informe de tendencias de ubicación en Lync Server 2013](lync-server-2013-location-trend-report.md)     Proporciona información sobre la tendencia de calidad de llamadas para ubicaciones de red.
 
 </div>
 

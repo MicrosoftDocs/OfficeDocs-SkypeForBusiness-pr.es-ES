@@ -12,20 +12,22 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 810a49a35f9b2597e8a84427e513217ff35efefb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 145a2849d8b87f0f19559583e94edb5e895f89db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194283"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500497"
 ---
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Probar la capacidad de mensajería instantánea entre dos usuarios en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Probar la capacidad de mensajería instantánea entre dos usuarios en Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Última modificación del tema:** 2014-06-05_
 <tr class="odd">
 <td><p>Permisos necesarios</p></td>
 <td><p>Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
-<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsIM. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsIM. Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**Última modificación del tema:** 2014-06-05_
 
 ## <a name="description"></a>Descripción
 
-El cmdlet test-CsIM comprueba que un par de usuarios de prueba puedan intercambiar mensajes instantáneos. Cuando se llama, el cmdlet test-CsIM se inicia intentando iniciar sesión en un par de usuarios de prueba en Lync Server. Si los dos inicios de sesión son correctos, el cmdlet inicia una sesión de mi entre los dos usuarios de prueba. (El usuario 1 invita al usuario 2 a una sesión de mi y el usuario 2 acepta la invitación). Después de comprobar que se pueden intercambiar mensajes entre los dos usuarios, test-CsIM finaliza la sesión de mensajería instantánea y registra a ambos usuarios fuera del sistema.
+El cmdlet Test-CsIM comprueba que un par de usuarios de prueba puedan intercambiar mensajes instantáneos. Cuando se llama, el cmdlet de Test-CsIM se inicia intentando iniciar sesión en un par de usuarios de prueba en Lync Server. Si los dos inicios de sesión son correctos, el cmdlet inicia una sesión de mi entre los dos usuarios de prueba. (El usuario 1 invita al usuario 2 a una sesión de mi y el usuario 2 acepta la invitación). Después de comprobar que se pueden intercambiar mensajes entre los dos usuarios, Test-CsIM finaliza la sesión de mensajería instantánea y registra a ambos usuarios fuera del sistema.
 
 Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) .
 
@@ -76,7 +78,7 @@ Para obtener más información, consulte la documentación de ayuda del cmdlet [
 
 ## <a name="running-the-test"></a>Ejecutar la prueba
 
-El cmdlet test-CsIM se puede ejecutar usando un par de cuentas de prueba preconfiguradas (consulte Setting up test accounts for Running Lync Server test) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
+El cmdlet Test-CsIM puede ejecutarse con un par de cuentas de prueba preconfiguradas (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de Lync Server que se está probando. Por ejemplo:
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -126,11 +128,11 @@ Por ejemplo, la salida anterior indica que se produjo un error en la prueba porq
 
     Get-CsUser "Ken Myer" | Select-Object SipAddress, Enabled
 
-Si test-CsIM produce un error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
+Si Test-CsIM da error, es posible que desee volver a ejecutar la prueba, pero esta vez incluya el parámetro verbose:
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Cuando se incluye el parámetro verbose, test-CsIM devolverá una cuenta paso a paso de cada acción que se intentó realizar cuando se comprobó la capacidad de los dos usuarios de prueba para participar en una sesión de mensajería instantánea. Por ejemplo, aquí se muestran los resultados de ejemplo que se producen cuando se proporciona un conjunto incorrecto de credenciales de usuario (en este caso, una contraseña incorrecta) para test-CsIM:
+Cuando se incluye el parámetro verbose, Test-CsIM devolverá una cuenta paso a paso por cada acción que se intentó realizar cuando se comprobó la capacidad de los dos usuarios de prueba para participar en una sesión de mensajería instantánea. Por ejemplo, aquí se muestran los resultados de ejemplo que se producen cuando se proporciona un conjunto incorrecto de credenciales de usuario (en este caso, una contraseña incorrecta) para test-CsIM:
 
 Enviando solicitud de registro:
 
@@ -154,7 +156,7 @@ Excepción: "se denegó el inicio de sesión. Compruebe que se usan las credenci
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos por los que se ha producido un error en la prueba
 
-Estas son algunas de las razones comunes por las que test-CsIM podría fallar:
+Estas son algunas de las razones comunes por las que Test-CsIM podría producir un error:
 
   - Ha especificado una cuenta de usuario que no es válida. Puede comprobar si existe una cuenta de usuario mediante la ejecución de un comando similar al siguiente:
     

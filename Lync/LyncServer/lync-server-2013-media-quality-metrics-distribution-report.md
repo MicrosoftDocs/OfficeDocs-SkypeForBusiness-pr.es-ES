@@ -12,20 +12,22 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48ee62d2eee4ab6e18b3c0c07b46f79b779bcce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3823f65d5bc565f01b55b08259a4482c97bbd43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500657"
 ---
+# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Informe de distribución de métricas de calidad de medios en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Informe de distribución de métricas de calidad de medios en Lync Server 2013
+
 
 </div>
 
@@ -65,11 +67,11 @@ El Informe de distribución de métricas de calidad de medios permite ver un gr�
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
@@ -89,7 +91,7 @@ El Informe de distribución de métricas de calidad de medios permite ver un gr�
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>50</p></td>
 </tr>
 </tbody>
@@ -125,12 +127,12 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
 <p>7/3/2012</p>
-<p>Las semanas siempre empiezan en domingo y terminan en sábado.</p></td>
+<p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -156,7 +158,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <ul>
 <li><p>Todos</p></li>
 <li><p>Interno</p></li>
-<li><p>External</p></li>
+<li><p>Externo</p></li>
 </ul></td>
 </tr>
 <tr class="even">

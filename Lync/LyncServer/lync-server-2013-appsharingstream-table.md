@@ -12,20 +12,22 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34f3ea8a5b25a4eaa3345249c8c7847dd4a3f2bd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b729112aa0fb064a518c50212a6a041a6661be3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499507"
 ---
+# <a name="appsharingstream-table-in-lync-server-2013"></a>Tabla AppSharingStream en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingstream-table-in-lync-server-2013"></a>Tabla AppSharingStream en Lync Server 2013
+
 
 </div>
 
@@ -64,8 +66,8 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Principal, externa</p></td>
+<td><p>entero</p></td>
+<td><p>Principal, Exterior</p></td>
 <td><p>Identificador secuencial usado para distinguir las sesiones que se iniciaron en la misma fecha de las que se iniciaron a la misma hora.</p></td>
 </tr>
 <tr class="odd">
@@ -82,32 +84,32 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>StreamID</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal</p></td>
 <td><p>Identificador único del flujo de uso compartido de aplicaciones.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>JitterInterArrival</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
-<td><p>Valor medio de las vibraciones detectadas entre la llagada de paquetes RTP. (La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
+<td><p>Valor medio de las vibraciones detectadas entre la llagada de paquetes RTP. (La vibración es una medida de la &quot; irregularidad &quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
-<td><p>Valor máximo de las vibraciones detectadas entre la llagada de paquetes RTP. (La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
+<td><p>Valor máximo de las vibraciones detectadas entre la llagada de paquetes RTP. (La vibración es una medida de la &quot; irregularidad &quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Vuelta</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Tiempo medio (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y vuelva. Los tiempos de ida y vuelta de 200 milisegundos o menos se consideran de calidad aceptable.</p>
-<p>Los valores elevados en los tiempos del recorrido de ida y vuelta pueden producirse en el enrutamiento de llamadas internacionales, si la configuración del enrutamiento no es la correcta, o si se produce una sobrecarga en el servidor multimedia, y causan dificultades en las conversaciones de audio bidireccionales en tiempo real.</p></td>
+<p>Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor de medios y causan dificultades en las conversaciones de audio en tiempo real bidireccionales.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RoundTripMax</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Tiempo máximo (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y vuelva. Los tiempos de ida y vuelta de 200 milisegundos o menos se consideran de calidad aceptable.</p>
 <p>Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor de medios y causan dificultades en las conversaciones de audio en tiempo real bidireccionales.</p></td>
@@ -126,19 +128,19 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>PacketUtilization</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Número de paquetes enviados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Ancho de banda más</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Ancho de banda unilateral estimado disponible al final de la sesión. Se muestra en bits por segundo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AppSharingPayloadDescription</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Descripción de la aplicación que comparte la carga.</p></td>
 </tr>
@@ -162,7 +164,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad total de ráfagas unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p></td>
 </tr>
@@ -180,7 +182,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Cantidad total de intervalos unidireccionales. Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables. Esta métrica mide el modo en que los datos fluyen entre el cliente y el servidor.</p></td>
 </tr>
@@ -222,7 +224,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de ráfagas en el tiempo de procesamiento de datos de protocolo de escritorio remoto (RDP). Una transmisión “con ráfagas” es una transmisión en la que los datos fluyen con ráfagas impredecibles de forma totalmente opuesta a los flujos estables.</p></td>
 </tr>
@@ -240,7 +242,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de intervalos en el tiempo de procesamiento de datos de protocolo de escritorio remoto (RDP).</p></td>
 </tr>
@@ -294,7 +296,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de intervalos en la tasa de datos capturados (en datos por segundo).</p></td>
 </tr>
@@ -330,7 +332,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de ráfagas en el contenido que no llega al visor descartado y sobrescrito con contenido nuevo.</p></td>
 </tr>
@@ -348,7 +350,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de intervalos en el contenido que no llega al visor descartado y sobrescrito con contenido nuevo.</p></td>
 </tr>
@@ -384,7 +386,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>ScrapingFrameRateBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de ráfagas en los marcos descartados del origen de los gráficos.</p></td>
 </tr>
@@ -402,7 +404,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Intervalos de ráfagas en los marcos descartados del origen de los gráficos.</p></td>
 </tr>
@@ -438,7 +440,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingTileRateBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de ráfagas de la tasa de datos de entrada recibidos por el visor.</p></td>
 </tr>
@@ -456,7 +458,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repetición de intervalos de la tasa de datos de entrada recibidos por el visor.</p></td>
 </tr>
@@ -492,7 +494,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>IncomingFrameRateBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de ráfagas de la tasa de tramas de entrada recibidas por el visor.</p></td>
 </tr>
@@ -510,7 +512,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de intervalos de la tasa de tramas de entrada recibidas por el visor.</p></td>
 </tr>
@@ -546,7 +548,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingTileRateBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de ráfagas en la tasa de datos de salida para el remitente.</p></td>
 </tr>
@@ -564,7 +566,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de intervalos en la tasa de datos de salida para el remitente.</p></td>
 </tr>
@@ -600,7 +602,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingFrameRateBurstOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de ráfagas en la tasa de tramas de salida para el remitente.</p></td>
 </tr>
@@ -618,7 +620,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateGapOccurrences</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Repeticiones de intervalos en la tasa de tramas de salida para el remitente.</p></td>
 </tr>
@@ -636,13 +638,13 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 </tr>
 <tr class="even">
 <td><p><strong>AverageRectangleHeight</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Promedio de altura de resolución de vídeo en píxeles.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AverageRectangleWidth</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Promedio de anchura de resolución de vídeo en píxeles.</p></td>
 </tr>
@@ -653,7 +655,7 @@ La tabla AppSharingStream contiene métricas de calidad de la experiencia de los
 <td><p>Tasa de tramas de promedio (en tramas por segundo) para las transmisiones de entrada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Salida</strong></p></td>
+<td><p><strong>Saliente</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
 <td><p>Tasa de tramas de promedio (en tramas por segundo) para las transmisiones de salida.</p></td>

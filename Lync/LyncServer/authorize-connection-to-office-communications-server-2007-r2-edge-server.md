@@ -13,20 +13,22 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f66f53b5c1aa25324dbd316ad2d72e7d04c42e0f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6181f3d42facaf49b84b7c07776dc8717e88b271
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755142"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499767"
 ---
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2
+
 
 </div>
 

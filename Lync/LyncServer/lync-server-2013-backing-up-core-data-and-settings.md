@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205866"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499387"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Copia de seguridad de los datos y la configuración principales en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Copia de seguridad de los datos y la configuración principales en Lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ Puede ejecutar los cmdlets descritos en esta sección de manera local o remota.
     
     </div>
 
-5.  Copie el archivo de configuración de la copia de seguridad del almacén de\\Administración Central en $backup.
+5.  Copie el archivo de configuración de la copia de seguridad del almacén de administración central en $Backup \\ .
 
 6.  Cree una copia de seguridad de los datos del servicio de información de ubicaciones. En la línea de comandos, escriba lo siguiente:
     
@@ -88,7 +90,7 @@ Puede ejecutar los cmdlets descritos en esta sección de manera local o remota.
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  Copie el archivo de configuración del servicio de información de ubicación con copia\\de seguridad en $backup.
+7.  Copie el archivo de configuración del servicio de información de ubicación con copia de seguridad en $Backup \\ .
 
 8.  Realice una copia de seguridad de los datos de usuario en cada base de datos back-end de un grupo de servidores front-end y cada servidor Standard Edition. Escriba lo siguiente en la línea de comandos:
     
@@ -98,7 +100,7 @@ Puede ejecutar los cmdlets descritos en esta sección de manera local o remota.
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  Copie el archivo de usuario de copia de seguridad\\en $backup.
+9.  Copie el archivo de usuario de copia de seguridad en $Backup \\ .
 
 10. En cada grupo que ejecuta la aplicación de grupo de respuesta, realice una copia de seguridad de la configuración del grupo de respuesta. Haga lo siguiente:
     
@@ -110,7 +112,7 @@ Puede ejecutar los cmdlets descritos en esta sección de manera local o remota.
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 
-11. Copie el archivo de configuración del grupo de respuesta de la\\copia de seguridad en $backup.
+11. Copie el archivo de configuración del grupo de respuesta de la copia de seguridad en $Backup \\ .
 
 </div>
 

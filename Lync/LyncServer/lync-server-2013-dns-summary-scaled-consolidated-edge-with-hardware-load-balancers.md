@@ -12,20 +12,22 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5625aa9d6211c703853b110b3fec439113cfa48d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5847a43c6d07cf188c97cd8de6a47dfb83e1468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501287"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Resumen de DNS-servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Resumen de DNS-servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013
+
 
 </div>
 
@@ -113,7 +115,7 @@ Puede configurar dos adaptadores de red en cada uno de los servidores perimetral
 <td><p>Interfaz externa del servicio perimetral de acceso (contoso). Repetir según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A externo</p></td>
+<td><p>DNS externo/A</p></td>
 <td><p>webcon.contoso.com</p></td>
 <td><p>131.107.155.20</p></td>
 <td><p>Interfaz externa del servicio perimetral de conferencia Web</p></td>
@@ -126,13 +128,13 @@ Puede configurar dos adaptadores de red en cada uno de los servidores perimetral
 </tr>
 <tr class="even">
 <td><p>DNS externo/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaz externa del servicio perimetral de acceso. Necesario para la configuración automática de los clientes de Lync 2013 y Lync 2010 para que funcionen de forma externa. En caso necesario, repita la operación para los dominios SIP con usuarios de Lync habilitados.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS externo/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>La interfaz externa del servicio perimetral de acceso SIP es necesaria para la detección automática de DNS de los socios federados conocida como "dominio SIP permitido" (denominado Federación mejorada en versiones anteriores). Repita el procedimiento tantas veces como sea necesario para todos los dominios SIP con usuarios habilitados para Lync y los clientes móviles de Microsoft Lync que usan el servicio de notificación de inserción o el servicio de notificaciones push de Apple</p></td>
 </tr>

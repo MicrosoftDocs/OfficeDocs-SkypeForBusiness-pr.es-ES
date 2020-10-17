@@ -12,20 +12,22 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e8d37023d30784d07d9ac74ce89aa8cc1fb43a9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f7691a008dae1fc822b6632a60f5324bb4e80fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500837"
 ---
+# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Tabla FocusJoinsAndLeaves en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Tabla FocusJoinsAndLeaves en Lync Server 2013
+
 
 </div>
 
@@ -64,31 +66,31 @@ Cada registro de esta tabla contiene la información de CDR sobre la Unión de u
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal, Externa</p></td>
 <td><p>Número de identificación de la instancia de conferencia. Se usa junto con <strong>SessionIdTime</strong> para identificar de forma única una instancia de conferencia. Consulte la <a href="lync-server-2013-conferences-table.md">tabla conferencias en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Principal, Externa</p></td>
+<td><p>Principal, Exterior</p></td>
 <td><p>Hora de la solicitud de sesión. Se usa junto con <strong>SessionIdSeq</strong> para identificar una sesión de manera exclusiva. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Principal, Exterior</p></td>
 <td><p>Número del identificador para identificar la sesión. Se usa en combinación con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Número único que identifica a este usuario, al que se hace referencia en la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 <td><p>Si un usuario ha iniciado sesión en varios equipos o dispositivos a la vez, <strong>UserInstance</strong> se usa para identificar de forma única la combinación de usuario y dispositivo.</p></td>
 </tr>
@@ -100,7 +102,7 @@ Cada registro de esta tabla contiene la información de CDR sobre la Unión de u
 </tr>
 <tr class="even">
 <td><p><strong>UserRole</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p> </p></td>
 <td><p>El rol de este usuario en la Conferencia, como moderador o asistente.</p></td>
 </tr>
@@ -118,7 +120,7 @@ Cada registro de esta tabla contiene la información de CDR sobre la Unión de u
 </tr>
 <tr class="odd">
 <td><p><strong>ClientVerId</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Externa</p></td>
 <td><p>Versión del software cliente del usuario, a la que se hace referencia en la <a href="lync-server-2013-clientversions-table.md">tabla ClientVersions en Lync Server 2013</a>.</p></td>
 </tr>

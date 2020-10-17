@@ -12,20 +12,22 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3be8be9c600fced3087f20fe70d137d759fb9d29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05b157be6cc94f0b01dbefadfd89041118b944e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500667"
 ---
+# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Informe de comparación de calidad de medios en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Informe de comparación de calidad de medios en Lync Server 2013
+
 
 </div>
 
@@ -70,7 +72,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 pm</p>
+<p>7/7/2012 1:00 PM</p>
 <p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
@@ -92,7 +94,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <td><p>Tipo de llamada que se va a usar como elemento de comparación principal. Los valores permitidos son:</p>
 <ul>
 <li><p>Todos</p></li>
-<li><p>External</p></li>
+<li><p>Externo</p></li>
 <li><p>Interno</p></li>
 <li><p>VPN</p></li>
 <li><p>No VPN</p></li>
@@ -111,7 +113,7 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <td><p>Tipo de llamada que se va a usar como elemento de comparación secundario. Los valores permitidos son:</p>
 <ul>
 <li><p>Todos</p></li>
-<li><p>External</p></li>
+<li><p>Externo</p></li>
 <li><p>Interno</p></li>
 <li><p>VPN</p></li>
 <li><p>No VPN</p></li>
@@ -193,7 +195,7 @@ En la tabla siguiente se muestra la información que recoge el informe de compar
 <tr class="even">
 <td><p><strong>Vibración (ms)</strong></p></td>
 <td><p>No</p></td>
-<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de &quot;la irregularidad&quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
+<td><p>Valor medio de las vibraciones detectadas entre las llegadas de paquetes RTP. (La vibración es una medida de la &quot; irregularidad &quot; de una llamada). Los valores de vibración elevados suelen deberse a la congestión o a un servidor multimedia sobrecargado, lo que da como resultado una distorsión o pérdida de audio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tasa de recuperación de muestras ocultas</strong></p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 447c19b96e2189953db81db6ce4f022e4d0f6e6f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e9fe6364e92fc6416a78ec49001e94193ae9731e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207695"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500937"
 ---
+# <a name="enabling-qos-in-lync-server-2013-for-devices-that-are-not-based-on-windows"></a>Habilitación de QoS en Lync Server 2013 para dispositivos que no están basados en Windows
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-qos-in-lync-server-2013-for-devices-that-are-not-based-on-windows"></a>Habilitación de QoS en Lync Server 2013 para dispositivos que no están basados en Windows
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f74963f080c244f375bac0ea00ab152e89cc2723
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 308ba7b91fbe776ed49d72c54e2986ad95d080fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500947"
 ---
+# <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Habilitación o deshabilitación de la purga de datos archivados en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Habilitación o deshabilitación de la purga de datos archivados en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Las configuraciones de archivado se instalan inicialmente al implementar el arch
 
 
 > [!NOTE]  
-> Para usar el archivado para los usuarios hospedados en Lync Server 2013, debe configurar las directivas de archivado para especificar si desea habilitar el archivado para las comunicaciones internas, para las comunicaciones externas o para ambos. De manera predeterminada, el archivado no está habilitado para las comunicaciones ni internas, ni externas. Antes de habilitar el archivado en ninguna directiva, debe especificar las configuraciones de archivado apropiadas para su implementación y, si lo desea, para sitios y grupos de servidores concretos, como se describe en este apartado. Para obtener más información sobre cómo habilitar el archivado, consulte <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">configuración y asignación de directivas de archivado en Lync Server 2013</A> en la documentación sobre implementación.<BR>Si decide después de implementar el archivado que desea usar la integración de Microsoft Exchange para almacenar los datos y archivos de archivado en servidores de Exchange 2013 y todos los usuarios están alojados en los servidores de Exchange 2013, debe quitar la configuración de la base de datos de SQL Server. de la topología. Debe usar el generador de topologías para hacerlo. Para obtener más información, consulte <A href="lync-server-2013-changing-archiving-database-options.md">cambiar las opciones de base de datos de archivado en Lync Server 2013</A> en la documentación de operaciones.
+> Para usar el archivado para los usuarios hospedados en Lync Server 2013, debe configurar las directivas de archivado para especificar si desea habilitar el archivado para las comunicaciones internas, para las comunicaciones externas o para ambos. De manera predeterminada, el archivado no está habilitado para las comunicaciones ni internas, ni externas. Antes de habilitar el archivado en ninguna directiva, debe especificar las configuraciones de archivado apropiadas para su implementación y, si lo desea, para sitios y grupos de servidores concretos, como se describe en este apartado. Para obtener más información sobre cómo habilitar el archivado, consulte <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">configuración y asignación de directivas de archivado en Lync Server 2013</A> en la documentación sobre implementación.<BR>Si decide que después de implementar el archivado desea usar la integración de Microsoft Exchange para almacenar los datos y archivos de archivado en servidores de Exchange 2013 y que todos los usuarios estén hospedados en los servidores de Exchange 2013, debe quitar la configuración de la base de datos de SQL Server de la topología. Debe usar el generador de topologías para hacerlo. Para obtener más información, consulte <A href="lync-server-2013-changing-archiving-database-options.md">cambiar las opciones de base de datos de archivado en Lync Server 2013</A> en la documentación de operaciones.
 
 
 
@@ -83,7 +85,7 @@ Las configuraciones de archivado se instalan inicialmente al implementar el arch
 
 ## <a name="enabling-or-disabling-the-purging-of-archiving-data-by-using-windows-powershell-cmdlets"></a>Habilitación o deshabilitación de la purga de datos de archivado con los cmdlets de Windows PowerShell
 
-La habilitación y deshabilitación de la purga automatizada de datos de archivado se puede administrar con Windows PowerShell y el cmdlet **set-CsArchivingConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+La habilitación y deshabilitación de la purga automatizada de datos de archivado se puede administrar con Windows PowerShell y el cmdlet **set-CsArchivingConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -125,7 +127,7 @@ Para obtener más información, incluidas las opciones adicionales para purgar l
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md)  

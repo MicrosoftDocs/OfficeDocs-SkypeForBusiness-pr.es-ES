@@ -13,20 +13,22 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c9f46944e80c5eb7a2d81de6f164d19aab64d29
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 029fe44d33d41b410d23068551203b1532893354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755330"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499697"
 ---
+# <a name="change-simple-urls-after-migration"></a>Cambiar las direcciones URL simples tras la migración
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-simple-urls-after-migration"></a>Cambiar las direcciones URL simples tras la migración
+
 
 </div>
 
@@ -79,7 +81,7 @@ Después de migrar a Lync Server 2013, debe tener en cuenta cómo afecta el camb
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de direcciones URL sencillas en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  

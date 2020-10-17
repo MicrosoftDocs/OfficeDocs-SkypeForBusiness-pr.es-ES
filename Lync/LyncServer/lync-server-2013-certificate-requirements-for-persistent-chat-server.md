@@ -12,20 +12,22 @@ ms:contentKeyID: 48185781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fde3b301aca5367e846dea14129bdff1edc266b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d5402faefa7bfd7bb5c885d1d4fa76e7345952f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499327"
 ---
+# <a name="certificate-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Requisitos de certificado para el servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Requisitos de certificado para el servidor de chat persistente en Lync Server 2013
+
 
 </div>
 

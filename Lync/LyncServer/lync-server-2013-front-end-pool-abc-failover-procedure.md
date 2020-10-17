@@ -12,20 +12,22 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60ded6539f6d984662449562d0f978e98dc3078
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa82180853e8835782d1e39d56fe595e5c7b09b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500807"
 ---
+# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Procedimiento de conmutación por error ABC del grupo de servidores front-end en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Procedimiento de conmutación por error ABC del grupo de servidores front-end en Lync Server 2013
+
 
 </div>
 
@@ -89,7 +91,7 @@ Para ejecutar los cmdlets, abra un shell de administración de Lync Server con e
     
 
     > [!WARNING]  
-    > Tenga en cuenta que si no desea sobrescribir la configuración de nivel de aplicación del grupo de copia de seguridad (grupo B) con la configuración del grupo principal (grupo A), la configuración de nivel de aplicación del grupo A se perderá si se pierde el grupo A, ya que la aplicación del grupo de respuesta puede Almacene solo un conjunto de opciones de configuración de nivel de aplicación por grupo de servidores. Cuando se implementa el grupo C para reemplazar el grupo A, se debe volver a configurar la configuración del nivel de la aplicación, incluido el archivo de audio de música en espera predeterminado.
+    > Tenga en cuenta que si no desea sobrescribir la configuración de nivel de aplicación del grupo de copia de seguridad (grupo B) con la configuración del grupo principal (grupo A), la configuración de nivel de aplicación del grupo A se perderá si se pierde el grupo A, ya que la aplicación de grupo de respuesta solo puede almacenar un conjunto de opciones de configuración de nivel de aplicación por grupo. Cuando se implementa el grupo C para reemplazar el grupo A, se debe volver a configurar la configuración del nivel de la aplicación, incluido el archivo de audio de música en espera predeterminado.
 
     
     </div>
@@ -194,7 +196,7 @@ Para ejecutar los cmdlets, abra un shell de administración de Lync Server con e
     
 
     > [!WARNING]  
-    > Tenga en cuenta que si no desea sobrescribir la configuración de nivel de aplicación del grupo C con la configuración del grupo de copia de seguridad (grupo B), la configuración del nivel de aplicación del grupo B se perderá porque la aplicación grupo de respuesta solo puede almacenar un conjunto de nivel de aplicación. configuración por grupo de servidores.
+    > Tenga en cuenta que si no desea sobrescribir la configuración de nivel de aplicación del grupo C con la configuración del grupo de servidores de copia de seguridad (grupo B), la configuración de nivel de aplicación del grupo B se perderá porque la aplicación grupo de respuesta solo puede almacenar un conjunto de opciones de configuración de nivel de aplicación por grupo de servidores.
 
     
     </div>

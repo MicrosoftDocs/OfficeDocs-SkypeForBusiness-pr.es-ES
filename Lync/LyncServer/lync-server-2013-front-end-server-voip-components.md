@@ -12,20 +12,22 @@ ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 762b7a43343e10fe4d6bec601954474ba3a44b90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 62261a4d4651e38941f5068b58636b82d0151965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500707"
 ---
+# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Componentes VoIP del servidor front-end para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Componentes VoIP del servidor front-end para Lync Server 2013
+
 
 </div>
 

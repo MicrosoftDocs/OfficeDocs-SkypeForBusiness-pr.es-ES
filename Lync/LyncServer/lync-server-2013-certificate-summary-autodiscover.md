@@ -12,20 +12,22 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 196b3dacec792097a4760ef134ead91f267a53d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187483"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499317"
 ---
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Resumen de certificado-detección automática en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Resumen de certificado-detección automática en Lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ El servicio Detección automática de Lync Server 2013 se ejecuta en los servido
 
 La decisión sobre si usar listas de nombres alternativos de sujetos en servidores proxy inversos se basa en si publica el servicio Detección automática en el puerto 80 o en el puerto 443:
 
-  - **Publicado en el puerto 80**   no es necesario realizar cambios en los certificados si la consulta inicial al servicio Detección automática se produce a través del puerto 80. Esto se debe a que los dispositivos móviles que ejecutan Lync tendrán acceso al proxy inverso en el puerto 80 externamente y, a continuación, se enlazarán a un director o un servidor front-end en el puerto 8080 internamente. Para obtener más información, consulte la sección "proceso de detección automática inicial con el puerto 80" sección [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
+  - **Publicado en el puerto 80**     No es necesario realizar cambios en los certificados si la consulta inicial al servicio Detección automática se produce a través del puerto 80. Esto se debe a que los dispositivos móviles que ejecutan Lync tendrán acceso al proxy inverso en el puerto 80 externamente y, a continuación, se enlazarán a un director o un servidor front-end en el puerto 8080 internamente. Para obtener más información, consulte la sección "proceso de detección automática inicial con el puerto 80" sección [Technical Requirements for Mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
 
-  - **Publicado en el puerto 443**   la lista de nombres alternativos de sujeto en los certificados usados por la regla de publicación de servicios web externos debe contener un *lyncdiscover.\< entrada\> sipdomain* para cada dominio SIP dentro de la organización.
+  - **Publicado en el puerto 443**     La lista de nombres alternativos de sujeto en los certificados usados por la regla de publicación de servicios web externos debe contener un *lyncdiscover. \<sipdomain\> * entrada para cada dominio SIP dentro de la organización.
     
     <div>
     
@@ -60,7 +62,7 @@ La reemisión de certificados mediante una entidad de certificación interna sue
 
 
 > [!NOTE]  
-> Si su infraestructura de Lync Server 2013 usa certificados internos emitidos por una entidad de certificación (CA) interna y planea admitir dispositivos móviles que se conectan de forma inalámbrica, es necesario instalar la cadena de certificados raíz de la CA interna. en los dispositivos móviles o debe cambiar a un certificado público en su infraestructura de Lync Server 2013.
+> Si su infraestructura de Lync Server 2013 usa certificados internos emitidos por una entidad de certificación (CA) interna y planea admitir dispositivos móviles que se conectan de forma inalámbrica, la cadena de certificados raíz de la CA interna debe estar instalada en los dispositivos móviles o debe cambiar a un certificado público en su infraestructura de Lync Server 2013.
 
 
 
@@ -86,11 +88,11 @@ En las siguientes tablas se definen las entradas de SAN de detección automátic
 <tbody>
 <tr class="odd">
 <td><p>URL de servicio Detección automática interna</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;nombre de dominio interno&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; nombre de dominio interno&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL de servicio Detección automática externa</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ En las siguientes tablas se definen las entradas de SAN de detección automátic
 
 
 > [!NOTE]  
-> Asigne el certificado recién actualizado a la nueva entrada de SAN al certificado predeterminado. Como alternativa, puede usar SAN = *. &lt;sipdomain&gt;.
+> Asigne el certificado recién actualizado a la nueva entrada de SAN al certificado predeterminado. Como alternativa, puede usar SAN = *. &lt; sipdomain &gt; .
 
 
 
@@ -122,11 +124,11 @@ En las siguientes tablas se definen las entradas de SAN de detección automátic
 <tbody>
 <tr class="odd">
 <td><p>URL de servicio Detección automática interna</p></td>
-<td><p>SAN = lyncdiscoverinternal. &lt;nombre de dominio interno&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt; nombre de dominio interno&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL de servicio Detección automática externa</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +138,7 @@ En las siguientes tablas se definen las entradas de SAN de detección automátic
 
 
 > [!NOTE]  
-> Asigne el certificado recién actualizado a la nueva entrada de SAN al certificado predeterminado. Como alternativa, puede usar SAN = *. &lt;sipdomain&gt;
+> Asigne el certificado recién actualizado a la nueva entrada de SAN al certificado predeterminado. Como alternativa, puede usar SAN = *. &lt; sipdomain&gt;
 
 
 
@@ -158,7 +160,7 @@ En las siguientes tablas se definen las entradas de SAN de detección automátic
 <tbody>
 <tr class="odd">
 <td><p>URL de servicio Detección automática externa</p></td>
-<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt; sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>

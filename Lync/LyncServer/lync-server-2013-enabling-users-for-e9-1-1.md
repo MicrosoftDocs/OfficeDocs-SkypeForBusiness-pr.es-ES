@@ -12,20 +12,22 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23df1bfce00baece3dce55d74497135863b26759
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 95f03e3f0249897a17af8354cfca9f58a4d6508b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500917"
 ---
+# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Habilitación de usuarios para E9-1-1 en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Habilitación de usuarios para E9-1-1 en Lync Server 2013
+
 
 </div>
 

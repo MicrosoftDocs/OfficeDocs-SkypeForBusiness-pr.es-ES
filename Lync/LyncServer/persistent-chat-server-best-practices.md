@@ -12,20 +12,22 @@ ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebe9742b76ec6abfd7b7407f38edda937bdf6ecc
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: fceea7401a6d5442738a0cc64e9a2bafbfd83827
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751202"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500147"
 ---
+# <a name="persistent-chat-server-best-practices"></a>Procedimientos recomendados del servidor de chat persistente
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-server-best-practices"></a>Procedimientos recomendados del servidor de chat persistente
+
 
 </div>
 
@@ -51,7 +53,7 @@ A medida que crea categorías y salones de chat persistente, y diseña el ámbit
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Administrar categorías, salones y complementos en Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md)  

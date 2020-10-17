@@ -12,20 +12,22 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a5a92b0438e72be0ecb5acaa1b8e1886768ad59
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: be7fd473b858c6a35b23f8aaa0c525875218d3f7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755404"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500237"
 ---
+# <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios al grupo piloto
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios al grupo piloto
+
 
 </div>
 
@@ -73,7 +75,7 @@ Puede mover varios usuarios de su grupo de servidores de Lync Server 2010 a su g
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
-    ![Ejemplo de cmdlet Get-CsUser de PowerShell](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Ejemplo de cmdlet Get-CsUser de PowerShell")  
+    ![Ejemplo de cmdlet de Get-CsUser de PowerShell](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Ejemplo de cmdlet de Get-CsUser de PowerShell")  
 
 3.  En la línea de comandos, escriba lo siguiente
     
@@ -81,7 +83,7 @@ Puede mover varios usuarios de su grupo de servidores de Lync Server 2010 a su g
 
 4.  La identidad del **grupo de registrador** ahora debe apuntar al grupo especificado como ** \_ FQDN del grupo** de servidores en el paso anterior. La presencia de esta identidad confirma que se ha movido correctamente al usuario. Repita el paso para comprobar que se ha movido a **User2**.
     
-    ![Resultado del cmdlet PowerShell Get-UsUser-Identity](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Resultado del cmdlet PowerShell Get-UsUser-Identity")  
+    ![Resultado del cmdlet Get-UsUser de identidad de PowerShell](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Resultado del cmdlet Get-UsUser de identidad de PowerShell")  
 
 </div>
 

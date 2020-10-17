@@ -12,20 +12,22 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72e52927b8c84f5ad9cb869cd680f057e1618f8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc30b787d938825f229f28b10d54907ad26a4d35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199903"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501327"
 ---
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>Resumen de DNS-detección automática en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>Resumen de DNS-detección automática en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ La detección automática es un servicio flexible en el que aceptará la comunic
 
 
 > [!IMPORTANT]  
-> La lógica de búsqueda DNS para los clientes de Lync Server usa un orden de resolución específico. Siempre debe incluir la lyncdiscoverinternal. &lt;domain&gt; y lyncdiscover. &lt;dominio&gt; en el DNS. Excluir lyncdiscoverinternal. &lt;el&gt; registro de dominio hará que los clientes internos no puedan conectarse a los servicios previstos o reciban la respuesta de detección automática incorrecta.
+> La lógica de búsqueda DNS para los clientes de Lync Server usa un orden de resolución específico. Siempre debe incluir la lyncdiscoverinternal. &lt; domain &gt; y lyncdiscover. &lt; dominio &gt; en el DNS. Excluir lyncdiscoverinternal. &lt; &gt; el registro de dominio hará que los clientes internos no puedan conectarse a los servicios previstos o reciban la respuesta de detección automática incorrecta.
 
 
 
@@ -67,12 +69,12 @@ La detección automática es un servicio flexible en el que aceptará la comunic
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>Lyncdiscoverinternal. &lt;nombre de dominio interno&gt;</p></td>
+<td><p>Lyncdiscoverinternal. &lt; nombre de dominio interno&gt;</p></td>
 <td><p>El FQDN de servicios Web internos para el grupo de directores, si tiene uno, o para el grupo de servidores front-end si no tiene un director.</p></td>
 </tr>
 <tr class="even">
 <td><p>A (host, si IPv6, AAAA)</p></td>
-<td><p>lyncdiscoverinternal. &lt;nombre de dominio interno&gt;</p></td>
+<td><p>lyncdiscoverinternal. &lt; nombre de dominio interno&gt;</p></td>
 <td><p>Dirección IP de servicios Web internos (dirección IP virtual (VIP) si usa un equilibrador de carga) de su grupo de directores, si tiene uno o el grupo de servidores front-end si no tiene un director.</p></td>
 </tr>
 </tbody>
@@ -99,12 +101,12 @@ Debe crear uno de los siguientes registros DNS externos:
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscover. &lt; sipdomain&gt;</p></td>
 <td><p>El FQDN de servicios web externos para el grupo de directores, si tiene uno, o para el grupo de servidores front-end si no tiene un director.</p></td>
 </tr>
 <tr class="even">
 <td><p>A (host, si IPv6, AAAA)</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscover. &lt; sipdomain&gt;</p></td>
 <td><p>Dirección IP externa o pública del proxy inverso.</p></td>
 </tr>
 </tbody>
@@ -133,7 +135,7 @@ Debe crear uno de los siguientes registros DNS externos:
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración del proxy inverso para movilidad en Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  

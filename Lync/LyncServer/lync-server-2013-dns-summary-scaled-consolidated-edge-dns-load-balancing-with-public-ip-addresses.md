@@ -12,20 +12,22 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48dab867ac7ae408f544e4dbc6bc55ff555e20a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eaa466792de1adcd3d048c946c7b36803fbaab63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213096"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501307"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Resumen de DNS-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Resumen de DNS-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
     
     Interfaz interna con 172.25.33.10 asignado.
     
-    No se ha definido ninguna puerta de enlace predeterminada.
+    No se define ninguna puerta de enlace predeterminada.
     
     Asegúrese de que existe una ruta desde la red que contiene la interfaz perimetral interna a cualquier red que contenga servidores que ejecuten clientes de Lync Server 2013 o Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0).
 
@@ -118,7 +120,7 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 <th>Ubicación/tipo/puerto</th>
 <th>FQDN/Registro DNS</th>
 <th>Dirección IP/FQDN</th>
-<th>Se asigna a/Comentarios</th>
+<th>Enruta a/Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -129,26 +131,26 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 <td><p>Interfaz externa del servicio perimetral de acceso (contoso) Repita según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A externo</p></td>
+<td><p>DNS externo/A</p></td>
 <td><p>webcon.contoso.com</p></td>
 <td><p>131.107.155.20 y 131.107.155.21</p></td>
 <td><p>Interfaz externa del servicio perimetral de conferencia Web</p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS externo</p></td>
+<td><p>DNS externo/A</p></td>
 <td><p>av.contoso.com</p></td>
 <td><p>131.107.155.30 y 131.107.155.31</p></td>
 <td><p>Interfaz externa del servicio perimetral A/V</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS externo/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interfaz externa del servicio perimetral de acceso. Necesario para la configuración automática de los clientes de Lync 2013 y Lync 2010 para que funcionen de forma externa. En caso necesario, repita la operación para los dominios SIP con usuarios de Lync habilitados.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS externo/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Servicio perimetral de acceso interfaz externa necesaria para la detección automática de DNS de socios federados conocida como "dominio SIP permitido" (denominada Federación mejorada en versiones anteriores). Repetir según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p></td>
 </tr>
@@ -181,13 +183,13 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 <th>Ubicación/tipo/puerto</th>
 <th>FQDN</th>
 <th>Dirección IP/Registro de host FQDN</th>
-<th>Asignado a/Comentarios</th>
+<th>Enruta a/Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>DNS/A externo</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>La interfaz externa del servicio perimetral de acceso SIP es necesaria para la detección automática de DNS de la Federación a otros posibles asociados de Federación y se conoce como "dominios SIP permitidos" (denominada Federación mejorada en versiones anteriores).</p>
 <div>
@@ -221,18 +223,18 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 <th>Ubicación/tipo/puerto</th>
 <th>FQDN</th>
 <th>Dirección IP/Registro de host FQDN</th>
-<th>Asignado a/Comentarios</th>
+<th>Enruta a/Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>DNS/SRV/5269 externo</p></td>
-<td><p>_xmpp-server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Interfaz externa de proxy XMPP en el servicio perimetral de acceso o el grupo de servidores perimetrales. Repita los pasos necesarios para todos los dominios SIP internos con los usuarios habilitados para Lync donde se permite el contacto con los contactos XMPP a través de la configuración de la Directiva de acceso externo a través de una directiva global, una directiva de sitio en la que se encuentra el usuario o la Directiva de usuario aplicada al Usuario habilitado para Lync. También debe configurarse un dominio XMPP permitido en la Directiva de socios federados XMPP. Vea los temas en <strong>vea también</strong> para obtener más información.</p></td>
+<td><p>Interfaz externa de proxy XMPP en el servicio perimetral de acceso o el grupo de servidores perimetrales. Repita los pasos necesarios para todos los dominios SIP internos con los usuarios habilitados para Lync, donde se permite el contacto con los contactos XMPP a través de la configuración de la Directiva de acceso externo a través de una directiva global, una directiva de sitio donde se encuentra el usuario o la Directiva de usuario que se aplica al usuario habilitado para Lync. También debe configurarse un dominio XMPP permitido en la Directiva de socios federados XMPP. Vea los temas en <strong>vea también</strong> para obtener más información.</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS externo/A</p></td>
+<td><p>DNS/A externo</p></td>
 <td><p>xmpp.contoso.com (por ejemplo)</p></td>
 <td><p>Dirección IP del servicio perimetral de acceso en el servidor perimetral o el grupo de servidores perimetrales que hospedan el proxy XMPP</p></td>
 <td><p>Señala el servicio perimetral de acceso o el grupo de servidores perimetrales que hospeda el servicio de proxy XMPP. Generalmente, el registro SRV que crea llevará a este registro de host (A o AAAA)</p></td>

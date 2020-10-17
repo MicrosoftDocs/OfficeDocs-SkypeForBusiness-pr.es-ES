@@ -13,20 +13,22 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb167b56d201ff6215c45c10628b3c88be046041
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 813d49d61b4a85bc974763cd53f9edfebc234ef8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755016"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499577"
 ---
+# <a name="configure-clients-for-migration"></a>Configurar los clientes para la migración
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a>Configurar los clientes para la migración
+
 
 </div>
 
@@ -52,7 +54,7 @@ Este tema contiene los pasos de implementación de cliente recomendados que debe
 
 <div>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración nueva y modificada para Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  

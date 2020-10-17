@@ -12,20 +12,22 @@ ms:contentKeyID: 49733582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e97346929851bec53ab228988d72fb4813316d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b71678b9fbd19cfd52c81976de0955ea39ce9e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500827"
 ---
+# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a>Vista FocusJoinsAndLeaves en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a>Vista FocusJoinsAndLeaves en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ La vista FocusJoinsAndLeaves almacena la información sobre las incorporaciones 
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Número de identificación de la instancia de conferencia. Se usa junto con SessionIdTime para identificar una instancia de conferencia de forma única. Consulte la <a href="lync-server-2013-conferences-table.md">tabla conferencias en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -91,7 +93,7 @@ La vista FocusJoinsAndLeaves almacena la información sobre las incorporaciones 
 </tr>
 <tr class="even">
 <td><p><strong>UserClientType</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Cliente que ha usado el usuario del que se ha capturado la información de incorporación/abandono. Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</p></td>
 </tr>
 <tr class="odd">
@@ -101,7 +103,7 @@ La vista FocusJoinsAndLeaves almacena la información sobre las incorporaciones 
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -116,7 +118,7 @@ La vista FocusJoinsAndLeaves almacena la información sobre las incorporaciones 
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
-<td><p>int</p></td>
+<td><p>entero</p></td>
 <td><p>Si un usuario inicia sesión en varios equipos o dispositivos a la vez, UserInstance se usa para identificar de forma única la combinación usuario/dispositivo.</p></td>
 </tr>
 <tr class="even">

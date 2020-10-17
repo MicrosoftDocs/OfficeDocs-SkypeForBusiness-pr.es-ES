@@ -12,20 +12,22 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 836edd026e6b80404b9a85a3d5a0f53fa2ba574a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c0975f6be3d78ec7634859b26e7ed35e7efee5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187813"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501037"
 ---
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013
+
 
 </div>
 
@@ -73,9 +75,9 @@ Para obtener más información sobre el cmdlet [set-CsUser](https://docs.microso
         
           - El nombre principal de usuario de Active Directory del usuario
         
-          - El nombre de inicio\\de sesión del dominio del usuario (\\por ejemplo, contoso kenmyer)
+          - El nombre de inicio de sesión del dominio del usuario \\ (por ejemplo, contoso \\ kenmyer)
         
-          - El nombre para mostrar de Servicios de dominio de Active Directory (por ejemplo, Ken Myer). Si usa Display-Name como valor de identidad, puede usar el carácter comodín asterisco (\*). Por ejemplo, la identidad "\* Smith" devuelve todos los usuarios que tienen un nombre para mostrar que termina con el valor de cadena "Smith".
+          - El nombre para mostrar de Servicios de dominio de Active Directory (por ejemplo, Ken Myer). Si usa el Display-Name como valor de identidad, puede usar el \* carácter comodín asterisco (). Por ejemplo, la identidad " \* Smith" devuelve todos los usuarios que tienen una Display-Name que termina con el valor de cadena "Smith".
         
         <div>
         

@@ -13,20 +13,22 @@ ms:contentKeyID: 48184990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7052042afbc3927e1047a9c2fbb30a71168f317
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: cdad93eaf8debbc616099c1454d5e39438a63474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755036"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499677"
 ---
+# <a name="coexistence-considerations"></a>Consideraciones sobre la coexistencia
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="coexistence-considerations"></a>Consideraciones sobre la coexistencia
+
 
 </div>
 

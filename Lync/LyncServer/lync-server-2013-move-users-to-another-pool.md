@@ -12,20 +12,22 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b103e2911812932026799bda154190aa6f46fc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4ecadb2a487dc17f18e1956b6ac075e25b0b035
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192643"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500558"
 ---
+# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Mover usuarios a otro grupo de servidores en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Mover usuarios a otro grupo de servidores en Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Puede usar el panel de control de Lync Server para asignar usuarios a un servido
 
 7.  En **Mover usuarios**, seleccione el grupo de servidores al que desea trasladar los usuarios en **Grupo de registrador de destino**.
 
-8.  (Opcional) Si el servidor o grupo de destino no está disponible, active la casilla **Forzar**.
+8.  (Opcional) Si el servidor o grupo de destino no está disponible, active la casilla **Imponer**.
     
     <div>
     
@@ -159,7 +161,7 @@ Puede usar el panel de control de Lync Server para asignar usuarios a un servido
     
     1.  Si está ejecutando los comandos en el equipo local (por ejemplo, inicia sesión directamente en un servidor front-end): inicie sesión en el equipo en el que está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [Delegate Setup Permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
     
-    2.  Si ejecuta los comandos de forma remota en otro equipo (por ejemplo, inicia sesión en el equipo y ejecuta los comandos de forma remota en un servidor front-end Standard Edition): desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator rol, inicie sesión en cualquier equipo de la implementación interna.
+    2.  Si ejecuta los comandos de forma remota en otro equipo (por ejemplo, inicia sesión en el equipo y ejecuta los comandos de forma remota en un servidor front-end Standard Edition): desde una cuenta de usuario asignada al rol CsUserAdministrator o al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
 2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y después en **Shell de administración de Lync Server**.
 
@@ -181,7 +183,7 @@ Puede usar el panel de control de Lync Server para asignar usuarios a un servido
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Modificación de las propiedades de la cuenta de usuario en Lync Server 2013](lync-server-2013-modifying-user-account-properties.md)  

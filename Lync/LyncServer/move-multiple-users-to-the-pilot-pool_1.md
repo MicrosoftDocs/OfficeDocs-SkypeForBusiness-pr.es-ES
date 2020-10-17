@@ -12,20 +12,22 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41c663566605529b25d9890bb31cba462364c813
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ffd0fbebffea5553cc461f71cf67843dae0a8ae6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500227"
 ---
+# <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios al grupo piloto
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios al grupo piloto
+
 
 </div>
 
@@ -87,7 +89,7 @@ Puede mover varios usuarios desde el grupo de servidores de Office Communication
 
 4.  La identidad del **grupo de registrador** ahora debe apuntar al grupo especificado como ** \_ FQDN del grupo** de servidores en el paso anterior. La presencia de esta identidad confirma que se ha movido correctamente al usuario. Repita el paso para comprobar que se ha movido a **User2**.
     
-    ![Resultado del cmdlet PowerShell Get-UsUser-Identity](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Resultado del cmdlet PowerShell Get-UsUser-Identity")  
+    ![Resultado del cmdlet Get-UsUser de identidad de PowerShell](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Resultado del cmdlet Get-UsUser de identidad de PowerShell")  
 
 </div>
 

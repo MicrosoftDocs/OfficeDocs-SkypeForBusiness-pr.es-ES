@@ -12,20 +12,22 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cdab88634cb0687efbe5012d841b19f4bba6b31
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89e7c8f096c7cfabd1a46a67c91b9514d73055ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500512"
 ---
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Nueva característica de recogida de llamadas de grupo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Nueva característica de recogida de llamadas de grupo en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ La recogida de llamadas de grupo se basa en la aplicación de estacionamiento de
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de la recogida de llamadas grupales en Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)  
