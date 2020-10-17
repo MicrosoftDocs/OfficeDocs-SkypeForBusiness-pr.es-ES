@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla VoipDetails'
+description: 'Lync Server 2013: tabla VoipDetails.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26feac5b9995aa1a8444029442adcb9c935083d3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f23d991c1d577a15717de2572d744e1b65ba6bab
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535417"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566286"
 ---
-# <a name="voipdetails-table-in-lync-server-2013"></a><span data-ttu-id="f75ca-102">Tabla VoipDetails en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f75ca-102">VoipDetails table in Lync Server 2013</span></span>
+# <a name="voipdetails-table-in-lync-server-2013"></a><span data-ttu-id="51457-103">Tabla VoipDetails en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51457-103">VoipDetails table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48535417"
 
 <span> </span>
 
-<span data-ttu-id="f75ca-103">_**Última modificación del tema:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="f75ca-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="51457-104">_**Última modificación del tema:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="51457-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="f75ca-104">Cada registro representa una llamada de 1 2-Party en la que al menos un usuario es un usuario de VoIP.</span><span class="sxs-lookup"><span data-stu-id="f75ca-104">Each record represents one two-party call in which at least one user is a VoIP user.</span></span>
+<span data-ttu-id="51457-105">Cada registro representa una llamada de 1 2-Party en la que al menos un usuario es un usuario de VoIP.</span><span class="sxs-lookup"><span data-stu-id="51457-105">Each record represents one two-party call in which at least one user is a VoIP user.</span></span>
 
 
 <table>
@@ -51,72 +52,72 @@ ms.locfileid: "48535417"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f75ca-105">Columna</span><span class="sxs-lookup"><span data-stu-id="f75ca-105">Column</span></span></th>
-<th><span data-ttu-id="f75ca-106">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="f75ca-106">Data Type</span></span></th>
-<th><span data-ttu-id="f75ca-107">Clave o índice</span><span class="sxs-lookup"><span data-stu-id="f75ca-107">Key/Index</span></span></th>
-<th><span data-ttu-id="f75ca-108">Detalles</span><span class="sxs-lookup"><span data-stu-id="f75ca-108">Details</span></span></th>
+<th><span data-ttu-id="51457-106">Columna</span><span class="sxs-lookup"><span data-stu-id="51457-106">Column</span></span></th>
+<th><span data-ttu-id="51457-107">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="51457-107">Data Type</span></span></th>
+<th><span data-ttu-id="51457-108">Clave o índice</span><span class="sxs-lookup"><span data-stu-id="51457-108">Key/Index</span></span></th>
+<th><span data-ttu-id="51457-109">Detalles</span><span class="sxs-lookup"><span data-stu-id="51457-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f75ca-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-110">datetime</span><span class="sxs-lookup"><span data-stu-id="f75ca-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-111">Principal</span><span class="sxs-lookup"><span data-stu-id="f75ca-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-112">Hora de la solicitud de sesión.</span><span class="sxs-lookup"><span data-stu-id="f75ca-112">Time of session request.</span></span> <span data-ttu-id="f75ca-113">Se usa junto con <strong>SessionIdSeq</strong> para identificar una sesión de manera exclusiva.</span><span class="sxs-lookup"><span data-stu-id="f75ca-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="f75ca-114">Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="51457-110"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="51457-110"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-111">datetime</span><span class="sxs-lookup"><span data-stu-id="51457-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="51457-112">Principal</span><span class="sxs-lookup"><span data-stu-id="51457-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="51457-113">Hora de la solicitud de sesión.</span><span class="sxs-lookup"><span data-stu-id="51457-113">Time of session request.</span></span> <span data-ttu-id="51457-114">Se usa junto con <strong>SessionIdSeq</strong> para identificar una sesión de manera exclusiva.</span><span class="sxs-lookup"><span data-stu-id="51457-114">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="51457-115">Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-115">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f75ca-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-116">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-116">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-117">Principal</span><span class="sxs-lookup"><span data-stu-id="f75ca-117">Primary</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-118">Número del identificador para identificar la sesión.</span><span class="sxs-lookup"><span data-stu-id="f75ca-118">ID number to identify the session.</span></span> <span data-ttu-id="f75ca-119">Se usa en combinación con <strong>SessionIdTime</strong> para identificar de forma única una sesión.</span><span class="sxs-lookup"><span data-stu-id="f75ca-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="f75ca-120">Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="51457-116"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="51457-116"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-117">entero</span><span class="sxs-lookup"><span data-stu-id="51457-117">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-118">Principal</span><span class="sxs-lookup"><span data-stu-id="51457-118">Primary</span></span></p></td>
+<td><p><span data-ttu-id="51457-119">Número del identificador para identificar la sesión.</span><span class="sxs-lookup"><span data-stu-id="51457-119">ID number to identify the session.</span></span> <span data-ttu-id="51457-120">Se usa en combinación con <strong>SessionIdTime</strong> para identificar de forma única una sesión.</span><span class="sxs-lookup"><span data-stu-id="51457-120">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="51457-121">Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-121">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f75ca-121"><strong>FromNumberId</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-121"><strong>FromNumberId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-122">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-122">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-123">Externa</span><span class="sxs-lookup"><span data-stu-id="f75ca-123">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-124"><strong>PhoneId</strong> del autor de la llamada.</span><span class="sxs-lookup"><span data-stu-id="f75ca-124"><strong>PhoneId</strong> of the caller.</span></span> <span data-ttu-id="f75ca-125">Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-125">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="f75ca-126">Si no es NULL y <strong>FromGatewayId</strong> no es null, el autor de la llamada era un usuario de RTC.</span><span class="sxs-lookup"><span data-stu-id="f75ca-126">If not NULL and <strong>FromGatewayId</strong> is not NULL, then the caller was a PSTN user.</span></span></p></td>
+<td><p><span data-ttu-id="51457-122"><strong>FromNumberId</strong></span><span class="sxs-lookup"><span data-stu-id="51457-122"><strong>FromNumberId</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-123">entero</span><span class="sxs-lookup"><span data-stu-id="51457-123">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-124">Externa</span><span class="sxs-lookup"><span data-stu-id="51457-124">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="51457-125"><strong>PhoneId</strong> del autor de la llamada.</span><span class="sxs-lookup"><span data-stu-id="51457-125"><strong>PhoneId</strong> of the caller.</span></span> <span data-ttu-id="51457-126">Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-126">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="51457-127">Si no es NULL y <strong>FromGatewayId</strong> no es null, el autor de la llamada era un usuario de RTC.</span><span class="sxs-lookup"><span data-stu-id="51457-127">If not NULL and <strong>FromGatewayId</strong> is not NULL, then the caller was a PSTN user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f75ca-127"><strong>ConnectedNumberId</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-127"><strong>ConnectedNumberId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-128">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-128">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-129">Externa</span><span class="sxs-lookup"><span data-stu-id="f75ca-129">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-130"><strong>PhoneId</strong> del receptor de llamadas.</span><span class="sxs-lookup"><span data-stu-id="f75ca-130"><strong>PhoneId</strong> of the call receiver.</span></span> <span data-ttu-id="f75ca-131">Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-131">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="f75ca-132">Si no es NULL y <strong>ToGatewayId</strong> no es null, el receptor de la llamada fue un usuario de RTC.</span><span class="sxs-lookup"><span data-stu-id="f75ca-132">If not NULL and <strong>ToGatewayId</strong> is not NULL, then the call receiver was a PSTN user.</span></span></p></td>
+<td><p><span data-ttu-id="51457-128"><strong>ConnectedNumberId</strong></span><span class="sxs-lookup"><span data-stu-id="51457-128"><strong>ConnectedNumberId</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-129">entero</span><span class="sxs-lookup"><span data-stu-id="51457-129">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-130">Externa</span><span class="sxs-lookup"><span data-stu-id="51457-130">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="51457-131"><strong>PhoneId</strong> del receptor de llamadas.</span><span class="sxs-lookup"><span data-stu-id="51457-131"><strong>PhoneId</strong> of the call receiver.</span></span> <span data-ttu-id="51457-132">Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-132">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="51457-133">Si no es NULL y <strong>ToGatewayId</strong> no es null, el receptor de la llamada fue un usuario de RTC.</span><span class="sxs-lookup"><span data-stu-id="51457-133">If not NULL and <strong>ToGatewayId</strong> is not NULL, then the call receiver was a PSTN user.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f75ca-133"><strong>FromMediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-133"><strong>FromMediationServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-134">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-134">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-135">Externa</span><span class="sxs-lookup"><span data-stu-id="f75ca-135">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-136">El servidor de mediación del que procede la llamada.</span><span class="sxs-lookup"><span data-stu-id="f75ca-136">The Mediation Server the call is coming from.</span></span> <span data-ttu-id="f75ca-137">Consulte la <a href="lync-server-2013-mediationservers-table.md">tabla MediationServers en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-137">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="51457-134"><strong>FromMediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="51457-134"><strong>FromMediationServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-135">entero</span><span class="sxs-lookup"><span data-stu-id="51457-135">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-136">Externa</span><span class="sxs-lookup"><span data-stu-id="51457-136">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="51457-137">El servidor de mediación del que procede la llamada.</span><span class="sxs-lookup"><span data-stu-id="51457-137">The Mediation Server the call is coming from.</span></span> <span data-ttu-id="51457-138">Consulte la <a href="lync-server-2013-mediationservers-table.md">tabla MediationServers en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-138">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f75ca-138"><strong>ToMediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-138"><strong>ToMediationServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-139">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-139">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-140">Externa</span><span class="sxs-lookup"><span data-stu-id="f75ca-140">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-141">El servidor de mediación al que se llama se dirige a.</span><span class="sxs-lookup"><span data-stu-id="f75ca-141">The Mediation Server called is going to.</span></span> <span data-ttu-id="f75ca-142">Consulte la <a href="lync-server-2013-mediationservers-table.md">tabla MediationServers en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-142">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="51457-139"><strong>ToMediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="51457-139"><strong>ToMediationServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-140">entero</span><span class="sxs-lookup"><span data-stu-id="51457-140">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-141">Externa</span><span class="sxs-lookup"><span data-stu-id="51457-141">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="51457-142">El servidor de mediación al que se llama se dirige a.</span><span class="sxs-lookup"><span data-stu-id="51457-142">The Mediation Server called is going to.</span></span> <span data-ttu-id="51457-143">Consulte la <a href="lync-server-2013-mediationservers-table.md">tabla MediationServers en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-143">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f75ca-143"><strong>FromGatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-143"><strong>FromGatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-144">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-144">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-145">Externa</span><span class="sxs-lookup"><span data-stu-id="f75ca-145">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-146">Puerta de enlace desde la que procede la llamada.</span><span class="sxs-lookup"><span data-stu-id="f75ca-146">Gateway the call is coming from.</span></span> <span data-ttu-id="f75ca-147">Consulte la <a href="lync-server-2013-gateways-table.md">tabla puertas de enlace en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-147">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="51457-144"><strong>FromGatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="51457-144"><strong>FromGatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-145">entero</span><span class="sxs-lookup"><span data-stu-id="51457-145">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-146">Externa</span><span class="sxs-lookup"><span data-stu-id="51457-146">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="51457-147">Puerta de enlace desde la que procede la llamada.</span><span class="sxs-lookup"><span data-stu-id="51457-147">Gateway the call is coming from.</span></span> <span data-ttu-id="51457-148">Consulte la <a href="lync-server-2013-gateways-table.md">tabla puertas de enlace en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-148">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f75ca-148"><strong>ToGatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-148"><strong>ToGatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-149">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-149">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-150">Externa</span><span class="sxs-lookup"><span data-stu-id="f75ca-150">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-151">Puerta de enlace a la que va a llamar.</span><span class="sxs-lookup"><span data-stu-id="f75ca-151">Gateway the call is going to.</span></span> <span data-ttu-id="f75ca-152">Consulte la <a href="lync-server-2013-gateways-table.md">tabla puertas de enlace en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-152">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="51457-149"><strong>ToGatewayId</strong></span><span class="sxs-lookup"><span data-stu-id="51457-149"><strong>ToGatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-150">entero</span><span class="sxs-lookup"><span data-stu-id="51457-150">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-151">Externa</span><span class="sxs-lookup"><span data-stu-id="51457-151">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="51457-152">Puerta de enlace a la que va a llamar.</span><span class="sxs-lookup"><span data-stu-id="51457-152">Gateway the call is going to.</span></span> <span data-ttu-id="51457-153">Consulte la <a href="lync-server-2013-gateways-table.md">tabla puertas de enlace en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-153">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f75ca-153"><strong>DisconnectedbyURIId</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-153"><strong>DisconnectedbyURIId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-154">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-154">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-155">Externa</span><span class="sxs-lookup"><span data-stu-id="f75ca-155">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-156">URI del usuario que ha desconectado la llamada, si el usuario tiene un URI.</span><span class="sxs-lookup"><span data-stu-id="f75ca-156">URI of the user who disconnected the call, if the user has a URI.</span></span> <span data-ttu-id="f75ca-157">Consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-157">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="51457-154"><strong>DisconnectedbyURIId</strong></span><span class="sxs-lookup"><span data-stu-id="51457-154"><strong>DisconnectedbyURIId</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-155">entero</span><span class="sxs-lookup"><span data-stu-id="51457-155">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-156">Externa</span><span class="sxs-lookup"><span data-stu-id="51457-156">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="51457-157">URI del usuario que ha desconectado la llamada, si el usuario tiene un URI.</span><span class="sxs-lookup"><span data-stu-id="51457-157">URI of the user who disconnected the call, if the user has a URI.</span></span> <span data-ttu-id="51457-158">Consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-158">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f75ca-158"><strong>DisconnectedbyPhoneId</strong></span><span class="sxs-lookup"><span data-stu-id="f75ca-158"><strong>DisconnectedbyPhoneId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f75ca-159">entero</span><span class="sxs-lookup"><span data-stu-id="f75ca-159">int</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-160">Externa</span><span class="sxs-lookup"><span data-stu-id="f75ca-160">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f75ca-161">IDENTIFICADOR del teléfono que desconectó la llamada se desconectó de un teléfono.</span><span class="sxs-lookup"><span data-stu-id="f75ca-161">ID of the phone that disconnected the call was disconnected from a phone.</span></span> <span data-ttu-id="f75ca-162">Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="f75ca-162">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="51457-159"><strong>DisconnectedbyPhoneId</strong></span><span class="sxs-lookup"><span data-stu-id="51457-159"><strong>DisconnectedbyPhoneId</strong></span></span></p></td>
+<td><p><span data-ttu-id="51457-160">entero</span><span class="sxs-lookup"><span data-stu-id="51457-160">int</span></span></p></td>
+<td><p><span data-ttu-id="51457-161">Externa</span><span class="sxs-lookup"><span data-stu-id="51457-161">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="51457-162">IDENTIFICADOR del teléfono que desconectó la llamada se desconectó de un teléfono.</span><span class="sxs-lookup"><span data-stu-id="51457-162">ID of the phone that disconnected the call was disconnected from a phone.</span></span> <span data-ttu-id="51457-163">Consulte la <a href="lync-server-2013-phones-table.md">tabla teléfonos en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="51457-163">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>
