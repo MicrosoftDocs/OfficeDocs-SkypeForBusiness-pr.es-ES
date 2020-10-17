@@ -12,20 +12,22 @@ ms:contentKeyID: 48185439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfdff8863c0e629c99d0e64aca0b7f84dcb63a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e80c6f7482787d448709beaf98e796519860d22c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205456"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520653"
 ---
+# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Asociar un almacén de supervisión a un grupo de servidores front-end en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Asociar un almacén de supervisión a un grupo de servidores front-end en Lync Server 2013
+
 
 </div>
 
@@ -69,9 +71,9 @@ Después de publicar la topología, instale la base de datos de supervisión en 
 
     Install-CsDatabase -LocalDatabases
 
-Al ejecutar el comando anterior, install-CsDatabase leerá la topología actual de Lync Server, determinará qué bases de datos deben instalarse en el equipo local y, a continuación, instalará y configurará automáticamente cada una de estas bases de datos.
+Al ejecutar el comando anterior, Install-CsDatabase leerá la topología actual de Lync Server, determinará qué bases de datos deben instalarse en el equipo local y, a continuación, instalará y configurará automáticamente cada una de estas bases de datos.
 
-Para instalar la base de datos en un PC remoto (es decir, en un PC que no sea el PC en el que se ejecute el shell de administración), incluya al menos dos parámetros: el parámetro ConfiguredDatabases y el parámetro SqlServerFqdn. Estos parámetros indican al cmdlet install-CsDatabase que recupere la topología de Lync Server y, a continuación, instale y configure las bases de datos necesarias en el equipo especificado por el parámetro SqlServerFqdn. El parámetro SqlServerFqdn debe usar un valor que represente el nombre de dominio completo del PC donde se vayan a instalar las bases de datos.
+Para instalar la base de datos en un PC remoto (es decir, en un PC que no sea el PC en el que se ejecute el shell de administración), incluya al menos dos parámetros: el parámetro ConfiguredDatabases y el parámetro SqlServerFqdn. Estos parámetros indican al cmdlet de Install-CsDatabase que recupere la topología de Lync Server y, a continuación, instale y configure las bases de datos necesarias en el equipo especificado por el parámetro SqlServerFqdn. El parámetro SqlServerFqdn debe usar un valor que represente el nombre de dominio completo del PC donde se vayan a instalar las bases de datos.
 
 Por ejemplo, este comando instala la base de datos de supervisión en el PC atl-sql-001.litwareinc.com:
 
@@ -87,7 +89,7 @@ Como alternativa, puede instalar la base de datos de supervisión ejecutando el 
 
 4.  En el Asistente de instalación de los componentes de Lync Server, en la página **Instalar componentes de Lync Server**, haga clic en **Siguiente**.
 
-5.  En la página **especificar la ruta de acceso a** los archivos MSI, escriba la ruta de acceso al archivo Ocscore. msi (un archivo incluido en los medios de instalación de Lync Server) y, a continuación, haga clic en **siguiente**.
+5.  En la página **especificar la ruta de acceso a** los archivos MSI, escriba la ruta de acceso al archivo Ocscore.msi (un archivo incluido en los medios de instalación de Lync Server) y, a continuación, haga clic en **siguiente**.
 
 6.  En la página **Ejecución de comandos**, haga clic en **Finalizar**.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5659bf3e210f1f8294789729a758d4877d3e70bb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d4e388898b36f2eae913a5c34e11119cf95402a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520037"
 ---
+# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Implementación del control remoto de llamadas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Implementación del control remoto de llamadas en Lync Server 2013
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66dd239acbb274c7223363f1522f2d0c76590c37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c44ef02ef0685b4f930d7a264915d5338600ef71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520847"
 ---
+# <a name="overview-of-monitoring-in-lync-server-2013"></a>Información general sobre la supervisión en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-monitoring-in-lync-server-2013"></a>Información general sobre la supervisión en Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-09-05_
 
 En Microsoft Lync Server 2013, la supervisión se usa para recopilar información de uso y datos de calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios. Una sesión es un término genérico que cubre la conexión de un usuario a:
 
-  - Conversación
+  - Conferencia
 
   - Modalidad de conferencia (como audio/vídeo o uso compartido de aplicaciones)
 
@@ -69,7 +71,7 @@ Además de esta información básica de llamadas, el servidor de supervisión ta
 
   - **Métricas multimedia que afectan**a la calidad. Estas métricas tratan con la transmisión real de la propia llamada; es decir, proporcionan un tipo de registro de viajes a medida que los recorridos de llamadas a través de la red. Estas métricas (que incluyen aspectos como la pérdida de paquetes, la vibración y los tiempos de ida y vuelta) proporcionan información sobre lo que sucedió con la llamada desde el momento en que llegó el extremo hasta el momento en que llegó al punto de conexión de la otra persona.
 
-  - **Problemas notificados al usuario final**. Estas métricas incluyen notificaciones de mala calidad que Lync 2013 presenta a los usuarios finales en los casos en los que están demasiado lejos de un micrófono, hablando demasiado en exceso, sin una conexión de red deficiente o con una calidad deficiente porque otro programa del equipo es consumo de los recursos disponibles.
+  - **Problemas notificados al usuario final**. Estas métricas incluyen notificaciones de mala calidad que Lync 2013 presenta a los usuarios finales en los casos en los que están demasiado lejos de un micrófono, hablando con demasiada suavidad, tienen una mala conexión de red o presentan una calidad deficiente porque otro programa del equipo está consumiendo los recursos disponibles.
 
   - **Información del entorno**. Estas métricas detallan los factores de calidad de las llamadas, como el tipo de micrófono y los altavoces que se usan, si el usuario está conectado a través de una conexión VPN y si el usuario está en una conexión inalámbrica.
 

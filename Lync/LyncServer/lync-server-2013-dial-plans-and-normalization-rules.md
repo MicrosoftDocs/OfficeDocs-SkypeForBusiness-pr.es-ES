@@ -12,20 +12,22 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edd44cbb1e54e811fc646a99362b18a284376953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6195baf2cdff30cad74dfddc31337d9d429c5d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213426"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520027"
 ---
+# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Planes de marcado y reglas de normalización en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Planes de marcado y reglas de normalización en Lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ Para planear un plan de marcado, siga estos pasos:
     
     Si su organización mantiene un solo plan de marcado en varias ubicaciones, es posible que tenga que crear un plan de marcado independiente para los usuarios de Enterprise Voice que migren desde una central de conmutación (PBX) y que necesiten mantener sus extensiones existentes.
 
-  - Decida si los planes de marcado por usuario son necesarios. Por ejemplo, si tiene usuarios en un sitio de sucursal que están registrados en el sitio central o si tiene usuarios registrados en una aplicación de sucursal con funciones de supervivencia, puede considerar escenarios especiales de marcado para los usuarios con planes de marcado y reglas de normalización por usuario. . Para obtener información detallada, consulte [Branch-site Resiliency Requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
+  - Decida si los planes de marcado por usuario son necesarios. Por ejemplo, si tiene usuarios en un sitio de sucursal que están registrados en el sitio central o si tiene usuarios registrados en una aplicación de sucursal con funciones de supervivencia, puede considerar escenarios especiales de marcado para los usuarios con planes de marcado y reglas de normalización por usuario. Para obtener información detallada, consulte [Branch-site Resiliency Requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
 
   - Determine el ámbito del plan de marcado (como se describió anteriormente en este tema).
 
@@ -129,7 +131,7 @@ Si se implementan conferencias de acceso telefónico local, debe especificarse u
 
 ## <a name="external-access-prefix"></a>Prefijo de acceso externo
 
-Puede especificar un prefijo de acceso externo de hasta cuatro caracteres (\#, \*y 0-9) si los usuarios necesitan marcar uno o más dígitos iniciales adicionales (por ejemplo, 9) para obtener una línea externa.
+Puede especificar un prefijo de acceso externo de hasta cuatro caracteres ( \# , \* y 0-9) si los usuarios necesitan marcar uno o más dígitos iniciales adicionales (por ejemplo, 9) para obtener una línea externa.
 
 <div>
 
@@ -173,9 +175,9 @@ Los siguientes campos numéricos están entre los que deben tener en cuenta las 
 
 ## <a name="creating-normalization-rules"></a>Creación de reglas de normalización
 
-Las reglas de normalización utilizan expresiones regulares de .NET Framework para especificar patrones de coincidencia numérica que el servidor usa para traducir cadenas de marcado al formato E. 164 con el fin de realizar la búsqueda inversa de números. Puede crear reglas de normalización en el panel de control de Lync Server si escribe las expresiones manualmente o si escribe los dígitos iniciales y la longitud de las cadenas de marcado para coincidir y permite que el panel de control de Lync Server genere el correspondiente. expresión regular para usted. En cualquier caso, cuando termine, puede escribir un número de prueba para comprobar que la regla de normalización funciona según lo esperado.
+Las reglas de normalización utilizan expresiones regulares de .NET Framework para especificar patrones de coincidencia numérica que el servidor usa para traducir cadenas de marcado al formato E. 164 con el fin de realizar la búsqueda inversa de números. Puede crear reglas de normalización en el panel de control de Lync Server si escribe las expresiones manualmente o si escribe los dígitos iniciales y la longitud de las cadenas de marcado para coincidir y permite que el panel de control de Lync Server genere la expresión regular correspondiente. En cualquier caso, cuando termine, puede escribir un número de prueba para comprobar que la regla de normalización funciona según lo esperado.
 
-Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea "expresiones [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)regulares de .NET Framework" en.
+Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea "expresiones regulares de .NET Framework" en [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) .
 
 </div>
 
@@ -210,42 +212,42 @@ En la siguiente tabla se muestran ejemplos de reglas de normalización escritas 
 <tr class="odd">
 <td><p>4digitExtension</p></td>
 <td><p>Convierte extensiones de 4 dígitos</p></td>
-<td><p>^ (\d{4}) $</p></td>
+<td><p>^ (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>0100 se convierte en +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>5digitExtension</p></td>
 <td><p>Convierte extensiones de 5 dígitos</p></td>
-<td><p>^ 5 (\d{4}) $</p></td>
+<td><p>^ 5 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>50100 se convierte en +14255550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
 <td><p>Convierte números de 7 dígitos en números locales de Redmond</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^ (\d {7} ) $</p></td>
 <td><p>+ 1425 $1</p></td>
 <td><p>5550100 se convierte en +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
 <td><p>Convierte números de 7 dígitos en números locales de Dallas</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^ (\d {7} ) $</p></td>
 <td><p>+ 1972 $1</p></td>
 <td><p>5550100 se convierte en +19725550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
 <td><p>Convierte números de 10 dígitos en los Estados Unidos</p></td>
-<td><p>^ (\d{10}) $</p></td>
+<td><p>^ (\d {10} ) $</p></td>
 <td><p>+ 1 $1</p></td>
 <td><p>2065550100 se convierte en +12065550100</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
 <td><p>Convierte los números con prefijos de larga distancia de Estados Unidos</p></td>
-<td><p>^ 1 (\d{10}) $</p></td>
+<td><p>^ 1 (\d {10} ) $</p></td>
 <td><p>+ $1</p></td>
 <td><p>12145550100 se convierte en +2145550100</p></td>
 </tr>
@@ -266,21 +268,21 @@ En la siguiente tabla se muestran ejemplos de reglas de normalización escritas 
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
 <td><p>Convierte los números con prefijo de red (6) y prefijo de sitio de Redmond (222)</p></td>
-<td><p>^ 6222 (\d{4}) $</p></td>
+<td><p>^ 6222 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>62220100 se convierte en +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
 <td><p>Convierte los números con prefijo de red (6) y prefijo de sitio de Nueva York (333)</p></td>
-<td><p>^ 6333 (\d{4}) $</p></td>
+<td><p>^ 6333 (\d {4} ) $</p></td>
 <td><p>+ 1202555 $1</p></td>
 <td><p>63330100 se convierte en +12025550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
 <td><p>Convierte los números con prefijo de red (6) y prefijo de sitio de Dallas (444)</p></td>
-<td><p>^ 6444 (\d{4}) $</p></td>
+<td><p>^ 6444 (\d {4} ) $</p></td>
 <td><p>+ 1972555 $1</p></td>
 <td><p>64440100 se convierte en +19725550100</p></td>
 </tr>

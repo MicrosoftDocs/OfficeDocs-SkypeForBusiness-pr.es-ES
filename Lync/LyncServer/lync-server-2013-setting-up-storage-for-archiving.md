@@ -12,20 +12,22 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6f299b01b95cddd461893b35518e3c2fe40c694
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab7e22d4ff0e34d903fa0306d971705c5455b2f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200486"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521787"
 ---
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Configurar el almacenamiento para el archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Configurar el almacenamiento para el archivado en Lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Última modificación del tema:** 2013-12-17_
 
 El almacenamiento de archivado para Lync Server 2013 incluye lo siguiente:
 
-  - ****   El almacenamiento de datos de almacenamiento de datos es necesario para almacenar el contenido de mensajería instantánea.
+  - **Almacenamiento**     de datos El almacenamiento de datos es necesario para almacenar el contenido de mensajería instantánea.
 
-  - ****   El almacenamiento de archivos de almacenamiento de archivos es necesario para almacenar la Conferencia (reunión) almacenamiento de datos de contenido y almacenamiento de archivos.
+  - **Almacenamiento**     de archivos El almacenamiento de archivos es necesario para almacenar el almacenamiento de datos de contenido y de conferencia (reunión).
 
 <div>
 
@@ -57,7 +59,7 @@ Los requisitos para configurar el almacenamiento de datos para el archivado en L
 
 ## <a name="setting-up-exchange-storage-for-archiving-data"></a>Configuración de almacenamiento de Exchange para datos de archivado
 
-La configuración de Exchange para el almacenamiento de datos de archivado requiere que la implementación de Exchange ejecute Exchange 2013. Además, los buzones de correo de los usuarios deben estar hospedados en el servidor de Exchange 2013 y sus buzones se deben poner en conservación local. Para obtener más información acerca de la configuración de Exchange 2013, consulte la documentación del producto de Exchange.
+La configuración de Exchange para el almacenamiento de datos de archivado requiere que la implementación de Exchange ejecute Exchange 2013. Además, los buzones de correo de los usuarios deben estar hospedados en el servidor de Exchange 2013 y sus buzones se deben poner en espera de In-Place. Para obtener más información acerca de la configuración de Exchange 2013, consulte la documentación del producto de Exchange.
 
 </div>
 
@@ -71,13 +73,13 @@ Para las bases de datos de archivado de SQL Server, debe instalar SQL Server en 
 
 Cada servidor de bases de datos debe ejecutar una versión compatible de SQL Server. Para obtener más información sobre las versiones compatibles, consulte [Technical Requirements for archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) en la documentación referente a la planeación.
 
-Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluida como parte del procedimiento de instalación. Para obtener más información acerca de SQL Server, vea SQL Server [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045)TechCenter en.
+Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluida como parte del procedimiento de instalación. Para obtener más información acerca de SQL Server, vea SQL Server TechCenter en [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045) .
 
 <div>
 
 
 > [!NOTE]  
-> Asegúrese de que el tipo de inicio del servicio Agente SQL Server es automático y de que el servicio Agente SQL Server se está ejecutando para la instancia de SQL que contiene la base de datos de archivado, de modo que el trabajo de mantenimiento de SQL Server de archivado predeterminado se pueda ejecutar de acuerdo a su programación en el control del servicio Agente SQL Server.
+> Asegúrese de que el tipo de inicio del servicio Agente SQL Server es automático y de que el servicio Agente SQL Server se está ejecutando para la instancia de SQL que contiene la base de datos de archivado, de modo que el trabajo de mantenimiento de SQL Server de archivado predeterminado se pueda ejecutar según el control del servicio del Agente SQL Server.
 
 
 

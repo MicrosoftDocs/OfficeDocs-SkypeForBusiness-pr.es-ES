@@ -12,20 +12,22 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e71a1f02fda14c2bcbb54aaec5e12307421090e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 81690d4f006b5c1df3ed001369cbe5c4b1f560b8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215936"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520857"
 ---
+# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Información general sobre el enlace troncal SIP en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Información general sobre el enlace troncal SIP en Lync Server 2013
+
 
 </div>
 

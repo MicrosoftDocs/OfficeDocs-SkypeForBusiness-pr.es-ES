@@ -12,20 +12,22 @@ ms:contentKeyID: 48183337
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 492d4be1865bdb022736a62a2507c115c892b47b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ff5f403329c430e18767d9b334982ecccc3898b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521807"
 ---
+# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>Configurar el trasvase de registros de SQL Server en Lync Server 2013 para la base de datos principal del servidor de chat persistente
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>Configurar el trasvase de registros de SQL Server en Lync Server 2013 para la base de datos principal del servidor de chat persistente
+
 
 </div>
 
@@ -53,7 +55,7 @@ Mediante SQL Server Management Studio conectado a la instancia de base de datos 
 
 6.  En el cuadro **Ruta de acceso de red a la carpeta de copia de seguridad**, escriba la ruta de acceso de red al recurso compartido que creó para la carpeta de copia de seguridad de registro de las transacciones.
 
-7.  Si la carpeta de copia de seguridad se encuentra en el servidor principal, escriba la ruta de acceso local a la carpeta de copia de seguridad en el cuadro **si la carpeta de copia de seguridad se encuentra en el servidor principal,\\escriba una ruta de acceso local a la carpeta (ejemplo: c: copia de seguridad)** . (Si la carpeta de copia de seguridad no está ubicada en el servidor principal, puede dejar vacío este cuadro).
+7.  Si la carpeta de copia de seguridad se encuentra en el servidor principal, escriba la ruta de acceso local a la carpeta de copia de seguridad en el cuadro **si la carpeta de copia de seguridad se encuentra en el servidor principal, escriba una ruta de acceso local a la carpeta (ejemplo: c: \\ copia de seguridad)** . (Si la carpeta de copia de seguridad no está ubicada en el servidor principal, puede dejar vacío este cuadro).
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4e024ed5cdb29bb8a8a4170b89399f955254bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fec919491872df8dc2ab0f843be84d4d0de1c280
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521577"
 ---
+# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>Agregar sitios de sucursal a la topología en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>Agregar sitios de sucursal a la topología en Lync Server 2013
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417b304825da6a611ccfdaf3521b2d9571cd4756
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9663f7ee8b57ceba27e1a1892c30bb92a1c86ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521007"
 ---
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Información general sobre los tipos de direcciones IP para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Información general sobre los tipos de direcciones IP para Lync Server 2013
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**Última modificación del tema:** 2013-01-29_
 
 Tiene tres opciones para configurar las direcciones IP en Lync Server 2013. Puede configurar Lync Server 2013 para que admita solo IP versión 4 (IPv4), solo IP versión 6 (IPv6) o una combinación de ambas (conocidas como *pila dual*). Cada tipo de configuración entraña varios aspectos que debe tener en cuenta:
 
-  - **Solo**   se creó IPv6 de IPv4 porque el mundo se está quedando sin direcciones IPv4. En última instancia, IPv6 será totalmente compatible en todo el mundo, pero en este momento, muchas compañías y dispositivos que su empresa puede que necesiten comunicarse con no son compatibles con IPv6, y es posible que no lo hagan durante algún tiempo. Una configuración de solo IPv4 le ayudará a asegurarse de que la implementación de Lync Server se puede comunicar con la mayoría de los dispositivos existentes.
+  - **Solo IPv4**     IPv6 se creó porque el mundo se está quedando sin direcciones IPv4. En última instancia, IPv6 será totalmente compatible en todo el mundo, pero en este momento, muchas compañías y dispositivos que su empresa puede que necesiten comunicarse con no son compatibles con IPv6, y es posible que no lo hagan durante algún tiempo. Una configuración de solo IPv4 le ayudará a asegurarse de que la implementación de Lync Server se puede comunicar con la mayoría de los dispositivos existentes.
 
-  - **Solo IPv6 por**   el contrario, una implementación completa de IPv6, en este momento, excluirá la comunicación con muchos dispositivos existentes.
+  - **Solo IPv6**     Por el contrario, una implementación completa de IPv6, en este momento, excluirá la comunicación con muchos dispositivos existentes.
 
-  - **Stack dual**stack es una red donde están habilitadas las direcciones IPv4 e IPv6.    Esta configuración se admite en Lync Server 2013 porque, en la mayoría de los casos, la transición de Full-IPv4 a Full-IPv6 tardará varios años.
+  - **Pila dual**     Pila dual es una red donde están habilitadas las direcciones IPv4 e IPv6. Esta configuración se admite en Lync Server 2013 porque, en la mayoría de los casos, la transición de Full-IPv4 a Full-IPv6 tardará varios años.
 
 En las secciones siguientes se resume la compatibilidad entre estas tres configuraciones para varias características de Lync Server.
 
@@ -246,7 +248,7 @@ Lync Server 2013 no admite el desvío de medios para llamadas de red telefónica
 </table>
 
 
-\*La interfaz principal es la interfaz que se comunica con los componentes de Lync Server.
+\* La interfaz principal es la interfaz que se comunica con los componentes de Lync Server.
 
 </div>
 
@@ -339,7 +341,7 @@ En la siguiente tabla se muestra la matriz de compatibilidad entre el grupo de s
 </table>
 
 
-\*Use esta combinación únicamente en un entorno de laboratorio.
+\* Use esta combinación únicamente en un entorno de laboratorio.
 
 La tabla siguiente es una matriz de combinaciones admitidas de las interfaces perimetrales interna y externa.
 
@@ -381,7 +383,7 @@ La tabla siguiente es una matriz de combinaciones admitidas de las interfaces pe
 </table>
 
 
-\*Use esta combinación únicamente en un entorno de laboratorio.
+\* Use esta combinación únicamente en un entorno de laboratorio.
 
 </div>
 

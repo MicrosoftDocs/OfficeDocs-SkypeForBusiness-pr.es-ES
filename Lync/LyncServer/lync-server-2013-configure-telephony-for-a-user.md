@@ -12,20 +12,22 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3fe22d70f442eed0cda1bbf56e79fb0e0e21f8a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 86eade8f7a2ac1db627668ca78b8fb7869e6da71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520377"
 ---
+# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Configurar la telefonía para un usuario en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Configurar la telefonía para un usuario en Lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ La configuración de telefonía es una de las configuraciones individuales de un
 
 Entre las opciones de telefonía de usuario de Lync Server se incluyen las siguientes:
 
-  - **Audio/vídeo deshabilitado**   el usuario no puede realizar llamadas con audio y vídeo.
+  - **Audio y vídeo deshabilitados**     El usuario no puede realizar llamadas con audio y vídeo.
 
-  - **Solo de PC a PC**   el usuario solo puede realizar llamadas de audio o vídeo de PC a PC.
+  - Solo de equipo **a equipo**     El usuario solo puede realizar llamadas de audio o vídeo de PC a PC.
 
-  - **Telefonía IP**   empresarial el usuario puede usar la infraestructura de Lync Server 2013 para enrutar todas las llamadas entrantes y salientes. También puede realizar llamadas de equipo a equipo.
+  - **Telefonía IP empresarial**     El usuario puede usar la infraestructura de Lync Server 2013 para enrutar todas las llamadas entrantes y salientes. También puede realizar llamadas de equipo a equipo.
 
-  - **Control remoto de llamadas**   el usuario puede usar Lync Server 2013 para controlar el teléfono de escritorio y también puede realizar llamadas de equipo a equipo.
+  - Control remoto de **llamadas**     El usuario puede usar Lync Server 2013 para controlar el teléfono de escritorio y también puede realizar llamadas de equipo a equipo.
 
 Para obtener más información sobre cómo configurar la telefonía para una organización, vea [Configure Telephony for a User in Lync server 2013](lync-server-2013-configure-telephony-for-a-user.md) e [Deploying Enterprise Voice in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) en la documentación sobre implementación.
 
@@ -81,7 +83,7 @@ Para obtener más información sobre cómo configurar la telefonía para una org
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Modificación de las propiedades de la cuenta de usuario en Lync Server 2013](lync-server-2013-modifying-user-account-properties.md)  

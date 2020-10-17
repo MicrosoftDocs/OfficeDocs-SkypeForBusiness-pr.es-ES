@@ -12,20 +12,22 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73d914e77f5ae53e5b7e22cdc3392fe6bc22ef64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 45a6a3dcccc766e9905017c0b35949ab4ff6894d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179907"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520607"
 ---
+# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>Configurar el cifrado de medios para proveedores públicos en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>Configurar el cifrado de medios para proveedores públicos en Lync Server 2013
+
 
 </div>
 

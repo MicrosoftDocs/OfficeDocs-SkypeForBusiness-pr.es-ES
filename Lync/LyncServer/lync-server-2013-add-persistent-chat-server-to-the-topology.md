@@ -12,20 +12,22 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ae7ca7e475fd106608dea09fedf250ef541a5c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4656c21d9d28d84259bfaa108c399f36bd2c3d72
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191413"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521447"
 ---
+# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Agregar un servidor de chat persistente a la topología en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Agregar un servidor de chat persistente a la topología en Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ Para implementar varios grupos de servidores de chat persistente, repita el mism
     
 
     > [!IMPORTANT]  
-    > Si se está instalando el rol de servidor de chat persistente en un&nbsp;servidor de Lync Server 2013 Standard Edition, el FQDN debe coincidir con el FQDN del servidor Standard Edition.
+    > Si se está instalando el rol de servidor de chat persistente en un servidor de Lync Server 2013 &nbsp; Standard Edition, el FQDN debe coincidir con el FQDN del servidor Standard Edition.
 
     
     </div>
@@ -79,7 +81,7 @@ Para implementar varios grupos de servidores de chat persistente, repita el mism
 
 6.  Si su organización requiere compatibilidad con el cumplimiento, seleccione la casilla **Habilitar cumplimiento**. Si se elige, el servicio de cumplimiento del servidor de chat persistente se instala en el mismo equipo que el servidor front-end del servidor de chat persistente. Más adelante, se le pedirá que seleccione un servidor back-end de SQL Server para el cumplimiento del servidor de chat persistente.
 
-7.  Asigne la afinidad de sitios para el grupo de servidores de chat persistente. Active la casilla de verificación **usar este grupo de \<servidores\> como predeterminado para el sitio siteName** o **use este grupo de servidores como predeterminado para todos los sitios** para designar este grupo de servidores de chat persistente como grupo predeterminado para el sitio actual o todos los sitios. Cuando se usa el cliente de Lync 2013 para crear y administrar salones, la experiencia de creación y administración de la sala usa el grupo de servidores predeterminado asociado al sitio del usuario, de modo que pueda redirigir las operaciones de creación y administración de salas a ese grupo. Esto solo se aplica cuando se implementan varios grupos de servidores de chat persistente y se desea usar las características de creación y administración de salas del servidor de chat persistente.
+7.  Asigne la afinidad de sitios para el grupo de servidores de chat persistente. Active la casilla de verificación **usar este grupo de \<SiteName\> servidores como predeterminado para el sitio** o **use este grupo de servidores como predeterminado para todos los sitios** para designar este grupo de servidores de chat persistente como grupo predeterminado para el sitio actual o todos los sitios. Cuando se usa el cliente de Lync 2013 para crear y administrar salones, la experiencia de creación y administración de la sala usa el grupo de servidores predeterminado asociado al sitio del usuario, de modo que pueda redirigir las operaciones de creación y administración de salas a ese grupo. Esto solo se aplica cuando se implementan varios grupos de servidores de chat persistente y se desea usar las características de creación y administración de salas del servidor de chat persistente.
     
     <div>
     

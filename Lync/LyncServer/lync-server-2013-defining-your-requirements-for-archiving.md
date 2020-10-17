@@ -12,20 +12,22 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21f7d374d3c4263f2341386d2c4471f50e4b719d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a5f789f390e1cf104a0dc1b3a10a4116ba38c03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521667"
 ---
+# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Definición de los requisitos para el archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Definición de los requisitos para el archivado en Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Para implementar el archivado, debe decidir en primer lugar cómo satisfacer los
     
     Puede configurar esta opción en el nivel global, nivel de sitio y nivel de grupo. De forma predeterminada, el modo crítico no está habilitado.
 
-  - **Si se va a usar la integración de Microsoft Exchange**. Esta opción integra el almacenamiento de archivado con el almacenamiento de Exchange 2013, de modo que los datos archivados de Lync Server y los datos archivados de Exchange 2013 se almacenan juntos en Exchange. Puede usar la integración de Microsoft Exchange para el almacenamiento de datos de archivado para los usuarios hospedados en Exchange 2013, si sus buzones se han colocado en conservación local. Si no dispone de una implementación de Exchange 2013, o si prefiere no integrarlo, o si tiene algún usuario de Lync que no esté hospedado en Exchange 2013, puede implementar bases de datos de archivado independientes con SQL Server para almacenar datos archivados de Lync Communications. Puede configurar la opción de integración de Microsoft Exchange en el nivel global, en el nivel de sitio y en el nivel de grupo. De forma predeterminada, la integración de Microsoft Exchange no está habilitada.
+  - **Si se va a usar la integración de Microsoft Exchange**. Esta opción integra el almacenamiento de archivado con el almacenamiento de Exchange 2013, de modo que los datos archivados de Lync Server y los datos archivados de Exchange 2013 se almacenan juntos en Exchange. Puede usar la integración de Microsoft Exchange para el almacenamiento de datos de archivado para los usuarios hospedados en Exchange 2013, si sus buzones se han puesto en retención de In-Place. Si no dispone de una implementación de Exchange 2013, o si prefiere no integrarlo, o si tiene algún usuario de Lync que no esté hospedado en Exchange 2013, puede implementar bases de datos de archivado independientes con SQL Server para almacenar datos archivados de Lync Communications. Puede configurar la opción de integración de Microsoft Exchange en el nivel global, en el nivel de sitio y en el nivel de grupo. De forma predeterminada, la integración de Microsoft Exchange no está habilitada.
 
   - **Cómo se administrarán los datos archivados**. La base de datos de archivado no está pensada para la retención a largo plazo y Lync Server 2013 no proporciona una solución de detección electrónica (búsqueda) para los datos archivados, por lo que es necesario mover los datos a otro almacenamiento. Lync Server proporciona una herramienta de exportación de sesión que puede usar para exportar datos archivados y que crea transcripciones que permiten búsquedas de los datos archivados. Para la directiva global y para cada una de las directivas de usuario y de sitio que cree, puede habilitar la depuración de datos y especificar una de las siguientes opciones:
     
@@ -97,7 +99,7 @@ Si implementa el archivado en un grupo de servidores front-end o en un servidor 
 
 
 > [!NOTE]  
-> Para habilitar la delegación de tareas administrativas a la vez que se mantienen los estándares de seguridad&nbsp;de la organización, Lync Server 2013 usa el control de acceso basado en roles (RBAC). Con RBAC, se concede el privilegio administrativo asignando usuarios a roles administrativos predefinidos. Para configurar las directivas de archivado de Lync y las configuraciones de archivado, se debe asignar al usuario al rol CsArchivingAdministrator (a menos que la configuración se realice directamente en el servidor donde se implementa el archivado, en lugar de hacerlo de forma remota desde otro equipo). Para obtener más información acerca de RBAC, consulte <A href="lync-server-2013-planning-for-role-based-access-control.md">planeación del control de acceso basado en roles en Lync Server 2013</A> en la documentación referente a la planeación. Para obtener una lista de los derechos de usuario, los permisos y los roles necesarios para la implementación de archivado, consulte <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checklist for archiving in Lync Server 2013</A>, que está disponible en la documentación de planeación y en la documentación sobre implementación.<BR>Si usa la integración de Microsoft Exchange, la configuración de las directivas de Exchange requiere permisos y derechos de administrador adecuados. Para obtener más información, consulte la documentación de Exchange 2013.
+> Para habilitar la delegación de tareas administrativas a la vez que se mantienen los estándares de seguridad de la organización, Lync Server 2013 &nbsp; usa el control de acceso basado en roles (RBAC). Con RBAC, se concede el privilegio administrativo asignando usuarios a roles administrativos predefinidos. Para configurar las directivas de archivado de Lync y las configuraciones de archivado, se debe asignar al usuario al rol CsArchivingAdministrator (a menos que la configuración se realice directamente en el servidor donde se implementa el archivado, en lugar de hacerlo de forma remota desde otro equipo). Para obtener más información acerca de RBAC, consulte <A href="lync-server-2013-planning-for-role-based-access-control.md">planeación del control de acceso basado en roles en Lync Server 2013</A> en la documentación referente a la planeación. Para obtener una lista de los derechos de usuario, los permisos y los roles necesarios para la implementación de archivado, consulte <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checklist for archiving in Lync Server 2013</A>, que está disponible en la documentación de planeación y en la documentación sobre implementación.<BR>Si usa la integración de Microsoft Exchange, la configuración de las directivas de Exchange requiere permisos y derechos de administrador adecuados. Para obtener más información, consulte la documentación de Exchange 2013.
 
 
 

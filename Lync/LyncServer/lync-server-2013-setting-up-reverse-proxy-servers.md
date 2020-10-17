@@ -12,20 +12,22 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4ff853e3f31804e4bca55bd6a4576e25702b6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 640d8e97cf8b7a31e11cb2dc8f1b1394e4b1aae3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182004"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521817"
 ---
+# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Configuración de servidores proxy inversos para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Configuración de servidores proxy inversos para Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Para las implementaciones del servidor perimetral 2013 de Microsoft Lync Server,
 
   - Habilitar el cliente de Lync 2013, la aplicación de la tienda Windows de Lync y el cliente móvil de Lync 2013 para localizar las direcciones URL de detección de Lync (detección automática) y usar la API Web de comunicaciones unificadas (UCWA).
 
-Se recomienda configurar el proxy inverso HTTP para publicar todos los servicios web en todos los grupos. Publishing https://ExternalFQDN\* /publica todos los directorios virtuales de IIS para un grupo de servidores. Se necesita una regla de publicación para cada servidor Standard Edition, cada grupo de servidores front-end o cada director o grupo de directores de la organización.
+Se recomienda configurar el proxy inverso HTTP para publicar todos los servicios web en todos los grupos. Publishing https://ExternalFQDN/ \* publica todos los directorios virtuales de IIS para un grupo de servidores. Se necesita una regla de publicación para cada servidor Standard Edition, cada grupo de servidores front-end o cada director o grupo de directores de la organización.
 
 Además, deberá publicar las direcciones URL sencillas. Si la organización tiene un director o un grupo de directores, el proxy inverso HTTP escucha las solicitudes de HTTP/HTTPS para direcciones URL sencillas y las envía al directorio virtual de servicios web externos del director o grupo de directores. Si no se ha implementado ningún director, deberá designar un grupo para administrar las solicitudes para las URL sencillas. (Si este no es el grupo principal del usuario, las redireccionará a los servicios web del grupo principal del usuario). Las URL sencillas pueden administrarse mediante una regla de publicación web dedicada, o bien puede agregarlas a los nombres públicos de la regla de publicación web para el director. También tiene que publicar la dirección URL externa del servicio Detección automática.
 

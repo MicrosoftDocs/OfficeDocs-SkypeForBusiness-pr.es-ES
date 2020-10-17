@@ -12,20 +12,22 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38188067f5320c7e9fc6aa7ccef60812d5a42023
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e5fcc87635f302f58606703b57631c71bc907efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520867"
 ---
+# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Información general sobre el servidor de chat persistente en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Información general sobre el servidor de chat persistente en Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013, el servidor de chat persistente permite a los usuarios partici
 
   - Aumentar la divulgación de información y conocimientos importantes. Se pueden incluir documentos y vínculos en las discusiones para que todo el equipo pueda obtener acceso a ellos. Al enviar preguntas a un equipo más amplio, los usuarios pueden sacar partido de las respuestas proporcionadas por expertos en la materia. La integración con otros sistemas de información permite que los datos de la organización importantes se comuniquen fácilmente a grupos grandes.
 
-Para habilitar los salones de chat en Lync Server 2013, implemente Lync Server 2013 chat persistente. Para obtener información acerca de la habilitación de salones de chat, <https://go.microsoft.com/fwlink/p/?linkid=270945>consulte la ayuda de chat persistente en. Si los usuarios están habilitados para Lync Server y se ha implementado la compatibilidad con Lync Server, los usuarios pueden instalar y usar el chat persistente de Lync 2013 para proporcionar soporte de salón de chat.
+Para habilitar los salones de chat en Lync Server 2013, implemente Lync Server 2013 chat persistente. Para obtener información acerca de la habilitación de salones de chat, consulte la ayuda de chat persistente en <https://go.microsoft.com/fwlink/p/?linkid=270945> . Si los usuarios están habilitados para Lync Server y se ha implementado la compatibilidad con Lync Server, los usuarios pueden instalar y usar el chat persistente de Lync 2013 para proporcionar soporte de salón de chat.
 
 Si su organización debe seguir las normas de cumplimiento, puede implementar opcionalmente el servicio de cumplimiento de chat persistente.
 

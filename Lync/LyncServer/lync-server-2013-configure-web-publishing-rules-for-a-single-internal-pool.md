@@ -12,20 +12,22 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adf6a1d777e16827f41d9a795fde54fca49750e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d159fd8fa4ade4cb2dee44da7fd7bbd2376b2a80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204637"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520107"
 ---
+# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Configurar las reglas de publicación web para un solo grupo de servidores interno en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Configurar las reglas de publicación web para un solo grupo de servidores interno en Lync Server 2013
+
 
 </div>
 
@@ -82,7 +84,7 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
     
     </div>
 
-8.  En la página **detalles internos de publicación** , en el cuadro **ruta de acceso (opcional)** , escriba ** / ** como la ruta de acceso de la carpeta que se va a publicar.
+8.  En la página **detalles internos de publicación** , en el cuadro **ruta de acceso (opcional)** , escriba **/\*** como la ruta de acceso de la carpeta que se va a publicar.
     
     <div>
     
@@ -168,7 +170,7 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
     
     En el cuadro de diálogo **crear granja** de servidores del nombre de la **granja de servidores**, escriba un nombre (puede ser un nombre descriptivo con fines de identificación) para la primera dirección URL. Haga clic en **Siguiente**.
 
-6.  En el cuadro de diálogo **Agregar servidor** en **dirección de servidor**, escriba el nombre de dominio completo (FQDN) de los servicios web externos en el servidor front-end. Los nombres que se usarán aquí para fines de ejemplo son los mismos que se usan en la sección de planeación para el proxy inverso, el proxy inverso de certificados inverso [en Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). Al hacer referencia a la planificación del proxy inverso, `webext.contoso.com`escribimos el FQDN. Confirme que la casilla de verificación situada junto a **en línea** está seleccionada. Haga clic en **Agregar** para agregar el servidor al grupo de servidores web para esta configuración.
+6.  En el cuadro de diálogo **Agregar servidor** en **dirección de servidor**, escriba el nombre de dominio completo (FQDN) de los servicios web externos en el servidor front-end. Los nombres que se usarán aquí para fines de ejemplo son los mismos que se usan en la sección de planeación para el proxy inverso, el proxy inverso de certificados inverso [en Lync Server 2013](lync-server-2013-certificate-summary-reverse-proxy.md). Al hacer referencia a la planificación del proxy inverso, escribimos el FQDN `webext.contoso.com` . Confirme que la casilla de verificación situada junto a **en línea** está seleccionada. Haga clic en **Agregar** para agregar el servidor al grupo de servidores web para esta configuración.
     
     <div>
     
@@ -234,13 +236,13 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
 
 13. En la parte izquierda de la consola, haga clic en el nombre del servidor IIS. En la mitad de la consola, busque **URL Rewrite** en **IIS**. Haga doble clic en reescribir URL para abrir la configuración de las reglas de reescritura de URL. Debe ver las reglas para cada granja de servidores que creó en los pasos anteriores. Si no lo hace, asegúrese de hacer clic en el nombre del **servidor IIS** inmediatamente debajo del nodo **Página de inicio** en la consola del administrador de Internet Information Server.
 
-14. En el cuadro de diálogo de **reescritura de direcciones URL** , con webext.contoso.com como ejemplo, el nombre completo de la regla tal como se muestra es **\_ARR webext.contoso.com\_loadbalance\_SSL**.
+14. En el cuadro de diálogo de **reescritura de direcciones URL** , con webext.contoso.com como ejemplo, el nombre completo de la regla tal como se muestra es **ARR \_ webext.contoso.com \_ loadbalance \_ SSL**.
     
       - Haga doble clic en la regla para abrir el cuadro de diálogo **Editar regla de entrada** .
     
       - Haga clic en **Agregar...** en el cuadro de diálogo **condiciones** .
     
-      - En la **entrada de condición** de **Agregar condición** :, escriba **{http\_host}**. (A medida que escribe, aparece un cuadro de diálogo que le permitirá seleccionar la condición). en **comprobar si la cadena de entrada:** selecciona **coincide con el patrón**. En el **** tipo **\*** de entrada de patrón. Se debe seleccionar **omitir mayúsculas y minúsculas** . Haga clic en **Aceptar**.
+      - En la **entrada de condición** de **Agregar condición** :, escriba **{http \_ host}**. (A medida que escribe, aparece un cuadro de diálogo que le permitirá seleccionar la condición). en **comprobar si la cadena de entrada:** selecciona **coincide con el patrón**. En el tipo de **entrada de patrón** **\*** . Se debe seleccionar **omitir mayúsculas y minúsculas** . Haga clic en **Aceptar**.
     
       - Desplácese hacia abajo en el cuadro de diálogo **Editar regla de entrada** para buscar el cuadro de diálogo de **acción** . **Tipo de acción:** debe establecerse en **enrutar a granja de servidores**, **esquema:** set en **https://**, **granja de servidores:** establezca en la dirección URL a la que se aplica esta regla. Para este ejemplo, debe establecerse en **webext.contoso.com**. **Path:** se establece en **/{R: 0}**
     
@@ -252,7 +254,7 @@ Realice los siguientes procedimientos para crear las reglas de publicación web.
     
 
     > [!WARNING]  
-    > De forma predeterminada, las reglas HTTP también se crean y se indican mediante nombres similares a las reglas de SSL. En nuestro ejemplo actual, la regla HTTP se denominaría <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>. No es necesario realizar modificaciones en estas reglas, por lo que se pueden ignorar sin problemas.
+    > De forma predeterminada, las reglas HTTP también se crean y se indican mediante nombres similares a las reglas de SSL. Para nuestro ejemplo actual, la regla HTTP se denominaría <STRONG>ARR_webext. contoso. com _loadbalance</STRONG>. No es necesario realizar modificaciones en estas reglas, por lo que se pueden ignorar sin problemas.
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f90df8b71123a613624980b4ee63e1a17f23a769
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54ca98f168b694c67ac8e19dff1fc51896a14f6d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191473"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521497"
 ---
+# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>Agregar un sitio de sucursal de aplicación de sucursal con funciones de supervivencia de Lync Server 2010 a la topología
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>Agregar un sitio de sucursal de aplicación de sucursal con funciones de supervivencia de Lync Server 2010 a la topología
+
 
 </div>
 
@@ -41,7 +43,7 @@ Microsoft Lync Server 2010 las aplicaciones de sucursal con funciones de supervi
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Definir una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
@@ -50,7 +52,7 @@ Microsoft Lync Server 2010 las aplicaciones de sucursal con funciones de supervi
 [Configurar un tronco sin omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
 
 
-[Conexión de una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)  
+[Conectar una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)  
   
 
 </div>

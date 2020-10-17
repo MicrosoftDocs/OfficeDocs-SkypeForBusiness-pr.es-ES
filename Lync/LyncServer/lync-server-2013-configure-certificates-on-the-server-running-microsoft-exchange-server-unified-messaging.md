@@ -12,20 +12,22 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 515be9190f9c5012dfd75cdda6621b7f4acfd88f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 790798835694fcd76a4501c4b94e6ca59f220524
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205096"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521047"
 ---
+# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Configurar certificados en el servidor que ejecuta la mensajería unificada de Microsoft Exchange Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Configurar certificados en el servidor que ejecuta la mensajería unificada de Microsoft Exchange Server
+
 
 </div>
 
@@ -65,7 +67,7 @@ El servidor de Exchange debe estar configurado con un certificado de servidor pa
 
 ## <a name="to-download-the-ca-certificate"></a>Para descargar el certificado de la entidad de certificación
 
-1.  En el servidor que ejecuta la mensajería unificada de Exchange, haga clic en **Inicio**, en **ejecutar**, escriba **\<http://\>nombre del servidor de CA**emisora/certsrv y, a continuación, haga clic en **Aceptar**.
+1.  En el servidor que ejecuta la mensajería unificada de Exchange, haga clic en **Inicio**, en **ejecutar**, escriba **http:// \<name of your Issuing CA Server\> /CertSrv**y, a continuación, haga clic en **Aceptar**.
 
 2.  En **Seleccione una tarea**, haga clic en **Descargar certificado de CA, cadena de certificados o CRL**.
 
@@ -98,7 +100,7 @@ El servidor de Exchange debe estar configurado con un certificado de servidor pa
 
 5.  En el cuadro de diálogo **seleccionar equipo** , compruebe que la casilla **equipo local: (el equipo en el que se está ejecutando esta consola)** esté activada y, a continuación, haga clic en **Finalizar**.
 
-6.  Haga clic en **Cerrar** y, a continuación, en **Aceptar**.
+6.  Haga clic en **Cerrar** y en **Aceptar**.
 
 7.  En el árbol de la consola, expanda **certificados (equipo local)**, expanda **entidades de certificación raíz de confianza**y, a continuación, haga clic en **certificados**.
 
@@ -130,7 +132,7 @@ El servidor de Exchange debe estar configurado con un certificado de servidor pa
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Para configurar la mensajería unificada de Exchange Server 2013 con Lync Server
 
-1.  Para obtener más información, consulte "integrar la mensajería unificada de Exchange 2013 con Lync Server" [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)en la documentación de Exchange Server en.
+1.  Para obtener más información, consulte "integrar la mensajería unificada de Exchange 2013 con Lync Server" en la documentación de Exchange Server en [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372) .
 
 </div>
 
@@ -138,7 +140,7 @@ El servidor de Exchange debe estar configurado con un certificado de servidor pa
 
 ## <a name="to-create-a-certificate-request-and-install-the-certificate-on-exchange-server-2007-sp1"></a>Para crear una solicitud de certificado e instalar el certificado en Exchange Server 2007 (SP1)
 
-1.  En el servidor que ejecuta la mensajería unificada de Exchange, haga clic en **Inicio**, en **Ejecutar**, escriba **\<http://** nombre del servidor**\>** de CA emisora/certsrv y, a continuación, haga clic en **Aceptar**.
+1.  En el servidor que ejecuta la mensajería unificada de Exchange, haga clic en **Inicio**, en **ejecutar**, escriba **http:// \<**name of your Issuing CA Server**\> /CertSrv**y, a continuación, haga clic en **Aceptar**.
 
 2.  En **Seleccione una tarea**, haga clic en **solicitar un certificado**.
 
@@ -177,13 +179,13 @@ El servidor de Exchange debe estar configurado con un certificado de servidor pa
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Para crear un certificado en Exchange Server 2010
 
-1.  Inicie sesión en el servidor que ejecuta la mensajería unificada de Exchange con los derechos de usuario adecuados. Para obtener más información, consulte "Client Access Permissions" en [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499).
+1.  Inicie sesión en el servidor que ejecuta la mensajería unificada de Exchange con los derechos de usuario adecuados. Para obtener más información, consulte "Client Access Permissions" en [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
 2.  Consulte los siguientes procedimientos para crear el certificado:
     
-    1.  "Crear un nuevo certificado de Exchange" en[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  "Crear un nuevo certificado de Exchange" en [https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  "Importar un certificado de Exchange" en[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  "Importar un certificado de Exchange" en [https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +238,9 @@ El servidor de Exchange debe estar configurado con un certificado de servidor pa
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Para asignar el certificado en Exchange Server 2010
 
-1.  Inicie sesión en el servidor que ejecuta la mensajería unificada de Exchange con los derechos de usuario adecuados. Para obtener más información, consulte "Client Access Permissions" en [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499).
+1.  Inicie sesión en el servidor que ejecuta la mensajería unificada de Exchange con los derechos de usuario adecuados. Para obtener más información, consulte "Client Access Permissions" en [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
-2.  Para obtener el procedimiento para asignar el certificado, consulte "asignar servicios a un certificado" [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)en.
+2.  Para obtener el procedimiento para asignar el certificado, consulte "asignar servicios a un certificado" en [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497) .
 
 </div>
 

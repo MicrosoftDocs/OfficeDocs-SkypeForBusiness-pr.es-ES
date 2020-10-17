@@ -12,20 +12,22 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68f2589e6c30a6ca928230dde2deb32f23e91967
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e1c382151d34751e7e934f15fdd2855ce696e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520837"
 ---
+# <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Información general sobre el servicio de registro centralizado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Información general sobre el servicio de registro centralizado en Lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Última modificación del tema:** 2013-02-22_
 
 El servicio de registro centralizado está diseñado para proporcionar un medio para la recopilación de datos controlada, con un ámbito amplio o estrecho. Puede recopilar datos de todos los servidores de la implementación a la vez, definir elementos específicos para realizar un seguimiento, establecer marcas de seguimiento y devolver resultados de búsqueda de un único equipo o una agregación de todos los datos de todos los servidores. El servicio de registro centralizado se ejecuta en todos los servidores de la implementación. La arquitectura del servicio de registro centralizado consta de los siguientes agentes y servicios:
 
-  - *Agente de servicio de registro centralizado*   ClsAgent. exe es el ejecutable de servicio que se comunica con el controlador y recibe los comandos que el administrador emite el controlador. El agente se ejecuta como un servicio en cada equipo de Lync Server. Cuando el agente recibe un comando, ejecuta el comando, envía mensajes a los componentes definidos para el seguimiento y escribe los registros de seguimiento en el disco. También lee los registros de seguimiento de su equipo y envía los datos de seguimiento de vuelta al controlador cuando se solicitan. El ClsAgent escucha los comandos en los siguientes puertos: **tcp 50001**, **TCP 50002**y **TCP 50003**.
+  - Agente de servicio de *registro centralizado*    ClsAgent.exe es el ejecutable de servicio que se comunica con el controlador y recibe los comandos que el administrador emite el controlador. El agente se ejecuta como un servicio en cada equipo de Lync Server. Cuando el agente recibe un comando, ejecuta el comando, envía mensajes a los componentes definidos para el seguimiento y escribe los registros de seguimiento en el disco. También lee los registros de seguimiento de su equipo y envía los datos de seguimiento de vuelta al controlador cuando se solicitan. El ClsAgent escucha los comandos en los siguientes puertos: **tcp 50001**, **TCP 50002**y **TCP 50003**.
 
-  - *Controlador del servicio de registro centralizado*   ClsControllerLib. dll es el motor de ejecución del comando para el shell de administración de Lync Server y para ClsController. exe. CLSControllerLib. dll envía los comandos iniciar, detener, vaciar y buscar a la ClsAgent. Cuando se envían los comandos de búsqueda, los registros resultantes se devuelven a ClsControllerLib. dll y se agregan. El controlador es responsable de enviar comandos al agente, recibir el estado de dichos comandos y administrar los datos del archivo de registro de búsqueda a medida que se devuelven de todos los agentes en un equipo en el ámbito de búsqueda y de agregar los datos de registro en un sentido y ordenados. conjunto de resultados. La información de los temas siguientes se centra en el uso del shell de administración de Lync Server. ClsController. exe se limita a un subconjunto de las características y funciones que están disponibles en el shell de administración de Lync Server. La ayuda para ClsController. exe está disponible en la línea de comandos `ClsController` escribiendo en el directorio predeterminado C\\: archivos\\de programa\\archivos comunes Microsoft Lync\\Server 2013 ClsAgent.
+  - Controlador del servicio de *registro centralizado*    ClsControllerLib.dll es el motor de ejecución de comandos para el shell de administración de Lync Server y para ClsController.exe. CLSControllerLib.dll envía los comandos iniciar, detener, vaciar y buscar a la ClsAgent. Cuando se envían los comandos de búsqueda, los registros resultantes se devuelven a los ClsControllerLib.dll y se agregan. El controlador es responsable de enviar comandos al agente, recibir el estado de dichos comandos y administrar los datos del archivo de registro de búsqueda a medida que se devuelven de todos los agentes en un equipo en el ámbito de búsqueda y de agregar los datos de registro en un conjunto de resultados significativo y ordenado. La información de los temas siguientes se centra en el uso del shell de administración de Lync Server. ClsController.exe se limita a un subconjunto de las características y funciones que están disponibles en el shell de administración de Lync Server. La ayuda para ClsController.exe está disponible en la línea de comandos escribiendo `ClsController` en el directorio predeterminado C: archivos de \\ programa archivos \\ comunes \\ Microsoft Lync Server 2013 \\ ClsAgent.
 
 **ClsController Communications a ClsAgent**
 
@@ -61,13 +63,13 @@ ClsAgent mantiene un archivo de índice de ALL. Archivos de caché que tiene en 
 
 </div>
 
-Los archivos de registro resultantes se pueden leer y analizar con una amplia variedad de herramientas, entre las que se incluyen **Snooper. exe** y cualquier otra herramienta que pueda leer un archivo de texto, como **Notepad. exe**. Snooper. exe forma parte de las herramientas de depuración de Lync Server 2013 y está disponible como [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)descarga desde el Web.
+Los archivos de registro resultantes se pueden leer y analizar con una amplia variedad de herramientas, incluidas **Snooper.exe** y cualquier herramienta que pueda leer un archivo de texto, como **Notepad.exe**. Snooper.exe forma parte de las herramientas de depuración de Lync Server 2013 y está disponible como descarga desde el Web [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257) .
 
-Al igual que OCSLogger, el servicio de registro centralizado tiene varios componentes de los que se realiza el seguimiento y proporciona opciones para\_seleccionar marcas,\_como TF Component y TF diag. El servicio de registro centralizado también conserva las opciones de nivel de registro de OCSLogger.
+Al igual que OCSLogger, el servicio de registro centralizado tiene varios componentes de los que se realiza el seguimiento y proporciona opciones para seleccionar marcas, como TF \_ Component y TF \_ diag. El servicio de registro centralizado también conserva las opciones de nivel de registro de OCSLogger.
 
 La ventaja más importante para usar el shell de administración de Lync Server a través de la línea de comandos ClsController es que puede configurar y definir escenarios nuevos con los proveedores seleccionados destinados al espacio de problemas, los indicadores personalizados y los niveles de registro. Los escenarios disponibles para ClsController se limitan a los que se definen para el archivo ejecutable.
 
-En versiones anteriores, se proporcionaba OCSLogger. exe para permitir que los administradores y el personal de soporte técnico recopilaran archivos de seguimiento de los equipos de la implementación. OCSLogger, para todos sus puntos fuertes ha tenido una deficiencia. Solo se podían recopilar registros en un equipo en un momento dado. Puede iniciar sesión en varios equipos con copias independientes de OCSLogger, pero ha terminado con varios registros y no tiene una forma sencilla de agregar los resultados.
+En versiones anteriores, se proporcionaba OCSLogger.exe para permitir a los administradores y al personal de soporte recopilar archivos de seguimiento de los equipos de la implementación. OCSLogger, para todos sus puntos fuertes ha tenido una deficiencia. Solo se podían recopilar registros en un equipo en un momento dado. Puede iniciar sesión en varios equipos con copias independientes de OCSLogger, pero ha terminado con varios registros y no tiene una forma sencilla de agregar los resultados.
 
 Cuando un usuario solicita una búsqueda de registros, el ClsController determina a qué máquinas se debe enviar la solicitud (es decir, en función de los escenarios seleccionados). También determina si es necesario enviar la búsqueda al recurso compartido de archivos donde se encuentran los archivos. ETL guardados. Cuando los resultados de la búsqueda se devuelven a ClsController, el controlador combina los resultados en un único conjunto de resultados ordenado por tiempo que se presenta al usuario. Los usuarios pueden guardar los resultados de la búsqueda en su equipo local para analizarlos más detalladamente.
 
@@ -89,7 +91,7 @@ Cuando se produzca un problema, inicie un segundo escenario relacionado con el p
 
 
 > [!TIP]  
-> Cuando aparezca un escenario con problemas en Lync Server, empiece a preguntarse "¿Qué es lo que ya sé sobre el problema?". Si cuantifica los límites del problema, puede eliminar una gran parte de las entidades operativas en Lync Server.<BR>Considere un escenario de ejemplo en el que sabe que los usuarios no obtienen los resultados actuales al buscar un contacto. No tiene sentido buscar problemas en los componentes multimedia, la telefonía IP empresarial, la Conferencia y varios otros componentes. Lo que quizás no sepa es dónde se encuentra realmente el problema: ¿en el cliente o es un problema del servidor? El replicador de usuarios recopila los contactos de Active Directory y los entrega al cliente mediante el servidor de libreta de direcciones (ABserver). El abcargador obtiene sus actualizaciones de la base de datos RTC (donde el replicador de usuarios las escribió) y las recopila en archivos de la libreta de direcciones, de manera predeterminada – 1:30 A.M. Los clientes de Lync Server recuperan la nueva libreta de direcciones con una programación aleatoria. Como sabe cómo funciona el proceso, puede reducir la búsqueda por la posible causa de un problema relacionado con los datos recopilados desde Active Directory por el replicador de usuarios, el que no puede recuperar y crear los archivos de la libreta de direcciones o los clientes no descargar el archivo de la libreta de direcciones.
+> Cuando aparezca un escenario con problemas en Lync Server, empiece a preguntarse "¿Qué es lo que ya sé sobre el problema?". Si cuantifica los límites del problema, puede eliminar una gran parte de las entidades operativas en Lync Server.<BR>Considere un escenario de ejemplo en el que sabe que los usuarios no obtienen los resultados actuales al buscar un contacto. No tiene sentido buscar problemas en los componentes multimedia, la telefonía IP empresarial, la Conferencia y varios otros componentes. Lo que quizás no sepa es dónde se encuentra realmente el problema: ¿en el cliente o es un problema del servidor? El replicador de usuarios recopila los contactos de Active Directory y los entrega al cliente mediante el servidor de libreta de direcciones (ABserver). El abcargador obtiene sus actualizaciones de la base de datos RTC (donde el replicador de usuarios las escribió) y las recopila en archivos de la libreta de direcciones, de manera predeterminada – 1:30 A.M. Los clientes de Lync Server recuperan la nueva libreta de direcciones con una programación aleatoria. Como sabe cómo funciona el proceso, puede reducir la búsqueda por la posible causa de un problema relacionado con los datos recopilados desde Active Directory por el replicador de usuarios, que el encargador no recupere y cree los archivos de la libreta de direcciones o que los clientes no descarguen el archivo de la libreta de direcciones.
 
 
 

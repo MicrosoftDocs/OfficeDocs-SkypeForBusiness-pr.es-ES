@@ -12,20 +12,22 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72d08d786f41dc606b419f9452970d683b8da37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a5f7a6a30e510bdcdb57d9f8a2f5a15fe8a7f37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188663"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521197"
 ---
+# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Administración del servicio de libreta de direcciones en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Administración del servicio de libreta de direcciones en Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ Las reglas de normalización que se usaron en versiones anteriores no funcionen 
 
 ## <a name="user-replicator-and-address-book-server"></a>Replicador de usuarios y servidor de libreta de direcciones
 
-El servidor de libreta de direcciones usa datos que aporta el Replicador de usuarios para actualizar la información que obtiene inicialmente de la lista global de direcciones (LDG). El replicador de usuarios escribe los atributos de servicios de dominio de Active Directory para cada usuario, contacto y grupo en la tabla AbUserEntry de la base de datos y el servidor de la libreta de direcciones sincroniza los datos de usuario de la base de datos en archivos del almacén de archivos del servidor de la libreta de direcciones y en la base de datos de la libreta de direcciones RTCab. En el esquema de la tabla AbUserEntry se usan dos columnas, **UserGuid** y **UserData**. **UserGuid** es la columna de índice y contiene el GUID de 16 bytes del objeto de Active Directory. **UserData** es una columna de imagen que contiene todos los atributos de servicios de dominio de Active Directory mencionados anteriormente para ese contacto.
+El servidor de libreta de direcciones usa datos que aporta el Replicador de usuarios para actualizar la información que obtiene inicialmente de la lista global de direcciones (LDG). El replicador de usuarios escribe los atributos de servicios de dominio de Active Directory para cada usuario, contacto y grupo en la tabla AbUserEntry de la base de datos y el servidor de la libreta de direcciones sincroniza los datos de usuario de la base de datos en archivos del almacén de archivos del servidor de libreta de direcciones y en la base de datos de la libreta de direcciones RTCab. En el esquema de la tabla AbUserEntry se usan dos columnas, **UserGuid** y **UserData**. **UserGuid** es la columna de índice y contiene el GUID de 16 bytes del objeto de Active Directory. **UserData** es una columna de imagen que contiene todos los atributos de servicios de dominio de Active Directory mencionados anteriormente para ese contacto.
 
 El replicador de usuarios determina qué atributos de Active Directory se deben escribir mediante la lectura de una tabla de configuración ubicada en la misma instancia basada en SQL Server que la tabla AbUserEntry. La tabla ABAttribute contiene tres columnas, **ID**, **Name**, **Flags**y **enable**. La tabla se crea durante la configuración de la base de datos. Si la tabla ABAttribute está vacía, el replicador de usuarios omite su lógica de procesamiento de la tabla AbUserEntry. Los atributos del servidor de libreta de direcciones son dinámicos y se recuperan de la tabla ABAttribute, que inicialmente escribe el servidor de la libreta de direcciones cuando se activa el servidor de la libreta de direcciones.
 
@@ -100,12 +102,12 @@ La activación del servidor de la libreta de direcciones rellena la tabla ABAttr
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Título</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>2,5</p></td>
+<td><p>5 </p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -130,22 +132,22 @@ La activación del servidor de la libreta de direcciones rellena la tabla ABAttr
 <td><p>0x09022800</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>homePhone</p></td>
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>11 </p></td>
-<td><p>Mobile</p></td>
+<td><p>12</p></td>
+<td><p>Móvil</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12</p></td>
+<td><p>12 </p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>
 <tr class="odd">
-<td><p>apartado</p></td>
+<td><p>13 </p></td>
 <td><p>ipPhone</p></td>
 <td><p>0x0D302000</p></td>
 </tr>
@@ -161,7 +163,7 @@ La activación del servidor de la libreta de direcciones rellena la tabla ABAttr
 </tr>
 <tr class="even">
 <td><p>16 </p></td>
-<td><p>Departamento</p></td>
+<td><p>Department</p></td>
 <td><p>0x10000000</p></td>
 </tr>
 <tr class="odd">
@@ -204,7 +206,7 @@ Los números de la columna **ID** deben ser únicos y nunca se deben volver a us
 <thead>
 <tr class="header">
 <th>Atributo</th>
-<th>Descripción</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -218,7 +220,7 @@ Los números de la columna **ID** deben ser únicos y nunca se deben volver a us
 </tr>
 <tr class="odd">
 <td><p>0x2</p></td>
-<td><p>Un atributo de cadena, pero se incluye solo si el valor del atributo &quot;empieza por&quot;Tel:. Es principalmente para atributos de cadena con varios valores, específicamente <strong>proxyAddresses</strong>. En este caso, el servidor de libreta de direcciones sólo <strong></strong> está interesado en las entradas &quot;de proxyAddresses&quot;que comienzan por Tel:. Por lo tanto, para ahorrar espacio, el replicador de usuarios solo almacena las entradas que &quot;comienzan por&quot;Tel:.</p></td>
+<td><p>Un atributo de cadena, pero se incluye solo si el valor del atributo empieza por &quot; Tel: &quot; . Es principalmente para atributos de cadena con varios valores, específicamente <strong>proxyAddresses</strong>. En este caso, el servidor de libreta de direcciones sólo está interesado en las entradas de <strong>proxyAddresses</strong> que comienzan por &quot; Tel: &quot; . Por lo tanto, para ahorrar espacio, el replicador de usuarios solo almacena las entradas que comienzan por &quot; Tel: &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p>0X3</p></td>
@@ -226,11 +228,11 @@ Los números de la columna **ID** deben ser únicos y nunca se deben volver a us
 </tr>
 <tr class="odd">
 <td><p>0x4</p></td>
-<td><p>Un atributo de cadena, pero se incluye solo si el valor del atributo &quot;empieza por&quot; SMTP: e &quot; @ &quot; incluye el símbolo.</p></td>
+<td><p>Un atributo de cadena, pero se incluye solo si el valor del atributo empieza por &quot; SMTP: &quot; e incluye el &quot; @ &quot; símbolo.</p></td>
 </tr>
 <tr class="even">
 <td><p>0X5</p></td>
-<td><p>Un atributo de cadena, pero se incluye solo si el valor del atributo comienza &quot;por Tel&quot; : &quot;o SMTP&quot; : e incluye &quot; @ &quot; el símbolo.</p></td>
+<td><p>Un atributo de cadena, pero se incluye solo si el valor del atributo comienza por &quot; Tel: &quot; o &quot; SMTP: &quot; e incluye el &quot; @ &quot; símbolo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x100</p></td>
@@ -278,7 +280,7 @@ En versiones anteriores de Lync Server, al aplicar un cambio en Active Directory
 
 
 > [!NOTE]  
-> De forma predeterminada, el replicador de usuarios de Lync Server se ejecuta automáticamente cada 5 minutos. Puede configurar este intervalo mediante Set-CSUserReplicatorConfiguration-ReplicationCycleInterval &lt; &gt;.
+> De forma predeterminada, el replicador de usuarios de Lync Server se ejecuta automáticamente cada 5 minutos. Puede configurar este intervalo mediante Set-CSUserReplicatorConfiguration-ReplicationCycleInterval &lt; &gt; .
 
 
 
@@ -315,7 +317,7 @@ En estos momentos, existen tres tipos diferentes de filtros. En la tabla siguien
 <thead>
 <tr class="header">
 <th>Atributo</th>
-<th>Descripción</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -347,7 +349,7 @@ En estos momentos, existen tres tipos diferentes de filtros. En la tabla siguien
 
 Pese a que puede filtrar la libreta de direcciones para que incluya exclusivamente a ciertos usuarios, cuando se restringen entradas no se limita la capacidad de otros usuarios para ponerse en contacto con los usuarios filtrados o para ver su estado de presencia. los usuarios siempre pueden buscar usuarios y enviar manualmente mensajes instantáneos o iniciar llamadas manualmente a usuarios que no estén en la libreta de direcciones si especifican el nombre de inicio de sesión completo del usuario. Asimismo, la información de contacto para un usuario se puede encontrar en Outlook.
 
-Aunque tener registros de contactos completos en los archivos de la libreta de direcciones permite usar Lync Server para iniciar el correo electrónico, el teléfono o las llamadas de telefonía IP empresarial (es decir, si la telefonía IP empresarial está habilitada en el servidor) con los usuarios que no están configurados para el inicio de sesión Protocol (SIP), algunas organizaciones prefieren incluir sólo usuarios con SIP habilitado en sus entradas del servidor de la libreta de direcciones. Puede filtrar la libreta de direcciones para que incluya solamente a usuarios habilitados para SIP si borra el bit 0x800 en la columna **Indicadores** de los siguientes atributos obligatorios: **mailNickname**, **telephoneNumber**, **homePhone** y **mobile**. También puede filtrar la libreta de direcciones para que incluya solamente a usuarios habilitados para SIP; para ello establezca un bit 0x8000 (atributo de inclusión) en la columna **Indicadores** del atributo **msRTCSIP-PrimaryUserAddress**. Esto sirve también de ayuda para excluir cuentas del servicio de los archivos de la libreta de direcciones.
+Aunque tener registros de contactos completos en los archivos de la libreta de direcciones permite usar Lync Server para iniciar el correo electrónico, el teléfono o las llamadas de telefonía IP empresarial (es decir, si la telefonía IP empresarial está habilitada en el servidor) con los usuarios que no están configurados para el protocolo de inicio de sesión (SIP), algunas organizaciones prefieren incluir sólo los usuarios con SIP Puede filtrar la libreta de direcciones para que incluya solamente a usuarios habilitados para SIP si borra el bit 0x800 en la columna **Indicadores** de los siguientes atributos obligatorios: **mailNickname**, **telephoneNumber**, **homePhone** y **mobile**. También puede filtrar la libreta de direcciones para que incluya solamente a usuarios habilitados para SIP; para ello establezca un bit 0x8000 (atributo de inclusión) en la columna **Indicadores** del atributo **msRTCSIP-PrimaryUserAddress**. Esto sirve también de ayuda para excluir cuentas del servicio de los archivos de la libreta de direcciones.
 
 Una vez haya modificado la tabla AbAttribute, puede actualizar los datos en la tabla AbUserEntry mediante la ejecución del comando**Update-CsUserDatabase** del cmdlet. Cuando se haya completado la replicación, puede actualizar el archivo en el almacén de archivos del servidor de la libreta de direcciones ejecutando manualmente el comando **UpdateCsAddressBook** del cmdlet.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4b3efe4e5d8e5cb84631969205842e56024394c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab2c3cfec8a685251a3a1627392d6d4eb9691748
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521837"
 ---
+# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>Configuración de la conectividad de mensajería instantánea pública en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>Configuración de la conectividad de mensajería instantánea pública en Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ Si su organización desea admitir la conectividad de mensajería instantánea p�
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    El nombre de certificado predeterminado de la plantilla usada para Lync Server es servidor Web. Especifique el nombre \<\> de la plantilla solo si necesita usar una plantilla que sea diferente de la plantilla predeterminada.
+    El nombre de certificado predeterminado de la plantilla usada para Lync Server es servidor Web. Especifique solo \<template name\> si necesita usar una plantilla que sea diferente de la plantilla predeterminada.
     
     <div>
     
