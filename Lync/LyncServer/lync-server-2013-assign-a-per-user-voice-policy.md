@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asignar una directiva de voz por usuario'
+description: 'Lync Server 2013: asignar una directiva de voz por usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: e7ea0b171e10302b4c466187c54324cc2548e821
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943933"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563566"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Asignar una directiva de voz por usuario en Lync Server 2013
 
@@ -68,7 +69,7 @@ Puede asignar directivas de voz por usuario con Windows PowerShell y el cmdlet *
 
 Para obtener más información, consulte el tema de ayuda para el cmdlet [Grant-CsVoicePolicy](https://technet.microsoft.com/library/gg398828\(v=ocs.15\)) .
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Deshabilitar a un usuario para la telefonía IP empresarial en Lync Server 2013](lync-server-2013-disable-a-user-for-enterprise-voice.md)  

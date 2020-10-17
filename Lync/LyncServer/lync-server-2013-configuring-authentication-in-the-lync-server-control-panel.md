@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la autenticación en el panel de control de Lync Server'
+description: 'Lync Server 2013: configurar la autenticación en el panel de control de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d77e0cf27ec0bd8040e918fcbcd54c3229fd046b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5819c6fd52fcf1146b63350a8abbc3e79753e696
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562506"
 ---
 # <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a>Configuración de la autenticación en el panel de control de Lync Server 2013
 

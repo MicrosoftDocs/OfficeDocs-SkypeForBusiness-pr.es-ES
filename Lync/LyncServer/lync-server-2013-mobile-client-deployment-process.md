@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: proceso de implementación de cliente móvil'
+description: 'Lync Server 2013: proceso de implementación de clientes móviles.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d08cf2c6be2bef797a892dcc06798307e811bc5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4fa4e9e1d272915e06009df5c06480309ce104e0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505677"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563486"
 ---
 # <a name="mobile-client-deployment-process-in-lync-server-2013"></a>Proceso de implementación de clientes móviles en Lync Server 2013
 

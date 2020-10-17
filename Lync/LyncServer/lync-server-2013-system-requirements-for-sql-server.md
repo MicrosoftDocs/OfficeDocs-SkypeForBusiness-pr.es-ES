@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos del sistema para SQL Server'
+description: 'Lync Server 2013: requisitos del sistema para SQL Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b9aa4a51ed7e75b413b0712297d02f5e8050fa2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 524136174be8798aed1dc7d5d236dbb45ab18330
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497377"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562636"
 ---
 # <a name="system-requirements-for-sql-server-in-lync-server-2013"></a>Requisitos del sistema para SQL Server en Lync Server 2013
 

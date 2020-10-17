@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planeación de la autenticación en dos fases'
+description: 'Lync Server 2013: Planeación de la autenticación en dos fases.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1932164cd1236257bbb81d1503b0310c8c55526e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a3a2cd5508f6ce9a8a389b0059a09747b9f9a09
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513457"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564006"
 ---
 # <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planeación de la autenticación en dos fases en Lync Server 2013
 

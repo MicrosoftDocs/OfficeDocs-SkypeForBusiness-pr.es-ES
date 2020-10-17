@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de Lync Server'
+description: 'Lync Server 2013: implementación de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2ce2e8fd07af35967ade8824e9f6941d3e872bd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 569b1e8b07954f04ee7e4f73de51494ece27157e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499087"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564176"
 ---
 # <a name="deploying-lync-server-2013"></a>Implementación de Lync Server 2013
 

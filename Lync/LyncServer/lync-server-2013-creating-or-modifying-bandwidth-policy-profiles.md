@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: creación o modificación de perfiles de directiva de ancho de banda'
+description: 'Lync Server 2013: creación o modificación de perfiles de directiva de ancho de banda.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183336
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee744459f284355b0bd4aa13f7ac6a1cfba908e2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: de8450cf8f4da53bf4a7e096fd7618b7fc6d055b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562976"
 ---
 # <a name="creating-or-modifying-bandwidth-policy-profiles-in-lync-server-2013"></a>Creación o modificación de perfiles de directiva de ancho de banda en Lync Server 2013
 

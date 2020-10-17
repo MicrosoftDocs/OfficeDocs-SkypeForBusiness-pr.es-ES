@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informes de uso del sistema'
+description: 'Lync Server 2013: informes de uso del sistema.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2bf366e2caeee998bcf3e7d9f65b7f8b8167392
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6fffaf22dacbc68958e64090fd4c7d44e32f8ade
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497327"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562596"
 ---
 # <a name="system-usage-reports-in-lync-server-2013"></a>Informes de uso del sistema en Lync Server 2013
 

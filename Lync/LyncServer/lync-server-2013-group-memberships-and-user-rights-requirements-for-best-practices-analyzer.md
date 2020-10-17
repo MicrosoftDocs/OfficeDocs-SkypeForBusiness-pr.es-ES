@@ -1,5 +1,6 @@
 ---
 title: Pertenencias a grupos y requisitos de derechos de usuario para el analizador de procedimientos recomendados
+description: Pertenencias a grupos y requisitos de derechos de usuario para analizador de procedimientos recomendados.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1a72a7fdc73aeda96a2875ac48fd51b6023ddba
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 64a7d785a77701c6796488178a7cce10caf54f42
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506077"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564196"
 ---
 # <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a>Pertenencias a grupos y requisitos de derechos de usuario para el analizador de procedimientos recomendados en Lync Server 2013
 

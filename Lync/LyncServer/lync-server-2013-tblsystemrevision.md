@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblSystemRevision'
+description: 'Lync Server 2013: tblSystemRevision.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f30248bb39d24e5fd24deb5d4ee2afb938ef7c24
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cc0a3eab1c3792cbf8f72f51bbb8306e8fcccdde
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497317"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563796"
 ---
 # <a name="tblsystemrevision-in-lync-server-2013"></a>tblSystemRevision en Lync Server 2013
 

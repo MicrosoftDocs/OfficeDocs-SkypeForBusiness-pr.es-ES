@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eliminar un intervalo numérico sin asignar'
+description: 'Lync Server 2013: eliminar un intervalo de números sin asignar.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1a27598af0185dcccac211f89ea7d7a88060fea
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 977cae1432c43a7df33e26597efdb364a7fbea08
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501537"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564266"
 ---
 # <a name="delete-an-unassigned-number-range-in-lync-server-2013"></a>Eliminar un intervalo numérico sin asignar en Lync Server 2013
 

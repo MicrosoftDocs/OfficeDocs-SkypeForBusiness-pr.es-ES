@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: información general sobre el acceso de usuarios externos'
+description: 'Lync Server 2013: información general sobre el acceso de usuarios externos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abbaa443231bfde1e780869a625859036b2e2506
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d2900dde457da34c4438892878ae7ddb4f74723a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530597"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562896"
 ---
 # <a name="overview-of-external-user-access-in-lync-server-2013"></a>Información general sobre el acceso de usuarios externos en Lync Server 2013
 

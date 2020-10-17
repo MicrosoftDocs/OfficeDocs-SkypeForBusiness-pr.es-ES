@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: copia de seguridad de Lync Server'
+description: 'Lync Server 2013: copia de seguridad de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5257780bc8fa5bb371a1569d07eb31163a840c16
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 747501a2d3f2ab28f71ee06c4296494ea15a836b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514867"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563276"
 ---
 # <a name="backing-up-lync-server-2013"></a>Copia de seguridad de Lync Server 2013
 

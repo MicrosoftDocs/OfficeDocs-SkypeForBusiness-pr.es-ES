@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos previos de configuración del estacionamiento de llamadas y derechos de usuario'
+description: 'Lync Server 2013: requisitos previos de configuración del estacionamiento de llamadas y derechos de usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 809f39bd78d4c04ffef6763e3d1f48e40ca55089
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b01187ad32fa7338765c0fa5b409b4e185e8ad35
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508267"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563536"
 ---
 # <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Requisitos previos de configuración del estacionamiento de llamadas y derechos de usuario en Lync Server 2013
 

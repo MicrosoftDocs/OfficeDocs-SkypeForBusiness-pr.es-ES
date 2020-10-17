@@ -1,5 +1,6 @@
 ---
 title: Planeación de Lync Server 2013
+description: Lync Server 2013 planning.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e77603edea8accdfb34cb180f0f216ce07afdbcc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fc4468300195760e7e994087875b5f49489828d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513417"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563976"
 ---
 # <a name="planning-for-lync-server-2013"></a>Planeación para Lync Server 2013
 

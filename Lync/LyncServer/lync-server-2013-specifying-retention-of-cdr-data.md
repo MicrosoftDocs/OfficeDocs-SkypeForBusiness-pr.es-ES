@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: especificar la retención de datos de CDR'
+description: 'Lync Server 2013: especificar la retención de datos de CDR.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185299
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc5d09e2ebb417f801ddab3f7fb8f444957e9d2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d9367721a2390ad701702818590ac14e69da0df9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519567"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563406"
 ---
 # <a name="specifying-retention-of-cdr-data-in-lync-server-2013"></a>Especificar la retención de datos de CDR en Lync Server 2013
 

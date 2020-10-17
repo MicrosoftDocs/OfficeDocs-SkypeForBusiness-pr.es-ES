@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asignar una directiva de chat persistente por usuario'
+description: 'Lync Server 2013: asignar una directiva de chat persistente por usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e06d6c7403bd348b44c6ab36216ed7ee9a1c6d02
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 637f1947fff7f4e919e5f9c252c047b2d0e60392
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134416"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563606"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Asignar una directiva de chat persistente por usuario en Lync Server 2013
 
@@ -69,10 +70,10 @@ Puede asignar una directiva de chat persistente por usuario a través del panel 
     
 
     > [!NOTE]  
-    > Debido a que hay varias directivas que puede configurar mediante el cuadro de diálogo <STRONG>asignar directivas</STRONG> , <STRONG> &lt;se selecciona la&gt; opción mantener como está</STRONG> seleccionada de forma predeterminada para cada Directiva del cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
+    > Debido a que hay varias directivas que puede configurar mediante el cuadro de diálogo <STRONG>asignar directivas</STRONG> , se selecciona la opción <STRONG> &lt; mantener como está &gt; </STRONG> seleccionada de forma predeterminada para cada Directiva del cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
 
     
-      - Seleccione ** \<automático\> ** para permitir que Lync Server 2013 elija automáticamente la Directiva de nivel global o, si está definida, la Directiva de nivel de sitio.
+      - Seleccione esta opción **\<Automatic\>** para permitir que Lync Server 2013 elija automáticamente la Directiva de nivel global o, si está definida, la Directiva de nivel de sitio.
     
       - Haga clic en el nombre de una directiva de chat persistente por usuario que haya definido anteriormente en la página **Directiva de chat persistente**.
         
@@ -84,9 +85,9 @@ Puede asignar una directiva de chat persistente por usuario a través del panel 
 
 8.  Cuando haya terminado, haga clic en **Aceptar**.
 
-## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Asignación de una directiva de chat persistente por usuario mediante cmdlets de Windows PowerShell
+## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Asignación de una Per-User una directiva de chat persistente mediante cmdlets de Windows PowerShell
 
-También puede asignar directivas de chat persistente por usuario mediante el cmdlet **Grant-CsPersistentChatPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+También puede asignar directivas de chat persistente por usuario mediante el cmdlet **Grant-CsPersistentChatPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>Para asignar una directiva de chat persistente por usuario a un solo usuario
 
@@ -108,7 +109,7 @@ También puede asignar directivas de chat persistente por usuario mediante el cm
 
 Para obtener más información, consulte el tema de ayuda para el cmdlet [Grant-CsPersistentChatPolicy](https://technet.microsoft.com/library/jj204907\(v=ocs.15\)) .
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 [Crear una directiva de usuario para chat persistente en Lync Server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md)

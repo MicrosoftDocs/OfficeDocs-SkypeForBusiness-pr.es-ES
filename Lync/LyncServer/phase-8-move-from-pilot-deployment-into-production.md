@@ -1,5 +1,6 @@
 ---
 title: 'Fase 8: pasar de la implementación piloto a la producción'
+description: 'Fase 8: pasar de la implementación piloto a la producción.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13b5edff336b73b84183162bec3243a55f8aeb67
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 175906d916cf71e3d688a872b175da3f1cd5fcbf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532907"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563766"
 ---
 # <a name="phase-8-move-from-pilot-deployment-into-production"></a>Fase 8: pasar de la implementación piloto a la producción
 
@@ -45,11 +46,11 @@ En los temas de esta sección se describen las tareas que debe completar antes d
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Configurar las rutas de federación y el tráfico multimedia](configure-federation-routes-and-media-traffic_1.md)
+  - [Configurar las rutas de federación y el tráfico multimedia](configure-federation-routes-and-media-traffic.md)
 
-  - [Mover los usuarios restantes a Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
+  - [Mover los usuarios restantes a Lync Server 2013](move-remaining-users-to-lync-server-2013.md)
 
-  - [Configurar la puerta de enlace XMPP en Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [Configurar la puerta de enlace XMPP en Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 

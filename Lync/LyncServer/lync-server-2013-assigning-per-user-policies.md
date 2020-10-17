@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asignación de directivas por usuario'
+description: 'Lync Server 2013: asignación de directivas por usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a2b73e5f94bbc2b7ea7deae2359a005fa2291db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a99156f9413926251c27dfee40677976b80b7ea
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514927"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563366"
 ---
 # <a name="assigning-per-user-policies-in-lync-server-2013"></a>Asignación de directivas por usuario en Lync Server 2013
 

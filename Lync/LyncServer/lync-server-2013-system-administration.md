@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración del sistema'
+description: 'Lync Server 2013: administración del sistema.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c830b689f0f55c2af191443583394e9f8c22eed
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b56271d8d90f1d83072af0577692be1ea0b5bc7e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497507"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562686"
 ---
 # <a name="system-administration-in-lync-server-2013"></a>Administración del sistema en Lync Server 2013
 

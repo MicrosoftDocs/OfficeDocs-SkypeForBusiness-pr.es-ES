@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: creación de registros DNS para el servicio Detección automática'
+description: 'Lync Server 2013: creación de registros DNS para el servicio Detección automática.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 928de572305cdbe19f5222f34e6616a8022e37b3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6903e6b07001289db8b65e8cc962e8d8db4b248b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563106"
 ---
 # <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Creación de registros DNS para el servicio Detección automática en Lync Server 2013
 

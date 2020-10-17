@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de copia de seguridad y alta disponibilidad'
+description: 'Lync Server 2013: cmdlets de copia de seguridad y alta disponibilidad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 235017c05a5aa63c54ded3c883e0edee22bf7f5c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d455f25e7a5a816f42d9df58c886429c96208acd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504897"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563162"
 ---
 # <a name="backup-and-high-availability-cmdlets-in-lync-server-2013"></a>Cmdlets de copia de seguridad y alta disponibilidad en Lync Server 2013
 

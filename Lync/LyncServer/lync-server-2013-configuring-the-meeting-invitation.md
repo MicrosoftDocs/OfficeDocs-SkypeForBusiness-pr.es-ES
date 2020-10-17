@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la invitación a la reunión'
+description: 'Lync Server 2013: configuración de la invitación a la reunión.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bc948f81ddbc9bf4881b2188fc378315b3824ac
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 64438d7a451cb794c125207fa594e1c00b534c80
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532337"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564336"
 ---
 # <a name="configuring-the-meeting-invitation-in-lync-server-2013"></a>Configuración de la invitación a la reunión en Lync Server 2013
 

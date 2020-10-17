@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: asegurarse de que los planes de marcado tienen regiones asignadas'
+description: 'Lync Server 2013: Asegúrese de que los planes de marcado tienen regiones asignadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9f9a67a65b870edd75259bca7c74a1fae2749f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c055eda221bc03de449631ba38483165a8621773
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534567"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563506"
 ---
 # <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>Asegurarse de que los planes de marcado Lync Server 2013 tienen regiones asignadas
 
