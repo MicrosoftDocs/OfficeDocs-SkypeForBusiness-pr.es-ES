@@ -1,5 +1,6 @@
 ---
 title: Topologías admitidas de Lync Server 2013
+description: Lync Server 2013 topologías compatibles.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4754881d2ed3205c4f06d5468001c6e45880278c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 39c19577fbda7e377e145abfd473d2cf8e6d4a1a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558026"
 ---
 # <a name="supported-topologies-in-lync-server-2013"></a>Topologías admitidas en Lync Server 2013
 

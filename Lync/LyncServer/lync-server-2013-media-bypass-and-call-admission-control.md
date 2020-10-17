@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: omisión de medios y control de admisión de llamadas'
+description: 'Lync Server 2013: omisión de medios y control de admisión de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4afa8f26e28fbb4261b0d8524c02efeb8d2a3132
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 37d2c28000b7ca9a25fe87cf0d0b4fc59e0ac6e3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524637"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556476"
 ---
 # <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Omisión de medios y control de admisión de llamadas en Lync Server 2013
 

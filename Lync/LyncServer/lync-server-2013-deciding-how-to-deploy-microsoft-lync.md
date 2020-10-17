@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: decidir cómo implementar Microsoft Lync'
+description: 'Lync Server 2013: decidir cómo implementar Microsoft Lync.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f31a765d6b682e504839aa24962356f5524801d0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a800b51dfddc6f2c99e42c8f117056ed4091b6a5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558106"
 ---
 # <a name="deciding-how-to-deploy-lync-server-2013"></a>Decidir cómo implementar Lync Server 2013
 

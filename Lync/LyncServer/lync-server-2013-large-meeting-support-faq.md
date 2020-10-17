@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: preguntas más frecuentes sobre la compatibilidad con reuniones grandes'
+description: 'Lync Server 2013: preguntas más frecuentes sobre la compatibilidad con reuniones grandes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c8d206400b46fc32a3af7b21ad7d50663e85d069
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514007"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557556"
 ---
 # <a name="large-meeting-support-faq-for-lync-server-2013"></a>Preguntas más frecuentes de soporte de reuniones grandes para Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla MCU'
+description: 'Lync Server 2013: tabla MCU.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 696a32ec4329b06c67dc8c54ba3ff2c1f15486d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b0b5d0bcbebb5efc1d767776b4581b18d9f2ed18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524667"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556486"
 ---
 # <a name="mcus-table-in-lync-server-2013"></a>Tabla MCU en Lync Server 2013
 

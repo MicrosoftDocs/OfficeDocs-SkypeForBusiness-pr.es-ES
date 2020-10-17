@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla PayloadDescription'
+description: 'Lync Server 2013: tabla PayloadDescription.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b0dfab1a848e711a5010400f323d9caef189266
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 90ba6b3b85060601487b5b6d0d8747c5fbfa2a9a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515987"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557366"
 ---
 # <a name="payloaddescription-table-in-lync-server-2013"></a>Tabla PayloadDescription en Lync Server 2013
 

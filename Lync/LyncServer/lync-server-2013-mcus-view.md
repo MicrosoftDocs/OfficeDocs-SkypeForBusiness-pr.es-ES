@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista MCU'
+description: 'Lync Server 2013: vista MCU.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7512054e3b0f1e4edaf7736558bed1df8c9b08d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c2f72b4584696162496dcd91990edb086d558204
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524657"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556466"
 ---
 # <a name="mcus-view-in-lync-server-2013"></a>Vista MCU en Lync Server 2013
 

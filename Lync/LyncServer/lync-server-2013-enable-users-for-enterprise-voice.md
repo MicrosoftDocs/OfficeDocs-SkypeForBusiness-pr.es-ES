@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar a los usuarios para la telefonía IP empresarial'
+description: 'Lync Server 2013: habilite a los usuarios para la telefonía IP empresarial.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d03f47cbe637e2c6fe6a0466b73a3588b842d6e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8aa8dbbeb507ced5217e517c1608c3a2a9259668
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501047"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557656"
 ---
 # <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>Habilitar a los usuarios para la telefonía IP empresarial en Lync Server 2013
 

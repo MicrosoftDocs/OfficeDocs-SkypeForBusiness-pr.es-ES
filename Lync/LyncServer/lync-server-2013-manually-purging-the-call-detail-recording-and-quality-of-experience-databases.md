@@ -1,5 +1,6 @@
 ---
 title: Purgado manual del registro detallado de llamadas y de las bases de datos de calidad de la experiencia
+description: Purgar manualmente el registro detallado de llamadas y las bases de datos de calidad de la experiencia.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b34b3a0dd79651ef288740243313d58482959e4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4c7903431d28bf1a829991ce35c2ee7351168b4a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524787"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556566"
 ---
 # <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Purgado manual del registro detallado de llamadas y de las bases de datos de calidad de la experiencia en Lync Server 2013
 

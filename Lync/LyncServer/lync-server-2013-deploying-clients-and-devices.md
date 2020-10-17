@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de clientes y dispositivos'
+description: 'Lync Server 2013: implementación de clientes y dispositivos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185915
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a30043bc105f4ae27ec025b3d178fd919d5030
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7da8577ece1494303d2e184394c3ac1e0d927211
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557876"
 ---
 # <a name="deploying-clients-and-devices-in-lync-server-2013"></a>Implementación de clientes y dispositivos en Lync Server 2013
 

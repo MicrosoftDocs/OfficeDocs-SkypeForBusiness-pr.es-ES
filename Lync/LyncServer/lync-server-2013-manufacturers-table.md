@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla Manufacturers'
+description: 'Lync Server 2013: tabla Manufacturers.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c56d3895c87e9278d8d508328cc21584ff9297b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ecd2a7432cbe8b3ee83e8e5f0890f915dd86207e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556576"
 ---
 # <a name="manufacturers-table-in-lync-server-2013"></a>Tabla Manufacturers en Lync Server 2013
 

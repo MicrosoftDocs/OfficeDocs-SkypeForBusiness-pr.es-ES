@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administrar ubicaciones para puertas de enlace de ELIN'
+description: 'Lync Server 2013: administrar ubicaciones para puertas de enlace de ELIN.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e33f05f0a05b1225f1687faa00cf48af02fa1410
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 94fe7797c0f25adb219512cef4a6c0fb7d84b48d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557486"
 ---
 # <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Administración de ubicaciones para puertas de enlace de ELIN en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla McuJoinsAndLeaves'
+description: 'Lync Server 2013: tabla McuJoinsAndLeaves.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184115
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4aa5fb14ff16d13b1cdff72f15c648f9e353922
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ee7d9473892ac357dcefd80b0d52382c5dd7d930
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524737"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556506"
 ---
 # <a name="mcujoinsandleaves-table-in-lync-server-2013"></a>Tabla McuJoinsAndLeaves en Lync Server 2013
 

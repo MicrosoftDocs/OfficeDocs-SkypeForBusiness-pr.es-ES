@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: referencia de esquema'
+description: 'Lync Server 2013: referencia de esquema.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184191
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28090bc4a391ce46cee4103ba09a03535425ee1e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 45cd9ca9a47029330bb4a94a6ff75e2ba9b46d00
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510487"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557096"
 ---
 # <a name="schema-reference-for-lync-server-2013"></a>Referencia de esquema para Lync Server 2013
 

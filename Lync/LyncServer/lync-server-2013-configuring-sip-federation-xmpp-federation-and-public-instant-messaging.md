@@ -1,5 +1,6 @@
 ---
 title: Configurar la Federación SIP, la Federación XMPP y la mensajería instantánea pública
+description: Configurar la Federación SIP, la Federación XMPP y la mensajería instantánea pública.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f3fa4f3b78f53df101da42a2e6b7630cdfb71dd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b83c29da75c99e7a338bfd7732aec8ec49cbf47
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537077"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556966"
 ---
 # <a name="configuring-sip-federation-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Configurar la Federación SIP, la Federación XMPP y la mensajería instantánea pública en Lync Server 2013
 

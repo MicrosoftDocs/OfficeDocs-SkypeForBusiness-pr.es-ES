@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: atributos de esquema y descripciones'
+description: 'Lync Server 2013: atributos de esquema y descripciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 18888d20a772b3e84970e7d874bd6b6964affc75
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510877"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557196"
 ---
 # <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Atributos y descripciones de esquema en Lync Server 2013
 

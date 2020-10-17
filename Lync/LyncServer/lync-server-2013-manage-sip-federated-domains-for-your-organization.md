@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administrar dominios federados SIP para la organización'
+description: 'Lync Server 2013: administrar dominios federados SIP para la organización.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 760edaff2a03642a0d7c13f856580b3f538ab915
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6fcb8851af7e623251e5c0b635e67e524355fd4c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534487"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556756"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Administrar dominios federados SIP para la organización en Lync Server 2013
 

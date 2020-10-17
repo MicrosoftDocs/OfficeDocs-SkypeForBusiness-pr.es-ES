@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: rutas de migración compatibles y escenarios de coexistencia'
+description: 'Lync Server 2013: rutas de migración compatibles y escenarios de coexistencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184182
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d6db92075fefdba42126a9051e5f2d68ef0f4c8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e9099bccab90e0462f42976c7a40b55ed9745f29
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524037"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558306"
 ---
 # <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Rutas de migración admitidas y escenarios de coexistencia en Lync Server 2013
 

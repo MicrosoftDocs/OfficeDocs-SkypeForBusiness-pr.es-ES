@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: clases de esquema y descripciones'
+description: 'Lync Server 2013: clases de esquema y descripciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2dbd6f3dee155327a3bd8c1e5d9655f29d1b101
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec27c2e00a7f969dbc13c91b06313c8045894a9e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510817"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557106"
 ---
 # <a name="schema-classes-and-descriptions-in-lync-server-2013"></a>Clases de esquema y descripciones en Lync Server 2013
 

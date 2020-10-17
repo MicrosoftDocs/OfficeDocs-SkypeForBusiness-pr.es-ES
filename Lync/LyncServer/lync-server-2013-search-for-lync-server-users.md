@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Buscar usuarios de Lync Server'
+description: 'Lync Server 2013: Buscar usuarios de Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b690b0880e1da838b3b8f15392e64c4f4c650c10
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d0c4860b7b89ad13b3a0003c5666a320172dad6d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510497"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557086"
 ---
 # <a name="search-for-lync-server-users-in-lync-server-2013"></a>Buscar usuarios de Lync Server en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: realización y supervisión de copias de seguridad'
+description: 'Lync Server 2013: realización y supervisión de copias de seguridad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b79fdbaceff06155389d101570b23d6143b9bbcc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2fb8ce99e850f0918974be08eb10796ef1397225
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557236"
 ---
 # <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Realización y supervisión de copias de seguridad en Lync Server 2013
 

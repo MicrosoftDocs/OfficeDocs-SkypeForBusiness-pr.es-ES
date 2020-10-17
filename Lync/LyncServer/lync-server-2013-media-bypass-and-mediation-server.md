@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: omisión de medios y servidor de mediación'
+description: 'Lync Server 2013: omisión de medios y servidor de mediación.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ef294e9aa5a9d53b11316ab8d64a0880ea6a938
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ebb005d3d52fa9e5a38fdf56a65dfcbd73616d87
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524627"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556436"
 ---
 # <a name="media-bypass-and-mediation-server-in-lync-server-2013"></a>Omisión de medios y servidor de mediación en Lync Server 2013
 

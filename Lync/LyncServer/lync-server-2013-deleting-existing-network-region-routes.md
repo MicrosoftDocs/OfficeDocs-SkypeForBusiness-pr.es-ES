@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eliminar rutas de región de red existentes'
+description: 'Lync Server 2013: eliminar rutas de región de red existentes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f07a0331563c4d78c4e8fc3391b7f8423a2ecc21
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c2501dc3f4ed88a56e9f591e3af11a673046280a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525397"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557906"
 ---
 # <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Eliminación de rutas de región de red existentes en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de telefonía IP empresarial'
+description: 'Lync Server 2013: implementación de telefonía IP empresarial.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b2784c5cb04994004503010426ebc98763c0250
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5cc1c891d81db158c1d28e4a3e918a9dae37744c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531157"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557816"
 ---
 # <a name="deploying-enterprise-voice-in-lync-server-2013"></a>Implementar la telefonía IP empresarial en Lync Server 2013
 

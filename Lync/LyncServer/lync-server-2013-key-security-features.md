@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: características de seguridad clave'
+description: 'Lync Server 2013: características de seguridad clave.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a1ff88b11c7d0ce007fc3bac38e7e3618771fb7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 689cf2ac54eacd24bb4d31b451836edcf676521b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514027"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557616"
 ---
 # <a name="key-security-features-in-lync-server-2013"></a>Características de seguridad clave en Lync Server 2013
 

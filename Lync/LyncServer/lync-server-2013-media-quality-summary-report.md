@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de Resumen de calidad de medios'
+description: 'Lync Server 2013: informe de Resumen de calidad de medios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4080460083074f7ad74618034ab2e7910de5e53d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2616b7e3cdea9df7b004745a5c407188870903c7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516188"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558076"
 ---
 # <a name="media-quality-summary-report-in-lync-server-2013"></a>Informe de Resumen de calidad de medios en Lync Server 2013
 

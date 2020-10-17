@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: probar reglas, rutas y directivas de voz'
+description: 'Lync Server 2013: probar reglas, rutas y directivas de voz.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b903ff4453f15bc22b6715abe27cc045381c0e5b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cf205ac2585298dfc5347d93e382e8bbda9f3ff4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527857"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557046"
 ---
 # <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Probar reglas de voz, rutas y directivas en Lync Server 2013
 

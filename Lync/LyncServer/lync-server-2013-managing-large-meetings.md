@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración de reuniones grandes'
+description: 'Lync Server 2013: administración de reuniones grandes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6f3a7e7e0b2be3d1e36b7de809c62d440a235b9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23f3631f1953976501ea06f7503a7456479e0faf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498267"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557496"
 ---
 # <a name="managing-large-meetings-in-lync-server-2013"></a>Administración de reuniones grandes en Lync Server 2013
 

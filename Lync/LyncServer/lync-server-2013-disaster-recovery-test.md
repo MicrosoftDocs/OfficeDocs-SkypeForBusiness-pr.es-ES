@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: prueba de recuperación ante desastres'
+description: 'Lync Server 2013: prueba de recuperación ante desastres.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2d36ec6ad1afb8c41c7c5f614e90e03ce4d9282
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fa22abd37f656134c54381d63f29d3160ff85257
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557666"
 ---
 # <a name="disaster-recovery-test-in-lync-server-2013"></a>Prueba de recuperación ante desastres en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de dispositivos'
+description: 'Lync Server 2013: implementación de dispositivos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca4085f633b367450845c7fb1637da425f8c9db5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ed92d0acbf049a1c4c7cb1c75644ce65068a4ceb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531197"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557826"
 ---
 # <a name="deploying-devices-in-lync-server-2013"></a>Implementación de dispositivos en Lync Server 2013
 
