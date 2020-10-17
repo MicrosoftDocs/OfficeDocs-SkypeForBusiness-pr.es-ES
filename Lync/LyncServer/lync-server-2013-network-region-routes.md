@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: rutas de región de red'
+description: 'Lync Server 2013: rutas de región de red.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbfbda19947e51d85f7525d807beacf454c6dc6e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 740b517f1dab80b028b319d220dfcb01af08ef25
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561476"
 ---
-# <a name="network-region-routes-in-lync-server-2013"></a><span data-ttu-id="e5525-102">Rutas de región de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5525-102">Network region routes in Lync Server 2013</span></span>
+# <a name="network-region-routes-in-lync-server-2013"></a><span data-ttu-id="709db-103">Rutas de región de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="709db-103">Network region routes in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,27 +38,27 @@ ms.locfileid: "48505527"
 
 <span> </span>
 
-<span data-ttu-id="e5525-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="e5525-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="709db-104">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="709db-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="e5525-p101">Una *ruta de región de red* define la ruta entre un par de regiones de red. Cada par de regiones de red en su implementación de control de admisión de llamadas requiere una ruta de región de red. Esto permite que todas las regiones de red de la implementación obtengan acceso a cualquier otra región. Use los procedimientos de esta sección para ver, crear, modificar o elimina rutas de región de red.</span><span class="sxs-lookup"><span data-stu-id="e5525-p101">A *network region route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network region route. This enables every network region within the deployment to access every other region. Use the procedures in this section to view, create, modify, or delete network region routes.</span></span>
+<span data-ttu-id="709db-p101">Una *ruta de región de red* define la ruta entre un par de regiones de red. Cada par de regiones de red en su implementación de control de admisión de llamadas requiere una ruta de región de red. Esto permite que todas las regiones de red de la implementación obtengan acceso a cualquier otra región. Use los procedimientos de esta sección para ver, crear, modificar o elimina rutas de región de red.</span><span class="sxs-lookup"><span data-stu-id="709db-p101">A *network region route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network region route. This enables every network region within the deployment to access every other region. Use the procedures in this section to view, create, modify, or delete network region routes.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e5525-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="e5525-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="709db-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="709db-109">In This Section</span></span>
 
-  - [<span data-ttu-id="e5525-109">Creación o modificación de regiones de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5525-109">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [<span data-ttu-id="709db-110">Creación o modificación de regiones de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="709db-110">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [<span data-ttu-id="e5525-110">Ver información de ruta de región de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5525-110">Viewing network region route information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-route-information.md)
+  - [<span data-ttu-id="709db-111">Ver información de ruta de región de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="709db-111">Viewing network region route information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-route-information.md)
 
-  - [<span data-ttu-id="e5525-111">Eliminación de rutas de región de red existentes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5525-111">Deleting existing network region routes in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-region-routes.md)
+  - [<span data-ttu-id="709db-112">Eliminación de rutas de región de red existentes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="709db-112">Deleting existing network region routes in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-region-routes.md)
 
 </div>
 
 <div>
 
-## <a name="reference"></a><span data-ttu-id="e5525-112">Referencia</span><span class="sxs-lookup"><span data-stu-id="e5525-112">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="709db-113">Referencia</span><span class="sxs-lookup"><span data-stu-id="709db-113">Reference</span></span>
 
-[<span data-ttu-id="e5525-113">Implementación de características avanzadas de telefonía IP empresarial en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5525-113">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[<span data-ttu-id="709db-114">Implementación de características avanzadas de telefonía IP empresarial en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="709db-114">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 

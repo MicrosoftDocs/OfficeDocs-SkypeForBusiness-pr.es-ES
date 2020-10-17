@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración del estado del sistema'
+description: 'Lync Server 2013: administración del estado del sistema.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185201
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07212635099d9ffa1f3b042e5f674a2913b79a47
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a826aa99847d7fb7ade6222b53ea39e512b68b09
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525027"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560386"
 ---
-# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="fe57c-102">Administración del mantenimiento del sistema en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe57c-102">Managing system health in Lync Server 2013</span></span>
+# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="4472e-103">Administración del mantenimiento del sistema en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4472e-103">Managing system health in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48525027"
 
 <span> </span>
 
-<span data-ttu-id="fe57c-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="fe57c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="4472e-104">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="4472e-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="fe57c-104">La supervisión y la administración del estado del sistema se integran en la supervisión y administración de estado general 2013 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fe57c-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="fe57c-105">Para obtener más información, consulte [configuración de mantenimiento en Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="fe57c-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
+<span data-ttu-id="4472e-105">La supervisión y la administración del estado del sistema se integran en la supervisión y administración de estado general 2013 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4472e-105">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="4472e-106">Para obtener más información, consulte [configuración de mantenimiento en Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="4472e-106">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
 
 </div>
 

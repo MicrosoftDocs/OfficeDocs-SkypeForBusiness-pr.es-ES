@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista de NetworkConfigurationSettings'
+description: 'Lync Server 2013: vista de NetworkConfigurationSettings.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2a08fdc55158bf2266d6be75859477075fe91f2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 60779a89d7d98c68832e5f9c9bd87dcbcc67d3a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505457"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561416"
 ---
-# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a><span data-ttu-id="5f361-102">Vista NetworkConfigurationSettings en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f361-102">NetworkConfigurationSettings view in Lync Server 2013</span></span>
+# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a><span data-ttu-id="86af8-103">Vista NetworkConfigurationSettings en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86af8-103">NetworkConfigurationSettings view in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48505457"
 
 <span> </span>
 
-<span data-ttu-id="5f361-103">_**Última modificación del tema:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="5f361-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="86af8-104">_**Última modificación del tema:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="86af8-104">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="5f361-104">La vista NetworkConfigurationSettings almacena información sobre la configuración de red.</span><span class="sxs-lookup"><span data-stu-id="5f361-104">The NetworkConfigurationSettings View stores information about the network configuration.</span></span> <span data-ttu-id="5f361-105">Esta vista se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5f361-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="86af8-105">La vista NetworkConfigurationSettings almacena información sobre la configuración de red.</span><span class="sxs-lookup"><span data-stu-id="86af8-105">The NetworkConfigurationSettings View stores information about the network configuration.</span></span> <span data-ttu-id="86af8-106">Esta vista se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="86af8-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,26 +51,26 @@ ms.locfileid: "48505457"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5f361-106">Columna</span><span class="sxs-lookup"><span data-stu-id="5f361-106">Column</span></span></th>
-<th><span data-ttu-id="5f361-107">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="5f361-107">Data Type</span></span></th>
-<th><span data-ttu-id="5f361-108">Detalles</span><span class="sxs-lookup"><span data-stu-id="5f361-108">Details</span></span></th>
+<th><span data-ttu-id="86af8-107">Columna</span><span class="sxs-lookup"><span data-stu-id="86af8-107">Column</span></span></th>
+<th><span data-ttu-id="86af8-108">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="86af8-108">Data Type</span></span></th>
+<th><span data-ttu-id="86af8-109">Detalles</span><span class="sxs-lookup"><span data-stu-id="86af8-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5f361-109">SubnetIP</span><span class="sxs-lookup"><span data-stu-id="5f361-109">SubnetIP</span></span></p></td>
-<td><p><span data-ttu-id="5f361-110">entero</span><span class="sxs-lookup"><span data-stu-id="5f361-110">int</span></span></p></td>
-<td><p><span data-ttu-id="5f361-111">Dirección IP de la subred (solo se admiten las direcciones IPv4).</span><span class="sxs-lookup"><span data-stu-id="5f361-111">Subnet IP address (only IPv4 addresses are supported).</span></span></p></td>
+<td><p><span data-ttu-id="86af8-110">SubnetIP</span><span class="sxs-lookup"><span data-stu-id="86af8-110">SubnetIP</span></span></p></td>
+<td><p><span data-ttu-id="86af8-111">entero</span><span class="sxs-lookup"><span data-stu-id="86af8-111">int</span></span></p></td>
+<td><p><span data-ttu-id="86af8-112">Dirección IP de la subred (solo se admiten las direcciones IPv4).</span><span class="sxs-lookup"><span data-stu-id="86af8-112">Subnet IP address (only IPv4 addresses are supported).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5f361-112">UserSiteName</span><span class="sxs-lookup"><span data-stu-id="5f361-112">UserSiteName</span></span></p></td>
-<td><p><span data-ttu-id="5f361-113">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="5f361-113">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="5f361-114">Nombre del sitio del usuario.</span><span class="sxs-lookup"><span data-stu-id="5f361-114">User’s site name.</span></span></p></td>
+<td><p><span data-ttu-id="86af8-113">UserSiteName</span><span class="sxs-lookup"><span data-stu-id="86af8-113">UserSiteName</span></span></p></td>
+<td><p><span data-ttu-id="86af8-114">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="86af8-114">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="86af8-115">Nombre del sitio del usuario.</span><span class="sxs-lookup"><span data-stu-id="86af8-115">User’s site name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5f361-115">RegionName</span><span class="sxs-lookup"><span data-stu-id="5f361-115">RegionName</span></span></p></td>
-<td><p><span data-ttu-id="5f361-116">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="5f361-116">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="5f361-117">Nombre del país/región del usuario.</span><span class="sxs-lookup"><span data-stu-id="5f361-117">Name of the user’s country/region.</span></span></p></td>
+<td><p><span data-ttu-id="86af8-116">RegionName</span><span class="sxs-lookup"><span data-stu-id="86af8-116">RegionName</span></span></p></td>
+<td><p><span data-ttu-id="86af8-117">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="86af8-117">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="86af8-118">Nombre del país/región del usuario.</span><span class="sxs-lookup"><span data-stu-id="86af8-118">Name of the user’s country/region.</span></span></p></td>
 </tr>
 </tbody>
 </table>
