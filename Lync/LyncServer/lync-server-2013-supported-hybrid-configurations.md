@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuraciones híbridas admitidas'
+description: 'Lync Server 2013: configuraciones híbridas admitidas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db6f415b373e8271f771510d925adef1ae672ced
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1a51667a9c10322b4e2503d81c8b3ddb07c17855
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524057"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550886"
 ---
 # <a name="supported-lync-server-2013-hybrid-configurations"></a>Configuraciones híbridas compatibles con Lync Server 2013
 

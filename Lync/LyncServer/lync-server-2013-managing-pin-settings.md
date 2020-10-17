@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración de la configuración de PIN'
+description: 'Lync Server 2013: administración de la configuración de PIN.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c09da57355c36f7c70702cecbc3e2006a6e28042
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0415ff4c72b06a8cd0a0b29e975dfa9935db1475
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551486"
 ---
 # <a name="managing-pin-settings-in-lync-server-2013"></a>Administración de la configuración de PIN en Lync Server 2013
 

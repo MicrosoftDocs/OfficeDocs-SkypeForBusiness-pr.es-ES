@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: desarrollar una estrategia y un plan de copia de seguridad y restauración'
+description: 'Lync Server 2013: desarrollar una estrategia y un plan de copia de seguridad y restauración.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d60ab06ec2367b9cd88f85ce0e0e85decad71c8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3d55eeb541cdde5c43d7d680ceb212d87da0d517
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550896"
 ---
 # <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>Desarrollar una estrategia de copia de seguridad y restauración y planear Lync Server 2013
 

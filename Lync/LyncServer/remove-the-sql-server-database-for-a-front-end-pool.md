@@ -1,5 +1,6 @@
 ---
 title: Quitar la base de datos de SQL Server para un grupo de servidores front-end
+description: Quite la base de datos de SQL Server de un grupo de servidores front-end.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d4e3f215f62cc557885c99c33b4c389c9098d1c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 01c5d47e4c52197c5792fa3b7770da7bbd1b26cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529827"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551266"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Quitar la base de datos de SQL Server para un grupo de servidores front-end
 

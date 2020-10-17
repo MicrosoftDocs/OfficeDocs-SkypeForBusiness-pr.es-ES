@@ -1,5 +1,6 @@
 ---
 title: Quitar instancias de SQL Server y bases de datos en el servidor back-end
+description: Quite las bases de datos y las instancias de SQL Server en el servidor back-end.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bd267ea25dc763342c7ca0971b60617243de6f6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c87426a3496e6def2ad65775f5dadb1a0141ae3f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551286"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Quitar instancias de SQL Server y bases de datos en el servidor back-end
 

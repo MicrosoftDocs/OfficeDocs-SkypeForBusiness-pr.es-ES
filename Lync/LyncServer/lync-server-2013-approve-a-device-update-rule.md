@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: aprobar una regla de actualización de dispositivo'
+description: 'Lync Server 2013: aprobar una regla de actualización de dispositivo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd5112f4be1f6c192d78d3b87b21094c2b04c4df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 127d16dad6329e952b9033db07ac2f4a4fe9112c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504921"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550726"
 ---
 # <a name="approve-a-device-update-rule-in-lync-server-2013"></a>Aprobar una regla de actualización de dispositivos en Lync Server 2013
 

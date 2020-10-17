@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla EdgeServers'
+description: 'Lync Server 2013: tabla EdgeServers.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185081
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bf176038c1595fb7cb5bf52bd8a6e51157dac54
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4e4097ca58b75f873dcc12b84e5d971e9e378d07
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533357"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551656"
 ---
 # <a name="edgeservers-table-in-lync-server-2013"></a>Tabla EdgeServers en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Mobility support
+description: Lync Server 2013 Mobility support.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184029
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 343ce7aa3eebd170fcd115675eeca29ecbdb5fe4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3864b2305ee6097ec8a2babc98f9633096b6600e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534407"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550496"
 ---
 # <a name="mobility-support-in-lync-server-2013"></a>Compatibilidad con movilidad en Lync Server 2013
 

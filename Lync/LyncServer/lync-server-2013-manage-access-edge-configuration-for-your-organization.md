@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administrar la configuración perimetral de acceso para su organización'
+description: 'Lync Server 2013: administrar la configuración perimetral de acceso para su organización.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48679555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c62e5b03057f09d7489a413456e432e8e08799b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2161385f9c03f025bcf6f5e599b7e0276f6d592c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534557"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550646"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization-in-lync-server-2013"></a>Administrar la configuración perimetral de acceso para su organización en Lync Server 2013
 

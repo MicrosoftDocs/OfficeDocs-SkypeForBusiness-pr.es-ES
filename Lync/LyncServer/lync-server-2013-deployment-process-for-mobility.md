@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: proceso de implementación para movilidad'
+description: 'Lync Server 2013: proceso de implementación para movilidad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7d0e78cd4a8705178b3704a716846755d5c46f3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b49d69af899f6d9f2ac1db5040d017a9d62ce9eb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514487"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551046"
 ---
 # <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Proceso de implementación para movilidad en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: recuperación ante desastres del servidor perimetral'
+description: 'Lync Server 2013: recuperación ante desastres del servidor perimetral.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad1ac0197c4f7755b334624e46f7cec096897f5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: db084cae9b692ebc9d70660984275aa34096b7d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528827"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551666"
 ---
 # <a name="edge-server-disaster-recovery-in-lync-server-2013"></a>Recuperación ante desastres del servidor perimetral en Lync Server 2013
 

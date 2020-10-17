@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar un nuevo servidor de aplicaciones de confianza'
+description: 'Lync Server 2013: configurar un nuevo servidor de aplicaciones de confianza.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4d01e817e1a874af8c6beccdee332f85cc79ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3cc13c747c5755297b01ae36f27f06d19591acc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206996"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552126"
 ---
+# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurar un nuevo servidor de aplicaciones de confianza en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurar un nuevo servidor de aplicaciones de confianza en Lync Server 2013
+
 
 </div>
 
@@ -37,7 +40,7 @@ ms.locfileid: "42206996"
 
 _**Última modificación del tema:** 2012-11-01_
 
-Una aplicación de confianza es una aplicación basada en el SDK de Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK en el que confía Microsoft Lync Server 2013. Para obtener más información acerca de las aplicaciones de UCMA, consulte la documentación de Unified Communications Managed API 3,0 Core SDK en [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320).
+Una aplicación de confianza es una aplicación basada en el SDK de Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK en el que confía Microsoft Lync Server 2013. Para obtener más información acerca de las aplicaciones de UCMA, consulte la documentación de Unified Communications Managed API 3,0 Core SDK en [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320) .
 
 Para obtener información acerca de la configuración de Microsoft Outlook Web Access (OWA) y Lync Server 2013, consulte "configure Outlook Web App and Lync Server 2010 Integration" en la documentación de Microsoft Exchange Server 2013.
 

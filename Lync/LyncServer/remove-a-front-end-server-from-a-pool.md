@@ -1,5 +1,6 @@
 ---
 title: Quitar un servidor front-end de un grupo de servidores
+description: Quitar un servidor front-end de un grupo de servidores.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cfcd96d0663ca977c83cc90b56bcafd9359a038
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 45560a6f43288b47c0f85f880a190e31f2c8c04d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551306"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>Quitar un servidor front-end de un grupo de servidores
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: roles de usuario en el servidor de chat persistente'
+description: 'Lync Server 2013: roles de usuario en el servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c91fcb656d936d0fb469cdec4b01824d3fa97d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: aed64aaa9129e6667cd138bc4365acfb2a64d52c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518857"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550856"
 ---
 # <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Roles de usuario en el servidor de chat persistente en Lync Server 2013
 

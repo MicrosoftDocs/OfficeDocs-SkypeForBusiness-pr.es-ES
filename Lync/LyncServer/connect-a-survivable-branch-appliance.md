@@ -1,5 +1,6 @@
 ---
 title: Conectar una aplicación de sucursal con funciones de supervivencia
+description: Conecte una aplicación de sucursal con funciones de supervivencia.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95831fc6b6c43c6b4a1944187447fe3ff83f1d14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f5bbf9e1a4189d3c80d6dec449adf68b82cd3691
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503117"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550286"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar una aplicación de sucursal con funciones de supervivencia
 

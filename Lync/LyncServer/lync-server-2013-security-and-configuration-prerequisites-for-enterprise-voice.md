@@ -1,5 +1,6 @@
 ---
 title: Requisitos previos de seguridad y configuración para telefonía IP empresarial
+description: Requisitos previos de seguridad y configuración para telefonía IP empresarial.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa8f0f3dd113b10a01f18a0542561de946d4acd0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 03d0940450889c6bf26cb7761bebbce5e6c2d3f2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510477"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551476"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Requisitos previos de seguridad y configuración para telefonía IP empresarial en Lync Server 2013
 

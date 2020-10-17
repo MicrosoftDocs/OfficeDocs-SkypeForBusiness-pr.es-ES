@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar plataformas del sistema'
+description: 'Lync Server 2013: configurar plataformas del sistema.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29bd5bff0b215060b1d352d5cc5798b114140c15
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bd02c519d5632b7aa5732fbd9b880f7d1084b50f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509787"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550446"
 ---
 # <a name="set-up-system-platforms-in-lync-server-2013"></a>Configurar plataformas del sistema en Lync Server 2013
 

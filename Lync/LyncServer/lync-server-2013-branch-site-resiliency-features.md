@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: características de resistencia de sitios de sucursal'
+description: 'Lync Server 2013: características de resistencia de sitios de sucursal.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8f141b592fb5a89941d5b6e2b3e1e5c9d770fdc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a498751ce99d0e8e85d6cbe53915c864e64440bd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513017"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552206"
 ---
 # <a name="branch-site-resiliency-features-in-lync-server-2013"></a>Características de resistencia de sitios de sucursal en Lync Server 2013
 
