@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla PayloadDescription'
+description: 'Lync Server 2013: tabla PayloadDescription.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b0dfab1a848e711a5010400f323d9caef189266
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 90ba6b3b85060601487b5b6d0d8747c5fbfa2a9a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515987"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557366"
 ---
-# <a name="payloaddescription-table-in-lync-server-2013"></a><span data-ttu-id="e299f-102">Tabla PayloadDescription en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e299f-102">PayloadDescription table in Lync Server 2013</span></span>
+# <a name="payloaddescription-table-in-lync-server-2013"></a><span data-ttu-id="266ef-103">Tabla PayloadDescription en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="266ef-103">PayloadDescription table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48515987"
 
 <span> </span>
 
-<span data-ttu-id="e299f-103">_**Última modificación del tema:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e299f-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="266ef-104">_**Última modificación del tema:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="266ef-104">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="e299f-p101">La tabla PayloadDescription es una tabla auxiliar. Cada registro representa un códec que se usa en una sesión de audio o vídeo.</span><span class="sxs-lookup"><span data-stu-id="e299f-p101">The PayloadDescription table is a supporting table. Each record represents one Codec, which is used in an audio or video session.</span></span>
+<span data-ttu-id="266ef-p101">La tabla PayloadDescription es una tabla auxiliar. Cada registro representa un códec que se usa en una sesión de audio o vídeo.</span><span class="sxs-lookup"><span data-stu-id="266ef-p101">The PayloadDescription table is a supporting table. Each record represents one Codec, which is used in an audio or video session.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48515987"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e299f-106"><strong>Columna</strong></span><span class="sxs-lookup"><span data-stu-id="e299f-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="e299f-107"><strong>Tipo de datos</strong></span><span class="sxs-lookup"><span data-stu-id="e299f-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="e299f-108"><strong>Clave o índice</strong></span><span class="sxs-lookup"><span data-stu-id="e299f-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="e299f-109"><strong>Detalles</strong></span><span class="sxs-lookup"><span data-stu-id="e299f-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="266ef-107"><strong>Columna</strong></span><span class="sxs-lookup"><span data-stu-id="266ef-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="266ef-108"><strong>Tipo de datos</strong></span><span class="sxs-lookup"><span data-stu-id="266ef-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="266ef-109"><strong>Clave o índice</strong></span><span class="sxs-lookup"><span data-stu-id="266ef-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="266ef-110"><strong>Detalles</strong></span><span class="sxs-lookup"><span data-stu-id="266ef-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e299f-110"><strong>PayloadDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="e299f-110"><strong>PayloadDescriptionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="e299f-111">entero</span><span class="sxs-lookup"><span data-stu-id="e299f-111">int</span></span></p></td>
-<td><p><span data-ttu-id="e299f-112">Principal</span><span class="sxs-lookup"><span data-stu-id="e299f-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="e299f-113">Número único de identificación del códec.</span><span class="sxs-lookup"><span data-stu-id="e299f-113">Unique number identifying the Codec.</span></span></p></td>
+<td><p><span data-ttu-id="266ef-111"><strong>PayloadDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="266ef-111"><strong>PayloadDescriptionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="266ef-112">entero</span><span class="sxs-lookup"><span data-stu-id="266ef-112">int</span></span></p></td>
+<td><p><span data-ttu-id="266ef-113">Principal</span><span class="sxs-lookup"><span data-stu-id="266ef-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="266ef-114">Número único de identificación del códec.</span><span class="sxs-lookup"><span data-stu-id="266ef-114">Unique number identifying the Codec.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e299f-114"><strong>PayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="e299f-114"><strong>PayloadDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="e299f-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e299f-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="e299f-116">Única</span><span class="sxs-lookup"><span data-stu-id="e299f-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="e299f-117">Nombre del códec.</span><span class="sxs-lookup"><span data-stu-id="e299f-117">Codec name.</span></span></p></td>
+<td><p><span data-ttu-id="266ef-115"><strong>PayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="266ef-115"><strong>PayloadDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="266ef-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="266ef-116">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="266ef-117">Única</span><span class="sxs-lookup"><span data-stu-id="266ef-117">Unique</span></span></p></td>
+<td><p><span data-ttu-id="266ef-118">Nombre del códec.</span><span class="sxs-lookup"><span data-stu-id="266ef-118">Codec name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
