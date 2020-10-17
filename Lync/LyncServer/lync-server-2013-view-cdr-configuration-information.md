@@ -12,20 +12,22 @@ ms:contentKeyID: 49733695
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7b33f42deeacbc9bd85c03ca865e72df9571abe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60ea87c488c84f76e60d3a4ad1815e8cfcb3d078
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211596"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506637"
 ---
+# <a name="view-cdr-configuration-information-in-lync-server-2013"></a><span data-ttu-id="29114-102">Ver la información de configuración de CDR en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="29114-102">View CDR configuration information in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-cdr-configuration-information-in-lync-server-2013"></a><span data-ttu-id="492c0-102">Ver la información de configuración de CDR en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="492c0-102">View CDR configuration information in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,37 +37,37 @@ ms.locfileid: "42211596"
 
 <span> </span>
 
-<span data-ttu-id="492c0-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="492c0-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="29114-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="29114-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="492c0-p101">El registro detallado de llamadas (CDR) permite realizar un seguimiento del uso de aspectos como las sesiones de mensajería instantánea de punto a punto, llamadas telefónicas de voz sobre IP (VoIP) y llamadas en conferencia. Estos datos de uso abarcan información sobre quién llamó a quién, cuándo se llamó y la duración de la llamada.</span><span class="sxs-lookup"><span data-stu-id="492c0-p101">Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
+<span data-ttu-id="29114-p101">El registro detallado de llamadas (CDR) permite realizar un seguimiento del uso de aspectos como las sesiones de mensajería instantánea de punto a punto, llamadas telefónicas de voz sobre IP (VoIP) y llamadas en conferencia. Estos datos de uso abarcan información sobre quién llamó a quién, cuándo se llamó y la duración de la llamada.</span><span class="sxs-lookup"><span data-stu-id="29114-p101">Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
 
-<span data-ttu-id="492c0-106">Al instalar Microsoft Lync Server 2013, se creará una única colección global de opciones de configuración de CDR.</span><span class="sxs-lookup"><span data-stu-id="492c0-106">When you install Microsoft Lync Server 2013, a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="492c0-107">Los administradores también tienen la opción de crear colecciones de opciones de configuración personalizadas que se pueden aplicar a sitios individuales.</span><span class="sxs-lookup"><span data-stu-id="492c0-107">Administrators also have the option of creating custom setting collections that can be applied to individual sites.</span></span> <span data-ttu-id="492c0-108">Puede ver las opciones de configuración de CDR que se usan en la organización mediante el panel de control de Lync Server o el cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="492c0-108">You can view the CDR configuration settings in use in your organization by using Lync Server Control Panel or the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
+<span data-ttu-id="29114-106">Al instalar Microsoft Lync Server 2013, se creará una única colección global de opciones de configuración de CDR.</span><span class="sxs-lookup"><span data-stu-id="29114-106">When you install Microsoft Lync Server 2013, a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="29114-107">Los administradores también tienen la opción de crear colecciones de opciones de configuración personalizadas que se pueden aplicar a sitios individuales.</span><span class="sxs-lookup"><span data-stu-id="29114-107">Administrators also have the option of creating custom setting collections that can be applied to individual sites.</span></span> <span data-ttu-id="29114-108">Puede ver las opciones de configuración de CDR que se usan en la organización mediante el panel de control de Lync Server o el cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="29114-108">You can view the CDR configuration settings in use in your organization by using Lync Server Control Panel or the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
 
 <div>
 
-## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a><span data-ttu-id="492c0-109">Para ver la información de configuración de CDR mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="492c0-109">To view CDR configuration information by using Lync Server Control Panel</span></span>
+## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a><span data-ttu-id="29114-109">Para ver la información de configuración de CDR mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="29114-109">To view CDR configuration information by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="492c0-110">En el panel de control de Lync Server, haga clic en **supervisión y archivado**.</span><span class="sxs-lookup"><span data-stu-id="492c0-110">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
+1.  <span data-ttu-id="29114-110">En el panel de control de Lync Server, haga clic en **supervisión y archivado**.</span><span class="sxs-lookup"><span data-stu-id="29114-110">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
 
-2.  <span data-ttu-id="492c0-p103">En la pestaña **Registro detallado de llamadas**, se mostrará una lista de todas las opciones de configuración de CDR. En cada colección de opciones verá la colección **Nombre**, con independencia de si se habilitó CDR (la propiedad **CDR**) y el purgado (la propiedad **Purgado de CDR**). Para ver información detallada sobre una colección en concreto, haga doble clic sobre la colección o selecciónela, haga clic en **Editar** y, luego, en **Mostrar detalles**. Tenga en cuenta que solo puede ver información detallada de una única colección de opciones de configuración al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="492c0-p103">A list of all your CDR configuration settings will be displayed in the **Call Detail Recording** tab; for each collection of settings you will see the collection **Name**; whether or not CDR has been enabled (the **CDR** property); and whether or not purging has been enabled (the **CDR purging** property). To see detailed information about a collection, double-click the collection, or select the appropriate collection, click **Edit**, and then click **Show Details**. Note that you can only view detailed information for a single collection of CDR configuration settings at a time.</span></span>
+2.  <span data-ttu-id="29114-p103">En la pestaña **Registro detallado de llamadas**, se mostrará una lista de todas las opciones de configuración de CDR. En cada colección de opciones verá la colección **Nombre**, con independencia de si se habilitó CDR (la propiedad **CDR**) y el purgado (la propiedad **Purgado de CDR**). Para ver información detallada sobre una colección en concreto, haga doble clic sobre la colección o selecciónela, haga clic en **Editar** y, luego, en **Mostrar detalles**. Tenga en cuenta que solo puede ver información detallada de una única colección de opciones de configuración al mismo tiempo.</span><span class="sxs-lookup"><span data-stu-id="29114-p103">A list of all your CDR configuration settings will be displayed in the **Call Detail Recording** tab; for each collection of settings you will see the collection **Name**; whether or not CDR has been enabled (the **CDR** property); and whether or not purging has been enabled (the **CDR purging** property). To see detailed information about a collection, double-click the collection, or select the appropriate collection, click **Edit**, and then click **Show Details**. Note that you can only view detailed information for a single collection of CDR configuration settings at a time.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="492c0-114">Ver la información de configuración de CDR mediante los cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="492c0-114">Viewing CDR Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="29114-114">Ver la información de configuración de CDR mediante los cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="29114-114">Viewing CDR Configuration Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="492c0-115">Puede ver las opciones de configuración de CDR con Windows PowerShell y el cmdlet Get-CsCdrConfiguration.</span><span class="sxs-lookup"><span data-stu-id="492c0-115">You can view CDR configuration settings by using Windows PowerShell and the Get-CsCdrConfiguration cmdlet.</span></span> <span data-ttu-id="492c0-116">Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="492c0-116">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="492c0-117">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="492c0-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="29114-115">Puede ver las opciones de configuración de CDR con Windows PowerShell y el cmdlet Get-CsCdrConfiguration.</span><span class="sxs-lookup"><span data-stu-id="29114-115">You can view CDR configuration settings by using Windows PowerShell and the Get-CsCdrConfiguration cmdlet.</span></span> <span data-ttu-id="29114-116">Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="29114-116">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="29114-117">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="29114-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-cdr-configuration-information"></a><span data-ttu-id="492c0-118">Para ver la información de configuración de CDR</span><span class="sxs-lookup"><span data-stu-id="492c0-118">To view CDR configuration information</span></span>
+## <a name="to-view-cdr-configuration-information"></a><span data-ttu-id="29114-118">Para ver la información de configuración de CDR</span><span class="sxs-lookup"><span data-stu-id="29114-118">To view CDR configuration information</span></span>
 
-  - <span data-ttu-id="492c0-119">Para ver información sobre todas las opciones de configuración de CDR, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="492c0-119">To view information about all your CDR configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="29114-119">Para ver información sobre todas las opciones de configuración de CDR, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="29114-119">To view information about all your CDR configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsCdrConfiguration
     
-    <span data-ttu-id="492c0-120">Devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="492c0-120">That will return information similar to this:</span></span>
+    <span data-ttu-id="29114-120">Devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="29114-120">That will return information similar to this:</span></span>
     
         Identity               : Global
         EnableCDR              : True
@@ -76,7 +78,7 @@ ms.locfileid: "42211596"
 
 </div>
 
-<span data-ttu-id="492c0-121">Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="492c0-121">For more information, see the help topic for the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
+<span data-ttu-id="29114-121">Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="29114-121">For more information, see the help topic for the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
 
 </div>
 

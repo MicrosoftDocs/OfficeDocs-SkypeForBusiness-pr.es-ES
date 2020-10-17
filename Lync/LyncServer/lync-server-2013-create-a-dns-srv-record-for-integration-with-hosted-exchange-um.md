@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507477"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a><span data-ttu-id="1e3db-102">Crear un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada</span><span class="sxs-lookup"><span data-stu-id="1e3db-102">Create a DNS SRV record for integration with hosted Exchange UM</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a><span data-ttu-id="f1972-102">Crear un registro SRV de DNS para la integración con la mensajería unificada de Exchange hospedada</span><span class="sxs-lookup"><span data-stu-id="f1972-102">Create a DNS SRV record for integration with hosted Exchange UM</span></span>
+
 
 </div>
 
@@ -35,76 +37,76 @@ ms.locfileid: "42198963"
 
 <span> </span>
 
-<span data-ttu-id="f1972-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="f1972-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="1e3db-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="1e3db-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="f1972-104">En este tema se describe cómo configurar el registro SRV del sistema de nombres de dominio (DNS) necesario para que un servidor perimetral de Lync Server 2013 pueda enrutar a un servicio de Exchange hospedado como Microsoft Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="f1972-104">This topic describes how to configure the Domain Name System (DNS) SRV record that is required for a Lync Server 2013 Edge Server to route to a hosted Exchange service such as Microsoft Exchange Online.</span></span>
+<span data-ttu-id="1e3db-104">En este tema se describe cómo configurar el registro SRV del sistema de nombres de dominio (DNS) necesario para que un servidor perimetral de Lync Server 2013 pueda enrutar a un servicio de Exchange hospedado como Microsoft Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="1e3db-104">This topic describes how to configure the Domain Name System (DNS) SRV record that is required for a Lync Server 2013 Edge Server to route to a hosted Exchange service such as Microsoft Exchange Online.</span></span>
 
 <div>
 
-## <a name="to-create-an-external-dns-srv-record-for-the-hosted-exchange-service"></a><span data-ttu-id="f1972-105">Para crear un registro SRV de DNS externo para el servicio Exchange hospedado</span><span class="sxs-lookup"><span data-stu-id="f1972-105">To create an external DNS SRV record for the hosted Exchange service</span></span>
+## <a name="to-create-an-external-dns-srv-record-for-the-hosted-exchange-service"></a><span data-ttu-id="1e3db-105">Para crear un registro SRV de DNS externo para el servicio Exchange hospedado</span><span class="sxs-lookup"><span data-stu-id="1e3db-105">To create an external DNS SRV record for the hosted Exchange service</span></span>
 
-1.  <span data-ttu-id="f1972-106">Inicie sesión en el servidor DNS externo como miembro del grupo DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="f1972-106">Log on to the external DNS server as a member of the DnsAdmins group.</span></span>
+1.  <span data-ttu-id="1e3db-106">Inicie sesión en el servidor DNS externo como miembro del grupo DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="1e3db-106">Log on to the external DNS server as a member of the DnsAdmins group.</span></span>
 
-2.  <span data-ttu-id="f1972-107">Haga clic en **Iniciar**, en **Herramientas administrativas** y en **DNS**.</span><span class="sxs-lookup"><span data-stu-id="f1972-107">Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
+2.  <span data-ttu-id="1e3db-107">Haga clic en **Iniciar**, en **Herramientas administrativas** y en **DNS**.</span><span class="sxs-lookup"><span data-stu-id="1e3db-107">Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-3.  <span data-ttu-id="f1972-108">En el árbol de la consola del dominio SIP, expanda **zonas de búsqueda directa**y seleccione el dominio SIP en el que se instalará Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f1972-108">In the console tree for your SIP domain, expand **Forward Lookup Zones**, and select the SIP domain in which Lync Server 2013 will be installed.</span></span>
+3.  <span data-ttu-id="1e3db-108">En el árbol de la consola del dominio SIP, expanda **zonas de búsqueda directa**y seleccione el dominio SIP en el que se instalará Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1e3db-108">In the console tree for your SIP domain, expand **Forward Lookup Zones**, and select the SIP domain in which Lync Server 2013 will be installed.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]
-    > <span data-ttu-id="f1972-p101">Debe crear el registro SRV de DNS en el dominio SIP en que se va a instalar Lync Server. Al crear el registro SRV, el FQDN usado para el host que ofrece este campo de servicio debe ser el FQDN externo del grupo de servidores perimetrales. Por ejemplo, si el FQDN externo de su grupo de servidores perimetrales es edge01.contoso.net, escriba ese valor. Este debe estar también en el mismo dominio que el registro de host (A) de DNS.</span><span class="sxs-lookup"><span data-stu-id="f1972-p101">You must create the DNS SRV record in the SIP domain in which Lync Server is or will be installed. When you create the SRV record, the FQDN used for the Host offering this service field must be the external FQDN of the Edge pool. For example, if the external FQDN of your Edge pool is edge01.contoso.net, enter that value. This must also be in the same domain as the DNS Hosts (A) record.</span></span>
+    > <span data-ttu-id="1e3db-p101">Debe crear el registro SRV de DNS en el dominio SIP en que se va a instalar Lync Server. Al crear el registro SRV, el FQDN usado para el host que ofrece este campo de servicio debe ser el FQDN externo del grupo de servidores perimetrales. Por ejemplo, si el FQDN externo de su grupo de servidores perimetrales es edge01.contoso.net, escriba ese valor. Este debe estar también en el mismo dominio que el registro de host (A) de DNS.</span><span class="sxs-lookup"><span data-stu-id="1e3db-p101">You must create the DNS SRV record in the SIP domain in which Lync Server is or will be installed. When you create the SRV record, the FQDN used for the Host offering this service field must be the external FQDN of the Edge pool. For example, if the external FQDN of your Edge pool is edge01.contoso.net, enter that value. This must also be in the same domain as the DNS Hosts (A) record.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="f1972-113">Haga clic con el botón secundario en el dominio seleccionado y haga clic en **Registros nuevos**.</span><span class="sxs-lookup"><span data-stu-id="f1972-113">Right-click the selected domain, and then click **Other New Records**.</span></span>
+4.  <span data-ttu-id="1e3db-113">Haga clic con el botón secundario en el dominio seleccionado y haga clic en **Registros nuevos**.</span><span class="sxs-lookup"><span data-stu-id="1e3db-113">Right-click the selected domain, and then click **Other New Records**.</span></span>
 
-5.  <span data-ttu-id="f1972-114">En **Tipo de registro del recurso**, haga clic en **Ubicación de servicio (SRV)** y en **Crear registro**.</span><span class="sxs-lookup"><span data-stu-id="f1972-114">In **Resource Record Type**, click **Service Location (SRV)**, and then click **Create Record**.</span></span>
+5.  <span data-ttu-id="1e3db-114">En **Tipo de registro del recurso**, haga clic en **Ubicación de servicio (SRV)** y en **Crear registro**.</span><span class="sxs-lookup"><span data-stu-id="1e3db-114">In **Resource Record Type**, click **Service Location (SRV)**, and then click **Create Record**.</span></span>
 
-6.  <span data-ttu-id="f1972-115">En **nuevo registro de recursos**, haga clic en **servicio**y, a continuación, escriba \*\* \_sipfederationtls\*\*.</span><span class="sxs-lookup"><span data-stu-id="f1972-115">In **New Resource Record**, click **Service**, and then type **\_sipfederationtls**.</span></span>
+6.  <span data-ttu-id="1e3db-115">En **nuevo registro de recursos**, haga clic en **servicio**y, a continuación, escriba \*\* \_ sipfederationtls\*\*.</span><span class="sxs-lookup"><span data-stu-id="1e3db-115">In **New Resource Record**, click **Service**, and then type **\_sipfederationtls**.</span></span>
 
-7.  <span data-ttu-id="f1972-116">Haga clic en **Protocolo**y, a continuación, escriba \*\* \_TCP\*\*.</span><span class="sxs-lookup"><span data-stu-id="f1972-116">Click **Protocol**, and then type **\_tcp**.</span></span>
+7.  <span data-ttu-id="1e3db-116">Haga clic en **Protocolo**y, a continuación, escriba \*\* \_ TCP\*\*.</span><span class="sxs-lookup"><span data-stu-id="1e3db-116">Click **Protocol**, and then type **\_tcp**.</span></span>
 
-8.  <span data-ttu-id="f1972-117">Haga clic en **Número de puerto** y escriba **5061**.</span><span class="sxs-lookup"><span data-stu-id="f1972-117">Click **Port Number**, and then type **5061**.</span></span>
+8.  <span data-ttu-id="1e3db-117">Haga clic en **Número de puerto** y escriba **5061**.</span><span class="sxs-lookup"><span data-stu-id="1e3db-117">Click **Port Number**, and then type **5061**.</span></span>
 
-9.  <span data-ttu-id="f1972-118">Haga clic en **host que ofrece este servicio**y, a continuación, escriba el nombre de dominio completo (FQDN) del grupo de servidores perimetrales de lync Server 2013 que proporciona acceso al sistema de lync Server 2013 para clientes externos de confianza.</span><span class="sxs-lookup"><span data-stu-id="f1972-118">Click **Host offering this service**, and then type the fully qualified domain name (FQDN) of the Lync Server 2013 Edge pool that provides access to your Lync Server 2013 system for trusted external clients.</span></span>
+9.  <span data-ttu-id="1e3db-118">Haga clic en **host que ofrece este servicio**y, a continuación, escriba el nombre de dominio completo (FQDN) del grupo de servidores perimetrales de lync Server 2013 que proporciona acceso al sistema de lync Server 2013 para clientes externos de confianza.</span><span class="sxs-lookup"><span data-stu-id="1e3db-118">Click **Host offering this service**, and then type the fully qualified domain name (FQDN) of the Lync Server 2013 Edge pool that provides access to your Lync Server 2013 system for trusted external clients.</span></span>
     
     <div>
     
 
     > [!NOTE]
-    > <span data-ttu-id="f1972-119">El dominio también debe estar configurado como un dominio aceptado y autoritativo en la configuración de Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="f1972-119">The domain must also be set up as an authoritative, accepted domain in your Exchange Online settings.</span></span> <span data-ttu-id="f1972-120">Para obtener más información, consulte crear dominios <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>aceptados en.</span><span class="sxs-lookup"><span data-stu-id="f1972-120">For details, see Create Accepted Domains at <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>.</span></span>
+    > <span data-ttu-id="1e3db-119">El dominio también debe estar configurado como un dominio aceptado y autoritativo en la configuración de Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="1e3db-119">The domain must also be set up as an authoritative, accepted domain in your Exchange Online settings.</span></span> <span data-ttu-id="1e3db-120">Para obtener más información, consulte crear dominios aceptados en <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> .</span><span class="sxs-lookup"><span data-stu-id="1e3db-120">For details, see Create Accepted Domains at <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="f1972-121">Haga clic en **Aceptar** y en **Listo**.</span><span class="sxs-lookup"><span data-stu-id="f1972-121">Click **OK**, and then click **Done**.</span></span>
+10. <span data-ttu-id="1e3db-121">Haga clic en **Aceptar** y en **Listo**.</span><span class="sxs-lookup"><span data-stu-id="1e3db-121">Click **OK**, and then click **Done**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-verify-that-the-dns-srv-record-was-created-successfully"></a><span data-ttu-id="f1972-122">Para comprobar que el registro SRV de DNS se ha creado correctamente</span><span class="sxs-lookup"><span data-stu-id="f1972-122">To verify that the DNS SRV record was created successfully</span></span>
+## <a name="to-verify-that-the-dns-srv-record-was-created-successfully"></a><span data-ttu-id="1e3db-122">Para comprobar que el registro SRV de DNS se ha creado correctamente</span><span class="sxs-lookup"><span data-stu-id="1e3db-122">To verify that the DNS SRV record was created successfully</span></span>
 
-1.  <span data-ttu-id="f1972-123">Inicie sesión en un equipo cliente en el dominio.</span><span class="sxs-lookup"><span data-stu-id="f1972-123">Log on to a client computer in the domain.</span></span>
+1.  <span data-ttu-id="1e3db-123">Inicie sesión en un equipo cliente en el dominio.</span><span class="sxs-lookup"><span data-stu-id="1e3db-123">Log on to a client computer in the domain.</span></span>
 
-2.  <span data-ttu-id="f1972-124">Haga clic en **Inicio** y, a continuación, en **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="f1972-124">Click **Start**, and then click **Run**.</span></span>
+2.  <span data-ttu-id="1e3db-124">Haga clic en **Inicio** y, a continuación, en **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="1e3db-124">Click **Start**, and then click **Run**.</span></span>
 
-3.  <span data-ttu-id="f1972-125">En el símbolo del sistema, ejecute el comando siguiente:</span><span class="sxs-lookup"><span data-stu-id="f1972-125">At the command prompt, run the following command:</span></span>
+3.  <span data-ttu-id="1e3db-125">En el símbolo del sistema, ejecute el comando siguiente:</span><span class="sxs-lookup"><span data-stu-id="1e3db-125">At the command prompt, run the following command:</span></span>
     
         nslookup <FQDN Lync Edge Pool>
 
-4.  <span data-ttu-id="f1972-126">Compruebe que recibe una respuesta que resuelve la dirección IP adecuada para el FQDN.</span><span class="sxs-lookup"><span data-stu-id="f1972-126">Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.</span></span>
+4.  <span data-ttu-id="1e3db-126">Compruebe que recibe una respuesta que resuelve la dirección IP adecuada para el FQDN.</span><span class="sxs-lookup"><span data-stu-id="1e3db-126">Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f1972-127">Consulta también</span><span class="sxs-lookup"><span data-stu-id="f1972-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1e3db-127">Consulte también</span><span class="sxs-lookup"><span data-stu-id="1e3db-127">See Also</span></span>
 
 
-[<span data-ttu-id="f1972-128">Crear registros DNS para servidores de proxy inverso en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1972-128">Create DNS records for reverse proxy servers in Lync Server 2013</span></span>](lync-server-2013-create-dns-records-for-reverse-proxy-servers.md)  
+[<span data-ttu-id="1e3db-128">Crear registros DNS para servidores de proxy inverso en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1e3db-128">Create DNS records for reverse proxy servers in Lync Server 2013</span></span>](lync-server-2013-create-dns-records-for-reverse-proxy-servers.md)  
   
 
 </div>
