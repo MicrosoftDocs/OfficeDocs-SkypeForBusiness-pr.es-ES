@@ -12,20 +12,22 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e34e47eaa5cd4bf8ffc2fccbc2a8bcb3f4f2de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cb6b2904ee2a8883c492e570173e73bc001cc03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497527"
 ---
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Configuración de la Federación XMPP en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Configuración de la Federación XMPP en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Para implementar el proxy XMPP en el servidor perimetral, debe configurar el ser
 
 2.  En el servidor front-end, abra al Asistente para implementación de Lync Server. Haga clic en Instalar o actualizar el sistema Lync Server y, a continuación, haga clic en Instalar o desinstalar componentes de Lync Server. Haga clic en Ejecutar de nuevo.
 
-3.  En Instalar componentes de Lync Server, haga clic en Siguiente. La pantalla de resumen mostrará las acciones a medida que se ejecuten. Una vez finalizada la implementación, haga clic en Ver registro para ver los archivos de registro disponibles. Haga clic en Finalizar para completar la implementación.
+3.  En Instalar componentes de Lync Server, haga clic en Siguiente. La pantalla de resumen mostrará las acciones a medida que se ejecutan. Una vez realizada la implementación, haga clic en Ver registro para ver los archivos de registro disponibles. Haga clic en Finalizar para completar la implementación.
 
 4.  En el servidor perimetral, abra el Asistente para implementación de Lync Server. Haga clic en Instalar o actualizar el sistema Lync Server y, a continuación, haga clic en Instalar o desinstalar componentes de Lync Server. Haga clic en Ejecutar de nuevo.
 
@@ -70,7 +72,7 @@ Para implementar el proxy XMPP en el servidor perimetral, debe configurar el ser
 
 9.  En la página Solicitud retrasada o inmediata, seleccione la casilla Prepare ahora la solicitud, pero envíela más tarde.
 
-10. En la página archivo de solicitud de certificado, escriba la ruta de acceso completa y el nombre de archivo del archivo en el que se va a guardar la solicitud\\(\_por\_ejemplo, c: CERT externos Edge. cer).
+10. En la página archivo de solicitud de certificado, escriba la ruta de acceso completa y el nombre de archivo del archivo en el que se va a guardar la solicitud (por ejemplo, c: \\ CERT \_ externos \_ Edge. cer).
 
 11. En la página Especificar plantilla de certificado alternativa, para utilizar una plantilla distinta a la plantilla de servidor web predeterminada, seleccione la casilla Usar plantilla de certificado alternativa para la entidad de certificación seleccionada.
 
@@ -88,7 +90,7 @@ Para implementar el proxy XMPP en el servidor perimetral, debe configurar el ser
 
 15. En la página Nombre de sujeto / Nombres alternativos de sujeto se muestra la información que rellena automáticamente el asistente. Si son necesarios nombres alternativos de sujeto adicionales, debe especificarlos en los dos pasos siguientes.
 
-16. En la página Configuración de dominio SIP en nombres alternativos de sujeto (San), active la casilla de verificación dominio para agregar un SIP. \<entrada\> sipdomain a la lista de nombres alternativos de sujeto.
+16. En la página Configuración de dominio SIP en nombres alternativos de sujeto (San), active la casilla de verificación dominio para agregar un SIP.\<sipdomain\> entrada a la lista de nombres alternativos de sujeto.
 
 17. En la página Configurar nombres alternativos de sujeto adicionales, especifique los nombres alternativos de sujeto adicionales que sean necesarios.
     
@@ -119,7 +121,7 @@ Para implementar el proxy XMPP en el servidor perimetral, debe configurar el ser
         Start-CsWindowsService
        ```
 
-23. Para configurar DNS para la Federación XMPP, agregue el siguiente registro SRV a DNS externo:\_XMPP-Server. \_TCP. \<nombre\> de dominio el registro SRV se resolverá en el FQDN perimetral de acceso del servidor perimetral, con un valor de puerto de 5269. Además, puede configurar un registro de host ' A ' (por ejemplo, xmpp.contoso.com) que señale a la dirección IP del servidor perimetral de acceso.
+23. Para configurar DNS para la Federación XMPP, agregue el siguiente registro SRV a DNS externo: \_ XMPP-Server. \_ TPC.\<domain name\> El registro SRV se resolverá en el FQDN perimetral de acceso del servidor perimetral, con un valor de puerto de 5269. Además, puede configurar un registro de host ' A ' (por ejemplo, xmpp.contoso.com) que señale a la dirección IP del servidor perimetral de acceso.
     
     <div class=" ">
     
@@ -215,7 +217,7 @@ Para implementar el proxy XMPP en el servidor perimetral, debe configurar el ser
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Configuración XMPP de ejemplo en Lync Server 2013: Federación XMPP con Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  

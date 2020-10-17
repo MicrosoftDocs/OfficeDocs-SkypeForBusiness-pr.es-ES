@@ -12,20 +12,22 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5c95399aa7cccf28ec0c236c2882b6f44794e80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e16d4edfb53511712c58cb41510559fcf69cfa9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197093"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498577"
 ---
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Instalar el almacén de configuración local en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Instalar el almacén de configuración local en Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Para poder realizar cualquier acción con el Asistente para la implementación d
 
 
 > [!IMPORTANT]  
-> Si no ha ejecutado el programa de instalación de Lync Server 2013 en este servidor, se le pedirá una unidad y una ruta de acceso para instalar Lync Server 2013 en. Esto le permitirá instalar en una unidad distinta de la unidad del sistema, si su organización la necesita, o si tiene problemas de espacio. Solo puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server en el cuadro de diálogo de instalación a una unidad nueva y disponible. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server 2013 también se implementarán allí.
+> Si no ha ejecutado el programa de instalación de Lync Server 2013 en este servidor, se le pedirá una unidad y una ruta de acceso para instalar Lync Server 2013 en. Esto le permitirá instalar en una unidad distinta de la unidad del sistema, si su organización la necesita, o si tiene problemas de espacio. Solo puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server en el cuadro de diálogo de instalación a una unidad nueva y disponible. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore.msi, también se implementará el resto de los archivos de Lync Server 2013.
 
 
 
@@ -55,7 +57,7 @@ Para poder realizar cualquier acción con el Asistente para la implementación d
 
 ## <a name="to-install-the-local-configuration-store"></a>Para instalar el almacén de configuración local
 
-1.  Desde los medios de instalación, vaya \\a\\Setup\\AMD64 Setup. exe y, a continuación, haga clic en **Aceptar**.
+1.  En los medios de instalación, vaya a \\ setup \\ AMD64 \\Setup.exe y, a continuación, haga clic en **Aceptar**.
 
 2.  Si se le pide que instale el paquete redistribuible de Microsoft Visual C++ 2012, haga clic en **sí**.
 

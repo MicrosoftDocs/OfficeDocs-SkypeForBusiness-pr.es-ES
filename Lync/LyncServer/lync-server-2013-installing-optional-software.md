@@ -12,20 +12,22 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce81d2005a9bbed5432f2c78f3d8df5507d6679
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5f56d856aa0a97125812f68ede9a2bff5b49f036
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191683"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498537"
 ---
+# <a name="installing-optional-software-in-lync-server-2013"></a>Instalación de software opcional en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-optional-software-in-lync-server-2013"></a>Instalación de software opcional en Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ La exportación de su diseño a Microsoft Visio crea un diagrama para su uso en 
 
   - Topología global: Diagrama de sitios configurados de Lync Server 2013.
 
-  - Ficha nombre de sitio: muestra la topología de configuración de sitio con servidor perimetral, firewall, red telefónica conmutada (RTC) con puertas de enlace y la implementación de servidor interna. La implementación interna consta de servidores y grupos de servidores configurados, incluidos los grupos de servidores front-end, los servidores basados en SQL Server, los servicios de dominio de Active Directory, los directores, los servidores de mensajería unificada de Exchange, los servidores de buzones de Exchange y los servidores de Office Web Apps. Servidores de mediación y servidores de chat persistente.
+  - Ficha nombre de sitio: muestra la topología de configuración de sitio con servidor perimetral, firewall, red telefónica conmutada (RTC) con puertas de enlace y la implementación de servidor interna. La implementación interna consta de servidores y grupos de servidores, incluidos los grupos de servidores front-end, los servidores basados en SQL Server, los servicios de dominio de Active Directory, los directores, los servidores de mensajería unificada de Exchange, los servidores de buzones de Exchange, los servidores de Office Web Apps, los servidores de mediación y los servidores de chat persistente.
 
   - Diagrama de red perimetral: diagrama que detalla la configuración del servidor perimetral con las direcciones IP y los FQDN asociados. También se incluyen equilibrio de carga de DNS y equilibradores de carga de hardware. Además, se muestran los directores y el servidor front-end o el grupo de servidores front-end, con el DNS LB o HLB asociado y la dirección IP asignada (la herramienta de planeación admite direcciones IPv4 e IPv6) y el FQDN.
 
@@ -93,7 +95,7 @@ La exportación de su diseño a Microsoft Visio crea un diagrama para su uso en 
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Instalar la herramienta de planeación en Lync Server 2013](lync-server-2013-installing-the-planning-tool.md)  

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88b27e325ba8990cf239548c689d4e021397858a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e33f05f0a05b1225f1687faa00cf48af02fa1410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185623"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498167"
 ---
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Administración de ubicaciones para puertas de enlace de ELIN en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Administración de ubicaciones para puertas de enlace de ELIN en Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ El campo **Ubicación** del servicio de información de ubicación, que contiene
 
   - Un nombre fácil de comprender que identifique la ubicación del autor de la llamada al 911 para que a los encargados de emergencias les resulte más fácil encontrar rápidamente la ubicación específica cuando lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, la planta, la escalera, la puerta, etc. Evite los apodos que solo conozcan los empleados, ya que los encargados de emergencias podrían equivocarse de ubicación.
 
-  - Un identificador de ubicación para que a los usuarios les resulte más fácil ver que su cliente de Lync eligió la ubicación correcta. El cliente de Lync concatena y muestra automáticamente los campos **Location** y **City** en el encabezado. Un procedimiento recomendado es agregar la dirección de la calle del edificio a cada identificador de ubicación (por ejemplo, "número \<\>de calle del 1 piso"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
+  - Un identificador de ubicación para que a los usuarios les resulte más fácil ver que su cliente de Lync eligió la ubicación correcta. El cliente de Lync concatena y muestra automáticamente los campos **Location** y **City** en el encabezado. Un procedimiento recomendado es agregar la dirección de la calle del edificio a cada identificador de ubicación (por ejemplo, "1ª planta \<street number\> "). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
 
   - Si la ubicación es aproximativa, porque se determina con un punto de acceso inalámbrico, agregue la palabra Near (por ejemplo, "Cerca 1ª planta 1234").
 
@@ -144,7 +146,7 @@ Con las siguientes preguntas le será más fácil determinar cómo rellenar la b
   - **¿Dispone de una base de datos de otros fabricantes que ya contenga una asignación de ubicaciones?**  
     Mediante el uso de la opción servicio de información de ubicación secundaria de Lync Server para conectarse a una base de datos de terceros, puede agrupar y administrar las ubicaciones mediante una plataforma sin conexión. La ventana es que además de asociar las ubicaciones a identificadores de red, puede asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, que se originan del servicio de información de ubicación secundario, a un cliente de Lync Server. Y el usuario puede elegir la ubicación más adecuada.
     
-    Para integrarse con el servicio de información de ubicaciones, la base de datos de terceros debe seguir el esquema de solicitud y respuesta de la ubicación de Lync Server. Para obtener más información <https://go.microsoft.com/fwlink/p/?linkid=213819>, consulte. Para obtener más información sobre cómo implementar un servicio de información de ubicaciones secundarias, vea [configurar un servicio de información de ubicaciones secundarias en Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) en la documentación sobre implementación.
+    Para integrarse con el servicio de información de ubicaciones, la base de datos de terceros debe seguir el esquema de solicitud y respuesta de la ubicación de Lync Server. Para obtener más información, consulte <https://go.microsoft.com/fwlink/p/?linkid=213819> . Para obtener más información sobre cómo implementar un servicio de información de ubicaciones secundarias, vea [configurar un servicio de información de ubicaciones secundarias en Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) en la documentación sobre implementación.
 
 Para obtener información detallada sobre cómo rellenar la base de datos de ubicaciones, consulte [Configure The location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) en la documentación sobre implementación.
 

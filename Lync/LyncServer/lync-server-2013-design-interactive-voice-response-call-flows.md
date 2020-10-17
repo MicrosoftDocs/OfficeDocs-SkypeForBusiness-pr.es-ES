@@ -12,20 +12,22 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78032a23fce6bb210ecec6eb828178aabddf9b52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 649d085253610002e7623872012a400ac0a1f079
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498947"
 ---
+# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Diseñar flujos de llamadas de respuesta de voz interactiva en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Diseñar flujos de llamadas de respuesta de voz interactiva en Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Las preguntas de IVR y las respuestas del autor de la llamada se proporcionan al
 
 ## <a name="working-with-speech-technologies"></a>Trabajar con tecnologías de voz
 
-Las tecnologías de voz, como el reconocimiento de voz y el texto a voz, pueden mejorar la experiencia del cliente y permitir que las personas tengan acceso a la información con mayor naturalidad y eficacia. Sin embargo, puede haber casos en que el motor de síntesis de voz no reconozca correctamente el texto especificado o la respuesta de voz del usuario. Por ejemplo, el motor\#de texto a voz traduce el símbolo "" como la palabra "número". Este problema se puede mitigar de la siguiente manera:
+Las tecnologías de voz, como el reconocimiento de voz y el texto a voz, pueden mejorar la experiencia del cliente y permitir que las personas tengan acceso a la información con mayor naturalidad y eficacia. Sin embargo, puede haber casos en que el motor de síntesis de voz no reconozca correctamente el texto especificado o la respuesta de voz del usuario. Por ejemplo, el \# motor de texto a voz traduce el símbolo "" como la palabra "número". Este problema se puede mitigar de la siguiente manera:
 
   - El motor de síntesis de voz proporciona el autor de la llamada cinco intentos para responder a la pregunta. Si el autor de la llamada aporta una respuesta incorrecta (es decir, la respuesta no es ninguna de las especificadas), o si no responde, tendrá otra oportunidad para responder. El autor de la llamada tendrá cinco intentos para responder a la pregunta antes de ser desconectado. Puede configurar el IVR para que reproduzca un mensaje personalizado después de cada error del autor de la llamada. La pregunta se repite cada vez.
 
@@ -73,7 +75,7 @@ Las tecnologías de voz, como el reconocimiento de voz y el texto a voz, pueden 
 
   - Si sus preguntas tienen respuestas de voz y de DTMF, configure las respuestas de voz con palabras que representen el concepto, en lugar de la respuesta de DTMF. Por ejemplo, en lugar de "Pulse o diga uno", use "Pulse 1 o diga facturación".
 
-  - Después de diseñar IVR, llame al flujo de trabajo, escuche las indicaciones, responda a cada una de ellas mediante voz y compruebe que IVR suena y se comporta como se espera. A continuación, puede modificar el IVR para corregir los posibles problemas de interpretación. Siguiendo el ejemplo anterior, si necesita hacer referencia a la \# clave, puede volver a escribir el mensaje IVR para usar el nombre de la clave, en lugar \# del símbolo. Por ejemplo, "Para hablar con el departamento de ventas, presione la tecla almohadilla".
+  - Después de diseñar IVR, llame al flujo de trabajo, escuche las indicaciones, responda a cada una de ellas mediante voz y compruebe que IVR suena y se comporta como se espera. A continuación, puede modificar el IVR para corregir los posibles problemas de interpretación. Siguiendo el ejemplo anterior, si necesita hacer referencia a la \# clave, puede volver a escribir el mensaje IVR para usar el nombre de la clave, en lugar del \# símbolo. Por ejemplo, "Para hablar con el departamento de ventas, presione la tecla almohadilla".
 
 </div>
 

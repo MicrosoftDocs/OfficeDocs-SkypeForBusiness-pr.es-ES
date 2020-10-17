@@ -12,20 +12,22 @@ ms:contentKeyID: 48183782
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6157b9dc8867b2f458eafb6f0343fd43a19af537
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f71977dc1909fa6993bc21f7944e821276dd86d6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498397"
 ---
+# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Consideraciones sobre interoperabilidad para la Conferencia de vídeo en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="interoperability-considerations-for-video-conferencing-in-lync-server-2013"></a>Consideraciones sobre interoperabilidad para la Conferencia de vídeo en Lync Server 2013
+
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e4d872839353e0eeddabb1be2bb52aa560e84e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a2417772f5a6e4be4c44667280b77d7b76d12d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498687"
 ---
+# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a>Instalar el software necesario como requisito previo en los servidores perimetrales para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a>Instalar el software necesario como requisito previo en los servidores perimetrales para Lync Server 2013
+
 
 </div>
 

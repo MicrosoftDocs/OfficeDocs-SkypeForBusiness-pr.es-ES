@@ -12,20 +12,22 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c953c3f60737ca6bd43e09cc22a4443f3c8410c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3b0c1c9966945554af6d1d9cec02a17dd884a857
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498487"
 ---
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Requisitos de Internet Information Services (IIS) en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Requisitos de Internet Information Services (IIS) en Lync Server 2013
+
 
 </div>
 

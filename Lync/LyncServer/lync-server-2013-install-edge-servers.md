@@ -12,20 +12,22 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af95403b8a1fc383d8d6065f26a55242e735a51b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 81a17eacb30c62f64185508afef3842408238ba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498747"
 ---
+# <a name="install-edge-servers-for-lync-server-2013"></a>Instalar servidores perimetrales para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-edge-servers-for-lync-server-2013"></a>Instalar servidores perimetrales para Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Después de usar el Asistente para la implementación para instalar cada servido
 
 1.  Inicie sesión en el equipo en el que desea instalar el servidor perimetral como miembro del grupo Administradores o con una cuenta que tenga derechos o permisos de usuario similares.
 
-2.  Asegúrese de que el archivo de configuración de la topología que ha creado mediante el generador de topologías y, a continuación, de que se ha exportado y copiado a un medio externo está disponible en el servidor perimetral (por ejemplo, acceso a la unidad USB en la que copió el archivo de configuración de la topología o Compruebe acceso al recurso compartido de red en el que copió el archivo).
+2.  Asegúrese de que el archivo de configuración de la topología que ha creado mediante el generador de topologías y, después, exportado y copiado en un medio externo, esté disponible en el servidor perimetral (por ejemplo, acceso a la unidad USB en la que copió el archivo de configuración de la topología o Compruebe el acceso al recurso compartido de red en el que copió el archivo).
 
 3.  Inicie el Asistente para la implementación.
     

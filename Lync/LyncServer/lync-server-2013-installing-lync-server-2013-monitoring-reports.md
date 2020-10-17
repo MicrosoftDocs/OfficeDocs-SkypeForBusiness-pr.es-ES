@@ -12,20 +12,22 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a2694aaef4845b776b09f6c57fec65ca77b77b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191673"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498547"
 ---
+# <a name="installing-lync-server-2013-monitoring-reports"></a>Instalación de informes de supervisión de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>Instalación de informes de supervisión de Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Para instalar los informes de supervisión con el Asistente para la implementaci
 
 3.  Una vez en el asistente, en la página **Especificar la base de datos de supervisión**, asegúrese de que el nombre de dominio completo del equipo en que se hospeda su almacén de supervisión aparece en la lista desplegable **Base de datos de supervisión**. (Si dispone de varios almacenes de supervisión, seleccione el servidor correspondiente en la lista desplegable.) Compruebe que en el cuadro **Instancia de SQL Server Reporting Services (SSRS)** aparece la instancia correcta de SQL Server (por ejemplo, **atl-sql-001.litwareinc.com/archinst**) y haga clic en **Siguiente**.
 
-4.  En la página **especificar credenciales** , en el cuadro **nombre de usuario** , escriba el nombre de dominio y el nombre de usuario de la cuenta que se va a usar para obtener acceso a los informes de supervisión (por ejemplo, **litwareinc\\kenmyer**). Si no usa este formato (nombre de usuario\\de dominio), se producirá un error.
+4.  En la página **especificar credenciales** , en el cuadro **nombre de usuario** , escriba el nombre de dominio y el nombre de usuario de la cuenta que se va a usar para obtener acceso a los informes de supervisión (por ejemplo, **litwareinc \\ kenmyer**). Si no usa este formato (nombre de usuario de dominio \\ ), se producirá un error.
     
     Introduzca la contraseña de la cuenta de usuario en el cuadro **Contraseña** y haga clic en **Siguiente**. Tenga en cuenta que no se requieren derechos especiales para esta cuenta. Cuando finalice la instalación, se concederán automáticamente los permisos de base de datos y de inicio de sesión necesarios para la cuenta.
 
@@ -91,7 +93,7 @@ Para instalar los informes de supervisión con el Asistente para la implementaci
 
 6.  En la página **Ejecutar comandos **, haga clic en **Finalizar **.
 
-Los informes de supervisión también se pueden instalar desde el shell de administración de Lync Server ejecutando el script DeployReports. ps1; Este script de Windows PowerShell se puede encontrar en los medios de instalación de Lync \\Server\\en la carpeta SETUP ReportingSetup Para instalar los informes de supervisión con el script DeployReports.ps1, escriba un comando como el siguiente en el símbolo del sistema del Shell de administración:
+Los informes de supervisión también se pueden instalar desde el shell de administración de Lync Server ejecutando el script DeployReports.ps1; Este script de Windows PowerShell se puede encontrar en los medios de instalación de Lync Server en la \\ \\ carpeta SETUP ReportingSetup Para instalar los informes de supervisión con el script DeployReports.ps1, escriba un comando como el siguiente en el símbolo del sistema del Shell de administración:
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
@@ -107,7 +109,7 @@ En la tabla siguiente se describen los parámetros utilizados en el comando ante
 <thead>
 <tr class="header">
 <th>Nombre del parámetro</th>
-<th>Obligatorio</th>
+<th>Necesario</th>
 <th>Descripción</th>
 </tr>
 </thead>

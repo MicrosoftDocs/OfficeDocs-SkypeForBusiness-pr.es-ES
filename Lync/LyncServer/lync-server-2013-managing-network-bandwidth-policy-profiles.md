@@ -12,20 +12,22 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3190bdd2e3e242716aabbb2dddf1fd9b71518045
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c6283e0480a8923170efd4f44b2609146abec562
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217996"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498067"
 ---
+# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Administración de perfiles de directiva de ancho de banda de red en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Administración de perfiles de directiva de ancho de banda de red en Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Use los procedimientos de esta sección para administrar los perfiles de directi
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Requisitos de ancho de banda de red para el tráfico multimedia en Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)  

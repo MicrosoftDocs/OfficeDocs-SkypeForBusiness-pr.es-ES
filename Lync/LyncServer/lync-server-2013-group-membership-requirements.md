@@ -12,20 +12,22 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8726d471b1db95aa67cca58a77452d9faa43df4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 041bba31a4c8225a4326e3409475210a46261a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200013"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498777"
 ---
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Requisitos de pertenencia a grupo para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Requisitos de pertenencia a grupo para Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ La siguiente tabla resume el grupo o los grupos a los que debe pertenecer una pe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup. exe</strong> : ejecutable que inicia la instalación de las herramientas administrativas de Lync Server 2013.</p></td>
+<td><p><strong>Setup.exe</strong> – ejecutable que inicia la instalación de las herramientas administrativas de Lync Server 2013.</p></td>
 <td><p>Miembro del grupo Administradores locales en el equipo desde el que se ejecuta el ejecutable. Miembro del grupo usuarios del dominio para leer la información de los servicios de dominio de Active Directory. Este nivel de permiso es necesario porque la instalación automática de los paquetes MSI necesarios en el equipo local requiere privilegios que permitan la lectura de los recursos de equipos locales protegidos y la escritura en estos, como directorios Archivos de programa, y un registro protegido como el subárbol Local Machine.</p>
 <div>
 
@@ -87,7 +89,7 @@ La siguiente tabla resume el grupo o los grupos a los que debe pertenecer una pe
 <td><p>Miembro del grupo CsAdministrator o miembro de otra función de control de acceso basado en roles (RBAC) donde se asigna la tarea administrativa específica. Lync Server 2013 el panel de control implementa los cambios de configuración mediante la ejecución de los cmdlets del shell de administración de Lync Server 2013. Para obtener una lista de las funciones predefinidas y permitir que se ejecuten los miembros de cmdlets, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a> en la documentación referente a la planeación.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PowerShell. exe con el módulo Lync Server 2013 cargado</strong> : herramienta administrativa de línea de comandos con cmdlets específicos para la administración de Lync Server 2013.</p></td>
+<td><p><strong>PowerShell.exe con el módulo de Lync server 2013, la</strong> herramienta administrativa de línea de comandos con cmdlets específicos para la administración de Lync Server 2013.</p></td>
 <td><p>Miembro del grupo CsAdministrator o miembro de otra función de RBAC donde se asignó el cmdlet específico. Para obtener una lista de las funciones predefinidas y permitir que se ejecuten los miembros de cmdlets, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</a> en la documentación referente a la planeación.</p>
 <p>O bien, miembro de uno o más de los siguientes grupos, según el cmdlet:</p>
 <ul>

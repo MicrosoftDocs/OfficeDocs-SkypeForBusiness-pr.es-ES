@@ -12,20 +12,22 @@ ms:contentKeyID: 48185494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: add00a6d95fd683655849e5a45c05809399d7e84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 566e406f51a629f5c34b7fc846f878775c9886bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497497"
 ---
+# <a name="setting-up-the-infrastructure-for-archiving-in-lync-server-2013"></a>Configuración de la infraestructura para el archivado en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-the-infrastructure-for-archiving-in-lync-server-2013"></a>Configuración de la infraestructura para el archivado en Lync Server 2013
+
 
 </div>
 

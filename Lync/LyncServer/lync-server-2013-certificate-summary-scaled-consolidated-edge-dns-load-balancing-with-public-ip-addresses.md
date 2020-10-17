@@ -12,20 +12,22 @@ ms:contentKeyID: 48185894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 160842b61e2aaa06f034fdf15dba7c8027336938
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f9e3acc8efdffd3d04eca2d009791c7cc5d41a3b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207039"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499287"
 ---
+# <a name="certificate-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Resumen de certificado-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Resumen de certificado-servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ El certificado asignado a las interfaces externas del servidor perimetral se sol
 <p>sip.fabrikam.com</p></td>
 <td><p>El certificado debe ser de una CA pública y debe tener el servidor EKU y cliente EKU si va a implementarse conectividad de MI pública con AOL. Además, para los servidores perimetrales escalados, la clave privada del certificado debe ser exportable y el certificado y la clave privada se copian en cada servidor perimetral. El certificado se asigna a las interfaces perimetrales externas para:</p>
 <ul>
-<li><p>Servidor perimetral de acceso SIP</p></li>
+<li><p>Servidor perimetral de acceso</p></li>
 <li><p>Servidor perimetral de conferencia</p></li>
 <li><p>Servidor perimetral A/V</p></li>
 </ul>

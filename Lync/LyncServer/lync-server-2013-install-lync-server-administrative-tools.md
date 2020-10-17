@@ -12,20 +12,22 @@ ms:contentKeyID: 48184695
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8805c82c26eb97da8537b33cda8346f5942de1c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ded1dbdcd81c846db9f23574fa0b39efa0c33dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498727"
 ---
+# <a name="install-lync-server-2013-administrative-tools"></a>Instalación de las herramientas administrativas de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-2013-administrative-tools"></a>Instalación de las herramientas administrativas de Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204256"
 
 _**Última modificación del tema:** 2013-02-21_
 
-En este tema se describe cómo instalar las herramientas administrativas que necesita usar para implementar y administrar Lync Server 2013. Las herramientas administrativas se instalan de forma predeterminada en todos los servidores que ejecutan Lync Server 2013. Además, puede instalar las herramientas administrativas en otros equipos, como consolas administrativas dedicadas. Se recomienda instalar las herramientas administrativas en un equipo que se encuentre en el mismo dominio o bosque que la implementación de Lync Server 2013 que está creando porque, al hacerlo, se asegurará de que los pasos de preparación de los servicios de dominio de Active Directory ya están completado, que le permite usar las herramientas administrativas en ese equipo más adelante para publicar la topología.
+En este tema se describe cómo instalar las herramientas administrativas que necesita usar para implementar y administrar Lync Server 2013. Las herramientas administrativas se instalan de forma predeterminada en todos los servidores que ejecutan Lync Server 2013. Además, puede instalar las herramientas administrativas en otros equipos, como consolas administrativas dedicadas. Se recomienda instalar las herramientas administrativas en un equipo que se encuentre en el mismo dominio o bosque que la implementación de Lync Server 2013 que está creando porque, al hacerlo, se asegura de que ya se hayan completado los pasos de preparación de los servicios de dominio de Active Directory, lo que le permite usar las herramientas administrativas en ese equipo más adelante para publicar la topología.
 
 Asegúrese de revisar los requisitos de la infraestructura, el sistema operativo, el software y los derechos de administrador antes de instalar o usar las herramientas administrativas de Lync Server 2013. Para obtener más información acerca de los requisitos de infraestructura, consulte [Administrative Tools Infrastructure requirements in Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Para obtener más información sobre los requisitos del sistema operativo y del software para instalar las herramientas administrativas de Lync Server 2013, consulte [compatibilidad con sistemas operativos de servidor y herramientas en Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [requisitos de software adicionales para Lync Server 2013](lync-server-2013-additional-software-requirements.md)y [compatibilidad con servidores y requisitos adicionales en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Para obtener más información sobre los derechos de usuario y los permisos necesarios para instalar y usar las herramientas, consulte [derechos de administrador y permisos necesarios para la instalación y administración de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
@@ -45,7 +47,7 @@ Asegúrese de revisar los requisitos de la infraestructura, el sistema operativo
 
 
 > [!IMPORTANT]  
-> Si su organización necesita que ubique Internet Information Services (IIS) y todos los servicios web en una unidad que no sea la unidad del sistema, debe cambiar la ruta de acceso a la ubicación de instalación de los archivos de Lync Server en el cuadro de diálogo de instalación. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server 2013 también se implementarán en esta unidad.
+> Si su organización necesita que ubique Internet Information Services (IIS) y todos los servicios web en una unidad que no sea la unidad del sistema, debe cambiar la ruta de acceso a la ubicación de instalación de los archivos de Lync Server en el cuadro de diálogo de instalación. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore.msi, también se implementará el resto de los archivos de Lync Server 2013 en esta unidad.
 
 
 
@@ -57,7 +59,7 @@ Asegúrese de revisar los requisitos de la infraestructura, el sistema operativo
 
 1.  Inicie sesión como administrador local (requisito mínimo) en el equipo donde desee instalar las herramientas administrativas. Si ha iniciado la sesión como usuario estándar en los sistemas operativos Windows Vista o Windows 7 y está habilitado el control de cuenta de usuarios (UAC), se le pedirá que indique el administrador local o un nombre de usuario equivalente del dominio y una contraseña.
 
-2.  Busque los medios de instalación en el equipo y, a continuación, \\haga\\doble\\clic en Setup AMD64 Setup. exe.
+2.  Busque los medios de instalación en el equipo y, a continuación, haga doble clic en \\ configuración \\ AMD64 \\Setup.exe.
 
 3.  Si se le pide que instale Microsoft Visual C++ 2008 distribuible, haga clic en **Sí**.
 
@@ -67,7 +69,7 @@ Asegúrese de revisar los requisitos de la infraestructura, el sistema operativo
     
 
     > [!IMPORTANT]  
-    > Si su organización requiere Internet Information Services (IIS) y todos los servicios web en una unidad distinta de la unidad del sistema, puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server 2013 en el cuadro de diálogo de configuración. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server 2013 se implementarán también en esta unidad.
+    > Si su organización requiere Internet Information Services (IIS) y todos los servicios web en una unidad distinta de la unidad del sistema, puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server 2013 en el cuadro de diálogo de configuración. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore.msi, el resto de los archivos de Lync Server 2013 se implementarán también en esta unidad.
 
     
     </div>
@@ -82,7 +84,7 @@ Asegúrese de revisar los requisitos de la infraestructura, el sistema operativo
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Abrir las herramientas administrativas de Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md)  

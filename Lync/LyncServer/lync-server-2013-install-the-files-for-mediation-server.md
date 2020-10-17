@@ -12,20 +12,22 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3172b2db7197cfec13249bdff4490128d8b664a1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc7fd5613b39fd17724c9b62152f9d9401fbc072
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197113"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498597"
 ---
+# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Instalar los archivos del servidor de mediación en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Instalar los archivos del servidor de mediación en Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ En este sitio, si ya ha implementado servidores de mediación combinados en los 
 
 
 > [!NOTE]  
-> En este tema se supone que ya se ha definido y publicado un grupo de servidores de mediación independiente, como se describe en <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">definir un servidor de mediación en el generador de topologías en Lync server 2013</A> y <A href="lync-server-2013-publish-the-topology.md">publicar la topología en Lync Server 2013</A> en la documentación de implementación. y que ha comprobado que los equipos del grupo de servidores de mediación cumplen los requisitos previos descritos en <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">requisitos previos de software para la telefonía ip empresarial en Lync Server 2013</A> y los <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">requisitos previos de seguridad y configuración de la empresa Voz en Lync Server 2013</A>.
+> En este tema se supone que ya se ha definido y publicado un grupo de servidores de mediación independiente, como se describe en <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">definir un servidor de mediación en el generador de topologías en Lync server 2013</A> y <A href="lync-server-2013-publish-the-topology.md">publicar la topología en Lync Server 2013</A> en la documentación de implementación. y que ha comprobado que los equipos del grupo de servidores de mediación cumplen los requisitos previos descritos en <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">requisitos previos de software para telefonía ip empresarial en Lync Server 2013</A> y los <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">requisitos previos de seguridad y configuración para telefonía IP empresarial en Lync Server 2013</A>.
 
 
 
@@ -57,7 +59,7 @@ En este sitio, si ya ha implementado servidores de mediación combinados en los 
 
 ## <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>Para instalar los archivos de un grupo de servidores de mediación independiente
 
-1.  En el medio de instalación, haga clic \<con el\>botón secundario en Installation media**\\Setup\\AMD64\\Setup. exe**y, a continuación, haga clic en **Ejecutar como administrador**.
+1.  En el medio de instalación, haga clic con el botón secundario en \<installation media\> ** \\ setup \\ AMD64 \\Setup.exe**y, a continuación, haga clic en **Ejecutar como administrador**.
 
 2.  En la página **Ubicación de instalación** , haga clic en **Aceptar**.
 
@@ -89,7 +91,7 @@ Si agregó más de un equipo al grupo de servidores de mediación, realice los p
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Requisitos de certificado para servidores internos en Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)  

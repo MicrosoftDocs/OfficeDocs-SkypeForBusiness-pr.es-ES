@@ -12,20 +12,22 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a61a07ae14f004b406aa38ef783a1c873f2128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184413"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497737"
 ---
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planeación de resistencia de voz de sitio central en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planeación de resistencia de voz de sitio central en Lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ Lync Server depende de los siguientes componentes de infraestructura y software 
 </tr>
 <tr class="odd">
 <td><p>Opciones de DHCP 120</p></td>
-<td><p>Si el servidor DNS no está disponible, el cliente intentará usar Opción de DHCP 120 para descubrir el registrador. Para que esto funcione, es necesario configurar un servidor DHCP o Lync Server 2013 DHCP debe estar habilitado. Para obtener más información, vea requisitos de hardware y software para la resistencia de sitios de sucursal en <a href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resistencia de sitios de sucursal para la sección de Lync Server 2013</a> .</p></td>
+<td><p>Si el servidor DNS no está disponible, el cliente intentará usar Opción de DHCP 120 para descubrir el registrador. Para que esto funcione, es necesario configurar un servidor DHCP o Lync Server 2013 DHCP debe estar habilitado. Para obtener más información, vea requisitos de hardware y software para Branch-Site resistencia en <a href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resistencia de sitios de sucursal para la sección de Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -211,7 +213,7 @@ Las características de voz que se indican a continuación no funcionan cuando u
 
 <div>
 
-## <a name="see-also"></a>Consulta también
+## <a name="see-also"></a>Consulte también
 
 
 [Planeación de la resistencia de voz en sitios de sucursal en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md)  

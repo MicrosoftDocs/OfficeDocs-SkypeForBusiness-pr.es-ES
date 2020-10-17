@@ -12,20 +12,22 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c4191ed20497b4136b4e836da112054bef5a446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35efd8571a30b3d0dd067cbfc27f292985b6ee14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204386"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498957"
 ---
+# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Diseño del tronco SIP para E9-1-1 en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Diseño del tronco SIP para E9-1-1 en Lync Server 2013
+
 
 </div>
 
@@ -48,7 +50,7 @@ Lync Server usa troncos SIP para conectar una llamada de emergencia con el prove
 > <LI>
 > <P>Use servidores de mediación multitarjeta que usen interfaces enrutadas públicamente dirigidas hacia el exterior para comunicarse con el proveedor de tronco SIP.</P>
 > <LI>
-> <P>Use un controlador de borde de sesión (SBC) local para proporcionar un punto de demarcación segura entre los servidores de mediación y los servicios del proveedor de tronco del SIP.</P></LI></UL>Si elige el último método, asegúrese de que el modelo y la marca SBC que elija admite el paso de datos de ubicación PIDF-LO (Presence Information Data Format Location Object, en inglés) como parte de su SIP INVITE. De lo contrario, las llamadas llegarán al proveedor de los servicios de emergencia sin información de su ubicación. Para obtener más información sobre los SBC certificados, consulte "infraestructura calificada para <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A>Microsoft Lync" en.<BR>Los proveedores de servicios E9-1-1 proporcionan acceso a un par de SBC por redundancia. Debe tomar varias decisiones con respecto a la topología del servidor de mediación y la configuración de enrutamiento de llamadas. ¿Va a tratar ambos SBC como equivalentes y usar el enrutamiento Round Robin para las llamadas entre ellos, o se designe un SBC como principal y el otro como secundario?
+> <P>Use un controlador de borde de sesión (SBC) local para proporcionar un punto de demarcación segura entre los servidores de mediación y los servicios del proveedor de tronco del SIP.</P></LI></UL>Si elige el último método, asegúrese de que el modelo y la marca SBC que elija admite el paso de datos de ubicación PIDF-LO (Presence Information Data Format Location Object, en inglés) como parte de su SIP INVITE. De lo contrario, las llamadas llegarán al proveedor de los servicios de emergencia sin información de su ubicación. Para obtener más información sobre los SBC certificados, consulte "infraestructura calificada para Microsoft Lync" en <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A> .<BR>Los proveedores de servicios E9-1-1 proporcionan acceso a un par de SBC por redundancia. Debe tomar varias decisiones con respecto a la topología del servidor de mediación y la configuración de enrutamiento de llamadas. ¿Va a tratar ambos SBC como equivalentes y usar el enrutamiento Round Robin para las llamadas entre ellos, o se designe un SBC como principal y el otro como secundario?
 
 
 

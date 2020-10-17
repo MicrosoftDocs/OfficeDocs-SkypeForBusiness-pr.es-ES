@@ -12,20 +12,22 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 055f1eea81f67281384e6a6124b5c72cee6d823f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 743818f81f5083e9c5d3a7877d2518d05176a5e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187443"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499297"
 ---
+# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Resumen de certificado-carga equilibrada DNS y HLB en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Resumen de certificado-carga equilibrada DNS y HLB en Lync Server 2013
+
 
 </div>
 
@@ -58,7 +60,7 @@ Los requisitos de certificado para un director con equilibrio de carga de DNS y 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>dirpool01.contoso.net</p></td>
 <td><p>dirpool01.contoso.net</p>
 <p>dir01.contoso.net</p>

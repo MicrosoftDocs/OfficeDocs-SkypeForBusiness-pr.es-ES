@@ -12,20 +12,22 @@ ms:contentKeyID: 49733646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12f2eb91ad696532968e2a79f800fd1f907d6c90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 333c1cf86c8d3f29ae912150acc307e8648529fe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218026"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498117"
 ---
+# <a name="managing-lync-server-2013-services-and-server-roles"></a>Administración de servicios y roles de servidor de Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-services-and-server-roles"></a>Administración de servicios y roles de servidor de Lync Server 2013
+
 
 </div>
 
