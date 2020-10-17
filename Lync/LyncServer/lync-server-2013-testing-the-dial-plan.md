@@ -12,20 +12,22 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a83f8058dd761386329c3c0bc58a50c4aef7bdb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c758f2f16d59db92841a5e7ef727a41cee8a8d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530447"
 ---
+# <a name="testing-the-dial-plan-in-lync-server-2013"></a><span data-ttu-id="cd489-102">Probar el plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd489-102">Testing the dial plan in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-dial-plan-in-lync-server-2013"></a><span data-ttu-id="240e0-102">Probar el plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="240e0-102">Testing the dial plan in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42193833"
 
 <span> </span>
 
-<span data-ttu-id="240e0-103">_**Última modificación del tema:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="240e0-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="cd489-103">_**Última modificación del tema:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="cd489-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +47,17 @@ ms.locfileid: "42193833"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="240e0-104">Programación de comprobación</span><span class="sxs-lookup"><span data-stu-id="240e0-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="240e0-105">Diario</span><span class="sxs-lookup"><span data-stu-id="240e0-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="cd489-104">Programación de comprobación</span><span class="sxs-lookup"><span data-stu-id="cd489-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="cd489-105">Diario</span><span class="sxs-lookup"><span data-stu-id="cd489-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="240e0-106">Herramienta de prueba</span><span class="sxs-lookup"><span data-stu-id="240e0-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="240e0-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="240e0-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="cd489-106">Herramienta de prueba</span><span class="sxs-lookup"><span data-stu-id="cd489-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="cd489-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="cd489-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="240e0-108">Permisos necesarios</span><span class="sxs-lookup"><span data-stu-id="240e0-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="240e0-109">Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="240e0-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="240e0-110">Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet test-CsDialPlan.</span><span class="sxs-lookup"><span data-stu-id="240e0-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialPlan cmdlet.</span></span> <span data-ttu-id="240e0-111">Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="240e0-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="cd489-108">Permisos necesarios</span><span class="sxs-lookup"><span data-stu-id="cd489-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="cd489-109">Cuando se ejecuta de forma local mediante el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="cd489-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="cd489-110">Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol RBAC que tenga permiso para ejecutar el cmdlet Test-CsDialPlan.</span><span class="sxs-lookup"><span data-stu-id="cd489-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialPlan cmdlet.</span></span> <span data-ttu-id="cd489-111">Para ver una lista de todos los roles RBAC que pueden usar este cmdlet, ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="cd489-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialPlan&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,73 +66,73 @@ ms.locfileid: "42193833"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="240e0-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="240e0-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="cd489-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="cd489-112">Description</span></span>
 
-<span data-ttu-id="240e0-113">El cmdlet test-CsDialPlan permite ver los resultados de la aplicación de un plan de marcado a un número de teléfono determinado.</span><span class="sxs-lookup"><span data-stu-id="240e0-113">The Test-CsDialPlan cmdlet enables you to see the results of applying a dial plan to a given telephone number.</span></span> <span data-ttu-id="240e0-114">Los planes de marcado proporcionan información, como la forma en que se aplican las reglas de normalización, necesarias para permitir a los usuarios de Enterprise Voice realizar llamadas telefónicas.</span><span class="sxs-lookup"><span data-stu-id="240e0-114">Dial plans provide information, such as how normalization rules are applied, required to enable Enterprise Voice users to make telephone calls.</span></span> <span data-ttu-id="240e0-115">Después de especificar un número de marcado y un plan de marcado, el cmdlet verificará qué regla de normalización del plan de marcado se aplicará y cuál será el número traducido.</span><span class="sxs-lookup"><span data-stu-id="240e0-115">Given a dialed number and a dial plan, this cmdlet will verify which normalization rule within the dial plan will be applied and what the translated number will be.</span></span>
+<span data-ttu-id="cd489-113">El cmdlet Test-CsDialPlan permite ver los resultados de la aplicación de un plan de marcado a un número de teléfono determinado.</span><span class="sxs-lookup"><span data-stu-id="cd489-113">The Test-CsDialPlan cmdlet enables you to see the results of applying a dial plan to a given telephone number.</span></span> <span data-ttu-id="cd489-114">Los planes de marcado proporcionan información, como la forma en que se aplican las reglas de normalización, necesarias para permitir a los usuarios de Enterprise Voice realizar llamadas telefónicas.</span><span class="sxs-lookup"><span data-stu-id="cd489-114">Dial plans provide information, such as how normalization rules are applied, required to enable Enterprise Voice users to make telephone calls.</span></span> <span data-ttu-id="cd489-115">Después de especificar un número de marcado y un plan de marcado, el cmdlet verificará qué regla de normalización del plan de marcado se aplicará y cuál será el número traducido.</span><span class="sxs-lookup"><span data-stu-id="cd489-115">Given a dialed number and a dial plan, this cmdlet will verify which normalization rule within the dial plan will be applied and what the translated number will be.</span></span>
 
-<span data-ttu-id="240e0-116">Puede usar este cmdlet para solucionar problemas con las traducciones de números o para comprobar cómo aplicar reglas a determinados números.</span><span class="sxs-lookup"><span data-stu-id="240e0-116">You can use this cmdlet for troubleshooting issues with number translations, or for verifying how to apply rules against certain numbers.</span></span>
+<span data-ttu-id="cd489-116">Puede usar este cmdlet para solucionar problemas con las traducciones de números o para comprobar cómo aplicar reglas a determinados números.</span><span class="sxs-lookup"><span data-stu-id="cd489-116">You can use this cmdlet for troubleshooting issues with number translations, or for verifying how to apply rules against certain numbers.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="240e0-117">Ejecutar la prueba</span><span class="sxs-lookup"><span data-stu-id="240e0-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="cd489-117">Ejecutar la prueba</span><span class="sxs-lookup"><span data-stu-id="cd489-117">Running the test</span></span>
 
-<span data-ttu-id="240e0-118">El cmdlet test-CsDialPlan requiere que haga dos cosas.</span><span class="sxs-lookup"><span data-stu-id="240e0-118">The Test-CsDialPlan cmdlet requires you to do two things.</span></span> <span data-ttu-id="240e0-119">En primer lugar, debe obtener una instancia del plan de marcado que se está probando; Esto se puede hacer con el cmdlet Get-CsDialPlan.</span><span class="sxs-lookup"><span data-stu-id="240e0-119">First, you must obtain an instance of the dial plan being tested; that can be done by using the Get-CsDialPlan cmdlet.</span></span> <span data-ttu-id="240e0-120">En segundo lugar, debe especificar el número de teléfono que se va a normalizar.</span><span class="sxs-lookup"><span data-stu-id="240e0-120">Second, you must specify the phone number that has to be normalized.</span></span> <span data-ttu-id="240e0-121">El formato que se usa para el número de teléfono debe coincidir con el número marcado o escrito por un usuario.</span><span class="sxs-lookup"><span data-stu-id="240e0-121">The format that is used for the phone number should match the number as dialed/entered by a user.</span></span> <span data-ttu-id="240e0-122">Por ejemplo, este comando recupera una instancia del plan de marcado, RedmondDialPlan, y comprueba si el número de teléfono 12065551219 se puede normalizar:</span><span class="sxs-lookup"><span data-stu-id="240e0-122">For example, this command retrieves an instance of the dial plan, RedmondDialPlan, and checks whether the phone number 12065551219 can be normalized:</span></span>
+<span data-ttu-id="cd489-118">El cmdlet Test-CsDialPlan requiere que haga dos cosas.</span><span class="sxs-lookup"><span data-stu-id="cd489-118">The Test-CsDialPlan cmdlet requires you to do two things.</span></span> <span data-ttu-id="cd489-119">En primer lugar, debe obtener una instancia del plan de marcado que se está probando; Esto se puede hacer con el cmdlet Get-CsDialPlan.</span><span class="sxs-lookup"><span data-stu-id="cd489-119">First, you must obtain an instance of the dial plan being tested; that can be done by using the Get-CsDialPlan cmdlet.</span></span> <span data-ttu-id="cd489-120">En segundo lugar, debe especificar el número de teléfono que se va a normalizar.</span><span class="sxs-lookup"><span data-stu-id="cd489-120">Second, you must specify the phone number that has to be normalized.</span></span> <span data-ttu-id="cd489-121">El formato que se usa para el número de teléfono debe coincidir con el número marcado o escrito por un usuario.</span><span class="sxs-lookup"><span data-stu-id="cd489-121">The format that is used for the phone number should match the number as dialed/entered by a user.</span></span> <span data-ttu-id="cd489-122">Por ejemplo, este comando recupera una instancia del plan de marcado, RedmondDialPlan, y comprueba si el número de teléfono 12065551219 se puede normalizar:</span><span class="sxs-lookup"><span data-stu-id="cd489-122">For example, this command retrieves an instance of the dial plan, RedmondDialPlan, and checks whether the phone number 12065551219 can be normalized:</span></span>
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
-<span data-ttu-id="240e0-123">Si tiene una regla de normalización que agrega automáticamente el código de país (en este ejemplo, 1) y el código de área (206), es posible que desee comprobar el número de teléfono 5551219 de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="240e0-123">If you have a normalization rule that automatically adds the country code (in this example, 1) and the area code (206), then you might want to check the phone number 5551219, as follows:</span></span>
+<span data-ttu-id="cd489-123">Si tiene una regla de normalización que agrega automáticamente el código de país (en este ejemplo, 1) y el código de área (206), es posible que desee comprobar el número de teléfono 5551219 de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="cd489-123">If you have a normalization rule that automatically adds the country code (in this example, 1) and the area code (206), then you might want to check the phone number 5551219, as follows:</span></span>
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-<span data-ttu-id="240e0-124">Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) .</span><span class="sxs-lookup"><span data-stu-id="240e0-124">For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) cmdlet.</span></span>
+<span data-ttu-id="cd489-124">Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) .</span><span class="sxs-lookup"><span data-stu-id="cd489-124">For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="240e0-125">Determinar si se ha realizado correctamente o erróneo</span><span class="sxs-lookup"><span data-stu-id="240e0-125">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="cd489-125">Determinar si se ha realizado correctamente o erróneo</span><span class="sxs-lookup"><span data-stu-id="cd489-125">Determining success or failure</span></span>
 
-<span data-ttu-id="240e0-126">Test-CsDialPlan se diferencia de muchos de los cmdlets de prueba de Lync Server porque solo indica indirectamente si una prueba se ha realizado correctamente o no.</span><span class="sxs-lookup"><span data-stu-id="240e0-126">Test-CsDialPlan differs from many of the Lync Server test cmdlets because it only indirectly indicates whether a test succeeded or failed.</span></span> <span data-ttu-id="240e0-127">Cuando se usa test-CsDialPlan, no se obtiene una salida similar a la siguiente con el resultado claramente marcado:</span><span class="sxs-lookup"><span data-stu-id="240e0-127">When using Test-CsDialPlan you do not receive back output similar to this with the Result clearly labeled:</span></span>
+<span data-ttu-id="cd489-126">Test-CsDialPlan difieren de muchos de los cmdlets de prueba de Lync Server porque solo indica indirectamente si una prueba se ha realizado correctamente o no.</span><span class="sxs-lookup"><span data-stu-id="cd489-126">Test-CsDialPlan differs from many of the Lync Server test cmdlets because it only indirectly indicates whether a test succeeded or failed.</span></span> <span data-ttu-id="cd489-127">Cuando se usa Test-CsDialPlan no recibe un resultado similar al siguiente con el resultado claramente marcado:</span><span class="sxs-lookup"><span data-stu-id="cd489-127">When using Test-CsDialPlan you do not receive back output similar to this with the Result clearly labeled:</span></span>
 
-<span data-ttu-id="240e0-128">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="240e0-128">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="cd489-128">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="cd489-128">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="240e0-129">Resultado: correcto</span><span class="sxs-lookup"><span data-stu-id="240e0-129">Result : Success</span></span>
+<span data-ttu-id="cd489-129">Resultado: correcto</span><span class="sxs-lookup"><span data-stu-id="cd489-129">Result : Success</span></span>
 
-<span data-ttu-id="240e0-130">Latencia: 00:00:06.8630376</span><span class="sxs-lookup"><span data-stu-id="240e0-130">Latency : 00:00:06.8630376</span></span>
+<span data-ttu-id="cd489-130">Latencia: 00:00:06.8630376</span><span class="sxs-lookup"><span data-stu-id="cd489-130">Latency : 00:00:06.8630376</span></span>
 
-<span data-ttu-id="240e0-131">Error</span><span class="sxs-lookup"><span data-stu-id="240e0-131">Error :</span></span>
+<span data-ttu-id="cd489-131">Error</span><span class="sxs-lookup"><span data-stu-id="cd489-131">Error :</span></span>
 
-<span data-ttu-id="240e0-132">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="240e0-132">Diagnosis :</span></span>
+<span data-ttu-id="cd489-132">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="cd489-132">Diagnosis :</span></span>
 
-<span data-ttu-id="240e0-133">En su lugar, si test-CsDialPlan se realiza correctamente, recibirá información acerca de la regla de normalización que pudo traducir correctamente y usar el número de teléfono especificado:</span><span class="sxs-lookup"><span data-stu-id="240e0-133">Instead, if Test-CsDialPlan succeeds, then you'll receive information about the normalization rule that was able to successfully translate and use the specified phone number:</span></span>
+<span data-ttu-id="cd489-133">En su lugar, si Test-CsDialPlan tiene éxito, recibirá información acerca de la regla de normalización que pudo traducir correctamente y usar el número de teléfono especificado:</span><span class="sxs-lookup"><span data-stu-id="cd489-133">Instead, if Test-CsDialPlan succeeds, then you'll receive information about the normalization rule that was able to successfully translate and use the specified phone number:</span></span>
 
-<span data-ttu-id="240e0-134">TranslatedNumber: + 12065551219</span><span class="sxs-lookup"><span data-stu-id="240e0-134">TranslatedNumber : +12065551219</span></span>
+<span data-ttu-id="cd489-134">TranslatedNumber: + 12065551219</span><span class="sxs-lookup"><span data-stu-id="cd489-134">TranslatedNumber : +12065551219</span></span>
 
-<span data-ttu-id="240e0-135">MatchingRule: Description =; Pattern = ^ (\\d (11)) $; Traducción = + $1;</span><span class="sxs-lookup"><span data-stu-id="240e0-135">MatchingRule : Description=;Pattern=^(\\d(11))$;Translation=+$1;</span></span>
+<span data-ttu-id="cd489-135">MatchingRule: Description =; Pattern = ^ ( \\ d (11)) $; Traducción = + $1;</span><span class="sxs-lookup"><span data-stu-id="cd489-135">MatchingRule : Description=;Pattern=^(\\d(11))$;Translation=+$1;</span></span>
 
-<span data-ttu-id="240e0-136">Name = prefix All; IsInternalExtension = false</span><span class="sxs-lookup"><span data-stu-id="240e0-136">Name=Prefix All; IsInternalExtension=False</span></span>
+<span data-ttu-id="cd489-136">Name = prefix All; IsInternalExtension = false</span><span class="sxs-lookup"><span data-stu-id="cd489-136">Name=Prefix All; IsInternalExtension=False</span></span>
 
-<span data-ttu-id="240e0-137">Si test-CsDialPlan produce un error (es decir, si el plan de marcado no tiene una regla de normalización que pueda traducir el número de teléfono especificado), solo recibirá el resultado "vacío" de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="240e0-137">If Test-CsDialPlan fails (that is, if the dial plan does not have a normalization rule that can translate the specified phone number), you'll just receive “empty” output as follows:</span></span>
+<span data-ttu-id="cd489-137">Si Test-CsDialPlan da error (es decir, si el plan de marcado no tiene una regla de normalización que pueda traducir el número de teléfono especificado), solo recibirá el resultado "vacío" de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="cd489-137">If Test-CsDialPlan fails (that is, if the dial plan does not have a normalization rule that can translate the specified phone number), you'll just receive “empty” output as follows:</span></span>
 
-<span data-ttu-id="240e0-138">TranslatedNumber :</span><span class="sxs-lookup"><span data-stu-id="240e0-138">TranslatedNumber :</span></span>
+<span data-ttu-id="cd489-138">TranslatedNumber :</span><span class="sxs-lookup"><span data-stu-id="cd489-138">TranslatedNumber :</span></span>
 
-<span data-ttu-id="240e0-139">MatchingRule :</span><span class="sxs-lookup"><span data-stu-id="240e0-139">MatchingRule :</span></span>
+<span data-ttu-id="cd489-139">MatchingRule :</span><span class="sxs-lookup"><span data-stu-id="cd489-139">MatchingRule :</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="240e0-140">Motivos por los que se ha producido un error en la prueba</span><span class="sxs-lookup"><span data-stu-id="240e0-140">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="cd489-140">Motivos por los que se ha producido un error en la prueba</span><span class="sxs-lookup"><span data-stu-id="cd489-140">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="240e0-141">Estas son algunas de las razones comunes por las que test-CsDialPlan podría fallar:</span><span class="sxs-lookup"><span data-stu-id="240e0-141">Here are some common reasons why Test-CsDialPlan might fail:</span></span>
+<span data-ttu-id="cd489-141">Estas son algunas de las razones comunes por las que Test-CsDialPlan podría producir un error:</span><span class="sxs-lookup"><span data-stu-id="cd489-141">Here are some common reasons why Test-CsDialPlan might fail:</span></span>
 
-  - <span data-ttu-id="240e0-142">Es posible que haya usado un formato incorrecto al especificar el número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="240e0-142">You might have used an incorrect format when specifying the phone number.</span></span> <span data-ttu-id="240e0-143">Los planes de marcado incluyen reglas de normalización que permiten que Lync Server traduzca los números de teléfono marcados o introducidos por un usuario.</span><span class="sxs-lookup"><span data-stu-id="240e0-143">Dial plans include normalization rules that enable Lync Server to translate the phone numbers dialed or entered by a user.</span></span> <span data-ttu-id="240e0-144">Por lo tanto, el plan de marcado debe tener reglas de normalización que coinciden con los números que los usuarios pueden marcar.</span><span class="sxs-lookup"><span data-stu-id="240e0-144">Therefore, your dial plan should have normalization rules that match the numbers users are likely to dial.</span></span> <span data-ttu-id="240e0-145">Por ejemplo, si los usuarios pueden marcar el código de país, el código de área y, a continuación, el número de teléfono, significa que su plan de marcado debe tener una regla de normalización para controlar los números de teléfono como esta:</span><span class="sxs-lookup"><span data-stu-id="240e0-145">For example, if users might dial the country code, area code, and then the phone number itself, that means that your dial plan should have a normalization rule to handle phone numbers such as this:</span></span>
+  - <span data-ttu-id="cd489-142">Es posible que haya usado un formato incorrecto al especificar el número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="cd489-142">You might have used an incorrect format when specifying the phone number.</span></span> <span data-ttu-id="cd489-143">Los planes de marcado incluyen reglas de normalización que permiten que Lync Server traduzca los números de teléfono marcados o introducidos por un usuario.</span><span class="sxs-lookup"><span data-stu-id="cd489-143">Dial plans include normalization rules that enable Lync Server to translate the phone numbers dialed or entered by a user.</span></span> <span data-ttu-id="cd489-144">Por lo tanto, el plan de marcado debe tener reglas de normalización que coinciden con los números que los usuarios pueden marcar.</span><span class="sxs-lookup"><span data-stu-id="cd489-144">Therefore, your dial plan should have normalization rules that match the numbers users are likely to dial.</span></span> <span data-ttu-id="cd489-145">Por ejemplo, si los usuarios pueden marcar el código de país, el código de área y, a continuación, el número de teléfono, significa que su plan de marcado debe tener una regla de normalización para controlar los números de teléfono como esta:</span><span class="sxs-lookup"><span data-stu-id="cd489-145">For example, if users might dial the country code, area code, and then the phone number itself, that means that your dial plan should have a normalization rule to handle phone numbers such as this:</span></span>
     
-    <span data-ttu-id="240e0-146">12065551219</span><span class="sxs-lookup"><span data-stu-id="240e0-146">12065551219</span></span>
+    <span data-ttu-id="cd489-146">12065551219</span><span class="sxs-lookup"><span data-stu-id="cd489-146">12065551219</span></span>
     
-    <span data-ttu-id="240e0-147">Sin embargo, si escribe un número de teléfono incorrecto (por ejemplo, dejando fuera del dígito final), se producirá un error de test-CsDialPlan.</span><span class="sxs-lookup"><span data-stu-id="240e0-147">However, if you enter an incorrect phone number (for example, leaving off the final digit), then Test-CsDialPlan will fail.</span></span> <span data-ttu-id="240e0-148">No es porque el plan de marcado es defectuoso, pero ya ha escrito un número de teléfono que no se puede interpretar.</span><span class="sxs-lookup"><span data-stu-id="240e0-148">That’s not because the dial plan is faulty but because you have entered a phone number than can’t be interpreted.</span></span>
+    <span data-ttu-id="cd489-147">Sin embargo, si escribe un número de teléfono incorrecto (por ejemplo, dejando fuera del último dígito), se producirá un error en Test-CsDialPlan.</span><span class="sxs-lookup"><span data-stu-id="cd489-147">However, if you enter an incorrect phone number (for example, leaving off the final digit), then Test-CsDialPlan will fail.</span></span> <span data-ttu-id="cd489-148">No es porque el plan de marcado es defectuoso, pero ya ha escrito un número de teléfono que no se puede interpretar.</span><span class="sxs-lookup"><span data-stu-id="cd489-148">That’s not because the dial plan is faulty but because you have entered a phone number than can’t be interpreted.</span></span>
 
 </div>
 
