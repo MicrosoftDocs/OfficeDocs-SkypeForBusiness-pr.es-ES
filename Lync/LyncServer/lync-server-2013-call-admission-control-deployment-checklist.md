@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: lista de comprobación para la implementación del control de admisión de llamadas'
+description: 'Lync Server 2013: lista de comprobación para la implementación del control de admisión de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e16c4c77876064ca0ab9210b96d7c13d68cc4218
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: db7a69bda3048f93089a47b43a0b433946b783f1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537247"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569196"
 ---
 # <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a>Lista de comprobación para la implementación del control de admisión de llamadas para Lync Server 2013
 

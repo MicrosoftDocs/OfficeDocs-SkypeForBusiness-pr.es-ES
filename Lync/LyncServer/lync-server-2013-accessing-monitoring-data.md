@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: acceso a datos de supervisión'
+description: 'Lync Server 2013: acceso a datos de supervisión.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f763fe840a630ffd7ff2ee132d3251b009be6f34
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c183a66c98072f2ab30bb49e561f9f95c753142f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505137"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570126"
 ---
 # <a name="accessing-monitoring-data-in-lync-server-2013"></a>Obtener acceso a los datos de supervisión en Lync Server 2013
 

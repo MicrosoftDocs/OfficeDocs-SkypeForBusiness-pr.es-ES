@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla SessionDetails'
+description: 'Lync Server 2013: tabla SessionDetails.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e49cb6a5715b95758a5e7520c69dd45b757b10c7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fd927f784fb0f2a835c896824105fe8bb112c7a1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510057"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569936"
 ---
 # <a name="sessiondetails-table-in-lync-server-2013"></a>Tabla SessionDetails en Lync Server 2013
 

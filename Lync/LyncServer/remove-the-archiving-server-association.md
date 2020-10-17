@@ -1,5 +1,6 @@
 ---
 title: Quitar la asociación del servidor de archivado
+description: Quite la Asociación del servidor de archivado.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3d9de311668bd43d913b0f746470235060bafe3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0f6c34e49b0217a8318a83752b3878a7625e5d58
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570226"
 ---
 # <a name="remove-the-archiving-server-association"></a>Quitar la asociación del servidor de archivado
 

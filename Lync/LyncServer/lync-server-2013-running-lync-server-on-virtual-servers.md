@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ejecución de Lync Server en servidores virtuales'
+description: 'Lync Server 2013: ejecución de Lync Server en servidores virtuales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a01c05f0692d50ed3970fd0c6e0b94c5e30baf2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 377c481ac149f556fc950a29a0c5054097f3b0e2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511157"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569376"
 ---
 # <a name="running-lync-server-2013-on-virtual-servers"></a>Ejecutar Lync Server 2013 en servidores virtuales
 

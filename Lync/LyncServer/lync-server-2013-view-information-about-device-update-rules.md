@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ver información acerca de las reglas de actualización de dispositivos'
+description: 'Lync Server 2013: ver información acerca de las reglas de actualización de dispositivos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803988
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79fef5d58116da6b8cbc07ce2b16f3dd4f6b28ac
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4aecfd0dd778b576ea4a672e550f9e27d7ca463e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506387"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569636"
 ---
 # <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>Ver información sobre las reglas de actualización de dispositivos en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Instalar el paquete de compatibilidad con versiones anteriores de WMI
+description: Instale el paquete de compatibilidad con versiones anteriores de WMI.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 655d72b2362c6b31d6fc15fd3af0ec14716b13c4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9062e209981fd180b8772801960bd94d2256513a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568996"
 ---
 # <a name="install-wmi-backward-compatibility-package"></a>Instalar el paquete de compatibilidad con versiones anteriores de WMI
 

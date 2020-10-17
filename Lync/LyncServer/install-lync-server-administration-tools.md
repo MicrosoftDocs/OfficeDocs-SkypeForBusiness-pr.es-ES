@@ -1,5 +1,6 @@
 ---
 title: Instalación de las herramientas de administración de Lync Server
+description: Instale las herramientas de administración de Lync Server.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 682b07e3952b76bdd9f6c95eec0aeaa1823d1471
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c06f5d06c70a25e154cebb316121d6deed893c2f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523377"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569006"
 ---
 # <a name="install-lync-server-administration-tools"></a>Instalación de las herramientas de administración de Lync Server
 

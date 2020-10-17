@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla de aplicaciones'
+description: 'Lync Server 2013: tabla de aplicaciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43bde349e8781d47a6e83a2f0c8358911852a9ea
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8a868093694a8a515cd9bc46506a5fad054ebf5f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504987"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568836"
 ---
 # <a name="application-table-in-lync-server-2013"></a>Tabla de aplicaciones en Lync Server 2013
 

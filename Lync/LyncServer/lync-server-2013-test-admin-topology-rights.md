@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: derechos de topología de administración de prueba'
+description: 'Lync Server 2013: derechos de topología de administración de prueba.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e17b4a4e3550ea5af665c78b40039dcbd56facdc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 22d713297d0e944c7acbc5efcb11b21ea1b26639
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568566"
 ---
 # <a name="test-admin-topology-rights-in-lync-server-2013"></a>Probar los derechos de topología de administración en Lync Server 2013
 

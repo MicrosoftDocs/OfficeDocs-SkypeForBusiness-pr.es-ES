@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla Tenants'
+description: 'Lync Server 2013: tabla Tenants.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 091a1db8f19e44277d71371aa14c14635e6fba6e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 96025dfd9fb42a6083f7f3daca98e243f01a8516
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568536"
 ---
 # <a name="tenants-table-in-lync-server-2013"></a>Tabla Tenants en Lync Server 2013
 

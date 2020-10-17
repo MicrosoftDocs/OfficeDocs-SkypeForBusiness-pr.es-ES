@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: permisos de administrador de pruebas'
+description: 'Lync Server 2013: permisos de administrador de prueba.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969607
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1653f2287e06db71f6e971a0a4f483b810734f2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 07e15be288ed31afe9303d91ce3e623d19822428
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519387"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568526"
 ---
 # <a name="test-admin-permissions-in-lync-server-2013"></a>Probar permisos de administrador en Lync Server 2013
 

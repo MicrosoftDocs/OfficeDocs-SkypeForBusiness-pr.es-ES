@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla AudioSignal'
+description: 'Lync Server 2013: tabla AudioSignal.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2605bfbd3e1d4023c013557aea2bcf75404fb23c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 82f3b3119eaccfe56c4706cff07469bc3434461f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533517"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568766"
 ---
 # <a name="audiosignal-table-in-lync-server-2013"></a>Tabla AudioSignal en Lync Server 2013
 

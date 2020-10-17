@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de ubicación'
+description: 'Lync Server 2013: informe de ubicaciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e98107d4949a935cbef448e1a533bddb0f7c5dc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8b819bcffeee0795cd39d3dde3e38fbd9e4a1b7c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513797"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569476"
 ---
 # <a name="location-report-in-lync-server-2013"></a>Informe de ubicaciones en Lync Server 2013
 

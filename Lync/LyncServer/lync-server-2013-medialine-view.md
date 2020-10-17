@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista de MediaLine'
+description: 'Lync Server 2013: vista de MediaLine.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1b8cac172b4973f86916269585d2d9b02cdc728
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4c61fcc15b46958622e6cddd66427255a6def154
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505737"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568686"
 ---
 # <a name="medialine-view-in-lync-server-2013"></a>Vista MediaLine en Lync Server 2013
 

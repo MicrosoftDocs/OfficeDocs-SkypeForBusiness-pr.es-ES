@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: autenticación de usuario y cliente'
+description: 'Lync Server 2013: autenticación de usuario y cliente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 59893868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f32ca61178d6bf15791f81e64279e7f1076828e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ef545dda38e9ab4236e93df769ead393648194cd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530207"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569816"
 ---
 # <a name="user-and-client-authentication-for-lync-server-2013"></a>Autenticación de usuario y cliente para Lync Server 2013
 

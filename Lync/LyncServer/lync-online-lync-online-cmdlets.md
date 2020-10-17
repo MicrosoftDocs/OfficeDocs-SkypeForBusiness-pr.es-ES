@@ -1,5 +1,6 @@
 ---
 title: 'Lync Online: cmdlets de Lync Online'
+description: 'Lync Online: cmdlets de Lync Online.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbed95a4364fd6a5218237c64107dcfd804da3da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44e845281369d83f5585be61706c6da171233b70
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523347"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569536"
 ---
 # <a name="lync-online-cmdlets"></a>Cmdlets de Lync Online
 

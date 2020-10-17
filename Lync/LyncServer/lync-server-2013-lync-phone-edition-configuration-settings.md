@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: opciones de configuración de Lync Phone Edition'
+description: 'Lync Server 2013: opciones de configuración de Lync Phone Edition.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733881
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 705c2887456c501bad8a2d593883c52c727c6a87
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 28dd3f34aac34588d170a9fe86b71a19c53f99ba
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570396"
 ---
 # <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Opciones de configuración de Lync Phone Edition en Lync Server 2013
 

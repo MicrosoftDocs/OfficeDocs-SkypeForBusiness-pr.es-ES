@@ -1,5 +1,6 @@
 ---
 title: Cmdlets de apariencia de línea compartida (SLA)
+description: Cmdlets de apariencia de línea compartida (SLA).
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 72808515
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d81641af786e3eed70e41678cbc0c02d31f52cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4387accd16c797c27c9e8db30a71542bb8c85aba
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570136"
 ---
 # <a name="shared-line-appearance-sla-cmdlets"></a>Cmdlets de apariencia de línea compartida (SLA)
 

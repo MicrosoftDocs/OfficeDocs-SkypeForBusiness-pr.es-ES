@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: supervisión de archivos de registro de seguimiento de solicitudes de IIS'
+description: 'Lync Server 2013: supervisión de archivos de registro de seguimiento de solicitudes de IIS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76e8734c8cef93191c5e7186240c1b78529916fa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 09692b79b1cc59ad18ad520885c0a795736b53cd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531927"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569956"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a>Supervisión de los archivos de registro de seguimiento de solicitudes de IIS en Lync Server 2013
 

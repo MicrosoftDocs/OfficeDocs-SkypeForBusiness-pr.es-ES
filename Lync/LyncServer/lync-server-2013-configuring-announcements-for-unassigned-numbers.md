@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de anuncios para números sin asignar'
+description: 'Lync Server 2013: configuración de anuncios para números sin asignar.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c352e7a4f062e6a9a1aab0bf52289c20102cc7fe
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 16ab636f0c6157118a00d5e46521555086c5e520
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517557"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570036"
 ---
 # <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>Configuración de anuncios para números sin asignar en Lync Server 2013
 

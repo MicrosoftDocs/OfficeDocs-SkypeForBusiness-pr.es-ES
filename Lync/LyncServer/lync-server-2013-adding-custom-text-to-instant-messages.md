@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: agregar texto personalizado a los mensajes instantáneos'
+description: 'Lync Server 2013: agregar texto personalizado a los mensajes instantáneos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 466eac15cf75728578e7d517d15ddb222d1c4b70
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 54f5cf031da0ba4d5bd0b6dbaa7f5ebc9d0b3a6c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569346"
 ---
 # <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a>Agregar texto personalizado a los mensajes instantáneos en Lync Server 2013
 

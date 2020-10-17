@@ -1,5 +1,6 @@
 ---
 title: 'Fase 5: configurar el grupo piloto'
+description: 'Fase 5: configurar el grupo piloto.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07143429aed407b488cf32e5537f9bcc785db0e4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3b44a31bcbccb57e486cb89c7ed379be896a5ab6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533707"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569556"
 ---
 # <a name="phase-5-configure-the-pilot-pool"></a>Fase 5: configurar el grupo piloto
 
@@ -45,13 +46,13 @@ Ahora que se ha creado el grupo piloto y se ha combinado la información de impl
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Conecte el grupo de servidores piloto a los servidores perimetrales heredados](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [Conecte el grupo de servidores piloto a los servidores perimetrales heredados](connect-pilot-pool-to-legacy-edge-servers.md)
 
   - [Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [Comprobación de los parámetros de configuración](verify-configuration-settings_1.md)
+  - [Comprobación de los parámetros de configuración](verify-configuration-settings.md)
 
-  - [Configurar certificados y directivas de acceso por puerta de enlace XMPP](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [Configurar certificados y directivas de acceso por puerta de enlace XMPP](configure-xmpp-gateway-access-policies-and-certificates.md)
 
 </div>
 

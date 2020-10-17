@@ -1,5 +1,6 @@
 ---
 title: Migrar el servidor de mediación
+description: Migre el servidor de mediación.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185117
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87d1e9eaee83f4db6c1ca30cd143d62d45852988
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 31cc4c95f0e9c86b48594238218db22f3ec1a387
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527527"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570336"
 ---
 # <a name="migrate-mediation-server"></a>Migrar el servidor de mediación
 

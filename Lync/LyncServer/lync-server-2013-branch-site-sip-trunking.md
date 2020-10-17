@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: enlace troncal SIP de sitio de sucursal'
+description: 'Lync Server 2013: enlace troncal SIP de sitio de sucursal.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1c9e4c5c8ca64e1b7f2014821cc61fa2655c9f7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 33e408a462c21ffa6df6e6a2aee50d7b87dca1f7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535197"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569326"
 ---
 # <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Enlace troncal SIP de sitios de sucursal en Lync Server 2013
 

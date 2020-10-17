@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: acerca de regiones de red, sitios y subredes'
+description: 'Lync Server 2013: acerca de regiones de red, sitios y subredes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4fe7b93f00ce7af6354fa8a1bc94c104f3af14f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a3c7f660f3c72003527e0721c3f9702865e9b9b4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523217"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568936"
 ---
 # <a name="about-network-regions-sites-and-subnets-in-lync-server-2013"></a>Acerca de las regiones de red, sitios y subredes en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Asociación de informes de supervisión con una base de datos reflejada'
+description: 'Lync Server 2013: Asociación de informes de supervisión con una base de datos reflejada.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 655c6ec788b934a533295fee577e72febb7818de
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d64b37901e7939b5e904dec73caac2d3483e2d71
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527107"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568806"
 ---
 # <a name="associating-monitoring-reports-with-a-mirror-database-in-lync-server-2013"></a>Asociación de informes de supervisión a una base de datos reflejada en Lync Server 2013
 

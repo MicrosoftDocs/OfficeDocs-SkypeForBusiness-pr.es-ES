@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblComplianceParticipant'
+description: 'Lync Server 2013: tblComplianceParticipant.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d6ce992f7a36bd5ce731f26dcb5dbfac0e2acae
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c1385b0a635f003a72de93f10f72642314ad7ebd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509437"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569076"
 ---
 # <a name="tblcomplianceparticipant-in-lync-server-2013"></a>tblComplianceParticipant en Lync Server 2013
 

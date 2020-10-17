@@ -1,5 +1,6 @@
 ---
 title: 'Proceso de migración: detalles'
+description: 'Proceso de migración: detalles.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c15c5cf8a2eaa207467f53d57d82e6cf4491e13
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b8ecc5f23a328aef7cc65ad84e28dbb629d44b91
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527207"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569586"
 ---
 # <a name="migration-process---details"></a>Proceso de migración: detalles
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de actividad de usuario'
+description: 'Lync Server 2013: informe de actividad de usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0e959020e6ace6c72ecd570039d30a9ecc174c82
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530237"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569836"
 ---
 # <a name="user-activity-report-in-lync-server-2013"></a>Informe de actividad de usuario en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblComplianceFanout'
+description: 'Lync Server 2013: tblComplianceFanout.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3df687926940aa98f3bf803f9a991527f19fa58f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0cb94fff579c504598f027c8c68c7dde00a5a516
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509447"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568576"
 ---
 # <a name="tblcompliancefanout-in-lync-server-2013"></a>tblComplianceFanout en Lync Server 2013
 

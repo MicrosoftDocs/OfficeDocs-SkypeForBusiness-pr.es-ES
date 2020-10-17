@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la Directiva de movilidad'
+description: 'Lync Server 2013: configuración de la Directiva de movilidad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91f54f701d46f9b3e6e8f268612d7dc555b2716d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dbbf7f9db54c8436f2db24d593dbd7a1372d5e00
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512767"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570006"
 ---
 # <a name="configuring-mobility-policy-in-lync-server-2013"></a>Configuración de la Directiva de movilidad en Lync Server 2013
 

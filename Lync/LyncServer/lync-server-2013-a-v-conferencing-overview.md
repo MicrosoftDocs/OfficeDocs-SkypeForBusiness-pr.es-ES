@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 información general sobre conferencias A/V
+description: Lync Server 2013 información general sobre conferencias A/V.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f35ef9adaf4f19023ebe2220494fdb315c782515
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 76ef4f76a4df0187a7c36394b2c95e99876df9be
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523267"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568966"
 ---
 # <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Información general sobre la conferencia A/V en Lync Server 2013
 

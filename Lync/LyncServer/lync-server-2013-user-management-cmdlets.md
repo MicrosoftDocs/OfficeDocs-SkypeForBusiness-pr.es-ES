@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de administración de usuarios'
+description: 'Lync Server 2013: cmdlets de administración de usuarios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fee7b4eb6044e82a4ba7e6015e804fa34ec87e81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b94f2b48017fd29fa7a5a814da8a3c80d8f57968
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530177"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569786"
 ---
 # <a name="user-management-cmdlets-in-lync-server-2013"></a>Cmdlets de administración de usuarios en Lync Server 2013
 

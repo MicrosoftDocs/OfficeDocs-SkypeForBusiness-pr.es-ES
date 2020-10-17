@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de permisos y derechos de usuario'
+description: 'Lync Server 2013: cmdlets de derechos y permisos de usuario.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2db174c6bd50bee3904267790127c9d2845b1dd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec14442e6cdd5c398da9e9291109d8ba128dbd9a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508697"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569736"
 ---
 # <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Cmdlets de permisos y derechos de usuario en Lync Server 2013
 

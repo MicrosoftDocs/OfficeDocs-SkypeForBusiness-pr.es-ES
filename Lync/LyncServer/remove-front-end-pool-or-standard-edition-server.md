@@ -1,5 +1,6 @@
 ---
 title: Quitar un grupo de servidores front-end o servidor Standard Edition
+description: Quitar un grupo de servidores front-end o un servidor Standard Edition.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69a1c36de9aa3cbd4a46dc0bba4c862734b382ef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c878d56b073558f4f4b50f31b6742fd581c80241
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500057"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570246"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>Quitar un grupo de servidores front-end o servidor Standard Edition
 
