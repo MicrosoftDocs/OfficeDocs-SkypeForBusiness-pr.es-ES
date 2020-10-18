@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 compatibilidad con resistencia de sitios metropolitana de Lync Server 2010
+description: Lync Server 2013 compatibilidad con la resistencia de sitios metropolitana de Lync Server 2010.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04b3cca41b0ea7a7060e6349127dc7c7fb1732ea
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec72f261ac593b24bad13dcd400f495ba7ba0722
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526057"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576936"
 ---
-# <a name="lync-server-2010-metropolitan-site-resiliency"></a><span data-ttu-id="17016-102">Lync Server 2010 resistencia del sitio metropolitana</span><span class="sxs-lookup"><span data-stu-id="17016-102">Lync Server 2010 metropolitan site resiliency</span></span>
+# <a name="lync-server-2010-metropolitan-site-resiliency"></a><span data-ttu-id="94548-103">Lync Server 2010 resistencia del sitio metropolitana</span><span class="sxs-lookup"><span data-stu-id="94548-103">Lync Server 2010 metropolitan site resiliency</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48526057"
 
 <span> </span>
 
-<span data-ttu-id="17016-103">_**Última modificación del tema:** 2014-03-19_</span><span class="sxs-lookup"><span data-stu-id="17016-103">_**Topic Last Modified:** 2014-03-19_</span></span>
+<span data-ttu-id="94548-104">_**Última modificación del tema:** 2014-03-19_</span><span class="sxs-lookup"><span data-stu-id="94548-104">_**Topic Last Modified:** 2014-03-19_</span></span>
 
-<span data-ttu-id="17016-104">La solución de resistencia de sitios metropolitana compatible con Lync Server 2010 no es compatible con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="17016-104">The metropolitan site resiliency solution supported for Lync Server 2010 is not supported for Lync Server 2013.</span></span> <span data-ttu-id="17016-105">Esta solución incluye la expansión de un grupo de servidores front-end a través de dos centros de datos en la misma área metropolitana.</span><span class="sxs-lookup"><span data-stu-id="17016-105">This solution involved spanning a single Front End pool across two data centers in the same metropolitan area.</span></span>
+<span data-ttu-id="94548-105">La solución de resistencia de sitios metropolitana compatible con Lync Server 2010 no es compatible con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="94548-105">The metropolitan site resiliency solution supported for Lync Server 2010 is not supported for Lync Server 2013.</span></span> <span data-ttu-id="94548-106">Esta solución incluye la expansión de un grupo de servidores front-end a través de dos centros de datos en la misma área metropolitana.</span><span class="sxs-lookup"><span data-stu-id="94548-106">This solution involved spanning a single Front End pool across two data centers in the same metropolitan area.</span></span>
 
-<span data-ttu-id="17016-106">La solución de resistencia de sitios metropolitana se ha diseñado para recuperarse de la pérdida de un centro de seguridad completo.</span><span class="sxs-lookup"><span data-stu-id="17016-106">The metropolitan site resiliency solution was designed to recover from the loss of a full datacenter.</span></span> <span data-ttu-id="17016-107">Cuando expande el grupo de servidores en dos centros de recursos, normalmente pone la mitad de los servidores front-end en un centro de recursos y la otra mitad en el segundo centro de recursos.</span><span class="sxs-lookup"><span data-stu-id="17016-107">When you span your pool across two datacenters, you typically put half of your front ends in one datacenter and the other half in the second datacenter.</span></span> <span data-ttu-id="17016-108">Si pierde un centro de información completo, perderá la mitad de los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="17016-108">If you lose an entire datacenter, you have lost half of your Front End Servers.</span></span> <span data-ttu-id="17016-109">Esto puede causar problemas con el nuevo modelo de sistemas distribuidos para grupos de servidores front-end en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="17016-109">This can cause issues with the new distributed system model for Front End Pools in Lync Server 2013.</span></span> <span data-ttu-id="17016-110">Para obtener más información, vea [topologías y componentes para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span><span class="sxs-lookup"><span data-stu-id="17016-110">For more information, see [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span></span>
+<span data-ttu-id="94548-107">La solución de resistencia de sitios metropolitana se ha diseñado para recuperarse de la pérdida de un centro de seguridad completo.</span><span class="sxs-lookup"><span data-stu-id="94548-107">The metropolitan site resiliency solution was designed to recover from the loss of a full datacenter.</span></span> <span data-ttu-id="94548-108">Cuando expande el grupo de servidores en dos centros de recursos, normalmente pone la mitad de los servidores front-end en un centro de recursos y la otra mitad en el segundo centro de recursos.</span><span class="sxs-lookup"><span data-stu-id="94548-108">When you span your pool across two datacenters, you typically put half of your front ends in one datacenter and the other half in the second datacenter.</span></span> <span data-ttu-id="94548-109">Si pierde un centro de información completo, perderá la mitad de los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="94548-109">If you lose an entire datacenter, you have lost half of your Front End Servers.</span></span> <span data-ttu-id="94548-110">Esto puede causar problemas con el nuevo modelo de sistemas distribuidos para grupos de servidores front-end en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="94548-110">This can cause issues with the new distributed system model for Front End Pools in Lync Server 2013.</span></span> <span data-ttu-id="94548-111">Para obtener más información, vea [topologías y componentes para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span><span class="sxs-lookup"><span data-stu-id="94548-111">For more information, see [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span></span>
 
 </div>
 

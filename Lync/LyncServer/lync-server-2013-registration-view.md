@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista de registro'
+description: 'Lync Server 2013: vista de registro.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdf0e0edd69685af866905fea08144de327c446c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: be169cafc324f89cacedda154ca49a8ff1ff39aa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536587"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578535"
 ---
-# <a name="registration-view-in-lync-server-2013"></a><span data-ttu-id="3af86-102">Vista de registro en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3af86-102">Registration view in Lync Server 2013</span></span>
+# <a name="registration-view-in-lync-server-2013"></a><span data-ttu-id="9723d-103">Vista de registro en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9723d-103">Registration view in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48536587"
 
 <span> </span>
 
-<span data-ttu-id="3af86-103">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="3af86-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="9723d-104">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="9723d-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="3af86-104">La vista de registro almacena información sobre el registro de usuarios.</span><span class="sxs-lookup"><span data-stu-id="3af86-104">The Registration view stores information about user registration.</span></span> <span data-ttu-id="3af86-105">Esta vista se introdujo en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3af86-105">This view was introduced in Lync Server 2013.</span></span>
+<span data-ttu-id="9723d-105">La vista de registro almacena información sobre el registro de usuarios.</span><span class="sxs-lookup"><span data-stu-id="9723d-105">The Registration view stores information about user registration.</span></span> <span data-ttu-id="9723d-106">Esta vista se introdujo en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9723d-106">This view was introduced in Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,142 +51,142 @@ ms.locfileid: "48536587"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3af86-106">Columna</span><span class="sxs-lookup"><span data-stu-id="3af86-106">Column</span></span></th>
-<th><span data-ttu-id="3af86-107">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="3af86-107">Data Type</span></span></th>
-<th><span data-ttu-id="3af86-108">Detalles</span><span class="sxs-lookup"><span data-stu-id="3af86-108">Details</span></span></th>
+<th><span data-ttu-id="9723d-107">Columna</span><span class="sxs-lookup"><span data-stu-id="9723d-107">Column</span></span></th>
+<th><span data-ttu-id="9723d-108">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="9723d-108">Data Type</span></span></th>
+<th><span data-ttu-id="9723d-109">Detalles</span><span class="sxs-lookup"><span data-stu-id="9723d-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-110">datetime</span><span class="sxs-lookup"><span data-stu-id="3af86-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="3af86-111">Hora de la solicitud de sesión.</span><span class="sxs-lookup"><span data-stu-id="3af86-111">Time of session request.</span></span> <span data-ttu-id="3af86-112">Se usa de forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión.</span><span class="sxs-lookup"><span data-stu-id="3af86-112">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="3af86-113">Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="3af86-113">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-110"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-110"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-111">datetime</span><span class="sxs-lookup"><span data-stu-id="9723d-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="9723d-112">Hora de la solicitud de sesión.</span><span class="sxs-lookup"><span data-stu-id="9723d-112">Time of session request.</span></span> <span data-ttu-id="9723d-113">Se usa de forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión.</span><span class="sxs-lookup"><span data-stu-id="9723d-113">Used in conjunction with SessionIdSeq to uniquely identify a session.</span></span> <span data-ttu-id="9723d-114">Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="9723d-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-114"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-115">entero</span><span class="sxs-lookup"><span data-stu-id="3af86-115">int</span></span></p></td>
-<td><p><span data-ttu-id="3af86-116">Número de identificador para identificar la sesión.</span><span class="sxs-lookup"><span data-stu-id="3af86-116">ID number to identify the session.</span></span> <span data-ttu-id="3af86-117">Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión.</span><span class="sxs-lookup"><span data-stu-id="3af86-117">Used in conjunction with SessionIdTime to uniquely identify a session.</span></span> <span data-ttu-id="3af86-118">Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="3af86-118">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-116">entero</span><span class="sxs-lookup"><span data-stu-id="9723d-116">int</span></span></p></td>
+<td><p><span data-ttu-id="9723d-117">Número de identificador para identificar la sesión.</span><span class="sxs-lookup"><span data-stu-id="9723d-117">ID number to identify the session.</span></span> <span data-ttu-id="9723d-118">Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión.</span><span class="sxs-lookup"><span data-stu-id="9723d-118">Used in conjunction with SessionIdTime to uniquely identify a session.</span></span> <span data-ttu-id="9723d-119">Consulte la <a href="lync-server-2013-dialogs-table.md">tabla de cuadros de diálogo en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="9723d-119">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-119"><strong>RegisterTime</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-119"><strong>RegisterTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-120">datetime</span><span class="sxs-lookup"><span data-stu-id="3af86-120">datetime</span></span></p></td>
-<td><p><span data-ttu-id="3af86-121">Hora a la que ocurrió el registro.</span><span class="sxs-lookup"><span data-stu-id="3af86-121">Time at which registration occurred.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-120"><strong>RegisterTime</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-120"><strong>RegisterTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-121">datetime</span><span class="sxs-lookup"><span data-stu-id="9723d-121">datetime</span></span></p></td>
+<td><p><span data-ttu-id="9723d-122">Hora a la que ocurrió el registro.</span><span class="sxs-lookup"><span data-stu-id="9723d-122">Time at which registration occurred.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-122"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-122"><strong>UserUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-123">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="3af86-123">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-124">URI del usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="3af86-124">URI of the user who registered.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-123"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-123"><strong>UserUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-124">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="9723d-124">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-125">URI del usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="9723d-125">URI of the user who registered.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-125"><strong>UserUriType</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-125"><strong>UserUriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-126">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-126">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-127">Tipo de URI del usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="3af86-127">Type of URI of the user who registered.</span></span> <span data-ttu-id="3af86-128">Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="3af86-128">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-126"><strong>UserUriType</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-126"><strong>UserUriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-127">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-127">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-128">Tipo de URI del usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="9723d-128">Type of URI of the user who registered.</span></span> <span data-ttu-id="9723d-129">Consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="9723d-129">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-129"><strong>UserTenant</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-129"><strong>UserTenant</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-130">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-130">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-131">Inquilino del usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="3af86-131">Tenant of the user who registered.</span></span> <span data-ttu-id="3af86-132">Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="3af86-132">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-130"><strong>UserTenant</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-130"><strong>UserTenant</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-131">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-131">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-132">Inquilino del usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="9723d-132">Tenant of the user who registered.</span></span> <span data-ttu-id="9723d-133">Consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="9723d-133">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-133"><strong>EndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-133"><strong>EndpointId</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-134">identificador</span><span class="sxs-lookup"><span data-stu-id="3af86-134">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="3af86-135">Identificador único del extremo con el que se registró el usuario.</span><span class="sxs-lookup"><span data-stu-id="3af86-135">Unique identifier of the endpoint of the user registered with.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-134"><strong>EndpointId</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-134"><strong>EndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-135">identificador</span><span class="sxs-lookup"><span data-stu-id="9723d-135">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="9723d-136">Identificador único del extremo con el que se registró el usuario.</span><span class="sxs-lookup"><span data-stu-id="9723d-136">Unique identifier of the endpoint of the user registered with.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-136"><strong>EndpointEra</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-136"><strong>EndpointEra</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-137">identificador</span><span class="sxs-lookup"><span data-stu-id="3af86-137">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="3af86-138">Identificador único que se utiliza para diferenciar los registros con el mismo usuario y el mismo extremo.</span><span class="sxs-lookup"><span data-stu-id="3af86-138">Unique identifier used to differentiate registrations that involve the same user and the same endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-137"><strong>EndpointEra</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-137"><strong>EndpointEra</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-138">identificador</span><span class="sxs-lookup"><span data-stu-id="9723d-138">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="9723d-139">Identificador único que se utiliza para diferenciar los registros con el mismo usuario y el mismo extremo.</span><span class="sxs-lookup"><span data-stu-id="9723d-139">Unique identifier used to differentiate registrations that involve the same user and the same endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-139"><strong>DeRegisterType</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-139"><strong>DeRegisterType</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-140">datetime</span><span class="sxs-lookup"><span data-stu-id="3af86-140">datetime</span></span></p></td>
-<td><p><span data-ttu-id="3af86-141">Hora a la que ocurrió la anulación de registro.</span><span class="sxs-lookup"><span data-stu-id="3af86-141">Time at which deregistration occurred.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-140"><strong>DeRegisterType</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-140"><strong>DeRegisterType</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-141">datetime</span><span class="sxs-lookup"><span data-stu-id="9723d-141">datetime</span></span></p></td>
+<td><p><span data-ttu-id="9723d-142">Hora a la que ocurrió la anulación de registro.</span><span class="sxs-lookup"><span data-stu-id="9723d-142">Time at which deregistration occurred.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-142"><strong>DeRegisterReason</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-142"><strong>DeRegisterReason</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-143">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-143">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-144">Motivo de la anulación de registro.</span><span class="sxs-lookup"><span data-stu-id="3af86-144">Reason for deregistration.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-143"><strong>DeRegisterReason</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-143"><strong>DeRegisterReason</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-144">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-144">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-145">Motivo de la anulación de registro.</span><span class="sxs-lookup"><span data-stu-id="9723d-145">Reason for deregistration.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-145"><strong>ClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-145"><strong>ClientVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-146">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-146">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-147">Versión del cliente que utilizó el usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="3af86-147">Version of client used by the user who registered.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-146"><strong>ClientVersion</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-146"><strong>ClientVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-147">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-147">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-148">Versión del cliente que utilizó el usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="9723d-148">Version of client used by the user who registered.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-148"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-148"><strong>ClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-149">entero</span><span class="sxs-lookup"><span data-stu-id="3af86-149">int</span></span></p></td>
-<td><p><span data-ttu-id="3af86-150">Cliente que utilizó el usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="3af86-150">Client used by the user who registered.</span></span> <span data-ttu-id="3af86-151">Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="3af86-151">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-149"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-149"><strong>ClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-150">entero</span><span class="sxs-lookup"><span data-stu-id="9723d-150">int</span></span></p></td>
+<td><p><span data-ttu-id="9723d-151">Cliente que utilizó el usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="9723d-151">Client used by the user who registered.</span></span> <span data-ttu-id="9723d-152">Consulte la <a href="lync-server-2013-useragentdef-table.md">tabla UserAgentDef en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="9723d-152">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-152"><strong>ClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-152"><strong>ClientCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-153">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="3af86-153">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-154">Categoría del cliente que utilizó el usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="3af86-154">Category of the client used by the user who registered.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-153"><strong>ClientCategory</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-153"><strong>ClientCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-154">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="9723d-154">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-155">Categoría del cliente que utilizó el usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="9723d-155">Category of the client used by the user who registered.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-155"><strong>DirIP</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-155"><strong>IpAddress</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-156">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-156">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-157">Dirección IP con la que se registró el usuario.</span><span class="sxs-lookup"><span data-stu-id="3af86-157">IP Address the user registered with.</span></span> <span data-ttu-id="3af86-158">Puede ser una dirección IPv4 o IPv6.</span><span class="sxs-lookup"><span data-stu-id="3af86-158">This may be an IPv4 or IPv6 address.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-156"><strong>DirIP</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-156"><strong>IpAddress</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-157">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-157">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-158">Dirección IP con la que se registró el usuario.</span><span class="sxs-lookup"><span data-stu-id="9723d-158">IP Address the user registered with.</span></span> <span data-ttu-id="9723d-159">Puede ser una dirección IPv4 o IPv6.</span><span class="sxs-lookup"><span data-stu-id="9723d-159">This may be an IPv4 or IPv6 address.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-159"><strong>Identificador</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-159"><strong>DialogId</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-160">varstring (775)</span><span class="sxs-lookup"><span data-stu-id="3af86-160">varstring(775)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-p108">Identificador del diálogo SIP. El formato es:</span><span class="sxs-lookup"><span data-stu-id="3af86-p108">SIP dialog ID. The format of the is:</span></span></p>
-<p><span data-ttu-id="3af86-163">Dialog; from-Tag; to-Tag</span><span class="sxs-lookup"><span data-stu-id="3af86-163">dialog;from-tag;to-tag</span></span></p></td>
+<td><p><span data-ttu-id="9723d-160"><strong>Identificador</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-160"><strong>DialogId</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-161">varstring (775)</span><span class="sxs-lookup"><span data-stu-id="9723d-161">varstring(775)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-p108">Identificador del diálogo SIP. El formato es:</span><span class="sxs-lookup"><span data-stu-id="9723d-p108">SIP dialog ID. The format of the is:</span></span></p>
+<p><span data-ttu-id="9723d-164">Dialog; from-Tag; to-Tag</span><span class="sxs-lookup"><span data-stu-id="9723d-164">dialog;from-tag;to-tag</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-164"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-164"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-165">entero</span><span class="sxs-lookup"><span data-stu-id="3af86-165">int</span></span></p></td>
-<td><p><span data-ttu-id="3af86-p109">Código de respuesta SIP a la invitación a la sesión. Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no hay ningún mensaje INVITE, el campo se rellena con la hora y la fecha del primer mensaje SIP correspondiente (BYE, CANCEL, MESSAGE o INFO).</span><span class="sxs-lookup"><span data-stu-id="3af86-p109">SIP response code to the session invitation. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="9723d-165"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-165"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-166">entero</span><span class="sxs-lookup"><span data-stu-id="9723d-166">int</span></span></p></td>
+<td><p><span data-ttu-id="9723d-p109">Código de respuesta SIP a la invitación a la sesión. Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no hay ningún mensaje INVITE, el campo se rellena con la hora y la fecha del primer mensaje SIP correspondiente (BYE, CANCEL, MESSAGE o INFO).</span><span class="sxs-lookup"><span data-stu-id="9723d-p109">SIP response code to the session invitation. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-169"><strong>DiagnosticId</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-169"><strong>DiagnosticId</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-170">entero</span><span class="sxs-lookup"><span data-stu-id="3af86-170">int</span></span></p></td>
-<td><p><span data-ttu-id="3af86-171">Identificador de diagnóstico capturado del encabezado SIP.</span><span class="sxs-lookup"><span data-stu-id="3af86-171">Diagnostic ID captured from SIP header.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-170"><strong>DiagnosticId</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-170"><strong>DiagnosticId</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-171">entero</span><span class="sxs-lookup"><span data-stu-id="9723d-171">int</span></span></p></td>
+<td><p><span data-ttu-id="9723d-172">Identificador de diagnóstico capturado del encabezado SIP.</span><span class="sxs-lookup"><span data-stu-id="9723d-172">Diagnostic ID captured from SIP header.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-172"><strong>Dominios</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-172"><strong>Registrar</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-173">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-173">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-174">FQDN del registrador.</span><span class="sxs-lookup"><span data-stu-id="3af86-174">FQDN of the Registrar.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-173"><strong>Dominios</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-173"><strong>Registrar</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-174">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-174">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-175">FQDN del registrador.</span><span class="sxs-lookup"><span data-stu-id="9723d-175">FQDN of the Registrar.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-175"><strong>Grupo</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-175"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-176">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-176">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-177">FQDN del grupo de servidores que capturó los datos de la sesión.</span><span class="sxs-lookup"><span data-stu-id="3af86-177">FQDN of the pool that captured the data for the session.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-176"><strong>Grupo</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-176"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-177">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-177">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-178">FQDN del grupo de servidores que capturó los datos de la sesión.</span><span class="sxs-lookup"><span data-stu-id="9723d-178">FQDN of the pool that captured the data for the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-178"><strong>EdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-178"><strong>EdgeServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-179">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-179">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-180">FQDN del servidor perimetral que utilizó el usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="3af86-180">FQDN of the Edge Server used by the user who registered.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-179"><strong>EdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-179"><strong>EdgeServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-180">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-180">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-181">FQDN del servidor perimetral que utilizó el usuario que se registró.</span><span class="sxs-lookup"><span data-stu-id="9723d-181">FQDN of the Edge Server used by the user who registered.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-181"><strong>IsInternal</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-181"><strong>IsInternal</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-182">bit</span><span class="sxs-lookup"><span data-stu-id="3af86-182">bit</span></span></p></td>
-<td><p><span data-ttu-id="3af86-183">Indica si el usuario inició sesión desde la red interna.</span><span class="sxs-lookup"><span data-stu-id="3af86-183">Indicates whether the user logged on from the internal network.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-182"><strong>IsInternal</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-182"><strong>IsInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-183">bit</span><span class="sxs-lookup"><span data-stu-id="9723d-183">bit</span></span></p></td>
+<td><p><span data-ttu-id="9723d-184">Indica si el usuario inició sesión desde la red interna.</span><span class="sxs-lookup"><span data-stu-id="9723d-184">Indicates whether the user logged on from the internal network.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-184"><strong>IsUserServiceAvailable</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-184"><strong>IsUserServiceAvailable</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-185">bit</span><span class="sxs-lookup"><span data-stu-id="3af86-185">bit</span></span></p></td>
-<td><p><span data-ttu-id="3af86-186">Indica si el UserService estaba disponible en el momento del registro.</span><span class="sxs-lookup"><span data-stu-id="3af86-186">Indicates whether the UserService was available at registration time.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-185"><strong>IsUserServiceAvailable</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-185"><strong>IsUserServiceAvailable</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-186">bit</span><span class="sxs-lookup"><span data-stu-id="9723d-186">bit</span></span></p></td>
+<td><p><span data-ttu-id="9723d-187">Indica si el UserService estaba disponible en el momento del registro.</span><span class="sxs-lookup"><span data-stu-id="9723d-187">Indicates whether the UserService was available at registration time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-187"><strong>IsPrimaryRegistrar</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-187"><strong>IsPrimaryRegistrar</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-188">bit</span><span class="sxs-lookup"><span data-stu-id="3af86-188">bit</span></span></p></td>
-<td><p><span data-ttu-id="3af86-189">Indica si el registro se realizó con el registrador principal.</span><span class="sxs-lookup"><span data-stu-id="3af86-189">Indicates whether registration was with the primary Registrar.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-188"><strong>IsPrimaryRegistrar</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-188"><strong>IsPrimaryRegistrar</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-189">bit</span><span class="sxs-lookup"><span data-stu-id="9723d-189">bit</span></span></p></td>
+<td><p><span data-ttu-id="9723d-190">Indica si el registro se realizó con el registrador principal.</span><span class="sxs-lookup"><span data-stu-id="9723d-190">Indicates whether registration was with the primary Registrar.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-190"><strong>DeviceMacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-190"><strong>DeviceMacAddress</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-191">BIGINT</span><span class="sxs-lookup"><span data-stu-id="3af86-191">bigint</span></span></p></td>
-<td><p><span data-ttu-id="3af86-192">Dirección MAC del dispositivo registrado.</span><span class="sxs-lookup"><span data-stu-id="3af86-192">MAC Address of device registered.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-191"><strong>DeviceMacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-191"><strong>DeviceMacAddress</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-192">BIGINT</span><span class="sxs-lookup"><span data-stu-id="9723d-192">bigint</span></span></p></td>
+<td><p><span data-ttu-id="9723d-193">Dirección MAC del dispositivo registrado.</span><span class="sxs-lookup"><span data-stu-id="9723d-193">MAC Address of device registered.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3af86-193"><strong>DeviceManufacturer</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-193"><strong>DeviceManufacturer</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-194">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-194">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-195">Fabricante del dispositivo registrado.</span><span class="sxs-lookup"><span data-stu-id="3af86-195">Manufacturer of the device registered.</span></span> <span data-ttu-id="3af86-196">Consulte la <a href="lync-server-2013-manufacturers-table.md">tabla fabricantes en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="3af86-196">See the <a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-194"><strong>DeviceManufacturer</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-194"><strong>DeviceManufacturer</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-195">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-195">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-196">Fabricante del dispositivo registrado.</span><span class="sxs-lookup"><span data-stu-id="9723d-196">Manufacturer of the device registered.</span></span> <span data-ttu-id="9723d-197">Consulte la <a href="lync-server-2013-manufacturers-table.md">tabla fabricantes en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="9723d-197">See the <a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3af86-197"><strong>DeviceHardwareVersion</strong></span><span class="sxs-lookup"><span data-stu-id="3af86-197"><strong>DeviceHardwareVersion</strong></span></span></p></td>
-<td><p><span data-ttu-id="3af86-198">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="3af86-198">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3af86-199">Versión del hardware del dispositivo registrado.</span><span class="sxs-lookup"><span data-stu-id="3af86-199">Hardware version of the device registered.</span></span> <span data-ttu-id="3af86-200">Consulte la <a href="lync-server-2013-hardwareversions-table.md">tabla HardwareVersions en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="3af86-200">See the <a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="9723d-198"><strong>DeviceHardwareVersion</strong></span><span class="sxs-lookup"><span data-stu-id="9723d-198"><strong>DeviceHardwareVersion</strong></span></span></p></td>
+<td><p><span data-ttu-id="9723d-199">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9723d-199">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9723d-200">Versión del hardware del dispositivo registrado.</span><span class="sxs-lookup"><span data-stu-id="9723d-200">Hardware version of the device registered.</span></span> <span data-ttu-id="9723d-201">Consulte la <a href="lync-server-2013-hardwareversions-table.md">tabla HardwareVersions en Lync Server 2013</a> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="9723d-201">See the <a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>

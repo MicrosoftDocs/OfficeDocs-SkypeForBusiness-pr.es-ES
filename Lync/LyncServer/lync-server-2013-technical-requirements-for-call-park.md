@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos técnicos para el estacionamiento de llamadas'
+description: 'Lync Server 2013: requisitos técnicos para el estacionamiento de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b5fb5f86dd575daf603bd0a21235184346bca05
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6ddc17b40f78c42c090d1a87b4580ebdad0a07f6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577136"
 ---
-# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a><span data-ttu-id="daf81-102">Requisitos técnicos para el estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="daf81-102">Technical requirements for Call Park in Lync Server 2013</span></span>
+# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a><span data-ttu-id="376a0-103">Requisitos técnicos para el estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="376a0-103">Technical requirements for Call Park in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,49 +38,49 @@ ms.locfileid: "48533957"
 
 <span> </span>
 
-<span data-ttu-id="daf81-103">_**Última modificación del tema:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="daf81-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+<span data-ttu-id="376a0-104">_**Última modificación del tema:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="376a0-104">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-<span data-ttu-id="daf81-104">En esta sección se describen los siguientes requisitos técnicos para el estacionamiento de llamadas:</span><span class="sxs-lookup"><span data-stu-id="daf81-104">This section describes the following technical requirements for Call Park:</span></span>
+<span data-ttu-id="376a0-105">En esta sección se describen los siguientes requisitos técnicos para el estacionamiento de llamadas:</span><span class="sxs-lookup"><span data-stu-id="376a0-105">This section describes the following technical requirements for Call Park:</span></span>
 
-  - <span data-ttu-id="daf81-105">Requisitos de hardware</span><span class="sxs-lookup"><span data-stu-id="daf81-105">Hardware requirements</span></span>
+  - <span data-ttu-id="376a0-106">Requisitos de hardware</span><span class="sxs-lookup"><span data-stu-id="376a0-106">Hardware requirements</span></span>
 
-  - <span data-ttu-id="daf81-106">Requisitos de software</span><span class="sxs-lookup"><span data-stu-id="daf81-106">Software requirements</span></span>
+  - <span data-ttu-id="376a0-107">Requisitos de software</span><span class="sxs-lookup"><span data-stu-id="376a0-107">Software requirements</span></span>
 
-  - <span data-ttu-id="daf81-107">Requisitos de puerto</span><span class="sxs-lookup"><span data-stu-id="daf81-107">Port requirements</span></span>
+  - <span data-ttu-id="376a0-108">Requisitos de puerto</span><span class="sxs-lookup"><span data-stu-id="376a0-108">Port requirements</span></span>
 
-  - <span data-ttu-id="daf81-108">Requisitos de archivos de audio</span><span class="sxs-lookup"><span data-stu-id="daf81-108">Audio file requirements</span></span>
+  - <span data-ttu-id="376a0-109">Requisitos de archivos de audio</span><span class="sxs-lookup"><span data-stu-id="376a0-109">Audio file requirements</span></span>
 
 <div>
 
-## <a name="hardware-requirements"></a><span data-ttu-id="daf81-109">Requisitos de hardware</span><span class="sxs-lookup"><span data-stu-id="daf81-109">Hardware Requirements</span></span>
+## <a name="hardware-requirements"></a><span data-ttu-id="376a0-110">Requisitos de hardware</span><span class="sxs-lookup"><span data-stu-id="376a0-110">Hardware Requirements</span></span>
 
-<span data-ttu-id="daf81-110">La aplicación de estacionamiento de llamadas tiene los mismos requisitos de hardware que los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="daf81-110">The Call Park application has the same hardware requirements as Front End Servers.</span></span> <span data-ttu-id="daf81-111">Para obtener más información sobre los requisitos de hardware, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación sobre compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="daf81-111">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="376a0-111">La aplicación de estacionamiento de llamadas tiene los mismos requisitos de hardware que los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="376a0-111">The Call Park application has the same hardware requirements as Front End Servers.</span></span> <span data-ttu-id="376a0-112">Para obtener más información sobre los requisitos de hardware, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación sobre compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="376a0-112">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="software-requirements"></a><span data-ttu-id="daf81-112">Requisitos de software</span><span class="sxs-lookup"><span data-stu-id="daf81-112">Software Requirements</span></span>
+## <a name="software-requirements"></a><span data-ttu-id="376a0-113">Requisitos de software</span><span class="sxs-lookup"><span data-stu-id="376a0-113">Software Requirements</span></span>
 
-<span data-ttu-id="daf81-113">La aplicación de estacionamiento de llamadas tiene los mismos requisitos de sistema operativo y requisitos previos de software que los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="daf81-113">The Call Park application has the same operating system requirements and software prerequisites as Front End Servers.</span></span> <span data-ttu-id="daf81-114">Para obtener más información sobre los requisitos de software, consulte [Server and Tools Operating System support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación sobre compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="daf81-114">For details about software requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="376a0-114">La aplicación de estacionamiento de llamadas tiene los mismos requisitos de sistema operativo y requisitos previos de software que los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="376a0-114">The Call Park application has the same operating system requirements and software prerequisites as Front End Servers.</span></span> <span data-ttu-id="376a0-115">Para obtener más información sobre los requisitos de software, consulte [Server and Tools Operating System support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación sobre compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="376a0-115">For details about software requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="daf81-115">Todos los servidores front-end y los servidores Standard Edition en los que se implemente la aplicación de estacionamiento de llamadas deben tener instalado el tiempo de ejecución de Windows Media Format para los servidores que ejecutan Windows Server 2008 R2 o Microsoft Media Foundation para los servidores que ejecutan Windows Server 2012 o Windows Server 2012 R2.</span><span class="sxs-lookup"><span data-stu-id="daf81-115">All Front End Servers and Standard Edition servers where the Call Park application is deployed must have the Windows Media Format Runtime installed for servers running Windows Server 2008 R2, or Microsoft Media Foundation for servers running Windows Server 2012 or Windows Server 2012 R2.</span></span> <span data-ttu-id="daf81-116">Para Windows Server 2008 R2, el tiempo de ejecución de Windows Media Format se instala como parte de la experiencia de escritorio de Windows.</span><span class="sxs-lookup"><span data-stu-id="daf81-116">For Windows Server 2008 R2, Windows Media Format Runtime is installed as part of Windows Desktop Experience.</span></span> <span data-ttu-id="daf81-117">Se requiere el tiempo de ejecución de Windows Media Format o Microsoft Media Foundation para los archivos de audio de Windows Media (. WMA) que llaman reproducciones de estacionamiento para la música en espera.</span><span class="sxs-lookup"><span data-stu-id="daf81-117">Windows Media Format Runtime or Microsoft Media Foundation is required for Windows Media Audio (.wma) files that Call Park plays for music on hold.</span></span>
+<span data-ttu-id="376a0-116">Todos los servidores front-end y los servidores Standard Edition en los que se implemente la aplicación de estacionamiento de llamadas deben tener instalado el tiempo de ejecución de Windows Media Format para los servidores que ejecutan Windows Server 2008 R2 o Microsoft Media Foundation para los servidores que ejecutan Windows Server 2012 o Windows Server 2012 R2.</span><span class="sxs-lookup"><span data-stu-id="376a0-116">All Front End Servers and Standard Edition servers where the Call Park application is deployed must have the Windows Media Format Runtime installed for servers running Windows Server 2008 R2, or Microsoft Media Foundation for servers running Windows Server 2012 or Windows Server 2012 R2.</span></span> <span data-ttu-id="376a0-117">Para Windows Server 2008 R2, el tiempo de ejecución de Windows Media Format se instala como parte de la experiencia de escritorio de Windows.</span><span class="sxs-lookup"><span data-stu-id="376a0-117">For Windows Server 2008 R2, Windows Media Format Runtime is installed as part of Windows Desktop Experience.</span></span> <span data-ttu-id="376a0-118">Se requiere el tiempo de ejecución de Windows Media Format o Microsoft Media Foundation para los archivos de audio de Windows Media (. WMA) que llaman reproducciones de estacionamiento para la música en espera.</span><span class="sxs-lookup"><span data-stu-id="376a0-118">Windows Media Format Runtime or Microsoft Media Foundation is required for Windows Media Audio (.wma) files that Call Park plays for music on hold.</span></span>
 
 </div>
 
 <div>
 
-## <a name="port-requirements"></a><span data-ttu-id="daf81-118">Requisitos de los puertos</span><span class="sxs-lookup"><span data-stu-id="daf81-118">Port Requirements</span></span>
+## <a name="port-requirements"></a><span data-ttu-id="376a0-119">Requisitos de los puertos</span><span class="sxs-lookup"><span data-stu-id="376a0-119">Port Requirements</span></span>
 
-<span data-ttu-id="daf81-119">La aplicación de estacionamiento de llamadas usa el siguiente puerto:</span><span class="sxs-lookup"><span data-stu-id="daf81-119">The Call Park application uses the following port:</span></span>
+<span data-ttu-id="376a0-120">La aplicación de estacionamiento de llamadas usa el siguiente puerto:</span><span class="sxs-lookup"><span data-stu-id="376a0-120">The Call Park application uses the following port:</span></span>
 
-  - <span data-ttu-id="daf81-120">**Puerto 5075**     Se usa para las solicitudes de escucha SIP.</span><span class="sxs-lookup"><span data-stu-id="daf81-120">**Port 5075**   Used for SIP listening requests.</span></span>
+  - <span data-ttu-id="376a0-121">**Puerto 5075**     Se usa para las solicitudes de escucha SIP.</span><span class="sxs-lookup"><span data-stu-id="376a0-121">**Port 5075**   Used for SIP listening requests.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="daf81-121">Este puerto es una configuración predeterminada que puede cambiar mediante el cmdlet <STRONG>Set-CsApplicationServer</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="daf81-121">This port is a default setting that you can change by using the <STRONG>Set-CsApplicationServer</STRONG> cmdlet.</span></span> <span data-ttu-id="daf81-122">Para obtener más información sobre este cmdlet, consulte la documentación del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="daf81-122">For details about this cmdlet, see the Lync Server Management Shell documentation.</span></span>
+> <span data-ttu-id="376a0-122">Este puerto es una configuración predeterminada que puede cambiar mediante el cmdlet <STRONG>Set-CsApplicationServer</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="376a0-122">This port is a default setting that you can change by using the <STRONG>Set-CsApplicationServer</STRONG> cmdlet.</span></span> <span data-ttu-id="376a0-123">Para obtener más información sobre este cmdlet, consulte la documentación del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="376a0-123">For details about this cmdlet, see the Lync Server Management Shell documentation.</span></span>
 
 
 
@@ -89,15 +90,15 @@ ms.locfileid: "48533957"
 
 <div>
 
-## <a name="audio-file-requirements"></a><span data-ttu-id="daf81-123">Requisitos de archivos de audio</span><span class="sxs-lookup"><span data-stu-id="daf81-123">Audio File Requirements</span></span>
+## <a name="audio-file-requirements"></a><span data-ttu-id="376a0-124">Requisitos de archivos de audio</span><span class="sxs-lookup"><span data-stu-id="376a0-124">Audio File Requirements</span></span>
 
-<span data-ttu-id="daf81-124">La aplicación estacionamiento de llamadas solo admite archivos de audio de Windows Media (. WMA) para la música en espera.</span><span class="sxs-lookup"><span data-stu-id="daf81-124">The Call Park application supports only Windows Media Audio (.wma) files for music on hold.</span></span> <span data-ttu-id="daf81-125">Puede usar Microsoft Expression Encoder 4 para personalizar los archivos para la música en espera.</span><span class="sxs-lookup"><span data-stu-id="daf81-125">You can use the Microsoft Expression Encoder 4 to customize files for music on hold.</span></span> <span data-ttu-id="daf81-126">Para descargar Expression Encoder 4, mira "Expression Encoder 4" en [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) .</span><span class="sxs-lookup"><span data-stu-id="daf81-126">To download Expression Encoder 4, see "Expression Encoder 4" at [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843).</span></span> <span data-ttu-id="daf81-127">Use la herramienta para convertir el archivo en un formato .wma.</span><span class="sxs-lookup"><span data-stu-id="daf81-127">Use the tool to convert the file to a .wma format.</span></span> <span data-ttu-id="daf81-128">El formato recomendado para los archivos de música en espera de estacionamiento de llamadas es media audio 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.</span><span class="sxs-lookup"><span data-stu-id="daf81-128">The recommended format for Call Park music-on-hold files is Media Audio 9, 44 kHz, 16 bits, Mono, CBR, 32 kbps.</span></span>
+<span data-ttu-id="376a0-125">La aplicación estacionamiento de llamadas solo admite archivos de audio de Windows Media (. WMA) para la música en espera.</span><span class="sxs-lookup"><span data-stu-id="376a0-125">The Call Park application supports only Windows Media Audio (.wma) files for music on hold.</span></span> <span data-ttu-id="376a0-126">Puede usar Microsoft Expression Encoder 4 para personalizar los archivos para la música en espera.</span><span class="sxs-lookup"><span data-stu-id="376a0-126">You can use the Microsoft Expression Encoder 4 to customize files for music on hold.</span></span> <span data-ttu-id="376a0-127">Para descargar Expression Encoder 4, mira "Expression Encoder 4" en [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) .</span><span class="sxs-lookup"><span data-stu-id="376a0-127">To download Expression Encoder 4, see "Expression Encoder 4" at [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843).</span></span> <span data-ttu-id="376a0-128">Use la herramienta para convertir el archivo en un formato .wma.</span><span class="sxs-lookup"><span data-stu-id="376a0-128">Use the tool to convert the file to a .wma format.</span></span> <span data-ttu-id="376a0-129">El formato recomendado para los archivos de música en espera de estacionamiento de llamadas es media audio 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.</span><span class="sxs-lookup"><span data-stu-id="376a0-129">The recommended format for Call Park music-on-hold files is Media Audio 9, 44 kHz, 16 bits, Mono, CBR, 32 kbps.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="daf81-129">El archivo convertido se reproduce por el teléfono solo a 16 kHz, aunque se grabó a 44 kHz.</span><span class="sxs-lookup"><span data-stu-id="daf81-129">The converted file plays over the phone only at 16 kHz, even if it was recorded at 44 kHz.</span></span>
+> <span data-ttu-id="376a0-130">El archivo convertido se reproduce por el teléfono solo a 16 kHz, aunque se grabó a 44 kHz.</span><span class="sxs-lookup"><span data-stu-id="376a0-130">The converted file plays over the phone only at 16 kHz, even if it was recorded at 44 kHz.</span></span>
 
 
 
