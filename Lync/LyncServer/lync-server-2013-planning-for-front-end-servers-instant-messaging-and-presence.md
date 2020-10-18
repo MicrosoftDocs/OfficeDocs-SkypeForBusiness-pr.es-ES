@@ -1,5 +1,6 @@
 ---
 title: Planeación de los servidores front-end, la mensajería instantánea y la presencia
+description: Planear los servidores front-end, la mensajería instantánea y la presencia.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184799
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c255c5c8bff7f8cdf7625a097cac25d3b74f8a8e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c6397069bed666dd05f1c90b8b5e6888d929e99a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578746"
 ---
 # <a name="planning-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Planeación de los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
 

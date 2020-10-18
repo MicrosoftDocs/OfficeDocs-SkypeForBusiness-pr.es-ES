@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ver información sobre la configuración de notificaciones de inserción'
+description: 'Lync Server 2013: ver información sobre la configuración de las notificaciones de inserción.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58602a2fed6faa03c7dd573b95345a0ee57aa607
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44ee876df341833c93e97fd16664940629754a6d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580036"
 ---
 # <a name="viewing-information-about-push-notification-settings-in-lync-server-2013"></a>Ver información sobre la configuración de notificaciones de inserción en Lync Server 2013
 

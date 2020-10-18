@@ -8,20 +8,23 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Obtenga más información sobre la configuración de administración en la aplicación elogiar en el centro de administración de Microsoft Teams
-ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 27206f48de9c219996f8dcfd631e6640e175fb18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328209"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580456"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación de elogios en el centro de administración de Microsoft Teams
 
-La aplicación elogiar de Microsoft Teams ayuda a los usuarios a mostrar la apreciación de los miembros de su organización o aula. Con una selección de conjuntos de distintivos entre los que elegir y la opción de crear sus propias insignias, elogiar se ha diseñado para ayudar a reconocer el esfuerzo que entra en la amplia variedad de trabajo que los usuarios de los equipos realizan, desde educadores hasta primeros trabajadores.
+> [!NOTE]
+> Los administradores deben tener una licencia de Teams para acceder a esta característica. Si intenta obtener acceso a esta característica sin una licencia de Teams, recibirá un mensaje de error.
+
+La aplicación elogiar de Microsoft Teams ayuda a los usuarios a mostrar la apreciación de los miembros de su organización o aula. Con una selección de conjuntos de distintivos entre los que elegir y la opción de crear sus propias insignias, elogiar se ha diseñado para ayudar a reconocer el esfuerzo que entra en la amplia variedad de trabajo que los usuarios de los equipos realizan, desde educadores a los Firstline trabajadores.
 
 Los administradores pueden controlar qué tarjetas están disponibles para su organización desde el centro de administración de Teams. En el navegación izquierdo, seleccione **aplicaciones de teams > administrar aplicaciones**. Abra elogiar en el [Catálogo de aplicaciones de inquilino](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)y vaya a **configuración**.
 
-> [!Note]
+> [!NOTE]
 > La característica de la aplicación elogiar no está disponible para las nubes del gobierno de los Estados Unidos.
 
 ## <a name="use-built-in-badge-sets"></a>Usar conjuntos de distintivos integrados

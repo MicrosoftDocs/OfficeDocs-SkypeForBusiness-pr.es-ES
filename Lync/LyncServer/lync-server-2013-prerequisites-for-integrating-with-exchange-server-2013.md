@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos previos para la integración con Exchange Server 2013'
+description: 'Lync Server 2013: requisitos previos para la integración con Exchange Server 2013.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 372c4724275b18dac8db9c050a2ac03753740976
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5872fe3ec546997cd0633383fdda7e0549bec83f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506747"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579856"
 ---
 # <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Requisitos previos para integrar Microsoft Lync Server 2013 y Microsoft Exchange Server 2013
 

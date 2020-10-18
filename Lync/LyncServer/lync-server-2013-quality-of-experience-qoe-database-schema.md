@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: esquema de la base de datos de calidad de la experiencia (QoE)'
+description: 'Lync Server 2013: esquema de la base de datos de calidad de la experiencia (QoE).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0c626db4a4256f07a52d469af2e0aa66565f08e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 754eb1e860197d3f9ff3f3f996832e566f981c0c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512127"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579136"
 ---
 # <a name="quality-of-experience-qoe-database-schema-in-lync-server-2013"></a>Esquema de la base de datos de calidad de la experiencia (QoE) en Lync Server 2013
 

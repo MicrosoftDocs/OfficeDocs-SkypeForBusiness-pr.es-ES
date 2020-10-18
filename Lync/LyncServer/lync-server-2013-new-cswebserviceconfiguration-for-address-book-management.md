@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New-CsWebServiceConfiguration para la administración de la libreta de direcciones'
+description: 'Lync Server 2013: New-CsWebServiceConfiguration para la administración de la libreta de direcciones.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184067
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c63d6bfeed8b005c3498a2fd0cfcf2201d0d45c5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8972f1b4fe71554e6a8925ddebea6303e2f074a6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531807"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578916"
 ---
 # <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>New-CsWebServiceConfiguration para la administración de la libreta de direcciones en Lync Server 2013
 

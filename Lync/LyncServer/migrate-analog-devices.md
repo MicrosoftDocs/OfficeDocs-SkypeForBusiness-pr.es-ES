@@ -1,5 +1,6 @@
 ---
 title: Migrar dispositivos analógicos
+description: Migrar dispositivos analógicos.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: feb0f29f9a217676829ff3869fcda3759359944b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 63f7f92142fb6a3ced37cded1a223038ec1876d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503617"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579406"
 ---
 # <a name="migrate-analog-devices"></a>Migrar dispositivos analógicos
 

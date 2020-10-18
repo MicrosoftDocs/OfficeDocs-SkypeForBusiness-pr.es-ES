@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: detalles de la vista QoE'
+description: 'Lync Server 2013: detalles de la vista QoE.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bba917427e42dcba689d3b248c7d889c798368f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b20eb083295a5f3d3ecb5be7a8c96d9c4b7cfab2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579106"
 ---
 # <a name="qoe-view-details-in-lync-server-2013"></a>Detalles de la vista QoE en Lync Server 2013
 

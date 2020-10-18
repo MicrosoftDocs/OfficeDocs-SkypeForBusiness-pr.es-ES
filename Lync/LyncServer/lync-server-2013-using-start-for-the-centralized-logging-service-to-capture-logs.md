@@ -1,5 +1,6 @@
 ---
 title: Uso de inicio para el servicio de registro centralizado para capturar registros
+description: Uso de inicio para el servicio de registro centralizado para capturar registros.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f43a2c86dcbd88f8e9af4ae54f302b4abc943fc0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6321af0b12f3650d3b741e65968849332b53af45
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580226"
 ---
 # <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>Uso de inicio para el servicio de registro centralizado para capturar registros en Lync Server 2013
 

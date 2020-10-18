@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Análisis de virus y comprobación de definiciones de virus'
+description: 'Lync Server 2013: Análisis de virus y comprobación de definiciones de virus.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1432480cbe62aedfc5c05362cc322d971c3cb321
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c06b08b5e902857e95cdefc206cdbfa860ef748c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510867"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578656"
 ---
 # <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Detección de virus y comprobación de definiciones de virus en Lync Server 2013
 

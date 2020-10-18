@@ -1,5 +1,6 @@
 ---
 title: Migrar los números de acceso telefónico
+description: Migrar números de acceso telefónico local.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6401d847c2e0993632ad655fb43f07b0a2731ef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e2c8bd34a30bc4b3f8999144cd84a1eee62e2ab1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503557"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579326"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrar los números de acceso telefónico
 

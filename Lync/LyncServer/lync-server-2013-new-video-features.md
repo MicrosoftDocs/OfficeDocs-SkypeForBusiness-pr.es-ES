@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: nuevas características de vídeo'
+description: 'Lync Server 2013: nuevas características de vídeo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7cd7e9698ef19147c20ef04afbe1a158ad5c397
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0f5cd3373c508d6444374d36df9d7d89129e21ae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522337"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579246"
 ---
 # <a name="new-video-features-in-lync-server-2013"></a>Nuevas características de vídeo en Lync Server 2013
 

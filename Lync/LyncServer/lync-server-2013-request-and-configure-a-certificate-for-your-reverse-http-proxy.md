@@ -1,5 +1,6 @@
 ---
 title: Solicitar y configurar un certificado para el proxy HTTP inverso
+description: Solicitar y configurar un certificado para el proxy HTTP inverso.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7651e3da61e5ca197d36ca59ad8216af4c0188af
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bdeaa080e3ccb6a9895e18a6ac02084e99a1e33e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511987"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579046"
 ---
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Solicitar y configurar un certificado para el proxy HTTP inverso en Lync Server 2013
 

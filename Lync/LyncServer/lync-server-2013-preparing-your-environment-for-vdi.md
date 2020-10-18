@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: preparar el entorno para VDI'
+description: 'Lync Server 2013: preparar el entorno para VDI.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185052
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bf8480a0905184d7259a9f0c3aa79725453f59d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e90b9e0f09d3082a28406f1a1dc715285ee4d7e3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506807"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579916"
 ---
 # <a name="preparing-your-lync-server-2013-environment-for-vdi"></a>Preparar el entorno de Lync Server 2013 para VDI
 

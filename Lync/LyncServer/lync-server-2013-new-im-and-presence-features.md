@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: nuevas características de mensajería instantánea y presencia'
+description: 'Lync Server 2013: nuevas características de mensajería instantánea y presencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6449a73a62f6966549328100bf836261cfe89ed
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 142cea5ce277d54f641de5ea191fe718b15092fe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578796"
 ---
 # <a name="new-im-and-presence-features-in-lync-server-2013"></a>Nuevas características de mensajería instantánea y presencia en Lync Server 2013
 

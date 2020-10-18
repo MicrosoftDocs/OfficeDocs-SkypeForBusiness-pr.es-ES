@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: nuevas características de integración de Exchange Server'
+description: 'Lync Server 2013: nuevas características de integración de Exchange Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3ac7a336fc65b6e9b9222fc2f19e1983cb53c79
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f9a72856b32f4c023312821f3e3967e3413272f4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512537"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578856"
 ---
 # <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Nuevas características de integración de Exchange Server en Lync Server 2013
 

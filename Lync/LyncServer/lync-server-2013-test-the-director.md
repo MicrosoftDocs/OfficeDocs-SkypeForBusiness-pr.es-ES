@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: probar el director'
+description: 'Lync Server 2013: probar el director.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae7f2945cd3a21ea93969e098110fadec710cb98
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3f4cec23be01add5c02cc960cfe68c9256da07d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519097"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580216"
 ---
 # <a name="test-the-director-in-lync-server-2013"></a>Probar el Director en Lync Server 2013
 

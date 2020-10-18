@@ -1,5 +1,6 @@
 ---
 title: Migración de usuario
+description: Migración de usuarios.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16381bbe3372fe0b343e61eb56513e7871745300
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6cd65ff2b3857f2cfd08167a45f88cf195170c6d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503507"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579566"
 ---
 # <a name="user-migration"></a>Migración de usuario
 

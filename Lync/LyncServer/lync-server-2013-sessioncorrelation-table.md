@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla SessionCorrelation'
+description: 'Lync Server 2013: tabla SessionCorrelation.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4be49e052dc7ffd431e980d1a3f969bfffdfce8c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 814b7e8539d89f87e7df60ceb03e70800553fb55
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510107"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579666"
 ---
 # <a name="sessioncorrelation-table-in-lync-server-2013"></a>Tabla SessionCorrelation en Lync Server 2013
 

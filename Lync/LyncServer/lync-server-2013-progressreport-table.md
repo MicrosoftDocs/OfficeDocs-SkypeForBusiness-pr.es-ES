@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla ProgressReport'
+description: 'Lync Server 2013: tabla ProgressReport.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92adf48a09f83c3c3dec18f91e4aadc3a3cbd39
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d36ee2ab75410ea2462da4b647ef5b45afefb1bb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513237"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579826"
 ---
 # <a name="progressreport-table-in-lync-server-2013"></a>Tabla ProgressReport en Lync Server 2013
 

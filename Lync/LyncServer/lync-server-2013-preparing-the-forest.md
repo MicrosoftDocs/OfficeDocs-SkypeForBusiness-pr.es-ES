@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: preparar el bosque'
+description: 'Lync Server 2013: preparar el bosque.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183926
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35438969d8876875bef3d22b2d0ab676c146189
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 275d861ebfe7e0350e7baf120b6e6f2bae6a26ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506867"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580006"
 ---
 # <a name="preparing-the-forest-for-lync-server-2013"></a>Preparar el bosque para Lync Server 2013
 

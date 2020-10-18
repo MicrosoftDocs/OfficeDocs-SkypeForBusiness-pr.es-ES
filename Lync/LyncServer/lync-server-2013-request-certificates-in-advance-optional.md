@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: solicitar certificados de antemano (opcional)'
+description: 'Lync Server 2013: solicitar certificados de antemano (opcional).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184915
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7e671fe61f5d8b9e43593bf99e0ecf0e1e37109
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7d92ac9b68012487d07f25f08649689611117202
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511967"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579036"
 ---
 # <a name="request-certificates-in-advance-optional-for-lync-server-2013"></a>Solicitar certificados de antemano (opcional) para Lync Server 2013
 

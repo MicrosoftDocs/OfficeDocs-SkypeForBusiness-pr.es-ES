@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: usar los resultados del examen para analizar y resolver los problemas que ha notificado el analizador de procedimientos recomendados'
+description: 'Lync Server 2013: usar los resultados del examen para analizar y resolver los problemas que ha notificado el analizador de procedimientos recomendados.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4bee21cc0d9065868c03467b53d991baba1190d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f1bf7bbbf96985559b0c487e4ccb46c0a8662d9a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518787"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580266"
 ---
 # <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>Uso de los resultados del examen para analizar y resolver los problemas que ha notificado el analizador de procedimientos recomendados en Lync Server 2013
 

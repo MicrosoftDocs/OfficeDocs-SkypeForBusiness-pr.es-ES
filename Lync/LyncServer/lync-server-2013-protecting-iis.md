@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: protección de IIS'
+description: 'Lync Server 2013: protección de IIS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aae84d208df1d7c2945fee641b243bf7110902c6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 51161f221c7235aad04850fdccc5d5e9db5cb579
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513197"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579736"
 ---
 # <a name="protecting-iis-in-lync-server-2013"></a>Proteger IIS en Lync Server 2013
 

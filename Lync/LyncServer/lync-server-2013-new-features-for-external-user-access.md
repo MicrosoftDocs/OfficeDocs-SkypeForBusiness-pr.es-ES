@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: nuevas características para el acceso de usuarios externos'
+description: 'Lync Server 2013: nuevas características para el acceso de usuarios externos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43df9901b7bac37bb812eeb00c54537151496eb7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d9d960a469334a836c453e8ae3bbf51f1b66bb93
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534317"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578846"
 ---
 # <a name="new-features-for-external-user-access-in-lync-server-2013"></a>Nuevas características para el acceso de usuarios externos en Lync Server 2013
 
