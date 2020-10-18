@@ -15,7 +15,7 @@
 ### [Conceptos básicos de topología](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Topologías de referencia](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### Requisitos 
-####[Requisitos del sistema](../plan/system-requirements.md)
+#### [Requisitos del sistema](../plan/system-requirements.md)
 #### [Requisitos del equilibrio de carga](../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Requisitos de la red](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [IPv6](../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -97,7 +97,7 @@
 #### [Llamar a través de la cuenta del trabajo](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Control remoto de llamadas](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### Correo de voz en la nube
-#####[Planear el correo de voz en la nube](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [Planear el correo de voz en la nube](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [Configurar el correo de voz en la nube](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### Operadores automáticos en la nube
 ##### [Planear los operadores automáticos en la nube](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
