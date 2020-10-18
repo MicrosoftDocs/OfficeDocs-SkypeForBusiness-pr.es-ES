@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: revisión del informe de Resumen'
+description: 'Lync Server 2013: revisión del informe de resumen.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63b500fba5b93cf0503b115458d38616b74ddf09
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b07a730de6874e1cf6665cedea2ec7f950e8d165
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511297"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576606"
 ---
 # <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Revisión del informe de resumen en Lync Server 2013
 

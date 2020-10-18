@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: información general sobre el servidor de chat persistente'
+description: 'Lync Server 2013: información general sobre el servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5fcc87635f302f58606703b57631c71bc907efe
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bbcb396522611aca52bd2093f2fd49f376341356
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520867"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577316"
 ---
 # <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Información general sobre el servidor de chat persistente en Lync Server 2013
 

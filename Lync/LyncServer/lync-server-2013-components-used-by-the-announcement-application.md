@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: componentes que usa la aplicación de anuncio'
+description: 'Lync Server 2013: componentes que usa la aplicación de anuncio.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84fb2d57e03965acff9d647854b86d7a5a528246
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e5338ad097c814d5c6435bd89dbf7cfa8680feb8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517717"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577696"
 ---
 # <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Componentes usados por la aplicación de anuncio en Lync Server 2013
 

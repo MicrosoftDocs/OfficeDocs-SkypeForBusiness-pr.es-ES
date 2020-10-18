@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: componentes y topologías para el servidor de chat persistente'
+description: 'Lync Server 2013: componentes y topologías para el servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 586a24f4cfacd2ed28947102a7d5a129159a26bd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 937b3d6f2716d9471e61cffd651847f6de9d83f1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502507"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576816"
 ---
 # <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Componentes y topologías para el servidor de chat persistente en Lync Server 2013
 

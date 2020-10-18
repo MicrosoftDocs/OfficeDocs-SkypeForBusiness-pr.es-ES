@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla MacAddress'
+description: 'Lync Server 2013: tabla MacAddress.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6902636d8d45949a08b259a1fee1bbab191ce0ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9310b194b9ef38f56b66ae429323264b6253b4d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534587"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578206"
 ---
 # <a name="macaddress-table-in-lync-server-2013"></a>Tabla MacAddress en Lync Server 2013
 

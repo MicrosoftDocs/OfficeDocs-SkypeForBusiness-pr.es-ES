@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la autenticación Kerberos'
+description: 'Lync Server 2013: configuración de la autenticación Kerberos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc4f354d985ed9e0fc85909e232e06e7c34dd593
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bb461968bc073edbfe640f609257f3e84c192461
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509657"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577236"
 ---
 # <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Configuración de la autenticación Kerberos en Lync Server 2013
 

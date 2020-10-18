@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos técnicos para el archivado'
+description: 'Lync Server 2013: requisitos técnicos para el archivado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f0d1b609f7e053823de68363059d7c8b35c0659
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6100753ad2c62424eb68c8c258094ba51848170e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533937"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577176"
 ---
 # <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>Requisitos técnicos para el archivado en Lync Server 2013
 

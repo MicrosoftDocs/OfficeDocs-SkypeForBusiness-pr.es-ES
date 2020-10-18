@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos para publicar una topología'
+description: 'Lync Server 2013: requisitos para publicar una topología.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9f4186a351876b874a8b84963f9923369511f65
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5699657e680b78587b8ba354e9dc538f2e280c56
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511827"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577866"
 ---
 # <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a>Requisitos para publicar una topología en Lync Server 2013
 

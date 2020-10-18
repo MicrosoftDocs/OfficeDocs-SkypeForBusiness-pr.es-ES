@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ejecutar reuniones grandes'
+description: 'Lync Server 2013: ejecutar reuniones grandes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185603
 ms.date: 01/17/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5992715ea6f54161086cb09784982c85c64d148
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5c150f0210da57a494a288b859ad11cdbe47798e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511137"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577726"
 ---
 # <a name="running-large-meetings-in-lync-server-2013"></a>Ejecutar reuniones grandes en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: crear una directiva de usuario para chat persistente'
+description: 'Lync Server 2013: crear una directiva de usuario para chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185103
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dba93ca943c16caa6ee4982533e59c958e60ffc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1fcbe761d535f8c58c2f83750cdc8808cfb62634
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501847"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578026"
 ---
 # <a name="create-a-user-policy-for-persistent-chat-in-lync-server-2013"></a>Crear una directiva de usuario para chat persistente en Lync Server 2013
 

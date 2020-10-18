@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: información general sobre las implementaciones híbridas'
+description: 'Lync Server 2013: información general sobre las implementaciones híbridas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52a54a44b862cb067639e20ab59446e4b9cb24a4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 98fce595614484fdc56fe84d5ad6076c9becc4e8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519867"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577396"
 ---
 # <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Información general sobre las implementaciones híbridas de Lync Server 2013
 

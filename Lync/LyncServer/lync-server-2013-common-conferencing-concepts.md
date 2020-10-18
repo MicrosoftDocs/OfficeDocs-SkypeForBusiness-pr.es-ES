@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: conceptos comunes de conferencia'
+description: 'Lync Server 2013: conceptos comunes de conferencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733762
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 151ebb138a1518e184c3b008605c259be533c788
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e2eeea52070c65a8a037eb44e75ceb2d937b91a9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526127"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577016"
 ---
 # <a name="common-conferencing-concepts-in-lync-server-2013"></a>Conceptos comunes de conferencia en Lync Server 2013
 

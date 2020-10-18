@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eliminar opciones de configuración de la calidad de la experiencia'
+description: 'Lync Server 2013: eliminar las opciones de configuración de la calidad de la experiencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ab6d90109d177fde84f8693cb4d14b5d8a6fdb9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1894877fe3dbbc758ba02b0e4e5b81c8b7edc4fb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577936"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-lync-server-2013"></a>Eliminar opciones de configuración de la calidad de la experiencia en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Crear o modificar una colección de opciones de configuración de Lync Phone Edition
+description: Cree o modifique una colección de opciones de configuración de Lync Phone Edition.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11e2d314497223b5a18aa864b0e5333e3762480d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 82a4becadf581ec965952e507c3eb2839b622d9f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506217"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578256"
 ---
 # <a name="create-or-modify-a-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Crear o modificar una colección de opciones de configuración de Lync Phone Edition en Lync Server 2013
 

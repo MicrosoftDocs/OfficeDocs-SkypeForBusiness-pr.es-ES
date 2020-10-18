@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla roles'
+description: 'Lync Server 2013: tabla roles.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d779e5baf1e96848f7b3957a2aeae1b823d1cf30
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d16f9483fc97145d82faf7e8f1175772f10f9a4b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511277"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576576"
 ---
 # <a name="roles-table-in-lync-server-2013"></a>Tabla roles en Lync Server 2013
 

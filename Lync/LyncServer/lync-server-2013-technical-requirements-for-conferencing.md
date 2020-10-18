@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 requisitos técnicos para conferencias
+description: Lync Server 2013 requisitos técnicos para conferencias.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d28afb699b63ee3523c7b5d4ae31bf9153459abf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0b3b787d84288d789cd0d824081439004f19327e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577126"
 ---
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Requisitos técnicos para conferencias en Lync Server 2013
 

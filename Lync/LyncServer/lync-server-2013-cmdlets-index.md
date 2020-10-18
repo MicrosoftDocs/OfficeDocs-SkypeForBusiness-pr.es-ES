@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de cmdlets'
+description: 'Lync Server 2013: cmdlets index.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2f403cb04e08d136672c9f4253e229d5116a631
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 41df7b0c7c0c5ffd873c36968d4413ec7751f40f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577056"
 ---
 # <a name="lync-server-2013-cmdlets-index"></a>Índice de cmdlets de Lync Server 2013
 

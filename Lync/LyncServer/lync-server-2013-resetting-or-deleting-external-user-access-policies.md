@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: restablecimiento o eliminación de directivas de acceso de usuarios externos'
+description: 'Lync Server 2013: restablecer o eliminar directivas de acceso de usuarios externos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 255b71a02fdd9b395a7b218fcfc4b22218309a46
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8ede751cb0c8a866b3c2a41c036c77ad85103940
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577826"
 ---
 # <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a>Restablecimiento o eliminación de directivas de acceso de usuarios externos en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: informe de tendencias de calidad de medios de servidor'
+description: 'Lync Server 2013: informe de tendencias de calidad de medios del servidor.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b40f2c316216b01415b3e58d5d59c97421439d2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e7ac2482b967aab230c5522c2b6a76e10ced28e7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510307"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578145"
 ---
 # <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Informe de tendencias de calidad de medios de servidores en Lync Server 2013
 

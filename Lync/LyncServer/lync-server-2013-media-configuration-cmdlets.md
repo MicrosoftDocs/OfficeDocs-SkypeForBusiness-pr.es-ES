@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de configuración de medios'
+description: 'Lync Server 2013: cmdlets de configuración de medios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183864
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee2dda89d5d1bd5782946a8a7c44a881b007ca2a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b409b33dc18b40c003dabddf16b63b5910b892ca
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524577"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578397"
 ---
 # <a name="media-configuration-cmdlets-in-lync-server-2013"></a>Cmdlets de configuración de medios en Lync Server 2013
 
