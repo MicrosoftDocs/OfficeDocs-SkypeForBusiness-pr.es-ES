@@ -1,5 +1,6 @@
 ---
 title: Administración de las opciones de configuración del servicio de registro centralizado
+description: Administración de las opciones de configuración del servicio de registro centralizado.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99d496bf211abe2c9ccab04c45eb0fd0fba7439d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e25294e096b8368aa06a11e4ad851fe5d1a84c0f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524957"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572606"
 ---
 # <a name="managing-the-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Administración de las opciones de configuración del servicio de registro centralizado en Lync Server 2013
 

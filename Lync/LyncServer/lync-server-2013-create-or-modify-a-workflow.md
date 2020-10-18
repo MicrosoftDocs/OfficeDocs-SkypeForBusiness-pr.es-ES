@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: crear o modificar un flujo de trabajo'
+description: 'Lync Server 2013: crear o modificar un flujo de trabajo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b79e4be39f461364b43efa9c3420cd8f4aa3eac0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 053b80e313e497313e613a5f8b16bd5beeabf7ac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574476"
 ---
 # <a name="create-or-modify-a-workflow-in-lync-server-2013"></a>Crear o modificar un flujo de trabajo en Lync Server 2013
 

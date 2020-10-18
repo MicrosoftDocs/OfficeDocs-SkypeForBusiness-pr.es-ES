@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: instalar el almacén de configuración local'
+description: 'Lync Server 2013: instalar el almacén de configuración local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e16d4edfb53511712c58cb41510559fcf69cfa9a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bbf603704a8e1bdfbe71e0a9b064013d57bceda7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498577"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574066"
 ---
 # <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Instalar el almacén de configuración local en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: agregar dominios de usuarios y grupos de usuarios a la categoría de salón'
+description: 'Lync Server 2013: agregar dominios de usuarios y grupos de usuarios a la categoría de salón.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f330f05f6b47a147e8b0b8f97948870305a890c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 196a795547d5caa6dfd1732c3d6b4630ef79438a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521317"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573526"
 ---
 # <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a>Agregar dominios de usuarios y grupos de usuarios a la categoría de salón en Lync Server 2013
 

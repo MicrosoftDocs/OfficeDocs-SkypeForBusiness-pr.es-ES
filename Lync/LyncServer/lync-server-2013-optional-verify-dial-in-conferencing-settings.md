@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (opcional) comprobar la configuración de conferencia de acceso telefónico local'
+description: 'Lync Server 2013: (opcional) comprobar la configuración de conferencia de acceso telefónico local.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c43646572171a93880dd5013c87a08a2051ab2a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec002cfbd7cdd67498768a360143f88ab4f8e1b7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530797"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572566"
 ---
 # <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>Opcional Comprobar la configuración de conferencia de acceso telefónico local en Lync Server 2013
 

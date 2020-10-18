@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: compatibilidad con IIS'
+description: 'Lync Server 2013: compatibilidad con IIS.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c01d30f7197b57dcd0811a9b09138765eff0330
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bff0d997cd50b33925ce02b3e7d6dc1dc1fe28c3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528127"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573316"
 ---
 # <a name="iis-support-in-lync-server-2013"></a>Compatibilidad con IIS en Lync Server 2013
 

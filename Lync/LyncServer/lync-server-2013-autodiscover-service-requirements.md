@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos del servicio Detección automática'
+description: 'Lync Server 2013: requisitos del servicio Detección automática.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5cf4a26c9f0b36cd239daabbc2538716e2bcd3c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 61e963bc9e921cc0a571f63d4be50f09d237c2dd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572996"
 ---
 # <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Requisitos del servicio Detección automática para Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos de DNS para el grupo de servidores front-end'
+description: 'Lync Server 2013: requisitos de DNS para el grupo de servidores front-end.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eff0ab4c6ee2f6582c8274345c15af681d242561
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bfce90eccb8c8dff94d4122c96c4ca68ea9150f1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532177"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574336"
 ---
 # <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Requisitos de DNS para el grupo de servidores front-end en Lync Server 2013
 

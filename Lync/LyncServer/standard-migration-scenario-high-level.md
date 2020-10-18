@@ -1,5 +1,6 @@
 ---
 title: 'Escenario de migración estándar: alto nivel'
+description: 'Escenario de migración estándar: alto nivel.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62a557d8b5a0f2a3e1e0f248b01795e75c02b3a1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a931b76e528b7e6468f6b7e7b9a718724d27501f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529807"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573166"
 ---
 # <a name="standard-migration-scenario---high-level"></a>Escenario de migración estándar: alto nivel
 

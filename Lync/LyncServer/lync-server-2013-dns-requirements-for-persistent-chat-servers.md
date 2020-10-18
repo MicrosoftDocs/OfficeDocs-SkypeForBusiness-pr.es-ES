@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos de DNS para servidores de chat persistente'
+description: 'Lync Server 2013: requisitos de DNS para los servidores de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 055a55498247cdde540ceca44cc33187e2b9baca
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 01bfc126ab588542ef5160a0eabe0c839dcf0e44
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501387"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574276"
 ---
 # <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Requisitos de DNS para los servidores de chat persistente en Lync Server 2013
 

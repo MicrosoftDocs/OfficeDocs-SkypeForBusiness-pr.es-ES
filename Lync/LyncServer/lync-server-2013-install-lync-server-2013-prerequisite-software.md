@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: instalar el software necesario para Lync Server 2013'
+description: 'Lync Server 2013: instalar el software necesario para Lync Server 2013.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dea60cb716d02ad20173826bb0b31d044a6c820a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23f4a7572666db3b20ea336646c2f5840416c052
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574226"
 ---
 # <a name="install-lync-server-2013-prerequisite-software"></a>Instalar el software de requisitos previos de Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalMeta'
+description: 'Lync Server 2013: tblPrincipalMeta.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d70b26dc074213c30248da0e13f137c8b1e2f58a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 899fd1e450dac52afa56c1ee1de86da82b2db309
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573646"
 ---
 # <a name="tblprincipalmeta-in-lync-server-2013"></a>tblPrincipalMeta en Lync Server 2013
 

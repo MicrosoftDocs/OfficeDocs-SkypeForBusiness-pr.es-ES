@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cmdlets de mensajería instantánea y presencia'
+description: 'Lync Server 2013: mensajería instantánea y cmdlets de presencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17a99610f003d3ca74d1dfb9d1df1ac048aed517
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b6447219006737ba77cddd76aad0ac96368dab3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526737"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573306"
 ---
 # <a name="im-and-presence-cmdlets-in-lync-server-2013"></a>Cmdlets de presencia y mensajería instantánea en Lync Server 2013
 

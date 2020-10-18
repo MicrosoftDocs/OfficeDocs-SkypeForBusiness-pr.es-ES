@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: funcionamiento y mantenimiento del sistema de chat persistente'
+description: 'Lync Server 2013: funcionamiento y mantenimiento del sistema de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d56c8089b72dc53d47e1c89593bd05bd47b6503
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1e73218345e023139572485a5729fb26192e510b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531757"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572596"
 ---
 # <a name="operating-and-maintaining-the-persistent-chat-system-in-lync-server-2013"></a>Funcionamiento y mantenimiento del sistema de chat persistente en Lync Server 2013
 

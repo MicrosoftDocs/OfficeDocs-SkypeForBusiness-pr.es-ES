@@ -1,5 +1,6 @@
 ---
 title: Adición de bases de datos de archivado a una implementación existente de Lync Server 2013
+description: Agregar bases de datos de archivado a una implementación existente de Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e98a21b8d19a93d50b06fdc1c9c0034b5fada062
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 03a9e7c2ea60ff1e1ad0bc647c903665f934ca77
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521407"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573066"
 ---
 # <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a>Adición de bases de datos de archivado a una implementación existente de Lync Server 2013
 

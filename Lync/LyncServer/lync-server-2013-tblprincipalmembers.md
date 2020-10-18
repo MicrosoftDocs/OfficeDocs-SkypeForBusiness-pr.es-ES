@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalMembers'
+description: 'Lync Server 2013: tblPrincipalMembers.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4098b3ea8c9a5dda2cdee7d05f71b940ffcb0325
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8bbb8be0b83d09b1bd54ea98655558581e6df834
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523637"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573186"
 ---
 # <a name="tblprincipalmembers-in-lync-server-2013"></a>tblPrincipalMembers en Lync Server 2013
 

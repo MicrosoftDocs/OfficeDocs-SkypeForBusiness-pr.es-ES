@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 información general sobre conferencias web
+description: 'Lync Server 2013: Introducción a las conferencias web.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6287b5edd711df845b862b49bc15adb8405e8587
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 57efeb9f12321cc28ea87f8672bbcf62aa49c6c7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535367"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573586"
 ---
 # <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Información general sobre conferencias web en Lync Server 2013
 

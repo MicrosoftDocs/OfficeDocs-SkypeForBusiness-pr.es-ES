@@ -1,5 +1,6 @@
 ---
 title: Detener los servicios de Lync Server 2010
+description: Detenga los servicios de Lync Server 2010.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a7282bafa8a286a7aff2d1daaa07bb9c9d61238
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 668c3af0e37823c32fb59dfcc9af92fa3eff3c63
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532787"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573146"
 ---
 # <a name="stop-lync-server-2010-services"></a>Detener los servicios de Lync Server 2010
 

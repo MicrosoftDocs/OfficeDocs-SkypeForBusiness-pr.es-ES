@@ -1,5 +1,6 @@
 ---
 title: Preguntas más frecuentes de la herramienta stress and performance de Lync Server 2013
+description: Preguntas más frecuentes sobre la herramienta stress and performance de Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 445448633bc35b8071455ccd0c8e6ff93c3862b2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 716325390bc33df209be3bdc67ed8b6cd7d1ec30
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509217"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573546"
 ---
 # <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Preguntas más frecuentes de la herramienta stress and performance de Lync Server 2013
 

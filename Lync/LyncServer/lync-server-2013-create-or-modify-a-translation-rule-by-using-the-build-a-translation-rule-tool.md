@@ -1,5 +1,6 @@
 ---
 title: Creación o modificación de una regla de conversión mediante la herramienta generar una regla de conversión
+description: Cree o modifique una regla de conversión mediante la herramienta generar una regla de conversión.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a2adc9d0ca10382aa7faa7abf6f9ea46eb6cf51
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 116048fff834e797bca76a895f45cd0ebc83ab94
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525817"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574526"
 ---
 # <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Crear o modificar una regla de conversión mediante la herramienta generar una regla de conversión en Lync Server 2013
 

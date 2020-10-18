@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: instalación de los archivos del agente de Operations Manager'
+description: 'Lync Server 2013: instalación de los archivos del agente de Operations Manager.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216c05dd039f907d0ac54ff8afa13f6015a923d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 61bba93549e4831b65657a1fe80c918bbcb45572
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534807"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573786"
 ---
 # <a name="installing-the-operation-manager-agent-files-in-lync-server-2013"></a>Instalar los archivos del agente Operations Manager en Lync Server 2013
 

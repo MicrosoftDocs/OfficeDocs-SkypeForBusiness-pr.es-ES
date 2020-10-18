@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: instalar Lync para Windows Phone'
+description: 'Lync Server 2013: instalar Lync para Windows Phone.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ac77a8402a62929bcb043ebd165a41605b17351
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6f5da90a5dc0babdc6944e4f9c426fe896d4f156
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514187"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573986"
 ---
 # <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>Instalar Lync para Windows Phone en Lync Server 2013
 

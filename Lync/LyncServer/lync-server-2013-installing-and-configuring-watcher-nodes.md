@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: instalar y configurar nodos de monitor'
+description: 'Lync Server 2013: instalar y configurar nodos de monitor.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 87bf43e1651fabfa0137d09234d663cc905e947b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534947"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574006"
 ---
 # <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Instalación y configuración de nodos de monitor en Lync Server 2013
 

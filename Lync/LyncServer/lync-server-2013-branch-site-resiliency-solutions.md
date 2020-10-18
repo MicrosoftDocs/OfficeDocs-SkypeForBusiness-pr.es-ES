@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: soluciones de resistencia de sitios de sucursal'
+description: 'Lync Server 2013: soluciones de resistencia de sitios de sucursal.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25541f7681ece7b299d6e4c8076fb190382650ba
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 796ed22344f02bca16571ff5f156c6bb80b1fcfd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512987"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572966"
 ---
 # <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Soluciones de resistencia de sitios de sucursal en Lync Server 2013
 

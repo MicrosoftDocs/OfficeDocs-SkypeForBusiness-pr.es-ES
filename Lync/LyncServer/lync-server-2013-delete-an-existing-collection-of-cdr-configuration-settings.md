@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eliminar una colección existente de opciones de configuración de CDR'
+description: 'Lync Server 2013: eliminar una colección existente de opciones de configuración de CDR.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebf7ce01e435a0a47d3468509485e96fa669192a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e80f6d9e9d878dad258e494095b10c402029932b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514647"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572896"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Eliminar una colección existente de opciones de configuración de CDR en Lync Server 2013
 

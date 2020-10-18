@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla AppliedBandwidthSource'
+description: 'Lync Server 2013: tabla AppliedBandwidthSource.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 289e3b2093bea001ee684945f17aee2ecb84927d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3dc22d3a978a99cb13317e2a32fdb65382ce106c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504997"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573506"
 ---
 # <a name="appliedbandwidthsource-table-in-lync-server-2013"></a>Tabla AppliedBandwidthSource en Lync Server 2013
 

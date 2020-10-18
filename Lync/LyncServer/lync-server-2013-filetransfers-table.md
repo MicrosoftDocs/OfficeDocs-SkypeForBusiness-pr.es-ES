@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla FileTransfers'
+description: 'Lync Server 2013: tabla FileTransfers.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cacd637caec827a87008c3a6554750b7e5b61719
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ccde45fa3743a809499273676d567846ef292ecc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500927"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573366"
 ---
 # <a name="filetransfers-table-in-lync-server-2013"></a>Tabla FileTransfers en Lync Server 2013
 

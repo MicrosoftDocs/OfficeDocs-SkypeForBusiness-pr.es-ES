@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: vista de AudioStreamDetail'
+description: 'Lync Server 2013: vista de AudioStreamDetail.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a9abfbc214e72cf059250910ecec4ad3bcdba33
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 92c4c9bbb4f126e242e28d835222f6ba2af89d8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515787"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573056"
 ---
 # <a name="audiostreamdetail-view-in-lync-server-2013"></a>Vista AudioStreamDetail en Lync Server 2013
 

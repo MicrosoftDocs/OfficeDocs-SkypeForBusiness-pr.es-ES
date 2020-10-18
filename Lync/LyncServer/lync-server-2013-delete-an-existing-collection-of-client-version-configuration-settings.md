@@ -1,5 +1,6 @@
 ---
 title: Eliminar una colección existente de opciones de configuración de versión de cliente
+description: Eliminar una colección existente de opciones de configuración de versión de cliente.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a8925037643028e02975c4145e1e2593bc6608
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 25a7d384bdfd84a1a6e04041988c16788a116626
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514657"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572886"
 ---
 # <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Eliminar una colección existente de opciones de configuración de versión de cliente en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: instalar SQL Server Reporting Services'
+description: 'Lync Server 2013: instalar SQL Server Reporting Services.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9044f90146b604f0277b0a5b815c6540849d58b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 70da5e3845d18057b3362fa39953dee6cdc3d9f3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534937"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573886"
 ---
 # <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>Instalar SQL Server Reporting Services en Lync Server 2013
 

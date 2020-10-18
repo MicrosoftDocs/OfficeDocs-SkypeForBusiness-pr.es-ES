@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblADUpdates'
+description: 'Lync Server 2013: tblADUpdates.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27fbbc6bb2fe68c2f4bfff91b999934069548d00
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7ab4418a10eac283d0f39d09b1c1fe15a32b2e68
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509487"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573686"
 ---
 # <a name="tbladupdates-in-lync-server-2013"></a>tblADUpdates en Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: instalar los informes de supervisión de Lync Server 2013'
+description: 'Lync Server 2013: instalar los informes de supervisión de Lync Server 2013.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 12405f786cbaf095e97f526fae2e1c2d3cb45c32
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498547"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573936"
 ---
 # <a name="installing-lync-server-2013-monitoring-reports"></a>Instalación de informes de supervisión de Lync Server 2013
 

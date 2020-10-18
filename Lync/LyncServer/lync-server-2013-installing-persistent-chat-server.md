@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: instalar el servidor de chat persistente'
+description: 'Lync Server 2013: instalación del servidor de chat persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a744841983e5670f1dcd095ed82204b57dd8fcb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 533591c55fcccf8c9a0dc84e1192d987e5263fad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573906"
 ---
 # <a name="installing-persistent-chat-server-in-lync-server-2013"></a>Instalar el servidor de chat persistente en Lync Server 2013
 

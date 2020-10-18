@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implementación de Lync para iPhone y iPad'
+description: 'Lync Server 2013: implementación de Lync para iPhone y iPad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541511
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a61d99bc2a737d4c8489a7f3da03c4ca8d632c65
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8cfb471469e2c0318232da2125ec575fd59d0e0e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573426"
 ---
 # <a name="deploying-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Implementar Lync para iPhone y iPad en Lync Server 2013
 

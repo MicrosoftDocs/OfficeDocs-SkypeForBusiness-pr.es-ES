@@ -1,5 +1,6 @@
 ---
 title: Crear usuarios y contactos
+description: Crear usuarios y contactos.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a911124af0ac4dc57eca01e0ef6e2a801a61caa5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e45bb1aa737dd8287be15ae72ece2e35a346af1b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505227"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573086"
 ---
 # <a name="create-users-and-contacts"></a>Crear usuarios y contactos
 

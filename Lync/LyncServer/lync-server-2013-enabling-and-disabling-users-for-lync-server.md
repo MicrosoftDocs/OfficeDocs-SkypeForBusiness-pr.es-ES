@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: habilitar y deshabilitar usuarios para Lync Server'
+description: 'Lync Server 2013: habilitar y deshabilitar usuarios para Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96dd52b546029c04e25c4c20f31e921ed7b1f766
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 48c2d2f58b25b69e0a06276addad3cf47fe7d886
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532017"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572666"
 ---
 # <a name="enabling-and-disabling-users-for-lync-server-2013"></a>Habilitación y deshabilitación de usuarios para Lync Server 2013
 
