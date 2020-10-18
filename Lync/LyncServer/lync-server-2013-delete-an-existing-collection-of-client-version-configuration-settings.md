@@ -1,5 +1,6 @@
 ---
 title: Eliminar una colección existente de opciones de configuración de versión de cliente
+description: Eliminar una colección existente de opciones de configuración de versión de cliente.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a8925037643028e02975c4145e1e2593bc6608
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 25a7d384bdfd84a1a6e04041988c16788a116626
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514657"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572886"
 ---
-# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="752cb-102">Eliminar una colección existente de opciones de configuración de versión de cliente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="752cb-102">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>
+# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="4a3b0-103">Eliminar una colección existente de opciones de configuración de versión de cliente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a3b0-103">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,35 +38,35 @@ ms.locfileid: "48514657"
 
 <span> </span>
 
-<span data-ttu-id="752cb-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="752cb-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="4a3b0-104">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="4a3b0-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="752cb-104">Si desea quitar las opciones de configuración de cliente que se han configurado anteriormente para un sitio, puede quitar la configuración del panel de control de Lync Server 2013 o del shell de administración de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="752cb-104">If you want to remove the client configuration settings that have been previously configured for a site, you can remove the settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="4a3b0-105">Si desea quitar las opciones de configuración de cliente que se han configurado anteriormente para un sitio, puede quitar la configuración del panel de control de Lync Server 2013 o del shell de administración de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4a3b0-105">If you want to remove the client configuration settings that have been previously configured for a site, you can remove the settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="752cb-105">Para quitar opciones de configuración de cliente mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="752cb-105">To remove client configuration settings by using Lync Server Control Panel</span></span>
+## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="4a3b0-106">Para quitar opciones de configuración de cliente mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="4a3b0-106">To remove client configuration settings by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="752cb-106">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="752cb-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="4a3b0-107">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="4a3b0-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="752cb-107">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="752cb-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="752cb-108">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="752cb-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="4a3b0-108">Abra una ventana del explorador y, a continuación, escriba la URL de administración para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4a3b0-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4a3b0-109">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="4a3b0-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="752cb-109">En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación **configuración de versión de cliente** .</span><span class="sxs-lookup"><span data-stu-id="752cb-109">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="4a3b0-110">En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación **configuración de versión de cliente** .</span><span class="sxs-lookup"><span data-stu-id="4a3b0-110">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="752cb-110">Seleccione el sitio, haga clic en **Editar**, haga clic en **eliminar**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="752cb-110">Select the site, click **Edit**, click **Delete**, and then click **OK**.</span></span>
+4.  <span data-ttu-id="4a3b0-111">Seleccione el sitio, haga clic en **Editar**, haga clic en **eliminar**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4a3b0-111">Select the site, click **Edit**, click **Delete**, and then click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="752cb-111">Quitar opciones de configuración de versión de cliente mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="752cb-111">Removing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="4a3b0-112">Quitar opciones de configuración de versión de cliente mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="4a3b0-112">Removing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="752cb-112">Puede eliminar las opciones de configuración de la versión de cliente con el cmdlet **Remove-CsClientVersionConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="752cb-112">You can delete client version configuration settings by using the **Remove-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="752cb-113">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="752cb-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="752cb-114">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="752cb-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="4a3b0-113">Puede eliminar las opciones de configuración de la versión de cliente con el cmdlet **Remove-CsClientVersionConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="4a3b0-113">You can delete client version configuration settings by using the **Remove-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="4a3b0-114">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4a3b0-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="4a3b0-115">Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="4a3b0-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a><span data-ttu-id="752cb-115">Para quitar una colección especificada de opciones de configuración de versión de cliente</span><span class="sxs-lookup"><span data-stu-id="752cb-115">To remove a specified collection of client version configuration settings</span></span>
+## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a><span data-ttu-id="4a3b0-116">Para quitar una colección especificada de opciones de configuración de versión de cliente</span><span class="sxs-lookup"><span data-stu-id="4a3b0-116">To remove a specified collection of client version configuration settings</span></span>
 
-  - <span data-ttu-id="752cb-116">El siguiente comando quita las opciones de configuración de versión de cliente que se aplican al sitio Redmond:</span><span class="sxs-lookup"><span data-stu-id="752cb-116">The following command removes the client version configuration settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="4a3b0-117">El siguiente comando quita las opciones de configuración de versión de cliente que se aplican al sitio Redmond:</span><span class="sxs-lookup"><span data-stu-id="4a3b0-117">The following command removes the client version configuration settings applied to the Redmond site:</span></span>
     
         Remove-CsClientVersionConfiguration -Identity "site:Redmond"
 
@@ -73,9 +74,9 @@ ms.locfileid: "48514657"
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="752cb-117">Para quitar todas las opciones de configuración de versión de cliente que se aplican al ámbito de sitio</span><span class="sxs-lookup"><span data-stu-id="752cb-117">To remove all the client version configuration settings applied to the site scope</span></span>
+## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="4a3b0-118">Para quitar todas las opciones de configuración de versión de cliente que se aplican al ámbito de sitio</span><span class="sxs-lookup"><span data-stu-id="4a3b0-118">To remove all the client version configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="752cb-118">Este comando quita todas las opciones de configuración de versión de cliente configuradas en el ámbito de sitio:</span><span class="sxs-lookup"><span data-stu-id="752cb-118">This command removes all the client version configuration settings configured at the site scope:</span></span>
+  - <span data-ttu-id="4a3b0-119">Este comando quita todas las opciones de configuración de versión de cliente configuradas en el ámbito de sitio:</span><span class="sxs-lookup"><span data-stu-id="4a3b0-119">This command removes all the client version configuration settings configured at the site scope:</span></span>
     
         Get-CsClientVersionConfiguration -Filter site:* | Remove-CsClientVersionConfiguration
 
@@ -83,15 +84,15 @@ ms.locfileid: "48514657"
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a><span data-ttu-id="752cb-119">Para quitar todas las opciones de configuración de versión de cliente en función del valor de la propiedad DefaultAction</span><span class="sxs-lookup"><span data-stu-id="752cb-119">To remove all the client version configuration settings based on the value of the DefaultAction property</span></span>
+## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a><span data-ttu-id="4a3b0-120">Para quitar todas las opciones de configuración de versión de cliente en función del valor de la propiedad DefaultAction</span><span class="sxs-lookup"><span data-stu-id="4a3b0-120">To remove all the client version configuration settings based on the value of the DefaultAction property</span></span>
 
-  - <span data-ttu-id="752cb-120">Y este comando quita todas las opciones de configuración de versión de cliente en las que la acción predeterminada se ha definido como "bloquear":</span><span class="sxs-lookup"><span data-stu-id="752cb-120">And this command removes all the client version configuration settings where the default action has been set to "Block":</span></span>
+  - <span data-ttu-id="4a3b0-121">Y este comando quita todas las opciones de configuración de versión de cliente en las que la acción predeterminada se ha definido como "bloquear":</span><span class="sxs-lookup"><span data-stu-id="4a3b0-121">And this command removes all the client version configuration settings where the default action has been set to "Block":</span></span>
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
 </div>
 
-<span data-ttu-id="752cb-121">Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="752cb-121">For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) cmdlet.</span></span>
+<span data-ttu-id="4a3b0-122">Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="4a3b0-122">For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) cmdlet.</span></span>
 
 </div>
 
