@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: restauración de datos de archivado o supervisión'
+description: 'Lync Server 2013: restauración de datos de supervisión o archivado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e908792e8a2563094b11bcce73d4ac6ce6c7121
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 169a5da2d606b97c7cd3f59d6cbae3d4c584e6e7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511427"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575526"
 ---
 # <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>Restauración de datos de supervisión o archivado en Lync Server 2013
 

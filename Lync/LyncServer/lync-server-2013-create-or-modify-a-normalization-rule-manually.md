@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: crear o modificar una regla de normalización manualmente'
+description: 'Lync Server 2013: cree o modifique una regla de normalización de forma manual.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58cd29feeeb34646a7d4a27ef78064d692f9ffa0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a7cc61706dd91b52822747d59693c8998d244c08
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525847"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574586"
 ---
 # <a name="create-or-modify-a-normalization-rule-manually-in-lync-server-2013"></a>Crear o modificar una regla de normalización manualmente en Lync Server 2013
 

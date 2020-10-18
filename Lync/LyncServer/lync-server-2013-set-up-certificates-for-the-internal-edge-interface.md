@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar certificados para la interfaz perimetral interna'
+description: 'Lync Server 2013: configurar certificados para la interfaz perimetral interna.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8f8c5c41eba828cb6514ba6963167d708ed203d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 52473069735d4f48c247367194139c479e71293f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509897"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575406"
 ---
 # <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Configurar certificados para la interfaz perimetral interna en Lync Server 2013
 

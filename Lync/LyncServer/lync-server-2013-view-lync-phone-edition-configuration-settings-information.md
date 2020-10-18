@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ver la información de configuración de Lync Phone Edition'
+description: 'Lync Server 2013: ver la información de configuración de Lync Phone Edition.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b613a8cd890b3c31028715a6eaac98462295602
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 62719b24920ee72a92b2f80498d5ea2a59288c2e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535747"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576436"
 ---
 # <a name="view-lync-phone-edition-configuration-settings-information-in-lync-server-2013"></a>Ver información de opciones de configuración de Lync Phone Edition en Lync Server 2013
 

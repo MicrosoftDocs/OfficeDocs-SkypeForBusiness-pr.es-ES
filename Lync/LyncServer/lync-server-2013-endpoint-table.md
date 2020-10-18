@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla de extremos'
+description: 'Lync Server 2013: tabla de extremos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a71e59b6cf9b4143a5b984cc7b169279aa2cb57
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 614872eee41b5d8e56da4b96cf5bbe3a4a1cf4d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533327"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575626"
 ---
 # <a name="endpoint-table-in-lync-server-2013"></a>Tabla Endpoint en Lync Server 2013
 

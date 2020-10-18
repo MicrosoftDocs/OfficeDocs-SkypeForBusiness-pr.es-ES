@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configuración de la recogida de llamadas de grupo'
+description: 'Lync Server 2013: configuración de la recogida de llamadas de grupo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b994415be41abe0f534f4120b2411b1f6b9beb0e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ff6be1ea20a98cfaf2addf32c7767940b420c5c8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517427"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575916"
 ---
 # <a name="configuring-group-call-pickup-in-lync-server-2013"></a>Configuración de la recogida de llamadas de grupo en Lync Server 2013
 

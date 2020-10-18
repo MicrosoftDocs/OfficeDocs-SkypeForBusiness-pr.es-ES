@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: requisitos de conferencia Web'
+description: 'Lync Server 2013: requisitos de conferencia Web.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 404ce93e841bbbefd62498a1dbb3da664eb927ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6c1fce932d3cc02ac29364d53d04ec336693e43b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518257"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576396"
 ---
 # <a name="web-conferencing-requirements-in-lync-server-2013"></a>Requisitos de conferencia web en Lync Server 2013
 

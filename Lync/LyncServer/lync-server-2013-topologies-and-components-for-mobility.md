@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: topologías y componentes para movilidad'
+description: 'Lync Server 2013: topologías y componentes para movilidad.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b27472526f98bc0f867b027fe111aac9c4f9aab
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 731991c3395bd3014270430483c6047dd5487185
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535977"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576026"
 ---
 # <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Topologías y componentes para movilidad en Lync Server 2013
 

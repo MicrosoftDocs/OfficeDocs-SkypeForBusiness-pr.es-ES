@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: cambiar la dirección URL de los servicios Web'
+description: 'Lync Server 2013: cambiar la dirección URL de los servicios Web.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9eb2922913ee95bad11273b2e943812850da4402
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 78a7a9b70d475aa952a43d215a8e5cd2068911e6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517824"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576356"
 ---
 # <a name="change-the-web-services-url-in-lync-server-2013"></a>Cambiar la dirección URL de los servicios web en Lync Server 2013
 

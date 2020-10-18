@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla de dispositivos'
+description: 'Lync Server 2013: tabla de dispositivos.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5fdc4c3b20bdd60d2c8013b79a15bdfd30b56af
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 763e1788e2874f9f9831c089ffe8fa077621b030
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536937"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576246"
 ---
 # <a name="devices-table-in-lync-server-2013"></a>Tabla Devices en Lync Server 2013
 

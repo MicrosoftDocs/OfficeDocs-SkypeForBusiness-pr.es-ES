@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ver información de dispositivos de conferencia'
+description: 'Lync Server 2013: ver información de dispositivos de conferencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc0065416582dd87f1c48a2dd051c237fbd6868
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9bbbdcecbc15ef59b2b9e22ffd2b28ff745d67a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211526"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574776"
 ---
+# <a name="view-conferencing-device-information-in-lync-server-2013"></a>Ver información de dispositivos de conferencia en Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-conferencing-device-information-in-lync-server-2013"></a>Ver información de dispositivos de conferencia en Lync Server 2013
+
 
 </div>
 
@@ -43,7 +46,7 @@ Puede ver información sobre los dispositivos de conferencia configurados para s
 
 
 > [!NOTE]  
-> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
+> Para obtener información detallada sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server Windows PowerShell "Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto" en <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: eliminar las opciones de configuración de un servicio web existente'
+description: 'Lync Server 2013: eliminar las opciones de configuración de un servicio web existente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185333
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4635e0c2c12f25f438aadd17d1241fdc88334a39
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5a28197f26a447112e29b6e4a831585dd49a9854
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525557"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575856"
 ---
 # <a name="delete-existing-web-service-configuration-settings-in-lync-server-2013"></a>Eliminación de las opciones de configuración de un servicio web existente en Lync Server 2013
 

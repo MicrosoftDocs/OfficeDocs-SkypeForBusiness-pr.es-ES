@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: consultas de base de datos de chat persistente de ejemplo'
+description: 'Lync Server 2013: consultas de base de datos de chat persistente de ejemplo.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfbe31844e0ca78a3f9b133bde96f2a6f625f759
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5e1cb49e944dbbd3e22c1b944b4c8495c6ff9b54
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511037"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574916"
 ---
 # <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Consultas de base de datos de chat persistente de ejemplo para Lync Server 2013
 

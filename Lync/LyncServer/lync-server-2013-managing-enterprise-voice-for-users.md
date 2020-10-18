@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: administración de la telefonía IP empresarial para los usuarios'
+description: 'Lync Server 2013: administración de la telefonía IP empresarial para los usuarios.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37ae4d72e3a8d7f17fe42cba207e98750cf91c2f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8805581c34483ef4baf5d74477fd585fbc64e632
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574946"
 ---
 # <a name="managing-enterprise-voice-for-users-in-lync-server-2013"></a>Administración de la telefonía IP empresarial para los usuarios en Lync Server 2013
 

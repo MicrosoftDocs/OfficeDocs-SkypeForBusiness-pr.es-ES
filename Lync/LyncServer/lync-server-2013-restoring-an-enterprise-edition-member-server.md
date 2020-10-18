@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: restaurar un servidor miembro de Enterprise Edition'
+description: 'Lync Server 2013: restaurar un servidor miembro de Enterprise Edition.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b958b10fc8c801d680cf17cac8fb493eae82df8d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4f9838f030205d92988e185798d982f835122c9f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511453"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576056"
 ---
 # <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restauración de un servidor miembro de Enterprise Edition en Lync Server 2013
 

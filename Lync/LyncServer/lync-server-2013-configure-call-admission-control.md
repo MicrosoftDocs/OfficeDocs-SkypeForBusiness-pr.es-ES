@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar el control de admisión de llamadas'
+description: 'Lync Server 2013: configurar el control de admisión de llamadas.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1edac7fe7b3b56cdaa5324f1c6e976bfb0b746fe
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1c6da7e20f45e61f7364af3e8b749def05bd29fd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517667"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575176"
 ---
 # <a name="configure-call-admission-control-in-lync-server-2013"></a>Configurar el control de admisión de llamadas en Lync Server 2013
 

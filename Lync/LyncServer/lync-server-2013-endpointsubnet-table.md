@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla EndpointSubnet'
+description: 'Lync Server 2013: tabla EndpointSubnet.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00b8414675109a69bec6baeceef4f4496bcf0c84
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 63e7d3c908a55ae866ed8e330cc8742b9f6a0096
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533317"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575616"
 ---
 # <a name="endpointsubnet-table-in-lync-server-2013"></a>Tabla EndpointSubnet en Lync Server 2013
 

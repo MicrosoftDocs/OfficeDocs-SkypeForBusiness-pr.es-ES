@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: forzar el bloqueo del teléfono'
+description: 'Lync Server 2013: forzar el bloqueo del teléfono.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183594
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b8af6141f5b9c9894ee90c6b58a58b4bc7f1274
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5afae4fa27edf9378bacc39a29697c9607b25c07
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533297"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575606"
 ---
 # <a name="enforce-phone-locking-in-lync-server-2013"></a>Aplicar el bloqueo de teléfono en Lync Server 2013
 

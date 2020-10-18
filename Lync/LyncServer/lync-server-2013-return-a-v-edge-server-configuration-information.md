@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: obtener información de configuración del servidor perimetral A/V'
+description: 'Lync Server 2013: devolver información de configuración del servidor perimetral A/V.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73a6460b6045d5f1f2e35afcf91af0ebdd9e2b9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f4f72fccfe51b946dc0dc285aee12a07e59c844b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511387"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575446"
 ---
 # <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>Devolver información de configuración del servidor perimetral A/V en Lync Server 2013
 

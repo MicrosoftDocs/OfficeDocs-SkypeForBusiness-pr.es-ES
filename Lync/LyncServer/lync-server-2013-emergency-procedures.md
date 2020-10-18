@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: procedimientos de emergencia'
+description: 'Lync Server 2013: procedimientos de emergencia.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5768378532722556fd824b0a2fdd257666e41a99
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b82b5b4ba745edb6bc7e7de3558c62d285178f41
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528777"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575076"
 ---
 # <a name="emergency-procedures-in-lync-server-2013"></a>Procedimientos de emergencia en Lync Server 2013
 

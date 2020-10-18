@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: probar el servidor Standard Edition'
+description: 'Lync Server 2013: Pruebe el servidor Standard Edition.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f822297ed5a66189e42110167f70cf63e2d3d1db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 35dc13fc01979cc8b293d0647a7886b7d65d7669
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519047"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576016"
 ---
 # <a name="test-the-standard-edition-server-in-lync-server-2013"></a>Probar el servidor Standard Edition en Lync Server 2013
 

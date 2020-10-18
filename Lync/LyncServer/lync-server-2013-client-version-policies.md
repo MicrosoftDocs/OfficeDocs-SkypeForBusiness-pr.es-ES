@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: directivas de versión de cliente'
+description: 'Lync Server 2013: directivas de versión de cliente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50675351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca6c0341267183fca660535708a6ebea6e243867
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fc853e6580bdd2aad4a4c2f493bb8618f7fa3b23
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517807"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574676"
 ---
 # <a name="client-version-policies-in-lync-server-2013"></a>Directivas de versión de cliente en Lync Server 2013
 

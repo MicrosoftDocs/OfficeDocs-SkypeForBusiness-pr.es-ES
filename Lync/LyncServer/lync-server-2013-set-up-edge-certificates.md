@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar certificados perimetrales'
+description: 'Lync Server 2013: configurar certificados perimetrales.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e7ff0b4d5e7dd9ac01671ec8fc68a8d63dff460
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 252b28d8e20f75aa2aede08eaeeb4b5b6e507a50
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509857"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575336"
 ---
 # <a name="set-up-edge-certificates-for-lync-server-2013"></a>Configurar certificados perimetrales para Lync Server 2013
 

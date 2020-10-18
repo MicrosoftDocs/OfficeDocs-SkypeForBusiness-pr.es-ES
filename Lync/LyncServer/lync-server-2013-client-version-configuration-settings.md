@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: opciones de configuración de versión de cliente'
+description: 'Lync Server 2013: opciones de configuración de versión de cliente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50553005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b421e084d7809a683364d675b142e2c3514b295
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 11d0cddfa1531b9663e7bfb634c5011a89545106
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517867"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574666"
 ---
 # <a name="client-version-configuration-settings-in-lync-server-2013"></a>Opciones de configuración de versión de cliente en Lync Server 2013
 

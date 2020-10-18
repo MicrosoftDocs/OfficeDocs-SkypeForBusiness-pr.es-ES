@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: topologías admitidas de Active Directory'
+description: 'Lync Server 2013: topologías admitidas de Active Directory.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46f9236bfbd110ee17811edec2e3e81fc4a0e0f4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9ce820a36cb033933b423e01deb5a3049ed3ea2e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524167"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575316"
 ---
 # <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Topologías de Active Directory admitidas en Lync Server 2013
 

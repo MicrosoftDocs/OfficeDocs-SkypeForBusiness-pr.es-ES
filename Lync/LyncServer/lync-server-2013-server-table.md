@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabla Server'
+description: 'Lync Server 2013: tabla Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfc08cd5a27527d5afebdae8b2fea8335f93dcb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 00990a91aec64063480d96a16380171990913ad4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510237"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576526"
 ---
 # <a name="server-table-in-lync-server-2013"></a>Tabla Server en Lync Server 2013
 
