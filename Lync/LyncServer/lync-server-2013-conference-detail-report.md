@@ -84,7 +84,7 @@ La siguiente tabla muestra la información brindada en la sección Información 
 <tr class="header">
 <th>Nombre</th>
 <th>¿Se pueden ordenar los datos en este elemento?</th>
-<th>Descripción</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -132,7 +132,7 @@ La siguiente tabla muestra la información brindada en la sección Participació
 <tr class="header">
 <th>Nombre</th>
 <th>¿Se pueden ordenar los datos en este elemento?</th>
-<th>Descripción</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -189,7 +189,7 @@ En la siguiente tabla se muestra la información proporcionada en la sección mo
 <tr class="header">
 <th>Nombre</th>
 <th>¿Se pueden ordenar los datos en este elemento?</th>
-<th>Descripción</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
