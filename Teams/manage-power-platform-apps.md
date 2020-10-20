@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar el acceso a las aplicaciones de Power Platform en el centro de administración de Microsoft Teams.
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171464"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599555"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones de plataforma de energía en el centro de administración de Microsoft Teams
 
@@ -78,6 +78,13 @@ Para permitir o bloquear a determinados usuarios de su organización el acceso a
 Por ejemplo, para bloquear el acceso de usuarios específicos a aplicaciones creadas en Power Apps, cree una directiva de permisos de aplicaciones personalizada para bloquear las **aplicaciones de energía compartidas**y, a continuación, asigne la Directiva a esos usuarios.
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Captura de pantalla de la Directiva de permisos de aplicaciones personalizada de ejemplo con Power apps compartida bloqueada":::
+
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Usar registros de auditoría para investigar la actividad de instalación de la plataforma Power
+
+Puede usar registros de auditoría para los equipos para investigar eventos en los que los usuarios instalaron aplicaciones de la plataforma de energía desde la sección **creado por su compañeros** de la página aplicaciones de Teams. Para ello, [Busque en el registro de auditoría](https://docs.microsoft.com/microsoftteams/audit-log-events) el evento de Teams de la **aplicación instalado** (bajo la operación de **AppInstalled** ) de un usuario o un conjunto de usuarios determinado. Para buscar aplicaciones instaladas desde la sección **desarrollado por su compañero** , busque el valor **TemplatedInstance** bajo la propiedad **AppDistributionMode** en los detalles de un registro determinado. 
+
+> [!NOTE]
+> Puede exportar registros de auditoría en formato CSV para facilitar el filtrado.
 
 ## <a name="related-topics"></a>Temas relacionados
 

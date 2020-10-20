@@ -15,11 +15,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumen: Instale y configure nodos de monitor para transacciones sintéticas de Skype empresarial Server.'
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640955"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48599763"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalación y configuración de nodos de monitor
  
@@ -27,7 +27,7 @@ ms.locfileid: "46640955"
   
 Los nodos de monitor son equipos que ejecutan periódicamente transacciones sintéticas de Skype empresarial Server. Las transacciones sintéticas son cmdlets de Windows PowerShell que comprueban que los escenarios clave de usuario, como la capacidad de iniciar sesión o de intercambiar mensajes instantáneos, funcionan según lo esperado. Para Skype empresarial Server 2015, System Center Operations Manager puede ejecutar las transacciones sintéticas que se muestran en la tabla siguiente, que incluye tres tipos de transacciones sintéticas:
   
-- **Valor predeterminado** Transacciones sintéticas que se ejecutan de forma predeterminada en un nodo de monitor. Al crear un nuevo nodo de monitor, puede especificar las transacciones sintéticas que se ejecutarán en el nodo. (Este es el propósito del parámetro tests usado por el cmdlet New-CsWatcherNodeConfiguration). Si no usa el parámetro tests cuando se crea el nodo de monitor, se ejecutarán automáticamente todas las transacciones sintéticas predeterminadas y no se ejecutará ninguna de las transacciones sintéticas que no sean predeterminadas. Esto significa que, por ejemplo, el nodo de monitor se configurará para ejecutar la prueba test-CsAddressBookService, pero no se configurará para ejecutar la prueba test-CsExumConnectivity.
+- **Valor predeterminado** Transacciones sintéticas que se ejecutan de forma predeterminada en un nodo de monitor. Al crear un nuevo nodo de monitor, puede especificar las transacciones sintéticas que se ejecutarán en el nodo. (Este es el propósito del parámetro tests usado por el cmdlet New-CsWatcherNodeConfiguration). Si no usa el parámetro tests cuando se crea el nodo de monitor, se ejecutarán automáticamente todas las transacciones sintéticas predeterminadas y no se ejecutará ninguna de las transacciones sintéticas que no sean predeterminadas. Esto significa que, por ejemplo, el nodo de monitor se configurará para ejecutar la prueba de Test-CsAddressBookService, pero no se configurará para ejecutar la prueba de Test-CsExumConnectivity.
     
 - **No predeterminado** Comprueba que los nodos de monitor no se ejecutan de forma predeterminada. (Para obtener más información, vea la descripción del tipo predeterminado). Sin embargo, el nodo de monitor se puede habilitar para ejecutar cualquiera de las transacciones sintéticas que no son predeterminadas. Puede hacerlo cuando cree el nodo de monitor (mediante el cmdlet New-CsWatcherNodeConfiguration) o en cualquier momento después de que se haya creado el nodo de monitor. Tenga en cuenta que muchas de las transacciones sintéticas no predeterminadas requieren pasos de configuración adicionales. Para obtener más información sobre estos pasos, consulte [instrucciones de configuración especiales para transacciones sintéticas](test-users-and-settings.md#special_synthetictrans).
     
@@ -43,18 +43,18 @@ Las transacciones sintéticas disponibles para los nodos de monitor son las sigu
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |Confirma que los usuarios pueden buscar usuarios que no están en su lista de contactos mediante HTTP.  <br/> |
 |Test-CsAVConference (AvConference)  <br/> |Confirma que los usuarios pueden crear conferencias de audio/vídeo y participar en ellas.  <br/> |
 |Test-CsGroupIM (Conferencia de mensajería instantánea)  <br/> |Confirma que los usuarios pueden enviar mensajes instantáneos durante las conferencias y participar en conversaciones de mensajes instantáneos con tres o más personas.  <br/> |
-|Test-CsIM (mensajería instantánea P2P)  <br/> |Confirma que los usuarios pueden enviar mensajes instantáneos punto a punto.  <br/> |
+|Test-CsIM (MI DE P2P)  <br/> |Confirma que los usuarios pueden enviar mensajes instantáneos punto a punto.  <br/> |
 |Test-CsP2PAV (P2PAV)  <br/> |Confirma que los usuarios pueden realizar llamadas de audio punto a punto (solo señalización).  <br/> |
 |Test-CsPresence (Presence)  <br/> |Confirma que los usuarios pueden ver la presencia de otros usuarios.  <br/> |
 |Test-CsRegistration (Registration)  <br/> |Confirma que los usuarios pueden iniciar sesión en Skype empresarial.  <br/> |
 |Test-CsPstnPeerToPeerCall (RTC)  <br/> |Confirma que los usuarios pueden hacer y recibir llamadas con gente ajena a la empresa (números de RTC).  <br/> |
-|Test-CsASConference (asconferencia)  <br/> |Confirma que los usuarios pueden crear y participar en una conferencia de uso compartido de aplicaciones.  <br/> |
+|Test-CsASConference (asconference)  <br/> |Confirma que los usuarios pueden crear y participar en una conferencia de uso compartido de aplicaciones.  <br/> |
 |Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |Confirma que los servidores perimetrales de audio de audio pueden aceptar conexiones para las llamadas punto a punto y las llamadas de conferencia.  <br/> |
 |Test-CsDataConference (congresos)  <br/> |Confirma que los usuarios pueden participar en una conferencia de colaboración de datos (una reunión en línea que incluye actividades como pizarras y sondeos).  <br/> |
 |Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirma que los usuarios pueden marcar números de teléfono para unirse a conferencias.  <br/> |
 |Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirma que los usuarios pueden marcar números de teléfono para unirse a conferencias.  <br/> |
 |Test-CsExumConnectivity (ExumConnectivity)  <br/> |Confirma que un usuario puede conectarse a la mensajería unificada (UM) de Exchange.  <br/> |
-|Test-CsGroupIM-TestJoinLauncher (JoinLauncher)  <br/> |Confirma que los usuarios pueden crear reuniones programadas y unirse a ellas (mediante un vínculo de dirección web).  <br/> |
+|Test-CsGroupIM TestJoinLauncher (JoinLauncher)  <br/> |Confirma que los usuarios pueden crear reuniones programadas y unirse a ellas (mediante un vínculo de dirección web).  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Confirma que los usuarios de dispositivos móviles pueden registrarse y enviar mensajes instantáneos.  <br/> |
 |Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirma que el servidor de interoperabilidad de vídeo está activo y puede administrar las conexiones entrantes a través de un tronco SIP de vídeo.  <br/> **Nota:** La compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype empresarial Server 2019. |
 |Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Confirma que los usuarios pueden intercambiar mensajes mediante el servicio de chat persistente.  <br/> |
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 Si el equipo de nodo de monitor se encuentra dentro de la red perimetral, puede ejecutar el siguiente comando para comprobar la instalación de Skype empresarial Server 2015:
   
-Get-CsPinPolicyYou recibirá una información similar a la siguiente, en función del número de directivas de PIN configuradas para su uso en la organización:
+Get-CsPinPolicyYou recibirá información similar a la siguiente, según el número de directivas de PIN configuradas para su organización:
   
 Identidad: global
   
@@ -216,7 +216,7 @@ Para asignar un certificado predeterminado:
 > [!NOTE]
 > Si el botón Ejecutar está deshabilitado, puede que primero necesite hacer clic en Ejecutar en Instalar el almacén de configuración local. 
   
-Realice una de las acciones siguientes:
+Realice una de las siguientes acciones:
   
 - Si ya tiene un certificado que puede usarse como certificado predeterminado, haga clic en predeterminado en el Asistente para certificados y, a continuación, haga clic en asignar. Siga los pasos del Asistente para asignación de certificados para asignar ese certificado.
     
@@ -254,7 +254,7 @@ El modo TrustedServer sólo se puede usar con equipos que se encuentran dentro d
 
 Si el equipo de nodo de monitor se encuentra fuera de la red perimetral, debe seguir un procedimiento ligeramente diferente para configurar el nodo de monitor para ejecutar transacciones sintéticas: en concreto, no debe crear un grupo de aplicaciones de confianza o una aplicación de confianza. Esto significa que tendrá que completar las dos tareas siguientes.
   
-### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Actualizar la pertenencia al grupo de administradores de solo lectura local de RTC
+### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Actualizar la pertenencia al grupo de administradores del Read-Only local de RTC
 
 Si el nodo de monitor está fuera de la red perimetral, debe agregar la cuenta de servicio de red al grupo de administradores de solo lectura local de RTC en el equipo nodo de monitor; para ello, siga el procedimiento siguiente en el nodo de monitor:
   

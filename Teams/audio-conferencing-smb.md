@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Aprenda a establecer conferencias de audio en su pequeña o mediana empresa para personas que necesitan usar un teléfono para llamar a reuniones. '
-ms.openlocfilehash: 13dd6812d6eaf51d2f88ac6d8831552cb63d5a9d
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: b692654a0a874ea0c07f074daefe203aef2f80bc
+ms.sourcegitcommit: 764605e226bc7d9cf45e9833c758d30da29132c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389948"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594651"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurar audioconferencias para pequeñas y medianas empresas
 
@@ -86,7 +86,7 @@ Los organizadores de reuniones ya pueden programar reuniones en Outlook. En Outl
 
 ## <a name="audio-conferencing-phone-numbers"></a>Números de teléfono de audioconferencias
 
-Existen dos tipos de números que puede usar para su puente de conferencia. Puede usar **números compartidos** (descritos anteriormente en este artículo) o **números dedicados**. Para obtener más información sobre cada uno de ellos.
+Existen dos tipos de números que puede usar para su puente de conferencia. Puede usar **números compartidos** (como en la sección [configurar las conferencias de audio](#set-up-audio-conferencing) anteriormente en este artículo) o **números dedicados**. Para obtener más información sobre cada uno de ellos.
 
 ### <a name="shared-numbers"></a>Números compartidos
 
