@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para sus usuarios de Skype empresarial.
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359186"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625116"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz
  
@@ -41,14 +41,18 @@ Para habilitar a un usuario para la voz y el correo de voz del sistema telefóni
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar a los usuarios para la voz y el correo de voz del sistema telefónico
 
-1. Antes de empezar, compruebe que el conector de Skype empresarial online (módulo Windows PowerShell) esté implementado en los servidores front-end. Si no lo está, puede descargarlo desde [el centro de descarga](https://www.microsoft.com/download/details.aspx?id=39366). Puede encontrar más información sobre el uso de este módulo en [configurar el equipo para la administración de Skype empresarial online](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
+> [!NOTE]
+> El conector de Skype empresarial online ahora forma parte del último módulo de PowerShell de Microsoft Teams.
+> Si usa la [versión pública de Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)más reciente, no es necesario que instale el conector de Skype empresarial online.
+
+1. Antes de empezar, compruebe que el módulo de PowerShell Teams esté instalado en los servidores front-end. Si no es así, instálelo siguiendo las instrucciones de [instalación del módulo de PowerShell de Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
 2. Inicie Windows PowerShell como administrador.
     
 3. Escriba lo siguiente y presione ENTRAR:
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. Escriba lo siguiente y presione ENTRAR:
@@ -172,7 +176,7 @@ Los usuarios del sistema telefónico deben tener asignada una directiva de enrut
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>Para quitar la asignación de una directiva de enrutamiento de voz por usuario
 
-- Use Grant-CsVoiceRoutingPolicy para desasignar cualquier directiva de enrutamiento de voz por usuario asignada previamente a Ken Myer. Una vez no asignada la Directiva de enrutamiento de voz por usuario, Ken Myer se administrará automáticamente mediante la Directiva de enrutamiento de voz global.
+- Use el Grant-CsVoiceRoutingPolicy para desasignar cualquier directiva de enrutamiento de voz por usuario asignada previamente a Ken Myer. Una vez no asignada la Directiva de enrutamiento de voz por usuario, Ken Myer se administrará automáticamente mediante la Directiva de enrutamiento de voz global.
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null

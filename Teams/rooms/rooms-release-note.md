@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de las salas de Microsoft Teams, que enumeran las mejoras acumulativas de las salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 7c8f81988525431615f83576f30b6ad809f08806
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361500"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625126"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -29,6 +29,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 |Prensa |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
@@ -67,6 +68,11 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+
+### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
+
+Introdujo en esta actualización:
+- Corrección de la media pantalla blanca al llamar a un teclado en pantalla en la reunión de Teams
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
 
@@ -346,7 +352,7 @@ Introdujo en esta actualización:
 
 Introdujo en esta actualización:
 
-- Compatibilidad con dos pantallas (para la paridad del sistema heredado)
+- Compatibilidad con Dual-Screen (para la paridad del sistema heredado)
 - Temas (temas integrados y la posibilidad de establecer un tema personalizado)
 - Capacidad de proporcionar comentarios para las compilaciones públicas
 - Telemetría mejorada sobre la confiabilidad de la combinación de reuniones
