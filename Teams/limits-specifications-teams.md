@@ -51,7 +51,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 <sup>2</sup> este límite incluye equipos archivados. Para superar el límite máximo, debe ponerse en contacto con el soporte técnico de Microsoft.
 
-<sup>3</sup> Los canales eliminados pueden ser restaurados en un plazo de 30 días. Durante estos 30 días, se sigue contando el canal eliminado en el límite de 200 canales o 30 canales privados por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal en el límite por equipo.
+<sup>3</sup> Los canales eliminados pueden ser restaurados en un plazo de 30 días. Durante esos 30 días, se sigue contando el canal eliminado dentro del límite de 200 canales o 30 canales privados por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal dentro del límite por equipo.
 
 <sup>4</sup> 28 KB es un límite aproximado, ya que incluye el mensaje en sí (texto, vínculos a imágenes, etc.), las @menciones, el número de conectores y las reacciones.
 
