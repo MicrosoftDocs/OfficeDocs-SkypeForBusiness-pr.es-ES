@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766764"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650833"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -90,11 +90,11 @@ Los registros de depuración se descargan automáticamente en las siguientes car
 <a name="media-logs"></a>Registros de medios
 ---------------------------
 
-Los registros multimedia contienen datos de diagnóstico sobre el audio, el vídeo y la pantalla compartida en reuniones de Teams. Solo se necesitan para los casos de soporte técnico cuando se solicitan y solo Microsoft puede inspeccionarlas. 
+Los registros multimedia contienen datos de diagnóstico sobre el audio, el vídeo y la pantalla compartida en reuniones de Teams. Son necesarios para los casos de soporte técnico que están vinculados a problemas relacionados con la llamada.
 
-El registro multimedia está desactivado de forma predeterminada. Para registrar los datos de diagnóstico de las reuniones de Teams, los usuarios deben activar la opción en el cliente de Teams. Vaya a **configuración**  >  **General**, active la casilla **Habilitar el registro de diagnóstico para la reunión (se debe reiniciar Teams**) y, a continuación, reinicie Teams.
+El registro multimedia está desactivado de forma predeterminada. Para registrar los datos de diagnóstico de las reuniones de Teams, los usuarios deben activar la opción en el cliente de Teams. Vaya a **configuración**  >  **General**, active la casilla **Habilitar el registro de diagnósticos de reunión (debe reiniciar Teams**) y, a continuación, reinicie Teams y reproduzca el problema. 
 
-En la tabla siguiente se describen las ubicaciones de registro.
+En la tabla siguiente se describen las ubicaciones de los registros de medios. Cuando envíe los archivos de registro al soporte técnico de Microsoft, Compruebe la marca de tiempo de los archivos de registro para asegurarse de que los registros cubren el intervalo de tiempo cuando reproducido el problema.
 
 |Cliente |Ubicación |
 |---------|---------|
@@ -143,4 +143,3 @@ Linux
 ## <a name="related-topics"></a>Temas relacionados
 
 [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para socios de Microsoft y/o para operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814246"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655527"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -62,7 +62,7 @@ Para conocer los pasos detallados sobre cómo implementar y configurar SBCs para
 - **Oracle:** las [notas de configuración de enrutamiento directo](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuración del escenario de hospedaje de SBC se describe en la sección "Microsoft". 
 - **Comunicaciones de la cinta de opciones:**  Consulte la guía de [configuración de Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) en la cinta de opciones de SBC de la cinta de opciones para obtener información sobre cómo configurar la serie de núcleos de la cinta SBCS y a esta página [mejor práctica de cinta: configuración de operadores para Microsoft Teams borde de SBC de enrutamiento directo](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **Te-Systems (anynode):**  Regístrese en la página de la [comunidad de los sistemas](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar SBC de anynode para varios inquilinos.
-- **Metaconmutador:**  Regístrese en la página de la [comunidad de metaswitches](https://sso.metaswitch.com/UI/Login) para obtener información sobre cómo habilitar el metaestado para varios inquilinos.
+- **Metaconmutador:**  Regístrese en la página de la [comunidad de metaswitches](https://manuals.metaswitch.com/MAN39555) para obtener información sobre cómo habilitar el metaestado para varios inquilinos.
 
 > [!NOTE]
 > Preste atención a cómo configurar el encabezado "contacto". El encabezado de contacto se usa para buscar el inquilino del cliente en el mensaje entrante. 
@@ -87,7 +87,7 @@ En el diagrama siguiente se resumen los requisitos para el dominio, los subdomin
 
 ![Diagrama que muestra los requisitos para los dominios y el encabezado del contacto](media/direct-routing-1-sbc-requirements.png)
 
-La SBC necesita un certificado para autenticar las conexiones. Para el escenario de hospedaje de SBC, el proveedor debe solicitar un certificado con SAN * \* . base_domain (por ejemplo, \* . customers.adatum.BIZ)*. Este certificado se puede usar para autenticar conexiones a varios inquilinos servidos desde un único SBC.
+La SBC necesita un certificado para autenticar las conexiones. Para el escenario de hospedaje de SBC, el proveedor debe solicitar un certificado con SAN * \* .base_domain (por ejemplo, \* . customers.adatum.BIZ)*. Este certificado se puede usar para autenticar conexiones a varios inquilinos servidos desde un único SBC.
 
 
 La siguiente tabla es un ejemplo de una configuración.
@@ -220,13 +220,13 @@ Sin embargo, esto no ha sido óptimo por dos razones:
 Basándose en estos comentarios, Microsoft trae una nueva lógica para aprovisionar los troncos de los inquilinos de cliente.
 
 Se introdujeron dos nuevas entidades:
--    Un tronco de portador registrado en el inquilino del operador usando el comando New-CSOnlinePSTNGateway, por ejemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
+-    Un tronco de portador registrado en el inquilino del operador usando el comando New-CSOnlinePSTNGateway, por ejemplo New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
 -    Un tronco derivado, que no requiere registro. Simplemente es un nombre de host deseado añadido desde el tronco del portador. Deriva todos sus parámetros de configuración del tronco del transportista. El tronco derivado no necesita crearse en PowerShell y la asociación con el tronco del portador se basa en el nombre de FQDN (vea los detalles a continuación).
 
 **Lógica de aprovisionamiento y ejemplo**
 
--    Los operadores solo necesitan configurar y administrar un único tronco (tronco de portador en el dominio de la portadora) con el comando set-CSOnlinePSTNGateway. En el ejemplo anterior, es adatum.biz;
+-    Los operadores solo necesitan configurar y administrar un único tronco (tronco del portador en el dominio de la portadora) con el comando Set-CSOnlinePSTNGateway. En el ejemplo anterior, es adatum.biz;
 -    En el inquilino del cliente, el operador solo tiene que agregar el FQDN del tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar New-CSOnlinePSTNGateway para un tronco.
 -    El tronco derivado, como sugiere el nombre, hereda o deriva todos los parámetros de configuración del tronco del portador. Acerca
 -    Customers.adatum.biz: el tronco del portador que debe crearse en el inquilino del transportista.
@@ -240,7 +240,7 @@ Se introdujeron dos nuevas entidades:
 
 **Migración del modelo anterior al tronco del portador**
  
-Para la migración de la implementación actual del modelo hospedado por el portador al nuevo modelo, los operadores deberán volver a configurar los troncos para inquilinos de cliente. Elimine los troncos de los inquilinos del cliente mediante Remove-CSOnlinePSTNGateway (dejando el tronco en el inquilino del transportista):
+Para la migración de la implementación actual del modelo hospedado por el portador al nuevo modelo, los operadores deberán volver a configurar los troncos para inquilinos de cliente. Elimine los troncos de los inquilinos del cliente mediante Remove-CSOnlinePSTNGateway (dejando el tronco en el espacio empresarial del transportista).
 
 Recomendamos encarecidamente migrar a la nueva solución tan pronto como sea posible, ya que mejoraremos la supervisión y el aprovisionamiento usando el modelo de tronco derivado y el portador.
  
@@ -259,7 +259,7 @@ Para configurar la conmutación por error en un entorno multiinquilino, tendrá 
 - En las directivas de enrutamiento de voz en línea de los usuarios, especifique SBCs.  Si se produce un error en un SBC, la Directiva de enrutamiento enrutará las llamadas al segundo SBC.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planear el enrutamiento directo](direct-routing-plan.md)
 

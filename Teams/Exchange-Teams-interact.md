@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35c020d981fba9827f10753a04b9b5629a9939df
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: ae03611a684f7f596c185873585c844e30d4330b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177210"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650883"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -49,8 +49,8 @@ La siguiente tabla proporciona una referencia rápida y útil sobre la disponibi
 |---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
 | **Exchange Online**                                                 | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí        | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí <sup>6</sup>        | Sí        | Sí                          | Sí                    | Sí                    |
 | **Exchange Online Dedicated vNext**                                 | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí        | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí <sup>6</sup>        | Sí        | Sí                          | Sí                    | Sí                    |
-| **Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)  | Sí <sup>1</sup> | Sí <sup>, 1, 2</sup> | Sí <sup> 3 | Sí                   | No                                | No                          | Sí          | Sí             | No                      | Sí <sup> 4 | Sí <sup> 5                   | Sí                    | Sí                    |
-| **Exchange local** (sincronizar con Azure ad) | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí <sup>3</sup> | Sí                   | Sí <sup>8</sup>         | No                          | Sí          | Sí             | No                      | Sí <sup> 4 | Sí <sup> 5                   | Sí                    | Sí                    |
+| **Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)  | Sí <sup>1</sup> | Sí <sup>, 1, 2</sup> | Sí <sup>3</sup> | Sí                   | No                                | No                          | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí <sup>5</sup>                   | Sí                    | Sí                    |
+| **Exchange local** (sincronizar con Azure ad) | Sí <sup>1</sup> | Sí <sup>1</sup>   | Sí <sup>3</sup> | Sí                   | Sí <sup>8</sup>         | No                          | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí <sup>5</sup>                   | Sí                    | Sí                    |
 
 <sup>1</sup> las opciones de hospedaje admiten EDiscovery y retención legal para el cumplimiento de los mensajes de canal.
 
@@ -80,8 +80,8 @@ Microsoft Teams funciona con varios servicios de Microsoft 365 y Office 365 para
 
 - Los usuarios deben estar habilitados para la creación de grupos de Microsoft 365 para crear equipos en Microsoft Teams.
 
-> [!IMPORTANT]
-> Si desinstala el cliente de Skype empresarial después de mover un usuario al modo **solo para equipos** , es posible que el estado de presencia deje de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Para resolver este problema, seleccione su imagen de perfil en la esquina superior derecha de Microsoft Teams y, a continuación, seleccione **configuración**. En la pestaña **General** , en **aplicación**, seleccione **registrar equipos como la aplicación de chat de Office (se debe reiniciar las aplicaciones de Office)**. Después de seleccionar esta opción, cierre y vuelva a abrir todas las aplicaciones de Office, incluido Outlook. Después de abrir Outlook, la información de presencia estará disponible.
+  > [!IMPORTANT]
+  > Si desinstala el cliente de Skype empresarial después de mover un usuario al modo **solo para equipos** , es posible que el estado de presencia deje de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Para resolver este problema, seleccione su imagen de perfil en la esquina superior derecha de Microsoft Teams y, a continuación, seleccione **configuración**. En la pestaña **General** , en **aplicación**, seleccione **registrar equipos como la aplicación de chat de Office (se debe reiniciar las aplicaciones de Office)**. Después de seleccionar esta opción, cierre y vuelva a abrir todas las aplicaciones de Office, incluido Outlook. Después de abrir Outlook, la información de presencia estará disponible.
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Requisitos para crear y ver reuniones de buzones de correo hospedados localmente
 
@@ -97,19 +97,19 @@ Si los buzones son locales, para crear y ver reuniones, deben cumplirse los sigu
 
 - La autenticación de OAuth se configura preferiblemente mediante el Asistente de configuración híbrida de Exchange que ejecuta una configuración híbrida completa (clásica o moderna). Si no puede usar el Asistente para la configuración híbrida, configure OAuth como se describe en [configurar la autenticación OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
- > [!NOTE]
- > El token de OAuth de Exchange confía del servicio de Teams, que se conoce como EvoSTS. El paso 1 debe ser suficiente, pero solo el EvoSTS; ACS se usa para la búsqueda de disponibilidad en el calendario.
+  > [!NOTE]
+  > El token de OAuth de Exchange confía del servicio de Teams, que se conoce como EvoSTS. El paso 1 debe ser suficiente, pero solo el EvoSTS; ACS se usa para la búsqueda de disponibilidad en el calendario.
 
 - Se establece la casilla de verificación de la característica implementación híbrida de Exchange en Azure AD Connect.
 
-- Para el soporte técnico de la aplicación de calendario y el complemento de Outlook para Mac, las direcciones URL del servicio Web de Exchange deben configurarse como SPN en Azure AD de inquilino para la entidad de servicio de Exchange. Este paso se realiza con el Asistente para la configuración híbrida o siguiendo [los pasos manuales de la autenticación moderna híbrida](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
+- Para el soporte técnico de la aplicación calendario y Teams Outlook Add-In para Mac, las direcciones URL del servicio Web de Exchange deben configurarse como SPN en Azure AD de inquilino para la entidad de servicio de Exchange. Este paso se realiza con el Asistente para la configuración híbrida o siguiendo [los pasos manuales de la autenticación moderna híbrida](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 Para habilitar la delegación de calendario para estos usuarios:
 
 - También debe completar los pasos 2-3 según se describe en [configurar integración y OAuth entre Skype empresarial online y Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estos pasos proporcionarán a la aplicación de programación de Teams los permisos necesarios para confirmar los permisos de delegado.
  
- > [!NOTE]
- > El paso 2 incluye asignación de roles para ArchiveApplication, que no es necesario para la delegación.
+  > [!NOTE]
+  > El paso 2 incluye asignación de roles para ArchiveApplication, que no es necesario para la delegación.
 
 - Complemento de programación de Teams para Outlook cuando se programa una reunión en nombre de alguien, se requiere Exchange 2013 CU19 o una versión posterior. Esto es compatible con el descubrimiento no autenticado del buzón de correo por nuestro servicio para comprobar los permisos de delegado con el buzón delegador. La ubicación de delegación y delegador podría ser Exchange 2013 o posterior, o Exchange Online, pero la detección automática debe resolverse en Exchange 2013 CU19 o posterior.
 
@@ -119,7 +119,7 @@ A continuación se muestran algunas cosas que debe tener en cuenta al implementa
 
 - En Microsoft Teams, las características de seguridad y cumplimiento (como la exhibición de documentos electrónicos, la búsqueda de contenido, el archivo y la retención legal) funcionan mejor en los entornos de Exchange Online y SharePoint Online. Para las conversaciones del canal, se crea un diario con los mensajes en el buzón del grupo en Exchange Online, y así están disponibles para la exhibición de documentos electrónicos. Si SharePoint Online y OneDrive para la Empresa (usando una cuenta profesional o educativa) están habilitados en toda la organización y para los usuarios, estas características de cumplimiento están disponibles también para todos los archivos de Teams.
 
-- Controlar y proteger la configuración de directivas de cumplimiento en Teams y Exchange mediante el acceso condicional. Para obtener más información, vea [¿Cómo funcionan las directivas de acceso condicional para Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
+- Controlar y proteger la configuración de directivas de cumplimiento en Teams y Exchange mediante el acceso condicional. Para obtener más información, vea [¿Cómo funcionan las directivas de acceso condicional para Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
 - Si su organización tiene requisitos de cumplimiento para garantizar que todas las discusiones de reuniones se descubran, debe deshabilitar las reuniones privadas si el organizador tiene un buzón local de Exchange. Para obtener más información, consulte [permitir la programación de reuniones privadas](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 

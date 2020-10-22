@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424720"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655517"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>Usar las plantillas gubernamentales de Teams en el centro de administración
 
@@ -44,7 +44,7 @@ Para obtener más información sobre las plantillas de equipo en general, consul
 
 Centralizar la comunicación y los recursos esenciales para tu equipo de administración de crisis o respuesta a incidentes. Dentro de este equipo, puede incluir muchos tipos diferentes de archivos para ayudar a crear un lugar central para todos los documentos. Use las reuniones en línea para mejorar el flujo de información y el conocimiento de las situaciones.
 
-| Tipo de plantilla base | | Propiedades que vienen con esta plantilla base |
-| ------------------|-- |----------------------------------------------------- |
+| Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
+|-------------------|-------|---------------------------------------------------------------------------|
 |Coordinar la respuesta a incidentes|`com.microsoft.teams.template.CoordinateIncidentResponse` |Canales <ul><li>General<li>Anuncios</li><li>Logística</li><li>Planeación</li><li>Recuperar</li><li>Urgente</li></ul> Phone <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

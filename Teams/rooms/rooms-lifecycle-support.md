@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Obtenga más información sobre la compatibilidad del ciclo de vida con salas de Microsoft Teams, incluida la estructura de soporte dinámico y sus fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336989"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650923"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  
@@ -38,7 +38,7 @@ Todas las versiones se enumeran en las notas de la [versión de Microsoft Teams 
 
 ## <a name="windows-10-release-support"></a>Soporte técnico para Windows 10
 
-Las salas de Microsoft Teams requieren las SKU de Windows 10 IoT Enterprise o Windows 10 Enterprise en opciones de mantenimiento del canal semianual. Estas otras ediciones de Windows 10 no son compatibles:
+Las salas de Microsoft Teams requieren las SKU de Windows 10 IoT Enterprise o Windows 10 Enterprise en las opciones de mantenimiento de canal de Semi-Annual. Estas otras ediciones de Windows 10 no son compatibles:
 
 - Ediciones de la sucursal de mantenimiento a largo plazo (LTSB) de Windows 10 Enterprise y del canal de mantenimiento a largo plazo (LTSC)
 - Windows 10 Internet of Things (IoT) Enterprise LTSB/LTSC Edition
@@ -53,7 +53,8 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles de Wi
 
 |Versión  |Fecha de disponibilidad   |Estado de soporte técnico de salas de Microsoft Teams   |Versión mínima de la aplicación salas de Microsoft Teams | Compilación recomendada de sistema operativo  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 2004 |2020-05-27 |En validación, <br/>No recomendado|&#x2014; |19041,264 |
+| 20H2 |2020-10-20 |En validación, <br/>Aún no es compatible|&#x2014; |19042,572 |
+| 2004 |2020-05-27 |Omitidos <br/> No recomendado|&#x2014; |19041,264 |
 | 1909 |2019-11-12 |Posible <br/>Recomendado |4.5.33.0 |18363,418  |
 | 1903 |2019-05-21 |Compatible  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |No es compatible, <br/>Problemas de compatibilidad conocidos &#x2780;|&#x2014; |&#x2014; |

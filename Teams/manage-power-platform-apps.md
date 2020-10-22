@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar el acceso a las aplicaciones de Power Platform en el centro de administración de Microsoft Teams.
-ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 687d8df929150cdc38795a13ba06687ed7e42b2b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599555"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650963"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones de plataforma de energía en el centro de administración de Microsoft Teams
 
@@ -32,7 +32,7 @@ Este artículo le ofrece información general sobre cómo administrar las aplica
 
 [Power apps](https://powerapps.microsoft.com) es un entorno de desarrollo de aplicaciones de bajo código y sin código que los creadores de su organización pueden usar para crear aplicaciones personalizadas que se conecten a los datos empresariales. Los [agentes de Power virtual](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) son un bot? de creación de un bot? Con la integración de las aplicaciones de Power Platform en Teams, las organizaciones pueden simplificar los procesos empresariales, responder a las necesidades empresariales cambiantes más rápidamente para impulsar una mayor colaboración, y crear y compartir soluciones personalizadas para ser más productivas.  
 
-Las aplicaciones de plataforma de energía creadas por los responsables de la organización se agregan automáticamente a teams. Los responsables de los encargados pueden controlar quién puede acceder a su aplicación mediante la [característica de uso compartido en Power apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) y la [característica de uso compartido en Power virtual Agents](https://docs.microsoft.com/power-virtual-agents/admin-share-bots). 
+Las aplicaciones de plataforma de energía creadas por los responsables de la organización se agregan automáticamente a teams. Los responsables de los encargados pueden controlar quién puede acceder a su aplicación mediante la [característica de uso compartido en Power apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) y la [característica de uso compartido en Power virtual Agents](https://docs.microsoft.com/power-virtual-agents/admin-share-bots).
 
 Cuando se crea o se comparte una aplicación de Power Platform, los usuarios pueden verla e instalarla en la página aplicaciones yendo a **creado para *el nombre*de la organización**  >  **creado por sus colegas**. (Puede demorar unos minutos después de crear o compartir una aplicación para que la aplicación aparezca aquí).
 
@@ -77,11 +77,13 @@ Para permitir o bloquear a determinados usuarios de su organización el acceso a
 
 Por ejemplo, para bloquear el acceso de usuarios específicos a aplicaciones creadas en Power Apps, cree una directiva de permisos de aplicaciones personalizada para bloquear las **aplicaciones de energía compartidas**y, a continuación, asigne la Directiva a esos usuarios.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Captura de pantalla de la Directiva de permisos de aplicaciones personalizada de ejemplo con Power apps compartida bloqueada":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Captura de pantalla de la Directiva de permisos de aplicaciones personalizada de ejemplo con Power apps compartida bloqueada":::
 
 ### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Usar registros de auditoría para investigar la actividad de instalación de la plataforma Power
 
-Puede usar registros de auditoría para los equipos para investigar eventos en los que los usuarios instalaron aplicaciones de la plataforma de energía desde la sección **creado por su compañeros** de la página aplicaciones de Teams. Para ello, [Busque en el registro de auditoría](https://docs.microsoft.com/microsoftteams/audit-log-events) el evento de Teams de la **aplicación instalado** (bajo la operación de **AppInstalled** ) de un usuario o un conjunto de usuarios determinado. Para buscar aplicaciones instaladas desde la sección **desarrollado por su compañero** , busque el valor **TemplatedInstance** bajo la propiedad **AppDistributionMode** en los detalles de un registro determinado. 
+Puede usar registros de auditoría para los equipos para investigar eventos en los que los usuarios instalaron aplicaciones de la plataforma de energía desde la sección **creado por su compañeros** de la página aplicaciones de Teams. Para ello, [Busque en el registro de auditoría](https://docs.microsoft.com/microsoftteams/audit-log-events) el evento de Teams de la **aplicación instalado** (bajo la operación de **AppInstalled** ) de un usuario o un conjunto de usuarios. Para buscar aplicaciones instaladas desde **una compilación de sus compañeros**, busque el valor **TemplatedInstance** en la propiedad **AppDistributionMode** en los detalles de un registro determinado. 
+
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Captura de pantalla del valor TemplatedInstance de la propiedad AppDistributionMode":::
 
 > [!NOTE]
 > Puede exportar registros de auditoría en formato CSV para facilitar el filtrado.
