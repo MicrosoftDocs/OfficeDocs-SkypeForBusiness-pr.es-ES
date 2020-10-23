@@ -18,36 +18,36 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4cae6ee3f4a335cc1be1636917a5b200d279d374
-ms.sourcegitcommit: 5571e27276d89df97edbce72a42638921c235311
+ms.openlocfilehash: 9ac74a75ff159a4ec00a660c4bb01759614c8d10
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48408153"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655497"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
 Cuando planee eventos en directo de Teams para tener reuniones grandes en la organización, debe tener en cuenta varios factores antes de empezar la configuración.
 
  > [!Note]
-> Para más información sobre los eventos en directo de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Para más información sobre los requisitos de ancho de banda para los eventos en directo de Teams, consulte [preparar la organización](../prepare-network.md).
+> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>¿Quién puede crear, asistir y programar eventos en directo?
 
-Cualquiera puede asistir a un evento en directo sin una licencia. Lea [Inicio rápido para administradores: reuniones y eventos en vivo](../quick-start-meetings-live-events.md).
+Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
 
 Para que el usuario programe un evento en directo de Teams se requieren los siguientes requisitos previos.
 
 Estas son las licencias que debe asignar para producir o presentar un evento de Teams en directo:  
 
-- Una licencia de Microsoft o de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 Educación A3 o A5. La excepción de este requisito es que los usuarios invitados pueden presentar sin una licencia si se cumplen los otros criterios para [usuarios invitados](plan-for-teams-live-events.md#guest-to-present).
+- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Una licencia de Microsoft Teams: se incluye en las licencias que aparecen en la primera viñeta.
 - Se requiere una licencia de Microsoft Stream si tiene previsto compartir el contenido en una aplicación o dispositivo externo. Consulte [licencias de Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
-  Los usuarios no necesitarán una licencia de Microsoft Stream asignada si quiere que los usuarios solo graben y descarguen las grabaciones. Esto significará que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en Azure Media Services (AMS) con un límite de 30 días antes de que se eliminen. En este momento, no es algo que un administrador pueda controlar o administrar para incluir la capacidad de eliminarlo.
+  Los usuarios no necesitarán una licencia asignada de Microsoft Stream si desea que los usuarios únicamente graben y descarguen las grabaciones. Esto significará que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en Azure Media Services (AMS) con un límite de 180 días antes de que se eliminen. En este punto, no es algo que un administrador pueda controlar o administrar para incluir la capacidad de eliminarlo.
 
 >[!Note]
-> El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento, podrá participar en esta experiencia; en noviembre tendrá que dejar de participar si quiere seguir usando Stream y, en algún momento a principios de 2021, requeriremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para las grabaciones de reuniones.
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
 
 > [!NOTE]
 > En este momento no hay planes de Microsoft 365 Small Business que puedan usarse para crear y mantener eventos en vivo de Teams.
@@ -82,7 +82,7 @@ Para que un invitado pueda presentar en un evento en directo, haga lo siguiente:
 2. Pida al usuario que acepte la invitación y se una al equipo.
 3. [Programe el evento en directo y agregue el invitado al grupo de eventos](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Recomendamos que cree un canal para los productores y moderadores del evento en directo para que puedan chatear y compartir información antes del evento. Los invitados que no dispongan de credenciales de Microsoft 365 no podrán ver el calendario en Teams. Para que sea más fácil para ellos unirse al evento, los productores pueden publicar el vínculo del evento en el canal. Los moderadores pueden abrir Teams, ir al canal y, después, hacer clic en el vínculo para unirse al evento.
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
 
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver los eventos en directo?
 
@@ -109,8 +109,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 >- Hasta 50 eventos simultáneos por espacio empresarial de Teams
 >- Hasta 16 horas para cada difusión
 >
-> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para eventos en directo de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](../teams-add-on-licensing/advanced-communications.md).**
-
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](../teams-add-on-licensing/advanced-communications.md).**
 
 |**Función**   |**Difusión de reunión de Skype** |**Eventos producidos en Teams** |**Eventos producidos en las aplicaciones o dispositivos externos** |
 |---------|---------|---------|---------|
@@ -141,12 +140,12 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |&#x274C; |
 |Análisis de opiniones de los asistentes: votación y sondeos en directo |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Los límites establecidos pueden ser modificados. Compruebe[ Los límites y las especificaciones de los Teams](../limits-specifications-teams.md)<br/>
+<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> Puede tener hasta 250 moderadores y productores en un evento en directo, pero solo se muestran en la lista los últimos 10 que habló.
 
 ## <a name="regional-availability"></a>Disponibilidad regional
 
-Puede usar los eventos en directo de Teams en varias regiones a través de todo el mundo. La siguiente información muestra la disponibilidad de los miembros del equipo y los asistentes al evento.
+You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
 
 > [!IMPORTANT]
 > La región para el evento se selecciona automáticamente dependiendo del organizador y la ubicación del inquilino de Microsoft 365.
@@ -182,9 +181,9 @@ Puede usar los eventos en directo de Teams en varias regiones a través de todo 
 **Exclusiones y permisos**
 
 - **Ubicación de datos:** las ubicaciones de datos de Teams, excepto las que se enumeraron anteriormente, no son compatibles en estos momentos.
-- **China:** los participantes y los miembros del equipo no podrán usar los eventos en directo de Teams, ya que no se puede obtener acceso a Microsoft Azure Content Delivery Network en China. Una forma de evitar el problema es usar una conexión VPN corporativa, que mantiene al cliente conectado a la red CDN a través de la red corporativa.
+- **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Vaya a [Configuración de eventos en directo de Teams](set-up-for-teams-live-events.md)
 

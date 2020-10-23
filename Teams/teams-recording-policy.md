@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650973"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739338"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para realizar llamadas & reuniones
 
@@ -50,7 +50,7 @@ Los casos de uso de grabación de interacción pueden dividirse en cuatro catego
 
 Cada una de las categorías conlleva diferentes requisitos sobre cómo se inician las grabaciones, qué se graba, dónde se almacenan las grabaciones, a quién se notifica, quién controla Access y cómo se administra la retención.
 
-|                        | Prácticos        | Funcionan         | Organización general      | Regulado por la organización | Interceptación lícita   |
+| Tipo                   | Prácticos        | Funcionan         | Organización general      | Regulado por la organización | Interceptación lícita   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | Inició              | Usuario               | Aplicación/solución       | Administrador (sistema)     | Administrador (sistema)  | LEA                |
 | Target                 | Por llamada/reunión | Por llamada/reunión | Por llamada/reunión | Por usuario        | Por punto de conexión/ha |

@@ -19,18 +19,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 350af8c004f44205c6228b0dc734da25602062d0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610062"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739328"
 ---
 # <a name="evaluate-my-environment"></a>Evaluar mi entorno
 
 Este artículo proporciona una descripción general de los requisitos para evaluar correctamente su entorno actual para usar los servicios de voz en la nube. Al evaluar su entorno, usted identifica los riesgos y los requisitos que influirán en la implementación de voz de nube general. Al identificar estos elementos previamente, puede ajustar la planificación para que funcione correctamente.
 
-## <a name="introduction-to-evaluating-your-environment"></a>Introducción a la evaluación de su entorno 
+## <a name="introduction-to-evaluating-your-environment"></a>Introducción a la evaluación de su entorno
 
 Para lograr los resultados clave objetivo (OKRs), ya has tomado decisiones clave sobre el servicio. El siguiente paso consiste en realizar el descubrimiento medioambiental para evaluar todos los aspectos relacionados con su infraestructura de telefonía, redes y de TI para confirmar que su organización está lista para implementar la solución.
 
@@ -49,13 +49,14 @@ El descubrimiento medioambiental también puede descubrir si necesita [transferi
 Conocer esto ayudará a su organización a ajustar el plan del proyecto según corresponda y preparar la información necesaria para la portabilidad de números. Puede usar el [descubrimiento medioambiental para la implementación de Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) para realizar el descubrimiento medioambiental.
 
 <table>
+<tr><td>Título</td><td>Descripción</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de completar una evaluación del entorno?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Documente los resultados de la evaluación del entorno.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="adoption-and-change-management-assessment-capabilities"></a>Capacidades de evaluación de la administración de cambios y adopción 
+## <a name="adoption-and-change-management-assessment-capabilities"></a>Capacidades de evaluación de la administración de cambios y adopción
 
 La implementación pone a disposición de los usuarios una nueva tecnología, pero los resultados empresariales solo se devuelven cuando los usuarios realmente adoptan esa solución como suya. Para ayudarle a garantizar la adopción sostenida de una nueva solución, tendrá que centrar sus esfuerzos en la preparación del usuario y la administración de cambios. Para obtener resultados óptimos, realice la planeación de la disponibilidad de usuarios como una secuencia de tareas paralela a sus actividades técnicas de preparación e incorpore las siguientes actividades:
 
@@ -66,6 +67,7 @@ La implementación pone a disposición de los usuarios una nueva tecnología, pe
 Use las siguientes consideraciones para evaluar la preparación de la organización para dirigir la administración de los cambios de usuario.
 
 <table>
+<tr><td>Título</td><td>Descripción</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Ha tenido éxito previamente con la adopción por el usuario de software o servicios?</li><li>¿Puede hacer un seguimiento del uso?</li><li>¿Tiene los recursos para diseñar y administrar una campaña inicial &mdash; y constante de &mdash; adopción (conciencia, aprendizaje y soporte)?</li><li>¿Tiene un equipo de administración de cambios/adopción de usuarios dedicado o puede invertir en esos recursos para garantizar el resultado empresarial?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Si respondió &quot; afirmativamente &quot; a todo lo anterior, identifique los participantes de la administración de cambios de los usuarios correctos y empiece la planeación de la disponibilidad de los usuarios.</li><li>Si ha respondido &quot; &quot; a una parte o a todas las anteriores, considere la posibilidad de repartir recursos externos para ayudarle a impulsar las actividades de administración de cambios y relacionadas con la adopción de su organización.</li></ol></td></tr>
 </table>
@@ -130,15 +132,15 @@ Para implementar un túnel dividido, consulte con su proveedor de VPN para los d
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-Al igual que VPN, las redes Wi-Fi no tienen por qué estar diseñadas o configuradas para admitir medios en tiempo real. La planeación o la optimización de una red Wi-Fi para admitir equipos es una consideración importante para una implementación de alta calidad.
+Al igual que las redes VPN, Wi-Fi las redes no se diseñan o configuran necesariamente para admitir elementos multimedia en tiempo real. El planeamiento o la optimización de una red Wi-Fi para admitir equipos es una consideración importante para una implementación de alta calidad.
 
 Hay varios factores que se deben tener en cuenta para optimizar una red Wi-Fi:
 
 -   Implementar QoS o Wi-Fi Multimedia (WMM) para garantizar que el tráfico multimedia se priorice de forma acorde a través de redes Wi-Fi.
 
--   Planear y optimizar las bandas Wi-Fi y la ubicación de puntos de acceso. El intervalo de 2,4 GHz puede proporcionar una experiencia adecuada en función de la ubicación del punto de acceso, pero a los puntos de acceso normalmente también le afectan otros dispositivos de consumidores que funcionan en esa gama. El intervalo de 5 GHz es mejor para los medios en tiempo real, debido a su rango denso, pero requiere más puntos de acceso para conseguir suficiente cobertura. Los puntos de conexión también necesitan admitir esa gama y configurarlos para poder aprovechar esas bandas de forma adecuada.
+-   Planear y optimizar las bandas de Wi-Fi y la ubicación de puntos de acceso. El intervalo de 2,4 GHz puede proporcionar una experiencia adecuada en función de la ubicación del punto de acceso, pero a los puntos de acceso normalmente también le afectan otros dispositivos de consumidores que funcionan en esa gama. El intervalo de 5 GHz es mejor para los medios en tiempo real, debido a su rango denso, pero requiere más puntos de acceso para conseguir suficiente cobertura. Los puntos de conexión también necesitan admitir esa gama y configurarlos para poder aprovechar esas bandas de forma adecuada.
 
--   Si se implementan redes Wi-Fi de banda dual, considere la posibilidad de implementar la dirección de banda. El manejo de bandas es una técnica implementada por los proveedores de Wi-Fi para que los clientes de banda dual usen el intervalo de 5 GHz.
+-   Si se implementan redes Wi-Fi de banda dual, considere la posibilidad de implementar la dirección de banda. La dirección de banda es una técnica implementada por los proveedores de Wi-Fi para influenciar a los clientes de banda dual de usar el intervalo de 5 GHz.
 
 -   Cuando los puntos de acceso del mismo canal están demasiado juntos, pueden provocar la superposición de señales y competir involuntariamente, lo que provoca una mala experiencia para el usuario. Asegúrese de que los puntos de acceso que se encuentran junto a los demás estén en canales que no se superponen.
 
@@ -166,14 +168,14 @@ Una vez completada la planificación y la preparación de la red (incluida la ac
 
 Puede descargar la [herramienta de evaluación de redes de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=53885) para comprobar si su red está lista para los equipos. La herramienta ofrece funcionalidad dual: puede comprobar si se han abierto todos los puertos correctos y puede probar las deficiencias de red.
 
-Después de descargar e instalar la herramienta, puede encontrarla en C: \\ archivos de programa \\ herramienta Evaluación de red de Microsoft Skype empresarial. En ese directorio se incluye una guía detallada sobre cómo usar la herramienta, Usage. docx.
+Después de descargar e instalar la herramienta, puede encontrarla en C: \\ archivos de programa \\ herramienta Evaluación de red de Microsoft Skype empresarial. En ese directorio se incluye una guía detallada sobre cómo usar la herramienta Usage.docx.
 
 ### <a name="test-for-opened-ports"></a>Probar los puertos abiertos
 
-Abra una ventana del símbolo del sistema y navegue al directorio de la herramienta de evaluación de redes escribiendo **CD C: \\ archivos de programa \\ herramienta Evaluación de red de Microsoft Skype**empresarial. En el símbolo del sistema, inicie la prueba de puertos abiertos escribiendo **networkassessmenttool. exe/connectivitycheck**
+Abra una ventana del símbolo del sistema y navegue al directorio de la herramienta de evaluación de redes escribiendo **CD C: \\ archivos de programa \\ herramienta Evaluación de red de Microsoft Skype**empresarial. En el símbolo del sistema, inicie la prueba de puertos abiertos escribiendo **networkassessmenttool.exe/connectivitycheck**
 
 Después de ejecutar las comprobaciones, la herramienta mostrará el mensaje "comprobaciones completadas correctamente" o informe sobre los puertos bloqueados.
-También genera un archivo denominado Connectivity_results. txt, que contiene el resultado de la herramienta y lo almacena en el directorio de la herramienta de evaluación de redes local% userprofile% \\ AppData de \\ \\ Microsoft Skype empresarial \\ .
+También genera un archivo denominado Connectivity_results.txt, que contiene el resultado de la herramienta y lo almacena en el directorio de la herramienta de evaluación de redes de% userprofile% \\ AppData \\ local de \\ Microsoft \\ .
 
 Le recomendamos que ejecute las comprobaciones de conectividad de forma regular para asegurarse de que los puertos se hayan abierto y funcionen correctamente.
 
@@ -196,7 +198,7 @@ Al probar estas deficiencias, distinguimos entre dos segmentos diferentes:
 
 -   El *segmento de cliente* es el segmento de red lógica en el que residen los clientes.
 
-Para probar ambos segmentos, use la herramienta Evaluación de red. Para probar el segmento, navegue hasta el directorio y escriba **networkassessmenttool. exe** en el símbolo del sistema. Los resultados se escriben en un archivo denominado resultados. TSV y puede compararlos con los [requisitos](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) de cada segmento.
+Para probar ambos segmentos, use la herramienta Evaluación de red. Para probar el segmento, vaya al directorio y escriba **networkassessmenttool.exe** en el símbolo del sistema. Los resultados se escriben en un archivo denominado resultados. TSV y puede compararlos con los [requisitos](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) de cada segmento.
 
 Tenga en cuenta que ambos segmentos deben cumplir los requisitos para una implementación de alta calidad. Le recomendamos que ejecute la herramienta varias veces durante una hora directamente para obtener una buena indicación del rendimiento de su red.
 
@@ -220,6 +222,7 @@ Para obtener más información, consulte [calidad de servicio en Microsoft Teams
 
 
 <table>
+<tr><td>Título</td><td>Descripción</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de realizar las evaluaciones de red apropiadas en todos los segmentos de red y ubicaciones de la organización?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Puede realizar una evaluación de red detallada para asegurarse de que su red está lista para su implementación de Microsoft Teams.</li><li>Realizar correcciones de red basadas en los resultados de la evaluación de cada segmento de red.</li></ol></td></tr>
 </table>

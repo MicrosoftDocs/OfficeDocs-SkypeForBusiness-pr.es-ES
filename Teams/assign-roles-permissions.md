@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006c1a446708c5773abc2b63720846900051bfdf
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: bc85b682ee24b466514e297532dc9ac0deb56924
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581401"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739288"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 =================================================
@@ -34,7 +34,7 @@ En Microsoft Teams hay dos roles de usuario: **propietario** y **miembro**. De f
 En la tabla siguiente se muestra la diferencia entre un propietario y un miembro:
 
 
-|                                   | Propietario de equipo | Integrante de grupo |
+|    Tarea                               | Propietario de equipo | Integrante de grupo |
 |-----------------------------------|------------|-------------|
 |          **Crear un equipo**          |    Sí<sup>1</sup>     |     No      |
 |          **Abandonar equipo**           |    Sí     |     Sí     |
@@ -43,9 +43,9 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 |          **Agregar canal estándar**          |    Sí     |    Sí<sup>2</sup>|
 | **Editar Nombre/Descripción del canal estándar** |    Sí     |    Sí<sup>2</sup>|
 |        **Eliminar canal estándar**         |    Sí     |    Sí<sup>2</sup>|
-|          ***Agregar canal privado**          |    Sí     |    Sí<sup>2</sup>|
-| ***Editar Nombre/Descripción del canal privado** |    No     |    N/D|
-|        ***Eliminar canal privado**         |    Sí     |    No|
+|          **_Agregar canal privado_*          |    Sí     |    Sí<sup>2</sup>|
+| **_Editar Nombre/Descripción del canal privado_* |    No     |    N/D|
+|        **_Eliminar canal privado_*         |    Sí     |    No|
 |          **Agregar miembros**          |  Sí<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Solicitud para agregar miembros**          |  N/D   |     Sí<sup>5</sup>     |
 |           **Agregar aplicaciones**            |    Sí     |    Sí<sup>2</sup>|
@@ -78,7 +78,7 @@ Para asignar un rol de usuario, en Teams, seleccione el nombre del equipo y haga
 De forma predeterminada, todos los usuarios con un buzón en Exchange Online tienen permisos para crear grupos de Microsoft 365 y, por lo tanto, un equipo dentro de Microsoft Teams. Puede tener un control más estricto y restringir la creación de nuevos equipos y, por lo tanto, la creación de nuevos grupos de Microsoft 365 mediante la delegación de los derechos de administración y creación de grupos a un conjunto de usuarios. Para obtener instrucciones, consulte [administrar quién puede crear grupos de Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
-||||
+|Icono|Título|Descripción|
 |---------|---------|---------|
 | ![Un icono que representa un punto de decisión](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Punto de decisión         |¿Todos los usuarios de Microsoft Teams podrán crear equipos (recomendado)?         |
 | ![Un icono que representa los pasos siguientes](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Pasos siguientes         |Modifique los permisos predeterminados de quién puede crear grupos de Microsoft 365 si necesita limitar quién puede crear equipos.         |

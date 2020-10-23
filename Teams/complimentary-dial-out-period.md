@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Obtenga más información sobre el período de llamadas gratuitas para Microsoft 365 u Office 365 plan de llamadas y la Conferencia de audio Office 365 en Microsoft Teams.
-ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 842e496b242237bfc67b1adead73afd0a3653ddd
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690896"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739258"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -68,7 +68,7 @@ Para obtener más información sobre créditos de comunicación, consulte [créd
 
 **Países y regiones de la zona A**
 
-|    |
+|Tercer    |
 |-----|
 |Australia  <br/> |
 |Austria  <br/> |

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
-ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
+ms.openlocfilehash: 295bee65120e3c349efe1aa5fbc1e7b42c8da87a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429372"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739388"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -40,7 +40,7 @@ Los usuarios tienen que dar su consentimiento a las aplicaciones y su administra
 Los permisos que se indican a continuación en mayúscula (por ejemplo, RECEIVE_MESSAGE y REPLYTO_MESSAGE) no aparecen en la [documentación para desarrolladores de Microsoft Teams](https://aka.ms/teamsdevdocs) ni en los [permisos para Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). Son simplemente una descripción breve para este artículo.
 
 
-|    |     |
+| Título   | Descripción    |
 |-----------|------------|
 | ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Use las tablas siguientes como guía para comprender qué permisos solicitan las aplicaciones que está investigando.</li></ul> |
 | ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Investigue la aplicación o el servicio para decidir si desea permitir el acceso a él dentro de su organización. Por ejemplo, los bots envían y reciben mensajes de los usuarios y, excepto los bots personalizados de empresa, se encuentran fuera del límite de cumplimiento. Por lo tanto, cualquier aplicación que incluya un bot necesitará esos permisos y tendrá ese perfil de riesgo, como mínimo. </li></ul>|
@@ -49,7 +49,7 @@ Los permisos que se indican a continuación en mayúscula (por ejemplo, RECEIVE_
 
 ### <a name="required-permissions"></a>Permisos necesarios
 
-Ninguno
+Ninguna
 
 ### <a name="optional-permissions"></a>Permisos opcionales
 

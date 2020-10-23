@@ -15,12 +15,12 @@ description: Cree una estrategia de administración de cambios para Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581791"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739098"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
 =======================================================
@@ -40,7 +40,7 @@ Procedimientos recomendados para la administración de los cambios de Teams:
     a.  Material de reconocimiento interno, como pósteres, señalización digital y eventos
 
     b.  Información de autoayuda y formación en una única ubicación
-    
+
     c.  Un mecanismo definido para facilitar los comentarios
 
     d.  Medidas predefinidas del éxito (adopción de soluciones, vistas de materiales clave, asistencia a cursos)
@@ -58,7 +58,7 @@ Procedimientos recomendados para la administración de los cambios de Teams:
 
 La primera regla para que la adopción se realice correctamente es crear un equipo dinámico compuesto por las partes interesadas clave y las personas adecuadas que puedan impulsar y operar cambios en los demás. Una estrategia de adopción exitosa comienza con un equipo de individuos comprometidos que representen una sección transversal de la organización. Los roles de las partes interesadas clave incluyen un patrocinador ejecutivo, propietarios de servicios, profesionales de TI y expertos.
 
-|  |  |
+|Icono  |Descripción  |
 |---------|---------|
 |![Icono de patrocinadores ejecutivos](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Los **patrocinadores ejecutivos** son los líderes clave dentro de la organización y su participación es esencial para fomentar la adopción por parte de los empleados. Ellos tienen la mayor influencia sobre la cultura empresarial y pueden comunicar activamente el valor y los beneficios de una nueva tecnología y metodología.         |
 |![Icono de propietarios de servicios](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Los **propietarios del servicio** son responsables de asegurar que los usuarios usen el servicio y obtener valor de él. La configuración de los propietarios de servicio de su organización es importante para garantizar que los objetivos empresariales establecidos para Microsoft 365 u Office 365 se hayan realizado.         |

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: eed9ec99445c2f632f1443343b7076aadfbb70a8
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689656"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739048"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -71,10 +71,11 @@ Para garantizar que las llamadas RTC y VOIP entrantes siempre se encuentran en e
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Cómo configurar los usuarios para que reciban todas las llamadas de VOIP y RTC entrantes en Teams
 Para asegurarse de que los usuarios reciban todas las llamadas de VOIP y RTC entrantes en Teams, establezca el modo de coexistencia del usuario en TeamsOnly en el centro de administración de Microsoft Teams o use la sesión de Windows PowerShell remota de Skype empresarial para actualizar TeamsUpgradePolicy de la siguiente manera:
 
-    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
+```powershell
+Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
+```
 
-
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 [Configurar planes de llamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
