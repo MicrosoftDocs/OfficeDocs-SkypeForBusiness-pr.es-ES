@@ -23,14 +23,17 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 546e693dd1fb6e9becf7119c35d7b00875eda99a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776325"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739178"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
+
+> [!IMPORTANT]
+> El centro de administración de Microsoft Teams ha reemplazado al centro de administración de Skype empresarial (portal heredado). Toda la configuración para administrar Skype empresarial ahora está en el centro de administración de Teams. Para obtener más información, vea [administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 En este artículo se explica cómo los administradores configuran Skype Empresarial para un pequeño número de usuarios. Para realizar estos pasos en masa, hemos incluido vínculos a los cmdlets de Windows PowerShell que puede usar.
   
@@ -76,7 +79,7 @@ Para configurar estas opciones en masa, use PowerShell. Consulte [configurar el 
 
 Después de [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md) para todas las personas de su empresa, puede bloquear de manera selectiva las comunicaciones externas de personas específicas con estos pasos.
   
-1. Elija **usuarios**, seleccione los usuarios cuya configuración desea deshabilitar y, a continuación, **Edit** ![elija Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)edición.
+1. Elija **usuarios**, seleccione los usuarios cuya configuración desea deshabilitar y, a continuación, elija **Editar** ![ Edición ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
     
 2. Elija **Comunicaciones externas** y después desactive las opciones correspondientes:
     
@@ -91,7 +94,7 @@ Para configurar estas opciones en masa, use PowerShell. Consulte [configurar el 
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Editar la configuración de audioconferencia para un usuario
 <a name="__toc314837483"> </a>
 
-1. Elija **usuarios**, seleccione el usuario cuya configuración de audioconferencias desee editar y, a continuación, elija **Editar** ![edición](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Elija **usuarios**, seleccione el usuario cuya configuración de audioconferencias desee editar y, a continuación, elija **Editar** ![ Edición ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) .
     
 2. Elija **audioconferencias**, seleccione su proveedor de servicios de audioconferencia, escriba o modifique la información solicitada y, a continuación, haga clic en **Guardar**.
     

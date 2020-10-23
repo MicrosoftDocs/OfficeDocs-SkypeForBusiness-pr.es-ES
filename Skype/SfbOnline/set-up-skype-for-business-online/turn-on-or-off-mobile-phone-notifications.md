@@ -20,14 +20,17 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Obtenga información sobre cómo activar o desactivar las notificaciones de teléfono móvil para que los usuarios puedan recibir alertas sobre mensajes instantáneos, correo de voz y mensajes instantáneos perdidos.
-ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: f508c106d2ce2e95d8c7763e3360960beccfc958
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164119"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739218"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones del teléfono móvil
+
+> [!IMPORTANT]
+> El centro de administración de Microsoft Teams ha reemplazado al centro de administración de Skype empresarial (portal heredado). Toda la configuración para administrar Skype empresarial ahora está en el centro de administración de Teams. Para obtener más información, vea [administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Como **[asignación de roles de administrador en las aplicaciones de Microsoft 365 para](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** su organización, puede elegir si los usuarios de Skype empresarial recibirán alertas sobre mensajes instantáneos entrantes y perdidos cuando estén en sus teléfonos móviles o tabletas.
   

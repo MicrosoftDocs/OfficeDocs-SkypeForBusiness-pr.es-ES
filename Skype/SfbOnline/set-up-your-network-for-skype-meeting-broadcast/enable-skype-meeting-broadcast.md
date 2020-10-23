@@ -19,27 +19,30 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Para que las personas de la organización puedan usar la difusión de reunión de Skype, debe habilitarla. Para ello, necesita saber cómo usar Windows PowerShell. Si no conoce Windows PowerShell, considere la posibilidad de contratar un partner de Microsoft para realizar este paso.
-ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778125"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739058"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
-Para que las personas de la organización puedan usar la difusión de reunión de Skype, debe habilitarla. Para ello, necesita saber cómo usar Windows PowerShell. Si no conoce Windows PowerShell, considere la posibilidad de contratar un [Partner de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para realizar este paso.
+> [!IMPORTANT]
+> El centro de administración de Microsoft Teams ha reemplazado al centro de administración de Skype empresarial (portal heredado). Toda la configuración para administrar Skype empresarial ahora está en el centro de administración de Teams. Para obtener más información, vea [administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+
+Para que las personas de la organización puedan usar la difusión de reunión de Skype, debe habilitarla. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Difusión de reunión de Skype mediante el Centro de administración de Skype Empresarial
 
 ![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1. Inicie sesión con su cuenta de administrador global o la cuenta de administrador de [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Skype empresarial en.
+1. Inicie sesión con su cuenta de administrador global o la cuenta de administrador de Skype empresarial en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
-2. En el centro de administración, vaya a**equipos**del centro de **Administración** > .
+2. En el centro de administración, vaya a equipos del centro de **Administración**  >  **Teams**.
     
-3. En el **centro de administración de Teams**, vaya a**reuniones de difusión**de **portal** > **en línea** > y, a continuación, seleccione **Habilitar difusión de reunión de Skype**.
+3. En el **centro de administración de Teams**, vaya a reuniones de difusión de **portal**  >  **en línea**  >  **Broadcast meetings**y, a continuación, seleccione **Habilitar difusión de reunión de Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Habilitar la Difusión de reunión de Skype mediante PowerShell
 
@@ -79,7 +82,7 @@ Para que las personas de la organización puedan usar la difusión de reunión d
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    Puede confirmar que la configuración está habilitada ejecutando `Get-CsBroadcastMeetingConfiguration` otra vez.
+    Puede confirmar que la configuración está habilitada ejecutando  `Get-CsBroadcastMeetingConfiguration` otra vez.
     
      ![Habilitar cmdlet de organización en una Difusión de reunión de Skype.](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   

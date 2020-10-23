@@ -20,14 +20,17 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: 'Obtenga información sobre cómo configurar el modo de privacidad para sus usuarios para que puedan controlar mejor la forma en que las personas ven su disponibilidad. '
-ms.openlocfilehash: 6ad7485d24854bfdb9aef9244164bf5180e8c7d2
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f0f9237f701be219a9cbce9a44704cbb582f48d4
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769723"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739188"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar el modo de privacidad de presencia
+
+> [!IMPORTANT]
+> El centro de administración de Microsoft Teams ha reemplazado al centro de administración de Skype empresarial (portal heredado). Toda la configuración para administrar Skype empresarial ahora está en el centro de administración de Teams. Para obtener más información, vea [administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 La configuración de presencia de Skype empresarial online ofrece más control a las personas sobre quién puede ver si están disponibles, en una reunión o fuera de la oficina. Para obtener más información sobre la configuración de privacidad y presencia de Skype empresarial, consulte [configurar la presencia en Skype empresarial online](configure-presence-in-skype-for-business-online.md). 
   
@@ -38,7 +41,7 @@ La configuración de presencia de Skype empresarial online ofrece más control a
     
 2. En **modo de privacidad de presencia**, elija la configuración y, a continuación, haga clic en **Guardar**.
     
-|**Al**|**Quién puede ver la presencia de un usuario**|
+|**Setting**|**Quién puede ver la presencia de un usuario**|
 |:-----|:-----|
 |**Mostrar información de presencia automáticamente** <br/> |Todos los usuarios de Skype Empresarial que no pertenezcan a los grupos de privacidad **Externo** o **Bloqueado**. <br/> |
 |**Mostrar la información de presencia solo a los contactos de un usuario** <br/> |Cualquier persona de la lista de contactos de un usuario que no pertenezca al grupo de privacidad **externo** o **bloqueado** . <br/> Los usuarios individuales pueden cambiar esta configuración en el cuadro de diálogo **Opciones** de Skype empresarial. <br/> |

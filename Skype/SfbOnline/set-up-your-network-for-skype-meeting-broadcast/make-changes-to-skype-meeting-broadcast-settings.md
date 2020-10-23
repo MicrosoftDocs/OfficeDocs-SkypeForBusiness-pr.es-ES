@@ -20,14 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Puede habilitar la difusión de reunión de Skype y realizar cambios en la configuración y las directivas de esas reuniones.
-ms.openlocfilehash: c1831afd3a8c15f4635f5c09359fc7393b1fdae5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769483"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739068"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Realizar cambios en la configuración de difusión de reunión de Skype para su organización
+
+> [!IMPORTANT]
+> El centro de administración de Microsoft Teams ha reemplazado al centro de administración de Skype empresarial (portal heredado). Toda la configuración para administrar Skype empresarial ahora está en el centro de administración de Teams. Para obtener más información, vea [administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Puede habilitar la difusión de reunión de Skype y realizar cambios en la configuración y las directivas de esas reuniones.
   
