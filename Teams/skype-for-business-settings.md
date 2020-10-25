@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar la configuración de las características de Skype empresarial en el centro de administración de Microsoft Teams.
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739238"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753565"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739238"
 
 Como administrador, el centro de administración de Microsoft Teams es donde administra las características de Skype empresarial para los usuarios de Skype empresarial de su organización. Puede administrar la configuración [de su organización](#manage-skype-for-business-settings-for-your-organization) en la página de **Skype empresarial** y la configuración [de usuarios individuales](#manage-skype-for-business-settings-for-individual-users) en la pestaña **Skype empresarial** de las páginas de detalles del usuario.
 
-Solo verá la página de **Skype empresarial** en el centro de administración de Microsoft Teams si el modo de coexistencia de su organización no está configurado para **solo equipos**. De forma similar, solo verá la pestaña de **Skype empresarial** para un usuario si el modo de coexistencia del usuario no es **solo de Teams**. Para obtener más información sobre los modos de coexistencia, consulte [comprender Teams y la coexistencia y la interoperabilidad de Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md) y [establecer la coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md).
+Solo verá la página de **Skype empresarial** si el modo de coexistencia de su organización no está establecido como **solo para equipos**. De forma similar, solo verá la pestaña de **Skype empresarial** para un usuario si el modo de coexistencia del usuario no es **solo de Teams**. Para obtener más información sobre los modos de coexistencia, consulte [comprender Teams y la coexistencia y la interoperabilidad de Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md) y [establecer la coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
 > La configuración de Skype empresarial se encontraba en el **portal heredado** en el centro de administración de Microsoft Teams. Con la retirada del portal heredado, hemos migrado la configuración a estas nuevas ubicaciones en el centro de administración de Teams para la administración de Skype empresarial.
+
+Debe tener asignado el [rol de administrador de Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de administrador global o administrador de Skype empresarial para administrar las características de Skype empresarial en el centro de administración de Microsoft Teams.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Administrar la configuración de Skype empresarial para su organización
 

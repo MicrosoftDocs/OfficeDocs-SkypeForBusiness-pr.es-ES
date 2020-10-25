@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga más información sobre los operadores automáticos y las colas de llamadas, y sobre cómo usarlos para que las personas que llaman puedan moverse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 3e1a7fe6b5f059236e0fafd64dbf87b7cebbeecf
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: ece138b3e3513273b57d980442f46f683aaddda4
+ms.sourcegitcommit: 5a013b4c0a8d23d33ab9e9147991f2b3b7247693
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48210009"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48748902"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear los operadores automáticos de Teams y las colas de llamadas
 
@@ -136,13 +136,13 @@ Los operadores automáticos enrutan todas las llamadas de una de las siguientes 
 > [!NOTE]
 > Un solo operador automático solo puede admitir un único método de "marcado por".  Para permitir que las personas que llaman llamen por nombre y número, tendrá que crear un operador automático que tenga una opción de marcado por nombre y otra para marcar por extensión.  Cada una de estas opciones se redirigirá a attenants automático configurado para estos escenarios de "marcado por". 
 
-Cuando las llamadas son redirigidas por un operador automático, puede elegir entre los siguientes destinos de enrutamiento de llamadas:
+Cuando las llamadas son redirigidas por un operador automático o una cola de llamadas, puede elegir entre los siguientes destinos de enrutamiento de llamadas:
 
 - **Persona de la organización** : una persona de su organización que puede recibir llamadas de voz. Puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server.
 - **Aplicación de voz** : otro operador automático o una cola de llamadas. Elija la cuenta de recursos asociada al destino.
 - **Número de teléfono externo** , cualquier número de teléfono. (Consulta los [detalles técnicos de la transferencia externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - Buzón de **voz: el buzón de voz** asociado a un grupo de Microsoft 365 que especifique.
-- **Operador** : el operador definido para el operador automático. Definir un operador es opcional. Un operador puede ser cualquiera de los otros destinos de esta lista.
+- **Operador** (solo operador automático): operador definido para el operador automático. Definir un operador es opcional. Un operador puede ser cualquiera de los otros destinos de esta lista.
 
 Los operadores automáticos ofrecen opciones de enrutamiento de llamadas por separado para las llamadas que se reciben fuera de las horas laborales y de los días festivos. El enrutamiento de llamadas después de las horas permite todas las opciones enumeradas anteriormente, mientras que el enrutamiento de llamadas de días no laborables permite redireccionar o desconectar una llamada, pero no las opciones de teclas de marcado.
 

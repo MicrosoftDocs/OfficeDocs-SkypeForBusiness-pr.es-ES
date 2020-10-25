@@ -20,17 +20,17 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: 'Obtenga información sobre cómo configurar el modo de privacidad para sus usuarios para que puedan controlar mejor la forma en que las personas ven su disponibilidad. '
-ms.openlocfilehash: f0f9237f701be219a9cbce9a44704cbb582f48d4
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: a2b4ed11f1d56927a4bc7eed6ce36b5b04411509
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739188"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753445"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar el modo de privacidad de presencia
 
 > [!IMPORTANT]
-> El centro de administración de Microsoft Teams ha reemplazado al centro de administración de Skype empresarial (portal heredado). Toda la configuración para administrar Skype empresarial ahora está en el centro de administración de Teams. Para obtener más información, vea [administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> El centro de administración de Microsoft Teams ha reemplazado al centro de administración de Skype empresarial (portal heredado). Toda la configuración para administrar Skype empresarial ahora está en el centro de administración de Teams. Debe tener asignado el [rol de administrador de Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de administrador global o administrador de Skype empresarial para administrar las características de Skype empresarial en el centro de administración de Teams. Para obtener más información, vea [administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 La configuración de presencia de Skype empresarial online ofrece más control a las personas sobre quién puede ver si están disponibles, en una reunión o fuera de la oficina. Para obtener más información sobre la configuración de privacidad y presencia de Skype empresarial, consulte [configurar la presencia en Skype empresarial online](configure-presence-in-skype-for-business-online.md). 
   

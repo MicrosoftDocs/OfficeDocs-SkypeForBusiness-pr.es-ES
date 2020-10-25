@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235848"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739398"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
 
@@ -34,7 +34,6 @@ Existen dos formas de reunirse en Microsoft Teams: reuniones y eventos en direct
  - Las **reuniones** en Teams incluyen audio, vídeo y uso compartido de la pantalla para hasta 300* personas. Es uno de los métodos clave para colaborar en Teams. Y no es necesario ser un miembro de una organización (ni siquiera tener una cuenta de equipo) para unirse a una reunión de Teams, solo tiene que buscar en la invitación instrucciones sobre cómo realizar llamadas.
 
  - **Eventos en directo** es una extensión de las reuniones de Teams que le permiten programar y producir eventos que se transmiten a grandes contactos en línea, hasta 10.000 personas. Si necesita una reunión para más de 300 personas, utilice un evento en directo.
-<br><br>**Nota:** para Teams para Administración pública (GCC, GCC High, DoD), el límite sigue siendo 250 Actualizaremos este artículo cuando el límite de nube de administración pública aumente de 250 a 300. Para obtener más información sobre los límites de reunión de Teams, consulte [Límites y especificaciones](limits-specifications-teams.md).
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obtenga licencias para reuniones y eventos en directo
 

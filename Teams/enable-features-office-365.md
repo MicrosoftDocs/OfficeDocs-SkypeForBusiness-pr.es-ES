@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57c54fcd90787048cc357a71296f942cacdef43
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583449"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739248"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -97,6 +97,10 @@ La búsqueda de directorios enfocada de Microsoft Teams usa la directiva de libr
 - Su centro educativo quiere limitar los chats entre el personal académico y los estudiantes. 
 
 **Active** esta opción para activar las búsquedas de directorios enfocadas.
+
+### <a name="skype-for-business"></a>Skype Empresarial
+
+Utilice esta página para administrar las características de Skype empresarial para los usuarios de Skype empresarial de su organización. Para conocer más, consulte [Administrar la configuración de Skype empresarial en el Centro de administración de Microsoft Teams](skype-for-business-settings.md)
 
 ### <a name="teams-upgrade"></a>Actualización de Microsoft Teams
 
