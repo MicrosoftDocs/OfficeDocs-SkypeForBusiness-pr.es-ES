@@ -23,17 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga más información sobre los operadores automáticos y las colas de llamadas, y sobre cómo usarlos para que las personas que llaman puedan moverse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: ece138b3e3513273b57d980442f46f683aaddda4
-ms.sourcegitcommit: 5a013b4c0a8d23d33ab9e9147991f2b3b7247693
+ms.openlocfilehash: 7407b9a2bbcd8d8b3fb5d15202d1bba518953f07
+ms.sourcegitcommit: 6c24c77f0aad693d45dd5657c12bf876f62c495b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48748902"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "48765947"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear los operadores automáticos de Teams y las colas de llamadas
 
-Los operadores automáticos permiten configurar opciones de menú para enrutar llamadas según la entrada de la persona que llama. Opciones de menú ("para ventas, presione 1.  Para los servicios Pulse 2 ") para un operador automático que permita a una organización ofrecer una serie de opciones que guíen a los autores de las llamadas a su destino rápidamente, sin depender de que un operador humano controle las llamadas entrantes.
-
+Los operadores automáticos permiten configurar opciones de menú para enrutar llamadas según la entrada de la persona que llama. Las opciones de menú, como "para ventas, presione 1.  Para los servicios, pulse 2 ", para que un operador automático permita a una organización proporcionar una serie de opciones que guíen a los autores de las llamadas a su destino rápidamente, sin depender de que un operador humano controle las llamadas entrantes.
 
 Las colas de llamadas son áreas de espera para las personas que llaman. Para las situaciones en las que las personas que llaman deben comunicarse con una especialidad en particular, como las ventas o el servicio, en lugar de una persona específica, puede usar colas de llamadas para conectar a los autores de las llamadas con el grupo de agentes que pueden ayudarle. Las personas que llaman se ponen en espera hasta que un agente asignado a la cola esté disponible para realizar su llamada.
 
@@ -49,13 +48,13 @@ Cada operador automático tiene un idioma y una zona horaria específicos. Si ha
 
 Para cada operador automático, puede configurar un operador. Aunque puede configurar las llamadas de operador para ir a una variedad de destinos, la característica de operador está diseñada para permitir a los autores de llamadas hablar con una persona específica de su organización que pueda ayudarle.
 
-Los operadores automáticos pueden configurarse para permitir que las personas que llaman puedan buscar en el directorio de su organización, ya sea por nombre o por número de extensión. Dentro de un operador automático, puede especificar las personas que están disponibles para la búsqueda en el directorio seleccionando grupos de usuarios para incluir o excluir. (Esto se conoce como *ámbito de marcado*).
+Los operadores automáticos pueden configurarse para permitir que las personas que llaman puedan buscar en el directorio de su organización, ya sea por nombre o por número de extensión. Dentro de un operador automático, puede especificar las personas que están disponibles para la búsqueda en el directorio seleccionando grupos de usuarios para incluir o excluir. (Esto se conoce como *ámbito de marcado* ).
 
 Las personas que llaman pueden comunicarse con un operador automático mediante un número de teléfono directo, si está configurado, o mediante su redireccionamiento desde otro operador automático o una cola de llamadas.
 
 ## <a name="call-queues"></a>Colas de llamadas
 
-Una cola de llamadas es análoga a una sala de espera en un edificio físico. Las personas que llaman esperan en espera mientras las llamadas se enrutan a los agentes de la cola a medida que estén disponibles. Las colas de llamadas suelen usarse para las ventas y las funciones de servicio, pero se pueden usar en cualquier situación en la que el número de llamadas supere su capacidad interna, como una recepcionista en un centro de ocupado.
+Una cola de llamadas es análoga a una sala de espera en un edificio físico. Las personas que llaman esperan en espera mientras las llamadas se enrutan a los agentes de la cola a medida que estén disponibles. Las colas de llamadas suelen usarse para las funciones de ventas y servicio. Sin embargo, las colas de llamadas se pueden usar en cualquier situación en la que el número de llamadas supere su capacidad interna, como una recepcionista en un dispositivo ocupado.
 
 Las colas de llamadas permiten el enrutamiento específico de llamadas en aquellos casos en los que el número total de llamadas de la cola o el tiempo de espera supera los límites especificados. Las llamadas se pueden enrutar a personas específicas, buzón de voz, otras colas de llamadas o operadores automáticos.
 
@@ -67,7 +66,7 @@ Puede asignar un número de teléfono a una cola de llamadas, pero las colas de 
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Para configurar los operadores automáticos y las colas de llamadas, necesita lo siguiente:
+Para configurar los operadores automáticos y las colas de llamadas, necesita los recursos siguientes:
 
 - Una cuenta de recursos para cada operador automático y cola de llamadas
 - Un sistema telefónico gratis: licencia de usuario virtual para cada cuenta de recursos
@@ -81,15 +80,15 @@ Para configurar los operadores automáticos y las colas de llamadas, necesita lo
 
 Antes de configurar los operadores automáticos y las colas de llamadas, hay algunas decisiones que debe tomar acerca de cómo usar estas características en su empresa. Estas decisiones determinarán la configuración que elige al configurar los operadores automáticos y las colas de llamadas.
 
-Documente sus respuestas a estas preguntas y proporcione la información que el administrador realice en la configuración.
+Documente sus respuestas a estas preguntas y proporcione la información al administrador que realiza la configuración.
 
 - ¿Qué idiomas necesita? ¿Dónde se necesitan estos idiomas: ¿qué departamento o grupo?
 - ¿Deseas permitir las entradas de voz de las personas que llaman o solo las entradas de marcado?
 - ¿Necesitas un enrutamiento de llamadas por separado por horas de inactividad o días festivos? ¿Cuáles son las horas y las vacaciones?
 - ¿Deseas permitir que los agentes de una cola de llamadas puedan optar por recibir llamadas?
-- ¿Desea que los agentes de las colas de llamadas o el operador tengan un identificador de llamada específico si llaman? 
+- ¿Desea que los agentes de las colas de llamadas o el operador tengan un identificador de llamada específico si llaman?
 - ¿Desea habilitar el [aparcamiento de llamadas y la recuperación](call-park-and-retrieve.md) de su organización para ayudarle a llamar a entregas entre personas o departamentos?
-- Para las solicitudes de voz, ¿desea grabar la suya propia o usar la voz generada por el sistema? (La actualización de la voz generada por el sistema es muy sencilla).
+- Para las solicitudes de voz, ¿desea grabar la suya propia o usar la voz generada por el sistema? (La voz generada por el sistema es fácil de actualizar).
 
 ## <a name="technical-decisions"></a>Decisiones técnicas
 
@@ -110,10 +109,10 @@ Si tiene una infraestructura de cola de llamadas y un operador automático exist
 
 El *modo de conferencia* es una opción de las colas de llamadas que reduce significativamente la cantidad de tiempo que se tarda en conectar las llamadas VoIP de Teams y las llamadas RTC a un agente. Para que el modo de conferencia funcione, los agentes de la cola de llamadas deben usar uno de los siguientes clientes:
 
-  - La versión más reciente del cliente de escritorio de Microsoft Teams, la aplicación Android o la aplicación iOS
+- La versión más reciente del cliente de escritorio de Microsoft Teams, la aplicación Android o la aplicación iOS
   - Microsoft Teams Phone versión 1449/1.0.94.2020051601 o posterior
   
-Las cuentas de los agentes de Teams deben establecerse en el modo de solo equipos. Los agentes que no cumplan con los requisitos no se incluyen en la lista de enrutamiento de llamadas.
+Establezca las cuentas de Teams de los agentes en modo de solo equipos. Los agentes que no cumplan con los requisitos no se incluyen en la lista de enrutamiento de llamadas.
 
 Recomendamos habilitar el modo de conferencia para las colas de llamadas si todos los agentes usan clientes compatibles.
 
@@ -122,7 +121,7 @@ Recomendamos habilitar el modo de conferencia para las colas de llamadas si todo
 
 ## <a name="plan-your-call-routing-flow"></a>Planear el flujo de enrutamiento de llamadas
 
-Como parte del proceso de planeación, le recomendamos que destaque el enrutamiento de llamadas de su organización en un diagrama. Esto le ayudará a determinar el enrutamiento más eficaz para las personas que llaman a su organización. También puede usar el diagrama para determinar los operadores automáticos y las colas de llamadas que necesita crear, junto con los requisitos relacionados, como números de servicio, licencias y cuentas de recursos.
+Como parte del proceso de planeación, le recomendamos que destaque el enrutamiento de llamadas de su organización en un diagrama. El diagrama ayuda a determinar el enrutamiento más eficaz para las personas que llaman a su organización. También puede usar el diagrama para determinar los operadores automáticos y las colas de llamadas que necesita crear, junto con los requisitos relacionados, como números de servicio, licencias y cuentas de recursos.
 
 Echemos un vistazo a cómo los operadores automáticos y las colas de llamadas enrutan las llamadas.
 
@@ -130,11 +129,11 @@ Los operadores automáticos enrutan todas las llamadas de una de las siguientes 
 
 - El **redireccionamiento de llamadas inmediatas** puede redirigirse a uno de los destinos de enrutamiento de llamadas (enumerados a continuación) inmediatamente después de contestar o después de un saludo inicial.
 - **Redireccionamiento basado en las opciones de marcado: las** personas que llaman pueden dirigirse para elegir entre las opciones que se asignan a los números en el teclado del teléfono, 0-9. A cada tecla de marcado se le puede asignar un destino de enrutamiento de llamadas.
-- Las personas que llaman **por nombre o extensión** pueden dirigirse a las personas que llaman para marcar el número de extensión de la persona a la que están tratando en el directorio de su organización, o bien pueden escribir el nombre de la persona.
+- Las personas que llaman **por nombre o extensión** pueden dirigirse a las personas que llaman para marcar el número de extensión de la persona a la que están tratando en el directorio de la organización o al escribir el nombre de la persona.
 - **Desconectar** : un operador automático puede colgar la llamada.
 
 > [!NOTE]
-> Un solo operador automático solo puede admitir un único método de "marcado por".  Para permitir que las personas que llaman llamen por nombre y número, tendrá que crear un operador automático que tenga una opción de marcado por nombre y otra para marcar por extensión.  Cada una de estas opciones se redirigirá a attenants automático configurado para estos escenarios de "marcado por". 
+> Un solo operador automático solo puede admitir un único método de "marcado por".  Para permitir que las personas que llaman llamen por nombre y número, tendrá que crear un operador automático que tenga una opción de marcado por nombre y otra para marcar por extensión.  Cada una de estas opciones se dirigirá a diferentes operadores automáticos configurados para estos escenarios de "marcado por".
 
 Cuando las llamadas son redirigidas por un operador automático o una cola de llamadas, puede elegir entre los siguientes destinos de enrutamiento de llamadas:
 
@@ -149,17 +148,18 @@ Los operadores automáticos ofrecen opciones de enrutamiento de llamadas por sep
 Las colas de llamadas ponen la llamada en espera hasta que un agente asignado a la cola esté disponible para realizar su llamada. Hay dos situaciones en las que una persona que llama puede dirigirse fuera de la cola:
 
 - **Desbordamiento** de la llamada: Si el número de llamadas de la cola supera el límite establecido, las nuevas llamadas se redirigirán fuera de la cola.
-- **Tiempo de espera** de la llamada: Si una llamada ha permanecido más tiempo que la configuración del tiempo de espera configurado, se redirigen fuera de la cola.
+- **Tiempo de espera** de la llamada: Si una llamada ha permanecido más tiempo que la configuración del tiempo de espera configurado, se le redirige fuera de la cola.
 
 Las llamadas redirigidas fuera de una cola pueden enviarse a cualquiera de los destinos de enrutamiento de llamadas enumerados anteriormente, excepto para un operador. (Las colas de llamadas no tienen operadores, pero puedes redirigir a las personas que llaman al mismo destino como un operador que hayas configurado para un operador automático).
 
 En el ejemplo siguiente se muestra un ejemplo de enrutamiento de llamadas con operadores automáticos y colas de llamadas.
 
-![](media/attendant-and-queue-call-routing.png)
+![Diagrama de enrutamiento de llamadas con operadores automáticos y colas de llamadas](media/attendant-and-queue-call-routing.png)
 
 En el ejemplo anterior:
-- La tecla cero (0) redirige a las personas que llaman a un operador. El operador de ese operador automático se ha configurado como una **persona de la organización**.
-- La tecla One (1) redirige a los autores de las llamadas la cola de llamadas de ventas. Esta cola de llamadas está conectada a un equipo que contiene el equipo de ventas asignado a la cola.
+
+- La tecla cero (0) redirige a las personas que llaman a un operador. El operador de ese operador automático se ha configurado como una **persona de la organización** .
+- La tecla uno (1) redirige a las personas que llaman a la cola de llamadas de ventas. Esta cola de llamadas está conectada a un equipo que contiene el equipo de ventas asignado a la cola.
 - La tecla dos (2) redirige a las personas que llaman a la cola de llamadas de asistencia. Esta cola de llamadas está conectada a un equipo que contiene el equipo de soporte técnico asignado al equipo.
 - La cola de llamadas de asistencia tiene un número de teléfono directo a través de un operador automático intermedio. Tener una respuesta de operador automático la línea de soporte técnico le permite separar las horas y el enrutamiento de llamadas.
 - La clave tres (3) redirige a los usuarios a otro operador automático para el directorio de la empresa. El operador automático de directorio de la empresa permite que las personas que llaman llamen a su nombre o extensión.
@@ -175,9 +175,9 @@ Estos son algunos procedimientos recomendados para el enrutamiento de llamadas:
 - Mira el sistema de llamadas que ya tengas y analiza los tipos y la frecuencia de las llamadas entrantes. Use esta información para ayudar a informar a su operador automático y a la estructura de la cola de llamadas.
 - Coloque las opciones más comunes en el menú para enrutar las llamadas tan rápido como sea posible.
 - Evite conectar números de servicio directamente a colas de llamadas a menos que las colas estén disponibles 24/7. Las colas de llamadas no permiten un control de llamadas por separado por horas de inactividad o días no laborables. Si desea tener una cola con un número directo, asigne el número a un operador automático que se redirija automáticamente a la cola durante el horario comercial.
-- Si recibe una gran cantidad de llamadas solicitando información básica sobre su empresa, como el horario comercial, la ubicación o la dirección del sitio web, considere la posibilidad de crear un operador automático para responder a estas preguntas con los mensajes grabados.
+- Si recibe numerosas llamadas que solicitan información básica sobre su empresa, como el horario comercial, la ubicación o la dirección del sitio web, considere la posibilidad de crear un operador automático para responder a estas preguntas con los mensajes grabados.
 - Mantenga la lista de elementos de menú a cinco o menos. Las personas que llamen pueden tener problemas para recordar más de cinco opciones. Use operadores automáticos anidados si necesita más opciones para enrutar una llamada correctamente.
-- Describa el servicio en primer lugar, seguido de la opción de pulsar (por ejemplo, para la prensa de ventas 1) en lugar de la otra forma de hacerlo (por ejemplo: Pulse 1 para ventas). 
+- Describa el servicio en primer lugar, seguido de la opción de pulsar (por ejemplo, para la prensa de ventas 1) en lugar de la otra forma de hacerlo (por ejemplo: Pulse 1 para ventas).
 - Terminología de usuario que las personas que llaman entienden, en lugar de lo que usted puede usar internamente.
 - Evite realizar actualizaciones frecuentes para llamar al enrutamiento. Si cambias las opciones de menú para un operador automático en el futuro, puedes llamarlo en las solicitudes de voz durante los primeros 30 días.
 

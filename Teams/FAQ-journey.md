@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320905"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766593"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams
 
@@ -57,7 +57,7 @@ No, para completar la actualización a Teams, tendrá que configurar a los usuar
 
 
 **¿Con quién tengo que ponerme en contacto si tengo preguntas sobre el proceso de actualización?**<br>
-Para ver preguntas relacionadas con la actualización, consulte a sus puntos de contacto actuales, como por ejemplo, su equipo asignado de la cuenta Microsoft, un socio o [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). También puede abrir un vale de ayuda desde el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/) al hacer clic en el botón **Necesito ayuda**.
+Para ver preguntas relacionadas con la actualización, consulte a sus puntos de contacto actuales, como por ejemplo, su equipo asignado de la cuenta Microsoft, un socio o [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). También puede abrir un vale de ayuda desde el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/) al hacer clic en el botón **Necesito ayuda** .
 
 ![Botón de ayuda](media/need-help-button.png)
 
@@ -68,7 +68,7 @@ Usted tiene la flexibilidad de actualizar los usuarios a Teams según le conveng
 
 **¿Qué ocurre una vez que se hayan actualizado mis usuarios?**<br>
 
-Después de la actualización de los usuarios a Teams (modo **solo Teams**):
+Después de la actualización de los usuarios a Teams (modo **solo Teams** ):
 
 - El cliente de Skype Empresarial quedará deshabilitado para su uso, ya que todos los chats y las llamadas se producirán en Teams. Este cliente se seguirá usando para las reuniones de Skype Empresarial que ya se hayan programado. Si se desinstala este cliente de escritorio, los usuarios accederán a las reuniones de Skype Empresarial previamente programadas mediante la aplicación web de Skype Empresarial.
 
@@ -114,7 +114,7 @@ Sí, Teams está disponible para Government Community Cloud (GCC) (Estados Unido
 
 
 
-## <a name="calling-capabiities"></a>Funcionalidades de llamadas
+## <a name="calling-capabilities"></a>Funcionalidades de llamadas
 
 **¿Cuál es el plan para las funcionalidades de voz en línea de Microsoft?**<br>
 Lo primordial de nuestra solución de voz es el Sistema telefónico, el que está disponible actualmente. Los clientes también pueden agregar un Plan de llamadas de Microsoft que proporcione soporte técnico completo para las llamadas, incluida la adquisición y asignación de números de forma directa en Microsoft 365. Los clientes que quieran mantener sus líneas troncales de telecomunicaciones pueden usar enrutamiento directo, incluido dentro del Sistema telefónico. Mezcle y combine ambas cosas como considere oportuno para las necesidades de su organización de tener una solución de voz completa.
