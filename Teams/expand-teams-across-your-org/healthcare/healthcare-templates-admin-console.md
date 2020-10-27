@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Use las plantillas de Microsoft Teams en el centro de administración para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d030d19cbd3c11283649ffb7fa02124854bfce23
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5d20006645caede9d780bbcb9b462d71e396a205
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424740"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766713"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Usar Teams Healthcare templates en el centro de administración
 

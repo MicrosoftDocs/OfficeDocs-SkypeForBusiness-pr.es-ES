@@ -1,5 +1,5 @@
 ---
-title: Aplicación de las reservas y visitas virtuales en Microsoft Teams
+title: Visitas virtuales con Microsoft Teams y la aplicación de las reservas
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: Microsoft Teams y visitas virtuales con la aplicación bookings
-ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427685"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766963"
 ---
-# <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Aplicación de las reservas y visitas virtuales en Microsoft Teams
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación de las reservas
 
 La aplicación de reservas de Microsoft Teams ofrece una forma sencilla de programar citas en persona y virtuales, como visitas de asistencia sanitaria, consultas financieras, entrevistas, asistencia al cliente, horas de oficina de educación y mucho más.
 
@@ -51,13 +51,13 @@ Hay varias maneras de controlar quién tiene acceso a la aplicación de las rese
 
 ## <a name="recommended-meeting-policy-settings"></a>Configuración de directiva de reunión recomendada
 
-Para habilitar la mejor experiencia para las reservas, cree una directiva de reunión de personal para admitir automáticamente a **todos los usuarios de su organización**. Esto permitirá al personal unirse a la cita automáticamente y habilitar la experiencia de la sala de espera para los asistentes externos. Puede obtener más información sobre la [admisión automática de personas a las reuniones](meeting-policies-in-teams.md#automatically-admit-people).
+Para habilitar la mejor experiencia para las reservas, cree una directiva de reunión de personal para admitir automáticamente a **todos los usuarios de su organización** . Esto permitirá al personal unirse a la cita automáticamente y habilitar la experiencia de la sala de espera para los asistentes externos. Puede obtener más información sobre la [admisión automática de personas a las reuniones](meeting-policies-in-teams.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Configuración opcional de aprobaciones de personal
 
 Como configuración de privacidad adicional, puede decidir requerir que el personal participe antes de que la información de disponibilidad de programación se comparta con las reservas y antes de que se pueda reservar para una cita.  
 
-Para habilitar esta configuración, vaya a configuración del **centro de administración de Microsoft 365** \> **Settings** \> **Settings**y seleccione **reservas**.
+Para habilitar esta configuración, vaya a configuración del **centro de administración de Microsoft 365** \> **Settings** \> **Settings** y seleccione **reservas** .
 
 Con esta configuración activada, el personal recibirá un mensaje de correo electrónico en el que se le solicitará que apruebe la pertenencia a un calendario de reserva.  
 

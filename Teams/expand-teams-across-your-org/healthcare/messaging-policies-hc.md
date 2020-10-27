@@ -1,5 +1,5 @@
 ---
-title: Mensajería segura para organizaciones de cuidados de la salud
+title: Mensajería segura para organizaciones de salud que usan Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Aprenda a personalizar una directiva de mensajería segura que pueda incluir confirmaciones de lectura y notificaciones prioritarias.
+description: Aprenda a personalizar una directiva de mensajería segura para Microsoft teams que puede incluir confirmaciones de lectura y notificaciones prioritarias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1321c22f2eac04063723b404153909c20125dd57
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8659bd64a10e78d0233437286ba634dd5c26fa5e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755834"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766943"
 ---
-# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
+# <a name="secure-messaging-for-healthcare-organizations"></a>Mensajería segura para organizaciones de cuidados de la salud
 
 Las directivas de mensajería se usan para controlar qué características de mensajería instantánea y mensajería están disponibles para los usuarios en Microsoft Teams, y forman parte de la implementación general de mensajería segura para organizaciones de cuidados de la salud, como hospitales, clínicas o oficinas de médicos, en las que es esencial tener un mensaje que se haya seleccionado y se pueda actuar de manera oportuna, como saber cuándo se leen mensajes fundamentales
 
@@ -45,15 +45,15 @@ La siguiente configuración es de especial interés para las aplicaciones de cui
 
 Confirmaciones de lectura permite al remitente de un mensaje instantáneo saber cuándo el destinatario ha leído su mensaje en 1:1 y los chats grupales de 20 personas o menos. Use esta opción para especificar si las confirmaciones de lectura están controladas por el usuario, en para todos o desactivadas para todo el mundo. Las confirmaciones de lectura de mensajes son importantes en las organizaciones de cuidado de la salud porque no eliminan certeza acerca de si se leyó un mensaje.
 
-Para las aplicaciones de cuidado de la salud, elija controlado por el **usuario** o **activado para todos**. Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para que todas las directivas de mensajería del inquilino usen la misma configuración para las confirmaciones. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios**.
+Para las aplicaciones de cuidado de la salud, elija controlado por el **usuario** o **activado para todos** . Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para que todas las directivas de mensajería del inquilino usen la misma configuración para las confirmaciones. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios** .
 
-*Ejemplo de uso sin confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.Sofía Krause es una enfermera que funciona como parte del equipo inter-disciplinar (IDT) de los trabajadores de medicina, incluidos los distintos especialistas, se asigna como Coordinador de atención primaria encargado de este paciente.  Sofía envía correos electrónicos y otros mensajes instantáneos a un grupo de enfermeras y doctores que usan una variedad de clientes y aplicaciones de mensajería, y con frecuencia no recibe respuesta o indica si los miembros del equipo leyeron un mensaje. Debido a los procesos de comunicación, el medicamento de Jakob se ha aplicado de forma indebida y se amplía la estadía de su hospital.
+*Ejemplo de uso sin confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.  Sofía Krause es una enfermera que funciona como parte del equipo inter-disciplinar (IDT) de los trabajadores de medicina, incluidos los distintos especialistas, se asigna como Coordinador de atención primaria encargado de este paciente.  Sofía envía correos electrónicos y otros mensajes instantáneos a un grupo de enfermeras y doctores que usan una variedad de clientes y aplicaciones de mensajería, y con frecuencia no recibe respuesta o indica si los miembros del equipo leyeron un mensaje. Debido a los procesos de comunicación, el medicamento de Jakob se ha aplicado de forma indebida y se amplía la estadía de su hospital.
 
-*Ejemplo de uso con confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.Sofía Krause es una enfermera que funciona como parte del equipo inter-disciplinar (IDT) de los trabajadores de medicina, incluidos los distintos especialistas, se asigna como Coordinador de atención primaria encargado de este paciente.  Sofía inicia un chat grupal con un conjunto de médicos y otros enfermeras que trabajarán con el paciente para coordinar el cuidado y comenzar una evaluación de emergencia.Los enfermeras y los médicos se comunican y colaboran en el plan de cuidados del paciente a lo largo del proceso de coordinación de cuidados.  Los mensajes importantes y urgentes se envían a través de 1:1 y conversaciones grupales. Sofía usa la función de confirmaciones de lectura para determinar si los mensajes enviados que solicitan asistencia son entregados y leídos por los médicos o enfermeras de destino. Los resultados del paciente de Jakob son casi óptimos y va a casa antes de que su equipo de atención se comunique sin problemas.
+*Ejemplo de uso con confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.  Sofía Krause es una enfermera que funciona como parte del equipo inter-disciplinar (IDT) de los trabajadores de medicina, incluidos los distintos especialistas, se asigna como Coordinador de atención primaria encargado de este paciente.  Sofía inicia un chat grupal con un conjunto de médicos y otros enfermeras que trabajarán con el paciente para coordinar el cuidado y comenzar una evaluación de emergencia.  Los enfermeras y los médicos se comunican y colaboran en el plan de cuidados del paciente a lo largo del proceso de coordinación de cuidados.  Los mensajes importantes y urgentes se envían a través de 1:1 y conversaciones grupales. Sofía usa la función de confirmaciones de lectura para determinar si los mensajes enviados que solicitan asistencia son entregados y leídos por los médicos o enfermeras de destino. Los resultados del paciente de Jakob son casi óptimos y van a casa antes de que su equipo de salud se comunique sin problemas.
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>Enviar mensajes urgentes con notificaciones prioritarias
 
-Un usuario puede marcar un mensaje como *urgente* cuando envía mensajes instantáneos a otros usuarios. Esta característica ayuda al personal del hospital a avisar una vez cuando un incidente importante requiere su atención. A diferencia de los mensajes *importantes* normales, las [notificaciones prioritarias](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notifican a los usuarios cada dos minutos durante un máximo de 20 minutos o hasta que el destinatario recoja y lea el mensaje, lo cual maximiza la probabilidad de que el mensaje se haya basado puntualmente.
+Un usuario puede marcar un mensaje como *urgente* cuando envía mensajes instantáneos a otros usuarios. Esta característica ayuda al personal del hospital a avisar una vez cuando un incidente importante requiere su atención. A diferencia de los mensajes *importantes* normales, las [notificaciones prioritarias](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notifican a los usuarios cada dos minutos durante un máximo de 20 minutos o hasta que el destinatario recoja y lea el mensaje, lo cual maximiza la probabilidad de que el mensaje se haya basado puntualmente.
 
 Un administrador puede habilitar o deshabilitar la posibilidad de que los usuarios que tengan asignada esta directiva envíen notificaciones prioritarias. Esta característica está activada de forma predeterminada. Es posible que el destinatario del mensaje de prioridad no tenga la misma directiva de mensajería y no tendrá la opción de deshabilitar la recepción de mensajes de prioridad. Para las aplicaciones de cuidado de la salud, recomendamos habilitar la característica para al menos algunos usuarios, pero tendrá que determinar cuáles.
 

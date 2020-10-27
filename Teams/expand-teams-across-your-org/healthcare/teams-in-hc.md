@@ -1,5 +1,5 @@
 ---
-title: Introducción a Teams para organizaciones sanitarias
+title: Introducción a Teams para organizaciones de cuidado de la salud
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -18,86 +18,88 @@ appliesto:
 ms.reviewer: ''
 description: Obtenga más información sobre las características de atención médica que incluyen coordinación de cuidados, mensajería segura, visitas virtuales, integración de HCI y los Firstline integración de sistemas de trabajo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 07f5e87a454091319775bf5e1124e2c4651ea736
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: ab34d5da83a189c3d135c330bbe2fe015d248349
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469556"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766852"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones de cuidado de la salud
 
-Microsoft Teams ofrece una serie de características útiles para hospitales y otras organizaciones de salud. Las características de Teams están en desarrollo para ayudar a los hospitales a:
+Microsoft Teams ofrece una serie de características útiles para hospitales y otras organizaciones de sanidad, entre las que se incluyen:
 
-- Coordinación y colaboración de cuidados
+- Visitas virtuales y integración de registro de asistencia electrónica (EHR)
+- Paquetes de directivas de Teams
 - Mensajería segura
-- Visita virtual
-- Integración de registro de asistencia electrónica (EHR)
-- Integración del sistema de los Firstline Worker
+- Plantillas de Teams
+- Coordinación y colaboración de cuidados
 
-El contenido de esta sección se basa en las funciones fundamentales de los equipos, como las reuniones, las llamadas y la mensajería, y supone que ya ha implementado los equipos de su organización. Si aún no ha implementado Teams, empiece por leer [cómo implementar Microsoft Teams](../../How-to-roll-out-teams.md).
+En el contenido de esta sección se supone que ya ha implementado los equipos de su organización. Si aún no ha implementado Teams, empiece por leer [cómo implementar Microsoft Teams](../../How-to-roll-out-teams.md).
 
-## <a name="care-coordination---microsoft-teams-patients-app"></a>Coordinación de cuidados-aplicación de pacientes de Microsoft Teams
+## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Visitas virtuales y integración de registro de asistencia electrónica (EHR)
 
-> [!IMPORTANT]
-> **Desde el 30 de octubre de 2020, la aplicación de pacientes estará obsoleta y los usuarios ya no podrán instalarla desde la tienda de aplicaciones de Teams. Le recomendamos que empiece a usar la [aplicación lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams hoy.**
->
->Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Cuando se retira la aplicación de pacientes, todos los datos asociados con ella se conservarán en este grupo, pero ya no se podrá obtener acceso a ellas a través de la interfaz de usuario. Los usuarios actuales pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
->
->La [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) está preinstalada para todos los usuarios de Teams y está disponible como una pestaña en todos los equipos y canales. Con las listas, los equipos de cuidados pueden crear listas de pacientes con la plantilla de pacientes integrados, desde cero o importando datos a Excel. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
+Use la plataforma completa de reuniones en Microsoft Teams para programar, administrar y dirigir visitas virtuales con pacientes.
 
-Microsoft Teams ahora tiene una solución de coordinación de cuidados específica para las organizaciones de salud que les ayudan a proporcionar el mejor cuidado del paciente. La Crux de la solución de coordinación de cuidados, la aplicación de pacientes de Microsoft Teams, es una primera aplicación de pestañas que se integra con sistemas de registro de estado electrónico (EHR) mediante una interfaz de recursos de interoperabilidad de Fast Healthcare ([FHIR](https://www.hl7.org/fhir/)) para proporcionar valiosa información médica a Microsoft Teams, en contexto para permitir la colaboración y la comunicación clínicas.  
+- Si su organización ya usa registros de mantenimiento Electrónico, o EHR, puede integrar Microsoft Teams para una experiencia más fluida. El conector de mantenimiento Electrónico de Microsoft Teams (EHR) facilita el inicio de una visita de pacientes virtuales o la consulta con otro proveedor en Teams directamente desde el sistema HCI. Para obtener más información, consulte [visitas virtuales con Teams: integración en EHR](ehr-admin.md).
+- Si no usa un EHR compatible, puede usar Microsoft bookings y la aplicación de reservas en Teams. Para obtener más información, consulte [aplicación de las reservas y visitas virtuales en Microsoft Teams](../../bookings-app-admin.md).
 
-La solución de coordinación de cuidados puede ser una interfaz con proveedores de software independientes (ISV) líderes que pueden conectar la aplicación de pacientes a sus sistemas HCI usando estándares de datos de estado existentes como HL7v2 y FHIR. Microsoft se asocia con los siguientes líderes del sector para establecer la integración de registros electrónicos de salud con equipos:
+![Visitas virtuales con Microsoft Teams](../../media/virtual-visits-teams.png)
 
-- Datica (a través de la oferta de [CMI](https://datica.com/compliant-managed-integration/) )
-- Infor cloverleaf (a través del [puente de FHIR de Infor](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
-- Redox (a través del [servidor R ^ FHIR](https://www.redoxengine.com/fhir/))
-- Dapasoft (a través [de Corolar en FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
+## <a name="teams-policy-packages"></a>Paquetes de directivas de Teams
 
-Un socio de integración y interoperabilidad de EHR que intente implementar Microsoft Teams para una organización de proveedor de cuidados de la salud debe proporcionar a la aplicación de pacientes una conexión segura y autenticada con los sistemas HCI de la organización de proveedores de cuidados de la salud. Esto permite el flujo unidireccional (solo lectura) de los registros del paciente relevante en la aplicación de pacientes. La aplicación de pacientes comprende el formato FHIR, por lo que el socio también es responsable de transformar los datos agregados de varios otros formatos como HL7v2, etc. en FHIR DSTU2 o STU3.
+Aplique paquetes de directivas de Teams para definir qué diferentes roles pueden hacer en Teams. Por ejemplo, especificar directivas para:
 
-La aplicación de pacientes se integra con sistemas de registro de estado electrónico (EHR) y permite a los proveedores de atención médica comunicarse con la atención del paciente en tiempo real en la plataforma segura de los equipos. La aplicación de pacientes es la primera inversión importante en el área de coordinación de cuidados que tiene el objetivo de afrontar los siguientes desafíos:
+- Trabajadores clínicos, como enfermeras registradas, responsables de cargo, médicos y trabajadores sociales, de modo que puedan tener acceso completo a los chats, las llamadas, la administración de turnos y las reuniones.
+- Los trabajadores de la información de su organización de la salud, como el personal de ti, el personal de informática, el personal de finanzas y los funcionarios de cumplimiento, pueden tener acceso completo a los chats, las llamadas y las reuniones.
+- Salas de pacientes, para controlar la configuración de los dispositivos de la sala del paciente.
 
-- Bajo nivel de eficacia a mano y comunicaciones críticas a través de la experiencia del paciente
-- Información en silos que crea cargas administrativas
-- Insatisfacción entre los médicos con herramientas de colaboración complejas y fragmentadas
-- Coordinación de cuidados ineficaces que pueden suplantar demasiados minutos clínicos
+Para obtener más información, vea [paquetes de directivas de Teams para el cuidado de la salud](../../policy-packages-healthcare.md).
 
-Microsoft Teams permite que los médicos, los médicos, los enfermeras y otras personas colaboren de manera eficaz por:
+## <a name="secure-messaging"></a>Mensajería segura
 
-- Formar parte de un único equipo virtualizado que funciona y colabora en documentos de Office
-- Hacer conversaciones persistentes sobre diferentes pacientes que necesitan atención
-- Usar canales con pestañas para estructurar su trabajo, con ayuda adicional de las pestañas a las que pueden anclar fuentes de información
-- Usar reuniones de canal con la potencia de los equipos características de audio, vídeo, pantalla compartida, grabación y transcripción para administrar reuniones diarias
-- Uso de la aplicación de pacientes para ajustar una lista de los pacientes de alto riesgo que deben supervisarse y extrae los detalles más recientes del sistema HCI. La aplicación de pacientes en sí agrega las siguientes características a Microsoft Teams:
-  - Posibilidad de crear varias listas de pacientes en un solo canal.
-  - Posibilidad de ver y ordenar la información que se muestra acerca de pacientes a través de columnas configurables.
-  - Capacidad de aprovisionar automáticamente la aplicación a través de una plantilla de equipo.
-  - Disponible en la aplicación de Teams para iOS y Android para los primeros trabajadores sanitarios móviles, así como en Microsoft Teams web y el cliente de escritorio.
-  - Compatibilidad con las versiones de FHIR DSTU2 y STU3 mediante el análisis de una instrucción de conformidad.
-  - Registros de auditoría para todas las acciones de visualización y búsqueda de su interfaz de usuario para salvaguardar la PHI según las pautas de la HIPAA.
+La mensajería segura admite la colaboración en los equipos de mantenimiento, incluidas varias características nuevas:
 
-La aplicación de pacientes se ha creado en la plataforma de extensibilidad de equipos y se aprovecha del marco de pestañas para mostrar contenido enriquecido de pacientes dentro de un canal. Para obtener más información sobre otras aplicaciones de Teams y la propia plataforma, consulte [aplicaciones para Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
+- El remitente de un mensaje puede establecer una prioridad especial para el mensaje, de modo que el destinatario reciba una notificación repetida hasta que lea el mensaje.
+- El remitente de un mensaje puede solicitar una confirmación de lectura, de modo que se le notifique cuando el destinatario del mensaje Lea un mensaje enviado.
 
-> [!NOTE]
-> La aplicación de pacientes está en versión preliminar privada y la interfaz de FHIR está en versión beta. No se espera que las versiones publicadas sean compatibles con versiones anteriores.
+En conjunto, estas características permiten una atención más rápida a los mensajes urgentes y confían en que el mensaje se ha recibido y leído. Los nuevos equipos de estado que usan estas características se pueden crear para cada paciente. Estas características se basan en directivas y se pueden asignar a individuos o a equipos completos.
 
-![Captura de pantalla de la aplicación de pacientes en dispositivos móviles y de escritorio](../../media/ehr-2.png)
+Para obtener más información, consulte [Introducción a las directivas de mensajería segura para organizaciones de sanidad](messaging-policies-hc.md) .
 
-Para obtener más información sobre la implementación, consulte [integrar registros de asistencia electrónica en Microsoft Teams](patients-app.md) .
+También relacionada con la mensajería segura es la capacidad de tener otros inquilinos federados por organizaciones de cuidado de la salud, lo que permite una comunicación entre inquilinos más rica. (Consulte [administrar el acceso externo (Federación) en Microsoft Teams](../../manage-external-access.md)).
 
-## <a name="teams-templates"></a>Plantillas de Teams
+## <a name="teams-templates-for-healthcare-organizations"></a>Plantillas de Teams para organizaciones de sanidad
 
 Las nuevas plantillas para crear equipos fueron desarrolladas para aplicarse a una configuración hospitalaria y pronto se espera más. Esto facilita la creación de equipos que los trabajadores de cuidado de la salud usan para coordinar la atención de pacientes en varios departamentos o en adelante. Consulte [Introducción a las plantillas de Teams para organizaciones de salud](healthcare-templates.md). Los equipos se pueden iniciar para departamentos internos, como Cardiología, o por cuidados y más plantillas en desarrollo.
 
-## <a name="lists-app"></a>Lista de aplicaciones
+## <a name="care-coordination-and-collaboration"></a>Coordinación y colaboración de cuidados
+
+Reúna a su equipo de salud para coordinar la atención y colaborar con Microsoft Teams.
+
+![Cuidado de la salud: colaborar con su equipo de salud en Teams](../../media/teams-healthcare-collaborate-in-teams.png)
+
+Microsoft Teams permite a los médicos, médicos, enfermeras y otros miembros colaborar de forma eficaz con las características de colaboración incluidas en Microsoft Teams, por ejemplo:
+
+- Configure equipos y canales para los equipos de salud y los trabajadores de la información. Use canales con pestañas para estructurar su trabajo, con ayuda adicional de las pestañas a las que pueden anclar fuentes de información.
+- Chatea, envía mensajes y Comunícate. Su equipo puede tener conversaciones persistentes acerca de diferentes pacientes que necesitan atención.
+- Llama y reunirse con miembros del equipo de salud. Configure reuniones individuales o use reuniones de canal para administrar reuniones diarias, tanto con la potencia de los equipos como las características de audio, vídeo, pantalla compartida, grabación y transcripción.
+- Almacenar y compartir archivos y documentos. Su equipo de salud es parte de un único equipo virtualizado que funciona y colabora en documentos de Office.
+
+Además, su equipo puede usar las aplicaciones de Teams para:
+
+- Compartir listas y realizar un seguimiento de la información con la aplicación listas
+- Realizar un seguimiento y supervisar tareas con la aplicación tareas
+- Optimizar aprobaciones con la aplicación aprobaciones
+- Crear, administrar y compartir programaciones con la aplicación turnos
+
+### <a name="share-lists-and-track-information-with-the-lists-app"></a>Compartir listas y realizar un seguimiento de la información con la aplicación listas
 
 La aplicación listas de Teams ayuda a los equipos a realizar un seguimiento de la información y organizar el trabajo. La aplicación está preinstalada para todos los usuarios de Teams y está disponible como una pestaña en todos los equipos y canales. Las listas se pueden crear desde cero, desde plantillas predefinidas o importando datos a Excel.
 
-Los equipos de atención pueden usar la plantilla patients para comenzar. Pueden crear listas para realizar un seguimiento de las necesidades y el estado de los pacientes. Los datos de pacientes existentes en hojas de cálculo de Excel se pueden incorporar para crear una lista en Teams. Estas listas se pueden usar para escenarios como redondeos y supervisión de pacientes para coordinar el cuidado.
+los equipos de salud pueden usar la plantilla patients para comenzar. Pueden crear listas para realizar un seguimiento de las necesidades y el estado de los pacientes. Los datos de pacientes existentes en hojas de cálculo de Excel se pueden incorporar para crear una lista en Teams. Estas listas se pueden usar para escenarios como redondeos y supervisión de pacientes para coordinar el cuidado.
 
-Por ejemplo, una enfermera de cargos crea una lista de pacientes en un equipo que incluye a todos los miembros del equipo de cuidados. Durante los retrasos, el equipo de acceso a equipos de atención médica en sus dispositivos móviles y actualiza la información de pacientes en la lista, que todos los miembros del equipo pueden ver para mantener la sincronización. En las sesiones de redondeo en las que el equipo de cuidados se reúne para analizar y evaluar las métricas de rendimiento clave para garantizar que un paciente se encuentra en la ruta de presentación correcta para descargarse, puede compartir esta información con Teams en una pantalla grande. Los miembros del equipo de cuidados que no se encuentran en el sitio se pueden unir de forma remota.
+Por ejemplo, una enfermera de cargos crea una lista de pacientes en un equipo que incluye a todos los miembros del equipo de salud. Durante los redondeos, el equipo de estado accede a teams en sus dispositivos móviles y actualiza la información de pacientes de la lista, que todos pueden ver para mantenerse sincronizado. En las sesiones de redondeo en las que el equipo de salud se reúne para analizar y evaluar las métricas de rendimiento clave para garantizar que un paciente esté en la ruta de la pantalla adecuada para descargarse, puede compartir esta información con Teams en una pantalla grande. los miembros del equipo de salud que no se encuentran en el sitio se pueden unir de forma remota.
 
 Esta es una lista de ejemplo que se configuró para el redondeo de pacientes.
 
@@ -105,19 +107,20 @@ Esta es una lista de ejemplo que se configuró para el redondeo de pacientes.
 
 Para obtener más información, vea [administrar la aplicación listas para su organización en Teams](../../manage-lists-app.md).
 
-## <a name="secure-messaging"></a>Mensajería segura
+### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Realizar un seguimiento y supervisar tareas con la aplicación tareas
 
-Mensajería segura admite la colaboración en equipos de atención médica, incluidas varias características nuevas:
+Use [tareas](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) en Teams para realizar un seguimiento de los elementos pendientes para todo el equipo de salud. Su equipo de salud puede crear, asignar y programar tareas, clasificar tareas y actualizar el estado en cualquier momento, desde cualquier dispositivo que esté ejecutando equipos.
 
-- El remitente de un mensaje puede establecer una prioridad especial para el mensaje, de modo que el destinatario reciba una notificación repetida hasta que lea el mensaje.
-- El remitente de un mensaje puede solicitar una confirmación de lectura, de modo que se le notifique cuando el destinatario del mensaje Lea un mensaje enviado.
+Para obtener más información, consulte [administrar la aplicación tareas de su organización en Microsoft Teams](../../manage-tasks-app.md)
 
-En conjunto, estas características permiten una atención más rápida a los mensajes urgentes y confían en que el mensaje se ha recibido y leído. Los nuevos equipos de atención médica que usan estas características se pueden crear para cada paciente. Estas características se basan en directivas y se pueden asignar a individuos o a equipos completos.
+### <a name="streamline-approvals-with-the-approvals-app"></a>Optimizar aprobaciones con la aplicación aprobaciones
 
-Para obtener más información, consulte [Introducción a las directivas de mensajería segura para organizaciones de sanidad](messaging-policies-hc.md) .
+Use [aprobaciones](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) para simplificar todas sus solicitudes y procesos con su equipo. Cree, administre y comparta las aprobaciones directamente desde su hub para el trabajo en equipo. Iniciar un flujo de aprobación desde el mismo lugar en el que envía un chat, en una conversación de canal o desde la aplicación aprobaciones en sí. Solo tiene que seleccionar un tipo de aprobación, agregar detalles, adjuntar archivos y elegir aprobadores. Una vez enviados, los aprobadores reciben una notificación y pueden revisar y actuar en la solicitud.
 
-También relacionada con la mensajería segura es la capacidad de tener otros inquilinos federados por organizaciones de cuidado de la salud, lo que permite una comunicación entre inquilinos más rica. (Consulte [administrar el acceso externo (Federación) en Microsoft Teams](../../manage-external-access.md)).
+Puede permitir la aplicación aprobaciones de su organización y agregarla a sus equipos. Para obtener más información sobre la administración de aplicaciones, consulte [administrar las aplicaciones en el centro de administración de Microsoft Teams](../../manage-apps.md).
 
-## <a name="firstline-worker-integration"></a>Integración de trabajadores de los Firstline
+### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-firstline-worker-integration"></a>Crear, administrar y compartir programaciones con la aplicación turnos y la integración de trabajadores de los Firstline
 
-Microsoft Teams se integra con los Firstline Worker, que se puede usar para coordinar las características de personal de turnos y mucho más. Consulte [administrar la aplicación turnos para su organización en Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
+Microsoft Teams se integra con la aplicación de turnos y los Firstline Worker, que se puede usar para coordinar las características de personal de turnos y mucho más. Por ejemplo, en los turnos, los gerentes de enfermeras pueden configurar y coordinar las programaciones para su personal, y los enfermeras pueden verificar las programaciones y los turnos de intercambio. Teams incluye una directiva de configuración de la aplicación de trabajo de los Firstline integrada que puede asignar a los trabajadores de los Firstline de su organización. De forma predeterminada, la Directiva incluye las aplicaciones actividad, turnos, chat y llamadas. Esta directiva controla el comportamiento de estas aplicaciones, por ejemplo, anclar la aplicación turnos a la barra de la aplicación para que el equipo pueda acceder a ella rápidamente.
+
+Para obtener más información, vea [administrar la aplicación de turnos para su organización en Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).

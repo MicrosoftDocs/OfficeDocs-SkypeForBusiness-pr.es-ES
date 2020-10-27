@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
-ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
+ms.openlocfilehash: 5aeeee4bf16a05b24056a6602f008b5ecaee12bb
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48476655"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766763"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para Microsoft Teams
 
@@ -74,7 +74,9 @@ Todos los requisitos de las siguientes secciones se aplican tanto a la aplicaci�
 |Dispositivos    |   Cámara, micrófono y altavoces estándar de portátil     |
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
 |Reuniones y llamadas de vídeo | <ul><li>Requiere un procesador de 2 núcleos. Se recomienda un procesador de 4 núcleos o superior para la resolución de video y la resolución de recursos compartidos de pantalla.</li><li>Unirse a una reunión usando la detección de proximidad en una Sala de Microsoft Teams no está disponible en Linux.</li></ul>
-|Distribuciones de Linux compatibles | Ubuntu 16.04 LTS, 18.04 LTS, Estación de trabajo Fedora 30, Estación de trabajo RHEL 8, CentOS 8
+|Distribuciones de Linux compatibles | Ubuntu 18,04 LTS, 20,04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, 8       |
+|Entorno de escritorio compatible | GNOME, KDE       |
+|Servidor de visualización compatible | X11       |
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Requisitos de hardware para Teams en dispositivos móviles
 

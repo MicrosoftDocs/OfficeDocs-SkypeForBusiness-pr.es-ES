@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469566"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766740"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación listas para su organización en Microsoft Teams
 
@@ -44,7 +44,7 @@ Las plantillas de listas se adaptan a escenarios comunes de seguimiento de infor
 
 - Realice un seguimiento de los problemas y póngalos en cierre con la plantilla Issue Tracker.
 - Organice todos los detalles de los eventos con la plantilla itinerario de eventos.
-- Use la plantilla pacientes para registrar las necesidades y el estado de los pacientes de los equipos de atención médica de su organización de la salud para supervisar y coordinar el cuidado.
+- Use la plantilla de pacientes para registrar las necesidades y el estado de los pacientes de los equipos de la organización de la salud para supervisar y coordinar el cuidado.
 - Realizar un seguimiento del estado de las solicitudes de préstamos con la plantilla préstamos.
 
 ## <a name="example-scenario"></a>Escenario de ejemplo
@@ -91,8 +91,8 @@ Lists está habilitado de forma predeterminada para todos los usuarios de Teams 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **aplicaciones de Teams**  >  **Manage apps** .
 2. Realice una de las siguientes acciones:
 
-    - Para desactivar las listas de su organización, busque la aplicación listas, selecciónela y, a continuación, haga clic en **bloquear**.
-    - Para activar las listas de su organización, busque la aplicación listas, selecciónela y, a continuación, haga clic en **permitir**.
+    - Para desactivar las listas de su organización, busque la aplicación listas, selecciónela y, a continuación, haga clic en **bloquear** .
+    - Para activar las listas de su organización, busque la aplicación listas, selecciónela y, a continuación, haga clic en **permitir** .
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar listas para usuarios específicos de su organización
 
@@ -112,7 +112,7 @@ Lists es compatible con [Power Automate](https://preview.flow.microsoft.comconne
 
 ## <a name="give-feedback-or-report-an-issue"></a>Enviar comentarios o informar de un problema
   
-Para enviarnos comentarios o informar de un problema, haga clic en **ayuda** cerca de la parte inferior del navegación de la izquierda en Teams y, a continuación, seleccione **informar de un problema**. Seleccione **listas**y, a continuación, escriba sus comentarios o detalles sobre el problema que está experimentando.
+Para enviarnos comentarios o informar de un problema, haga clic en **ayuda** cerca de la parte inferior del navegación de la izquierda en Teams y, a continuación, seleccione **informar de un problema** . Seleccione **listas** y, a continuación, escriba sus comentarios o detalles sobre el problema que está experimentando.
 
 ## <a name="related-topics"></a>Temas relacionados
 

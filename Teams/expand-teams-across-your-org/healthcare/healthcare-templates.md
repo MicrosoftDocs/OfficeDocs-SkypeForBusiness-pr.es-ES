@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Use las plantillas de Microsoft Teams para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
+description: Use las plantillas de Microsoft Teams con Microsoft Graph para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 63376c68d8267aaa49b4bdf4033d5ebfaa0a446f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294446"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766703"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Introducción a las plantillas de Teams para organizaciones de cuidados de la salud con Microsoft Graph
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas de Teams para organizaciones de sanidad
 
 Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
@@ -35,7 +35,7 @@ Actualmente ofrecemos dos plantillas de atención médica de origen que puede us
 
 ## <a name="ward-template"></a>Plantilla en adelante
 
-La plantilla en adelante está pensada para la comunicación y la colaboración dentro de un interior, un conjunto Pod o un departamento. La plantilla se puede usar para facilitar la administración de pacientes, así como las necesidades operacionales de un mismo. Por ejemplo, los anuncios en adelante se pueden publicar en el canal de *anuncios* y los turnos se pueden administrar en el *personal*. Si está buscando simplificar sus operaciones en el exterior, esta plantilla es para usted.
+La plantilla en adelante está pensada para la comunicación y la colaboración dentro de un interior, un conjunto Pod o un departamento. La plantilla se puede usar para facilitar la administración de pacientes, así como las necesidades operacionales de un mismo. Por ejemplo, los anuncios en adelante se pueden publicar en el canal de *anuncios* y los turnos se pueden administrar en el *personal* . Si está buscando simplificar sus operaciones en el exterior, esta plantilla es para usted.
 
 |Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
 |:--- |:---|:---|
@@ -46,7 +46,7 @@ La plantilla en adelante está pensada para la comunicación y la colaboración 
 
 ## <a name="hospital-template"></a>Plantilla de hospital
 
-La plantilla del hospital está pensada para la comunicación y la colaboración entre varios departamentos, pods y otros departamentos dentro de un hospital. En esta plantilla se incluyen varios canales operativos, entre los que se incluyen *anuncios*, personalización de la *asistencia*y *farmacia*, pero también ofrecemos una secuencia de comandos a continuación que extiende la plantilla con una variedad de canales adicionales centrados en el servicio o que puede Agregar, eliminar o editar a su gusto. Por ejemplo, si tiene un departamento de *Endocrinology* , pero no necesita un canal para *Ophthalmology*, la secuencia de comandos puede adaptarse para incluir un canal de *Endocrinology* y quitar el canal *Ophthalmology* . Le recomendamos que estos canales de especialidad o modelos en el exterior no se hayan preferido de forma automática para evitar la saturación de las notificaciones. Por lo general, los usuarios tienen los canales que encuentran relevantes.
+La plantilla del hospital está pensada para la comunicación y la colaboración entre varios departamentos, pods y otros departamentos dentro de un hospital. En esta plantilla se incluyen varios canales operativos, entre los que se incluyen *anuncios* , personalización de la *asistencia* y *farmacia* , pero también ofrecemos una secuencia de comandos a continuación que extiende la plantilla con una variedad de canales adicionales centrados en el servicio o que puede Agregar, eliminar o editar a su gusto. Por ejemplo, si tiene un departamento de *Endocrinology* , pero no necesita un canal para *Ophthalmology* , la secuencia de comandos puede adaptarse para incluir un canal de *Endocrinology* y quitar el canal *Ophthalmology* . Le recomendamos que estos canales de especialidad o modelos en el exterior no se hayan preferido de forma automática para evitar la saturación de las notificaciones. Por lo general, los usuarios tienen los canales que encuentran relevantes.
 
 |Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
 |:--- |:---|:---|

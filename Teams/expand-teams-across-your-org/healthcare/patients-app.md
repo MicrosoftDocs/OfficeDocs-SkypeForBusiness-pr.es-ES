@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Obtenga información sobre cómo integrar registros de asistencia electrónica en la aplicación de pacientes de Microsoft Teams con las API de FHIR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa8978596a8d386e2ec615a4eb84bab49edb3249
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ad490820ac764e70f5dbdf17c2cfe5dffaea7ac8
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367690"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766953"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integración de registros sanitarios electrónicos en Microsoft Teams
 
@@ -32,13 +32,14 @@ ms.locfileid: "48367690"
 >
 >Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Cuando se retira la aplicación de pacientes, todos los datos asociados con ella se conservarán en este grupo, pero ya no se podrá obtener acceso a ellas a través de la interfaz de usuario. Los usuarios actuales pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
->La [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) está preinstalada para todos los usuarios de Teams y está disponible como una pestaña en todos los equipos y canales. Con las listas, los equipos de cuidados pueden crear listas de pacientes con la plantilla de pacientes integrados, desde cero o importando datos a Excel. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
+>La [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) está preinstalada para todos los usuarios de Teams y está disponible como una pestaña en todos los equipos y canales. Con las listas, los equipos de estado pueden crear listas de pacientes con la plantilla de pacientes integrados, desde cero o importando datos a Excel. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Este artículo está dirigido a un desarrollador de TI de medicina general interesado en usar API de FHIR sobre un sistema de información de medicina para conectar con Microsoft Teams. Esto permitiría escenarios de coordinación de cuidados que se ajusten a las necesidades de una organización de salud.
 
 Los artículos vinculados documentan las especificaciones de la interfaz de FHIR para la aplicación de pacientes de Microsoft Teams, y las siguientes secciones explican qué se necesita para configurar un servidor de FHIR y conectarse a la aplicación de pacientes en el entorno de desarrollo o en el inquilino. También necesitará estar familiarizado con la documentación del servidor de FHIR que haya elegido, que debe ser una de las opciones admitidas:
+
 - Datica (a través de la oferta de [CMI](https://datica.com/compliant-managed-integration/) )
 - Infor cloverleaf (a través del [puente de FHIR de Infor](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (a través del [servidor R ^ FHIR](https://www.redoxengine.com/fhir/))
@@ -75,31 +76,69 @@ La aplicación para el modelo de autenticación de aplicaciones se describe a co
 La autenticación de servicio a servicio debe realizarse a través del [flujo de credenciales de cliente](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)OAuth 2,0. El servicio asociado debe proporcionar lo siguiente:
 
 1. El servicio asociado permite a la aplicación de pacientes crear una cuenta con el socio, lo que permite a la aplicación de pacientes generar y poseer client_id y client_secret administrados a través de un portal de registro de autenticación en el servidor de autenticación del socio.
+
 2. El servicio asociado posee el sistema de autenticación/autorización, que acepta y verifica (autentica) las credenciales de cliente proporcionadas y devuelve un token de acceso con el sugerencia de inquilino en el ámbito, como se describe a continuación.
+
 3. Por razones de seguridad o en el caso de una infracción secreta, la aplicación de pacientes puede volver a generar el secreto e invalidar o eliminar el secreto anterior (el ejemplo de lo mismo está disponible en el portal de Azure: registro de la aplicación AAD).
+
 4. El punto final de metadatos que hospeda la instrucción de conformidad debe ser no autenticado, debe ser accesible sin un token de autenticación.
+
 5. El servicio asociado proporciona el punto final del token de la aplicación de pacientes para solicitar un token de acceso con un flujo de credenciales de cliente. La dirección URL del token como por servidor de autorización debe formar parte de la instrucción de conformidad (Capability) FHIR capturada de los metadatos en el servidor de FHIR como en este ejemplo:
 
-* * *
-    {"resourceType": "CapabilityStatement",.
+    ```
+    {
+        "resourceType": "CapabilityStatement",
         .
         .
-        "Rest": [{"MODE": "Server", "Security": {"Extension": [{"Extension": [{"URL": "token", "valueUri": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token "}, {"URL": "autorizar", "valueUri": ""} "," URL ":" https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris "}]," servicio ": [{" codificación ": [{" System ":" https://hl7.org/fhir/ValueSet/restful-security-service "," Code ":" OAuth "}]}]},.
+        .
+        "rest": [
+            {
+                "mode": "server",
+                "security": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "token",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"
+                                },
+                                {
+                                    "url": "authorize",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"
+                                }
+                            ],
+                            "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"
+                        }
+                    ],
+                    "service": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "https://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "code": "OAuth"
+                                }
+                            ]
+                        }
+                    ]
+                },
                 .
                 .
-            } ] }
-
-* * *
+                .
+            }
+        ]
+    }
+    ```
 
 Una solicitud para un token de acceso consta de los siguientes parámetros:
 
-* * *
+```http
+POST /token HTTP/1.1
+Host: authorization-server.com
 
-    PUBLICAR/token HTTP/1.1 host: authorization-server.com
-
-    Grant-Type = client_credentials &client_id = xxxxxxxxxx &client_secret = xxxxxxxxxx
-
-* * *
+grant-type=client_credentials
+&client_id=xxxxxxxxxx
+&client_secret=xxxxxxxxxx
+```
 
 El servicio asociado proporciona la client_id y client_secret para la aplicación de pacientes, administrada a través de un portal de registro de autenticación en el lado del socio. El servicio asociado proporciona el extremo para solicitar el token de acceso mediante un flujo de credenciales de cliente. Una respuesta correcta debe incluir los parámetros token_type, access_token y expires_in.
 
@@ -115,21 +154,27 @@ A continuación se muestra el flujo de trabajo de autenticación y enrutamiento:
 
 1. Solicitud de token de acceso de aplicación mediante el envío de:
  
-        {   grant_type: client_credentials,
-            client_id: xxxxxx, 
-            client_secret: xxxxxx,
-            scope: {Provider Identifier, Ex: tenant ID}
-        }
+    ```
+    {   grant_type: client_credentials,
+        client_id: xxxxxx, 
+        client_secret: xxxxxx,
+        scope: {Provider Identifier, Ex: tenant ID}
+    }
+    ```
 
 2. Responder con un token de aplicación:
 
-        {  access_token: {JWT, with scope: tenant ID},
-           expires_in: 156678,
-           token_type: "Bearer",
-        }
+    ```
+    {  access_token: {JWT, with scope: tenant ID},
+       expires_in: 156678,
+       token_type: "Bearer",
+    }
+    ```
 
 3. Solicitar datos protegidos con token de acceso.
-4. Mensaje de autorización: seleccione el servidor de FHIR apropiado al que desea enrutar desde el identificador de inquilino en el ámbito
+
+4. Mensaje de autorización: seleccione el servidor de FHIR apropiado al que desea enrutar desde el identificador de inquilino en el ámbito.
+
 5. Envía los datos protegidos por la aplicación desde el servidor de FHIR autorizado después de autenticarse con el token de la aplicación.
 
 ## <a name="interfaces"></a>Interactúa
