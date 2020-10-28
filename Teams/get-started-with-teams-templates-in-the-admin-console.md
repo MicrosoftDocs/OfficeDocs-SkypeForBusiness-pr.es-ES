@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5b17ae74c03cd6e74f08cddede6757d1937464cc
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424660"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772231"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Introducción a las plantillas de Teams en el centro de administración
 
@@ -68,7 +68,7 @@ Una vez que se define un tipo de plantilla base, puede extender o invalidar esta
 > Las plantillas básicas predefinidas proporcionadas en Microsoft Teams se pueden duplicar, pero no editar.
 
 | Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
-| ------------------ |----|----------------------------------------------------- |
+| ------------------ | -------------- | ----------------------------------------------------- |
 | Adopción de Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canales <ul><li>General</li> <li>Anuncios</li> <li>La esquina de los campeones</li> <li>Formularios de equipo</li></ul> Phone <ul><li>Wiki</li>  <li>Calendario</li> |
 | Administrar un proyecto |`com.microsoft.teams.template.ManageAProject`| Canales <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
 | Administrar un evento|`com.microsoft.teams.template.ManageAnEvent` | Canales <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y PR</li></ul> Phone<ul><li>Wiki</li><li>Página</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |

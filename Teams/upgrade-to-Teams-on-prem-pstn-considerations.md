@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b27694c476fc1ab571716939ad57cc3f2dae20e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533557"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772221"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Consideraciones sobre RTC al actualizar a teams &mdash; para administradores de ti
 
@@ -45,7 +45,7 @@ Además, los artículos siguientes describen los conceptos de actualización imp
 
  > [!NOTE]
  > - El uso del sistema telefónico con Teams solo se admite cuando el usuario está en modo TeamsOnly.  Si el usuario está en modo islas, el sistema telefónico solo es compatible con Skype empresarial. 
- > - La configuración del desvío de llamadas y de la delegación de Skype empresarial no se migrará y tendrá que volver a crearla para Teams.
+ > - Cualquier desvío de llamadas, grupo de llamada de equipo y configuración de delegación de Skype empresarial no se migrará y tendrá que volver a crearlo para Teams.
 
 
 ## <a name="pstn-calling-scenarios"></a>Escenarios de llamadas RTC

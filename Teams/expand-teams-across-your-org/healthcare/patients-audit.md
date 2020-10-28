@@ -14,22 +14,19 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
-description: Aplicación de pacientes para administradores de equipos
-ms.openlocfilehash: 0bec3373781a6facd69bda19876397261f68dc71
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+description: Obtener información sobre cómo auditar la aplicación para pacientes para administradores de equipos
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 042d3308e70f2b6275360dfd0137bdc9ed94b7c8
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766883"
+ms.locfileid: "48772281"
 ---
 # <a name="audit-logs-for-patients-app"></a>Registros de auditoría de la aplicación Pacientes
 
-> [!IMPORTANT]
-> **Desde el 30 de octubre de 2020, la aplicación de pacientes estará obsoleta y los usuarios ya no podrán instalarla desde la tienda de aplicaciones de Teams. Le recomendamos que empiece a usar la [aplicación lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams hoy.**
->
->Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Cuando se retira la aplicación de pacientes, todos los datos asociados con ella se conservarán en este grupo, pero ya no se podrá obtener acceso a ellas a través de la interfaz de usuario. Los usuarios actuales pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
->
->La [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) está preinstalada para todos los usuarios de Teams y está disponible como una pestaña en todos los equipos y canales. Con las listas, los equipos de estado pueden crear listas de pacientes con la plantilla de pacientes integrados, desde cero o importando datos a Excel. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
+> [!NOTE]
+> Desde el 30 de octubre de 2020, la aplicación de pacientes se ha retirado y se ha sustituido por la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Con las listas, los equipos de cuidados de la organización de la salud pueden crear listas de pacientes para escenarios que abarcan desde rondas y reuniones interdisciplinarias hasta supervisión general de pacientes. Consulte la plantilla patients en listas para comenzar. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
 
 Un registro de auditoría para la actividad de la aplicación pacientes permite a los equipos de respuesta tras incidente revisar los cambios realizados en los registros médicos electrónicos (EMR) o la información sanitaria de pacientes (PHI) del paciente y determinar si necesitan cambios o mejoras en la política o el procedimiento para el acceso a la PHI en herramientas de productividad. Los eventos de registro de auditoría cubren las acciones que se realizan a través de la interfaz de usuario de la aplicación pacientes.
 

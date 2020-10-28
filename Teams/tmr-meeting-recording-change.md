@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6245c78b66bde710ea6c03839cc98de8ec8f3f
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753555"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778863"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
@@ -34,7 +34,6 @@ ms.locfileid: "48753555"
 |Principios del cuarto trimestre de CY20|**Los equipos que se registran en OneDrive para la empresa y SharePoint están disponibles para participar o para anular la suscripción.**<br> Los administradores de inquilinos pueden optar por OneDrive para la empresa o no participar en la configuración de la Directiva de Teams de PowerShell|
 |CY20 Trim Trim|**Los equipos graban el registro de OneDrive para la empresa y SharePoint como predeterminado para los inquilinos que no se desactivan**<br> Esta es la ruta recomendada para la mayoría de los clientes|
 |T1 CY21|**Guardar equipos ya no se permite la grabación de reuniones en una secuencia clásica**<br>Todos los inquilinos guardarán los equipos de la grabación de reuniones en OneDrive para la empresa y SharePoint|
-
 
 Microsoft Teams tiene un nuevo método para guardar las grabaciones de la reunión. Como primera fase de una transición de la secuencia clásica de Microsoft a la [nueva secuencia](https://docs.microsoft.com/stream/streamnew/new-stream), este método almacena las grabaciones en Microsoft OneDrive para la empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 
@@ -68,12 +67,13 @@ Vea "grabación de reuniones" para obtener más información.
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurar la opción de grabación de la reunión para OneDrive para la empresa y SharePoint
 
 > [!Note]
-> La opción de grabación de la reunión es una opción del nivel de directiva de Teams. En el ejemplo siguiente se muestra cómo establecer la directiva global. Asegúrese de establecer la opción de grabación de la reunión para la Directiva o las directivas que ha asignado a los usuarios. Los cambios en la política de reunión de Teams tardan unos minutos en propagarse. Vuelva a consultar después de unas pocas horas de configuración y, después, cierre sesión e inicie sesión de nuevo.
+> La opción de grabación de la reunión es una opción del nivel de directiva de Teams. En el ejemplo siguiente se muestra cómo establecer la directiva global. Asegúrese de establecer la opción de grabación de la reunión para la Directiva o las directivas que ha asignado a los usuarios.
+> Los cambios en la política de reunión de Teams tardan unos minutos en propagarse. Vuelva a consultar después de unas pocas horas de configuración y, después, cierre sesión e inicie sesión de nuevo.
 
-1. Instalar Skype empresarial online PowerShell. 
-**Nota**: el conector de Skype empresarial online actualmente forma parte del último módulo de PowerShell. Si está usando la versión pública de Teams más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online. Consulte [administrar Skype empresarial online con PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+1. Instalar Skype empresarial online PowerShell.
+**Nota** : el conector de Skype empresarial online actualmente forma parte del último módulo de PowerShell. Si está usando la versión pública de Teams más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online. Consulte [administrar Skype empresarial online con PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
-    a. Descargue [Skype empresarial online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true). 
+    a. Descargue [Skype empresarial online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
     b. Siga las indicaciones para instalarlo.
 
@@ -97,14 +97,13 @@ Vea "grabación de reuniones" para obtener más información.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>No se puede elegir OneDrive para la empresa y SharePoint para seguir usando Stream
 
-Incluso si una directiva dice que está configurada para **transmitirse**, es posible que no esté configurada. Normalmente, si no se establece la Directiva, la configuración predeterminada es **transmitir**. Sin embargo, con este nuevo cambio, si desea optar por no usar SharePoint o OneDrive, debe restablecer la Directiva en **Stream** para asegurarse de que es la opción predeterminada.
+Incluso si una directiva dice que está configurada para **transmitirse** , es posible que no esté configurada. Normalmente, si no se establece la Directiva, la configuración predeterminada es **transmitir** . Sin embargo, con este nuevo cambio, si desea optar por no usar SharePoint o OneDrive para la empresa, debe restablecer la Directiva en **streaming** para asegurarse de que es la opción predeterminada.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>Permisos o acceso basado en roles
-
 
 |Tipo de reunión                               | ¿Quién hizo clic en grabar?| ¿Dónde se encuentran las tierras de la grabación?                               |¿Quién tiene acceso? Lectura/escritura, d o compartida                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -128,7 +127,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
   <i>OneDrive para la empresa</i> / de la grabadora **Grabaciones**
 
-- Para las reuniones de canal, la grabación se almacena en la biblioteca de documentación del sitio de Teams en una carpeta denominada **grabaciones**. Ejemplo
+- Para las reuniones de canal, la grabación se almacena en la biblioteca de documentación del sitio de Teams en una carpeta denominada **grabaciones** . Ejemplo
 
   <i>Equipos nombre: nombre</i> / del canal **Documentos** / **Grabaciones**
 
@@ -152,7 +151,7 @@ Los subtítulos ayudan a crear contenido inclusivo para los visores de todas las
 
 Los subtítulos se admiten para las grabaciones de reuniones de equipos por 60 días desde que se grabó la reunión.
 
-Los subtítulos cerrados no son totalmente compatibles si el registro de reuniones de Teams se mueve o se copia desde su ubicación original en OneDrive o SharePoint.
+Los subtítulos cerrados no son totalmente compatibles si el registro de reuniones de equipos se mueve o se copia desde su ubicación original en OneDrive para la empresa o SharePoint.
 
 **¿Cómo se verá afectada mi cuota de almacenamiento**
 
@@ -164,4 +163,8 @@ El vídeo se reproducirá en el reproductor de vídeo de OneDrive para la empres
 
 **Si tiene previsto agregar a la transmisión, ¿los vídeos existentes se mantendrán como están y durante cuánto tiempo?**
 
-La secuencia como plataforma no quedará obsoleta en un futuro próximo. Los vídeos que actualmente viven en la secuencia permanecerán allí hasta que empiece la migración. Después de la migración, esos vídeos también se migrarán a ODSP. Para obtener más información, consulta [aquí](https://docs.microsoft.com/stream/streamnew/classic-migration) .
+La secuencia como plataforma no quedará obsoleta en un futuro próximo. Los vídeos que actualmente viven en la secuencia permanecerán allí hasta que empiece la migración. Después de la migración, esos vídeos también se migrarán a OneDrive para la empresa o SharePoint. Para obtener más información, consulta [aquí](https://docs.microsoft.com/stream/streamnew/classic-migration) .
+
+**¿Cómo se aplica una etiqueta de retención?**
+
+Vea [Cómo aplicar automáticamente una etiqueta de retención](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
