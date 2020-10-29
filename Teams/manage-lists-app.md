@@ -8,21 +8,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo administrar la aplicación listas en Teams para los usuarios de su organización.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 56197394d4b4edbe714b5edab62f905e1c520ede
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766740"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790482"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación listas para su organización en Microsoft Teams
 

@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: Configure los requisitos que no son de servidor para Skype empresarial Server 2015. Hay varias cosas que querrá configurar antes de realizar la implementación, como Active Directory, DNS, Certs y Fileshares.'
-ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 00b7828cfc06dd9d0ea1d7097580c9c25317e95a
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220880"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790292"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos del entorno para Skype empresarial Server 2015
  
 **Resumen:** Configure los requisitos que no son del servidor para Skype empresarial Server 2015. Hay varias cosas que querrá configurar antes de realizar la implementación, como Active Directory, DNS, Certs y Fileshares.
   
-¿Qué es un requisito del entorno para Skype empresarial Server 2015? Pues bien, hemos colocado todo lo que no está directamente relacionado con este tema, por lo que no tiene que hacer clic en todo el tiempo. Si está buscando requisitos previos del servidor, puede consultar los [requisitos del servidor para Skype empresarial server 2015](server-requirements.md) doc. la[planeación de redes](../../plan-your-deployment/network-requirements/network-requirements.md) también se documenta por separado. De lo contrario, esto es lo que tenemos en este artículo:
+¿Qué es un requisito del entorno para Skype empresarial Server 2015? Pues bien, hemos colocado todo lo que no está directamente relacionado con este tema, por lo que no tiene que hacer clic en todo el tiempo. Si está buscando requisitos previos del servidor, puede consultar los [requisitos del servidor para Skype empresarial server 2015](server-requirements.md) doc. la [planeación de redes](../../plan-your-deployment/network-requirements/network-requirements.md) también se documenta por separado. De lo contrario, esto es lo que tenemos en este artículo:
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -59,9 +59,9 @@ Por lo tanto, ¿qué sistema operativo de controlador de dominio se puede usar? 
 
 - Windows Server 2019 (debe tener la actualización acumulativa 5 o posterior de Skype empresarial Server 2015)
   
-- Windows Server 2016
+- Windows Server 2016
     
-- Windows Server 2012 R2
+- Windows Server 2012 R2
     
 - Windows Server 2012
     
@@ -73,9 +73,9 @@ Ahora, el nivel funcional del dominio de cualquier dominio en el que implemente 
 
 - Windows Server 2019 (debe tener la actualización acumulativa 5 o posterior de Skype empresarial Server 2015)
   
-- Windows Server 2016
+- Windows Server 2016
     
-- Windows Server 2012 R2
+- Windows Server 2012 R2
     
 - Windows Server 2012
     
@@ -225,7 +225,7 @@ Estas son algunas de las cosas que Skype empresarial Server 2015 usa certificado
     
 - Conexiones MTLS entre servidores
     
-- Federación mediante la detección automática de asociados de DNS
+- Federación mediante la detección automática basada en DNS de los socios
     
 - Acceso de usuarios remotos a la mensajería instantánea (IM)
     
@@ -282,11 +282,11 @@ Certificados para servidores Standard Edition:
   
 |**Certificado**|**Nombre de sujeto/nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN = SE01. contoso. com; SAN = SE01. contoso. com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |En el servidor Standard Edition de servidores Standard Edition, el FQDN del servidor es el mismo que el FQDN del grupo de servidores.  <br/> El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
+|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN = SE01. contoso. com; SAN = SE01. contoso. com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |En el servidor Standard Edition, el FQDN del servidor es igual que el FQDN del grupo de servidores.  <br/> El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente como nombres alternativos del sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
 |Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN Web interno (que es el mismo que el FQDN del servidor)  <br/> Y  <br/> • Cumplir con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> O  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com; SAN = admin. contoso. com  <br/> Con un certificado de comodín:  <br/> SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = \* . contoso.com  <br/> |No puede invalidar el FQDN de la web interna en el generador de topologías.  <br/> Si tiene varias direcciones URL sencillas de reunirse, tiene que incluirlas todas como San.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
 |Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN de Web externo  <br/> Y  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Cumplir direcciones URL sencillas por dominio SIP  <br/> O  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = cumplir. contoso. com; SAN = cumplir. fabrikam. com; SAN = marcado. contoso. com  <br/> Con un certificado de comodín:  <br/> SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = \* . contoso.com  <br/> |Si tiene varias direcciones URL sencillas de reunirse, tiene que incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
    
-Certificados para servidores front-end en un grupo de servidores front-end:
+Certificados para servidores front-end en un grupo de servidores front-end Enterprise Edition:
   
 |**Certificado**|**Nombre de sujeto/nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -312,11 +312,11 @@ Certificados para una aplicación de sucursal con funciones de supervivencia:
   
 |**Certificado**|**Nombre de sujeto/nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN de la aplicación  <br/> |SIP. \< sipdomain \> (solo necesita una entrada por dominio SIP)  <br/> |SN = sba01. contoso. net; SAN = SIP. contoso. com; SAN = SIP. fabrikam. com  <br/> |
+|Predeterminado  <br/> |FQDN de la aplicación  <br/> |SIP.\<sipdomain\> (solo necesita una entrada por dominio SIP)  <br/> |SN = sba01. contoso. net; SAN = SIP. contoso. com; SAN = SIP. fabrikam. com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Certificados para el servidor de chat persistente
 
-Al instalar el servidor de chat persistente, necesitará un certificado emitido por la misma entidad de certificación que el usado por sus servidores internos de Skype empresarial Server 2015. Esto debe realizarse en cada servidor que ejecute los servicios Web de chat persistente para la carga y descarga de archivos. Se recomienda encarecidamente disponer de los certificados necesarios antes de iniciar la instalación del chat persistente, y si la entidad de certificación es externa, aún más (esto puede tardar un poco de tiempo en ser emitida).
+Al instalar el servidor de chat persistente, necesitará un certificado emitido por la misma entidad de certificación que el usado por sus servidores internos de Skype empresarial Server 2015. Esto debe realizarse para cada servidor que ejecute servicios Web de chat persistente para la carga y descarga de archivos. Se recomienda encarecidamente disponer de los certificados necesarios antes de iniciar la instalación del chat persistente, y si la entidad de certificación es externa, aún más (esto puede tardar un poco de tiempo en ser emitida).
   
 ### <a name="certificates-for-external-user-access-edge"></a>Certificados para el acceso de usuarios externos (perimetral)
 
@@ -346,16 +346,16 @@ Requisitos de certificado de grupo de servidores de director y grupo de servidor
   
 |**Descripción**|**Entrada de SAN**|
 |:-----|:-----|
-|Dirección URL interna del servicio Detección automática  <br/> |SAN = lyncdiscoverinternal. \< sipdomain\>  <br/> |
-|Dirección URL externa del servicio Detección automática  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
+|Dirección URL interna del servicio Detección automática  <br/> |SAN = lyncdiscoverinternal.\<sipdomain\>  <br/> |
+|Dirección URL externa del servicio Detección automática  <br/> |SAN = lyncdiscover.\<sipdomain\>  <br/> |
    
-También puede usar SAN = \* . \< sipdomain\>
+También puede usar SAN = \* .\<sipdomain\>
   
 Requisitos de certificado de proxy inverso (CA pública):
   
 |**Descripción**|**Entrada de SAN**|
 |:-----|:-----|
-|Dirección URL externa del servicio Detección automática  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
+|Dirección URL externa del servicio Detección automática  <br/> |SAN = lyncdiscover.\<sipdomain\>  <br/> |
    
 Este SAN debe asignarse al certificado asignado a la escucha de SSL en el proxy inverso.
   

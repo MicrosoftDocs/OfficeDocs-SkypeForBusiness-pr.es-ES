@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739248"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790532"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -38,7 +38,7 @@ Para obtener más información, consulte [Configurar la administración de aplic
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configuración de Teams de toda la organización en el centro de administración de Microsoft Teams.
 
-Puede controlar la configuración de usuario en toda la organización en el Centro de administración de Microsoft Teams. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y, después, seleccione **Configuración de toda la organización**. Puede configurar las opciones siguientes.
+Puede controlar la configuración de usuario en toda la organización en el Centro de administración de Microsoft Teams. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y, después, seleccione **Configuración de toda la organización** . Puede configurar las opciones siguientes.
 
 ### <a name="external-access"></a>Acceso externo
 
@@ -46,9 +46,9 @@ Puede controlar la configuración de usuario en toda la organización en el Cent
 
 Para agregar o bloquear un dominio:
 
-1. Seleccione **Agregar un dominio**.
+1. Seleccione **Agregar un dominio** .
 2. En el panel Agregar un dominio, escriba el nombre del dominio y haga clic en la barra espaciadora para guardar el nombre.
-3. Seleccione **Permitido** o **Bloqueado**.
+3. Seleccione **Permitido** o **Bloqueado** .
 4. Seleccione **Listo** para guardar los cambios. 
 
 ### <a name="guest-access"></a>Acceso de invitado
@@ -57,7 +57,7 @@ Para agregar o bloquear un dominio:
 
 ### <a name="teams-settings"></a>Configuración de Microsoft Teams
 
-En **ajustes de Teams**, puede ajustar características para Teams incluyendo notificaciones y fuentes, integración de email, opciones de almacenamiento en la nube, y dispositivos.
+En **ajustes de Teams** , puede ajustar características para Teams incluyendo notificaciones y fuentes, integración de email, opciones de almacenamiento en la nube, y dispositivos.
 
 #### <a name="notifications-and-feeds"></a>Notificaciones y fuentes
 
@@ -69,25 +69,25 @@ Las etiquetas permiten que los usuarios se comuniquen con un subconjunto de pers
 
 #### <a name="email-integration"></a>Integración de correo electrónico
 
-Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores activados para los miembros del equipo. Para activar la integración del correo electrónico, asegúrese de que **Permitir que los usuarios puedan enviar correos electrónicos a la dirección de correo electrónico de un canal** esté **Activado**.
+Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores activados para los miembros del equipo. Para activar la integración del correo electrónico, asegúrese de que **Permitir que los usuarios puedan enviar correos electrónicos a la dirección de correo electrónico de un canal** esté **Activado** .
 
 #### <a name="files"></a>Archivos
 
 Aquí puede activar o desactivar las opciones de uso compartido de archivos y de almacenamiento de archivos en la nube.
 
-Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en la nube en los canales y chats de Teams. Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen ShareFile, Dropbox, Box, Google Drive y Egnyte (próximamente). Active el conmutador de los proveedores de almacenamiento en la nube que quiera usar su organización.
+Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en la nube en los canales y chats de Teams. Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen ShareFile, Dropbox, Box, Google Drive y Egnyte. Active el conmutador de los proveedores de almacenamiento en la nube que quiera usar su organización.
 
 #### <a name="organization"></a>Organización
 
-Aquí puede activar la pestaña **Organización**, que muestra el organigrama detallado de la organización del usuario. Para más información, consulte [Usar la pestaña Organización en Microsoft Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Aquí puede activar la pestaña **Organización** , que muestra el organigrama detallado de la organización del usuario. Para más información, consulte [Usar la pestaña Organización en Microsoft Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### <a name="devices"></a>Dispositivos
 
 Esta configuración controla el comportamiento de la cuenta del recurso para los dispositivos Surface Hub que asisten a las reuniones de Microsoft Teams. Use estas opciones para configurar los requisito de autenticación, requerir un PIN de contenido y activar las cuentas de recurso de Surface Hub para enviar mensajes.
 
-- **Requerir un método secundario de autenticación para acceder al contenido de la reunión**: Seleccione el nivel de acceso que tienen los usuarios cuando especifican el PIN de contenido.
-- **Establecer el PIN de contenido**: Requiera que los usuarios especifiquen este PIN para impedir el acceso no autorizado a los documentos. Con esto se impide que los usuarios no autorizados se unan a reuniones futuras y vean los datos adjuntos.
-- **Las cuentas de recursos pueden enviar mensajes**: **Active** esta opción para permitir que se envíen mensajes desde la cuenta del recurso de Surface Hub.
+- **Requerir un método secundario de autenticación para acceder al contenido de la reunión** : Seleccione el nivel de acceso que tienen los usuarios cuando especifican el PIN de contenido.
+- **Establecer el PIN de contenido** : Requiera que los usuarios especifiquen este PIN para impedir el acceso no autorizado a los documentos. Con esto se impide que los usuarios no autorizados se unan a reuniones futuras y vean los datos adjuntos.
+- **Las cuentas de recursos pueden enviar mensajes** : **Active** esta opción para permitir que se envíen mensajes desde la cuenta del recurso de Surface Hub.
 
 #### <a name="search-by-name"></a>Buscar por nombre
 

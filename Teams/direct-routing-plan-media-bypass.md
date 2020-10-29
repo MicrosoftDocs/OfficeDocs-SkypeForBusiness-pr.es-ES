@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico, que le permite acortar la ruta de acceso de los medios y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabbfd62ecc1a86d6e893d8d26ecdbe6cbbe7dbb
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: efd6d4275d1e83df7821f178ddac8027039b6fce
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469586"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790662"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -42,11 +42,11 @@ Sin omisión de medios, cuando un cliente realiza o recibe una llamada, tanto la
 
 Pero supongamos que un usuario está en el mismo edificio o en la misma red que la SBC. Por ejemplo, supongamos que un usuario de un edificio de Frankfurt hace una llamada a un usuario de la RTC: 
 
-- **Sin omisión de medios**, los medios se transmiten a través de Amsterdam o Dublín (donde se implementan los centros de datos de Microsoft) y de vuelta al SBC en Frankfurt. 
+- **Sin omisión de medios** , los medios se transmiten a través de Amsterdam o Dublín (donde se implementan los centros de datos de Microsoft) y de vuelta al SBC en Frankfurt. 
 
   El centro de recursos de Europa está seleccionado porque SBC está en Europa y Microsoft usa el centro de la Datacenter más cercano a SBC. A pesar de que este enfoque no afecta la calidad de las llamadas debido a la optimización del flujo de tráfico dentro de las redes Microsoft en la mayoría de los lugares, el tráfico tiene un bucle innecesario.     
 
-- **Con la omisión de elementos multimedia**, los medios se mantienen directamente entre el usuario de los equipos y el SBC, tal y como se muestra en el siguiente diagrama:
+- **Con la omisión de elementos multimedia** , los medios se mantienen directamente entre el usuario de los equipos y el SBC, tal y como se muestra en el siguiente diagrama:
 
   > [!div class="mx-imgBorder"]
   > ![Muestra el flujo de señales y medios con omisión de medios](media/direct-routing-media-bypass-2.png)
@@ -193,7 +193,7 @@ Debe colocar estos tres FQDN para:
 - Proporcione conmutación por error cuando se establezca una conexión de SBC a un centro de información que esté experimentando un problema temporal. Para obtener más información, vea mecanismo de conmutación por error a continuación.
 
 
-Los FQDN **SIP.pstnhub.Microsoft.com**, **SIP2.pstnhub.Microsoft.com**y **sip3.pstnhub.Microsoft.com** se resolverán en una de las siguientes direcciones IP:
+Los FQDN **SIP.pstnhub.Microsoft.com** , **SIP2.pstnhub.Microsoft.com** y **sip3.pstnhub.Microsoft.com** se resolverán en una de las siguientes direcciones IP:
 - 52.114.148.0
 - 52.114.132.46
 - 52.114.16.74
@@ -352,7 +352,7 @@ En el ejemplo siguiente se muestra esta lógica.
 Usuarios con tronco de omisión de medios no multimedia | 980 | sbc1.contoso.com:5060 | verdadero
 Los usuarios con medios omiten el tronco | veinte | sbc2.contoso.com:5061 | falso | 
 
-Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS en la SBC deben ser diferentes, tal como se muestra en el siguiente diagrama. Nota tendrá que asegurarse de que su certificado admite ambos troncos. En SAN, debe tener dos nombres (**sbc1.contoso.com** y **sbc2.contoso.com**) o tener un certificado comodín.
+Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS en la SBC deben ser diferentes, tal como se muestra en el siguiente diagrama. Nota tendrá que asegurarse de que su certificado admite ambos troncos. En SAN, debe tener dos nombres ( **sbc1.contoso.com** y **sbc2.contoso.com** ) o tener un certificado comodín.
 
 > [!div class="mx-imgBorder"]
 > ![Muestra que ambos troncos pueden apuntar al mismo SBC con la misma IP pública](media/direct-routing-media-bypass-7.png)
@@ -366,11 +366,11 @@ Para obtener más información sobre cómo configurar dos troncos en el mismo SB
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Extremos de cliente compatibles con la omisión de medios
 
-La omisión de elementos multimedia es compatible con todos los clientes de escritorio y equipos móviles de equipos. 
+La omisión de elementos multimedia es compatible con todos los clientes de escritorio de los equipos independientes, los clientes iOS y Android y los equipos. 
 
-Para todos los demás puntos de conexión que no admitan la omisión de elementos multimedia, se rescribirá la llamada en el modo no omitido aunque se haya iniciado como una llamada de omisión. Esto sucede automáticamente y no requiere ninguna acción del administrador. Esto incluye los teléfonos de Skype empresarial 3PIP y los clientes Web de teams que admiten las llamadas de enrutamiento directo (nuevo Microsoft Edge basado en cromo, Google Chrome, Mozilla Firefox). 
+Para todos los demás puntos de conexión que no admitan la omisión de medios, convertiremos la llamada en una no de omisión incluso si se inició como una llamada de omisión. Esto sucede automáticamente y no requiere ninguna acción del administrador. Esto incluye los teléfonos de Skype empresarial 3PIP y los clientes Web de teams que admiten llamadas de enrutamiento directas (clientes basados en WebRTC que se ejecutan en Microsoft Edge, Google Chrome, Mozilla Firefox). 
  
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configurar el desvío de medios con enrutamiento directo](direct-routing-configure-media-bypass.md)
 

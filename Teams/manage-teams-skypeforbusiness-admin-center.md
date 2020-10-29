@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dd1a94ab587b21fce5a455300826632ffd508042
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ee63c3d49a8c4b4bf047f0df3910bec39a4d5541
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581541"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790422"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
@@ -34,7 +34,7 @@ ms.locfileid: "46581541"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>¿Qué es el nuevo centro de administración de Microsoft Teams?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>¿Qué es el nuevo centro de administración de Microsoft Teams?  
 
 La nueva experiencia del centro de administración le proporcionará una experiencia unificada para administrar tanto los equipos como Skype empresarial. Ofrecemos funciones adicionales, información completa y la capacidad de administrar la configuración de Teams en un nivel de usuario.
 
@@ -52,7 +52,7 @@ La siguiente tabla identifica las secciones de la experiencia de teams que se ha
 |Integración de correo electrónico     |Lista de remitentes permitidos         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Espacios         |
 |Almacenamiento en nube personalizado     |Rectángulo         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Espacios         |
 |Almacenamiento en nube personalizado     |FTP        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Espacios         |
-|Almacenamiento en nube personalizado     |Egnyte (próximamente)        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Espacios         |
+|Almacenamiento en nube personalizado     |Egnyte        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Espacios         |
 |Almacenamiento en nube personalizado     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Espacios         |
 |Almacenamiento en nube personalizado     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Espacios         |
 |Configuración por usuario o tipo de licencia     |Activar o desactivar Microsoft Teams para todos los usuarios          |Obsoleto<sup>1</sup>        |         |

@@ -7,20 +7,24 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 audience: admin
 description: Obtenga información sobre cómo administrar la aplicación tareas para los usuarios de su organización.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06c42691874b8defa86e993727bc1fe38ee67b3
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331665"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790452"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación tareas de su organización en Microsoft Teams
 
@@ -29,7 +33,7 @@ ms.locfileid: "47331665"
 La aplicación tareas ofrece una experiencia de administración de tareas cohesiva a Microsoft Teams, lo que integra tareas individuales con tecnología de [Microsoft to do](https://todo.microsoft.com/tasks/) y tareas de equipo desarrollado por Planner en un solo lugar. Los usuarios pueden tener acceso a las tareas como una aplicación en el lado izquierdo de los equipos y como una pestaña en un canal dentro de equipos individuales. **Mis tareas** y **planes compartidos** en tareas permiten a los usuarios ver y administrar todas sus tareas individuales y de equipo y priorizar su trabajo. Tareas está disponible en equipos de escritorio, Web y móviles de equipos de escritorio. 
 
 > [!NOTE]
-> A medida que implementemos la experiencia de tareas en los clientes de escritorio de Teams, el nombre de la aplicación aparecerá inicialmente como **planeador** para los usuarios. El nombre cambiará temporalmente a **tareas por Planner y tareas pendientes**, y después, se le cambiará el nombre a **tareas**. En los clientes móviles de Teams, los usuarios siempre verán el nombre de la aplicación como **tareas**. Es posible que haya un pequeño retraso en la disponibilidad de la experiencia móvil después de que la experiencia de escritorio esté disponible.
+> A medida que implementemos la experiencia de tareas en los clientes de escritorio de Teams, el nombre de la aplicación aparecerá inicialmente como **planeador** para los usuarios. El nombre cambiará temporalmente a **tareas por Planner y tareas pendientes** , y después, se le cambiará el nombre a **tareas** . En los clientes móviles de Teams, los usuarios siempre verán el nombre de la aplicación como **tareas** . Es posible que haya un pequeño retraso en la disponibilidad de la experiencia móvil después de que la experiencia de escritorio esté disponible.
 
    ![Captura de pantalla de la vista de lista de tareas en la lista de equipos](media/manage-tasks-app-tasks.png)
 
@@ -59,8 +63,8 @@ Tareas está habilitada de forma predeterminada para todos los usuarios de equip
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **aplicaciones de Teams**  >  **Manage apps** .
 2. En la lista de aplicaciones, realice una de las siguientes acciones:
 
-    - Para desactivar las tareas de su organización, busque la aplicación tareas, selecciónela y, a continuación, haga clic en **bloquear**.
-    - Para activar las tareas de su organización, busque la aplicación tareas, selecciónela y, a continuación, haga clic en **permitir**.
+    - Para desactivar las tareas de su organización, busque la aplicación tareas, selecciónela y, a continuación, haga clic en **bloquear** .
+    - Para activar las tareas de su organización, busque la aplicación tareas, selecciónela y, a continuación, haga clic en **permitir** .
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar tareas para usuarios específicos de su organización
 
@@ -74,7 +78,7 @@ Para anclar la aplicación tareas para los usuarios, puede editar la directiva g
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Mis tareas de un usuario está visible si el usuario tiene una licencia de Exchange Online
 
-Si no desea que un usuario vea **mis tareas**, puede ocultarlo. Para ello, [Quite la licencia de Exchange online del usuario](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Es importante saber que después de quitar una licencia de Exchange Online, el usuario ya no tendrá acceso a su buzón.  Los datos del buzón se conservan durante 30 días, después de los cuales se eliminan los datos y no se pueden recuperar a menos que el buzón de correo se coloque en [una conservación local o en una](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)retención por juicio.
+Si no desea que un usuario vea **mis tareas** , puede ocultarlo. Para ello, [Quite la licencia de Exchange online del usuario](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Es importante saber que después de quitar una licencia de Exchange Online, el usuario ya no tendrá acceso a su buzón.  Los datos del buzón se conservan durante 30 días, después de los cuales se eliminan los datos y no se pueden recuperar a menos que el buzón de correo se coloque en [una conservación local o en una](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)retención por juicio.
 
 No recomendamos esto a los trabajadores de la información, pero es posible que haya algunos escenarios en los que se pueda aplicar este tipo de trabajadores, como los de los trabajadores de los Firstline que no dependan de su correo electrónico.
 

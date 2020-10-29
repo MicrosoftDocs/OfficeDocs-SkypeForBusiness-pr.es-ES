@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Aprenda a personalizar una directiva de mensajería segura para Microsoft teams que puede incluir confirmaciones de lectura y notificaciones prioritarias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8659bd64a10e78d0233437286ba634dd5c26fa5e
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77a2024184cb003d5d0ccb0f2b4715b3a3239955
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766943"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790633"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Mensajería segura para organizaciones de cuidados de la salud
 

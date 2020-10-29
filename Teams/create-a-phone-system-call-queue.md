@@ -23,22 +23,22 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, mantiene música, redirige las llamadas y otras características.
-ms.openlocfilehash: 8365761f25ff981cd13770f23a27f4ef8a589b25
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
+ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220335"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48793527"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
-Las colas de llamadas proporcionan un método para dirigir a las personas de su organización que pueden ayudarle con un problema o una pregunta en particular. Las llamadas se distribuyen de una en una a las personas de la cola (que se conocen como *agentes*). 
+Las colas de llamadas proporcionan un método para dirigir a las personas de su organización que pueden ayudarle con un problema o una pregunta en particular. Las llamadas se distribuyen de una en una a las personas de la cola (que se conocen como *agentes* ). 
 
 Las colas de llamadas proporcionan:
 
 - Un mensaje de bienvenida.
 
-- Música que se reproduce mientras los usuarios se mantienen a la espera.
+- Música mientras las personas esperan en espera en una cola.
 
 - Enrutamiento de llamadas: remisión de pedido-a de *salida* (FIFO).
 
@@ -46,7 +46,7 @@ Las colas de llamadas proporcionan:
 
 Asegúrese de que tiene el [plan de lectura de los operadores automáticos de Teams y las colas de llamadas](plan-auto-attendant-call-queue.md) y siga los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started) antes de seguir los procedimientos de este artículo.
 
-Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **voz**, haga clic en **colas de llamadas**y, a continuación, haga clic en **Agregar**.
+Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **voz** , haga clic en **colas de llamadas** y, a continuación, haga clic en **Agregar** .
 
 ## <a name="resource-account-and-language"></a>Cuenta de recursos e idioma
 
@@ -54,18 +54,19 @@ Para configurar una cola de llamadas, en el centro de administración de Teams, 
 
 1. Escriba un nombre para la cola de llamadas. Los agentes verán este nombre cuando reciban una llamada entrante de la cola.
 
-2. Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar**y, a continuación, haga clic en **Agregar**.
+2. Haga clic en **Agregar cuentas** , busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, a continuación, haga clic en **Agregar** .
 
 3. Elija un idioma. Este idioma se usará para las solicitudes de voz generadas por el sistema y la transcripción del buzón de voz (si las habilita).
 
-## <a name="greetings-and--hold-music"></a>Saludos y la música en espera
+## <a name="greetings-and-hold-music"></a>Saludos y la música en espera
 
 Especifique si desea reproducir un saludo para las personas que llaman cuando llegan a la cola. Debe cargar un archivo MP3, WAV o WMA que contenga el saludo que desea reproducir.
 
-Teams proporciona música predeterminada a las personas que llaman mientras están en suspensión. Si desea reproducir un archivo de audio específico, elija **reproducir un archivo de audio** y cargar un archivo mp3, WAV o WMA.
+Teams proporciona música predeterminada a las personas que llaman mientras están en espera en una cola. Si desea reproducir un archivo de audio específico, elija **reproducir un archivo de audio** y cargar un archivo mp3, WAV o WMA.
 
 > [!NOTE]
-> La grabación cargada no puede tener más de 5 MB..
+> La grabación cargada no puede tener más de 5 MB.
+> La música predeterminada que se proporciona en las colas de llamadas de Teams es gratuita para la organización. 
 
 ## <a name="call-agents"></a>Agentes de llamadas
 
@@ -80,9 +81,9 @@ Los agentes de llamadas seleccionados deben ser uno de los siguientes:
 
 Puede Agregar hasta 20 agentes de forma individual y hasta 200 agentes a través de grupos.
 
-Para agregar un usuario a la cola, haga clic en **Agregar usuarios**, busque el usuario, haga clic en **Agregar**y, a continuación, haga clic en **Agregar**.
+Para agregar un usuario a la cola, haga clic en **Agregar usuarios** , busque el usuario, haga clic en **Agregar** y, a continuación, haga clic en **Agregar** .
 
-Para agregar un grupo a la cola, haga clic en **agregar grupos**, busque el grupo, haga clic en **Agregar**y, a continuación, haga clic en **Agregar**. Puede usar listas de distribución, grupos de seguridad y grupos de Microsoft 365 o de Microsoft Teams.
+Para agregar un grupo a la cola, haga clic en **agregar grupos** , busque el grupo, haga clic en **Agregar** y, a continuación, haga clic en **Agregar** . Puede usar listas de distribución, grupos de seguridad y grupos de Microsoft 365 o de Microsoft Teams.
 
 > [!NOTE]
 > Los nuevos usuarios agregados a un grupo pueden tardar hasta ocho horas en llegar a su primera llamada.
@@ -114,7 +115,7 @@ El **método de enrutamiento** determina el orden en el que los agentes reciben 
 ![](media/call-queue-presence-agents-time.png)
 
 
-El **enrutamiento basado en la presencia** usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible**. 
+El **enrutamiento basado en la presencia** usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible** . 
 
 Puede habilitar el enrutamiento de llamadas basado en presencia con cualquiera de los métodos de enrutamiento.
 
@@ -151,7 +152,7 @@ Tiempo de espera de la **llamada: tiempo de espera máximo** especifica el tiemp
 
 Puede desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola.
 
-Cuando haya seleccionado las opciones de tiempo de espera de la llamada, haga clic en **Guardar**.
+Cuando haya seleccionado las opciones de tiempo de espera de la llamada, haga clic en **Guardar** .
 
 ## <a name="caller-id-for-outbound-calls"></a>IDENTIFICACIÓN de llamadas para llamadas salientes
 

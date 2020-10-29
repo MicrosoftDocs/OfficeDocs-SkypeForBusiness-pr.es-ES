@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Obtenga más información sobre las características de atención médica que incluyen coordinación de cuidados, mensajería segura, visitas virtuales, integración de HCI y los Firstline integración de sistemas de trabajo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772301"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790642"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones de cuidado de la salud
 
@@ -35,7 +39,14 @@ Microsoft Teams ofrece una serie de características útiles para hospitales y o
 - Plantillas de Teams
 - Coordinación y colaboración de cuidados
 
-En el contenido de esta sección se supone que ya ha implementado los equipos de su organización. Si aún no ha implementado Teams, empiece por leer [cómo implementar Microsoft Teams](../../How-to-roll-out-teams.md).
+Esta funcionalidad forma parte de la nube de Microsoft para el sector de la salud. Obtenga más información sobre el uso de esta solución, que reúne capacidades de Azure, Dynamics 365 y Microsoft 365 en [la nube de Microsoft para el sector de la salud](https://docs.microsoft.com/industry/healthcare).
+
+Vea el siguiente vídeo para obtener más información sobre cómo usar la recopilación de asistencia sanitaria para mejorar la colaboración del equipo de mantenimiento en Microsoft Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> En el contenido de esta sección se supone que ya ha implementado los equipos de su organización. Si aún no ha implementado Teams, empiece por leer [cómo implementar Microsoft Teams](../../How-to-roll-out-teams.md).
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Visitas virtuales y integración de registro de asistencia electrónica (EHR)
 
@@ -65,13 +76,13 @@ La mensajería segura admite la colaboración en los equipos de mantenimiento, i
 
 En conjunto, estas características permiten una atención más rápida a los mensajes urgentes y confían en que el mensaje se ha recibido y leído. Los nuevos equipos de estado que usan estas características se pueden crear para cada paciente. Estas características se basan en directivas y se pueden asignar a individuos o a equipos completos.
 
-Para obtener más información, consulte [Introducción a las directivas de mensajería segura para organizaciones de sanidad](messaging-policies-hc.md) .
+Para obtener más información, consulte [Introducción a las directivas de mensajería segura para organizaciones de salud](messaging-policies-hc.md).
 
 También relacionada con la mensajería segura es la capacidad de tener otros inquilinos federados por organizaciones de cuidado de la salud, lo que permite una comunicación entre inquilinos más rica. (Consulte [administrar el acceso externo (Federación) en Microsoft Teams](../../manage-external-access.md)).
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>Plantillas de Teams para organizaciones de sanidad
 
-Las nuevas plantillas para crear equipos fueron desarrolladas para aplicarse a una configuración hospitalaria y pronto se espera más. Esto facilita la creación de equipos que los trabajadores de cuidado de la salud usan para coordinar la atención de pacientes en varios departamentos o en adelante. Consulte [Introducción a las plantillas de Teams para organizaciones de salud](healthcare-templates.md). Los equipos se pueden iniciar para departamentos internos, como Cardiología, o por cuidados y más plantillas en desarrollo.
+Las nuevas plantillas para crear equipos fueron desarrolladas para aplicarse a una configuración hospitalaria y pronto se espera más. Esto facilita la creación de equipos que los trabajadores de cuidado de la salud usan para coordinar la atención de pacientes en varios departamentos o en adelante. Para obtener más información, vea [Introducción a las plantillas de Teams para organizaciones de cuidado de la salud](healthcare-templates.md). Los equipos se pueden iniciar para departamentos internos, como Cardiología, o por cuidados y más plantillas en desarrollo.
 
 ## <a name="care-coordination-and-collaboration"></a>Coordinación y colaboración de cuidados
 

@@ -8,6 +8,9 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo configurar y administrar la aplicación de turnos en Teams para trabajadores de los Firstline de su organización.
 f1.keywords:
 - NOCSH
@@ -15,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 405c918dfe71fce02ab19f3ccf49cc124877da41
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: d89ca8938c80b2afb8c1b32a395ab4a984327dcc
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820474"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790512"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -59,8 +63,8 @@ Turnos está habilitado de forma predeterminada para todos los usuarios de los e
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **aplicaciones de Teams**  >  **Manage apps** .
 2. En la lista de aplicaciones, realice una de las siguientes acciones:
 
-    - Para desactivar los turnos de su organización, busque la aplicación turnos, selecciónela y haga clic en **bloquear**.
-    - Para activar los turnos de su organización, busque la aplicación turnos, selecciónela y, a continuación, haga clic en **permitir**.
+    - Para desactivar los turnos de su organización, busque la aplicación turnos, selecciónela y haga clic en **bloquear** .
+    - Para activar los turnos de su organización, busque la aplicación turnos, selecciónela y, a continuación, haga clic en **permitir** .
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar turnos para usuarios específicos de su organización
 
@@ -72,7 +76,7 @@ Las directivas de configuración de la aplicación le permiten personalizar Team
  
 Teams incluye una directiva de configuración de aplicaciones de FirstlineWorker integrada que puede asignar a los trabajadores de los Firstline de su organización. De forma predeterminada, la Directiva incluye las aplicaciones actividad, turnos, chat y llamadas. 
 
-Para ver la Directiva de FirstlineWorker, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de la aplicación de **aplicación de Teams**  >  **App setup policies**.
+Para ver la Directiva de FirstlineWorker, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de la aplicación de **aplicación de Teams**  >  **App setup policies** .
 
 ![Captura de pantalla de la Directiva de configuración de la aplicación de FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Captura de pantalla de la Directiva de configuración de la aplicación de FirstlineWorker en el centro de administración de Microsoft Teams")
 

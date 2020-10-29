@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Obtenga información sobre cómo un usuario con el estado ausente o no molestar puede establecer explícitamente otro usuario como delegado en su mensaje de estado.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904742"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790472"
 ---
 # <a name="message-delegation"></a>Delegación de mensajes
 
@@ -45,7 +49,7 @@ Este es un proceso iniciado por el usuario en el cliente, y no es necesario que 
 
 Los administradores deben tener en cuenta que los comportamientos de notas de estado y de la delegación dependen en parte del modo de coexistencia del usuario. Esta matriz muestra las posibilidades:
 
-|Modo de coexistencia | Comportamiento esperado|
+|Modo Co-Existence | Comportamiento esperado|
 |---|---|
 |TeamsOnly |Los usuarios solo pueden establecer una nota desde Teams. <br> La nota de Teams del usuario está visible en Teams & SfB. |
 |Aplicaciones aisladas | La nota del usuario se establece en Teams visible solo en Teams. <br> La nota del usuario se establece en SfB visible solo en SfB |
