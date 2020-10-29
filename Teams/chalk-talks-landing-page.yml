@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Habla de tiza de Microsoft Teams
-summary: Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Haga clic en el título de un taller para inscribirse.
+summary: Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams.
 brand: teams
 metadata:
   title: Habla de tiza de Microsoft Teams
-  description: Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Estos talleres interactivos en línea, facilitados por expertos en la materia, presentarán información para mejorar la implementación de sus equipos y proporcionar valor adicional a los usuarios finales. Haz clic en el título de cualquier taller a continuación para ver las fechas y horas disponibles, y Regístrate hoy mismo. Haga clic en el título de un taller para inscribirse.
+  description: Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Estos talleres interactivos en línea, facilitados por expertos en la materia, presentarán información para mejorar la implementación de sus equipos y proporcionar valor adicional a los usuarios finales. Haz clic en el título de cualquier taller a continuación para ver las fechas y horas disponibles, y Regístrate hoy mismo.
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,18 +25,15 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
+  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583469"
+  ms.lasthandoff: 10/28/2020
+  ms.locfileid: "48790602"
 productDirectory:
+  summary: Haga clic en el título de un taller para inscribirse.
   items:
-  - title: 'Llegar a teams: de cero a producción'
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: ¡Próximamente! Inicie la implementación de Teams para la colaboración, la conversación y las reuniones. Compartiremos configuraciones clave, consideraciones, procedimientos recomendados y recursos para que los usuarios puedan empezar a trabajar rápidamente.
-    url: http://aka.ms/ChalkTalkGTT
   - title: Así que... ¿desea hacer llamadas con Teams?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
     summary: Únase a nosotros para obtener información detallada sobre cómo agregar capacidades de llamadas RTC a la implementación de Teams. Juntos, veremos la terminología, los conceptos clave y la configuración de las llamadas.
@@ -45,18 +42,14 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
     summary: ¿Desea asegurarse de que los usuarios tengan experiencias óptimas con las reuniones y las capacidades de voz? Analizaremos las herramientas, los informes y los procedimientos recomendados para ayudarle a administrar la calidad del servicio, desde establecer una estrategia preventiva para resolver problemas comunes.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Hacer más cosas con aplicaciones en Teams
+  - title: Aspectos básicos de las aplicaciones en Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
     summary: Esta sesión básica cubre las funciones básicas, como la seguridad y la administración de aplicaciones. Obtenga información sobre cómo integrar los flujos de trabajo, las aplicaciones de productividad y los servicios que usa cada día en una sola experiencia unificada.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Automatizar flujos de trabajo de TI con Teams
+  - title: Sobrecargar flujos de trabajo clave con aplicaciones en Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: ¡Próximamente! Automatizar sus procesos de TI mediante aplicaciones disponibles en Teams. Hablaremos de escenarios comunes, como el soporte técnico y el uso compartido del conocimiento, de modo que su equipo pueda ahorrar tiempo y centrarse en lo que importa.
-    url: https://aka.ms/ChalkTalkAutoIT
-  - title: Cómo habilitar Teams para la participación de trabajadores de los Firstline
-    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
-    summary: ¿Está listo para empezar a habilitar las áreas de trabajo digitales para su personal de los Firstline? Juntos, analizaremos los procedimientos recomendados para iniciar una prueba piloto y mejorar la comunicación, la contratación de empleados y la productividad operativa.
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+    summary: Conecte sus sistemas, aumente la automatización y ofrezca experiencias mejoradas para los usuarios haciendo que las aplicaciones de su organización se basen en Teams.
+    url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
