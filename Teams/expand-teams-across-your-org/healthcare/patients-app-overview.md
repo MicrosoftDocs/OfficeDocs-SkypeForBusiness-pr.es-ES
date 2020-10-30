@@ -18,17 +18,19 @@ appliesto:
 ms.reviewer: anach
 description: Obtener información sobre la aplicación de pacientes para administradores de equipos
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b86c180bc809fa10b261738ae5b324737006f541
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772191"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803508"
 ---
 # <a name="patients-app-overview"></a>Información general de la aplicación Pacientes
 
 > [!NOTE]
-> Desde el 30 de octubre de 2020, la aplicación de pacientes se ha retirado y se ha sustituido por la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Con las listas, los equipos de cuidados de la organización de la salud pueden crear listas de pacientes para escenarios que abarcan desde rondas y reuniones interdisciplinarias hasta supervisión general de pacientes. Consulte la plantilla patients en listas para comenzar. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md) .
+> Desde el 30 de octubre de 2020, la aplicación de pacientes se ha retirado y se ha sustituido por la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Todos los datos asociados con la aplicación patients se conservan en este grupo, pero ya no se puede obtener acceso a ellos a través de la interfaz de usuario. Los usuarios pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>Con las listas, los equipos de cuidados de la organización de la salud pueden crear listas de pacientes para escenarios que abarcan desde rondas y reuniones interdisciplinarias hasta supervisión general de pacientes. Consulte la plantilla patients en listas para comenzar. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
 
 La aplicación patients es una aplicación de la tienda Microsoft teams que está disponible para todos los usuarios de Teams. La aplicación permite que los equipos de salud del paciente que se componen de trabajadores clínicos (por ejemplo, enfermeras, médicos, trabajadores sociales) puedan ajustar y revisar las listas de pacientes en escenarios que abarcan desde rondas y reuniones de equipos interdisciplinarios hasta monitoreo general de pacientes.
 

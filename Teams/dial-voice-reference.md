@@ -22,22 +22,24 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga más información sobre las opciones de reconocimiento de voz y el operador automático en la cola de llamadas de Teams.
-ms.openlocfilehash: e7e88bc3a2dbb0f4d4e537c96918fb3b7c1bc163
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48210000"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800573"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Operador automático y referencia de la cola de llamadas y reconocimiento de voz
 
-### <a name="searching-for-users"></a>Buscar usuarios
+El marcado por nombre es una característica de un operador automático que también se conoce como búsqueda de directorio. Permite que las personas que llaman a su operador automático usen la voz (reconocimiento de voz) o las respuestas del teclado (DTMF) para escribir un nombre completo o parcial para buscar en el directorio de la empresa, ubicar a la persona y, a continuación, transferir la llamada. Configure el marcado por nombre al [configurar la configuración del flujo de llamadas en un operador automático](create-a-phone-system-auto-attendant.md#call-flow).
 
-El marcado por nombre es una característica de un operador automático que también se conoce como búsqueda de directorio. Permite que las personas que llaman a su operador automático usen la voz (reconocimiento de voz) o las respuestas del teclado (DTMF) para escribir un nombre completo o parcial para buscar en el directorio de la empresa, ubicar a la persona y, a continuación, transferir la llamada. No es necesario que los usuarios que desean encontrarse con el método de marcado por nombre **tengan un número de teléfono o tengan asignados planes de llamadas, pero deben tener una licencia de sistema telefónico si se trata de usuarios en línea o habilitar Enterprise Voice para usuarios de Skype empresarial Server**. Es posible que el marcado por nombre pueda buscar y transferir llamadas a los usuarios de Microsoft teams que se hospedan en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita explícitamente el marcado por nombre en un operador automático.
+## <a name="searching-for-users"></a>Buscar usuarios
 
-La extensión de marcado es una característica de un operador automático que también forma parte de la búsqueda en directorios. Permite a las personas que llaman a su operador automático usar voz (reconocimiento de voz) o sus respuestas de teclado (DTMF) del teléfono para introducir la extensión de teléfono del usuario al que está intentando acceder y, a continuación, se les transfiere la llamada. Los usuarios que desee que se encuentren y que tengan acceso telefónico por extensión  **no necesitan tener un número de teléfono o tener planes de llamadas asignados, pero deben tener una licencia de sistema telefónico si son usuarios conectados o habilitado para usar Enterprise Voice para usuarios de Skype empresarial Server**. También necesitará tener un plan de marcado adecuado para sus usuarios. La opción de marcado por extensión podrá buscar y transferir llamadas a los usuarios de Microsoft teams que estén hospedados en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita de forma explícita la función de marcado por extensión en un operador automático.
+No es necesario que los usuarios que desean encontrarse con el método de marcado por nombre **tengan un número de teléfono o tengan asignados planes de llamadas, pero deben tener una licencia de sistema telefónico si se trata de usuarios en línea o habilitar Enterprise Voice para usuarios de Skype empresarial Server** . Es posible que el marcado por nombre pueda buscar y transferir llamadas a los usuarios de Microsoft teams que se hospedan en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita explícitamente el marcado por nombre en un operador automático.
 
-#### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
+La extensión de marcado es una característica de un operador automático que también forma parte de la búsqueda en directorios. Permite a las personas que llaman a su operador automático usar voz (reconocimiento de voz) o sus respuestas de teclado (DTMF) del teléfono para introducir la extensión de teléfono del usuario al que está intentando acceder y, a continuación, se les transfiere la llamada. Los usuarios que desee que se encuentren y que tengan acceso telefónico por extensión  **no necesitan tener un número de teléfono o tener planes de llamadas asignados, pero deben tener una licencia de sistema telefónico si son usuarios conectados o habilitado para usar Enterprise Voice para usuarios de Skype empresarial Server** . También necesitará tener un plan de marcado adecuado para sus usuarios. La opción de marcado por extensión podrá buscar y transferir llamadas a los usuarios de Microsoft teams que estén hospedados en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita de forma explícita la función de marcado por extensión en un operador automático.
+
+### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
 
 No hay ningún límite en el número de usuarios de Active Directory marcado por nombre y la extensión de marcado puede admitir cuando una persona que llama busca una persona determinada. Una persona que llama puede escribir nombres parciales o completos (nombre + apellido, y también Apellidos + nombre), pero necesita el número de extensión completo. El tamaño de la lista de nombres máximo que un solo operador automático puede admitir con el reconocimiento de voz es de 80.000 usuarios.
   
@@ -49,7 +51,7 @@ No hay ningún límite en el número de usuarios de Active Directory marcado por
 > [!NOTE]
 > Si usa el marcado por nombre con reconocimiento de voz, pero el directorio activo de su organización es superior a 80.000 usuarios y no se ha limitado el ámbito de marcado por nombre con la característica de ámbito de marcado, el marcado por nombre seguirá funcionando con las personas que llamen con el teclado del teléfono, y las entradas de voz estarán disponibles para todos los demás escenarios. Puede usar la característica de ámbito de marcado para limitar los nombres que se pueden contactar cambiado el ámbito de Marcado por nombre de un operador automático determinado.
   
-### <a name="dial-by-name---keypad-dtmf-entry"></a>Marcado por nombre: entrada mediante teclado (DTMF)
+## <a name="dial-by-name---keypad-dtmf-entry"></a>Marcado por nombre: entrada mediante teclado (DTMF)
 Las personas que llaman pueden usar el marcado por nombre para comunicarte con los usuarios especificando el nombre completo o parcial de la persona a la que están tratando de llegar. Hay varios formatos que pueden usarse cuando se escribe el nombre.
 
 Para realizar búsquedas en el directorio de su organización, los usuarios pueden usar la tecla 0 (cero) para indicar un espacio entre el nombre y el apellidos, o viceversa. Cuando escriban el nombre, se les pedirá que terminen la entrada del teclado con la tecla #. Por ejemplo, "Después de introducir el nombre de la persona que busca, pulse #". Si se encuentran varios nombres, se proporcionará una lista de nombres al autor de la llamada para que seleccione uno.
@@ -74,7 +76,7 @@ En las búsquedas de personas a través del teclado del teléfono se pueden util
 |,0   |Espacio entre nombres. |
 |*    |Repetir la lista de nombres coincidentes. |
 
-#### <a name="dial-by-name---name-recognition-with-speech"></a>Marcado por nombre: reconocimiento de nombres por voz
+### <a name="dial-by-name---name-recognition-with-speech"></a>Marcado por nombre: reconocimiento de nombres por voz
 
 Los usuarios pueden buscar otras personas en su organización con su voz (reconocimiento de voz). También pueden comunicarse con cualquier persona en Active Directory diciendo el nombre de la persona que está tratando de ubicar. El uso de entradas de voz puede reconocer nombres en varios formatos, como FirstName, LastName, FirstName + LastName o LastName + Name.
   
@@ -94,7 +96,7 @@ Las personas que llaman pueden decir nombres en los siguientes formatos:
 > [!NOTE]
 > Es posible que tarde hasta 36 horas para que un nuevo usuario tenga su nombre en el directorio de marcado por nombre con reconocimiento de voz debido al retraso de replicación de Active Directory.
   
-### <a name="language-support"></a>Compatibilidad con idiomas
+## <a name="language-support"></a>Compatibilidad con idiomas
 
 Los siguientes idiomas están disponibles para el texto a voz que se usa con indicaciones salientes:
   

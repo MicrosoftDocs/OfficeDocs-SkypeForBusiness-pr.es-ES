@@ -22,22 +22,20 @@ appliesto:
 ms.reviewer: ''
 description: Use las plantillas de Microsoft Teams en el centro de administración para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 102c9db47ba9a79acf64338d2fab0cb1ddc49392
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790432"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800673"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Usar Teams Healthcare templates en el centro de administración
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
 Para las organizaciones de cuidado de la salud, las plantillas pueden ser especialmente eficaces, puesto que proporcionan una estructura para que los usuarios se orienten con la mejor manera de aprovechar Teams. Las plantillas también permiten a los administradores implementar equipos coherentes en sus organizaciones. Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización de la salud.
 
-Actualmente ofrecemos dos plantillas de cuidados de la atención médica de terceros que puede aprovechar para diversas situaciones. Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de Teams en el centro de administración](../../get-started-with-teams-templates-in-the-admin-console.md).
+Actualmente ofrecemos dos plantillas de atención médica de origen que puede usar para una gran variedad de situaciones. Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de Teams en el centro de administración](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="collaborate-on-patient-care"></a>Colaborar en el cuidado del paciente
 

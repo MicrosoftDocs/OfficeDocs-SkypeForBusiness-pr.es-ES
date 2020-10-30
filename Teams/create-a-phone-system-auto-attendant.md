@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48337596"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803794"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -34,7 +34,7 @@ Los operadores automáticos permiten a los usuarios llamar a su organización y 
 
 Asegúrese de que tiene el [plan de lectura de los operadores automáticos de Teams y las colas de llamadas](plan-auto-attendant-call-queue.md) y siga los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started) antes de seguir los procedimientos de este artículo.
 
-Los operadores automáticos pueden dirigir llamadas en función de la entrada de los autores de llamadas a uno de los siguientes destinos:
+Los operadores automáticos pueden dirigir llamadas en función de la entrada de los autores de llamadas a uno de los siguientes destinos: <a name="call-routing-options" ></a>
 
 - **Persona de la organización** : una persona de su organización que puede recibir llamadas de voz. Puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server.
 - **Aplicación de voz** : otro operador automático o una cola de llamadas. (Elija la cuenta de recursos asociada al operador automático o a la cola de llamadas al elegir este destino).
@@ -44,7 +44,7 @@ Los operadores automáticos pueden dirigir llamadas en función de la entrada de
 
 Cuando configure un operador automático, se le pedirá que elija una de estas opciones.
 
-Para configurar un operador automático, en el centro de administración de Teams, expanda **voz**, haga clic en **operadores automáticos**y, a continuación, haga clic en **Agregar**.
+Para configurar un operador automático, en el centro de administración de Teams, expanda **voz** , haga clic en **operadores automáticos** y, a continuación, haga clic en **Agregar** .
 
 ## <a name="general-info"></a>Información general
 
@@ -60,7 +60,7 @@ Para configurar un operador automático, en el centro de administración de Team
 
 5. Elija si desea habilitar las entradas de voz. Cuando está habilitado, el nombre de todas las opciones de menú se convierte en una palabra clave de reconocimiento de voz. Por ejemplo, las personas que llamen pueden decir "una" para seleccionar la opción de menú asignada a la clave 1, o pueden decir "ventas" para seleccionar la opción de menú denominada "ventas".
 
-6. Haga clic en **Siguiente**.
+6. Haga clic en **Siguiente** .
 
 ## <a name="call-flow"></a>Flujo de llamadas
 
@@ -76,11 +76,11 @@ Si selecciona **escribir un mensaje de saludo** , el sistema leerá el texto con
 
 Elige cómo quieres enrutar la llamada.
 
-Si seleccionas **desconectar**, el operador automático colgará la llamada.
+Si seleccionas **desconectar** , el operador automático colgará la llamada.
 
-Si selecciona **redirigir llamada**, puede elegir uno de los destinos de enrutamiento de llamadas.
+Si selecciona **redirigir llamada** , puede elegir uno de los destinos de enrutamiento de llamadas.
 
-Si selecciona **reproducir opciones de menú**, puede elegir **reproducir un archivo de audio** o **escribir un mensaje de bienvenida** y, a continuación, elegir entre las opciones de menú y la búsqueda de directorio.
+Si selecciona **reproducir opciones de menú** , puede elegir **reproducir un archivo de audio** o **escribir un mensaje de bienvenida** y, a continuación, elegir entre las opciones de menú y la búsqueda de directorio.
 
 ### <a name="menu-options"></a>Opciones de menú
 
@@ -102,13 +102,13 @@ Para cada opción de menú, especifique lo siguiente:
 
 ### <a name="directory-search"></a>Búsqueda en el directorio
 
-Si asigna teclas de marcado a destinos, le recomendamos que elija **ninguno** para la búsqueda en el **directorio**. Si una persona que llama intenta marcar un nombre o una extensión con las teclas que se asignan a destinos específicos, es posible que se dirijan de forma inesperada a un destino antes de que terminen de introducir el nombre o la extensión. Le recomendamos que cree un operador automático independiente para la búsqueda en el directorio y que le vincule su operador automático principal a través de una tecla de marcado.
+Si asigna teclas de marcado a destinos, le recomendamos que elija **ninguno** para la búsqueda en el **directorio** . Si una persona que llama intenta marcar un nombre o una extensión con las teclas que se asignan a destinos específicos, es posible que se dirijan de forma inesperada a un destino antes de que terminen de introducir el nombre o la extensión. Le recomendamos que cree un operador automático independiente para la búsqueda en el directorio y que le vincule su operador automático principal a través de una tecla de marcado.
 
-Si no ha asignado las teclas de marcado, elija una opción para la búsqueda en el **directorio**.
+Si no ha asignado las teclas de marcado, elija una opción para la búsqueda en el **directorio** .
 
 **Marcado por nombre** : Si habilita esta opción, las personas que llamen pueden decir el nombre del usuario o escribirla en el teclado del teléfono. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con el marcado por nombre. (Puede establecer quién está y no incluido en el directorio de la página de [ámbito de marcado](#dial-scope) ).
 
-**Marcado por extensión** : Si habilita esta opción, las personas que llamen podrán conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la **función de marcado por extensión**. (Puede establecer quién está y no incluido en el directorio de la página de [ámbito de marcado](#dial-scope) ).
+**Marcado por extensión** : Si habilita esta opción, las personas que llamen podrán conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la **función de marcado por extensión** . (Puede establecer quién está y no incluido en el directorio de la página de [ámbito de marcado](#dial-scope) ).
 
 Los usuarios que desea que estén disponibles para marcar por extensión necesitan tener una extensión especificada como parte de uno de los siguientes atributos de teléfono definidos en Active Directory o Azure Active Directory (para obtener más información, consulte [Agregar usuarios individualmente o de forma masiva](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .)
 
@@ -118,14 +118,14 @@ Los usuarios que desea que estén disponibles para marcar por extensión necesit
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-El formato requerido para introducir la extensión en el campo número de teléfono del usuario es * + <phone number> ext <extension> =* o * + <phone number> x <extension> *.
+El formato requerido para introducir la extensión en el campo número de teléfono del usuario es *+ <phone number> ext <extension> =* o *+ <phone number> x <extension>* .
 
 Puede establecer la extensión en el [centro de administración de Microsoft 365](https://admin.microsoft.com/) o en el [centro de administración de Azure Active Directory](https://aad.portal.azure.com). Pueden pasar hasta 12 horas antes de que los cambios estén disponibles para los operadores automáticos y las colas de llamadas.
 
 > [!NOTE]
-> Si desea usar el **marcado por nombre** y las características de **marcado por extensión** , puede asignar una tecla de marcado en su operador automático principal para comunicarse con un operador automático habilitado para **el marcado por nombre**. Dentro de ese operador automático, puedes asignar la tecla 1 (que no tiene ninguna letra asociada) para alcanzar el **marcado por** el operador automático de extensión.
+> Si desea usar el **marcado por nombre** y las características de **marcado por extensión** , puede asignar una tecla de marcado en su operador automático principal para comunicarse con un operador automático habilitado para **el marcado por nombre** . Dentro de ese operador automático, puedes asignar la tecla 1 (que no tiene ninguna letra asociada) para alcanzar el **marcado por** el operador automático de extensión.
 
-Una vez que haya seleccionado una opción de **búsqueda de directorio** , haga clic en **siguiente**.
+Una vez que haya seleccionado una opción de **búsqueda de directorio** , haga clic en **siguiente** .
 
 ## <a name="call-flow-for-after-hours"></a>Flujo de llamadas para después del horario
 
@@ -147,7 +147,7 @@ Cuando haya terminado, haga clic en **siguiente** .
 
 El operador automático puede tener un flujo de llamadas por cada [festividad que hayas configurado](set-up-holidays-in-teams.md). Puede agregar un máximo de 20 días festivos programados a cada operador automático.
 
-1. En la página de configuración de llamadas, haga clic en **Agregar**.
+1. En la página de configuración de llamadas, haga clic en **Agregar** .
 
 2. Escriba un nombre para esta configuración de días festivos.
 
@@ -161,13 +161,13 @@ El operador automático puede tener un flujo de llamadas por cada [festividad qu
 
 6. Si eliges redirigir, elige el destino de enrutamiento de llamadas para la llamada.
 
-7. Haga clic en **Guardar **.
+7. Haga clic en **Guardar** .
 
 ![](media/auto-attendant-holiday-call-settings.png)
 
 Repita el procedimiento según sea necesario para cada festividad adicional.
 
-Cuando haya agregado todos los días no laborables, haga clic en **siguiente**.
+Cuando haya agregado todos los días no laborables, haga clic en **siguiente** .
 
 ## <a name="dial-scope"></a>Ámbito de marcado
 
@@ -180,7 +180,7 @@ Puede incluir o excluir determinados usuarios seleccionando **grupo de usuarios 
 > [!NOTE]
 > Es posible que tarde hasta 36 horas para que un nuevo usuario tenga su nombre en el directorio.
 
-Cuando haya terminado de establecer el ámbito de marcado, haga clic en **siguiente**.
+Cuando haya terminado de establecer el ámbito de marcado, haga clic en **siguiente** .
 
 ## <a name="resource-accounts"></a>Cuentas de recursos
 
@@ -188,11 +188,11 @@ Todos los operadores automáticos deben tener una cuenta de recursos asociada.  
 
 ![](media/auto-attendant-add-resource-account.png)
 
-Para agregar una cuenta de recursos, haga clic en **Agregar cuenta** y busque la cuenta que desea agregar. Haga clic en **Agregar**y, a continuación, en **Agregar**.
+Para agregar una cuenta de recursos, haga clic en **Agregar cuenta** y busque la cuenta que desea agregar. Haga clic en **Agregar** y, a continuación, en **Agregar** .
 
 ![](media/auto-attendant-resource-account-assigned.png)
 
-Cuando haya terminado de agregar cuentas de servicio, haga clic en **Enviar**. Esto completa la configuración del operador automático.
+Cuando haya terminado de agregar cuentas de servicio, haga clic en **Enviar** . Esto completa la configuración del operador automático.
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Transferencias de números de teléfono externos: detalles técnicos
 

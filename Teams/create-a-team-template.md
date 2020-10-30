@@ -16,34 +16,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3a6a19a511d86072f6c1d27c2bda447a937483
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 138f85c77f3dd6046c97e7ed3049b86b9a1a2745
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308383"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800643"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Crear una plantilla de equipo personalizada en Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 **Las plantillas personalizadas aún no son compatibles con los clientes de EDU.**
 
-Una plantilla de equipo personalizado es una estructura de equipo predefinida con un conjunto de canales, pestañas y aplicaciones que puede desarrollar para ayudarle a crear rápidamente el espacio de colaboración adecuado. La plantilla de equipo personalizada usa la configuración que prefiera.  
+Una plantilla de equipo personalizado es una estructura de equipo predefinida con un conjunto de canales, pestañas y aplicaciones. Puede desarrollar una plantilla que le ayude a crear rápidamente el espacio de colaboración. La plantilla de equipo personalizada usa la configuración que prefiera.  
 
 Para comenzar:
 
 1. Inicie sesión en el centro de administración de Teams.
 
-2. En el navegación izquierdo, expanda plantillas de equipo **de Teams**  >  **Team templates**.
+2. En el navegación izquierdo, expanda plantillas de equipo **de Teams**  >  **Team templates** .
 
-3. Haga clic en **Agregar**.
+3. Haga clic en **Agregar** .
 
 ![Una imagen del cuadro de diálogo de plantillas de equipo con agregar resaltado.](media/team-templates-new.png)
 
-4. En la sección **plantillas de equipo** , seleccione **crear una plantilla completamente nueva**.
+4. En la sección **plantillas de equipo** , seleccione **crear una plantilla completamente nueva** .
 
-5. En la sección **configuración de plantillas** , complete los siguientes campos y, a continuación, haga clic en **siguiente**:
+5. En la sección **configuración de plantillas** , complete los siguientes campos y, a continuación, haga clic en **siguiente** :
     - Nombre de la plantilla
     - Descripciones breves y cortas de plantilla
     - Visibilidad de la configuración regional  
@@ -52,7 +50,7 @@ Para comenzar:
 
 6. En la sección **canales, fichas y aplicaciones** , agregue los canales y las aplicaciones que necesite el equipo.
 
-    1. En la sección **canales** , haga clic en **Agregar**.
+    1. En la sección **canales** , haga clic en **Agregar** .
     2. En el cuadro de diálogo **Agregar** , asigne un nombre al canal.
     3. Agregue una descripción.
     4. Decida si el canal se debe mostrar de forma predeterminada.
