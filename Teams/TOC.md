@@ -40,7 +40,6 @@
 ## [Crear equipos de administrador de personas](create-manager-directs-teams.md)
 ## [Administrar las directivas de los equipos y los canales](teams-policies.md)
 ## [Etiquetas de confidencialidad de Teams](sensitivity-labels.md)
-## [Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)
 ## [Configurar la moderación de canales en Teams](manage-channel-moderation-in-teams.md)
 ## [Compartir archivos en Teams](sharing-files-in-teams.md)
 ## [Integración de Teams y correo electrónico de Outlook](teams-outlook-email-integration.md)
@@ -1015,3 +1014,4 @@
 ## [Cuestionario de detección de actualización](upgrade-plan-journey-discovery-questionnaire.md)
 ## [Exportar contenido con la API para exportar de Microsoft Teams](export-teams-content.md)
 ## [Notas de la versión de las características de administración de Teams](release-notes/release-notes.md)
+## [Versión preliminar pública en Microsoft Teams](public-preview-doc-updates.md)
