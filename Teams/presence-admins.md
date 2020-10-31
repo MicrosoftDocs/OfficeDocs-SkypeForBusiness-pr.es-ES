@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd066fe06126043475a7264b3b2c4501c7ac3ae
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650953"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818840"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -45,9 +45,9 @@ La presencia es parte del perfil de un usuario en Microsoft Teams (y en Microsof
 || ![Círculo rojo con línea blanca, indica Presentando](media/Presence_DND.png) Presentando|
 || ![Círculo rojo con línea blanca, indica Modo enfoque](media/Presence_DND.png) Énfasis. El foco se produce cuando los usuarios programan el tiempo de enfoque en myanalytics o perspectivas en sus calendarios.|
 | ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Ausente| ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Ausente|
-|| ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Última vez visto ausente*hora*|
+|| ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Última vez visto ausente *hora*|
 |![Icono del reloj amarillo, indica que está ausente, ahora vuelvo.](media/Presence_Away.png) Ahora vuelvo| |
-|![Círculo gris con una x, indica que está Desconectado](media/Presence_Offline.png) Aparecer como desconectado. Próximamente en Teams.|![Círculo gris con una x, indica que está Desconectado](media/Presence_Offline.png) Línea.  Cuando los usuarios no tienen sesión en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. | |
+|![Círculo gris con una x, indica que está Desconectado](media/Presence_Offline.png) Aparecer como desconectado|![Círculo gris con una x, indica que está Desconectado](media/Presence_Offline.png) Línea.  Cuando los usuarios no tienen sesión en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. | |
 || ![Círculo gris abierto, indica estado desconocido](media/Presence_Unknown.png) Estado desconocido|
 || ![Círculo púrpura con flecha, indica Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. (Disponible solo en Outlook). |
 |||
@@ -84,7 +84,7 @@ Los Estados configurados por el usuario tienen una configuración de expiración
 La siguiente configuración de administración Skype Empresarial es diferente en Teams:
 
 - En Teams, el uso compartido de la presencia siempre está habilitado para los usuarios de la organización. La configuración privacidad (donde se define quién puede ver la presencia) no está disponible en Teams.
-- Compartir la presencia con todo el mundo (incluidos los servicios Federados) siempre está habilitado para los usuarios de Teams. Su lista de contactos (si tenía una en Skype Empresarial) está visible en**Chat > Contactos** o en **Llamadas > Contactos**.
+- Compartir la presencia con todo el mundo (incluidos los servicios Federados) siempre está habilitado para los usuarios de Teams. Su lista de contactos (si tenía una en Skype Empresarial) está visible en **Chat > Contactos** o en **Llamadas > Contactos** .
 - Las funciones de No molestar al cliente y Contacto siempre están habilitadas para los usuarios de Teams.
 - La integración del calendario (incluye información de fuera de la oficina y otra información de calendario) siempre está habilitada para los usuarios cuando Teams se integra con Outlook.
 - El indicador *Último visto* o *Ausente desde* siempre está habilitado para los usuarios en Teams si la organización también usa Skype Empresarial.

@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre el almacén de aplicaciones personalizadas en Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
-ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
+ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456154"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818829"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Tienda de aplicaciones personalizadas en Microsoft Teams
 
@@ -34,6 +34,12 @@ Ahora puede personalizar la tienda de aplicaciones de Teams con la personalizaci
 
 > [!Note]
 > Los cambios en la personalización de marca requerirán 24 horas para surtir efecto.
+
+Puede acceder a personalizar la tienda en el centro de administración seleccionando **aplicaciones de Teams**  >  **personalizar la tienda** .
+
+  ![Característica personalizar tienda de la consola de administración resaltada](media/customize-app-store.png)
+
+En este artículo se describen las características de la tienda de aplicaciones personalizadas y cómo usarlas.
 
 ## <a name="customize-your-organization-logo"></a>Personalizar el logotipo de su organización
 
@@ -57,7 +63,7 @@ El logotipo se muestra en la esquina superior derecha del catálogo de aplicacio
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Su organización Lovemark o pequeño logotipo es una imagen o un símbolo que representa la marca de su organización y no incluye el nombre de su empresa. La logomark ayuda a los miembros del equipo a identificar el almacén de aplicaciones. El logotipo seleccionado aparecerá en la página del cliente de Teams en las aplicaciones.
+Su organización logomark o pequeño logotipo es una imagen o un símbolo que representa la marca de su organización y no incluye el nombre de su empresa. La Lovemark ayuda a los miembros del equipo a identificar el almacén de aplicaciones. El logotipo seleccionado aparecerá en la página del cliente de Teams en las aplicaciones.
 
 Al seleccionar la opción **elegir una imagen** , puede cargar el archivo que desee. El logomark debe ser de 32x32 píxeles o se escalará a ese tamaño. No debe ser mayor de 5 MB. Los formatos admitidos son:
 
@@ -73,7 +79,7 @@ El logotipo pequeño se muestra junto al título de la sección de **creación d
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-El fondo debe tener suficiente contraste con el texto para que los usuarios puedan leer el texto claramente. El fondo aparecerá en el cliente de Teams en las **aplicaciones**  >  **compiladas para el encabezado de inquilino** .
+Asegúrese de que el fondo tiene suficiente contraste con el texto para que los usuarios puedan leer el texto claramente. El fondo aparecerá en el cliente de Teams en las **aplicaciones**  >  **compiladas para el encabezado de inquilino** .
 
 Tiene las siguientes opciones:
 
@@ -82,7 +88,7 @@ Tiene las siguientes opciones:
   - . svg
   - . png
   - . jpg
-- Elija un fondo personalizado. Al seleccionar **elegir un color personalizado**, se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de colores.
+- Elija un fondo personalizado. Al seleccionar **elegir un color personalizado** , se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de colores.
 
 La imagen o el color de fondo se usa como fondo del banner superior en el catálogo de aplicaciones de inquilino de Teams.
 
@@ -92,9 +98,9 @@ La imagen o el color de fondo se usa como fondo del banner superior en el catál
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-El color del texto debería tener suficiente contraste con el fondo para que los usuarios puedan leer el nombre de su organización de forma clara. El texto aparecerá en el cliente de Teams en las **aplicaciones**  >  **compiladas para el encabezado de inquilino** .
+Asegúrese de que el color del texto tiene suficiente contraste con el fondo para que los usuarios puedan leer el nombre de su organización de forma clara. El texto aparecerá en el cliente de Teams en las **aplicaciones**  >  **compiladas para el encabezado de inquilino** .
 
-Al seleccionar **elegir un color personalizado**, se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de colores.
+Al seleccionar **elegir un color personalizado** , se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de colores.
 
  ![Imagen de un selector de color](media/choose-a-custom-color.png)
 

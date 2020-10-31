@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Obtenga información sobre cómo actualizar teléfonos de equipos a equipos se muestra en el centro de administración de Microsoft Teams.
-ms.openlocfilehash: b1cb1e94092d833cdf80c3fa9b73e5180b66d063
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787631"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816120"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Mostrar la actualización de equipos a equipos
 
@@ -70,7 +70,13 @@ La actualización puede tardar hasta una hora en completarse. Si el proceso no s
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-La compatibilidad con temas oscuros de las pantallas de Teams estará disponible en una actualización futura. Los teléfonos de los equipos que usan el tema oscuro obtendrán el tema predeterminado después de la actualización.
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Teams muestra el tema predeterminado en lugar del oscuro
+
+La compatibilidad con temas oscuros de las pantallas de Teams estará disponible en una actualización futura. Los teléfonos de los equipos que usan el tema oscuro obtendrán el tema predeterminado después de que se muestre la actualización a teams.
+
+### <a name="some-apps-are-missing-from-the-home-screen"></a>Faltan algunas aplicaciones de la pantalla de inicio
+
+Si faltan determinadas aplicaciones en la pantalla de inicio después de la actualización, cierre sesión y vuelva a iniciar sesión. La solución para ello estará disponible en una actualización futura.
 
 ## <a name="see-also"></a>Consulte también
 

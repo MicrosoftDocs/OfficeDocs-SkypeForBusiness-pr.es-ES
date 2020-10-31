@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga más información sobre las opciones de reconocimiento de voz y el operador automático en la cola de llamadas de Teams.
-ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800573"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818810"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Operador automático y referencia de la cola de llamadas y reconocimiento de voz
 
@@ -100,7 +100,7 @@ Las personas que llaman pueden decir nombres en los siguientes formatos:
 
 Los siguientes idiomas están disponibles para el texto a voz que se usa con indicaciones salientes:
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |Árabe (EG)  |Inglés (NZ)  |Coreano (KO)  |
 |Chino (HK)  |Inglés (Reino Unido) |Noruego (NO)  |
@@ -114,7 +114,7 @@ Los siguientes idiomas están disponibles para el texto a voz que se usa con ind
 
 La entrada de reconocimiento de voz para los operadores automáticos está disponible en los siguientes idiomas:
   
-|||
+|-|-|
 |:-----|:-----|
 |Chino (ZH)  |Francés (FR)  |
 |Inglés (AU)  |Alemán (DE)  |
