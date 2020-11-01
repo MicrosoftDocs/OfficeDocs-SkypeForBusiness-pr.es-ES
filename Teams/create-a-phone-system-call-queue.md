@@ -1,5 +1,5 @@
 ---
-title: Crear una cola de llamada
+title: Crear una cola de llamadas en Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, mantiene música, redirige las llamadas y otras características.
-ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793527"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820024"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -50,7 +50,7 @@ Para configurar una cola de llamadas, en el centro de administración de Teams, 
 
 ## <a name="resource-account-and-language"></a>Cuenta de recursos e idioma
 
-![](media/call-queue-name-language.png)
+![Captura de pantalla de la configuración de idioma y cuenta de recursos](media/call-queue-name-language.png)
 
 1. Escriba un nombre para la cola de llamadas. Los agentes verán este nombre cuando reciban una llamada entrante de la cola.
 
@@ -77,7 +77,7 @@ Los agentes de llamadas seleccionados deben ser uno de los siguientes:
 - Usuarios locales de Skype empresarial Server
 - Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
 
-![](media/call-queue-users-groups.png)
+![Captura de pantalla de configuración de usuarios y grupos para colas de llamadas](media/call-queue-users-groups.png)
 
 Puede Agregar hasta 20 agentes de forma individual y hasta 200 agentes a través de grupos.
 
@@ -90,7 +90,7 @@ Para agregar un grupo a la cola, haga clic en **agregar grupos** , busque el gru
 
 ## <a name="call-routing"></a>Enrutamiento de llamada
 
-![](media/call-queue-conference-mode-routing-method.png)
+![Captura de pantalla de la configuración del modo de conferencia y del método de enrutamiento](media/call-queue-conference-mode-routing-method.png)
 
 El **modo de conferencia** reduce significativamente la cantidad de tiempo que tarda una persona que se conecte a un agente, después de que el agente acepte la llamada. Para que el modo de conferencia funcione, los agentes de la cola de llamadas deben usar uno de los siguientes clientes:
 
@@ -112,7 +112,7 @@ El **método de enrutamiento** determina el orden en el que los agentes reciben 
 
 - El más **largo** enruta las llamadas al agente que ha estado inactiva el tiempo más largo. Un agente se considera inactivo si su estado de presencia está disponible o si su estado de presencia ha estado ausente por menos de 10 minutos. Los agentes cuyo estado de presencia haya estado ausente más de 10 minutos no se consideran inactivos y no podrán recibir llamadas hasta que cambien su presencia a disponible. 
 
-![](media/call-queue-presence-agents-time.png)
+![Captura de pantalla de la configuración de enrutamiento, no participar y hora de alerta](media/call-queue-presence-agents-time.png)
 
 
 El **enrutamiento basado en la presencia** usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible** . 
@@ -135,18 +135,18 @@ Para las colas de alto volumen, recomendamos la configuración siguiente:
 
 ## <a name="call-overflow-handling"></a>Control de desbordamiento de llamadas
 
-![](media/call-queue-overflow-handling.png)
+![Captura de pantalla de configuración de desbordamiento de llamadas](media/call-queue-overflow-handling.png)
 
 Número **máximo de llamadas en la cola** especifica el número máximo de llamadas que pueden esperar en la cola en cualquier momento. El valor predeterminado es 50, pero puede estar comprendido entre 0 y 200. Cuando se alcanza este límite, la llamada se maneja de la forma especificada por la configuración **cuando se alcanza el número máximo de llamadas** .
 
-Puede desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola.
+Puede desconectar la llamada o redirigirla a cualquiera de los [destinos de enrutamiento de llamadas](create-a-phone-system-auto-attendant.md#call-routing-options) , excepto el operador. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola. (Ten en cuenta [estos detalles](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) Si transfieres a un número externo).
 
 > [!NOTE]
 > Si el número máximo de llamadas se establece en 0, el mensaje de bienvenida no se reproducirá.
 
 ## <a name="call-timeout-handling"></a>Control de tiempo de espera de llamadas
 
-![](media/call-queue-timeout-handling.png)
+![Captura de pantalla de configuración de tiempo de espera de llamada](media/call-queue-timeout-handling.png)
 
 Tiempo de espera de la **llamada: tiempo de espera máximo** especifica el tiempo máximo que una llamada puede estar en espera en la cola antes de que se redirija o desconecte. Puede especificar un valor entre 15 y 45 minutos.
 
@@ -181,13 +181,13 @@ Como los agentes de una cola de llamadas pueden marcar para devolver una llamada
 
 También puede usar Windows PowerShell para crear y configurar colas de llamadas. Estos son los cmdlets que usas para administrar una cola de llamadas.
 
-- [Nuevo: CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
+- [Nuevo: CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -197,6 +197,6 @@ También puede usar Windows PowerShell para crear y configurar colas de llamadas
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Nuevo: CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[Nuevo: CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
