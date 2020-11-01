@@ -13,13 +13,13 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Guía práctica para implementar las características de voz en la nube de Teams para grabar reuniones de Teams y llamadas grupales para capturar la actividad de audio, vídeo y pantalla compartida.
+description: Guía práctica para implementar las características de voz en la nube en Teams para grabar reuniones de Teams y llamadas de grupo para capturar la actividad de audio, vídeo y uso compartido de la pantalla.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: c0030cdc3a7e4929435127f9c4fbe549c7a6bf20
 ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
 ms.locfileid: "48503467"
@@ -31,42 +31,42 @@ En Microsoft Teams, los usuarios pueden grabar sus reuniones y llamadas de grupo
 Relacionado: [Documentación de usuario final de grabación de reuniones de Teams](https://aka.ms/recordmeeting)
 
 >[!Note]
-> El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento, podrá participar en esta experiencia; en noviembre tendrá que dejar de participar si quiere seguir usando Stream y, en algún momento a principios de 2021, requeriremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para las grabaciones de reuniones.
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
 
 > [!NOTE]
-> Para obtener información sobre el uso de roles en reuniones de Teams y sobre cómo cambiar los roles de los usuarios, vea [roles en una reunión de Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> Para obtener más información sobre el uso de los roles en reuniones de Teams y cómo cambiar los roles de los usuarios, consulte [roles en una reunión de Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Requisitos previos para grabación de reuniones en la nube de Teams
 
-Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream debe estar habilitado para el inquilino. Además, son necesarios los siguientes requisitos previos tanto para el organizador de la reunión como para la persona que inicia la grabación:
+Para que se graben las reuniones de un usuario de Teams debe habilitarse Microsoft Stream para el espacio empresarial. Además, son necesarios los siguientes requisitos previos tanto para el organizador de la reunión como para la persona que inicia la grabación:
 
-- El usuario tiene Office 365 E1, E3, E5, a1, a3, A5, Microsoft 365 empresa Premium, Business Standard o Business Basic<sup>1</sup>
+- El usuario debe tener Office 365 E1, E3, E5, a1, a3, A5, Microsoft 365 Empresa Premium, Empresa Estándar o Empresa Basico<sup>1</sup>
 - El usuario debe tener una licencia para Microsoft Stream<sup>2</sup> 
 - El usuario tiene permisos de carga de vídeo para Microsoft Stream
 - El usuario ha dado su consentimiento a las directrices de la empresa, si han sido configuradas por el administrador
 - El usuario tiene suficiente espacio de almacenamiento en Microsoft Stream para guardar las grabaciones
 - El usuario tiene el parámetro TeamsMeetingPolicy-AllowCloudRecording definido como true
 - El usuario no es un usuario anónimo, Invitado o federado en la reunión
-- Para habilitar la transcripción de la reunión de un usuario, la política de reunión de Teams a la que están asignadas debe tener el valor-AllowTranscription establecido en true.
+- Para habilitar la transcripción de la reunión de un usuario, la directiva de reunión de Teams a la que están asignadas debe tener la configuración-AllowTranscription ajustada a verdadero.
 
-<sup>1</sup> a partir del 20 de agosto de 2020, el acceso al archivo de grabación de la reunión vencerá después de 21 días para los usuarios con a1. Para obtener más información, vea [cargar una grabación de reunión de Microsoft Teams en una secuencia](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
+<sup>1</sup>A partir del 20 de agosto de 2020, el acceso al archivo de registro de la reunión expirará en un plazo de 21 días para los usuarios con A1. Para más información, consulta [Cargar grabaciones de reuniones de Microsoft Teams en Stream](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
 
-<sup>2</sup> el usuario debe tener licencia para cargar o descargar reuniones a o desde Microsoft Stream; sin embargo, no necesitan la licencia para grabar una reunión. Si no desea que un usuario pueda grabar una Reunión de Microsoft Teams, debe otorgar una TeamsMeetingPolicy que tenga la opción AllowCloudRecording establecida en $False.
+<sup>2</sup>El usuario debe disponer de una licencia para cargar y descargar reuniones en Microsoft Stream, pero no se necesita la licencia para grabar una reunión. Si no desea que un usuario pueda grabar una Reunión de Microsoft Teams, debe otorgar una TeamsMeetingPolicy que tenga la opción AllowCloudRecording establecida en $False.
 
 > [!IMPORTANT] 
-> Los usuarios no necesitarán una licencia de Microsoft Stream asignada si quiere que los usuarios solo graben y descarguen las grabaciones. Esto significa que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en el servicio multimedia de Azure (AMS) con un límite de 21 días antes de que se elimine. En este momento, no es algo que un administrador pueda controlar o administrar, incluida la capacidad de eliminarlo.
+> Los usuarios no necesitarán una licencia de Microsoft Stream asignada si quiere que los usuarios solo graben y descarguen las grabaciones. Esto significará que las grabaciones no se almacenan en Microsoft Stream, sino que se almacenan en Azure Media Services (AMS) con un límite de 21 días antes de que se eliminen. En este momento, no es algo que un administrador pueda controlar o administrar, incluida la capacidad de eliminarlo.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar la grabación de reuniones en la nube de Teams para los usuarios de su organización
 
 En esta sección se explica cómo puede configurar y planear la grabación de reuniones de Teams.
 
-### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>Activar Microsoft Stream para los usuarios de la organización
+### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>Habilitar Microsoft Stream para los usuarios de la organización
 
-Microsoft Stream está disponible como parte de las suscripciones Microsoft 365 y Office 365 y como un servicio independiente.  Para obtener más información, consulte [Información general sobre licencias de Stream](https://docs.microsoft.com/stream/license-overview)  Microsoft Stream está ahora incluido en Microsoft 365 Business, Microsoft 365 Business Standard y Microsoft 365 Business Basic.
+Microsoft Stream está disponible como parte de las suscripciones elegibles de Microsoft 365 y Office 365 o como un servicio independiente.  Para obtener más información, consulte [Información general sobre licencias de Stream](https://docs.microsoft.com/stream/license-overview)  Microsoft Stream está ahora incluido en Microsoft 365 Empresa, Microsoft 365 Empresa Estándar y Microsoft 365 Empresa Básico.
 
-Obtenga más información sobre cómo [asignar licencias a usuarios en microsoft 365 u Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que los usuarios puedan acceder a Microsoft Stream. Asegúrese de que Microsoft Stream no esté bloqueado para los usuarios, tal como se define en [bloquear la suscripción a Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization).
+Obtenga más información sobre cómo [asignar licencias a los usuarios en Microsoft 365 u Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) de modo que los usuarios puedan tener acceso a Microsoft Stream. Asegúrese de que Microsoft Stream no esté bloqueado para los usuarios, como se define en [Bloquear las suscripciones a Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization).
 
-### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Asegurarse de que los usuarios tienen permisos de carga de vídeo en Microsoft Stream
+### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Asegúrese de que los usuarios tienen permisos para cargar vídeos en Microsoft Stream
 
 De forma predeterminada, todos los usuarios de la empresa pueden crear contenido en Stream, una vez que Stream esté habilitado y la licencia esté asignada al usuario. Un administrador de Microsoft Stream puede [restringir que los empleados puedan crear contenido](https://docs.microsoft.com/stream/restrict-uploaders) en Stream. Los usuarios que estén en esta lista restringida no podrán grabar reuniones.
 
@@ -82,10 +82,10 @@ En el centro de administración de Microsoft Teams, active o desactive la opció
 
 Con PowerShell, configure la opción AllowCloudRecording en TeamsMeetingPolicy. Para obtener más información, consulte [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Tenga en cuenta que tanto el organizador de la reunión como el iniciador la grabación necesitan tener permisos de grabación para grabar la reunión. A menos que haya asignado una directiva personalizada a los usuarios, los usuarios obtienen la directiva global, que tiene AllowCloudRecording habilitado de forma predeterminada.
+Tenga en cuenta que tanto el organizador de la reunión como el iniciador la grabación necesitan tener permisos de grabación para grabar la reunión. A menos que haya asignado una directiva personalizada a los usuarios, a estos se les aplicará la directiva global, que tiene AllowCloudRecording habilitada de forma predeterminada.
 
 > [!NOTE]
-> Para obtener más información sobre el uso de los roles de Teams para configurar quién tiene permiso para grabar una reunión, vea [roles de una reunión de Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> Para obtener más información sobre el uso de los roles en Teams para configurar quién tiene permiso para grabar una reunión, vea [roles en una reunión de Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 Para que un usuario revierta a la directiva global, use el siguiente cmdlet para quitar una asignación de directiva específica para un usuario:
 
@@ -107,13 +107,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                    Quiero que todos los usuarios de mi empresa puedan grabar sus reuniones                                    |                                                                     <ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = True<li>Todos los usuarios tienen CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True </ol>                                                                     |
 | Quiero que la mayoría de los usuarios puedan grabar sus reuniones, pero deshabilitar de forma selectiva usuarios específicos a los que no se les permite grabar |        <ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = True<li>La mayoría de los usuarios tienen CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True<li>A los demás usuarios se les ha otorgado una de las directivas CsTeamsMeetingPolicy con AllowCloudRecording = False</ol>         |
 |                                                   Quiero deshabilitar la grabación al 100%                                                    |                                                                <ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False<li>A todos los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False                                                                 |
-|      Quiero que la grabación esté desactivada para la mayoría de los usuarios, pero permite de forma selectiva que se permita a determinados usuarios grabar       | <ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False<li>A la mayoría de los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False<li>Todos los usuarios tienen CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True <ol> |
+|      Quiero que la grabación esté deshabilitada para la mayoría de los usuarios, pero permitir de forma selectiva que usuarios específicos puedan grabar       | <ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False<li>A la mayoría de los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False<li>Todos los usuarios tienen CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>Dónde se almacenan las grabaciones de reuniones
 
-Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de Microsoft Stream. Las grabaciones se conservan y están disponibles para su visualización y descarga durante veintiún días. Actualmente, la característica de grabación de reuniones está desactivada para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país en la que se almacenan los datos. En el futuro se activará la característica de grabación de reuniones para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país.
+Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de Microsoft Stream. Se conservan las grabaciones y están disponibles para su visualización y descarga durante 21días. Actualmente, la característica de grabación de reuniones está desactivada para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país en la que se almacenan los datos. En el futuro se activará la característica de grabación de reuniones para los clientes cuyos datos se almacenan en el país incluso si Microsoft Stream no está disponible en la región de residencia de datos del país.
 
-Cuando este cambio se haya hecho efectivo, las grabaciones de reuniones se almacenarán de forma predeterminada en la región geográfica más cercana para Microsoft Stream. Si los datos de Teams se almacenan en el país y prefiere almacenar las grabaciones de reuniones en el país, se recomienda que desactive la característica y la active después de que se implemente Microsoft Stream en su región de residencia de datos del país. Para desactivar la característica para todos los usuarios de su organización, desactive la opción **permitir la grabación** en la nube de la Directiva de reunión global de Teams, que se encuentra en el centro de administración de Microsoft Teams. Sin embargo, si aún desea habilitar las grabaciones para que se almacenen en la región geográfica más cercana de Microsoft Stream, debe activar la **opción permitir grabación en nube** y **permitir el almacenamiento de grabaciones fuera** de la región antes de que se produzca este cambio.
+Cuando este cambio se haya hecho efectivo, las grabaciones de reuniones se almacenarán de forma predeterminada en la región geográfica más cercana para Microsoft Stream. Si los datos de Teams se almacenan en el país y prefiere almacenar las grabaciones de reuniones en el país, se recomienda que desactive la característica y la active después de que se implemente Microsoft Stream en su región de residencia de datos del país. Para desactivar la característica para todos los usuarios de su organización, desactive la opción **Permitir la grabación en la nube** que se encuentra en el centro de administración de Microsoft Teams, en la política de reuniones global de Teams. Sin embargo, si aún desea permitir que las grabaciones se almacenen en la región geográfica más cercana para Microsoft Stream, debe activar tanto la opción **Permitir la grabación en la nube** como **Permitir que el almacenamiento de registro se encuentre fuera de la región** antes de que se produzca este cambio.
 
 Para habilitar las grabaciones en la región de la directiva global, use el siguiente cmdlet:
 
@@ -124,23 +124,23 @@ Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRe
 
 Aquí se muestra un resumen de lo que ocurre al activar la grabación de reuniones cuando este cambio se haga efectivo:
 
-|Si activa las grabaciones de la reunión...|Las grabaciones de reuniones se almacenan... |
+|Si activa grabación de reuniones...|Las grabaciones de reuniones se almacenan... |
 |---|---|
-|Antes de que Microsoft Stream esté disponible en su región de residencia de datos en el país |En la región de Microsoft Stream más cercana|
-|Después de que Microsoft Stream esté disponible en su región de residencia de datos en el país |En la región de residencia de datos en el país|
+|Antes de que Microsoft Stream esté disponible en su región de residencia de datos nacionales |En la región de Microsoft Stream más cercana|
+|Después de que Microsoft Stream esté disponible en su región de residencia de datos del nacionales |En su región de residencia de datos nacionales|
 
-En caso de los espacios empresariales nuevos y existentes que todavía no hayan activado la grabación de reuniones, las nuevas grabaciones se almacenan en el país después de que Microsoft Stream esté disponible en la región de residencia de datos del país. Sin embargo, cualquier inquilino que permita la grabación de reuniones antes de que Microsoft Stream esté disponible en la región de residencia del país seguirá usando el almacenamiento de Microsoft Stream para las grabaciones nuevas y existentes, incluso después de que Microsoft Stream esté disponible en la región de residencia de datos en el país.
+En caso de los espacios empresariales nuevos y existentes que todavía no hayan activado la grabación de reuniones, las nuevas grabaciones se almacenan en el país después de que Microsoft Stream esté disponible en la región de residencia de datos del país. Sin embargo, cualquier espacio empresarial que habilite la grabación de reuniones antes de que Microsoft Stream esté disponible en la región de residencia de datos nacionales, seguirá utilizando el almacenamiento de Microsoft Stream para grabaciones nuevas y existentes, incluso si Microsoft Stream está disponible en la región de residencia de datos nacionales.
 
-Para buscar la región donde se almacenan los datos de Microsoft Stream, en Microsoft Stream, haga clic en **?** en la esquina superior derecha, haga clic en **Acerca de Microsoft Stream** y, después, haga clic en **Los datos se almacenan en**.  Para obtener más información sobre las regiones donde Microsoft Stream almacena datos, consulte [Preguntas frecuentes sobre Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+Para buscar la región donde se almacenan los datos de Microsoft Stream, en Microsoft Stream, haga clic en **?** en la esquina superior derecha, haga clic en **Acerca de Microsoft Stream** y, después, haga clic en **Los datos se almacenan en** .  Para obtener más información sobre las regiones donde Microsoft Stream almacena datos, consulte [Preguntas frecuentes sobre Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-Para obtener más información sobre dónde se almacenan los datos en los servicios en Microsoft 365 u Office 365, consulte [¿dónde se encuentran los datos?](https://products.office.com/where-is-your-data-located?rtc=1)
+Para obtener más información sobre dónde se almacenan los datos en los servicios Microsoft 365 o de Office 365, consulte [¿Dónde se encuentran los datos?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Activar o desactivar la transcripción de grabaciones
 
-Esta configuración controla si las características de subtítulos y transcripción están disponibles durante la reproducción de grabaciones de reunión. Si desactiva esta opción, las opciones **Buscar** y **CC** no estarán disponibles durante la reproducción de una grabación de reunión. La persona que inició la grabación necesita esta configuración activada para que la grabación también incluya transcripción.
+Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. Si desactiva esta opción, las opciones de **Búsqueda** y **CC** no estarán disponibles durante la reproducción de la grabación de una reunión. La persona que ha iniciado la grabación necesita que esta opción esté activada para que la grabación también incluya transcripción.
 
 > [!NOTE]
-> Actualmente, esta transcripción para reuniones grabadas solo es compatible con los usuarios que tienen el idioma de Teams establecido en inglés y cuando se habla de inglés en la reunión. Se almacenan junto con las grabaciones de la reunión en el almacenamiento en la nube de Microsoft Stream.
+> Actualmente, la transcripción de reuniones grabadas solo es compatible con los usuarios que tengan el idioma de los equipos en inglés y cuando se habla inglés en la reunión. Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de Microsoft Stream.
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 
@@ -174,7 +174,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="planning-for-storage"></a>Planificación de almacenamiento
 
-El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la capacidad necesaria para los archivos grabados y de disponer de suficiente espacio de almacenamiento en Microsoft Stream.  Lea la [información general sobre licencias de Microsoft Stream](https://docs.microsoft.com/stream/license-overview) para comprender el almacenamiento básico incluido en la suscripción y cómo comprar almacenamiento adicional.
+El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la capacidad necesaria para los archivos grabados y de disponer de suficiente espacio de almacenamiento en Microsoft Stream.  Lea la [descripción general de las licencias de Microsoft Stream](https://docs.microsoft.com/stream/license-overview) para comprender el almacenamiento básico incluido en la suscripción y cómo adquirir almacenamiento adicional.
 
 ## <a name="manage-meeting-recordings"></a>Administrar grabaciones de reuniones
 
@@ -185,7 +185,7 @@ Las grabaciones de reuniones se consideran contenidos propiedad del espacio empr
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Cumplimiento y eDiscovery para grabaciones de reuniones
 
-Las grabaciones de la reunión se almacenan en Microsoft Stream, que es Microsoft 365 y Office 365 de nivel C. El mensaje de grabación completa se encuentra disponible en la función de búsqueda de contenido de cumplimiento de Microsoft Teams para admitir las solicitudes de e-Discovery para administradores de cumplimiento que estén interesados en las grabaciones de reuniones o llamadas de Microsoft Streams. Los administradores de cumplimiento pueden buscar la palabra clave "grabación" en la línea de asunto del elemento en la vista previa de búsqueda de contenido de cumplimiento y detectar grabaciones de reuniones y llamadas en la organización. Un requisito previo para que vean todas las grabaciones es que deberán tener acceso de administrador en Microsoft Stream. Obtenga más información sobre [asignar permisos de administrador en Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
+Las grabaciones de reuniones se almacenan en Microsoft Stream, que son compatibles con Microsoft 365 y Office 365 nivel C. El mensaje de grabación completa se encuentra disponible en la función de búsqueda de contenido de cumplimiento de Microsoft Teams para admitir las solicitudes de e-Discovery para administradores de cumplimiento que estén interesados en las grabaciones de reuniones o llamadas de Microsoft Streams. Los administradores de cumplimiento pueden buscar la palabra clave "grabación" en la línea de asunto del elemento en la vista previa de búsqueda de contenido de cumplimiento y detectar grabaciones de reuniones y llamadas en la organización. Un requisito previo para que vean todas las grabaciones es que deberán tener acceso de administrador en Microsoft Stream. Obtenga más información sobre [asignar permisos de administrador en Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
 ## <a name="related-topics"></a>Temas relacionados
 
