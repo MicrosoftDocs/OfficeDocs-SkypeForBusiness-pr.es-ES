@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
-ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
+ms.openlocfilehash: b63ea1a1a09a55d9a51fb2a110c024960f23f6f4
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47408236"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803528"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Guía de Insights en Teams para el ámbito educativo para administradores de TI
 
-Con Insights en Microsoft Teams para el ámbito educativo, los formadores y líderes pueden acceder a los datos de análisis sobre la participación digital, la carga de trabajo asignada, las calificaciones, las comunicaciones y más.
+Con Insights en Microsoft Teams para el ámbito educativo, los formadores y líderes pueden acceder a los datos de análisis sobre la participación digital, la carga de trabajo asignada, las calificaciones, las comunicaciones y más. El motor de Insights son los principios éticos por los cuales los formadores y los alumnos están primero. Insights cumple con los estándares de privacidad y garantiza el cumplimiento continuo con la institución.
 
 Insights está activa en los SKU A1, A3 y A5 de Office 365 Educación.
 
 > [!NOTE]
-> Formadores, [aquí](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) hay más información sobre cómo usar Insights.
+> Formadores, pueden encontrar información sobre el uso de Insights aquí: [Guía de Insights en Microsoft Teams para formadores](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181).
 
-## <a name="permissions"></a>Permisos
+## <a name="use-insights"></a>Usar Insights
 
 ### <a name="user-types"></a>Tipos de usuario
 - Los **alumnos** se pueden identificar por sus licencias y  _no tienen_ acceso a la pestaña Insights (incluso si son los propietarios de un equipo). 
@@ -40,10 +40,23 @@ Insights está activa en los SKU A1, A3 y A5 de Office 365 Educación.
 - Asimismo, se identifica a los **líderes** según su licencia de facultad, pero además necesitan permisos específicos de los administradores globales de TI para ver los informes en la aplicación Insights.
 - Las cuentas de invitado _no tienen_ acceso a Insights.
 
-### <a name="permission-levels"></a>Niveles de permisos
-Los formadores y los líderes tienen niveles de permisos y una lógica diferentes:
-- Los **formadores** pueden agregar la aplicación Insights a un canal público dentro un equipo de clase yendo a Aplicaciones en la barra aplicaciones de Teams y buscando Insights. La pestaña refleja la actividad de todos los miembros del equipo de clase que no son propietarios (incluidos los formadores que no son propietarios del equipo). 
-- Los **líderes** pueden agregar la aplicación Insights como una aplicación personal (aparece en el menú izquierdo de Teams) yendo a Aplicaciones en la barra de aplicaciones de Teams y buscando Insights. 
+### <a name="entry-points"></a>Puntos de entrada
+Los formadores y los líderes tienen diferentes puntos de entrada, en los que pueden descubrir y usar Insights.
+
+Los **formadores** pueden usar estos dos puntos de entrada:
+- [Pestañas](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181): En una pestaña agregada desde el menú de navegación superior, se puede encontrar información disponible para cada clase de la que son propietarios. Insights mostrará los datos de actividad de todos los canales de los equipos de clase, pero solo se puede agregar como una pestaña en los canales públicos. La pestaña refleja la actividad de todos los miembros del equipo de clase que no son propietarios (incluidos los formadores que no son propietarios del equipo).
+- [Aplicación personal](https://support.microsoft.com/article/747fd8d9-00b0-43e6-bacc-a1bf030b1867): Un resumen de todas las clases activas está disponible en la barra de la aplicaciones de la izquierda en Teams.
+
+Los **líderes** pueden usar Insights como [aplicación personal](https://support.microsoft.com/article/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
+
+### <a name="manage-setup-policy"></a>Administrar la directiva de configuración
+Como administrador, puede usar la [directiva de configuración de la aplicación](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) para instalar Insights de forma predeterminada para los formadores y líderes cuando inicien Teams.
+Con esa directiva, puede personalizar Temas para que muestre Insights, y anclar esta última en la barra de aplicaciones.
+
+> [!TIP]
+> Lea el documento de[Directivas de Teams y los paquetes de directivas para la educación](https://docs.microsoft.com/microsoftteams/policy-packages-edu), que abarca este tema.
+
+
 
 ## <a name="compliance"></a>Cumplimiento
 
@@ -84,7 +97,7 @@ Insights está diseñado para controlar un gran volumen de datos recopilados de 
 El proceso de recopilación de datos se lleva a cabo en servidores separados, independientemente de la instalación de la pestaña Insights en Teams. La pestaña de Insights no afecta al rendimiento de la aplicación o al ancho de banda de red de los profesores y alumnos que usan el resto de la funcionalidad de Teams.
 
 > [!TIP]
-> Lea [aquí](edu-remote-low-bandwidth.md) cómo usar Teams para el ámbito educativo cuando la banda ancha está lenta.
+> Lea [Ayuda para los casos que presentan poco ancho de banda para Teams para el ámbito educativo](edu-remote-low-bandwidth.md) acerca de cómo usar Teams para el ámbito educativo cuando existe poco ancho de banda.
 
 ## <a name="how-to-delete-your-data"></a>Cómo eliminar sus datos
 
@@ -93,7 +106,7 @@ Los servicios educativos almacenan las acciones de los alumnos y los formadores 
 > [!NOTE]
 > La eliminación de los datos tiene una impacto negativo en la capacidad de Insights de analizar el compromiso del equipo de clase a lo largo del tiempo.
 
-- Abra una incidencia de soporte técnico [aquí](https://edusupport.microsoft.com/support). La incidencia de soporte técnico debe indicar claramente la solicitud de una operación RGPD para eliminar DSR y contener el ID. de objeto de usuario que se eliminará. No es posible limitar el conjunto de datos o la ventana de tiempo de la eliminación.
+- Abra una incidencia de soporte técnico en [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support). La incidencia de soporte técnico debe indicar claramente la solicitud de una operación RGPD para eliminar DSR y contener el ID. de objeto de usuario que se eliminará. No es posible limitar el conjunto de datos o la ventana de tiempo de la eliminación.
 - Una vez que se archivó, la incidencia de soporte técnico permanece en cola por una semana para cumplir con la directiva de retención mínima  Tendrá la oportunidad de cancelar la operación durante este tiempo.
 - Después de una semana, el equipo de Education Analytics toma medidas para asegurarse de que todos los datos relacionados con el ID. de usuario se eliminan del servicio. El soporte técnico de Microsoft supervisa el vale de ICM y le notificará una vez que se haya completado el proceso de eliminación en un máximo de 28 días.
 
@@ -101,10 +114,11 @@ Los servicios educativos almacenan las acciones de los alumnos y los formadores 
 
 School Data Sync ayuda a automatizar el proceso de sincronización e importación de los datos del sistema de información de estudiantes (SIS) con Office 365.
 
-El uso de Insights no requiere el uso de SDS. Sin embargo, puede desactivar Education Analytics en cualquier momento desactivando la alternancia en el centro de administración de SDS en **Configuración** > **Administrar Education Analytics**.
+El uso de Insights no requiere el uso de SDS. Sin embargo, puede desactivar Education Analytics en cualquier momento desactivando la alternancia en el centro de administración de SDS en **Configuración** > **Administrar Education Analytics** .
 
 :::image type="content" source="media/class-insights-on-off.png" alt-text="El botón de encendido y apagado para habilitar o deshabilitar Insights":::
 
 De forma predeterminada, Education Analytics y, por lo tanto, Insights están activados. Cuando desactiva Analytics, se eliminan todos los datos recopilados para la pestaña de Insights. Vuelva a activar Analytics y empezaremos a recopilar datos desde el momento en que se vuelve a habilitar.
 
-Obtenga más información: [Guía de Insights para formadores](https://support.microsoft.com/es-ES/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)
+## <a name="additional-resources"></a>Recursos adicionales
+- [Guía de Insights para formadores](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)
