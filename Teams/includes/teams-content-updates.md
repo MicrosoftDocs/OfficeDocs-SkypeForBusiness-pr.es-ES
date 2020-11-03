@@ -3,10 +3,109 @@
 
 
 
-## <a name="week-of-october-19-2020"></a>Semana del 19 de octubre de 2020
+## <a name="week-of-october-26-2020"></a>Semana del 26 de octubre de 2020
 
 
 | Fecha de publicación |Título del tema | Change |
+|------|------------|--------|
+| 10/26/2020 | [Planear los operadores automáticos de Teams y las colas de llamadas](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+| 10/26/2020 | [Preguntas frecuentes sobre la actualización de Skype Empresarial a Teams](/MicrosoftTeams/faq-journey) | modificado |
+| 10/26/2020 | [Implementar Calidad de servicio en Microsoft Teams](/MicrosoftTeams/qos-in-teams) | modificado |
+| 10/26/2020 | [Visitas virtuales con Microsoft Teams y la aplicación de las reservas](/MicrosoftTeams/bookings-app-admin) | modificado |
+| 10/26/2020 | [Interfaz de DSTU2 y integración de EHR de la aplicación para pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modificado |
+| 10/26/2020 | [Usar Teams Healthcare templates en el centro de administración](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modificado |
+| 10/26/2020 | [Plantillas para organizaciones de salud](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | modificado |
+| 10/26/2020 | [Mensajería segura para organizaciones de salud que usan Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modificado |
+| 10/26/2020 | [Conectar la aplicación Pacientes a la API de Azure para FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modificado |
+| 10/26/2020 | [Aplicación de pacientes para administradores de equipos ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modificado |
+| 10/26/2020 | [Información general de la aplicación de pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modificado |
+| 10/26/2020 | [Auditar la aplicación de pacientes para los administradores de ti y cumplimiento de los equipos ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modificado |
+| 10/26/2020 | [Interfaz de STU3 y integración de EHR de la aplicación para pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modificado |
+| 10/26/2020 | [Introducción a Teams para organizaciones de cuidado de la salud](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
+| 10/26/2020 | [Teams para sanidad](/MicrosoftTeams/expand-teams-across-your-org/teams-for-healthcare-landing-page) | modificado |
+| 10/26/2020 | [Requisitos de hardware para Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
+| 10/26/2020 | [Sesiones de Teams en encendido 2020](/MicrosoftTeams/ignite-2020-landing-page) | modificado |
+| 10/26/2020 | [Administrar la aplicación listas para su organización](/MicrosoftTeams/manage-lists-app) | modificado |
+| 10/26/2020 | [Administrar la experiencia de Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
+| 10/27/2020 | [Soluciones de accesibilidad para Skype Empresarial Online y Microsoft Teams](/MicrosoftTeams/accessibility-solutions-in-france) | modificado |
+| 10/27/2020 | [Interfaz de DSTU2 y integración de EHR de la aplicación para pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modificado |
+| 10/27/2020 | [Conectar la aplicación Pacientes a la API de Azure para FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modificado |
+| 10/27/2020 | [Aplicación de pacientes para administradores de equipos ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modificado |
+| 10/27/2020 | [Información general de la aplicación de pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modificado |
+| 10/27/2020 | [Auditar la aplicación de pacientes para los administradores de ti y cumplimiento de los equipos ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modificado |
+| 10/27/2020 | [Interfaz de STU3 y integración de EHR de la aplicación para pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modificado |
+| 10/27/2020 | [Introducción a Teams para organizaciones de cuidado de la salud](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
+| 10/27/2020 | [Usar plantillas de Teams para crear un nuevo equipo](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
+| 10/27/2020 | [Introducción a las plantillas de Teams con Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | modificado |
+| 10/27/2020 | [Notificaciones prioritarias en mensajería de Teams](/MicrosoftTeams/teams-add-on-licensing/pri-message) | modificado |
+| 10/27/2020 | [Actualizar a teams desde una implementación local de Skype empresarial-Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modificado |
+| 10/27/2020 | [Teléfonos y dispositivos para equipos](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
+| 10/27/2020 | [Controladores de borde de sesión certificados para enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 10/27/2020 | [Teams para visitas virtuales](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
+| 10/27/2020 | [Instalar Teams con el administrador de configuración de Microsoft Endpoint](/MicrosoftTeams/msi-deployment) | modificado |
+| 10/27/2020 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 10/27/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
+| 10/28/2020 | [Asistencia de voz de Cortana en Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modificado |
+| 10/28/2020 | [Crear una cola de llamada](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 10/28/2020 | [Administrar sus dispositivos en Microsoft Teams](/MicrosoftTeams/devices/device-management) | modificado |
+| 10/28/2020 | [Teléfonos para Microsoft Teams](/MicrosoftTeams/devices/phones-for-teams) | modificado |
+| 10/28/2020 | [Introducción a Teams para organizaciones de cuidado de la salud](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
+| 10/28/2020 | [Paquetes de directivas de Teams para el cuidado de la salud](/MicrosoftTeams/policy-packages-healthcare) | modificado |
+| 10/28/2020 | [Compatibilidad ambiental-Microsoft Teams](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | modificado |
+| 10/28/2020 | [Visitas virtuales con Microsoft Teams y la aplicación de las reservas](/MicrosoftTeams/bookings-app-admin) | modificado |
+| 10/28/2020 | [Habla de tiza de Microsoft Teams](/MicrosoftTeams/chalk-talks-landing-page) | modificado |
+| 10/28/2020 | [Planear desvío de medios con enrutamiento directo](/MicrosoftTeams/direct-routing-plan-media-bypass) | modificado |
+| 10/28/2020 | [Administrar la configuración de su organización](/MicrosoftTeams/enable-features-office-365) | modificado |
+| 10/28/2020 | [Teams para visitas virtuales](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
+| 10/28/2020 | [Delegación de mensajes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/hc-delegates) | modificado |
+| 10/28/2020 | [Usar Teams Healthcare templates en el centro de administración](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modificado |
+| 10/28/2020 | [Plantillas para organizaciones de salud](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | modificado |
+| 10/28/2020 | [Mensajería segura para organizaciones de salud que usan Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modificado |
+| 10/28/2020 | [Turnos para Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | modificado |
+| 10/28/2020 | [Administrar la aplicación de turnos para su organización](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modificado |
+| 10/28/2020 | [Administrar la aplicación listas para su organización](/MicrosoftTeams/manage-lists-app) | modificado |
+| 10/28/2020 | [Administrar la aplicación tareas de su organización en Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modificado |
+| 10/28/2020 | [Administrar la transición de Teams al nuevo centro de administración de Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modificado |
+| 10/28/2020 | [Evaluación del entorno de actualización de Microsoft Teams \| , preguntas de descubrimiento](/MicrosoftTeams/upgrade-plan-journey-discovery-questionnaire) | modificado |
+| 10/29/2020 | [Guía de Insights en Teams para el ámbito educativo para administradores de TI](/MicrosoftTeams/class-insights) | modificado |
+| 10/29/2020 | [Crear una plantilla de equipo personalizada en Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modificado |
+| 10/29/2020 | [Crear una nueva plantilla a partir de una plantilla de equipo existente en Microsoft Teams](/MicrosoftTeams/create-template-from-existing-template) | modificado |
+| 10/29/2020 | [Operador automático y referencia de la cola de llamadas y reconocimiento de voz](/MicrosoftTeams/dial-voice-reference) | modificado |
+| 10/29/2020 | [Usar Teams Healthcare templates en el centro de administración](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modificado |
+| 10/29/2020 | [Teams para el ámbito educativo](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | modificado |
+| 10/29/2020 | [Usar plantillas de Teams para crear un nuevo equipo](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
+| 10/29/2020 | [Usar las plantillas gubernamentales de Teams en el centro de administración](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | modificado |
+| 10/29/2020 | [Introducción a teams Manufacturing templates en el centro de administración](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modificado |
+| 10/29/2020 | [Recursos de Microsoft Teams para administradores de educación](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 10/29/2020 | [Usar las plantillas comerciales de Teams en el centro de administración](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | modificado |
+| 10/29/2020 | [¿Qué son los eventos en directo de Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
+| 10/29/2020 | [Buscar eventos en el registro de auditoría en Microsoft Teams](/MicrosoftTeams/audit-log-events) | modificado |
+| 10/29/2020 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 10/29/2020 | [Interfaz de DSTU2 y integración de EHR de la aplicación para pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modificado |
+| 10/29/2020 | [Conectar la aplicación Pacientes a la API de Azure para FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modificado |
+| 10/29/2020 | [Aplicación de pacientes para administradores de equipos ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modificado |
+| 10/29/2020 | [Información general de la aplicación de pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modificado |
+| 10/29/2020 | [Auditar la aplicación de pacientes para los administradores de ti y cumplimiento de los equipos ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modificado |
+| 10/29/2020 | [Interfaz de STU3 y integración de EHR de la aplicación para pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modificado |
+| 10/29/2020 | [Introducción a Teams para organizaciones de cuidado de la salud](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
+| 10/30/2020 | [Adoptar Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | modificado |
+| 10/30/2020 | [Crear una cola de llamada](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 10/30/2020 | [Mostrar la actualización de equipos a equipos](/MicrosoftTeams/devices/upgrade-phones-to-displays) | modificado |
+| 10/30/2020 | [Notas de la versión de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
+| 10/30/2020 | [Disponibilidad en Australia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | modificado |
+| 10/30/2020 | [Disponibilidad de país o región: audioconferencia, planes de llamadas](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modificado |
+| 10/30/2020 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 10/30/2020 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 10/30/2020 | [Tienda de aplicaciones personalizadas](/MicrosoftTeams/customize-your-app-store) | modificado |
+| 10/30/2020 | [Operador automático y referencia de la cola de llamadas y reconocimiento de voz](/MicrosoftTeams/dial-voice-reference) | modificado |
+| 10/30/2020 | Administrar la detección de equipos privados en Microsoft Teams | eliminado |
+| 10/30/2020 | [La presencia del usuario en Teams](/MicrosoftTeams/presence-admins) | modificado |
+
+
+## <a name="week-of-october-19-2020"></a>Semana del 19 de octubre de 2020
+
+
+| Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
 | 10/19/2020 | [Configurar audioconferencias para pequeñas y medianas empresas](/MicrosoftTeams/audio-conferencing-smb) | modificado |
 | 10/19/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
@@ -313,70 +412,3 @@
 | 10/2/2020 | [Usar OneDrive y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
 | 10/2/2020 | [Solucionar problemas con el acceso de invitados en Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | modificado |
 | 10/2/2020 | [Ver los usuarios invitados de un equipo](/MicrosoftTeams/view-guests) | modificado |
-
-
-## <a name="week-of-september-21-2020"></a>Semana del 21 de septiembre de 2020
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 9/21/2020 | [Recursos de aprendizaje de administración-Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
-| 9/21/2020 | [Usar las plantillas de Healthcare de Teams en la consola de administración](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modificado |
-| 9/21/2020 | [Usar plantillas generales de Teams en la consola de administración](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | modificado |
-| 9/21/2020 | [Usar plantillas de Teams para crear un nuevo equipo](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
-| 9/21/2020 | [Introducción a teams Manufacturing templates en la consola de administración](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modificado |
-| 9/21/2020 | [Administrar directivas de reunión](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
-| 9/21/2020 | [Recursos de Microsoft Teams para administradores de educación](/MicrosoftTeams/remote-learning-edu) | modificado |
-| 9/21/2020 | [Usar las plantillas comerciales de Teams en la consola de administración](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | modificado |
-| 9/21/2020 | [Interacción entre Exchange y Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | modificado |
-| 9/21/2020 | [Interoperabilidad de vídeos en la nube para Microsoft Teams](/MicrosoftTeams/cloud-video-interop) | modificado |
-| 9/21/2020 | [Problemas conocidos](/MicrosoftTeams/rooms/known-issues) | modificado |
-| 9/21/2020 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
-| 9/21/2020 | [Usar Microsoft 365 y los conectores personalizados](/MicrosoftTeams/office-365-custom-connectors) | modificado |
-| 9/21/2020 | [Conectores, bots y aplicaciones en Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
-| 9/21/2020 | [Configurar las opciones de Audioconferencia: Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | modificado |
-| 9/21/2020 | [Obtener clientes para Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
-| 9/21/2020 | [Preparar la red de la organización para Microsoft Teams](/MicrosoftTeams/prepare-network) | modificado |
-| 9/22/2020 | [Bloquear el acceso a SharePoint para determinados usuarios](/MicrosoftTeams/block-access-sharepoint) | modificado |
-| 9/22/2020 | [Usar fichas integradas y personalizadas en Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | modificado |
-| 9/22/2020 | [Grabación de reuniones en la nube de Teams](/MicrosoftTeams/cloud-recording) | modificado |
-| 9/22/2020 | [Reuniones y conferencias en Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modificado |
-| 9/22/2020 | [Documentación del administrador de Microsoft Teams # < 60 caracteres](/MicrosoftTeams/index) | modificado |
-| 9/22/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 9/22/2020 | [Complemento de comunicaciones avanzadas para Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modificado |
-| 9/22/2020 | [Administrar la experiencia de Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
-| 9/22/2020 | [Configurar eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modificado |
-| 9/22/2020 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 9/22/2020 | [Definir eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-| 9/22/2020 | [¿Qué son los eventos en directo de Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
-| 9/22/2020 | [Inicio rápido: Administradores de Microsoft Teams para el ámbito educativo](/MicrosoftTeams/teams-quick-start-edu) | modificado |
-| 9/22/2020 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
-| 9/22/2020 | [Crear una cola de llamada](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 9/22/2020 | [Sesiones de Teams en encendido 2020](/MicrosoftTeams/ignite-2020-landing-page) | modificado |
-| 9/22/2020 | [¿Qué son los operadores automáticos en la nube?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | modificado |
-| 9/23/2020 | [Exportar contenido con las API de exportación de Microsoft Teams](/MicrosoftTeams/export-teams-content) | modificado |
-| 9/23/2020 | [Preguntas frecuentes sobre Audioconferencia](/MicrosoftTeams/audio-conferencing-common-questions) | modificado |
-| 9/23/2020 | [Barreras de la información en Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
-| 9/23/2020 | [Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modificado |
-| 9/23/2020 | [Dar soporte para trabajadores remotos con Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
-| 9/23/2020 | [Iniciar sesión en Microsoft Teams con la autenticación moderna](/MicrosoftTeams/sign-in-teams) | modificado |
-| 9/24/2020 | [Microsoft 365 Groups y Microsoft Teams](/MicrosoftTeams/office-365-groups) | modificado |
-| 9/24/2020 | [Audioconferencias con enrutamiento directo, GCCH y DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | modificado |
-| 9/24/2020 | [Grabación de reuniones en la nube de Teams](/MicrosoftTeams/cloud-recording) | modificado |
-| 9/24/2020 | [Planear el enrutamiento directo](/MicrosoftTeams/direct-routing-plan) | modificado |
-| 9/24/2020 | [Información del administrador de TI sobre el cliente de RealWear para Microsoft Teams (versión preliminar)](/MicrosoftTeams/flw-realwear) | modificado |
-| 9/24/2020 | [Directivas de Microsoft Teams y paquetes de directivas para administradores de EDU](/MicrosoftTeams/policy-packages-edu) | modificado |
-| 9/24/2020 | [Configurar cuentas para salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-configure-accounts) | modificado |
-| 9/24/2020 | [Aplicación de walkie talkie en Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modificado |
-| 9/24/2020 | [Configurar las llamadas de emergencia dinámicas](/MicrosoftTeams/configure-dynamic-emergency-calling) | modificado |
-| 9/24/2020 | [Usar OneDrive y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 9/25/2020 | [Interfaz de DSTU2 y integración de EHR de la aplicación para pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modificado |
-| 9/25/2020 | [Conectar la aplicación Pacientes a la API de Azure para FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modificado |
-| 9/25/2020 | [Aplicación de pacientes para administradores de equipos ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modificado |
-| 9/25/2020 | [Información general de la aplicación de pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modificado |
-| 9/25/2020 | [Auditar la aplicación de pacientes para los administradores de ti y cumplimiento de los equipos ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modificado |
-| 9/25/2020 | [Interfaz de STU3 y integración de EHR de la aplicación para pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modificado |
-| 9/25/2020 | [Introducción a Teams para organizaciones sanitarias](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
-| 9/25/2020 | [Modelos de identidad y autenticación para Microsoft Teams](/MicrosoftTeams/identify-models-authentication) | modificado |
-| 9/25/2020 | [Administrar la aplicación listas para su organización](/MicrosoftTeams/manage-lists-app) | modificado |
-| 9/25/2020 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |

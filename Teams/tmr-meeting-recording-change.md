@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778863"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827754"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
@@ -97,7 +97,7 @@ Vea "grabación de reuniones" para obtener más información.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>No se puede elegir OneDrive para la empresa y SharePoint para seguir usando Stream
 
-Incluso si una directiva dice que está configurada para **transmitirse** , es posible que no esté configurada. Normalmente, si no se establece la Directiva, la configuración predeterminada es **transmitir** . Sin embargo, con este nuevo cambio, si desea optar por no usar SharePoint o OneDrive para la empresa, debe restablecer la Directiva en **streaming** para asegurarse de que es la opción predeterminada.
+Incluso si una directiva dice que está configurada para **transmitirse** , es posible que no esté configurada. Normalmente, si no se establece la Directiva, la configuración predeterminada es **transmitir**. Sin embargo, con este nuevo cambio, si desea optar por no usar SharePoint o OneDrive para la empresa, debe restablecer la Directiva en **streaming** para asegurarse de que es la opción predeterminada.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -110,7 +110,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |llamada de 1:1 con partes internas             |Autor de llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |La persona que llama es propietaria, tiene plenos derechos <br /><br />El destinatario de la llamada (si está en el mismo inquilino) tiene acceso de solo lectura, sin acceso compartido <br /><br /> El destinatario de la llamada (si se trata de un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con el destinatario|
 |llamada de 1:1 con partes internas             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        |El destinatario de la llamada es propietario, tiene plenos derechos <br /><br />Persona que llama (si está en el mismo inquilino tiene acceso de solo lectura, sin acceso compartido) <br /><br />La persona que llama (si se trata de un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con el destinatario de la llamada|
 |llamada de 1:1 con una llamada externa             |Autor de llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |La persona que llama es propietaria, tiene plenos derechos<br /> <br />El destinatario de la llamada no tiene acceso. La persona que llama debe compartirla con el destinatario|
-|llamada de 1:1 con una llamada externa             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        | El destinatario de la llamada es propietario, tiene plenos derechos<br /><br />La persona que llama no tiene acceso. La persona que llama debe compartirla con quien llama|
+|llamada de 1:1 con una llamada externa             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        | El destinatario de la llamada es propietario, tiene plenos derechos<br /><br />La persona que llama no tiene acceso. La persona que llama debe compartirla con quien llama|
 |Llamada grupal                                 |Cualquier miembro de la llamada |Miembro que hizo clic en la cuenta de OneDrive para la empresa del registro  |El miembro que hizo clic en el registro tiene derechos plenos <br /><br /> Otros miembros del mismo inquilino tienen derechos de lectura <br /><br /> Otros miembros de un inquilino diferente no tienen derechos.|
 |Reunión programada/ad hoc                    |Organizador              |Cuenta de OneDrive para la empresa del organizador                     | El organizador tiene plenos derechos en la grabación <br /><br /> Todos los demás miembros de la reunión tienen acceso de lectura|
 |Reunión programada/ad hoc                    |Otro miembro de la reunión   |Miembro que hizo clic en el registro                                  | El miembro que hizo clic en el registro tiene derechos plenos para la grabación <br />El organizador tiene derechos de edición y puede compartir <br /><br /> El resto de miembros tienen acceso de lectura|
@@ -127,7 +127,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
   <i>OneDrive para la empresa</i> / de la grabadora **Grabaciones**
 
-- Para las reuniones de canal, la grabación se almacena en la biblioteca de documentación del sitio de Teams en una carpeta denominada **grabaciones** . Ejemplo
+- Para las reuniones de canal, la grabación se almacena en la biblioteca de documentación del sitio de Teams en una carpeta denominada **grabaciones**. Ejemplo
 
   <i>Equipos nombre: nombre</i> / del canal **Documentos** / **Grabaciones**
 

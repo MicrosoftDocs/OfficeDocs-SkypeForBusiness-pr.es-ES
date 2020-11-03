@@ -158,7 +158,7 @@ En el ejemplo siguiente se muestra un ejemplo de enrutamiento de llamadas con op
 
 En el ejemplo anterior:
 
-- La tecla cero (0) redirige a las personas que llaman a un operador. El operador de ese operador automático se ha configurado como una **persona de la organización** .
+- La tecla cero (0) redirige a las personas que llaman a un operador. El operador de ese operador automático se ha configurado como una **persona de la organización**.
 - La tecla uno (1) redirige a las personas que llaman a la cola de llamadas de ventas. Esta cola de llamadas está conectada a un equipo que contiene el equipo de ventas asignado a la cola.
 - La tecla dos (2) redirige a las personas que llaman a la cola de llamadas de asistencia. Esta cola de llamadas está conectada a un equipo que contiene el equipo de soporte técnico asignado al equipo.
 - La cola de llamadas de asistencia tiene un número de teléfono directo a través de un operador automático intermedio. Tener una respuesta de operador automático la línea de soporte técnico le permite separar las horas y el enrutamiento de llamadas.
