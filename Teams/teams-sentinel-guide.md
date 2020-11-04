@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Asesoría y aprendizaje de seguridad para ITAdmins sobre el uso de Sentinel para supervisar y detectar amenazas que pueden surgir en Teams.
+description: Asesoría y aprendizaje de seguridad para administradores de IT acerca del uso de Sentinel para supervisar y buscar las amenazas que puedan surgir en Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -19,16 +19,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 310105abaa5a5c545bdb85963bb14796c630bf66
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 6aa8e733aeb3828bb1815001ba0299a9ee1aaf78
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121630"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852151"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel y Microsoft Teams
 
-Teams desempeña un papel fundamental tanto en la comunicación como en el uso compartido de datos en la nube de Microsoft 365. Como el servicio de los equipos toca tantas tecnologías subyacentes en la nube, se puede beneficiar de análisis humanos y automatizados no solamente cuando se trata de la *búsqueda en los registros*, sino también en* el seguimiento en tiempo real de las reuniones*. Estas soluciones las proporcionan los administradores de Azure Sentinel.
+Teams desempeña un papel fundamental tanto en la comunicación como en el uso compartido de datos en la nube de Microsoft 365. Como el servicio de los equipos toca tantas tecnologías subyacentes en la nube, se puede beneficiar de análisis humanos y automatizados no solamente cuando se trata de la *búsqueda en los registros* , sino también en *el seguimiento en tiempo real de las reuniones*. Estas soluciones las proporcionan los administradores de Azure Sentinel.
 
 > [!NOTE]
 > ¿Necesita un actualizador de Azure Sentinel? [Este artículo](https://docs.microsoft.com/azure/sentinel/overview) es la solución..
@@ -55,7 +55,7 @@ Como Teams registra la actividad por M365, los registros de auditoría no se rec
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>Registrar una aplicación en Microsoft Azure para la recopilación de registros
 
 > [!TIP]
-> Antes de empezar, debe registrar el **Id. de la aplicación / cliente**y su **Id. de inquilino** para usarlo más adelante. Asegúrese de capturarlas como se indica en los pasos de registro de la aplicación que se muestran a continuación. Verá ambos ID.
+> Antes de empezar, debe registrar el **Id. de la aplicación / cliente** y su **Id. de inquilino** para usarlo más adelante. Asegúrese de capturarlas como se indica en los pasos de registro de la aplicación que se muestran a continuación. Verá ambos ID.
 >- Después de crear la aplicación, haga clic en registro de aplicaciones en la barra de inicio rápido > encontrar el nombre para mostrar de la nueva aplicación > copie la aplicación (cliente) ID.
 >- Haga clic en información general en la barra lateral Inicio rápido > copie el ID. de directorio (inquilino).
 
@@ -65,7 +65,7 @@ Autentique y autorice una aplicación de Azure Active Directory (Azure AD) para 
 2. Haga clic en *registros de aplicaciones* en la barra lateral de inicio rápido.
 3. Seleccione *Nuevo registro*.
 4. Asigne un nombre a su equipo de recopilación de registros y haga clic en *registrarse*.
-5. Haga clic en la ruta de acceso: *Permisos de la API* > *Agregar un permiso* > *API de administración de Office 365 * > *Permisos de aplicación*.
+5. Haga clic en la ruta de acceso: *Permisos de la API* > *Agregar un permiso* > *API de administración de Office 365* > *Permisos de aplicación*.
 6. Expanda fuente de actividades y compruebe *ActivityFeed.Read*.
 7. Seleccione *consentimiento de administrador general* aquí. Cuando se le solicite, haga clic en Sí.
 8. Haga clic en *Certificados y secretos* en la barra lateral > en el botón *nuevo secreto de cliente*.
@@ -78,7 +78,7 @@ Autentique y autorice una aplicación de Azure Active Directory (Azure AD) para 
 
 El último paso de la instalación es recopilar y registrar la suscripción API para que pueda recopilar sus datos de registro. Esto se hace a través de las llamadas de REST de PowerShell a la API de Actividad de administración de M365.
 
-Prepárese para suministrar el **ID de la Aplicación (cliente)**, el nuevo **Secreto de Cliente**, su **Dominio URL para M365** y los valores de **ID del Directorio (inquilino)** en el cmdlet de PowerShell que aparece a continuación.
+Prepárese para suministrar el **ID de la Aplicación (cliente)** , el nuevo **Secreto de Cliente** , su **Dominio URL para M365** y los valores de **ID del Directorio (inquilino)** en el cmdlet de PowerShell que aparece a continuación.
 
 ```PowerShell
 $ClientID = "<Application (client) ID>"  
@@ -154,7 +154,7 @@ Con el conector (cualquiera de las opciones anteriores elegidas) en ejecución, 
 
 ## <a name="step-3-use-sentinel-to-monitor-microsoft-teams"></a>Paso 3: usar Sentinel para supervisar Microsoft Teams
 
-Identidad es un vector de ataque importante que supervisa en lo que respecta a Microsoft Teams. Como Azure Active Directory (Azure AD) es el respaldo del directorio de Microsoft 365, incluidos los Teams, la recopilación y la búsqueda de amenazas en los registros de Azure AD en torno a la autenticación serán útiles para capturar comportamientos sospechosos en torno a la identidad. Puede usar el conector integrado para extraer los datos de Azure AD en Azure Sentinel y usar estos [la detección](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs) y [cazar](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs) consultas para comprobar si hay problemas.
+La identidad es un vector de ataque importante a supervisar en lo que respecta a Microsoft Teams. Como Azure Active Directory (Azure AD) es el respaldo del directorio de Microsoft 365, incluyendo a Teams, la recopilación y búsqueda de amenazas en los registros de Azure AD en torno a la autenticación serán útiles para detectar comportamientos sospechosos en torno a la identidad. Puede usar el conector integrado para extraer los datos de Azure AD en Azure Sentinel y usar estas consultas de [detección](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs) y [búsqueda](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs) para comprobar si hay problemas.
 
 En cuanto a los ataques específicos de Microsoft Teams, las amenazas a los datos, por ejemplo, Azure Sentinel también dispone de medios para vigilarlos y localizarlos.
 
@@ -180,11 +180,11 @@ O365API_CL
           Settings=iif(Operation_s contains "Setting", pack("Name", columnifexists('Name_s', ""), "Old Value", columnifexists('OldValue_s', ""), "New Value", columnifexists('NewValue_s', "")),""),
           Details=pack("Id", columnifexists('Id_g', ""),  "OrganizationId", columnifexists('OrganizationId_g', ""), "UserType", columnifexists('UserType_d', ""), "UserKey", columnifexists('UserKey_g', ""), "TeamGuid", columnifexists('TeamGuid_s', "")) 
 ```
- Guardar el analizador como una función KQL, con un alias de TeamsData. Se usará para las consultas siguientes. Más detalle sobre la configuración y el uso de una función KQL como analizador, siga este artículo [Tech Community](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
+ Guardar el analizador como una función KQL, con un alias de TeamsData. Se usará para las consultas siguientes. Encontrará detalles acerca de la configuración y el uso de una función KQL como analizador en este [artículo de la Comunidad tecnológica](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
 
-## <a name="helfpul-hunting-kql-queries"></a>Consultas de KQL de búsqueda Helfpul
+## <a name="helpful-hunting-kql-queries"></a>Consultas útiles de búsqueda de KQL
 
-Use estas consultas para familiarizarse con el entorno de equipos y datos de su equipo. El conocer cómo debe verse y comportarse el entorno es un excelente primer paso para reconocer una actividad sospechosa. Desde allí, puede llegar a la búsqueda de amenazas.
+Use estas consultas para familiarizarse con el entorno y los datos de Teams. El conocer cómo debe verse y comportarse el entorno es un excelente primer paso para reconocer una actividad sospechosa. Desde allí, puede llegar a la búsqueda de amenazas.
 
 #### <a name="federated-external-users-query"></a>Consulta de usuarios externos federados
 
@@ -300,7 +300,7 @@ TeamsData
 
 #### <a name="user-accounts-who-are-owners-of-large-numbers-of-teams"></a>Cuentas de usuario que son propietarios de un gran número de Teams
 
-Un atacante que intente aumentar sus privilegios puede asignarse a sí mismo privilegios de propietario de un gran número de Teams diversos, cuando, por lo general, los usuarios pueden crear y poseer un pequeño número de Teams alrededor de temas específicos. Esta consulta de KQL busca comportamientos sospechosos.
+Un atacante que intente aumentar sus privilegios puede asignarse a sí mismo los privilegios de propietario de un gran número de Teams diversos, cuando, por lo general, los usuarios pueden crear y poseer un pequeño número de Teams en torno a temas específicos. Esta consulta de KQL busca comportamientos sospechosos.
 
 ```kusto
 // Adjust this value to change how many teams a user is made owner of before detecting 
@@ -328,7 +328,7 @@ TeamsData
 //| extend timestamp = TimeGenerated, AccountCustomEntity = Member 
 ```
 
-#### <a name="many-team-deletions-by-a-single-user"></a>Muchas eliminaciones de equipo de un único usuario
+#### <a name="many-team-deletions-by-a-single-user"></a>Muchas eliminaciones de equipos por parte de un único usuario
 
 Los atacantes pueden causar interrupciones y perjudicar proyectos y datos eliminando varios equipos. Como los equipos suelen eliminarse por parte de los propietarios, una eliminación centralizada de varios equipos puede ser un problema. Esta KQL busca un único usuario que elimine varios equipos.
 
