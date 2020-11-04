@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Describe las soluciones de telefonía de Microsoft.
-ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 'Obtenga información sobre las soluciones de telefonía de Microsoft: sistema telefónico (central de conmutación de sucursales privadas) y opciones de conectividad con RTC (planes de llamada y enrutamiento directo).'
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 3f5e4f0cf0cb027ed0c18b98c85b123634687a77
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359106"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878544"
 ---
 # <a name="microsoft-telephony-solutions"></a>Soluciones de telefonía de Microsoft
 
-Microsoft admite varias opciones a medida que comienza el viaje a Microsoft Teams en la nube de Microsoft. Este artículo le ayudará a decidir qué solución de telefonía de Microsoft (sistema telefónico en la nube o la telefonía IP empresarial local) es la adecuada para los usuarios de su organización y cómo su organización puede conectarse a la red telefónica conmutada (RTC) pública. 
+Microsoft admite varias opciones a medida que comienza el viaje a Microsoft Teams en la nube de Microsoft. Este artículo le ayudará a decidir qué solución de telefonía de Microsoft (sistema telefónico en la nube o la telefonía IP empresarial local) es la adecuada para los usuarios de su organización y cómo su organización puede conectarse a la red telefónica conmutada (RTC) pública.
 
 Debe usar este artículo junto con el diagrama técnico asociado, que proporciona una ayuda visual para tomar la decisión correcta para su organización:
 
@@ -42,7 +43,7 @@ Debe usar este artículo junto con el diagrama técnico asociado, que proporcion
 
 ### <a name="phone-system-microsoft-365-or-office-365"></a>Sistema telefónico (Microsoft 365 u Office 365)
   
-Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de central de conmutación (PBX) en la nube de Microsoft 365 o Office 365 con Microsoft Teams o Skype empresarial online. 
+Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de central de conmutación (PBX) en la nube de Microsoft 365 o Office 365 con Microsoft Teams o Skype empresarial online.
 
 Sistema telefónico funciona con los clientes de Microsoft Teams o Skype empresarial online y los dispositivos certificados. El sistema telefónico permite reemplazar su sistema PBX existente por un conjunto de características que se proporcionan directamente desde Microsoft 365 u Office 365 y están estrechamente integradas en la experiencia de productividad en la nube de la compañía. Para conectar el sistema telefónico a la red telefónica conmutada (RTC), puede elegir el plan de llamadas de Microsoft o su propio operador de telefonía.
 
@@ -50,7 +51,7 @@ Para obtener más información, consulte [What is Phone System in Microsoft 365 
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Telefonía IP empresarial (Skype empresarial Server)
 
-La telefonía IP empresarial es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de central de conmutación (PBX) en el servidor local de Skype empresarial Server. Esta opción solo se puede conectar a la red telefónica conmutada pública mediante su propio operador de telefonía. 
+La telefonía IP empresarial es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de central de conmutación (PBX) en el servidor local de Skype empresarial Server. Esta opción de Skype empresarial solo puede conectarse a la red telefónica conmutada con su propio operador de telefonía.
 
 Para obtener más información, consulte [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 

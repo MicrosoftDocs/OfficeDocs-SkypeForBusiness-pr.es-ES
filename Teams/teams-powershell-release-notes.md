@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga más información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814419"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852171"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de la versión de Microsoft Teams PowerShell
 
@@ -31,14 +31,15 @@ Esta página proporciona el registro de cambios de PowerShell más reciente de T
 
 | Fecha | Versión | Las |
 |------- | -------------------- | ------------------------------ |
+| 2020 de noviembre | [1.1.7: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Usa MSAL para la autenticación & autorización</li><li>Cmdlets de paquete de directivas refactorizado y agrega asignación de paquete de grupo</li><li>La jerarquía de destino refactorizada carga comandos para usar un modelo asincrónico</li> |
 | 2020 de septiembre | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Integración del conector de Skype empresarial online</li> |
 | 2020 de septiembre | [1.1.5: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Integración del conector de Skype empresarial online</li> |
 | 2020 de julio | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Se han agregado [cmdlets de asignación de directiva de grupo](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
-| 2020 de junio | [1.1.3: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Integración del conector de Skype empresarial online<li>Optimizaciones del equipo Get<li>Mayor confiabilidad</li> |
+| 2020 de junio | [1.1.3: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Integración del conector de Skype empresarial online<li>Optimizaciones de Get-Team<li>Mayor confiabilidad</li> |
 | 2020 de junio | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Se ha agregado la carga previa del cmdlet<li>Optimizaciones de .NET Framework</li>   |
-| 2020 de abril | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode y firma de ensamblado<li>Se agregó Get-CsPolicyPackage<li>Se agregó Get-CsUserPolicyPackage<li>Se agregó Get-CsUserPolicyPackageRecommendation<li>Se ha agregado la concesión-CsUserPolicyPackage<li>Se ha agregado New-CsBatchPolicyPackageAssignmentOperation<li>Se agregó Set-TeamArchivedState<li>Se agregó Set-TeamPicture<li>Se ha quitado Get-TeamHelp</li>  |
+| 2020 de abril | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode y firma de ensamblado<li>Se ha agregado Get-CsPolicyPackage<li>Se ha agregado Get-CsUserPolicyPackage<li>Se ha agregado Get-CsUserPolicyPackageRecommendation<li>Se ha agregado Grant-CsUserPolicyPackage<li>Se ha agregado New-CsBatchPolicyPackageAssignmentOperation<li>Se ha agregado Set-TeamArchivedState<li>Se ha agregado Set-TeamPicture<li>Get-TeamHelp eliminado</li>  |
 | 2020 de marzo | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Se ha agregado New-CsBatchPolicyAssignmentOperation</li> |
-| 2020 Feb | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Optimizaciones del equipo Get</li>  |
+| 2020 Feb | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Optimizaciones de Get-Team</li>  |
 
 ### <a name="cmdlet-availability"></a>Disponibilidad del cmdlet
 

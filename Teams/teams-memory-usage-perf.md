@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: Cómo Microsoft Teams usa la memoria del sistema y por qué el uso de la memoria es idéntico entre la aplicación de escritorio y la aplicación Web.
+description: Obtenga más información sobre el uso de memoria del sistema de Microsoft Teams y por qué el uso de memoria es el mismo entre la aplicación de escritorio y la aplicación Web.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033404"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878724"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Cómo usa Microsoft Teams la memoria
 
@@ -35,7 +36,7 @@ Para obtener más información, consulta [uso de memoria de cromo](https://www.c
 
 La imagen siguiente muestra usos de memoria en paralelo de la aplicación de escritorio de Teams para Windows y Teams Web App (en este ejemplo, ejecutar Google Chrome).
 
-![Uso de memoria de la aplicación de escritorio de Teams y de la aplicación Web](media/teams-memory-clientweb.png)
+![Uso de memoria de Teams para la aplicación de escritorio y la aplicación Web](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>Uso de memoria en Teams
 

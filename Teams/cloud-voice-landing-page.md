@@ -16,16 +16,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 - seo-marvel-apr2020
+- seo-marvel-may2020
 search.appverid: MET150
-description: Obtenga más información sobre las soluciones de Microsoft Voice con las opciones de conectividad RTC y el sistema telefónico de Microsoft, como el plan de llamadas y el enrutamiento directo.
+description: Obtenga más información sobre las características de voz en la nube de Microsoft Teams y las decisiones de implementación que realizará para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513525448112fbb9b2b0bf4beacfec46bfb1d76a
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 243c4d9f7cc2987fa796b7d21a5a37a49d4db7ec
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308371"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878564"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear la solución de voz de Teams 
 
@@ -57,7 +58,7 @@ Sin embargo, es posible que su situación sea más compleja. Por ejemplo, puede 
 | [**Sistema telefónico**](#phone-system) | La tecnología de Microsoft para habilitar el control de llamadas y las capacidades de central de conmutación (PBX) en la nube de Microsoft 365 con Microsoft Teams. |
 | [**Opciones de conectividad de la red de telefonía pública conmutada (RTC)**](#public-switched-telephone-network-connectivity-options) | Elegir entre usar Microsoft como su operador de telefonía o conectar su propio operador de telefonía a Microsoft Teams mediante enrutamiento directo. En combinación con el sistema telefónico, las opciones de conectividad RTC permiten a los usuarios hacer llamadas telefónicas en todo el mundo.|
 
-**En función de sus necesidades.** Algunas de las secciones de este artículo son pertinentes en función de la implementación y los requisitos existentes. Por ejemplo, el enrutamiento basado en la ubicación solo es necesario para los clientes de enrutamiento directo en ubicaciones geográficas que no permiten omisión de pago.
+**En función de sus necesidades.** Algunas de las secciones de este artículo son pertinentes en función de la implementación y los requisitos existentes. Por ejemplo, Location-Based enrutamiento solo es necesario para los clientes de enrutamiento directo en ubicaciones geográficas que no permiten omisión de pago.
 
 
 | En función de sus necesidades | Descripción |
@@ -65,8 +66,8 @@ Sin embargo, es posible que su situación sea más compleja. Por ejemplo, puede 
 | [**Números de teléfono de Microsoft**](#phone-numbers-from-microsoft) | Cómo obtener y administrar números de teléfono de Microsoft y cómo transferir números existentes a Microsoft. Lea esto si necesita obtener números de teléfono para el plan de llamadas de Microsoft, transferir números existentes, obtener números de servicio, etc. |
 | [**Planes de marcado y enrutamiento de llamadas**](#dial-plans-and-call-routing) | Cómo configurar y administrar planes de marcado que traducen números de teléfono marcados a un formato alternativo (por lo general, formato E. 164) para la autorización de llamadas y el enrutamiento de llamadas. Lea esto si necesita comprender qué son los planes de marcado y si necesita especificar planes de marcado para su organización.|
 | [**Llamadas de emergencia**](#emergency-calling) | Cómo administrar y configurar &mdash; las llamadas de emergencia según su opción de conectividad RTC. Lea esta sección si está usando el plan de llamadas de Microsoft o el enrutamiento directo y necesita comprender cómo administrar las llamadas de emergencia para su organización. |
-| [**Enrutamiento basado en la ubicación para el enrutamiento directo**](#location-based-routing-for-direct-routing) |Cómo usar el enrutamiento basado en la ubicación (LBR) para restringir el omisión de pago para los usuarios de Microsoft Teams en función de su ubicación geográfica. Lea esta sección si su organización usa el enrutamiento directo en un lugar que no permite la omisión de pago.
-| [**Topología de red para características de voz en la nube**](#network-topology-for-voice-features) | Si su organización está implementando el enrutamiento basado en la ubicación (LBR) para el enrutamiento directo o las llamadas de emergencia dinámicas, debe configurar las opciones de red para su uso con estas características de Microsoft Teams. Lea esta sección si va a implementar LBR para el enrutamiento directo o si está implementando llamadas de emergencia dinámicas con un plan de llamadas o un enrutamiento directo. |
+| [**Enrutamiento basado en la ubicación para el enrutamiento directo**](#location-based-routing-for-direct-routing) |Cómo usar Location-Based Routing (LBR) para restringir el omisión de pago para los usuarios de Microsoft Teams en función de su ubicación geográfica. Lea esta sección si su organización usa el enrutamiento directo en un lugar que no permite la omisión de pago.
+| [**Topología de red para características de voz en la nube**](#network-topology-for-voice-features) | Si su organización está implementando Location-Based enrutamiento (LBR) para el enrutamiento directo o las llamadas de emergencia dinámicas, debe configurar las opciones de red para su uso con estas características de Microsoft Teams. Lea esta sección si va a implementar LBR para el enrutamiento directo o si está implementando llamadas de emergencia dinámicas con un plan de llamadas o un enrutamiento directo. |
 | [**Migrar la solución de voz existente**](#migrate-your-existing-voice-solution-to-teams) | Qué tiene que pensar al migrar su solución de voz a teams.  Lea esta sección si va a migrar desde una solución de voz existente a teams. 
 
 
@@ -253,19 +254,19 @@ La configuración de las llamadas de emergencia difiere según la opción de con
 - [Caso práctico de Contoso: llamadas de emergencia](voice-case-study-emergency-calling.md)<br>
   Describe cómo una corporación multinacional ficticia, Contoso, ha implementado llamadas de emergencia para su organización.
 
-## <a name="location-based-routing-for-direct-routing"></a>Enrutamiento basado en la ubicación para el enrutamiento directo
+## <a name="location-based-routing-for-direct-routing"></a>Enrutamiento de Location-Based para enrutamiento directo
 
-En algunos países y regiones, no es ilegal eludir el proveedor de la red telefónica conmutada (RTC) para reducir los gastos de llamadas de larga distancia. El enrutamiento basado en la ubicación para el enrutamiento directo le permite restringir el omisión de pago para los usuarios de Microsoft Teams en función de su ubicación geográfica. Para obtener más información sobre cómo planear y configurar el enrutamiento basado en la ubicación (LBR), consulte los artículos siguientes:
+En algunos países y regiones, no es ilegal eludir el proveedor de la red telefónica conmutada (RTC) para reducir los gastos de llamadas de larga distancia. Location-Based enrutamiento para enrutamiento directo le permite restringir el omisión de pago para los usuarios de Microsoft Teams en función de su ubicación geográfica. Para obtener más información sobre cómo planear y configurar Location-Based Routing (LBR), consulte los artículos siguientes:
 
 - [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
 - [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
 - [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
-- [Caso práctico de Contoso: enrutamiento basado en la ubicación](voice-case-study-location-based-routing.md)<br>
-  Describe cómo una corporación multinacional ficticia, Contoso, implementó un enrutamiento basado en la ubicación de su organización.
+- [Caso práctico de Contoso: enrutamiento de Location-Based](voice-case-study-location-based-routing.md)<br>
+  Describe cómo una corporación multinacional ficticia, Contoso, implementada Location-Based el enrutamiento de su organización.
 
 ## <a name="network-topology-for-voice-features"></a>Topología de red para características de voz
 
-Si va a implementar el enrutamiento basado en la ubicación o las llamadas de emergencia dinámicas para enrutamiento directo, debe configurar las opciones de red para su uso con estas características de Microsoft Teams. Para obtener información sobre cómo configurar las opciones de red para regiones de red, sitios de red, subredes de red y direcciones IP de confianza, consulte los artículos siguientes:
+Si va a implementar las llamadas de emergencia dinámicas o el enrutamiento de Location-Based para el enrutamiento directo, debe configurar las opciones de red para su uso con estas características en Microsoft Teams. Para obtener información sobre cómo configurar las opciones de red para regiones de red, sitios de red, subredes de red y direcciones IP de confianza, consulte los artículos siguientes:
 
 - [Configuración de red de las características de voz en la nube en Microsoft Teams: conceptos y terminología](cloud-voice-network-settings.md)
 - [Administrar la topología de red para las características de voz en la nube en Microsoft Teams](manage-your-network-topology.md)
@@ -282,11 +283,11 @@ Al migrar la solución de voz, hay cuatro escenarios posibles de llamadas al pas
 
 - [**Un usuario de Skype empresarial online con un plan de llamadas de Microsoft**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans). Después de la actualización, este usuario seguirá teniendo un plan de llamadas de Microsoft.
 
-- ** [Un usuario de Skype empresarial online con funcionalidad de voz local](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) a través de Skype empresarial local o Cloud Connector Edition**. La actualización del usuario a teams debe coordinarse con la migración del usuario al enrutamiento directo para garantizar que el usuario de TeamsOnly tiene la funcionalidad de RTC.
+- **[Un usuario de Skype empresarial online con funcionalidad de voz local](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) a través de Skype empresarial local o Cloud Connector Edition**. La actualización del usuario a teams debe coordinarse con la migración del usuario al enrutamiento directo para garantizar que el usuario de TeamsOnly tiene la funcionalidad de RTC.
 
-- ** [Un usuario de Skype empresarial local con telefonía IP empresarial](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), que se va a migrar a en línea y mantener la conectividad RTC local**. Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar ese movimiento con la migración del usuario al enrutamiento directo. 
+- **[Un usuario de Skype empresarial local con telefonía IP empresarial](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), que se va a migrar a en línea y mantener la conectividad RTC local**. Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar ese movimiento con la migración del usuario al enrutamiento directo. 
 
-- ** [Un usuario de Skype empresarial local con telefonía IP empresarial](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), que se va a migrar a en línea y usar un plan de llamadas de Microsoft**.  Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar el movimiento con una o A una) el puerto del número de ese usuario a un plan de llamadas de Microsoft o B asignar un nuevo número de suscriptor de las regiones disponibles.
+- **[Un usuario de Skype empresarial local con telefonía IP empresarial](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), que se va a migrar a en línea y usar un plan de llamadas de Microsoft**.  Migrar este usuario a teams requiere mover la cuenta de Skype empresarial local del usuario a la nube y coordinar el movimiento con una o A una) el puerto del número de ese usuario a un plan de llamadas de Microsoft o B asignar un nuevo número de suscriptor de las regiones disponibles.
 
 Para obtener más información sobre cómo implementar la migración de voz para cada uno de estos escenarios &mdash; , incluida información sobre Cuándo es necesario configurar la conectividad híbrida y cómo migrar usuarios con funcionalidad de voz local para el enrutamiento directo, &mdash; consulte los artículos siguientes:
 

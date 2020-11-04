@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48426935"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878374"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje de administración para Microsoft Teams
 
@@ -33,7 +33,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![Un icono que muestra una mano y una flecha hacia arriba](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Empezar a trabajar rápidamente con un par de equipos y canales](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Un icono que muestra dos usuarios](https://docs.microsoft.com/office/media/icons/users-people.png) | [Cursos de aprendizaje para los usuarios](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Un icono que muestra una marca de verificación](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Símbolo del portapapeles de tareas](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams en 30: una serie de formación para administradores de ti y directores de administración de cambios para implementar equipos en 30 días](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![Un icono que muestra una marca de verificación](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Ver procedimientos recomendados y vídeos paso a paso en el canal Coffee in the Cloud ("Café en la nube") en YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Símbolo del portapapeles de tareas](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [El equipo habla a tiza: Aprenda las mejores prácticas y la orientación práctica en escenarios de equipos populares](https://aka.ms/TeamsChalkTalks) |
 
 <h2>Iniciar aprendizaje técnico</h2>
 

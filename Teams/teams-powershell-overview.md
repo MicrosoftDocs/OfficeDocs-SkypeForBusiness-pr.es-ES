@@ -13,16 +13,16 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814369"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852161"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Información general de Microsoft Teams PowerShell
 
-Microsoft Teams PowerShell es un conjunto de cmdlets para administrar equipos directamente desde la línea de comandos de PowerShell. Desarrollado en .NET Standard, Teams PowerShell funciona en PowerShell 5,1 en Windows, PowerShell 6. x y versiones posteriores en todas las plataformas, incluido el shell de Azure.
+Microsoft Teams PowerShell es un conjunto de cmdlets para administrar equipos directamente desde la línea de comandos de PowerShell. Desarrollado en .NET Standard, Teams PowerShell funciona en PowerShell 5,1 en Windows, PowerShell 6. x y versiones posteriores en todas las plataformas, incluido el Shell en la nube de Azure.
 
 Antes de empezar a usar PowerShell, tendrá que [instalarlo](teams-powershell-install.md). 
 
@@ -34,9 +34,9 @@ Antes de empezar a usar PowerShell, tendrá que [instalarlo](teams-powershell-in
 
 Teams PowerShell está disponible en la [Galería de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) en dos tipos de versiones.
 
-- **Disponibilidad general (GA)**: cmdlets listos para producción, actualizados mensualmente.
+- **Disponibilidad general (GA)** : cmdlets listos para producción, actualizados mensualmente.
 
-- **Versión preliminar pública**: acceso anticipado a las características. Puede actualizarse con más frecuencia que la GA.
+- **Versión preliminar pública** : acceso anticipado a las características. Puede actualizarse con más frecuencia que la GA.
 
 Para obtener información detallada sobre las adiciones y mejoras de características de las versiones, lea las notas de la [versión de Teams PowerShell](teams-powershell-release-notes.md).
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840398"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878175"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -213,7 +213,7 @@ El número de teléfono saliente que se muestra se determina de la siguiente man
 
 No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
 
-En un entorno híbrido, para transferir una llamada de operador automático a la RTC a través de la integración RTC de Skype empresarial, cree un nuevo usuario local con el desvío de llamadas establecido en el número de RTC. El usuario debe estar habilitado para telefonía IP empresarial y tiene asignada una directiva de voz. Para obtener más información, consulte [transferencia automática de llamadas de operador a RTC](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+En un entorno híbrido de Skype empresarial, para transferir una llamada de operador automático a la RTC, cree un nuevo usuario local con el desvío de llamadas establecido en el número de la RTC. El usuario debe estar habilitado para telefonía IP empresarial y tiene asignada una directiva de voz. Para obtener más información, consulte [transferencia automática de llamadas de operador a RTC](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Crear un operador automático con PowerShell
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262537"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852201"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -189,7 +189,7 @@ El certificado debe ser generado por una de las siguientes entidades emisoras de
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 
-Para el enrutamiento directo en Office 365 GCC de entorno DoD, es necesario que una de las siguientes entidades emisoras de certificados raíz genere el certificado:
+Para el enrutamiento directo en Office 365 GCCH y entornos DoD, el certificado debe ser generado por una de las siguientes entidades emisoras de certificados raíz:
 - Entidad de certificación raíz global de DigiCert
 - DigiCert raíz de validación extendida de alta seguridad
 
@@ -235,7 +235,7 @@ Los FQDN (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.m
 Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN **SIP-ALL.pstnhub.Microsoft.com** se resuelve en todas estas direcciones IP. 
 
 
-### <a name="office-365-gcc-dod-environment"></a>Entorno DoD de Office 365 GCC
+### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH y el entorno DoD
 
 El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
@@ -299,7 +299,7 @@ El tráfico multimedia fluye hacia y desde un servicio independiente en la nube 
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
 - 52.120.0.0/14 (direcciones IP de 52.120.0.1 a 52.123.255.254).
 
-### <a name="office-365-gcc-dod-environment"></a>Entorno DoD de Office 365 GCC
+### <a name="office-365-dod-environment"></a>Entorno de Office 365 DoD
 
 - 52.127.64.0/21
 
@@ -364,6 +364,6 @@ Los dispositivos que se han validado se enumeran como certificados para el enrut
 Para obtener más información sobre SBCs admitido, vea [lista de controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configurar el enrutamiento directo](direct-routing-configure.md)

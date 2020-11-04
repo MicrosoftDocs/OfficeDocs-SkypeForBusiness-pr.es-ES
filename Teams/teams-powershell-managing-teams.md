@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a administrar Microsoft Teams con Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c217cea4a9ad800c1f31f8dcfae9c88ee281188c
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 09d11b2c697ba57ea161d0ce961cf5ba73794617
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944147"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852181"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Administrar equipos con Microsoft Teams PowerShell
 
@@ -30,10 +30,10 @@ Use esta guía junto con la [Referencia del cmdlet de Microsoft Teams](https://d
 
 Los cmdlets para crear y administrar equipos se encuentran en el [Módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/).
 
-Los equipos están respaldados por grupos de Office 365, por lo que al crear un equipo, se crea un grupo. Hay un conjunto de cmdlets para operar en el equipo principal y su configuración ( ``new-team`` , ``get-team`` , ``set-team`` ), administrar usuarios de equipo ( ``add-teamuser`` , ``remove-teamuser`` ), así como cmdlets para administrar los canales del equipo ( ``new-teamchannel`` , ``remove-teamchannel`` ). Todos estos cmdlets se pueden ejecutar como usuarios finales, pero solo funcionarán en los equipos de los que es miembro o de quien es miembro. Si es un administrador global o un administrador de servicios de equipo, podrá actuar en todos los equipos de su organización.
+Los equipos están respaldados por grupos de Office 365, por lo que al crear un equipo, se crea un grupo. Hay un conjunto de cmdlets para operar en el equipo principal y su configuración ( ``new-team`` , ``get-team`` ,  ``set-team`` ), administrar usuarios de equipo ( ``add-teamuser`` , ``remove-teamuser`` ), así como cmdlets para administrar los canales del equipo ( ``new-teamchannel`` , ``remove-teamchannel`` ). Todos estos cmdlets se pueden ejecutar como usuarios finales, pero solo funcionarán en los equipos de los que es miembro o de quien es miembro. Si es un administrador global o un administrador de servicios de equipo, podrá actuar en todos los equipos de su organización.
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department
+New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > El **GROUPID** usado en los cmdlets del módulo Microsoft Teams PowerShell es el mismo que la propiedad **Identity** devuelta por ``Get-UnifiedGroup`` el módulo de PowerShell de Exchange.
@@ -68,7 +68,7 @@ Una directiva es un grupo de opciones que se pueden aplicar de forma granular a 
 
 Parámetros comunes:
 
-- **Identity**: para ``Get-`` , ``Set-`` , ``New-`` , y ``Remove-`` , el parámetro **Identity** siempre hará referencia a una instancia de Policy específica. En ``Grant`` el caso de, el parámetro **Identity** hace referencia a un objeto de usuario específico al que se aplica la Directiva.
+- **Identity** : para ``Get-`` , ``Set-`` , ``New-`` , y ``Remove-`` , el parámetro **Identity** siempre hará referencia a una instancia de Policy específica. En ``Grant`` el caso de, el parámetro **Identity** hace referencia a un objeto de usuario específico al que se aplica la Directiva.
 
 ## <a name="manage-configurations-via-powershell"></a>Administrar configuraciones a través de PowerShell
 
@@ -76,10 +76,10 @@ Busque los cmdlets para administrar su configuración en el [módulo de cmdlet d
 
 Las configuraciones son cubos de configuración mantenidos en el servicio que no se pueden especificar en un nivel de usuario. La configuración siempre se aplica en toda la organización. Su configuración global es la única configuración eficaz de su organización. Cada tipo de configuración incluye dos cmdlets principales:
 
-- ``Get-Cs<ConfigurationName>``(por ejemplo, ``Get-CsTeamsClientConfiguration`` ):
+- ``Get-Cs<ConfigurationName>`` (por ejemplo, ``Get-CsTeamsClientConfiguration`` ):
 
 - ESTABLECER comandos (por ejemplo, ``Set-CsTeamsClientConfiguration`` ): establezca las propiedades en la configuración de ese tipo. Especifique los parámetros que desea modificar.
-   > Puede hacer referencia a la configuración que está modificando de una de estas dos maneras: especificando-**Identity global**o ejecutando ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
+   > Puede hacer referencia a la configuración que está modificando de una de estas dos maneras: especificando- **Identity global** o ejecutando ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
 
 ## <a name="what-can-each-admin-role-do"></a>¿Qué puede hacer cada rol de administrador?
 

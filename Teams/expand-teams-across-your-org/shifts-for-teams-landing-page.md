@@ -20,12 +20,13 @@ searchScope:
 - Microsoft Cloud for Healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40e4fea69111ae916457584648fb81d40ea453d7
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: eea5b36e9941872b5a0dbc4ce34d03b39b850dd3
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790442"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878734"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
