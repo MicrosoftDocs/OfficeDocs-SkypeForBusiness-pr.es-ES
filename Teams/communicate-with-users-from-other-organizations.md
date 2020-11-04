@@ -1,6 +1,6 @@
 ---
-title: Comunicación con usuarios de otras organizaciones en Microsoft Teams
-author: SerdarSoysal
+title: Llamadas y chats con usuarios de otras organizaciones
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.topic: article
@@ -13,21 +13,21 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Infórmese sobre cómo comunicarse con usuarios de otras organizaciones en Microsoft Teams mediante acceso externo (federación) y el acceso de invitado.
+description: Obtenga información acerca de cómo llamar, chatear, buscar y agregar usuarios fuera de la organización en Microsoft Teams, a través del acceso externo (federación) y el acceso de invitado.
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 0535798a506adf839391c9e9075ff1e68398e341
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761386"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878674"
 ---
-<a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunicación con usuarios de otras organizaciones en Microsoft Teams
+<a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Llamadas y chats con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
 
-Microsoft Teams le ofrece dos formas diferentes para comunicarse y colaborar con personas de fuera de su organización. La primera es el **acceso externo** (federación) que le permite buscar, llamar y conversar con usuarios de otros dominios (como contoso.com). La segunda es el **acceso de invitado** que le permite agregar personas a sus equipos como invitados, mediante su dirección de correo. Puede colaborar con los invitados igual que lo haría con cualquier otro usuario de su organización.
+Cuando necesite comunicarse y colaborar con otras personas fuera de su organización, Microsoft Teams le ofrece dos formas diferentes de hacerlo. La primera es el **acceso externo** (federación) que le permite buscar, llamar y conversar con usuarios de otros dominios (como contoso.com). La segunda es el **acceso de invitado** que le permite agregar personas a sus equipos como invitados, mediante su dirección de correo. Puede colaborar con los invitados igual que lo haría con cualquier otro usuario de su organización.
 
 Puede usar tanto el acceso externo como el acceso de invitado si lo desea; uno no excluye al otro.
 
@@ -35,7 +35,7 @@ A continuación, le mostramos a grandes rasgos cómo elegir entre ambas (para ob
 
 ## <a name="external-access"></a>Acceso externo
 
-Use el **acceso externo** (federación) cuando necesite una solución para que los usuarios externos de otros dominios le encuentren, le llamen, y conversen y concierten reuniones con usted. Los usuarios externos no tienen acceso a los equipos de su organización ni a los recursos de su equipo. Elija el acceso externo para comunicarse con los usuarios externos que siguen usando Skype Empresarial (en línea o local) o Skype (a partir de principios de 2020). 
+Use el **acceso externo** (federación) cuando necesite una solución para que los usuarios externos de otros dominios le encuentren, le llamen, y conversen y concierten reuniones con usted. Los usuarios externos no tendrán acceso a los equipos de su organización ni a los recursos de su equipo. Elija el acceso externo cuando quiera comunicarse con otros usuarios externos a su organización que usen de todas maneras Skype Empresarial (en línea o local) o Skype (a partir de principios de 2020). 
 
 El acceso externo está activado de forma predeterminada en Teams, lo que significa que su organización puede comunicarse con todos los dominios externos. El administrador Teams puede desactivar esta opción o especificar los dominios que se van a incluir (o excluir). Para obtener más información, consulte [Administrar el acceso externo](manage-external-access.md). 
 

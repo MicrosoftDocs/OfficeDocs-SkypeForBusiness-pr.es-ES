@@ -1,13 +1,13 @@
 ---
 title: Cómo implementar Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: Tanto si va a implementarlo todo a la vez o por fases, trace un curso para implementar Microsoft Teams en la organización correctamente.
+description: Tanto si va a implementarlo todo de una vez o por fases, trace un curso para implementar Microsoft Teams correctamente en su organización.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
@@ -19,14 +19,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 - seo-marvel-mar2020
+- seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637919"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878694"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Cómo implementar Microsoft Teams
 
@@ -50,7 +51,7 @@ Recomendamos implementar Teams por fases, con una carga de trabajo cada vez, en 
 
 ## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Si parte de implementaciones de Skype Empresarial, locales o híbridas
 
-Si migra a Teams desde Skype Empresarial (en línea o local), o si necesita una configuración híbrida, también debe seguir la [ruta recomendada](#recommended-path-to-teams) anteriormente para implementar Teams, pero primero deberá realizar algunos pasos de planificación adicionales. Comience por revisar las instrucciones de la tabla siguiente que se apliquen al perfil de su organización.
+Si migra a Teams desde Skype Empresarial (en línea o local), o si necesita una configuración híbrida, podría interesarle seguir la [ruta recomendada](#recommended-path-to-teams) anteriormente para implementar Teams, pero necesitará hacer una planificación adicional. Comience por revisar las instrucciones de la siguiente tabla que se apliquen al perfil de su organización.
 
 
 

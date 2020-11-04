@@ -1,7 +1,7 @@
 ---
-title: 'Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams'
+title: 'Inicio rápido de administrador: Reuniones y eventos en directo en Microsoft Teams'
 ms.reviewer: ''
-description: Empiece rápidamente con reuniones y eventos en directo en Microsoft Teams.
+description: Una guía de inicio rápido para que los administradores obtengan las respectivas licencias, implementen y configuren reuniones en línea y eventos en directo en Microsoft Teams.
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,14 +17,14 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739398"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878664"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administrador: Reuniones y eventos en directo en Microsoft Teams
 
 Existen dos formas de reunirse en Microsoft Teams: reuniones y eventos en directo. Use este artículo para implementar y configurar rápidamente reuniones y eventos en directo para su organización.
 
@@ -51,7 +51,7 @@ Para más información sobre las licencias, consulte [Descripción del servicio 
 
 ## <a name="make-sure-your-networks-ready"></a>Asegúrese de que la red esté disponible
 
-Si ya preparó su red al implementar Microsoft 365 u Office 365, probablemente todo esté disponible. En cualquier caso, y especialmente si va a implementar Teams en poco tiempo con su primera carga de trabajo de Office 365 para admitir a **trabajadores remotos**, lea [Preparar la red de su organización para implementar Teams](prepare-network.md) para asegurarse de que estará preparado.
+Si ya preparó su red al implementar Microsoft 365 u Office 365, probablemente todo esté disponible. En cualquier caso, y especialmente si va a implementar Teams en poco tiempo con su primera carga de trabajo de Office 365 para admitir a **trabajadores remotos** , lea [Preparar la red de su organización para implementar Teams](prepare-network.md) para asegurarse de que estará preparado.
 
 ## <a name="meetings-and-conferencing"></a>Reuniones y conferencias
 
