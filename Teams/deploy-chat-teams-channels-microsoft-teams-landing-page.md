@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Instrucciones paso a paso para implementar chat, equipos, canales y aplicaciones en Microsoft Teams, en función del perfil y los requisitos empresariales de su organización.
+description: Contiene instrucciones paso a paso para configurar los ajustes de Teams para el chat, los equipos, las aplicaciones y los canales en Microsoft Teams.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+- seo-marvel-may2020
+ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820514"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878534"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -80,7 +81,7 @@ Además de los roles de administrador, Teams le permite asignar a los propietari
 
 ### <a name="messaging-policies"></a>Directivas de mensajería
 
-Las directivas de mensajería controlan qué características de mensajería están disponibles para los usuarios en canales y chats de Teams. Por ejemplo, quién puede editar y eliminar los mensajes enviados, quién puede usar el chat, quién puede usar memes en conversaciones y mucho más. De forma predeterminada, se asigna la directiva de mensajería global a los usuarios y todas las características están **Activadas**. Puede usar la directiva global predeterminada o bien crear una nueva o más directivas de mensajería personalizadas para los miembros de su organización. 
+Las directivas de mensajería controlan qué características de mensajería están disponibles para los usuarios en canales y chats de Teams. Por ejemplo, quién puede editar y eliminar los mensajes enviados, quién puede usar el chat, quién puede usar memes en conversaciones y mucho más. De forma predeterminada, se asigna la directiva de mensajería global a los usuarios y todas las características están **Activadas**. Puede usar la directiva global predeterminada o bien crear una nueva o más directivas de mensajería personalizadas para los miembros de su organización. 
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -91,7 +92,7 @@ Las directivas de mensajería controlan qué características de mensajería est
 
 ### <a name="external-access"></a>Acceso externo
 
-El acceso externo (anteriormente conocido como federación) permite que los usuarios de Teams y Skype Empresarial se comuniquen con usuarios de fuera de la organización. Al activarlo y agregar dominios a la lista de permitidos, los usuarios pueden comunicarse con usuarios en otros dominios y organizaciones.El acceso externo se diferencia del acceso de invitado en que se da permiso de acceso a un dominio completo, no a un usuario individual. El acceso externo está desactivado de forma predeterminada.
+El acceso externo (anteriormente conocido como federación) permite que los usuarios de Teams y Skype Empresarial se comuniquen con usuarios de fuera de la organización. Al activarlo y agregar dominios a la lista de permitidos, los usuarios pueden comunicarse con otros usuarios de dominios y organizaciones diferentes. El acceso externo se diferencia del acceso de invitado en que se le da permiso de acceso a un dominio completo, no solo a un usuario individual. El acceso externo está desactivado de forma predeterminada.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -114,7 +115,7 @@ El acceso de invitado en Teams permite a personas fuera de su organización acce
 
 ### <a name="teams-settings"></a>Configuración de Teams
 
-La configuración de Teams le permite configurar los equipos con características como la integración de correo electrónico, opciones de almacenamiento de nube, pestaña de la organización, configuración de dispositivos de salas de reuniones y el ámbito de búsqueda. Cuando realice cambios en esta configuración, se aplican a todos los equipos de su organización.Para obtener más información, consulte [Configuración de Teams](enable-features-office-365.md#teams-settings).
+La configuración de Teams le permite configurar los equipos con características como la integración de correo electrónico, opciones de almacenamiento de nube, pestaña de la organización, configuración de dispositivos de salas de reuniones y el ámbito de búsqueda. Cuando realice cambios en esta configuración, se aplicarán a todos los equipos de su organización. Para obtener más información, consulte [Configuración de Teams](enable-features-office-365.md#teams-settings).
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -123,7 +124,7 @@ La configuración de Teams le permite configurar los equipos con característica
 
 ### <a name="teams-clients"></a>Clientes de Teams
 
-Teams es compatible con una serie de clientes web, de escritorio y móviles, y la configuración predeterminada permite a los usuarios seleccionar qué clientes quieren.Para obtener más información, consulte [Obtener clientes para Teams](get-clients.md).
+Teams es compatible con una serie de clientes web, de escritorio y móviles, y su configuración predeterminada permite a los usuarios elegir entre los clientes que quieran. Para obtener más información, consulte [Obtener clientes para Teams](get-clients.md).
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -209,7 +210,7 @@ Una aplicación anclada se muestra en la barra lateral en Teams. Si crea directi
 
 ### <a name="archiving-and-compliance"></a>Archivado y cumplimiento 
 
-Su organización puede necesitar la implementación de controles sobre cómo se archivan los equipos y los tipos de datos que se conservan en algunos tipos de equipos. Consulte [Información general de seguridad y cumplimiento en Teams](security-compliance-overview.md) para obtener información sobre qué opciones de configuración están activadas de forma predeterminada.
+Su organización podría necesitar la implementación de controles sobre cómo se archivan los equipos y los tipos de datos que se conservan en ciertos tipos de equipos. Consulte [Información general de seguridad y cumplimiento en Teams](security-compliance-overview.md) para obtener información sobre qué opciones de configuración están activadas de forma predeterminada.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|

@@ -1,5 +1,5 @@
 ---
-title: ¿Qué es Microsoft 365 Empresa Voice?
+title: ¿Qué es Microsoft 365 Business Voice?
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,17 +14,18 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Información general sobre Microsoft 365 Empresa Voice y sobre cómo puede ayudar a las pequeñas y medianas empresas a comunicarse de un modo más eficaz.
+description: Microsoft 365 Business Voice es una opción económica de llamadas de voz que permite a las pequeñas y medianas empresas comunicarse de forma más eficaz.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0c05df37c54fb63b885c4e67fda36a1f000b92f
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: d94af2d1e02f7d0443436189466fdb4976f912a2
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170619"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878604"
 ---
-# <a name="what-is-microsoft-365-business-voice"></a>¿Qué es Microsoft 365 Empresa Voice?
+# <a name="what-is-microsoft-365-business-voice"></a>¿Qué es Microsoft 365 Business Voice?
 
 Microsoft 365 Empresa Voice facilita a las pequeñas y medianas empresas para convertir a Microsoft Teams en un sistema telefónico flexible y eficaz. Es un reemplazo para los proveedores de telefonía tradicional y los sistemas telefónicos internos que pueden resultar difíciles y costosos de administrar. Puede configurar tanto los números de pago como los gratuitos, los menús de llamada para ayudar a las personas que llaman a llegar al departamento correcto, audioconferencias para que pueda organizar reuniones con cualquier usuario y mucho más. Incluso puede darle a los usuarios sus propios números de teléfono para que puedan recibir llamadas directamente.
 
@@ -73,9 +74,10 @@ Al comprar Business Voice, obtendrá las siguientes características, entre otra
     <tr>
         <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audioconferencia</a></b>
         </td>
-        <td>Le permite realizar llamadas de conferencia con personas que no tienen Teams o que no tienen una conexión a Internet.
+        <td>Le permite realizar llamadas en conferencia con personas que no tengan Teams o que no tengan conexión a internet.
         </td>
     </tr>
 </table>
 
 Para ver todo lo que se incluye con Business Voice, visite [Descripción del servicio de Microsoft 365 Business Voice](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+

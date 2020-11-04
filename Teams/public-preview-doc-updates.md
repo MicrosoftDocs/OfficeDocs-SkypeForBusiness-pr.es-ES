@@ -17,12 +17,12 @@ description: Obtenga más información sobre la versión preliminar pública en 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a13e5499cb00d95d685b493db1365e9dc08ff43f
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816232"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852191"
 ---
 # <a name="microsoft-teams-public-preview"></a>Versión preliminar pública en Microsoft Teams
 
@@ -36,20 +36,20 @@ La versión preliminar pública para Microsoft Teams ofrece acceso anticipado a 
  La versión preliminar pública está habilitada para cada usuario y la opción para activarla se controla en una directiva de administración. Las directivas de actualización se utilizan para administrar a usuarios de Office y Teams que verán las funciones de prelanzamiento o de versión preliminar en la aplicación de Teams. Puede usar la directiva global (predeterminada para toda la organización) y personalizarla, o bien crear una o varias directivas personalizadas para sus usuarios.
 
 1. Inicie sesión en el centro de administración.
-2. Seleccione **Teams**>**Actualizar directivas** .
+2. Seleccione **Teams**>**Actualizar directivas**.
 
    ![Seleccione la opción Actualizar directivas](media/updatePolicies.png)
 
-3. Seleccione **Agregar** .
-4. Asigne un nombre a la directiva de actualización, agregue una descripción y active **Mostrar características de versión preliminar** .
+3. Seleccione **Agregar**.
+4. Asigne un nombre a la directiva de actualización, agregue una descripción y active **Mostrar características de versión preliminar**.
 
 ## <a name="enable-public-preview"></a>Habilite la versión preliminar pública
 
 Para habilitar la versión preliminar pública en un escritorio o cliente web, tiene que realizar las siguientes tareas:
 
 1. Seleccione su perfil para mostrar el menú de Teams.
-2. Seleccione **acerca de** → **Versión preliminar para desarrolladores** .
-3. Seleccione **cambiar a la versión preliminar para desarrolladores** .
+2. Seleccione **Acerca de** → **Versión preliminar pública**.
+3. Seleccione **Cambiar a la Versión preliminar pública**.
 
 ## <a name="related-topics"></a>Temas relacionados
 
