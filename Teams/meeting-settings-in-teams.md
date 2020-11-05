@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: b1c71c4b22b90c38e4b34eebd745b85f7d27e86c
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: b231fb1ae564466985195325fb748af5730623a6
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824951"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908489"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -44,7 +44,7 @@ Para realizar estos cambios, debe ser administrador del servicio de Teams. Consu
 
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
 
-3. En **Participantes**, Active **Usuarios anónimos pueden unirse a una reunión**.
+3. En **Participantes** , Active **Usuarios anónimos pueden unirse a una reunión**.
 
     ![Captura de pantalla de la configuración de los participantes para las reuniones en el centro de administración](media/meeting-settings-participants.png "Captura de pantalla de la configuración de los participantes para las reuniones de Teams en el centro de administración de Microsoft Teams.")
 
@@ -69,7 +69,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 
 1. Vaya al centro de administración.
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
-3. En **Invitación por correo electrónico**, haga lo siguiente:
+3. En **Invitación por correo electrónico** , haga lo siguiente:
 
     ![Captura de pantalla de la configuración de la invitación a reunión que puede personalizar](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
 
@@ -77,7 +77,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
     - **URL jurídica** si su organización tiene un sitio web legal al que quiere que la gente vaya para cualquier asunto legal, introduzca la URL aquí.
     - **URL de ayuda** si su organización tiene un sitio web de apoyo al que quiere que la gente vaya si se encuentra con problemas, introduzca la URL aquí.
     - **Pie de página** escriba el texto que quiera incluir como pie de página.
-4. Haga clic en**Vista previa de invitación**para ver una vista previa de su invitación a reunión.
+4. Haga clic en **Vista previa de invitación** para ver una vista previa de su invitación a reunión.
 5. Cuando haya terminado, haga clic en **Guardar**.
 6. Espere una hora más o menos para que los cambios se propaguen. Luego programe una reunión de Teams para ver cual es el aspecto de la invitación a reunión.  
 
@@ -93,19 +93,19 @@ Si está usando calidad de servicio (QoS) para priorizar el tráfico de red, pue
  ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 1. Vaya al centro de administración.
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
-3. En **Red**, haga lo siguiente:
+3. En **Red** , haga lo siguiente:
 
     ![Captura de pantalla de la configuración de la red para las reuniones en el centro de administración](media/meeting-settings-network.png "Captura de pantalla de la configuración de la red para las reuniones de Teams en el centro de administración de Microsoft Teams")
 
     - Para permitir que las marcas de DSCP se utilicen para QoS, Active **Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienes la opción de usar marcadores o no; no puedes establecer marcadores personalizados para cada tipo de tráfico. Consulte [Seleccionar un método de implementación de QoS ](QoS-in-Teams.md#select-a-qos-implementation-method) para más información sobre los marcadores DSCP.
         > [!NOTE]
         > El etiquetado de DSCP se realiza normalmente a través de puertos de origen y el tráfico UDP se dirige a la retransmisión de transporte con el puerto de destino de 3478 de forma predeterminada. Si su empresa necesita etiquetar en los puertos de destino, póngase en contacto con el soporte técnico para habilitar la comunicación con la transmisión de transporte con puertos UDP 3479 (audio), 3480 (vídeo) y 3481 (uso compartido).
-    - Para especificar los intervalos de los puertos, junto a **Seleccione un rango de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **Especificar rangos de puertos** y luego, introducir los puertos inicial y final para compartir audio, video y pantalla. La selección de esta opción es necesaria para implementar la QoS. 
+    - Para especificar los intervalos de los puertos, junto a **Seleccione un rango de puertos para cada tipo de tráfico de medios en tiempo real** , seleccione **Especificar rangos de puertos** y luego, introducir los puertos inicial y final para compartir audio, video y pantalla. La selección de esta opción es necesaria para implementar la QoS. 
         > [!Note]
         > Si se activan los **marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real** , tendrá que administrar la configuración de los puertos. No se administran automáticamente.
         
         > [!IMPORTANT]
-        > Si usted selecciona**Utilizar automáticamente cualquier puerto disponible**, se utilizan los puertos disponibles entre 1024 y 65535. Use esta opción sólo cuando no implemente la QoS.
+        > Si usted selecciona **Utilizar automáticamente cualquier puerto disponible** , se utilizan los puertos disponibles entre 1024 y 65535. Use esta opción sólo cuando no implemente la QoS.
         >
         > Si se selecciona un rango de puertos demasiado estrecho, se producirán caídas y una mala calidad en las llamadas. Las recomendaciones que figuran a continuación deben ser en lo mínimo.
 
@@ -120,6 +120,6 @@ Tipo de tráfico de medios | Rango de puertos de origen del cliente \* |Protocol
 |Aplicación/Compartir pantalla| 50 040 – 50 059      |TCP/UDP |18        |Desvío garantizado (AF21)|
 | | | | |
 
-\*Los intervalos de puertos que usted asigna no pueden superponerse y deben estar uno al lado del otro.
+\* Los intervalos de puertos que asigne no se pueden solapar y deben estar adyacentes.
 
 Después de que la QoS se haya utilizado durante un tiempo, tendrá información de uso sobre la demanda de cada una de estas tres cargas de trabajo, y podrá elegir qué cambios realizar en función de sus necesidades específicas. [Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md)será de gran ayuda con eso.

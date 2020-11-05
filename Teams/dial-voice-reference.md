@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga más información sobre las opciones de reconocimiento de voz y el operador automático en la cola de llamadas de Teams.
-ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b63235409418f7ff05b8d34973d2390e6b18df36
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818810"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908709"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Operador automático y referencia de la cola de llamadas y reconocimiento de voz
 
@@ -35,9 +35,9 @@ El marcado por nombre es una característica de un operador automático que tamb
 
 ## <a name="searching-for-users"></a>Buscar usuarios
 
-No es necesario que los usuarios que desean encontrarse con el método de marcado por nombre **tengan un número de teléfono o tengan asignados planes de llamadas, pero deben tener una licencia de sistema telefónico si se trata de usuarios en línea o habilitar Enterprise Voice para usuarios de Skype empresarial Server** . Es posible que el marcado por nombre pueda buscar y transferir llamadas a los usuarios de Microsoft teams que se hospedan en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita explícitamente el marcado por nombre en un operador automático.
+No es necesario que los usuarios que desean encontrarse con el método de marcado por nombre **tengan un número de teléfono o tengan asignados planes de llamadas, pero deben tener una licencia de sistema telefónico si se trata de usuarios en línea o habilitar Enterprise Voice para usuarios de Skype empresarial Server**. Es posible que el marcado por nombre pueda buscar y transferir llamadas a los usuarios de Microsoft teams que se hospedan en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita explícitamente el marcado por nombre en un operador automático.
 
-La extensión de marcado es una característica de un operador automático que también forma parte de la búsqueda en directorios. Permite a las personas que llaman a su operador automático usar voz (reconocimiento de voz) o sus respuestas de teclado (DTMF) del teléfono para introducir la extensión de teléfono del usuario al que está intentando acceder y, a continuación, se les transfiere la llamada. Los usuarios que desee que se encuentren y que tengan acceso telefónico por extensión  **no necesitan tener un número de teléfono o tener planes de llamadas asignados, pero deben tener una licencia de sistema telefónico si son usuarios conectados o habilitado para usar Enterprise Voice para usuarios de Skype empresarial Server** . También necesitará tener un plan de marcado adecuado para sus usuarios. La opción de marcado por extensión podrá buscar y transferir llamadas a los usuarios de Microsoft teams que estén hospedados en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita de forma explícita la función de marcado por extensión en un operador automático.
+La extensión de marcado es una característica de un operador automático que también forma parte de la búsqueda en directorios. Permite a las personas que llaman a su operador automático usar voz (reconocimiento de voz) o sus respuestas de teclado (DTMF) del teléfono para introducir la extensión de teléfono del usuario al que está intentando acceder y, a continuación, se les transfiere la llamada. Los usuarios que desee que se encuentren y que tengan acceso telefónico por extensión  **no necesitan tener un número de teléfono o tener planes de llamadas asignados, pero deben tener una licencia de sistema telefónico si son usuarios conectados o habilitado para usar Enterprise Voice para usuarios de Skype empresarial Server**. También necesitará tener un plan de marcado adecuado para sus usuarios. La opción de marcado por extensión podrá buscar y transferir llamadas a los usuarios de Microsoft teams que estén hospedados en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita de forma explícita la función de marcado por extensión en un operador automático.
 
 ### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
 
@@ -78,7 +78,7 @@ En las búsquedas de personas a través del teclado del teléfono se pueden util
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Marcado por nombre: reconocimiento de nombres por voz
 
-Los usuarios pueden buscar otras personas en su organización con su voz (reconocimiento de voz). También pueden comunicarse con cualquier persona en Active Directory diciendo el nombre de la persona que está tratando de ubicar. El uso de entradas de voz puede reconocer nombres en varios formatos, como FirstName, LastName, FirstName + LastName o LastName + Name.
+Los usuarios pueden buscar otras personas en su organización con su voz (reconocimiento de voz). También pueden comunicarse con cualquier persona en Active Directory diciendo el nombre completo o parcial de la persona que está tratando de ubicar. El uso de entradas de voz puede reconocer nombres en varios formatos, como FirstName, LastName, FirstName + LastName o LastName + Name.
   
 Puede habilitar el reconocimiento de voz para un operador automático, pero la entrada del teclado (DTMF) no está deshabilitada. La entrada del teclado del teléfono se puede usar en cualquier momento incluso si el reconocimiento de voz está habilitado en el operador automático.
   
@@ -92,6 +92,9 @@ Las personas que llaman pueden decir nombres en los siguientes formatos:
 |Apellidos + Nombre |Completo  |Marble Amos |Amos Marble |
 |FirstName |Completo |Amos |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Amos Jones |
 |Apellidos |Completo |Marble |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Ben Marble |
+|Nombre o Apellidos |Parcial |Mar |Pulse o diga 1 para Mary Marble  <br/> Pulse o diga 2 para María Gómez  <br/> Pulse o diga 3 para amos Marcus |
+|Nombre + Apellidos |Parcial |Amos mar |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para amos Marcus |
+
 
 > [!NOTE]
 > Es posible que tarde hasta 36 horas para que un nuevo usuario tenga su nombre en el directorio de marcado por nombre con reconocimiento de voz debido al retraso de replicación de Active Directory.

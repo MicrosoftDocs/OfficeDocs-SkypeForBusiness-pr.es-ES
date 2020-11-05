@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use Power BI para analizar los datos del CQD para Microsoft Teams.
-ms.openlocfilehash: 5ce4aa58033555551c2fa75f3c3eb93068c59601
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584049"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908649"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar Power BI para analizar los datos del CQD para Microsoft Teams
 
@@ -35,6 +35,7 @@ Asegúrese de tener el rol de [acceso de CQD](https://docs.microsoft.com/microso
 
 |  |  |
 |---------|---------|
+|<strong>(¡ Nuevo!)</strong> Operador automático de equipos del CQD & informe histórico de la cola de llamadas. PBit     |  Esta plantilla proporciona los siguientes tres informes:</p><li>Operador automático: muestra análisis de llamadas entre los operadores automáticos.</li><li>Cola de llamadas: muestra análisis para las llamadas que llegan a las colas de llamadas.</li><li>Escala de tiempo del agente: muestra la vista de la escala de tiempo de los agentes que se activan en llamadas a colas de llamadas.</li><br>Para obtener más información, lea [usar el informe de Power BI de CQD para ver el operador automático & informe histórico de la cola de llamadas](CQD-teams-aa-cq-historical-report.md).        |
 |Informe del Departamento de soporte técnico de CQD. PBit     |Integración de datos de compilación y EUII, este informe está diseñado para que pueda obtener detalles de un solo usuario y encontrar la causa de la baja de la calidad de las llamadas de baja calidad para ese usuario (por ejemplo, el usuario está en un edificio que experimenta problemas de red).         |
 |Informe mejorado de la ubicación de CQD. PBit     | Reimaginando informes de ubicación SPD de CQD. Incluye 9 informes, con la calidad de las llamadas, la creación de WiFi, la fiabilidad y la clasificación de mi llamada (RMC) información con otros detalles mediante la generación o por el usuario.  Asegúrese de cargar los datos de compilación para maximizar su experiencia de generación de informes.        |
 |Informe de dispositivo móvil de CQD. PBit     | Proporciona información adaptada específicamente a usuarios de dispositivos móviles, como la calidad de las llamadas, la confiabilidad y la tarifa de mi llamada. Ver los informes de red móvil, red WiFi y sistema operativo móvil (Android, iOS).        |

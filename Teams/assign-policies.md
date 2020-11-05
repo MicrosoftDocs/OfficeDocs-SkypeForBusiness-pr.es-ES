@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: eaca3bdebc25e511ecc8f461c47b2d39a6332afa
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: fb9946f9954dc46d9d97137f707b7ad46c797fb9
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814900"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908529"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Asignar directivas a los usuarios de Microsoft Teams
 
@@ -64,11 +64,12 @@ Antes de asignar directivas a usuarios individuales o grupos, primero [establezc
 |Haga lo siguiente  |Si...  | Usar...
 |---------|---------|----|
 |[Asignar una directiva a usuarios individuales](#assign-a-policy-to-individual-users)    | Ya está familiarizado con Teams y solo necesita asignar una o dos directivas a un pequeño número de usuarios. |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Skype empresarial online
-| [Asignar un paquete de directivas](#assign-a-policy-package)   | Debe asignar varias directivas a conjuntos específicos de usuarios de su organización que tengan roles iguales o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a los profesores de su escuela para proporcionarles acceso completo a chats, llamadas y reuniones, y al paquete de directivas Educación (estudiante secundario escolar) a los estudiantes secundarios para limitar ciertas funciones como las llamadas privadas.  |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Teams|
-|[Asignar una directiva a un lote de usuarios](#assign-a-policy-to-a-batch-of-users)   | Debe asignar directivas a grandes conjuntos de usuarios. Por ejemplo, desea asignar una directiva a cientos o miles de usuarios de su organización al mismo tiempo.  |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Teams|
 |[Asignar una directiva a un grupo](#assign-a-policy-to-a-group) |Debe asignar directivas en función de la pertenencia a grupos de un usuario. Por ejemplo, desea asignar una directiva a todos los usuarios de un grupo de seguridad o de una lista de distribución.| El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Teams|
+|[Asignar una directiva a un lote de usuarios](#assign-a-policy-to-a-batch-of-users)   | Debe asignar directivas a grandes conjuntos de usuarios. Por ejemplo, desea asignar una directiva a cientos o miles de usuarios de su organización al mismo tiempo.  |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Teams|
+| [Asignar un paquete de directivas a los usuarios](#assign-a-policy-package-to-users)  | Debe asignar varias directivas a conjuntos específicos de usuarios de su organización que tengan roles iguales o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a los profesores de su escuela para proporcionarles acceso completo a chats, llamadas y reuniones, y al paquete de directivas Educación (estudiante secundario escolar) a los estudiantes secundarios para limitar ciertas funciones como las llamadas privadas.  |El centro de administración de Microsoft Teams o los cmdlets de PowerShell en el módulo de PowerShell de Teams|
+| [Asignar un paquete de directivas a un grupo](#assign-a-policy-package-to-a-group) (en la versión preliminar privada)   |Debe asignar varias directivas a un grupo de usuarios de su organización que tengan roles iguales o similares. Por ejemplo, desea asignar un paquete de directivas a todos los usuarios de un grupo de seguridad o de una lista de distribución. |El centro de administración de Microsoft Teams (próximamente) o cmdlets de PowerShell en el módulo de PowerShell de Teams|
 | [Asignar un paquete de directivas a un lote de usuarios](#assign-a-policy-package-to-a-batch-of-users)|Debe asignar varias directivas a un lote de usuarios de su organización que tengan roles iguales o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a todos los profesores de su escuela mediante la asignación por lotes para proporcionarles acceso total a chats, llamadas y reuniones, y asigne el paquete de directivas Educación (estudiante secundario) a un lote de estudiantes secundarios para limitar ciertas capacidades como las llamadas privadas.|Cmdlets de PowerShell en el módulo de PowerShell de Teams|
-| Asignar un paquete de directivas a un grupo (próximamente)   | ||
+
 
 ## <a name="set-the-global-policies"></a>Establecer las directivas globales
 
@@ -76,7 +77,7 @@ Siga estos pasos para establecer las directivas globales (valor predeterminado d
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página de directivas del tipo de directiva que desea actualizar. Por ejemplo, **Teams**  >  **Policies**, directivas de reuniones de **reuniones**  >  **Meetings policies**, **directivas de mensajería**o directivas de llamadas de **voz**  >  **Calling policies**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página de directivas del tipo de directiva que desea actualizar. Por ejemplo, **Teams**  >  **Policies** , directivas de reuniones de **reuniones**  >  **Meetings policies** , **directivas de mensajería** o directivas de llamadas de **voz**  >  **Calling policies**.
 2. Seleccione la directiva **global (opción predeterminada para toda la organización)** para ver la configuración actual.
 3. Actualice la Directiva según sea necesario y, a continuación, seleccione **aplicar**.
 
@@ -131,7 +132,7 @@ También puede hacer lo siguiente:
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página de la Directiva.
 2. Seleccione la Directiva que desea asignar haciendo clic a la izquierda del nombre de la Directiva.
 3. Seleccione **Administrar usuarios**.
-4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+4. En el panel **Administrar usuarios** , busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando haya terminado de agregar usuarios, seleccione **aplicar**.
 
 ### <a name="using-powershell"></a>Con PowerShell
@@ -158,102 +159,7 @@ En este ejemplo, asignamos una directiva de reunión de Teams denominada Directi
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-Para obtener más información, lea [Administración de directivas a través de PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
-
-## <a name="assign-a-policy-package"></a>Asignar un paquete de directivas
-
-Un paquete de directivas de Teams es una colección de directivas y opciones de directiva predefinidas que puede asignar a los usuarios que tienen roles iguales o similares en su organización. Cada paquete de directivas está diseñado según un rol de usuario e incluye directivas predefinidas y opciones de directiva que admiten actividades típicas de ese rol. Algunos ejemplos de paquetes de directivas son el paquete educativo (profesor) y el paquete de salud (trabajador clínico).
-
-Cuando se asigna un paquete de directivas a los usuarios, se crean las directivas del paquete y, después, se puede personalizar la configuración de cada Directiva del paquete para satisfacer las necesidades de los usuarios.
-
-Para obtener más información sobre los paquetes de directivas, incluidas las instrucciones paso a paso sobre cómo asignarlos y administrarlos, consulte [administrar paquetes de directivas en Teams](manage-policy-packages.md).
-
-## <a name="assign-a-policy-to-a-batch-of-users"></a>Asignar una directiva a un lote de usuarios
-
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
-
-Para asignar una directiva a usuarios en bloque:
-
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **usuarios**.
-2. Busque los usuarios a los que desea asignar la Directiva o filtre la vista para mostrar los usuarios que desea.
-3. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-4. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
-
-Para ver el estado de la asignación de Directiva, en la pancarta que aparece en la parte superior de la página **usuarios** después de hacer clic en **aplicar** para enviar la asignación de Directiva, haga clic en **registro de actividades**. O bien, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Panel**y, a continuación, en **registro de actividades**, haga clic en **Ver detalles**. En el registro de actividades se muestran asignaciones de directivas de los lotes de más de 20 usuarios a través del centro de administración de Microsoft Teams desde los últimos 30 días. Para obtener más información, vea [ver las asignaciones de directivas en el registro de actividades](activity-log.md).
-
-### <a name="using-powershell"></a>Con PowerShell
-
-> [!NOTE]
-> Actualmente, la asignación de directivas por lotes con PowerShell no está disponible para todos los tipos de directivas de Teams. Vea [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para obtener la lista de tipos de directiva admitidos.
- 
-Con la asignación de directivas por lotes, puede asignar una directiva a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el ```New-CsBatchPolicyAssignmentOperation``` cmdlet para enviar un lote de usuarios y la Directiva que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote. Después, puede usar el ```Get-CsBatchPolicyAssignmentOperation``` cmdlet para realizar un seguimiento del progreso y el estado de las asignaciones de un lote.
-
-Puede especificar los usuarios por su identificador de objeto o dirección de protocolo de inicio de sesión (SIP). Tenga en cuenta que la dirección SIP de un usuario a menudo tiene el mismo valor que el nombre principal de usuario (UPN) o la dirección de correo electrónico, pero esto no es necesario. Si un usuario se especifica mediante su UPN o correo electrónico pero tiene un valor distinto del de su dirección SIP, se producirá un error en la asignación de directivas del usuario. Si un lote incluye usuarios duplicados, los duplicados se eliminarán del lote antes de su procesamiento y su estado solo se proporcionará para los usuarios únicos que quedan en el lote. 
-
-Un lote puede contener hasta 5.000 usuarios. Para obtener los mejores resultados, no envíes más de unos pocos lotes a la vez. Permita que los lotes terminen de procesarse antes de enviar más lotes.
-
-#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo de PowerShell de Microsoft Teams
-
-Ejecute lo siguiente para instalar el [Módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams). Asegúrese de instalar la versión 1.0.5 o posterior.
-
-```powershell
-Install-Module -Name MicrosoftTeams
-```
-
-Ejecute lo siguiente para conectarse a teams e iniciar una sesión.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-Cuando se le solicite, inicie sesión con sus credenciales de administrador.
-
-#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Instalar y conectarse al módulo de Azure AD PowerShell for Graph (opcional)
-
-Es posible que también desee [Descargar e instalar el módulo Azure ad PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (si todavía no lo ha hecho) y conectarse a Azure ad para poder recuperar una lista de usuarios de su organización.
-
-Ejecute lo siguiente para conectarse a Azure AD.
-
-```powershell
-Connect-AzureAD
-```
-
-Cuando se le solicite, inicie sesión con las mismas credenciales de administrador que usó para conectarse a teams.
-
-#### <a name="assign-a-policy-to-a-batch-of-users"></a>Asignar una directiva a un lote de usuarios
-
-En este ejemplo, usamos el ```New-CsBatchPolicyAssignmentOperation``` cmdlet para asignar una directiva de configuración de aplicación denominada Directiva de configuración de la aplicación de RRHH a un lote de usuarios que aparece en el archivo Users_ids. Text.
-
-```powershell
-$user_ids = Get-Content .\users_ids.txt
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
-```
-
-En este ejemplo, se conectará a Azure AD para recuperar una colección de usuarios y, a continuación, asignar una directiva de mensajería llamada nueva Directiva de mensajería de contratación a un lote de usuarios especificado mediante su dirección SIP.
-
-```powershell
-Connect-AzureAD
-$users = Get-AzureADUser
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.SipProxyAddress -OperationName "Example 2 batch"
-```
-
-Para obtener más información, vea [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation).
-
-#### <a name="get-the-status-of-a-batch-assignment"></a>Obtener el estado de una asignación por lotes
-
-Ejecute lo siguiente para obtener el estado de una asignación por lotes, donde OperationId es el identificador de la operación devuelto por el ```New-CsBatchPolicyAssignmentOperation``` cmdlet para un lote determinado.
-
-```powershell
-$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
-```
-
-Si el resultado muestra que se ha producido un error, ejecute lo siguiente para obtener más información sobre los errores, que están en la ```UserState``` propiedad.
-
-```powershell
-Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
-```
-
-Para obtener más información, vea [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation).
+Para obtener más información, vea [Administrar directivas mediante PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 ## <a name="assign-a-policy-to-a-group"></a>Asignar una directiva a un grupo
 
@@ -297,9 +203,9 @@ Si no especifica una clasificación, la asignación de directiva recibe la clasi
 > [!NOTE]
 > Por el momento, la asignación de directivas a grupos que usan el centro de administración de Microsoft Teams solo está disponible para la Directiva de llamadas de Teams, la Directiva de Parque de llamadas de Teams, la Directiva de Teams, la Directiva de eventos en vivo de Teams, la Directiva de reuniones Para otros tipos de directivas, use PowerShell.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página tipo de directiva. Por ejemplo, vaya a **Meetings**  >  **las directivas de reunión**de reuniones.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página tipo de directiva. Por ejemplo, vaya a **Meetings**  >  **las directivas de reunión** de reuniones.
 2. Seleccione la pestaña **asignación de directiva de grupo** .
-3. Seleccione **Agregar grupo**y, a continuación, en el panel **asignar Directiva a grupo** , haga lo siguiente:
+3. Seleccione **Agregar grupo** y, a continuación, en el panel **asignar Directiva a grupo** , haga lo siguiente:
     1. Busque y agregue el grupo al que desea asignar la Directiva.
     2. Establezca la clasificación de la asignación de grupo.
     3. Seleccione la Directiva que desea asignar. 
@@ -318,21 +224,19 @@ Para cambiar la jerarquía de una asignación de grupo, primero debe quitar la a
 
 Para obtener instrucciones paso a paso, consulte [instalar Teams PowerShell](teams-powershell-install.md).
 
-#### <a name="assign-a-policy-to-a-group"></a>Asignar una directiva a un grupo
+#### <a name="assign-a-policy-to-a-group-of-users"></a>Asignar una directiva a un grupo de usuarios
 
-Use el ```New-CsGroupPolicyAssignment``` cmdlet para asignar una directiva a un grupo. Puede especificar un grupo mediante el identificador de objeto, la dirección SIP o la dirección de correo electrónico.
+Use el cmdlet [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) para asignar una directiva a un grupo. Puede especificar un grupo mediante el identificador de objeto, la dirección SIP o la dirección de correo electrónico.
 
-En este ejemplo, usamos el ```New-CsGroupPolicyAssignment``` cmdlet para asignar una directiva de reunión de Teams denominada Directiva de reunión de directores minoristas a un grupo con una clasificación de asignación de 1.
+En este ejemplo, asignamos una directiva de reunión de Teams denominada política de reunión de directores minoristas a un grupo con una clasificación de asignación de 1.
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
 ```
 
-Para obtener más información, vea [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment).
-
 #### <a name="get-policy-assignments-for-a-group"></a>Obtener asignaciones de directivas para un grupo
 
-Use el ```Get-CsGroupPolicyAssignment``` cmdlet para obtener todas las directivas asignadas a un grupo. Ten en cuenta que los grupos siempre aparecen en la lista por su identificador de grupo aunque su dirección SIP o dirección de correo electrónico se hayan usado para asignar la Directiva.
+Use el cmdlet [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment) para obtener todas las directivas asignadas a un grupo. Ten en cuenta que los grupos siempre aparecen en la lista por su identificador de grupo aunque su dirección SIP o dirección de correo electrónico se hayan usado para asignar la Directiva.
 
 En este ejemplo, recuperamos todas las directivas asignadas a un grupo específico.
 
@@ -346,11 +250,9 @@ En este ejemplo, se devuelven todos los grupos que tienen asignada una directiva
 Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 ```
 
-Para obtener más información, vea [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment).
-
 #### <a name="remove-a-policy-from-a-group"></a>Quitar una directiva de un grupo
 
-Use el ```Remove-CsGroupPolicyAssignment``` cmdlet para quitar una directiva de un grupo. Al quitar una directiva de un grupo, se actualizan las prioridades de otras directivas del mismo tipo asignadas a ese grupo y con una clasificación menor. Por ejemplo, si quita una directiva que tiene una clasificación de 2, las directivas que tengan una jerarquía de 3 y 4 se actualizarán para reflejar su nueva clasificación. En las dos tablas siguientes se muestra este ejemplo.
+Use el cmdlet [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment) para quitar una directiva de un grupo. Al quitar una directiva de un grupo, se actualizan las prioridades de otras directivas del mismo tipo asignadas a ese grupo y con una clasificación menor. Por ejemplo, si quita una directiva que tiene una clasificación de 2, las directivas que tengan una jerarquía de 3 y 4 se actualizarán para reflejar su nueva clasificación. En las dos tablas siguientes se muestra este ejemplo.
 
 A continuación se ofrece una lista de las asignaciones de directivas y las prioridades de una directiva de reunión de Teams.
 
@@ -375,14 +277,12 @@ En este ejemplo, quitamos la política de reuniones de Teams de un grupo.
 Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-0826-40bb-8c94-e5f367076044
 ```
 
-Para obtener más información, consulte [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment).
-
 #### <a name="change-a-policy-assignment-for-a-group"></a>Cambiar una asignación de directiva para un grupo
 
 > [!NOTE]
-> El ```Set-CsGroupPolicyAssignment``` cmdlet estará disponible pronto. Mientras tanto, para cambiar una asignación de directiva de grupo, puede quitar la asignación de directiva actual del grupo y, a continuación, agregar una nueva asignación de directiva.
+> El cmdlet [set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment) estará disponible próximamente. Mientras tanto, para cambiar una asignación de directiva de grupo, puede quitar la asignación de directiva actual del grupo y, a continuación, agregar una nueva asignación de directiva.
 
-Después de asignar una directiva a un grupo, puede usar el ```Set-CsGroupPolicyAssignment``` cmdlet para cambiar la asignación de directivas del grupo de la siguiente manera:
+Después de asignar una directiva a un grupo, puede usar el cmdlet [set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment) para cambiar la asignación de directivas del grupo de la siguiente manera:
 
 - Cambiar la clasificación
 - Cambiar la Directiva de un tipo de directiva determinado
@@ -394,15 +294,11 @@ En este ejemplo, cambiamos la Directiva de los equipos de un grupo a una directi
 Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Rank 3
 ```
 
-Para obtener más información, consulte [set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment).
-
-
-
 #### <a name="change-the-effective-policy-for-a-user"></a>Cambiar la Directiva efectiva de un usuario
 
 Este es un ejemplo de cómo cambiar la Directiva efectiva para un usuario que tiene asignada directamente una directiva.
 
-En primer lugar, usamos el ```Get-CsUserPolicyAssignment``` cmdlet junto con el ```PolicySource``` parámetro para obtener detalles de los equipos de reunión de las directivas de difusión asociados con el usuario. Para obtener más información, vea [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment).
+En primer lugar, usamos el cmdlet [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment) junto con el ```PolicySource``` parámetro para obtener detalles de los equipos de difusión de las directivas de difusión asociadas con el usuario. 
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -431,9 +327,144 @@ Puede usar el siguiente cmdlet en el módulo de PowerShell de Teams para hacerlo
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
+## <a name="assign-a-policy-to-a-batch-of-users"></a>Asignar una directiva a un lote de usuarios
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+
+Para asignar una directiva a usuarios en bloque:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **usuarios**.
+2. Busque los usuarios a los que desea asignar la Directiva o filtre la vista para mostrar los usuarios que desea.
+3. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
+4. Haga clic en **Editar configuración** , haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
+
+Para ver el estado de la asignación de Directiva, en la pancarta que aparece en la parte superior de la página **usuarios** después de hacer clic en **aplicar** para enviar la asignación de Directiva, haga clic en **registro de actividades**. O bien, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Panel** y, a continuación, en **registro de actividades** , haga clic en **Ver detalles**. En el registro de actividades se muestran asignaciones de directivas de los lotes de más de 20 usuarios a través del centro de administración de Microsoft Teams desde los últimos 30 días. Para obtener más información, vea [ver las asignaciones de directivas en el registro de actividades](activity-log.md).
+
+### <a name="using-powershell"></a>Con PowerShell
+
+> [!NOTE]
+> Actualmente, la asignación de directivas por lotes con PowerShell no está disponible para todos los tipos de directivas de Teams. Vea [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para obtener la lista de tipos de directiva admitidos.
+ 
+Con la asignación de directivas por lotes, puede asignar una directiva a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el cmdlet [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para enviar un lote de usuarios y la Directiva que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote. Puede usar el cmdlet [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation) para realizar un seguimiento del progreso y el estado de las asignaciones de un lote.
+
+Puede especificar los usuarios por su identificador de objeto o dirección de protocolo de inicio de sesión (SIP). Tenga en cuenta que la dirección SIP de un usuario a menudo tiene el mismo valor que el nombre principal de usuario (UPN) o la dirección de correo electrónico, pero esto no es necesario. Si un usuario se especifica mediante su UPN o correo electrónico pero tiene un valor distinto del de su dirección SIP, se producirá un error en la asignación de directivas del usuario. Si un lote incluye usuarios duplicados, los duplicados se eliminarán del lote antes de su procesamiento y su estado solo se proporcionará para los usuarios únicos que quedan en el lote. 
+
+Un lote puede contener hasta 5.000 usuarios. Para obtener los mejores resultados, no envíes más de unos pocos lotes a la vez. Permita que los lotes terminen de procesarse antes de enviar más lotes.
+
+#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo de PowerShell de Microsoft Teams
+
+Ejecute lo siguiente para instalar el [Módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams). Asegúrese de instalar la versión 1.0.5 o posterior.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+Ejecute lo siguiente para conectarse a teams e iniciar una sesión.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+Cuando se le solicite, inicie sesión con sus credenciales de administrador.
+
+#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Instalar y conectarse al módulo de Azure AD PowerShell for Graph (opcional)
+
+Es posible que también desee [Descargar e instalar el módulo Azure ad PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (si todavía no lo ha hecho) y conectarse a Azure ad para poder recuperar una lista de usuarios de su organización.
+
+Ejecute lo siguiente para conectarse a Azure AD.
+
+```powershell
+Connect-AzureAD
+```
+
+Cuando se le solicite, inicie sesión con las mismas credenciales de administrador que usó para conectarse a teams.
+
+#### <a name="assign-a-policy-to-a-batch-of-users"></a>Asignar una directiva a un lote de usuarios
+
+En este ejemplo, usamos el cmdlet [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para asignar una directiva de configuración de aplicación denominada política de configuración de la aplicación de RRHH a un lote de usuarios que aparece en el archivo Users_ids. Text.
+
+```powershell
+$user_ids = Get-Content .\users_ids.txt
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
+```
+
+En este ejemplo, se conectará a Azure AD para recuperar una colección de usuarios y, a continuación, asignar una directiva de mensajería llamada nueva Directiva de mensajería de contratación a un lote de usuarios especificado mediante su dirección SIP.
+
+```powershell
+Connect-AzureAD
+$users = Get-AzureADUser
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.SipProxyAddress -OperationName "Example 2 batch"
+```
+
+#### <a name="get-the-status-of-a-batch-assignment"></a>Obtener el estado de una asignación por lotes
+
+Ejecute lo siguiente para obtener el estado de una asignación por lotes, donde OperationId es el identificador de la operación devuelto por el ```New-CsBatchPolicyAssignmentOperation``` cmdlet para un lote determinado.
+
+```powershell
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+```
+
+Si el resultado muestra que se ha producido un error, ejecute lo siguiente para obtener más información sobre los errores, que están en la ```UserState``` propiedad.
+
+```powershell
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
+```
+
+Para obtener más información, vea [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation).
+
+## <a name="assign-a-policy-package-to-users"></a>Asignar un paquete de directivas a los usuarios
+
+Un paquete de directivas de Teams es una colección de directivas y opciones de directiva predefinidas que puede asignar a los usuarios que tienen roles iguales o similares en su organización. Cada paquete de directivas está diseñado según un rol de usuario e incluye directivas predefinidas y opciones de directiva que admiten actividades típicas de ese rol. Algunos ejemplos de paquetes de directivas son el paquete educativo (profesor) y el paquete de salud (trabajador clínico). Para obtener más información, vea [administrar paquetes de directivas en Teams](manage-policy-packages.md).
+
+### <a name="assign-a-policy-package-to-one-user"></a>Asignar un paquete de directivas a un usuario
+
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
+2. En la página del usuario, haga clic en **directivas** y, a continuación, junto a **paquete de directivas** , haga clic en **Editar**.
+3. En el panel **asignar paquete de directivas** , seleccione el paquete que desea asignar y, a continuación, haga clic en **Guardar**.
+
+### <a name="assign-a-policy-package-to-multiple-users"></a>Asignar un paquete de directivas a varios usuarios
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **paquetes de directivas** y, a continuación, seleccione el paquete de directivas que desea asignar haciendo clic a la izquierda del nombre del paquete.
+2. Haga clic en **administrar usuarios**.
+3. En el panel **Administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
+
+## <a name="assign-a-policy-package-to-a-group"></a>Asignar un paquete de directivas a un grupo
+
+**Esta característica está en versión preliminar privada**
+
+La asignación de paquetes de directivas a grupos le permite asignar varias directivas a un grupo de usuarios, como un grupo de seguridad o una lista de distribución. La asignación de Directiva se propaga a los miembros del grupo según las reglas de prioridad. A medida que se agregan o quitan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan según corresponda.
+
+La asignación de paquetes de directivas a grupos se recomienda para grupos de hasta 50.000 usuarios, pero también funciona con grupos más grandes. 
+
+Cuando asignes el paquete de directivas, se asignará al grupo inmediatamente. Sin embargo, ten en cuenta que la propagación de la asignación de directiva a miembros del grupo se realiza como una operación en segundo plano y puede llevar algún tiempo, según el tamaño del grupo. Lo mismo sucede cuando se elimina la asignación de una directiva de un grupo, o cuando se agregan miembros a un grupo o se quitan de él.
+
+> [!IMPORTANT]
+> Antes de empezar, es importante comprender [las reglas de prioridad](#precedence-rules) y la [clasificación de asignación de grupo](#group-assignment-ranking). Asegúrese de leer y comprender los conceptos de lo que debe [saber sobre la asignación de directivas a grupos](#what-you-need-to-know-about-policy-assignment-to-groups) anteriormente en este artículo.
+
+### <a name="using-the-microsoft-teams-admin-center-coming-soon"></a>Usar el centro de administración de Microsoft Teams (próximamente)
+
+La asignación de paquetes de directivas a grupos en el centro de administración de Microsoft Teams estará disponible próximamente. Vuelva a consultar aquí para obtener las actualizaciones más recientes.
+
+### <a name="using-powershell"></a>Con PowerShell
+
+#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo de PowerShell de Microsoft Teams
+
+Para obtener instrucciones paso a paso, consulte [instalar Teams PowerShell](teams-powershell-install.md).
+
+#### <a name="assign-a-policy-package-to-a-group-of-users"></a>Asignar un paquete de directivas a un grupo de usuarios
+
+Use el cmdlet [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) para asignar un paquete de directivas a un grupo. Puede especificar un grupo mediante el identificador de objeto, la dirección SIP o la dirección de correo electrónico. Cuando asigne el paquete de directivas, especifique una [clasificación de asignación de grupo](#group-assignment-ranking) para cada tipo de directiva en el paquete de directivas. 
+
+En este ejemplo, asignamos el paquete de directivas Education_Teacher a un grupo con una clasificación de asignación de 1 para TeamsAppSetupPolicy y TeamsMeetingBroadcastPolicy y una clasificación de 2 para TeamsMeetingPolicy.
+
+```powershell
+Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79f69" -PackageName "Education_Teacher" -PolicyRankings "TeamsAppSetupPolicy, 1", "TeamsMeetingBroadcastPolicy, 1", "TeamsMeetingPolicy, 2"
+```
+
 ## <a name="assign-a-policy-package-to-a-batch-of-users"></a>Asignar un paquete de directivas a un lote de usuarios
 
-Con la asignación de paquetes de directivas por lotes, puede asignar un paquete de directivas a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet para enviar un lote de usuarios y el paquete de directivas que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote. Después, puede usar el ```Get-CsBatchPolicyAssignmentOperation``` cmdlet para realizar un seguimiento del progreso y el estado de las asignaciones de un lote.
+Con la asignación de paquetes de directivas por lotes, puede asignar un paquete de directivas a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el cmdlet [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote. Puede usar el cmdlet [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation) para realizar un seguimiento del progreso y el estado de las asignaciones de un lote.
 
 Puede especificar los usuarios por su identificador de objeto o dirección de protocolo de inicio de sesión (SIP). Tenga en cuenta que la dirección SIP de un usuario a menudo tiene el mismo valor que el nombre principal de usuario (UPN) o la dirección de correo electrónico, pero esto no es necesario. Si un usuario se especifica mediante su UPN o correo electrónico pero tiene un valor distinto del de su dirección SIP, se producirá un error en la asignación de directivas del usuario. Si un lote incluye usuarios duplicados, los duplicados se eliminarán del lote antes de su procesamiento y su estado solo se proporcionará para los usuarios únicos que quedan en el lote. 
 
@@ -457,13 +488,11 @@ Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
 ### <a name="assign-a-policy-package-to-a-batch-of-users"></a>Asignar un paquete de directivas a un lote de usuarios
 
-En este ejemplo, usamos el ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet para asignar el paquete de directivas Education_PrimaryStudent a un lote de usuarios.
+En este ejemplo, usamos el cmdlet [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) para asignar el paquete de directivas Education_PrimaryStudent a un lote de usuarios.
 
 ```powershell
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
 ```
-
-Para obtener más información, vea [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation).
 
 ### <a name="get-the-status-of-a-batch-assignment"></a>Obtener el estado de una asignación por lotes
 

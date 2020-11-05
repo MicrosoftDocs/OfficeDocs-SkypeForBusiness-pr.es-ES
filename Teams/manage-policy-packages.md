@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 140b67ae8df01d29b8e6d37c6fe1a36afebbd949
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 986d64b11420877e146abc68f9f65c0503f49ff0
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48488430"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48918658"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -89,12 +89,12 @@ Los paquetes de directivas personalizados le permiten empaquetar su propio conju
 
 Para crear un nuevo paquete de directivas personalizado:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **paquetes de directivas**y, a continuación, haga clic en **Agregar**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **paquetes de directivas** y, a continuación, haga clic en **Agregar**.
     :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de pantalla del botón Agregar en la página paquetes de directivas en el centro de administración":::
 2. Escriba un nombre y una descripción para el paquete.
     :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Captura de pantalla de la adición de un nuevo paquete de directiva personalizado":::
 3. Seleccione los tipos de directiva y los nombres de directiva que desea incluir en el paquete.
-4. Haga clic en **Guardar **.
+4. Haga clic en **Guardar**.
 
 ## <a name="how-to-use-policy-packages"></a>Cómo usar paquetes de directivas
 
@@ -102,13 +102,13 @@ A continuación se describe cómo usar paquetes de directivas en su organizació
 
 ![Información general sobre cómo usar paquetes de directivas](media/manage-policy-packages-overview.png)
 
-- **[Ver](#view-the-settings-of-a-policy-in-a-policy-package)**: ver las directivas de un paquete de directivas. Después, vea la configuración de cada directiva en un paquete antes de asignar el paquete. Asegúrese de comprender cada configuración. Decida si los valores predefinidos son adecuados para su organización o si necesita cambiarlos para que sean más restrictivos o flexibles según las necesidades de su organización.
+- **[Ver](#view-the-settings-of-a-policy-in-a-policy-package)** : ver las directivas de un paquete de directivas. Después, vea la configuración de cada directiva en un paquete antes de asignar el paquete. Asegúrese de comprender cada configuración. Decida si los valores predefinidos son adecuados para su organización o si necesita cambiarlos para que sean más restrictivos o flexibles según las necesidades de su organización.
 
     Si se elimina una directiva, puede seguir viendo la configuración, pero no podrá cambiar la configuración. Una directiva eliminada se vuelve a crear con la configuración predefinida al asignar el paquete de directivas.
 
-- **[Personalizar](#customize-policies-in-a-policy-package)**: personalizar la configuración de directivas en el paquete de directivas para satisfacer las necesidades de su organización.
+- **[Personalizar](#customize-policies-in-a-policy-package)** : personalizar la configuración de directivas en el paquete de directivas para satisfacer las necesidades de su organización.
 
-- **[Asignar](#assign-a-policy-package)**: asignar el paquete de directivas a los usuarios.  
+- **[Asignar](#assign-a-policy-package)** : asignar el paquete de directivas a los usuarios.  
 
 > [!NOTE]
 > También puede cambiar la configuración de las directivas en un paquete de directivas después de asignar un paquete. Los cambios que realice en la configuración de la Directiva se aplican automáticamente a los usuarios que tienen asignado el paquete.
@@ -117,7 +117,7 @@ Estos son los pasos para ver, asignar y personalizar paquetes de directivas en e
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Ver la configuración de una directiva en un paquete de directivas
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **paquetes de directivas**y, a continuación, seleccione un paquete de directivas haciendo clic a la izquierda del nombre del paquete.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **paquetes de directivas** y, a continuación, seleccione un paquete de directivas haciendo clic a la izquierda del nombre del paquete.
 2. Haga clic en la Directiva que desea ver.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personalizar directivas en un paquete de directivas
@@ -125,25 +125,33 @@ Estos son los pasos para ver, asignar y personalizar paquetes de directivas en e
 Puede editar la configuración de una directiva a través de la página **paquetes de directivas** o yendo directamente a la página de directivas en el centro de administración de Microsoft Teams.
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, siga uno de estos procedimientos:
-    - Haga clic en **paquetes de directivas**y, a continuación, seleccione el paquete de directivas haciendo clic a la izquierda del nombre del paquete.
+    - Haga clic en **paquetes de directivas** y, a continuación, seleccione el paquete de directivas haciendo clic a la izquierda del nombre del paquete.
     - Haga clic en el tipo de directiva.  Por ejemplo, haga clic en **directivas de mensajería**.
 2. Seleccione la Directiva que desea editar. Las directivas vinculadas a un paquete de directivas tienen el mismo nombre que el paquete de directivas.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar**.
 
-### <a name="assign-a-policy-package"></a>Asignar un paquete de directivas
+### <a name="assign-a-policy-package"></a>Asignar un paquete de directivas 
 
 #### <a name="assign-a-policy-package-to-one-user"></a>Asignar un paquete de directivas a un usuario
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y, después, haga clic en el usuario.
-2. En la página del usuario, haga clic en **directivas**y, a continuación, junto a **paquete de directivas**, haga clic en **Editar**.
+2. En la página del usuario, haga clic en **directivas** y, a continuación, junto a **paquete de directivas** , haga clic en **Editar**.
 3. En el panel **asignar paquete de directivas** , seleccione el paquete que desea asignar y, a continuación, haga clic en **Guardar**.
 
 #### <a name="assign-a-policy-package-to-multiple-users"></a>Asignar un paquete de directivas a varios usuarios
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **paquetes de directivas**y, a continuación, seleccione el paquete de directivas que desea asignar haciendo clic a la izquierda del nombre del paquete.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **paquetes de directivas** y, a continuación, seleccione el paquete de directivas que desea asignar haciendo clic a la izquierda del nombre del paquete.
 2. Haga clic en **administrar usuarios**.
-3. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+3. En el panel **Administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
+
+#### <a name="assign-a-policy-package-to-a-group"></a>Asignar un paquete de directivas a un grupo
+
+**Esta característica está en versión preliminar privada**
+
+La asignación de paquetes de directivas a grupos le permite asignar varias directivas a un grupo de usuarios, como un grupo de seguridad o una lista de distribución. La asignación de Directiva se propaga a los miembros del grupo según las reglas de prioridad. A medida que se agregan o quitan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan según corresponda. Este método se recomienda para grupos de hasta 50.000 usuarios, pero también funciona con grupos más grandes.
+
+Para obtener más información, consulte [asignar un paquete de directivas a un grupo](assign-policies.md#assign-a-policy-package-to-a-group).
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Asignar un paquete de directivas a un conjunto grande (lote) de usuarios
 

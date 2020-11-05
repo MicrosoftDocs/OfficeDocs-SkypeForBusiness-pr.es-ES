@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Obtenga más información sobre las capacidades de interoperabilidad entre los usuarios de los equipos de su organización y los usuarios de Skype (consumidor).
 localization_priority: Normal
-ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766904"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919042"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interoperabilidad entre equipos y Skype
 
@@ -47,9 +47,9 @@ Un usuario de Skype puede elegir no aparecer en los resultados de búsqueda. En 
 
 Los usuarios de Skype pueden buscar e iniciar una conversación con un usuario de Teams usando su dirección de correo electrónico. Se notifica al usuario de los equipos que tiene un mensaje nuevo de un usuario de Skype y primero debe aceptar el mensaje antes de que pueda responder a él.
 
-- Si el usuario de Teams selecciona **Aceptar**, se acepta la conversación y ambos usuarios pueden chatear y llamarse entre sí.
-- Si el usuario de Teams selecciona **bloquear**, la conversación se bloquea y los mensajes y las llamadas posteriores de ese usuario de Skype se bloquean.
-- Si el usuario de Teams selecciona **Ver mensajes**, el mensaje se muestra en Teams, lo que permite al usuario decidir si desea aceptar o bloquear la conversación.
+- Si el usuario de Teams selecciona **Aceptar** , se acepta la conversación y ambos usuarios pueden chatear y llamarse entre sí.
+- Si el usuario de Teams selecciona **bloquear** , la conversación se bloquea y los mensajes y las llamadas posteriores de ese usuario de Skype se bloquean.
+- Si el usuario de Teams selecciona **Ver mensajes** , el mensaje se muestra en Teams, lo que permite al usuario decidir si desea aceptar o bloquear la conversación.
 
 > [!NOTE]
 > Si ha actualizado de Skype empresarial a teams y los usuarios solo se encuentran en el modo de solo equipos, los chats y las llamadas de los usuarios de Skype a los usuarios de Teams se envían a teams. Si los usuarios están en modo islas, las conversaciones y las llamadas de usuarios de Skype a usuarios de Teams se envían a Skype empresarial.
@@ -73,13 +73,20 @@ Los usuarios de Skype bloqueados, junto con otras personas y números de teléfo
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Establecer si los usuarios de Teams pueden comunicarse con usuarios de Skype
 
-Como administrador, use el centro de administración de Microsoft Teams o PowerShell para establecer la configuración de acceso externo para controlar si los usuarios de Teams de su organización pueden comunicarse con los usuarios de Skype. De forma predeterminada, esta capacidad está activada para los inquilinos nuevos.
+Como administrador, use el centro de administración de Microsoft Teams o PowerShell para establecer la configuración de acceso externo para controlar si los usuarios de Teams de su organización pueden comunicarse con los usuarios de Skype. De forma predeterminada, esta capacidad está activada para los inquilinos nuevos. Sin embargo, existe un requisito previo de que el administrador de ti tenga que configurar el siguiente registro SRV de DNS si aún no está disponible para su dominio, por ejemplo _sipfederationtls. contoso. com.  
+
+**Servicio** : sipfederationtls<br/>
+**Protocolo** : TCP<br/>
+**Prioridad** : 100<br/>
+**Peso** : 1<br/>
+**Puerto** : 5061<br/>
+**Objetivo** : sipfed.online.Lync.com
 
 Si ha actualizado de Skype empresarial a Teams, la configuración de comunicaciones externas que configuró en el centro de administración de Skype empresarial se migrará a teams.
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>En el centro de administración de Microsoft Teams
 
-En el centro de administración de Microsoft Teams, vaya a configuración de acceso externo a **toda la organización**  >  **External access**y Active **los usuarios pueden comunicarse con los usuarios de Skype**. Para obtener instrucciones paso a paso sobre cómo configurar esta y otras opciones de acceso externo, consulte [administrar el acceso externo en Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
+En el centro de administración de Microsoft Teams, vaya a configuración de acceso externo a **toda la organización**  >  **External access** y Active **los usuarios pueden comunicarse con los usuarios de Skype**. Para obtener instrucciones paso a paso sobre cómo configurar esta y otras opciones de acceso externo, consulte [administrar el acceso externo en Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### <a name="using-powershell"></a>Con PowerShell
 

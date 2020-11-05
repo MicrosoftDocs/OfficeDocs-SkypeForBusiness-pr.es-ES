@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Aprenda a cargar inquilino y a crear datos en el panel de calidad de llamadas (CQD).
-ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897840"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908699"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Cargar inquilino y datos de compilación en el panel de calidad de llamadas (CQD)
 
@@ -49,7 +49,7 @@ En el panel informes de resumen del CQD, seleccione **carga de datos de inquilin
 
 4. Después de seleccionar un archivo de datos, especifique **fecha de inicio** y, opcionalmente, especifique una fecha de finalización.
 
-5. Después de seleccionar **fecha de inicio**, seleccione **cargar** para cargar el archivo en el CQD. <br><br>Antes de que se cargue el archivo, se valida. Si se produce un error en la validación, se muestra un mensaje de error en el que se le pide que corrija el archivo. En la siguiente ilustración se muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
+5. Después de seleccionar **fecha de inicio** , seleccione **cargar** para cargar el archivo en el CQD. <br><br>Antes de que se cargue el archivo, se valida. Si se produce un error en la validación, se muestra un mensaje de error en el que se le pide que corrija el archivo. En la siguiente ilustración se muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
 
    ![Ejemplo de cuadro de diálogo que muestra un error de carga de datos de compilación](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -111,7 +111,7 @@ El primer tipo de archivo de datos de inquilino en el CQD es el archivo de datos
 
 ### <a name="supernetting"></a>Superredes
 
-Puede usar superredes, denominadas comúnmente enrutamiento entre dominios con clases (CIDR), en lugar de definir cada subred. Una *superred* es una combinación de varias subredes que comparten un único prefijo de enrutamiento. En lugar de agregar una entrada para cada subred, puede usar la dirección de superredes. Es compatible con la superredes, pero no recomendamos que lo uses.
+Puede usar superredes, denominadas comúnmente enrutamiento de Inter-Domain (CIDR), en lugar de definir cada subred. Una *superred* es una combinación de varias subredes que comparten un único prefijo de enrutamiento. En lugar de agregar una entrada para cada subred, puede usar la dirección de superredes. Es compatible con la superredes, pero no recomendamos que lo uses.
 
 Por ejemplo, la creación de marketing de Contoso está formada por las subredes siguientes:
 
@@ -161,7 +161,7 @@ El otro tipo de archivo de datos de inquilino del CQD es el archivo de datos del
 
 - El contenido del archivo de datos no incluye encabezados de tabla. Se espera que la primera línea del archivo de datos sea datos reales, no una etiqueta de encabezado como "EndpointName".
 
-- Las seis columnas solo usan el tipo de datos String. La longitud máxima permitida es de 64 caracteres.
+- Las siete columnas solo usan el tipo de datos String. La longitud máxima permitida es de 64 caracteres.
 
 - Un campo de datos puede estar vacío, pero aún debe estar separado por una tabulación o una coma. Un campo de datos vacío simplemente asigna un valor de cadena vacía.
 
@@ -169,15 +169,15 @@ El otro tipo de archivo de datos de inquilino del CQD es el archivo de datos del
 
 - EndpointLabel1, EndpointLabel2 y EndpointLabel3 son etiquetas personalizables. Pueden ser cadenas vacías o valores como "equipo de ti designado 2018 portátil" o "etiqueta de activo 5678".
 
-- Debe haber seis columnas por cada fila y las columnas deben estar en el siguiente orden:
+- Debe haber siete columnas por cada fila y las columnas deben estar en el siguiente orden:
 
   **Orden de los campos:**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+  EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Fila de ejemplo:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 
 ## <a name="update-a-building-file"></a>Actualizar un archivo de compilación
@@ -220,7 +220,7 @@ Después de cargar la información de creación para redes administradas, cada r
 > Tendrá que agregar su identificador de inquilino como filtro de consulta para el **segundo identificador de inquilino** a este informe para filtrar el informe para ver solo los datos de inquilinos de su organización. En caso contrario, el informe mostrará subredes federadas.
 
 > [!NOTE] 
-> Asegúrese de ajustar el filtro de informe de año mensual al mes en curso. Seleccione **Editar**y ajuste el filtro de informe **mes de año** para guardar el nuevo mes predeterminado.
+> Asegúrese de ajustar el filtro de informe de año mensual al mes en curso. Seleccione **Editar** y ajuste el filtro de informe **mes de año** para guardar el nuevo mes predeterminado.
 
 
 ## <a name="related-topics"></a>Temas relacionados

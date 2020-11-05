@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga más información sobre los operadores automáticos y las colas de llamadas, y sobre cómo usarlos para que las personas que llaman puedan moverse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 7407b9a2bbcd8d8b3fb5d15202d1bba518953f07
-ms.sourcegitcommit: 6c24c77f0aad693d45dd5657c12bf876f62c495b
+ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2020
-ms.locfileid: "48765947"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908609"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear los operadores automáticos de Teams y las colas de llamadas
 
@@ -70,11 +70,21 @@ Para configurar los operadores automáticos y las colas de llamadas, necesita lo
 
 - Una cuenta de recursos para cada operador automático y cola de llamadas
 - Un sistema telefónico gratis: licencia de usuario virtual para cada cuenta de recursos
-- Un número de servicio para cada operador automático o cola de llamadas que desee que se marquen directamente
-- Plan de llamadas para cada persona que recibirá llamadas en la cola de llamadas
+- Al menos un [número de servicio de Microsoft](getting-service-phone-numbers.md), un número de enrutamiento directo o un número híbrido para cada cuenta de recursos que desee que se marque directamente
+ - El número de servicio puede ser un número de pago o gratuito
+
+Los agentes que reciban llamadas de las colas de llamadas deben ser Enterprise Voice habilitado en línea o en usuarios locales. 
+
+Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
+
+Al transferir llamadas a un número de teléfono externo, la cuenta de recursos que realiza la transferencia (es decir, la que está asociada con el operador automático o la cola de llamadas) debe tener un número de teléfono y una licencia de usuario virtual del sistema telefónico de Microsoft 365. Limita
+
+- Para una cuenta de recursos con un número de plan de llamadas, asigne una licencia de [plan de llamadas](calling-plans-for-office-365.md) .
+- Para una cuenta de recursos con un número de enrutamiento directo, asigne una [Directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md).
 
 > [!NOTE]
-> Los números del servicio de enrutamiento directo para las colas de llamadas y los usuarios de Microsoft Teams solo son compatibles con los usuarios de Microsoft Teams y los agentes de llamadas.
+> Los números del servicio de enrutamiento directo para las colas de llamadas y los usuarios de Microsoft Teams solo son compatibles con los usuarios de Microsoft Teams y los agentes de llamadas.<br>
+> No se admiten las transferencias entre los troncos del plan de llamadas y los troncos de enrutamiento directos.
 
 ## <a name="business-decisions"></a>Decisiones empresariales
 
@@ -180,18 +190,6 @@ Estos son algunos procedimientos recomendados para el enrutamiento de llamadas:
 - Describa el servicio en primer lugar, seguido de la opción de pulsar (por ejemplo, para la prensa de ventas 1) en lugar de la otra forma de hacerlo (por ejemplo: Pulse 1 para ventas).
 - Terminología de usuario que las personas que llaman entienden, en lugar de lo que usted puede usar internamente.
 - Evite realizar actualizaciones frecuentes para llamar al enrutamiento. Si cambias las opciones de menú para un operador automático en el futuro, puedes llamarlo en las solicitudes de voz durante los primeros 30 días.
-
-## <a name="resource-accounts-and-phone-numbers"></a>Cuentas de recursos y números de teléfono
-
-Teams usa *[cuentas de recursos](manage-resource-accounts.md)* para conectar los operadores automáticos y las colas de llamadas entre sí y asignarles números de teléfono si así lo desea.
-
-- Cada cola de llamadas y operador automático requiere al menos una cuenta de recursos.
-- Cada cuenta de recursos requiere un sistema telefónico gratis (licencia de usuario virtual).
-- De forma opcional, una cuenta de recursos puede tener asignados uno o más números de servicio. (Esta es la forma en que se asignan los números de teléfono a los operadores automáticos y las colas de llamadas).
-
-Puede asignar un número de [servicio de Microsoft](getting-service-phone-numbers.md), un número de enrutamiento directo o un número híbrido a una cuenta de recursos.
-
-Puede usar números de servicio de pago o gratuitos. No puede usar números de teléfono de usuario para los operadores automáticos ni las colas de llamadas.
 
 ## <a name="getting-started"></a>Introducción
 

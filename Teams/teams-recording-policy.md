@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739338"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908579"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para realizar llamadas & reuniones
 
@@ -39,6 +39,8 @@ Teams ha sido mejorado para admitir la integración de soluciones de grabación 
 - Compatibilidad con la captura de interacción entre usuarios de equipos y puntos de conexión de llamadas compatibles (equipos, equipos móviles, Skype empresarial, RTC)
 
 - Nuevas directivas administrativas para la grabación de cumplimiento, incluida la integración con las herramientas y políticas de reuniones y herramientas administrativas existentes de Teams
+
+La grabación de cumplimiento puede habilitarse en los usuarios de Microsoft 365 A3/A5/E3/E5 y Office 365 A3/A5/E3/E5. 
 
 Las capacidades de integración de soluciones de grabación de cumplimiento también fueron revisadas en el encendido 2019 de la [<span class="underline">sesión de cumplimiento y Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 
@@ -206,6 +208,13 @@ La compatibilidad con las notificaciones se habilita con las experiencias del cl
 
 Además de publicar API disponibles públicamente para que los socios puedan desarrollar e integrar soluciones de CCaaS con Teams, hemos desarrollado el programa de certificación de la grabación de cumplimiento para Microsoft Teams a fin de proporcionar a los clientes la seguridad de que la solución de cada socio participante ha sido probada y verificada para proporcionar la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.  
 
+Los siguientes socios han certificado su solución para Microsoft Teams.
+
+|Servidor|Sitio web de soluciones |
+|:--|:--|
+|ALINEA |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
+
 Los siguientes socios están en el proceso de certificar su solución para Microsoft Teams.
 
 |Servidor|Sitio web de soluciones |
@@ -216,7 +225,6 @@ Los siguientes socios están en el proceso de certificar su solución para Micro
 |Un doblador |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Tecnologías de Landis |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|ALINEA |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Innovación en roble |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |Cuadro rojo |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
@@ -224,6 +232,6 @@ Los siguientes socios están en el proceso de certificar su solución para Micro
 
 Esta lista se actualizará a medida que se unan más socios y cumplan los criterios de certificación.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Si eres un proveedor y deseas participar en el programa de certificación, envía un mensaje de correo  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>.

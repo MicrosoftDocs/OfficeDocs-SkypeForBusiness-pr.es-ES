@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización gubernamental.
-ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 8ef632689cb52180e8fd18cf4047fb9a25150885
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804048"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908599"
 ---
 # <a name="teams-policy-packages-for-government"></a>Paquetes de directivas de Teams para administración pública
 
@@ -59,7 +59,7 @@ A cada directiva individual se le da el nombre del paquete de directivas para qu
 
 ### <a name="view"></a>Ver
 
-Vea la configuración de cada directiva en un paquete de directivas antes de asignar un paquete. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **paquetes de directivas**, seleccione el nombre del paquete y, a continuación, seleccione el nombre de la Directiva.
+Vea la configuración de cada directiva en un paquete de directivas antes de asignar un paquete. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **paquetes de directivas** , seleccione el nombre del paquete y, a continuación, seleccione el nombre de la Directiva.
 
 Decida si los valores predefinidos son adecuados para su organización o si necesita personalizarlos para que sean más restrictivos o flexibles según las necesidades de su organización.
 
@@ -71,13 +71,31 @@ Tenga en cuenta que también puede cambiar la configuración de las directivas e
 
 ### <a name="assign"></a>Asignar
 
-Asignar el paquete de directivas a los usuarios. Para asignar un paquete de directivas a uno o varios usuarios, haga clic en **administrar usuarios**. También puede [usar PowerShell](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para asignar un paquete de directivas a lotes grandes de usuarios. 
+Asignar el paquete de directivas a los usuarios. Si un usuario tiene asignada una directiva y posteriormente asigna otra, la asignación más reciente tendrá prioridad.
 
-Para conocer los pasos sobre cómo asignar un paquete de directivas mediante el centro de administración de Microsoft Teams o PowerShell, consulte [asignar un paquete de directivas](manage-policy-packages.md#assign-a-policy-package).
+#### <a name="assign-a-policy-package-to-one-or-several-users"></a>Asignar un paquete de directivas a uno o varios usuarios
 
-![Captura de pantalla de cómo asignar un paquete de directivas en el centro de administración](media/policy-packages-gov-assign.png)
+Para asignar un paquete de directivas a uno o varios usuarios, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a **paquetes de directivas** y, después, seleccione **administrar usuarios**.  
+
+![Captura de pantalla de cómo asignar un paquete de directivas en el centro de administración](media/policy-packages-healthcare-assign.png)
+
+Para obtener más información, consulte [asignar un paquete de directivas](manage-policy-packages.md#assign-a-policy-package).
 
 Si un usuario tiene asignada una directiva y posteriormente asigna otra, la asignación más reciente tendrá prioridad.
+
+#### <a name="assign-a-policy-package-to-a-group"></a>Asignar un paquete de directivas a un grupo
+
+**Esta característica está en versión preliminar privada**
+
+La asignación de paquetes de directivas a grupos le permite asignar varias directivas a un grupo de usuarios, como un grupo de seguridad o una lista de distribución. La asignación de Directiva se propaga a los miembros del grupo según las reglas de prioridad. A medida que se agregan o quitan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan según corresponda. Este método se recomienda para grupos de hasta 50.000 usuarios, pero también funciona con grupos más grandes.
+
+Para obtener más información, consulte [asignar un paquete de directivas a un grupo](assign-policies.md#assign-a-policy-package-to-a-group).
+
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Asignar un paquete de directivas a un conjunto grande (lote) de usuarios
+
+Use la asignación de paquetes de directivas por lotes para asignar un paquete de directivas a grandes conjuntos de usuarios a la vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que desea asignar. Las asignaciones se procesan como una operación en segundo plano y se genera un identificador de operación para cada lote.
+
+Un lote puede contener hasta 5.000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [asignar un paquete de directivas a un lote de usuarios](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="related-topics"></a>Temas relacionados
 
