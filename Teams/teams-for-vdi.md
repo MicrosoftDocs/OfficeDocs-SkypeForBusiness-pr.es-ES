@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 28d5c9b318c2ce098d1f361f8af4b074260aaf98
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778903"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48925472"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -187,7 +187,7 @@ Para obtener más información sobre Teams y las aplicaciones de Microsoft 365 p
 
         > [!NOTE]
         > Estos ejemplos también usan el parámetro **ALLUSERS = 1** . Al establecer este parámetro, Team Machine-Wide Installer aparece en programas y características en el panel de control y en aplicaciones & características de configuración de Windows para todos los usuarios del equipo. Todos los usuarios pueden desinstalar Teams si tienen credenciales de administrador.
-        Es importante comprender la diferencia entre **ALLUSERS = 1** y **ALLUSER = 1** . El parámetro **ALLUSERS = 1** se puede usar en entornos que no son VDI y VDI, mientras que el parámetro **ALLUSER = 1** se usa solo en entornos de VDI para especificar una instalación por equipo.
+        Es importante comprender la diferencia entre **ALLUSERS = 1** y **ALLUSER = 1**. El parámetro **ALLUSERS = 1** se puede usar en entornos que no son VDI y VDI, mientras que el parámetro **ALLUSER = 1** se usa solo en entornos de VDI para especificar una instalación por equipo.
 
 3. Desinstale el MSI de la máquina virtual de VDI. Hay dos maneras de desinstalar Teams.
 
@@ -229,7 +229,6 @@ Para obtener más información sobre cómo preparar su red para equipos, consult
 
 Si va a migrar desde Skype empresarial en VDI a teams en VDI, además de las diferencias entre las dos aplicaciones, hay algunas diferencias cuando se implementa VDI. Algunas de las funciones que actualmente no se admiten en la VDI de Skype para empresas son las siguientes:
 
-- Control de las experiencias de las llamadas de VDI con directivas para limitar la velocidad de bits de medios
 - Directiva por plataforma para deshabilitar algunas características de AV en VDI
 - Ceder y tomar el control del uso compartido de aplicaciones
 - Compartir pantalla desde una conversación sin audio
@@ -260,27 +259,27 @@ Puede establecer directivas con el centro de administración de Microsoft Teams 
 
 Para asignar la Directiva de llamada de DisallowCalling y la Directiva de reunión de AllOff a un usuario:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios** .
-2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. Haga lo siguiente:
-    1.  En **Directiva de llamada** , haga clic en **DisallowCalling** .
-    2.  En **Directiva de reunión** , haga clic en **AllOff** .
-4. Haga clic en **Aplicar** .
+    1.  En **Directiva de llamada** , haga clic en **DisallowCalling**.
+    2.  En **Directiva de reunión** , haga clic en **AllOff**.
+4. Haga clic en **Aplicar**.
 
 Para asignar una directiva a varios usuarios a la vez:
 
 1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios** , después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
 2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración** , haga los cambios que desee y, a continuación, haga clic en **Aplicar** .
+3. Haga clic en **Editar configuración** , haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
-    - Vaya a **Voice**  >  **directivas de llamadas** de voz y, a continuación, haga clic en **DisallowCalling** .
-    - Vaya a **reuniones**  >  **Meeting Policies** y, a continuación, haga clic en **AllOff** .
-2. Seleccione **Administrar usuarios** .
-3. En el panel **Administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar** . Repita este paso por cada usuario que quiera agregar.
-4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar** .
+    - Vaya a **Voice**  >  **directivas de llamadas** de voz y, a continuación, haga clic en **DisallowCalling**.
+    - Vaya a **reuniones**  >  **Meeting Policies** y, a continuación, haga clic en **AllOff**.
+2. Seleccione **Administrar usuarios**.
+3. En el panel **Administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 #### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
 
@@ -316,27 +315,27 @@ Puede usar el centro de administración de Microsoft Teams o PowerShell para est
 
 Para asignar la Directiva de llamada de AllowCalling y la Directiva de reunión de AllOn a un usuario:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios** .
-2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
+2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. Haga lo siguiente:
-    1.  En **Directiva de llamada** , haga clic en **AllowCalling** .
-    2.  En **Directiva de reunión** , haga clic en **AllOn** .
-4. Haga clic en **Aplicar** .
+    1.  En **Directiva de llamada** , haga clic en **AllowCalling**.
+    2.  En **Directiva de reunión** , haga clic en **AllOn**.
+4. Haga clic en **Aplicar**.
 
 Para asignar una directiva a varios usuarios a la vez:
 
 1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios** , después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
 2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el **&#x2713;** (marca de verificación) en la parte superior de la tabla.
-3. Haga clic en **Editar configuración** , haga los cambios que desee y, a continuación, haga clic en **Aplicar** .
+3. Haga clic en **Editar configuración** , haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
 También puede hacer lo siguiente:
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
-    - Vaya a **Voice**  >  **directivas de llamadas** de voz y, a continuación, haga clic en **AllowCalling** .
-    - Vaya a **reuniones**  >  **Meeting Policies** y, a continuación, haga clic en **AllOn** .
-2. Seleccione **Administrar usuarios** .
-3. En el panel **Administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar** . Repita este paso por cada usuario que quiera agregar.
-4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar** .
+    - Vaya a **Voice**  >  **directivas de llamadas** de voz y, a continuación, haga clic en **AllowCalling**.
+    - Vaya a **reuniones**  >  **Meeting Policies** y, a continuación, haga clic en **AllOn**.
+2. Seleccione **Administrar usuarios**.
+3. En el panel **Administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 #### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
 
@@ -363,7 +362,7 @@ Cuando los usuarios se conectan desde un extremo no admitido, los usuarios está
 - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
 - HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-Para deshabilitar el modo de reserva, establezca el valor en **1** . Para habilitar solo el audio, establezca el valor en **2** . Si el valor no está presente o está establecido en **0** (cero), el modo de reserva está habilitado.
+Para deshabilitar el modo de reserva, establezca el valor en **1**. Para habilitar solo el audio, establezca el valor en **2**. Si el valor no está presente o está establecido en **0** (cero), el modo de reserva está habilitado.
 
 Esta característica está disponible en Teams versión 1.3.00.13565 y posterior.
 
@@ -426,5 +425,5 @@ Después, reinicie VDA. Para obtener más información, consulte este artículo 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Microsoft Teams mediante MSI](msi-deployment.md)
-- [Información general de PowerShell para Teams](teams-powershell-overview.md)
+- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 - [Usar Microsoft Teams en el escritorio virtual de Windows](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)

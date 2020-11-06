@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48878175"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48922446"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -118,7 +118,7 @@ Los usuarios que desea que estén disponibles para marcar por extensión necesit
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-El formato requerido para introducir la extensión en el campo número de teléfono del usuario es *+ <phone number> ext <extension> =* o *+ <phone number> x <extension>*.
+El formato requerido para introducir la extensión en el campo número de teléfono del usuario es *+ \<phone number> ext \<extension> =* o *+ \<phone number> x \<extension>*.
 
 Puede establecer la extensión en el [centro de administración de Microsoft 365](https://admin.microsoft.com/) o en el [centro de administración de Azure Active Directory](https://aad.portal.azure.com). Pueden pasar hasta 12 horas antes de que los cambios estén disponibles para los operadores automáticos y las colas de llamadas.
 

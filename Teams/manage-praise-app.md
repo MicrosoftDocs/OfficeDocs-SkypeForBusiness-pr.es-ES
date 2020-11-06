@@ -8,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Obtenga más información sobre la configuración de administración en la aplicación elogiar en el centro de administración de Microsoft Teams
-ms.openlocfilehash: 27206f48de9c219996f8dcfd631e6640e175fb18
-ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
+ms.openlocfilehash: 4e96355a3b05af2c9df484a2451014fbbaf0e926
+ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48580456"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48929531"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación de elogios en el centro de administración de Microsoft Teams
 
 > [!NOTE]
 > Los administradores deben tener una licencia de Teams para acceder a esta característica. Si intenta obtener acceso a esta característica sin una licencia de Teams, recibirá un mensaje de error.
 
-La aplicación elogiar de Microsoft Teams ayuda a los usuarios a mostrar la apreciación de los miembros de su organización o aula. Con una selección de conjuntos de distintivos entre los que elegir y la opción de crear sus propias insignias, elogiar se ha diseñado para ayudar a reconocer el esfuerzo que entra en la amplia variedad de trabajo que los usuarios de los equipos realizan, desde educadores a los Firstline trabajadores.
+La aplicación elogiar de Microsoft Teams ayuda a los usuarios a mostrar la apreciación de los miembros de su organización o aula. Con una selección de conjuntos de distintivos entre los que elegir y la opción de crear sus propias insignias, elogiar se ha diseñado para ayudar a reconocer el esfuerzo que entra en la amplia variedad de trabajo que los usuarios de los equipos realizan, desde educadores a los Firstline trabajadores. Para obtener más información, consulta [Enviar elogio a personas](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-Los administradores pueden controlar qué tarjetas están disponibles para su organización desde el centro de administración de Teams. En el navegación izquierdo, seleccione **aplicaciones de teams > administrar aplicaciones**. Abra elogiar en el [Catálogo de aplicaciones de inquilino](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)y vaya a **configuración**.
+Los administradores pueden controlar qué tarjetas están disponibles para su organización desde el centro de administración de Microsoft Teams. En el navegación de la izquierda, vaya a **aplicaciones de teams > administrar aplicaciones**. En la lista de aplicaciones, haga clic en **elogiar** y, a continuación, seleccione **configuración**.  Desde aquí, puede elegir habilitar conjuntos de distintivos predeterminados e integrados y crear distintivos personalizados.
+
+![Captura de pantalla de la pestaña Configuración de la aplicación elogiar](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > La característica de la aplicación elogiar no está disponible para las nubes del gobierno de los Estados Unidos.
@@ -51,7 +53,9 @@ Los educadores pueden reconocer a alumnos individuales en cuanto a logros social
 
 ## <a name="create-your-own-badges"></a>Crear tus propias insignias
 
-Cambie el **botón de alternancia** a activado y seleccione **crear un distintivo personalizado**. Desde allí, puedes diseñar un distintivo personalizado en el panel lateral. Puedes crear hasta 25 insignias personalizados. 
+Seleccione **crear un distintivo personalizado**. Desde aquí, puedes diseñar un distintivo personalizado en el panel lateral. Puedes crear hasta 25 insignias personalizados. 
+
+![Captura de pantalla del panel crear un distintivo personalizado](media/manage-praise-app-create-custom-badge.png)
 
 1. Escribe un nombre para el distintivo. Este es el nombre que aparecerá en el distintivo cuando los usuarios envíen elogios.
 
@@ -63,9 +67,9 @@ Cambie el **botón de alternancia** a activado y seleccione **crear un distintiv
 3. Cargar una imagen de notificación. El tipo de archivo aceptado es. PNG. El archivo de imagen debe tener menos de 40 KB de dimensiones máximas de 216 X 216 píxeles.
 ![Distintivo con el fondo, el texto y los campos de imagen etiquetados](media/praise-app-badge-fields.png)
 
-4. Localizar el nombre de tu tarjeta de identificación: en **nombres de tarjetas localizadas**, seleccione **Agregar**. Seleccione la configuración regional deseada de la lista desplegable. A continuación, escribe el nombre del distintivo en el idioma designado.
+4. Localizar el nombre de tu tarjeta de identificación: en **nombres de tarjetas localizadas** , seleccione **Agregar**. Seleccione la configuración regional deseada de la lista desplegable. A continuación, escribe el nombre del distintivo en el idioma designado.
 
-5. Excluir el distintivo de las configuraciones regionales específicas: en **distintivo de exclusión de estas configuraciones regionales**, seleccione **Agregar**. Seleccione las configuraciones regionales que desea excluir de la lista desplegable.
+5. Excluir el distintivo de las configuraciones regionales específicas: en **distintivo de exclusión de estas configuraciones regionales** , seleccione **Agregar**. Seleccione las configuraciones regionales que desea excluir de la lista desplegable.
 
 6. Seleccione **aplicar**. Tu nuevo distintivo aparecerá ahora en la tabla de insignias personalizadas.
 

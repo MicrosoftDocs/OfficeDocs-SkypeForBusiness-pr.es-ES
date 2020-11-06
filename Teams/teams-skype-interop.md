@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Obtenga más información sobre las capacidades de interoperabilidad entre los usuarios de los equipos de su organización y los usuarios de Skype (consumidor).
 localization_priority: Normal
-ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 18031f9d1f4ae9a4e42525f8c722259590349c24
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919042"
+ms.locfileid: "48925432"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interoperabilidad entre equipos y Skype
 
@@ -90,7 +90,10 @@ En el centro de administración de Microsoft Teams, vaya a configuración de acc
 
 ### <a name="using-powershell"></a>Con PowerShell
 
-Use el cmdlet [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) junto con el ```EnablePublicCloudAccess``` parámetro para controlar si los usuarios de Teams pueden comunicarse con los usuarios de Skype. Establecer el parámetro para ```true``` permitir que los usuarios de Teams se comuniquen con usuarios de Skype. Puedes usar el ```EnablePublicCloudAudioVideoAccess``` parámetro para habilitar o deshabilitar las llamadas de audio y vídeo.
+Haga lo siguiente: 
+1. Use el cmdlet [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) junto con el ```EnablePublicCloudAccess``` parámetro para controlar si los usuarios de Teams pueden comunicarse con los usuarios de Skype. Establecer el parámetro para ```true``` permitir que los usuarios de Teams se comuniquen con usuarios de Skype. Puedes usar el ```EnablePublicCloudAudioVideoAccess``` parámetro para habilitar o deshabilitar las llamadas de audio y vídeo.
+
+2. Use el cmdlet [set-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) junto con el ```Provider``` parámetro establecido para ```"WindowsLive"``` que los usuarios de Team puedan comunicarse con los usuarios de Skype.
 
 ## <a name="related-topics"></a>Temas relacionados
 
