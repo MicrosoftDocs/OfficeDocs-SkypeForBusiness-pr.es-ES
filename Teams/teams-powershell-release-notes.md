@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga más información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
+ms.sourcegitcommit: a6c7a0cdbedf6cf32213d7636da52db71b4bac3d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852171"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48937749"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de la versión de Microsoft Teams PowerShell
 
@@ -31,7 +31,7 @@ Esta página proporciona el registro de cambios de PowerShell más reciente de T
 
 | Fecha | Versión | Las |
 |------- | -------------------- | ------------------------------ |
-| 2020 de noviembre | [1.1.7: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Usa MSAL para la autenticación & autorización</li><li>Cmdlets de paquete de directivas refactorizado y agrega asignación de paquete de grupo</li><li>La jerarquía de destino refactorizada carga comandos para usar un modelo asincrónico</li> |
+| 2020 de noviembre | [1.1.7: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Usa MSAL para la autenticación & autorización</li><li>Cmdlets de paquete de directivas refactorizado y agrega asignación de paquete de grupo</li><li>La jerarquía de destino refactorizada carga comandos para usar un modelo asincrónico</li> <li>Se le solicitará al usuario dos veces durante la autenticación inicial cuando no usen el parámetro-Credential. Los usuarios pueden pasar las credenciales con el parámetro-credential para evitar que se dupliquen. Este comportamiento se corregirá en la próxima versión.</li> |
 | 2020 de septiembre | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Integración del conector de Skype empresarial online</li> |
 | 2020 de septiembre | [1.1.5: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Integración del conector de Skype empresarial online</li> |
 | 2020 de julio | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Se han agregado [cmdlets de asignación de directiva de grupo](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
