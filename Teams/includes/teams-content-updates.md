@@ -3,10 +3,76 @@
 
 
 
-## <a name="week-of-october-26-2020"></a>Semana del 26 de octubre de 2020
+## <a name="week-of-november-02-2020"></a>Semana del 02 de noviembre de 2020
 
 
 | Fecha de publicación |Título del tema | Change |
+|------|------------|--------|
+| 11/2/2020 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 11/2/2020 | [Administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | modificado |
+| 11/2/2020 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
+| 11/2/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
+| 11/3/2020 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 11/3/2020 | [Planear el enrutamiento directo](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 11/3/2020 | [Paquetes de directivas de Teams para el cuidado de la salud](/MicrosoftTeams/policy-packages-healthcare) | modificado |
+| 11/3/2020 | [Versión preliminar pública para Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modificado |
+| 11/3/2020 | [Administrar equipos con Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-managing-teams) | modificado |
+| 11/3/2020 | [Información general de Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-overview) | modificado |
+| 11/3/2020 | [Notas de la versión de Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+| 11/3/2020 | [Azure Sentinel y Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | modificado |
+| 11/3/2020 | [Cómo implementar Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | modificado |
+| 11/3/2020 | [Recursos de aprendizaje de administración-Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
+| 11/3/2020 | [Inicio rápido: Administradores de Microsoft Teams para el ámbito educativo](/MicrosoftTeams/teams-quick-start-edu) | modificado |
+| 11/3/2020 | [¿Qué es Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice) | modificado |
+| 11/3/2020 | [Voz en Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modificado |
+| 11/3/2020 | [Llamadas y chats con usuarios de otras organizaciones](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
+| 11/3/2020 | [Chat, equipos, canales y aplicaciones en Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modificado |
+| 11/3/2020 | [Enrutamiento directo del Sistema telefónico](/MicrosoftTeams/direct-routing-landing-page) | modificado |
+| 11/3/2020 | [Introducción a Teams para organizaciones de cuidado de la salud](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
+| 11/3/2020 | [Turnos para Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | modificado |
+| 11/3/2020 | [Guía de inicio rápido de los Firstline Worker](/MicrosoftTeams/firstline-workers-quickstart) | modificado |
+| 11/3/2020 | [Curso de aprendizaje dirigido por un instructor para Microsoft Teams # < 60 caracteres](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
+| 11/3/2020 | [Inicio rápido de administrador: Reuniones y eventos en directo en Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modificado |
+| 11/3/2020 | [Salas de reuniones virtuales de Microsoft Teams](/MicrosoftTeams/rooms/index) | modificado |
+| 11/3/2020 | [Información general de seguridad y cumplimiento](/MicrosoftTeams/security-compliance-overview) | modificado |
+| 11/3/2020 | [Cómo usa Microsoft Teams la memoria](/MicrosoftTeams/teams-memory-usage-perf) | modificado |
+| 11/3/2020 | [Aprendizaje para administradores de Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | modificado |
+| 11/3/2020 | [Actualización de Skype empresarial a teams-Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | modificado |
+| 11/4/2020 | [Usar Power BI para analizar los datos del CQD para Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modificado |
+| 11/4/2020 | [Cargar inquilino y datos de compilación en el panel de calidad de llamadas (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | modificado |
+| 11/4/2020 | [Asignar directivas a los usuarios de Microsoft Teams](/MicrosoftTeams/assign-policies) | modificado |
+| 11/4/2020 | [Acceso telefónico de audioconferencias/llamarme a minutos](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modificado |
+| 11/4/2020 | [Planes de llamadas para Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modificado |
+| 11/4/2020 | [Período gratuito de aceptación de llamadas](/MicrosoftTeams/complimentary-dial-out-period) | modificado |
+| 11/4/2020 | [Operador automático y referencia de la cola de llamadas y reconocimiento de voz](/MicrosoftTeams/dial-voice-reference) | modificado |
+| 11/4/2020 | [Guía de inicio rápido de los Firstline Worker](/MicrosoftTeams/firstline-workers-quickstart) | modificado |
+| 11/4/2020 | [Administrar paquetes de directivas en Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 11/4/2020 | [Administrar configuración de reuniones](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+| 11/4/2020 | [Restricciones de llamadas salientes: Conferencia de audio & llamadas RTC](/MicrosoftTeams/outbound-calling-restriction-policies) | modificado |
+| 11/4/2020 | [Planear los operadores automáticos de Teams y las colas de llamadas](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+| 11/4/2020 | [Directivas de Microsoft Teams y paquetes de directivas para administradores de EDU](/MicrosoftTeams/policy-packages-edu) | modificado |
+| 11/4/2020 | [Paquetes de directivas de Teams para administración pública](/MicrosoftTeams/policy-packages-gov) | modificado |
+| 11/4/2020 | [Paquetes de directivas de Teams para el cuidado de la salud](/MicrosoftTeams/policy-packages-healthcare) | modificado |
+| 11/4/2020 | [Introducción a la grabación basada en directivas de Teams para llamar & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
+| 11/4/2020 | [Configurar el panel de calidad de llamadas (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
+| 11/4/2020 | [Autorizar el acceso de invitado en Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modificado |
+| 11/4/2020 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 11/4/2020 | [Administrar etiquetas en Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
+| 11/4/2020 | [Interoperabilidad entre equipos y Skype](/MicrosoftTeams/teams-skype-interop) | modificado |
+| 11/5/2020 | [Administrar la aplicación de elogios en el centro de administración de Teams](/MicrosoftTeams/manage-praise-app) | modificado |
+| 11/5/2020 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 11/5/2020 | [Interoperabilidad entre equipos y Skype](/MicrosoftTeams/teams-skype-interop) | modificado |
+| 11/5/2020 | [Administración de números de teléfono para Estados Unidos](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modificado |
+| 11/5/2020 | [Incorporar compatibilidad con Microsoft Teams](/MicrosoftTeams/teams-adoption-onboard-support) | modificado |
+| 11/6/2020 | [Descripción de las llamadas en Microsoft Teams](/MicrosoftTeams/tutorial-calling-in-teams) | modificado |
+| 11/6/2020 | [Iniciar sesión en Microsoft Teams con la autenticación moderna](/MicrosoftTeams/sign-in-teams) | modificado |
+| 11/6/2020 | [Notas de la versión de Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+
+
+## <a name="week-of-october-26-2020"></a>Semana del 26 de octubre de 2020
+
+
+| Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
 | 10/26/2020 | [Planear los operadores automáticos de Teams y las colas de llamadas](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
 | 10/26/2020 | [Preguntas frecuentes sobre la actualización de Skype Empresarial a Teams](/MicrosoftTeams/faq-journey) | modificado |
@@ -140,7 +206,7 @@
 | 10/22/2020 | [Período gratuito de aceptación de llamadas](/MicrosoftTeams/complimentary-dial-out-period) | modificado |
 | 10/22/2020 | [Guía de inicio rápido-configurar planes de llamadas](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | modificado |
 | 10/22/2020 | [Administrar la configuración de su organización](/MicrosoftTeams/enable-features-office-365) | modificado |
-| 10/22/2020 | [Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modificado |
+| 10/22/2020 | [Inicio rápido de administrador: Reuniones y eventos en directo en Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modificado |
 | 10/22/2020 | [Administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | modificado |
 | 10/22/2020 | [Introducción a la grabación basada en directivas de Teams para llamar & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
 | 10/22/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
@@ -303,112 +369,3 @@
 | 10/9/2020 | [Requisitos de hardware para Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
 | 10/9/2020 | [Plan para la administración en Teams - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modificado |
 | 10/9/2020 | [Planear la administración del ciclo de vida](/MicrosoftTeams/plan-teams-lifecycle) | modificado |
-
-
-## <a name="week-of-september-28-2020"></a>Semana del 28 de septiembre de 2020
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 9/28/2020 | [Crear una plantilla de equipo personalizada en Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modificado |
-| 9/28/2020 | [Crear una plantilla a partir de un equipo existente en Microsoft Teams](/MicrosoftTeams/create-template-from-existing-team) | modificado |
-| 9/28/2020 | [Crear una nueva plantilla a partir de una plantilla de equipo existente en Microsoft Teams](/MicrosoftTeams/create-template-from-existing-template) | modificado |
-| 9/28/2020 | [Usar las plantillas de Healthcare de Teams en la consola de administración](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modificado |
-| 9/28/2020 | [Plantillas para organizaciones de salud](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | modificado |
-| 9/28/2020 | [Introducción a las plantillas financieras de Teams mediante la consola de administración](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | modificado |
-| 9/28/2020 | [Usar plantillas generales de Teams en la consola de administración](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | modificado |
-| 9/28/2020 | [Introducción a las plantillas comerciales de Teams](/MicrosoftTeams/get-started-with-retail-teams-templates) | modificado |
-| 9/28/2020 | [Usar plantillas de Teams para crear un nuevo equipo](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
-| 9/28/2020 | [Introducción a las plantillas de Teams con Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | modificado |
-| 9/28/2020 | [Usar las plantillas gubernamentales de Teams en la consola de administración](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | modificado |
-| 9/28/2020 | [Introducción a teams Manufacturing templates en la consola de administración](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modificado |
-| 9/28/2020 | [Usar las plantillas comerciales de Teams en la consola de administración](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | modificado |
-| 9/28/2020 | [Configurar la licencia telefónica de área común](/MicrosoftTeams/set-up-common-area-phones) | modificado |
-| 9/28/2020 | [Plantillas de Teams para pequeñas y medianas empresas creadas con Microsoft Graph](/MicrosoftTeams/smb-templates) | modificado |
-| 9/28/2020 | [Administrar la detección de equipos privados en Microsoft Teams](/MicrosoftTeams/manage-discovery-of-private-teams) | modificado |
-| 9/28/2020 | [Administrar directivas de Teams en Microsoft Teams](/MicrosoftTeams/teams-policies) | modificado |
-| 9/29/2020 | [Administrar la topología de red para las características de voz en la nube en Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | modificado |
-| 9/29/2020 | [Voz en Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modificado |
-| 9/29/2020 | [Crear una plantilla de equipo personalizada en Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modificado |
-| 9/29/2020 | [Crear una plantilla a partir de un equipo existente en Microsoft Teams](/MicrosoftTeams/create-template-from-existing-team) | modificado |
-| 9/29/2020 | [Crear una nueva plantilla a partir de una plantilla de equipo existente en Microsoft Teams](/MicrosoftTeams/create-template-from-existing-template) | modificado |
-| 9/29/2020 | [Usar las plantillas de Healthcare de Teams en la consola de administración](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modificado |
-| 9/29/2020 | [Usar plantillas generales de Teams en la consola de administración](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | modificado |
-| 9/29/2020 | [Usar plantillas de Teams para crear un nuevo equipo](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
-| 9/29/2020 | [Usar las plantillas gubernamentales de Teams en la consola de administración](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | modificado |
-| 9/29/2020 | [Documentación del administrador de Microsoft Teams # < 60 caracteres](/MicrosoftTeams/index) | modificado |
-| 9/29/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 9/29/2020 | [Introducción a teams Manufacturing templates en la consola de administración](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modificado |
-| 9/29/2020 | [Administrar directivas de reunión](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
-| 9/29/2020 | [Usar las plantillas comerciales de Teams en la consola de administración](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | modificado |
-| 9/29/2020 | [Autenticación en salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | modificado |
-| 9/29/2020 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
-| 9/29/2020 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 9/29/2020 | [Usar NDI en Microsoft Teams](/MicrosoftTeams/use-ndi-in-meetings) | modificado |
-| 9/30/2020 | [Preguntas frecuentes sobre la actualización de Skype Empresarial a Teams](/MicrosoftTeams/faq-journey) | modificado |
-| 9/30/2020 | [Disponibilidad en Austria](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | modificado |
-| 9/30/2020 | [Disponibilidad en Bélgica](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium) | modificado |
-| 9/30/2020 | [Disponibilidad en Dinamarca](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark) | modificado |
-| 9/30/2020 | [Disponibilidad en Francia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | modificado |
-| 9/30/2020 | [Disponibilidad en Alemania](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | modificado |
-| 9/30/2020 | [Disponibilidad en Italia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | modificado |
-| 9/30/2020 | [Disponibilidad en Portugal](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal) | modificado |
-| 9/30/2020 | [Disponibilidad en Suecia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | modificado |
-| 9/30/2020 | [Disponibilidad en Suiza](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | modificado |
-| 9/30/2020 | [Disponibilidad de país o región: audioconferencia, planes de llamadas](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modificado |
-| 9/30/2020 | [Administrar los números de teléfono de la organización](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Australia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Bélgica](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Canadá](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Francia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Alemania](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Irlanda](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Japón](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para España](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Países Bajos](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para el Reino Unido](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | modificado |
-| 9/30/2020 | [Administración de números de teléfono para Estados Unidos](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modificado |
-| 9/30/2020 | [Complemento de comunicaciones avanzadas para Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modificado |
-| 9/30/2020 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
-| 9/30/2020 | [Usar PowerShell para configurar directivas de eventos en directo](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | modificado |
-| 9/30/2020 | [Introducción a la grabación basada en directivas de Teams para llamar & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
-| 9/30/2020 | [Restricciones y limitaciones de marcado de número gratuito](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | modificado |
-| 9/30/2020 | [Restricciones de marcado de número gratuito en Dinamarca](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark) | modificado |
-| 9/30/2020 | [Restricciones de marcado de número gratuito en Portugal](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal) | modificado |
-| 9/30/2020 | [Restricciones de marcado de número gratuito en Suecia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden) | modificado |
-| 9/30/2020 | [Cumplimiento de la comunicación con Microsoft Teams](/MicrosoftTeams/communication-compliance) | modificado |
-| 9/30/2020 | [Administrar la aplicación de elogios en el centro de administración de Teams](/MicrosoftTeams/manage-praise-app) | modificado |
-| 9/30/2020 | [Notas de la versión](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
-| 9/30/2020 | [Licencias de complemento de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modificado |
-| 9/30/2020 | [Actualizar a teams desde una implementación local de Skype empresarial-Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-considerations) | modificado |
-| 9/30/2020 | [Actualizar a teams desde una implementación local de Skype empresarial-Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | modificado |
-| 9/30/2020 | [Actualizar a teams desde una implementación local de Skype empresarial-Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | modificado |
-| 10/1/2020 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
-| 10/1/2020 | [Exportar contenido con las API de exportación de Microsoft Teams](/MicrosoftTeams/export-teams-content) | modificado |
-| 10/1/2020 | Usar PowerShell para controlar el acceso de invitado a un equipo | eliminado |
-| 10/1/2020 | [Requisitos de hardware para Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
-| 10/1/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 10/1/2020 | [Active o desactive el acceso de invitado a Microsoft Teams](/MicrosoftTeams/set-up-guests) | modificado |
-| 10/1/2020 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 10/1/2020 | [Ver permisos de aplicación y conceder consentimiento de administrador en el centro de administración de Microsoft Teams](/MicrosoftTeams/app-permissions-admin-center) | modificado |
-| 10/1/2020 | [Administrar las aplicaciones en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
-| 10/1/2020 | [Notas de la versión de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
-| 10/1/2020 | [Compatibilidad con versiones](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modificado |
-| 10/1/2020 | [Formación de administradores de Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | modificado |
-| 10/1/2020 | [Usar NDI en Microsoft Teams](/MicrosoftTeams/use-ndi-in-meetings) | modificado |
-| 10/2/2020 | [Recursos de aprendizaje de administración-Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
-| 10/2/2020 | [Requisitos de hardware para Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
-| 10/2/2020 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 10/2/2020 | [¿Qué son los Créditos de comunicaciones?](/MicrosoftTeams/what-are-communications-credits) | modificado |
-| 10/2/2020 | [Autorizar el acceso de invitado en Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modificado |
-| 10/2/2020 | [Agregar un invitado a un equipo](/MicrosoftTeams/add-guests) | modificado |
-| 10/2/2020 | [Editar información del usuario invitado](/MicrosoftTeams/edit-guests-information) | modificado |
-| 10/2/2020 | [Acceso de invitado en Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
-| 10/2/2020 | [Experiencia de invitado en Microsoft Teams](/MicrosoftTeams/guest-experience) | modificado |
-| 10/2/2020 | Cómo se une un invitado a un equipo | eliminado |
-| 10/2/2020 | Administrar el acceso de invitado en Microsoft Teams | eliminado |
-| 10/2/2020 | [Administración de números de teléfono para Bélgica](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modificado |
-| 10/2/2020 | [Active o desactive el acceso de invitado a Microsoft Teams](/MicrosoftTeams/set-up-guests) | modificado |
-| 10/2/2020 | [Usar OneDrive y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 10/2/2020 | [Solucionar problemas con el acceso de invitados en Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | modificado |
-| 10/2/2020 | [Ver los usuarios invitados de un equipo](/MicrosoftTeams/view-guests) | modificado |
