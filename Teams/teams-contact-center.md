@@ -13,12 +13,12 @@ f1.keywords:
 description: Información general de la solución centro de contacto integrado como servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c763139a7ccadbf855bb766a05092a98ed03b0
-ms.sourcegitcommit: 339e36d24e5ef9940b7fcf43dcf6f31acf22dd69
+ms.openlocfilehash: ee029be0d3d908820a4bf9f7cdabdb03c9e6ec83
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948241"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988307"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del centro de contactos para Microsoft Teams
 
@@ -54,7 +54,7 @@ Los siguientes socios están en el proceso de certificar su solución para Micro
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
-| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 

@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Acceso telefónico y llamarme al beneficio de minutos. A partir del 1 de diciembre de 2019, cada suscripción de audioconferencia proporciona 60 minutos por usuario para el zoning de países.
-ms.openlocfilehash: a7834b279b5e4246d3233405c1ab0a87df21ff8f
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 0f5b4ea3dd59e4a6a9c957f4ec397c9ceb5cc660
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908499"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993466"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Beneficios de la suscripción de audioconferencias de "acceso telefónico local"/"llamarme al"
 
@@ -67,10 +67,27 @@ Considere el ejemplo siguiente. Un cliente ha comprado 115 licencias de suscripc
 - Todas las llamadas de acceso telefónico que superen los 6.900 minutos por mes del calendario se cobran por minuto usando créditos de comunicaciones de nuestras tarifas publicadas para ese destino. (Nota: el cliente debe configurar [créditos de comunicaciones](what-are-communications-credits.md) y asignar la licencia de créditos para comunicaciones al organizador de la reunión).
 - Todas las llamadas de llamada a destinos que no se encuentren en la zona de los [países y las regiones](audio-conferencing-zones.md) se cobran por minuto con las tarifas publicadas en nuestras tarifas publicadas (siempre que el cliente haya configurado créditos en las comunicaciones y haya asignado la licencia de créditos de comunicaciones al organizador de la reunión).
 
-## <a name="how-can-i-monitor-minute-pool-usage"></a>¿Cómo puedo supervisar el uso del grupo de minutos?
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>¿Cómo puedo controlar el uso de la agrupación por minuto?
 
-- Puede supervisar el uso de su grupo de minutos de aceptación de llamada en el centro de administración de Skype empresarial "heredado". En el centro de administración de Microsoft Teams, vaya a informes de **portales heredados** de  >  **Reports**  >  **minutos RTC**. La zona a la que se asignará un grupo de minutos de salida de llamada en el informe como "llamadas salientes a un país de la zona a".
-- Las notificaciones por correo electrónico se enviarán a todos los administradores de inquilinos de un cliente dado cuando la utilización del grupo de minutos de llamadas salientes del inquilino haya alcanzado el 80% y el 100%.
+- En el centro de administración de Microsoft Teams, puede supervisar el uso en relación con el grupo de minutos de llamadas salientes. En el navegación de la izquierda, vaya a **Analytics &** informes  >  de **uso** de informes y, a continuación, seleccione **grupos de minutos RTC**. La zona a la que se asignará un grupo de minutos de salida de llamada en el informe como "llamadas salientes a un país de la zona a".
+- Las notificaciones por correo electrónico se enviarán a los siguientes administradores cuando la utilización del grupo de minutos de llamadas salientes de su organización haya alcanzado el 80 por ciento y el 100 por ciento:
+
+  - Administrador de facturación
+  - Administrador de Skype empresarial
+  - Administrador de la empresa
+  - Administrador de la cuenta de usuario
+  - Administrador del servicio de asistencia
+  - Administrador de soporte técnico de servicio
+  - Administradores de dispositivos
+  - Administrador de la aplicación
+  - Administrador de licencias
+  - Administrador de dispositivos en la nube
+  - Administrador de autenticación
+  - Administrador de autenticación privilegiado
+  - Administrador de comunicaciones de Teams
+  - Ingeniero de soporte en comunicaciones de Teams
+  - Especialista de soporte técnico de comunicaciones de Teams
+  - Administrador de servicios de Teams
 
 Para obtener más información sobre créditos de comunicación, consulte [créditos de comunicaciones](what-are-communications-credits.md).
 

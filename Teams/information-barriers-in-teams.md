@@ -16,12 +16,12 @@ description: En este artículo, se explica qué son las barreras de información
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508357"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988327"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -44,7 +44,7 @@ Sin embargo, dado que la introducción de las barreras de la información, mucha
 - Educación: los alumnos de una escuela no pueden buscar detalles de contacto de estudiantes de otros centros escolares.
 - Oficio: mantenimiento de la confidencialidad de los datos obtenidos por el abogado de un cliente, desde el acceso a un abogado por la misma empresa que representa a un cliente diferente.
 - Gobierno: el acceso a la información y el control están limitados en todos los departamentos y grupos.
-- Servicios profesionales: un grupo de personas de una empresa solo puede chatear con un cliente o cliente específico a través de la Federación o el acceso de invitados durante el compromiso de un cliente.
+- Servicios profesionales: un grupo de personas de una empresa solo puede chatear con un cliente o cliente específico a través de un acceso de invitado durante el compromiso de un cliente.
 
 Por ejemplo, Enrico pertenece al segmento bancario y Pradeep pertenece al segmento de asesores financieros. Enrico y Pradeep no se pueden comunicar entre sí porque la Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos. Sin embargo, Enrico y Pradeep pueden comunicarse con Lee en HR.
 
@@ -169,7 +169,7 @@ Actualmente, los usuarios experimentan los siguientes escenarios si una directiv
 
 Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia a Microsoft Teams para la experiencia de los archivos. Las directivas de barrera de información no se admiten en este sitio de SharePoint y archivos de forma predeterminada. Para habilitar las directivas de la barrera de información, el administrador ya ha rellenado un formulario, solicitando que las directivas de IB estén habilitadas en SharePoint y OneDrive (consulte la sección *requisitos previos* en [barreras de información](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Si la Directiva de barrera de información está activada en SharePoint y OneDrive, las directivas IB funcionarán en los sitios de SharePoint que se aprovisionan cuando se crea un equipo con Microsoft Teams.
 
-**Ejemplo de las políticas de IB en el sitio de SharePoint de un equipo**: en Contoso Bank Corporation, el usuario ' Sesha@contosobank.onmicrosoft.com ' pertenece al segmento de banca de inversiones y el usuario ' Nikita@contosobank.onmicrosoft.com ' pertenece a asesoramiento de segmentos. La Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos.
+**Ejemplo de las políticas de IB en el sitio de SharePoint de un equipo** : en Contoso Bank Corporation, el usuario ' Sesha@contosobank.onmicrosoft.com ' pertenece al segmento de banca de inversiones y el usuario ' Nikita@contosobank.onmicrosoft.com ' pertenece a asesoramiento de segmentos. La Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos.
 Cuando la Sesha de usuario crea un equipo para el segmento de banca de inversiones, el equipo y el sitio de SharePoint que los respalda solo serán accesibles para los usuarios del segmento de banca de inversión. Los usuarios no pueden acceder a ese sitio, incluso si tiene el vínculo a Nikita.
 
 Para obtener más información, consulta el artículo [sobre las barreras de información](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) .
@@ -179,7 +179,9 @@ Para obtener más información, consulta el artículo [sobre las barreras de inf
 Para obtener más información, incluidos planes y precios, consulte [Guía de licencias](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Problemas conocidos
-- **Los usuarios no pueden unirse a reuniones**: si las directivas de IB están habilitadas, los usuarios no podrán unirse a las reuniones si el tamaño de la lista de la reunión es superior a los [límites de asistencia](limits-specifications-teams.md)de la reunión. La causa principal es que IB comprueba si los usuarios se pueden agregar a una lista de chat de reuniones y toma esa señal para permitir que los usuarios se unan a las reuniones. Unirse a una reunión una vez agregará ese usuario a la lista, por lo tanto, para reuniones periódicas, la lista se rellenará rápidamente. Una vez que llega a los [límites de asistencia](limits-specifications-teams.md)a la reunión, no se permite agregar más usuarios a la lista de chats de reuniones. Si se habilita IB, los usuarios no podrán unirse a la reunión, pero si IB no está habilitada, los usuarios podrán unirse a la reunión, aunque no se agregarán a la lista de chat de la reunión. Una solución a corto plazo es quitar miembros inactivos de la lista de chats de reuniones para hacer espacio para nuevos usuarios. Sin embargo, el tamaño de las listas de reuniones de reunión se incrementará en una fecha posterior.
+- **Los usuarios no pueden unirse a reuniones ad-hoc** : si las directivas de IB están habilitadas, los usuarios no podrán unirse a las reuniones si el tamaño de la lista de reuniones es superior al [límite de asistencia](limits-specifications-teams.md)de la reunión. La causa principal es que IB comprueba si los usuarios se pueden agregar a una lista de chat de reuniones y toma esa señal para permitir que los usuarios se unan a las reuniones. Unirse a una reunión una vez agregará ese usuario a la lista, por lo tanto, para reuniones periódicas, la lista se rellenará rápidamente. Una vez que llega a los [límites de asistencia](limits-specifications-teams.md)a la reunión, no se permite agregar más usuarios a la lista de chats de reuniones. Si IB está habilitado para el espacio empresarial y la lista de chat está completa para una reunión, los usuarios nuevos (que no estén en la lista) no podrán unirse a la reunión. Pero si IB no está habilitado para el inquilino y la lista de chats de la reunión está completa, los nuevos usuarios (que no estén en la lista) podrán unirse a la reunión, aunque no verán la opción de chat en la reunión. Una solución a corto plazo es quitar miembros inactivos de la lista de chats de reuniones para hacer espacio para nuevos usuarios. Sin embargo, el tamaño de las listas de reuniones de reunión se incrementará en una fecha posterior.
+
+- **Los usuarios no pueden unirse a reuniones de canal** : si las directivas de IB están habilitadas, los usuarios no podrán unirse a reuniones de canal si no son miembros del equipo. La causa principal es que IB comprueba si los usuarios se pueden agregar a una lista de chat de reuniones y toma esa señal para permitir que los usuarios se unan a las reuniones. La conversación de chat en una reunión de canal solo está disponible para miembros de equipo/canal, y los usuarios que no sean miembros no pueden ver ni acceder al hilo de chat. Si IB está habilitado para el inquilino y un miembro ajeno al equipo intenta unirse a una reunión de canal, el usuario no puede unirse a la reunión. Pero si IB no está habilitado para el inquilino y un miembro ajeno al equipo intenta unirse a una reunión de canal, el usuario puede unirse a la reunión, pero no verá la opción de chat en la reunión.
 
 ## <a name="more-information"></a>Más información
 

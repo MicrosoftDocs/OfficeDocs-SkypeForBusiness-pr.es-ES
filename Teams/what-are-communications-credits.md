@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 11777ccfd8ed3aa6cbfca14c2c8a507373230425
-ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
+ms.openlocfilehash: 60c80f9eac7aac4f024f8517690227a507501efd
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341094"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993456"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -36,7 +36,7 @@ Los créditos de comunicaciones son una forma cómoda de pagar las conferencias 
     
 - Llamar desde una reunión de conferencia de audio para agregar a otra persona desde cualquier lugar del mundo.
     
-- Llamar desde una reunión de audioconferencia a su teléfono móvil con la aplicación Skype empresarial o Microsoft Teams instalada en destinos que no estén incluidos en su suscripción.
+- Llamar desde una reunión de audioconferencia a su teléfono móvil con la aplicación Microsoft Teams o la aplicación Skype empresarial instalada en destinos que no estén incluidos en su suscripción.
     
 - Marca cualquier número de teléfono internacional cuando tienes **planes de plan de llamadas nacionales** .
     
@@ -56,7 +56,7 @@ Si se está preguntando cuál es el costo de las llamadas para los planes de lla
   
 ## <a name="what-is-it"></a>¿Qué es?
 
-Para usar números gratuitos en Skype empresarial, se necesitan créditos de comunicaciones, ya que estas llamadas se cobran por minuto. Además, le recomendamos que configure créditos de comunicaciones para el plan de llamadas y los usuarios de las conferencias de audio que necesiten poder llamar a **cualquier destino de RTC**. Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en su plan de llamadas o suscripciones de audioconferencia. Si no configura créditos de comunicaciones o asigna una licencia a los usuarios y ejecuta minutos para su organización (dependiendo de su plan de llamadas, de audio o de su país o región), esos usuarios no podrán hacer llamadas ni llamar desde reuniones de conferencias de audio en línea.
+Para usar números gratuitos, se requieren créditos de comunicaciones, ya que estas llamadas se cobran por minuto. Además, le recomendamos que configure créditos de comunicaciones para el plan de llamadas y los usuarios de las conferencias de audio que necesiten poder llamar a **cualquier destino de RTC**. Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en su plan de llamadas o suscripciones de audioconferencia. Si no configura créditos de comunicaciones o asigna una licencia a los usuarios y ejecuta minutos para su organización (dependiendo de su plan de llamadas, de audio o de su país o región), esos usuarios no podrán hacer llamadas ni llamar desde reuniones de conferencias de audio en línea.
   
 > [!NOTE]
 > Debe configurar créditos de comunicaciones y, a continuación, asignar una licencia de créditos de comunicaciones para cada usuario del **centro de administración de Microsoft 365**  >  **usuarios**  >  **activos**. Las licencias de créditos de comunicaciones aparecerán como ilimitadas, ya que se usan para conceder acceso al saldo de los créditos de comunicaciones de cualquier usuario al que asigne la licencia de créditos de comunicaciones.
@@ -66,15 +66,37 @@ Se recomienda que evalúe detenidamente el uso del servicio de RTC de su organiz
 Puede configurar la facturación del consumo mediante una **financiación única** del saldo de prepago **o** mediante la configuración de un monto de **recarga automática** ( **recomendado** ) con un saldo mínimo que desencadenará una compra para ese monto de recarga. Al principio, se recomienda establecer importes de recarga automática que le permitan controlar el uso real para establecer los límites de recarga automática que se ajusten a sus necesidades y patrones de uso. Los créditos de comunicaciones deberían controlarse a lo largo del tiempo y ajustar el saldo mínimo y los cargos de recarga según sea necesario para adaptarse a las necesidades de cada organización.
   
 > [!NOTE]
-> Puede ver los planes y los precios [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación**para  >  **Subscriptions**  >  **Agregar suscripciones**. 
+> Puede ver los planes y los precios [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación** para  >  **Subscriptions**  >  **Agregar suscripciones**. 
   
-En el **centro de administración de Microsoft 365**  >  Complementos de**facturación**de  >  **servicios de compra**  >  **Add Ons** , puede seleccionar créditos de comunicación para agregar los créditos, y puede Agregar crédito manualmente en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si opta por financiar el saldo de su crédito de comunicaciones con un monto de una sola vez y, a continuación, el saldo es cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, te recomendamos que uses la configuración de la **recarga automática** para evitar que se interrumpa el servicio porque el saldo del crédito de las comunicaciones alcanza el valor 0 (cero). Se le enviarán mensajes de correo electrónico a todos los usuarios con roles de administrador globales, de facturación y de equipo, cuando se recargan las transacciones, se producen errores en las transacciones de recarga (como una tarjeta de crédito vencida) y o el saldo de sus créditos de comunicaciones alcanza el valor 0 (cero). También puede ver el saldo actual de su crédito de comunicación yendo a **facturación**  >  **de productos**  >  **créditos de comunicaciones**.
+En el **centro de administración de Microsoft 365**  >  Complementos de **facturación** de  >  **servicios de compra**  >  **Add Ons** , puede seleccionar créditos de comunicación para agregar los créditos, y puede Agregar crédito manualmente en cualquier momento. Además, puede habilitar la opción de **recarga automática** para rellenar la cuenta de forma automática cuando el saldo sea inferior al límite fijado. Si opta por financiar el saldo de su crédito de comunicaciones con un monto de una sola vez y, a continuación, el saldo es cero, los escenarios de llamadas adicionales anteriores ya no funcionarán, incluidos los números de teléfono gratuitos. Por lo tanto, te recomendamos que uses la configuración de la **recarga automática** para evitar que se interrumpa el servicio porque el saldo del crédito de las comunicaciones alcanza el valor 0 (cero). Para ver el saldo actual de su crédito de comunicación, vaya a **facturación**  >  **de productos**  >  **créditos de comunicaciones**.
+
+> [!NOTE]
+>Se le enviarán mensajes de correo electrónico a **todos los usuarios** con el administrador de servicios de Lync, administrador de la empresa, administrador de facturación, administrador de la compañía, administrador de la cuenta del Departamento de soporte técnico, administrador de soporte técnico, administrador de facturación, administrador de servicios de Lync, administradores de dispositivos, administrador de aplicaciones, administrador de licencias, administrador de dispositivos en la nube, administrador de autenticación, administrador de autenticación privilegiada, administrador de comunicaciones de la organización, Ingeniero de soporte técnico de comunicaciones de equipos, especialista de soporte de comunicaciones de equipo, roles de administrador de administrador de servicios de equipo, cuando se realizan transacciones de recarga, se produce un error
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
-Cada organización tendrá un uso diferente de los planes de llamadas: el volumen y las tarifas a tener en cuenta. You will need to get this type of usage data from your current service provider. Para las organizaciones que usan Skype empresarial como proveedor de servicios, puede obtener los datos de uso si los revisan en los informes del **centro de administración de Microsoft 365**  >  **Reports** o en el **centro de administración de Skype empresarial para**obtener  >  **Reports**  >  **información sobre el uso de RTC**.
+Cada organización tendrá un uso diferente de los planes de llamadas: el volumen y las tarifas a tener en cuenta. You will need to get this type of usage data from your current service provider. En el caso de las organizaciones que usan equipos que ya tienen el proveedor de servicios, puede obtener los datos de uso en el centro de administración de Microsoft Teams > **análisis &** informes de  >  **uso** de informes y, después, seleccione **uso de RTC**.
   
-Al configurar créditos de comunicaciones, tendrá que investigar el uso de las llamadas de su organización para determinar los montos que necesitará incluir. Puede obtener la información del uso de llamadas en el informe **Detalles de uso de RTC**. Este informe le permite exportar los registros de datos de llamadas a Excel y crear informes personalizados.
+Al configurar créditos de comunicaciones, tendrá que investigar el uso de las llamadas de su organización para determinar los montos que necesitará incluir. Para obtener información sobre el uso de llamadas, consulte el informe de uso de RTC. Este informe le permite exportar los registros de datos de llamadas a Excel y crear informes personalizados.
+
+Las notificaciones importantes relacionadas con el saldo de crédito de comunicaciones de su organización se enviarán a los siguientes administradores:
+
+- Administrador de facturación
+- Administrador de Skype empresarial
+- Administrador de la empresa
+- Administrador de la cuenta de usuario
+- Administrador del servicio de asistencia
+- Administrador de soporte técnico de servicio
+- Administradores de dispositivos
+- Administrador de la aplicación
+- Administrador de licencias
+- Administrador de dispositivos en la nube
+- Administrador de autenticación
+- Administrador de autenticación privilegiado
+- Administrador de comunicaciones de Teams
+- Ingeniero de soporte en comunicaciones de Teams
+- Especialista de soporte técnico de comunicaciones de Teams
+- Administrador de servicios de Teams
 
 > [!NOTE]
 > Los créditos de comunicaciones también se usan para números con tarifas especiales. La persona que llama paga los cargos.
@@ -100,7 +122,8 @@ También puede ver información sobre [los precios iniciando sesión en el centr
 Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="related-topics"></a>Temas relacionados
-[Informe de uso de RTC de Skype Empresarial](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+
+[Informe de uso de RTC de Teams](teams-analytics-and-reports/pstn-usage-report.md)
 
   
  
