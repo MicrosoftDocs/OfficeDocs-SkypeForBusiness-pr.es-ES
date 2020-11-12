@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Administrador puede saber qué controladores de borde de sesión (SBCs) se han certificado para el enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45695462228ad675add26eeb9cad74dfed72f616
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 0d5671740e5ecf64bb676f222625c2ee42e78347
+ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778873"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999254"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -79,6 +79,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                 |     Elemento de borde unificado (cubo) de Cisco para enrutadores de servicios de agregación de la serie 1000      |     &#10004;   |  |      IOS XE Amsterdam 17.2.1 r      |    <ul> <li> [Enrutamiento de ubicación dinámica de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia de entrada de entrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de entrada (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borde de sesión de Avaya para la empresa (ASBCE)    |     &#10004;     |           |       Liberar 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de borde de sesión Nokia    |     &#10004;     |           |       19,5 (1908)       |     |    | 
+|                     [Italtel](https://www.italtel.com/)|    CI de NetMatch-S     |     &#10004;     |           |       5,0       |     |    | 
 
 <br/>
 <br/>
