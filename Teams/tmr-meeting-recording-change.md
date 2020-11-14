@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 631adf514044f67db5691513d231af28cc817d90
+ms.sourcegitcommit: f378b07dd9e57454d8614fcb529d364e9269c375
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827754"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021147"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
@@ -30,10 +30,14 @@ ms.locfileid: "48827754"
 
 
 |Fecha|Produce|
-|---|-----------------|
-|Principios del cuarto trimestre de CY20|**Los equipos que se registran en OneDrive para la empresa y SharePoint están disponibles para participar o para anular la suscripción.**<br> Los administradores de inquilinos pueden optar por OneDrive para la empresa o no participar en la configuración de la Directiva de Teams de PowerShell|
-|CY20 Trim Trim|**Los equipos graban el registro de OneDrive para la empresa y SharePoint como predeterminado para los inquilinos que no se desactivan**<br> Esta es la ruta recomendada para la mayoría de los clientes|
-|T1 CY21|**Guardar equipos ya no se permite la grabación de reuniones en una secuencia clásica**<br>Todos los inquilinos guardarán los equipos de la grabación de reuniones en OneDrive para la empresa y SharePoint|
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|5 de octubre de 2020| Puede habilitar la Directiva de reunión de Teams para que se guarden las grabaciones de reunión en OneDrive para la empresa y en SharePoint en lugar de en Microsoft Stream (clásico).|
+|Cómo empezar el 11 de enero de 2021|Todos los nuevos equipos se guardarán grabaciones de reuniones en OneDrive para la empresa y SharePoint a menos que retrase este cambio modificando las directivas de reunión de los equipos de su organización y configurarlas de forma explícita en **flujo**. Ver el informe de directiva como una transmisión no es suficiente. Debe establecer de forma explícita el valor de la Directiva en **Stream**.|
+|Despliegue a partir del 1 de marzo de 2021|**Clientes empresariales**<br>No se pueden guardar nuevas grabaciones de reuniones en Microsoft Stream (clásico); todos los clientes guardarán automáticamente las grabaciones de la reunión en OneDrive para la empresa y SharePoint, incluso si han cambiado las políticas de reunión de sus equipos para **transmitirse**. Recomendamos que los clientes destaquen esta característica antes de esta fecha para poder controlar la temporización de la versión. |
+|Cómo empezar el 7 de julio de 2021|**Clientes de educación**<br>No se pueden guardar nuevas grabaciones de reuniones en Microsoft Stream (clásico); todos los clientes guardarán automáticamente las grabaciones de la reunión en OneDrive para la empresa y SharePoint, incluso si han cambiado las políticas de reunión de sus equipos para **transmitirse**. Recomendamos que los clientes destaquen esta característica antes de esta fecha para poder controlar la temporización de la versión. Hemos actualizado esta programación para ofrecer a los clientes de educación la capacidad de completar los semestres en curso. |
+
+> [!Note]
+> Recomendamos que los clientes empresariales y educativos, para controlar mejor el cambio de su organización, participen siempre que se sienta cómodo con el cambio en lugar de esperar a que se produzca. 
 
 Microsoft Teams tiene un nuevo método para guardar las grabaciones de la reunión. Como primera fase de una transición de la secuencia clásica de Microsoft a la [nueva secuencia](https://docs.microsoft.com/stream/streamnew/new-stream), este método almacena las grabaciones en Microsoft OneDrive para la empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 

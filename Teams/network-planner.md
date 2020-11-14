@@ -13,6 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccd9b620bbe44c8fb8627504b7c25a03227b96
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581331"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030626"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Usar el planificador de red para Microsoft Teams
 
@@ -57,7 +58,7 @@ Siga estos pasos para crear un rol personalizado:
 
 4. Seleccione los permisos que este rol usará dentro de la organización.
 
-5. Haga clic en **Guardar **.
+5. Haga clic en **Guardar**.
 
 ## <a name="build-your-plan"></a>Crear su plan
 
@@ -79,14 +80,14 @@ Siga estos pasos para empezar a crear su plan de red:
 
     1. Agregue un nombre y una descripción para el sitio.
 
-    2. En **configuración de red**, agregue el número de usuarios de red en ese sitio (obligatorio).
+    2. En **configuración de red** , agregue el número de usuarios de red en ese sitio (obligatorio).
 
-    3. Agregar detalles de red: habilitada para WAN, capacidad de WAN, salida de Internet (**local** o **remota**) y salida de RTC (ninguna, local o remota).
+    3. Agregar detalles de red: habilitada para WAN, capacidad de WAN, salida de Internet ( **local** o **remota** ) y salida de RTC (ninguna, local o remota).
 
       > [!NOTE]
       > Debe agregar números de capacidad de WAN y de Internet para ver recomendaciones específicas de ancho de banda cuando genera un informe.
 
-    4. Haga clic en **Guardar **.
+    4. Haga clic en **Guardar**.
 
 ## <a name="create-a-report"></a>Crear un informe
 
@@ -102,8 +103,8 @@ Después de agregar todos los sitios, puede crear un informe de la siguiente man
     - Una tabla con cálculos individuales mostrará los requisitos de ancho de banda para cada actividad permitida.
     - Una vista adicional mostrará las necesidades generales de ancho de banda con recomendaciones.
 
-4. Haga clic en **Guardar **. El informe estará disponible en la lista de informes para verlo más tarde.
+4. Haga clic en **Guardar**. El informe estará disponible en la lista de informes para verlo más tarde.
 
 ## <a name="example-scenario"></a>Escenario de ejemplo
 
-Para obtener un ejemplo de cómo usar el planificador de redes para configurar un plan de red y generar un informe siguiendo estos pasos, descargue el [paquete de PowerPoint "procedimientos de Network Planner"](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (solo en inglés).
+Para obtener un ejemplo de cómo usar el planificador de la red para configurar un plan de red y generar un informe siguiendo estos pasos, descargue la [How-To PowerPoint Planner](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (solo en inglés).

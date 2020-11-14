@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: Aprenda a configurar el enrutamiento directo de las llamadas de Mic
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269654"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031016"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -148,7 +149,7 @@ Para que un cliente obtenga una ubicación, debe rellenar el LIS con identificad
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
 
 1. En el navegación de la izquierda, vaya a **ubicaciones**  >  **redes & ubicaciones**.
-2. Haga clic en la pestaña que representa el identificador de red que desea agregar. Por ejemplo, haga clic en **subredes**, **puntos de acceso Wi-Fi**, **conmutadores**o **puertos**. A continuación, haga clic en **Agregar**.
+2. Haga clic en la pestaña que representa el identificador de red que desea agregar. Por ejemplo, haga clic en **subredes** , **puntos de acceso Wi-Fi** , **conmutadores** o **puertos**. A continuación, haga clic en **Agregar**.
 3. Complete los campos, agregue una ubicación de emergencia y, a continuación, haga clic en **aplicar**.
 
 ### <a name="using-powershell"></a>Con PowerShell

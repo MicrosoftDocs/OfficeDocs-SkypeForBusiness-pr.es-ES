@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 16b44071e6025d0dc10c270aa2a37679eec840e4
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 51885d80e698d0f47308c45110af83063e7bd7ba
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788374"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031396"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -63,7 +64,7 @@ Para obtener más información, consulte [licencias complementarias de Microsoft
 
 3. Seleccione **créditos de comunicaciones**.
     
-4. En la página de suscripción de **crédito de comunicaciones** , rellene la información y, a continuación, haga clic en **siguiente**:
+4. En la página de suscripción de **crédito de comunicaciones** , rellene la información y, a continuación, haga clic en **siguiente** :
     
    - **Agregar fondos** Escribe la cantidad que deseas añadir a tu cuenta. Si no habilita la recarga automática, una vez que se agoten estos fondos, se interrumpirán las llamadas que estén habilitadas con el uso de créditos de comunicaciones (como un servicio entrante). Para evitar tener que rellenar manualmente el saldo de tu crédito de comunicaciones cada vez que tu saldo alcance 0 (cero), te recomendamos que habilites la característica de recarga automática.
     
@@ -92,7 +93,7 @@ Al configurar créditos de comunicaciones, tendrá que investigar el uso de las 
 
 1. Inicie sesión en el [centro de administración de Microsoft 365](https://portal.office.com/Adminportal) con su cuenta profesional o educativa.
     
-2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, **vaya a usuarios**  >  **activos**y, a continuación, seleccione un usuario de la lista.
+2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, **vaya a usuarios**  >  **activos** y, a continuación, seleccione un usuario de la lista.
     
 3. Elija **licencias y aplicaciones**.
     
@@ -114,7 +115,7 @@ Para ver los planes y los precios, visite uno de los siguientes vínculos:
     
 - [Planes de sistemas telefónicos](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-También puede ver información [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación**para  >  **Subscriptions**  >  **Agregar suscripciones**.
+También puede ver información [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación** para  >  **Subscriptions**  >  **Agregar suscripciones**.
   
 Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   

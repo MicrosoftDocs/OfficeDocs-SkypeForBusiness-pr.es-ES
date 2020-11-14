@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - NOCSH
 ms.reviewer: crowe
@@ -17,12 +18,12 @@ description: Determine el plan de llamadas de sistema de Microsoft Phone que ofr
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 71fe92646a3a2976e9a4d393e54ea56a7669b400
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691416"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031856"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>¿Qué plan de llamada es adecuado para usted? 
 
@@ -49,7 +50,7 @@ Existen dos tipos de planes de llamadas:
 - Planes de llamadas nacionales 
 - Planes de llamadas nacionales e internacionales
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |------------|-------|
 |¿Están disponibles los planes de llamadas en mi área? ¿Qué ubicaciones de usuarios tendrán el servicio de plan de llamadas? | Para obtener más información, consulte [disponibilidad de países y regiones para las conferencias de audio y los planes de llamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
 ¿Los usuarios necesitan llamadas internacionales? | Para obtener más información, consulte [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md). |
@@ -66,7 +67,7 @@ Es fácil transferir los números de teléfono de su proveedor de servicios actu
 
 Con los planes de llamadas en Microsoft 365 u Office 365, todos los usuarios de su organización necesitan tener un número de teléfono de marcado directo exclusivo y una dirección de emergencia validada correspondiente. También puedes especificar una ubicación de emergencia dentro de la dirección de emergencia (por ejemplo, un número de oficina o un número de piso). 
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |:------------|:-------|
 |¿Qué grado de detalle quiero que sea la dirección de emergencia y la información de ubicación? |Para obtener más información, vea [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
@@ -75,7 +76,7 @@ Con los planes de llamadas en Microsoft 365 u Office 365, todos los usuarios de 
 
 De forma predeterminada, todas las llamadas salientes usan el número de teléfono asignado como identidad de llamada (identificación de llamada). El destinatario de la llamada puede identificar rápidamente a la persona que llama y decidir si desea aceptar o rechazar la llamada.
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |:------------|:-------|
 |¿Quiero enmascarar o deshabilitar la identificación de llamadas? | Para cambiar o bloquear la identificación de llamadas, vea [establecer la identificación de llamadas de un usuario](set-the-caller-id-for-a-user.md). |
 |||

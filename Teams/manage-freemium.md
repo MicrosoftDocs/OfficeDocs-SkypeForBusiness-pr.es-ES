@@ -17,14 +17,15 @@ ms.custom:
 - seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bfd1e9ece85ff6bc5bce0791e1e82225894fdd1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e6c779499a03538fe245ef458892530cfe5eaf0e
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583859"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031796"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>Administrar la versión gratuita de Microsoft Teams
 ==========================================

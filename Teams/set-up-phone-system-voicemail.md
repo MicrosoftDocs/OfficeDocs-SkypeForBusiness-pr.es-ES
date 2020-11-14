@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: 62729794ff1e23ce29b3e3aad86fa09b63a428e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691056"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031076"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -66,11 +67,11 @@ Para obtener más información sobre el cifrado de mensajes, consulte [cifrado d
 Para configurar el buzón de voz protegido, haga lo siguiente:
 
 1. Vaya a https://admin.microsoft.com e inicie sesión con una cuenta que tenga permisos de administrador global.
-2. Seleccione **Mostrar todo** y, a continuación, vaya a **centro de administración**de  >  **Exchange**.
+2. Seleccione **Mostrar todo** y, a continuación, vaya a **centro de administración** de  >  **Exchange**.
 3. En el centro de administración de Exchange, seleccione reglas de **flujo de correo**  >  **Rules**.
-4. Seleccione **+** **Agregar**y, a continuación, seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos a los mensajes**.
-5. Escriba un nombre para la nueva regla de flujo de correo y, a continuación, en **aplicar esta regla si**, seleccione **el mensaje las propiedades**  >  **incluyen el**  >  **correo de voz**. Seleccione **Aceptar**.
-6. En **hacer lo siguiente**, seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos al mensaje con** y, después, seleccione **seleccionar uno**. En **plantilla RMS**, seleccione no **reenviar**. Seleccione **Aceptar** y, a continuación, **Guardar**.
+4. Seleccione **+** **Agregar** y, a continuación, seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos a los mensajes**.
+5. Escriba un nombre para la nueva regla de flujo de correo y, a continuación, en **aplicar esta regla si** , seleccione **el mensaje las propiedades**  >  **incluyen el**  >  **correo de voz**. Seleccione **Aceptar**.
+6. En **hacer lo siguiente** , seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos al mensaje con** y, después, seleccione **seleccionar uno**. En **plantilla RMS** , seleccione no **reenviar**. Seleccione **Aceptar** y, a continuación, **Guardar**.
     > [!NOTE]
     > Si la lista de **plantillas de RMS** está vacía, debe configurar el cifrado de mensajes. Para obtener más información sobre cómo configurar el cifrado de mensajes, vea los artículos siguientes:
     > - [Configurar nuevas capacidades de cifrado de mensajes](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)

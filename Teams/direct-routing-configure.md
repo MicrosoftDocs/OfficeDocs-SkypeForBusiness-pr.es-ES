@@ -11,18 +11,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System para conectar su infraestructura de telefonía local con Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f12eb67fd63a3d1bbed3ddcd0c4fadce16529083
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e1c19bfcd4c220ff6b6c53d8731149eaa8b6b4b1
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904832"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031776"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 

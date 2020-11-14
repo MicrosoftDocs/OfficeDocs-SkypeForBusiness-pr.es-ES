@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
@@ -18,12 +19,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar las opciones de red para las características de voz en la nube en Microsoft Teams.
-ms.openlocfilehash: 21d47b5b2fae0b22ea585168acdce4a5e25af2ea
-ms.sourcegitcommit: 7631af666ae439cc85f1dae8955653a67170cf20
+ms.openlocfilehash: 2414010a6e7098a18954067dad659cb8c9912736
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48304584"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031106"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Administrar la topología de red para las características de voz en la nube en Microsoft Teams
 
@@ -39,24 +40,24 @@ Defina regiones de red, sitios de red y subredes en la ficha **sitios de red** d
 
 #### <a name="add-and-configure-a-network-site"></a>Agregar y configurar un sitio de red
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**y, a continuación, haga clic en la pestaña **sitios de red** .
-2. Haga clic en **Agregar**y, a continuación, escriba un nombre y una descripción para el sitio.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** de  >  **red** y, a continuación, haga clic en la pestaña **sitios de red** .
+2. Haga clic en **Agregar** y, a continuación, escriba un nombre y una descripción para el sitio.
 
     ![Captura de pantalla de la página Agregar sitio de red](media/manage-network-topology-add-site.png)
 
-3. Para asociar el sitio con una región de red, haga clic en **Agregar región de red**, seleccione una región existente o haga clic en **Agregar** para agregar una región y, a continuación, haga clic en **vincular**.  
-4. Para habilitar el enrutamiento basado en la ubicación del sitio, active el **enrutamiento basado**en la ubicación.
+3. Para asociar el sitio con una región de red, haga clic en **Agregar región de red** , seleccione una región existente o haga clic en **Agregar** para agregar una región y, a continuación, haga clic en **vincular**.  
+4. Para habilitar el enrutamiento de Location-Based para el sitio, active el **enrutamiento basado** en la ubicación.
 5. Para asignar directivas de servicios de emergencia al sitio, realice una de las siguientes acciones o ambas:
 
-    - Si su organización usa planes de llamadas o enrutamiento directo de sistema telefónico implementado, en **Directiva de llamadas de emergencia**, seleccione la Directiva que desee.
-    - Si su organización ha implementado el enrutamiento de un sistema telefónico directo, en **Directiva de enrutamiento de llamadas de emergencia**, seleccione la Directiva que quiera.
+    - Si su organización usa planes de llamadas o enrutamiento directo de sistema telefónico implementado, en **Directiva de llamadas de emergencia** , seleccione la Directiva que desee.
+    - Si su organización ha implementado el enrutamiento de un sistema telefónico directo, en **Directiva de enrutamiento de llamadas de emergencia** , seleccione la Directiva que quiera.
 
-6. Para asociar una subred al sitio, en **subredes**, haga clic en **Agregar subredes**. Especifique la versión IP, la dirección IP, el intervalo de red, agregue una descripción y, a continuación, haga clic en **aplicar**. Cada subred debe estar asociada a un sitio específico.
-7. Haga clic en **Guardar **.
+6. Para asociar una subred al sitio, en **subredes** , haga clic en **Agregar subredes**. Especifique la versión IP, la dirección IP, el intervalo de red, agregue una descripción y, a continuación, haga clic en **aplicar**. Cada subred debe estar asociada a un sitio específico.
+7. Haga clic en **Guardar**.
 
 #### <a name="modify-a-network-site"></a>Modificar un sitio de red
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**y, a continuación, haga clic en la pestaña **sitios de red** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** de  >  **red** y, a continuación, haga clic en la pestaña **sitios de red** .
 2. Seleccione el sitio haciendo clic a la izquierda del nombre del sitio y, a continuación, haga clic en **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar.**
 
@@ -66,7 +67,7 @@ Las direcciones IP de confianza externas se administran en la ficha **IP fiables
 
 #### <a name="add-a-trusted-ip-address"></a>Agregar una dirección IP fiable
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**y, a continuación, haga clic en la pestaña **IP fiables** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** de  >  **red** y, a continuación, haga clic en la pestaña **IP fiables** .
 2. Haga clic en **Nuevo**.
 3. En el panel **Agregar una dirección IP de confianza** , especifique la versión IP, la dirección IP, el intervalo de red, agregue una descripción y, a continuación, haga clic en **aplicar**.
 
@@ -74,7 +75,7 @@ Las direcciones IP de confianza externas se administran en la ficha **IP fiables
 
 #### <a name="edit-a-trusted-ip-address"></a>Modificar una dirección IP fiable
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**y, a continuación, haga clic en la pestaña **IP fiables** .
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones** de  >  **red** y, a continuación, haga clic en la pestaña **IP fiables** .
 2. Seleccione la dirección IP haciendo clic a la izquierda y, a continuación, haga clic en **Editar**.
 3. En el panel **Editar direcciones IP fiables** , realice los cambios que desee y, a continuación, haga clic en **aplicar**.
 

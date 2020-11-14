@@ -12,6 +12,7 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: Obtenga información sobre cómo administrar la configuración de eventos en directo de Teams que se llevan a cabo en su organización.
 f1.keywords:
 - CSH
@@ -19,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0e949b2773baa2cc819629133396020dee7d7d7
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203953"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030896"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -41,7 +42,7 @@ Esta dirección URL se muestra a los asistentes del evento en directo. Agregue l
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](../media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
 
 1. En la navegación izquierda, vaya a **Reuniones** > **Configuración de eventos en directo**.
-2. En **dirección URL de soporte**, escriba la dirección URL de soporte técnico de su organización.
+2. En **dirección URL de soporte** , escriba la dirección URL de soporte técnico de su organización.
 
     ![Configuración de URL de soporte para eventos en directo en el centro de administración](../media/teams-live-events-settings-supporturl.png "Captura de pantalla de la configuración de URL de soporte técnico para los eventos en directo de Teams")
 
@@ -60,7 +61,7 @@ Si compró y configuró una solución de red definida por software (SDN) o una s
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](../media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
 
 1. En la navegación izquierda, vaya a **Reuniones** > **Configuración de eventos en directo**.
-2. En **Proveedores de distribución de vídeo de terceros**, siga este procedimiento: 
+2. En **Proveedores de distribución de vídeo de terceros** , siga este procedimiento: 
 
     ![Configuración del proveedor de distribución de vídeo de terceros en el centro de administración](../media/teams-live-events-settings-distribution-provider.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de terceros para eventos en directo")
 
@@ -91,7 +92,7 @@ Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](h
 > Si tiene previsto crear eventos en directo con una aplicación o dispositivo externo, también tendrá que [configurar el proveedor de eCDN con Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 >[!Note]
-> El cambio de usar Microsoft Stream a [OneDrive para la empresa y SharePoint para las grabaciones](../tmr-meeting-recording-change.md) de la reunión será un enfoque por fases. En el lanzamiento podrá optar por esta experiencia, en noviembre tendrá que optar por no participar si desea seguir usando la secuencia y, a principios de 2021, necesitaremos que todos los clientes usen OneDrive para la empresa y SharePoint para nuevas grabaciones de reunión.
+> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones.
 
 ### <a name="related-topics"></a>Temas relacionados
 - [¿Qué son los eventos en directo en Teams?](what-are-teams-live-events.md)

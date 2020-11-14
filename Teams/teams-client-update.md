@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +17,12 @@ description: En este artículo, obtendrá información sobre el proceso de actua
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfe9a7b8878481ccdad3b1d390dc35923987e105
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f8681f3f4cc7c25e9499e25e3978848084086a2a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583277"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031886"
 ---
 # <a name="teams-update-process"></a>Proceso de actualización de Teams
 
@@ -61,4 +62,4 @@ Las versiones de clientes de escritorio con más de tres meses de antigüedad en
 
 Los clientes de escritorio de Teams de las nubes gubernamentales actualmente tienen una excepción a este contrato de mantenimiento hasta un aviso más importante.
 
-Para obtener información sobre las nuevas versiones, consulte [centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) o ir para **obtener**información sobre las novedades del  >  **What’s new** cliente.
+Para obtener información sobre las nuevas versiones, consulte [centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) o ir para **obtener** información sobre las novedades del  >  **What’s new** cliente.

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -24,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Más información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665162"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031606"
 ---
 # <a name="manage-emergency-calling"></a>Administrar las llamadas de emergencia
 
@@ -37,7 +38,7 @@ Este artículo describe conceptos que necesita saber para administrar las llamad
 
 - **Dirección de emergencia** : una ciudad es &mdash; la dirección física o postal de un lugar de trabajo para su organización.
 
-  Por ejemplo, la dirección *12345 North Main Street, Redmond, WA 98052* se usa para enrutar llamadas de emergencia a las autoridades de distribución correspondientes y para ayudar a localizar a la persona que llama de emergencia.
+  Por ejemplo, la dirección  *12345 North Main Street, Redmond, WA 98052* se usa para enrutar llamadas de emergencia a las autoridades de distribución correspondientes y para ayudar a localizar a la persona que llama de emergencia.
 
 - **Lugar** , normalmente un número de piso, edificio, ala o oficina. El lugar está asociado con una dirección de emergencia para proporcionar una ubicación más exacta dentro de un edificio. Puedes tener un número ilimitado de lugares asociados con una dirección de emergencia. Por ejemplo, si su organización tiene varios edificios, es posible que desee incluir información de ubicación para cada edificio y para cada planta en cada edificio.  
 
@@ -117,15 +118,15 @@ Cuando un usuario de plan de llamadas de equipos marca un número de emergencia,
 
   - Si una persona que llama de emergencia no puede actualizar su ubicación de emergencia al centro de detección, la llamada se transferirá al PSAP que atiende a la dirección registrada del autor de la llamada.
 
-  **En Canadá, Irlanda y en el Reino Unido**, primero se filtran las llamadas de emergencia para determinar la ubicación actual del usuario antes de conectar la llamada al centro de distribución correspondiente. 
+  **En Canadá, Irlanda y en el Reino Unido** , primero se filtran las llamadas de emergencia para determinar la ubicación actual del usuario antes de conectar la llamada al centro de distribución correspondiente. 
 
-  **En Francia, Alemania y España**, las llamadas de emergencia se dirigen directamente al PSAP que atiende la dirección de emergencia asociada con el número, independientemente de la ubicación del autor de la llamada.
+  **En Francia, Alemania y España** , las llamadas de emergencia se dirigen directamente al PSAP que atiende la dirección de emergencia asociada con el número, independientemente de la ubicación del autor de la llamada.
 
-  **En los países bajos**, las llamadas de emergencia se dirigen directamente al PSAP para el código de área local del número, independientemente de la ubicación del autor de la llamada.
+  **En los países bajos** , las llamadas de emergencia se dirigen directamente al PSAP para el código de área local del número, independientemente de la ubicación del autor de la llamada.
 
-  **En Australia**, el socio del transportista configura y dirige las direcciones de emergencia.
+  **En Australia** , el socio del transportista configura y dirige las direcciones de emergencia.
 
-  **En Japón**, no se admiten las llamadas de emergencia.
+  **En Japón** , no se admiten las llamadas de emergencia.
 
 
 Para obtener más información, vea:
@@ -214,7 +215,7 @@ Durante una llamada de emergencia, un servicio de seguridad se une a la llamada 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Administrar directivas de llamadas de emergencia](manage-emergency-calling-policies.md)
-- [Administrar las directivas de enrutamiento de llamadas de emergencia](manage-emergency-call-routing-policies.md)
+- [Administrar las directivas de enrutamiento de llamadas de emergencia ](manage-emergency-call-routing-policies.md)
 - [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md)
 - [Asignar o cambiar una ubicación de emergencia para el usuario](assign-change-emergency-location-user.md)
 - [Planear y configurar las llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md)

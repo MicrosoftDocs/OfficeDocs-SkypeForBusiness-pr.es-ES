@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener nuevos números para los equipos, trasladarlos o transferirlos, y cómo mostrar los cambios a los usuarios. '
-ms.openlocfilehash: ccc0baa1f4793967daa9520de1c9aaa9b56175ba
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: f2028a4d7b49560ff426d83241da8f1f7c3243d3
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372079"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030466"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
@@ -49,14 +50,14 @@ Hay tres formas de obtener números de usuarios:
 Para realizar estos cambios, debe ser administrador del servicio de Teams. Consulte [usar los roles de administrador de Teams para administrar los equipos](https://docs.microsoft.com/microsoftteams/using-admin-roles) para obtener información sobre cómo obtener roles y permisos de administrador.
 
 1. Vaya al centro de administración de Microsoft Teams.
-2. En el navegación de la izquierda, vaya a números de teléfono de **voz**  >  **Phone numbers**y, después, haga clic en **Agregar**.
+2. En el navegación de la izquierda, vaya a números de teléfono de **voz**  >  **Phone numbers** y, después, haga clic en **Agregar**.
 3. Escriba un nombre para el pedido y agregue una descripción.
 4. En la página ubicación y cantidad, haga lo siguiente:
-    1. En **país o región**, seleccione un país o una región.
-    2. En **tipo de número**, seleccione **usuario (suscriptor)**.
-    3. En **Ubicación**, seleccione una ubicación. Si necesita crear una nueva ubicación, haga clic en **Agregar una ubicación**.
-    4. En **código de área**, seleccione un código de área.
-    5. En **cantidad**, introduzca la cantidad de números que desea para su organización y, a continuación, haga clic en **siguiente** para seleccionar los números.
+    1. En **país o región** , seleccione un país o una región.
+    2. En **tipo de número** , seleccione **usuario (suscriptor)**.
+    3. En **Ubicación** , seleccione una ubicación. Si necesita crear una nueva ubicación, haga clic en **Agregar una ubicación**.
+    4. En **código de área** , seleccione un código de área.
+    5. En **cantidad** , introduzca la cantidad de números que desea para su organización y, a continuación, haga clic en **siguiente** para seleccionar los números.
 5. Seleccione los números que desee. Tienes 10 minutos para seleccionar tus números de teléfono y realizar tu pedido. Si tardas más de 10 minutos, los números de teléfono se devolverán al conjunto de números.
 6. Cuando esté listo para realizar su pedido, haga clic en **realizar pedido**.
 

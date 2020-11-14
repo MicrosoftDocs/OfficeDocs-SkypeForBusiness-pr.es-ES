@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 00cf80578564db122d4eaf206456b465a21668af
-ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
+ms.openlocfilehash: 1d19483fe458c38d01a9c46c982101eeab6546c2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48999222"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032991"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 

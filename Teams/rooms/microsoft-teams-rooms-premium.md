@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre el servicio administrado de salas de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788334"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031406"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Servicio administrado de salas de Microsoft Teams
 

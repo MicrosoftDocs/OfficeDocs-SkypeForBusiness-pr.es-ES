@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 172253f0c1fe99043a21bf70309d81f71e392d4c
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 1c5120f60778879be0978cb80c56daf99e5b5a38
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878524"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031826"
 ---
 # <a name="phone-system-direct-routing"></a>Enrutamiento directo del sistema telefónico
 
@@ -53,7 +54,7 @@ Además, es posible que desee leer los artículos siguientes según sus necesida
 
 Estas son las decisiones básicas para considerar el enrutamiento directo. 
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 | :------------|:-------|
 |¿Para qué usuarios habilitaría el enrutamiento directo? | Para obtener más información, vea [Habilitar usuarios para el servicio de enrutamiento directo](direct-routing-configure.md). |
 ¿Tengo las licencias necesarias para el enrutamiento directo? | Para obtener más información, consulte [licencias y otros requisitos](direct-routing-plan.md#licensing-and-other-requirements).
@@ -63,7 +64,7 @@ Estas son las decisiones básicas para considerar el enrutamiento directo.
 
 Con el enrutamiento directo, conecta su propio controlador de borde de sesión (SBC) directamente al sistema telefónico.  Para obtener una lista de SBCs certificado, consulte [controladores de borde de sesión admitidos](direct-routing-border-controllers.md).
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |:------------|:-------|
 | ¿Dónde y cómo implementar SBCs? | Para obtener más información, consulte [configurar el enrutamiento directo](direct-routing-configure.md) | 
 ¿Tengo varios inquilinos? | Para obtener más información, vea [configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md).|
@@ -73,7 +74,7 @@ Con el enrutamiento directo, conecta su propio controlador de borde de sesión (
 
 Tendrá que configurar el sistema telefónico para enrutar las llamadas al SBCs específico.
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |:------------|:-------|
 | ¿Qué directivas de enrutamiento de voz, uso de RTC y rutas de voz necesito crear? | Para obtener información sobre el enrutamiento de voz, vea [configurar el enrutamiento de voz](direct-routing-configure.md).
 | ¿Qué usuarios se asignarán a la Directiva de enrutamiento de voz que definio? | Consulte los ejemplos de [configurar el enrutamiento de voz](direct-routing-configure.md). |
@@ -83,7 +84,7 @@ Tendrá que configurar el sistema telefónico para enrutar las llamadas al SBCs 
 
 El enrutamiento directo solo es compatible con Microsoft Teams. Para recibir llamadas RTC mediante enrutamiento directo, debe configurar TeamsUpgradePolicy para asegurarse de que las llamadas entrantes se reciban en Teams. Los usuarios deben estar en el modo solo de equipos, que puede hacer asignando la instancia "UpgradeToTeams" de TeamsUpgradePolicy. 
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |:------------|:-------|
 |¿Qué significa el modo solo de Teams? | Para obtener más información, consulte [Guía de migración e interoperabilidad para las organizaciones que usan Teams conjuntamente con Skype empresarial](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype).|
 |||
@@ -92,7 +93,7 @@ El enrutamiento directo solo es compatible con Microsoft Teams. Para recibir lla
 
 Es posible que desee tener en cuenta lo siguiente, en función de las necesidades y la configuración de su organización:
 
-| Pregúntese lo siguiente:| Acción |
+| Pregúntese lo siguiente:| Action |
 | :------------|:-------|
 | ¿Tiene una implementación existente de Skype empresarial Server con una conectividad híbrida configurada? |  Para comprender cómo se suministran y administran las cuentas de usuario en un entorno híbrido, consulte [cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
 | ¿Va a migrar el enrutamiento directo desde el plan de llamadas o desde un entorno local de Skype empresarial? | Para obtener más información sobre cómo migrar para dirigir el enrutamiento desde un entorno existente, consulte [migrar a enrutamiento directo](direct-routing-migrating.md). |

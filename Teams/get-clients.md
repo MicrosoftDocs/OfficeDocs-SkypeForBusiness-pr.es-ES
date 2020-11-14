@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 429dd2c7e5b5fe8048bdac52e07dfb0577121540
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: 9e42e002e8ae0c2462bc0021ac1103c59e96f7cc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389878"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030426"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
@@ -88,7 +89,7 @@ Los usuarios de Mac pueden instalar Teams mediante el uso de un archivo PKG de i
 
 #### <a name="install-teams-by-using-the-pkg-file"></a>Instalar Teams con el archivo PKG 
 
-1. Desde la [página de descarga de Teams](https://teams.microsoft.com/downloads), en **Mac**, haga clic en **Descargar**.
+1. Desde la [página de descarga de Teams](https://teams.microsoft.com/downloads), en **Mac** , haga clic en **Descargar**.
 2. Haga doble clic en el archivo PKG.
 3. Siga los pasos del asistente de instalación para completar la instalación.
 4. Se instalará Teams en la carpeta /Applications. Es una instalación de todo el equipo.
@@ -196,9 +197,9 @@ Aquí puede ver cómo [obtener Teams para Android](get-teams-android-in-china.md
 
 Las siguientes son las plataformas móviles admitidas para Microsoft Teams:
 
--   **Android**: la compatibilidad está limitada a las cuatro versiones principales más recientes de Android. Cuando se publica una nueva versión principal de Android, se admiten oficialmente la nueva versión y las tres versiones anteriores.
+-   **Android** : la compatibilidad está limitada a las cuatro versiones principales más recientes de Android. Cuando se publica una nueva versión principal de Android, se admiten oficialmente la nueva versión y las tres versiones anteriores.
 
--   **iOS**: la compatibilidad está limitada a las dos versiones principales más recientes de iOS. Cuando se publica una nueva versión principal de iOS, se admiten oficialmente la nueva versión y las tres versiones anteriores de iOS.
+-   **iOS** : la compatibilidad está limitada a las dos versiones principales más recientes de iOS. Cuando se publica una nueva versión principal de iOS, se admiten oficialmente la nueva versión y las tres versiones anteriores de iOS.
 
 > [!NOTE]
 > La versión móvil debe estar disponible para el público para que Teams funcione según lo esperado.

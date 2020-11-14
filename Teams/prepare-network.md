@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177533"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032996"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
@@ -59,9 +60,9 @@ Si ya ha [optimizado su red para microsoft 365 u Office 365](https://docs.micros
 Una vez que haya verificado que cumple con estos requisitos de red, es posible que esté listo para [implementar Teams](How-to-roll-out-teams.md). Si es una gran empresa multinacional, o si sabe que tiene algunas limitaciones de red, siga leyendo para obtener información sobre cómo evaluar y optimizar su red para Teams.
 
 > [!IMPORTANT]
-> **Para instituciones educativas**: Si su organización es un centro educativo y usa un sistema de información de estudiante (SIS), [implemente School Data Sync](https://docs.microsoft.com/schooldatasync/) antes de implementar Teams.
+> **Para instituciones educativas** : Si su organización es un centro educativo y usa un sistema de información de estudiante (SIS), [implemente School Data Sync](https://docs.microsoft.com/schooldatasync/) antes de implementar Teams.
 >  
-> **Ejecución local de Skype empresarial Server**: Si su organización ejecuta Skype empresarial Server local (o Lync Server), debe [configurar Azure ad Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) para sincronizar el directorio local con Microsoft 365 u Office 365...
+> **Ejecución local de Skype empresarial Server** : Si su organización ejecuta Skype empresarial Server local (o Lync Server), debe [configurar Azure ad Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) para sincronizar el directorio local con Microsoft 365 u Office 365...
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Procedimiento recomendado: supervisar la red con el análisis de llamadas y el CQD 
 

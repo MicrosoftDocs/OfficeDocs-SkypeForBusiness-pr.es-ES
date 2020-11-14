@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En este artículo, conocerá la tecnología de los sistemas telefónicos en Microsoft 365 y Office 365.
-ms.openlocfilehash: fe04dc409f088d93d9636974bc0bd6b13a1a9f7b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 128ac9a81419c8a071049c8754bc0a920222096e
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533547"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031596"
 ---
 # <a name="what-is-phone-system"></a>¿Qué es el sistema telefónico?
 

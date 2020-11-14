@@ -14,17 +14,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
+- m365initiative-meetings
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a08a646ed2f89a857d2126ef9551bc84e6389a11
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203833"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030806"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -40,9 +41,9 @@ Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha impl
 Para obtener más información sobre la experiencia de reuniones para los usuarios, consulte [Reuniones y llamadas](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
 
-*Nuevo en abril de 2020*: los organizadores de reuniones pueden finalizar una reunión para todos los participantes de la reunión en Teams al hacer clic en **Finalizar reunión** en los controles de reunión dentro de la reunión.  
+*Nuevo en abril de 2020* : los organizadores de reuniones pueden finalizar una reunión para todos los participantes de la reunión en Teams al hacer clic en **Finalizar reunión** en los controles de reunión dentro de la reunión.  
 
-*Nuevo en noviembre de 2019*: ahora puede [usar el Asesor de Teams (versión preliminar) para que le ayude a implementar Microsoft Teams](use-advisor-teams-roll-out.md). El Asesor de Teams (vista previa) le guiará en la implementación de Teams, incluidas las reuniones y las conferencias. Evalúa el entorno de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente las reuniones y conferencias en Teams.
+*Nuevo en noviembre de 2019* : ahora puede [usar el Asesor de Teams (versión preliminar) para que le ayude a implementar Microsoft Teams](use-advisor-teams-roll-out.md). El Asesor de Teams (vista previa) le guiará en la implementación de Teams, incluidas las reuniones y las conferencias. Evalúa el entorno de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente las reuniones y conferencias en Teams.
 
  > [!Note]
 > Para obtener más información sobre las reuniones y conferencias de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -59,7 +60,7 @@ Teams proporciona una experiencia excelente para su organización y la configura
 
 Antes de continuar con la implementación de reuniones en toda la organización, tómese un tiempo para revisar y confirmar que el entorno está listo para proporcionar la mejor experiencia posible a los usuarios. Revise la información siguiente y realice los cambios necesarios en su entorno.
 
-Para obtener la mejor experiencia en Teams, su organización debe haber implementado Exchange Online y SharePoint Online, y debe tener un dominio verificado para O365 (por ejemplo, *contoso.com*).
+Para obtener la mejor experiencia en Teams, su organización debe haber implementado Exchange Online y SharePoint Online, y debe tener un dominio verificado para O365 (por ejemplo, *contoso.com* ).
 
 Para implementar las reuniones en toda la organización, asegúrese de que todas las ubicaciones tienen acceso a internet para conectarse a los servicios de Office 365. Como mínimo, debería asegurarse de que los siguientes puertos comunes están abiertos a Internet en todas las ubicaciones de usuarios:
 

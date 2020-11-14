@@ -6,24 +6,25 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: LolaJ
+ms.reviewer: serdars
 description: Busque el camino correcto para implementar Microsoft Teams en su organización. Obtenga información sobre la infraestructura de Teams y cómo usar Teams con Microsoft 365 u Office 365.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11fe80ef9ee96b0eb1c4c9f4ebc1613549efc059
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582467"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030986"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Le damos la bienvenida a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para comenzar a usar Teams, empiece por [Cómo implementar Teams](How-to-roll-out-teams.md).
@@ -82,7 +83,7 @@ Cada equipo es diferente; no existe un enfoque universal para la colaboración. 
 
 Cuando decida qué aplicaciones y servicios de Microsoft 365 u Office 365 va a usar, piense en el trabajo que realiza su organización y los tipos de conversaciones que deben tener los equipos. 
 
-- **Teams**, en cuanto al hub de trabajo en equipo, es donde los usuarios, incluidas las personas fuera de su organización, pueden conectarse y colaborar activamente en tiempo real para ser más productivos. Tenga una conversación directamente en el lugar donde se realiza el trabajo, ya sea colaborando en la creación de un documento, con una reunión o trabajando juntos en otras aplicaciones y servicios. Teams es el lugar en el que se pueden tener chats informales, realizar iteraciones rápidas en un proyecto, trabajar con los archivos del equipo y colaborar en entregas compartidas. 
+- **Teams** , en cuanto al hub de trabajo en equipo, es donde los usuarios, incluidas las personas fuera de su organización, pueden conectarse y colaborar activamente en tiempo real para ser más productivos. Tenga una conversación directamente en el lugar donde se realiza el trabajo, ya sea colaborando en la creación de un documento, con una reunión o trabajando juntos en otras aplicaciones y servicios. Teams es el lugar en el que se pueden tener chats informales, realizar iteraciones rápidas en un proyecto, trabajar con los archivos del equipo y colaborar en entregas compartidas. 
 
 - **Outlook** sirve para colaborar en el entorno familiar del correo electrónico y de un modo más formal y estructurado, o cuando se requieren comunicaciones directas y con un destino claro.
 

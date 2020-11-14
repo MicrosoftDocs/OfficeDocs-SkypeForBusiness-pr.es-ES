@@ -8,27 +8,28 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Obtenga más información sobre la configuración de red que debe configurar para el enrutamiento basado en la ubicación para el enrutamiento directo y los servicios de emergencia mejorados.
+description: Obtenga más información sobre la configuración de red que debe configurar para Location-Based el enrutamiento para el enrutamiento directo y los servicios de emergencia mejorados.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bc2694760e93579a78cb849cc054d70a65431724
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a01f80e00be75600fdd93f9758a1974b57954e87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139069"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031836"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configuración de red de las características de voz en la nube en Microsoft Teams
 
 Obtenga información acerca de las regiones de red, sitios de red, subredes de red y direcciones IP de confianza. Estos términos y conceptos se usan en nuestra documentación de voz de nube para el [enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md) y las [llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md). Si implementa estas características de nube en su organización, debe configurar las opciones de red para usarlas en Microsoft Teams.
 
-En este artículo se ofrece información general sobre la configuración de red que es común para el enrutamiento basado en la ubicación y las llamadas de emergencia dinámicas. En función de la característica de voz de nube y de la capacidad de implementación, debe configurar algunas o todas estas opciones. Para conocer los pasos sobre cómo configurar estas opciones, vea [administrar la topología de red para las características en la nube de Teams](manage-your-network-topology.md).
+En este artículo se ofrece información general sobre la configuración de red que es común a Location-Based enrutamiento y las llamadas de emergencia dinámicas. En función de la característica de voz de nube y de la capacidad de implementación, debe configurar algunas o todas estas opciones. Para conocer los pasos sobre cómo configurar estas opciones, vea [administrar la topología de red para las características en la nube de Teams](manage-your-network-topology.md).
 
 > [!NOTE]
 > En los temas de configuración de esa característica se describen todos los requisitos específicos de la característica para la configuración de red.
@@ -37,7 +38,7 @@ En este artículo se ofrece información general sobre la configuración de red 
 
 Una región de red incluye una colección de sitios de red. Interconecta varias partes de una red en varias áreas geográficas. Por ejemplo, si tu organización tiene muchos sitios ubicados en India, puedes elegir designar "India" como región de red. Cada sitio de red debe estar asociado a una región de red.
 
-Las mismas regiones de red se comparten con el enrutamiento basado en la ubicación para el enrutamiento directo y los servicios de emergencia mejorados. Si ya ha creado regiones de red para una característica, no tiene que crear regiones de red nuevas para la otra característica.
+Las mismas regiones de red son compartidas por Location-Based enrutamiento para el enrutamiento directo y los servicios de emergencia mejorados. Si ya ha creado regiones de red para una característica, no tiene que crear regiones de red nuevas para la otra característica.
 
 ## <a name="network-site"></a>Sitio de red
 

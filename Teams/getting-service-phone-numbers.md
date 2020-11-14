@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo obtener nuevos números de teléfono y migrar o transferir números existentes para la audioconferencia, los operadores automáticos y las colas de llamadas (números de servicio) para Teams.
-ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: adca7b31b59a88d16eefcd8f45a4c896a5c3de3f
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021992"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030446"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtener números de teléfono de servicio
 
@@ -50,14 +51,14 @@ Existen tres formas de obtener números de servicio:
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. En el navegación de la izquierda, vaya a**números de teléfono**de **voz** > y, después, haga clic en **Agregar**.
+1. En el navegación de la izquierda, vaya a números de teléfono de **voz**  >  **Phone numbers** y, después, haga clic en **Agregar**.
 2. Escriba un nombre para el pedido y agregue una descripción.
 3. En la página ubicación y cantidad, haga lo siguiente:
-    1. En **país o región**, seleccione un país o una región.
-    1. En **tipo de numeración**, seleccione el tipo de número de servicio que desee.
-    1. En **Ubicación**, seleccione una ubicación. Si necesita crear una nueva ubicación, haga clic en **Agregar una ubicación**.
-    1. En **código de área**, seleccione un código de área. 
-    2. En **cantidad**, introduzca la cantidad de números que desea para su organización y, a continuación, haga clic en **siguiente** para seleccionar los números.
+    1. En **país o región** , seleccione un país o una región.
+    1. En **tipo de numeración** , seleccione el tipo de número de servicio que desee.
+    1. En **Ubicación** , seleccione una ubicación. Si necesita crear una nueva ubicación, haga clic en **Agregar una ubicación**.
+    1. En **código de área** , seleccione un código de área. 
+    2. En **cantidad** , introduzca la cantidad de números que desea para su organización y, a continuación, haga clic en **siguiente** para seleccionar los números.
 4. Seleccione los números que desee. Tienes 10 minutos para seleccionar tus números de teléfono y realizar tu pedido. Si tardas más de 10 minutos, los números de teléfono se devolverán al conjunto de números.
 5. Cuando esté listo para realizar su pedido, haga clic en **realizar pedido**.
 
@@ -74,7 +75,7 @@ Si su país o región no aparecen en el Asistente para migración, puede [enviar
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams** 
 
-En el navegación de la izquierda, vaya a**números de teléfono** de **voz** > para ver los números de la organización, incluida la ubicación, el tipo de número y la información de estado.
+En el navegación de la izquierda, **Voice** vaya a  >  **números de teléfono** de voz para ver los números de la organización, incluida la ubicación, el tipo de número y la información de estado.
 
 ## <a name="assign-service-phone-numbers"></a>Asignar números de teléfono de servicio
 

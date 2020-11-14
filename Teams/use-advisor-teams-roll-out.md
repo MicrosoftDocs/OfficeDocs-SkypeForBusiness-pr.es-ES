@@ -10,6 +10,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - remotework
+- m365initiative-deployteams
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 00ec8303c73df100b93808f5fdc1e775f80ec289
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: afc3524466b9078b0050b23b59d45d049d11793b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503427"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030826"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -89,7 +90,7 @@ Las siguientes secciones describen cada evaluación, incluyendo si algo es un re
 |Prueba de evaluación  |Qué le indica  |
 |---------|---------|
 |Dominio de vanidad configurado     |Si existe un dominio non-@onmicrosoft.com configurado para el inquilino (por ejemplo, @contoso.onmicrosoft.com). Puede utilizar el dominio @onmicrosoft.com, por supuesto, o puede configurar un dominio de vanidad: su elección. Para más información, lea [Agregar un dominio a Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). |
-|Licencias de Teams     |Este es un requisito previo: usted**debe tener **licencias de Teams para poder desplegar Teams. Consulta Microsoft Graph para ver si tiene licencias de Equipos (con al menos una licencia disponible para asignar). Para obtener más información, lea la [Descripción del servicio de Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
+|Licencias de Teams     |Este es un requisito previo: usted **debe tener** licencias de Teams para poder desplegar Teams. Consulta Microsoft Graph para ver si tiene licencias de Equipos (con al menos una licencia disponible para asignar). Para obtener más información, lea la [Descripción del servicio de Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Licencias en línea de Exchange     |Si tiene una suscripción activa con licencias de Exchange Online disponibles. Aunque Exchange no es necesario para las funciones básicas de Teams, la integración con Exchange ofrece una experiencia de Teams óptima. Consulta Microsoft Graph para analizar las suscripciones asociadas con su arrendatario y validar si tiene suscripciones con una licencia de Exchange Online elegible (con al menos una licencia disponible para asignar). Para más información, lea [Cómo interactúan Teams y Exchange](exchange-teams-interact.md).    |
 |Licencias de SharePoint Online     |Si tiene una suscripción activa con licencias de SharePoint Online disponibles. Recomendamos una licencia de SharePoint Online por usuario para proporcionar OneDrive para la Empresa para el almacenamiento de archivos en chats Consulta Microsoft Graph para ver si tiene licencias de SharePoint Online (con al menos una licencia disponible para asignar). Para obtener más información, lea [Cómo SharePoint Online y OneDrive para la Empresa interactúan con Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
 |Acceso de invitado habilitado     |Si el [acceso de invitados](guest-access.md) está activado. El acceso de invitados le permite invitar a usuarios externos a unirse a sus equipos. Consulte [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) para saber cómo activar el acceso de los invitados en Teams. La lista de control incluye las configuraciones necesarias de Azure AD. |

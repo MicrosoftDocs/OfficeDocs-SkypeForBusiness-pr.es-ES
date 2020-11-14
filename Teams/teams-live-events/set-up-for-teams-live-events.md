@@ -13,16 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: Configuración de eventos en directo en Teams, incluida la configuración de la red, la asignación de licencias, la programación y las características de eventos en directo y las soluciones de distribución de video.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dacb226d83753a39153e876999c23dd6d6961122
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 0125f3772b9cf2f090df3adee18124b4293f59b1
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655467"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030916"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -47,7 +48,7 @@ Las directivas de los eventos en directo se usan para controlar qué usuarios de
 
 <a name="bkcreatepolicy"> </a>
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Meetings**  >  **directivas de eventos en directo**de reuniones.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Meetings**  >  **directivas de eventos en directo** de reuniones.
 2. Realice una de las siguientes opciones:
 
     - Si desea editar la directiva predeterminada actual, elija **Global (predeterminado para toda la organización)**.
@@ -100,10 +101,10 @@ Las siguientes soluciones de SDN y eCDN están preintegradas y pueden ser config
 
 - **Tabla OmniCache** proporciona una distribución en red de nueva generación y garantiza una entrega de contenido de vídeo sin problemas a través de las redes WAN globales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y el soporte de difusión de eventos en directo y las transmisiones a petición. La compatibilidad de la tabla OmniCache con los eventos en directo creados de Teams estará disponible próximamente. [Más información](https://rampecdn.com).
 
-- **Riverbed**, el estándar de la industria en la optimización de red, está extendiendo sus soluciones de aceleración a Microsoft Teams y streaming.  Ahora, los clientes de Microsoft 365 pueden acelerar el tráfico 365, incluidos los equipos y la transmisión, junto con una amplia variedad de servicios líderes de SaaS empresarial para aumentar la productividad del personal desde cualquier lugar. Los equipos y la aceleración de la transmisión por secuencias se pueden habilitar mediante una configuración sin esfuerzo, que incluye toda la seguridad del soporte de primer nivel de Riverbed y de la inversión continua.
+- **Riverbed** , el estándar de la industria en la optimización de red, está extendiendo sus soluciones de aceleración a Microsoft Teams y streaming.  Ahora, los clientes de Microsoft 365 pueden acelerar el tráfico 365, incluidos los equipos y la transmisión, junto con una amplia variedad de servicios líderes de SaaS empresarial para aumentar la productividad del personal desde cualquier lugar. Los equipos y la aceleración de la transmisión por secuencias se pueden habilitar mediante una configuración sin esfuerzo, que incluye toda la seguridad del soporte de primer nivel de Riverbed y de la inversión continua.
 
 > [!NOTE]
-> La solución de SDN y eCDN elegida estará sujeta a los **términos de servicio y a la directiva de privacidad del proveedor de terceros** y controlará el uso de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de la licencia por volumen de Microsoft ni a los términos de servicios en línea. Si no está de acuerdo con los**términos del proveedor de terceros**, entonces no necesita habilitar la solución en Teams.
+> La solución de SDN y eCDN elegida estará sujeta a los **términos de servicio y a la directiva de privacidad del proveedor de terceros** y controlará el uso de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de la licencia por volumen de Microsoft ni a los términos de servicios en línea. Si no está de acuerdo con los **términos del proveedor de terceros** , entonces no necesita habilitar la solución en Teams.
 
 Después de configurar la solución de SDN y eCDN, estará listo para configurar el proveedor de eventos en directo de Teams.
 

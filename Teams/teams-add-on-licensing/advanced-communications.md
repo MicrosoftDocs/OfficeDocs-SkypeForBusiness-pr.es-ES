@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d596bb890ad2976ec16179f845397df5e27bc38
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321663"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031216"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento de comunicaciones avanzadas para Microsoft Teams
 
@@ -33,9 +34,9 @@ Si su organización desea mejorar aún más su experiencia de comunicación, obt
 
 Las comunicaciones avanzadas proporcionan funciones mejoradas de llamadas y reuniones que abordan un espectro de necesidades de comunicación, entre las que se incluyen las siguientes:
 
-- **Llegar a audiencias mayores**: Ayude a los usuarios a permanecer conectado con eventos en vivo para un máximo de 20.000 participantes y reuniones interactivas para participantes de 1.000 con la capacidad de habilitar hasta 20.000 participantes en una experiencia de reunión de solo lectura.
-- Personalización y personalización de **reuniones**: impulsar la normalización en reuniones para los escenarios internos y personalizados, con características como la sala de reuniones personalizada con la marca. Implemente la flexibilidad en todos los departamentos de su organización. 
-- **Administrar las comunicaciones de la organización**: supervisar, realizar un seguimiento y analizar los datos de los usuarios y dispositivos para garantizar una experiencia fluida.
+- **Llegar a audiencias mayores** : Ayude a los usuarios a permanecer conectado con eventos en vivo para un máximo de 20.000 participantes y reuniones interactivas para participantes de 1.000 con la capacidad de habilitar hasta 20.000 participantes en una experiencia de reunión de solo lectura.
+- Personalización y personalización de **reuniones** : impulsar la normalización en reuniones para los escenarios internos y personalizados, con características como la sala de reuniones personalizada con la marca. Implemente la flexibilidad en todos los departamentos de su organización. 
+- **Administrar las comunicaciones de la organización** : supervisar, realizar un seguimiento y analizar los datos de los usuarios y dispositivos para garantizar una experiencia fluida.
 
 Las comunicaciones avanzadas están disponibles en todos los mercados de Microsoft 365 como complemento de cualquier suscripción de Microsoft 365 u Office 365 que se haya recibido. Las características incluidas en las comunicaciones avanzadas no se agregarán a otros planes de Microsoft 365 u Office 365 y no se pueden comprar por separado. Para obtener las características, debe comprar el complemento.
 

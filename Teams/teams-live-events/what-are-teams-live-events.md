@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -18,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a70986ad8329d9f90485f59aeac1f61d3309fd31
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800663"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031456"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos de Microsoft Teams Live?
 
@@ -99,7 +100,7 @@ La experiencia de los asistentes es el aspecto más importante de los eventos en
 
 Los administradores de inquilinos pueden ver análisis de uso en tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El [Informe de uso de eventos en directo](../teams-analytics-and-reports/teams-live-event-usage-report.md) muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Vaya a [planificar eventos en vivo de Teams](plan-for-teams-live-events.md).
 

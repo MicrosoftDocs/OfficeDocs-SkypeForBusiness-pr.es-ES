@@ -10,6 +10,7 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - SPO_Content
+- m365initiative-externalcollab
 ms.reviewer: rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos.
-ms.openlocfilehash: 1040d548140d0fbb781e9cc9296be3d374b7b314
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 40bc8c68ac3f1ad3117fa47aa0aad5f14ff3be69
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48918992"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030996"
 ---
 # <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 

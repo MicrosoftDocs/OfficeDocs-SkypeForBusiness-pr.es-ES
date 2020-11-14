@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -23,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams y Úsela para controlar las características disponibles para los participantes de la reunión para las reuniones programadas por los usuarios.
-ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 11f3a0f585a3fad2d2fbb653496a151bfd75160d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486825"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030716"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -57,16 +58,16 @@ Puede editar la configuración en la directiva global o crear y asignar una o m�
 2. Haga clic en **Agregar**.
 3. Escriba un nombre y una descripción para la directiva. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres.
 4. Elija la configuración que desee.
-5. Haga clic en **Guardar **.
+5. Haga clic en **Guardar**.
 
 Por ejemplo, supongamos que tiene un grupo de usuarios y quiere limitar el ancho de banda que necesitaría la reunión. Cree una nueva directiva personalizada denominada "ancho de banda limitado" y deshabilite las opciones siguientes:
 
-En **Audio y vídeo**:
+En **Audio y vídeo** :
 
 - Desactive Permitir la grabación en la nube.
 - Desactive Permitir vídeo IP.
 
-En **Uso compartido de contenido**:
+En **Uso compartido de contenido** :
 
 - Desactive el modo de uso compartido de la pantalla.
 - Desactive Permitir pizarra.
@@ -81,7 +82,7 @@ Puede editar la directiva global y las directivas personalizadas que cree.
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  **Meeting policies**.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
 3. Desde aquí, realice los cambios que desee.
-4. Haga clic en **Guardar **.
+4. Haga clic en **Guardar**.
 
 > [!NOTE]
 > A un usuario solo se le puede asignar una directiva de reunión a la vez.
@@ -169,7 +170,7 @@ La aplicación de calendario del canal se mostrará en la sección **aplicacione
 
 Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta opción controla si los usuarios pueden programar reuniones privadas en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
 
-Tenga en cuenta que si desactiva permitir la programación de **reuniones privadas** y **permitir la programación de reuniones de canal**, los usuarios de Teams deshabilitarán las opciones **agregar asistentes requeridos** y agregar opciones de **canal** . Esta opción está activada de forma predeterminada.
+Tenga en cuenta que si desactiva permitir la programación de **reuniones privadas** y **permitir la programación de reuniones de canal** , los usuarios de Teams deshabilitarán las opciones **agregar asistentes requeridos** y agregar opciones de **canal** . Esta opción está activada de forma predeterminada.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Permitir reunirse ahora en reuniones privadas
 
@@ -188,7 +189,7 @@ Esta es una directiva por usuario y se aplica antes de que se inicie una reunió
 
 ### <a name="allow-transcription"></a>Permitir la transcripción
 
-Esta es una combinación de una directiva por organizador y por usuario. Esta configuración controla si las características de subtítulos y transcripción están disponibles durante la reproducción de grabaciones de reunión. Si desactiva esta opción, las opciones **Buscar** y **CC** no estarán disponibles durante la reproducción de una grabación de reunión. La persona que inició la grabación necesita esta configuración activada para que la grabación también incluya transcripción.
+Esta es una combinación de una directiva por organizador y por usuario. Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. Si desactiva esta opción, las opciones de **Búsqueda** y **CC** no estarán disponibles durante la reproducción de la grabación de una reunión. La persona que ha iniciado la grabación necesita que esta opción esté activada para que la grabación también incluya transcripción.
 
 Tenga en cuenta que la transcripción para las reuniones grabadas solo se admite en este momento para los usuarios que tienen el idioma de Teams establecido en inglés y cuando se habla de inglés en la reunión.
 
@@ -478,7 +479,7 @@ Esta es una directiva por usuario y se aplica durante una reunión. Esta configu
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Desactivado pero el usuario puede invalidar**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta configuración es la predeterminada. |
+|**Desactivado pero el usuario puede invalidar**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento ( **...** ) para activarlo. Esta configuración es la predeterminada. |
 |**Deshabilitado**     | Los subtítulos en vivo se deshabilitan para el usuario durante la reunión. El usuario no tiene la opción de activarlos.          |
 
 <a name="bkcontentsharing"> </a>
@@ -499,9 +500,9 @@ Actualmente, solo puede usar PowerShell para establecer esta configuración de d
 
 Para especificar el valor predeterminado de la configuración ¿ **quién puede presentar?** en Teams, establezca el parámetro **DesignatedPresenterRoleMode** en una de las siguientes opciones:
 
-- **EveryoneUserOverride**: todos los participantes de la reunión pueden ser moderadores. Este es el valor predeterminado. Este parámetro corresponde a la configuración **todos** en Teams.
-- **EveryoneInCompanyUserOverride**: los usuarios autenticados de la organización, incluidos los invitados, pueden ser moderadores. Este parámetro corresponde a la configuración de las **personas de mi organización** de Teams.
-- **OrganizerOnlyUserOverride**: solo el organizador de la reunión puede ser Moderador y todos los participantes de la reunión se designan como asistentes. Este parámetro corresponde a la configuración **solo yo** de Teams.
+- **EveryoneUserOverride** : todos los participantes de la reunión pueden ser moderadores. Este es el valor predeterminado. Este parámetro corresponde a la configuración **todos** en Teams.
+- **EveryoneInCompanyUserOverride** : los usuarios autenticados de la organización, incluidos los invitados, pueden ser moderadores. Este parámetro corresponde a la configuración de las **personas de mi organización** de Teams.
+- **OrganizerOnlyUserOverride** : solo el organizador de la reunión puede ser Moderador y todos los participantes de la reunión se designan como asistentes. Este parámetro corresponde a la configuración **solo yo** de Teams.
 
 Tenga en cuenta que después de establecer el valor predeterminado, los organizadores de reuniones pueden cambiar esta configuración en Teams y elegir quién puede presentar en las reuniones que programan.
 
@@ -528,7 +529,7 @@ Para especificar qué complemento de la reunión quiere que esté disponible par
 - Establezca el parámetro en **TeamsAndSfB** para habilitar tanto el complemento de reuniones de equipos como el complemento de Skype empresarial en Outlook. Este es el valor predeterminado.
 - Establezca el parámetro en **Teams** para habilitar solo el complemento de reunión de Teams en Outlook. Esta configuración de Directiva garantiza que todas las reuniones futuras tengan un vínculo para unirse a una reunión de equipos. No migra los vínculos de unirse a reuniones de Skype empresarial existentes a teams. Esta configuración de Directiva no afecta a la presencia, la conversación, las llamadas RTC o a cualquier otra funcionalidad de Skype empresarial, lo que significa que los usuarios continuarán usando Skype empresarial para estas capacidades.
 
-  Si establece el parámetro en **Teams**y, a continuación, vuelve a **TeamsAndSfB**, los complementos de reuniones estarán habilitados. Sin embargo, ten en cuenta que los equipos existentes de los vínculos de unirse a la reunión no se migrarán a Skype empresarial. Solo las reuniones de Skype empresarial programadas después del cambio tendrán un vínculo para unirse a una reunión de Skype empresarial.
+  Si establece el parámetro en **Teams** y, a continuación, vuelve a **TeamsAndSfB** , los complementos de reuniones estarán habilitados. Sin embargo, ten en cuenta que los equipos existentes de los vínculos de unirse a la reunión no se migrarán a Skype empresarial. Solo las reuniones de Skype empresarial programadas después del cambio tendrán un vínculo para unirse a una reunión de Skype empresarial.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Configuración de la Directiva de reunión-modo filtros de vídeo
 

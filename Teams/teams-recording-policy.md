@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
+ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908579"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002202"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para realizar llamadas & reuniones
 
@@ -40,7 +40,7 @@ Teams ha sido mejorado para admitir la integración de soluciones de grabación 
 
 - Nuevas directivas administrativas para la grabación de cumplimiento, incluida la integración con las herramientas y políticas de reuniones y herramientas administrativas existentes de Teams
 
-La grabación de cumplimiento puede habilitarse en los usuarios de Microsoft 365 A3/A5/E3/E5 y Office 365 A3/A5/E3/E5. 
+La grabación de cumplimiento se puede habilitar en los usuarios de Microsoft 365 A3/A5/E3/E5 o Business Premium y Office 365 A3/A5/E3/E5. 
 
 Las capacidades de integración de soluciones de grabación de cumplimiento también fueron revisadas en el encendido 2019 de la [<span class="underline">sesión de cumplimiento y Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 

@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
@@ -19,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: a53bf13747a34ccf8c8af29794a21c8f603cab9c
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: e7036a8ba15719df50d609e7b1ca499cf5edf328
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346161"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030596"
 ---
 # <a name="edit-guest-user-information"></a>Editar información del usuario invitado
 
@@ -42,7 +43,7 @@ Puede editar la información de invitados desde el centro de administración de 
 
    ![Administrar información de contacto ](media/guest-user-data1.png)
 
-4. Edite los campos que elija, excepto **nombre para mostrar** , en **administrar información de contacto**y, a continuación, seleccione **Guardar cambios**.
+4. Edite los campos que elija, excepto **nombre para mostrar** , en **administrar información de contacto** y, a continuación, seleccione **Guardar cambios**.
 
    ![Editar la información de contacto de los usuarios invitados](media/manage-guest-contact.png)
 

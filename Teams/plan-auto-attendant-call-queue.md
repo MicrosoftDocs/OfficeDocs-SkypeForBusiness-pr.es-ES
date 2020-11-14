@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga más información sobre los operadores automáticos y las colas de llamadas, y sobre cómo usarlos para que las personas que llaman puedan moverse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908609"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031566"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear los operadores automáticos de Teams y las colas de llamadas
 

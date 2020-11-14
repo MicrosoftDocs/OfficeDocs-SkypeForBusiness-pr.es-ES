@@ -16,14 +16,15 @@ ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 574e770eb1756a2c83758b830c26e6adbac24183
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814106"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031766"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -67,7 +68,7 @@ Las coordenadas de la reunión (el enlace para unirse a Teams y los números de 
 
 ## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Complemento de reunión de Teams y FindTime para Outlook
 
-FindTime es un complemento para Outlook que ayuda a los usuarios a alcanzar consenso en una reunión en todas las empresas. Una vez que las invitaciones de reunión han proporcionado las horas preferidas, FindTime envía la invitación a la reunión en nombre del usuario. Si la opción **Reunión en línea**está seleccionada en FindTime, FindTime programará una reunión de Skype Empresarial o de Microsoft Teams. (FindTime usará el canal de reunión en línea predeterminado que su organización haya establecido).
+FindTime es un complemento para Outlook que ayuda a los usuarios a alcanzar consenso en una reunión en todas las empresas. Una vez que las invitaciones de reunión han proporcionado las horas preferidas, FindTime envía la invitación a la reunión en nombre del usuario. Si la opción **Reunión en línea** está seleccionada en FindTime, FindTime programará una reunión de Skype Empresarial o de Microsoft Teams. (FindTime usará el canal de reunión en línea predeterminado que su organización haya establecido).
 
 > [!NOTE]  
 > Si ha guardado una configuración de Skype Empresarial en su [panel de control de Findtime](https://findtime.microsoft.com/UserDashboard), Findtime la usará en lugar de Microsoft Teams. Si desea usar Microsoft Teams, elimine la configuración de Skype Empresarial en su panel de control.
@@ -85,7 +86,7 @@ Para obtener más información sobre cómo configurar la autenticación, consult
 
 ## <a name="enable-private-meetings"></a>Habilitar las reuniones privadas
 
-Para que se implemente el complemento, debe estar habilitado **Permitir la programación de reuniones privadas** en el Centro de administración de Microsoft Teams. En el centro de administración, vaya a **Reuniones** > **Directivas de reunión** y, en la sección **General**, habilite **Permitir la programación de reuniones privadas**).
+Para que se implemente el complemento, debe estar habilitado **Permitir la programación de reuniones privadas** en el Centro de administración de Microsoft Teams. En el centro de administración, vaya a **Reuniones** > **Directivas de reunión** y, en la sección **General** , habilite **Permitir la programación de reuniones privadas** ).
 
 ![Captura de pantalla de la configuración en el centro de administración de Microsoft Teams.](media/teams-add-in-for-outlook-image1.png)
 
@@ -167,14 +168,14 @@ Si el complemento sigue sin mostrarse, siga estos pasos para comprobar la config
 > [!NOTE]
 > La edición incorrecta del registro puede dañar gravemente el sistema. Antes de realizar cambios en el registro, debe hacer una copia de seguridad de los datos valiosos del equipo.
 - Iniciar RegEdit.exe
-- Ir a HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
+- Ir a HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
 - Verifique que TeamsAddin. FastConnect exista.
 - Dentro de TeamsAddin. FastConnect, compruebe que LoadBehavior exista y esté establecido en 3.
   - Si LoadBehavior tiene un valor distinto de 3, cámbielo a 3 y reinicie Outlook.
 
 ### <a name="delegate-scheduling-does-not-work"></a>La programación delegada no funciona
 
-Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), el delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. Como solución alternativa, el administrador puede Agregar la siguiente cadena a la lista de permitidos de EWS: "*SchedulingService*". 
+Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), el delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. Como solución alternativa, el administrador puede Agregar la siguiente cadena a la lista de permitidos de EWS: " *SchedulingService* ". 
 
 
 ## <a name="related-topics"></a>Temas relacionados

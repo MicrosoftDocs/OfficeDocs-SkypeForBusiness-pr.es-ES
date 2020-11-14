@@ -14,15 +14,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3eb845321a13e7701f7a8d49b975fe077fa2e14
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 61b55a8cd734d4f63db4e3d6e1379c0ed235c038
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778793"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030416"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager
 
@@ -100,7 +101,7 @@ El comportamiento predeterminado del MSI es instalar la aplicación Teams en cua
 
 ### <a name="use-group-policy-recommended"></a>Usar Directiva de grupo (recomendado)
 
-Habilite la opción de Directiva de Grupo **Evitar que Microsoft Teams se inicie automáticamente después de la instalación** . Puede encontrar esta opción de directiva en Configuración de usuario\Directivas\Plantillas administrativas\Microsoft Teams. Este es el método recomendado, ya que puede activar o desactivar la opción de directiva según las necesidades de su organización.
+Habilite la opción de Directiva de Grupo **Evitar que Microsoft Teams se inicie automáticamente después de la instalación**. Puede encontrar esta opción de directiva en Configuración de usuario\Directivas\Plantillas administrativas\Microsoft Teams. Este es el método recomendado, ya que puede activar o desactivar la opción de directiva según las necesidades de su organización.
 
 Cuando habilita esta opción de directiva antes de instalar Teams, Teams no se inicia automáticamente cuando el usuario inicia sesión en Windows. Después de que un usuario inicia sesión en Teams por primera vez, Teams se iniciará automáticamente la próxima vez que el usuario inicie sesión.
 

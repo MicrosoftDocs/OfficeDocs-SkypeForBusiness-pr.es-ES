@@ -12,6 +12,7 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 ms.custom:
 - seo-marvel-mar2020
 f1.keywords:
@@ -20,12 +21,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 755a8499f62e39333b075519cc181dbd7c44e143
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e7846a5f31b07681dc39651b133f0922c1ec9629
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521627"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031246"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Más información sobre cómo implementar Audioconferencia en Microsoft Teams
 

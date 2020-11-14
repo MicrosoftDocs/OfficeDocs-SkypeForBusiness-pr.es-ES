@@ -7,7 +7,7 @@ ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: Comience a usar Teams implementando los primeros equipos y canales para poder crear su experiencia con Teams antes de implementarlo en toda la organización.
 localization_priority: Priority
 search.appverid: MET150
@@ -15,20 +15,21 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ee5abda84737a75b539fdc808f30abf78dd797d4
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 0d59a3dbecb10a1666949273023112fa09961639
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583197"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030436"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 
 > [!IMPORTANT]
-> Si está implementando Microsoft Teams rápidamente en respuesta a la alta demanda para admitir el **trabajo remoto**, use esta Guía de introducción para implementar Teams en toda su organización. Se aplica esta guía, incluso cuando Teams sea la primera carga de trabajo de Microsoft 365 u Office 365.
+> Si está implementando Microsoft Teams rápidamente en respuesta a la alta demanda para admitir el **trabajo remoto** , use esta Guía de introducción para implementar Teams en toda su organización. Se aplica esta guía, incluso cuando Teams sea la primera carga de trabajo de Microsoft 365 u Office 365.
 
 Para empezar a trabajar rápidamente en Teams, le recomendamos que cree dos o tres equipos y canales para un grupo selecto de primeros usuarios. Al empezar implementando Teams a pequeña escala, se familiarizará con Teams mediante su uso y obtendrá información valiosa sobre cómo implementar Teams en toda la organización. Si es una pequeña empresa, esta guía de inicio rápido es todo lo que necesita para implementar Teams para toda la organización.
 
@@ -46,7 +47,7 @@ Aquí le mostramos cómo implementar el primer conjunto de equipos y canales par
 
 Si es una organización grande, tiene una configuración de Skype Empresarial híbrida o local, tiene requisitos estrictos normativos o de cumplimiento, o si desea implementar características de reuniones o voz (como planes de llamadas o sistema telefónico), empiece por leer [Cómo implementar Teams](how-to-roll-out-teams.md). Le recomendamos que de todos modos empiece con esta sección de **Introducción** para mejorar sus habilidades y empezar a planear la implementación en toda la organización. "Planear Teams con Teams". Empiece poco a poco implementando Teams con chat, equipos, canales y aplicaciones y continúe desde ahí. Estas experiencias iniciales le ayudarán a dar a conocer Teams y generar entusiasmo en toda la organización para la siguiente fase de lanzamiento. 
 
-Si es una pequeña empresa o si **está implementando Teams rápidamente para admitir el nuevo trabajo remoto**, use esta Guía de introducción para implementar Teams en su organización. Asegúrese de consultar las plantillas disponibles específicamente para pequeñas empresas para que la implementación en su organización sea más fácil y eficaz. Consulte [Introducción a las plantillas de Teams para pequeñas y medianas empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
+Si es una pequeña empresa o si **está implementando Teams rápidamente para admitir el nuevo trabajo remoto** , use esta Guía de introducción para implementar Teams en su organización. Asegúrese de consultar las plantillas disponibles específicamente para pequeñas empresas para que la implementación en su organización sea más fácil y eficaz. Consulte [Introducción a las plantillas de Teams para pequeñas y medianas empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 

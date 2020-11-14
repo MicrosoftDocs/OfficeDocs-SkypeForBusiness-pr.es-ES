@@ -10,6 +10,8 @@ audience: admin
 ms.collection:
 - M365-collaboration
 - M365-voice
+- m365initiative-voice
+- m365solution-voice
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -21,12 +23,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las características de voz en la nube de Microsoft Teams y las decisiones de implementación que realizará para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 243c4d9f7cc2987fa796b7d21a5a37a49d4db7ec
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
+ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878564"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071771"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear la solución de voz de Teams 
 
