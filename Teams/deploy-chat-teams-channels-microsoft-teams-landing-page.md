@@ -12,6 +12,7 @@ description: Contiene instrucciones paso a paso para configurar los ajustes de T
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,16 +21,16 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: cefcb240e27f5934538c88f5316181be25f24a60
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878534"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031236"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
-Teams proporciona una experiencia de colaboración excelente para su organización y la configuración predeterminada parece funcionar para la mayoría de organizaciones. Este artículo le ayudará a decidir si cambiar alguna opción de la configuración predeterminada, en función del perfil y los requisitos empresariales de su organización, después, le guiará con cada cambio. Hemos dividido las opciones en dos grupos, comenzando por el conjunto principal de [cambios que es más probable que realice](#core-deployment-decisions). El segundo grupo incluye las [opciones adicionales](#additional-deployment-decisions) que puede que quiera configurar, según las necesidades de su organización.
+Teams proporciona una experiencia de colaboración excelente para su organización y la configuración predeterminada parece funcionar para la mayoría de organizaciones. Este artículo le ayudará a decidir si cambiar alguna opción de la configuración predeterminada, en función del perfil y los requisitos empresariales de su organización, después, le guiará con cada cambio. Hemos dividido las opciones en dos grupos, comenzando por el conjunto principal de [cambios que es más probable que realice](#core-deployment-decisions). El segundo grupo incluye la [configuración adicional](#additional-deployment-decisions) que puede que quiera configurar según las necesidades de su organización.
 
 Para empezar, vea nuestro breve vídeo sobre el chat, los equipos y los canales de Teams (4:30 minutos):
 
@@ -40,14 +41,14 @@ Para empezar, vea nuestro breve vídeo sobre el chat, los equipos y los canales 
  - [Conceptos básicos de Microsoft Teams para TI](https://aka.ms/MicrosoftTeamsforIT), incluidos vídeos breves (8-10 minutos) que muestran cómo implementar, configurar y administrar Teams.
 
 > [!TIP]
-> Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Añada otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que maneja la adopción de Teams.
+> Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Añada otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que fomenta el uso de Teams.
 
  > [!Note]
  > Para obtener más información sobre las características de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="chat-deployment-prerequisites"></a>Requisitos previos a la implementación del chat
 
-Antes de implementar Teams en toda la organización, dedique un tiempo para confirmar que el entorno está listo para Teams. Revise [Preparar la red de la organización para Teams](prepare-network.md) y realice los cambios necesarios en el entorno.
+Antes de implementar Teams en toda la organización, dedique un tiempo para confirmar que el entorno está listo para Teams. Revise [Preparar la red de su organización para Teams](prepare-network.md) y realice los cambios necesarios en su entorno.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -69,9 +70,9 @@ Teams ofrece un conjunto de roles de administrador personalizados que pueden usa
 |¿A quién se asignará el rol de Especialista de soporte en comunicaciones de Teams?||
 |||
 
-### <a name="teams-owners-and-members"></a>Miembros y propietarios de equipos
+### <a name="teams-owners-and-members"></a>Propietarios y miembros de Teams
 
-Además de los roles de administrador, Teams le permite asignar a los propietarios roles de usuarios y miembros, y ofrecerles de forma selectiva las capacidades del moderador (si se ha configurado la moderación) para controlar quién puede realizar determinadas acciones dentro de un canal. La moderación le permite controlar quién puede iniciar nuevas publicaciones en un canal, agregar y quitar miembros del equipo como moderadores y controlar si los miembros del equipo pueden responder a los mensajes de canal existentes.
+Además de los roles de administrador, Teams le permite asignar a los propietarios roles de propietarios y miembros, además de seleccionar las capacidades que le quiere ofrecer al moderador (si se ha configurado la moderación) para controlar quién puede realizar determinadas acciones dentro de un canal. La moderación le permite controlar quién puede iniciar nuevas publicaciones en un canal, agregar y quitar miembros del equipo como moderadores y controlar si los miembros del equipo pueden responder a los mensajes que haya en el canal.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -81,7 +82,7 @@ Además de los roles de administrador, Teams le permite asignar a los propietari
 
 ### <a name="messaging-policies"></a>Directivas de mensajería
 
-Las directivas de mensajería controlan qué características de mensajería están disponibles para los usuarios en canales y chats de Teams. Por ejemplo, quién puede editar y eliminar los mensajes enviados, quién puede usar el chat, quién puede usar memes en conversaciones y mucho más. De forma predeterminada, se asigna la directiva de mensajería global a los usuarios y todas las características están **Activadas**. Puede usar la directiva global predeterminada o bien crear una nueva o más directivas de mensajería personalizadas para los miembros de su organización. 
+Las directivas de mensajería controlan qué características de mensajería están disponibles para los usuarios en los canales y chats de Teams. Por ejemplo, quién puede editar y eliminar los mensajes enviados, quién puede usar el chat, quién puede usar memes en conversaciones, entre otras. De forma predeterminada, se asigna la directiva de mensajería global a los usuarios y todas las características están **Activadas**. Puede usar la directiva global predeterminada o crear una nueva o más directivas de mensajería personalizadas para las personas de su organización. 
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -92,7 +93,7 @@ Las directivas de mensajería controlan qué características de mensajería est
 
 ### <a name="external-access"></a>Acceso externo
 
-El acceso externo (anteriormente conocido como federación) permite que los usuarios de Teams y Skype Empresarial se comuniquen con usuarios de fuera de la organización. Al activarlo y agregar dominios a la lista de permitidos, los usuarios pueden comunicarse con otros usuarios de dominios y organizaciones diferentes. El acceso externo se diferencia del acceso de invitado en que se le da permiso de acceso a un dominio completo, no solo a un usuario individual. El acceso externo está desactivado de forma predeterminada.
+El acceso externo (anteriormente conocido como federación) permite que los usuarios de Teams y de Skype Empresarial se comuniquen con usuarios de fuera de la organización. Al activarlo y agregar dominios a la lista de permitidos, los usuarios pueden comunicarse con usuarios en otros dominios y organizaciones. El acceso externo se diferencia del acceso de invitado en que se le da permiso de acceso a un dominio completo, no solo a un usuario individual. El acceso externo está desactivado de forma predeterminada.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -101,7 +102,7 @@ El acceso externo (anteriormente conocido como federación) permite que los usua
 
 ### <a name="guest-access"></a>Acceso de invitado
 
-El acceso de invitado en Teams permite a personas fuera de su organización acceder a los equipos y canales. Puede usar la configuración de acceso de invitado para controlar qué características pueden o no pueden usar los usuarios invitados. El acceso de invitado está desactivado de forma predeterminada. Para obtener más información, consulte [Acceso de invitado a Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+El acceso de invitado en Teams permite a personas fuera de su organización acceder a los equipos y canales. Puede usar la configuración de acceso de invitado para controlar qué características pueden o no usar los usuarios invitados. El acceso de invitado está desactivado de forma predeterminada. Para obtener más información, consulte [Acceso de invitado a Teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 > [!NOTE]
 > Para obtener más información sobre el acceso externo y el acceso de invitado, consulte: [Comunicación con usuarios de otras organizaciones en Microsoft Teams](communicate-with-users-from-other-organizations.md)
@@ -115,7 +116,7 @@ El acceso de invitado en Teams permite a personas fuera de su organización acce
 
 ### <a name="teams-settings"></a>Configuración de Teams
 
-La configuración de Teams le permite configurar los equipos con características como la integración de correo electrónico, opciones de almacenamiento de nube, pestaña de la organización, configuración de dispositivos de salas de reuniones y el ámbito de búsqueda. Cuando realice cambios en esta configuración, se aplicarán a todos los equipos de su organización. Para obtener más información, consulte [Configuración de Teams](enable-features-office-365.md#teams-settings).
+La configuración de Teams le permite configurar equipos con características como la integración de correo electrónico, opciones de almacenamiento en la nube, pestaña de la organización, configuración de dispositivos de salas de reuniones y el ámbito de búsqueda. Cuando haga cambios en esta configuración, se aplicarán a todos los equipos de su organización. Para obtener más información, consulte [Configuración de Teams](enable-features-office-365.md#teams-settings).
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -124,7 +125,7 @@ La configuración de Teams le permite configurar los equipos con característica
 
 ### <a name="teams-clients"></a>Clientes de Teams
 
-Teams es compatible con una serie de clientes web, de escritorio y móviles, y su configuración predeterminada permite a los usuarios elegir entre los clientes que quieran. Para obtener más información, consulte [Obtener clientes para Teams](get-clients.md).
+Teams es compatible con una serie de clientes web, de escritorio y móviles. Además, su configuración predeterminada permite que los usuarios elijan entre los clientes que quieran. Para obtener más información, consulte [Obtener clientes para Teams](get-clients.md).
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -134,7 +135,7 @@ Teams es compatible con una serie de clientes web, de escritorio y móviles, y s
 
 ### <a name="teams-usage-reporting"></a>Informes de uso de Teams
 
-El administrador global, el administrador de servicios de Teams y los lectores de informes pueden ver los informes de uso de Teams. Para obtener más información, consulte los [análisis de uso de Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics).
+Las personas con los roles de administrador global, administrador de servicios de Teams y lector de informes pueden ver los informes de uso de Teams. Para obtener más información, consulte los [análisis de uso de Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics).
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -143,7 +144,7 @@ El administrador global, el administrador de servicios de Teams y los lectores d
 
 ### <a name="teams-default-apps"></a>Aplicaciones predeterminadas de Teams 
 
-Teams ofrece una serie de aplicaciones propias (proporcionadas por Microsoft) y aplicaciones de terceros para interactuar con los usuarios, ayudar en la productividad e integrar los servicios empresariales usados frecuentemente en Teams. Obtener aplicaciones desde la Tienda Teams. Las aplicaciones están activadas de forma predeterminada en Teams. 
+Teams ofrece una serie de aplicaciones propias (proporcionadas por Microsoft) y aplicaciones de terceros para interactuar con los usuarios, ayudar en la productividad e integrar en Teams los servicios que más se usan en las empresas. Las aplicaciones se pueden obtener desde la Tienda Teams y están activadas de forma predeterminada en Teams. 
 
 Para obtener más información sobre cómo implementar y administrar aplicaciones en Teams, consulte las instrucciones detalladas sobre [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md).
 
@@ -162,7 +163,7 @@ Teams se incluye como parte de muchas licencias de Microsoft 365 u Office 365. P
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilidad de Exchange y SharePoint
 
-Para disfrutar de la experiencia completa de Teams, debe habilitarse a los usuarios en Exchange Online, SharePoint Online y la creación de grupos de Microsoft 365. Los artículos siguientes muestran información relacionada con los buzones de Exchange hospedados en entornos distintos, cómo interactúan Teams y Exchange, y consideraciones similares para SharePoint y OneDrive para la Empresa.
+Para disfrutar de la experiencia completa de Teams, los usuarios deben habilitarse en Exchange Online, SharePoint Online y para la creación de grupos de Microsoft 365. Los artículos siguientes muestran información relacionada con los buzones de Exchange hospedados en entornos distintos, sobre cómo interactúan Teams y Exchange y sobre consideraciones similares para SharePoint y OneDrive para la Empresa.
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -180,7 +181,7 @@ Al planear una implementación empresarial de Teams, debe tener en cuenta las li
 
 ### <a name="urls-and-ports"></a>Puertos y direcciones URL
 
-Las organizaciones que mantienen el control específico de su tráfico de internet deberían consultar [Intervalos de direcciones IP y URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) para ver una lista actualizada de las direcciones URL, direcciones IP, puertos y protocolos que deben estar configurados correctamente para Teams. Microsoft trata de mejorar constantemente el servicio de Microsoft 365 y Office 365, así como de agregar nuevas funcionalidades, lo que implica que las direcciones IP, las direcciones URL y los puertos pueden cambiar a lo largo del tiempo. Le recomendamos que se suscriba a través de RSS para recibir notificaciones cuando esta información se actualice o se modifique. Como mínimo, asegúrese de que ha abierto los puertos enumerados anteriormente en [Requisitos previos para la implementación de chat](#chat-deployment-prerequisites).
+Las organizaciones que mantienen el control específico de su tráfico de internet deberían consultar [Intervalos de direcciones IP y URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) para ver una lista actualizada de las direcciones URL, direcciones IP, puertos y protocolos que deben estar configurados correctamente para Teams. Microsoft trata de mejorar constantemente el servicio de Microsoft 365 y Office 365, así como de agregar nuevas funcionalidades, lo que implica que las direcciones IP, las direcciones URL y los puertos pueden cambiar a lo largo del tiempo. Le recomendamos que se suscriba a través de RSS para recibir notificaciones cuando esta información se actualice o se modifique. Como mínimo, asegúrese de que ha abierto los puertos que aparecen en la lista de los [requisitos previos a la implementación del chat](#chat-deployment-prerequisites).
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
@@ -189,7 +190,7 @@ Las organizaciones que mantienen el control específico de su tráfico de intern
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>Gobierno (convenciones de nomenclatura, quién puede crear equipos)
 
-Su organización puede necesitar la implementación de controles sobre cómo se denominan y clasifican los equipos, quién puede crear equipos, y la expiración, retención y archivado de los equipos. Esto se denomina gobierno. Puede usar Azure Active Directory (Azure AD) para configurar cada una de estas áreas.
+Puede que la organización necesite la implementación de controles sobre cómo se denominan y clasifican los equipos, quién puede crear equipos y sobre la expiración, retención y archivado de los equipos. Esto se denomina gobierno. Puede usar Azure Active Directory (Azure AD) para configurar cada una de estas áreas.
 
 
 | Pregúntese lo siguiente: | Acción |
@@ -200,7 +201,7 @@ Su organización puede necesitar la implementación de controles sobre cómo se 
 
 ### <a name="teams-application-policy-side-rail-control"></a>Directiva de aplicación de Teams (control de barra lateral)
 
-Una aplicación anclada se muestra en la barra lateral en Teams. Si crea directivas de aplicación de Teams, puede configurar previamente conjuntos de aplicaciones ancladas de Teams y así personalizar Teams para grupos selectos de usuarios. De manera predeterminada, la opción **Permitir aplicaciones externas en Microsoft Teams** está activada.
+Las aplicaciones ancladas se muestran en la barra lateral en Teams. Si crea directivas de aplicación de Teams, puede configurar previamente conjuntos de aplicaciones ancladas de Teams y, así, personalizar Teams para grupos selectos de usuarios. De manera predeterminada, la opción **Permitir aplicaciones externas en Microsoft Teams** está activada.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
@@ -221,7 +222,7 @@ Su organización podría necesitar la implementación de controles sobre cómo s
 
 ### <a name="conditional-access"></a>Acceso condicional 
 
-Teams depende en gran medida de Exchange Online, SharePoint Online y Skype Empresarial Online para las situaciones de productividad principales, como reuniones, calendarios, chats de interoperabilidad y archivos compartidos. Las directivas de acceso condicional que se configuran para estas aplicaciones en la nube se aplican a Teams cuando un usuario inicia sesión directamente en Teams, en cualquier cliente. Las directivas de acceso condicional que se configuran para la aplicación en la nube de Teams controlan aspectos como si los usuarios pueden acceder a los servicios de Teams desde algunas redes.
+Teams depende en gran medida de Exchange Online, SharePoint Online y Skype Empresarial Online para las situaciones de productividad principales como reuniones, calendarios, chats de interoperabilidad y archivos compartidos. Las directivas de acceso condicional que se configuran para estas aplicaciones en la nube se aplican a Teams cuando un usuario inicia sesión directamente en Teams, en cualquier cliente. Las directivas de acceso condicional que se configuran para la aplicación en la nube de Teams controlan aspectos como si los usuarios pueden acceder a los servicios de Teams desde algunas redes.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
@@ -250,7 +251,7 @@ El uso de Office 365 para la Administración Pública de Estados Unidos - GCC (G
 |||
 
 ## <a name="next-steps"></a>Siguientes pasos
-- [Impulsar la adopción](adopt-microsoft-teams-landing-page.md) de chat, equipos, canales y aplicaciones.
-- Incluya aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que impulsa la adopción de Teams.
+- [Fomentar el uso](adopt-microsoft-teams-landing-page.md) del chat, los equipos, los canales y las aplicaciones.
+- Incluya aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que fomenta el uso de Teams.
 - [Implementar reuniones y conferencias](deploy-meetings-microsoft-teams-landing-page.md)
 - [Implementar voz en la nube](cloud-voice-landing-page.md)

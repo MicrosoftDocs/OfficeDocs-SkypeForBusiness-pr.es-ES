@@ -14,16 +14,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - SPO_Content
+- m365initiative-deployteams
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa78b6a86b3216cd74fb07ae83f2ca99886d4213
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: a552fd88d469c7daaae324614c398c24ac2f9d41
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655377"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031366"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -35,7 +36,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |-----------|---------------|
 |Número de equipos que un usuario puede crear | Sujeto a un límite de 250 objetos&sup1;         |
 |Número de equipos en los que un usuario puede ser un miembro de|1 000&sup2;|
-|Número de miembros de un equipo | 10,000<sup>5</sup>     |
+|Número de miembros de un equipo | 10 000<sup>5</sup>     |
 |Número de propietarios por equipo | 100   |
 |Número de equipos de la organización que se pueden usar en un espacio empresarial | 5     |
 |Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 5 000       |
@@ -44,7 +45,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de canales por equipo    | 200 (incluye canales eliminados)&sup3;         |
 |Número de cadenas privadas por equipo    |30| (incluye canales eliminados)&sup3;
 |Número de miembros de un canal privado    |250|
-|Número máximo de miembros de un grupo de Office 365 que se pueden convertir en un equipo    |10,000<sup>5</sup>     |
+|Número máximo de miembros de un grupo de Office 365 que se pueden convertir en un equipo    |10 000<sup>5</sup>     |
 |Tamaño de publicación de conversación de canal | Aproximadamente 28 KB por publicación<sup>4</sup> |
 
 <sup>1</sup> todos los objetos de directorio de Azure Active Directory se comparan hacia este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llaman a Microsoft Graph usando[permisos de aplicación](https://docs.microsoft.com/graph/permissions-reference).
@@ -55,7 +56,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 <sup>4</sup> 28 KB es un límite aproximado, ya que incluye el mensaje en sí (texto, vínculos a imágenes, etc.), las @menciones, el número de conectores y las reacciones.
 
-<sup>5</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
+<sup>5</sup> Microsoft Teams en GCC solo puede aceptar 5 000 miembros y los equipos en GCCH/DoD solo pueden aceptar 2 500 miembros.
 ## <a name="messaging"></a>Mensajería 
 
 ### <a name="chat"></a>Chat
@@ -103,7 +104,7 @@ Para más información, vea [Límites de Exchange Online](https://docs.microsoft
 
 Los nombres de canal no pueden contener los siguientes caracteres o palabras:
 
-|Type|Example|
+|Tipo|Ejemplo|
 |---------|---------|
 |Caracteres     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Caracteres en estos rangos    | 0 a 1F<br>80 a 9F        |
@@ -116,13 +117,13 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 > [!IMPORTANT]
 > **Aumentamos el límite de eventos en directo de Microsoft 365**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including** :
+> **Para dar apoyo a nuestros clientes, hasta el 1 de enero de 2021 prolongaremos los aumentos temporales del límite de eventos en directo alojados en Teams, Stream y Yammer, incluido** :
 >
 >- Hasta 20 000 asistentes por evento
 >- Hasta 50 eventos simultáneos por espacio empresarial de Teams
 >- Hasta 16 horas para cada difusión
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones que estén disponibles. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](teams-add-on-licensing/advanced-communications.md).**
+> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](teams-add-on-licensing/advanced-communications.md).**
 
 
 |Característica     | Límite máximo |
@@ -148,28 +149,28 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 > [!NOTE]
 > Las reuniones de Microsoft Teams tienen un límite de tiempo de 24 horas.
 
-## <a name="teams-live-events"></a>Teams Live Events
+## <a name="teams-live-events"></a>Eventos en directo en Teams
 
 |Característica     | Límite máximo |
 |------------|---------------|
 |Tamaño de público | 10 000 asistentes |
 |Duración del evento | 4 horas |
-|Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>1</sup> | 15 |
+|Eventos en directo simultáneos ejecutándose en una organización de Microsoft 365 y Office 365 <sup>1</sup> | 15 |
 
-<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. Cuando el productor se une a un evento en directo, se considera que está en ejecución. El productor que intenta unirse al 16º evento en directo recibe un error.
+<sup>1</sup> Puede programar todos los eventos en directo que quiera, pero solo puede ejecutar 15 a la vez. Cuando el productor se une a un evento en directo, se considera que está en ejecución. El productor que intenta unirse al 16º evento en directo recibe un error.
 
-Para obtener más información sobre los eventos en directo y una comparación de los eventos en directo de Teams y la Difusión de reunión de Skype, vaya a [Eventos en directo de Teams y Difusión de reunión de Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Para obtener más información sobre los eventos en directo y una comparación de los eventos en directo de Teams y la Difusión de reunión de Skype, vaya a [Eventos en directo de Teams y Difusión de reunión de Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). Consulte [Programar un evento en directo de Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)
 
 > [!IMPORTANT]
-> **Microsoft 365 live event limit increases**
+> **Aumentamos el límite de eventos en directo de Microsoft 365**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including** :
+> **Para dar apoyo a nuestros clientes, hasta el 1 de enero de 2021 prolongaremos los aumentos temporales del límite de eventos en directo alojados en Teams, Stream y Yammer, incluido** :
 >
 > - Hasta 20 000 asistentes por evento
 > - Hasta 50 eventos simultáneos por espacio empresarial de Teams
 > - Hasta 16 horas para cada difusión
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones que estén disponibles. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](teams-add-on-licensing/advanced-communications.md).**
+> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). **A partir del 1 de enero de 2021, los clientes que necesiten estos aumentos del límite tendrán que adquirir el [Complemento de comunicaciones avanzadas](teams-add-on-licensing/advanced-communications.md).**
 
 ## <a name="presence-in-outlook"></a>Presencia en Outlook
 
@@ -234,9 +235,9 @@ Teams usa los siguientes contactos:
 - Contactos en Active Directory de su organización
 - Contactos agregados a la carpeta predeterminada de Outlook del usuario
 
-Los usuarios de Teams pueden comunicarse con cualquier usuario de Active Directory de su organización y pueden agregar como contacto a cualquier usuario de Active Directory de su organización y a sus listas de contactos en **Chat** > **Contactos** o **Llamadas** > **Contactos** .
+Los usuarios de Teams pueden comunicarse con cualquier usuario de Active Directory de su organización y pueden agregar como contacto a cualquier usuario de Active Directory de su organización y a sus listas de contactos en **Chat** > **Contactos** o **Llamadas** > **Contactos**.
 
-Los usuarios de Teams también pueden agregar como contacto a un usuario que no se encuentra en Active Directory de su organización en **Llamadas** > **Contactos** .
+Los usuarios de Teams también pueden agregar como contacto a un usuario que no se encuentra en Active Directory de su organización en **Llamadas** > **Contactos**.
 
 ## <a name="browsers"></a>Exploradores
 

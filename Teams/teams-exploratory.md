@@ -15,19 +15,20 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: f27dc7e8772e25b6dcc91622cabec421e058af7b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766973"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031486"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Administrar la licencia de Microsoft Teams Exploratory
 =======================================================
 
-La experiencia de Microsoft Teams Exploratory permite a los usuarios de su organización que tienen Azure Active Directory (Azure AD) y no tienen licencia para Teams activar una experiencia de Teams Exploratory Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. La anterior [oferta de prueba comercial en la nube de Microsoft](iw-trial-teams.md) se ha reemplazado por la experiencia de Teams Exploratory.
+La experiencia de Microsoft Teams Exploratory permite a los usuarios de la organización que tienen Azure Active Directory (Azure AD) y carecen de una licencia para Teams iniciar una experiencia exploratoria de Teams. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. La versión anterior de la [Prueba en la nube comercial de Microsoft](iw-trial-teams.md) se ha reemplazado por la experiencia de Microsoft Teams Exploratory.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>¿Qué incluye la experiencia de Teams Exploratory?
 
@@ -52,16 +53,16 @@ Los planes de servicio que verá un administrador como parte de la experiencia d
 - Whiteboard (plan 1)
 - Yammer Enterprise
 
-  <sup>1</sup> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar reuniones](tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia. En noviembre, tendrá que decidir si quiere seguir usando la secuencia. En un momento, a principios de 2021, requerimos que todos los clientes usen OneDrive para la Empresa y SharePoint para las nuevas grabaciones de la reunión.
+  <sup>1</sup> El cambio de usar Microsoft Stream a usar [OneDrive para la Empresa y SharePoint para grabar reuniones](tmr-meeting-recording-change.md) se hará en varias fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre debe optar por no participar si quiere seguir usando Stream y, en algún momento, a principios de 2021, se les pedirá a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus reuniones nuevas.
 
 ## <a name="whos-eligible"></a>¿Quiénes reúnen los requisitos?
 
 Los usuarios se ajustan a los requerimientos para una experiencia de Teams Exploratory si:
 
 - Tienen una dirección de correo electrónico de dominio de Azure AD administrada.
-- Pertenecen a un inquilino con una suscripción pagada.
+- Pertenecen a un espacio empresarial con una suscripción pagada.
 
-Los usuarios deben estar habilitados para registrarse en aplicaciones y versiones de prueba (en el Centro de administración de Microsoft 365). Para más información, vea [Administrar la experiencia Teams Exploratory](#manage-the-teams-exploratory-experience), más adelante en este artículo.
+Se debe habilitar a los usuarios para registrarse en aplicaciones y pruebas (en el Centro de administración de Microsoft 365). Para obtener más información, consulte [Administrar la experiencia de Teams Exploratory](#manage-the-teams-exploratory-experience), más adelante en este artículo.
 
 ## <a name="who-isnt-eligible"></a>¿Quiénes no reúnen los requisitos?
 
@@ -74,44 +75,44 @@ Su organización no es apta para esta oferta si usted es cliente de Syndication 
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>¿Cómo los usuarios se pueden inscribir en la experiencia de Teams Exploratory?
 
-Los usuarios que son aptos pueden registrarse para la oferta de la experiencia de Teams Exploratory iniciando sesión en Teams ([teams.microsoft.com](https://teams.microsoft.com)). Se les asignará esta licencia automáticamente y el administrador del inquilino recibirá una notificación por correo electrónico la primera vez que un usuario de su organización active la experiencia de Teams Exploratory.
+Los usuarios aptos pueden registrarse para la experiencia Teams Exploratory registrándose en Teams ([teams.microsoft.com](https://teams.microsoft.com)). Se les asignará esta licencia automáticamente y el administrador del espacio empresarial recibirá una notificación por correo electrónico la primera vez que un usuario de su organización active la experiencia de Teams Exploratory.
 
 ## <a name="manage-the-teams-exploratory-experience"></a>Administrar la experiencia de Teams Exploratory
 
 La experiencia de Teams Exploratory está pensada para ser activada por usuarios finales individuales, y usted no puede activar esta oferta en nombre de los empleados que sean usuarios finales.
 
-La experiencia de Teams Exploratory viene con una licencia de Exchange Online pero no será asignada al usuario hasta que el administrador la asigne. Si el usuario no tiene una licencia de Exchange y el administrador aún no ha asignado la licencia de Exchange Online, el usuario no podrá programar reuniones en Teams y es posible que no disponga de otras características.
+La experiencia Teams Exploratory viene con una licencia de Exchange Online, pero no se asignará al usuario hasta que el administrador la asigne. Si el usuario no tiene una licencia de Exchange y el administrador aún no ha asignado la licencia de Exchange Online, el usuario no podrá programar reuniones en Teams y es posible que no disponga de otras características.
 
-Los administradores pueden desactivar la opción de que los usuarios finales ejecuten la experiencia de Teams Exploratory dentro de su organización mediante el uso del conmutador de **aplicaciones y servicios de prueba** .
+Los administradores pueden desactivar la opción de que los usuarios finales ejecuten la experiencia de Teams Exploratory dentro de su organización mediante el uso del conmutador de **aplicaciones y servicios de prueba**.
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Evitar que los usuarios instalen aplicaciones y servicios de prueba
 
 Puede desactivar la capacidad de un usuario para instalar aplicaciones y servicios de prueba, lo que impediría al usuario ejecutar la experiencia de Teams Exploratory.
 
-1. Desde el Centro de administración de Microsoft 365, vaya a **Configuración** > **Configuración de la organización** , seleccione **Servicios** , y luego seleccione **Aplicaciones y servicios que son propiedad del usuario** .
+1. Desde el Centro de administración de Microsoft 365, vaya a **Configuración** > **Configuración de la organización** , seleccione **Servicios** , y luego seleccione **Aplicaciones y servicios que son propiedad del usuario**.
 
     ![Captura de pantalla de la página Servicios en el centro de administración.](media/iw-trial-services.png)
 
-2. Desactive la casilla **Permitir que los usuarios instalen aplicaciones y servicios de prueba** .
+2. Desactive la casilla **Permitir que los usuarios instalen aplicaciones y servicios de prueba**.
 
     ![Captura de pantalla de la página Aplicaciones y servicios en propiedad del usuario en el centro de administración.](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
-    > Si su organización no es apta para la experiencia de Teams Exploratory, no verá la opción **Dejar que los usuarios instalen aplicaciones y servicios de prueba** . 
+    > Si su organización no es apta para la experiencia de Teams Exploratory, no verá la opción **Dejar que los usuarios instalen aplicaciones y servicios de prueba**. 
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Administrar la disponibilidad de un usuario con una licencia que incluye Teams
 
-Un usuario al que se le asigne una licencia que incluya Teams no es apto para la experiencia de Teams Exploratory. Cuando el plan de servicio de Teams está activado, el usuario puede iniciar sesión y utilizarlo. Si el plan de servicio está desactivado, el usuario no puede iniciar sesión y la experiencia de Teams Exploratory no estará disponible. Debe tener privilegios de administrador.
+Un usuario al que se ha asignado una licencia que incluye Teams no es apto para la experiencia Teams Exploratory. Cuando el plan de servicio de Teams esté activado, el usuario puede iniciar sesión y usar Teams. Si el plan de servicio está deshabilitado, el usuario no podrá iniciar sesión y la experiencia Teams Exploratory no estará disponible. Debe tener privilegios de administrador.
 
 Para desactivar el acceso a Teams:
 
-1. En el Centro de administración de Microsoft 365, seleccione **Usuarios** > **Usuarios activos** .
+1. En el Centro de administración de Microsoft 365, seleccione **Usuarios** > **Usuarios activos**.
 
 2. Seleccione la casilla junto al nombre del usuario.
 
-3. En la parte derecha, en la fila **Licencias de producto** , elija **Editar** .
+3. En la parte derecha, en la fila **Licencias de producto** , elija **Editar**.
 
-4. En el panel **Licencias de producto** , cambie el botón de alternancia a **Desactivado** .
+4. En el panel **Licencias de producto** , cambie el botón de alternancia a **Desactivado**.
 
     ![La página de licencias del producto en el centro de administración.](media/iw-trial-enable-3.png)
 
@@ -121,20 +122,20 @@ Si un usuario está usando la experiencia Teams Exploratory, puede desactivarla 
 
 Desactivar la licencia de la experiencia Teams Exploratory:
 
-1. En el Centro de administración de Microsoft 365, seleccione **Usuarios** > **Usuarios activos** .
+1. En el Centro de administración de Microsoft 365, seleccione **Usuarios** > **Usuarios activos**.
 
 2. Seleccione la casilla junto al nombre del usuario.
 
-3. En la parte derecha, en la fila **Licencias de producto** , elija **Editar** .
+3. En la parte derecha, en la fila **Licencias de producto** , elija **Editar**.
 
-4. En el panel de **licencias de producto** , cambie el botón de alternancia para la licencia exploratoria a **Desactivado** .
+4. En el panel de **licencias de producto** , cambie el botón de alternancia para la licencia exploratoria a **Desactivado**.
 
     >[!Note]
     >El botón de alternancia de Teams Exploratory aparecerá después de que el primer usuario de la organización inicie la experiencia de Teams Exploratory.
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Administrar Teams para los usuarios que dispongan de la licencia de Teams Exploratory
 
-Puede administrar a los usuarios que dispongan de la licencia de Teams Exploratory al igual que a los usuarios que dispongan de una licencia pagada estándar. Para más información, vea [Administrar la configuración de Teams para su organización](enable-features-office-365.md).
+Puede administrar a los usuarios que dispongan de la licencia de Teams Exploratory al igual que a los usuarios que dispongan de una licencia pagada estándar. Para más información, consulte [Administrar la configuración de Teams para su organización](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-teams-exploratory-license"></a>Actualizar los usuarios de la licencia de Teams Exploratory
 
@@ -149,13 +150,13 @@ Para actualizar a los usuarios de la licencia de Teams Exploratory (debe tener p
 Para más información, consulte [Descripción del servicio de Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> Si la licencia de Teams Exploratory finaliza y un usuario no se actualiza inmediatamente a una suscripción que incluya Teams, tiene 30 días de periodo de gracia y, a continuación, en el plazo de 30 días tras el que se van a eliminar los datos. El usuario seguirá existiendo en Azure Active Directory Una vez que se asigne una nueva licencia al usuario para habilitar de nuevo la funcionalidad de Teams, todo el contenido seguirá existiendo si se agrega el usuario dentro del plazo del período de gracia.
+> Si la licencia de Teams Exploratory finaliza y un usuario no se actualiza inmediatamente a una suscripción que incluya Teams, tendrá 30 días de periodo de gracia y, a continuación, otros 30 días hasta que se eliminen los datos. El usuario aún existirá en Azure Active Directory. Cuando se asigne una nueva licencia al usuario para volver a habilitar la funcionalidad de Teams, todo el contenido seguirá existiendo si el usuario se agrega durante el período de tiempo del periodo de gracia.
 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>¿Qué sucede con las licencias heredadas de la versión de prueba de Microsoft Teams Commercial Cloud?
 
-A partir de febrero de 2020, los usuarios con elegibilidad podrán utilizar la versión más reciente de la experiencia de Microsoft Teams Exploratory. Todas las licencias de prueba de la nube comercial de Teams heredadas se convertirán automáticamente a la nueva oferta antes de que expire la prueba.
+A partir del 2020 de febrero, los usuarios elegibles pueden empezar a usar la última experiencia de Microsoft Teams Exploratory. Se convertirán automáticamente a la nueva oferta todas las licencias de prueba de la nube comercial de Teams antiguas antes de que expire la versión de prueba.
 
-Cuando los usuarios inician sesión por primera vez en su versión de prueba comercial vencida en la nube de Teams, asignamos automáticamente una licencia de experiencia exploratoria de Teams a esos usuarios. Los usuarios no se convierten hasta que inician sesión.
+Cuando los usuarios inician sesión por primera vez en su versión vencida de la prueba comercial en la nube de Teams, asignaremos automáticamente una licencia de experiencia exploratoria de Teams a esos usuarios. No se convertirá a los usuarios hasta que inicien sesión.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Eliminar una licencia de Teams Exploratory
 
@@ -169,7 +170,7 @@ Consulte [Información de la suscripción a Microsoft 365](https://docs.microsof
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>¿Cuánto tiempo dura la experiencia de Teams Exploratory?
 
-La experiencia de Microsoft Teams Exploratory está disponible sin costo adicional hasta la próxima fecha del **aniversario** o **renovación del contrato** o en enero de 2021 o posteriormente. En ese momento, los usuarios finales de una licencia de la experiencia de Microsoft Exploratory tendrán que cambiarse a una licencia de pago que incluya Teams. Aquellas licencias de experiencia de Microsoft Exploratory que se inicien después de esa fecha permanecerán disponibles sin costo adicional hasta su próximo **aniversario** o ciclo de **renovación** .
+La experiencia Microsoft Teams Exploratory está disponible sin costo adicional hasta su próximo **contrato de aniversario** o **renovación** o una vez pasado enero de 2021. En ese momento, los usuarios finales de una licencia de experiencia de Microsoft Exploratory tendrán que cambiarse a una licencia de pago que incluya Teams. Cualquier licencia de la experiencia preliminar de Microsoft Exploratory iniciada después de entonces seguirá disponible sin coste adicional hasta el siguiente **aniversario** o ciclo de **renovación**.
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>¿Qué ocurre si un usuario final inicia la experiencia de Microsoft Teams Exploratory justo antes del aniversario o fecha de renovación?
 
@@ -177,7 +178,7 @@ Las licencias de la experiencia de Microsoft Teams Exploratory iniciadas en un p
 
 ### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>¿Qué ocurre si mi acuerdo no tiene ninguna fecha de aniversario o renovación anual (por ejemplo, acuerdos mensuales)?
 
-En el caso de contratos sin una fecha de aniversario o una renovación anual, el año siguiente después de que el primer usuario final active las licencias de Microsoft Teams Exploratory se considerará como el aniversario o la fecha de renovación. Los usuarios de Microsoft Teams Exploratory deben pasar a una licencia de pago en esa fecha cada año, según las directivas anteriormente indicadas.
+En el caso de los contratos que no tengan un aniversario o una fecha de renovación anual, el año siguiente después de que el primer usuario final active las licencias de la experiencia de Microsoft Teams Exploratory se considerará como el aniversario o la fecha de renovación. Los usuarios de la licencia de Microsoft Teams Exploratory se deben convertir a una licencia de pago en esa fecha cada año, según las directivas indicadas en este artículo.
 
 Por ejemplo, si el primer usuario final activa Microsoft Teams Exploratory el 19 de junio de 2020, este usuario y todos los demás elegibles en el espacio empresarial del cliente deben pasar a una licencia de pago con Teams el 19 de junio de 2021.
 
