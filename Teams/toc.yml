@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Preparar el entorno
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: Requisitos
               href: rooms/requirements.md
             - name: Licencias en línea
               href: rooms/rooms-licensing.md
@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: Referencia de voz y marcado
               href: dial-voice-reference.md
+            - name: Reporting
+              href: aa-cq-cqd-historical-reports.md
         - name: Bloquear llamadas entrantes
           href: block-inbound-calls.md
         - name: Estacionar llamadas y recuperar
