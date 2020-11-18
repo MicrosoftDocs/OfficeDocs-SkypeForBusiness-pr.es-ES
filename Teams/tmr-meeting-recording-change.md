@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f11a5e01105cde728c0efbda46a38c4643a332bf
-ms.sourcegitcommit: 803a7acf628819e4edd95bd7a67867bb9ebdd344
+ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073161"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085554"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
@@ -37,7 +37,7 @@ ms.locfileid: "49073161"
 |Cómo empezar el 7 de julio de 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Clientes de educación**<br>No se pueden guardar nuevas grabaciones de reuniones en Microsoft Stream (clásico); todos los clientes guardarán automáticamente las grabaciones de la reunión en OneDrive para la empresa y SharePoint, incluso si han cambiado las políticas de reunión de sus equipos para **transmitirse**. Recomendamos que los clientes destaquen esta característica antes de esta fecha para poder controlar la temporización de la versión. Hemos actualizado esta programación para ofrecer a los clientes de educación la capacidad de completar los semestres en curso. |
 
 > [!Note]
-> Recomendamos que los clientes empresariales y educativos, para controlar mejor el cambio de su organización, participen siempre que se sienta cómodo con el cambio en lugar de esperar a que se produzca. 
+> Recomendamos que los clientes empresariales y educativos, para controlar mejor el cambio de su organización, participen siempre que se sienta cómodo con el cambio en lugar de esperar a que se produzca.
 
 Microsoft Teams tiene un nuevo método para guardar las grabaciones de la reunión. Como primera fase de una transición de la secuencia clásica de Microsoft a la [nueva secuencia](https://docs.microsoft.com/stream/streamnew/new-stream), este método almacena las grabaciones en Microsoft OneDrive para la empresa y SharePoint en Microsoft 365 y ofrece muchas ventajas.
 
@@ -75,7 +75,7 @@ Vea "grabación de reuniones" para obtener más información.
 > Los cambios en la política de reunión de Teams tardan unos minutos en propagarse. Vuelva a consultar después de unas pocas horas de configuración y, después, cierre sesión e inicie sesión de nuevo.
 
 1. Instalar Skype empresarial online PowerShell.
-**Nota** : el conector de Skype empresarial online actualmente forma parte del último módulo de PowerShell. Si está usando la versión pública de Teams más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online. Consulte [administrar Skype empresarial online con PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+**Nota**: el conector de Skype empresarial online actualmente forma parte del último módulo de PowerShell. Si está usando la versión pública de Teams más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online. Consulte [administrar Skype empresarial online con PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
     a. Descargue [Skype empresarial online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
@@ -85,7 +85,7 @@ Vea "grabación de reuniones" para obtener más información.
 
 2. Iniciar PowerShell como administrador
 
-3. Importe el conector SkypeOnline e inicie sesión como administrador de equipos.
+3. Importe el conector SkypeOnline e inicie sesión como administrador de Teams.
 
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -101,7 +101,7 @@ Vea "grabación de reuniones" para obtener más información.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>No se puede elegir OneDrive para la empresa y SharePoint para seguir usando Stream
 
-Incluso si una directiva dice que está configurada para **transmitirse** , es posible que no esté configurada. Normalmente, si no se establece la Directiva, la configuración predeterminada es **transmitir**. Sin embargo, con este nuevo cambio, si desea optar por no usar SharePoint o OneDrive para la empresa, debe restablecer la Directiva en **streaming** para asegurarse de que es la opción predeterminada.
+Incluso si una directiva dice que está configurada para **transmitirse**, es posible que no esté configurada. Normalmente, si no se establece la Directiva, la configuración predeterminada es **transmitir**. Sin embargo, con este nuevo cambio, si desea optar por no usar SharePoint o OneDrive para la empresa, debe restablecer la Directiva en **streaming** para asegurarse de que es la opción predeterminada.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -112,7 +112,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Tipo de reunión                               | ¿Quién hizo clic en grabar?| ¿Dónde se encuentran las tierras de la grabación?                               |¿Quién tiene acceso? R/W, R o compartida                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |llamada de 1:1 con partes internas             |Autor de llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |La persona que llama es propietaria y tiene derechos completos. <br /><br />El destinatario de la llamada (si está en el mismo inquilino) tiene acceso de solo lectura. Sin acceso compartido. <br /><br /> El destinatario de la llamada (si se trata de un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con el destinatario.|
-|llamada de 1:1 con partes internas             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        |El destinatario de la llamada es propietario y tiene plenos derechos. <br /><br />Persona que llama (si está en el mismo inquilino, tiene acceso de solo lectura. Sin acceso compartido. <br /><br />La persona que llama (si se trata de un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con el destinatario.|
+|llamada de 1:1 con partes internas             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        |El destinatario de la llamada es propietario y tiene plenos derechos. <br /><br />La persona que llama (si está en el mismo inquilino tiene acceso de solo lectura. Sin acceso compartido. <br /><br />La persona que llama (si se trata de un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con el destinatario.|
 |llamada de 1:1 con una llamada externa             |Autor de llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |La persona que llama es propietaria y tiene derechos completos.<br /> <br />El destinatario de la llamada no tiene acceso. La persona que llama debe compartirla con el destinatario.|
 |llamada de 1:1 con una llamada externa             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        |El destinatario de la llamada es propietario y tiene plenos derechos.<br /><br />La persona que llama no tiene acceso. La persona que llama debe compartirla con quien llama.|
 |Llamada grupal                                 |Cualquier miembro de la llamada |Miembro que hizo clic en la cuenta de OneDrive para la empresa del registro  |El miembro que hizo clic en el registro tiene derechos completos. <br /><br /> Otros miembros del mismo inquilino tienen derechos de lectura. <br /><br /> Otros miembros de un inquilino diferente no tienen derechos.|
@@ -156,9 +156,11 @@ Los subtítulos se admiten para las grabaciones de reuniones de equipos por 60 d
 
 Los subtítulos cerrados no son totalmente compatibles si el registro de reuniones de equipos se mueve o se copia desde su ubicación original en OneDrive para la empresa o SharePoint.
 
-**¿Cómo se verá afectada mi cuota de almacenamiento**
+**¿Cómo se verá afectada mi cuota de almacenamiento?**
 
-Los equipos que reunión graban archivos en OneDrive para la empresa y SharePoint se incluyen en su cuota para esos servicios. Consulte [cuota de SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) y [cuota de OneDrive para la empresa] ( https://docs.microsoft.com/onedrive/set-default-storage-space) .
+Los equipos que reunión graban archivos en OneDrive para la empresa y SharePoint se incluyen en su cuota para esos servicios. Consulte cuota de [SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) y [cuota de OneDrive para la empresa](https://docs.microsoft.com/onedrive/set-default-storage-space).
+
+Obtendrá más almacenamiento con [OneDrive para la empresa](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) en comparación con la transmisión y más almacenamiento de fungible con SharePoint.
 
 **¿Cómo puedo reproducir una grabación de reuniones de Teams?**
 

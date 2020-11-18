@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031456"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085564"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos de Microsoft Teams Live?
 
 ## <a name="overview"></a>Información general
 
-Con Teams, los usuarios de su organización pueden difundir contenido de vídeo y de reuniones a grandes audiencias en línea.
+Con los eventos de Teams Live, los usuarios de su organización pueden difundir contenido de vídeo y de reuniones a grandes audiencias en línea.
 
 Los eventos en vivo de Microsoft 365 ofrecen streaming de video en vivo a un nuevo nivel. Los eventos en directo fomentan la conexión en todo el ciclo de vida del compromiso con los asistentes antes, durante y después de eventos en vivo. Puede crear un evento en vivo dondequiera que esté el público, el equipo o la comunidad, usando Microsoft Stream, Teams o Yammer.  
 
@@ -48,7 +48,7 @@ Los eventos en directo de Teams permiten a varias funciones (organizador, produc
 
 ## <a name="key-components"></a>Componentes clave
 
-Puede ver en la imagen de arriba que hay cuatro componentes clave que se usan con eventos en directo de Teams.
+Puede ver en la imagen de arriba que hay cinco componentes clave que se usan con eventos en directo de Teams.
 
 > [!NOTE]
 > Para obtener información general sobre cómo configurar los eventos en directo y la experiencia de los asistentes, consulte estos [vídeos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)breves.
@@ -63,23 +63,23 @@ Teams permite a los organizadores crear un evento con los permisos de asistente 
 
 La entrada de video es el fundamento del evento en vivo y puede variar desde una sola cámara web a una producción de video profesional con varias cámaras. Los eventos en directo de Microsoft 365 admiten un espectro de escenarios de producción, incluido un evento producido en Teams con una cámara web o un evento generado en una aplicación o dispositivo externo. Puede elegir estas opciones en función de los requisitos del proyecto y el presupuesto. Existen dos formas de generar eventos:
 
-- **Equipos** : este método de producción permite a los usuarios producir sus eventos en vivo en Teams usando su cámara web o usar la entrada a/V de los equipos de la sala de equipos. Esta es la opción más rápida y rápida si desea usar los dispositivos de audio y vídeo conectados al equipo o invitar a los moderadores remotos a participar en el evento. Esta opción permite a los usuarios utilizar fácilmente sus cámaras Web y compartir su pantalla como entrada en el evento.
+- **Equipos**: este método de producción permite a los usuarios producir sus eventos en vivo en Teams usando su cámara web o usar la entrada a/V de los equipos de la sala de equipos. Esta es la opción más rápida y rápida si desea usar los dispositivos de audio y vídeo conectados al equipo o invitar a los moderadores remotos a participar en el evento. Esta opción permite a los usuarios utilizar fácilmente sus cámaras Web y compartir su pantalla como entrada en el evento.
 
     ![evento en directo elaborado con el método de inicio rápido](../media/teams-live-events-quick-start.png "Captura de pantalla que muestra un evento en directo que se produce con el método de inicio rápido de producción")
 
-- **Dispositivo o aplicación externa** : los codificadores externos permiten a los usuarios producir sus eventos en directo directamente desde un hardware externo o codificador basado en software con [Stream](https://stream.microsoft.com). Esta opción es la mejor si ya tiene equipos de calidad de estudio (por ejemplo, las mezclas multimedia) que admiten transmisiones a un servicio RTMP (Protocolo de mensajería en tiempo real). Este tipo de producción suele usarse en eventos de gran envergadura, como salas de las salas de la ciudad, donde un único flujo de un mezclador de medios se difunde a la audiencia.
+- **Dispositivo o aplicación externa**: los codificadores externos permiten a los usuarios producir sus eventos en directo directamente desde un hardware externo o codificador basado en software con [Stream](https://stream.microsoft.com). Esta opción es la mejor si ya tiene equipos de calidad de estudio (por ejemplo, las mezclas multimedia) que admiten transmisiones a un servicio RTMP (Protocolo de mensajería en tiempo real). Este tipo de producción suele usarse en eventos de gran envergadura, como salas de las salas de la ciudad, donde un único flujo de un mezclador de medios se difunde a la audiencia.
 
     ![evento en directo producido mediante una aplicación o dispositivo externo](../media/teams-live-events-external-encoder.png "Captura de pantalla que muestra un evento en directo que se produce con el método de producción de dispositivo o aplicación externa")
 
 >[!Note]
-> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones.
+> El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones.
 
 ### <a name="streaming-platform"></a>Plataforma de streaming
 
 La plataforma de transmisión por secuencias de eventos en directo consta de las siguientes partes:
 
-- **Servicios multimedia de Azure** :  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) le ofrece servicios de streaming de video de alta calidad para alcanzar audiencias mayores en los dispositivos móviles más populares de la actualidad. Servicios multimedia mejora la accesibilidad, la distribución y la escalabilidad, y hace que sea más fácil y rentable transmitir contenido a sus audiencias locales o de todo el mundo, a la vez que protege su contenido.
-- **Red de entrega de contenido (CDN) de Azure** : una vez que la secuencia llega a funcionar, se realiza a través de la [red de entrega de contenido (CDN) de Azure](https://docs.microsoft.com/azure/cdn/). Servicios multimedia de Azure proporciona CDN integrado para los puntos de conexión de streaming. Esto permite que las transmisiones se vean en todo el mundo sin ningún almacenamiento en búfer.
+- **Servicios multimedia de Azure**:  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) le ofrece servicios de streaming de video de alta calidad para alcanzar audiencias mayores en los dispositivos móviles más populares de la actualidad. Servicios multimedia mejora la accesibilidad, la distribución y la escalabilidad, y hace que sea más fácil y rentable transmitir contenido a sus audiencias locales o de todo el mundo, a la vez que protege su contenido.
+- **Red de entrega de contenido (CDN) de Azure**: una vez que la secuencia llega a funcionar, se realiza a través de la [red de entrega de contenido (CDN) de Azure](https://docs.microsoft.com/azure/cdn/). Servicios multimedia de Azure proporciona CDN integrado para los puntos de conexión de streaming. Esto permite que las transmisiones se vean en todo el mundo sin ningún almacenamiento en búfer.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Red de entrega de contenido empresarial (eCDN)
 

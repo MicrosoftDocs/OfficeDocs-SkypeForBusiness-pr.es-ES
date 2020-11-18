@@ -16,22 +16,22 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use Power BI para analizar los datos del CQD para Microsoft Teams.
-ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908649"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085574"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar Power BI para analizar los datos del CQD para Microsoft Teams
 
-Novedades de enero de 2020: [Descargue las plantillas de consulta de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Plantillas de Power BI personalizables que puede usar para analizar y notificar los datos de CQD.
+Novedades de enero de 2020: [Descargue las plantillas de consulta de Power BI para el CQD](https://www.microsoft.com/download/details.aspx?id=102291). Plantillas de Power BI personalizables que puede usar para analizar y notificar los datos de CQD.
 
 Para los informes del panel de calidad de llamadas (CQD) en Teams, si prefiere usar Power BI para consultar y notificar sus datos, Descargue nuestras plantillas de Power BI para CQD. Al abrir las plantillas en Power BI, se le pedirá que inicie sesión con sus credenciales de administrador del CQD. Puede personalizar estas plantillas de consulta y distribuirlas a cualquier persona de su organización que tenga una licencia de Power BI y permisos de administrador del CQD.
 
-Antes de poder usar estos archivos de PBIT, tendrá que [instalar el conector de Power BI para Microsoft CQD](CQD-Power-BI-connector.md) con el archivo *MicrosoftCallQuality. PQx* incluido en la [descarga](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Antes de poder usar estos archivos de PBIT, tendrá que [instalar el conector de Power BI para Microsoft CQD](CQD-Power-BI-connector.md) con el archivo *MicrosoftCallQuality. PQx* incluido en la [descarga](https://www.microsoft.com/download/details.aspx?id=102291). 
 
-Asegúrese de tener el rol de [acceso de CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) adecuado para obtener acceso a los informes de Power BI. 
+Asegúrese de tener el rol de [acceso de CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) adecuado para obtener acceso a los informes de Power BI. 
 
 |  |  |
 |---------|---------|

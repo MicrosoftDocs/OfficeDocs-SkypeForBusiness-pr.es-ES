@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, mantiene música, redirige las llamadas y otras características.
-ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49032993"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49089344"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
-Las colas de llamadas proporcionan un método para dirigir a las personas de su organización que pueden ayudarle con un problema o una pregunta en particular. Las llamadas se distribuyen de una en una a las personas de la cola (que se conocen como *agentes* ). 
+Las colas de llamadas proporcionan un método para dirigir a las personas de su organización que pueden ayudarle con un problema o una pregunta en particular. Las llamadas se distribuyen de una en una a las personas de la cola (que se conocen como *agentes*). 
 
 Las colas de llamadas proporcionan:
 
@@ -47,7 +47,7 @@ Las colas de llamadas proporcionan:
 
 Asegúrese de que tiene el [plan de lectura de los operadores automáticos de Teams y las colas de llamadas](plan-auto-attendant-call-queue.md) y siga los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started) antes de seguir los procedimientos de este artículo.
 
-Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **voz** , haga clic en **colas de llamadas** y, a continuación, haga clic en **Agregar**.
+Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **voz**, haga clic en **colas de llamadas** y, a continuación, haga clic en **Agregar**.
 
 ## <a name="resource-account-and-language"></a>Cuenta de recursos e idioma
 
@@ -55,11 +55,11 @@ Para configurar una cola de llamadas, en el centro de administración de Teams, 
 
 1. Escriba un nombre para la cola de llamadas. Los agentes verán este nombre cuando reciban una llamada entrante de la cola.
 
-2. Haga clic en **Agregar cuentas** , busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**.
+2. Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**.
 
 3. Elija un idioma. Este idioma se usará para las solicitudes de voz generadas por el sistema y la transcripción del buzón de voz (si las habilita).
 
-## <a name="greetings-and-hold-music"></a>Saludos y la música en espera
+## <a name="greetings-and-music-on-hold-in-queue"></a>Saludos y música en espera en la cola
 
 Especifique si desea reproducir un saludo para las personas que llaman cuando llegan a la cola. Debe cargar un archivo MP3, WAV o WMA que contenga el saludo que desea reproducir.
 
@@ -71,20 +71,15 @@ Teams proporciona música predeterminada a las personas que llaman mientras est�
 
 ## <a name="call-agents"></a>Agentes de llamadas
 
-Los agentes de llamadas seleccionados deben ser uno de los siguientes: 
-
-- Usuarios en línea con una licencia de sistema telefónico y la telefonía IP empresarial habilitada
-- Usuarios en línea con un plan de llamadas
-- Usuarios locales de Skype empresarial Server
-- Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
+Para poder agregar agentes a una cola de llamadas, consulta los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) .
 
 ![Captura de pantalla de configuración de usuarios y grupos para colas de llamadas](media/call-queue-users-groups.png)
 
 Puede Agregar hasta 20 agentes de forma individual y hasta 200 agentes a través de grupos.
 
-Para agregar un usuario a la cola, haga clic en **Agregar usuarios** , busque el usuario, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**.
+Para agregar un usuario a la cola, haga clic en **Agregar usuarios**, busque el usuario, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**.
 
-Para agregar un grupo a la cola, haga clic en **agregar grupos** , busque el grupo, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**. Puede usar listas de distribución, grupos de seguridad y grupos de Microsoft 365 o de Microsoft Teams.
+Para agregar un grupo a la cola, haga clic en **agregar grupos**, busque el grupo, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**. Puede usar listas de distribución, grupos de seguridad y grupos de Microsoft 365 o de Microsoft Teams.
 
 > [!NOTE]
 > Los nuevos usuarios agregados a un grupo pueden tardar hasta ocho horas en llegar a su primera llamada.
@@ -140,7 +135,7 @@ Para las colas de alto volumen, recomendamos la configuración siguiente:
 
 Número **máximo de llamadas en la cola** especifica el número máximo de llamadas que pueden esperar en la cola en cualquier momento. El valor predeterminado es 50, pero puede estar comprendido entre 0 y 200. Cuando se alcanza este límite, la llamada se maneja de la forma especificada por la configuración **cuando se alcanza el número máximo de llamadas** .
 
-Puede desconectar la llamada o redirigirla a cualquiera de los [destinos de enrutamiento de llamadas](create-a-phone-system-auto-attendant.md#call-routing-options) , excepto el operador. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola. (Ten en cuenta [estos detalles](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) Si transfieres a un número externo).
+Puede desconectar la llamada o redirigirla a cualquiera de los destinos de enrutamiento de llamadas. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las [transferencias de números de teléfono externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de formato de número.
 
 > [!NOTE]
 > Si el número máximo de llamadas se establece en 0, el mensaje de bienvenida no se reproducirá.
@@ -149,9 +144,9 @@ Puede desconectar la llamada o redirigirla a cualquiera de los [destinos de enru
 
 ![Captura de pantalla de configuración de tiempo de espera de llamada](media/call-queue-timeout-handling.png)
 
-Tiempo de espera de la **llamada: tiempo de espera máximo** especifica el tiempo máximo que una llamada puede estar en espera en la cola antes de que se redirija o desconecte. Puede especificar un valor entre 15 y 45 minutos.
+Tiempo de espera de la **llamada: tiempo de espera máximo** especifica el tiempo máximo que una llamada puede estar en espera en la cola antes de que se redirija o desconecte. Puede especificar un valor entre 0 y 45 minutos.
 
-Puede desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola.
+Puede desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las [transferencias de números de teléfono externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de formato de número.
 
 Cuando haya seleccionado las opciones de tiempo de espera de la llamada, haga clic en **Guardar**.
 
