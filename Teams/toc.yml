@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: Configuración de la cola de llamadas
               href: create-a-phone-system-call-queue.md
-            - name: 'Ejemplo de pequeña empresa: configurar un operador automático'
-              href: tutorial-org-aa.yml
-            - name: 'Ejemplo de pequeña empresa: configurar una cola de llamada'
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: Administrar cuentas de recursos de Teams
               href: manage-resource-accounts.md
             - name: Configurar vacaciones
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: Números de teléfono de puertos
           href: business-voice/port-phone-numbers.md
-        - name: Configurar los operadores automáticos
-          href: business-voice/set-up-auto-attendants.md
         - name: Configurar directivas de llamadas
           href: business-voice/set-up-policies.md
         - name: 'Administrar los paquetes de directivas '
           href: business-voice/policy-packages.md
         - name: Crear usuarios adicionales
           href: business-voice/create-users.md
+        - name: 'Ejemplo: configurar una cola de llamadas'
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Configurar la cola de llamadas
           href: business-voice/set-up-call-queues.md
+        - name: 'Ejemplo: configurar un operador automático'
+          href: tutorial-org-aa.yml
+        - name: Configurar los operadores automáticos
+          href: business-voice/set-up-auto-attendants.md
     - name: Administrar la configuración
       items:
         - name: Crear un usuario o varios
