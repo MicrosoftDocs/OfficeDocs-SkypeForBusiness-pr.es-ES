@@ -14,16 +14,17 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365initiative-meetings
+- enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b793eb5124a9105a718accc5767493aa9c35fbc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 22626e14a9c6c6187949e5e770b2cdd22c20027b
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031636"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130631"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administrador: Reuniones y eventos en directo en Microsoft Teams
 
@@ -52,7 +53,7 @@ Para más información sobre las licencias, consulte [Descripción del servicio 
 
 ## <a name="make-sure-your-networks-ready"></a>Asegúrese de que la red esté disponible
 
-Si ya preparó su red cuando implementó Microsoft 365 u Office 365, probablemente y lo tenga todo listo. En cualquier caso, y especialmente si va a implementar Teams en poco tiempo con su primera carga de trabajo de Office 365 para admitir a **trabajadores remotos** , lea [Preparar la red de su organización para implementar Teams](prepare-network.md) para asegurarse de que estará preparado.
+Si ya preparó su red cuando implementó Microsoft 365 u Office 365, probablemente y lo tenga todo listo. En cualquier caso, y especialmente si va a implementar Teams en poco tiempo con su primera carga de trabajo de Office 365 para admitir a **trabajadores remotos**, lea [Preparar la red de su organización para implementar Teams](prepare-network.md) para asegurarse de que estará preparado.
 
 ## <a name="meetings-and-conferencing"></a>Reuniones y conferencias
 

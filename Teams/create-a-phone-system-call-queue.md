@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, mantiene música, redirige las llamadas y otras características.
-ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49089344"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135932"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -156,7 +156,7 @@ Como los agentes de una cola de llamadas pueden marcar para devolver una llamada
 
 ## <a name="supported-clients"></a>Clientes compatibles
 
-- Los siguientes clientes son compatibles con los agentes de llamadas en una cola de llamadas:
+Los siguientes clientes son compatibles con los agentes de llamadas en una cola de llamadas:
 
   - Cliente de escritorio de Skype empresarial 2016 (versiones de 32 y 64 bits)
   - Cliente de escritorio de Lync 2013 (versiones de 32 y 64 bits)

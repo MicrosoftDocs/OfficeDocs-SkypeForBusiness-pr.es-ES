@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030706"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130641"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -235,6 +235,8 @@ Los FQDN (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.m
 
 Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN **SIP-ALL.pstnhub.Microsoft.com** se resuelve en todas estas direcciones IP. 
 
+> [!IMPORTANT]
+>  Como parte de Teams, la expansión de enrutamiento y la mejora del servicio han implementado nuevas instancias de infraestructura de enrutamiento directo en Australia. Esto se refleja en dos direcciones IP adicionales (52.114.16.74 y 52.114.20.29) en las que se resolverán los siguientes FQDN para los clientes de Australia: sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.microsoft.com. Debe agregar estas dos direcciones IP (52.114.16.74 y 52.114.20.29) a sus listas de control de acceso (ACL) de IP y puertos abiertos para todas estas direcciones IP en su firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH y el entorno DoD
 

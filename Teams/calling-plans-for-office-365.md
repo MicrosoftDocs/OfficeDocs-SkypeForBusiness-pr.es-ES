@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: d71f97655d86a7d7a97d6f2097f05c86d4bc9b1d
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908689"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130421"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Planes de llamadas para Microsoft 365
 
@@ -39,9 +39,9 @@ Las llamadas a otros usuarios de Skype empresarial y Microsoft Teams son gratuit
   
 Estas son las opciones de planes de llamada:
   
-- **Plan de llamadas nacionales** : los usuarios con licencia pueden llamar a números que se encuentren en el país o la región donde están asignados en Microsoft 365 u Office 365.
+- **Plan de llamadas nacionales**: los usuarios con licencia pueden llamar a números que se encuentren en el país o la región donde están asignados en Microsoft 365 u Office 365.
     
-- **Plan de llamadas nacionales e internacionales** : los usuarios con licencia pueden llamar a números que se encuentren en el país o la región donde se asigne la licencia de Microsoft 365 o de Office 365 al usuario en función de la ubicación del usuario, y a números internacionales en [196 países o regiones](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Plan de llamadas nacionales e internacionales**: los usuarios con licencia pueden llamar a números que se encuentren en el país o la región donde se asigne la licencia de Microsoft 365 o de Office 365 al usuario en función de la ubicación del usuario, y a números internacionales en [196 países o regiones](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
 
 Todos los usuarios en el mismo país o región (esta es la ubicación del país del usuario definida en el área de licencias del centro de administración de Microsoft 365) con el mismo plan de llamadas compartir un grupo de minutos. Por ejemplo, si tiene 100 usuarios que se encuentran en el mismo país o región con un plan de llamadas nacionales de 120 minutos asignados, comparten un grupo de 12.000 minutos. Todas las llamadas que superen estos minutos se facturan por minuto.
     
@@ -62,7 +62,7 @@ Para obtener información detallada sobre los límites de uso y las condiciones 
     > [!NOTE]
     > En función de su plan, es posible que tenga que comprar más complementos para poder comprar licencias de sistema telefónico. Para obtener más información, consulte [licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
-2. Después de comprar las licencias del sistema telefónico, puede comprar el plan de llamadas iniciando sesión en el **centro de administración de Microsoft 365** , seleccionando **Billing**  >  suscripciones del complemento Servicios de **compra** de facturación  >  **Add-on subscriptions** y, a continuación, haciendo clic en **comprar ahora**. Verá los planes de llamadas allí.
+2. Después de comprar las licencias del sistema telefónico, puede comprar el plan de llamadas iniciando sesión en el **centro de administración de Microsoft 365**, seleccionando **Billing**  >  suscripciones del complemento Servicios de **compra** de facturación  >  **Add-on subscriptions** y, a continuación, haciendo clic en **comprar ahora**. Verá los planes de llamadas allí.
     
     ![Captura de pantalla que muestra las opciones del plan de llamadas de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -76,11 +76,9 @@ A continuación, asigne las licencias de Enterprise E5 o el complemento **del si
   
 ## <a name="pricing-information"></a>Información sobre precios
 
-- [Precios de planes de llamadas](https://go.microsoft.com/fwlink/?LinkId=799761)
+- [Precios de los planes de llamadas y del sistema telefónico](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
     
-- [Precios de Sistema telefónico](https://go.microsoft.com/fwlink/?linkid=799763)
-    
-- [Precios de Audio Conferencia](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Precios de Audio Conferencia](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings)
     
 ## <a name="for-more-information"></a>Más información
 

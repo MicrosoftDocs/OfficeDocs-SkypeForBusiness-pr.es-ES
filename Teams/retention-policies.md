@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b5ebfc4c626cac14439ef98420e219dd0d93df8
-ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
+ms.openlocfilehash: 3b7854af353b9619a1e668006c4e143ac8d37e77
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999264"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130661"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -43,8 +43,8 @@ Para obtener más información sobre las directivas de retención para Microsoft
 
 Cuando configura una directiva de retención para Teams u otra carga de trabajo, puede configurarlos para:
 
-- **Retener datos** : use una directiva de retención para asegurarse de que los datos sean retenidos durante un período de tiempo específico, independientemente de lo que suceda en la aplicación del usuario. Los datos se retienen por motivos de cumplimiento y están disponibles para eDiscovery hasta que concluya el período de retención, tras lo cual la directiva indica si debe eliminar los datos o hacer nada. Por ejemplo, si crea una directiva de retención de Teams para conservar los mensajes del canal durante 7 años, los mensajes se conservan para eDiscovery durante 7 años, incluso si los usuarios eliminan sus mensajes en Teams.
-- **Eliminar datos** : use una directiva de retención para eliminar datos y asegurarse de que no es responsabilidad de su organización. Con una directiva de retención de Teams, al eliminar datos, se eliminan de forma permanente de todas las ubicaciones de almacenamiento en el servicio de Teams.
+- **Retener datos**: use una directiva de retención para asegurarse de que los datos sean retenidos durante un período de tiempo específico, independientemente de lo que suceda en la aplicación del usuario. Los datos se retienen por motivos de cumplimiento y están disponibles para eDiscovery hasta que concluya el período de retención, tras lo cual la directiva indica si debe eliminar los datos o hacer nada. Por ejemplo, si crea una directiva de retención de Teams para conservar los mensajes del canal durante 7 años, los mensajes se conservan para eDiscovery durante 7 años, incluso si los usuarios eliminan sus mensajes en Teams.
+- **Eliminar datos**: use una directiva de retención para eliminar datos y asegurarse de que no es responsabilidad de su organización. Con una directiva de retención de Teams, al eliminar datos, se eliminan de forma permanente de todas las ubicaciones de almacenamiento en el servicio de Teams.
 
 Con directivas de retención para Teams, puede:
 
@@ -123,14 +123,14 @@ Para crear una directiva de retención para los mensajes de canal y chats de Tea
 
 1. En el panel izquierdo del Centro de seguridad y cumplimiento, vaya a **Control de la información** > **Retención**.
 2. Seleccione **Crear**.
-3. En la página **Asignar un nombre a la directiva** , escriba un nombre y una descripción para la directiva y, a continuación, haga clic en **siguiente**.
-4. En la página **Configuración** , especifique si desea conservar los datos, eliminarlos, o ambos, el período de retención y, a continuación, haga clic en **siguiente**.
-5. En la página **Elegir ubicaciones** , siga este procedimiento y, a continuación, haga clic en **siguiente** :
+3. En la página **Asignar un nombre a la directiva**, escriba un nombre y una descripción para la directiva y, a continuación, haga clic en **siguiente**.
+4. En la página **Configuración**, especifique si desea conservar los datos, eliminarlos, o ambos, el período de retención y, a continuación, haga clic en **siguiente**.
+5. En la página **Elegir ubicaciones**, siga este procedimiento y, a continuación, haga clic en **siguiente**:
 
     - Para aplicar la directiva a los mensajes del canal, active **Mensajes de canal de Teams**.  Si desea aplicar la directiva a equipos específicos en su organización, seleccione **Elegir equipos** y, a continuación, seleccione los equipos que desee.
     - Para aplicar la directiva a los chats, active **Chats de Teams**. Si desea aplicar la directiva a usuarios específicos en su organización, seleccione **Elegir usuarios** y, a continuación, seleccione los usuarios que desee.
       > [!NOTE]
-      > Al activar **Mensajes de canal de Teams** y/o **Chats de Teams** , el resto de las ubicaciones se desactivan automáticamente. Una directiva de retención de Teams solo puede incluir ubicaciones de Teams.
+      > Al activar **Mensajes de canal de Teams** y/o **Chats de Teams**, el resto de las ubicaciones se desactivan automáticamente. Una directiva de retención de Teams solo puede incluir ubicaciones de Teams.
 
         ![Captura de pantalla de las opciones de mensajes del canal de Teams y chats de Teams en la página elegir ubicaciones](media/retention-policies-create.png)
 
@@ -167,7 +167,7 @@ Para eliminar una directiva de retención de Teams, haga lo siguiente:
 
 ### <a name="end-user-experience"></a>Experiencia de usuario final
 
-Para los chats privados (chats de 1:1) o chats grupales, los usuarios finales verán que se eliminan las conversaciones anteriores a la configuración de la Directiva de retención y se muestra un mensaje de control que indica "hemos eliminado mensajes anteriores debido a la Directiva de retención de su organización", en la parte superior de los mensajes no eliminados.
+En el caso de chats privados (chats de 1:1) o chats grupales, los usuarios finales verán que se eliminan las conversaciones anteriores a la configuración de la Directiva de retención y se muestra un mensaje de control que indica "hemos eliminado mensajes anteriores debido a la Directiva de retención de su organización", además de los mensajes no eliminados.
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Captura de pantalla de la retención de chat":::
 
 
@@ -200,7 +200,7 @@ Los siguientes son problemas conocidos para las directivas de retención en Team
 
 - En **elegir equipos** en la fila ubicaciones de **los mensajes del canal de Teams** , es posible que vea grupos de Microsoft 365 que no son también equipos. Este problema se corregirá en una actualización futura.
 
-- En **Elegir usuarios** en la fila de ubicación de **Chats de Teams** , es posible que vea invitados y usuarios que no son buzones. Las directivas de retención no están pensadas para ser establecidas para invitados y estamos trabajando para quitarlas de la lista.
+- En **Elegir usuarios** en la fila de ubicación de **Chats de Teams**, es posible que vea invitados y usuarios que no son buzones. Las directivas de retención no están pensadas para ser establecidas para invitados y estamos trabajando para quitarlas de la lista.
 
 - Los trabajos de procesamiento de retención se ejecutan diariamente, pero se sabe que la latencia se ejecutó hasta 7 días, en algunos casos. Como resultado, es posible que, si tiene una directiva de retención de Teams para eliminar elementos anteriores a 60 días, estos elementos se puedan guardar hasta 67 días. Esto no es una nueva situación: sigue el modelo de Exchange. Por supuesto, en la mayoría de los casos, no hay ningún retraso.
 

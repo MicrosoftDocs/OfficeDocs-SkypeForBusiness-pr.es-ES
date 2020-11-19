@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo usar el informe de Power BI del panel de calidad de llamadas para ver los datos históricos de la cola de llamadas y el operador automático.
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085584"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130431"
 ---
 # <a name="what-are-the-requirements"></a>¿Cuáles son los requisitos? 
 Debe tener instalado Power BI Desktop. Puede instalarlo desde la [tienda de Microsoft Windows](https://aka.ms/pbidesktopstore).
@@ -43,21 +43,27 @@ En los pasos siguientes se da por supuesto que ya tiene instalado Power BI Deskt
 
 Siga estos pasos:
 - Descargue el [operador automático de equipos de CQD & plantilla de informe histórico](https://aka.ms/TAPAACQAnalytics) de la cola de llamadas y guárdela en un directorio de su equipo.
+
 - Haga doble clic en la plantilla y Power BI Desktop debe iniciarse.
+
 - Se le pedirá que seleccione la región de canalización de datos CQD. Seleccione la región donde se encuentra el inquilino.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
 
  - Puede ver la región mediante el cmdlet de Skype empresarial online PS (get-CsTenant). Resultado de ServiceInstance. 
- La región se mostrará después de la/like en este ejemplo: microsoftcommunicationsonline/Noam-4A-S7 donde la región es Noam.
+ La región se mostrará después de la/me gusta en este ejemplo: 
+ 
+   microsoftcommunicationsonline/Noam-4A-S7 donde la región está Noam.
+   
  - El informe se iniciará con datos de ejemplo.
+ 
  - Para ver sus propios datos, haga clic en **Actualizar** en la pestaña Inicio en consultas en Power BI Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
 
 - Se le pedirá que inicie sesión. Seleccione **cuenta** de la organización y, después, haga clic **en iniciar sesión**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
 
 - Seleccione **conectar** y vea la actualización de datos.
 
@@ -77,11 +83,11 @@ En los pasos siguientes se supone que ya ha completado los pasos de instalación
 Siga estos pasos:
 - Seleccione la **pestaña vista** en la cinta de opciones.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
 
 - Seleccione el esquema de color en la lista desplegable.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla del botón panel de calidad de llamadas en el centro de administración de Teams":::
 
 
 ## <a name="cqd-fields-description"></a>Descripción de los campos CQD
@@ -176,4 +182,5 @@ Siga estos pasos:
 
 ## <a name="known-issues"></a>Problemas conocidos
 - Por el momento, la cola de llamadas y el operador automático muestran el identificador de cuentas de recursos en lugar de la cola de llamadas/nombres de operador automático.  Para mostrar todo el tráfico de un operador automático o de una cola de llamadas, debe seleccionar todas las cuentas de recursos asignadas al operador automático o a la cola de llamadas.
+
 - Actualmente, solo los 28 días del historial están disponibles en el panel como la cola de llamadas o los datos de operador automático se consideran información de identificación del usuario final y están sujetos a las directivas de retención de privacidad de los datos.

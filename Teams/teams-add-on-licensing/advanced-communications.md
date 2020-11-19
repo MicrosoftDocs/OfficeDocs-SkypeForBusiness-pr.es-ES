@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6502f73d39c61eaa933d126cebb71f3123bdd541
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031216"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130391"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento de comunicaciones avanzadas para Microsoft Teams
 
@@ -34,9 +34,9 @@ Si su organización desea mejorar aún más su experiencia de comunicación, obt
 
 Las comunicaciones avanzadas proporcionan funciones mejoradas de llamadas y reuniones que abordan un espectro de necesidades de comunicación, entre las que se incluyen las siguientes:
 
-- **Llegar a audiencias mayores** : Ayude a los usuarios a permanecer conectado con eventos en vivo para un máximo de 20.000 participantes y reuniones interactivas para participantes de 1.000 con la capacidad de habilitar hasta 20.000 participantes en una experiencia de reunión de solo lectura.
-- Personalización y personalización de **reuniones** : impulsar la normalización en reuniones para los escenarios internos y personalizados, con características como la sala de reuniones personalizada con la marca. Implemente la flexibilidad en todos los departamentos de su organización. 
-- **Administrar las comunicaciones de la organización** : supervisar, realizar un seguimiento y analizar los datos de los usuarios y dispositivos para garantizar una experiencia fluida.
+- **Llegar a audiencias mayores**: Ayude a los usuarios a permanecer conectado con eventos en vivo para un máximo de 20.000 participantes y reuniones interactivas para participantes de 1.000 con la capacidad de habilitar hasta 20.000 participantes en una experiencia de reunión de solo lectura.
+- Personalización y personalización de **reuniones**: impulsar la normalización en reuniones para los escenarios internos y personalizados, con características como la sala de reuniones personalizada con la marca. Implemente la flexibilidad en todos los departamentos de su organización. 
+- **Administrar las comunicaciones de la organización**: supervisar, realizar un seguimiento y analizar los datos de los usuarios y dispositivos para garantizar una experiencia fluida.
 
 Las comunicaciones avanzadas están disponibles en todos los mercados de Microsoft 365 como complemento de cualquier suscripción de Microsoft 365 u Office 365 que se haya recibido. Las características incluidas en las comunicaciones avanzadas no se agregarán a otros planes de Microsoft 365 u Office 365 y no se pueden comprar por separado. Para obtener las características, debe comprar el complemento.
 
@@ -72,10 +72,10 @@ La prueba de 60 está disponible a partir del 4 de agosto de 2020. Puede obtener
 Con las comunicaciones avanzadas, cualquier reunión con más de 300 asistentes le proporcionará una manera de que hasta 1.000 participantes tengan una experiencia interactiva y hasta 20.000 participantes puedan unirse a la reunión con una experiencia de solo lectura. Evento en directo que habilita capacidades adicionales. En Live Events, 20.000 asistentes pueden ver la difusión e interactuar con Q&A en Teams, conversaciones en Yammer o solo en vista en Microsoft Stream. Además, aumentamos la duración de los eventos en vivo de 4 horas a 16 horas y habilitamos hasta 50 eventos en vivo simultáneos para cada inquilino. 
 
 >[!Note]
-> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones.
+> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, en noviembre tendrá que cancelar la suscripción si desea continuar usando Stream y por un tiempo, a principios de 2021, requeriremos que todos los clientes usen OneDrive para la Empresa y SharePoint para grabar nuevas reuniones.
 
 > [!NOTE]
-> Las SKU para empresas y educación pueden suspender temporalmente eventos en vivo para un máximo de 20.000 asistentes, con una duración del evento de 16 horas por difusión, y 50 eventos simultáneos en un inquilino hasta el 1 de octubre de 2020.
+> Los SKU para empresas y educación pueden suspender temporalmente eventos en vivo para un máximo de 20.000 asistentes, con una duración del evento de 16 horas por difusión, y 50 eventos simultáneos en un inquilino hasta el 1 de enero de 2021.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Administrador puede saber qué controladores de borde de sesión (SBCs) se han certificado para el enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d5671740e5ecf64bb676f222625c2ee42e78347
-ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
+ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999254"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130451"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -80,6 +80,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borde de sesión de Avaya para la empresa (ASBCE)    |     &#10004;     |           |       Liberar 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de borde de sesión Nokia    |     &#10004;     |           |       19,5 (1908)       |     |    | 
 |                     [Italtel](https://www.italtel.com/)|    CI de NetMatch-S     |     &#10004;     |           |       5,0       |     |    | 
+|                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2,16     |     &#10004;     |           |              |     |    | 
 
 <br/>
 <br/>
