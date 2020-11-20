@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
+ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085554"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49366919"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
@@ -70,8 +70,9 @@ Vea "grabación de reuniones" para obtener más información.
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurar la opción de grabación de la reunión para OneDrive para la empresa y SharePoint
 
+La opción de grabación de la reunión es una opción del nivel de directiva de Teams. En el ejemplo siguiente se muestra cómo establecer la directiva global. Asegúrese de establecer la opción de grabación de la reunión para la Directiva o las directivas que ha asignado a los usuarios.
+
 > [!Note]
-> La opción de grabación de la reunión es una opción del nivel de directiva de Teams. En el ejemplo siguiente se muestra cómo establecer la directiva global. Asegúrese de establecer la opción de grabación de la reunión para la Directiva o las directivas que ha asignado a los usuarios.
 > Los cambios en la política de reunión de Teams tardan unos minutos en propagarse. Vuelva a consultar después de unas pocas horas de configuración y, después, cierre sesión e inicie sesión de nuevo.
 
 1. Instalar Skype empresarial online PowerShell.
@@ -108,6 +109,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>Permisos o acceso basado en roles
+
+> [!Note]
+> Recomendamos que el destinatario sea un usuario conectado al compartir grabaciones de reuniones de Teams. Esto se puede lograr seleccionando la opción **personas de (su organización)** al compartir el archivo según se describe en [compartir archivos o carpetas de SharePoint](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). El uso compartido externo no está diseñado para la distribución de archivos grandes o de un gran número de archivos. Para evitar situaciones de fraude y abuso, es posible que experimente problemas al compartir una gran cantidad de datos con usuarios externos.
 
 |Tipo de reunión                               | ¿Quién hizo clic en grabar?| ¿Dónde se encuentran las tierras de la grabación?                               |¿Quién tiene acceso? R/W, R o compartida                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

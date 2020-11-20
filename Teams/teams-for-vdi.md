@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8670b7a1a2ba8393f6afddb9546cd01c276808f
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 53a4fca44e63f76875205726b4d145b815b9ee9c
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031266"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350642"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -40,17 +40,17 @@ El uso de Teams en un entorno virtualizado puede variar ligeramente de la utiliz
 
 Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo.
 
- > [!Note]
+> [!Note]
 > Para obtener más información sobre la VDI de Teams en diferentes plataformas, consulte [características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="teams-on-vdi-components"></a>Teams en componentes de VDI
 
 El uso de Teams en un entorno virtualizado requiere los siguientes componentes.
 
-- **Agente de virtualización** : el recurso y el administrador de conexiones en el proveedor de virtualización, como Azure
-- **Escritorio virtual** : pila de máquina virtual (VM) que ejecuta Microsoft Teams
-- **Cliente ligero** : el extremo con el que el usuario interactúa físicamente
-- **Aplicación de escritorio de Teams** : aplicación de cliente de escritorio de Teams
+- **Agente de virtualización**: el recurso y el administrador de conexiones en el proveedor de virtualización, como Azure
+- **Escritorio virtual**: pila de máquina virtual (VM) que ejecuta Microsoft Teams
+- **Cliente ligero**: el extremo con el que el usuario interactúa físicamente
+- **Aplicación de escritorio de Teams**: aplicación de cliente de escritorio de Teams
 
 ## <a name="teams-on-vdi-requirements"></a>Teams acerca de los requisitos de VDI
 
@@ -161,8 +161,11 @@ Para obtener más información sobre Teams y las aplicaciones de Microsoft 365 p
 
 1. Descargue el paquete MSI de teams que coincida con el sistema operativo de la VM de VDI mediante uno de los siguientes vínculos:
 
-    - [versión de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
-    - [versión de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
+    - [versión de 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [versión de 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
+    > [!NOTE]
+    > Para nubes gubernamentales, consulte [instalar Microsoft Teams mediante el administrador de configuración de Microsoft Endpoint](msi-deployment.md) para los vínculos de descarga de los archivos MSI.
 
     La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.3.00.4461. (La retención de RTC no es compatible con versiones anteriores).
 
@@ -263,15 +266,15 @@ Para asignar la Directiva de llamada de DisallowCalling y la Directiva de reuni�
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. Haga lo siguiente:
-    1.  En **Directiva de llamada** , haga clic en **DisallowCalling**.
-    2.  En **Directiva de reunión** , haga clic en **AllOff**.
+    1.  En **Directiva de llamada**, haga clic en **DisallowCalling**.
+    2.  En **Directiva de reunión**, haga clic en **AllOff**.
 4. Haga clic en **Aplicar**.
 
 Para asignar una directiva a varios usuarios a la vez:
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios** , después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
 2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
-3. Haga clic en **Editar configuración** , haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
+3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
 También puede hacer lo siguiente:
 
@@ -279,7 +282,7 @@ También puede hacer lo siguiente:
     - Vaya a **Voice**  >  **directivas de llamadas** de voz y, a continuación, haga clic en **DisallowCalling**.
     - Vaya a **reuniones**  >  **Meeting Policies** y, a continuación, haga clic en **AllOff**.
 2. Seleccione **Administrar usuarios**.
-3. En el panel **Administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+3. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 #### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
@@ -319,15 +322,15 @@ Para asignar la Directiva de llamada de AllowCalling y la Directiva de reunión 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
 2. Para seleccionar el usuario, haga clic a la izquierda del nombre de usuario y, después, en **Editar configuración**.
 3. Haga lo siguiente:
-    1.  En **Directiva de llamada** , haga clic en **AllowCalling**.
-    2.  En **Directiva de reunión** , haga clic en **AllOn**.
+    1.  En **Directiva de llamada**, haga clic en **AllowCalling**.
+    2.  En **Directiva de reunión**, haga clic en **AllOn**.
 4. Haga clic en **Aplicar**.
 
 Para asignar una directiva a varios usuarios a la vez:
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios** , después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Usuarios**, después, busque los usuarios o filtre la vista para mostrar los usuarios que desee.
 2. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en el **&#x2713;** (marca de verificación) en la parte superior de la tabla.
-3. Haga clic en **Editar configuración** , haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
+3. Haga clic en **Editar configuración**, haga los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
 También puede hacer lo siguiente:
 
@@ -335,7 +338,7 @@ También puede hacer lo siguiente:
     - Vaya a **Voice**  >  **directivas de llamadas** de voz y, a continuación, haga clic en **AllowCalling**.
     - Vaya a **reuniones**  >  **Meeting Policies** y, a continuación, haga clic en **AllOn**.
 2. Seleccione **Administrar usuarios**.
-3. En el panel **Administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
+3. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 4. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
 
 #### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
@@ -400,6 +403,7 @@ A continuación se indican los problemas conocidos y las limitaciones de las lla
 - En las reuniones o en las llamadas grupales solo se admite una única secuencia de vídeo entrante. Cuando varias personas envían video, solo se muestra el vídeo del altavoz dominante en un momento dado.
 - La resolución de flujo de vídeo entrante y saliente está limitada a la resolución de 720p. Esta es una limitación de WebRTC.
 - Solo se admite una secuencia de vídeo de una cámara entrante o una secuencia compartida de pantalla. Cuando hay un uso compartido de pantalla entrante, se muestra ese recurso compartido de pantalla, en lugar del vídeo del altavoz dominante.
+- Teams no cambia para usar el último dispositivo de audio seleccionado por un usuario, si el dispositivo está desconectado y, después, se vuelve a conectar.
 - Pantalla compartida saliente:
     - El uso compartido de aplicaciones no es compatible.
 - Ceder el control y tomar el control:

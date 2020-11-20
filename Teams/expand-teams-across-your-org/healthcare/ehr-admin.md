@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Usar Microsoft Teams para configurar el sistema de visitas virtuales
-ms.openlocfilehash: ed952f678fb353ae623a0020ac565ee4e8288445
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 808d957cd86273852e7c2c98ec223b1988e5bd0d
+ms.sourcegitcommit: cbf87fc914a19088af8ec08fb0976db9f838a45d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790462"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49355970"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuales con Teams: integración en EHR
 
@@ -91,7 +91,7 @@ Este paso debe completarse con el administrador de Microsoft 365. El administrad
 
 Para completar este paso, el administrador de Microsoft 365 debe recibir una dirección URL base válida de interoperabilidad de mantenimiento rápido (FHIR) del administrador de Microsoft 365 y el nombre de usuario del administrador de la epopeya que aprobará la configuración. El administrador de Microsoft 365 debe iniciar la página de configuración del conector e iniciar sesión con las credenciales de Microsoft para iniciar el proceso de configuración.
 
-- La dirección URL base de FHIR es una dirección estática correspondiente a su extremo de la API de FHIR de servidor. Una dirección URL de ejemplo es [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST) .
+- La dirección URL base de FHIR es una dirección estática correspondiente a su extremo de la API de FHIR de servidor. Una dirección URL de ejemplo es `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` .
 
 - Nombre del aprobador de configuración es el nombre del administrador del sistema Epic que será responsable de aprobar la configuración.
 

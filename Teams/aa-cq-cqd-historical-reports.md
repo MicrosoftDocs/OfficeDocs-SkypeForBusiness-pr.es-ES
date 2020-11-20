@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el informe de Power BI del panel de calidad de llamadas para ver los datos históricos de la cola de llamadas y el operador automático.
-ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085721"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130411"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Operador automático & informe histórico de la cola de llamadas
 
@@ -54,23 +54,31 @@ La cuenta que use para ver el informe histórico de AA & analítica de CQ debe t
 En los pasos siguientes se da por supuesto que ya tiene instalado Power BI Desktop en el equipo y que la cuenta tiene los permisos necesarios para acceder a la canalización de datos CQD.
 
 Siga estos pasos:
+
 - Descargue las [plantillas de consulta de Power BI del CQD](https://www.microsoft.com/download/details.aspx?id=102291) y guarde el archivo zip en un directorio de su equipo.
+
 - Haga doble clic en el archivo zip para abrirlo.
+
 - Haga doble clic en el archivo de plantilla "CQ y AA Analytics 20201105. PBit" y Power BI Desktop debe iniciarse.
+
 - Se le pedirá que seleccione la región de canalización de datos CQD. Seleccione la región donde se encuentra el inquilino.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla que selecciona la región de canalización datos CQD":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla que selecciona la región de canalización datos CQD":::
 
- - Puede ver la región mediante el cmdlet de Skype empresarial online PS (get-CsTenant). Resultado de ServiceInstance. 
- La región se mostrará después de la/like en este ejemplo: microsoftcommunicationsonline/Noam-4A-S7 donde la región es Noam.
+ - Puede ver la región mediante el cmdlet de PowerShell de Skype empresarial online (get-CsTenant). Resultado de ServiceInstance. 
+ La región se mostrará después de la/me gusta en este ejemplo:
+
+   microsoftcommunicationsonline/Noam-4A-S7 donde la región está Noam.
+ 
  - El informe se iniciará con datos de ejemplo.
+ 
  - Para ver sus propios datos, haga clic en **Actualizar** en la pestaña Inicio en consultas en Power BI Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla que selecciona la opción actualizar":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla que selecciona la opción actualizar":::
 
 - Se le pedirá que inicie sesión. Seleccione **cuenta** de la organización y, después, haga clic **en iniciar sesión**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla que muestra inicio de sesión":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla que muestra inicio de sesión":::
 
 - Seleccione **conectar** y vea la actualización de datos.
 
@@ -93,9 +101,11 @@ En los pasos siguientes se supone que ya ha completado los pasos de instalación
 Siga estos pasos:
 - Seleccione la **pestaña vista** en la cinta de opciones.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla que selecciona la pestaña vista para cambiar la combinación de colores":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla que selecciona la pestaña vista para cambiar la combinación de colores":::
 
 - Seleccione el esquema de color en la lista desplegable.
+
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla que muestra varias combinaciones de colores":::
 
 ## <a name="cqd-fields-description"></a>Descripción de los campos CQD
 
@@ -121,11 +131,11 @@ Siga estos pasos:
 |Es la cola de llamadas involucrada                  |Boolean                  |Si la cola de llamadas se relaciona con esta llamada es igual a 1 |
 
 
-### <a name="powerbi-data-model-dimensions"></a>Dimensiones del modelo de datos de PowerBI
+### <a name="power-bi-data-model-dimensions"></a>Dimensiones del modelo de datos de Power BI
 
 |Nombre                                    |Tipo de datos                |Descripción                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Nombre de AA                                   |tipo                   |Identificador de operador automático (identificador de cuenta de recursos) |
+|Nombre de AA                                   |tipo                   |IDENTIFICADOR de operador automático (identificador de cuenta de recursos) |
 |AACallFlow                              |tipo                   |Encapsula los distintos Estados de una llamada de operador automático<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ anuncio |
 |AACallResult                            |tipo                   |Resultado de la llamada de operador automático:<br>§ desconocido<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined: error de configuración AA<br>§ service_terminated: errores internos de AA<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |tipo                   |Duración de la llamada de operador automático en segundos  |
@@ -189,5 +199,6 @@ Siga estos pasos:
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-- Por el momento, la cola de llamadas y el operador automático muestran el identificador de cuentas de recursos en lugar de la cola de llamadas/nombres de operador automático.  Para mostrar todo el tráfico de un operador automático o de una cola de llamadas, debe seleccionar todas las cuentas de recursos asignadas al operador automático o a la cola de llamadas.
+- En este momento, la cola de llamadas y el operador automático muestran el identificador de la cuenta de recursos en lugar de los nombres de cola de llamadas/operador automático.  Para mostrar todo el tráfico de un operador automático o de una cola de llamadas, debe seleccionar todas las cuentas de recursos asignadas al operador automático o a la cola de llamadas.
+
 - Actualmente, solo los 28 días del historial están disponibles en el panel como la cola de llamadas o los datos de operador automático se consideran información de identificación del usuario final y están sujetos a las directivas de retención de privacidad de los datos.
