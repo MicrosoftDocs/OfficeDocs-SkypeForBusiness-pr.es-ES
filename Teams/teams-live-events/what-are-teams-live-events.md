@@ -1,16 +1,33 @@
 ---
-Título: ¿Qué son los eventos de Microsoft Teams Live? Autor: lanachin ms. Author: v-lanac Manager: serdars ms. tema: conceptual ms. Service: msteams ms. Collection: 
-  - M365: colaboración
-  - m365initiative-reuniones
-  - m365solution-spcomms
-- m365solution-Scenario ms. Reviewer: sonua Audience: búsqueda de administración. appverid: MET150 Descripción: Obtenga información sobre cómo los eventos en directo permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Teams, Yammer y Stream.
-F1. palabras clave: 
-- CSH ms. Custom:
-  - MS. teamsadmincenter. Dashboard. helparticle. liveEvents
-  - se aplica la aplicación ms. teamsadmincenter. liveEvents. Policies: 
-  - Microsoft Teams
+title: ¿Qué son los eventos en directo de Microsoft Teams?
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.collection:
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
+ms.reviewer: sonua
+audience: admin
+search.appverid: MET150
+description: Obtenga información sobre cómo los eventos en vivo permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Teams, Yammer y Stream.
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373476"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos de Microsoft Teams Live?
 
 ## <a name="overview"></a>Información general
@@ -49,8 +66,6 @@ Teams permite a los organizadores crear un evento con los permisos de asistente 
 La entrada de video es el fundamento del evento en vivo y puede variar desde una sola cámara web a una producción de video profesional con varias cámaras. Los eventos en directo de Microsoft 365 admiten un espectro de escenarios de producción, incluido un evento producido en Teams con una cámara web o un evento generado en una aplicación o dispositivo externo. Puede elegir estas opciones en función de los requisitos del proyecto y el presupuesto. Existen dos formas de generar eventos:
 
 - **Equipos**: este método de producción permite a los usuarios producir sus eventos en vivo en Teams usando su cámara web o usar la entrada a/V de los equipos de la sala de equipos. Esta es la opción más rápida y rápida si desea usar los dispositivos de audio y vídeo conectados al equipo o invitar a los moderadores remotos a participar en el evento. Esta opción permite a los usuarios utilizar fácilmente sus cámaras Web y compartir su pantalla como entrada en el evento.
-
-    ![evento en directo elaborado con el método de inicio rápido](../media/teams-live-events-quick-start.png "Captura de pantalla que muestra un evento en directo que se produce con el método de inicio rápido de producción")
 
 - **Dispositivo o aplicación externa**: los codificadores externos permiten a los usuarios producir sus eventos en directo directamente desde un hardware externo o codificador basado en software con [Stream](https://stream.microsoft.com). Esta opción es la mejor si ya tiene equipos de calidad de estudio (por ejemplo, las mezclas multimedia) que admiten transmisiones a un servicio RTMP (Protocolo de mensajería en tiempo real). Este tipo de producción suele usarse en eventos de gran envergadura, como salas de las salas de la ciudad, donde un único flujo de un mezclador de medios se difunde a la audiencia.
 
