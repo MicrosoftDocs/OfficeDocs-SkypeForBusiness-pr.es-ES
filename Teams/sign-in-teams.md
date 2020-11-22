@@ -1,5 +1,5 @@
 ---
-title: Iniciar sesión en Microsoft Teams con la autenticación moderna
+title: Iniciar sesión en Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
-ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
+ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944194"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350572"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 ==========================
@@ -102,7 +102,7 @@ Establezca los siguientes parámetros de configuración en el portal de Azure In
 
 |Plataforma |Clave  |Valor  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Habilitado** : la única cuenta permitida es la cuenta de usuario administrada definida por la clave IntuneMAMUPN.<br> **Deshabilitado** (o cualquier valor que no sea una coincidencia insensible a las mayúsculas y minúsculas con **Habilitado** ): cualquier cuenta está permitida.        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Habilitado**: la única cuenta permitida es la cuenta de usuario administrada definida por la clave IntuneMAMUPN.<br> **Deshabilitado** (o cualquier valor que no sea una coincidencia insensible a las mayúsculas y minúsculas con **Habilitado**): cualquier cuenta está permitida.        |
 |iOS     |   **IntuneMAMUPN**      |   UPN de la cuenta permitida para acceder a Teams.<br> En el caso de los dispositivos inscritos en Intune, se puede utilizar el símbolo {{nombre del usuario principal}} para representar la cuenta de usuario inscrito.       |
 |Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Sólo se permiten las cuentas de usuario administradas definidas por esta clave.<br> Uno o más punto y coma ;]- UPN delimitados.<br> En el caso de los dispositivos inscritos en Intune, se puede utilizar el símbolo {{nombre del usuario principal}} para representar la cuenta de usuario inscrito.
 
@@ -143,7 +143,7 @@ En los próximos días actualizaremos este documento con detalles sobre el uso d
 
 ## <a name="sign-out-on-mobile-devices"></a>Cerrar sesión en dispositivos móviles
 
-Los usuarios de dispositivos móviles pueden cerrar sesión en Teams dirigiéndose al menú y eligiendo el menú **Más** , para luego elegir **Cerrar sesión**. Una vez que se hayan cerrado sesión, los usuarios deberán volver a introducir sus credenciales la próxima vez que inicien la aplicación.
+Los usuarios de dispositivos móviles pueden cerrar sesión en Teams dirigiéndose al menú y eligiendo el menú **Más**, para luego elegir **Cerrar sesión**. Una vez que se hayan cerrado sesión, los usuarios deberán volver a introducir sus credenciales la próxima vez que inicien la aplicación.
 
 > [!NOTE]
 > Teams para Android utiliza el inicio de sesión único (SSO) para simplificar la experiencia de inicio de sesión. Los usuarios deben asegurarse de cerrar la sesión de **todas** las aplicaciones de Microsoft, además de Teams, para poder cerrar la sesión completamente en la plataforma Android.
