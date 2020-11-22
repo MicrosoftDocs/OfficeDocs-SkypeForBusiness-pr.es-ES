@@ -18,12 +18,12 @@ description: Obtenga más información sobre la versión preliminar pública en 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 0b0e6bb9c4082125b2dfbc1ab0dfb6e21edab2d6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 8e0efa04b67f2818581f710b14850ba9944e3b51
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031616"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373466"
 ---
 # <a name="microsoft-teams-public-preview"></a>Versión preliminar pública en Microsoft Teams
 
@@ -34,7 +34,7 @@ La versión preliminar pública para Microsoft Teams ofrece acceso anticipado a 
 
 ## <a name="set-the-update-policy"></a>Configure la directiva de actualización
 
- La versión preliminar pública está habilitada para cada usuario y la opción para activar la vista previa pública se controla en una directiva de administración. Las directivas de actualización se usan para administrar los usuarios de versión preliminar de Teams y Office que podrán ver las características de versión preliminar o de vista previa de la aplicación Teams. Puede usar la directiva global (predeterminada para toda la organización) y personalizarla, o bien crear una o varias directivas personalizadas para sus usuarios.
+ La versión preliminar pública está habilitada para cada usuario y la opción para activar la versión preliminar pública se controla en una directiva de administración. Las directivas de actualización se usan para administrar los usuarios de versión preliminar de Teams y Office que podrán ver las características de versión preliminar o de vista previa de la aplicación Teams. Puede usar la directiva global (predeterminada para toda la organización) y personalizarla, o bien crear una o varias directivas personalizadas para sus usuarios. La directiva debe asignarse a usuarios específicos porque no sobrescribe la directiva global.
 
 1. Inicie sesión en el Centro de administración.
 2. Seleccione **Teams**>**Actualizar directivas**.
