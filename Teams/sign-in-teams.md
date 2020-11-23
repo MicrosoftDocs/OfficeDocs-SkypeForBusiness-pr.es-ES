@@ -17,24 +17,25 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
-ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
+ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
+ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350572"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376023"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 ==========================
 
 ## <a name="windows-users"></a>Usuarios de Windows
+
 Microsoft recomienda que las organizaciones usen las versiones más recientes de Windows 10 con una configuración de Hybrid Domain Join o Azure AD Join. Usar las últimas versiones garantiza que las cuentas de los usuarios estén desbloqueadas en el Administrador de cuentas web de Windows, el cual, a su vez, activará el inicio de sesión único para Teams y para otras aplicaciones de Microsoft. El inicio de sesión único ofrece una mejor experiencia de usuario (inicio de sesión silencioso) y una mejor postura de seguridad.
 
 Microsoft Teams usa la autenticación moderna para mantener la experiencia de inicio de sesión sencilla y segura. Para ver cómo inician sesión en Teams los usuarios, consulte [Iniciar sesión en Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ### <a name="how-modern-authentication-works"></a>Cómo funciona la autenticación moderna
 
-La autenticación moderna es un proceso que lo permite. Teams sabe que los usuarios ya escribieron sus credenciales, como su correo electrónico de trabajo y su contraseña en otro lugar, y no deben tener que volver a escribirlos para iniciar la aplicación. La experiencia variará de acuerdo con un par de factores, como si los usuarios están trabajando en Windows o en Mac. También puede variar en función de si la organización tiene habilitada la autenticación de un solo factor o la autenticación multifactor. Generalmente, la autenticación multifactor requiere comprobar las credenciales a través de un teléfono, proporcionar un código único, escribir un PIN o presentar una huella digital. Este es un resumen de cada escenario de autenticación moderna.
+La autenticación moderna es un proceso que permite a Teams saber si un usuario ya ingresó sus credenciales (como su correo electrónico y contraseña de trabajo) en otro lugar, por lo que no es necesario volver a escribirlos para iniciar la aplicación. La experiencia variará de acuerdo con un par de factores, como si los usuarios están trabajando en Windows o en Mac. También puede variar en función de si la organización tiene habilitada la autenticación de un solo factor o la autenticación multifactor. Generalmente, la autenticación multifactor requiere comprobar las credenciales a través de un teléfono, proporcionar un código único, escribir un PIN o presentar una huella digital. Este es un resumen de cada escenario de autenticación moderna.
 
 La autenticación moderna está disponible para cualquier organización que use Teams. Si los usuarios no pueden completar el proceso, puede haber un problema subyacente en la configuración de Azure AD de su organización. Para obtener más información, vea [¿por qué tengo problemas para iniciar sesión en Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
@@ -55,9 +56,9 @@ La autenticación moderna está disponible para cualquier organización que use 
     > [!NOTE]
     > La opción para omitir o ignorar el rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está activada de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlos.
 
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Cerrar la sesión de Teams una vez completada la autenticación moderna
+### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Cerrar la sesión de Microsoft Teams una vez completada la autenticación moderna
 
-Para cerrar la sesión de Teams, los usuarios pueden hacer clic en su imagen de perfil en la parte superior de la aplicación y seleccionar **Cerrar sesión**. También pueden hacer clic con el botón derecho en el icono de la aplicación en la barra de tareas y seleccionar **Cerrar sesión**. Una vez que haya finalizado la sesión en Teams, deberán volver a escribir sus credenciales para iniciar la aplicación.
+Para cerrar la sesión de Teams, los usuarios pueden seleccionar su imagen de perfil en la parte superior de la aplicación y seleccionar **Cerrar sesión**. También pueden hacer clic con el botón derecho en el icono de la aplicación en la barra de tareas y seleccionar **Cerrar sesión**. Una vez que haya finalizado la sesión en Teams, deberán volver a escribir sus credenciales para iniciar la aplicación.
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Iniciar sesión en otra cuenta en un equipo unido a un dominio
 
@@ -92,11 +93,11 @@ Para ello, es posible que la organización quiera restringir el uso de aplicacio
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Cómo restringir el inicio de sesión en dispositivos móviles
 
-Teams para iOS y Android ofrece a los administradores de TI la posibilidad de enviar las configuraciones de las cuentas a las cuentas de Microsoft 365. Esta capacidad funciona con cualquier proveedor de Administración de dispositivos móviles (MDM) que utilice el canal de [Configuración de aplicaciones administradas](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html)para iOS o el canal[ Android Enterprise](https://developer.android.com/work/managed-configurations) para Android.
+Teams para iOS y Android ofrece a los administradores de TI la capacidad de enviar configuraciones de cuenta a cuentas de Microsoft 365. Esta capacidad funciona con cualquier proveedor de Administración de dispositivos móviles (MDM) que utilice el canal de [Configuración de aplicaciones administradas](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) para iOS o el canal [Android Enterprise](https://developer.android.com/work/managed-configurations) para Android.
 
-Para los usuarios inscritos en Microsoft Intune, puede desplegar los ajustes de configuración de la cuenta utilizando Intune en el Portal Azure.
+Para los usuarios inscritos en Microsoft Intune, puede desplegar los ajustes de configuración de la cuenta utilizando Intune en el portal de Azure.
 
-Una vez que la configuración de la cuenta haya sido configurada en el proveedor de MDM, y después de que el usuario inscriba su dispositivo, en la página de inicio de sesión, Teams para iOS y Android solo mostrarán las cuentas permitidas en la página de inicio de sesión de los Teams. El usuario puede acceder a cualquiera de las cuentas permitidas en esta página para iniciar sesión.
+Una vez que se haya establecido la configuración de la cuenta en el proveedor de MDM, y después de que el usuario inscriba su dispositivo, en la página de inicio de sesión, Microsoft Teams para iOS y Android solo mostrarán las cuentas permitidas en la página de inicio de sesión de Microsoft Teams. El usuario puede acceder a cualquiera de las cuentas permitidas en esta página para iniciar sesión.
 
 Establezca los siguientes parámetros de configuración en el portal de Azure Intune para los dispositivos administrados.
 
@@ -118,10 +119,11 @@ Las aplicaciones de Teams en Windows y MacOS son compatibles con las directivas 
 Cuando esta directiva está configurada en un dispositivo, los usuarios solo pueden iniciar sesión con las cuentas hospedadas en un inquilino de Azure AD que se incluye en la "lista de permitidos de inquilino" definida en la directiva. La directiva se aplica a todos los inicios de sesión, entre los que se incluyen la primera cuenta y las cuentas adicionales. Si su organización abarca varios inquilinos de Azure AD, puede incluir varios Id. de inquilinos en la lista de permitidos. Es posible que los vínculos para agregar otra cuenta sigan siendo visibles en la aplicación de Teams, pero en este caso no se podrán utilizar.
 
 > [!NOTE]
->1. La directiva solo restringe los inicios de sesión. No impide la posibilidad de que los usuarios sean invitados como invitados en otros inquilinos de Azure AD, o que se cambien a otros espacios empresariales.
->2. La directiva requiere Teams para Windows versión 1.3.00.30866 o superior, y Teams para MacOS versión 1.3.00.30882 (lanzado el centro: noviembre de 2020).
+>1. La directiva solo restringe los inicios de sesión. No restringe la capacidad de los usuarios de ser agregados como invitados en otros espacios empresariales de Azure AD o cambiar a otros espacios empresariales.
+>2. La directiva requiere Microsoft Teams para Windows versión 1.3.00.30866 o superior, y Microsoft Teams para MacOS versión 1.3.00.30882 (lanzado a mediados de noviembre de 2020).
 
-**Directivas para Windows** puede establecer manualmente claves en el registro de Windows:
+**Directivas para Windows** Los archivos de plantilla administrativa (ADMX y ADML) están disponibles en el [Centro de descargas](https://www.microsoft.com/download/details.aspx?id=49030). Además, puede establecer manualmente las teclas en el registro de Windows:
+
 - Nombre del valor: RestrictTeamsSignInToAccountsFromTenantList
 - Tipo de valor: cadena
 - Datos de valor: Id. de inquilino o lista separada por comas de Id. de inquilino
@@ -129,11 +131,9 @@ Cuando esta directiva está configurada en un dispositivo, los usuarios solo pue
 
  Equipo \ HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams equipo \ HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\16.0\Teams equipo \ HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\16.0\Teams
 
-Ejemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID. de inquilino o SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = ID. de inquilino 1, ID. de inquilino 2, ID. de inquilino 3
+Ejemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID o SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 1,Tenant ID 2,Tenant ID 3
 
-En los próximos días actualizaremos este documento con detalles sobre el uso de los archivos de plantillas administrativas (ADMX/ADML).
-
-**Directivas para Mac OS** para dispositivos administrados con MacOS, utilice. plist para implementar las restricciones de inicio de sesión. El perfil de configuración es un archivo. plist que está formado por entradas identificadas por una clave (lo que denota el nombre de la preferencia), seguido de un valor, que depende de la naturaleza de la preferencia. Los valores pueden ser sencillos (como un valor numérico) o complejos, como una lista anidada de preferencias.
+**Directivas para Mac OS** Para dispositivos administrados por MacOS, use .plist para implementar restricciones de inicio de sesión. El perfil de configuración es un archivo. plist que está formado por entradas identificadas por una clave (lo que denota el nombre de la preferencia), seguido de un valor, que depende de la naturaleza de la preferencia. Los valores pueden ser sencillos (como un valor numérico) o complejos, como una lista anidada de preferencias.
 
 - Dominio: com.microsoft.teams
 - Key: RestrictTeamsSignInToAccountsFromTenantList
