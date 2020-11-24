@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Preparar el entorno
               href: rooms/rooms-prep.md
-            - name: Requisitos
+            - name: Requirements
               href: rooms/requirements.md
             - name: Licencias en línea
               href: rooms/rooms-licensing.md
@@ -348,6 +348,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Administrar la pizarra en Teams
       href: manage-whiteboard.md
+    - name: Configurar el complemento de reunión de Microsoft Teams para Google Workspace
+      href: add-gsuite-thru-aad.md
     - name: Audioconferencia
       items:
         - name: Planear la implementación
@@ -1132,7 +1134,7 @@
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             - name: Administrar la aplicación Turnos
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams para el ámbito educativo
+    - name: Microsoft Teams para el ámbito educativo
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items:
         - name: 'Inicio rápido: Administradores de Teams para el ámbito educativo'
@@ -1285,7 +1287,7 @@
               href: CQD-data-and-reports.md
             - name: Usar el CQD para administrar la calidad de las llamadas y reuniones
               href: quality-of-experience-review-guide.md
-            - name: Preguntas frecuentes
+            - name: Preguntas más frecuentes
               href: CQD-frequently-asked-questions.md
             - name: Dimensiones y medidas disponibles en el CQD
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
