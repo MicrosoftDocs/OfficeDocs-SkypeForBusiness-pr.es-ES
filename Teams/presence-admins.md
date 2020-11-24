@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818840"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385647"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -38,7 +38,7 @@ La presencia es parte del perfil de un usuario en Microsoft Teams (y en Microsof
 | ![Marca de verificación verde sólida, indica Presencia disponible](media/Presence_Available.png) Disponible|![Marca de verificación verde sólida, indica Presencia disponible](media/Presence_Available.png) Disponible|
 || ![Marca de verificación verde sólida, indica Presencia Abierta marca de verificación verde, indica disponible oof](media/Presence_Available_OOF.png) Disponible, fuera de la oficina. Nota: fuera de la oficina se establece automáticamente para los períodos de tiempo en los que el usuario establece "respuestas automáticas". Si el usuario usa la aplicación durante estos períodos de tiempo, es posible que se muestre una presencia doble, como "fuera de la oficina, disponible". |
 |  ![Círculo rojo sólido, indica Ocupado](media/Presence_Busy.png) Ocupado |  ![Círculo rojo sólido, indica Ocupado](media/Presence_Busy.png) Ocupado  |
-|| ![Círculo rojo sólido, indica Ocupado en una llamada](media/Presence_Busy.png) En una llamada...|
+|| ![Círculo rojo sólido, indica Ocupado en una llamada](media/Presence_Busy.png) En una llamada|
 || ![Círculo rojo sólido, indica Ocupado en una reunión](media/Presence_Busy.png) En una reunión |
 || ![Círculo rojo abierto, indica Ocupado](media/Presence_Busy_OOF.png) En una llamada, fuera de la oficina|
 |  ![Círculo rojo con línea blanca, indica No molestar](media/Presence_DND.png) No molestar ||
@@ -84,7 +84,7 @@ Los Estados configurados por el usuario tienen una configuración de expiración
 La siguiente configuración de administración Skype Empresarial es diferente en Teams:
 
 - En Teams, el uso compartido de la presencia siempre está habilitado para los usuarios de la organización. La configuración privacidad (donde se define quién puede ver la presencia) no está disponible en Teams.
-- Compartir la presencia con todo el mundo (incluidos los servicios Federados) siempre está habilitado para los usuarios de Teams. Su lista de contactos (si tenía una en Skype Empresarial) está visible en **Chat > Contactos** o en **Llamadas > Contactos** .
+- Compartir la presencia con todo el mundo (incluidos los servicios Federados) siempre está habilitado para los usuarios de Teams. Su lista de contactos (si tenía una en Skype Empresarial) está visible en **Chat > Contactos** o en **Llamadas > Contactos**.
 - Las funciones de No molestar al cliente y Contacto siempre están habilitadas para los usuarios de Teams.
 - La integración del calendario (incluye información de fuera de la oficina y otra información de calendario) siempre está habilitada para los usuarios cuando Teams se integra con Outlook.
 - El indicador *Último visto* o *Ausente desde* siempre está habilitado para los usuarios en Teams si la organización también usa Skype Empresarial.

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
-ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
+ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49366919"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385627"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
@@ -116,7 +116,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Tipo de reunión                               | ¿Quién hizo clic en grabar?| ¿Dónde se encuentran las tierras de la grabación?                               |¿Quién tiene acceso? R/W, R o compartida                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |llamada de 1:1 con partes internas             |Autor de llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |La persona que llama es propietaria y tiene derechos completos. <br /><br />El destinatario de la llamada (si está en el mismo inquilino) tiene acceso de solo lectura. Sin acceso compartido. <br /><br /> El destinatario de la llamada (si se trata de un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con el destinatario.|
-|llamada de 1:1 con partes internas             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        |El destinatario de la llamada es propietario y tiene plenos derechos. <br /><br />La persona que llama (si está en el mismo inquilino tiene acceso de solo lectura. Sin acceso compartido. <br /><br />La persona que llama (si se trata de un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con el destinatario.|
+|llamada de 1:1 con partes internas             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        |El destinatario de la llamada es propietario y tiene plenos derechos. <br /><br />La persona que llama (si está en el mismo inquilino tiene acceso de solo lectura. Sin acceso compartido. <br /><br />La persona que llama (si se trata de un inquilino diferente) no tiene acceso. La persona que llama debe compartirla con quien llama.|
 |llamada de 1:1 con una llamada externa             |Autor de llamada                 |Cuenta de OneDrive para la empresa del autor de la llamada                        |La persona que llama es propietaria y tiene derechos completos.<br /> <br />El destinatario de la llamada no tiene acceso. La persona que llama debe compartirla con el destinatario.|
 |llamada de 1:1 con una llamada externa             |Destinatario de la llamada                 |Cuenta de OneDrive para la empresa de la persona que llama                        |El destinatario de la llamada es propietario y tiene plenos derechos.<br /><br />La persona que llama no tiene acceso. La persona que llama debe compartirla con quien llama.|
 |Llamada grupal                                 |Cualquier miembro de la llamada |Miembro que hizo clic en la cuenta de OneDrive para la empresa del registro  |El miembro que hizo clic en el registro tiene derechos completos. <br /><br /> Otros miembros del mismo inquilino tienen derechos de lectura. <br /><br /> Otros miembros de un inquilino diferente no tienen derechos.|

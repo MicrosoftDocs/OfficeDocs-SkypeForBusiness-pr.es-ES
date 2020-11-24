@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Aprenda a cargar inquilino y a crear datos en el panel de calidad de llamadas (CQD).
-ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 1ee722e63a8699e1447ffc0c2bc859a6a080d220
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908699"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385637"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Cargar inquilino y datos de compilación en el panel de calidad de llamadas (CQD)
 
@@ -49,7 +49,7 @@ En el panel informes de resumen del CQD, seleccione **carga de datos de inquilin
 
 4. Después de seleccionar un archivo de datos, especifique **fecha de inicio** y, opcionalmente, especifique una fecha de finalización.
 
-5. Después de seleccionar **fecha de inicio** , seleccione **cargar** para cargar el archivo en el CQD. <br><br>Antes de que se cargue el archivo, se valida. Si se produce un error en la validación, se muestra un mensaje de error en el que se le pide que corrija el archivo. En la siguiente ilustración se muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
+5. Después de seleccionar **fecha de inicio**, seleccione **cargar** para cargar el archivo en el CQD. <br><br>Antes de que se cargue el archivo, se valida. Si se produce un error en la validación, se muestra un mensaje de error en el que se le pide que corrija el archivo. En la siguiente ilustración se muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
 
    ![Ejemplo de cuadro de diálogo que muestra un error de carga de datos de compilación](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -71,7 +71,7 @@ El primer tipo de archivo de datos de inquilino en el CQD es el archivo de datos
 
 - Si una columna usa el tipo de datos String, un campo de datos puede estar vacío, pero aún debe estar separado por una tabulación o una coma. Un campo de datos vacío simplemente asigna un valor de cadena vacía.
 
-- Debe haber 14 columnas por cada fila, cada columna debe tener el tipo de datos adecuado, y las columnas deben estar en el orden indicado en la siguiente tabla (coma o delimitado por tabulaciones):
+- Debe haber 15 columnas por cada fila, cada columna debe tener el tipo de datos adecuado, y las columnas deben estar en el orden indicado en la siguiente tabla (coma o delimitado por tabulaciones):
 
   **Crear formato de archivo de datos**
   
