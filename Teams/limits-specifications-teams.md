@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
-ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
+ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
+ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349116"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420930"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -50,7 +50,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 <sup>1</sup> Cualquier objeto del directorio de Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llamen a Microsoft Graph usando los [permisos de la aplicación](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> Este límite incluye equipos archivados.
+<sup>2</sup> Este límite incluye equipos archivados. Para sobrepasar el número máximo de equipos que puede tener una organización de Microsoft 365 u Office 365, debe contactar con el soporte de Microsoft.
 
 <sup>3</sup> Los canales eliminados se pueden restaurar en un plazo de 30 días. Durante estos 30 días, el canal eliminado seguirá contando dentro del límite de 200 canales o 30 canales privados por equipo. Después de los 30 días, el canal eliminado y su contenido serán eliminados permanentemente y el canal ya no contará para el límite por equipo.
 
