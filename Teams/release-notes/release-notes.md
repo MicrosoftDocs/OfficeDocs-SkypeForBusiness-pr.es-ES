@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión para las características de administrador de Microsoft Teams.
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816110"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477039"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión para las características de administrador de Microsoft Teams
 
 Estas notas de la versión proporcionan información sobre las nuevas características de administración de Microsoft Teams.
+
+## <a name="november-25-2020"></a>25 de noviembre de 2020
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar el complemento de reunión de Microsoft Teams para Google Workspace
+
+El complemento de reuniones de Microsoft Teams permite a los usuarios de Google Calendar programar y unirse a una reunión de Microsoft Teams directamente desde Google Workspace. Los usuarios obtendrán acceso a las características de reuniones de Teams, incluidas las conferencias de audio y vídeo, la pantalla compartida, la conversación de reuniones, las pizarras digitales y mucho más. Mantente conectado y organizado para hacer más cosas juntos en el trabajo, la escuela y la vida.
+
+El complemento de reunión de Microsoft Teams para Google Workspace debe estar habilitado por un administrador de equipo antes de que los usuarios inquilinos puedan acceder a la aplicación. [Más información](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
 ## <a name="october-28-2020"></a>28 de octubre de 2020
 
@@ -55,7 +63,7 @@ Puede administrar la configuración de Skype empresarial para los usuarios de Sk
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Administrar la configuración de Skype empresarial para su organización
 
-Puede administrar las características de Skype empresarial para los usuarios de Skype empresarial de su organización en el centro de administración de Microsoft Teams. Vaya a **configuración de toda la organización**  >  **Skype empresarial** . Desde aquí, puede administrar la difusión de reunión, la presencia y las notificaciones móviles de Skype. [Más información](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Puede administrar las características de Skype empresarial para los usuarios de Skype empresarial de su organización en el centro de administración de Microsoft Teams. Vaya a **configuración de toda la organización**  >  **Skype empresarial**. Desde aquí, puede administrar la difusión de reunión, la presencia y las notificaciones móviles de Skype. [Más información](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## <a name="october-16-2020"></a>16 de octubre de 2020
 
@@ -373,7 +381,7 @@ El cliente de Microsoft Teams para RealWear permite a los trabajadores de los Fi
 
 ### <a name="tag-youre-it"></a>, Está
 
-Cree etiquetas y asígneles personas para que pueda @mention un grupo, un rol, un departamento, etc. Propietarios del equipo, pruébelos para usted. Vaya a un equipo, seleccione **más opciones** para  >  **administrar etiquetas** . [Más información](../manage-tags.md).
+Cree etiquetas y asígneles personas para que pueda @mention un grupo, un rol, un departamento, etc. Propietarios del equipo, pruébelos para usted. Vaya a un equipo, seleccione **más opciones** para  >  **administrar etiquetas**. [Más información](../manage-tags.md).
 
 ## <a name="march-30-2020"></a>30 de marzo de 2020
 

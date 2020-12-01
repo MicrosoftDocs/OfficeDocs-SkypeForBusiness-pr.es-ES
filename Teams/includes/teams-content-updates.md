@@ -3,10 +3,23 @@
 
 
 
-## <a name="week-of-november-16-2020"></a>Semana del 16 de noviembre de 2020
+## <a name="week-of-november-23-2020"></a>Semana del 23 de noviembre de 2020
 
 
 | Fecha de publicación |Título del tema | Change |
+|------|------------|--------|
+| 11/23/2020 | [Cargar inquilino y datos de compilación en el panel de calidad de llamadas (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | modificado |
+| 11/23/2020 | [La presencia del usuario en Teams](/MicrosoftTeams/presence-admins) | modificado |
+| 11/23/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
+| 11/25/2020 | [Configurar el bot de timbre para el enrutamiento directo](/MicrosoftTeams/direct-routing-ringback-bot) | modificado |
+| 11/25/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 11/25/2020 | [Administrar directivas de reunión](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+
+
+## <a name="week-of-november-16-2020"></a>Semana del 16 de noviembre de 2020
+
+
+| Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
 | 11/16/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
 | 11/16/2020 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
@@ -316,52 +329,3 @@
 | 10/30/2020 | [Operador automático y referencia de la cola de llamadas y reconocimiento de voz](/MicrosoftTeams/dial-voice-reference) | modificado |
 | 10/30/2020 | Administrar la detección de equipos privados en Microsoft Teams | eliminado |
 | 10/30/2020 | [La presencia del usuario en Teams](/MicrosoftTeams/presence-admins) | modificado |
-
-
-## <a name="week-of-october-19-2020"></a>Semana del 19 de octubre de 2020
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 10/19/2020 | [Configurar audioconferencias para pequeñas y medianas empresas](/MicrosoftTeams/audio-conferencing-smb) | modificado |
-| 10/19/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 10/19/2020 | [Buscar eventos en el registro de auditoría en Microsoft Teams](/MicrosoftTeams/audit-log-events) | modificado |
-| 10/19/2020 | [Teléfonos y dispositivos para equipos](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 10/19/2020 | [Administrar aplicaciones de plataforma de energía en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modificado |
-| 10/19/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 10/20/2020 | [Teléfonos y dispositivos de Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
-| 10/20/2020 | [Notas de la versión](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
-| 10/21/2020 | [Interacción entre Exchange y Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | modificado |
-| 10/21/2020 | [Direcciones URL e intervalos de direcciones IP de Microsoft 365 y Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | modificado |
-| 10/21/2020 | [Exportar contenido con las API de exportación de Microsoft Teams](/MicrosoftTeams/export-teams-content) | modificado |
-| 10/21/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 10/21/2020 | [Usar los archivos de registro para solucionar problemas en Microsoft Teams](/MicrosoftTeams/log-files) | modificado |
-| 10/21/2020 | [Administrar aplicaciones de plataforma de energía en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modificado |
-| 10/21/2020 | [La presencia del usuario en Teams](/MicrosoftTeams/presence-admins) | modificado |
-| 10/21/2020 | [Compatibilidad con versiones](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modificado |
-| 10/21/2020 | [Introducción a la grabación basada en directivas de Teams para llamar & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
-| 10/21/2020 | [Habilitar a los usuarios para el enrutamiento directo](/MicrosoftTeams/direct-routing-enable-users) | modificado |
-| 10/21/2020 | [Configurar un controlador de borde de sesión: varios inquilinos](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
-| 10/21/2020 | [Usar plantillas generales de Teams en el centro de administración](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | modificado |
-| 10/21/2020 | [Usar las plantillas gubernamentales de Teams en el centro de administración](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | modificado |
-| 10/21/2020 | [Requisitos de la sala de Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
-| 10/21/2020 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 10/21/2020 | [Definir eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-| 10/22/2020 | [Inicio rápido: Administradores de Microsoft Teams para el ámbito educativo](/MicrosoftTeams/teams-quick-start-edu) | modificado |
-| 10/22/2020 | [Coexistencia con Skype Empresarial](/MicrosoftTeams/coexistence-chat-calls-presence) | modificado |
-| 10/22/2020 | [Evaluar el entorno para las cargas de trabajo de voz de nube](/MicrosoftTeams/3-envision-evaluate-my-environment) | modificado |
-| 10/22/2020 | [Consideraciones y permisos de las aplicaciones de Microsoft Teams](/MicrosoftTeams/app-permissions) | modificado |
-| 10/22/2020 | [Asignar miembros y propietarios de equipo en Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | modificado |
-| 10/22/2020 | [Crear una estrategia de administración de cambios](/MicrosoftTeams/change-management-strategy) | modificado |
-| 10/22/2020 | [Período gratuito de aceptación de llamadas](/MicrosoftTeams/complimentary-dial-out-period) | modificado |
-| 10/22/2020 | [Guía de inicio rápido-configurar planes de llamadas](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | modificado |
-| 10/22/2020 | [Administrar la configuración de su organización](/MicrosoftTeams/enable-features-office-365) | modificado |
-| 10/22/2020 | [Inicio rápido de administrador: Reuniones y eventos en directo en Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modificado |
-| 10/22/2020 | [Administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | modificado |
-| 10/22/2020 | [Introducción a la grabación basada en directivas de Teams para llamar & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
-| 10/22/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 10/23/2020 | [Planear los operadores automáticos de Teams y las colas de llamadas](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
-| 10/23/2020 | [Administrar las aplicaciones de Microsoft Power Platform en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modificado |
-| 10/23/2020 | [Administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | modificado |
-| 10/23/2020 | [Administrar la experiencia de Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
-| 10/23/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |

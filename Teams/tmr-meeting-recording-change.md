@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385627"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477049"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
@@ -94,11 +94,14 @@ La opción de grabación de la reunión es una opción del nivel de directiva de
    Import-PSSession $sfbSession
    ```
 
-4. Use [set-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true) para configurar una directiva de reunión de Teams para que pase de almacenamiento de flujo a OneDrive para la empresa y SharePoint.
+4. Use [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) para configurar una directiva de reunión de Teams para que pase de almacenamiento de flujo a OneDrive para la empresa y SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
+   
+> [!Note]
+> Si algunos de sus usuarios han asignado una directiva por organizador o por usuario, debe establecer esta configuración en esta Directiva si quiere que también almacene las grabaciones de la reunión en OneDrive para la empresa y SharePoint. Para obtener más información, vea [Administrar directivas de reunión en Teams](meeting-policies-in-teams.md).
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>No se puede elegir OneDrive para la empresa y SharePoint para seguir usando Stream
 
