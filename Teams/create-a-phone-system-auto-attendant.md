@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 1d19483fe458c38d01a9c46c982101eeab6546c2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
+ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49032991"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49530555"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
-Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el Departamento adecuado, la cola de llamadas, la persona o un operador. Puede crear operadores automáticos para su organización con el centro de administración de Microsoft Teams o con PowerShell. 
+Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para hablar con el Departamento adecuado, la cola de llamadas, la persona o un operador. Puede crear operadores automáticos para su organización con el centro de administración de Microsoft Teams o con PowerShell.
 
 Asegúrese de que tiene el [plan de lectura de los operadores automáticos de Teams y las colas de llamadas](plan-auto-attendant-call-queue.md) y siga los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started) antes de seguir los procedimientos de este artículo.
 
@@ -45,7 +45,7 @@ Los operadores automáticos pueden dirigir llamadas en función de la entrada de
 
 Cuando configure un operador automático, se le pedirá que elija una de estas opciones.
 
-Para configurar un operador automático, en el centro de administración de Teams, expanda **voz** , haga clic en **operadores automáticos** y, a continuación, haga clic en **Agregar**.
+Para configurar un operador automático, en el centro de administración de Teams, expanda **voz**, haga clic en **operadores automáticos** y, a continuación, haga clic en **Agregar**.
 
 ## <a name="general-info"></a>Información general
 
@@ -77,11 +77,11 @@ Si selecciona **escribir un mensaje de saludo** , el sistema leerá el texto con
 
 Elige cómo quieres enrutar la llamada.
 
-Si seleccionas **desconectar** , el operador automático colgará la llamada.
+Si seleccionas **desconectar**, el operador automático colgará la llamada.
 
-Si selecciona **redirigir llamada** , puede elegir uno de los destinos de enrutamiento de llamadas.
+Si selecciona **redirigir llamada**, puede elegir uno de los destinos de enrutamiento de llamadas.
 
-Si selecciona **reproducir opciones de menú** , puede elegir **reproducir un archivo de audio** o **escribir un mensaje de bienvenida** y, a continuación, elegir entre las opciones de menú y la búsqueda de directorio.
+Si selecciona **reproducir opciones de menú**, puede elegir **reproducir un archivo de audio** o **escribir un mensaje de bienvenida** y, a continuación, elegir entre las opciones de menú y la búsqueda de directorio.
 
 ### <a name="menu-options"></a>Opciones de menú
 
@@ -91,7 +91,7 @@ Para las opciones de marcado, puede asignar las teclas de 0-9 en el teclado del 
 
 Las asignaciones de teclas no tienen que ser continuas. Es posible, por ejemplo, crear un menú con las teclas 0, 1 y 3 asignadas a las opciones, mientras que la tecla 2 no se usa.
 
-Se recomienda asignar la clave 0 al operador si se ha configurado una. Si el operador no se establece en ninguna tecla, el comando de voz "operador" también está deshabilitado. 
+Se recomienda asignar la clave 0 al operador si se ha configurado una. Si el operador no se establece en ninguna tecla, el comando de voz "operador" también está deshabilitado.
 
 Para cada opción de menú, especifique lo siguiente:
 
@@ -119,7 +119,8 @@ Los usuarios que desea que estén disponibles para marcar por extensión necesit
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-El formato requerido para introducir la extensión en el campo número de teléfono del usuario es *+ \<phone number> ext \<extension> =* o *+ \<phone number> x \<extension>*.
+El formato requerido para introducir la extensión en el campo número de teléfono del usuario es *+ \<phone number> ; ext \<extension> =* o *+ \<phone number> ; \<extension> x*.
+Ejemplo: Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "+ 15555555678; ext = 5678".
 
 Puede establecer la extensión en el [centro de administración de Microsoft 365](https://admin.microsoft.com/) o en el [centro de administración de Azure Active Directory](https://aad.portal.azure.com). Pueden pasar hasta 12 horas antes de que los cambios estén disponibles para los operadores automáticos y las colas de llamadas.
 
@@ -234,7 +235,6 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 - [Importar-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
 - [Nuevo: CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-
 ## <a name="related-topics"></a>Temas relacionados
 
 [Esto es lo obtiene con el Sistema telefónico](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
@@ -243,6 +243,6 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Ejemplo de pequeña empresa: configurar un operador automático](/microsoftteams/tutorial-org-aa) 
+[Ejemplo de pequeña empresa: configurar un operador automático](/microsoftteams/tutorial-org-aa)
 
 [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
