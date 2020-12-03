@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre los requisitos para admitir salas de Microsoft Teams, entre los que se incluyen la elección del dispositivo, micrófonos, altavoces, cámaras y pantallas apropiados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a77558feb7ffaeb330750c60e0f47e619823726a
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 2656e1b2b6b89c390ff292276d6d897be79242d3
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655477"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557964"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -103,6 +103,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 
 |Periféricos de la sala de Microsoft Teams|Versión de firmware certificada | La cámara admite el uso de cámara de contenido|
 |:--- |:--- | :--- |
+|[Aver VC520 Pro cámara + teléfono con manos libres](https://www.averusa.com/products/conference-camera/vc520pro) |1004,35|
 |[Barra de aver VB342 + cámara](https://www.averusa.com/products/conference-camera/vb342plus) | Barra de medios: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |

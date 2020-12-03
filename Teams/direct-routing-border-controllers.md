@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Administrador puede saber qué controladores de borde de sesión (SBCs) se han certificado para el enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
+ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130451"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561046"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -38,7 +38,7 @@ Microsoft trabaja con cada proveedor para:
 
 
   > [!NOTE]
-  > Microsoft solo admite el sistema telefónico si un dispositivo o dispositivos certificados están conectados a través de un enrutamiento directo. Microsoft se reserva el derecho de rechazar casos de asistencia en los que un dispositivo no certificado se conecta al sistema telefónico a través del enrutamiento directo. 
+  > Microsoft solo admite el sistema telefónico si un dispositivo o dispositivos certificados están conectados a través de un enrutamiento directo. Microsoft se reserva el derecho de rechazar casos de asistencia en los que un dispositivo no certificado se conecta al sistema telefónico a través del enrutamiento directo. Si Microsoft determina que el problema de enrutamiento directo de un cliente se encuentra en el dispositivo de SBC de un proveedor, el cliente deberá atraer al proveedor de SBC para obtener soporte técnico.
 
 En la tabla siguiente se enumeran los dispositivos certificados para el Enrutamiento directo. (Para obtener información sobre qué proveedores de SBC admiten la optimización de medios locales, consulte [configurar la optimización de medios locales para el enrutamiento directo](direct-routing-media-optimization-configure.md)).
 
