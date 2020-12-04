@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesite realizar una 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814116"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570829"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -65,13 +65,15 @@ No todo el contenido de los equipos está eDiscoverable. En la tabla siguiente s
 
 La imagen muestra un ejemplo de los metadatos.
 
-![La imagen es de la CVR graba los metadatos de la reunión.](media/conversationOption3.png)
+> [!div class="mx-imgBorder"]
+> ![La imagen es de la CVR graba los metadatos de la reunión.](media/conversationOption3.png)
 
 Este es un ejemplo de una conversación de mensajería instantánea entre participantes durante la reunión.
 
-![La imagen es de una conversación entre los participantes.](media/MeetingIMConversations.png)
+![Conversación entre participantes de Teams.](media/MeetingIMConversations.png)
 
-![La imagen es de una conversación entre los participantes.](media/MeetingImConversation2.png)
+> [!div class="mx-imgBorder"]
+> ![Conversación entre participantes en los resultados de búsqueda de eDiscovery.](media/MeetingImConversation2.png)
 
 Para realizar una investigación de eDiscovery con el contenido de Microsoft Teams, revise el paso 1 en Introducción [a la exhibición básica de eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
@@ -95,7 +97,7 @@ Siga estos pasos para identificar los archivos y mensajes de un canal privado pa
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>Incluir archivos de canal privado en una búsqueda de eDiscovery
 
-Antes de realizar estos pasos, instale el [Shell de administración de SharePoint Online y conéctese a SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+Antes de realizar estos pasos, instale el [Shell de administración de SharePoint Online y conéctese a SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 1. Ejecute lo siguiente para obtener una lista de todas las colecciones de sitios de SharePoint asociadas a los canales privados en el equipo.
 
@@ -179,13 +181,14 @@ Un conjunto de revisiones normal es similar a una exportación; proporciona los 
 
 Un conjunto de revisión de conversaciones ofrece una vista más intuitiva y encadenada de las conversaciones; muestra los mensajes relacionados juntos en el orden correcto.
 
-![Captura de pantalla del conjunto de revisión de conversación](media/conversationOptions2.png)
+> [!div class="mx-imgBorder"]
+> ![Captura de pantalla del conjunto de revisión de conversación](media/conversationOptions2.png)
 
 La funcionalidad, como censura, está disponible en ambos tipos de conjuntos de revisión. Para obtener más información acerca de los conjuntos de revisión, consulte [revisar las conversaciones en la exhibición avanzada de](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)datos.
 
 #### <a name="collection-options"></a>Opciones de colección
 
-Al agregar a un conjunto de revisiones, hay varias opciones disponibles como casillas de verificación en la sección **Opciones de recopilación** de la ventana, incluidas **las opciones de recuperación de conversaciones y las** conversaciones de **Teams**. Si habilita estas opciones, todos los mensajes de Teams individuales que forman parte de su conjunto de revisión también se mostrarán con mensajes adicionales que los rodean para el contexto. Por ejemplo, si la consulta es muy específica y solo se devuelve un mensaje como resultado, habilitar estas opciones también devolverá varios mensajes que dirigirán y seguirán el mensaje que coincide con la consulta.
+Al agregar a un conjunto de revisiones, hay varias opciones disponibles como casillas de verificación en la sección **Opciones de recopilación** de la ventana, incluidas **las opciones de recuperación de conversaciones y las** conversaciones de **Teams**. Si habilita estas opciones, todos los mensajes de Teams individuales que forman parte de su conjunto de revisión también se mostrarán con mensajes adicionales que los rodean para el contexto. Por ejemplo, si la consulta es específica y solo se devuelve un mensaje como resultado, habilitar estas opciones también devolverá varios mensajes que dirigirán y seguirán el mensaje que coincide con la consulta.
 
 Muchos criterios lógicos se usan para determinar si los mensajes adicionales proporcionan contexto a los mensajes que coinciden con la consulta. Por ejemplo, para el contenido de Teams, al habilitar estas opciones se recuperarán el mensaje principal y todos los mensajes secundarios debido a la forma en que se encadenan los mensajes.
 
@@ -215,13 +218,14 @@ Haga clic en la pestaña **vista anotar** para obtener acceso a las característ
 
 Este es un ejemplo de un archivo censurado para una conversación encadenada entre usuarios.
 
-![Captura de pantalla del archivo censurado](media/RedactedFileExample.png)
+> [!div class="mx-imgBorder"]
+> ![Captura de pantalla del archivo censurado](media/RedactedFileExample.png)
 
 En la parte inferior de la pestaña **vista anotar** se encuentra el botón **documentos de etiquetas** , que muestra el panel etiquetado. Dentro de este panel, puede aplicar una etiqueta a todos los mensajes de la conversación de Teams. Puede etiquetar una conversación como receptiva o sin respuesta, privilegiada o no, si contiene "elementos interesantes", si debe incluirse en la exportación y si necesita más revisión. También puede administrar y aplicar otras etiquetas personalizables.
 
 #### <a name="action-menu"></a>Menú Acción
 
-En la ventana de conjuntos de revisiones, puede exportar el contenido haciendo **Action** clic en \> **exportar**acción. Hay muchas opciones disponibles al exportar.
+En la ventana de conjuntos de revisiones, puede exportar el contenido haciendo **Action** clic en \> **exportar** acción. Hay muchas opciones disponibles al exportar.
 
 Para exportar un archivo que contiene todos los metadatos de todos los mensajes de Teams, haga clic para activar la casilla **Cargar archivo** . Para incluir en el archivo cualquier etiqueta que haya aplicado al contenido, haga clic para seleccionar la casilla **etiquetas** .
 
