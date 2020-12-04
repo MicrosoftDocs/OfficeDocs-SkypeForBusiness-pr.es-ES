@@ -1091,7 +1091,7 @@
   items:
     - name: Información general
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
-    - name: Todos los sectores
+    - name: Todas las industrias
       items:
         - name: Introducción a las plantillas de Teams
           href: get-started-with-teams-templates.md
@@ -1124,7 +1124,7 @@
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
             - name: Plantillas de Microsoft Teams para la asistencia sanitaria
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Administrar la aplicación Listas
+        - name: Administrar la aplicación listas
           href: manage-lists-app.md
         - name: Administrar la aplicación tareas
           href: manage-tasks-app.md
@@ -1132,7 +1132,7 @@
           items:
             - name: Turnos para Teams
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Administrar la aplicación Turnos
+            - name: Administrar la aplicación turnos
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams para el ámbito educativo
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1236,17 +1236,13 @@
         - name: Prevención de pérdida de datos
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: eDiscovery
-          items:
-            - name: Realizar una investigación de eDiscovery del contenido
-              href: ediscovery-investigation.md
-            - name: Poner a un usuario o un equipo de Teams en retención legal
-              href: legal-hold.md
+          href: ediscovery-investigation.md
+        - name: Retención legal
+          href: legal-hold.md
         - name: Búsqueda de contenido
-          items:
-            - name: Usar búsqueda de contenido
-              href: content-search.md
-            - name: Buscar eventos en el registro de auditoría
-              href: audit-log-events.md
+          href: content-search.md
+        - name: Auditoría
+          href: audit-log-events.md
     - name: Privacidad
       items:
         - name: Privacidad y Microsoft Teams
