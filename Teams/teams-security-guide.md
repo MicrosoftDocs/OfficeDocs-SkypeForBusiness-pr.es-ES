@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486805"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530977"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams está diseñado y desarrollado conforme al ciclo de vida de desarrollo de 
 
 ## <a name="trustworthy-by-default"></a>Confiable de forma predeterminada
 
-Las comunicaciones de red de Teams se cifran de forma predeterminada. Al requerir que todos los servidores usen certificados y al usar OAUTH, TLS, el protocolo de transporte seguro en tiempo real (SRTP) y otras técnicas de cifrado estándares del sector, incluido el Estándar de cifrado avanzado (AES) de 256 bits, todos los datos de Teams están protegidos en la red.
+Las comunicaciones de red de Teams se cifran de forma predeterminada. Al requerir que todos los servidores usen certificados y al usar OAUTH, TLS y el protocolo de transporte seguro en tiempo real (SRTP), todos los datos de Teams están protegidos en la red.
 
 ## <a name="how-teams-handles-common-security-threats"></a>¿Cómo controla Teams las amenazas comunes de seguridad?
 
@@ -136,11 +136,11 @@ Teams usa TLS y MTLS para cifrar los mensajes instantáneos. Todo el tráfico de
 
 En esta tabla, se resumen los protocolos que usa Teams.
 
-***Cifrado de tráfico***
+***Cifrado de tráfico** _
 
 |||
 |:-----|:-----|
-|**Tipo de tráfico**|**Cifrado por**|
+|_ *Tipo de tráfico**|**Cifrado por**|
 |Servidor a servidor|MTLS|
 |Cliente a servidor (p. ej., mensajería instantánea y presencia)|TLS|
 |Flujos multimedia (p. ej., uso compartido de audio y vídeo en elementos multimedia)|TLS|
@@ -305,6 +305,6 @@ Las opciones de reunión se pueden modificar mientras se celebra la reunión. Cu
 
 [Optimizar la conectividad de Microsoft 365 u Office 365 para usuarios remotos que usan túnel dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementación de túnel dividido por VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementación del túnel dividido VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 [Grabaciones de reuniones en Teams, donde se almacenan grabaciones, y quien puede acceder a ellas](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
