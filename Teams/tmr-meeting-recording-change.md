@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 46d3b53f62a3bb497f173c9efd418b7ed88444c7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477049"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578513"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la empresa y SharePoint o Stream para grabaciones de reuniones
 
@@ -99,7 +99,7 @@ La opción de grabación de la reunión es una opción del nivel de directiva de
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > Si algunos de sus usuarios han asignado una directiva por organizador o por usuario, debe establecer esta configuración en esta Directiva si quiere que también almacene las grabaciones de la reunión en OneDrive para la empresa y SharePoint. Para obtener más información, vea [Administrar directivas de reunión en Teams](meeting-policies-in-teams.md).
 
@@ -153,7 +153,7 @@ Puesto que los vídeos son como cualquier otro archivo de OneDrive para la empre
 
 **¿Cómo puedo administrar transcripciones?**
 
-Los clientes que opten por esta versión preliminar no tendrán subtítulos disponibles en las grabaciones de reuniones de sus equipos que se migren a OneDrive para la empresa y SharePoint.Estamos trabajando para agregar subtítulos, empezando con los subtítulos en inglés, para hacer una reunión de las grabaciones en octubre de 2020.
+Los clientes que opten por esta versión preliminar no tendrán subtítulos disponibles en las grabaciones de reuniones de sus equipos que se migren a OneDrive para la empresa y SharePoint.Estamos trabajando para agregar títulos, comenzando con subtítulos en inglés, para hacer una reunión de las grabaciones en el cuarto trimestre de CY2020.
 
 Los subtítulos cerrados estarán disponibles en las grabaciones de reuniones de Teams para los clientes que hayan optado por permitir transcripciones según se describe en las [grabaciones en la nube de Teams](cloud-recording.md) .
 
@@ -180,3 +180,7 @@ La secuencia como plataforma no quedará obsoleta en un futuro próximo. Los ví
 **¿Cómo se aplica una etiqueta de retención?**
 
 Vea [Cómo aplicar automáticamente una etiqueta de retención](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+
+**¿Cómo puedo asignar directivas a mis usuarios en Microsoft Teams y qué directivas tienen prioridad?**
+
+Consulte [¿qué directiva tiene prioridad?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).

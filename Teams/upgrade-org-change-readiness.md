@@ -1,13 +1,13 @@
 ---
-title: Skype empresarial para Microsoft Teams | Actualizar la preparación de los cambios de usuario
-author: lanachin
-ms.author: v-lanac
+title: Evaluar la preparación de los cambios de organización para la actualización de Skype empresarial a teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Obtenga información sobre cómo evaluar la disponibilidad de su organización para realizar correctamente la transición al entorno de Microsoft Teams.
+description: Aprenda a evaluar la preparación de su organización para una transición correcta a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39690deaf7561aedf6192217c66e67c3cd6c5e99
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: b422fc9542f989cd335bfb3064fbdecb7f59bfe7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523133"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578293"
 ---
 # <a name="assess-organizational-change-readiness"></a>Evaluar si la organización está preparada para el cambio
 
@@ -41,7 +41,7 @@ Este artículo forma parte de la fase de preparación del usuario de su viaje de
 Una vez que haya asegurado el equipo del proyecto y haya definido su visión, alcance y metas, el siguiente paso del viaje de actualización es asegurarse de que la organización y los usuarios están listos para los equipos, una actividad que ha completado en paralelo con la garantía de su disponibilidad técnica. Para obtener valor de Teams, los usuarios deben usarlo. Solo habilitar Teams no garantiza que logres tu objetivo. Los usuarios tienen diferentes casos de uso y distintos estilos de aprendizaje, y se adaptan a nuevas tecnologías a velocidades diferentes. La buena noticia es que administrar el cambio no es tan complicado, pero tiene un esfuerzo prioritario. Las explicaciones guiadas a continuación se han diseñado para ayudarle a comprender a su base de usuarios de modo que pueda preparar el nivel adecuado de educación para facilitar y acelerar la adopción de usuarios. Hay dos maneras de mirar la base de usuarios:
 
 - **Preparación de los cambios organizacionales**: comprender la rapidez (o no) que los usuarios suelen reaccionar ante los cambios. Esta información le ayudará a informar de la cantidad de conciencia, capacitación y venta de valor que puede necesitar para impulsar la adopción por parte del usuario.
-- **Escenarios**de trabajo en equipo: comprender cómo los usuarios trabajan le permitirán asignar equipos a sus actividades laborales, acelerar la adopción y facilitar el cambio de Skype empresarial.
+- **Escenarios** de trabajo en equipo: comprender cómo los usuarios trabajan le permitirán asignar equipos a sus actividades laborales, acelerar la adopción y facilitar el cambio de Skype empresarial.
 
 > [!Note]
 > Puede adaptar las actividades de evaluación que se indican a continuación a cualquier iniciativa de cambio de su organización. Simplemente solucione las preguntas basadas en el ámbito de su proyecto. En las siguientes discusiones, "nueva solución" puede aplicarse a las llamadas de audio, las conferencias de audio o la actualización de Skype empresarial a teams.

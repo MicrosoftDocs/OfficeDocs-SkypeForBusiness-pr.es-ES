@@ -1,7 +1,7 @@
 ---
-title: Adopción de Skype empresarial para Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Definir el ámbito del proyecto para la actualización de Skype empresarial a Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da75154f78739ab1a1044b101235ccc678ca1eed
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 50d6b3a1c88e50875b4b3c752205f6711d275d37
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522543"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578353"
 ---
 # <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 
@@ -46,7 +46,7 @@ Tomarse el tiempo para definir la visión, el ámbito, los objetivos y el gobier
 
 Su visión es el "panorama general" o el estado final eventual que responde a la pregunta "¿por qué estamos haciendo este proyecto?" Una visión ideal se dirige a los impulsores empresariales y el valor de usuario de la organización, tal y como se muestra en los siguientes ejemplos:
 
-- **Impulsor de empresa**de la organización: la estandarización en Microsoft Teams se alinea con nuestra transformación de espacio de trabajo digital y nos permite impulsar las eficiencias operativas, eliminar las soluciones redundantes y ahorrar USD5 millones de dólares.
+- **Impulsor de empresa** de la organización: la estandarización en Microsoft Teams se alinea con nuestra transformación de espacio de trabajo digital y nos permite impulsar las eficiencias operativas, eliminar las soluciones redundantes y ahorrar USD5 millones de dólares.
 - **Valor agregado de usuario**: Microsoft Teams (1) ahorra tiempo al proporcionar una única ubicación para las notas de proyecto, los documentos de Office, los miembros del equipo, las conversaciones y las reuniones; (2) simplifica la comunicación mediante el uso de una lista de contactos centralizada y el seguimiento de chats persistentes para acceder rápidamente a sus conversaciones y (3) evita la frustración de intentar encontrar ese archivo adjunto de correo electrónico perdido almacenando y accediendo a los archivos en un solo lugar.
 
 Considere los siguientes puntos de discusión para ayudarle a afinar su visión:

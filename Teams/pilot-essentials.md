@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams Pilot con Skype empresarial | Implementación, adopción de la implementación
-author: lanachin
-ms.author: v-lanac
+title: Realizar una prueba piloto de usuario para evaluar y probar el funcionamiento de Microsoft Teams en su organización
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f74b3d59c226c3445fb317c22c29c67682d8107
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522693"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578323"
 ---
 # <a name="conduct-a-user-pilot"></a>Llevar a cabo un piloto del usuario
 
@@ -108,8 +108,8 @@ Si los resultados indican:
 
 - Se han **conseguido los objetivos de la prueba piloto (por ejemplo, la satisfacción del usuario y la calidad de la red)**; debe estar listo para continuar con la siguiente fase de su despliegue. En función de los objetivos del proyecto, puede ser uno de los siguientes:
   - Ampliar el programa piloto a otros participantes
-  - [Habilitar Teams junto con Skype empresarial (modo**islas** ) para algunas o todas las organizaciones](https://aka.ms/SkypeToTeams-SetCoexistence)
-  - [Actualizar usuarios de Skype empresarial a Teams (modo de**solo equipos** ) para algunas o todas las organizaciones](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [Habilitar Teams junto con Skype empresarial (modo **islas** ) para algunas o todas las organizaciones](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [Actualizar usuarios de Skype empresarial a Teams (modo de **solo equipos** ) para algunas o todas las organizaciones](https://aka.ms/SkypeToTeams-SetCoexistence)
 - **Su piloto no ha conseguido los resultados que deseaba (por ejemplo, la satisfacción de los usuarios y la calidad de la red)**, toma tiempo para realizar los ajustes apropiados en tu plan y vuelve a visitar la prueba piloto.
 
 > [!Tip]

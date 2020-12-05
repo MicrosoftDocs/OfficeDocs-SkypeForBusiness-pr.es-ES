@@ -1,7 +1,7 @@
 ---
-title: Actualización de Skype empresarial a teams-Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Empezar a actualizar Skype empresarial a teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -30,12 +30,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384897b7496a1617b2b6617aece31b677535dc81
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: ed91a5bc6df8836e19f602facccce704cad65876
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878504"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578183"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Introducción a la actualización de Skype empresarial a Microsoft Teams
 

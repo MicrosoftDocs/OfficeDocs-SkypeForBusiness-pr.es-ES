@@ -1,7 +1,7 @@
 ---
-title: Actualizar a Microsoft Teams | Guía básica de equipos de Skype para empresas
-author: CarolynRowe
-ms.author: crowe
+title: Información general sobre la implementación de la actualización a Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,14 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a0e8ca9356704d471320e4474f48270375aea2d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0db2e752bb163f806c5dcba7aa56fc36bae7c2ef
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868497"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578363"
 ---
-# <a name="overview"></a>Información general
+# <a name="overview-of-implementing-your-upgrade"></a>Información general sobre la implementación de la actualización
 
 ![Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 

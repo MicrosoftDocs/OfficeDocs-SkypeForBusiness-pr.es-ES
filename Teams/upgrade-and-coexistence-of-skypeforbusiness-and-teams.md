@@ -1,13 +1,13 @@
 ---
-title: Actualización de Microsoft Teams desde Skype Empresarial | Modos, coexistencia
-author: lanachin
-ms.author: v-lanac
+title: Elegir el viaje de actualización de Skype empresarial a Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
-description: Detalles de Skype Empresarial y Microsoft Teams opciones y modos de coexistencia, y vías de actualización para Teams desde Skype Empresarial con escenarios de ejemplo.
+description: Detalles de las opciones de coexistencia de Skype empresarial y Microsoft Teams, así como de los posibles viajes de actualización a Teams, con escenarios de ejemplo.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 23a71a075730f1447259d6e3a4a3dd21f650bfd7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940420"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578163"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 

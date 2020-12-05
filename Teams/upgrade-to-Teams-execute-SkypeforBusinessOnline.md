@@ -1,13 +1,13 @@
 ---
-title: Actualizar Skype empresarial online a Microsoft Teams | Implement
-author: lanachin
-ms.author: v-lanac
+title: Actualizar de Skype empresarial online a Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Obtenga información sobre cómo actualizar su organización a Microsoft Teams desde un deployement de Skype empresarial online.
+description: Obtenga información sobre cómo actualizar su organización a Microsoft Teams desde una implementación de Skype empresarial online.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: ca99c193a17547943018eba75004f0ec0a1a92f3
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940510"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578263"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Actualización de Skype Empresarial Online a Microsoft Teams
 
@@ -88,7 +88,7 @@ Como alternativa, es posible que le resulte más fácil habilitar las notificaci
 Cuando esté listo para actualizar los usuarios de la onda actual para que use Teams como única aplicación, establezca el modo de coexistencia para los usuarios solo en Teams.
 
 Si usa el centro de administración de Microsoft Teams, puede configurar TeamsUpgradePolicy para un máximo de 20 usuarios a la vez:
-1. En el centro de administración de Microsoft Teams, seleccione **usuarios**y, a continuación, seleccione la casilla de verificación para un máximo de 20 usuarios.
+1. En el centro de administración de Microsoft Teams, seleccione **usuarios** y, a continuación, seleccione la casilla de verificación para un máximo de 20 usuarios.
 2. Seleccione **Editar configuración** en la esquina superior izquierda del ListView.
 3. En el panel **Editar configuración** de la derecha, en la sección **actualización de equipos** , establezca el modo de coexistencia en **Teams solo** en la lista desplegable.
 
