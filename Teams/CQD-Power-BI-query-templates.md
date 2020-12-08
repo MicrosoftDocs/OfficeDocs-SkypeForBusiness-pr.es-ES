@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use Power BI para analizar los datos del CQD para Microsoft Teams.
-ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085574"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588333"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar Power BI para analizar los datos del CQD para Microsoft Teams
 
@@ -35,7 +35,7 @@ Asegúrese de tener el rol de [acceso de CQD](turning-on-and-using-call-quality-
 
 |  |  |
 |---------|---------|
-|<strong>(¡ Nuevo!)</strong> Operador automático de equipos del CQD & informe histórico de la cola de llamadas. PBit     |  Esta plantilla proporciona los siguientes tres informes:</p><li>Operador automático: muestra análisis de llamadas entre los operadores automáticos.</li><li>Cola de llamadas: muestra análisis para las llamadas que llegan a las colas de llamadas.</li><li>Escala de tiempo del agente: muestra la vista de la escala de tiempo de los agentes que se activan en llamadas a colas de llamadas.</li><br>Para obtener más información, lea [usar el informe de Power BI de CQD para ver el operador automático & informe histórico de la cola de llamadas](CQD-teams-aa-cq-historical-report.md).        |
+|<strong>(¡ Nuevo!)</strong> Operador automático de equipos del CQD & informe histórico de la cola de llamadas. PBit     |  Esta plantilla proporciona los siguientes tres informes:</p><li>Operador automático: muestra análisis de llamadas entre los operadores automáticos.</li><li>Cola de llamadas: muestra análisis para las llamadas que llegan a las colas de llamadas.</li><li>Escala de tiempo del agente: muestra la vista de la escala de tiempo de los agentes que se activan en llamadas a colas de llamadas.</li><br>Para obtener más información, lea el [operador automático & informe histórico](aa-cq-cqd-historical-reports.md)de la cola de llamadas.        |
 |Informe del Departamento de soporte técnico de CQD. PBit     |Integración de datos de compilación y EUII, este informe está diseñado para que pueda obtener detalles de un solo usuario y encontrar la causa de la baja de la calidad de las llamadas de baja calidad para ese usuario (por ejemplo, el usuario está en un edificio que experimenta problemas de red).         |
 |Informe mejorado de la ubicación de CQD. PBit     | Reimaginando informes de ubicación SPD de CQD. Incluye 9 informes, con la calidad de las llamadas, la creación de WiFi, la fiabilidad y la clasificación de mi llamada (RMC) información con otros detalles mediante la generación o por el usuario.  Asegúrese de cargar los datos de compilación para maximizar su experiencia de generación de informes.        |
 |Informe de dispositivo móvil de CQD. PBit     | Proporciona información adaptada específicamente a usuarios de dispositivos móviles, como la calidad de las llamadas, la confiabilidad y la tarifa de mi llamada. Ver los informes de red móvil, red WiFi y sistema operativo móvil (Android, iOS).        |

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cab89e7d3e1c2956c79a4013edd254167c990f9b
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526397"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588313"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destino de su equipo
 
@@ -51,7 +51,7 @@ También puede definir cubos, que son las categorías que el equipo de publicaci
 
 ### <a name="add-required-columns"></a>Agregar columnas obligatorias
 
-El archivo CSV debe contener las tres columnas siguientes, en el orden siguiente, empezando por la primera columna. Un nodo debe estar vinculado a un equipo para que pueda recibir tareas. En Private Preview, admitimos nodos 500. En el inicio, esperamos admitir al menos 2.000 nodos de forma predeterminada. Tenemos pensado trabajar con clientes para aumentar este límite para organizaciones de mayor tamaño.
+El archivo CSV debe contener las tres columnas siguientes, en el orden siguiente, empezando por la primera columna. Un nodo debe estar vinculado a un equipo para que pueda recibir tareas. En Private Preview, admitimos nodos 2.000. En el inicio, esperamos admitir al menos 15.000 nodos de forma predeterminada. Tenemos pensado trabajar con clientes para aumentar este límite para organizaciones de mayor tamaño.
 
 | Nombre de columna   | Obligatorio | Descripción   |
 ----------------|----------|---------------|
