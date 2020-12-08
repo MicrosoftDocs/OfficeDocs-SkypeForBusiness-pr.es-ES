@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Preparar el entorno
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: Requisitos
               href: rooms/requirements.md
             - name: Licencias en línea
               href: rooms/rooms-licensing.md
@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: Administrar directivas de enrutamiento de voz
               href: manage-voice-routing-policies.md
+            - name: Aplicación de sucursal con funciones de supervivencia de enrutamiento directo
+              href: direct-routing-survivable-branch-appliance.md
     - name: Números de teléfono
       items:
         - name: Administrar los números de teléfono de la organización
@@ -1283,7 +1285,7 @@
               href: CQD-data-and-reports.md
             - name: Usar el CQD para administrar la calidad de las llamadas y reuniones
               href: quality-of-experience-review-guide.md
-            - name: Preguntas más frecuentes
+            - name: Preguntas frecuentes
               href: CQD-frequently-asked-questions.md
             - name: Dimensiones y medidas disponibles en el CQD
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
