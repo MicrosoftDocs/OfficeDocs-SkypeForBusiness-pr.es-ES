@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes sobre la actualización de Skype Empresarial a Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766593"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578373"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams
 
@@ -57,7 +57,7 @@ No, para completar la actualización a Teams, tendrá que configurar a los usuar
 
 
 **¿Con quién tengo que ponerme en contacto si tengo preguntas sobre el proceso de actualización?**<br>
-Para ver preguntas relacionadas con la actualización, consulte a sus puntos de contacto actuales, como por ejemplo, su equipo asignado de la cuenta Microsoft, un socio o [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). También puede abrir un vale de ayuda desde el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/) al hacer clic en el botón **Necesito ayuda** .
+Para ver preguntas relacionadas con la actualización, consulte a sus puntos de contacto actuales, como por ejemplo, su equipo asignado de la cuenta Microsoft, un socio o [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). También puede abrir un vale de ayuda desde el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/) al hacer clic en el botón **Necesito ayuda**.
 
 ![Botón de ayuda](media/need-help-button.png)
 
@@ -68,7 +68,7 @@ Usted tiene la flexibilidad de actualizar los usuarios a Teams según le conveng
 
 **¿Qué ocurre una vez que se hayan actualizado mis usuarios?**<br>
 
-Después de la actualización de los usuarios a Teams (modo **solo Teams** ):
+Después de la actualización de los usuarios a Teams (modo **solo Teams**):
 
 - El cliente de Skype Empresarial quedará deshabilitado para su uso, ya que todos los chats y las llamadas se producirán en Teams. Este cliente se seguirá usando para las reuniones de Skype Empresarial que ya se hayan programado. Si se desinstala este cliente de escritorio, los usuarios accederán a las reuniones de Skype Empresarial previamente programadas mediante la aplicación web de Skype Empresarial.
 
