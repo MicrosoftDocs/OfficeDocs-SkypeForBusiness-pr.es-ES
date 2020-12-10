@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: fef9568843d847e422269f7edfae3b1c761aaefa
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938459"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611764"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
 
@@ -72,11 +72,11 @@ Puede editar la configuración de la Directiva configuración global de la aplic
 
 #### <a name="set-a-user-custom-app-policy"></a>Establecer una directiva de aplicación personalizada de usuario
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de las **aplicaciones de Teams**  >  **Setup policies**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de configuración de las **aplicaciones de Teams**  >  .
 2. Haga clic en **Agregar**.
 3. Activar o desactivar el **envío de aplicaciones personalizadas**.
 4. Elija cualquier otra configuración que desee para la Directiva.
-5. Haga clic en **Guardar **.
+5. Haga clic en **Guardar**.
 
 ### <a name="team-custom-app-setting"></a>Configuración de la aplicación personalizada del equipo
 
@@ -95,14 +95,14 @@ Si esta configuración está activada:
 #### <a name="configure-the-team-custom-app-setting"></a>Configurar la configuración de la aplicación personalizada del equipo
 
 1. En Teams, vaya al equipo, haga clic en **más opciones ̇ ̇ ̇**  >  **Manage Team**.
-2. Haga clic en **configuración**y, a continuación, expanda **permisos de miembro**.
+2. Haga clic en **configuración** y, a continuación, expanda **permisos de miembro**.
 3. Active o desactive la casilla **permitir que los miembros carguen aplicaciones personalizadas** .
 
     ![Captura de pantalla que muestra la configuración de la aplicación personalizada del equipo](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>Configuración de la aplicación personalizada para toda la organización
 
-La configuración **permitir la interacción con aplicaciones personalizadas** de toda la organización en la página de [Administración de aplicaciones](manage-apps.md) se aplica a todos los usuarios de la organización y rige si se pueden cargar o interactuar con aplicaciones personalizadas. Esta configuración reemplaza la configuración y la Directiva de aplicación personalizada de usuarios y equipos. Está pensado para funcionar como un interruptor de encendido y apagado maestro durante los eventos de seguridad.
+La configuración **permitir la interacción con aplicaciones personalizadas** de toda la organización en la página de [Administración de aplicaciones](manage-apps.md) se aplica a todos los usuarios de la organización y rige si se pueden cargar o interactuar con aplicaciones personalizadas. Esta configuración funciona como un interruptor de encendido y apagado maestro para la configuración de la Directiva de aplicación personalizada de usuario y equipo. Está pensado para funcionar como un interruptor de encendido y apagado maestro durante los eventos de seguridad. Como tal, la configuración de la Directiva de aplicación personalizada de usuarios y equipos no se aplicará a menos que la configuración de la aplicación personalizada de toda la organización esté habilitada incluso si la configuración de la Directiva de aplicación personalizada de usuario y equipo está habilitada.
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Configurar la aplicación personalizada de toda la organización
 

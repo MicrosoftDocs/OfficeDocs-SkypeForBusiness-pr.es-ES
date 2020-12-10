@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026b7f238b059b4e310fa2216b482c68f2528780
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 896e60e8de6e01208a07c40e757a79a12192383a
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650983"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611824"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar contenido con las API de exportación de Microsoft Teams
 
@@ -37,7 +37,7 @@ A continuación se muestran algunos ejemplos de uso de estas API de exportación
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>¿Qué es compatible con las API de exportación de Teams?
 
 - **Exportación en masa del mensaje de Teams:** Las API de exportación de equipos admiten hasta 200 RPS por aplicación por espacio empresarial y 600 RPS para una aplicación, con estos límites debe poder exportar en bloque los mensajes de Teams.
-- **Contexto**de la aplicación: para llamar a Microsoft Graph, la aplicación debe adquirir un token de acceso de la plataforma de identidades de Microsoft. El token de acceso contiene información sobre la aplicación y los permisos que tiene para los recursos y las API disponibles a través de Microsoft Graph. Para obtener un token de acceso, la aplicación debe registrarse en la plataforma de identidad de Microsoft y su autorización es autorizada por un usuario o un administrador para acceder a los recursos de Microsoft Graph que necesita.
+- **Contexto** de la aplicación: para llamar a Microsoft Graph, la aplicación debe adquirir un token de acceso de la plataforma de identidades de Microsoft. El token de acceso contiene información sobre la aplicación y los permisos que tiene para los recursos y las API disponibles a través de Microsoft Graph. Para obtener un token de acceso, la aplicación debe registrarse en la plataforma de identidad de Microsoft y su autorización es autorizada por un usuario o un administrador para acceder a los recursos de Microsoft Graph que necesita.
 
     Si ya está familiarizado con la integración de una aplicación con la plataforma de identidades de Microsoft para obtener tokens, consulte la sección [pasos siguientes](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) para obtener información y ejemplos específicos de Microsoft Graph.
 - **Entorno híbrido:** Las API de exportación son compatibles con los usuarios que se aprovisionan en un entorno híbrido (Exchange local y Teams). Los mensajes que envíen los usuarios que estén configurados para un entorno híbrido serán accesibles con las API de exportación.
@@ -93,13 +93,13 @@ Espacio de nombres: Microsoft. Graph
                 "device": null,
                 "conversation": null,
                 "user": {
-                    "id": "0de69e5e-2da8-4cf2-821f-5e6585b2c65b",
-                    "displayName": "User Name",
+                    "id": "string (identifier)",
+                    "displayName": "string",
                     "userIdentityType": "aadUser"                }
             },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
-"chatId": "19:0de69e5e-2da8-4cf2-821f-5e6585b2c65b_5c64e248-3269-4268-a36e-0f80314e9c39@unq.gbl.spaces"
+"chatId": "string (identifier)"
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",

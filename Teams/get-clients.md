@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e42e002e8ae0c2462bc0021ac1103c59e96f7cc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 2cb28295b0a9700a0eb7531111022a9498517d93
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030426"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611594"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
@@ -89,7 +89,7 @@ Los usuarios de Mac pueden instalar Teams mediante el uso de un archivo PKG de i
 
 #### <a name="install-teams-by-using-the-pkg-file"></a>Instalar Teams con el archivo PKG 
 
-1. Desde la [página de descarga de Teams](https://teams.microsoft.com/downloads), en **Mac** , haga clic en **Descargar**.
+1. Desde la [página de descarga de Teams](https://teams.microsoft.com/downloads), en **Mac**, haga clic en **Descargar**.
 2. Haga doble clic en el archivo PKG.
 3. Siga los pasos del asistente de instalación para completar la instalación.
 4. Se instalará Teams en la carpeta /Applications. Es una instalación de todo el equipo.
@@ -126,7 +126,7 @@ La clave de firma para habilitar la actualización automática mediante el admin
 1. Descargue el paquete desde https://aka.ms/getteams.
 2. Instálelo mediante uno de los métodos siguientes:  
     - Abra la herramienta de administración del paquete correspondiente y siga el proceso autoguiado de instalación de aplicaciones Linux.
-    - O bien, si le gusta Terminal, escriba lo siguiente: `sudo apt install **teams download file**`
+    - O bien, si le gusta Terminal, escriba lo siguiente: `sudo dpkg -i **teams download file**`
 
 Para iniciar Teams a través de Actividades o a través de Terminal, escriba `teams`. 
 
@@ -197,9 +197,9 @@ Aquí puede ver cómo [obtener Teams para Android](get-teams-android-in-china.md
 
 Las siguientes son las plataformas móviles admitidas para Microsoft Teams:
 
--   **Android** : la compatibilidad está limitada a las cuatro versiones principales más recientes de Android. Cuando se publica una nueva versión principal de Android, se admiten oficialmente la nueva versión y las tres versiones anteriores.
+-   **Android**: la compatibilidad está limitada a las cuatro versiones principales más recientes de Android. Cuando se publica una nueva versión principal de Android, se admiten oficialmente la nueva versión y las tres versiones anteriores.
 
--   **iOS** : la compatibilidad está limitada a las dos versiones principales más recientes de iOS. Cuando se publica una nueva versión principal de iOS, se admiten oficialmente la nueva versión y las tres versiones anteriores de iOS.
+-   **iOS**: la compatibilidad está limitada a las dos versiones principales más recientes de iOS. Cuando se publica una nueva versión principal de iOS, se admiten oficialmente la nueva versión y las tres versiones anteriores de iOS.
 
 > [!NOTE]
 > La versión móvil debe estar disponible para el público para que Teams funcione según lo esperado.

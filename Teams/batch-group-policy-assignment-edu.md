@@ -1,7 +1,7 @@
 ---
 title: Asignar directivas a grandes conjuntos de usuarios de la escuela
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,14 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a asignar directivas a grandes conjuntos de usuarios de su institución educativa basándose en la pertenencia a grupos o directamente a través de un proceso por lotes para la escuela remota (teleschool, tele-School).
 f1keywords: ''
-ms.openlocfilehash: 0b4fd804b51fef9537d30230aed400bb0cb7e0aa
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: afcaba9df0ff745977b84e34683c1bdfcaca0d01
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534135"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616944"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Asignar directivas a grandes conjuntos de usuarios de la escuela
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Para obtener la historia más grande sobre la asignación de directivas en Microsoft Teams, consulte [asignar directivas a los usuarios de Teams](assign-policies.md).
@@ -83,9 +85,9 @@ Si no puede implementar SDS dentro de su entorno, use [este script de PowerShell
 > [!NOTE]
 > Por el momento, la asignación de directivas a grupos que usan el centro de administración de Microsoft Teams solo está disponible para la Directiva de llamadas de Teams, la Directiva de Parque de llamadas de Teams, la Directiva de Teams, la Directiva de eventos en vivo de Teams, la Directiva de reuniones Para otros tipos de directivas, use PowerShell.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  **Meeting policies**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a directivas de reunión de **reuniones**  >  .
 2. Seleccione la pestaña **asignación de directiva de grupo** .
-3. Seleccione **Agregar grupo**y, a continuación, en el panel **asignar Directiva a grupo** , haga lo siguiente:
+3. Seleccione **Agregar grupo** y, a continuación, en el panel **asignar Directiva a grupo** , haga lo siguiente:
 
     ![Captura de pantalla del panel Editar configuración, que muestra la Directiva de reunión](media/batch-group-policy-assignment-edu-group.png)
     1. En el cuadro **seleccionar un grupo** , busque y agregue el grupo de seguridad que contiene su personal y educadores.
@@ -147,6 +149,7 @@ Ejecute lo siguiente para conectarse a teams e iniciar una sesión.
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 Cuando se le solicite, inicie sesión con las mismas credenciales de administrador que usó para conectarse a Azure AD.
 
 #### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Cancelar la asignación de una directiva que se asignó directamente a los usuarios
@@ -160,7 +163,7 @@ $users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-En este ejemplo, la Directiva de la reunión se quita de la lista de usuarios en un archivo de texto denominado user_ids.txt. 
+En este ejemplo, la Directiva de la reunión se quita de la lista de usuarios en un archivo de texto denominado user_ids.txt.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -225,6 +228,7 @@ Ejecute lo siguiente para conectarse a teams e iniciar una sesión.
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 Cuando se le solicite, inicie sesión con las mismas credenciales de administrador que usó para conectarse a Azure AD.
 
 #### <a name="identify-your-users"></a>Identificar a los usuarios

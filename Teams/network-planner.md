@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9351c37c96e4bc11f0e5f93041f7e024158d7564
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030626"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611804"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Usar el planificador de red para Microsoft Teams
 
-Planificador de redes es una herramienta nueva que está disponible en el centro de administración de Teams. Puede encontrarla en **Planner**  >  **Network Planner**. En pocos pasos, el planificador de redes puede ayudarle a determinar y organizar los requisitos de red para conectar los usuarios de Microsoft Teams en toda la organización. Cuando proporciona los detalles de red y el uso de Teams, Network Planner calcula los requisitos de red para implementar equipos y voz en la nube en las ubicaciones físicas de la organización.
+Planificador de redes es una herramienta nueva que está disponible en el centro de administración de Teams. Para encontrarla, vaya a **Planning**  >  **Network Planner**. En pocos pasos, el planificador de redes puede ayudarle a determinar y organizar los requisitos de red para conectar los usuarios de Microsoft Teams en toda la organización. Cuando proporciona los detalles de red y el uso de Teams, Network Planner calcula los requisitos de red para implementar equipos y voz en la nube en las ubicaciones físicas de la organización.
 
 ![Captura de pantalla de Network Planner](media/network-planner.png)
 
@@ -80,9 +80,9 @@ Siga estos pasos para empezar a crear su plan de red:
 
     1. Agregue un nombre y una descripción para el sitio.
 
-    2. En **configuración de red** , agregue el número de usuarios de red en ese sitio (obligatorio).
+    2. En **configuración de red**, agregue el número de usuarios de red en ese sitio (obligatorio).
 
-    3. Agregar detalles de red: habilitada para WAN, capacidad de WAN, salida de Internet ( **local** o **remota** ) y salida de RTC (ninguna, local o remota).
+    3. Agregar detalles de red: habilitada para WAN, capacidad de WAN, salida de Internet (**local** o **remota**) y salida de RTC (ninguna, local o remota).
 
       > [!NOTE]
       > Debe agregar números de capacidad de WAN y de Internet para ver recomendaciones específicas de ancho de banda cuando genera un informe.

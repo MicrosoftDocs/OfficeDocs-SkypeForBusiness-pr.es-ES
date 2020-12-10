@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17768f5d8c67db81f7457122632a6b205827cb5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523427"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611854"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeos en la nube para Microsoft Teams
 
@@ -59,7 +59,7 @@ Los siguientes Partners tienen soluciones de interoperabilidad de video para Mic
 
 |Servidor|Solución de socio|
 |----|---|
-|![El logotipo representa la RealConnect de Polycom](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Servicio RealConnect de Polycom</a> |
+|![El logotipo representa la RealConnect de poli](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Servicio de RealConnect de poli</a> |
 |![El logotipo representa infinito de Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity para Microsoft Teams</a> | 
 |![El logotipo representa la puerta de enlace de BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Puerta de enlace de BlueJeans para Microsoft Teams</a> |
 |![El logotipo representa Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Integración de video de Cisco WebEx para Microsoft Teams</a>|

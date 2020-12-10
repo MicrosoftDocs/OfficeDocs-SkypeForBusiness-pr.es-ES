@@ -18,24 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre el almacén de aplicaciones personalizadas en Microsoft Teams.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: 9a7652550e34dc40e6e6d315f1c5c3b590067610
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818829"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611838"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Tienda de aplicaciones personalizadas en Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
-
-Ahora puede personalizar la tienda de aplicaciones de Teams con la personalización de la organización agregando un logotipo, fondos personalizados y colores de texto personalizados para que sea más fácil invitar a los usuarios finales.
+Ahora puede personalizar la tienda de aplicaciones de su organización en Teams con la personalización de la marca de su empresa agregando un logotipo, fondos personalizados y colores de texto personalizados para que sea más fácil invitar a los usuarios finales.
 
 > [!Note]
 > Los cambios en la personalización de marca requerirán 24 horas para surtir efecto.
 
-Puede acceder a personalizar la tienda en el centro de administración seleccionando **aplicaciones de Teams**  >  **personalizar la tienda** .
+Puede acceder a personalizar la tienda en el centro de administración seleccionando **aplicaciones de Teams**  >  **personalizar la tienda**.
 
   ![Característica personalizar tienda de la consola de administración resaltada](media/customize-app-store.png)
 
@@ -88,7 +85,7 @@ Tiene las siguientes opciones:
   - . svg
   - . png
   - . jpg
-- Elija un fondo personalizado. Al seleccionar **elegir un color personalizado** , se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de colores.
+- Elija un fondo personalizado. Al seleccionar **elegir un color personalizado**, se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de colores.
 
 La imagen o el color de fondo se usa como fondo del banner superior en el catálogo de aplicaciones de inquilino de Teams.
 
@@ -100,7 +97,7 @@ La imagen o el color de fondo se usa como fondo del banner superior en el catál
 
 Asegúrese de que el color del texto tiene suficiente contraste con el fondo para que los usuarios puedan leer el nombre de su organización de forma clara. El texto aparecerá en el cliente de Teams en las **aplicaciones**  >  **compiladas para el encabezado de inquilino** .
 
-Al seleccionar **elegir un color personalizado** , se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de colores.
+Al seleccionar **elegir un color personalizado**, se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de colores.
 
  ![Imagen de un selector de color](media/choose-a-custom-color.png)
 
@@ -108,6 +105,8 @@ Al seleccionar **elegir un color personalizado** , se abre un selector de color.
 
 Cuando haya terminado de personalizar la tienda de aplicaciones, asegúrese de seleccionar **Guardar** para guardar los cambios.
 Para obtener una vista previa de los cambios, seleccione **vista previa** de la tienda de aplicaciones para ver una representación de su tienda de aplicaciones personalizadas.
+
+ ![vista previa de la tienda de aplicaciones personalizadas](media/app-store1.jpg)
 
 > [!Note]
 > La representación puede variar de la versión final de la tienda de aplicaciones personalizada porque algunos colores predeterminados se basan en la versión de usuario del cliente de Teams.

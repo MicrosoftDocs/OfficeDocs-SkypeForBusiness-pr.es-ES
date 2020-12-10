@@ -23,12 +23,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las características de voz en la nube de Microsoft Teams y las decisiones de implementación que realizará para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
-ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
+ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071771"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611732"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear la solución de voz de Teams 
 
@@ -36,7 +36,7 @@ Este artículo le ayudará a decidir qué solución de voz de Microsoft es la ad
 
 Es posible que desee el sistema telefónico de la solución más simple &mdash; con plan de llamadas. Esta es la solución todo en la nube de Microsoft que proporciona la funcionalidad de la conmutación de sucursales privadas (PBX) y las llamadas a la red de telefonía pública conmutada (RTC), como se muestra en el siguiente diagrama. Con esta solución, Microsoft es tu operador PSTN.
 
-![El diagrama 1 muestra el sistema telefónico con el plan de llamadas](media/msft-voice-solutions-1.png)
+![El diagrama 1 muestra el sistema telefónico con el plan de llamadas](media/voice-solutions-simple.png)
 
 Si responde afirmativamente a lo siguiente, el sistema telefónico con el plan de llamadas es la solución adecuada para usted:
 
@@ -62,6 +62,9 @@ Sin embargo, es posible que su situación sea más compleja. Por ejemplo, puede 
 
 **En función de sus necesidades.** Algunas de las secciones de este artículo son pertinentes en función de la implementación y los requisitos existentes. Por ejemplo, Location-Based enrutamiento solo es necesario para los clientes de enrutamiento directo en ubicaciones geográficas que no permiten omisión de pago.
 
+Considere cuál de estas configuraciones adicionales puede necesitar:
+
+![El diagrama 2 muestra componentes de voz adicionales, como números de teléfono de Microsoft, planes de marcado y enrutamiento de llamadas, etc.](media/voice-consider-additional-components.png)
 
 | En función de sus necesidades | Descripción |
 | :------------|:-------|
@@ -91,6 +94,8 @@ En este artículo se presentan las siguientes características y funciones de cl
 - [Operadores automáticos y las colas de llamadas](#auto-attendants-and-call-queues)
 - [Correo de voz en la nube](#cloud-voicemail)
 - [Identidad de llamadas](#calling-identity)
+
+![El diagrama 3 muestra el sistema telefónico contiene los operadores automáticos y las consultas de llamadas, el buzón de voz de nube y la identidad de llamadas](media/phone-system-contains.png)
 
 Para obtener más información sobre todas las características del sistema telefónico y cómo configurar el sistema telefónico, consulte los artículos siguientes:
 
@@ -145,7 +150,7 @@ También puede elegir una combinación de opciones, que le permite diseñar una 
 
 Como se describió anteriormente en este artículo, el sistema telefónico con plan de llamadas es la solución de voz todo en la nube de Microsoft para los usuarios de Teams. Esta es la opción más sencilla que conecta el sistema telefónico de Microsoft con la red de telefonía pública conmutada (RTC) para permitir llamadas a teléfonos fijos y móviles de todo el mundo. Con esta opción, Microsoft proporciona la funcionalidad de central de conmutación (PBX) para su organización y actúa como su operador PSTN, tal y como se muestra en el siguiente diagrama:
 
-![El diagrama 1 muestra el sistema telefónico con el plan de llamadas](media/msft-voice-solutions-1a.png)
+![El diagrama 4 muestra el sistema telefónico con operadores automáticos, colas de llamadas, identificación de llamadas, etc. y Microsoft como la portadora RTC](media/voice-solution-microsoft-complete.png)
 
 Si responde afirmativamente a lo siguiente, el sistema telefónico con el plan de llamadas es la solución adecuada para usted:
 
@@ -175,7 +180,7 @@ Para obtener más información sobre la planificación de llamadas, consulte los
 
 Esta opción conecta Microsoft Phone System a la red de telefonía mediante enrutamiento directo, como se muestra en el siguiente diagrama: 
 
-![El diagrama 2 muestra el sistema telefónico con enrutamiento directo](media/msft-voice-solutions-2.png)
+![El diagrama 5 muestra el sistema telefónico con enrutamiento directo](media/voice-solution-with-direct-routing.png)
 
 Si responde afirmativamente a las siguientes preguntas, el sistema telefónico con enrutamiento directo es la solución adecuada para usted:
 
@@ -212,7 +217,6 @@ Para obtener más información sobre el enrutamiento directo, consulte los artí
 - [Administrar directivas de enrutamiento de voz para usarlas con enrutamiento directo](manage-voice-routing-policies.md)
 - [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
 - [Lista de controladores de borde de sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md)
-
 
 ## <a name="phone-numbers-from-microsoft"></a>Números de teléfono de Microsoft
 

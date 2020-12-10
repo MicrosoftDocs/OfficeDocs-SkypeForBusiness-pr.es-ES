@@ -1,7 +1,7 @@
 ---
 title: Asistente para directivas de Teams para la educación para aplicar directivas fácilmente para un aprendizaje seguro
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Aprenda a usar el Asistente de directivas de Teams para el ámbito educativo para aplicar directivas a estudiantes y educadores de forma sencilla para mantener el entorno de aprendizaje en seguridad.
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d72ef20a8ae56fba67534944d229d01468531207
-ms.sourcegitcommit: 80c1ec1d5a43b9259a4da6db3e462f6d4257bfa7
+ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49564263"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616924"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente para directivas de Teams para el ámbito educativo para aplicar directivas fácilmente para un entorno de aprendizaje seguro.
 
@@ -68,17 +68,17 @@ Solo tiene que ejecutar el Asistente una vez. Los nuevos alumnos obtienen autom�
 
 <a name="polwiz_run"> </a>
 
-Siga estos pasos para ejecutar el asistente. 
+Siga estos pasos para ejecutar el asistente.
 
 1. Si no está familiarizado con Teams, el asistente se iniciará automáticamente. En caso contrario, puede iniciar el asistente en cualquier momento desde el panel. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Panel** y, a continuación, en el icono **configuración de directiva sencilla para un entorno de aprendizaje seguro** , seleccione **Configuración rápida**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de pantalla del asistente en el panel":::
 
-2. Seleccione el tipo de institución educativa (**principal o secundaria** o **educación superior**) y, a continuación, haga clic en **siguiente**.
+2. Seleccione el tipo de institución educativa (**principal o secundaria** o **educación superior**) y, a continuación, seleccione **siguiente**.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de pantalla de la página del Asistente para seleccionar el tipo de institución":::
 
-3. Busque y seleccione un grupo que contenga los educadores y el personal y, a continuación, haga clic en **siguiente**. Si aún no tiene ningún grupo configurado para los educadores y el personal, [cree un grupo](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)y vuelva a ejecutar el asistente. <br/><br/>En este momento, solo puede seleccionar un grupo. Los educadores y el personal del grupo que seleccione se asignarán a [un conjunto de políticas personalizadas](#policies-applied-by-the-wizard) adaptadas a sus necesidades. Recuerde que este conjunto de directivas es independiente de las directivas que se aplican a los alumnos.
+3. Busque y seleccione un grupo que contenga los educadores y el personal y, a continuación, seleccione **siguiente**. Si aún no tiene ningún grupo configurado para los educadores y el personal, [cree un grupo](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)y vuelva a ejecutar el asistente. <br/><br/>En este momento, solo puede seleccionar un grupo. Los educadores y el personal del grupo que seleccione se asignarán a [un conjunto de políticas personalizadas](#policies-applied-by-the-wizard) adaptadas a sus necesidades. Recuerde que este conjunto de directivas es independiente de las directivas que se aplican a los alumnos.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Captura de pantalla de la página del Asistente para seleccionar el educador y el grupo de docentes":::
 
@@ -140,7 +140,7 @@ Vea [mantener a los alumnos seguros mientras usa Teams para](https://support.mic
 
 En este momento, el asistente aplica las directivas recomendadas cuando la ejecuta. Es importante saber que, a medida que las nuevas directivas estén disponibles en Teams, el asistente no agrega automáticamente la configuración global (la organización predeterminada para toda la organización) para la seguridad de los alumnos. Esta capacidad estará disponible en una versión futura.
 
-Hasta que esta capacidad esté disponible, compruebe el [centro de mensajes](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (en el centro de administración de Microsoft 365) con frecuencia para mantenerse al día de las nuevas directivas y la configuración de directivas de Teams. A medida que estén disponibles nuevas características, es posible que tenga que actualizar manualmente las directivas para mantener el entorno de aprendizaje en seguridad.
+Hasta que esta capacidad esté disponible, compruebe el [centro de mensajes](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (en el centro de administración de Microsoft 365) con frecuencia para mantenerse al día de las nuevas directivas y la configuración de directivas en Teams. A medida que estén disponibles nuevas características, es posible que tenga que actualizar manualmente las directivas para mantener el entorno de aprendizaje en seguridad.
 
 ## <a name="make-changes-in-the-wizard"></a>Realizar cambios en el asistente
 
