@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: Publicar una aplicación personalizada cargando un paquete de aplicación
           href: upload-custom-apps.md
+        - name: Tienda de aplicaciones personalizadas
+          href: customize-your-app-store.md
     - name: Certificación de aplicación
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Ver permisos de aplicaciones y conceder consentimiento de administrador en el centro de administración de Microsoft Teams
@@ -240,7 +242,7 @@
       items:
         - name: Información general
           href: rooms/index.md
-        - name: Plan
+        - name: Planear
           items:
             - name: Información general sobre la planeación de salas de Microsoft Teams
               href: rooms/rooms-plan.md
@@ -296,7 +298,7 @@
               href: rooms/lrs-migration.md
             - name: Cámaras de contenido
               href: rooms/content-camera.md
-        - name: Manage
+        - name: Administrar
           items:
             - name: Introducción a la administración
               href: rooms/rooms-manage.md
@@ -348,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Administrar la pizarra en Teams
       href: manage-whiteboard.md
-    - name: Configurar el complemento de reunión de Microsoft Teams para Google Workspace
-      href: add-gsuite-thru-aad.md
     - name: Audioconferencia
       items:
         - name: Planear la implementación
@@ -1136,7 +1136,7 @@
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             - name: Administrar la aplicación turnos
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams para el ámbito educativo
+    - name: Microsoft Teams para el ámbito educativo
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items:
         - name: 'Inicio rápido: Administradores de Teams para el ámbito educativo'
@@ -1227,7 +1227,7 @@
           href: block-access-sharepoint.md
     - name: Cumplimiento
       items:
-        - name: Barreras de la información
+        - name: Barreras de información
           href: information-barriers-in-teams.md
         - name: Directivas de retención
           href: retention-policies.md
@@ -1285,7 +1285,7 @@
               href: CQD-data-and-reports.md
             - name: Usar el CQD para administrar la calidad de las llamadas y reuniones
               href: quality-of-experience-review-guide.md
-            - name: Preguntas frecuentes
+            - name: Preguntas más frecuentes
               href: CQD-frequently-asked-questions.md
             - name: Dimensiones y medidas disponibles en el CQD
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
