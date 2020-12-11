@@ -3,7 +3,7 @@ title: Enrutamiento directo SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b30f8a435f256edc816ebeea075425fddeaf8bb
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 3204bc58b083f62feca3f878d2189558b69af6bd
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611794"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620735"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>Dispositivo de rama superviviente (SBA) para enrutamiento directo: vista previa pública
 
@@ -42,7 +42,7 @@ En este artículo se describe cómo usar un dispositivo de rama con la supervive
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-SBA es un código distribuible proporcionado por Microsoft a los proveedores de SBC que, a continuación, Incruste el código en el firmware de su SBCs. 
+SBA es un código distribuible proporcionado por Microsoft a proveedores de SBC que, a continuación, inserta código en su firmware o lo distribuye por separado para que SBA se ejecute en una VM o hardware independiente. 
 
 Para obtener el firmware más reciente del controlador de borde de la sesión con el dispositivo de sucursal insertado, póngase en contacto con el proveedor de SBC. Además, se requiere lo siguiente:
 
