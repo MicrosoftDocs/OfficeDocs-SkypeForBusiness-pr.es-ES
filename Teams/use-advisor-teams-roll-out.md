@@ -2,7 +2,7 @@
 title: Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: brandber
+ms.reviewer: pkrebs
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: afc3524466b9078b0050b23b59d45d049d11793b
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030826"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616934"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -46,7 +46,7 @@ Para obtener una visión general guiada de la experiencia del asesor de Teams, c
 > [!IMPORTANT]
 > Si no se muestra el **Asesor para Teams** en **Planificar** en el centro de administración de Teams, esto significa que el usuario no tiene licencia para Teams.
 
-La primera vez que utilice el asesor para Teams, creará un equipo de implementación para usted en Teams. Se agrega un canal para cada carga de trabajo que seleccione.
+La primera vez que utilice el Asesor para Teams, este creará por usted un equipo de implementación en Microsoft Teams. Se agrega un canal para cada carga de trabajo que seleccione.
 
 > [!IMPORTANT]
 > Si ya se ha creado un equipo de implementación y otro usuario intenta crearlo, obtendrá un error que le indicará que se ponga en contacto con el equipo de soporte. Esto evita que Teams revele involuntariamente información sobre el equipo existente y sus miembros. Pídale al propietario del equipo de implementación que lo añada o póngase en contacto con su persona de soporte para obtener ayuda.
@@ -72,12 +72,13 @@ El asesor de Teams proporciona actualmente los siguientes planes:
     - Asesor de los Teams bot
     - Diseñado para clientes que actualmente usan Skype Empresarial Online o entornos locales de Skype Empresarial, el plan de actualización de Skype Empresarial le ayudará a evitar las conjeturas en el proceso de la actualización. Aprovechando un marco de éxito comprobado para implementar el cambio, el plan le guiará a través del proceso paso a paso, tanto si acaba de empezar a usar Teams como si ya usa Teams junto a Skype Empresarial o si está listo para actualizar. El plan también le conectará con [instrucciones en línea y procedimientos recomendados](https://aka.ms/SkypeToTeams), [activos descargables](https://aka.ms/UpgradeSuccessKit), [en directo 1: muchos talleres de planificación](https://aka.ms/UpgradeWorkshops) y recursos adicionales para dar soporte a su éxito.
 
-Te recomendamos que empieces con el plan de chat, equipos, canales y aplicaciones. Cuando haya terminado de implementar esa carga de trabajo, vuelva a asesor para Teams y haga clic en **Agregar canal** para iniciar la siguiente carga de trabajo.
+Te recomendamos que empieces con el plan de chat, equipos, canales y aplicaciones. Cuando haya terminado de implementar esa carga de trabajo, vuelva al Asesor para Teams y haga clic en **Agregar canal** para iniciar la siguiente carga de trabajo.
 
 ## <a name="tenant-assessment"></a>Evaluación del inquilino
-Cada plan incluye una evaluación de la preparación de los inquilinos que usted puede utilizar para identificar rápidamente los aspectos de su entorno que pueden necesitar corrección antes de desplegar los equipos. Las evaluaciones incluyen requisitos previos y mejores prácticas. Cada prueba de evaluación tendrá una marca de verificación verde o un triángulo de advertencia naranja. 
 
-- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>Una marca de verificación verde significa que su inquilino pasó la prueba específica. 
+Cada plan incluye una evaluación de la preparación de los inquilinos que usted puede utilizar para identificar rápidamente los aspectos de su entorno que pueden necesitar corrección antes de desplegar los equipos. Las evaluaciones incluyen requisitos previos y mejores prácticas. Cada prueba de evaluación tendrá una marca de verificación verde o un triángulo de advertencia naranja.
+
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>Una marca de verificación verde significa que su inquilino pasó la prueba específica.
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Un triángulo de advertencia naranja significa que le sugerimos que haga un seguimiento para determinar si es necesario realizar alguna acción (por ejemplo, se recomienda, pero no es necesario, una política de caducidad del Grupo Microsoft 365).
 
 > [!IMPORTANT]
@@ -115,6 +116,7 @@ Además de las [pruebas de evaluación para todas las cargas de trabajo](#assess
 |Licencias de transmisión     |Si tiene una suscripción activa con licencias de Microsoft Stream. Este es un requisito previo si desea activar la grabación de reuniones. Consulta el Microsoft Graph para ver si tiene licencias de Microsoft Stream (con al menos una licencia disponible para asignar). Para obtener más información sobre Stream y cómo activarlo, lea [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Evaluaciones para actualizaciones de Skype Empresarial
+
 Además de las [Pruebas de evaluación para todas las cargas de trabajo](#assessment-tests-for-all-workloads), la actualización de Skype Empresarial también incluye evaluaciones utilizadas en el plan de reuniones y conferencias.
 
 ### <a name="advisor-for-teams-bot"></a>Asesor de los Teams bot
@@ -123,12 +125,13 @@ Una vez que asesor para Teams crea su equipo de implementación, el bot asesor e
 
 >**¡Le damos la bienvenida al Equipo de implementación de Microsoft Teams!**
 >  
->El propósito de este equipo es guiarlo a través de la implementación de Teams en su organización, proporcionándole todos los recursos necesarios y brindando un espacio de colaboración para el equipo del proyecto. Cada canal creado con el Asesor de Teams incluye un plan de Planner paso a paso y otros recursos, como una encuesta de usuarios de Forms que puede usarse durante toda la implementación. En cualquier momento, puede volver atrás y revisar la evaluación de preparación de inquilino o agregar otros planes de carga de trabajo con el centro de administración de Teams.
-> 
->**Llamada a la acción** 
->- Si no está familiarizado con Teams o Planner, consulte nuestra [Guía sobre Teams](https://teamsdemo.office.com/) y vea los [Vídeos de inicio rápido de Planner](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
+>El propósito de este equipo es guiarlo a través de la implementación de Teams en su organización, proporcionándole todos los recursos necesarios y brindando un espacio de colaboración para el equipo del proyecto. Cada canal creado con el Asesor de Teams incluye un plan de Planner paso a paso y otros recursos, como una encuesta de usuarios de Forms que puede usarse durante toda la implementación. Puede volver atrás en cualquier momento y revisar la evaluación de preparación de los inquilinos o agregar otros planes de carga de trabajo con el Centro de administración de Microsoft Teams.
+>
+>**Llamada a la acción**
+>
+>- Si no está familiarizado con Teams o Planner, consulte nuestra [Guía sobre Teams](https://teamsdemo.office.com/) y vea los [Vídeos de inicio rápido de Planner](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7).
 >- Vaya al Equipo de implementación en Teams. Seleccione su canal de carga de trabajo (por ejemplo, chat, equipos, canales y aplicaciones) y seleccione la pestaña **Planner** para empezar.
-> 
+>
 >Para más información sobre el Asesor de Teams, lea [Use el Asesor de Teams para implementar Microsoft Teams](use-advisor-teams-roll-out.md).
 >
 
@@ -138,44 +141,134 @@ Una vez que asesor para Teams crea su equipo de implementación, el bot asesor e
 > [!IMPORTANT]
 > El bot asesor de Teams está activado de forma predeterminada. No lo apague si utiliza o planea utilizar el servicio de asesor para Teams.
 
-## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
-### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>¿Cuáles son los requisitos de licencia para el Asesor de Teams?
+## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Asesor para Teams y Caminos de aprendizaje de Microsoft 365
+
+[Caminos de aprendizaje de Microsoft 365](https://docs.microsoft.com/office365/customlearning/) es una solución de aprendizaje a petición que puede personalizar para formar a los usuarios, así como para aumentar el uso y la adopción de Microsoft Teams en la organización. Use los caminos de aprendizaje junto con el Asesor para Teams para fomentar la adopción y que los usuarios puedan empezar a trabajar rápidamente.
+
+Caminos de aprendizaje le proporciona una plantilla de sitio de SharePoint Online y la capacidad para crear fácilmente un sitio de aprendizaje para sus usuarios. Puede personalizar el portal de caminos de aprendizaje para que incluya contenido de aprendizaje y soporte específico para las necesidades de los usuarios. Use las listas de reproducción de Microsoft Teams del catálogo en línea de Microsoft y agregue las suyas propias.
+
+Puede crear un sitio de aprendizaje en los caminos de aprendizaje y, a continuación, agregarlo como una pestaña a un canal de Microsoft Teams para que los usuarios puedan acceder a él de forma rápida y fácil.
+
+Por ejemplo, use el Asesor para Teams con los caminos de aprendizaje para formar al personal del servicio de asistencia y a sus expertos y, luego, deje que los caminos de aprendizaje sirvan de apoyo para la formación de los usuarios finales. Cree un sitio de aprendizaje para incorporar el servicio de asistencia y los expertos a Microsoft Teams y, luego, agréguelo como pestaña a cada canal de carga de trabajo que vaya a implementar. El servicio de asistencia y los expertos podrán crear una página de soporte técnico en el portal de caminos de aprendizaje con listas de reproducción y vínculos personalizados para dar soporte a los usuarios en Microsoft Teams. Esta página de soporte técnico puede agregarse a un canal en cualquier equipo para facilitar el aprendizaje de los usuarios finales.
+
+A continuación, se proporciona información general sobre cómo puede usar el Asesor para Teams con los caminos de aprendizaje.
+
+### <a name="get-started-in-learning-pathways"></a>Introducción a los caminos de aprendizaje
+
+Para empezar a usar los caminos de aprendizaje, consulte [Introducción a los caminos de aprendizaje](https://docs.microsoft.com/office365/customlearning/).
+
+Para configurar una nueva solución de caminos de aprendizaje en su entorno, vea [Aprovisionar una nueva solución de caminos de aprendizaje](https://docs.microsoft.com/office365/customlearning/custom_provision).
+
+### <a name="create-a-learning-plan"></a>Crear un plan de aprendizaje
+
+#### <a name="plan-your-learning-content"></a>Planificar el contenido del aprendizaje
+
+Antes de crear un sitio en Caminos de aprendizaje, tómese un tiempo para revisar y recopilar los recursos de aprendizaje y las capacidades que tiene disponibles. Con los caminos de aprendizaje, puede usar el contenido de la página de aprendizaje de Microsoft 365 y agregar el contenido que vaya creando para adaptar el sitio a sus necesidades específicas.
+
+Para obtener más información, consulte [Planificar el contenido de los caminos de aprendizaje](https://docs.microsoft.com/office365/customlearning/custom_plancontent) y [Recursos de apoyo para sus recursos remotos](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources).
+
+#### <a name="explore-teams-content-in-learning-pathways"></a>Explorar el contenido de Microsoft Teams en los caminos de aprendizaje
+
+Caminos de aprendizaje proporciona un sitio de SharePoint con un elemento web que está conectado a un catálogo en línea. En la página de aprendizaje de Microsoft 365, que es donde se hospeda el elemento web, se muestran todos los cursos disponibles de los caminos de aprendizaje. Eche un vistazo para familiarizarse con lo que hay disponible y las formas de organizar el contenido.
+
+[Vaya a su sitio de caminos de aprendizaje](https://docs.microsoft.com/office365/customlearning/custom_goto), seleccione **Aprendizaje de Microsoft 365** y, luego, seleccione **Microsoft Teams** para ver todas las listas de reproducción de aprendizaje de Microsoft Teams del catálogo en línea. Seleccione una lista de reproducción y, luego, seleccione los botones **Siguiente** y **Anterior** para desplazarse por ella. También puede hacer clic en la flecha abajo para ver el contenido de la lista de reproducción e ir a un tema específico.
+
+#### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>Realizar un inventario de los recursos de aprendizaje de Microsoft Teams en la organización
+
+Revise el contenido de aprendizaje de Microsoft Teams que ya está disponible en la organización. Por ejemplo, es posible que ya haya desarrollado contenido personalizado de incorporación, formación o soporte técnico para Microsoft Teams. Los activos de SharePoint existentes pueden combinarse con el contenido de Microsoft en una lista de reproducción para crear una lista de reproducción específica para la organización.
+
+#### <a name="build-your-site-in-learning-pathways"></a>Crear un sitio en Caminos de aprendizaje
+
+En el [Centro de éxito de administración](https://docs.microsoft.com/office365/customlearning/custom_successcenter) de caminos de aprendizaje se proporcionan instrucciones y recursos para ayudarle a planificar y personalizar caminos de aprendizaje en su organización. Obtenga información sobre cómo [personalizar el sitio](https://docs.microsoft.com/office365/customlearning/custom_overview), mostrar y ocultar contenido, crear listas de reproducción personalizadas y mucho más.
+
+Para acceder al Centro de éxito de administración, seleccione **Centro de éxito de administración** en la página principal de caminos de aprendizaje.
+
+#### <a name="add-your-site-to-teams"></a>Agregar un sitio a Microsoft Teams
+
+Cuando el sitio de esté listo, agréguelo a un canal de cualquier equipo para que se pueda acceder a él de forma rápida y fácil.
+
+1. En Microsoft Teams, vaya al equipo y seleccione un canal.
+2. En la parte superior de la página del canal, seleccione **+** (**Agregar una pestaña**).
+3. Seleccione **Páginas de SharePoint** y, después, seleccione **Agregar una página de cualquier sitio de SharePoint**.
+4. Pegue la dirección URL del sitio de caminos de aprendizaje y, luego, seleccione **Guardar**.
+
+Para obtener más información, consulte [Agregar una página o lista de SharePoint a un canal en Teams](https://support.microsoft.com/office/add-a-sharepoint-page-or-list-to-a-channel-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b).
+
+### <a name="train-your-support-team"></a>Formar al equipo de soporte técnico
+
+Use los recursos del sitio de caminos de aprendizaje para incorporar el servicio de asistencia y los expertos a Microsoft Teams. Prepárelos con las herramientas y la información que necesitan para dar soporte a los usuarios de Microsoft Teams.
+
+Para obtener instrucciones y recursos sobre la preparación del servicio de asistencia y los expertos de Microsoft Teams, consulte [Formar a la organización](https://adoption.microsoft.com/microsoft-teams/#train-your-org) y [Crear expertos](https://adoption.microsoft.com/microsoft-teams/#build-champions).
+
+Como personas de contacto a las que acuden los usuarios cuando necesitan saber cómo se hace algo, el servicio de asistencia y los expertos pueden usar el sitio de caminos de aprendizaje para formar a los usuarios y como alternativa a la creación de vales de soporte técnico. Anime al servicio de asistencia y a los expertos a [personalizar el sitio de caminos de aprendizaje](https://docs.microsoft.comoffice365/customlearning/custom_overview) con la creación de una página de aprendizaje y soporte técnico y, luego, [agréguela como pestaña a un canal](#add-your-site-to-teams) de un equipo para que los usuarios puedan utilizar el autoservicio.
+
+### <a name="drive-adoption"></a>Fomentar la adopción
+
+Después de personalizar el sitio y elaborar los planes de aprendizaje, piense en cómo lo dará a conocer entre los usuarios con el fin de animarles a usar los caminos de aprendizaje para formarse de forma continuada.
+
+Use los canales de comunicación para promover el sitio y darlo a conocer. Por ejemplo, incluya en las comunicaciones con sus usuarios un lema estándar, como “Visite nuestro sitio de aprendizaje y soporte técnico para saber cómo aumentar la productividad con Microsoft Teams”.
+
+Destaque las formas en las que pueden colaborar en Microsoft Teams para animarlos a participar y, luego, diríjalos al sitio de caminos de aprendizaje para que vean cómo pueden hacerlo.
+
+Consulte estos recursos, ente los que se incluyen instrucciones, kits de adopción, procedimientos recomendados y mucho más, para poner en marcha un plan eficaz de implementación y adopción.  
+
+- [Fomentar la adopción de los caminos de aprendizaje](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [Adoptar Microsoft Teams](adopt-microsoft-teams-landing-page.md)
+- [Recursos de adopción para Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/)
+
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+
+### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>¿Cuáles son los requisitos de licencia del Asesor para Teams?
+
 Como mínimo, necesitará Microsoft 365 Empresa Básico para poder aprovechar la integración del Asesor de Teams con Forms y Planner.
 
-### <a name="can-i-delete-the-deployment-team"></a>¿Puedo eliminar el equipo de implementación?
+### <a name="can-i-delete-the-deployment-team"></a>¿Puedo eliminar el Equipo de implementación?
+
 Cuando el Asesor de Teams haya creado el Equipo de implementación, administrará el equipo como cualquier otro, con la posibilidad de eliminarlo. Tenga en cuenta que, si no elimina el equipo utilizando el centro de administración de equipos, el centro de administración de equipos mostrará que el equipo sigue existiendo.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>¿Puedo agregar o quitar canales en el Equipo de implementación?
+
 Sí, una vez que se haya creado el Equipo de implementación, podrá administrar los canales de la misma forma que lo haría con cualquier otro equipo.
 
 ### <a name="can-i-add-or-remove-project-team-members-in-the-deployment-team"></a>¿Puedo agregar o quitar miembros del equipo del proyecto en el Equipo de implementación?
+
 Sí, una vez que se haya creado el Equipo de implementación, podrá administrarlo de la misma forma que lo haría con cualquier otro equipo.
 
 ### <a name="can-i-modify-the-planner-plans"></a>¿Puedo modificar los planes de Planner?
+
 Sí, cuando el Asesor de Teams haya creado el Equipo de implementación, debe actualizar el plan de Planner para mejorar la compatibilidad con la implementación de Teams. Puede modificar cualquier cosa (los depósitos, las tareas, los detalles de las tareas), al igual que cualquier otro plan de Planner.
 
 ### <a name="can-i-modify-the-forms-survey"></a>¿Puedo modificar la encuesta de Forms?
-Sí, una vez que el Asesor de Teams haya creado el Equipo de implementación, puede modificar la encuesta de Forms según sea necesario.
 
-### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>¿Hay alguna diferencia entre Asesor de Teams en GCC?
+Sí, una vez que el Asesor para Teams haya creado el Equipo de implementación, puede modificar la encuesta de Forms según sea necesario.
+
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>¿Hay alguna diferencia con respecto al Asesor para Teams en GCC?
+
 Sí, los formularios de encuesta de usuario se crean, pero no se anclan en canales de plan, ya que la aplicación de formularios de Teams no está disponible en GCC en este momento.
 
-### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>¿Qué información recopila el Asesor de Teams sobre mi organización?
+### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>¿Qué información recopila el Asesor para Teams sobre mi organización?
+
 El Asesor de Teams solicita su acuerdo con la recopilación de información que no sea EUII (información de identificación de usuario final). La información que se recopila se encuentra en forma de telemetría, que proporciona retroalimentación a Microsoft sobre qué tan bien el Asesor de Teams impulsa los resultados correctos y dónde es posible que deba mejorarse. Estos mismos datos se usan para identificar oportunidades para que Microsoft pueda participar de forma proactiva en su organización con el fin de ayudarle con la implementación.
 
-### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>¿Puedo usar el Asesor de Teams con FastTrack?
+### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>¿Puedo usar el Asesor para Teams con FastTrack?
+
 Sí, FastTrack aprovecha el Asesor de Teams para todos los clientes que buscan implementar Teams. Pueden ayudarle con la configuración inicial de su Equipo de implementación utilizando el Asesor de Teams (si lo requiere) y también ofrecer soporte necesario sobre temas específicos durante la implementación de Teams.
 
-### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>¿Puedo usar el Asesor de Teams con un asociado?
+### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>¿Puedo usar el Asesor para Teams con un asociado?
+
 Sí, puede usar el Asesor de Teams mientras usa también un asociado de implementación para la implementación de Teams. Si su asociado es un CSP y administra el inquilino en su nombre, puede usar el asesor de Teams para crear el Equipo de implementación y ayudarle a ejecutar el proyecto global. Además, puede trabajar con cualquier asociado si agrega a estos usuarios como invitados en el Equipo de implementación, para que puedan participar como miembros del equipo del proyecto global.
 
 ### <a name="how-do-i-use-planner"></a>¿Cómo puedo usar Planner?
-Consulte [Ayuda de Microsoft Planner](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) y los [Vídeos de inicio rápido de Planner](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
+
+Consulte [Ayuda de Microsoft Planner](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) y los [Vídeos de inicio rápido de Planner](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7).
 
 ### <a name="how-do-i-use-forms"></a>¿Cómo puedo usar Forms?
+
 Vaya al [Centro de ayuda de Forms](https://support.office.com/forms).
 
 ## <a name="related-topics"></a>Temas relacionados
+
+[Personalizar el Asesor para Teams](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
 
 [Cómo implementar Teams](How-to-roll-out-teams.md)
 

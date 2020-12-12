@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420930"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611474"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -45,6 +45,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de canales por equipo    | 200 (incluye canales eliminados)&sup3;         |
 |Número de cadenas privadas por equipo    |30| (incluye canales eliminados)&sup3;
 |Número de miembros de un canal privado    |250|
+|Tamaño máximo de lista de distribución, grupo de seguridad o grupo de Office 365 que puede importarse a un equipo    |3500|
 |Número máximo de miembros de un grupo de Office 365 que se pueden convertir en un equipo    |10 000<sup>5</sup>     |
 |Tamaño de publicación de conversación de canal | Aproximadamente 28 KB por publicación<sup>4</sup> |
 
@@ -127,7 +128,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |Característica     | Límite máximo |
 |------------|---------------|
 |Número de personas en una reunión (pueden chatear y llamar)  | 350 |
-|Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
+|Cantidad de personas en una llamada de audio o vídeo que se ha originado desde la pestaña de chat | 20 |
 |Tamaño máximo de los archivos de PowerPoint | 2 GB|
 |Teams guarda las [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream y las deja disponibles para descarga local | 20 días |
 
@@ -179,7 +180,7 @@ La presencia de Teams en Outlook es compatible con la aplicación de escritorio 
 Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint Online y cada canal de un equipo tiene una carpeta dentro de la biblioteca de documentos del sitio de grupo predeterminado. Los archivos compartidos en un chat se agregan automáticamente a la biblioteca de documentos y los permisos y opciones de seguridad configurados en SharePonit se reflejan automáticamente en Microsoft Teams.
 
 > [!NOTE]
-> Cada [canal privado](https://docs.microsoft.com/microsoftteams/private-channels) tiene su propia colección de sitios de SharePoint.
+> Cada [canal privado](https://docs.microsoft.com/microsoftteams/private-channels) tiene su propio sitio de SharePoint (antes llamado "colección de sitios")
 
 Si no tiene SharePoint Online habilitado en su espacio empresarial, los usuarios de Microsoft Teams no siempre podrán compartir archivos en los equipos. Los usuarios en el chat privado tampoco podrán compartir archivos, ya que se necesita OneDrive para la Empresa (el cual está vinculado a la licencia de SharePoint) para dicha función.
 
@@ -190,10 +191,10 @@ Como Teams se ejecuta en un servidor de back-end de SharePoint Online para el us
 |Característica                 |Microsoft 365 Empresa Básico  |Microsoft 365 Empresa Estándar   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Almacenamiento                 |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización, además de 10 GB por cada licencia adquirida.   |1 TB por organización, además de 10 GB por cada licencia adquirida. |1 TB por organización, además de 10 GB por cada licencia adquirida.  |1 TB por organización           |
-|Almacenamiento de archivos de Teams  |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |
-|Límite de carga de archivos (por archivo)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
+|Almacenamiento de archivos de Teams  |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |Hasta 25 TB por sitio o grupo |
+|Límite de carga de archivos (por archivo)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-Las canales están respaldados por carpetas dentro de la colección de sitios de SharePoint Online creadas para el equipo, por lo que las pestañas de archivo de los canales comparten los límites de almacenamiento del equipo al que pertenezcan.
+Los canales están respaldados por carpetas dentro del sitio de SharePoint Online (antes llamado "colección de sitios") creadas para el equipo, por lo que las pestañas de archivo de los canales comparten los límites de almacenamiento del equipo al que pertenezcan.
 
 Para obtener más información, vea [Límites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 

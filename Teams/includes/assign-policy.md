@@ -1,3 +1,3 @@
-Puede asignar una directiva directamente a los usuarios, ya sea de forma individual o en escala mediante una asignación por lotes (si se admite en el tipo de directiva) o en un grupo al que los usuarios son miembros (si se admite en el tipo de directiva). 
+Puede asignar directamente una directiva a los usuarios, ya sea de manera individual o a escala mediante una asignación por lotes (si lo admite el tipo de directiva), o a un grupo del cual sean miembros los usuarios (si lo admite el tipo de directiva). 
 
-Para obtener más información sobre las diferentes formas de asignar directivas a los usuarios, consulte [asignar directivas a los usuarios en Teams](../assign-policies.md).
+Para más información sobre las diferentes maneras en las que puede asignar directivas a los usuarios, consulte [Asignar directivas a los usuarios en Teams](../assign-policies.md).

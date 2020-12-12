@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 574e770eb1756a2c83758b830c26e6adbac24183
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031766"
@@ -33,20 +33,20 @@ El complemento para reunión de equipo permite a los usuarios programar reunione
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>El complemento para reunión de Microsoft Teams en Outlook para Windows
 
-El complemento de reunión de Teams se instala automáticamente para los usuarios que tienen Microsoft Teams y Office 2013, Office 2016 u Office 2019 instalado en su PC con Windows. Los usuarios verán el complemento para reunión de Microsoft Teams en la cinta del Calendario de Outlook.
+El complemento para reunión de Microsoft Teams se instala automáticamente para los usuarios que tienen instalado Microsoft Teams y Office 2013, 2016 o 2019 en su PC Windows. Los usuarios verán el complemento para reunión de Microsoft Teams en la cinta del Calendario de Outlook.
 
 ![Captura de pantalla del complemento de reunión de equipo en la cinta de Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> - No hay **ninguna dirección URL directa** que se vincule al complemento de Teams.
-> - Existen otras consideraciones adicionales si su organización ejecuta tanto equipos como Skype empresarial. En algunas circunstancias, el complemento de Teams no está disponible en Outlook. Para obtener más información, consulte [actualizar de Skype empresarial a teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
+> - No hay **ninguna URL directa** que esté vinculada al complemento de Teams.
+> - Hay otras cosas que se deben tener en cuenta si en la organización se ejecutan Teams y Skype Empresarial. En determinadas circunstancias, el complemento de Teams no está disponible en Outlook. Consulte [Actualización de Skype Empresarial a Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obtener más información.
 > - Los permisos de usuario para ejecutar el archivo regsvr32.exe son un requisito mínimo para el complemento de reuniones de Teams que se instalará en el equipo.
 > - Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
 > - Si usa una instalación de Office Outlook de Microsoft Store, no se admite el complemento de Reuniones de Teams. Se recomienda a los usuarios que necesiten usar este complemento que instalen la versión de hacer clic y ejecutar de Office, tal como se indica en el artículo [Office en Windows 10 en modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>El complemento para reunión de Microsoft Teams en Outlook para Mac
 
-El botón reunión de equipos de Outlook para Mac aparecerá en la cinta de opciones de Outlook para Mac si Outlook está ejecutando la compilación de producción 16.24.414.0 y versiones posteriores, y se activa con una suscripción de cliente de Microsoft 365 u Office 365.
+El botón para reunión de Teams en Outlook para Mac se mostrará en la cinta de opciones de Outlook para Mac si Outlook esta ejecutando la compilación de producción 16.24.414.0 o una posterior y se activa con una suscripción de cliente de Microsoft 365 u Office 365.
 
 La información de acceso a la reunión (el enlace para unirse a Teams y los números de acceso telefónico) se añadirán a la invitación a la reunión cuando el usuario haga clic en **Enviar**.  
 
@@ -66,18 +66,18 @@ En la última compilación de la aplicación de Outlook para iOS y Android se mu
 
 Las coordenadas de la reunión (el enlace para unirse a Teams y los números de acceso telefónico) se añadirán a la invitación a la reunión cuando el usuario haga clic en **Enviar**.  
 
-## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Complemento de reunión de Teams y FindTime para Outlook
+## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Complemento para reunión de Microsoft Teams y Buscador de disponibilidad para Outlook
 
-FindTime es un complemento para Outlook que ayuda a los usuarios a alcanzar consenso en una reunión en todas las empresas. Una vez que las invitaciones de reunión han proporcionado las horas preferidas, FindTime envía la invitación a la reunión en nombre del usuario. Si la opción **Reunión en línea** está seleccionada en FindTime, FindTime programará una reunión de Skype Empresarial o de Microsoft Teams. (FindTime usará el canal de reunión en línea predeterminado que su organización haya establecido).
+Buscador de disponibilidad es un complemento para Outlook que ayuda a los usuarios de distintas empresas a llegar a un consenso sobre la hora de una reunión. Una vez que las invitaciones de reunión han proporcionado las horas preferidas, FindTime envía la invitación a la reunión en nombre del usuario. Si la opción **Reunión en línea** está seleccionada en FindTime, FindTime programará una reunión de Skype Empresarial o de Microsoft Teams. (FindTime usará el canal de reunión en línea predeterminado que su organización haya establecido).
 
 > [!NOTE]  
 > Si ha guardado una configuración de Skype Empresarial en su [panel de control de Findtime](https://findtime.microsoft.com/UserDashboard), Findtime la usará en lugar de Microsoft Teams. Si desea usar Microsoft Teams, elimine la configuración de Skype Empresarial en su panel de control.
 
-Para obtener más información, consulte [programar reuniones con FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
+Consulte [Programar reuniones con el Buscador de disponibilidad](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) para obtener más información.
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticación
 
-El complemento para reunión de Microsoft Teams requiere que los usuarios inicien sesión en Microsoft Teams usando la autenticación moderna. Si los usuarios no usan este método para iniciar sesión, aún podrán usar el cliente de Teams, pero no podrán programar reuniones en línea de Teams mediante el complemento de Outlook. Puede solucionar este inconveniente de una de las siguientes formas:
+El complemento para reunión de Microsoft Teams requiere que los usuarios inicien sesión en Microsoft Teams usando la autenticación moderna. Los usuarios podrán usar el cliente de Microsoft Teams aunque no usen este método para iniciar sesión, pero no podrán programar reuniones en línea de Microsoft Teams con el complemento de Outlook. Puede solucionar este inconveniente de una de las siguientes formas:
 
 - Si la autenticación moderna no está configurada en su organización, configúrela.
 - Si la autenticación moderna está configurada, pero el usuario opta por no utilizarla en el cuadro de diálogo, pídale que vuelva a iniciar sesión usando la autenticación multifactor.
@@ -86,7 +86,7 @@ Para obtener más información sobre cómo configurar la autenticación, consult
 
 ## <a name="enable-private-meetings"></a>Habilitar las reuniones privadas
 
-Para que se implemente el complemento, debe estar habilitado **Permitir la programación de reuniones privadas** en el Centro de administración de Microsoft Teams. En el centro de administración, vaya a **Reuniones** > **Directivas de reunión** y, en la sección **General** , habilite **Permitir la programación de reuniones privadas** ).
+Para que se implemente el complemento, debe estar habilitado **Permitir la programación de reuniones privadas** en el Centro de administración de Microsoft Teams. En el centro de administración, vaya a **Reuniones** > **Directivas de reunión** y, en la sección **General**, habilite **Permitir la programación de reuniones privadas**).
 
 ![Captura de pantalla de la configuración en el centro de administración de Microsoft Teams.](media/teams-add-in-for-outlook-image1.png)
 
@@ -99,7 +99,7 @@ El cliente de Microsoft Teams determina si los usuarios necesitan la versión de
 
 Los clientes [pueden elegir la vía de actualización de Skype Empresarial a Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Los administradores empresariales pueden usar el modo de coexistencia de Teams para definir esta vía para sus usuarios. Los administradores empresariales tienen la opción de permitir a los usuarios utilizar Teams junto con Skype Empresarial (modo Aplicaciones aisladas). 
 
-Cuando los usuarios que se encuentran en modo de Aplicaciones aisladas programan una reunión en Outlook, normalmente esperan poder decidir si se hará en Skype Empresarial o en Teams. En Outlook en la web, Outlook Windows y Outlook Mac, los usuarios ven de forma predeterminada los complementos de Skype empresarial y de equipos. Puede configurar una configuración de directiva de reunión de Teams para controlar si los usuarios en el modo islas solo pueden usar el complemento de reunión de los equipos o tanto la reunión de los equipos como los complementos de reuniones de Skype empresarial.
+Cuando los usuarios que se encuentran en modo de Aplicaciones aisladas programan una reunión en Outlook, normalmente esperan poder decidir si se hará en Skype Empresarial o en Teams. En Outlook en la Web, Outlook para Windows y Outlook para Mac, los usuarios que se encuentran en modo de aplicaciones aisladas ven de forma predeterminada tanto el complemento de Microsoft Teams como el de Skype Empresarial. Puede establecer una configuración de directiva de reuniones de Microsoft Teams para controlar si los usuarios que se encuentran en modo de aplicaciones aisladas pueden usar solamente el complemento para reunión de Microsoft Teams o los complementos para reunión de Microsoft Teams y Skype Empresarial.
 
 Debido a algunas limitaciones de la versión inicial, Outlook para dispositivos móviles solo admite la creación de reuniones de Skype Empresarial **o** de Teams. Consulte la siguiente tabla para obtener información.
 
@@ -111,71 +111,71 @@ Debido a algunas limitaciones de la versión inicial, Outlook para dispositivos 
 | Colaboración y reuniones de Skype Empresarial con Teams | Teams |
 | Solo Teams | Teams |
 
-### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>Establecer si los usuarios en el modo islas solo pueden usar el complemento de reuniones de Teams o la reunión de Teams y complementos de reuniones de Skype empresarial
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>Establecer si los usuarios que se encuentran en modo de aplicaciones aisladas pueden usar solamente el complemento para reunión de Microsoft Teams o los complementos para reunión de Microsoft Teams y Skype Empresarial
 
-Como administrador, puede configurar una configuración de directiva de reunión de Teams para controlar el complemento de reunión de Outlook que se usa para *los usuarios que están en modo islas*. Puede especificar si los usuarios solo pueden usar el complemento de reuniones de equipos o bien la reunión de Teams y los complementos de reuniones de Skype empresarial para programar reuniones en Outlook.
+Como administrador, puede establecer una configuración de directiva de reuniones de Teams para controlar qué complemento para reunión de Outlook se usará para los *usuarios que estén en modo de aplicaciones aisladas*. Puede especificar si los usuarios que se encuentran en modo de aplicaciones aisladas pueden usar solamente el complemento para reunión de Microsoft Teams o los complementos para reunión de Microsoft Teams y Skype Empresarial para programar reuniones en Outlook.
 
-Solo puede aplicar esta directiva a usuarios que están en modo islas y tener el parámetro **AllowOutlookAddIn** establecido en **true** en la Directiva de reuniones de Teams. Para conocer los pasos sobre cómo configurar esta Directiva, vea [establecer el proveedor de la reunión para los usuarios en modo islas](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
+Solo puede aplicar esta directiva a los usuarios que se encuentren en modo de aplicaciones aisladas y tengan el parámetro **AllowOutlookAddIn** establecido en **True** en la directiva de reuniones de Microsoft Teams. Para ver los pasos para configurar esta directiva, consulte [Establecer el proveedor de reuniones para los usuarios que se encuentran en modo de aplicaciones aisladas](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Otras consideraciones
 
 El complemento para reunión de Microsoft Teams sigue en proceso de desarrollo para ampliar sus funcionalidades, por lo que le recomendamos que tenga en cuenta lo siguiente:
 
-- El complemento de reunión de Teams requiere un buzón de Exchange para el usuario principal que programa la reunión. Asegúrese de que tiene al menos un buzón de Exchange configurado en su perfil de Outlook y utilícelo para programar las reuniones de Teams con el complemento. Para obtener información sobre los requisitos de Exchange, vea [cómo interactúan Exchange y Teams](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
+- El complemento para reunión de Microsoft Teams requiere un buzón de Exchange para el usuario principal que programa la reunión. Asegúrese de que tiene al menos un buzón de Exchange configurado en su perfil de Outlook y úselo para programar las reuniones de Microsoft Teams con el complemento. Para obtener información sobre los requisitos de Exchange, consulte [Interacción entre Exchange y Microsoft Teams](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
 - Este complemento es para reuniones programadas con participantes específicos, no para reuniones en un canal. Las reuniones de canal se deben programar desde Microsoft Teams.
-- El complemento no funcionará si un proxy de autenticación se encuentra en la ruta de acceso de red de los servicios de equipo y equipo del usuario.
+- El complemento no funciona si hay un proxy de autenticación en la ruta de red entre el equipo del usuario y los servicios de Microsoft Teams.
 - Los usuarios no pueden programar eventos en directo desde Outlook. Vaya a Teams para programar eventos en directo. Para obtener más información, vea [¿Qué son los eventos en directo de Microsoft Teams?](teams-live-events/what-are-teams-live-events.md)
 
-Obtenga más información sobre [reuniones y llamadas en Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
+Obtenga más información sobre las [reuniones y llamadas en Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-Realice los pasos siguientes para solucionar problemas con el complemento de reunión de Teams.
+Siga estos pasos para solucionar problemas con el complemento para reunión de Microsoft Teams.
 
-### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>El complemento de reunión de Teams en Outlook para Windows no se muestra
+### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>No se muestra el complemento para reunión de Microsoft Teams en Outlook para Windows.
 
-Si no consigue instalar el complemento Reunión de Teams para Outlook, pruebe estos pasos para solucionarlo.
+Si no consigue instalar el complemento para reunión de Microsoft Teams en Outlook, pruebe estos pasos para solucionarlo.
 
-[Descargue](https://aka.ms/SaRA-TeamsAddInScenario) y ejecute el [Asistente de recuperación del soporte técnico de Microsoft](https://aka.ms/SaRA_Home) para realizar acciones y correcciones automatizadas.
+[Descargue](https://aka.ms/SaRA-TeamsAddInScenario) y ejecute el [Asistente de soporte y recuperación de Microsoft](https://aka.ms/SaRA_Home) para llevar a cabo correcciones y pasos para la solución de problemas automatizados.
 
-También puede realizar los pasos siguientes de forma manual:
+También puede llevar a cabo los pasos siguientes manualmente:
 
-- Los usuarios de Windows 7 deben instalar la [Actualización Universal C Runtime en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que el complemento Reunión de Teams funcione.
-- Compruebe que el usuario tiene una directiva de actualización de teams que permite programar reuniones en Teams. Para obtener más información, consulte [actualizar de Skype empresarial a teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
-- Compruebe que el usuario tiene una directiva de reunión de teams que permite el complemento de Outlook. Para obtener más información, vea [Administrar directivas de reunión en Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
-- Asegúrese de que el usuario tiene instalado el cliente de escritorio de Teams. El complemento de reunión no se instalará cuando solo se use el cliente web de Teams.
+- Los usuarios de Windows 7 deben instalar la [Actualización Universal C Runtime en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que el complemento para reunión de Microsoft Teams funcione.
+- Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita programar reuniones en Microsoft Teams. Consulte [Actualización de Skype Empresarial a Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obtener más información.
+- Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita el complemento de Outlook. Consulte [Administrar directivas de reuniones en Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) para obtener más información.
+- Asegúrese de que el usuario tiene instalado el cliente de escritorio de Microsoft Teams. El complemento para reunión no se instalará cuando solo se use el cliente web de Microsoft Teams.
 - Asegúrese de que el usuario tiene instalado Outlook 2013 o una versión posterior.
 - Asegúrese de que el usuario tiene permiso para ejecutar regsvr32.exe.
-- Asegúrese de que se hayan aplicado todas las actualizaciones disponibles para el cliente de escritorio de Outlook.
+- Asegúrese de que se han aplicado todas las actualizaciones disponibles para el cliente de escritorio de Outlook.
 - Siga estos pasos:
   - Reinicie el cliente de escritorio de Teams.
   - Cierre la sesión y vuelva a iniciarla en el cliente de escritorio de Teams.
-  - Reinicie el cliente de escritorio de Outlook. (Asegúrese de que Outlook no se esté ejecutando en el modo de administración).
+  - Reinicie el cliente de escritorio de Outlook. (Asegúrese de que Outlook no se está ejecutando en modo de administrador).
 
 Si sigue sin ver el complemento, asegúrese de que no está deshabilitado en Outlook.
 
-- En Outlook, elija **archivo** y, a continuación, **Opciones**.
-- Seleccione la pestaña **Complementos** del cuadro de diálogo **Opciones de Outlook** .
-- Confirme que el **complemento de reunión de Microsoft Teams para Microsoft Office** aparece en la lista **Complementos de aplicaciones activas**
-- Si el complemento de reunión de Teams aparece en la lista **Complementos de aplicaciones deshabilitada** , seleccione **Complementos com** en **administrar** y, después, seleccione **ir...**
-- Active la casilla que se encuentra junto al **complemento de reuniones de Microsoft Teams para Microsoft Office**.
+- En Outlook, elija **Archivo** y, luego, **Opciones**.
+- Seleccione la pestaña **Complementos** del cuadro de diálogo **Opciones de Outlook**.
+- Compruebe si **Microsoft Teams Meeting Add-in for Microsoft Office** se muestra en la lista **Complementos de aplicación activos**.
+- Si el complemento para reunión de Microsoft Teams se muestra en la lista **Complementos de aplicación inactivos**, seleccione **complementos COM** en **Administrar** y, luego, seleccione **Ir...**.
+- Marque la casilla de verificación situada junto a **Microsoft Teams Meeting Add-in for Microsoft Office**.
 - Elija **Aceptar** en todos los cuadros de diálogo y reinicie Outlook.
 
-Para obtener instrucciones generales sobre cómo administrar los complementos, vea [ver, administrar e instalar complementos en los programas de Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
+Para obtener instrucciones generales sobre cómo administrar complementos, consulte [Ver, administrar e instalar los complementos de los programas de Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
-Si el complemento sigue sin mostrarse, siga estos pasos para comprobar la configuración del registro.
+Si el complemento sigue sin mostrarse, siga estos pasos para comprobar la configuración del Registro.
 
 > [!NOTE]
-> La edición incorrecta del registro puede dañar gravemente el sistema. Antes de realizar cambios en el registro, debe hacer una copia de seguridad de los datos valiosos del equipo.
-- Iniciar RegEdit.exe
-- Ir a HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
-- Verifique que TeamsAddin. FastConnect exista.
-- Dentro de TeamsAddin. FastConnect, compruebe que LoadBehavior exista y esté establecido en 3.
+> La edición incorrecta del Registro puede provocar daños graves en el sistema. Antes de realizar cualquier cambio en el Registro, debe realizar una copia de seguridad de cualquier información valiosa que se encuentre en el equipo.
+- Inicie RegEdit.exe
+- Vaya a HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
+- Compruebe si existe TeamsAddin.FastConnect.
+- En TeamsAddin.FastConnect, compruebe si existe LoadBehavior y si está establecido en 3.
   - Si LoadBehavior tiene un valor distinto de 3, cámbielo a 3 y reinicie Outlook.
 
 ### <a name="delegate-scheduling-does-not-work"></a>La programación delegada no funciona
 
-Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), el delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. Como solución alternativa, el administrador puede Agregar la siguiente cadena a la lista de permitidos de EWS: " *SchedulingService* ". 
+Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), el delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. Como solución alternativa, el administrador puede agregar la siguiente cadena a la lista de permitidos de EWS: "*SchedulingService*". 
 
 
 ## <a name="related-topics"></a>Temas relacionados
