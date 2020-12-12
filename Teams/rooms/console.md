@@ -1,7 +1,7 @@
 ---
 title: Configurar una consola de sala de Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar y configurar la consola de salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a36ed93f370c0aeb302da246b223732383719fb
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905452"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662065"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de sala de Microsoft Teams
 
@@ -51,15 +51,15 @@ La instalación de la aplicación de la consola de Microsoft Team Rooms requiere
 > [!IMPORTANT]
 > El equipo con Windows 10 usado para crear el medio de instalación de Microsoft Team Rooms debe estar en la misma versión de Windows o en una posterior, como el medio de instalación de destino.
   
-1. Descargue el [script CreateSrsMedia. PS1](https://go.microsoft.com/fwlink/?linkid=867842).
+1. Descargue el [ script deCreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Ejecute el script CreateSrsMedia.ps1 desde un símbolo de sistema con privilegios elevados en un equipo con Windows 10.
 3. Siga las instrucciones de la secuencia de comandos para crear un disco de instalación de cámaras USB de Microsoft Teams.
 
 
 > [!TIP]
-> Cada vez que se inicie el script CreateSrsMedia. ps1, el resultado de la pantalla incluirá el nombre de un archivo de registro o transcripción de la sesión. Si hay problemas para ejecutar el script, asegúrese de tener una copia de esa transcripción disponible cuando solicite asistencia. 
+> Cada vez que se inicie el script de CreateSrsMedia.ps1, el resultado de la pantalla incluirá el nombre de un archivo de registro o transcripción de la sesión. Si hay problemas para ejecutar el script, asegúrese de tener una copia de esa transcripción disponible cuando solicite asistencia. 
 
-El script CreateSrsMedia. PS1 automatiza las siguientes tareas:
+El script de CreateSrsMedia.ps1 automatiza las siguientes tareas:
 
 1. Descargue el programa de instalación MSI más reciente para salas de Microsoft Teams.
 2. Determine la compilación de Windows que el usuario debe proporcionar. Las versiones publicadas más recientes pueden ser o no probadas y admitidas para su uso con dispositivos de salas de Microsoft Teams.
@@ -101,7 +101,7 @@ Una vez que el sistema se ha cerrado, es seguro quitar el disco de instalación 
 
 ### <a name="selecting-a-language"></a>Selección de un idioma 
 
-En la actualización de Creator, tendrá que usar el script ApplyCurrentRegionAndLanguage. PS1 en escenarios en los que la selección de idioma implícito no proporciona al usuario el lenguaje de aplicaciones que quieren (por ejemplo, desea que la aplicación de consola aparezca en francés, pero está llegando en inglés).
+En la actualización de su creador, tendrá que usar el script de ApplyCurrentRegionAndLanguage.ps1 en escenarios en los que la selección de idioma implícito no proporciona al usuario el lenguaje de aplicaciones que quieren (por ejemplo, desea que la aplicación de consola aparezca en francés, pero está llegando en inglés).
   
 > [!NOTE]
 > Las siguientes instrucciones solo funcionan con las consolas creadas con la actualización de Windows Creator. Los sistemas heredados o en el mercado que no se hayan configurado con medios en el nuevo sistema de aprovisionamiento no podrán usar estas instrucciones, pero tampoco deben sufrir el problema inicial que requiere esta intervención manual (la edición de aniversario le permite elegir el idioma de la aplicación de forma explícita como parte de la configuración).
@@ -114,9 +114,9 @@ En la actualización de Creator, tendrá que usar el script ApplyCurrentRegionAn
     
 3. Seleccione el icono de engranaje para iniciar la aplicación **Configuración**.
     
-4. Seleccione **idioma &amp; de tiempo**.
+4. Seleccione **&amp; idioma de tiempo**.
     
-5. Seleccione **el &amp; idioma**de la región.
+5. Seleccione **el &amp; idioma** de la región.
     
 6. Seleccione **Agregar un idioma**.
     
@@ -257,7 +257,7 @@ Use la siguiente lista de comprobación para realizar una verificación final de
 |☐  <br/> |La base puede girar sin obstáculos.  <br/> |
 |☐  <br/> |El brillo de la pantalla es el adecuado para el entorno.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="Checklist"> </a>
 
 [Plan para Salas de Microsoft Teams](rooms-plan.md)

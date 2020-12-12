@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 34a462a38581eec8720bd2184749b842aaa6d06f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424610"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662515"
 ---
 # <a name="use-teams-financial-templates-in-the-admin-center"></a>Usar las plantillas financieras de Teams en el centro de administración
 
@@ -44,7 +44,7 @@ Centralizar la colaboración de su equipo de crisis en todas las unidades de neg
 
 | Tipo de plantilla base|baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------|-- |----------------------------------------------------- |
-| Colaborar en crisis global o evento|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li></ul>|
+| Colaborar en crisis global o evento|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Solicitud de aprobaciones</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="collaborate-within-a-bank-branch"></a>Colaborar dentro de una sucursal bancaria
@@ -53,6 +53,6 @@ Centraliza la colaboración para los empleados de las sucursales en huddles, las
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------ |--|----------------------------------------------------- |
-|Colaborar dentro de una sucursal bancaria|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canales <ul><li>General<li>Anuncios</li><li>Huddles</li><li>Reuniones de clientes</li><li>Tren</li><li>Desarrollo de competencias</li><li>Procesamiento de préstamos</li><li>Quejas de los clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
+|Colaborar dentro de una sucursal bancaria|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Canales <ul><li>General<li>Anuncios</li><li>Huddles</li><li>Reuniones de clientes</li><li>Solicitud de aprobaciones</li><li>Tren</li><li>Desarrollo de competencias</li><li>Procesamiento de préstamos</li><li>Quejas de los clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>Phone<ul><li>Elogio</li></ul>|
 ||||
 

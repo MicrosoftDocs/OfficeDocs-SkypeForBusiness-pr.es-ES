@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9013bda2f83a63776dfbf9110a0863dcf68c0ddb
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 51a28e997e5c7c0b36fb49cd0bb46768b7808a29
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800603"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662225"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Usar las plantillas de mecanizado de Teams en el centro de administración
 
@@ -42,7 +42,7 @@ Para obtener más información sobre las plantillas de equipo en general, consul
 
 Centralizar la comunicación, el acceso a los recursos y las operaciones en planta con un equipo de fábricas. Incluya documentos de directivas y procedimientos, vídeos de aprendizaje, avisos de seguridad, procesos de cambio de turno.
 
-| Tipo de plantilla base|baseTemplateId | Propiedades que vienen con esta plantilla base |
+| Tipo de plantilla base|baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|-- |----------------------------------------------------- |
-|Calidad y seguridad|`com.microsoft.teams.template.QualitySafety` |Canales <ul><li>General<li>Anuncios</li><li>Línea 1</li><li>Línea 2</li><li>Línea 3</li><li>Opera</li><li>Aprendizaje</li><li>Mantenimiento</li><li>Cosas divertidas</li></ul> Phone <ul><li>Wiki</li></ul>|
+|Calidad y seguridad|`com.microsoft.teams.template.QualitySafety` |Canales <ul><li>General<li>Anuncios</li><li>Línea 1</li><li>Línea 2</li><li>Línea 3</li><li>Opera</li><li>Aprendizaje</li><li>Mantenimiento</li><li>Cosas divertidas</li></ul> Phone <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||

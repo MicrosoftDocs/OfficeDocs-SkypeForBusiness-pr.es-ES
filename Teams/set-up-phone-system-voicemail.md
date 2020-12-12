@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 81e5f83b251a0bd648cb2ab2afd69f35357fc49f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031076"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662215"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -60,7 +60,7 @@ Para configurar los usuarios de Skype empresarial Server para el buzón de voz e
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Habilitar el buzón de voz protegido en su organización
 
-Cuando alguien deja un mensaje de voz para un usuario de su organización, el buzón de voz se envía al buzón del usuario como datos adjuntos de un mensaje de correo electrónico. Con las reglas de flujo de correo para aplicar el cifrado de mensajes, puede evitar que estos mensajes de voz se desvíen a otros destinatarios. Al habilitar el buzón de voz protegido, los usuarios pueden escuchar mensajes de voz protegidos llamando a su buzón de voz o abriendo el mensaje en Outlook, en Outlook en la web o en Outlook para Android o iOS. Los mensajes de buzón de voz protegidos no se pueden abrir en Skype empresarial.
+Cuando alguien deja un mensaje de voz para un usuario de su organización, el buzón de voz se envía al buzón del usuario como datos adjuntos de un mensaje de correo electrónico. Con las reglas de flujo de correo para aplicar el cifrado de mensajes, puede evitar que estos mensajes de voz se desvíen a otros destinatarios. Al habilitar el buzón de voz protegido, los usuarios pueden escuchar mensajes de voz protegidos llamando a su buzón de voz o abriendo el mensaje en Outlook, en Outlook en la web o en Outlook para Android o iOS. Los mensajes de buzón de voz protegidos no se pueden abrir en Skype empresarial o Microsoft Teams.
 
 Para obtener más información sobre el cifrado de mensajes, consulte [cifrado de correo electrónico](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide).
 
@@ -68,10 +68,10 @@ Para configurar el buzón de voz protegido, haga lo siguiente:
 
 1. Vaya a https://admin.microsoft.com e inicie sesión con una cuenta que tenga permisos de administrador global.
 2. Seleccione **Mostrar todo** y, a continuación, vaya a **centro de administración** de  >  **Exchange**.
-3. En el centro de administración de Exchange, seleccione reglas de **flujo de correo**  >  **Rules**.
+3. En el centro de administración de Exchange, seleccione reglas de **flujo de correo**  >  .
 4. Seleccione **+** **Agregar** y, a continuación, seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos a los mensajes**.
-5. Escriba un nombre para la nueva regla de flujo de correo y, a continuación, en **aplicar esta regla si** , seleccione **el mensaje las propiedades**  >  **incluyen el**  >  **correo de voz**. Seleccione **Aceptar**.
-6. En **hacer lo siguiente** , seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos al mensaje con** y, después, seleccione **seleccionar uno**. En **plantilla RMS** , seleccione no **reenviar**. Seleccione **Aceptar** y, a continuación, **Guardar**.
+5. Escriba un nombre para la nueva regla de flujo de correo y, a continuación, en **aplicar esta regla si**, seleccione **el mensaje las propiedades**  >  **incluyen el**  >  **correo de voz**. Seleccione **Aceptar**.
+6. En **hacer lo siguiente**, seleccione **aplicar el cifrado de mensajes de Office 365 y la protección de derechos al mensaje con** y, después, seleccione **seleccionar uno**. En **plantilla RMS**, seleccione no **reenviar**. Seleccione **Aceptar** y, a continuación, **Guardar**.
     > [!NOTE]
     > Si la lista de **plantillas de RMS** está vacía, debe configurar el cifrado de mensajes. Para obtener más información sobre cómo configurar el cifrado de mensajes, vea los artículos siguientes:
     > - [Configurar nuevas capacidades de cifrado de mensajes](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)

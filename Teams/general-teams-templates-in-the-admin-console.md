@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a158850a70a0410c9be7cb434d6f0868d68218f5
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: caef10a4e9b659ce18e05df65bf2a441248ec493
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655507"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662075"
 ---
 # <a name="use-general-teams-templates-in-the-admin-center"></a>Usar plantillas generales de Teams en el centro de administración
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Las plantillas de Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
@@ -46,7 +44,7 @@ Centralizar la colaboración de su equipo de crisis en todas las unidades de neg
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------ |--|----------------------------------------------------------|
-| Colaborar en crisis global o evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li></ul>|
+| Colaborar en crisis global o evento |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Comunicaciones externas</li><li>Solicitud de aprobaciones</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="adopt-office-365"></a>Adopción de Office 365
@@ -64,7 +62,7 @@ Administre tareas, comparta documentos, lleve a cabo reuniones y riesgos de docu
 
 | Tipo de plantilla base| baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|--|-----------------------------------------------------------|
-| Administrar un proyecto| com. Microsoft. Teams. template. ManageAProject  | Canales <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Administrar un proyecto| `com.microsoft.teams.template.ManageAProject`  | Canales <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Phone<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Recoge</li> </ul> |
 ||||
 
 ## <a name="manage-an-event"></a>Administrar un evento
@@ -84,7 +82,7 @@ Mejore su cultura y simplifique la incorporación de empleados con este equipo c
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|--|-----------------------------------------------------------|
-|Empleados de la placa|`com.microsoft.teams.template.OnboardEmployees`  | Canales <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Phone<ul><li>Wiki</li><li>Comunitarios</li></ul>|
+|Empleados de la placa|`com.microsoft.teams.template.OnboardEmployees`  | Canales <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Phone<ul><li>Wiki</li><li>Comunitarios</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="organize-a-help-desk"></a>Organizar un servicio de asistencia al cliente
@@ -93,5 +91,5 @@ Colaborar en la documentación, la Directiva y los procesos que sean compatibles
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|--|------------------------------------------------------------|
-|Organizar el Departamento de soporte técnico|`com.microsoft.teams.template.OrganizeHelpDesk`| Canales<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
+|Organizar el Departamento de soporte técnico|`com.microsoft.teams.template.OrganizeHelpDesk`| Canales<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Phone<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Elogio </li></ul> |
 ||||

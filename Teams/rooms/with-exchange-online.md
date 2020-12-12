@@ -1,7 +1,7 @@
 ---
 title: Implementar Salas de Microsoft Teams con Exchange Online
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Exchange Online y Skype empresarial Server local.
-ms.openlocfilehash: e39a7f2cde6aef7bdee59f2052c789783d62f905
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 82fa0b1b521c7dd2feadcca2030869b746a444aa
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814519"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662315"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implementar Salas de Microsoft Teams con Exchange Online
 
@@ -76,7 +76,7 @@ Si implementó los servicios de Federación de Active Directory (AD FS), es posi
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Agregar una cuenta de correo electrónico para su cuenta de dominio local
 
-1. En la herramienta **ad de usuarios y equipos de Active** Directory, haga clic con el botón secundario en el contenedor o la unidad organizativa en el que se crearán las cuentas de las salas de Microsoft Teams, haga clic en **nuevo**y, a continuación, haga clic en **usuario**.
+1. En la herramienta **ad de usuarios y equipos de Active** Directory, haga clic con el botón secundario en el contenedor o la unidad organizativa en el que se crearán las cuentas de las salas de Microsoft Teams, haga clic en **nuevo** y, a continuación, haga clic en **usuario**.
 2. Escriba el nombre para mostrar (-Identity) del cmdlet anterior (Set-Mailbox o New-Mailbox) en el cuadro **nombre completo** y el alias en el cuadro **nombre de inicio de sesión de usuario** . Haga clic en **Siguiente**.
 3. Escriba la contraseña de la cuenta. Tendrá que volver a escribirla para verificarla. Asegúrese de que la casilla **La contraseña nunca expira** sea la única opción activada.
 
@@ -150,7 +150,7 @@ Si implementó los servicios de Federación de Active Directory (AD FS), es posi
 3. Haga clic en la cuenta salas de Microsoft Teams y, a continuación, haga clic en el icono de lápiz para editar la información de la cuenta.
 4. Haga clic en **Licencias**.
 5. En **Asignar licencias**, seleccione Skype Empresarial (plan 2) o Skype Empresarial (plan 3), según sus requisitos de licencia y de telefonía IP empresarial. Tendrá que usar una licencia de Plan 3 Si quiere usar la telefonía IP empresarial en salas de Microsoft Teams.
-6. Haga clic en **Guardar **.
+6. Haga clic en **Guardar**.
 
 Para la validación, debe poder usar cualquier cliente de Skype empresarial para iniciar sesión en esta cuenta.
 

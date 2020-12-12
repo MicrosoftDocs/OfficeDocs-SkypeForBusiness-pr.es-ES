@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Use las plantillas de Microsoft Teams en el centro de administración para crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 9c5ee54f9cbade8132d31d8f984c1d85fd8252b3
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800673"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662235"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>Usar Teams Healthcare templates en el centro de administración
 
@@ -43,7 +43,7 @@ Actualmente ofrecemos dos plantillas de atención médica de origen que puede us
 
 | Tipo de plantilla base |baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------ |---|----------------------------------------------------- |
-| Colaborar en el cuidado del paciente |`healthcareWard` | Canales<ul><li>General</li><li>Anuncios</li><li>Huddles</li><li>Hacia</li><li>Personal</li><li>Aprendizaje</li></ul> Phone <ul><li>Wiki</li>|
+| Colaborar en el cuidado del paciente |`healthcareWard` | Canales<ul><li>General</li><li>Anuncios</li><li>Huddles</li><li>Hacia</li><li>Personal</li><li>Aprendizaje</li></ul> Phone <ul><li>Wiki</li><li>Recoge</li></ul>|
 ||||
 
 ## <a name="hospital"></a>Hospital
@@ -52,7 +52,7 @@ Simplificar la comunicación y la colaboración entre múltiples departamentos, 
 
 | Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------|-- |----------------------------------------------------- |
-|Hospital|`healthcareHospital`|Canales <ul><li>General<li>Anuncios</li><li>Cumplimiento</li><li>Private</li><li>Recursos humanos</li><li>Pertenecie</li></ul> Phone <ul><li>Wiki</li></ul>|
+|Hospital|`healthcareHospital`|Canales <ul><li>General</li><li>Anuncios</li><li>Cumplimiento</li><li>Private</li><li>Recursos humanos</li><li>Pertenecie</li></ul> Phone <ul><li>Wiki</li><li>Recoge </li></ul>|
 ||||
 
 ## <a name="related-topics"></a>Temas relacionados

@@ -1,7 +1,7 @@
 ---
 title: Configurar cuentas para salas de Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo configurar cuentas para salas de Microsoft Teams en Exchange y Skype empresarial.
-ms.openlocfilehash: 98507b3c5fb2b2d9383bcbff6ddcbdda0de19b9f
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: e171ef22dd1733c06b03a4a9483f591d73d70cb9
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262487"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662525"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar cuentas para salas de Microsoft Teams
  
@@ -84,7 +84,7 @@ La manera más fácil de configurar las cuentas de dispositivo es configurarlas 
   
 Si prefiere usar la interfaz de usuario de Microsoft 365 o de Office 365 con cmdlets de Windows PowerShell, algunos pasos se pueden realizar manualmente. Consulte [crear una cuenta de dispositivo con Microsoft 365 u Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Plan para Salas de Microsoft Teams](rooms-plan.md)
   

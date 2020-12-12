@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24e1f440702f10785e42b83c39a53cb14da8739
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800583"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662645"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>Usar las plantillas comerciales de Teams en el centro de administración
 
@@ -44,7 +44,7 @@ Reúna a sus empleados minoristas en una experiencia centralizada para administr
 
 | Tipo de plantilla base |baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------|-- |----------------------------------------------------- |
-|Organizar un almacén| `retailStore`|Canales <ul><li>General<li>Transición de turno</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
+|Organizar un almacén|`retailStore`|Canales <ul><li>General<li>Transición de turno</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
 ||||
 
 ## <a name="manager-collaboration"></a>Colaboración de administrador

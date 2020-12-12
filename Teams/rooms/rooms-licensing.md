@@ -1,7 +1,7 @@
 ---
 title: Licencias de Salas de Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga más información sobre las licencias disponibles para diferentes tipos de características de llamadas y reuniones en salas de Microsoft Teams.
-ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 37f47e9b89abd87837b02f8a67c3c82eaa9c7a5c
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416850"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662485"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Actualización de licencias de sala de reuniones de equipos
 
@@ -46,7 +46,7 @@ Microsoft tiene un SKU dedicado para las reuniones de licencias y las llamadas e
 |Disponibilidad del canal | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
-&Sup1; La disponibilidad y los minutos incluidos pueden variar según la región. Para comprobar la disponibilidad de los servicios, consulte [disponibilidad de países y regiones para las videoconferencias y los planes de llamadas](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Es posible que se apliquen cargos por consumo para servicios adicionales, como números gratuitos, minutos internacionales para planes nacionales, etc. Los clientes pueden deshabilitar estas características para evitar la facturación adicional.  
+&Sup1; La disponibilidad y los minutos incluidos pueden variar según la región. Para comprobar la disponibilidad de los servicios, consulte  [disponibilidad de países y regiones para las videoconferencias y los planes de llamadas](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Es posible que se apliquen cargos por consumo para servicios adicionales, como números gratuitos, minutos internacionales para planes nacionales, etc. Los clientes pueden deshabilitar estas características para evitar la facturación adicional.  
 
 &sup2; No disponible en nubes soberanos  
 
@@ -67,7 +67,7 @@ En la siguiente tabla se enumeran las características que están disponibles en
 |Unirse a una reunión programada  | SKU de sala de reuniones  |Skype Empresarial Servidor Standard CAL  |
 |Iniciar una reunión ad hoc | SKU de sala de reuniones  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
 |Iniciar una reunión ad hoc y llamar desde una reunión a números de teléfono |  SKU de sala de reuniones |Skype Empresarial Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
-|Dar un número de teléfono a la sala y realizar o recibir llamadas de la sala o unirse a una conferencia de audio con un número de teléfono  | Con enrutamiento directo: SKU de sala de reuniones<br/>Sin enrutamiento directo: Plan de llamadas nacionales o internacionales<br/>Microsoft 365 Business Voice  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Plus CAL  |
+|Dar un número de teléfono a la sala y realizar o recibir llamadas de la sala o unirse a una conferencia de audio con un número de teléfono  | Con enrutamiento directo: SKU de sala de reuniones<br/>Sin enrutamiento directo: Plan de llamadas nacionales o internacionales<br/>Microsoft 365 Empresa Voice  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Plus CAL  |
 |Administrar el dispositivo de la sala con Microsoft Intune |SKU de sala de reuniones  |Suscripción a Microsoft Intune con [MDM local](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: En este artículo se describe la funcionalidad de Microsoft Teams disponible para los invitados.
-ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030296"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661895"
 ---
 # <a name="guest-experience-in-teams"></a>Experiencia de invitado en Teams
 
@@ -44,7 +44,7 @@ Consulte estos vídeos sobre la experiencia de invitado en Teams:
 
 En la siguiente tabla se compara la funcionalidad de Teams disponible para los miembros del equipo de una organización y sus invitados. Los administradores de equipos controlan las características disponibles para los invitados.
 
-|**Funcionalidad en Microsoft Teams**|**Usuario de Microsoft Teams de la organización**|**Usuario invitado**|
+| Funcionalidad en Microsoft Teams | Usuario de Microsoft Teams de la organización | Invitado |
 |:-----|:-----|:-----|
 |Crear un canal  <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> |&#x2713;|&#x2713;|
 |Participar en un chat privado  <br/> |&#x2713;|&#x2713;|
@@ -52,7 +52,7 @@ En la siguiente tabla se compara la funcionalidad de Teams disponible para los m
 |Publicar, eliminar y editar mensajes  <br/> |&#x2713;|&#x2713;|
 |Compartir un archivo del canal  <br/> |&#x2713;|&#x2713;|
 |Obtener acceso a archivos de SharePoint<br/> |&#x2713;|&#x2713;|
-|Adjuntar archivos<br/> |&#x2713;|&#x2713;|
+|Adjuntar archivos<br/> |&#x2713;|Solo chats de equipo|
 |Descargar archivos de conversaciones privadas<br/> |&#x2713;|&#x2713;|
 |Buscar en archivos<br/> |&#x2713;||
 |Compartir un archivo del chat  <br/> |&#x2713;||
@@ -109,4 +109,4 @@ En la tabla siguiente se muestran las características de llamadas y reuniones d
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Abandonar una organización como usuario invitado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Abandonar una organización como invitado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

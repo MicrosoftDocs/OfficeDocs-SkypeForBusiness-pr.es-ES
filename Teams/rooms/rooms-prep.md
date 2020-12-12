@@ -1,7 +1,7 @@
 ---
 title: Preparar el entorno
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre cómo preparar su infraestructura para implementar salas de Microsoft Teams para poder aprovechar todas las características.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
-ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
+ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529183"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662435"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -41,12 +41,12 @@ Esta sección contiene una descripción general de los pasos necesarios para pre
   
 3. Para poder mejorar su experiencia, Microsoft recopila información. Para permitir que Microsoft recopile datos, permita estos sitios:
 
-   - Extremo del cliente de telemetría:https://vortex.data.microsoft.com/
-   - Punto de conexión de configuración de telemetría:https://settings.data.microsoft.com/
+   - Extremo del cliente de telemetría: https://vortex.data.microsoft.com/
+   - Punto de conexión de configuración de telemetría: https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Crear y probar una cuenta de dispositivo
 
-Una *cuenta de dispositivo* es una cuenta que usa el cliente de Microsoft Teams Rooms para acceder a características de Exchange, como el calendario, y para habilitar Skype empresarial. Consulte [implementar salas de Microsoft Teams](rooms-deploy.md) para obtener más información.
+Una  *cuenta de dispositivo*  es una cuenta que usa el cliente de Microsoft Teams Rooms para acceder a características de Exchange, como el calendario, y para habilitar Skype empresarial. Consulte [implementar salas de Microsoft Teams](rooms-deploy.md) para obtener más información.
   
 ### <a name="check-network-availability"></a>Comprobar la disponibilidad de red
 
@@ -86,7 +86,7 @@ Salas de Microsoft Teams se ha diseñado para heredar la configuración de proxy
 
 7. Se le pedirá un nombre de clave para el nuevo subárbol cargado. escribe Skype (ahora deberías ver la configuración del registro para el usuario de Skype).
  
-8. Abra la clave de Skype y vaya a HKEY_USERS configuración de \Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Asegúrese de que se ha introducido esta configuración: 
+8. Abra la clave de Skype y vaya a HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings, a continuación, asegúrese de que se ha introducido esta configuración: 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     

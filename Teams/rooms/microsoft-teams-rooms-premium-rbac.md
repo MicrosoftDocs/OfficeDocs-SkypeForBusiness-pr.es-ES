@@ -1,7 +1,7 @@
 ---
 title: Control de acceso basado en roles con el servicio de Microsoft Teams Room Premium
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre el control de acceso basado en roles con el servicio administrado salones de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
-ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
+ms.openlocfilehash: d673a20b122af876d95bac9d11a1db0433a396e4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300294"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662605"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Control de acceso basado en roles con el servicio administrado de salas de Microsoft Teams
 
@@ -34,13 +34,13 @@ Para crear, editar o asignar roles, su cuenta debe tener uno de los siguientes p
 
 ## <a name="what-is-a-role"></a>¿Qué es un rol?
 
-Un rol define el conjunto de permisos que se concede a los usuarios asignados a ese rol. Por el momento, el servicio administrado de salas de Microsoft Teams tiene tres roles integrados: **Administrador de servicios administrados**, **responsable de sitio**y técnico de **sitios**. Cubren algunos escenarios comunes de los usuarios de su organización que pueden implicarse en la administración de sus salas.
+Un rol define el conjunto de permisos que se concede a los usuarios asignados a ese rol. Por el momento, el servicio administrado de salas de Microsoft Teams tiene tres roles integrados: **Administrador de servicios administrados**, **responsable de sitio** y técnico de **sitios**. Cubren algunos escenarios comunes de los usuarios de su organización que pueden implicarse en la administración de sus salas.
 
-Para ver los roles, en el panel de navegación izquierdo del portal de servicios administrados de Microsoft Team salas, vaya a **roles**y, después, seleccione cualquiera de los roles para ver las propiedades, los permisos y las asignaciones del rol.  
+Para ver los roles, en el panel de navegación izquierdo del portal de servicios administrados de Microsoft Team salas, vaya a **roles** y, después, seleccione cualquiera de los roles para ver las propiedades, los permisos y las asignaciones del rol.  
 
 - **Propiedades**: el nombre, el tipo de rol y la descripción
 - **Permisos**: enumera las características y los permisos a los que tiene acceso el rol.
-- **Tareas: una**lista de asignaciones de roles que definen los usuarios que tienen los permisos configurados en el ámbito de las cuentas de recursos de la sala. Un rol puede tener varias asignaciones y un usuario puede estar en varias tareas.
+- **Tareas: una** lista de asignaciones de roles que definen los usuarios que tienen los permisos configurados en el ámbito de las cuentas de recursos de la sala. Un rol puede tener varias asignaciones y un usuario puede estar en varias tareas.
 
 ## <a name="built-in-roles"></a>Roles integrados
 
@@ -78,12 +78,12 @@ En la tabla siguiente se resume lo que puede hacer cada rol.
 
 Para asignar roles, debe ser administrador global o administrador de servicios administrados.
 
-1. En el sitio de navegación izquierdo del portal de servicios administrados de Microsoft Team salas, vaya a roles de **configuración**  >  **Roles**.
+1. En el sitio de navegación izquierdo del portal de servicios administrados de Microsoft Team salas, vaya a roles de **configuración**  >  .
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de pantalla de la página de control de acceso que muestra roles":::
 
 2. Seleccione el rol que desea asignar.
-3. En el panel de roles, **Assignments**seleccione  >  **Agregar**tareas.
+3. En el panel de roles, seleccione  >  **Agregar** tareas.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Captura de pantalla de la opción Agregar para agregar un rol.":::
 

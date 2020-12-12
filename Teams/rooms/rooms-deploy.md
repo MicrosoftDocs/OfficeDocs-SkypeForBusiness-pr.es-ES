@@ -1,7 +1,7 @@
 ---
 title: Implementar Salas de Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar salas de Microsoft Teams, incluidas las fases de implementación.
-ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 53c4c94717f10dadbad802cff3f233a3a771d166
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085966"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662255"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -50,7 +50,7 @@ Puede obtener más información sobre estas dependencias en los vínculos de la 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que sus sitios cumplen los requisitos clave para salas de Microsoft Teams.</li><li>Confirme que ha proporcionado suficiente ancho de banda para cada sitio.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Comience a planificar la implementación y la configuración del dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar la implementación y la configuración del dispositivo.</li></ul>| 
 
 ## <a name="service-readiness"></a>Preparación del servicio
 
@@ -75,7 +75,7 @@ Para obtener más información sobre las cuentas de salas de Microsoft Teams, ve
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida qué escenarios admitirá e identifique los requisitos de licencias para las cuentas de servicio de salas de Microsoft Teams.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Prepararse para hospedar cuentas de equipo y de servicio.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepararse para hospedar cuentas de equipo y de servicio.</li></ul>| 
 
 
 _Ejemplo de tabla de planeación de cuentas de servicio de salones de Microsoft Teams_
@@ -90,7 +90,7 @@ _Ejemplo de tabla de planeación de cuentas de servicio de salones de Microsoft 
 
 Para habilitar la administración y el informe de las cuentas de servicio y del equipo de las salas de Microsoft Teams, prepare su Active Directory local o Azure Active Directory (Azure AD). 
 
-Defina un Active Directory local o un grupo de Azure AD para agregar todas las cuentas del servicio de salones de Microsoft Teams (usuario) a y, a continuación, cree informes de uso mediante el cmdlet de PowerShell Get-CSUserSession en la implementación de Microsoft Teams Rooms. Por ejemplo, cree un grupo denominado SkypeRoomSystemsv2-Service-accounts. 
+Defina un Active Directory local o un grupo de Azure AD para agregar todas las cuentas del servicio de salones de Microsoft Teams (usuario) a y, a continuación, cree informes de uso mediante el cmdlet de PowerShell de Get-CSUserSession en la implementación de Microsoft Teams Rooms. Por ejemplo, cree un grupo denominado SkypeRoomSystemsv2-Service-accounts. 
 
 
 Defina una unidad organizativa en su jerarquía de Active Directory o de Azure AD local para mantener las cuentas de equipo de las salas de Microsoft Teams (si se han unido al dominio) y una unidad organizativa que contenga todas las cuentas de usuario de salas de Microsoft Teams. Si crea una unidad organizativa para las cuentas de equipos de las salas de Microsoft Teams, considere la posibilidad de deshabilitar la herencia para asegurarse de que aplica solo las directivas que pretendías aplicar a las salas de Microsoft Teams Unidas al dominio. 
@@ -99,7 +99,7 @@ Cree un objeto de directiva de grupo asignado a la unidad de la organización qu
 
 -   [Establecer la configuración de la cuenta local y de la energía](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
 -   Habilitar Windows Update.
--   Habilitar la comunicación remota de PowerShell. Puede configurar un script de inicio para que ejecute un script simple: enable-PSRemoting-Force
+-   Habilitar la comunicación remota de PowerShell. Puede configurar un script de inicio para que ejecute un script simple: Enable-PSRemoting-Force
 
 Puede usar PowerShell para realizar una serie de actividades de administración remota, entre las que se incluye la obtención y configuración de la información de configuración. La comunicación remota de PowerShell debe habilitarse *antes* de que se pueda realizar la administración remota de PowerShell y debe considerarse como parte de los procesos de implementación o configurarse mediante la Directiva de grupo. Para obtener más información sobre estas funciones y habilitarlas, consulte [mantenimiento y operaciones](rooms-operations.md#remote-management-using-powershell). 
 
@@ -119,12 +119,12 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 Cada dispositivo de salas de Microsoft Teams necesita una cuenta de recursos exclusiva y exclusiva que deba habilitarse para Microsoft Teams o Skype empresarial y Exchange. Esta cuenta debe tener un buzón de sala hospedado en Exchange y habilitarse como sala de reuniones en la implementación de Teams o Skype empresarial. En el lado de Exchange, el procesamiento del calendario se debe configurar para que el dispositivo pueda aceptar automáticamente las convocatorias de reunión entrantes. Para obtener más información sobre la creación de estas cuentas, vea [configurar cuentas para salas de Microsoft Teams](rooms-configure-accounts.md). 
 
-**Sugerencia Pro** : haga que los nombres para mostrar de estas cuentas sean descriptivos y sean fáciles de comprender. Estos son los nombres que los usuarios verán al buscar y agregar sistemas de salas de Microsoft Teams a reuniones. Algunas organizaciones usan el nombre del salón de *sitio* - *Room Name*de la Convención (*capacidad máxima*de la sala)-RS, por lo que, por ejemplo Curie, un salón de conferencia de 12 personas en Londres, puede tener el nombre para mostrar Lon-Curie (12)-RS. 
+**Sugerencia Pro** : haga que los nombres para mostrar de estas cuentas sean descriptivos y sean fáciles de comprender. Estos son los nombres que los usuarios verán al buscar y agregar sistemas de salas de Microsoft Teams a reuniones. Algunas organizaciones usan el nombre del salón de *sitio* - de la Convención (*capacidad máxima* de la sala)-RS, por lo que, por ejemplo Curie, un salón de conferencia de 12 personas en Londres, puede tener el nombre para mostrar Lon-Curie (12)-RS. 
 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Convención de nomenclatura para sus cuentas de salas de Microsoft Teams.</li><li>Decida si va a crear cuentas individuales o usar scripts de aprovisionamiento masivo.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Comience a planificar la implementación del dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar la implementación del dispositivo.</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>Instalación del software del dispositivo 
@@ -149,7 +149,7 @@ Otra consideración es si las salas de Microsoft Teams se unen al dominio. Puede
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Convención de nomenclatura de dispositivos de Microsoft Team Rooms que se utilizará durante la implementación.</li><li>Decida si unirá los dispositivos de salas de Microsoft Teams a su dominio y cómo administrar y configurar cuentas locales. </li><li>Decida si va a usar Operations Management Suite para supervisar la implementación de salas de Microsoft Teams.</li><li>Decida qué método usará para implementar el software y los agentes en el sistema de salas de Microsoft Teams en preparación para la implementación del dispositivo. </li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Comience a planificar el método de implementación de dispositivos.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar el método de implementación de dispositivos.</li></ul>| 
 
 
 ### <a name="device-deployment"></a>Implementación de dispositivos
@@ -160,7 +160,7 @@ Una vez que haya implementado el software en las unidades de salas de Microsoft 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir quién administrará la implementación sitio a sitio.</li><li> Identifique los recursos que instalarán los dispositivos de salas de Microsoft Teams en el sitio y lleven a cabo la configuración y las pruebas.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Inicie las pruebas del dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Inicie las pruebas del dispositivo.</li></ul>| 
 
 _Tabla de implementación de ejemplo_
 
@@ -182,7 +182,7 @@ Puede usar [PowerShell remoto](rooms-operations.md#remote-management-using-power
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si va a configurar manualmente cada sistema de salas de Microsoft Teams o usar un archivo XML central (uno por dispositivo de salas de Microsoft Teams).</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Defina su enfoque de administración remota.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Defina su enfoque de administración remota.</li></ul>| 
 
 ### <a name="testing"></a> Pruebas
 

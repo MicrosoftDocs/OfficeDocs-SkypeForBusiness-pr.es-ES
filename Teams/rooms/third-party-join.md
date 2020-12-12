@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: En este artículo se describe cómo configurar la organización y los dispositivos de salas de equipos para admitir la Unión de reuniones de terceros con Cisco WebEx y el zoom.
-ms.openlocfilehash: 708fb7f9d243559a571b2b9016fab1e38aa63114
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 8079b6fc231bf30a654e2513af55a806433eb83f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372219"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662365"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Habilitar los dispositivos de la sala de equipos para unirse a reuniones de terceros
 
@@ -55,14 +55,14 @@ Obtenga más información sobre [Exchange Online PowerShell](https://docs.micros
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Paso 2: configurar la protección contra amenazas de Office 365 y la reescritura de vínculos
 
-Para habilitar la experiencia de combinación única, la información del vínculo para unirse a la reunión de la reunión de terceros debe estar presente y es legible en la invitación a la reunión. Si su organización usa la característica de [vínculos seguros de la protección contra amenazas avanzada de Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)   , o si usa una solución de terceros que analice todas las direcciones URL entrantes y salientes en busca de amenazas, puede cambiar las direcciones URL de la combinación de reuniones para que el dispositivo de las salas de equipos no reconozca la reunión. Para asegurarse de que esto no suceda, debe agregar las direcciones URL del servicio de reunión de terceros a la lista de vínculos seguros de ATP "no rescribir" o a la lista de excepciones de reescritura de direcciones URL de terceros.
+Para habilitar la experiencia de combinación única, la información del vínculo para unirse a la reunión de la reunión de terceros debe estar presente y es legible en la invitación a la reunión. Si su organización usa la característica de [vínculos seguros de la protección contra amenazas avanzada de Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) , o si usa una solución de terceros que analice todas las direcciones URL entrantes y salientes en busca de amenazas, puede cambiar las direcciones URL de la combinación de reuniones para que el dispositivo de las salas de equipos no reconozca la reunión. Para asegurarse de que esto no suceda, debe agregar las direcciones URL del servicio de reunión de terceros a la lista de vínculos seguros de ATP "no rescribir" o a la lista de excepciones de reescritura de direcciones URL de terceros.
 
 Para agregar direcciones URL de los servicios de reuniones de terceros a la lista de vínculos seguros de ATP "do not Write", siga los pasos que se indican en [configurar una lista de direcciones URL de hacer y desescritura personalizada con vínculos seguros de ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide). Si usa una solución de terceros, consulte las instrucciones de esa solución para agregar direcciones URL a la lista de excepciones de reescritura de URL.
 
 Estas son algunas entradas de ejemplo que es posible que tenga que agregar a la lista de vínculos seguros de ATP "do not Write" o a la lista de excepciones de reescritura de direcciones URL de terceros:
 
 - **Cisco WebEx**`*.webex.com*`
-- **Zoom** `*zoom.us*` , `*zoom.com*``*zoomgov.com*`
+- **Zoom** `*.zoom.us*` , `*.zoom.com*``*.zoomgov.com*`
 
 Para obtener una lista completa de las direcciones URL que se agregarán a la lista de vínculos seguros de ATP "do not Write" o a la lista de excepciones de reescritura de direcciones URL de terceros, póngase en contacto con el proveedor de servicios de reuniones de terceros en el que desea aceptar las invitaciones a reuniones. 
 
@@ -77,24 +77,24 @@ El último paso que debe realizar es permitir que cada dispositivo de salas de e
 
 Para configurar el dispositivo de salas de equipos con su pantalla táctil, haga lo siguiente:
 
-1. En el dispositivo de salas de Microsoft Teams, seleccione **más...**
-2. Seleccione **configuración**y, a continuación, escriba el nombre de usuario y la contraseña del administrador del dispositivo
-3. Vaya a la ficha **reuniones**   y seleccione **Cisco WebEx**, **zoom**<sup>1</sup>o ambos
+1. En el dispositivo de salas de Microsoft Teams, seleccione **más...**
+2. Seleccione **configuración** y, a continuación, escriba el nombre de usuario y la contraseña del administrador del dispositivo
+3. Vaya a la ficha **reuniones** y seleccione **Cisco WebEx**, **zoom**<sup>1</sup>o ambos
 4. Si desea unirse a las reuniones con el nombre de usuario y la dirección de correo electrónico asociados con el buzón de sala, seleccione **unirse con la información de la sala**
 5. Si desea unirse a las reuniones con un nombre de usuario y una dirección de correo electrónico alternativos, seleccione **unirse con la información personalizada** y escriba el nombre de usuario y la dirección de correo electrónico que desea usar.
-6. Seleccione **Guardar y salir**. El dispositivo se reiniciará.
+6. Seleccione **Guardar y salir**. El dispositivo se reiniciará.
 
 ### <a name="use-the-skypesettingsxml-configuration-file"></a>Usar el archivo de configuración SkypeSettings.xml
 
 La siguiente configuración se puede Agregar al archivo que se `SkypeSettings.xml` encuentra en `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Para obtener más información sobre el `SkypeSettings.xml` archivo, consulte [administrar de forma remota la configuración de una consola de salas de Microsoft Teams con un archivo de configuración XML](xml-config-file.md).
 
-Para habilitar las reuniones de Cisco WebEx, establezca el `WebExMeetingsEnabled` elemento XML en **true**, como se indica a continuación.
+Para habilitar las reuniones de Cisco WebEx, establezca el `WebExMeetingsEnabled` elemento XML en **true**, como se indica a continuación.
 
 ```xml
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-Para habilitar las reuniones de zoom<sup>1</sup> , establezca el `ZoomMeetingsEnabled` elemento XML en **true**, como se indica a continuación.
+Para habilitar las reuniones de zoom <sup>1</sup> , establezca el `ZoomMeetingsEnabled` elemento XML en **true**, como se indica a continuación.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>

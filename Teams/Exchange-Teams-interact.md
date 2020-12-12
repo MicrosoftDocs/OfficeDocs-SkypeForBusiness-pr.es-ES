@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae03611a684f7f596c185873585c844e30d4330b
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650883"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661905"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -124,6 +124,8 @@ A continuación se muestran algunas cosas que debe tener en cuenta al implementa
 - Si su organización tiene requisitos de cumplimiento para garantizar que todas las discusiones de reuniones se descubran, debe deshabilitar las reuniones privadas si el organizador tiene un buzón local de Exchange. Para obtener más información, consulte [permitir la programación de reuniones privadas](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 
 - En una implementación híbrida de Exchange, el contenido de los mensajes instantáneos se pueden buscar independientemente de si los participantes del chat tienen un buzón basado en la nube o un buzón local. Para obtener más información, lea [búsqueda de buzones de correo basados en la nube para usuarios locales](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre la búsqueda de contenido en Teams, lea [búsqueda de contenido en el centro de cumplimiento de Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+
+- Para el estado de presencia, Microsoft Teams debe comprobar si el buzón está hospedado en Exchange online o en local. A continuación, el servicio decide dónde tener acceso al buzón de correo. Para habilitar el servicio de Teams para que Compruebe la ubicación de los buzones a través de la llamada de la API de REST al servicio de Exchange Online, debe implementar un entorno híbrido de Exchange ejecutando el Asistente para la configuración híbrida de Exchange, como se describe en [crear una implementación híbrida con el Asistente para la configuración](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid)híbrida.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
