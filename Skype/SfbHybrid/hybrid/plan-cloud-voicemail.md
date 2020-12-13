@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: En este artículo se describen las ventajas, las consideraciones de planeación y los requisitos para implementar el servicio de correo de voz en la nube de Microsoft. Para obtener información sobre cómo configurar el correo de voz de nube, consulte Configurar el correo de voz de nube.
-ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 8a75c670448cf69cf6d9d772c670c9451fd94f80
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359136"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662095"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planear el servicio de correo de voz en la nube para usuarios locales
 
@@ -93,10 +93,10 @@ Si tiene previsto implementar Skype empresarial Server 2019 o Exchange Server 20
 
 La interoperabilidad de versiones y las topologías admitidas para el correo de voz de la nube se enumeran en la siguiente tabla, que compara las versiones de Skype empresarial Server en las que el usuario puede estar alojado, con la versión posible que proporciona el buzón de Exchange. Debe usar el correo de voz de nube si desea usar Skype empresarial 2019 con Exchange online o Exchange Server 2019.
 
-| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
+| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange en línea   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype Empresarial Server 2019 | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | Correo de voz en la nube | Correo de voz en la nube |
-| Skype Empresarial Server 2015 | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | Correo de voz en la nube | Correo de voz en la nube |
+| Skype Empresarial Server 2015 | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | No admitido | Correo de voz en la nube |
 | Lync Server 2013 <br>  | Mensajería unificada de Exchange Server | Mensajería unificada de Exchange Server | No compatible | Correo de voz en la nube |
 
 Microsoft recomienda las siguientes rutas de migración:
