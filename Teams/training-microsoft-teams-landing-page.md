@@ -1,5 +1,5 @@
 ---
-title: Aprendizaje para administradores de Microsoft Teams
+title: Formación de administradores de Microsoft Teams
 ms.reviewer: ''
 description: Use estos recursos impartidos por los usuarios finales, administradores e instructores y los vídeos tutoriales para sacar el máximo provecho de Microsoft Teams en su organización.
 ms.topic: overview
