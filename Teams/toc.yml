@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: Configurar la aplicación de Reuniones de Skype para trabajar con Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Disponibilidad de la aplicación de aprobaciones de Microsoft Teams
+      href: approval-admin.md
 - name: Reuniones y conferencias
   items:
     - name: 'Inicio rápido: reuniones y eventos en vivo'
@@ -252,7 +254,7 @@
               href: rooms/rooms-release-note.md
             - name: Preparar el entorno
               href: rooms/rooms-prep.md
-            - name: Requisitos
+            - name: Requirements
               href: rooms/requirements.md
             - name: Licencias en línea
               href: rooms/rooms-licensing.md
@@ -1231,7 +1233,7 @@
           href: information-barriers-in-teams.md
         - name: Directivas de retención
           href: retention-policies.md
-        - name: Cumplimiento de las comunicaciones
+        - name: Cumplimiento de comunicaciones
           href: communication-compliance.md
         - name: Grabación basada en directivas para llamadas & reuniones
           href: teams-recording-policy.md
