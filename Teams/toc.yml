@@ -244,7 +244,7 @@
       items:
         - name: Información general
           href: rooms/index.md
-        - name: Planear
+        - name: Plan
           items:
             - name: Información general sobre la planeación de salas de Microsoft Teams
               href: rooms/rooms-plan.md
@@ -254,7 +254,7 @@
               href: rooms/rooms-release-note.md
             - name: Preparar el entorno
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: Requisitos
               href: rooms/requirements.md
             - name: Licencias en línea
               href: rooms/rooms-licensing.md
@@ -935,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: Entender la coexistencia e interoperabilidad
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: Comprender las opciones de conectividad RTC y del sistema telefónico
-              href: cloud-voice-landing-page.md
+            - name: Consideraciones PSTN
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Elegir su recorrido de actualización
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: Planear una prueba piloto de usuario
@@ -991,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Coexistencia de Teams y Skype Empresarial
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: Consideraciones PSTN
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: 'Modos de coexistencia: referencia'
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia
