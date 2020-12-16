@@ -83,7 +83,7 @@ Cada equipo es diferente; no existe un enfoque universal para la colaboración. 
 
 Cuando decida qué aplicaciones y servicios de Microsoft 365 u Office 365 va a usar, piense en el trabajo que realiza su organización y los tipos de conversaciones que deben tener los equipos. 
 
-- **Teams** , en cuanto al hub de trabajo en equipo, es donde los usuarios, incluidas las personas fuera de su organización, pueden conectarse y colaborar activamente en tiempo real para ser más productivos. Tenga una conversación directamente en el lugar donde se realiza el trabajo, ya sea colaborando en la creación de un documento, con una reunión o trabajando juntos en otras aplicaciones y servicios. Teams es el lugar en el que se pueden tener chats informales, realizar iteraciones rápidas en un proyecto, trabajar con los archivos del equipo y colaborar en entregas compartidas. 
+- **Teams**, en cuanto al hub de trabajo en equipo, es donde los usuarios, incluidas las personas fuera de su organización, pueden conectarse y colaborar activamente en tiempo real para ser más productivos. Tenga una conversación directamente en el lugar donde se realiza el trabajo, ya sea colaborando en la creación de un documento, con una reunión o trabajando juntos en otras aplicaciones y servicios. Teams es el lugar en el que se pueden tener chats informales, realizar iteraciones rápidas en un proyecto, trabajar con los archivos del equipo y colaborar en entregas compartidas. 
 
 - **Outlook** sirve para colaborar en el entorno familiar del correo electrónico y de un modo más formal y estructurado, o cuando se requieren comunicaciones directas y con un destino claro.
 

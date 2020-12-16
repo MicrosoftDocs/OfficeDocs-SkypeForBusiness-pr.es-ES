@@ -28,7 +28,7 @@ ms.locfileid: "49031816"
 <a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Llamadas y chats con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
 
-Cuando necesite comunicarse y colaborar con personas de fuera de su organización, Microsoft Teams le ofrece dos formas diferentes de hacer que esto ocurra. La primera, **acceso externo (federación)** , le permite buscar, llamar y conversar con usuarios de otros dominios (por ejemplo, contoso.com). La segunda, **acceso de invitado** , le permite agregar personas a los equipos, como invitados, mediante su dirección de correo electrónico. Puede colaborar con los invitados igual que lo haría con cualquier otro usuario de su organización.
+Cuando necesite comunicarse y colaborar con personas de fuera de su organización, Microsoft Teams le ofrece dos formas diferentes de hacer que esto ocurra. La primera, **acceso externo (federación)**, le permite buscar, llamar y conversar con usuarios de otros dominios (por ejemplo, contoso.com). La segunda, **acceso de invitado**, le permite agregar personas a los equipos, como invitados, mediante su dirección de correo electrónico. Puede colaborar con los invitados igual que lo haría con cualquier otro usuario de su organización.
 
 Puede usar tanto el acceso externo como el acceso de invitado si lo desea; uno no excluye al otro.
 
@@ -88,7 +88,7 @@ Si está listo para habilitar el acceso de los invitados en su organización, co
 <sup>1</sup> Si el usuario se ha agregado como invitado y ha iniciado sesión como invitado en el espacio empresarial del invitado.<br>
 <sup>2</sup> Solo mediante la dirección de correo o el Protocolo de inicio de sesión (SIP)<br>
 <sup>3</sup> El chat externo (federado) solo es 1:1.<br>
-<sup>4</sup> Compatible con chat 1:1 entre dos usuarios de Solo Teams de dos organizaciones diferentes. <br>
+<sup>4</sup> Compatible con chat 1:1 entre dos usuarios de Teams solo de dos organizaciones diferentes. <br>
 <sup>5</sup> De forma predeterminada, los participantes externos no pueden ver el número de teléfono de los participantes de marcado. Si desea mantener la privacidad de estos números de teléfono, seleccione **Tonos** para **Entrada/salida tipo de anuncio** (esto evita que Teams lean los números). Para obtener más información, consulte [Activar o desactivar los anuncios de entrada y salida para las reuniones de Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
 
 ## <a name="related-topics"></a>Temas relacionados

@@ -70,7 +70,7 @@ Teams ofrece un conjunto de roles de administrador personalizados que pueden usa
 |¿A quién se asignará el rol de Especialista de soporte en comunicaciones de Teams?||
 |||
 
-### <a name="teams-owners-and-members"></a>Propietarios y miembros de Teams
+### <a name="teams-owners-and-members"></a>Miembros y propietarios de equipos
 
 Además de los roles de administrador, Teams le permite asignar a los propietarios roles de propietarios y miembros, además de seleccionar las capacidades que le quiere ofrecer al moderador (si se ha configurado la moderación) para controlar quién puede realizar determinadas acciones dentro de un canal. La moderación le permite controlar quién puede iniciar nuevas publicaciones en un canal, agregar y quitar miembros del equipo como moderadores y controlar si los miembros del equipo pueden responder a los mensajes que haya en el canal.
 
@@ -251,7 +251,7 @@ El uso de Office 365 para la Administración Pública de Estados Unidos - GCC (G
 |||
 
 ## <a name="next-steps"></a>Siguientes pasos
-- [Fomentar el uso](adopt-microsoft-teams-landing-page.md) del chat, los equipos, los canales y las aplicaciones.
+- [Impulsar la adopción](adopt-microsoft-teams-landing-page.md) de chat, equipos, canales y aplicaciones.
 - Incluya aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que fomenta el uso de Teams.
 - [Implementar reuniones y conferencias](deploy-meetings-microsoft-teams-landing-page.md)
 - [Implementar voz en la nube](cloud-voice-landing-page.md)

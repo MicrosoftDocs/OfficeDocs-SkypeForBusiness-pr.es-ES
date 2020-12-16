@@ -1,5 +1,5 @@
 ---
-title: 'Inicio rápido de administrador: Reuniones y eventos en directo en Microsoft Teams'
+title: 'Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams'
 ms.reviewer: ''
 description: Una guía de inicio rápido para que los administradores obtengan las respectivas licencias, implementen y configuren reuniones en línea y eventos en directo en Microsoft Teams.
 ms.topic: article
@@ -26,7 +26,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 11/18/2020
 ms.locfileid: "49130631"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administrador: Reuniones y eventos en directo en Microsoft Teams
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams
 
 Hay dos maneras de reunirse con Microsoft Teams: reuniones y eventos en directo. Este artículo le ayudará a implementarlo más rápidamente y a configurar las reuniones y los eventos en directo de tu organización.
 

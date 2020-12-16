@@ -41,9 +41,9 @@ Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha impl
 Para obtener más información sobre la experiencia de reuniones para los usuarios, consulte [Reuniones y llamadas](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
 
-*Nuevo en abril de 2020* : los organizadores de reuniones pueden finalizar una reunión para todos los participantes de la reunión en Teams al hacer clic en **Finalizar reunión** en los controles de reunión dentro de la reunión.  
+*Nuevo en abril de 2020*: los organizadores de reuniones pueden finalizar una reunión para todos los participantes de la reunión en Teams al hacer clic en **Finalizar reunión** en los controles de reunión dentro de la reunión.  
 
-*Nuevo en noviembre de 2019* : ahora puede [usar el Asesor de Teams (versión preliminar) para que le ayude a implementar Microsoft Teams](use-advisor-teams-roll-out.md). El Asesor de Teams (vista previa) le guiará en la implementación de Teams, incluidas las reuniones y las conferencias. Evalúa el entorno de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente las reuniones y conferencias en Teams.
+*Nuevo en noviembre de 2019*: ahora puede [usar el Asesor de Teams (versión preliminar) para que le ayude a implementar Microsoft Teams](use-advisor-teams-roll-out.md). El Asesor de Teams (vista previa) le guiará en la implementación de Teams, incluidas las reuniones y las conferencias. Evalúa el entorno de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente las reuniones y conferencias en Teams.
 
  > [!Note]
 > Para obtener más información sobre las reuniones y conferencias de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -60,7 +60,7 @@ Teams proporciona una experiencia excelente para su organización y la configura
 
 Antes de continuar con la implementación de reuniones en toda la organización, tómese un tiempo para revisar y confirmar que el entorno está listo para proporcionar la mejor experiencia posible a los usuarios. Revise la información siguiente y realice los cambios necesarios en su entorno.
 
-Para obtener la mejor experiencia en Teams, su organización debe haber implementado Exchange Online y SharePoint Online, y debe tener un dominio verificado para O365 (por ejemplo, *contoso.com* ).
+Para obtener la mejor experiencia en Teams, su organización debe haber implementado Exchange Online y SharePoint Online, y debe tener un dominio verificado para O365 (por ejemplo, *contoso.com*).
 
 Para implementar las reuniones en toda la organización, asegúrese de que todas las ubicaciones tienen acceso a internet para conectarse a los servicios de Office 365. Como mínimo, debería asegurarse de que los siguientes puertos comunes están abiertos a Internet en todas las ubicaciones de usuarios:
 
@@ -151,7 +151,7 @@ El planeamiento de ancho de banda permite a las organizaciones estimar el ancho 
 Los usuarios pueden grabar sus reuniones y llamadas de grupo para capturar el vídeo, el audio y la actividad de pantalla compartida. También hay una opción para que las grabaciones tengan una transcripción automática, para que los usuarios puedan reproducir grabaciones de reunión con subtítulos y buscar elementos de discusión importantes en la transcripción. La grabación se produce en la nube y se guarda en Microsoft Stream, para que los usuarios puedan compartirla de forma segura en su organización. Para buscar la grabación de una reunión, vaya a la conversación de la reunión.
 
 >[!Note]
-> El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento, podrá participar en esta experiencia; en noviembre tendrá que dejar de participar si quiere seguir usando Stream y, en algún momento a principios de 2021, requeriremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para nuevas grabaciones de reuniones.
+> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, en noviembre tendrá que cancelar la suscripción si desea continuar usando Stream y por un tiempo, a principios de 2021, requeriremos que todos los clientes usen OneDrive para la Empresa y SharePoint para grabar nuevas reuniones.
 
 Para obtener más información, consulte [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 

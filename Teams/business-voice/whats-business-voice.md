@@ -1,5 +1,5 @@
 ---
-title: ¿Qué es Microsoft 365 Business Voice?
+title: ¿Qué es Microsoft 365 Empresa Voice?
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -26,7 +26,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49030786"
 ---
-# <a name="what-is-microsoft-365-business-voice"></a>¿Qué es Microsoft 365 Business Voice?
+# <a name="what-is-microsoft-365-business-voice"></a>¿Qué es Microsoft 365 Empresa Voice?
 
 Microsoft 365 Business Voice facilita a las empresas pequeñas y medianas convertir Microsoft Teams en un sistema de telefonía potente y flexible. Sustituye al proveedor de telefonía tradicional y al sistema de teléfono interno que pueden resultar difíciles y costosos de administrar. Usted puede configurar tanto el número de pago como el gratuito, el menú de llamadas para ayudar a quien llame a encontrar el departamento correcto, la audioconferencia para que pueda reunirse con quien necesite, y mucho más. Incluso puede darle a la gente su propio número de teléfono para que puedan llamar directamente.
 
@@ -57,7 +57,7 @@ Business Voice está disponible en más de 70 países y regiones, en los que pue
 >
 > Microsoft Teams y Business Voice solo funcionan si los buzones de los usuarios se encuentran en Microsoft 365.  No admiten buzones ubicados en Exchange Server de entornos locales.
 
-Al comprar Business Voice, obtendrá las siguientes características, entre muchas otras:
+Al comprar Business Voice, obtendrá las siguientes características, entre otras:
 
 <table>
     <tr>
