@@ -20,7 +20,7 @@ search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
 ms.openlocfilehash: 9cec7abc4af736a72b83bc978709dacf4e7c18e8
 ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/08/2020
 ms.locfileid: "49601694"
@@ -44,39 +44,39 @@ Cuando se crea un canal privado, está vinculado al equipo principal y no se pue
 
 ## <a name="private-channel-creation"></a>Creación de canales privados
 
-De forma predeterminada, los miembros del equipo o el propietario del equipo pueden crear un canal privado. Los invitados no pueden crear canales privados. La capacidad de crear canales privados se puede administrar en el nivel del equipo y en el nivel de la organización. Use [directivas](teams-policies.md) para controlar los usuarios de su organización que pueden crear canales privados. Una vez que haya establecido las directivas, los propietarios del equipo pueden desactivar o activar la posibilidad de que los miembros creen canales privados en la pestaña **configuración** de un equipo.
+De forma predeterminada, los miembros del equipo o el propietario del equipo pueden crear un canal privado. Los invitados no pueden crear canales privados. La posibilidad de crear canales privados se puede administrar a nivel de equipo y de organización. Utilice las [directivas](teams-policies.md) para controlar qué usuarios de su organización pueden crear canales privados. Una vez que haya establecido las directivas, los propietarios del equipo podrán activar o desactivar la opción de que los miembros puedan crear canales privados en la pestaña **Configuración** para un equipo.
 
 La persona que crea un canal privado es el propietario del canal privado y solo el propietario del canal privado puede agregar o quitar personas directamente. El propietario de un canal privado puede agregar cualquier miembro del equipo a un canal privado que haya creado, incluyendo invitados. Los miembros de un canal privado tienen un espacio de conversación seguro, y cuando se agregan nuevos miembros, pueden ver todas las conversaciones (incluso las conversaciones antiguas) en ese canal privado.
 
 Los propietarios del equipo pueden ver los nombres de todos los canales privados de su equipo y también pueden quitar cualquier canal privado del equipo. (Los canales privados eliminados se pueden restaurar en un plazo de 30 días después de su eliminación). Los propietarios del equipo no pueden ver los archivos en un canal privado o en las conversaciones y la lista de miembros de un canal privado, a menos que sean miembros de ese canal privado.
 
-Los miembros del equipo solo pueden ver los canales privados a los que se hayan agregado.
+Los miembros del equipo solo pueden ver los canales privados en los que han sido agregados.
 
 ## <a name="adding-and-removing-owners-and-members"></a>Agregar y quitar propietarios y miembros
 
 El propietario de un canal privado no se puede eliminar a través del cliente Teams si es el último propietario de uno o más canales privados.
 
-Si un propietario de un canal privado abandona su organización o se ha quitado del grupo de Microsoft 365 asociado al equipo, un miembro del canal privado se promueve automáticamente al propietario del canal privado.
+Si el propietario de un canal privado deja la organización o se quita del grupo de Microsoft 365 asociado al equipo, se promueve automáticamente un miembro del canal privado para que sea el propietario del canal privado.
 
 Si un miembro del equipo lo abandona o es quitado de un equipo, también abandonará o se quitará de todos los canales privados del equipo. Si el usuario se vuelve a agregar al equipo, tiene que volver a agregarse a los canales privados del equipo.
 
 ## <a name="channel-owner-settings"></a>Configuración del propietario del canal
 
-Cada canal privado tiene su propia configuración que puede administrar el propietario del canal, incluida la capacidad de agregar y quitar miembros, agregar pestañas y @mentioning para todo el canal. Estas opciones son independientes de la configuración del equipo principal. Cuando se crea un canal privado, hereda la configuración del equipo principal, tras lo cual se pueden cambiar las configuraciones independientemente de la configuración del equipo principal.
+Cada canal privado dispone de su propia configuración que el propietario del canal puede administrar, como la posibilidad de agregar y quitar miembros, agregar pestañas y @mentioning para todo el canal. Estas opciones son independientes de la configuración del equipo principal. Cuando se crea un canal privado, hereda la configuración del equipo principal, tras lo cual se pueden cambiar las configuraciones independientemente de la configuración del equipo principal.
 
 El propietario del canal privado puede hacer clic en **Administrar canal** y, después, usar las pestañas **Miembros** y **Configuración** para agregar o quitar miembros y editar la configuración.
 
 ![Captura de pantalla de la configuración de canal privado](media/private-channels-in-teams-channel-settings.png)
 
-## <a name="private-channel-owner-and-member-actions"></a>Acciones para miembros y propietarios de canales privados
+## <a name="private-channel-owner-and-member-actions"></a>Acciones de los miembros y propietarios de canales privados
 
 En la siguiente tabla se describen las acciones que los propietarios, miembros e invitados pueden hacer en canales privados.
 
 |Acción  |Propietario del equipo|Integrante de grupo|Invitado de equipo|Propietario del canal privado|Miembro de canal privado|Invitado de canal privado|
 |---------|---------|---------|---------|---------|---------|---------|
-|Crear un canal privado|Controlada por el administrador|Administrador y propietario del equipo controlado|No|N/D|N/D|N/D|
+|Crear un canal privado|Controlado por el administrador|Controlado por el administrador y el propietario del equipo|No|N/D|N/D|N/D|
 |Quitar canal privado|Sí|No|No|Sí|No|No|
-|Abandonar canal privado|N/D|N/D|N/D|Sí, a menos que sean el último propietario|Sí|Sí|
+|Abandonar canal privado|N/D|N/D|N/D|Sí, a menos que sea el último usuario propietario|Sí|Sí|
 |Editar canal privado|No|N/D|N/D|Sí|No|No|
 |Restaurar el canal privado eliminado|Sí|No|No|Sí|No|No|
 |Agregar miembros|No|N/D|N/D|Sí|No|No|
@@ -85,17 +85,17 @@ En la siguiente tabla se describen las acciones que los propietarios, miembros e
 
 ## <a name="manage-the-lifecycle-of-private-channels"></a>Administrar el ciclo de vida de los canales privados
 
-Consulte [administrar el ciclo de vida de los canales privados en Teams](private-channels-life-cycle-management.md) para obtener instrucciones sobre cómo administrar el ciclo de vida de los canales privados de su organización. Esto incluye cómo controlar si los usuarios de su organización pueden crear canales privados, cómo crear un canal privado en nombre de un propietario del equipo, cómo obtener una lista de todos los mensajes de canales privados para propósitos de archivado y auditoría, y otras tareas de administración.  
+Consulte [Administrar el ciclo de vida de canales privados en Teams](private-channels-life-cycle-management.md) para obtener instrucciones sobre cómo administrar el ciclo de vida de los canales privados de su organización. Esto incluye cómo controlar si los usuarios de su organización pueden crear canales privados, cómo crear un canal privado en nombre de un propietario del equipo, cómo obtener una lista de todos los mensajes de canales privados para propósitos de archivado y auditoría, y otras tareas de administración.  
 
 ## <a name="private-channel-sharepoint-sites"></a>Sitios de SharePoint de canal privado
 
-Cada canal privado tiene su propio sitio de SharePoint. El sitio independiente es asegurarse de que el acceso a los archivos de canal privado está restringido solo a miembros del canal privado. Estos sitios se crean con una biblioteca de documentos de forma predeterminada y se pueden mejorar fácilmente en un sitio completo mediante la [interfaz de administración de sitios](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada sitio se crea en la misma región geográfica que el sitio para el equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph.
+Cada canal privado tiene su propio sitio de SharePoint. La finalidad del sitio independiente es garantizar que el acceso a los archivos de canales privados esté restringido exclusivamente a los miembros del canal privado. Estos sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a un sitio con todas las funciones mediante la [interfaz de administración de sitios](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada sitio se crea en la misma región geográfica que el sitio para el equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph.
 
-Un sitio de canal privado sincroniza la clasificación de datos y hereda los permisos de acceso de invitado del sitio del equipo principal. La pertenencia al propietario del sitio y a los grupos de miembros se mantiene sincronizada con la pertenencia al canal privado de Teams. Cualquier cambio en la pertenencia al propietario o los grupos de miembros de SharePoint se revertirá a la pertenencia a un canal privado en un plazo de cuatro horas. En escenarios donde ciertos usuarios necesitan acceder a documentos sin necesidad de acceder a mensajes de canales privados, agréguelos al grupo visitantes del sitio o a un grupo nuevo que sea independiente de los propietarios y miembros.
+Un sitio de canal privado sincroniza la clasificación de datos y hereda los permisos de acceso de invitado del sitio del equipo principal. La pertenencia del propietario del sitio y los grupos de miembros se mantienen sincronizados con la membresía del canal privado dentro de Teams. Todos los cambios que se realicen en la pertenencia a propietario o grupos de miembros en SharePoint se revertirán automáticamente en un plazo de cuatro horas. En escenarios donde ciertos usuarios necesitan acceder a documentos sin necesidad de acceder a mensajes de canales privados, agréguelos al grupo visitantes del sitio o a un grupo nuevo que sea independiente de los propietarios y miembros.
 
-Teams administra el ciclo de vida del sitio del canal privado. Si el sitio se elimina fuera de Teams, un trabajo en segundo plano restaura el sitio dentro de un plazo de cuatro horas, siempre y cuando el canal privado aún esté activo. Si el sitio se elimina permanentemente, se aprovisiona un sitio nuevo para el canal privado.
+Teams administra el ciclo de vida del sitio del canal privado. Si el sitio se elimina fuera de Teams, un trabajo en segundo plano restaura el sitio en un plazo de cuatro horas siempre y cuando el canal privado aún esté activo. Si se elimina el sitio permanentemente, se aprovisionará un nuevo sitio para el canal privado.
 
-Si se restaura un canal privado o un equipo que contiene un canal privado, los sitios se restauran con él. Si se restaura un sitio de canal privado y esta fuera de la ventana de eliminación de software de 30 días para el canal privado, el sitio funciona como un sitio independiente.
+Si se restaura un canal privado o un equipo que contiene un canal privado, los sitios se restaurarán con él. Si se restaura un sitio de canal privado y se encuentra fuera de la ventana de eliminación temporal de 30 días para el canal privado, el sitio funcionará como un sitio independiente.
 
 ## <a name="private-channel-message-compliance-records"></a>Registros de cumplimiento de mensajes de canal privado
 
@@ -109,15 +109,15 @@ Cuando se crea un nuevo Bloc de notas de OneNote en un canal privado, los usuari
 
 Si se concede acceso a un usuario a un bloc de notas en un canal privado a través de SharePoint, al quitarlo del equipo o el canal privado, no se eliminará el acceso del usuario al bloc de notas.
 
-Si se agrega un bloc de notas existente como una pestaña a un canal privado, no se cambiará el acceso al canal privado y el Bloc de notas conservará los permisos existentes.
+Si se agrega un bloc de notas existente como una pestaña a un canal privado, no se cambiará el acceso al canal privado y el bloc de notas conservará los permisos existentes.
 
-## <a name="private-channel-limitations"></a>Limitaciones del canal privado
+## <a name="private-channel-limitations"></a>Limitaciones de los canales privados
 
 Actualmente, los canales privados son compatibles con conectores y pestañas (excepto Stream, Planner y Forms). Estamos trabajando para brindarle soporte completo de aplicaciones para canales privados, incluidas extensiones de mensajería y bots.
 
 Cada equipo puede tener un máximo de 30 canales privados y cada canal privado puede tener un máximo de 250 miembros. El límite de 30 canales privados es adicional al límite de 200 canales estándar por equipo. 
 
-Al crear un equipo a partir de un equipo existente, los canales privados del equipo existente no se copiarán.
+Cuando se crea un equipo a partir de un equipo existente, los canales privados del equipo existente no se copiarán al nuevo equipo.
 
 ## <a name="related-topics"></a>Temas relacionados
 
