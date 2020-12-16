@@ -1,14 +1,13 @@
 ---
-title: Actualizar a teams desde una implementación local de Skype empresarial-Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Consideraciones sobre RTC al actualizar a teams desde una implementación local de Skype empresarial
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Actualización de las consideraciones de voz de Skype empresarial a teams
+description: Consideraciones de voz para actualizar de Skype empresarial a teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,23 +17,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 8a9783f5d60e5a595d548bbfc83ee013500934ed
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772221"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686436"
 ---
-# <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Consideraciones sobre RTC al actualizar a teams &mdash; para administradores de ti
+# <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Consideraciones sobre RTC para actualizar a teams desde Skype empresarial local
 
-En este artículo se describen consideraciones de la red telefónica conmutada (RTC) al actualizar a teams. Este artículo es el sexto de varios que describen los conceptos de actualización y la implementación para administradores de ti.  
+En este artículo se describen consideraciones de la red telefónica conmutada (RTC) al actualizar a teams.   
 
-- [Información general](upgrade-to-teams-on-prem-overview.md)
-- [Métodos de actualización](upgrade-to-teams-on-prem-upgrade-methods.md)
-- [Herramientas para administrar la actualización](upgrade-to-teams-on-prem-tools.md)
-- [Consideraciones adicionales para las organizaciones con Skype empresarial local](upgrade-to-teams-on-prem-considerations.md)
-- [Implementar la actualización](upgrade-to-teams-on-prem-implement.md)
-- **Consideraciones sobre la red telefónica pública conmutada (RTC)** (este artículo)
 
 Además, los artículos siguientes describen los conceptos de actualización importantes y los comportamientos de coexistencia:
 
@@ -46,6 +39,7 @@ Además, los artículos siguientes describen los conceptos de actualización imp
  > [!NOTE]
  > - El uso del sistema telefónico con Teams solo se admite cuando el usuario está en modo TeamsOnly.  Si el usuario está en modo islas, el sistema telefónico solo es compatible con Skype empresarial. 
  > - Cualquier desvío de llamadas, grupo de llamada de equipo y configuración de delegación de Skype empresarial no se migrará y tendrá que volver a crearlo para Teams.
+ > - Para obtener información general sobre las características de voz en la nube de Microsoft Teams y ayuda para decidir qué solución de voz de Microsoft es adecuada para su organización, vea [planear la solución de voz de Teams](cloud-voice-landing-page.md).
 
 
 ## <a name="pstn-calling-scenarios"></a>Escenarios de llamadas RTC
@@ -168,6 +162,8 @@ Si usa enrutamiento directo o un plan de llamadas de Microsoft, un usuario debe 
   ```
 
 ## <a name="related-links"></a>Vínculos relacionados
+
+[Planear la solución de voz de Teams](cloud-voice-landing-page.md)
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md) 
 

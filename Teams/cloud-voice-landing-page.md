@@ -1,5 +1,5 @@
 ---
-title: Voz en Microsoft Teams
+title: Planear la solución de voz en Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,16 +23,19 @@ search.appverid: MET150
 description: Obtenga más información sobre las características de voz en la nube de Microsoft Teams y las decisiones de implementación que realizará para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 213950b808d781e8566e1ffae6f6075bb7b3371b
+ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611732"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49686456"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear la solución de voz de Teams 
 
-Este artículo le ayudará a decidir qué solución de voz de Microsoft es la adecuada para su organización. Una vez que haya decidido, el artículo le proporciona una guía básica para el contenido que le permitirá implementar la solución elegida. 
+Este artículo le ayudará a decidir qué solución de voz de Microsoft es la adecuada para su organización. Una vez que haya decidido, el artículo le proporciona una guía básica para el contenido que le permitirá implementar la solución elegida.
+
+> [!NOTE]
+> Para obtener instrucciones sobre cómo planear una solución de voz de Teams como parte de su plan general para actualizar a teams desde Skype empresarial Server, consulte [consideraciones sobre RTC para actualizar a teams desde Skype empresarial local](upgrade-to-Teams-on-prem-pstn-considerations.md).
 
 Es posible que desee el sistema telefónico de la solución más simple &mdash; con plan de llamadas. Esta es la solución todo en la nube de Microsoft que proporciona la funcionalidad de la conmutación de sucursales privadas (PBX) y las llamadas a la red de telefonía pública conmutada (RTC), como se muestra en el siguiente diagrama. Con esta solución, Microsoft es tu operador PSTN.
 
