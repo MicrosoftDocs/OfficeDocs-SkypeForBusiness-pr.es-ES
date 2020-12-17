@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Obtenga información sobre cómo solucionar problemas de instalación y actualización de la aplicación cliente de escritorio de Teams en Windows.
 ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
 ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/28/2020
 ms.locfileid: "47300284"
@@ -49,7 +49,7 @@ Si SquirrelSetup.log no indica la causa o si necesita más información para sol
 
 ### <a name="troubleshoot-update-issues"></a>Solución de problemas de actualización
 
-Cuando Teams se instala correctamente, la ubicación del registro cambia de%LocalAppData%\SquirrelTemp a%LocalAppData%\Microsoft\Teams. En esta ubicación, hay dos archivos de registro interesantes, SquirrelSetup.log y logs.txt.
+Cuando Teams se instala correctamente, la ubicación del registro cambia de %LocalAppData%\SquirrelTemp a %LocalAppData%\Microsoft\Teams. En esta ubicación, hay dos archivos de registro interesantes, SquirrelSetup.log y logs.txt.
 
 - El archivo SquirrelSetup.log en esta ubicación está escrito por Update.exe, que es un archivo ejecutable que se aplica a la aplicación Teams.
 - El archivo Logs.txt se usa en la aplicación Teams (especialmente en Teams.exe) para registrar eventos de aplicación importantes. Es probable que contenga información de error.
