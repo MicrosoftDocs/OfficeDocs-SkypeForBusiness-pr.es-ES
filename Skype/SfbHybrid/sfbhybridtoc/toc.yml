@@ -14,11 +14,11 @@
       items:
         - name: Mover usuarios locales a Microsoft Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: Mover usuarios locales a Skype para empresas Online
+        - name: Mover usuarios locales a Skype Empresarial Online
           href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
-        - name: Mover usuarios de la nube a local
+        - name: Mover usuarios de la nube a una implementación local
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
-        - name: Administrar directivas de migración
+        - name: Administrar reunión de migración
           href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
     - name: Deshabilitar la implementación híbrida para completar la migración a la nube
       href: ../hybrid/cloud-consolidation-disabling-hybrid.md
@@ -29,7 +29,7 @@
       items:
         - name: Actualizar el certificado de límite
           href: ../hybrid/cloud-consolidation-edge-certificates.md
-        - name: Actualización de AAD Connect para incluir más de un bosque
+        - name: Actualizar AAD Connect para incluir más de un bosque
           href: ../hybrid/cloud-consolidation-aad-connect.md
     - name: Integración con Exchange y SharePoint
       href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md
