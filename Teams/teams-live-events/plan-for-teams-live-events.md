@@ -1,7 +1,7 @@
 ---
 title: Plan para eventos en directo en Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
-ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
+ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49372254"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682409"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -105,15 +105,15 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 > [!IMPORTANT]
 > **Aumentamos el límite de eventos en directo de Microsoft 365**
 >
-> **Para dar nuestro apoyo a los clientes, hasta el 1 de enero de 2021, prolongaremos los aumentos temporales del límite de eventos en directo alojados en Teams, Stream y Yammer, incluido**:
+> **Para continuar cubriendo las necesidades de nuestros clientes, hasta el 30 de junio de 2021, extenderemos los aumentos de los límites temporales para los eventos en vivo, incluyendo**:
 >
->- Hasta 20 000 asistentes por evento
->- Hasta 50 eventos simultáneos por espacio empresarial de Teams
->- Hasta 16 horas para cada difusión
+>- Soporte de eventos de hasta 20 000 asistentes
+>- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
+>- Difusión de un evento de 16 horas de duración
 >
-> Además, se pueden planear eventos en directo con hasta 100.000 asistentes a través del programa de asistencia a eventos en directo de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Aprende más](https://aka.ms/Stream/Blog/LiveEventOptions). **Después del 1 de enero de 2021, los clientes que necesiten los aumentos de límite deberán comprar el [complemento de comunicaciones avanzadas](../teams-add-on-licensing/advanced-communications.md).**
+> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para eventos en directo de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
-| Función | Difusión de reunión de Skype | Eventos producidos en Teams | Eventos producidos en las aplicaciones o dispositivos externos |
+| Funcionalidad | Difusión de reunión de Skype | Eventos producidos en Teams | Eventos producidos en las aplicaciones o dispositivos externos |
 |---------|---------|---------|---------|
 |Tamaño máximo de audiencia |10 000 asistentes |10 000 asistentes<sup>1</sup> |10 000 asistentes<sup>1</sup> |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
