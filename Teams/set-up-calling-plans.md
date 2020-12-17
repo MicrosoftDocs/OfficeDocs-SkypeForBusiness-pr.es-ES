@@ -11,6 +11,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365solution-voice
+- m365solution-scenario
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, como ver planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: 775ebf8d1fae6439b9a2e7249eb0238e48b11a4c
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 9e4e48bc2d9efcc0ff4cb1891949de4add6f559d
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788454"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701328"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
@@ -57,12 +59,12 @@ Hay tres maneras de obtener nuevos números de usuario:
 - **Usar un formulario de solicitud para números nuevos.** A veces, en función de su país o región, no podrá obtener números de teléfono nuevos con el centro de administración de Teams o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviárselo de nuevo a nosotros. Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Paso 4: agregar direcciones y ubicaciones de emergencia para su organización
-<a name="bkmk_add_addresses"> </a> Una dirección de emergencia debe estar asociada a un número de teléfono. Cuando esta asociación se produce puede variar entre el país y las regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección de emergencia con el número de teléfono al obtener los números de teléfono de Microsoft 365 u Office 365, o al transferir números de teléfono de su proveedor de servicios actual. 
+<a name="bkmk_add_addresses"></a> Una dirección de emergencia debe estar asociada a un número de teléfono. Cuando esta asociación se produce puede variar entre el país y las regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección de emergencia con el número de teléfono al obtener los números de teléfono de Microsoft 365 u Office 365, o al transferir números de teléfono de su proveedor de servicios actual. 
 
 Para obtener información sobre las llamadas de emergencia y sobre cómo administrar las direcciones de emergencia, consulte [administrar las llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md) y [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md).
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Paso 5: asignar una dirección de emergencia y un número de teléfono a un usuario
-<a name="bkmk_add_addresses"> </a> Al configurar planes de llamadas en Office 365, debe asignar un número de teléfono y una dirección de emergencia a cada uno de los usuarios. Debe crear la dirección de emergencia antes de asociarlo con un número de teléfono.  Para obtener más información, consulte [asignar o cambiar una dirección de emergencia](assign-change-emergency-location-user.md).
+<a name="bkmk_add_addresses"></a> Al configurar planes de llamadas en Office 365, debe asignar un número de teléfono y una dirección de emergencia a cada uno de los usuarios. Debe crear la dirección de emergencia antes de asociarlo con un número de teléfono.  Para obtener más información, consulte [asignar o cambiar una dirección de emergencia](assign-change-emergency-location-user.md).
 
 
 > [!TIP]

@@ -1,5 +1,5 @@
 ---
-title: Instalar Teams con el administrador de configuración de Microsoft Endpoint
+title: Instalar Teams con Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jhreddy
 audience: admin
-description: Use Microsoft Endpoint Configuration Manager para implementar de forma masiva Microsoft Teams para seleccionar usuarios o equipos.
+description: Usar Microsoft Endpoint Configuration Manager para implementar Microsoft Teams en bloque para seleccionar usuarios o equipos.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 61b55a8cd734d4f63db4e3d6e1379c0ed235c038
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49030416"
@@ -28,7 +28,7 @@ ms.locfileid: "49030416"
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> Vea la siguiente sesión para obtener más información sobre las ventajas del cliente de escritorio de Windows, cómo planearlo y cómo implementarlo: [Teams cliente de escritorio de Windows](https://aka.ms/teams-clients).
+> Vea la siguiente sesión para conocer las ventajas del cliente de escritorio para Windows y cómo planearlo e implementarlo: [Cliente de escritorio de Teams para Windows](https://aka.ms/teams-clients).
 
 Para usar Microsoft Endpoint Configuration Manager, o Directiva de grupo o cualquier otro mecanismo de distribución de terceros para una amplia implementación, Microsoft ha proporcionado archivos MSI (tanto de 32 bits como de 64 bits) que los administradores pueden usar para la implementación masiva de Teams para seleccionar usuarios o equipos. Los administradores pueden usar estos archivos para implementar Teams de forma remota, de modo que los usuarios no tengan que descargar manualmente la aplicación Teams. Tras la implementación, Teams se iniciará automáticamente para todos los usuarios que inicien sesión en el equipo. (Puede deshabilitar el inicio automático después de instalar la aplicación. [Consulte más adelante](#disable-auto-launch-for-the-msi-installer)). Le recomendamos que implemente el paquete en el equipo de forma que todos los nuevos usuarios del equipo se beneficiarán también de esta implementación.
 
@@ -36,20 +36,20 @@ Estos son los vínculos a los archivos MSI:
 
 |Entidad  |32 bits      |64 bits      | ARM64 |
 |---------|---------|---------|-----------|
-|Comercial     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
-|Administración Pública Federal: GCC     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|Administración Pública Federal: GCC High    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|Administración Pública Federal: DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|Comercial     | [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|Administración Pública Federal: GCC     | [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Administración Pública Federal: GCC High    | [32-bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Administración Pública Federal: DoD     | [32-bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **Para garantizar una implementación correcta, tenga en cuenta lo siguiente:**
 
-- Instale la versión de Teams de 64 en los sistemas operativos de 64 bits. Si intenta instalar la versión de 64 bits de Teams en un sistema operativo de 32 bits, la instalación no se realizará correctamente y no recibirá un mensaje de error.
+- Instale la versión de 64 bits de Teams en sistemas operativos de 64 bits. Si intenta instalar la versión de 64 bits de Teams en un sistema operativo de 32 bits, la instalación no se realizará correctamente y, en estos momentos, no recibirá un mensaje de error.
 
-- Si el inquilino del cliente se encuentra en las nubes GCCH o DoD, el cliente debe establecer el extremo inicial en el registro agregando el valor **CloudType** a la clave **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** del registro. El tipo de **CloudType** es **DWORD** y los valores son (0 = unset, 1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DoD). La configuración del extremo con la clave del registro restringe que los equipos se conecten con el extremo de nube correcto para la conectividad con el inicio de sesión previa con Teams.
+- Si el espacio empresarial cliente se encuentra en las nubes GCCH o DoD, el cliente debe establecer el punto de conexión inicial en el registro. Para ello, debe agregar el valor **CloudType** a la clave **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** en el registro. El tipo para **CloudType** es **DWORD** y los valores son (0 = No establecido, 1 = comercial, 2 = GCC, 3 = GCCH, 4 = DOD). Establecer el punto de conexión con la clave de registro limita a Teams a conectarse al punto de conexión de nube correcto para la conectividad de inicio de sesión previo con Teams.
 
-- Los equipos también pueden incluirse con una implementación de aplicaciones de Microsoft 365 para empresas. Para obtener más información, consulte [implementar Microsoft Teams con las aplicaciones de microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install).
+- Teams también se puede incluir con una implementación de Aplicaciones de Microsoft 365 para empresas. Para más información, consulte [Implementar Microsoft Teams con las Aplicaciones de Microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install).
 
-- Para obtener más información sobre Microsoft Endpoint Configuration Manager, vea [¿Qué es Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- Para obtener más información sobre Microsoft Endpoint Configuration Manager, consulte [¿Qué es Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>Proceso de implementación (recomendado)
 
@@ -66,7 +66,7 @@ El MSI de Teams colocará un instalador en Archivos de programa. Cada vez que un
 No use el MSI para implementar actualizaciones, ya que el cliente se actualizará automáticamente cuando detecte una nueva versión disponible en el servicio. Para volver a implementar el último instalador, utilice el proceso de reimplementación de MSI que se describe a continuación. Si implementa una versión anterior del paquete MSI, el cliente se actualizará automáticamente (excepto en entornos VDI) cuando sea posible para el usuario. Si se implementa una versión muy antigua, el MSI iniciará una actualización de la aplicación antes de que el usuario pueda usar Teams.
 
 > [!IMPORTANT]
-> La ubicación predeterminada es C:\Archivos de programa (x86) \Teams Installer en sistemas operativos de 64 bits y C:\Archivos de Files\Teams Installer en sistemas operativos de 32 bits.
+> La ubicación predeterminada es C:\Program Files (x86)\Teams Installer en sistemas operativos de 64 bits y C:\Program Files\Teams Installer en sistemas operativos de 32 bits.
 > No es recomendable que cambie las ubicaciones de instalación predeterminadas, ya que esto podría romper el flujo de actualización. Si tiene una versión demasiado antigua, se podría bloquear a los usuarios el acceso al servicio.
 
 #### <a name="target-computer-requirements"></a>Requisitos del equipo de destino
@@ -82,18 +82,18 @@ Para obtener instrucciones detalladas sobre cómo implementar la aplicación de 
 
 ## <a name="clean-up-and-redeployment-procedure"></a>Procedimiento de limpieza y reimplementación
 
-Si un usuario desinstala equipos de su perfil de usuario, el instalador MSI realizará un seguimiento de que el usuario ha desinstalado la aplicación de Teams y ya no instalará Teams para ese perfil de usuario. Para volver a implementar Teams para este usuario en un equipo concreto en el que se desinstaló, haga lo siguiente:
+Si un usuario desinstala Teams de su perfil de usuario, el instalador MSI realizará un seguimiento para comprobar que el usuario ha desinstalado la aplicación Teams y que no vuelve a instalar Teams para ese perfil de usuario. Para volver a implementar Teams para este usuario en un equipo concreto en el que se desinstaló, haga lo siguiente:
 
 > [!IMPORTANT]
-> Los pasos siguientes contienen información acerca de cómo modificar el registro. Asegúrese de hacer una copia de seguridad del registro antes de modificarlo y de que sabe restaurar el registro en caso de que se produzca un problema. Para obtener más información sobre cómo realizar copias de seguridad, restaurar y modificar el registro, consulte la [información del registro de Windows para usuarios avanzados](https://support.microsoft.com/help/256986).
+> Los siguientes pasos contienen información sobre cómo modificar el registro. Asegúrese de hacer una copia de seguridad del registro antes de modificarlo y de que sabe cómo restaurarlo en caso de que surja un problema. Para más información sobre cómo hacer una copia de seguridad del registro, cómo restaurarlo y modificarlo, consulte [Información del registro de Windows para usuarios avanzados](https://support.microsoft.com/help/256986).
 
-1. Desinstale la aplicación de Teams instalada para cada perfil de usuario. Para obtener más información, consulte [desinstalar Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
-2. Elimine el directorio de forma recursiva `%localappdata%\Microsoft\Teams\` .
-3. Elimine el `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` valor del registro.
+1. Desinstale la aplicación Teams instalada para cada perfil de usuario. Para más información, consulte [Desinstalar Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
+2. Elimine de forma recursiva el directorio en `%localappdata%\Microsoft\Teams\`.
+3. Elimine el valor de registro `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`.
 4. Vuelva a implementar el paquete MSI en ese equipo concreto.
 
 > [!TIP]
-> También puede usar la secuencia de limpieza de la [implementación de Teams](scripts/powershell-script-deployment-cleanup.md) para completar los pasos 1 y 2.  
+> También puede utilizar nuestro [script de limpieza de la implementación de Teams](scripts/powershell-script-deployment-cleanup.md) para completar los pasos 1 y 2.  
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Evite que Microsoft Teams se inicie automáticamente después de la instalación
 
@@ -128,7 +128,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 Cuando un usuario inicia sesión en Windows, Teams se instala con el MSI y se añade un acceso directo para iniciar Teams en el escritorio del usuario. Teams no se iniciará hasta que el usuario inicie manualmente Teams. Después de que el usuario haya iniciado manualmente Teams, Teams se iniciará automáticamente cada vez que el usuario inicie sesión.
 
-Tenga en cuenta que estos ejemplos también usan el parámetro **ALLUSERS = 1** . Al establecer este parámetro, Team Machine-Wide Installer aparece en programas y características en el panel de control y en aplicaciones & características de configuración de Windows para todos los usuarios del equipo. Todos los usuarios pueden desinstalar Teams si disponen de credenciales de administrador en el equipo.
+Tenga en cuenta que estos ejemplos también utilizan el parámetro **ALLUSERS=1**. Cuando establece este parámetro, el Instalador Teams de todo el equipo aparece en Programas y características y en el Panel de control y en Aplicaciones y características en la Configuración de Windows para todos los usuarios del equipo. Entonces, todos los usuarios podrán desinstalar Teams si cuentan con credenciales de administrador en el equipo.
 
 > [!Note]
 > Si ejecuta el MSI manualmente, asegúrese de ejecutarlo con permisos elevados. Incluso si lo ejecuta como administrador, sin ejecutarlo con permisos elevados, el instalador no podrá configurar la opción de deshabilitar el inicio automático.

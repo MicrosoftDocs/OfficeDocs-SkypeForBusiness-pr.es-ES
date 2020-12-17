@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga más información sobre los operadores automáticos y las colas de llamadas, y sobre cómo usarlos para que las personas que llaman puedan moverse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f53beb7b084a003b1c6ca363708d5df89d73f302
+ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031566"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49697909"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear los operadores automáticos de Teams y las colas de llamadas
 
@@ -49,13 +49,13 @@ Cada operador automático tiene un idioma y una zona horaria específicos. Si ha
 
 Para cada operador automático, puede configurar un operador. Aunque puede configurar las llamadas de operador para ir a una variedad de destinos, la característica de operador está diseñada para permitir a los autores de llamadas hablar con una persona específica de su organización que pueda ayudarle.
 
-Los operadores automáticos pueden configurarse para permitir que las personas que llaman puedan buscar en el directorio de su organización, ya sea por nombre o por número de extensión. Dentro de un operador automático, puede especificar las personas que están disponibles para la búsqueda en el directorio seleccionando grupos de usuarios para incluir o excluir. (Esto se conoce como *ámbito de marcado* ).
+Los operadores automáticos pueden configurarse para permitir que las personas que llaman puedan buscar en el directorio de su organización, ya sea por nombre o por número de extensión. Dentro de un operador automático, puede especificar las personas que están disponibles para la búsqueda en el directorio seleccionando grupos de usuarios para incluir o excluir. (Esto se conoce como *ámbito de marcado*).
 
 Las personas que llaman pueden comunicarse con un operador automático mediante un número de teléfono directo, si está configurado, o mediante su redireccionamiento desde otro operador automático o una cola de llamadas.
 
 ## <a name="call-queues"></a>Colas de llamadas
 
-Una cola de llamadas es análoga a una sala de espera en un edificio físico. Las personas que llaman esperan en espera mientras las llamadas se enrutan a los agentes de la cola a medida que estén disponibles. Las colas de llamadas suelen usarse para las funciones de ventas y servicio. Sin embargo, las colas de llamadas se pueden usar en cualquier situación en la que el número de llamadas supere su capacidad interna, como una recepcionista en un dispositivo ocupado.
+Una cola de llamadas es análoga a una sala de espera en un edificio físico. Las personas que llaman esperan en espera mientras las llamadas se enrutan a los agentes de la cola. Las colas de llamadas suelen usarse para las funciones de ventas y servicio. Sin embargo, las colas de llamadas se pueden usar en cualquier situación en la que el número de llamadas supere su capacidad interna, como una recepcionista en un dispositivo ocupado.
 
 Las colas de llamadas permiten el enrutamiento específico de llamadas en aquellos casos en los que el número total de llamadas de la cola o el tiempo de espera supera los límites especificados. Las llamadas se pueden enrutar a personas específicas, buzón de voz, otras colas de llamadas o operadores automáticos.
 

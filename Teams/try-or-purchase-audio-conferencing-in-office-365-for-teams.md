@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Vea cómo probar o comprar licencias de conferencias de audio (conferencias RTC) para Microsoft 365 u Office 365 para configurar llamadas en conferencia a las que los usuarios pueden llamar. '
-ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 547e60b828c7baa36b21b8ad63ae08268c33d4dc
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031276"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701208"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Probar o comprar conferencias de audio en Microsoft 365 para Microsoft Teams
 
@@ -51,7 +51,7 @@ Debe ser [administrador global o administrador de facturación](https://support.
 
    - **Pruébelo** antes de comprarlo: puede suscribirse a una prueba gratuita de Office 365 Enterprise E5 que incluye audioconferencia. Vea la [versión de prueba de Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Comprarlo** : Consulte [licencias complementarias de Microsoft Teams] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) .
+   - **Comprarlo**: vea [licencias de complementos de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 3. [Asigne licencias a los usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) de su organización que vayan a programar o coordinar reuniones.
 
@@ -83,7 +83,7 @@ Si tiene usuarios habilitados con un proveedor de servicios de audioconferencia 
 
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: Otras tareas de administrador
 
-Los pasos siguientes son **opcionales** , pero una gran cantidad de administradores como para hacerlo:
+Los pasos siguientes son **opcionales**, pero una gran cantidad de administradores como para hacerlo:
 
 1. [Personalizar invitaciones a reuniones](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Los números de acceso telefónico que se establecen para el usuario se agregan automáticamente a las invitaciones de las reuniones que se envían a los asistentes. Sin embargo, puede agregar sus propios vínculos de ayuda y de avisos legales, un mensaje de texto y un pequeño distintivo gráfico de la empresa.
 
