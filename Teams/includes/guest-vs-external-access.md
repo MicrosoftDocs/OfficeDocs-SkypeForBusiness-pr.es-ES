@@ -1,7 +1,7 @@
-El acceso externo (Federación) y el acceso de invitados son diferentes:
+El acceso externo (federación) y el acceso de invitado son diferentes:
 
-- Acceso externo concede permiso de acceso a un dominio completo.
-- Acceso de invitado concede permiso de acceso a una persona. 
+- El acceso externo proporciona permisos de acceso a un dominio completo.
+- El acceso de invitado proporciona permisos de acceso a un individuo. 
 
 
-Para obtener una comparación detallada, consulte [comunicarse con usuarios de otras organizaciones](../communicate-with-users-from-other-organizations.md).
+Para obtener una comparación más detallada, consulte [Comunicación con usuarios de otras organizaciones](../communicate-with-users-from-other-organizations.md).
