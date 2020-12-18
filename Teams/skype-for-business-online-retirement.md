@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ecaae0e179423fdbcdbebcb3da6f6f0a25594b6
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: e9d2540fdcd7db51ad982933f9732dab49f8716e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578493"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712318"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
@@ -48,7 +48,7 @@ Teams está disponible en la mayoría de los planes empresariales y empresariale
 
 El servicio de consumidores de Skype y Skype empresarial Server no se ven afectados por la retirada de Skype empresarial online.
 
-[Lea las preguntas más frecuentes](faq-journey.md) en el proceso de actualización a teams y la guía básica de capacidades de la equipo.
+[Lea las preguntas más frecuentes](FAQ-journey.yml) en el proceso de actualización a teams y la guía básica de capacidades de la equipo.
 
 ## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>¿Qué hace Microsoft para ayudar a los clientes a pasar a teams?
 

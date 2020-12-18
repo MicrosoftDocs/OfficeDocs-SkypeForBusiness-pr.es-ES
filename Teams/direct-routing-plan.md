@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión (SBC) compatible suministrado por el cliente a Microsoft Phone System.
-ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 0256078cd641c437d067bea9eb63861abcf5868e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130641"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712328"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -159,7 +159,7 @@ Microsoft recomienda que solicite el certificado de la SBC generando una solicit
   > [!NOTE]
   > La mayoría de las entidades de certificación (CA) requieren que el tamaño de la clave privada sea de al menos 2048. Ten esto en cuenta al generar el CSR.
 
-El certificado debe tener el FQDN de SBC como nombre común (CN) en el campo de asunto.
+El certificado debe tener el FQDN de SBC como nombre común (CN) en el campo de asunto. El certificado debe emitirse directamente desde una entidad emisora de certificados, no desde un proveedor intermedio.
 
 Como alternativa, el enrutamiento directo es compatible con un comodín en SAN y el comodín debe cumplir con el estándar [RFC http sobre TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Un ejemplo sería usar \* . contoso.com en el San, que coincidiría con la SBC.contoso.com FQDN de SBC, pero no coincidiría con SBC.test.contoso.com.
 
