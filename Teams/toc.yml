@@ -382,7 +382,7 @@
           items:
             - name: Cambiar los números de teléfono de su puente de Audioconferencia
               href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-            - name: Cambiar la configuración de un puente de Audioconferencias.
+            - name: Cambiar la configuración de un puente de Audioconferencias
               href: change-the-settings-for-an-audio-conferencing-bridge.md
             - name: Consultar una lista de números de Audioconferencia
               href: see-a-list-of-audio-conferencing-numbers-in-teams.md
@@ -464,7 +464,7 @@
       items:
         - name: ¿Qué es el Sistema telefónico?
           href: what-is-phone-system-in-office-365.md
-        - name: Esto es lo obtiene con el Sistema telefónico
+        - name: Esto es lo que obtiene con el Sistema telefónico
           href: here-s-what-you-get-with-phone-system.md
         - name: Configurar el Sistema telefónico
           href: setting-up-your-phone-system.md
@@ -506,7 +506,7 @@
               href: aa-cq-cqd-historical-reports.md
             - name: Referencia de voz y marcado
               href: dial-voice-reference.md
-            - name: Reporting
+            - name: Informes
               href: aa-cq-cqd-historical-reports.md
         - name: Bloquear llamadas entrantes
           href: block-inbound-calls.md
@@ -742,7 +742,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: Belice
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: Bosnia & Herzegovina
+            - name: Bosnia y Herzegovina
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: Brasil
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
@@ -778,7 +778,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
             - name: Honduras
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: RAE de Hong Kong
+            - name: Hong Kong
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
             - name: Hungría
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
@@ -864,7 +864,7 @@
           items:
             - name: ¿Qué son los Créditos de comunicaciones?
               href: what-are-communications-credits.md
-            - name: Configurar Créditos de comunicaciones para su organización
+            - name: Configurar Créditos de comunicaciones para la organización
               href: set-up-communications-credits-for-your-organization.md
             - name: Agregar fondos y administrar los créditos de comunicaciones
               href: add-funds-and-manage-communications-credits.md
@@ -974,7 +974,7 @@
     - name: Retirada de Skype Empresarial Online
       href: skype-for-business-online-retirement.md
     - name: Preguntas más frecuentes
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: 'Biblioteca técnica '
       items:
         - name: Guía de actualización para administradores de TI
@@ -1017,11 +1017,11 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
         - name: Mover usuarios locales a Microsoft Teams
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-        - name: Mover usuarios locales a Skype para empresas Online
+        - name: Mover usuarios locales a Skype Empresarial Online
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-        - name: Mover usuarios de la nube a local
+        - name: Mover usuarios de la nube a una implementación local
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-        - name: Administrar directivas de migración
+        - name: Administrar reunión de migración
           href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
     - name: Deshabilitar la implementación híbrida para completar la migración a la nube
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
@@ -1033,7 +1033,7 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
         - name: Actualizar el certificado de límite
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-        - name: Actualización de AAD Connect para incluir más de un bosque
+        - name: Actualizar AAD Connect para incluir más de un bosque
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
     - name: Integración con Exchange y SharePoint
       href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
@@ -1102,7 +1102,7 @@
           items:
             - name: Administrar la aplicación Turnos para su organización en Teams
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams para sanidad
+    - name: Teams para el cuidado de la salud
       items:
         - name: Introducción a Teams para organizaciones de salud
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
@@ -1136,7 +1136,7 @@
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             - name: Administrar la aplicación turnos
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Microsoft Teams para el ámbito educativo
+    - name: Teams para el ámbito educativo
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items:
         - name: 'Inicio rápido: Administradores de Teams para el ámbito educativo'
@@ -1285,7 +1285,7 @@
               href: CQD-data-and-reports.md
             - name: Usar el CQD para administrar la calidad de las llamadas y reuniones
               href: quality-of-experience-review-guide.md
-            - name: Preguntas más frecuentes
+            - name: Preguntas frecuentes
               href: CQD-frequently-asked-questions.md
             - name: Dimensiones y medidas disponibles en el CQD
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
@@ -1504,7 +1504,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
         - name: Bermudas
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: Bosnia & Herzegovina
+        - name: Bosnia y Herzegovina
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: Brasil
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
@@ -1568,7 +1568,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
         - name: Honduras
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: RAE de Hong Kong
+        - name: Hong Kong
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
         - name: Hungría
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
@@ -1598,7 +1598,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
         - name: Luxemburgo
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
-        - name: Macedonia del Norte
+        - name: Macedonia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
         - name: Malasia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
@@ -1640,9 +1640,9 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md
         - name: Puerto Rico
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md
-        - name: Catar
+        - name: Qatar
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md
-        - name: Rumania
+        - name: Rumanía
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md
         - name: Rusia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md
@@ -1676,7 +1676,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
         - name: Tailandia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: Trinidad & Tobago
+        - name: Trinidad y Tobago
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: Túnez
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
