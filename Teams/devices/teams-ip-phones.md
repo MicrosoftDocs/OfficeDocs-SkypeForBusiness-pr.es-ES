@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de escritorio están certificados para Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: f638e1fc92383a366f5957c66a7e3bae0dc58807
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: 05598dfa351e62674c3ff9a9498672614f41a5d1
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570899"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718604"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams
 
@@ -57,6 +57,7 @@ Los siguientes teléfonos están certificados para Microsoft Teams:
 | CCX600 de poli                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 de enero                 |
 | CCX500 de poli                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 de diciembre                |
 | Poli trío 8500/8800 (solo en modo compartido) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 de junio                    |
+| Yealink MP58 | 122.15.0.27| 2020 de diciembre |
 | Yealink MP54 | 122.15.0.27| 2020 de noviembre |
 | Yealink MP56 | 122.15.0.6 | 2020 de marzo    |
 | Yealink VP59 | 91.15.0.16 | 2019 de junio     |
@@ -90,6 +91,7 @@ Estas son las versiones más recientes de la aplicación telefónica y el firmwa
 
 | Versión del producto | Fecha de lanzamiento  | Versión de la aplicación Microsoft Teams | Versión del portal de la empresa | Versión del agente de administración |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| #7 de actualización  | 8 de diciembre de 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132. Product (. 223) |
 | #6 de actualización  | 12 de octubre de 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | producto 1.0.0.202006290446. (216) |
 | #5 de actualización  | 31 de agosto de 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | producto 1.0.0.202006290446. (216) |
 | #4 de actualización  | 30 de junio de 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
@@ -101,16 +103,16 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo        | Versión de firmware     | Versión de producto incluido/año  |
 |:--------------------|:---------------------|:-------------------------|
-| C448HD de AudioCodes   | C450HD_TEAMS_1.7.9   | 2020, #6 de actualización           |
-| C450HD de AudioCodes   | C450HD_TEAMS_1.7.9   | 2020, #6 de actualización           |
-|Vista ThinkSmart de Lenovo|CD-18781Y. 200922.098 | 2020, #6 de actualización           |
-| CCX400 de poli         | 6.2.22.0185          | 2020, #6 de actualización           |
-| Poli CCX500/CCX600  | 6.2.22.0185          | 2020, #6 de actualización           |
-| C60 de un trío de poli       | 5.9.5.2983           | 2020, #6 de actualización           |
-| Yealink T55/T56/T58 | 58.15.0.116          | 2020, #6 de actualización           |
-| Yealink MP56        | 122.15.0.23          | 2020, #6 de actualización           |
-| Yealink VP59        | 91.15.0.48           | 2020, #6 de actualización           |
-| Yealink CP960       | 73.15.0.109          | 2020, #6 de actualización           |
+| C448HD de AudioCodes   | C450HD_TEAMS_1.8.288  | #7 de actualización de 2020           |
+| C450HD de AudioCodes   | C450HD_TEAMS_1.8.288  | #7 de actualización de 2020           |
+| Vista ThinkSmart de Lenovo|CD-18781Y. 200922.098 | #6 de actualización de 2020           |
+| CCX400 de poli         | 6.2.23.0202         | #7 de actualización de 2020           |
+| Poli CCX500/CCX600  | 6.2.23.0202         | #7 de actualización de 2020          |
+| C60 de un trío de poli       | 6.2.23.0202          | #7 de actualización de 2020          |
+| Yealink T55/T56/T58 | 58.15.0.118         | #7 de actualización de 2020           |
+| Yealink MP56        | 122.15.0.27          | #7 de actualización de 2020           |
+| Yealink VP59        | 91.15.0.50          | #7 de actualización de 2020           |
+| Yealink CP960       | 73.15.0.111       | #7 de actualización de 2020           |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>Información de versión del producto para las barras de colaboración
 

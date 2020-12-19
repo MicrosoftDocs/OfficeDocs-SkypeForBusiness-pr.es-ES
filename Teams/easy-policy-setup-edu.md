@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Aprenda a usar el Asistente de directivas de Teams para el ámbito educativo para aplicar directivas a estudiantes y educadores de forma sencilla para mantener el entorno de aprendizaje en seguridad.
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 6480eb0ea698a783bbd231bacf2d6d1c23c7b2be
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616924"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718614"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente para directivas de Teams para el ámbito educativo para aplicar directivas fácilmente para un entorno de aprendizaje seguro.
 
@@ -86,7 +86,7 @@ Siga estos pasos para ejecutar el asistente.
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de pantalla de la página en el Asistente para revisar las selecciones":::
 
-5. Seleccione **aplicar** para aplicar los cambios. Esto puede demorar unos minutos en completarse.<br/><br/>Las definiciones de directiva globales (predeterminada para toda la organización) se aplican inmediatamente a los alumnos. Los educadores y el personal pueden tardar hasta 48 horas en asignar las directivas personalizadas a cada miembro del grupo que seleccionó, según el tamaño del grupo. Esto sucede en segundo plano, después de completar este paso correctamente.
+5. Seleccione **aplicar** para aplicar los cambios. Esto puede demorar unos minutos en completarse.<br/><br/>Las definiciones de directiva globales (predeterminada para toda la organización) se aplican inmediatamente a los alumnos. Para sus educadores y personal, podrían tardar pocas horas en asignar las directivas personalizadas a cada miembro del grupo que seleccionó, según el tamaño del grupo. Esto sucede en segundo plano, después de completar este paso correctamente.
 6. Ya está en camino pero aún no lo ha hecho. Hay algunas cosas más que hay que tener en cuenta. Después, consulte los pasos de la sección [Qué hacer después de ejecutar el asistente](#what-to-do-after-running-the-wizard) de este artículo.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de pantalla de la página del Asistente para los pasos siguientes":::
@@ -202,32 +202,30 @@ A continuación se ofrece una lista de las definiciones de directiva globales (p
 |Área de directivas |Área Secundaria  |Configuración de Directiva  |Principal o secundario |Educación superior |
 |---------|---------|---------|---------|---------|
 |Directiva de equipo   |         |Crear canales privados         |Desactivado       |Activado|
-|Directiva de reuniones    |General         |Permitir reunirse ahora en los canales         |Desactivado      |Activado|
+|Directiva de reuniones    |General         |Permitir la opción Reunirse ahora en canales         |Desactivado      |Activado|
 |  |        |Permitir el complemento de Outlook         |Desactivado       |Activado|
-|  |        |Permitir programación de reuniones de canal        |Desactivado      |Activado|
+|  |        |Permitir la programación de reuniones de canal        |Desactivado      |Activado|
 |  |        |Permitir la programación de reuniones privadas       |Desactivado      |Activado|
-|  |Audio & vídeo        |Permitir la transcripción        |Activado       |Activado|
+|  |Audio & vídeo        |Permitir transcripción        |Activado       |Activado|
 |  |        |Permitir la grabación en la nube         |Desactivado      |Activado|
-|  |        |Modo para audio IP       |Audio entrante y saliente habilitado        |Audio entrante y saliente habilitado|
-|  |        |Modo para video IP         |Video entrante y saliente habilitado     |Video entrante y saliente habilitado|
+|  |        |Modo de audio IP       |Audio entrante y saliente activado        |Audio entrante y saliente activado|
+|  |        |Modo de vídeo IP         |Vídeo entrante y saliente activado     |Vídeo entrante y saliente activado|
 |  |       |Permitir vídeo IP         |Activado         |Activado|
 |  |       |Permitir transmisión por secuencias de NDI         |Desactivado         |Desactivado|
-|  |       |Velocidad de bits multimedia (KB)         |50 000         |50 000|
-|  |Uso compartido de contenido       |Modo de uso compartido de pantalla         |Pantalla completa         |Pantalla completa|
-|  |       |Permitir que un participante pueda ceder o solicitar el control         |Activado         |Activado|
-|  |       |Permitir que un participante externo pueda ceder o solicitar el control         |Activado         |Activado|
-|  |       |Permitir el uso compartido de PowerPoint        |Activado         |Activado|
+|  |       |Velocidad de bits multimedia (kb/s)         |50 000         |50 000|
+|  |Uso compartido de contenido       |Modo de uso compartido de pantalla         |Toda la pantalla         |Toda la pantalla|
+|  |       |Permitir a un participante ceder o solicitar el control         |Activado         |Activado|
+|  |       |Permitir a un participante externo ceder o solicitar el control         |Activado         |Activado|
+|  |       |Permitir uso compartido de PowerPoint        |Activado         |Activado|
 |  |       |Permitir pizarra         |Activado         |Activado|
 |  |       |Permitir notas compartidas         |Activado        |Activado|
-|  |Participantes & invitados       |Permitir a personas anónimas iniciar una reunión       |Desactivado         |Activado|
+|  |Participantes & invitados       |Permitir que los usuarios anónimos inicien una reunión       |Desactivado         |Activado|
 |  |       |Roles que tienen derechos de moderador en las reuniones        |EveryoneUserOverride         |EveryoneUserOverride|
-|  |       |Admitir automáticamente personas        |EveryoneInCompany|EveryoneInCompany|
-|  |       |Permitir que los usuarios de acceso telefónico omitan la sala de recepción        |Desactivado         |Desactivado|
-|  |       |Permitir reunirse ahora en reuniones privadas        |Desactivado         |Activado|
-|  |       |Habilitar títulos en vivo       |Deshabilitado pero el usuario puede invalidar         |Deshabilitado pero el usuario puede invalidar|
-|  |       |Permitir la conversación en reuniones         |Activado         |Activado|
-|  |Modo filtros de vídeo       |VideoFiltersMode         |BlurandDefaultBackgrounds|AllFilters|
-|  |Informe de asistencia a reuniones       |AllowEngagementReport         |Desactivado         |Activado|
+|  |       |Admitir automáticamente usuarios        |EveryoneInCompany|EveryoneInCompany|
+|  |       |Permitir que los usuarios de acceso telefónico omitan la sala de espera        |Desactivado         |Desactivado|
+|  |       |Permitir la opción Reunirse ahora en las reuniones privadas        |Desactivado         |Activado|
+|  |       |Activar subtítulos en directo       |Deshabilitado pero el usuario puede invalidar         |Deshabilitado pero el usuario puede invalidar|
+|  |       |Permitir el chat en las reuniones         |Activado         |Activado|
 |Directiva de eventos en directo  |       |Permitir la programación         |Desactivado         |Desactivado|
 |  |       |Permitir la transcripción para los asistentes          |Activado       |Activado|
 |  |       |Quién puede unirse a eventos en directo programados        |Todas las personas en la organización        |Todas las personas en la organización|
@@ -248,7 +246,6 @@ A continuación se ofrece una lista de las definiciones de directiva globales (p
 |  |       |Crear mensajes de voz         |Permitido en chats y canales         |Permitido en chats y canales|
 |  |       |En dispositivos móviles, Mostrar canales favoritos por encima de los chats recientes     |Habilitado         |Habilitado|
 |  |       |Quitar usuarios de chats grupales         |Desactivado         |Activado|
-|  |       |Respuestas sugeridas         |Activado         |Activado|
 |Directiva de permisos de aplicaciones  |       |Aplicaciones de Microsoft         |Bloquear aplicaciones específicas y permitir a todos los demás > walkie talkie bloqueado         |Permitir todas las aplicaciones|
 |  |       |Aplicaciones de terceros         |Permitir todas las aplicaciones         |Permitir todas las aplicaciones|
 |  |       |Aplicaciones personalizadas         |Permitir todas las aplicaciones         |Permitir todas las aplicaciones|
@@ -273,32 +270,30 @@ Esta es una lista de las definiciones de directiva personalizada asignadas al ed
 |Área de directivas |Área Secundaria  |Configuración de Directiva  |Principal o secundario |Educación superior |
 |---------|---------|---------|---------|---------|
 |Directiva de equipo   |         |Crear canales privados         |Activado       |Activado|
-|Directiva de reuniones    |General         |Permitir reunirse ahora en los canales         |Activado      |Activado|
+|Directiva de reuniones    |General         |Permitir la opción Reunirse ahora en canales         |Activado      |Activado|
 |  |        |Permitir el complemento de Outlook         |Activado       |Activado|
-|  |        |Permitir programación de reuniones de canal        |Activado      |Activado|
+|  |        |Permitir la programación de reuniones de canal        |Activado      |Activado|
 |  |        |Permitir la programación de reuniones privadas       |Activado      |Activado|
-|  |Audio & vídeo        |Permitir la transcripción        |Activado       |Activado|
+|  |Audio & vídeo        |Permitir transcripción        |Activado       |Activado|
 |  |        |Permitir la grabación en la nube         |Activado      |Activado|
-|  |        |Modo para audio IP       |Audio entrante y saliente habilitado        |Audio entrante y saliente habilitado|
-|  |        |Modo para video IP         |Video entrante y saliente habilitado     |Video entrante y saliente habilitado|
+|  |        |Modo de audio IP       |Audio entrante y saliente activado        |Audio entrante y saliente activado|
+|  |        |Modo de vídeo IP         |Vídeo entrante y saliente activado     |Vídeo entrante y saliente activado|
 |  |       |Permitir vídeo IP         |Activado         |Activado|
 |  |       |Permitir transmisión por secuencias de NDI         |Desactivado         |Desactivado|
-|  |       |Velocidad de bits multimedia (KB)         |50 000         |50 000|
-|  |Uso compartido de contenido       |Modo de uso compartido de pantalla         |Pantalla completa         |Pantalla completa|
-|  |       |Permitir que un participante pueda ceder o solicitar el control         |Activado         |Activado|
-|  |       |Permitir que un participante externo pueda ceder o solicitar el control         |Activado         |Activado|
-|  |       |Permitir el uso compartido de PowerPoint        |Activado         |Activado|
+|  |       |Velocidad de bits multimedia (kb/s)         |50 000         |50 000|
+|  |Uso compartido de contenido       |Modo de uso compartido de pantalla         |Toda la pantalla         |Toda la pantalla|
+|  |       |Permitir a un participante ceder o solicitar el control         |Activado         |Activado|
+|  |       |Permitir a un participante externo ceder o solicitar el control         |Activado         |Activado|
+|  |       |Permitir uso compartido de PowerPoint        |Activado         |Activado|
 |  |       |Permitir pizarra         |Activado         |Activado|
 |  |       |Permitir notas compartidas         |Activado        |Activado|
-|  |Participantes & invitados       |Permitir a personas anónimas iniciar una reunión       |Activado        |Activado|
+|  |Participantes & invitados       |Permitir que los usuarios anónimos inicien una reunión       |Activado        |Activado|
 |  |       |Roles que tienen derechos de moderador en las reuniones        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
-|  |       |Admitir automáticamente personas        |Organizadorsolo|Organizadorsolo|
-|  |       |Permitir que los usuarios de acceso telefónico omitan la sala de recepción        |Desactivado         |Desactivado|
-|  |       |Permitir reunirse ahora en reuniones privadas        |Activado         |Activado|
-|  |       |Habilitar títulos en vivo       |Deshabilitado pero el usuario puede invalidar         |Deshabilitado pero el usuario puede invalidar|
-|  |       |Permitir la conversación en reuniones         |Activado         |Activado|
-|  |Modo filtros de vídeo       |VideoFiltersMode         |AllFilters|AllFilters|
-|  |Informe de asistencia a reuniones       |AllowEngagementReport         |Activado         |Activado|
+|  |       |Admitir automáticamente usuarios        |Organizadorsolo|Organizadorsolo|
+|  |       |Permitir que los usuarios de acceso telefónico omitan la sala de espera        |Desactivado         |Desactivado|
+|  |       |Permitir la opción Reunirse ahora en las reuniones privadas        |Activado         |Activado|
+|  |       |Activar subtítulos en directo       |Deshabilitado pero el usuario puede invalidar         |Deshabilitado pero el usuario puede invalidar|
+|  |       |Permitir el chat en las reuniones         |Activado         |Activado|
 |Directiva de eventos en directo  |       |Permitir la programación         |Activado         |Activado|
 |  |       |Permitir la transcripción para los asistentes          |Activado       |Activado|
 |  |       |Quién puede unirse a eventos en directo programados        |Todas las personas en la organización        |Todas las personas en la organización|
@@ -319,7 +314,6 @@ Esta es una lista de las definiciones de directiva personalizada asignadas al ed
 |  |       |Crear mensajes de voz         |Permitido en chats y canales         |Permitido en chats y canales|
 |  |       |En dispositivos móviles, Mostrar canales favoritos por encima de los chats recientes     |Habilitado         |Habilitado|
 |  |       |Quitar usuarios de chats grupales         |Activado        |Activado|
-|  |       |Respuestas sugeridas         |Activado         |Activado|
 |Directiva de llamadas  |       |Realizar llamadas privadas         |Activado       |Activado|
 |  |       |Desvío de llamadas y llamadas simultáneas a las personas de su organización         |Activado        |Activado|
 |  |       |Desvío de llamadas y llamadas simultáneas a números de teléfono externos         |Activado        |Activado|

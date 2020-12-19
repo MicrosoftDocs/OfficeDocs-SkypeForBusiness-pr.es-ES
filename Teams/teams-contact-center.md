@@ -13,12 +13,12 @@ f1.keywords:
 description: Información general de la solución centro de contacto integrado como servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9f8b331161ed4886f5e811fe7ed985af4cf12df
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 6691b246e294db5b1d356431aa2a52f9b67d3446
+ms.sourcegitcommit: 6f1e245ac9a026468432a041a7255104191ae7d3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085694"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49716971"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del centro de contactos para Microsoft Teams
 
@@ -44,11 +44,12 @@ Los siguientes socios están en el proceso de certificar su solución para Micro
 
 |  Servidor                                                                                                                               |  Sitio web de soluciones                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `8x8` | https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams?locale=us |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
-| "Gurú del contenido" | https://www.contentguru.com/microsoft-teams-integration/    |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
@@ -221,6 +222,6 @@ Consulte la tabla siguiente para obtener información general sobre los modelos 
 </tbody>
 </table>
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Si es un proveedor y quiere unirse al programa de certificación, envíe un mensaje de correo electrónico <Teamscategorypartner@microsoft.com> .

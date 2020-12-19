@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Descubra qué tipos de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Teams y cómo elegir uno para su organización.  '
-ms.openlocfilehash: 932440e0d94072da7ce3ef304438400963e17d2d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 9e6b9930c5106ec143563e0f69dd61ccb30d550c
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031376"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718594"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -116,6 +116,10 @@ Las reglas de normalización utilizan expresiones regulares de .NET Framework pa
 Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea [expresiones regulares de .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar reglas de normalización para los planes de marcado de inquilino.
+
+> [!NOTE]
+> Actualmente, las reglas de normalización con el primer token como opcional no se admiten en los dispositivos 3pip (por ejemplo, el modelo Polycom VVX 601). Si desea aplicar reglas de normalización con la opción opcional en dispositivos 3pip, debe crear dos reglas de normalización en lugar de una. Por ejemplo, la regla ^ 0? (999) $ debe sustituirse por las dos reglas siguientes: (999) $ (Translation: $1) y ^ 0 (999) $ (Translation: $1).
+
 
 ### <a name="sample-normalization-rules"></a>Reglas de normalización de muestra
 

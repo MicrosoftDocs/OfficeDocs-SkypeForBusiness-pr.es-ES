@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Ver qué dispositivos y periféricos USB, como, por ejemplo, auriculares con micrófono, teléfonos, cámaras Web y monitores, están certificados para Microsoft Teams.
-ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712308"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718584"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -78,6 +78,13 @@ Si es un fabricante y desea participar en el programa de certificación, consult
 
 | Fabricante        | No                                                     | Autorizado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |75es auriculares con micrófono                                         |12/16/2020      |Skype empresarial con la actualización a Microsoft Teams      |
+|Jabra                |65es auriculares con micrófono                                         |12/16/2020      |Skype empresarial con la actualización a Microsoft Teams      |
+|Productos                 |Monitor C3422WE                                            |12/11/2020      |Certified for Microsoft Teams                           |
+|Productos                 |Monitor C2722DE                                            |12/11/2020      |Certified for Microsoft Teams                           |
+|Productos                 |Monitor C2422HE                                            |12/11/2020      |Certified for Microsoft Teams                           |
+|Poli                 |Sincronizar 20 + con manos libres con el dongle USB de poli BT600          |11/9/2020       |Certified for Microsoft Teams                           |
+|Poli                 |Teléfono con manos libres sincronizada                                       |11/9/2020       |Certified for Microsoft Teams                           |
 |Jabra                |65ts auriculares con micrófono                                         |10/31/2020      |Skype empresarial con la actualización a Microsoft Teams      |
 |EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype empresarial con la actualización a Microsoft Teams      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype empresarial con la actualización a Microsoft Teams      |

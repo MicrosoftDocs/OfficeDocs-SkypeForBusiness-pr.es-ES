@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Descubra cómo administrar la configuración de una directiva de reunión en Teams con el fin de controlar las características disponibles para sus participantes en reuniones programadas por usuarios.
-ms.openlocfilehash: 406a2e42a73b8bb92f3b6036de63177f4b81a434
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
-ms.translationtype: HT
+ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611784"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718634"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -117,9 +117,9 @@ Al seleccionar una directiva existente en la página **Directivas de reunión** 
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir la opción Reunirse ahora en canales
 
-Permitir **Reunirse ahora** es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión no planeada en un canal de Teams. Si activa esta configuración, los usuarios podrán seleccionar el botón **Reunirse** para iniciar una reunión no planeada o programar una reunión en el canal. El valor predeterminado es True.
+Permitir **Reunirse ahora** es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión no planeada en un canal de Teams. Si activa esta configuración, los usuarios podrán seleccionar el botón **reunirse** para iniciar una reunión no planeada o programar una reunión en el canal. El valor predeterminado es True.
 
-![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png) 
+![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir el complemento de Outlook
 
@@ -359,7 +359,7 @@ Si esta configuración está activada para el usuario, la opción **Ceder el con
 
 ![Captura de pantalla que muestra la opción Ceder el control](media/meeting-policies-give-control.png)
 
-Si la configuración está desactivada para el usuario, la opción **Ceder el control** no estará disponible.
+Si la configuración está desactivada para el usuario, la opción **ceder el control** no está disponible.
 
 ![Captura de pantalla que muestra que la opción Ceder el control no está disponible](media/meeting-policies-give-control-not-available.png)
 
@@ -455,7 +455,7 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 
 ![Captura de pantalla que muestra una reunión con un usuario en la sala de espera](media/meeting-policies-lobby.png)
 
- Los organizadores de la reunión pueden hacer clic en las **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración en cada una de las reuniones programadas.
+ Los organizadores de reuniones pueden seleccionar **las opciones de reunión** de la invitación a la reunión para cambiar esta configuración para cada reunión que programe.
 
 > [!NOTE]
 > En las opciones de reunión, la configuración está etiquetada como "Quién puede omitir la sala de espera". Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y las reuniones anteriores en las que el usuario no haya modificado las opciones de reunión.
@@ -469,7 +469,7 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 
-Esta es una directiva por organizador. Esta opción controla si las personas que llaman por teléfono se unen a la reunión directamente o si aguardan en la sala de espera, independientemente de la configuración de **Admitir participantes automáticamente**. Esta configuración está desactivada de forma predeterminada. Cuando esta opción está desactivada, los usuarios de marcado esperan en la sala de espera hasta que el usuario de la organización se una a la reunión con un cliente de Teams y los acepte. Cuando esta opción está activada, los usuarios de marcado se unirán automáticamente a la reunión cuando un usuario de la organización se una.
+Esta es una directiva por organizador. Esta opción controla si las personas que llaman por teléfono se unen a la reunión directamente o si aguardan en la sala de espera, independientemente de la configuración de **Admitir participantes automáticamente**. Esta configuración está desactivada de forma predeterminada. Cuando esta opción está desactivada, los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y lo retenga. Cuando esta opción está activada, los usuarios de marcado se unirán automáticamente a la reunión cuando un usuario de la organización se una.
 
 > [!NOTE]
 > Si un usuario de marcado se une a la reunión antes de que lo haga un usuario de la organización, el primero aguardará en la sala de espera hasta que el usuario de la organización se incorpore a la reunión con un cliente de Teams y le acepte. Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y las reuniones anteriores en las que el usuario no haya modificado las opciones de reunión.
