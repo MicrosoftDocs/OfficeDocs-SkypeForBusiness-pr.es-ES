@@ -636,6 +636,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: ¿Cuál es el estado de mis solicitudes de portabilidad?
               href: phone-number-calling-plans/port-order-status.md
+        - name: Cobertura y centros de tasa compatibles
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: Enrutamiento de llamada
       items:
         - name: ¿Qué son los planes de marcado?
