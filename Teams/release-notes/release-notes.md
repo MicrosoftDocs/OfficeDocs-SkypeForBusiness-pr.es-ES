@@ -16,24 +16,36 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión para las características de administrador de Microsoft Teams.
-ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
+ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701318"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728170"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión para las características de administrador de Microsoft Teams
 
 Estas notas de la versión proporcionan información sobre las nuevas características de administración de Microsoft Teams.
 
-## <a name="november-25-2020"></a>25 de noviembre de 2020
+## <a name="december-21-2020"></a>21 de diciembre de 2020
 
-### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar el complemento de reunión de Microsoft Teams para Google Workspace
+### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Cobertura de los centros de tarifas admitidos y cobertura para planes de llamadas
 
-El complemento de reuniones de Microsoft Teams permite a los usuarios de Google Calendar programar y unirse a una reunión de Microsoft Teams directamente desde Google Workspace. Los usuarios obtendrán acceso a las características de reuniones de Teams, entre ellas, las conferencias de audio y vídeo, la pantalla compartida, la conversación de reuniones, los paneles de dibujo digitales y mucho más. Mantente conectado y organizado para hacer más cosas juntos en el trabajo, la escuela y la vida.
+Un centro de tarifas es el plazo de la industria para un área geográfica que, tradicionalmente, define límites para llamadas locales, tarifas de facturación y asignación de números de teléfono para la red de telefonía pública conmutada (RTC). [Más información](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix).
 
-El complemento de reunión de Microsoft Teams para Google Workspace debe estar habilitado por un administrador de equipo antes de que los usuarios inquilinos puedan acceder a la aplicación. [Más información](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
+## <a name="december-18-2020"></a>18 de diciembre de 2020
+
+### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>Directivas de configuración de reunión actualizadas para salas de recorte
+
+ Las salas para sesión de subgrupo en Teams se usan para dividir reuniones en salas de reuniones independientes y más pequeñas. Esta configuración controla si los organizadores de reuniones tienen la opción de crear y administrar salas para sesión de subgrupo en reuniones que programan o inician. Esta configuración de directiva afecta a todas las reuniones, incluidas las reuniones de Reunirse ahora. [Más información](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms).
+
+## <a name="december-9-2020"></a>9 de diciembre de 2020
+
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Asesor para equipos con Microsoft 365 caminos de aprendizaje
+
+Caminos de aprendizaje de Microsoft 365 es una solución de aprendizaje a petición que puede personalizar para formar a los usuarios, así como para aumentar el uso y la adopción de Microsoft Teams en la organización. Use los caminos de aprendizaje junto con el Asesor para Teams para fomentar la adopción y que los usuarios puedan empezar a trabajar rápidamente.
+
+Caminos de aprendizaje le proporciona una plantilla de sitio de SharePoint Online y la capacidad para crear fácilmente un sitio de aprendizaje para sus usuarios. Puede personalizar el portal de caminos de aprendizaje para que incluya contenido de aprendizaje y soporte específico para las necesidades de los usuarios. Use las listas de reproducción de Microsoft Teams del catálogo en línea de Microsoft y agregue las suyas propias. [Más información](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways).
 
 ## <a name="october-28-2020"></a>28 de octubre de 2020
 

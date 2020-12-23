@@ -3,18 +3,20 @@ title: Uso de salas de despiece en Teams
 author: ricardo-msft
 ms.author: riwilki
 ms.topic: article
+manager: serdars
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: Los usuarios finales pueden aprender a usar salas individuales en Microsoft Teams
-ms.openlocfilehash: 280cd493049da3bd91e4fdd8e1995e75c4710cb9
-ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
+ms.openlocfilehash: 820380517a7f56a8a9738e02705ba68a5b6f8048
+ms.sourcegitcommit: 99bd62ea8a11b0068231e7b8335790323912cb9e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698722"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49727716"
 ---
 # <a name="using-breakout-rooms-in-microsoft-teams"></a>Uso de salas individuales en Microsoft Teams
 
