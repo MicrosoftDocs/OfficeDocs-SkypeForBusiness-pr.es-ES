@@ -1,7 +1,7 @@
 ---
 title: Conectar la aplicación Pacientes a la API de Azure para FHIR
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Obtenga información sobre cómo conectar la aplicación de pacientes en Microsoft Teams a la API de Azure para FHIR (recursos de interoperabilidad de Fast Healthcare).
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 29447791a8ba169bfc50173b249b3f8b987c7a17
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: 4e41b071ef1724043f45c3783b062108d29a5190
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803558"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731158"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Conectar la aplicación Pacientes a la API de Azure para FHIR
 
@@ -34,7 +34,6 @@ ms.locfileid: "48803558"
 
 Siga estos pasos para permitir que la aplicación de pacientes de Microsoft Teams acceda a una API de Azure para FHIR instancia. En este artículo se da por hecho que tiene una [API de Azure para la instancia de FHIR](https://azure.microsoft.com/services/azure-api-for-fhir/) configurada en su espacio empresarial.  Si todavía no ha creado una API de Azure para FHIR instancia de su inquilino, consulte [Inicio rápido: implementar la API de Azure para FHIR con Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 
-
 1. Haga clic [aquí](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) para conceder consentimiento de administrador a la aplicación pacientes. Cuando se le solicite, inicie sesión con el administrador de inquilinos o las credenciales de administrador global y, a continuación, haga clic en **Aceptar** para conceder los permisos necesarios.
 
     ![Captura de pantalla de la solicitud de permiso para la aplicación pacientes](../../media/patients-app-permissions-request.png)
@@ -42,15 +41,15 @@ Siga estos pasos para permitir que la aplicación de pacientes de Microsoft Team
     Después de aceptar, cierre la ventana. Verá una página que puede tener el siguiente aspecto. Puede ignorar el mensaje de error en la página. Es inofensivo e indica que se concede el consentimiento. (Estamos trabajando en una página más sencilla para esta dirección URL. ¡ Mantente atento!)
 
     ![Captura de pantalla de solicitud de permiso de la aplicación para pacientes](../../media/patients-app-permissions-request-granted.png)
-    
+
 2. Inicie sesión en el [portal de Azure](https://portal.azure.com) con sus credenciales de administrador.
 
-3. En el navegación izquierdo, seleccione **Azure Active Directory** y, a continuación, seleccione **aplicaciones empresariales** .
+3. En el navegación izquierdo, seleccione **Azure Active Directory** y, a continuación, seleccione **aplicaciones empresariales**.
 
     Busque una fila denominada **patients (dev)** y, a continuación, copie el valor de la columna **Object ID** en el portapapeles.
-    
+
     ![Captura de pantalla de la fila pacientes (dev) en Azure portal](../../media/patients-app-azure-portal-object-id.png)
-    
+
 4. Vaya a la instancia de recursos de la API de Azure para FHIR a la que desea conectar la aplicación de pacientes (ya sea buscándola o desplazándose por los recursos) y, a continuación, abra la configuración de esa instancia.
 
     ![Captura de pantalla de la configuración de la instancia de Azure API para FHIR en Azure portal](../../media/patients-app-azure-portal-instance-settings.png)
@@ -59,16 +58,16 @@ Siga estos pasos para permitir que la aplicación de pacientes de Microsoft Team
 
     ![Captura de pantalla de la configuración de autenticación en Azure portal](../../media/patients-app-azure-portal-authentication.png)
 
-6. Haga clic en **Guardar** . Esto vuelve a implementar la instancia, lo que puede demorar unos minutos.
+6. Haga clic en **Guardar**. Esto vuelve a implementar la instancia, lo que puede demorar unos minutos.
 
-7. Haga clic en **información general** y copie la dirección URL del **extremo de metadatos de FHIR** . Quite la etiqueta metadata para obtener la dirección URL del servidor FHIR. Por ejemplo, https://test02-teamshealth.azurehealthcareapis.com/ . 
+7. Haga clic en **información general** y copie la dirección URL del **extremo de metadatos de FHIR**. Quite la etiqueta metadata para obtener la dirección URL del servidor FHIR. Por ejemplo, `https://test02-teamshealth.azurehealthcareapis.com/` .
 
-    ![Captura de pantalla del punto de conexión de metadatos en Azure portal](../../media/patients-app-azure-portal-metadata-endpoint.png)
+    ![punto final de metadatos en Azure portal](../../media/patients-app-azure-portal-metadata-endpoint.png)
 
 8. En Teams, vaya a la instancia de la aplicación patients cargada en el equipo, haga clic en **configuración** y, a continuación, en el cuadro **vínculo** , escriba la dirección URL del extremo del servidor de FHIR. Después, haga clic en **conectar** para establecer una conexión y buscar y agregar pacientes a la lista.  
 
-    ![Captura de pantalla de la configuración de la aplicación pacientes en Teams](../../media/patients-app-teams.png)
-    
+    ![ Configuración de la aplicación de pacientes en Teams](../../media/patients-app-teams.png)
+
     Si recibe un error al conectar con Teams durante este paso, envíe una captura de pantalla detallada del error, los registros de [Fiddler](https://www.telerik.com/download/fiddler) y cualquier otro paso de reproducción en un correo electrónico con la línea de asunto "aplicación de pacientes – modo de EMR de solución de problemas" a [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com).
 
 ## <a name="related-topics"></a>Temas relacionados

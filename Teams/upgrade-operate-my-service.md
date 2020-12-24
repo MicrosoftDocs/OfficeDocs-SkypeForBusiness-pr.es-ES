@@ -1,7 +1,7 @@
 ---
 title: Operaciones para Microsoft Teams | Administración de servicios | Compra
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: fc6c39d03912f8a708eea91ce34b2a7f61a47828
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085916"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731168"
 ---
 # <a name="operate-your-service"></a>Ejecutar los servicios
 
@@ -50,7 +50,7 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de equipos está funcionando a su máxima capacidad.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de equipos está funcionando a su máxima capacidad.</li></ul></td></tr>
 
 </table>
 
@@ -69,7 +69,7 @@ Asegúrese de que cada equipo contable tenga una buena comprensión de las activ
 Una vez que se haya implementado un contrato, los equipos correspondientes deberán comenzar a operar sus roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td>
 <td><ul><li>Use este documento para facilitar el ejercicio de asignación de roles operativos.</li><li>Reunirse con los respectivos equipos de soporte técnico para asignar nombres a cada elemento de la lista de actividades necesarias.</li><li>Gana la aceptación o la aprobación de los roles asignados.</li><li>Asegúrese de que los equipos correspondientes tengan la formación, preparación y recursos adecuados para completar las actividades que necesiten.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependencias del servicio de Teams
@@ -145,7 +145,7 @@ Estos grupos pueden incluir los administradores de servicios, los departamentos 
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Supervisión de escenarios avanzados
 
-Puede supervisar el estado del servicio y los próximos cambios aprovechando la API de comunicaciones de servicio para obtener acceso a estado y cambios de servicio mediante programación. Use esta API para crear su propia herramienta de supervisión o Conecte sus herramientas de supervisión existentes a las comunicaciones de servicio de Microsoft 365 u Office 365, lo que puede simplificar la supervisión de su entorno. Para obtener más información, consulte [Microsoft 365 u Office 365 para programadores de empresa](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Puede supervisar el estado del servicio y los próximos cambios aprovechando la API de comunicaciones de servicio para obtener acceso a estado y cambios de servicio mediante programación. Use esta API para crear su propia herramienta de supervisión o Conecte sus herramientas de supervisión existentes a las comunicaciones de servicio de Microsoft 365 u Office 365, lo que puede simplificar la supervisión de su entorno. Para obtener más información, consulte [Microsoft 365 u Office 365 para programadores de empresa](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas diarias/semanales/mensuales/según sea necesario
 
@@ -421,7 +421,7 @@ Los firewalls del cliente pueden afectar a la calidad de las llamadas e incluso 
 
 ### <a name="wi-fi-drivers"></a>Controladores Wi-Fi
 
-Los drivers Wi-Fi pueden ser problemáticos. Como ejemplo, un controlador puede tener comportamientos de itinerancia muy agresivos entre puntos de acceso que pueden inducir un cambio de punto de acceso innecesario, lo que lleva a una mala calidad de las llamadas. Es posible que se descubra un controlador Wi-Fi de mala calidad mediante una revisión de la calidad de la experiencia (vea [mejorar y supervisar la calidad de las llamadas de Teams](monitor-call-quality-qos.md) para obtener más detalles). Es esencial implementar un proceso basado en la calidad que supervise los nuevos drivers de Wi-Fi y garantice que estén probados antes de implementarlos en la población general de usuarios.
+Los drivers de Wi-Fi pueden ser problemáticos. Como ejemplo, un controlador puede tener comportamientos de itinerancia muy agresivos entre puntos de acceso que pueden inducir un cambio de punto de acceso innecesario, lo que lleva a una mala calidad de las llamadas. Es posible que se descubra un controlador de Wi-Fi deficiente a través de una revisión de la calidad de la experiencia (consulte [mejorar y supervisar la calidad de las llamadas de Teams](monitor-call-quality-qos.md) para obtener más detalles). Es esencial implementar un proceso basado en la calidad que supervise los nuevos Wi-Fi drivers y se asegure de que estén probados antes de implementarlos en la población de usuarios general.
 
 ### <a name="endpoint-management"></a>Administración de extremos
 
@@ -447,7 +447,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 |---|---|---|---|
 | Requisitos de los extremos | Asegúrese de que el punto de conexión de Teams siga cumpliendo todos los requisitos de software para Teams que aparecen en [obtener clientes para Microsoft Teams](get-clients.md). | Cada mes | |
 | Firewalls para los puntos de conexión | Mantenga las exclusiones apropiadas en el Firewall de extremo en función de la información de las [direcciones URL y los intervalos de direcciones IP de Office 365](https://aka.ms/o365ips). Su proveedor de terceros tendrá una orientación específica sobre cómo mantener las exclusiones. Suscribirse a la [fuente RSS](https://support.office.com/o365ip/rss) para recibir notificaciones automáticas de los cambios. | Según sea necesario | |
-| Controladores Wi-Fi | Pruebe y actualice los drivers Wi-Fi en su PC. Valide los resultados con el CQD ([mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md)). | Según sea necesario | |
+| Controladores Wi-Fi | Pruebe y actualice Wi-Fi drivers en el equipo. Valide los resultados con el CQD ([mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md)). | Según sea necesario | |
 | Administración de extremos | Mantenga el catálogo de los puntos de conexión y los dispositivos de interfaz compatibles (como auriculares con micrófono). Administrar contratos de proveedores, la garantía, la distribución, la sustitución y las directivas de reparación. | Cada mes | |
 | Solución de problemas de extremos | Las tareas de solución de problemas pueden incluir la comprobación de la conectividad, la consulta de la lista de problemas conocidos, la recopilación de registros, el análisis y el escalamiento al soporte técnico de Microsoft o a proveedores de terceros. | Según sea necesario | |
 
@@ -463,7 +463,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
 
-[Contactar al soporte técnico para productos empresariales: ayuda para administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Contactar con el soporte técnico para productos empresariales: ayuda para administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [Ponerse en contacto con el soporte Premier](https://support.microsoft.com/premier/contacts)
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616934"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731138"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -200,7 +200,7 @@ Use los recursos del sitio de caminos de aprendizaje para incorporar el servicio
 
 Para obtener instrucciones y recursos sobre la preparación del servicio de asistencia y los expertos de Microsoft Teams, consulte [Formar a la organización](https://adoption.microsoft.com/microsoft-teams/#train-your-org) y [Crear expertos](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-Como personas de contacto a las que acuden los usuarios cuando necesitan saber cómo se hace algo, el servicio de asistencia y los expertos pueden usar el sitio de caminos de aprendizaje para formar a los usuarios y como alternativa a la creación de vales de soporte técnico. Anime al servicio de asistencia y a los expertos a [personalizar el sitio de caminos de aprendizaje](https://docs.microsoft.comoffice365/customlearning/custom_overview) con la creación de una página de aprendizaje y soporte técnico y, luego, [agréguela como pestaña a un canal](#add-your-site-to-teams) de un equipo para que los usuarios puedan utilizar el autoservicio.
+Como personas de contacto a las que acuden los usuarios cuando necesitan saber cómo se hace algo, el servicio de asistencia y los expertos pueden usar el sitio de caminos de aprendizaje para formar a los usuarios y como alternativa a la creación de vales de soporte técnico. Anime al servicio de asistencia y a los expertos a [personalizar el sitio de caminos de aprendizaje](https://docs.microsoft.com/office365/customlearning/) con la creación de una página de aprendizaje y soporte técnico y, luego, [agréguela como pestaña a un canal](#add-your-site-to-teams) de un equipo para que los usuarios puedan utilizar el autoservicio.
 
 ### <a name="drive-adoption"></a>Fomentar la adopción
 

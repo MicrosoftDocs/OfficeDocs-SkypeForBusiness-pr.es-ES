@@ -1,7 +1,7 @@
 ---
 title: Licencias de complemento de Microsoft Teams
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga más información sobre las licencias de complemento para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: 2706f66259adb3bf6689eecd287331e899a89be1
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328269"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731148"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licencias de complemento de Microsoft Teams
 
@@ -115,7 +115,7 @@ Este es un resumen, basado en el plan de licencias.
 
   <sup>1</sup> solo está disponible para las organizaciones con menos de 300 usuarios.
 
-Para obtener más información, consulte los planes de Educación de [Microsoft 365 educación](https://www.microsoft.com/education/buy-license/microsoft365) y [Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
+Para obtener más información, consulte los planes de Educación de [Microsoft 365 educación](https://www.microsoft.com/education/buy-license/microsoft365) y [Office 365](https://www.microsoft.com/education/products/office).
 
 > [!NOTE]
 > Si necesita usar un servicio telefónico de terceros, el [enrutamiento directo](../direct-routing-landing-page.md) está implementado en su organización o, si los planes de llamadas no están disponibles en su país o región, necesita usar el enrutamiento directo para las características de voz.
@@ -177,7 +177,7 @@ Este es un resumen de las ofertas de prueba de las características de voz.
 
   ![Opciones basadas en la versión de prueba](../media/licensing-trial-offers.png)
 
- El plan básico no tiene por qué ser una oferta de prueba para usar cualquiera de estas pruebas para las características de voz. Puede usar un plan de empresa de Microsoft 365 o un plan empresarial, gubernamental, educativo o de ONG con cualquiera de las ofertas de prueba para las características de voz. Para ver las ofertas y complementos de prueba disponibles, en el centro de administración de Microsoft 365, vaya a servicios de compra de **facturación**  >  **Purchase services**, seleccione **otras categorías que puedan interesarle**y, después, seleccione **Complementos**.
+ El plan básico no tiene por qué ser una oferta de prueba para usar cualquiera de estas pruebas para las características de voz. Puede usar un plan de empresa de Microsoft 365 o un plan empresarial, gubernamental, educativo o de ONG con cualquiera de las ofertas de prueba para las características de voz. Para ver las ofertas y complementos de prueba disponibles, en el centro de administración de Microsoft 365, vaya a servicios de compra de **facturación**  >  , seleccione **otras categorías que puedan interesarle** y, después, seleccione **Complementos**.
 
   Para cada una de estas opciones de voz y conferencias, se necesitarán [créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md) si tiene números gratuitos o si necesita agregar minutos adicionales para que los usuarios llamen desde reuniones o para que los usuarios realicen llamadas RTC nacionales e internacionales.
 
