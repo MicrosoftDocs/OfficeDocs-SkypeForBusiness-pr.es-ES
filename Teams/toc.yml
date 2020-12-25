@@ -288,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: Configurar una consola
               href: rooms/console.md
+            - name: Actualizar manualmente un dispositivo
+              href: rooms/manual-update.md
             - name: Configurar la autenticación
               href: rooms/rooms-authentication.md
             - name: Unirse a reuniones de terceros
