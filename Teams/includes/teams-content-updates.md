@@ -3,10 +3,27 @@
 
 
 
-## <a name="week-of-december-14-2020"></a>Semana del 14 de diciembre de 2020
+## <a name="week-of-december-21-2020"></a>Semana del 21 de diciembre de 2020
 
 
 | Fecha de publicación |Título del tema | Change |
+|------|------------|--------|
+| 12/22/2020 | [Notas de la versión de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
+| 12/22/2020 | [Uso de salas de despiece en Teams](/MicrosoftTeams/using-breakout-rooms) | modificado |
+| 12/23/2020 | [Conectar la aplicación Pacientes a la API de Azure para FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modificado |
+| 12/23/2020 | [Administrar la aplicación listas para su organización](/MicrosoftTeams/manage-lists-app) | modificado |
+| 12/23/2020 | [Lista de comprobación de la incorporación: configurar cargas de trabajo de voz en la nube-Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | modificado |
+| 12/23/2020 | [Usar la API de envío de aplicaciones de Teams para enviar y aprobar aplicaciones personalizadas](/MicrosoftTeams/submit-approve-custom-apps) | modificado |
+| 12/23/2020 | [Licencias de complemento de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modificado |
+| 12/23/2020 | [Crear una aplicación de portal de intranet de Teams desde un sitio o una página de SharePoint Online](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | modificado |
+| 12/23/2020 | [Operaciones de Microsoft Teams\| Administración del servicio \| Calidad](/MicrosoftTeams/upgrade-operate-my-service) | modificado |
+| 12/23/2020 | [Usar el Asesor de Teams para ayudar a implementar Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
+
+
+## <a name="week-of-december-14-2020"></a>Semana del 14 de diciembre de 2020
+
+
+| Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
 | 12/15/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
 | 12/15/2020 | [Habilitar los dispositivos de salas de equipos para unirse a reuniones de terceros](/MicrosoftTeams/rooms/third-party-join) | modificado |
@@ -102,48 +119,3 @@
 | 11/25/2020 | [Configurar el bot de timbre para el enrutamiento directo](/MicrosoftTeams/direct-routing-ringback-bot) | modificado |
 | 11/25/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
 | 11/25/2020 | [Administrar directivas de reunión](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
-
-
-## <a name="week-of-november-16-2020"></a>Semana del 16 de noviembre de 2020
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 11/16/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 11/16/2020 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
-| 11/16/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 11/16/2020 | [Usar Power BI para analizar los datos del CQD para Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modificado |
-| 11/16/2020 | [Uso del informe de Power BI para ver el operador automático & el informe histórico de la cola de llamadas](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | modificado |
-| 11/16/2020 | [Asignar directivas a los usuarios de Microsoft Teams](/MicrosoftTeams/assign-policies) | modificado |
-| 11/16/2020 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 11/16/2020 | [Implementaciones de Microsoft 365 administración pública-GCC](/MicrosoftTeams/plan-for-government-gcc) | modificado |
-| 11/16/2020 | [¿Qué son los eventos en directo de Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
-| 11/16/2020 | [Integración de equipos con Microsoft Power Platform](/MicrosoftTeams/teams-power-platfom-integration) | modificado |
-| 11/17/2020 | [Uso del informe de Power BI para ver el operador automático & el informe histórico de la cola de llamadas](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | modificado |
-| 11/17/2020 | [Operador automático & informe histórico de la cola de llamadas](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modificado |
-| 11/17/2020 | [Planes de llamadas para Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modificado |
-| 11/17/2020 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 11/17/2020 | [Controladores de borde de sesión certificados para enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
-| 11/17/2020 | [Planear el enrutamiento directo](/MicrosoftTeams/direct-routing-plan) | modificado |
-| 11/17/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 11/17/2020 | [Administración de números de teléfono para Canadá](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | modificado |
-| 11/17/2020 | [Administración de números de teléfono para Estados Unidos](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modificado |
-| 11/17/2020 | [Administrar la aplicación tareas de su organización en Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modificado |
-| 11/17/2020 | [Inicio rápido de administración: reuniones y eventos en directo en Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modificado |
-| 11/17/2020 | [Directivas de retención en Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
-| 11/17/2020 | [Complemento de comunicaciones avanzadas para Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modificado |
-| 11/17/2020 | [Informe de asistencia a reuniones de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modificado |
-| 11/17/2020 | [Configurar eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modificado |
-| 11/17/2020 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 11/17/2020 | [Definir eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-| 11/17/2020 | [¿Qué son los eventos en directo de Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
-| 11/17/2020 | [Restricciones de marcado de número gratuito en Egipto](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | modificado |
-| 11/18/2020 | [Disponibilidad en Guatemala](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala) | modificado |
-| 11/18/2020 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 11/18/2020 | [Teams para visitas virtuales](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
-| 11/18/2020 | [Iniciar sesión en Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modificado |
-| 11/18/2020 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
-| 11/19/2020 | [Teams para visitas virtuales](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
-| 11/19/2020 | [Usar OneDrive para la empresa y SharePoint para grabaciones de reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
-| 11/20/2020 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 11/20/2020 | [Iniciar sesión en Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modificado |
