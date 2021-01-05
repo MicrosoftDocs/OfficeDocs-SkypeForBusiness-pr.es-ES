@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos para Microsoft Teams.
-ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
-ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
+ms.openlocfilehash: 361122f4411f6aa3621d030a7a0569b438a86c27
+ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49530555"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49751798"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -107,9 +107,9 @@ Si asigna teclas de marcado a destinos, le recomendamos que elija **ninguno** pa
 
 Si no ha asignado las teclas de marcado, elija una opción para la búsqueda en el **directorio**.
 
-**Marcado por nombre** : Si habilita esta opción, las personas que llamen pueden decir el nombre del usuario o escribirla en el teclado del teléfono. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con el marcado por nombre. (Puede establecer quién está y no incluido en el directorio de la página de [ámbito de marcado](#dial-scope) ).
+**Marcado por nombre** : Si habilita esta opción, las personas que llamen pueden decir el nombre del usuario o escribirla en el teclado del teléfono. Cualquier usuario en línea o cualquier usuario alojado de forma local con Skype empresarial Server es un usuario elegible y puede encontrarse con el marcado por nombre. (Puede establecer quién está y no incluido en el directorio de la página de [ámbito de marcado](#dial-scope) ).
 
-**Marcado por extensión** : Si habilita esta opción, las personas que llamen podrán conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la **función de marcado por extensión**. (Puede establecer quién está y no incluido en el directorio de la página de [ámbito de marcado](#dial-scope) ).
+**Marcado por extensión** : Si habilita esta opción, las personas que llamen podrán conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea o cualquier usuario alojado de forma local con Skype empresarial Server es un usuario elegible y puede encontrarse con **marcación por extensión**. (Puede establecer quién está y no incluido en el directorio de la página de [ámbito de marcado](#dial-scope) ).
 
 Los usuarios que desea que estén disponibles para marcar por extensión necesitan tener una extensión especificada como parte de uno de los siguientes atributos de teléfono definidos en Active Directory o Azure Active Directory (para obtener más información, consulte [Agregar usuarios individualmente o de forma masiva](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .)
 
@@ -119,8 +119,15 @@ Los usuarios que desea que estén disponibles para marcar por extensión necesit
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-El formato requerido para introducir la extensión en el campo número de teléfono del usuario es *+ \<phone number> ; ext \<extension> =* o *+ \<phone number> ; \<extension> x*.
-Ejemplo: Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "+ 15555555678; ext = 5678".
+El formato requerido para introducir la extensión en el campo número de teléfono del usuario es:
+
+- *+\<phone number>; ext =\<extension>*
+- *+\<phone number>w.x.y.\<extension>*
+- *w.x.y.\<extension>*
+
+- Ejemplo 1: Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "+ 15555555678; ext = 5678"
+- Ejemplo 2: Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "+ 15555555678x5678"
+- Ejemplo 3: Set-MsolUser-UserPrincipalName usern@domain.com-PhoneNumber "x5678"
 
 Puede establecer la extensión en el [centro de administración de Microsoft 365](https://admin.microsoft.com/) o en el [centro de administración de Azure Active Directory](https://aad.portal.azure.com). Pueden pasar hasta 12 horas antes de que los cambios estén disponibles para los operadores automáticos y las colas de llamadas.
 
@@ -175,7 +182,7 @@ Cuando haya agregado todos los días no laborables, haga clic en **siguiente**.
 
 ![Captura de pantalla del ámbito de marcado opciones para incluir y excluir](media/auto-attendant-dial-scope.png)
 
-El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando una persona que llama usa el método de marcado por nombre o la extensión de marcado. El valor predeterminado de **todos los usuarios en línea** incluye todos los usuarios de su organización que son usuarios en línea con una licencia de sistema de teléfono o que se han hospedado de forma local con Skype empresarial Server.
+El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando una persona que llama usa el método de marcado por nombre o la extensión de marcado. El valor predeterminado de **todos los usuarios en línea** incluye todos los usuarios de su organización que son usuarios en línea o que se hospedan de forma local con Skype empresarial Server.
 
 Puede incluir o excluir determinados usuarios seleccionando **grupo de usuarios personalizado** en **incluir** o **excluir** y eligiendo uno o varios grupos de Microsoft 365, listas de distribución o grupos de seguridad. Por ejemplo, es posible que desee excluir ejecutivos de su organización del directorio de marcado. (Si un usuario está en ambas listas, se excluirá del directorio).
 

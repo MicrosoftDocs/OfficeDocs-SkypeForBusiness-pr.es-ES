@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para socios de Microsoft y/o para operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: fb7e89bab49bf92f505c2ca50950e78492186c24
+ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655527"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750590"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -87,7 +87,7 @@ En el diagrama siguiente se resumen los requisitos para el dominio, los subdomin
 
 ![Diagrama que muestra los requisitos para los dominios y el encabezado del contacto](media/direct-routing-1-sbc-requirements.png)
 
-La SBC necesita un certificado para autenticar las conexiones. Para el escenario de hospedaje de SBC, el proveedor debe solicitar un certificado con SAN * \* .base_domain (por ejemplo, \* . customers.adatum.BIZ)*. Este certificado se puede usar para autenticar conexiones a varios inquilinos servidos desde un único SBC.
+La SBC necesita un certificado para autenticar las conexiones. Para el escenario de hospedaje de SBC, el proveedor debe solicitar un certificado con SAN *\* .base_domain (por ejemplo, \* . customers.adatum.BIZ)*. Este certificado se puede usar para autenticar conexiones a varios inquilinos servidos desde un único SBC.
 
 
 La siguiente tabla es un ejemplo de una configuración.
@@ -114,13 +114,13 @@ Para configurar la base y los subdominios, siga los pasos que se describen a con
 
 Solo puede agregar dominios nuevos si inició sesión en el centro de administración de Microsoft 365 como administrador global. 
 
-Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365 ( https://portal.office.com) , vaya a **usuarios**  >  **activos**y, a continuación, compruebe que tiene un rol de administrador global. 
+Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365 ( https://portal.office.com) , vaya a **usuarios**  >  **activos** y, a continuación, compruebe que tiene un rol de administrador global. 
 
 Para obtener más información acerca de los roles de administrador y cómo asignar un rol en Microsoft 365 u Office 365, consulte [acerca de los roles de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Agregar un dominio base al inquilino y comprobarlo
 
-1. En el centro de administración de Microsoft 365, vaya a dominios de **configuración**  >  **Domains**  >  **Agregar dominio**.
+1. En el centro de administración de Microsoft 365, vaya a dominios de **configuración**  >    >  **Agregar dominio**.
 2. En el cuadro **Escriba un dominio** , escriba el FQDN del dominio base. En el ejemplo siguiente, el dominio base es *customers.adatum.BIZ*.
 
     ![Captura de pantalla que muestra la página Agregar un dominio](media/direct-routing-2-sbc-add-domain.png)
@@ -130,8 +130,8 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
     ![Captura de pantalla que muestra la confirmación de un nombre de dominio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
-5. Haga clic en **siguiente**y, en la página **Actualizar configuración DNS** , seleccione **agregaré los registros DNS** y haga clic en **siguiente**.
-6. En la página siguiente, borre todos los valores (a menos que desee usar el nombre de dominio para Exchange, SharePoint o Teams/Skype empresarial), haga clic en **siguiente**y, a continuación, haga clic en **Finalizar**. Asegúrese de que el nuevo dominio se encuentra en el estado de instalación completada.
+5. Haga clic en **siguiente** y, en la página **Actualizar configuración DNS** , seleccione **agregaré los registros DNS** y haga clic en **siguiente**.
+6. En la página siguiente, borre todos los valores (a menos que desee usar el nombre de dominio para Exchange, SharePoint o Teams/Skype empresarial), haga clic en **siguiente** y, a continuación, haga clic en **Finalizar**. Asegúrese de que el nuevo dominio se encuentra en el estado de instalación completada.
 
     ![Captura de pantalla que muestra los dominios con el estado de configuración completado](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -155,12 +155,12 @@ Tendrá que crear un nombre de subdominio único para cada cliente. En este ejem
 
 Solo puede agregar dominios nuevos si inició sesión en el centro de administración de Microsoft 365 como administrador global. 
 
-Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365 ( https://portal.office.com) , vaya a **usuarios**  >  **activos**y, a continuación, compruebe que tiene un rol de administrador global. 
+Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365 ( https://portal.office.com) , vaya a **usuarios**  >  **activos** y, a continuación, compruebe que tiene un rol de administrador global. 
 
 Para obtener más información acerca de los roles de administrador y cómo asignar un rol en Microsoft 365 u Office 365, consulte [acerca de los roles de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Agregar un subdominio al inquilino del cliente y comprobarlo
-1. En el centro de administración de Microsoft 365, vaya a dominios de **configuración**  >  **Domains**  >  **Agregar dominio**.
+1. En el centro de administración de Microsoft 365, vaya a dominios de **configuración**  >    >  **Agregar dominio**.
 2. En el cuadro **Escriba un dominio** , escriba el FQDN del subdominio para este inquilino. En el ejemplo siguiente, el subdominio es sbc1.customers.adatum.biz.
 
     ![Captura de pantalla de la página Agregar un dominio](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -170,7 +170,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
     ![Captura de pantalla de la página comprobar dominio](media/direct-routing-6-sbc-verify-customer-domain.png)
 
-5. Haga clic en **siguiente**y anote el valor txt generado para comprobar el nombre de dominio.
+5. Haga clic en **siguiente** y anote el valor txt generado para comprobar el nombre de dominio.
 
     ![Captura de pantalla de registros de texto en la página comprobar dominio](media/direct-routing-7-sbc-verify-domain-txt.png)
 
@@ -196,6 +196,9 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 11. Asegúrese de que el estado es de **configuración completada**. 
     
     ![Captura de pantalla de la página que muestra el estado de configuración completado](media/direct-routing-12-sbc-setup-complete.png)
+    
+> [!NOTE]
+> La dirección URL base y el subdominio de cada cliente debe estar en el mismo inquilino para permitirle agregar un tronco de _ruta directo_ .
 
 ### <a name="activate-the-subdomain-name"></a>Activar el nombre del subdominio
 
@@ -264,4 +267,3 @@ Para configurar la conmutación por error en un entorno multiinquilino, tendrá 
 [Planear el enrutamiento directo](direct-routing-plan.md)
 
 [Configurar el enrutamiento directo](direct-routing-configure.md)
-

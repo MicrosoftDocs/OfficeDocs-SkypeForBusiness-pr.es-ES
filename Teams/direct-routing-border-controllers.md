@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Administrador puede saber qué controladores de borde de sesión (SBCs) se han certificado para el enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef74ecae93602939e0cdd902b1599ef79c5303c9
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 1422722cd55337cb5bf7dd9a534d3099b9999776
+ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712298"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750580"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -82,6 +82,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                     [Italtel](https://www.italtel.com/)|    CI de NetMatch-S     |     &#10004;     |           |       5,0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2,16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orquídea (vínculo)    |     &#10004;     |           |      3,1        |     |    | 
+|                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    SBC de Teams    |     &#10004;     |     &#10004;      |      1,6        |     |    | 
 
 <br/>
 <br/>
