@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
-ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
+ms.openlocfilehash: b37fcadb89c0ae88e48c20ab669aa91aef6d2f02
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002202"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757775"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para realizar llamadas & reuniones
 
 La grabación basada en directivas permite a las organizaciones que adoptan Microsoft Teams las llamadas y reuniones que estipulan, mediante una directiva administrativa, cuando las llamadas y las reuniones en línea deben grabarse y capturarse automáticamente para su procesamiento y retención posterior, según lo requiera la política corporativa o normativa pertinente.
 
-Teams ha sido mejorado para admitir la integración de soluciones de grabación de terceros, entre las que se incluyen la funcionalidad de plataforma, las experiencias de usuario y las interfaces administrativas necesarias para proporcionar una solución completa para configurar, administrar, registrar, almacenar y analizar comunicaciones de Teams. Esto incluye las API y eventos de la plataforma de comunicaciones para la grabación, que ofrece:
+Teams ha sido mejorado para admitir la integración de soluciones de grabación de terceros, entre las que se incluyen la funcionalidad de plataforma, las experiencias de usuario y las interfaces administrativas necesarias para proporcionar una solución completa para configurar, administrar, registrar, almacenar y analizar comunicaciones de Teams. Las mejoras incluyen los eventos y las API de la plataforma de comunicaciones para la grabación, que proporcionan:
 
 - Captura multimedia sin problemas y de alta calidad en todos los dispositivos y todos los puntos de conexión compatibles con audio, vídeo, pantalla compartida y chat.
 
@@ -42,7 +42,7 @@ Teams ha sido mejorado para admitir la integración de soluciones de grabación 
 
 La grabación de cumplimiento se puede habilitar en los usuarios de Microsoft 365 A3/A5/E3/E5 o Business Premium y Office 365 A3/A5/E3/E5. 
 
-Las capacidades de integración de soluciones de grabación de cumplimiento también fueron revisadas en el encendido 2019 de la [<span class="underline">sesión de cumplimiento y Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
+Las capacidades de integración de soluciones de grabación de cumplimiento también fueron revisadas en el encendido 2019 de la [<span class="underline">sesión de cumplimiento y Microsoft Teams</span>](https://myignite.microsoft.com/archives/IG19-VCE40).
 
 ## <a name="teams-interaction-recording-overview"></a>Introducción a la grabación de interacción de Teams
 
@@ -52,14 +52,14 @@ Los casos de uso de grabación de interacción pueden dividirse en cuatro catego
 
 Cada una de las categorías conlleva diferentes requisitos sobre cómo se inician las grabaciones, qué se graba, dónde se almacenan las grabaciones, a quién se notifica, quién controla Access y cómo se administra la retención.
 
-| Tipo                   | Prácticos        | Funcionan         | Organización general      | Regulado por la organización | Interceptación lícita   |
-| ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
-| Inició              | Usuario               | Aplicación/solución       | Administrador (sistema)     | Administrador (sistema)  | LEA                |
-| Target                 | Por llamada/reunión | Por llamada/reunión | Por llamada/reunión | Por usuario        | Por punto de conexión/ha |
-| Propietario del almacenamiento          | Usuario               | Aplicación                | Administrador              | Cumplimiento      | LEA                |
-| ¿Se requiere notificación? | Sí                | Sí                | Sí                | Sí             | No                 |
-| Propietario de acceso           | Usuario               | Aplicación                | Administrador              | Cumplimiento      | LEA                |
-| ¿Directiva de retención?      | Opcional           | Sí                | Sí                | Sí             | Sí                |
+| Tipo                   | Comodidad (grabación normal de equipos) | Regulado por la organización (grabación de cumplimiento) |
+| ---------------------- | ------------------ | --------------- |
+| Inició              | Usuario               | Administrador (sistema)  |
+| Target                 | Por llamada/reunión | Por usuario        |
+| Propietario del almacenamiento          | Usuario               | Cumplimiento      |
+| ¿Se requiere notificación? | Sí                | Sí             |
+| Propietario de acceso           | Usuario               | Cumplimiento      |
+| ¿Directiva de retención?      | Opcional           | Sí             |
 
 Teams proporciona diversas funciones para la grabación [<span class="underline">cómoda</span>](https://docs.microsoft.com/microsoftteams/cloud-recording) y funcional de reuniones y eventos en directo. La grabación organizacional significa permitir a las organizaciones que adoptan equipos de llamadas y reuniones establecerse, a través de una directiva administrativa, cuando las llamadas y las reuniones en línea deben grabarse y capturarse de forma automática para su procesamiento y retención posterior, según lo requiera la política corporativa o normativa pertinente. Los usuarios de esta Directiva serán conscientes de que sus interacciones digitales con equipos se graban, pero no podrán deshabilitar la grabación y no tendrán acceso a la grabación una vez completada la interacción. La grabación se convierte en parte del archivo organizativo disponible para el cumplimiento y el personal legal de eDiscovery, la retención legal y otros usos de la retención corporativa.
 
@@ -206,12 +206,13 @@ La compatibilidad con las notificaciones se habilita con las experiencias del cl
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Grabación de cumplimiento para los programas de certificación de Teams
 
-Además de publicar API disponibles públicamente para que los socios puedan desarrollar e integrar soluciones de CCaaS con Teams, hemos desarrollado el programa de certificación de la grabación de cumplimiento para Microsoft Teams a fin de proporcionar a los clientes la seguridad de que la solución de cada socio participante ha sido probada y verificada para proporcionar la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.  
+Además de publicar las API disponibles públicamente, lo cual permite a los socios desarrollar e integrar soluciones CCaaS con Teams, hemos desarrollado el programa de certificación de la grabación de cumplimiento para Microsoft Teams para ofrecer a los clientes la seguridad de que la solución de cada socio participante ha sido probada y verificada para proporcionar la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.  
 
 Los siguientes socios han certificado su solución para Microsoft Teams.
 
 |Servidor|Sitio web de soluciones |
 |:--|:--|
+|AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
 |ALINEA |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 
 
@@ -220,7 +221,6 @@ Los siguientes socios están en el proceso de certificar su solución para Micro
 |Servidor|Sitio web de soluciones |
 |:--|:--|
 |Tecnologías ASC |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
-|AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Un doblador |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Tecnologías de Landis |[https://landistechnologies.com/](https://landistechnologies.com/) |
@@ -232,6 +232,6 @@ Los siguientes socios están en el proceso de certificar su solución para Micro
 
 Esta lista se actualizará a medida que se unan más socios y cumplan los criterios de certificación.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Si eres un proveedor y deseas participar en el programa de certificación, envía un mensaje de correo  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>.

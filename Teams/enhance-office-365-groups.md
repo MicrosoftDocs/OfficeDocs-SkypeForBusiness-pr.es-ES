@@ -1,8 +1,8 @@
 ---
 title: Mejorar los grupos de Microsoft 365 existentes
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d845dff067f23bc923b53a0dcf7ee6351a5d24c7
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6983a828ccb2a59aad4e12c46db0fe873d3bfef3
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582307"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757695"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Mejorar los grupos de Microsoft 365 existentes con Microsoft Teams
 =======================================================
 
 Los usuarios de Microsoft Teams pueden mejorar un grupo de Microsoft 365 existente con la funcionalidad de Teams. Cuando se trata de mejorar un grupo público de Microsoft 365, los usuarios pueden hacerlo si el número de miembros es igual o inferior a 5.000.
 
-Para ello, los usuarios deben pasar por el flujo de creación de un equipo nuevo desde el cliente de Microsoft Teams. Seleccione **crear desde**  >  **grupo de Microsoft 365**y, a continuación, elija el grupo existente que desea mejorar con Teams. Los miembros del grupo existentes se agregarán automáticamente como miembros del equipo.
+Para ello, los usuarios deben pasar por el flujo de creación de un equipo nuevo desde el cliente de Microsoft Teams. Seleccione **crear desde**  >  **grupo de Microsoft 365** y, a continuación, elija el grupo existente que desea mejorar con Teams. Los miembros del grupo existentes se agregarán automáticamente como miembros del equipo.
 
 > [!IMPORTANT]
 > Solo los propietarios del grupo 365 de Microsoft tienen permiso para mejorar un grupo existente con Teams, y ese grupo debe contener menos de 5.000 usuarios. Los equipos que ya se han mejorado no se mostrarán en la lista.

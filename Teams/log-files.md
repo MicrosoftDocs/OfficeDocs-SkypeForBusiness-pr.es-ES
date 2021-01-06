@@ -16,17 +16,17 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 295886e7a5c50107672d17dcfa06067ba1b0ac9b
+ms.sourcegitcommit: 48b8801b86a6c900c224853590daa3cb3c8d4ded
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650833"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49761098"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
 
-Hay tres tipos de archivos de registro que el cliente genera automáticamente y que pueden usarse para ayudar en la solución de problemas de Microsoft Teams.
+Hay tres tipos de archivos de registro generados automáticamente por el cliente, que se pueden aprovechar para ayudar en la solución de problemas de Microsoft Teams:
 
 -   Registros de depuración
 
@@ -34,9 +34,12 @@ Hay tres tipos de archivos de registro que el cliente genera automáticamente y 
 
 -   Registros de escritorio
 
-Cuando se crea una solicitud de soporte técnico con Soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Disponer de estos registros con antelación, antes de crear la solicitud de soporte técnico, permitirá a Microsoft empezar rápidamente a resolver el problema. Los registros de medios o de escritorio solo son necesarios si los solicita Microsoft.
+Al crear una solicitud de soporte con el soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Si cierra la sesión de depuración antes de crear la solicitud de soporte técnico, Microsoft le permitirá comenzar rápidamente a solucionar el problema. Los registros de **medios** o de **escritorio** solo son necesarios si lo solicita Microsoft.
 
-En esta table se muestran los distintos clientes y sus registros asociados. Los archivos de registro se almacenan en ubicaciones específicas del cliente y el sistema operativo.
+> [!NOTE]
+> En este artículo, el término **registros de depuración** hace referencia a los registros que se usan para la solución de problemas. Sin embargo, los archivos que se generan para estos registros contendrán el término **registros de diagnóstico** en sus nombres.  
+
+En la tabla siguiente se describen los distintos clientes y los registros asociados. Los archivos de registro se almacenan en ubicaciones específicas del cliente y del sistema operativo.
 
 
 |Cliente |Depuración|Escritorio|Medios|
@@ -53,17 +56,17 @@ Para ver una lista completa de los sistemas operativos y los exploradores compat
 <a name="debug-logs"></a>Registros de depuración
 ---------------------------
 
-Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Los registros de depuración los generan los clientes de escritorio de Windows y Mac, así como los clientes basados en explorador. Los registros se basan en texto y se leen de abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y los nuevos registros se crean al iniciar sesión en el cliente.
+Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Los registros de depuración los generan los clientes de escritorio de Windows y Mac, así como los clientes basados en el explorador. Los registros se basan en texto y se leen de abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y se crean nuevos registros al iniciar sesión en el cliente.
 
 Los registros de depuración muestran los siguientes flujos de datos:
 
 -   Inicio de sesión
 
--   Solicitudes de conexión a servicios de nivel intermedio
+-   Solicitudes de conexión a servicios de nivel medio
 
 -   Llamada/conversación
 
-Los registros de depuración se generan usando los siguientes métodos de SO específicos:
+Los registros de depuración se generan con los siguientes métodos específicos del sistema operativo:
 
 -   Windows:
 
@@ -77,7 +80,7 @@ Los registros de depuración se generan usando los siguientes métodos de SO esp
 
       Método abreviado de teclado: Ctrl + Alt + Mayús + 1
 
-Los registros de depuración se descargan automáticamente en las siguientes carpetas.
+Los registros de depuración se descargan automáticamente en las siguientes carpetas:
 
 -   Windows: %userprofile%\\Descargas
 
@@ -92,7 +95,7 @@ Los registros de depuración se descargan automáticamente en las siguientes car
 
 Los registros multimedia contienen datos de diagnóstico sobre el audio, el vídeo y la pantalla compartida en reuniones de Teams. Son necesarios para los casos de soporte técnico que están vinculados a problemas relacionados con la llamada.
 
-El registro multimedia está desactivado de forma predeterminada. Para registrar los datos de diagnóstico de las reuniones de Teams, los usuarios deben activar la opción en el cliente de Teams. Vaya a **configuración**  >  **General**, active la casilla **Habilitar el registro de diagnósticos de reunión (debe reiniciar Teams**) y, a continuación, reinicie Teams y reproduzca el problema. 
+El registro multimedia está desactivado de forma predeterminada. Para registrar los datos de diagnóstico de las reuniones de Teams, los usuarios deben activar la opción en el cliente de Teams. Vaya a **configuración**  >  **General**, active la casilla **Habilitar el registro de diagnósticos de reunión (debe reiniciar Teams**), reinicie Teams y reproduzca el problema. 
 
 En la tabla siguiente se describen las ubicaciones de los registros de medios. Cuando envíe los archivos de registro al soporte técnico de Microsoft, Compruebe la marca de tiempo de los archivos de registro para asegurarse de que los registros cubren el intervalo de tiempo cuando reproducido el problema.
 
@@ -119,19 +122,19 @@ Esta es una lista de los archivos de registro que se generan y la información q
 <a name="desktop-logs"></a>Registros de escritorio
 ---------------------
 
-Los registros de escritorio, también conocidos como registros de programa previo, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros de medios, estos registros solo son necesarios si los solicita Microsoft. Los registros son archivos de texto y se pueden leer con cualquier editor de texto de arriba abajo.
+Los registros de escritorio, también conocidos como registros del programa previo, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros de medios, estos registros solo son necesarios si lo solicita Microsoft. Los registros se basan en texto y se pueden leer con cualquier editor basado en texto en un formato descendente.
 
 Windows:
 
-1.  Haga clic con el botón derecho en el icono de **Microsoft Teams** de la bandeja del sistema y seleccione **obtener registros** .
+ - Haga clic con el botón derecho en el icono de **Microsoft Teams** de la bandeja del sistema y seleccione **obtener registros**.
 
 Mac OsX:
 
-1.  Elija **Obtener registros** en el menú desplegabe **Ayuda**.
+ - Elija **obtener registros** en el menú desplegable **ayuda** .
 
 Linux
 
-1.  Haga clic en el icono de **Microsoft Teams** de la bandeja del sistema y seleccione **obtener registros** .
+ - Haga clic en el icono de **Microsoft Teams** de la bandeja del sistema y seleccione **obtener registros**.
 
 |Cliente |Ubicación |
 |---------|---------|
