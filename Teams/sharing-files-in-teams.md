@@ -16,55 +16,55 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 98935f7d8629e22b733b12f3f046ccb7af36b396
 ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/15/2020
 ms.locfileid: "45138382"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Compartir archivos en Microsoft Teams
 
-En Microsoft Teams, los usuarios pueden compartir contenido con otros usuarios de Teams dentro y fuera de su organización. El uso compartido en Teams se basa en la configuración establecida en SharePoint y OneDrive, por lo que todo lo que configure para SharePoint y OneDrive controlará también el uso compartido en Teams.
+En Microsoft Teams, los usuarios pueden compartir contenido con otros usuarios de Teams dentro y fuera de su organización. El uso compartido en Teams se basa en la configuración de SharePoint y OneDrive, por lo que todo lo que configure para SharePoint y OneDrive también controlará el uso compartido en Teams.
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Descripción general
 
-Los usuarios pueden compartir archivos de OneDrive, desde los equipos y los sitios a los que tienen acceso y desde su equipo. Para compartir un archivo, los usuarios pueden hacer lo siguiente:
+Los usuarios pueden compartir archivos desde los equipos y sitios a los que tengan acceso en OneDrive, así como también desde su equipo personal. Para compartir un archivo, los usuarios pueden hacer lo siguiente:
 
-- En un canal, haga clic en **adjuntar** (el icono de clip), seleccione **recientes**, **examinar equipos y canales**, **OneDrive**o **cargar desde mi equipo**y, a continuación, elija el archivo que desea compartir. <br> 
-    ![Captura de pantalla que muestra el uso compartido de un archivo desde un canal](media/share-files-channel.png)
-- En un chat, haga clic en **adjuntar** (el icono de clip), seleccione o **OneDrive** o **cargar desde mi equipo**y, a continuación, elija el archivo que desea compartir. <br>
-    ![Captura de pantalla que muestra compartir un archivo desde un chat](media/share-files-chat.png)
-- Copie y pegue el vínculo para compartir en el cuadro de redacción.<br>
-    ![Captura de pantalla que muestra la vista previa del archivo en el cuadro de redacción](media/share-files-link.png)
+- En el canal, haga clic en **Adjuntar** (icono de clip), seleccione **Recientes**, **Buscar equipos y canales**, **OneDrive** o bien, **Cargar desde mi PC** y, a continuación, elija el archivo que desea compartir. <br> 
+    ![Recorte de pantalla que muestra cómo compartir un archivo desde un canal](media/share-files-channel.png)
+- En el chat, haga clic en **Adjuntar** (icono de clip) y seleccione **OneDrive** o bien, **Cargar desde mi PC** y, a continuación, elija el archivo que desea compartir. <br>
+    ![Recorte de pantalla que muestra cómo compartir un archivo desde un chat](media/share-files-chat.png)
+- Copie y pegue el vínculo para compartir en el cuadro para redactar.<br>
+    ![Recorte de pantalla que muestra la vista previa del archivo en el cuadro para redactar](media/share-files-link.png)
 
 ### <a name="what-you-need-to-know-about-the-file-sharing-experience"></a>Lo que debe saber sobre la experiencia de uso compartido de archivos
 
-### <a name="permissions-of-shared-files-and-sharing-links"></a>Permisos de archivos compartidos y vínculos de uso compartido
+### <a name="permissions-of-shared-files-and-sharing-links"></a>Permisos de los archivos compartidos y vínculos de uso compartido
 
-Cuando los usuarios comparten un archivo desplazándose hasta él en OneDrive o en equipos y canales, a todos los destinatarios se les concede acceso junto con los [permisos predeterminados que se establecen en el nivel de la organización](https://docs.microsoft.com/sharepoint/change-default-sharing-link).
+Cuando los usuarios comparten un archivo buscándolo en OneDrive o en los equipos y canales, se concede acceso a todos los destinatarios además del [permiso predeterminado que se establece a nivel de la organización](https://docs.microsoft.com/sharepoint/change-default-sharing-link).
 
-Cuando un usuario copia y pega un vínculo de uso compartido, se consiguen los permisos establecidos en ese vínculo para compartir y la dirección URL de SharePoint se acorta al nombre de archivo. En otras palabras, Teams usa solo el nombre de archivo para vincular a un archivo.
+Cuando un usuario copia y pega un vínculo para compartir, los permisos definidos en el vínculo para compartir se respetan y la dirección URL de SharePoint se acorta al nombre de archivo. Es decir, Teams solo usa el nombre de archivo como vínculo para el archivo.
 
-Cuando los usuarios comparten un archivo desde Teams, pueden establecer quién puede acceder al archivo de la misma manera que en Microsoft 365. Pueden dar acceso a cualquier persona, a las personas de su organización, a personas con acceso existente o a personas específicas (que pueden incluir a las personas en un chat de 1:1, una conversación grupal o un canal).  Cuando un archivo está compartido, la vista previa del archivo está disponible en el mensaje, junto con todas las acciones de archivo, como **abrir en línea**, **Descargar**y **Copiar vínculo**. De forma predeterminada, el archivo se abre en Teams. En ocasiones, es posible que el vínculo para compartir no se haya convertido a una vista previa de archivo en el momento en que un usuario envía el mensaje. El sistema generará la vista previa del archivo, pero en este escenario, el vínculo para compartir no se acortará al único nombre de archivo.
+Cuando los usuarios comparten un archivo desde Teams, pueden configurar quién puede acceder al archivo de la misma forma en que lo harían en Microsoft 365. Pueden permitir el acceso a cualquier usuario, a los usuarios de su organización, a los usuarios con acceso previo o a personas específicas (entre las que se incluyen las personas en un chat individual, un chat de grupo o un canal).  Al compartir un archivo, la vista previa del archivo estará disponible en el mensaje, junto con todas sus acciones respectivas como **Abrir en línea**, **Descargar** y **Copiar vínculo**. De forma predeterminada, el archivo se abrirá en Teams. En ocasiones, puede que el vínculo para compartir no se haya convertido a la vista previa del archivo para el momento en que el usuario envía el mensaje. El sistema generará la vista previa del archivo, pero, en este caso particular, el vínculo para compartir no se reducirá únicamente al nombre de archivo.
 
-Cuando los usuarios comparten un archivo en un canal o una conversación, se les notifica si algunos o todos los destinatarios no tienen permiso para ver el archivo. Pueden cambiar los permisos del archivo antes de compartirlo haciendo clic en la flecha situada junto a la vista previa del archivo que aparece en el mensaje.
+Cuando un usuario comparte un archivo en un canal o chat, se le notifica cuáles son los destinatarios que no cuentan con el permiso para ver el archivo. El usuario podrá cambiar los permisos del archivo antes de compartirlo haciendo clic en la flecha situada junto a la vista previa del archivo que ahora aparece en el mensaje.
 
-![Captura de pantalla de la notificación si los destinatarios no tienen permisos](media/share-files-permissions.png)
+![Recorte de pantalla de la notificación si los destinatarios no tienen los permisos](media/share-files-permissions.png)
 
 ### <a name="copy-a-sharing-link-in-teams"></a>Copiar un vínculo para compartir en Teams
 
-Los usuarios pueden copiar un vínculo para compartir de SharePoint y cambiar los permisos de uso compartido del mismo modo que en Microsoft 365. Pueden conceder acceso a cualquier persona, a personas de su organización, a personas con acceso existente o a personas específicas. El permiso predeterminado del vínculo es el mismo que el conjunto de permisos predeterminado en el nivel de la organización, a menos que los permisos del nivel del sitio de SharePoint lo reemplacen.
+Los usuarios pueden copiar un vínculo para compartir de SharePoint y cambiar los permisos de uso compartido de la misma forma en que lo harían en Microsoft 365. Pueden permitir el acceso a cualquier persona, a los usuarios de la organización, a personas con acceso previo o a personas específicas. El permiso predeterminado del vínculo es el mismo que el conjunto predeterminado de permisos a nivel de la organización, a menos que los permisos a nivel del sitio de SharePoint los anulen.
 
 ## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>Configurar el uso compartido en OneDrive y SharePoint
 
-Para obtener más información sobre cómo compartir archivos en OneDrive y SharePoint, incluido cómo configurar el uso compartido y cómo activar y desactivar el uso compartido, vea:
+Para más información sobre el uso compartido de archivos en OneDrive y SharePoint, incluido cómo configurar el uso compartido y cómo activarlo o desactivarlo, consulte:
 
-- [Información general sobre el uso compartido externo](https://docs.microsoft.com/sharepoint/external-sharing-overview) : describe lo que ocurre cuando los usuarios comparten, en función de lo que estén compartiendo y con quién.
+- [Información general sobre el uso compartido externo](https://docs.microsoft.com/sharepoint/external-sharing-overview): Describe lo que ocurre cuando los usuarios comparten de acuerdo con lo que compartan y con quién.
 
-- [Administrar la configuración de uso compartido](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off) : describe cómo los administradores globales y de SharePoint pueden cambiar la configuración de uso compartido en el nivel de organización para SharePoint y OneDrive.
+- [Administrar configuración de uso compartido](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off): Describe cómo los administradores globales y de SharePoint pueden cambiar su configuración de uso compartido a nivel de la organización para SharePoint y OneDrive.
 
-- [Activar o desactivar el uso compartido externo en un sitio](https://docs.microsoft.com/sharepoint/change-external-sharing-site) : describe cómo los administradores globales y de SharePoint pueden activar o desactivar el uso compartido externo en un sitio.
+- [Activar o desactivar el uso compartido externo de un sitio](https://docs.microsoft.com/sharepoint/change-external-sharing-site): Describe la forma en que los administradores de SharePoint y globales pueden activar o desactivar el uso compartido externo de un sitio.
 
-- [Cambiar el tipo de vínculo predeterminado para un sitio](https://docs.microsoft.com/sharepoint/change-default-sharing-link) : describe cómo establecer el tipo de vínculo predeterminado para que sea más restrictivo.
+- [Cambiar el tipo de vínculo predeterminado para un sitio](https://docs.microsoft.com/sharepoint/change-default-sharing-link): Describe cómo establecer el tipo de vínculo predeterminado para que sea más restrictivo.
 
 ## <a name="more-information"></a>Más información
 
