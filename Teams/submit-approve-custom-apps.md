@@ -17,16 +17,16 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con la API de envío de aplicaciones de Teams en Microsoft Teams.
-ms.openlocfilehash: 5b6c8512943527a82b3477579e535bcc151331c0
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 058911d2d84d71ca6175e2bdeb6866807c218631
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731098"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776891"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API de envío de la aplicación de Teams
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Descripción general
 
 > [!NOTE]
 > Al publicar una aplicación de Teams personalizada, esta estará disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la forma de usarla depende de cómo obtenga la aplicación. **Este artículo se centra en cómo aprobar y publicar una aplicación personalizada que envía un desarrollador a través de la API de envío de la aplicación de Teams**. El otro método, cargar una aplicación personalizada, se usa cuando un desarrollador le envía un paquete de la aplicación en formato. zip. Para obtener más información sobre ese método, vea <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">publicar una aplicación personalizada mediante la carga de un paquete de la aplicación</a>.
@@ -47,7 +47,7 @@ La plataforma de desarrollo de Microsoft Teams facilita la integración de sus p
 
 ### <a name="submit-the-app"></a>Enviar la aplicación
 
-Cuando la aplicación está lista para su uso en producción, el desarrollador puede enviar la aplicación mediante la API de envío de la aplicación de Teams, a la que se puede llamar desde la <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">API Graph</a>, un entorno de desarrollo integrado (IDE), como código de Visual Studio, o una plataforma como Power apps y Power virtual Agents. Esto hace que la aplicación esté disponible en la página <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Administrar aplicaciones</a> del centro de administración de Microsoft Teams, donde usted, el administrador, puede revisarla y aprobarla.
+Cuando la aplicación está lista para su uso en producción, el desarrollador puede enviar la aplicación mediante la API de envío de la aplicación de Teams, a la que se puede llamar desde la <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">API Graph</a>, un entorno de desarrollo integrado (IDE), como código de Visual Studio, o una plataforma como Power apps y Power virtual Agents. Esto hace que la aplicación esté disponible en la página <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Administrar aplicaciones</a> del centro de administración de Microsoft Teams, donde usted, el administrador, puede revisarla y aprobarla.
 
 La API de envío de la aplicación de Teams, <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">creada en Microsoft Graph</a>, permite a su organización desarrollar en la plataforma de su elección y automatiza el proceso de envío para la aprobación de aplicaciones personalizadas en Teams.
 
