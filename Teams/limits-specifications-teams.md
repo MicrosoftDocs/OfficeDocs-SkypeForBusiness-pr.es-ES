@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: siunies
 description: Este artículo describe los límites, especificaciones y otros requisitos que se aplican a Microsoft Teams.
 localization_priority: Priority
 f1.keywords:
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: b64042a318e6967523e80e62d1cca429bc7f7e88
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682359"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776851"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -69,16 +69,18 @@ El chat de Teams funciona en un servidor back-end de Microsoft Exchange, por lo 
 
 |Característica  | Límite máximo  |
 |---------|---------|
-|Número de usuarios en un chat privado<sup>1</sup>  | 250 |
+|Número de usuarios en un chat privado<sup>1</sup>  | 250<sup>2</sup> |
 |Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
-|Cantidad de datos adjuntos de archivo<sup>2</sup>  |10     |
-|Tamaño de chat | Aproximadamente 28 KB por publicación<sup>3</sup> |
+|Número de datos adjuntos de archivos<sup>3</sup>  |10     |
+|Tamaño de chat | Aproximadamente 28 KB por publicación<sup>4</sup> |
 
 <sup>1</sup> Si tiene más de 20 contactos en un chat, se desactivarán las siguientes características del chat: mensajes de respuesta automáticos de Outlook y de estado de Teams; indicador de escritura; llamadas de audio y vídeo; uso compartido; confirmaciones de lectura. El botón de "Establecer opciones de entrega" (!) también desaparece cuando hay más de 20 miembros en los chats de grupo privado.
 
-<sup>2</sup> Si el número de archivos adjuntos supera este límite, aparecerá un mensaje de error.
+<sup>2</sup> Solo se pueden agregar a una conversación de grupo 200 miembros cada vez. [Consulte este artículo para obtener más información](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
-<sup>3</sup> 28 KB es un límite aproximado, ya que incluye el mensaje en sí (texto, vínculos a imágenes, etc.), las @menciones y las reacciones.
+<sup>3</sup> Si el número de archivos adjuntos supera este límite, aparecerá un mensaje de error.
+
+<sup>4</sup> 28 KB es un límite aproximado, ya que incluye el mensaje en sí (texto, vínculos a imágenes, etc.), las @menciones y las reacciones.
 
 ### <a name="emailing-a-channel"></a>Enviar un correo electrónico a un canal
 
@@ -127,7 +129,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 
 |Característica     | Límite máximo |
 |------------|---------------|
-|Número de personas en una reunión (pueden chatear y llamar)  | 350 |
+|Número de personas en una reunión (pueden chatear y llamar)  | 300 |
 |Cantidad de personas en una llamada de audio o vídeo que se ha originado desde la pestaña de chat | 20 |
 |Tamaño máximo de los archivos de PowerPoint | 2 GB|
 |Teams guarda las [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream y las deja disponibles para descarga local | 20 días |
@@ -169,7 +171,7 @@ Para obtener más información acerca de los eventos en directo y una comparaci�
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
 >- Difusión de un evento de 16 horas de duración
 >
-> Además, los eventos en directo de hasta 100 000 asistentes pueden planificarse con el programa de asistencia para Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Más información](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Además, los eventos en directo con hasta 100 000 asistentes pueden planearse con el programa de asistencia de Microsoft 365. El equipo evaluará cada solicitud y trabajará con usted para determinar las opciones disponibles. [Obtenga más información](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## <a name="presence-in-outlook"></a>Presencia en Outlook
 
