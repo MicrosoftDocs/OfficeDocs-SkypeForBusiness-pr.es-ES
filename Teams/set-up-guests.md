@@ -22,18 +22,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Obtenga más información sobre cómo habilitar o deshabilitar el acceso de invitado en Microsoft Teams como administrador de Office 365.
-ms.openlocfilehash: 0920e9d8b8184f7f7ca83a71f0bd97d3a4d78470
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
+ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031196"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49786782"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 
-Por defecto, el acceso de invitados está desactivado. Debe habilitar el acceso de invitado para Teams antes de que los administradores o los propietarios del equipo puedan agregar invitados.
+> [!Note]
 
-Después de habilitar el acceso de invitado, puede que se necesiten algunas horas para que los cambios se apliquen por completo. Si un usuario ve el mensaje "Póngase en contacto con su administrador" cuando intenta agregar un invitado a su equipo, es muy probable que el acceso de invitado no esté habilitado o que la configuración no haya entrado aún en vigor.
+> Hasta **febrero de 2021,** el acceso de invitado está desactivado de forma predeterminada. Debe habilitar el acceso de invitado para Teams antes de que los administradores o los propietarios del equipo puedan agregar invitados. Después de activar el acceso de invitado, los cambios pueden tardar unas horas en tener efecto. Si los usuarios  ven el mensaje Póngase en contacto con el administrador cuando intenten agregar un invitado a su equipo, es probable que el acceso de invitado no se haya activado o que la configuración no sea eficaz todavía. 
+
+> A partir de febrero de **2021,** el acceso de invitado en Microsoft Teams estará activado de forma predeterminada para los nuevos clientes & clientes existentes que no hayan configurado esta configuración. Cuando se implemente este cambio, si aún no ha configurado la funcionalidad de acceso de invitado en Microsoft Teams, esa funcionalidad se habilitará en su inquilino. Si desea que el acceso de invitado permanezca deshabilitado para su organización, tendrá  que confirmar que la configuración de acceso de invitado está desactivada en lugar del **valor predeterminado del servicio.**
 
 > [!IMPORTANT]
 > El habilitar el acceso de invitado depende de las características de Azure Active Directory, Microsoft 365, SharePoint y Teams. Para obtener más información, consulte [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
@@ -52,9 +54,9 @@ Después de habilitar el acceso de invitado, puede que se necesiten algunas hora
 
       - **Realizar llamadas privadas**: cambie esta opción a **Activado** para permitir que los invitados realicen llamadas entre compañeros.
       - **Permitir vídeo IP**: cambie esta opción a **Activado** para permitir que los invitados usen vídeo en sus llamadas y reuniones.
-      - **Modo de pantalla compartida**: esta configuración controla la disponibilidad de la pantalla compartida para los usuarios invitados. 
-          - Establezca esta opción como **Desactivado** para eliminar la posibilidad de que los invitados compartan sus pantallas en Teams. 
-          - Establezca esta opción como **Solicitud única** para permitir el uso compartido de aplicaciones individuales. 
+      - **Modo de pantalla compartida**: esta configuración controla la disponibilidad de la pantalla compartida para los usuarios invitados.
+          - Establezca esta opción como **Desactivado** para eliminar la posibilidad de que los invitados compartan sus pantallas en Teams.
+          - Establezca esta opción como **Solicitud única** para permitir el uso compartido de aplicaciones individuales.
           - Establezca esta opción como **Pantalla completa** para permitir el uso de pantalla completa compartida.
       - **Permitir Reunirse ahora**: establezca esta opción como **Activado** para permitir que los invitados usen la característica Reunirse ahora en Microsoft Teams.
       - **Editar mensajes enviados**: establezca esta opción como **Activado** para permitir que los invitados editen los mensajes que han enviado anteriormente.
@@ -64,13 +66,13 @@ Después de habilitar el acceso de invitado, puede que se necesiten algunas hora
       - **Clasificación de contenido Giphy**: seleccione una clasificación de la lista desplegable:
           - **Permitir todo el contenido**: los invitados podrán insertar todos los Giphy en chats, independientemente de la clasificación de contenido.
           - **Moderado**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma moderada.
-          - **Estricto**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma estricta.
+          - **Estricto:** los invitados pueden insertar imágenes de Giphy en los chats, pero no podrán insertar contenido para adultos.
       - **Use memes en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen Memes en conversaciones.
-      - **Usar adhesivos en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen adhesivos en conversaciones. 
+      - **Usar adhesivos en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen adhesivos en conversaciones.
 
     ![Configuración de permisos de invitado en Teams](media/manage-guest-access-image1.png)
 
-5. Haga clic en **Guardar**.
+5. Seleccione **Guardar**.
 
 ## <a name="external-access-federation-vs-guest-access"></a>Acceso externo (federación) frente a acceso de invitado
 
