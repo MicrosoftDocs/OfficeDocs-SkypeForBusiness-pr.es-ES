@@ -1155,6 +1155,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: Guía ancho de banda bajo para administradores de educación
           href: edu-remote-low-bandwidth.md
+        - name: Asistente de directiva de Microsoft Teams para Educación
+          href: easy-policy-setup-edu.md
         - name: Introducción a Insights
           href: class-insights.md
         - name: Tareas en Teams para Educación
