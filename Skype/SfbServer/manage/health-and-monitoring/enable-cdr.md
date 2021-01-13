@@ -1,8 +1,8 @@
 ---
-title: Habilitar la grabación de detalles de llamadas en Skype empresarial Server
+title: Habilitar el registro detallado de llamadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,41 +11,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Resumen: Aprenda a habilitar registros de grabación de detalles de llamadas (CDR) en Skype empresarial Server.'
-ms.openlocfilehash: 6c4460ac004ee15893b81f09f7bd59943365e64c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo habilitar registros de registro detallado de llamadas (CDR) en Skype Empresarial Server.'
+ms.openlocfilehash: 48d21be6d377df24e859c3ffa6bb8b7858076d29
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817980"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816890"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar la grabación de detalles de llamadas en Skype empresarial Server
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar el registro detallado de llamadas en Skype Empresarial Server
 
-**Resumen:** Obtenga información sobre cómo habilitar registros de grabación de detalles de llamadas (CDR) en Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo habilitar registros de registro detallado de llamadas (CDR) en Skype Empresarial Server.
 
 El registro detallado de llamadas (CDR) registra la información de uso y diagnóstico sobre actividades punto a punto, incluida la mensajería instantánea, llamadas de voz sobre IP (VoIP), uso compartido de aplicaciones, transferencia de archivos y reuniones. Los datos de uso pueden servir para calcular el retorno de la inversión y los datos de diagnóstico se pueden usar para solucionar problemas de actividades punto a punto y reuniones.
 
 Use el procedimiento siguiente para habilitar el registro detallado de llamadas (CDR) en toda la organización o en cada sitio de la organización.
 
 > [!NOTE]
-> Para poder habilitar el CDR necesita configurar la supervisión y una base de datos de supervisión. Para más información, mire [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
+> Para poder habilitar el CDR debe configurar la supervisión y una base de datos de supervisión. Para obtener más información, consulte [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Para habilitar CDR con el panel de control de Skype empresarial Server
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Para habilitar CDR con el Panel de control de Skype Empresarial Server
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Skype empresarial Server. .
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
 
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.
 
-3. En la barra de navegación de la izquierda, haga clic en **Supervisión y archivado** y en **Registro detallado de llamadas**.
+3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, en **Registro detallado de llamadas**.
 
-4. En la página **Registro detallado de llamadas**, haga clic en el sitio apropiado de la lista, seleccione **Acción** y, luego, haga clic en **Habilitar CDR**.
+4. En la página **Registro detallado de llamadas**, haga clic en el sitio apropiado de la lista, seleccione **Acción** y, a continuación, haga clic en **Habilitar CDR**.
 
     > [!NOTE]
     > CDR habilitado de forma predeterminada.
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Habilitar CDR con cmdlets de Windows PowerShell
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Habilitar CDR mediante cmdlets Windows PowerShell de datos
 
-Puede habilitar CDR mediante Windows PowerShell y el cmdlet **set-CsCdrConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Skype empresarial Server, consulte el artículo del blog ["Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype empresarial Server.
+Puede habilitar CDR mediante Windows PowerShell y el cmdlet **Set-CsCdrConfiguration.** Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre el uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, consulte el artículo del blog "Inicio rápido: administración de [Microsoft Lync Server 2010 con PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Para habilitar CDR para una única ubicación
 
@@ -57,7 +57,7 @@ Puede habilitar CDR mediante Windows PowerShell y el cmdlet **set-CsCdrConfigura
 
 ### <a name="to-disable-cdr-for-a-single-location"></a>Para deshabilitar CDR para una única ubicación
 
- Para deshabilitar CDR, establezca el parámetro EnableCDR en False ($False). Esto no desinstala la supervisión, sino que pausa la recopilación y el almacenamiento de datos de CDR.
+ Para deshabilitar CDR, establezca el parámetro EnableCDR en False ($False). Deshabilitar CDR no desinstala la supervisión. Pausa la recopilación y el almacenamiento de datos del CDR.
 
   ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
@@ -71,10 +71,10 @@ Puede habilitar CDR mediante Windows PowerShell y el cmdlet **set-CsCdrConfigura
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [Set-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Planear la supervisión](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[Planeación de la supervisión](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Implementación de supervisión](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

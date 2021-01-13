@@ -1,8 +1,8 @@
 ---
-title: Crear una configuración de la calidad de la experiencia de configuración en Skype empresarial Server
+title: Crear opciones de configuración de calidad de la experiencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,84 +11,84 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: 'Resumen: Obtenga información sobre la configuración de la calidad de la experiencia (QoE) en Skype empresarial Server.'
-ms.openlocfilehash: 5366937f1faa01e6533b51677122713ee9e839fa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre la configuración de calidad de la experiencia (QoE) en Skype Empresarial Server.'
+ms.openlocfilehash: d1d0b299b5cf0bbaf3627b7c90f90e7e1d958d10
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818040"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817000"
 ---
-# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Crear una configuración de la calidad de la experiencia de configuración en Skype empresarial Server
+# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de calidad de la experiencia en Skype Empresarial Server
  
-**Resumen:** Obtenga más información sobre la configuración de la calidad de la experiencia (QoE) en Skype empresarial Server.
+**Resumen:** Obtenga información sobre la configuración de calidad de la experiencia (QoE) en Skype Empresarial Server.
   
-Las métricas de calidad de la experiencia (QoE) realizan un seguimiento de la calidad de las llamadas de audio y vídeo que se han efectuado en la organización, incluido la cantidad de paquetes de red perdidos, el ruido de fondo y la cantidad de "vibración" (diferencias en el retraso de paquetes). Esta información se almacena en una base de datos independiente de otras estadísticas, como los registros de detalles de llamadas, lo que permite activar y desactivar las métricas QoE de manera independiente de otros datos registrados.
+Las métricas de calidad de la experiencia (QoE) realizan un seguimiento de la calidad de las llamadas de audio y vídeo que se han efectuado en la organización, incluido el número de paquetes de red perdidos, el ruido de fondo y la cantidad de "vibración" (diferencias en el retraso de paquetes). Esta información se almacena en una base de datos independiente de otras estadísticas, como los registros de detalles de llamadas, lo que permite activar y desactivar las métricas QoE de manera independiente de otros datos registrados.
   
-Al instalar Skype empresarial Server, se crea una única colección global de parámetros de configuración de QoE para usted. Los administradores también tienen la posibilidad de crear opciones personalizadas en el ámbito del sitio. Cuando estas opciones de ámbito de sitio se usan, tienen prioridad frente a la configuración global. Así, por ejemplo, si crea opciones de ámbito de sitio para el sitio de Redmond, serán las opciones que se usen (y no la configuración global) para administrar la calidad de la experiencia en Redmond.
+Al instalar Skype Empresarial Server, se crea una colección única y global de opciones de configuración de QoE. Los administradores pueden también crear una configuración personalizada en el ámbito de sitio. Cuando se usa esta configuración en el ámbito del sitio, predomina sobre la configuración global. Por ejemplo, si crea configuraciones de ámbito de sitio para el sitio Redmond, dicha configuración (en lugar de la configuración global) se usará para administrar QoE en Redmond.
   
-Las opciones de configuración de QoE se pueden crear con el panel de control de Skype empresarial Server o el cmdlet [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) . Si está usando el panel de control de Skype empresarial Server para crear nuevos ajustes, las siguientes opciones estarán disponibles:
+Las opciones de configuración de QoE se pueden crear mediante el Panel de control de Skype Empresarial Server o el cmdlet [New-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) Si usa el Panel de control de Skype Empresarial Server para crear una nueva configuración, estarán disponibles las siguientes opciones:
   
-|**Valor de interfaz de usuario**|**Parámetro de PowerShell**|**Descripción**|
+|**Configuración de la interfaz de usuario**|**Parámetro de PowerShell**|**Descripción**|
 |:-----|:-----|:-----|
-|Nombre  <br/> |Identidad  <br/> |Identificador único de la opción que se va a crear. La opción de configuración de QoE solo se puede crear en el ámbito del sitio.  <br/> |
-|Habilitar supervisión de datos de calidad de la experiencia (QoE)  <br/> |EnableQoE  <br/> |Especifica si los registros QoE se recopilarán y guardarán en la base de datos de supervisión.  <br/> |
-|Habilitar purgado de datos de calidad de la experiencia (QoE)  <br/> |EnablePurging  <br/> |Especifica si los registros se van a purgar una vez transcurrida la duración definida en la propiedad **Conservar datos de QoE durante el período de duración máximo (días)**. <br/> |
-|Conservar datos de calidad de la experiencia (QoE) durante un máximo de (días)  <br/> |KeepQoEDataForDays  <br/> |Cantidad de días en que los datos de QoE se almacenarán antes de que se purguen de la base de datos. Este valor se ignora si el purgado está deshabilitado.  <br/> |
+|Nombre  <br/> |Identidad  <br/> |Identificador único de la configuración que se va a crear. Las opciones de configuración de QoE solo se pueden crear en el ámbito del sitio.  <br/> |
+|Habilitar la supervisión de datos de QoE  <br/> |EnableQoE  <br/> |Especifica si los registros QoE se recopilarán y guardarán en la base de datos de supervisión.  <br/> |
+|Habilitar la purga de datos de QoE  <br/> |EnablePurging  <br/> |Especifica si los registros se purgarán después de que transcurra la duración definida en los datos de **Keep QoE** para una propiedad de duración máxima (días). <br/> |
+|Conservar los datos de QoE durante un máximo de (días)  <br/> |KeepQoEDataForDays  <br/> |Número de días que se almacenarán los datos de QoE antes de ser purgados de la base de datos. Este valor se omite si la purga está deshabilitada.  <br/> |
    
 > [!NOTE]
-> El cmdlet New-CsQoEConfiguration incluye opciones adicionales que no están disponibles en el panel de control de Skype empresarial Server. Para obtener más información, vea el tema [de ayuda nuevo-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) .
+> El cmdlet New-CsQoEConfiguration incluye opciones adicionales no disponibles en el Panel de control de Skype Empresarial Server. Para obtener más información, consulte el tema de ayuda [New-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)
   
-### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear parámetros de configuración de QoE con el panel de control de Skype empresarial Server
+### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear opciones de configuración de QoE mediante el Panel de control de Skype Empresarial Server
 
-1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para más información, consulte **Delegate Setup Permissions**.
+1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol CsVoiceAdministrator, CsServerAdministrator, o CsAdministrator. Para obtener información detallada, consulte **Delegación de permisos de instalación**.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
     
-3. En la barra de navegación izquierda, haga clic en **Configuración y archivado** y, luego, en **Datos sobre la calidad de la experiencia**.
+3. En la barra de navegación izquierda, haga clic en **Configuración y archivado** y, a continuación, en **Datos sobre la calidad de la experiencia**.
     
-4. En la página **Datos de calidad de la experiencia**, haga clic en **Nuevo**.
+4. En la **página Datos de calidad de** la experiencia, haga clic en **Nuevo.**
     
-5. En **Seleccionar un sitio**, haga clic en el sitio al que va a aplicar la directiva y, luego, en **Aceptar**.
+5. En **Seleccionar un sitio,** haga clic en el sitio al que se va a aplicar la directiva y haga clic en **Aceptar.**
     
-6. En **Nueva configuración de calidad de la experiencia**, haga lo siguiente:
+6. En **Nueva configuración de calidad de la experiencia,** haga lo siguiente:
     
-   - Seleccione **Habilitar supervisión de datos de calidad de la experiencia (QoE)** para activar la supervisión.
+   - Seleccione **Habilitar supervisión de datos de QoE** para activar la supervisión.
     
-   - Seleccione **Habilitar purgado de datos de calidad de la experiencia (QoE)** para activar el purgado.
+   - Seleccione **Habilitar purgado de datos de QoE** para activar la depuración.
     
-   - En **Conservar datos de calidad de la experiencia (QoE) durante un máximo de (días)**, seleccione la cantidad máxima de días durante la que se tienen que conservar los registros de QoE.
+   - En **Conservar QoE durante un máximo de (días),** seleccione el número máximo de días que deben conservarse los registros de QoE.
     
 7. Haga clic en **Confirmar**.
     
-## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Creación de parámetros de configuración de QoE con cmdlets de Windows PowerShell
+## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Creación de opciones de configuración de QoE mediante Windows PowerShell cmdlets
 
-Puede crear parámetros de configuración de QoE mediante Windows PowerShell y el cmdlet New-CsQoEConfiguration. Puede ejecutar este cmdlet desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Skype empresarial Server, consulte el artículo del blog ["Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype empresarial Server.
+Puede crear opciones de configuración de QoE con Windows PowerShell y el cmdlet New-CsQoEConfiguration configuración. Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre el uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, consulte el artículo del blog "Inicio rápido: administración de [Microsoft Lync Server 2010 con PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
   
-### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>Para crear una colección de opciones de configuración de QoE
+### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>Para crear una nueva recopilación de opciones de configuración de QoE
 
- Con este comando se crea una colección de opciones de configuración de QoE para usarla en el sitio de Redmond:
+ Este comando crea una nueva recopilación de opciones de configuración de QoE aplicadas al sitio Redmond:
     
   ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
-### <a name="to-create-a-new-collection-of-qoe-configuration-settings-where-qoe-monitoring-is-disabled"></a>Para crear una colección de opciones de configuración de QoE cuando la supervisión de QoE está deshabilitada
+### <a name="to-create-a-new-collection-of-qoe-configuration-settings-where-qoe-monitoring-is-disabled"></a>Para crear una nueva recopilación de opciones de configuración de QoE en las que la supervisión de QoE está deshabilitada
 
- Dado que en el comando anterior no se ha especificado ningún parámetro (aparte del obligado Identity), la nueva colección de opciones de configuración usará los valores predeterminados en todas sus propiedades. Para crear opciones que usen otros valores de propiedad, bastará con incluir el parámetro y los valores que sean adecuados. Por ejemplo, use un comando como el siguiente para crear una colección de opciones de configuración de calidad de la experiencia que permita deshabilitar el registro de QoE de forma predeterminada:
+ Dado que, en el comando anterior, no se especificaron parámetros (además del parámetro de identidad obligatorio), la nueva colección de valores de configuración usará los valores predeterminados para todas sus propiedades. Para crear una configuración que use otros valores de propiedad, basta con incluir el parámetro y el valor correspondiente adecuados. Por ejemplo, para crear una colección de opciones de configuración de calidad de la experiencia que, de forma predeterminada, permita deshabilitar la grabación de QoE, use un comando como este:
     
   ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
-### <a name="to-specify-multiple-property-values-when-creating-a-new-collection-of-qoe-configuration-settings"></a>Para especificar varios valores de propiedad al crear una colección de opciones de configuración de QoE
+### <a name="to-specify-multiple-property-values-when-creating-a-new-collection-of-qoe-configuration-settings"></a>Para especificar varios valores de propiedad al crear una nueva colección de opciones de configuración de QoE
 
- Si desea especificar varios valores de propiedad, es preciso incluir varios parámetros. Por ejemplo, con este comando se configuran nuevas opciones que permiten conservar los datos de QoE durante 30 días y purgar los datos antiguos a las 3:00 AM:
+ Puede incluir varios parámetros para varios valores de propiedad. Por ejemplo, este comando configura las nuevas opciones para conservar los datos de QoE durante 30 días y purgar los datos antiguos a las 3:00 a.m.:
     
   ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
   ```
 
-Para obtener más información, vea el tema de ayuda sobre el cmdlet [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) .
+Para obtener más información, consulte el tema de ayuda del cmdlet [New-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)
   
 

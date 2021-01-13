@@ -1,8 +1,8 @@
 ---
 title: Agregar IP de NAT del servidor perimetral 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aacc1166-0f3b-4593-9747-85bb42ee4599
 description: Si una traducción de direcciones de red (NAT) traduce la dirección IP pública de este grupo de servidores perimetrales, debe especificarse la dirección IP pública que se debe traducir. En principio debería ser la dirección IP externa del servicio perimetral A/V.
-ms.openlocfilehash: 5098d3be65bc75737939f30e0eb12491bd44f1fc
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 444571787846944b51ff52a1e0e5170cc2718e0c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219775"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815200"
 ---
 # <a name="add-edge-server-nat-ip-2010"></a>Agregar IP de NAT del servidor perimetral 2010
  

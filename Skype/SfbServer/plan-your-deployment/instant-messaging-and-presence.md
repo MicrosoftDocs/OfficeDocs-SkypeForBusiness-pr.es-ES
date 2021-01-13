@@ -1,8 +1,8 @@
 ---
-title: Planear la mensajería instantánea y la presencia en Skype empresarial Server
+title: Planear la mensajería instantánea y la presencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,67 +11,67 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: 'Resumen: Aprenda a planificar la mensajería instantánea y la presencia en Skype empresarial Server.'
-ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo planear la mensajería instantánea y la presencia en Skype Empresarial Server.'
+ms.openlocfilehash: a29d68cc66e0ac4a70fc759283646fc3ce49cdf5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815908"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816280"
 ---
-# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planear la mensajería instantánea y la presencia en Skype empresarial Server
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planear la mensajería instantánea y la presencia en Skype Empresarial Server
  
-**Resumen:** Aprenda a planificar la mensajería instantánea y la presencia en Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo planear la mensajería instantánea y la presencia en Skype Empresarial Server.
   
-Planear la mensajería instantánea y la presencia en Skype empresarial Server. Para obtener información sobre las opciones de implementación específicas, como habilitar o deshabilitar la mensajería instantánea sin conexión (mi), consulte [implementar la mensajería instantánea y la presencia en Skype empresarial Server](../deploy/im-and-presence/im-and-presence.md).
+Planee la mensajería instantánea y la presencia en Skype Empresarial Server. Para obtener información sobre opciones de implementación específicas, como habilitar o deshabilitar la mensajería instantánea sin conexión, consulte Implementar la mensajería instantánea y la presencia [en Skype Empresarial Server.](../deploy/im-and-presence/im-and-presence.md)
   
-## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planear la mensajería instantánea y la presencia en Skype empresarial Server
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planear la mensajería instantánea y la presencia en Skype Empresarial Server
 
-Los servidores front-end proporcionan funciones básicas de Skype empresarial Server, como la mensajería instantánea (mi) y la presencia, y se incluyen en todas las implementaciones de Skype empresarial Server. Hay dos ediciones disponibles: Skype empresarial Server Enterprise Edition, diseñado principalmente para organizaciones más grandes, y Skype empresarial Server Standard Edition, diseñado principalmente para organizaciones pequeñas que quieren un menor inversión en hardware y no requiere opciones de alta disponibilidad completas. Ambas ediciones admiten todas las cargas de trabajo de Skype empresarial Server incluidas la mensajería instantánea, presencia, Conferencia y telefonía IP empresarial.
+Los servidores front-end proporcionan la funcionalidad principal de Skype Empresarial Server, como la mensajería instantánea (MI) y la presencia, y se incluyen en todas las implementaciones de Skype Empresarial Server. Hay dos ediciones disponibles: Skype Empresarial Server Enterprise Edition, que está diseñado principalmente para organizaciones más grandes, y Skype Empresarial Server Standard Edition, que está diseñado principalmente para organizaciones más pequeñas que desean una inversión de hardware más pequeña y no requieren opciones de alta disponibilidad completa. Ambas ediciones admiten todas las cargas de trabajo de Skype Empresarial Server, incluidas la mensajería instantánea, la presencia, las conferencias y Telefonía IP empresarial.
   
-La mensajería instantánea (MI) permite a los usuarios comunicarse entre sí en tiempo real desde sus equipos y por medio de mensajes basados en texto. Se admiten sesiones de mensajería instantánea con dos participantes y con varios participantes. Un participante de una conversación de mensajería instantánea entre dos participantes puede agregar a la conversación a un tercer participante en cualquier momento. Cuando esto ocurre, la ventana Conversación cambia para admitir características de conferencia.
+La mensajería instantánea (MI) permite a los usuarios comunicarse entre sí en tiempo real desde sus equipos y mediante mensajes basados en texto. Se admiten sesiones de mensajería instantánea con dos participantes y con varios participantes. Un participante de una conversación de mensajería instantánea entre dos participantes puede agregar a la conversación a un tercer participante en cualquier momento. Cuando esto ocurre, la ventana Conversación cambia para admitir características de conferencia.
   
-La presencia proporciona información a los usuarios sobre el estado de los otros usuarios en la red. El estado de presencia de un usuario proporciona información para ayudar a otros usuarios a decidir si deben intentar ponerse en contacto con el usuario y si usar la mensajería instantánea, el teléfono o el correo electrónico. El estado de presencia fomenta la comunicación instantánea cada vez que sea posible, pero también proporciona información sobre si un usuario está en una reunión o fuera de la oficina, indicando que la comunicación instantánea no es posible. Este estado de presencia se visualiza como un icono de presencia en Skype Empresarial y otras aplicaciones con detección de presencia, incluido el cliente de colaboración y la mensajería de Microsoft Outlook, las tecnologías de Microsoft SharePoint y Microsoft Office. El icono de presencia representa la disponibilidad actual del usuario y su disposición para comunicarse. 
+La presencia proporciona información a los usuarios sobre el estado de otros usuarios en la red. El estado de presencia de un usuario proporciona información para ayudar a otras personas a decidir si deben intentar ponerse en contacto con el usuario y si deben usar mensajería instantánea, teléfono o correo electrónico. El estado de presencia fomenta la comunicación instantánea cada vez que sea posible, pero también proporciona información sobre si un usuario está en una reunión o fuera de la oficina, indicando que la comunicación instantánea no es posible. Este estado de presencia se muestra como un icono de presencia en Skype Empresarial y otras aplicaciones para la presencia, incluido el cliente de mensajería y colaboración de Microsoft Outlook, las tecnologías de Microsoft SharePoint y Microsoft Office. El icono de presencia representa la disponibilidad actual del usuario y su disposición para comunicarse. 
   
 ### <a name="technical-requirements"></a>Requisitos técnicos
 
-La mensajería instantánea (MI) y la presencia siempre se ejecutan en los grupos de servidores front-end Enterprise Edition y en los servidores Standard Edition. Para obtener información sobre hardware, sistemas operativos y software de base de datos admitidos, consulte [puertas de enlace certificadas](../../SfbPartnerCertification/certification/infra-gateways.md), [requisitos para el entorno de Skype empresarial 2015](requirements-for-your-environment/requirements-for-your-environment.md)y [requisitos de infraestructura para Skype empresarial Server 2019](../../SfBServer2019/plan/system-requirements.md).
+La mensajería instantánea (MI) y la presencia siempre se ejecutan en grupos de servidores front-end Enterprise Edition y servidores Standard Edition. Para obtener información sobre el hardware, los sistemas operativos y el software de base de datos admitidos, consulte Puertas de enlace [certificadas, requisitos](../../SfbPartnerCertification/certification/infra-gateways.md)para su entorno de [Skype Empresarial 2015](requirements-for-your-environment/requirements-for-your-environment.md)y requisitos de infraestructura para [Skype Empresarial Server 2019.](../../SfBServer2019/plan/system-requirements.md)
   
-### <a name="enabling-communication-with-external-users"></a>Habilitar la comunicación con los usuarios externos
+### <a name="enabling-communication-with-external-users"></a>Habilitar la comunicación con usuarios externos
 
-Puede aumentar enormemente los beneficios de su inversión en Skype empresarial Server al permitir que los usuarios se comuniquen con usuarios externos. Entre los usuarios externos se pueden incluir:
+Puede aumentar considerablemente las ventajas de su inversión en Skype Empresarial Server al permitir que los usuarios se comuniquen con usuarios externos. Entre los usuarios externos se pueden incluir:
   
-- Usuarios remotos: los usuarios de su organización, cuando trabajan fuera de los firewalls y usan sus equipos portátiles u otros dispositivos de Skype empresarial Server.
+- Usuarios remotos: los propios usuarios de su organización, cuando trabajan fuera de los firewalls y usan sus equipos portátiles u otros dispositivos de Skype Empresarial Server.
     
-- Usuarios federados: usuarios de empresas con las que trabaja y que también ejecutan Skype empresarial Server. Si desea habilitar a sus usuarios para que se pongan en contacto fácilmente con estos otros usuarios, cree relaciones federadas con estas compañías. 
+- Usuarios federados: usuarios de empresas con las que trabaja que también ejecutan Skype Empresarial Server. Para habilitar a sus usuarios para que se pongan en contacto fácilmente con estos usuarios, cree relaciones federadas con estas compañías. 
     
-- Usuarios de Skype: los usuarios de Skype Empresarial pueden ponerse en contacto con cientos de millones de usuarios en Skype por medio de la mensajería instantánea, la voz y el vídeo.
+- Usuarios de Skype: los usuarios de Skype Empresarial pueden llegar a los cientos de millones de usuarios de Skype con mensajería instantánea, voz y vídeo.
     
 > [!NOTE]
-> AOL, Yahoo y Google Talk ya no son compatibles. 
+> Ya no se admiten AOL, Yahoo y Google Talk. 
   
 > [!NOTE]
-> Para habilitar cualquiera de estos escenarios o todos ellos, debe implementar un servidor perimetral que le ayude a habilitar las comunicaciones seguras entre su implementación de Skype empresarial Server y los usuarios externos. Los usuarios remotos de su organización y los usuarios de las organizaciones federadas podrán ver la presencia de los demás y comunicarse mediante mensajería instantánea. 
+> Para habilitar cualquiera o todos estos escenarios, debe implementar un servidor perimetral para ayudar a habilitar comunicaciones seguras entre la implementación de Skype Empresarial Server y los usuarios externos. Los usuarios remotos de la organización y los usuarios de las organizaciones federadas podrán ver la presencia de los demás y comunicarse mediante mensajería instantánea. 
   
 > [!NOTE]
-> El protocolo de presencia y mensajería extensible (XMPP) es únicamente compatible con los escenarios de certificación de Unified Capabilities Collaboration Platform (UCCP) y Joint Interoperability Test Command (JITC). 
+> El Protocolo extensible de mensajería y presencia (XMPP) solo es compatible con escenarios de certificación del Comando conjunto de pruebas de interoperabilidad (JITC) de la Plataforma de colaboración de funcionalidades unificadas (UCCP). 
   
-### <a name="archiving-im-content"></a>Archivar el contenido de la mensajería instantánea
+### <a name="archiving-im-content"></a>Archivado de contenido de mensajería instantánea
 
-Skype empresarial Server proporciona características que puede usar si su organización debe cumplir con las normas de cumplimiento. Puede usar el servidor de archivado para archivar el contenido de los mensajes de MI de todos los usuarios de la organización, o solamente de algunos específicos. Para obtener más información, consulte [planear el archivado en Skype empresarial Server](archiving/archiving.md). 
+Skype Empresarial Server proporciona características que puede usar si su organización debe seguir las normativas de cumplimiento. Puede usar el archivado para archivar el contenido de los mensajes de mensajería instantánea para todos los usuarios de la organización o solo para determinados usuarios que especifique. Para obtener más información, consulte [Plan for archiving in Skype for Business Server](archiving/archiving.md). 
   
-Si también ha implementado Microsoft Exchange Server 2013, puede integrar el archivado de datos de Exchange con el archivado de los datos de Skype empresarial Server y usar una única herramienta para buscar en los dos tipos de datos archivados. Para obtener más información, vea [configurar Skype empresarial Server para usar el archivado de Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Si también ha implementado Microsoft Exchange Server 2013, puede integrar el archivado de datos de Exchange con el archivado de datos de Skype Empresarial Server y usar una sola herramienta para buscar en ambos tipos de datos archivados. Para obtener más información, vea [Configurar Skype Empresarial Server para usar Exchange Server archivado.](../deploy/integrate-with-exchange-server/use-exchange-archiving.md)
   
 ### <a name="topologies-and-components"></a>Topologías y componentes
 
 Los únicos componentes necesarios para la mensajería instantánea (MI) y la presencia son:
   
-- Los servidores front-end de su organización (conocidos como un grupo) o un servidor Standard Edition. Las capacidades de presencia y de mensajería instantánea (MI) siempre se encuentran habilitadas en estos servidores. Para obtener más información sobre las topologías y la administración del grupo de servidores front-end, consulte [alta disponibilidad y administración de la aplicación front end](high-availability-and-disaster-recovery/high-availability.md).
+- Los servidores front-end de la organización (conocidos como un grupo de servidores) o un servidor Standard Edition. Las capacidades de mensajería instantánea y presencia siempre están habilitadas en estos servidores. Para obtener más información sobre las topologías y la administración de grupos de servidores front-end, vea Administración y alta disponibilidad [del grupo de servidores front-end.](high-availability-and-disaster-recovery/high-availability.md)
     
-- Un equilibrador de carga, si se dispone de un grupo de servidores front-end Enterprise Edition.
+- Un equilibrador de carga, si tiene un grupo de servidores front-end Enterprise Edition.
     
-### <a name="supported-collocation"></a>Combinación compatible
+### <a name="supported-collocation"></a>Colocación compatible
 
-La combinación consiste en disponer de un único servidor o grupo de servidores con varios roles. Para obtener más información sobre collocation, consulte [aspectos básicos de la topología de Skype empresarial Server](topology-basics/topology-basics.md). 
+La colocación se define como tener un único servidor, o grupo de servidores, con varios roles instalados. Para obtener más información sobre la colocación, consulte [Topology Basics for Skype for Business Server](topology-basics/topology-basics.md). 
   
 

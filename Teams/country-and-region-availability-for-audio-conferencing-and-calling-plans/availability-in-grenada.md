@@ -1,7 +1,7 @@
 ---
-title: Disponibilidad en Granada
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilidad en Granadina
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Granada.
-ms.openlocfilehash: 50e5814eb22e365a9de4523ac733ec5b80b8827d
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Granada.
+ms.openlocfilehash: aa0aa40bbf37b2b2da64547a6a7916d566b8d945
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230798"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814730"
 ---
-# <a name="availability-in-grenada"></a>Disponibilidad en Granada
+# <a name="availability-in-grenada"></a>Disponibilidad en Granadina
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Granada.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Granada.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

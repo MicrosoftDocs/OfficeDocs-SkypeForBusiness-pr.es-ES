@@ -1,8 +1,8 @@
 ---
 title: tblLastChatId
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-description: tblLastChatId contiene el último identificador de chat generado (y usado en la tabla tblChat) para cada usuario.
-ms.openlocfilehash: 95498f077948e1b400d0a370762c121def703e8c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblLastChatId contiene el último id. de chat generado (y usado en la tabla tblChat) para cada usuario.
+ms.openlocfilehash: 80664d6b296fce9b4909674f9d21b1aa13285826
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814588"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816010"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
-tblLastChatId contiene el último identificador de chat generado (y usado en la tabla tblChat) para cada usuario.
+tblLastChatId contiene el último id. de chat generado (y usado en la tabla tblChat) para cada usuario.
   
-**Columnas**
+**Columns**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|nodeID  <br/> |int, not null  <br/> |IDENTIFICADOR de nodo (solo tipo salón de chat).  <br/> |
-|lastChatID  <br/> |BIGINT, not null  <br/> |Último ID de chat usado.  <br/> |
+|nodeID  <br/> |int, no NULL  <br/> |Identificador de nodo (tipo de salón de chat únicamente).  <br/> |
+|lastChatID  <br/> |bigint, no NULL  <br/> |Identificador de chat usado por última vez.  <br/> |
    
-**Sus**
+**Keys**
 
 |**Columna**|**Descripción**|
 |:-----|:-----|
-|\<nodeID, lastChatID\>  <br/> |Clave principal (solo nodeID es suficiente para procesar).  <br/> |
-|nodeID  <br/> |Clave externa con la búsqueda en la tabla tblNode. nodeID.  <br/> |
+|\<nodeID, lastChatID\>  <br/> |Clave principal (nodeID es suficiente para el procesamiento).  <br/> |
+|nodeID  <br/> |Clave externa con búsqueda en la tabla tblNode.nodeID.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [tblChat](tblchat.md)

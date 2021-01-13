@@ -1,8 +1,8 @@
 ---
 title: tblEnumValue
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,43 +12,43 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: tblEnumValue es una tabla codificada que contiene los valores de visibilidad y comportamiento de los atributos que se usan en la tabla de nodos.
-ms.openlocfilehash: accb9cb4801984bd4b3839cd44e5b7feb8d06baa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblEnumValue es una tabla codificada de forma rígida que contiene los valores visibility y behavior de los atributos que se usan en la tabla Node.
+ms.openlocfilehash: a13bfbe79d1eb118f0727f390816a26d35a508d0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814608"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816030"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-tblEnumValue es una tabla codificada que contiene los valores de visibilidad y comportamiento de los atributos que se usan en la tabla de nodos.
+tblEnumValue es una tabla codificada de forma rígida que contiene los valores visibility y behavior de los atributos que se usan en la tabla Node.
   
-**Columnas**
+**Columns**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|valueID  <br/> |smallint, not null  <br/> |IDENTIFICADOR del valor.  <br/> |
-|attributeID  <br/> |smallint, not null  <br/> |IDENTIFICADOR del atributo.  <br/> |
-|attributeValue  <br/> |nvarchar (256), not null  <br/> |Nombre del valor.  <br/> |
+|valueID  <br/> |smallint, no NULL  <br/> |Identificador del valor.  <br/> |
+|attributeID  <br/> |smallint, no NULL  <br/> |Identificador del atributo.  <br/> |
+|attributeValue  <br/> |nvarchar (256), no NULL  <br/> |Nombre del valor.  <br/> |
    
-**Sus**
+**Keys**
 
 |**Columna**|**Descripción**|
 |:-----|:-----|
 |valueID  <br/> |Clave principal.  <br/> |
-|attributeID  <br/> |Clave externa con la búsqueda en la tabla tblEnumAttribute. attributeID.  <br/> |
+|attributeID  <br/> |Clave externa con búsqueda en la tabla tblEnumAttribute.attributeID.  <br/> |
    
 **Valores de tabla**
 
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
-|1  <br/> |1  <br/> |private  <br/> |
-|3  <br/> |1  <br/> |ID  <br/> |
-|4  <br/> |1  <br/> |normal  <br/> |
-|5  <br/> |1  <br/> |Audi  <br/> |
-|6  <br/> |1  <br/> |volver  <br/> |
+|2   <br/> |1   <br/> |private  <br/> |
+|3   <br/> |1   <br/> |ámbito  <br/> |
+|4   <br/> |2   <br/> |normal  <br/> |
+|5   <br/> |2   <br/> |auditorio  <br/> |
+|6   <br/> |1   <br/> |open  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [tblNode](tblnode.md)

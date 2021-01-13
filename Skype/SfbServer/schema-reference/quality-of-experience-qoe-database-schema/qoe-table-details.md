@@ -1,8 +1,8 @@
 ---
-title: Detalles de la tabla QoE
+title: Detalles de la tabla de QoE
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: Estas secciones detallan las columnas de cada una de las tablas de esquema de base de datos de la calidad de la experiencia (QoE).
-ms.openlocfilehash: a09e39bc0e942b68a0b53d6c8718ab8973d7ba7f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En estas secciones se detallan las columnas de cada una de las tablas de esquema de base de datos de calidad de la experiencia (QoE).
+ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807198"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815760"
 ---
-# <a name="qoe-table-details"></a>Detalles de la tabla QoE
+# <a name="qoe-table-details"></a>Detalles de la tabla de QoE
  
-Estas secciones detallan las columnas de cada una de las tablas de esquema de base de datos de la calidad de la experiencia (QoE).
+En estas secciones se detallan las columnas de cada una de las tablas de esquema de base de datos de calidad de la experiencia (QoE).
   
 - [Tabla AppliedBandwidthSource](appliedbandwidthsource.md)
     
@@ -44,13 +44,13 @@ Estas secciones detallan las columnas de cada una de las tablas de esquema de ba
     
 - [Tabla DeviceDriver](devicedriver.md)
     
-- [Tabla Dialog](dialog.md)
+- [Tabla dialog](dialog.md)
     
 - [Tabla Endpoint](endpoint.md)
     
 - [Tabla EndpointSubnet](endpointsubnet.md)
     
-- [Tabla dirección IP](ipaddress.md)
+- [Tabla IPAddress](ipaddress.md)
     
 - [Tabla MacAddress](macaddress.md)
     
