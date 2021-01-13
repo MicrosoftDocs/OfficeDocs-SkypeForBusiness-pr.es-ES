@@ -1,7 +1,7 @@
 ---
-title: Aprovisionamiento de cuentas de Exchange y Skype del sistema de salas de Skype
-ms.author: v-lanac
-author: lanachin
+title: Aprovisionamiento de cuentas de Skype y Exchange del Sistema de sala de Skype
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,38 +12,38 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
-description: Lea estos temas para obtener información sobre cómo aprovisionar cuentas de Exchange y Skype para el sistema de salas de Skype.
-ms.openlocfilehash: be43e732a97dc81fdd2e3a6bdb355afaff4db37d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Lea estos temas para obtener información sobre cómo aprovisionar cuentas de Exchange y Skype para el Sistema de sala de Skype.
+ms.openlocfilehash: fb0b511d8a99d6aa9901459e1ea06d2f05ae4a42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220920"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833920"
 ---
-# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a><span data-ttu-id="3e15f-103">Aprovisionamiento de cuentas de Exchange y Skype del sistema de salas de Skype</span><span class="sxs-lookup"><span data-stu-id="3e15f-103">Provisioning of Skype Room System Exchange and Skype Accounts</span></span>
+# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a><span data-ttu-id="95e01-103">Aprovisionamiento de cuentas de Skype y Exchange del Sistema de sala de Skype</span><span class="sxs-lookup"><span data-stu-id="95e01-103">Provisioning of Skype Room System Exchange and Skype Accounts</span></span>
  
-<span data-ttu-id="3e15f-104">Lea estos temas para obtener información sobre cómo aprovisionar cuentas de Exchange y Skype para el sistema de salas de Skype.</span><span class="sxs-lookup"><span data-stu-id="3e15f-104">Read these topics to learn how to provision Exchange and Skype accounts for Skype Room System.</span></span> 
+<span data-ttu-id="95e01-104">Lea estos temas para obtener información sobre cómo aprovisionar cuentas de Exchange y Skype para el Sistema de sala de Skype.</span><span class="sxs-lookup"><span data-stu-id="95e01-104">Read these topics to learn how to provision Exchange and Skype accounts for Skype Room System.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="3e15f-105">Salas de Microsoft Teams es un producto diferente con diferentes dependencias y procedimientos de implementación.</span><span class="sxs-lookup"><span data-stu-id="3e15f-105">Microsoft Teams Rooms is a different product with different dependencies and deployment procedures.</span></span> <span data-ttu-id="3e15f-106">Para obtener información sobre las salas de Microsoft Teams, vea la [información general sobre la implementación](room-systems-v2.md)de salas de Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="3e15f-106">For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [deployment overview](room-systems-v2.md).</span></span>
+> <span data-ttu-id="95e01-105">Salas de Microsoft Teams es un producto diferente con diferentes dependencias y procedimientos de implementación.</span><span class="sxs-lookup"><span data-stu-id="95e01-105">Microsoft Teams Rooms is a different product with different dependencies and deployment procedures.</span></span> <span data-ttu-id="95e01-106">Para obtener información sobre salas de Microsoft Teams, vea la introducción a la implementación de salas [de](room-systems-v2.md)Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="95e01-106">For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [deployment overview](room-systems-v2.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3e15f-107">El aprovisionamiento de la cuenta del sistema de salas de Skype depende del tipo de topología que tenga su organización.</span><span class="sxs-lookup"><span data-stu-id="3e15f-107">Skype Room System account provisioning depends on the type of topology your organization has.</span></span> <span data-ttu-id="3e15f-108">Para obtener más información acerca de las topologías de Active Directory, consulte [Environmental Requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="3e15f-108">To know more about Active Directory topologies, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).</span></span> 
+> <span data-ttu-id="95e01-107">El aprovisionamiento de cuentas del Sistema de sala de Skype depende del tipo de topología que tenga su organización.</span><span class="sxs-lookup"><span data-stu-id="95e01-107">Skype Room System account provisioning depends on the type of topology your organization has.</span></span> <span data-ttu-id="95e01-108">Para obtener más información acerca de las topologías de Active Directory, consulte [Requisitos del entorno para Skype Empresarial Server 2015.](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)</span><span class="sxs-lookup"><span data-stu-id="95e01-108">To know more about Active Directory topologies, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).</span></span> 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a><span data-ttu-id="3e15f-109">Aprovisionamiento de &amp; las cuentas de Skype empresarial para el sistema de salas de Skype</span><span class="sxs-lookup"><span data-stu-id="3e15f-109">Provisioning of Skype Room System Exchange &amp; Skype for Business Accounts</span></span>
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a><span data-ttu-id="95e01-109">Aprovisionamiento de cuentas de Skype Empresarial del Sistema de sala &amp; de Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="95e01-109">Provisioning of Skype Room System Exchange &amp; Skype for Business Accounts</span></span>
 
-<span data-ttu-id="3e15f-110">En los siguientes temas se describe cómo aprovisionar y administrar las cuentas de Exchange y Skype empresarial del sistema de salas de Skype para:</span><span class="sxs-lookup"><span data-stu-id="3e15f-110">The following topics describe how to provision and manage Skype Room System Exchange and Skype for Business accounts for:</span></span>
+<span data-ttu-id="95e01-110">En los siguientes temas se describe cómo aprovisionar y administrar cuentas de Skype Room System Exchange y Skype Empresarial para:</span><span class="sxs-lookup"><span data-stu-id="95e01-110">The following topics describe how to provision and manage Skype Room System Exchange and Skype for Business accounts for:</span></span>
   
-- <span data-ttu-id="3e15f-111">Implementaciones locales de un solo bosque</span><span class="sxs-lookup"><span data-stu-id="3e15f-111">Single forest on-premises deployments</span></span>
+- <span data-ttu-id="95e01-111">Implementaciones locales de un solo bosque</span><span class="sxs-lookup"><span data-stu-id="95e01-111">Single forest on-premises deployments</span></span>
     
-- <span data-ttu-id="3e15f-112">Implementaciones locales de bosques múltiples</span><span class="sxs-lookup"><span data-stu-id="3e15f-112">Multiple forest on-premises deployments</span></span>
+- <span data-ttu-id="95e01-112">Implementaciones locales de múltiples bosques</span><span class="sxs-lookup"><span data-stu-id="95e01-112">Multiple forest on-premises deployments</span></span>
     
-- <span data-ttu-id="3e15f-113">Microsoft 365 u Office 365</span><span class="sxs-lookup"><span data-stu-id="3e15f-113">Microsoft 365 or Office 365</span></span>
+- <span data-ttu-id="95e01-113">Microsoft 365 u Office 365</span><span class="sxs-lookup"><span data-stu-id="95e01-113">Microsoft 365 or Office 365</span></span>
     
-- <span data-ttu-id="3e15f-114">Implementaciones híbridas</span><span class="sxs-lookup"><span data-stu-id="3e15f-114">Hybrid deployments</span></span>
+- <span data-ttu-id="95e01-114">Implementaciones híbridas</span><span class="sxs-lookup"><span data-stu-id="95e01-114">Hybrid deployments</span></span>
     
-- <span data-ttu-id="3e15f-115">Sistema de salas de Skype y socios federados de Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="3e15f-115">Skype Room System and Skype for Business federated partners</span></span>
+- <span data-ttu-id="95e01-115">Sistema de sala de Skype y socios federados de Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="95e01-115">Skype Room System and Skype for Business federated partners</span></span>
     
-- <span data-ttu-id="3e15f-116">Administrar cuentas de sistema de salas de Skype</span><span class="sxs-lookup"><span data-stu-id="3e15f-116">Manage Skype Room System accounts</span></span>
+- <span data-ttu-id="95e01-116">Administrar cuentas del Sistema de salas de Skype</span><span class="sxs-lookup"><span data-stu-id="95e01-116">Manage Skype Room System accounts</span></span>
     
 

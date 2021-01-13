@@ -1,8 +1,8 @@
 ---
-title: Grabación de detalles de llamadas crear nuevo o editar existente
+title: Registro detallado de llamadas Crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 21f31565093c842265d52e8383de8314798e68b4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: 4cc910c8278c42c39bafc053130fdc0589e4bada
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796399"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833680"
 ---
-# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="d1593-104">Registro de detalles de llamadas: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="d1593-104">Call Detail Recording: Create New or Edit Existing</span></span>
+# <a name="call-detail-recording-create-new-or-edit-existing"></a><span data-ttu-id="a8908-104">Registro de detalles de llamadas: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="a8908-104">Call Detail Recording: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="d1593-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="d1593-105">What do you want to do?</span></span> <span data-ttu-id="d1593-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="d1593-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a8908-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="a8908-105">What do you want to do?</span></span> <span data-ttu-id="a8908-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="a8908-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="d1593-107">Habilitar la grabación de detalles de llamadas en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d1593-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
+- [<span data-ttu-id="a8908-107">Habilitar el registro detallado de llamadas en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="a8908-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [<span data-ttu-id="d1593-108">Especificar la retención de datos de CDR en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d1593-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [<span data-ttu-id="a8908-108">Especificar la retención de datos de CDR en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="a8908-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 
