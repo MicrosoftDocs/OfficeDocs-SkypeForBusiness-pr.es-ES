@@ -1,8 +1,8 @@
 ---
 title: Importar certificado (introducción)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para importar un certificado, debe proporcionar una ruta de acceso al archivo de certificado. En el cuadro de texto seleccionar archivo de certificado, escriba la ruta de acceso completa y el nombre de archivo, o bien haga clic en el botón examinar y vaya a la ubicación de la ruta de acceso y el nombre de archivo (normalmente, un archivo. p7b,. pfx o. cer).
-ms.openlocfilehash: 36a14b9ca95a87c34f5268eee01411eeaf712fb4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para importar un certificado, debe proporcionar la ruta del archivo del certificado. En el cuadro de texto Seleccionar archivo del certificado, puede escribir el nombre de archivo y la ruta completa, o bien hacer clic en el botón Examinar y buscar la ubicación y el nombre de archivo, que suele ser un archivo con la extensión .p7b, .pfx, o .cer.
+ms.openlocfilehash: ec0eb1593c628e44fcbe5cfb8d47a381b9281406
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796871"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837110"
 ---
 # <a name="import-certificate-intro"></a>Importar certificado (introducción)
  
-Para importar un certificado, debe proporcionar una ruta de acceso al archivo de certificado. En el cuadro de texto **Seleccionar archivo de certificado** , escriba la ruta de acceso completa y el nombre de archivo, o bien haga clic en el botón **examinar** y vaya a la ubicación de la ruta de acceso y el nombre de archivo (normalmente, un archivo. p7b,. pfx o. cer).
+Para importar un certificado, debe proporcionar la ruta del archivo del certificado. En el cuadro de texto **Seleccionar archivo del certificado**, puede escribir el nombre de archivo y la ruta completa, o bien hacer clic en el botón **Examinar** y buscar la ubicación y el nombre de archivo, que suele ser un archivo con la extensión .p7b, .pfx, o .cer.
   
-Si el certificado contiene una clave privada, seleccione la casilla el **archivo de certificado contiene la clave privada del certificado**. Cuando esta casilla está activada, la entrada de texto de **contraseña** está habilitada. Si tiene un certificado con una clave privada asociada a él, normalmente se coloca una contraseña en la clave privada cuando se crea el certificado. Escriba la contraseña de la clave privada para permitir que el certificado y la clave privada se importen en el almacén de certificados. Cuando haya proporcionado la información de la ruta de acceso del archivo de certificado y, opcionalmente, la contraseña de la clave privada, si es necesario, haga clic en **siguiente**.
+Si el certificado contiene una clave privada, active la casilla **Archivo de certificado que contiene la clave privada del certificado.** Si se selecciona esta casilla de verificación, se habilita la entrada de texto de **Contraseña**. Si tiene un certificado asociado con una clave privada, al crearse el certificado se suele colocar una contraseña en la clave privada. La contraseña de la clave privada se asigna para que el certificado y la clave privada puedan importarse al almacén de certificados. Tras haber facilitado la información de la ruta de archivo del certificado, y la contraseña de clave privada, si era el caso, haga clic en **Siguiente**.
   
 > [!IMPORTANT]
-> Si no conoce la contraseña de la clave privada, se producirá un error en la importación. 
+> La importación no se realizará si no se proporciona la contraseña de clave privada. 
   
 

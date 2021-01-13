@@ -1,8 +1,8 @@
 ---
 title: Página de opción instalar base de datos de reflejo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para configurar las opciones de la base de datos de reflejo, defina lo siguiente:'
-ms.openlocfilehash: 33c9cb7daea7d17f58c0de3d375c1c71441ccdb0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para configurar la base de datos reflejada, defina lo siguiente:'
+ms.openlocfilehash: 99dab88ecadc52d021531e03a0d6aea904cc4ce8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793588"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835700"
 ---
 # <a name="install-mirror-database-option-page"></a>Página de opción instalar base de datos de reflejo
  
 > [!NOTE]
-> La creación de reflejos de SQL está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn, y los métodos de clúster de conmutación por error de SQL son preferidos con Skype empresarial Server 2019.
+> SQL mirroring está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error son preferidos con Skype Empresarial Server 2019.

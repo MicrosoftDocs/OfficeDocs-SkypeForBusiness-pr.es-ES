@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de implementación
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
-ms.openlocfilehash: 87aa6546ea6e536454a6fae79c1bd5c2287ff398
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: c7a360146f91c2e411ff48f52d92a3c69b0a2e11
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219071"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835370"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
 
@@ -73,9 +73,9 @@ El servidor de administración central se puede cambiar de un grupo de servidore
 > [!IMPORTANT]
 > Cuando haya definido, publicado e implementado el almacén de administración central de la infraestructura ya no podrá cambiarlo de ubicación sin recolocarlo a otro front-end mediante un proceso externo.
 
-Para obtener información detallada sobre cómo mover el almacén de administración central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia del cmdlet de Windows PowerShell.
+Para obtener más información acerca de cómo mover el almacén de administración central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia Windows PowerShell cmdlet.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 Para más información sobre cómo definir y configurar estas opciones, consulte [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
 

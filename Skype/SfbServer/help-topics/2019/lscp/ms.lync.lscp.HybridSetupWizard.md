@@ -1,8 +1,8 @@
 ---
 title: Asistente para la administración híbrida
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
-description: Puede usar el Asistente de administración híbrida para realizar algunas de las tareas de configuración necesarias para configurar una implementación híbrida con Skype empresarial online. Para obtener más información sobre cómo configurar su implementación para entornos híbridos, consulte Configurar el entorno con el Asistente de administración híbrida.
-ms.openlocfilehash: d60d064c28683e853f6d6c662e1638c2e145e59a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Puede usar el Asistente para la administración híbrida para realizar algunas de las tareas de configuración necesarias para configurar una implementación híbrida con Skype Empresarial Online. Para obtener más información acerca de cómo configurar la implementación para entornos híbridos, consulte Configurar el entorno con el Asistente para la administración híbrida.
+ms.openlocfilehash: f930bba3a8e8de1a31f9947c54a949cc8bb58b41
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796569"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836560"
 ---
 # <a name="hybrid-manageability-wizard"></a>Asistente para la administración híbrida
 
-Puede usar el Asistente de administración híbrida para realizar algunas de las tareas de configuración necesarias para configurar una implementación híbrida con Skype empresarial online. Para obtener más información sobre cómo configurar su implementación para entornos híbridos, consulte [configurar el entorno con el Asistente de administración híbrida](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
+Puede usar el Asistente para la administración híbrida para realizar algunas de las tareas de configuración necesarias para configurar una implementación híbrida con Skype Empresarial Online. Para obtener más información acerca de cómo configurar la implementación para entornos híbridos, vea Configurar el entorno con el [Asistente para la administración híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)
 
 

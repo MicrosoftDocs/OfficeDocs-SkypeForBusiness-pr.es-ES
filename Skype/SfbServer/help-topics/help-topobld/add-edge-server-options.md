@@ -1,8 +1,8 @@
 ---
 title: Agregar opciones de servidor perimetral
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
-description: 'Seleccione cada una de las funciones que desea habilitar para el grupo de servidores perimetrales. De forma predeterminada, el grupo de servidores perimetrales admite usuarios remotos de la organización que inician sesión en desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de función del grupo de servidores perimetrales:'
-ms.openlocfilehash: dfcaafce36d525b676a606db4f164dfdd05f26ba
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Seleccione cada una de las funciones que desea habilitar para el grupo de servidores perimetrales. De forma predeterminada, el grupo de servidores perimetrales admite usuarios remotos de la organización que inician sesión desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de función del grupo de servidores perimetrales:'
+ms.openlocfilehash: f653f6a5b2c242416d6c644d5c7a5fc4daffc441
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216571"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835500"
 ---
 # <a name="add-edge-server-options"></a>Agregar opciones de servidor perimetral
 
-Seleccione cada una de las funciones que desea habilitar para el grupo de servidores perimetrales. De forma predeterminada, el grupo de servidores perimetrales admite usuarios remotos de la organización que inician sesión en desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de función del grupo de servidores perimetrales:
+Seleccione cada una de las funciones que desea habilitar para el grupo de servidores perimetrales. De forma predeterminada, el grupo de servidores perimetrales admite usuarios remotos de la organización que inician sesión desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de función del grupo de servidores perimetrales:
 
 - Utilice un solo nombre de dominio completo (FQDN) y dirección IP para todos los servicios perimetrales, incluidos el servicio perimetral de acceso, servicio perimetral de conferencia web y servicio perimetral A/V. Si no selecciona la opción para utilizar un solo FQDN y dirección IP, deberá especificar unos FQDN y dirección IP distintos para cada uno de estos servicios perimetrales como parte del proceso de implementación. Para más información sobre los servicios perimetrales, consulte [Components Required for External User Access](https://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx) en la documentación sobre planificación.
 

@@ -1,8 +1,8 @@
 ---
-title: Definir una puerta de enlace en el generador de topologías de Skype empresarial Server
+title: Definir una puerta de enlace en topology Builder en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,56 +15,56 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: 'Resumen: Aprenda a definir una puerta de enlace RTC en el generador de topologías de Skype empresarial Server.'
-ms.openlocfilehash: 41f5f37d7da23848c8a19d11347183d0c0697532
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumen: obtenga información sobre cómo definir una puerta de enlace RTC en topology Builder en Skype Empresarial Server.'
+ms.openlocfilehash: be68c853cdcd530b05ad4b0949f722788e77d0df
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767733"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837030"
 ---
-# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir una puerta de enlace en el generador de topologías de Skype empresarial Server
+# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir una puerta de enlace en topology Builder en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre cómo definir una puerta de enlace RTC en el generador de topologías de Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo definir una puerta de enlace RTC en topology Builder en Skype Empresarial Server.
   
-Siga estos pasos para usar el generador de topología para definir un interlocutor con el que pueda asociar un servidor de mediación para proporcionar conectividad a la red de telefonía pública conmutada (RTC) para los usuarios habilitados para telefonía IP empresarial. Un interlocutor al servidor de mediación puede ser una puerta de enlace PSTN, IP-PBX o un controlador de borde de sesión (SBC) para un proveedor de servicios de telefonía por Internet (ITSP) al que se conecta mediante la configuración de un tronco de SIP.
+Siga estos pasos para usar el Generador de topologías para definir un sistema del mismo nivel con el que puede asociar un servidor de mediación para proporcionar conectividad a la red telefónica conmutada (RTC) para los usuarios habilitados para Telefonía IP empresarial. Un sistema del mismo nivel que el servidor de mediación puede ser una puerta de enlace RTC, una IP-PBX o un controlador de borde de sesión (SBC) para un proveedor de servicios de telefonía por Internet (ITSP) al que se conecta mediante la configuración de un tronco SIP.
   
-### <a name="to-define-a-peer-for-the-mediation-server"></a>Para definir un par para el servidor de mediación
+### <a name="to-define-a-peer-for-the-mediation-server"></a>Para definir un sistema del mismo nivel para el servidor de mediación
 
-1. Iniciar generador de topología: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Skype empresarial Server 2015**y, a continuación, haga clic en **Skype empresarial Server 2015Topology Builder**.
+1. Inicie el Generador de topologías: Haga clic en Inicio **,** Todos los **programas,** Skype Empresarial **Server 2015** y, a continuación, haga clic en Skype Empresarial **Server 2015Topology Builder.**
     
-2. En Skype empresarial Server, el nombre de su sitio, componentes compartidos, haga clic con el botón derecho en el nodo **puertas de enlace RTC** y, a continuación, haga clic en **nueva puerta de enlace RTC**.
-3. En **Definir nueva puerta de enlace IP/RTC**, escriba el nombre de dominio completo (FQDN) o la dirección IP del par y haga clic en **Siguiente**.
+2. En Skype Empresarial Server, su nombre de sitio, Componentes **compartidos,** haga clic con el botón secundario en el nodo Puertas de enlace RTC y, a continuación, haga clic en Nueva puerta de enlace **RTC.**
+3. En **Definir la nueva puerta de enlace IP/RTC**, escriba el nombre de dominio completo (FQDN) o la dirección IP del par y haga clic en **Siguiente**.
     
     > [!NOTE]
-    > Si especifica la seguridad de la capa de transporte (TLS) como tipo de transporte, debe especificar el FQDN en lugar de la dirección IP del interlocutor del servidor de mediación. 
+    > Si especifica Seguridad de la capa de transporte (TLS) como tipo de transporte, debe especificar el FQDN en lugar de la dirección IP del mismo nivel del servidor de mediación. 
   
 4. Defina el modo de escucha (IPv4 o IPv6) de la dirección IP de la nueva puerta de enlace RTC y haga clic en **Siguiente**.
 
-5. Defina un tronco raíz para la nueva puerta de enlace RTC. Un tronco es una conexión lógica entre un servidor de mediación y una puerta de enlace que se identifica de forma única por la tupla.
+5. Defina un tronco raíz para la nueva puerta de enlace RTC. Un tronco es una conexión lógica entre un servidor de mediación y una puerta de enlace identificada de forma única por la tupla.
     
-    {Media Server FQDN, Puerto de escucha del servidor de mediación (TLS o TCP): IP de puerta de enlace y FQDN, Puerto de escucha de la puerta de enlace}
+    {FQDN del servidor de mediación, puerto de escucha del servidor de mediación (TLS o TCP): IP y FQDN de puerta de enlace, puerto de escucha de puerta de enlace}
     
-     - Al definir una puerta de enlace RTC en el generador de topología, debe definir un tronco raíz para agregar correctamente la puerta de enlace RTC a su topología.
+     - Al definir una puerta de enlace RTC en topology Builder, debe definir un tronco raíz para agregar correctamente la puerta de enlace RTC a la topología.
     
      - El tronco raíz no puede quitarse hasta que se quite la puerta de enlace RTC asociada.
     
-6. En **Puerto de escucha para la puerta de enlace IP/RTC**, escriba el puerto de escucha que usará la puerta de enlace, PBX o SBC para los mensajes SIP del servidor de mediación que se asociará con el tronco raíz de la puerta de enlace RTC. (De forma predeterminada, los puertos son 5066 para Protocolo de transmisión de control [TCP] y 5067 para la Seguridad de la capa de transporte [TLS] en una puerta de enlace RTC, PBX o SBC. En un equipo de sucursales con la supervivencia en un sitio de sucursal, los puertos predeterminados son 5081 para TCP y 5082 para TLS.
+6. En Puerto de escucha para puerta de enlace **IP/RTC,** escriba el puerto de escucha que la puerta de enlace, PBX o SBC usará para los mensajes SIP del servidor de mediación que se asociarán con el tronco raíz de la puerta de enlace RTC. (De forma predeterminada, los puertos son 5066 para Protocolo de transmisión de control (TCP) y 5067 para la Seguridad de la capa de transporte (TLS) en una puerta de enlace RTC, PBX o SBC. En una aplicación de sucursal con funciones de supervivencia en una sucursal, los puertos predeterminados son 5081 para TCP y 5082 para TLS).
     
 7. En **Protocolo de transporte SIP**, haga clic en el tipo de transporte que usa el par y, a continuación, haga clic en **Aceptar**.
     
     > [!NOTE]
-    > Por razones de seguridad, le recomendamos encarecidamente que implemente un interlocutor en el servidor de mediación que pueda usar TLS. 
+    > Por motivos de seguridad, se recomienda encarecidamente implementar un sistema del mismo nivel en el servidor de mediación que pueda usar TLS. 
   
-8. En **servidor de mediación asociado**, seleccione el grupo de servidores de mediación para asociarlo con el tronco raíz de esta puerta de enlace RTC.
+8. En **Servidor de mediación asociado,** seleccione el grupo de servidores de mediación que desea asociar con el tronco raíz de esta puerta de enlace RTC.
     
-9. En **Puerto de servidor de mediación asociado**, escriba el puerto de escucha que el servidor de mediación usará para los mensajes SIP de la puerta de enlace.
+9. En **el puerto del servidor de mediación** asociado, escriba el puerto de escucha que usará el servidor de mediación para los mensajes SIP de la puerta de enlace.
     
     > [!NOTE]
-    > Con la compatibilidad de varios troncales en Skype empresarial Server, puede definir varios puertos de señalización SIP en el servidor de mediación para la comunicación con varias puertas de enlace RTC. Al definir un tronco, el **Puerto de servidor de mediación asociado** debe estar dentro del intervalo de los puertos de escucha para el protocolo respectivo permitido por el servidor de mediación. Este intervalo de puertos se define en Skype empresarial Server y en los grupos de mediación. Haga clic con el botón derecho en el grupo de servidores de mediación de interés y seleccione **Editar propiedades**. Specify the port range in the **Listening ports** field.
+    > Con la compatibilidad con varios troncos en Skype Empresarial Server, puede definir varios puertos de señalización SIP en el servidor de mediación para la comunicación con varias puertas de enlace RTC. Al definir un tronco, **el** puerto del servidor de mediación asociado debe estar dentro del intervalo de puertos de escucha para el protocolo respectivo permitido por el servidor de mediación. Este intervalo de puertos se define en Skype Empresarial Server y grupos de servidores de mediación. Haga clic con el botón secundario en el grupo de servidores de mediación de interés y seleccione **Editar propiedades.** Especifique el intervalo de puertos en el campo **Puertos de escucha**.
   
-10. Asegúrese de que el par definido está en ejecución y usa el FQDN o la dirección IP que ha especificado. A continuación, haga clic en **Finalizar**
+10. Asegúrese de que el sistema del mismo nivel que ha definido se está ejecutando y usando el FQDN o la dirección IP que ha especificado. Después, haga clic en **Finalizar**.
     
-11. Haga clic con el botón derecho en el nodo **Skype Empresarial Server** y, luego, haga clic en **Publicar topología**.
+11. Haga clic con el botón secundario **en el nodo de Skype Empresarial Server** y, a continuación, haga clic en Publicar **topología.**
     
 

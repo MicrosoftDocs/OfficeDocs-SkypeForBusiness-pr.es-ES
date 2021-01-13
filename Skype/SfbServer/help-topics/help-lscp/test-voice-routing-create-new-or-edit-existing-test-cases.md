@@ -1,8 +1,8 @@
 ---
-title: Probar el enrutamiento de voz crear nuevos o editar casos de prueba existentes
+title: Probar enrutamiento de voz Crear nuevos o editar casos de prueba existentes
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
-description: UNRESOLVED_TOKEN_VAL (» bigfin_UI_help_intro)
-ms.openlocfilehash: da28479820f6a750d47dcbb09ed4897839f93054
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
+ms.openlocfilehash: 4dae4883904af675fbdf0893ed9fdb41e5506714
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822042"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835570"
 ---
-# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>Probar enrutamiento de voz: Crear nuevas o editar existentes situaciones de prueba
+# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>Probar enrutamiento de voz: Crear nuevos o editar los existentes en situaciones de prueba
 
-UNRESOLVED_TOKEN_VAL (» bigfin_UI_help_intro)
+UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
 
 - [Crear un caso de prueba de enrutamiento de voz](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
 
-- [Ejecutar los casos de prueba de enrutamiento de voz](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [Ejecutar casos de prueba de enrutamiento de voz](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
 
-Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).
+Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
 

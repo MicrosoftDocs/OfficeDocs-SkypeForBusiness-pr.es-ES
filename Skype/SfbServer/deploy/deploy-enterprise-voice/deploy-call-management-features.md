@@ -1,8 +1,8 @@
 ---
-title: Implementar características de administración de llamadas en Skype empresarial
+title: Implementar características de administración de llamadas en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,38 +15,38 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
-description: Implementación de las características de administración de llamadas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: c3cc645f26d8e99f67cb9ddf00d4f9119e06dc81
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Implementar características de administración de llamadas en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 02c6669b9cadb952f7ccc71d785416db7414d8a8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767603"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836860"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business"></a>Implementar características de administración de llamadas en Skype empresarial
+# <a name="deploy-call-management-features-in-skype-for-business"></a>Implementar características de administración de llamadas en Skype Empresarial
  
-Implementación de las características de administración de llamadas en Skype empresarial Server Enterprise Voice.
+Implementar características de administración de llamadas en Skype Empresarial Server Telefonía IP empresarial.
   
-Las características de administración de llamadas de telefonía de empresa controlan cómo se enrutan y responden las llamadas entrantes. Skype empresarial Server proporciona las siguientes características de administración de llamadas: 
+Las características de administración de llamadas de Telefonía IP empresarial controlan el modo en el que las llamadas se enrutan y contestan. Skype Empresarial Server proporciona las siguientes características de administración de llamadas: 
   
-- **Parque de llamadas**: permite a los usuarios de voz detener temporalmente una llamada y, a continuación, recogerla desde el mismo teléfono u otro teléfono.
+- **Estacionamiento de llamadas:** permite a los usuarios de voz estacionar temporalmente una llamada y, a continuación, seleccionarla desde el mismo teléfono u otro teléfono.
     
-- **Recogida de la llamada grupal**: permite a los usuarios contestar las llamadas hechas a otro usuario que se asigna a un grupo de recogida marcando el número de grupo de recogida de llamadas.
+- **Respuesta de llamadas grupales:** permite a los usuarios responder a las llamadas realizadas a otro usuario asignado a un grupo de atención marcando el número del grupo de atención de llamadas.
     
-- **Grupo de respuesta**: enruta las llamadas entrantes a grupos de agentes mediante el uso de grupos de extensiones o preguntas y respuestas interactivas de respuesta de voz (IVR).
+- **Grupo de respuesta:** enruta las llamadas entrantes a grupos de agentes mediante grupos de extensiones o preguntas y respuestas interactivas de voz (IVR).
     
-- **Anuncio**: reproduce un mensaje para las llamadas realizadas a un número no asignado, redirige la llamada a otro lugar, o realiza ambas acciones.
+- **Anuncio**: reproduce un mensaje para las llamadas realizadas a un número no asignado o enruta la llamada a otro lugar, o ambas.
     
-En esta sección se describe cómo configurar estas características de administración de llamadas durante una implementación de telefonía IP empresarial.
+En esta sección se describe cómo configurar estas características de administración de llamadas durante Telefonía IP empresarial implementación.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Proceso de implementación para el parque de llamadas en Skype empresarial](deployment-process-for-call-park.md)
+- [Proceso de implementación del estacionamiento de llamadas en Skype Empresarial](deployment-process-for-call-park.md)
     
-- [Proceso de implementación para la recogida de llamadas grupales en Skype empresarial](deployment-process-for-group-call-pickup.md)
+- [Proceso de implementación para la atención de llamadas grupales en Skype Empresarial](deployment-process-for-group-call-pickup.md)
     
-- [Proceso de implementación para un grupo de respuesta en Skype empresarial](deployment-process-for-response-group.md)
+- [Proceso de implementación del grupo de respuesta en Skype Empresarial](deployment-process-for-response-group.md)
     
-- [Proceso de implementación para la aplicación de anuncios en Skype empresarial Server](deployment-process-for-the-announcement-application.md)
+- [Proceso de implementación de la aplicación Anuncio en Skype Empresarial Server](deployment-process-for-the-announcement-application.md)
     
 

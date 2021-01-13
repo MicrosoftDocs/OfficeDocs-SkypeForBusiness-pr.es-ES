@@ -1,8 +1,8 @@
 ---
-title: Asistente para la implementación de solicitudes de certificados
+title: Asistente para la implementación solicitar un certificado
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para obtener información sobre cómo usar el Asistente para la implementación para instalar Skype empresarial Server, consulte instalar Skype empresarial Server.
-ms.openlocfilehash: 89bbdb336b83cb01e52851f71796b8322bb7841d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, consulte Instalar Skype Empresarial Server.
+ms.openlocfilehash: fc4ed9685f2048c84f87082c090bd38852174d81
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796781"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836880"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>Asistente para la implementación: Solicitar un certificado
  
-Para obtener información sobre cómo usar el Asistente para la implementación para instalar Skype empresarial Server, consulte [instalar Skype empresarial Server](../../../deploy/install/install.md).
+Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, consulte [Instalar Skype Empresarial Server.](../../../deploy/install/install.md)
   
 

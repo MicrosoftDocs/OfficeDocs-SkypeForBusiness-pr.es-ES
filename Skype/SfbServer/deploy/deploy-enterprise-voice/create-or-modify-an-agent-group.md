@@ -1,8 +1,8 @@
 ---
-title: Crear o modificar un grupo de agentes en Skype empresarial
+title: Crear o modificar un grupo de agentes en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,115 +15,115 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
-description: Crear o modificar un grupo de agentes en el grupo respuesta de Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 0b496160f00cde80364c0f81c150392405ef7768
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Cree o modifique un grupo de agentes en Grupo de respuesta, en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: dfa09c3341ad47f2646939738cb67db7b7f27304
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767763"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837100"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype empresarial
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype Empresarial
  
-Crear o modificar un grupo de agentes en el grupo respuesta de Skype empresarial Server Enterprise Voice.
+Cree o modifique un grupo de agentes en grupo de respuesta, en Skype Empresarial Server Telefonía IP empresarial.
   
 Cuando se crea un grupo de agentes, se seleccionan los agentes que se asignan al grupo y se especifica la configuración de grupo adicional, como el método de enrutamiento y si un agente puede iniciar y cerrar sesión en el grupo. 
   
-Un agente que debe iniciar y cerrar sesión en el grupo, lo cual difiere de la sesión o de Skype empresarial, se denomina agente formal. Los agentes formales deben iniciar sesión en el grupo para poder recibir llamadas enrutadas al grupo. Esto puede resultar útil para los agentes que atienden llamadas del grupo a media jornada. Agentes formales inicie y cierre sesión en sus grupos haciendo clic en un elemento de menú de Skype empresarial para abrir el explorador de Internet de Windows Internet Explorer y mostrar una consola de página web.
+Un agente que debe iniciar y cerrar sesión en el grupo, que es diferente de iniciar o cerrar sesión en Skype Empresarial, se denomina agente formal. Los agentes formales deben iniciar sesión en el grupo para poder recibir llamadas enrutadas al grupo. Esto puede resultar útil para los agentes que atienden llamadas del grupo a media jornada. Los agentes formales inician y cierran sesión en sus grupos haciendo clic en un elemento de menú en Skype Empresarial para abrir el explorador Internet Explorer de Windows y mostrar una consola de página web.
   
-Un agente que no inicia ni cierra sesión en el grupo recibe el nombre de  agente informal. Los agentes informales inician sesión automáticamente en el grupo cuando inician sesión en Skype empresarial y no pueden cerrar sesión en el grupo.
+Un agente que no inicia ni cierra sesión en el grupo recibe el nombre de agente informal. Los agentes informales inician sesión automáticamente en el grupo cuando inician sesión en Skype Empresarial y no pueden cerrar sesión en el grupo.
   
-Solo los usuarios locales pueden ser agentes. Si un agente se mueve de local a conectado, las llamadas a grupos de respuesta no se dirigirán a ese agente.
+Solo los usuarios locales pueden ser agentes. Si un agente deja de ser local para estar en línea, las llamadas al grupo de respuesta no se enrutarán a dicho agente.
   
-Use uno de los procedimientos siguientes para crear o modificar un grupo de agentes.
+Use uno de los siguientes procedimientos para crear o modificar un grupo de agentes.
   
 > [!IMPORTANT]
 > Cuando asigne usuarios como agentes de grupo de respuesta, indíqueles que, si tienen habilitado el modo de privacidad, deberán buscar contactos de "Observador de presencia de RGS" y agregarlos a su lista de contactos. Los agentes que tengan el modo de privacidad habilitado, pero que no tengan "Observador de presencia RGS" en su lista de contactos no podrán recibir llamadas en el grupo de respuesta. Los agentes que no tengan habilitado el modo de privacidad, no se verán afectados. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Para usar el panel de control de Skype empresarial Server para crear o modificar un grupo de agentes
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Para usar el Panel de control de Skype Empresarial Server para crear o modificar un grupo de agentes
 
-1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
+1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
     > [!NOTE]
-    > Si es uno de los administradores del grupo de respuesta delegado de un flujo de trabajo administrado, podrá crear grupos y asignarlos a los flujos de trabajo que administre. 
+    > Si es uno de los administradores delegados de grupos de respuesta para un flujo de trabajo administrado, puede crear grupos y usarlos en los flujos de trabajo que administra. 
   
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server.  
     
-3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, haga clic en **Grupo**.
+3. En la barra de navegación izquierda, haga clic en **Grupos de respuesta** y, a continuación, en **Grupo**.
     
-4. En la página **Grupo**, haga lo siguiente:
+4. En la **página** Grupo, realice una de las siguientes acciones:
     
-   - Para crear un grupo de agente nuevo, haga clic en **Nuevo**. En el campo de búsqueda **Seleccionar un servicio**, escriba el nombre completo o una parte del servicio **ApplicationServer** para el que desea añadir el grupo. En la lista de servicios resultante, haga clic en el servicio que desee y, a continuación, haga clic en **Aceptar**.
+   - Para crear un nuevo grupo de agentes, haga clic en **Nuevo**. En el **campo Seleccionar un servicio** de búsqueda, escriba todo o parte del nombre del servicio **ApplicationServer** al que desea agregar el grupo. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
     
-   - Para modificar un grupo de agentes existentes, en el campo de búsqueda, escriba el nombre completo o una parte del grupo de agentes. En la lista de resultados, haga clic en el grupo que desee modificar, haga clic en **Editar** y, a continuación, en **Mostrar detalles**.
+   - Para modificar un grupo de agentes existente, escriba todo o parte del nombre del grupo de agentes en el campo de búsqueda. En la lista resultante, haga clic en el grupo que desee, haga clic en **Editar** y, a continuación, en **Mostrar detalles.**
     
-5. En **Nombre**, escriba un nombre de identificación para el grupo de agentes.
+5. En **Nombre,** escriba un nombre de identificación para el grupo de agentes.
     
 6. En **Descripción**, escriba una descripción para el grupo.
     
-7. En la **Directiva de participación**, seleccione una de las siguientes opciones para configurar el comportamiento de inicio de sesión en el grupo:
+7. En **Directiva de participación**, elija uno de estos procedimientos para configurar el comportamiento de conexión al grupo:
     
-   - Seleccione **Informal** para especificar que los agentes del grupo no tienen que iniciar ni cerrar sesión en el grupo. Los agentes inician sesión automáticamente en el grupo cuando inician sesión en Skype empresarial.
+   - Seleccione **Informal** para especificar que los agentes del grupo no necesitan iniciar y cerrar sesión en el grupo. Los agentes inician sesión automáticamente en el grupo cuando inician sesión en Skype Empresarial.
     
-   - Seleccione **Formal** para especificar que los agentes del grupo deben iniciar y cerrar sesión en el grupo. Al seleccionar esta opción, los agentes hace clic en un elemento de menú de Skype empresarial para abrir Internet Explorer y mostrar una consola de página web para iniciar y cerrar sesión en el grupo.
+   - Para especificar que los agentes del grupo deben iniciar y cerrar sesión en el grupo, haga clic en **Formal**. Al seleccionar esta opción, los agentes hacen clic en un elemento de menú en Skype Empresarial para abrir Internet Explorer y mostrar una consola de página web para iniciar y salir del grupo.
     
-8. En **Tiempo de alerta (segundos)**, especifique el número de segundos para llamar a un agente antes de ofrecer la llamada al siguiente agente disponible (el valor predeterminado es de 20 segundos).
+8. En **Tiempo de alerta (segundos)**, especifique los segundos que va a sonar la llamada de un agente antes de ofrecer la llamada al siguiente agente disponible (el valor predeterminado es 20 segundos).
     
     > [!IMPORTANT]
-    > La configuración del tiempo de alerta del agente no puede exceder los 180 segundos o la aplicación del cliente rechazará la llamada debido al temporizador de la transacción SIP que alcanza su tiempo de espera máximo. Para evitarlo, defina el valor del tiempo de alerta en menos de 180 segundos. 
+    > La configuración del tiempo de alerta del agente no puede superar los 180 segundos. Si el tiempo de alerta del agente supera los 180 segundos, la aplicación cliente rechaza la llamada porque el temporizador de transacciones SIP alcanza su tiempo de espera máximo. 
   
-9. En **Método de enrutamiento**, seleccione el método para las llamadas de enrutamiento a los agentes en el grupo tal como se indica a continuación:
+9. En **Método de enrutamiento**, seleccione un método para enrutar las llamadas a los agentes del grupo, según se muestra a continuación:
     
-   - Para ofrecer una nueva llamada primero al agente que haya estado inactivo el más largo ( **disponible** o **inactivo** en Skype para empresas), haga clic en **tiempo de inactividad más largo**. 
+   - To offer a new call first to the agent who has been idle the longest (has had a presence of **Available** or **Inactive** in Skype for Business the **longest),** click Longest idle . 
     
-   - Para ofrecer una nueva llamada a todos los agentes disponibles al mismo tiempo, haga clic en **En paralelo**. La llamada se envía al primer agente que la acepte.
+   - Para ofrecer una nueva llamada a todos los agentes disponibles al mismo tiempo, haga clic en **Enrutamiento en paralelo**. La llamada se envía al primer agente que la acepta.
     
-   - Para ofrecer una nueva llamada a cada agente por turnos, haga clic en **Por turnos**. 
+   - Para ofrecer una nueva llamada a un agente cada vez, haga clic en **Round robin**. 
     
-   - Para ofrecer una nueva llamada a los agentes según el orden en el que aparecen en la lista de **Agente**, haga clic en **En serie**. 
+   - Para ofrecer siempre una llamada a los agentes en el orden en que aparecen en la lista **Agente**, haga clic en **Enrutamiento en serie**. 
     
-   - Para ofrecer una nueva llamada a todos los agentes que han iniciado sesión en Skype empresarial y la aplicación de grupo de respuesta al mismo tiempo, independientemente de su presencia actual, haga clic en **operador**. Los usuarios configurados como agentes pueden ver todas las llamadas y responder a las llamadas en espera en cualquier orden. La llamada se envía al primer agente que la acepta, y a partir de ese momento los demás agentes ya no pueden ver la llamada.
+   - Para ofrecer una nueva llamada a todos los agentes que han iniciado sesión en Skype Empresarial y en la aplicación grupo de respuesta al mismo tiempo, independientemente de su presencia actual, haga clic en **Operador**. Los usuarios que están configurados como agentes pueden ver todas las llamadas que están en espera y responder llamadas en espera en cualquier orden. La llamada se envía al primer agente que la acepta, tras lo cual los demás agentes ya no ven la llamada.
     
-10. En **Agentes**, especifique cómo desea crear su lista de agentes:
+10. En la ficha **Agentes**, especifique el modo en que desea crear la lista de agentes:
     
-    - Para usar una lista personalizada de agentes, haga clic en **Definir un grupo personalizado de agentes** y, a continuación, realice uno de estos procedimientos:
+    - Para usar una lista personalizada de agentes, haga clic en Definir **un grupo** personalizado de agentes y realice una de las siguientes acciones:
     
-    - Para agregar un usuario al grupo de agentes, haga clic en **Seleccionar** y, a continuación, en el campo de búsqueda **Seleccionar agentes**, escriba el nombre completo o una parte del usuario que desea agregar a este grupo y haga clic en **Buscar**. En la lista de resultados, haga clic en el usuario y, a continuación, en **Aceptar**.
+    - Para agregar un usuario al grupo de agentes,  haga clic en Seleccionar y, a continuación, en el campo de búsqueda Seleccionar agentes, escriba todo o parte del nombre del usuario que desea agregar a este grupo y, a continuación, haga clic en Buscar **.** En la lista de agentes resultante, haga clic en el usuario y, a continuación, haga clic en **Aceptar.**
     
-    - Para quitar a un usuario de un grupo de agentes, en la lista de agentes, seleccione el usuario que desea quitar y haga clic en **Quitar**.
+    - Para quitar un usuario del grupo de agentes, en la lista de agentes, haga clic en el usuario que desea quitar y, a continuación, haga clic en **Quitar**.
     
-    - Para cambiar el orden en el que se ofrecen llamadas a los agentes de los grupos que usan el enrutamiento por turnos (round robin) o en serie, en la lista de agentes, haga clic en un usuario y, a continuación, seleccione la flecha hacia arriba o hacia abajo. 
+    - Para cambiar el orden en que se ofrecen llamadas a los agentes en grupos que usan enrutamiento por turnos o enrutamiento en serie, en la lista de agentes, haga clic en un usuario y, a continuación, haga clic en la flecha arriba o abajo. 
     
-    - Para utilizar una lista de distribución de Microsoft Exchange Server, haga clic en **Usar una lista de distribución de correo electrónico existente** y, a continuación, en **Dirección de lista de distribución**, escriba la dirección de correo electrónico de la lista de distribución (por ejemplo, NetworkSupport@contoso.com).
+    - Para usar una lista de distribución de Microsoft Exchange Server como grupo de agentes, haga clic en Usar una lista de distribución de correo electrónico existente y, a continuación, en Dirección de lista de **distribución,** escriba la dirección de correo electrónico de la lista de distribución (por ejemplo, NetworkSupport@contoso.com).
     
       Si usa una lista de distribución de correo electrónico, se aplican las restricciones siguientes:
     
-      - No puede seleccionar varias listas de distribución para el grupo de agentes. Cada grupo admite solo una única lista de distribución.
+      - No se pueden seleccionar varias listas de distribución para el grupo de agentes. Cada grupo solo admite una lista de distribución única.
     
-      - Si la lista de distribución contiene una o más listas de distribución, los miembros de las listas de distribución anidadas no se agregan a la lista de agentes.
+      - Si la lista de distribución contiene una o varias listas de distribución, los miembros de las listas de distribución anidadas no se agregan a la lista de agentes.
     
-      - Si se selecciona un enrutamiento en serie y por turnos o round robin, el servidor ofrece una llamada de entrada al agente apropiado de acuerdo con el método de enrutamiento y de acuerdo con el orden en el que los agentes aparecen en la lista de distribución.
+      - Si se selecciona el enrutamiento en serie o round robin, el servidor ofrece una llamada entrante al agente adecuado de acuerdo con el método de enrutamiento y según el orden en que los agentes aparecen en la lista de distribución.
     
-      - Si la lista de distribución contiene usuarios para los que Lync Server 2010 está habilitado, pero la telefonía IP empresarial no, se agregarán al grupo de agentes como agentes disfuncionales. Asegúrese de que todos los miembros de la lista de distribución tengan la Telefonía IP empresarial habilitada en sus cuentas de usuario.
+      - Si la lista de distribución contiene usuarios para los que Lync Server 2010 está habilitado pero Telefonía IP empresarial no está habilitado, se agregarán al grupo de agentes como agentes disfuncionales. Asegúrese de que todos los miembros de la lista de distribución Telefonía IP empresarial habilitadas para sus cuentas de usuario.
     
     > [!IMPORTANT]
-    > Si usa una lista de distribución de correo electrónico, las suscripciones ocultas o las listas ocultas podrían hacerse visibles para el administrador del grupo de respuesta o los usuarios. 
+    > Si usa una lista de distribución de correo electrónico, las pertenencias ocultas o las listas ocultas podrían ser visibles para el administrador o los usuarios del grupo de respuesta. 
   
-    Los miembros ocultos o las listas ocultas se pueden convertir en visibles de la siguiente manera:
+    Las pertenencias ocultas o las listas ocultas pueden quedar visibles en los casos siguientes:
     
-     - Si una lista de distribución se configuró de modo que la pertenencia está oculta y el administrador del grupo de respuesta asigna la lista de distribución a la lista de agentes, los usuarios pueden llamar al grupo para averiguar quiénes son los miembros. 
+     - Si se configuró una lista de distribución para que la pertenencia esté oculta y el administrador del grupo de respuesta asigne la lista de distribución a la lista de agentes, los usuarios pueden llamar al grupo para averiguar quiénes son los miembros. 
     
-     - Si se ha configurado una lista de distribución de modo que se oculte en la lista global de direcciones de Exchange, es posible que el administrador del grupo de respuesta pueda ver la lista de distribución y asignarla a la lista de agentes si el proceso de grupo de respuesta tiene los derechos de usuario apropiados y permisos, incluso si el administrador no tiene los derechos de usuario y los permisos apropiados.
+     - Si se configuró una lista de distribución para que esté oculta en la lista global de direcciones de Exchange, es posible que el administrador del grupo de respuesta pueda ver la lista de distribución y asignarla a la lista de agentes si el proceso de grupo de respuesta tiene los permisos y derechos de usuario adecuados, incluso si el administrador no tiene los permisos y derechos de usuario adecuados.
     
 11. Haga clic en **Confirmar**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>Para usar el shell de administración de Skype empresarial para crear o modificar un grupo de agentes
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>Para usar el Shell de administración de Skype Empresarial Server para crear o modificar un grupo de agentes
 
-1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
+1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
-3. Use **New-CsRgsAgentGroup** para crear un grupo de agentes nuevo. Use **Set-CsRgsAgentGroup** para modificar un grupo de agentes existente. En la línea de comandos, ejecute:
+3. Use **New-CsRgsAgentGroup para** crear un nuevo grupo de agentes. Use **Set-CsRgsAgentGroup para** modificar un grupo de agentes existente. En la línea de comandos, ejecute:
     
    ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
@@ -136,19 +136,19 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
    ```
 
     > [!IMPORTANT]
-    > La configuración del tiempo de alerta del agente no puede exceder los 180 segundos o la aplicación del cliente rechazará la llamada debido al temporizador de la transacción SIP que alcanza su tiempo de espera máximo. 
+    > La configuración del tiempo de alerta del agente no puede superar los 180 segundos. Si el tiempo de alerta del agente es superior a 180 segundos, la aplicación cliente rechaza la llamada porque el temporizador de transacciones SIP alcanza su tiempo de espera máximo. 
   
-4. Confirme que el grupo de agentes se ha creado. Ejecute:
+4. Confirme que se ha creado el grupo de agentes. Ejecute:
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
-[Nuevo: CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 [Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   

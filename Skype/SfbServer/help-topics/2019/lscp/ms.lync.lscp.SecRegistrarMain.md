@@ -1,8 +1,8 @@
 ---
 title: Configuración de seguridad de registrador
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 8154f9b10247a011b8434b9491e612be54a301c2
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: 7c9e1449d51a56caf5371ffd340da0e507544631
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797501"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836430"
 ---
 # <a name="registrar-security-settings"></a>Configuración de seguridad de registrador
 
-¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
+¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Administrar la configuración de la configuración de registrar en Skype empresarial Server](../../../manage/authentication/registrar-configuration-settings.md)
+- [Administrar las opciones de configuración del registrador en Skype Empresarial Server](../../../manage/authentication/registrar-configuration-settings.md)
 
 - [Modificar un registrador existente](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 

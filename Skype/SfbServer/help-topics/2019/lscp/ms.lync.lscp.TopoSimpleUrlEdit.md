@@ -1,8 +1,8 @@
 ---
-title: Detalle de dirección URL simple de la vista topológica
+title: Detalles de url sencilla de vista de topología
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 ROBOTS: NOINDEX, NOFOLLOW
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: ac6ce8ae9fe6c392d9fa1478c8688a133f8eac0a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: f30c784eebe0a2c0077d8e2bb788bb2bfd67c33f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795621"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836220"
 ---
 # <a name="topology-view-simple-url-detail"></a>Topología: Ver detalle de URL sencilla
 
-¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
+¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Editar o configurar direcciones URL simples](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [Editar o configurar direcciones URL sencillas](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
 
-- [Ver detalles de dirección URL simple](https://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
+- [Visualización de detalles de dirección URL sencilla](https://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
 
-- [Administrar direcciones URL simples](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+- [Administración de URL simples](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
 
 
 

@@ -1,8 +1,8 @@
 ---
-title: Registrador de CLS para Skype Empresarial Server 2015
+title: Registrador cls para Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -13,133 +13,133 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Resumen: Aprenda a usar el registrador del servicio de registro centralizado (CLS) en Skype empresarial Server 2015.'
-ms.openlocfilehash: d57afe991756f1bb6a7bf23917af207bc25ff32c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo usar el registrador del Servicio de registro centralizado (CLS) en Skype Empresarial Server 2015.'
+ms.openlocfilehash: a24cdbffc4b7601d325cd132afb5a7cf137b54f4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816619"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835240"
 ---
-# <a name="cls-logger-for-skype-for-business-server-2015"></a>Registrador de CLS para Skype Empresarial Server 2015
+# <a name="cls-logger-for-skype-for-business-server-2015"></a>Registrador cls para Skype Empresarial Server 2015
  
-**Resumen:** Aprenda a usar el registrador del servicio de registro centralizado (CLS) en Skype empresarial Server 2015.
+**Resumen:** Obtenga información sobre cómo usar el registrador del Servicio de registro centralizado (CLS) en Skype Empresarial Server 2015.
   
-CLS Logger es una herramienta que ayuda en la administración de los registros que genera el servicio de registro centralizado.
+ClS Logger es una herramienta que ayuda a administrar los registros generados por el servicio de registro centralizado.
   
 ## <a name="prerequisites"></a>Requisitos previos
 
-A fin de utilizar CLS Logger correctamente, es preciso asegurarse de lo siguiente:
+Para usar correctamente el registrador de CLS, debe asegurarse de que se cumple lo siguiente:
   
-- Está utilizando la herramienta en un equipo miembro del dominio donde se ejecuta el servicio de registro centralizado (CLS). Actualmente, la herramienta no es compatible en las sesiones remotas de PowerShell.
+- Está usando la herramienta en un equipo que es miembro del dominio donde se ejecuta el Servicio de registro centralizado (CLS). La herramienta no se admite actualmente en sesiones remotas de PowerShell.
     
-- Es necesario copiar el archivo Default.tmx de la carpeta de seguimiento (la carpeta donde se capturan los datos de seguimiento para CLS) y Snooper en la misma carpeta donde se encuentra instalada la herramienta CLS Logger.
+- El archivo Default.tmx de la carpeta de seguimiento (la carpeta donde se capturan los datos de seguimiento para CLS) y Snooper deben copiarse en la misma carpeta en la que está instalada la herramienta ClS Logger.
     
-## <a name="check-the-logging-status-of-a-set-of-poolscomputers"></a>Comprobar el estado de registro de un conjunto de grupos de servidores o equipos
+## <a name="check-the-logging-status-of-a-set-of-poolscomputers"></a>Comprobar el estado de registro de un conjunto de grupos o equipos
 
-Use el siguiente comando para comprobar el estado de registro:
+Use los siguientes comandos para comprobar el estado del registro:
   
-1. En la pestaña "escenarios de inicio/parada", seleccione una agrupación de grupos o equipos en la vista de árbol de topología.
+1. En la pestaña "Escenarios de inicio/detección", seleccione una agrupación de grupos o equipos en la vista de árbol de topología.
     
 2. Haga clic en el botón Estado de registro.
     
-3. Vea la salida del comando en el área de salida del comando de PowerShell para obtener detalles sobre el estado de registro de los equipos o los grupos de servidores seleccionados.
+3. Vea el resultado del comando en el área de salida de comandos de PowerShell para obtener información específica sobre el estado de registro de los equipos o grupos de servidores seleccionados.
     
 ## <a name="start-an-existing-scenario"></a>Iniciar un escenario existente
 
 Para iniciar un escenario existente:
   
-1. En la pestaña "escenarios de inicio/parada", seleccione un escenario existente en el menú desplegable escenarios.
+1. En la pestaña "Iniciar/Detener escenarios", seleccione un escenario existente en el menú desplegable Escenarios.
     
-2. Seleccione una agrupación de equipos o grupos de servidores en la vista del árbol de la topología.
+2. Seleccione una agrupación de grupos o equipos en la vista de árbol de topología.
     
-3. Haga clic en el botón Iniciar escenario. Hasta que no se complete la acción, se deshabilitará la interfaz de usuario. Es posible que este proceso sea lento en las implementaciones grandes.
+3. Haga clic en el botón Iniciar escenario. La interfaz de usuario se deshabilitará hasta que finalice la operación. Esto puede ser lento en implementaciones grandes.
     
-4. Una vez que el escenario se haya iniciado correctamente, se habilitará nuevamente la interfaz de usuario; también se mostrarán los detalles de la acción en el área de salida del comando de PowerShell.
+4. La interfaz de usuario se habilitará de nuevo una vez que el escenario se haya iniciado correctamente, los detalles de la acción también se mostrarán en el área de salida de comandos de PowerShell.
     
-5. Es posible que la tarea demore algo de tiempo antes de que CLS recoja el registro antes de nuevos datos del escenario.
+5. ClS puede tardar un tiempo antes de que CLS rete encargado del registro antes de los nuevos datos de este escenario.
     
 ## <a name="stop-an-existing-scenario"></a>Detener un escenario existente
 
 Para detener un escenario existente:
   
-1. En la pestaña "escenarios de inicio/parada", seleccione un escenario existente en el menú desplegable escenarios.
+1. En la pestaña "Iniciar/Detener escenarios", seleccione un escenario existente en el menú desplegable Escenarios.
     
-2. Seleccione una agrupación de equipos o grupos de servidores en la vista del árbol de la topología.
+2. Seleccione una agrupación de grupos o equipos en la vista de árbol de topología.
     
-3. Haga clic en el botón Detener escenario. Hasta que no se complete la acción, se deshabilitará la interfaz de usuario. Es posible que este proceso sea lento en las implementaciones grandes.
+3. Haga clic en el botón Detener escenario. La interfaz de usuario se deshabilitará hasta que finalice la operación. Esto puede ser lento en implementaciones grandes.
     
-4. Una vez que el escenario se haya detenido correctamente, se habilitará nuevamente la interfaz de usuario; también se mostrarán los detalles de la acción en el área de salida del comando de PowerShell.
+4. La interfaz de usuario se habilitará de nuevo una vez que el escenario se haya detenido, los detalles de la acción también se mostrarán en el área de salida de comandos de PowerShell.
     
 ![Inicio y detención del registrador de CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Buscar registros
 
-Para buscar registros, seleccione la ficha "buscar registros de CLS" y haga clic en el botón "buscar registros" después de rellenar los campos mostrados como se describe a continuación:
+Para buscar registros, seleccione la pestaña "Registros de CLS de búsqueda" y haga clic en el botón "Registros de búsqueda" después de rellenar los campos mostrados, como se describe a continuación:
   
-> **Carpeta de archivos de registros** La carpeta para guardar los resultados de la búsqueda de registros. (Necesaria)
+> **Carpeta de archivo de registro** Carpeta para guardar los resultados de la búsqueda de registro. (Obligatorio)
 > 
-> **Nivel de registro** Esto determina el nivel más bajo que se mostrará en los resultados; por ejemplo, si selecciona Advertencia, solo se mostrarán los errores irrecuperables, los errores y las advertencias. El nivel predeterminado es Depuración.
+> **Nivel de registro** Esto determina el nivel más bajo que se mostrará en los resultados. Por ejemplo, si se selecciona Advertencia, solo se mostrarán Advertencia, Error y Fatal. El valor predeterminado es Depurar.
 > 
-> **Grupos** Los grupos de equipos en los que se realizará la búsqueda de registros. Estos son nodos primarios de la vista de árbol. (Necesarios)
+> **Grupos de servidores** Los grupos de equipos en los que se realizará la búsqueda de registros son los nodos primarios de la vista de árbol. (Obligatorio)
 > 
-> **Equipos** Los equipos individuales en los que se realizará la búsqueda de registros. Estos son nodos secundarios de la vista de árbol. (Necesarios)
+> **Equipos** Los equipos individuales en los que se realizará la búsqueda de registros son todos los nodos secundarios de la vista de árbol. (Obligatorio)
 > 
-> **Hora de inicio** El período de tiempo en el que CLS consultará los registros. (Necesaria)
+> **Hora de inicio** Período de tiempo desde el que CLS consultará los registros. (Obligatorio)
 > 
-> **Hora de finalización** El período de tiempo en el que CLS detendrá la consulta de registros. (Necesaria)
+> **Hora de finalización** Período de tiempo desde el que CLS dejará de consultar los registros. (Obligatorio)
 > 
-> **Componentes** Se utilizan para seleccionar qué componentes agregar a la consulta. (Opcional)
+> **Componentes** Se usa para seleccionar los componentes que se agregarán a la consulta. (Opcional)
 > 
-> **Id. de llamada** El id. de llamada de todos los diálogos SIP que se utilizará como filtro. Tenga en cuenta que este campo utiliza resultados exactos. (Opcional)
+> **Id. de llamada** Identificador de llamada de los cuadros de diálogo SIP que se filtrarán. Tenga en cuenta que este campo usa coincidencia exacta. (Opcional)
 > 
-> **Id. de conferencia** El id. de conferencia de todas las conferencias que se utilizará como filtro. Tenga en cuenta que este campo utiliza resultados exactos. (Opcional)
+> **Id. de conferencia** El id. de conferencia de las conferencias por las que se va a filtrar. Tenga en cuenta que este campo usa coincidencia exacta. (Opcional)
 > 
-> **Dirección IP** La dirección IP que se utilizará como filtro. Tenga en cuenta que este campo utiliza resultados exactos. (Opcional)
+> **Dirección IP** Dirección IP que se va a filtrar. Tenga en cuenta que este campo usa coincidencia exacta. (Opcional)
 > 
-> **Id. de correlación** Realiza un seguimiento de las instrucciones lógicamente vinculadas en conjunto por este id. (Opcional)
+> **Identificadores de correlación** Instrucciones de seguimiento vinculadas lógicamente por este identificador. (Opcional)
 > 
 > **Número de teléfono** Filtra por número de teléfono. (Opcional)
 > 
-> **URI de SIP** Filtra por URI de SIP. (Opcional)
+> **URI de SIP** Filtrar por URI de SIP. (Opcional)
 > 
-> **El contenido del mensaje SIP contiene** Filtra por el contenido de los mensajes SIP; se realizarán búsquedas en las subcadenas del campo. (Opcional)
+> **Contenido de mensajes SIP contiene** Filtra por el contenido de los mensajes SIP, esta búsqueda subcadena dentro de este campo. (Opcional)
 > 
-> **Cualquier resultado** Las búsquedas usan un conector lógico O si se selecciona. Todos los parámetros se establecen de forma predeterminada en Coincidencia exacta.
+> **Coincidir con cualquiera** Busca con un OPERADOR lógico si está activado. El valor predeterminado es Coincidencia exacta de todos los parámetros.
 > 
-> **Omitir registros de red** Si se selecciona, se omiten todos los registros de red de la búsqueda.
+> **Omitir registros de red** Omite la búsqueda en los registros de red si está activada.
     
 ![Registros de búsqueda del registrador de CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Crear un escenario
 
-1. En la pestaña **Editar escenarios** , haga clic en el botón **crear escenario** .
+1. En la **pestaña Editar escenarios,** haga clic en **el botón Crear** escenario.
     
     > [!NOTE]
-    > Crear un escenario clonará la configuración del escenario que esté seleccionado en ese momento. Si hace clic en **Borrar los ajustes** antes de crear un escenario empezará sin elementos ni marcas seleccionados.
+    > La creación de un escenario clonará la configuración del escenario seleccionado actualmente. Si hace clic **en Borrar configuración** antes de crear un nuevo escenario, comenzará sin componentes ni marcas seleccionadas.
   
-2. Escriba el nombre del escenario que va a crear y presione la tecla Entrar o haga clic en el botón Aceptar.
+2. Escriba el nombre del escenario que desea crear y presione la tecla Entrar o haga clic en el botón Aceptar.
     
-3. Se creará el escenario. Tras la creación correcta, se seleccionará la lista desplegable Escenarios con el escenario recién creado.
+3. Ahora se creará el nuevo escenario. Una vez creada correctamente, se seleccionará la lista desplegable Escenarios con el escenario recién creado.
     
 ## <a name="modify-a-scenario"></a>Modificar un escenario
 
-![Captura de pantalla de CLS Logger, editar escenarios](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Captura de pantalla del registrador de CLS, escenarios de edición](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. 	En la ficha **Editar escenarios**, busque el escenario que desee modificar.
+1. En la **pestaña Editar escenarios,** busque el escenario deseado que desea modificar.
     
-2. Realice los cambios que desee a los componentes, niveles y marcadores.
+2. Realice los cambios deseados en los componentes, niveles y marcas.
     
-3. Haga clic en el botón **Guardar escenario**.
+3. Haga clic en **el botón Guardar escenario.**
     
-4. Tras guardar el escenario correctamente, se actualizará el panel de información del escenario con la configuración actualizada.
+4. Tras guardar correctamente el escenario, actualizará el panel de información del escenario con la configuración actualizada.
     
 ## <a name="delete-a-scenario"></a>Eliminar un escenario
 
-1. 	En la ficha **Editar escenarios**, seleccione un escenario existente en el menú desplegable Escenarios.
+1. En la **pestaña Editar escenarios,** seleccione un escenario existente en el menú desplegable Escenarios.
     
-2. Haga clic en **Eliminar escenario** para eliminar el escenario.
+2. Haga **clic en Eliminar escenario** para eliminar el escenario.
     
-3. Después de confirmar la acción, el escenario se eliminará.
+3. Después de confirmar la acción, se eliminará el escenario.
     
 

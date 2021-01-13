@@ -1,7 +1,7 @@
 ---
 title: Informe de usuarios bloqueados de RTC de Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,36 +13,36 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Use el informe de usuarios bloqueados de RTC en el centro de administración de Microsoft Teams para obtener información general de los usuarios de los equipos de su organización que están bloqueados para realizar llamadas RTC.
+description: Use el informe Usuarios bloqueados de RTC en el Centro de administración de Microsoft Teams para obtener información general sobre los usuarios de Teams de su organización que no pueden realizar llamadas DE RTC.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 511485fa156ba448368809edf54728ada1b80be7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ed775c3796e40a775b3be2b78f22e162a047bf78
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904912"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809340"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Informe de usuarios bloqueados de RTC de Microsoft Teams
 
-El informe de usuarios bloqueados de RTC en el centro de administración de Microsoft Teams le muestra los usuarios de su organización que no pueden realizar llamadas RTC en Teams. Puede ver más información sobre los usuarios bloqueados, incluidos su número de teléfono asignado y el motivo por el que fueron bloqueados para realizar llamadas.
+En el informe Usuarios bloqueados de RTC del Centro de administración de Microsoft Teams se muestran los usuarios de su organización que no pueden realizar llamadas RTC en Teams. Puede ver más información sobre cada usuario bloqueado, incluido el número de teléfono asignado y la razón por la que se le bloqueó para realizar llamadas.
 
-## <a name="view-the-pstn-blocked-users-report"></a>Ver el informe de usuarios bloqueados de RTC
+## <a name="view-the-pstn-blocked-users-report"></a>Ver el informe Usuarios bloqueados de RTC
 
-En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **usuarios bloqueados con RTC**y, a continuación, haga clic en **Ejecutar Informe**.
+En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **& informes de**  >  **uso.** En la **pestaña Ver informes,** en **Informe,** seleccione Usuarios bloqueados de **RTC** y, a continuación, haga clic en **Ejecutar informe.**
 
-![Captura de pantalla del informe de informe usuarios bloqueados de RTC en el centro de administración](../media/teams-reports-pstn-blocked-users-with-callouts.png "Captura de pantalla del informe de usuarios bloqueados de RTC en el centro de administración de Microsoft Teams con llamadas numeradas")
+![Captura de pantalla del informe Usuarios bloqueados de RTC en el Centro de administración](../media/teams-reports-pstn-blocked-users-with-callouts.png "Captura de pantalla del informe usuarios bloqueados de RTC en el centro de administración de Microsoft Teams con llamadas numeradas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
 |Globo |Descripción  |
 |--------|-------------|
-|**1**   |Cada informe tiene una fecha en la que se generó. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
-|**2**   |El eje X es la fecha. El eje Y es el número de usuarios. <br>Desplace el puntero sobre el punto en una fecha determinada para ver el número de usuarios bloqueados en esa fecha. |
-|**3**   |La tabla muestra un desglose de todos los usuarios que están bloqueados para realizar llamadas RTC.  Muestra todos los usuarios que tienen asignada una conferencia de audio o de sistema telefónico y le proporcionan más información acerca de cada usuario. <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams. </li> <li>**Teléfono** es el número que está asignado al usuario.</li> <li>**Motivo de bloqueo** es el motivo por el que el usuario está bloqueado para hacer llamadas.</li><li>La **acción bloqueada** indica si el usuario está bloqueado o desbloqueado para hacer llamadas RTC en Teams.</li> <li>**Tiempo bloqueado** es la fecha y hora (UTC) en las que el usuario no pudo realizar llamadas.</li></li> </ul>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
+|**1**   |Cada informe tiene la fecha del momento en que se generó. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
+|**2**   |El eje X es la fecha. El eje Y es el número de usuarios. <br>Mueva el puntero sobre el punto de una fecha determinada para ver el número de usuarios bloqueados en esa fecha. |
+|**3**   |En la tabla se proporciona un desglose de todos los usuarios a los que no se permite realizar llamadas RTC.  Se muestran todos los usuarios que tienen asignado Sistema telefónico o Audioconferencia y se proporciona más información sobre cada usuario. <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el Centro de administración de Microsoft Teams. </li> <li>**El** teléfono es el número que se asigna al usuario.</li> <li>**El motivo del** bloqueo es el motivo por el que se bloquea al usuario para que no haga llamadas.</li><li>**La acción**  bloqueada indica si el usuario está bloqueado o desbloqueado para realizar llamadas RTC en Teams.</li> <li>**La hora** bloqueada es la fecha y hora (UTC) en la que se bloqueó al usuario para que no pueda realizar llamadas.</li></li> </ul>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**4**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
-|**5**   |Seleccione **pantalla completa** para ver el informe en modo de pantalla completa.|
+|**5**   |Seleccione **Pantalla completa** para ver el informe en el modo de pantalla completa.|
 
 ## <a name="related-topics"></a>Temas relacionados
 

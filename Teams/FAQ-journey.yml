@@ -21,20 +21,22 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712632"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841481"
 title: 'Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams'
 summary: ''
 sections:
-- name: Omiso
+- name: Omitido
   questions:
   - question: ¿Existe un plazo concreto para que los clientes pasen de Skype Empresarial Online a Microsoft Teams?
     answer: >
       Sí. [Skype Empresarial Online se retirará](skype-for-business-online-retirement.md) el 31 de julio de 2021, momento en el que ya no será posible acceder o recibir soporte técnico. Recomendamos a los clientes de Skype Empresarial Online que comiencen a usar Teams y a planear las actualizaciones ahora para que tengan el tiempo suficiente de completarlas antes de la fecha de retirada.
+  - question: ¿Se va a retirar difusión de reunión de Skype al mismo tiempo que Skype Empresarial en línea?
+    answer: "Sí. Teams Live Events es la solución sucesora de Difusión de reunión de Skype.    \n"
   - question: ¿Cuánto tardará la actualización de mi organización a Microsoft Teams?
     answer: >
       El propio usuario puede definir el trayecto de su organización de Skype Empresarial a Microsoft Teams. Para ayudarle en su planificación y ejecución, hemos desarrollado una completa guía de actualización basada en un marco de trabajo de probada eficacia diseñado para ayudarle a navegar por los elementos técnicos y organizativos del cambio. Comience su viaje y familiarícese con nuestro [marco de actualización realizado de forma exitosa](upgrade-framework.md) y los recursos asociados que necesitará para cambiar de Skype Empresarial a Teams.
@@ -44,7 +46,7 @@ sections:
   - question: ¿Dónde puedo obtener más información sobre los modos de coexistencia en el Centro de administración de Microsoft Teams?
     answer: >
       En el centro de administración de Microsoft Teams, verá las opciones de los modos de coexistencia, que le permita a su organización administrar el recorrido de Skype Empresarial a Teams que sea adecuado para su organización. Obtenga más información sobre los [modos de coexistencia y actualización](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
-  - question: ¿Qué debo hacer para prepararse para mi actualización?
+  - question: ¿Qué debo hacer para prepararme para la actualización?
     answer: >
       Una actualización correcta debería incluir la constatación de la preparación técnica y la aceptación del usuario. Aunque observe que su organización no está muy preparada para actualizar a Teams, puede comenzar el proceso de planeación hoy mismo. Además, puede comenzar a darse cuenta del potencial de Teams si habilita Teams junto con Skype Empresarial. Comience su [viaje de Skype a Teams[(https://aka.ms/skypetoteams-home) hoy mismo.
 

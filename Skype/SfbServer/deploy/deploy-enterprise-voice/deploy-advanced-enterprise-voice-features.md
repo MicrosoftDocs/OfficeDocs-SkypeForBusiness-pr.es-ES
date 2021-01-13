@@ -1,8 +1,8 @@
 ---
-title: Implementar características avanzadas de telefonía empresarial en Skype empresarial Server
+title: Implementar características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
-description: Implementar características avanzadas de telefonía empresarial en Skype empresarial Server.
-ms.openlocfilehash: 27d09f842555d008edc96d5b61838508df6836a8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Implemente características Telefonía IP empresarial avanzadas en Skype Empresarial Server.
+ms.openlocfilehash: c3c551e7c0ba7dc8871791141e55d666578a411c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767683"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836900"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Implementar características avanzadas de telefonía empresarial en Skype empresarial Server
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Implementar características Telefonía IP empresarial avanzadas en Skype Empresarial Server
  
-Implementar características avanzadas de telefonía empresarial en Skype empresarial Server.
+Implemente características Telefonía IP empresarial avanzadas en Skype Empresarial Server.
   
-Tras haber configurado las funciones básicas de Telefonía IP empresarial en la organización, se puede optar por implementar una o más características avanzadas de Telefonía IP empresarial siguiendo los procedimientos de esta sección. 
+Una vez que haya configurado la funcionalidad Telefonía IP empresarial básica para su organización, puede implementar opcionalmente una o más características avanzadas de Telefonía IP empresarial siguiendo los procedimientos descritos en esta sección. 
   
-- [Plan de omisión de multimedia en Skype empresarial](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [Planear la omisión de medios en Skype Empresarial](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Plan para el control de admisión de llamadas en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Planear el control de admisión de llamadas en Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Planear los servicios de emergencia en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Planificar los servicios de emergencia en Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>En esta sección
 
-- [Implementar regiones, sitios y subredes de red en Skype empresarial](deploy-network.md)
+- [Implementar regiones de red, sitios y subredes en Skype Empresarial](deploy-network.md)
     
-- [Implementación de omisión de contenido multimedia en Skype empresarial Server](deploy-media-bypass.md)
+- [Implementar la omisión de medios en Skype Empresarial Server](deploy-media-bypass.md)
     
-- [Implementar el control de admisión de llamadas en Skype empresarial Server](deploy-call-admission-control.md)
+- [Implementar el control de admisión de llamadas en Skype Empresarial Server](deploy-call-admission-control.md)
     
-- [Implementar servicios de emergencia en Skype empresarial Server](deploy-emergency-services.md)
+- [Implementar servicios de emergencia en Skype Empresarial Server](deploy-emergency-services.md)
     
 
