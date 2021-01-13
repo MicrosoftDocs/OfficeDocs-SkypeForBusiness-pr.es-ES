@@ -1,8 +1,8 @@
 ---
-title: Los usuarios ven la Directiva de movilidad
+title: Directiva de movilidad de vista de usuarios
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
-description: El cuadro de diálogo de la Directiva de movilidad de vista muestra las propiedades de la Directiva de movilidad seleccionada.
-ms.openlocfilehash: cd4bf527deb5d893f97a843c6fd8c2247501a4d7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: El cuadro de diálogo Ver - Directiva de movilidad muestra las propiedades de la directiva de movilidad seleccionada.
+ms.openlocfilehash: 93813502892206783ad0cc55f1d63e4678e37904
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821802"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826700"
 ---
 # <a name="users-view-mobility-policy"></a>Usuarios: Ver directiva de movilidad
 
-El cuadro de diálogo de la **Directiva de movilidad de vista** muestra las propiedades de la Directiva de movilidad seleccionada.
+El cuadro de diálogo **Ver - Directiva de movilidad** muestra las propiedades de la directiva de movilidad seleccionada.
 
-Para obtener más información sobre cómo asignar directivas de movilidad, consulte [asignar una directiva de movilidad por usuario](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) y [configurar la Directiva de movilidad](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+Para obtener detalles sobre la asignación de directivas de movilidad, vea [Assign a Per-User Mobility Policy](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) y [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
 
 ## <a name="see-also"></a>Vea también
 
-[Planificación de movilidad](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planeación de la movilidad](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
 [Implementación de movilidad](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
 

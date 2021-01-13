@@ -1,8 +1,8 @@
 ---
-title: Planear el enrutamiento basado en la ubicación en Skype empresarial
+title: Plan for Location-Based Routing in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,214 +15,214 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
-description: Planear el enrutamiento basado en la ubicación en Skype empresarial Server Enterprise Voice, incluida la interacción con llamadas simultáneas y la delegación y escenarios admitidos para el enrutamiento basado en la ubicación.
-ms.openlocfilehash: fae78dcbc1aa1d92d6fe192618d9fda5001436a1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planear el enrutamiento basado en ubicación en Skype Empresarial Server Telefonía IP empresarial, incluida la interacción con llamadas y delegación simultáneas, y escenarios admitidos para el enrutamiento basado en ubicación.
+ms.openlocfilehash: 473ed77dce8edaee3b43822adcb8920027795d9e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802910"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825560"
 ---
-# <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planear el enrutamiento basado en la ubicación en Skype empresarial
+# <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan for Location-Based Routing in Skype for Business
 
-Planear el enrutamiento basado en la ubicación en Skype empresarial Server Enterprise Voice, incluida la interacción con llamadas simultáneas y la delegación y escenarios admitidos para el enrutamiento basado en la ubicación.
+Planear el enrutamiento basado en ubicación en Skype Empresarial Server Telefonía IP empresarial, incluida la interacción con llamadas y delegación simultáneas, y escenarios admitidos para el enrutamiento basado en ubicación.
 
-El enrutamiento basado en la ubicación permite restringir el enrutamiento de llamadas entre puntos de conexión VoIP y puntos de conexión RTC en función de la ubicación de las partes en la llamada. El enrutamiento basado en la ubicación es una característica de administración de llamadas que controla cómo se enrutan las llamadas por parte de Skype empresarial Server. Cumple con las reglas de autorización de llamadas si las llamadas se pueden enrutar a puntos de conexión PBX o RTC en función de la ubicación geográfica de la llamada de Skype empresarial.
+Location-Based enrutamiento permite restringir el enrutamiento de llamadas entre extremos VoIP y extremos RTC en función de la ubicación de las partes en la llamada. Location-Based enrutamiento es una característica de administración de llamadas que controla cómo se enruta la llamada por Skype Empresarial Server. Aplica reglas de autorización de llamadas en función de si las llamadas se pueden enrutar a puntos de conexión RTC o PBX en función de la ubicación geográfica del autor de la llamada de Skype Empresarial.
 
-El enrutamiento basado en ubicación introduce un nuevo conjunto de reglas que modifica el enrutamiento de llamadas RTC nacionales e internacionales para evitar que se omitan los números de pago. El enrutamiento basado en ubicación proporciona la flexibilidad para delimitar estas reglas solo a regiones específicas, a puertas de enlace específicas o a un conjunto específico de usuarios.
+Location-Based enrutamiento presenta un nuevo conjunto de reglas que modifica el enrutamiento de llamadas RTC nacionales e internacionales para evitar la omisión de pago. Location-Based enrutamiento proporciona la flexibilidad de definir el ámbito de estas reglas solo a regiones específicas, puertas de enlace específicas o a un conjunto específico de usuarios.
 
-Los siguientes escenarios ilustran los tipos principales de restricciones que el enrutamiento basado en ubicación puede exigir:
+Los siguientes escenarios ilustran los tipos principales de restricciones Location-Based que puede aplicar el enrutamiento:
 
-- Llamadas de salida: el enrutamiento basado en la ubicación puede exigir llamadas salientes a una puerta de enlace RTC que se encuentra en la misma región, donde el autor de la llamada impide la omisión de llamadas RTC, lo que evita que se produzcan salidas a una puerta de enlace RTC situada en otra región como la persona que llama.
+- Llamadas de salida: el enrutamiento de Location-Based puede aplicar llamadas salientes para la salida a una puerta de enlace RTC ubicada en la misma región en la que se encuentra el autor de la llamada para evitar la omisión de pago de RTC, lo que impide que las llamadas entren a una puerta de enlace RTC ubicada en una región diferente a la del autor de la llamada.
 
-- Llamadas de entrada: el enrutamiento basado en la ubicación puede evitar llamadas RTC entrantes para llamar a puntos de conexión de Skype empresarial si el enrutamiento de la puerta de enlace RTC la llamada entrante no se encuentra en la misma región que el usuario llamado Skype empresarial.
+- Llamadas de entrada: el enrutamiento de Location-Based puede impedir que las llamadas RTC entrantes suene a los puntos de conexión de Skype Empresarial si la puerta de enlace RTC que enruta la llamada entrante no se encuentra en la misma región que el usuario de Skype Empresarial llamado.
 
-- Regiones desconocidas: el enrutamiento basado en la ubicación restringe las llamadas a través de la RTC entrantes y salientes a los usuarios que se encuentran en ubicaciones indeterminadas (es decir, los usuarios remotos se conectan desde Internet o se encuentran en regiones desconocidas).
+- Regiones desconocidas: Location-Based enrutamiento restringe las llamadas RTC entrantes y salientes a los usuarios que se encuentran en ubicaciones indeterminadas (es decir, usuarios remotos que se conectan desde Internet o que se encuentran en regiones desconocidas).
 
-- Regiones internacionales: el enrutamiento basado en la ubicación exige el enrutamiento de llamadas salientes a través de puertas de enlace RTC internacionales Si no se puede encontrar una puerta de enlace local a la ubicación del usuario.
+- Regiones internacionales: Location-Based enrutamiento aplica el enrutamiento de llamadas salientes a través de puertas de enlace RTC internacionales si no se encuentra una puerta de enlace local en la ubicación del usuario.
 
-## <a name="guidance-for-where-to-apply-location-based-routing"></a>Instrucciones sobre dónde aplicar el enrutamiento basado en la ubicación
+## <a name="guidance-for-where-to-apply-location-based-routing"></a>Instrucciones sobre dónde aplicar el Location-Based enrutamiento
 
-El enrutamiento basado en la ubicación, según la situación, se puede aplicar en la ubicación del sitio de red del extremo del usuario o en la ubicación del sitio de red de la puerta de enlace RTC. En este tema se proporcionan instrucciones sobre cómo se aplica el enrutamiento basado en la ubicación.
+Location-Based enrutamiento en función de la situación se puede aplicar en la ubicación del sitio de red del extremo del usuario o en la ubicación del sitio de red de la puerta de enlace RTC. En este tema se proporcionan instrucciones sobre cómo Location-Based se aplica el enrutamiento.
 
-### <a name="applying-location-based-routing-at-the-users-location"></a>Aplicar enrutamiento basado en la ubicación en la ubicación del usuario
+### <a name="applying-location-based-routing-at-the-users-location"></a>Aplicación de Location-Based enrutamiento en la ubicación del usuario
 
-El enrutamiento basado en la ubicación se aprovecha de las mismas regiones, sitios y subredes de la red que se definen en Skype empresarial Server utilizado por E9-1-1, CAC y media bypass para aplicar las restricciones de enrutamiento de llamadas para evitar el bypass de llamadas RTC. La ubicación de un usuario viene determinada por la subred IP de los puntos de conexión de Skype empresarial del usuario. Cada subred IP está asociada a un sitio de red, y los sitios de red se agrupan en regiones de red definidas por el administrador. El enrutamiento basado en la ubicación se aplica en función del sitio de red del usuario.
+Location-Based Enrutamiento aprovecha las mismas regiones de red, sitios y subredes definidos en Skype Empresarial Server usado por E9-1-1, CAC y Desvío de medios para aplicar restricciones de enrutamiento de llamadas para evitar la omisión de pago rtc. La ubicación de un usuario viene determinada por la subred IP desde la que están conectados los puntos de conexión de Skype Empresarial del usuario. Cada subred IP está asociada a un sitio de red, que se agrega a las regiones de red definidas por el administrador. Location-Based enrutamiento se aplica en función del sitio de red del usuario.
 
-Las reglas de enrutamiento basadas en ubicación se aplican por sitio de red, lo que significa que se aplicará a todos los puntos de conexión que estén habilitados para el enrutamiento basado en la ubicación que se encuentra dentro del mismo sitio de red. Los administradores pueden aplicar el enrutamiento basado en ubicación a los sitios de red que lo necesiten.
+Location-Based reglas de enrutamiento se aplican por sitio de red, lo que significa que se aplicará un conjunto determinado de reglas a todos los puntos de conexión habilitados para el enrutamiento de Location-Based que se encuentran dentro del mismo sitio de red. Los administradores pueden aplicar Location-Based enrutamiento a sitios de red que lo requieran.
 
-Se pueden definir directivas de enrutamiento de voz en cada sitio de red, para que todos los usuarios ubicados en el sitio de red utilicen una puerta de enlace RTC concreta para llamar a números de teléfono de RTC. Dichas directivas de enrutamiento de voz tendrán prioridad sobre el enrutamiento definido por la Directiva de voz del usuario cuando el usuario se encuentre en un sitio de red habilitado para el enrutamiento basado en la ubicación y evitará el enrutamiento de llamadas a través de otras puertas de enlace RTC habilitadas para Enrutamiento basado en la ubicación. Cuando un usuario de Skype empresarial realiza una llamada RTC, la Directiva de voz del usuario determina si el usuario puede tener autorización para realizar la llamada. Si la Directiva de voz del usuario permite al usuario realizar la llamada, el enrutamiento basado en la ubicación determina qué puerta de enlace RTC debe salir de la llamada. El enrutamiento basado en la ubicación realiza esta determinación en función de la ubicación del usuario.
+Las directivas de enrutamiento de voz se pueden definir por sitio de red para definir una puerta de enlace RTC determinada que todos los usuarios ubicados en el sitio de red deben usar para llamar a números de teléfono RTC. Estas directivas de enrutamiento de voz tendrán prioridad sobre el enrutamiento definido por la directiva de voz del usuario cuando el usuario se encuentra en un sitio de red habilitado para enrutamiento de Location-Based y evitará el enrutamiento de llamadas a través de otras puertas de enlace RTC habilitadas para el enrutamiento de Location-Based. Cuando un usuario de Skype Empresarial realiza una llamada RTC, la directiva de voz del usuario determina si el usuario puede estar autorizado a realizar la llamada. Si la directiva de voz del usuario permite al usuario realizar la llamada, Location-Based enrutamiento determina desde qué puerta de enlace RTC debe partir la llamada. Location-Based enrutamiento realiza esta determinación en función de la ubicación del usuario.
 
-La ubicación de un usuario se puede clasificar de las siguientes maneras:
+Una ubicación de usuario se puede clasificar de las siguientes maneras:
 
-- El usuario se encuentra en un sitio de red conocido habilitado para enrutamiento basado en la ubicación y su número de ha finalizado (marcado directo) finaliza en una puerta de enlace RTC situada en el mismo sitio de red (es decir, Office). El enrutamiento de las llamadas salientes se realizará a través de la directiva de enrutamiento de voz del sitio de red en el que está ubicado el usuario. Las llamadas de RTC entrantes que reciba el usuario se redirigirán a los extremos ubicados en el mismo sitio de red que la puerta de enlace RTC.
+- El usuario se encuentra en un sitio de red conocido habilitado para enrutamiento de Location-Based y su número DID (marcado directo a la extensión) finaliza en una puerta de enlace RTC situada en el mismo sitio de red (es decir, office). El enrutamiento de las llamadas salientes se realizará a través de la directiva de enrutamiento de voz del sitio de red en el que se encuentra el usuario. Las llamadas RTC entrantes al usuario se enrutar a los puntos de conexión ubicados en el mismo sitio de red que la puerta de enlace RTC.
 
-- El usuario está ubicado en un sitio de red conocido y diferente del sitio de red donde se encuentra la puerta de enlace RTC (es decir, el usuario viajó a otra oficina de la compañía). El enrutamiento de las llamadas salientes utilizará la directiva de enrutamiento de voz del sitio de red en el que está ubicado el usuario. Las llamadas de RTC entrantes que reciba el usuario no se redirigirán a los extremos ubicados en sitios diferentes del de la puerta de enlace RTC, para evitar que se omitan los números de pago de RTC.
+- El usuario se encuentra en un sitio de red conocido que es diferente del sitio de red donde se encuentra la puerta de enlace RTC. (es decir, el usuario ha viajado a otra oficina corporativa). El enrutamiento de llamadas salientes se realizará mediante la directiva de enrutamiento de voz del sitio de red en el que se encuentra el usuario. Las llamadas RTC entrantes al usuario no se enrutarán a los puntos de conexión ubicados en sitios distintos de la puerta de enlace RTC para evitar la omisión de pago de RTC.
 
-- Cuando un usuario se encuentra en un sitio de red desconocido para la implementación de Skype empresarial Server, el enrutamiento de las llamadas salientes se basará en la política de voz asignada al usuario a las puertas de enlace RTC no enlazadas a las restricciones de enrutamiento basadas en la ubicación. Las llamadas de RTC entrantes no se redirigirán a los extremos ubicados en sitios de red desconocidos, para evitar que se omitan los números de pago de RTC.
+- Cuando un usuario se encuentra en un sitio de red desconocido para la implementación de Skype Empresarial Server, el enrutamiento de llamadas salientes se basará en la directiva de voz asignada al usuario a puertas de enlace RTC no enlazadas a restricciones de enrutamiento de Location-Based. Las llamadas RTC entrantes no se enrutarán a los puntos de conexión ubicados en sitios de red desconocidos para evitar la omisión de pago de RTC.
 
-### <a name="applying-location-based-routing-at-the-pstn-gateways-location"></a>Aplicar enrutamiento basado en la ubicación en la ubicación de la puerta de enlace RTC
+### <a name="applying-location-based-routing-at-the-pstn-gateways-location"></a>Aplicación de Location-Based enrutamiento en la ubicación de la puerta de enlace RTC
 
-Las llamadas enrutadas a través de puertas de enlace y PBX RTC pueden requerir restricciones de enrutamiento basadas en la ubicación, en función de la ubicación de dichos sistemas. El enrutamiento basado en la ubicación se puede habilitar en la granularidad según el enlace.
+Las llamadas enrutadas a través de puertas de enlace RTC y PBX pueden requerir restricciones Location-Based enrutamiento en función de la ubicación de dichos sistemas. Location-Based enrutamiento se puede habilitar en la granularidad por tronco.
 
-El enrutamiento basado en la ubicación presenta el siguiente conjunto de reglas cuando se habilita en un tronco:
+Location-Based enrutamiento presenta el siguiente conjunto de reglas cuando se habilita en un tronco:
 
-- Cuando el enrutamiento basado en la ubicación está habilitado para cada troncal, las reglas definidas en ese tronco se aplicarán únicamente a las llamadas dirigidas a través de ese tronco.
+- Cuando Location-Based enrutamiento por tronco, las reglas que se definen en ese tronco se aplicarán solo a las llamadas enrutadas a través de ese tronco.
 
-- Para evitar que los peajes de RTC omitan donde las llamadas se originan desde un sitio de red diferente que el sitio de red en el que se encuentra la puerta de enlace RTC, el enrutamiento basado en la ubicación introduce la Asociación de un sitio de red a un tronco determinado. Esto define el sitio de red que permite que las llamadas se redirijan hacia determinado tronco.
+- Para evitar la omisión de los números de pago rtc en los que las llamadas se originan desde un sitio de red diferente al sitio de red donde se encuentra la puerta de enlace RTC, Location-Based Routing introduce la asociación de un sitio de red a un tronco determinado. Esto define el sitio de red que permite enrutar las llamadas a un tronco determinado.
 
-Los troncos se pueden habilitar para el enrutamiento basado en la ubicación de dos maneras:
+Los troncos se pueden habilitar para Location-Based enrutamiento de dos maneras:
 
-- El tronco se define para una puerta de enlace RTC que realiza llamadas a la RTC. Las llamadas entrantes redirigidas por un tronco de este tipo se redirigen solo a los extremos ubicados dentro del mismo sitio de red que el tronco.
+- El tronco se define para una puerta de enlace RTC que salida las llamadas a la RTC. Las llamadas entrantes enrutadas por un tronco de este tipo se enrutarán solo a los puntos de conexión ubicados en el mismo sitio de red que el tronco.
 
-- El tronco se define para un servidor de mediación del mismo nivel que no de salida las llamadas a los usuarios de RTC y servicios con teléfonos heredados en ubicaciones estáticas (es decir, teléfonos PBX). Para esta configuración en particular, todas las llamadas entrantes dirigidas por un tronco de este tipo se considerarán originadas desde el mismo sitio de red que el tronco. Las llamadas de usuarios de PBX tendrán la misma aplicación de enrutamiento basada en la ubicación que los usuarios de Skype empresarial que se encuentren en el mismo sitio de red que el tronco. Si dos sistemas PBX ubicados en sitios de red independientes se conectan a través de Skype empresarial Server, el enrutamiento basado en la ubicación permitirá el enrutamiento desde un extremo de PBX de un sitio de red a otro extremo de PBX en el otro sitio de red. Este escenario no quedará bloqueado por el enrutamiento basado en la ubicación. Además de este escenario y de forma similar a como usuario de Skype empresarial en la misma ubicación, los puntos de conexión conectados a un servidor de mediación del mismo nivel con esta configuración podrán realizar o recibir llamadas a otros servidores de mediación del mismo nivel que no hagan llamadas t o la RTC (es decir, un extremo conectado a un sistema PBX diferente), independientemente del sitio de red al que está asociado el servidor de mediación del mismo nivel. Todas las llamadas entrantes, las llamadas salientes, las transferencias de llamadas y los reenvíos que impliquen puntos de conexión RTC estarán sujetos a enrutamiento basado en la ubicación para usar solo puertas de enlace RTC definidas como locales para este servidor del mismo nivel de media.
+- El tronco se define para un servidor de mediación del mismo nivel que no salida llamadas a los usuarios rtc y de servicios con teléfonos heredados en una ubicación estática (por ejemplo, teléfonos PBX). Para esta configuración en particular, se considerará que todas las llamadas entrantes enrutadas por un tronco de este tipo proceden del mismo sitio de red que el tronco. Las llamadas de los usuarios de PBX tendrán la misma aplicación Location-Based enrutamiento que los usuarios de Skype Empresarial que se encuentran en el mismo sitio de red que el tronco. Si dos sistemas PBX ubicados en sitios de red independientes están conectados a través de Skype Empresarial Server, el enrutamiento de Location-Based permitirá el enrutamiento de un extremo de PBX en un sitio de red a otro extremo de PBX en el otro sitio de red. Este escenario no se bloqueará mediante Location-Based enrutamiento. Además de este escenario y de forma similar a un usuario de Skype Empresarial en la misma ubicación, los extremos conectados a un servidor de mediación del mismo nivel con esta configuración podrán realizar o recibir llamadas desde y hacia otro servidor de mediación del mismo nivel que no enrutar llamadas a la RTC (es decir, un extremo conectado a una PBX diferente) independientemente del sitio de red al que esté asociado el servidor de mediación. Todas las llamadas entrantes, las llamadas salientes, las transferencias de llamadas y los reenvíos de llamadas que impliquen extremos de RTC estarán sujetos al enrutamiento basado en ubicación para usar solo puertas de enlace RTC definidas como locales para dicho servidor de mediación del mismo nivel.
 
-## <a name="scenarios-for-location-based-routing"></a>Escenarios para el enrutamiento basado en ubicación
+## <a name="scenarios-for-location-based-routing"></a>Escenarios para el Location-Based enrutamiento
 
-El enrutamiento basado en ubicación aplica las siguientes reglas generales al redirigir llamadas en los siguientes escenarios.
+Location-Based enrutamiento aplica las siguientes reglas generales al enrutar llamadas en los siguientes escenarios.
 
 ### <a name="outgoing-calls"></a>Llamadas salientes
 
-El enrutamiento de llamadas salientes de usuarios habilitados para el enrutamiento basado en la ubicación se ve afectado por la ubicación de red del extremo del usuario. En la tabla siguiente se muestra cómo afecta el enrutamiento basado en la ubicación al enrutamiento de las llamadas salientes en función de la ubicación del punto de conexión de la llamada.
+El enrutamiento de llamadas salientes de usuarios habilitados para Location-Based enrutamiento se ve afectado por la ubicación de red del extremo del usuario. En la tabla siguiente se muestra cómo Location-Based enrutamiento afecta al enrutamiento de llamadas salientes en función de la ubicación del extremo del autor de la llamada.
 
-**El autor de la llamada hace una llamada saliente a la RTC**
+**Autor de la llamada que realiza una llamada saliente a la RTC**
 
-||**El extremo del usuario se encuentra en un sitio de red habilitado para el enrutamiento basado en ubicación**|**El extremo del usuario se encuentra en un sitio de red desconocido o no habilitado para el enrutamiento basado en ubicación**|
+||**Extremo de usuario ubicado en un sitio de red habilitado para enrutamiento Location-Based usuario**|**Extremo de usuario ubicado en un sitio de red desconocido o no habilitado para enrutamiento Location-Based usuario**|
 |:-----|:-----|:-----|
-|Autorización de llamadas salientes  <br/> |La llamada está autorizada en función de la Directiva de voz del usuario.  <br/> |La llamada está autorizada en función de la Directiva de voz del usuario.  <br/> |
-|Enrutamiento de llamadas salientes  <br/> |La llamada se enruta según la Directiva de enrutamiento de voz del sitio de red.  <br/> |La llamada se dirige según la política de voz del usuario y solo a través de troncos no habilitados para enrutamiento basado en la ubicación (si está disponible)  <br/> |
+|Autorización de llamadas salientes  <br/> |La llamada se autoriza en función de la directiva de voz del usuario  <br/> |La llamada se autoriza en función de la directiva de voz del usuario  <br/> |
+|Enrutamiento de llamadas salientes  <br/> |La llamada se enruta según la directiva de enrutamiento de voz del sitio de red  <br/> |La llamada se enruta según la directiva de voz del usuario y solo a través de troncos no habilitados para Location-Based enrutamiento (si está disponible)  <br/> |
 
 ### <a name="incoming-calls"></a>Llamadas entrantes
 
-El enrutamiento de llamadas entrantes a los usuarios habilitados para el enrutamiento basado en la ubicación depende de la ubicación del extremo del usuario. El enrutamiento de llamadas entrantes se ve afectado de la siguiente manera. Si un usuario tiene una llamada entrante a un extremo ubicado en un sitio de red habilitado para enrutamiento basado en ubicación y el punto final se encuentra en el mismo sitio de red que la puerta de enlace PSTN, la llamada se redirigirá. Si un usuario tiene una llamada entrante a un extremo ubicado en un sitio de red habilitado para enrutamiento basado en ubicación y el punto final se encuentra en un sitio de red diferente de la puerta de enlace PSTN, la llamada no se redirigirá. Cuando un usuario no tiene puntos de conexión ubicados en el mismo sitio de red que la puerta de enlace PSTN de la que se origina la llamada entrante, la llamada entrante se redirigirá directamente al buzón de voz del usuario y se enviará una notificación de llamada perdida a la persona a la que se ha llamado.
+El enrutamiento de las llamadas entrantes a los usuarios habilitados para Location-Based enrutamiento depende de la ubicación del extremo del usuario. El enrutamiento de las llamadas entrantes se ve afectado de la siguiente manera. Si un usuario tiene una llamada entrante a un extremo ubicado en un sitio de red habilitado para enrutamiento de Location-Based y el extremo se encuentra en el mismo sitio de red que la puerta de enlace RTC, la llamada se enruta. Si un usuario tiene una llamada entrante a un extremo ubicado en un sitio de red habilitado para enrutamiento de Location-Based y el extremo se encuentra en un sitio de red diferente al de la puerta de enlace RTC, la llamada no se enruta. Cuando un usuario no tiene extremos ubicados en el mismo sitio de red que la puerta de enlace RTC desde la que se origina la llamada entrante, la llamada entrante se enruta directamente al correo de voz del usuario y se enviará una notificación de llamada perdida a la parte que recibe la llamada.
 
-La configuración del desvío de llamadas de un usuario habilitado para el enrutamiento basado en la ubicación se seguirá aplicando; sin embargo, las llamadas desviadas estarán sujetas a las restricciones de enrutamiento basadas en la ubicación del usuario.
+La configuración de reenvío de llamadas de un usuario que está habilitado para el enrutamiento de Location-Based se seguirá aplicando; sin embargo, las llamadas reenviadas estarán sujetas Location-Based restricciones de enrutamiento del usuario.
 
-En la tabla siguiente se muestra cómo afecta el enrutamiento basado en la ubicación al enrutamiento de las llamadas entrantes en función de la ubicación del punto final de la llamada. El sitio de red de la puerta de enlace RTC está habilitado para el enrutamiento basado en la ubicación y el enrutamiento basado en la ubicación solo permite el enrutamiento de llamadas RTC a puntos de conexión dentro del mismo sitio de red.
+En la tabla siguiente se muestra cómo Location-Based enrutamiento afecta al enrutamiento de llamadas entrantes en función de la ubicación del extremo del destinatario de la llamada. El sitio de red de la puerta de enlace RTC está habilitado para el enrutamiento de Location-Based y el enrutamiento de Location-Based solo permite el enrutamiento de llamadas RTC a los puntos de conexión dentro del mismo sitio de red.
 
-**El destinatario recibe una llamada entrante desde la RTC**
+**Destinatario de la llamada que recibe una llamada entrante de la RTC**
 
-||**Punto final de la llamada que se encuentra en el mismo sitio de red que la puerta de enlace RTC**|**El extremo de la persona que llama no se encuentra en el mismo sitio de red que la puerta de enlace RTC**|**El extremo del destinatario de la llamada se encuentra en un sitio de red desconocido o no está habilitado para el enrutamiento basado en la ubicación**|
+||**Extremo del destinatario de la llamada ubicado en el mismo sitio de red que la puerta de enlace RTC**|**El extremo del destinatario de la llamada no se encuentra en el mismo sitio de red que la puerta de enlace RTC**|**El extremo del destinatario de la llamada se encuentra en un sitio de red desconocido o no está habilitado para el Location-Based enrutamiento**|
 |:-----|:-----|:-----|:-----|
-|Enrutamiento de una llamada RTC entrante  <br/> |La llamada entrante se enruta a los puntos de conexión de la persona que llama  <br/> |La llamada entrante no se enruta a los extremos de la llamada  <br/> |La llamada entrante no se enruta a los extremos de la llamada  <br/> |
+|Enrutamiento de llamadas RTC entrantes  <br/> |La llamada entrante se enruta a los extremos del destinatario de la llamada  <br/> |La llamada entrante no se enruta a los extremos del destinatario de la llamada  <br/> |La llamada entrante no se enruta a los extremos del destinatario de la llamada  <br/> |
 
-### <a name="call-transfers-and-call-forwarding"></a>Transferencia y desvío de llamadas
+### <a name="call-transfers-and-call-forwarding"></a>Transferencia de llamadas y reenvío de llamadas
 
-Cuando se trata de un punto final de RTC, el enrutamiento basado en la ubicación analiza la ubicación del extremo de la calle y el punto final al que se transferirá o desviará la llamada (es decir, el destino de transferencia/reenvío). El enrutamiento basado en la ubicación determina si la llamada se debe transferir o desviar dependiendo de la ubicación de ambos puntos de conexión.
+Cuando se trata de un extremo de RTC, Location-Based Routing analiza la ubicación del extremo de la calle y el extremo al que se transferirá o reenviará la llamada (es decir, el destino de transferencia o reenvío). Location-Based enrutamiento determina si la llamada debe transferirse o reenviarse en función de la ubicación de ambos extremos.
 
-En la tabla siguiente se muestra el escenario de un usuario de Skype empresarial en una llamada con un punto final de RTC, y el usuario de Skype empresarial transfiere la llamada a otro usuario de Skype empresarial. En función de la ubicación del sitio de red del extremo del cesionario, el enrutamiento basado en la ubicación afecta al enrutamiento de la transferencia de la llamada o hacia adelante.
+En la tabla siguiente se muestra el escenario de un usuario de Skype Empresarial en una llamada con un punto de conexión rtc y el usuario de Skype Empresarial transfiere la llamada a otro usuario de Skype Empresarial. Según la ubicación del sitio de red del extremo del usuario de transferencia, Location-Based enrutamiento afecta al enrutamiento de la transferencia o reenvío de llamadas.
 
-**Inicio de la transferencia o el desvío de la llamada**
+**Iniciar la transferencia o el reenvío de llamadas**
 
-|**Usuario que inicia la transferencia o el desvío de la llamada**|**El extremo de destino está en el mismo sitio de red que el usuario que inicia la transferencia o el desvío de la llamada**|**El extremo de destino está en un sitio de red diferente del sitio del usuario que inicia la transferencia o el desvío de la llamada**|**El extremo de destino está en un sitio de red desconocido o el sitio de red no está habilitado para el enrutamiento basado en la ubicación**|
+|**Usuario que inicia la transferencia o reenvío de llamadas**|**El extremo de destino se encuentra en el mismo sitio de red que el usuario que inicia la transferencia o el reenvío de llamadas**|**El extremo de destino se encuentra en un sitio de red diferente cuando el usuario inicia la transferencia o el reenvío de llamadas**|**El extremo de destino está en un sitio de red desconocido o en un sitio de red no habilitado para el enrutamiento Location-Based enrutamiento**|
 |:-----|:-----|:-----|:-----|
-|Usuario de Skype empresarial  <br/> |Se permite el desvío o la transferencia de la llamada  <br/> |No se permite el desvío ni la transferencia de la llamada  <br/> |No se permite el desvío ni la transferencia de la llamada  <br/> |
+|Usuario de Skype Empresarial  <br/> |Se permite el reenvío o la transferencia de llamadas  <br/> |No se permite el reenvío o transferencia de llamadas  <br/> |No se permite el reenvío o transferencia de llamadas  <br/> |
 
-Por ejemplo: un usuario de Skype empresarial en una llamada con un punto final de la RTC transfiere la llamada a otro usuario de Skype empresarial que se encuentra en el mismo sitio de red. En este caso, se permite la transferencia de la llamada.
+Por ejemplo: un usuario de Skype Empresarial en una llamada con un extremo rtc transfiere la llamada a otro usuario de Skype Empresarial que se encuentra en el mismo sitio de red. En este caso, se permite la transferencia de llamadas.
 
-En la tabla siguiente se muestra el escenario de un usuario de Skype empresarial en una llamada con otro usuario de Skype empresarial, y uno de los usuarios transfiere la llamada a un punto final de la RTC. La tabla recoge los detalles de cómo el enrutamiento basado en ubicación afecta a la llamada en función de la ubicación del usuario al que se transfiere la llamada.
+En la tabla siguiente se muestra el escenario de un usuario de Skype Empresarial en una llamada con otro usuario de Skype Empresarial y uno de los usuarios transfiere la llamada a un extremo de RTC. En función de la ubicación del usuario al que se transfiere la llamada, en la tabla se detalla cómo afecta Location-Based enrutamiento a la llamada.
 
-**Transferencia o desvío de la llamada al extremo de RTC**
+**Transferencia o reenvío de llamadas al extremo de RTC**
 
-|**Destino del extremo de la transferencia o el desvío de la llamada**|**Usuarios de Skype empresarial en el mismo sitio de red**|**Usuarios de Skype empresarial en diferentes sitios de red**|**Uno o ambos usuarios de Skype empresarial en sitios de red o sitios de red desconocidos no están habilitados para el enrutamiento basado en la ubicación**|
+|**Destino de extremo de transferencia/reenvío de llamadas**|**Usuarios de Skype Empresarial en el mismo sitio de red**|**Usuarios de Skype Empresarial en sitios de red diferentes**|**Uno o ambos usuarios de Skype Empresarial en un sitio de red o sitio de red desconocidos no están habilitados para el Location-Based enrutamiento**|
 |:-----|:-----|:-----|:-----|
-|Extremo de RTC  <br/> |Desvío de llamadas o transferencia permitida por la Directiva de enrutamiento de voz del sitio del usuario transferido  <br/> |Desvío de llamadas o transferencia permitida por la Directiva de enrutamiento de voz del sitio del usuario transferido  <br/> |Desvío de llamadas o transferencia permitida por la Directiva de voz del usuario transferido solamente a través de troncos no habilitados para enrutamiento basado en la ubicación  <br/> |
+|Extremo de RTC  <br/> |Transferencia o reenvío de llamadas permitido por la directiva de enrutamiento de voz del sitio del usuario transferido  <br/> |Transferencia o reenvío de llamadas permitido por la directiva de enrutamiento de voz del sitio del usuario transferido  <br/> |Transferencia o reenvío de llamadas permitido por la directiva de voz del usuario transferido solo a través de troncos no habilitados para enrutamiento Location-Based enrutamiento  <br/> |
 
-Por ejemplo: un usuario de Skype empresarial en una llamada con otro usuario de Skype empresarial que se encuentra en el mismo sitio de red transfiere la llamada a un punto final de RTC y se permite la transferencia de llamadas.
+Por ejemplo: un usuario de Skype Empresarial en una llamada con otro usuario de Skype Empresarial que se encuentra en el mismo sitio de red transfiere la llamada a un extremo de RTC y se permite la transferencia de llamada.
 
-### <a name="simultaneous-ringing"></a>Tono de llamada simultáneo
+### <a name="simultaneous-ringing"></a>Llamadas simultáneas
 
-Cuando la persona a la que se llama tiene habilitado el timbre simultáneo, el enrutamiento basado en la ubicación analiza la ubicación de la persona que llama y los puntos finales de las partes a las que se llama para determinar si se debe distribuir la llamada.
+Cuando la persona a la que se llama tiene habilitadas las llamadas simultáneas, el enrutamiento de Location-Based analiza la ubicación de la persona que llama y los extremos de las partes a las que se llama para determinar si se debe enrutar la llamada.
 
-En la siguiente tabla se muestra un usuario con la configuración de llamadas simultáneas habilitada y el destino de llamadas simultáneas es un usuario en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido.
+En la tabla siguiente se muestra un usuario configurado con llamadas simultáneas y el destino de las llamadas simultáneas es un usuario en el mismo sitio de red, en un sitio de red diferente o en un sitio de red desconocido.
 
 ****
 
-|**Llamada RTC entrante para**|**Ubicado en el mismo sitio de red que el destinatario**|**Ubicado en un sitio de red distinto del sitio del destinatario**|**Se encuentra en un sitio de red desconocido o no está habilitado para el enrutamiento basado en la ubicación**|
+|**Llamada RTC entrante para**|**Ubicado en el mismo sitio de red que el destinatario de la llamada**|**Ubicado en un sitio de red diferente del destinatario de la llamada**|**Ubicado en un sitio de red desconocido o no habilitado para el Location-Based enrutamiento**|
 |:-----|:-----|:-----|:-----|
-|Usuario de Skype empresarial  <br/> |Llamadas simultáneas permitidas  <br/> |Llamadas simultáneas no permitidas  <br/> |Llamadas simultáneas no permitidas  <br/> |
+|Usuario de Skype Empresarial  <br/> |Llamadas simultáneas permitidas  <br/> |Llamadas simultáneas no permitidas  <br/> |Llamadas simultáneas no permitidas  <br/> |
 
-En la tabla siguiente se muestra una llamada de un usuario de Skype empresarial (es decir, el autor de una llamada de Skype empresarial) en el mismo sitio de red, en un sitio de red diferente o desde un sitio de red desconocido. El destinatario de la llamada tiene un punto final de la RTC (por ejemplo, teléfono móvil) configurado como un objetivo de llamada simultánea. En este escenario, el enrutamiento basado en la ubicación determinará si la llamada debe dirigirse al destino simultáneo (por ejemplo, teléfono móvil) del destinatario de la llamada.
+En la tabla siguiente se muestra una llamada de un usuario de Skype Empresarial (es decir, el llamador de Skype Empresarial) en el mismo sitio de red, en un sitio de red diferente o desde un sitio de red desconocido. El destinatario de la llamada tiene un extremo de RTC (es decir, un teléfono móvil) configurado como destino de llamadas simultáneas. En este escenario, Location-Based enrutamiento determina si la llamada se debe enrutar al destino de la llamada simultánea (es decir, al teléfono móvil) del destinatario de la llamada o no.
 
 ****
 
-|**Destino de llamadas simultáneas**|**Ubicado en el mismo sitio de red que el destinatario**|**Ubicado en un sitio de red distinto del sitio del destinatario**|**Se encuentra en un sitio de red desconocido o no está habilitado para el enrutamiento basado en la ubicación**|
+|**Destino de llamadas simultáneas**|**Ubicado en el mismo sitio de red que el destinatario de la llamada**|**Ubicado en un sitio de red diferente del destinatario de la llamada**|**Ubicado en un sitio de red desconocido o no habilitado para el Location-Based enrutamiento**|
 |:-----|:-----|:-----|:-----|
-|Extremo de RTC  <br/> |Se permiten llamadas simultáneas a través de la Directiva de enrutamiento de voz del sitio de la persona que llama  <br/> |Se permiten llamadas simultáneas a través de la Directiva de enrutamiento de voz del sitio de la persona que llama  <br/> |Se permiten llamadas simultáneas a través de la política de voz de la persona que llama a troncos que no están habilitados para el enrutamiento basado en la ubicación  <br/> |
+|Extremo de RTC  <br/> |Llamada simultánea permitida a través de la directiva de enrutamiento de voz del sitio del autor de la llamada  <br/> |Llamada simultánea permitida a través de la directiva de enrutamiento de voz del sitio del autor de la llamada  <br/> |Llamadas simultáneas permitidas a través de la directiva de voz del autor de la llamada a troncos no habilitados para enrutamiento Location-Based llamadas  <br/> |
 
 ### <a name="skype-for-business-cumulative-update-4"></a>Actualización acumulativa 4 de Skype Empresarial
 
 Con la actualización acumulativa 4, verá lo siguiente:
 
-- El enrutamiento basado en la ubicación seguirá habilitado a través de la Directiva de voz, incluidos los clientes móviles de Skype empresarial.
+- Location-Based enrutamiento de voz seguirá habilitado a través de la directiva de voz, incluidos los clientes de Skype Empresarial Mobile.
 
-- El comportamiento de la llamada para los clientes móviles de Skype empresarial se basará en si están habilitados para el enrutamiento basado en la ubicación y en el cliente de comunicación. Está pensado para ser estático, pero, en determinados casos, se puede realizar un esfuerzo por asociar un cliente de Skype Empresarial para móviles con una puerta de enlace RTC local y permitir determinados comportamientos, como una escalación.
+- El comportamiento de las llamadas para los clientes móviles de Skype Empresarial se basará en si están habilitados para el enrutamiento de Location-Based y el cliente de comunicación. Está diseñado para ser estático, pero puede haber, en determinadas situaciones, un esfuerzo para asociar un cliente de Skype Empresarial Mobile a una puerta de enlace RTC local y permitir ciertos comportamientos, como una escalación
 
-- Independientemente del sistema operativo, su cliente de Skype Empresarial para móviles debe tener la misma funcionalidad.
+- Independientemente del sistema operativo, el cliente de Skype Empresarial Mobile debe tener la misma funcionalidad.
 
-En la siguiente tabla se recorren algunos de los escenarios posteriores a la actualización acumulativa 4: 
+En la tabla siguiente se le mostrarán algunos de los escenarios posteriores a la actualización acumulativa 4:
 
-|**Usuario de enrutamiento basado en la ubicación**|**Terceros**|**Acción**|**Resultado**|
+|**Usuario de enrutamiento basado en ubicación**|**Otra parte**|**Acción**|**Resultado**|
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial para móviles  <br/> |RTC  <br/> |Skype empresarial Mobile recibe una llamada RTC entrante.  <br/> |La llamada se redirige a través de Vía trabajo (CvW) en lugar de VoIP.  <br/> |
-|Skype Empresarial para móviles  <br/> |RTC  <br/> |Skype empresarial Mobile hace una llamada RTC saliente.  <br/> |La llamada se redirige a través de (CvW) en lugar de VoIP.  <br/> |
-|Skype Empresarial para móviles  <br/> |RTC  <br/> |Skype Empresarial para móviles está en una llamada RTC. A continuación, Skype empresarial Mobile escala la llamada a otro usuario o contacto.  <br/> |La llamada se redirige a través de VoIP si el usuario o el contacto es local en la sección de puerta de enlace RTC.  <br/> Si el usuario o el contacto es remoto para la sección de puerta de enlace RTC, la llamada se redirige a través de CvW.  <br/> Si no es posible contactar con el usuario de destino a través de RTC, se produce un error en la llamada.  <br/> Si el contacto de destino es un operador automático de conferencia (CAA), la llamada se bloquea.  <br/> |
-|Skype Empresarial para móviles  <br/> |Cliente de Skype empresarial o usuario federado  <br/> |Un teléfono móvil de Skype empresarial inicia una llamada de voz a otro cliente de Skype empresarial o a un usuario federado.  <br/> |La llamada se completa a través de VoIP.  <br/> |
-|Skype Empresarial para móviles  <br/> |Cliente de Skype empresarial o usuario federado  <br/> | Un cliente de Skype empresarial o un usuario federado inicia una llamada de voz a un usuario de enrutamiento basado en una ubicación móvil de Skype empresarial. <br/> |La llamada se completa a través de VoIP.  <br/> |
-|Skype Empresarial para móviles  <br/> |Cliente de Skype empresarial o usuario federado  <br/> |Un cliente de Skype empresarial o un usuario federado está en una llamada VoIP a un usuario móvil de Skype empresarial. Cualquiera de las partes se escala a un usuario adicional de Skype empresarial o federado.  <br/> |La llamada se completa a través de VoIP.  <br/> |
-|Skype Empresarial para móviles  <br/> |Usuario federado  <br/> |Un usuario federado está en una llamada de voz a un usuario de enrutamiento basado en una ubicación móvil de Skype empresarial; una fiesta de Skype empresarial Mobile escala a un usuario de la RTC.  <br/> |La llamada se bloquea.  <br/> |
-|Skype Empresarial para móviles  <br/> |Usuario federado  <br/> |Un usuario federado se encuentra en una llamada VoIP a un usuario de enrutamiento basado en una ubicación móvil de Skype empresarial; cualquier parte se eleva a un contacto de CAA.  <br/> |La llamada escalada se bloquea, con un mensaje de error apropiado.  <br/> |
-|Skype Empresarial para móviles  <br/> |Usuario federado  <br/> |Un usuario federado se encuentra en una llamada VoIP a un usuario de enrutamiento basado en una ubicación móvil de Skype empresarial, y el usuario federado escala a un usuario de la RTC.  <br/> |La escala se permitirá o no se basará en el enrutamiento basado en la ubicación del usuario federado. La aplicación de usuario de enrutamiento basado en la ubicación móvil de Skype empresarial no realiza ninguna acción.  <br/> |
+|Skype Empresarial Mobile  <br/> |RTC  <br/> |Skype Empresarial Mobile recibe una llamada RTC entrante.  <br/> |La llamada se enruta a través de Vía trabajo (CvW) y no voIP.  <br/> |
+|Skype Empresarial Mobile  <br/> |RTC  <br/> |Skype Empresarial Mobile realiza una llamada RTC saliente.  <br/> |La llamada se enruta a través de CvW y no voIP.  <br/> |
+|Skype Empresarial Mobile  <br/> |RTC  <br/> |Skype Empresarial Mobile está en una llamada RTC. A continuación, Skype Empresarial Mobile escala la llamada a otro usuario o contacto.  <br/> |La llamada se enruta a través de VoIP si el usuario o contacto es local en la parte de la puerta de enlace RTC.  <br/> Si el usuario o contacto es remoto desde la parte de la puerta de enlace RTC, la llamada se enruta a través de CvW.  <br/> Si no se puede acceder al usuario de destino a través de la RTC, se produce un error en la llamada.  <br/> Si el contacto de destino es una conferencia Operador automático (CAA), la llamada se bloquea.  <br/> |
+|Skype Empresarial Mobile  <br/> |Cliente de Skype Empresarial o usuario federado  <br/> |Skype Empresarial Mobile inicia una llamada de voz a otro cliente o usuario federado de Skype Empresarial.  <br/> |La llamada se completa a través de VoIP.  <br/> |
+|Skype Empresarial Mobile  <br/> |Cliente de Skype Empresarial o usuario federado  <br/> | Un cliente de Skype Empresarial o un usuario federado inicia una llamada de voz a un usuario de enrutamiento de Location-Based Skype Empresarial Mobile. <br/> |La llamada se completa a través de VoIP.  <br/> |
+|Skype Empresarial Mobile  <br/> |Cliente de Skype Empresarial o usuario federado  <br/> |Un cliente de Skype Empresarial o un usuario federado está en una llamada VoIP a un usuario de Skype Empresarial Mobile. Cualquiera de las partes escala a un usuario adicional de Skype Empresarial o federado.  <br/> |La llamada se completa a través de VoIP.  <br/> |
+|Skype Empresarial Mobile  <br/> |Usuario federado  <br/> |Un usuario federado está en llamada de voz a un usuario de enrutamiento de Location-Based Skype Empresarial Mobile; Una parte de Skype Empresarial Mobile escala a un usuario RTC.  <br/> |La llamada está bloqueada.  <br/> |
+|Skype Empresarial Mobile  <br/> |Usuario federado  <br/> |Un usuario federado está en una llamada VoIP a un usuario de enrutamiento móvil de Skype Empresarial Location-Based móvil; cualquiera de las partes escala a un contacto de CAA.  <br/> |La llamada escalada está bloqueada, con un mensaje de error adecuado.  <br/> |
+|Skype Empresarial Mobile  <br/> |Usuario federado  <br/> |Un usuario federado está en una llamada VoIP a un usuario de enrutamiento de Location-Based de Skype Empresarial Mobile, y el usuario federado escala a un usuario RTC.  <br/> |La escalación se permitirá o no en función del Location-Based enrutamiento del usuario federado. La aplicación del usuario de enrutamiento Location-Based Skype Empresarial Mobile no hace ninguna acción.  <br/> |
 
 ### <a name="delegation"></a>Delegación
 
-Las capacidades de delegación de Skype empresarial se ven afectadas por el enrutamiento basado en la ubicación de la siguiente manera:
+Las capacidades de delegación de Skype Empresarial se ven afectadas por Location-Based enrutamiento de la siguiente manera:
 
-- Cuando un delegado habilitado para el enrutamiento basado en la ubicación realiza una llamada en nombre de un administrador, se usa la Directiva de voz del delegado para autorizar la llamada y se usará la Directiva de enrutamiento de voz del sitio del delegado para enrutar la llamada
+- Cuando un delegado habilitado para Location-Based Routing hace una llamada en nombre de un administrador, la directiva de voz del delegado se usa para autorizar la llamada y la directiva de enrutamiento de voz del sitio del delegado se usará para enrutar la llamada.
 
-- Para las llamadas RTC entrantes a un administrador, se aplican las mismas reglas correspondientes para el reenvío de llamadas o para las llamadas simultáneas, tal como se describe en los temas Transferencias y reenvíos de llamadas y Llamadas simultáneas.
+- Para las llamadas RTC entrantes a un administrador, se aplicarán las mismas reglas aplicables para el reenvío de llamadas o las llamadas simultáneas, como se describe en los temas Transferencia y reenvío de llamadas y llamadas simultáneas.
 
-- Cuando un delegado establece un punto final de la RTC como un destino de llamada simultánea, para una llamada entrante al administrador, se usará la Directiva de enrutamiento de voz del sitio asociado al tronco entrante para enrutar la llamada al punto final de la RTC del delegado.
+- Cuando un delegado establece un extremo de RTC como destino de llamadas simultáneas, para una llamada entrante al administrador, la directiva de enrutamiento de voz del sitio asociado al tronco entrante se usará para enrutar la llamada al extremo de RTC del delegado.
 
-- Para la delegación, se recomienda que el administrador y sus delegados asociados se encuentren generalmente en el mismo sitio de red.
+- Para la delegación, se recomienda que el administrador y sus delegados asociados se ubican normalmente en el mismo sitio de red.
 
-## <a name="other-planning-considerations"></a>Otras consideraciones de planificación
+## <a name="other-planning-considerations"></a>Otras consideraciones de planeación
 
-Al planear el enrutamiento basado en la ubicación, debe considerar el impacto en los siguientes escenarios.
+Al planear Location-Based enrutamiento, debe tener en cuenta el impacto en los siguientes escenarios.
 
 ### <a name="disaster-recovery"></a>Recuperación ante desastres
 
-Durante una conmutación por error del repositorio principal a un grupo de copia de seguridad, así como al restaurar operaciones normales en el repositorio principal, el enrutamiento basado en la ubicación se mantiene en todo momento durante un procedimiento de recuperación ante desastres.
+Durante una conmutación por error del grupo de servidores principal a un grupo de servidores de copia de seguridad, así como al restaurar las operaciones normales en el grupo de servidores principal, el enrutamiento de Location-Based se aplica en todo momento durante un procedimiento de recuperación y desastres.
 
 ### <a name="survivable-branch-appliance"></a>Aplicación de sucursal con funciones de supervivencia
 
-La configuración del enrutamiento basado en la ubicación afecta al planeamiento de la ubicación en la que se implementan las puertas de enlace asociadas a los dispositivos de las sucursales que son revivientes. La puerta de enlace asociada a su SBA debe estar ubicada en el mismo sitio de red que su equipo de sucursal con la supervivencia; de lo contrario, los usuarios alojados en su equipo de sucursal con su supervivencia no podrán realizar llamadas salientes si el enrutamiento basado en la ubicación está configurado. Cuando la conexión WAN entre el equipo de la sucursal y el sitio central está inactivo, se exige la aplicación de las restricciones de enrutamiento basadas en la ubicación.
+La configuración Location-Based enrutamiento afecta a la planeación de dónde se implementan las puertas de enlace asociadas a las aplicaciones de sucursal con funciones de supervivencia. La puerta de enlace asociada al SBA debe estar ubicada en el mismo sitio de red que la aplicación de sucursal con funciones de supervivencia; de lo contrario, los usuarios que se alomen en la aplicación de sucursal con funciones de supervivencia no podrán realizar llamadas salientes si se Location-Based enrutamiento. Cuando la conexión WAN entre la aplicación de sucursal con funciones de supervivencia y el sitio central está fuera de servicio, Location-Based restricciones de enrutamiento se aplican.
 
-## <a name="client-and-server-support-for-location-based-routing"></a>Compatibilidad de cliente y servidor para el enrutamiento basado en ubicación
+## <a name="client-and-server-support-for-location-based-routing"></a>Compatibilidad de cliente y servidor para enrutamiento Location-Based cliente
 
-Skype empresarial Server exige el enrutamiento basado en la ubicación. Skype empresarial Server puede identificar los sitios de red desde los que se conectan los usuarios dentro de la red corporativa. Dado que los usuarios remotos están fuera de la red corporativa, su ubicación se considera como desconocida.
+Location-Based enrutamiento se aplica mediante Skype Empresarial Server. Skype Empresarial Server puede identificar los sitios de red desde los que los usuarios se conectan desde la red corporativa. Dado que los usuarios remotos están fuera de la red corporativa, su ubicación se considera desconocida.
 
 ### <a name="server-support"></a>Compatibilidad con servidores
 
-El enrutamiento basado en la ubicación requiere que Skype empresarial Server o Lync Server 2013 CU1 se implemente en todas las agrupaciones front end y servidores Standard Edition en una topología dada. Si estas versiones del servidor no están instaladas, las restricciones de enrutamiento basadas en la ubicación no se pueden aplicar por completo.
+Location-Based enrutamiento de clientes requiere que Skype Empresarial Server o Lync Server 2013 CU1 se implementen en todos los grupos de servidores front-end y servidores Standard Edition en una topología determinada. Si estas versiones del servidor no están instaladas, las restricciones de enrutamiento basado en ubicación no se pueden aplicar por completo.
 
-En la siguiente tabla se identifica la combinación de las versiones y los roles de servidor que se admiten para el enrutamiento basado en la ubicación.
+En la tabla siguiente se identifica la combinación de roles de servidor y versiones compatibles con Location-Based enrutamiento.
 
 ****
 
-|**Versión del grupo**|**Versión del servidor de mediación**|**Compatible**|
+|**Versión del grupo de servidores**|**Versión del servidor de mediación**|**Compatible**|
 |:-----|:-----|:-----|
-|Skype empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |Skype empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |sí  <br/> |
-|Skype empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |Lync Server 2013  <br/> |no  <br/> |
-|Skype empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |Lync Server 2010  <br/> |no  <br/> |
-|Skype empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |Office Communications Server 2007 R2  <br/> |no  <br/> |
+|Actualización acumulativa de Skype Empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |Actualización acumulativa de Skype Empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |sí  <br/> |
+|Actualización acumulativa de Skype Empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |Lync Server 2013  <br/> |no  <br/> |
+|Actualización acumulativa de Skype Empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |Lync Server 2010  <br/> |no  <br/> |
+|Actualización acumulativa de Skype Empresarial Server o Lync Server 2013 de febrero de 2013  <br/> |Office Communications Server 2007 R2  <br/> |no  <br/> |
 |Lync Server 2013  <br/> |cualquiera  <br/> |no  <br/> |
 |Lync Server 2010  <br/> |cualquiera  <br/> |no  <br/> |
 |Office Communications Server 2007 R2  <br/> |cualquiera  <br/> |no  <br/> |
 
 ### <a name="client-support"></a>Compatibilidad con clientes
 
-La siguiente tabla identifica los clientes que admite el enrutamiento basado en la ubicación.
+En la tabla siguiente se identifican los clientes que admite Location-Based enrutamiento.
 
 ****
 
@@ -235,34 +235,34 @@ La siguiente tabla identifica los clientes que admite el enrutamiento basado en 
 |Lync Phone Edition  <br/> |sí  <br/> ||
 |Lync Attendant  <br/> |sí  <br/> ||
 |Lync para Windows 8  <br/> |no  <br/> ||
-|Lync Mobile 2013  <br/> |no  <br/> |El VoIP debe estar deshabilitado para los clientes de Lync Mobile 2013 si lo usan los usuarios con el enrutamiento basado en la ubicación habilitado.  <br/> |
+|Lync Mobile 2013  <br/> |no  <br/> |VoIP debe deshabilitarse para los clientes de Lync Mobile 2013 si los usuarios con el enrutamiento de Location-Based habilitado.  <br/> |
 |Lync Mobile 2010  <br/> |sí  <br/> ||
 
 > [!NOTE]
-> Para deshabilitar VoIP para los clientes de Skype empresarial, asigne una directiva de movilidad con la configuración, audio/vídeo IP, deshabilitado para todos los usuarios habilitados para el enrutamiento basado en la ubicación. Para obtener más detalles sobre la directiva de movilidad, mira [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> Para deshabilitar VoIP para clientes de Skype Empresarial, asigne una directiva de movilidad con la configuración, Audio/Vídeo IP, deshabilitada para todos los usuarios habilitados para el enrutamiento Location-Based ip. Para obtener más información acerca de la directiva de movilidad, [vea New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
 
-## <a name="capabilities-not-supported-by-location-based-routing"></a>Capacidades no compatibles con el enrutamiento basado en ubicación
+## <a name="capabilities-not-supported-by-location-based-routing"></a>Funcionalidades no admitidas por Location-Based enrutamiento
 
-El enrutamiento basado en la ubicación no se aplica a los siguientes tipos de interacciones. El enrutamiento basado en la ubicación no se aplica cuando los puntos de conexión de Skype empresarial interactúan con puntos de conexión RTC usando estas funciones.
+Location-Based enrutamiento no se aplica a los siguientes tipos de interacciones. Location-Based enrutamiento no se aplica cuando los puntos de conexión de Skype Empresarial interactúan con los puntos de conexión rtc que usan estas funcionalidades.
 
-- Marcación RTC para conferencias
+- Acceso telefónico RTC a conferencias
 
 - Llamadas RTC entrantes y salientes a través del grupo de respuesta
 
-- Estacionamiento o recuperación de llamadas RTC a través del estacionamiento de llamadas
+- Estacionamiento de llamadas o recuperación de llamadas RTC a través del estacionamiento de llamadas
 
 - Llamadas RTC entrantes al servicio de anuncio
 
-- Llamadas RTC entrantes recuperadas a través de la atención de llamadas de grupo
+- Llamadas RTC entrantes recuperadas a través de la atención de llamadas grupales
 
-Para aplicar reglas de enrutamiento basadas en la ubicación a los tipos de interacciones de la siguiente lista, debe habilitar el enrutamiento basado en la ubicación para las conferencias:
+Para aplicar Location-Based reglas de enrutamiento a los tipos de interacciones de la lista siguiente, debe habilitar el enrutamiento Location-Based para conferencias:
 
-- Iniciar llamadas RTC desde una conferencia
+- Llamada RTC desde conferencias
 
-- Escalaciones desde conversaciones de audio de punto a punto a conferencias en las que participen extremos de RTC
+- Escalaciones de conversaciones de audio punto a punto a conferencias en las que intervienen extremos RTC
 
-- Transferencias de consulta con extremos de RTC
+- Transferencias de consulta en las que intervienen extremos RTC
 
-Para habilitar el enrutamiento basado en la ubicación de las conferencias, consulte [enrutamiento basado en la ubicación para conferencias](https://technet.microsoft.com/library/e1acb1ba-0ed2-4abf-8a7b-1ca3049e95e3.aspx).
+Para habilitar Location-Based enrutamiento de conferencias, consulte Enrutamiento basado [en ubicación para conferencias.](https://technet.microsoft.com/library/e1acb1ba-0ed2-4abf-8a7b-1ca3049e95e3.aspx)
 
 

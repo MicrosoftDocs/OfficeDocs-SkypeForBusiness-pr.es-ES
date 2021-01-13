@@ -1,8 +1,8 @@
 ---
-title: Directiva de archivado crear nuevo o editar existente
+title: Directiva de archivado Crear nueva o editar existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,41 +14,41 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
-description: 'Use las directivas de archivado para controlar el archivado de las comunicaciones internas y externas de la implementación para los usuarios alojados en Skype empresarial Server. Las directivas de archivado incluyen la directiva global y, de forma opcional, una o varias directivas de usuario y de sitio:'
-ms.openlocfilehash: e37d4365af0c817d49d4314987ee41392a0d80cb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Las directivas de archivado se usan para controlar el archivado de comunicaciones internas y externas en la implementación para los usuarios que están en Skype Empresarial Server. Las directivas de archivado incluyen la directiva global y, opcionalmente, una o más directivas de sitio y usuario:'
+ms.openlocfilehash: 9c852c592776f9e529c11dd46272715af52e8111
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823203"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826970"
 ---
-# <a name="archiving-policy-create-new-or-edit-existing"></a>Directiva de archivado: Crear nueva o editar existente
+# <a name="archiving-policy-create-new-or-edit-existing"></a>Directiva de archivado: Crear nuevos o editar los existente
  
-Use las directivas de archivado para controlar el archivado de las comunicaciones internas y externas de la implementación para los usuarios alojados en Skype empresarial Server. Las directivas de archivado incluyen la directiva global y, de forma opcional, una o varias directivas de usuario y de sitio:
+Las directivas de archivado se usan para controlar el archivado de comunicaciones internas y externas en la implementación para los usuarios que están en Skype Empresarial Server. Las directivas de archivado incluyen la directiva global y, opcionalmente, una o más directivas de sitio y usuario:
   
-- **Directiva global** La directiva global se crea de forma predeterminada en todas las implementaciones de Skype empresarial Server. Puede editarla, pero no eliminarla. Si intenta eliminarla, todas las opciones se restablecerán a los valores predeterminados.
+- **Directiva global** La directiva global se crea de forma predeterminada en todas las implementaciones de Skype Empresarial Server. Puede editar la directiva global, pero no puede eliminar esta directiva. Si intenta eliminarla, todas las opciones se restablecerán a los valores predeterminados.
     
-- **Directivas de sitio (opcional)** Puede especificar una o más directivas de archivado de sitio, cada una de las cuales puede configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un sitio específico. Una directiva de sitio reemplaza a la directiva global, pero solo para los sitios especificados en las directivas de sitios de archivado. Las directivas de sitio se pueden editar o eliminar.
+- **Directivas de sitio (opcional)** Puede especificar una o más directivas de archivado de sitios, cada una de las cuales puede configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un sitio específico. Una directiva de sitio reemplaza la directiva global, pero solo para los sitios especificados en las directivas de archivado. Puede editar o eliminar las directivas de sitios.
     
-- **Directivas de usuario (opcional)** Puede especificar una o más directivas de archivado de usuario, cada una de las cuales puede configurar para habilitar y deshabilitar el archivado de las comunicaciones internas o externas para un usuario específico. Una directiva de usuario reemplaza a las directivas globales y de sitio, pero solo para los usuarios a los que asigne una directiva de usuario. Las directivas de usuario se pueden editar o eliminar.
+- **Directivas de usuario (opcional)** Puede especificar una o más directivas de archivado de usuario, cada una de las cuales puede configurar para habilitar y deshabilitar el archivado para las comunicaciones internas o externas de un usuario específico. Una directiva de usuario reemplaza la directiva global y las directivas de sitio, pero solo para los usuarios a los que asigna una directiva de usuario. Puede editar o eliminar las directivas de usuarios.
     
 > [!NOTE]
-> Si usa la integración de Exchange para almacenar los datos de archivado en Microsoft Exchange, las directivas de Exchange 2013 controlan el archivado para los usuarios alojados en Exchange 2013. Para habilitar el archivado de los usuarios, el buzón del usuario debe estar en conservación local. 
+> Si usa la integración de Exchange para almacenar datos de archivado en Microsoft Exchange, las directivas de Exchange 2013 controlan el archivado para los usuarios que están en Exchange 2013. Para habilitar el archivado para esos usuarios, el buzón del usuario debe colocarse en In-Place retención. 
   
-Especifique las siguientes opciones para configurar los ajustes de una nueva directiva de archivado o una existente:
-- **Nombre** Cada directiva de archivado requiere un nombre. El nombre se determina por el tipo de directiva que está agregando o editando:
+Para configurar las opciones de una directiva de archivado nueva o existente, especifique las siguientes opciones:
+- **Nombre** Cada directiva de archivado requiere un nombre. El nombre viene determinado por el tipo de directiva que está agregando o editando:
     
-  - **Directiva global** El nombre predeterminado es global. Puedes cambiarlo a un nombre más descriptivo. Por ejemplo, organización de la Norteamérica de contoso.
+  - **Directiva global** El nombre predeterminado es Global. Puede cambiarlo a un nombre más descriptivo. Por ejemplo, Organización Contoso de los Estados Unidos.
     
-  - **Directiva de sitio** Los sitios que aparecen en este cuadro de diálogo incluyen todos los sitios disponibles en la implementación. Haga clic en un solo sitio para seleccionarlo. Por ejemplo, centro de datos de Redmond.
+  - **Directiva de sitio** Los sitios enumerados en este cuadro de diálogo incluyen todos los sitios disponibles en la implementación. Haga clic en un solo sitio para seleccionarlo. Por ejemplo, Centro de datos de Redmond.
     
-  - **Directiva de usuario** Especifique un nombre apropiado, como el nombre de un usuario específico o el nombre de un grupo de usuarios o de un equipo de su organización. Por ejemplo, departamento legal.
+  - **Directiva de usuario** Especifique un nombre adecuado, como el nombre de un usuario específico o el nombre de un grupo de usuarios o equipo de su organización. Por ejemplo, Departamento legal.
     
-- **Descripción** Esto es opcional. Utilícelo para proporcionar detalles adicionales, como el ámbito o el uso de la Directiva. Por ejemplo, coordine con departamentos jurídicos de otros sitios.
+- **Descripción** Esto es opcional. Úselo para proporcionar detalles adicionales, como el ámbito o el uso de la directiva. Por ejemplo, Coordinación con departamentos legales de otros sitios.
     
-- **Archivar comunicaciones internas** Seleccione esta casilla para habilitar el archivado de comunicaciones en la red interna. Esta opción no está habilitada de forma predeterminada en ninguna directiva.
+- **Archivar comunicaciones internas** Active esta casilla para habilitar el archivado de comunicaciones en la red interna. De forma predeterminada, esto no está habilitado en ninguna directiva.
     
-- **Archivar comunicaciones externas** Seleccione esta casilla para habilitar el archivado de comunicaciones que incluyen usuarios externos, como usuarios remotos (incluidos los usuarios de configuración anónima y PIC) y socios federados. Esta opción no está habilitada de forma predeterminada en ninguna directiva.
+- **Archivar comunicaciones externas** Active esta casilla para habilitar el archivado de comunicaciones que incluyan usuarios externos, como usuarios remotos (incluidos usuarios anónimos y de configuración PIC) y socios federados. De forma predeterminada, esto no está habilitado en ninguna directiva.
     
-Para obtener más información sobre la característica y capacidades de archivado, incluyendo la integración de Exchange, consulte [planear el archivado en Skype empresarial server 2015](../../plan-your-deployment/archiving/archiving.md), [implementar el archivado para Skype empresarial Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype empresarial Server 2015](../../manage/archiving/archiving.md).
+Para obtener más información sobre la característica y las capacidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), Deploy archiving for Skype for Business Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)y [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

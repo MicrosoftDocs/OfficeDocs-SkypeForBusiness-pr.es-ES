@@ -1,8 +1,8 @@
 ---
-title: Informe de la lista de llamadas a grupos de respuesta en Skype empresarial Server
+title: Informe de lista de llamadas de grupo de respuesta en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype empresarial Server.'
-ms.openlocfilehash: 0d3d0001c5537135c2a81ea39706b0def6718fe0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre la aplicación Grupo de respuesta en Skype Empresarial Server.'
+ms.openlocfilehash: 416a0e7b7a7aebaeae84a00c04a7ab5c4e1a5bf8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818111"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826500"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Informe de la lista de llamadas a grupos de respuesta en Skype empresarial Server
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Informe de lista de llamadas de grupo de respuesta en Skype Empresarial Server
 
-**Resumen:** Obtenga más información sobre la aplicación de grupo de respuesta en Skype empresarial Server.
+**Resumen:** Obtenga información sobre la aplicación Grupo de respuesta en Skype Empresarial Server.
 
-La aplicación de grupo de respuesta ofrece una manera de que Skype empresarial Server responda y enrute llamadas telefónicas en función del número que haya marcado y, opcionalmente, de las respuestas de las personas que llaman a una serie de preguntas. Normalmente, las llamadas a grupos de respuesta no se dirigen a una persona individual, sino que se dirigen a un equipo de personas a las que se hace referencia como grupo de agentes. Por ejemplo, si alguien llama al número de teléfono de su Departamento de soporte técnico, Skype empresarial Server puede enrutar automáticamente la llamada al primer agente del servicio de asistencia disponible. Como alternativa, Skype empresarial Server podría formular una serie de preguntas ("Presione 1 si tiene problemas de hardware. Pulse 2 Si tiene problemas de software. Pulse 3 Si tiene problemas de red. ") y luego enrutar la llamada al agente del servicio de asistencia al cliente más adecuado, en función de la respuesta a esas preguntas.
+La aplicación Grupo de respuesta permite a Skype Empresarial Server responder y enrutar llamadas telefónicas en función del número marcado y, opcionalmente, de las respuestas del autor de la llamada a una serie de preguntas. Normalmente, las llamadas de grupo de respuesta no se enrutar a una persona individual, sino que, en su lugar, se enrutar a un equipo de personas a las que se hace referencia como un grupo de agentes. Por ejemplo, si alguien llama al número de teléfono de su servicio de ayuda, Skype Empresarial Server puede enrutar automáticamente esa llamada al primer agente de servicio de ayuda disponible. Como alternativa, Skype Empresarial Server podría hacer una serie de preguntas ("Pulse 1 si tiene problemas de hardware. Presione 2 si tiene problemas de software. Presione 3 si tiene problemas de red. y, a continuación, enruta la llamada al agente de servicio de ayuda más adecuado en función de la respuesta a esas preguntas.
 
-El Informe de lista de llamadas de grupo de respuesta representa una colección de llamadas que reúnen unas características especificadas (tipo de llamada, periodo de tiempo en que se hizo). El Informe de uso del grupo de respuesta (que necesita abrirse antes de abrir el Informe de lista de llamadas de grupo de respuesta) reconoce los siguientes tipos de llamada:
+El informe de lista de llamadas de grupo de respuesta representa una colección de llamadas realizadas durante un período de tiempo especificado y para un tipo de llamada especificado. El informe de uso del grupo de respuesta (que debe abrirse primero para poder abrir el informe de lista de llamadas de grupo de respuesta) reconoce los siguientes tipos de llamada:
 
-- **Llamadas recibidas**. Cantidad total de llamadas recibidas por todas las instancias de la aplicación Grupo de respuesta.
+- **Llamadas recibidas**. Número total de llamadas recibidas por todas las instancias de la aplicación Grupo de respuesta.
 
-- **Llamadas correctas**. Cantidad total de llamadas respondidas por la aplicación Grupo de respuesta.
+- **Llamadas correctas**. Número total de llamadas que la aplicación Grupo de respuesta ha seleccionado.
 
-- **Llamadas ofrecidas**. Cantidad total de llamadas transferidas a un agente de Grupo de respuesta.
+- **Llamadas ofrecidas**. Número total de llamadas transferidas a un agente de Grupo de respuesta.
 
-- **Llamadas contestadas**. Cantidad total de llamadas contestadas realmente por un agente de Grupo de respuesta.
+- **Llamadas contestadas**. Número total de llamadas contestadas realmente por un agente de Grupo de respuesta.
 
-- **Porcentaje de llamadas abandonadas.** Porcentaje de llamadas recibidas por la aplicación Grupo de respuesta que nunca contestó un agente. Este valor se calcula restando las llamadas contestadas a las llamadas recibidas y, luego, dividiendo el valor obtenido entre el número de Llamadas recibidas. Por ejemplo, si se han recibido 10 llamadas y 7 no se contestaron, necesita restar 7 a 10, lo que da un resultado de 3 llamadas no respondidas. Luego, dicho valor se divide entre 10, con lo que obtiene un porcentaje de llamadas abandonadas del 30 %.
+- **Porcentaje de llamadas abandonadas.** Porcentaje de llamadas recibidas por la aplicación Grupo de respuesta que nunca contestó un agente. Este valor se calcula restando las llamadas contestadas a las llamadas recibidas y, a continuación, dividiendo el valor obtenido entre el número de Llamadas recibidas. Por ejemplo, si se han recibido 10 llamadas y 7 no se contestaron, debe restar 7 a 10, lo que da un resultado de 3 llamadas no respondidas. A continuación, dicho valor se divide entre 10, con lo que obtiene un porcentaje de llamadas abandonadas del 30%.
 
-- **Llamadas transferidas**. Cantidad total de llamadas de Grupo de repuesta transferidas porque se agotó un tiempo de espera de cola o porque una cola está desbordada.
+- **Llamadas transferidas**. Número total de llamadas de Grupo de repuesta transferidas porque se agotó un tiempo de espera de cola o porque una cola está desbordada.
 
 ## <a name="accessing-the-response-group-call-list-report"></a>Acceso al informe de lista de llamadas de grupo de respuesta
 
-Solo se puede acceder al informe de la lista de llamadas del grupo de respuesta haciendo clic en una de las siguientes métricas del [Informe de uso de grupo de respuesta en Skype empresarial Server](response-group-usage-report.md):
+Solo se puede obtener acceso al informe de lista de llamadas de grupo de respuesta haciendo clic en una de las siguientes métricas que se encuentran en el informe de uso del grupo de respuesta [en Skype Empresarial Server:](response-group-usage-report.md)
 
 - Llamadas recibidas
 
@@ -53,28 +53,28 @@ Solo se puede acceder al informe de la lista de llamadas del grupo de respuesta 
 
 - Llamadas transferidas
 
-## <a name="making-the-best-use-of-the-response-group-call-list-report"></a>Cómo sacar el máximo partido al Informe de lista de llamadas de grupo de respuesta
+## <a name="making-the-best-use-of-the-response-group-call-list-report"></a>Aprovechar al máximo el informe de lista de llamadas de grupo de respuesta
 
-El Informe de lista de llamadas de grupo de respuesta le permite limitar los datos que se muestran en las llamadas en las que participa un flujo de trabajo de grupos de respuesta en particular. Para ello, tendrá que escribir el URI del flujo de trabajo (es decir, su dirección SIP) en el cuadro URI de flujo de trabajo. Ahora bien, para poder hacer eso, primero tendrá que poder ver el cuadro URI de flujo de trabajo. Para mostrar las opciones de filtrado del Informe de lista de llamadas de grupo de respuesta, haga clic en el botón Mostrar u ocultar parámetros de la esquina superior izquierda de la ventana de informes.
+El informe de lista de llamadas de grupo de respuesta permite limitar los datos mostrados a las llamadas que implican un flujo de trabajo de grupo de respuesta determinado. Para ello, debe escribir el URI del flujo de trabajo (la dirección SIP del flujo de trabajo) en el cuadro URI de flujo de trabajo. Sin embargo, antes de poder hacerlo, debe poder ver el cuadro URI de flujo de trabajo. Para mostrar las opciones de filtrado para el informe de lista de llamadas de grupo de respuesta, haga clic en el botón Mostrar u ocultar parámetros en la parte superior izquierda de la ventana del informe.
 
-Tenga en cuenta que, al pasar el mouse sobre Código de respuesta o Id. de diagnóstico, la lista de llamadas de grupo de respuesta no muestra información sobre ninguna de esas dos métricas. Si necesita más información, puede anotar el código de respuesta o el identificador de diagnóstico y, a continuación, buscar esos valores en el [Informe de errores superiores de Skype empresarial Server](top-failures-report.md).
+Tenga en cuenta que la lista de llamadas de grupo de respuesta no muestra información sobre el código de respuesta o el id. de diagnóstico si mantiene el mouse sobre cualquiera de esas métricas. Si necesita más información, puede tener en cuenta el código de respuesta o el id. de diagnóstico y, a continuación, buscar esos valores en el informe de errores principales en [Skype Empresarial Server.](top-failures-report.md)
 
-Ante una pregunta como "¿Qué flujo de trabajo concreto recibió más llamadas?", puede hacer lo siguiente:
+Una pregunta como esta: "¿Qué flujo de trabajo individual recibió más llamadas?", puede hacer lo siguiente:
 
-1. En el Informe de uso del grupo de respuesta, establezca el periodo de tiempo deseado y luego haga clic en la métrica Llamadas recibidas. Se abrirá el Informe de lista de llamadas de grupo de respuesta.
+1. En el Informe de uso del grupo de respuesta, establezca el período de tiempo deseado y, a continuación, haga clic en la métrica Llamadas recibidas. Se abrirá el informe de lista de llamadas de grupo de respuesta.
 
-2. Exporte los datos que se muestran en el Informe de lista de llamadas de grupo de respuesta. Por ejemplo, puede exportar los datos en formato Microsoft Excel y luego usar Excel para convertir los datos a un archivo de valores separados por comas.
+2. Exporte los datos que se muestran en el informe de lista de llamadas de grupo de respuesta. Por ejemplo, puede exportar los datos en formato Microsoft Excel y, a continuación, usar Excel para convertir esos datos en un archivo de valores separados por comas.
 
-3. Ejecute sus análisis con Windows PowerShell.
+3. Ejecute los análisis con Windows PowerShell.
 
-Por ejemplo, si ha guardado los datos en un archivo de nombre C:\Data\Response_Group_Call_List_Report.csv, puede utilizar el siguiente comando para obtener el número total de llamadas recibidas para cada flujo de trabajo que figure en el informe:
+Por ejemplo, si ha guardado los datos en un archivo denominado C:\Data\Response_Group_Call_List_Report.csv, puede usar el siguiente comando para devolver el número total de llamadas recibidas para cada flujo de trabajo enumerado en el informe:
 
 ```PowerShell
 $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
 $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 ```
 
-La información que se mostrará será similar a esta:
+Esa información será similar a la siguiente:
 
 <pre>
 Count    Name
@@ -88,29 +88,29 @@ Count    Name
 
 ## <a name="filters"></a>Filtros
 
-Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. En la tabla siguiente se muestran los filtros que se pueden utilizar en el informe de lista de llamadas de grupo de respuesta.
+Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. En la tabla siguiente se enumeran los filtros que puede usar con el informe de lista de llamadas de grupo de respuesta.
 
 **Filtros del informe de lista de llamadas de grupo de respuesta**
 
 
-| **Nombre.**               | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Nombre**               | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **De** <br/>         | Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:  <br/> 07/07/2015 13:00  <br/> Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 07/07/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 03/07/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
-| **Hasta** <br/>           | Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:  <br/> 07/07/2015 13:00  <br/> Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 07/07/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 03/07/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/>        |
+| **From** <br/>         | Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:  <br/> 7/7/2015 13:00  <br/> Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/7/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/3/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
+| **Para** <br/>           | Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:  <br/> 7/7/2015 13:00  <br/> Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 7/7/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 7/3/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/>        |
 | **URI de flujo de trabajo** <br/> | Permite limitar los datos devueltos al flujo de trabajo de grupo de respuesta especificado. Para usar este filtro, escriba la dirección SIP del grupo de trabajo. Por ejemplo:  <br/> sip:helpdesk@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                            |
-| **Llamadas** <br/>        | Puede seleccionar entre los siguientes tipos de llamada: <br/>  Llamadas recibidas <br/>  Llamadas correctas <br/>  Llamadas ofrecidas <br/>  Llamadas contestadas <br/>  Llamadas transferidas <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Llamadas** <br/>        | Puede seleccionar uno de los siguientes tipos de llamada: <br/>  Llamadas recibidas <br/>  Llamadas correctas <br/>  Llamadas ofrecidas <br/>  Llamadas contestadas <br/>  Llamadas transferidas <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
 
 ## <a name="metrics"></a>Métricas
 
-En la siguiente tabla se detalla la información que facilita el informe de lista de llamadas de grupo de respuesta para cada llamada recibida por la aplicación Grupo de respuesta.
+En la tabla siguiente se muestra la información proporcionada en el informe de lista de llamadas de grupo de respuesta para cada llamada recibida por la aplicación Grupo de respuesta.
 
 **Métricas del informe de lista de llamadas de grupo de respuesta**
 
-|**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
+|**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Autor de llamada** <br/> |No  <br/> |Dirección SIP del autor de la llamada.  <br/> |
-|**Flujo de trabajo** <br/> |No  <br/> |Dirección SIP del flujo de trabajo de Grupo de respuesta.  <br/> |
-|**Hora de inicio** <br/> |No  <br/> |Fecha y hora en que se inició la llamada.  <br/> |
+|**Caller** <br/> |No  <br/> |Dirección SIP del autor de la llamada.  <br/> |
+|**Flujo de trabajo** <br/> |No  <br/> |Dirección SIP del flujo de trabajo grupo de respuesta.  <br/> |
+|**Hora de comienzo** <br/> |No  <br/> |Fecha y hora en que se inició la llamada.  <br/> |
 |**Hora de finalización** <br/> |No  <br/> |Fecha y hora en que finalizó la llamada.  <br/> |
 |**Código de respuesta** <br/> |No  <br/> |Código de respuesta SIP enviado cuando se produjo un error en la sesión.  <br/> |
 |**Id. de diagnóstico** <br/> |No  <br/> |Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores.  <br/> |

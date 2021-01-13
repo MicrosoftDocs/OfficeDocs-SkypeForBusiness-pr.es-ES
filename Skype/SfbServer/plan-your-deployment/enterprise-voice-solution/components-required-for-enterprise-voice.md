@@ -1,8 +1,8 @@
 ---
-title: Componentes necesarios para la telefonía IP empresarial en Skype empresarial Server
+title: Componentes necesarios para Telefonía IP empresarial en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,32 +15,32 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
-description: Un resumen de los componentes de voz empresarial de Skype empresarial Server.
-ms.openlocfilehash: a2e32e2301a404afd06038d438fbb62a13235d65
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Un resumen de los componentes Telefonía IP empresarial en Skype Empresarial Server.
+ms.openlocfilehash: 1a7f13cc171af44ecbd0f48706ec12d882e50b33
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803110"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825830"
 ---
-# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Componentes necesarios para la telefonía IP empresarial en Skype empresarial Server
+# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Componentes necesarios para Telefonía IP empresarial en Skype Empresarial Server
  
-Un resumen de los componentes de voz empresarial de Skype empresarial Server.
+Un resumen de los componentes Telefonía IP empresarial en Skype Empresarial Server.
   
-Para implementar la telefonía IP empresarial, los siguientes componentes son necesarios en su topología. 
+Para implementar Telefonía IP empresarial, se requieren los siguientes componentes en la topología. 
   
-- Uno o varios servidores de mediación, que traducen las señales y, en algunas configuraciones, medios entre su servidor interno de Skype para empresas, la infraestructura de telefonía IP empresarial y una puerta de enlace de red telefónica conmutada (RTC) o un protocolo de inicio de sesión (SIP) troncal. Los servidores de mediación son el componente más importante de su implementación de telefonía IP empresarial. Para obtener más información, consulte [componente de servidor de mediación en Skype empresarial Server](mediation-server.md).
+- Uno o más servidores de mediación, que traducen señalización y, en algunas configuraciones, medios entre su Skype Empresarial Server interno, una infraestructura de Telefonía IP empresarial y una puerta de enlace de red telefónica conmutada (RTC) o un tronco sip (Protocolo de inicio de sesión). Los servidores de mediación son el componente más fundamental en la implementación Telefonía IP empresarial cliente. Para obtener más información, vea el componente [del servidor de mediación en Skype Empresarial Server.](mediation-server.md)
     
-    Los servidores de mediación se pueden colocar con servidores de aplicaciones para el usuario o instalarse como servidores independientes.
+    Los servidores de mediación pueden instalarse con servidores front-end o instalarse como servidores independientes.
     
-- Componentes de conectividad con RTC, que pueden incluir troncos SIP o puertas de enlace RTC. Para obtener más información, consulte [componentes de conectividad RTC en Skype empresarial Server](pstn-connectivity.md).
+- Componentes de conectividad RTC, que pueden incluir troncos SIP o puertas de enlace RTC. Para obtener más información, vea [componentes de conectividad rtc en Skype Empresarial Server.](pstn-connectivity.md)
     
-- Servidores perimetrales, que permite el uso de características de telefonía IP por parte de los usuarios cuando están fuera del firewall de la organización. 
+- Servidores perimetrales, lo que permite el uso de Telefonía IP empresarial por parte de los usuarios cuando están fuera del firewall de la organización. 
     
-    El servicio perimetral de acceso proporciona señalización SIP para llamadas de Skype empresarial que están fuera del firewall de la organización. El servicio perimetral A/V permite el paso de los medios a través de NAT y firewalls. Un autor de llamada que use un cliente de comunicaciones unificadas (UC) desde fuera del firewall corporativo dependerá del servicio perimetral A/V para las llamadas individuales y de conferencia.
+    El servicio perimetral de acceso proporciona señalización SIP para llamadas de usuarios de Skype Empresarial que están fuera del firewall de su organización. El servicio perimetral A/V permite el cruce de medios de NAT y firewalls. Un llamador que usa un cliente de comunicaciones unificadas (UC) desde fuera del firewall corporativo depende del servicio perimetral A/V para llamadas individuales y de conferencia.
     
-    El servicio de autenticación A/V se combina con el servicio perimetral A/V y le proporciona servicios de autenticación. Los usuarios externos que intenten conectarse al servicio perimetral A/V necesitarán un token de autenticación proporcionado por el servicio de autenticación A/V para que sus llamadas se acepten.
+    El servicio de autenticación A/V se incluye con el servicio perimetral A/V y proporciona servicios de autenticación para el servicio perimetral A/V. Los usuarios externos que intentan conectarse al servicio perimetral A/V requieren un token de autenticación proporcionado por el servicio de autenticación A/V antes de que puedan pasar las llamadas.
     
-- Además, algunos componentes de Enterprise Voice se ejecutan en servidores front-end. Para obtener más información acerca de estos componentes, consulte [componentes de VoIP del servidor front-end para Skype empresarial Server](front-end-server-voip.md) .
+- Además, algunos componentes Telefonía IP empresarial se ejecutan en servidores front-end. Para obtener más información sobre estos componentes, consulte [Componentes VoIP del servidor front-end para Skype Empresarial Server](front-end-server-voip.md)
     
 

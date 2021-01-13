@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en San Cristóbal y Nieves
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para San Cristóbal y Nieves.
-ms.openlocfilehash: 8dbca02d417844d1f8ba87fffefbe5fa938db78b
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para San Cristóbal y Nieves.
+ms.openlocfilehash: 366a52a7f6ab3d3d6f2c2b639bc7bb261df8c467
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231079"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825470"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Disponibilidad en San Cristóbal y Nieves
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para San Cristóbal y Nieves.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para San Cristóbal y Nieves.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

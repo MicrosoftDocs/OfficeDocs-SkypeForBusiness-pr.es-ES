@@ -1,8 +1,8 @@
 ---
 title: Tabla ProgressReport
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
-description: Los informes de progreso se basan en los datos cargados por el cliente en la base de datos después de completarse una llamada o sesión. Los informes de progreso solo se escribirán para las llamadas y las sesiones que la 2015 de Skype empresarial Server determine pueden ser útiles para propósitos de diagnóstico.
-ms.openlocfilehash: a6cd89d7ba7f8cc03b25dc9310bdb408c85b50cb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Los informes de progreso se basan en datos cargados por el cliente en la base de datos tras completarse una llamada o sesión. Los informes de progreso se escribirán solo para llamadas y sesiones que Skype Empresarial Server 2015 determine que pueden ser útiles para fines de diagnóstico.
+ms.openlocfilehash: 4169ab029c0ce491b77b39735e309e102ac6e356
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814978"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823180"
 ---
 # <a name="progressreport-table"></a>Tabla ProgressReport
  
-Los informes de progreso se basan en los datos cargados por el cliente en la base de datos después de completarse una llamada o sesión. Los informes de progreso solo se escribirán para las llamadas y las sesiones que la 2015 de Skype empresarial Server determine pueden ser útiles para propósitos de diagnóstico.
+Los informes de progreso se basan en datos cargados por el cliente en la base de datos tras completarse una llamada o sesión. Los informes de progreso se escribirán solo para llamadas y sesiones que Skype Empresarial Server 2015 determine que pueden ser útiles para fines de diagnóstico.
   
-Los campos ErrorTime, ErrorReportSeq y ProgressReportSeq no hacen referencia a errores sino a mensajes que indican el estado de las llamadas o los mensajes.
+Los campos ErrorTime, ErrorReportSeq y ProgressReportSeq no necesariamente hacen referencia a errores, sino a mensajes que indican el estado de las llamadas o mensajes.
   
-|**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
+|**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**ErrorTime** <br/> |datetime  <br/> |Principal, extranjero  <br/> |Fecha y hora del informe de errores de progreso que contiene este informe de progreso. Para obtener más información, consulte la [tabla errorreport en Skype empresarial Server 2015](errorreport.md) . <br/> |
-|**ErrorId** <br/> |int  <br/> |Principal, extranjero  <br/> |Número de identificación usado en conjunción con ErrorTime, ProgressReportSeq para identificar de manera exclusiva un informe de progreso. Para obtener más información, consulte la [tabla errorreport en Skype empresarial Server 2015](errorreport.md) . <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |Principal, extranjero  <br/> |Número de identificación que identifica el informe de errores. ErrorReporSeq se usa junto con ErrorTime para identificar de forma exclusiva un informe de errores. Para obtener más información, consulte la [tabla errorreport en Skype empresarial Server 2015](errorreport.md) <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**ProgressReportSeq** <br/> |int  <br/> |Primary  <br/> |Número de identificación para identificar el informe de progreso. Se usa junto con ErrorTime y ErrorReportSeq para identificar de manera única un informe de progreso.  <br/> |
-|**MsDiagId** <br/> |int  <br/> ||IDENTIFICADOR de diagnóstico del informe de progreso.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**SourceId** <br/> |int  <br/> |Extranjero  <br/> |Servidor que ha enviado el informe de errores (si el informe se envió desde un componente de servidor). Para obtener más información, consulte la [tabla servidores](servers.md) . Este campo se introdujo en Microsoft Lync Server 2013. <br/> |
-|**ApplicationId** <br/> |int  <br/> ||El proceso de Lync Server sobre el que se encuentra el informe. Para obtener más información, consulte la tabla de la aplicación.  <br/> |
-|**Detalle** <br/> |imagen  <br/> ||Detalles del informe de progreso, almacenado en formato binario, para ahorrar espacio. Estos datos se pueden convertir a formato de texto con esta sintaxis:  <br/> CAST (detallar como varbinary (Max)) como varchar (Max))  <br/> |
-|**TelemetryId** <br/> |Identificador  <br/> ||Identificador único que correlaciona la información de tiempo de Unión para los distintos componentes implicados en una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**SessionSetupTime** <br/> |int  <br/> ||Tiempo (en milisegundos) para que un componente específico se una a una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**ErrorTime** <br/> |datetime  <br/> |Principal, Exterior  <br/> |Fecha y hora del informe de errores de progreso que contiene este informe de progreso. Consulte la [tabla ErrorReport en Skype Empresarial Server 2015](errorreport.md) para obtener más información. <br/> |
+|**ErrorId** <br/> |entero  <br/> |Principal, Exterior  <br/> |Número de identificación usado junto con ErrorTime, ProgressReportSeq para identificar de manera única un informe de progreso. Consulte la [tabla ErrorReport en Skype Empresarial Server 2015](errorreport.md) para obtener más información. <br/> |
+|**ErrorReportSeq** <br/> |entero  <br/> |Principal, Exterior  <br/> |Número de id. que identifica el informe de errores. ErrorReporSeq se usa junto con ErrorTime para identificar de manera única un informe de errores. Consulte la [tabla ErrorReport en Skype Empresarial Server 2015](errorreport.md) para obtener más información <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**ProgressReportSeq** <br/> |entero  <br/> |Principal  <br/> |Número de identificación usado para identificar el informe de progreso. Se utiliza junto con ErrorTime y ErrorReportSeq para identificar de manera única un informe de progreso.  <br/> |
+|**MsDiagId** <br/> |entero  <br/> ||Id. de diagnóstico del informe de progreso.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**SourceId** <br/> |entero  <br/> |Externo  <br/> |Servidor que envió el informe de errores (si el informe se envió desde un componente de servidor). Vea la [tabla Servidores para](servers.md) obtener más información. Este campo se introdujo en Microsoft Lync Server 2013. <br/> |
+|**ApplicationId** <br/> |entero  <br/> ||El proceso de Lync Server al que se refiere el informe. Vea la tabla de aplicaciones para obtener más información.  <br/> |
+|**Detalle** <br/> |imagen  <br/> ||Detalles del informe de progreso, almacenados en formato binario para ahorrar espacio. Estos datos pueden convertirse en formato de texto usando esta sintaxis:  <br/> cast(cast(Detail as varbinary(max)) as varchar(max))  <br/> |
+|**TelemetryId** <br/> |uniqueIdentifier  <br/> ||Identificador único que correlaciona información de hora de conexión para los diferentes componentes que participan en una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**SessionSetupTime** <br/> |entero  <br/> ||Tiempo (en milisegundos) para que un componente específico se una a una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
    
 

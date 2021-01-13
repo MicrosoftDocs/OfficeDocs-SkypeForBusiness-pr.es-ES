@@ -1,8 +1,8 @@
 ---
-title: Definir la experiencia de usuario para la adquisición manual de una ubicación en Skype empresarial Server
+title: Definir la experiencia del usuario para adquirir manualmente una ubicación en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
-description: Planificación de usuarios móviles en una implementación de E9-1-1 con proveedores de Troncalización SIP, Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 85bf13325d3c7c16958877d50f49057a7f402226
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planificación de usuarios móviles en una implementación de E9-1-1 mediante proveedores de enlace troncal SIP, en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: dd43d78b4c139b4fb30a0b4ba379d96150314332
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802720"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825430"
 ---
-# <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Definir la experiencia de usuario para la adquisición manual de una ubicación en Skype empresarial Server
+# <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Definir la experiencia del usuario para adquirir manualmente una ubicación en Skype Empresarial Server
  
-Planificación de usuarios móviles en una implementación de E9-1-1 con proveedores de Troncalización SIP, Skype empresarial Server Enterprise Voice.
+Planificación de usuarios móviles en una implementación de E9-1-1 mediante proveedores de enlace troncal SIP, en Skype Empresarial Server Telefonía IP empresarial.
   
-Si un cliente está ubicado fuera de la red, o en una subred indefinida, puede introducir manualmente una ubicación. No obstante, durante una llamada de emergencia, la llamada se enrutará a un distribuidor del centro de respuesta de llamadas de emergencia (ECRC) E9-1-1 nacional y/o regional antes de enrutarla a un punto de respuesta de seguridad pública (PSAP). El distribuidor del ECRC preguntará la ubicación verbalmente a la persona que realice la llamada y, después, desviará la llamada al PSAP adecuado en función de la información proporcionada. 
+Si un cliente está ubicado fuera de la red, o en una subred indefinida, puede introducir manualmente una ubicación. No obstante, durante una llamada de emergencia, se enrutará la llamada a un distribuidor del centro de respuesta de llamadas de emergencia (ECRC) E9-1-1 nacional y/o regional antes de enrutarla a un punto de respuesta de seguridad pública (PSAP). El distribuidor del ECRC preguntará la ubicación verbalmente a la persona que realice la llamada y después desviará la llamada al PSAP adecuado en función de la información proporcionada. 
   
-**¿Se debe pedir a los usuarios que especifiquen una ubicación cuando el servicio de información de ubicación no los proporcione automáticamente?**
+**¿Se debe pedir a los usuarios que especifiquen una ubicación cuando el servicio de información de ubicación no proporciona una automáticamente?**
   
-Por ejemplo, si un cliente se encuentra en una subred no definida, en casa, en una cafetería o en cualquier otro lugar fuera de la red, ¿se debe obligar al usuario a especificar una ubicación?
+Por ejemplo, ¿si un cliente se encuentra en una subred no definida, en casa, en una cafetería o en cualquier otro lugar fuera de la red, se debe obligar al usuario a introducir una ubicación?
     
-Puede configurar el valor de **Ubicación obligatoria** en la directiva de ubicación para definir el comportamiento del cliente. Si este valor se establece en No, no se pedirá al usuario una ubicación. Si se define en Sí, se pedirá al usuario una ubicación, pero este puede anular la solicitud. Si se define en Declinación de responsabilidades, se pedirá al usuario una ubicación y se le mostrará una declinación de responsabilidades si intenta anular la solicitud. En todos los casos, el usuario puede continuar usando el cliente de la forma habitual.
+Puede configurar la opción **Ubicación requerida** en la directiva de ubicación para definir el comportamiento del cliente. Si se establece este valor en No, no se pedirá al usuario una ubicación. Si se establece este valor en Sí, se pedirá al usuario una ubicación, pero se puede descartar la solicitud. Establecer este valor en Aviso de declinación de responsabilidades significa que se pedirá al usuario una ubicación y se le mostrará un aviso de declinación de responsabilidades si intenta descartar la solicitud. En todos los casos, el usuario puede seguir usando el cliente como de costumbre.
     
-Cuando un usuario escribe manualmente una ubicación, la ubicación se asigna a la dirección MAC de la puerta de enlace predeterminada de la red del cliente y se almacena en una tabla por usuario que se encuentra en el cliente. Cuando el usuario vuelve a una ubicación previamente almacenada, el cliente de Skype empresarial se ajusta automáticamente a esa ubicación. 
+Cuando un usuario escribe manualmente una ubicación, la ubicación se asigna a la dirección MAC de la puerta de enlace predeterminada de la red del cliente y se almacena en una tabla por usuario ubicada en el cliente. Cuando el usuario vuelve a cualquier ubicación almacenada anteriormente, el cliente de Skype Empresarial se establece automáticamente en esa ubicación. 
   
 > [!NOTE]
 > Solo puede modificar la ubicación actual del cliente, pero también puede eliminar cualquier ubicación almacenada en la tabla del usuario local. 

@@ -1,8 +1,8 @@
 ---
-title: Compatibilidad con varios troncales en Skype empresarial Server
+title: Compatibilidad con varios troncos en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,27 +10,27 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: La funcionalidad de Skype empresarial Server admite varias asociaciones entre puertas de enlace y servidores de mediación. Estas asociaciones se realizan mediante la definición de un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una puerta de enlace de red de telefonía pública conmutada (RTC), controlador de borde de sesión (SBC) o IP-PBX. Use el generador de topología para asociar puertas de enlace con servidores de mediación (es decir, troncos).
-ms.openlocfilehash: 6f950f089d23687f0215bd9db1f253eb57c17c75
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La funcionalidad de Skype Empresarial Server admite varias asociaciones entre puertas de enlace y servidores de mediación. Estas asociaciones se realizan definiendo un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una puerta de enlace de red telefónica conmutada (RTC), un controlador de borde de sesión (SBC) o una IP-PBX. Use el Generador de topologías para asociar puertas de enlace con servidores de mediación (es decir, troncos).
+ms.openlocfilehash: 0f4c8d2ee16c900ef666c12230964a9abb8f5a48
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816950"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826230"
 ---
-# <a name="multiple-trunk-support-in-skype-for-business-server"></a>Compatibilidad con varios troncales en Skype empresarial Server
+# <a name="multiple-trunk-support-in-skype-for-business-server"></a>Compatibilidad con varios troncos en Skype Empresarial Server
 
-La funcionalidad de Skype empresarial Server admite varias asociaciones entre puertas de enlace y servidores de mediación. Estas asociaciones se realizan mediante la definición de un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una puerta de enlace de red de telefonía pública conmutada (RTC), controlador de borde de sesión (SBC) o IP-PBX. Use el generador de topología para asociar puertas de enlace con servidores de mediación (es decir, troncos).
+La funcionalidad de Skype Empresarial Server admite varias asociaciones entre puertas de enlace y servidores de mediación. Estas asociaciones se realizan definiendo un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una puerta de enlace de red telefónica conmutada (RTC), un controlador de borde de sesión (SBC) o una IP-PBX. Use el Generador de topologías para asociar puertas de enlace con servidores de mediación (es decir, troncos).
 
-- Para asignar o quitar un tronco en Skype empresarial Server, primero debe definir un tronco en el generador de topologías. Un tronco consiste en la siguiente Asociación: nombre de dominio completo (FQDN) de Media Server, el puerto de escucha del servidor de mediación, el FQDN de la puerta de enlace y el puerto de escucha de la puerta de enlace.
-- Para configurar varios troncos, puede crear varias asociaciones entre la misma puerta de enlace y el servidor de mediación. Esto proporciona resistencia adicional a la infraestructura de telefonía IP empresarial, que es especialmente útil en escenarios de interoperabilidad de la intercambiación privada (PBX). 
+- Para asignar o quitar un tronco en Skype Empresarial Server, primero debe definir un tronco en topology Builder. Un tronco consta de la siguiente asociación: nombre de dominio completo (FQDN) del servidor de mediación, puerto de escucha del servidor de mediación, FQDN de puerta de enlace y puerto de escucha de puerta de enlace.
+- Para configurar varios troncos, puede crear varias asociaciones entre la misma puerta de enlace y el servidor de mediación. Esto proporciona resistencia adicional a la infraestructura Telefonía IP empresarial, que es especialmente útil en escenarios interoperacionales de central de conmutación (PBX). 
 
-Cuando se define un tronco, debe estar asociado con una ruta. Para asociar un tronco a una ruta, defina un nombre simple para el tronco en el generador de topología. Este nombre simple se usa como el nombre del tronco en el panel de control de Skype empresarial Server, donde se pueden asociar los troncos con las rutas. El nombre de tronco simple se usa como el nombre de la puerta de enlace desde el shell de administración de Skype empresarial Server.
+Cuando se define un tronco, debe estar asociado con una ruta. Para asociar un tronco a una ruta, debe definir un nombre simple para el tronco en topology Builder. Este nombre simple se usa como nombre de tronco en el Panel de control de Skype Empresarial Server, donde los troncos se pueden asociar con rutas. El nombre de tronco simple se usa como el nombre de puerta de enlace del Shell de administración de Skype Empresarial Server.
 
 `New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}`
 
-El administrador debe seleccionar un tronco predeterminado asociado a un servidor de mediación. En el generador de topología, haga clic con el botón secundario en el servidor de mediación asociado y luego haga clic en **propiedades**. Especificar la puerta de enlace predeterminada para el servidor de mediación. 
+El administrador debe seleccionar un tronco predeterminado asociado a un servidor de mediación. En el Generador de topologías, haga clic con el botón secundario en el servidor de mediación asociado y, a continuación, haga clic en **Propiedades.** Especifique la puerta de enlace predeterminada para el servidor de mediación. 
 
-En el siguiente diagrama se muestran los diversos troncos que se definen para cada servidor de mediación y puerta de enlace. 
+El siguiente diagrama ilustra los múltiples troncos que se definen para cada servidor de mediación y puerta de enlace. 
 
-![Varias asignaciones de tronco](../../media/multiple-trunk-assignments.jpg)
+![Asignaciones de varios troncos](../../media/multiple-trunk-assignments.jpg)

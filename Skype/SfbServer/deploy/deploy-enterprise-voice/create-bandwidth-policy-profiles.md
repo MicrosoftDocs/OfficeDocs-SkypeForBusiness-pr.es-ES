@@ -1,8 +1,8 @@
 ---
-title: Crear perfiles de directiva de ancho de banda en Skype empresarial Server
+title: Crear perfiles de directiva de ancho de banda en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Crear o modificar directivas de ancho de banda, que usan el control de admisión de llamadas de voz de empresa en Skype empresarial Server.
-ms.openlocfilehash: e54fc20c142e0eacc2758d97bdeba8043511b3fe
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Crear o modificar directivas de ancho de banda, que se usan Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server.
+ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767953"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824851"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Crear perfiles de directiva de ancho de banda en Skype empresarial Server 
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Crear perfiles de directiva de ancho de banda en Skype Empresarial Server 
  
-Crear o modificar directivas de ancho de banda, que usan el control de admisión de llamadas de voz de empresa en Skype empresarial Server. 
+Crear o modificar directivas de ancho de banda, que se usan Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server. 
   
-Las directivas de ancho de banda definen limitaciones en el uso de ancho de banda para las modalidades de audio y vídeo en tiempo real. Las directivas de ancho de banda se aplican tobandwidth perfiles de Directiva, que se pueden aplicar a varios sitios de red para el control de admisión de llamadas.
+Las directivas de ancho de banda definen limitaciones en el uso de ancho de banda para las modalidades de audio y vídeo en tiempo real. Las directivas de ancho de banda se aplican a los perfiles de directivabandwidth, que se pueden aplicar a varios sitios de red para el control de admisión de llamadas.
   
-Para obtener instrucciones sobre qué límites de ancho de banda debe establecer en su implementación CAC, consulte [Plan for Call Admission Control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 Las directivas de ejemplo creadas en el procedimiento siguiente definen límites para el tráfico de audio global, sesiones de audio individuales, el tráfico de vídeo global y sesiones de vídeo individuales. Por ejemplo, el perfil de directiva de ancho de banda 5Mb_Link define los límites siguientes: 
   
@@ -44,9 +44,9 @@ Las directivas de ejemplo creadas en el procedimiento siguiente definen límites
 > [!NOTE]
 > El valor de Límite de sesión de audio es 40 kbps. El valor de Límite de sesión de vídeo es 100 kbps. 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Para crear perfiles de directiva de ancho de banda mediante el shell de administración de Skype empresarial Server
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Para crear perfiles de directiva de ancho de banda mediante el Shell de administración de Skype Empresarial Server
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 2. Para cada perfil de directiva de ancho de banda que quiera crear, ejecute el cmdlet New-CsNetworkBandwidthPolicyProfile. Por ejemplo, ejecute lo siguiente:
     
@@ -66,9 +66,9 @@ Las directivas de ejemplo creadas en el procedimiento siguiente definen límites
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Para crear perfiles de directiva de ancho de banda con el panel de control de Skype empresarial Server
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Para crear perfiles de directiva de ancho de banda mediante el Panel de control de Skype Empresarial Server
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
     
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
     
@@ -78,13 +78,13 @@ Las directivas de ejemplo creadas en el procedimiento siguiente definen límites
     
 5. En la página **Nuevo perfil de directiva**, haga clic en **Nombre** y escriba un nombre para el perfil de directiva de ancho de banda.
     
-6. Haga clic en **Límite de audio** y escriba el número máximo de kbps que se deben permitir para todas las sesiones de audio combinadas.
+6. Haga clic en **Límite de audio** y escriba el número máximo de kbps que permitir para todas las sesiones de audio combinadas.
     
-7. Haga clic en **Límite de sesión de audio** y escriba el número máximo de kbps que se deben permitir para cada sesión de audio.
+7. Haga clic en **Límite de sesión de audio** y escriba el número máximo de kbps que permitir para cada sesión de audio.
     
-8. Haga clic en **Límite de vídeo** y escriba el número máximo de kbps que se deben permitir para todas las sesiones de vídeo combinadas.
+8. Haga clic en **Límite de vídeo** y escriba el número máximo de kbps que permitir para todas las sesiones de vídeo combinadas.
     
-9. Haga clic en **Límite de sesión de vídeo** y escriba el número máximo de kbps que se deben permitir para cada sesión de vídeo.
+9. Haga clic en **Límite de sesión de vídeo** y escriba el número máximo de kbps que permitir para cada sesión de vídeo.
     
 10. Si lo desea, haga clic en **Descripción** y escriba información adicional para describir este perfil de directiva de ancho de banda.
     

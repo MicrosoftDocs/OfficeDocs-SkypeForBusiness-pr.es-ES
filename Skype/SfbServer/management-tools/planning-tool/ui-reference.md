@@ -1,8 +1,8 @@
 ---
-title: Referencia de interfaz de usuario de la herramienta de planeación
+title: Referencia de la interfaz de usuario de la Herramienta de planeación
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -12,67 +12,67 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 65d76c522b028900bbfe6fb92c574330dfab15e1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: ed304be8ea6f46d3bcbd16537da9b23c84227f9b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816289"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823311"
 ---
-# <a name="planning-tool-ui-reference"></a>Referencia de interfaz de usuario de la herramienta de planeación
+# <a name="planning-tool-ui-reference"></a>Referencia de la interfaz de usuario de la Herramienta de planeación
  
 ## <a name="in-this-section"></a>En esta sección
 
-Estos temas documentan la interfaz de la herramienta de planeación disponible en el [centro de descargas de Microsoft](https://go.microsoft.com/fwlink/p/?LinkID=282725). 
+En estos temas se documenta la interfaz de la Herramienta de planeación disponible en el [Centro de descargas de Microsoft.](https://go.microsoft.com/fwlink/p/?LinkID=282725) 
   
-- [Audio Video Conferencing (Planning Tool)](../../help-topics/help-planning/audio-video-conferencing.md)
+- [Audioconferencia de vídeo (Herramienta de planeación)](../../help-topics/help-planning/audio-video-conferencing.md)
     
-- [Dial-in Conferencing (Planning Tool)](../../help-topics/help-planning/dial-in-conferencing.md)
+- [Conferencia de acceso telefónico local (Herramienta de planeación)](../../help-topics/help-planning/dial-in-conferencing.md)
     
-- [Web Conferencing (Planning Tool)](../../help-topics/help-planning/web-conferencing.md)
+- [Conferencia web (Herramienta de planeación)](../../help-topics/help-planning/web-conferencing.md)
     
-- [Enterprise Voice (Planning Tool)](../../help-topics/help-planning/enterprise-voice.md)
+- [Telefonía IP empresarial (Herramienta de planeación)](../../help-topics/help-planning/enterprise-voice.md)
     
-- [Exchange Unified Messaging Settings (Planning Tool)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [Configuración de mensajería unificada de Exchange (Herramienta de planeación)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
-- [Call Admission Control (Planning Tool)](../../help-topics/help-planning/call-admission-control.md)
+- [Control de admisión de llamadas (Herramienta de planeación)](../../help-topics/help-planning/call-admission-control.md)
     
-- [Monitoring (Planning Tool)](../../help-topics/help-planning/monitoring.md)
+- [Supervisión (Herramienta de planeación)](../../help-topics/help-planning/monitoring.md)
     
-- [Persistent Chat (Planning Tool)](../../help-topics/help-planning/persistent-chat.md)
+- [Chat persistente (Herramienta de planeación)](../../help-topics/help-planning/persistent-chat.md)
     
 - [Mobility (Planning Tool)](../../help-topics/help-planning/mobility.md)
     
-- [Federation (Planning Tool)](../../help-topics/help-planning/federation.md)
+- [Federación (Herramienta de planeación)](../../help-topics/help-planning/federation.md)
     
-- [High Availability (Planning Tool)](../../help-topics/help-planning/high-availability.md)
+- [Alta disponibilidad (Herramienta de planeación)](../../help-topics/help-planning/high-availability.md)
     
-- [IP Version (Planning Tool)](../../help-topics/help-planning/ip-version.md)
+- [Versión IP (Herramienta de planeación)](../../help-topics/help-planning/ip-version.md)
     
-- [Disaster Recovery (Planning Tool)](../../help-topics/help-planning/disaster-recovery.md)
+- [Recuperación ante desastres (Herramienta de planeación)](../../help-topics/help-planning/disaster-recovery.md)
     
-- [Feature Overview (Planning Tool)](../../help-topics/help-planning/feature-overview.md)
+- [Información general sobre características (Herramienta de planeación)](../../help-topics/help-planning/feature-overview.md)
     
-- [Exchange Unified Messaging (Planning Tool)](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [Mensajería unificada de Exchange (Herramienta de planeación)](../../help-topics/help-planning/exchange-unified-messaging.md)
     
-- [Load Balancer (Planning Tool)](../../help-topics/help-planning/load-balancer.md)
+- [Equilibrador de carga (Herramienta de planeación)](../../help-topics/help-planning/load-balancer.md)
     
-- [Director (Planning Tool)](../../help-topics/help-planning/director.md)
+- [Director (Herramienta de planeación)](../../help-topics/help-planning/director.md)
     
-- [Client Settings (Planning Tool)](../../help-topics/help-planning/client-settings.md)
+- [Configuración de cliente (Herramienta de planeación)](../../help-topics/help-planning/client-settings.md)
     
-- [Mediation Collocation (Planning Tool)](../../help-topics/help-planning/mediation-collocation.md)
+- [Mediación de colocación (Herramienta de planeación)](../../help-topics/help-planning/mediation-collocation.md)
     
-- [Archiving (Planning Tool)](../../help-topics/help-planning/archiving.md)
+- [Archivado (Herramienta de planeación)](../../help-topics/help-planning/archiving.md)
     
-- [Branch Sites (Planning Tool)](../../help-topics/help-planning/branch-sites.md)
+- [Sitios de sucursal (Herramienta de planeación)](../../help-topics/help-planning/branch-sites.md)
     
-- [Edge Network (Planning Tool)](../../help-topics/help-planning/edge-network.md)
+- [Red perimetral (Herramienta de planeación)](../../help-topics/help-planning/edge-network.md)
     
-- [Media Bypass (Planning Tool)](../../help-topics/help-planning/media-bypass.md)
+- [Omisión de medios (Herramienta de planeación)](../../help-topics/help-planning/media-bypass.md)
     
-- [Voice Infrastructure (Planning Tool)](../../help-topics/help-planning/voice-infrastructure.md)
+- [Infraestructura de voz (Herramienta de planeación)](../../help-topics/help-planning/voice-infrastructure.md)
     
-- [Voice Traffic (Planning Tool)](../../help-topics/help-planning/voice-traffic.md)
+- [Tráfico de voz (Herramienta de planeación)](../../help-topics/help-planning/voice-traffic.md)
     
 

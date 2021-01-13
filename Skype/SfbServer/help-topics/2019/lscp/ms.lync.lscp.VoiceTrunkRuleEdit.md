@@ -1,8 +1,8 @@
 ---
-title: Regla de traducción crear nuevo o editar existente
+title: Regla de conversión Crear nueva o editar existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 3edb5c99ccc0dbbf89bef058d24c87b56502ac18
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: fb4f96cf64896aa30b027c59a747828cd6021ccb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795381"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824530"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Regla de conversión: Crear nuevos o editar los existentes
 
-¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
+¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Crear o modificar una regla de traducción para la presentación de identificador llamada en Skype empresarial Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Crear o modificar una regla de conversión para la presentación de id. llamada en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Crear o modificar una regla de traducción de forma manual](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [Crear o modificar una regla de conversión manualmente](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

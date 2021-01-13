@@ -1,8 +1,8 @@
 ---
 title: Crear administradores del Panel de control de Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para conceder acceso a Skype empresarial Server, haga lo siguiente:'
-ms.openlocfilehash: b63aa0b5cf9dc4b39d9dee36e37f9e37e436bfc3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para conceder acceso a Skype Empresarial Server, haga lo siguiente:'
+ms.openlocfilehash: cb1449aa4fcca534e01b4d8a47a7ac9c39cd64c7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798347"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824970"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Crear administradores del Panel de control de Skype Empresarial Server
  
-Para conceder acceso a Skype empresarial Server, haga lo siguiente:
+Para conceder acceso a Skype Empresarial Server, haga lo siguiente:
   
 1. Inicie sesión como miembro del grupo Admins. del dominio o del grupo RTCUniversalServerAdmins.
     
@@ -37,11 +37,11 @@ Para conceder acceso a Skype empresarial Server, haga lo siguiente:
 5. En la pestaña Miembros, confirme que estén los usuarios o los grupos que haya seleccionado. Haga clic en **Aceptar**.
     
 > [!TIP]
-> El panel de control de Skype empresarial Server es una herramienta de control de acceso basada en roles. La pertenencia al grupo CsAdministrator ofrece a un usuario que usa el control total del panel de control de Skype empresarial Server para todas las funciones de configuración disponibles. Hay otros roles disponibles diseñados para funciones específicas. Los usuarios no tienen que estar habilitados para Skype empresarial Server a fin de que se hagan miembros de los grupos de administración. 
+> El Panel de control de Skype Empresarial Server es una herramienta de control de acceso basada en roles. La pertenencia al grupo CsAdministrator proporciona a un usuario que usa el Panel de control de Skype Empresarial Server control total para todas las funciones de configuración disponibles. Hay otros roles disponibles diseñados para funciones específicas. Los usuarios no tienen que estar habilitados para Skype Empresarial Server para poder ser miembros de los grupos de administración. 
   
 Otros roles son:
   
-- **CsArchiving:** Los miembros de este grupo pueden realizar todas las funciones de archivado, como la configuración y la administración del rol de servidor de archivado.
+- **CsArchiving:** Los miembros de este grupo pueden realizar todas las funciones de archivado, como configurar y administrar el rol de servidor de archivado.
     
 - **CsHelpDesk:** los miembros de este grupo pueden ver la configuración e implementar, incluidas las directivas y las propiedades de usuario. Asimismo, los miembros pueden llevar a cabo determinadas tareas de solución de problemas.
     
@@ -49,14 +49,14 @@ Otros roles son:
     
 - **CsResponseGroupAdministrator:** los miembros pueden administrar y configurar el Servicio de grupo de respuesta.
     
-- **CsServerAdministrator:** Los miembros pueden administrar, supervisar y solucionar problemas en todos los servidores que ejecutan Skype empresarial Server.
+- **CsServerAdministrator:** Los miembros pueden administrar, supervisar y solucionar problemas de todos los servidores que ejecutan Skype Empresarial Server.
     
 - **CsUserAdministrator:** los miembros pueden administrar, habilitar y deshabilitar usuarios, y asignar directivas existentes a usuarios.
     
-- **CsViewOnlyAdministrator:** Los miembros pueden ver la implementación y la configuración de la información del servidor. Esta pertenencia permite a un miembro supervisar el estado de los servidores que ejecutan Skype empresarial Server.
+- **CsViewOnlyAdministrator:** Los miembros pueden ver la implementación y configuración de la información del servidor. Esta pertenencia permite a un miembro supervisar el estado de los servidores que ejecutan Skype Empresarial Server.
     
-- **CsVoiceAdministrator:** Los miembros pueden crear, configurar y administrar la configuración relacionada con la voz en Skype empresarial Server.
+- **CsVoiceAdministrator:** Los miembros pueden crear, configurar y administrar opciones relacionadas con la voz en Skype Empresarial Server.
     
-Para ayudar a retener la seguridad y la integridad de control de acceso basada en roles, agregue usuarios a los grupos que definen qué función realiza el usuario en la administración de la implementación de Skype empresarial Server.
+Para ayudar a conservar la seguridad y la integridad del control de acceso basado en roles, agregue usuarios a los grupos que definan qué rol desempeña el usuario en la administración de la implementación de Skype Empresarial Server.
   
 

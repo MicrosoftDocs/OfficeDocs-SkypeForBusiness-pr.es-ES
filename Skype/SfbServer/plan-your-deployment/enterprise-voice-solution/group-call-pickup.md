@@ -1,8 +1,8 @@
 ---
-title: Plan para la recogida de llamadas grupales en Skype empresarial
+title: Planificar la atención de llamadas grupales en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,76 +15,76 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
-description: Planificación de la recogida de llamadas grupales en la telefonía IP empresarial de Skype empresarial, que permite a los usuarios contestar llamadas originalmente destinadas a otros.
-ms.openlocfilehash: 0be7adb5b3832851b9c38179416cfedb414508b0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planificación de la atención de llamadas grupales en Skype Empresarial Server Telefonía IP empresarial, que permite a los usuarios responder llamadas destinadas originalmente a otros usuarios.
+ms.openlocfilehash: 874b9385352a8c51d9c9a356dd0ccc2ca3070601
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802880"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825620"
 ---
-# <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Plan para la recogida de llamadas grupales en Skype empresarial
+# <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planificar la atención de llamadas grupales en Skype Empresarial
  
-Planificación de la recogida de llamadas grupales en la telefonía IP empresarial de Skype empresarial, que permite a los usuarios contestar llamadas originalmente destinadas a otros.
+Planificación de la atención de llamadas grupales en Skype Empresarial Server Telefonía IP empresarial, que permite a los usuarios responder llamadas destinadas originalmente a otros usuarios.
   
-La recogida de llamada grupal permite a los usuarios contestar llamadas entrantes a sus colegas desde sus propios teléfonos. De esta forma, se aumenta la disponibilidad de la línea de un usuario, ya que permite que otros usuarios respondan una llamada entrante al marcar un número de grupo de atención de llamadas. Cuando se implementa la recogida de llamadas grupales, el número de llamadas entrantes que se dirigen al correo de voz se puede reducir significativamente, lo cual es especialmente útil para llamadas de clientes externos a su organización.
+La atención de llamadas grupales permite a los usuarios responder llamadas entrantes a sus compañeros desde sus propios teléfonos. Esto aumenta la disponibilidad de la línea de un usuario al permitir que otros usuarios respondan a una llamada entrante marcando un número de grupo de atención de llamadas. Cuando se implementa la atención de llamadas grupales, el número de llamadas entrantes que se enruta al correo de voz puede reducirse considerablemente, lo que resulta especialmente útil para las llamadas de clientes externos a la organización.
   
-La característica de recogida de llamadas grupales está diseñada especialmente para las unidades de negocio en entornos de Office abiertos. Las llamadas entrantes no resultan molestas porque solo suenan en el destino previsto. Pero los otros usuarios que escuchan el timbre pueden atender la llamada muy fácilmente al marcar el número del grupo. 
+La característica de atención de llamadas grupales está diseñada en particular para unidades de negocio en entornos de oficina abiertos. Las llamadas entrantes no son molestas porque solo suenan en el destino previsto. Sin embargo, otros usuarios que escuchan el sonido pueden seguir seleccionando el número de grupo. 
   
-In environments where users are not located in an open office layout, or where users who share a common responsibility are geographically distributed, team call presents the most suitable solution. La principal diferencia entre la recogida de llamadas Grupals y la llamada de equipo es que, con la recogida de llamadas grupales, las llamadas entrantes solo suenan en el destino previsto, pero cualquier persona puede responderla marcando un número de grupo. With team call, the call rings at all the team members' phones, and any user in the team can pick up the phone to answer the call. Una diferencia adicional entre la recogida de llamadas Grupals y la llamada de equipo es que un administrador administra la recogida de llamadas de grupo a través de Skype empresarial Server. Con la llamada de equipo, los usuarios finales administran la característica con el cliente de Skype empresarial. Con la recogida de llamadas grupales, este aspecto de la administración de llamadas puede centralizarse.
+En entornos en los que los usuarios no están ubicados en un diseño de oficina abierta o donde los usuarios que comparten una responsabilidad común se distribuyen geográficamente, la llamada de equipo presenta la solución más adecuada. La principal diferencia entre la atención de llamadas grupales y la llamada de equipo es que, con la atención de llamadas grupales, una llamada entrante solo suena en el destino previsto, pero cualquier persona puede elegir responderla marcando un número de grupo. Con la llamada de equipo, la llamada suena en todos los teléfonos de los miembros del equipo, y cualquier usuario del equipo puede tomar el teléfono para responder a la llamada. Una diferencia adicional entre la atención de llamadas grupales y la llamada de equipo es que la atención de llamadas grupales la administra un administrador, a través de Skype Empresarial Server. Con la llamada de equipo, los usuarios finales administran la característica mediante el cliente de Skype Empresarial. Por lo tanto, con la atención de llamadas grupales, este aspecto de la administración de llamadas se puede centralizar.
   
-La recogida de llamadas grupales está integrada en la aplicación de estacionamiento de llamadas. Cuando se implementa la recogida de llamadas grupales, se configura la tabla de llamadas en órbita con distintos intervalos de números de extensión que se designan como números de grupo de recogida de llamadas. Al igual que los números de órbita del estacionamiento de llamadas, los números de grupo de atención de llamadas necesitan ser extensiones virtuales que no tengan asignado ningún usuario o teléfono. Cada grupo de servidores front-end en el que se implementa la recogida de llamadas grupales puede tener uno o más intervalos de números de grupo de recogida de llamadas. Los intervalos de números de grupo deben ser únicos globalmente en la implementación de Skype empresarial Server. 
-  
-> [!NOTE]
-> Los intervalos de números que se designan como números de recogida de llamadas grupales en la tabla llamada en órbita de la llamada no pueden administrarse ni verse mediante el panel de control de Skype empresarial Server. La única forma de ver todos los intervalos de números en la tabla llamada de la órbita de la tabla de la órbita es usar el shell de administración de Skype empresarial Server. De forma similar, la única manera de agregar, modificar o quitar números de recogida de llamadas de grupo es usar el shell de administración de Skype empresarial. 
-  
-Una vez configurados los números de grupo de atención de llamadas, necesitas asignar los usuarios a un grupo de atención de llamadas. Las llamadas de un usuario asignado a un grupo de atención de llamadas pueden responderlas otros usuarios. Cuando entra una llamada para un usuario asignado a un grupo de atención de llamadas, cualquier otro usuario que escuche la llamada puede atenderla marcando de forma manual el número del grupo de atención de llamadas. No es necesario que el usuario que atiende la llamada sea miembro del grupo. Cuando otro usuario atiende una llamada, se envía una notificación al número al que se llamó originalmente.
+La atención de llamadas grupales se basa en la aplicación Estacionamiento de llamadas. Al implementar la atención de llamadas grupales, se configura la tabla de órbitas de estacionamiento de llamadas con intervalos separados de números de extensión designados como números de grupo de atención de llamadas. Al igual que los números de órbita de estacionamiento de llamadas, los números de grupo de atención de llamadas deben ser extensiones virtuales que no tengan ningún usuario o teléfono asignado. Cada grupo de servidores front-end donde implemente la atención de llamadas grupales puede tener uno o más intervalos de números de grupo de atención de llamadas. Los intervalos de números de grupo deben ser únicos globalmente en toda la implementación de Skype Empresarial Server. 
   
 > [!NOTE]
-> Un usuario solo puede pertenecer a un grupo de atención de llamadas. 
+> Los intervalos de números designados como números de atención de llamadas grupales en la tabla de órbitas de estacionamiento de llamadas no se pueden administrar ni ver mediante el Panel de control de Skype Empresarial Server. La única forma de ver todos los intervalos de números en la tabla de órbitas de estacionamiento de llamadas es usar el Shell de administración de Skype Empresarial Server. De forma similar, la única forma de agregar, modificar o quitar números de atención de llamadas grupales es usar el Shell de administración de Skype Empresarial Server. 
+  
+Después de configurar los números del grupo de atención de llamadas, asigne usuarios a un grupo de atención de llamadas. Cualquier usuario asignado a un grupo de atención de llamadas puede tener sus llamadas contestadas por otros usuarios. Cuando una llamada llega a un usuario asignado a un grupo de atención de llamadas, cualquier otro usuario que observe la llamada puede responderla marcando manualmente el número del grupo de atención de llamadas. El usuario que toma la llamada no necesita ser miembro del grupo. Cuando otro usuario recibe una llamada, se envía una notificación al número al que se llamó originalmente.
   
 > [!NOTE]
-> Aunque cualquier usuario de la implementación de Skype empresarial Server puede responder a una llamada a un miembro del grupo de recogida de llamadas, la persona que contesta la llamada debe conocer el número de grupo de recogida de llamadas correcto para marcar. 
+> Un usuario puede ser miembro de un solo grupo de atención de llamadas. 
   
-Si un usuario marca el número de un grupo de atención de llamadas para responder una llamada cuando suenan varios teléfonos del grupo, atenderá la llamada que ha sonado por más tiempo.
+> [!NOTE]
+> Aunque cualquier usuario de la implementación de Skype Empresarial Server puede responder a una llamada a un miembro del grupo de atención de llamadas, la persona que responda a la llamada debe conocer el número de grupo de atención de llamadas correcto que se debe marcar. 
   
-La configuración de llamadas simultáneas resulta útil para los usuarios que disponen de la atención de llamadas grupales. Es decir, una llamada realizada a un usuario que tiene la característica de recogida de llamadas de grupo sonará para todos los destinos configurados y otro usuario podrá contestar la llamada. La excepción a esta regla es cuando un usuario configura las llamadas simultáneas para llamar a todos los miembros del grupo.
+Si un usuario marca un número de grupo de atención de llamadas para responder a una llamada cuando suenan varios teléfonos del grupo, el usuario responde a la llamada que más tiempo ha sonado.
   
-La recogida de llamada grupal no se puede usar para responder a los siguientes tipos de llamadas:
+La configuración de llamadas simultáneas funcionará para los usuarios que tengan atención de llamadas grupales. Es decir, una llamada realizada a un usuario que tiene atención de llamadas grupales sonará para todos los destinos configurados y otro usuario puede responder a la llamada. La excepción a esta regla es cuando el usuario configura las llamadas simultáneas para llamar a todos los miembros del equipo.
+  
+La atención de llamadas grupales no se puede usar para responder a los siguientes tipos de llamadas:
   
 - Llamadas a una línea privada
     
 - Llamadas de un contacto al que se ha asignado la relación de privacidad Amigos y familiares
     
     > [!TIP]
-    > Un usuario que sea miembro de un grupo de recogida de llamadas puede impedir que se recuperen determinadas llamadas a través de la recogida de llamadas grupales marcando el contacto como contacto personal en el cliente de Skype empresarial. Para marcar un contacto como contacto personal, establece la relación de privacidad del contacto en Amigos y familiares. Las llamadas entrantes de contactos con la relación de privacidad establecida a amigos y familiares no se pueden recuperar mediante la recogida de llamadas grupales. 
+    > Un usuario que es miembro de un grupo de atención de llamadas puede evitar que se recuperen determinadas llamadas a través de la atención de llamadas grupales marcando el contacto como contacto personal en el cliente de Skype Empresarial. Para marcar un contacto como contacto personal, establezca la relación de privacidad del contacto en Amigos y familiares. Las llamadas entrantes de contactos con la relación de privacidad establecida en Amigos y familiares no se pueden recuperar mediante la atención de llamadas grupales. 
   
-- Parte de vídeo de llamadas de audio y vídeo 
+- Parte de vídeo de las llamadas de audio y vídeo 
     
     > [!NOTE]
-    > Si un usuario responde una llamada de audio y vídeo, solo recibe el audio. La persona que llama o la persona que responde la llamada puede escalarla para agregar vídeo. 
+    > Si un usuario responde a una llamada de audio o vídeo, el usuario recibe solo el audio. La persona que llama o la persona que responde la llamada puede escalar la llamada para agregar vídeo. 
   
-- Llamadas simultáneas redirigidas a miembros de llamada de equipo
+- Llamadas de llamadas simultáneas que se enrutar a los miembros de la llamada de equipo
     
-- Llamadas redirigidas a un delegado
+- Llamadas enrutadas a un delegado
     
-- Llamadas redirigidas a un grupo de respuesta
+- Llamadas enrutadas a un grupo de respuesta
     
-Los siguientes tipos de usuarios no pueden participar en la recogida de llamadas grupales. Es decir, no deben incluirse en un grupo de recogida de llamadas Grupals y no pueden atender llamadas de usuarios que tienen habilitada la recogida de llamadas grupales.
+Los siguientes tipos de usuarios no pueden participar en la atención de llamadas grupales. Es decir, no deben incluirse en un grupo de atención de llamadas grupales y no pueden realizar llamadas para los usuarios que tienen habilitada la atención de llamadas grupales.
   
-- Usuarios alojados en línea en una implementación híbrida
+- Usuarios que están en línea en una implementación híbrida
     
-- Usuarios que no están alojados en un grupo de servidores de Skype empresarial 2015 o un grupo de servidores de Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013:2013 de febrero en una implementación local
+- Usuarios que no están en un grupo de Skype Empresarial Server 2015 o en un grupo de Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013: febrero de 2013 en una implementación local
     
-Si nadie atiende una llamada realizada a un miembro de un grupo de atención de llamadas, la llamada se redirige según lo especificado en la configuración del cliente. Es decir, la llamada se desvía al correo de voz o se reenvía a otro destino, tal como se especifique en la configuración del cliente.
+Si nadie responde una llamada a un miembro de un grupo de atención de llamadas, la llamada se enruta como se especifica en la configuración del cliente. Es decir, la llamada va al correo de voz o se reenvía a un destino diferente, como se especifica en la configuración del cliente.
   
-## <a name="deployment-and-requirements"></a>Requisitos e implementación
+## <a name="deployment-and-requirements"></a>Implementación y requisitos
 
-La recopilación de llamadas grupales se implementa automáticamente al implementar la telefonía IP empresarial y la aplicación estacionamiento de llamadas. Para habilitar la recopilación de llamadas de grupo, configure la tabla de llamadas en órbita con intervalos de números designados como números de grupo de recogida de llamadas y, a continuación, asigne usuarios para llamar a grupos de recogida y habilitar a los usuarios para la recogida de llamadas grupales.
+La atención de llamadas grupales se implementa automáticamente al implementar Telefonía IP empresarial aplicación estacionamiento de llamadas. Para habilitar la atención de llamadas grupales, configure la tabla de órbitas de estacionamiento de llamadas con intervalos separados de números designados como números de grupo de atención de llamadas y, a continuación, asigne usuarios a grupos de atención de llamadas y habilite los usuarios para la atención de llamadas grupales.
   
-## <a name="clients-supported-for-group-call-pickup"></a>Clientes compatibles con la recogida de llamadas grupales
+## <a name="clients-supported-for-group-call-pickup"></a>Clientes compatibles con la atención de llamadas grupales
 
-Puede usar cualquiera de los siguientes clientes para responder a los miembros de la recogida de llamadas grupales:
+Cualquiera de los siguientes clientes se puede usar para responder llamadas a miembros de la atención de llamadas grupales:
   
 - Skype Empresarial
     
@@ -95,41 +95,41 @@ Puede usar cualquiera de los siguientes clientes para responder a los miembros d
 - Lync Phone Edition
     
 > [!NOTE]
-> Los usuarios pueden usar cualquiera de estos clientes para responder a los miembros de la recogida de llamadas grupales, pero los usuarios deben estar alojados en un grupo de servidores de Skype empresarial o un grupo de servidores de Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013: febrero de 2013. 
+> Los usuarios pueden usar cualquiera de estos clientes para responder llamadas a los miembros de la respuesta de llamadas grupales, pero los usuarios deben estar en un grupo de Skype Empresarial Server o un grupo de Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013: febrero de 2013. 
   
-Los siguientes clientes y dispositivos no son compatibles con la recopilación de llamadas a miembros de la recogida de llamadas grupales:
+No se admiten los siguientes clientes y dispositivos para la atención de llamadas a miembros de la atención de llamadas grupales:
   
 - Lync Mobile
     
-- Aplicación Lync para Windows 8 y Windows RT
+- Aplicación lync para Windows 8 y Windows RT
     
 - Lync para iPad
     
 - Teléfonos analógicos
     
-- Teléfonos con números de la red telefónica conmutada (RTC)
+- Teléfonos con números de red telefónica conmutada (RTC)
     
-## <a name="capacity-planning"></a>Planificación de la capacidad
+## <a name="capacity-planning"></a>Planeamiento de capacidad
 
-En la siguiente tabla se describe el modelo de usuario de recogida de llamadas grupales que puede usar como base para los requisitos de planes de capacidad.
+En la tabla siguiente se describe el modelo de usuario de atención de llamadas grupales que puede usar como base para los requisitos de planeación de capacidad.
   
 > [!IMPORTANT]
-> La recogida de llamadas grupales se basa en la aplicación de estacionamiento de llamadas. Tenga en cuenta que, para la planeación de la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debería poder controlar las cargas de trabajo de los servicios de estacionamiento de llamadas, incluida la recogida de llamadas grupales, en ambos grupos. 
+> La atención de llamadas grupales se basa en la aplicación Estacionamiento de llamadas. Tenga en cuenta que, para planear la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debe ser capaz de administrar las cargas de trabajo de los servicios de estacionamiento de llamadas, incluida la atención de llamadas grupales, en ambos grupos. 
   
-**Modelo de usuario de llamada grupal**
+**Modelo de usuario de atención de llamadas grupales**
 
-|**Métrica**|**Por grupo <br/> front-end (con 8 servidores frontales)**|**Por servidor Standard Edition**|
+|**Métrica**|**Por grupo de servidores front-end  <br/>  (con 8 servidores front-end)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|
-|Cantidad recomendada de usuarios por grupo  <br/> |50  <br/> |50  <br/> |
-|Cantidad recomendada de grupos  <br/> |500  <br/> |60  <br/> |
-|Cantidad máxima de usuarios por grupo habilitados para la atención de llamadas grupales  <br/> |25 000  <br/> |3 000  <br/> |
-|Tasa máxima de llamadas entrantes al total de usuarios habilitados para la atención de llamadas grupales por grupo, por minuto  <br/> |500  <br/> |60  <br/> |
-|Tasa máxima de llamadas recuperadas por los usuarios con la atención de llamadas grupales por grupo, por minuto  <br/> |200  <br/> |veinticinco  <br/> |
+|Número recomendado de usuarios por grupo  <br/> |50  <br/> |50  <br/> |
+|Número recomendado de grupos  <br/> |500  <br/> |60  <br/> |
+|Número máximo de usuarios por grupo habilitados para la atención de llamadas grupales  <br/> |25 000  <br/> |3,000  <br/> |
+|Tasa máxima de llamadas entrantes al total de usuarios habilitados para la atención de llamadas grupales por grupo por minuto  <br/> |500  <br/> |60  <br/> |
+|Tasa máxima de llamadas recuperadas por usuarios con atención de llamadas grupales por grupo por minuto  <br/> |200  <br/> |25  <br/> |
    
 > [!NOTE]
 > Para los grupos de servidores front-end que tienen menos de ocho servidores front-end, calcule las métricas linealmente. Por ejemplo, si el grupo de servidores front-end tiene un servidor front-end, calcule la carga máxima como 1/8 de los valores que se muestran en la tabla. 
   
 > [!NOTE]
-> Puedes aumentar o disminuir la cantidad recomendada de usuarios por grupo y la cantidad de grupos siempre y cuando no supere la cantidad máxima de usuarios por grupo. Por ejemplo, su servidor Standard Edition puede tener 120 grupos con 25 usuarios por grupo, porque la cantidad de usuarios habilitada para la recogida de llamadas grupales todavía está dentro del modelo de usuario máximo (es decir, 120 grupos de 25 usuarios es 3.000 usuarios habilitados para la recogida de llamadas grupales). 
+> Puede aumentar o disminuir el número recomendado de usuarios por grupo y el número de grupos siempre que no supere el número máximo de usuarios por grupo. Por ejemplo, el servidor Standard Edition puede tener 120 grupos con 25 usuarios por grupo porque el número de usuarios habilitados para la atención de llamadas grupales sigue estando dentro del máximo del modelo de usuario (es decir, 120 grupos por 25 usuarios es 3.000 usuarios habilitados para la atención de llamadas grupales). 
   
 

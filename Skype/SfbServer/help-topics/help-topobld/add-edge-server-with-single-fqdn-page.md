@@ -1,8 +1,8 @@
 ---
 title: Página Agregar un servidor perimetral con un FQDN único
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
-description: Información de la página FQDN único del servidor perimetral.
-ms.openlocfilehash: 5fd25045d9dff3922d3c6aac9e79c98dec2414b1
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Información sobre la página FQDN único del servidor perimetral.
+ms.openlocfilehash: cda58c9e1a49cc4cea76a9cbe5c8f02cd5e1436e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216351"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824280"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>Página Agregar un servidor perimetral con un FQDN único
  
-Información de la página FQDN único del servidor perimetral.
+Información sobre la página FQDN único del servidor perimetral.
   
-Para obtener información sobre la implementación del servidor perimetral, vea [deploy Edge Server in Skype for Business server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)
+Para obtener información sobre la implementación perimetral, vea [Implementar el servidor perimetral en Skype Empresarial Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)
   
 

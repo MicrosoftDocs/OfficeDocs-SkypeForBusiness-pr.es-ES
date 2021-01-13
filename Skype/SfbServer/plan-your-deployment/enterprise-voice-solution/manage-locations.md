@@ -1,8 +1,8 @@
 ---
-title: Administrar las ubicaciones de los proveedores de servicios de tronco de SIP en Skype empresarial Server
+title: Administrar ubicaciones para proveedores de servicios troncales SIP en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,59 +15,59 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
-description: Decisiones necesarias para planear una base de datos de información de ubicación o una base de datos externa similar, para una implementación E9-1-1 con proveedores de Troncalización SIP, Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 81ec257b30d2916bb4df2a4590b9abfc1b270375
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 mediante proveedores de enlace troncal SIP, en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 9918fc2cb6bc9d05166d648ab3285a964d15f290
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802730"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825440"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Administrar las ubicaciones de los proveedores de servicios de tronco de SIP en Skype empresarial Server
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Administrar ubicaciones para proveedores de servicios troncales SIP en Skype Empresarial Server
 
-Decisiones necesarias para planear una base de datos de información de ubicación o una base de datos externa similar, para una implementación E9-1-1 con proveedores de Troncalización SIP, Skype empresarial Server Enterprise Voice.
+Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 mediante proveedores de enlace troncal SIP, en Skype Empresarial Server Telefonía IP empresarial.
 
-Para configurar Skype empresarial Server para ubicar automáticamente los clientes dentro de una red, debe rellenar la base de datos del servicio de información de ubicación con un Wiremap de red y publicar las ubicaciones o vincular a una base de datos externa que ya contiene las asignaciones correctas. Como parte de este proceso, necesitas validar las direcciones postales con el proveedor de servicios de E9-1-1. Para obtener más información, mira [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación sobre implementación.
+Para configurar Skype Empresarial Server para localizar automáticamente clientes dentro de una red, debe rellenar la base de datos del servicio de información de ubicaciones con un mapa de cableado de red y publicar las ubicaciones, o vincular a una base de datos externa que ya contenga las asignaciones correctas. Como parte de este proceso, valide las direcciones con el proveedor de servicios de E9-1-1. Para más información, vea [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación sobre implementación.
 
-Rellena la base de datos del servicio de información de ubicaciones con una ubicación de respuesta de emergencia (ERL), formada por una dirección postal y la dirección específica en un edificio. El campo **Ubicación** del servicio de información de ubicación, que es la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (incluidos los espacios). Dentro de esa longitud limitada, intenta incluir lo siguiente:
+Rellene la base de datos del servicio de información de ubicaciones con una ubicación de respuesta de emergencia (ERL), formada por una dirección postal y la dirección específica en un edificio. El campo Ubicación **del** servicio de información de ubicaciones, que es la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (espacios incluidos). Dentro de esa longitud limitada, intente incluir lo siguiente:
 
-- Un nombre fácil de comprender que identifique la ubicación del autor de la llamada al 911 para que a los encargados de emergencias les resulte más fácil encontrar rápidamente la ubicación específica cuando lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, la planta, la escalera, la puerta, etc. Evita los apodos que solo conozcan los empleados, ya que los encargados de emergencias podrían equivocarse de ubicación.
+- Un nombre fácil de entender que identifique la ubicación del autor de la llamada al 911 para garantizar que los servicios de emergencias encuentren la ubicación específica rápidamente una vez que estos lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, un número de piso, un indicador de ala, un número de habitación, entre otros elementos. Evite nombres conocidos solo por los empleados, ya que podrían causar que los servicios de emergencia se dirijan a una ubicación equivocada.
 
-- Un identificador de ubicación que permite a los usuarios ver fácilmente que su cliente de Skype empresarial seleccionó la ubicación correcta. El cliente de Skype empresarial concatena automáticamente y muestra los campos **Ubicación** detectada y **ciudad** en el encabezado. Una buena práctica es agregar la dirección del edificio a cada identificador de ubicación (por ejemplo, "primer piso <street number>"). Sin la calle, un identificador genérico como "1.ª planta" podría referirse a cualquier edificio de la ciudad.
+- Un identificador de ubicación que ayuda a los usuarios a ver fácilmente que su cliente de Skype Empresarial ha seleccionado la ubicación correcta. El cliente de Skype Empresarial concatena y muestra automáticamente los campos **Ubicación** y **Ciudad** detectados en su encabezado. Un procedimiento recomendado es agregar la dirección postal del edificio a cada identificador de ubicación (por ejemplo, "1ª <street number> planta"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
 
-- Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, puede Agregar la palabra **[Near]** (por ejemplo, "cerca del primer piso 1234").
+- Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, puedes agregar la palabra **[Near]** (por ejemplo, "Near 1st Floor 1234").
 
 > [!NOTE]
-> Las ubicaciones que se agreguen a la base de datos de ubicación central no estarán disponibles para el cliente hasta que se publiquen mediante un comando de Shell de administración de Skype empresarial Server y se repliquen en las tiendas locales del grupo. Para obtener más información, mira [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) en la documentación de implementación.
+> Las ubicaciones agregadas a la base de datos de ubicaciones central no están disponibles para el cliente hasta que se publican mediante un comando del Shell de administración de Skype Empresarial Server y se replican en los almacenes locales del grupo. Para más información, vea [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) en la documentación de implementación.
 
-En las secciones siguientes se describen consideraciones que necesitas tener en cuenta a la hora de rellenar y mantener la base de datos de ubicaciones.
+En las secciones siguientes se describen consideraciones que debe tener en cuenta a la hora de rellenar y mantener la base de datos de ubicaciones.
 
 ## <a name="populating-the-location-database"></a>Rellenar la base de datos de ubicaciones
 
-Con las siguientes preguntas te será fácil determinar cómo rellenar la base de datos de ubicaciones.
+Con las siguientes preguntas le será fácil determinar cómo rellenar la base de datos de ubicaciones.
 
  **¿Qué proceso usará para rellenar la base de datos de ubicaciones?**
 
-¿Dónde se encuentran los datos y qué pasos necesitas realizar para convertirlos al formato que necesita la base de datos de ubicaciones? ¿Agregarás las ubicaciones una por una o en bloque con un archivo CSV?
+¿Dónde se encuentran los datos y qué pasos debe realizar para convertirlos al formato que necesita la base de datos de ubicaciones? ¿Agregará las ubicaciones una por una o en bloque con un archivo CSV?
 
  **¿Dispone de una base de datos de otros fabricantes que ya contenga una asignación de ubicaciones?**
 
-Al usar la opción servicio de información de ubicación secundaria para conectarse a una base de datos de terceros, puede agrupar y administrar ubicaciones mediante una plataforma sin conexión. La ventaja es que además de asociar las ubicaciones a identificadores de red, puedes asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, que se originan en el servicio de información de ubicación secundaria, a un cliente de Skype empresarial. Luego, el usuario podrá elegir la ubicación más adecuada.
+Al usar la opción servicio de información de ubicación secundaria para conectarse a una base de datos de terceros, puede agrupar y administrar ubicaciones mediante una plataforma sin conexión. La ventana es que además de asociar las ubicaciones a identificadores de red, puede asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, procedentes del servicio de información de ubicación secundaria, a un cliente de Skype Empresarial. Y el usuario puede elegir la ubicación más adecuada.
 
-Para integrar con el servicio de información de ubicación, la base de datos de terceros debe seguir el esquema de solicitud/respuesta de la ubicación de Lync Server. Para obtener más información, consulte ["[ms-E911WS]: servicio web para la especificación del Protocolo de soporte técnico de E911"](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obtener detalles sobre cómo implementar un servicio de información de ubicación secundaria, vea [configurar un servicio de información de ubicación secundaria en Skype empresarial Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación de implementación.
+Para integrarse con el servicio de información de ubicación, la base de datos de terceros debe seguir el esquema de solicitud de ubicación y respuesta de Lync Server. Para obtener más información,  [consulte "[MS-E911WS]: Especificación](https://go.microsoft.com/fwlink/p/?linkid=213819)del protocolo de soporte técnico de servicio web para E911". Para obtener más información sobre cómo implementar un servicio de información de ubicación secundario, consulte [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación sobre implementación.
 
-Para obtener más información sobre cómo rellenar la base de datos de ubicaciones, mira [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación sobre implementación.
+Para más información sobre cómo rellenar la base de datos de ubicaciones, vea [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación sobre implementación.
 
 ## <a name="maintaining-the-location-database"></a>Mantener la base de datos de ubicaciones
 
-Una vez rellenada la base de datos de ubicaciones, desarrolla una estrategia para actualizar la base de datos a medida que se produzcan cambios en la configuración de red. Con las siguientes preguntas te será fácil determinar cómo mantener la base de datos de ubicaciones.
+Una vez rellenada la base de datos de ubicaciones, desarrolle una estrategia para actualizar la base de datos a medida que se produzcan cambios en la configuración de red. Con las siguientes preguntas le será fácil determinar cómo mantener la base de datos de ubicaciones.
 
  **¿Cómo actualizará la base de datos de ubicaciones?**
 
-Existen diversos escenarios que requieren una actualización de la base de datos de ubicaciones, como agregar WAP, cambiar el cableado de una oficina (lo que da lugar a asignaciones de conmutador nuevas) y la expansión de subredes. ¿Actualizarás directamente cada ubicación o llevarás a cabo una actualización en bloque de todas las ubicaciones con un archivo CSV?
+Existen diversos escenarios que requieren una actualización de la base de datos de ubicaciones, como agregar WAP, cambiar el cableado de una oficina (lo que da lugar a asignaciones de conmutador nuevas) y la expansión de subredes. ¿Actualizará directamente cada ubicación o llevará a cabo una actualización en bloque de todas las ubicaciones con un archivo CSV?
 
- **¿Usará una aplicación SNMP para hacer coincidir las direcciones MAC del cliente Lync con los identificadores de conmutadores y puertos?**
+ **¿Usará una aplicación SNMP para hacer coincidir las direcciones MAC con la información de conmutadores y puertos?**
 
-Si usas una aplicación SNMP, necesitas desarrollar un proceso manual para mantener sincronizada la información de conmutadores y puertos entre la aplicación SNMP y la base de datos de ubicaciones. Si la aplicación SNMP devuelve una dirección IP del chasis o un identificador de puerto que no está incluido en la base de datos, el servicio de información de ubicación no podrá devolver una ubicación al cliente.
+Si usa una aplicación SNMP, desarrolle un proceso manual para que la información de chasis de conmutador y de puerto sea coherente entre la aplicación SNMP y la base de datos de ubicaciones. Si la aplicación SNMP devuelve una dirección IP de chasis o un identificador de puerto que no se incluye en la base de datos, el servicio de información de ubicación no podrá devolver una ubicación al cliente.
 
 

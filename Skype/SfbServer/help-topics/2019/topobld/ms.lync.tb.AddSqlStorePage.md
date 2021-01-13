@@ -1,8 +1,8 @@
 ---
 title: Agregar almacén SQL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para definir una nueva tienda SQL, lo que significa que especifica una base de datos basada en SQL Server y una instancia de SQL Server (ya sea una instancia predeterminada o una instancia con nombre), especifica lo siguiente.
-ms.openlocfilehash: 80fb2fbbf1bad7a160df087969c9820ed05ebeea
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para definir un nuevo almacén de SQL, lo que significa que va a especificar una base de datos basada en SQL Server y una instancia de SQL Server (ya sea una instancia predeterminada o una instancia con nombre), especifique lo siguiente.
+ms.openlocfilehash: 46cdbed683abc2121ce4038b6692f1f73f8abc0c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794329"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824510"
 ---
 # <a name="add-sql-store"></a>Agregar almacén SQL
 
-Para definir una nueva tienda SQL, lo que significa que especifica una base de datos basada en SQL Server y una instancia de SQL Server (ya sea una instancia predeterminada o una instancia con nombre), especifica lo siguiente.
+Para definir un nuevo almacén de SQL, lo que significa que va a especificar una base de datos basada en SQL Server y una instancia de SQL Server (ya sea una instancia predeterminada o una instancia con nombre), especifique lo siguiente.
 
-Especifique el nombre de dominio completo (FQDN) del SQL Server que va a hospedar la instancia de base de datos que está definiendo.
+Especifique el nombre de dominio completo (FQDN) de la SQL Server que hospedará la instancia de base de datos que está definiendo.
 
-Especifique la instancia de SQL Server que hospedará los datos. Puede especificar la instancia predeterminada o puede especificar una instancia con nombre.
+Especifique la instancia de SQL Server que hospedará los datos. Puede especificar la instancia predeterminada o una instancia con nombre.
 
-El collocation de las bases de datos en instancias específicas debe ser claramente comprensible. Para obtener más información sobre collocation de servidor y la instancia de collocation, vea [collocation de servidor en una implementación de grupo de servidores front-end](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) y [collocation de servidor en una implementación de servidor Standard Edition](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
+Es necesario comprender bien la colocación de las bases de datos en instancias específicas. Para obtener información adicional sobre la colocación del servidor y la instancia de la base de datos, consulte [Server Collocation in a Front End Pool Deployment](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) y [Server Collocation in a Standard Edition Server Deployment](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
 
 

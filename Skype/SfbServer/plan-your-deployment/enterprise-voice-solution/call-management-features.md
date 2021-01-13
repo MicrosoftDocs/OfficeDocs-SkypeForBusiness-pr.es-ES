@@ -1,8 +1,8 @@
 ---
-title: Planear las características de administración de llamadas en Skype empresarial
+title: Planear las características de administración de llamadas en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,38 +15,38 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: Información general de las características de administración de llamadas admitidas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: e987f2c004c3ef5583a673a87f3b7acdb9f83ddf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Información general sobre las características de administración de llamadas admitidas en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 506ffa9dca87544be8798f2bf98dc6a24cb2d7c9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803220"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825950"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planear las características de administración de llamadas en Skype empresarial
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planear las características de administración de llamadas en Skype Empresarial
 
-Información general de las características de administración de llamadas admitidas en Skype empresarial Server Enterprise Voice.
+Información general sobre las características de administración de llamadas admitidas en Skype Empresarial Server Telefonía IP empresarial.
 
-Las características de administración de llamadas de telefonía de empresa controlan cómo se enrutan y responden las llamadas entrantes. Skype empresarial Server proporciona las siguientes características de administración de llamadas:
+Las características de administración de llamadas de Telefonía IP empresarial controlan el modo en el que las llamadas se enrutan y contestan. Skype Empresarial Server proporciona las siguientes características de administración de llamadas:
 
-- **Parque de llamadas**: permite a los usuarios de voz detener temporalmente una llamada y, a continuación, retomarla del mismo o de otro teléfono.
+- **Estacionamiento de llamadas:** permite a los usuarios de voz estacionar temporalmente una llamada y, a continuación, seleccionarla desde el mismo teléfono o desde otro teléfono.
 
-- **Recogida de grupos**: permite a los usuarios de voz atender llamadas que están sonando para otros usuarios de voz que están asignados a grupos de recogida de llamadas.
+- **Recogida de grupos:** permite a los usuarios de voz seleccionar las llamadas que suenan para otros usuarios de voz asignados a grupos de atención de llamadas.
 
-- **Grupo de respuesta**: enruta las llamadas entrantes a grupos de agentes mediante el uso de grupos de extensiones o preguntas y respuestas interactivas de respuesta de voz (IVR).
+- **Grupo de respuesta:** enruta las llamadas entrantes a grupos de agentes mediante grupos de extensiones o preguntas y respuestas interactivas de voz (IVR).
 
-- **Anuncio**: reproduce un mensaje para las llamadas realizadas a un número no asignado, redirige la llamada a otro lugar, o realiza ambas acciones.
+- **Anuncio**: reproduce un mensaje para las llamadas realizadas a un número no asignado o enruta la llamada a otro lugar, o ambas.
 
 Si desea implementar Telefonía IP empresarial, puede optar por implementar cualquiera de estas características de administración de llamadas, implementarlas todas o no implementar ninguna.
 
 ## <a name="in-this-section"></a>En esta sección
 
-- [Planning for Call Parking](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
+- [Planeación del estacionamiento de llamadas](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
 
-- [Planning for Group Pickup](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
+- [Planeación de la recogida en grupo](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
 
-- [Planning for Response Groups](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
+- [Planificación de grupos de respuesta](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
 
-- [Planning for Announcements](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
+- [Planificación de anuncios](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
 
 

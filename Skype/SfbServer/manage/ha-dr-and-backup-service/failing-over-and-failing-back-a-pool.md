@@ -1,8 +1,8 @@
 ---
 title: Conmutar por error y conmutar por recuperación un grupo
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,79 +11,79 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: .
-ms.openlocfilehash: d5409441336ef2af8bbe9c6a39530584a167ec05
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1ebd4e8110b8783c869530d95eda0646a895b88e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818211"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826570"
 ---
-# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Conmutación por error y reversión de un grupo en Skype empresarial Server 
+# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Con error y con error de un grupo en Skype Empresarial Server 
 
-Use los procedimientos siguientes si un único grupo de servidores front-end ha fallado y necesita conmutar por error, o el grupo que experimentó el desastre está de nuevo en línea y necesita restaurar la implementación a un estado de funcionamiento normal. También puede obtener información sobre la conmutación por error y la conmutación por error del grupo perimetral usado para la Federación de Skype empresarial o la Federación XMPP, o cambiar el grupo perimetral asociado a un grupo de servidores front-end.
+Use los siguientes procedimientos si se ha fallado un único grupo de servidores front-end y es necesario realizar la con error, o si el grupo que experimentó el desastre vuelve a estar en línea y necesita restaurar la implementación a un estado de trabajo normal. También obtenga información sobre cómo conmutar por error y conmutar por recuperación el grupo de servidores perimetrales usado para la federación de Skype Empresarial o la federación XMPP, o cambiar el grupo de servidores perimetrales asociado a un grupo de servidores front-end.
 
 - [Conmutación por error de un grupo de servidores front-end](#fail-over-a-front-end-pool)
-- [Devolver un grupo por error](#fail-back-a-pool)
-- [Conmutación por error del grupo perimetral usado para la Federación de Skype empresarial Server](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
-- [Conmutación por error del grupo perimetral usado para la Federación de XMPP en Skype empresarial Server](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
-- [Conmutación por error del grupo perimetral usado para la Federación de Skype empresarial Server o con la Federación de XMPP](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
-- [Cambiar el grupo perimetral asociado a un grupo de servidores front-end](#change-the-edge-pool-associated-with-a-front-end-pool)
+- [Conmutación por recuperación de un grupo de servidores](#fail-back-a-pool)
+- [Conmutación por error del grupo de servidores perimetrales usado para la federación de Skype Empresarial Server](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
+- [Conmutación por error del grupo de servidores perimetrales usado para la federación XMPP en Skype Empresarial Server](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
+- [Conmutación por recuperación del grupo de servidores perimetrales usado para la federación de Skype Empresarial Server o la federación XMPP](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
+- [Cambiar el grupo de servidores perimetrales asociado a un grupo de servidores front-end](#change-the-edge-pool-associated-with-a-front-end-pool)
 
 ## <a name="fail-over-a-front-end-pool"></a>Conmutación por error de un grupo de servidores front-end
 
-En este procedimiento, Datacenter1 contiene Pool1 y Pool1 ha fallado. Está conmutando por error a Pool2 que se encuentra en Datacenter2.
+En este procedimiento, Datacenter1 contiene el Grupo1, y el Grupo1 ha fallado. Está conmutando los errores en el Grupo2 situado en Datacenter2.
 
-La mayor parte del trabajo para la conmutación por error del grupo incluye la conmutación por error del almacén de administración central, si es necesario. Esto es importante porque el almacén central de administración debe funcionar cuando se conmuta por error los usuarios del grupo.
+La mayor parte del trabajo para la conmutación por error del grupo implica la conmutación por error del almacén de administración central, si es necesario. Esto es importante porque el almacén de administración central debe funcionar cuando los usuarios del grupo se con errores.
 
-Además, si se produce un error en un grupo de servidores front-end pero el grupo Edge de ese sitio aún se está ejecutando, debe saber si el grupo Edge usa el grupo erróneo como grupo de saltos próximos. Si es así, debe cambiar el grupo de límites para usar un grupo de servidores front end diferente antes de la conmutación por error del grupo de servidores front-end. La forma de cambiar la configuración del próximo salto depende de si el borde usará un grupo en el mismo sitio que el grupo de bordes o un sitio diferente.
+Además, si se produce un error en un grupo de servidores front-end pero el servidor perimetral en dicho sitio todavía se está ejecutando, debe saber si el grupo de servidores perimetrales usa el grupo de servidores con error como el grupo de servidores de próximo salto. Si lo hace, debe cambiar el grupo de servidores perimetrales para que use un grupo de servidores de front-end diferente antes de conmutar por error el grupo de servidores front-end con error. La manera en que cambie la configuración del próximo salto depende de si el servidor perimetral usará un grupo de servidores en el mismo sitio que el grupo de servidores perimetrales, o un sitio diferente.
 
-**Para establecer que un grupo de servidores Perimetrals use un grupo de próximos saltos en el mismo sitio**
+**Para establecer un grupo de servidores perimetrales para que use un grupo de servidores del próximo salto en el mismo sitio**
 
-1.  Abra el generador de topologías, haga clic con el botón secundario en el grupo perimetral que necesita cambiar y haga clic en **Editar propiedades**.
+1.  Abra el Generador de topologías, haga clic con el botón secundario en el grupo de servidores perimetrales que debe cambiarse y haga clic **en Editar propiedades.**
 
-2.  Haga clic en **próximo salto**. En la lista **grupo de próximos saltos:** , seleccione el grupo que servirá ahora como el grupo de próximos saltos.
+2.  Haga clic en **Próximo salto**. En la lista **Grupo de servidores del próximo salto:**, seleccione el grupo de servidores que servirá ahora como el grupo de servidores de próximo salto.
 
-3.  Haga clic en **Aceptar**y, a continuación, publique los cambios.
+3.  Haga clic en **Aceptar** y, a continuación, publique los cambios.
 
-**Para establecer que un grupo de servidores Perimetrals use un grupo de próximos saltos en otro sitio**
+**Para establecer un grupo de servidores perimetrales para usar un grupo de servidores del próximo salto en un sitio diferente**
 
-1.  Abra una ventana del shell de administración de Skype empresarial Server y escriba el siguiente cmdlet:
+1.  Abra una ventana del Shell de administración de Skype Empresarial Server y escriba el siguiente cmdlet:
     
         Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
 
-**Para conmutar por error un grupo en un desastre**
+**Para conmutar por error un grupo de servidores en un desastre**
 
-1.  Busque el grupo que es el host para el servidor de administración central escribiendo el siguiente cmdlet en un servidor front-end en Pool2:
+1.  Para averiguar qué grupo de servidores es el host del servidor de administración central, escriba el siguiente cmdlet en un servidor front-end del grupo2:
     
         Invoke-CsManagementServerFailover -Whatif
     
-    El resultado de este cmdlet muestra el grupo que hospeda actualmente el servidor de administración central. En el resto de este procedimiento, este grupo se conoce como grupo\_CMS.
+    Los resultados de este cmdlet muestran qué grupo hospeda actualmente el servidor de administración central. En el resto de este procedimiento, este grupo se conoce como grupo de \_ CMS.
 
-2.  Use el generador de topologías para buscar la versión de Skype empresarial Server que se ejecuta\_en el grupo de CMS. Si está ejecutando Skype empresarial Server, use el siguiente cmdlet para buscar el grupo de copias de seguridad del grupo 1.
+2.  Use topology Builder para encontrar la versión de Skype Empresarial Server que se ejecuta en el grupo de \_ CMS. Si ejecuta Skype Empresarial Server, use el siguiente cmdlet para buscar el grupo de copia de seguridad del grupo 1.
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    Permitir que\_el grupo de copia de seguridad sea el grupo de copia de seguridad.
+    Permitir que el \_ grupo de copia de seguridad sea el grupo de copia de seguridad.
 
 3.  Compruebe el estado del almacén de administración central con el siguiente cmdlet:
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    Este cmdlet debe mostrar que tanto ActiveMasterFQDN como ActiveFileTransferAgents apuntan al FQDN del grupo de\_servidores CMS. Si están vacíos, el servidor de administración central no está disponible y debe conmutarlo por error.
+    Este cmdlet debe mostrar que ActiveMasterFQDN y ActiveFileTransferAgents apuntan al FQDN del grupo de \_ CMS. Si están vacíos, el servidor de administración central no está disponible y debe conmutar por error.
 
-4.  Si el almacén central de administración no está disponible o si el almacén de administración central se estaba ejecutando en Pool1 (es decir, el grupo que falló), debe realizar la conmutación por error del servidor de administración central antes de realizar la conmutación por error. Si necesita migrar por error el servidor de administración central que se ha hospedado en un grupo de servidores que ejecutan Skype empresarial Server, use el cmdlet del paso 5 de este procedimiento. Si no necesita realizar la conmutación por error del servidor de administración central, vaya al paso 7 de este procedimiento.
+4.  Si el almacén de administración central no está disponible o si el almacén de administración central se estaba ejecutando en el Grupo1 (es decir, el grupo que ha fallado), debe conmutar por error el servidor de administración central antes de conmutar por error el grupo de servidores. Si necesita conmutar por error el servidor de administración central hospedado en un grupo que ejecuta Skype Empresarial Server, use el cmdlet en el paso 5 de este procedimiento. Si no necesita conmutar por error el servidor de administración central, vaya al paso 7 de este procedimiento.
 
-5.  Para conmutar por error el almacén de administración central en un grupo que ejecute Skype empresarial Server, haga lo siguiente:
+5.  Para conmutar por error el almacén de administración central en un grupo que ejecuta Skype Empresarial Server, haga lo siguiente:
     
-      - En primer lugar, compruebe qué servidor back-\_end del grupo de copia de seguridad ejecuta la instancia principal del almacén central de administración; para ello, escriba lo siguiente:
+      - En primer lugar, compruebe qué servidor back-end del grupo de copia de seguridad ejecuta la instancia principal del almacén de administración \_ central escribiendo lo siguiente:
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - Si el servidor back-end principal del\_grupo de copias de seguridad es el principal, escriba:
+      - Si el servidor back-end principal del grupo de servidores de copia de \_ seguridad es la entidad de seguridad, escriba:
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        Si el servidor de back-end de\_duplicación de la copia de seguridad es el principal, escriba:
+        Si el servidor back-end reflejado del grupo de \_ servidores de copia de seguridad es la entidad de seguridad, escriba:
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
@@ -91,17 +91,17 @@ Además, si se produce un error en un grupo de servidores front-end pero el grup
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Compruebe que tanto ActiveMasterFQDN como ActiveFileTransferAgents apunten al FQDN del grupo de\_copia de seguridad.
+        Compruebe que ActiveMasterFQDN y ActiveFileTransferAgents apuntan al FQDN del grupo de servidores de copia de \_ seguridad.
     
       - Por último, compruebe el estado de la réplica de todos los servidores front-end escribiendo lo siguiente:
         
             Get-CsManagementStoreReplicationStatus 
         
-        Compruebe que todas las réplicas tengan el valor true.
+        Compruebe que todas las réplicas tengan un valor de True.
         
         Vaya al paso 7 de este procedimiento.
 
-6.  Instale el almacén central de administración en el servidor back-end\_del grupo de copia de seguridad.
+6.  Instale el almacén de administración central en el servidor back-end del grupo de copia de \_ seguridad.
     
       - En primer lugar, ejecute el siguiente comando:
         ```PowerShell
@@ -109,33 +109,33 @@ Además, si se produce un error en un grupo de servidores front-end pero el grup
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Ejecute el comando siguiente en uno de los servidores front-end del\_grupo de copia de seguridad para forzar el movimiento del almacén de administración central:
+      - Ejecute el siguiente comando en uno de los servidores front-end del grupo de servidores de copia de seguridad para forzar el movimiento \_ del almacén de administración central:
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
-      - Valide que el movimiento se haya completado:
+      - La validación del movimiento se ha completado:
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Compruebe que tanto ActiveMasterFQDN como ActiveFileTransferAgents apunten al FQDN del grupo de\_copia de seguridad.
+        Compruebe que ActiveMasterFQDN y ActiveFileTransferAgents apuntan al FQDN del grupo de servidores de copia de \_ seguridad.
     
-      - Para comprobar el estado de la réplica de todos los servidores front-end, escriba lo siguiente:
+      - Compruebe el estado de réplica para todos los servidores front-end escribiendo lo siguiente:
         
             Get-CsManagementStoreReplicationStatus 
         
-        Compruebe que todas las réplicas tengan el valor true.
+        Compruebe que todas las réplicas tengan un valor de True.
     
-      - Instale el servicio de servidor de administración central en el resto de los servidores Front-\_end del grupo de copias de seguridad. Para ello, ejecute el siguiente comando en todos los servidores front-end, excepto el que usó para forzar el movimiento del almacén de administración central anteriormente en este procedimiento:
+      - Instale el servicio del servidor de administración central en el resto de los servidores front-end del grupo de servidores de \_ copia de seguridad. Para ello, ejecute el siguiente comando en todos los servidores front-end, excepto el que usó al forzar el movimiento del almacén de administración central anteriormente en este procedimiento:
         
             Bootstrapper /Setup 
 
-7.  Realice la conmutación por error a los usuarios de Pool1 a Pool2 ejecutando el cmdlet siguiente en una ventana del shell de administración de Skype empresarial Server:
+7.  Conmutación por error de los usuarios de Pool1 a Pool2 ejecutando el siguiente cmdlet en una ventana del Shell de administración de Skype Empresarial Server:
     
         Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
     
-    Puesto que los pasos que se han realizado en las partes anteriores de este procedimiento para comprobar el estado de la tienda de administración central no son universales, todavía existe la posibilidad de que este cmdlet falle porque el almacén de administración central aún no se ha realizado correctamente. En este caso, debe corregir el almacén de administración central en función de los mensajes de error que ve y, a continuación, volver a ejecutar este cmdlet.
+    Dado que los pasos que se han realizado en las partes anteriores de este procedimiento para comprobar el estado del almacén de administración central no son universales, todavía existe la posibilidad de que este cmdlet falle porque el almacén de administración central aún no ha conmutado por error por completo. En este caso, debe corregir el almacén de administración central en función de los mensajes de error que ve y, a continuación, volver a ejecutar este cmdlet.
     
-    Si ve el siguiente mensaje de error, debe cambiar el grupo de bordes de este sitio para que use una agrupación diferente como el próximo salto antes de que se produzca un error en el grupo. Para obtener más información, consulte los procedimientos que se describen al principio de este tema.
+    Si ve el siguiente mensaje de error, tiene que cambiar el grupo de servidores perimetrales en este sitio para que use un grupo de servidores diferente al del próximo salto antes de conmutar por error el grupo de servidores. Para obtener detalles, vea los procedimientos al comienzo de este tema.
     
         Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
         topology as the next hop for the Edge server. Failing over this pool may cause External
@@ -144,125 +144,125 @@ Además, si se produce un error en un grupo de servidores front-end pero el grup
         proceed.
 
 
-## <a name="fail-back-a-pool"></a>Devolver un grupo por error
+## <a name="fail-back-a-pool"></a>Conmutación por recuperación de un grupo de servidores
 
-Después de que el grupo que experimentó el desastre vuelva a estar conectado (es decir, Pool1 en este ejemplo), siga estos pasos para restaurar la implementación a su estado de funcionamiento normal.
+Una vez que el grupo que experimentó el desastre está de nuevo en línea (es decir, el Grupo1 en este ejemplo), siga los pasos siguientes para restaurar su implementación al estado de funcionamiento normal.
 
-Tenga en cuenta que el proceso de recuperación tras error tarda varios minutos en completarse.Como referencia, se espera que tarde 60 minutos como máximo para un grupo de 20 000 usuarios.
+Tenga en cuenta que el proceso de conmutación por error tarda en completarse.  Como referencia, un grupo de 20.000  usuarios suele tardar 60 minutos.
 
-Conmutar por error a los usuarios que originalmente se encontraban en Pool1 y se ha producido un error en Pool2 escribiendo el siguiente cmdlet:
+Realice la recuperación de los usuarios que estaban hospedados originalmente en el Grupo1 y se han conmutado por error al Grupo2 escribiendo el siguiente cmdlet:
     
     Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-No es necesario realizar ningún otro paso. Si se ha producido un error en el servidor de administración central, puede dejarlo en Pool2.
+No es necesario realizar otros. Si ha fallado el servidor de administración central, puede dejarlo en el grupo2.
 
-## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>Conmutación por error del grupo perimetral usado para la Federación de Skype empresarial Server 
+## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>Conmutación por error del grupo de servidores perimetrales usado para la federación de Skype Empresarial Server 
 
-Si el grupo perimetral en el que tiene la Federación de Skype empresarial Server está desactivada, debe cambiar la Federación para usar un grupo de borde diferente para que la Federación funcione.
+Si el grupo de servidores perimetrales en el que tiene configurada la federación de Skype Empresarial Server no funciona, debe cambiar la federación para usar un grupo de servidores perimetrales diferente para que funcione la federación.
 
-1.  En un servidor front-end, abra Topology Builder. Expanda **agrupaciones perimetrales**y, a continuación, haga clic con el botón derecho en el servidor perimetral o en el grupo de servidores perimetrales actualmente configurados para la Federación. Seleccione **Editar propiedades**.
+1.  En un servidor front-end, abra el Generador de topologías. Expanda **grupos de servidores** perimetrales y, a continuación, haga clic con el botón secundario en el servidor perimetral o grupo de servidores perimetrales configurado actualmente para la federación. Seleccione **Editar propiedades**.
 
-2.  En **Editar propiedades** , en **General**, desactive **Habilitar Federación para este grupo perimetral (puerto 5061)**. Haga clic en **Aceptar**.
+2.  En **Editar propiedades**, en la pestaña **General**, desactive **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Haga clic en **Aceptar**.
 
-3.  Expanda **agrupaciones perimetrales**y, a continuación, haga clic con el botón derecho en el grupo de servidores perimetrales o perimetrales que desea usar para la Federación. Seleccione **Editar propiedades**.
+3.  Expanda **grupos de servidores** perimetrales y, a continuación, haga clic con el botón secundario en el servidor perimetral o en el grupo de servidores perimetrales que ahora desea usar para la federación. Seleccione **Editar propiedades**.
 
-4.  En **propiedades de edición** , en **General**, seleccione **Habilitar Federación para este grupo perimetral (puerto 5061)**. Haga clic en **Aceptar**.
+4.  En **Editar propiedades**, en **General**, seleccione **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Haga clic en **Aceptar**.
 
-5.  Haga clic en **acción**, seleccione **topología**, seleccione **publicar**. Cuando se le solicite al **publicar la topología**, haga clic en **siguiente**. Una vez finalizada la publicación, haga clic en **Finalizar**.
+5.  Haga clic en **Acción**, y seleccione sucesivamente **Topología** y **Publicar**. Cuando el sistema se lo solicite, en **Publicar la topología**, haga clic en **Siguiente**. Cuando haya acabado la publicación, haga clic en **Finalizar**.
 
-6.  En el servidor perimetral, abra el Asistente para la implementación de Skype empresarial Server. Haga clic en **instalar o actualizar el sistema de Skype empresarial Server**y, a continuación, haga clic en **configurar o quitar los componentes de Skype empresarial Server**. **Vuelva a**hacer clic en ejecutar.
+6.  En el servidor perimetral, abra el Asistente para la implementación de Skype Empresarial Server. Haga **clic en Instalar o actualizar el sistema de Skype Empresarial Server** y, a continuación, haga clic en Instalar o quitar componentes de Skype Empresarial **Server.** Haga clic en **Ejecutar de nuevo**.
 
-7.  Haga clic en **Siguiente**. La pantalla resumen mostrará las acciones a medida que se ejecutan. Una vez que haya finalizado la implementación, haga clic en **Ver registro** para ver los archivos de registro disponibles. Haga clic en **Finalizar** para completar la implementación.
+7.  Haga clic en **Siguiente**. En la pantalla de resumen aparecerán las acciones tal como se ejecutan. Cuando haya acabado la implementación, haga clic en **Ver registro** para ver los archivos de registro disponibles. Haga clic en **Finalizar** para completar la implementación.
     
-    Si el sitio que contiene el grupo perimetral con error contiene servidores front-end que aún se están ejecutando, debe actualizar el servicio de conferencias web y el servicio de conferencia A/V en estos grupos front-end para usar un grupo perimetral en un sitio remoto que aún se esté ejecutando. 
+    Si el sitio que contiene el grupo de servidores perimetrales con errores contiene servidores front-end que aún se están ejecutando, debe actualizar el servicio de conferencia web y el servicio de conferencia A/V en estos grupos de servidores front-end para usar un grupo de servidores perimetrales en un sitio remoto que aún se esté ejecutando. 
 
- ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>Conmutación por error del grupo perimetral usado para la Federación de XMPP en Skype empresarial Server 
+ ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>Conmutación por error del grupo de servidores perimetrales usado para la federación XMPP en Skype Empresarial Server 
 
-En su organización, hay un grupo perimetral designado como grupo para usar en la Federación XMPP. Si este grupo deja de funcionar, debe conmutar por error la Federación XMPP para usar un grupo de servidores perimetrales diferente antes de que la Federación XMPP pueda volver a funcionar.
+En su organización, hay un grupo perimetral designada como el grupo para la federación XMPP. Si este grupo se desactiva, debe conmutar por error la federación XMPP para que use otro grupo perimetral antes de que la federación XMPP pueda volver a trabajar.
 
-La primera vez que instala agrupaciones de límites y habilita la Federación de XMPP, puede simplificar el proceso de recuperación ante desastres configurando registros SRV de DNS para todos los grupos de borde para la Federación de XMPP, en lugar de solo uno. Cada uno de estos registros SRV debe tener un conjunto de prioridades diferente. Todo el tráfico de Federación XMPP pasa por el grupo con el registro SRV con la prioridad más alta. 
+Al instalar primero los grupos perimetrales y habilitar la federación XMPP, puede simplificar el proceso de recuperación ante desastres estableciendo registros SRV de DNS externos para todos los grupos perimetrales para la federación XMPP, en lugar de solo uno. Cada uno de estos registros SRV debe tener establecida una prioridad diferente. Todo el tráfico de la federación XMPP atraviesa el grupo con el registro SRV con la prioridad más alta. 
 
-En el procedimiento siguiente, EdgePool1 es el grupo que originalmente contenía la Federación de XMPP y EdgePool2 es el grupo que ahora hospedará la Federación XMPP.
+En el procedimiento siguiente, EdgePool1 es el grupo que originalmente alojó la federación XMPP y EdgePool2 es el grupo que alojará ahora la federación de XMPP.
 
 
-### <a name="to-fail-over-the-edge-pool-used-for-xmpp-federation"></a>Para conmutar por error el grupo perimetral usado para la Federación XMPP
+### <a name="to-fail-over-the-edge-pool-used-for-xmpp-federation"></a>Para conmutar por error el grupo de servidores perimetrales usado para la federación XMPP
 
-1.  Si aún no tiene otra agrupación perimetral implementada (aparte de la que actualmente está desactivada), implemente ese grupo. 
+1.  Si no tiene implementado otro grupo perimetral (además del que está desactivado), implemente dicha grupo. 
 
-2.  En cada servidor perimetral en el nuevo grupo de límites que ahora hospede la Federación XMPP (EdgePool2), ejecute el siguiente cmdlet:
+2.  En cada servidor perimetral del nuevo grupo perimetral que alojará ahora la federación XMPP (EdgePool2), ejecute el siguiente cmdlet:
     
         Stop-CsWindowsService
 
-3.  Ejecute el cmdlet siguiente para redirigir la ruta de Federación de XMPP a EdgePool2:
+3.  Ejecute el siguiente cmdlet para cambiar la ruta de la federación XMPP a EdgePool2:
     
         Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
     
-    En este ejemplo, Site2 es el sitio que contiene el grupo Edge que ahora hospedará la ruta de Federación XMPP y EdgeServer2.contoso.com es el FQDN de un servidor perimetral en ese grupo.
+    En este ejemplo, Site2 es el sitio que contiene el grupo perimetral que alojará ahora la federación XMPP y EdgeServer2.contoso.com es el FQDN de un servidor perimetral del grupo.
 
-4.  En el servidor DNS externo, cambie el registro A de DNS para la Federación XMPP para que apunte a EdgeServer2.contoso.com.
+4.  En el servidor DNS externo, cambie el registro de DNS A de la federación XMPP para que apunte a EdgeServer2.contoso.com.
 
-5.  Si todavía no tiene un registro SRV de DNS para la Federación de XMPP, que se resuelve en el grupo Edge que ahora hospedará la Federación XMPP, debe agregarlo, como en el ejemplo siguiente. Este registro SRV debe tener un valor de puerto de 5269.
+5.  Si aún no tiene un registro SRV de DNS para la federación XMPP que resuelva al grupo perimetral que alojará ahora la federación de XMPP, debe agregarlo, como en el ejemplo siguiente. Este registro SRV debe tener un valor de puerto de 5269.
     
         _xmpp-server._tcp.contoso.com
 
-6.  Verifique que el grupo de servidores perimetrales que ahora hospeda la Federación XMPP tenga el puerto 5269 abierto externamente.
+6.  Compruebe que el grupo perimetral que alojará ahora la federación XMPP tiene abierto el puerto 5269 externamente.
 
-7.  Inicie los servicios en todos los servidores perimetrales del grupo perimetral que ahora hospedarán la Federación de XMPP:
+7.  Inicie los servicios en todos los servidores perimetrales del grupo perimetral que alojará ahora la federación XMPP:
     
         Start-CsWindowsService
 
 
-## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Conmutación por error del grupo perimetral usado para la Federación de Skype empresarial Server o con la Federación de XMPP 
+## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Conmutación por recuperación del grupo de servidores perimetrales usado para la federación de Skype Empresarial Server o la federación XMPP 
 
-Después de que se haya vuelto a conectar un grupo perimetral que usó para hospedar la Federación, use este procedimiento para recuperar la ruta de Federación de Skype empresarial Server y/o la ruta de Federación de XMPP para volver a usar este grupo de Edge restaurado.
+Después de que un grupo de servidores perimetrales con errores que usaba para hospedar la federación se haya conectado de nuevo, use este procedimiento para conmutar por recuperación la ruta de federación de Skype Empresarial Server o la ruta de federación XMPP para volver a usar este grupo de servidores perimetrales restaurado.
 
-1.  En el grupo Edge que ya está disponible de nuevo, inicie los servicios de Edge.
+1.  En el grupo de servidores perimetrales que vuelve a estar disponible, inicie los servicios perimetrales.
 
-2.  Si desea recuperar la conmutación por recuperación de la ruta de Federación de Skype empresarial Server para usar el servidor perimetral restaurado, haga lo siguiente:
+2.  Si desea conmutar por recuperación la ruta de federación de Skype Empresarial Server para usar el servidor perimetral restaurado, haga lo siguiente:
     
-      - En un servidor front-end, abra Topology Builder. Expanda **agrupaciones perimetrales**y haga clic con el botón secundario en el servidor perimetral o en el grupo de servidores perimetrales actualmente configurados para la Federación. Seleccione **Editar propiedades**.
+      - En un servidor front-end, abra el Generador de topologías. Expanda **Grupos de servidores perimetrales** y después haga clic con el botón secundario en el servidor perimetral o en el grupo de servidores perimetrales que está configurado actualmente para la federación. Seleccione **Editar propiedades**.
     
-      - En **Editar propiedades** , en **General**, desactive **Habilitar Federación para este grupo perimetral (puerto 5061)**. Haga clic en **Aceptar**.
+      - En **Editar propiedades**, en la pestaña **General**, desactive **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Haga clic en **Aceptar**.
     
-      - Expanda **agrupaciones perimetrales**y, a continuación, haga clic con el botón secundario en el servidor perimetral original o en el grupo de servidores perimetrales que desea usar de nuevo para la Federación. Seleccione **Editar propiedades**.
+      - Expanda **Grupos de servidores perimetrales**, después haga clic con el botón secundario en el servidor perimetral original o en el grupo de servidores perimetrales que quiere volver a usar para la federación. Seleccione **Editar propiedades**.
     
-      - En **propiedades de edición** , en **General**, seleccione **Habilitar Federación para este grupo perimetral (puerto 5061)**. Haga clic en **Aceptar**.
+      - En **Editar propiedades**, en **General**, seleccione **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Haga clic en **Aceptar**.
     
-      - Haga clic en **acción**, seleccione **topología**, seleccione **publicar**. Cuando se le solicite al **publicar la topología**, haga clic en **siguiente**. Una vez finalizada la publicación, haga clic en **Finalizar**.
+      - Haga clic en **Acción**, y seleccione sucesivamente **Topología** y **Publicar**. Cuando el sistema se lo solicite, en **Publicar la topología**, haga clic en **Siguiente**. Cuando haya acabado la publicación, haga clic en **Finalizar**.
     
-      - En el servidor perimetral, abra el Asistente para la implementación de Skype empresarial Server. Haga clic en **instalar o actualizar el sistema de Skype empresarial Server**y, a continuación, haga clic en **configurar o quitar los componentes de Skype empresarial Server**. **Vuelva a**hacer clic en ejecutar.
+      - En el servidor perimetral, abra el Asistente para la implementación de Skype Empresarial Server. Haga **clic en Instalar o actualizar el sistema de Skype Empresarial Server** y, a continuación, haga clic en Instalar o quitar componentes de Skype Empresarial **Server.** Haga clic en **Ejecutar de nuevo**.
     
-      - Haga clic en **Siguiente**. La pantalla resumen mostrará las acciones a medida que se ejecutan. Una vez que haya finalizado la implementación, haga clic en **Ver registro** para ver los archivos de registro disponibles. Haga clic en **Finalizar** para completar la implementación.
+      - Haga clic en **Siguiente**. En la pantalla de resumen aparecerán las acciones tal como se ejecutan. Cuando haya acabado la implementación, haga clic en **Ver registro** para ver los archivos de registro disponibles. Haga clic en **Finalizar** para completar la implementación.
 
-3.  Si desea recuperar la conmutación por recuperación de la ruta de Federación de XMPP para usar el servidor perimetral restaurado, haga lo siguiente:
+3.  Si quiere conmutar por recuperación la ruta de la federación XMPP para usar el servidor perimetral restaurado, haga lo siguiente:
     
-      - Ejecute el siguiente cmdlet para redirigir la ruta de Federación de XMPP al conjunto de servidores perimetrales que ahora hospedan la Federación XMPP (en este ejemplo, EdgeServer1):
+      - Ejecute el cmdlet siguiente para volver a apuntar la ruta de la federación XMPP al grupo de servidores perimetrales que ahora hospedarán la federación XMPP (en este ejemplo, EdgeServer1):
         
             Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
         
-        En este ejemplo, Sitio1 es el sitio que contiene el grupo Edge que ahora hospedará la ruta de Federación XMPP y EdgeServer1.contoso.com es el FQDN de un servidor perimetral en ese grupo.
+        En este ejemplo, Site1 es el sitio que contiene el grupo de servidores perimetrales que ahora contendrá la ruta de la federación XMPP y EdgeServer1.contoso.com es el FQDN de un servidor perimetral de ese grupo de servidores.
     
-      - Si todavía no tiene un registro SRV de DNS para la Federación de XMPP, que se resuelve en el grupo Edge que ahora hospedará la Federación XMPP, debe agregarlo, como en el ejemplo siguiente. Este registro SRV debe tener un valor de puerto de 5269.
+      - Si todavía no tiene un registro DNS SRV para la federación XMPP que se resuelva en el grupo de servidores perimetrales que ahora hospedará la federación XMPP, agréguelo, como en el ejemplo siguiente. Este registro SRV debe tener un valor de puerto de 5269.
         
             _xmpp-server._tcp.contoso.com
     
-      - En el servidor DNS externo, cambie el registro A de DNS para la Federación XMPP para que apunte a EdgeServer2.contoso.com.
+      - En el servidor DNS externo, cambie el registro DNS A para la federación XMPP para que apunte a EdgeServer2.contoso.com.
     
-      - Verifique que el grupo de servidores perimetrales que ahora hospeda la Federación XMPP tenga el puerto 5269 abierto externamente.
+      - Compruebe que el grupo de servidores perimetrales que ahora hospedará la federación XMPP tiene el puerto 5269 abierto externamente.
 
-4.  Si las agrupaciones front-end permanecieron ejecutándose en el sitio que contiene el grupo perimetral que falló y se han restaurado, debe actualizar el servicio de conferencias web y el servicio de conferencia A/V en estos grupos de aplicaciones para el usuario de nuevo para usar los grupos perimetrales en su sitio local.
+4.  Si los grupos de servidores front-end siguieron ejecutándose en el sitio que contiene el grupo de servidores perimetrales que tuvo el error y que se ha restaurado, actualice el servicio de conferencia web y el servicio de conferencia A/V en estos grupos de servidores front-end para que vuelvan a usar los grupos de servidores perimetrales en su sitio local.
 
-5.  Si el grupo de servidores front-end en el mismo sitio que el grupo perimetral con errores también ha fallado, ahora puede usar Invoke-CsPoolFailback para recuperar el repositorio front-end.
+5.  Si el grupo de servidores front-end del mismo sitio que el grupo de servidores perimetrales también tuvo errores, ahora puede usar Invoke–CsPoolFailback para conmutar por recuperación el grupo de servidores front-end.
 
 
-## <a name="change-the-edge-pool-associated-with-a-front-end-pool"></a>Cambiar el grupo perimetral asociado a un grupo de servidores front-end
+## <a name="change-the-edge-pool-associated-with-a-front-end-pool"></a>Cambiar el grupo de servidores perimetrales asociado a un grupo de servidores front-end
 
-Si un grupo de servidores perimetrales deja de funcionar pero el grupo de servidores front-end en el mismo sitio aún se está ejecutando, tendrá que configurar el grupo de servidores front-end para que use un grupo de límites en un sitio diferente hasta que se restaure el grupo perimetral con error.
+Si se produce un error en un grupo perimetral pero el grupo de front-end del mismo sitio sigue en ejecución, deberá establecer el grupo de servidores front-end para que use un grupo perimetral de otro sitio hasta que se restablezca el grupo perimetral en el que se ha producido el error.
 
-1.  En el generador de topología, vaya al nombre del grupo de servidores front-end que necesita cambiar.
+1.  En el Generador de topologías, navegue hasta el nombre del grupo de servidores front-end que desea cambiar.
 
-2.  Haga clic con el botón secundario en el grupo y luego haga clic en **Editar propiedades**.
+2.  Haga clic con el botón secundario en el grupo y, a continuación, haga clic en **Editar propiedades**.
 
-3.  En la sección **asociaciones** , en **asociar grupo perimetral (para componentes multimedia)**, use el cuadro desplegable para seleccionar el grupo perimetral al que desea asociar este grupo de servidores front-end.
+3.  En la sección **Asociaciones**, en **Asociar grupo perimetral (para componentes multimedia)**, use el cuadro desplegable para seleccionar el grupo perimetral al que desea asociar este grupo de servidores front-end.
 
 4.  Haga clic en **Aceptar**.

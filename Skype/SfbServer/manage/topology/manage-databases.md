@@ -1,8 +1,8 @@
 ---
-title: Administrar bases de datos con un grupo de disponibilidad AlwaysOn en Skype empresarial Server
+title: Administrar bases de datos con un grupo de disponibilidad AlwaysOn en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,41 +11,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: 'Resumen: Aprenda a agregar más bases de datos de Skype empresarial Server a un grupo de disponibilidad AlwaysOn existente y obtenga más información sobre los pasos adicionales necesarios después de la revisión o la actualización de un servidor back-end que forma parte de un grupo de disponibilidad AlwaysOn en Skype para Business Server.'
-ms.openlocfilehash: 579b00047a9966e3ce991863506f5686d8a2d520
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo agregar más bases de datos de Skype Empresarial Server a un grupo de disponibilidad AlwaysOn existente y obtenga información sobre los pasos adicionales necesarios después de aplicar una revisión o actualizar un servidor back-end que forma parte de un grupo de disponibilidad AlwaysOn en Skype Empresarial Server.'
+ms.openlocfilehash: 444194c9cda5f4c3f82e6f3f7698395dce1a5d07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817141"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826370"
 ---
-# <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Administrar bases de datos con un grupo de disponibilidad AlwaysOn en Skype empresarial Server
+# <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Administrar bases de datos con un grupo de disponibilidad AlwaysOn en Skype Empresarial Server
 
-Siga los pasos descritos en este artículo para agregar más bases de datos de Skype empresarial Server a un grupo de disponibilidad AlwaysOn existente en Skype empresarial Server y conocer los pasos adicionales necesarios después de la revisión o actualizar un servidor back-end que forma parte de Grupo disponibilidad en Skype empresarial Server.
+Siga los pasos de este artículo para agregar más bases de datos de Skype Empresarial Server a un grupo de disponibilidad AlwaysOn existente en Skype Empresarial Server y descubra los pasos adicionales necesarios después de aplicar una revisión o actualizar un servidor back-end que forma parte de un grupo de disponibilidad AlwaysOn en Skype Empresarial Server.
 
 ## <a name="add-databases-to-an-alwayson-availability-group"></a>Agregar bases de datos a un grupo de disponibilidad AlwaysOn 
 
-1. Abra SQL Server Management Studio y vaya al grupo disponibilidad AlwaysOn. Conmuta por error a la réplica principal.
+1. Abra SQL Server Management Studio y vaya al grupo de disponibilidad AlwaysOn. Conmutación por error a la réplica principal.
     
-2. En el generador de topología, establezca el FQDN de SQL Server del grupo de disponibilidad AlwaysOn en el FQDN del nodo principal de ese grupo.
+2. En el Generador de topologías, establezca SQL Server FQDN del grupo de disponibilidad AlwaysOn en el FQDN del nodo principal de ese grupo.
     
-   - Abra el generador de topologías, seleccione **Descargar topología de la implementación existente**y haga clic en **Aceptar**.
+   - Abra el Generador de topologías, **seleccione Descargar topología de la implementación existente** y haga clic en **Aceptar.**
     
-   - Expanda Skype Empresarial Server, expanda la topología y expanda **Almacenes de SQL Server**. Haga clic con el botón derecho en el almacén SQL del nuevo grupo de disponibilidad AlwaysOn y haga clic en **Editar propiedades**.
+   - Expanda Skype Empresarial Server, expanda la topología y expanda **SQL Server almacenes.** Haga clic con el botón secundario en SQL almacén del nuevo grupo de disponibilidad AlwaysOn y, a continuación, haga clic **en Editar propiedades.**
     
-   - En la parte inferior de la página, en el cuadro **FQDN de SQL Server** , escriba el FQDN del nodo principal del grupo de disponibilidad AlwaysOn.
+   - En la parte inferior de la página, en el cuadro **SQL Server FQDN,** escriba el FQDN del nodo principal del grupo de disponibilidad AlwaysOn.
     
-3. Publique la topología. En el menú **Acción**, haga clic en **Topología** y después en **Publicar**. A continuación, en la página de confirmación, haga clic en **Siguiente**.
+3. Publique la topología. En el **menú Acción,** haga **clic en Topología** y, a continuación, **publique**. A continuación, en la página de confirmación, haga **clic en Siguiente**.
     
 4. Use SQL Server Management Studio para agregar la nueva base de datos al grupo de disponibilidad AlwaysOn.
     
-## <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group"></a>Revisar o actualizar un SQL Server en un grupo de disponibilidad AlwaysOn
+## <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group"></a>Aplicar una revisión o actualizar un SQL Server un grupo de disponibilidad AlwaysOn
 
-Después de revisar un servidor back-end que forma parte de un grupo de disponibilidad AlwaysOn, debe volver a publicar la topología.
+Después de aplicar una revisión a un servidor back-end que forma parte de un grupo de disponibilidad AlwaysOn, debe volver a publicar la topología.
 
-1. Instale la actualización en su servidor o servidores de Skype empresarial.
+1. Instale la actualización en su servidor o servidores de Skype Empresarial.
     
-2. Ejecute el siguiente comando de PowerShell en el shell de administración de Skype empresarial (sesión iniciada con una cuenta que se ha cometido correctamente para aplicar cambios en las bases de datos de SQL AlwaysOn) de la siguiente manera:
+2. Ejecute el siguiente comando de PowerShell en el Shell de administración de Skype Empresarial (ha iniciado sesión con una cuenta que tenga los permisos adecuados para aplicar cambios a las bases de datos de SQL AlwaysOn) de la siguiente manera:
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose

@@ -1,8 +1,8 @@
 ---
 title: Certificado pendiente (invocar)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
-description: En la página comandos en ejecución se muestra el estado de los comandos que recuperan el certificado pendiente. Una vez completada la tarea, está disponible el archivo de registro recuperar certificados pendientes. Haga clic en Ver registro para revisar el estado de procesamiento y finalización de la tarea. Haga clic en siguiente para continuar.
-ms.openlocfilehash: e424e18c65803c082b187d5a41ecf8133cfa6679
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En la página Ejecutando comandos se muestra el estado de los comandos que recuperan el certificado pendiente. Cuando ha finalizado la tarea, el archivo de registro Recuperar certificados pendientes está disponible. Haga clic en Ver registro para ver el proceso y el estado de finalización de la tarea. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: 238c4c39c5e7ae1b54b37c2e6536c71bf604e102
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823594"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827100"
 ---
 # <a name="pending-certificate-invoke"></a>Certificado pendiente (invocar)
  
-En la página **comandos en ejecución** se muestra el estado de los comandos que recuperan el certificado pendiente. Una vez completada la tarea, está disponible el archivo de registro **recuperar certificados pendientes** . Haga clic en **Ver registro** para revisar el estado de procesamiento y finalización de la tarea. Haga clic en **Siguiente** para continuar.
+En la página **Ejecutando comandos** se muestra el estado de los comandos que recuperan el certificado pendiente. Cuando ha finalizado la tarea, el archivo de registro **Recuperar certificados pendientes** está disponible. Haga clic en **Ver registro** para ver el proceso y el estado de finalización de la tarea. Haga clic en **Siguiente** para continuar.
   
 > [!IMPORTANT]
-> Si el administrador de la entidad emisora de certificados aún no ha aprobado el certificado, el archivo de registro recuperar solicitud pendiente indicará que hay solicitudes pendientes. Si el administrador de la entidad emisora de certificados le ha denegado la solicitud, el archivo de registro indicará un error y notificará el error, lo que indica que se ha denegado la solicitud y el nombre de usuario de la persona que la ha denegado. 
+> Si el administrador de la entidad de certificación no ha aprobado el certificado todavía, el archivo de registro Recuperar solicitud pendiente indicará que hay solicitudes pendientes. Si el administrador de la entidad de certificación ha denegado la solicitud, el archivo de registro indicará un error e informará de que la solicitud se ha denegado, así como el nombre de la persona que ha denegado la solicitud. 
   
 
