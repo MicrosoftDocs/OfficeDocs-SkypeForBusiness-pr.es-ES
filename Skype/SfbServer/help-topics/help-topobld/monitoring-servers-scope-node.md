@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de los servidores de supervisión
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: 'El nodo Servidores de supervisión contiene los servidores de supervisión de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 8df5c14a5f38a543544394e65b55c7c915a9365d
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 7c09c86c15a5b398463a2c1995c462c890849dfa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215101"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803200"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nodo de ámbito de los servidores de supervisión
  

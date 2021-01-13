@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general del servidor de supervisión
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'En el generador de topologías, puede editar las propiedades de un servidor de supervisión individual haciendo clic con el botón secundario en el servidor de supervisión en el árbol de consola y, a continuación, haciendo clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel acciones y, a continuación, haciendo clic en Editar propiedades y cambiando cualquiera de las siguientes opciones:'
-ms.openlocfilehash: 1577f79d41e7d136f711b341edd408585192da29
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'En el Generador de topologías, puede editar las propiedades de un servidor de supervisión individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea del panel Acciones y, a continuación, haciendo clic en Editar propiedades y cambiando cualquiera de las siguientes opciones:'
+ms.openlocfilehash: f5543b4ead3f496cd2ae37841a37a317b87f8d9c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215141"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803230"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de configuración general del servidor de supervisión
  
-En el generador de topologías, puede editar las propiedades de un servidor de supervisión individual haciendo clic con el botón secundario en el servidor de supervisión en el árbol de consola y, a continuación, haciendo clic en **acción** en la barra de herramientas, o haciendo clic en una tarea en el panel acciones y, a continuación, haciendo clic en **Editar propiedades**y cambiando cualquiera de las siguientes opciones:
+En el Generador de topologías, puede editar las propiedades de un servidor de supervisión  individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en Editar propiedades **y** cambiando cualquiera de las siguientes opciones:
   
 - **FQDN**, para cambiar el nombre de dominio completo (FQDN) del servidor que desea implementar como servidor de supervisión.
     

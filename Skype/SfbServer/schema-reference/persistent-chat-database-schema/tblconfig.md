@@ -1,8 +1,8 @@
 ---
 title: tblConfig
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-description: tblConfig contiene la configuración no admitida de un servidor de chat persistente, en una fila.
-ms.openlocfilehash: f79af00d6a9f97f0ce0836684a284779be662c1d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblConfig contiene algunas configuraciones no admitidas del servidor de chat persistente, en una fila.
+ms.openlocfilehash: 614e4e6514d695777c39a9d76482f775bd1a0981
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814628"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809740"
 ---
 # <a name="tblconfig"></a>tblConfig
  
-tblConfig contiene la configuración no admitida de un servidor de chat persistente, en una fila.
+tblConfig contiene algunas configuraciones no admitidas del servidor de chat persistente, en una fila.
   
-**Columnas**
+**Columns**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|configLabel  <br/> |nvarchar (255), not null  <br/> |Contiene "pool".  <br/> |
-|configContent  <br/> |nvarchar (Max)  <br/> |Contenido de configuración.  <br/> |
-|configPoolID  <br/> |GUID, not null  <br/> |IDENTIFICADOR único de la instancia de la base de datos.  <br/> |
+|configLabel  <br/> |nvarchar (255), no NULL  <br/> |Contiene "grupo".  <br/> |
+|configContent  <br/> |nvarchar (máx.)  <br/> |Contenido de la configuración.  <br/> |
+|configPoolID  <br/> |GUID, no NULL  <br/> |Identificador único de la instancia de base de datos.  <br/> |
    
 **Clave**
 

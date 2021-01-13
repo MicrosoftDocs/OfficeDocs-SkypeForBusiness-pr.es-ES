@@ -1,8 +1,8 @@
 ---
-title: 'Administrar los números de acceso a la Conferencia de acceso telefónico local en Skype empresarial Server '
+title: 'Administrar números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,43 +11,43 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Resumen: Aprenda a administrar los números de acceso de conferencia de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: 48fae5535607c59931be1c7f5201c3c45a150417
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo administrar los números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server.'
+ms.openlocfilehash: 868d757edc6728254c1ab09d22398cd3dc60901b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818672"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806490"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Administrar los números de acceso a la Conferencia de acceso telefónico local en Skype empresarial Server
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Administrar números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre cómo administrar los números de acceso a la Conferencia de acceso telefónico local en Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo administrar los números de acceso a conferencias de acceso telefónico local en Skype Empresarial Server.
   
-Cuando se implementa la característica de conferencia de acceso telefónico local, es necesario establecer números de teléfono que los usuarios puedan marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias. Estos números de acceso telefónico se muestran en invitaciones a reuniones y en la página web de configuración de conferencia de acceso telefónico local. 
+Al implementar las conferencias de acceso telefónico local, debe configurar números de teléfono que los usuarios pueden marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias. Estos números de acceso telefónico local aparecen en las invitaciones a reuniones y en la página web configuración de conferencia de acceso telefónico local. 
   
-En este tema se describe cómo ver, modificar o eliminar números de acceso a conferencias de acceso telefónico local existentes. Para obtener más información sobre cómo crear números de acceso telefónico inicial, consulte [configurar conferencias de acceso telefónico local en Skype empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+En este tema se describe cómo ver, modificar o eliminar números de acceso a conferencias de acceso telefónico local existentes. Para obtener más información acerca de cómo crear números de acceso telefónico local iniciales, consulte Configurar las conferencias de acceso telefónico [local en Skype Empresarial Server.](../../deploy/deploy-conferencing/dial-in-conferencing.md)
   
-## <a name="view-dial-in-conferencing-access-numbers"></a>Ver los números de acceso a conferencias de acceso telefónico local
+## <a name="view-dial-in-conferencing-access-numbers"></a>Ver números de acceso a conferencias de acceso telefónico local
 
-Puede ver los números de acceso de la Conferencia de acceso telefónico local mediante el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server.
+Puede ver los números de acceso a conferencias de acceso telefónico local con el Panel de control de Skype Empresarial Server o con el Shell de administración de Skype Empresarial Server.
   
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Ver los números de acceso telefónico local mediante el panel de control de Skype empresarial Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Ver números de acceso telefónico local mediante el Panel de control de Skype Empresarial Server
 
-1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2.  Abra el panel de control de Skype empresarial Server.
+2.  Abra el Panel de control de Skype Empresarial Server.
     
-3. En la barra de navegación de la izquierda, haga clic en **Conferencia** y después en **Número de acceso telefónico local**.
+3. En la barra de navegación de la izquierda, haga clic en **Conferencias** y, a continuación, en **Número de acceso telefónico**.
     
-4. En la página **Número de acceso telefónico local**, haga clic en el número de acceso que desea ver.
+4. En la página **Número de acceso telefónico**, haga clic en el número de acceso que desea ver.
     
-5. En **Editar**, active la casilla **Mostrar detalles**.
+5. En **Editar,** active la casilla **Mostrar** detalles.
     
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Ver los números de acceso telefónico local mediante el shell de administración de Skype empresarial Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Ver números de acceso telefónico local mediante el Shell de administración de Skype Empresarial Server
 
-Para ver información sobre los números de acceso telefónico local, use el cmdlet **Get-CsDialInConferencingAccessNumber**.
+Para ver información sobre los números de acceso telefónico local, use el cmdlet **Get-CsDialInConferencingAccessNumber.**
   
-El siguiente comando devuelve una colección de todos los números de acceso de la Conferencia de acceso telefónico local configurados para su uso en la organización: 
+El siguiente comando devuelve una colección de todos los números de acceso a conferencias de acceso telefónico local configurados para su uso en la organización: 
   
 ```PowerShell
 Get-CsDialInConferencingAccessNumber
@@ -70,111 +70,111 @@ HostingProvider    :
 Regions            : {US}
 </pre>
 
-Para obtener más información, vea [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Para obtener más información, [vea Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
-## <a name="modify-dial-in-conferencing-access-numbers"></a>Modificar los números de acceso a conferencias de acceso telefónico local
+## <a name="modify-dial-in-conferencing-access-numbers"></a>Modificar números de acceso a conferencias de acceso telefónico local
 
-Puede modificar los números de acceso telefónico mediante el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server.
+Puede modificar los números de acceso telefónico local con el Panel de control de Skype Empresarial Server o con el Shell de administración de Skype Empresarial Server.
   
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Modificar los números de acceso telefónico mediante el panel de control de Skype empresarial Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Modificar números de acceso telefónico local mediante el Panel de control de Skype Empresarial Server
 
-1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2.  Abra el panel de control de Skype empresarial Server.
+2.  Abra el Panel de control de Skype Empresarial Server.
     
-3. En la barra de navegación de la izquierda, haga clic en **Conferencia** y después en **Número de acceso telefónico local**.
+3. En la barra de navegación de la izquierda, haga clic en **Conferencias** y, a continuación, en **Número de acceso telefónico**.
     
-4. En la página **Número de acceso telefónico local**, haga clic en uno de los números de acceso telefónico local de la lista, haga clic en **Editar** y después haga clic en **Mostrar detalles**.
-    
-    > [!NOTE]
-    > Usar el campo de búsqueda para buscar el contenido de una columna de la lista de números de acceso telefónico no siempre permite obtener los resultados esperados. En lugar de eso, ordene la lista por la columna que le interese para identificar el número de acceso telefónico que desea ver o modificar. 
-  
-5. En **Número para mostrar**, escriba el número de teléfono que los usuarios de RTC (Red telefónica conmutada) marcan para unirse a una conferencia. 
-    
-    Este número se muestra en las invitaciones a reuniones y en la página web Configuración de la conferencia de acceso telefónico local.
-    
-6. En **Nombre para mostrar**, escriba una descripción del número de acceso telefónico local. Este es el nombre que está asociado al número de acceso telefónico local en los resultados de búsqueda de Skype empresarial.
-    
-    Este número se muestra en el cliente cuando un usuario llama al número de acceso. 
-    
-7. En **URI de línea**, escriba el número E.164 del número de acceso telefónico local en el formato de URI TEL, con el símbolo + delante del número y sin espacios. Por ejemplo, tel.: +14255550200.
+4. En la **página Número** de acceso telefónico, haga clic en uno de los números de acceso telefónico de la lista, haga clic en Editar y, a continuación, haga clic **en Mostrar detalles.**
     
     > [!NOTE]
-    > El mismo URI de línea no puede volver a usarse por otro número de acceso telefónico a conferencias. 
+    > El uso del campo de búsqueda para buscar el contenido de una columna en la lista de números de acceso telefónico no puede producir los resultados esperados. En su lugar, ordene la lista por la columna de interés para identificar el número de acceso telefónico que desea ver o cambiar. 
   
-8. En **URI del SIP**, siga este procedimiento:
+5. En **Número de pantalla,** escriba el número de teléfono que marcan los usuarios de la red telefónica conmutada (RTC) para unirse a una conferencia. 
     
-   En el cuadro de texto, escriba un URI del SIP único para este número de acceso a conferencias de acceso telefónico local. Este URI del SIP se muestra en varias ubicaciones, entre las que se incluyen los mensajes de notificación de llamada y las versiones anteriores de clientes de Lync.
+    Este número se muestra en las invitaciones a reuniones y en la página web configuración de conferencia de acceso telefónico local.
+    
+6. En **Nombre para mostrar,** escriba una descripción para el número de acceso telefónico. Este es el nombre asociado al número de acceso telefónico en los resultados de búsqueda de Skype Empresarial.
+    
+    Este nombre se muestra en el cliente cuando un usuario llama al número de acceso. 
+    
+7. En **uri** de línea, escriba el número E.164 del número de acceso telefónico en formato URI tel., incluido el símbolo + delante del número y excluyendo espacios. Por ejemplo, tel:+14255550200.
     
     > [!NOTE]
-    > El mismo URI del SIP no puede volver a usarse por otro número de acceso telefónico a conferencias. El URI del SIP no puede modificarse una vez creado el número de acceso. El único modo de cambiar el URI del SIP es eliminar y volver a crear el número de acceso. 
+    > Otro número de acceso a conferencias de acceso telefónico local no puede volver a usar el mismo URI de línea. 
   
-   En el cuadro de lista desplegable, haga clic en el dominio de la aplicación de operador de conferencia que admite este número de acceso telefónico local.
+8. En **el URI de SIP,** haga lo siguiente:
     
-9. En **Grupo de servidores**, haga clic en el grupo que ejecuta la instancia del operador de conferencia que admite el número de acceso telefónico local.
+   En el cuadro de texto, escriba un URI de SIP único para este número de acceso a conferencias de acceso telefónico local. Este URI de SIP se muestra en varias ubicaciones, incluidos, entre otros, los mensajes de notificación de llamadas y las versiones anteriores de los clientes de Lync.
     
     > [!NOTE]
-    > Si necesita cambiar el grupo de servidores tras crear el número de acceso, necesitará usar el cmdlet **Move-CsApplicationEndpoint** o eliminar y volver a crear el número de acceso.
+    > Otro número de acceso a conferencias de acceso telefónico local no puede volver a usar el mismo URI de SIP. El URI de SIP no se puede modificar después de crear el número de acceso. La única forma de cambiar el URI de SIP es eliminar y volver a crear el número de acceso. 
   
-10. En **Idioma principal**, haga clic en el idioma en el que se mostrarán las indicaciones para este número de acceso telefónico local. 
+   En el cuadro de lista desplegable, haga clic en el dominio de la aplicación Operador de conferencia que admite este número de acceso telefónico local.
     
-    El idioma principal es el idioma que usa el operador de conferencia para responder la llamada. Los idiomas admitidos se muestran junto a cada número de teléfono de acceso en la página web de configuración de conferencias de acceso telefónico.
+9. En **Grupo** de servidores, haga clic en el grupo que ejecuta la instancia de Operador de conferencia que admite este número de acceso telefónico local.
     
-11. (Opcional) En **Idiomas secundarios (cuatro máximo)**, haga clic en **Agregar**, seleccione uno o más idiomas adicionales que desee poner a disposición de los que llaman a este número de acceso telefónico local y luego haga clic en **Aceptar**. 
+    > [!NOTE]
+    > Si necesita cambiar el grupo después de crear el número de acceso, debe usar el cmdlet **Move-CsApplicationEndpoint** o eliminar y volver a crear el número de acceso.
+  
+10. En **el idioma principal,** haga clic en el idioma en el que se reproducen los mensajes para este número de acceso telefónico. 
     
-    Puede seleccionar hasta cuatro idiomas secundarios para cada número acceso telefónico. Los usuarios pueden seleccionar un idioma secundario antes de especificar el ID de conferencia cuando marcan para acceder a una conferencia.
+    El idioma principal es el idioma que el operador de conferencia usa para responder a la llamada. Los idiomas admitidos se muestran junto con cada número de teléfono de acceso en la página web configuración de conferencia de acceso telefónico local.
     
-12. Para agregar una región para el número de acceso telefónico local, en **regiones asociadas**, haga clic en **Agregar**, haga clic en una o más regiones asociadas con los planes de marcado para este número de acceso telefónico y, a continuación, haga clic en **Aceptar**.
+11. (Opcional) En **idiomas** secundarios (máximo de cuatro), haga clic en Agregar **,** seleccione uno o más idiomas adicionales que desee admitir para los autores de llamadas a este número de acceso telefónico local y, a continuación, haga clic en **Aceptar.** 
     
-13. Para eliminar una región del número de acceso telefónico local, en **Regiones asociadas**, seleccione la región que desea eliminar y haga clic en **Quitar**.
+    Puede elegir hasta cuatro idiomas secundarios para cada número de acceso telefónico local. Los usuarios pueden seleccionar un idioma secundario antes de escribir el identificador de conferencia cuando llamen a una conferencia.
+    
+12. Para agregar una región para el número de acceso telefónico, en Regiones **asociadas,** haga clic en Agregar **,** haga clic en una o más regiones asociadas a los planes de marcado para este número de acceso telefónico y, a continuación, haga clic en **Aceptar.**
+    
+13. Para eliminar una región del número de acceso telefónico, en Regiones **asociadas,** haga clic en la región que desea eliminar y, a continuación, haga clic en **Quitar**.
     
 14. Haga clic en **Confirmar**.
     
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modificar los números de acceso telefónico mediante el shell de administración de Skype empresarial Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modificar números de acceso telefónico local mediante el Shell de administración de Skype Empresarial Server
 
-Para modificar los números de acceso telefónico local, use el cmdlet **Set-CsDialInConferencingAccessNumber**.
+Para modificar los números de acceso telefónico local, use el cmdlet **Set-CsDialInConferencingAccessNumber.**
   
-El siguiente comando modifica la propiedad DisplayName para el número de acceso a conferencia de acceso telefónico local con el valor Identity sip:RedmondDialIn@litwareinc.com. En este ejemplo, el nombre para mostrar se establece como "Redmond Dial-In Access Number":
+El siguiente comando modifica la propiedad DisplayName para el número de acceso a conferencias de acceso telefónico local con el parámetro Identity sip:RedmondDialIn@litwareinc.com. En este ejemplo, el nombre para mostrar se establece en "Redmond Dial-In Access Number":
   
 ```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
-En el siguiente ejemplo, el número de acceso a conferencia de acceso telefónico local con el valor Identity sip:RedmondDialIn@litwareinc.com se modifica para incluir dos regiones: Redmond y Seattle. Para ello, se llama al parámetro Regions, seguido de las dos regiones (dos valores de cadena separados por comas). Tenga en cuenta que este comando producirá un error a menos que las regiones de Redmond y Seattle ya se hayan definido en planes de marcado.
+En el siguiente ejemplo, se modifica el número de acceso para conferencias de acceso telefónico local con el parámetro Identity sip:RedmondDialIn@litwareinc.com para incluir dos regiones: Redmond y Seattle. Para ello, se llama al parámetro Regions, seguido de las dos regiones (dos valores de cadena separados por comas). Tenga en cuenta que este comando producirá un error a menos que las regiones de Redmond y Seattle ya se hayan definido en planes de marcado.
   
 ```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
-Para obtener más información, consulte [set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).
+Para obtener más información, [vea Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>Eliminar un número de acceso a conferencias de acceso telefónico local
 
-Puede eliminar un número de acceso de conferencia de acceso telefónico local mediante el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server.
+Puede eliminar un número de acceso para conferencias de acceso telefónico local mediante el Panel de control de Skype Empresarial Server o mediante el Shell de administración de Skype Empresarial Server.
   
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Eliminar un número de acceso de conferencia de acceso telefónico local con el panel de control de Skype empresarial Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Eliminar un número de acceso a conferencias de acceso telefónico local mediante el Panel de control de Skype Empresarial Server
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Skype empresarial Server. .
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
     
-2.  Abra el panel de control de Skype empresarial Server.
+2.  Abra el Panel de control de Skype Empresarial Server.
     
-3. En la barra de navegación de la izquierda, haga clic en **Conferencia** y después en **Número de acceso telefónico local**.
+3. En la barra de navegación de la izquierda, haga clic en **Conferencias** y, a continuación, en **Número de acceso telefónico**.
     
-4. En la página, haga clic en el número de acceso telefónico local que desea eliminar de la lista, haga clic en **Editar** y luego en **Eliminar**.
+4. En la página, haga clic en el número de acceso telefónico local que desea eliminar de la lista, haga clic en **Editar** y, a continuación, en **Eliminar**.
     
 5. Haga clic en **Aceptar**.
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Eliminar un número de acceso de conferencia de acceso telefónico local mediante el shell de administración de Skype empresarial Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Eliminar un número de acceso a conferencias de acceso telefónico local mediante el Shell de administración de Skype Empresarial Server
 
-Para eliminar un número de acceso a conferencias de acceso telefónico local, use el comando **Remove-Cs DialInConferencingAccessNumber**.
+Para eliminar un número de acceso a conferencias de acceso telefónico local, use **remove-CsDialInConferencingAccessNumber**.
   
-El siguiente comando elimina el número de acceso a conferencias de acceso telefónico local con el valor Identity sip:RedmondDialInAccess@litwareinc.com:
+El siguiente comando elimina el número de acceso a conferencias de acceso telefónico local con el parámetro Identity sip:RedmondDialInAccess@litwareinc.com:
   
 ```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
-El siguiente comando elimina todos los números de acceso a conferencias de acceso telefónico local asociados a la región noroeste:
+El siguiente comando elimina todos los números de acceso a conferencias de acceso telefónico local asociados con la región Northwest:
   
 ```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
@@ -186,6 +186,6 @@ El siguiente comando elimina todos los números de acceso a conferencias de acce
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 
-Para obtener más información, consulte [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps).
+Para obtener más información, [vea Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps).
   
 

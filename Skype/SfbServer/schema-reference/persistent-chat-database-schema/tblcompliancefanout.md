@@ -1,8 +1,8 @@
 ---
 title: tblComplianceFanout
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
-description: tblComplianceFanout contiene todos los servidores que procesaron un evento de cumplimiento.
-ms.openlocfilehash: cdf455563ccfc971963144b9d4e848d5678cac80
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La tabla ComplianceFanout contiene todos los servidores que han procesado un evento de cumplimiento.
+ms.openlocfilehash: 75e232cd464a2199b490e555c0fab79ded119c94
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814658"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809800"
 ---
 # <a name="tblcompliancefanout"></a>tblComplianceFanout
  
-tblComplianceFanout contiene todos los servidores que procesaron un evento de cumplimiento.
+La tabla ComplianceFanout contiene todos los servidores que han procesado un evento de cumplimiento.
   
-**Columnas**
+**Columns**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|fanoutEventID  <br/> |int  <br/> |IDENTIFICADOR de evento.  <br/> |
-|fanoutServerID  <br/> |int  <br/> |Identidad del servidor (correspondiente a la tabla tblServerIdentity. serverID).  <br/> |
+|fanoutEventID  <br/> |entero  <br/> |Id. del evento  <br/> |
+|fanoutServerID  <br/> |entero  <br/> |Identidad del servidor (correspondiente a la tabla ServerIdentity.serverID).  <br/> |
    
 **Clave**
 
 |**Columna**|**Descripción**|
 |:-----|:-----|
-|fanoutEventID  <br/> |Clave externa con la búsqueda en la tabla tblComplianceData. cmplEventID.  <br/> |
+|fanoutEventID  <br/> |Clave externa con búsqueda en la tabla ComplianceData.cmplEventID.  <br/> |
    
 

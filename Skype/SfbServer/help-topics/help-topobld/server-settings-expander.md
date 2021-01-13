@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de servidor
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del servidor y la configuración de la dirección IP del servidor. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 09d2372927cc77a668cfaaf41171d2c2c281899b
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: a5f1a8268803e7059593795d207dff10b8de0c4e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806600"
 ---
 # <a name="server-settings-expander"></a>Expansor de configuración de servidor
  
@@ -32,7 +32,7 @@ Este nodo muestra el nombre de dominio completo (FQDN) del servidor y la configu
     
 Además de estas opciones, puede realizar las tareas generales siguientes:
   
-- **Topología**. Puede usar esta opción para definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes o quitar la implementación.
     
 - **Ver**. Use esta opción para personalizar la vista del Generador de topologías seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     

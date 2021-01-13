@@ -1,8 +1,8 @@
 ---
-title: Asistente para entornos híbridos mover usuario
+title: Asistente híbrido Para mover usuario
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/10/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
-description: Use el Asistente para mover usuarios para mover cuentas de usuario alojadas en un grupo local para hospedarlas en Skype empresarial online. Para más información, consulte Use the Hybrid Manageability wizard.
-ms.openlocfilehash: fc1307e70bfa92dcbc12bd542b28e092c416c7fe
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Use el Asistente para mover usuarios para mover cuentas de usuario que están en un grupo local para hospedarse en Skype Empresarial Online. Para obtener más información, consulte Usar el Asistente para la administración híbrida.
+ms.openlocfilehash: ad4b4cce7a06b2cc01125d2bc6c630e977b53e08
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822733"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807299"
 ---
 # <a name="hybrid-wizard-move-user"></a>Asistente híbrido: Mover usuarios
 
-Use el Asistente para mover usuarios para mover cuentas de usuario alojadas en un grupo local para hospedarlas en Skype empresarial online. Para más información, consulte [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
+Use el Asistente para mover usuarios para mover cuentas de usuario que están en un grupo local para hospedarse en Skype Empresarial Online. Para obtener más información, vea [Usar el Asistente para la administración híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)
 
 

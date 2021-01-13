@@ -1,8 +1,8 @@
 ---
-title: Cliente móvil crear o editar la configuración de notificaciones push
+title: Configuración de creación o edición de notificaciones de inserción del cliente móvil
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,34 +14,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
-description: Las notificaciones de inserción y el centro de enrutamiento de notificaciones de inserción (PNCH) son dos partes esenciales de la característica de movilidad. La notificación de inserción es el proceso por el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que el tiempo de espera se agota.
-ms.openlocfilehash: 803bc61d12263e98efe5e74764f9f60f392af95f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La notificación de inserción y el Centro de intercambio de notificaciones de inserción (PNCH) son dos partes clave de la característica de movilidad. La notificación de inserción es el proceso mediante el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que caduca el periodo de espera.
+ms.openlocfilehash: 3c72c5b123a906d74cfeb0a1fef5c1e765fe030c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796489"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808750"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente móvil: Crear o editar configuración de notificaciones de inserción
  
-Las notificaciones de inserción y el centro de enrutamiento de notificaciones de inserción (PNCH) son dos partes esenciales de la característica de movilidad. La notificación de inserción es el proceso por el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que el tiempo de espera se agota. 
+La notificación de inserción y el Centro de intercambio de notificaciones de inserción (PNCH) son dos partes clave de la característica de movilidad. La notificación de inserción es el proceso mediante el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que caduca el periodo de espera. 
   
 > [!NOTE]
-> El período de tiempo se define en el centro de enrutamiento de notificaciones de inserción y ni el usuario ni el administrador de la implementación pueden configurarlo. 
+> El periodo de tiempo se define en el centro de enrutamiento de notificaciones de inserción y ni el usuario ni el administrador de su implementación pueden configurarlo. 
   
-Haga lo siguiente para habilitar las notificaciones de inserción:
+Para habilitar las notificaciones de inserción, haga lo siguiente:
   
-1. **Ámbito:** tenga en cuenta el ámbito de esta directiva. Puede ser **Global** (se aplica a todos los usuarios de la implementación) o **Sitio** (solo para usuarios asignados a servidores hospedados en el sitio especificado).
+1. **Ámbito:** Tenga en cuenta el ámbito de esta directiva. Puede ser **Global**, que se aplica a todos los usuarios de esta implementación, o **Sitio**, que solo son usuarios asignados a servidores locales en el sitio especificado.
     
     > [!IMPORTANT]
-    > La configuración de directiva que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La precedencia de directiva es esta: la directiva de usuario (de mayor influencia) invalida una directiva de sitio, y una directiva de sitio invalida una directiva global (de menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto. 
+    > Las opciones de configuración de directiva que se aplican en un nivel de directiva pueden sobrescribir la configuración que se aplica en otro nivel de directiva. La prioridad de la directiva es: la directiva de usuario (más influencia) invalida una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto. 
   
-2. Seleccione qué servicios de notificación de inserción desea habilitar activando la casilla correspondiente:
+2. Seleccione qué servicios de notificación de inserción desea habilitar activando la casilla de:
     
-   - **Habilitar la notificación de inserción de Microsoft** habilitará la notificación de inserción en el PNCH basado en la nube para Windows Phone con la aplicación Skype empresarial
+   - **Habilitar la notificación de inserción de Microsoft** habilitará la notificación de inserción en el PNCH basado en la nube para Windows Phone con la aplicación skype empresarial
     
-   - **Habilitar la notificación push de Apple** habilitará la notificación push en el Apple PNCH para dispositivos que ejecuten iOS de Apple (por ejemplo, iPhone, iPad) y la aplicación Skype empresarial.
+   - **Habilitar la** notificación de inserción de Apple habilitará la notificación de inserción al PNCH de Apple para dispositivos que ejecutan iOS de Apple (por ejemplo, iPhone, iPad) y usan la aplicación skype empresarial
     
-3. Una vez editada la directiva, haga clic en **Confirmar** para guardar los cambios. Si prefiere eliminar los cambios realizados, seleccione **Cancelar**. No se guardará ningún cambio en la directiva.
+3. Una vez editada la directiva, haga clic en **Confirmar** para guardar los cambios. Si necesita eliminar los cambios realizados, seleccione **Cancelar**. No se guardará ningún cambio en la directiva.
     
 

@@ -1,8 +1,8 @@
 ---
 title: Directiva de conferencia
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,69 +14,69 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
-description: La Directiva de conferencia define las características y capacidades que los usuarios tienen disponibles durante una conferencia (también conocido como reunión).
-ms.openlocfilehash: 7ff058057300dfa21013f3f6bf3784ab64d5032f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La directiva de conferencias define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también denominada "reunión")
+ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823033"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807400"
 ---
-# <a name="conferencing-policy"></a>Directiva de conferencia
+# <a name="conferencing-policy"></a>Directiva de conferencias
 
-La Directiva de conferencia define las características y capacidades que los usuarios tienen disponibles durante una conferencia (también conocido como reunión).
+La directiva de conferencias define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también denominada "reunión")
 
-Las directivas de Conferencia incluyen la directiva global y, opcionalmente, una o varias directivas de sitio y usuario:
+Las directivas de conferencia incluyen la directiva global y, de forma opcional, una o varias directivas de usuario y de sitio:
 
-- **Directiva global:** La directiva global se crea de forma predeterminada. Puede editar la directiva global, pero no puede eliminarla. Si intenta quitar la directiva global, todos los valores de configuración se restablecen a los valores predeterminados.
+- **Directiva global:** La directiva global se crea de forma predeterminada. Puede editar la directiva global, pero no puede eliminarla. Si intenta eliminarla, toda la configuración se restablecerá a los valores predeterminados.
 
-- **Directivas de sitio (opcional):** Puede crear una o más directivas de conferencia de sitios, cada una de las cuales se aplica a un sitio específico. Las directivas de sitio invalidan la directiva global.
+- **Directivas de sitio (opcional):** Puede crear una o varias directivas de conferencia de sitio, cada una de las cuales se aplica a un sitio específico. Las directivas de sitio anulan la directiva global.
 
-- **Directivas de usuario (opcional):** Puede crear una o más directivas de conferencia de usuario, cada una de las cuales se aplica a un usuario específico o a un grupo de usuarios. Las directivas de usuario invalidan la directiva global y las directivas del sitio.
+- **Directivas de usuario (opcional):** Puede crear una o más directivas de conferencia de usuario, cada una de las cuales se aplica a un usuario o grupo de usuarios específicos. Las directivas de usuario anulan la directiva global y las directivas de sitio.
 
-En la página **Directiva de conferencia** se muestra una lista de todas las directivas de conferencia definidas para su organización.
+La página **Directiva de conferencia** muestra una lista de todas las directivas de conferencia definidas para su organización.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-En la página **Directiva de ubicación** puede realizar las siguientes tareas:
+Puede realizar las siguientes tareas desde la página **Directiva de ubicación**:
 
-- Crear una nueva Directiva de conferencia de sitio o una directiva de conferencia de usuario
+- Crear una nueva directiva de conferencia de sitio o de conferencia de usuario
 
 - Cambiar la directiva global o una directiva de sitio o de usuario existente
 
 - Eliminar una directiva de sitio o de usuario
 
-## <a name="ui-reference"></a>Referencia de interfaz de usuario
+## <a name="ui-reference"></a>Referencia de la interfaz de usuario
 
 En la siguiente lista se describen los comandos de la página.
 
-- **Nuevo** Inicia una nueva Directiva de conferencia de sitio o una directiva de conferencia de usuario.
+- **Nuevo** Inicia una nueva directiva de conferencia de sitio o de conferencia de usuario.
 
-- **Editar** Abre la Directiva de conferencia seleccionada para modificarla, selecciona todas las directivas de conferencia de la lista o elimina la Directiva del sitio o la Directiva de usuario seleccionada.
+- **Editar** Abre la directiva de conferencia seleccionada para editarla, selecciona todas las directivas de conferencia de la lista o elimina la directiva de sitio o de usuario seleccionada.
 
     > [!NOTE]
-    > En el caso de la directiva global, con **Eliminar** se restablece la configuración a los valores predeterminados.
+    > Para la directiva global, **Eliminar** restablece la configuración a los valores predeterminados.
 
 - **Actualizar** Actualiza la lista de directivas de conferencia.
 
 En la siguiente lista se describen los campos de la página.
 
-- **Nombre** Identifica la Directiva de conferencia.
+- **Nombre** Identifica la directiva de conferencia.
 
-- **Ámbito** Identifica el ámbito de la Directiva de Conferencia: global, de sitio o de usuario.
+- **Ámbito** Identifica el ámbito de la directiva de conferencia: global, de sitio o de usuario.
 
-- **Colaboración de datos** Se activa si la Directiva de conferencia especifica que se permite la colaboración de datos en conferencias.
+- **Colaboración de datos** Se comprueba si la directiva de conferencia especifica que se permite la colaboración de datos en conferencias.
 
-- **Uso compartido de aplicaciones** Se activa si la Directiva de conferencia especifica que se permite el uso compartido de aplicaciones en conferencias.
+- **Uso compartido de aplicaciones** Se comprueba si la directiva de conferencia especifica que se permite el uso compartido de aplicaciones en conferencias.
 
-- **Audio** Se activa si la Directiva de conferencia especifica que se permite el audio en las conferencias.
+- **Audio** Se comprueba si la directiva de conferencia especifica que el audio está permitido en las conferencias.
 
-- **Vídeo** Se activa si la Directiva de conferencia especifica que se permite el vídeo en las conferencias.
+- **Vídeo** Se comprueba si la directiva de conferencia especifica que se permite el vídeo en conferencias.
 
-- **RTC** Se activa si la Directiva de conferencia especifica que se permiten las conferencias de acceso telefónico local RTC.
+- **RTC** Se comprueba si la directiva de conferencia especifica que se permite la conferencia de acceso telefónico local RTC.
 
-- **Grabación** Se activa si la Directiva de conferencia especifica que la grabación está permitida en las conferencias.
+- **Grabación** Se comprueba si la directiva de conferencia especifica que se permite la grabación en conferencias.
 
-Para más detalles sobre las características y capacidades de la conferencia, mire [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) en la documentación de planeación. Para más detalles sobre cómo trabajar con directivas de conferencias, mire [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) en la documentación de operaciones.
+Para obtener detalles sobre las características y capacidades de la conferencia, vea [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) en la documentación de planeación. Para obtener detalles sobre cómo trabajar con directivas de conferencias, vea [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) en la documentación de operaciones.
 
 

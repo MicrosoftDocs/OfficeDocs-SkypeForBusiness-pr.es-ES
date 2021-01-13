@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de tronco
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,37 +14,37 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
-ms.openlocfilehash: 97c1578418fdf46ad39256312d7aa15abd44ff84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
+ms.openlocfilehash: 43cce7d0e61cf2e2c4f5fa6e4bcb845fd63fbc03
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797411"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807540"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
 
-Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:
+Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:
 
- **Nombre de tronco** es una entrada obligatoria e identifica de manera exclusiva el tronco SIP en la implementación.
+ **Nombre del tronco** es una entrada obligatoria e identifica de manera exclusiva el tronco SIP en la implementación.
 
- **Puerta de enlace RTC asociada**: seleccione una puerta de enlace RTC que se haya definido en la implementación.
+ **Puerta de enlace RTC asociada**: seleccione una puerta de enlace RTC que se haya definido en la implementación.
 
- **Puerto de escucha para la puerta de enlace IP/RTC**: indica qué puerto TCP/IP usará la puerta de enlace para escuchar solicitudes. El valor predeterminado es el puerto 5067, si bien este puede variar según el proveedor de la puerta de enlace.
+ **Puerto de escucha de la puerta de enlace IP/RTC**: indica qué puerto TCP/IP usará la puerta de enlace para escuchar solicitudes. El valor puede variar según el proveedor de la puerta de enlace; sin embargo, el valor predeterminado es el puerto 5067.
 
- **Protocolo de transporte SIP**: el protocolo usado puede ser TCP o TLS. TLS es el valor predeterminado. Consulte la documentación del proveedor de la puerta de enlace para obtener información sobre la compatibilidad de la puerta de enlace. El valor predeterminado es TLS; si la puerta de enlace admite TLS, en principio es la opción más segura.
+ **Protocolo de transporte SIP**: el protocolo usado puede ser TCP o TLS. TLS es el valor predeterminado. Consulte la documentación del proveedor de la puerta de enlace para obtener información sobre la compatibilidad de la puerta de enlace. El valor predeterminado es TLS; si la puerta de enlace admite TLS, en principio es la opción más segura.
 
- **Servidor de mediación asociado**: Seleccione un servidor de mediación existente de la implementación para asociarlo con el tronco del SIP.
+ **Servidor de mediación asociado:** seleccione un servidor de mediación existente de la implementación para asociarlo con el tronco SIP.
 
 > [!NOTE]
-> Solo se puede asociar el tronco raíz con un servidor de mediación.
+> Solo el tronco raíz se puede asociar a un servidor de mediación.
 
- **Puerto de servidor de mediación asociado**: un valor obligatorio, se establece en el valor en el que el servidor de mediación está configurado para escuchar.
+ **Puerto del servidor de mediación** asociado: un valor necesario, que se establece en el valor en el que el servidor de mediación está configurado para escuchar.
 
 ![Expansor de configuración de tronco](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Vea también
 
-[Lista de comprobación de implementación de Troncalización SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Lista de comprobación de implementación de enlace troncal SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 
-[Componentes y topologías para Troncalización SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Componentes y topologías del tronco SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)

@@ -1,8 +1,8 @@
 ---
-title: Administrar la autenticación en dos fases en Skype empresarial Server
+title: Administrar la autenticación en dos fases en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,74 +12,74 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: 'Resumen: administre la autenticación en dos fases en Skype empresarial Server.'
-ms.openlocfilehash: 90dc286e247c0c6eeb75bb884071b85e57663278
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: administre la autenticación en dos fases en Skype Empresarial Server.'
+ms.openlocfilehash: 415eb23779450bc09cdaa25ea2e60b6cf3526e40
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818722"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806550"
 ---
-# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Administrar la autenticación en dos fases en Skype empresarial Server
+# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Administrar la autenticación en dos fases en Skype Empresarial Server
  
-**Resumen:** Administrar la autenticación en dos fases en Skype empresarial Server.
+**Resumen:** Administrar la autenticación en dos fases en Skype Empresarial Server.
   
-La autenticación en dos fases proporciona seguridad mejorada al exigir a los usuarios que proporcionen dos formas de autenticación o identificación, específicamente una combinación de nombre de usuario/contraseña y un token o certificado. Esto también se conoce como "algo que tienes, algo que conoces". 
+La autenticación en dos fases proporciona una seguridad mejorada al requerir que los usuarios proporcionen dos formas de autenticación o identificación, es decir, una combinación de nombre de usuario y contraseña y un token o certificado. Esto también se conoce como "algo que tienes, algo que sabes". 
   
-Un ejemplo típico de autenticación en dos fases con un certificado es el uso de tarjetas inteligentes. Una tarjeta inteligente contiene un certificado asociado con la cuenta del usuario y se puede validar con información de certificado y usuario almacenada en un servidor. Al comparar la información del usuario (nombre de usuario y contraseña) con el certificado proporcionado, el servidor valida las credenciales y autentica al usuario.
+Un ejemplo típico de autenticación en dos fases con un certificado es el uso de tarjetas inteligentes. Una tarjeta inteligente contiene un certificado asociado a la cuenta de usuario y se puede validar con la información de usuario y certificado almacenada en un servidor. Al comparar la información de usuario (nombre de usuario y contraseña) con el certificado proporcionado, el servidor valida las credenciales y autentica al usuario.
   
-Tenga en cuenta lo siguiente cuando configure un entorno de Skype empresarial Server para que admita la autenticación en dos fases.
+Tenga en cuenta los siguientes temas al configurar un entorno de Skype Empresarial Server para admitir la autenticación en dos fases.
   
 ## <a name="client-support"></a>Compatibilidad con clientes
 
-Las actualizaciones acumulativas para Lync Server 2013: el cliente de escritorio de julio de 2013 y el cliente de Skype empresarial son los únicos clientes que admiten actualmente la autenticación de dos factores.
+Las actualizaciones acumulativas para Lync Server 2013: el cliente de escritorio de julio de 2013 y el cliente de Skype Empresarial son los únicos clientes que admiten actualmente la autenticación en dos fases.
   
 ## <a name="topology-requirements"></a>Requisitos de topología
 
-Se recomienda a los clientes implementar la autenticación en dos fases con un servidor dedicado de Skype empresarial con las agrupaciones de Edge, director y usuario. Para habilitar la autenticación pasiva para los usuarios, se necesitan deshabilitar los demás métodos de autenticación para otros roles y servicios, incluidos los siguientes:
+Se recomienda encarecidamente a los clientes implementar la autenticación en dos fases con Skype Empresarial Server dedicado con grupos de servidores perimetrales, directores y usuarios. Para habilitar la autenticación pasiva para los usuarios, deben deshabilitarse otros métodos de autenticación para otros roles y servicios, incluidos los siguientes:
   
-|**Tipo de configuración**|**Tipo de servicio**|**Rol de servidor**|**Tipo de autenticación para deshabilitar**|
+|**Tipo de configuración**|**Tipo de servicio**|**Rol del servidor**|**Tipo de autenticación que se deshabilitará**|
 |:-----|:-----|:-----|:-----|
-|Servicio web  <br/> |WebServer  <br/> |Director  <br/> |Kerberos, NTLM y certificado  <br/> |
-|Servicio web  <br/> |WebServer  <br/> |Front-end  <br/> |Kerberos, NTLM y certificado  <br/> |
-|Proxy  <br/> |EdgeServer  <br/> |Perimetral  <br/> |Kerberos y NTLM  <br/> |
+|Servicio Web  <br/> |WebServer  <br/> |Director  <br/> |Kerberos, NTLM y certificado  <br/> |
+|Servicio Web  <br/> |WebServer  <br/> |Front-end  <br/> |Kerberos, NTLM y certificado  <br/> |
+|Proxy  <br/> |EdgeServer  <br/> |Microsoft Edge  <br/> |Kerberos y NTLM  <br/> |
 |Proxy  <br/> |Registrador  <br/> |Front-end  <br/> |Kerberos y NTLM  <br/> |
    
-A menos que estos tipos de autenticación se deshabiliten en el nivel de servicio, ninguna de las demás versiones del cliente podrá iniciar sesión correctamente una vez que la autenticación en dos fases esté habilitada dentro de la implementación.
+A menos que estos tipos de autenticación estén deshabilitados en el nivel de servicio, todas las demás versiones del cliente no podrán iniciar sesión correctamente una vez habilitada la autenticación en dos fases en la implementación.
   
-## <a name="skype-for-business-service-discovery"></a>Detección de servicios de Skype Empresarial
+## <a name="skype-for-business-service-discovery"></a>Detección de servicio de Skype Empresarial
 
-Los registros DNS usados por clientes internos o externos para descubrir servicios de Skype empresarial se deben configurar para que se resuelvan en un servidor de Skype empresarial que no esté habilitado para la autenticación en dos fases. Con esta configuración, los usuarios de grupos de Skype para empresas que no estén habilitados para la autenticación de dos factores no tendrán que introducir un PIN para autenticar, mientras que los usuarios de los grupos de Skype empresarial habilitados para la autenticación en dos fases se necesario para introducir su PIN para autenticar.
+Los registros DNS usados por clientes internos o externos para detectar los servicios de Skype Empresarial deben configurarse para resolverse en un servidor de Skype Empresarial que no esté habilitado para la autenticación en dos fases. Con esta configuración, los usuarios de los grupos de Skype Empresarial que no estén habilitados para la autenticación en dos fases no tendrán que escribir un PIN para autenticarse, mientras que los usuarios de los grupos de Skype Empresarial habilitados para la autenticación en dos fases tendrán que escribir su PIN para autenticarse.
   
 ## <a name="exchange-authentication"></a>Autenticación de Exchange
 
-Es posible que los clientes que hayan implementado la autenticación en dos fases de Microsoft Exchange no encuentren disponibles determinadas características del cliente. Esto se ha hecho por diseño, ya que el cliente de Skype empresarial no admite la autenticación en dos fases para características que dependen de la integración de Exchange.
+Los clientes que han implementado la autenticación en dos fases para Microsoft Exchange pueden encontrar que ciertas características del cliente no están disponibles. Esto es actualmente por diseño, ya que el cliente de Skype Empresarial no admite la autenticación en dos fases para las características que dependen de la integración de Exchange.
   
 ## <a name="contacts"></a>Contactos
 
-Los usuarios de Skype empresarial que estén configurados para aprovechar la característica de almacenamiento de contactos unificado encontrarán que sus contactos ya no están disponibles después de iniciar sesión con la autenticación en dos fases.
+Los usuarios de Skype Empresarial que estén configurados para aprovechar la característica Almacén de contactos unificados verán que sus contactos ya no están disponibles después de iniciar sesión con la autenticación en dos fases.
   
-Debe usar el cmdlet **Invoke-CsUcsRollback** para quitar los contactos de usuario existentes del almacén de contactos unificado y almacenarlos en Skype empresarial Server antes de habilitar la autenticación en dos fases.
+Debe usar el cmdlet **Invoke-CsUcsRollback** para quitar contactos de usuario existentes del almacén de contactos unificados y almacenarlos en Skype Empresarial Server antes de habilitar la autenticación en dos fases.
   
 ## <a name="skill-search"></a>Búsqueda de aptitudes
 
-Los clientes que hayan configurado la característica de búsqueda de aptitudes en su entorno de Skype empresarial encontrarán que esta característica no funciona cuando Skype empresarial está habilitado para la autenticación en dos fases. Esto sucede por diseño, ya que Microsoft SharePoint no admite actualmente la autenticación en dos fases.
+Los clientes que han configurado la característica de búsqueda de aptitudes en su entorno de Skype Empresarial verán que esta característica no funciona cuando Skype Empresarial está habilitado para la autenticación en dos fases. Esto es por diseño, ya que Microsoft SharePoint no admite actualmente la autenticación en dos fases.
   
 ## <a name="credentials"></a>Credenciales
 
-Existen diversas consideraciones de implementación que afectan a las credenciales de Skype empresarial guardadas, que pueden afectar a los usuarios que están configurados para usar la autenticación en dos fases.
+Hay una serie de consideraciones de implementación relacionadas con las credenciales guardadas de Skype Empresarial que pueden afectar a los usuarios que están configurados para usar la autenticación en dos fases.
   
 ### <a name="deleting-saved-credentials"></a>Eliminación de credenciales guardadas
 
-Los usuarios deben usar la opción **eliminar mi información de inicio de sesión** en el cliente de Skype empresarial y eliminar su carpeta de perfil SIP de%LocalAppData%\Microsoft\Office\15.0\Skype para empresas antes de intentar iniciar sesión por primera vez con la autenticación en dos fases.
+Los usuarios  deben usar la opción Eliminar mi información de inicio de sesión en el cliente de Skype Empresarial y eliminar su carpeta de perfil SIP de %localappdata%\Microsoft\Office\15.0\Skype Empresarial antes de intentar iniciar sesión por primera vez mediante la autenticación en dos fases.
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-Con el método de autenticación Kerberos o NTLM, las credenciales de Windows del usuario se usan automáticamente para la autenticación. En una implementación típica de Skype empresarial Server donde se habilita Kerberos o NTLM para la autenticación, los usuarios no deben especificar sus credenciales cada vez que inicien sesión.
+Con el método de autenticación Kerberos o NTLM, las credenciales de Windows del usuario se usan automáticamente para la autenticación. En una implementación típica de Skype Empresarial Server en la que Kerberos o NTLM están habilitados para la autenticación, los usuarios no deben tener que escribir sus credenciales cada vez que inician sesión.
   
-Si se les solicitan de manera no intencionada las credenciales a los usuarios antes de que se les pida especificar su PIN, la clave del Registro **DisableNTCredentials** puede configurarse de manera no intencionada en los equipos cliente, posiblemente a través de la directiva de grupo.
+Si se piden credenciales a los usuarios sin especificar antes de que se les pida que escriban su PIN, es posible que la clave del Registro **DisableNTCredentials** esté configurada de forma involuntarla en los equipos cliente, posiblemente a través de la directiva de grupo.
   
-Para evitar la solicitud de credenciales adicionales, cree la siguiente entrada de registro en la estación de trabajo local o use la plantilla administrativa de Skype empresarial para aplicar a todos los usuarios de un grupo determinado mediante una directiva de Grupo:
+Para evitar la solicitud adicional de credenciales, cree la siguiente entrada del Registro en la estación de trabajo local o use la plantilla administrativa de Skype Empresarial para aplicar a todos los usuarios de un grupo determinado mediante la directiva de grupo:
   
     HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
@@ -89,9 +89,9 @@ Para evitar la solicitud de credenciales adicionales, cree la siguiente entrada 
   
 ### <a name="savepassword"></a>SavePassword
 
-Cuando un usuario inicia sesión en Skype empresarial por primera vez, se le pide al usuario que guarde su contraseña. Si se selecciona, esta opción permite que el certificado de cliente del usuario se almacene en el almacén de certificados personales y las credenciales de Windows del usuario para que se almacenen en el administrador de credenciales del equipo local.
+Cuando un usuario inicia sesión en Skype Empresarial por primera vez, se le pide que guarde su contraseña. Si se selecciona, esta opción permite que el certificado de cliente del usuario se almacene en el almacén de certificados personales y que las credenciales de Windows del usuario se almacenen en el Administrador de credenciales del equipo local.
   
-La configuración del registro **SavePassword** debe estar deshabilitada cuando Skype empresarial está configurado para admitir la autenticación en dos fases. Para impedir que los usuarios guarden sus contraseñas, cambie la siguiente entrada del registro en la estación de trabajo local o use la plantilla administrativa de Skype empresarial para aplicar a todos los usuarios de un grupo determinado mediante una directiva de Grupo:
+La configuración del Registro **SavePassword** debe deshabilitarse cuando Skype Empresarial está configurado para admitir la autenticación en dos fases. Para evitar que los usuarios guarden sus contraseñas, cambie la siguiente entrada del Registro en la estación de trabajo local o use la plantilla administrativa de Skype Empresarial para aplicar a todos los usuarios de un grupo determinado mediante la directiva de grupo:
   
     HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
@@ -101,15 +101,15 @@ La configuración del registro **SavePassword** debe estar deshabilitada cuando 
   
 ## <a name="ad-fs-20-token-replay"></a>Reproducción de tokens de AD FS 2.0
 
-AD FS 2.0 proporciona una característica que se conoce como detección de reproducción de tokens, con la cual varias solicitudes de tokens que usan el mismo token se pueden detectar y descartar. Cuando esta característica está habilitada, la detección de reproducción de tokens protege la integridad de las solicitudes de autenticación en el perfil pasivo de la federación WS y el perfil de SAML WebSSO asegurándose de que el mismo token nunca se use más de una vez.
+AD FS 2.0 proporciona una característica denominada detección de reproducción de tokens, mediante la cual se pueden detectar y descartar varias solicitudes de token que usan el mismo token. Cuando esta característica está habilitada, la detección de reproducción de tokens protege la integridad de las solicitudes de autenticación tanto en el perfil pasivo de WS-Federation como en el perfil webSSO de SAML al asegurarse de que el mismo token nunca se usa más de una vez.
   
-Esta característica necesita habilitarse en situaciones donde la seguridad es extremadamente preocupante como cuando se usan quioscos. Para obtener más información sobre la detección de reproducción de tokens, vea [procedimientos recomendados para la planeación y la implementación de AD FS 2,0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+Esta característica debe habilitarse en situaciones en las que la seguridad es una preocupación muy alta, como cuando se usan quioscos. Para obtener más información acerca de la detección de reproducción de tokens, vea Procedimientos recomendados para la planeación e implementación seguras de [AD FS 2.0.](https://go.microsoft.com/fwlink/p/?LinkId=309215)
   
 ## <a name="external-user-access"></a>Acceso de usuarios externos
 
-En estos temas no se aborda la configuración de un proxy de ADFS o proxy inverso para admitir la autenticación de dos factores de Skype empresarial desde redes externas.
+La configuración de un proxy ADFS o proxy inverso para admitir la autenticación en dos fases de Skype Empresarial desde redes externas no se trata en estos temas.
   
 ## <a name="see-also"></a>Vea también
 
-[Configurar la autenticación en dos fases en Skype empresarial Server](configure-two-factor.md)
+[Configurar la autenticación en dos fases en Skype Empresarial Server](configure-two-factor.md)
   

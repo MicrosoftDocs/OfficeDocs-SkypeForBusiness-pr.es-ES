@@ -1,8 +1,8 @@
 ---
-title: Configurar varios números de emergencia en Skype empresarial
+title: Configurar varios números de emergencia en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,34 +14,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: Lea este tema para obtener información sobre cómo configurar varios números de emergencia en Skype empresarial Server.
-ms.openlocfilehash: 81d3dbed919c936eb8a656d123f5c44e445044d7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Lea este tema para obtener información sobre cómo configurar varios números de emergencia en Skype Empresarial Server.
+ms.openlocfilehash: fe53e914eb0c406a4f7013df2f6ec106fa781f56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027801"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804110"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurar varios números de emergencia en Skype empresarial
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurar varios números de emergencia en Skype Empresarial
 
-Lea este tema para obtener información sobre cómo configurar varios números de emergencia en Skype empresarial Server.
+Lea este tema para obtener información sobre cómo configurar varios números de emergencia en Skype Empresarial Server.
 
-Skype empresarial Server ahora admite varios números de emergencia para un cliente. Varios números de emergencia son una nueva característica que se presenta en la actualización acumulativa de junio de 2016. Antes de configurar el entorno para que admita varios números de emergencia, asegúrese de leer [plan de varios números de emergencia en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
+Skype Empresarial Server ahora admite varios números de emergencia para un cliente. Varios números de emergencia es una nueva característica introducida en la actualización acumulativa de junio de 2016. Antes de configurar el entorno para admitir varios números de emergencia, asegúrese de leer Plan para varios números de emergencia [en Skype Empresarial Server.](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
 
 > [!NOTE]
-> Si aún no ha actualizado a la actualización acumulativa de noviembre de 2016, consulte [actualizaciones para Skype empresarial Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). Con la actualización acumulativa de noviembre de 2016, el número de números de emergencia de soporte aumenta de 5 a 100.
+> Si aún no ha actualizado a la actualización acumulativa de noviembre de 2016, consulte Actualizaciones de [Skype Empresarial Server 2015.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) Con la actualización acumulativa de noviembre de 2016, el número de números de emergencia de soporte técnico aumenta de 5 a 100.
 
 ## <a name="configure-multiple-emergency-numbers"></a>Configurar varios números de emergencia
 
-Para configurar varios números de emergencia, use el cmdlet New-CsEmergencyNumber y, a continuación, especifique el parámetro EmergencyNumbers con los cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) y [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) . Para obtener una descripción completa de todos los parámetros de la Directiva de ubicación, como uso de RTC y ubicación necesaria, consulte [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
+Para configurar varios números de emergencia, use el cmdlet New-CsEmergencyNumber y, a continuación, especifique el parámetro EmergencyNumbers con los cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) y [Set-CsLocationPolicy.](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Para obtener una descripción completa de todos los parámetros de directiva de ubicación, como el uso de RTC y la ubicación necesaria, consulte [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
 
-El siguiente comando crea un nuevo número de emergencia con la cadena de marcado 911 mediante el cmdlet New-CsEmergency:
+El siguiente comando crea un nuevo número de emergencia con la cadena de marcado 911 mediante el cmdlet New-CsEmergency siguiente:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911
 ```
 
-El comando siguiente asocia el número con la Directiva de ubicación especificada especificando el parámetro EmergencyNumbers en el cmdlet Set-CsLocationPolicy:
+El siguiente comando asocia el número con la directiva de ubicación especificada especificando el parámetro EmergencyNumbers en el cmdlet Set-CsLocationPolicy siguiente:
 
 ```powershell
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a}
@@ -59,7 +59,7 @@ El siguiente comando crea un número de emergencia con varias máscaras de marca
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 ```
 
-En el siguiente ejemplo se agregan varios números de emergencia con varias máscaras de marcado y, a continuación, se asocian los números de emergencia con la Directiva de ubicación especificada:
+En el siguiente ejemplo se agregan varios números de emergencia con varias máscaras de marcado y, a continuación, se asocian los números de emergencia con la directiva de ubicación especificada:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
@@ -67,7 +67,7 @@ En el siguiente ejemplo se agregan varios números de emergencia con varias más
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b}
 ```
 
-El siguiente ejemplo configura varios números de emergencia para proveedores de servicios de salud que usan tanto 911 como 450:
+En el siguiente ejemplo se configuran varios números de emergencia para los proveedores de servicios de salud que usan tanto el 911 como el 450:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911
@@ -75,7 +75,7 @@ El siguiente ejemplo configura varios números de emergencia para proveedores de
 > Set-CsLocationPolicy -Identity US-Hospital -EmergencyNumbers @{add=$a,$b}
 ```
 
-El siguiente ejemplo configura varios números de emergencia para la ciudad de Londres:
+En el siguiente ejemplo se configuran varios números de emergencia para la ciudad de Londres:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 999 -DialMask 144
@@ -83,7 +83,7 @@ El siguiente ejemplo configura varios números de emergencia para la ciudad de L
 > Set-CsLocationPolicy -Identity London -EmergencyNumbers @{add=$a,$b}
 ```
 
-El siguiente ejemplo configura varios números de emergencia para la India:
+En el siguiente ejemplo se configuran varios números de emergencia para India:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 100 -DialMask 911
@@ -92,7 +92,7 @@ El siguiente ejemplo configura varios números de emergencia para la India:
 > Set-CsLocationPolicy -Identity India -EmergencyNumbers @{add=$a,$b,$c}
 ```
 
-El siguiente ejemplo quita una entrada existente con la cadena de marcado 911 y las máscaras de marcado 112 y 999:
+En el siguiente ejemplo se quita una entrada existente con la cadena de marcado 911 y las máscaras de marcado 112 y 999:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999

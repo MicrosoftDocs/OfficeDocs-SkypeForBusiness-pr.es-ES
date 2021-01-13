@@ -1,8 +1,8 @@
 ---
-title: Política de uso de voz
+title: Directiva de uso de voz
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
-description: Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte Manage Skype empresarial Server 2015.
-ms.openlocfilehash: e1b481b0aff985d5113ef5a3f804a874d43efb1c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para obtener más información sobre los distintos procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial Server 2015.
+ms.openlocfilehash: b6ea85ce35de45c56cc9387609678e71e1f992b3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821622"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807160"
 ---
 # <a name="voice-usage-policy"></a>Política de uso de voz
  
-Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).
+Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
   
 

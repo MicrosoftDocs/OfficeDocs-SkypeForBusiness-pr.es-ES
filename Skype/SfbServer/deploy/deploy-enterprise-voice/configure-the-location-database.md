@@ -1,8 +1,8 @@
 ---
-title: Configurar la base de datos de ubicación en Skype empresarial Server
+title: Configurar la base de datos de ubicación en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,44 +15,44 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configurar, rellenar y publicar la base de datos de ubicaciones E9-1-1 en Skype empresarial Enterprise Voice.
-ms.openlocfilehash: 4b8848637130886250d08847c45df3c2dc080f5b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Configure, rellene y publique la base de datos de ubicación E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768113"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804090"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar la base de datos de ubicación en Skype empresarial Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar la base de datos de ubicación en Skype Empresarial Server
  
-Configurar, rellenar y publicar la base de datos de ubicaciones E9-1-1 en Skype empresarial Enterprise Voice. 
+Configure, rellene y publique la base de datos de ubicación E9-1-1 en Skype Empresarial Server Telefonía IP empresarial. 
   
 Para habilitar clientes de modo que detecten automáticamente su ubicación dentro de una red, primero tiene que configurar la base de datos de ubicaciones. 
   
-Para configurar la base de datos de ubicaciones, deberá realizar las siguientes tareas:
+Para configurar la base de datos de ubicación, realice las siguientes tareas:
   
-- Llene la base de datos con una búsqueda de elementos de red a las ubicaciones. Si usa una puerta de enlace de número de identificación de ubicación de emergencia (ELIN), tendrá que incluir \<la\> Elin en el campo NombreCompañía.
+- Rellene la base de datos con asignaciones de elementos de red a ubicaciones. Si usa una puerta de enlace de número de identificación de ubicación de emergencia (ELIN), debe incluir el ELIN en el \<CompanyName\> campo.
     
     Si no rellena la base de datos de ubicaciones y el valor de **Ubicación obligatoria** de la directiva de ubicación se define en **Sí** o **Declinación de responsabilidades**, el cliente indicará al usuario que especifique una ubicación manualmente.
     
-- Valide las direcciones comparándolas con la Guía de calles maestra (MSAG) mantenida por el proveedor de servicios E9-1-1.
+- Validar las direcciones comparándolas con la Guía de calles maestra (MSAG) mantenida por el proveedor de servicios E9-1-1.
     
-- Publique la base de datos actualizada.
+- Publicar la base de datos actualizada.
     
 ## <a name="populate-the-location-database"></a>Rellenar la base de datos de ubicación
 
-Para buscar clientes en una red de manera automática, primero es preciso rellenar la base de datos de ubicaciones con un diagrama de cableado de red, que asigna elementos de red a direcciones postales. Para definir el diagrama de cableado, puede usar subredes, puntos de acceso inalámbrico, conmutadores y puertos.
+Para buscar clientes en una red de manera automática, primero es preciso rellenar la base de datos de ubicaciones con un diagrama de cableado de red, del cual asigna elementos de red a direcciones postales. Para definir el diagrama de cableado puede usar subredes, puntos de acceso inalámbrico, conmutadores y puertos.
   
-Puede agregar direcciones a la base de datos de ubicaciones una a una, pero también puede incorporar varias de ellas a la vez mediante un archivo .csv con los formatos de columna que se describen en la tabla siguiente.
+Puede agregar direcciones a la base de datos de ubicaciones una a una, pero también puede incorporar varias de ellas a la vez mediante un archivo en formato .csv con los formatos de columna que se describen en la tabla siguiente.
   
 Si utiliza una puerta de enlace de Número de identificación de ubicación de emergencia (ELIN), incluya el ELIN en el campo **CompanyName** de cada ubicación. Puede incluir varios ELIN para cada ubicación, separándolos por un punto y coma.
   
 |**Elemento de red**|**Columnas obligatorias**|
 |:-----|:-----|
-|**Punto de acceso inalámbrico** <br/> |\<BSSID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
-|**Subred** <br/> |\<Subred\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
-|**Puerto** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ... \<Predireccionales\>,\<StreetName\>,\<StreetSuffix\>,\<posdireccionales\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
-|**Conmutador** <br/> |\<ChassisID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
+|**Punto de acceso inalámbrico** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Subred** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Para agregar elementos de red a la base de datos de ubicaciones
 
@@ -120,16 +120,16 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar direcciones ubicadas en la base de datos de ubicaciones
 
-1.  Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1.  Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
-2. Ejecute los cmdlets siguientes para configurar la conexión de proveedor de servicios de emergencia.
+2. Para configurar la conexión de proveedor de servicios de emergencia, ejecute los siguientes cmdlets.
     
    ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
-3. Ejecute el cmdlet siguiente para validar las direcciones en la base de datos de ubicaciones.
+3. Para validar las direcciones en la base de datos de ubicaciones, ejecute el siguiente cmdlet.
     
    ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
@@ -139,13 +139,13 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
     
 ## <a name="publish-the-location-database"></a>Publicar la base de datos de ubicación
 
-Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente hasta que no se publiquen.
+Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente mientras no se hayan publicado.
   
-Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para obtener más información al respecto. Puede exportar los registros de la base de datos de servicios de información de ubicación y darles formato según sea necesario.
+Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para más información. Puede exportar los registros de la base de datos del servicio de información de ubicación y dar formato según sea necesario.
   
 ### <a name="to-publish-the-location-database"></a>Para publicar la base de datos de ubicaciones
 
--  Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+-  Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 - Ejecute el cmdlet siguiente para publicar la base de datos de ubicaciones.
     

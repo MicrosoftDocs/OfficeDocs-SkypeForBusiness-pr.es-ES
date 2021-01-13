@@ -1,8 +1,8 @@
 ---
-title: Los usuarios ven el estado de PIN
+title: Usuarios ver el estado del PIN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 0f4d30860560150d3988a85dffafcd0c85e5f9c3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: 06a9fbf6411747c43213a5490fde3358ed6e798c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797917"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808080"
 ---
 # <a name="users-view-pin-status"></a>Usuarios: Ver estado de PIN
  
-¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
+¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
   
-- [Configurar el PIN de conferencias de acceso telefónico local de un usuario en Skype empresarial Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [Establecer el PIN de conferencia de acceso telefónico local de un usuario en Skype Empresarial Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

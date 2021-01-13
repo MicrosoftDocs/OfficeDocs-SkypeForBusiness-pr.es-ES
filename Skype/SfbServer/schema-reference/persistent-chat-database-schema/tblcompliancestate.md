@@ -1,8 +1,8 @@
 ---
 title: tblComplianceState
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-description: tblComplianceState contiene información de estado de cumplimiento para todo el grupo.
-ms.openlocfilehash: 6f3a7b1b7744260d0630a5328021b1752137a797
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblComplianceState contiene información de estado de cumplimiento sobre todo el grupo de servidores.
+ms.openlocfilehash: 82c775b315976b0e5b112c476a41a8f5adc6a24c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814638"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809730"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
-tblComplianceState contiene información de estado de cumplimiento para todo el grupo.
+tblComplianceState contiene información de estado de cumplimiento sobre todo el grupo de servidores.
   
-**Columnas**
+**Columns**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|lastProcessedEntryID  <br/> |BIGINT, not null  <br/> |IDENTIFICADOR del último evento de cumplimiento procesado.  <br/> |
-|activeServerID  <br/> |int, not null  <br/> |IDENTIFICADOR del servidor de cumplimiento que contiene el bloqueo exclusivo de la base de datos, o bien-1 si no hay ninguno.  <br/> |
-|lockExpirationTime  <br/> |datetime2, not null  <br/> |Fecha de expiración de bloqueo (si activeServerID no es-1).  <br/> |
+|lastProcessedEntryID  <br/> |bigint, no NULL  <br/> |ID del último evento de cumplimiento procesado.  <br/> |
+|activeServerID  <br/> |int, no NULL  <br/> |Identificador del servidor de cumplimiento que contiene el bloqueo exclusivo en la base de datos o, si no lo hay, -1.  <br/> |
+|lockExpirationTime  <br/> |datetime2, not null  <br/> |Fecha y hora de expiración del bloqueo (si activeServerID no es -1).  <br/> |
    
 

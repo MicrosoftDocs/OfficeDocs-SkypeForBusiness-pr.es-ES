@@ -1,8 +1,8 @@
 ---
 title: Página principal de categoría de chat persistente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,70 +14,70 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
-description: Puede usar la sección Categoría de la página Chat persistente para configurar categorías. Una categoría de salón de chat persistente es una estructura lógica para organizar salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que se pueden crear o unir a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
-ms.openlocfilehash: 939686f92505e8b1fd51c6e96f8b126438003d84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Puede usar la sección Categoría de la página chat persistente para configurar categorías. Una categoría de salón de chat persistente es una estructura lógica para organizar los salón de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que pueden crear o unirse a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
+ms.openlocfilehash: 18456a5f0b58939acfe994180765fffd6fc3a0f1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822563"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807300"
 ---
 # <a name="persistent-chat-category-main-page"></a>Página principal de categoría de chat persistente
  
-Puede usar la sección **Categoría** de la página **Chat persistente** para configurar categorías. Una categoría de salón de chat persistente es una estructura lógica para organizar salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que se pueden crear o unir a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
+Puede usar la sección **Categoría de** la **página chat** persistente para configurar categorías. Una categoría de salón de chat persistente es una estructura lógica para organizar los salón de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que pueden crear o unirse a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
   
-Las categorías de salones de chat pueden contener salones de chat, pero no otras categorías. Cada categoría describe su contenido con metadatos, como _el nombre_ y la _Descripción_. Además, la categoría tiene propiedades que pueden configurarse para controlar el comportamiento de los salones de chat que pertenecen a ella, por ejemplo, si los salones de chat permiten _invitaciones_ o _cargas de archivos_, o bien contienen _historial de conversaciones_.
+Las categorías de salones de chat pueden contener salones de chat, pero no otras categorías. Cada categoría describe su contenido con metadatos, como _Nombre_ y _Descripción._ Además, la categoría tiene propiedades que se pueden establecer para controlar el comportamiento de los  salón de chat que le pertenecen, como si los salón de chat permiten invitaciones o cargas de _archivos,_ o contienen historial de _chat._
   
-Para crear una nueva categoría, consulte [administrar categorías en el servidor de chat persistente en Skype empresarial server 2015](../../manage/persistent-chat/categories.md). Si es un administrador de chat persistente, puede crear categorías con el panel de control o los cmdlets de Windows PowerShell.
+Para crear una nueva categoría, consulte Administrar categorías en el servidor [de chat persistente en Skype Empresarial Server 2015](../../manage/persistent-chat/categories.md). Si es un administrador de chat persistente, puede crear categorías mediante el panel de control o Windows PowerShell cmdlets.
   
 ## <a name="tasks-that-you-can-perform"></a>Tareas que puede realizar
 
-En la página **Categoría** puede realizar las siguientes tareas:
+Puede realizar las siguientes tareas en la página **Categoría**:
   
-- Crear una categoría o editarla
+- Crear o editar una nueva categoría
     
 - Mover un salón de chat de una categoría a otra
     
 - Eliminar un salón de chat o una categoría
     
-## <a name="to-configure-categories-for-persistent-chat-rooms"></a>Para configurar categorías para salas de chat persistentes
+## <a name="to-configure-categories-for-persistent-chat-rooms"></a>Para configurar categorías para los salón de chat persistente
 
-1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator o CsAdministrator, inicie sesión en cualquier PC en la implementación interna.
     
-2. En el menú **Inicio** , seleccione el panel de control de Skype empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador. .
+2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración. .
     
-3. En la barra de navegación izquierda, haga clic en **Chat persistente** y, luego, en **Categoría**.
+3. En la barra de navegación izquierda, haga clic en **Chat persistente** y, a continuación, en **Categoría**.
     
-    Para varias implementaciones del grupo de servidores de chat persistentes, seleccione el grupo adecuado de la lista desplegable.
+    Para varias implementaciones de grupos de servidores de chat persistente, seleccione el grupo adecuado en la lista desplegable.
     
-4. En la página **Categoría**, haga clic en **Nuevo** o en **Editar**.
+4. En la página **Categoría**, haga clic en **Nueva** o **Editar**.
     
-5. En **seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de chat persistente en el que se debe crear la categoría. El servicio es el grupo de servidores de chat persistente que usa el chat persistente (cliente) para identificar a qué grupo pertenece la categoría. Una categoría puede pertenecer a un único grupo de servidores de chat persistentes, no se puede mover a otro grupo o compartir con otro grupo.
+5. En **Seleccionar un servicio,** seleccione el servicio correspondiente al grupo de servidores de chat persistente en el que se debe crear la categoría. El servicio es el grupo de servidores de chat persistente que usa el chat persistente (cliente) para identificar a qué grupo pertenece la categoría. Una categoría solo puede pertenecer a un grupo de servidores de chat persistente y no se puede mover a otro, ni compartirse con otro grupo de servidores.
     
 6. En **Nueva categoría**, haga lo siguiente:
     
-7. En **Nombre**, especifique un nombre para la nueva categoría de salón.
+7. En **Nombre**, especifique un nombre para el nuevo salón.
     
-8. En **Descripción**, proporcione una descripción detallada sobre la categoría del salón (por ejemplo, una categoría de salón para Contoso).
+8. En  **Descripción**, proporcione una descripción detallada de la categoría del salón (por ejemplo, una categoría de salón para Contoso).
     
-9. Para controlar si las invitaciones se pueden habilitar para salones de chat que pertenecen a esta categoría, active o desactive la casilla **Habilitar invitaciones**. Si está activada, los salones de esta categoría puedan tener invitaciones activas o inactivas y, si está desactivada, el salón de esta categoría no puede tener invitaciones. Si un salón tiene invitaciones, cuando se agrega un nuevo miembro a un salón, recibe una notificación de la nueva sala en su cliente de chat persistente.
+9. Para controlar si se pueden habilitar invitaciones para salones de chat, active o desactive la casilla **Habilitar invitaciones**. Si la activa, los salones de esta categoría pueden tener invitaciones activadas o desactivadas; si se desactiva, los salones de esta categoría no pueden tener invitaciones. Si un salón tiene invitaciones, cuando se agrega un nuevo miembro a un salón, recibe una notificación del nuevo salón en su cliente de chat persistente.
     
-10. Para controlar las cargas de archivos en salones de chat que pertenecen a esta categoría, active o desactive la casilla **Habilitar carga de archivo**. Si está activada, los salones de esta categoría pueden habilitar o deshabilitar las cargas de archivos y, si no está activada, los salones de esta categoría no pueden tener cargas de archivos.
+10. Para controlar las cargas de archivos en salones de chat que pertenezcan a esta categoría, active o desactive la casilla **Habilitar carga de archivo**. Si se activa, los salones de esta categoría pueden habilitar o deshabilitar las cargas de archivos; si se desactiva, los salones de esta categoría no pueden tener cargas de archivos.
     
-11. Para controlar el historial de conversaciones, Active o desactive la casilla de verificación **Habilitar el historial de chat** . Si está activada, los salones de chat serán persistentes; en caso contrario, los mensajes de chats no persisten. Si el cumplimiento está habilitado, los chats del salón se guardarán en consecuencia, pero los usuarios no podrán tener acceso a los mensajes antiguos. Esta opción se puede usar para salas designadas para colaboraciones ad hoc y en tiempo real que no necesitan un historial de conversaciones.
+11. Para controlar el historial de chat, active o desactive la casilla Habilitar historial **de chat.** Si se activa, los salones de chat se vuelven persistentes; en caso contrario, los mensajes de chat no permanecen. Si se habilita el cumplimiento, los chats de los salones se guardarán en conformidad, pero los usuarios no podrán obtener acceso a los mensajes más antiguos. Esta opción se puede usar para salas designadas para colaboraciones ad hoc en tiempo real que no necesitan que se conserve el historial de chat.
     
 12. En **Editar categoría**, haga lo siguiente:
     
-    - En **pertenencia**, en la sección **miembros permitidos** , agregue o quite usuarios y otros principios de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, etc.) que pueden agregarse como miembros de los salones de chat que pertenecen a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
+    - En Pertenencia **,** en la sección Miembros permitidos, agregue o quite usuarios y otras entidades de seguridad de Servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, entre otros) que puedan agregarse como miembros de los salón de chat que pertenecen a la categoría.  Los elementos principales permitidos por una categoría pueden buscar salones en la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón pueden buscarlo en el directorio).
     
-    - En **pertenencia**, en la sección **miembros denegados** , agregue o quite usuarios y otros principales de Active Directory asociados a miembros que se deniegan del salón.
+    - En **Pertenencia**, en la **sección Miembros** denegados, agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con miembros denegados de la sala.
     
-    - En **pertenencia**, en la sección **creadores** , agregue o quite usuarios y otras entidades de Active Directory asociadas con los creadores de la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de los salones de chat.
+    - En **Pertenencia**, en la **sección Creadores,** agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con los creadores de la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de salones de chat.
     
 13. Haga clic en **Confirmar**.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-Para obtener detalles sobre las funciones y características del servidor de chat persistentes, consulte [planear el servidor de chat persistente en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [implementar un servidor de chat persistente en skype empresarial Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [administrar el servidor de chat persistente en Skype empresarial Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Para obtener más información sobre las características y capacidades del servidor de chat persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 

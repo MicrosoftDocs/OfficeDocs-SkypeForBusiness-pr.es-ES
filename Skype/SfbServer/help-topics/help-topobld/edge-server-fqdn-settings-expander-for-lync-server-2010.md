@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir las propiedades en Configuración externa, configure lo siguiente:'
-ms.openlocfilehash: 2de4b562d5b6a8b8ef9707d603fe5f4667893ba4
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 6075fab9dbc820b725beec8be4a674a828b4c7d1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218251"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807100"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
  
@@ -29,9 +29,9 @@ Para definir las propiedades en **Configuración externa**, configure lo siguien
 Marque la casilla de verificación **Habilitar direcciones IP y números completos de dominio independientes para conferencia web y A/V** si desea definir direcciones IP y FQDN del grupo de servidores diferentes para conferencia web y audio/vídeo.
   
 > [!NOTE]
-> Si opta por no activar la casilla de verificación de direcciones IP y FQDN independientes, debe proporcionar puertos distintos para cada uno de los tres servicios proporcionados por el servidor perimetral. El único nombre de dominio completo que se va a configurar es el FQDN asociado con el servicio perimetral de acceso. 
+> Si decide no activar la casilla para direcciones IP y FQDN independientes, debe proporcionar puertos distintos para cada uno de los tres servicios proporcionados por el servidor perimetral. El único nombre de dominio completo que se va a configurar es el FQDN asociado al servicio perimetral de acceso. 
   
-Active la casilla de verificación **servicio perimetral a/v con NAT habilitada** si desea que el servicio perimetral a/v use una configuración y una dirección IP de traducción de direcciones de red (NAT).
+Active la casilla de verificación Servicio perimetral **A/V** con NAT habilitada si desea que el servicio perimetral A/V use una configuración y una dirección IP de traducción de direcciones de red (NAT).
   
 Para los servicios perimetrales habilitados, escriba un **FQDN de grupo de servidores** y un puerto en **Puertos**
   
