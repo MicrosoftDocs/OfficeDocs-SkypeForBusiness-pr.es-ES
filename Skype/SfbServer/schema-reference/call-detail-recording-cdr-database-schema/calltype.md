@@ -1,8 +1,8 @@
 ---
-title: Tabla CallType en Skype empresarial Server 2015
+title: Tabla CallType en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
-description: La tabla CallType es una tabla estática que almacena la lista de posibles tipos de llamadas.
-ms.openlocfilehash: 294af58755e980200d75c899d6110322e2ff774d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La tabla CallType es una tabla estática donde se almacena la lista de posibles tipos de llamada.
+ms.openlocfilehash: 89f29a2c826f4aef12cc0332e40df0fb421c3932
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815438"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813370"
 ---
-# <a name="calltype-table-in-skype-for-business-server-2015"></a><span data-ttu-id="e2c0b-103">Tabla CallType en Skype empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="e2c0b-103">CallType table in Skype for Business Server 2015</span></span>
+# <a name="calltype-table-in-skype-for-business-server-2015"></a><span data-ttu-id="906e4-103">Tabla CallType en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="906e4-103">CallType table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="e2c0b-104">La tabla CallType es una tabla estática que almacena la lista de posibles tipos de llamadas.</span><span class="sxs-lookup"><span data-stu-id="e2c0b-104">The CallType table is a static table that stores the list of possible call types.</span></span>
+<span data-ttu-id="906e4-104">La tabla CallType es una tabla estática donde se almacena la lista de posibles tipos de llamada.</span><span class="sxs-lookup"><span data-stu-id="906e4-104">The CallType table is a static table that stores the list of possible call types.</span></span>
   
-|<span data-ttu-id="e2c0b-105">**Columna**</span><span class="sxs-lookup"><span data-stu-id="e2c0b-105">**Column**</span></span>|<span data-ttu-id="e2c0b-106">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="e2c0b-106">**Data Type**</span></span>|<span data-ttu-id="e2c0b-107">**Clave o índice**</span><span class="sxs-lookup"><span data-stu-id="e2c0b-107">**Key/Index**</span></span>|<span data-ttu-id="e2c0b-108">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="e2c0b-108">**Details**</span></span>|
+|<span data-ttu-id="906e4-105">**Columna**</span><span class="sxs-lookup"><span data-stu-id="906e4-105">**Column**</span></span>|<span data-ttu-id="906e4-106">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="906e4-106">**Data Type**</span></span>|<span data-ttu-id="906e4-107">**Clave/índice**</span><span class="sxs-lookup"><span data-stu-id="906e4-107">**Key/Index**</span></span>|<span data-ttu-id="906e4-108">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="906e4-108">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="e2c0b-109">**CallTypeId**</span><span class="sxs-lookup"><span data-stu-id="e2c0b-109">**CallTypeId**</span></span> <br/> |<span data-ttu-id="e2c0b-110">int</span><span class="sxs-lookup"><span data-stu-id="e2c0b-110">int</span></span>  <br/> |<span data-ttu-id="e2c0b-111">Primary</span><span class="sxs-lookup"><span data-stu-id="e2c0b-111">Primary</span></span>  <br/> ||
-|<span data-ttu-id="e2c0b-112">**CallType**</span><span class="sxs-lookup"><span data-stu-id="e2c0b-112">**CallType**</span></span> <br/> |<span data-ttu-id="e2c0b-113">nvarchar</span><span class="sxs-lookup"><span data-stu-id="e2c0b-113">nvarchar</span></span>  <br/> || <span data-ttu-id="e2c0b-114">Valores permitidos:</span><span class="sxs-lookup"><span data-stu-id="e2c0b-114">Allowed values:</span></span> <br/>  <span data-ttu-id="e2c0b-115">0--desconocido</span><span class="sxs-lookup"><span data-stu-id="e2c0b-115">0 -- Unknown</span></span> <br/>  <span data-ttu-id="e2c0b-116">1-mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="e2c0b-116">1 - Instant Messaging</span></span> <br/>  <span data-ttu-id="e2c0b-117">2: uso compartido de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="e2c0b-117">2 -- Application Sharing</span></span> <br/>  <span data-ttu-id="e2c0b-118">3: audio</span><span class="sxs-lookup"><span data-stu-id="e2c0b-118">3 -- Audio</span></span> <br/>  <span data-ttu-id="e2c0b-119">4-audio y vídeo</span><span class="sxs-lookup"><span data-stu-id="e2c0b-119">4 - Audio and Video</span></span> <br/>  <span data-ttu-id="e2c0b-120">5-transferencia de archivos</span><span class="sxs-lookup"><span data-stu-id="e2c0b-120">5 - File Transfer</span></span> <br/> |
+|<span data-ttu-id="906e4-109">**CallTypeId**</span><span class="sxs-lookup"><span data-stu-id="906e4-109">**CallTypeId**</span></span> <br/> |<span data-ttu-id="906e4-110">entero</span><span class="sxs-lookup"><span data-stu-id="906e4-110">int</span></span>  <br/> |<span data-ttu-id="906e4-111">Principal</span><span class="sxs-lookup"><span data-stu-id="906e4-111">Primary</span></span>  <br/> ||
+|<span data-ttu-id="906e4-112">**CallType**</span><span class="sxs-lookup"><span data-stu-id="906e4-112">**CallType**</span></span> <br/> |<span data-ttu-id="906e4-113">nvarchar</span><span class="sxs-lookup"><span data-stu-id="906e4-113">nvarchar</span></span>  <br/> || <span data-ttu-id="906e4-114">Valores permitidos:</span><span class="sxs-lookup"><span data-stu-id="906e4-114">Allowed values:</span></span> <br/>  <span data-ttu-id="906e4-115">0 -- Desconocido</span><span class="sxs-lookup"><span data-stu-id="906e4-115">0 -- Unknown</span></span> <br/>  <span data-ttu-id="906e4-116">1- Mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="906e4-116">1 - Instant Messaging</span></span> <br/>  <span data-ttu-id="906e4-117">2-- Uso compartido de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="906e4-117">2 -- Application Sharing</span></span> <br/>  <span data-ttu-id="906e4-118">3 -- Audio</span><span class="sxs-lookup"><span data-stu-id="906e4-118">3 -- Audio</span></span> <br/>  <span data-ttu-id="906e4-119">4- Audio y vídeo</span><span class="sxs-lookup"><span data-stu-id="906e4-119">4 - Audio and Video</span></span> <br/>  <span data-ttu-id="906e4-120">5- Transferencia de archivos</span><span class="sxs-lookup"><span data-stu-id="906e4-120">5 - File Transfer</span></span> <br/> |
    
 
