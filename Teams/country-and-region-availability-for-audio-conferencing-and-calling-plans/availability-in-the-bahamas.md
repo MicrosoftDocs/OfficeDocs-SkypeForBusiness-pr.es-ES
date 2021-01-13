@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en las Bahamas
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para las Bahamas.
-ms.openlocfilehash: d051b9e7148225b9745db3784ec00ac69cc93350
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para las Bahamas.
+ms.openlocfilehash: f04d92fc66bed6be30d23171a765511023d7b3c8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230758"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831325"
 ---
 # <a name="availability-in-the-bahamas"></a>Disponibilidad en las Bahamas
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para las Bahamas.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para las Bahamas.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -62,7 +62,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y M
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si los planes de llamadas no están disponibles para la compra, considere la posibilidad de usar el [enrutamiento directo](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
+Si los planes de llamadas no están disponibles para comprar, considere la posibilidad de usar [el enrutamiento directo.](../direct-routing-landing-page.md) Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
