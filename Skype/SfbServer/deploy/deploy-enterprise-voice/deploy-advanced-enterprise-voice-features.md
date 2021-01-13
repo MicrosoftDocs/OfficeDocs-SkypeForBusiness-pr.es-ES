@@ -1,8 +1,8 @@
 ---
-title: Implementar características avanzadas de telefonía empresarial en Skype empresarial Server
+title: Implementar características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
-description: Implementar características avanzadas de telefonía empresarial en Skype empresarial Server.
-ms.openlocfilehash: 27d09f842555d008edc96d5b61838508df6836a8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Implemente características Telefonía IP empresarial avanzadas en Skype Empresarial Server.
+ms.openlocfilehash: c3c551e7c0ba7dc8871791141e55d666578a411c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767683"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836900"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a><span data-ttu-id="9659f-103">Implementar características avanzadas de telefonía empresarial en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="9659f-103">Deploy advanced Enterprise Voice features in Skype for Business Server</span></span>
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a><span data-ttu-id="be93b-103">Implementar características Telefonía IP empresarial avanzadas en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="be93b-103">Deploy advanced Enterprise Voice features in Skype for Business Server</span></span>
  
-<span data-ttu-id="9659f-104">Implementar características avanzadas de telefonía empresarial en Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="9659f-104">Deploy advanced Enterprise Voice features in Skype for Business Server.</span></span>
+<span data-ttu-id="be93b-104">Implemente características Telefonía IP empresarial avanzadas en Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="be93b-104">Deploy advanced Enterprise Voice features in Skype for Business Server.</span></span>
   
-<span data-ttu-id="9659f-105">Tras haber configurado las funciones básicas de Telefonía IP empresarial en la organización, se puede optar por implementar una o más características avanzadas de Telefonía IP empresarial siguiendo los procedimientos de esta sección.</span><span class="sxs-lookup"><span data-stu-id="9659f-105">After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section.</span></span> 
+<span data-ttu-id="be93b-105">Una vez que haya configurado la funcionalidad Telefonía IP empresarial básica para su organización, puede implementar opcionalmente una o más características avanzadas de Telefonía IP empresarial siguiendo los procedimientos descritos en esta sección.</span><span class="sxs-lookup"><span data-stu-id="be93b-105">After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section.</span></span> 
   
-- [<span data-ttu-id="9659f-106">Plan de omisión de multimedia en Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="9659f-106">Plan for media bypass in Skype for Business</span></span>](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [<span data-ttu-id="be93b-106">Planear la omisión de medios en Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="be93b-106">Plan for media bypass in Skype for Business</span></span>](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [<span data-ttu-id="9659f-107">Plan para el control de admisión de llamadas en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="9659f-107">Plan for call admission control in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [<span data-ttu-id="be93b-107">Planear el control de admisión de llamadas en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="be93b-107">Plan for call admission control in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [<span data-ttu-id="9659f-108">Planear los servicios de emergencia en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="9659f-108">Plan for emergency services in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [<span data-ttu-id="be93b-108">Planificar los servicios de emergencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="be93b-108">Plan for emergency services in Skype for Business Server</span></span>](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
-## <a name="in-this-section"></a><span data-ttu-id="9659f-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="9659f-109">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="be93b-109">En esta sección</span><span class="sxs-lookup"><span data-stu-id="be93b-109">In this section</span></span>
 
-- [<span data-ttu-id="9659f-110">Implementar regiones, sitios y subredes de red en Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="9659f-110">Deploy network regions, sites and subnets in Skype for Business</span></span>](deploy-network.md)
+- [<span data-ttu-id="be93b-110">Implementar regiones de red, sitios y subredes en Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="be93b-110">Deploy network regions, sites and subnets in Skype for Business</span></span>](deploy-network.md)
     
-- [<span data-ttu-id="9659f-111">Implementación de omisión de contenido multimedia en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="9659f-111">Deploy media bypass in Skype for Business Server</span></span>](deploy-media-bypass.md)
+- [<span data-ttu-id="be93b-111">Implementar la omisión de medios en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="be93b-111">Deploy media bypass in Skype for Business Server</span></span>](deploy-media-bypass.md)
     
-- [<span data-ttu-id="9659f-112">Implementar el control de admisión de llamadas en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="9659f-112">Deploy call admission control in Skype for Business Server</span></span>](deploy-call-admission-control.md)
+- [<span data-ttu-id="be93b-112">Implementar el control de admisión de llamadas en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="be93b-112">Deploy call admission control in Skype for Business Server</span></span>](deploy-call-admission-control.md)
     
-- [<span data-ttu-id="9659f-113">Implementar servicios de emergencia en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="9659f-113">Deploy emergency services in Skype for Business Server</span></span>](deploy-emergency-services.md)
+- [<span data-ttu-id="be93b-113">Implementar servicios de emergencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="be93b-113">Deploy emergency services in Skype for Business Server</span></span>](deploy-emergency-services.md)
     
 
