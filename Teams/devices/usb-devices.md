@@ -1,5 +1,5 @@
 ---
-title: Teléfonos y dispositivos de Microsoft Teams
+title: Teléfonos y dispositivos para Microsoft Teams
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -14,148 +14,161 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Ver qué dispositivos y periféricos USB, como, por ejemplo, auriculares con micrófono, teléfonos, cámaras Web y monitores, están certificados para Microsoft Teams.
-ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+description: Vea qué dispositivos y periféricos USB (como auriculares, manos libres, cámaras web y monitores) están certificados para Microsoft Teams.
+ms.openlocfilehash: 4f473db3cf82e20c71ea22503095adea6df0ec12
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718584"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825350"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
-El programa de certificación de periféricos garantiza que los periféricos USB, como los auriculares con micrófono, los auriculares con micrófono, las cámaras Web y los monitores, ofrezcan una calidad de audio o video enriquecida. Los dispositivos certificados funcionan fuera de la caja (plug & Play) sin necesidad de ninguna configuración adicional, y ofrecen control de llamadas con Microsoft Teams y Skype empresarial. Los productos proporcionan una excelente experiencia para usuarios finales y administradores.
+El programa de certificación de periféricos garantiza que los periféricos USB (como auriculares, manos libres, cámaras web y monitores) ofrecen una calidad de audio o vídeo enriquecido. Los dispositivos certificados funcionan (el & se reproducen) sin necesidad de configuración adicional y ofrecen control de llamadas con Microsoft Teams y Skype Empresarial. Los productos proporcionan una excelente experiencia para los usuarios finales y administradores.
 
-Para explorar los dispositivos probados y certificados para Microsoft Teams, vaya a la [tienda Teams](https://products.office.com/microsoft-teams/across-devices/devices).
+Para explorar dispositivos probados y certificados para Microsoft Teams, diríjase a la [Tienda teams.](https://products.office.com/microsoft-teams/across-devices/devices)
 
-Para obtener más información sobre el soporte de control de llamadas con Teams, lea [llamadas de control usando auriculares con micrófono en Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
+Para obtener más información sobre la compatibilidad con el control de llamadas con Teams, vea [llamadas de control con auriculares en Teams.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
 > [!TIP]
-> ¿Busca dispositivos certificados para Skype empresarial? Vaya a [dispositivos de audio y vídeo USB certificados para Skype empresarial](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices).
+> ¿Busca dispositivos certificados para Skype Empresarial? Diríjase a [dispositivos de audio y vídeo USB certificados para Skype Empresarial.](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices)
 
 ## <a name="understanding-certification-categories"></a>Descripción de las categorías de certificación
 
-Los usuarios no tienen que reemplazar los dispositivos certificados previamente durante la actualización a teams desde Skype empresarial.  Todos los dispositivos certificados son compatibles tanto para los usuarios de Microsoft Teams como para los de Skype empresarial, con algunas diferencias en la funcionalidad.  Además, la certificación ofrece una nueva designación para determinadas categorías de dispositivos.
+Los usuarios no necesitan reemplazar dispositivos previamente certificados al actualizar a Teams desde Skype Empresarial.  Todos los dispositivos certificados son compatibles con los usuarios de Microsoft Teams y Skype Empresarial, con solo algunas diferencias.  La certificación también proporciona designación adicional para determinadas categorías de dispositivos.
 
-- **Actualización de Skype empresarial certificada con Teams** Los dispositivos certificados en este nivel fueron certificados inicialmente para Skype empresarial. Para ofrecer la mayor cantidad de tiempo posible a los usuarios, Microsoft ha trabajado con los fabricantes de dispositivos para ofrecer la mayor integración de equipos posible con estos dispositivos existentes sin ningún cambio en el hardware original. El botón *hookswitch* actúa como un botón de Teams cuando no está en una llamada y puede incluir funciones adicionales a lo largo del tiempo.  Los dispositivos de esta categoría pueden llevar la identificación de certificación de Teams sobre materiales de marketing.
-- **Certified for Microsoft Teams** Los dispositivos certificados en este nivel indican los últimos dispositivos certificados por una experiencia de equipos sin riesgos. Estos dispositivos ofrecen todas las ventajas de la certificación anterior y también incluyen un botón de equipos dedicado con indicador LED. Con la mayoría de los factores de forma, el botón equipos será un botón táctil fácil de encontrar con el logotipo de Teams. Microsoft continúa trabajando con los fabricantes de dispositivos para ofrecer un nuevo valor mediante actualizaciones de firmware a lo largo del tiempo.
+- **Skype Empresarial certificado con la actualización de Teams** Los dispositivos certificados en este nivel se han certificado inicialmente para Skype Empresarial. Microsoft ha trabajado con los fabricantes de dispositivos para ofrecer la mejor experiencia de integración de Teams posible sin ningún cambio en el hardware original. El *botón de interruptor* actúa como un botón de Teams cuando no está en una llamada y puede incluir más funciones a lo largo del tiempo.  Los dispositivos de esta categoría pueden llevar el distintivo de certificación de Teams en los materiales de marketing.
+- **Certificado para Microsoft Teams** Los dispositivos certificados en este nivel indican los dispositivos más nuevos certificados, para una experiencia de Teams sin comprometer. Estos dispositivos ofrecen todas las ventajas de la certificación anterior y también incluyen un botón dedicado de Teams con indicador LED. Con la mayoría de los factores de forma, el botón Teams será un botón táctil fácil de encontrar con el logotipo de Teams. Microsoft sigue trabajando con los fabricantes de dispositivos para ofrecer nuevos valores a través de las actualizaciones de firmware a lo largo del tiempo.
 
 ### <a name="special-usage-designations"></a>Designaciones de uso especial
 
-- **Micrófono Premium para Open Office** Todos los auriculares con micrófono están probados para proporcionar un audio claro, pero los entornos de Office y otros ruidos ruidosos cumplen con un reto mayor: para captar claramente la voz de los auriculares con micrófono, pero no transmitir el sonido de sus vecinos.
-- **Tamaño** de la sala de reuniones Los dispositivos compartidos, como los teléfonos con manos libres y las cámaras, tienen una distancia de uso compatible y las distancias recomendadas pueden ser reconocidas de diferentes fabricantes. Para ofrecer a los clientes una orientación clara, todos los dispositivos compartidos se prueban en la certificación de los tamaños y entornos de ruido bien definidos.
+- **Micrófono Premium para Abrir Office** Se ha comprobado que todos los auriculares proporcionan un audio claro, pero la oficina abierta y otros entornos ruidosos plantean un desafío mayor. Los auriculares con esta designación escuchan la voz del usuario de los auriculares, pero no transmiten el sonido de sus vecinos.
+- **Tamaño de la sala de reuniones** Los dispositivos compartidos, como los manos libres y las cámaras, tienen una distancia de uso compatible. Las distancias recomendadas pueden diferir en función del fabricante. Para ofrecer a los clientes indicaciones claras, todos los dispositivos compartidos se prueban con la certificación en entornos de ruido y tamaños de salas bien definidos.
 
-Examinar [dispositivos certificados para Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
+Examinar [dispositivos certificados para Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
 
-## <a name="end-user-experience"></a>Experiencia de usuario final
+## <a name="end-user-experience"></a>Experiencia del usuario final
 
-### <a name="new-teams-certification-benefits"></a>Nuevos beneficios de certificación de Teams
+### <a name="new-teams-certification-benefits"></a>Nuevas ventajas de la certificación de Teams
 
-- Luz del indicador LED y del botón de equipos dedicados.
-- Notificación de eventos y alertas de usuario del cliente de Teams (por ejemplo, iniciando una reunión, buzón de voz o llamada perdida).
-- Posibilidad de activar el cliente de Teams o responder a una notificación con una pulsación del botón (por ejemplo, para unirse a una reunión).
-- Certificación diseñada para la extensibilidad (nuevas características de dispositivo/cliente que se van a entregar a través de la actualización de firmware).
+- Botón Teams dedicado e indicador luminoso LED.
+- Notificación de usuario de eventos y alertas del cliente de Teams (por ejemplo, inicio de reunión, correo de voz o llamada perdida).
+- Posibilidad de activar el cliente de Teams o responder a una notificación pulsando el botón (por ejemplo, para unirse a una reunión).
+- Certificación diseñada para extensibilidad (las nuevas características del dispositivo/cliente se entregarán a través de la actualización del firmware).
 
-### <a name="core-certification-benefits"></a>Ventajas de la certificación principal
+### <a name="core-certification-benefits"></a>Ventajas principales de la certificación
 
-- Selección automática de dispositivos de audio y priorización predeterminados si hay varios periféricos de audio.
-- Los dispositivos se registran automáticamente en el cliente de Teams y están listos para usar.
-- Los dispositivos de audio (por ejemplo, auriculares con micrófono y teléfonos con manos libres) ofrecen:
-  - Control básico de llamadas en cualquier momento con un PC o un dispositivo Mac. Los controles básicos son: responder/colgar, desactivar o reactivar el control de volumen.
-  - Audio de banda ancha sin eco, distorsión o problemas excesivos. La cancelación de eco también se admite en todos los dispositivos.
-- Los dispositivos de vídeo cumplen con los requisitos de ruido, color, detalles de imagen, vibración, latencia, velocidad de fotogramas y campo de vista.
+- Selección automática del dispositivo de audio predeterminado y priorización si hay varios periféricos de audio.
+- Los dispositivos se registran automáticamente en el cliente de Teams y están listos para su uso.
+- Los dispositivos de audio (por ejemplo, auriculares con micrófono y manos libres) ofrecen:
+  - Control básico de llamadas en todos los casos cuando se usa con un PC o un dispositivo Mac. Los controles básicos incluyen respuesta/colgar, silenciar/activar audio y control de volumen.
+  - Audio de banda ancha sin eco, distorsión o fallos excesivos. La anulación del eco también se admite en todos los dispositivos.
+- Los dispositivos de vídeo cumplen los requisitos de ruido, color, detalles de la imagen, vibración, latencia, velocidad de fotogramas y campo de visualización.
 
-## <a name="administrator-experience"></a>Experiencia de administrador
+## <a name="administrator-experience"></a>Experiencia del administrador
 
 - No se requiere aprovisionamiento
-- Todos los dispositivos admiten actualizaciones de firmware para permitir nuevas características y mejoras en el rendimiento.
+- Todos los dispositivos admiten actualizaciones de firmware para permitir nuevas características y mejoras de rendimiento.
 
-Si es un fabricante y desea participar en el programa de certificación, consulte [cómo unirse](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) a los requisitos y programas disponibles.
+Si eres un fabricante y quieres unirte [](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) al programa de certificación, consulta Cómo unirte a los requisitos y los programas disponibles.
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada el 2020 de diciembre*
+*Tabla actualizada en enero de 2021*
 
-| Fabricante        | No                                                     | Autorizado      | Programa certificado                                      |
+| Fabricante        | Modelo                                                     | Cualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Jabra                |75es auriculares con micrófono                                         |12/16/2020      |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |65es auriculares con micrófono                                         |12/16/2020      |Skype empresarial con la actualización a Microsoft Teams      |
-|Productos                 |Monitor C3422WE                                            |12/11/2020      |Certified for Microsoft Teams                           |
-|Productos                 |Monitor C2722DE                                            |12/11/2020      |Certified for Microsoft Teams                           |
-|Productos                 |Monitor C2422HE                                            |12/11/2020      |Certified for Microsoft Teams                           |
-|Poli                 |Sincronizar 20 + con manos libres con el dongle USB de poli BT600          |11/9/2020       |Certified for Microsoft Teams                           |
-|Poli                 |Teléfono con manos libres sincronizada                                       |11/9/2020       |Certified for Microsoft Teams                           |
-|Jabra                |65ts auriculares con micrófono                                         |10/31/2020      |Skype empresarial con la actualización a Microsoft Teams      |
-|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Otros auriculares con micrófono 80                                          |8/23/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Otros auriculares con micrófono 40                                          |8/23/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Auriculares con micrófono de 30 II                                       |8/23/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Evolucionar los 20 auriculares                                          |8/23/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|EPOS/Sennheiser      |Impacto SC 660 con USB-ED CC 01 MS Connecta                |8/20/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|EPOS/Sennheiser      |Impacto SC 630 con USB-ED CC 01 MS Connecta                |8/20/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|EPOS/Sennheiser      |Impacto SC 260 con USB-ED CC 01 MS Connecta                |8/20/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Otros auriculares con micrófono 75                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Otros auriculares con micrófono 65                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Enganchar auriculares con micrófono 50                                          |7/31/2020       |Skype empresarial con la actualización a Microsoft Teams      |
-|Avocor               |WCD-AVW-6555                                              |7/30/2020       |Certified for Microsoft Teams                           |
-|Jabra                |Auriculares con micrófono Evolve2 85                                         |7/17/2020       |Certified for Microsoft Teams                           |
-|Bose                 |Auriculares con micrófono de NC 700                                             |6/8/2020        |Certified for Microsoft Teams                           |
-|Jabra                | Habla 750 de teléfono con altavoz de Jabra 370 llave USB     | 5/21/2020       | Certified for Microsoft Teams                         |
-| EPOS                | Sennheiser adapte auriculares con micrófono de 660                              | 5/15/2020      | Certified for Microsoft Teams                          |
-| EPOS                | Sennheiser adapte auriculares con micrófono de 560                              | 5/15/2020      | Certified for Microsoft Teams                          |
-| EPOS                | Sennheiser adapte 460T auriculares con micrófono                             | 5/15/2020      | Certified for Microsoft Teams                          |
-| EPOS                | Sennheiser adapte auriculares con micrófono de 360                              | 5/15/2020      | Certified for Microsoft Teams                          |
-| Yealink             | Auriculares con micrófono UH36                                              | 5/13/2020      | Certified for Microsoft Teams                          |
-| Poli                | Savi 8210 Office                                          | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Savi 8210 UC                                              | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Savi 8220 Office                                          | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Savi 8220 UC                                              | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Savi 8240 Office                                          | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Savi 8240 UC                                              | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Savi 8245 Office                                          | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Savi 8245 UC                                             | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Auriculares con micrófono Blackwire 5210                                    | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Auriculares con micrófono Blackwire 5220                                    | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Auriculares con micrófono Blackwire 7225                                    | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Las comunicaciones unificadas del Voyager                                          | 4/20/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Yealink             | CP700                                                     | 4/13/2020      | Certified for Microsoft Teams                          |
-| Jabra               | Auriculares con micrófono Evolve2 65                                        | 4/13/2020      | Certified for Microsoft Teams                          |
-| EPOS/Sennheiser     | SC 30 de impacto                                              | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto en SC 45                                              | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto en SC 60                                              | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto en SC 75 MS                                           | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto SC 75 MS EUL                                       | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto SC 230 USB MS II                                   | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto SC 260 USB MS II                                   | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto SC 630 USB MS                                      | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto SC 635 USB                                         | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto SC 660 USB MS                                      | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto SC 660 cancelación USB                                     | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| EPOS/Sennheiser     | Impacto SC 665 USB                                         | 4/9/2020       | Skype empresarial con la actualización a Microsoft Teams     |
-| Logitech            | Inalámbrica de zona                                             | 4/8/2020       | Certified for Microsoft Teams                          |
-| Poli                | Auriculares con micrófono Voyager 8200                                      | 3/26/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Logitech            | Zona cableada                                                | 3/26/2020      | Certified for Microsoft Teams                          |
-| Jabra               | Auriculares con micrófono Evolve2 40                                        | 3/26/2020      | Certified for Microsoft Teams                          |
-| Poli                | Auriculares con micrófono Voyager 6200                                      | 3/23/2020      | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Voyager de la oficina de la 4245                                       | 3/23/2020      | Certified for Microsoft Teams                          |
-| Poli                | Auriculares con micrófono Blackwire 8225                                    | 3/23/2020      | Certified for Microsoft Teams                          |
-| Poli                | Calisto 5300-M                                            | 03/05/2020     | Certified for Microsoft Teams                          |
-| Poli                | Voyager de la oficina de la 4210                                       | 03/05/2020     | Certified for Microsoft Teams                          |
-| Poli                | Voyager 4210 UC                                           | 03/05/2020     | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Voyager de la oficina de la 4220                                       | 03/05/2020     | Certified for Microsoft Teams                          |
-| Poli                | Voyager 4220 UC                                           | 03/05/2020     | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Voyager de la oficina de la 5200                                       | 03/05/2020     | Certified for Microsoft Teams                          |
-| Poli                | Voyager 5200 UC                                           | 03/05/2020     | Skype empresarial con la actualización a Microsoft Teams     |
-| Poli                | Blackwire 3310-M                                          | 03/05/2020     | Certified for Microsoft Teams                          |
-| Poli                | Blackwire 3315-M                                          | 03/03/2020     | Certified for Microsoft Teams                          |
-| Poli                | Blackwire 3320-M                                          | 03/05/2020     | Certified for Microsoft Teams                          |
-| poli                | Blackwire 3325-M                                          | 03/05/2020     | Certified for Microsoft Teams                          |
-| Poli                | Calisto 3200-M                                            | 01/27/2020     | Certified for Microsoft Teams                          |
-| Crestron            | CCS-UCA-MIC                                               | 12/18/2019     | Certified for Microsoft Teams                          |
-| Sennheiser          | SP 30T                                                    | 12/05/2019     | Certified for Microsoft Teams                          |
-| Polycom             | Elara                                                     | 11/06/2019     | Certified for Microsoft Teams                          |
-| Polycom             | Barra de medios de estudio                                           | 10/18/2019     | Certified for Microsoft Teams                          |
-| Yealink             | UVC30                                                     | 10/18/2019     | Certified for Microsoft Teams                          |
-| Jabra               | PanaCast                                                  | 08/14/2019     | Certified for Microsoft Teams                          |
+|Jabra                |Evolve2 30 auriculares                                         |12/31/2020      |Certificado para Microsoft Teams                           |
+|Yealink              |UH34 Auriculares duales/mono                                     |12/23/2020      |Certificado para Microsoft Teams                           |
+|Yealink              |Teléfono USB MP50                                             |12/23/2020      |Certificado para Microsoft Teams                           |
+|Yealink              |Auriculares WH67 DECT                                          |12/23/2020      |Certificado para Microsoft Teams                           |
+|Yealink              |Auriculares WH66 Dual/Mono DECT                                |12/23/2020      |Certificado para Microsoft Teams                           |
+|Yealink              |Auriculares WH63 DECT                                          |12/23/2020      |Certificado para Microsoft Teams                           |
+|Yealink              |Auriculares WH62 Dual/Mono DECT                                |12/23/2020      |Certificado para Microsoft Teams                           |
+|SUMAS/Senn estertor      |Auriculares con micrófono de la serie 100 Adapt                                  |12/22/2020      |Certificado para Microsoft Teams                           |
+|Dell                 |Auriculares estéreo Pro - UC350                                 |12/21/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Dell                 |Auriculares estéreo Pro - UC150                                 |12/21/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Lenovo               |Auriculares estéreo VoIP pro cableados                              |12/21/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Poly                 |Savi Office 7320                                           |12/18/2020      |Certificado para Microsoft Teams                           |
+|Poly                 |Savi Office 7310                                           |12/18/2020      |Certificado para Microsoft Teams                           |
+|Jabra                |Auriculares Evolve 75e                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 65e                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Dell                 |C3422WE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
+|Dell                 |C2722DE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
+|Dell                 |C2422HE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
+|Poly                 |Sincronizar 20 + manos libres con llave USB Poly BT600          |11/9/2020       |Certificado para Microsoft Teams                           |
+|Poly                 |Sincronizar 20 manos libres                                       |11/9/2020       |Certificado para Microsoft Teams                           |
+|Jabra                |Evolve 65t Headset                                         |10/31/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|SUMAS/Senn estertor      |MB Pro 1                                                   |10/2/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|SUMAS/Senn estertor      |MB Pro 2                                                   |10/2/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Evolve 80 Headset                                          |8/23/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Evolve 40 Headset                                          |8/23/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 30 II                                       |8/23/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Evolucionar 20 auriculares                                          |8/23/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|SUMAS/Senn estertor      |Impacto SC 660 con conector MS USB-ED CC 01               |8/20/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|SUMAS/Senn estertor      |Impacto SC 630 con conector MS USB-ED CC 01               |8/20/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|SUMAS/Senn estertor      |Impacto SC 260 con conector MS USB-ED CC 01               |8/20/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 75                                          |7/31/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Evolucionar 65 auriculares                                          |7/31/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Activar 50 auriculares                                          |7/31/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Avocor               |WCD- AVW-6555                                              |7/30/2020       |Certificado para Microsoft Teams                           |
+|Jabra                |Evolve2 85 auriculares                                         |7/17/2020       |Certificado para Microsoft Teams                           |
+|Alaba                 |Auriculares NC 700                                             |6/8/2020        |Certificado para Microsoft Teams                           |
+|Jabra                | Altavoz Speak 750 con llave USB Jabra Link 370     | 5/21/2020       | Certificado para Microsoft Teams                         |
+| EPS                | Auriculares Senn xboxer Adapt 660                              | 5/15/2020      | Certificado para Microsoft Teams                          |
+| EPS                | Auriculares Senn xboxer Adapt 560                              | 5/15/2020      | Certificado para Microsoft Teams                          |
+| EPS                | Auriculares Senn xboxer Adapt 460T                             | 5/15/2020      | Certificado para Microsoft Teams                          |
+| EPS                | Auriculares Senn vrser Adapt 360                              | 5/15/2020      | Certificado para Microsoft Teams                          |
+| Yealink             | Auriculares UH36                                              | 5/13/2020      | Certificado para Microsoft Teams                          |
+| Poly                | Savi 8210 Office                                          | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Savi 8210 UC                                              | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Savi 8220 Office                                          | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Savi 8220 UC                                              | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Savi 8240 Office                                          | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Savi 8240 UC                                              | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Savi 8245 Office                                          | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Savi 8245 UC                                             | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Auriculares Blackwire 5210                                    | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Auriculares Blackwire 5220                                    | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Auriculares Blackwire 7225                                    | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Foco de Focus UC                                          | 4/20/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Yealink             | CP700                                                     | 4/13/2020      | Certificado para Microsoft Teams                          |
+| Jabra               | Evolve2 65 auriculares                                        | 4/13/2020      | Certificado para Microsoft Teams                          |
+| SUMAS/Senn estertor     | Impacto SC 30                                              | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impacto SC 45                                              | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impacto SC 60                                              | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impact SC 75 MS                                           | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impact SC 75 MS EUL                                       | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impact SC 230 USB MS II                                   | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impact SC 260 USB MS II                                   | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impact SC 630 USB MS                                      | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impacto SC 635 USB                                         | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impact SC 660 USB MS                                      | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impact SC 660 ANC USB                                     | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| SUMAS/Senn estertor     | Impacto SC 665 USB                                         | 4/9/2020       | Skype Empresarial con la actualización a Microsoft Teams     |
+| Logitech            | Zone Wireless                                             | 4/8/2020       | Certificado para Microsoft Teams                          |
+| Poly                | Auriculares Usb 8200                                      | 3/26/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Logitech            | Zone Wired                                                | 3/26/2020      | Certificado para Microsoft Teams                          |
+| Jabra               | Evolve2 40 auriculares                                        | 3/26/2020      | Certificado para Microsoft Teams                          |
+| Poly                | Auriculares And 6200                                      | 3/23/2020      | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Anda 4245 Office                                       | 3/23/2020      | Certificado para Microsoft Teams                          |
+| Poly                | Auriculares Blackwire 8225                                    | 3/23/2020      | Certificado para Microsoft Teams                          |
+| Poly                | Calisto 5300-M                                            | 03/05/2020     | Certificado para Microsoft Teams                          |
+| Poly                | Anda 4210 Office                                       | 03/05/2020     | Certificado para Microsoft Teams                          |
+| Poly                | Estudiante 4210 UC                                           | 03/05/2020     | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Anda 4220 Office                                       | 03/05/2020     | Certificado para Microsoft Teams                          |
+| Poly                | Andi 4220 UC                                           | 03/05/2020     | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Anda 5200 Office                                       | 03/05/2020     | Certificado para Microsoft Teams                          |
+| Poly                | Estudiante 5200 UC                                           | 03/05/2020     | Skype Empresarial con la actualización a Microsoft Teams     |
+| Poly                | Blackwire 3310-M                                          | 03/05/2020     | Certificado para Microsoft Teams                          |
+| Poly                | Blackwire 3315-M                                          | 03/03/2020     | Certificado para Microsoft Teams                          |
+| Poly                | Blackwire 3320-M                                          | 03/05/2020     | Certificado para Microsoft Teams                          |
+| poly                | Blackwire 3325-M                                          | 03/05/2020     | Certificado para Microsoft Teams                          |
+| Poly                | Calisto 3200-M                                            | 01/27/2020     | Certificado para Microsoft Teams                          |
+| Crestron            | CCS-UCA-MIC                                               | 12/18/2019     | Certificado para Microsoft Teams                          |
+| Sennuzser          | SP 30T                                                    | 12/05/2019     | Certificado para Microsoft Teams                          |
+| Polycom             | Elara                                                     | 11/06/2019     | Certificado para Microsoft Teams                          |
+| Polycom             | Studio Soundbar                                           | 10/18/2019     | Certificado para Microsoft Teams                          |
+| Yealink             | UVC30                                                     | 10/18/2019     | Certificado para Microsoft Teams                          |
+| Jabra               | Quercast                                                  | 08/14/2019     | Certificado para Microsoft Teams                          |
 

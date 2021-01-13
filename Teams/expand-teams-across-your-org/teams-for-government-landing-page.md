@@ -1,10 +1,8 @@
 ---
 title: Teams para Administración Pública
-description: Aprenda a planificar e implementar equipos en entornos gubernamentales de Microsoft 365.
-layout: LandingPage
-ms.topic: landing-page
-author: lanachin
-ms.author: v-lanac
+description: Obtenga información sobre cómo planear e implementar Teams en entornos de Microsoft 365 Government.
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -15,88 +13,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0511556c89751bd8145af59ada90e5c26dbaf2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c83f4f3b0fe0600c1f46da612d35f75aa67d74cc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008132"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825320"
 ---
 # <a name="teams-for-government"></a>Teams para Administración Pública
 
-Use estos recursos para obtener información sobre consideraciones específicas para implementar equipos en entornos gubernamentales de Microsoft 365. Cuando esté listo, siga la misma ruta de implementación recomendada para Teams, como se describe en [cómo implementar Microsoft Teams](../How-to-roll-out-teams.md).
+Utilice estos recursos para obtener información sobre consideraciones específicas para implementar Teams en entornos de Microsoft 365 Government. Cuando esté listo, siga la misma ruta de implementación recomendada para Teams que se describe en [Cómo implementar Microsoft Teams.](../How-to-roll-out-teams.md)
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Plan para implementaciones de Microsoft 365 administración pública-GCC</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Plan de Microsoft 365 Administración pública - GCC High</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Plan para implementaciones de Microsoft 365 administración pública</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="Right-facing arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Audioconferencia con enrutamiento directo para GCC High y DoD</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![list-123-teams](../media/list-123-teams.svg)  |  [Plan para Microsoft 365 Government - Implementaciones GCC](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
+| ![tasks-teams](../media/tasks-teams.svg) | [Plan de Microsoft 365 Administración pública - GCC High](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
+| ![task-list-planning-teams](../media/task-list-planning-teams.svg)  |  [Plan para Microsoft 365 Government - Implementaciones DOD](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
+| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Audioconferencia con enrutamiento directo para GCC High y DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |

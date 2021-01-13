@@ -1,7 +1,7 @@
 ---
-title: Disponibilidad en antigua y Barbuda
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilidad en Antigua y Barbuda
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para antigua y Barbuda.
-ms.openlocfilehash: ac99aa5acb0c3372a59b500ce604d851df811c92
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Antigua y Barbuda.
+ms.openlocfilehash: 607dbed987fa530585fe7c87ce140d62d00da8a6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230488"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821210"
 ---
-# <a name="availability-in-antigua-and-barbuda"></a>Disponibilidad en antigua y Barbuda
+# <a name="availability-in-antigua-and-barbuda"></a>Disponibilidad en Antigua y Barbuda
 
-[Encuentra otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), u Obtén más información sobre la disponibilidad de países y regiones para las conferencias de audio y los planes de llamadas.
+[Busque otro país o región o](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)obtenga más información sobre la disponibilidad del país y la región para los planes de audioconferencia y llamadas.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para antigua y Barbuda.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Antigua y Barbuda.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
