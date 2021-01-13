@@ -1,8 +1,8 @@
 ---
-title: Tabla CallType en Skype empresarial Server 2015
+title: Tabla CallType en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
-description: La tabla CallType es una tabla estática que almacena la lista de posibles tipos de llamadas.
-ms.openlocfilehash: 294af58755e980200d75c899d6110322e2ff774d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La tabla CallType es una tabla estática donde se almacena la lista de posibles tipos de llamada.
+ms.openlocfilehash: 89f29a2c826f4aef12cc0332e40df0fb421c3932
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815438"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813370"
 ---
-# <a name="calltype-table-in-skype-for-business-server-2015"></a>Tabla CallType en Skype empresarial Server 2015
+# <a name="calltype-table-in-skype-for-business-server-2015"></a>Tabla CallType en Skype Empresarial Server 2015
  
-La tabla CallType es una tabla estática que almacena la lista de posibles tipos de llamadas.
+La tabla CallType es una tabla estática donde se almacena la lista de posibles tipos de llamada.
   
-|**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
+|**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**CallTypeId** <br/> |int  <br/> |Primary  <br/> ||
-|**CallType** <br/> |nvarchar  <br/> || Valores permitidos: <br/>  0--desconocido <br/>  1-mensajería instantánea <br/>  2: uso compartido de aplicaciones <br/>  3: audio <br/>  4-audio y vídeo <br/>  5-transferencia de archivos <br/> |
+|**CallTypeId** <br/> |entero  <br/> |Principal  <br/> ||
+|**CallType** <br/> |nvarchar  <br/> || Valores permitidos: <br/>  0 -- Desconocido <br/>  1- Mensajería instantánea <br/>  2-- Uso compartido de aplicaciones <br/>  3 -- Audio <br/>  4- Audio y vídeo <br/>  5- Transferencia de archivos <br/> |
    
 

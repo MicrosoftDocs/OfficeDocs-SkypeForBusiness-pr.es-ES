@@ -1,8 +1,8 @@
 ---
-title: Troncalización SIP de sitio de sucursal en Skype empresarial Server
+title: Enlace troncal SIP de sitio de sucursal en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
-description: Obtenga más información sobre la Troncalización SIP en sucursales en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 158c1cff28ba0c21f5c995a1fe5b7dfdf2f9f150
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Obtenga información sobre el enlace troncal SIP en sitios de sucursal en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: f8b875fca8adc1ac78c0b24cf3e53fab2ec2cd89
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803260"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813720"
 ---
-# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Troncalización SIP de sitio de sucursal en Skype empresarial Server
+# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Enlace troncal SIP de sitio de sucursal en Skype Empresarial Server
  
-Obtenga más información sobre la Troncalización SIP en sucursales en Skype empresarial Server Enterprise Voice.
+Obtenga información sobre el enlace troncal SIP en sitios de sucursal en Skype Empresarial Server Telefonía IP empresarial.
   
-En algunos casos, es posible que necesites implementar el troncal de SIP distribuido en los sitios de sucursales seleccionados. Para determinar si es necesario un tronco de SIP para un sitio de sucursal y para obtener información sobre las opciones de topología admitidas para la implementación de los troncos SIP en sitios de sucursales, consulte el [enlace troncal de SIP en Skype empresarial Server](sip-trunking.md).
+En algunos casos, es posible que deba implementar el enlace troncal SIP distribuido en los sitios de sucursal seleccionados. Para determinar si se necesita un tronco SIP para un sitio de sucursal y para obtener más información sobre las opciones de topología admitidas para implementar troncos SIP en sitios de sucursal, consulte Enlace troncal SIP en [Skype Empresarial Server.](sip-trunking.md)
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Ejemplo de análisis de requisitos de un tronco SIP de sitio de sucursal
 
-Si decide implementar un tronco SIP de sitio de sucursal, debe realizar un análisis de costos específico del sitio. Por ejemplo, una empresa que tiene un sitio central en Redmond, Washington y un sitio de sucursal en Nueva York debe realizar un análisis para determinar si implementar un tronco SIP desde el sitio de Nueva York a un proveedor de servicios locales.
+Cuando decide implementar un tronco SIP de sitio de sucursal, debe realizar un análisis de costos específico del sitio. Por ejemplo, una empresa que tiene un sitio central en Redmond, Washington y una sucursal en Nueva York, debe realizar un análisis para determinar si se va a implementar un tronco SIP desde el sitio de Nueva York a un proveedor de servicios local.
   
-Para determinar si un tronco SIP distribuido en Nueva York es rentable, identifica qué números de llamada directa a la extensión (DID) usarán el tronco SIP y analiza la cantidad de llamadas que Nueva York realiza a áreas que no sean Redmond (425). Puede haber finalizado el sitio de la sucursal en el sitio central. Por ejemplo, el sitio central de Redmond puede hospedar números para el sitio de sucursal de Nueva York. Si el precio de la implementación de un tronco de SIP distribuido es menor que el precio de esas llamadas, considere la posibilidad de implementar un tronco del SIP en el sitio de la sucursal de Nueva York. 
+Para determinar si un tronco SIP distribuido en Nueva York es rentable, identifique qué números DID usarán el tronco SIP y analice la cantidad de llamadas que Nueva York realiza a áreas que no sean Redmond (425). Puede tener la terminación DID para el sitio de sucursal en el sitio central. Por ejemplo, el sitio central de Redmond puede hospedar números DID para la sucursal de Nueva York. Si el costo de implementar un tronco SIP distribuido es menor que el costo de esas llamadas, considere la posibilidad de implementar un tronco SIP en la sucursal de Nueva York. 
   
 ## <a name="other-branch-site-sip-trunk-requirements"></a>Otros requisitos de un tronco SIP de sitio de sucursal
 
-La elección entre implementar un tronco SIP en lugar de una puerta de enlace se basa en la diferencia entre las tarifas de la red telefónica conmutada (RTC) de larga distancia de cada opción. Si implementa un tronco SIP de sitio de sucursal, también necesita determinar los requisitos de resistencia y ancho de banda. Si el vínculo entre el sitio de la sucursal y el sitio central es resistente y tiene suficiente ancho de banda, puede implementar un tronco SIP o una puerta de enlace. No es necesario implementar una aplicación de rama que sea superviviente en el sitio de la sucursal. Si el vínculo entre el sitio de la sucursal y el sitio central no es resistente, implemente un dispositivo de sucursal con la supervivencia o implemente un servidor de sucursal que sea reviviente con una puerta de enlace o un tronco SIP en el sitio de la sucursal. 
+La elección entre implementar un tronco SIP en lugar de una puerta de enlace se basa en la diferencia entre las tarifas RTC de larga distancia de cada opción. Si implementa un tronco SIP de sitio de sucursal, también debe determinar los requisitos de resistencia y ancho de banda. Si el vínculo entre el sitio de sucursal y el sitio central es resistente y tiene suficiente ancho de banda, puede implementar un tronco SIP o una puerta de enlace. No es necesario implementar una aplicación de sucursal con funciones de supervivencia en el sitio de sucursal. Si el vínculo entre el sitio de sucursal y el sitio central no es resistente, implemente una aplicación de sucursal con funciones de supervivencia o implemente un servidor de sucursal con funciones de supervivencia con una puerta de enlace o un tronco SIP en el sitio de sucursal. 
   
 

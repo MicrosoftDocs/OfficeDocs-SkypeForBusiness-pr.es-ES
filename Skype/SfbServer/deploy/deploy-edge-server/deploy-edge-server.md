@@ -1,8 +1,8 @@
 ---
-title: Implementar el servidor perimetral en Skype empresarial Server
+title: Implementar el servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,38 +14,38 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
-description: 'Resumen: Aprenda a implementar un servidor perimetral o un grupo perimetral en su entorno de Skype empresarial Server.'
-ms.openlocfilehash: ca0fba35165c05ab9cdf6010c3c5dd076ec1ea5b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumen: obtenga información sobre cómo implementar un servidor perimetral o un grupo de servidores perimetrales en su entorno de Skype Empresarial Server.'
+ms.openlocfilehash: edd2ff501320c4252b8032d1528ede7b83b8fcd6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768323"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804390"
 ---
-# <a name="deploy-edge-server-in-skype-for-business-server"></a>Implementar el servidor perimetral en Skype empresarial Server
+# <a name="deploy-edge-server-in-skype-for-business-server"></a>Implementar el servidor perimetral en Skype Empresarial Server
  
-**Resumen:** Aprenda a implementar un servidor perimetral o un grupo perimetral en su entorno de Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo implementar un servidor perimetral o un grupo de servidores perimetrales en su entorno de Skype Empresarial Server.
   
-¿Por qué implementar un servidor perimetral o un grupo de límites en el entorno de Skype empresarial Server? Es necesario si necesita usuarios externos que no han iniciado sesión en la red interna de su organización para poder interactuar con usuarios internos. Estos usuarios externos podrían ser usuarios remotos anónimos y autenticados, socios federados u otros clientes móviles.
+¿Por qué implementar un servidor perimetral o un grupo de servidores perimetrales en su entorno de Skype Empresarial Server? Es necesario si necesita usuarios externos que no hayan iniciado sesión en la red interna de su organización para poder interactuar con usuarios internos. Estos usuarios externos podrían ser usuarios remotos autenticados y anónimos, socios federados u otros clientes móviles.
   
-## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Lista de comprobación de la implementación del borde para Skype empresarial Server
+## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Lista de comprobación de implementación para el servidor perimetral para Skype Empresarial Server
 
-Como se mencionó anteriormente, un lote entra en una implementación de servidor perimetral para Skype empresarial Server. Esta lista de comprobación le ofrece una descripción general de las tareas que tendrá que realizar, así como vínculos a pasos más detallados.
+Como se mencionó anteriormente, mucho va a una implementación de servidor perimetral para Skype Empresarial Server. Esta lista de comprobación proporciona información general sobre las tareas que deberá realizar y vínculos a pasos más detallados.
   
-Esperamos que haya comenzado en la sección [Plan for Edges Deployments in the Edge Server de Skype empresarial Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . Si no es así, muchas de las cosas a las que nos referimos se detallan allí. La sección de implementación contiene solo los procedimientos, por lo que si desea conocer la lógica que impera en estos pasos, la planificación es el lugar en el que empezar.
+Esperamos que haya comenzado en la sección Plan para implementaciones de servidores perimetrales [en Skype Empresarial Server.](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Si no es así, muchas de las cosas a las que nos referimos se detallan allí. La sección de implementación contiene solo procedimientos, por lo que si desea conocer los motivos de estos pasos, la planeación es el lugar donde comenzar.
   
-En esta documentación también se presupone que ya ha completado la implementación básica de Skype empresarial Server. Es posible que esté haciendo esta implementación en paralelo con el borde, pero primero debe seguir los pasos que se indican a continuación y, después, podrá realizar los cambios de topología para el borde que se documenta aquí.
+En esta documentación también se da por hecho que ya ha completado la implementación básica de Skype Empresarial Server. Es posible que esté realizando esa implementación en paralelo con el servidor perimetral, pero primero debe seguir estos pasos y, a continuación, podrá realizar los cambios de topología para el servidor perimetral que se documentan aquí.
   
-Estos son los pasos de alto nivel que tendrá que seguir y los lugares en los que encontrará estos pasos:
+Estos son los pasos de alto nivel que deberá seguir y los lugares donde encontrará esos pasos:
   
-- [Requisitos del sistema del servidor perimetral en Skype empresarial Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+- [Requisitos del sistema del servidor perimetral en Skype Empresarial Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
     
-- [Requisitos ambientales para servidores perimetrales en Skype empresarial Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+- [Requisitos del entorno del servidor perimetral en Skype Empresarial Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
     
-- [Crear la topología perimetral para Skype empresarial Server](create-your-edge-topology.md)
+- [Crear la topología perimetral para Skype Empresarial Server](create-your-edge-topology.md)
     
-- [Implementar servidores perimetrales en Skype empresarial Server](deploy-edge-servers.md)
+- [Implementar servidores perimetrales en Skype Empresarial Server](deploy-edge-servers.md)
     
-- [Validar la implementación perimetral en Skype empresarial Server](validate-edge-deployment.md)
+- [Validar la implementación perimetral en Skype Empresarial Server](validate-edge-deployment.md)
     
 

@@ -1,8 +1,8 @@
 ---
-title: Reglas de traducción en Skype empresarial Server
+title: Reglas de conversión en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
-description: Obtenga más información sobre las reglas de traducción y la normalización de marcado de cadenas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: c82b925c9ef168d8a5f5e7ac730a93a53a432e2d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Obtenga información sobre las reglas de conversión y la normalización de cadenas de marcado en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 0c00776dae502bfd28bbe27e90012fabb6e25c93
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802400"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802690"
 ---
-# <a name="translation-rules-in-skype-for-business-server"></a>Reglas de traducción en Skype empresarial Server
+# <a name="translation-rules-in-skype-for-business-server"></a>Reglas de conversión en Skype Empresarial Server
 
-Obtenga más información sobre las reglas de traducción y la normalización de marcado de cadenas en Skype empresarial Server Enterprise Voice.
+Obtenga información sobre las reglas de conversión y la normalización de cadenas de marcado en Skype Empresarial Server Telefonía IP empresarial.
 
- La telefonía IP empresarial requiere normalizar todas las cadenas de marcado al formato E. 164 con el fin de realizar la búsqueda de números inversos (RNL). Se admiten las reglas de traducción para los números llamados números y números de llamadas. El tronco del mismo nivel (es decir, la puerta de enlace asociada, la central de conmutación (PBX) o el tronco del SIP) puede requerir que los números estén en un formato de marcado local. Para convertir números del formato E.164 a un formato de marcado local, puede definir una o más reglas de conversión para manipular el URI de solicitud antes de redirigirlo al tronco del mismo nivel que el tronco. Por ejemplo, puede escribir una regla de conversión para quitar +44 del inicio de la cadena de marcado y cambiarlo por 0144.
+ Enterprise Voice requiere que todas las cadenas de marcado se normalicen al formato E.164 con el objetivo de realizar la búsqueda inversa de números (RNL). Las reglas de conversión se admiten tanto para números llamados como para números de llamada. El sistema del mismo nivel (es decir, la puerta de enlace asociada, la central de conmutación (PBX) o el tronco SIP) puede requerir que los números se den en un formato de marcado local. Para convertir números del formato E.164 a un formato de marcado local, puede definir una o más reglas de conversión para manipular el URI de solicitud antes de enrutarlo a la entidad del mismo nivel que el tronco. Por ejemplo, puede escribir una regla de conversión para quitar +44 del inicio de la cadena de marcado y sustituirlo por 0144.
 
-Con la conversión de la ruta saliente del servidor, puedes reducir los requisitos de configuración de cada tronco del mismo nivel individual para convertir los números de teléfono en un formato de marcado local. Cuando se planean las puertas de enlace y el número de puertas de enlace para asociarlas con un clúster de servidor de mediación específico, puede resultar útil agrupar los pares de troncales con requisitos de marcado local similares. Así, se puede reducir la cantidad de reglas de conversión necesarias y el tiempo necesario para escribirlas.
+Mediante la conversión de la ruta saliente del servidor, se pueden reducir los requisitos de configuración de cada entidad del mismo nivel que el tronco individual para convertir los números de teléfono en un formato de marcado local. Al planear qué puertas de enlace y cuántas puertas de enlace se asociarán a un clúster de servidor de mediación específico, puede resultar útil agrupar troncos del mismo nivel con requisitos de marcado locales similares. De este modo, se puede reducir el número de reglas de conversión requeridas y el tiempo necesario para escribirlas.
 
 > [!IMPORTANT]
-> La Asociación de una o más reglas de traducción con una configuración de telefonía IP empresarial debe utilizarse como alternativa a la configuración de reglas de traducción en el sistema troncal. No asociar reglas de traducción con una configuración de troncal empresarial de voz si ha configurado reglas de traducción en el sistema troncal del mismo nivel, porque las dos reglas podrían entrar en conflicto.
+> La asociación de una o más reglas de conversión con una configuración de tronco Telefonía IP empresarial debe usarse como alternativa a la configuración de reglas de conversión en el tronco del mismo nivel. No asocie reglas de conversión con una configuración de tronco Telefonía IP empresarial si ha configurado reglas de conversión en el tronco del mismo nivel, porque las dos reglas pueden estar en conflicto.
 
 ## <a name="example-translation-rules"></a>Reglas de conversión de ejemplo
 
-Los siguientes ejemplos de reglas de conversión muestran cómo se pueden desarrollar reglas en el servidor para convertir números del formato E.164 a un formato local para el tronco del mismo nivel.
+Los siguientes ejemplos de reglas de conversión muestran cómo se pueden desarrollar reglas en el servidor para convertir números del formato E.164 a un formato local para la entidad del mismo nivel que el tronco.
 
-Para obtener más información sobre cómo implementar reglas de conversión, mira [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación referente a la implementación.
+Para obtener más información acerca de cómo implementar reglas de conversión, consulte [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación referente a la implementación.
 
-|**Descripción**|**Dígitos iniciales**|**Longitud**|**Dígitos que se van a quitar**|**Dígitos que se van a agregar**|**Patrón de comparación**|**Traducción**|**Ejemplo**|
+|**Descripción**|**Dígitos iniciales**|**Length**|**Dígitos que se van a quitar**|**Dígitos que se van a agregar**|**Patrón de comparación**|**Conversión**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Marcado convencional de larga distancia de EE. UU.  <br/> (separa ' + ')  <br/> |+1  <br/> |Exactamente 12  <br/> |1  <br/> |,0  <br/> |^\+(1 \ d{10}) $  <br/> |$1  <br/> |+14255551010 se convierte en 14255551010  <br/> |
-|Marcado internacional de larga distancia de EE. UU.  <br/> (destaque ' + ' y agregar 011)  <br/> |+  <br/> |11 como mínimo  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d +) $  <br/> |011$1  <br/> |+441235551010 se convierte en 011441235551010  <br/> |
+|Marcado convencional de larga distancia en EE.UU.  <br/> (quitar el '+')  <br/> |+1  <br/> |Exactamente 12  <br/> |1   <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 se convierte en 14255551010  <br/> |
+|Marcado internacional de larga distancia de EE.UU.  <br/> (quitar "+" y agregar 011)  <br/> |+  <br/> |11 como mínimo  <br/> |1   <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 se convierte en 011441235551010  <br/> |
 
 

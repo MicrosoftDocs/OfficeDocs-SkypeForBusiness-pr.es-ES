@@ -1,8 +1,8 @@
 ---
 title: Vista SessionDetails
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -12,68 +12,68 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
-description: La vista SessionDetails almacena información sobre sesiones de punto a punto, que podrían ser una llamada de teléfono VoIP-VoIP, una sesión de mensajería instantánea de dos proveedores u otro tipo de sesión. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: f1d0d68fe152f277c02c53fd87afdb0ea4e4ab0c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La vista SessionDetails almacena información sobre sesiones punto a punto, que podrían ser una llamada telefónica VoIP-VoIP, una sesión de mensajería instantánea (MI) entre dos partes o cualquier otro tipo de sesión. Esta vista se introdujo en Microsoft Lync Server 2013.
+ms.openlocfilehash: 71875dd1f3399b382c1fac3754436ada052873af
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814918"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809960"
 ---
 # <a name="sessiondetails-view"></a>Vista SessionDetails
  
-La vista SessionDetails almacena información sobre sesiones de punto a punto, que podrían ser una llamada de teléfono VoIP-VoIP, una sesión de mensajería instantánea de dos proveedores u otro tipo de sesión. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista SessionDetails almacena información sobre sesiones punto a punto, que podrían ser una llamada telefónica VoIP-VoIP, una sesión de mensajería instantánea (MI) entre dos partes o cualquier otro tipo de sesión. Esta vista se introdujo en Microsoft Lync Server 2013.
   
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se usa en conjunción con SessionIdSeq para identificar de forma única una sesión. Para obtener más información, consulte la tabla [de cuadros de diálogo en la tabla de Skype empresarial Server 2015](dialogs.md) . <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Número de identificación para identificar la sesión. Se usa en conjunción con SessionIdTime para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
-|**InviteTime** <br/> |datetime  <br/> |Hora de la primera solicitud de invitación. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información). Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).  <br/> |
-|**FromUri** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que inició la sesión.  <br/> |
-|**ToUr** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que se unió a la sesión.  <br/> |
-|**FromUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que inició la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**ToUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que se unió a la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**FromTenant** <br/> |nvarchar (450)  <br/> |Espacio empresarial del usuario que inició la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |El inquilino del usuario que se unió a la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
-|**FromEndpointId** <br/> |identificador  <br/> |Identificador único del extremo del usuario que inició la sesión.  <br/> |
-|**ToEndpointId** <br/> |identificador  <br/> |Identificador único del extremo del usuario que se unió a la sesión.  <br/> |
-|**EndTime** <br/> |datetime  <br/> |Hora de finalización de la sesión.  <br/> |
-|**FromMessageCount** <br/> |int  <br/> |Número de mensajes enviados por el usuario que inició la sesión.  <br/> |
-|**ToMessageCount** <br/> |int  <br/> |Número de mensajes enviados por el usuario que se unió a la sesión.  <br/> |
-|**FromClientVersion** <br/> |nvarchar(256)  <br/> |Versión del cliente usada por el usuario que inició la sesión.  <br/> |
-|**FromClientType** <br/> |int  <br/> |Cliente usado por el usuario que inició la sesión. Para obtener más información, consulta la [tabla UserAgentDef](useragentdef.md) . <br/> |
-|**FromClientCategory** <br/> |nvarchar (64)  <br/> |Nombre de la categoría del cliente que ha usado el usuario que inició la sesión.  <br/> |
-|**ToClientVersion** <br/> |nvarchar(256)  <br/> |Versión de cliente usada por el usuario que se unió a la sesión  <br/> |
-|**ToClientType** <br/> |int  <br/> |Cliente usado por el usuario que se unió a la sesión. Para obtener más información, consulta la [tabla UserAgentDef](useragentdef.md) . <br/> |
-|**ToClientCategory** <br/> |nvarchar (64)  <br/> |Nombre de la categoría del cliente que ha usado el usuario que se unió a la sesión.  <br/> |
-|**TargetUri** <br/> |nvarchar (450)  <br/> |URI del usuario de destino de la sesión.  <br/> |
-|**TargetUriType** <br/> |nvarchar (450)  <br/> |Tipo de URI del usuario de destino de la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**OnBehalfOfUri** <br/> |nvarchar (450)  <br/> |URI del usuario en cuyo nombre se inició la sesión.  <br/> |
-|**OnnnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario en cuyo nombre se inició la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario cuyo en nombre se ha iniciado la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
-|**ReferredByUri** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que remitió la sesión.  <br/> |
-|**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que ha remitido la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**ReferredByTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que remitió la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
-|**DialogId** <br/> |VARCHAR (775)  <br/> |IDENTIFICACIÓN del cuadro de diálogo SIP. El formato es:  <br/> cuadro de diálogo; desde: etiqueta; to-Tag  <br/> |
-|**CorrelationId** <br/> |identificador  <br/> |GUID que se usa para correlacionar varias sesiones.  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |Hora del cuadro de diálogo que se ha sustituido por la sesión. Se usa junto con ReplaceDialogIdSeq para identificar de forma exclusiva un cuadro de diálogo que se reemplaza por la sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |Número de identificación para identificar la sesión. Se usa junto con ReplaceDialogIdTime para identificar de forma exclusiva un cuadro de diálogo que se reemplaza por la sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
-|**ReplacesDialogId** <br/> |VARCHAR (775)  <br/> |IDENTIFICACIÓN del cuadro de diálogo SIP que reemplaza la sesión. El formato es:  <br/> cuadro de diálogo; desde: etiqueta; to-Tag  <br/> |
-|**ResponseTime** <br/> |datetime  <br/> |Hora de la respuesta al primer mensaje de invitación. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).  <br/> |
-|**ResponseCode** <br/> |int  <br/> |Código de respuesta SIP a la invitación de la sesión. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).  <br/> |
-|**DiagnosticId** <br/> |int  <br/> |IDENTIFICACIÓN de diagnóstico capturada de encabezados SIP.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se usa de forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión. Consulte la [tabla Cuadros de diálogo de la tabla de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**SessionIdSeq** <br/> |entero  <br/> |Número de identificador para identificar la sesión. Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión. Consulte la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**InviteTime** <br/> |datetime  <br/> |Fecha y hora de la primera solicitud INVITE. Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no existe el mensaje INVITE, el campo se rellenará con la fecha y hora del primer mensaje SIP relevante (BYE, CANCEL, MESSAGE o INFO). Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no existe el mensaje INVITE, el campo se rellenará con la fecha y hora del primer mensaje SIP relevante (BYE, CANCEL, MESSAGE o INFO).  <br/> |
+|**FromUri** <br/> |nvarchar(450)  <br/> |URI del usuario que inició la sesión.  <br/> |
+|**ToUri** <br/> |nvarchar(450)  <br/> |URI del usuario que se unió a la sesión.  <br/> |
+|**FromUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que inició la sesión. Vea la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**ToUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que se unió a la sesión. Vea la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**FromTenant** <br/> |nvarchar(450)  <br/> |Inquilino del usuario que inició la sesión. Vea la [tabla Inquilinos](tenants.md) para obtener más información. <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que se unió a la sesión. Vea la [tabla Inquilinos](tenants.md) para obtener más información. <br/> |
+|**FromEndpointId** <br/> |uniqueidentifier  <br/> |Identificador único del extremo del usuario que inició la sesión.  <br/> |
+|**ToEndpointId** <br/> |uniqueidentifier  <br/> |Identificador único del extremo del usuario que se unió a la sesión.  <br/> |
+|**EndTime** <br/> |datetime  <br/> |Fecha y hora de finalización de la sesión.  <br/> |
+|**FromMessageCount** <br/> |entero  <br/> |Número de mensajes que envió el usuario que inició la sesión.  <br/> |
+|**ToMessageCount** <br/> |entero  <br/> |Número de mensajes que envió el usuario que se unió a la sesión.  <br/> |
+|**FromClientVersion** <br/> |nvarchar(256)  <br/> |Versión de cliente que usa el usuario que inició la sesión.  <br/> |
+|**FromClientType** <br/> |entero  <br/> |Cliente que usa el usuario que inició la sesión. Vea la [tabla UserAgentDef](useragentdef.md) para obtener más información. <br/> |
+|**FromClientCategory** <br/> |nvarchar(64)  <br/> |Nombre de la categoría del cliente que usa el usuario que inició la sesión.  <br/> |
+|**ToClientVersion** <br/> |nvarchar(256)  <br/> |Versión de cliente que usa el usuario que se unió a la sesión  <br/> |
+|**ToClientType** <br/> |entero  <br/> |Cliente que usa el usuario que se unió a la sesión. Vea la [tabla UserAgentDef](useragentdef.md) para obtener más información. <br/> |
+|**ToClientCategory** <br/> |nvarchar(64)  <br/> |Nombre de la categoría del cliente que usa el usuario que se unió a la sesión.  <br/> |
+|**TargetUri** <br/> |nvarchar(450)  <br/> |URI del usuario destinatario de la sesión.  <br/> |
+|**TargetUriType** <br/> |nvarchar(450)  <br/> |Tipo de URI del usuario destinatario de la sesión. Vea la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**OnBehalfOfUri** <br/> |nvarchar(450)  <br/> |URI del usuario en cuyo nombre se inició la sesión.  <br/> |
+|**OnnnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario en cuyo nombre se inició la sesión. Vea la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario en cuyo nombre se inició la sesión. Vea la [tabla Inquilinos](tenants.md) para obtener más información. <br/> |
+|**ReferredByUri** <br/> |nvarchar(450)  <br/> |URI del usuario que hizo referencia a la sesión.  <br/> |
+|**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que hizo referencia a la sesión. Vea la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**ReferredByTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que hizo referencia a la sesión. Vea la [tabla Inquilinos](tenants.md) para obtener más información. <br/> |
+|**DialogId** <br/> |varchar(775)  <br/> |Identificador del diálogo SIP. El formato es:  <br/> dialog;from-tag;to-tag  <br/> |
+|**CorrelationId** <br/> |uniqueidentifier  <br/> |Identificador único global usado para correlacionar varias sesiones.  <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |Fecha y hora del diálogo que se sustituyó por la sesión. Se usa en combinación con ReplaceDialogIdSeq para identificar de forma exclusiva un diálogo que se sustituye con la sesión. Consulte la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**ReplaceDialogIdSeq** <br/> |entero  <br/> |Número de identificador de la sesión. Se usa en combinación con ReplaceDialogIdTime para identificar de forma exclusiva un diálogo que se sustituye con la sesión. Consulte la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**ReplacesDialogId** <br/> |varchar(775)  <br/> |El identificador de diálogo SIP que sustituye la sesión. El formato es:  <br/> dialog;from-tag;to-tag  <br/> |
+|**ResponseTime** <br/> |datetime  <br/> |Fecha y hora de la respuesta al primer mensaje INVITE. Este campo se suele rellenar con los datos generados a partir del mensaje INVITE inicial. Si no hay un mensaje INVITE, el campo se rellenará con la fecha y hora del primer mensaje SIP relevante (BYE, CANCEL, MESSAGE o INFO).  <br/> |
+|**ResponseCode** <br/> |entero  <br/> |Código de respuesta SIP a la invitación a la sesión. Este campo se suele rellenar con datos generados a partir del mensaje INVITE inicial de la sesión. Si no hay ningún mensaje INVITE, el campo se rellena con la hora y la fecha del primer mensaje SIP correspondiente (BYE, CANCEL, MESSAGE o INFO).  <br/> |
+|**DiagnosticId** <br/> |entero  <br/> |Identificador de diagnóstico capturado de los encabezados SIP.  <br/> |
 |**ContentType** <br/> |nvarchar(256)  <br/> |Tipo de contenido de la sesión.  <br/> |
-|**FrontEnd** <br/> |nvarchar(256)  <br/> |FQDN del servidor front-end que capturó los datos para la sesión.  <br/> |
-|**Grupo** <br/> |nvarchar(256)  <br/> |FQDN del grupo de servidores que ha capturado los datos de la sesión.  <br/> |
-|**FromEdgeServer** <br/> |nvarchar(256)  <br/> |FQDN del servidor perimetral usado por el usuario que inició la sesión.  <br/> |
-|**ToEdgeServer** <br/> |nvarchar(256)  <br/> |FQDN del servidor perimetral usado por el usuario que inició la sesión  <br/> |
-|**IsFromInternal** <br/> |bit  <br/> |Indica si el usuario que inició la sesión inició sesión en la red interna.  <br/> |
-|**IsToInternal** <br/> |bit  <br/> |Indica si el usuario que se unió a la sesión ha iniciado sesión en la red interna.  <br/> |
-|**CallPriority** <br/> |nvarchar(256)  <br/> |Prioridad de la llamada de la sesión.  <br/> |
-|**FromUserFlag** <br/> |smallint  <br/> |Indica los atributos del usuario que inició la sesión. Se permiten las siguientes definiciones de atributo:  <br/> 0x01: integrado con un teléfono de escritorio  <br/> |
-|**ToUserFlag** <br/> |smallint  <br/> |Indica los atributos del usuario que inició la sesión. Se permiten las siguientes definiciones de atributo:  <br/> 0x01: integrado con un teléfono de escritorio  <br/> |
-|**CallFlag** <br/> |smallint  <br/> |Indica los atributos de la llamada. Se permiten las siguientes definiciones de atributo:  <br/> 0x01-reintento de sesión  <br/> 0x02: una llamada realizada por el agente en nombre de un grupo de respuesta  <br/> |
-|**Ubicación** <br/> |VARCHAR (Max)  <br/> |Ubicación de la llamada de emergencia.  <br/> |
-|**LastModifiedTime** <br/> |Fechas  <br/> |Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Skype empresarial Server 2015.  <br/> |
+|**FrontEnd** <br/> |nvarchar(256)  <br/> |FQDN del servidor front-end que capturó los datos de la sesión.  <br/> |
+|**Grupo** <br/> |nvarchar(256)  <br/> |FQDN del grupo que capturó los datos de la sesión.  <br/> |
+|**FromEdgeServer** <br/> |nvarchar(256)  <br/> |FQDN del servidor perimetral que usa el usuario que inició la sesión.  <br/> |
+|**ToEdgeServer** <br/> |nvarchar(256)  <br/> |FQDN del servidor perimetral que usa el usuario que inició la sesión  <br/> |
+|**IsFromInternal** <br/> |bit  <br/> |Indica si el usuario que inició la sesión se conectó desde la red interna.  <br/> |
+|**IsToInternal** <br/> |bit  <br/> |Indica si el usuario que se unió a la sesión se conectó desde la red interna.  <br/> |
+|**CallPriority** <br/> |nvarchar(256)  <br/> |Prioridad de llamada de la sesión.  <br/> |
+|**FromUserFlag** <br/> |smallint  <br/> |Indica los atributos del usuario que inició la sesión. Las definiciones de atributos permitidas son las siguientes:  <br/> 0x01 - Integrado en teléfono de escritorio  <br/> |
+|**ToUserFlag** <br/> |smallint  <br/> |Indica los atributos del usuario que inició la sesión. Las definiciones de atributos permitidas son las siguientes:  <br/> 0x01 - Integrado en teléfono de escritorio  <br/> |
+|**CallFlag** <br/> |smallint  <br/> |Indica los atributos de llamada. Se permiten las siguientes definiciones de atributo:  <br/> 0x01 - Reintento de sesión  <br/> 0x02 - Una llamada realizada por un agente en nombre de un Grupo de respuesta  <br/> |
+|**Location** <br/> |varchar(max)  <br/> |Ubicación de una llamada de emergencia.  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> |Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Skype Empresarial Server 2015.  <br/> |
    
 

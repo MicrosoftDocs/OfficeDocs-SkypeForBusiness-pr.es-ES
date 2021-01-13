@@ -1,8 +1,8 @@
 ---
 title: Combinar información heredada
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
-description: El FQDN externo de las conferencias web permite a los usuarios externos unirse a reuniones locales. Escriba el nombre de dominio completo (FQDN) de la interfaz externa de conferencias web del servidor perimetral heredado.
-ms.openlocfilehash: 8572436ac1f72b5aed611dbaee53e93b68e98e81
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: El nombre de dominio completo externo de conferencia web permite a los usuarios externos participar de reuniones locales. Especifique el nombre de dominio completo (FQDN) de la interfaz externa de la conferencia web del servidor perimetral heredado.
+ms.openlocfilehash: bd259179ea61e20efec2fca81bddd40b0c53f97f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795371"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805710"
 ---
 # <a name="legacy-merge"></a>Combinar información heredada
 
-El **FQDN externo de las conferencias web** permite a los usuarios externos unirse a reuniones locales. Escriba el nombre de dominio completo (FQDN) de la interfaz externa de conferencias web del servidor perimetral heredado.
+El **nombre de dominio completo externo de conferencia web** permite a los usuarios externos participar de reuniones locales. Especifique el nombre de dominio completo (FQDN) de la interfaz externa de la conferencia web del servidor perimetral heredado.
 
-El valor de **Puerto externo de conferencias web externas** de **443** es el puerto de protocolo de inicio de sesión (SIP) del Protocolo de control de transmisión predeterminado (TCP) configurado para los clientes de conferencia. Si no se usó el valor predeterminado, actualice el valor del **Puerto externo de las conferencias web externas** .
+El valor de **Puerto de conferencia web externo** de **443** es el puerto TCP (protocolo de control de transmisión) de SIP (protocolo de inicio de sesión) predeterminado para clientes de conferencia. Si no se usó el valor predeterminado, actualice el valor de **Puerto de conferencia web externo**.
 
-Seleccione la casilla **este grupo de bordes se usa para la Federación y conectividad de mensajería instantánea pública** si tiene previsto usar este servidor perimetral para la Federación. Si tiene varios servidores perimetrales implementados, solo uno de ellos estará habilitado para la Federación. Si no activa esta casilla y decide más tarde que desea habilitar la Federación, debe volver a ejecutar el Asistente para la combinación del generador de topología, así como publicar su topología. Para obtener más información, consulte [fase 4: combinar topologías](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).
+Marque la casilla que indica que **este grupo de servidores perimetrales se usa para federación y conectividad de IM pública** si tiene previsto usar este servidor perimetral para federación. Si tiene implementados varios servidores perimetrales, solo se habilitará uno de ellos para la federación. Si no marca esta casilla y más adelante decide que desea habilitar la federación, es necesario volver a ejecutar el asistente de Topology Builder, además de publicar la topología. Para obtener información detallada, consulte [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).
 
 

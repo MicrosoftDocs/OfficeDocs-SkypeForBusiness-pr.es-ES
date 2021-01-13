@@ -1,8 +1,8 @@
 ---
-title: Escenarios de servidores perimetrales en Skype empresarial Server
+title: Escenarios de servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -15,84 +15,84 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 'Resumen: Revise estos escenarios para ayudarle a planear la topología de servidores perimetrales en Skype empresarial Server.'
-ms.openlocfilehash: a1d721ffabb78985d90848784cd587bda96300d5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: revise estos escenarios para ayudarle a planear la topología del servidor perimetral en Skype Empresarial Server.'
+ms.openlocfilehash: cfcc1e8b34576fbec85464fb8d5e35903b47d8ef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803360"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813800"
 ---
-# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Escenarios de servidores perimetrales en Skype empresarial Server
+# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Escenarios de servidor perimetral en Skype Empresarial Server
  
-**Resumen:** Revise estos escenarios para ayudarle a planear la topología del servidor perimetral en Skype empresarial Server.
+**Resumen:** Revise estos escenarios para ayudarle a planear la topología del servidor perimetral en Skype Empresarial Server.
   
-Tenemos algunos diagramas de escenarios que le ayudarán a visualizar y a decidir qué topología de servidor perimetral de Skype empresarial Server desea implementar. Una vez que haya seleccionado un buen candidato, puede leer los requisitos del entorno que tendrá que abordar. Lo siguiente se aplica a cualquiera de los escenarios, por lo que lo mencionamos primero.
+Tenemos algunos diagramas de escenarios para ayudar a visualizar y decidir qué topología de servidor perimetral de Skype Empresarial Server desea implementar. Una vez que haya elegido un buen candidato, puede leer los requisitos del entorno que deberá cumplir. Lo siguiente es aplicable a cualquiera de los escenarios, por lo que lo mencionamos primero.
   
-Estas ilustraciones, que se muestran solo con fines de ejemplo (y como tal contienen ejemplos de datos de IPv4 e IPv6), no representan el flujo de comunicación real, sino una vista de alto nivel de su posible tráfico. También se puede ver información de los puertos en los Diagramas de puertos para cada escenario que se muestra a continuación.
+Estas cifras, que se muestran solo con fines de ejemplo (y como tal contienen datos de ejemplo IPv4 e IPv6), no representan el flujo de comunicación real, sino una vista de alto nivel del tráfico posible. Los detalles del puerto también se pueden ver en los diagramas de puerto para cada escenario siguiente.
   
-Los diagramas muestran .com para la interfaz externa y .net para la interna, que también es material de muestra. Por supuesto, sus propias entradas pueden ser muy diferentes cuando esté elaborando su propio plan perimetral final.
+Los diagramas muestran .com para la interfaz externa y .net para el interno, que también es material de ejemplo; Por supuesto, sus propias entradas pueden ser bastante diferentes cuando está reúnendo su propio plan perimetral final.
   
-No incluimos el director (que es un componente opcional) en ninguno de los diagramas, pero puede leer sobre esto por separado (se menciona en otros temas de planificación).
+No se incluye el director (que es un componente opcional) en ninguno de los diagramas, pero puede leerlo por separado (se menciona en otros temas de planeación).
   
-Como se indica anteriormente, hay datos de ejemplo de IPv6 en los diagramas. La mayor parte de la documentación del [plan de implementaciones de servidores perimetrales en Skype empresarial Server](edge-server-deployments.md) hará referencia a IPv4, pero ciertamente es compatible Si desea usar IPv6. Tenga en cuenta que necesitará direcciones IPv6 en el espacio de direcciones asignadas y que tendrán que funcionar con el direccionamiento interno y el externo, al igual que con IP de IPv4. Puede, con Windows, recurrir a la característica de pila doble, que es una pila de red diferente y separada para IPv4 e IPv6. Esto permitirá, si lo necesita, asignar las direcciones IPv4 e IPv6 simultáneamente.
+Como se indicó anteriormente, hay datos IPv6 de ejemplo en los diagramas. La mayor parte de la documentación de [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) hará referencia a IPv4, pero ciertamente es compatible si desea usar IPv6. Ten en cuenta que necesitarás direcciones IPv6 en el espacio de direcciones asignado y direccionamientos internos y externos, como con las DIRECCIONES IP IPv4. Puedes, gracias a Windows, usar la característica de pila dual, que es una pila de red independiente y distinta para IPv4 e IPv6. Esto le permitirá, si lo necesita, asignar direcciones IPv4 e IPv6 simultáneamente.
   
-Existen dispositivos NAT que permiten para NAT64 (IPv6 a IPv4) y NAT66 (IPv6 a IPv6)), y esto es válido para usar con Skype empresarial Server.
+Hay dispositivos NAT que permiten NAT64 (IPv6 a IPv4) y NAT66 (IPv6 a IPv6)) y esto es válido para su uso con Skype Empresarial Server.
   
 > [!IMPORTANT]
-> Si está usando el servicio de control de admisión de llamadas (CAC), tiene que usar IPv4 en la interfaz interna para que funcione. 
+> Si usa el servicio de control de admisión de llamadas (CAC), debe usar IPv4 en la interfaz interna para que funcione. 
   
-## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Un único servidor perimetral de Skype empresarial Server con direcciones IP privadas y NAT
+## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Servidor perimetral de Skype Empresarial Server consolidado único con direcciones IP privadas y NAT
 
-Con este escenario, no hay ninguna opción para la alta disponibilidad. Esto significa que gastará menos en hardware y tendrá una implementación más sencilla. Si la alta disponibilidad es una necesidad, compruebe los escenarios consolidados ampliados a continuación.
+Con este escenario, no hay ninguna opción para la alta disponibilidad. Esto significa que gastará menos en hardware y tendrá una implementación más sencilla. Si la alta disponibilidad es imprescindible, consulte los siguientes escenarios consolidados escalados.
   
-![Escenario perimetral para el perímetro consolidado único con IP privada por medio de NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![Escenario perimetral para servidor perimetral consolidado único con IP privada mediante NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
-### <a name="port-diagram"></a>Diagrama de puerto
+### <a name="port-diagram"></a>Diagrama de puertos
 
-También tenemos un diagrama de puertos para servidores únicos consolidados.
+También tenemos un diagrama de puertos para servidores perimetrales consolidados únicos.
   
-![Perímetro de la red para el perímetro consolidado escalado del escenario perimetral](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Perímetro de red para perímetro consolidado único de escenario perimetral](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
-## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Un único servidor perimetral de Skype empresarial Server con direcciones IP públicas
+## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Servidor perimetral de Skype Empresarial Server consolidado único con direcciones IP públicas
 
-Con este escenario, no hay ninguna opción para la alta disponibilidad. Esto significa que gastará menos en hardware y tendrá una implementación más sencilla. Si la alta disponibilidad es una necesidad, compruebe los escenarios consolidados ampliados a continuación.
+Con este escenario, no hay ninguna opción para la alta disponibilidad. Esto significa que gastará menos en hardware y tendrá una implementación más sencilla. Si la alta disponibilidad es imprescindible, consulte los siguientes escenarios consolidados escalados.
   
-![Escenario perimetral para el perímetro consolidado único con IP pública](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
+![Escenario perimetral para servidor perimetral consolidado único con IP pública](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
-### <a name="port-diagram"></a>Diagrama de puerto
+### <a name="port-diagram"></a>Diagrama de puertos
 
-También tenemos un diagrama de puertos para servidores únicos consolidados.
+También tenemos un diagrama de puertos para servidores perimetrales consolidados únicos.
   
-![Perímetro de la red para el perímetro consolidado escalado del escenario perimetral](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Perímetro de red para perímetro consolidado único de escenario perimetral](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Grupo concentrado de Skype empresarial consolidado escalado, con equilibrio de carga de DNS, y direcciones IP privadas y NAT
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Grupo perimetral consolidado de Skype Empresarial Server escalado, con equilibrio de carga DNS, direcciones IP privadas y NAT
 
-Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le proporciona las ventajas de escalabilidad y compatibilidad con la conmutación por error.
+Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le ofrece las ventajas de la escalabilidad y la compatibilidad con la conmutación por error.
   
-![Escenario perimetral para el perímetro consolidado escalado, equilibrador de carga de DNS con IP privada por medio de NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![Escenario perimetral para servidor perimetral consolidado escalado, LB de DNS con IP privada mediante NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
-### <a name="port-diagram"></a>Diagrama de puerto
+### <a name="port-diagram"></a>Diagrama de puertos
 
-También tenemos un diagrama de grupos de límites consolidados con el equilibrio de carga de DNS.
+También tenemos un diagrama para grupos de servidores perimetrales consolidados escalados con equilibrio de carga de DNS.
   
-![Perímetro de la red para el perímetro consolidado escalado del escenario perimetral con equilibrador de carga de DNS](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Perímetro de red para perímetro consolidado escalado de escenario perimetral mediante DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Grupo de servidores perimetrales de Skype empresarial consolidado escalado con equilibrio de carga DNS y direcciones IP públicas
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Grupo perimetral consolidado de Skype Empresarial Server escalado, con equilibrio de carga DNS y direcciones IP públicas
 
-Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le proporciona las ventajas de escalabilidad y compatibilidad con la conmutación por error.
+Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le ofrece las ventajas de la escalabilidad y la compatibilidad con la conmutación por error.
   
-![Escenario perimetral para el perímetro consolidado escalado, equilibrador de carga de DNS con IP pública](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![Escenario perimetral para servidor perimetral consolidado escalado, LB de DNS con IP pública](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
-### <a name="port-diagram"></a>Diagrama de puerto
+### <a name="port-diagram"></a>Diagrama de puertos
 
-También tenemos un diagrama de grupos de límites consolidados con el equilibrio de carga de DNS.
+También tenemos un diagrama para grupos de servidores perimetrales consolidados escalados con equilibrio de carga de DNS.
   
-![Perímetro de la red para el perímetro consolidado escalado del escenario perimetral con equilibrador de carga de DNS](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Perímetro de red para perímetro consolidado escalado de escenario perimetral mediante DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Grupo de servidores perimetrales de Skype empresarial consolidado escalado con equilibrio de carga de hardware
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Grupo perimetral consolidado escalado de Skype Empresarial Server, con equilibrio de carga de hardware
 
-Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le proporciona las ventajas de escalabilidad y compatibilidad con la conmutación por error.
+Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le ofrece las ventajas de la escalabilidad y la compatibilidad con la conmutación por error.
   
-![Escenario perimetral para el perímetro consolidado escalado con equilibrador de carga de hardware](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![Escenario perimetral para servidor perimetral consolidado escalado con HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

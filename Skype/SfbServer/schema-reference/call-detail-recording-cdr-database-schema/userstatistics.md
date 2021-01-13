@@ -1,8 +1,8 @@
 ---
 title: Tabla UserStatistics
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-description: La tabla UserStatistics es una tabla de soporte. Cada registro de la tabla almacena información sobre el uso del sistema por un usuario individual. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 048c26279deb6f89e69784d754567dfde84d9983
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La tabla UserStatistics es una tabla auxiliar. Cada registro de la tabla almacena información sobre el uso del sistema por parte de un usuario individual. Esta tabla se introdujo en Microsoft Lync Server 2013.
+ms.openlocfilehash: 65017c9f807b272097b39bac88c80cc81e617ff4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814798"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813110"
 ---
 # <a name="userstatistics-table"></a>Tabla UserStatistics
  
-La tabla UserStatistics es una tabla de soporte. Cada registro de la tabla almacena información sobre el uso del sistema por un usuario individual. Esta tabla se introdujo en Microsoft Lync Server 2013.
+La tabla UserStatistics es una tabla auxiliar. Cada registro de la tabla almacena información sobre el uso del sistema por parte de un usuario individual. Esta tabla se introdujo en Microsoft Lync Server 2013.
   
-|**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
+|**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**Iddeusuario** <br/> |int  <br/> |Primary  <br/> |Número único que identifica a este usuario.  <br/> |
-|**LastLogInTime** <br/> |datetime  <br/> ||La última vez que el usuario inició sesión.  <br/> |
-|**LastConfOrganizedTime** <br/> |datetime  <br/> ||La última vez que el usuario organizó una conferencia.  <br/> |
-|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||La última vez que el usuario experimentó un error de llamada.  <br/> |
-|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||La última vez que el usuario experimentó un error de llamada como organizador de la Conferencia.  <br/> |
+|**UserId** <br/> |entero  <br/> |Principal  <br/> |Número único que identifica a este usuario.  <br/> |
+|**LastLogInTime** <br/> |datetime  <br/> ||Hora de la última vez que el usuario inició sesión.  <br/> |
+|**LastConfOrganizedTime** <br/> |datetime  <br/> ||Última vez que el usuario organizó una conferencia.  <br/> |
+|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||Última vez que el usuario tuvo un error de llamada.  <br/> |
+|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||Última vez que el usuario tuvo un error de llamada como organizador de conferencia.  <br/> |
    
 

@@ -1,7 +1,7 @@
 ---
-title: Implementaciones locales de bosques múltiples de Sistema de salas de Skype
-ms.author: v-lanac
-author: lanachin
+title: Implementaciones locales de varios bosques del Sistema de sala de Skype
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
-description: Lea este tema para obtener información sobre cómo implementar Sistema de salas de Skype en un entorno local de varios bosques.
-ms.openlocfilehash: ac9a5edac94d182812aefaf9eb817765c7af6444
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Lea este tema para obtener información sobre cómo implementar el Sistema de sala de Skype en un entorno local de varios bosques.
+ms.openlocfilehash: 168244033a681b9aa9dc6e4c9697b7e3c7e89127
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768823"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805750"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Implementaciones locales de bosques múltiples de Sistema de salas de Skype
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Implementaciones locales de varios bosques del Sistema de sala de Skype
  
-Lea este tema para obtener información sobre cómo implementar Sistema de salas de Skype en un entorno local de varios bosques.
+Lea este tema para obtener información sobre cómo implementar el Sistema de sala de Skype en un entorno local de varios bosques.
   
 > [!NOTE]
-> Para poder realizar la implementación en varios bosques, el sistema de salas de Skype requiere Exchange Server 2013 CU6 publicado el 26 de agosto de 2014. Evita volver a usar un buzón existente para el sistema de salas de Skype. Use un buzón de recursos nuevo (eliminar antiguo buzón y volver a crear) para el sistema de salas de Skype. Para restaurar las reuniones perdidas eliminando el buzón de correo, vea [conectar o restaurar un buzón eliminado](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
+> Para implementar en varios bosques, El Sistema de sala de Skype requiere Exchange Server 2013 CU6 publicado el 26 de agosto de 2014. Evite volver a usar un buzón existente para el Sistema de sala de Skype. Use un nuevo buzón de recursos (elimine el buzón antiguo y vuelva a crearlo) para el Sistema de sala de Skype. Para restaurar las reuniones perdidas eliminando el buzón, consulte [Conectar o restaurar un buzón eliminado.](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx) 
   
-Después de crear el buzón, puede usar Set-CalendarProcessing para configurarlo. Consulte los pasos 3 a 6 de Implementaciones locales de un solo bosque para obtener más detalles. Después de crear un buzón de recursos de Exchange para el sistema de salas de Skype, habilite la cuenta de Skype empresarial siguiendo los pasos que se indican en habilitar las cuentas del sistema de salas de Skype para Skype empresarial en implementaciones locales de bosque único.
+Después de crear el buzón, puede usar Set-CalendarProcessing para configurar el buzón. Consulte los pasos del 3 al 6 en Implementaciones locales de bosque único para obtener más información. After creating an Exchange Resource mailbox for Skype Room System, enable the account for Skype for Business by following the steps in Enabling Skype Room System Accounts for Skype for Business under Single forest on-premises deployments.
   
-## <a name="option-1-create-a-new-resource-mailbox"></a>Opción 1: crear un nuevo buzón de recursos
+## <a name="option-1-create-a-new-resource-mailbox"></a>Opción 1: Crear un nuevo buzón de recursos
 
-Para implementar el sistema de salas de Skype en un entorno de varios bosques:
+Para implementar el Sistema de sala de Skype en un entorno de varios bosques:
   
 1. Crear un usuario vinculado (LinkedRoomTest) en Active Directory (bosque de autenticación).
     
-2. Ejecute los siguientes comandos en el Shell de administración de Exchange Server:
+2. Ejecute los comandos siguientes en el Shell Exchange Server administración de contenido:
     
    ```powershell
    $cred = Get-Credential AuthForest\LinkedRoomTest
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Opción 2: cambiar un buzón de sala existente a buzón de recursos de sistema de sala de Skype (vinculado)
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Opción 2: Cambiar un buzón de sala existente al buzón de recursos del Sistema de sala de Skype (vinculado)
 
 ```powershell
 $cred=Get-Credential AuthForest\LinkedRoomTest1

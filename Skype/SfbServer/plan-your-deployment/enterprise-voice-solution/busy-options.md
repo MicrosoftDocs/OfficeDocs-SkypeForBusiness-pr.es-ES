@@ -1,8 +1,8 @@
 ---
-title: Plan para Opciones de disponibilidad para Skype Empresarial Server
+title: Plan for Busy Options for Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,102 +14,102 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
-description: Obtenga más información sobre la característica de opciones de ocupado en Skype empresarial Server.
-ms.openlocfilehash: cf9ee9dbb3785804b1bb63f4118a29d29cf7715c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Lea acerca de la característica Opciones de disponibilidad en Skype Empresarial Server.
+ms.openlocfilehash: 558d7486ca7aaa794c3114f5c210702a54e02fc4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803250"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813700"
 ---
-# <a name="plan-for-busy-options-for-skype-for-business-server"></a>Plan para Opciones de disponibilidad para Skype Empresarial Server
+# <a name="plan-for-busy-options-for-skype-for-business-server"></a>Plan for Busy Options for Skype for Business Server
  
-Obtenga más información sobre la característica de opciones de ocupado en Skype empresarial Server.
+Lea acerca de la característica Opciones de disponibilidad en Skype Empresarial Server.
   
-Opciones de disponibilidad es una nueva directiva de voz introducida en la actualización acumulativa de julio de 2016 que permite configurar el tratamiento dado a las llamadas entrantes cuando un usuario ya está al teléfono o en una conferencia, o tiene una llamada en espera. Las llamadas nuevas o entrantes pueden rechazarse con una señal de línea ocupada o desviarse al correo de voz. 
+Opciones de disponibilidad es una nueva directiva de voz introducida en la actualización acumulativa de julio de 2016 que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia, o tiene una llamada en espera. Las llamadas nuevas o entrantes pueden rechazarse con una señal de disponibilidad o reenviarse al correo de voz. 
   
-La directiva de opciones de disponibilidad se admite para la recuperación ante desastres y la conmutación por error en grupos de servidores front-end emparejados y servidores de sucursal con funciones de supervivencia (SBS).
+La directiva Opciones de disponibilidad es compatible con la conmutación por error y la recuperación ante desastres en grupos de servidores front-end emparejados y servidores de sucursal con funciones de supervivencia (SBS).
   
-En este tema se describen las características de Opciones de disponibilidad. Para obtener información sobre cómo instalar y configurar Opciones de disponibilidad, vea [Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
+En este tema se describen las características de Opciones de disponibilidad. Para obtener información sobre cómo instalar y configurar Opciones de disponibilidad, consulte Instalar y configurar opciones de disponibilidad [para Skype Empresarial Server.](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)
   
 ## <a name="configuration-options"></a>Opciones de configuración
 
-Si Opciones de disponibilidad está habilitada para la organización, todos los usuarios que formen parte de esta, tanto los que usen la telefonía IP empresarial como los que no la usen, pueden utilizar las siguientes características:
+Si Opciones de disponibilidad está habilitada para la organización, todos los usuarios de la organización, tanto los Telefonía IP empresarial como los que no Telefonía IP empresarial, pueden usar las siguientes características:
   
-- Ocupado cuando ocupado: en la cual se rechazan las llamadas entrantes nuevas con una señal de línea ocupada si el usuario está ocupado.
+- Ocupado en Ocupado: en el que se rechazarán las nuevas llamadas entrantes con una señal de ocupado si el usuario está ocupado.
     
-- Correo de voz cuando ocupado: en la cual se desvían al correo de voz las llamadas entrantes nuevas si el usuario está ocupado.
+- Correo de voz en Ocupado: en el que las nuevas llamadas entrantes se reenviarán al correo de voz si el usuario está ocupado.
     
-La característica Opciones de disponibilidad ofrece una capacidad de conmutación por error. Si se produce un problema y los usuarios conmutan por error a otro servidor front-end o a otro grupo de Skype empresarial Server, se conservará la configuración de las opciones de ocupado.
+La característica Opciones de disponibilidad proporciona capacidad de conmutación por error. Si se produce un problema y los usuarios conmutan por error a otro servidor front-end o a otro grupo en Skype Empresarial Server, se conservará la configuración de Opciones de disponibilidad.
   
-Independientemente de cómo esté configurada Opciones de disponibilidad, los usuarios que estén al teléfono o en una conferencia, o bien aquellos que tengan una llamada en espera, podrán iniciar nuevas llamadas o conferencias.   
+Independientemente de cómo se configuren sus opciones de disponibilidad, los usuarios de una llamada o conferencia, o aquellos con una llamada en espera, no se les impide iniciar nuevas llamadas o conferencias. 
   
-Después de la configuración, la configuración de opciones de ocupado está activada para todos los clientes y dispositivos de llamadas de Skype para empresas. En función de la configuración de Opciones de disponibilidad del usuario, la llamada que se rechace o se envíe al correo de voz no sonará en ninguno de los dispositivos de llamada del usuario (entre ellos, Macintosh, el escritorio de Windows, clientes móviles o teléfonos IP) en los que el usuario haya iniciado sesión. 
+Después de la configuración, la opción Opciones de disponibilidad está en vigor para todos los clientes y dispositivos de llamadas de Skype Empresarial del usuario. En función de la configuración de Opciones de disponibilidad del usuario, la llamada que se rechaza o se envía al correo de voz no sonará en ninguno de los dispositivos de llamada del usuario (incluidos Macintosh, Escritorio de Windows, clientes móviles o teléfonos IP) en los que el usuario haya iniciado sesión. 
   
-Los usuarios verán las notificaciones de llamadas perdidas en sus clientes y dispositivos de Skype empresarial, y también se les notificará por correo electrónico. A quienes se les haya rechazado una llamada por Ocupado cuando ocupado verán una notificación en el cliente de Skype Empresarial que indicará que el usuario al que intentaron contactar está ocupado en otra llamada.
+Los usuarios verán notificaciones de llamadas perdidas en sus dispositivos y clientes de Skype Empresarial, y también se les notificará por correo electrónico. Los autores de llamadas cuya llamada se rechazó debido a Ocupado en ocupado verán una notificación en su cliente de Skype Empresarial que indica que el usuario con el que intentaron contactar está ocupado en otra llamada.
   
-Puede configurar la característica opciones de ocupado con los cmdlets de PowerShell de Skype empresarial para:
+Puede configurar la característica Opciones de disponibilidad con los cmdlets de PowerShell de Skype Empresarial para:
   
 - Habilitar o deshabilitar la directiva de voz de Opciones de disponibilidad para la empresa.
     
-- Administrar Ocupado cuando ocupado o Correo de voz cuando ocupado para todos los usuarios de la empresa.
+- Administrar ocupado en ocupado o correo de voz en ocupado para todos los usuarios de la empresa.
     
-- Administrar Ocupado cuando ocupado o Correo de voz cuando ocupado para todos los usuarios alojados en un grupo de servidores front-end particular.
+- Administrar ocupado en ocupado o correo de voz en ocupado para todos los usuarios que se alojen en un grupo de servidores front-end determinado.
     
-- Administrar Ocupado cuando ocupado o Correo de voz cuando ocupado para una lista de usuarios.
+- Administrar ocupado en ocupado o correo de voz en ocupado para una lista de usuarios.
     
-- Administrar Ocupado cuando ocupado o Correo de voz cuando ocupado para un solo usuario.
+- Administrar ocupado en ocupado o correo de voz en ocupado para un solo usuario.
     
 ## <a name="interoperability-with-voice-applications"></a>Interoperabilidad con aplicaciones de voz
 
-Las opciones de ocupado proporcionan interoperabilidad con las siguientes aplicaciones de voz en Skype empresarial:
+Opciones de disponibilidad proporciona interoperabilidad con las siguientes aplicaciones de voz en Skype Empresarial:
   
 - Grupos de respuesta (RGS)
     
-  - El sistema omitirá los parámetros de configuración de Opciones de disponibilidad establecidos en los números de grupos de respuesta. Se permitirán varias llamadas simultáneas.  
+  - El sistema omitirá las opciones de disponibilidad establecidas en los números de grupo de respuesta; se permitirán varias llamadas simultáneas. 
     
-  - La experiencia de enrutamiento del operador actual en los grupos de respuesta no cambiará para los agentes con la configuración de Opciones de disponibilidad.
+  - La experiencia de enrutamiento del operador actual en grupos de respuesta no se modificará para la configuración de Agentes con Opciones de disponibilidad.
     
-  - Las llamadas que provengan de grupos de respuesta a los usuarios que sean agentes de grupos de respuesta no se verán limitadas por la configuración de Opciones de disponibilidad y se mantendrá la experiencia de RGS actual.
+  - Las llamadas procedentes de grupos de respuesta a los usuarios que son agentes de grupos de respuesta no se limitarán con la configuración de Opciones de disponibilidad y se mantendrá la experiencia actual de RGS.
     
-  - La configuración de Opciones de disponibilidad respetará las llamadas no relacionadas con RGS realizadas a los agentes.
+  - La configuración de Opciones de disponibilidad respetará las llamadas no relacionadas con RGS a los agentes.
     
 - Llamada de equipo
     
-  - Las llamadas entrantes a usuarios que se configuran para una llamada de equipo se priorizarán para ignorar ocupado en ocupado y el buzón de voz en la configuración de ocupado.
+  - Se dará prioridad a las llamadas entrantes a los usuarios que están configurados para una llamada de equipo para omitir la configuración ocupado en ocupado y correo de voz en ocupado.
     
-  - La experiencia actual de llamada de equipo no sufrirá cambios con los parámetros de configuración de Opciones de disponibilidad que se establezcan para los usuarios.
+  - La experiencia actual de llamada de equipo no cambiará con opciones de disponibilidad establecidas para los usuarios.
     
-  - La configuración de Opciones de disponibilidad respetará las llamadas que no estén relacionadas con las llamadas de equipo a tales usuarios.
+  - La configuración de Opciones de disponibilidad respetará las llamadas que no sean relacionadas con llamadas de equipo a dichos usuarios.
     
-- Delegación Jefe/Administrador  
+- Delegación jefe/administrador 
     
-  - Las llamadas entrantes a usuarios que se configuran para un jefe o delegación de administración como jefe o administrador se priorizarán para ignorar el buzón de voz ocupado y el buzón de voz en la configuración de ocupado.
+  - Se dará prioridad a las llamadas entrantes a los usuarios configurados para una delegación de jefe o administrador como jefe o administrador para omitir ocupado en ocupado y correo de voz en la configuración de ocupado.
     
-  - La experiencia actual de delegación de Jefe/Administrador no sufrirá cambios con los parámetros de configuración de Opciones de disponibilidad que se establezcan para los administradores o jefes.
+  - La experiencia actual de delegación jefe/administrador no cambiará con opciones de disponibilidad establecidas para los administradores o jefes.
     
-  - La configuración de Opciones de disponibilidad respetará las llamadas que no estén relacionadas con la delegación de Jefe/Administrador a los administradores.
+  - La configuración de Opciones de disponibilidad respetará las llamadas a administradores que no sean jefes o administradores.
     
-- Apariencia de línea compartida    
+- Apariencia de línea compartida 
     
-  - Se omitirá la configuración de Opciones de disponibilidad en las cuentas de usuario configuradas para la apariencia de línea compartida.  
+  - Se omitirá la configuración de Opciones de disponibilidad en las cuentas de usuario configuradas para apariencia de línea compartida. 
     
-  - La apariencia de línea compartida está ocupada de forma nativa en ocupado y el buzón de voz en las opciones de ocupado.
+  - En su lugar, se respetará la opción "Ocupado" nativo de apariencia de línea compartida y "Correo de voz en Ocupado".
     
-- Servicio de estacionamiento de llamadas  
+- Servicio de estacionamiento de llamadas 
     
-  - Las llamadas estacionadas que no se han recuperado y que estén sonando nuevamente debido al agotamiento del tiempo de espera podrán sonar en los dispositivos del usuario que las estacionó a través de Opciones de disponibilidad.  
+  - Las llamadas estacionadas que no se recuperaron y que están sonando debido al tiempo de inacurrida podrán sonar para el usuario que estacionó la llamada mediante Opciones de disponibilidad. 
     
 - Conferencia de llamadas
     
-  - Se considera que los usuarios que estén en llamadas de conferencia están ocupados, y se rechazarán todas las llamadas entrantes nuevas con una señal de línea ocupada o un envío al correo de voz de acuerdo con la configuración de Opciones de disponibilidad.
+  - Los usuarios de las llamadas de conferencia se consideran ocupados y las llamadas entrantes nuevas se rechazarán con una señal de ocupado o se reenviarán al correo de voz de acuerdo con la configuración de Opciones de disponibilidad.
     
-  - Opciones de disponibilidad no impide que los usuarios en conferencia inicien llamadas ni conferencias nuevas.
+  - Las opciones de disponibilidad no impiden que los usuarios de las conferencias inicien nuevas llamadas o conferencias.
     
-  - Los usuarios en conferencia todavía pueden recibir invitaciones a conferencias nuevas, pero se rechazarán las llamadas de par a par nuevas de acuerdo con la configuración de Opciones de disponibilidad.
+  - Los usuarios de las conferencias aún pueden recibir nuevas invitaciones a conferencias, pero las llamadas punto a punto nuevas se rechazarán según la configuración de Opciones de disponibilidad.
     
-- Desvío de llamadas y llamadas simultáneas
+- Llamadas simultáneas y reenvío de llamadas
     
-    La característica Ocupado cuando ocupado no se ha diseñado para funcionar con desvío de llamadas y llamadas simultáneas.
+    La característica Ocupado en ocupado no está diseñada para funcionar con llamadas simultáneas y el reenvío de llamadas.
     
 

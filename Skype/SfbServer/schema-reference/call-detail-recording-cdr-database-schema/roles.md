@@ -1,8 +1,8 @@
 ---
 title: Tabla Roles
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
-description: La tabla roles es una tabla estática que almacena la lista de posibles roles de conferencia, como asistente y moderador.
-ms.openlocfilehash: 8ebd01bc9cc51b33d28f87aa85be1473a6397201
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La tabla Roles es una tabla estática que almacena la lista de posibles roles de conferencia, como asistente y moderador.
+ms.openlocfilehash: 6c5e28ccd2d186b0122d70f91621a3365e6d2b07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814938"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809980"
 ---
 # <a name="roles-table"></a>Tabla Roles
  
-La tabla roles es una tabla estática que almacena la lista de posibles roles de conferencia, como asistente y moderador.
+La tabla Roles es una tabla estática que almacena la lista de posibles roles de conferencia, como asistente y moderador.
   
-|**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
+|**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**RoleId** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**Rol** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0: desconocido <br/>  1: moderador <br/>  2-asistente <br/> |
+|**RoleId** <br/> |tinyint  <br/> |Principal  <br/> ||
+|**Rol** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0 - Desconocido <br/>  1 - Moderador <br/>  2 - Asistente <br/> |
    
 
