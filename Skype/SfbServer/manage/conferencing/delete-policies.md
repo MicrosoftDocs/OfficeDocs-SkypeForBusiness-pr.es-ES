@@ -1,8 +1,8 @@
 ---
-title: Eliminar directivas de conferencia en Skype empresarial Server
+title: Eliminar directivas de conferencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,46 +11,46 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: 'Resumen: Aprenda a eliminar directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: 3fe5b8c2bb12f48cb6e904df2fe43c6c8a01e3f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo eliminar directivas de conferencia en Skype Empresarial Server.'
+ms.openlocfilehash: eedb0b3676f0cc046e6096dca2cb1ec5ced5d6ec
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818601"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828200"
 ---
-# <a name="delete-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="93d13-103">Eliminar directivas de conferencia en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="93d13-103">Delete conferencing policies in Skype for Business Server</span></span>
+# <a name="delete-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="d7bcd-103">Eliminar directivas de conferencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d7bcd-103">Delete conferencing policies in Skype for Business Server</span></span>
  
-<span data-ttu-id="93d13-104">**Resumen:** Aprenda a eliminar directivas de conferencia en Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="93d13-104">**Summary:** Learn how to delete conferencing policies in Skype for Business Server.</span></span>
+<span data-ttu-id="d7bcd-104">**Resumen:** Obtenga información sobre cómo eliminar directivas de conferencia en Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="d7bcd-104">**Summary:** Learn how to delete conferencing policies in Skype for Business Server.</span></span>
   
-<span data-ttu-id="93d13-105">Puede eliminar directivas de conferencia con el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="93d13-105">You can delete conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="d7bcd-105">Puede eliminar directivas de conferencia con el Panel de control de Skype Empresarial Server o con el Shell de administración de Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="d7bcd-105">You can delete conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
   
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="93d13-106">Eliminar directivas de conferencia con el panel de control de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="93d13-106">Delete conferencing policies by using Skype for Business Server Control Panel</span></span>
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="d7bcd-106">Eliminar directivas de conferencia con el Panel de control de Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d7bcd-106">Delete conferencing policies by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="93d13-107">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="93d13-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="d7bcd-107">Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.</span><span class="sxs-lookup"><span data-stu-id="d7bcd-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2.  <span data-ttu-id="93d13-108">Abra el panel de control de Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="93d13-108">Open Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="d7bcd-108">Abra el Panel de control de Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="d7bcd-108">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="93d13-109">En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de conferencia**.</span><span class="sxs-lookup"><span data-stu-id="93d13-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
+3. <span data-ttu-id="d7bcd-109">En la barra de navegación izquierda, haga clic **en Conferencia** y, a continuación, haga clic en Directiva **de conferencia.**</span><span class="sxs-lookup"><span data-stu-id="d7bcd-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
     
-4. <span data-ttu-id="93d13-110">En la lista de directivas de conferencia, haga clic en la directiva de usuario o en el sitio que desea eliminar, haga clic en **Editar** y, después, en **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="93d13-110">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4. <span data-ttu-id="d7bcd-110">En la lista de directivas de conferencia, haga clic en la directiva de sitio o usuario que desea eliminar, haga clic en Editar y, a continuación, haga clic en **Eliminar.**</span><span class="sxs-lookup"><span data-stu-id="d7bcd-110">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
     
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="93d13-111">Eliminar directivas de conferencia con el shell de administración de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="93d13-111">Delete conferencing policies by using Skype for Business Server Management Shell</span></span>
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="d7bcd-111">Eliminar directivas de conferencia con el Shell de administración de Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d7bcd-111">Delete conferencing policies by using Skype for Business Server Management Shell</span></span>
 
-<span data-ttu-id="93d13-112">Para eliminar las directivas de conferencia, use el cmdlet **Remove-CsConferencingPolicy**.</span><span class="sxs-lookup"><span data-stu-id="93d13-112">To delete conferencing policies, use the **Remove-CsConferencingPolicy** cmdlet.</span></span>
+<span data-ttu-id="d7bcd-112">Para eliminar directivas de conferencia, use el cmdlet **Remove-CsConferencingPolicy.**</span><span class="sxs-lookup"><span data-stu-id="d7bcd-112">To delete conferencing policies, use the **Remove-CsConferencingPolicy** cmdlet.</span></span>
   
-<span data-ttu-id="93d13-113">El comando siguiente quita la directiva de conferencia con el valor de identidad RedmondConferencingPolicy:</span><span class="sxs-lookup"><span data-stu-id="93d13-113">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
+<span data-ttu-id="d7bcd-113">El comando siguiente quita la directiva de conferencia con el valor de identidad RedmondConferencingPolicy:</span><span class="sxs-lookup"><span data-stu-id="d7bcd-113">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
   
 ```PowerShell
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
-<span data-ttu-id="93d13-114">El comando siguiente quita cualquier directiva de conferencia que permita que usuarios externos graben la conferencia:</span><span class="sxs-lookup"><span data-stu-id="93d13-114">The next command deletes any conferencing policies that allow external users to record the conference:</span></span>
+<span data-ttu-id="d7bcd-114">El siguiente comando elimina las directivas de conferencia que permiten a los usuarios externos grabar la conferencia:</span><span class="sxs-lookup"><span data-stu-id="d7bcd-114">The next command deletes any conferencing policies that allow external users to record the conference:</span></span>
   
 ```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
-<span data-ttu-id="93d13-115">Para obtener más información, incluida la sintaxis completa y una lista de parámetros, consulte [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="93d13-115">For more information, including complete syntax and a list of parameters, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="d7bcd-115">Para obtener más información, incluida la sintaxis completa y una lista de parámetros, vea [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="d7bcd-115">For more information, including complete syntax and a list of parameters, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).</span></span>
   
 

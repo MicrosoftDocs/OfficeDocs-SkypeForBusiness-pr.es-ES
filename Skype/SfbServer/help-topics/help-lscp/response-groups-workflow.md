@@ -1,8 +1,8 @@
 ---
 title: Flujo de trabajo de grupos de respuesta
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,52 +14,52 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
-description: Los grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo de grupos de respuesta definen las acciones que se realizan cuando la aplicación de grupo de respuesta recibe una llamada de teléfono.
-ms.openlocfilehash: c190398d49770037358e9cde879f0e1649330703
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo de grupo de respuesta definen las acciones que se toman cuando la aplicación Grupo de respuesta recibe una llamada de teléfono.
+ms.openlocfilehash: 7f35fc32670e6374be69430a72c506a0bf9fae5e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822363"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829290"
 ---
-# <a name="response-groups-workflow"></a><span data-ttu-id="db5fd-104">Flujo de trabajo de grupos de respuesta</span><span class="sxs-lookup"><span data-stu-id="db5fd-104">Response Groups Workflow</span></span>
+# <a name="response-groups-workflow"></a><span data-ttu-id="dce2b-104">Flujo de trabajo de grupos de respuesta</span><span class="sxs-lookup"><span data-stu-id="dce2b-104">Response Groups Workflow</span></span>
 
-<span data-ttu-id="db5fd-105">Los grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="db5fd-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="db5fd-106">Los flujos de trabajo de grupos de respuesta definen las acciones que se realizan cuando la aplicación de grupo de respuesta recibe una llamada de teléfono.</span><span class="sxs-lookup"><span data-stu-id="db5fd-106">Response Group workflows define the actions that are taken when the Response Group application receives a phone call.</span></span>
+<span data-ttu-id="dce2b-105">Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="dce2b-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="dce2b-106">Los flujos de trabajo de grupo de respuesta definen las acciones que se toman cuando la aplicación Grupo de respuesta recibe una llamada de teléfono.</span><span class="sxs-lookup"><span data-stu-id="dce2b-106">Response Group workflows define the actions that are taken when the Response Group application receives a phone call.</span></span>
 
-<span data-ttu-id="db5fd-107">En la página**flujo de trabajo** de **grupos** - de respuesta se muestra una lista de todos los flujos de trabajo de grupo de respuesta definidos para su organización.</span><span class="sxs-lookup"><span data-stu-id="db5fd-107">The **Response Groups** - **Workflow** page displays a list of all the Response Group workflows that are defined for your organization.</span></span>
+<span data-ttu-id="dce2b-107">La **página Flujo de trabajo** de grupos de respuesta muestra una lista de todos los flujos de trabajo de grupo de respuesta  -   definidos para su organización.</span><span class="sxs-lookup"><span data-stu-id="dce2b-107">The **Response Groups** - **Workflow** page displays a list of all the Response Group workflows that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="db5fd-108">Tareas que puede realizar</span><span class="sxs-lookup"><span data-stu-id="db5fd-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="dce2b-108">Tareas que puede realizar</span><span class="sxs-lookup"><span data-stu-id="dce2b-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="db5fd-109">Puede realizar las siguientes tareas desde la página \*\*\*\* - **flujo de trabajo** de grupos de respuesta:</span><span class="sxs-lookup"><span data-stu-id="db5fd-109">You can perform the following tasks from the **Response Groups** - **Workflow** page:</span></span>
+<span data-ttu-id="dce2b-109">Puede realizar las siguientes tareas desde la página Flujo de trabajo de **grupos**  -  **de** respuesta:</span><span class="sxs-lookup"><span data-stu-id="dce2b-109">You can perform the following tasks from the **Response Groups** - **Workflow** page:</span></span>
 
-- <span data-ttu-id="db5fd-110">Crear o cambiar un flujo de trabajo de grupo de captura</span><span class="sxs-lookup"><span data-stu-id="db5fd-110">Create or change a hunt group workflow</span></span>
+- <span data-ttu-id="dce2b-110">Crear o cambiar un flujo de trabajo de grupo de búsqueda</span><span class="sxs-lookup"><span data-stu-id="dce2b-110">Create or change a hunt group workflow</span></span>
 
-- <span data-ttu-id="db5fd-111">Crear o cambiar un flujo de trabajo interactivo</span><span class="sxs-lookup"><span data-stu-id="db5fd-111">Create or change an interactive workflow</span></span>
+- <span data-ttu-id="dce2b-111">Crear o cambiar el flujo de trabajo interactivo</span><span class="sxs-lookup"><span data-stu-id="dce2b-111">Create or change an interactive workflow</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="db5fd-112">Referencia de interfaz de usuario</span><span class="sxs-lookup"><span data-stu-id="db5fd-112">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="dce2b-112">Referencia de la interfaz de usuario</span><span class="sxs-lookup"><span data-stu-id="dce2b-112">UI Reference</span></span>
 
-<span data-ttu-id="db5fd-113">En la siguiente lista se describen los comandos de la página.</span><span class="sxs-lookup"><span data-stu-id="db5fd-113">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="dce2b-113">En la siguiente lista se describen los comandos de la página.</span><span class="sxs-lookup"><span data-stu-id="dce2b-113">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="db5fd-114">**Crear o editar un flujo de trabajo** Abre la herramienta de configuración de grupos de respuesta para crear o editar un flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="db5fd-114">**Create or edit a workflow** Opens the Response Group Configuration Tool for creating or editing a workflow.</span></span>
+- <span data-ttu-id="dce2b-114">**Crear o editar un flujo de trabajo** Abre la Herramienta de configuración de grupo de respuesta para crear o editar un flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="dce2b-114">**Create or edit a workflow** Opens the Response Group Configuration Tool for creating or editing a workflow.</span></span>
 
-- <span data-ttu-id="db5fd-115">**Actualizar** Actualiza la lista de flujos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="db5fd-115">**Refresh** Refreshes the list of workflows.</span></span>
+- <span data-ttu-id="dce2b-115">**Actualizar** Actualiza la lista de flujos de trabajo.</span><span class="sxs-lookup"><span data-stu-id="dce2b-115">**Refresh** Refreshes the list of workflows.</span></span>
 
-<span data-ttu-id="db5fd-116">En la siguiente lista se describen los campos de la página.</span><span class="sxs-lookup"><span data-stu-id="db5fd-116">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="dce2b-116">En la siguiente lista se describen los campos de la página.</span><span class="sxs-lookup"><span data-stu-id="dce2b-116">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="db5fd-117">**Nombre** El nombre único que se asigna al flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="db5fd-117">**Name** The unique name that is assigned to the workflow.</span></span>
+- <span data-ttu-id="dce2b-117">**Nombre** Nombre único asignado al flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="dce2b-117">**Name** The unique name that is assigned to the workflow.</span></span>
 
-- <span data-ttu-id="db5fd-118">**Servicio** El servicio **ApplicationServer** que hospeda el flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="db5fd-118">**Service** The **ApplicationServer** service that hosts the workflow.</span></span>
+- <span data-ttu-id="dce2b-118">**Servicio** El **servicio ApplicationServer** que hospeda el flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="dce2b-118">**Service** The **ApplicationServer** service that hosts the workflow.</span></span>
 
-- <span data-ttu-id="db5fd-119">**Dirección SIP** La dirección SIP del grupo que responderá las llamadas al flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="db5fd-119">**SIP address** The SIP address of the group that will answer calls to the workflow.</span></span>
+- <span data-ttu-id="dce2b-119">**Dirección SIP** La dirección SIP del grupo que responderá a las llamadas al flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="dce2b-119">**SIP address** The SIP address of the group that will answer calls to the workflow.</span></span>
 
-- <span data-ttu-id="db5fd-120">**Teléfono** El número de teléfono al que se llama para llegar a este grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="db5fd-120">**Telephone** The phone number that is called to reach this response group.</span></span>
+- <span data-ttu-id="dce2b-120">**Teléfono** Número de teléfono al que se llama para llegar a este grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="dce2b-120">**Telephone** The phone number that is called to reach this response group.</span></span>
 
-- <span data-ttu-id="db5fd-121">**Idioma** El idioma que se usa para el reconocimiento de voz y texto a voz.</span><span class="sxs-lookup"><span data-stu-id="db5fd-121">**Language** The language that is used for speech recognition and text-to-speech.</span></span>
+- <span data-ttu-id="dce2b-121">**Idioma** El idioma que se usa para el reconocimiento de voz y texto a voz.</span><span class="sxs-lookup"><span data-stu-id="dce2b-121">**Language** The language that is used for speech recognition and text-to-speech.</span></span>
 
-- <span data-ttu-id="db5fd-122">**IVR** Indica si el flujo de trabajo es un grupo de captura o un flujo de trabajo interactivo.</span><span class="sxs-lookup"><span data-stu-id="db5fd-122">**IVR** Indicates whether the workflow is a hunt group or an interactive workflow.</span></span>
+- <span data-ttu-id="dce2b-122">**IVR** Indica si el flujo de trabajo es un grupo de extensiones o un flujo de trabajo interactivo.</span><span class="sxs-lookup"><span data-stu-id="dce2b-122">**IVR** Indicates whether the workflow is a hunt group or an interactive workflow.</span></span>
 
-- <span data-ttu-id="db5fd-123">**Habilitado** Indica si el flujo de trabajo está activado para recibir llamadas.</span><span class="sxs-lookup"><span data-stu-id="db5fd-123">**Enabled** Indicates whether the workflow is activated to receive calls.</span></span>
+- <span data-ttu-id="dce2b-123">**Habilitado** Indica si el flujo de trabajo está activado para recibir llamadas.</span><span class="sxs-lookup"><span data-stu-id="dce2b-123">**Enabled** Indicates whether the workflow is activated to receive calls.</span></span>
 
-<span data-ttu-id="db5fd-124">Para obtener más información sobre las funciones y características de los grupos de respuesta, consulte [planear la aplicación de grupo de respuesta en Skype empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planificación.</span><span class="sxs-lookup"><span data-stu-id="db5fd-124">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="db5fd-125">Para obtener más información sobre cómo trabajar con flujos de trabajo de grupo de respuesta, consulte [administrar flujos de trabajo de grupos de respuesta](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) en la documentación de operaciones.</span><span class="sxs-lookup"><span data-stu-id="db5fd-125">For details about working with Response Group workflows, see [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="dce2b-124">Para obtener más información sobre las características y capacidades de Grupo de respuesta, consulte [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación.</span><span class="sxs-lookup"><span data-stu-id="dce2b-124">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="dce2b-125">Para obtener más información sobre cómo trabajar con flujos de trabajo de grupo de respuesta, consulte [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) en la documentación de operaciones.</span><span class="sxs-lookup"><span data-stu-id="dce2b-125">For details about working with Response Group workflows, see [Managing Response Group Workflows](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.</span></span>
 
 

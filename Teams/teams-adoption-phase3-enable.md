@@ -1,7 +1,7 @@
 ---
 title: 'Fase 3 de la adopción de Microsoft Teams: Escala'
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Lea una descripción general de los pasos que necesitará aprender para admitir la amplia capacidad de escalar de los equipos de su organización.
+description: Lea la información general sobre los pasos que necesitará para dar soporte a la habilitación de Teams a gran escala para su organización.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,24 +21,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 602d820b245b096a8c0f8470f08ba7fd9529d070
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904605"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806110"
 ---
-# <a name="microsoft-teams-adoption-phase-3---scale"></a><span data-ttu-id="5d44a-103">Fase 3 de la adopción de Microsoft Teams: Escala</span><span class="sxs-lookup"><span data-stu-id="5d44a-103">Microsoft Teams adoption phase 3 - Scale</span></span>
+# <a name="microsoft-teams-adoption-phase-3---scale"></a><span data-ttu-id="e8734-103">Fase 3 de la adopción de Microsoft Teams: Escala</span><span class="sxs-lookup"><span data-stu-id="e8734-103">Microsoft Teams adoption phase 3 - Scale</span></span>
 
-<span data-ttu-id="5d44a-104">En esta fase, usará los aprendizajes, el talento de su proyecto y las relaciones con las partes interesadas, los expertos y los pioneros en la habilitación de la escalabilidad ampliada de Teams para su organización.</span><span class="sxs-lookup"><span data-stu-id="5d44a-104">In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization.</span></span> <span data-ttu-id="5d44a-105">Completará los siguientes pasos para preparar una participación continua en el uso de Microsoft Teams para empresas:</span><span class="sxs-lookup"><span data-stu-id="5d44a-105">You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:</span></span>
+<span data-ttu-id="e8734-104">En esta fase, usará sus aprendizajes, equipo de proyecto con talento y relaciones con las partes interesadas, los campeones y los primeros usuarios para apoyar la habilitación de Teams a gran escala para su organización.</span><span class="sxs-lookup"><span data-stu-id="e8734-104">In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization.</span></span> <span data-ttu-id="e8734-105">Seguirá los pasos siguientes mientras se prepara para una participación empresarial continuada con respecto al uso que hace su organización de Microsoft Teams:</span><span class="sxs-lookup"><span data-stu-id="e8734-105">You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:</span></span>
 
-1. <span data-ttu-id="5d44a-106">Definir las medidas de resultados y éxito.</span><span class="sxs-lookup"><span data-stu-id="5d44a-106">Define outcomes and success measures.</span></span>
-2. <span data-ttu-id="5d44a-107">Seleccione estrategia de servicio.</span><span class="sxs-lookup"><span data-stu-id="5d44a-107">Select service strategy.</span></span>
-3. <span data-ttu-id="5d44a-108">Atraiga a los participantes.</span><span class="sxs-lookup"><span data-stu-id="5d44a-108">Engage stakeholders.</span></span>
-4. <span data-ttu-id="5d44a-109">Diseñar e iniciar una campaña de conocimiento.</span><span class="sxs-lookup"><span data-stu-id="5d44a-109">Design and launch an awareness campaign.</span></span>
-5. <span data-ttu-id="5d44a-110">Diseñar e iniciar un programa de aprendizaje.</span><span class="sxs-lookup"><span data-stu-id="5d44a-110">Design and launch a training program.</span></span>
-6. <span data-ttu-id="5d44a-111">Comprender las herramientas de informes.</span><span class="sxs-lookup"><span data-stu-id="5d44a-111">Understand reporting tools.</span></span>
-7. <span data-ttu-id="5d44a-112">Prepararse para una participación continua en el negocio.</span><span class="sxs-lookup"><span data-stu-id="5d44a-112">Prepare for ongoing business engagement.</span></span>
-8. <span data-ttu-id="5d44a-113">Prepararse para el estado de servicio continuo & revisiones de adopción.</span><span class="sxs-lookup"><span data-stu-id="5d44a-113">Prepare for ongoing service health & adoption reviews.</span></span>
+1. <span data-ttu-id="e8734-106">Defina resultados y medidas de éxito.</span><span class="sxs-lookup"><span data-stu-id="e8734-106">Define outcomes and success measures.</span></span>
+2. <span data-ttu-id="e8734-107">Seleccione la estrategia de servicio.</span><span class="sxs-lookup"><span data-stu-id="e8734-107">Select service strategy.</span></span>
+3. <span data-ttu-id="e8734-108">Atraer a las partes interesadas.</span><span class="sxs-lookup"><span data-stu-id="e8734-108">Engage stakeholders.</span></span>
+4. <span data-ttu-id="e8734-109">Diseñar e iniciar una campaña de concienciación.</span><span class="sxs-lookup"><span data-stu-id="e8734-109">Design and launch an awareness campaign.</span></span>
+5. <span data-ttu-id="e8734-110">Diseñar e iniciar un programa de aprendizaje.</span><span class="sxs-lookup"><span data-stu-id="e8734-110">Design and launch a training program.</span></span>
+6. <span data-ttu-id="e8734-111">Comprender las herramientas de informes.</span><span class="sxs-lookup"><span data-stu-id="e8734-111">Understand reporting tools.</span></span>
+7. <span data-ttu-id="e8734-112">Prepárese para un compromiso empresarial continuo.</span><span class="sxs-lookup"><span data-stu-id="e8734-112">Prepare for ongoing business engagement.</span></span>
+8. <span data-ttu-id="e8734-113">Prepárese para las revisiones continuas del estado & adopción.</span><span class="sxs-lookup"><span data-stu-id="e8734-113">Prepare for ongoing service health & adoption reviews.</span></span>
 
-<span data-ttu-id="5d44a-114">![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [definir resultados y éxito](teams-adoption-define-outcomes.md)</span><span class="sxs-lookup"><span data-stu-id="5d44a-114">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)</span></span>
+<span data-ttu-id="e8734-114">![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Definir resultados y éxito](teams-adoption-define-outcomes.md)</span><span class="sxs-lookup"><span data-stu-id="e8734-114">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)</span></span>
