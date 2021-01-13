@@ -1,12 +1,12 @@
 ---
-title: Configuración de intervalos de puerto y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación
+title: Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación
 ms.reviewer: ''
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: En este artículo se describe cómo configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencias, aplicaciones y mediación.
-ms.openlocfilehash: 76373407a8087e3646668d7ce9952c83c500af97
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En este artículo se describe cómo configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación.
+ms.openlocfilehash: 8c65e36528615aca181b6aac17aab844c1a4d206
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817449"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800130"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuración de intervalos de puerto y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación
 
-En este artículo se describe cómo configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencias, aplicaciones y mediación.
+En este artículo se describe cómo configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación.
 
 ## <a name="configure-port-ranges"></a>Configurar intervalos de puertos
 
-Para implementar la calidad de servicio, debe configurar los intervalos de puertos idénticos para el audio, el vídeo y el uso compartido de aplicaciones en sus servidores de conferencias, aplicaciones y mediación. Además, esos intervalos de puertos no deben superponerse de ninguna manera. Para usar un ejemplo sencillo, suponga que usa los puertos 10000 a 10999 para vídeo en los servidores de conferencia. Eso significa que también debe reservar los puertos 10000 a 10999 para vídeo en su aplicación y servidores de mediación. De lo contrario, QoS no funcionará de la forma esperada.
+Para implementar la calidad de servicio, debe configurar intervalos de puertos idénticos para el uso compartido de audio, vídeo y aplicaciones en los servidores de conferencia, aplicación y mediación; Además, dichos intervalos de puertos no deben superponerse de ninguna manera. Para usar un ejemplo sencillo, suponga que usa los puertos 10000 hasta 10999 para vídeo en los servidores de conferencias. Eso significa que también deben reservar los puertos 10000 hasta 10999 para vídeo en sus servidores de aplicaciones y mediación. Si no lo haces, QoS no funcionará como se espera.
 
-De forma similar, suponga que reserva los puertos 10000 a 10999 para video, pero después reserva los puertos 10500 a 11999 para audio. Esto puede crear problemas de calidad de servicio porque los intervalos de puertos se superponen. Con QoS, cada modalidad debe tener un único conjunto de puertos: Si usa los puertos 10000 a 10999 para vídeo, tendrá que usar un intervalo diferente (por ejemplo, 11000 a 11999, para audio).
+Del mismo modo, suponga que reserva los puertos 10000 hasta 10999 para vídeo, pero luego reserva los puertos 10500 hasta 11999 para audio. Esto puede crear problemas de Calidad de servicio, porque los intervalos de puerto se superponen. Con QoS, cada modalidad debe tener un conjunto único de puertos: si usa los puertos del 10000 al 10999 para el vídeo, tendrá que usar un intervalo diferente (por ejemplo, de 11000 a 11999, para el audio).
 
-De forma predeterminada, los intervalos de los puertos de audio y vídeo no se superponen en Skype empresarial Server; sin embargo, los intervalos de puertos asignados al uso compartido de aplicaciones se superponen con los intervalos de puertos de audio y vídeo. (Que, a su vez, significa que ninguno de estos intervalos es único). Puede comprobar los intervalos de puertos existentes para los servidores de conferencia, aplicación y mediación ejecutando los siguientes tres comandos desde el shell de administración de Skype empresarial Server:
+De forma predeterminada, los intervalos de puertos de audio y vídeo no se superponen en Skype Empresarial Server; sin embargo, los intervalos de puertos asignados al uso compartido de aplicaciones se superponen con los intervalos de puertos de audio y vídeo. (Lo que, a su vez, significa que ninguno de estos rangos es único). Puede comprobar los intervalos de puertos existentes para sus servidores de conferencia, aplicación y mediación ejecutando los tres comandos siguientes desde el Shell de administración de Skype Empresarial Server:
 
     Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -41,9 +41,9 @@ De forma predeterminada, los intervalos de los puertos de audio y vídeo no se s
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
 > [!WARNING]  
-> Como puede ver en los comandos anteriores, cada tipo de puerto (audio, vídeo y uso compartido de aplicaciones) tiene asignados dos valores de propiedad distintos: el inicio del puerto y el recuento de puertos. El inicio del puerto indica el primer puerto utilizado para ese modal; por ejemplo, si el inicio del puerto de audio es igual a 50000, significa que el primer puerto que se usa para el tráfico de audio es el puerto 50000. Si el recuento de puertos de audio es 2 (que no es un valor válido, pero se usa aquí con fines de ilustración), eso significa que solo se asignan dos puertos para el audio. Si el primer puerto es el puerto 50000 y hay un total de dos puertos, significa que el segundo puerto debe ser el puerto 50001 (los intervalos de puertos deben ser contiguos). Como resultado, el intervalo de puertos para el audio sería los puertos 50000 a 50001, ambos incluidos.<BR><br>Ten en cuenta que el servidor de aplicaciones y el servidor de mediación solo admiten QoS para el audio; no es necesario cambiar los puertos de uso compartido de vídeo o aplicaciones en los servidores de aplicaciones o servidores de mediación.
+> Como puede ver en los comandos anteriores, a cada tipo de puerto: audio, vídeo y uso compartido de aplicaciones se les asigna dos valores de propiedad separados: el puerto de inicio y el número de puerto. El inicio de puerto indica el primer puerto que se usa para esa modalidad; por ejemplo, si el puerto de inicio de audio es igual a 50000, significa que el primer puerto que se usa para el tráfico de audio es puerto 50000. Si el recuento de puertos de audio es 2 (que no es un valor válido, pero se usa aquí con fines ilustrativos), significa que solo se asignan dos puertos para el audio. Si el primer puerto es el puerto 50000 y hay un total de dos puertos, eso significa que el segundo puerto debe ser el 50001 (los intervalos de puertos tienen que ser contiguos). Como resultado, el intervalo de puertos de audio sería del puerto 50000 hasta el 50001, incluidos.<BR><br>Tenga en cuenta que el servidor de aplicaciones y el servidor de mediación solo admiten QoS para audio; no necesita cambiar el vídeo o el uso compartido de aplicaciones de puertos en sus servidores de aplicaciones o mediación.
 
-Si ejecuta los tres comandos anteriores, verá que los valores de puerto predeterminados para Skype empresarial Server están configurados de la siguiente manera:
+Si ejecuta los tres comandos anteriores, verá que los valores de puerto predeterminados de Skype Empresarial Server están configurados de esta manera:
 
 <table>
 <colgroup>
@@ -55,7 +55,7 @@ Si ejecuta los tres comandos anteriores, verá que los valores de puerto predete
 <thead>
 <tr class="header">
 <th>Propiedad</th>
-<th>Servidor de conferencia</th>
+<th>Servidor de conferencias</th>
 <th>Servidor de aplicaciones</th>
 <th>Servidor de mediación</th>
 </tr>
@@ -100,11 +100,11 @@ Si ejecuta los tres comandos anteriores, verá que los valores de puerto predete
 </tbody>
 </table>
 
-Como se mencionó anteriormente, al configurar puertos de Skype empresarial Server para QoS, debe asegurarse de que: 1) la configuración del puerto de audio sea idéntica en los servidores de conferencias, aplicaciones y mediación. y 2) los intervalos de puertos no se superponen. Si examina atentamente la tabla anterior, verá que los intervalos de puertos son idénticos en los tres tipos de servidor. Por ejemplo, el puerto de salida de audio se establece en el puerto 49152 en cada tipo de servidor, y el número total de puertos reservados para el audio en cada servidor también es idéntico: 8348. Sin embargo, los intervalos de puertos se superponen: los puertos de audio comienzan en el puerto 49152, pero también hacen que los puertos reservados para uso compartido de aplicaciones. Para hacer uso óptimo de la calidad de servicio, el uso compartido de aplicaciones debe reconfigurarse para que use un intervalo de puertos único. Por ejemplo, puede configurar el uso compartido de aplicaciones para que se inicie en el puerto 40803 y para usar puertos 8348. (¿Por qué 8348 puertos? Si suma esos valores juntos, 40803 + 8348, eso significa que el uso compartido de aplicaciones usará los puertos 40803 a través del puerto 49150. Puesto que los puertos de audio no comienzan hasta el puerto 49152, ya no tendrá intervalos de puertos superpuestos.)
+Como se indicó anteriormente, al configurar los puertos de Skype Empresarial Server para QoS, debe asegurarse de que: 1) la configuración de puertos de audio es idéntica en los servidores de conferencia, aplicación y mediación; y, 2) los intervalos de puertos no se superponen. Si observa detenidamente la tabla anterior, verá que los intervalos de puertos son idénticos a través de los tres tipos de servidores. Por ejemplo, el puerto de inicio de audio se establece en Puerto 49152 en cada tipo de servidor y el número total de puertos reservados en cada servidor de audio también es idéntico: 8348. Sin embargo, el intervalo de puertos se superpone: los puertos de audio comienzan en el puerto 49152, pero, al hacerlo así, los puertos se reservan para uso compartido de aplicaciones. Para usar correctamente la Calidad de servicio, el uso compartido de aplicaciones debe configurarse para utilizar un único intervalo de puertos. Por ejemplo, podría configurar el uso compartido de aplicaciones para que se inicie en el puerto 40803 y use 8348 puertos. ¿Por qué 8348 puertos? Si agrega esos valores juntos (40803 + 8348), significa que el uso compartido de aplicaciones usará los puertos del 40803 al puerto 49150. Ya que los puertos de audio no comienzan hasta el puerto 49152, ya no tendrá ningún intervalo de puertos superpuestos.
 
-Una vez que haya seleccionado el nuevo intervalo de puertos para el uso compartido de aplicaciones, puede realizar su cambio con el cmdlet Set-CsConferencingServer. No es necesario realizar este cambio en los servidores de aplicaciones o en los servidores de mediación, ya que estos servidores no manejan tráfico de uso compartido de aplicaciones. Solo necesita cambiar los valores de puerto en estos servidores si decide reasignar los puertos usados para el tráfico de audio.
+Después de seleccionar el nuevo intervalo de puertos para el uso compartido de aplicaciones, puede realizar el cambio con el cmdlet Set-CsConferencingServer web. Este cambio no tiene que hacerse en los servidores de aplicaciones o en los servidores de mediación, porque estos servidores no controlan tráfico de uso compartido de aplicaciones. Solo necesita cambiar los valores del puerto en estos servidores si decide volver a asignar los puertos usados para el tráfico de audio.
 
-Para modificar los valores de puerto para el uso compartido de aplicaciones en un solo servidor de conferencia, ejecute un comando similar a este en el shell de administración de Skype empresarial Server:
+Para modificar los valores de puerto para el uso compartido de aplicaciones en un único servidor de conferencia, ejecute un comando similar al siguiente desde el Shell de administración de Skype Empresarial Server:
 
     Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
 
@@ -114,83 +114,83 @@ Si desea realizar estos cambios en todos los servidores de conferencia, puede ej
 
 Después de cambiar la configuración del puerto, debe detener y reiniciar cada servicio afectado por los cambios.
 
-No es obligatorio que los servidores de conferencia, los servidores de aplicaciones y los servidores de mediación compartan exactamente el mismo intervalo de puertos; el único requisito es que se reserven intervalos de puertos exclusivos en todos los servidores. Sin embargo, la administración generalmente será más fácil si usa el mismo conjunto de puertos en todos los servidores.
+No es obligatorio que los servidores de conferencias, servidores de aplicaciones y servidores de mediación compartan el mismo intervalo de puertos exacto; el único requisito real es que reserve intervalos de puertos únicos en todos los servidores. Sin embargo, la administración suele ser más fácil si se usa el mismo conjunto de puertos en todos los servidores.
 
-## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>Configurar una directiva de calidad de servicio en Skype empresarial Server para sus servidores de conferencia, aplicaciones y mediación
+## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>Configurar una directiva de calidad de servicio en Skype Empresarial Server para los servidores de conferencia, aplicación y mediación
 
-La configuración de intervalos de puertos facilita el uso de la calidad de servicio al garantizar que todo el tráfico de un tipo específico (por ejemplo, todo el tráfico de audio) se desplaza por el mismo conjunto de puertos. Esto facilita que el sistema identifique y marque un paquete determinado: Si el puerto 49152 está reservado para tráfico de audio, todos los paquetes que viajan a través del puerto 49152 se pueden marcar con un código DSCP que indica que se trata de un paquete de audio. A su vez, permite que los enrutadores identifiquen el paquete como un paquete de audio y le dan mayor prioridad que los paquetes no marcados (como los paquetes que se usan para copiar un archivo de un servidor a otro).
+Configurar intervalos de puertos facilita el uso de Calidad de servicio, al hacer que todo el tráfico de un determinado tipo (por ejemplo, todo el tráfico de audio) se transmita a través del mismo conjunto de puertos. De este modo, resulta fácil para el sistema identificar y marcar un cierto paquete: si el puerto 49152 está reservado al tráfico de audio, todos los paquetes que se transmiten a través del puerto 49152 se pueden marcar con un código DSCP que indica que se trata de paquetes de audio. A su vez, esto permite a los enrutadores identificar el paquete como un paquete de audio y darle mayor prioridad que a los paquetes sin marcar (por ejemplo, los paquetes que se usan para copiar un archivo de un servidor a otro).
 
-Sin embargo, simplemente restringir un conjunto de puertos a un tipo específico de tráfico no da lugar a que los paquetes se marquen con el código DSCP adecuado. Además de definir intervalos de puertos, también debe crear directivas de calidad de servicio que especifiquen el código DSCP que se va a asociar con cada intervalo de puertos. Para Skype empresarial Server, normalmente significa crear dos directivas: una para el audio y otra para el vídeo.
+Sin embargo, el solo hecho de restringir un conjunto de puertos a un tipo específico de tráfico no hace que los paquetes que se transmiten a través de esos puertos se marquen con el código DSCP correspondiente. Además de definir intervalos de puertos, también debe crear directivas de calidad de servicio que especifiquen el código DSCP que se asociará con cada intervalo de puertos. Para Skype Empresarial Server, esto suele implicar la creación de dos directivas: una para audio y otra para vídeo.
 
-Las directivas de calidad de servicio se crean más fácilmente y se administran mediante la Directiva de grupo. (Estas mismas directivas también se pueden crear con directivas de seguridad local. Sin embargo, eso requiere repetir el mismo procedimiento en todos los equipos.) El conjunto inicial de directivas de QoS (uno para el audio y otra para el vídeo) debe aplicarse solo a equipos con Skype empresarial Server que ejecuten el servidor de conferencia, el servidor de aplicaciones o los servicios del servidor de mediación. Si todos estos equipos se encuentran en la misma unidad organizativa de Active Directory, simplemente puede asignar el nuevo objeto de directiva de grupo (GPO) a esa unidad organizativa. Como alternativa, puede realizar otros pasos para dirigir la nueva Directiva a los equipos especificados; por ejemplo, puede colocar los equipos apropiados en un grupo de seguridad y, a continuación, usar el filtrado de seguridad de directiva de grupo para aplicar el GPO solo a ese grupo de seguridad.
+Las directivas de calidad de servicio se crean y administran con mayor facilidad mediante la directiva de grupo. (Estas mismas directivas también se pueden crear mediante directivas de seguridad locales. Sin embargo, eso requiere que repita el mismo procedimiento en todos y cada uno de los equipos). El conjunto inicial de directivas de QoS (una para audio y otra para vídeo) solo se debe aplicar a los equipos de Skype Empresarial Server que ejecuten el servidor de conferencias, el servidor de aplicaciones o los servicios de servidor de mediación. Si todos estos equipos se encuentran en la misma unidad organizativa de Active Directory, simplemente puedes asignar el nuevo objeto de directiva de grupo (GPO) a esa unidad organizativa. Como alternativa, puede realizar otros pasos para dirigir la nueva directiva a los equipos especificados; Por ejemplo, puede colocar los equipos adecuados en un grupo de seguridad y, a continuación, usar el filtrado de seguridad de la directiva de grupo para aplicar el GPO solo a ese grupo de seguridad.
 
-Para crear una directiva de calidad de servicio para administrar el audio, inicie sesión en un equipo en el que se haya instalado administración de directivas de grupo. Abra administración de directivas de grupo (haga clic en **Inicio**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Administración de directivas de grupo**) y realice el siguiente procedimiento:
+Para crear una directiva de calidad de servicio para administrar el audio, inicie sesión en un equipo donde se haya instalado la administración de directivas de grupo. Abra la Administración de directivas de grupo (haga clic en **Inicio**, seleccione **Herramientas administrativas** y, a continuación, haga clic en **Administración de directivas de grupo**) y, a continuación, complemente el siguiente procedimiento:
 
-1.  En administración de directivas de grupo, busque el contenedor en el que se debe crear la nueva Directiva. Por ejemplo, si todos los equipos de Skype empresarial Server se encuentran en una unidad organizativa denominada Skype empresarial Server, la nueva Directiva debe crearse en la OU de Skype empresarial Server.
+1.  En la Administración de directivas de grupo, busque el contenedor en el que se deba crear la nueva directiva. Por ejemplo, si todos los equipos de Skype Empresarial Server están ubicados en una unidad organizativa denominada Skype Empresarial Server, la nueva directiva debe crearse en la unidad organizativa de Skype Empresarial Server.
 
-2.  Haga clic con el botón secundario en el contenedor correspondiente y, después, haga clic en **crear un GPO en este dominio y vincúlelo aquí**.
+2.  Haga clic con el botón secundario en el contenedor adecuado y, a continuación, haga clic en Crear un GPO en este **dominio y vincularlo aquí.**
 
-3.  En el cuadro de diálogo **nuevo GPO** , escriba un nombre para el nuevo objeto de directiva de grupo en el cuadro **nombre** (por ejemplo, **QoS de Skype empresarial Server**) y, a continuación, haga clic en **Aceptar**.
+3.  En el cuadro de diálogo Nuevo **GPO,** escriba un  nombre para el nuevo objeto de directiva de grupo en el cuadro Nombre (por ejemplo, QoS de Skype Empresarial **Server)** y, a continuación, haga clic en **Aceptar.**
 
-4.  Haga clic con el botón secundario en la Directiva recién creada y, después, haga clic en **Editar**.
+4.  Haga clic con el botón secundario en la directiva recién creada y, a continuación, haga clic **en Editar**.
 
-5.  En el editor de administración de directivas de grupo, expanda **configuración del equipo**, expanda **directivas**, expanda **configuración de Windows**, haga clic con el botón secundario en **QoS basada en directivas**y, a continuación, haga clic en **crear nueva Directiva**.
+5.  En el Editor de administración de directivas de grupo, expanda **Configuración del equipo**, expanda **Directivas**, expanda **Configuración de Windows**, haga clic con el botón secundario en **QoS basada en directivas** y, a continuación, haga clic en **Crear nueva directiva**.
 
-6.  En el cuadro de diálogo **QoS basado en directivas** , en la página de apertura, escriba un nombre para la nueva Directiva (por ejemplo, **Skype empresarial Server QoS**) en el cuadro **nombre** . Seleccione **especificar valor de DSCP** y establezca el valor en **46**. Deje la **tasa de límite saliente** desactivada y, a continuación, haga clic en **siguiente**.
+6.  En el cuadro de diálogo QoS basado en directivas, en la página de apertura, escriba un nombre para la nueva directiva (por ejemplo, **QoS** de Skype Empresarial **Server)** en el cuadro **Nombre.** Seleccione **Especificar el valor de DSCP** y, a continuación, defina el valor en **46**. Deje sin seleccionar **Especificar velocidad de salida del acelerador** y, a continuación, haga clic en **Siguiente**.
 
-7.  En la página siguiente, asegúrese de que **todas las aplicaciones** está seleccionada y, a continuación, haga clic en **siguiente**. Esto simplemente garantiza que todas las aplicaciones coincidirán con paquetes del intervalo de puertos especificado con el código DSCP especificado.
+7.  En la página siguiente, asegúrese de que **todas las aplicaciones** están seleccionadas y, a continuación, haga clic en **Siguiente**. Esto sirve, simplemente, para hacer que todas las aplicaciones relacionen los paquetes del intervalo de puertos especificado con el código DSCP especificado.
 
-8.  En la tercera página, asegúrese de que **todas las direcciones IP de origen y cualquier dirección IP de destino** estén seleccionadas y, a continuación, haga clic en **siguiente**. Estas dos opciones de configuración garantizan que los paquetes se administrarán independientemente del equipo (dirección IP) que hayan enviado esos paquetes y qué equipo (dirección IP) recibirá esos paquetes.
+8.  En la tercera página, asegúrese de que esté seleccionada cualquier dirección IP de origen y cualquier dirección **IP** de destino y, a continuación, haga clic en **Siguiente**. Con estas dos opciones de configuración activadas, los paquetes se administrarán sin importar qué equipo (dirección IP) los envió ni qué equipo (dirección IP) los recibirá.
 
-9.  En la cuarta página, seleccione **TCP y UDP** en la lista desplegable **seleccionar el protocolo de esta directiva de QoS** . TCP (Protocolo de control de transmisión) y UDP (Protocolo de datagrama de usuario) son los dos protocolos de red más usados por Skype empresarial Server y sus aplicaciones cliente.
+9.  En la página cuatro, seleccione **TCP y UDP** en la lista desplegable **Seleccione el protocolo para el que se aplica esta directiva de QoS**. TCP (Protocolo de control de transmisión) y UDP (Protocolo de datagramas de usuario) son los dos protocolos de red más usados por Skype Empresarial Server y sus aplicaciones cliente.
 
-10. En el encabezado, **especifique el número de puerto de origen**, seleccione **de este rango o puerto de origen**. En el cuadro de texto que acompaña, escriba el intervalo de puertos reservado para las transtransmisións de audio. Por ejemplo, si ha reservado los puertos 49152 a través de los puertos 57500 para el tráfico de audio, escriba el intervalo de puertos con este formato: **49152:57500**. Haga clic en **Finalizar**.
+10. Debajo del encabezado **Especifique el número de puerto de origen**, seleccione **Desde este intervalo o puerto de origen**. En el cuadro de texto que acompaña a esta opción, escriba el intervalo de puertos reservado a las transmisiones de audio. Por ejemplo, si ha reservado los puertos 49152 a los puertos 57500 para el tráfico de audio, escriba el intervalo de puertos con este formato: **49152:57500**. Haga clic en **Finalizar**.
 
 > [!NOTE]  
-> El valor de DSCP de 46 es algo arbitrario: aunque DSCP 46 se usa a menudo para marcar paquetes de audio, no es necesario usar DSCP 46 para las comunicaciones de audio. Si ya ha implementado QoS y está usando un código de DSCP diferente para el audio (por ejemplo, DSCP 40), debe configurar la Directiva de calidad de servicio para usar el mismo código (por ejemplo, 40 para audio). Si ahora está implementando la calidad de servicio, se recomienda que use DSCP 46 para el audio, simplemente porque ese valor suele usarse para marcar paquetes de audio.
+> El valor de DSCP de 46 es algo arbitrario: aunque DSCP 46 se utiliza a menudo para marcar paquetes de audio, no es necesario que use DSCP 46 para las comunicaciones de audio. Si ya ha implementado QoS y usa un código DSCP diferente para audio (por ejemplo, DSCP 40), debe configurar la directiva de calidad de servicio para que use ese mismo código (es decir, 40 para audio). Si está implementando Calidad de servicio ahora, se recomienda usar DSCP 46 para el audio, simplemente, porque es el valor que se suele usar para marcar paquetes de audio.
 
-Después de crear la directiva QoS para el tráfico de audio, debe crear una segunda Directiva para el tráfico de vídeo (y, opcionalmente, una tercera Directiva para administrar el tráfico de uso compartido de aplicaciones). Para crear una directiva para el vídeo, siga el mismo procedimiento básico que siguió al crear la Directiva de audio y realizar estas sustituciones:
+Después de crear la directiva QoS para el tráfico de audio, debe crear una segunda directiva para el tráfico de vídeo (y, opcionalmente, una tercera directiva para administrar el tráfico de uso compartido de aplicaciones). Para crear una directiva destinada al vídeo, siga el mismo procedimiento básico que llevó a cabo al crear la directiva de audio, sustituyendo lo siguiente:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, **vídeo de Skype empresarial Server**).
+  - Use un nombre de directiva diferente (y único) (por ejemplo, Vídeo de **Skype Empresarial Server).**
 
-  - Establezca el valor de DSCP en **34** en lugar de 46. (Tenga en cuenta que no es necesario usar un valor de DSCP de 34. El único requisito es que use un valor de DSCP diferente para el vídeo que el que usó para el audio.
+  - Establezca el valor de DSCP **34** en lugar de 46. (Tenga en cuenta que no es necesario usar el valor de DSCP 34. El único requisito es usar un valor de DSCP distinto para el vídeo del que se usó para el audio.)
 
-  - Use el intervalo de puertos configurado previamente para el tráfico de vídeo. Por ejemplo, si ha reservado los puertos 57501 a 65535 para el vídeo, establezca el intervalo de puertos en: **57501:65535**.
+  - Use el intervalo de puertos configurado anteriormente para el tráfico de vídeo. Por ejemplo, si ha reservado los puertos 57501 a 65535 para vídeo, establezca el intervalo de puertos en: **57501:65535**.
 
-Si decide crear una directiva para administrar el tráfico de uso compartido de aplicaciones, debe crear una tercera Directiva y realizar las siguientes sustituciones:
+Si decide crear una directiva para administrar el tráfico de uso compartido de aplicaciones, debe crear una tercera directiva, realizando las siguientes sustituciones:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, **uso compartido de aplicaciones de Skype empresarial Server**).
+  - Use un nombre de directiva diferente (y único) (por ejemplo, Uso compartido de aplicaciones de **Skype Empresarial Server).**
 
-  - Establezca el valor de DSCP en **24** en lugar de 46. (Nuevamente, no es necesario usar un valor de DSCP de 24. El único requisito es que use un valor de DSCP diferente para el uso compartido de aplicaciones que el que usó para el audio o el vídeo.
+  - Establezca el valor de DSCP **24** en lugar de 46. (De nuevo, tenga en cuenta que no es necesario usar el valor de DSCP 24. El único requisito es usar un valor de DSCP distinto para el uso compartido de aplicaciones de los que se usaron para el audio y el vídeo.)
 
-  - Use el intervalo de puertos configurado previamente para el tráfico de vídeo. Por ejemplo, si ha reservado los puertos 40803 a 49151 para el uso compartido de aplicaciones, establezca el intervalo de puertos en: **40803:49151**.
+  - Use el intervalo de puertos configurado anteriormente para el tráfico de vídeo. Por ejemplo, si ha reservado los puertos 40803 a 49151 para el uso compartido de aplicaciones, establezca el intervalo de puertos en: **40803:49151**.
 
-Las nuevas directivas que ha creado no tendrán efecto hasta que se actualice la Directiva de grupo en los equipos de Skype empresarial Server. Aunque la directiva de grupo se actualiza periódicamente por sí misma, se puede forzar una actualización inmediata si se ejecuta el siguiente comando en cada equipo en el que se tenga que actualizar la directiva de grupo:
+Las nuevas directivas que haya creado no tendrán efecto hasta que la directiva de grupo se haya actualizado en los equipos de Skype Empresarial Server. Aunque la directiva de grupo se actualiza periódicamente por sí misma, puede forzar una actualización inmediata ejecutando el siguiente comando en cada equipo donde sea necesario actualizar la directiva de grupo:
 
     Gpupdate.exe /force
 
-Este comando se puede ejecutar desde el shell de administración de Skype empresarial Server o desde cualquier ventana de comandos que se ejecute con credenciales de administrador. Para abrir una ventana de comandos con las credenciales del administrador, haga clic en **Inicio**, haga clic con el botón derecho en **Símbolo del sistema** y, a continuación, haga clic en **Ejecutar como administrador**.
+Este comando se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde cualquier ventana de comandos que se ejecute con credenciales de administrador. Para ejecutar una ventana de comandos con credenciales de administrador, haga clic en **Inicio**, haga clic con el botón secundario en **Símbolo del sistema** y, a continuación, haga clic en **Ejecutar como administrador**.
 
 Para comprobar que se han aplicado las nuevas directivas de QoS, haga lo siguiente:
 
-1.  En un equipo con Skype empresarial Server, haga clic en **Inicio**y, a continuación, haga clic en **Ejecutar**.
+1.  En un equipo de Skype Empresarial Server, haga clic **en Inicio** y, a continuación, en **Ejecutar.**
 
-2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit**y, a continuación, presione Entrar.
+2.  En el **cuadro de** diálogo Ejecutar, **escriba regedit** y, a continuación, presione ENTRAR.
 
-3.  En el editor del registro, expanda **equipo**, expanda **\_HKEY local\_Machine**, expanda **software**, expanda **directivas**, expanda **Microsoft**, expanda **Windows**y, a continuación, haga clic en **QoS**. En **QoS** , debe ver las claves del registro para cada una de las directivas de QoS que acaba de crear. Por ejemplo, si ha creado dos nuevas directivas (una con el nombre QoS de audio de Skype empresarial Server y la otra denominada QoS de vídeo de Skype empresarial Server), debería ver las entradas del registro para la calidad de audio de Skype empresarial Server y la calidad de video de Skype empresarial Server.
+3.  En el Editor del Registro, expanda **Equipo**, expanda **HKEY \_ LOCAL \_ MACHINE**, **software**, expanda directivas **,** **expanda Microsoft**, **expanda Windows** y, a continuación, haga clic en **QoS**. Debajo de **QoS**, debería ver las claves del Registro de cada una de las directivas de QoS que acaba de crear. Por ejemplo, si creó dos directivas nuevas (una llamada QoS de audio de Skype Empresarial Server y otra llamada QoS de vídeo de Skype Empresarial Server), debería ver las entradas del Registro para la QoS de audio de Skype Empresarial Server y la QoS de vídeo de Skype Empresarial Server.
 
-Para asegurarse de que los paquetes de red estén marcados con el valor de DSCP adecuado, también debe crear una nueva entrada de registro en cada equipo completando el procedimiento siguiente:
+Para asegurarse de que los paquetes de red se marquen con el valor de DSCP adecuado, debe crear también una nueva entrada del Registro en cada equipo, mediante el siguiente procedimiento:
 
-1.  Haga clic en  **Inicio ** y en  **Ejecutar **.
+1.  Haga clic en **Inicio** y luego en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit**y, a continuación, presione Entrar.
+2.  En el **cuadro de** diálogo Ejecutar, **escriba regedit** y, a continuación, presione ENTRAR.
 
-3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
+3.  En el Editor del Registro, expanda **HKEY \_ LOCAL \_ MACHINE**, **SYSTEM**, **CurrentControlSet**, expand **services** y, a continuación, **Tcpip**.
 
-4.  Haga clic con el botón derecho en **TCPIP**, seleccione **nuevo**y, a continuación, haga clic en **clave**. Después de crear la nueva clave del registro, escriba **QoS**y, a continuación, presione Entrar para cambiar el nombre de la clave.
+4.  Haga clic con el botón secundario en **Tcpip**, elija **Nuevo** y, a continuación, haga clic en **Clave**. Después de crear la nueva clave del Registro, escriba **QoS** y, a continuación, presione ENTRAR para cambiar el nombre de la clave.
 
-5.  Haga clic con el botón derecho en **QoS**, seleccione **nuevo**y, a continuación, haga clic en **valor de cadena**. Después de crear el nuevo valor del registro, escriba **no use NLA**y, a continuación, presione Entrar para cambiar el nombre del valor.
+5.  Haga clic con el botón secundario en **QoS**, elija **Nuevo** y, a continuación, haga clic en **Valor de cadena**. Después de crear el nuevo valor del Registro, escriba **No usar NLA** y, a continuación, presione ENTRAR para cambiar el nombre del valor.
 
-6.  Haga doble clic en **no usar NLA**. En el cuadro de diálogo **Editar cadena** , escriba **1** en el cuadro **datos del valor** y, a continuación, haga clic en **Aceptar**.
+6.  Haga doble clic en **No usar NLA**. En el **cuadro de diálogo Editar** cadena, escriba **1** en el cuadro de datos **Valor** y, a continuación, haga clic en **Aceptar**.
 
-7.  Cierre el editor del registro y reinicie el equipo.
+7.  Cierre el Editor del Registro y reinicie el equipo.

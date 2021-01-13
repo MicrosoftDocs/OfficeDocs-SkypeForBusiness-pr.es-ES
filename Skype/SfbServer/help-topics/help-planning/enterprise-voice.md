@@ -1,8 +1,8 @@
 ---
-title: Enterprise Voice (Planning Tool)
+title: Telefonía IP empresarial (Herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: Con la telefonía IP empresarial, Skype empresarial Server 2015 ofrece una oferta independiente de protocolo de voz a través de Internet (VoIP) para mejorar o reemplazar sistemas de central de conmutación (PBX) tradicionales. Los usuarios de la telefonía IP empresarial pueden llamar a colegas de la red de VoIP o PBX de su organización, y pueden llamar a números de teléfono tradicionales fuera de su organización. La solución de voz para empresas incluye características comunes de llamadas, como responder, desviar, transferir, suspender, desviar, soltar y detener, y las llamadas de 9-1-1 (E9-1-1) (E9-1-1 solo está disponible en los Estados Unidos). Enterprise Voice también admite una amplia variedad de dispositivos IP y USB actuales y anteriores.
-ms.openlocfilehash: edb2485fc8519da7b2b6fc2dabab27219e3b6020
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Con Telefonía IP empresarial, Skype Empresarial Server 2015 ofrece una oferta independiente de voz sobre ip (VoIP) para mejorar o reemplazar los sistemas tradicionales de central de conmutación (PBX). Telefonía IP empresarial usuarios pueden llamar a compañeros en la red VoIP o PBX de su organización, y pueden llamar a números de teléfono tradicionales fuera de su organización. La solución Telefonía IP empresarial incluye características comunes de llamadas como responder, reenviar, transferir, retener, desviar, liberar y estacionar, y llamadas 9-1-1 mejoradas (E9-1-1) (E9-1-1 solo está disponible en Estados Unidos). Telefonía IP empresarial también admite una amplia gama de dispositivos IP y USB actuales y antiguos.
+ms.openlocfilehash: ec06d38e52278057de08e022be6008b88c59b2d3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809808"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800070"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
+# <a name="enterprise-voice-planning-tool"></a>Telefonía IP empresarial (Herramienta de planeación)
  
-Con la telefonía IP empresarial, Skype empresarial Server 2015 ofrece una oferta independiente de protocolo de voz a través de Internet (VoIP) para mejorar o reemplazar sistemas de central de conmutación (PBX) tradicionales. Los usuarios de la telefonía IP empresarial pueden llamar a colegas de la red de VoIP o PBX de su organización, y pueden llamar a números de teléfono tradicionales fuera de su organización. La solución de voz para empresas incluye características comunes de llamadas, como responder, desviar, transferir, suspender, desviar, soltar y detener, y las llamadas de 9-1-1 (E9-1-1) (E9-1-1 solo está disponible en los Estados Unidos). Enterprise Voice también admite una amplia variedad de dispositivos IP y USB actuales y anteriores.
+Con Telefonía IP empresarial, Skype Empresarial Server 2015 ofrece una oferta independiente de voz sobre ip (VoIP) para mejorar o reemplazar los sistemas tradicionales de central de conmutación (PBX). Telefonía IP empresarial usuarios pueden llamar a compañeros en la red VoIP o PBX de su organización, y pueden llamar a números de teléfono tradicionales fuera de su organización. La solución Telefonía IP empresarial incluye características comunes de llamadas como responder, reenviar, transferir, retener, desviar, liberar y estacionar, y llamadas 9-1-1 mejoradas (E9-1-1) (E9-1-1 solo está disponible en Estados Unidos). Telefonía IP empresarial también admite una amplia gama de dispositivos IP y USB actuales y antiguos.
   
-Para obtener más información sobre la planificación de telefonía IP empresarial, consulte [plan de telefonía IP empresarial en Skype empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Para obtener más información sobre cómo implementar un servidor de mediación independiente, consulte [implementar un servidor de mediación en el generador de topologías en Skype empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Para obtener más información sobre la planeación de Telefonía IP empresarial, consulte [Plan for Telefonía IP empresarial in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Para obtener más información acerca de la implementación de un servidor de mediación independiente, consulte [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

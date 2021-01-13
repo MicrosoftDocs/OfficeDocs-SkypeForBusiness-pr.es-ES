@@ -1,8 +1,8 @@
 ---
 title: Solicitud de certificado (nombres alternativos de sujeto adicionales)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 description: La opción Configurar nombres alternativos de sujeto ofrece la oportunidad de agregar nombres alternativos de sujeto adicionales (SAN) al certificado antes de finalizar y solicitar el certificado. Para incorporar un nombre alternativo de sujeto, escriba su nombre de dominio completo y haga clic en Agregar. Si ha agregado un nombre alternativo de sujeto que se debe eliminar, seleccione la entrada correspondiente y haga clic en Quitar. Si desea quitar todas las entradas de nombres alternativos de sujeto que ha agregado, haga clic en Borrar todo.
-ms.openlocfilehash: 25616b4bd29bcd2ce6aa6aa6f752db61c36899a0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f71276c320d0f4759c773e7aa8a7822bed07a7fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823924"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805360"
 ---
-# <a name="certificate-request-additional-subject-alternate-names"></a>Solicitud de certificado (nombres alternativos de sujeto adicionales)
+# <a name="certificate-request-additional-subject-alternate-names"></a>Solicitud de certificados (nombres alternativos de sujeto adicionales)
  
 La opción **Configurar nombres alternativos de sujeto** ofrece la oportunidad de agregar nombres alternativos de sujeto adicionales (SAN) al certificado antes de finalizar y solicitar el certificado. Para incorporar un nombre alternativo de sujeto, escriba su nombre de dominio completo y haga clic en **Agregar**. Si ha agregado un nombre alternativo de sujeto que se debe eliminar, seleccione la entrada correspondiente y haga clic en **Quitar**. Si desea quitar todas las entradas de nombres alternativos de sujeto que ha agregado, haga clic en **Borrar todo**.
   
 > [!NOTE]
-> Los botones **Quitar** o **Borrar todo** funcionan solamente con las entradas de nombres alternativos de sujeto que se han agregado en esta página. Los botones no funcionarán con las entradas de nombres alternativos de sujeto que figuren en el certificado.
+> Los **botones** Quitar o **Borrar** todo solo funcionan en las entradas de SAN que se agregan en esta página. Los botones no funcionarán con las entradas de nombres alternativos de sujeto que figuren en el certificado.
   
 

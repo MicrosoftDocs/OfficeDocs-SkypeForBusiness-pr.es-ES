@@ -1,8 +1,8 @@
 ---
 title: Seleccionar rutas
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use el cuadro de diálogo Seleccionar rutas para buscar las rutas de voz existentes que puede usar.
-ms.openlocfilehash: 9a1d3352abf293a8d5b84adfc2582cdba8ddbed0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Use el cuadro de diálogo Seleccionar rutas para buscar rutas de voz existentes que pueda usar.
+ms.openlocfilehash: 2ac691ae9023bb4d4d129d09f55b7856f5c945f1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794208"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801280"
 ---
 # <a name="select-routes"></a>Seleccionar rutas
  
-Use el cuadro de diálogo **seleccionar rutas** para buscar las rutas de voz existentes que puede usar.
+Use el cuadro de diálogo **Seleccionar rutas** para buscar rutas de voz existentes que pueda usar.
   
 > [!NOTE]
-> Para recuperar todas las rutas de voz disponibles, no escriba nada en el cuadro de búsqueda y, a continuación, haga clic en el icono Buscar. 
+> Para recuperar todas las rutas de voz disponibles, deje vacío el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda. 
   
  
   

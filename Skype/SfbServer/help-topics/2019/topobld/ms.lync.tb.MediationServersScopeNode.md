@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de servidores de mediación
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nodo Grupos de servidores de mediación contiene los grupos de servidores de mediación de la topología. You can perform the following action:'
-ms.openlocfilehash: 19a52e1e228de4c9d7e24fec9d3f09a06d285bb0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'El nodo Grupos de servidores de mediación contiene los nodos de mediación de la topología. Puede efectuar la acción siguiente:'
+ms.openlocfilehash: f806cb62f4e56b3676e0e379ea619da4a627af60
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796209"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804240"
 ---
 # <a name="mediation-servers-scope-node"></a>Nodo de ámbito de servidores de mediación
  
-El nodo **Grupos de servidores de mediación** contiene los grupos de servidores de mediación de la topología. Puede efectuar la acción siguiente:
+El nodo **Grupos de servidores de mediación** contiene los nodos de mediación de la topología. Puede efectuar la acción siguiente:
   
-- **Nuevo grupo de servidores de mediación**. Inicia el asistente **Definir nuevo grupo de servidores de mediación**, que sirve para agregar un nuevo grupo de servidores de mediación a la topología.
+- **Nuevo grupo de servidores de mediación**. Inicia el Asistente para **definir nuevo grupo de servidores de mediación**, que se emplea para incorporar a la topología un nuevo grupo de servidores de mediación.
     
-Además de las opciones de grupo de servidores de mediación, puede realizar las tareas generales siguientes:
+Además de las opciones de los grupos de servidores de mediación, puede efectuar las tareas generales siguientes:
   
-- **Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     
-- **Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.
+- **Ver**. Use esta opción para personalizar la vista del Generador de topologías seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     
-- **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
+- **Ayuda**. Use esta opción para obtener acceso a la Ayuda del nodo activo.
     
 

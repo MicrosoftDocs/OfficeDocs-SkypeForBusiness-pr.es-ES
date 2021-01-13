@@ -1,8 +1,8 @@
 ---
 title: Comprobar replicación de la preparación del bosque
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,27 +14,27 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
-description: 'Para confirmar que la replicación del catálogo global y la creación de objetos durante la preparación del bosque se han realizado correctamente, haga lo siguiente:'
-ms.openlocfilehash: 5f02707b8a98ec9869aa2b2b4d867bb45351371b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para confirmar que la replicación del catálogo global y la creación de objetos durante la preparación del bosque se han realizado correctamente, siga estos pasos:'
+ms.openlocfilehash: 010cf3fbadf8e07b4ccb80c33c34057024dde896
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823284"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800560"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Comprobar replicación de la preparación del bosque
  
-Para confirmar que la replicación del catálogo global y la creación de objetos durante la preparación del bosque se han realizado correctamente, haga lo siguiente:
+Para confirmar que la replicación del catálogo global y la creación de objetos durante la preparación del bosque se han realizado correctamente, siga estos pasos:
   
-1. En un controlador de dominio (preferentemente en un sitio remoto desde otros controladores de dominio) en el bosque donde se ejecutó la preparación del bosque, abra **Usuarios y equipos de Active Directory**.
+1. En un controlador de dominio (preferiblemente en un sitio remoto desde otros controladores de dominio) del bosque en el que se ejecutó la preparación del bosque, abra  **Usuarios y equipos de Active Directory**.
     
-2. En **Usuarios y equipos de Active Directory**, expanda el nombre de dominio del bosque o un dominio secundario.
+2. En  **Usuarios y equipos de Active Directory**, expanda el nombre de dominio del bosque o un dominio secundario.
     
-3. Haga clic en el contenedor **usuarios** en el panel de la izquierda y busque el grupo universal CsAdministrator en el panel de la derecha. Si CsAdministrator (entre otros ocho grupos universales nuevos que comienzan por CS) está presente, la replicación de la preparación del bosque se ha realizado correctamente.
+3. Haga clic **en el** contenedor Usuarios del panel izquierdo y busque el grupo universal CsAdministrator en el panel derecho. Si CsAdministrator (entre otros ocho nuevos grupos universales que comienzan con Cs) está presente, la replicación de la preparación del bosque se ha realizado correctamente.
     
-4. Si los grupos aún no están presentes, puede forzar la replicación o esperar 15 minutos y actualizar el panel de la derecha. Cuando los grupos están presentes, la replicación se ha completado.
+4. Si el grupo o los grupos aún no están presentes, puede forzar la replicación o esperar 15 minutos y actualizar el panel derecho. Cuando los grupos están presentes, la replicación se ha completado.
     
 > [!TIP]
-> Si desea revisar los archivos de registro creados por el Asistente para la implementación de Skype empresarial Server, puede encontrarlos en el equipo en el que se ejecutó el Asistente para la implementación, en el directorio usuarios del usuario de los servicios de dominio de Active Directory que ejecutó el paso. Por ejemplo, si el usuario ha iniciado sesión como administrador del dominio Contoso.net, los archivos de registro se encuentran en: C:\Users\Administrator.Contoso\AppData\Local\Temp 
+> Si desea revisar los archivos de registro creados por el Asistente para la implementación de Skype Empresarial Server, puede encontrarlos en el equipo donde se ejecutó el Asistente para la implementación, en el directorio de usuarios del usuario de Servicios de dominio de Active Directory que realizó el paso. Por ejemplo, si el usuario inició sesión como administrador de dominio en el dominio Contoso.net, los archivos de registro se encuentran en: C:\Users\Administrator.Contoso\AppData\Local\Temp 
   
 

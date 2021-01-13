@@ -1,8 +1,8 @@
 ---
-title: Client Settings (Planning Tool)
+title: Configuración de cliente (Herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
-description: La característica de movilidad de Skype empresarial Server 25 es compatible con la funcionalidad de Skype empresarial en dispositivos móviles. Para obtener más información, consulte Planning for Mobility.
-ms.openlocfilehash: 24889807736231e7f6ad487e7620f2a1586bda82
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La característica de movilidad de Skype Empresarial Server 25 admite la funcionalidad de Skype Empresarial en dispositivos móviles. Para obtener más información, consulte Planning for Mobility.
+ms.openlocfilehash: b3facf5dc9696f8e417109865a65cafab6580058
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797361"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801120"
 ---
-# <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
+# <a name="client-settings-planning-tool"></a>Configuración de cliente (Herramienta de planeación)
 
-La característica de movilidad de Skype empresarial Server admite la funcionalidad de Skype empresarial en dispositivos móviles. Para obtener más información, consulte [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
+La característica de movilidad de Skype Empresarial Server admite la funcionalidad de Skype Empresarial en dispositivos móviles. Para obtener más información, consulte [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
 
 

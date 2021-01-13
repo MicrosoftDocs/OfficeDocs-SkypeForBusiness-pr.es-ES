@@ -1,8 +1,8 @@
 ---
-title: Directrices de implementación para el servidor de mediación en Skype empresarial Server
+title: Directrices de implementación para el servidor de mediación en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,52 +12,52 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
-description: En este tema se describen las directrices de planeación para la implementación de Media Server.
-ms.openlocfilehash: 806886b7c7c5e8ae367a6e104f7fd9127f25c099
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En este tema se describen las directrices de planeación para la implementación del servidor de mediación.
+ms.openlocfilehash: 245916286fe5f1590581989b8a09daf637c03aa9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816059"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800095"
 ---
-# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Directrices de implementación para el servidor de mediación en Skype empresarial Server
+# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Directrices de implementación para el servidor de mediación en Skype Empresarial Server
  
-En este tema se describen las directrices de planeación para la implementación de Media Server.
+En este tema se describen las directrices de planeación para la implementación del servidor de mediación.
   
-## <a name="collocated-or-stand-alone-mediation-server"></a>Servidor de mediación colocada o independiente?
+## <a name="collocated-or-stand-alone-mediation-server"></a>¿Servidor de mediación local o independiente?
 
-El servidor de mediación se encuentra, de forma predeterminada, en el servidor Standard Edition o en el servidor front-end de un grupo de servidores front-end en los sitios centrales. El número de llamadas de la red telefónica conmutada (RTC) que se puede administrar y el número de máquinas necesarias en el grupo de servidores dependerán de los factores siguientes:
+De forma predeterminada, el servidor de mediación se coloca en el servidor Standard Edition o el servidor front-end en un grupo de servidores front-end en los sitios centrales. El número de llamadas de la red telefónica conmutada (RTC) que se pueden administrar y el número de máquinas necesarias en el grupo de servidores dependerán de:
   
-- El número de puertas de enlace o gateways controladas por el grupo de servidores de mediación.
+- El número de puertas de enlace del mismo nivel que controla el grupo de servidores de mediación.
     
-- Los períodos de alto volumen de tráfico que atraviesa las puertas de enlace.
+- Los períodos de tráfico de gran volumen a través de esas puertas de enlace.
     
-- El porcentaje de llamadas que son llamadas cuyos medios omiten el servidor de mediación.
+- Porcentaje de llamadas que son llamadas cuyos medios omiten el servidor de mediación.
     
-Al realizar el planeamiento, asegúrese de tener en cuenta los requisitos de procesamiento de medios para las llamadas RTC y conferencias de A/V no compatibles con la omisión de medios, además del procesamiento necesario para administrar las interacciones de señalización del número de llamadas que es necesario admitir en las horas de más actividad. Si no tiene suficiente CPU, tendrá que implementar un grupo independiente de servidores de mediación. Además, las puertas de enlace RTC, las PBX IP y SBCs deberán dividirse en subconjuntos que se controlan mediante los servidores de mediación en un mismo grupo y los servidores de mediación independientes en uno o más grupos de servidores independientes.
+Cuando planee, asegúrese de tener en cuenta los requisitos de procesamiento de medios para las llamadas RTC y conferencias A/V que no admiten la omisión de medios, así como el procesamiento necesario para controlar las interacciones de señalización para el número de llamadas en hora punta que es necesario admitir. Si no tiene suficiente CPU, deberá implementar un grupo independiente de servidores de mediación. Además, las puertas de enlace RTC, las IP-PBX y los SBC tendrán que dividirse en subconjuntos controlados por los servidores de mediación de un grupo de servidores y los servidores de mediación independientes en uno o más grupos de servidores independientes.
   
-Si ha implementado puertas de enlace RTC, IP-PBX o controladores de borde de sesión (SBCs) que no tienen la capacidad de interactuar con un grupo de servidores de mediación, necesitarán estar asociados con un grupo independiente que contenga un solo servidor de mediación. Estas son algunas de las acciones que es necesario realizar con las puertas de enlace RTC, IP-PBX o SBC:
+Si implementó puertas de enlace RTC, IP-PBX o controladores de borde de sesión (SBC) que no tienen la capacidad de interactuar con un grupo de servidores de mediación, necesitará asociarse a un grupo independiente que consta de un único servidor de mediación. Algunas de las cosas que las puertas de enlace RTC, IP-PBXs o SBC tendrían que hacer son:
   
-- Realizar el equilibrio de carga del sistema de nombres de dominio (DNS) de nivel de red en los servidores de mediación de un grupo (o bien enrutar el tráfico uniformemente a todos los servidores de mediación de un grupo).
+- Realizar el equilibrio de carga del Sistema de nombres de dominio (DNS) de la capa de red entre los servidores de mediación de un grupo de servidores (o enrutar el tráfico uniformemente a todos los servidores de mediación de un grupo de servidores).
     
-- Acepte el tráfico de cualquier servidor de mediación de un grupo.
+- Acepte el tráfico de cualquier servidor de mediación de un grupo de servidores.
     
-Puede usar la herramienta de planeación de Skype empresarial para evaluar si collocating el servidor de mediación con el grupo de servidores front-end puede controlar la carga. Si su entorno no puede cumplir estos requisitos, tendrá que implementar un grupo de servidores de mediación independiente.
+Puede usar la Herramienta de planeación de Skype Empresarial para evaluar si la instalación del servidor de mediación con el grupo de servidores front-end puede controlar la carga. Si su entorno no puede cumplir estos requisitos, deberá implementar un grupo de servidores de mediación independiente.
   
-## <a name="central-site-and-branch-site-considerations"></a>Consideraciones del sitio central y del sitio de sucursal
+## <a name="central-site-and-branch-site-considerations"></a>Consideraciones del sitio central y las sucursales
 
- Los servidores de mediación del sitio central se pueden usar para enrutar llamadas para IP-PBX o puertas de enlace RTC en sitios de sucursales. Sin embargo, si implementas los troncos SIP, debes implementar un servidor de mediación en el sitio en el que termina cada tronco. Tener un servidor de mediación en el sitio central las llamadas a una puerta de enlace IP o RTC en un sitio de sucursal no requieren el uso de la omisión de medios, pero se recomienda una omisión de medios. Pero, si puede habilitar la omisión de medios, se reducirá la latencia de la ruta de acceso a medios y, por lo tanto, mejorará la calidad de los medios, ya que la ruta de acceso a medios ya no será necesaria para seguir la ruta de acceso de señalización. La omisión de medios también reducirá la carga de procesamiento del grupo.
+ Los servidores de mediación del sitio central se pueden usar para enrutar llamadas a puertas de enlace RTC o IP-PBX en las sucursales. Sin embargo, si implementa troncos SIP, debe implementar un servidor de mediación en el sitio donde termina cada tronco. Tener un servidor de mediación en el sitio central enruta llamadas para una puerta de enlace RTC o IP-PBX en un sitio de sucursal no requiere el uso de la omisión de medios, pero se recomienda una omisión de medios. Esto se debe a que, si puedes habilitar la omisión de medios, reducirá la latencia de la ruta de acceso a los medios y, por lo tanto, mejorará la calidad de los medios, ya que la ruta de acceso multimedia no es necesaria para seguir la ruta de señalización. El desvío de medios disminuirá también la carga de procesamiento del grupo de servidores.
   
 > [!NOTE]
-> La omisión de medios no interactuará con todas las puertas de enlace RTC, sistemas IP-PBX y SBC. Microsoft ha probado una serie de puertas de enlace RTC y SBC con asociados certificados y ha realizado algunas pruebas con los IP-PBX de Cisco. La omisión de contenido multimedia solo se admite con productos y versiones incluidos en el programa de interoperabilidad abierto de comunicaciones unificadas, Lync Server en [explorar dispositivos, infraestructura y herramientas probados que admiten y amplían su experiencia con Skype empresarial](http://partnersolutions.skypeforbusiness.com/solutionscatalog). 
+> La omisión de medios no interoperará con cada puerta de enlace RTC, IP-PBX y SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con los productos y las versiones enumerados en el Programa de interoperabilidad abierta de comunicaciones unificadas: Lync Server en Explorar dispositivos [probados,](http://partnersolutions.skypeforbusiness.com/solutionscatalog)infraestructura y herramientas que admiten y amplían su experiencia de Skype Empresarial. 
   
-Si se requiere resistencia al sitio de la sucursal, se debe implementar en el sitio de la sucursal un dispositivo de aplicación de media o una combinación de un servidor front-end, un servidor de mediación y una combinación. (La hipótesis con la resistencia de los sitios de las sucursales es que la presencia y las conferencias no son resistentes en el sitio). Para obtener instrucciones sobre el planeamiento de sitios de las sucursales de voz, consulte [planear la resistencia de telefonía IP empresarial en Skype empresarial Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
+Si se necesita resistencia en la sucursal, se debe implementar una aplicación de sucursal con funciones de supervivencia o una combinación de servidor front-end, servidor de mediación y puerta de enlace en la sucursal. (La suposición con resistencia de sitios de sucursal es que la presencia y las conferencias no son resistentes en el sitio). For guidance on branch site planning for voice, see [Plan for Telefonía IP empresarial resiliency in Skype for Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
-En el caso de interacciones con un IP-PBX, si el IP-PBX no es compatible con las interacciones de medios iniciales con varios cuadros de diálogo y interacciones de RFC 3960, puede recortar las primeras palabras del saludo para las llamadas entrantes desde el IP-PBX a los puntos de conexión de Lync. Este comportamiento puede ser más grave si un servidor de mediación de un sitio central está enrutando las llamadas a un IP-PBX donde la ruta termina en un sitio de sucursal, porque se necesita más tiempo para que se complete la señalización. Si experimenta este comportamiento, implementar un servidor de mediación en el sitio de la sucursal es la única forma de reducir el recorte de las primeras palabras.
+En el caso de las interacciones con una IP-PBX, si la IP-PBX no admite correctamente interacciones de medios iniciales con varios cuadros de diálogo iniciales e interacciones RFC 3960, puede haber un recorte de las primeras palabras del saludo para las llamadas entrantes de ip-PBX a los extremos de Lync. Este suceso puede agravarse si un servidor de mediación del sitio central enruta llamadas a un IP-PBX en el que la ruta termina en una sucursal, porque se necesita más tiempo para que la señalización finalice. Si experimenta este comportamiento, implementar un servidor de mediación en el sitio de sucursal es la única forma de reducir el recorte de las primeras palabras.
   
-Por último, si su sitio central tiene un sistema PBX con TDM, o si su IP-PBX no elimina la necesidad de una puerta de enlace RTC, debe implementar una puerta de enlace en la ruta de llamada y en el servidor PBX.
+Por último, si el sitio central tiene un PBX TDM, o si el IP-PBX no evita la necesidad de una puerta de enlace RTC, deberá implementar una puerta de enlace en la ruta de la llamada para conectar el servidor de mediación y el PBX.
   
 > [!NOTE]
-> Para mejorar el rendimiento de medios del servidor de mediación independiente, es necesario habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de estos servidores. RSS permite que los paquetes entrantes se administren en paralelo por varios procesadores en el servidor. Para obtener más información, vea "[mejoras en la escala del lado de recepción en Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)". Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red. 
+> Para mejorar el rendimiento multimedia del servidor de mediación independiente, debe habilitar el ajuste de escala del lado de recepción (RSS) en los adaptadores de red de estos servidores. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, consulte["Mejoras de escalado del](https://go.microsoft.com/fwlink/p/?LinkId=268731)lado de recepción en Windows Server". Para obtener más información sobre cómo habilitar RSS, consulte la documentación del adaptador de red. 
   
 

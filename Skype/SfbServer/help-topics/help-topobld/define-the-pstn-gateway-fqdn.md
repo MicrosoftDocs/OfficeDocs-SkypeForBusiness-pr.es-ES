@@ -1,8 +1,8 @@
 ---
 title: Definir el FQDN de puerta de enlace de RTC
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
-description: Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de la red telefónica conmutada (RTC) que va a conectar los componentes de telefonía IP empresarial a una central de conmutación (PBX) RTC o privadas.
-ms.openlocfilehash: 52fe8eabfc41e8acc183f7dc3d02a7233734f275
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de la red telefónica conmutada (RTC) que conectará los componentes de Telefonía IP empresarial a una RTC o central de conmutación (PBX).
+ms.openlocfilehash: 39715f807c65914ab75815cbeffd072686e87f15
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218311"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804870"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definir el FQDN de puerta de enlace de RTC
 
-Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de la red telefónica conmutada (RTC) que va a conectar los componentes de telefonía IP empresarial a una central de conmutación (PBX) RTC o privadas.
+Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de la red telefónica conmutada (RTC) que conectará los componentes de Telefonía IP empresarial a una RTC o central de conmutación (PBX).
 
-Para obtener más información, consulte [RTC Connectivity Components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Para obtener más información, consulte [componentes de conectividad rtc en Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Vea también
 

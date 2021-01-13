@@ -1,8 +1,8 @@
 ---
-title: Solicitud de certificado (solicitud de firma de certificado)
+title: Solicitud de certificados (solicitud de firma de certificado)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
-description: Para crear una solicitud sin conexión, primero debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro de texto nombre de archivo. Puede hacer clic en examinar para elegir una ubicación donde crear el CSR. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 951275f697b8804d389ce5841881a40903d8e039
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para crear una solicitud sin conexión, antes debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro de texto Nombre de archivo. Haga clic en Examinar para buscar la ubicación donde crear la solicitud de firma de certificado. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: 0d2584eac4bffab5de60d46e4cc39a690d598d6f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823874"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805300"
 ---
-# <a name="certificate-request-certificate-signing-request"></a>Solicitud de certificado (solicitud de firma de certificado)
+# <a name="certificate-request-certificate-signing-request"></a>Solicitud de certificados (solicitud de firma de certificado)
  
-Para crear una solicitud sin conexión, primero debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro de texto **nombre de archivo** . Puede hacer clic en **examinar** para elegir una ubicación donde crear el CSR. Haga clic en **Siguiente** para continuar.
+Para crear una solicitud sin conexión, antes debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro **de texto Nombre** de archivo. Haga clic en **Examinar** para buscar la ubicación donde crear la solicitud de firma de certificado. Haga clic en **Siguiente** para continuar.
   
-Haga clic en **atrás** para volver a la pantalla anterior. Haga clic en **Cancelar** para salir sin realizar cambios en el sistema.
+Haga clic en **Atrás** para retroceder a la pantalla anterior. Haga clic en **Cancelar** para salir sin aplicar los cambios en el sistema.
   
 > [!IMPORTANT]
-> El archivo que se crea en este paso se envía a su entidad de certificación pública (CA), a la entidad emisora de certificados interna sin conexión o se envía al administrador de la entidad emisora para su procesamiento. Anote la ubicación y el nombre del archivo para poder recuperarlo y enviar al representante de la entidad emisora de certificados. La ubicación predeterminada es el directorio documentos de la persona que ejecuta el Asistente para certificados. 
+> El archivo que se crea en este paso se envía a la entidad de certificación pública, a la entidad de certificación sin conexión interna o bien al administrador de la entidad de certificación para que la procese. Apunte el nombre y la ubicación del archivo para poderlo recuperar y enviar la solicitud de firma de certificado a la entidad de certificación. El directorio Documents de la persona que ejecuta el Asistente para certificados es la ubicación predeterminada. 
   
 

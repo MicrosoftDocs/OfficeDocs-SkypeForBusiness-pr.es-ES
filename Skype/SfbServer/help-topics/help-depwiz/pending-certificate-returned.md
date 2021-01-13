@@ -1,8 +1,8 @@
 ---
 title: Certificado pendiente (devuelto)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
-description: La página de estado de la solicitud de certificado en línea devuelve el estado actual del certificado. Si el certificado aún está en estado de aprobación pendiente con el administrador de la entidad emisora de certificados, es decir, si aún no se ha aprobado, el estado indicará que el certificado aún se está procesando.
-ms.openlocfilehash: 73a979d80fd397ebb8f1e60100d4044e9a9967c4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La página Estado de solicitud del certificado en línea proporciona el estado actual del certificado. Si el certificado continúa pendiente de aprobación por parte del administrador de la entidad de certificación, es decir, si aún no se ha aprobado, el estado indicará que el certificado se está procesando todavía.
+ms.openlocfilehash: 3aa29f3913514ea54a899cf7f6d4d1e502ddaf82
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823584"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805080"
 ---
 # <a name="pending-certificate-returned"></a>Certificado pendiente (devuelto)
  
-La página de estado de la **solicitud de certificado en línea** devuelve el estado actual del certificado. Si el certificado aún está en estado de aprobación pendiente con el administrador de la entidad emisora de certificados, es decir, si aún no se ha aprobado, el estado indicará que el certificado aún se está procesando.
+La página **Estado de solicitud del certificado en línea** proporciona el estado actual del certificado. Si el certificado continúa pendiente de aprobación por parte del administrador de la entidad de certificación, es decir, si aún no se ha aprobado, el estado indicará que el certificado se está procesando todavía.
   
-Si la solicitud pendiente ha sido aprobada y la recuperación del certificado se ha realizado correctamente, el estado indicará que se ha asignado un certificado al almacén de certificados local y el panel estado también mostrará la huella digital del certificado.
+Si la solicitud pendiente se ha aprobado y la recuperación del certificado es correcta, el estado indicará que se ha asignado un certificado al almacén de certificados local; asimismo, el panel de estado mostrará la huella digital del certificado.
   
-Si el administrador de la entidad emisora de certificados rechaza la solicitud de certificado, el panel estado notificará que la solicitud del certificado pendiente con un identificador determinado (mantenido por la entidad emisora de certificados) se deniega.
+Si el administrador de la entidad de certificación deniega la solicitud del certificado, el panel de estado indicará que se ha denegado la solicitud del certificado pendiente con un determinado identificador (proporcionado por la entidad de certificación).
   
-Haga clic en **Finalizar** para completar el procesamiento de certificado pendiente.
+Haga clic en **Finalizar** para completar el procesamiento del certificado.
   
 

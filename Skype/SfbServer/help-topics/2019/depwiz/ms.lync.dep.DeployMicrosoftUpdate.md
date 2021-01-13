@@ -1,8 +1,8 @@
 ---
-title: Windows Update del Asistente para la implementación
+title: Asistente para la implementación de Windows Update
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para obtener información sobre cómo usar el Asistente para la implementación para instalar Skype empresarial Server, consulte instalar Skype empresarial Server.
-ms.openlocfilehash: bbf2dd17e3635897731680237e367ea2a59ccc55
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, consulte Instalar Skype Empresarial Server.
+ms.openlocfilehash: b31023d6a96938433d10040d7e795004113cba24
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794739"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801540"
 ---
 # <a name="deployment-wizard-windows-update"></a>Asistente para la implementación: Windows Update
  
-Para obtener información sobre cómo usar el Asistente para la implementación para instalar Skype empresarial Server, consulte [instalar Skype empresarial Server](../../../deploy/install/install.md).
+Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, consulte [Instalar Skype Empresarial Server.](../../../deploy/install/install.md)
   
 

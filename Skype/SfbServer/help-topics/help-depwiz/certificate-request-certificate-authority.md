@@ -1,8 +1,8 @@
 ---
 title: Solicitud de certificado (entidad de certificación)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,27 +14,27 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-description: 'Al solicitar un certificado a una entidad de certificación en línea (o CA; suelen ser servidores ubicados en la red interna) en la página Elija una entidad de certificación, aparecen dos opciones:'
-ms.openlocfilehash: b70daa9a4b9a212d770176b652e3ac70b7149c4e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Al realizar una solicitud de certificado a una entidad de certificación (CA) en línea (normalmente, se trata de servidores que se encuentran en la red interna) en la página Elegir una entidad de certificación (CA), se le presentan dos opciones:'
+ms.openlocfilehash: 0081ab852a1650dfafd61471891a002be60def3c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823894"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805330"
 ---
 # <a name="certificate-request-certificate-authority"></a>Solicitud de certificado (entidad de certificación)
  
-Al solicitar un certificado a una entidad de certificación en línea (o CA; suelen ser servidores ubicados en la red interna) en la página **Elija una entidad de certificación**, aparecen dos opciones:
+Al realizar una solicitud de certificado a una entidad de certificación (CA) en línea (normalmente, se trata de servidores que se encuentran en la red interna) en la página Elegir una entidad de certificación **(CA),** se le presentan dos opciones:
   
 1. Seleccionar una entidad de certificación de la lista detectada en el entorno.
     
 2. Especificar otra entidad de certificación.
     
-Si selecciona la primera opción, verá una lista desplegable que contiene todas las entidades de certificación basadas en Windows Server que se detectan en su entorno. Seleccione la entidad de certificación adecuada para el certificado. Quizá deba consultar al administrador de la entidad de certificación para saber qué entidad se debe elegir.
+Si seleccionas la primera opción, verás una lista desplegable que contiene todas las entidades de certificación basadas en Windows Server que se detectan en el entorno. Seleccione la entidad de certificación adecuada para el certificado. Quizá deba consultar al administrador de la entidad de certificación para saber qué entidad se debe elegir.
   
-Si se inclina por la segunda opción, escriba el nombre de dominio completo y la instancia de entidad de certificación que usará para el certificado. Esta opción es la correcta si la entidad de certificación que quiere usar no se basa en servidores Windows; sin embargo, será válida para entidades basadas en servidores Windows.
+Si selecciona la segunda opción, escriba el nombre de dominio completo (FQDN) y la instancia de ca para la entidad de certificación que usará para el certificado. Esta opción es adecuada si la CA que desea usar no es una CA basada en Windows Server, pero funcionará para CA basadas en Windows Server.
   
 > [!IMPORTANT]
-> Asegúrese de confirmar las pertenencias a grupos que necesita para que la solicitud del certificado sea válida. Normalmente, las entidades emisoras de certificados tienen un requisito de permiso diferente de los requisitos para instalar Skype empresarial Server en servidores. Confirme con el administrador de la entidad de certificación los requisitos para solicitar el certificado. 
+> Asegúrese de confirmar las pertenencias a grupos que necesita para realizar correctamente la solicitud de certificado. Normalmente, las entidades de certificación tienen un requisito de permiso diferente de los requisitos para instalar Skype Empresarial Server en servidores. Confirme con el administrador de la entidad de certificación los requisitos para solicitar el certificado. 
   
 

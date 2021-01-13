@@ -1,8 +1,8 @@
 ---
-title: Voice Infrastructure (Planning Tool)
+title: Infraestructura de voz (Herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,16 +15,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
-description: Skype empresarial Server 2015 ofrece conectividad RTC confiable y escalable mediante troncos SIP, conexiones SIP directas a una puerta de enlace PSTN o conexiones SIP directas a un sistema PBX. Para obtener más información, vea planear la conectividad RTC en Skype empresarial Server 2015.
-ms.openlocfilehash: 6ea1132b8dbfd7d53d6fe25caf4f0499b534f559
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype Empresarial Server 2015 proporciona una conectividad RTC confiable y escalable mediante troncos SIP, conexiones SIP directas a una puerta de enlace RTC o conexiones SIP directas a una PBX. Para obtener más información, consulte Plan for PSTN connectivity in Skype for Business Server 2015.
+ms.openlocfilehash: 114f8aa44127736a754b98d9693ca17317f95490
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821372"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800270"
 ---
-# <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
+# <a name="voice-infrastructure-planning-tool"></a>Infraestructura de voz (Herramienta de planeación)
  
-Skype empresarial Server 2015 ofrece conectividad RTC confiable y escalable mediante troncos SIP, conexiones SIP directas a una puerta de enlace PSTN o conexiones SIP directas a un sistema PBX. Para obtener más información, vea [planear la conectividad RTC en Skype empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+Skype Empresarial Server 2015 proporciona una conectividad RTC confiable y escalable mediante troncos SIP, conexiones SIP directas a una puerta de enlace RTC o conexiones SIP directas a una PBX. Para obtener más información, consulte [Plan for PSTN connectivity in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
 

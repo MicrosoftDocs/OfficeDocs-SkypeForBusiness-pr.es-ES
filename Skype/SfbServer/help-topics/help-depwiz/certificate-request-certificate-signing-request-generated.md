@@ -1,8 +1,8 @@
 ---
 title: Solicitud de certificado (solicitud de firma de certificado generada)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
-description: La página de archivo de solicitud de certificado aparece después de completar una solicitud sin conexión de certificado. Para mostrar la solicitud de certificado y prepararse para enviarla a la entidad de certificación (CA) sin conexión o a la CA pública, haga clic en el botón ver. La solicitud de certificado se muestra en el Bloc de notas de Windows (de forma predeterminada). Puede copiar y pegar la solicitud de certificado codificada desde esta pantalla o finalizar el procesamiento de la solicitud de certificado siguiendo las instrucciones de la CA pública sin conexión o la CA pública que ha elegido. Haga clic en finalizar para continuar.
-ms.openlocfilehash: 24f2c03adc3328caae25a0f920b1b2efba98b63a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La página Nombre del archivo de solicitud de certificados se muestra una vez completada una solicitud no conectada de un certificado. Para mostrar la solicitud de certificado y prepararla para su envío a la entidad de certificación no conectada o pública, haga clic en el botón Ver. Se mostrará la solicitud de certificado que aparece en el Bloc de notas de Windows (de modo predeterminado). Puede copiar y pegar la solicitud de certificado codificada desde esta pantalla o finalizar el procesamiento de la solicitud del certificado siguiendo las instrucciones de la entidad de certificación no conectada o pública. Haga clic en Finalizar para continuar.
+ms.openlocfilehash: bcdeae4cd2c23f00ed423c11f1ed95fc6c31a83c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823884"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805310"
 ---
-# <a name="certificate-request-certificate-signing-request-generated"></a>Solicitud de certificado (solicitud de firma de certificado generada)
+# <a name="certificate-request-certificate-signing-request-generated"></a>Solicitud de certificados (solicitud de firma de certificado generada)
  
-La página de **archivo de solicitud de certificado** aparece después de completar una solicitud sin conexión de certificado. Para mostrar la solicitud de certificado y prepararse para enviarla a la entidad de certificación (CA) sin conexión o a la CA pública, haga clic en el botón **Ver** . La solicitud de certificado se muestra en el Bloc de notas de Windows (de forma predeterminada). Puede copiar y pegar la solicitud de certificado codificada desde esta pantalla o finalizar el procesamiento de la solicitud de certificado siguiendo las instrucciones de la CA pública sin conexión o la CA pública que ha elegido. Haga clic en **Finalizar** para continuar.
+La página **Nombre del archivo de solicitud de certificados** se muestra una vez completada una solicitud no conectada de un certificado. Para mostrar la solicitud de certificado y prepararla para su envío a la entidad de certificación no conectada o pública, haga clic en el botón **Ver**. Se mostrará la solicitud de certificado que aparece en el Bloc de notas de Windows (de modo predeterminado). Puede copiar y pegar la solicitud de certificado codificada desde esta pantalla o finalizar el procesamiento de la solicitud del certificado siguiendo las instrucciones de la entidad de certificación no conectada o pública. Haga clic en **Finalizar** para continuar.
   
 
