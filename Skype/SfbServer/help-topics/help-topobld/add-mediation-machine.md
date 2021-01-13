@@ -1,8 +1,8 @@
 ---
 title: Agregar equipo de mediación
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
 description: Especifique el nombre de dominio completo de cada equipo que desee agregar como servidor front-end en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Topology Builder y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo.
-ms.openlocfilehash: 67fd038489ed3df95ffee84f7517dc86b96a296c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: ecca5fa38f74aa13ad9b181f9c08ebf38bfe0675
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217931"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824000"
 ---
-# <a name="add-mediation-machine"></a><span data-ttu-id="938f1-105">Agregar equipo de mediación</span><span class="sxs-lookup"><span data-stu-id="938f1-105">Add Mediation Machine</span></span>
+# <a name="add-mediation-machine"></a><span data-ttu-id="6da76-105">Agregar equipo de mediación</span><span class="sxs-lookup"><span data-stu-id="6da76-105">Add Mediation Machine</span></span>
  
-<span data-ttu-id="938f1-106">Especifique el nombre de dominio completo de cada equipo que desee agregar como servidor front-end en este grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="938f1-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool.</span></span> <span data-ttu-id="938f1-107">Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="938f1-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="938f1-108">Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Topology Builder y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo.</span><span class="sxs-lookup"><span data-stu-id="938f1-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
+<span data-ttu-id="6da76-106">Especifique el nombre de dominio completo de cada equipo que desee agregar como servidor front-end en este grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="6da76-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool.</span></span> <span data-ttu-id="6da76-107">Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="6da76-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="6da76-108">Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Topology Builder y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo.</span><span class="sxs-lookup"><span data-stu-id="6da76-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
   
 

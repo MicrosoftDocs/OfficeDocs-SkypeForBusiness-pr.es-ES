@@ -1,8 +1,8 @@
 ---
 title: Importar certificado (resumen)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
-description: En la página importar Resumen de certificados, se le presenta un resumen del nombre de archivo, la ruta de acceso y la presencia de una clave privada. Después de revisar el Resumen, haga clic en siguiente para continuar.
-ms.openlocfilehash: cff808c3671d4df8455433e69c8b72161a1819cc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En la página Importar resumen de certificado, figura un resumen con el nombre de archivo, la ruta y una clave privada. Tras haber examinado el resumen, haga clic en Siguiente para continuar.
+ms.openlocfilehash: c576ff132c8a730a5107251fea1bdad1352f8abc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823654"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827220"
 ---
-# <a name="import-certificate-summary"></a><span data-ttu-id="e2bec-104">Importar certificado (resumen)</span><span class="sxs-lookup"><span data-stu-id="e2bec-104">Import Certificate (Summary)</span></span>
+# <a name="import-certificate-summary"></a><span data-ttu-id="c9ced-104">Importar certificado (resumen)</span><span class="sxs-lookup"><span data-stu-id="c9ced-104">Import Certificate (Summary)</span></span>
  
-<span data-ttu-id="e2bec-105">En la página **importar Resumen de certificados** , se le presenta un resumen del nombre de archivo, la ruta de acceso y la presencia de una clave privada.</span><span class="sxs-lookup"><span data-stu-id="e2bec-105">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key.</span></span> <span data-ttu-id="e2bec-106">Después de revisar el Resumen, haga clic en **siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="e2bec-106">After you have reviewed the summary, click **Next** to continue.</span></span>
+<span data-ttu-id="c9ced-p102">En la página **Importar resumen de certificado**, figura un resumen con el nombre de archivo, la ruta y una clave privada. Tras haber examinado el resumen, haga clic en **Siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="c9ced-p102">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.</span></span>
   
 

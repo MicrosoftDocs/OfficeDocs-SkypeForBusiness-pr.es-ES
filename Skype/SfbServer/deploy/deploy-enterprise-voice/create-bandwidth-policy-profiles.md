@@ -1,8 +1,8 @@
 ---
-title: Crear perfiles de directiva de ancho de banda en Skype empresarial Server
+title: Crear perfiles de directiva de ancho de banda en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,40 +15,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Crear o modificar directivas de ancho de banda, que usan el control de admisión de llamadas de voz de empresa en Skype empresarial Server.
-ms.openlocfilehash: e54fc20c142e0eacc2758d97bdeba8043511b3fe
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Crear o modificar directivas de ancho de banda, que se usan Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server.
+ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767953"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824851"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a><span data-ttu-id="83fe4-103">Crear perfiles de directiva de ancho de banda en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="83fe4-103">Create bandwidth policy profiles in Skype for Business Server</span></span> 
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a><span data-ttu-id="a1a52-103">Crear perfiles de directiva de ancho de banda en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="a1a52-103">Create bandwidth policy profiles in Skype for Business Server</span></span> 
  
-<span data-ttu-id="83fe4-104">Crear o modificar directivas de ancho de banda, que usan el control de admisión de llamadas de voz de empresa en Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="83fe4-104">Create or modify bandwidth policies, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
+<span data-ttu-id="a1a52-104">Crear o modificar directivas de ancho de banda, que se usan Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="a1a52-104">Create or modify bandwidth policies, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
   
-<span data-ttu-id="83fe4-105">Las directivas de ancho de banda definen limitaciones en el uso de ancho de banda para las modalidades de audio y vídeo en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="83fe4-105">Bandwidth policies define limitations on bandwidth usage for real-time audio and video modalities.</span></span> <span data-ttu-id="83fe4-106">Las directivas de ancho de banda se aplican tobandwidth perfiles de Directiva, que se pueden aplicar a varios sitios de red para el control de admisión de llamadas.</span><span class="sxs-lookup"><span data-stu-id="83fe4-106">Bandwidth policies are applied tobandwidth policy profiles, which can be applied to multiple network sites for call admission control.</span></span>
+<span data-ttu-id="a1a52-105">Las directivas de ancho de banda definen limitaciones en el uso de ancho de banda para las modalidades de audio y vídeo en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="a1a52-105">Bandwidth policies define limitations on bandwidth usage for real-time audio and video modalities.</span></span> <span data-ttu-id="a1a52-106">Las directivas de ancho de banda se aplican a los perfiles de directivabandwidth, que se pueden aplicar a varios sitios de red para el control de admisión de llamadas.</span><span class="sxs-lookup"><span data-stu-id="a1a52-106">Bandwidth policies are applied tobandwidth policy profiles, which can be applied to multiple network sites for call admission control.</span></span>
   
-<span data-ttu-id="83fe4-107">Para obtener instrucciones sobre qué límites de ancho de banda debe establecer en su implementación CAC, consulte [Plan for Call Admission Control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="83fe4-107">For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
+<span data-ttu-id="a1a52-107">For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="a1a52-107">For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
   
-<span data-ttu-id="83fe4-p102">Las directivas de ejemplo creadas en el procedimiento siguiente definen límites para el tráfico de audio global, sesiones de audio individuales, el tráfico de vídeo global y sesiones de vídeo individuales. Por ejemplo, el perfil de directiva de ancho de banda 5Mb_Link define los límites siguientes:</span><span class="sxs-lookup"><span data-stu-id="83fe4-p102">The example policies created in the following procedure set limits for overall audio traffic, individual audio sessions, overall video traffic, and individual video sessions. For example, the 5Mb_Link bandwidth policy profile sets the following limits:</span></span> 
+<span data-ttu-id="a1a52-p102">Las directivas de ejemplo creadas en el procedimiento siguiente definen límites para el tráfico de audio global, sesiones de audio individuales, el tráfico de vídeo global y sesiones de vídeo individuales. Por ejemplo, el perfil de directiva de ancho de banda 5Mb_Link define los límites siguientes:</span><span class="sxs-lookup"><span data-stu-id="a1a52-p102">The example policies created in the following procedure set limits for overall audio traffic, individual audio sessions, overall video traffic, and individual video sessions. For example, the 5Mb_Link bandwidth policy profile sets the following limits:</span></span> 
   
-- <span data-ttu-id="83fe4-110">Límite de audio: 2.000 kbps</span><span class="sxs-lookup"><span data-stu-id="83fe4-110">Audio Limit: 2,000 kbps</span></span>
+- <span data-ttu-id="a1a52-110">Límite de audio: 2.000 kbps</span><span class="sxs-lookup"><span data-stu-id="a1a52-110">Audio Limit: 2,000 kbps</span></span>
     
-- <span data-ttu-id="83fe4-111">Límite de sesión de audio: 200 kbps</span><span class="sxs-lookup"><span data-stu-id="83fe4-111">Audio Session Limit: 200 kbps</span></span>
+- <span data-ttu-id="a1a52-111">Límite de sesión de audio: 200 kbps</span><span class="sxs-lookup"><span data-stu-id="a1a52-111">Audio Session Limit: 200 kbps</span></span>
     
-- <span data-ttu-id="83fe4-112">Límite de vídeo: 1.400 kbps</span><span class="sxs-lookup"><span data-stu-id="83fe4-112">Video Limit: 1,400 kbps</span></span>
+- <span data-ttu-id="a1a52-112">Límite de vídeo: 1.400 kbps</span><span class="sxs-lookup"><span data-stu-id="a1a52-112">Video Limit: 1,400 kbps</span></span>
     
-- <span data-ttu-id="83fe4-113">Límite de sesión de vídeo: 700 kbps</span><span class="sxs-lookup"><span data-stu-id="83fe4-113">Video Session Limit: 700 kbps</span></span>
+- <span data-ttu-id="a1a52-113">Límite de sesión de vídeo: 700 kbps</span><span class="sxs-lookup"><span data-stu-id="a1a52-113">Video Session Limit: 700 kbps</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="83fe4-p103">El valor de Límite de sesión de audio es 40 kbps. El valor de Límite de sesión de vídeo es 100 kbps.</span><span class="sxs-lookup"><span data-stu-id="83fe4-p103">The minimum Audio Session Limit value is 40 kbps. The minimum Video Session Limit value is 100 kbps.</span></span> 
+> <span data-ttu-id="a1a52-p103">El valor de Límite de sesión de audio es 40 kbps. El valor de Límite de sesión de vídeo es 100 kbps.</span><span class="sxs-lookup"><span data-stu-id="a1a52-p103">The minimum Audio Session Limit value is 40 kbps. The minimum Video Session Limit value is 100 kbps.</span></span> 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="83fe4-116">Para crear perfiles de directiva de ancho de banda mediante el shell de administración de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="83fe4-116">To create bandwidth policy profiles by using Skype for Business Server Management Shell</span></span>
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="a1a52-116">Para crear perfiles de directiva de ancho de banda mediante el Shell de administración de Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="a1a52-116">To create bandwidth policy profiles by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="83fe4-117">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="83fe4-117">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="a1a52-117">Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**</span><span class="sxs-lookup"><span data-stu-id="a1a52-117">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="83fe4-118">Para cada perfil de directiva de ancho de banda que quiera crear, ejecute el cmdlet New-CsNetworkBandwidthPolicyProfile.</span><span class="sxs-lookup"><span data-stu-id="83fe4-118">For each bandwidth policy profile that you want to create, run the New-CsNetworkBandwidthPolicyProfile cmdlet.</span></span> <span data-ttu-id="83fe4-119">Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="83fe4-119">For example, run:</span></span>
+2. <span data-ttu-id="a1a52-118">Para cada perfil de directiva de ancho de banda que quiera crear, ejecute el cmdlet New-CsNetworkBandwidthPolicyProfile.</span><span class="sxs-lookup"><span data-stu-id="a1a52-118">For each bandwidth policy profile that you want to create, run the New-CsNetworkBandwidthPolicyProfile cmdlet.</span></span> <span data-ttu-id="a1a52-119">Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a1a52-119">For example, run:</span></span>
     
    ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400   -VideoBWSessionLimit 700
@@ -66,38 +66,38 @@ ms.locfileid: "41767953"
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="83fe4-120">Para crear perfiles de directiva de ancho de banda con el panel de control de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="83fe4-120">To create bandwidth policy profiles by using Skype for Business Server Control Panel</span></span>
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="a1a52-120">Para crear perfiles de directiva de ancho de banda mediante el Panel de control de Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="a1a52-120">To create bandwidth policy profiles by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="83fe4-121">Abra el panel de control de Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="83fe4-121">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="a1a52-121">Abra el Panel de control de Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="a1a52-121">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="83fe4-122">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="83fe4-122">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="a1a52-122">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="a1a52-122">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="83fe4-123">Haga clic en el botón de navegación **Perfil de directiva**.</span><span class="sxs-lookup"><span data-stu-id="83fe4-123">Click the **Policy Profile** navigation button.</span></span>
+3. <span data-ttu-id="a1a52-123">Haga clic en el botón de navegación **Perfil de directiva**.</span><span class="sxs-lookup"><span data-stu-id="a1a52-123">Click the **Policy Profile** navigation button.</span></span>
     
-4. <span data-ttu-id="83fe4-124">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="83fe4-124">Click **New**.</span></span>
+4. <span data-ttu-id="a1a52-124">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="a1a52-124">Click **New**.</span></span>
     
-5. <span data-ttu-id="83fe4-125">En la página **Nuevo perfil de directiva**, haga clic en **Nombre** y escriba un nombre para el perfil de directiva de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="83fe4-125">On the **New Policy Profile** page, click **Name** and then type a name for the bandwidth policy profile.</span></span>
+5. <span data-ttu-id="a1a52-125">En la página **Nuevo perfil de directiva**, haga clic en **Nombre** y escriba un nombre para el perfil de directiva de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="a1a52-125">On the **New Policy Profile** page, click **Name** and then type a name for the bandwidth policy profile.</span></span>
     
-6. <span data-ttu-id="83fe4-126">Haga clic en **Límite de audio** y escriba el número máximo de kbps que se deben permitir para todas las sesiones de audio combinadas.</span><span class="sxs-lookup"><span data-stu-id="83fe4-126">Click **Audio limit**, and then type in the maximum number of kbps to allow for all audio sessions combined.</span></span>
+6. <span data-ttu-id="a1a52-126">Haga clic en **Límite de audio** y escriba el número máximo de kbps que permitir para todas las sesiones de audio combinadas.</span><span class="sxs-lookup"><span data-stu-id="a1a52-126">Click **Audio limit**, and then type in the maximum number of kbps to allow for all audio sessions combined.</span></span>
     
-7. <span data-ttu-id="83fe4-127">Haga clic en **Límite de sesión de audio** y escriba el número máximo de kbps que se deben permitir para cada sesión de audio.</span><span class="sxs-lookup"><span data-stu-id="83fe4-127">Click **Audio session limit**, and then type in the maximum number of kbps to allow for each individual audio session.</span></span>
+7. <span data-ttu-id="a1a52-127">Haga clic en **Límite de sesión de audio** y escriba el número máximo de kbps que permitir para cada sesión de audio.</span><span class="sxs-lookup"><span data-stu-id="a1a52-127">Click **Audio session limit**, and then type in the maximum number of kbps to allow for each individual audio session.</span></span>
     
-8. <span data-ttu-id="83fe4-128">Haga clic en **Límite de vídeo** y escriba el número máximo de kbps que se deben permitir para todas las sesiones de vídeo combinadas.</span><span class="sxs-lookup"><span data-stu-id="83fe4-128">Click **Video limit**, and then type in the maximum number of kbps to allow for all video sessions combined.</span></span>
+8. <span data-ttu-id="a1a52-128">Haga clic en **Límite de vídeo** y escriba el número máximo de kbps que permitir para todas las sesiones de vídeo combinadas.</span><span class="sxs-lookup"><span data-stu-id="a1a52-128">Click **Video limit**, and then type in the maximum number of kbps to allow for all video sessions combined.</span></span>
     
-9. <span data-ttu-id="83fe4-129">Haga clic en **Límite de sesión de vídeo** y escriba el número máximo de kbps que se deben permitir para cada sesión de vídeo.</span><span class="sxs-lookup"><span data-stu-id="83fe4-129">Click **Video session limit**, and then type in the maximum number of kbps to allow for each individual video session.</span></span>
+9. <span data-ttu-id="a1a52-129">Haga clic en **Límite de sesión de vídeo** y escriba el número máximo de kbps que permitir para cada sesión de vídeo.</span><span class="sxs-lookup"><span data-stu-id="a1a52-129">Click **Video session limit**, and then type in the maximum number of kbps to allow for each individual video session.</span></span>
     
-10. <span data-ttu-id="83fe4-130">Si lo desea, haga clic en **Descripción** y escriba información adicional para describir este perfil de directiva de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="83fe4-130">Optionally, click **Description**, and then type additional information to describe this bandwidth policy profile.</span></span>
+10. <span data-ttu-id="a1a52-130">Si lo desea, haga clic en **Descripción** y escriba información adicional para describir este perfil de directiva de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="a1a52-130">Optionally, click **Description**, and then type additional information to describe this bandwidth policy profile.</span></span>
     
-11. <span data-ttu-id="83fe4-131">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="83fe4-131">Click **Commit**.</span></span>
+11. <span data-ttu-id="a1a52-131">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="a1a52-131">Click **Commit**.</span></span>
     
-12. <span data-ttu-id="83fe4-132">Para terminar de crear perfiles de directiva de ancho de banda para su topología, repita los pasos del 4 al 11 con la configuración para otros perfiles de directiva de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="83fe4-132">To finish creating bandwidth policy profiles for your topology, repeat steps 4 through 11 with settings for other bandwidth policy profiles.</span></span>
+12. <span data-ttu-id="a1a52-132">Para terminar de crear perfiles de directiva de ancho de banda para su topología, repita los pasos del 4 al 11 con la configuración para otros perfiles de directiva de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="a1a52-132">To finish creating bandwidth policy profiles for your topology, repeat steps 4 through 11 with settings for other bandwidth policy profiles.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="83fe4-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="83fe4-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a1a52-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="a1a52-133">See also</span></span>
 
-[<span data-ttu-id="83fe4-134">New-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="83fe4-134">New-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[<span data-ttu-id="a1a52-134">New-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="a1a52-134">New-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[<span data-ttu-id="83fe4-135">Get-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="83fe4-135">Get-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[<span data-ttu-id="a1a52-135">Get-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="a1a52-135">Get-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[<span data-ttu-id="83fe4-136">Set-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="83fe4-136">Set-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[<span data-ttu-id="a1a52-136">Set-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="a1a52-136">Set-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[<span data-ttu-id="83fe4-137">Remove-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="83fe4-137">Remove-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[<span data-ttu-id="a1a52-137">Remove-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="a1a52-137">Remove-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)

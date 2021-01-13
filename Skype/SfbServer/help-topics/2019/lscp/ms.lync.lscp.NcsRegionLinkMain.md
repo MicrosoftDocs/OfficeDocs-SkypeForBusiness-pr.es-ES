@@ -1,8 +1,8 @@
 ---
 title: Configurar un vínculo de región de red
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 0df3ce9008a604b410ccc8038ab2ec86d5cce7e5
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: 863092934e1f868d7af3242733b1f32a2ce6642f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795641"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824690"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="a9657-104">Configurar un vínculo de región de red</span><span class="sxs-lookup"><span data-stu-id="a9657-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="14d9b-104">Configurar un vínculo de región de red</span><span class="sxs-lookup"><span data-stu-id="14d9b-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="a9657-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="a9657-105">What do you want to do?</span></span> <span data-ttu-id="a9657-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="a9657-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="14d9b-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="14d9b-105">What do you want to do?</span></span> <span data-ttu-id="14d9b-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="14d9b-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a9657-107">Configuración de vínculos de región de red</span><span class="sxs-lookup"><span data-stu-id="a9657-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="14d9b-107">Configuración de vínculos de regiones de red</span><span class="sxs-lookup"><span data-stu-id="14d9b-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 

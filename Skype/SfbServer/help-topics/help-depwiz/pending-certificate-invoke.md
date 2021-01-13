@@ -1,8 +1,8 @@
 ---
 title: Certificado pendiente (invocar)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
-description: En la página comandos en ejecución se muestra el estado de los comandos que recuperan el certificado pendiente. Una vez completada la tarea, está disponible el archivo de registro recuperar certificados pendientes. Haga clic en Ver registro para revisar el estado de procesamiento y finalización de la tarea. Haga clic en siguiente para continuar.
-ms.openlocfilehash: e424e18c65803c082b187d5a41ecf8133cfa6679
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En la página Ejecutando comandos se muestra el estado de los comandos que recuperan el certificado pendiente. Cuando ha finalizado la tarea, el archivo de registro Recuperar certificados pendientes está disponible. Haga clic en Ver registro para ver el proceso y el estado de finalización de la tarea. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: 238c4c39c5e7ae1b54b37c2e6536c71bf604e102
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823594"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827100"
 ---
-# <a name="pending-certificate-invoke"></a><span data-ttu-id="45904-106">Certificado pendiente (invocar)</span><span class="sxs-lookup"><span data-stu-id="45904-106">Pending Certificate (Invoke)</span></span>
+# <a name="pending-certificate-invoke"></a><span data-ttu-id="20d4e-106">Certificado pendiente (invocar)</span><span class="sxs-lookup"><span data-stu-id="20d4e-106">Pending Certificate (Invoke)</span></span>
  
-<span data-ttu-id="45904-107">En la página **comandos en ejecución** se muestra el estado de los comandos que recuperan el certificado pendiente.</span><span class="sxs-lookup"><span data-stu-id="45904-107">The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate.</span></span> <span data-ttu-id="45904-108">Una vez completada la tarea, está disponible el archivo de registro **recuperar certificados pendientes** .</span><span class="sxs-lookup"><span data-stu-id="45904-108">When the task is completed, the **Retrieve Pending Certificates** log file is available.</span></span> <span data-ttu-id="45904-109">Haga clic en **Ver registro** para revisar el estado de procesamiento y finalización de la tarea.</span><span class="sxs-lookup"><span data-stu-id="45904-109">Click **View Log** to review the processing and task completion status.</span></span> <span data-ttu-id="45904-110">Haga clic en **Siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="45904-110">Click **Next** to continue.</span></span>
+<span data-ttu-id="20d4e-p102">En la página **Ejecutando comandos** se muestra el estado de los comandos que recuperan el certificado pendiente. Cuando ha finalizado la tarea, el archivo de registro **Recuperar certificados pendientes** está disponible. Haga clic en **Ver registro** para ver el proceso y el estado de finalización de la tarea. Haga clic en **Siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="20d4e-p102">The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate. When the task is completed, the **Retrieve Pending Certificates** log file is available. Click **View Log** to review the processing and task completion status. Click **Next** to continue.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="45904-111">Si el administrador de la entidad emisora de certificados aún no ha aprobado el certificado, el archivo de registro recuperar solicitud pendiente indicará que hay solicitudes pendientes.</span><span class="sxs-lookup"><span data-stu-id="45904-111">If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests.</span></span> <span data-ttu-id="45904-112">Si el administrador de la entidad emisora de certificados le ha denegado la solicitud, el archivo de registro indicará un error y notificará el error, lo que indica que se ha denegado la solicitud y el nombre de usuario de la persona que la ha denegado.</span><span class="sxs-lookup"><span data-stu-id="45904-112">If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request.</span></span> 
+> <span data-ttu-id="20d4e-p103">Si el administrador de la entidad de certificación no ha aprobado el certificado todavía, el archivo de registro Recuperar solicitud pendiente indicará que hay solicitudes pendientes. Si el administrador de la entidad de certificación ha denegado la solicitud, el archivo de registro indicará un error e informará de que la solicitud se ha denegado, así como el nombre de la persona que ha denegado la solicitud.</span><span class="sxs-lookup"><span data-stu-id="20d4e-p103">If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests. If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request.</span></span> 
   
 
