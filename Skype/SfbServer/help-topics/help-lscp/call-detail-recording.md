@@ -1,8 +1,8 @@
 ---
 title: Registro de detalles de llamadas
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: a2da016d0d13ccfdab5ad591d8b5d233b0dddc2a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: 212bf9e39f60cf765f3b5e54f9f42259529dd0be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823123"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800520"
 ---
-# <a name="call-detail-recording"></a><span data-ttu-id="d7bcc-104">Registro de detalles de llamadas</span><span class="sxs-lookup"><span data-stu-id="d7bcc-104">Call Detail Recording</span></span>
+# <a name="call-detail-recording"></a><span data-ttu-id="00e63-104">Registro de detalles de llamadas</span><span class="sxs-lookup"><span data-stu-id="00e63-104">Call Detail Recording</span></span>
  
-<span data-ttu-id="d7bcc-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="d7bcc-105">What do you want to do?</span></span> <span data-ttu-id="d7bcc-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="d7bcc-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="00e63-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="00e63-105">What do you want to do?</span></span> <span data-ttu-id="00e63-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="00e63-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="d7bcc-107">Habilitar el registro detallado de llamadas en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="d7bcc-107">Enable call detail recording in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/enable-cdr.md)
+- [<span data-ttu-id="00e63-107">Habilitar el registro detallado de llamadas en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="00e63-107">Enable call detail recording in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/enable-cdr.md)
     
-- [<span data-ttu-id="d7bcc-108">Especificar la retención de datos de CDR en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="d7bcc-108">Specify retention of CDR data in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [<span data-ttu-id="00e63-108">Especificar la retención de datos de CDR en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="00e63-108">Specify retention of CDR data in Skype for Business Server 2015</span></span>](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-<span data-ttu-id="d7bcc-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d7bcc-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="00e63-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="00e63-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

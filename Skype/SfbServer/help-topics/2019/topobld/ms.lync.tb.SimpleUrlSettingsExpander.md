@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de dirección URL simple
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,42 +14,42 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para especificar nuevas, quitar las existentes o cambiar las direcciones URL simples, haga lo siguiente:'
-ms.openlocfilehash: dcd761b641a3580c13083ea03c7de48185076f84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para especificar nuevas direcciones URL, o bien quitar las ya existentes o cambiar las direcciones URL sencillas activas, efectúe lo siguiente:'
+ms.openlocfilehash: a62a24826f5ef699f21355fbfb145bc174e14869
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796519"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800730"
 ---
-# <a name="simple-url-settings-expander"></a><span data-ttu-id="cd059-103">Expansor de configuración de dirección URL simple</span><span class="sxs-lookup"><span data-stu-id="cd059-103">Simple URL Settings Expander</span></span>
+# <a name="simple-url-settings-expander"></a><span data-ttu-id="3ff10-103">Expansor de configuración de dirección URL simple</span><span class="sxs-lookup"><span data-stu-id="3ff10-103">Simple URL Settings Expander</span></span>
 
-<span data-ttu-id="cd059-104">Para especificar nuevas, quitar las existentes o cambiar las direcciones URL simples, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="cd059-104">To specify new, remove existing, or to change the active the simple URLs, do the following:</span></span>
+<span data-ttu-id="3ff10-104">Para especificar nuevas direcciones URL, o bien quitar las ya existentes o cambiar las direcciones URL sencillas activas, efectúe lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="3ff10-104">To specify new, remove existing, or to change the active the simple URLs, do the following:</span></span>
 
-## <a name="simple-urls"></a><span data-ttu-id="cd059-105">Direcciones URL simples</span><span class="sxs-lookup"><span data-stu-id="cd059-105">Simple URLs</span></span>
+## <a name="simple-urls"></a><span data-ttu-id="3ff10-105">Direcciones URL sencillas</span><span class="sxs-lookup"><span data-stu-id="3ff10-105">Simple URLs</span></span>
 
-<span data-ttu-id="cd059-106">Para modificar o definir las direcciones URL simples, primero debe decidir cuál de las tres direcciones URL simples desea modificar o cambiar.</span><span class="sxs-lookup"><span data-stu-id="cd059-106">To modify or define the simple URLs, first decide which of the three simple URLs that you want to edit or change.</span></span> <span data-ttu-id="cd059-107">Puede elegir entre la dirección URL de acceso telefónico, la dirección URL de la reunión y la dirección URL de acceso administrativo.</span><span class="sxs-lookup"><span data-stu-id="cd059-107">You can choose from the Phone access URL, the Meeting URL, and the Administrative access URL.</span></span>
+<span data-ttu-id="3ff10-p101">Para modificar o definir las direcciones URL sencillas, decida primero cuál de las tres direcciones URL sencillas desea editar o cambiar. Puede elegir entre la dirección URL de acceso telefónico, la dirección URL de reuniones y la dirección URL de acceso administrativo.</span><span class="sxs-lookup"><span data-stu-id="3ff10-p101">To modify or define the simple URLs, first decide which of the three simple URLs that you want to edit or change. You can choose from the Phone access URL, the Meeting URL, and the Administrative access URL.</span></span>
 
-<span data-ttu-id="cd059-108">Para modificar la dirección URL de acceso del teléfono o la dirección URL de la reunión, seleccione la dirección URL que necesita cambiar.</span><span class="sxs-lookup"><span data-stu-id="cd059-108">To modify either the Phone access URL or the Meeting URL, select the URL that you need to change.</span></span> <span data-ttu-id="cd059-109">Haga clic en **Editar URL**.</span><span class="sxs-lookup"><span data-stu-id="cd059-109">Click **Edit URL**.</span></span> <span data-ttu-id="cd059-110">Edite la dirección URL y haga clic en **Aceptar** para guardar la dirección URL.</span><span class="sxs-lookup"><span data-stu-id="cd059-110">Edit the URL, and click **OK** to save the URL.</span></span> <span data-ttu-id="cd059-111">Haga clic en **Cancelar** para descartar los cambios.</span><span class="sxs-lookup"><span data-stu-id="cd059-111">Click **Cancel** to discard any changes.</span></span>
+<span data-ttu-id="3ff10-p102">Para modificar la dirección URL de acceso telefónico o la de reuniones, seleccione la dirección URL que deba cambiar. Haga clic en **Editar dirección URL**. A continuación, edite la dirección URL y haga clic en **Aceptar** para guardar la dirección URL. Haga clic en **Cancelar** para descartar todos los cambios.</span><span class="sxs-lookup"><span data-stu-id="3ff10-p102">To modify either the Phone access URL or the Meeting URL, select the URL that you need to change. Click **Edit URL**. Edit the URL, and click **OK** to save the URL. Click **Cancel** to discard any changes.</span></span>
 
-<span data-ttu-id="cd059-112">Para agregar una nueva dirección URL, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="cd059-112">To add a new URL, click **Add**.</span></span> <span data-ttu-id="cd059-113">En el cuadro de diálogo **Agregar dirección URL simple** , especifique la dirección URL y, a continuación, haga clic en **Aceptar** para guardar la dirección URL.</span><span class="sxs-lookup"><span data-stu-id="cd059-113">In the **Add simple URL** dialog, specify the URL, and then click **OK** to save the URL.</span></span> <span data-ttu-id="cd059-114">Seleccione **Convertir esta dirección en la URL activa para el dominio seleccionado** si quiere configurar la nueva dirección URL como dirección URL activa.</span><span class="sxs-lookup"><span data-stu-id="cd059-114">Select **Make this the active URL for the selected domain** if you need to set the new URL as the active URL.</span></span> <span data-ttu-id="cd059-115">Haga clic en **Cancelar** para descartar los cambios.</span><span class="sxs-lookup"><span data-stu-id="cd059-115">Click **Cancel** to discard any changes.</span></span>
+<span data-ttu-id="3ff10-p103">Para agregar una nueva dirección URL, haga clic en **Agregar**. En el cuadro de diálogo **Agregar dirección URL sencilla**, especifique la dirección URL y haga clic en **Aceptar** para guardar la dirección URL. Seleccione **Convertir en activa esta dirección URL para el dominio seleccionado** si desea que la nueva dirección URL sea la dirección URL activa. Haga clic en **Cancelar** para descartar todos los cambios.</span><span class="sxs-lookup"><span data-stu-id="3ff10-p103">To add a new URL, click **Add**. In the **Add simple URL** dialog, specify the URL, and then click **OK** to save the URL. Select **Make this the active URL for the selected domain** if you need to set the new URL as the active URL. Click **Cancel** to discard any changes.</span></span>
 
-<span data-ttu-id="cd059-116">Para convertir una dirección URL diferente en la dirección URL activa (como se indica en la marca de verificación verde junto a la dirección URL), seleccione la dirección URL y haga clic en **Activar**.</span><span class="sxs-lookup"><span data-stu-id="cd059-116">To make a different URL the active URL (as noted by the green check mark next to the URL), select the URL and click **Make Active**.</span></span>
+<span data-ttu-id="3ff10-116">Para convertir en activa otra dirección URL (indicada mediante la marca de verificación verde que hay junto a la dirección URL), seleccione la dirección URL y haga clic en **Convertir en activa**.</span><span class="sxs-lookup"><span data-stu-id="3ff10-116">To make a different URL the active URL (as noted by the green check mark next to the URL), select the URL and click **Make Active**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cd059-117">Solo puede haber una dirección URL activa para cada dominio del Protocolo de inicio de sesión (SIP).</span><span class="sxs-lookup"><span data-stu-id="cd059-117">There can only be one active URL for each Session Initiation Protocol (SIP) domain.</span></span>
+> <span data-ttu-id="3ff10-117">Solamente puede haber una dirección URL activa para cada dominio del protocolo de inicio de sesión (SIP).</span><span class="sxs-lookup"><span data-stu-id="3ff10-117">There can only be one active URL for each Session Initiation Protocol (SIP) domain.</span></span>
 
-<span data-ttu-id="cd059-118">Para quitar una dirección URL, selecciónela y haga clic en **quitar**.</span><span class="sxs-lookup"><span data-stu-id="cd059-118">To remove a URL, select the URL and click **Remove**.</span></span>
+<span data-ttu-id="3ff10-118">Para quitar una dirección URL, selecciónela y haga clic en **Quitar**.</span><span class="sxs-lookup"><span data-stu-id="3ff10-118">To remove a URL, select the URL and click **Remove**.</span></span>
 
 > [!CAUTION]
-> <span data-ttu-id="cd059-119">Asegúrese de leer la información de la página de diálogo Configuración de direcciones URL simples.</span><span class="sxs-lookup"><span data-stu-id="cd059-119">Be sure to read the information on the simple URLs settings dialog page.</span></span> <span data-ttu-id="cd059-120">Quitar una dirección URL de reunión puede representar las reuniones existentes programadas por los usuarios que ya no tienen acceso.</span><span class="sxs-lookup"><span data-stu-id="cd059-120">Removing a Meeting URL can render existing meetings scheduled by users no longer accessible.</span></span> <span data-ttu-id="cd059-121">Considere la posibilidad de dejar la URL existente después de activar la nueva dirección URL de la reunión.</span><span class="sxs-lookup"><span data-stu-id="cd059-121">Consider leaving the existing URL after making the new Meeting URL active.</span></span> <span data-ttu-id="cd059-122">Cuando esté seguro de que los usuarios ya no usan la dirección URL de la reunión anterior, puede quitarla de forma segura.</span><span class="sxs-lookup"><span data-stu-id="cd059-122">When you are sure that users are no longer using the old Meeting URL, you can safely remove it.</span></span>
+> <span data-ttu-id="3ff10-p104">Asegúrese de leer la información que aparece en el cuadro de diálogo de configuración de direcciones URL sencillas. El hecho de quitar una dirección URL de reuniones puede hacer que dejen de estar accesibles las reuniones que los usuarios ya hubiesen programado. Piense bien si desea dejar la dirección URL existente una vez convertida en activa la nueva dirección URL de reuniones. Cuando esté seguro de que los usuarios ya no van a usar la antigua dirección URL de reuniones, la puede quitar con toda tranquilidad.</span><span class="sxs-lookup"><span data-stu-id="3ff10-p104">Be sure to read the information on the simple URLs settings dialog page. Removing a Meeting URL can render existing meetings scheduled by users no longer accessible. Consider leaving the existing URL after making the new Meeting URL active. When you are sure that users are no longer using the old Meeting URL, you can safely remove it.</span></span>
 
-<span data-ttu-id="cd059-123">Para editar o cambiar la dirección URL de acceso administrativo, edite la entrada.</span><span class="sxs-lookup"><span data-stu-id="cd059-123">To edit or change the Administrative access URL, edit the entry.</span></span>
+<span data-ttu-id="3ff10-123">Para editar o cambiar la dirección URL de acceso administrativo, edite la entrada.</span><span class="sxs-lookup"><span data-stu-id="3ff10-123">To edit or change the Administrative access URL, edit the entry.</span></span>
 
-<span data-ttu-id="cd059-124">Cuando haya terminado con todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios.</span><span class="sxs-lookup"><span data-stu-id="cd059-124">After you are finished with all changes on the Edit Properties page, click **OK** to save the changes.</span></span> <span data-ttu-id="cd059-125">Haga clic en **Cancelar** para descartar los cambios.</span><span class="sxs-lookup"><span data-stu-id="cd059-125">Click **Cancel** to discard changes.</span></span>
+<span data-ttu-id="3ff10-p105">Una vez haya efectuado todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios.</span><span class="sxs-lookup"><span data-stu-id="3ff10-p105">After you are finished with all changes on the Edit Properties page, click **OK** to save the changes. Click **Cancel** to discard changes.</span></span>
 
-###  <a name="see-also"></a><span data-ttu-id="cd059-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="cd059-126">See also</span></span>
+###  <a name="see-also"></a><span data-ttu-id="3ff10-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="3ff10-126">See also</span></span>
 
-<span data-ttu-id="cd059-127">Para obtener más información, consulte [planificación de direcciones URL simples](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)</span><span class="sxs-lookup"><span data-stu-id="cd059-127">For details, see [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)</span></span>
+<span data-ttu-id="3ff10-127">Para obtener más información, consulte [Planeación de direcciones URL sencillas](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)</span><span class="sxs-lookup"><span data-stu-id="3ff10-127">For details, see [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)</span></span>
 
 
