@@ -1,8 +1,8 @@
 ---
-title: Combinación de mediación (herramienta de planeación)
+title: Mediación de colocación (Herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'De forma predeterminada, el servidor de mediación se combina con el servidor front-end. El servidor de mediación también se puede implementar en un grupo de servidores independiente por motivos de rendimiento o si se implementa el enlace troncal SIP, en cuyo caso se recomienda encarecidamente el grupo de servidores independiente. Combinación en Skype empresarial Server funciona igual que lo hacía en Lync Server 2013. Para obtener más información, consulte los temas siguientes:'
-ms.openlocfilehash: 08edc66af83f9490889522bb7e44624daffc6bc1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'El servidor de mediación se coloca con el servidor front-end de forma predeterminada. El servidor de mediación también se puede implementar en un grupo independiente por motivos de rendimiento, o si implementa un enlace troncal SIP, en cuyo caso se recomienda encarecidamente el grupo de servidores independiente. La colocación en Skype Empresarial Server funciona igual que en Lync Server 2013. Para obtener más información, consulte los temas siguientes:'
+ms.openlocfilehash: 93e7e11cb6f4098695b3b473f8b5890d9de2a974
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036580"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819730"
 ---
-# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="f6016-106">Combinación de mediación (herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="f6016-106">Mediation Collocation (Planning Tool)</span></span>
+# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="057a3-106">Mediación de colocación (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="057a3-106">Mediation Collocation (Planning Tool)</span></span>
  
-<span data-ttu-id="f6016-107">De forma predeterminada, el servidor de mediación se combina con el servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="f6016-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="f6016-108">El servidor de mediación también se puede implementar en un grupo de servidores independiente por motivos de rendimiento o si se implementa el enlace troncal SIP, en cuyo caso se recomienda encarecidamente el grupo de servidores independiente.</span><span class="sxs-lookup"><span data-stu-id="f6016-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="f6016-109">Combinación en Skype empresarial Server funciona igual que lo hacía en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f6016-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="f6016-110">Para obtener más información, consulte los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="f6016-110">For details, see the following topics:</span></span>
+<span data-ttu-id="057a3-107">El servidor de mediación se coloca con el servidor front-end de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="057a3-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="057a3-108">El servidor de mediación también se puede implementar en un grupo independiente por motivos de rendimiento, o si implementa un enlace troncal SIP, en cuyo caso se recomienda encarecidamente el grupo de servidores independiente.</span><span class="sxs-lookup"><span data-stu-id="057a3-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="057a3-109">La colocación en Skype Empresarial Server funciona igual que en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="057a3-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="057a3-110">Para obtener más información, consulte los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="057a3-110">For details, see the following topics:</span></span>
   
-- [<span data-ttu-id="f6016-111">Combinación de servidores compatibles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6016-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="057a3-111">Colocación de servidor compatible en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="057a3-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
     
-- [<span data-ttu-id="f6016-112">Componente de servidor de mediación en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="f6016-112">Mediation Server component in Skype for Business Server</span></span>](../../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+- [<span data-ttu-id="057a3-112">Componente de servidor de mediación en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="057a3-112">Mediation Server component in Skype for Business Server</span></span>](../../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
     
 

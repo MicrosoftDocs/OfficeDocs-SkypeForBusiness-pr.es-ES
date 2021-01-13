@@ -1,8 +1,8 @@
 ---
 title: Seleccionar contactos de Active Directory
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
-description: Use el cuadro de diálogo Seleccionar de Active Directory para buscar los contactos que desea habilitar para Skype empresarial. Escriba en el cuadro de búsqueda la dirección SIP o nombre para mostrar del contacto que quiera localizar. Para recuperar todos los contactos disponibles, deje vacío el cuadro de búsqueda.
-ms.openlocfilehash: ad36cbe1577d0e8594bf41dba4e6512988b2ac24
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Use el cuadro de diálogo Seleccionar de Active Directory para buscar contactos que desee habilitar para Skype Empresarial. En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del contacto que desee localizar. Para recuperar todos los contactos disponibles, deje vacío el cuadro de búsqueda.
+ms.openlocfilehash: 641b5f85cbabe06242cadbcdf3506452d272d3fd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822273"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821980"
 ---
-# <a name="select-contacts-from-active-directory"></a><span data-ttu-id="7efcb-105">Seleccionar contactos de Active Directory</span><span class="sxs-lookup"><span data-stu-id="7efcb-105">Select Contacts from Active Directory</span></span>
+# <a name="select-contacts-from-active-directory"></a><span data-ttu-id="e5500-105">Seleccionar contactos de Active Directory</span><span class="sxs-lookup"><span data-stu-id="e5500-105">Select Contacts from Active Directory</span></span>
  
-<span data-ttu-id="7efcb-106">Use el cuadro **de diálogo Seleccionar de Active** Directory para buscar los contactos que desea habilitar para Skype empresarial.</span><span class="sxs-lookup"><span data-stu-id="7efcb-106">Use the **Select from Active Directory** dialog box to find contacts who you want to enable for Skype for Business.</span></span> <span data-ttu-id="7efcb-107">Escriba en el cuadro de búsqueda la dirección SIP o nombre para mostrar del contacto que quiera localizar.</span><span class="sxs-lookup"><span data-stu-id="7efcb-107">In the search box, type the SIP address or display name of the contact you want to find.</span></span> <span data-ttu-id="7efcb-108">Para recuperar todos los contactos disponibles, deje vacío el cuadro de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7efcb-108">To retrieve all available contacts, do not type anything in the search box.</span></span>
+<span data-ttu-id="e5500-106">Use el cuadro de diálogo Seleccionar **de Active Directory** para buscar contactos que desee habilitar para Skype Empresarial.</span><span class="sxs-lookup"><span data-stu-id="e5500-106">Use the **Select from Active Directory** dialog box to find contacts who you want to enable for Skype for Business.</span></span> <span data-ttu-id="e5500-107">En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del contacto que desee localizar.</span><span class="sxs-lookup"><span data-stu-id="e5500-107">In the search box, type the SIP address or display name of the contact you want to find.</span></span> <span data-ttu-id="e5500-108">Para recuperar todos los contactos disponibles, deje vacío el cuadro de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e5500-108">To retrieve all available contacts, do not type anything in the search box.</span></span>
   
-<span data-ttu-id="7efcb-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="7efcb-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="e5500-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="e5500-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

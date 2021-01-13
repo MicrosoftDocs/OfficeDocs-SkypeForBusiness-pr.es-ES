@@ -1,8 +1,8 @@
 ---
-title: Regla de traducción, escriba una expresión regular
+title: Tipo de regla de conversión una expresión regular
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'En el campo coincidir con este patrón, especifique el patrón que se usará para coincidir con los números que se van a traducir. En el campo regla de traducción, especifique un patrón para el formato de los números traducidos. '
-ms.openlocfilehash: 92e4a65281c86d6e7b24cfc3498bcd19717c3367
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'En el campo Hacer coincidir este patrón, especifique el patrón que se usará para hacer coincidir los números objeto de la conversión. En el campo Regla de conversión, especifique un patrón para el formato de los números convertidos. '
+ms.openlocfilehash: a1e04cc94c004b520c077816ae535ca4154047ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793518"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819990"
 ---
-# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="8b133-104">Regla de conversión: Escribir una expresión regular</span><span class="sxs-lookup"><span data-stu-id="8b133-104">Translation Rule: Type a Regular Expression</span></span>
+# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="534a9-104">Regla de conversión: Escribir una expresión regular</span><span class="sxs-lookup"><span data-stu-id="534a9-104">Translation Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="8b133-105">En el campo **coincidir con este patrón** , especifique el patrón que se usará para coincidir con los números que se van a traducir.</span><span class="sxs-lookup"><span data-stu-id="8b133-105">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="8b133-106">En el campo **regla de traducción** , especifique un patrón para el formato de los números traducidos.</span><span class="sxs-lookup"><span data-stu-id="8b133-106">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="8b133-107">Por ejemplo,\+si escribe ^ (\d{9}\d +) $ en el campo **coincidir con este patrón** y 011 $1 en el campo regla de **traducción** , la regla traducirá + 441235551010 a 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="8b133-107">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span> 
+<span data-ttu-id="534a9-105">En el campo **Hacer coincidir este patrón**, especifique el patrón que se usará para hacer coincidir los números objeto de la conversión.</span><span class="sxs-lookup"><span data-stu-id="534a9-105">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="534a9-106">En el campo **Regla de conversión**, especifique un patrón para el formato de los números convertidos.</span><span class="sxs-lookup"><span data-stu-id="534a9-106">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="534a9-107">Por ejemplo, si escribe ^ (\d \d+)$ en el campo Coincidir este patrón y 011$1 en el campo de regla de conversión, la regla traducirá \+ {9} +441235551010 a 011441235551010.  </span><span class="sxs-lookup"><span data-stu-id="534a9-107">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span> 
   
  
   

@@ -1,8 +1,8 @@
 ---
-title: Usuarios nuevo de Lync Server
+title: Usuarios Nuevo usuario de Lync Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,41 +14,41 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: fdd60514d78227a72babf14a97cd123d42a60ad4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: 527e183b6e4f571a3732f46ea77290e0dbbfba1b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794969"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820200"
 ---
-# <a name="users-new-user"></a><span data-ttu-id="16c22-104">Usuarios: nuevo usuario</span><span class="sxs-lookup"><span data-stu-id="16c22-104">Users: New User</span></span>
+# <a name="users-new-user"></a><span data-ttu-id="06a5e-104">Usuarios: Nuevo usuario</span><span class="sxs-lookup"><span data-stu-id="06a5e-104">Users: New User</span></span>
 
-<span data-ttu-id="16c22-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="16c22-105">What do you want to do?</span></span> <span data-ttu-id="16c22-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="16c22-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="06a5e-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="06a5e-105">What do you want to do?</span></span> <span data-ttu-id="06a5e-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="06a5e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="16c22-107">Agregar un nuevo usuario</span><span class="sxs-lookup"><span data-stu-id="16c22-107">Add a New User</span></span>](https://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
+- [<span data-ttu-id="06a5e-107">Agregar un nuevo usuario</span><span class="sxs-lookup"><span data-stu-id="06a5e-107">Add a New User</span></span>](https://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
 
-- [<span data-ttu-id="16c22-108">Habilitar o deshabilitar usuarios</span><span class="sxs-lookup"><span data-stu-id="16c22-108">Enable or Disable Users</span></span>](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [<span data-ttu-id="06a5e-108">Habilitar o deshabilitar usuarios</span><span class="sxs-lookup"><span data-stu-id="06a5e-108">Enable or Disable Users</span></span>](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
-- [<span data-ttu-id="16c22-109">Asignar una directiva de conferencia para modificar la experiencia de reunión predeterminada de un usuario</span><span class="sxs-lookup"><span data-stu-id="16c22-109">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="06a5e-109">Asignar una directiva de conferencia para modificar la experiencia de reunión predeterminada de un usuario</span><span class="sxs-lookup"><span data-stu-id="06a5e-109">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-- [<span data-ttu-id="16c22-110">Especificar las versiones de cliente compatibles con el inicio de sesión por parte de un usuario</span><span class="sxs-lookup"><span data-stu-id="16c22-110">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="06a5e-110">Especificar versiones de cliente admitidas para el inicio de sesión por un usuario</span><span class="sxs-lookup"><span data-stu-id="06a5e-110">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-- [<span data-ttu-id="16c22-111">Asignar una directiva de PIN por usuario en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="16c22-111">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [<span data-ttu-id="06a5e-111">Asignar una directiva de PIN por usuario en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="06a5e-111">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [<span data-ttu-id="16c22-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="16c22-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="06a5e-112">Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios</span><span class="sxs-lookup"><span data-stu-id="06a5e-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [<span data-ttu-id="16c22-113">Configurar el archivado de las comunicaciones de un usuario</span><span class="sxs-lookup"><span data-stu-id="16c22-113">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="06a5e-113">Configurar el archivado de las comunicaciones de un usuario</span><span class="sxs-lookup"><span data-stu-id="06a5e-113">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="16c22-114">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="16c22-114">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="06a5e-114">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="06a5e-114">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [<span data-ttu-id="16c22-115">Habilitar usuarios para telefonía IP empresarial en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="16c22-115">Enable users for Enterprise Voice in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [<span data-ttu-id="06a5e-115">Habilitar usuarios para Telefonía IP empresarial en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="06a5e-115">Enable users for Enterprise Voice in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [<span data-ttu-id="16c22-116">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="16c22-116">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="06a5e-116">Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios</span><span class="sxs-lookup"><span data-stu-id="06a5e-116">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [<span data-ttu-id="16c22-117">Configure Telephony for Users</span><span class="sxs-lookup"><span data-stu-id="16c22-117">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [<span data-ttu-id="06a5e-117">Configurar telefonía para usuarios</span><span class="sxs-lookup"><span data-stu-id="06a5e-117">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
-- [<span data-ttu-id="16c22-118">Asignar una directiva de movilidad por usuario</span><span class="sxs-lookup"><span data-stu-id="16c22-118">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+- [<span data-ttu-id="06a5e-118">Asignar una directiva Per-User movilidad</span><span class="sxs-lookup"><span data-stu-id="06a5e-118">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 
 
 
