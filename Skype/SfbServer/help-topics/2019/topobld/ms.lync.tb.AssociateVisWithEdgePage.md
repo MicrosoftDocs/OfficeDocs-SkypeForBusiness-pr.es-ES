@@ -1,8 +1,8 @@
 ---
 title: Asociar VIS con servidor perimetral
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 ROBOTS: NOINDEX, NOFOLLOW
-description: Los pasos necesarios para definir una nueva puerta de enlace de VIS o video en el generador de topología se describen en línea en crear un grupo VIS en Skype empresarial Server.
-ms.openlocfilehash: 8a7f24aa5d23182fdb35b977b2dde5eda8838a12
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Los pasos necesarios para definir un nuevo VIS o una puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de servidores VIS en Skype Empresarial Server.
+ms.openlocfilehash: 55381d171f5c0aa4e0c441c30f7fb54090b514e5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793958"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811330"
 ---
-# <a name="associate-vis-with-edge"></a><span data-ttu-id="1948f-103">Asociar VIS con servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="1948f-103">Associate VIS With Edge</span></span>
+# <a name="associate-vis-with-edge"></a><span data-ttu-id="3b4a5-103">Asociar VIS con servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="3b4a5-103">Associate VIS With Edge</span></span>
  
-<span data-ttu-id="1948f-104">Los pasos necesarios para definir una nueva puerta de enlace de VIS o video en el generador de topología se describen en línea en [crear un grupo VIS en Skype empresarial Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span><span class="sxs-lookup"><span data-stu-id="1948f-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span></span>
+<span data-ttu-id="3b4a5-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span><span class="sxs-lookup"><span data-stu-id="3b4a5-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span></span>
   
-<span data-ttu-id="1948f-105">Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea en [la implementación del rol de servidor VIS en Skype empresarial Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) .</span><span class="sxs-lookup"><span data-stu-id="1948f-105">The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span></span>
+<span data-ttu-id="3b4a5-105">Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea en Implementar el rol de servidor VIS en [Skype Empresarial Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span><span class="sxs-lookup"><span data-stu-id="3b4a5-105">The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span></span>
   
-<span data-ttu-id="1948f-106">Los pasos de configuración para un nuevo servidor de interoperabilidad de vídeo con Windows PowerShell se describen en línea en [configurar el servidor de interoperabilidad de vídeo en Skype empresarial Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).</span><span class="sxs-lookup"><span data-stu-id="1948f-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).</span></span>
+<span data-ttu-id="3b4a5-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).</span><span class="sxs-lookup"><span data-stu-id="3b4a5-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).</span></span>
   
- <span data-ttu-id="1948f-107">La configuración de una puerta de enlace de vídeo que debe establecerse en la interfaz gráfica de usuario de Cisco para la interoperabilidad con un VIS se describe en on [Configure CUCM para la interoperabilidad con Skype empresarial Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span><span class="sxs-lookup"><span data-stu-id="1948f-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span></span>
+ <span data-ttu-id="3b4a5-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span><span class="sxs-lookup"><span data-stu-id="3b4a5-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span></span>
   
- <span data-ttu-id="1948f-108">La configuración de una VTC que debe establecerse en la interfaz gráfica de usuario de Cisco para la interoperabilidad con una puerta de enlace de video y una VIS se describe en Internet en [configurar un VTC para interoperabilidad con Skype empresarial Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span><span class="sxs-lookup"><span data-stu-id="1948f-108">The settings for a VTC that need to be set in the Cisco GUI for interoperation with a Video Gateway and a VIS are described online at [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span></span>
+ <span data-ttu-id="3b4a5-108">La configuración de un VTC que debe establecerse en la interfaz gráfica de usuario de Cisco para la interoperación con una puerta de enlace de vídeo y un VIS se describen en línea en [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span><span class="sxs-lookup"><span data-stu-id="3b4a5-108">The settings for a VTC that need to be set in the Cisco GUI for interoperation with a Video Gateway and a VIS are described online at [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1948f-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="1948f-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3b4a5-109">Ver también</span><span class="sxs-lookup"><span data-stu-id="3b4a5-109">See also</span></span>
 
-[<span data-ttu-id="1948f-110">Planear el servidor de interoperabilidad de vídeo en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="1948f-110">Plan for Video Interop Server in Skype for Business Server</span></span>](../../../plan-your-deployment/video-interop-server.md)
+[<span data-ttu-id="3b4a5-110">Planear el servidor de interoperabilidad de vídeo en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="3b4a5-110">Plan for Video Interop Server in Skype for Business Server</span></span>](../../../plan-your-deployment/video-interop-server.md)

@@ -1,8 +1,8 @@
 ---
 title: Agregar asociaciones front-end
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Puede habilitar la compatibilidad de características específicas que requieren la implementación de otros servidores asociando ahora los roles de servidor con el grupo de servidores front-end. Asimismo, puede asociar roles de servidor con el grupo de servidores front-end en otro momento. Los roles de servidor que se pueden asociar con un grupo de servidores front-end incluyen los siguientes:'
-ms.openlocfilehash: d305cc6b251646e52c2351188572b05f6f6d28c8
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Puede habilitar la compatibilidad con determinadas características que requieran la implementación de otros servidores asociando los roles de servidor con el grupo de servidores front-end ahora. También puede asociar los roles de servidor con el grupo de servidores front-end más adelante. Los roles de servidor que se pueden asociar con un grupo de servidores front-end incluyen:'
+ms.openlocfilehash: ef3cec601355f433ad760be4edcc0ea573b53010
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794899"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811740"
 ---
-# <a name="add-front-end-associations"></a><span data-ttu-id="34f92-105">Agregar asociaciones front-end</span><span class="sxs-lookup"><span data-stu-id="34f92-105">Add Front End Associations</span></span>
+# <a name="add-front-end-associations"></a><span data-ttu-id="55afd-105">Agregar asociaciones front-end</span><span class="sxs-lookup"><span data-stu-id="55afd-105">Add Front End Associations</span></span>
 
-<span data-ttu-id="34f92-p102">Puede habilitar la compatibilidad de características específicas que requieren la implementación de otros servidores asociando ahora los roles de servidor con el grupo de servidores front-end. Asimismo, puede asociar roles de servidor con el grupo de servidores front-end en otro momento. Los roles de servidor que se pueden asociar con un grupo de servidores front-end incluyen los siguientes:</span><span class="sxs-lookup"><span data-stu-id="34f92-p102">You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool now. You can also associate server roles with the Front End pool at a later time. The server roles that can be associated with a Front End pool include the following:</span></span>
+<span data-ttu-id="55afd-p102">Puede habilitar la compatibilidad con determinadas características que requieran la implementación de otros servidores asociando los roles de servidor con el grupo de servidores front-end ahora. También puede asociar los roles de servidor con el grupo de servidores front-end más adelante. Los roles de servidor que se pueden asociar con un grupo de servidores front-end incluyen:</span><span class="sxs-lookup"><span data-stu-id="55afd-p102">You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool now. You can also associate server roles with the Front End pool at a later time. The server roles that can be associated with a Front End pool include the following:</span></span>
 
-- <span data-ttu-id="34f92-p103">Servidor perimetral A/V. Para más información sobre la implementación de un servidor perimetral A/V, consulte [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) en la documentación de planeación.</span><span class="sxs-lookup"><span data-stu-id="34f92-p103">A/V Edge Server. For details about the implementation of an A/V Edge Server, see [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in the Planning documentation.</span></span>
+- <span data-ttu-id="55afd-109">Servidor perimetral A/V.</span><span class="sxs-lookup"><span data-stu-id="55afd-109">A/V Edge Server.</span></span> <span data-ttu-id="55afd-110">Para más información sobre la implementación de un servidor perimetral A/V, consulte [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) en la documentación sobre planificación.</span><span class="sxs-lookup"><span data-stu-id="55afd-110">For details about the implementation of an A/V Edge Server, see [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in the Planning documentation.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="34f92-p104">Si habilita ahora la compatibilidad de cualquiera de estas características, el diseño de la topología que publique incluirá los componentes del servidor que se requieren para implementar cada una de las características seleccionadas. Para que la publicación de una topología se realice correctamente, debe tener los equipos físicos unidos en el dominio. Por ejemplo, si habilita ahora la compatibilidad de archivado, deberá implementar un servidor de archivado y configurar las opciones de archivado adecuadas antes de empezar a archivar comunicaciones para su organización.</span><span class="sxs-lookup"><span data-stu-id="34f92-p104">If you enable support for any of these features now, the topology design that you publish will include the server components that are required to implement each selected feature. For the publishing of a topology to succeed without error, you must have the physical computers joined to the domain. For example, if you enable support for archiving now, you must then deploy an Archiving Server and configure the appropriate archiving options before you start archiving communications for your organization.</span></span>
+> <span data-ttu-id="55afd-111">Si habilita ahora la compatibilidad de cualquiera de estas características, el diseño de la topología que publique incluirá los componentes del servidor que se requieren para implementar cada una de las características seleccionadas.</span><span class="sxs-lookup"><span data-stu-id="55afd-111">If you enable support for any of these features now, the topology design that you publish will include the server components that are required to implement each selected feature.</span></span> <span data-ttu-id="55afd-112">Para que la publicación de una topología se realice con éxito, debe tener los equipos físicos unidos en el dominio.</span><span class="sxs-lookup"><span data-stu-id="55afd-112">For the publishing of a topology to succeed without error, you must have the physical computers joined to the domain.</span></span> <span data-ttu-id="55afd-113">Por ejemplo, si habilita la compatibilidad con el archivado ahora, debe implementar un servidor de archivado y configurar las opciones de archivado adecuadas antes de iniciar las comunicaciones de archivado para su organización.</span><span class="sxs-lookup"><span data-stu-id="55afd-113">For example, if you enable support for archiving now, you must then deploy an Archiving Server and configure the appropriate archiving options before you start archiving communications for your organization.</span></span>
 
 
