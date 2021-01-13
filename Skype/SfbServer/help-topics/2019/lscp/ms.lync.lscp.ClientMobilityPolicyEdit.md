@@ -1,8 +1,8 @@
 ---
 title: Editar directiva de movilidad de cliente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,35 +14,35 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
-description: En el cuadro de diálogo Editar Directiva de movilidad, puede editar los detalles de una directiva de movilidad.
-ms.openlocfilehash: 1ab1bd85c870ec548c075b6189d98003a6fe16f0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: En el cuadro de diálogo Editar directiva de movilidad, puede editar los detalles de una directiva de movilidad.
+ms.openlocfilehash: 9034bc4b343fc68af862cfd01fa1db4aec9a985e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794509"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830240"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar directiva de movilidad de cliente
 
-En el cuadro de diálogo **Editar Directiva de movilidad** , puede editar los detalles de una directiva de movilidad.
+En el cuadro de diálogo **Editar directiva de movilidad**, puede editar los detalles de una directiva de movilidad.
 
-## <a name="ui-reference"></a>Referencia de interfaz de usuario
+## <a name="ui-reference"></a>Referencia de la interfaz de usuario
 
-En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
+Las siguientes listas describen los menús, comandos, campos y propiedades de la página.
 
 
-- **Confirmar** Haga clic para guardar los cambios realizados en la configuración de la Directiva.
+- **Commit** Haga clic para guardar los cambios en la configuración de directiva.
 
-- **Cancelar** Haga clic para detener la edición de la Directiva y descartar los cambios realizados en la configuración de la Directiva.
+- **Cancelar** Haz clic para detener la edición de la directiva y descartar los cambios realizados en la configuración de la directiva.
 
-- **Nombre** El nombre de la Directiva de movilidad.
+- **Nombre** Nombre de la directiva de movilidad.
 
-- **Descripción** Descripción de la Directiva de movilidad.
+- **Descripción** Descripción de la directiva de movilidad.
 
-Para obtener más información sobre las directivas de movilidad, consulte [directivas de movilidad](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).
+Para obtener detalles sobre las directivas de movilidad, vea [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Planificación de movilidad](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planeación de la movilidad](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
 [Implementación de movilidad](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)

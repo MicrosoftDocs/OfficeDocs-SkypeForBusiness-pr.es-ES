@@ -1,8 +1,8 @@
 ---
 title: Seleccionar usuarios de Enterprise Voice
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
-description: Use el cuadro de diálogo Seleccionar usuarios de voz de empresa para buscar usuarios que están habilitados para telefonía IP empresarial. En el cuadro de búsqueda, escriba la dirección SIP o el nombre para mostrar del usuario que desea buscar y, a continuación, haga clic en buscar. Para seleccionar un usuario, haga clic en el usuario en la lista de resultados de búsqueda y, a continuación, haga clic en Aceptar. Si no puede encontrar al usuario que está buscando, es posible que ese usuario no esté habilitado para telefonía IP empresarial.
-ms.openlocfilehash: c4976d03f716044ee5a8c518ef32f6e7d90c0720
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Use el cuadro de diálogo Seleccionar Telefonía IP empresarial usuarios para buscar usuarios habilitados para Telefonía IP empresarial. En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del usuario que desee localizar y, a continuación, haga clic en Buscar. Para seleccionar un usuario, haga clic en el usuario de la lista de los resultados de la búsqueda y, a continuación, haga clic en Aceptar. Si no encuentra el usuario que está buscando, es posible que no esté habilitado para Telefonía IP empresarial.
+ms.openlocfilehash: 2819a7e400191fa0bd2abf0108ca61d05d01c009
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822243"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829130"
 ---
-# <a name="select-enterprise-voice-users"></a>Seleccionar usuarios de Enterprise Voice
+# <a name="select-enterprise-voice-users"></a>Seleccionar usuarios de Telefonía IP empresarial
  
-Use el cuadro de diálogo **Seleccionar usuarios de voz de empresa** para buscar usuarios que están habilitados para telefonía IP empresarial. En el cuadro de búsqueda, escriba la dirección SIP o el nombre para mostrar del usuario que desea buscar y, a continuación, haga clic en **Buscar**. Para seleccionar un usuario, haga clic en el usuario en la lista de resultados de búsqueda y, a continuación, haga clic en **Aceptar**. Si no puede encontrar al usuario que está buscando, es posible que ese usuario no esté habilitado para telefonía IP empresarial. 
+Use el **cuadro de Telefonía IP empresarial Seleccionar** usuarios para buscar usuarios habilitados para Telefonía IP empresarial. En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del usuario que desee localizar y, a continuación, haga clic en **Buscar**. Para seleccionar un usuario, haga clic en el usuario de la lista de los resultados de la búsqueda y, a continuación, haga clic en **Aceptar**. Si no encuentra el usuario que está buscando, es posible que no esté habilitado para Telefonía IP empresarial. 
   
 > [!NOTE]
-> Para recuperar todos los usuarios habilitados para Enterprise Voice, no escriba nada en el cuadro de búsqueda. También puede encontrar todos los usuarios cuyos nombres para mostrar o las direcciones SIP comienzan con una cadena determinada. Por ejemplo, para buscar a todos los usuarios cuya dirección SIP empiece por Ken, escriba SIP: Ken. Esto devolverá usuarios como sip:kenmyer@fabrikam.com, SIP:kenkwok. fabrikam. com y sip:kenmallit@fabrikam.com. 
+> Para recuperar todos los usuarios habilitados para Telefonía IP empresarial, no escriba nada en el cuadro de búsqueda. También puede buscar usuarios cuyos nombres para buscar o direcciones SIP comiencen por una cadena determinada. Por ejemplo, para buscar todos los usuarios cuya dirección SIP comience por ken, escriba sip:ken. De esta forma, obtendrá usuarios como sip:kenmyer@fabrikam.com, sip:kenkwok.fabrikam.com y sip:kenmallit@fabrikam.com. 
   
-Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).
+Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
   
 

@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Camboya
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
-ms.openlocfilehash: 38a74815bdcca2fd8d26b51abcbd156baee3d9e0
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Camboya.
+ms.openlocfilehash: 8d1627e0b088337af7842102bd7c360ba91dbad5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230598"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804730"
 ---
 # <a name="availability-in-cambodia"></a>Disponibilidad en Camboya
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Camboya.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -68,7 +68,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Phnom Penh |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | PiqueIque |
 |¿Hay números de pago disponibles?  <br/> |Sí <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No <br/> |
    

@@ -1,8 +1,8 @@
 ---
-title: Crear una configuración de reunión en Skype empresarial Server
+title: Crear opciones de configuración de reuniones en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Resumen: Aprenda a crear valores de configuración de reuniones en Skype empresarial Server.'
-ms.openlocfilehash: cd3d207816f352a33fb3fd228e7249d9e5d836b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo crear opciones de configuración de reuniones en Skype Empresarial Server.'
+ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818611"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828210"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Crear una configuración de reunión en Skype empresarial Server
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de reuniones en Skype Empresarial Server
  
-**Resumen:** Aprenda a crear parámetros de configuración de reuniones en Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo crear opciones de configuración de reuniones en Skype Empresarial Server.
   
-Puede crear valores de configuración de la reunión con el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server.
+Puede crear opciones de configuración de reuniones con el Panel de control de Skype Empresarial Server o con el Shell de administración de Skype Empresarial Server.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Crear parámetros de configuración de reunión con el panel de control de Skype empresarial Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Crear opciones de configuración de reuniones mediante el Panel de control de Skype Empresarial Server
 
-1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2.  Abra el panel de control de Skype empresarial Server.
+2.  Abra el Panel de control de Skype Empresarial Server.
     
-3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Configuración de reunión**.
+3. En la barra de navegación izquierda, haga clic **en Conferencia** y, a continuación, haga clic en Configuración **de reunión.**
     
 4. En la página **Configuración de reunión**, haga clic en **Nueva** y después realice una de las siguientes acciones:
     
@@ -53,23 +53,23 @@ Puede crear valores de configuración de la reunión con el panel de control de 
     
 8. Para evitar que se admitan automáticamente a usuarios anónimos (sin autenticar), desactive la casilla **Admitir usuarios anónimos de forma predeterminada**. Normalmente, los usuarios anónimos se admiten automáticamente en las reuniones.
     
-9. Para personalizar la invitación a la reunión que se envía a los participantes, haga lo siguiente. Recuerde que la longitud máxima de las direcciones URL y el texto de pie de página personalizado es de 1 KB. Salvo en el caso de la **Dirección URL de la Ayuda**, si no especifica un valor para las personalizaciones, no se incluirán en la reunión. Si no incluye una dirección URL de ayuda personalizada, la dirección URL de la ayuda predeterminada para Skype empresarial se mostrará en la invitación. 
+9. Para personalizar la invitación a la reunión que se envía a los participantes, haga lo siguiente. Recuerde que la longitud máxima de las direcciones URL y el texto de pie de página personalizado es de 1 KB. Salvo en el caso de la **Dirección URL de la Ayuda**, si no especifica un valor para las personalizaciones, no se incluirán en la reunión. Si no incluye una dirección URL de ayuda personalizada, la dirección URL de ayuda predeterminada para Skype Empresarial se mostrará en la invitación. 
     
-   - Para personalizar el logotipo que aparece en la invitación a la reunión, en **dirección URL del logotipo** introduzca la ubicación del logotipo. El logotipo debe ser una imagen GIF o JPG con un tamaño de 188 por 30 píxeles. 
+   - Para personalizar el logotipo que aparece en la invitación de la reunión, en **Dirección URL del logotipo**, especifique la ubicación del logotipo. El logotipo debe ser una imagen GIF o JPG con un tamaño de 188 por 30 píxeles. 
     
-   - Para personalizar el texto de ayuda que aparece en la invitación a la reunión, en la **Dirección URL de la Ayuda**, introduzca la ubicación del texto de ayuda.
+   - Para personalizar el texto de ayuda que aparece en la invitación a la reunión, en la **Dirección URL de la Ayuda**, especifique la ubicación del texto de ayuda.
     
-   - Para personalizar el texto legal que aparece en la invitación de la reunión, en **Dirección URL del texto legal**, introduzca la ubicación del texto legal.
+   - Para personalizar el texto legal que aparece en la invitación de la reunión, en **Dirección URL del texto legal**, especifique la ubicación del logotipo.
     
    - Para personalizar el texto del pie de página que aparece en la invitación a la reunión, en **Texto de pie de página personalizado**, escriba el texto.
     
 10. Haga clic en **Confirmar**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Crear parámetros de configuración de reunión con el shell de administración de Skype empresarial Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Crear opciones de configuración de reuniones mediante el Shell de administración de Skype Empresarial Server
 
-Para crear opciones de configuración de reunión, use el cmdlet **New-CsMeetingConfiguration**.
+Para crear opciones de configuración de reuniones, use el cmdlet **New-CsMeetingConfiguration.**
   
-El siguiente comando crea un conjunto de opciones de configuración de reunión para el sitio de Redmond:
+El siguiente comando crea un nuevo conjunto de opciones de configuración de reuniones para el sitio Redmond:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
@@ -83,12 +83,12 @@ Para crear configuraciones que usen valores de propiedad diferentes, solo tiene 
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Puede establecer varios valores de propiedad incluyendo varios parámetros. Por ejemplo, el siguiente comando admite a todos los participantes de la reunión como moderadores y también obliga a los usuarios de RTC a permanecer en la sala de espera hasta que se les admita formalmente a la reunión:
+Se pueden establecer varios valores de propiedad incluyendo varios parámetros. Por ejemplo, el siguiente comando admite a todos los usuarios de una reunión como moderadores y también obliga a los usuarios de RTC a esperar en la sala de espera hasta que se les admita formalmente a la reunión:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Para obtener más información, incluida una lista completa de parámetros, consulte [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
+Para obtener más información, incluida una lista completa de parámetros, vea [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
   
 

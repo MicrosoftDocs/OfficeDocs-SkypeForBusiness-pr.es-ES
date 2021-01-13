@@ -1,8 +1,8 @@
 ---
-title: Planificación de la capacidad de Skype empresarial Server
+title: Planeación de capacidad para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
-description: Los temas de esta sección le ayudan a comprender cómo planear e implementar Skype empresarial Server para poder planear de forma adecuada el número de usuarios de su organización y planear la carga del servidor que generan sus actividades.
-ms.openlocfilehash: 1d6148d12ad546e0a1120652054fb21fd3858381
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Los temas de esta sección le ayudarán a comprender cómo planear e implementar Skype Empresarial Server para que pueda planear adecuadamente el número de usuarios de su organización y planear la carga del servidor que generan sus actividades.
+ms.openlocfilehash: 4688be0f9ebc481a97b9f88685531182dc80acdc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816079"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827700"
 ---
-# <a name="capacity-planning-for-skype-for-business-server"></a>Planificación de la capacidad de Skype empresarial Server
+# <a name="capacity-planning-for-skype-for-business-server"></a>Planeación de capacidad para Skype Empresarial Server
  
-Los temas de esta sección le ayudan a comprender cómo planear e implementar Skype empresarial Server para poder planear de forma adecuada el número de usuarios de su organización y planear la carga del servidor que generan sus actividades. 
+Los temas de esta sección le ayudarán a comprender cómo planear e implementar Skype Empresarial Server para que pueda planear adecuadamente el número de usuarios de su organización y planear la carga del servidor que generan sus actividades. 
   
 > [!NOTE]
-> En todas las recomendaciones de esta sección se da por supuesto que tiene instalado Skype Empresarial (actualización acumulativa de noviembre de 2015 o una versión posterior) en sus servidores. 
+> Todas las recomendaciones de esta sección suponen que ha instalado la actualización acumulativa de Skype Empresarial, noviembre de 2015 o posterior, en sus servidores. 
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Planificación de capacidad de uso de modelo de usuario para Skype empresarial Server](user-model.md)
+- [Uso del modelo de usuario de planeación de capacidad para Skype Empresarial Server](user-model.md)
     
-- [Estimar el uso y el tráfico de voz de Skype empresarial Server](estimating-voice-traffic.md)
+- [Estimación del uso y el tráfico de voz para Skype Empresarial Server](estimating-voice-traffic.md)
     
-- [Directrices de implementación para el servidor de mediación en Skype empresarial Server](mediation-server-deployment-guidelines.md)
+- [Directrices de implementación para el servidor de mediación en Skype Empresarial Server](mediation-server-deployment-guidelines.md)
     
-- [Modelos de usuario en Skype empresarial Server](user-models.md)
+- [Modelos de usuario en Skype Empresarial Server](user-models.md)
     
 

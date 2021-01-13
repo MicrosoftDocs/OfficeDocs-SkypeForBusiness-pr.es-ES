@@ -1,8 +1,8 @@
 ---
-title: Monitoring (Planning Tool)
+title: Supervisión (Herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: En Skype empresarial Server 2015, la supervisión se usa para recopilar información de uso y datos de la calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios.
-ms.openlocfilehash: baf24091cb2c50914eb413dde142c92fb5d1d20e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En Skype Empresarial Server 2015, la supervisión se usa para recopilar información de uso y datos de calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios.
+ms.openlocfilehash: 85398b80d982fdd443e920af9c50b212afe4cb90
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821392"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828940"
 ---
-# <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
+# <a name="monitoring-planning-tool"></a>Supervisión (Herramienta de planeación)
 
-En Skype empresarial Server 2015, la supervisión se usa para recopilar información de uso y datos de la calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios.
+En Skype Empresarial Server 2015, la supervisión se usa para recopilar información de uso y datos de calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios.
 
-Para obtener más información sobre la planeación de la supervisión de servidor, consulte [planificación de la supervisión](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
+Para obtener más información acerca de la planeación del servidor de supervisión, consulte [Planeación de la supervisión.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
 

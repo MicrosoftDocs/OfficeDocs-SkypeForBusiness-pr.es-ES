@@ -1,7 +1,7 @@
 ---
 title: Incorporar compatibilidad con Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Use recursos de aprendizaje en línea para ofrecer al personal de soporte técnico integrado para la fase experimental de la adopción de Teams.
+description: Use los recursos de aprendizaje en línea para incorporar al personal de soporte técnico en la fase de experimentación de su adopción de Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,20 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76f7cdc48fdea339bfbef81f56eba629e8937abf
-ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
+ms.openlocfilehash: d61c407e8f969084c1f3775ddd9ede9070a61dc1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48929521"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806140"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Incorporar compatibilidad con Microsoft Teams
 
-Para asegurarse de que los equipos de los primeros usuarios y los profesores tengan la compatibilidad adecuada a medida que empiecen a usar Teams, reunirse con su personal de soporte técnico y revise las capacidades de Teams. Es posible que los miembros clave de la organización de soporte deseen participar en el programa pionero. Fomentar el uso de Teams en sus propios escenarios. Llevarlas a través de la incorporación básica del producto con nuestros recursos de formación en línea.  
+Para asegurarse de que los equipos de primeros usuarios y campeones tendrán el soporte adecuado cuando empiecen a usar Teams, reúnase con el personal de soporte técnico y revise las capacidades de Teams. Es posible que los miembros clave de la organización de soporte técnico quieran unirse al programa de usuarios iniciales. Anime el uso de Teams en sus propios escenarios. Lleve a través de la incorporación básica del producto mediante nuestros recursos de aprendizaje en línea.  
 
-- [Bases: componentes básicos de Microsoft Teams](https://youtu.be/V6B4KraD-FM)
+- [Foundations: componentes principales de Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [Solución de problemas de Teams](https://youtu.be/0KNh9KNpXcA)
 - [Problemas conocidos y solución de problemas](https://aka.ms/TeamsKnownIssues)
 - [Aprendizaje de Microsoft Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [fase 3 de adopción de Microsoft Teams: escala](teams-adoption-phase3-enable.md).
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: Fase [de adopción 3 de Microsoft Teams: Escala.](teams-adoption-phase3-enable.md)

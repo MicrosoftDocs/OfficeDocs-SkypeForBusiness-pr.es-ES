@@ -1,8 +1,8 @@
 ---
-title: Ver los registros de uso de RTC en Skype empresarial
+title: Ver registros de uso de RTC en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: 'Resumen: Aprenda a ver los registros de uso de RTC con el panel de control de Skype empresarial Server o el shell de administración de Skype empresarial Server.'
-ms.openlocfilehash: 1f6cbd5bb013cd57f9304c3b0eb0c64ac7dabcff
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumen: obtenga información sobre cómo ver los registros de uso de RTC mediante el Panel de control de Skype Empresarial Server o el Shell de administración de Skype Empresarial Server.'
+ms.openlocfilehash: abf9f3ec9ce1e2801de2c6017d12fd64df0c8954
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766923"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830540"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business"></a>Ver los registros de uso de RTC en Skype empresarial
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>Ver registros de uso de RTC en Skype Empresarial
 
-**Resumen:** Obtenga información sobre cómo ver los registros de uso de RTC con el panel de control de Skype empresarial Server o el shell de administración de Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo ver los registros de uso de RTC mediante el Panel de control de Skype Empresarial Server o el Shell de administración de Skype Empresarial Server.
 
-Un registro de uso de una red de telefonía conmutada (RTC) especifica la clase de llamada (por ejemplo, interna, local o de larga distancia) que pueden realizar los diversos usuarios o grupos de usuarios en una organización. Para obtener más información, consulte [PSTN Usage Records](https://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) en la documentación de planeación.
+Un registro de uso de la red telefónica conmutada (RTC) especifica una clase de llamada (como interna, local o de larga distancia) que pueden realizar varios usuarios o grupos de usuarios de una organización. Para obtener más información, consulte [Registros de uso de RTC](https://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) en la documentación de planeación.
 
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Para ver un registro de uso de RTC con el panel de control de Skype empresarial Server
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Para ver un registro de uso de RTC mediante el Panel de control de Skype Empresarial Server
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
 
-2. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Uso de RTC**.
+2. En la barra de navegación izquierda, haga clic en **Enrutamiento de** voz y, a continuación, haga clic en Uso **de RTC.**
 
-3. En la página **Uso de RTC**, resalte el registro de uso de RTC que desee ver, haga clic en **Editar** y, a continuación, haga clic en **Mostrar detalles**.
+3. En la **página Uso de** RTC, resalte el  registro de uso de RTC que desea ver, haga clic en Editar y, a continuación, haga clic en **Mostrar detalles.**
 
     > [!NOTE]
-    > Una página de solo lectura del registro de uso de RTC seleccionado muestra las rutas y las directivas de voz asociadas.
+    > Una página de solo lectura del registro de uso de RTC seleccionado muestra las rutas asociadas y las directivas de voz asociadas.
 
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Para ver la información de uso de RTC con los cmdlets del shell de administración de Skype empresarial Server
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Para ver la información de uso de RTC mediante cmdlets del Shell de administración de Skype Empresarial Server
 
-- Para ver información sobre todos los usos de RTC, escriba el siguiente comando en el shell de administración de Skype empresarial Server y, a continuación, presione ENTRAR:
+- Para ver información sobre todos los usos de RTC, escriba el siguiente comando en el Shell de administración de Skype Empresarial Server y, a continuación, presione ENTRAR:
 
   ```powershell
   Get-CsPstnUsage
@@ -55,7 +55,7 @@ Un registro de uso de una red de telefonía conmutada (RTC) especifica la clase 
   Usage    : {Internal, Local, Long Distance}
 </pre>
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md)
+[Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial](voice-policy-and-pstn-usage-records.md)
 

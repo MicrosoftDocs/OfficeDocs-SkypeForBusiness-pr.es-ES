@@ -1,7 +1,7 @@
 ---
-title: Disponibilidad de la Dominica
-ms.author: v-lanac
-author: LanaChin
+title: Disponibilidad en Dominica
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para la Dominica.
-ms.openlocfilehash: 079486a0927e5fafc5dd3b9e4e360fed38489a1c
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Dominica.
+ms.openlocfilehash: 11b2f5fe51629fdac22425f9c045dcdb02252f50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230278"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804720"
 ---
-# <a name="availability-in-dominica"></a>Disponibilidad de Dominica
+# <a name="availability-in-dominica"></a>Disponibilidad en Dominica
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para la Dominica.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Dominica.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

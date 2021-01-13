@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Benín
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Benín.
-ms.openlocfilehash: 60253027fb17a186f276c7cae1e176a86471d84b
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Benín.
+ms.openlocfilehash: 1b704e915f0d40a38ff504bdfc079d7ffb35567a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230638"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812950"
 ---
 # <a name="availability-in-benin"></a>Disponibilidad en Benín
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Benín.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Benín.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -68,7 +68,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | No geográficos. Los números de teléfono no se vinculan a una ciudad o ubicación específica.  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | No geográfico. Los números de teléfono no se vinculan a una ciudad o ubicación específica.  <br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    

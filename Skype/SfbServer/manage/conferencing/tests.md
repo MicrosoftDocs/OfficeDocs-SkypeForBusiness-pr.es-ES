@@ -1,8 +1,8 @@
 ---
-title: Probar las conferencias de acceso telefónico local en Skype empresarial Server
+title: Probar las conferencias de acceso telefónico local en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Resumen: Aprenda a probar las conferencias de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: 838e04d7cb6d17e98df2b6fa0dbe3f3d46a5ecad
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo probar las conferencias de acceso telefónico local en Skype Empresarial Server.'
+ms.openlocfilehash: 214ec05c49072825e6a8744cb92db66d864e3d34
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818471"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827940"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar las conferencias de acceso telefónico local en Skype empresarial Server
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar las conferencias de acceso telefónico local en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre cómo probar las conferencias de acceso telefónico local en Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo probar las conferencias de acceso telefónico local en Skype Empresarial Server.
   
-Como comprobación final de la configuración de las conferencias de acceso telefónico local, puede buscar planes de marcado que tengan una región de conferencia de acceso telefónico local que no sea usada por ningún número de acceso, así como números de acceso que no tengan asignada una región de conferencia de acceso telefónico local. También debe comprobar que la página web Configuración de la conferencia de acceso telefónico local y los números de acceso telefónico local funcionan correctamente.
+Para realizar una comprobación final de la configuración de conferencia de acceso telefónico local, busque planes de marcado que tengan una región de conferencia de acceso telefónico local que no sea usada por ningún número de acceso, así como números de acceso que no tengan asignada ninguna región de conferencia de acceso telefónico local. También debe comprobar que la página web configuración de conferencia de acceso telefónico local y los números de acceso telefónico local funcionan correctamente.
   
-## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Buscar planes de marcado con una región de conferencia de acceso telefónico local que no sea usada por ningún número de acceso
+## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Buscar planes de marcado con una región de conferencia de acceso telefónico local que no sea usada por un número de acceso
 
-1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol Cs-ServerAdministrator o CsAdministrator.
+1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol Cs-ServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -39,13 +39,13 @@ Como comprobación final de la configuración de las conferencias de acceso tele
 
     Este cmdlet devuelve todos los planes de marcado que tienen una región de conferencia de acceso telefónico local que no es usada por ningún número de acceso.
     
-Para obtener más información, vea [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Para obtener más información, [vea Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>Buscar números de acceso sin regiones asignadas
 
-1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol Cs-ServerAdministrator o CsAdministrator.
+1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol Cs-ServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -55,9 +55,9 @@ Para obtener más información, vea [Get-CsDialInConferencingAccessNumber](https
 
     Este cmdlet devuelve todos los números de acceso de conferencia de acceso telefónico local que no están asociados a ninguna región.
     
-Para obtener más información, vea [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Para obtener más información, [vea Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
-## <a name="test-webpage-and-access-numbers"></a>Página web y números de acceso de prueba
+## <a name="test-webpage-and-access-numbers"></a>Página web de prueba y números de acceso
 
 Para comprobar que la página web Configuración de la conferencia de acceso telefónico local y los números de acceso telefónico local funcionan correctamente, debe realizar las siguientes acciones:
   
@@ -67,9 +67,9 @@ Para comprobar que la página web Configuración de la conferencia de acceso tel
     
 ### <a name="to-test-access-numbers-for-a-specific-pool"></a>Para probar números de acceso para un grupo de servidores específico
 
-1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol Cs-ServerAdministrator o CsAdministrator.
+1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol Cs-ServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -80,8 +80,8 @@ Para comprobar que la página web Configuración de la conferencia de acceso tel
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    El informe resultante indica si hay errores, junto con la información de diagnóstico específica. La marca-verbose proporciona información más detallada sobre cuántos números de acceso se han encontrado y detalles sobre ellos.
+    El informe resultante indica si hay errores, junto con la información de diagnóstico específica. La marca -Verbose proporciona información más detallada sobre cuántos números de acceso se encontraron y detalles sobre ellos.
     
-Para obtener más información, consulte [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
+Para obtener más información, [vea Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
   
 

@@ -1,7 +1,7 @@
 ---
 title: 'Fase 3 de la adopción de Microsoft Teams: Escala'
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Lea una descripción general de los pasos que necesitará aprender para admitir la amplia capacidad de escalar de los equipos de su organización.
+description: Lea la información general sobre los pasos que necesitará para dar soporte a la habilitación de Teams a gran escala para su organización.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,24 +21,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 602d820b245b096a8c0f8470f08ba7fd9529d070
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904605"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806110"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de la adopción de Microsoft Teams: Escala
 
-En esta fase, usará los aprendizajes, el talento de su proyecto y las relaciones con las partes interesadas, los expertos y los pioneros en la habilitación de la escalabilidad ampliada de Teams para su organización. Completará los siguientes pasos para preparar una participación continua en el uso de Microsoft Teams para empresas:
+En esta fase, usará sus aprendizajes, equipo de proyecto con talento y relaciones con las partes interesadas, los campeones y los primeros usuarios para apoyar la habilitación de Teams a gran escala para su organización. Seguirá los pasos siguientes mientras se prepara para una participación empresarial continuada con respecto al uso que hace su organización de Microsoft Teams:
 
-1. Definir las medidas de resultados y éxito.
-2. Seleccione estrategia de servicio.
-3. Atraiga a los participantes.
-4. Diseñar e iniciar una campaña de conocimiento.
+1. Defina resultados y medidas de éxito.
+2. Seleccione la estrategia de servicio.
+3. Atraer a las partes interesadas.
+4. Diseñar e iniciar una campaña de concienciación.
 5. Diseñar e iniciar un programa de aprendizaje.
 6. Comprender las herramientas de informes.
-7. Prepararse para una participación continua en el negocio.
-8. Prepararse para el estado de servicio continuo & revisiones de adopción.
+7. Prepárese para un compromiso empresarial continuo.
+8. Prepárese para las revisiones continuas del estado & adopción.
 
-![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [definir resultados y éxito](teams-adoption-define-outcomes.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Definir resultados y éxito](teams-adoption-define-outcomes.md)

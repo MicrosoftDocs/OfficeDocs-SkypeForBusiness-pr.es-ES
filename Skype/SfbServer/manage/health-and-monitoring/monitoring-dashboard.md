@@ -1,8 +1,8 @@
 ---
-title: Usar el panel de supervisión de Skype empresarial Server
+title: Uso del panel de supervisión en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Resumen: Obtenga información sobre el panel de supervisión de Skype empresarial Server.'
-ms.openlocfilehash: c2c86d5d5ede9581a2b41f32594118ab2605d63a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre el panel de supervisión en Skype Empresarial Server.'
+ms.openlocfilehash: 98a96b8a513bad485a25aff76a69d787fb3079b0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817829"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827790"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usar el panel de supervisión de Skype empresarial Server
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Uso del panel de supervisión en Skype Empresarial Server
  
-**Resumen:** Obtenga más información sobre el panel de supervisión de Skype empresarial Server.
+**Resumen:** Obtenga información sobre el panel de supervisión en Skype Empresarial Server.
   
-El panel de supervisión proporciona a los administradores una breve descripción general del uso del sistema y el estado del sistema de Skype empresarial Server. El panel está diseñado para mostrar una vista agregada de métricas del sistema clave y para hacerlo mostrando:
+El panel de supervisión proporciona a los administradores una introducción rápida al uso del sistema y el estado del sistema de Skype Empresarial Server. El panel está diseñado para mostrar una vista agregada de métricas clave del sistema y para ello, muestra cualquiera de las siguientes:
   
-- Los totales del día en curso. Tenga en cuenta que los valores que aparecen para el día en curso representan los datos registrados desde medianoche hasta la hora en curso (basada en la hora local del servidor de informes). Esto quiere decir que normalmente verá datos de parte de un día y no de un período de 24 horas. Por ejemplo, si la hora local del servidor es 8:00 A.M., verá ocho horas de datos, ya que hay ocho horas entre la medianoche y la hora actual de 8:00 A.M.
+- Totales del día actual. Tenga en cuenta que los valores que se muestran para el día actual representan datos registrados desde la medianoche hasta la hora actual (según la hora local del servidor de informes). Esto significa que normalmente se verán los datos para un día parcial y no para un período de 24 horas. Por ejemplo, si la hora local del servidor es las 8:00 a.m., verá datos de ocho horas porque hay ocho horas entre la medianoche y la hora actual de las 8:00 a.m.
     
-- Los totales de la semana y las tendencias de los totales en las últimas seis semanas.
+- Totales de la semana y totales de tendencias de las últimas seis semanas.
     
-- Los totales del mes y las tendencias de los totales en los últimos seis meses (solo para el uso del sistema).
+- Totales del mes y totales de tendencias de los últimos seis meses (solo para uso del sistema).
     
-Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL que se usa para obtener acceso a los informes de supervisión de Skype empresarial Server:
+Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL usada para obtener acceso a los informes de supervisión de Skype Empresarial Server:
   
 ```PowerShell
 Get-CsReportingConfiguration
 ```
 
-Normalmente, el panel de supervisión muestra los datos de la semana de las métricas siguientes (y las tendencias de los totales de las seis semanas anteriores):
+De forma predeterminada, el Panel de supervisión muestra los datos de las métricas siguientes de la semana actual (y los totales de tendencias de las seis semanas anteriores):
   
 ## <a name="system-usage-metrics"></a>Métricas de uso del sistema
 
@@ -57,11 +57,11 @@ Normalmente, el panel de supervisión muestra los datos de la semana de las mét
     
 - Uso compartido de aplicaciones
     
-- Total de minutos de sesiones de audio
+- Total de minutos de sesión de audio
     
-- Media de minutos de sesiones de audio
+- Promedio de minutos de sesión de audio
     
-  **Una conferencia**
+  **Conferencia**
   
 - Total de conferencias
     
@@ -73,11 +73,11 @@ Normalmente, el panel de supervisión muestra los datos de la semana de las mét
     
 - Conferencias web
     
-- Total de organizadores
+- Organizadores totales
     
 - Total de minutos de conferencia A/V
     
-- Media de minutos de conferencia A/V
+- Promedio Minutos de conferencia A/V
     
 - Total de conferencias RTC
     
@@ -85,85 +85,85 @@ Normalmente, el panel de supervisión muestra los datos de la semana de las mét
     
 - Total de minutos de participantes RTC
     
-Además de las métricas de uso del sistema, las métricas siguientes muestran el total del día actual y de los seis días anteriores (si selecciona **Vista semanal**) o de la semana actual y de las seis semanas anteriores, si selecciona **Vista mensual**.
+Además de las métricas de uso del sistema, las métricas siguientes muestran el total del día actual y los seis días anteriores (si selecciona Vista **semanal)** o para la semana actual y las últimas seis semanas si selecciona Vista **mensual.**
   
-## <a name="per-user-call-diagnostics"></a>Diagnósticos de llamadas por usuario
+## <a name="per-user-call-diagnostics"></a>Per-User diagnóstico de llamadas
 
- **Usuarios con errores de llamadas**
+ **Usuarios con errores de llamada**
   
-- Total de usuarios con errores de llamadas
+- Total de usuarios con errores de llamada
     
-- Organizadores de conferencias con errores de llamadas
+- Organizadores de conferencias con errores de llamada
     
-  **Usuarios con llamadas de calidad deficiente**
+  **Usuarios con llamadas de mala calidad**
   
-- Total de usuarios con llamadas de mala calidad
+- Total de usuarios con llamadas de calidad deficiente
     
-## <a name="call-diagnostics"></a>Diagnósticos de llamadas
+## <a name="call-diagnostics"></a>Diagnóstico de llamadas
 
 Punto a punto
   
-- Total de errores
+- Errores totales
     
-- Porcentaje general de errores
+- Tasa de errores general
     
-- Porcentaje de errores de mensajería instantánea
+- Tasa de errores de mensajería instantánea
     
-- Porcentaje de errores de audio
+- Tasa de errores de audio
     
-- Porcentaje de errores de uso compartido de aplicaciones
+- Tasa de errores de uso compartido de aplicaciones
     
-Una conferencia
+Conferencia
   
-- Total de errores
+- Errores totales
     
-- Porcentaje general de errores
+- Tasa de errores general
     
-- Porcentaje de errores de mensajería instantánea
+- Tasa de errores de mensajería instantánea
     
-- Porcentaje de errores de A/V
+- Tasa de errores de A/V
     
-- Porcentaje de errores de uso compartido de aplicaciones
+- Tasa de errores de uso compartido de aplicaciones
     
-5 servidores principales por sesiones con error
+Principales cinco servidores por sesiones con errores
   
 ## <a name="media-quality-diagnostics"></a>Diagnósticos de calidad de medios
 
 Punto a punto
   
-- Total de llamadas de calidad deficiente
+- Llamadas de calidad deficiente totales
     
-- Porcentaje de llamadas de calidad deficiente
+- Porcentaje de llamadas de mala calidad
     
-- Total de llamadas RTC de calidad deficiente
+- Llamadas RTC con mala calidad
     
-Una conferencia
+Conferencia
   
-- Total de llamadas de calidad deficiente
+- Llamadas de calidad deficiente totales
     
-- Porcentaje de llamadas de calidad deficiente
+- Porcentaje de llamadas de mala calidad
     
-- Total de llamadas RTC de calidad deficiente
+- Llamadas RTC con mala calidad
     
-Los peores servidores por porcentaje de llamadas de calidad deficiente
+Principales servidores por porcentaje de llamadas de mala calidad
   
 ## <a name="working-with-the-monitoring-dashboard"></a>Trabajar con el panel de supervisión
 
-Tal como hemos indicado, se muestran los totales predeterminados de la semana en curso y los valores de las tendencias de las seis últimas semanas. Si prefiere ver los totales del mes actual (así como los valores de las tendencias de los últimos seis meses), haga clic en el vínculo **Vista mensual** de la esquina superior derecha del panel. Si decide ver los totales mensuales, el texto del vínculo cambiará a **Vista semanal**. Puede volver a la vista semanal haciendo clic en el vínculo.
+Como se ha indicado, los totales predeterminados se muestran para la semana actual y los valores de tendencia se muestran en las últimas seis semanas. Si prefiere ver los totales del mes actual (así como los valores  de tendencia de los últimos seis meses), haga clic en el vínculo Vista mensual en la esquina superior derecha del panel. Si decide ver los totales mensuales, el texto del vínculo cambiará a **Vista semanal.** Puede volver a la vista semanal haciendo clic en ese vínculo.
   
 > [!TIP]
-> El panel de supervisión le limita la consulta a los totales de la semana en curso (o el mes en curso) y a los valores de las tendencias de las seis últimas semanas (o seis últimos meses). Estas fechas y horas no se pueden cambiar. Por ejemplo, con el panel no se pueden ver los totales de informe de un período que se inició nueve meses antes. 
+> El Panel de supervisión le limita a ver los totales de la semana actual (o mes) y los valores de tendencia de las últimas seis semanas (o meses). No puede cambiar estas fechas y horas. Por ejemplo, no puede usar el panel para ver los totales del informe del período de tiempo que comenzó hace nueve meses. 
   
-Los valores que aparecen en las columnas **Esta semana**, **Este mes** u **Hoy** le vinculan a información más detallada sobre el elemento. Tenga en cuenta que el nombre de la columna y los valores que aparecen en ella cambiarán a menudo en función de la métrica elegida y en función de si ha seleccionado vista semanal o vista mensual. Por ejemplo, si hace clic en los totales que aparecen en la métrica **Inicios de sesión de usuario únicos**, verá el **Informe de registro de usuario** del período de tiempo especificado. Puede volver al panel de supervisión en cualquier momento, haciendo clic en **Panel**.
+Los valores que se muestran en **las columnas Esta semana**, Este **mes** o **Hoy** le vinculan a información más detallada sobre el elemento. Tenga en cuenta que el nombre de columna y los valores que se muestran en esa columna a menudo serán diferentes en función de la métrica elegida y en función de si ha seleccionado la vista semanal o la vista mensual. Por ejemplo, si hace clic en los totales que se  muestran para la métrica **Inicios** de sesión de usuario único, verá el Informe de registro de usuarios para el período de tiempo especificado. Puede volver al Panel de supervisión en cualquier momento haciendo clic en **Panel.**
   
 > [!TIP]
-> También puede acceder a la Página principal de informes del servidor de supervisión haciendo clic en el vínculo **informes** , en la esquina superior derecha del panel.
+> También puede obtener acceso a la página  principal de informes del servidor de supervisión haciendo clic en el vínculo Informes de la esquina superior derecha del panel.
   
-La columna **Tendencia** muestra un gráfico de línea sencilla con los totales de las últimas seis semanas (o, en función de la métrica y del intervalo de tiempo, los últimos seis días o seis meses). Estos gráficos de línea sencilla muestran un punto de datos sin etiquetar por cada período de tiempo (por ejemplo, un punto de datos sin etiquetar por cada una de las seis últimas semanas). Ahora bien, puede recuperar los valores reales de estos gráficos manteniendo el puntero del mouse sobre el gráfico. En dicho caso, la información sobre herramientas muestra los valores máximo y mínimo del gráfico.
+La **columna Tendencia** muestra un gráfico de líneas sencillo que muestra los totales de las últimas seis semanas (o, según la métrica y el intervalo de tiempo, los últimos seis días o los últimos seis meses). Estos gráficos de líneas simples muestran un punto de datos sin etiquetar para cada período de tiempo (por ejemplo, un punto de datos sin etiquetar para cada una de las últimas seis semanas). Sin embargo, puede recuperar los valores reales de estos gráficos manteniendo el puntero del mouse sobre el gráfico. En ese caso, una información sobre herramientas muestra los valores máximos y mínimos del gráfico.
   
-## <a name="exporting-data-from-the-monitoring-dashboard"></a>Exportar datos desde el panel de supervisión
+## <a name="exporting-data-from-the-monitoring-dashboard"></a>Exportación de datos desde el panel de supervisión
 
-El panel de supervisión proporciona varias formas de exportar la vista del panel actual. En la barra de herramientas del panel, verá un icono con el aspecto de un disquete con una flecha verde vinculada. Si hace clic en el icono, aparecerá una lista desplegable que le presentará los siguientes formatos de exportación de datos:
+El Panel de supervisión proporciona varias formas de exportar la vista de panel actual. En la barra de herramientas panel, verá un icono que tiene el aspecto de un disquete con una flecha verde adjunta. Si hace clic en este icono, aparecerá una lista desplegable con los siguientes formatos de exportación de datos:
   
 - Archivo XML con datos de informe
     
@@ -173,28 +173,28 @@ El panel de supervisión proporciona varias formas de exportar la vista del pane
     
 - Archivo MHTML (archivo web)
     
-- Archivo de Excel
+- Excel
     
 - Archivo TIFF
     
-- Archivo de Word
+- Word
     
-Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Skype empresarial Server genera un informe en el formato especificado y, a continuación, le ofrece la opción de abrir ese informe o guardarlo. Tenga en cuenta que, de forma predeterminada, los títulos de Skype empresarial Server son el **Panel de supervisión** de informes y los guarda en la carpeta descargas. Para darle al informe otro nombre o guardarlo en otra carpeta, haga clic en la flecha situada al lado del botón **Guardar** y después haga clic en **Guardar como**. Si le parece bien el nombre **Panel de supervisión** y está de acuerdo en guardar el informe en la carpeta Descargas, solo tiene que hacer clic en el botón **Guardar**.
+Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Skype Empresarial Server genera un informe en el formato especificado y, a continuación, le ofrece la opción de abrir ese informe o guardarlo. Tenga en cuenta que, de forma predeterminada, Skype Empresarial Server títulos del panel de supervisión de informes y lo guarda en la carpeta descargas.  Para dar un nombre diferente al informe o almacenarlo en una  carpeta diferente, haga clic en la flecha situada junto al botón Guardar y, a continuación, haga clic **en Guardar como**. Si está bien con el panel de **supervisión** de nombres y con el informe guardado en la carpeta Descargas, solo tiene que hacer clic en **el botón** Guardar.
   
-Es posible que, cuando intente exportar datos del panel, aparezca el cuadro de diálogo **Alerta de seguridad** junto con el mensaje "La configuración actual no permite descargar este archivo". Si ocurre esto, haga lo siguiente:
+Es posible que, al intentar exportar datos  del panel, aparezca un cuadro de diálogo Alerta de seguridad junto con el mensaje "La configuración actual no permite que se descargue este archivo". Si esto ocurre, haga lo siguiente:
   
-- En Internet Explorer, seleccione **Opciones de Internet**.
+- En Internet Explorer, seleccione **Opciones de Internet.**
     
-- En el cuadro de diálogo **Opciones de Internet**, en la pestaña **Seguridad**, haga clic en **Sitios de confianza** y después en **Sitios**.
+- En el cuadro de diálogo Opciones de **Internet,** en la **ficha** Seguridad, haga clic en Sitios de **confianza** y, a continuación, en **Sitios.**
     
-- En el cuadro de diálogo **sitios de confianza** , haga clic en **Agregar** para agregar el servidor de Skype empresarial que ejecuta los informes de Skype empresarial Server a las colecciones de sitios web de confianza.
+- En el cuadro de  **diálogo Sitios** de confianza, haga clic en Agregar para agregar el Skype Empresarial Server que ejecuta informes de Skype Empresarial Server a las colecciones de sitios web de confianza.
     
-- Haga clic en **Cerrar** y, luego, en **Aceptar**.
+- Haga **clic en Cerrar** y, a continuación, en **Aceptar.**
     
-Necesitará actualizar el panel de supervisión antes de que entren en vigor los cambios. Para ello, presione F5 o haga clic en el icono **Actualizar** de la barra de herramientas del panel (el icono **Actualizar** es un círculo que contiene un par de flechas verdes).
+A continuación, deberá actualizar el Panel de supervisión antes de que los cambios sumen efecto. Para ello, presione F5 o  haga clic en el icono Actualizar de la barra de herramientas del panel. (El **icono** Actualizar es un círculo con un par de flechas verdes).
   
-También puede crear una hoja de cálculo de Excel que contenga fuentes de datos activos, lo que incluye vínculos con los últimos datos del panel de supervisión. Para crear un archivo de fuentes de datos activos, haga clic en el icono naranja **Exportar a fuente de datos** de la barra de herramientas.
+También puede crear una hoja de cálculo de Excel que incluya fuentes de datos dinámicas, que incluya vínculos a los últimos datos del Panel de supervisión. Para crear un archivo de fuente de datos en directo, haga clic en el icono **naranja** Exportar a fuente de datos de la barra de herramientas.
   
-Si prefiere imprimir el panel actual, haga clic en el icono de la impresora de la barra de herramientas.
+Si prefiere imprimir el panel actual, haga clic en el icono de impresora de la barra de herramientas.
   
 

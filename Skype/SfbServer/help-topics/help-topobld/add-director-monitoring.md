@@ -1,8 +1,8 @@
 ---
 title: Agregar supervisión de director
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,30 +15,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 'Puede Definir el almacén SQL Server de supervisión configurando las propiedades siguientes:'
-ms.openlocfilehash: 48a626483da0dd69f46eca9740b0a9b224218f4d
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 100142faf2f9e552e5ad289fde6df0607669a09d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215501"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828920"
 ---
 # <a name="add-director-monitoring"></a>Agregar supervisión de director
  
 Puede **Definir el almacén SQL Server de supervisión** configurando las propiedades siguientes:
   
-- **Supervisión del almacén de SQL Server**: Seleccione un nombre de dominio completo (FQDN) de SQL Server (y, opcionalmente, una instancia de SQL Server con nombre) de la lista.
+- **Monitoring SQL Server store:** Select a SQL Server fully qualified domain name (FQDN) (and, optionally, a named SQL Server instance) from the list.
     
-    Haga clic en **nuevo** para crear una nueva definición FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén del servidor de supervisión.
+    Haga **clic en** Nuevo para crear una SQL Server de FQDN y, opcionalmente, un nombre de instancia para el almacén del servidor de supervisión.
     
-- Active la casilla **Habilitar la creación de reflejos del almacén de SQL Server** si desea agregar la creación de reflejo de la base de datos para el servidor de supervisión.
+- Active la casilla SQL Server creación de **reflejos** del almacén si desea agregar la creación de reflejos de la base de datos para el servidor de supervisión.
     
     Seleccione el **Reflejo del almacén SQL Server de supervisión** existente de la lista.
     
-    Haga clic en **nuevo** para crear una nueva definición FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén de reflejos.
+    Haga **clic** en Nuevo para crear una SQL Server de FQDN y, opcionalmente, un nombre de instancia para el almacén reflejado.
     
-- Si seleccionó **Habilitar la creación de reflejos del almacén de SQL Server**, puede seleccionar usar el testigo de creación de reflejos de **SQL Server para habilitar la conmutación automática por error** para seleccionar un almacén de testigos de reflejo de SQL Server en la lista.
+- Si seleccionó Habilitar la creación de reflejos del almacén de SQL Server **SQL Server,** opcionalmente seleccione Usar un testigo de creación de reflejo para habilitar la conmutación por error automática para seleccionar un almacén testigo de creación de reflejo de SQL Server en la lista. 
     
-    Haga clic en **nuevo** para crear una nueva definición FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén testigo de creación de reflejos.
+    Haga **clic** en Nuevo para crear una SQL Server de FQDN y, opcionalmente, un nombre de instancia para el almacén testigo de creación de reflejo.
     
 Haga clic en **Atrás** para volver al cuadro de diálogo anterior de definición del grupo de servidores.
   

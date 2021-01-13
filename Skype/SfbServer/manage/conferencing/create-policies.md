@@ -1,8 +1,8 @@
 ---
-title: Crear directivas de conferencia en Skype empresarial Server
+title: Crear directivas de conferencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,42 +11,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Resumen: Aprenda a crear directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: 6fc8145e5f7c4dc0ee4b824a92248e365df56213
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo crear directivas de conferencia en Skype Empresarial Server.'
+ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818621"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828240"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Crear directivas de conferencia en Skype empresarial Server
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Crear directivas de conferencia en Skype Empresarial Server
  
-**Resumen:** Aprenda a crear directivas de conferencia en Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo crear directivas de conferencia en Skype Empresarial Server.
   
-Puede crear directivas de conferencia con el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server.
+Puede crear directivas de conferencia con el Panel de control de Skype Empresarial Server o con el Shell de administración de Skype Empresarial Server.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Crear directivas de conferencia con el panel de control de Skype empresarial Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Crear directivas de conferencia con el Panel de control de Skype Empresarial Server
 
-1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra el panel de control de Skype empresarial Server.
+2. Abra el Panel de control de Skype Empresarial Server.
     
-3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de conferencia**.
+3. En la barra de navegación izquierda, haga clic **en Conferencia** y, a continuación, haga clic en Directiva **de conferencia.**
     
-4. Haga clic en **Nuevo** y, luego, siga uno de estos procedimientos:
+4. Haga clic en **Nuevo** y luego siga uno de estos procedimientos:
     
    - Para crear una directiva de nivel de usuario, haga clic en **Directiva de usuario**. En **Directiva de conferencia nueva**, en **Nombre**, escriba un nombre descriptivo para la directiva.
     
    - Para crear una directiva de nivel de sitio, haga clic en **Directiva de sitio**. En el campo de búsqueda **Seleccionar un sitio**, escriba todo o parte del nombre del sitio para el que desea crear una directiva. En la lista de sitios, haga clic en el sitio que desee y después en **Aceptar**.
     
      > [!NOTE]
-     > El nombre del sitio pasa a ser el nombre de la directiva de conferencia y no se puede cambiar. 
+     > El nombre del sitio se convierte en el nombre de la directiva de conferencia; no se puede cambiar. 
   
 5. En **Descripción**, escriba una descripción para la directiva.
     
 6. En **Directiva de organizadores**, en **Tamaño máximo de la reunión**, escriba el número máximo de usuarios que desea que participen en una reunión. De manera predeterminada, el tamaño máximo de la reunión se establece en 250.
     
-7. Para impedir que los usuarios inviten a usuarios anónimos a las reuniones, desactive la casilla **Permitir a los participantes invitar a usuarios anónimos**. Los usuarios anónimos son usuarios que no tienen credenciales en los servicios de dominio de Active Directory de su organización y que, por consiguiente, no se autentican. De manera predeterminada, los participantes pueden invitar a usuarios anónimos a las reuniones.
+7. Para impedir que los usuarios inviten a usuarios anónimos a las reuniones, desactive la casilla **Permitir a los participantes invitar a usuarios anónimos**. Los usuarios anónimos son usuarios que no tienen credenciales en los Servicios de dominio de Active Directory de su organización y que, por lo tanto, no están autenticados. Normalmente, los participantes pueden invitar a usuarios anónimos a las reuniones.
     
 8. En **Grabación**, lleve a cabo uno de los siguientes procedimientos:
     
@@ -66,11 +66,11 @@ Puede crear directivas de conferencia con el panel de control de Skype empresari
     
 11. Si opta por permitir el uso de audio en **Audio/vídeo**, realice uno de los procedimientos siguientes:
     
-    - Para impedir que los usuarios participen en la reunión mediante acceso telefónico, desactive la casilla **Habilitar conferencia de acceso telefónico local RTC**. De manera predeterminada, los usuarios pueden acceder telefónicamente a las reuniones a través de la red telefónica conmutada (RTC).
+    - Para impedir que los usuarios participen en la reunión mediante acceso telefónico, desactive la casilla **Habilitar conferencia de acceso telefónico local RTC**. Normalmente, los usuarios pueden acceder telefónicamente a las reuniones a través de la red telefónica conmutada (RTC).
     
-    - Si permite que los usuarios accedan telefónicamente a las reuniones y desea permitir que usuarios no autenticados (anónimos) se unan a una reunión por aceptación de llamada, active la casilla **Permitir acceso telefónico a los participantes anónimos**. Con la aceptación de llamadas, el servidor de conferencia llama al usuario y este contesta el teléfono para participar en la reunión. De manera predeterminada, los usuarios anónimos no pueden participar en una reunión por aceptación de llamada.
+    - Si permite que los usuarios accedan telefónicamente a las reuniones y desea permitir que usuarios no autenticados (anónimos) se unan a una reunión con llamadas salientes, active la casilla **Permitir acceso telefónico a los participantes anónimos**. Con las llamadas salientes, el servidor de conferencia llama al usuario y este contesta el teléfono para participar en la reunión. Normalmente, los usuarios anónimos no pueden participar en una reunión con llamadas salientes.
     
-12. Si opta por permitir el uso de vídeo en **Audio/vídeo**, active **Permitir varias secuencias de vídeo**.
+12. Si decidió permitir el uso de vídeo en **audio y vídeo,** active **Permitir varias secuencias de vídeo.**
     
 13. En **Colaboración de datos**, lleve a cabo uno de los siguientes procedimientos:
     
@@ -80,13 +80,13 @@ Puede crear directivas de conferencia con el panel de control de Skype empresari
     
 14. Si opta por permitir la colaboración de datos en **Colaboración de datos**, realice uno de los procedimientos siguientes:
     
-    - Para impedir descargas externas, desactive la casilla **Permitir a los participantes federados y anónimos descargar contenido**. De manera predeterminada, los usuarios externos pueden descargar contenido.
+    - Para impedir descargas externas, desactive la casilla **Permitir a los participantes federados y anónimos descargar contenido**. Normalmente, los usuarios externos pueden descargar contenido.
     
-    - Para impedir la transferencia de archivos, desactive la casilla **Permitir a los participantes transferir archivos**. De manera predeterminada, los usuarios pueden transferir archivos.
+    - Para impedir la transferencia de archivos, desactive la casilla **Permitir a los participantes transferir archivos**. Normalmente, los usuarios pueden transferir archivos.
     
-    - Para impedir el uso de anotaciones, desactive la casilla **Habilitar anotaciones**. Para usar anotaciones en las presentaciones de PowerPoint compartidas, desactive la casilla **Habilitar anotaciones de PowerPoint**. Normalmente, las anotaciones se permiten.
+    - Para impedir el uso de anotaciones, desactive la casilla **Habilitar anotaciones**. Para usar anotaciones en presentaciones compartidas de PowerPoint, desactive **habilitar anotaciones de PowerPoint.** Normalmente, las anotaciones se permiten.
     
-    - Para impedir el uso de sondeos, desactive la casilla **Habilitar sondeos**. De manera predeterminada, se permiten los sondeos.
+    - Para impedir el uso de sondeos, desactive la casilla **Habilitar sondeos**. Normalmente, se permiten los sondeos.
     
 15. En **Uso compartido de aplicaciones**, lleve a cabo uno de los siguientes procedimientos:
     
@@ -94,11 +94,11 @@ Puede crear directivas de conferencia con el panel de control de Skype empresari
     
     - Para permitir el uso compartido de aplicaciones, haga clic en **Habilitar el uso compartido de aplicaciones**. Esta es la configuración predeterminada.
     
-16. Si opta por permitir el uso compartido de aplicaciones en **Uso compartido de aplicaciones**, realice uno de los procedimientos siguientes:
+16. Si opta por permitir el uso compartido de aplicaciones en **Compartit aplicaciones**, realice uno de los procedimientos siguientes:
     
-    - Para impedir que los participantes en una reunión controlen el uso compartido de aplicaciones, desactive la casilla **Permitir a los participantes asumir el control**. De manera predeterminada, los participantes pueden controlar el uso compartido de las aplicaciones.
+    - Para impedir que los participantes en una reunión controlen el uso compartido de aplicaciones, desactive la casilla **Permitir a los participantes asumir el control**. Normalmente, los participantes pueden controlar el uso compartido de las aplicaciones.
     
-    - Si opta por permitir que los participantes de las reuniones controlen el uso compartido de aplicaciones, seleccione la casilla **Permitir a los participantes federados y anónimos asumir el control** para permitir que los usuarios externos controlen el uso compartido de aplicaciones. De manera predeterminada, los usuarios externos no pueden controlar el uso compartido de las aplicaciones.
+    - Si opta por permitir que los participantes de las reuniones controlen el uso compartido de aplicaciones, seleccione la casilla **Permitir a los participantes federados y anónimos asumir el control** para permitir que los usuarios externos controlen el uso compartido de aplicaciones. Normalmente, los usuarios externos no pueden controlar el uso compartido de las aplicaciones.
     
 17. En **Directiva de participantes**, siga uno de estos procedimientos:
     
@@ -108,24 +108,24 @@ Puede crear directivas de conferencia con el panel de control de Skype empresari
     
     - Para permitir el uso compartido de las aplicaciones y del escritorio, haga clic en **Habilitar el uso compartido de aplicaciones y escritorio**. Esta es la configuración predeterminada.
     
-18. Para impedir la transferencia de archivos punto a punto, desactive la casilla **Habilitar la transferencia de archivos punto a punto**. De manera predeterminada, se permite la transferencia de archivos punto a punto.
+18. Para impedir la transferencia de archivos punto a punto, desactive la casilla **Habilitar la transferencia de archivos punto a punto**. Normalmente, se permite la transferencia de archivos punto a punto.
     
-19. Para permitir la grabación punto a punto, active la casilla **Habilitar grabación punto a punto**. De manera predeterminada, no se permite la grabación punto a punto.
+19. Para permitir la grabación punto a punto, active la casilla **Habilitar grabación punto a punto**. Normalmente, no se permite la grabación punto a punto.
     
-20. Para permitir que los participantes se unan con varias secuencias de vídeo, active la casilla **Permitir que los participantes se unan con varias secuencias de vídeo**. De manera predeterminada, se permiten varias secuencias de vídeo.
+20. Para permitir que los participantes se unan con varias secuencias de vídeo, active la casilla **Permitir que los participantes se unan con varias secuencias de vídeo**. Normalmente, se permiten varias secuencias de vídeo.
     
 21. Haga clic en **Confirmar**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Crear directivas de conferencia con el shell de administración de Skype empresarial Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Crear directivas de conferencia con el Shell de administración de Skype Empresarial Server
 
-Para crear directivas de conferencia, use el cmdlet **New-CsConferencingPolicy**.
+Para crear directivas de conferencia, use el cmdlet **New-CsConferencingPolicy.**
   
-En el ejemplo siguiente se crea una nueva Directiva de conferencia con la identidad SalesConferencingPolicy. Esta directiva usará todos los valores predeterminados de una directiva de conferencia, excepto uno: MaxMeetingSize. En este ejemplo, el tamaño máximo para una reunión se establecerá en 50, en lugar del valor predeterminado 250:
+En el siguiente ejemplo se crea una nueva directiva de conferencia con la identidad SalesConferencingPolicy. Esta directiva usará todos los valores predeterminados para una directiva de conferencia excepto uno: MaxMeetingSize. En este ejemplo, el tamaño máximo de una reunión se establecerá en 50 en lugar del valor predeterminado de 250:
   
 ```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Para obtener más información, incluida una descripción completa de la sintaxis y una lista de parámetros, consulte [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Para obtener más información, incluida una descripción de sintaxis completa y una lista de parámetros, [vea New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
   
 

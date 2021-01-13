@@ -1,8 +1,8 @@
 ---
-title: Administrar directivas de archivado en Skype empresarial Server
+title: Administrar directivas de archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
-description: 'Resumen: Aprenda a administrar directivas de usuario para archivar en Skype empresarial Server.'
-ms.openlocfilehash: f2dca47dd7fd3095b2865ff72516b6be84144352
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo administrar directivas de usuario para el archivado de Skype Empresarial Server.'
+ms.openlocfilehash: 949ac807faea4f563ee078512a3c0a335a517d2c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818892"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828556"
 ---
-# <a name="manage-archiving-policies-in-skype-for-business-server"></a>Administrar directivas de archivado en Skype empresarial Server
+# <a name="manage-archiving-policies-in-skype-for-business-server"></a>Administrar directivas de archivado en Skype Empresarial Server
 
-**Resumen:** Aprenda a administrar directivas de usuario para archivar en Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo administrar directivas de usuario para el archivado de Skype Empresarial Server.
   
-Inicialmente, debe configurar las directivas de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación. Las directivas de archivado determinan si se debe archivar: 
+Las directivas de archivado se establecen inicialmente al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación. Las directivas de archivado determinan si se va a archivar: 
   
 - Comunicaciones internas
     
@@ -33,29 +33,29 @@ Inicialmente, debe configurar las directivas de archivado al implementar el arch
 Las directivas de archivado se pueden establecer en el nivel global, de sitio o de usuario.
   
 > [!NOTE]
-> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios alojados en Exchange y si sus buzones se colocan en la retención local. Para obtener más información, consulte [planear el archivado en Skype empresarial Server](../../plan-your-deployment/archiving/archiving.md) y [configurar la integración con el almacenamiento de Exchange para Skype empresarial Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios que están en Exchange y tienen sus buzones en retención In-Place local. Para obtener más información, consulte [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for Skype for Business [Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
-## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Administrar directivas de archivado con el Panel de control
+## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Administrar directivas de archivado mediante el Panel de control
 
-Puede administrar las directivas de archivado con el Panel de control de esta manera:
+Puede administrar las directivas de archivado mediante el Panel de control de la siguiente manera:
   
-1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
+1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
     
-3. En la barra de navegación izquierda, haga clic en **Directiva de archivado**.
+3. En la barra de navegación izquierda, haga clic en **Directiva de archivado**
     
-## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Administrar las directivas de archivado con Windows PowerShell
+## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Administrar directivas de archivado mediante Windows PowerShell
 
-También puede configurar las directivas de archivado con los cmdlets de Windows PowerShell que se enumeran en la tabla siguiente. Para más información sobre la sintaxis, incluidos todos los parámetros disponibles, consulte [Shell de administración de Skype empresarial Server](../management-shell.md).
+También puede configurar directivas de archivado con los cmdlets Windows PowerShell que se enumeran en la tabla siguiente. Para obtener más información sobre la sintaxis, incluidos todos los parámetros disponibles, consulte Shell de administración [de Skype Empresarial Server.](../management-shell.md)
   
 
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
-|Get-CsArchivingPolicy  <br/> |Devuelve información sobre las directivas de archivado de las sesiones de mensajería instantánea (MI) de la organización.  <br/> |
-|Grant-CsArchivingPolicy  <br/> |Asigna directivas de archivado de sesiones de mensajería instantánea (MI) a usuarios o conjuntos de usuarios. Estas directivas permiten archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos o archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos y socios externos.  <br/> |
-|New-CsArchivingPolicy  <br/> |Crea directivas de archivado de sesiones de mensajería instantánea (MI). Estas directivas permiten archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos o archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos y socios externos.  <br/> |
-|Remove-CsArchivingPolicy  <br/> |Quita la Directiva de archivado de mensajería instantánea (mi) especificada que determina si Skype empresarial Server guardará automáticamente todas las sesiones de mensajería instantánea que se realicen entre usuarios internos o todas las sesiones de mensajería instantánea entre usuarios internos y socios federados.  <br/> |
-|Set-CsArchivingPolicy  <br/> |Modifica una directiva de archivado de mensajería instantánea (mi) existente. Una directiva de archivado le ofrece la posibilidad de archivar todas las sesiones y conferencias de mensajería instantánea que se producen entre usuarios internos; también puede archivar las sesiones que tienen lugar entre usuarios internos y socios federados.  <br/> |
+|Get-CsArchivingPolicy  <br/> |Devuelve información sobre las directivas de archivado de sesiones de mensajería instantánea (MI) de su organización.  <br/> |
+|Grant-CsArchivingPolicy  <br/> |Asigna directivas de archivado de sesiones de mensajería instantánea (MI) a usuarios o conjuntos de usuarios. Estas directivas permiten archivar todas las sesiones de MI entre usuarios internos o archivar todas las sesiones de MI entre usuarios internos y socios externos.  <br/> |
+|New-CsArchivingPolicy  <br/> |Crea directivas de archivado de sesiones de mensajería instantánea. Estas directivas permiten archivar todas las sesiones de mensajería instantánea entre usuarios internos o con usuarios externos.  <br/> |
+|Remove-CsArchivingPolicy  <br/> |Quita la directiva de archivado de mensajería instantánea (MI) especificada que determina si Skype Empresarial Server guardará automáticamente todas las sesiones de mensajería instantánea que tienen lugar entre usuarios internos o todas las sesiones de mensajería instantánea entre usuarios internos y socios federados.  <br/> |
+|Set-CsArchivingPolicy  <br/> |Modifica una directiva de archivado de mensajería instantánea (MI) existente. Una directiva de archivado le ofrece la capacidad de archivar todas las sesiones de mensajería instantánea y conferencias que tienen lugar entre usuarios internos; también puede archivar sesiones que tienen lugar entre usuarios internos y socios federados.  <br/> |
    
 

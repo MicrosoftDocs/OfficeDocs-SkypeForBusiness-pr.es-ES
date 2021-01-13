@@ -1,13 +1,13 @@
 ---
-title: 'Ejemplo de script de PowerShell: restablecer la configuración de AutoStart en Teams'
-author: LanaChin
-ms.author: v-lanac
+title: 'Ejemplo de script de PowerShell: Restablecer la configuración de inicio automático en Teams'
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Use este script de PowerShell para restablecer la configuración de AutoStart en Teams para cada usuario.
+description: Use este script de PowerShell para restablecer la configuración de inicio automático en Teams por usuario.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be1073d628f137b4c2063849bcdab413ce0d2b87
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951045"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827510"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Ejemplo de script de PowerShell: restablecer la configuración de AutoStart en Teams
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Ejemplo de script de PowerShell: Restablecer la configuración de inicio automático en Teams
 
-Use este script para restablecer la configuración de AutoStart de Teams para cada usuario. Esto incluye cualquier valor establecido por el usuario o la aplicación de Teams. De forma predeterminada, Teams se inicia automáticamente cuando un usuario inicia sesión en el equipo después de instalarlo.
+Use este script para restablecer la configuración de inicio automático de Teams por usuario. Esto incluye todos los valores establecidos por el usuario o la aplicación Teams. De forma predeterminada, Teams se inicia automáticamente cuando un usuario inicia sesión en su equipo una vez instalado.
 
-Si ya ha implementado Teams y desea establecer la [configuración de directiva de grupo impedir que Microsoft Teams se inicie automáticamente después](../msi-deployment.md#use-group-policy-recommended) de la instalación para deshabilitar el inicio automático de equipo, tendrá que establecer la configuración de directiva de grupo en el valor que desee y, a continuación, ejecutar este script.
+Si ya ha implementado Teams y desea establecer que Microsoft [Teams](../msi-deployment.md#use-group-policy-recommended) se inicie automáticamente después de instalar la configuración de directiva de grupo para deshabilitar el inicio automático de Teams, primero debe establecer la configuración de directiva de grupo en el valor que desee y, después, ejecutar este script.
 
-Después de iniciar Teams para un usuario, la configuración de AutoStart no se puede deshabilitar mediante la Directiva de grupo.
+Después de iniciar Teams para un usuario, la configuración de inicio automático no se puede deshabilitar mediante la directiva de grupo.
 
 ## <a name="sample-script"></a>Ejemplo de script
 
@@ -150,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Teams con MSI](../msi-deployment.md)
-- [Implementar Teams con las aplicaciones de Microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install)
+- [Implementar Teams con aplicaciones de Microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install)

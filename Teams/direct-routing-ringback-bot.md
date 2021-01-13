@@ -1,7 +1,7 @@
 ---
-title: Configurar el bot de timbre para el enrutamiento directo
-author: LanaChin
-ms.author: v-lanac
+title: Configurar el bot de llamada para enrutamiento directo
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
@@ -9,38 +9,38 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-description: Aprenda a usar el bot de timbre para el enrutamiento directo para evitar que se produzcan silencios inesperados cuando se establezca una llamada.
+description: Obtenga información sobre cómo usar el bot de llamada de llamada para enrutamiento directo para evitar silencios inesperados que se pueden producir cuando se establece una llamada.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26738002ab333d2490ef0dac5674a1f7cdc19efd
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 91cea9183a85a804ca43464aab08f417ccaff1e8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420960"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827520"
 ---
-# <a name="set-up-the-ringback-bot-for-direct-routing"></a>Configurar el bot de timbre para el enrutamiento directo
+# <a name="set-up-the-ringback-bot-for-direct-routing"></a>Configurar el bot de llamada para enrutamiento directo
 
-En este artículo se describe el bot de timbre, que puede usar para evitar que se produzcan silencios inesperados cuando se tarda más tiempo en que se establezcan las llamadas. El bot de timbre está disponible para el enrutamiento directo en el modo de omisión de medios.
+En este artículo se describe el bot de llamada, que puede usar para evitar silencios inesperados que se pueden producir cuando se tarda más tiempo en establecer las llamadas. El bot de llamada está disponible para enrutamiento directo en modo de omisión que no sea multimedia.
 
-A veces, las llamadas entrantes de la red de telefonía pública conmutada (RTC) a clientes de equipos pueden tardar más de lo esperado en establecerse. Esto puede ocurrir por varias razones. Cuando esto sucede, es posible que la persona que llama no oiga nada, el cliente de su equipo no suene y algunos proveedores de telecomunicaciones podrían cancelar la llamada.
+A veces, las llamadas entrantes de la red telefónica conmutada (RTC) a clientes de Teams pueden tardar más de lo esperado en establecerse. Esto puede ocurrir por varias razones. Cuando esto sucede, es posible que el autor de la llamada no oiga nada, que el cliente de Teams no suene y que algunos proveedores de telecomunicaciones cancelen la llamada.
 
-El bot de timbre ayuda a evitar los silencios inesperados que se pueden producir en este escenario. Para las llamadas entrantes desde la RTC a los clientes de Teams, el bot de timbre reproduce una señal de audio distintiva al autor de la llamada para indicar que Teams se encuentra en proceso de establecer la llamada.
+El bot de llamada le ayuda a evitar silencios inesperados que se pueden producir en este escenario. Para las llamadas entrantes desde la RTC a los clientes de Teams, el bot de llamada reproduce una señal de audio distintiva al autor de la llamada para indicar que Teams está en proceso de establecer la llamada.
 
 > [!NOTE]
-> El bot de timbre genera medios tempranos desde el back-end de Teams. En algunos países y regiones, es posible que se te cobre la llamada cuando se inicia el flujo de medios.
+> El bot de llamada genera medios anticipados desde el back-end de Teams. En algunos países y regiones, es posible que se te a cobrara la llamada cuando empiece a fluir el contenido multimedia.
 
-## <a name="configure-the-ringback-bot"></a>Configurar el bot de timbre
+## <a name="configure-the-ringback-bot"></a>Configurar el bot de llamada
 
-Use el cmdlet [set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) para modificar una configuración de controlador de borde de sesión (SBC) definida previamente, o el cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) para crear una nueva configuración de SBC, junto con el parámetro **GenerateRingingWhileLocatingUser** para configurar el bot de timbre:
+Use el cmdlet [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) para modificar una configuración del controlador de borde de sesión (SBC) definida anteriormente o el cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) para crear una nueva configuración de SBC, junto con el parámetro **GenerateRingingWhileLocatingUser** para configurar el bot ringback:
 
-- Para activar el bot de timbre, establezca el parámetro **GenerateRingingWhileLocatingUser** en **$true**. Este es el valor predeterminado. 
+- Para activar el bot ringback, establezca el parámetro **GenerateRingingWhileLocatingUser** en **$True**. Este es el valor predeterminado. 
 
-- Para desactivar el bot de timbre, establezca el parámetro **GenerateRingingWhileLocatingUser** en **$false**. 
+- Para desactivar el bot ringback, establezca el parámetro **GenerateRingingWhileLocatingUser** en **$False**. 
 
 ## <a name="related-topics"></a>Temas relacionados
 

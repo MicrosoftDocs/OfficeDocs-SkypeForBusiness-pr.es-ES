@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (credenciales)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
-description: 'Para especificar las credenciales de SQL Server Reporting Services (SSRS) para acceder a la base de datos de supervisión, haga lo siguiente:'
-ms.openlocfilehash: 7e2576232946e7c4f37fbb7e1af01f21030a9921
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para especificar las credenciales de SQL Server Reporting Services (SSRS) para tener acceso a la base de datos de supervisión:'
+ms.openlocfilehash: cc7aa59027058c720fe258bdaadcf04f27f14a0c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823374"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829610"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (credenciales)
  
-Para especificar las credenciales de SQL Server Reporting Services (SSRS) para acceder a la base de datos de supervisión, haga lo siguiente:
+Para especificar las credenciales de SQL Server Reporting Services (SSRS) para tener acceso a la base de datos de supervisión:
   
-En la **página especificar credenciales**, especifique las credenciales de usuario que desea usar para acceder a la base de datos de supervisión (QoEMetrics y LcsCDR). 
+En la  **Página de especificación de credenciales**, indique las credenciales del usuario que desee usar para tener acceso a la base de datos de supervisión (QoEMetrics y LcsCDR). 
   
 > [!NOTE]
-> Para obtener más información, consulte "Especificación de la información de credenciales y conexiones para orígenes de datos [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431)de informes (SSRs)" en. 
+> Para obtener más información, consulte "Especificación de credenciales e información de conexión para orígenes de datos de informes (SSRS)" en [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431) . 
   
-Para obtener detalles sobre cómo implementar los informes de Reporting Services para el servidor que ejecuta la supervisión, consulte [instalar informes de supervisión en Skype empresarial server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md).
+Para obtener más información sobre cómo implementar los informes de Reporting Services para el servidor que ejecuta la supervisión, consulte Instalar informes de supervisión en [Skype Empresarial Server 2015.](../../deploy/deploy-monitoring/install-monitoring-reports.md)
   
 
