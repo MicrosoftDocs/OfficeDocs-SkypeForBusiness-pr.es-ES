@@ -1,14 +1,14 @@
 ---
 title: Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Aprenda a habilitar el enrutamiento basado en la ubicación para el enrutamiento directo, lo que incluye habilitarlo para los usuarios, los sitios de red, las configuraciones de puerta de enlace y las directivas de llamadas.
+description: Obtenga información sobre cómo habilitar Location-Based para enrutamiento directo, lo que incluye habilitarlo para usuarios, sitios de red, configuraciones de puerta de enlace y directivas de llamadas.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,66 +17,66 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e4cadbfb700c7478cb77c62f4597c9ae00164b0c
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: fe9600a1ddc530b1dbbcb6c061021c9d4cd9d537
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372049"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822920"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
-Antes de seguir los pasos de este artículo, asegúrese de que ha leído [planear el enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md) y completado los pasos de [configurar la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md).
+Antes de seguir los pasos de este artículo, asegúrese de que ha leído [Plan Location-Based](location-based-routing-plan.md) Enrutamiento directo y haya completado los pasos de Configurar la configuración de red para Location-Based [enrutamiento.](location-based-routing-configure-network-settings.md)
 
-En este artículo se describe cómo habilitar el enrutamiento basado en la ubicación para el enrutamiento directo. Después de implementar el enrutamiento directo de un sistema telefónico y configurar regiones, sitios y subredes de la red, está listo para habilitar el enrutamiento basado en la ubicación. Para completar los pasos de este artículo, necesitará cierta familiaridad con los cmdlets de PowerShell. Para obtener más información, consulte [información general de Teams PowerShell](teams-powershell-overview.md).
+En este artículo se describe cómo habilitar el enrutamiento Location-Based para enrutamiento directo. Después de implementar el enrutamiento directo de sistema telefónico y configurar las regiones, los sitios y las subredes de red, ya puede habilitar el enrutamiento Location-Based teléfono. Para completar los pasos de este artículo, necesitará estar familiarizado con los cmdlets de PowerShell. Para obtener más información, consulte [Información general de PowerShell de Teams.](teams-powershell-overview.md)
 
- Debe habilitar el enrutamiento basado en la ubicación para lo siguiente:
+ Debe habilitar el enrutamiento de Location-Based para lo siguiente:
 - Usuarios
 - Sitios de red
 - Configuraciones de puerta de enlace
 - Directivas de llamada
 
-Puede usar el [centro de administración de Microsoft Team](#using-the-microsoft-teams-admin-center) o [PowerShel](#using-powershell)l para habilitar el enrutamiento basado en la ubicación.
+Puede usar el Centro [de administración de Microsoft Team](#using-the-microsoft-teams-admin-center) o [PowerSadministr para](#using-powershell)habilitar el enrutamiento Location-Based equipo.
 
-## <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-### <a name="enable-location-based-routing-for-users"></a>Habilitar el enrutamiento basado en la ubicación para los usuarios
+### <a name="enable-location-based-routing-for-users"></a>Habilitar Location-Based de acceso directo para los usuarios
 
-1. Crear una directiva de enrutamiento de voz y asignar usos de RTC a la Directiva. Cuando asigne usos de RTC a una directiva, asegúrese de realizar una de las siguientes acciones:
+1. Cree una directiva de enrutamiento de voz y asigne usos de RTC a la directiva. Al asignar usos de RTC a una directiva, asegúrese de realizar una de las siguientes acciones:
 
-    - Use usos de RTC asociados a rutas de voz que usan una puerta de enlace RTC local para el sitio.
-    - Use usos de RTC asociados a rutas de voz que usan una puerta de enlace RTC ubicada en una región donde no se necesitan restricciones de enrutamiento basadas en la ubicación.
-2. Asigne la Directiva de enrutamiento de voz a los usuarios que necesiten exigir restricciones de enrutamiento.
+    - Use los usos de RTC asociados a las rutas de voz que usan una puerta de enlace RTC local en el sitio.
+    - Use los usos de RTC asociados a las rutas de voz que usan una puerta de enlace RTC ubicada en una región en la que Location-Based no son necesarias restricciones de enrutamiento.
+2. Asigne la directiva de enrutamiento de voz a los usuarios que requieran que se apliquen restricciones de enrutamiento.
 
-Para obtener más información sobre cómo crear directivas de enrutamiento de voz y asignarlas a usuarios, consulte [Administrar directivas de enrutamiento de voz en Microsoft Teams](manage-voice-routing-policies.md).
+Para obtener más información sobre cómo crear directivas de enrutamiento de voz y asignarlas a los usuarios, vea Administrar directivas de enrutamiento de [voz en Microsoft Teams.](manage-voice-routing-policies.md)
 
-### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar el enrutamiento basado en la ubicación de los sitios de red
+### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar el Location-Based de acceso directo para sitios de red
 
-Habilite el enrutamiento basado en la ubicación para los sitios que necesitan exigir restricciones de enrutamiento. Para ello, en el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **ubicaciones**de  >  **red**, seleccione un sitio de red, haga clic en **Editar**y, a continuación, active el **enrutamiento basado**en la ubicación.  
+Habilite Location-Based para los sitios que necesitan aplicar restricciones de enrutamiento. Para ello, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la topología de red Ubicaciones, seleccione un sitio de red, haga clic en Editar y active el enrutamiento basado en  >   **ubicaciones.**   
 
-Para obtener más información, consulte [administrar la topología de red](manage-your-network-topology.md).
+Para obtener más información, [vea Administrar la topología de red.](manage-your-network-topology.md)
 
-### <a name="enable-location-based-routing-for-gateways"></a>Habilitar enrutamiento basado en la ubicación para puertas de enlace
+### <a name="enable-location-based-routing-for-gateways"></a>Habilitar el Location-Based de acceso directo para las puertas de enlace
 
-Habilite el enrutamiento basado en la ubicación a las puertas de enlace que enruten las llamadas a puertas de enlace RTC que enruten las llamadas a la RTC y asocie el sitio de red donde se encuentra la puerta de enlace. 
+Habilite Location-Based a puertas de enlace que enrutar llamadas a puertas de enlace RTC que enrutar llamadas a la RTC y asociar el sitio de red donde se encuentra la puerta de enlace. 
 
-1. En el navegación de la izquierda, vaya a enrutamiento de **voz**  >  **directo**y, a continuación, haga clic en la pestaña **SBCS** .
-2. Seleccione el SBC y, a continuación, haga clic en **Editar**. 
-3. En la **optimización de enrutamiento y multimedia basado**en la ubicación, Active **Habilitar enrutamiento basado en la ubicación**.
-4. Especifique el identificador del sitio de la puerta de enlace y, a continuación, establezca el modo de omisión.
-5. Haga clic en **Guardar **.
+1. En el panel de navegación izquierdo, vaya a **Enrutamiento** directo de voz y, a continuación, haga clic  >  en la pestaña **SBC.**
+2. Seleccione la SBC y, a continuación, haga clic **en Editar.** 
+3. En **Optimización de medios y enrutamiento basados** en la **ubicación, active el enrutamiento basado en la ubicación.**
+4. Especifique el id. de sitio de la puerta de enlace y establezca el modo de omisión.
+5. Haga clic en **Guardar**.
 
-### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar el enrutamiento basado en la ubicación para las directivas de llamadas
+### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar Location-Based de llamadas
 
-Para aplicar el enrutamiento basado en la ubicación para usuarios específicos, configure la Directiva de llamadas del usuario para evitar la omisión de llamadas RTC. Para ello, active la opción **evitar omisión de pago** en la política de llamadas.
+Para exigir Location-Based de llamadas para usuarios específicos, configure la directiva de llamadas del usuario para evitar la omisión de pago RTC. Para ello, active la configuración Evitar omisión de **pago** en la directiva de llamadas.
 
-Para obtener más información, consulte [directivas de llamadas en Teams](teams-calling-policy.md).
+Para obtener más información, consulte [Directivas de llamadas en Teams.](teams-calling-policy.md)
 
 ## <a name="using-powershell"></a>Con PowerShell
 
-### <a name="enable-location-based-routing-for-users"></a>Habilitar el enrutamiento basado en la ubicación para los usuarios
+### <a name="enable-location-based-routing-for-users"></a>Habilitar Location-Based de acceso directo para los usuarios
 
-1. Use el cmdlet [set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) para establecer usos de RTC. Para varios usos, separe cada uso con una coma.
+1. Use el [cmdlet Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) para establecer los usos de RTC. Para varios usos, se separa cada uso con una coma.
 
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -85,17 +85,17 @@ Para obtener más información, consulte [directivas de llamadas en Teams](teams
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Use el cmdlet [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) para crear una directiva de enrutamiento de voz y asociar al usuario los usos de RTC apropiados.
+2. Use el [cmdlet New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) para crear una directiva de enrutamiento de voz para asociar al usuario a los usos de RTC adecuados.
 
     ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
-    Cuando asigne usos de RTC a una directiva de enrutamiento de voz, asegúrese de realizar una de las siguientes acciones:
-    - Usar usos de RTC asociados a rutas de voz que usan una puerta de enlace RTC local para el sitio
-    - Use usos de RTC asociados a rutas de voz que usan una puerta de enlace RTC ubicada en una región donde no se necesitan restricciones de enrutamiento basadas en la ubicación.
+    Al asignar usos de RTC a una directiva de enrutamiento de voz, asegúrese de realizar una de las siguientes acciones:
+    - Usar los usos de RTC asociados a las rutas de voz que usan una puerta de enlace RTC local en el sitio
+    - Use los usos de RTC asociados a las rutas de voz que usan una puerta de enlace RTC ubicada en una región en la que Location-Based no son necesarias restricciones de enrutamiento.
 
-    En este ejemplo, creamos dos nuevas directivas de enrutamiento de voz y se les asignan usos de RTC. 
+    En este ejemplo, creamos dos nuevas directivas de enrutamiento de voz y les asignamos usos de RTC. 
 
     ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
@@ -105,63 +105,63 @@ Para obtener más información, consulte [directivas de llamadas en Teams](teams
     
     ||Directiva de enrutamiento de voz 1|Directiva de enrutamiento de voz 2|
     |---------|---------|---------|
-    |IDENTIFICADOR de directiva de voz en línea   |Directiva de enrutamiento de voz en línea de Delhi   |Directiva de enrutamiento de voz en línea de Hyderabad    |
-    |Usos de RTC en línea  |Larga distancia  |Larga distancia, local, interna  |
+    |Id. de directiva de voz en línea   |Directiva de enrutamiento de voz en línea de Protocol   |Directiva de enrutamiento de voz en línea de Rgpd    |
+    |Usos de RTC en línea  |Long Distance  |Larga distancia, local, interno  |
 
-3. Use el cmdlet [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) para asociar directivas de enrutamiento de voz en línea a los usuarios que necesiten exigir restricciones de enrutamiento.
+3. Use el cmdlet [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) para asociar las directivas de enrutamiento de voz en línea a los usuarios que requieran que se apliquen restricciones de enrutamiento.
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar el enrutamiento basado en la ubicación de los sitios de red
+### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar el Location-Based de acceso directo para sitios de red
 
-1.  Use el cmdlet [set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) para habilitar el enrutamiento basado en la ubicación y para asociar directivas de enrutamiento de voz a los sitios de red que necesitan exigir restricciones de enrutamiento.
+1.  Use el [cmdlet Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) para habilitar el enrutamiento de Location-Based y asociar las directivas de enrutamiento de voz a los sitios de red que necesitan aplicar restricciones de enrutamiento.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
-    En este ejemplo, habilitamos el enrutamiento basado en la ubicación para el sitio de Delhi y el sitio de Hyderabad. 
+    En este ejemplo, se habilita el enrutamiento Location-Based para el sitio deVer y el sitio deAbad. 
 
     ```PowerShell
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
-    En la tabla siguiente se muestran los sitios habilitados para el enrutamiento basado en la ubicación en este ejemplo.
+    En la tabla siguiente se muestran los sitios habilitados para el Location-Based en este ejemplo.
 
-    ||Sitio 1 (Delhi)  |Sitio 2 (Hyderabad)  |
+    ||Sitio 1 (Cca)  |Sitio 2 (Jordaniarabad)  |
     |---------|---------|---------|
-|Nombre del sitio    |Sitio 1 (Delhi)    |Sitio 2 (Hyderabad)   
+|Nombre del sitio    |Sitio 1 (Cca)    |Sitio 2 (Jordaniarabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |Subredes     |Subred 1 (Delhi)     |Subred 2 (Hyderabad)     |
+    |Subredes     |Subred 1 (Québa)     |Subred 2 (Jordaniarabad)     |
 
-### <a name="enable-location-based-routing-for-gateways"></a>Habilitar enrutamiento basado en la ubicación para puertas de enlace
+### <a name="enable-location-based-routing-for-gateways"></a>Habilitar el Location-Based de acceso directo para las puertas de enlace
 
-1. Use el cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) para crear una configuración de puerta de enlace para cada puerta de enlace o sitio de red. 
+1. Use el [cmdlet New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) para crear una configuración de puerta de enlace para cada puerta de enlace o sitio de red. 
 
     ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
     ```
-    Si hay varias puertas de enlace asociadas a un sistema (por ejemplo, puerta de enlace o PBX), modifique cada puerta de enlace para habilitar las restricciones de enrutamiento basadas en la ubicación. 
+    Si hay varias puertas de enlace asociadas a un sistema (por ejemplo, puerta de enlace o PBX), modifique cada puerta de enlace para habilitar Location-Based de enrutamiento. 
 
-    En este ejemplo, creamos una configuración de puerta de enlace para cada puerta de enlace. 
+    En este ejemplo, se crea una configuración de puerta de enlace para cada puerta de enlace. 
     ```PowerShell
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignalingPort 5067 
     ```
-    Para obtener más información, vea [configurar el enrutamiento directo](direct-routing-configure.md).
+    Para obtener más información, vea [Configurar enrutamiento directo.](direct-routing-configure.md)
     
-2. Use el cmdlet [set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) para habilitar el enrutamiento basado en la ubicación para las puertas de enlace que necesitan exigir restricciones de enrutamiento. 
+2. Use el cmdlet [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) para habilitar el enrutamiento de Location-Based para las puertas de enlace que necesitan aplicar restricciones de enrutamiento. 
 
-    Habilite el enrutamiento basado en la ubicación a las puertas de enlace que enruten las llamadas a puertas de enlace RTC que enruten las llamadas a la RTC y asocie el sitio de red donde se encuentra la puerta de enlace.
+    Habilite Location-Based a puertas de enlace que enrutar llamadas a puertas de enlace RTC que enrutar llamadas a la RTC y asociar el sitio de red donde se encuentra la puerta de enlace.
 
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
-    En este ejemplo, habilitamos el enrutamiento basado en la ubicación para cada puerta de enlace que está asociada a las puertas de enlace RTC en los sitios de Delhi y Hyderabad. 
+    En este ejemplo, habilitamos el enrutamiento Location-Based para cada puerta de enlace asociada a puertas de enlace RTC en los sitios de Boston y Rtc. 
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
-    No habilite el enrutamiento basado en la ubicación para puertas de enlace que no enruten llamadas a la RTC. Sin embargo, aún tiene que asociar la puerta de enlace al sitio de red en el que se encuentra el sistema. Esto se debe a que las restricciones de enrutamiento basadas en la ubicación deben exigirse para que las llamadas RTC lleguen a los puntos de conexión que se conectan a través de esta puerta de enlace. En este ejemplo, el enrutamiento basado en la ubicación no está habilitado para cada puerta de enlace que está asociada a sistemas PBX de la Delhi y los sitios de Hyderabad.
+    No habilite el enrutamiento Location-Based las puertas de enlace que no enrutar llamadas a LA RTC. Sin embargo, aún debe asociar la puerta de enlace al sitio de red donde se encuentra el sistema. Esto se debe a Location-Based es necesario aplicar restricciones de enrutamiento para las llamadas RTC que lleguen a los puntos de conexión que están conectados a través de esta puerta de enlace. En este ejemplo, Location-Based enrutamiento no está habilitado para todas las puertas de enlace asociadas a sistemas PBX en los sitios deControl y Rtc.
 
     ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
@@ -175,16 +175,16 @@ Para obtener más información, consulte [directivas de llamadas en Teams](teams
     GatewaySiteLbrEnabled: $false 
     ```
 
-### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar el enrutamiento basado en la ubicación para las directivas de llamadas
+### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar Location-Based de llamadas
 
-Para aplicar el enrutamiento basado en la ubicación para usuarios específicos, configure la Directiva de voz de los usuarios para evitar la omisión de RTC de pago. 
+Para aplicar el Location-Based de acceso directo para usuarios específicos, configure la directiva de voz de los usuarios para evitar la omisión de pago por ptSN. 
 
-Use el cmdlet [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) para habilitar el enrutamiento basado en la ubicación evitando la omisión de llamadas RTC.
+Use el [cmdlet Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) para habilitar el enrutamiento Location-Based rtc al impedir la omisión de pago RTC.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
-En este ejemplo, evitamos la omisión de llamadas de RTC a directivas de llamadas de Usuario1. 
+En este ejemplo, evitamos la omisión de pago RTC para las directivas de llamadas de Usuario1. 
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
@@ -192,4 +192,4 @@ Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "Us
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Configuración de red de las características de voz en la nube en Teams](cloud-voice-network-settings.md)
+- [Configuración de red para las características de voz en la nube en Teams](cloud-voice-network-settings.md)

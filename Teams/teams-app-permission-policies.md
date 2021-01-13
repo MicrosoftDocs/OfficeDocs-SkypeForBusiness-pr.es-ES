@@ -86,7 +86,7 @@ Puede usar el Centro de administración de Microsoft Teams para editar una direc
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Administrar la configuración de aplicaciones para toda la organización para Microsoft 365 Government  
 
-En una implementación de Microsoft 365 Government - GCC de Teams, es importante conocer los siguientes aspectos sobre la configuración de aplicaciones de terceros, que son exclusivas de GCC.
+En una implementación de Microsoft 365 Government - GCC de Teams, es importante conocer los siguientes aspectos sobre la configuración de las aplicaciones de terceros, que son exclusivas de GCC.
 
 En GCC, todas las aplicaciones de terceros están bloqueadas de forma predeterminada. Además, verá la siguiente nota sobre la administración de aplicaciones de terceros en la página de directivas de permisos de aplicaciones del Centro de administración de Microsoft Teams.
 
@@ -113,14 +113,14 @@ Como se mencionó anteriormente, para permitir aplicaciones de terceros, puede e
 ### <a name="working-with-app-permission-policies"></a>Trabajar con directivas de permisos de aplicaciones
 
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>¿A qué interacciones de la aplicación afectan las directivas de permisos?
-Las directivas de permisos rigen el uso de aplicaciones controlando la instalación, la detección y la interacción para los usuarios finales. Los administradores pueden seguir administrando aplicaciones en el centro de administración de Microsoft Teams independientemente de las directivas de permisos que se les asignen.
+Las directivas de permisos rigen el uso de aplicaciones controlando la instalación, la detección y la interacción de los usuarios finales. Los administradores pueden seguir administrando aplicaciones en el centro de administración de Microsoft Teams independientemente de las directivas de permisos que se les asignen.
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>¿Puedo controlar las aplicaciones de línea de negocio (LOB)?
 Sí, puede usar directivas de permisos de aplicación para controlar la implementación y distribución de aplicaciones personalizadas (LOB). Puede crear una directiva personalizada o editar la directiva global para permitir o bloquear aplicaciones personalizadas según las necesidades de su organización.
 
 #### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>¿Cómo se relacionan las directivas de permisos de aplicación a las aplicaciones ancladas y las directivas de configuración de aplicaciones?
 
-Puede usar directivas de configuración de aplicaciones junto con directivas de permisos de aplicación. Las aplicaciones ancladas previamente se seleccionan del conjunto de aplicaciones habilitadas para un usuario. Además, si un usuario tiene una directiva de permisos de aplicación que bloquea una aplicación en su directiva de configuración de aplicaciones, esa aplicación no aparecerá en Teams.
+Puede usar las directivas de configuración de aplicaciones junto con las directivas de permisos de aplicación. Las aplicaciones ancladas previamente se seleccionan del conjunto de aplicaciones habilitadas para un usuario. Además, si un usuario tiene una directiva de permisos de aplicación que bloquea una aplicación en su directiva de configuración de aplicaciones, esa aplicación no aparecerá en Teams.
 
 #### <a name="can-i-use-app-permission-policies-to-restrict-uploading-custom-apps"></a>¿Puedo usar directivas de permisos de aplicación para restringir la carga de aplicaciones personalizadas?
 
@@ -136,9 +136,9 @@ Sí, al bloquear una aplicación, esta se bloquea en todos los clientes de Teams
 
 #### <a name="what-does-a-user-experience-when-an-app-is-blocked"></a>¿Qué ocurre cuando se bloquea una aplicación?
 
-Los usuarios no pueden interactuar con una aplicación bloqueada ni sus capacidades, como bots, fichas y extensiones de mensajería. En un contexto compartido, como un equipo o un chat grupal, los bots aún pueden enviar mensajes a todos los participantes de ese contexto. Teams indica al usuario cuándo se bloquea una aplicación.
+Los usuarios no pueden interactuar con una aplicación bloqueada o sus capacidades, como bots, fichas y extensiones de mensajería. En un contexto compartido, como un equipo o un chat grupal, los bots aún pueden enviar mensajes a todos los participantes de ese contexto. Teams indica al usuario cuándo se bloquea una aplicación.
 
-Por ejemplo, cuando se bloquea una aplicación, los usuarios no pueden realizar ninguna de las siguientes acciones:
+Por ejemplo, cuando se bloquea una aplicación, los usuarios no pueden hacer lo siguiente:
 
 - Agregar la aplicación personalmente o a un chat o equipo
 - Enviar mensajes al bot de la aplicación
@@ -149,7 +149,7 @@ Por ejemplo, cuando se bloquea una aplicación, los usuarios no pueden realizar 
 
 El portal heredado permite controlar las aplicaciones en el nivel de la organización, lo que significa que cuando se bloquea una aplicación, se bloquea para todos los usuarios de la organización. Bloquear una aplicación en la [página Administrar aplicaciones](manage-apps.md) funciona exactamente del mismo modo.
 
-Para las directivas de permisos de aplicación asignadas a usuarios específicos, si se permitía y se bloqueara una aplicación con capacidad de bot o conector, y si la aplicación solo se permite para algunos usuarios en un contexto compartido, los miembros de un canal o chat de grupo que no tengan permiso para esa aplicación pueden ver el historial de mensajes y los mensajes publicados por el bot o el conector. , pero no puede interactuar con él.
+Para las directivas de permisos de aplicación asignadas a usuarios específicos, si se permitía y se bloqueara una aplicación con capacidad de bot o conector, y si la aplicación solo se permite para algunos usuarios en un contexto compartido, los miembros de un canal o chat de grupo que no tienen permiso para esa aplicación pueden ver el historial de mensajes y los mensajes publicados por el bot o el conector. , pero no puede interactuar con él.
 
 ## <a name="related-topics"></a>Temas relacionados
 

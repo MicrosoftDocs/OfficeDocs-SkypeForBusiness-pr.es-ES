@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia para su organización en el Centro de administración de Microsoft Teams. '
+description: 'Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia de su organización en el Centro de administración de Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: a470a75d367bc47d4063a2a99171a4a09e052fca
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
@@ -27,7 +27,7 @@ ms.locfileid: "49799950"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
-Una ubicación de emergencia debe estar asociada a un número de teléfono, pero cuando esto ocurre puede variar entre países y regiones. Por ejemplo, en Estados Unidos, necesita asociar una ubicación de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una ubicación de emergencia al número de teléfono cuando obtiene los números de teléfono de Microsoft 365 u Office 365 o los transfiere de su proveedor de servicios actual.
+Una ubicación de emergencia debe estar asociada a un número de teléfono, pero cuando esto ocurre puede variar entre países y regiones. Por ejemplo, en Estados Unidos, debe asociar una ubicación de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una ubicación de emergencia al número de teléfono cuando obtiene los números de teléfono de Microsoft 365 u Office 365 o los transfiere de su proveedor de servicios actual.
 
 No importa en qué país o región se encuentra, puede agregar un lugar o lugares a una ubicación de emergencia y quitar una ubicación de emergencia. Según el número de ubicaciones físicas de su organización, puede crear lugares para edificios, pisos y oficinas. Vea [Administrar llamadas de emergencia.](what-are-emergency-locations-addresses-and-call-routing.md)
   
@@ -42,7 +42,7 @@ Puede administrar las ubicaciones de emergencia de su organización en el centro
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en  >  **Ubicaciones, Direcciones de emergencia.**
 2. Haga clic en **Agregar**.
 3. Escriba un nombre y una descripción para la ubicación.
-4. Selecciona el país o región y, a continuación, escribe la dirección.
+4. Selecciona el país o la región y, a continuación, escribe la dirección.
 
    > [!NOTE]
    > En Bélgica, Francia, Alemania, Irlanda, Países Bajos y España, es importante comprender que para activar correctamente un número de teléfono en Microsoft 365 u Office 365, la dirección configurada en la ubicación de emergencia, que se utiliza para adquirir el número, debe coincidir con el código de área del número de teléfono.

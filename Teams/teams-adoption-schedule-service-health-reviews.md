@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar las revisiones del estado del servicio en su adopción de Teams para compartir información sobre el uso, el estado, la capacidad/plan del proyecto y otras actualizaciones.
+description: Obtenga información sobre cómo usar revisiones del estado del servicio en su adopción de Teams para compartir información sobre el uso, el estado, la capacidad/plan del proyecto y otras actualizaciones.
 f1.keywords:
 - CSH
 ms.custom: Adopt
@@ -31,7 +31,7 @@ ms.locfileid: "49806100"
 
 En colaboración con su equipo de implementación técnica, planee la realización de revisiones mensuales del estado del servicio para Teams. En estas opiniones, compartirá información sobre las siguientes medidas:
 
-- **Uso del** servicio: datos de uso activo y puede incluir información sobre servicios en desuso o consumo reducido como resultado de pasar a Teams. Normalmente dirigido por el administrador de servicios o el propietario del producto para los servicios de colaboración.
+- **Uso del** servicio: datos de uso activo y puede incluir información sobre servicios en desuso o consumo reducido como resultado de pasar a Teams. Generalmente dirigido por el administrador de servicios o el propietario del producto para los servicios de colaboración.
 - **Estado del servicio:** calidad de las llamadas, estado de las reuniones y estado general del servicio. Revise los incidentes de soporte técnico y los niveles de vales del departamento de soporte técnico. Temas de seguridad y gobierno. Normalmente dirigido por equipos de protección de información y soporte técnico. 
 - **Mapa de ruta de capacidad/proyecto:** ¿Cuál es la programación de proyectos de incorporación de empleados restantes o de mejora de la colaboración? ¿Qué características adicionales va a habilitar su organización? Normalmente dirigido por el administrador de servicios o el propietario del producto para los servicios de colaboración en colaboración con las principales partes interesadas empresariales.
 - **Actualización de campaña de concienciación y de medición de éxito de aprendizaje:** incluye alcance, participación, temas clave de comentarios y problemas abiertos. Incluya historias clave de éxito y victorias. 

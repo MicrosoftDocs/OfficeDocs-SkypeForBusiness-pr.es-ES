@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a saber cómo llamar a números gratuitos en cada país o región. Después de seleccionar el país o la región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad del servicio gratuito en los que el servicio gratuito esté disponible. Los formatos o formatos de marcación muestran los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+description: Esto le ayudará a saber cómo llamar a números gratuitos en cada país o región. Después de seleccionar el país o la región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad del servicio gratuito cuando el servicio gratuito esté disponible. Los formatos o formatos de marcación muestran los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
 ms.openlocfilehash: cb40eba30a0630de8386e4c70354265b31563299
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

@@ -64,7 +64,7 @@ Asegúrese de consultar las instrucciones del kit [de herramientas digitales](ht
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Mapa de ruta de Teams](https://aka.ms/teamsroadmap)
+- [Plan de teams](https://aka.ms/teamsroadmap)
 - Manténgase al día con nuestro [blog de Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 - [Enviar una sugerencia](https://aka.ms/eduuservoice)

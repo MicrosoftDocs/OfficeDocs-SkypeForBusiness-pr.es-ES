@@ -55,17 +55,17 @@ Además, para los usuarios solo de Teams, debe asegurarse de que la opción "Per
 Para controlar si las llamadas entrantes (y los chats) se descargan en Teams o en Skype Empresarial, los administradores usan TeamsUpgradePolicy, ya sea mediante el centro de administración de [Microsoft Teams](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con los cmdlets de [Skype](https://docs.microsoft.com/powershell/module/skype) Empresarial.
 
 
-La configuración predeterminada de TeamsUpgradePolicy es el modo Islas, que está diseñada para garantizar que los flujos de trabajo empresariales existentes no se interrumpen durante una implementación de Teams. De forma predeterminada, las llamadas VoIP, RTC y federadas a los usuarios seguirán enrutadas a Skype Empresarial hasta que actualice la directiva para habilitar las llamadas entrantes a Teams.  Cuando los destinatarios están en modo de islas:
+La configuración predeterminada de TeamsUpgradePolicy is Islands mode, que está diseñada para garantizar que los flujos de trabajo empresariales existentes no se interrumpen durante una implementación de Teams. De forma predeterminada, las llamadas VoIP, RTC y federadas a los usuarios seguirán enrutadas a Skype Empresarial hasta que actualice la directiva para habilitar las llamadas entrantes a Teams.  Cuando los destinatarios están en el modo de islas:
 
  - Las llamadas VOIP entrantes que se originaron en Skype Empresarial siempre se reciben en el cliente de Skype Empresarial del destinatario.
  - Las llamadas VOIP entrantes que se originaron en Teams se fijon en Teams, si el remitente y el receptor *se encuentran en el mismo espacio empresarial.*
  - Las llamadas RTC y VOIP federadas entrantes (independientemente del cliente que se originen) y las llamadas RTC siempre se reciben en el cliente de Skype Empresarial del destinatario.
  
-Para asegurarse de que las llamadas entrantes VOIP y RTC siempre se llegaron al cliente de Teams de un usuario, actualice el modo de coexistencia del usuario a TeamsOnly (es decir, asígneles la instancia "UpgradeToTeams" de TeamsUpgradePolicy).  Para obtener más información sobre los modos de coexistencia y TeamsUpgradePolicy, consulte la guía de migración e interoperabilidad para las organizaciones que usan [Teams junto con Skype Empresarial.](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+Para asegurarse de que las llamadas entrantes VOIP y RTC siempre se des fijon en el cliente de Teams de un usuario, actualice el modo de coexistencia del usuario a TeamsOnly (es decir, asígneles la instancia "UpgradeToTeams" de TeamsUpgradePolicy).  Para obtener más información sobre los modos de coexistencia y TeamsUpgradePolicy, consulte la guía de migración e interoperabilidad para las organizaciones que usan [Teams junto con Skype Empresarial.](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 **NOTAS**
  - Los teléfonos IP de Skype Empresarial recibirán llamadas, incluso si el usuario se encuentra en modo TeamsOnly.  
- - Los usuarios a los que se les ha aprovisionado licencias de Sistema telefónico y Planes de llamadas para su uso con Skype Empresarial Online (por ejemplo, se les ha asignado el valor OnlineVoiceRoutingPolicy), tendrán la pestaña Llamadas habilitada en Teams y pueden realizar llamadas RTC salientes desde Teams sin que los administradores tengan que realizar ninguna acción administrativa.
+ - Los usuarios a los que se les ha aprovisionado licencias de Sistema telefónico y Planes de llamadas para su uso con Skype Empresarial Online (por ejemplo, se les ha asignado un valor de OnlineVoiceRoutingPolicy), tendrán la pestaña Llamadas habilitada en Teams y pueden realizar llamadas RTC salientes desde Teams sin que los administradores tengan que realizar ninguna acción administrativa.
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Cómo configurar los usuarios para que reciban todas las llamadas ENTRANTES VOIP y RTC en Teams

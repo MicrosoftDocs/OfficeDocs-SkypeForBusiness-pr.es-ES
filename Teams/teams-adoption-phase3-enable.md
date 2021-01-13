@@ -38,7 +38,7 @@ En esta fase, usará sus aprendizajes, equipo de proyecto con talento y relacion
 4. Diseñar e iniciar una campaña de concienciación.
 5. Diseñar e iniciar un programa de aprendizaje.
 6. Comprender las herramientas de informes.
-7. Prepárese para un compromiso empresarial continuo.
+7. Prepárese para la participación empresarial en curso.
 8. Prepárese para las revisiones continuas del estado & adopción.
 
 ![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Definir resultados y éxito](teams-adoption-define-outcomes.md)

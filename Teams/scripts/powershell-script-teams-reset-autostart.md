@@ -27,7 +27,7 @@ ms.locfileid: "49827510"
 
 Use este script para restablecer la configuración de inicio automático de Teams por usuario. Esto incluye todos los valores establecidos por el usuario o la aplicación Teams. De forma predeterminada, Teams se inicia automáticamente cuando un usuario inicia sesión en su equipo una vez instalado.
 
-Si ya ha implementado Teams y desea establecer que Microsoft [Teams](../msi-deployment.md#use-group-policy-recommended) se inicie automáticamente después de instalar la configuración de directiva de grupo para deshabilitar el inicio automático de Teams, primero debe establecer la configuración de directiva de grupo en el valor que desee y, después, ejecutar este script.
+Si ya ha implementado Teams y desea establecer que [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) se inicie automáticamente después de instalar la configuración de directiva de grupo para deshabilitar el inicio automático de Teams, primero debe establecer la configuración de directiva de grupo en el valor que desee y, después, ejecutar este script.
 
 Después de iniciar Teams para un usuario, la configuración de inicio automático no se puede deshabilitar mediante la directiva de grupo.
 

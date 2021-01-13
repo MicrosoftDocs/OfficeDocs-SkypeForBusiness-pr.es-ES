@@ -27,7 +27,7 @@ ms.locfileid: "49809180"
 
 En Microsoft Teams, los usuarios pueden ver análisis de equipos y canales de los que forman parte. Esta información proporciona a los usuarios información sobre los patrones de uso y la actividad de sus equipos. Los usuarios pueden ver datos como el número de usuarios activos, publicaciones, respuestas y más en tres niveles.
 
-- **El análisis entre equipos ofrece** a los usuarios una descripción general de los datos de uso de todos los equipos de los que son miembros o propietarios en una vista de lista única.
+- **El análisis entre equipos** ofrece a los usuarios una descripción general de los datos de uso de todos los equipos de los que son miembros o propietarios en una vista de lista única.
 - **El análisis por equipo ofrece** a los usuarios una vista más granular, que muestra los datos de uso de un equipo específico.
 - **El análisis por canal ofrece** a los usuarios una vista aún más granular, que muestra los datos de uso de un canal específico.
 
@@ -61,7 +61,7 @@ Los usuarios pueden filtrar cualquiera de estas vistas para ver datos durante un
 
     |Elemento |Descripción  |
     |--------|-------------|
-    |**Resumen**   |Resumen de la actividad del equipo, incluidos los siguientes:<ul><li>**Usuarios:** número total de usuarios en el período de tiempo especificado. Esto incluye a los propietarios del equipo, los miembros del equipo y los invitados.</li> <li>**Publicaciones:** número de mensajes nuevos publicados en el chat del equipo durante el período de tiempo especificado.</li><li>**Respuestas:** número de respuestas en el chat de equipo durante el período de tiempo especificado.</li> <li>**Aplicaciones:** número de aplicaciones agregadas al equipo.</li><li>**Reuniones:** número de reuniones de Teams organizadas a nivel de equipo.</li> </ul> |
+    |**Resumen**   |Resumen de la actividad del equipo, incluidos los siguientes:<ul><li>**Usuarios:** número total de usuarios en el período de tiempo especificado. Esto incluye a los propietarios del equipo, los miembros del equipo y los invitados.</li> <li>**Publicaciones:** número de mensajes nuevos publicados en el chat del equipo durante el período de tiempo especificado.</li><li>**Respuestas:** número de respuestas en el chat del equipo durante el período de tiempo especificado.</li> <li>**Aplicaciones:** número de aplicaciones agregadas al equipo.</li><li>**Reuniones:** número de reuniones de Teams organizadas a nivel de equipo.</li> </ul> |
     |**Usuarios activos**   |Número de usuarios activos e inactivos.|
     |**Rol**   |Número de usuarios por rol, incluidos los propietarios del equipo, los miembros del equipo e invitados.|
     |**Gráfico de usuarios activos**  |Número de activos diarios. Mantenga el mouse sobre el punto de una fecha determinada para ver el número de usuarios activos en esa fecha.|

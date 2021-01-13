@@ -33,7 +33,7 @@ Para el propósito de  estas encuestas, el nuevo sistema telefónico hace refere
 
 Indique el nivel de acuerdo con las siguientes declaraciones en relación con el uso de Teams como teléfono. 
 
-|     &nbsp;                              | Totalmente de acuerdo | Un poco de acuerdo | Neutro | Un poco en desacuerdo | Totalmente en desacuerdo | N/A o no se ha usado |
+|     &nbsp;                              | Totalmente de acuerdo | Un poco de acuerdo | Neutro | Un poco en desacuerdo | Totalmente en desacuerdo | N/A o no se ha utilizando |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
 | Puedo realizar y recibir llamadas telefónicas fácilmente con mi equipo.                                                             |                      |                    |             |                       |                         |                        |
 | Puedo realizar y recibir llamadas telefónicas fácilmente con mi nuevo teléfono de escritorio.                                              |                      |                    |             |                       |                         |                        |
@@ -48,7 +48,7 @@ Si ha elegido **Algo en desacuerdo** o Totalmente **en** desacuerdo con cualquie
 
 Indique su nivel de acuerdo con las siguientes declaraciones en relación con su experiencia de incorporación con su nuevo teléfono.  
 
-|          &nbsp;                  | Totalmente de acuerdo | Un poco de acuerdo | Neutro | Un poco en desacuerdo | Totalmente en desacuerdo | N/A o no se ha usado |
+|          &nbsp;                  | Totalmente de acuerdo | Un poco de acuerdo | Neutro | Un poco en desacuerdo | Totalmente en desacuerdo | N/A o no se ha utilizando |
 |----|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
 | Mi organización me proporcionó suficiente información (comunicación, recursos y llamadas a la acción) para que empezar a usar el nuevo sistema telefónico. |                      |                    |             |                       |                         |                        |
 | Tenía recursos de aprendizaje adecuados para incorporarme rápidamente al nuevo sistema telefónico.                                                          |                      |                    |             |                       |                         |                        |

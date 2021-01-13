@@ -54,7 +54,7 @@ Teams incluye actualmente los siguientes paquetes de directivas sanitarias.
 
 ![Captura de pantalla de paquetes de directivas sanitarias](media/policy-packages-healthcare.png)
 
-A cada directiva individual se le da el nombre del paquete de directiva para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva de trabajador médico médico a médicos de su organización, se crea una directiva denominada Healthcare_ClinicalWorker para cada directiva del paquete.
+A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva de trabajador médico médico a médicos de su organización, se crea una directiva denominada Healthcare_ClinicalWorker para cada directiva del paquete.
 
 ![Captura de pantalla de las directivas del paquete de trabajadores sanitarios](media/policy-packages-healthcare-clinical-worker.png)
 

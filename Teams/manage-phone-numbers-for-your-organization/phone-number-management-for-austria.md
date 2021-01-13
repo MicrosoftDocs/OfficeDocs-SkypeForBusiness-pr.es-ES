@@ -1,7 +1,7 @@
 ---
 title: Administración de números de teléfono para Austria
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Austria para Microsoft Teams.
-ms.openlocfilehash: 4653dd744460dffc3407867e27d51f41f9fbb5a5
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 44dad7d3baa95b0841c2e0c90512fa674f0decef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361780"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822870"
 ---
 # <a name="phone-number-management-for-austria"></a>Administración de números de teléfono para Austria
 
@@ -34,11 +34,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos y envíenoslos**|
 |:-----|:-----|
-|Obtener nuevos números de teléfono de usuario y de servicio que no se muestran en el centro de administración de Microsoft Teams.   <br/> |Descargue uno de estos formularios. <br/>  [Solicitud de nuevo número de teléfono para Austria (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Solicitud de nuevo número de teléfono para Austria (v. 5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/>  <br/>También debes incluir una factura de utilidad de la dirección de la empresa para la que deseas obtener números nuevos. <br/> 
-|Obtener números de teléfono transferidos a nosotros.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Austria (todos los números) (v. 5.0) (de-at)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf?raw=true) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> <br/>También debes incluir una factura de utilidad de la dirección de la empresa para la que deseas transferir números.<br/> |
-|Publicar o anular la publicación de números de teléfono en el directorio telefónico nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía.      <br/> |
-|Cambiar el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para la cola de llamadas o números de operador automático|Para agregar o cambiar números de cola de llamadas o de operador automático, póngase en contacto con [el servicio de asistencia al cliente de RTC](contact-pstn-service-desk.md). |
+|Obtenga nuevos números de teléfono de servicio y usuario que no aparecen en el Centro de administración de Microsoft Teams.   <br/> |Descargue uno de estos formularios. <br/>  [Solicitud de nuevo número de teléfono para Austria (v.5.0) (versión)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Solicitud de nuevo número de teléfono para Austria (v.5.0) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/>  <br/>También debe incluir una factura de utilidad de la dirección del trabajo para la que desea obtener números nuevos. <br/> 
+|Que nos transfieran números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Austria (todos los números) (v.5.0) (es-ES)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf?raw=true) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> <br/>También debe incluir una factura de utilidad de la dirección de la empresa a la que desea transferir los números.<br/> |
+|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía.      <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de la cola de llamadas o de un operador automático|Para agregar o cambiar los números de la cola de llamadas o del operador automático, póngase en contacto con [el servicio de asistencia RTC.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -48,5 +48,5 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
   
-[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
+[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
  

@@ -25,14 +25,14 @@ ms.locfileid: "49827520"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>Configurar el bot de llamada para enrutamiento directo
 
-En este artículo se describe el bot de llamada, que puede usar para evitar silencios inesperados que se pueden producir cuando se tarda más tiempo en establecer las llamadas. El bot de llamada está disponible para enrutamiento directo en modo de omisión que no sea multimedia.
+En este artículo se describe el bot de llamada, que puede usar para evitar silencios inesperados que se pueden producir cuando se tarda más tiempo en establecer las llamadas. El bot de llamada está disponible para enrutamiento directo en modo de omisión no multimedia.
 
-A veces, las llamadas entrantes de la red telefónica conmutada (RTC) a clientes de Teams pueden tardar más de lo esperado en establecerse. Esto puede ocurrir por varias razones. Cuando esto sucede, es posible que el autor de la llamada no oiga nada, que el cliente de Teams no suene y que algunos proveedores de telecomunicaciones cancelen la llamada.
+A veces las llamadas entrantes de la red telefónica conmutada (RTC) a clientes de Teams pueden tardar más de lo esperado en establecerse. Esto puede ocurrir por varias razones. Cuando esto sucede, es posible que el autor de la llamada no oiga nada, que el cliente de Teams no suene y que algunos proveedores de telecomunicaciones cancelen la llamada.
 
 El bot de llamada le ayuda a evitar silencios inesperados que se pueden producir en este escenario. Para las llamadas entrantes desde la RTC a los clientes de Teams, el bot de llamada reproduce una señal de audio distintiva al autor de la llamada para indicar que Teams está en proceso de establecer la llamada.
 
 > [!NOTE]
-> El bot de llamada genera medios anticipados desde el back-end de Teams. En algunos países y regiones, es posible que se te a cobrara la llamada cuando empiece a fluir el contenido multimedia.
+> El bot de llamada genera medios anticipados desde el back-end de Teams. En algunos países y regiones, es posible que se te cargará la llamada cuando empiece a fluir el contenido multimedia.
 
 ## <a name="configure-the-ringback-bot"></a>Configurar el bot de llamada
 

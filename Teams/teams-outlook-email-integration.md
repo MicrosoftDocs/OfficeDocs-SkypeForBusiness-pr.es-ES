@@ -1,5 +1,5 @@
 ---
-title: Integración de correo electrónico de Teams y Outlook
+title: Integración del correo electrónico de Teams y Outlook
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -21,7 +21,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802400"
 ---
-# <a name="teams-and-outlook-email-integration"></a>Integración de correo electrónico de Teams y Outlook
+# <a name="teams-and-outlook-email-integration"></a>Integración del correo electrónico de Teams y Outlook
 
 Microsoft Teams incluye características que permiten a los usuarios de su organización compartir información entre el correo electrónico en Outlook y las conversaciones de canal o chat en Teams y mantenerse al tanto de las conversaciones perdidas. En este artículo se ofrece información general sobre estas características y los controles de administración que se aplican.
 
@@ -31,7 +31,7 @@ Microsoft Teams incluye características que permiten a los usuarios de su organ
 
 ![Captura de pantalla que muestra la característica Compartir en Outlook en Teams](media/share-to-outlook.png)
 
-Para usar esta característica, Outlook en la Web debe estar activado para el usuario. Si Outlook en la web está desactivado, la opción Compartir en **Outlook** no se muestra en Teams para el usuario. Para obtener información sobre cómo activar y desactivar Outlook en la web, vea Habilitar o deshabilitar [Outlook en la web para un buzón.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+Para usar esta característica, Outlook en la Web debe estar activado para el usuario. Si Outlook en la web está desactivado, la opción Compartir en **Outlook** no se muestra en Teams para el usuario. Para ver los pasos para activar y desactivar Outlook en la Web, vea Habilitar o deshabilitar [Outlook en la web para un buzón.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
 ## <a name="actionable-activity-emails"></a>Correos electrónicos de actividad que se pueden actuar
 
@@ -44,4 +44,4 @@ Los usuarios obtienen automáticamente correos electrónicos de actividad perdid
 
 ![Captura de pantalla que muestra cómo responder a un correo electrónico de actividad perdida](media/missed-activity-email-reply.png)
 
-Puede usar el cmdlet [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) junto con el parámetro **SmtpActionableMessagesEnabled** para desactivar los correos electrónicos que se pueden activar o desactivar. De forma predeterminada, **el parámetro SmtpActionableMessagesEnabled** está establecido en **true.** Al establecer el parámetro en **false** se desactivan los mensajes de correo electrónico que se pueden usar para actuar en Office 365. Para los usuarios de Teams, esto significa que la opción **Responder** para responder directamente en Outlook no está disponible en los correos electrónicos de actividad perdida. En su lugar, los correos electrónicos de actividad perdida incluyen una opción Responder **en Teams** para que los usuarios respondan en Teams.
+Puede usar el cmdlet [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) junto con el parámetro **SmtpActionableMessagesEnabled** para desactivar los correos electrónicos que se pueden usar para realizar acciones. De forma predeterminada, **el parámetro SmtpActionableMessagesEnabled** está establecido en **true.** Al establecer el parámetro en **false** se desactivan los mensajes de correo que se pueden usar para actuar en Office 365. Para los usuarios de Teams, esto significa que la opción **Responder** para responder directamente en Outlook no está disponible en los correos electrónicos de actividad perdida. En su lugar, los correos electrónicos de actividad perdida incluyen una opción Responder **en Teams** para que los usuarios respondan en Teams.

@@ -62,7 +62,7 @@ Si está seguro de que quiere controlar quién puede crear equipos, consulte Adm
 Al principio de cada semestre o trimestre, necesitará varios equipos nuevos. Sería lógico usar un enfoque automatizado para crear estos equipos automáticamente, rellenarlos con los usuarios adecuados y establecer los permisos adecuados:
 
 -   School Data Sync puede crear grupos de Microsoft 365 para Exchange Online y SharePoint Online, equipos de clase para Microsoft Teams y blocs de notas de clase de OneNote, grupos escolares para Intune for Education y la integración de listas e inicio de sesión único (SSO) para muchas otras aplicaciones de terceros. Obtenga más información en [Información general sobre School Data Sync.](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)
--   Con PowerShell, puede crear equipos y canales y configurar la configuración automáticamente. Vea [PowerShell de Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+-   Con PowerShell, puede crear equipos y canales y configurar las opciones automáticamente. Vea [PowerShell de Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
 -   Puede usar la API de Microsoft Graph (actualmente en versión beta) para crear, configurar, clonar y archivar equipos. Vea [Usar la API de Microsoft Graph para trabajar con Microsoft Teams para](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) obtener más información.
 
 > [!TIP]
@@ -73,7 +73,7 @@ Al principio de cada semestre o trimestre, necesitará varios equipos nuevos. Se
 Le recomendamos que, cuando se complete el semestre o el trimestre de la escuela, piense primero en cómo tratar los datos de Teams: si quiere eliminarlos o mantenerlos disponibles para los alumnos incluso después de que hayan finalizado el curso. Querrá tener en cuenta el calendario escolar para que las directivas que establezca no entren en conflicto con los días festivos. Puede usar las siguientes herramientas para implementar su estrategia:
 
 -   **Directiva de retención:** Use esta opción para eliminar todos los datos de más de una edad que especifique para asegurarse de que los datos antiguos se quitan de los chats (para todos los usuarios o para algunos) y los canales. También puede configurar Teams para que retenga contenido y no se pueda eliminar. Para obtener más información, vea [Directivas de retención para Microsoft Teams.](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)
--   **Directiva de expiración:** Configure los equipos para que expiren después de un número determinado de días. Treinta días antes de la expiración, se notifica a todos los propietarios de un equipo que es necesario renovar su equipo, de otro modo se elimina (aunque un administrador puede recuperar equipos eliminados durante 30 días adicionales). Esta configuración es muy útil para asegurarse de que los equipos sin utilizar se pone en marcha. Más información en la Directiva de expiración de grupos [de Microsoft 365.](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)
+-   **Directiva de expiración:** Configure los equipos para que expiren después de un número determinado de días. Treinta días antes de la expiración, se notifica a todos los propietarios de un equipo que es necesario renovar su equipo, de otro modo se elimina (aunque un administrador puede recuperar equipos eliminados durante 30 días adicionales). Esta configuración es muy útil para asegurarse de que los equipos sin utilizar se pone en marcha. Más información en Directiva de expiración de grupos [de Microsoft 365.](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)
 
 -   **Equipo de archivado:** Esta configuración pone a los equipos en modo de solo lectura. Aún se pueden examinar y buscar, pero nadie puede agregar nuevas publicaciones. [Archivar o restaurar un equipo](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describe cómo los propietarios de equipos pueden archivar un equipo; Los propietarios de equipos también [pueden usar la API de Graph (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) para archivar o restaurar un equipo.
  
@@ -92,7 +92,7 @@ La [API de Microsoft Graph (beta)](https://developer.microsoft.com/graph/docs/ap
 -   Agregar miembros y propietarios.
 -   Agregar canales.
 -   Agregar aplicaciones.
--   Haga acceso directo a esos pasos mediante la reproducción de un equipo existente y obtenga sus pestañas también.
+-   Haga acceso directo a esos pasos mediante la clonación de un equipo existente y obtenga sus pestañas también.
 -   Dé un vínculo al usuario al equipo que acaba de crear.
 -   Quite miembros, propietarios, canales y aplicaciones cuando ya no los necesite.
 -   Archive el equipo cuando ya no esté activo. 
@@ -122,7 +122,7 @@ Para obtener más información sobre las directivas de Teams, consulte [Administ
 Puede usar el acceso de invitado para invitar a usuarios externos a su inquilino, lo que puede ser útil para la colaboración en investigación o para conferencias de invitado:
 
 -   Use la lista de dominios para permitir o bloquear invitados en función de su dominio.
--   Active y desactive el acceso de invitados para grupos y equipos específicos de Microsoft 365 para controlar qué equipos pueden (o no) invitar a invitados.
+-   Active y desactive el acceso de invitados para grupos y equipos particulares de Microsoft 365 para controlar qué equipos pueden (o no) invitar a invitados.
 -   Use el registro de auditoría para ver qué alertas se han enviado a los invitados invitados.
 
 Para obtener más información, vea [Acceso de invitado en Grupos de Microsoft 365.](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)
@@ -131,7 +131,7 @@ Para obtener más información, vea [Acceso de invitado en Grupos de Microsoft 3
 
 Puede comprobar los registros de auditoría para ver:
 
--   ¿Quién ha sido invitado como invitado en cada equipo?
+-   ¿A quién se invitó como invitado a cada equipo?
 -   Quién ha creado cada equipo.
 
 Para obtener más información, consulte Buscar eventos en el [registro de auditoría de Microsoft Teams.](audit-log-events.md)

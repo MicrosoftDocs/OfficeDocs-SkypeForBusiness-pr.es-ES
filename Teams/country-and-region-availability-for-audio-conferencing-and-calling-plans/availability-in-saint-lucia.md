@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Santa Lucía
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Santa Lucía.
-ms.openlocfilehash: 46a1e39a36435f8ef129b7a9e59fd569544d7df1
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Santa Lucía.
+ms.openlocfilehash: 749ea27dbc77eeeb2f6b7d4e06f6b8506fc056da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231069"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823010"
 ---
 # <a name="availability-in-saint-lucia"></a>Disponibilidad en Santa Lucía
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Santa Lucía.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Santa Lucía.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

@@ -48,16 +48,16 @@ Antes de empezar, le recomendamos que revise la información en [¿Qué es una o
 
     - **País o región:** país o región donde se están recibiendo números.
     - **Tipo de número de** teléfono: tipo de número, como números geográficos o gratuitos.
-    - **Números asignados a:** A qué se asignan los números. Por ejemplo, usuarios, conferencias o características de voz.
+    - **Números asignados a:** A qué se asignan los números. Por ejemplo, usuarios o características de voz o conferencias.
 
-4. En la **página Agregar información de cuenta,** complete lo siguiente y, a continuación, haga clic en **Siguiente.**
+4. En la **página Agregar información de la** cuenta, complete lo siguiente y, a continuación, haga clic en **Siguiente.**
 
     > [!IMPORTANT]
-    > La información que se muestra en esta página está determinada por el país o la región y el tipo de número. Cada país y región tiene normativas diferentes sobre la información necesaria para realizar la portabilidad de los números. Lo que ve en esta página puede ser diferente de lo que se describe aquí.
+    > La información que se muestra en esta página la determina el país o la región y el tipo de número. Cada país y región tiene normativas diferentes sobre la información necesaria para realizar la portabilidad de los números. Lo que ve en esta página puede ser diferente de lo que se describe aquí.
 
     - **Detalles del pedido:** 
         - **Nombre del pedido:** nombre del pedido
-        - **Correos electrónicos de** notificación: direcciones de correo electrónico para recibir notificaciones de pedidos. Si escribe varias direcciones de correo electrónico, se separan entre sí con un punto y coma.
+        - **Correos electrónicos de** notificación: direcciones de correo electrónico para recibir notificaciones de pedido. Si escribe varias direcciones de correo electrónico, se separan entre sí con un punto y coma.
         - **Fecha de transferencia:** fecha de transferencia emitida por su proveedor de servicios actual.
     - **Detalles del número de teléfono**
         - **Tipo de** puerto: si está realizando una portabilidad completa para transferir todos los números o una portabilidad parcial para transferir algunos de sus números.
@@ -70,7 +70,7 @@ Antes de empezar, le recomendamos que revise la información en [¿Qué es una o
 5. En la **página Agregar** números, haga clic en Seleccionar un archivo, busque y seleccione el archivo CSV que contiene los números de teléfono que desea transferir y, **a** continuación, haga clic en **Siguiente.**  
 
     > [!NOTE]
-    > El archivo CSV solo debe tener una columna con un encabezado denominado PhoneNumber. Cada número de teléfono debe estar en una fila independiente y puede ser solo dígitos o en formato E.164.
+    > El archivo CSV debe tener solo una columna con un encabezado denominado PhoneNumber. Cada número de teléfono debe estar en una fila independiente y puede ser solo dígitos o en formato E.164.
 
 6. En la **página Completar**  el pedido, haga clic en Cargar una carta de autorización firmada para cargar una copia digitalizada de la Carta de autorización (LOA) firmada.
 
@@ -91,7 +91,7 @@ Antes de empezar, le recomendamos que revise la información en [¿Qué es una o
 
 Cuando recibamos la solicitud de portabilidad, recibirá un correo electrónico que comprueba su solicitud. Su solicitud se comprueba y actualiza a diario, y se le notificará su progreso y estado en un correo electrónico. Si el operador descartado rechazó su solicitud de [portabilidad,](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)póngase en contacto con el servicio de servicio RTC.
 
-Para ver el estado de su orden de portabilidad, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya > las órdenes de portabilidad de voz y haga clic en Historial  >   **de pedidos.** El estado de cada orden de portabilidad se muestra en la **columna** Estado. Para obtener más información, [consulte ¿Cuál es el estado de sus pedidos de portabilidad?](port-order-status.md)
+Para ver el estado de su orden de portabilidad, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya > las órdenes de portabilidad de voz y, **a** continuación, haga clic en Historial  >  de **pedidos.** El estado de cada orden de portabilidad se muestra en la **columna** Estado. Para obtener más información, [consulte ¿Cuál es el estado de sus pedidos de portabilidad?](port-order-status.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 

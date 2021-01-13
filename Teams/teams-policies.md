@@ -23,7 +23,7 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Aprenda a usar y administrar las directivas de equipos de su organización para controlar lo que los usuarios pueden hacer en los equipos y canales.
+description: Obtenga información sobre cómo usar y administrar las directivas de equipos de su organización para controlar lo que los usuarios pueden hacer en los equipos y canales.
 ms.openlocfilehash: a05aaf65418e46f7b631bac6f7d88d8bbdf4c806
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -52,7 +52,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
 
 ## <a name="edit-a-teams-policy"></a>Editar una directiva de teams
 
-Puede editar la directiva global o cualquier directiva personalizada que cree.
+Puede editar la directiva global o las directivas personalizadas que cree.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **directivas de**  >  **Teams.**
 2. Seleccione la directiva haciendo clic a la izquierda del nombre de la directiva y, a continuación, haga clic en **Editar.**

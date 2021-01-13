@@ -41,7 +41,7 @@ Estos diez sencillos pasos proporcionan todo lo que necesita para una actualizac
 > [!IMPORTANT]
 > Skype Empresarial Online se retirará el 31 de julio de 2021. Transcurrido ese tiempo, el servicio de Skype Empresarial Online ya no será accesible ni compatible. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
 
-¿Qué pasa con Skype Empresarial después de la actualización? Después de la actualización de los usuarios a Teams (modo **solo Teams**):
+¿Qué le pasa a Skype Empresarial después de la actualización? Después de la actualización de los usuarios a Teams (modo **solo Teams**):
 
 - El cliente de Skype Empresarial está deshabilitado y todas las llamadas y chats van a Teams. Tenga en cuenta que esto no desinstalará el cliente en sus escritorios.
 - Todas las reuniones de Skype Empresarial que se programaron antes de la actualización funcionan según lo previsto, pero todas las reuniones nuevas se programan en Teams. El complemento de Skype Empresarial ya no estará disponible en Outlook. 
@@ -76,7 +76,7 @@ Los líderes sénior son responsables del éxito de la empresa; asegúrese de ma
 
 *(Aproximadamente, de cuatro a seis semanas antes de la actualización)*
 
-Teams ofrece funciones compatibles con Skype Empresarial, como la mensajería instantánea (chat) y las reuniones, pero también puede hacer mucho más. Como un verdadero centro para el trabajo en equipo, Teams permite a los grupos de trabajo administrar proyectos, archivos, conversaciones y aplicaciones en una única ubicación. De forma predeterminada, Teams está activado para todas las organizaciones. Decida cómo su organización usará Teams y configurará su entorno para el éxito. 
+Teams ofrece funciones compatibles con Skype Empresarial, como mensajería instantánea (chat) y reuniones, pero también puede hacer mucho más. Como un verdadero centro para el trabajo en equipo, Teams permite a los grupos de trabajo administrar proyectos, archivos, conversaciones y aplicaciones en una única ubicación. De forma predeterminada, Teams está activado para todas las organizaciones. Decida cómo su organización usará Teams y configurará su entorno para el éxito. 
 
 > [!Note]
 > Como cliente existente de Skype Empresarial, es probable que su infraestructura de red actual ya esté configurada para Teams. Para confirmar esto, puede seguir las instrucciones de "Planeación técnica completa" vinculadas a continuación (esto es opcional).
@@ -96,7 +96,7 @@ Teams ofrece funciones compatibles con Skype Empresarial, como la mensajería in
 
 *(Aproximadamente cuatro semanas antes de la actualización)*
 
-Es posible que los usuarios profundamente adoptados en Skype Empresarial necesiten un poco más de tiempo o asistencia para realizar la transición a Teams. Dedíme tiempo a revisar el uso actual de Skype Empresarial para identificar los usuarios principales que necesitan soporte técnico adicional y establecer una línea base de uso de la que pueda hacer un seguimiento con los números posteriores a la actualización.
+Es posible que los usuarios profundamente adoptados en Skype Empresarial necesiten algo más de tiempo o asistencia para realizar el cambio a Teams. Dedíme tiempo a revisar el uso actual de Skype Empresarial para identificar los usuarios principales que necesitan soporte técnico adicional y establecer una línea base de uso de la que pueda hacer un seguimiento con los números posteriores a la actualización.
 
 **Recursos:**
 
@@ -112,7 +112,7 @@ Es posible que los usuarios profundamente adoptados en Skype Empresarial necesit
 
 *(Aproximadamente dos o tres semanas antes de la actualización)*
 
-Si proporciona suficientes avisos a sus usuarios, tendrá tiempo para familiarizarse con Teams sin afectar negativamente a su productividad, lo que resulta en una experiencia de usuario más positiva. Envíe una comunicación para decirles lo que cambia, por qué cambia y cómo pueden prepararse para ello.
+Si proporciona suficiente aviso a sus usuarios, tendrá tiempo para familiarizarse con Teams sin afectar negativamente a su productividad, lo que resulta en una experiencia de usuario más positiva. Envíe una comunicación para decirles lo que cambia, por qué cambia y cómo pueden prepararse para ello.
 
 > [!Note]
 > Si es necesario, puede habilitar Teams para sus usuarios a través del Centro de administración de Microsoft 365 en este momento.
@@ -166,7 +166,7 @@ Los usuarios están ocupados con sus responsabilidades diarias. Recordarles la a
 
 Hoy es el día en que su organización actualiza oficialmente a Teams como solución de comunicación y colaboración. En el Centro de administración de Microsoft Teams, active el cambio de actualización estableciendo el modo de coexistencia en **Solo equipos.** (En el centro de administración, ve a **Configuración para toda la organización**  >  **Actualización de Teams.** Los usuarios recibirán una notificación en su cliente de Skype Empresarial de que se les ha actualizado a Teams.
 
-Le recomendamos que, después de actualizar todos los usuarios, envíe un correo electrónico para darles la bienvenida a Teams.
+Le recomendamos que, después de actualizar a todos los usuarios, envíe un correo electrónico para darles la bienvenida a Teams.
 
 **Recursos:**
 
@@ -183,7 +183,7 @@ Le recomendamos que, después de actualizar todos los usuarios, envíe un correo
 
 *(Aproximadamente una o dos semanas después de la actualización)*
 
-Ajustarse a una nueva tecnología puede llevar algún tiempo. Compruebe el uso para comprobar que los usuarios usan Teams al mismo nivel ( o superior) que con Skype Empresarial. Consulte a los usuarios que no están usando Teams en los niveles esperados.
+Ajustarse a una nueva tecnología puede llevar algún tiempo. Compruebe el uso para comprobar que los usuarios usan Teams al mismo nivel (o superior) que con Skype Empresarial. Consulte a los usuarios que no están usando Teams en los niveles esperados.
 
 **Recursos:**
 
@@ -203,7 +203,7 @@ La satisfacción de los empleados puede influir en la productividad, la retenci�
 
 **Recursos:**
 
-- [Correo electrónico de ejemplo: consultar a los usuarios,](upgrade-emails-surveys.md#step-9-email)más [encuestas de usuario](upgrade-emails-surveys.md#step-9-surveys)
+- [Correo electrónico de ejemplo: consulte a los usuarios y](upgrade-emails-surveys.md#step-9-email)las [encuestas de usuario](upgrade-emails-surveys.md#step-9-surveys)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -215,7 +215,7 @@ La satisfacción de los empleados puede influir en la productividad, la retenci�
 
 *(En curso)*
 
-Después de que los usuarios se sientan cómodos con la mensajería instantánea (chat) y las reuniones en Teams, anímelos a ampliar su caso de uso usando la colaboración de Teams y la integración de las aplicaciones, optimizando de verdad sus nuevas soluciones y maximizando un retorno de su inversión.
+Una vez que los usuarios se sientan cómodos con la mensajería instantánea (chat) y las reuniones en Teams, anímelos a ampliar su caso de uso usando la colaboración de Teams y la integración de las aplicaciones, optimizando de verdad sus nuevas soluciones y maximizando un retorno de su inversión.
 
 **Recursos:**
 

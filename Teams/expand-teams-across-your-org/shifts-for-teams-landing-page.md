@@ -36,7 +36,7 @@ Teams proporciona a los Firstline Workers de su organización las herramientas q
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Administrar Turnos en su organización](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![diseño](../media/Help-small.svg)  | **[Ayuda de turnos para los Firstline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Administrar turnos en su organización](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![diseño](../media/Help-small.svg)  | **[Ayuda de turnos para los Firstline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Extensiones de turnos
 

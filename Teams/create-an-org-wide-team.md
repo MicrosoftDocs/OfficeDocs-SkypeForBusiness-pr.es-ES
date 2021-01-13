@@ -32,7 +32,7 @@ Con los equipos de la organización, los administradores globales pueden crear f
 
 ![Captura de pantalla de la opción de crear un equipo de la organización](media/create-org-wide-team.png "Captura de pantalla de la opción Toda la organización para crear un equipo de la organización")
 
-Cuando se crea un equipo para toda la organización, todos los administradores globales y administradores de servicios de Teams se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se le asigna una licencia exploratoria de Microsoft Teams. Para obtener más información sobre la licencia Exploratoria, consulte [Administrar la licencia exploratoria de Microsoft Teams.](teams-exploratory.md) 
+Cuando se crea un equipo para toda la organización, todos los administradores globales y los administradores de servicio de Teams se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se le asigna una licencia exploratoria de Microsoft Teams. Para obtener más información sobre la licencia Exploratoria, consulte [Administrar la licencia exploratoria de Microsoft Teams.](teams-exploratory.md) 
 
 Este tipo de cuentas no se añadirán a su equipo de la organización:
 
@@ -72,7 +72,7 @@ Considere la posibilidad de establecer la moderación del canal y dar capacidad 
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Eliminar las cuentas que podrían no pertenecer
 
-Aunque los miembros no pueden abandonar un equipo de toda la organización, como propietario de un equipo, puede administrar la lista de equipos quitando cuentas que no pertenecen. **Asegúrese de usar Teams para eliminar a los usuarios de su equipo de la organización**. Si usa otra forma de eliminar un usuario, como el Centro de administración de Microsoft 365 o de un grupo en Outlook, el usuario puede ser añadido de nuevo al equipo de la organización.
+Aunque los miembros no pueden abandonar un equipo de toda la organización, como propietario de un equipo, puede administrar la lista del equipo quitando cuentas que no pertenecen. **Asegúrese de usar Teams para eliminar a los usuarios de su equipo de la organización**. Si usa otra forma de eliminar un usuario, como el Centro de administración de Microsoft 365 o de un grupo en Outlook, el usuario puede ser añadido de nuevo al equipo de la organización.
 
 ## <a name="faq"></a>Preguntas más frecuentes
 

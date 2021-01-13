@@ -38,7 +38,7 @@ La mejor forma de impulsar la adopción de Teams es usar el producto. Le recomen
 | Implementación de Microsoft Teams | General <br/> Concienciación y adopción <br/> Interacción empresarial <br/> Programa para usuarios iniciales <br/> Comentarios e información <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler Chat |
 | Campeones en trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y procedimientos <br/> Esquina Champion <br/> Comentarios y soporte técnico <br/> Clientes potenciales del programa <br/> Social Hub |
 
-En Microsoft Teams, la galería de pestañas le da acceso a todas las aplicaciones de Microsoft 365 u Office 365 y de terceros que ha activado el administrador. [](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) Para obtener el máximo partido de su producto, le recomendamos que anclar recursos clave como pestañas en cada uno de los canales adecuados. Vea el ejemplo siguiente.
+En Microsoft Teams, la galería de pestañas le da acceso a todas las aplicaciones de Microsoft 365 u Office 365 y de terceros que ha activado el administrador. [](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) Para obtener el máximo partido de su producto, le recomendamos anclar recursos clave como pestañas en cada uno de los canales adecuados. Vea el ejemplo siguiente.
 
 ![Captura de pantalla que muestra las pestañas predeterminadas y personalizadas](media/teams-adoption-tab-example.png)
 
@@ -50,10 +50,10 @@ En sus equipos iniciales, le recomendamos que anclar los siguientes elementos pa
 | General | Ficha Web: Documentación [de Teams](https://aka.ms/SuccessWithTeams) |
 | Concienciación y adopción | [Centro de adopción de Teams](https://aka.ms/DriveTeamsAdoption)<br/>[Kit para el éxito del cliente de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Participación empresarial | Wiki: guía de participación<br/>Formulario: consulta de solicitud para Teams<br/>Lista: solicitudes de participación |
-|Primeros adoptores | Comunidad de comentarios anclada <br/> OneNote para preguntas más frecuentes y temas comunes |
+|Primeros adoptados | Comunidad de comentarios anclada <br/> OneNote para preguntas más frecuentes y temas comunes |
 | Comentarios e informes | Informe de uso de Microsoft 365 u Office 365 anclado (solo para administradores de Microsoft 365 u Office 365) |
 | Seguridad y cumplimiento | Portal de confianza de Microsoft <br/> [Documentación de seguridad y cumplimiento](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Mapa de ruta (Roadmap)](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
-| Estrategia y planificación | Colaboración en PowerPoint de estrella del norte <br/> Plan de proyecto de adopción de servicios |
+| Estrategia y planificación | Colaboración con Estrella del norte de PowerPoint <br/> Plan de proyecto de adopción de servicios |
 | Aprendizaje | Portal de aprendizaje personalizado <br/> [Aprendizaje en línea de Teams](https://aka.ms/TeamsTraining) |
 | **Campeones en trabajo en equipo**|  |
 | General | Usar para anuncios de programas <br/> Información general del programa anclar a los campeones |
@@ -64,6 +64,6 @@ En sus equipos iniciales, le recomendamos que anclar los siguientes elementos pa
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>Cambiar a Microsoft Teams
 
-Cuando empiece a usar Teams, será importante que usted y el resto del equipo del proyecto se comprometan a usar el chat, los canales y los recursos de Teams para ejecutar el proyecto. Su propio uso de Teams es fundamental para la calidad de su proyecto de adopción. Le recomendamos que no fragmenta el proyecto y que siga conversando por correo electrónico con el equipo principal del proyecto. Al cambiar a Teams, modelará el comportamiento que finalmente quiere que adoptan sus empleados. Defina el tono, vaya primero y empiece a disfrutar de la información del proyecto en un solo lugar.  
+Cuando empiece a usar Teams, será importante que usted y el resto del equipo del proyecto se comprometan a usar el chat, los canales y los recursos de Teams para ejecutar el proyecto. El uso que hace de Teams es fundamental para la calidad del proyecto de adopción. Le recomendamos que no fragmenta el proyecto y que siga conversando por correo electrónico con el equipo del proyecto principal. Al cambiar a Teams, modelará el comportamiento que finalmente quiere que adoptan sus empleados. Defina el tono, vaya primero y empiece a disfrutar de la información del proyecto en un solo lugar.  
 
-![Un icono que muestra el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: ¿Está listo su organización para Microsoft [Teams?](teams-adoption-assess-readiness.md)
+![Un icono que muestra el siguiente paso Siguiente: ¿Qué tan listo está ](media/teams-adoption-next-icon.png) su organización para Microsoft [Teams?](teams-adoption-assess-readiness.md)
