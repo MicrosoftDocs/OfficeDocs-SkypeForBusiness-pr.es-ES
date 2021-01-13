@@ -1,8 +1,8 @@
 ---
 title: Agregar dominio Sip predeterminado
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
-description: Especifique el dominio principal de protocolo de inicio de sesión (SIP) que desea que admita la implementación. El dominio SIP principal puede ser el mismo que el dominio de servicios de dominio de Active Directory o diferente de él. Por ejemplo, el dominio de Active Directory podría ser fabrikam.net y podría especificar que el dominio SIP principal fuera contoso.net.
-ms.openlocfilehash: ac5ef8a0d2eeba37f20c9f3eb8c5637756d09a2a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Especifique el dominio principal de protocolo de inicio de sesión (SIP) que desea que admita la implementación. El dominio SIP principal puede ser el mismo o diferente de su dominio de Servicios de dominio de Active Directory. Por ejemplo, el dominio de Active Directory podría ser fabrikam.net y podría especificar que el dominio SIP principal fuera contoso.net.
+ms.openlocfilehash: 5d2d14d86a0b598560c30c0370dd690ad4563dab
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217401"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814450"
 ---
-# <a name="add-default-sip-domain"></a><span data-ttu-id="9ff65-105">Agregar dominio Sip predeterminado</span><span class="sxs-lookup"><span data-stu-id="9ff65-105">Add Default Sip Domain</span></span>
+# <a name="add-default-sip-domain"></a><span data-ttu-id="5f7ba-105">Agregar dominio SIP predeterminado</span><span class="sxs-lookup"><span data-stu-id="5f7ba-105">Add Default Sip Domain</span></span>
  
-<span data-ttu-id="9ff65-106">Especifique el dominio principal de protocolo de inicio de sesión (SIP) que desea que admita la implementación.</span><span class="sxs-lookup"><span data-stu-id="9ff65-106">Specify the primary Session Initiation Protocol (SIP) domain that you want your deployment to support.</span></span> <span data-ttu-id="9ff65-107">El dominio SIP principal puede ser el mismo que el dominio de servicios de dominio de Active Directory o diferente de él.</span><span class="sxs-lookup"><span data-stu-id="9ff65-107">The primary SIP domain can be the same as, or different from, your Active Directory Domain Services domain.</span></span> <span data-ttu-id="9ff65-108">Por ejemplo, el dominio de Active Directory podría ser fabrikam.net y podría especificar que el dominio SIP principal fuera contoso.net.</span><span class="sxs-lookup"><span data-stu-id="9ff65-108">For example, your Active Directory domain could be fabrikam.net, and you could specify your primary SIP domain to be contoso.net.</span></span>
+<span data-ttu-id="5f7ba-106">Especifique el dominio principal de protocolo de inicio de sesión (SIP) que desea que admita la implementación.</span><span class="sxs-lookup"><span data-stu-id="5f7ba-106">Specify the primary Session Initiation Protocol (SIP) domain that you want your deployment to support.</span></span> <span data-ttu-id="5f7ba-107">El dominio SIP principal puede ser el mismo o diferente de su dominio de Servicios de dominio de Active Directory.</span><span class="sxs-lookup"><span data-stu-id="5f7ba-107">The primary SIP domain can be the same as, or different from, your Active Directory Domain Services domain.</span></span> <span data-ttu-id="5f7ba-108">Por ejemplo, el dominio de Active Directory podría ser fabrikam.net y podría especificar que el dominio SIP principal fuera contoso.net.</span><span class="sxs-lookup"><span data-stu-id="5f7ba-108">For example, your Active Directory domain could be fabrikam.net, and you could specify your primary SIP domain to be contoso.net.</span></span>
   
 

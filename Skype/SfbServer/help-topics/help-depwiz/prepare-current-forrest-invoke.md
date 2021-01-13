@@ -1,8 +1,8 @@
 ---
 title: Preparar bosque actual (invocar)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
-description: 'La página comandos en ejecución muestra un resumen de las tareas a medida que se ejecutan. Revise la pantalla resumen y asegúrese de que las tareas se hayan realizado correctamente y de que no haya errores. Revise las advertencias para asegurarse de que están previstas. En el panel Resumen, debe ver estado de la tarea: completada. En la lista desplegable, debe estar visible el bosque de preparación del archivo de registro. Si no lo está, seleccione el archivo de registro y, a continuación, haga clic en Ver registro para revisar las acciones detalladas y el resultado de las tareas. Haga clic en finalizar para completar la preparación del bosque.'
-ms.openlocfilehash: 2f835d63bee39619cd888c6fdec385ddff533643
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'La página Ejecutando comandos muestra un resumen de las tareas a medida que se ejecutan. Examine la pantalla de resumen, asegúrese de que las tareas se hayan ejecutado correctamente y que no haya errores. Examine las advertencias para comprobar que sean las previstas. Debajo del panel de resumen, el estado de la tarea debería ser: Completado. En la lista desplegable, en principio debe aparecer el archivo de registro Preparar el bosque. Si no está, seleccione el archivo de registro y haga clic en Ver registro para examinar las acciones en detalle y el resultado de las tareas. Haga clic en Finalizar para completar la preparación del bosque.'
+ms.openlocfilehash: 72f75e198face2fd6351c895ec787b32c3792c6e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823514"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815430"
 ---
-# <a name="prepare-current-forrest-invoke"></a><span data-ttu-id="31492-109">Preparar bosque actual (invocar)</span><span class="sxs-lookup"><span data-stu-id="31492-109">Prepare Current Forrest (Invoke)</span></span>
+# <a name="prepare-current-forrest-invoke"></a><span data-ttu-id="10852-109">Preparar bosque actual (invocar)</span><span class="sxs-lookup"><span data-stu-id="10852-109">Prepare Current Forrest (Invoke)</span></span>
  
-<span data-ttu-id="31492-110">La página **comandos en ejecución** muestra un resumen de las tareas a medida que se ejecutan.</span><span class="sxs-lookup"><span data-stu-id="31492-110">The **Executing Commands** page displays a summary of tasks as they run.</span></span> <span data-ttu-id="31492-111">Revise la pantalla resumen y asegúrese de que las tareas se hayan realizado correctamente y de que no haya errores.</span><span class="sxs-lookup"><span data-stu-id="31492-111">Review the summary screen and make sure that the tasks were successful, and that there are no errors.</span></span> <span data-ttu-id="31492-112">Revise las advertencias para asegurarse de que están previstas.</span><span class="sxs-lookup"><span data-stu-id="31492-112">Review warnings to be sure that they are expected.</span></span> <span data-ttu-id="31492-113">En el panel Resumen, debe ver estado de la **tarea: completada**.</span><span class="sxs-lookup"><span data-stu-id="31492-113">Under the summary pane, you should see **Task status: Completed**.</span></span> <span data-ttu-id="31492-114">En la lista desplegable, debe estar visible el **bosque de preparación** del archivo de registro.</span><span class="sxs-lookup"><span data-stu-id="31492-114">In the drop-down list, the log file **Prepare Forest** should be visible.</span></span> <span data-ttu-id="31492-115">Si no lo está, seleccione el archivo de registro y, a continuación, haga clic en **Ver registro** para revisar las acciones detalladas y el resultado de las tareas.</span><span class="sxs-lookup"><span data-stu-id="31492-115">If it is not, select the log file and then click **View Log** to review the detailed actions and outcome of the tasks.</span></span> <span data-ttu-id="31492-116">Haga clic en **Finalizar** para completar la preparación del bosque.</span><span class="sxs-lookup"><span data-stu-id="31492-116">Click **Finish** to complete the preparation of the forest.</span></span>
+<span data-ttu-id="10852-p102">La página **Ejecutando comandos** muestra un resumen de las tareas a medida que se ejecutan. Examine la pantalla de resumen, asegúrese de que las tareas se hayan ejecutado correctamente y que no haya errores. Examine las advertencias para comprobar que sean las previstas. Debajo del panel de resumen, debería ver: **Estado de la tarea: completado**. En la lista desplegable, debería estar visible el archivo de registro **Preparar el bosque**. Si no está, seleccione el archivo de registro y haga clic en **Ver registro** para examinar las acciones en detalle y el resultado de las tareas. Haga clic en **Finalizar** para completar la preparación del bosque.</span><span class="sxs-lookup"><span data-stu-id="10852-p102">The **Executing Commands** page displays a summary of tasks as they run. Review the summary screen and make sure that the tasks were successful, and that there are no errors. Review warnings to be sure that they are expected. Under the summary pane, you should see **Task status: Completed**. In the drop-down list, the log file **Prepare Forest** should be visible. If it is not, select the log file and then click **View Log** to review the detailed actions and outcome of the tasks. Click **Finish** to complete the preparation of the forest.</span></span>
   
 

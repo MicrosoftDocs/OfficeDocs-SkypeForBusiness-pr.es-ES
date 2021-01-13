@@ -1,8 +1,8 @@
 ---
-title: Informe lista de errores en Skype empresarial Server
+title: Informe de lista de errores en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,56 +11,56 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Resumen: Obtenga información sobre el informe lista de errores en Skype empresarial Server.'
-ms.openlocfilehash: 8d0ca503f1a7883ab9ec1dd4ded8556b2ee3ab0f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre el informe de lista de errores en Skype Empresarial Server.'
+ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817950"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816850"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a><span data-ttu-id="c318e-103">Informe lista de errores en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="c318e-103">Failure List Report in Skype for Business Server</span></span> 
+# <a name="failure-list-report-in-skype-for-business-server"></a><span data-ttu-id="cf899-103">Informe de lista de errores en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="cf899-103">Failure List Report in Skype for Business Server</span></span> 
  
-<span data-ttu-id="c318e-104">**Resumen:** Obtenga más información sobre el informe lista de errores en Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="c318e-104">**Summary:** Learn about the Failure List Report in Skype for Business Server.</span></span>
+<span data-ttu-id="cf899-104">**Resumen:** Obtenga información sobre el informe de lista de errores en Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="cf899-104">**Summary:** Learn about the Failure List Report in Skype for Business Server.</span></span>
   
-<span data-ttu-id="c318e-p101">El informe de lista de errores proporciona información sobre los usuarios que participaron de una sesión punto a punto o de conferencia con errores. Esta información incluye el URI del usuario que experimentó el problema, además del código de respuesta SIP y el identificador de diagnóstico asociado al error.</span><span class="sxs-lookup"><span data-stu-id="c318e-p101">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session. This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
+<span data-ttu-id="cf899-105">El informe de lista de errores proporciona información sobre los participantes individuales que participaron en una sesión punto a punto o de conferencia con errores.</span><span class="sxs-lookup"><span data-stu-id="cf899-105">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session.</span></span> <span data-ttu-id="cf899-106">Esta información incluye el URI del usuario que experimentó el problema, así como el código de respuesta SIP y el id. de diagnóstico asociado al error.</span><span class="sxs-lookup"><span data-stu-id="cf899-106">This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
   
-## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="c318e-107">Obtener acceso al informe de lista de errores</span><span class="sxs-lookup"><span data-stu-id="c318e-107">Accessing the Failure List Report</span></span>
+## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="cf899-107">Acceso al informe de lista de errores</span><span class="sxs-lookup"><span data-stu-id="cf899-107">Accessing the Failure List Report</span></span>
 
-<span data-ttu-id="c318e-108">Para obtener acceso al informe de la lista de errores, haga clic en cualquiera de las siguientes métricas en el [Informe de distribución de errores de Skype empresarial Server](failure-distribution-report.md):</span><span class="sxs-lookup"><span data-stu-id="c318e-108">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md):</span></span>
+<span data-ttu-id="cf899-108">Para obtener acceso al informe de lista de errores, haga clic en cualquiera de las métricas siguientes en el informe de distribución de errores [de Skype Empresarial Server:](failure-distribution-report.md)</span><span class="sxs-lookup"><span data-stu-id="cf899-108">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md):</span></span>
   
-- <span data-ttu-id="c318e-109">Principales motivos del diagnóstico (sesiones)</span><span class="sxs-lookup"><span data-stu-id="c318e-109">Top diagnostic reasons (sessions)</span></span>
+- <span data-ttu-id="cf899-109">Motivos del diagnóstico principales (sesiones)</span><span class="sxs-lookup"><span data-stu-id="cf899-109">Top diagnostic reasons (sessions)</span></span>
     
-- <span data-ttu-id="c318e-110">Principales modalidades (sesiones)</span><span class="sxs-lookup"><span data-stu-id="c318e-110">Top modalities (sessions)</span></span>
+- <span data-ttu-id="cf899-110">Modalidades principales (sesiones)</span><span class="sxs-lookup"><span data-stu-id="cf899-110">Top modalities (sessions)</span></span>
     
-- <span data-ttu-id="c318e-111">Principales grupos de servidores (sesiones)</span><span class="sxs-lookup"><span data-stu-id="c318e-111">Top pools (sessions)</span></span>
+- <span data-ttu-id="cf899-111">Grupos principales (sesiones)</span><span class="sxs-lookup"><span data-stu-id="cf899-111">Top pools (sessions)</span></span>
     
-- <span data-ttu-id="c318e-112">Principales orígenes (sesiones)</span><span class="sxs-lookup"><span data-stu-id="c318e-112">Top sources (sessions)</span></span>
+- <span data-ttu-id="cf899-112">Fuentes principales (sesiones)</span><span class="sxs-lookup"><span data-stu-id="cf899-112">Top sources (sessions)</span></span>
     
-- <span data-ttu-id="c318e-113">Principales componentes (sesiones)</span><span class="sxs-lookup"><span data-stu-id="c318e-113">Top components (sessions)</span></span>
+- <span data-ttu-id="cf899-113">Componentes principales (sesiones)</span><span class="sxs-lookup"><span data-stu-id="cf899-113">Top components (sessions)</span></span>
     
-- <span data-ttu-id="c318e-114">Principales remitentes (sesiones)</span><span class="sxs-lookup"><span data-stu-id="c318e-114">Top from users (sessions)</span></span>
+- <span data-ttu-id="cf899-114">Usuarios de origen principales (sesiones)</span><span class="sxs-lookup"><span data-stu-id="cf899-114">Top from users (sessions)</span></span>
     
-- <span data-ttu-id="c318e-115">Principales destinatarios (sesiones)</span><span class="sxs-lookup"><span data-stu-id="c318e-115">Top to users (sessions)</span></span>
+- <span data-ttu-id="cf899-115">Usuarios de destino principales (sesiones)</span><span class="sxs-lookup"><span data-stu-id="cf899-115">Top to users (sessions)</span></span>
     
-- <span data-ttu-id="c318e-116">Principales agentes de remitente (sesiones)</span><span class="sxs-lookup"><span data-stu-id="c318e-116">Top from user agents (sessions)</span></span>
+- <span data-ttu-id="cf899-116">Agentes de usuarios de origen principales (sesiones)</span><span class="sxs-lookup"><span data-stu-id="cf899-116">Top from user agents (sessions)</span></span>
     
-<span data-ttu-id="c318e-117">En el informe de la lista de errores, puede obtener acceso al [informe detallado de la sesión de punto a punto en Skype empresarial Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica de detalles de la sesión para una sesión de punto a punto.</span><span class="sxs-lookup"><span data-stu-id="c318e-117">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="c318e-118">También puede tener acceso al informe de detalles de conferencia si hace clic en la métrica Conferencia para una conferencia.</span><span class="sxs-lookup"><span data-stu-id="c318e-118">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
+<span data-ttu-id="cf899-117">Desde el informe de lista de errores puede obtener acceso al informe de detalles de sesiones punto a punto en [Skype Empresarial Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica de detalles de sesión de una sesión punto a punto.</span><span class="sxs-lookup"><span data-stu-id="cf899-117">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="cf899-118">También puede obtener acceso al Informe de detalles de conferencia haciendo clic en la métrica Conferencia de una conferencia.</span><span class="sxs-lookup"><span data-stu-id="cf899-118">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
   
-## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="c318e-119">Aprovechar al máximo el informe de lista de errores</span><span class="sxs-lookup"><span data-stu-id="c318e-119">Making the Best Use of the Failure List Report</span></span>
+## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="cf899-119">Aprovechar al máximo el informe de lista de errores</span><span class="sxs-lookup"><span data-stu-id="cf899-119">Making the Best Use of the Failure List Report</span></span>
 
-<span data-ttu-id="c318e-p103">En el informe de lista de errores, puede ver una descripción de cada código de respuesta o cada identificador de diagnóstico. Para ello, simplemente mantenga el mouse sobre ese valor. Por ejemplo, si coloca el mouse sobre el identificador de diagnóstico 7025, verá un mensaje similar al siguiente como información sobre herramientas:</span><span class="sxs-lookup"><span data-stu-id="c318e-p103">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value. For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
+<span data-ttu-id="cf899-120">En el Informe de lista de errores, puede ver una descripción de cada código de respuesta o cada identificador de diagnóstico simplemente manteniendo el mouse sobre ese valor.</span><span class="sxs-lookup"><span data-stu-id="cf899-120">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value.</span></span> <span data-ttu-id="cf899-121">Por ejemplo, si mantienes el mouse sobre el Identificador de diagnóstico 7025, verás lo siguiente en una información sobre herramientas:</span><span class="sxs-lookup"><span data-stu-id="cf899-121">For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
   
-<span data-ttu-id="c318e-122">Error interno del servidor al crear medios para el usuario.</span><span class="sxs-lookup"><span data-stu-id="c318e-122">Internal server error creating media for user.</span></span>
+<span data-ttu-id="cf899-122">Error interno del servidor al crear medios para el usuario.</span><span class="sxs-lookup"><span data-stu-id="cf899-122">Internal server error creating media for user.</span></span>
   
-<span data-ttu-id="c318e-123">Es importante tener en cuenta que el informe de lista de errores no ofrece una manera directa de recuperar una lista de todos los usuarios que participaron de al menos una sesión con errores, ni tampoco permite determinar qué usuarios participaron con más frecuencia en sesiones con errores.</span><span class="sxs-lookup"><span data-stu-id="c318e-123">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="c318e-124">(Por un elemento, el informe de la lista de errores no tiene funciones de filtrado). Sin embargo, si exporta los datos y, a continuación, los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para buscar las respuestas a preguntas como estas.</span><span class="sxs-lookup"><span data-stu-id="c318e-124">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="c318e-125">Por ejemplo, supongamos que guarda los datos en un archivo .CSV con el nombre C:\Data\Failure_List.csv.</span><span class="sxs-lookup"><span data-stu-id="c318e-125">For example, suppose you save the data to a .CSV file named C:\Data\Failure_List.csv.</span></span> <span data-ttu-id="c318e-126">De acuerdo con los datos guardados en ese archivo, este comando muestra todos los usuarios que participaron de al menos una sesión con errores:</span><span class="sxs-lookup"><span data-stu-id="c318e-126">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span> 
+<span data-ttu-id="cf899-123">Es importante tener en cuenta que el informe de lista de errores no proporciona una forma sencilla de recuperar directamente una lista de todos los usuarios que participaron en al menos una sesión con errores, ni proporciona una forma de determinar qué usuarios participaron con más frecuencia en una sesión con errores.</span><span class="sxs-lookup"><span data-stu-id="cf899-123">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="cf899-124">(Por un lado, el informe de lista de errores no tiene capacidades de filtrado). Sin embargo, si exporta los datos y los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para encontrar las respuestas a preguntas como estas.</span><span class="sxs-lookup"><span data-stu-id="cf899-124">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="cf899-125">Por ejemplo, supongamos que guarda los datos en un archivo . Archivo CSV denominado C:\Data\Failure_List.csv.</span><span class="sxs-lookup"><span data-stu-id="cf899-125">For example, suppose you save the data to a .CSV file named C:\Data\Failure_List.csv.</span></span> <span data-ttu-id="cf899-126">En función de los datos guardados en ese archivo, este comando enumera todos los usuarios que participaron en al menos una sesión con errores:</span><span class="sxs-lookup"><span data-stu-id="cf899-126">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span> 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
 
-<span data-ttu-id="c318e-127">Ese comando devolverá una lista similar a esta:</span><span class="sxs-lookup"><span data-stu-id="c318e-127">That command will return a list similar to this:</span></span>
+<span data-ttu-id="cf899-127">Ese comando devolverá una lista similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="cf899-127">That command will return a list similar to this:</span></span>
   
 <pre>
     From user
@@ -72,14 +72,14 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
     Ken.Myer@litwareinc.com
 </pre>
 
-<span data-ttu-id="c318e-128">Estos dos comandos ofrecen información sobre el número total de sesiones con errores de las que participó cada usuario:</span><span class="sxs-lookup"><span data-stu-id="c318e-128">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
+<span data-ttu-id="cf899-128">Estos dos comandos informan del número total de sesiones con errores en las que participó cada usuario:</span><span class="sxs-lookup"><span data-stu-id="cf899-128">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
   
 ```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```
 
-<span data-ttu-id="c318e-129">Se devolverán datos similares a estos:</span><span class="sxs-lookup"><span data-stu-id="c318e-129">That will return data similar to this:</span></span>
+<span data-ttu-id="cf899-129">Devolverá unos datos similares a estos:</span><span class="sxs-lookup"><span data-stu-id="cf899-129">That will return data similar to this:</span></span>
   
 <pre>
 Count    Name
@@ -91,25 +91,25 @@ Count    Name
     14    Henrik.Jensen@litwareinc.com
 </pre>
 
-## <a name="filters"></a><span data-ttu-id="c318e-130">Filtros</span><span class="sxs-lookup"><span data-stu-id="c318e-130">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="cf899-130">Filtros</span><span class="sxs-lookup"><span data-stu-id="cf899-130">Filters</span></span>
 
-<span data-ttu-id="c318e-p105">Ninguno. No se puede filtrar el informe de lista de errores.</span><span class="sxs-lookup"><span data-stu-id="c318e-p105">None. You cannot filter the Failure List Report.</span></span>
+<span data-ttu-id="cf899-131">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="cf899-131">None.</span></span> <span data-ttu-id="cf899-132">No puede filtrar el informe de lista de errores.</span><span class="sxs-lookup"><span data-stu-id="cf899-132">You cannot filter the Failure List Report.</span></span>
   
-## <a name="metrics"></a><span data-ttu-id="c318e-133">Métricas</span><span class="sxs-lookup"><span data-stu-id="c318e-133">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="cf899-133">Métricas</span><span class="sxs-lookup"><span data-stu-id="cf899-133">Metrics</span></span>
 
-<span data-ttu-id="c318e-134">En la siguiente tabla se detalla la información proporcionada en el informe de lista de errores para cada llamada con errores.</span><span class="sxs-lookup"><span data-stu-id="c318e-134">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
+<span data-ttu-id="cf899-134">En la tabla siguiente se muestra la información proporcionada en el informe de lista de errores para cada llamada con errores.</span><span class="sxs-lookup"><span data-stu-id="cf899-134">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
   
-<span data-ttu-id="c318e-135">**Métricas del informe de lista de errores**</span><span class="sxs-lookup"><span data-stu-id="c318e-135">**Failure List Report Metrics**</span></span>
+<span data-ttu-id="cf899-135">**Métricas del informe de lista de errores**</span><span class="sxs-lookup"><span data-stu-id="cf899-135">**Failure List Report Metrics**</span></span>
 
-|<span data-ttu-id="c318e-136">**Nombre.**</span><span class="sxs-lookup"><span data-stu-id="c318e-136">**Name**</span></span>|<span data-ttu-id="c318e-137">**¿Se pueden ordenar los datos por este elemento?**</span><span class="sxs-lookup"><span data-stu-id="c318e-137">**Can you sort on this item?**</span></span>|<span data-ttu-id="c318e-138">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="c318e-138">**Description**</span></span>|
+|<span data-ttu-id="cf899-136">**Nombre**</span><span class="sxs-lookup"><span data-stu-id="cf899-136">**Name**</span></span>|<span data-ttu-id="cf899-137">**¿Se pueden ordenar los datos en este elemento?**</span><span class="sxs-lookup"><span data-stu-id="cf899-137">**Can you sort on this item?**</span></span>|<span data-ttu-id="cf899-138">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="cf899-138">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="c318e-139">**Hora de notificación**</span><span class="sxs-lookup"><span data-stu-id="c318e-139">**Reported time**</span></span> <br/> |<span data-ttu-id="c318e-140">No</span><span class="sxs-lookup"><span data-stu-id="c318e-140">No</span></span>  <br/> |<span data-ttu-id="c318e-141">Fecha y hora en que se registró el informe.</span><span class="sxs-lookup"><span data-stu-id="c318e-141">Date and time the report was recorded.</span></span>  <br/> |
-|<span data-ttu-id="c318e-142">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="c318e-142">**Request**</span></span> <br/> |<span data-ttu-id="c318e-143">No</span><span class="sxs-lookup"><span data-stu-id="c318e-143">No</span></span>  <br/> |<span data-ttu-id="c318e-p106">Tipo de solicitud SIP que presentó errores. Por ejemplo, INVITE o BYE.</span><span class="sxs-lookup"><span data-stu-id="c318e-p106">SIP request type that failed. For example, INVITE or BYE.</span></span>  <br/> |
-|<span data-ttu-id="c318e-146">**Código de respuesta**</span><span class="sxs-lookup"><span data-stu-id="c318e-146">**Response code**</span></span> <br/> |<span data-ttu-id="c318e-147">No</span><span class="sxs-lookup"><span data-stu-id="c318e-147">No</span></span>  <br/> |<span data-ttu-id="c318e-148">Código de respuesta SIP enviado cuando se produjo un error en la conferencia.</span><span class="sxs-lookup"><span data-stu-id="c318e-148">SIP response code sent when the conference failed.</span></span>  <br/> |
-|<span data-ttu-id="c318e-149">**Id. de diagnóstico**</span><span class="sxs-lookup"><span data-stu-id="c318e-149">**Diagnostic ID**</span></span> <br/> |<span data-ttu-id="c318e-150">No</span><span class="sxs-lookup"><span data-stu-id="c318e-150">No</span></span>  <br/> |<span data-ttu-id="c318e-151">Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores.</span><span class="sxs-lookup"><span data-stu-id="c318e-151">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span>  <br/> |
-|<span data-ttu-id="c318e-152">**Tiempo coste de conexión (ms)**</span><span class="sxs-lookup"><span data-stu-id="c318e-152">**Join cost time (ms)**</span></span> <br/> |<span data-ttu-id="c318e-153">No</span><span class="sxs-lookup"><span data-stu-id="c318e-153">No</span></span>  <br/> |<span data-ttu-id="c318e-154">Cantidad de tiempo (en milisegundos) que necesitó el usuario para unirse a la conferencia.</span><span class="sxs-lookup"><span data-stu-id="c318e-154">Amount of time (in milliseconds) required for the user to join the conference.</span></span>  <br/> |
-|<span data-ttu-id="c318e-155">**Remitente**</span><span class="sxs-lookup"><span data-stu-id="c318e-155">**From user**</span></span> <br/> |<span data-ttu-id="c318e-156">No</span><span class="sxs-lookup"><span data-stu-id="c318e-156">No</span></span>  <br/> |<span data-ttu-id="c318e-157">Dirección SIP del usuario que inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="c318e-157">SIP address of the user who initiated the call.</span></span>  <br/> |
-|<span data-ttu-id="c318e-158">**Agente de remitente**</span><span class="sxs-lookup"><span data-stu-id="c318e-158">**From user agent**</span></span> <br/> |<span data-ttu-id="c318e-159">No</span><span class="sxs-lookup"><span data-stu-id="c318e-159">No</span></span>  <br/> |<span data-ttu-id="c318e-160">Software usado por el extremo del usuario que inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="c318e-160">Software used by the endpoint of the user who initiated the call.</span></span>  <br/> |
-|<span data-ttu-id="c318e-161">**Destinatario**</span><span class="sxs-lookup"><span data-stu-id="c318e-161">**To user**</span></span> <br/> |<span data-ttu-id="c318e-162">No</span><span class="sxs-lookup"><span data-stu-id="c318e-162">No</span></span>  <br/> |<span data-ttu-id="c318e-163">Dirección SIP del usuario que recibió la llamada.</span><span class="sxs-lookup"><span data-stu-id="c318e-163">SIP address of the user who was being called.</span></span>  <br/> |
+|<span data-ttu-id="cf899-139">**Hora notificada**</span><span class="sxs-lookup"><span data-stu-id="cf899-139">**Reported time**</span></span> <br/> |<span data-ttu-id="cf899-140">No</span><span class="sxs-lookup"><span data-stu-id="cf899-140">No</span></span>  <br/> |<span data-ttu-id="cf899-141">Fecha y hora en que se registró el informe.</span><span class="sxs-lookup"><span data-stu-id="cf899-141">Date and time the report was recorded.</span></span>  <br/> |
+|<span data-ttu-id="cf899-142">**Solicitud**</span><span class="sxs-lookup"><span data-stu-id="cf899-142">**Request**</span></span> <br/> |<span data-ttu-id="cf899-143">No</span><span class="sxs-lookup"><span data-stu-id="cf899-143">No</span></span>  <br/> |<span data-ttu-id="cf899-144">Tipo de solicitud SIP con error.</span><span class="sxs-lookup"><span data-stu-id="cf899-144">SIP request type that failed.</span></span> <span data-ttu-id="cf899-145">Por ejemplo, INVITE o BYE.</span><span class="sxs-lookup"><span data-stu-id="cf899-145">For example, INVITE or BYE.</span></span>  <br/> |
+|<span data-ttu-id="cf899-146">**Código de respuesta**</span><span class="sxs-lookup"><span data-stu-id="cf899-146">**Response code**</span></span> <br/> |<span data-ttu-id="cf899-147">No</span><span class="sxs-lookup"><span data-stu-id="cf899-147">No</span></span>  <br/> |<span data-ttu-id="cf899-148">Código de respuesta SIP enviado cuando la conferencia ha fallado.</span><span class="sxs-lookup"><span data-stu-id="cf899-148">SIP response code sent when the conference failed.</span></span>  <br/> |
+|<span data-ttu-id="cf899-149">**Id. de diagnóstico**</span><span class="sxs-lookup"><span data-stu-id="cf899-149">**Diagnostic ID**</span></span> <br/> |<span data-ttu-id="cf899-150">No</span><span class="sxs-lookup"><span data-stu-id="cf899-150">No</span></span>  <br/> |<span data-ttu-id="cf899-151">Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores.</span><span class="sxs-lookup"><span data-stu-id="cf899-151">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span>  <br/> |
+|<span data-ttu-id="cf899-152">**Tiempo de costo de unión (ms)**</span><span class="sxs-lookup"><span data-stu-id="cf899-152">**Join cost time (ms)**</span></span> <br/> |<span data-ttu-id="cf899-153">No</span><span class="sxs-lookup"><span data-stu-id="cf899-153">No</span></span>  <br/> |<span data-ttu-id="cf899-154">Cantidad de tiempo (en milisegundos) necesario para que el usuario se una a la conferencia.</span><span class="sxs-lookup"><span data-stu-id="cf899-154">Amount of time (in milliseconds) required for the user to join the conference.</span></span>  <br/> |
+|<span data-ttu-id="cf899-155">**Remitente**</span><span class="sxs-lookup"><span data-stu-id="cf899-155">**From user**</span></span> <br/> |<span data-ttu-id="cf899-156">No</span><span class="sxs-lookup"><span data-stu-id="cf899-156">No</span></span>  <br/> |<span data-ttu-id="cf899-157">Dirección SIP del usuario que inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="cf899-157">SIP address of the user who initiated the call.</span></span>  <br/> |
+|<span data-ttu-id="cf899-158">**Agente de remitente**</span><span class="sxs-lookup"><span data-stu-id="cf899-158">**From user agent**</span></span> <br/> |<span data-ttu-id="cf899-159">No</span><span class="sxs-lookup"><span data-stu-id="cf899-159">No</span></span>  <br/> |<span data-ttu-id="cf899-160">Software usado por el punto de conexión del usuario que inició la llamada.</span><span class="sxs-lookup"><span data-stu-id="cf899-160">Software used by the endpoint of the user who initiated the call.</span></span>  <br/> |
+|<span data-ttu-id="cf899-161">**Destinatario**</span><span class="sxs-lookup"><span data-stu-id="cf899-161">**To user**</span></span> <br/> |<span data-ttu-id="cf899-162">No</span><span class="sxs-lookup"><span data-stu-id="cf899-162">No</span></span>  <br/> |<span data-ttu-id="cf899-163">Dirección SIP del usuario al que se ha llamado.</span><span class="sxs-lookup"><span data-stu-id="cf899-163">SIP address of the user who was being called.</span></span>  <br/> |
    
 

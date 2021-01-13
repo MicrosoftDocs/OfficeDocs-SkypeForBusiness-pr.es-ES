@@ -1,8 +1,8 @@
 ---
-title: Ver información de la interfaz de red
+title: Visualización de la información de la interfaz de red
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Puede ver la información de la interfaz de red con Windows PowerShell y el cmdlet Get-CsNetworkInterface. Puede ejecutar este cmdlet desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell.
-ms.openlocfilehash: d4443f7ec10a0f56cc82ab495d88518f3f3aa17d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Puede ver la información de la interfaz de red mediante Windows PowerShell y el cmdlet Get-CsNetworkInterface web. Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell.
+ms.openlocfilehash: 26876fe6f7d8ac6989c88e8247d28a72e78ff903
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817356"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815140"
 ---
-# <a name="viewing-network-interface-information-in-skype-for-business-server"></a><span data-ttu-id="71b07-104">Ver información de la interfaz de red en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="71b07-104">Viewing network interface information in Skype for Business Server</span></span>
+# <a name="viewing-network-interface-information-in-skype-for-business-server"></a><span data-ttu-id="bb77c-104">Visualización de la información de la interfaz de red en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="bb77c-104">Viewing network interface information in Skype for Business Server</span></span>
 
-<span data-ttu-id="71b07-105">Puede ver la información de la interfaz de red con Windows PowerShell y el cmdlet **Get-CsNetworkInterface** .</span><span class="sxs-lookup"><span data-stu-id="71b07-105">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="71b07-106">Puede ejecutar este cmdlet desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="71b07-106">You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+<span data-ttu-id="bb77c-105">Puede ver la información de la interfaz de red mediante Windows PowerShell y el cmdlet **Get-CsNetworkInterface.**</span><span class="sxs-lookup"><span data-stu-id="bb77c-105">You can view network interface information by using Windows PowerShell and the **Get-CsNetworkInterface** cmdlet.</span></span> <span data-ttu-id="bb77c-106">Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="bb77c-106">You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
 
-## <a name="to-view-network-interface-information"></a><span data-ttu-id="71b07-107">Para ver información sobre la interfaz de red</span><span class="sxs-lookup"><span data-stu-id="71b07-107">To view network interface information</span></span>
+## <a name="to-view-network-interface-information"></a><span data-ttu-id="bb77c-107">Para ver la información de interfaz de red</span><span class="sxs-lookup"><span data-stu-id="bb77c-107">To view network interface information</span></span>
 
-  - <span data-ttu-id="71b07-108">Para ver la información de la interfaz de red, escriba el siguiente comando en el shell de administración de Skype empresarial Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="71b07-108">To view network interface information, type the following command in the Skype for Business Server Management Shell, and then press ENTER:</span></span>
+  - <span data-ttu-id="bb77c-108">Para ver la información de la interfaz de red, escriba el siguiente comando en el Shell de administración de Skype Empresarial Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="bb77c-108">To view network interface information, type the following command in the Skype for Business Server Management Shell, and then press ENTER:</span></span>
     
         Get-CsNetworkInterface
     
-    <span data-ttu-id="71b07-109">Este comando devuelve información similar a la siguiente para cada interfaz de red:</span><span class="sxs-lookup"><span data-stu-id="71b07-109">This command returns information similar to the following for each network interface:</span></span>
+    <span data-ttu-id="bb77c-109">Este comando produce información similar a la siguiente para cada interfaz de red:</span><span class="sxs-lookup"><span data-stu-id="bb77c-109">This command returns information similar to the following for each network interface:</span></span>
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -40,6 +40,6 @@ ms.locfileid: "41817356"
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    <span data-ttu-id="71b07-110">Para obtener más información, vea [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span><span class="sxs-lookup"><span data-stu-id="71b07-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
+    <span data-ttu-id="bb77c-110">Para más información, vea [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span><span class="sxs-lookup"><span data-stu-id="bb77c-110">For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).</span></span>
 
 
