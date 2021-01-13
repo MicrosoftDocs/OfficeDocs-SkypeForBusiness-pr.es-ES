@@ -1,8 +1,8 @@
 ---
 title: Vista VideoStreamDetail
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,102 +12,102 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
-description: La vista VideoStreamDetail almacena información acerca de cada secuencia de vídeo de la base de datos. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: 3fb598feec3b4dca87086504c620109a99bce7d0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La vista VideoStreamDetail almacena información de todas las secuencias de vídeo en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
+ms.openlocfilehash: 6341febeb8d43e36975c5b4cc446ac24ff1287c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804150"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834350"
 ---
 # <a name="videostreamdetail-view"></a>Vista VideoStreamDetail
  
-La vista VideoStreamDetail almacena información acerca de cada secuencia de vídeo de la base de datos. Esta vista se presentó en Microsoft Lync Server 2013.
+La vista VideoStreamDetail almacena información de todas las secuencias de vídeo en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
   
 |**Columna**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |datetime  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|SessionSeq  <br/> |int  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|MediaLineLabel  <br/> |tinyint  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|StreamId  <br/> |int  <br/> |IDENTIFICADOR exclusivo dentro de una línea de medios.  <br/> |
-|StartTime  <br/> |datetime  <br/> |Hora de inicio de la sesión.  <br/> |
-|EndTime  <br/> |datetime  <br/> |Hora de finalización de la sesión.  <br/> |
-|CallPriority  <br/> |int  <br/> |Prioridad de la llamada.  <br/> |
-|CallerPool  <br/> |nvarchar(256)  <br/> |FQDN del grupo de llamadas.  <br/> |
-|CalleePool  <br/> |nvarchar(256)  <br/> |FQDN del grupo de destinatarios de la llamada.  <br/> |
-|Autor de llamada  <br/> |nvarchar (450)  <br/> |URI de la persona que llama.  <br/> |
-|Destinatario de la llamada  <br/> |nvarchar (450)  <br/> |URI de la persona que llama.  <br/> |
-|CallerUserAgent  <br/> |nvarchar(256)  <br/> |Cadena de agente de usuario de la llamada.  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |Tipo de agente de usuario de la llamada. Consulte la [tabla UserAgent](useragent.md) para obtener más información. <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |Categoría del agente de usuario de la llamada. Para obtener más información, consulta la [tabla UserAgentDef (QoE)](useragentdef-qoe.md) . <br/> |
-|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Cadena de agente de usuario de la persona que llama.  <br/> |
+|SessionTime  <br/> |datetime  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|SessionSeq  <br/> |entero  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|MediaLineLabel  <br/> |tinyint  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|StreamId  <br/> |entero  <br/> |Identificador único de una línea de medios.  <br/> |
+|StartTime  <br/> |datetime  <br/> |Fecha y hora de inicio de la sesión.  <br/> |
+|EndTime  <br/> |datetime  <br/> |Fecha y hora de finalización de la sesión.  <br/> |
+|CallPriority  <br/> |entero  <br/> |Prioridad de la llamada.  <br/> |
+|CallerPool  <br/> |nvarchar(256)  <br/> |FQDN del grupo de autores de llamadas.  <br/> |
+|CalleePool  <br/> |nvarchar(256)  <br/> |FQDN del grupo de destinatarios de llamadas.  <br/> |
+|Caller  <br/> |nvarchar(450)  <br/> |URI del autor de la llamada.  <br/> |
+|Destinatario de la llamada  <br/> |nvarchar(450)  <br/> |URI del destinatario de la llamada.  <br/> |
+|CallerUserAgent  <br/> |nvarchar(256)  <br/> |Cadena de agente de usuario del autor de la llamada.  <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |Tipo de agente de usuario del autor de la llamada. Consulte la [tabla UserAgent para](useragent.md) obtener más información. <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Categoría del agente de usuario del autor de la llamada. Consulte la [tabla UserAgentDef (QoE) para](useragentdef-qoe.md) obtener más información. <br/> |
+|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Cadena de agente de usuario del destinatario de la llamada.  <br/> |
 |CalleeUserAgentType  <br/> |smallint  <br/> |Tipo de agente de usuario del destinatario de la llamada. Consulte la [tabla UserAgent](useragent.md) para obtener información. <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Categoría del agente de usuario del destinatario de la llamada. Para obtener más información, consulta la [tabla UserAgentDef (QoE)](useragentdef-qoe.md) . <br/> |
-|CallerEndpoint  <br/> |nvarchar(256)  <br/> |Nombre del punto de conexión de la llamada.  <br/> |
-|CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Nombre del extremo de la persona que llama.  <br/> |
-|CallerOS  <br/> |nvarchar(128  <br/> |Sistema operativo (SO) del punto final de la llamada.  <br/> |
-|CalleeOS  <br/> |nvarchar(128  <br/> |Sistema operativo (SO) del extremo de la persona que llama.  <br/> |
-|CallerCPUName  <br/> |nvarchar(128  <br/> |Nombre de la CPU del punto final de la llamada.  <br/> |
-|CalleeCPUName  <br/> |nvarchar(128  <br/> |Nombre de la CPU del punto final de la llamada.  <br/> |
-|CallerCPUNumberOfCores  <br/> |smallint  <br/> |Número de núcleos de CPU del punto final de la llamada.  <br/> |
-|CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Número de núcleos de CPU del punto final de la llamada.  <br/> |
-|CallerCPUProcessorSpeed  <br/> |int  <br/> |Velocidad del procesador de CPU del punto final de la llamada.  <br/> |
-|CalleeCPUProcessorSpeed  <br/> |int  <br/> |Velocidad del procesador de CPU del punto final de la llamada.  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indica si el sistema de la persona que llama se está ejecutando en un entorno virtualizado. Para obtener más información, consulte la [tabla de extremos](endpoint.md) . <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indica si el sistema de la persona que llama se está ejecutando en un entorno virtualizado. Para obtener más información, consulte la [tabla de extremos](endpoint.md) . <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |Información sobre la ruta multimedia, como Direct o retransmitida. Para obtener más información, consulte la [tabla MediaLine](medialine-0.md) . <br/> |
-|CallerIceWarningFlags  <br/> |int  <br/> |Información sobre el proceso de establecimiento de conectividad interactiva (ICE) descrito en indicadores de bits para la persona que llama. Para obtener más información, consulte la especificación de protocolo de servidor de supervisión de la calidad de la experiencia.  <br/> |
-|CalleeIceWarningFlags  <br/> |int  <br/> |Información sobre el proceso de establecimiento de conectividad interactiva (ICE) descrito en marcas de bits para el destinatario de la llamada. Para obtener más información, consulte la especificación de protocolo de servidor de supervisión de la calidad de la experiencia.  <br/> |
-|Transport  <br/> |int  <br/> |Tipo de transporte: 0 es UDP, 1 es TCP.  <br/> |
-|CallerIPAddr  <br/> |var (50)  <br/> |Dirección IP del autor de la llamada. Puede ser una dirección IPv4 o IPv6.  <br/> |
-|CallerPort  <br/> |int  <br/> |Puerto usado por el autor de la llamada.  <br/> |
-|CallerInside  <br/> |bit  <br/> |Indica si la persona que llama está dentro de la red de la organización. 1 significa que la persona que llama está dentro de la red de la empresa, 0 significa que la persona que llama está fuera de la red.  <br/> |
-|CalleeIPAddr  <br/> |var (50)  <br/> |Dirección IP del destinatario. Puede ser una dirección IPv4 o IPv6.  <br/> |
-|CalleePort  <br/> |int  <br/> |Puerto usado por el destinatario.  <br/> |
-|CalleeInside  <br/> |bit  <br/> |Indica si la persona que llama está dentro de la red de la organización. 1 significa que el destinatario de la llamada está dentro de la red de la empresa, 0 significa que el destinatario de la llamada está fuera de la red.  <br/> |
-|CallerUserSite  <br/> |nvarchar(128  <br/> |Nombre del sitio de la persona que llama.  <br/> |
-|CallerRegion  <br/> |nvarchar(128  <br/> |Nombre del país o de la región del sitio de la persona que llama.  <br/> |
-|CalleeUserSite  <br/> |nvarchar(128  <br/> |Nombre del sitio de la persona que llama.  <br/> |
-|CalleeRegion  <br/> |nvarchar(128  <br/> |Nombre del país o región del sitio de la persona que llama.  <br/> |
-|CallerRelayIPAddr  <br/> |var (50)  <br/> |Dirección IP del servicio perimetral A/V que usa el autor de la llamada. Para obtener más información, consulte la [tabla dirección IP](ipaddress.md) . <br/> |
-|CallerRelayPort  <br/> |int  <br/> |Puerto en el servicio perimetral A/V usado por el autor de la llamada.  <br/> |
-|CalleeRelayIPAddr  <br/> |var (50)  <br/> |Clave de dirección IP del servicio perimetral A/V que usa el destinatario de la llamada. Para obtener más información, consulte la [tabla dirección IP](ipaddress.md) . <br/> |
-|CalleeRelayPort  <br/> |int  <br/> |Puerto del servicio perimetral A/V usado por el destinatario de la llamada.  <br/> |
-|CallerCaptureDev  <br/> |VARCHAR (256)  <br/> |Nombre del dispositivo de captura del autor de la llamada.  <br/> |
-|CallerRenderDev  <br/> |VARCHAR (256)  <br/> |Nombre del dispositivo de representación del autor de la llamada.  <br/> |
-|CallerCaptureDevDriver  <br/> |VARCHAR (256)  <br/> |Nombre del controlador del dispositivo de captura del autor de la llamada.  <br/> |
-|CallerRenderDevDriver  <br/> |VARCHAR (256)  <br/> |Nombre del controlador del dispositivo de representación del autor de la llamada.  <br/> |
-|CalleeCaptureDev  <br/> |VARCHAR (256)  <br/> |Nombre del dispositivo de captura de la persona que llama.  <br/> |
-|CalleeRenderDev  <br/> |VARCHAR (256)  <br/> |Nombre del dispositivo de representación de la persona que llama.  <br/> |
-|CalleCaptureDevDriver  <br/> |VARCHAR (256)  <br/> |Nombre del controlador del dispositivo de captura.  <br/> |
-|CalleeRenderDevDriver  <br/> |VARCHAR (256)  <br/> |Nombre del controlador del dispositivo de representación de la llamada.  <br/> |
-|CallerNetworkConnectionType  <br/> |tinyint  <br/> |Tipo de conexión de red de la persona que llama: 0 es con cable, 1 es inalámbrico.  <br/> |
-|CallerVPN  <br/> |bit  <br/> |Indica si el autor de la llamada se ha conectado a través de una red privada virtual. 1 es una red privada virtual (VPN) y 0 no es una VPN.  <br/> |
-|CallerLinkSpeed  <br/> |decimal (18;)  <br/> |Velocidad de vínculo de red para el punto final de la llamada en bps.  <br/> |
-|CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Tipo de conexión de red de la persona que llama: 0 es con cable, 1 es inalámbrico.  <br/> |
-|CalleeVPN  <br/> |bit  <br/> |Indica si el destinatario de la llamada se conecta a través de una red privada virtual. 1 es una red privada virtual (VPN) y 0 no es una VPN.  <br/> |
-|CalleeLinkSpeed  <br/> |decimal (18; 0)  <br/> |Velocidad de vínculo de red del extremo de la persona que llama (en bps).  <br/> |
-|ConversationalMOS  <br/> |decimal (3, 2)  <br/> |OP de banda estrecha de las sesiones de audio (basadas en ambas secuencias de audio).  <br/> |
-|AppliedBandwidthLimit  <br/> |int  <br/> |El ancho de banda real aplicado a la transmisión de la parte de envío dada proporciona varias configuraciones de directiva (TURN, API, SDP, Policy Server, etc.). Esto no se debe confundir con el ancho de banda efectivo porque puede haber un ancho de banda más bajo según el cálculo de ancho de banda. Básicamente, este es el ancho de banda máximo que la secuencia de envío puede tomar límites de bloqueo impuestas por la estimación del ancho de banda.  <br/> |
-|JitterInterArrival  <br/> |int  <br/> |Vibración de red media de las estadísticas del Protocolo de control de tiempo real (RTCP).  <br/> |
-|JitterInterArrivalMax  <br/> |int  <br/> |Vibración máxima de la red durante la llamada.  <br/> |
-|RoundTrip  <br/> |int  <br/> |Tiempo de ida y vuelta de las estadísticas de RTCP.  <br/> |
-|RoundTripMax  <br/> |int  <br/> |Tiempo máximo de ida y vuelta para la secuencia de audio.  <br/> |
-|PacketLossRate  <br/> |decimal (4,5)  <br/> |Tasa promedio de pérdida de paquetes durante la llamada.  <br/> |
-|PacketLossRateMax  <br/> |decimal (4,5)  <br/> |Pérdida máxima de paquetes observadas durante la llamada.  <br/> |
-|PacketUtilization  <br/> |int  <br/> |Recuento de paquetes para la secuencia de vídeo (Protocolo de transporte en tiempo real, RTP).  <br/> |
-|Ancho de banda más  <br/> |int  <br/> |Cálculo de ancho de banda para la secuencia de audio.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |Códec de audio usado para la llamada, al que se hace referencia desde la [tabla PayloadDescription](payloaddescription.md).  <br/> |
-|Resolución de la  <br/> |carácter (9)  <br/> |Resolución del vídeo en píxeles ancho multiplicado por píxeles alto. Se ha notificado como una cadena.  <br/> |
-|VideoBitRateAvg  <br/> |int  <br/> |Promedio de velocidad de bits de la secuencia de vídeo.  <br/> |
-|InboundVideoFrameRateAvg  <br/> |decimal (9, 4)  <br/> |Velocidad de fotogramas de video recibido.  <br/> |
-|OutboundVideoFrameRateAvg  <br/> |decimal (9, 4)  <br/> |Velocidad de fotogramas enviada.  <br/> |
-|ViideoBitRateMax  <br/> |int  <br/> |Máxima tasa de bits de vídeo durante la sesión de video.  <br/> |
-|Tasa  <br/> |decimal (9, 4)  <br/> |Velocidad a la que se han perdido paquetes de video.  <br/> |
-|VideoFrameLossRate  <br/> |decimal (9.4)  <br/> |Porcentaje de fotogramas de video totales que se pierden.  <br/> |
-|VideoFEC  <br/> |bit  <br/> |No usado.  <br/> |
-|VideoAllocateBWAvg  <br/> |int  <br/> |Cantidad promedio de ancho de banda asignado para el vídeo.  <br/> |
-|Media  <br/> |decimal (9.4)  <br/> |Porcentaje de fotogramas de video totales que se han perdido.  <br/> |
-|SenderIsCallerPAI  <br/> |bit  <br/> |Dirección de la secuencia para la información de identidad declarada en p. 1 significa que la dirección de la transmisión es de la persona que llama al destinatario de la llamada. 0 significa que la dirección de la transmisión es de la persona que llama a la persona que llama.  <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Categoría del agente de usuario del destinatario de la llamada. Consulte la [tabla UserAgentDef (QoE)](useragentdef-qoe.md) para obtener información. <br/> |
+|CallerEndpoint  <br/> |nvarchar(256)  <br/> |Nombre del extremo del autor de la llamada.  <br/> |
+|CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Nombre del extremo del destinatario de la llamada.  <br/> |
+|CallerOS  <br/> |nvarchar(128)  <br/> |Sistema operativo (SO) del extremo del autor de la llamada.  <br/> |
+|CalleeOS  <br/> |nvarchar(128)  <br/> |Sistema operativo (SO) del extremo del destinatario de la llamada.  <br/> |
+|CallerCPUName  <br/> |nvarchar(128)  <br/> |Nombre de CPU del extremo del autor de la llamada.  <br/> |
+|CalleeCPUName  <br/> |nvarchar(128)  <br/> |Nombre de CPU del punto de conexión del destinatario de la llamada.  <br/> |
+|CallerCPUNumberOfCores  <br/> |smallint  <br/> |Número de núcleos de CPU del extremo del autor de la llamada.  <br/> |
+|CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Número de núcleos de CPU del extremo del destinatario de la llamada.  <br/> |
+|CallerCPUProcessorSpeed  <br/> |entero  <br/> |Velocidad del procesador de CPU del punto de conexión del autor de la llamada.  <br/> |
+|CalleeCPUProcessorSpeed  <br/> |entero  <br/> |Velocidad del procesador de CPU del punto de conexión del destinatario de la llamada.  <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indica si el sistema del autor de la llamada se está ejecutando en un entorno virtualizado. Consulta la [tabla Endpoint para](endpoint.md) obtener más información. <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indica si el sistema del destinatario de la llamada se está ejecutando en un entorno virtualizado. Consulta la [tabla Endpoint para](endpoint.md) obtener más información. <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |Información sobre la ruta de medios, como directa o retransmitida. Consulta la [tabla MediaLine](medialine-0.md) para obtener más información. <br/> |
+|CallerIceWarningFlags  <br/> |entero  <br/> |Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el autor de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.  <br/> |
+|CalleeIceWarningFlags  <br/> |entero  <br/> |Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el destinatario de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.  <br/> |
+|Transport  <br/> |entero  <br/> |Tipo de transporte: 0 es UDP y 1 es TCP.  <br/> |
+|CallerIPAddr  <br/> |var(50)  <br/> |Dirección IP del autor de la llamada. Puede ser una dirección IPv4 o IPv6.  <br/> |
+|CallerPort  <br/> |entero  <br/> |Puerto del autor de la llamada.  <br/> |
+|CallerInside  <br/> |bit  <br/> |Indica si el autor de la llamada está dentro de la red de la organización. El valor 1 significa que el autor de la llamada está dentro de la red de empresa, 0 significa que se encuentra fuera.  <br/> |
+|CalleeIPAddr  <br/> |var(50)  <br/> |Dirección IP del destinatario de la llamada. Puede ser una dirección IPv4 o IPv6.  <br/> |
+|CalleePort  <br/> |entero  <br/> |Puerto del destinatario de la llamada.  <br/> |
+|CalleeInside  <br/> |bit  <br/> |Indica si el autor de la llamada está dentro de la red de la organización. El valor 1 significa que el destinatario de la llamada está dentro de la red de empresa, 0 significa que se encuentra fuera.  <br/> |
+|CallerUserSite  <br/> |nvarchar(128)  <br/> |Nombre del sitio del autor de la llamada.  <br/> |
+|CallerRegion  <br/> |nvarchar(128)  <br/> |Nombre del país o región del sitio del autor de la llamada.  <br/> |
+|CalleeUserSite  <br/> |nvarchar(128)  <br/> |Nombre del sitio del destinatario de la llamada.  <br/> |
+|CalleeRegion  <br/> |nvarchar(128)  <br/> |Nombre del país o región del sitio del destinatario de la llamada.  <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |Dirección IP del servicio perimetral A/V que usa el autor de la llamada. Vea la [tabla IPAddress para](ipaddress.md) obtener más información. <br/> |
+|CallerRelayPort  <br/> |entero  <br/> |Puerto en el servicio perimetral A/V que usa el autor de la llamada.  <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |Clave de dirección IP del servicio perimetral A/V que usa el destinatario de la llamada. Vea la [tabla IPAddress para](ipaddress.md) obtener más información. <br/> |
+|CalleeRelayPort  <br/> |entero  <br/> |Puerto en el servicio perimetral A/V que usa el destinatario de la llamada.  <br/> |
+|CallerCaptureDev  <br/> |varchar(256)  <br/> |Nombre del dispositivo de captura del autor de la llamada.  <br/> |
+|CallerRenderDev  <br/> |varchar(256)  <br/> |Nombre del dispositivo de representación del autor de la llamada.  <br/> |
+|CallerCaptureDevDriver  <br/> |varchar(256)  <br/> |Nombre del controlador del dispositivo de captura del autor de la llamada.  <br/> |
+|CallerRenderDevDriver  <br/> |varchar(256)  <br/> |Nombre del controlador del dispositivo de representación del autor de la llamada.  <br/> |
+|CalleeCaptureDev  <br/> |varchar(256)  <br/> |Nombre del dispositivo de captura del destinatario de la llamada.  <br/> |
+|CalleeRenderDev  <br/> |varchar(256)  <br/> |Nombre del dispositivo de representación del destinatario de la llamada.  <br/> |
+|CalleCaptureDevDriver  <br/> |varchar(256)  <br/> |Nombre del controlador del dispositivo de captura del destinatario de la llamada.  <br/> |
+|CalleeRenderDevDriver  <br/> |varchar(256)  <br/> |Nombre del controlador del dispositivo de representación del destinatario de la llamada.  <br/> |
+|CallerNetworkConnectionType  <br/> |tinyint  <br/> |Tipo de conexión de red del autor de la llamada: 0 está cableado, 1 es inalámbrico.  <br/> |
+|CallerVPN  <br/> |bit  <br/> |Indica si el autor de la llamada está conectado a través de una red privada virtual. El valor 1 indica una red privada virtual (VPN) y 0, otra red diferente.  <br/> |
+|CallerLinkSpeed  <br/> |decimal(18,)  <br/> |Velocidad del vínculo de red del extremo del autor de la llamada en bps.  <br/> |
+|CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Tipo de conexión de red del destinatario de la llamada: 0 está cableado, 1 es inalámbrico.  <br/> |
+|CalleeVPN  <br/> |bit  <br/> |Indica si el destinatario de la llamada está conectado a través de una red privada virtual. El valor 1 indica una red privada virtual (VPN) y 0, otra red diferente.  <br/> |
+|CalleeLinkSpeed  <br/> |decimal(18,0)  <br/> |Velocidad de vínculo de red para el extremo del destinatario de la llamada (en bps).  <br/> |
+|ConversationalMOS  <br/> |decimal(3,2)  <br/> |MOS de conversación de banda estrecha de las sesiones de audio (basado en ambas secuencias de audio).  <br/> |
+|AppliedBandwidthLimit  <br/> |entero  <br/> |Ancho de banda real aplicado a una secuencia de envío determinada en un entorno regido por diversas directivas (TURN, API, SDP, Servidor de directivas, etc.). No se debe confundir con el ancho de banda efectivo, ya que el ancho de banda efectivo puede ser menor en función de las previsiones de ancho de banda. Este valor es, a grandes rasgos, el ancho de banda máximo que la secuencia de envío puede ocupar asumiendo los límites impuestos por la previsión de ancho de banda.  <br/> |
+|JitterInterArrival  <br/> |entero  <br/> |Promedio de vibración de red de las estadísticas de Protocolo de control en tiempo real (RTCP).  <br/> |
+|JitterInterArrivalMax  <br/> |entero  <br/> |Vibración máxima de la red durante la llamada.  <br/> |
+|RoundTrip  <br/> |entero  <br/> |Tiempo de ida y vuelta de las estadísticas de RTCP.  <br/> |
+|RoundTripMax  <br/> |entero  <br/> |Tiempo de ida y vuelta máximo de la secuencia de audio.  <br/> |
+|PacketLossRate  <br/> |decimal(5,4)  <br/> |Promedio de frecuencia de pérdida de paquetes durante la llamada.  <br/> |
+|PacketLossRateMax  <br/> |decimal(5,4)  <br/> |Pérdida máxima de paquetes observada durante la llamada.  <br/> |
+|PacketUtilization  <br/> |entero  <br/> |Número de paquetes de la secuencia de vídeo (Protocolo de transporte en tiempo real, RTP).  <br/> |
+|BandwidthEst  <br/> |entero  <br/> |Previsiones de ancho de banda de la secuencia de audio.  <br/> |
+|PayloadDescription  <br/> |entero  <br/> |Códec de audio usado para la llamada, al que se hace referencia desde la [tabla PayloadDescription](payloaddescription.md).  <br/> |
+|VideoResolution  <br/> |char(9)  <br/> |Resolución del vídeo en píxeles de ancho multiplicados por píxeles de alto. Se proporciona como cadena.  <br/> |
+|VideoBitRateAvg  <br/> |entero  <br/> |Tasa de bits media de la secuencia de vídeo.  <br/> |
+|InboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |Tasa de fotogramas de vídeo recibida.  <br/> |
+|OutboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |Tasa de fotogramas de vídeo enviada.  <br/> |
+|ViideoBitRateMax  <br/> |entero  <br/> |Tasa de bits de vídeo máxima durante la sesión de vídeo.  <br/> |
+|VideoPacketLossRate  <br/> |decimal(9,4)  <br/> |Tasa a la que se perdieron los paquetes de vídeo.  <br/> |
+|VideoFrameLossRate  <br/> |decimal(9.4)  <br/> |Porcentaje del total de fotogramas de vídeo que se pierde.  <br/> |
+|VideoFEC  <br/> |bit  <br/> |No se usa.  <br/> |
+|VideoAllocateBWAvg  <br/> |entero  <br/> |Cantidad máxima del ancho de banda asignada para vídeo.  <br/> |
+|VideoLocalFrameLossPercentageAvg  <br/> |decimal(9.4)  <br/> |Porcentaje del total de fotogramas de vídeo que se perdió.  <br/> |
+|SenderIsCallerPAI  <br/> |bit  <br/> |Dirección de secuencia de la información de identidad p-asserted. El valor 1 indica que la dirección de la secuencia es del autor de la llamada al destinatario; y 0 significa del destinatario al autor.  <br/> |
    
 

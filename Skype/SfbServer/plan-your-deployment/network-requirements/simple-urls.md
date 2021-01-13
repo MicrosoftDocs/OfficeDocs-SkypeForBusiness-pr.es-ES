@@ -1,8 +1,8 @@
 ---
-title: Requisitos de DNS para las direcciones URL simples en Skype empresarial Server
+title: Requisitos de DNS para direcciones URL sencillas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,96 +11,96 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 'Resumen: Revise las consideraciones de la dirección URL simple en este tema antes de implementar los registros DNS para Skype empresarial Server.'
-ms.openlocfilehash: 3296e3678d1d38f021b792a2362f61de66796d0f
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumen: revise las consideraciones de dirección URL sencilla de este tema antes de implementar registros DNS para Skype Empresarial Server.'
+ms.openlocfilehash: d1c4213e1fe28c6f42cd4fa14f48bc8ce9b7bdf1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888481"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834590"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos de DNS para las direcciones URL simples en Skype empresarial Server
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos de DNS para direcciones URL sencillas en Skype Empresarial Server
 
-**Resumen:** Revise las consideraciones de la dirección URL simple en este tema antes de implementar los registros DNS para Skype empresarial Server.
+**Resumen:** Revise las consideraciones de dirección URL sencilla de este tema antes de implementar registros DNS para Skype Empresarial Server.
 
-Las direcciones URL simples facilitan la Unión a las reuniones para los usuarios y hacen que las herramientas administrativas de Skype empresarial Server sean más sencillas para los administradores. Las direcciones URL simples usan su propio dominio, que no debe coincidir con ninguno de los dominios SIP que defina. 
+Las direcciones URL sencillas facilitan la unión a reuniones para los usuarios y facilitan a los administradores el acceso a las herramientas administrativas de Skype Empresarial Server. Las direcciones URL sencillas usan su propio dominio, que no debe coincidir con ninguno de los dominios SIP que defina. 
 
-Skype empresarial Server admite las siguientes tres direcciones URL sencillas: reunirse, acceso telefónico y administrador. Es necesario configurar direcciones URL simples para la reunión y el acceso telefónico, y la dirección URL simple de administración es opcional. Los registros del sistema de nombres de dominio (DNS) necesarios para admitir direcciones URL sencillas varían en función de la forma en que se hayan definido dichas direcciones URL sencillas y de si desea admitir la recuperación ante desastres para las direcciones URL sencillas. 
+Skype Empresarial Server admite las tres direcciones URL sencillas siguientes: Reunión, Acceso telefónico local y Administrador. Debe configurar direcciones URL sencillas para reunión y acceso telefónico, y la dirección URL sencilla de administración es opcional. Los registros del sistema de nombres de dominio (DNS) necesarios para admitir direcciones URL sencillas varían en función de la forma en que se hayan definido dichas direcciones URL sencillas y de si desea admitir la recuperación ante desastres para las direcciones URL sencillas. 
 
 ## <a name="simple-url-scope"></a>Ámbito de dirección URL simple
 
-Puede configurar las direcciones URL simples para que tengan ámbito global o puede especificar direcciones URL simples diferentes para cada sitio central de su organización. Si se especifican tanto una dirección URL simple global como una simple URL de sitio, la dirección URL simple del sitio tiene prioridad. 
+Las direcciones URL sencillas se pueden configurar para que tengan un ámbito global, o bien se puede especificar una distinta por cada sitio central de la organización. En caso de que se haya especificado una dirección URL sencilla y otra de sitio, esta última tendrá prioridad. 
 
-En la mayoría de los casos, se recomienda establecer direcciones URL simples solo en el nivel global, de modo que la dirección URL simple de un usuario no cambie si se mueve de un sitio a otro. La excepción serían organizaciones que necesitan usar números de teléfono diferentes para los usuarios de acceso telefónico local en diferentes sitios. Tenga en cuenta que si establece una dirección URL simple (como la dirección URL de acceso telefónico simple) en un sitio para que sea una dirección URL simple de nivel de sitio, también debe establecer las otras direcciones URL simples en ese sitio para que también sean del nivel del sitio.
+En la mayoría de los casos, se recomienda establecer direcciones URL sencillas solo en el nivel global, de modo que la dirección URL sencilla de reunión de un usuario no cambie si se mueve de un sitio a otro. Una excepción a esto serían aquellas organizaciones que necesitan usar números de teléfono distintos para los usuarios de acceso telefónicos localizados en sitios distintos. Tenga en cuenta que, si una dirección URL sencilla (como, por ejemplo, de acceso telefónico) se establece en un sitio como dirección URL sencilla de nivel de sitio, también deberá definir el resto de direcciones URL sencillas como de nivel de sitio.
 
-Puede establecer direcciones URL globales simples en el generador de topología. Para establecer una dirección URL simple en el nivel del sitio, use el cmdlet Set-CsSimpleURLConfiguration.
+Puede establecer direcciones URL sencillas globales en el Generador de topologías. Para establecer una dirección URL sencilla en el nivel de sitio, use el cmdlet Set-CsSimpleURLConfiguration web.
 
-Definir una dirección URL simple también requerirá configurar un registro A y/o AAAA en su configuración DNS.
+Definir una dirección URL sencilla también requerirá establecer un registro A y/o AAAA en la configuración DNS.
 
-## <a name="simple-url-naming-and-validation-rules"></a>Nomenclatura de URL simple y reglas de validación
+## <a name="simple-url-naming-and-validation-rules"></a>Reglas de validación y nomenclatura de direcciones URL sencillas
 <a name="BK_Valid"> </a>
 
-El generador de topología y los cmdlets del shell de administración de Skype empresarial Server exigen varias reglas de validación para las direcciones URL simples. Debe establecer direcciones URL simples para reunirse y llamar, pero establecer una para administrador es opcional. Cada dominio SIP debe tener una dirección URL simple de reunirse, pero solo se necesita una dirección URL simple de marcación y una dirección URL simple de administración para toda la organización.
+Topology Builder y los cmdlets del Shell de administración de Skype Empresarial Server aplican varias reglas de validación para las direcciones URL sencillas. Las direcciones URL sencillas para reunión y acceso telefónico deben definirse obligatoriamente, si bien esto es opcional en el caso de las direcciones URL de administración. Cada dominio SIP debe tener una dirección URL sencilla de reunión particular, mientras que solo es preciso tener una dirección URL sencilla de acceso telefónico y de administración para toda la organización.
 
-Cada dirección URL simple de su organización debe tener un nombre único y no puede ser un prefijo de otra dirección URL simple (por ejemplo, no puede establecer SfB2015.contoso.com/Meet como su dirección URL simple y SfB2015.contoso.com/Meet/Dialin como la dirección URL simple de marcado). Los nombres de direcciones URL simples no pueden contener el FQDN de ninguna de sus agrupaciones ni ninguna información de https://FQDN:88/meet puerto (por ejemplo, no está permitido). Todas las direcciones URL simples deben comenzar con el prefijo https://. 
+Cada dirección URL sencilla de la organización debe tener un nombre único y no puede ser un prefijo de otra dirección URL sencilla (por ejemplo, no se pudo establecer SfB2015.contoso.com/Meet como dirección URL sencilla de reunión y SfB2015.contoso.com/Meet/Dialin como dirección URL sencilla de acceso telefónico). Los nombres de dirección URL sencillas no pueden contener el FQDN de ninguno de los grupos de servidores ni ninguna información de puerto (por ejemplo, https://FQDN:88/meet no está permitida). Todas las direcciones URL sencillas deben empezar por el prefijo https://. 
 
-Las direcciones URL simples solo pueden contener caracteres alfanuméricos (es decir, a-z, A-Z, 0-9 y el punto (.). Si usa otros caracteres, es posible que las direcciones URL simples no funcionen de la manera esperada.
+Las direcciones URL sencillas solo pueden contener caracteres alfanuméricos, esto es, a-z, A-Z, 0-9 y el signo de punto (.); si usa otros caracteres, podrían no funcionar del modo previsto.
 
-## <a name="changing-simple-urls-after-deployment"></a>Cambiar direcciones URL simples después de la implementación
+## <a name="changing-simple-urls-after-deployment"></a>Cambio de direcciones URL sencillas después de la implementación
 <a name="BK_Valid"> </a>
 
-Si cambia una dirección URL simple después de la implementación inicial, debe tener en cuenta cómo afecta el cambio a los registros DNS y los certificados para las direcciones URL simples. Si cambia la base de una dirección URL simple, debe cambiar también los certificados y los registros DNS. Por ejemplo, si cambia https://SfB2015.contoso.com/Meet de https://meet.contoso.com para cambia la dirección URL base de SfB2015.contoso.com a meet.contoso.com, tendrá que cambiar los registros DNS y los certificados para hacer referencia a meet.contoso.com. Si cambió la dirección URL simple de https://SfB2015.contoso.com/Meet a https://SfB2015.contoso.com/Meetings, la dirección URL base de SfB2015.contoso.com permanece igual, por lo que no es necesario realizar cambios en el certificado o DNS.
+Si modifica una dirección URL sencilla tras la implementación inicial, deberá tener presentes los cambios que podrían afectar a los registros DNS y certificados de dichas direcciones. Si el cambio afecta a la base de una dirección URL sencilla, deberá modificar también los certificados y registros DNS. Por ejemplo, al cambiar de a cambia la dirección URL base de SfB2015.contoso.com a meet.contoso.com, por lo que tendría que cambiar los certificados y registros DNS para hacer referencia a https://SfB2015.contoso.com/Meet https://meet.contoso.com meet.contoso.com. Si cambió la dirección URL sencilla de a , la dirección URL base de SfB2015.contoso.com sigue igual, por lo que no se necesitan cambios de https://SfB2015.contoso.com/Meet https://SfB2015.contoso.com/Meetings DNS ni de certificado.
 
-Sin embargo, cada vez que cambie un nombre de dirección URL simple, debe ejecutar **enable-CsComputer** en cada director y en el servidor front-end para registrar el cambio.
+Sin embargo, siempre que cambie un nombre de dirección URL simple, debe ejecutar **Enable-CsComputer** en cada director y servidor front-end para registrar el cambio.
 
-## <a name="naming-examples-for-simple-urls"></a>Ejemplos de nombres de direcciones URL simples
+## <a name="naming-examples-for-simple-urls"></a>Ejemplos de nomenclatura para direcciones URL sencillas
 <a name="BK_Valid"> </a>
 
-Hay tres opciones recomendadas para asignar nombres a las direcciones URL simples. La opción que elija tiene implicaciones en cuanto a la configuración de los registros A de DNS y los certificados que admiten direcciones URL simples. En cada opción, debe configurar una dirección URL simple para cada dominio SIP de su organización. 
+Son tres las opciones recomendadas de nomenclatura de las direcciones URL sencillas. Aquella que elija conllevará una serie de implicaciones a la hora de configurar los registros A de DNS y certificados que admiten direcciones URL sencillas. Con cada opción deberá configurar una dirección URL sencilla de reunión por cada dominio SIP existente en la organización. Tener una dirección URL sencilla para acceso telefónico y otra para administración en toda la organización siempre será suficiente, independientemente del número de dominios SIP que haya. 
 
-Siempre necesita una única dirección URL en toda la organización para el acceso telefónico y otra para el administrador, independientemente del número de dominios SIP que tenga.
+Tener una dirección URL sencilla para acceso telefónico y otra para administración en toda la organización siempre será suficiente, independientemente del número de dominios SIP que haya.
 
-En la opción 1, puede crear un nuevo nombre de dominio SIP para cada dirección URL simple.
+Con la opción 1, se crea un nombre de dominio SIP nuevo por cada dirección URL sencilla.
 
-Si usa esta opción, necesita un registro DNS (A) independiente para cada dirección URL simple, y cada reunión dirección URL simple debe tener un nombre en los certificados.
+Si se decanta por esta opción, necesitará un registro A de DNS por cada dirección URL sencilla y en los certificados deberá aparecer el nombre de todas las direcciones URL sencillas de reunión.
 
-**Opción de nomenclatura de URL simple 1**
+**Opción 1 de nomenclatura de dirección URL sencilla**
 
 
-| **Dirección URL sencilla** <br/> | **Ejemplo** <br/>                                                                                                    |
+| **Direcciones URL sencillas** <br/> | **Ejemplo** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Reunión  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com, y así sucesivamente (uno para cada dominio SIP de su organización)  <br/> |
-| Acceso telefónico local  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
+| Meet  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com y así sucesivamente (uno para cada dominio SIP de la organización)  <br/> |
+| Acceso telefónico  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
 | Administrador  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
-Con la opción 2, las direcciones URL simples se basan en el nombre de dominio SfB2015.contoso.com. Por lo tanto, solo necesita un registro DNS para habilitar los tres tipos de direcciones URL simples. Este registro A DNS hace referencia a SfB2015.contoso.com. Además, aún necesitará un registro DNS A para otros dominios SIP de su organización. 
+Con la opción 2, las direcciones URL sencillas se basan en el nombre de dominio SfB2015.contoso.com. Por lo tanto, solo necesita un registro A de DNS que permita los tres tipos de direcciones URL sencillas. Este registro A de DNS hace referencia SfB2015.contoso.com. Además, aún necesita registros DNS A independientes para otros dominios SIP de su organización. 
 
-**Opción de nomenclatura de URL simple 2**
+**Opción 2 de nomenclatura de dirección URL sencilla**
 
 
-| **Dirección URL sencilla** <br/> | **Ejemplo** <br/>                                                                                                                    |
+| **Direcciones URL sencillas** <br/> | **Ejemplo** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Reunión  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, y así sucesivamente (uno para cada dominio SIP de su organización)  <br/> |
-| Acceso telefónico local  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
+| Meet  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet y así sucesivamente (uno para cada dominio SIP de la organización)  <br/> |
+| Acceso telefónico  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
 | Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
-La opción 3 es más útil si tiene muchos dominios SIP y desea que tengan diferentes direcciones URL simples, pero quiere minimizar los requisitos de certificados y registros DNS para estas direcciones URL simples. 
+La opción 3 es la más práctica si existen muchos dominios SIP y quiere que cada uno de ellos tenga una dirección URL sencilla de reunión pero, al mismo tiempo, desea reducir al mínimo los requisitos de registros DNS y certificados para dichas direcciones. 
 
-**Opción de nomenclatura de URL simple 3**
+**Opción 3 de nomenclatura de dirección URL sencilla**
 
 
-| **Dirección URL sencilla** <br/> | **Ejemplo** <br/>                                                                                                      |
+| **Direcciones URL sencillas** <br/> | **Ejemplo** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Reunión  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
-| Acceso telefónico local  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
+| Meet  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
+| Acceso telefónico  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
 | Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
-## <a name="disaster-recovery-option-for-simple-urls"></a>Opción de recuperación ante desastres para direcciones URL simples
+## <a name="disaster-recovery-option-for-simple-urls"></a>Opción de recuperación ante desastres para direcciones URL sencillas
 <a name="BK_Valid"> </a>
 
-Si tiene varios sitios que contienen grupos front-end y su proveedor DNS admite GeoDNS, puede configurar los registros DNS para que las direcciones URL simples admitan la recuperación ante desastres, de modo que la funcionalidad de dirección URL simple continuará incluso si se produce un grupo de servidores front-end completo. Esta característica de recuperación ante desastres admite las direcciones URL sencillas de acceso telefónico y de reunión.
+Si tiene varios sitios que contienen grupos de servidores front-end y su proveedor dns admite GeoDNS, puede configurar los registros DNS de direcciones URL sencillas para admitir la recuperación ante desastres, de modo que la funcionalidad de dirección URL sencilla continúe incluso si un grupo de servidores front-end completo deja de estar disponible. Esta función de recuperación ante desastres admite las direcciones URL sencillas de Acceso telefónico y Reunión.
 
-Para configurar esto, cree dos direcciones de GeoDNS. Cada dirección tiene dos registros A de DNS o CNAME que se resuelven en dos grupos de servidores que funcionan juntos con fines de recuperación ante desastres. Una dirección de GeoDNS se utiliza para el acceso interno y se resuelve en el FQDN web interno o la dirección IP del equilibrador de carga para dos grupos de servidores. La otra dirección de GeoDNS se utiliza para el acceso externo y se resuelve en el FQDN web externo o la dirección IP del equilibrador de carga para dos grupos de servidores. Lo siguiente es un ejemplo de dirección URL sencilla de reunión, que utiliza los FQDN para los grupos de servidores. 
+Para configurar esto, cree dos direcciones de GeoDNS. Cada dirección tiene dos registros DNS A o CNAME que resultan en dos grupos de servidores que funcionan juntos con fines de recuperación ante desastres. Una dirección de GeoDNS se utiliza para el acceso interno y se resuelve en el FQDN web interno o la dirección IP del equilibrador de carga para dos grupos de servidores. La otra dirección de GeoDNS se utiliza para el acceso externo y se resuelve en el FQDN web externo o la dirección IP del equilibrador de carga para dos grupos de servidores. Lo siguiente es un ejemplo de dirección URL sencilla de Reunión, que utiliza los FQDN para los grupos de servidores. 
 
 ```console
 Meet-int.geolb.contoso.com
@@ -114,22 +114,22 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Luego, cree registros CNAME que se resuelven en la dirección URL sencilla de reunión (como meet.contoso.com) en las dos direcciones de GeoDNS.
+Luego cree registros CNAME que se resuelven su dirección URL sencilla de Reunión (como meet.contoso.com) en las dos direcciones de GeoDNS.
 
 > [!NOTE]
-> Si su red utiliza vinculaciones (enrutamiento de todo el tráfico de direcciones URL sencillas a través del vínculo externo, incluido el tráfico que proviene desde su organización), puede sencillamente configurar la dirección de GeoDNS externa y resolver la dirección URL sencilla de reunión en solo esa dirección externa.
+> Si su red utiliza vinculaciones (enrutamiento de todo su tráfico de direcciones URL sencillas a través del enlace externo, incluido el tráfico que proviene desde su organización), entonces puede simplemente configurar la dirección de GeoDNS externa y resolver su dirección URL sencilla de Reunión en solo esa dirección externa.
 
-Al utilizar este método, puede configurar cada dirección de GeoDNS para que utilice un método round robin para distribuir solicitudes en los dos grupos de servidores, o bien para que se conecte principalmente a un grupo de servidores (como el grupo de servidores más cercano) y utilizar el otro grupo solo en caso de que no se pueda establecer la conexión. 
+Al utilizar este método, puede configurar cada dirección de GeoDNS para que utilice un método de operación por turnos para distribuir solicitudes en los dos grupos de servidores, o bien para que se conecte a un grupo de servidores (como el grupo de servidores más cercano) y utilizar el otro grupo solo en caso de que no se pueda establecer la conexión. 
 
-Puede configurar las mismas opciones para la dirección URL sencilla de acceso telefónico. Para ello, cree registros adicionales, como los que se han en el ejemplo anterior `dialin` , `meet` que se sustituirán por los registros DNS. Para la dirección URL sencilla de administrador, utilice una de las tres opciones que se mencionaron antes en esta sección.
+Puede configurar los mismos parámetros para la dirección URL sencilla de Acceso telefónico. Para ello, cree registros adicionales como los del ejemplo anterior, sustituyéndolo  `dialin` en `meet` los registros DNS. Para la dirección URL sencilla de Administrador, utilice una de las tres opciones que se mencionaron antes en esta sección.
 
-Una vez que esta configuración esté definida, necesita utilizar una aplicación de supervisión para configurar la supervisión HTTP para que busque errores. Para obtener acceso externo, supervise para asegurarse de que HTTPS obtenga lyncdiscover.<sipdomain> las solicitudes al FQDN de la web externa o la dirección IP del equilibrador de carga de los dos grupos se han realizado correctamente. Por ejemplo, las siguientes solicitudes no tienen que contener ningún encabezado **ACCEPT** y necesitan devolver **200 OK**.
+Una vez que esta configuración esté definida, debe utilizar una aplicación de supervisión para configurar la supervisión HTTP para que esté alerta de los fallos. Para el acceso externo, supervise para asegurarse de que HTTPS GET lyncdiscover.<sipdomain> las solicitudes al FQDN web externo o a la dirección IP del equilibrador de carga para los dos grupos de servidores son correctas. Por ejemplo, las siguientes solicitudes no deben contener ningún encabezado **ACCEPT** y deben devolver **200 OK**.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-Para el acceso interno, necesita supervisar el puerto 5061 en el FQDN web interno o la dirección IP del equilibrador de carga para los dos grupos de servidores. Si se detecta cualquier problema de conectividad, la dirección VIP de estos grupos de servidores necesita cerrar los puertos 80, 443 y 4443.
+Para el acceso interno, debe supervisar el puerto 5061 en el FQDN web interno o la dirección IP del equilibrador de carga para los dos grupos de servidores. Si se detectan errores de conectividad, la DIRECCIÓN VIP de estos grupos de servidores debe cerrar los puertos 80, 443 y 4443.
 
 

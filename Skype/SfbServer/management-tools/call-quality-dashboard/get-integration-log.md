@@ -1,8 +1,8 @@
 ---
 title: Obtener integración de registro
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: 'Resumen: Obtenga información sobre la operación obtener registro de integración, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: e1d790f4723eaaf716482143f08c78624db47433
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumen: obtenga información sobre la operación Obtener registro de integración, que forma parte de la API de datos para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
+ms.openlocfilehash: 69827fa9f3fd3f56843a41867b029a071799ba66
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888809"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832600"
 ---
 # <a name="get-integration-log"></a>Obtener integración de registro
  
-**Resumen:** Obtenga más información sobre la operación obtener registro de integración, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
+**Resumen:** Obtenga información sobre la operación Obtener registro de integración, que forma parte de la API de datos para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
   
-La operación obtener registro de integración es parte de la API de datos para el panel de calidad de llamadas
+La operación Obtener registro de integración forma parte de la API de datos para el panel de calidad de llamadas
   
 ## <a name="get-integration-log"></a>Obtener integración de registro
 
-La operación obtener registro de integración devuelve una lista de entradas de registro que describen las actividades en el procesamiento del cubo QoE.
+La operación Obtener registro de integración devuelve una lista de entradas de registro que describen las actividades en el procesamiento del cubo QoE.
   
-Esta operación está deshabilitada de forma predeterminada por razones de seguridad. Cuando se deshabilita, devuelve una cadena vacía. Para habilitar esta operación, los administradores deben configurar el archivo Web. config para la aplicación Web de host de la API de datos.
+Esta operación está deshabilitada de forma predeterminada por motivos de seguridad. Cuando se deshabilita, devuelve una cadena vacía. Para habilitar esta operación, los administradores deben configurar el web.config de la aplicación web host de la API de datos.
   
 
-|Método|**Solicitar URI**|**Versión HTTP**|
+|Method|**URI de solicitud**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|Obtener  <br/> |https://\<portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros de URI** : ninguno.
+ **Parámetros uri:** ninguno.
   
- **Solicitar encabezados** : no hay encabezados adicionales.
+ **Encabezados de solicitud:** no hay encabezados adicionales.
   
- **Solicitar cuerpo** : ninguno.
+ **Cuerpo de la** solicitud: ninguno.
   
- **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
+ **Respuesta:** la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto).
+ **Código de estado:** una operación correcta devuelve el código de estado 200 (Correcto).
   
- **Encabezados de respuesta** : no hay encabezados adicionales.
+ **Encabezados de respuesta:** no hay encabezados adicionales.
   
- **Cuerpo de respuesta** : a continuación se muestra una estructura de ejemplo de entradas de registro.
+ **Cuerpo de la** respuesta: a continuación se muestra una estructura de ejemplo de entradas de registro.
   
 ```json
 [

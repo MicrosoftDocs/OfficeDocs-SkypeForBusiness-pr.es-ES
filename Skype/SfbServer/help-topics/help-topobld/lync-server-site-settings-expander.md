@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de sitio de Lync Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 'Para editar las propiedades de un sitio ya creado, efectúe las acciones siguientes:'
-ms.openlocfilehash: 69555a04be4125e213ba2eca7afd7255100c0444
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acfd7e312dbde97e847a9b97d9730a6d0b3488da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217571"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832920"
 ---
 # <a name="lync-server-site-settings-expander"></a>Expansor de configuración de sitio de Lync Server
 
@@ -43,7 +43,7 @@ Si se ha definido una configuración de federación del servidor o grupo de serv
 > [!CAUTION]
 > Esta configuración afectará a todos los sitios. Asegúrese de que la configuración que está configurando en este sitio es adecuada para todos los sitios.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 Para obtener información, consulte [Topologías para el acceso de usuarios externos](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).
 

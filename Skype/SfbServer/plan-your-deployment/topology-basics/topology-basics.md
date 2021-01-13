@@ -1,8 +1,8 @@
 ---
-title: Conceptos básicos sobre la topología de Skype empresarial Server
+title: Conceptos básicos de topología para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,245 +15,245 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
-description: 'Resumen: Elija su topología para Skype empresarial Server. Obtenga más información sobre Server collocation para Skype empresarial Server.'
-ms.openlocfilehash: b3f45a37bde409dcda38f3047e60776ebc8560e6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: elija la topología de Skype Empresarial Server. Obtenga información sobre la colocación de servidores para Skype Empresarial Server.'
+ms.openlocfilehash: 9b0dbe6a74a5982c2816c022e5ea7a99ba2abf07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801700"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831760"
 ---
-# <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos sobre la topología de Skype empresarial Server
+# <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos de topología para Skype Empresarial Server
 
-**Resumen:** Elija su topología para Skype empresarial Server. Obtenga más información sobre Server collocation para Skype empresarial Server.
+**Resumen:** Elija la topología de Skype Empresarial Server. Obtenga información sobre la colocación de servidores para Skype Empresarial Server.
 
-Antes de prepararse, debe saber que está planificando la topología adecuada para su implementación de Skype empresarial Server. Lo primero que debe decidir es si va a tener una implementación local de Skype empresarial Server, o si va a combinarlo con una implementación en línea de Skype empresarial Server en una implementación híbrida de Skype empresarial. En ambos casos, deseará leer más, ya que detallamos las topologías locales aquí, pero los detalles híbridos se documentan en su propia sección.
+Antes de preparar cualquier otra cosa, querrá saber que está planeando la topología adecuada para su implementación de Skype Empresarial Server. Lo primero que debe decidir es si va a tener una implementación local de Skype Empresarial Server o si va a combinar esto con una implementación de Skype Empresarial Server Online en una implementación híbrida. En ambos casos, querrá seguir leyendo, ya que aquí detallaremos las topologías locales, pero los detalles híbridos se documentan en su propia sección.
 
-También puede ver algunas topologías de ejemplo en las [topologías de referencia de Skype empresarial Server](reference-topologies.md).
+También puede ver algunas topologías de ejemplo en [topologías de referencia para Skype Empresarial Server.](reference-topologies.md)
 
 ## <a name="sites"></a>Sitios
 
-En Skype empresarial Server, se definen los sitios de la red que contienen los componentes de Skype empresarial Server. Un sitio es un conjunto de equipos con una buena conexión de red de alta velocidad y baja latencia, como, por ejemplo, una red de área local (LAN) única o dos redes conectadas a través de una red de fibra óptica de alta velocidad. Tenga en cuenta que los sitios de Skype empresarial Server son un concepto independiente de los sitios de los servicios de dominio de Active Directory y los sitios de Microsoft Exchange Server. Los sitios de Skype empresarial Server no necesitan corresponderse con los sitios de Active Directory.
+En Skype Empresarial Server, se definen los sitios de la red que contienen componentes de Skype Empresarial Server. Un sitio es un conjunto de equipos con una buena conexión de red de alta velocidad y baja latencia, como, por ejemplo, una red de área local (LAN) única o dos redes conectadas a través de una red de fibra óptica de alta velocidad. Tenga en cuenta que los sitios de Skype Empresarial Server son un concepto independiente de los sitios de Servicios de dominio de Active Directory Microsoft Exchange Server sitios. No es necesario que los sitios de Skype Empresarial Server se correspondan con los sitios de Active Directory.
 
-Skype empresarial Server admite la implementación local de uno o varios sitios que se pueden escalar según los requisitos de ubicación y disponibilidad alta.
+Skype Empresarial Server admite la implementación local de uno o más sitios que se pueden escalar según los requisitos de alta disponibilidad y ubicación.
 
-Su implementación tendrá al menos un sitio central (también denominado Centro de proceso de aplicaciones, este es un centro de recursos para todos los servidores ubicados en él) y cada sitio central de la implementación tendrá un servidor Standard Edition o al menos un grupo de servidores front-end Enterprise Edition. A continuación señalamos las diferencias de cada opción:
+La implementación tendrá al menos un sitio central (también denominado centro de datos, es decir, un centro de datos para todos los servidores ubicados en él) y cada sitio central de la implementación tendrá un servidor Standard Edition o al menos un grupo de servidores front-end Enterprise Edition. Puedes ver las diferencias en cada opción a continuación:
 
-- El servidor Standard Edition incluye una base de datos de SQL Server Express.
+- El servidor Standard Edition incluye una base de datos SQL Server Express.
 
 - El grupo de servidores front-end Enterprise Edition incluye:
 
-  - Uno o más servidores front-end (idealmente, como mínimo, tres, por escalabilidad), con un máximo de doce. Puede que se necesite equilibrio de carga para más de un servidor.
+  - Uno o más servidores front-end (idealmente al menos tres, para escalabilidad), con un máximo de doce. El equilibrio de carga sería necesario para más de un servidor.
 
   - Un servidor back-end independiente.
 
-Un poco más avanzada esta sección encontrará más información sobre los distintos roles de servidor.
+Más adelante en esta sección encontrará más información sobre los distintos roles de servidor.
 
-Además de sus sitios centrales, también puede acabar de tener uno o más sitios de sucursal asociados con su sitio central. Dependen del sitio central para casi toda su funcionalidad, por lo que son exactamente lo que componen.
+Además de los sitios centrales, también puede terminar teniendo uno o más sitios de sucursal asociados con el sitio central. Dependen del sitio central para casi todas sus funciones, ¿de qué están hechas exactamente?
 
-- Dispositivo de rama superviviente, que combina una puerta de enlace de red de telefonía pública conmutada (RTC), con alguna funcionalidad de Skype empresarial Server.
+- Aplicación de sucursal con funciones de supervivencia, que combina una puerta de enlace de red telefónica conmutada (RTC) con algunas funciones de Skype Empresarial Server.
 
-- Servidor de sucursal superviviente, es un servidor que ejecuta Windows Server y tiene instalado el software de servidor de mediación y el registrador de Skype empresarial Server.
+- Servidor de sucursal con funciones de supervivencia, es un servidor que ejecuta Windows Server que tiene instalado el software registrador y servidor de mediación de Skype Empresarial Server.
 
-- Puerta de enlace independiente de RTC (que no forma parte de la aplicación de rama superviviente).
+- Puerta de enlace RTC independiente (que no forma parte de la aplicación de sucursal con funciones de supervivencia).
 
-- Servidor de mediación independiente o grupo de servidores de mediación independiente (si no quiere Collocate esta función con el dispositivo de sucursal superviviente).
+- Servidor de mediación independiente o grupo de servidores de mediación independiente (si no desea colocar este rol con la aplicación de sucursal con funciones de supervivencia).
 
-## <a name="whats-in-a-skype-for-business-server-site"></a>¿Qué hay en un sitio de Skype empresarial Server?
+## <a name="whats-in-a-skype-for-business-server-site"></a>¿Qué hay en un sitio de Skype Empresarial Server?
 
-Para obtener más detalles, un sitio central también puede tener:
+Para obtener más información, un sitio central también puede tener:
 
-- Varios grupos front-end, en el mismo dominio o en dominios diferentes (Recuerde que, al planear que todos los servidores front-end de un grupo de servidores front-end, junto con los servidores back-end de la agrupación, tengan que estar en el mismo dominio).
+- Varios grupos de servidores front-end, en el mismo dominio o dominios diferentes (recuerde que al planear que todos los servidores front-end de un grupo de servidores front-end, junto con los servidores back-end del grupo de servidores, tienen que estar en el mismo dominio).
 
 - Varios servidores Standard Edition.
 
-- Office Web Apps Server, que se usa con Office Web Apps en Skype empresarial Server para compartir y representar presentaciones de PowerPoint.
+- Office Web Apps Server, que se usa con Office Web Apps en Skype Empresarial Server para compartir y representar presentaciones de PowerPoint.
 
-- Servidor perimetral o grupo perimetral (en una red perimetral). Son necesarios si quiere que la implementación admita socios federados, conectividad de mensajería instantánea pública, una puerta de enlace Extensible Messaging and Presence Protocol (XMPP) y el acceso de usuarios remotos. Puede encontrar más información en la documentación de planeación del servidor perimetral.
+- Servidor perimetral o grupo de servidores perimetrales (en una red perimetral). Necesario si desea que su implementación admita socios federados, conectividad de mensajería instantánea pública, puerta de enlace de protocolo extensible de mensajería y presencia (XMPP) y acceso de usuarios remotos. Puede encontrar más detalles en la documentación de planeación del servidor perimetral.
 
-- Servidor de chat persistente. Resulta útil si quiere que los usuarios puedan participar en conversaciones entre varias entidades sobre un tema en particular que persisten en el tiempo. Encontrará más información en el tema planear el servidor de chat persistente.
+- Servidor de chat persistente. Es útil si desea que los usuarios puedan participar en conversaciones basadas en varios temas que persisten a lo largo del tiempo. Hay más información en el tema Planning for Persistent Chat Server.
 
-- Supervisión. Se usa para admitir la recopilación de datos de la calidad de la experiencia de la experiencia de audio/vídeo (A/V) y la grabación de detalles de llamadas (CDR) de las conferencias de telefonía IP empresarial y A/V de su implementación. Nos detendremos en esto en el tema de planeación de la supervisión.
+- Supervisión. Se usa para admitir la recopilación de datos para audio/vídeo (A/V) Calidad de la experiencia (QoE) y registro detallado de llamadas (CDR) para conferencias Telefonía IP empresarial y A/V en su implementación. Lo trataremos en detalle en el tema Planning for Monitoring.
 
-- Grupo de directores o directores. No es necesario, pero es útil si desea mejorar la resiliencia y habilitar el redireccionamiento de las solicitudes de usuario de Skype empresarial al grupo de hogar del usuario. Si desea implementar directores, se admite un máximo de 10 por grupo. Si es algo que necesita, siga leyendo de forma definitiva en el tema Planning for Directors.
+- Director o grupo de directores. No es necesario, pero es útil si desea mejorar la resistencia y habilitar el redireccionamiento de las solicitudes de usuario de Skype Empresarial al grupo de servidores principal del usuario. Si desea implementar directores, se admite un máximo de 10 por grupo de servidores. Si es algo que necesita, definitivamente continúe leyendo en el tema Planeación para directores.
 
-- Proxy inverso. Este no es un componente de Skype empresarial Server, pero si desea permitir el uso compartido de contenido web para usuarios federados, si tiene previsto admitir tráfico de movilidad, si los usuarios remotos desean usar la libreta de direcciones, unirse a reuniones, etc., esto es algo que le desea tener en su entorno. Hay un tema de configuración del servidor proxy inverso que puedes consultar para obtener más información, cuando estés listo.
+- Proxy inverso. No es un componente de Skype Empresarial Server, pero si desea admitir el uso compartido de contenido web para usuarios federados, si desea admitir el tráfico de movilidad, si los usuarios remotos quieren usar la libreta de direcciones, unirse a reuniones, entre otros, esto es algo que querrá tener en su entorno. Hay un tema sobre la configuración del servidor proxy inverso que puede consultar para obtener más información cuando esté listo.
 
-A continuación encontrará más información sobre cómo combinar estos servidores.
+A continuación encontrará información adicional sobre la colocación de estos servidores.
 
-Todos los grupos de aplicaciones para el usuario y los servidores Standard Edition implementados en su sitio central comparten lo siguiente, suponiendo que los haya implementado:
+Todos los grupos de servidores front-end y los servidores Standard Edition implementados en el sitio central comparten lo siguiente, suponiendo que los haya implementado:
 
 ||||
 |:-----|:-----|:-----|
-|Grupo de directores o directores  <br/> |Servidor de mediación independiente o grupo de servidores de mediación  <br/> |Servidor Office Web Apps  <br/> |
-|Servidor perimetral o grupo Edge  <br/> |Servidor de chat persistente o grupo de servidores de chat persistente  <br/> |Supervisión  <br/> |
+|Director o grupo de directores  <br/> |Servidor de mediación independiente o grupo de servidores de mediación  <br/> |Servidor Office Web Apps  <br/> |
+|Servidor perimetral o grupo perimetral  <br/> |Servidor de chat persistente o grupo de servidores de chat persistente  <br/> |Supervisión  <br/> |
 
-¿Dónde está la mensajería unificada de Exchange en esta lista? Bueno, puede utilizarlo con Skype empresarial Server si desea integrarlo con la mensajería unificada de Exchange, pero no es un componente del sitio de Skype empresarial Server, por lo que no lo mencionaremos aquí.
+¿Dónde se encuentra el servidor de mensajería unificada (UM) de Exchange en esta lista? Bueno, puede usarlo con Skype Empresarial Server si desea integrarse con la mensajería unificada de Exchange, pero no es un componente del sitio de Skype Empresarial Server, por lo que no lo mencionamos aquí.
 
-Es posible que esté planeando tener varios sitios centrales y, si es así, puedan compartir los siguientes servidores y roles, si se han implementado en su sitio central:
+Puede que esté planeando tener varios sitios centrales y, si es así, pueden compartir los siguientes servidores y roles, si están implementados en el sitio central:
 
 |||
 |:-----|:-----|
-|Servidor de mediación independiente o grupo de servidores de mediación  <br/> |Servidor perimetral o grupo Edge  <br/> |
+|Servidor de mediación independiente o grupo de servidores de mediación  <br/> |Servidor perimetral o grupo perimetral  <br/> |
 |Servidor de chat persistente o grupo de servidores de chat persistente  <br/> |Supervisión  <br/> |
 
-Al igual que la última lista, no incluimos el servidor de mensajería unificada de Exchange aquí porque no forma parte de la implementación de Skype empresarial Server, sino que también cae en la misma categoría.
+Al igual que en la última lista, no estamos incluyendo el servidor de mensajería unificada de Exchange aquí porque no forma parte de la implementación de Skype Empresarial Server, pero también entra en la misma categoría aquí.
 
-Evidentemente, hay otros componentes y opciones que se incluyen en las implementaciones.
+Hay otros componentes y opciones que se encuentran en las implementaciones, por supuesto.
 
 |||||
 |:-----|:-----|:-----|:-----|
-|Firewalls  <br/> |Puertas de enlace RTC (si implementa Telefonía IP empresarial)  <br/> |Servidor de mensajería unificada de Exchange (si desea integrar con mensajería unificada de Exchange)  <br/> |Equilibrio de carga de DNS  <br/> |
-|Equilibradores de carga de hardware  <br/> |Bases de datos de SQL Server  <br/> |Recursos compartidos de archivos  <br/> ||
+|Firewalls  <br/> |Puertas de enlace RTC (si implementa Telefonía IP empresarial  <br/> |Servidor de mensajería unificada de Exchange (si desea integrarlo con la mensajería unificada de Exchange)  <br/> |Equilibrio de carga de DNS  <br/> |
+|Equilibradores de carga de hardware  <br/> |Bases de datos SQL Server  <br/> |Recursos compartidos de archivos  <br/> ||
 
-## <a name="server-roles"></a>Roles de servidor
+## <a name="server-roles"></a>Funciones de servidor
 
-Cada servidor que ejecuta Skype empresarial Server ejecuta uno o varios roles de servidor. Un rol de servidor es un conjunto definido de funcionalidades de Skype empresarial Server proporcionadas por ese servidor. No es necesario implementar todos los roles del servidor disponibles en su red. Instale solo los que incluyan la funcionalidad que desee.
+Cada servidor que ejecuta Skype Empresarial Server ejecuta uno o más roles de servidor. Un rol de servidor es un conjunto definido de funcionalidades de Skype Empresarial Server proporcionadas por ese servidor. No es necesario implementar todos los roles de servidor disponibles en la red. Instale solo los que incluyan la funcionalidad que desee.
 
-Para la mayoría de roles del servidor, puede implementar grupos de varios servidores que ejecuten el mismo rol del servidor para, así, obtener una mayor escalabilidad y alta disponibilidad. Todos los servidores de un grupo de servidores necesitan ejecutar uno o varios roles del servidor idénticos. Para la mayoría de los tipos de grupos en Skype empresarial Server, debe implementar un equilibrador de carga para distribuir el tráfico entre los distintos servidores del grupo. Skype empresarial Server admite los equilibradores de carga de hardware y el equilibrio de carga del sistema de nombres de dominio (DNS).
+Para la mayoría de roles del servidor, puede implementar grupos de varios servidores que ejecuten el mismo rol del servidor con el fin de obtener una mayor escalabilidad y alta disponibilidad. Cada servidor en un grupo debe ejecutar un rol o roles de servidores idénticos. Para la mayoría de los tipos de grupos en Skype Empresarial Server, debe implementar un equilibrador de carga para propagar el tráfico entre los distintos servidores del grupo. Skype Empresarial Server admite equilibrio de carga del Sistema de nombres de dominio (DNS) y equilibradores de carga de hardware.
 
 ### <a name="front-end-server-and-back-end-server"></a>Servidor front-end y servidor back-end
 
-En Skype empresarial Server Enterprise Edition, el servidor front-end es el rol de servidor principal y ejecuta muchas funciones básicas de Skype empresarial Server. El servidor front-end, junto con los servidores back-end, son los únicos roles de servidor que se requieren en cualquier implementación de Skype empresarial Server Enterprise Edition.
+En Skype Empresarial Server Enterprise Edition, el servidor front-end es el rol de servidor principal y ejecuta muchas funciones básicas de Skype Empresarial Server. El servidor front-end, junto con los servidores back-end, son los únicos roles de servidor necesarios para estar en cualquier implementación de Skype Empresarial Server Enterprise Edition.
 
-Un grupo front-end es un conjunto de servidores front-end, configurado de manera idéntica, que funcionan conjuntamente para proporcionar servicios a un grupo común de usuarios. Un grupo de varios servidores ejecutando el mismo rol proporciona escalabilidad y funciones de conmutación por error.
+Un grupo de servidores front-end es un conjunto de servidores front-end configurados de forma idéntica que trabajan juntos para proporcionar servicios a un grupo común de usuarios. Un grupo de varios servidores ejecutando el mismo rol proporciona escalabilidad y funciones de conmutación por error.
 
-El servidor front-end incluye lo siguiente:
+El servidor front-end incluye:
 
 - Registro y autenticación de usuarios.
 
 - Información de presencia e intercambio de tarjetas de contacto.
 
-- Servicios de libreta de direcciones y ampliación de la lista de distribución.
+- Servicios de libreta de direcciones y expansión de listas de distribución.
 
-- Funcionalidad de MI, incluidas las conferencias de MI de varios participantes.
+- Funcionalidad de mensajería instantánea, incluidas las conferencias de mensajería instantánea con varios partidos.
 
-- Conferencia web, conferencia de acceso telefónico local por RTC y conferencia A/V (si se ha implementado).
+- Conferencia web, conferencia de acceso telefónico local RTC y conferencia A/V (si se implementa).
 
-- Hospedaje de aplicaciones para las aplicaciones incluidas con Skype empresarial Server (por ejemplo, el operador de conferencia y la aplicación de grupo de respuesta) y las aplicaciones de terceros.
+- Hospedaje de aplicaciones, tanto para aplicaciones incluidas con Skype Empresarial Server (por ejemplo, operador de conferencia y aplicación de grupo de respuesta) como aplicaciones de terceros.
 
-- Opcionalmente, la supervisión, para recopilar información de uso en forma de registros detallados de llamadas (CDR) y registros de errores de llamadas (CER). Esta información proporciona métricas sobre la calidad de los medios (audio y vídeo) que atraviesan tu red tanto las llamadas de voz empresariales como las conferencias A/V.
+- Opcionalmente, la supervisión, para recopilar información de uso en forma de registros de detalles de las llamadas (CDR) y registros de errores de las llamadas (CER). Esta información proporciona métricas sobre la calidad de los medios (audio y vídeo) que atraviesan la red tanto para las Telefonía IP empresarial como para las conferencias A/V.
 
-- Componentes web para las tareas basadas en web compatibles, como el Programador web y el Iniciador de participación en reuniones.
+- Componentes web para las tareas basadas en web compatibles, como el Programador web y Join Launcher.
 
-- Opcionalmente, el archivado, para archivar comunicaciones de MI y contenido de reuniones con fines de cumplimiento. Para ver más detalles, mire [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) en la documentación de planeación.
+- Opcionalmente, el archivado, para archivar comunicaciones de MI y contenido de reuniones con fines de cumplimiento. Para ver más detalles, consulte [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) en la documentación referente a la planeación.
 
-    En Lync Server 2010 y versiones anteriores, la supervisión y el archivado eran roles de servidor diferentes, no colocados en el servidor front-end.
+    En Lync Server 2010 y versiones anteriores, la supervisión y el archivado eran roles de servidor independientes, no se colocaban en el servidor front-end.
 
 - Opcionalmente, si el chat persistente está habilitado, servicios web de chat persistente para la administración de salones de chat y para la carga y descarga de archivos.
 
-Los grupos de servidores front-end también son el lugar principal de almacenamiento de los datos de conferencia y de usuario. La información sobre cada usuario se replica entre tres servidores front-end del grupo, y se hace una copia de seguridad de esta información en los servidores back-end.
+Los grupos de servidores front-end también son el lugar principal de almacenamiento para los datos de conferencia y de usuario. La información sobre cada usuario se replica entre tres servidores front-end del grupo, y se hace una copia de seguridad de la misma en los servidores back-end.
 
-Además, un servidor front-end de la implementación también ejecuta el servidor de administración central, que administra e implementa los datos de configuración básica de todos los servidores que ejecutan Skype empresarial Server. El servidor de administración central también proporciona capacidades de Shell de administración y transferencia de archivos de Lync Server.
+Además, un servidor front-end de la implementación también ejecuta el servidor de administración central, que administra e implementa datos de configuración básicos en todos los servidores que ejecutan Skype Empresarial Server. El servidor de administración central también proporciona shell de administración de Lync Server y capacidades de transferencia de archivos.
 
-Los servidores back-end son servidores de base de datos que ejecutan Microsoft SQL Server y que proporcionan los servicios de base de datos para el grupo de servidores front-end. Los servidores back-end actúan como almacenes de copia de seguridad del usuario del grupo y los datos de la Conferencia, y son las principales tiendas de otras bases de datos, como la base de datos de grupos de respuesta. Puede tener un único servidor de servicios de fondo, pero se recomienda usar la [alta disponibilidad del servidor de servicios de fondo en Skype empresarial Server](../high-availability-and-disaster-recovery/back-end-server.md) para la conmutación por error. Los servidores back-end no ejecutan ningún software de servidor de Skype empresarial.
+Los servidores back-end son servidores de bases de Microsoft SQL Server que proporcionan los servicios de base de datos para el grupo de servidores front-end. Los servidores back-end sirven como almacenes de copia de seguridad para los datos de conferencia y usuario del grupo y son los almacenes principales de otras bases de datos, como la base de datos de grupo de respuesta. Puede tener un único servidor back-end, pero se recomienda la alta disponibilidad del servidor [back-end en Skype Empresarial Server](../high-availability-and-disaster-recovery/back-end-server.md) para la conmutación por error. Los servidores back-end no ejecutan ningún software de Skype Empresarial Server.
 
 > [!IMPORTANT]
-> No recomendamos collocating bases de datos de Skype empresarial Server con otras bases de datos. Si lo hace, la disponibilidad y el rendimiento pueden verse afectados.
+> No se recomienda instalar bases de datos de Skype Empresarial Server con otras bases de datos. Si lo hace, la disponibilidad y el rendimiento pueden verse afectados.
 
 > [!NOTE]
-> La creación de reflejos de SQL está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn, y los métodos de clúster de conmutación por error de SQL son preferidos con Skype empresarial Server 2019.
+> SQL mirroring está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error son preferidos con Skype Empresarial Server 2019.
 
 La información almacenada en las bases de datos del servidor back-end incluye información de presencia, listas de contactos de los usuarios, datos de conferencia (incluidos los datos persistentes sobre el estado de todas las conferencias actuales) y datos de programación de conferencias.
 
 ### <a name="edge-server"></a>Servidor perimetral
 
-El servidor perimetral permite a los usuarios comunicarse y colaborar con usuarios ajenos a los firewalls de la organización. Estos usuarios externos pueden incluir los usuarios de la organización que actualmente están trabajando fuera del sitio, los usuarios de organizaciones de socios federados y los usuarios externos que han recibido una invitación para unirse a conferencias hospedadas en su implementación de Skype empresarial Server.
+El servidor perimetral permite a los usuarios comunicarse y colaborar con usuarios fuera de los firewalls de la organización. Estos usuarios externos pueden incluir los propios usuarios de la organización que actualmente trabajan fuera del sitio, los usuarios de organizaciones asociadas federadas y los usuarios externos que han sido invitados a unirse a conferencias hospedadas en su implementación de Skype Empresarial Server.
 
-La implementación de servidor perimetral también permite servicios de movilidad, que admiten la funcionalidad de Lync en dispositivos móviles. Los usuarios pueden usar dispositivos móviles Apple iOS, Android, Windows Phone o Nokia compatibles para realizar actividades como enviar y recibir mensajes instantáneos, ver contactos y ver el estado de presencia. Además, los dispositivos móviles admiten algunas características de Enterprise Voice, como hacer clic para unirse a una conferencia, llamar a través del trabajo, acceso a un número único, correo de voz y llamadas perdidas. La característica de movilidad también admite las notificaciones de inserción en los dispositivos móviles que no son compatibles con las aplicaciones que se ejecutan en segundo plano. Las notificaciones de inserción son notificaciones que se envían a dispositivos móviles sobre un evento que se produce mientras una aplicación móvil está inactiva.
+La implementación del servidor perimetral también habilita los servicios de movilidad, que admiten la funcionalidad de Lync en dispositivos móviles. Los usuarios pueden utilizar dispositivos móviles compatibles Apple iOS, Android, Windows Phone o Nokia para realizar actividades como enviar y recibir mensajes instantáneos, ver contactos y ver el estado de presencia. Asimismo, los dispositivos móviles admiten algunas características de Enterprise Voice, como hacer clic para unirse a una conferencia, Vía trabajo, conexión con un solo número, correo de voz y llamadas perdidas. La característica de movilidad también admite las notificaciones de inserción en los dispositivos móviles que no son compatibles con las aplicaciones que se ejecutan en segundo plano. Las notificaciones de inserción son notificaciones que se envían a dispositivos móviles sobre un evento que se produce mientras una aplicación móvil está inactiva.
 
-Los servidores perimetrales también incluyen un proxy totalmente integrado de Extensible Messaging and Presence Protocol (XMPP), con una puerta de enlace XMPP incluida en los servidores front-end. Puede configurar estos componentes XMPP para permitir que los usuarios de Skype empresarial Server agreguen contactos de socios basados en XMPP para la mensajería instantánea y la presencia.
+Los servidores perimetrales también incluyen un proxy totalmente integrado del Protocolo extensible de mensajería y presencia (XMPP), con una puerta de enlace XMPP incluida en los servidores front-end. Puede configurar estos componentes XMPP para permitir que los usuarios de Skype Empresarial Server agreguen contactos de socios basados en XMPP para mensajería instantánea y presencia.
 
 > [!NOTE]
-> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte [migrar la Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Consulte [Migración de la federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obtener más información.
 
 ### <a name="mediation-server"></a>Servidor de mediación
 
-Servidor de mediación es un componente necesario para implementar la telefonía IP empresarial, la llamada a través del trabajo y las conferencias de acceso telefónico local. Servidor de mediación traduce la señalización y, en algunas configuraciones, multimedia entre su infraestructura interna de Skype empresarial Server y una puerta de enlace de red telefónica conmutada (RTC), IP-PBX o un tronco de protocolo de inicio de sesión (SIP). Puede ejecutar el servidor de mediación en el mismo servidor que el servidor front-end o separarlo en un grupo de servidores de mediación independiente.
+El servidor de mediación es un componente necesario para implementar Telefonía IP empresarial, Vía trabajo y conferencias de acceso telefónico local. El servidor de mediación traduce la señalización y, en algunas configuraciones, los medios entre la infraestructura interna de Skype Empresarial Server y una puerta de enlace de red telefónica conmutada (RTC), IP-PBX o un tronco sip (Protocolo de inicio de sesión). El servidor de mediación se puede ejecutar combinado en el mismo servidor que el servidor front-end o solo en un grupo del servidor de mediación independiente.
 
-Para obtener más información, consulte [componente de servidor de mediación en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md).
+Para obtener más información, vea [el componente del servidor de mediación en Skype Empresarial Server.](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
 
 ### <a name="video-interop-server"></a>Servidor de interoperabilidad de vídeo
 
-El servidor de interoperabilidad de vídeo es un nuevo rol a partir de Skype empresarial Server 2015. Le permite integrar su implementación de Skype empresarial Server con determinadas soluciones de VTC (sistema de videoconferencias de terceros). Una acción de VIS es un intermediario entre un sistema de teleconferencia de terceros y una implementación de Skype empresarial Server. En esta versión, el VIS se centra en la interoperabilidad con los sistemas de vídeo de Cisco o Tandberg.
+El servidor de interoperabilidad de vídeo es un nuevo rol a partir de Skype Empresarial Server 2015. Le permite integrar su implementación de Skype Empresarial Server con determinadas soluciones VTC (Sistema de teleconferencia de vídeo) de terceros. Un VIS actúa como intermediario entre un sistema de teleconferencia de terceros y una implementación de Skype Empresarial Server. Para esta versión, VIS se centra en la interoperabilidad con los sistemas de vídeo de Cisco/Tandberg.
 
-Para obtener más información, consulte [planear el servidor de interoperabilidad de vídeo en Skype empresarial Server](../../plan-your-deployment/video-interop-server.md).
+Para obtener más información, consulte [Plan for Video Interop Server in Skype for Business Server](../../plan-your-deployment/video-interop-server.md).
 
 ### <a name="director"></a>Director
 
-Los directores pueden autenticar solicitudes de usuario de Skype empresarial Server, pero no alojan cuentas de usuario ni proporcionan servicios de presencia o de conferencia. Los directores son de mucha utilidad para mejorar la seguridad en las implementaciones donde el acceso de usuarios externos está permitido. El director puede autenticar las solicitudes antes de enviarlas a los servidores internos. En caso de un ataque por denegación de servicio, el ataque termina en el director y no llega los servidores front-end.
+Los directores pueden autenticar las solicitudes de usuario de Skype Empresarial Server, pero no albergan cuentas de usuario ni proporcionan servicios de presencia o conferencias. Los directores son de mucha utilidad para mejorar la seguridad en las implementaciones que habilitan el acceso de usuarios externos. El director puede autenticar las solicitudes antes de enviarlas a los servidores internos. En caso de un ataque por denegación de servicio, el ataque termina en el director y no alcanza los servidores front-end.
 
-### <a name="persistent-chat-server-roles"></a>Roles de servidor de chat persistentes
+### <a name="persistent-chat-server-roles"></a>Roles de servidor de chat persistente
 
 > [!NOTE]
-> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.
 
-El chat persistente permite a los usuarios participar en conversaciones entre varias entidades sobre un tema en particular que persisten a lo largo del tiempo. El servidor front-end de chat persistente ejecuta el servicio de chat persistente, mientras que el servidor back-end de chat persistente almacena los datos del historial de chat y la información sobre categorías y salones de chat. El servidor back-end opcional de cumplimiento de chat persistente puede almacenar el contenido del chat y los eventos de cumplimiento con fines de cumplimiento.
+El chat persistente permite a los usuarios participar en conversaciones con varios participantes sobre un tema en particular que persisten a lo largo del tiempo. El servidor front-end de chat persistente ejecuta el servicio de chat persistente. El servidor back-end de chat persistente almacena los datos del historial de chat y la información sobre categorías y salones de chat. El servidor back-end opcional de cumplimiento de chat persistente puede almacenar el contenido del chat y los eventos de cumplimiento con fines de cumplimiento.
 
-Los servidores que ejecutan Skype empresarial Server Standard Edition también pueden ejecutar una conversación persistente colocada en el mismo servidor. No puede Collocate el servidor front-end de chat persistente con el servidor front-end Enterprise Edition.
+Los servidores que ejecutan Skype Empresarial Server Standard Edition también pueden ejecutar chat persistente en el mismo servidor. No puede colocar el servidor front-end de chat persistente con el servidor front-end Enterprise Edition.
 
-Para obtener más información, vea [planear el servidor de chat persistente en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
+Para obtener más información, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
-## <a name="high-availability-and-disaster-recovery-support"></a>Compatibilidad de alta disponibilidad y recuperación ante desastres
+## <a name="high-availability-and-disaster-recovery-support"></a>Compatibilidad con alta disponibilidad y recuperación ante desastres
 
-Skype empresarial Server ofrece alta disponibilidad por redundancia de servidores a través de la agrupación. Si un servidor que ejecuta un determinado rol de servidor tiene errores, los demás servidores del grupo que ejecutan el mismo rol recogen la carga de ese servidor. Esto es válido en servidores front-end, servidores perimetrales, servidores de mediación y directores.
+Skype Empresarial Server proporciona alta disponibilidad por redundancia de servidor a través de agrupación. Si se produce un error en un servidor que ejecuta un rol de servidor determinado, los demás servidores del grupo que ejecutan el mismo rol asumen la carga de dicho servidor. Esto se aplica a los servidores front-end, los servidores perimetrales, los servidores de mediación y los directores.
 
-Skype empresarial Server también proporciona medidas de recuperación ante desastres mediante la habilitación del emparejamiento de grupos. Si implementa esta topología, designará pares de grupos front-end, con cada grupo en un par ubicado en un centro de datos separado y en un área geográfica separada. Si un grupo o un sitio dejan de funcionar, puede redirigir a los usuarios del grupo para que usen el otro grupo del par, con una interrupción del servicio mínima.
+Skype Empresarial Server también proporciona medidas de recuperación ante desastres habilitando el emparejamiento de grupo. Si implementa esta topología, designará pares de grupos front-end, con cada grupo en un par ubicado en un centro de datos separado y en un área geográfica separada. Si un grupo o un sitio dejan de funcionar, puede redirigir a los usuarios del grupo para que usen el otro grupo del par, con una interrupción del servicio mínima.
 
-Skype empresarial Server también admite varias opciones para la alta disponibilidad del servidor back-end. Estos son los siguientes:
+Skype Empresarial Server también admite varias opciones para la alta disponibilidad del servidor back-end. Entre ellas se incluyen las siguientes:
 
-- Creación de reflejo de la base de datos
+- Creación de reflejos de base de datos
 
 - Grupos de disponibilidad AlwaysOn
 
-- Instancias de clúster de conmutación por error de AlwaysOn (FCI)
+- Instancias de clúster de conmutación por error (FCI) AlwaysOn
 
-- Clústeres de conmutación por error de SQL
+- SQL clústeres de conmutación por error
 
-Para obtener más información sobre el emparejamiento de grupos y el servidor de servicios de fondo alta disponibilidad, consulte [planear la alta disponibilidad y la recuperación ante desastres en Skype empresarial Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Para obtener más información sobre el emparejamiento de grupos y la alta disponibilidad del servidor back-end, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
-## <a name="server-collocation-in-skype-for-business-server"></a>Collocation de servidor en Skype empresarial Server
+## <a name="server-collocation-in-skype-for-business-server"></a>Colocación de servidores en Skype Empresarial Server
 
-Ya hemos usado el término Collocate, pero ¿qué significa esto? Skype empresarial Server le permite ubicar algunos roles de servidor y características en el mismo servidor, que es collocation, o en servidores diferentes, pero puede resultar confuso al empezar y si está haciendo un servidor Standard Edition o Enterprise Edition implementación (cada una de ellas viene con sus propias reglas). Para ayudarle con su planeamiento, incluimos la collocation del servidor en las implementaciones del servidor Standard Edition y las implementaciones del grupo de aplicaciones para el usuario de Enterprise Edition (en la mayoría de los casos esta información es idéntica, y cuando es diferente, se lo llama específicamente).
+Ya hemos usado el término collocate, pero ¿qué significa esto? Skype Empresarial Server le permite localizar algunos roles de servidor y características en el mismo servidor, que es la colocación, o en servidores diferentes, pero puede resultar confuso al empezar y si está realizando una implementación de servidor Standard Edition o Enterprise Edition (cada una incluye sus propias reglas). Para ayudarle con su planeación, estamos incluyendo la colocación de servidores en implementaciones de servidor Standard Edition e implementaciones de grupos de servidores front-end Enterprise Edition (en la mayoría de los casos, esta información es idéntica y, si es diferente, se llama específicamente).
 
-### <a name="collocation-of-server-roles"></a>Combinación de roles del servidor
+### <a name="collocation-of-server-roles"></a>Colocación de roles de servidor
 
-El servidor Standard Edition tiene la siguiente función colocada (aunque es necesaria una configuración adicional), mientras que en el grupo de servidores front-end Enterprise Edition, este rol se puede dar o implementar en un servidor independiente:
+El servidor Standard Edition tiene el siguiente rol instalado (sin embargo, se requiere configuración adicional), mientras que en el grupo de servidores front-end Enterprise Edition, este rol se puede colocar o implementar en un servidor independiente:
 
 - Mediación
 
-Estos roles del servidor se tienen que implementar en un servidor separado:
+Estos roles de servidor deben implementarse en un servidor independiente:
 
 - Director
 
-- Perimetral
+- Microsoft Edge
 
 - Servidor de interoperabilidad de vídeo
 
 - Office Web Apps
 
-### <a name="databases"></a>Bases de datos
+### <a name="databases"></a>Databases
 
-Este es el área con diferencias reales entre las implementaciones del servidor Standard Edition y las implementaciones del grupo de servidores Enterprise Edition, por lo que tendremos dos secciones, seguidas de algunas reglas adicionales para ambas.
+Este es el área con diferencias reales entre las implementaciones de servidores Standard Edition y las implementaciones de grupo de servidores Enterprise Edition, por lo que tendremos dos secciones a continuación, seguidas de algunas reglas adicionales para ambas.
 
-#### <a name="standard"></a>Standard
+#### <a name="standard"></a>Estándar
 
-Puesto que SQL Server Express se encuentra en el servidor Standard Edition y no se puede mover, esto es bastante sencillo. Además, si implementas un servidor de chat persistente en un servidor Standard Edition, también puedes Collocate el chat persistente y la base de datos de cumplimiento de chat persistente en el servidor Standard Edition, pero no es necesario.
+Dado SQL Server Express se coloca en el servidor Standard Edition y no se puede mover, esto es bastante sencillo. Además, si implementa el servidor de chat persistente en un servidor Standard Edition, también podrá instalar el chat persistente y la base de datos de cumplimiento de chat persistente en el servidor Standard Edition, pero no es posible hacerlo.
 
 > [!NOTE]
-> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.
 
-Estas no se pueden incluir en el servidor Standard Edition, pero pueden ir en un único servidor de base de datos propio:
+No se pueden colocar en el servidor Standard Edition, pero pueden ir en un único servidor de base de datos propio:
 
 - Base de datos de supervisión
 
 - Base de datos de archivado
 
-- Cualquier base de datos back-end para un grupo de servidores front end Enterprise Edition
+- Cualquier base de datos back-end para un grupo de servidores front-end Enterprise Edition
 
 #### <a name="enterprise"></a>Enterprise
 
-Las siguientes bases de datos se pueden colocar en el mismo servidor SQL Server back-end:
+Las siguientes bases de datos se pueden colocar en el mismo servidor back-end SQL Server:
 
 - Base de datos back-end
 
@@ -265,22 +265,22 @@ Las siguientes bases de datos se pueden colocar en el mismo servidor SQL Server 
 
 - Base de datos de cumplimiento de chat persistente
 
-#### <a name="both"></a>Both
+#### <a name="both"></a>Ambas
 
-Ahora, hay algunas reglas adicionales que puede seguir al collocating de las bases de datos de Skype empresarial Server en una única instancia de SQL o en varias instancias de SQL en la misma base de datos de SQL Server:
+Ahora, hay que seguir algunas reglas adicionales al colocar bases de datos de Skype Empresarial Server en una sola instancia de SQL o en varias instancias de SQL en la misma base de datos SQL Server datos:
 
-- Cada instancia de SQL puede contener una única base de datos de back-end para un grupo de servidores front end Enterprise Edition, una única base de datos de supervisión, una única base de datos de archivado, una única base de datos de chat persistente y una única base de datos de cumplimiento persistente.
+- Cada instancia SQL solo puede contener una única base de datos back-end para un grupo de servidores front-end Enterprise Edition, una única base de datos de supervisión, una sola base de datos de archivado, una sola base de datos de chat persistente y una única base de datos de cumplimiento de chat persistente.
 
-- El servidor de base de datos no es compatible con más de un grupo de servidores front-end Enterprise Edition, un servidor que ejecuta el archivado, un servidor que ejecuta supervisión, una base de datos de chat persistente y una única base de datos de cumplimiento persistente, pero puede admitir una de cada uno. independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias independientes de SQL Server.
+- El servidor de bases de datos no puede admitir más de un grupo de servidores front-end Enterprise Edition, un servidor que ejecuta archivado, un servidor que ejecuta supervisión, una sola base de datos de chat persistente y una sola base de datos de cumplimiento de chat persistente, pero puede admitir una de cada una, independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias independientes de SQL Server.
 
     > [!NOTE]
-    > Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015.
+    > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015.
 
 ### <a name="file-shares"></a>Recursos compartidos de archivos
 
-El recurso compartido de archivos puede estar en un servidor separado o puede combinarse en el mismo servidor que el de cualquier o todos los siguientes elementos:
+El recurso compartido de archivos puede estar en un servidor independiente o puede colocarlo en el mismo servidor que cualquiera o todos los siguientes:
 
-- Servidor de base de datos, incluido el servidor back-end de un grupo de servidores front end Enterprise Edition
+- Servidor de base de datos, incluido el servidor back-end de un grupo de servidores front-end de Enterprise Edition
 
 - Base de datos de supervisión
 
@@ -291,14 +291,14 @@ El recurso compartido de archivos puede estar en un servidor separado o puede co
 - Base de datos de cumplimiento de chat persistente
 
 > [!CAUTION]
-> Tenga en cuenta que, si bien puede colocar el recurso compartido de archivos en estos servidores, es fundamental que tenga en cuenta que no lo recomendamos. Si collocating el uso compartido de archivos con cualquier otro rol de servidor, asegúrese de que está supervisando los problemas de espacio en disco y rendimiento de forma periódica.
+> Tenga en cuenta que aunque puede instalar el recurso compartido de archivos en estos servidores, es fundamental tener en cuenta que no se recomienda. Si va a colocar el recurso compartido de archivos con cualquier otro rol de servidor, asegúrese de supervisar periódicamente los problemas de espacio en disco y rendimiento.
 
-### <a name="keep-in-mind"></a>Recordatorio
+### <a name="keep-in-mind"></a>Recuerde
 
-- No puede Collocate un servidor proxy inverso, que no es un componente de Skype empresarial Server, y es posible que ni siquiera esté en su topología. Necesitará un proxy inverso si desea permitir el uso compartido de contenido web para usuarios federados, entre muchas otras cosas. Si es necesario, para implementar un servidor proxy inverso existente que ya esté en su organización y que esté usando otras aplicaciones, debe configurar un servidor proxy inverso existente que ya esté en su organización.
+- No puede colocar un servidor proxy inverso, que no es un componente de Skype Empresarial Server, y puede que ni siquiera esté en su topología. Necesitará un proxy inverso si desea admitir el uso compartido de contenido web para usuarios federados, entre muchas otras cosas. If you need to, go ahead and implement reverse proxy support for Skype for Business Server by configuring an existing reverse proxy server that's already in your organization that's being used by other applications.
 
-- No puede Collocate ningún componente de mensajería unificada de Exchange o componente de servidor de SharePoint con ningún rol de servidor de Skype empresarial.
+- No puede colocar ningún componente de mensajería unificada de Exchange ni de SharePoint Server con ningún rol de Skype Empresarial Server.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Topologías de referencia para Skype empresarial Server](reference-topologies.md)
+[Topologías de referencia para Skype Empresarial Server](reference-topologies.md)

@@ -1,8 +1,8 @@
 ---
-title: Planear la seguridad en Skype empresarial Server
+title: Planear la seguridad en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,30 +12,30 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
-description: Contenido de seguridad de Skype empresarial Server.
-ms.openlocfilehash: 3c0b2bd84eeeb35f24c2c4221aab4adffc9fa152
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Contenido de seguridad de Skype Empresarial Server.
+ms.openlocfilehash: fc0b8591702f34c43c3658616a9658a8006755f5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815608"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832030"
 ---
-# <a name="plan-for-security-in-skype-for-business-server"></a>Planear la seguridad en Skype empresarial Server 
+# <a name="plan-for-security-in-skype-for-business-server"></a>Planear la seguridad en Skype Empresarial Server 
  
-Contenido de seguridad de Skype empresarial Server. 
+Contenido de seguridad de Skype Empresarial Server. 
   
-Este contenido se refiere a la seguridad de Skype empresarial Server. La seguridad es un tema muy amplio. La seguridad llega a todas las características de Skype empresarial Server, así como a las bases de datos, los servicios y el hardware que componen el ecosistema. Este contenido es un suplemento para temas de seguridad específicos relacionados con Skype empresarial Server.
+Este contenido está relacionado con la seguridad de Skype Empresarial Server. La seguridad es un tema muy amplio. La seguridad llega a todas las características de Skype Empresarial Server, así como a las bases de datos, los servicios y el hardware que forma el ecosistema. Este contenido es un complemento para temas de seguridad específicos relacionados con Skype Empresarial Server.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Exclusiones de detección antivirus para Skype empresarial Server](antivirus.md)
+- [Exclusiones de análisis antivirus para Skype Empresarial Server](antivirus.md)
     
-- [Características de seguridad clave de Skype empresarial Server](key-security.md)
+- [Características clave de seguridad en Skype Empresarial Server](key-security.md)
     
-- [Amenazas de seguridad comunes en los equipos informáticos modernos](common-threats.md)
+- [Amenazas de seguridad comunes en la informática moderna](common-threats.md)
     
-- [Marco de seguridad de Skype empresarial Server](security-framework.md)
+- [Marco de seguridad para Skype Empresarial Server](security-framework.md)
     
-- [Cómo enfrentar las amenazas a su infraestructura básica para Skype empresarial Server](addressing-threats.md)
+- [Abordar las amenazas a la infraestructura principal de Skype Empresarial Server](addressing-threats.md)
     
 

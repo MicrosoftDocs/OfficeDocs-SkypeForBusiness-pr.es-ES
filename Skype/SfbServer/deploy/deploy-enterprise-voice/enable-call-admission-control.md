@@ -1,8 +1,8 @@
 ---
-title: Habilitar el control de admisión de llamadas en Skype empresarial Server
+title: Habilitar el control de admisión de llamadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: Habilitar el control de admisión de llamadas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: c5fc500b4e0839b4db43bd229087b3a6bcc7e644
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Habilite el control de admisión de llamadas en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 9ea8b03b48827abbb73e3d6e93ffb88ab93ad1ff
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767293"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831020"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Habilitar el control de admisión de llamadas en Skype empresarial Server
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Habilitar el control de admisión de llamadas en Skype Empresarial Server
  
-Habilitar el control de admisión de llamadas en Skype empresarial Server Enterprise Voice. 
+Habilite el control de admisión de llamadas en Skype Empresarial Server Telefonía IP empresarial. 
   
 Después de configurar las opciones de red para la implementación del control de admisión de llamadas, debe habilitar el CAC para que se apliquen las directivas de ancho de banda.
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Para habilitar el control de admisión de llamadas mediante el shell de administración de Skype empresarial Server
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Para habilitar el control de admisión de llamadas mediante el Shell de administración de Skype Empresarial Server
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 2. Ejecute el cmdlet Set-CsNetworkConfiguration para habilitar el CAC en su red. Por ejemplo, ejecute lo siguiente:
     
@@ -45,15 +45,15 @@ Después de configurar las opciones de red para la implementación del control d
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Para habilitar el control de admisión de llamadas con el panel de control de Skype empresarial Server
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Para habilitar el control de admisión de llamadas mediante el Panel de control de Skype Empresarial Server
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
     
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
     
 3. Haga clic en el botón de navegación **Global**.
     
-4. Haga clic en **Global** en la lista y, a continuación, seleccione **Mostrar detalles** en el menú **Editar**.
+4. Haga clic en **Global** en la lista y, a continuación, seleccione **Mostrar detalles** en el menú **Edición**.
     
 5. En la página **Editar configuración global**, active la casilla **Habilitar control de admisión de llamadas**.
     
@@ -62,7 +62,7 @@ Después de configurar las opciones de red para la implementación del control d
   
 6. Haga clic en **Confirmar**. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   

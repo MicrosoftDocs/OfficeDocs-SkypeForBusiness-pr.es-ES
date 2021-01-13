@@ -1,8 +1,8 @@
 ---
-title: Faculta Definir conjuntos de días festivos de grupos de respuesta en Skype empresarial
+title: (Opcional) Definir conjuntos de días festivos de grupo de respuesta en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Crear o modificar conjuntos de días festivos de grupos de respuesta en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 5d38814a8e4e9e50634b6d63b1db4c8230c496ea
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Cree o modifique conjuntos de días festivos de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767323"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830990"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>Faculta Definir conjuntos de días festivos de grupos de respuesta en Skype empresarial
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Opcional) Definir conjuntos de días festivos de grupo de respuesta en Skype Empresarial
  
-Crear o modificar conjuntos de días festivos de grupos de respuesta en Skype empresarial Server Enterprise Voice.
+Cree o modifique conjuntos de días festivos de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
   
 La configuración de festivos define los días que un grupo de respuesta está cerrado para negocios y especifica la acción que se va a realizar en esos días. Un conjunto de festivos es la colección de festivos que se aplican a un grupo de respuesta.
   
@@ -31,9 +31,9 @@ La configuración de festivos define los días que un grupo de respuesta está c
   
 ### <a name="to-create-a-holiday-set"></a>Para crear un conjunto de días festivos
 
-1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
+1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. Para cada día festivo que quiera definir, ejecute el comando siguiente:
     
@@ -47,7 +47,7 @@ La configuración de festivos define los días que un grupo de respuesta está c
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
    ```
 
-    El ejemplo siguiente muestra un conjunto de días festivos que incluye dos períodos de vacaciones:
+    El ejemplo siguiente muestra un conjunto de días festivos que incluye dos periodos de vacaciones:
     
    ```powershell
    $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2018 12:00 AM" -EndDate "1/2/2018 12:00 AM" 
@@ -55,10 +55,10 @@ La configuración de festivos define los días que un grupo de respuesta está c
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)
    ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[Diseñar y crear flujos de trabajo de grupos de respuesta en Skype empresarial](designing-and-creating-response-group-workflows.md)
+[Diseño y creación de flujos de trabajo de grupo de respuesta en Skype Empresarial](designing-and-creating-response-group-workflows.md)
 
-[Nuevo: CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

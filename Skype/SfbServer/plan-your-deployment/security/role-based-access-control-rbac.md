@@ -1,8 +1,8 @@
 ---
-title: Control de acceso basado en roles (RBAC) para Skype empresarial Server
+title: Control de acceso basado en roles (RBAC) para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
-description: Skype empresarial Server incluye grupos de control de acceso basado en roles (RBAC) que le permiten delegar tareas administrativas a la vez que se mantienen estándares altos de seguridad. Estos grupos se crean durante la preparación del bosque. Para obtener más información sobre la preparación del bosque, consulte servicios de dominio de Active Directory para Skype empresarial Server. Para obtener información sobre los grupos específicos creados por la preparación del bosque, consulte cambios hechos por la preparación del bosque en Skype empresarial Server en la documentación de implementación.
-ms.openlocfilehash: 41efad45b442d9c7fca82d090afa0d1aa23e7d63
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype Empresarial Server incluye Role-Based control de acceso remoto (RBAC) para permitirle delegar tareas administrativas mientras mantiene altos estándares de seguridad. Estos grupos se crean durante la preparación del bosque. Para obtener más información sobre la preparación del bosque, consulte Servicios de dominio de Active Directory para Skype Empresarial Server. Para obtener más información sobre los grupos específicos creados por la preparación del bosque, consulte Los cambios realizados por la preparación del bosque en Skype Empresarial Server en la documentación sobre implementación.
+ms.openlocfilehash: 9d3c453d4e7c3057c03f99cf2ff31b5fe17ae0bb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815628"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832110"
 ---
-# <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>Control de acceso basado en roles (RBAC) para Skype empresarial Server
+# <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>Control de acceso basado en roles (RBAC) para Skype Empresarial Server
  
-Skype empresarial Server incluye grupos de control de acceso basado en roles (RBAC) que le permiten delegar tareas administrativas a la vez que se mantienen estándares altos de seguridad. Estos grupos se crean durante la preparación del bosque. Para obtener más información sobre la preparación del bosque, consulte [servicios de dominio de Active Directory para Skype empresarial Server](active-directory-domain-services.md). Para obtener información sobre los grupos específicos creados por la preparación del bosque, consulte [cambios hechos por la preparación del bosque en Skype empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación de implementación.
+Skype Empresarial Server incluye Role-Based control de acceso remoto (RBAC) para permitirle delegar tareas administrativas mientras mantiene altos estándares de seguridad. Estos grupos se crean durante la preparación del bosque. Para obtener más información sobre la preparación del bosque, consulte Servicios de [dominio de Active Directory para Skype Empresarial Server.](active-directory-domain-services.md) Para obtener más información sobre los grupos específicos creados por la preparación del bosque, consulte Los cambios realizados por la preparación del bosque [en Skype Empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación sobre implementación.
   
-Con RBAC, se concede el privilegio administrativo asignando usuarios a roles administrativos predefinidos, incluidos los 11 roles predefinidos que cubren muchas de las tareas administrativas más habituales. Cada rol está asociado con una lista específica de cmdlets del shell de administración de Skype empresarial para que los usuarios de ese rol puedan ejecutarse. Puede usar RBAC para seguir el principio de "privilegios mínimos", donde los usuarios solo reciben las capacidades administrativas que requiere su trabajo. 
+Con RBAC, el privilegio administrativo se otorga asignando roles administrativos predefinidos a los usuarios, incluidos los 11 roles predefinidos que cubren muchas de las tareas administrativas más habituales. Cada rol está asociado a una lista específica de cmdlets del Shell de administración de Skype Empresarial Server que los usuarios de ese rol pueden ejecutar. Puede usar RBAC para seguir el principio de "privilegios mínimos", donde los usuarios solo reciben las capacidades administrativas que requiere su trabajo. 
   
-Puede encontrar más información sobre los roles RBAC en la [planeación de control de acceso basado en roles](https://docs.microsoft.com/lyncserver/lync-server-2013-planning-for-role-based-access-control).
+Puede encontrar más detalles sobre los roles RBAC en [La planeación del control](https://docs.microsoft.com/lyncserver/lync-server-2013-planning-for-role-based-access-control)de acceso basado en roles.

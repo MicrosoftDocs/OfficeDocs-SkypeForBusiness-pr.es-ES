@@ -1,8 +1,8 @@
 ---
-title: Habilitar el parque de llamadas para los usuarios de Skype empresarial
+title: Habilitar el estacionamiento de llamadas para los usuarios de Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: Habilitar a los usuarios para el parque de llamadas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 6642af2a7af698a1127ff2a9bb4e45df73d18c50
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Habilite a los usuarios para el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767283"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830960"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar el parque de llamadas para los usuarios de Skype empresarial
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar el estacionamiento de llamadas para los usuarios de Skype Empresarial
  
-Habilitar a los usuarios para el parque de llamadas en Skype empresarial Server Enterprise Voice.
+Habilite a los usuarios para el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
   
-De forma predeterminada, el parque de llamadas está deshabilitado para todos los usuarios. Los usuarios no pueden detener llamadas ni recuperar llamadas estacionadas hasta que estén habilitadas para el parque de llamadas en la Directiva de voz.
+De forma predeterminada, el estacionamiento de llamadas está deshabilitado para todos los usuarios. Los usuarios no pueden estacionar llamadas ni recuperar llamadas estacionadas hasta que estén habilitados para el estacionamiento de llamadas en la directiva de voz.
   
-Puede habilitar el parque de llamadas en el ámbito global o en el ámbito del sitio o ámbito de usuario. El ámbito de usuario tiene prioridad sobre el ámbito de sitio y el ámbito de sitio tiene prioridad sobre el ámbito global. Si tiene varias directivas de voz, revise todas las directivas para habilitar el parque de llamadas, no solo la directiva global.
+Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbito de sitio o de usuario. El ámbito de usuario tiene prioridad sobre el ámbito de sitio y el ámbito de sitio tiene prioridad sobre el ámbito global. Si tiene varias directivas de voz, revise todas las directivas para habilitar el estacionamiento de llamadas, no solo la directiva global.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Para usar el panel de control de Skype empresarial Server para habilitar el parque de llamadas para los usuarios
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Para usar el Panel de control de Skype Empresarial Server para habilitar el estacionamiento de llamadas para los usuarios
 
-1. Inicie sesión en el equipo como miembro del grupo **RTCUniversalServerAdmins** o bien como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
+1. Inicie sesión en el equipo como miembro del grupo **RTCUniversalServerAdmins**, o bien como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
     
-2. Abra el panel de control de Skype empresarial Server.
+2. Abra el Panel de control de Skype Empresarial Server.
     
 3. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz**.
     
@@ -43,15 +43,15 @@ Puede habilitar el parque de llamadas en el ámbito global o en el ámbito del s
     
 5. Haga doble clic en una directiva de voz existente para abrir el cuadro de diálogo **Editar directiva de voz**.
     
-6. En **Características de llamada**, seleccione **Habilitar estacionamiento de llamadas**.
+6. En **Características de llamada**, seleccione **Habilitar Estacionamiento de llamadas**.
     
 7. Haga clic en **Aceptar** para guardar la directiva de voz.
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar cmdlets para habilitar el parque de llamadas para los usuarios
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a>Para usar cmdlets para habilitar el estacionamiento de llamadas para los usuarios
 
-1. Inicie sesión en el equipo como un miembro del grupo RTCUniversalServerAdmins o bien, como un miembro del rol administrativo CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.
+1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol administrativo CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. Ejecute:
     
@@ -59,15 +59,15 @@ Puede habilitar el parque de llamadas en el ámbito global o en el ámbito del s
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    Por ejemplo, para habilitar el parque de llamadas para la Directiva de voz global predeterminada:
+    Por ejemplo, para habilitar el estacionamiento de llamadas para la directiva de voz global predeterminada:
     
    ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 
 
-[Crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md)
+[Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial](voice-policy-and-pstn-usage-records.md)
 

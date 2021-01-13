@@ -1,8 +1,8 @@
 ---
 title: Tabla Subnet
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
-description: La tabla de subred es una tabla de soporte técnico. Cada registro representa una subred definida en la opción de configuración de red.
-ms.openlocfilehash: 562684fdb4df9ac90216489c209754309885fa98
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La tabla Subnet es una tabla de apoyo. Cada registro representa una subred definida en la configuración de red.
+ms.openlocfilehash: b4683c654d5d188d2f5096dd7ec9da124001f68b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805208"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831340"
 ---
 # <a name="subnet-table"></a>Tabla Subnet
  
-La tabla de subred es una tabla de soporte técnico. Cada registro representa una subred definida en la opción de configuración de red.
+La tabla Subnet es una tabla de apoyo. Cada registro representa una subred definida en la configuración de red.
   
-|**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
+|**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**SubnetIP** <br/> |int  <br/> |Principal, extranjero  <br/> |Representación de enteros de la IP de subred.  <br/> |
-|**Máscaradesubred** <br/> |int  <br/> ||Máscara de la subred.  <br/> |
-|**UserSiteKey** <br/> |int  <br/> |Extranjero  <br/> |Se hace referencia a ella desde la [tabla UserSite](usersite.md).  <br/> |
-|**SubnetDescription** <br/> |nvarchar (512)  <br/> ||La descripción de la subred.  <br/> |
+|**SubnetIP** <br/> |entero  <br/> |Principal, Exterior  <br/> |Representación en número entero de la IP de la subred.  <br/> |
+|**SubnetMask** <br/> |entero  <br/> ||Máscara de la subred.  <br/> |
+|**UserSiteKey** <br/> |entero  <br/> |Externo  <br/> |Se hace referencia a la [tabla UserSite](usersite.md).  <br/> |
+|**SubnetDescription** <br/> |nvarchar(512)  <br/> ||Descripción de la subred.  <br/> |
    
 

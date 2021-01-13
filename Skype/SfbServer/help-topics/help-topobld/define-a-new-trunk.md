@@ -1,8 +1,8 @@
 ---
 title: Definir un nuevo tronco
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 'Para definir un nuevo un tronco de protocolo de inicio de sesión (SIP) proporcione la información siguiente:'
-ms.openlocfilehash: 4addcfbdb854de223f7942f55e2e2180136f9bbc
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: bbed07920bdeddb78217e435e8813c89231cdcc9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218561"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833050"
 ---
 # <a name="define-a-new-trunk"></a>Definir un nuevo tronco
 
@@ -34,12 +34,12 @@ Para definir un nuevo un tronco de protocolo de inicio de sesión (SIP) proporci
 
 - **Protocolo de transporte SIP**: seleccione TCP o TLS de la lista
 
-- **Servidor de mediación asociado**: seleccione en la lista un servidor de mediación que se haya implementado y configurado en la implementación.
+- **Servidor de mediación asociado:** seleccione en la lista un servidor de mediación que se implemente y configure en la implementación.
 
-- **Puerto del servidor de mediación asociado**: establezca el valor del puerto como igual al valor del puerto TCP o TLS del servidor de mediación que usará este tronco SIP
+- **Puerto del servidor de mediación** asociado: establezca el valor de puerto igual al valor del puerto TCP o TLS del servidor de mediación que usará este tronco SIP.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
-[M:N troncal en Skype empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
+[Tronco M:N en Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
 [¿Cómo puedo implementar el enlace troncal SIP?](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

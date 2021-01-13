@@ -1,8 +1,8 @@
 ---
 title: tblServerIdentity
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,24 +13,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
 description: tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de chat persistente.
-ms.openlocfilehash: 4f6389f21c35da914b4943a279d8d485b6ec1eae
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 7fa8c1b804432b3a9368785682f45e9ce8d7898e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812278"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831500"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
 tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de chat persistente.
   
-**Columnas**
+**Columns**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|serverID  <br/> |int, not null  <br/> |IDENTIFICADOR de servidor. Corresponde al identificador de instancia del almacén de administración central.  <br/> |
-|serverAddress  <br/> |nvarchar (256), not null  <br/> |Dirección del servidor con la dirección de Windows Communication Foundation.  <br/> |
-|serverLastPingTime  <br/> |datetime  <br/> |La última vez que el servidor de canal actualizó esta fila para proporcionar evidencia de que se está ejecutando.  <br/> |
+|serverID  <br/> |int, no NULL  <br/> |Id. de servidor. Corresponde al identificador de instancia del almacén de administración central.  <br/> |
+|serverAddress  <br/> |nvarchar (256), no NULL  <br/> |Dirección de servidor con la dirección de Windows Communication Foundation.  <br/> |
+|serverLastPingTime  <br/> |datetime  <br/> |La última hora en la que el servidor de canal actualizó esta fila para probar que está ejecutándose.  <br/> |
    
 **Clave**
 

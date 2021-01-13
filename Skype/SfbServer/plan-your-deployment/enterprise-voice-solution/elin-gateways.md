@@ -1,8 +1,8 @@
 ---
-title: Administrar las ubicaciones de las puertas de enlace de ELIN en Skype empresarial Server
+title: Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,91 +15,91 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-description: Decisiones necesarias para planear una base de datos de información de ubicación o una base de datos externa similar, para una implementación de E9 con puertas de enlace de ELIN, en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 39e6c4170adc18687b284ec6f69a252c6efefab4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 con puertas de enlace ELIN, en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: 387b94ca59ef7750a80d06c88b371a0afef9313d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803040"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834400"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administrar las ubicaciones de las puertas de enlace de ELIN en Skype empresarial Server
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 
-Decisiones necesarias para planear una base de datos de información de ubicación o una base de datos externa similar, para una implementación de E9 con puertas de enlace de ELIN, en Skype empresarial Server Enterprise Voice.
+Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 con puertas de enlace ELIN, en Skype Empresarial Server Telefonía IP empresarial.
 
-Para que Skype empresarial Server proporcione automáticamente ubicaciones para clientes dentro de una red, debe realizar las siguientes tareas:
+Para que Skype Empresarial Server proporcione automáticamente ubicaciones para los clientes dentro de una red, debe realizar las siguientes tareas:
 
-- Rellene la información de ubicación de la base de datos del servicio con un Wiremap de red e incluya los números de identificación de ubicación de emergencia (ELINs) en el campo NombreCompañía.
+- Rellene la base de datos del servicio de información de ubicación con un mapa de red e incluya los números de identificación de ubicación de emergencia (ELIN) en el campo CompanyName.
 
-- Publica las ubicaciones para que estén disponibles para los clientes en tu red.
+- Publique las ubicaciones para que estén disponibles para los clientes de la red.
 
-- Carga los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC).
+- Cargue los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTCP).
 
-Para obtener más información sobre la ejecución de estas tareas, mira [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación de implementación.
+Para más información sobre la ejecución de estas tareas, vea [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación de implementación.
 
 > [!NOTE]
-> Las ubicaciones que se agreguen a la base de datos de ubicación central no estarán disponibles para el cliente hasta que se hayan publicado con un comando del shell de administración de Skype empresarial Server y se repliquen en las tiendas locales del grupo. Para obtener más información, mira [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) en la documentación de implementación.
+> Las ubicaciones agregadas a la base de datos de ubicaciones central no estarán disponibles para el cliente hasta que se hayan publicado mediante un comando del Shell de administración de Skype Empresarial Server y se repliquen en los almacenes locales del grupo. Para más información, vea [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) en la documentación de implementación.
 
-Esta sección describe qué necesitas tener en cuenta cuando planificas la actualización y el mantenimiento de la base de datos de ubicaciones.
+Esta sección describe qué debe tener en cuenta cuando planea la actualización y el mantenimiento de la base de datos de ubicaciones.
 
-## <a name="planning-emergency-locations"></a>Planificar las ubicaciones de emergencia
+## <a name="planning-emergency-locations"></a>Planear las ubicaciones de emergencia
 
-Cuando use puertas de enlace ELIN, deberá rellenar la base de datos de servicios de información de ubicación con la dirección cívica, una ubicación específica dentro de un edificio y, al menos, una ELIN para cada ubicación. Durante la fase de planificación, recomendamos que decidas el nombre que quieras dar a las ubicaciones y cómo deseas asignar los ELIN.
+Cuando se usan puertas de enlace ELIN, se rellena la base de datos del servicio de información de ubicaciones con la dirección postal, una ubicación específica dentro de un edificio y al menos un ELIN para cada ubicación. Durante la fase de planeación, le recomendamos que decida el nombre que quiere dar a las ubicaciones y cómo desea asignar los ELIN.
 
-### <a name="planning-location-names"></a>Planificar nombres de ubicación
+### <a name="planning-location-names"></a>Planear nombres de ubicación
 
-El campo **Ubicación** del servicio de información de ubicación, que contiene la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (incluidos los espacios). Dentro de esa longitud limitada, intenta incluir lo siguiente:
+El campo Ubicación **del** servicio de información de ubicaciones, que contiene la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (espacios incluidos). Dentro de esa longitud limitada, intente incluir lo siguiente:
 
-- Un nombre fácil de comprender que identifique la ubicación del autor de la llamada al 911 para que a los encargados de emergencias les resulte más fácil encontrar rápidamente la ubicación específica cuando lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, la planta, la escalera, la puerta, etc. Evita los apodos que solo conozcan los empleados, ya que los encargados de emergencias podrían equivocarse de ubicación.
+- Un nombre fácil de comprender que identifique la ubicación del autor de la llamada al 911 para que a los encargados de emergencias les resulte más fácil encontrar rápidamente la ubicación específica cuando lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, la planta, la escalera, la puerta, etc. Evite los apodos que solo conozcan los empleados, ya que los encargados de emergencias podrían equivocarse de ubicación.
 
-- Un identificador de ubicación que permita a los usuarios ver fácilmente que su cliente ha recogido la ubicación correcta. El cliente de Skype empresarial concatena automáticamente y muestra los campos **Ubicación** detectada y **ciudad** en el encabezado. Una buena práctica es agregar la dirección del edificio a cada identificador de ubicación (por ejemplo, "primer piso <street number>"). Sin la calle, un identificador genérico como "1.ª planta" podría referirse a cualquier edificio de la ciudad.
+- Un identificador de ubicación que ayuda a los usuarios a ver fácilmente que su cliente ha seleccionado la ubicación correcta. El cliente de Skype Empresarial concatena y muestra automáticamente los campos **Ubicación** y **Ciudad** detectados en su encabezado. Un procedimiento recomendado es agregar la dirección postal del edificio a cada identificador de ubicación (por ejemplo, "1ª <street number> planta"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
 
-- Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, es posible que desee agregar la palabra **[cerca]** (por ejemplo, "cerca del primer piso 1234").
+- Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, es posible que quieras agregar la palabra **[Near]** (por ejemplo, "Near 1st Floor 1234").
 
-### <a name="planning-elins"></a>Planificar ELIN
+### <a name="planning-elins"></a>Planear ELIN
 
-Después de decidir cómo vas a dividir el espacio del edificio en ubicaciones, necesitas decidir cuántos ELIN asignarás a cada ubicación. Por ejemplo, en un edificio de varias plantas o varios inquilinos, puede haber diferentes zonas de emergencia para las diversas áreas del edificio. Por lo general, se considera que cada planta de un edificio es una ubicación. Después, asigna a cada ubicación uno o más ELIN, que se usan como número(s) de llamada durante una llamada de emergencia. Ponte en contacto con tu proveedor de RTC para que te brinde los números de teléfono que puedes usar para los ELIN. La tabla siguiente proporciona un ejemplo de ubicaciones para una dirección postal concreta.
+Después de decidir cómo va a dividir el espacio del edificio en ubicaciones, decida cuántos ELIN asignará a cada ubicación. Por ejemplo, en un edificio de varias plantas o inquilinos, puede haber diferentes zonas de emergencia para las diversas áreas del edificio. Por lo general, se considera que cada planta de un edificio es una ubicación. Después, asigne a cada ubicación uno o más ELIN, que se usan como número de llamada durante una llamada de emergencia. Póngase en contacto con el proveedor de RTC para que le dé los números de teléfono para los ELIN. La tabla siguiente proporciona un ejemplo de ubicaciones para una dirección postal concreta.
 
-**Ubicación y asignaciones de ELIN de ejemplo**
+**Ubicación y asignaciones ELIN de ejemplo**
 
-|**Área del edificio**|**Ubicación**|**ELIN**|
+|**Área del edificio**|**Location**|**ELIN**|
 |:-----|:-----|:-----|
-|Primera planta  <br/> |1  <br/> |425-555-0100  <br/> |
-|Segunda planta  <br/> |1  <br/> |425-555-0111  <br/> |
-|Tercera planta  <br/> |3  <br/> |425-555-0123  <br/> |
+|Primera planta  <br/> |1   <br/> |425-555-0100  <br/> |
+|Segunda planta  <br/> |2   <br/> |425-555-0111  <br/> |
+|Tercera planta  <br/> |3   <br/> |425-555-0123  <br/> |
 
-Las ubicaciones que definas necesitan:
+Las ubicaciones que defina deben:
 
-- Cumplir las normativas nacionales o regionales en cuanto al área máxima por ubicación y a la cantidad de ubicaciones por dirección postal.
+- Cumplir las normativas nacionales o regionales en cuanto al área máxima por ubicación y número de ubicaciones por dirección postal.
 
-- Tener la precisión suficiente como para que sea fácil ubicar a la persona que realiza la llamada de emergencia.
+- Tener la concreción suficiente como para que sea fácil ubicar a la persona que realiza la llamada de emergencia.
 
 ## <a name="populating-the-location-database"></a>Rellenar la base de datos de ubicaciones
 
-Con las siguientes preguntas te será más fácil determinar cómo rellenar la base de datos de ubicaciones.
+Con las siguientes preguntas le será más fácil determinar cómo rellenar la base de datos de ubicaciones.
 
  **¿Qué proceso usará para rellenar la base de datos de ubicaciones?**
 
-¿Dónde se encuentran los datos y qué pasos necesitas realizar para convertirlos al formato que necesita la base de datos de ubicaciones? ¿Agregarás las ubicaciones una por una o en bloque con un archivo CSV?
+¿Dónde se encuentran los datos y qué pasos debe realizar para convertirlos al formato que necesita la base de datos de ubicaciones? ¿Agregará las ubicaciones una por una o en bloque con un archivo CSV?
 
  **¿Dispone de una base de datos de otros fabricantes que ya contenga una asignación de ubicaciones?**
 
-Al usar la opción servicio de información de ubicación secundaria para conectarse a una base de datos de terceros, puede agrupar y administrar ubicaciones mediante una plataforma sin conexión. La ventaja es que además de asociar las ubicaciones a identificadores de red, puedes asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, que se originan en el servicio de información de ubicación secundaria, a un cliente de Skype empresarial. Luego, el usuario podrá elegir la ubicación más adecuada.
+Al usar la opción servicio de información de ubicación secundaria para conectarse a una base de datos de terceros, puede agrupar y administrar ubicaciones mediante una plataforma sin conexión. La ventana es que además de asociar las ubicaciones a identificadores de red, puede asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, procedentes del servicio de información de ubicación secundaria, a un cliente de Skype Empresarial. Y el usuario puede elegir la ubicación más adecuada.
 
-Para integrar con el servicio de información de ubicación, la base de datos de terceros debe seguir el esquema de solicitud/respuesta de la ubicación del servidor de Skype empresarial. Para obtener más información, vea [servicio web para el protocolo de soporte técnico de E911](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obtener detalles sobre cómo implementar un servicio de información de ubicación secundaria, vea [configurar un servicio de información de ubicación secundaria en Skype empresarial Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación de implementación.
+Para realizar la integración con el servicio de información de ubicación, la base de datos de terceros debe seguir el esquema de solicitud y respuesta de ubicación de Skype Empresarial Server. Para obtener más información, vea El servicio web para el protocolo de soporte [técnico de E911.](https://go.microsoft.com/fwlink/p/?linkid=213819) Para obtener más información sobre cómo implementar un servicio de información de ubicación secundario, consulte [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación sobre implementación.
 
-Para obtener más información sobre cómo rellenar la base de datos de ubicaciones, mira [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación sobre implementación.
+Para más información sobre cómo rellenar la base de datos de ubicaciones, vea [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación sobre implementación.
 
 ## <a name="maintaining-the-location-database"></a>Mantener la base de datos de ubicaciones
 
-Una vez rellenada la base de datos de ubicaciones, desarrolla una estrategia para actualizar la base de datos a medida que se produzcan cambios en la configuración de red. Con las siguientes preguntas te será fácil determinar cómo mantener la base de datos de ubicaciones.
+Una vez rellenada la base de datos de ubicaciones, desarrolle una estrategia para actualizar la base de datos a medida que se produzcan cambios en la configuración de red. Con las siguientes preguntas le será fácil determinar cómo mantener la base de datos de ubicaciones.
 
  **¿Cómo actualizará la base de datos de ubicaciones?**
 
-Existen diversos escenarios que requieren una actualización de la base de datos de ubicaciones, como agregar puntos de acceso inalámbricos (WAP), cambiar el cableado de una oficina (lo que da lugar a asignaciones de conmutador diferentes) o la expansión de subredes. ¿Actualizarás directamente cada ubicación individual o llevarás a cabo una actualización en bloque de todas las ubicaciones con un archivo CSV?
+Existen diversos escenarios que requieren una actualización de la base de datos de ubicaciones, como agregar puntos de acceso inalámbricos (WAP), cambiar el cableado de una oficina (lo que da lugar a asignaciones de conmutador diferentes) o la expansión de subredes. ¿Actualizará directamente cada ubicación individual o llevará a cabo una actualización en bloque de todas las ubicaciones con un archivo CSV?
 
- **¿Usará una aplicación SNMP para que las direcciones MAC de cliente de Skype empresarial coincidan con los identificadores de puertos y conmutadores?**
+ **Will you use an SNMP application to match Skype for Business client MAC addresses to port and switch identifiers?**
 
-Si usas una aplicación SNMP, necesitas desarrollar un proceso manual para mantener sincronizada la información de conmutadores y puertos entre la aplicación SNMP y la base de datos de ubicaciones. Si la aplicación SNMP devuelve una dirección IP del chasis o un identificador de puerto que no está incluido en la base de datos, el servicio de información de ubicación no podrá devolver una ubicación al cliente.
+Si usa una aplicación SNMP, desarrolle un proceso manual para que la información de chasis de conmutador y de puerto sea coherente entre la aplicación SNMP y la base de datos de ubicaciones. Si la aplicación SNMP devuelve una dirección IP de chasis o un identificador de puerto que no se incluye en la base de datos, el servicio de información de ubicación no podrá devolver una ubicación al cliente.
 
 

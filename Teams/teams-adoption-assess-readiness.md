@@ -1,7 +1,7 @@
 ---
 title: ¿Hasta qué punto está preparada su organización para Microsoft Teams?
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Evalúe a las partes interesadas, identifique los pioneros y evalúe si su organización está lista para la transición a teams.
+description: Evalúe a las partes interesadas, identifique a los primeros usuarios y evalúe si su organización está preparada para la transición a Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,87 +21,87 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeca6da477147c420c9dea053dbebc465fb491f6
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 185ff0c5631ac900a3df07e56202f33b777316e7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350274"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834210"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>¿Hasta qué punto está preparada su organización para Microsoft Teams?
 
-Ahora que su equipo de proyecto se ha unido y comienza a ver qué pueden hacer los equipos de su organización, es importante que evalúe la preparación de la organización para la transición de Teams. Para evaluar su disponibilidad, tendrá que:
+Ahora que el equipo del proyecto se ha unido y está empezando a ver lo que Teams puede hacer por su organización, es importante evaluar la disponibilidad de su organización para la transición de Teams. Para evaluar su disponibilidad, necesitará:
 
-1. Evalúe a las partes interesadas.
-2. Identificar a los primeros.
-3. Evaluar la preparación de la organización para el cambio. 
+1. Evaluar a las partes interesadas.
+2. Identificar los primeros usuarios.
+3. Evaluar la disponibilidad de la organización para el cambio. 
 
 ## <a name="assess-your-stakeholders"></a>Evaluar a las partes interesadas
 
-Enumere los participantes principales y los líderes empresariales de su organización. Para cada persona, haga lo siguiente:
+Enumume los principales participantes y los líderes empresariales de su organización. For each individual, ask the following questions:
  
-1. ¿Es este líder de la nueva tecnología?
-2. Califica la satisfacción de esta directriz con tu tecnología actual.
-3. ¿Está dispuesto a usar tecnología no autorizada para acelerar los resultados o crear una mejor experiencia para los miembros de su equipo?
-4. ¿Es este líder bajo un alto nivel de presión para proporcionar resultados empresariales clave? 
-5. ¿Esta guía estará dispuesta a promocionar su experiencia con Teams para ayudarle en la transición?
-6. ¿Tiene esta directriz una relación positiva con los miembros clave del equipo de proyecto existente?
-7. ¿Se considera esta directriz como un "agente de cambio" dentro de la organización?  
+1. ¿Este líder es descriptivo de la nueva tecnología?
+2. Valore la satisfacción de este líder con su tecnología actual.
+3. ¿Está dispuesto este líder a usar tecnología sin diccionarios para acelerar los resultados o crear una mejor experiencia para los miembros de su equipo?
+4. ¿Está bajo un alto grado de presión para ofrecer resultados empresariales clave? 
+5. ¿Estará dispuesto este líder a evangelir su experiencia con Teams para ayudarle en la transición?
+6. ¿Tiene este líder una relación positiva con miembros clave del equipo de proyecto existente?
+7. ¿Le gusta que este líder sea visto como un "agente de cambio" dentro de la organización?  
 
-Puede Agregar preguntas adicionales que sean relevantes para su organización. Para las dos fases iniciales (inicio y experimento), verá líderes que son fáciles de cambiar, poco satisfechos con la tecnología actual y que tiene una buena relación con. Estos líderes deberían introducirse en el equipo principal de proyectos como asesores empresariales y pueden tener proyectos que serán esenciales para tu fase de experimentación. Es importante seleccionar situaciones impactantes y reales para experimentar y evitar proyectos de alto riesgo para tus experimentos iniciales.
+Puede agregar preguntas adicionales que sean relevantes para su organización. Para las dos fases iniciales (inicio y experimento), verá líderes que son fáciles de cambiar, algo insatisfecho con la tecnología actual y con los que tiene una buena relación. Estos líderes deben ser llevados al equipo principal del proyecto como asesores empresariales y pueden tener proyectos que serán esenciales para su fase de experimentación. Es importante seleccionar situaciones impactantes y en el mundo real con las que experimentar y evitar proyectos de alto riesgo para sus primeros experimentos.
    
 > [!NOTE]
-> Si bien es posible asignar una puntuación a este tipo de cuestionario que minimizaría el impacto del elemento humano de las relaciones dentro de la organización, el cambio de conducir depende de la química del equipo, tanto como su habilidad técnica o Acumen empresarial. Revise esta lista con los miembros del equipo para discutir el "ajuste" de sus diversos líderes con este proyecto a medida que selecciona los proyectos y el personal para las siguientes fases. 
+> Si bien es posible asignar una puntuación a este tipo de cuestionario que minimizaría el impacto del elemento humano de las relaciones dentro de su organización, el impulso del cambio depende de la química del equipo tanto como sus aptitudes técnicas o acumen de negocio. Revise esta lista con los miembros de su equipo para comentar el "ajuste" de los distintos líderes con este proyecto a medida que selecciona proyectos y personal para las fases posteriores. 
 
-## <a name="identify-early-adopters"></a>Identificar a los primeros.
+## <a name="identify-early-adopters"></a>Identificar los primeros usuarios
 
-Los primeros pioneros comparten ciertas características sin importar el tamaño o la industria de la organización. Normalmente, los primeros adoptan estas características:
+Los primeros usuarios comparten determinados comienzos independientemente del tamaño o el sector que pueda tener tu organización. Normalmente, los primeros usuarios comparten estas características:
 
-- Interesado en tecnología
-- ¿Desea ser parte del cambio?
+- Interesado en la tecnología
+- Dispuesto a formar parte del cambio
 - Buscar mejoras
 - Colaboración por naturaleza
-- Deseo compartir sus observaciones y aprender con el grupo
-- Son los que tienen un riesgo; es decir, están dispuestos a intentar algo para ver si funciona
+- Dispuesto a compartir sus observaciones y aprendizajes con el grupo
+- ¿Son personas que toman riesgos? es decir, están dispuestos a probar algo para ver si funciona
 
-Use un formulario simple en Microsoft 365 u Office 365 para permitir a estas personas participar en el programa de adopción anticipada de Teams. Según el tamaño y la complejidad de su organización, puede elegir habilitar a algunas o a todas las personas de la fase de experimentación. En este programa, están aceptando participar activamente en la fase de experimentación y enviar comentarios regularmente al equipo del proyecto. Evita tener personas que simplemente deseen probar la nueva tecnología. Informarles que al otorgar estos comentarios activos, están ayudando a elaborar el resultado de su proyecto. Usarás esta lista de personas en la [fase 2-experimento](teams-adoption-phase2-experiment.md).
+Use un formulario simple en Microsoft 365 u Office 365 para permitir que estas personas opten por su programa de usuarios iniciales de Teams. Según el tamaño y la complejidad de su organización, puede elegir habilitar a algunas o todas estas personas para la fase de experimentación. En este programa, se comprometen a participar activamente en la fase de experimentación y proporcionar comentarios regulares al equipo del proyecto. Evita que personas que simplemente quieran probar unidades de nueva tecnología. Háles saber que al proporcionar estos comentarios activos, ayudan a crear el resultado del proyecto. Usará esta lista de personas en la [fase 2 - experimento.](teams-adoption-phase2-experiment.md)
 
-Nuestra guía de programas de adopción anticipada es un recurso útil para comenzar este programa en su entorno.  
+Nuestra Guía del Programa para usuarios anticipados es un recurso útil para iniciar este programa en su entorno.  
  
-## <a name="assess-your-organizations-readiness-for-change"></a>Evaluar la preparación de la organización para el cambio
+## <a name="assess-your-organizations-readiness-for-change"></a>Evaluar la disponibilidad de la organización para el cambio
 
-El cambio es un proceso humano que no tiene nada que hacer con la tecnología. Existe una psicología de comportamiento y una neurociencia que nos enseña a cambiar la resistencia natural. Para que el cambio sea aceptable, es fundamental prever las necesidades de los usuarios, expresar su situación y crear soluciones que mejoren esa situación. Incluso al hacerlo, te encontrarás una resistencia natural al cambio.  
+El cambio es un proceso humano que no tiene nada que ver con la tecnología. Hay concienciación y conciencia de comportamiento que nos educa sobre la resistencia natural al cambio. Para que los cambios se acepten, es fundamental anticipar las necesidades de los usuarios, expresar su comprensión de su situación y crear soluciones que mejoren esa situación. Aun al hacerlo, encontrará resistencia natural a los cambios.  
 
-![Gráfico que ilustra la resistencia a cambios](media/teams-adoption-resistance.png)
+![Gráfico que ilustra la resistencia a cambiar](media/teams-adoption-resistance.png)
 
-Cada organización se aproxima a un cambio diferente según la región, el estilo de trabajo, el perfil profesional y otros elementos de la organización. Para evaluar la disponibilidad de su organización, consulte [evaluar la preparación](upgrade-org-change-readiness.md)de los cambios de organización. Use las pautas para responder a las siguientes preguntas:
+Los enfoques de cada organización cambian de forma diferente, según la región, el estilo de trabajo, el perfil profesional y otros elementos de la organización. Para evaluar la disponibilidad de la organización, vea Evaluar la [disponibilidad de cambios de la organización.](upgrade-org-change-readiness.md) Use las instrucciones para responder a las siguientes preguntas:
 
-1. ¿Qué porcentaje de usuarios pertenecen a cada bucket? (*Cambiar resistencia*)
-    - **Primeros pioneros**: solicitar la solución antes de que esté disponible.
-    - **Usuarios informados**: Use la solución una vez que se haya probado su valor.
-    - Mensajes no **enviados**: vuelve a introducir cualquier cambio.
+1. ¿Qué porcentaje de usuarios se incluyen en cada cubo? (*Cambiar la resistencia*)
+    - **Usuarios iniciales:** soliciten la solución antes de que esté disponible.
+    - **Usuarios informados:** use la solución una vez que se demuestre su valor.
+    - **Dissenterres**: retrocedía en cualquier cambio.
     
    > [!TIP]
-   > Los primeros pioneros son buenos evaluadores de la prueba piloto y campeones del mismo nivel. Los usuarios que son lentos para adoptar nuevas herramientas necesitan más estímulos y más tiempo para ajustarlo. 
+   > Los primeros usuarios convierten a los evaluadores piloto en excelentes evaluadores y en campeones del mismo nivel. Los usuarios que tardan en adoptar nuevas herramientas requieren ánimo adicional y más tiempo para ajustarse. 
 
 2. ¿Cuál es la competencia de los usuarios para el cambio? (*Aprendizaje*)
-    - Los **inicios automáticos** solo requieren un vínculo a un vídeo.
-    - Los **creadores de equipos** hacen bien con la formación de grupos.
-    - Los **aprendizajes** individuales requieren soporte personal.
+    - **Los inicios por** su cuenta requieren solo un vínculo a un vídeo.
+    - **Los generadores de equipos** hacen bien con la formación de grupos.
+    - **Los estudiantes de uno a uno** requieren soporte personal.
 
     > [!TIP]
-    > Adapte el tipo y la cantidad de formación a la competencia y a los roles. Mantener el aprendizaje actualizado a medida que se conecten nuevas características.
+    > Ajuste el tipo y la cantidad de formación para la competencia y los roles. Mantenga el aprendizaje actualizado a medida que se actualicen las características.
 
-3. Además de esta implementación de servicio, ¿cuántos cambios se producen? (*Adaptabilidad*) <br/>Los cambios pueden incluir actualizaciones de Office/Windows, movimientos de Office, fusiones, reorgs, etc.
+3. Además de esta implementación de servicio, ¿cuántos cambios más se están produciendo? (*Adaptabilidad*) <br/>Los cambios pueden incluir actualizaciones de Office/Windows, movimientos de office, fusiones, reorgs, y así sucesivamente.
     - Ninguna
     - 1-3 cambios
     - Más de 3 cambios
  
     > [!TIP] 
-    > Demasiado cambio puede impedir la aceptación y la productividad. Si se están llevando a cabo más de 3 cambios, considere la posibilidad de espaciarlos o crear un tema para agrupar los cambios.  
+    > Demasiado cambio puede impedir la aceptación y la productividad. Si se están en curso más de 3 cambios, considere la posibilidad de espaciado entre ellos o de crear un tema para agrupar los cambios.  
 
-Combine estos datos con los perfiles de los participantes y los empleados que desean participar en el programa de adopción anticipada. Esto le permitirá identificar los grupos que están listos para y pueden absorber el cambio junto con sus deberes existentes. Este método le permitirá crear socios en el cambio.
+Combine estos datos con los perfiles de las partes interesadas y los empleados que deseen participar en el programa para usuarios iniciales. Esto le permitirá identificar grupos listos y que pueden absorber cambios junto con sus tareas existentes. Este método le permitirá crear partners en cambio.
 
-Puede usar los campeones internos para solucionar el problema de tener diferentes tipos de cambio. Aquí, los comentarios son la clave para el éxito: Anime a personas a compartir sus problemas y necesidades. Adoptar molestias y desempleados, dándoles a estas personas o grupos un puesto en la tabla durante los experimentos. Este procedimiento recomendado hará una implementación más fluida de las mejoras de la colaboración.  
+Puede usar a los campeones internos para tratar el problema de tener diferentes tipos de cambios. Aquí, los comentarios son la clave del éxito: anime a las personas a compartir sus desafíos y necesidades. Acepte los disruptores y los disidentes dando a estas personas o grupos un puesto en la mesa durante la experimentación. Este procedimiento recomendado le preparará el camino para una implementación más fluida de las mejoras de colaboración.  
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) : [fase 2 de la adopción de Microsoft Teams: experimento](teams-adoption-phase2-experiment.md) 
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: Fase 2 de [adopción de Microsoft Teams: Experimentar](teams-adoption-phase2-experiment.md) 

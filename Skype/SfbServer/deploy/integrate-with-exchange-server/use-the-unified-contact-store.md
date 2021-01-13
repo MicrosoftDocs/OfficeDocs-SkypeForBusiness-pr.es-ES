@@ -1,8 +1,8 @@
 ---
-title: Configurar Skype Empresarial Server para usar el almacenamiento de contactos unificado
+title: Configurar Skype Empresarial Server para usar el almacén de contactos unificado
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -13,38 +13,38 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
-description: 'Resumen: configure el almacén de contactos unificado para Exchange Server y Skype empresarial Server.'
-ms.openlocfilehash: 1719b8e8e5d99b8ef24da32111b69b1f9f847538
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Resumen: configure el almacén de contactos unificados para Exchange Server y Skype Empresarial Server.'
+ms.openlocfilehash: 4b96a0c4f3294146c987794ffce083c46d94bb48
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797001"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833870"
 ---
-# <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar Skype Empresarial Server para usar el almacenamiento de contactos unificado
+# <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar Skype Empresarial Server para usar el almacén de contactos unificado
  
-**Resumen:** Configure el almacén de contactos unificado para Exchange Server 2016 o Exchange Server 2013 y Skype empresarial Server.
+**Resumen:** Configure el almacén de contactos unificados para Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.
   
-Con el almacén de contactos unificado, los usuarios mantienen una única lista de contactos y, después, tienen esos contactos disponibles en varias aplicaciones, entre las que se incluyen Skype empresarial, Microsoft Outlook 2013 y Microsoft Outlook Web App 2013. Al habilitar el almacén de contactos unificado para un usuario, los contactos de ese usuario no se almacenan en Skype empresarial Server y se recuperan según sea necesario. En su lugar, sus contactos se almacenan en Exchange Server 2016 o Exchange Server 2013 y se recuperan mediante servicios Web de Exchange.
+Con el almacén de contactos unificado, los usuarios mantienen una única lista de contactos y, a continuación, tienen esos contactos disponibles en varias aplicaciones, como Skype Empresarial, Microsoft Outlook 2013 y Microsoft Outlook Web App 2013. Cuando habilita el almacén de contactos unificado para un usuario, los contactos de ese usuario no se almacenan en Skype Empresarial Server y se recuperan según sea necesario. En su lugar, sus contactos se almacenan en Exchange Server 2016 o Exchange Server 2013 y se recuperan mediante los servicios web de Exchange.
   
 > [!NOTE]
-> Técnicamente, la información de contacto se almacena en un par de carpetas que se encuentran en el buzón de Exchange del usuario. Los contactos en sí se almacenan en una carpeta llamada contactos de Skype para empresas, que es visible para los usuarios finales. los metadatos sobre los contactos se almacenan en una subcarpeta que no es visible para los usuarios finales. 
+> Técnicamente, la información de contacto se almacena en un par de carpetas que se encuentran en el buzón de Exchange del usuario. Los contactos en sí se almacenan en una carpeta denominada Contactos de Skype Empresarial que los usuarios finales pueden ver; los metadatos sobre los contactos se almacenan en una subcarpeta que no es visible para los usuarios finales. 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>Habilitar el almacén de contactos unificados de un usuario
 
-Si la autenticación de servidor a servidor entre Skype empresarial Server y Exchange Server ya está configurada, también habrá habilitado el almacén de contactos unificado. no es necesaria ninguna configuración adicional del servidor. Sin embargo, se requiere una configuración de cuenta de usuario adicional para mover los contactos de un usuario al almacén de contactos unificado. De forma predeterminada, los contactos de usuario se guardan en Skype empresarial Server y no en el almacén de contactos unificado.
+Si la autenticación de servidor a servidor entre Skype Empresarial Server y Exchange Server ya está configurada, también ha habilitado el almacén de contactos unificado; no se requiere ninguna configuración adicional del servidor. Sin embargo, se requiere una configuración de cuenta de usuario adicional para mover los contactos de un usuario al almacén de contactos unificados. De forma predeterminada, los contactos de usuario se mantienen en Skype Empresarial Server y no en el almacén de contactos unificados.
   
-El acceso al almacén de contactos unificado se administra mediante las directivas de servicios de usuario de Skype empresarial Server. Las directivas de servidor de usuario solo tienen una única propiedad (UcsAllowed); Esta propiedad se usa para determinar la ubicación en la que se almacenan los contactos de un usuario. Si un usuario es administrado por una directiva de servicios de usuario donde UcsAllowed se ha establecido en verdadero ($True), los contactos del usuario se almacenarán en el almacén de contactos unificado. Si el usuario es administrado por una directiva de servicios de usuario donde UcsAllowed se ha configurado como falso ($False), sus contactos se almacenarán en Skype empresarial Server.
+El acceso al almacén de contactos unificado se administra mediante las directivas de servicios de usuario de Skype Empresarial Server. Las directivas de servidor de usuario solo tienen una sola propiedad (UcsAllowed); esta propiedad se usa para determinar la ubicación donde se almacenan los contactos de un usuario. Si un usuario está administrado por una directiva de servicios de usuario donde UcsAllowed se ha establecido en True ($True), los contactos del usuario se almacenarán en el almacén de contactos unificado. Si el usuario está administrado por una directiva de servicios de usuario donde UcsAllowed se ha establecido en False ($False), sus contactos se almacenarán en Skype Empresarial Server.
   
-Al instalar Skype empresarial Server, también se instala una única directiva de servicios de usuario (configurada en el ámbito global). El valor UcsAllowed en esta directiva se define en True, lo que significa que, de manera predeterminada, los contactos de los usuarios se almacenarán en el almacén de contactos unificados (suponiendo que haya sido implementado y configurado). Si desea migrar todos los contactos de usuarios al almacén de contactos unificado, no tiene que hacer nada en absoluto. 
+Al instalar Skype Empresarial Server, también se instala una directiva de servicios de usuario único (configurada en el ámbito global). El valor UcsAllowed de esta directiva se establece en True, lo que significa que, de forma predeterminada, los contactos de usuario se almacenarán en el almacén de contactos unificado (suponiendo que se haya implementado y configurado). Si desea migrar todos los contactos de usuario al almacén de contactos unificados, no tiene que hacer nada. 
   
-Si prefiere no migrar todos los contactos al almacén de contactos unificado, puede deshabilitar el almacén de contactos unificado para todos los usuarios definiendo la propiedad UcsAllowed de la directiva global en False:
+Si prefiere no migrar todos los contactos al almacén de contactos unificados, puede deshabilitar el almacén de contactos unificado para todos los usuarios estableciendo la propiedad UcsAllowed en la directiva global en False:
   
 ```powershell
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
-Después de deshabilitar el almacén de contactos unificado en la directiva global, puede crear una directiva por usuario que permita el uso del almacenamiento de contactos unificado. Esto le permite a algunos usuarios mantener sus contactos en el almacén de contactos unificado mientras otros usuarios continúan manteniendo sus contactos en Skype empresarial Server. Puede crear una directiva de servicios de usuario por usuario usando un comando similar a este:
+Después de deshabilitar el almacén de contactos unificado en la directiva global, puede crear una directiva por usuario que permita el uso del almacén de contactos unificado; Esto le permite hacer que algunos usuarios conserven sus contactos en el almacén de contactos unificados, mientras que otros usuarios siguen manteniendo sus contactos en Skype Empresarial Server. Para crear una directiva de servicios de usuario por usuario se usa un comando parecido al siguiente:
   
 ```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
@@ -56,19 +56,19 @@ Una vez creada la directiva, hay que asignarla a los usuarios que deban tener ac
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 ```
 
-Después de asignar la Directiva, Skype empresarial Server comenzará a migrar los contactos del usuario al almacén de contactos unificado. Una vez completada la migración, el usuario tendrá sus contactos almacenados en Exchange en lugar de en Skype empresarial Server. Si el usuario ha iniciado sesión en Lync 2013 en el momento en que se completa la migración, aparecerá un cuadro de mensaje y se le solicitará que cierre sesión en Skype empresarial y, a continuación, inicie sesión de nuevo para finalizar el proceso. Los contactos de los usuarios a los que no se les asigne esta directiva por usuario no se migrarán al almacén de contactos unificados. Esto se debe a que los usuarios están siendo administrados por la directiva global y el uso del almacén de contactos unificado se ha deshabilitado en la directiva global.
+Una vez asignada la directiva, Skype Empresarial Server empezará a migrar los contactos del usuario al almacén de contactos unificado. Una vez completada la migración, el usuario tendrá sus contactos almacenados en Exchange en lugar de en Skype Empresarial Server. Si el usuario ha iniciado sesión en Lync 2013 en el momento en que se completa la migración, aparecerá un cuadro de mensaje y se le pedirá que cierre sesión en Skype Empresarial y vuelva a iniciarla para finalizar el proceso. Los usuarios a los que no se haya asignado esta directiva por usuario no tendrán sus contactos migrados al almacén de contactos unificados. Esto se debe a que esos usuarios están siendo administrados por la directiva global y el uso del almacén de contactos unificado se ha deshabilitado en la directiva global.
   
-Puede comprobar que los contactos de un usuario se han migrado correctamente al almacén de contactos unificado ejecutando el cmdlet [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) desde el shell de administración de Skype empresarial Server:
+Para comprobar que los contactos de un usuario se han migrado correctamente al almacén de contactos unificados, ejecute el cmdlet [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) desde el Shell de administración de Skype Empresarial Server:
   
 ```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Si prueba-CsUnifiedContactStore se ejecuta correctamente, significa que los contactos para el usuario SIP:<span></span>kenmyer@<span></span>litwareinc. com se han migrado al almacén de contactos unificado.
+Si Test-CsUnifiedContactStore esto significa que los contactos del usuario sip:kenmyer@ litwareinc .com se han migrado al almacén de <span></span> <span></span> contactos unificados.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>Revertir el almacén de datos unificados
 
-Si necesita quitar los contactos de un usuario del almacén de contactos unificado (por ejemplo, si el usuario necesita volver a usarse en Microsoft Lync Server 2010 y, por lo tanto, ya no puede usar el almacén de contactos unificado), debe hacer dos cosas. En primer lugar, debe asignar al usuario una nueva Directiva de servicios de usuario, una que prohíba almacenar contactos en el almacén de contactos unificado. (Es decir, una directiva en la que la propiedad UcsAllowed se ha establecido en $False). Si no tiene una directiva de ese tipo, puede crear una usando un comando similar a este:
+Si necesita quitar los contactos de un usuario del almacén de contactos unificados (por ejemplo, si necesita volver a hospedarse en Microsoft Lync Server 2010 y, por lo tanto, ya no puede usar el almacén de contactos unificado), debe hacer dos cosas. En primer lugar, debe asignar al usuario una nueva directiva de servicios de usuario, que prohíba almacenar contactos en el almacén de contactos unificados. (Es decir, una directiva en la que la propiedad UcsAllowed se ha establecido en $False).) Si no tiene una directiva de este tipo, puede crear una con un comando similar a este:
   
 ```powershell
 New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
@@ -83,18 +83,18 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStor
 Con el comando anterior la nueva directiva se asigna al usuario Ken Myer y, asimismo, se impide que los contactos de Ken migren al almacén de contactos unificados.
   
 > [!NOTE]
-> Algunas veces, se puede lograr el mismo efecto con tan solo quitar la directiva de servicios de usuario actual que el usuario tiene asignada. Imaginemos, por ejemplo, que Ken Myer tiene una directiva de servicios de usuario por usuario que permite el uso del almacén de contactos unificados, pero la directiva global prohíbe usarlo. En tal caso, se podría quitar la directiva de servicios de usuario que Ken tiene asignada. Al hacerlo, Ken pasará automáticamente a estar administrado por la directiva global y, en consecuencia, dejará de tener acceso al almacén de contactos unificados. Para cancelar la asignación de una directiva por usuario asignada anteriormente, use el mismo comando que se mostró anteriormente, pero esta vez establezca el parámetro PolicyName en un valor nulo: Grant-CsUserServicesPolicy-Identity "Ken Myer"-PolicyName $Null 
+> En algunos casos, puede lograr el mismo efecto neto simplemente desasignando la directiva de servicios de usuario actual del usuario. Imaginemos, por ejemplo, que Ken Myer tiene una directiva de servicios de usuario por usuario que permite el uso del almacén de contactos unificados, pero la directiva global prohíbe usarlo. En ese caso, podría deshacer la asignación de la directiva de servicios por usuario de Ken. Al hacerlo, Ken pasará automáticamente a estar administrado por la directiva global y, en consecuencia, dejará de tener acceso al almacén de contactos unificados. Para anular la asignación de una directiva por usuario asignada anteriormente, use el mismo comando que se muestra anteriormente, pero esta vez establezca el parámetro PolicyName en un valor nulo: Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName $Null 
   
-La terminología "impide que los contactos de Ken se migren al almacén de contactos unificado" es importante para tener en cuenta al trabajar con el almacenamiento de contactos unificado. Simplemente asignar a Ken una nueva Directiva de servicios de usuario no moverá a sus contactos del almacén de contactos unificado. Cuando un usuario inicia sesión en Skype empresarial Server, el sistema comprueba la Directiva de servicios de usuario del usuario para ver si sus contactos deben conservarse en el almacén de contactos unificado. Si la respuesta es afirmativa (es decir, si la propiedad UcsAllowed se establece en $True), esos contactos se migrarán al almacén de contactos unificado (suponiendo que esos contactos aún no estén en el almacén de contactos unificado). Si la respuesta es no, Skype empresarial Server simplemente pasa por alto los contactos del usuario y pasa a la siguiente tarea. Eso significa que Skype empresarial Server no moverá automáticamente los contactos de un usuario del almacén de contactos unificado, independientemente del valor de la propiedad UcsAllowed.
+La terminología "impide que los contactos de Ken se migren al almacén de contactos unificado" es importante tener en cuenta al trabajar con el almacén de contactos unificados. Simplemente asignar a Ken una nueva directiva de servicios de usuario no sacará a sus contactos del almacén de contactos unificados. Cuando un usuario inicia sesión en Skype Empresarial Server, el sistema comprueba la directiva de servicios de usuario del usuario para ver si sus contactos deben mantenerse en el almacén de contactos unificados. Si la respuesta es afirmativa (es decir, si la propiedad UcsAllowed está establecida en $True), esos contactos se migrarán al almacén de contactos unificados (suponiendo que dichos contactos aún no están en el almacén de contactos unificado). Si la respuesta es no, Skype Empresarial Server simplemente omite los contactos del usuario y pasa a la siguiente tarea. Esto significa que Skype Empresarial Server no moverá automáticamente los contactos de un usuario del almacén de contactos unificado, independientemente del valor de la propiedad UcsAllowed.
   
-Eso también significa que, después de asignar al usuario una nueva Directiva de servicios de usuario, debe ejecutar el cmdlet [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps) para mover los contactos del usuario fuera de Exchange Server y volver a Skype empresarial Server. Por ejemplo, después de asignar a Ken Myer una nueva directiva de servicios de usuario, sus contactos se pueden sacar del almacén de contactos unificados con el siguiente comando:
+Esto también significa que, después de asignar al usuario una nueva directiva de servicios de usuario, debe ejecutar el cmdlet [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps) para mover los contactos del usuario fuera de Exchange Server y de vuelta a Skype Empresarial Server. Por ejemplo, después de asignar a Ken Myer una nueva directiva de servicios de usuario, sus contactos se pueden sacar del almacén de contactos unificados con el siguiente comando:
   
 ```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
 ```
 
-Si se cambia la directiva de servicios de usuario, pero no se ejecuta el cmdlet Invoke-CsUcsRollback, los contactos de Ken no se eliminarán del almacén de contactos unificados. ¿Qué ocurriría si se ejecutara Invoke-CsUcsRollback sin modificar la directiva de servicios de usuario de Ken Myer? Pues que los contactos de Ken se eliminarán de manera temporal del almacén de contactos unificados. El hecho de que esta eliminación sea temporal es importante. Una vez que los contactos de Ken hayan sido eliminados del almacén de contactos unificado, Skype empresarial Server esperará 7 días y, a continuación, verificará qué política de servicios de usuario ha sido asignada a Ken. Si Ken sigue teniendo asignada una directiva que permite usar el almacén de contactos unificados, sus contactos se colocarán de nuevo en dicho almacén. Para eliminar contactos del almacén de contactos unificados de manera permanente, debe cambiar la directiva de servicios de usuario y, además, ejecutar el cmdlet Invoke-CsUcsRollback.
+Si se cambia la directiva de servicios de usuario, pero no se ejecuta el cmdlet Invoke-CsUcsRollback, los contactos de Ken no se eliminarán del almacén de contactos unificados. ¿Qué ocurriría si se ejecutara Invoke-CsUcsRollback sin modificar la directiva de servicios de usuario de Ken Myer? Pues que los contactos de Ken se eliminarán de manera temporal del almacén de contactos unificados. El hecho de que esta eliminación sea temporal es importante. Después de quitar los contactos de Ken del almacén de contactos unificados, Skype Empresarial Server esperará 7 días y, a continuación, comprobará qué directiva de servicios de usuario se asignó a Ken. Si Ken sigue teniendo asignada una directiva que permite usar el almacén de contactos unificados, sus contactos se colocarán de nuevo en dicho almacén. Para eliminar contactos del almacén de contactos unificados de manera permanente, debe cambiar la directiva de servicios de usuario y, además, ejecutar el cmdlet Invoke-CsUcsRollback.
   
-El número de variables que pueden afectar a la migración es enorme por lo que es difícil calcular cuánto tiempo llevará migrar completamente todas las cuentas al almacén de contactos unificados. Por regla general, la migración no tiene efecto de forma inmediata, aunque se migre un número pequeño de contactos, puede llevar 10 minutos o más completar el traspaso.
+Debido a la gran cantidad de variables que pueden afectar a la migración, es difícil calcular cuánto tiempo llevará migrar completamente las cuentas al almacén de contactos unificados. Sin embargo, como regla general, la migración no tiene efecto inmediatamente: incluso cuando se migra un número reducido de contactos, puede tardar 10 minutos o más antes de que se complete el movimiento.
   
 

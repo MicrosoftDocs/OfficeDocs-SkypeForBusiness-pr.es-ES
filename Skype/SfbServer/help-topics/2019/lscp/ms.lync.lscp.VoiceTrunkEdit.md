@@ -1,8 +1,8 @@
 ---
-title: Configuración de troncal crear nuevo o editar existente
+title: Configuración de tronco Crear nueva o editar existente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 74ff6ee7430c4b61dafa041e7396b4ebfcab63ed
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: 6846491f073542c3a70015d05ea75a77e51db934
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796099"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833570"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuración del tronco: Crear nuevos o editar los existentes
 
-¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
+¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Configurar un tronco con la omisión de medios en Skype empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Configurar un tronco con desvío de medios en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [Configurar un tronco sin omisión de medios en Skype empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [Configurar un tronco sin desvío de medios en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [Crear o modificar una regla de traducción para la presentación de identificador llamada en Skype empresarial Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Crear o modificar una regla de conversión para la presentación de id. llamada en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Crear o modificar una regla de traducción de forma manual](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [Crear o modificar una regla de conversión manualmente](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Licencia de software de Skype empresarial para sistemas de salas de Skype
-ms.author: v-lanac
-author: lanachin
+title: Licencia de software de Skype Empresarial del Sistema de sala de Skype Empresarial
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,47 +11,47 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
-description: Lea este tema para obtener información sobre cómo comprobar si tiene una licencia por volumen de software de Skype empresarial.
-ms.openlocfilehash: a44e95d8cd488e2b12e03ee9848ef3d1b254180c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Lea este tema para obtener información sobre cómo comprobar si tiene una licencia por volumen de software de Skype Empresarial.
+ms.openlocfilehash: 20e04f69ba5a931bae6ac8598567165a7a6043a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220930"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833930"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Sistema de salas de Skype: licencia del software de Skype empresarial
+# <a name="skype-room-system-skype-for-business-software-license"></a>Sistema de sala de Skype: licencia de software de Skype Empresarial
  
-Lea este tema para obtener información sobre cómo comprobar si tiene una licencia por volumen de software de Skype empresarial. 
+Lea este tema para obtener información sobre cómo comprobar si tiene una licencia por volumen de software de Skype Empresarial. 
   
-El sistema de salas de Skype usa un cliente de Skype empresarial instalado, que requiere una licencia por volumen de software. Antes de implementar el primer sistema de salas de Skype, descubra el estado de la licencia por volumen de la implementación: mediante el uso de servidores de administración de claves (KMS) o claves de activación múltiple (MAK).
+El Sistema de sala de Skype usa un cliente de Skype Empresarial instalado, que requiere una licencia por volumen de software. Antes de implementar el primer Sistema de sala de Skype, descubra el estado de la licencia por volumen de la implementación, mediante el uso de servidores de administración de claves (KMS) o claves de activación múltiple (MAK).
   
 ## <a name="key-management-servers-kms"></a>Servidores de administración de claves (KMS)
 
-Si KMS está en marcha y va a distribuir las activaciones de licencias por volumen de Skype empresarial, el sistema de salas de Skype activará automáticamente el cliente de Skype empresarial. Para averiguar si KMS está en su ubicación:
+Si el KMS está en su lugar y distribuirá las activaciones de licencias por volumen de Skype Empresarial, el Sistema de sala de Skype activará automáticamente el cliente de Skype Empresarial. Para averiguar si kms están en su lugar:
   
-Desde un símbolo del sistema, ejecute:`nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
+Desde un símbolo del sistema, ejecute:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-Para obtener más información, vea [Cómo detectar hosts de kms de Office y Windows a través de DNS y eliminar instancias no autorizadas](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
+Para obtener más información, vea Cómo detectar hosts kms de Office y Windows a través de [DNS y quitar instancias no autorizadas.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
   
-Para configurar un KMS, consulte la [activación de kms de office 2013](https://technet.microsoft.com/library/ee624357.aspx) y [GVLK para la activación de kms y active directory de Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
+Para configurar un KMS, vea la activación de KMS de [Office 2013](https://technet.microsoft.com/library/ee624357.aspx) y GVLKs para la activación de KMS y [Active Directory de Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
   
-Clave de licencia por volumen genérica de Office 2013 para Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (esta clave hace que el sistema de salas de Skype busque un KMS en la red).
+Clave de licencia por volumen genérica de Office 2013 para Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (esta clave hace que el Sistema de sala de Skype busque un KMS en la red).
   
-## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>Claves de activación múltiple (MAK) del centro de servicios de licencias por volumen (VLSC)
+## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>Claves de activación múltiple (MAK) desde el Centro de servicios de licencias por volumen (VLSC)
 
-Si el cliente usa cualquier otro software de licencia por volumen, el Departamento de ti administrará las activaciones de software y el contrato de licencia por volumen (VLA) con el VLSC. Esto también permitirá a la empresa comprar activaciones VL de Skype empresarial, después de lo cual la empresa puede obtener una MAK para la entrada en la consola de administración del sistema de salas de Skype.
+Si el cliente usa cualquier otro software de licencia por volumen, el departamento de TI administrará las activaciones de software y el Contrato de licencia por volumen (VLA) mediante el VLSC. Esto también permitirá que la empresa compre activaciones de VL de Skype Empresarial, después de lo cual la empresa puede obtener una MAK para su entrada en la Consola de administración del sistema de sala de Skype.
   
-Un cliente con una VLA debe conocer sus credenciales de VLSC, que se usarán para administrar el contrato y obtener MAK. Si no está seguro, el Departamento de finanzas del cliente debe poder confirmar si el cliente ha pagado por un VLA.
+Un cliente con un VLA debe conocer sus credenciales de VLSC, que se usarán para administrar el contrato y obtener MAK. Si no está seguro, el departamento de finanzas del cliente debe poder confirmar si el cliente ha pagado por un VLA.
   
-Para obtener una MAK, obtenga acceso al centro de servicios de licencias por volumen para ver contratos y descargar claves de producto (MAK). Para obtener más información, vaya al [centro de servicios de licencias por volumen](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
+Para obtener una MAK, accede al Centro de servicios de licencias por volumen para ver los acuerdos y descargar claves de producto (MAK). Para obtener más información, vaya al Centro [de servicios de licencias por volumen.](https://www.microsoft.com/Licensing/servicecenter/default.aspx) 
   
-## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>MAK para Microsoft 365 o Office 365 sin acceso a VLSC
+## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>MAK para Microsoft 365 u Office 365 sin acceso a VLSC
 
-Si el cliente no tiene un contrato de licencia por volumen, las activaciones de Skype empresarial serán mucho más difíciles de administrar. Sin embargo, los clientes de Microsoft 365 y Office 365 que no tienen acceso a VLSC pueden obtener una MAK de promoción proporcionando la siguiente información al OEM vendiendo el sistema de salas de Skype:
+Si el cliente no tiene un contrato de licencia por volumen, las activaciones de Skype Empresarial serán mucho más difíciles de administrar. Sin embargo, los clientes de Microsoft 365 y Office 365 sin acceso a VLSC pueden obtener una MAK promocional proporcionando la siguiente información al OEM que vende el Sistema de sala de Skype:
   
-- Nombre de la organización
+- Nombre de la compañía
     
-- Nombre de contacto, correo electrónico y número de teléfono de la implementación
+- Nombre de contacto de implementación, correo electrónico y número de teléfono
     
 - Número de sistemas implementados
     

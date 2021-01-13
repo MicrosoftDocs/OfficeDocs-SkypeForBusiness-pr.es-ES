@@ -1,8 +1,8 @@
 ---
 title: Obtener miembros de dimensión
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 'Resumen: Obtenga información sobre la operación obtener miembros de dimensión. La operación obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumen: obtenga información sobre la operación Obtener miembros de dimensión. La operación Obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
+ms.openlocfilehash: ffec3b02a3c876a003adb679a28b0e8f2edb91c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888819"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832640"
 ---
 # <a name="get-dimension-members"></a>Obtener miembros de dimensión
  
-**Resumen:** Obtenga más información sobre la operación obtener miembros de dimensión. La operación obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
+**Resumen:** Obtenga información sobre la operación Obtener miembros de dimensión. La operación Obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
   
-La operación obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas.
+La operación Obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas.
   
 ## <a name="get-dimension-members"></a>Obtener miembros de dimensión
 
-Operación de obtención de miembros de dimensión devuelve la lista de miembros de una dimensión específica. También ofrece la posibilidad de filtrar la lista de miembros y obtener un subconjunto, para reducir el coste de la transferencia bancaria.
+La operación Obtener miembros de dimensión devuelve la lista de miembros de una dimensión específica. También permite filtrar la lista de miembros y obtener un subconjunto para reducir el costo de transferencia bancaria.
   
 
-|**Método**|**Solicitar URI**|**Versión HTTP**|
+|**Método**|**URI de solicitud**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|Exponer  <br/> |https://\<portal\>/QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
+|PUBLICAR  <br/> |https:// \<portal\> /QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros de URI** : ninguno.
+ **Parámetros uri:** ninguno.
   
- **Solicitar encabezados** : no hay encabezados adicionales.
+ **Encabezados de solicitud:** no hay encabezados adicionales.
   
- **Solicitar cuerpo** : contiene el nombre de la dimensión para la que deseamos los miembros. También se devuelve un número máximo de miembros, junto a usted puede especificar algunos filtros para limitar los miembros devueltos.
+ **Cuerpo de** la solicitud: contiene el nombre de la dimensión para la que queremos los miembros. También el número máximo de miembros devueltos, además de especificar algún filtrado para limitar los miembros devueltos.
   
 ```json
 {
@@ -52,13 +52,13 @@ Operación de obtención de miembros de dimensión devuelve la lista de miembros
 }
 ```
 
- **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
+ **Respuesta:** la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto).
+ **Código de estado:** una operación correcta devuelve el código de estado 200 (Correcto).
   
- **Encabezados de respuesta** : no hay encabezados adicionales.
+ **Encabezados de respuesta:** no hay encabezados adicionales.
   
- **Cuerpo de respuesta** : a continuación se muestra una carga de respuesta de ejemplo en JSON en respuesta a una solicitud de "[fechainicio]. [Month] "dimensión.
+ **Cuerpo de la** respuesta: a continuación se muestra una carga de respuesta de ejemplo en JSON en respuesta a una solicitud de "[StartDate]. Dimensión [Mes]".
   
 > [!NOTE]
 > La lista solo muestra una pequeña parte de la lista. 

@@ -1,8 +1,8 @@
 ---
-title: Administración de la configuración de grupo de respuesta de nivel de aplicación en Skype empresarial
+title: Administración de la configuración del grupo de respuesta en el nivel de aplicación en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Administración de la configuración de grupo de respuesta de nivel de aplicación, como la configuración de música en espera y timbre, en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 99a3d6bc82cffd39608d2da0be013d4fbb8389e8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Administrar la configuración de grupo de respuesta de nivel de aplicación, como la configuración de música en espera y devolución de llamada, en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: d41211b83e5ce0c27bb9efe1d3d15a6289ae38fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767113"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830790"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Administración de la configuración de grupo de respuesta de nivel de aplicación en Skype empresarial
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Administración de la configuración del grupo de respuesta en el nivel de aplicación en Skype Empresarial
  
-Administración de la configuración de grupo de respuesta de nivel de aplicación, como la configuración de música en espera y timbre, en Skype empresarial Server Enterprise Voice.
+Administrar la configuración de grupo de respuesta de nivel de aplicación, como la configuración de música en espera y devolución de llamada, en Skype Empresarial Server Telefonía IP empresarial.
   
-La configuración de nivel de aplicación para la aplicación de grupo de respuesta incluye la configuración predeterminada de música en espera, el archivo de audio de música activada predeterminada, el período de gracia de timbre de agente y la configuración de contexto de llamada. Solo puede definir un conjunto de opciones de configuración de la aplicación por grupo. Para ver la configuración de la aplicación, use el cmdlet **Get-CsRgsConfiguration**. Para modificar la configuración de la aplicación, use el cmdlet **Set-CsRgsConfiguration**.
+La configuración de nivel de aplicación para la aplicación grupo de respuesta incluye la configuración de música en espera predeterminada, el archivo de audio de música en espera predeterminado, el período de gracia de devolución de llamada del agente y la configuración del contexto de llamada. Solo puede definir un conjunto de opciones de configuración de nivel de aplicación por grupo. Para ver la configuración de nivel de aplicación, use el cmdlet **Get-CsRgsConfiguration**. Para modificar la configuración de nivel de aplicación, use el cmdlet **Set-CsRgsConfiguration**.
   
 La música en espera predeterminada se reproduce cuando se pone una llamada en espera solo si no se definió ninguna música en espera personalizada. El contexto de llamada está disponible solo para las colas asignadas a flujos de trabajo interactivos. Si se habilitó el contexto de llamada, un agente puede ver información como tiempo de espera del autor de la llamada, o preguntas y respuestas del flujo de trabajo, cuando se recibe la llamada.
   
-### <a name="to-modify-response-group-application-level-settings"></a>Para modificar la configuración del nivel de aplicación de un grupo de respuesta
+### <a name="to-modify-response-group-application-level-settings"></a>Para modificar la configuración de nivel de aplicación de Grupo de respuesta
 
-1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.
+1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. En la línea de comandos, ejecute:
     
@@ -56,10 +56,10 @@ La música en espera predeterminada se reproduce cuando se pone una llamada en e
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
 [Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[Importar-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
