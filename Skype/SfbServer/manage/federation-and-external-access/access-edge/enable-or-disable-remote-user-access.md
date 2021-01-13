@@ -5,8 +5,8 @@ ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,59 +14,59 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Si habilita el acceso de usuarios remotos para usuarios remotos, los usuarios remotos compatibles se conectan a través de Internet y no tienen que conectarse usando una VPN para colaborar con usuarios internos que usen Skype empresarial Server.
-ms.openlocfilehash: b562dbe7a849ca4266a45303008ff9081903658d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Si habilita el acceso de usuarios remotos para usuarios remotos, los usuarios remotos admitidos se conectan a través de Internet y no tienen que conectarse con una VPN para colaborar con usuarios internos con Skype Empresarial Server.
+ms.openlocfilehash: 9e5ba5828e129c6fed5dd892b1a7bb8e6bd64707
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818381"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817400"
 ---
-# <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Habilitar o deshabilitar el acceso de usuarios remotos en Skype empresarial Server
+# <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Habilitar o deshabilitar el acceso de usuarios remotos en Skype Empresarial Server
 
-Los usuarios remotos son usuarios de su organización que tienen una identidad de Active Directory persistente dentro de la organización. Los usuarios remotos a menudo inician sesión en Skype empresarial Server desde fuera de la red mediante una red privada virtual (VPN) cuando no están conectados a la red de su organización. Los usuarios remotos incluyen empleados que trabajan en casa o que están de viaje y otros trabajadores remotos, como proveedores de confianza, a los que se les han concedido credenciales empresariales. Si habilita el acceso de usuarios remotos para usuarios remotos, los usuarios remotos compatibles se conectan a través de Internet y no tienen que conectarse usando una VPN para colaborar con usuarios internos que usen Skype empresarial Server.
+Los usuarios remotos son usuarios de la organización que tienen una identidad persistente de Active Directory en la organización. Los usuarios remotos suelen iniciar sesión en Skype Empresarial Server desde fuera de la red mediante una red privada virtual (VPN) cuando no están conectados a la red de su organización. Entre los usuarios se encuentran los empleados que trabajan en casa o fuera de la oficina, así como otros trabajadores remotos, como los proveedores de confianza, a los que se conceden credenciales corporativas. Si habilita el acceso de usuarios remotos para usuarios remotos, los usuarios remotos admitidos se conectan a través de Internet y no tienen que conectarse con una VPN para colaborar con usuarios internos con Skype Empresarial Server.
 
-Para admitir el acceso de usuarios remotos, debe habilitar el acceso de usuarios remotos. Cuando se habilita el acceso de usuarios remotos, se habilita para toda la organización. Si posteriormente desea evitar el acceso de usuarios remotos de forma temporal o permanente, puede deshabilitarlo para su organización. Use el procedimiento de esta sección para habilitar o deshabilitar el acceso de usuarios remotos a su organización.
+Si más adelante desea impedir de forma provisional o definitiva el acceso a usuarios de dominios federados, deshabilite la federación para la organización. Para habilitar o deshabilitar el acceso de usuarios federados en su organización, siga el procedimiento de esta sección, que también incluye las opciones de federación adecuadas que debe admitir la organización.
 
 
 > [!NOTE]  
-> Habilitar el acceso de usuarios remotos solo especifica que los servidores que ejecutan el servicio perimetral de acceso admiten comunicaciones con usuarios remotos, pero los usuarios remotos no pueden participar en la mensajería instantánea (mi) ni en conferencias de su organización hasta que también configure en menos una directiva para administrar el uso del acceso de usuarios remotos. La configuración de directiva de Skype empresarial Server que se aplica a un nivel de Directiva puede invalidar la configuración que se aplica a otro nivel de directiva. La prioridad de la Directiva de servidor de Skype empresarial es: la Directiva de usuario (más influencia) reemplaza a una directiva de sitio y, después, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto. Para obtener más información sobre cómo configurar directivas para el uso de acceso de usuarios remotos, vea [configurar directivas para controlar el acceso de usuarios remotos en Skype empresarial Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
+> Al habilitar el acceso de usuarios remotos solo se especifica que los servidores que ejecuten el servicio perimetral de acceso permitan la comunicación con usuarios remotos, pero dichos usuarios no pueden participar en mensajes instantáneos ni en conferencias de la organización hasta que también se configure una directiva para administrar el uso del acceso de usuarios remotos. La configuración de directiva de Skype Empresarial Server que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La prioridad de las directivas de Skype Empresarial Server es: la directiva de usuario (mayor influencia) invalida una directiva de sitio y una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto. Para obtener más información sobre cómo configurar directivas para el uso del acceso de usuarios remotos, consulte Configurar directivas para controlar el acceso de usuarios remotos [en Skype Empresarial Server.](../external-access-policies/configure-policies-to-control-remote-user-access.md)
 
 
-## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Para habilitar o deshabilitar el acceso de usuarios remotos a su organización
+## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Para habilitar o deshabilitar el acceso de usuarios remotos en la organización
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Federación y acceso externo** y, luego, en **Configuración perimetral de acceso**.
+3.  En el barra de navegación izquierda, haga clic en **Federación y acceso externo** y luego en **Configuración perimetral de acceso**.
 
-4.  En la página **configuración de perímetro de Access** , haga clic en **global**, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
+4.  En la página **Configuración perimetral de acceso**, haga clic en **Global**, en **Editar** y, a continuación en **Mostrar detalles**.
 
-5.  En **Editar configuración del límite de acceso**, realice una de las siguientes acciones:
+5.  En **Editar configuración perimetral de acceso**, lleve a cabo uno de los procedimientos siguientes:
     
-      - Para habilitar el acceso de usuarios remotos a su organización, seleccione la casilla de verificación **Habilitar el acceso de usuarios remotos** .
+      - Para habilitar el acceso de usuarios remotos en la organización, active la casilla **Habilitar el acceso remoto de usuarios**.
     
-      - Para deshabilitar el acceso de usuarios remotos a su organización, desactive la casilla **Habilitar el acceso de usuarios remotos** .
+      - Para deshabilitar el acceso remoto de usuarios en la organización, desactive la casilla **Habilitar el acceso remoto de usuarios**.
 
 6.  Haga clic en **Confirmar**.
 
-Para permitir que los usuarios remotos inicien sesión en sus servidores con Skype empresarial Server, también debe configurar al menos una directiva de acceso externo para que admita el acceso de usuarios remotos. Para obtener más información, consulte [configurar directivas para controlar el acceso de usuarios remotos en Skype empresarial Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
+Para permitir que los usuarios remotos inicien sesión en los servidores que ejecutan Skype Empresarial Server, también debe configurar al menos una directiva de acceso externo para admitir el acceso de usuarios remotos. Para obtener más información, consulte [Configurar directivas para controlar el acceso de usuarios remotos en Skype Empresarial Server.](../external-access-policies/configure-policies-to-control-remote-user-access.md)
 
 
-## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar el acceso de usuarios remotos mediante cmdlets de Windows PowerShell
+## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar el acceso de usuarios remotos mediante cmdlets Windows PowerShell remoto
 
-El acceso de usuarios remotos se puede administrar mediante Windows PowerShell y el cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet se puede ejecutar desde el shell de administración de Skype empresarial Server 2013 o desde una sesión remota de Windows PowerShell. 
+El acceso de usuarios remotos se puede administrar mediante Windows PowerShell y el cmdlet Set-CsAccessEdgeConfiguration usuario. Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server 2013 o desde una sesión remota de Windows PowerShell. 
 
 ## <a name="to-enable-remote-user-access"></a>Para habilitar el acceso de usuarios remotos
 
-  - Para habilitar el acceso de usuarios remotos, establezca el valor de la propiedad **AllowOutsideUsers** en True ($true):
+  - Para habilitar el acceso de usuarios remotos, defina el valor de la propiedad **AllowOutsideUsers** en True ($True):
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
 ## <a name="to-disable-remote-user-access"></a>Para deshabilitar el acceso de usuarios remotos
 
-  - Para deshabilitar el acceso de usuarios remotos, establezca el valor de la propiedad **AllowOutsideUsers** en False ($false):
+  - Para inhabilitar el acceso de usuarios remotos, defina el valor de la propiedad **AllowOutsideUsers** en False ($False):
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 

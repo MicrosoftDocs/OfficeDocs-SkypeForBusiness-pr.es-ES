@@ -1,8 +1,8 @@
 ---
-title: Cambiar una directiva de archivado existente en Skype empresarial Server
+title: Cambiar una directiva de archivado existente en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Resumen: Aprenda a cambiar las directivas de archivado de usuario para Skype empresarial Server.'
-ms.openlocfilehash: 010365b5805517db8f40aa7e3e839fdb15115c06
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo cambiar las directivas de archivado de usuarios para Skype Empresarial Server.'
+ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818992"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817710"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Cambiar una directiva de archivado existente en Skype empresarial Server
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Cambiar una directiva de archivado existente en Skype Empresarial Server
  
-**Resumen:** Aprenda a cambiar las directivas de archivado de usuario para Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo cambiar las directivas de archivado de usuarios para Skype Empresarial Server.
   
-Al implementar por primera vez Skype empresarial Server, se configuran directivas de archivado iniciales que determinan cómo se implementa el archivado para los usuarios de la implementación. Este tema describe cómo administrar y corregir directivas. 
+Cuando implementa Skype Empresarial Server por primera vez, configura directivas de archivado iniciales que determinan cómo se implementa el archivado para los usuarios de su implementación. En este tema se describe cómo administrar y modificar directivas. 
   
-## <a name="change-archiving-policies-by-using-the-control-panel"></a>Cambiar las directivas de archivado con el Panel de control
+## <a name="change-archiving-policies-by-using-the-control-panel"></a>Cambiar las directivas de archivado mediante el Panel de control
 
-1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
+1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
     
-3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
+3. En la barra de navegación izquierda, haga clic en **Configuración y archivado** y, a continuación, en **Directiva de archivado**.
     
 4. En la lista de directivas, siga uno de estos pasos: 
     
@@ -50,13 +50,13 @@ Al implementar por primera vez Skype empresarial Server, se configuran directiva
 6. Haga clic en **Confirmar**.
     
     > [!IMPORTANT]
-    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, vea [aplicar una directiva de archivado a los usuarios en Skype empresarial Server](apply-a-policy-to-users.md). 
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, [consulte Aplicar una directiva de archivado a los usuarios de Skype Empresarial Server.](apply-a-policy-to-users.md) 
   
-## <a name="change-archiving-policies-by-using-windows-powershell"></a>Cambiar las directivas de archivado con Windows PowerShell
+## <a name="change-archiving-policies-by-using-windows-powershell"></a>Cambiar las directivas de archivado mediante Windows PowerShell
 
-También puede cambiar las directivas de archivado con el cmdlet **Set-CsArchivingPolicy** de Windows PowerShell.
+También puede cambiar las directivas de archivado con Windows PowerShell **Cmdlet Set-CsArchivingPolicy.**
   
-### <a name="enable-archiving-policies"></a>Habilitar las directivas de archivado
+### <a name="enable-archiving-policies"></a>Habilitar directivas de archivado
 
 Para habilitar el archivado de sesiones de comunicación internas, establezca el valor del parámetro ArchiveInternal en True ($True): 
   
@@ -70,13 +70,13 @@ Para habilitar el archivado de sesiones de comunicación externas, establezca el
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
-Para habilitar el archivado de las sesiones de comunicación interna y externa, establezca el valor de los parámetros ArchiveInternal y ArchiveExternal en true: 
+Para habilitar el archivado de sesiones de comunicación internas y externas, establezca el valor de los parámetros ArchiveInternal y ArchiveExternal en True: 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
-### <a name="disable-archiving-policies"></a>Deshabilitar las directivas de archivado
+### <a name="disable-archiving-policies"></a>Deshabilitar directivas de archivado
 
 Para deshabilitar el archivado por completo, establezca el valor de los parámetros ArchiveInternal y ArchiveExternal en False ($False): 
   

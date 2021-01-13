@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de dirección URL simple
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Para especificar nuevas direcciones URL, o bien quitar las ya existentes o cambiar las direcciones URL sencillas activas, efectúe lo siguiente:'
-ms.openlocfilehash: 79a5bba3cf16ae8e3a57b80947f5157978c9d3ef
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 4a6f01dde6259171c1c31669f7f87adf5261acc9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219755"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818260"
 ---
 # <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL simple
 
@@ -34,7 +34,7 @@ Para modificar la dirección URL de acceso telefónico o la de reuniones, selecc
 
 Para agregar una nueva dirección URL, haga clic en **Agregar**. En el cuadro de diálogo **Agregar dirección URL sencilla**, especifique la dirección URL y haga clic en **Aceptar** para guardar la dirección URL. Seleccione **Convertir en activa esta dirección URL para el dominio seleccionado** si desea que la nueva dirección URL sea la dirección URL activa. Haga clic en **Cancelar** para descartar todos los cambios.
 
-Para convertir en activa otra dirección URL (indicada mediante la marca de verificación verde que hay junto a la dirección URL), seleccione la dirección URL y haga clic en **Convertir en activa **.
+Para convertir en activa otra dirección URL (indicada mediante la marca de verificación verde que hay junto a la dirección URL), seleccione la dirección URL y haga clic en **Convertir en activa**.
 
 > [!NOTE]
 > Solamente puede haber una dirección URL activa para cada dominio del protocolo de inicio de sesión (SIP).
@@ -48,7 +48,7 @@ Para editar o cambiar la dirección URL de acceso administrativo, edite la entra
 
 Una vez haya efectuado todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 Para obtener más información, consulte [Planeación de direcciones URL sencillas](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
 

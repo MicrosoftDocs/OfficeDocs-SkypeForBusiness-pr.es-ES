@@ -1,7 +1,7 @@
 ---
 title: Definir escenarios de uso para Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo elegir los mejores escenarios de uso válidos para la fase experimental de la adopción de Teams.
+description: Obtenga información sobre cómo elegir los mejores escenarios de uso aplicables para la fase de experimento de la adopción de Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: fb5f1370369da20c14a658f7a2525704f71195a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997271"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804600"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir escenarios de uso para Microsoft Teams
 
-Asegúrese de comprender los proyectos profesionales (escenarios) que estarán en el ámbito de esta fase de la implementación. Eche un vistazo a esta lista de escenarios de ejemplo que son excelentes candidatos para un programa de adopción anticipada. Puede comenzar a usar el WINS fácilmente, como:
+Asegúrese de que comprende los proyectos empresariales (escenarios) que estarán dentro del ámbito para esta fase de su implementación. Echa un vistazo a esta lista de escenarios de ejemplo que son grandes candidatos para un programa de usuarios iniciales. Puede empezar con sencillos victorias como:
 
 - Productividad personal
 - Administración de proyectos moderna
@@ -38,38 +38,38 @@ Asegúrese de comprender los proyectos profesionales (escenarios) que estarán e
 
 ![Ilustración de los tres escenarios principales](media/teams-adoption-modernizing-core-scenarios.png)
 
-Otros escenarios a tener en cuenta son:
+Los escenarios adicionales que se deben tener en cuenta son:
 
-- Compromiso y comunicación con el empleado
-- Acelerar las campañas en el mercado
+- Compromiso y comunicación de los empleados
+- Llevar las campañas al mercado más rápido
 - Aumentar la productividad de las ventas y aumentar los ingresos
 - Simplificar las revisiones empresariales
 
-![Ilustración de los casos de uso de Teams para cada escenario](media/teams-adoption-use-cases.png)
+![Ilustración de casos de uso de Teams para cada escenario](media/teams-adoption-use-cases.png)
 
-Considere este escenario el movimiento de modernización como un proceso acumulado: siga los pasos más básicos para crear entusiasmo, familiaridad y credibilidad con esta nueva forma de trabajar. Después, pase a áreas de impacto más ambiciosas. A medida que se demuestre más impacto con Microsoft Teams para sus colegas empresariales, más de ellos se conseguirá y se generará el impulso. Para muchos de nuestros clientes, una vez que el proceso está pasando, encontrarán que las partes interesadas del negocio se acerquen después de saber cómo obtuvieron valor sus colegas de Microsoft Teams.
+Piense en este escenario movimiento de modernización como un proceso acumulado: poner en marcha cosas con escenarios más básicos para crear entusiasmo, familiaridad y confianza en esta nueva forma de trabajar. Luego pase a áreas más ambiciosas de impacto. A medida que se muestra más impacto con Microsoft Teams a sus compañeros de trabajo, se comprometen más y se genera un impulso. Para muchos de nuestros clientes, una vez que han pasado este proceso, descubren que las partes interesadas empresariales se acercan a ellos después de aprender cómo sus compañeros han conseguido el valor de Microsoft Teams.
 
-## <a name="interview-business-stakeholders"></a>Entrevistar a las partes interesadas
+## <a name="interview-business-stakeholders"></a>Entrevista a las partes interesadas de la empresa
 
-Para confirmar la selección de estos proyectos iniciales, le recomendamos que se reúna directamente con las partes interesadas anteriormente en este proceso. Su objetivo en este momento es escuchar y obtener información adicional sobre su empresa. Considere las siguientes preguntas para dirigir la conversación:
+Para confirmar la selección de estos proyectos iniciales, recomendamos reunirse directamente con las partes interesadas que identificó anteriormente en este proceso. Su objetivo en este punto es escuchar y obtener información adicional sobre su negocio. Considere las siguientes preguntas para impulsar la conversación:
 
-- ¿Cuáles son algunos de los desafíos o Pain Points de la organización relacionados con la comunicación y la colaboración?
-- ¿Cuáles son las áreas en las que su organización desea mejorar?
-- ¿Cuáles son las iniciativas estratégicas de la organización o los proyectos de transformación actuales que Teams puede admitir?
-- ¿Qué métodos de comunicación y colaboración suelen recibir mejor las organizaciones que otras?
+- ¿Cuáles son algunos de los desafíos o problemas de la organización relacionados con la comunicación y la colaboración?
+- ¿Cuáles son las áreas en las que su organización quiere mejorar?
+- ¿Cuáles son las iniciativas estratégicas de la organización o los proyectos de transformación actuales que puede admitir Teams?
+- ¿Qué métodos de comunicación y colaboración suele recibir mejor su organización que otras personas?
 - ¿Cuál es el proceso para redactar, distribuir y compartir información?
 
 ## <a name="map-and-prioritize-business-scenarios"></a>Asignar y priorizar escenarios empresariales
 
-Para asegurarse de que tiene la información correcta sobre el escenario empresarial, considere la posibilidad de usar el siguiente formato para documentar el escenario desde la perspectiva del empleado que completa el trabajo y el propietario de la empresa del proceso. Ambas perspectivas son necesarias para elaborar una trayectoria exitosa hacia adelante.
+Para asegurarse de que tiene la información correcta sobre el escenario empresarial, considere la posibilidad de usar el siguiente formato para documentar el escenario desde la perspectiva del empleado completando el trabajo y el propietario empresarial del proceso. Ambas perspectivas son necesarias para crear un buen camino hacia adelante.
 
 ![Ilustración del marco para identificar escenarios](media/teams-adoption-identify-scenarios.png)
 
-Después de hablar con una o más partes interesadas, puede priorizar sus escenarios en función de su impacto y dificultad. (Es posible que los escenarios se agreguen a los escenarios que sugerimos anteriormente). Los candidatos adecuados para la fase de experimentación deberían tener un mayor impacto y una dificultad de bajo a medio. Esto garantizará que su proyecto no se vea afectado por el alcance o las dificultades técnicas antes de que pueda mostrar el valor de su trabajo. A continuación se muestra un gráfico de ejemplo.
+Después de hablar con uno o más participantes empresariales, puede priorizar sus escenarios en función del impacto frente a la dificultad. (Sus escenarios pueden ser además de los escenarios que sugerimos anteriormente). Los candidatos adecuados para la fase de experimentación deben tener un mayor impacto y dificultades de baja a mediana. De este modo, se asegurará de que el proyecto no se verá afectado por el ámbito o dificultades técnicas antes de que pueda mostrar el valor de su trabajo. A continuación se muestra un gráfico de ejemplo.
 
-![Una ilustración que muestra el impacto de escenario frente a la dificultad](media/teams-adoption-impact-difficulty.png)
+![Ilustración que muestra el impacto del escenario frente a la dificultad](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Siempre estamos ansiosos por conocer el modo en que nuestros clientes usan Teams de nuevas y innovadoras formas. Comparte tu #TeamsStories con nosotros en nuestro [Foro de debate de adopción de impulsores](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). Incluya el hashtag **#TeamsStories** en su publicación. Siempre estamos interesados en cómo usar Teams en su organización.
+> Siempre estamos ansiosos por aprender cómo nuestros clientes usan Teams de nuevas formas innovadoras. Comparta sus #TeamsStories con nosotros en nuestro foro de discusión [sobre Impulsar la adopción.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Incluya el hashtag **#TeamsStories** en la publicación. Siempre estamos interesados en cómo usa Teams en su organización.
 
-![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: los [primeros pioneros incorporados y la recopilación de comentarios](teams-adoption-onboard-early-adopters.md).
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [incorporar a los primeros usuarios y recopilar comentarios.](teams-adoption-onboard-early-adopters.md)

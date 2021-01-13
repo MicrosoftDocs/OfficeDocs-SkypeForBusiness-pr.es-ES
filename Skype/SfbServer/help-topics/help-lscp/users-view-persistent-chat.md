@@ -1,8 +1,8 @@
 ---
-title: Los usuarios ven conversaciones persistentes
+title: Usuarios ver chat persistente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,40 +14,40 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
-description: Los miembros del rol CsPersistentChatAdministrator (administradores de chat persistentes) pueden conceder derechos y permisos de administrador del salón de chat a otros usuarios y a ellos mismos.
-ms.openlocfilehash: b188e2088004c0ab0f41771872fe99de5553b621
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Los miembros del rol CsPersistentChatAdministrator (administradores de chat persistente) pueden conceder permisos y derechos de administrador de salón de chat a otros usuarios y a sí mismos.
+ms.openlocfilehash: 745bec575e4071fcd06e7abfe15a3aa4ed8b194f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821722"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818770"
 ---
 # <a name="users-view-persistent-chat"></a>Usuarios: Ver chat persistente
 
-Los miembros del rol **CsPersistentChatAdministrator** (administradores de chat persistentes) pueden conceder derechos y permisos de administrador del salón de chat a otros usuarios y a ellos mismos.
+Los miembros del rol **CsPersistentChatAdministrator** (administradores de chat persistente) pueden conceder permisos y derechos de administrador de salón de chat a otros usuarios y a sí mismos.
 
 Un administrador de chat persistente puede hacer lo siguiente:
 
-- Crear categorías de sala y salones de chat.
+- Crear categorías de salones y salones de chat.
 
-- Establezca la pertenencia a todas las categorías y salones de chat.
+- Establecer la pertenencia de todas las categorías y salones de chat.
 
-- Administra toda la configuración de todas las categorías y salones de chat.
+- Administrar toda la configuración de todas las categorías y salones de chat.
 
-- Habilitar o deshabilitar la Directiva para el servidor de chat persistente.
+- Habilitar o deshabilitar la directiva para el servidor de chat persistente.
 
-- Establezca y administre las opciones de configuración en un grupo de servidores de chat persistente.
+- Establecer y administrar las opciones de configuración en un grupo de servidores de chat persistente.
 
-Para obtener más información, consulte [adición de un administrador de chat persistente](https://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx) en la documentación de implementación.
+Para obtener más detalles, vea [Adding a Persistent Chat Administrator](https://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx) en la documentación de implementación.
 
 ## <a name="tasks-that-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas en la página **usuarios: ver conversación persistente** :
+Puede realizar las siguientes tareas en la página **Usuarios: Ver chat persistente**:
 
-- [Habilitar a un usuario para que administre categorías, salones de chat y derechos de usuario y permisos](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
+- [Habilitar un usuario para administrar categorías, salones de conversación y derechos y permisos de usuario](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
 
-- [Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+- [Descripción de la pertenencia al chat persistente](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
 
-Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).
+Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
 
 

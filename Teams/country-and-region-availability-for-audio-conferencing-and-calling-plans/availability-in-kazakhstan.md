@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Kazajistán
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Kazajistán.
-ms.openlocfilehash: f91e41a66ad4a736664e336804a115c55bf0ba42
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Kazajistán.
+ms.openlocfilehash: 90c33092012c04bb25eb29109e3294c5b8a77fca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230228"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799880"
 ---
 # <a name="availability-in-kazakhstan"></a>Disponibilidad en Kazajistán
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Kazajistán.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Kazajistán.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -68,7 +68,7 @@ Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el 
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Almaty ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))<br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Almaty ([a petición)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí ([bajo petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    

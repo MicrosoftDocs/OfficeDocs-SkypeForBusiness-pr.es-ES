@@ -1,13 +1,13 @@
 ---
-title: Actualizar la implementación híbrida de Skype empresarial a teams
-author: lanachin
-ms.author: v-lanac
+title: Actualizar la implementación híbrida de Skype Empresarial a Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Obtenga información sobre cómo actualizar su organización a Microsoft Teams desde una implementación híbrida de Skype empresarial.
+description: Aprenda a actualizar su organización a Microsoft Teams desde una implementación híbrida de Skype Empresarial.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,45 +20,45 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72786dc2ef5cefe7c3c87c5a376cc01d93a2c22c
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 67bb6c10bb8cc5f37d332459d8e147f4f626497d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940520"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802350"
 ---
-# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Actualizar a teams desde una implementación híbrida de Skype empresarial
+# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Actualizar desde una implementación híbrida de Skype Empresarial a Teams
 
-![Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
+![Fases del viaje de actualización, con énfasis en la fase implementación e implementación](media/upgrade-banner-deployment.png "Fases del viaje de actualización, con énfasis en la fase implementación e implementación")
 
-Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
+Este artículo forma parte de la fase de implementación e implementación del viaje de actualización. Antes de continuar, confirma que has completado las siguientes actividades:
 
 - [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
 - [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
 - [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Ha realizado una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
+- [Ha elegido el viaje de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Preparado tu entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Ha preparado tu organización](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Se realizó un piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-Siga las instrucciones de este artículo si ha implementado Skype empresarial o Microsoft Lync local y lo ha configurado en una implementación híbrida con su organización de Microsoft 365 u Office 365, y su organización quiere actualizar a teams de forma selectiva, mediante el uso de varios modos de coexistencia o todos. Para realizar cualquiera de las actualizaciones, necesita mover los usuarios a Skype empresarial online (si no están conectados) y, a continuación, asignarles el modo de coexistencia y actualización apropiado.
+Siga las instrucciones de este artículo si ha implementado Skype Empresarial o Microsoft Lync local y lo ha configurado en una implementación híbrida con su organización de Microsoft 365 u Office 365 y su organización desea actualizar a Teams de forma selectiva (usando varios modos de coexistencia) o todo en él. Para ambos viajes de actualización, debe mover los usuarios a Skype Empresarial Online (si aún no están en línea) y asignarles el modo de coexistencia y actualización adecuados.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-move-users-to-skype-for-business-online"></a>Paso 1: mover usuarios a Skype empresarial online
+## <a name="step-1-move-users-to-skype-for-business-online"></a>Paso 1: Mover usuarios a Skype Empresarial Online
 
-Este paso se aplica a los usuarios que actualmente están alojados en local. Para obtener más información sobre cómo mover estos usuarios a Skype empresarial online, consulte [mover usuarios de local a Skype empresarial online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
+Este paso se aplica a los usuarios que están actualmente homed on-premises. Para obtener más información sobre cómo mover estos usuarios a Skype Empresarial Online, vea Mover usuarios de una implementación local a [Skype Empresarial Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
-## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Paso 2: asignar un modo de coexistencia y actualización
+## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Paso 2: Asignar un modo de coexistencia y actualización
 
-Después de mover los usuarios a Skype empresarial online, puede asignarles el modo de coexistencia adecuado en función del recorrido de actualización que haya elegido su organización. Para obtener más información, vea [configurar la coexistencia y la configuración de actualización](https://aka.ms/SkypeToTeams-SetCoexistence) y [TeamsUpgradePolicy: administración de la migración y la coexistencia](upgrade-to-teams-on-prem-tools.md).
+Después de mover los usuarios a Skype Empresarial Online, puede asignarles el modo de coexistencia adecuado en función del camino de actualización que haya elegido su organización. Para obtener más información, vea [Configurar la coexistencia](https://aka.ms/SkypeToTeams-SetCoexistence) y la configuración de actualización y [TeamsUpgradePolicy: administrar la migración y coexistencia.](upgrade-to-teams-on-prem-tools.md)
 
 > [!NOTE]
-> Con Skype empresarial Server 2019 y una actualización acumulativa futura de Skype empresarial Server 2015, podrá realizar el paso 1 (mover usuarios a Skype empresarial online) y el paso 2 (actualizar usuarios a teams) en un solo paso. Se proporcionará más información después de que se publique el servidor 2019 de Skype empresarial.
+> Con Skype Empresarial Server 2019 y una actualización acumulativa futura de Skype Empresarial Server 2015, podrá realizar los pasos 1 (mover usuarios a Skype Empresarial Online) y paso 2 (actualizar usuarios a Teams) en un solo paso. Después de la lanzamiento de Skype Empresarial Server 2019, se le dará más información.
 
-## <a name="phone-system-and-teams-upgrade"></a>Actualización de equipos y sistemas telefónicos
+## <a name="phone-system-and-teams-upgrade"></a>Actualización de Sistema telefónico y Teams
 
-Si va a realizar la transición de la implementación híbrida de Skype empresarial a un sistema telefónico con planes de llamadas y Microsoft será su proveedor de red de telefonía pública conmutada (RTC) y suponiendo que haya completado la portabilidad de los números de teléfono, la actualización de los usuarios a teams migrará automáticamente las llamadas RTC entrantes a teams.
+Si va a realizar la transición de su implementación híbrida de Skype Empresarial a Sistema telefónico con planes de llamadas y Microsoft será su proveedor de red telefónica conmutada (RTC) público y, suponiendo que ha completado la porción de números de teléfono, al actualizar los usuarios a Teams se realizarán automáticamente las llamadas RTC de entrada a Teams.
 
-Si los planes de llamadas no están disponibles o pretende usar su proveedor de conectividad RTC existente, debe realizar la transición de la implementación de telefonía IP empresarial, o de la implementación de voz híbrida que use su implementación local existente o la edición de conector de nube, al enrutamiento directo de Microsoft Phone System. Para actualizar los usuarios a Teams, consulte las [consideraciones adicionales para el enrutamiento directo de sistema telefónico](2-envision-make-my-service-decisions-direct-routing.md).
+Si los planes de llamadas no están disponibles o su intención es usar su proveedor de conectividad CON RTC, deberá pasar la implementación de voz empresarial (o una implementación de voz híbrida que usa su implementación local existente o Cloud Connector Edition) a Microsoft Phone System Direct Routing. Para actualizar los usuarios a Teams, consulte las [consideraciones adicionales para el enrutamiento directo de sistema telefónico.](2-envision-make-my-service-decisions-direct-routing.md)

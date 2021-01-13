@@ -1,7 +1,7 @@
 ---
 title: Restricciones de marcado de número gratuito en Suecia
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,29 +21,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: Esto le ayudará a saber cómo llamar a números gratuitos en cada país o región. Después de seleccionar el país o la región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad del servicio gratuito cuando el servicio gratuito esté disponible. El formato o los formatos de marcación le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: c5458dd661262eb8a5be4462fcc005d94e2bd121
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321903"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809130"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Restricciones de marcado de número gratuito en Suecia
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> | 020 <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> | 020 <br/> |
 |Código ISO de país o región  <br/> |SE  <br/> |
-|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Sí  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |No  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

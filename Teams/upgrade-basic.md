@@ -1,13 +1,13 @@
 ---
-title: Actualización de la lista de comprobación | Actualización de Skype empresarial a teams | Pasos básicos
-author: lanachin
-ms.author: v-lanac
+title: Actualizar lista de comprobación| Actualización de Skype Empresarial a Teams | Pasos básicos
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Siga este plan de acción acelerado de diez pasos para pasar de una configuración básica de Skype empresarial a la configuración de Microsoft Teams.
+description: Siga este plan de acción acelerada de diez pasos para pasar de una configuración básica de Skype Empresarial a la configuración de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -23,48 +23,48 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 37cc9f3940eb08a4df092042c016b194b01c64e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666232"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809090"
 ---
-# <a name="upgrade-basic"></a>Actualizar básico
+# <a name="upgrade-basic"></a>Actualización básica
 
 <a name="about-upgrade-basic"></a>
 
-Diseñada para organizaciones pequeñas o para las que usan Skype empresarial online para mensajería instantánea (chat) y reuniones, la lista de comprobación básica de actualizaciones es un plan de acción acelerado que incluye actividades básicas, recomendadas y recursos asociados para implementar un movimiento exitoso de Skype empresarial a teams.
+Diseñada para organizaciones más pequeñas o que usan Skype Empresarial Online solo para mensajería instantánea (chat) y reuniones, la lista de comprobación de Upgrade Basic es un plan de acción acelerada que incluye actividades básicas, recomendaciones y recursos asociados para implementar correctamente un cambio de Skype Empresarial a Teams.
 
-Estos diez pasos sencillos proporcionan todo lo que necesitas para una actualización correcta. Están diseñados para completarse en unos 30 a 45 días, pero debe ajustar las fechas de finalización de las tareas en función de la programación de actualización de su organización.
+Estos diez sencillos pasos proporcionan todo lo que necesita para una actualización correcta. Están diseñados para completarse en aproximadamente 30 a 45 días, pero debe ajustar las fechas de finalización de las tareas según la programación de actualización de su organización.
 
 > [!IMPORTANT]
-> Skype empresarial online se retirará el 31 de julio de 2021. Después de ese tiempo, el servicio de Skype empresarial online ya no será accesible ni compatible. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
+> Skype Empresarial Online se retirará el 31 de julio de 2021. Transcurrido ese tiempo, el servicio de Skype Empresarial Online ya no será accesible ni compatible. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
 
-¿Qué pasa con Skype empresarial después de la actualización? Después de que los usuarios se actualicen a Teams (modo de**solo Teams** ):
+¿Qué pasa con Skype Empresarial después de la actualización? Después de la actualización de los usuarios a Teams (modo **solo Teams**):
 
-- El cliente de Skype empresarial está deshabilitado y todos los chats y las llamadas se dirigen a teams. Tenga en cuenta que esto no desinstalará el cliente en sus escritorios.
-- Cualquier reunión de Skype empresarial programada antes de la actualización funciona según lo previsto, pero todas las reuniones nuevas se programan en Teams. El complemento de Skype para empresas ya no estará disponible en Outlook. 
-- Si los usuarios intentan iniciar sesión en Skype empresarial, reciben una notificación de su cliente que han sido actualizadas a teams.
-- Los usuarios necesitan desinstalar manualmente el cliente de Skype empresarial en sus dispositivos móviles.
+- El cliente de Skype Empresarial está deshabilitado y todas las llamadas y chats van a Teams. Tenga en cuenta que esto no desinstalará el cliente en sus escritorios.
+- Todas las reuniones de Skype Empresarial que se programaron antes de la actualización funcionan según lo previsto, pero todas las reuniones nuevas se programan en Teams. El complemento de Skype Empresarial ya no estará disponible en Outlook. 
+- Si los usuarios intentan iniciar sesión en Skype Empresarial, el cliente les envía una notificación de que se les ha actualizado a Teams.
+- Los usuarios necesitan desinstalar manualmente el cliente de Skype Empresarial en sus dispositivos móviles.
 
-Consulta las preguntas más [frecuentes](https://aka.ms/SkypeToTeams-FAQ) para obtener más información sobre la actualización.
+Consulta nuestras [preguntas más](https://aka.ms/SkypeToTeams-FAQ) frecuentes para preguntas adicionales sobre la actualización.
 
-¿No está familiarizado con Teams? [Obtenga información sobre cómo Teams](https://products.office.com/microsoft-teams/group-chat-software) reúne conversaciones, reuniones, archivos, aplicaciones de Office y integraciones de terceros, que proporcionan un solo concentrador para el trabajo en equipo en Microsoft 365 y Office 365.
+¿No está familiarizado con Teams? [Obtenga](https://products.office.com/microsoft-teams/group-chat-software) información sobre cómo Teams reúne conversaciones, reuniones, archivos, aplicaciones de Office e integraciones de terceros, proporcionando un único hub para el trabajo en equipo en Microsoft 365 y Office 365.
 
 <!--ENDOFSECTION-->
 
 <a name="step-1"></a>
 
-## <a name="step-1-notify-your-key-stakeholders"></a>Paso 1. Notificar a los participantes clave
+## <a name="step-1-notify-your-key-stakeholders"></a>Paso 1. Notificar a las principales partes interesadas
 
-*(Entre cuatro y seis semanas antes de la actualización)*
+*(Aproximadamente, de cuatro a seis semanas antes de la actualización)*
 
-Los jefes superiores son responsables de éxito de la empresa; Asegúrate de mantenerlos en la información sobre cambios tecnológicos. Puesto que es posible que no todos reciban o lean la notificación de idoneidad de la actualización, tendrá que informar a las partes interesadas (por ejemplo, CEO, profesionales de ti, marketing y clientes potenciales de asistencia) antes de empezar a planificar la actualización.
+Los líderes sénior son responsables del éxito de la empresa; asegúrese de mantenerlos al día sobre los cambios tecnológicos. Como es posible que no todos los usuarios reciban o lean la notificación de idoneidad para la actualización, debe informar a las partes interesadas (por ejemplo, el director general, los profesionales de TI, el departamento de marketing y los responsables del departamento de soporte técnico) antes de empezar a planear la actualización.
 
-**Recursos**
+**Recursos:**
 
-- [Correo electrónico de ejemplo: comunicación entre participantes](upgrade-emails-surveys.md#step-1-email)
+- [Correo electrónico de ejemplo: comunicación entre partes interesadas](upgrade-emails-surveys.md#step-1-email)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -74,14 +74,14 @@ Los jefes superiores son responsables de éxito de la empresa; Asegúrate de man
 
 ## <a name="step-2-prepare-your-organization-for-teams"></a>Paso 2. Prepare a su organización para Teams
 
-*(Entre cuatro y seis semanas antes de la actualización)*
+*(Aproximadamente, de cuatro a seis semanas antes de la actualización)*
 
-Teams ofrece características compatibles con Skype empresarial, como la mensajería instantánea y las reuniones, pero también puede hacer mucho más. Como un concentrador real para el trabajo en equipo, Teams permite a los grupos de trabajo administrar proyectos, archivos, conversaciones y aplicaciones en una sola ubicación. De forma predeterminada, Teams está activado para todas las organizaciones. Decida cómo usará Teams su organización y configure el entorno para el éxito. 
+Teams ofrece funciones compatibles con Skype Empresarial, como la mensajería instantánea (chat) y las reuniones, pero también puede hacer mucho más. Como un verdadero centro para el trabajo en equipo, Teams permite a los grupos de trabajo administrar proyectos, archivos, conversaciones y aplicaciones en una única ubicación. De forma predeterminada, Teams está activado para todas las organizaciones. Decida cómo su organización usará Teams y configurará su entorno para el éxito. 
 
 > [!Note]
-> Como cliente existente de Skype empresarial, es probable que su infraestructura de red actual ya esté configurada para Teams. Para confirmarlo, puede seguir la guía de "planificación técnica completa", vinculada a continuación (opcional).
+> Como cliente existente de Skype Empresarial, es probable que su infraestructura de red actual ya esté configurada para Teams. Para confirmar esto, puede seguir las instrucciones de "Planeación técnica completa" vinculadas a continuación (esto es opcional).
 
-**Recursos**
+**Recursos:**
 
 - [Información general sobre Microsoft Teams](Teams-overview.md)
 - [Introducción a Microsoft Teams](get-started-with-teams-quick-start.md)
@@ -92,13 +92,13 @@ Teams ofrece características compatibles con Skype empresarial, como la mensaje
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a>Paso 3. Conocer los usuarios de Skype empresarial
+## <a name="step-3-know-your-skype-for-business-users"></a>Paso 3. Conocer a los usuarios de Skype Empresarial
 
 *(Aproximadamente cuatro semanas antes de la actualización)*
 
-Es posible que los usuarios que estén profundamente adoptados en Skype empresarial necesiten un poco más de tiempo o asistencia para realizar la transición a teams. Tome el tiempo de revisar el uso actual de Skype empresarial para identificar a los principales usuarios que necesitan soporte adicional y para establecer una línea base de uso en la que pueda realizar un seguimiento de los números posteriores a la actualización.
+Es posible que los usuarios profundamente adoptados en Skype Empresarial necesiten un poco más de tiempo o asistencia para realizar la transición a Teams. Dedíme tiempo a revisar el uso actual de Skype Empresarial para identificar los usuarios principales que necesitan soporte técnico adicional y establecer una línea base de uso de la que pueda hacer un seguimiento con los números posteriores a la actualización.
 
-**Recursos**
+**Recursos:**
 
 - [Informes de Microsoft 365 en el centro de administración](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
@@ -108,19 +108,19 @@ Es posible que los usuarios que estén profundamente adoptados en Skype empresar
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Paso 4. Notificar a los usuarios que van a actualizar de Skype empresarial a teams
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Paso 4. Notificar a los usuarios que actualizarán de Skype Empresarial a Teams
 
-*(Entre dos y tres semanas antes de la actualización)*
+*(Aproximadamente dos o tres semanas antes de la actualización)*
 
-Si se proporciona un aviso amplio a los usuarios, les dará tiempo para familiarizarse con los equipos sin afectar negativamente a su productividad, lo que genera una experiencia de usuario más positiva. Envía una comunicación para indicarle lo que cambia, por qué está cambiando y cómo puede prepararse para él.
+Si proporciona suficientes avisos a sus usuarios, tendrá tiempo para familiarizarse con Teams sin afectar negativamente a su productividad, lo que resulta en una experiencia de usuario más positiva. Envíe una comunicación para decirles lo que cambia, por qué cambia y cómo pueden prepararse para ello.
 
 > [!Note]
-> Si es necesario, puede habilitar Teams para sus usuarios a través del centro de administración de Microsoft 365 en este momento.
+> Si es necesario, puede habilitar Teams para sus usuarios a través del Centro de administración de Microsoft 365 en este momento.
 
-**Recursos**
+**Recursos:**
 
 - [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
-- [Correo electrónico de ejemplo: anuncio a los usuarios sobre Skype empresarial](upgrade-emails-surveys.md#step-4-email)
+- [Correo electrónico de ejemplo: anuncio para los usuarios sobre Skype Empresarial](upgrade-emails-surveys.md#step-4-email)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -132,9 +132,9 @@ Si se proporciona un aviso amplio a los usuarios, les dará tiempo para familiar
 
 *(Aproximadamente una semana antes de la actualización)*
 
-Mantenga el impulso de actualización habilitando la notificación de actualización de usuario a través del portal de administración, lo que proporciona una alerta visual en el cliente de Skype empresarial en la que los usuarios se actualizan desde Skype empresarial a teams.
+Mantenga el impulso de la actualización habilitando la notificación de actualización de usuario a través del portal de administración, proporcionando una alerta visual en el cliente de Skype Empresarial de que los usuarios se están actualizando de Skype Empresarial a Teams.
 
-**Recursos**
+**Recursos:**
 
 - [Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)
 
@@ -144,15 +144,15 @@ Mantenga el impulso de actualización habilitando la notificación de actualizac
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Paso 6. Recordar a los usuarios que van a actualizar de Skype empresarial a teams
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Paso 6. Recuerde a los usuarios que actualizarán de Skype Empresarial a Teams
 
-*(Unos cinco días antes de la actualización)*
+*(Aproximadamente cinco días antes de la actualización)*
 
-Los usuarios están ocupados con sus responsabilidades diarias. Recordarles la actualización pendiente le ayudará a asegurarse de que tomen los pasos necesarios para prepararse para Teams. Este es el momento perfecto para recordar a los usuarios sobre los cursos de aprendizaje disponibles y sobre cómo empezar a trabajar con Teams.
+Los usuarios están ocupados con sus responsabilidades diarias. Recordarles la actualización pendiente le ayudará a garantizar que recuerden seguir los pasos que necesitan para prepararse para Teams. Este es el momento perfecto para recordar a los usuarios los aprendizajes disponibles y cómo empezar a usar Teams.
 
-**Recursos**
+**Recursos:**
 
-- [Correo electrónico de ejemplo: recordar a los usuarios que empiecen a trabajar con Teams](upgrade-emails-surveys.md#step-6-email)
+- [Correo electrónico de ejemplo: recordar a los usuarios que deben empezar a usar Teams](upgrade-emails-surveys.md#step-6-email)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -160,18 +160,18 @@ Los usuarios están ocupados con sus responsabilidades diarias. Recordarles la a
 
 <!--ENDOFSECTION-->
 
-## <a name="step-7-upgrade-users-to-teams"></a>Paso 7. Actualizar usuarios a teams
+## <a name="step-7-upgrade-users-to-teams"></a>Paso 7. Actualice a los usuarios a Teams.
 
-*(Actualizar día)*
+*(Upgrade Day)*
 
-Hoy es el día en que la organización actualiza oficialmente a teams como solución de comunicación y colaboración. En el centro de administración de Microsoft Teams, active el modificador de actualización mediante la configuración del modo de coexistencia en **Teams**. (En el centro de administración, vaya a **configuración**  >  de toda la organización **Actualización de Teams**. Los usuarios recibirán una notificación en el cliente de Skype empresarial que han sido actualizadas a teams.
+Hoy es el día en que su organización actualiza oficialmente a Teams como solución de comunicación y colaboración. En el Centro de administración de Microsoft Teams, active el cambio de actualización estableciendo el modo de coexistencia en **Solo equipos.** (En el centro de administración, ve a **Configuración para toda la organización**  >  **Actualización de Teams.** Los usuarios recibirán una notificación en su cliente de Skype Empresarial de que se les ha actualizado a Teams.
 
-Le recomendamos que, una vez que se haya actualizado a todos los usuarios, envíe un mensaje de bienvenida a teams.
+Le recomendamos que, después de actualizar todos los usuarios, envíe un correo electrónico para darles la bienvenida a Teams.
 
-**Recursos**
+**Recursos:**
 
 - [Establecer configuración de actualización y coexistencia](setting-your-coexistence-and-upgrade-settings.md)
-- [Correo electrónico de ejemplo: Bienvenido a los usuarios a teams](upgrade-emails-surveys.md#step-7-email)
+- [Correo electrónico de ejemplo: dar la bienvenida a los usuarios a Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -179,13 +179,13 @@ Le recomendamos que, una vez que se haya actualizado a todos los usuarios, enví
 
 <a name="step-8"></a>
 
-## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>Paso 8. Supervisar el uso de equipos con la línea base
+## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>Paso 8. Supervisar el uso de Teams con la línea base
 
-*(Alrededor de una o dos semanas después de la actualización)*
+*(Aproximadamente una o dos semanas después de la actualización)*
 
-El ajuste a una nueva tecnología puede tardar un poco. Compruebe el uso para comprobar que los usuarios usan Teams al mismo nivel, o más, como hacían con Skype empresarial. Proteja los usuarios que no usan Teams en los niveles esperados.
+Ajustarse a una nueva tecnología puede llevar algún tiempo. Compruebe el uso para comprobar que los usuarios usan Teams al mismo nivel ( o superior) que con Skype Empresarial. Consulte a los usuarios que no están usando Teams en los niveles esperados.
 
-**Recursos**
+**Recursos:**
 
 - [Ver datos de uso](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
@@ -197,13 +197,13 @@ El ajuste a una nueva tecnología puede tardar un poco. Compruebe el uso para co
 
 ## <a name="step-9-measure-user-satisfaction"></a>Paso 9. Medir la satisfacción del usuario
 
-*(Alrededor de una o dos semanas después de la actualización)*
+*(Aproximadamente una o dos semanas después de la actualización)*
 
-La satisfacción de los empleados puede influir en la productividad, la retención y, en última instancia, en los resultados del negocio. Póngase en contacto con sus usuarios para que vean la opinión de los usuarios acerca de la actualización y su satisfacción con Teams.
+La satisfacción de los empleados puede influir en la productividad, la retención y, en última instancia, los resultados empresariales. Llegue a los usuarios para medir la opinión de los usuarios sobre la actualización y su satisfacción con Teams.
 
-**Recursos**
+**Recursos:**
 
-- [Correo electrónico de ejemplo: proteger con usuarios](upgrade-emails-surveys.md#step-9-email), más [encuestas de usuario](upgrade-emails-surveys.md#step-9-surveys)
+- [Correo electrónico de ejemplo: consultar a los usuarios,](upgrade-emails-surveys.md#step-9-email)más [encuestas de usuario](upgrade-emails-surveys.md#step-9-surveys)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -211,14 +211,14 @@ La satisfacción de los empleados puede influir en la productividad, la retenci�
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>Paso 10. Maximizar el rendimiento de la inversión con Teams
+## <a name="step-10-maximize-your-roi-with-teams"></a>Paso 10. Maximice su ROI con Teams
 
-*Regulares*
+*(En curso)*
 
-Una vez que los usuarios se sienten cómodos con la mensajería instantánea y las reuniones en Teams, Anime a extender su caso de uso mediante la colaboración entre equipos y la integración de aplicaciones, optimizar verdaderamente su nueva solución y maximizar el rendimiento de su inversión.
+Después de que los usuarios se sientan cómodos con la mensajería instantánea (chat) y las reuniones en Teams, anímelos a ampliar su caso de uso usando la colaboración de Teams y la integración de las aplicaciones, optimizando de verdad sus nuevas soluciones y maximizando un retorno de su inversión.
 
-**Recursos**
+**Recursos:**
 
-- [Correo electrónico de ejemplo: Anime a los usuarios a explorar Teams](upgrade-emails-surveys.md#step-10-email)
+- [Correo electrónico de ejemplo: anime a los usuarios a explorar Teams aún más](upgrade-emails-surveys.md#step-10-email)
 
 [Volver al principio](#about-upgrade-basic)

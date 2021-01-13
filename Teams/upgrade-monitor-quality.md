@@ -1,13 +1,13 @@
 ---
-title: Calidad de la experiencia del usuario | Microsoft Teams | QoS | Calidad de las llamadas
-author: lanachin
-ms.author: v-lanac
+title: Calidad de la experiencia del usuario | Microsoft Teams | QoS | Calidad de la llamada
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Administrador puede obtener información sobre las tareas y las actividades necesarias para supervisar la calidad y el uso de Microsoft Teams.
+description: El administrador puede obtener información sobre las tareas y actividades necesarias para supervisar la calidad y el uso de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,26 +20,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 843acff0dafc7cd5ad2b3fd63ccc009c64716b03
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: d57f01887961ad0c458b13db20ba79023272bcdf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085926"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809000"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
-![Diagrama resaltado de excelencia operativa fase de actualización de viaje](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
+![Diagrama que resalta la fase de excelencia operativa del viaje de actualización](media/upgrade-banner-op-excellence.png "Fases del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
-Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
+Este artículo forma parte de la fase de excelencia operativa del viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype Empresarial a Teams.
 
 ## <a name="improve-and-monitor-call-quality"></a>Mejorar y supervisar la calidad de las llamadas
 
-[Mejorar y supervisar la calidad de las llamadas de Teams](monitor-call-quality-qos.md) incluye un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario, como se muestra a continuación.
+[Mejorar y supervisar](monitor-call-quality-qos.md) la calidad de las llamadas en Teams incluye un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario, como se muestra a continuación.
 
-![Ilustración de las áreas clave que se deben examinar durante una revisión.](media/plan-my-service-management-image2.png "Las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la fiabilidad y los resultados de la encuesta de usuarios.")
+![Ilustración de las áreas clave para examinar durante una revisión.](media/plan-my-service-management-image2.png "Las áreas clave que se examinarán durante una Revisión de la calidad de la experiencia: los resultados de las encuestas de usuario, la confiabilidad y el audio.")
 
-Al evaluar y corregir continuamente las áreas descritas en la guía, puede reducir su potencial de afectar negativamente a la experiencia del usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
+Al evaluar y corregir continuamente las áreas descritas en la guía, puede reducir su potencial para afectar negativamente a la experiencia del usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 
 - Una configuración de proxy o firewall incompleta
 
@@ -53,8 +53,8 @@ Al evaluar y corregir continuamente las áreas descritas en la guía, puede redu
 
 - Dispositivos de red o subred problemáticos
 
-Las instrucciones que se proporcionan en [mejorar y supervisar la calidad de las llamadas de Teams](monitor-call-quality-qos.md) se centran en usar el panel de calidad de llamadas (CQD) en línea como la herramienta principal para informar e investigar cada área descrita, centrándose en el audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
+Las instrucciones proporcionadas en Mejorar y supervisar la calidad de las llamadas para [Teams](monitor-call-quality-qos.md) se centran en usar el panel de calidad de llamadas (CQD) en línea como herramienta principal para informar e investigar cada área descrita, con un foco en el audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
 
-Le recomendamos encarecidamente que se haya nominado el preexperto de calidad. Después de ser nombrados, deben empezar a familiarizarse con el contenido [para mejorar y supervisar la calidad de las llamadas de los equipos](monitor-call-quality-qos.md).
+Recomendamos encarecidamente que designe al expertos en calidad al principio. Después de ser nominados, deberían empezar a familiarizarse con el contenido en Mejorar y supervisar la [calidad de las llamadas de Teams.](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->

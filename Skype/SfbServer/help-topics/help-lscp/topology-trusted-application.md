@@ -1,8 +1,8 @@
 ---
 title: Aplicación de confianza de topología
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
-description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 8af50537563c9c3ca613c041b66d8e11eddf1094
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
+ms.openlocfilehash: cf15b313ab0b9b62a2666616252c3713fe33e842
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822002"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818980"
 ---
 # <a name="topology-trusted-application"></a>Topología: Aplicación de confianza
 
-¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
+¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
 - [Ver una lista de aplicaciones de confianza](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
-Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).
+Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
 

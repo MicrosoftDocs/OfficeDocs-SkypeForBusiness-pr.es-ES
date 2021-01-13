@@ -1,9 +1,9 @@
 ---
 title: Teams para el comercio
-description: Obtenga más información sobre los recursos de administración disponibles para administrar y sacar el máximo partido de los equipos para las tiendas minoristas y los empleados.
+description: Obtenga información sobre los recursos de administración disponibles para administrar y sacar el máximo partido de Teams para sus tiendas minoristas y sus empleados.
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 f1.keywords:
@@ -16,17 +16,17 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c343dec360a910019a46dd7741ea28bc36dcd48d
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: ab67f4e0851ac05f9d2d341c9b52407b594a3a34
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576900"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802590"
 ---
 # <a name="teams-for-retail"></a>Teams para el comercio
 
-Use los recursos de administración aquí para administrar y sacar el máximo partido de los equipos para las tiendas minoristas y los empleados.
+Use los recursos de administración aquí para administrar y sacar el máximo partido de Teams para sus tiendas minoristas y sus empleados.
 
 |               |               |
 | ------------- | ------------- |
-| ![Tutorial: mapas](../media/walkthrough-map-teams-small.svg)  |  [Introducción a las plantillas comerciales de Teams](/microsoftteams/get-started-with-retail-teams-templates) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [Introducción a las plantillas comerciales de Teams](/microsoftteams/get-started-with-retail-teams-templates) |

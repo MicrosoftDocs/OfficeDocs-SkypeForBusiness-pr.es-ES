@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de registrador de Lync Server para 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 'Modifique la configuración de la Resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: 4271203bf9f737034796cc3b74c95836480df521
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 92df9deeba1287dab4dc7d84b089fa81ca2e51ca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217181"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818330"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Expansor de configuración de registrador de Lync Server para 2010
  

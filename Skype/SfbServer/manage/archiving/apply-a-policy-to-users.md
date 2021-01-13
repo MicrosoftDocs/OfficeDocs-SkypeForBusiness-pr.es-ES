@@ -1,8 +1,8 @@
 ---
-title: Aplicar una directiva de archivado a los usuarios en Skype empresarial Server
+title: Aplicar una directiva de archivado a los usuarios de Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,45 +11,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Resumen: Aprenda a asignar una directiva de archivado a los usuarios en Skype empresarial Server.'
-ms.openlocfilehash: 7be62aaf5b2b70108cb67a36559b242377d26117
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo asignar una directiva de archivado a los usuarios de Skype Empresarial Server.'
+ms.openlocfilehash: 8dc74fcc8befe39b424b89c77aebca683fe17586
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819012"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817770"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar una directiva de archivado a los usuarios en Skype empresarial Server
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar una directiva de archivado a los usuarios de Skype Empresarial Server
 
-**Resumen:** Obtenga información sobre cómo asignar una directiva de archivado a los usuarios en Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo asignar una directiva de archivado a los usuarios de Skype Empresarial Server.
   
-Si ha creado una o más directivas de usuario para archivar para usuarios alojados en Skype empresarial Server, puede implementar la compatibilidad de archivado para usuarios específicos aplicando las directivas apropiadas a esos usuarios o grupos de usuarios. Por ejemplo, si crea una directiva para admitir el archivado de comunicaciones internas, puede aplicarla a al menos un usuario o grupo de usuarios para admitir el archivado de las comunicaciones de Skype empresarial Server del usuario.
+Si ha creado una o más directivas de usuario para el archivado para los usuarios que están en Skype Empresarial Server, puede implementar la compatibilidad de archivado para usuarios específicos aplicando las directivas adecuadas a esos usuarios o grupos de usuarios. Por ejemplo, si crea una directiva para admitir el archivado de comunicaciones internas, puede aplicarla al menos a un usuario o grupo de usuarios para admitir el archivado de las comunicaciones de Skype Empresarial Server del usuario.
   
 > [!NOTE]
-> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de retención local de Exchange controlan si el archivado está habilitado para los usuarios alojados en Exchange y si sus buzones se colocan en la retención local. Para obtener más información, consulte [planear el archivado en Skype empresarial Server](../../plan-your-deployment/archiving/archiving.md) y [configurar la integración con el almacenamiento de Exchange para Skype empresarial Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de retención de Exchange In-Place controlan si el archivado está habilitado para los usuarios que están ubicados en Exchange y tienen sus buzones en retención In-Place local. Para obtener más información, consulte [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for Skype for Business [Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
-## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Aplicar una directiva de usuario con el Panel de control
+## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Aplicar una directiva de usuario mediante el Panel de control
 
-Para aplicar una directiva de usuario con el Panel de control:
+Para aplicar una directiva de usuario mediante el Panel de control:
   
-1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
+1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
     
-3. En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar. 
+3. En la barra de navegación izquierda, haga clic en **Usuarios** y, a continuación, busque la cuenta de usuario que quiera configurar. 
     
-4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
+4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, a continuación, en **Mostrar detalles**.
     
-5. En **Editar usuario de Lync Server** , en **Directiva de archivado**, seleccione la Directiva de usuario de archivado que desea aplicar.
+5. En **Editar usuario de Lync Server en** directiva **de** archivado, seleccione la directiva de usuario de archivado que desee aplicar.
     
     > [!NOTE]
-    > La ** \<configuración\> automática** aplica la configuración predeterminada de la instalación del servidor. El servidor aplica automáticamente esta configuración.
+    > La **\<Automatic\>** configuración aplica la configuración de instalación predeterminada del servidor. Esta configuración se aplica automáticamente por el servidor.
   
 6. Haga clic en **Confirmar**.
     
 ## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Aplicar una directiva de usuario mediante Windows PowerShell
 
-También puede aplicar una directiva de usuario mediante el cmdlet **Grant-CsArchivingPolicy de** Windows PowerShell.
+También puede aplicar una directiva de usuario con Windows PowerShell **cmdlet Grant-CsArchivingPolicy.**
   
 El siguiente comando permite asignar la directiva de archivado por usuario RedmondArchivingPolicy al usuario Ken Myer.
   
@@ -57,18 +57,18 @@ El siguiente comando permite asignar la directiva de archivado por usuario Redmo
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-Con este comando se asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas hospedadas en el grupo de registradores atl-cs-001.contoso.com. Para obtener más información sobre el parámetro de filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
+Este comando asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas en el grupo de registradores atl-cs-001.contoso.com. Para obtener más información sobre el parámetro Filter usado en este comando, consulte la documentación del cmdlet [Get-CsUser.](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
   
 ```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 ```
 
-El siguiente comando quita cualquier directiva de archivado por usuario previamente asignada a Ken Myer. Una vez quitada la directiva por usuario, Ken Myer pasará automáticamente a ser administrado con la directiva global (o, de existir, por la directiva de su sitio local). Las directivas de sitio tienen prioridad sobre las directivas globales.
+El siguiente comando quita cualquier directiva de archivado por usuario previamente asignada a Ken Myer. Después de quitar la directiva por usuario, Ken Myer se administrará automáticamente mediante la directiva global o, si existe, su directiva de sitio local. Las directivas de sitio tienen prioridad sobre la directiva global.
   
 ```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 
-Para obtener más información, consulte la documentación del cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) .
+Para obtener más información, consulte la documentación del cmdlet [Grant-CsArchivingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps)
   
 

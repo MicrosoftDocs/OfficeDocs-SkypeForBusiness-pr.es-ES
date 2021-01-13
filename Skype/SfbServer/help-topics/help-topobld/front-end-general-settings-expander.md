@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general front-end
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition, cuenta con las secciones siguientes:'
-ms.openlocfilehash: 6f66fadbc722f59bdc7bcb54b149bf05fa322afb
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 2560c07e8e9a59259bcf9dbfd1af385fdb18845d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215511"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818390"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
 
@@ -50,7 +50,7 @@ Puede configurar la siguiente configuración general:
 
   - **Conferencia**. Incluye compartir recursos de audio, vídeo y aplicaciones. Tras seleccionar esta opción, puede elegir conferencia de acceso telefónico (RTC). Posteriormente, en la subsección “Configuración de servidor de mediación” que aparece aquí, puede especificar y definir una puerta de enlace de RTC.
 
-  - **Telefonía IP empresarial**. Permite llamadas de voz sobre IP internas a auriculares y dispositivos cualificados y a clientes de Skype empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
+  - **Telefonía IP empresarial**. Habilita las llamadas de voz sobre IP internas a dispositivos y teléfonos calificados y clientes de Skype Empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
 
 - En **Asociaciones**, edite o especifique lo siguiente:
 
@@ -103,7 +103,7 @@ Para editar o especificar opciones adicionales de los servicios web en el grupo 
 En **Servicios Web internos**, especifique lo siguiente:
 
 > [!CAUTION]
-> Si tiene más de un grupo front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como **pool01.contoso.com**, no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también está implementando directores, el FQDN de servicios Web externo definido para cualquier Director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide reemplazar los servicios Web internos con un FQDN autodefinido, cada FQDN debe ser único en cualquier otro grupo de servidores front-end, director o grupo de directores.
+> Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como **pool01.contoso.com**, no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también implementa directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
 
 - Si selecciona **FQDN de reemplazo**, puede especificar un nombre de dominio completo distinto para la identidad de los servicios **web internos** en el grupo de servidores. La configuración predeterminada es el nombre del grupo de servidores actual, según se haya definido para el grupo de servidores front-end.
 
@@ -113,7 +113,7 @@ En **Servicios Web externos**, especifique lo siguiente:
 
 - El FQDN de los servicios web externos. El FQDN especificado aquí se definirá normalmente según los requisitos de la conexión externa, como el proxy inverso.
 
-- Los puertos de escucha y publicados de HTTP y HTTPS que la implementación necesita. Los valores predeterminados de puerto 8080 para HTTP y puerto 4443 para HTTPS se definen al principio. Puede cambiar estos valores para los puertos de escucha en función de los requisitos de proxy inverso y de red externa. Los valores predeterminados de puertos publicados se definen en puerto 80 para HTTP y puerto 443 para HTTPS. Estos valores determinan los puertos que el grupo de servidores escuchará para solicitudes entrantes. Normalmente, no es necesario cambiar estos, a menos que haya un conflicto de requisitos de puerto en el grupo de servidores. Se esperan los puertos publicados internos y externos que usen los mismos valores de puerto. Esto no es un conflicto.
+- Los puertos de escucha y publicados de HTTP y HTTPS que la implementación necesita. Los valores predeterminados de puerto 8080 para HTTP y puerto 4443 para HTTPS se definen al principio. Puede cambiar estos valores para los puertos de escucha en función de los requisitos de proxy inverso y de red externa. Los valores predeterminados de puertos publicados se definen en puerto 80 para HTTP y puerto 443 para HTTPS. Estos valores determinan los puertos que el grupo de servidores escuchará para solicitudes entrantes. Por lo general, no es necesario cambiar estas opciones, a menos que haya un conflicto de requisitos de puerto en el grupo de servidores. Se esperan puertos publicados internos y externos con los mismos valores de puerto. Esto no es un conflicto.
 
 ### <a name="mediation-server"></a>Servidor de mediación
 
@@ -147,7 +147,7 @@ Puede configurar la siguiente configuración general:
 
   - **Conferencia**. Incluye compartir recursos de audio, vídeo y aplicaciones. Tras seleccionar esta opción, puede elegir **conferencia de acceso telefónico (RTC)**. Posteriormente, en la configuración del servidor de mediación puede especificar y definir una puerta de enlace de RTC.
 
-  - **Telefonía IP empresarial**. Permite llamadas de voz sobre IP internas a auriculares y dispositivos cualificados y a clientes de Skype empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
+  - **Telefonía IP empresarial**. Habilita las llamadas de voz sobre IP internas a dispositivos y teléfonos calificados y clientes de Skype Empresarial. Para habilitar las funciones de llamadas externas, debe incluir un servidor de mediación. Para obtener más información, consulte la subsección “Configuración de servidor de mediación” que aparece más adelante en este tema.
 
 - En **Asociaciones** puede modificar o especificar lo siguiente:
 

@@ -1,7 +1,7 @@
 ---
 title: Solución de problemas de instalación y actualización de Microsoft Teams en Windows
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: lenatarhun
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo solucionar problemas de instalación y actualización de la aplicación cliente de escritorio de Teams en Windows.
-ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
-ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
-ms.translationtype: HT
+ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300284"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804560"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Solución de problemas de instalación y actualización de Microsoft Teams en Windows
 

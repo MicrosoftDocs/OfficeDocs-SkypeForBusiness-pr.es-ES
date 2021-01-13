@@ -1,7 +1,7 @@
 ---
-title: 'Ejemplo de script de PowerShell: crear & asignar Directiva de mensajería'
-author: LanaChin
-ms.author: v-lanac
+title: 'Ejemplo de script de PowerShell: crear & asignar directiva de mensajería'
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,27 +17,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 318a430f6f59cbb28ffeda4336c36ae07533615b
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: e3d1fa3ebe45785c088852c518ac5490263fa6aa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533745"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804660"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería.
 
 Use este script de PowerShell para crear una directiva de mensajería en Microsoft Teams y asignarla a los usuarios. 
 
-Para obtener más información sobre el uso de este script de PowerShell, consulte [Inicio rápido de Teams para el ámbito educativo](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).
+Para obtener más información sobre el uso de este script de PowerShell, vea [Inicio rápido: Teams para el sector educativo.](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)
 
-Esta secuencia de comandos usa el cmdlet [Grant-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo de PowerShell de Skype empresarial online. Vea la [información general de Teams PowerShell](../teams-powershell-overview.md) para obtener más información sobre la administración de equipos con PowerShell.
+Este script usa el [cmdlet Grant-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo PowerShell de Skype Empresarial Online. Consulte [La información general de PowerShell](../teams-powershell-overview.md) de Teams para obtener más información sobre cómo administrar Teams con PowerShell.
 
 
 ## <a name="before-you-start"></a>Antes de empezar
 
-Descargue e instale el [módulo de PowerShell de Skype empresarial online](https://www.microsoft.com/download/details.aspx?id=39366)y, a continuación, reinicie el equipo si se le solicita.
+Descargue e instale el [módulo de PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)de Skype Empresarial Online y reinicie el equipo si se le solicita.
 
-Para obtener más información, vea [administrar Skype empresarial online con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Para obtener más información, consulte [Administrar Skype Empresarial Online con PowerShell de Office 365.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>Ejemplo de script
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de Directiva por lotes o a un grupo del que son miembros los usuarios. Para obtener más información, vea [asignar directivas a grandes conjuntos de usuarios de la escuela](../batch-group-policy-assignment-edu.md) y [asignar directivas a los usuarios de Teams](../assign-policies.md).
+> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva por lotes o a un grupo al que los usuarios son miembros. Para obtener más información, vea Asignar directivas a grandes [conjuntos de](../batch-group-policy-assignment-edu.md) usuarios de su escuela y Asignar directivas a los usuarios en [Teams.](../assign-policies.md)

@@ -1,8 +1,8 @@
 ---
-title: Administrar las opciones de archivado en Skype empresarial Server
+title: Administrar las opciones de archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: 'Resumen: Obtenga información sobre cómo configurar las opciones de archivado para Skype empresarial Server.'
-ms.openlocfilehash: af5c8f90cd49f556e1e787e5f550b54da1976c45
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: obtenga información sobre cómo configurar las opciones de archivado para Skype Empresarial Server.'
+ms.openlocfilehash: ee0145ac0896e1bbb8d18c6a51116f2ddd75ee05
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818902"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817540"
 ---
-# <a name="manage-archiving-options-in-skype-for-business-server"></a>Administrar las opciones de archivado en Skype empresarial Server
+# <a name="manage-archiving-options-in-skype-for-business-server"></a>Administrar las opciones de archivado en Skype Empresarial Server
 
-**Resumen:** Obtenga información sobre cómo configurar las opciones de archivado para Skype empresarial Server.
+**Resumen:** Obtenga información sobre cómo configurar las opciones de archivado para Skype Empresarial Server.
   
-Configura inicialmente el archivado en la implementación, pero puede cambiar, agregar o eliminar la configuración tras la implementación. Las opciones de archivado determinan si: 
+Inicialmente, configure el archivado en la implementación, pero puede cambiar, agregar y eliminar configuraciones después de la implementación. Las opciones de archivado determinan si: 
   
 - Habilitar o deshabilitar el archivado
     
-- Archivar sesiones de mensajería instantánea (MI)
+- Archivar sesiones de mensajería instantánea
     
 - Archivar sesiones de conferencia web
     
@@ -35,36 +35,36 @@ Configura inicialmente el archivado en la implementación, pero puede cambiar, a
     
 - Usar la integración de Exchange
     
-- Configurar la purga y la exportación de datos
+- Configurar la depuración y exportación de datos
     
-Puede especificar las opciones de configuración en los siguientes niveles:
+Puede especificar opciones de configuración en los siguientes niveles:
   
-- Configuración de nivel global que se crea de forma predeterminada al implementar Skype empresarial Server
+- Configuración de nivel global que se crea de forma predeterminada al implementar Skype Empresarial Server
     
-- En la configuración de sitio opcional, que especifica cómo se implementa el archivado para un sitio específico
+- Configuraciones de nivel de sitio opcionales que especifican cómo se implementa el archivado para un sitio específico
     
-- Configuraciones de nivel de grupo opcionales que especifican cómo se implementa el archivado para un grupo específico
+- Configuraciones opcionales de nivel de grupo que especifican cómo se implementa el archivado para un grupo específico
     
-Es posible eliminar una configuración de sitio o de grupo, pero no puede eliminar la configuración global. Si elimina la configuración global, esta se restablece automáticamente a sus valores predeterminados. Para obtener detalles sobre cómo se implementan las configuraciones de archivado y la jerarquía de las configuraciones de archivado, consulte [planear el archivado en Skype empresarial Server](../../plan-your-deployment/archiving/archiving.md).
+Puede eliminar una configuración de sitio o de grupo, pero no puede eliminar la configuración global. Si elimina la configuración global, esta se restablece automáticamente a los valores predeterminados. Para obtener más información sobre cómo se implementan las configuraciones de archivado y la jerarquía de las configuraciones de archivado, consulte [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).
   
-## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurar las opciones de archivado con el Panel de control
+## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurar las opciones de archivado mediante el Panel de control
 
-Puede configurar las opciones de archivado con el Panel de control de esta manera:
+Puede configurar las opciones de archivado mediante el Panel de control de la siguiente manera:
   
-1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
+1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
     
-3. En la barra de navegación izquierda, haga clic en **Configuración de archivado**.
+3. En la barra de navegación izquierda, haga clic en **Configuración de archivado.**
     
-## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configurar las opciones de archivado con Windows PowerShell
+## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configure las opciones de archivado mediante Windows PowerShell
 
-También puede configurar las opciones de archivado con los cmdlets de Windows PowerShell que se enumeran en la tabla siguiente. Para más información sobre la sintaxis, incluidos todos los parámetros disponibles, consulte [Shell de administración de Skype empresarial Server](../management-shell.md).
+También puede configurar las opciones de archivado mediante los cmdlets Windows PowerShell que se enumeran en la tabla siguiente. Para obtener más información sobre la sintaxis, incluidos todos los parámetros disponibles, consulte Shell de administración [de Skype Empresarial Server.](../management-shell.md)
   
 
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
-|Get-CsArchivingConfiguration  <br/> |Devuelve información sobre las opciones de configuración de archivado en la organización.  <br/> |
-|New-CsArchivingConfiguration  <br/> |Crea un nuevo conjunto de configuraciones de mensajería instantánea (MI) que se pueden usar para habilitar o deshabilitar el guardado automático de las sesiones de mensajería instantánea (MI) y para bloquear todos los mensajes instantáneos que no se pueden archivar.  <br/> |
-|Remove-CsArchivingConfiguration  <br/> |Quita la recopilación especificada de la configuración del archivado que se usa para habilitar o deshabilitar el guardado automático de las sesiones de mensajería instantánea (MI), así como para bloquear de forma opcional todos los mensajes instantáneos que no se pueden archivar.  <br/> |
-|Set-CsArchivingConfiguration  <br/> |Modifica una recopilación existente de opciones de configuración de archivado de mensajería instantánea (MI).  <br/> |
+|Get-CsArchivingConfiguration  <br/> |Devuelve información sobre las opciones de configuración de archivado de la organización.  <br/> |
+|New-CsArchivingConfiguration  <br/> |Crea un nuevo conjunto de configuraciones de mensajería instantánea (MI), que se pueden usar para habilitar o deshabilitar el guardado automático de sesiones de mensajería instantánea y para bloquear los mensajes instantáneos que no se pueden archivar.  <br/> |
+|Remove-CsArchivingConfiguration  <br/> |Quita la colección especificada de configuraciones de archivado que se usan para habilitar o deshabilitar el almacenamiento automático de sesiones de mensajería instantánea (MI) y, opcionalmente, para bloquear cualquier mensaje instantáneo que no se pueda archivar.  <br/> |
+|Set-CsArchivingConfiguration  <br/> |Modifica una colección existente de opciones de configuración de archivado de mensajería instantánea (MI).  <br/> |

@@ -1,8 +1,8 @@
 ---
-title: Administrar la 9-1-1 mejorada y el servicio de ubicación
+title: Administrar 9-1-1 mejorado y el servicio de ubicación
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,119 +10,119 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype empresarial Server admite llamadas mejoradas de 9-1-1 (E9-1-1) desde clientes de Skype empresarial. Al configurar Skype empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación.
-ms.openlocfilehash: de02c4a9a3210220e368d87d4ae8e21a80f3dbac
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype Empresarial Server admite llamadas mejoradas de 9-1-1 (E9-1-1) desde clientes de Skype Empresarial. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación.
+ms.openlocfilehash: c5b626763de78495a2feaa5ecb1ba77e367bd77d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818431"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817480"
 ---
-# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Administrar la 9-1-1 mejorada y el servicio de ubicación en Skype para Business Server
+# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Administrar 9-1-1 mejorado y el servicio de ubicación en Skype Empresarial Server
 
-Skype empresarial Server admite llamadas mejoradas de 9-1-1 (E9-1-1) desde clientes de Skype empresarial. Al configurar Skype empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación. Use los procedimientos de este artículo para administrar la Directiva de ubicación.
+Skype Empresarial Server admite llamadas mejoradas de 9-1-1 (E9-1-1) desde clientes de Skype Empresarial. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación. Use los procedimientos de este artículo para administrar la directiva de ubicación.
 
 > [!Note]
-> Para obtener más información sobre las características avanzadas de la telefonía IP empresarial, como E9-1-1 y el servicio de información de ubicación, consulte [implementar características avanzadas de voz empresarial](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
+> Para obtener más información sobre la implementación de características Telefonía IP empresarial avanzadas, como E9-1-1 y el servicio de información de ubicación, vea Implementar características avanzadas Telefonía IP empresarial [ubicación.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
 
-En Skype empresarial Server, puede usar la Directiva ubicación para aplicar la configuración relacionada con la funcionalidad mejorada de 9-1-1 (E9-1-1) y la configuración de ubicación de los usuarios o los contactos. La Directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si es así, cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la política de ubicación para definir qué número constituye una llamada de emergencia (por ejemplo, 911 en los Estados Unidos), si se debe notificar automáticamente la seguridad corporativa y cómo debe dirigirse la llamada.
+En Skype Empresarial Server, puede usar la directiva de ubicación para aplicar la configuración relacionada con la funcionalidad 9-1-1 mejorado (E9-1-1) y la configuración de ubicación para usuarios o contactos. La directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si es así, cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la directiva de ubicación para definir qué número constituye una llamada de emergencia (por ejemplo, 911 en Estados Unidos), si se debe notificar automáticamente a la seguridad corporativa y cómo se debe enrutar la llamada.
 
-Puede configurar directivas de ubicación desde el grupo **configuración de red** en el panel de control de Skype empresarial Server. En el panel de control de Skype empresarial Server puede ver, crear, modificar o eliminar directivas de ubicación. Use el procedimiento siguiente para ver información sobre las directivas de ubicación. 
+Puede configurar directivas de ubicación desde el grupo **Configuración de** red en el Panel de control de Skype Empresarial Server. Desde el Panel de control de Skype Empresarial Server puede ver, crear, modificar o eliminar directivas de ubicación. Use el siguiente procedimiento para ver información sobre las directivas de ubicación. 
 
 
 ## <a name="view-location-policy-information"></a>Ver información de directiva de ubicación 
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red**y, después, en **Directiva de ubicación**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva **de ubicación.**
 
-4.  En la página **Directiva de ubicación** , seleccione la Directiva de ubicación que desea modificar.
+4.  En la página **Directiva de ubicación**, seleccione la directiva de ubicación que desea modificar.
 
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
  
     > [!NOTE]  
-    > Solo puede ver información sobre una política de ubicación a la vez.
+    > Solo puede ver información sobre una directiva de ubicación a la vez.
 
-De forma predeterminada, existe una única directiva, denominada global, que no se puede eliminar ni cambiar de nombre. Sin embargo, puede modificar la directiva global. Esta Directiva se aplicará a todos los usuarios y contactos, a menos que cree directivas de sitio o directivas por usuario. Las directivas por usuario deben aplicarse a usuarios específicos.
+Una única directiva, denominada Global, existe de forma predeterminada y no se puede eliminar ni cambiar el nombre. Sin embargo, puede modificar la directiva global. Esta directiva se aplicará a todos los usuarios y contactos, a menos que cree directivas de sitio o directivas por usuario. Las directivas por usuario deben aplicarse a usuarios específicos.
 
 
 ## <a name="create-or-modify-a-location-policy"></a>Crear o modificar una directiva de ubicación 
 
-En Skype empresarial Server, puede invalidar la cantidad de tiempo predeterminada entre las solicitudes de cliente para una actualización de ubicación desde el servicio de información de ubicación. El valor predeterminado es de 4 horas. Use el cmdlet **set-CsLocationPolicy** con el parámetro LocationRefreshInterval para invalidar el valor predeterminado.
+En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminada entre las solicitudes de cliente para una actualización de ubicación desde el servicio de información de ubicación. El valor predeterminado es 4 horas. Utilice el cmdlet **Set-CsLocationPolicy** con el parámetro LocationRefreshInterval para invalidar el valor predeterminado.
 
 
-### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>Para crear una nueva Directiva de ubicación en el panel de control de Skype empresarial Server
+### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>Para crear una nueva directiva de ubicación en el Panel de control de Skype Empresarial Server
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red**y, después, en **Directiva de ubicación**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva **de ubicación.**
 
-4.  En la página **Directiva de ubicación** , haga clic en **nuevo** y, a continuación, seleccione el tipo de directiva que desea crear:
+4.  En la página  **Directiva de ubicación**, haga clic en  **Nuevo** y, a continuación, seleccione el tipo de directiva que desea crear:
     
-      - Para crear una directiva de sitio, haga clic en **Directiva del sitio**. En **seleccionar un sitio**, elija el sitio al que desea aplicar la Directiva y haga clic en **Aceptar**. En la página **nueva Directiva de ubicación** , el campo **ámbito** contiene el valor **sitio**y el campo **nombre** contiene el nombre del sitio que ha elegido. No puede modificar ninguno de estos campos. Una directiva de sitio se aplica automáticamente a todos los usuarios del sitio especificado y reemplaza la directiva global para esos usuarios.
+      - Para crear una directiva de sitio, haga clic en **Directiva de sitio**. En **Seleccionar un sitio**, elija el sitio al que desea aplicar la directiva y haga clic en **Aceptar**. En la página **Nueva directiva de ubicación**, el campo **Ámbito** contiene el valor **Sitio**, y el campo **Nombre** contiene el nombre del sitio que ha elegido. No puede modificar ninguno de estos campos. Se aplicará automáticamente una directiva de sitio a todos los usuarios del sitio especificado y se invalidará la directiva global para dichos usuarios.
     
-      - Para crear una **Directiva de usuario**, haga clic en **Directiva de usuario**. En la **nueva Directiva de ubicación**, el campo **ámbito** contiene el valor **usuario**. Este valor no se puede modificar. En el campo **nombre** , escriba el nombre que desea asignar a esta Directiva. Una directiva de usuario no se aplica automáticamente a ningún usuario. Después de crear la Directiva de usuario, debe conceder manualmente la Directiva a los usuarios o sitios de red a los que desea aplicar la Directiva.
+      - Para crear una **Directiva de usuario**, haga clic en **Directiva de usuario**. En **Nueva directiva de ubicación**, el campo **Ámbito** contiene el valor **Usuario**. No puede modificar este valor. En el campo **Nombre**, escriba el nombre que desea asignar a esta directiva. Las directivas de usuario no se aplican automáticamente a ningún usuario. Tras crear la directiva de usuario, debe otorgar automáticamente dicha directiva a los usuarios o los sitios de red a los que desea que se aplique.
 
-5.  Rellene los campos restantes de la siguiente manera:
+5.  Rellene los campos restantes como se muestra a continuación:
     
-      - **Habilitar servicios**   de emergencia mejorados Active esta casilla para habilitar los usuarios asociados a esta directiva para E9-1-1. Cuando se habilitan los servicios de emergencia, los clientes de Skype empresarial Server recuperarán la información sobre la ubicación del registro y la incluirán cuando se realice una llamada de emergencia.
+      - **Habilitar servicios de emergencia mejorados**   Active esta casilla para habilitar a los usuarios asociados con esta directiva para E9-1-1. Cuando se habilitan los servicios de emergencia, los clientes de Skype Empresarial Server recuperarán la información de ubicación en el registro e incluirán esa información cuando se realiza una llamada de emergencia.
     
-      - **Ubicación**   especifique uno de los siguientes valores:
+      - **Ubicación**   Especifique uno de los valores siguientes:
         
-          - **Requerido**   se le solicitará al usuario que escriba la información de ubicación cuando el cliente se registre en una nueva ubicación. El usuario puede descartar la pregunta sin escribir ninguna información. Si se introduce información, el proveedor de servicios de emergencias contestará primero a una llamada de emergencia para verificar la ubicación antes de enrutarse al operador del punto de respuesta de seguridad (PSAP) (es decir, el operador de 911).
+          - **Obligatorio**   Se pedirá al usuario que introduzca información de ubicación cuando el cliente se registre en una nueva ubicación. El usuario puede anular la solicitud sin especificar ninguna información. Si se especifica información, primero responderá a la llamada de emergencia el proveedor de servicios de emergencia para verificar la ubicación antes de enrutar la llamada al operador PSAP (Punto de respuesta de seguridad pública), o lo que es lo mismo, al operador del 911.
         
-          - **No se requiere**   que se solicite al usuario una ubicación. Cuando se realiza una llamada sin información de la ubicación, el proveedor de servicios de emergencias responderá a la llamada y pedirá una ubicación.
+          - **No obligatorio**   No se pedirá al usuario una ubicación. Al realizar una llamada sin información de ubicación, el proveedor de servicios de emergencia responderá a la llamada y solicitará que se especifique una ubicación.
         
-          - **Renuncia**   esta opción es la misma que la **requerida** , excepto que el usuario no puede descartar la pregunta sin especificar la información de la ubicación. El usuario aún puede completar una llamada de emergencia, pero no se puede completar ninguna otra llamada sin introducir la información. Además, se mostrará el texto de renuncia al usuario que puede alertarles de las consecuencias de la declinación de la información de la ubicación. Para establecer el texto de renuncia, debe usar el shell de administración de Skype empresarial Server para ejecutar el cmdlet **set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, consulte [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy).
+          - **Declinación de responsabilidades**   Esta opción es la misma que **Required,** excepto que el usuario no puede descartar el mensaje sin especificar la información de ubicación. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto de declinación de responsabilidades, debe usar el Shell de administración de Skype Empresarial Server para ejecutar el cmdlet **Set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, [consulte Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy).
           
     
-      - **Usar la ubicación solo para servicios de emergencia** Skype empresarial puede usar la información de ubicación por diversos motivos (por ejemplo, para notificar a los compañeros de equipo de su ubicación actual). Seleccione esta casilla para asegurarse de que la información de ubicación solo esté disponible para su uso con una llamada de emergencia.
+      - **Usar solo la ubicación para los servicios de emergencia** Skype Empresarial puede usar la información de ubicación por diversos motivos (por ejemplo, para notificar a los compañeros de equipo de su ubicación actual). Seleccione esta casilla para garantizar que la información de ubicación solo está disponible para su uso en una llamada de emergencia.
     
-      - **Uso de RTC**   el uso de la red de telefonía pública conmutada (RTC) que se usará para determinar qué ruta de voz se usará para enrutar llamadas de emergencia de clientes que usen este perfil. La ruta asociada a este uso necesita apuntar a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que enruta las llamadas de emergencia al punto de respuesta de seguridad pública (PSAP) más cercano.
+      - **Uso de RTC**   Uso de la red telefónica conmutada (RTC) que se usará para determinar qué ruta de voz se usará para enrutar las llamadas de emergencia de los clientes que usan este perfil. La ruta asociada con este uso debe hacer referencia a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que desvíe las llamadas de emergencia al PSAP (Punto de respuesta de seguridad pública) más cercano.
     
-      - **Número de marcado de emergencia**   número que se marca para llegar a servicios de emergencia. En Estados Unidos, este valor es 911. La cadena debe estar formada por los dígitos del 0 al 9 y puede tener entre 1 y 10 dígitos de longitud.
+      - **Número de marcado de emergencia**   Número que se marca para llegar a los servicios de emergencia. En los EE. UU. el número es 911. La cadena debe estar formada por dígitos del 0 al 9 y puede contener de uno a diez dígitos.
     
-      - **Máscara de marcado de emergencia**   número que desea traducir en el valor del valor de número de marca de emergencia cuando se marca. Por ejemplo, si escribe un valor de 212 en este campo y el campo número de marca de emergencia tiene un valor de 911, si un usuario marca 212, la llamada se realizará en 911. Esto permite que se marquen números de emergencia alternativos y siga haciendo que las llamadas lleguen a servicios de emergencia (por ejemplo, si alguien de un país o región con un número de emergencia diferente intenta marcar el número de ese país o región en lugar del número de la país o región en el que se encuentran actualmente). Puede definir varias máscaras de marcado de emergencia si separa los valores con signos de punto y coma. Por ejemplo, 212; 414. La longitud máxima de la cadena es de 100 caracteres. Cada carácter debe ser un dígito del 0 al 9.
+      - **Máscara de marcado de emergencia**   Número que desea convertir en el valor del número de marcado de emergencia cuando se marca. Por ejemplo, si especifica el valor "212" en este campo y el número de teléfono de emergencia tiene el valor "911", cuando un usuario marca 212, la llamada se realizará al 911. Esto permite marcar números de emergencia alternativos y seguir teniendo acceso a los servicios de emergencia (por ejemplo, si una persona de un país o una región con otro número de emergencia intenta marcar el número de su país o región, en lugar del número del país o la región donde se encuentra.) Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
       
 
         > [!IMPORTANT]  
-        > Asegúrese de que el valor de máscara de marcado especificada no es el mismo que un número de un intervalo de llamada en órbita. El enrutamiento de estacionamiento de llamadas tendrá prioridad sobre la conversión de cadenas de marcación de emergencia. Para ver los intervalos de la órbita de estacionamiento de llamadas existentes, haga clic en **características de voz** en la barra de navegación izquierda y luego en **llamar a estacionamiento**. 
+        > Compruebe que el valor de la máscara de marcado no coincide con ningún número del intervalo de la órbita de estacionamiento de llamadas. El enrutamiento del estacionamiento de llamadas tiene prioridad sobre la conversión de cadenas de marcado de emergencia. Para ver los intervalos existentes en la órbita de estacionamiento de llamadas, haga clic en  **Características de voz** en la barra de navegación izquierda y seleccione **Estacionamiento de llamadas**. 
 
     
-      - **URI de notificación**   : uno o más identificadores uniformes de recursos (URI) SIP que recibirán una notificación cuando se realice una llamada de emergencia. Por ejemplo, se puede notificar a la oficina de seguridad de la empresa a través de un mensaje instantáneo siempre que se hace una llamada de emergencia. Si la ubicación del autor de la llamada está disponible, esa ubicación se incluirá en la notificación. Los URI de varios SIP se pueden incluir como una lista separada por comas. Por ejemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". Se admiten las listas de distribución. La cadena necesita tener entre 1 y 256 caracteres de longitud y necesita comenzar por el prefijo "sip:". Antes de hacer clic en el campo URI de notificación se muestra un ejemplo.
+      - **URI de notificación**   Uno o más identificadores uniformes de recursos (URI) de SIP que se notificarán cuando se realiza una llamada de emergencia. Por ejemplo, el departamento de seguridad de la empresa puede recibir una notificación por mensajería instantánea si se realiza una llamada de emergencia. Si la ubicación del autor de la llamada está disponible, se incluirá dicha ubicación en la notificación. Se pueden incluir varios URI del SIP, separados por comas, en una lista. Por ejemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". No se admiten listas de distribución. La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo "sip:". Antes de que haga clic en el campo URI de notificación aparecerá un ejemplo.
     
-      - **Uri**   de la Conferencia el URI del SIP, en este caso, el número de teléfono de un tercero que se pondrá en conferencia con cualquier llamada de emergencia que se realice. Por ejemplo, la oficina de seguridad de la empresa podría recibir una llamada cuando se realiza una llamada de emergencia y escuchar o participar en la llamada (según el valor suministrado en el campo **modo de conferencia** ). La cadena necesita tener entre 1 y 256 caracteres de longitud y necesita comenzar por el prefijo sip:. Se muestra un ejemplo hasta que hace clic dentro de este campo.
+      - **URI de conferencia**   El URI del SIP, en este caso el número de teléfono, de un tercero que se realizará una conferencia en cualquier llamada de emergencia que se haga. Por ejemplo, el departamento de seguridad de la empresa puede recibir una llamada cuando se realiza una llamada de emergencia y escuchar o participar en la conversación (según el valor proporcionado en el campo **Modo de conferencia**). La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo sip:. Aparece un ejemplo hasta que se hace clic dentro del campo.
     
-      - **Modo**   de conferencia si especifica un valor en el campo URI de la **Conferencia** , el **modo de conferencia** determina si un tercero puede participar en la llamada o si solo puede escuchar. Especifique una de las siguientes opciones:
+      - **Modo de conferencia**   Si especifica un valor en el  campo **URI** de conferencia, el modo conferencia determina si un tercero puede participar en la llamada o solo puede escuchar. Especifique una de las opciones siguientes:
         
-          - **Una tercera**persona sólo puede escuchar la conversación entre el autor de la llamada y el operador PSAP.   
+          - **Unidireccional**   El tercero solo puede escuchar la conversación entre el autor de la llamada y el operador del servicio de emergencia.
         
-          - **Dos direcciones**   de terceros pueden escuchar y participar en la llamada entre el operador de llamadas y el operador PSAP.
+          - **Bidireccional**   El tercero puede escuchar y participar en la conversación entre el autor de la llamada y el operador del servicio de emergencia.
 
 6.  Haga clic en **Confirmar**.
 
 
     > [!IMPORTANT]  
-    > Al crear una directiva de usuario, inicialmente esa Directiva no se aplica a ninguno de los usuarios o sitios de red. Para aplicar la Directiva a un usuario, haga clic en **usuarios** en la barra de navegación izquierda. Busque el usuario al que desea aplicar la Directiva. En el menú **Editar**, haga clic en **Mostrar detalles**. En la página **Editar usuario del servidor** , seleccione la nueva Directiva de ubicación en la lista desplegable **Directiva de ubicación** y, a continuación, haga clic en **confirmar**.<BR>Para aplicar la Directiva a un sitio de red, haga clic en **configuración de red** en la barra de navegación izquierda y, después, haga clic en **sitio**. Busque el sitio de red al que desea aplicar la Directiva. En el menú **Editar**, haga clic en **Mostrar detalles**. En **Editar sitio**, seleccione la nueva Directiva de ubicación en la lista desplegable **Directiva de ubicación** y, a continuación, haga clic en **confirmar**.
+    > Cuando crea una directiva de usuario, no se aplica inicialmente a ningún usuario o sitio de red. Para aplicar la directiva a un usuario, haga clic en **Usuarios** en la barra de navegación izquierda. Busque al usuario al que desea aplicarle la directiva. En el menú **Editar**, haga clic en **Mostrar detalles**. En la **página Editar usuario del** servidor,  seleccione la nueva directiva de ubicación en la lista desplegable Directiva de ubicación y, a continuación, haga clic en **Confirmar**.<BR>Para aplicar la directiva a un sitio de red, haga clic en **Configuración de red** en la barra de navegación izquierda y seleccione **Sitio**. Busque el sitio de red al que desea aplicarle la directiva. En el menú **Editar**, haga clic en **Mostrar detalles**. En la página **Editar sitio**, seleccione una nueva directiva de ubicación de la lista desplegable **Directiva de ubicación** y, a continuación, haga clic en **Confirmar**.
 
 
-### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Para modificar una directiva de ubicación en el panel de control de Skype empresarial Server
+### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Para modificar una directiva de ubicación en el Panel de control de Skype Empresarial Server
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red**y, después, en **Directiva de ubicación**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva **de ubicación.**
 
-4.  En la página **Directiva de ubicación** , seleccione la Directiva de ubicación que desea modificar.
+4.  En la página **Directiva de ubicación**, seleccione la directiva de ubicación que desea modificar.
 
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
-6.  En la página **Editar Directiva de ubicación** , modifique los campos según sea necesario (para obtener información detallada, consulte el paso 5 de los procedimientos "para crear una nueva Directiva de ubicación" anteriormente en este tema).
+6.  En la página  **Editar directiva de ubicación**, modifique los campos según sea necesario (para obtener más información, consulte el paso 5 de los procedimientos "Para crear una nueva directiva de ubicación" expuestos anteriormente en este tema).
 
 7.  Haga clic en **Confirmar**.
 
@@ -130,31 +130,31 @@ En Skype empresarial Server, puede invalidar la cantidad de tiempo predeterminad
 ## <a name="delete-a-location-policy"></a>Eliminar una directiva de ubicación
 
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control de Skype Empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **configuración de red**y, después, en **Directiva de ubicación**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva **de ubicación.**
 
-4.  En la página **Directiva de ubicación** , seleccione la Directiva de ubicación que desea eliminar.
+4.  En la página  **Directiva de ubicación**, seleccione la directiva de ubicación que desea eliminar.
    
     > [!NOTE]  
-    > Puede eliminar más de una política de ubicación a la vez. Para ello, presione CTRL y seleccione varias directivas mientras mantiene presionada la tecla CTRL. O bien, para seleccionar todas las directivas, haga clic en **seleccionar todo** en el menú **edición** .
+    > Puede eliminar más de una ubicación en la misma operación. Para hacerlo, pulse CTRL y seleccione varias directivas manteniendo pulsada la tecla CTRL. O bien, para seleccionar todas las directivas, haga clic en **Seleccionar todo** en el menú **Editar**.
 
 
-5.  En el menú **Editar** , haga clic en **eliminar**.
+5.  En el menú **Editar**, haga clic en **Eliminar**.
 
 6.  Haga clic en **Aceptar**.
 
     > [!IMPORTANT]  
-    > No se puede eliminar la Directiva de ubicación global. Si intenta eliminar la directiva global, recibirá un mensaje de advertencia y esa Directiva se restablecerá a sus valores predeterminados.
+    > No puede eliminar la directiva de ubicación Global. Si trata de eliminar la directiva Global recibirá un mensaje de advertencia y las propiedades de dicha directiva se restablecerán a sus valores predeterminados.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Crear o modificar sitios de red](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[Nuevo: CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
 
 [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
  
