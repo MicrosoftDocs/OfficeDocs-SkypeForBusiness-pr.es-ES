@@ -1,8 +1,8 @@
 ---
-title: Regla de traducción, escriba una expresión regular
+title: Tipo de regla de conversión una expresión regular
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
-description: En el campo coincidir con este patrón, especifique el patrón que se usará para coincidir con los números que se van a traducir. En el campo regla de traducción, especifique un patrón para el formato de los números traducidos. Por ejemplo, si escribe ^\+(\d{9}\d +) $ en el campo coincidir con este patrón y 011 $1 en el campo regla de traducción, la regla traducirá + 441235551010 a 011441235551010.
-ms.openlocfilehash: b2797d8c37e666d86eb3b25cdcd43f069eb25498
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: En el campo Hacer coincidir este patrón, especifique el patrón que se usará para hacer coincidir los números objeto de la conversión. En el campo Regla de conversión, especifique un patrón para el formato de los números convertidos. Por ejemplo, si escribe ^ (\d \d+)$ en el campo Coincidir este patrón y 011$1 en el campo de regla de conversión, la regla traducirá \+ {9} +441235551010 a 011441235551010.
+ms.openlocfilehash: badbc5a34325e6bc2b5bef7e67ae39a4c8f02dc7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821942"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818860"
 ---
-# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="0fbe0-105">Regla de conversión: Escribir una expresión regular</span><span class="sxs-lookup"><span data-stu-id="0fbe0-105">Translation Rule: Type a Regular Expression</span></span>
+# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="81145-105">Regla de conversión: Escribir una expresión regular</span><span class="sxs-lookup"><span data-stu-id="81145-105">Translation Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="0fbe0-106">En el campo **coincidir con este patrón** , especifique el patrón que se usará para coincidir con los números que se van a traducir.</span><span class="sxs-lookup"><span data-stu-id="0fbe0-106">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="0fbe0-107">En el campo **regla de traducción** , especifique un patrón para el formato de los números traducidos.</span><span class="sxs-lookup"><span data-stu-id="0fbe0-107">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="0fbe0-108">Por ejemplo,\+si escribe ^ (\d{9}\d +) $ en el campo **coincidir con este patrón** y 011 $1 en el campo regla de **traducción** , la regla traducirá + 441235551010 a 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="0fbe0-108">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span>
+<span data-ttu-id="81145-106">En el campo **Hacer coincidir este patrón**, especifique el patrón que se usará para hacer coincidir los números objeto de la conversión.</span><span class="sxs-lookup"><span data-stu-id="81145-106">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="81145-107">En el campo **Regla de conversión**, especifique un patrón para el formato de los números convertidos.</span><span class="sxs-lookup"><span data-stu-id="81145-107">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="81145-108">Por ejemplo, si escribe ^ (\d \d+)$ en el campo Coincidir este patrón y 011$1 en el campo de regla de conversión, la regla traducirá \+ {9} +441235551010 a 011441235551010.  </span><span class="sxs-lookup"><span data-stu-id="81145-108">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span>
   
-<span data-ttu-id="0fbe0-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="0fbe0-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="81145-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="81145-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
