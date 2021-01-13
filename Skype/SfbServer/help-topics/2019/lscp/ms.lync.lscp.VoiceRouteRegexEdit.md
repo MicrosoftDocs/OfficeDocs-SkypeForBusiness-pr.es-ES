@@ -1,8 +1,8 @@
 ---
-title: Tipo de regla de normalización de una expresión regular
+title: Tipo de regla de normalización una expresión regular
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 ROBOTS: NOINDEX, NOFOLLOW
-description: Escriba una expresión regular de .NET Framework para especificar el patrón correspondiente a los números de teléfono de destino a los que se aplica la ruta.
-ms.openlocfilehash: 4afcf766fd6229cecd010d93f05346dec053bf25
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Escriba una expresión regular de .NET Framework para especificar el patrón coincidente para los números de teléfono de destino a los que se aplica la ruta.
+ms.openlocfilehash: fd66e36018276ac1373c2b5392c44f6052fdd458
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793538"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820000"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>Regla de normalización: Escribir una expresión regular
  
-Escriba una expresión regular de .NET Framework para especificar el patrón correspondiente a los números de teléfono de destino a los que se aplica la ruta. 
+Escriba una expresión regular de .NET Framework para especificar el patrón coincidente para los números de teléfono de destino a los que se aplica la ruta. 
   
  
   

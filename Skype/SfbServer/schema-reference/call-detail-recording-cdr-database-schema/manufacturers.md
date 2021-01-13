@@ -1,8 +1,8 @@
 ---
-title: Tabla de fabricantes en Skype empresarial Server 2015
+title: Tabla Manufacturers en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
-description: La tabla fabricantes es una tabla de soporte técnico. Cada registro almacena información sobre un fabricante de un dispositivo (teléfono de escritorio).
-ms.openlocfilehash: 9d7c23db061e5c307340c9a2d93a53d715de3b2e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La tabla Fabricantes es una tabla de apoyo. Cada registro almacena información sobre un fabricante de dispositivo (teléfono de escritorio).
+ms.openlocfilehash: f3cdd6e33732eb226cc2d99ff403495ac19f5567
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815108"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821490"
 ---
-# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Tabla de fabricantes en Skype empresarial Server 2015
+# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Tabla Manufacturers en Skype Empresarial Server 2015
  
-La tabla fabricantes es una tabla de soporte técnico. Cada registro almacena información sobre un fabricante de un dispositivo (teléfono de escritorio).
+La tabla Fabricantes es una tabla de apoyo. Cada registro almacena información sobre un fabricante de dispositivo (teléfono de escritorio).
   
-|**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
+|**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**ManufacturerId** <br/> |int  <br/> |Primary  <br/> |Número único que identifica a este fabricante.  <br/> |
+|**ManufacturerId** <br/> |entero  <br/> |Principal  <br/> |Número único que identifica este fabricante.  <br/> |
 |**Fabricante** <br/> |nvarchar(256)  <br/> | <br/> |Nombre del fabricante.  <br/> |
    
 

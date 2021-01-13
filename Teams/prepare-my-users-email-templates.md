@@ -1,14 +1,14 @@
 ---
-title: Plantillas de correo electrónico de notificación de usuario para la implementación de sistemas telefónicos en línea
-author: lanachin
-ms.author: v-lanac
+title: Plantillas de correo electrónico de notificación de usuario para la implementación de sistema telefónico en línea
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Use plantillas para enviar correos electrónicos a los usuarios a medida que implementa funcionalidades de voz en la nube en Teams o Skype empresarial.
+description: Use plantillas para enviar correos electrónicos a los usuarios a medida que implementa capacidades de voz en la nube en Teams o Skype Empresarial.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137520"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812650"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por el usuario del nuevo sistema telefónico en línea
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por parte del usuario de su nuevo sistema telefónico en línea
 
-Un teléfono puede ser la línea de vida de un usuario. El cambio de un sistema telefónico tradicional a un sistema telefónico en línea representa un cambio significativo en la forma en que los usuarios trabajan y puede afectar negativamente a su productividad. Tomarse el tiempo para informar, guiar y ofrecer soporte técnico a los usuarios a través de este cambio puede ayudar a garantizar una experiencia positiva para el usuario y maximizar el retorno de la inversión.
+Un teléfono puede ser la línea de vida de un usuario. Cambiar de un sistema telefónico tradicional a un sistema telefónico en línea representa un cambio significativo en la forma de trabajar de los usuarios y puede afectar negativamente a la productividad. Tomar tiempo para informar, guiar y apoyar a los usuarios mediante este cambio puede ayudar a garantizar una experiencia de usuario positiva y maximizar el retorno de la inversión.
 
-Este artículo contiene plantillas de correo electrónico personalizables para ayudar a informar a los usuarios sobre su nuevo sistema telefónico. Personaliza y envía los correos electrónicos adecuados para alinearlos con tu implementación de voz específica. Hemos usado corchetes para indicar secciones para una personalización sencilla, pero le recomendamos que agregue mensajería específica de la organización para que el anuncio sea más relevante para los usuarios. Si es aplicable a su implementación, reemplace todas las referencias a "Teams" por "Skype empresarial".
+Este artículo contiene plantillas de correo electrónico personalizables para ayudar a informar a los usuarios sobre su nuevo sistema telefónico. Personalice y envíe los correos electrónicos apropiados para que se ajusten a su implementación de voz específica. Hemos usado corchetes para indicar las secciones para facilitar la personalización, pero le recomendamos que agregue mensajería específica de la organización para que el anuncio sea más relevante para los usuarios. Si procede para su implementación, reemplace todas las referencias a "Teams" por "Skype Empresarial".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Correo electrónico número 1: enviar tres semanas antes del lanzamiento
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Correo electrónico número 1: Enviar tres semanas antes del lanzamiento
 
 Línea de asunto:
 
@@ -37,7 +37,7 @@ Línea de asunto:
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Cuerpo del mensaje de correo electrónico:
+Cuerpo del correo electrónico:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>Correo electrónico número 2: enviar una semana antes del lanzamiento
+## <a name="email-number-2-send-one-week-before-launch"></a>Correo electrónico número 2: Enviar una semana antes del lanzamiento
 
 Línea de asunto:
 
@@ -102,7 +102,7 @@ Línea de asunto:
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Cuerpo del mensaje de correo electrónico:
+Cuerpo del correo electrónico:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Correo electrónico número 3: enviar al iniciar un día
+## <a name="email-number-3-send-on-launch-day"></a>Correo electrónico número 3: Enviar el día del lanzamiento
 
 Línea de asunto:
 
@@ -146,7 +146,7 @@ Línea de asunto:
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Cuerpo del mensaje de correo electrónico:
+Cuerpo del correo electrónico:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Correo electrónico número 4: enviar dos semanas después del lanzamiento
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Número de correo electrónico 4: Enviar dos semanas después del lanzamiento
 
 Línea de asunto:
 
@@ -183,7 +183,7 @@ Línea de asunto:
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Cuerpo del mensaje de correo electrónico:
+Cuerpo del correo electrónico:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

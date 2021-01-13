@@ -1,8 +1,8 @@
 ---
-title: Configurar conferencias de acceso telefónico local en Skype empresarial Server
+title: Configurar conferencias de acceso telefónico local en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,77 +11,77 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
-description: 'Resumen: Lea este tema para obtener información sobre cómo configurar conferencias de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: 4e8523cbaadfc13b985cf33e06e68fcd5d209c89
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumen: lea este tema para obtener información sobre cómo configurar las conferencias de acceso telefónico local en Skype Empresarial Server.'
+ms.openlocfilehash: 92c282c87576e3d46353dabd8235521fe0097c11
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768533"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820730"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar conferencias de acceso telefónico local en Skype empresarial Server
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar conferencias de acceso telefónico local en Skype Empresarial Server
  
-**Resumen:** Lea este tema para obtener información sobre cómo configurar conferencias de acceso telefónico local en Skype empresarial Server.
+**Resumen:** Lea este tema para obtener información sobre cómo configurar las conferencias de acceso telefónico local en Skype Empresarial Server.
   
-Después de crear una topología que incluya la carga de trabajo de la Conferencia y las conferencias de acceso telefónico local seleccionadas, debe seguir pasos adicionales para configurar las conferencias de acceso telefónico local. Antes de leer este tema, asegúrese de que tiene un [plan de lectura para las conferencias de acceso telefónico local en Skype empresarial Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [los requisitos de hardware y software para las conferencias en Skype empresarial Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), así como el [Diagrama de flujo y la lista de comprobación para las conferencias de acceso telefónico local](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
+Después de crear una topología que incluya la carga de trabajo de conferencias y las conferencias de acceso telefónico local seleccionadas, debe realizar pasos adicionales para configurar las conferencias de acceso telefónico local. Antes de leer este tema, asegúrese de haber leído Plan para conferencias de acceso telefónico local en [Skype Empresarial Server,](../../plan-your-deployment/conferencing/dial-in-conferencing.md)requisitos de hardware y software para conferencias en Skype Empresarial [Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)y el diagrama de flujo de implementación y la lista de comprobación para conferencias de acceso telefónico [local.](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing) 
   
-Para configurar la conferencia de acceso telefónico local, necesita realizar las siguientes tareas:
+Para configurar las conferencias de acceso telefónico local, debe realizar las siguientes tareas:
   
-- [Configure dial plans](dial-in-conferencing.md#BKMK_ConfigureDialPlans)
+- [Configurar planes de marcado](dial-in-conferencing.md#BKMK_ConfigureDialPlans)
     
-- [Configure dial-in conferencing regions](dial-in-conferencing.md#BKMK_ConfigureDialInRegions)
+- [Configurar regiones de conferencia de acceso telefónico local](dial-in-conferencing.md#BKMK_ConfigureDialInRegions)
     
-- [Configure dial-in access numbers](dial-in-conferencing.md#BKMK_ConfigureDialInAccessNumbers)
+- [Configurar números de acceso telefónico](dial-in-conferencing.md#BKMK_ConfigureDialInAccessNumbers)
     
-- [Configure conferencing policies](dial-in-conferencing.md#BKMK_ConfigureConferencingPolicies)
+- [Configurar directivas de conferencia](dial-in-conferencing.md#BKMK_ConfigureConferencingPolicies)
     
-- [Assign a Line URI to a user account](dial-in-conferencing.md#BKMK_AssignaLineURI)
+- [Asignar un URI de línea a una cuenta de usuario](dial-in-conferencing.md#BKMK_AssignaLineURI)
     
-Además, puede realizar las siguientes tareas opcionales. Para obtener más información sobre estas tareas opcionales, consulte [administrar conferencias de acceso telefónico local en Skype empresarial Server](../../manage/conferencing/dial-in-conferencing.md).
+Además, puede realizar las siguientes tareas opcionales. Para obtener más información acerca de estas tareas opcionales, consulte Administrar conferencias de acceso telefónico [local en Skype Empresarial Server.](../../manage/conferencing/dial-in-conferencing.md)
   
-- Administrar directivas de PIN para las conferencias de acceso telefónico local
+- Administrar directivas de PIN para conferencias de acceso telefónico local
     
-- Administrar la asignación de teclas para comandos DTMF
+- Administrar la asignación de claves para comandos DTMF
     
 - Crear directorios de conferencia
     
-- Administrar los anuncios al unirse y abandonar conferencias
+- Administrar anuncios de unirse y abandonar conferencias
     
-- Probar la configuración de conferencia de acceso telefónico
+- Probar la configuración de conferencias de acceso telefónico local
     
-- Enviar un mensaje de correo electrónico de bienvenida a los usuarios de acceso telefónico local
+- Enviar correo de bienvenida a los usuarios de acceso telefónico
     
 ## <a name="configure-dial-plans"></a>Configurar planes de marcado
 <a name="BKMK_ConfigureDialPlans"> </a>
 
-Al implementar la conferencia de acceso telefónico local, tiene que crear o modificar uno o más planes de marcado para enrutar números de teléfono de acceso telefónico local. También debe asegurarse de que cada plan de marcado contenga al menos una regla de normalización, una regla que convierta las extensiones telefónicas en números de teléfono completos en formato E. 164. 
+Al implementar conferencias de acceso telefónico local, debe crear o modificar uno o más planes de marcado para enrutar números de teléfono de acceso telefónico local. También debe asegurarse de que cada plan de marcado contiene al menos una regla de normalización, una regla que convierte las extensiones telefónicas en números de teléfono completos en formato E.164. 
   
-Los usuarios de la conferencia de acceso telefónico local se unen a las conferencias como usuarios de empresa autenticados al escribir su número de identificación personal (PIN) y su número de teléfono. Necesita una regla de normalización para convertir las extensiones en números de teléfono completos, de modo que los usuarios puedan autenticarse cuando solo introduzcan una extensión telefónica.
+Los usuarios de conferencias de acceso telefónico local se unen a conferencias como usuarios de empresa autenticados especificando su número de identificación personal (PIN) y su número de teléfono. Necesita una regla de normalización para convertir extensiones en números de teléfono completos para que los usuarios puedan autenticarse cuando solo escriben una extensión telefónica.
   
-Para configurar planes de marcado para las conferencias de acceso telefónico local:
+Para configurar planes de marcado para conferencias de acceso telefónico local:
   
-- Tanto si implementa la Telefonía IP empresarial como si no, modifique el plan de marcado global para agregar una región de conferencia de acceso telefónico local y para garantizar que una regla de normalización convierta de forma precisa los números de acceso telefónico. Para obtener instrucciones detalladas, consulte [crear o modificar un plan de marcado en Skype empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
+- Tanto si implementa o no Telefonía IP empresarial, modifique el plan de marcado global para agregar una región de conferencia de acceso telefónico local y para asegurarse de que una regla de normalización convierte con precisión los números de acceso telefónico local. Para obtener instrucciones detalladas, consulte [Crear o modificar un plan de marcado en Skype Empresarial Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
     
-- Si no implementó la Telefonía IP empresarial, cree planes de marcado para los números de acceso a conferencias de acceso telefónico local. Recuerde incluir una región de conferencia de acceso telefónico local. Para obtener instrucciones detalladas, consulte [crear o modificar un plan de marcado en Skype empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
+- Si no implementó Telefonía IP empresarial, cree planes de marcado para los números de acceso a conferencias de acceso telefónico local. Asegúrese de incluir una región de conferencia de acceso telefónico local. Para obtener instrucciones detalladas, consulte [Crear o modificar un plan de marcado en Skype Empresarial Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
     
-- Si ha implementado la Telefonía IP empresarial, modifique los planes de marcado de la Telefonía IP empresarial según sea necesario para incluir regiones y usar las reglas de normalización pertinentes para los números de acceso telefónico. También puede crear planes de marcado dedicados que solo se usarán para números de acceso telefónico. Para obtener instrucciones detalladas, consulte [crear o modificar un plan de marcado en Skype empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
+- Si implementó Telefonía IP empresarial, modifique Telefonía IP empresarial planes de marcado según sea necesario para incluir regiones y usar las reglas de normalización adecuadas para los números de acceso telefónico. También puede crear planes de marcado dedicados que solo se usan para números de acceso telefónico. Para obtener instrucciones detalladas, consulte [Crear o modificar un plan de marcado en Skype Empresarial Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
     
-Para obtener detalles sobre la creación de reglas de normalización, consulte [crear o modificar una regla de normalización en Skype empresarial](../../deploy/deploy-enterprise-voice/normalization-rules.md).
+Para obtener más información sobre cómo crear reglas de normalización, consulte [Crear o modificar una regla de normalización en Skype Empresarial.](../../deploy/deploy-enterprise-voice/normalization-rules.md)
   
-## <a name="configure-dial-in-conferencing-regions"></a>Configurar regiones de conferencias de acceso telefónico local
+## <a name="configure-dial-in-conferencing-regions"></a>Configurar regiones de conferencia de acceso telefónico local
 <a name="BKMK_ConfigureDialInRegions"> </a>
 
-Al configurar un plan de marcado, especifica la región de conferencia de acceso telefónico local que se aplica a ese plan de marcado. La región de conferencia de acceso telefónico local asocia los números de acceso a conferencias de acceso telefónico local con el plan de marcado apropiado. Cuando crea el número de acceso telefónico local, selecciona las regiones que asocian el número de acceso con los planes de marcado pertinentes. 
+Cuando se configura un plan de marcado, se especifica la región de conferencias de acceso telefónico local que se aplica a dicho plan de marcado. La región de conferencia de acceso telefónico local asocia los números de acceso a conferencias de acceso telefónico local con el plan de marcado adecuado. Cuando se crea el número de acceso telefónico local, se seleccionan las regiones que asocian el número de acceso con los planes de marcado pertinentes. 
   
-Como es importante especificar una región para todos los planes de marcado, le recomendamos que compruebe que todos los planes de marcado tienen regiones de conferencia. 
+Dado que es importante especificar una región para todos los planes de marcado, se recomienda comprobar que todos los planes de marcado tienen regiones de conferencia. 
   
-Para comprobar si se ha establecido la región en todos los planes de marcado de conferencia de acceso telefónico local, use el cmdlet **Get-CsDialPlan**. Si a los planes de marcado les falta la región, puede usar el cmdlet **Set-CsDialPlan** para establecer la región. También puede usar el panel de control de Skype empresarial Server para actualizar la región en los planes de marcado existentes. Para obtener detalles sobre el uso del panel de control de Skype empresarial Server, consulte [crear o modificar un plan de marcado en Skype empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Para comprobar si la región está configurada para todos los planes de marcado de conferencia de acceso telefónico local, use el cmdlet **Get-CsDialPlan.** Si falta la región en los planes de marcado, puede usar el cmdlet **Set-CsDialPlan** para establecerla. También puede usar el Panel de control de Skype Empresarial Server para actualizar la región en los planes de marcado existentes. Para obtener más información sobre cómo usar el Panel de control de Skype Empresarial Server, consulte Crear o modificar un plan de [marcado en Skype Empresarial Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>Para comprobar si se ha establecido la propiedad Región en los planes de marcado
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** o **CsAdministrator**.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -99,13 +99,13 @@ Para comprobar si se ha establecido la región en todos los planes de marcado de
     
 4. Revise los planes de marcado devueltos para identificar si a alguno le falta la región de conferencias de acceso telefónico local. 
     
-Para obtener más información, vea [Get-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps).
+Para obtener más información, [vea Get-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps).
   
 ### <a name="to-set-the-region-property-for-a-dial-plan"></a>Para establecer la propiedad Región en un plan de marcado
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** o **CsAdministrator**.
     
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 3. Para los planes de marcado a los que les falte la región de conferencias de acceso telefónico local, ejecute:
     
@@ -119,74 +119,74 @@ Para obtener más información, vea [Get-CsDialPlan](https://docs.microsoft.com/
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 
-   En este ejemplo, se modifica el plan de marcado con la Identity de Redmond para establecer la propiedad DialinConferencingRegion en "Costa oeste de EE. UU.". 
+   En este ejemplo, se modifica el plan de marcado con la identidad de Redmond para establecer la propiedad DialinConferencingRegion en "US West Coast". 
     
-Para obtener más información, consulte [set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps).
+Para obtener más información, [vea Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps).
   
-## <a name="configure-dial-in-access-numbers"></a>Configurar números de acceso telefónico local
+## <a name="configure-dial-in-access-numbers"></a>Configurar números de acceso telefónico
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
-Cuando se implementa la característica de conferencia de acceso telefónico local, es necesario establecer números de teléfono que los usuarios puedan marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias. Estos números de acceso telefónico se muestran en invitaciones a reuniones y en la página web de configuración de conferencia de acceso telefónico local.
+Al implementar las conferencias de acceso telefónico local, debe configurar números de teléfono que los usuarios pueden marcar desde la red telefónica conmutada (RTC) para unirse a la parte de audio de las conferencias. Estos números de acceso telefónico local aparecen en las invitaciones a reuniones y en la página web configuración de conferencia de acceso telefónico local.
   
-Antes de poder crear números de acceso telefónico local, necesita planear las regiones de conferencia de acceso telefónico local y luego configurar planes de marcado con las regiones. Para obtener más información acerca de las regiones, consulte [planear las conferencias de acceso telefónico local en Skype empresarial Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md). Para obtener más información sobre cómo configurar planes de marcado para conferencias de acceso telefónico local, consulte [crear o modificar un plan de marcado en Skype empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
-  
-> [!NOTE]
-> No puede usar un nuevo número de acceso telefónico local hasta que se complete la replicación de Servicios de dominio de Active Directory (AD DS) de ese número de acceso telefónico local. La replicación puede prolongarse durante varias horas. 
+Para poder crear números de acceso telefónico local, primero debe planear las regiones de conferencia de acceso telefónico local y, a continuación, configurar los planes de marcado con las regiones. Para obtener más información sobre las regiones, consulte [Plan for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md). Para obtener más información sobre cómo configurar planes de marcado para conferencias de acceso telefónico local, vea Crear o modificar un plan de marcado [en Skype Empresarial Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
   
 > [!NOTE]
-> Una vez creados los números de acceso telefónico local, puede modificar el nombre para mostrar de los objetos de contacto de Active Directory, de modo que los usuarios puedan identificar con mayor facilidad el número de acceso correcto. Para modificar el nombre para mostrar, use el cmdlet [set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) . No modifique los objetos de Active Directory manualmente.
+> No puede usar un nuevo número de acceso telefónico local hasta que se complete la replicación de servicios de dominio de Active Directory (AD DS) de ese número de acceso. La replicación puede tardar varias horas en completarse. 
   
-### <a name="to-create-a-dial-in-access-number"></a>Para crear un número de acceso telefónico local
+> [!NOTE]
+> Después de crear números de acceso telefónico local, puede modificar el nombre para mostrar de los objetos de contacto de Active Directory para que los usuarios puedan identificar más fácilmente el número de acceso correcto. Para modificar el nombre para mostrar, use el cmdlet [Set-CsDialInConferencingAccessNumber.](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) No debe modificar objetos de Active Directory manualmente.
+  
+### <a name="to-create-a-dial-in-access-number"></a>Para crear un número de acceso telefónico
 
-1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Abra el panel de control de Skype empresarial Server.
+2. Abra el Panel de control de Skype Empresarial Server.
     
-3. En la barra de navegación de la izquierda, haga clic en **Conferencia** y después en **Número de acceso telefónico local**.
+3. En la barra de navegación de la izquierda, haga clic en **Conferencias** y, a continuación, en **Número de acceso telefónico**.
     
-4. En la página **Número de acceso telefónico local**, siga uno de estos procedimientos:
+4. En la **página Número de acceso** telefónico, realice una de las siguientes acciones:
     
-   - Haga clic en **Nuevo** para abrir **Nuevo número de acceso telefónico local**.
+   - Haga **clic en** Nuevo para abrir Nuevo número de acceso **telefónico.**
     
-   - Haga clic en uno de los números de acceso telefónico local de la lista, haga clic en **Editar** y después haga clic en **Mostrar detalles**.
-    
-     > [!NOTE]
-     > Usar el campo de búsqueda para buscar el contenido de una columna de la lista de números de acceso telefónico no siempre permite obtener los resultados esperados. En lugar de eso, ordene la lista por la columna que le interese para identificar el número de acceso telefónico que desea ver o modificar. 
-  
-5. En **Número para mostrar**, escriba el número de teléfono que los usuarios de teléfono de la red telefónica conmutada (RTC) marcan para unirse a una conferencia. Este número se muestra en las invitaciones a reuniones y en la página web Configuración de la conferencia de acceso telefónico local.
-    
-6. En **Nombre para mostrar**, escriba una descripción del número de acceso telefónico local. Este es el nombre que está asociado al número de acceso telefónico local en los resultados de búsqueda de Skype empresarial. Este número se muestra en el cliente cuando un usuario llama al número de acceso. 
-    
-7. En **URI de línea**, escriba el número E.164 del número de acceso telefónico local en el formato de URI TEL, con el símbolo + delante del número y sin espacios. Por ejemplo, tel.: +14255550200.
-    
-    > [!NOTE]
-    > El mismo URI de línea no puede volver a usarse por otro número de acceso telefónico a conferencias. 
-  
-8. En **URI del SIP**, siga este procedimiento:
-    
-   - En el cuadro de texto, escriba un URI del SIP único para este número de acceso a conferencias de acceso telefónico local. Este URI del SIP se muestra en varias ubicaciones, entre las que se incluyen los mensajes de notificación de llamada y las versiones anteriores de clientes de Lync.
+   - Haga clic en uno de los números de acceso telefónico de la lista, haga clic en **Editar** y, a continuación, haga clic en **Mostrar detalles.**
     
      > [!NOTE]
-     > El mismo URI del SIP no puede volver a usarse por otro número de acceso telefónico a conferencias. El URI del SIP no puede modificarse una vez creado el número de acceso. El único modo de cambiar el URI del SIP es eliminar y volver a crear el número de acceso. 
+     > El uso del campo de búsqueda para buscar el contenido de una columna en la lista de números de acceso telefónico no puede producir los resultados esperados. En su lugar, ordene la lista por la columna de interés para identificar el número de acceso telefónico que desea ver o cambiar. 
   
-   - En el cuadro de lista desplegable, haga clic en el dominio de la aplicación de operador de conferencia que admite este número de acceso telefónico local.
+5. En **Número de pantalla,** escriba el número de teléfono que marcan los usuarios de la red telefónica conmutada (RTC) para unirse a una conferencia. Este número se muestra en las invitaciones a reuniones y en la página web configuración de conferencia de acceso telefónico local.
     
-9. En **Grupo de servidores**, haga clic en el grupo que ejecuta la instancia del operador de conferencia que admite el número de acceso telefónico local.
+6. En **Nombre para mostrar,** escriba una descripción para el número de acceso telefónico. Este es el nombre asociado al número de acceso telefónico en los resultados de búsqueda de Skype Empresarial. Este nombre se muestra en el cliente cuando un usuario llama al número de acceso. 
+    
+7. En **uri** de línea, escriba el número E.164 del número de acceso telefónico en formato URI tel., incluido el símbolo + delante del número y excluyendo espacios. Por ejemplo, tel:+14255550200.
     
     > [!NOTE]
-    > Si necesita cambiar el grupo de servidores tras crear el número de acceso, necesitará usar el cmdlet [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) o eliminar y volver a crear el número de acceso.
+    > Otro número de acceso a conferencias de acceso telefónico local no puede volver a usar el mismo URI de línea. 
   
-10. En **Idioma principal**, haga clic en el idioma en el que se mostrarán las indicaciones para este número de acceso telefónico local. 
+8. En **el URI de SIP,** haga lo siguiente:
     
-    El idioma principal es el idioma que usa el operador de conferencia para responder la llamada. Los idiomas admitidos se muestran junto a cada número de teléfono de acceso en la página web de configuración de conferencias de acceso telefónico.
+   - En el cuadro de texto, escriba un URI de SIP único para este número de acceso a conferencias de acceso telefónico local. Este URI de SIP se muestra en varias ubicaciones, incluidos, entre otros, los mensajes de notificación de llamadas y las versiones anteriores de los clientes de Lync.
     
-11. (Opcional) En **Idiomas secundarios (cuatro máximo)**, haga clic en **Agregar**, seleccione uno o más idiomas adicionales que desee poner a disposición de los que llaman a este número de acceso telefónico local y luego haga clic en **Aceptar**. 
+     > [!NOTE]
+     > Otro número de acceso a conferencias de acceso telefónico local no puede volver a usar el mismo URI de SIP. El URI de SIP no se puede modificar después de crear el número de acceso. La única forma de cambiar el URI de SIP es eliminar y volver a crear el número de acceso. 
+  
+   - En el cuadro de lista desplegable, haga clic en el dominio de la aplicación Operador de conferencia que admite este número de acceso telefónico local.
     
-    Puede seleccionar hasta cuatro idiomas secundarios para cada número acceso telefónico. Los usuarios pueden seleccionar un idioma secundario antes de especificar el ID de conferencia cuando marcan para acceder a una conferencia.
+9. En **Grupo** de servidores, haga clic en el grupo que ejecuta la instancia de Operador de conferencia que admite este número de acceso telefónico local.
     
-12. Para agregar una región para el número de acceso telefónico local, en **regiones asociadas**, haga clic en **Agregar**, haga clic en una o más regiones asociadas con los planes de marcado para este número de acceso telefónico y, a continuación, haga clic en **Aceptar**.
+    > [!NOTE]
+    > Si necesita cambiar el grupo después de crear el número de acceso, debe usar el cmdlet [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) o eliminar y volver a crear el número de acceso.
+  
+10. En **el idioma principal,** haga clic en el idioma en el que se reproducen los mensajes para este número de acceso telefónico. 
     
-13. Para eliminar una región del número de acceso telefónico local, en **Regiones asociadas**, seleccione la región que desea eliminar y haga clic en **Quitar**.
+    El idioma principal es el idioma que el operador de conferencia usa para responder a la llamada. Los idiomas admitidos se muestran junto con cada número de teléfono de acceso en la página web configuración de conferencia de acceso telefónico local.
+    
+11. (Opcional) En **idiomas** secundarios (máximo de cuatro), haga clic en Agregar **,** seleccione uno o más idiomas adicionales que desee admitir para los autores de llamadas a este número de acceso telefónico local y, a continuación, haga clic en **Aceptar.** 
+    
+    Puede elegir hasta cuatro idiomas secundarios para cada número de acceso telefónico local. Los usuarios pueden seleccionar un idioma secundario antes de escribir el identificador de conferencia cuando llamen a una conferencia.
+    
+12. Para agregar una región para el número de acceso telefónico, en Regiones **asociadas,** haga clic en Agregar **,** haga clic en una o más regiones asociadas a los planes de marcado para este número de acceso telefónico y, a continuación, haga clic en **Aceptar.**
+    
+13. Para eliminar una región del número de acceso telefónico, en Regiones **asociadas,** haga clic en la región que desea eliminar y, a continuación, haga clic en **Quitar**.
     
 14. Haga clic en **Confirmar**.
     
@@ -195,29 +195,29 @@ Antes de poder crear números de acceso telefónico local, necesita planear las 
 
 Las directivas de conferencias son una opción de cuenta de usuario que especifica la experiencia de conferencia de los participantes. Puede crear directivas de conferencia cuyo ámbito sea de sitio o de usuario. La configuración de directiva de conferencias abarca muchos aspectos de la programación de conferencias y de la participación en ellas. Varias configuraciones de directiva de conferencias admiten las conferencias de acceso telefónico local para los participantes. Cuando configure la característica de conferencia de acceso telefónico local, debe comprobar que estos campos estén definidos de la forma apropiada para su organización, y modificarlos según sea necesario. 
   
-Para obtener más información sobre cómo configurar directivas de conferencia, consulte [Administrar directivas de conferencia en Skype empresarial Server](../../manage/conferencing/conferencing-policies.md).
+Para obtener más información acerca de la configuración de directivas de conferencia, vea Administrar directivas de conferencia [en Skype Empresarial Server.](../../manage/conferencing/conferencing-policies.md)
   
 ## <a name="assign-a-line-uri-to-a-user-account"></a>Asignar un URI de línea a una cuenta de usuario
 <a name="BKMK_AssignaLineURI"> </a>
 
-Los usuarios de acceso telefónico local escriben su número de teléfono o extensión y un PIN para participar en conferencias como usuarios autenticados. El URI de **línea** de telefonía especificado en las cuentas de usuario de Skype empresarial Server es necesario para la autenticación.
+Los usuarios de acceso telefónico escriben su número de teléfono o extensión y un PIN para participar en conferencias como usuarios autenticados. El URI de **línea de telefonía** especificado en las cuentas de usuario de Skype Empresarial Server es necesario para la autenticación.
   
-En el procedimiento de este tema se describe cómo asignar un **URI de línea** para una sola cuenta de usuario. Si desea asignar un **URI de línea** para varias cuentas de usuarios, puede crear un script que use el cmdlet **Set-CsUser**. Para obtener información detallada sobre cómo usar un script de ejemplo para asignar un **URI de línea** a varias cuentas de usuario, vea [asignar URI de línea a varios usuarios](https://go.microsoft.com/fwlink/p/?linkId=196945).
+En el procedimiento de este tema se explica cómo asignar un **URI de línea** para una sola cuenta de usuario. Si desea asignar un **URI de línea** para varias cuentas de usuario, puede crear un script que use el cmdlet **Set-CsUser**. Para obtener más información sobre cómo usar un script de ejemplo para asignar **uri** de línea a varias cuentas de usuario, vea Asignar URI de línea a [varios usuarios.](https://go.microsoft.com/fwlink/p/?linkId=196945)
   
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol **Cs-ServerAdministrator** o **CsAdministrator**.
     
-2.  Abra el panel de control de Skype empresarial Server.
+2.  Abra el Panel de control de Skype Empresarial Server.
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. En el campo de búsqueda, escriba el nombre del usuario que desea configurar para las conferencias de acceso telefónico local o haga clic en **Agregar filtro** para especificar campos de búsqueda y después haga clic en **Buscar**.
+4. En el campo de búsqueda, escriba el nombre del usuario que desea configurar para las conferencias de acceso telefónico local o haga clic en **Agregar filtro** para especificar campos de búsqueda y, a continuación, haga clic en **Buscar**.
     
-5. Haga doble clic en el nombre de usuario para abrir el cuadro de diálogo **Editar usuario de Skype Empresarial Server**.
+5. Haga doble clic en el nombre de usuario para abrir el cuadro de diálogo Editar usuario de Skype Empresarial **Server.**
     
-6. En **Telefonía**, en el campo **URI de línea**, escriba un número de teléfono único y normalizado (por ejemplo, tel.: +14255550200).
+6. En **Telefonía**, en el campo **URI de línea**, escriba un número de teléfono único y normalizado (por ejemplo, tel:+14255550200).
     
     > [!NOTE]
-    > Puede especificar un **URI de línea** solo si la **Telefonía** está establecida en **Solo de PC a PC**, **Telefonía IP empresarial**, **Control remoto de llamadas** o **Solo control remoto de llamadas**. 
+    > Solo puedes especificar **el URI** de línea si **Telefonía** está establecida en solo de equipo a equipo, **Telefonía IP empresarial,** **control** remoto de llamadas o control remoto **de llamadas.** 
   
 7. Haga clic en **Confirmar**.
     

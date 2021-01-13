@@ -1,8 +1,8 @@
 ---
-title: Agregar bases de datos de archivado a una implementación existente en Skype empresarial Server
+title: Agregar bases de datos de archivado a una implementación existente en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -11,98 +11,98 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
-description: 'Resumen: Lea este tema para obtener información sobre cómo agregar bases de datos de archivado a su implementación de Skype empresarial Server.'
-ms.openlocfilehash: 26cdd1befb695fbaf0656611ed65c7afa778af6c
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumen: lea este tema para obtener información sobre cómo agregar bases de datos de archivado a la implementación de Skype Empresarial Server.'
+ms.openlocfilehash: f7642cb79f73ab519938ddcb680f8450347b943d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769053"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820680"
 ---
-# <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Agregar bases de datos de archivado a una implementación existente en Skype empresarial Server
+# <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Agregar bases de datos de archivado a una implementación existente en Skype Empresarial Server
  
-**Resumen:** Lea este tema para obtener información sobre cómo agregar bases de datos de archivado a su implementación de Skype empresarial Server.
+**Resumen:** Lea este tema para obtener información sobre cómo agregar bases de datos de archivado a su implementación de Skype Empresarial Server.
   
-Es preciso incorporar el archivado a la topología para poder configurar la implementación a fin de admitir el archivado. La información de este tema explica cómo usar el generador de topología para:
+Debe incorporar el archivado a la topología para poder configurar la implementación a fin de admitir el archivado. La información de este tema explica cómo usar topology Builder para:
   
-- Agregar una base de datos de archivado a la topología.
+- Agregue una base de datos de archivado a la topología.
     
-- Publique la topología actualizada para agregar la base de datos de archivado a su implementación de Skype empresarial Server.
+- Publique la topología actualizada para agregar la base de datos de archivado a su implementación de Skype Empresarial Server.
     
 > [!NOTE]
-> Si desea usar la integración de Microsoft Exchange para almacenar los datos y archivos de los servidores de Exchange de todos los usuarios de su implementación, no especifique el **almacenamiento de SQL Server** en el almacén o use la información de reflejo de la **tienda de SQL Server** .
+> Si desea usar la integración de Microsoft Exchange para almacenar archivos y datos de archivado en servidores de Exchange para todos los usuarios de la implementación, no especifique el almacén de **SQL Server** de archivado ni use la información de creación de reflejos del almacén **de SQL Server.**
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>Agregar una base de datos de archivado a la topología
 
-1. En un equipo que ejecute Skype empresarial Server o en el que estén instaladas las herramientas administrativas de Skype empresarial Server, inicie sesión con una cuenta que sea miembro del grupo usuarios locales (o una cuenta con derechos de usuario equivalentes).
+1. En un equipo que ejecute Skype Empresarial Server o en el que estén instaladas las herramientas administrativas de Skype Empresarial Server, inicie sesión con una cuenta que sea miembro del grupo de usuarios locales (o una cuenta con derechos de usuario equivalentes).
     
-2. Iniciar el generador de topología.
+2. Inicie el Generador de topologías.
     
-3. En el árbol de consola, vaya al grupo de servidores front-end en el que desee implementar el archivado y, luego, haga clic en el nombre de dicho grupo donde desee implementar el archivado.
+3. En el árbol de la consola, vaya al grupo de servidores front-end en el que desea implementar el archivado y, a continuación, haga clic en el nombre del grupo de servidores front-end donde desea implementar el archivado.
     
 4. En el menú **Acción**, haga clic en **Editar propiedades**. 
     
 5. En el cuadro de diálogo **Editar propiedades**, haga clic en **General**.
     
-6. Desplácese hacia abajo hasta **Archivado**.
+6. Desplácese a  **Archivado**.
     
-7. Marque la casilla **Archivado**.
+7. Seleccione la casilla **Archivado**.
     
-8. En **archivar almacén de SQL Server,** realice una de las siguientes acciones:
+8. En **Almacén SQL Server archivado,** realice una de las siguientes acciones:
     
-   - Para usar un almacén de SQL Server existente, en el cuadro de lista desplegable, haga clic en el nombre del almacén de SQL Server que desee usar. Si todos los usuarios están alojados en Microsoft Exchange Server 2013 o una versión posterior, puede archivar las comunicaciones de Skype empresarial para todos los usuarios de Exchange. En este caso, no es necesario configurar el almacén de archivado de SQL Server.
+   - Para usar un almacén de  SQL Server existente, en el cuadro de lista desplegable, haga clic en el nombre del almacén de SQL Server que desee usar. Si todos los usuarios están en Microsoft Exchange Server 2013 o posterior, puede archivar las comunicaciones de Skype Empresarial para todos los usuarios de Exchange. En este caso, no es necesario configurar el SQL Server de archivado.
     
-   - Para especificar un nuevo almacén de SQL Server, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **definir nuevo almacén de SQL Server** , haga lo siguiente:
+   - Para especificar un nuevo almacén SQL Server, haga clic  en Nuevo y, a continuación, en el cuadro de diálogo Definir nuevo almacén de SQL Server, haga lo siguiente: 
     
-   - En **FQDN de SQL Server**, especifique el nombre completo del servidor en el que desea crear el nuevo almacén de SQL Server.
+   - En **SQL Server FQDN,** especifique el FQDN del servidor en el que desea crear el nuevo SQL Server almacén.
     
-   - Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
+   - Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en  **Instancia con nombre** y especifique la instancia que desee usar.
     
-   - Si la instancia de SQL Server especificada tiene una relación de creación de reflejos, seleccione la casilla **de verificación esta instancia de SQL está en relación de creación de reflejo** y, a continuación, en número de puerto de **réplica**, especifique el número de puerto.
+   - Si la instancia SQL Server especificada está en una relación de creación de reflejos, active la casilla Esta instancia **SQL** está en relación de reflejo y, a continuación, en Número de puerto **reflejado,** especifique el número de puerto.
     
-9. Si desea usar el reflejo de la tienda SQL Server, seleccione **Habilitar reflejo de la tienda SQL Server**y, a continuación, haga lo siguiente:
+9. Si quieres usar la creación SQL Server reflejo del almacén, selecciona **Habilitar SQL Server** creación de reflejos de la Tienda y, a continuación, haz lo siguiente:
     
-   - Para usar un almacén de SQL Server existente para la creación de reflejo, en el cuadro de lista desplegable **archivado reflejado de SQL Server** , haga clic en el nombre del almacén de SQL Server que desea usar para el reflejo.
+   - Para usar un almacén de SQL Server existente para  la creación de reflejos, en el cuadro de lista desplegable Reflejo del almacén de SQL Server de archivado, haga clic en el nombre del almacén de SQL Server que desea usar para la creación de reflejos.
     
-   - Para especificar un nuevo almacén de SQL Server para la creación de reflejo, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **definir nuevo almacén de SQL Server** , realice una de las siguientes acciones:
+   - Para especificar un nuevo almacén SQL Server para creación de reflejos, haga clic en Nuevo y, a continuación, en el cuadro de diálogo Definir nuevo almacén de **SQL Server,** realice una de las siguientes acciones:
     
-     a. En **FQDN de SQL Server**, especifique el nombre completo del servidor SQL Server en el que desea crear el nuevo almacén de SQL Server.
+     a. En **SQL Server FQDN,** especifique el FQDN de la SQL Server en la que desea crear el nuevo SQL Server almacén.
     
-     b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
+     b. Haga clic en **Instancia predeterminada** para utilizar la instancia predeterminada o, para especificar una instancia diferente, haga clic en **Instancia denominada** y, a continuación, haga clic en la instancia que desee utilizar.
     
-     c. Si la instancia de SQL Server especificada tiene una relación de creación de reflejos, seleccione la casilla **de verificación esta instancia de SQL está en relación de creación de reflejo** y, a continuación, en número de puerto de **réplica**, especifique el número de puerto.
+     c. Si la instancia SQL Server especificada está en una relación de creación de reflejos, active la casilla Esta instancia **SQL** está en relación de reflejo y, a continuación, en Número de puerto **reflejado,** especifique el número de puerto.
     
-   - Si habilita el reflejo de SQL Server y desea incluir un testigo de reflejo de SQL Server (una tercera, instancia de SQL Server independiente que puede detectar el estado del servidor SQL Server principal y de las instancias reflejadas), seleccione la casilla **usar el testigo de reflejo de SQL Server para habilitar la conmutación por error automática** y, a continuación, siga uno de estos procedimientos:
+   - Si habilita la creación de reflejos de SQL Server y desea incluir un testigo de creación de reflejo de SQL Server (una tercera instancia de SQL Server independiente que pueda detectar el estado de las instancias principales de SQL Server y de reflejo), active la casilla Usar testigo de creación de reflejos de SQL Server para habilitar la conmutación por error automática y, **a** continuación, realice una de las siguientes acciones:
     
-     a. En **FQDN de SQL Server**, especifique el nombre completo del servidor en el que desea crear el nuevo testigo de reflejo de SQL Server.
+     a. En **SQL Server FQDN,** especifique el FQDN del servidor en el que desea crear el nuevo testigo de creación SQL Server reflejo.
     
-     b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar para el testigo de reflejo.
+     b. Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en  **Instancia con nombre** y especifique la instancia que desee usar para el testigo de reflejo.
     
-     c. Si la instancia de SQL Server especificada tiene una relación de creación de reflejos, seleccione la casilla **de verificación esta instancia de SQL está en relación de creación de reflejo** y, a continuación, en número de puerto de **réplica**, especifique el número de puerto.
+     c. Si la instancia SQL Server especificada está en una relación de creación de reflejos, active la casilla Esta instancia **SQL** está en relación de reflejo y, a continuación, en Número de puerto **reflejado,** especifique el número de puerto.
     
 10. Para guardar la configuración, haga clic en **Aceptar**.
     
 ### <a name="publish-the-updated-topology-to-add-an-archiving-database-to-your-deployment"></a>Publicar la topología actualizada para agregar una base de datos de archivado a la implementación
 
-1. En un equipo que ejecute Skype empresarial Server o en el que estén instaladas las herramientas administrativas de Skype empresarial Server, inicie sesión con una cuenta que sea miembro del grupo usuarios locales (o una cuenta con derechos de usuario equivalentes).
+1. En un equipo que ejecute Skype Empresarial Server o en el que estén instaladas las herramientas administrativas de Skype Empresarial Server, inicie sesión con una cuenta que sea miembro del grupo de usuarios local (o una cuenta con derechos de usuario equivalentes).
     
     > [!NOTE]
-    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para agregar un servidor a la topología. debe usar una cuenta que sea miembro del grupo de **administradores del dominio** y el grupo **RTCUniversalServerAdmins** , y que tenga permisos de control total (lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Skype empresarial Server (para que el generador de topología pueda configurar la lista de control de acceso discrecional (DACL) obligatoria o una cuenta con derechos equivalentes.
+    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para agregar  un servidor a la topología, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo **RTCUniversalServerAdmins,** y que tenga permisos de control total (lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Skype Empresarial Server (para que el Generador de topologías pueda configurar la lista de control de acceso discrecional (DACL) necesaria o una cuenta con derechos equivalentes.
   
-2. Abra la topología que creó en la sección anterior con el generador de topologías.
+2. Abra la topología que creó en la sección anterior con el Generador de topologías.
     
-3. En el árbol de consola, haga clic con el botón secundario en **Skype empresarial Server**y, a continuación, haga clic en **publicar topología**.
+3. En el árbol de la consola, haga clic con el botón secundario **en Skype Empresarial Server** y, a continuación, haga clic en Publicar **topología.**
     
 4. En la página **Publicar la topología**, haga clic en **Siguiente**.
     
-5. En la página **Crear bases de datos**, compruebe que la base de datos está seleccionada y, luego, haga clic en **Siguiente**. 
+5. En la página **Crear bases de datos**, compruebe que la base de datos está seleccionada y haga clic en **Siguiente**. 
     
     > [!NOTE]
-    > Si no tiene los permisos adecuados para crear bases de datos, puede cancelar la selección de la base de datos y alguien con permisos adecuados podrá crear la base de datos. > solo se pueden instalar bases de datos en servidores SQL dedicados mediante el generador de topologías. Las bases de datos en servidores SQL Server que se han combinado con otros componentes de servidor necesitan instalarse al ejecutar la instalación local en dicho equipo. 
+    > Si no tiene los permisos adecuados para crear bases de datos, puede cancelar la selección de la base de datos y alguien con permisos adecuados podrá crear la base de datos. > solo las bases de datos en servidores SQL dedicados se pueden instalar mediante el Generador de topologías. Las bases de datos en los servidores SQL Server que están instaladas con otros componentes de servidor se deben instalar ejecutando la configuración local en el equipo. 
   
-6. En la página **Asistente para publicación completado**, compruebe que se ha publicado correctamente la topología y, luego, haga clic en **Finalizar**.
+6. En la página **Asistente de publicación completado**, compruebe que la topología se haya publicado correctamente y, a continuación, haga clic en **Finalizar**.
     
     > [!IMPORTANT]
-    > Una vez publicada la topología, necesita configurar las opciones y las directivas para el archivado antes de que se pueda archivar cualquier contenido. Para obtener más información, vea [configurar las opciones de archivado para Skype empresarial Server](configure-archiving-options.md) y [configurar directivas de archivado para Skype empresarial Server](configure-archiving-policies.md). 
+    > Una vez publicada la topología, debe configurar opciones y directivas para el archivado antes de que se pueda archivar cualquier contenido. Para obtener más información, consulte [Configure archiving options for Skype for Business Server](configure-archiving-options.md) and Configure archiving policies for Skype for Business [Server](configure-archiving-policies.md). 
   
 

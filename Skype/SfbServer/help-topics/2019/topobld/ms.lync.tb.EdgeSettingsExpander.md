@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración perimetral
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Dispone de las siguientes secciones para editar la configuración de un servidor perimetral o un grupo de servidores perimetrales existente:'
-ms.openlocfilehash: cce6358779371d45b6db3707d01987b189a344af
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para editar la configuración de un grupo de servidores perimetrales de uno o varios servidores existentes, le presentamos las secciones siguientes:'
+ms.openlocfilehash: cc8e0094a601faaf89c6a932172d5b6cb3522f2d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793758"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822440"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
 
-Dispone de las siguientes secciones para editar la configuración de un servidor perimetral o un grupo de servidores perimetrales existente:
+Para editar la configuración de un grupo de servidores perimetrales de uno o varios servidores existentes, le presentamos las secciones siguientes:
 
 - Configuración general
 
@@ -35,34 +35,34 @@ Dispone de las siguientes secciones para editar la configuración de un servidor
 
 ## <a name="general-settings"></a>Configuración general
 
-Nombre de dominio completo (FQDN) de grupo interno del grupo de servidores perimetrales. Edite el FQDN del grupo de servidores para cambiar este parámetro.
+Nombre de dominio completo (FQDN) del grupo de servidores internos del grupo de servidores perimetrales. Edite el FQDN del grupo de servidores para cambiar este parámetro.
 
-Active la casilla **Habilitar la Federación de este grupo perimetral (puerto 5061)** si va a configurar la Federación con un servidor de Skype empresarial Server 2015.
+Active la casilla Habilitar federación para este grupo de servidores perimetrales **(puerto 5061)** si va a configurar la federación con un servidor de Skype Empresarial Server 2015.
 
-Indique el número de puerto del **Puerto interno de replicación de configuración (HTTPS)**.
+Especifique el número de puerto para el **Puerto de replicación de configuración interna (HTTPS)**.
 
 ## <a name="next-hop-selection-settings"></a>Configuración de la selección de próximo salto
 
-Para definir o modificar el **Grupo de servidores del próximo salto** que van a usar los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end de la lista desplegable. Solo los directores o los clientes front-end que se hayan configurado en el generador de topología aparecerán para la selección.
+Para establecer o  modificar el grupo de servidores del próximo salto que usarán los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end en el cuadro de lista desplegable. Solo se seleccionarán los directores o front-ends que se hayan configurado en el Generador de topologías.
 
 ## <a name="edge-server-configuration"></a>Configuración del servidor perimetral
 
-Para modificar o especificar los parámetros de **Configuración externa** de los servidores perimetrales, antes necesitará determinar si va a usar direcciones IP diferentes para el acceso SIP, la conferencia web y el servicio de audio/vídeo.
+Para editar o especificar los parámetros de la **Configuración externa** de los servidores perimetrales, primero debe determinar si utilizará direcciones IP diferentes para el acceso SIP, la conferencia web y el servicio de audio/vídeo.
 
-Si tiene previsto usar direcciones IP distintas para cada uno de ellos, active la casilla **Habilitar combinaciones distintas de FQDN y dirección IP para conferencia web y A/V**. Cada servicio necesita tener el registro del host DNS (A) pertinente creado para ello.
+Si tiene previsto utilizar direcciones IP distintas para cada uno, marque la casilla de verificación **Habilitar FQDN y direcciones IP distintos para conferencia web y A/V**. Cada servicio debe tener el registro (A) DNS creado para ello.
 
-En cada uno de los servicios externos, especifique un nombre de dominio completo y un puerto asociado. Por ejemplo, en **Acceso SIP** puede usar sip.contoso.com con el puerto asociado 5061.
-
-> [!IMPORTANT]
-> Si selecciona FQDN diferentes para cada uno de los servicios externos, cada servicio necesita tener asociado un valor de puerto exclusivo. SIP se encuentra de forma predeterminada en el puerto 5061/TLS, el servicio perimetral de conferencia web se encuentra en el puerto 444/TLS y el servidor de conferencia de audio y vídeo, en el puerto 443/TLS. Si efectúa cambios en cualquiera de estas opciones, incluido el uso de FQFN y direcciones IP o puertos diferentes, necesitará actualizar todos los demás servicios que dependan de los valores configurados inicialmente.
-
-Si decide que la organización va a usar una sola dirección IP y un solo nombre de dominio completo para los servicios externos, desactive la casilla **Habilitar combinaciones distintas de FQDN y dirección IP para conferencia web y A/V**. Luego, puede editar los valores del puerto y el nombre de dominio completo de **Acceso SIP** si es necesario.
+En cada uno de los servicios de tipo externo, especifique un nombre de dominio completo y un puerto asociado. Por ejemplo, para **Acceso SIP** puede usar sip.contoso.com con un puerto asociado de 5061.
 
 > [!IMPORTANT]
-> Si efectúa cambios en cualquiera de estas opciones, incluido el uso de FQDN y direcciones IP o puertos diferentes, necesita actualizar todos los demás servicios que dependan de los valores configurados inicialmente.
+> Si selecciona FQDN diferentes para cada uno de los servicios externos, cada servicio debe tener asociado un valor de puerto exclusivo. De forma predeterminada, el SIP está en el puerto 5061/TLS, el servicio perimetral de conferencia web está en el puerto 444/TLS y el servidor de conferencia A/V está en el puerto 443/TLS. Si efectúa cambios en cualquiera de estas opciones, incluido el uso de nombres de dominio completo y direcciones IP o puertos diferentes, debe actualizar todos los demás servicios que dependan de los valores configurados inicialmente.
 
-## <a name="see-also"></a>Vea también
+Si decide que la organización va a usar una sola dirección IP y un solo nombre de dominio completo para los servicios externos, desmarque la casilla de verificación **Habilitar FQDN y direcciones IP diferentes para conferencia web y A/V**. A continuación, si es necesario, puede editar los valores de puerto y FQDN del grupo de servidores de **Acceso SIP**.
 
-Para más detalles sobre cómo definir y configurar las opciones de los servicios perimetrales, mire [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
+> [!IMPORTANT]
+> Si efectúa cambios en cualquiera de estas opciones, incluido el uso de FQDN y direcciones IP o puertos diferentes, debe actualizar todos los demás servicios que dependan de los valores configurados inicialmente.
+
+## <a name="see-also"></a>Ver también
+
+Para obtener más información sobre cómo definir y configurar las opciones de los servicios de servidores perimetrales, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
 
 

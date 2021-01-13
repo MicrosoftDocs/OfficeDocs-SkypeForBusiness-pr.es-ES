@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de aplicaciones externas
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nodo Servidores de aplicaciones de confianza contiene los grupos de aplicaciones de confianza de este sitio. Los grupos de aplicaciones de confianza contienen servidores que ejecutan aplicaciones de comunicaciones unificadas de confianza de Microsoft, pero no ejecutan roles de servidor de Skype empresarial. You can perform the following action:'
-ms.openlocfilehash: 9462b024a7e98d0b0007e6033d48d5785262635f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'El nodo Servidores de aplicaciones de confianza muestra los grupos de aplicaciones de confianza de este sitio. Los grupos de aplicaciones de confianza contienen servidores que ejecutan aplicaciones de comunicaciones unificadas de Microsoft de confianza, pero no ejecutan roles de Skype Empresarial Server. Puede efectuar la acción siguiente:'
+ms.openlocfilehash: 399292b721c5d19f00398ad05aaf26fabb89dc22
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793718"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819490"
 ---
 # <a name="external-applications-scope-node"></a>Nodo de ámbito de aplicaciones externas
  
-El nodo **Servidores de aplicaciones de confianza** contiene los grupos de aplicaciones de confianza de este sitio. Los grupos de aplicaciones de confianza contienen servidores que ejecutan aplicaciones de comunicaciones unificadas de confianza de Microsoft, pero no ejecutan roles de servidor de Skype empresarial. Puede efectuar la acción siguiente:
+El nodo **Servidores de aplicaciones de confianza** muestra los grupos de aplicaciones de confianza de este sitio. Los grupos de aplicaciones de confianza contienen servidores que ejecutan aplicaciones de comunicaciones unificadas de Microsoft de confianza, pero no ejecutan roles de Skype Empresarial Server. Puede efectuar la acción siguiente:
   
-- **Nuevo grupo de aplicaciones de confianza**. Inicia el asistente **Definir nuevo grupo de aplicaciones de confianza**, que sirve para agregar un nuevo grupo de servidores de aplicaciones de confianza a la topología.
+- **Nuevo grupo de aplicaciones de confianza**. Inicia el Asistente para **definir nuevo grupo de aplicaciones de confianza**, que se emplea para incorporar a la topología un nuevo grupo de aplicaciones de confianza.
     
 Además de las opciones de los grupos de servidores de aplicaciones de confianza, puede efectuar las tareas generales siguientes:
   
-- **Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     
-- **Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.
+- **Ver**. Esta opción le permite personalizar la vista del Topology Builder seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     
-- **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
+- **Ayuda**. Esta opción le permite acceder a la Ayuda del nodo activo.
     
 

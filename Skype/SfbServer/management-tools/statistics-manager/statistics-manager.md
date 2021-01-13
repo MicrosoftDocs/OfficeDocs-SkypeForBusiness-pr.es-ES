@@ -1,8 +1,8 @@
 ---
 title: Administrador de estadísticas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/19/2016
 audience: ITPro
@@ -13,19 +13,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: 'Resumen: Lea este tema para obtener información sobre statistic Manager para Skype empresarial Server, una eficaz herramienta que le permite ver los datos de rendimiento y estado de Skype empresarial en tiempo real.'
-ms.openlocfilehash: 67e90bdd62f27f222cce68dedc133ee751ead53a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumen: lea este tema para obtener información sobre el Administrador de estadísticas de Skype Empresarial Server, una herramienta eficaz que le permite ver datos de rendimiento y estado de Skype Empresarial Server en tiempo real.'
+ms.openlocfilehash: 68a16b76e68bc745a33b91b117c545b45057df55
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816229"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821800"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>Administrador de estadísticas para Skype Empresarial Server
  
-**Resumen:** Lea este tema para obtener información sobre statistic Manager para Skype empresarial Server, una eficaz herramienta que le permite ver los datos de estado y rendimiento de Skype empresarial Server en tiempo real.
+**Resumen:** Lea este tema para obtener información sobre el Administrador de estadísticas de Skype Empresarial Server, una herramienta eficaz que le permite ver datos de rendimiento y estado de Skype Empresarial Server en tiempo real.
   
-Esta sección contiene los siguientes temas:
+En esta sección se presentan los siguientes temas:
   
 - [Planear el administrador de estadísticas para Skype Empresarial Server](plan.md)
     

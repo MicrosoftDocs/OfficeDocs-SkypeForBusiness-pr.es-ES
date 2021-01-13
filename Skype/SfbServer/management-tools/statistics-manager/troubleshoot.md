@@ -1,8 +1,8 @@
 ---
 title: Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,168 +12,168 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Resumen: Lea este tema para solucionar problemas de implementación de Statistics Manager para Skype empresarial Server.'
-ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Resumen: lea este tema para solucionar problemas de implementación del Administrador de estadísticas para Skype Empresarial Server.'
+ms.openlocfilehash: ea3d6f66003841e893ebe2dcc5d3fe02d0da125b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888879"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821780"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
  
-**Resumen:** Lea este tema para solucionar problemas de implementación de Statistics Manager para Skype empresarial Server.
+**Resumen:** Lea este tema para solucionar problemas de implementación del Administrador de estadísticas para Skype Empresarial Server.
   
-En este tema se describe cómo solucionar problemas de la implementación del administrador de estadísticas mediante la descripción de los eventos que se pueden ver en el registro de eventos de la aplicación y las acciones apropiadas que se pueden llevar a cabo para rectificar el evento. Este tema contiene las siguientes secciones:
+En este tema se describe cómo solucionar problemas de la implementación del Administrador de estadísticas mediante la descripción de los eventos que puede ver en el registro de eventos de la aplicación y las acciones apropiadas que puede realizar para corregir el evento. En este tema se presentan las siguientes secciones:
   
-- [Eventos del agente](troubleshoot.md#BKMK_Agent)
+- [Eventos de agente](troubleshoot.md#BKMK_Agent)
     
 - [Eventos de escucha](troubleshoot.md#BKMK_Listener)
     
-- [Problemas de sitio web](troubleshoot.md#BKMK_Website)
+- [Problemas del sitio web](troubleshoot.md#BKMK_Website)
     
-## <a name="agent-events"></a>Eventos del agente
+## <a name="agent-events"></a>Eventos de agente
 <a name="BKMK_Agent"> </a>
 
-- **1000**: no se puede configurar el limitador de procesador (objeto de trabajo). Motivo desconocido
+- **1000** — No se puede configurar el limitador de procesador (objeto job): motivo desconocido
     
-- **1001** : no se permite la limitación del proceso en el proceso (probablemente ya esté dentro de un objeto de trabajo).
+- **1001—** No se permite la limitación de procesos en el proceso (probablemente ya dentro de un objeto Job)
     
-    El agente se ejecuta en un objeto de trabajo de Windows para limitar automáticamente su superficie de memoria. Si el agente no se inicia y estas entradas de evento se encuentran en el registro de eventos, no se puede crear una instancia del objeto de trabajo en el servidor. Para evitar este problema, se puede quitar el límite de memoria superior cambiando un valor en el archivo de configuración:
+    El agente se ejecuta dentro de un objeto de trabajo de Windows para limitar automáticamente su superficie de memoria. Si el agente no se iniciará y estas entradas de evento están presentes en el registro de eventos, no se podrá crear una instancia del objeto job en el servidor. Para evitar esto, se puede quitar el límite de memoria superior cambiando un valor en el archivo de configuración:
     
   ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    Busque "MaxProcessMemoryMB" y cambie el valor a "0", como se muestra a continuación:
+    Busque "MaxProcessMemoryMB" y cambie el valor a "0", como se muestra:
     
   ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
     > [!NOTE]
-    > Si se realiza este cambio, el agente generalmente consumirá \< 100 MB de memoria, pero no se verá limitado a 300 MB como valor predeterminado. Si se realiza este cambio, recomendamos la supervisión minuciosa de la memoria para garantizar que el agente no consuma una gran cantidad de memoria en su equipo host. 
+    > Si se realiza este cambio, el agente generalmente seguirá consumiendo 100 MB de memoria, pero no se limitará a la fuerza a 300 MB como es el valor \< predeterminado. Si se realiza este cambio, se recomienda supervisar estrechamente el uso de memoria para asegurarse de que el agente no consume una gran cantidad de memoria en su equipo host. 
   
-- **2000**: error en la inicialización del cliente
+- **2000:** Error de inicialización del cliente
     
-- **2001**: no se pudo establecer ninguna conexión con el servicio ni con ninguna IP de origen
+- **2001:** No se pudo realizar ninguna conexión con el servicio en ninguna IP de origen
     
-    Si el agente no puede conectarse con el equipo de escucha, compruebe lo siguiente:
+    Si el agente no puede conectarse al equipo de escucha, compruebe lo siguiente:
     
-    1. Garantice que el servicio de escucha se esté ejecutando en el equipo de escucha. Si no, asegúrese de que Redis se esté ejecutando en ese servidor y, a continuación, reinicie el servicio de escucha.
+    1. Asegúrese de que el servicio de escucha se está ejecutando en el equipo de escucha. Si no es así, asegúrese de que Redis se ejecuta en ese servidor y, a continuación, reinicie el servicio de escucha.
         
-        Compruebe el registro de eventos del administrador de estadísticas en el equipo de escucha para asegurarse de que no hay ningún problema con el servicio de escucha del administrador de estadísticas.
+        Compruebe el registro de eventos del Administrador de estadísticas en el equipo de escucha para asegurarse de que no hay problemas con el servicio de escucha del administrador de estadísticas en sí.
         
-    2. Use una herramienta de conectividad como telnet para comprobar la conectividad desde el equipo del agente al de escucha en el puerto correcto.
+    2. Use una herramienta de conectividad como telnet para comprobar la conectividad desde el equipo del agente al servicio de escucha en el puerto correcto.
         
-        Si no, asegúrese de que la regla de firewall entrante esté habilitada en el equipo de escucha para el tipo de red al que está conectado el equipo de escucha (privado/público/dominio). Si el equipo de escucha no se une a un dominio, la red puede aparecer como pública y, en ese caso, las reglas de Firewall instaladas con statistic Manager no se aplicarán de forma predeterminada.
+        Si no es así, asegúrese de que la regla de firewall entrante está habilitada en el equipo de escucha para el tipo de red al que está conectado el equipo de escucha (privado/público/dominio). Si el equipo de escucha no está unido a un dominio, es posible que la red aparezca como pública y, en ese caso, las reglas de firewall instaladas con el Administrador de estadísticas no se aplicarán de forma predeterminada.
     
-- **4000**: error al descargar información del servidor desde la escucha (motivo desconocido)
+- **4000—** Error al descargar la información del servidor desde la escucha (motivo desconocido)
     
-  - **4001**: no se encuentra el servidor en la topología de escucha
+  - **4001:** Servidor no encontrado en la topología de escucha
     
-    Este error ocurrirá si el servidor se conecta correctamente al agente de escucha, pero el servidor no se agregó a la topología en la caché de la escucha. Opciones de resolución:
+    Este error se producirá si el servidor se conecta correctamente a la escucha, pero el servidor no se agregó a la topología en la memoria caché del agente de escucha. Opciones de resolución:
     
-  - 	Asegúrese de que ha seguido las instrucciones para importar la topología. Consulte [Importar la topología](deploy.md#BKMK_ImportTopology).   
+  - Asegúrese de que ha seguido las instrucciones para importar la topología. Consulte [Importar la topología.](deploy.md#BKMK_ImportTopology) 
     
-  - Si el agente está en un servidor que no se incluye en la topología (por ejemplo, los nodos de un clúster SQL AlwaysOn), tendrá que agregar el agente manualmente siguiendo las instrucciones de [Importar la topología](deploy.md#BKMK_ImportTopology).
+  - Si el agente está en un servidor que no aparece en la topología (por ejemplo, los nodos de un clúster alwayson de SQL), deberá agregar el agente manualmente siguiendo las instrucciones de Importación de la [topología.](deploy.md#BKMK_ImportTopology)
     
-  - **4002**: contraseña de escucha no válida
+  - **4002:** Contraseña de escucha no válida
     
-    La contraseña cifrada que el agente intenta usar no coincide con la contraseña de servicio de la escucha. Desinstale el agente y vuelva a instalarlo con la contraseña de servicio correcta.
+    La contraseña cifrada que el agente está intentando usar no coincide con la contraseña de servicio en el propio servicio de escucha. Desinstale el agente y vuelva a instalarlo con la contraseña de servicio correcta.
     
-  - **4003**: la huella digital del certificado no coincide
+  - **4003:** Error de coincidencia de huella digital de certificado
     
-    La huella digital del certificado proporcionado al agente durante la instalación no coincide con la huella digital en el certificado que la escucha está usando actualmente y, por lo tanto, la conexión se rechazará. Desinstale el agente y vuelva a instalarlo con la huella digital del certificado correcta.
+    La huella digital del certificado que se ha dado al agente en el momento de la instalación no coincide con la huella digital del certificado que está usando actualmente el agente de escucha y, por lo tanto, se rechazará la conexión. Desinstale el agente y vuelva a instalarlo con la huella digital del certificado correcta.
     
-  - **4004**: respuesta no válida o HttpStatusCode
+  - **4004—** Respuesta no válida o HttpStatusCode
     
-    La escucha no responde con un estado esperado.   
+    El agente de escucha no responde con un estado esperado. 
     
-  - Si la conexión se realiza mediante proxy, compruebe la configuración de proxy.
+  - Si la conexión está en proxy, compruebe la configuración del proxy.
     
-  - Compruebe el registro de StatsMan del equipo del agente de escucha para ver si hay problemas con su configuración.
+  - Compruebe si hay problemas con su configuración en el registro statsMan del equipo de escucha.
     
-  - **4005**: no se pudo deserializar el XML
+  - **4005:** No se pudo deserializar el XML
     
-    La información del servidor en el servidor de escucha está dañada o puede que haya un conflicto de versiones entre el agente y los equipos de escucha. Asegúrese de que las versiones coincidan y compruebe si hay problemas en el registro de eventos de la escucha.
+    La información del servidor en el servidor de escucha está dañada o puede haber un error de coincidencia de versiones entre el agente y los equipos de escucha. Asegúrese de que las versiones coinciden y compruebe si hay problemas en el registro de eventos de escucha.
     
 ## <a name="listener-events"></a>Eventos de escucha
 <a name="BKMK_Listener"> </a>
 
-- **10000**: error de inicio con motivo desconocido (son irrecuperables y, como resultado, el servicio se detendrá/bloqueará)
+- **10000:** error de inicio Motivo desconocido (estos no se pueden recuperar y el servicio se detendrá o bloqueará como resultado)
     
-  - **10001**: problema de configuración
+  - **10001:** problema de configuración
     
-    En general, se produce cuando el archivo [listener_install_location]\PerfAgentListener.exe.config se ha modificado manualmente y la aplicación no puede leerlo.
+    Por lo general, esto ocurrirá cuando el archivo [listener_install_location]\PerfAgentListener.exe.config se haya modificado manualmente y la aplicación no pueda leerlo.
     
-  - **10002**: error de inicialización de la escucha HTTP
+  - **10002:** Error de inicialización de la escucha HTTP
     
-    Por lo general, este evento se registra cuando la ACL de dirección URL no se ha configurado correctamente durante la instalación o el certificado SSL no es válido. Asegúrese de que el certificado de su configuración sea válido. Si lo es, reinstale la escucha según las instrucciones de [Implementar el administrador de estadísticas](deploy.md#BKMK_Deploy).
+    Por lo general, este evento se registrará cuando la ACL de la dirección URL no se haya establecido correctamente durante la instalación o el certificado SSL no sea válido. Asegúrese de que el certificado de la configuración sea válido. Si es así, vuelva a instalar el agente de escucha de acuerdo con las instrucciones de [Implementar el Administrador de estadísticas.](deploy.md#BKMK_Deploy)
     
-  - **10003**: error de Redis
+  - **10003:** Error de Redis
     
-  - **10004**: error de almacenamiento en caché de la infraestructura
+  - **10004:** error de infraestructura de almacenamiento en caché
     
-  - **10007**: configuración (almacenada en redis)
+  - **10007:** Configuración (almacenada en redis)
     
-    La escucha no pudo establecer contacto con Redis o recuperar datos bien formados de la caché y no se pudo iniciar. Asegúrese de que el servicio Redis se haya iniciado y configurado correctamente en el servidor.
+    El agente de escucha no pudo ponerse en contacto con Redis ni recuperar datos bien formados de la memoria caché y no pudo iniciarse. Asegúrese de que el servicio Redis se ha iniciado y configurado correctamente en el servidor.
     
-  - **10005**: recuperación/análisis de la información del servidor
+  - **10005:** Recuperación y análisis de información del servidor
     
-    La información de topología en la caché de Redis no es válida. Primero, intente reiniciar Redis y la escucha. Si el error persiste, consulte [Importar la topología](deploy.md#BKMK_ImportTopology) para volver a crear los datos de la topología.
+    La información de topología de la memoria caché de Redis no es válida. En primer lugar, intente reiniciar Redis y la escucha. Si el error persiste, consulte [Importar la topología para](deploy.md#BKMK_ImportTopology) volver a crear los datos de la topología.
     
-- **10100**: interrupción del PING de Redis
+- **10100:** Interrupción del PING de Redis
     
-  - **10101**: interrupción continuada del PING de Redis (cada 60 segundos)
+  - **10101:** Interrupción continuada de PING de Redis (cada 60 segundos)
     
-  - **30100**: interrupción del PING de Redis restaurada
+  - **30100:** Interrupción del PING de Redis restaurada
     
-    Estos eventos se registran cuando la escucha no puede conectarse a Redis. Asegúrese de que Redis se haya iniciado y de que la conectividad de red entre la escucha y Redis esté disponible.
+    Se registrarán cuando el agente de escucha no pueda conectarse a Redis. Asegúrese de que Redis se ha iniciado y de que la conectividad de red entre la escucha y Redis está disponible.
     
-- **10200**: interrupción de la escritura de Redis
+- **10200:** Interrupción de escritura de Redis
     
-  - **10201**: interrupción continuada de la escritura de Redis (cada 60 segundos)
+  - **10201:** Interrupción continuada de redis write (cada 60 segundos)
     
-  - **30100**: interrupción de la escritura de Redis resuelta
+  - **30100:** interrupción de redis write resuelto
     
-    Estos eventos se registran cuando la escucha no puede escribir en la caché de Redis. Asegúrese de que Redis se haya iniciado y de que la conectividad entre la escucha y Redis esté disponible.
+    Se registrarán cuando el agente de escucha no pueda escribir en la memoria caché de Redis. Asegúrese de que Redis se ha iniciado y de que la conectividad de red entre el servicio de escucha y Redis está disponible.
     
-- **30000**: se ha iniciado correctamente
+- **30000:** iniciado correctamente
     
     Se registra cada vez que se inicia la escucha.
     
-- **22000** : se completó la inicialización del agente del administrador de estadísticas.
+- **22000:** la inicialización del agente del Administrador de estadísticas se ha logrado.
     
-- **23000**: EventLogQueryManager se ha inicializado correctamente (primera vez o después de un error)
+- **23000—** Inicialización de EventLogQueryManager correcta (primera vez o después de un error)
     
-- **24000**: la información del servidor se ha inicializado correctamente (primera vez o después de un error)
+- **24000—** Inicialización de serverinfo correcta (primera vez o después de un error)
     
-- **25000**: la escucha vuelve a estar en línea después de un error al publicar (o primera publicación realizada correctamente)
+- **25000—** La escucha vuelve a estar en línea después de no publicar (o la primera publicación correcta)
     
-- **5000**: inicio de la escucha sin conexión para publicar datos
+- **5000:** Inicio del agente de escucha sin conexión para publicar datos
     
-- **5001**: la escucha todavía está sin conexión durante un período de tiempo prolongado
+- **5001:** la escucha sigue sin conexión durante un período prolongado
     
-    Estos eventos pueden ser útiles para supervisar o comprender problemas o alertar de ellos.
+    Estos eventos pueden ser útiles para supervisar, alertas y borrar problemas.
     
-## <a name="website-issues"></a>Problemas de sitio web
+## <a name="website-issues"></a>Problemas del sitio web
 <a name="BKMK_Website"> </a>
 
-- Solicitudes de inicio de sesión repetitivas en Chrome: este es un error que se ha resuelto en la versión 1,1. Asegúrese de haber actualizado a la última versión de statistic Manager si está viendo solicitudes de inicio de sesión repetidas en el explorador Chrome. Para comprobar la versión del sitio web en el que se está ejecutando:
+- Mensajes de inicio de sesión repetitivos en Chrome: se trata de un error que se ha resuelto en la versión 1.1. Asegúrese de que ha actualizado a la versión más reciente del Administrador de estadísticas si ve varias solicitudes de inicio de sesión en el explorador Chrome. Para comprobar la versión del sitio web que está ejecutando:
     
-  - 	En el Explorador de archivos, abra (directorio predeterminado)
+  - En el Explorador de archivos, abierto (directorio predeterminado)
     
-  - Haga clic con el botón derecho en StatsManHubWebSite.dll y consulte sus propiedades.
+  - Haga clic con el botón StatsManHubWebSite.dll y vea sus propiedades.
     
-  - Si un equipo no se encuentra en la vista horizontal de KHI o en la vista Detalles de contador, asegúrese de que sea miembro de un sitio y un grupo. Si no lo es, no aparecerá en esas vistas. Para obtener información sobre cómo definir un sitio y un grupo para un servidor en la topología, vea [Importar la topología](deploy.md#BKMK_ImportTopology).
+  - Si no se encuentra un equipo en la vista horizontal de KHI o en la vista Detalles del contador, asegúrese de que es miembro de un sitio y un grupo de servidores. Si no es así, no aparecerá en esas vistas. Para obtener información acerca de cómo definir un sitio y un grupo de servidores para un servidor de la topología, consulte [Importar la topología.](deploy.md#BKMK_ImportTopology)
     
-  - La versión del producto se mostrará en los detalles de Descripción.
+  - La versión del producto se mostrará en los detalles de descripción.
     
 ## <a name="for-more-information"></a>Más información
 <a name="BKMK_Website"> </a>
 
-Para obtener más información, vea los artículos siguientes:
+Para obtener más información, vea los artículos siguientes: 
   
 - [Planear el administrador de estadísticas para Skype Empresarial Server](plan.md)
     

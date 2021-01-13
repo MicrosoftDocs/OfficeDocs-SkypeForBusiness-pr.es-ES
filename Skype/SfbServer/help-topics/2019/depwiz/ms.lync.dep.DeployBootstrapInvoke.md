@@ -1,8 +1,8 @@
 ---
 title: Instalar o quitar componentes de Skype Empresarial Server (invocar)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El comando ejecutar muestra un resumen de las tareas que se ejecutan para implementar el rol de servidor. Una vez completadas las tareas, implementar y activar, o desactivar y desinstalar: se muestra un resumen. Además, en la lista desplegable, puede seleccionar cualquiera de los archivos de registro que se crean cuando se ejecutan los comandos. Use la lista desplegable para seleccionar el archivo de registro que desea ver y haga clic en Ver registro.'
-ms.openlocfilehash: 6c8e19b353c7aeceddfdc780a8e92cb001afb82a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Ejecutar comandos muestra un resumen de ejecución de las tareas que se llevan a cabo para implementar el rol de servidor. Una vez completadas las tareas, se muestra un resumen de implementación y activación o desactivación y desinstalación. Además, en la lista desplegable puede seleccionar cualquiera de los archivos de registro que se hayan creado durante la ejecución de comandos. En la lista desplegable, seleccione el archivo de registro que desee ver y haga clic en Ver registro.
+ms.openlocfilehash: 0e6638e9eaf8fc9d6f17bb204a5e97d386d8956e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796921"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820520"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Instalar o quitar componentes de Skype Empresarial Server (invocar)
  
-El **comando ejecutar** muestra un resumen de las tareas que se ejecutan para implementar el rol de servidor. Una vez completadas las tareas, implementar y activar, o desactivar y desinstalar: se muestra un resumen. Además, en la lista desplegable, puede seleccionar cualquiera de los archivos de registro que se crean cuando se ejecutan los comandos. Use la lista desplegable para seleccionar el archivo de registro que desea ver y haga clic en **Ver registro**.
+**Ejecutar comandos** muestra un resumen de ejecución de las tareas que se llevan a cabo para implementar el rol de servidor. Una vez completadas las tareas, se muestra un resumen de implementación y activación o desactivación y desinstalación. Además, en la lista desplegable puede seleccionar cualquiera de los archivos de registro que se hayan creado durante la ejecución de comandos. En la lista desplegable, seleccione el archivo de registro que desee ver y haga clic en **Ver registro**.
   
-Cuando termine de revisar los archivos de registro y de Resumen, haga clic en **Finalizar**.
+Una vez examinados el resumen y el archivo de registro pertinentes, haga clic en **Finalizar**.
   
 

@@ -1,8 +1,8 @@
 ---
 title: Formación de administradores para Microsoft Teams
 ms.reviewer: ''
-description: Obtenga la formación de administrador y el soporte técnico que necesita para administrar Microsoft Teams en su organización.
-author: lanachin
+description: Obtenga la formación y el soporte técnico del administrador que necesita para administrar Microsoft Teams en su organización.
+author: cichur
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-lanac
-ms.openlocfilehash: 8fac3f019a4fb5379e11c6afd09c51363f598ad7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.author: v-cichur
+ms.openlocfilehash: 5e4c866935fe9ddb15f598ba6540fe8ed266f447
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535183"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822720"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
-Obtenga información sobre cómo administrar equipos de su organización.
+Obtenga información sobre cómo administrar Teams para su organización.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ Obtenga información sobre cómo administrar equipos de su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NUEVO: curso presencial para equipos</h3>
+                        <h3>NUEVO: Aprendizaje dirigido por un instructor para Teams</h3>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@ Obtenga información sobre cómo administrar equipos de su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Manufactura</h3>
+                        <h3>Artículos</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configuración del sistema telefónico en su organización</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integración de terceros con Audioconferencia</a></p>

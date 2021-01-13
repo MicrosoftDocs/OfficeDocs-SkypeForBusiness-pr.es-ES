@@ -1,8 +1,8 @@
 ---
-title: Crear directivas de red entre sitios en Skype empresarial Server
+title: Crear directivas entre sitios de red en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Cree directivas de red entre sitios, que usan el control de admisión de llamadas de telefonía de empresa en Skype empresarial Server.
-ms.openlocfilehash: f24d0ad289d9388c45a5dbd9a31aa60e8c41e357
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Cree directivas entre sitios de red, que se usan en Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server.
+ms.openlocfilehash: 69609da75fdfa87309743920eace59892a440f2b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767923"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822480"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Crear directivas de red entre sitios en Skype empresarial Server
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Crear directivas entre sitios de red en Skype Empresarial Server
  
-Cree directivas de red entre sitios, que usan el control de admisión de llamadas de telefonía de empresa en Skype empresarial Server. 
+Cree directivas entre sitios de red, que se usan en Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server. 
   
-Una directiva entre sitios de red define las limitaciones de ancho de banda entre sitios que tienen vínculos WAN entre ellos.
+Una directiva entre sitios de red define las limitaciones de ancho de banda entre sitios que tienen vínculos WAN directos entre ellos.
   
 > [!IMPORTANT]
-> Una directiva de red entre sitios *solo* es necesaria si hay un vínculo cruzado directo entre dos sitios de red.
+> Solo se requiere una  directiva entre sitios de red si hay un vínculo cruzado directo entre dos sitios de red.
   
 En la topología de ejemplo de la región de Norteamérica, hay un vínculo directo entre los sitios de Reno y Albuquerque. Estos dos sitios requieren una directiva entre sitios que aplique un perfil de directiva de ancho de banda adecuado. En el siguiente ejemplo se aplica el perfil 20Mb_Link.
   
 ### <a name="to-create-a-network-inter-site-policy"></a>Para crear una directiva entre sitios de red
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
-2. Ejecute el cmdlet New-CsNetworkInterSitePolicy para crear directivas entre sitios de red y aplicar un perfil de directiva de ancho de banda adecuado para dos sitios que tienen un vínculo cruzado directo. Por ejemplo, ejecute lo siguiente:
+2. Ejecute el cmdlet New-CsNetworkInterSitePolicy para crear directivas entre sitios de red y aplicar un perfil de directiva de ancho de banda adecuado para dos sitios que tienen un vínculo cruzado directo. Por ejemplo, ejecute:
     
    ```powershell
    New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
@@ -46,7 +46,7 @@ En la topología de ejemplo de la región de Norteamérica, hay un vínculo dire
 
 3. Repita el paso 2 según sea necesario para crear directivas entre sitios de red para todos los pares de sitios de red que tengan un vínculo cruzado directo.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   

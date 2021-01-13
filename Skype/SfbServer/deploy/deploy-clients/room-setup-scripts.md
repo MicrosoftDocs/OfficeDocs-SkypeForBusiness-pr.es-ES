@@ -1,7 +1,7 @@
 ---
-title: Scripts de configuración de salas del Sistema de salas de Skype
-ms.author: v-lanac
-author: lanachin
+title: Scripts de configuración de sala del Sistema de sala de Skype
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Lea este tema para encontrar scripts de ejemplo para el aprovisionamiento de las cuentas de Sistema de salas de Skype.
-ms.openlocfilehash: a24de087eeeb20c8093101c23ffd20dec19f25e3
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del Sistema de sala de Skype.
+ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768713"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820830"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuración de salas del Sistema de salas de Skype
+# <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuración de sala del Sistema de sala de Skype
  
-Lea este tema para encontrar scripts de ejemplo para el aprovisionamiento de las cuentas de Sistema de salas de Skype.
+Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del Sistema de sala de Skype.
   
-En esta sección se muestran ejemplos de secuencias de comandos que se pueden usar para aprovisionar cuentas del sistema de salas de Skype. Estos scripts se muestran únicamente para fines ilustrativos y solo deben usarse previa consulta con el experto o administrador de dominio.
+En esta sección se muestran scripts de ejemplo que se pueden usar para aprovisionar cuentas del Sistema de sala de Skype. Estos scripts son solo para fines ilustrativos y solo deben usarse después de consultar con su experto en TI o administrador de dominio.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Script de configuración de ejemplo: Skype empresarial y Exchange Server (local)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Script de instalación de ejemplo: Skype Empresarial y Exchange Server (local)
 
 ```powershell
 # On Exchange 
@@ -39,17 +39,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Script de configuración de ejemplo: Skype empresarial y Exchange Server online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Script de instalación de ejemplo: Skype Empresarial y Exchange Server Online
 
 Asegúrese de haber revisado los siguientes requisitos previos antes de ejecutar el script:
   
-- Microsoft Online Services - Asistente para el inicio de sesión para profesionales de TI BETA
+- Microsoft Online Services Sign-In asistente para profesionales de TI BETA
     
-- Módulo Microsoft Azure Active Directory para Windows PowerShell (versión de 64 bits) o (versión de 32 bits)
+- Windows Azure módulo de Active Directory para Windows PowerShell (versión de 64 bits) o (versión de 32 bits)
     
-- Módulo de Windows PowerShell para Lync Online
+- Windows PowerShell módulo para Lync Online
     
-- Reinicie si es necesario
+- Reiniciar si es necesario
     
 ```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment

@@ -1,8 +1,8 @@
 ---
-title: Movilidad (herramienta de planeación)
+title: Mobility (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
-description: La característica de movilidad de Skype empresarial Server admite la funcionalidad de Skype empresarial en dispositivos móviles.
-ms.openlocfilehash: a35d3b7b8f1dd0f595c78e33ae6752e0b6940c15
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: La característica de movilidad de Skype Empresarial Server admite la funcionalidad de Skype Empresarial en dispositivos móviles.
+ms.openlocfilehash: dd28a768137f4f035c657f582c6ead5b3288a9a5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036560"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819710"
 ---
-# <a name="mobility-planning-tool"></a>Movilidad (herramienta de planeación)
+# <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
  
-La característica de movilidad de Skype empresarial Server admite la funcionalidad de Skype empresarial en dispositivos móviles.
+La característica de movilidad de Skype Empresarial Server admite la funcionalidad de Skype Empresarial en dispositivos móviles.
   
-La funcionalidad de movilidad es la misma en Skype empresarial Server que en Lync Server 2013. Para obtener más información acerca de la preparación del entorno para la movilidad, consulte [Planning for Mobility in Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx).
+La funcionalidad de movilidad es la misma en Skype Empresarial Server que en Lync Server 2013. Para obtener más información acerca de la preparación del entorno para la movilidad, consulte Planeación de la [movilidad en Lync Server 2013.](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)
   
 

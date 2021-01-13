@@ -1,8 +1,8 @@
 ---
 title: Agregar asociaciones de servidor perimetral
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use esta página para seleccionar qué grupos de aplicaciones para usuario y servidores Standard Edition usarán este grupo perimetral para tráfico de A/V.
-ms.openlocfilehash: 5a67829de4cc56cf8512513e040b5427b676ca8a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Use esta página para seleccionar los grupos de servidores front-end y servidores Standard Edition que usarán este grupo de servidores perimetrales para tráfico de audio y vídeo.
+ms.openlocfilehash: 6e2274b706df06bb82ff1d96ccf30a000725003d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794078"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819500"
 ---
 # <a name="add-edge-server-associations"></a>Agregar asociaciones de servidor perimetral
  
-Use esta página para seleccionar qué grupos de aplicaciones para usuario y servidores Standard Edition usarán este grupo perimetral para tráfico de A/V. 
+Use esta página para seleccionar los grupos de servidores front-end y servidores Standard Edition que usarán este grupo de servidores perimetrales para tráfico de audio y vídeo. 
   
-Cada grupo de servidores front-end se puede asociar a un único grupo perimetral. Si selecciona un grupo que ya está asociado a otro grupo perimetral, este se cambiará de la Asociación del grupo de servidores perimetrales anterior.
+Cada grupo de servidores front-end puede asociarse solamente a un grupo de servidores perimetrales. Si selecciona un grupo de servidores ya asociado con otro grupo de servidores perimetrales, se cambiará la asociación establecida con el grupo de servidores perimetrales anterior.
   
-También puede asociar este servidor perimetral o grupo perimetral con servidores de mediación o grupos de servidores de mediación para configurar y habilitar la telefonía IP empresarial para usuarios externos.
+También puede asociar este servidor perimetral o grupo de servidores perimetrales con servidores de mediación o grupos de servidores de mediación para configurar y habilitar Telefonía IP empresarial usuarios externos.
   
 

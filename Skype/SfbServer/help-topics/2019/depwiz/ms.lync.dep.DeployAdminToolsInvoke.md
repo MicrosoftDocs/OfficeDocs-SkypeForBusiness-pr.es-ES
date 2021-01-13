@@ -1,8 +1,8 @@
 ---
-title: Asistente de implementación con las herramientas de administración
+title: Asistente para la implementación con las herramientas de administración
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para obtener información sobre cómo usar el Asistente para la implementación para instalar Skype empresarial Server, consulte instalar Skype empresarial Server.
-ms.openlocfilehash: d10e5898744e08d70e532fc17924c17830b7bd3a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, consulte Instalar Skype Empresarial Server.
+ms.openlocfilehash: 406a28868ceb7eb38b68dd282d94b27df9014c1b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796951"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820560"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>Asistente para la implementación: Uso de las herramientas administrativas
  
-Para obtener información sobre cómo usar el Asistente para la implementación para instalar Skype empresarial Server, consulte [instalar Skype empresarial Server](../../../deploy/install/install.md).
+Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, consulte [Instalar Skype Empresarial Server.](../../../deploy/install/install.md)
   
 

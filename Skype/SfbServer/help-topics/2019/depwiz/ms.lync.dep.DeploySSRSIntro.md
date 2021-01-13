@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (introducción)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
-description: Cada grupo de servidores front-end y la aplicación de rama superviviente puede tener un solo servidor de supervisión asociado. Cuando la supervisión está habilitada para el sitio, el servidor de supervisión proporciona record detallas de llamadas (CDR) y informes y recopilación de datos de la calidad de la experiencia (QoE).
-ms.openlocfilehash: 7937f01fb4d655695cbc69c278e7f41bed73ada4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo pueden tener asociado un servidor de supervisión. Si se ha habilitado la supervisión en el sitio, el servidor de supervisión proporciona datos e informes del registro de detalles de las llamadas (CDR) y de calidad de la experiencia (QoE).
+ms.openlocfilehash: e00399f77ae5cd8a755e6c1205c110a2b5542bcf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794689"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820400"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (introducción)
  
-Cada grupo de servidores front-end y la aplicación de rama superviviente puede tener un solo servidor de supervisión asociado. Cuando la supervisión está habilitada para el sitio, el servidor de supervisión proporciona record detallas de llamadas (CDR) y informes y recopilación de datos de la calidad de la experiencia (QoE).
+Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo pueden tener asociado un servidor de supervisión. Si se ha habilitado la supervisión en el sitio, el servidor de supervisión proporciona datos e informes del registro de detalles de las llamadas (CDR) y de calidad de la experiencia (QoE).
   
-Todas las agrupaciones en un sitio y los grupos de varios sitios centrales pueden usar el mismo servidor de supervisión, si el uso no supera la capacidad del servidor de supervisión. Para obtener detalles sobre cómo diseñar una topología para que admita la supervisión, consulte [asociar una tienda de supervisión con un grupo de servidores front-end en Skype empresarial Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md) en la documentación de implementación.
+Todos los grupos de servidores de un sitio y los grupos de servidores de varios sitios centrales pueden usar el mismo servidor de supervisión, siempre que el uso no sobrepase la capacidad del servidor de supervisión. Para obtener más información sobre cómo diseñar una topología para admitir la supervisión, consulte Asociar un almacén de supervisión con un grupo de servidores [front-end](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md) en Skype Empresarial Server en la documentación sobre implementación.
   
 

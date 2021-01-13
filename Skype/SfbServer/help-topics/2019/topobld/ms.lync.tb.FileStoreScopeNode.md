@@ -1,8 +1,8 @@
 ---
-title: Nodo de ámbito del almacén de archivos
+title: Nodo de ámbito del almacén de archivo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nodo muestra el nombre de dominio completo (FQDN) y los grupos de servidores dependientes de este almacén de archivos. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 4b4631786d7639da6077b25eb98b2db70e7b2967
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Este nodo muestra el nombre de dominio completo (FQDN) y los grupos dependientes de este almacén de archivos. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 2ddd0a9a3ba3ec5dcacd8f3fbd13a46a3e74479f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793688"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819440"
 ---
-# <a name="file-store-scope-node"></a>Nodo de ámbito del almacén de archivos
+# <a name="file-store-scope-node"></a>Nodo de ámbito del almacén de archivo
  
-Este nodo muestra el nombre de dominio completo (FQDN) y los grupos de servidores dependientes de este almacén de archivos. Puede efectuar las acciones siguientes:
+Este nodo muestra el nombre de dominio completo (FQDN) y los grupos dependientes de este almacén de archivos. Puede efectuar las acciones siguientes:
   
-- **Editar propiedades**. Abre la página **Editar propiedades** de este servidor, donde puede cambiar el nombre de dominio completo y el nombre del almacén de archivos.
+- **Editar propiedades**. Abre la página **Editar propiedades** para este servidor; en ella, puede cambiar el nombre de dominio completo y el nombre del almacén de archivos.
     
 - **Eliminar**. Elimina el almacén de archivos de la topología.
     
-Además de estas opciones, puede realizar las tareas generales siguientes:
+Además de estas opciones, puede efectuar las tareas generales siguientes:
   
-- **Topología**. Esta opción permite definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes o quitar la implementación.
     
-- **Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.
+- **Ver**. Use esta opción para personalizar la vista del Generador de topologías seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     
-- **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
+- **Ayuda**. Use esta opción para obtener acceso a la Ayuda del nodo activo.
     
 

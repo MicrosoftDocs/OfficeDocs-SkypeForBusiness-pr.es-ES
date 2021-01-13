@@ -1,8 +1,8 @@
 ---
 title: Seleccionar de Active Directory
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use el cuadro de diálogo Seleccionar de Active Directory para buscar los usuarios que desea habilitar para Skype empresarial Server. Escriba en el cuadro de búsqueda la dirección SIP o nombre para mostrar del usuario que quiera localizar. Para recuperar todos los usuarios disponibles, deje vacío el cuadro de búsqueda.
-ms.openlocfilehash: 88579873eb78eb7c54db0494ec88b6d98ae498bf
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Use el cuadro de diálogo Seleccionar de Active Directory para buscar usuarios que desee habilitar para Skype Empresarial Server. En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del usuario que desee localizar. Para recuperar todos los usuarios disponibles, deje vacío el cuadro de búsqueda.
+ms.openlocfilehash: 835ebe1b2a5a3097c314bd8e24dabf1a1a40e62c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794939"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820140"
 ---
 # <a name="select-from-active-directory"></a>Seleccionar de Active Directory
  
-Use el cuadro **de diálogo Seleccionar de Active** Directory para buscar los usuarios que desea habilitar para Skype empresarial Server. Escriba en el cuadro de búsqueda la dirección SIP o nombre para mostrar del usuario que quiera localizar. Para recuperar todos los usuarios disponibles, deje vacío el cuadro de búsqueda.
+Use el cuadro de diálogo Seleccionar **de Active Directory** para buscar usuarios que desee habilitar para Skype Empresarial Server. En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del usuario que desee localizar. Para recuperar todos los usuarios disponibles, deje vacío el cuadro de búsqueda.
   
  
   

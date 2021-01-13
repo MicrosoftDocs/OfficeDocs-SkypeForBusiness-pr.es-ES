@@ -1,7 +1,7 @@
 ---
 title: Crear los primeros equipos y canales
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 63b612431e716bdba5d27e43e2756a56ec30e9dc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 33efab40cb8c2579712a06ad6c2d7dcbf58fbdde
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031586"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809550"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Crear sus primeros equipos y canales en Microsoft Teams
 

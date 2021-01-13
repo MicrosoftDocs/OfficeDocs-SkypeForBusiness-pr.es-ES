@@ -1,8 +1,8 @@
 ---
 title: Tabla VideoClientEvent
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
-description: 'Cada registro contiene un evento de cliente para un punto final en una videollamada. Generalmente, una llamada tiene dos registros: uno para el autor de la llamada y otro para el destinatario.'
-ms.openlocfilehash: 9acd7277fd6bc32074487be1db9874ef6a5c91aa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cada registro contiene el evento de cliente para un extremo en una videollamada. Normalmente, una llamada tiene dos registros, uno para el autor de la llamada y otro para el destinatario de la llamada.
+ms.openlocfilehash: bb4a9feca562bed7bdb0080e7f9181003952f5d4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804998"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821400"
 ---
 # <a name="videoclientevent-table"></a>Tabla VideoClientEvent
  
-Cada registro contiene un evento de cliente para un punto final en una videollamada. Generalmente, una llamada tiene dos registros: uno para el autor de la llamada y otro para el destinatario.
+Cada registro contiene el evento de cliente para un extremo en una videollamada. Normalmente, una llamada tiene dos registros, uno para el autor de la llamada y otro para el destinatario de la llamada.
   
-|**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
+|**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0: datos del destinatario de la llamada  <br/> 1: datos del autor de la llamada  <br/> |
-|**NetworkBandwidthLowEventRatio** <br/> || <br/> |Porcentaje de sesión el evento LowBandwidth se activó por el estado "incorrecto". El ancho de banda disponible es insuficiente para una experiencia de voz aceptable.  <br/> |
-|**NetworkReceiveQualityEventRatio** <br/> || <br/> |Porcentaje de sesión el evento ReceiveSendQuality se activó por el estado "incorrecto".  <br/> La calidad de la red en términos de vibración o pérdida de paquetes es grave y afecta la calidad de audio que se recibe.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Principal  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |entero  <br/> |Principal  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|**FromCaller** <br/> |bit  <br/> |Principal  <br/> |0: datos del destinatario de la llamada  <br/> 1: Datos del autor de la llamada  <br/> |
+|**NetworkBandwidthLowEventRatio** <br/> || <br/> |Porcentaje de sesión en la que se deseó el evento LowBandwidth para el estado "Bad". El ancho de banda disponible no es suficiente para una experiencia de voz aceptable.  <br/> |
+|**NetworkReceiveQualityEventRatio** <br/> || <br/> |Porcentaje de sesión en la que se deseó el evento ReceiveSendQuality para el estado "Bad".  <br/> La calidad de la red en términos de vibración o pérdida de paquetes es grave y afecta a la calidad del audio que se recibe.  <br/> |
    
 
