@@ -1,8 +1,8 @@
 ---
-title: Cliente móvil crear o editar la configuración de notificaciones push
+title: Configuración de creación o edición de notificaciones de inserción del cliente móvil
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,34 +14,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
-description: Las notificaciones de inserción y el centro de enrutamiento de notificaciones de inserción (PNCH) son dos partes esenciales de la característica de movilidad. La notificación de inserción es el proceso por el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que el tiempo de espera se agota.
-ms.openlocfilehash: 803bc61d12263e98efe5e74764f9f60f392af95f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: La notificación de inserción y el Centro de intercambio de notificaciones de inserción (PNCH) son dos partes clave de la característica de movilidad. La notificación de inserción es el proceso mediante el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que caduca el periodo de espera.
+ms.openlocfilehash: 3c72c5b123a906d74cfeb0a1fef5c1e765fe030c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796489"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808750"
 ---
-# <a name="mobile-client-create-or-edit-push-notification-configuration"></a><span data-ttu-id="16df0-105">Cliente móvil: Crear o editar configuración de notificaciones de inserción</span><span class="sxs-lookup"><span data-stu-id="16df0-105">Mobile Client: Create or Edit Push Notification Configuration</span></span>
+# <a name="mobile-client-create-or-edit-push-notification-configuration"></a><span data-ttu-id="a297f-105">Cliente móvil: Crear o editar configuración de notificaciones de inserción</span><span class="sxs-lookup"><span data-stu-id="a297f-105">Mobile Client: Create or Edit Push Notification Configuration</span></span>
  
-<span data-ttu-id="16df0-p102">Las notificaciones de inserción y el centro de enrutamiento de notificaciones de inserción (PNCH) son dos partes esenciales de la característica de movilidad. La notificación de inserción es el proceso por el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que el tiempo de espera se agota.</span><span class="sxs-lookup"><span data-stu-id="16df0-p102">Push Notification and the Push Notification Clearing House (PNCH) are two key parts of the mobility feature. Push notification is the process where a message is sent to the PNCH. The message is held here until it can be delivered to the mobile client, or the timeout period expires.</span></span> 
+<span data-ttu-id="a297f-106">La notificación de inserción y el Centro de intercambio de notificaciones de inserción (PNCH) son dos partes clave de la característica de movilidad.</span><span class="sxs-lookup"><span data-stu-id="a297f-106">Push Notification and the Push Notification Clearing House (PNCH) are two key parts of the mobility feature.</span></span> <span data-ttu-id="a297f-107">La notificación de inserción es el proceso mediante el cual un mensaje se envía al PNCH.</span><span class="sxs-lookup"><span data-stu-id="a297f-107">Push notification is the process where a message is sent to the PNCH.</span></span> <span data-ttu-id="a297f-108">El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que caduca el periodo de espera.</span><span class="sxs-lookup"><span data-stu-id="a297f-108">The message is held here until it can be delivered to the mobile client, or the timeout period expires.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="16df0-109">El período de tiempo se define en el centro de enrutamiento de notificaciones de inserción y ni el usuario ni el administrador de la implementación pueden configurarlo.</span><span class="sxs-lookup"><span data-stu-id="16df0-109">The time period is set at the Push Notification Clearing House and is not configurable by the user or the administrator of your deployment.</span></span> 
+> <span data-ttu-id="a297f-109">El periodo de tiempo se define en el centro de enrutamiento de notificaciones de inserción y ni el usuario ni el administrador de su implementación pueden configurarlo.</span><span class="sxs-lookup"><span data-stu-id="a297f-109">The time period is set at the Push Notification Clearing House and is not configurable by the user or the administrator of your deployment.</span></span> 
   
-<span data-ttu-id="16df0-110">Haga lo siguiente para habilitar las notificaciones de inserción:</span><span class="sxs-lookup"><span data-stu-id="16df0-110">To enable Push Notification, you do the following:</span></span>
+<span data-ttu-id="a297f-110">Para habilitar las notificaciones de inserción, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a297f-110">To enable Push Notification, you do the following:</span></span>
   
-1. <span data-ttu-id="16df0-p103">**Ámbito:** tenga en cuenta el ámbito de esta directiva. Puede ser **Global** (se aplica a todos los usuarios de la implementación) o **Sitio** (solo para usuarios asignados a servidores hospedados en el sitio especificado).</span><span class="sxs-lookup"><span data-stu-id="16df0-p103">**Scope:** Note the scope for this policy. It can either be **Global**, which applies to all users in this deployment, or **Site**, which is only users assigned to home servers in the specified site.</span></span>
+1. <span data-ttu-id="a297f-111">**Ámbito:** Tenga en cuenta el ámbito de esta directiva.</span><span class="sxs-lookup"><span data-stu-id="a297f-111">**Scope:** Note the scope for this policy.</span></span> <span data-ttu-id="a297f-112">Puede ser **Global**, que se aplica a todos los usuarios de esta implementación, o **Sitio**, que solo son usuarios asignados a servidores locales en el sitio especificado.</span><span class="sxs-lookup"><span data-stu-id="a297f-112">It can either be **Global**, which applies to all users in this deployment, or **Site**, which is only users assigned to home servers in the specified site.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="16df0-p104">La configuración de directiva que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La precedencia de directiva es esta: la directiva de usuario (de mayor influencia) invalida una directiva de sitio, y una directiva de sitio invalida una directiva global (de menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto.</span><span class="sxs-lookup"><span data-stu-id="16df0-p104">Policy settings that are applied at one policy level can override settings that are applied at another policy level. Policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.</span></span> 
+    > <span data-ttu-id="a297f-113">Las opciones de configuración de directiva que se aplican en un nivel de directiva pueden sobrescribir la configuración que se aplica en otro nivel de directiva.</span><span class="sxs-lookup"><span data-stu-id="a297f-113">Policy settings that are applied at one policy level can override settings that are applied at another policy level.</span></span> <span data-ttu-id="a297f-114">La prioridad de la directiva es: la directiva de usuario (más influencia) invalida una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia).</span><span class="sxs-lookup"><span data-stu-id="a297f-114">Policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence).</span></span> <span data-ttu-id="a297f-115">Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto.</span><span class="sxs-lookup"><span data-stu-id="a297f-115">This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.</span></span> 
   
-2. <span data-ttu-id="16df0-116">Seleccione qué servicios de notificación de inserción desea habilitar activando la casilla correspondiente:</span><span class="sxs-lookup"><span data-stu-id="16df0-116">Select which push notification services you want to enable by clicking the check box for:</span></span>
+2. <span data-ttu-id="a297f-116">Seleccione qué servicios de notificación de inserción desea habilitar activando la casilla de:</span><span class="sxs-lookup"><span data-stu-id="a297f-116">Select which push notification services you want to enable by clicking the check box for:</span></span>
     
-   - <span data-ttu-id="16df0-117">**Habilitar la notificación de inserción de Microsoft** habilitará la notificación de inserción en el PNCH basado en la nube para Windows Phone con la aplicación Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="16df0-117">**Enable Microsoft push notification** will enable the push notification to the cloud-based PNCH for Windows Phone with the Skype for Business app</span></span>
+   - <span data-ttu-id="a297f-117">**Habilitar la notificación de inserción de Microsoft** habilitará la notificación de inserción en el PNCH basado en la nube para Windows Phone con la aplicación skype empresarial</span><span class="sxs-lookup"><span data-stu-id="a297f-117">**Enable Microsoft push notification** will enable the push notification to the cloud-based PNCH for Windows Phone with the Skype for Business app</span></span>
     
-   - <span data-ttu-id="16df0-118">**Habilitar la notificación push de Apple** habilitará la notificación push en el Apple PNCH para dispositivos que ejecuten iOS de Apple (por ejemplo, iPhone, iPad) y la aplicación Skype empresarial.</span><span class="sxs-lookup"><span data-stu-id="16df0-118">**Enable Apple push notification** will enable the push notification to the Apple PNCH for devices running Apple's iOS (for example, iPhone, iPad) and using the Skype for Business app</span></span>
+   - <span data-ttu-id="a297f-118">**Habilitar la** notificación de inserción de Apple habilitará la notificación de inserción al PNCH de Apple para dispositivos que ejecutan iOS de Apple (por ejemplo, iPhone, iPad) y usan la aplicación skype empresarial</span><span class="sxs-lookup"><span data-stu-id="a297f-118">**Enable Apple push notification** will enable the push notification to the Apple PNCH for devices running Apple's iOS (for example, iPhone, iPad) and using the Skype for Business app</span></span>
     
-3. <span data-ttu-id="16df0-p105">Una vez editada la directiva, haga clic en **Confirmar** para guardar los cambios. Si prefiere eliminar los cambios realizados, seleccione **Cancelar**. No se guardará ningún cambio en la directiva.</span><span class="sxs-lookup"><span data-stu-id="16df0-p105">When you have completed the edits of the policy, click **Commit** to save your changes. If you need to delete the changes you have made, select **Cancel**. No changes will be saved to the policy.</span></span>
+3. <span data-ttu-id="a297f-p105">Una vez editada la directiva, haga clic en **Confirmar** para guardar los cambios. Si necesita eliminar los cambios realizados, seleccione **Cancelar**. No se guardará ningún cambio en la directiva.</span><span class="sxs-lookup"><span data-stu-id="a297f-p105">When you have completed the edits of the policy, click **Commit** to save your changes. If you need to delete the changes you have made, select **Cancel**. No changes will be saved to the policy.</span></span>
     
 
