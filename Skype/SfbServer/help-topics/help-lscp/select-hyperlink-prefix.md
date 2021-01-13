@@ -1,8 +1,8 @@
 ---
 title: Seleccionar prefijo de hipervínculo
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
-description: Use el cuadro de diálogo Seleccionar prefijo de hipervínculo para seleccionar los tipos de hipervínculos que desea bloquear, enviar un mensaje de advertencia o permitir seleccionando (para bloquear o enviar un mensaje de advertencia) o desactivando (para permitir) las casillas de sus extensiones de las categorías de Prefijos de hipervínculo. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculos de esa categoría. Si desea seleccionar todos los prefijos de hipervínculo de una categoría, seleccione el nombre de la categoría.
-ms.openlocfilehash: 87ee86a94d91b16e8f103efc0ca469fb39c4edb6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Use el cuadro de diálogo Seleccionar prefijo de hipervínculo para seleccionar los tipos de hipervínculos que desee bloquear, enviar un mensaje de advertencia, o permitir seleccionando (bloquear o enviar un mensaje de advertencia) o desactivando (permitir) las casillas desde las categorías dentro de Prefijos de hipervínculo. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculo para esa categoría. Si desea seleccionar todos los prefijos de hipervínculo para una categoría, seleccione el nombre de la categoría.
+ms.openlocfilehash: 69f0a9aba703b4e41b7ba99482a4f42814a18e1a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822193"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810810"
 ---
 # <a name="select-hyperlink-prefix"></a>Seleccionar prefijo de hipervínculo
  
-Use el cuadro de diálogo **seleccionar prefijo de hipervínculo** para seleccionar los tipos de hipervínculos que desea bloquear, enviar un mensaje de advertencia o permitir seleccionando (para bloquear o enviar un mensaje de advertencia) o desactivando (para permitir) las casillas de sus extensiones de las categorías en **prefijos de hipervínculo**. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculos de esa categoría. Si desea seleccionar todos los prefijos de hipervínculo de una categoría, seleccione el nombre de la categoría. 
+Use el cuadro de diálogo **Seleccionar prefijo de hipervínculo** para seleccionar los tipos de hipervínculos que desee bloquear, enviar un mensaje de advertencia, o permitir seleccionando (bloquear o enviar un mensaje de advertencia) o desactivando (permitir) las casillas desde las categorías dentro de **Prefijos de hipervínculo**. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculo para esa categoría. Si desea seleccionar todos los prefijos de hipervínculo para una categoría, seleccione el nombre de la categoría. 
   
-Si no ve un prefijo de hipervínculo que desea seleccionar en la lista en **prefijos de hipervínculo**, escriba la extensión en el cuadro de texto en **agregar nuevos prefijos de hipervínculos a la lista**y, a continuación, haga clic en **Agregar**. 
+Si no ve un prefijo de hipervínculo que desea seleccionar en la lista de **Prefijos de hipervínculo**, escriba la extensión en el cuadro de texto en **Agregar prefijos de hipervínculo nuevos a la lista** y, a continuación, haga clic en **Agregar**. 
   
-Una vez que haya agregado todos los prefijos de hipervínculo que desee a la lista de **prefijos de hipervínculo seleccionados** , haga clic en **Aceptar**.
+Después de agregar todos los prefijos de hipervínculo que desee a la lista **Prefijos de hipervínculo seleccionados**, haga clic en **Aceptar**.
   
-Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).
+Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)
   
 

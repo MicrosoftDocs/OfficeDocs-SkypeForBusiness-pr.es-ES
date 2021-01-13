@@ -1,8 +1,8 @@
 ---
 title: Regla de versiones de cliente
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,37 +14,37 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
-description: Una directiva de versión de cliente está compuesta de un conjunto de reglas de versión de cliente. Estas reglas definen las acciones que se necesitan realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos.
-ms.openlocfilehash: a4d8cb38f30e8c332a9cec0ea90e27c012187d47
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Una directiva de versión de cliente está compuesta de un conjunto de reglas de versión de cliente. Estas reglas definen las acciones que se deben realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos.
+ms.openlocfilehash: 26f37c77886ac9f9fe7fb8d8680fb0dad642a9cf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794599"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812380"
 ---
 # <a name="client-version-rule"></a>Regla de versiones de cliente
 
-Una directiva de versión de cliente está compuesta de un conjunto de reglas de versión de cliente. Estas reglas definen las acciones que se necesitan realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos.
+Una directiva de versión de cliente está compuesta de un conjunto de reglas de versión de cliente. Estas reglas definen las acciones que se deben realizar cuando los usuarios intentan iniciar sesión con clientes y versiones de clientes específicos.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-En las páginas **Nueva configuración de versión de cliente** o **Editar configuración de versión de cliente** puede realizar las siguientes tareas:
+Puede realizar las siguientes tareas en la página **Nueva configuración de versión de cliente** o **Editar configuración de versión de cliente**:
 
 - Agregar nuevas reglas a una directiva de versión de cliente.
 
 - Modificar las reglas que componen una directiva de versión de cliente existente.
 
-## <a name="ui-reference"></a>Referencia de interfaz de usuario
+## <a name="ui-reference"></a>Referencia de la interfaz de usuario
 
-En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
+Las siguientes listas describen los menús, comandos, campos y propiedades de la página.
 
-- **Agente de usuario** Puede seleccionar un tipo de cliente de la lista. En la siguiente tabla se recogen los códigos de agente de usuario. Esta lista incluye tipos de clientes heredados, algunos de los cuales ya no se admiten.
+- **Agente de usuario** Puede seleccionar un tipo de cliente de la lista. La siguiente tabla define los códigos de agente de usuario. Esta lista incluye tipos de cliente heredados, algunos de los cuales ya no son compatibles.
 
 |**Nombre de cliente**|**Agente de usuario**|
 |:-----|:-----|
 |Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
 |Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition, teléfono de Office Communicator  <br/> |OCPhone  <br/> |
+|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
 |Plataforma Communicator Phone Edition  <br/> |CPE  <br/> |
 |Plataforma de comunicaciones unificadas  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
@@ -59,17 +59,17 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 |Lync 2010 para Android  <br/> |AndroidLync  <br/> |
 |Servicio de movilidad  <br/> |McxService  <br/> |
 
-- **Número de versión** Puede especificar los números de versión de los siguientes campos, o usar caracteres comodín para indicar el número de versión del cliente.
+- **Número de versión** Puede especificar los números de versión de los siguientes campos o usar caracteres comodín para indicar el número de versión de cliente.
 
   - **Versión principal** Especifica el número que corresponde a la versión principal del cliente.
 
   - **Versión secundaria** Especifica el número que corresponde a la versión secundaria del cliente.
 
-  - **Crear** Especifica el número de compilación que corresponde a la versión principal y secundaria del cliente.
+  - **Compilación** Especifica el número de compilación que corresponde a la versión principal y secundaria del cliente.
 
   - **Actualizar** Especifica el número que corresponde a la versión actualizada del cliente.
 
-- **Operación de comparación** Puede especificar la operación correspondiente a la versión del cliente que especificó en los pasos anteriores. Las siguientes operaciones están disponibles:
+- **Operación de comparación** Puede especificar la operación de coincidencia para la versión de cliente que especificó en los pasos anteriores. Las siguientes operaciones están disponibles:
 
   - **Igual que**
 
@@ -87,18 +87,18 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 
   - **Permitir** Permite que el cliente inicie sesión.
 
-  - **Permitir y actualizar** Permite al cliente iniciar y recibir actualizaciones de Windows Server Update Services o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** como agente del usuario.
+  - **Permitir y actualizar** Permite al cliente iniciar sesión y recibir actualizaciones de Windows Server Update Service o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
 
     > [!NOTE]
-    > Si selecciona esta acción, una notificación aparecerá la próxima vez que los usuarios inicien sesión en Skype empresarial. La notificación comunica que hay una actualización disponible, aun cuando Windows Server Update Service o Microsoft Update todavía no la hayan publicado. Para evitar confusiones, recomendamos elegir esta acción solo cuando las actualizaciones estén disponibles.
+    > Si selecciona esta acción, aparecerá una notificación la próxima vez que los usuarios inicien sesión en Skype Empresarial. La notificación comunica que hay una actualización disponible, aunque las actualizaciones aún no se hayan publicado en Windows Server Update Service o en Microsoft Update. Para evitar confusiones, se recomienda elegir esta acción solo después de que haya actualizaciones disponibles.
 
-  - **Permitir con URL** Permite al cliente iniciar sesión y mostrar un mensaje sobre dónde Descargar otra versión del cliente. Puede especificar la dirección URL en el campo **Dirección URL**.
+  - **Permitir con dirección URL** Permite al cliente iniciar sesión y muestra un mensaje sobre dónde descargar otra versión de cliente. Puede especificar la dirección URL en el campo **Dirección URL**.
 
-  - **Bloquear** Impide que el cliente inicie sesión.
+  - **Bloquear** Impide que el cliente inicia sesión.
 
-  - **Bloquear y actualizar** Impide que el cliente inicie sesión y permite al cliente recibir actualizaciones de Windows Server Update Services o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** como agente del usuario.
+  - **Bloquear y actualizar** Impide que el cliente inicia sesión y permite que el cliente reciba actualizaciones de Windows Server Update Service o Microsoft Update. Esta acción solo está disponible cuando se selecciona **OC** del agente del usuario.
 
-  - **Bloquear con dirección URL** Impide al cliente iniciar sesión y muestra un mensaje que indica dónde descargar otra versión del cliente. Puede especificar la dirección URL en el campo **Dirección URL**.
+  - **Bloquear con dirección URL**   Impide al cliente iniciar sesión y muestra un mensaje sobre dónde descargar otra versión del cliente. Puede especificar la dirección URL en el campo **Dirección URL**.
 
-Para obtener más información sobre la interoperabilidad entre los clientes y las versiones de cliente, consulte [interoperabilidad de cliente](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planificación. Para más detalles sobre cómo trabajar con configuraciones de versiones de clientes, mire [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación de operaciones.
+Para obtener más información sobre la interoperabilidad entre clientes y versiones de cliente, consulte [Interoperabilidad de](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) clientes en la documentación sobre planeación. Para obtener detalles sobre cómo trabajar con configuraciones de versiones de clientes, vea [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación de operaciones.
 

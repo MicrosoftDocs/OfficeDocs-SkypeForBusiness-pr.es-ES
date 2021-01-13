@@ -1,8 +1,8 @@
 ---
-title: Implementar regiones, sitios y subredes de red en Skype empresarial
+title: Implementar regiones de red, sitios y subredes en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,35 +15,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: 'Crear o modificar regiones de red, sitios de red y asociar subredes de red en Skype empresarial Server. Todo lo que se usa para las características avanzadas de voz de telefonía: omisión de contenido multimedia, control de admisión de la llamada y enrutamiento basado en la ubicación.'
-ms.openlocfilehash: e181e8fffc431db67e0e597f3e8dccba710efdd5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Crear o modificar regiones de red, sitios de red y subredes de red asociadas en Skype Empresarial Server. Todas estas se usan para las características avanzadas de Telefonía IP empresarial: desvío de medios, control de admisión de llamadas y enrutamiento basado en ubicación.'
+ms.openlocfilehash: 408715cb1baa31e1fe864827a2b2a14d8e4788c6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767523"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812440"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implementar regiones, sitios y subredes de red en Skype empresarial
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implementar regiones de red, sitios y subredes en Skype Empresarial
 
-Crear o modificar regiones de red, sitios de red y asociar subredes de red en Skype empresarial Server. Todo lo que se usa para las características avanzadas de voz de telefonía: omisión de contenido multimedia, control de admisión de la llamada y enrutamiento basado en la ubicación.
+Crear o modificar regiones de red, sitios de red y subredes de red asociadas en Skype Empresarial Server. Todas estas se usan para las características avanzadas de Telefonía IP empresarial: desvío de medios, control de admisión de llamadas y enrutamiento basado en ubicación.
 
-Las características avanzadas de telefonía empresarial son el [control de admisión de llamadas](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), la omisión de [medios](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [el enrutamiento basado en la ubicación](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)y [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Para todas estas características, es necesario crear regiones de red, sitios de red y subredes. Por ejemplo, todas estas características requieren que cada una de las subredes de la topología estén asociadas a un sitio de red específico, y cada uno de los sitios de red debe estar asociado a una región de red. Para obtener más información sobre estas condiciones, consulte [configuración de red para las características de telefonía avanzada empresarial en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
+Las características Telefonía IP empresarial avanzadas son el [control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) [](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)de admisión de llamadas, la omisión de [medios,](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)el enrutamiento basado en ubicación y [E9-1-1.](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) Todas estas características requieren la creación de regiones de red, sitios de red y subredes. Por ejemplo, todas estas características requieren que cada subred de la topología esté asociada a un sitio de red específico y que cada sitio de red esté asociado a una región de red. Para obtener más información sobre estos términos, consulte Configuración de red para [las características Telefonía IP empresarial avanzadas en Skype Empresarial Server.](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 
 El control de admisión de llamadas y E9-1-1 tienen requisitos de configuración adicionales para los sitios de red:
 
-- El control de admisión de llamadas requiere que se especifique un   perfil de directiva de ancho de banda para cada uno de los sitios restringidos con limitaciones de ancho de banda WAN. Si planea implementar el control de admisión de llamadas, debe [crear perfiles de directiva de ancho de banda en Skype empresarial Server](create-bandwidth-policy-profiles.md) antes de configurar los sitios de red.
+- El control de admisión de llamadas requiere que se especifique un perfil de directiva de ancho de banda para cada uno de los sitios restringidos con limitaciones de ancho de banda WAN. Si tiene previsto implementar el control de admisión de llamadas, debe crear perfiles de directiva de ancho de banda [en Skype Empresarial Server](create-bandwidth-policy-profiles.md) antes de configurar los sitios de red.
 
-- E9-1-1 requiere que se especifique una directiva de ubicación para cada uno de los sitios. Si tiene previsto implementar E9-1-1, debe [crear directivas de ubicación en Skype empresarial Server](create-location-policies.md) antes de configurar los sitios de red.
+- E9-1-1 requiere que se especifique una directiva de ubicación para cada uno de los sitios. Si planea implementar E9-1-1, debe crear directivas de ubicación en [Skype Empresarial Server](create-location-policies.md) antes de configurar los sitios de red.
 
 ## <a name="create-or-modify-a-network-region"></a>Crear o modificar una región de red
 
-Si ya ha creado regiones de red para una de estas características, no necesita crear regiones de red nuevas; otras características avanzadas de telefonía empresarial usarán esas mismas regiones de red.
+Si ya ha creado regiones de red para una de estas características, no es necesario crear nuevas regiones de red; otras Telefonía IP empresarial avanzadas usarán esas mismas regiones de red.
 
 Sin embargo, es posible que necesite modificar una definición de región de red existente para aplicar una configuración específica de una característica. Por ejemplo, si ha creado regiones de red para E9-1-1 (que no requieren un sitio central asociado) y, a continuación, implementa el control de admisión de llamadas, debe modificar las definiciones de región de red para especificar un sitio central.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Para crear una región de red con el shell de administración de Skype empresarial Server
+### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Para crear una región de red con el Shell de administración de Skype Empresarial Server
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
 2. Ejecute el cmdlet New-CsNetworkRegion para crear regiones de red:
 
@@ -57,33 +57,33 @@ Sin embargo, es posible que necesite modificar una definición de región de red
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
-    En este ejemplo, creó una región de red denominada "Norteamérica" asociada con un sitio central con un ID de sitio CHICAGO.
+    En este ejemplo, ha creado una región de red denominada "NorthAmerica" que está asociada a un sitio central con el id. de sitio CHICAGO.
 
-3. Para terminar de crear regiones de red para la topología, repita el paso 2 con parámetros para cada región de red.
+3. Para terminar de crear regiones de red para la topología, repita el paso 2 con la configuración de cada región de red.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Para crear una región de red con el panel de control de Skype empresarial Server
+### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Para crear una región de red con el Panel de control de Skype Empresarial Server
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
 
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
 
-3. Haga clic en **Región**
+3. Haga **clic en Región**.
 
 4. Haga clic en **Nuevo**.
 
-5. En la página **Región nueva**, haga clic en **Nombre** y escriba un nombre para la región de red.
+5. En la **página Nueva región,** haga clic en **Nombre** y, a continuación, escriba un nombre para la región de red.
 
-6. Haga clic en **Sitio central** y, a continuación, haga clic en un sitio central de la lista.
+6. Haga **clic en Sitio central** y, a continuación, haga clic en un sitio central de la lista.
 
 7. Si lo desea, también puede hacer clic en **Descripción** y aportar más información que describa este sitio de red.
 
 8. Haga clic en **Confirmar**.
 
-9. Para terminar de crear regiones de red para la topología, repita los pasos del 4 al 8 con parámetros para otras regiones.
+9. Para terminar de crear regiones de red para la topología, repita los pasos del 4 al 8 con la configuración de otras regiones.
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Para modificar una región de red con el shell de administración de Skype empresarial Server
+### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Para modificar una región de red mediante el Shell de administración de Skype Empresarial Server
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
 2. Ejecute el cmdlet Set-CsNetworkRegion para modificar una región de red existente:
 
@@ -97,35 +97,35 @@ Sin embargo, es posible que necesite modificar una definición de región de red
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    En este ejemplo, se modificó una región de red existente denominada "Norteamérica" (creada siguiendo los procedimientos descritos anteriormente en este tema) al cambiar la descripción. Si existía una descripción para la región "Norteamérica", este comando la sobrescribe con este valor; Si no se ha establecido ninguna descripción, este comando la establece.
+    En este ejemplo, ha modificado una región de red existente denominada "NorthAmerica" (creada con los procedimientos descritos anteriormente en este tema) cambiando la descripción. Si existe una descripción para la región "NorthAmerica", este comando la sobrescribe con este valor; si no se había establecido ninguna descripción, este comando la establece.
 
-3. Para modificar otras regiones de red, repita el paso 2 con parámetros para otras regiones.
+3. Para modificar otras regiones de red, repita el paso 2 con la configuración de otras regiones.
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>Para modificar una región de red con el panel de control de Skype empresarial Server
+### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>Para modificar una región de red con el Panel de control de Skype Empresarial Server
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
 
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
 
-3. Haga clic en el botón de navegación **Región**.
+3. Haga clic en **el botón de** navegación Región.
 
-4. En la tabla, haga clic en la región de red que desee modificar.
+4. En la tabla, haga clic en la región de red que desea modificar.
 
 5. Haga clic en **Editar** y, a continuación, en **Mostrar detalles…**.
 
-6. En la página **Editar región** , cambie los valores de la configuración de esta región de red según corresponda.
+6. En la **página Editar región,** cambie los valores de la configuración de esta región de red según corresponda.
 
 7. Haga clic en **Confirmar**.
 
-8. Para terminar de modificar regiones de red, repita los pasos del 4 al 7 con parámetros para otras regiones.
+8. Para terminar de modificar las regiones de red, repita los pasos del 4 al 7 con la configuración de otras regiones.
 
 ## <a name="create-or-modify-a-network-site"></a>Crear o modificar un sitio de red
 
-Si ya ha creado sitios de red para una de estas características, no necesita crear sitios de red nuevos; otras características avanzadas de telefonía a empresas usarán esos mismos sitios de red. Con todo, puede que sea necesario modificar una definición de sitio de red existente para aplicar una configuración específica de una característica. Así, si ha creado un sitio de red para E9-1-1, deberá modificar el sitio de red durante la implementación de un control de admisión de llamadas con objeto de aplicar un perfil de directiva de ancho de banda.
+Si ya ha creado sitios de red para una de estas características, no es necesario crear sitios de red nuevos; otras características Telefonía IP empresarial avanzadas usarán esos mismos sitios de red. Con todo, puede que sea necesario modificar una definición de sitio de red existente para aplicar una configuración específica de una característica. Así, si ha creado un sitio de red para E9-1-1, deberá modificar el sitio de red durante la implementación de un control de admisión de llamadas con objeto de aplicar un perfil de directiva de ancho de banda.
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para crear un sitio de red con el shell de administración de Skype empresarial Server
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para crear un sitio de red mediante el Shell de administración de Skype Empresarial Server
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
 2. Ejecute el cmdlet New-CsNetworkSite para crear sitios de red:
 
@@ -139,16 +139,16 @@ Si ya ha creado sitios de red para una de estas características, no necesita cr
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
-    En este ejemplo, creó un sitio de red denominado "Chicago" que está en la región de red "Norteamérica".
+    En este ejemplo, ha creado un sitio de red denominado "Chicago" que se encuentra en la región de red "NorthAmerica".
 
     > [!NOTE]
     > Esta región de red ya debe existir para que este comando se ejecute correctamente.
 
 3. Para terminar de crear sitios de red en su topología, repita el paso 2 con la configuración pertinente del resto de sitios.
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>Para crear un sitio de red con el panel de control de Skype empresarial Server
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>Para crear un sitio de red mediante el Panel de control de Skype Empresarial Server
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
 
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
 
@@ -158,7 +158,7 @@ Si ya ha creado sitios de red para una de estas características, no necesita cr
 
 5. En la página **Nuevo sitio**, haga clic en **Nombre** y, a continuación, escriba un nombre para el sitio de red.
 
-6. Haga clic en **Región**y, a continuación, en una región de la lista.
+6. Haga clic en **Región** y, a continuación, en una región de la lista.
 
 7. Si lo desea, también puede hacer clic en **Directiva de ancho de banda** y hacer clic en una directiva de ancho de banda de la lista.
 
@@ -176,9 +176,9 @@ Si ya ha creado sitios de red para una de estas características, no necesita cr
 
 11. Para terminar de crear sitios de red en su topología, repita los pasos 4 a 10 con la configuración pertinente del resto de sitios.
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para modificar un sitio de red con el shell de administración de Skype empresarial Server
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para modificar un sitio de red mediante el Shell de administración de Skype Empresarial Server
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
 2. Ejecute el cmdlet Set-CsNetworkSite para modificar sitios de red:
 
@@ -192,16 +192,16 @@ Si ya ha creado sitios de red para una de estas características, no necesita cr
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
-    En este ejemplo, el sitio denominado "Albuquerque" se mueve al área de red "Norteamérica". Para modificar la configuración de sitio de red a fin de implementar el control de admisión de llamadas, E9-1-1 o el desvío de medios, cambie la configuración del sitio de red ejecutando el cmdlet Set-CsNetworkSite con los parámetros BWPolicyProfileID o LocationPolicy respectivamente.
+    En este ejemplo, el sitio denominado "Albuquerque" se mueve a la región de red "NorthAmerica". Para modificar la configuración de sitio de red a fin de implementar el control de admisión de llamadas, E9-1-1 o el desvío de medios, cambie la configuración del sitio de red ejecutando el cmdlet Set-CsNetworkSite con los parámetros BWPolicyProfileID o LocationPolicy respectivamente.
 
     > [!NOTE]
     > En el caso del desvío de medios, existe un parámetro BypassID, si bien se recomienda encarecidamente no invalidar automáticamente los identificadores de desvío generados. No es necesario especificar más parámetros para configurar un sitio de red para el desvío de medios.
 
 3. Para terminar de modificar sitios de red en su topología, repita el paso 2 con la configuración pertinente del resto de sitios.
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>Para modificar un sitio de red con el panel de control de Skype empresarial Server
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>Para modificar un sitio de red mediante el Panel de control de Skype Empresarial Server
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
 
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
 
@@ -211,7 +211,7 @@ Si ya ha creado sitios de red para una de estas características, no necesita cr
 
 5. Haga clic en **Editar** y, a continuación, en **Mostrar detalles…**.
 
-6. En la página **Editar sitio** , cambie los valores de la configuración de este sitio de red según corresponda.
+6. En la **página Editar sitio,** cambie los valores de la configuración de este sitio de red según corresponda.
 
 7. Haga clic en **Confirmar**.
 
@@ -220,13 +220,13 @@ Si ya ha creado sitios de red para una de estas características, no necesita cr
 ## <a name="associate-a-subnet-with-a-network-site"></a>Asociar una subred a un sitio de red
 <a name="BKMK_AssociateSubnets"> </a>
 
-Cada subred de su red debe estar asociada con un sitio de red específico, ya que la información de subred se usa para determinar el sitio de red en el que se encuentra un punto final mientras se inicia una nueva sesión. Cuando se conoce la ubicación de cada una de las partes de una sesión, las características de telefonía IP avanzada pueden aplicarla para determinar cómo manejar la configuración o el enrutamiento de las llamadas.
+Todas las subredes de la red deben estar asociadas a un sitio de red específico, ya que la información de subred se usa para determinar el sitio de red en el que se encuentra un extremo mientras se inicia una nueva sesión. Cuando se conoce la ubicación de cada parte en una sesión, las características avanzadas de Telefonía IP empresarial pueden aplicar esa información para determinar cómo controlar la configuración o el enrutamiento de la llamada.
 
-Todas las direcciones IP públicas de los servidores perimetrales de audio y vídeo en la implementación deben incluirse en los parámetros de configuración de red. Estas direcciones IP se agregan como subredes con una máscara de 32. El sitio de red asociado debe corresponder con el sitio de red configurado adecuado. Por ejemplo, la dirección IP pública que corresponde al servicio perimetral a/V en el sitio central de Chicago sería NetworkSiteID Chicago.
+Todas las direcciones IP públicas de los servidores perimetrales de audio y vídeo en la implementación deben incluirse en los parámetros de configuración de red. Estas direcciones IP se agregan como subredes con una máscara de 32. El sitio de red asociado debe corresponder con el sitio de red configurado adecuado. Por ejemplo, la dirección IP pública que corresponde al servicio perimetral A/V en el sitio central chicago sería NetworkSiteID Chicago.
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para asociar una subred a un sitio de red con el shell de administración de Skype empresarial Server
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para asociar una subred a un sitio de red mediante el Shell de administración de Skype Empresarial Server
 
-1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
 2. Ejecute el cmdlet **New-CsNetworkSubnet** para asociar una subred a un sitio de red:
 
@@ -240,13 +240,13 @@ Todas las direcciones IP públicas de los servidores perimetrales de audio y ví
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
-    En este ejemplo, se creó una asociación entre la 172.11.12.13 de subred y el sitio de red "Chicago".
+    En este ejemplo, ha creado una asociación entre la subred 172.11.12.13 y el sitio de red "Chicago".
 
 3. Repita el paso 2 para todas las subredes de la topología.
 
 ### <a name="to-associate-subnets-with-network-sites-by-importing-a-csv-file"></a>Para asociar subredes a sitios de red mediante la importación de un archivo CSV
 
-1. Cree un archivo CSV que incluya todas las subredes que quiera agregar. Por ejemplo, cree un archivo denominado   **subnet.csv** con el contenido siguiente:
+1. Cree un archivo CSV que incluya todas las subredes que quiera agregar. Por ejemplo, cree un archivo denominado **subnet.csv** con el contenido siguiente:
 
      `IPAddress, mask, description, NetworkSiteID`
 
@@ -258,17 +258,17 @@ Todas las direcciones IP públicas de los servidores perimetrales de audio y ví
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
-3. Ejecute el siguiente cmdlet para importar **subnet. csv**y, a continuación, almacene su contenido en el almacén de administración de Lync Server:
+3. Ejecute el siguiente cmdlet para importar **subnet.csv** y, a continuación, almacenar su contenido en el almacén de administración de Lync Server:
 
    ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Para asociar una subred a un sitio de red con el panel de control de Skype empresarial Server
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Para asociar una subred a un sitio de red mediante el Panel de control de Skype Empresarial Server
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
 
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
 
@@ -283,7 +283,7 @@ Todas las direcciones IP públicas de los servidores perimetrales de audio y ví
 7. Haga clic en **Id. de sitio de red** y seleccione el identificador de sitio del sitio al que agrega esta subred.
 
     > [!NOTE]
-    > Si todavía no ha creado sitios de red, esta lista estará vacía. Para ver más detalles sobre el procedimiento, consulte [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). También puede recuperar identificadores de sitio para implementarlos ejecutando el cmdlet **Get-CsNetworkSite**. Para obtener más información, consulte la documentación del shell de administración de Skype empresarial Server.
+    > Si todavía no ha creado sitios de red, esta lista estará vacía. Consulte [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx) para ver más detalles sobre el procedimiento. También puede recuperar identificadores de sitio para su implementación mediante la ejecución del cmdlet **Get-CsNetworkSite**. Para obtener más información, consulte la documentación del Shell de administración de Skype Empresarial Server.
 
 8. Si lo desea, haga clic en **Descripción** y escriba información adicional para describir esta subred.
 
@@ -295,13 +295,13 @@ Repita estos pasos para agregar otras subredes a un sitio de red.
 
 A continuación se ofrece la información de alerta relevante y un ejemplo:
 
- **Origen**: servicio de directivas de ancho de banda CS (principal)
+ **Origen**: Servicio de directivas de ancho de banda CS (núcleo)
 
  **Número de evento**: 36034
 
  **Nivel**: 2
 
- **Descripción**: las subredes de las siguientes direcciones IP: \<la lista de direcciones\> IP no está configurada o las subredes no están asociadas a un sitio de red.
+ **Descripción:** las subredes de las siguientes direcciones IP: no están configuradas o las subredes no \<List of IP Addresses\> están asociadas a un sitio de red.
 
  **Causa**: las subredes de las correspondientes direcciones IP faltan en las opciones de configuración de la red o las subredes no están asociadas a un sitio de red.
 
@@ -309,11 +309,11 @@ A continuación se ofrece la información de alerta relevante y un ejemplo:
 
 Por ejemplo, si la lista de direcciones IP de la alerta especifica 10.121.248.226 y 10.121.249.20, estas direcciones IP no están asociadas a una subred o la subred a la que están asociadas no pertenece a un sitio de red. Si 10.121.248.0/24 y 10.121.249.0/24 son las subredes correspondientes a estas direcciones, este problema se puede resolver de la siguiente manera:
 
-1. Asegúrese de que la dirección IP 10.121.248.226 esté asociada a la subred 10.121.248.0/24 y la dirección IP 10.121.249.20 esté asociada a la subred 10.121.249.0/24.
+1. Asegúrese de que la dirección IP 10.121.248.226 está asociada a la subred 10.121.248.0/24 y la dirección IP 10.121.249.20 está asociada a la subred 10.121.249.0/24.
 
-2. Asegúrese de que cada una de las subredes 10.121.248.0/24 y 10.121.249.0/24 esté asociada a un sitio de red.
+2. Asegúrese de que cada una de las subredes 10.121.248.0/24 y 10.121.249.0/24 está asociada a un sitio de red.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 <a name="BKMK_AssociateSubnets"> </a>
 
 

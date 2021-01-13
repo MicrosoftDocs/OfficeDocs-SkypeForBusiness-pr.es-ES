@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (grupos)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
-description: En el grupo especificar solo lectura, especifique el grupo a quien desea conceder acceso de solo lectura a los informes de supervisión.
-ms.openlocfilehash: cb27c04927f078e2f20c7b7ec996c2eab5086db1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: En Especificar grupo de solo lectura, especifique el grupo al que desee conceder acceso de solo lectura a informes de supervisión.
+ms.openlocfilehash: d1fc8ffb268ea9c850ec1a7b6a78efff6b76506f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794699"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812430"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (grupos)
 
-En el **Grupo especificar solo lectura**, especifique el grupo a quien desea conceder acceso de solo lectura a los informes de supervisión. Use el grupo &lt;&gt;formato&gt;\\&lt;de dominio de acceso. Por ejemplo: contoso\RTCUniversalReadOnlyAdmins.
+En **Especificar grupo de solo lectura**, especifique el grupo al que desee conceder acceso de solo lectura a informes de supervisión. Use el grupo de &lt; acceso de dominio de &gt; \\ &lt; &gt; formato. Por ejemplo, contoso\RTCUniversalReadOnlyAdmins.
   
-Asignar un grupo de acceso de solo lectura es opcional. Si no desea conceder acceso de solo lectura ahora, puede configurarlo más adelante directamente en SQL Server Reporting Services.
+La asignación de acceso de solo lectura a un grupo es opcional. Si no desea conceder acceso de solo lectura en este momento, puede configurarlo más adelante en SQL Server Reporting Services.
   
 

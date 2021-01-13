@@ -1,8 +1,8 @@
 ---
-title: Archiving (Planning Tool)
+title: Archivado (Herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: El archivado en Skype empresarial Server le permite archivar las comunicaciones que se envían a través de Skype empresarial Server.
-ms.openlocfilehash: d816a9fcbe24b982988e548e7f9427f6703b81db
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: El archivado en Skype Empresarial Server permite archivar las comunicaciones que se envían a través de Skype Empresarial Server.
+ms.openlocfilehash: 053924727c43d43387bd759797754ba2ff45c4c1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821572"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810690"
 ---
-# <a name="archiving-planning-tool"></a>Archiving (Planning Tool)
+# <a name="archiving-planning-tool"></a>Archivado (Herramienta de planeación)
  
-El archivado en Skype empresarial Server le permite archivar las comunicaciones que se envían a través de Skype empresarial Server.
+El archivado en Skype Empresarial Server permite archivar las comunicaciones que se envían a través de Skype Empresarial Server.
   
-Para obtener detalles sobre la preparación del entorno para el servidor de archivado, consulte [planear el archivado en Skype empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md).
+Para obtener más información sobre cómo preparar su entorno para el servidor de archivado, consulte [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
   
 

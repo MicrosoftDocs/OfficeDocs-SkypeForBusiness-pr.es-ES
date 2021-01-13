@@ -1,8 +1,8 @@
 ---
-title: Nodo de ámbito de sucursales
+title: Nodo de ámbito de las sucursales
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nodo Sitios de sucursal contiene los sitios de sucursal asociados a este sitio central. You can perform the following action:'
-ms.openlocfilehash: d75166774a2c5d83c9bfb2cd377bebdf7989e63b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'En el nodo Sucursales figuran las sucursales asociadas con este sitio central. Puede efectuar la acción siguiente:'
+ms.openlocfilehash: 53e74901466c7d20af55483c4f39dd8e00cc895f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793878"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811200"
 ---
-# <a name="branch-offices-scope-node"></a>Nodo de ámbito de sucursales
+# <a name="branch-offices-scope-node"></a>Nodo de ámbito de las sucursales
  
-El nodo **Sitios de sucursal** contiene los sitios de sucursal asociados a este sitio central. Puede efectuar la acción siguiente:
+En el nodo **Sucursales** figuran las sucursales asociadas con este sitio central. Puede efectuar la acción siguiente:
   
-- **Nuevo sitio de sucursal**. Inicia el asistente **Definir nuevo sitio de sucursal**, que sirve para agregar a la topología un nuevo sitio de sucursal asociado con este sitio central.
+- **Nueva sucursal**. Inicia el Asistente para **definir nueva sucursal**, que se emplea para incorporar a la topología una nueva sucursal asociada con este sitio central.
     
-Además de las opciones de sitio de sucursal, puede efectuar las tareas generales siguientes:
+Además de las opciones de sucursal, puede efectuar las tareas generales siguientes:
   
-- **Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
+- **Topología**. Puede usar esta opción para definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     
-- **Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.
+- **Ver**. Esta opción le permite personalizar la vista del Topology Builder seleccionando los elementos que se deben mostrar y ocultar en las vistas de árbol de consola.
     
-- **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
+- **Ayuda**. Esta opción le permite acceder a la Ayuda del nodo activo.
     
 

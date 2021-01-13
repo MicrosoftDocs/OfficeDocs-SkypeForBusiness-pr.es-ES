@@ -1,8 +1,8 @@
 ---
 title: Configuración de notificaciones de inserción de cliente móvil
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,44 +14,44 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
-description: Para configurar las notificaciones de inserción de Microsoft y las notificaciones push de Apple, debe crear una directiva para definir qué tipos de notificaciones push necesita.
-ms.openlocfilehash: 3fde99c3f026f87197492417cd10611d96f7e20e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para configurar Notificaciones de inserción de Microsoft y Notificaciones de inserción de Apple, debe crear una directiva para definir qué tipos de notificaciones de inserción requiere.
+ms.openlocfilehash: 493c8138e7c5dcaeab154ce1a44054cc082d1672
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822663"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810880"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente móvil: Configuración de notificaciones de inserción
  
-Para configurar las **notificaciones de inserción de Microsoft** y las **notificaciones push de Apple**, debe crear una directiva para definir qué tipos de notificaciones push necesita.
+Para configurar **Notificaciones de inserción de Microsoft** y **Notificaciones de inserción de Apple**, debe crear una directiva para definir qué tipos de notificaciones de inserción requiere.
   
-En la pantalla principal de configuración, puede hacer clic en **Actualizar** para actualizar y volver a rellenar la lista de directivas. Se proporciona un cuadro de búsqueda para restringir la lista de directivas mostradas. A medida que escriba el nombre que está buscando, la lista de directivas se reducirá automáticamente.
+En la pantalla de configuración principal, puede hacer clic en **Actualizar** para actualizar y volver a llenar la lista de directivas. Se proporciona un cuadro de búsqueda para delimitar la lista de directivas mostradas. Conforme escriba el nombre que está buscando, la lista de directivas se filtra automáticamente.
   
 > [!IMPORTANT]
-> La configuración de directiva que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La precedencia de directiva es esta: la directiva de usuario (de mayor influencia) invalida una directiva de sitio, y una directiva de sitio invalida una directiva global (de menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto. 
+> Las opciones de configuración de directiva que se aplican en un nivel de directiva pueden sobrescribir la configuración que se aplica en otro nivel de directiva. La prioridad de la directiva es: la directiva de usuario (más influencia) invalida una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto. 
   
-Hay dos opciones disponibles para la creación y edición de directivas:
+Hay dos selecciones disponibles para la creación y edición de directivas:
   
-1. **Nuevo**: haga clic para crear una nueva Directiva. Debe proporcionar un sitio para que la Directiva se aplique a. A continuación, configure las opciones de la notificación push. Para la **configuración de notificaciones de inserción**, solo puede crear directivas para sitios que ya haya creado.
+1. **Nueva**: haga clic para crear una nueva directiva. Debe proporcionar un sitio para que se aplique la directiva. Después, configure los ajustes para la notificación de inserciones. Para **Configuración de notificación de inserciones**, solo puede crear directivas para sitios que ya haya creado.
     
-2. **Editar**: Seleccione una directiva y haga clic en Editar para seleccionar una acción de una lista desplegable. Solo puede editar los sitios que ya ha creado o editar la directiva global:
+2. **Editar**: seleccione una directiva y haga clic en Editar para seleccionar una acción del menú desplegable. Solo puede editar sitios que ya haya creado o editar la directiva global:
     
-   - **Mostrar detalles...**: muestra información sobre la Directiva seleccionada actualmente. Podrás realizar cambios en la directiva existente.
+   - **Mostrar detalles…**: muestra información sobre la directiva seleccionada actualmente. Podrá realizar cambios en la directiva existente.
     
-   - **Seleccionar todo**: Si tiene varias directivas y necesita seleccionar todas las directivas, haga clic en seleccionar todas.
+   - **Seleccionar todo**: si tiene un número de directivas y necesita seleccionarlas todas, haga clic en Seleccionar todo.
     
-   - **Eliminar**: quitará la Directiva seleccionada. Si usa **seleccionar todo** y **eliminar** , se eliminarán todas las directivas
+   - **Eliminar**: quitará la directiva seleccionada. Al usar **Seleccionar todo** y **Eliminar**, se eliminarán todas las directivas.
     
      > [!NOTE]
-     > No puede eliminar la directiva **global** predeterminada. Si intenta eliminarla, se le notificará que la directiva global se ha devuelto a los valores predeterminados (es decir, se ha desactivado toda la configuración), pero la Directiva no se puede quitar.
+     > No es posible eliminar la directiva **Global** predeterminada. Si intenta eliminarla, se le notificará que la directiva Global ha vuelto a los valores predeterminados (es decir, se eliminarán todos los ajustes), pero la directiva no se puede eliminar.
   
-Crear una nueva Directiva o editar una directiva existente está asociado a dos acciones:
+La creación de una directiva nueva o la edición de una directiva existente están asociadas con dos acciones:
   
-- **Confirmar** La acción confirmar crea o actualiza la Directiva y guarda los cambios.
+- **Commit** La acción de confirmación crea o actualiza la directiva y guarda los cambios
     
-- **Cancelar** La acción cancelar descarta los cambios que se hayan realizado desde la última acción de confirmación. Si cancelas, se perderán los cambios realizados.
+- **Cancelar** La acción cancelar descarta los cambios realizados desde la última acción de confirmación. Si cancela, se perderán los cambios realizados.
     
-Hay dos opciones posibles para la configuración de las **notificaciones push**. La configuración se asocia a los servicios de notificaciones de inserción para Microsoft y a Apple. Para habilitar la notificación de inserción para cualquiera de los servicios, active la casilla situada junto al nombre del servicio. Para desactivar la casilla, selecciónela para desactivarla. Una vez que haya realizado las selecciones, puede confirmar o cancelar. Al hacer clic en confirmar se guardarán los cambios en la Directiva.
+Hay dos opciones posibles para **Configuración de notificaciones de inserción**. Los valores se asocian con los servicios de notificación de inserciones de Microsoft y Apple. Puede habilitar la notificación de inserciones para cualquier servicio activando la casilla que hay junto al nombre del servicio. Puede desactivar la casilla seleccionándola para desmarcarla. Una vez que haya hecho las selecciones, confirme o cancele. Al hacer clic en Confirmar, se guardarán todos los cambios en la directiva.
   
 

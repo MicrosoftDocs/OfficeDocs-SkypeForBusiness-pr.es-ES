@@ -1,8 +1,8 @@
 ---
-title: Implementar la herramienta SEFAUtil en Skype empresarial
+title: Implementar la herramienta SEFAUtil en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,43 +15,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
-description: Deploying The SEFAUtil Tool in Skype for Business Server.
-ms.openlocfilehash: 306e2ec305e9e12cd3486691b3e239e2aedfb548
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Implementar la herramienta SEFAUtil en Skype Empresarial Server.
+ms.openlocfilehash: 20cda161c182c8dfb426f61b793366b7f60f37d5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986815"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812390"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implementar la herramienta SEFAUtil en Skype empresarial
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implementar la herramienta SEFAUtil en Skype Empresarial
  
-Deploying The SEFAUtil Tool in Skype for Business Server.
+Implementar la herramienta SEFAUtil en Skype Empresarial Server.
   
-Para implementar y administrar la recogida de llamadas de grupo, debe usar la versión de Skype empresarial Server de la herramienta SEFAUtil. 
+Para implementar y administrar la atención de llamadas grupales, debe usar la versión de Skype Empresarial Server de la herramienta SEFAUtil. 
   
 > [!IMPORTANT]
-> El tiempo de ejecución de la API administrada de comunicaciones unificadas de Microsoft (UCMA) 5 debe instalarse en cualquier equipo en el que se vaya a ejecutar la herramienta SEFAUtil. Descárguelo aquí: [API administrada de comunicaciones unificadas 5,0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344). También puede descargar el SDK de UCMA 5, que incluye el tiempo de ejecución, aquí: [UCMA 5,0 SDK](https://www.microsoft.com/download/details.aspx?id=47345).
+> Microsoft Unified Communications Managed API (UCMA) 5 Runtime debe estar instalado en cualquier equipo en el que planee ejecutar la herramienta SEFAUtil. Descárbalo aquí: [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344). También puede descargar el SDK de UCMA 5, que incluye el tiempo de ejecución, aquí: [SDK de UCMA 5.0.](https://www.microsoft.com/download/details.aspx?id=47345)
   
-Puede ejecutar la herramienta SEFAUtil en cualquier grupo de servidores front-end de su implementación. Para ejecutar la herramienta SEFAUtil debe ejecutar los pasos 1, 2 y 3 del Asistente para la implementación de Skype empresarial en el equipo de la aplicación de confianza. SEFAUtil requiere que esté presente el almacén de configuración local, así como un certificado.
+Puede ejecutar la herramienta SEFAUtil en cualquier grupo de servidores front-end de la implementación. Para ejecutar la herramienta SEFAUtil, debe ejecutar los pasos 1, 2 y 3 desde el Asistente para la implementación de Skype Empresarial en el equipo de la aplicación de confianza. SEFAUtil requiere que el almacén de configuración local esté presente, así como un certificado.
   
 > [!NOTE]
-> Para obtener más información sobre cómo ejecutar SEFAUtil, vea el artículo del blog "[How to get SEFAUtil Running?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
+> Para obtener más información sobre cómo ejecutar SEFAUtil, consulte el artículo del blog " ¿Cómo hacer[que SEFAutil se ejecute?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
   
 ### <a name="to-deploy-sefautil"></a>Para implementar SEFAUtil
 
-1. Inicie sesión en el equipo donde esté instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en **Delegate Setup Permissions**.
+1. Inicie sesión en el equipo donde está instalado el Shell de administración de Skype Empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados.**
     
-2. Inicie el shell de administración de Skype empresarial Server: haga clic en **Inicio**, en **todos los programas**, en **Skype empresarial 2015**y, a continuación, haga clic en **Shell de administración de Skype empresarial Server**.
+2. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
-3. La herramienta SEFAUtil solo puede ejecutarse en un equipo que forme parte de un grupo de aplicaciones de confianza. Si es necesario, defina un grupo de aplicaciones de confianza para el grupo de servidores front-end en el que planea ejecutar SEFAUtil. En la línea de comandos, ejecute:
+3. La herramienta SEFAUtil solo se puede ejecutar en un equipo que forma parte de un grupo de aplicaciones de confianza. Si es necesario, defina un grupo de aplicaciones de confianza para el grupo de servidores front-end donde planee ejecutar SEFAUtil. En la línea de comandos, ejecute:
     
    ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
-    > FQDN del grupo de servidores: el FQDN del servidor o grupo de servidores que va a hospedar la aplicación de SEFAUtil (normalmente un grupo o un servidor front-end de Skype empresarial).
-    > FQDN del registrador de grupo de servidores: el FQDN del servidor front-end o grupo de servidores front-end de Skype empresarial asociado con este grupo de aplicaciones.
-    > Sitio de Grupo: el identificador de sitio del sitio en el que se hospeda este grupo de servidores.
+    > FQDN del grupo de servidores: el FQDN del servidor o grupo de servidores que hospedará la aplicación SEFAUtil (normalmente un servidor front-end o grupo de servidores de Skype Empresarial).
+    > FQDN del registrador de grupo: el FQDN del servidor front-end de Skype Empresarial o del grupo asociado a este grupo de aplicaciones.
+    > Sitio del grupo de servidores: el identificador de sitio del sitio en el que se encuentra este grupo de servidores.
 
 4. Defina la herramienta SEFAUtil como una aplicación de confianza. En la línea de comandos, ejecute:
     
@@ -68,18 +68,18 @@ Puede ejecutar la herramienta SEFAUtil en cualquier grupo de servidores front-en
    Enable-CsTopology
    ```
 
-6. Si todavía no lo ha hecho, descargue la versión de Skype empresarial Server de la herramienta SEFAUtil desde [esta ubicación](https://www.microsoft.com/download/details.aspx?id=52631)e instálela en el grupo de aplicaciones de confianza que creó en el paso 3.
+6. If you haven't already, download the Skype for Business Server version of the SEFAUtil tool from [this location](https://www.microsoft.com/download/details.aspx?id=52631), and install it on the trusted application pool you created in step 3.
     
-7. Compruebe que la herramienta SEFAUtil se está ejecutando correctamente, de la siguiente manera: 
+7. Compruebe que la herramienta SEFAUtil se está ejecutando correctamente, como se muestra a continuación: 
     
-    a. Ejecute la herramienta desde el símbolo del sistema de Windows con privilegios de administrador para mostrar la configuración de desvío de llamadas de un usuario en la implementación.
+    a. Ejecuta la herramienta desde el símbolo del sistema de Windows con privilegios de administrador para mostrar la configuración de reenvío de llamadas de un usuario en la implementación.
     
-    b. Muestra la configuración de desvío de llamadas de un usuario. En la línea de comandos, ejecute:
+    b. Muestra la configuración de reenvío de llamadas de un usuario. En la línea de comandos, ejecute:
     
    ```console
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
    ```
 
-Se mostrará la configuración de desvío de llamadas para el usuario.
+Se mostrará la configuración de reenvío de llamadas para el usuario.
     
 

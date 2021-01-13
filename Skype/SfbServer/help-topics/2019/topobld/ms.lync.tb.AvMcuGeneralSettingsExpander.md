@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general de MCU AV
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, puede hacer lo siguiente:'
-ms.openlocfilehash: 557f762b78d589e975d88c808a6911e46c5b9187
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Para editar las propiedades de un grupo de servidores de conferencia A/V que ya ha definido, puede seguir el procedimiento siguiente:'
+ms.openlocfilehash: 8016993620d73a498b4549685e3c985a78e7f3d1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793948"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811300"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Expansor de configuración general de MCU AV
  
-Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, puede hacer lo siguiente:
+Para editar las propiedades de un grupo de servidores de conferencia A/V que ya ha definido, puede seguir el procedimiento siguiente:
   
 ## <a name="general-settings"></a>Configuración general
 
-Actualice el nombre de dominio completo (FQDN) del grupo de servidores de conferencia A/V escribiendo el nombre del grupo, como se define en el sistema de nombres de dominio (DNS).
+Actualice el nombre de dominio completo (FQDN) del grupo de servidores de conferencia A/V escribiendo el nombre del grupo tal y como está definido en el sistema de nombres de dominio (DNS).
   
-## <a name="av-conferencing-service"></a>Servicio de conferencia A/V
+## <a name="av-conferencing-service"></a>Servicio de conferencia de A/V
 
-Para asociar un grupo de servidores de conferencia a/V, seleccione el grupo de servidores front-end o los grupos de servidores que tiene que asociar al grupo de servidores de conferencia a/V.
+Para asociar un grupo de servidores de conferencia A/V, seleccione el grupo o grupo de servidores front-end que deba asociar con el grupo de servidores de conferencia A/V.
   
 > [!NOTE]
-> Si no se muestran pools front end en el panel **Seleccione las agrupaciones front end para asociar con este grupo de conferencias a/V** , ya ha colocado el servidor de conferencia a/v con el grupo de servidores front-end o no seleccionó agregar conferencias en la sección **características y funcionalidad** de las propiedades de la agrupación frontal.
+> Si en el panel **Seleccione los grupos de servidores front-end que desee asociar a este grupo de servidores de conferencia A/V** no aparece ningún grupo de servidores front-end es porque ha colocado el servidor de conferencias A/V con el grupo de servidores front-end o porque no ha seleccionado agregar Conferencias en la sección **Características y funcionalidad** de las propiedades de grupo de front-end.
   
 
-Cuando haya terminado, haga clic en **Aceptar** para completar la edición de la configuración del grupo de servidores de conferencia a/V. Haga clic en **Cancelar** para descartar los cambios.
+Cuando haya terminado, haga clic en **Aceptar** para completar la edición de la configuración del grupo de servidores de conferencia  A/V. Haga clic en **Cancelar** para descartar los cambios.
   
 

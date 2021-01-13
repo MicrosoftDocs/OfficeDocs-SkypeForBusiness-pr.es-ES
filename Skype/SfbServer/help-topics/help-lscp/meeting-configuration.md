@@ -1,8 +1,8 @@
 ---
 title: Configuración de reuniones
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,57 +14,57 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: La configuración de la reunión define el tipo de conferencias (también calledmeetings) que los usuarios pueden crear y controlar cómo (o si) los usuarios anónimos y las conferencias de acceso telefónico local pueden unirse a estas conferencias. Estas opciones solo se aplican a las reuniones programadas. No se aplican a reuniones ad-hoc que se crean haciendo clic en la opción Reunirse ahora en el cliente.
-ms.openlocfilehash: e237e9c5122547338f9ea33848a22b87fabce368
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Las opciones de configuración de reuniones definen el tipo de conferencias (también denominadas eliminaciones) que los usuarios pueden crear y controlan cómo (o si) los usuarios anónimos y los usuarios de conferencia de acceso telefónico local pueden unirse a estas conferencias. Estas opciones solo se aplican a reuniones programadas. No se aplican a reuniones ad hoc creadas haciendo clic en la opción Reunirse ahora en el cliente.
+ms.openlocfilehash: 804aa22f750c86aacacb9bd4d938d364967b86f9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822683"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810900"
 ---
 # <a name="meeting-configuration"></a>Configuración de reuniones
 
-Las opciones de configuración de reuniones ayudan a definir el tipo de conferencias (también denominadas "reuniones") que los usuarios pueden crear, además de controlar cómo (o si) pueden participar en las conferencias usuarios anónimos o de conferencias de acceso telefónico. Estas opciones solo se aplican a las reuniones programadas. No se aplican a reuniones ad-hoc que se crean haciendo clic en la opción Reunirse ahora en el cliente.
+Las opciones de configuración de reuniones ayudan a definir el tipo de conferencias (también denominadas "reuniones") que pueden crear los usuarios, además de controlar cómo (o si) pueden participar en las conferencias usuarios anónimos o de conferencias de acceso telefónico. Estas opciones solo se aplican a reuniones programadas. No se aplican a reuniones ad hoc creadas haciendo clic en la opción Reunirse ahora en el cliente.
 
 Las configuraciones de reuniones se aplican en el nivel global, de sitio o de grupo:
 
-- **Configuración de la reunión global:** De forma predeterminada, se crea la configuración de la reunión global. Puede editar la configuración global de la reunión, pero no puede eliminarla. Si intenta quitar la configuración de la reunión global, todos los valores de configuración se restablecerán en los valores predeterminados.
+- **Configuración global de reuniones:** La configuración de reunión global se crea de forma predeterminada. Puede editar la directiva global, pero no puede eliminarla. Si intenta quitar la configuración de reunión global, toda la configuración se restablecerá a los valores predeterminados.
 
-- **Configuración de la reunión de sitios (opcional):** Puede crear una o más configuraciones de reunión de sitio, cada una de las cuales se aplica a un sitio específico. Las configuraciones de sitio invalidan la configuración global.
+- **Configuración de reunión de sitio (opcional):** Puede crear una o varias configuraciones de reuniones de sitio, cada una de las cuales se aplica a un sitio específico. Las configuraciones de sitio anulan la configuración global.
 
-- **Configuración de reunión de grupo (opcional):** Puede crear una o más configuraciones de reunión de grupo, cada una de las cuales se aplica a un grupo específico. Las configuraciones de grupo invalidan la configuración global y las configuraciones de sitios.
+- **Configuración de reunión de grupo (opcional):** Puede crear una o más configuraciones de reunión de grupo, cada una de las cuales se aplica a un grupo específico. Las configuraciones de grupo anulan la configuración global.
 
-La página **Configuración de reunión** muestra una lista de todas las configuraciones de reuniones definidas en su organización.
+La página **Configuración de reunión** muestra una lista de todas las configuraciones de reuniones definidas para su organización.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-En la página **Configuración de reunión** puede realizar las siguientes tareas:
+Puede realizar las siguientes tareas desde la página **Configuración de reunión**:
 
-- Crear una configuración de reunión de sitio o de reunión de grupo
+- Crear una nueva configuración de reunión de sitio o de reunión de grupo
 
 - Cambiar la configuración global o una configuración de sitio o de grupo existente
 
 - Eliminar una configuración de sitio o de grupo
 
-## <a name="ui-reference"></a>Referencia de interfaz de usuario
+## <a name="ui-reference"></a>Referencia de la interfaz de usuario
 
 En la siguiente lista se describen los comandos de la página.
 
-- **Nuevo** Inicia una nueva configuración de reunión de sitio o configuración de reunión de grupo.
+- **Nuevo** Inicia una nueva configuración de reunión de sitio o de reunión de grupo.
 
-- **Editar** Abre la configuración de la reunión seleccionada para modificarla, selecciona todas las configuraciones de la reunión de la lista o elimina la configuración del sitio o de la agrupación seleccionada.
+- **Editar** Abre la configuración de reunión seleccionada para editarla, selecciona todas las configuraciones de reunión de la lista o elimina la configuración de sitio o de grupo seleccionada.
 
     > [!NOTE]
-    > En el caso de la configuración de reunión global, con **Eliminar** se restablece la configuración a los valores predeterminados.
+    > Para la configuración de reunión global, **Eliminar** restablece la configuración a los valores predeterminados.
 
-- **Actualizar** Actualiza la lista de configuraciones de reunión.
+- **Actualizar** Actualiza la lista de configuraciones de reuniones.
 
 En la siguiente lista se describen los campos de la página.
 
 - **Nombre** Identifica la configuración de la reunión.
 
-- **Ámbito** Identifica el ámbito de la configuración de la reunión: global, sitio o grupo.
+- **Ámbito** Identifica el ámbito de la configuración de la reunión: global, de sitio o de grupo.
 
-Para más detalles sobre cómo trabajar con configuraciones de reunión, mire [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) en la documentación de operaciones.
+Para obtener detalles sobre cómo trabajar con configuraciones de reunión, vea [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) en la documentación de operaciones.
 
 
