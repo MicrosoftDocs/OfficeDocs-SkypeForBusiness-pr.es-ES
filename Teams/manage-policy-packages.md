@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia a la hora de administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 62250644d29f65a9c650db0e80477eec6baf4f3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
+ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49839454"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49862581"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -64,8 +64,8 @@ Teams incluye actualmente los siguientes paquetes de directiva.
 |Educación (profesor)    |Crea un conjunto de directivas y configuraciones de directivas que se aplican a los profesores.      |
 |Educación (profesor de educación primaria con aprendizaje remoto)    |Crea un conjunto de directivas que se aplican a los profesores de primaria para maximizar la seguridad y colaboración de los alumnos al usar la formación remota.      |
 |Educación (estudiante de escuela primaria con aprendizaje remoto)    |Crea un conjunto de directivas que se aplican a los alumnos de primaria para maximizar la seguridad y colaboración de los alumnos al usar la formación remota.      |
-|Firstline Manager |Crea un conjunto de directivas y aplica esa configuración a los administradores de primera línea de su organización. |
-|Trabajador de primera línea |Crea un conjunto de directivas y aplica esa configuración a los Firstline Workers de su organización. |
+|Administrador de frontline manager |Crea un conjunto de directivas y aplica esa configuración a los administradores de fronttlines de su organización. |
+|Trabajador de la línea frontal |Crea un conjunto de directivas y aplica esa configuración a los trabajadores de fronttline de su organización. |
 |Trabajador sanitario  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores clínicos como enfermeras registradas, enfermeras responsables, médicos y trabajadores sociales acceso total a chat, llamadas, administración de turnos y reuniones. |
 |Trabajador de la información sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores de la información, como el personal de IT, el personal de informática, el personal de finanzas y los responsables de cumplimiento normativo, acceso total a chats, llamadas y reuniones.|
 |Sala de pacientes sanitarios  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización sanitaria.|
