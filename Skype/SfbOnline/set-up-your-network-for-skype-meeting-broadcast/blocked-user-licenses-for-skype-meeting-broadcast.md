@@ -18,45 +18,48 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Lamentablemente, hay determinadas licencias de usuario que se bloquean cuando el usuario https://broadcast.skype.com va a la difusión de reunión de Skype y quiere usarla. Si un usuario ve este mensaje, quiere decir que tiene una de las licencias bloqueadas asignadas. Si aún así quiere que lo utilicen, asígneles otra licencia de Office 365.
-ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Desafortunadamente, hay determinadas licencias de usuario que se bloquean cuando el usuario va a la reunión y https://broadcast.skype.com desea usar difusión de reunión de Skype. Si un usuario ve este mensaje, tiene asignada una de las licencias bloqueadas. Si desea que lo usen, asígneles otra licencia de Office 365.
+ms.openlocfilehash: 0b2791f0f3d04de7e1383516b0c44cf392233761
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706145"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865154"
 ---
-# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licencias de usuario bloqueadas para el alojamiento de difusión de reunión de Skype
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licencias de usuario bloqueadas para hospedar difusión de reunión de Skype
 
-Lamentablemente, hay determinadas licencias de usuario que se bloquean cuando los usuarios https://broadcast.skype.com van y desean hospedar una difusión de reunión de Skype. Si un usuario ve este mensaje, quiere decir que tiene una de las licencias bloqueadas asignadas. Si aún así quiere que lo utilicen, asígneles otra licencia de Office 365.
+> [!IMPORTANT]
+> Skype Empresarial Online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Animamos a los clientes a comenzar la actualización a Microsoft Teams, el cliente principal de comunicaciones y trabajo en equipo en Microsoft 365.
+
+Desafortunadamente, hay determinadas licencias de usuario que se bloquean cuando los usuarios van a una difusión de reunión de Skype y quieren https://broadcast.skype.com hospedarla. Si un usuario ve este mensaje, tiene asignada una de las licencias bloqueadas. Si desea que lo usen, asígneles otra licencia de Office 365.
   
- *"La Directiva de la empresa no le permite usar la difusión de reunión de Skype. Consulte con el administrador del sistema para asegurarse de que el servicio está habilitado y de que tiene la licencia correcta.* 
+ *"La directiva de su empresa no le permite usar Difusión de reunión de Skype. Consulte con el administrador del sistema para asegurarse de que el servicio está habilitado y de que tiene la licencia correcta".* 
   
 ## <a name="blocked-user-licenses"></a>Licencias de usuario bloqueadas 
 
-El hospedaje de eventos de difusión de reunión de Skype se bloqueará si se asigna a un usuario cualquiera de las siguientes licencias de usuario. Los asistentes que transmiten eventos de difusión no necesitan licencias de usuario.
+El hospedaje de eventos de Difusión de reunión de Skype se bloqueará si cualquiera de las siguientes licencias de usuario están asignadas a un usuario. Los asistentes que hacen streaming de eventos de difusión no necesitan ninguna licencia de usuario.
   
-- Office 365 educación FAC/personal
+- Fac/Staff de Office 365 Educación
     
-- Estudiante de Office 365 Education
+- Office 365 Educación para estudiantes
     
-- Office 365 educación Plus FAC/personal
+- Office 365 Educación Plus Fac/Staff
     
-- Alumno de Office 365 educación Plus
+- Office 365 Educación Plus Estudiantes
     
-- Office 365 educación E1 FAC/personal
+- Fac/Staff de Office 365 Educación E1
     
-- Alumno de Office 365 educación E1
+- Office 365 Educación E1 Student
     
-- Office 365 educación E3 FAC/personal
+- Fac/Staff de Office 365 Educación E3
     
-- Office 365 educación E3 FAC/personal grande
+- Office 365 Educación E3 Fac/Staff Large
     
-- Estudiante de Office 365 educación E3
+- Office 365 Educación E3 Para estudiantes
     
-- Beneficios de uso del estudiante de Office 365 a1
+- Ventajas de uso para estudiantes de Office 365 A1
     
-- Microsoft 365 a1 estudiante ventajas del uso
+- Ventajas de uso para estudiantes de Microsoft 365 A1
 
     
 ## <a name="related-topics"></a>Temas relacionados
