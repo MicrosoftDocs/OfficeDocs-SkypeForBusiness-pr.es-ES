@@ -1,7 +1,7 @@
 ---
 title: Información general de los equipos y canales en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: MikePlumleyMSFT
+ms.author: mikeplum
 ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6c4e8f37a00ddfb464630eeb644db3d550781d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
-ms.translationtype: HT
+ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534957"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865174"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 

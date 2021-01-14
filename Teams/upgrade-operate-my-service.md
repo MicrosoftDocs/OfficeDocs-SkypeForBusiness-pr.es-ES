@@ -50,7 +50,7 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías, como se m
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Revise la Guía de operaciones en su totalidad.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y la confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la Guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar revisiones periódicas de la calidad de la experiencia con el objeto de asegurarse de que la implementación de Teams funciona en sus mejores capacidades.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Revise la Guía de operaciones en su totalidad.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y la confiabilidad de las cargas de trabajo de Teams.</li><li>Revise la Guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar revisiones periódicas de la calidad de la experiencia con el objeto de asegurarse de que la implementación de Teams funciona en sus mejores capacidades.</li></ul></td></tr>
 
 </table>
 
@@ -69,7 +69,7 @@ Asegúrese de que cada equipo responsable tenga un buen conocimiento de las acti
 Una vez que se ha alcanzado un acuerdo, los equipos correspondientes deberían comenzar a poner en funcionamiento sus roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td>
 <td><ul><li>Use este documento para facilitar el ejercicio de asignación de funciones operativas.</li><li>Reúnase con los respectivos equipos de soporte técnico para asignar nombres a cada elemento en la lista de actividades necesarias.</li><li>Obtenga la aceptación o la aprobación de los roles asignados.</li><li>Asegúrese de que los equipos correspondientes tengan la formación, la preparación y los recursos adecuados para completar las actividades que se les requieran.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependencias del servicio de Teams
