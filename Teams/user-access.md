@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdfddfe43fd977099a02df61bb74146afcb05d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7d49b27de8fe6c6d13ef6ac626764b13e1fe36a0
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804410"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871019"
 ---
 # <a name="manage-user-access-to-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 
@@ -32,7 +32,7 @@ Para administrar el acceso a Teams en el nivel de usuario, asigne o quite una li
 
 De forma predeterminada, cuando se asigna a un usuario un plan de licencias (por ejemplo, Microsoft 365 Enterprise E3 o Microsoft 365 Business Premium), se asigna automáticamente una licencia de Teams y se habilita al usuario para Teams. Puede deshabilitar o habilitar Teams para un usuario quitando o asignando una licencia en cualquier momento.
 
-Use las directivas de mensajería, administradas desde el Centro de administración <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de Teams,</a>para controlar las características de mensajería de canal y chat que están disponibles para los usuarios en Teams. Puede usar la directiva predeterminada o bien crear una o más directivas de mensajería personalizadas para los miembros de su organización. Para obtener más información, lea [Administrar directivas de mensajería en Teams](messaging-policies-in-teams.md).
+Use las directivas de mensajería, administradas desde el Centro de administración <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de Teams,</a>para controlar las características de mensajería de canal y chat disponibles para los usuarios de Teams. Puede usar la directiva predeterminada o bien crear una o más directivas de mensajería personalizadas para los miembros de su organización. Para obtener más información, lea [Administrar directivas de mensajería en Teams](messaging-policies-in-teams.md).
 Puede administrar las licencias de Teams en el Centro de administración de Microsoft 365 o mediante PowerShell. Debe ser administrador global o administrador de administración de usuarios para poder administrar las licencias.
 
 > [!NOTE]
@@ -94,22 +94,18 @@ Ejecute el siguiente comando para mostrar todos los planes de licencias disponib
 Get-MsolAccountSku
 ```
 
-Ejecute los comandos siguientes, donde se encuentra el nombre de la organización y el identificador del plan de licencias que resalte \<CompanyName:License> en el paso anterior. Por ejemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
+Ejecute los comandos siguientes, donde se encuentra el nombre de su organización y el identificador del plan de licencias que resalte \<CompanyName:License> en el paso anterior. Por ejemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
 $acctSKU="<CompanyName:License>
 $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 
-Ejecute el siguiente comando para deshabilitar Teams para todos los usuarios que tengan una licencia activa para el plan de licencias.
+Ejecute el siguiente comando para deshabilitar Teams para todos los usuarios que tienen una licencia activa para el plan de licencias.
 
 ```powershell
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
-
-## <a name="manage-teams-at-the-organization-level"></a>Administrar equipos en el nivel de la organización
-
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 ## <a name="related-topics"></a>Temas relacionados
 

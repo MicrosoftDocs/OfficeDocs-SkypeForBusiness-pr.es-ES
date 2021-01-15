@@ -1,5 +1,5 @@
 ---
-title: Administración de números de teléfono para el Reino Unido
+title: Administración de números de teléfono para Reino Unido
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,27 +21,27 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en el Reino Unido para Microsoft Teams.
-ms.openlocfilehash: f35d1dba6a32306c37143a03a745e46a32e3109c
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 3a2267aaa0e37aed5df7f06fc85310448c368384
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324156"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868285"
 ---
-# <a name="phone-number-management-for-the-united-kingdom"></a>Administración de números de teléfono para el Reino Unido
+# <a name="phone-number-management-for-the-united-kingdom"></a>Administración de números de teléfono para Reino Unido
 
-Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en el Reino Unido para Microsoft Teams. 
+Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en el Reino Unido para Microsoft Teams.
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtener nuevos números de teléfono de usuario o de servicio que no se muestran en el centro de administración de Microsoft Teams.   <br/> |Descargue este formulario. <br/> [Nueva solicitud de número de teléfono para el Reino Unido (v. 5.0) (en-GB)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
-|Obtener números de teléfono transferidos a nosotros.  <br/> |Descargue uno de estos formularios: <br/> [Carta de autorización (LOA) para el Reino Unido (números geográficos) (v. 5.0) (en-EE. UU.)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> [Carta de autorización (LOA) para el Reino Unido (números gratuitos) (v. 5.0) (en-EE. UU.)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(toll-free-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> <br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
-|Publicar o anular la publicación de números de teléfono en el directorio telefónico nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
-|Cambiar el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para la cola de llamadas o números de operador automático|Para agregar o cambiar números de cola de llamadas o de operador automático, póngase en contacto con [el servicio de asistencia al cliente de RTC](contact-pstn-service-desk.md). |
-   
+|Obtenga nuevos números de teléfono de servicio o usuario que no aparecen en el Centro de administración de Microsoft Teams.   <br/> |Descargue este formulario. <br/> [Nueva solicitud de número de teléfono para Reino Unido (v.5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
+|Que nos transfieran números de teléfono.  <br/> |Descargue este formulario: <br/> [Carta de autorización (LOA) para el Reino Unido (todos los números) (v.6.1) (es-ES)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
+|Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de la cola de llamadas o del operador automático|Para agregar o cambiar los números de la cola de llamadas o del operador automático, póngase en contacto con [el servicio de asistencia RTC.](contact-pstn-service-desk.md) |
+
 ## <a name="related-topics"></a>Temas relacionados
 
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -50,8 +50,4 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
   
-[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 
-
-  
- 
+[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
