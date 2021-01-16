@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Utilice esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Irlanda para Microsoft Teams.
-ms.openlocfilehash: 8795dd57e165f354318d780da1ccee4d87cff9a4
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Irlanda para Microsoft Teams.
+ms.openlocfilehash: 0526bd1827f838298a86498d93c3e24acb0e38be
+ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868295"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876714"
 ---
 # <a name="phone-number-management-for-ireland"></a>Administración de números de teléfono para Irlanda
 
-Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Irlanda para Microsoft Teams. 
+Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Irlanda para Microsoft Teams.
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
