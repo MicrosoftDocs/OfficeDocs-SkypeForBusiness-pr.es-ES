@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: 447aa83af836eefb854f3917738020badee2f33c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
+ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806220"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49903571"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -51,6 +51,26 @@ Debe ser administrador del servicio de Teams para realizar estos cambios. Consul
 
 > [!CAUTION]
 > Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta opción.
+
+## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Permitir que usuarios anónimos interactúen con aplicaciones en reuniones
+
+Ahora, los usuarios anónimos heredarán la directiva de permisos predeterminada global a nivel de usuario. Este control permitirá a los usuarios anónimos interactuar con aplicaciones en reuniones de Teams siempre que la directiva de permisos a nivel de usuario haya habilitado la aplicación. Tenga en cuenta que los usuarios anónimos solo pueden interactuar con aplicaciones que ya están disponibles en una reunión y que no pueden adquirir ni administrar estas aplicaciones. 
+
+> [!IMPORTANT]
+> De forma predeterminada, la configuración para permitir que los usuarios anónimos interactúen con las aplicaciones en reuniones está habilitada.
+
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
+
+Debe ser administrador del servicio de Teams para tener acceso a esta configuración. Consulte [Usar los roles de administrador de Teams para administrar Teams y](https://docs.microsoft.com/microsoftteams/using-admin-roles) obtener información sobre cómo obtener permisos y roles de administrador.
+
+1. Vaya al centro de administración.
+
+2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
+
+3. En **Participantes,** se puede cambiar la configuración **para que los usuarios anónimos** puedan interactuar con aplicaciones en reuniones.
+
+> [!CAUTION]
+> Si no desea que usuarios anónimos interactúen con aplicaciones en reuniones programadas por los usuarios de su organización, desactive esta configuración.
 
 ## <a name="customize-meeting-invitations"></a>Personalice las invitaciones a reuniones
 

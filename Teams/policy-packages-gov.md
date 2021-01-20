@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización gubernamental.
-ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812890"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909084"
 ---
 # <a name="teams-policy-packages-for-government"></a>Paquetes de directivas de Teams para administración pública
 
@@ -46,8 +46,8 @@ Teams incluye actualmente los siguientes paquetes de directiva para administraci
 |Nombre del paquete en el Centro de administración de Microsoft Teams|Recomendado para|Descripción |
 |---------|---------|---------|
 |Responsable de seguridad pública  |Responsables de seguridad pública de su organización gubernamental  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a los responsables de seguridad pública de su organización. |
-|Firstline Manager  |Administradores de primera línea de la organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los administradores de primera línea de su organización.|
-|Trabajador de primera línea  |Firstline Workers in your government organization |Crea un conjunto de directivas y aplica esa configuración a los Firstline Workers de su organización.|
+|Administrador de frontline manager  |Jefes de línea frontal de su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los administradores de frontline en su organización.|
+|Trabajador de la primera línea  |Trabajadores de primera línea de su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los trabajadores de frontline workers de su organización.|
 
 ![Captura de pantalla de paquetes de directivas sanitarias](media/policy-packages-gov.png)
 

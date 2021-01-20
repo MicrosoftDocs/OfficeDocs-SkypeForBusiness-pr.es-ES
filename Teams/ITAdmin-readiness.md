@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b3aac3aa5678608a4020b603026401d8cf8e6b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 33519f6873d2c2479f01dc6a408f279e47e35718
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809390"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908934"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje de administradores de Microsoft Teams
 
@@ -84,7 +84,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Configurar el gobierno en Microsoft Teams                                     | Aprenda a crear una directiva de retención de mensajes de Teams para su organización y a archivar, eliminar y restaurar equipos individuales                                                                                   |  [Configurar el gobierno en la guía de Microsoft Teams](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Configuración e implementación de reuniones de Microsoft Teams                          | Avance en el proceso de implementación de la carga de trabajo de reuniones para Microsoft Teams.                                                                                                                                       |  [Guía de configuración e implementación de reuniones de Microsoft Teams](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Configurar Audioconferencia para Microsoft Teams                            | Descubra las funciones de Audioconferencia en Teams y aprenda a asignar puentes de conferencia y números de teléfono de acceso telefónico local.                                                                                          |  [Configurar audioconferencias para la guía de Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Configurar Microsoft Teams para los Firstline Workers                           | Obtenga información sobre cómo configurar e implementar el entorno adecuado de Microsoft Teams para su Firstline Workforce.                                                                                                                  | [Configurar Microsoft Teams para la guía de los Firstline Workers](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Configurar Microsoft Teams para los trabajadores de primera línea                           | Obtenga información sobre cómo configurar e implementar el entorno adecuado de Microsoft Teams para sus empleados de frontline workforce.                                                                                                                  | [Configurar la guía de Microsoft Teams para los trabajadores de primera línea](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>Guías de inicio rápido</h2>
 

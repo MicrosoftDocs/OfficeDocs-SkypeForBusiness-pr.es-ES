@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba8c1129edbff492d09ea5c103c25c399fc4a58a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822740"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909404"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tareas de su organización en Microsoft Teams
 
@@ -33,34 +33,34 @@ ms.locfileid: "49822740"
 La aplicación Tareas ofrece una experiencia cohesiva de administración de tareas en Microsoft Teams, integrando tareas individuales con tecnología de [Microsoft To Do](https://todo.microsoft.com/tasks/) y tareas de equipo con tecnología de Planner en un solo lugar. Los usuarios pueden acceder a Tareas como una aplicación en el lado izquierdo de Teams y como una pestaña en un canal dentro de equipos individuales. **Mis tareas y** **planes compartidos en** Tareas permiten a los usuarios ver y administrar todas sus tareas individuales y de equipo, y priorizar su trabajo. Tareas está disponible en clientes móviles, web y de escritorio de Teams. 
 
 > [!NOTE]
-> A medida que se despliegue la experiencia de Tareas en los clientes de escritorio de Teams, el nombre de la aplicación aparecerá inicialmente como **Planner** para los usuarios. Posteriormente, Planner y **To Do** cambiarán temporalmente el nombre a Tareas y, más adelante, se cambiará el nombre a **Tareas.** En los clientes móviles de Teams, los usuarios siempre verán el nombre de la aplicación como **Tareas.** Es posible que haya un retraso breve en la disponibilidad de la experiencia móvil después de que la experiencia de escritorio esté disponible.
+> A medida que se despliegue la experiencia de Tareas en los clientes de escritorio de Teams, el nombre de la aplicación aparecerá inicialmente como **Planner** para los usuarios. A continuación, Planner y **To Do** cambiarán temporalmente el nombre a Tareas y, más adelante, se cambiará el nombre a **Tareas.** En los clientes móviles de Teams, los usuarios siempre verán el nombre de la aplicación como **Tareas.** Es posible que haya un retraso breve en la disponibilidad de la experiencia móvil después de que la experiencia de escritorio esté disponible.
 
    ![Captura de pantalla de la vista de lista de tareas en la lista de Teams](media/manage-tasks-app-tasks.png)
 
-En el caso de las organizaciones que desean simplificar la administración de tareas para los Firstline Workers, Tasks también incluye funciones que le permiten dirigir, publicar y realizar un seguimiento de las tareas a escala en todo el personal de primera línea. Por ejemplo, los líderes corporativos y regionales pueden crear y publicar listas de tareas dirigidas a ubicaciones relevantes, como tiendas minoristas específicas, y realizar un seguimiento del progreso a través de informes en tiempo real. Los administradores pueden asignar tareas a su personal y actividades directas dentro de sus ubicaciones, y los Firstline Workers tienen una lista con prioridades de sus tareas asignadas en dispositivos móviles o escritorios. Para habilitar [la publicación](#task-publishing)de tareas, primero debe configurar una jerarquía de segmentación de equipos para su organización, que define cómo se relacionan entre sí todos los equipos de la jerarquía.
+Para las organizaciones que desean simplificar la administración de tareas para los trabajadores frontline workers, Tareas también incluye funciones que le permiten dirigir, publicar y realizar un seguimiento de las tareas a escala en toda la fuerza de trabajo de la línea frontal. Por ejemplo, los líderes corporativos y regionales pueden crear y publicar listas de tareas dirigidas a ubicaciones relevantes, como tiendas minoristas específicas, y realizar un seguimiento del progreso a través de informes en tiempo real. Los administradores pueden asignar tareas a su personal y actividades directas dentro de sus ubicaciones, y los Trabajadores de primera línea tienen una lista con prioridades de sus tareas asignadas en dispositivos móviles o equipos de escritorio. Para habilitar [la publicación](#task-publishing)de tareas, primero debe configurar una jerarquía de segmentación de equipos para su organización, que define cómo se relacionan entre sí todos los equipos de la jerarquía.
 
 ## <a name="what-you-need-to-know-about-tasks"></a>Lo que debe saber sobre Tareas
 
 Las tareas están disponibles como aplicación y como pestaña en un canal. Tenga en cuenta que la aplicación incluye tanto tareas individuales de Tareas pendientes como tareas de equipo de Planner, mientras que en la pestaña solo se muestran las tareas de equipo.
 
-Con Tareas, los usuarios obtienen una experiencia móvil, web y de escritorio. Si Tareas está instalada en el cliente de escritorio de Teams, los usuarios también la verán en sus clientes móviles y web de Teams. La excepción son los usuarios invitados. Es importante saber que los invitados solo pueden acceder a Tareas como aplicación desde el cliente móvil de Teams. Los invitados verán las pestañas Tareas en los clientes web y de escritorio de Teams.
+Con Tareas, los usuarios obtienen una experiencia móvil, web y de escritorio. Si Tareas está instalada en el cliente de escritorio de Teams, los usuarios también la verán en sus clientes móviles y web de Teams. La excepción son los usuarios invitados. Es importante saber que los invitados solo pueden acceder a Tareas como una aplicación desde el cliente móvil de Teams. Los invitados verán las pestañas Tareas en los clientes web y de escritorio de Teams.
 
 **Mis tareas** muestran las tareas individuales de un usuario. **Los planes compartidos** muestran las tareas en las que está trabajando todo el equipo e incluyen cualquier lista de tareas que se agrega como una pestaña Tareas a un canal. Tenga en cuenta lo siguiente:
 
-- Las listas de tareas que crea un usuario en la aplicación Tareas también aparecerán en los clientes de To Do para ese usuario. De forma similar, las listas de tareas que cree un usuario en To Do aparecerán en Mis **tareas** en Tareas para ese usuario. Lo mismo ocurre con las tareas individuales.
+- Las listas de tareas que crea un usuario en la aplicación Tareas también aparecerán en los clientes de To Do para ese usuario. De forma similar, las listas de tareas que un usuario crea en To Do aparecerán en Mis **tareas** en Tareas para ese usuario. Lo mismo ocurre con las tareas individuales.
 
 - Cualquier pestaña Tareas que se agrega a un canal también aparecerá en los clientes de Planner. Cuando un usuario crea un plan en Planner, el plan no se muestra en la aplicación Tareas o Planner a menos que se agrega como una pestaña a un canal. Cuando un usuario agrega una nueva pestaña Tareas, puede crear una lista o un plan, o elegir uno existente.
 
 ## <a name="set-up-tasks"></a>Configurar tareas
 
 > [!IMPORTANT]
-> Las opciones de configuración y directivas que haya configurado para Planner también se aplicarán a Las tareas.
+> Las opciones de configuración y directivas que haya configurado para Planner también se aplicarán a Tareas.
 
 ### <a name="enable-or-disable-tasks-in-your-organization"></a>Habilitar o deshabilitar tareas en su organización
 
 Las tareas están habilitadas de forma predeterminada para todos los usuarios de Teams en su organización. Puede desactivar o activar la aplicación en el [](manage-apps.md) nivel de la organización en la página Administrar aplicaciones del Centro de administración de Microsoft Teams.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones**  >  **de** Teams.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones de Teams.**  >  
 2. En la lista de aplicaciones, realice una de las siguientes acciones:
 
     - Para desactivar tareas para su organización, busque la aplicación Tareas, selecciónelo y, a continuación, haga clic en **Bloquear.**
@@ -77,13 +77,13 @@ Para permitir o impedir que determinados usuarios de la organización utilicen [
 
 Las directivas de configuración de aplicaciones le permiten personalizar Teams para resaltar las aplicaciones más importantes para los usuarios de su organización. Las aplicaciones que establezca en una directiva se anclan en la barra de aplicaciones situada a un lado del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams, donde los usuarios pueden acceder a ellos de forma rápida y &mdash; &mdash; sencilla.
 
-Para anclar la aplicación Tareas para sus usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar directivas de configuración de aplicaciones en Teams.](teams-app-setup-policies.md)
+Para anclar la aplicación Tareas a los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar directivas de configuración de aplicaciones en Teams.](teams-app-setup-policies.md)
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Las tareas de un usuario son visibles si el usuario tiene licencia para Exchange Online
 
 Si no desea que un usuario vea Mis **tareas,** puede ocultarla. Para ello, [quite la licencia de Exchange Online del usuario.](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) Es importante saber que después de quitar una licencia de Exchange Online, el usuario ya no tiene acceso a su buzón.  Los datos del buzón se mantienen durante 30 días, tras los cuales los datos se quitarán y no se podrán recuperar a menos que el buzón se coloque en retención local o en retención [por juicio.](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)
 
-No lo recomendamos para los trabajadores de la información, pero puede haber algunos escenarios en los que esto podría aplicarse, como los Trabajadores de primera línea que no dependen del correo electrónico.
+No lo recomendamos para los trabajadores de la información, pero puede haber algunos escenarios en los que esto podría aplicarse, como los trabajadores de primera línea que no dependen del correo electrónico.
 
 ## <a name="task-publishing"></a>Publicación de tareas
 
@@ -91,13 +91,13 @@ Con la publicación de tareas, su organización puede publicar listas de tareas 
 
 - Los miembros del equipo de publicación, como los líderes corporativos o regionales, pueden crear listas de tareas y publicarlas en equipos específicos.<br>
     ![Captura de pantalla de publicación de tareas](media/manage-tasks-app-publish.png)
-- Los administradores de los equipos destinatarios pueden revisar las listas de tareas publicadas y asignar tareas individuales a los miembros del equipo.<br>
+- Los administradores de los equipos de destinatarios pueden revisar las listas de tareas publicadas y asignar tareas individuales a los miembros del equipo.<br>
     ![Captura de pantalla de la asignación de una tarea](media/manage-tasks-app-assign.png)
-- Los Firstline Workers tienen una experiencia móvil sencilla para ver las tareas que se les han asignado. Pueden adjuntar fotos para mostrar su trabajo cuando sea necesario y marcar sus tareas como completadas.
+- Los Trabajadores de primera línea tienen una experiencia móvil sencilla para ver las tareas que se les asignaron. Pueden adjuntar fotos para mostrar su trabajo cuando sea necesario y marcar sus tareas como completadas.
 - Los editores y administradores pueden ver informes para ver el estado de finalización y asignación de las tareas en cada nivel, incluso por ubicación (equipo), lista de tareas y tarea individual.<br>
     ![Captura de pantalla de tareas asignadas en dispositivos móviles](media/manage-tasks-app-reporting.png)
 
-Los usuarios crean, administran y publican listas de tareas en la pestaña **Listas publicadas** de la aplicación Tareas. Esta pestaña solo se muestra [](#set-up-your-team-targeting-hierarchy) para un usuario si su organización configura una jerarquía de destino de equipo y el usuario se encuentra en un equipo que se incluye en la jerarquía. La jerarquía determina si el usuario puede publicar o recibir listas de tareas y ver los informes de las listas recibidas.
+Los usuarios crean, administran y publican listas de tareas en la **pestaña Listas publicadas** de la aplicación Tareas. Esta pestaña solo se muestra [](#set-up-your-team-targeting-hierarchy) para un usuario si su organización configura una jerarquía de destino de equipo y el usuario se encuentra en un equipo que se incluye en la jerarquía. La jerarquía determina si el usuario puede publicar o recibir listas de tareas y ver los informes de las listas recibidas.
 
 ### <a name="example-scenario"></a>Escenario de ejemplo
 
@@ -109,15 +109,15 @@ El equipo de Marketing comparte los detalles de la promoción y la lista corresp
 
 Los administradores de store en cada ubicación reciben una copia de las tareas publicadas y las asignan a los miembros de su equipo. Los administradores pueden usar la experiencia de tareas para comprender todo el trabajo requerido en su tienda. También pueden usar los filtros disponibles para centrarse en un conjunto específico de trabajo, como el trabajo que vence hoy o el trabajo en un área específica.
 
-Los Firstline Workers en cada ubicación de la tienda ahora tienen una lista con prioridades de su trabajo en Tareas en su dispositivo móvil. Cuando finalizan una tarea, la marcan como completada. Algunos pueden incluso elegir cargar y adjuntar una foto a la tarea para mostrar su trabajo.
+Los trabajadores de frontline workers en cada ubicación de la tienda ahora tienen una lista con prioridades de su trabajo en Tareas en su dispositivo móvil. Cuando finalizan una tarea, la marcan como completada. Algunos pueden incluso elegir cargar y adjuntar una foto a la tarea para mostrar su trabajo.
 
-La sede central de Contoso y los administradores intermedios pueden ver los informes para ver el estado de finalización y asignación de las tareas en cada tienda y en varias tiendas. También pueden explorar en profundidad una tarea específica para ver el estado en diferentes almacenes. A medida que la fecha de lanzamiento se acerca, pueden detectar cualquier anormalidad y consultar a sus equipos según sea necesario. Esta visibilidad permite a Contoso mejorar la eficiencia del lanzamiento y proporcionar una experiencia más coherente en sus tiendas.
+La sede central de Contoso y los administradores intermedios pueden ver los informes para ver el estado de finalización y asignación de las tareas en cada tienda y en todas las tiendas. También pueden explorar en profundidad una tarea específica para ver el estado en diferentes almacenes. A medida que la fecha de lanzamiento se acerca, pueden detectar cualquier anormalidad y consultar a sus equipos según sea necesario. Esta visibilidad permite a Contoso mejorar la eficiencia del lanzamiento y proporcionar una experiencia más coherente en sus tiendas.
 
 ### <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de segmentación de equipos
 
 Para habilitar la publicación de tareas en su organización, primero tiene que configurar el esquema de destino de grupo en un . Archivo CSV. El esquema define cómo se relacionan entre sí todos los equipos de la jerarquía y los atributos usados para filtrar y seleccionar equipos. Después de crear el esquema, súbalo a Teams para aplicarlo a su organización. Los miembros del equipo de publicación (como el Administrador de comunicaciones comerciales en el escenario de ejemplo) pueden filtrar los equipos por jerarquía, atributos o una combinación de ambos para seleccionar los equipos pertinentes que recibirán las listas de tareas y, a continuación, publicar las listas de tareas en esos equipos.
 
-Para obtener información sobre cómo configurar la jerarquía de segmentación de equipos, vea [Configurar la jerarquía de segmentación de equipos.](set-up-your-team-hierarchy.md)
+Para obtener información sobre cómo configurar la jerarquía de segmentación de equipos, vea Configurar la jerarquía de segmentación [de equipos.](set-up-your-team-hierarchy.md)
 
 ## <a name="power-automate-and-graph-api"></a>API power automate y graph
 

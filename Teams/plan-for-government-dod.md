@@ -1,5 +1,5 @@
 ---
-title: Implementaciones de Office 365 administración pública
+title: Office 365 Administración Público - Implementaciones DoD
 author: SerdarSoysal
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
 audience: admin
-description: Instrucciones para los profesionales de TI para impulsar implementaciones de Office 365 en entidades que controlan datos sujetos a la normativa DoD de Estados Unidos.
+description: Guía para profesionales de TI para impulsar las implementaciones de Office 365 en entidades que administran datos sujetos a las normas DoD del gobierno de Estados Unidos.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,75 +19,78 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04b0833f453ffac96e9fe2c9cef1b0f2a0797ca2
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 954eb24cd0d6c79ab3fd30e22521660d2afeb08e
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581261"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909164"
 ---
-# <a name="plan-for-office-365-government---dod-deployments"></a>Planear las implementaciones de Office 365 administración pública
+# <a name="plan-for-office-365-government---dod-deployments"></a>Plan para Office 365 Administración Público - Implementaciones DoD
 
-Esta guía es para los profesionales de ti que están implantando implementaciones de Office 365 en entidades de gobierno federal de Estados Unidos u otras entidades que tratan datos sujetos a reglamentaciones gubernamentales y requisitos, donde el uso de la administración pública de Office 365 es adecuado para cumplir con estos requisitos.
+Esta guía es para profesionales de TI que impulsan las implementaciones de Office 365 en entidades gubernamentales federales de Estados Unidos u otras entidades que administran datos que están sujetos a normativas y requisitos gubernamentales, donde el uso de Office 365 Administración Público (DoD) es adecuado para cumplir con estos requisitos.
 
 > [!NOTE]
-> Si su organización ya ha cumplido los requisitos de elegibilidad de Office 365: DoD y ha sido solicitado y ha sido aceptado en el programa, puede omitir los pasos 1 y 2 y ir directamente al paso 3.
+> Si su organización ya cumple los requisitos de elegibilidad para DoD de Office 365 Government, y ha solicitado y aceptado en el programa, puede omitir los pasos 1 y 2 e ir directamente al paso 3.
 
-## <a name="step-1-determine-whether-your-organization-needs-office-365-government---dod-and-meets-eligibility-requirements"></a>Paso 1. Determine si su organización necesita Office 365 Government-DoD y cumple con los requisitos de elegibilidad. 
+## <a name="step-1-determine-whether-your-organization-needs-office-365-government---dod-and-meets-eligibility-requirements"></a>Paso 1. Determinar si su organización necesita Office 365 Government - DoD y cumple los requisitos de elegibilidad. 
 
-El entorno de Office 365 Government-DoD ofrece cumplimiento de los requisitos del gobierno de los Estados Unidos para servicios en la nube. Además de disfrutar de las características y capacidades de Office 365, las organizaciones se benefician de las siguientes características que son exclusivas de Office 365 administración pública: DoD:
+El entorno De Office 365 Administración Pública - DoD cumple los requisitos de la administración pública de EE. UU. para los servicios en la nube. Además de disfrutar de las características y capacidades de Office 365, las organizaciones se benefician de las siguientes características que son exclusivas de Office 365 Government – DoD:
 
-- El contenido del cliente de su organización se separa lógicamente del contenido del cliente en los servicios comerciales de Office 365 de Microsoft.
-- El contenido de los clientes de su organización se almacena dentro de los Estados Unidos.
-- El acceso al contenido de los clientes de su organización está restringido al personal de Microsoft de la pantalla.
-- Office 365 Government – DoD cumple con las certificaciones y acreditaciones necesarias para los clientes del sector público de los Estados Unidos.
+- El contenido de cliente de la organización se separa lógicamente del contenido del cliente en los servicios comerciales de Office 365 de Microsoft.
+- El contenido de cliente de su organización se almacena en Estados Unidos.
+- El acceso al contenido de cliente de su organización está restringido al personal de Microsoft con pantalla.
+- Office 365 Administración Pública: DoD cumple con las certificaciones y los procesos necesarios para los clientes del sector público de Ee. UU.
 
-Puede encontrar más información sobre el Office 365 Government, la oferta DoD para clientes del gobierno de los Estados Unidos en [office 365 planes gubernamentales](https://products.office.com/government/compare-office-365-government-plans), incluidos [los requisitos de elegibilidad](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
+Puedes encontrar más información sobre la oferta de Office 365 Government - DoD para clientes de Administración Pública de EE. UU. en los planes de [Office 365 Government,](https://products.office.com/government/compare-office-365-government-plans)incluidos los requisitos [de elegibilidad.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
 
-La [Descripción del servicio del gobierno de Office 365 Estados](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) Unidos describe los beneficios de la plataforma, que están centrados en cumplir los requisitos de cumplimiento de las normas de los Estados Unidos.
+La descripción del servicio [Office 365 US Government](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describe las ventajas de la plataforma, que están centradas en cumplir los requisitos de cumplimiento en Estados Unidos.
 
 
 > [!Tip]
-> Es posible que desee transferir las tablas de información de la descripción del servicio a un libro de Excel y agregar dos columnas: **relevante para mi organización y/n** y **satisface las necesidades de mi organización y/n**. Después, puede revisar esta lista con sus colegas para confirmar que este servicio cumple con las necesidades de su organización.
+> Es posible que desee transferir las tablas de información de la descripción del servicio a un libro de Excel y agregar dos columnas: Relevante para mi organización **Y/N** y cumple las necesidades de mi organización **Y/N.** Después, puede revisar esta lista con sus compañeros para confirmar que este servicio cumple las necesidades de su organización.
 
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Office 365 Government-DoD es adecuado para su organización.</li><li>Confirme que su organización cumple con los requisitos de elegibilidad.</li></ul> |
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si Office 365 Administración Público- DoD es adecuado para su organización.</li><li>Confirma que tu organización cumple los requisitos de elegibilidad.</li></ul> |
 
 > [!Note]
-> Office 365 Government-DoD solo está disponible en los Estados Unidos. Los clientes que no sean Estados Unidos pueden elegir entre varios [planes de Office 365 administración pública](https://products.office.com/en/government/compare-office-365-government-plans).
+> Office 365 Administración Público: El doD solo está disponible en Estados Unidos. Los clientes de administración público que no son de EE. UU. pueden elegir entre varios planes [de Office 365 Government.](https://products.office.com/en/government/compare-office-365-government-plans)
 
-## <a name="step-2-apply-for-office-365-government---dod"></a>Paso 2. Solicitar Office 365 administración pública-DoD
+## <a name="step-2-apply-for-office-365-government---dod"></a>Paso 2. Solicitar para Office 365 Administración Público - DoD
 
-Tras haber decidido que este servicio es adecuado para su organización, inicie el proceso de [solicitud de este servicio](https://products.office.com/government/eligibility-validation).
+Después de decidir que este servicio es adecuado para su organización, inicie el proceso de [solicitud de este servicio.](https://products.office.com/government/eligibility-validation)
 
 
-## <a name="step-3-understand-office-365-government---dod-default-security-settings"></a>Paso 3. Comprender la configuración de seguridad predeterminada de Office 365 Government: DoD.
+## <a name="step-3-understand-office-365-government---dod-default-security-settings"></a>Paso 3. Información sobre Office 365 Administración Pública: configuración de seguridad predeterminada de DoD.
 
-Le recomendamos que tome el tiempo de revisar detenidamente la [configuración de administrador y seguridad](enable-features-office-365.md) antes de modificarla, y considere la posibilidad de repercusiones en el cumplimiento antes de realizar cambios en la configuración de seguridad predeterminada.
+Le recomendamos que se tome [](enable-features-office-365.md) un tiempo para revisar detenidamente la configuración de seguridad y administrador antes de modificarla, y que considere las consecuencias en el cumplimiento antes de realizar cambios en la configuración de seguridad predeterminada.
 
 |    |     |
 |-----------|------------|
-| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si necesita modificar cualquiera de los valores predeterminados de la configuración de seguridad de Office 365 administración pública-DoD y, en primer lugar, comprender el impacto de los cambios que puede realizar.</li></ul> |
+| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si debe modificar alguna de las opciones predeterminadas de Office 365 Administración Pública: configuración de seguridad DoD, resolviendo en primer lugar el impacto de los cambios que puede realizar.</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---dod"></a>Paso 4. Comprender qué capacidades de Teams están disponibles actualmente en Office 365 Government-DoD
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---dod"></a>Paso 4. Comprender qué capacidades de Teams están disponibles actualmente en Office 365 Administración General - DoD
 
-Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube, existen algunas diferencias entre los equipos de Office 365 administración pública-DoD y los equipos de los planes empresariales. Consulte la tabla siguiente para ver qué características están disponibles.
+Para adaptarse a los requisitos de nuestros clientes de la nube de la administración pública, existen algunas diferencias entre Teams en Office 365 Administración Pública - DoD y Teams en los planes enterprise. Consulte la tabla siguiente para ver qué características están disponibles.
 
 [Descripción del servicio Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="step-5-plan-for-governance"></a>Paso 5. Planear la gobernanza
+## <a name="step-5-plan-for-governance"></a>Paso 5. Plan de gobernanza
 
-Determina los requisitos de gobierno y cómo puedes reunirse. Para obtener más información, vaya a [plan de gobierno en Teams](plan-teams-governance.md) .
+Determine sus requisitos para el gobierno y cómo puede cumplirlos. Vaya a [Plan para el gobierno en Teams](plan-teams-governance.md) para obtener más información.
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Punto de decisión |<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Punto de decisión |<ul><li>Determine y documente sus requisitos de gobierno siguiendo las directrices de [Plan de gobernanza en Teams.](plan-teams-governance.md) </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams para la colaboración
 
-Después de que se haya incorporado a Office 365 Government (DoD), siga las instrucciones de implementación recomendadas [que se describen en cómo implementar Microsoft Teams](How-to-roll-out-teams.md). Asegúrese de participar en el equipo de administración de cambios y la adopción y en los expertos de Teams.
+Una vez que se haya incorporado a Office 365 Government- DoD, siga la ruta de implementación recomendada que se describe en Cómo implementar [Microsoft Teams.](How-to-roll-out-teams.md) Asegúrese de colaborar con su equipo de adopción y administración de cambios y con los campeones de Teams.
 
-También puede trabajar con [FastTrack](https://www.microsoft.com/fasttrack) o con su socio elegido para incorporar el servicio.
+También puede trabajar con [FastTrack o](https://www.microsoft.com/fasttrack) con su partner elegido para incorporar el servicio.
+
+> [!NOTE]
+> El cliente de Mac Teams para entornos DOD todavía no es compatible.

@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42bb303a42ce2f532e5790e642f86b78ce12a7e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1d91792eeda482ff396791325ee902ee54a59847
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825300"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909514"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Se ha retirado Microsoft StaffHub
 
 A partir del 30 de junio de 2020, Se ha retirado Microsoft StaffHub. Estamos creando funciones de StaffHub en Microsoft Teams. Hoy en día, Teams incluye la aplicación Turnos para la administración de programación y otras funcionalidades se irán lanzando a lo largo del tiempo.
 
-Estos cambios forman parte de nuestros esfuerzos continuados para ayudar a cada empleado a usar Microsoft 365. Con las capacidades para los Firstline Workers ahora en Teams, cada empleado de su organización podrá usar Teams para simplificar su día laboral, colaborar con sus compañeros y acceder a la información y la experiencia para ayudarles a hacer su mejor trabajo.
+Estos cambios forman parte de nuestros esfuerzos continuados para ayudar a cada empleado a usar Microsoft 365. Con las capacidades para los trabajadores de primera línea ahora en Teams, cada empleado de su organización podrá usar Teams para simplificar su día laboral, colaborar con sus compañeros y obtener acceso a información y experiencia para ayudarles a hacer su mejor trabajo.
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
@@ -63,7 +63,7 @@ Si tenía un equipo de StaffHub asociado a un grupo de Office 365 que no movió 
 
 #### <a name="what-is-shifts"></a>¿Qué es Turnos?
 
-La aplicación Turnos en Teams es una herramienta de administración de programación que mantiene conectados y sincronizados a los Firstline Workers. Los administradores crean, actualizan y administran las programaciones de turnos de los equipos, y los miembros del equipo pueden ver sus programaciones, ver quién más está programado para el día, solicitar permutas u ofrecer turnos y solicitar un permiso, todo desde sus dispositivos móviles.  
+La aplicación Turnos en Teams es una herramienta de administración de programación que mantiene conectados y sincronizados a los Frontline Workers. Los administradores crean, actualizan y administran las programaciones de turnos de los equipos, y los miembros del equipo pueden ver sus programaciones, ver quién más está programado para el día, solicitar permutas u ofrecer turnos y solicitar un permiso, todo desde sus dispositivos móviles.  
 
 #### <a name="which-plans-is-shifts-available-in"></a>¿En qué planes está disponible Turnos?
 
@@ -110,7 +110,7 @@ Para obtener información sobre el producto, vaya a [https://products.office.com
 
 Para obtener instrucciones de administración, [consulte Administrar la aplicación Turnos para su organización en Teams.](manage-the-shifts-app-for-your-organization-in-teams.md)
 
-Para obtener ayuda para el usuario final, vaya a Ayuda [de Turnos para firstline Workers.](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+Para obtener ayuda para el usuario final, vaya a Ayuda [de Turnos para trabajadores de línea directa.](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>¿Qué licencias necesito para Teams?
 
@@ -144,11 +144,11 @@ Para obtener más información, vea [Cómo interactúan SharePoint Online y OneD
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>¿Existe integración entre Turnos y el calendario de Outlook? ¿Puedo exportar una programación a un calendario?
  
-Los Trabajadores de primera línea pueden ver toda su programación de trabajo de un vistazo en Turnos. Admitiremos la integración nativa con el calendario de Outlook como parte de nuestro plan de desarrollo. Mientras tanto, use Microsoft Flow para configurar la integración con Turnos en los calendarios de Teams y Outlook y Google.
+Los trabajadores de primera línea pueden ver toda su programación de trabajo de un vistazo en Turnos. Admitiremos la integración nativa con el calendario de Outlook como parte de nuestro plan de desarrollo. Mientras tanto, use Microsoft Flow para configurar la integración con Turnos en los calendarios de Teams y Outlook y Google.
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>¿Qué controles de administrador están disponibles para administrar si los usuarios de mi organización pueden usar Turnos?  
   
-Puede activar o desactivar Turnos en toda la organización para todos los usuarios de su organización. En el Centro de administración de Microsoft Teams, también puede usar la directiva de configuración de la aplicación Firstline Worker para personalizar Teams para su Firstline Workforce. La directiva se configura con las aplicaciones Actividad, Turnos, Chat y Llamadas. Al asignar la directiva, estas aplicaciones se anclan a la barra de aplicaciones de Teams para que los usuarios puedan acceder a ellas fácilmente. 
+Puede activar o desactivar Turnos en toda la organización para todos los usuarios de su organización. En el Centro de administración de Microsoft Teams, también puede usar la directiva de configuración de la aplicación Frontline Worker para personalizar Teams para sus empleados de Frontline Workforce. La directiva se configura con las aplicaciones Actividad, Turnos, Chat y Llamadas. Al asignar la directiva, estas aplicaciones se anclan a la barra de aplicaciones de Teams para que los usuarios puedan acceder a ellas fácilmente. 
 
 Para obtener más información, [consulte Administrar la aplicación Turnos para su organización en Teams.](manage-the-shifts-app-for-your-organization-in-teams.md)
 

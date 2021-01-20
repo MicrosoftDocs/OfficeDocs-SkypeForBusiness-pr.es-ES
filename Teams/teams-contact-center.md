@@ -13,20 +13,20 @@ f1.keywords:
 description: Información general sobre el centro de contactos integrado como solución de servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48cac3e556c6bb99e29ad07f3d875362ad42489
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821000"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909494"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del Centro de contactos para Microsoft Teams
 
-La integración de soluciones populares de centros de contactos con Microsoft Teams es una necesidad común de los clientes al implementar las capacidades de llamadas de Teams.  Este artículo proporciona información general sobre cómo se pueden integrar las soluciones del centro de contactos con Microsoft Teams y la información adicional sobre las soluciones de asociados que participan en el programa de certificación del Centro de contactos conectado de Microsoft Teams.
+La integración de soluciones populares de centros de contactos con Microsoft Teams es una necesidad común de los clientes al implementar las capacidades de llamadas de Teams.  Este artículo proporciona información general sobre cómo se pueden integrar las soluciones del Centro de contactos con Microsoft Teams y la información adicional sobre las soluciones de asociados que participan en el programa de certificación del Centro de contactos conectado de Microsoft Teams.
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>¿Qué es la integración de un centro de contactos con Microsoft Teams?
 
-Los centros de contacto de hoy en día proporcionan mucho más que soporte técnico: actúan como uno de los principales vehículos para interactuar y comentarios sin filtrar sobre la experiencia de un cliente con una marca. Debido a la amplia cantidad de canales que los clientes de hoy en día prefieren interactuar por teléfono, correo electrónico, texto, redes sociales y el gran volumen de puntos de contacto asociados con los procesos de compra actuales, muchas organizaciones han realizado dos realidades adicionales:
+Los centros de contacto de hoy en día proporcionan mucho más que soporte técnico: actúan como uno de los principales vehículos para interactuar y comentarios sin filtrar sobre la experiencia de un cliente con una marca. Debido a la gran cantidad de canales que los clientes de hoy en día prefieren interactuar por teléfono, correo electrónico, texto, redes sociales y el gran volumen de puntos de contacto asociados con los procesos de compra actuales, muchas organizaciones han realizado dos realidades adicionales:
 
 1. Todos los miembros de la organización tienen el potencial de participar en la participación directa de un cliente y, por lo tanto, necesitan estar equipados con las herramientas adecuadas.
 
@@ -34,7 +34,7 @@ Los centros de contacto de hoy en día proporcionan mucho más que soporte técn
 
 Microsoft Teams admite las transmisiones de trabajo por interacción del cliente actuando como el concentrador para la conexión de clientes internos y externos en sus modos de comunicación, incluidos el chat, las reuniones de vídeo y las llamadas. Para algunas compañías, las capacidades [](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) de voz en la nube de Microsoft [Teams,](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)incluidos los operadores [automáticos](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)y las colas de llamadas, proporcionan las características y la configuración para satisfacer sus necesidades.
 
-Para otros usuarios que desean soluciones integradas con herramientas empresariales y flujos de trabajo para dirigir el viaje del cliente, Microsoft Teams también se integra con algunos de los proveedores de soluciones líderes del sector centro de contactos como servicio (CCaaS).
+Para otros usuarios que desean soluciones integradas con herramientas empresariales y flujos de trabajo para dirigir el viaje del cliente, Microsoft Teams también se integra con algunos de los proveedores de soluciones líderes del sector como centro de contactos como servicio (CCaaS).
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Centro de contactos conectado para el programa de certificación de Microsoft Teams
 
@@ -60,7 +60,6 @@ Los siguientes partners están en proceso de certificar su solución para Micros
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-
 Esta lista se actualizará a medida que más partners se unan y cumplan con los criterios de certificación.
 
 ## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>¿Cómo funcionan las soluciones del centro de contactos en Microsoft Teams?
@@ -79,7 +78,7 @@ Juntos, estas capacidades permiten tres modelos de integración:
 
   - **Conectar** (a través de enrutamiento directo)
 
-  - **Conectar y ampliar** (enrutamiento directo, API de Graph y plataforma de aplicaciones de Teams)
+  - **Conectar y extender** (enrutamiento directo, API de Graph y plataforma de aplicaciones de Teams)
 
   - **Ampliar y ampliar Power** (incrustar LOS SDK de Teams en aplicaciones 3p para interacciones nativas de Teams)
 
@@ -93,7 +92,7 @@ Las organizaciones pueden asegurarse de que las llamadas se enrutar al agente ó
 
 **Aspectos destacados de las características:**
 
-Aunque lo siguiente no es una lista exhaustiva de las capacidades de características para este modelo de integración, las áreas en las que centrarse incluyen:
+Aunque lo siguiente no es una lista exhaustiva de las funcionalidades de características para este modelo de integración, las áreas en las que centrarse incluyen:
 
   - Autenticación de Office 365 para agentes para permitir que los agentes se conecten a su inquilino de Microsoft desde su cliente integrado de CCaaS 
 
@@ -113,7 +112,7 @@ Aunque lo siguiente no es una lista exhaustiva de las capacidades de caracterís
 
 Este modelo amplía las experiencias de agente y personal del centro de contactos mediante la integración con el cliente de Teams mediante la plataforma del cliente de [Teams,](https://docs.microsoft.com/microsoftteams/platform/overview)las API de [Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) y la API de comunicaciones en la nube en [Microsoft Graph,](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) y usa el sistema telefónico de Teams para todas las llamadas y experiencias de control de llamadas del centro de contactos. En este modelo, el partner del centro de contactos actúa como operador de telefonía junto con Microsoft 365.
 
-Al usar soluciones basadas en Connect y Extend, los agentes pueden beneficiarse de notas contextuales y dinámicas que correlacionan datos de varios sistemas antes de iniciar una participación y, a continuación, evitar el cambio de contexto costoso si trabajan de forma nativa en Teams para la colaboración interna y las comunicaciones externas.
+Al usar soluciones basadas en Connect y Extend, los agentes pueden beneficiarse de notas contextuales y dinámicas que correlacionan datos de varios sistemas antes de iniciar una interacción y, a continuación, evitar el cambio de contexto costoso trabajando de forma nativa en Teams para la colaboración interna y las comunicaciones externas.
 
 Las organizaciones pueden diseñar flujos de trabajo y configuraciones avanzadas de enrutamiento de forma individual y medir la calidad de su sistema e interacciones.
 
@@ -129,11 +128,11 @@ Aunque lo siguiente no es una lista completa de las capacidades de característi
 
   - Llamadas de clientes de Teams para todos los controles de llamada
 
-  - La aplicación de experiencia del agente también debería poder funcionar en la web y en el cliente móvil de Teams.
+  - La aplicación de experiencia del agente también debería poder funcionar en la web y en el cliente móvil de Teams
 
   - Análisis, administración de flujos de trabajo y experiencias basadas en roles para agentes dentro de la aplicación CCaaS en Teams
 
-  - Experiencias de chat y colaboración integradas con clientes de Teams 
+  - Experiencias de chat y colaboración integradas con los clientes de Teams 
 
   - Conservar el rendimiento y la calidad de las experiencias de cliente de Teams en todas las aplicaciones  
 
@@ -157,7 +156,7 @@ Aunque lo siguiente no es una lista exhaustiva de las funcionalidades de caracte
 
   - Control directo de la conversación e interacción con los usuarios durante las conversaciones de Teams 
 
-### <a name="comparing-connected-contact-center-integration-models"></a>Comparación de modelos de integración de centros de contactos conectados
+### <a name="comparing-connected-contact-center-integration-models"></a>Comparar modelos de integración de centros de contactos conectados
 
 Revise la tabla siguiente para obtener información general sobre los modelos de integración que admite Microsoft Teams.
 
