@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
-ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
+ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376023"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909124"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 ==========================
@@ -150,7 +150,7 @@ Los usuarios de dispositivos móviles pueden cerrar sesión en Teams dirigiéndo
 
 ### <a name="global-sign-in-and-sign-out"></a>Inicio de sesión y registro global
 
-La aplicación de Android de Teams ahora es compatible con el inicio de sesión y el inicio de sesión global para ofrecer una experiencia de inicio de sesión y registro gratuita sin complicaciones para los trabajadores los Firstline Workers. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Este proceso quita toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+La aplicación de Android de Teams ahora es compatible con el inicio y cierre de sesión globales para que los trabajadores de primera línea pueden iniciar y cerrar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Este proceso quita toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 La experiencia de inicio de sesión tiene un aspecto similar al de la experiencia de inicio de sesión estándar de Teams, mientras que el cierre de sesión tendrá un aspecto parecido al de las dos imágenes siguientes:
 

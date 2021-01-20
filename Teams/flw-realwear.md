@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262517"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909394"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams para RealWear
 
-Este artículo trata sobre el cliente de Microsoft Teams para los dispositivos portátiles RealWear. Los Firstline Workers que usan el RealWear HMT-1 y el HMT-1Z1 ahora pueden colaborar con un experto remoto mediante las llamadas de vídeo en Teams. Mediante una interfaz de usuario controlada por voz, Teams para RealWear permite que los trabajadores de campo estén 100% de manos libres mientras mantienen su concentración en las situaciones que puedan ocurrir en entornos ruidosos y peligrosos. Al mostrar lo que ven en tiempo real, los trabajadores de campo pueden resolver problemas de forma más rápida y reducir el riesgo de un tiempo de inactividad costoso.
+Este artículo trata sobre el cliente de Microsoft Teams para los dispositivos portátiles RealWear. Los trabajadores de primera línea que usen el RealWear HMT-1 y el HMT-1Z1 ahora pueden colaborar con un experto remoto mediante las llamadas de vídeo en Teams. Mediante una interfaz de usuario controlada por voz, Teams para RealWear permite que los trabajadores de campo estén 100% de manos libres mientras mantienen su concentración en las situaciones que puedan ocurrir en entornos ruidosos y peligrosos. Al mostrar lo que ven en tiempo real, los trabajadores de campo pueden resolver problemas de forma más rápida y reducir el riesgo de un tiempo de inactividad costoso.
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>Cómo implementar Microsoft Teams para RealWear
 
