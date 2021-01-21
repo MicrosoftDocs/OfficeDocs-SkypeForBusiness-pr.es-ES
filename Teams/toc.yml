@@ -1077,14 +1077,10 @@
           href: business-voice/policy-packages.md
         - name: Crear usuarios adicionales
           href: business-voice/create-users.md
-        - name: 'Ejemplo de pequeña empresa: configurar una cola de llamada'
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Configurar la cola de llamadas
-          href: business-voice/set-up-call-queues.md
-        - name: 'Ejemplo: configurar un operador automático'
-          href: tutorial-org-aa.yml
-        - name: Configurar los operadores automáticos
-          href: business-voice/set-up-auto-attendants.md
+        - name: Configurar una cola de llamada
+          href: business-voice/create-a-phone-system-call-queue-smb.md
+        - name: Configurar un operador automático
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: Administrar la configuración
       items:
         - name: Crear un usuario o varios
@@ -1178,7 +1174,7 @@
     - name: Teams para los trabajadores de primera línea
       items:
         - name: Inicio rápido para los trabajadores de primera línea
-          href: firstline-workers-quickstart.yml
+          href: flw-quickstart.yml
         - name: Implementación mediante scripts para trabajadores de primera línea
           href: flw-scripted-deployment.md
         - name: Administrar el acceso de trabajadores de primera línea en función de sus turnos
