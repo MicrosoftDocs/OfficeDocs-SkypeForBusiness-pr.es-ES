@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3a4e827016622910aad0ee46318ba19c44aac0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136121"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909154"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico móvil necesarios para Microsoft Teams
 
@@ -133,7 +133,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **callControlsManualInvoke** - Los controles de llamada se llaman manualmente.
 - **callHistoryItemExpand** - Elemento de historial de llamadas expandido.
 - **callHistoryTab** - La pestaña **CallHistory** se selecciona en Llamadas.
-- **callInProgressShown** - Se muestra una notificación de ***Llamada en curso**.
+- **callInProgressShown** - Se muestra una notificación de **_Llamada en curso_*.
 - **callMePSTNConnected** - **Llamarme** se ha realizado correctamente.
 - **callOrMeetUpAddParticipants** - Se desencadena cuando:
   - El botón Agregar participante es pulsado en una pantalla de llamadas 1:1.
@@ -179,7 +179,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
   - Cambiar el origen de audio a audio apagado.
   - Cambiar de orador mientras está en una llamada o reunión en directo.
   - Cambiar del altavoz al audio apagado mientras se encuentre en Live Meeting o en una llamada.
-  - Activa el botón de**Audio apagado** mientras se encuentre en el modo de Conectar compañía en llamada o encuentra en directo.
+  - Activa el botón de **Audio apagado** mientras se encuentre en el modo de Conectar compañía en llamada o encuentra en directo.
   - Cambiar de audio de dispositivo mientras está en RTC.
 - **callOrMeetUpEnterDriveMode** - Cambia manualmente al modo En coche desde el menú **...**.
 - **callOrMeetupExitDriveMode** - se ha pulsado el botón de **Salir del modo En coche**.
@@ -206,7 +206,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **callOrMeetUpParticipants** - Los participantes se activan durante una llamada o reunión en directo.
 - **callOrMeetUpRemoteMuteUFD** - Ha estado silenciada UFD.
 - **callOrMeetUpResume** Se desencadena cuando:
-  - El botón de**Retomar** está seleccionada mientras se encuentra en una reunión o en una llamada en directo.
+  - El botón de **Retomar** está seleccionada mientras se encuentra en una reunión o en una llamada en directo.
   - Llame a resume en RTC.
 - **callOrMeetUpSearchParticipants** - Se desencadena cuando:
   - Se hace clic en **Buscar** en los participantes de la reunión durante una reunión en directo privada.
@@ -301,7 +301,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **chatCM_Forward** - Pulse **Reenviar** en un menú contextual de chat.
 - **chatCM_markUnread** - Tocar **Marcar como no leído** en un menú contextual de chat.
 - **chatCM_save** - Pulse **Guardar** en un menú contextual de chat.
-- **chatCM_SeenBy** - Pulse en**Visto** en una opción de menú contextual. Confirmaciones de lectura, como leído por (readby).
+- **chatCM_SeenBy** - Pulse en **Visto** en una opción de menú contextual. Confirmaciones de lectura, como leído por (readby).
 - **chatContactsEnter** - Se ingresa la pestaña de **Contactos de chat**.
 - **chatDetails** - Proporciona datos correctos y de detectabilidad para una página de detalles del chat cuando:
   - Se ha seleccionado un encabezado de chat.
@@ -351,8 +351,8 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **completionStateChange** - Desencadenado cuando se activa la alternancia de filtro completada o no completada en la vista filtro de la lista de tareas.
 - **composeExpandComposer** - el botón **Formato** es pulsado.
 - **composeFilePick** - Se ha iniciado el selector de archivo nativo.
-- **composeImagePicker** - El botón de**Imagen** es pulsado.
-- **composeLocation** - El botón de **Ubicación**fue pulsado durante la redacción.
+- **composeImagePicker** - El botón de **Imagen** es pulsado.
+- **composeLocation** - El botón de **Ubicación** fue pulsado durante la redacción.
 - **composeMention** - @mención.
 - **composeOpenEmoticonPicker** - Se pulsó el Selector de emoticonos.
 - **composeOpenFunPicker** - Se pulsó el selector diversión.
@@ -426,7 +426,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **duration_picker_dismissed** - Cuando el selector de la duración se descarta.
 - **deleteTask** - Comprueba con el servicio Microsoft Planner si una acción de eliminación se ha realizado correctamente o no. Comprueba que la tarea de eliminación ha fallado, es decir, que la eliminación de una tarea no se ha realizado correctamente.
 - **deleteVoicemail** - Eliminar el elemento de correo de voz pulsado.
-- **demotedToAttendee** - Un usuario degrada un moderador - Botón**Cambiar** en el cuadro de diálogo.
+- **demotedToAttendee** - Un usuario degrada un moderador - Botón **Cambiar** en el cuadro de diálogo.
 - **denyParticipant** - Número de veces que un usuario niega una entrada de la lista.
 - **descriptionChanged** - Confirma que una tarea compartida Descripción ha cambiado correctamente.
 - **descriptionClicked** - Cuando un usuario selecciona **Ver descripción** de detalles de la tarea.
@@ -657,7 +657,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **meetingDetailDeleteMeetingforSelf** - Eliminar una reunión de la página de detalles de la reunión para uno mismo.
 - **meetingDetailJoin** - Se selecciona el botón **Unirse a la reunión** en la página Detalles de la reunión.
 - **meetingDetailParticipants** - Ver todos los participantes de la página de detalles de la reunión.
-- **meetingDetailScheduledMeeting** - Página de detalles de la reunión seleccionada en el objeto reunión programada (**...**), o bien seleccione la pestaña **Detalles ** de una reunión programada.
+- **meetingDetailScheduledMeeting** - Página de detalles de la reunión seleccionada en el objeto reunión programada (**...**), o bien seleccione la pestaña **Detalles** de una reunión programada.
 - **meetingDetailSearchParticipants** Se seleccionó **Buscar** en los participantes de la reunión en la programación de reuniones.
 - **meetingJoinLeave** : Permanece pulsado -> **x** es pulsado después de pulsar el botón **Unirse**.
 - **meetingJoinNow** - **Unirse ahora al** VOIP seleccionada.
@@ -736,7 +736,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **navPeople** - El evento se activa cuando se abre la aplicación contactos.
 - **navPeopleSettings** - Se desencadena cuando navega a la categoría **personas** en el menú configuración.
 - **navPersonalFiles** - Está seleccionada la aplicación de archivos, realiza un seguimiento de si un usuario puede iniciar la aplicación archivos en la barra de navegación inferior (Android).
-- **navPhotoTab** - Pestaña**Foto**.
+- **navPhotoTab** - Pestaña **Foto**.
 - **navSaved** - Un usuario navega a la pestaña o aplicación **Guardado** en la barra inferior o en la bandeja de la aplicación.
 - **navSelectPlan** - Cuando un usuario selecciona un plan compartido para navegar en la vista Inicio.
 - **navSelectPersonalList** - Cuando un usuario selecciona un plan personal para navegar en la vista Inicio.
@@ -791,7 +791,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
   - Determinar si se puede abrir un archivo desde un archivo de mensajes Chicklet.
   - Determinar si se pueden abrir archivos correctamente desde una lista de archivos.
 - **openInAppClicked** - Opción dentro del elemento de tarea más lista de opciones, solo disponible para tareas personales.
-- **opensCalendarView** - Pulse en **Turnos abiertos**en la apertura de la pestaña **Programación**.
+- **opensCalendarView** - Pulse en **Turnos abiertos** en la apertura de la pestaña **Programación**.
 - **openContactCard** - Un usuario pulsa en el icono de **Contacto** o en un contacto de la aplicación contactos para iniciar la tarjeta de perfil del contacto.
 - **openContactCard_ReactionSummary** - Desplácese hasta tarjeta de contacto en la página Resumen de la reacción.
 - **openFileInApp** - Le ayuda a identificar si los usuarios han optado por abrir archivos por fuera de Teams en oposición a por dentro de Teams.
@@ -835,7 +835,7 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **pptReturnToPresenter** - Vaya a la diapositiva **En directo** (en la que está activada el moderador y todos los demás usuarios).
 - **pptStopPresenting** - Detener la presentación.
 - **pptTakeControl** - Tomar control.
-- **preJoinAddRoom** - El botón ** Agregar una sala** está seleccionada en la lista desplegable predefinida, **Unirse** está seleccionada en el escenario **Agregar una sala**.
+- **preJoinAddRoom** - El botón **Agregar una sala** está seleccionada en la lista desplegable predefinida, **Unirse** está seleccionada en el escenario **Agregar una sala**.
 - **preJoinAudioOff** - Se selecciona el botón **audio desactivado** en la lista desplegable predefinida.
 - **preJoinAutoAddRoom** - **Unirse ahora** está seleccionado cuando una sala está cerca.
 - **preJoinBack** - Los botones **Atrás** o **Cerrar** están seleccionados.
@@ -913,9 +913,9 @@ El artículo siguiente contiene una lista de eventos de Microsoft Teams Mobile y
 - **replyViaMsgOptions** - El usuario inició la respuesta mediante el menú contextual.
 - **replyViaSwipe** - El usuario inició la respuesta mediante el dedo.
 - **requestActedOn** - Se desencadena cuando un administrador actúa sobre las solicitudes de los turnos abiertos.
-- **requestActionClicked** - Cuando un usuario solicita una acción, por ejemplo, cuando se selecciona la solicitud para un turno (ya sea una vista de administrador de trabajador de primera línea (FLW) o un trabajador de los Firstline Workers.
-- **requestDetailsClicked** - Cuando se selecciona la solicitud para un turno (ya sea una vista de administrador de los trabajadores de primera línea (FLW) o trabajador de primera línea).
-- **requestJoinTeam** - El botón de**solicitud** está presionado.
+- **requestActionClicked** - Cuando un usuario solicita una acción, por ejemplo, cuando se selecciona la solicitud para un turno (ya sea una vista de administrador de trabajador de primera línea (FLW) o un trabajador de primera línea.
+- **requestDetailsClicked** - Cuando se selecciona la solicitud para un turno (ya sea una vista de administrador de los trabajadores de primera línea (FLW) o un trabajador de primera línea).
+- **requestJoinTeam** - El botón de **solicitud** está presionado.
 - **requestSent** - Inicia sesión si se ha enviado una solicitud.
 - **requestToJoinTeam** - Solicitud de unirse al equipo (público o privado).
 - **requestToJoinTeamError** - Error con la solicitud de combinación.
