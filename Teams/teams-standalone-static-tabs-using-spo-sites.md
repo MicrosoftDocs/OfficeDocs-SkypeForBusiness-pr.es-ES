@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Elija un sitio o una página de SharePoint Online ya existente y cree una pestaña estática independiente que se pueda usar como portal de intranet de su organización.
 localization_priority: Priority
-ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731118"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923812"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Crear una aplicación de portal de intranet de Teams desde un sitio o una página de SharePoint Online
 
@@ -100,9 +100,6 @@ Para ver la nueva pestaña en el escritorio de Teams, desplácese hasta el signo
 Si desea que la nueva aplicación esté disponible en el menú de la izquierda en una posición superior, debe usar una configuración de directiva de aplicaciones. Encontrará esta opción en la sección Administrador de equipo > directiva de aplicaciones > agregar una aplicación anclada. Cuando asigne la directiva a un usuario para realizar pruebas, el cambio se mostrará unas horas más tarde. Teniendo esto en cuenta, decida lo antes posible donde debería aparecer la aplicación para evitar retrasos.
 
 Para ver y probar la nueva aplicación en un dispositivo móvil, abra el cajón de aplicaciones pulsando en la comilla angular (**^**) situada encima de la barra de pestañas de la parte inferior de la pantalla. Busque la aplicación y desplácese hasta ella en el dispositivo móvil.
-
-> [!CAUTION]
-> La compatibilidad móvil está actualmente como Versión preliminar para desarrolladores. Para habilitar la Versión preliminar para desarrolladores, vaya a Configuración > Acerca de y, luego, habilite el modo Versión preliminar para desarrolladores.
 
 ## <a name="a-sample-manifestjson-file"></a>Ejemplo de archivo Manifest.JSON
 

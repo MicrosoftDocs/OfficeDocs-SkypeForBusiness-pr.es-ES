@@ -23,107 +23,61 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
-description: Cambiar la configuración del puente de audioconferencia, incluidas las notificaciones de entrada y salida, reproducir nombres o números de teléfono, tonos y pedir a las personas que llaman para que graben su nombre.
-ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: Cambie la configuración del puente de audioconferencia, incluidas las notificaciones de entrada y salida, reproducir nombres o números de teléfono, tonos y pedir a los autores de llamadas que graben su nombre.
+ms.openlocfilehash: 9694ac0cddecc5b00c0df133c5c494e4b5bc0d17
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690916"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918712"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
-Al configurar las conferencias de audio en Microsoft 365 u Office 365, recibirá números de teléfono para los usuarios de lo que se denomina un puente de audioconferencia. Un puente de conferencia puede contener uno o más números de teléfono. Estos números de teléfono se usan cuando las personas que llaman llaman a una reunión. El número de teléfono se incluye en la parte inferior de la invitación a una reunión de Skype empresarial o de Microsoft Teams.
+Al configurar Audioconferencia en Microsoft 365 u Office 365, recibirá números de teléfono para los usuarios de lo que se denomina un puente de audioconferencia. Un puente de conferencia puede contener uno o varios números de teléfono. Estos números de teléfono se usan cuando las personas que llaman llaman a una reunión. El número de teléfono se incluye en la parte inferior de la invitación a la reunión de Skype Empresarial o Microsoft Teams.
   
-El puente de conferencia responde a una llamada y le pide a la persona que llama con un operador automático de la reunión y, a continuación, en función de la configuración, puede reproducir notificaciones, pedir a los participantes que graben su nombre y controlar la configuración del PIN. Los PIN se otorgan a los organizadores de reuniones para que puedan iniciar una reunión cuando no estén usando una aplicación de Skype empresarial o Microsoft Teams.
+El puente de conferencia responde una llamada y le pide al autor de la llamada avisos de voz con un operador automático de la reunión y, a continuación, según su configuración, puede reproducir notificaciones, pedir a los autores de las llamadas que graben sus nombres y controlar la configuración del PIN. Los NÚMEROS PIN se entregan a los organizadores de la reunión para permitirles iniciar una reunión cuando no estén usando una aplicación de Skype Empresarial o de Microsoft Teams.
 
   > [!IMPORTANT]
-  > Un PIN solo es necesario para el organizador de la reunión cuando un usuario de la aplicación de Skype empresarial o de Microsoft Teams ya no ha iniciado la reunión. Si todos los usuarios llaman a la reunión, el PIN es necesario para que el organizador de la reunión la inicie. 
+  > Solo es necesario un PIN para el organizador de la reunión cuando un usuario de la aplicación skype empresarial o de Microsoft Teams todavía no ha iniciado la reunión. Si todos los usuarios marcan para un acceso a la reunión, se necesita el PIN para que el organizador de la reunión inicie la reunión. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams
 
-1. En el navegación de la izquierda, vaya a puentes de conferencia de **reuniones**  >  **Conference bridges**. 
+1. En el panel de navegación izquierdo, vaya **a puentes de**  >  **conferencias de reuniones.** 
 
-2. En la parte superior de la página **puentes de conferencia** , haga clic en **configuración del puente**. 
+2. En la parte superior de la página **Puentes de** conferencia, haga clic en **Configuración de puente.** 
 
-3. En el panel **configuración de puente** , seleccione: 
-   - **Notificaciones de entrada y salida de reunión** Si desactiva esta opción, los usuarios que ya se hayan unido a la reunión no recibirán ninguna notificación cuando alguien entre o salga de la reunión.
+3. En el **panel Configuración del** puente, seleccione: 
+   - **Notificaciones de entrada y salida de la reunión** Si lo desactiva, los usuarios que ya se han unido a la reunión no serán notificados cuando alguien se una o abandone la reunión.
     
-     Al activar las **notificaciones de entrada y salida**de la reunión, puede seleccionar estas opciones:
+     Al activar las notificaciones **de entrada y salida de una** reunión, puede seleccionar estas opciones:
     
-   - **Nombres o números de teléfono** Cuando los usuarios llaman a una reunión, su número de teléfono se reproducirá cuando se una a una.
+   - **Nombres o números de teléfono** Cuando los usuarios llamen a una reunión, se reproducirá su número de teléfono cuando se unan a esta.
     
-   - **Tonos** Cuando los usuarios llaman a una reunión, se reproduce un tono de audio al unirse a la misma.
+   - **Tonos** Cuando los usuarios llamen a una reunión, se reproducirá un tono de audio cuando se unan a ella.
       
-   - **Pedir a las personas que llamen para que graben su nombre antes de unirse a la reunión** Si desactiva esta opción, no se pedirá a las personas que llamen su nombre antes de unirse a una reunión.
+   - **Pedir a los autores de la llamada que graben su nombre antes de unirse a la reunión** Si desactiva esta opción, no se pedirá a las personas que llamen que registren su nombre antes de unirse a una reunión.
 
-4. Para establecer la longitud del PIN para las reuniones, seleccione el número de dígitos que desea para el PIN en la lista **longitud del PIN** .
+4. Para establecer la longitud del PIN para las reuniones, seleccione el número de dígitos que desea para el PIN en la lista de longitud **del PIN.**
 
-5. Para especificar si se debe enviar correo electrónico a los usuarios, habilitar o deshabilitar el **envío automático de correos electrónicos a los usuarios si cambia la configuración**de las conferencias de audio.
-    Ver [los correos electrónicos enviados de forma automática a los usuarios cuando cambia la configuración de la audioconferencia en Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) o [correos electrónicos enviados a los usuarios cuando cambia su configuración en Skype empresarial online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) para obtener más información.
+5. Para especificar si desea enviar correo electrónico a sus usuarios, habilite o deshabilite el envío automático de correos electrónicos a los usuarios si cambia la configuración **de las audioconferencias.**
+    Vea los correos electrónicos enviados automáticamente a los usuarios cuando cambia la configuración de [Audioconferencia](emails-sent-to-users-when-their-settings-change-in-teams.md) en Microsoft Teams o los correos electrónicos enviados a los usuarios cuando cambia su configuración en Skype Empresarial [Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) para obtener más información.
  
-6. Haga clic en **Guardar **. 
+6. Haga clic en **Guardar**. 
 
-
-## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![Un icono que muestra el logotipo de Skype empresarial](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
-
- **Configurar la experiencia de reunión cuando las personas que llaman se unen a una reunión**
-    
-1. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, **vaya a**  >  **configuración de puente de Microsoft**.
-    
-2. En la página **configuración del puente de Microsoft** , en experiencia de unirse a la **reunión**, seleccione:
-    
-   - **Habilitar las notificaciones de entrada y salida de reunión para que se activen** Esta opción está seleccionada de forma predeterminada. Si desactiva la casilla, los usuarios que ya se hayan unido a la reunión no recibirán ninguna notificación cuando alguien entre o salga de la reunión.
-    
-   - Si selecciona **permitir que las notificaciones de entrada y salida de la reunión estén activadas**, puede seleccionar estas opciones en la lista de **tipo de anuncio de entrada/salida** :
-    
-   - **Nombres o números de teléfono** Cuando los usuarios llaman a una reunión, su número de teléfono se reproducirá cuando se una a una.
-    
-   - **Tonos** Cuando los usuarios llaman a una reunión, se reproduce un tono de audio al unirse a la misma.
-  
-   - **Pedir a las personas que llamen para que graben su nombre antes de unirse a la reunión** Esta opción está seleccionada de forma predeterminada. Si desactiva la casilla, no se pedirá a las personas que llamen su nombre antes de unirse a una reunión.
-    
-3. Después de realizar los cambios, haga clic en **Guardar**.
-    
-Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
-  
-1. Inicie sesión con su cuenta profesional o educativa.
-    
-2. Vaya al **centro de administración de Microsoft 365**  >  **Skype empresarial**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. En la **página Configuración del puente de Microsoft** , en **seguridad**, escriba la cantidad de dígitos que desee para el PIN en la lista **longitud del PIN** y, a continuación, haga clic en **Guardar**.
-    
-    > [!IMPORTANT]
-    > The PIN must be between 4 and 12 digits. 
-  
-**Seleccione si desea enviar correo electrónico a los usuarios**
-  
-1. Inicie sesión con su cuenta profesional o educativa.
-    
-2. Vaya al **centro de administración de Microsoft 365**  >  **Skype empresarial**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. En la página **configuración del puente de Microsoft** , Active o desactive **enviar automáticamente correos electrónicos a los usuarios si cambia la información de acceso telefónico**y, a continuación, haga clic en **Guardar**.
-    
-    Ver [los correos electrónicos enviados de forma automática a los usuarios cuando cambia la configuración de la audioconferencia en Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) o [correos electrónicos enviados a los usuarios cuando cambia su configuración en Skype empresarial online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) para obtener más información.
-    
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
-- Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) .
+- Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Set-CsDialinConferencingBridge.](https://go.microsoft.com/fwlink/?LinkId=617686)
     
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en velocidad, sencillez y productividad con respecto al uso solo del Centro de administración de Microsoft 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -138,4 +92,4 @@ Vea **Cambiar la configuración de un puente de conferencias de acceso telefóni
 
 [Configurar audioconferencias en Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
-[Configurar audioconferencias para Skype empresarial online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Configurar Audioconferencia para Skype Empresarial Online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

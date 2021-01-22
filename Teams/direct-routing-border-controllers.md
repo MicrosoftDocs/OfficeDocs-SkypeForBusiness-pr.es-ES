@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: El administrador puede obtener información sobre qué controladores de borde de sesión (SBCs) se han certificado para el enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d5d94a2e15ea9e792cd9c8efbfacc53b9f47f92
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: d0617c975b95bdb39c020e57456490621125f459
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909544"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918926"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
@@ -79,6 +79,7 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                 |     Elemento de borde unificado de Cisco (CUBO) para 1000 enrutadores de servicios de agregación de series      |     &#10004;   |  |      IOS XE Ámsterdam 17.2.1r      |    <ul> <li> [Enrutamiento de ubicación dinámico de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia (ERS) de Tasa de emergencia](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borde de sesión de Avaya para empresas (ASBCE)    |     &#10004;     |           |       Versión 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de borde de sesión Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    | 
+|                     |    Controlador de borde de sesión Nokia    |     &#10004;     |           |       20.8       |      <ul> <li> [Enrutamiento de ubicación dinámico de ancho de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Servicio de enrutamiento de emergencia (ERS) de Tasa de emergencia](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Puerta de enlace de emergencia de Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Catialeya](https://cataleya.com/orchidplatforms/)|    Vínculo de vinculación    |     &#10004;     |           |      3.1        |     |    | 

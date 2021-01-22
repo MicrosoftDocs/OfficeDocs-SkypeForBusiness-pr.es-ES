@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
@@ -17,34 +16,37 @@ description: Aprenda a resolver problemas de conectividad con el cliente de Micr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52097d78a3eae14bcaba98fb1613092af97d302e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 59041734887a667eca325a3d2650425d6d336b78
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581141"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918546"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividad con el cliente de Microsoft Teams
 ==============================================================
 
-Es posible que la mayoría de los problemas detectados con el cliente de Microsoft Teams vuelvan a la conectividad de proxy o firewall. Comprobando que las direcciones URL, direcciones IP y puertos necesarios se abren en el firewall o proxy minimizará la solución de problemas. Para obtener información específica sobre las direcciones URL e IPs necesarias para Microsoft Teams, consulte el artículo de las direcciones URL y de soporte técnico de [microsoft 365 y Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) . Los siguientes escenarios requieren que se abran direcciones URL y puertos específicos en el firewall.
+La mayoría de los problemas detectados con el cliente de Microsoft Teams se pueden rastrear hasta la conectividad de proxy o firewall. Comprobar que las direcciones URL, las direcciones IP y los puertos necesarios están abiertos en el firewall o proxy minimizará la solución de problemas innecesaria. Para obtener información específica sobre las URL e IP necesarias para Microsoft Teams, consulte el artículo de soporte técnico de direcciones IP y URL de [Microsoft 365 y Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) Los siguientes escenarios requieren que se abran puertos y DIRECCIONES URL específicas en el firewall.
 
--   Autenticación
+- Autenticación
 
--   Conectividad de cliente de Microsoft Teams
+- Conectividad de cliente de Microsoft Teams
 
--   Colaboración
+- Colaboración
 
--   Elementos multimedia
+- Elementos multimedia
 
--   Servicios compartidos
+- Servicios compartidos
 
--   Integración de terceros
+- Integración de terceros
 
--   Interoperabilidad de Skype Empresarial
+- Interoperabilidad de Skype Empresarial
 
--   Interoperabilidad del cliente de Skype Empresarial
+- Interoperabilidad del cliente de Skype Empresarial
 
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Cuando Teams está sin conexión o con condiciones de ancho de banda bajo
+
+La buena noticia es que Teams sigue ejecutándose incluso cuando trabaja sin conexión o con poco ancho de banda. Teams guarda todos los mensajes no enviados de los chats existentes (hasta 24 horas) y los envía en cuanto vuelve a estar en línea. Si está sin conexión durante más de 24 horas, Teams le permite elegir entre reenviar o eliminar los mensajes no enviados. Estamos trabajando para agregar esta funcionalidad a nuevos chats y actualizaremos esta documentación cuando esté disponible.
 
 ## <a name="related-topics"></a>Temas relacionados
 

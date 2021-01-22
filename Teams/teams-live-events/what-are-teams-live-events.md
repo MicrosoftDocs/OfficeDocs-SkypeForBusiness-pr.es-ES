@@ -21,12 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7133c5a1a0cf9fd67ec23b51f8e177aeb80532fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+localization_priority: Normal
+ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802430"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918996"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -60,6 +61,9 @@ Como puede ver en la imagen superior, hay cinco componentes clave que se emplean
 Teams ofrece la posibilidad de que los organizadores puedan crear un evento con los permisos de asistente correspondientes, designar miembros del equipo de eventos, seleccionar un método de producción e invitar a los asistentes. Si el evento en directo se creó desde un grupo de Yammer, los asistentes al evento en directo podrán usar la conversación de Yammer para interactuar con las personas en el evento.
 
 ![la pantalla de Nuevos eventos en directo](../media/teams-live-events-schedule.png "Captura de pantalla de la pantalla de Nuevo evento en directo para crear y programar un nuevo evento en directo")
+
+> [!IMPORTANT]
+> Teams no permite a los usuarios programar reuniones o eventos en directo cuando están desconectados o con ancho de banda limitado.
 
 ### <a name="production"></a>Producción
 

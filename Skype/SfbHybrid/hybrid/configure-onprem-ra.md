@@ -1,5 +1,5 @@
 ---
-title: Configurar una cuenta de recursos en Skype empresarial Server 2019
+title: Configurar una cuenta de recurso en Skype Empresarial Server 2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,63 +12,63 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: f3a9166f6e1bb9659a7fb43b9e7c35dba673f176
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+description: Configurar una cuenta de recursos para Skype Empresarial Server 2019.
+ms.openlocfilehash: 1d8294eb717982b5ac68df06a5370059e83a62c5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868689"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919016"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
-Las implementaciones híbridas de Skype empresarial Server 2019 solo usan los servicios en la nube proporcionados por el sistema telefónico para la mensajería unificada y no se integran con Exchange Online. En Skype empresarial Server 2019, ahora puede usar las colas de llamadas en la nube y los operadores automáticos que se describen en [esto es lo que obtiene con el sistema telefónico en Microsoft 365 u Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
+Las implementaciones híbridas de Skype Empresarial Server 2019 solo usan los servicios en la nube proporcionados por el sistema telefónico para la mensajería unificada y no se integran con Exchange Online. En Skype Empresarial Server 2019 ahora puede usar las colas de llamadas en la nube y los operadores automáticos que se describen en Esto es lo que obtiene con El sistema telefónico en [Microsoft 365 u Office 365.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-Para usar un operador automático de sistema telefónico o una cola de llamadas con Skype empresarial Server 2019, tendrá que crear cuentas de recursos que actúen como extremos de aplicación y a los que se les puedan asignar números de teléfono y, a continuación, usar el centro de administración de Microsoft Teams para configurar la cola de llamadas o el operador automático. Esta cuenta de recursos se puede hospedar en línea (consulte [administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para crear cuentas de recursos hospedadas en línea) o en locales, tal como se describe en este artículo. Normalmente, tendrá varios operadores automáticos de sistema telefónico o de cola de llamadas, cada uno de los cuales se asigna a una cuenta de recursos, que se puede hospedar en línea o en Skype empresarial Server 2019.
+Para usar un operador automático del sistema telefónico o una cola de llamadas con Skype Empresarial Server 2019, deberá crear cuentas de recursos que actúen como extremos de la aplicación y que se puedan asignar números de teléfono y, a continuación, usar el Centro de administración de Teams en línea para configurar la cola de llamadas o el operador automático. Esta cuenta de recurso se puede hospedar en línea (vea Administrar cuentas de recursos en [Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para crear cuentas de recursos en línea) o local, como se describe en este artículo. Normalmente, tendrá varios nodos de operador automático o cola de llamadas del sistema telefónico, cada uno de los cuales se asigna a una cuenta de recursos, que se puede hospedar en línea o en Skype Empresarial Server 2019.
 
-Si tiene un operador automático de mensajería unificada de Exchange y un sistema de cola de llamadas, antes de cambiar a Exchange Server 2019 o Exchange Online tendrá que registrar manualmente los detalles tal como se describe a continuación y, a continuación, implementar un sistema completamente nuevo con el centro de administración de Teams.
+Si ya tiene un operador automático de mensajería unificada de Exchange y un sistema de cola de llamadas, antes de cambiar a Exchange Server 2019 o Exchange Online, deberá registrar manualmente los detalles como se describe a continuación y, a continuación, implementar un sistema completamente nuevo mediante el Centro de administración de Teams.
 
 ## <a name="overview"></a>Información general
 
-Si el operador automático del sistema telefónico o la cola de llamadas van a necesitar un número de servicio, se pueden cumplir las distintas dependencias en la secuencia siguiente:
+Si el operador automático del sistema telefónico o la cola de llamadas necesitarán un número de servicio, se pueden cumplir las distintas dependencias en la siguiente secuencia:
 
 1. Obtener un número de servicio.
-2. Obtenga una licencia de sistema telefónico gratuita para el [usuario](/MicrosoftTeams/teams-add-on-licensing/virtual-user) o una licencia de sistema telefónico de pago para usarla con la cuenta de recursos.
-3. Cree la cuenta de recurso. Un operador automático o cola de llamadas debe tener una cuenta de recurso asociada.
-4. Espere a que se sincronice Active Directory entre las instalaciones en línea y locales.
-5. Asigne la licencia de sistema telefónico a la cuenta de recurso.
+2. Obtenga una licencia gratuita del sistema telefónico: [licencia de usuario virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user) o una licencia de sistema telefónico de pago para usarla con la cuenta de recurso.
+3. Cree la cuenta de recurso. Se requiere un operador automático o una cola de llamadas para tener una cuenta de recurso asociada.
+4. Espere una sincronización de Active Directory entre en línea y local.
+5. Asignar la licencia del sistema telefónico a la cuenta de recursos.
 6. Asigne un número de servicio a la cuenta de recurso.
-7. Cree una cola de llamadas del sistema telefónico o un operador automático.
+7. Cree una cola de llamadas del Sistema telefónico o un operador automático.
 8. Asocie la cuenta de recurso con un operador automático o una cola de llamadas: (New-CsApplicationInstanceAssociation).
 
-Si el operador automático o la cola de llamadas están anidados bajo un operador automático de nivel superior, la cuenta de recurso asociada solo necesita un número de teléfono si desea tener varios puntos de entrada en la estructura de los operadores automáticos y las colas de llamadas.
+Si el operador automático o la cola de llamadas están anidados en un operador automático de nivel superior, la cuenta de recursos asociada solo necesita un número de teléfono si desea varios puntos de entrada en la estructura de operadores automáticos y colas de llamadas.
 
-Para redirigir las llamadas a los usuarios de su organización que estén hospedados en línea, deben tener una licencia de **sistema telefónico** y estar habilitados para telefonía IP empresarial o tener planes de llamadas de Microsoft 365 o Office 365. Consulte [asignar licencias de Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitarlos para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirigir las llamadas **a** las personas de su organización que están en línea, deben tener una licencia del Sistema telefónico y estar habilitados para Telefonía IP empresarial o tener Planes de llamadas de Microsoft 365 u Office 365. Consulte [Asignar licencias de Microsoft Teams.](/MicrosoftTeams/assign-teams-licenses) Para habilitarlos para Telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-Si el operador automático del sistema telefónico o la cola de llamadas que está creando estarán anidados y no necesitará un número de teléfono, el proceso es:
+Si el operador automático del sistema telefónico o la cola de llamadas que está creando se anidarán y no necesitarán un número de teléfono, el proceso es:
 
-1. Crear la cuenta de recursos  
-2. Esperar una sincronización de Active Directory entre la ubicación en línea y local
-3. Crear un operador automático o cola de llamadas del sistema telefónico
-4. Asociar la cuenta de recurso a un operador automático o cola de llamadas del sistema telefónico
+1. Crear la cuenta de recurso  
+2. Esperar una sincronización de Active Directory entre en línea y local
+3. Crear un operador automático del sistema telefónico o una cola de llamadas
+4. Asociar la cuenta de recurso con un operador automático del sistema telefónico o una cola de llamadas
 
 ## <a name="create-a-resource-account-with-a-phone-number"></a>Crear una cuenta de recurso con un número de teléfono
 
-La creación de una cuenta de recursos que use un número de teléfono requeriría realizar las siguientes tareas en el orden siguiente:
+Crear una cuenta de recurso que use un número de teléfono requeriría realizar las siguientes tareas en el orden siguiente:
 
-1. Puerto u obtenga un número de servicio de pago o gratuito. El número no se puede asignar a otros servicios de voz o cuentas de recursos.
+1. Portabilidad u obtener un número de servicio gratuito o de pago. El número no se puede asignar a ninguna otra cuenta de recursos o servicios de voz.
 
-   Antes de asignar un número de teléfono a una cuenta de recursos, tendrá que obtener o migrar los números de servicio de pago o gratuitos existentes. Una vez que obtenga los números de teléfono de servicio de pago o gratuitos, se mostrarán en los números de teléfono de telefonía del **centro de administración de Microsoft Teams**  >  **Voice**  >  **Phone numbers**, y el **tipo de número** que aparezca en la lista aparecerá como **servicio-** gratuito. Para obtener los números de servicio, consulte [obtener números de teléfono de servicio](/MicrosoftTeams/getting-service-phone-numbers) o, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+   Antes de asignar un número de teléfono a una cuenta de recursos, deberá obtener o portabilidad los números de servicio de pago o gratuitos existentes. Después de obtener los números de teléfono de servicio de pago o gratuitos, se mostrarán en los números de teléfono de voz del Centro de administración de **Microsoft Teams** y el tipo de número que aparece aparecerá como Servicio - Número  >    >  gratuito.   Para obtener sus números de servicio, consulte [Obtener](/MicrosoftTeams/getting-service-phone-numbers) números de teléfono de servicio o si desea transferir un número de servicio existente, consulte Transferir números de teléfono [a Teams.](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
-   Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. Vaya a [administrar los números de teléfono de su organización](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) en lugar de ver cómo hacerlo desde fuera de los Estados Unidos.
+   Si está fuera de los Estados Unidos, no puede usar el Centro de administración de Microsoft Teams para obtener números de servicio. Vaya a [Administrar números de teléfono de su organización](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) para ver cómo hacerlo desde fuera de los Estados Unidos.
 
-2. Compre una licencia de sistema telefónico. Vea:  
+2. Comprar una licencia de Sistema telefónico. Vea:  
    - [Sistema telefónico: licencia de usuario virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 y E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
-   - [Software de empresa Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software)
+   - [Software empresarial de Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software)
 
-3. Cree una cuenta de recursos local mediante la ejecución del `New-CsHybridApplicationEndpoint` cmdlet para cada operador automático del sistema telefónico o cola de llamadas, y asigne a cada uno de ellos un nombre, una dirección SIP, etc.
+3. Cree una cuenta de recursos local ejecutando el cmdlet para cada operador automático del sistema telefónico o la cola de llamadas, y asigne a cada uno un nombre, una dirección `New-CsHybridApplicationEndpoint` SIP, y así sucesivamente.
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -76,28 +76,28 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
     Vea [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obtener más información sobre este comando.
 
-4. Opcional Una vez que se hayan creado las cuentas de recursos, puede esperar a que AD se sincronice entre los locales y en línea, o forzar una sincronización y continuar con la configuración en línea del operador automático del sistema telefónico o las colas de llamadas. Para forzar una sincronización, ejecute el siguiente comando en el equipo que ejecuta AAD Connect (si no lo ha hecho ya, necesita cargar `import-module adsync` para ejecutar el comando):
+4. (Opcional) Una vez creadas las cuentas de recursos, puede esperar a que AD se sincronice entre en línea y localmente, o forzar una sincronización y continuar con la configuración en línea del operador automático del sistema telefónico o las colas de llamadas. Para forzar una sincronización, ejecutaría el siguiente comando en el equipo que ejecuta AAD Connect (si aún no lo ha hecho, tendría que cargar para ejecutar `import-module adsync` el comando):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
-    Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obtener más información sobre este comando.
+    Consulta [Start-ADSyncSyncCycle para](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) obtener más información sobre este comando.
     
-    Nota: en este momento, es posible que la cuenta se haya sincronizado, pero el aprovisionamiento no se ha completado.  Compruebe el resultado de [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Si el punto de conexión sincronizado todavía no ha completado el aprovisionamiento, no aparecerá aquí.  Puede comprobar el estado de las solicitudes de aprovisionamiento en el portal de M365 en [Teams Setup status](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  Esta fase de aprovisionamiento puede tardar hasta 24 horas.
+    Nota: en este punto, es posible que la cuenta se haya sincronizado, pero es posible que el aprovisionamiento no esté completo.  Compruebe el resultado [de Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Si el punto de conexión sincronizado aún no ha completado el aprovisionamiento, no aparecerá aquí.  Puede comprobar el estado de las solicitudes de aprovisionamiento en el portal de M365 en [Estado de instalación de Teams.](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)  Esta fase de aprovisionamiento puede tardar hasta 24 horas.
 
-5. Asigne la licencia de sistema telefónico o usuario virtual a la cuenta del recurso. Consulte [asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) y [asignar licencias a usuarios](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+5. Asignar la licencia sistema telefónico: usuario virtual o sistema telefónico a la cuenta de recurso. Consulte [Asignar licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) y Asignar licencias a los [usuarios.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
-   Si va a asignar un número de teléfono a una cuenta de recursos, ahora puede usar la licencia de sistema telefónico y usuario virtual sin costo. Esto proporciona funciones del sistema telefónico a números de teléfono en el nivel de la organización y le permite crear funciones de cola de llamadas y operador automático.
+   Si asigna un número de teléfono a una cuenta de recursos, ahora puede usar la licencia gratuita Sistema telefónico - Usuario virtual. Esto proporciona funcionalidades de Sistema telefónico a los números de teléfono en el nivel de la organización y le permite crear funciones de operador automático y cola de llamadas.
 
 
-6. Asigne el número de servicio a la cuenta de recurso. Use el `Set-CsHybridApplicationEndpoint` comando para asignar un número de teléfono (con la opción-LineURI) a la cuenta del recurso.
+6. Asigne el número de servicio a la cuenta del recurso. Use el comando para asignar un número de teléfono (con la `Set-CsHybridApplicationEndpoint` opción -LineURI) a la cuenta del recurso.
 
     ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
     ```
 
-    Consulte [set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) para obtener más información sobre este comando.
+    Vea [Set-CsHybridApplicationEndpoint para](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) obtener más información sobre este comando.
 
     Para asignar un enrutamiento directo o un número híbrido a una cuenta de recursos, use el siguiente cmdlet:
 
@@ -105,31 +105,29 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-   La cuenta de recurso necesitará un número de teléfono asignado si se va a asignar a un operador automático de nivel superior o a una cola de llamadas. Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos; solo se pueden usar números de teléfono de servicio de pago o gratuitos.
+   La cuenta de recursos necesitará un número de teléfono asignado si se asignará a un operador automático de nivel superior o a una cola de llamadas. Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos, solo se pueden usar números de teléfono gratuitos o de pago.
 
-     Puede asignar un enrutamiento directo o un número híbrido a su cuenta de recursos. Para obtener más información, vea [plan Direct Routing](/MicrosoftTeams/direct-routing-plan) and [plan Cloud Cloud operadors](plan-cloud-auto-attendant.md).
+     Puedes asignar un enrutamiento directo o un número híbrido a tu cuenta de recurso. Para obtener más información, consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) and Plan Cloud auto [attendants](plan-cloud-auto-attendant.md).
 
      > [!NOTE]
-     > Los números del servicio de enrutamiento directo asignados a las cuentas de recursos para el operador automático y las colas de llamadas solo se admiten para los usuarios y agentes de Microsoft Teams.
+     > Los números de servicio de enrutamiento directo asignados a cuentas de recursos para operadores automáticos y colas de llamadas solo son compatibles con los usuarios y agentes de Microsoft Teams.
 
-7. Cree el operador automático o la cola de llamadas del sistema telefónico. Vea una de las opciones siguientes:
+7. Cree el operador automático del sistema telefónico o la cola de llamadas. Vea una de las opciones siguientes:
 
    - [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
-8. Asocie la cuenta de recurso con el operador automático de sistema telefónico o la cola de llamadas que eligió anteriormente.
-
-Un ejemplo de implementación de una pequeña empresa está disponible en  [Small Business ejemplo: configurar un operador automático](/microsoftteams/tutorial-org-aa) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+8. Asocie la cuenta de recurso con el operador automático del sistema telefónico o la cola de llamadas que eligió anteriormente.
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Crear una cuenta de recurso sin un número de teléfono
 
-En esta sección se describe cómo crear una cuenta de recursos que esté hospedada en local. La creación de una cuenta de recursos que se hospeda en línea se explica en [Manage Resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).
+En esta sección se describe la creación de una cuenta de recursos que se encuentra en el entorno local. La creación de una cuenta de recursos que está en línea se describe en Administrar cuentas [de recursos en Microsoft Teams.](/MicrosoftTeams/manage-resource-accounts)
 
-Estos pasos son necesarios para crear un operador automático de sistema telefónico de marca o una estructura de cola de llamadas, o bien para reconstruir la estructura creada originalmente en la mensajería unificada de Exchange.
+Estos pasos son necesarios tanto si va a crear un nuevo operador automático del sistema telefónico o una estructura de cola de llamadas, como si va a recompilar la estructura creada originalmente en la mensajería unificada de Exchange.
 
-Inicie sesión en el servidor front-end de Skype empresarial y ejecute los siguientes cmdlets de PowerShell:
+Inicie sesión en el servidor front-end de Skype Empresarial y ejecute los siguientes cmdlets de PowerShell:
 
-1. Cree una cuenta de recursos local mediante la ejecución del `New-CsHybridApplicationEndpoint` cmdlet para cada operador automático del sistema telefónico o cola de llamadas, y asigne a cada uno de ellos un nombre, una dirección SIP, etc.
+1. Cree una cuenta de recursos local ejecutando el cmdlet para cada operador automático del sistema telefónico o la cola de llamadas, y asigne a cada uno un nombre, una dirección `New-CsHybridApplicationEndpoint` SIP, y así sucesivamente.
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -137,45 +135,43 @@ Inicie sesión en el servidor front-end de Skype empresarial y ejecute los sigui
 
     Vea [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obtener más información sobre este comando.
 
-2. Opcional Una vez que se hayan creado las cuentas de recursos, puede esperar a que AD se sincronice entre los locales y en línea, o forzar una sincronización y continuar con la configuración en línea del operador automático del sistema telefónico o las colas de llamadas. Para forzar una sincronización, ejecute el siguiente comando en el equipo que ejecuta AAD Connect (si no lo ha hecho ya, necesita cargar `import-module adsync` para ejecutar el comando):
+2. (Opcional) Una vez creadas las cuentas de recursos, puede esperar a que AD se sincronice entre en línea y localmente, o forzar una sincronización y continuar con la configuración en línea del operador automático del sistema telefónico o las colas de llamadas. Para forzar una sincronización, ejecutaría el siguiente comando en el equipo que ejecuta AAD Connect (si aún no lo ha hecho, tendría que cargar para ejecutar `import-module adsync` el comando):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
-    Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obtener más información sobre este comando.
+    Consulta [Start-ADSyncSyncCycle para](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) obtener más información sobre este comando.
 
-3. Cree el operador automático o la cola de llamadas del sistema telefónico. Vea una de las opciones siguientes:
+3. Cree el operador automático del sistema telefónico o la cola de llamadas. Vea una de las opciones siguientes:
    - [Configurar un operador automático en la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)  
-4. Asocie la cuenta de recurso y el operador automático o la cola de llamadas del sistema telefónico que eligió anteriormente.
-
-Un ejemplo de implementación de una pequeña empresa está disponible en  [Small Business ejemplo: configurar un operador automático](/microsoftteams/tutorial-org-aa) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+4. Asocie la cuenta de recurso y el operador automático del sistema telefónico o la cola de llamadas que eligió anteriormente.
 
 ## <a name="test-the-implementation"></a>Probar la implementación
 
-La mejor manera de probar la implementación es llamar al número configurado para un operador automático de sistema telefónico o una cola de llamadas y conectarse a uno de los agentes o menús. También puede realizar rápidamente una llamada de prueba mediante el **botón probar** del panel de acciones del centro de administración. Si desea realizar cambios en un operador automático de sistema telefónico o cola de llamadas, selecciónelo y, a continuación, en el panel de acciones, haga clic en **Editar**. 
+La mejor manera de probar la implementación es llamar al número configurado para un operador automático del sistema telefónico o la cola de llamadas y conectarse a uno de los agentes o menús. También puede realizar rápidamente una llamada de prueba con el botón **Probar** en el panel de acciones del centro de administración. Si desea realizar cambios en un operador automático del sistema telefónico o en una cola de llamadas, selecciónelo y, a continuación, en el panel de acciones, haga clic **en Editar**. 
 
 > [!TIP]
-> Si su cuenta de recurso tiene dificultades para asignarse a una cola de llamadas o a un operador automático, consulte [problemas conocidos de Microsoft Teams](/MicrosoftTeams/Known-issues#phone-system) y la sección [cómo solucionar mis instancias de aplicaciones híbridas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) en el blog de Microsoft Teams.
+> Si su cuenta de recursos tiene dificultades para asignarse a una cola de llamadas o a un operador automático, consulte Problemas conocidos de [Microsoft Teams](/MicrosoftTeams/Known-issues#phone-system) y la sección Cómo corregir mis instancias de aplicaciones [híbridas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) en el blog de Microsoft Teams.
 
-## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Mover una cola de llamadas o un operador automático de mensajería unificada de Exchange al sistema telefónico
+## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Mover un operador automático de mensajería unificada de Exchange o una cola de llamadas a Sistema telefónico
 
-La migración de la mensajería unificada de Exchange al sistema telefónico necesitará volver a crear la cola de llamadas y la estructura del operador automático, la migración directa de una a otra no es compatible. Para volver a implementar un conjunto de colas de llamadas y operadores automáticos:
+La migración de la mensajería unificada de Exchange al sistema telefónico requerirá volver a crear la cola de llamadas y la estructura del operador automático, ya que no se admite la migración directa de uno a otro. Para volver a implementar un conjunto de colas de llamadas y operadores automáticos:
 
-1. Para obtener una lista de todos los operadores automáticos de mensajería unificada de Exchange y las colas de llamadas, ejecute el siguiente comando en el sistema de Exchange 2013 o 2016 mientras tiene una sesión iniciada como administrador:
+1. Para obtener una lista de todos los operadores automáticos de mensajería unificada de Exchange y las colas de llamadas, ejecute el siguiente comando en el sistema de Exchange 2013 o 2016 mientras ha iniciado sesión como administrador:
 
     ``` Powershell
     Get-UMAutoAttendant | Format-List
     ```
 
-2. Por cada cola de llamadas de mensajería unificada de Exchange o operador automático, anote su lugar en la estructura, configuración y obtener copias de los archivos de texto o de texto a voz asociados (el GUID del resultado será el nombre de una carpeta en la que se almacenan los archivos). Puede obtener estos detalles si ejecuta el comando:
+2. Para cada operador automático o cola de llamadas de mensajería unificada de Exchange enumerado, anote su lugar en la estructura, la configuración y obtenga copias de los archivos de audio o texto a voz asociados (el GUID de la salida será el nombre de una carpeta donde se almacenan los archivos). Para obtener estos detalles, ejecute el comando:
 
     ``` Powershell
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
 
-    Consulte [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) para obtener más información sobre este comando. Una lista completa de las opciones que es posible que necesite capturar está en [los miembros de UMAutoAttendant](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) , pero las opciones más importantes para destacar son:
+    Consulte [Get-UMAutoAttendant para](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) obtener más información sobre este comando. Una lista completa de opciones que es posible que necesite capturar se encuentra en los miembros [UMAutoAttendant,](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) pero las opciones más importantes para tener en cuenta son:
 
     - Horario comercial
     - Horario no comercial
@@ -183,15 +179,15 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
     - Programación de vacaciones
 
 3. Cree nuevos puntos de conexión locales como se describió anteriormente.
-   Asigne al operador automático de nivel superior un número temporal para fines de prueba.
+   Asigne al operador automático de nivel superior un número temporal para realizar pruebas.
 
-4. Configure un operador automático o cola de llamadas del sistema telefónico que use los puntos de conexión como se ha descrito anteriormente.
+4. Configure un operador automático del sistema telefónico o una cola de llamadas que use los extremos como se describió anteriormente.
 
-   Es posible que le resulte útil usar los ejercicios del tutorial titulado [Small Business example-configure a un operador automático](/microsoftteams/tutorial-org-aa) para crear un mapa lógico de las jerarquías en su antiguo sistema de mensajería unificada de Exchange.
 5. Pruebe el operador automático del sistema telefónico o la cola de llamadas.
-6. Reasigne el número de teléfono vinculado a la cola de llamadas de mensajería unificada de Exchange o al operador automático al operador automático o la cola de llamadas del sistema telefónico correspondiente.  
 
-   En este punto, si ya ha migrado el correo de voz de mensajería unificada, debe estar en una ubicación para migrar a Exchange Server 2019.
+6. Reasignar el número de teléfono vinculado a la cola de llamadas de mensajería unificada de Exchange o al operador automático del sistema telefónico correspondiente o a la cola de llamadas.  
+
+   En este punto, si ya ha migrado el correo de voz de mensajería unificada, debería estar en una posición para migrar a Exchange Server 2019.
 
 ## <a name="see-also"></a>Consulte también
 

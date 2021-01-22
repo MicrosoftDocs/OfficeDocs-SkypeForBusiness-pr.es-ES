@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Descubra cómo administrar la configuración de una directiva de reunión en Teams con el fin de controlar las características disponibles para sus participantes en reuniones programadas por usuarios.
-ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718634"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918916"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -45,7 +45,7 @@ Puede implementar directivas en las formas que se indican a continuación. Esto 
 |---------|---------|
 |Por organizador    |Al implementar una directiva por organizador, todos los participantes de la reunión heredan la directiva del organizador. Ejemplo: **Admitir automáticamente personas** es una directiva por organizador y controla si los usuarios pueden unirse a la reunión directamente o esperar en la sala de espera para reuniones programadas por el usuario al que se ha asignado la directiva.          |
 |Por usuario    |Cuando implementa una directiva por usuario, solo la directiva por usuario se aplica para restringir determinadas características para el organizador o los participantes de la reunión. Por ejemplo, **Permitir Reunirse ahora en los canales** es una directiva por usuario.     |
-|Por organizador y por usuario     |Cuando implementa una combinación de una directiva por organizador y por usuario, se restringen determinadas características a los participantes de la reunión en función de las directivas de los usuarios y del organizador. Por ejemplo, **Permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta opción para permitir que el organizador de la reunión y los participantes inicien y detengan una grabación.
+|Por organizador y por usuario     |Cuando implementa una combinación de una directiva por organizador y por usuario, se restringen determinadas características a los participantes de la reunión en función de las directivas de los usuarios y del organizador. Por ejemplo, **Permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta opción para permitir a los usuarios iniciar y detener una grabación.
 
 Puede editar la configuración en la directiva global o crear y asignar una o más directivas personalizadas. Los usuarios obtendrán la directiva global, a menos que usted cree y asigne una directiva personalizada.
 
@@ -117,7 +117,7 @@ Al seleccionar una directiva existente en la página **Directivas de reunión** 
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir la opción Reunirse ahora en canales
 
-Permitir **Reunirse ahora** es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión no planeada en un canal de Teams. Si activa esta configuración, los usuarios podrán seleccionar el botón **reunirse** para iniciar una reunión no planeada o programar una reunión en el canal. El valor predeterminado es True.
+Permitir **Reunirse ahora** es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión no planeada en un canal de Teams. Si activa esta configuración, los  usuarios pueden seleccionar el botón Reunirse para iniciar una reunión no planeada o programar una reunión en el canal. El valor predeterminado es True.
 
 ![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png)
 
@@ -197,7 +197,7 @@ Nota: Actualmente, la transcripción de reuniones grabadas solo es posible si lo
 
 ### <a name="allow-cloud-recording"></a>Permitir la grabación en la nube
 
-Esta es una combinación de directiva por organizador y por usuario. Esta configuración controla si se pueden grabar las reuniones de este usuario. La grabación la puede iniciar el organizador de la reunión u otro participante de la reunión si la configuración de directiva está activada para el participante y si es un usuario autenticado de la misma organización.
+Esto se controla en una directiva por usuario. Esta configuración controla si un usuario puede grabar. La grabación la puede iniciar el organizador de la reunión o por otro participante de la reunión si su configuración de directiva específica está activada y si es un usuario autenticado de la misma organización que el organizador.
 
 Las personas de fuera de su organización, como los usuarios federados y anónimos, no pueden iniciar la grabación. Los usuarios invitados no pueden iniciar o detener la grabación.
 
@@ -211,7 +211,7 @@ Veamos el ejemplo siguiente.
 |Amanda | Location1MeetingPolicy | Activado|
 |John (usuarios externos) | No aplicable | No aplicable|
 
-Las reuniones organizadas por Daniela no se pueden grabar y Amanda, que tiene la configuración de directiva habilitada, no puede grabar las reuniones organizadas por Daniela. Las reuniones organizadas por Amanda sí se pueden grabar, pero Daniela, que tiene la configuración de directiva deshabilitada y John, un usuario externo, no pueden grabar las reuniones organizadas por Amanda.
+Daniela, incluso si fue organizadora no puede grabar porque su directiva está desactivada. Juan, que tiene habilitada la configuración de directiva, puede grabar reuniones incluso las organizadas por Daniela. Si Juana organizaba una reunión, ella podrá grabar esa reunión, pero Daniela, que tiene la configuración de directiva deshabilitada y Juan, que es usuario externo, no puede grabar esa reunión.
 
 Para más información sobre la grabación de reuniones en la nube, consulte [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 
@@ -329,8 +329,8 @@ Para las reuniones que necesitan una experiencia de vídeo de mayor calidad, com
 
 ### <a name="screen-sharing-mode"></a>Modo de uso compartido de la pantalla
 
-> [!Note]
-> Esta característica aún está en desarrollo. El uso compartido de la pantalla es una directiva por participante.
+> [!NOTE]
+> Esta característica aún está en desarrollo. El uso compartido de la pantalla es una directiva por participante, pero puede verse afectada por la configuración de pantalla compartida del organizador, como se describe en esta sección.
 
 Esta configuración controla si se permite el uso compartido de ventanas o el escritorio en la reunión del usuario. Los participantes de la reunión a los que no se les ha asignado ninguna directiva (por ejemplo, los participantes anónimos, invitados, B2B y federados) heredan la directiva del organizador de la reunión.
 
@@ -359,7 +359,7 @@ Si esta configuración está activada para el usuario, la opción **Ceder el con
 
 ![Captura de pantalla que muestra la opción Ceder el control](media/meeting-policies-give-control.png)
 
-Si la configuración está desactivada para el usuario, la opción **ceder el control** no está disponible.
+Si la configuración está desactivada para el usuario, la opción Ceder **el control** no está disponible.
 
 ![Captura de pantalla que muestra que la opción Ceder el control no está disponible](media/meeting-policies-give-control-not-available.png)
 
@@ -418,7 +418,7 @@ Amanda no puede compartir la pizarra en una reunión, aunque sea la organizadora
 
 ### <a name="allow-shared-notes"></a>Permitir notas compartidas
 
-Esta es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la directiva del organizador de la reunión. Actualmente, la pestaña **Notas de la reunión** solo es compatible con reuniones que tienen menos de 20 participantes.
+Esta es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la directiva del organizador de la reunión. La **pestaña Notas de** la reunión es compatible con reuniones de hasta 100 participantes.
 
 Veamos el ejemplo siguiente.
 
@@ -455,7 +455,7 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 
 ![Captura de pantalla que muestra una reunión con un usuario en la sala de espera](media/meeting-policies-lobby.png)
 
- Los organizadores de reuniones pueden seleccionar **las opciones de reunión** de la invitación a la reunión para cambiar esta configuración para cada reunión que programe.
+ Los organizadores de la reunión **pueden seleccionar Opciones de reunión en** la invitación a la reunión para cambiar esta configuración para cada reunión que programe.
 
 > [!NOTE]
 > En las opciones de reunión, la configuración está etiquetada como "Quién puede omitir la sala de espera". Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y las reuniones anteriores en las que el usuario no haya modificado las opciones de reunión.
@@ -469,7 +469,7 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 
-Esta es una directiva por organizador. Esta opción controla si las personas que llaman por teléfono se unen a la reunión directamente o si aguardan en la sala de espera, independientemente de la configuración de **Admitir participantes automáticamente**. Esta configuración está desactivada de forma predeterminada. Cuando esta opción está desactivada, los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y lo retenga. Cuando esta opción está activada, los usuarios de marcado se unirán automáticamente a la reunión cuando un usuario de la organización se una.
+Esta es una directiva por organizador. Esta opción controla si las personas que llaman por teléfono se unen a la reunión directamente o si aguardan en la sala de espera, independientemente de la configuración de **Admitir participantes automáticamente**. Esta configuración está desactivada de forma predeterminada. Cuando esta configuración está desactivada, los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario de la organización se una a la reunión con un cliente de Teams y los admita. Cuando esta opción está activada, los usuarios de marcado se unirán automáticamente a la reunión cuando un usuario de la organización se una.
 
 > [!NOTE]
 > Si un usuario de marcado se une a la reunión antes de que lo haga un usuario de la organización, el primero aguardará en la sala de espera hasta que el usuario de la organización se incorpore a la reunión con un cliente de Teams y le acepte. Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y las reuniones anteriores en las que el usuario no haya modificado las opciones de reunión.
@@ -547,20 +547,13 @@ Para especificar si los usuarios pueden personalizar su fondo de vídeo en una r
 |**NoFilters**     |El usuario no puede personalizar su fondo de vídeo.|
 |**BlurOnly**     |El usuario tiene la opción de difuminar el fondo de vídeo. |
 |**BlurandDefaultBackgrounds**     |El usuario tiene la opción de difuminar su fondo de vídeo o elegir un conjunto de imágenes predeterminado para usarlo como fondo. |
-|**AllFilters**     |El usuario tiene la opción de difuminar su fondo de vídeo, elegir entre un conjunto de imágenes predeterminado o cargar una imagen personalizada para usarla como fondo. |
+|**AllFilters**     |El usuario tiene la opción de difuminar el fondo de vídeo, elegir entre el conjunto de imágenes predeterminado o cargar imágenes personalizadas para usarlas como fondo. |
 
-> [!NOTE]
+> [!IMPORTANT]
 > Teams no puede filtrar las imágenes cargadas por los usuarios. Al usar la configuración **AllFilters**, debe tener directivas de organización internas para evitar que los usuarios puedan cargar imágenes ofensivas, inadecuadas, o para las cuales la organización no tenga derechos de uso en el contexto de fondos para reuniones de Teams.
 
-## <a name="meeting-policy-settings---allow-breakout-rooms"></a>Configuración de la directiva de reuniones. Permitir salas para sesión de subgrupo
-
-Esta es una directiva por usuario. [Las salas para sesión de subgrupo](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d) en Teams se usan para dividir reuniones en salas de reuniones independientes y más pequeñas. Esta configuración controla si los organizadores de reuniones tienen la opción de crear y administrar salas para sesión de subgrupo en reuniones que programan o inician. Esta configuración de directiva afecta a todas las reuniones, incluidas las reuniones de Reunirse ahora.
-
-Actualmente, solo puede usar PowerShell para establecer esta configuración de directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
-
-De forma predeterminada, el parámetro **AllowBreakOutRooms** se establece en **True** y los usuarios a los que se les asigna esta directiva tienen la opción de crear y administrar salas para sesión de subgrupo en reuniones que programan o empiezan. Los usuarios también pueden asignar los usuarios a las salas y trasladarlos entre distintas salas. Tenga en cuenta que la creación y administración de salas para sesión de subgrupo en reuniones solo está disponible actualmente en el cliente de escritorio de Teams. Para obtener más información, consulte [Crear y administrar salas para sesión de subgrupo durante las reuniones de clase](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d).
-
-Para impedir que los usuarios creen salas para sesión de subgrupo, establezca el parámetro **AllowBreakOutRooms** como **False**. Los usuarios a los que se asigna esta directiva no tienen la opción de crear o administrar salas para sesión de subgrupo.
+> [!NOTE]
+> Estas características no están disponibles para todos los clientes de Teams. Para obtener más información, consulte el título _Vídeo y_ fondos en Reuniones y eventos [en directo.](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)
 
 ## <a name="related-topics"></a>Temas relacionados
 

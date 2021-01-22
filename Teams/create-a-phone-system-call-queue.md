@@ -23,63 +23,63 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Aprenda a configurar el sistema telefónico para las colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, mantiene música, redirige las llamadas y otras características.
+description: Aprenda a configurar Sistema telefónico para colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
 ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49765415"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919048"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
-Las colas de llamadas proporcionan un método para enrutar llamadas a las personas de su organización que pueden ayudarle con un problema o una pregunta en particular. Las llamadas se distribuyen de una en una a las personas de la cola (que se conocen como *agentes*). 
+Las colas de llamadas proporcionan un método para enrutar autores de llamadas a personas de su organización que pueden ayudarle con un problema o una pregunta en particular. Las llamadas se distribuyen de una en una a las personas de la cola (que se conocen como *agentes).* 
 
 Las colas de llamadas proporcionan:
 
-- Un mensaje de bienvenida.
+- Un mensaje de saludo.
 
-- Música mientras las personas esperan en espera en una cola.
+- Música mientras los usuarios están en espera en una cola.
 
-- Enrutamiento de llamadas: remisión de pedido-a de *salida* (FIFO).
+- Enrutamiento de llamadas, *en orden de primero en entrada,* orden first out (FIFO), a agentes.
 
-- Administración de opciones para el desbordamiento de la cola y el tiempo de espera.
+- Opciones de control para el desbordamiento de la cola y el tiempo de espera.
 
-Asegúrese de que tiene el [plan de lectura de los operadores automáticos de Teams y las colas de llamadas](plan-auto-attendant-call-queue.md) y siga los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started) antes de seguir los procedimientos de este artículo.
+Asegúrese de que ha leído el Plan para operadores [](plan-auto-attendant-call-queue.md#getting-started) automáticos y colas de llamadas de [Teams,](plan-auto-attendant-call-queue.md) y de que ha seguido los pasos de introducción antes de seguir los procedimientos de este artículo.
 
-Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **voz**, haga clic en **colas de llamadas** y, a continuación, haga clic en **Agregar**.
+Para configurar una cola de llamadas, en el centro de administración de Teams, expanda **Voz,** haga clic en Colas de llamadas **y,** a continuación, haga clic en **Agregar.**
 
-## <a name="resource-account-and-language"></a>Cuenta de recursos e idioma
+## <a name="resource-account-and-language"></a>Cuenta e idioma del recurso
 
-![Captura de pantalla de la configuración de idioma y cuenta de recursos](media/call-queue-name-language.png)
+![Captura de pantalla de la configuración de cuenta de recursos e idioma](media/call-queue-name-language.png)
 
 1. Escriba un nombre para la cola de llamadas. Los agentes verán este nombre cuando reciban una llamada entrante de la cola.
 
-2. Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**.
+2. Haga **clic en Agregar** cuentas, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en Agregar y, a continuación, haga clic en **Agregar.** 
 
-3. Elija un idioma. Este idioma se usará para las solicitudes de voz generadas por el sistema y la transcripción del buzón de voz (si las habilita).
+3. Elige un idioma. Este idioma se usará para los mensajes de voz generados por el sistema y la transcripción del correo de voz (si los habilita).
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>Saludos y música en espera en la cola
+## <a name="greetings-and-music-on-hold-in-queue"></a>Saludos y música en espera en cola
 
-Especifique si desea reproducir un saludo para las personas que llaman cuando llegan a la cola. Debe cargar un archivo MP3, WAV o WMA que contenga el saludo que desea reproducir.
+Especifique si quiere reproducir un saludo a los autores de llamadas cuando lleguen a la cola. Debe cargar un archivo MP3, WAV o WMA que contenga el saludo que quiere reproducir.
 
-Teams proporciona música predeterminada a las personas que llaman mientras están en espera en una cola. Si desea reproducir un archivo de audio específico, elija **reproducir un archivo de audio** y cargar un archivo mp3, WAV o WMA.
+Teams proporciona música predeterminada a los autores de llamadas mientras están en espera en una cola. Si desea reproducir un archivo de audio específico, elija Reproducir un archivo de **audio** y cargue un archivo MP3, WAV o WMA.
 
 > [!NOTE]
-> La grabación cargada no puede tener más de 5 MB.
-> La música predeterminada que se proporciona en las colas de llamadas de Teams es gratuita para la organización. 
+> La grabación cargada no puede tener un tamaño superior a 5 MB.
+> La música predeterminada que se proporciona en las colas de llamadas de Teams no tiene que pagar regalías por su organización. 
 
 ## <a name="call-agents"></a>Agentes de llamadas
 
-Para poder agregar agentes a una cola de llamadas, consulta los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) .
+Consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) para poder agregar agentes a una cola de llamadas.
 
-![Captura de pantalla de configuración de usuarios y grupos para colas de llamadas](media/call-queue-users-groups.png)
+![Captura de pantalla de la configuración de usuarios y grupos para colas de llamadas](media/call-queue-users-groups.png)
 
-Puede Agregar hasta 20 agentes de forma individual y hasta 200 agentes a través de grupos.
+Puede agregar hasta 20 agentes de forma individual y hasta 200 agentes a través de grupos.
 
-Para agregar un usuario a la cola, haga clic en **Agregar usuarios**, busque el usuario, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**.
+Para agregar un usuario a la cola, haga clic en Agregar **usuarios,** busque el usuario, haga clic en Agregar **y,** a continuación, haga clic **en Agregar.**
 
-Para agregar un grupo a la cola, haga clic en **agregar grupos**, busque el grupo, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**. Puede usar listas de distribución, grupos de seguridad y grupos de Microsoft 365 o de Microsoft Teams.
+Para agregar un grupo a la cola, haga clic en **Agregar grupos,** busque el grupo, haga clic en Agregar **y,** a continuación, haga clic en **Agregar.** Puede usar listas de distribución, grupos de seguridad y grupos de Microsoft 365 o equipos de Microsoft Teams.
 
 > [!NOTE]
 > Los nuevos usuarios agregados a un grupo pueden tardar hasta ocho horas en llegar a su primera llamada.
@@ -88,96 +88,96 @@ Para agregar un grupo a la cola, haga clic en **agregar grupos**, busque el grup
 
 ![Captura de pantalla de la configuración del modo de conferencia y del método de enrutamiento](media/call-queue-conference-mode-routing-method.png)
 
-El **modo de conferencia** reduce significativamente la cantidad de tiempo que tarda una persona que se conecte a un agente, después de que el agente acepte la llamada. Para que el modo de conferencia funcione, los agentes de la cola de llamadas deben usar uno de los siguientes clientes:
+**El modo** de conferencia reduce significativamente la cantidad de tiempo que tarda un autor de llamada en conectarse con un agente, después de que el agente acepte la llamada. Para que el modo de conferencia funcione, los agentes de la cola de llamadas deben usar uno de los siguientes clientes:
 
-  - La versión más reciente del cliente de escritorio de Microsoft Teams, la aplicación Android o la aplicación iOS
-  - Microsoft Teams Phone versión 1449/1.0.94.2020051601 o posterior
+  - La última versión del cliente de escritorio de Microsoft Teams, la aplicación para Android o la aplicación de iOS
+  - Microsoft Teams phone versión 1449/1.0.94.2020051601 o posterior
   
-Las cuentas de los agentes de Teams deben establecerse en el modo de solo equipos. Los agentes que no cumplan con los requisitos no se incluyen en la lista de enrutamiento de llamadas. Recomendamos habilitar el modo de conferencia para las colas de llamadas si todos los agentes usan clientes compatibles.
+Las cuentas de equipos de agentes deben configurarse en modo solo para equipos. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
 
 > [!NOTE]
-> El modo de conferencia no admite el uso ocupado en ocupado. Es posible que los agentes de las llamadas a colas que no sean de llamadas sigan apareciendo con una llamada en la cola de llamadas si el enrutamiento basado en presencia no está habilitado.
+> El modo de conferencia no es compatible con Ocupado. Es posible que se presenten agentes en llamadas de cola que no sean de llamada si el enrutamiento basado en presencia no está habilitado.
 
-El **método de enrutamiento** determina el orden en el que los agentes reciben llamadas de la cola. Elija una de estas opciones:
+**El método de** enrutamiento determina el orden en que los agentes reciben llamadas de la cola. Elija una de estas opciones:
 
-- El **enrutamiento del operador** llama a todos los agentes de la cola al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
+- **El enrutamiento del operador** suena a todos los agentes de la cola al mismo tiempo. El primer agente de llamada que recibe la llamada recibe la llamada.
 
-- El **enrutamiento en serie** llama a todos los agentes de llamadas uno por uno en el orden especificado en la lista agentes de **llamadas** . Si un agente descarta o no atiende una llamada, la llamada sonará al próximo agente y probará con todos los agentes hasta que se seleccione o agote el tiempo de espera.
+- **El enrutamiento serial** suena a todos los agentes de llamadas uno por uno en el orden especificado en la **lista de agentes de** llamadas. Si un agente descarta o no acepta una llamada, la llamada llamará al siguiente agente y probará con todos los agentes hasta que se le atende o se atenten.
 
-- Equilibrar la **operación por turnos** el enrutamiento de las llamadas entrantes para que cada agente de llamadas obtenga el mismo número de llamadas de la cola. Esto puede ser conveniente en un entorno de ventas entrante para asegurar la igualdad de oportunidades entre todos los agentes de llamadas.
+- **Redondear robin** equilibra el enrutamiento de las llamadas entrantes para que cada agente de llamadas reciba el mismo número de llamadas de la cola. Esto puede ser deseable en un entorno de ventas entrantes para garantizar la misma oportunidad entre todos los agentes de llamadas.
 
-- El más **largo** enruta las llamadas al agente que ha estado inactiva el tiempo más largo. Un agente se considera inactivo si su estado de presencia está disponible o si su estado de presencia ha estado ausente por menos de 10 minutos. Los agentes cuyo estado de presencia haya estado ausente más de 10 minutos no se consideran inactivos y no podrán recibir llamadas hasta que cambien su presencia a disponible. 
+- **La inactividad más** larga enruta cada llamada al agente que haya estado inactivo más tiempo. Un agente se considera inactivo si su estado de presencia está disponible o si su estado de presencia ha estado fuera durante menos de 10 minutos. Los agentes cuyo estado de presencia ha estado fuera durante más de 10 minutos no se consideran inactivos y no podrán recibir llamadas hasta que cambien su presencia a Disponible. 
 
-![Captura de pantalla de la configuración de enrutamiento, no participar y hora de alerta](media/call-queue-presence-agents-time.png)
+![Captura de pantalla de la configuración de enrutamiento, de no participar y de hora de alerta](media/call-queue-presence-agents-time.png)
 
 
-El **enrutamiento basado en la presencia** usa el estado de disponibilidad de los agentes de llamadas para determinar si un agente debería estar incluido en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad esté establecido en **disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad esté establecido en cualquier otro Estado se excluyan de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que su estado de disponibilidad cambie de nuevo a **disponible**. 
+**El enrutamiento basado en presencia usa** el estado de disponibilidad de agentes de llamadas para determinar si un agente debe incluirse en la lista de enrutamiento de llamadas para el método de enrutamiento seleccionado. Los agentes de llamadas cuyo estado de disponibilidad se establece en **Disponible** se incluyen en la lista de enrutamiento de llamadas y pueden recibir llamadas. Los agentes cuyo estado de disponibilidad se establece en cualquier otro estado se excluyen de la lista de enrutamiento de llamadas y no recibirán llamadas hasta que el estado de disponibilidad cambie de nuevo a **Disponible.** 
 
 Puede habilitar el enrutamiento de llamadas basado en presencia con cualquiera de los métodos de enrutamiento.
 
-Si un agente opta por recibir llamadas, no se incluirán en la lista de enrutamiento de llamadas, independientemente del valor de su estado de disponibilidad en. 
+Si un agente decide no recibir llamadas, no se incluirá en la lista de enrutamiento de llamadas independientemente de cuál sea su estado de disponibilidad. 
 
 > [!NOTE]
-> Los agentes que usan el cliente de Skype empresarial no se incluyen en la lista de enrutamiento de llamadas cuando el enrutamiento basado en presencia está habilitado. Si tiene agentes que usan Skype empresarial, no habilite el enrutamiento de llamadas basado en presencia.
+> Los agentes que usan el cliente de Skype Empresarial no están incluidos en la lista de enrutamiento de llamadas cuando el enrutamiento basado en presencia está habilitado. Si tiene agentes que usan Skype Empresarial, no habilite el enrutamiento de llamadas basado en presencia.
 
-La hora de la **alerta del agente** especifica cuánto tiempo sonará el teléfono del agente antes de que la cola redirija la llamada al siguiente agente.
+**La hora de alerta** de agente especifica cuánto tiempo sonará el teléfono de un agente antes de que la cola redirija la llamada al siguiente agente.
 
-Para las colas de alto volumen, recomendamos la configuración siguiente:
+Para las colas de gran volumen, le recomendamos la siguiente configuración:
 
-- **Modo** de conferencia **automático**
-- **Método de enrutamiento** para **enrutamiento de operador**
-- **Enrutamiento basado en presencia** en **activado**
-- **Hora de la alerta del agente:** **20 segundos**
+- **Modo de conferencia** a **Automático**
+- **Método de enrutamiento** para **el enrutamiento de Attendant**
+- **Enrutamiento basado en presencia** a **On**
+- **Hora de alerta de agente:** **20 segundos**
 
-## <a name="call-overflow-handling"></a>Control de desbordamiento de llamadas
+## <a name="call-overflow-handling"></a>Administración de desbordamiento de llamadas
 
-![Captura de pantalla de configuración de desbordamiento de llamadas](media/call-queue-overflow-handling.png)
+![Captura de pantalla de la configuración de desbordamiento de llamadas](media/call-queue-overflow-handling.png)
 
-Número **máximo de llamadas en la cola** especifica el número máximo de llamadas que pueden esperar en la cola en cualquier momento. El valor predeterminado es 50, pero puede estar comprendido entre 0 y 200. Cuando se alcanza este límite, la llamada se maneja de la forma especificada por la configuración **cuando se alcanza el número máximo de llamadas** .
+**El número máximo de llamadas en** la cola especifica el número máximo de llamadas que pueden esperar en la cola en un momento determinado. El valor predeterminado es 50, pero puede variar de 0 a 200. Cuando se alcanza este límite, la llamada se administra según lo especificado por la configuración Cuando se alcanza el número máximo de **llamadas.**
 
-Puede desconectar la llamada o redirigirla a cualquiera de los destinos de enrutamiento de llamadas. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las [transferencias de números de teléfono externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de formato de número.
+Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos de enrutamiento de llamadas. Por ejemplo, puede hacer que el autor de la llamada deje un correo de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las transferencias de números de teléfono [externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para el formato del número.
 
 > [!NOTE]
-> Si el número máximo de llamadas se establece en 0, el mensaje de bienvenida no se reproducirá.
+> Si se establece el número máximo de llamadas en 0, el mensaje de saludo no se reproducirá.
 
-## <a name="call-timeout-handling"></a>Control de tiempo de espera de llamadas
+## <a name="call-timeout-handling"></a>Administración del tiempo de espera de llamadas
 
-![Captura de pantalla de configuración de tiempo de espera de llamada](media/call-queue-timeout-handling.png)
+![Captura de pantalla de la configuración de tiempo de espera de llamada](media/call-queue-timeout-handling.png)
 
-Tiempo de espera de la **llamada: tiempo de espera máximo** especifica el tiempo máximo que una llamada puede estar en espera en la cola antes de que se redirija o desconecte. Puede especificar un valor entre 0 y 45 minutos.
+**Tiempo de espera de llamada:** el tiempo máximo de espera especifica el tiempo máximo que una llamada puede estar en espera en la cola antes de que se redirija o se desconecte. Puede especificar un valor entre 0 segundos y 45 minutos.
 
-Puede desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, es posible que la persona que llama deje un buzón de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las [transferencias de números de teléfono externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de formato de número.
+Puede elegir desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, puede hacer que el autor de la llamada deje un correo de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las transferencias de números de teléfono [externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para el formato del número.
 
-Cuando haya seleccionado las opciones de tiempo de espera de la llamada, haga clic en **Guardar**.
+Cuando haya seleccionado las opciones de tiempo de espera de la llamada, haga clic en **Guardar.**
 
-## <a name="caller-id-for-outbound-calls"></a>IDENTIFICACIÓN de llamadas para llamadas salientes
+## <a name="caller-id-for-outbound-calls"></a>Identificación de llamadas para llamadas salientes
 
-Como los agentes de una cola de llamadas pueden marcar para devolver una llamada de cliente, considere la posibilidad de establecer la identificación de llamadas para los miembros de una cola de llamadas en el número de servicio de un operador automático adecuado. Para obtener más información, consulte [Administrar directivas de identificación de llamadas en Microsoft Teams](caller-id-policies.md) .
+Como los agentes de una cola de llamadas pueden llamar para devolver una llamada del cliente, considere la posibilidad de establecer el identificador de llamada de los miembros de una cola de llamadas en el número de servicio de un operador automático adecuado. Vea [Administrar directivas de identificador de llamada en Microsoft Teams](caller-id-policies.md) para obtener más información.
 
 ## <a name="supported-clients"></a>Clientes compatibles
 
-Los siguientes clientes son compatibles con los agentes de llamadas en una cola de llamadas:
+Los siguientes clientes son compatibles con agentes de llamadas en una cola de llamadas:
 
-  - Cliente de escritorio de Skype empresarial 2016 (versiones de 32 y 64 bits)
+  - Cliente de escritorio de Skype Empresarial 2016 (versiones de 32 y 64 bits)
   - Cliente de escritorio de Lync 2013 (versiones de 32 y 64 bits)
-  - Todos los modelos de teléfono IP compatibles con Microsoft Teams. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
+  - Todos los modelos de teléfonos IP compatibles con Microsoft Teams. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
   - Cliente de Skype for Business para Mac (versión 16.8.196 y posteriores)
   - Cliente de Skype para Business para Android (versión 6.16.0.9 y posteriores)
   - Cliente de Skype for Business para iPhone (versión 6.16.0 y posteriores)
   - Cliente de Skype for Business para iPad (versión 6.16.0 y posteriores)
-  - Cliente de Windows de Microsoft Teams (versiones de 32 y 64 bits)
+  - Cliente de Microsoft Teams para Windows (versiones de 32 y 64 bits)
   - Cliente de Microsoft Teams para Mac
   - Aplicación Microsoft Teams para iPhone
   - Aplicación Microsoft Teams para Android
 
     > [!NOTE]
-    > Las colas de llamadas a las que se asigna un número de enrutamiento directo no son compatibles con clientes de Skype empresarial, clientes de Lync o teléfonos IP de Skype empresarial como agentes.
+    > Las colas de llamadas que tienen asignado un número de enrutamiento directo no admiten clientes de Skype Empresarial, clientes Lync o teléfonos IP de Skype Empresarial como agentes.
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de colas de llamadas
 
-También puede usar Windows PowerShell para crear y configurar colas de llamadas. Estos son los cmdlets que usas para administrar una cola de llamadas.
+También puede usar Windows PowerShell para crear y configurar colas de llamadas. Estos son los cmdlets que usa para administrar una cola de llamadas.
 
-- [Nuevo: CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
 - [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
@@ -193,6 +193,6 @@ También puede usar Windows PowerShell para crear y configurar colas de llamadas
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Nuevo: CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

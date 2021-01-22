@@ -25,12 +25,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 description: Obtenga información sobre los operadores automáticos en la nube y cómo usarlos para permitir que los autores de llamadas se muevan por un sistema de menús para localizar y realizar o transferir llamadas a usuarios o departamentos.
-ms.openlocfilehash: 82d815eb4eb3c9a9e490f47dc3de492df7d0b6fb
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 862272ffe0cb42edc092c513823f421ab1c5bd95
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909554"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918946"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
@@ -97,6 +97,7 @@ No hay límite en el número de usuarios de Active Directory que marcan por nomb
 > Si usa Marcado por nombre con reconocimiento de voz, pero el Active Directory de su organización tiene más de 80 000 usuarios y no ha limitado el ámbito de Marcado por nombre con la característica Ámbito de marcado, Marcado por nombre funcionará para los autores de llamadas con el teclado del teléfono, y la entrada por voz estará disponible para todos los demás escenarios. Puede usar la característica de ámbito de marcado para limitar los nombres que se pueden contactar cambiado el ámbito de Marcado por nombre de un operador automático determinado.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Marcado por nombre: entrada mediante teclado (DTMF)
+
 Las personas que llaman pueden usar Marcado por nombre para contactar con los usuarios especificando el nombre completo o parcial de la persona con la que quieren hablar. Hay varios formatos que se pueden usar cuando se introduce el nombre.
 
 Para realizar búsquedas en el directorio de su organización, los usuarios pueden usar la tecla 0 (cero) para indicar un espacio entre el nombre y el apellidos, o viceversa. Cuando escriba el nombre, se les pedirá que finalicen la entrada con el teclado numérico con la tecla #. Por ejemplo, "Después de introducir el nombre de la persona que busca, pulse #". Si se encuentran varios nombres, se proporcionará una lista de nombres al autor de la llamada para que seleccione uno.
@@ -248,5 +249,3 @@ Para asignar un número de servicio, tendrá que obtener o realizar la portabili
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Ejemplo de pequeña empresa: configurar un operador automático](/microsoftteams/tutorial-org-aa)
