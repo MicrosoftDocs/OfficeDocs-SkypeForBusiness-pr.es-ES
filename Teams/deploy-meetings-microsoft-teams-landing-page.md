@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030806"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918686"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -56,7 +56,7 @@ Teams proporciona una experiencia excelente para su organización y la configura
 > Vea la sesión siguiente para obtener más información acerca de las reuniones: [Introducción a las reuniones en Microsoft Teams para profesionales de TI](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings-and-conferencing-prerequisites"></a>Requisitos previos de reuniones y conferencias 
+## <a name="meetings-and-conferencing-prerequisites"></a>Requisitos previos de reuniones y conferencias
 
 Antes de continuar con la implementación de reuniones en toda la organización, tómese un tiempo para revisar y confirmar que el entorno está listo para proporcionar la mejor experiencia posible a los usuarios. Revise la información siguiente y realice los cambios necesarios en su entorno.
 
@@ -139,7 +139,10 @@ Puede que le interese cambiar esta configuración en función de las necesidades
 
 ### <a name="bandwidth-planning"></a>Planeamiento del ancho de banda 
 
-El planeamiento de ancho de banda permite a las organizaciones estimar el ancho de banda que necesitarán para dar soporte a las reuniones en sus redes de área extensa y vínculos de internet, de esta manera pueden confirmar que la red está preparada correctamente para admitir un servicio de reuniones escalado. 
+El planeamiento de ancho de banda permite a las organizaciones estimar el ancho de banda que necesitarán para dar soporte a las reuniones en sus redes de área extensa y vínculos de internet, de esta manera pueden confirmar que la red está preparada correctamente para admitir un servicio de reuniones escalado.
+
+> [!IMPORTANT]
+> Microsoft Teams no permitirá que los usuarios programen reuniones o eventos en directo cuando estén desconectados o tengan un ancho de banda limitado. 
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
@@ -157,7 +160,7 @@ Para obtener más información, consulte [Grabación de reuniones en la nube de 
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-| ¿Voy a activar el servicio de transcripción de reuniones?|Vea [Activar o desactivar la transcripción de grabaciones](cloud-recording.md#turn-on-or-turn-off-recording-transcription)|
+| ¿Voy a activar el servicio de transcripción de reuniones?|Vea [Activar o desactivar la transcripción de grabaciones](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
 |||
 
 
