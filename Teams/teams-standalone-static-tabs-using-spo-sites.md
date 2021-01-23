@@ -12,14 +12,14 @@ ms.collection:
 - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Elija un sitio o una página de SharePoint Online ya existente y cree una pestaña estática independiente que se pueda usar como portal de intranet de su organización.
+description: Elija un sitio o una página de SharePoint Online ya existente y cree una pestaña personal independiente que se pueda usar como portal de intranet de su organización.
 localization_priority: Priority
-ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923812"
+ms.locfileid: "49937512"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Crear una aplicación de portal de intranet de Teams desde un sitio o una página de SharePoint Online
 
@@ -37,15 +37,26 @@ Tenga en cuenta que el proceso que se muestra **debe usar** un sitio o una pági
 Antes de empezar:
 
 1. Tendrá que conocer la dirección URL de un sitio o una página de grupo o de comunicación de SharePoint Online moderno.
-    - Estos sitios siempre incluirán */teams/* o */sites/* en sus rutas de acceso.
+
+   Estos sitios siempre incluirán */teams/* o */sites/* en sus rutas de acceso.
 
 2. Tendrá que conocer el subdominio de su espacio empresarial, que se usará en el marcador de posición **{{subdomain}}**.
 
 3. Este artículo usará el marcador de posición **{{siteUrl}}** para la *dirección URL* del sitio o la página que haya elegido.
-    - Ejemplo de *direcciones URL*: `https://contoso.sharepoint.com/teams/Contoso`
-        *o* `https://contoso.sharepoint.com/sites/Contoso`
+
+   Ejemplo de *direcciones URL*:
+   
+   - `https://contoso.sharepoint.com/teams/Contoso`
+      <br/>*o bien*
+   - `https://contoso.sharepoint.com/sites/Contoso`
+        
 4. Además, se usará **{{sitePath}}** para indicar la *ruta de acceso* de la dirección URL (ej.: /teams/Contoso).
-    - Ejemplo de *rutas de acceso*:   /teams/Contoso   *o* /sites/Contoso
+
+   *Rutas* de ejemplo:
+   
+   - /teams/Contoso
+     <br/>*o bien*
+   - /sites/Contoso
 
 En primer lugar, siga estos pasos:
 
@@ -69,10 +80,13 @@ En primer lugar, siga estos pasos:
 
 10. Rellene **contentURL y la dirección URL del sitio web**.
 
-- **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **websiteUrl**: {{siteUrl}}
+    - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+    
+    - **websiteUrl**: {{siteUrl}}
 
-    Ejemplo de **contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
+      Ejemplo de **contentURL**:
+      
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Desplácese hasta **Dominios y permisos**. Asegúrese de que la sección dominios válidos contiene el nombre de dominio de SharePoint Online.
 
@@ -80,20 +94,24 @@ En primer lugar, siga estos pasos:
 
 12. Agregue las siguientes propiedades de **inicio de sesión único** de la aplicación web:
 
-     Ejemplo:  **Id. de aplicación de AAD**: 00000003-0000-0ff1-ce00-000000000000  **Dirección URL de recurso**: {{subdomain}}.sharepoint.com
+    Ejemplo:
+    
+    - **Id. de aplicación AAD**: 00000003-0000-0ff1-ce00-000000000000
+    
+    - **Url de recurso**: {{subdomain}}.sharepoint.com
 
-    ![Realice el inicio de sesión único de la aplicación web, con id. y dirección URL.](media/personal-app.png)
+      ![Realice el inicio de sesión único de la aplicación web, con id. y dirección URL.](media/personal-app.png)
 
 13. **Guarde** estas propiedades y, luego, desplácese hasta **Probar y distribuir**.
 
 14. Instale la aplicación para probar la aplicación personalmente.
 
-> [!IMPORTANT]
-> Si no usa Teams App Studio, tendrá que comprimir el archivo manifest.JSON que acaba de crear; vaya a la tienda de aplicaciones de Teams y haga clic en el vínculo **cargar aplicación personalizada** (en la parte inferior derecha de la tienda de aplicaciones). Esto hará que la aplicación esté disponible para usted.
+    > [!IMPORTANT]
+    > Si no usa Teams App Studio, tendrá que comprimir el archivo manifest.JSON que acaba de crear; vaya a la tienda de aplicaciones de Teams y haga clic en el vínculo **cargar aplicación personalizada** (en la parte inferior derecha de la tienda de aplicaciones). Esto hará que la aplicación esté disponible para usted.
 
-15. Ahora la aplicación está disponible como una pestaña estática para que pueda cargarla y verla en Teams.
+15. Ahora la aplicación está disponible como una pestaña personal para que pueda cargarla y verla en Teams.
 
-## <a name="test-and-view-your-new-static-tab"></a>Probar y ver la nueva pestaña estática
+## <a name="test-and-view-your-new-personal-tab"></a>Pruebe y vea su nueva pestaña personal
 
 Para ver la nueva pestaña en el escritorio de Teams, desplácese hasta el signo de puntos suspensivos (**...**) en la parte izquierda de la barra de aplicaciones. Buque la nueva aplicación, cargue y pruebe la aplicación independiente en Teams.
 
@@ -105,7 +123,7 @@ Para ver y probar la nueva aplicación en un dispositivo móvil, abra el cajón 
 
 El archivo JSON que genere tendrá un aspecto similar al siguiente.
 
-```JSON'
+```json
 {
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
