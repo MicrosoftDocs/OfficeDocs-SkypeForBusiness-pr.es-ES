@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Talleres en planificación de actualización de los equipos
-summary: Únase a nosotros en una serie de talleres de planificación de actualización interactivos, en los que compartiremos la orientación, las prácticas recomendadas y los recursos diseñados para ayudarle a planear e implementar la actualización a Teams. Para obtener una experiencia óptima, inicie con el plan de actualizaciones de las sesiones que se muestran a continuación. Haga clic en el título de un taller para inscribirse.
+summary: Únase a nosotros en una serie de talleres de planificación de actualización interactivos, en los que compartiremos la orientación, las prácticas recomendadas y los recursos diseñados para ayudarle a planear e implementar la actualización a Teams. Para obtener una experiencia óptima, inicie con el plan de actualizaciones de las sesiones que se muestran a continuación. Haga clic en cualquier título del taller para registrarse.
 brand: teams
 metadata:
   title: Talleres en planificación de actualización de los equipos
-  description: Únase a nosotros en una serie de talleres de planificación de actualización interactivos, en los que compartiremos la orientación, las prácticas recomendadas y los recursos diseñados para ayudarle a planear e implementar la actualización a Teams. Para obtener una experiencia óptima, inicie con el plan de actualizaciones de las sesiones que se muestran a continuación. Haga clic en el título de un taller para inscribirse.
+  description: Únase a nosotros en una serie de talleres de planificación de actualización interactivos, en los que compartiremos la orientación, las prácticas recomendadas y los recursos diseñados para ayudarle a planear e implementar la actualización a Teams. Para obtener una experiencia óptima, inicie con el plan de actualizaciones de las sesiones que se muestran a continuación. Haga clic en cualquier título del taller para registrarse.
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -24,39 +24,31 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
+  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583287"
+  ms.lasthandoff: 01/25/2021
+  ms.locfileid: "49973164"
 productDirectory:
   items:
   - title: Planee la actualización (¡Comience aquí!)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'Descubra todo lo que necesita para facilitar una actualización satisfactoria en Teams. Público: todo (patrocinadores empresariales, administradores de ti, disponibilidad del usuario/administrador de cambios, responsable de proyecto)'
+    summary: 'Tanto si va a actualizar a Teams antes de que se retirara Skype Empresarial Online (31 de julio de 2021) como si va a cambiar escenarios de su entorno local de Skype Empresarial a Teams, una transición correcta aborda la disponibilidad técnica y del usuario. Descubra nuestro marco de trabajo probado, procedimientos recomendados y recursos diseñados para ayudarle a facilitar una transición correcta a Teams desde Skype Empresarial Online, Skype Empresarial Server o un entorno híbrido. Audiencia: todos (patrocinadores empresariales, administradores de TI, administradores de disponibilidad/cambio de usuario, jefe de proyecto)'
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: 'Listos sus usuarios finales:'
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: Diseñar una estrategia de preparación del usuario para ayudar a los usuarios a disfrutar y adoptar en Teams. Audiencia-disponibilidad de usuarios/administrador de cambios
-    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
-  - title: Identificar el enfoque de mejora
+  - title: Implementar la actualización de Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: Determine el enfoque más adecuado en función de sus metas actuales de implementación y actualización de Skype empresarial. Audiencia-administradores de ti
-    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
-  - title: Identificar el enfoque de mejoramiento
-    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
-    summary: Ejecute el método de actualización definido como parte de su plan de actualización formal. Audiencia-administradores de ti
-    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+    summary: 'Únase a nosotros para identificar y prepararse para ejecutar el mejor enfoque técnico para mover todas las cargas de trabajo a Teams, en función de sus objetivos y su entorno actual de Skype Empresarial. La mayoría de los clientes que han completado correctamente las transiciones han habilitado Teams junto con su implementación híbrida o Skype Empresarial Online, Skype Empresarial Server o actual. Esta sesión compartirá consideraciones clave y recursos valiosos para ayudarle a definir la mejor estrategia de migración para su organización. Público: administradores de TI'
+    url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
-    - title: Ver estos talleres por vez
-      summary: Visite actualizar a Microsoft Teams en YouTube.
+    - title: Ver estos talleres en su tiempo libre
+      summary: Visite Actualizar a Microsoft Teams en YouTube.
       url: https://aka.ms/UpgradeOnDemand
-    - title: ¿Va a expandir los escenarios de Teams?
-      summary: Consulta nuestros talleres de habla de tiza para profesionales de ti.
+    - title: ¿Expandir los escenarios de Teams?
+      summary: Consulte nuestros talleres de tizas de teams para profesionales de TI.
       url: https://aka.ms/TeamsChalkTalks
     - title: ¿Nuevo en Teams?
-      summary: Obtenga más información sobre cómo empezar a trabajar con Teams.
+      summary: Obtenga más información sobre cómo empezar a usar Teams.
       url: https://docs.microsoft.com/microsoftteams/teams-overview
