@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786792"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973074"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -39,7 +39,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de miembros de un equipo | 10 000<sup>5</sup>     |
 |Número de propietarios por equipo | 100   |
 |Número de equipos de la organización que se pueden usar en un espacio empresarial | 5     |
-|Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 5 000       |
+|Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 10 000       |
 |Número de equipos que un administrador global puede crear        |  500 000   |
 |Cantidad de equipos que puede tener una organización de Microsoft 365 y Office 365    | 500 000&sup2;     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)&sup3;         |
@@ -57,7 +57,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 <sup>4</sup> 28 KB es un límite aproximado, ya que incluye al mensaje en sí (texto, vínculos de la imagen, etc.), las @menciones, el número de conectores y las reacciones.
 
-<sup>5</sup> Microsoft Teams en GCC solo puede aceptar 5 000 miembros y los equipos en GCCH/DoD solo pueden aceptar 2 500 miembros.
+<sup>5</sup> Los equipos del CCG sólo pueden acomodar a miembros y los equipos del GCCH/DoD sólo pueden acomodar a 2 500 miembros.
 
 ## <a name="messaging"></a>Mensajería 
 
