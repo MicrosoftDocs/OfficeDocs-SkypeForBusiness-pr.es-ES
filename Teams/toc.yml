@@ -1255,6 +1255,8 @@
           href: content-search.md
         - name: Auditoría
           href: audit-log-events.md
+        - name: Exportar contenido con la API para exportar de Microsoft Teams
+          href: export-teams-content.md
         - name: Clave de cliente en el nivel de espacio empresarial para Teams
           href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
     - name: Privacidad
@@ -1726,8 +1728,6 @@
           href: emergency-calling-terms-and-conditions.md
     - name: Cuestionario de detección de actualización
       href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: Exportar contenido con la API para exportar de Microsoft Teams
-      href: export-teams-content.md
     - name: Notas de la versión de las características de administración de Teams
       href: release-notes/release-notes.md
     - name: Versión preliminar pública para Microsoft Teams
