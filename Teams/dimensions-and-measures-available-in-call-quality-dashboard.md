@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que utiliza el panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 5903f9006e4e4980e92b3a14119674af4b50d80a
-ms.sourcegitcommit: bf4dde013689bc3e76ffb03fe763cd9ff90e0add
+ms.openlocfilehash: fc5515b0eea9df234a1f4439b1db61a93ba19713
+ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49990615"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032439"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en el panel de calidad de llamadas
 
@@ -409,7 +409,7 @@ La información de dimensiones se basa en parte en los datos que se cargan en el
 | First Phone Number|String|El número de teléfono del usuario del primer punto de conexión. Rellenado solo para puntos de conexión de RTC. Solo está disponible durante los últimos 28 días de datos y solo es visible para los usuarios con roles que permiten el acceso a EUII.|
 | Second Phone Number|String|El número de teléfono del usuario del segundo punto de conexión. Rellenado solo para puntos de conexión de RTC. Solo está disponible durante los últimos 28 días de datos y solo es visible para los usuarios con roles que permiten el acceso a EUII.|
 | First UPN|String|El nombre principal de usuario (UPN) del usuario del primer punto de conexión. Solo está disponible durante los últimos 28 días de datos y solo es visible para los usuarios con roles que permiten el acceso a EUII.|
-| Second UPN|String|El nombre principal de usuario (UPN) del usuario del segundo punto de conexión. Solo está disponible durante los últimos 28 días de datos y solo es visible para los usuarios con roles que permiten el acceso a EUII.|
+| Second UPN|String|El nombre principal de usuario (UPN) del usuario del segundo punto de conexión. Solo está disponible durante los últimos 28 días de datos y solo es visible para los usuarios con roles que permiten el acceso a EUII.| <br/>&bull; No todos los UserTypes tienen UPN; incluya las dimensiones Second UserType o Second User ObjectId para obtener más información sobre estos puntos de conexión. |
 | First Feedback Text|String|Texto de comentarios de verbatim, si los hay, proporcionado por el usuario del primer punto de conexión al final de una llamada. Solo está disponible durante los últimos 28 días de datos y solo es visible para los usuarios con roles que permiten el acceso a EUII. | |
 | Second Feedback Text|String| Texto de comentarios de verbatim, si los hay, proporcionado por el usuario del segundo punto de conexión al final de una llamada. Solo está disponible durante los últimos 28 días de datos y solo es visible para los usuarios con roles que permiten el acceso a EUII.|
 | First Client Endpoint Name|String|El nombre del equipo del primer punto de conexión. Solo está disponible durante los últimos 28 días de datos y solo es visible para los usuarios con roles que permiten el acceso a EUII.|
@@ -625,7 +625,7 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Avg Jitter Max |Milisegundos |Vibración de red máxima durante las transmisiones en milisegundos. |
 |Avg Packet Loss Rate |Relación |Promedio del porcentaje medio de paquetes perdidos que se calcula con intervalos de 5 segundos durante las transmisiones. 0,1 indica una pérdida de paquetes del 10 %. |
 |Avg Packet Loss Rate Max |Relación |Promedio del porcentaje máximo de paquetes perdidos durante intervalos de 5 segundos durante las transmisiones. 0,1 indica una pérdida de paquetes del 10 %. |
-| Avg Send Listen MOS |Número |Promedio de la predicción de la puntuación de opinión media de calidad de audio wideband (MOS-LQ) de la transmisión de audio que se envía desde el usuario. <br/>Vea "Avg. sending MOS" (Envío de MOS) en [Lync Monitoring Reports A se le notifica](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
+| Avg Send Listen MOS |Número |Promedio de la predicción de la Puntuación de opinión media de calidad de audio de wideband (MOS-LQ) de la transmisión de audio que se envía desde el usuario. <br/>Vea "Avg. sending MOS" (Envío de MOS) en [Lync Monitoring Reports A se le notifica](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
 |Avg Overall Avg Network MOS |Puntuación de opinión media (0-5) |Promedio o puntuación de opinión media de red media durante las transmisiones. Representa la calidad media pronosticada del factoring de audio recibido en la pérdida de red, la vibración y el códec. |
 |Avg Ratio Concealed Samples |Relación |Promedio de relación media entre el número de tramas de audio con muestras generadas por la ocultación de pérdidas de paquetes y el número total de tramas de audio durante las transmisiones. 0,1 indica que el 10% de las tramas contenía muestras ocultas. |
 | Avg Conceal Ratio Max| Relación |Promedio de las relaciones máximas entre el número de tramas de audio con muestras generadas por la ocultación de pérdidas de paquetes y el número total de tramas de audio durante las transmisiones. 0,1 indica que el 10% de las tramas contenía muestras ocultas.| |
@@ -641,10 +641,10 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 | Avg Jitter Buffer Size Max|Milisegundos|Tamaño máximo del búfer de vibración durante la sesión.| |
 | Avg Jitter Buffer Size Min|Milisegundos|Tamaño mínimo del búfer de vibración durante la sesión.| |
 | Avg Relative OneWay |Milisegundos|Retraso medio relativo un sentido del colega.| |
-| Ocurrencias de la separación relativa de OneWay avg relative OneWay|Milisegundos|Número medio de instancias de espacios en el retraso relativo de un solo sentido del compañero.| |
+| Repeticiones de la separación relativa de OneWay avg relative OneWay|Milisegundos|Número medio de instancias de espacios en el retraso relativo de un solo sentido del compañero.| |
 | Avg Relative OneWay Gap Density|Milisegundos|Densidad media de espacios en el retraso relativo un sentido del compañero.| |
 | Avg Relative OneWay Gap Duration|Número (milisegundos)|Duración media de las brechas en el retraso relativo un sentido del compañero.| |
-|Avg Audio Post FECPLR |Relación |Promedio de la tasa de pérdida de paquetes después de aplicar FEC a los agregados en todas las transmisiones de audio y códecs durante las transmisiones. |
+|Avg Audio Post FECPLR |Relación |Promedio de la tasa de pérdida de paquetes tras aplicar FEC a los agregados en todas las transmisiones de audio y los códecs durante las transmisiones. |
 |Avg Video Post FECPLR |Relación |Promedio de la tasa de pérdida de paquetes después de aplicar FEC a los agregados en todas las transmisiones de vídeo y los códecs durante las transmisiones. |
 |Avg Video Local Frame Loss Percentage |Porcentaje |Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario durante las transmisiones. Se incluyen los fotogramas que se recuperan de las pérdidas de red. |
  |Avg Video Received Frame Rate Average |Fotogramas por segundo |Promedio del promedio de fotogramas por segundo que se reciben en todas las transmisiones de vídeo, calculada a lo largo de la sesión durante las transmisiones. |
@@ -660,21 +660,21 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Avg First Device Render Not Functioning Event Ratio |Relación |Promedio de la fracción de la llamada en la que el primer punto de conexión ha detectado que el dispositivo de representación no funcionaba correctamente. |
 |Avg Second Device Render Not Functioning Event Ratio |Relación |Promedio de la fracción de la llamada en la que el segundo punto de conexión ha detectado que el dispositivo de representación no funcionaba correctamente. |
 |Avg First Mic Glitch Rate| Número de problemas|Promedio de la tasa de fallos del primer micrófono (problemas por 5 minutos para el micrófono del punto de conexión) durante la transmisión.  ||
-| Avg Second Mic Glitch Rate|Número de problemas|Promedio de la tasa de error de segundo micrófono (problemas por 5 minutos para el micrófono del punto de conexión) durante la transmisión. ||
-| Avg First Speaker Glitch Rate|Número de problemas|Promedio de la velocidad de fallo del primer altavoz (fallos por 5 minutos para el altavoz del extremo) durante la transmisión. |
+| Avg Second Mic Glitch Rate|Número de fallos|Promedio de la tasa de error de segundo micrófono (problemas por 5 minutos para el micrófono del punto de conexión) durante la transmisión. ||
+| Avg First Speaker Glitch Rate|Número de problemas|Promedio de la velocidad de error del primer altavoz (problemas por 5 minutos para el altavoz del extremo) durante la transmisión. |
 | Avg Second Speaker Glitch Rate|Número de problemas|Promedio de la tasa de problemas de segundo altavoz (problemas por 5 minutos para el altavoz del extremo) durante la transmisión. |
 | First User Count|Número | Número de usuarios únicos o distintos del primer punto de conexión. Solo disponible durante los últimos 28 días de datos. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
 | Second User Count|Número|Número de usuarios únicos o distintos del segundo punto de conexión. Solo disponible durante los últimos 28 días de datos. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
 | Avg First Device Glitches Event Ratio|Porcentaje|Fracción media de las llamadas en las que el primer punto de conexión ha detectado fallos o lagunas en los medios reproducdos o capturados que estaban provocando mala calidad en el envío o la recibir de los medios.|
 | Avg Second Device Glitches Event Ratio|Porcentaje|Fracción media de la llamada en la que el segundo punto de conexión ha detectado fallos o lagunas en los medios reproducdos o capturados que estaban generando mala calidad en los medios enviados y recibidos.|
-| First Device Glitches Event Count| Número | Número de transmisiones en las que el primer punto de conexión ha detectado fallos o lagunas importantes en los medios reproducdos o capturados que han generado mala calidad en el envío o la recibido de los medios.|
+| First Device Glitches Event Count| Número | Número de transmisiones en las que el primer punto de conexión ha detectado fallos o lagunas importantes en los medios reproducdos o capturados que han generado mala calidad en los medios enviados y recibidos.|
 | Second Device Glitches Event Count| Número | Número de transmisiones en las que el segundo punto de conexión ha detectado fallos o lagunas importantes en los elementos multimedia reproducdos o capturados que estaban generando mala calidad en los elementos multimedia enviados y recibidos.|
 | Recuento de intentos totales de RTC | Número de llamadas | Total de llamadas intentados, incluidas llamadas con éxito y llamadas con errores en el intervalo de tiempo seleccionado. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
 |Recuento total conectado de RTC | Número de llamadas | Total de llamadas conectadas correctamente en el intervalo de tiempo seleccionado. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
 |Recuento de intentos de entrada RTC | Número de llamadas | Total de llamadas entrantes intentando, incluidas llamadas con éxito y llamadas con errores en el intervalo de tiempo seleccionado. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
 |PSTN Inbound Connected Count | Número de llamadas | Total de llamadas entrantes conectadas correctamente en el intervalo de tiempo seleccionado. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
 |Recuento de intentos salientes de RTC | Número de llamadas | Total de llamadas salientes intentando, incluidas llamadas con éxito y llamadas con errores en el intervalo de tiempo seleccionado. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
-|PSTN Outbound Connected Count | Número de llamadas | Total de llamadas conectadas correctamente en el intervalo de tiempo seleccionado. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
+|PSTN Outbound Connected Count | Número de llamadas | Total de llamadas salientes conectadas correctamente en el intervalo de tiempo seleccionado. Hay un error de hasta un 0,2 % para esta medida. Vea la nota a continuación para obtener más información.|
 |Minutos totales de RTC | Minutos | Uso total de minutos en el intervalo de tiempo seleccionado.|
 |Minutos totales de entrada RTC | Minutos | Uso total de minutos entrantes en el intervalo de tiempo seleccionado.|
 |Minutos totales de salida de RTC | Minutos | Uso total de minutos salientes en el intervalo de tiempo seleccionado.|
