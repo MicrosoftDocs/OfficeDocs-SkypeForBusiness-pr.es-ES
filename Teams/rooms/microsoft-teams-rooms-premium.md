@@ -1,5 +1,5 @@
 ---
-title: Servicio administrado de salas de Microsoft Teams
+title: Servicio administrado por salas de Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -15,132 +15,189 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga más información sobre el servicio administrado de salas de Microsoft Teams.
+description: Obtenga información sobre el servicio administrado salas de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a70a07d4f17e4eb956c005ff4296a8f1b69f4d37
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662665"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043954"
 ---
-# <a name="microsoft-teams-rooms-managed-service"></a>Servicio administrado de salas de Microsoft Teams
+# <a name="microsoft-teams-rooms-managed-service"></a>Servicio administrado por salas de Microsoft Teams
 
-El servicio administrado de salones de Microsoft Teams es un servicio de supervisión y administración de TI basado en la nube que mantiene los dispositivos de las salas de Microsoft Teams y sus periféricos actualizados y supervisados, lo que apoya un entorno optimizado para una excelente experiencia del usuario.
+El servicio administrado salas de Microsoft Teams es un servicio de supervisión y administración de TI basado en la nube que mantiene los dispositivos de Microsoft Teams Rooms y sus periféricos actualizados y supervisados proactivamente, lo que da soporte a un entorno optimizado para una excelente experiencia del usuario.
 
-El servicio administrado de salas de Microsoft Teams es para las organizaciones que buscan mejorar la experiencia de su sala de reuniones y escalar rápidamente su tamaño ofreciendo una administración proactiva para dispositivos de salas de Microsoft Teams. El servicio permite a las organizaciones ahorrar tiempo, dinero y experiencia que, de otro modo, estarían gastando en la administración de salas "ti mismo".  
+El servicio administrado salas de Microsoft Teams es para organizaciones que buscan mejorar su experiencia con salas de reuniones y escalar rápidamente su superficie ofreciéndoles administración proactiva para los dispositivos de Salas de Microsoft Teams. El servicio permite a las organizaciones ahorrar tiempo, dinero y experiencia que, de otro modo, se dedicaría a la administración de sala "hacerlo usted mismo".  
 
-El servicio administrado de salas de Microsoft Teams se basa en una sólida base de la experiencia de Microsoft en administración de puntos finales, aprendizaje de la máquina y automatización inteligente con el software habilitado. El servicio administrado salas de Microsoft Teams ayuda a las organizaciones a ofrecer una experiencia de alta calidad en varios sitios remotos y puede dar cabida a cualquier ritmo de crecimiento que una organización pueda necesitar.
+El servicio administrado salas de Microsoft Teams se basa en una base sólida de la experiencia de Microsoft en la administración habilitada para software de los puntos finales, el aprendizaje automático y la automatización inteligente. El servicio administrado salas de Microsoft Teams ayuda a las organizaciones a ofrecer una experiencia de alta calidad en varios sitios remotos y puede adaptarse a cualquier ritmo de crecimiento que necesite una organización.
 
-## <a name="service-capabilities"></a>Capacidades de servicio
+## <a name="service-capabilities"></a>Funcionalidades del servicio
 
-A continuación se ofrece una descripción general de las capacidades del servicio administrado de salas de Microsoft Teams.
+Aquí tiene información general sobre las funciones del servicio administrado salas de Microsoft Teams.
 
 |Capacidades  |Descripción  |
 |---------|---------|
-|**Planificación e implantación de salas**   |Capacidades de planificación Room que le permiten comprender el inventario de equipos de la sala y tomar decisiones sobre los estándares del equipo para nuevas implementaciones de sala.         |
-|**Supervisión y solución de problemas**  |Supervisión de la salud de la sala que detecta problemas con el sistema de sala y los periféricos y proporciona una respuesta de administración de incidentes proactiva motivada por Microsoft.         |
-|**Administración de actualizaciones**    |Administración y entrega de actualizaciones de aplicaciones y firmware para sistemas de salas y sus periféricos realizados por Microsoft.         |
-|**Ideas y recomendaciones**     |Perspectivas de la salud del cliente, el uso, la utilización y la fiabilidad del equipo.         |
-|**Cumplimiento y certificaciones**   |Cumple con todos los estándares vigentes de Microsoft Online Services.         |
-|**Servicio de asistencia al cliente**   |compatibilidad con vales 24x7x365 a través del centro de operaciones de servicio de servicio administrado (SOC) dedicado a Microsoft Teams. Escalar en su nombre a otros proveedores principales, cuando corresponda. Para obtener más información, consulta [asistencia al cliente](#customer-support).|
-|**Dispositivos admitidos**    |Sistemas de salas de Microsoft Teams Certified y sus periféricos.         |
-|**Regiones admitidas**    |Consulta las [regiones admitidas](#supported-regions).        |
-|**Integrada**    |Integración disponible con el servicio hospedado por el cliente.         |
+|**Planeación e implementación de sala**   |Capacidades de planeación de sala que le permiten comprender el inventario de equipamiento de la sala y tomar decisiones sobre los estándares de equipamiento para las nuevas implementaciones de sala.         |
+|**Supervisión y solución de problemas**  |Supervisión del estado de sala que detecta problemas con el sistema de sala y los periféricos, y proporciona una respuesta proactiva de administración de incidentes controlada por Microsoft.         |
+|**Administración de actualizaciones**    |Administración y entrega de actualizaciones de firmware y aplicaciones para sistemas de sala y sus periféricos realizados por Microsoft.         |
+|**Recomendaciones y perspectivas**     |Información sobre la salud, el uso, el uso y la confiabilidad del equipo de los clientes.         |
+|**Cumplimiento y certificaciones**   |Cumple todos los estándares aplicables para Microsoft Online Services.         |
+|**Asistencia al cliente**   |Soporte técnico de vales de 24 x 7 x 365 a través del Centro de operaciones de servicio administrado por salas de Microsoft Teams (SOC) dedicado. Escalamiento en su nombre a otros proveedores principales cuando corresponda. Para obtener más información, vea [Asistencia al cliente.](#customer-support)|
+|**Dispositivos admitidos**    |Sistemas certificados de salas de Microsoft Teams y sus periféricos.<br>*Compatibilidad con Surface Hub en la segunda mitad de 2021*        |
+|**Regiones admitidas**    |Consulta [las regiones admitidas.](#supported-regions)        |
+|**Integración**    |Integración disponible con servicio hospedado por el cliente ahora.         |
 
-## <a name="service-features"></a>Características del servicio
+## <a name="service-features"></a>Características de servicio
 
-Este es un resumen de las características importantes que el servicio administrado de salas de Microsoft Teams proporciona para admitir las características mencionadas anteriormente.
+Este es un resumen de las características importantes que ofrece el servicio administrado salas de Microsoft Teams para admitir las capacidades anteriores.
 
 |Característica  |Descripción  |
 |---------|---------|
-|**Administración de inventario**   |Seguimiento de inventario de salas con una opción de exportación en masa que muestra los dispositivos de la sala, periféricos, fabricas y modelos.         |
-|**Inscripción de salas**   |Incorporación fácil con la inscripción automática de dispositivos de la sala en el servicio administrado de salas de Microsoft Teams.          |
-|**Administración de salas**     |Portal de clientes para capacidades de servicio gestionadas, información, configuración administrativa y administración de grupos de salas.         |
-|**Supervisión**    |Aplicación, sistema operativo, periférico y supervisión del estado del firmware. Detección automatizada de incidentes para problemas que afectan a las experiencias de reunión debido a problemas como la salud de los periféricos. Información general sobre el estado de toda la habitación inmobiliaria e incidentes a través del portal de servicios administrados de Microsoft Teams.|
-|**Solución de problemas y corrección**     |Diagnósticos automáticos y corrección automática cuando corresponda. Microsoft Teams salas servicio administrado SOC corrección de incidentes para casos no automatizados. Servicio de integración de ahora para coordinación de incidentes.         |
-|**Administración de actualizaciones**   |Aplicación de reunión automatizada y coordinación de actualizaciones de firmware basadas en anillos de implementación configurables por el cliente         |
-|**Ideas y recomendaciones**   |Uso, incidentes, estado e informes generales (vistas históricas)         |
+|**Administración del inventario**   |Seguimiento de inventario de sala con una opción de exportación masiva que enumera los dispositivos de la sala, periféricos, hace y modelos.         |
+|**Inscripción en el salón**   |Incorporación fácil con la inscripción automática de dispositivos de sala en el servicio administrado de Salas de Microsoft Teams.          |
+|**Administración de sala**     |Portal de clientes para las capacidades de servicio administrado, información, configuración administrativa y administración de grupos de sala.         |
+|**Supervisión**    |Supervisión del estado de las aplicaciones, el sistema operativo, los periféricos y el firmware. Detección de incidentes automatizada para problemas que afectan a las experiencias de reunión debido a problemas como el estado periférico. Información general del estado de toda la inmobiliaria e incidencias de la sala a través del portal de servicio administrado por Microsoft Teams Rooms.|
+|**Solución de problemas y corrección**     |Diagnósticos automatizados y corrección automática cuando corresponda. Corrección de incidentes asistido del servicio administrado por Salas de Microsoft Teams para casos no automatizados. Integración del servicio ahora para la coordinación de incidentes.         |
+|**Administración de actualizaciones**   |Actualización de firmware y aplicación de reunión automatizada basada en anillos de implementación configurables por el cliente         |
+|**Recomendaciones y perspectivas**   |Uso, incidentes, estado y informes generales (vistas históricas)         |
 
-## <a name="service-prerequisites"></a>Requisitos previos de los servicios
+## <a name="service-prerequisites"></a>Requisitos previos del servicio
 
-Para el servicio administrado de salas de Microsoft Teams para mantener la calidad del servicio, los salones inscritos deben ser [dispositivos compatibles con Microsoft Team Rooms](requirements.md#hardware-requirements)y debe preparar su entorno con todas las [direcciones URL y los intervalos de direcciones IP necesarios de Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) totalmente permitidos por los dispositivos de la sala de reuniones. Para obtener más información, consulte [preparar el entorno](rooms-prep.md) en la documentación de salas de Microsoft Teams.
+Para que el servicio administrado por salas de Microsoft Teams mantenga la calidad del servicio, las salas inscritos deben ser dispositivos compatibles con las salas de [Microsoft Teams](requirements.md#hardware-requirements)y debe preparar su entorno con todos los intervalos de direcciones IP y URL de [Office 365 permitidos](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) y accesibles por todos los dispositivos de las salas de reuniones. Para obtener más información, [consulte Preparar su entorno en](rooms-prep.md) la documentación de Salas de Microsoft Teams.
 
-Como proveedor de un servicio administrado, Microsoft necesita trabajar con los participantes responsables de los salones de su organización para mantener las habitaciones sanas y recuperarse de los problemas. Usted es responsable de los dispositivos no certificados que se usan en salas de reuniones, software de terceros o personalizado que haya elegido implementar en los dispositivos de la sala de reuniones y respetando las prácticas de administración de cambios recomendadas por Microsoft.
+Como proveedor de un servicio administrado, Microsoft necesita trabajar con las partes interesadas responsables de los salas de su organización para mantener las salas en buen estado y recuperarse de los problemas. Es responsable de los dispositivos sin notificar utilizados en salas de reuniones, software de terceros o personalizado que haya elegido implementar en los dispositivos de las salas de reuniones y de cumplir las prácticas de administración de cambios recomendadas por Microsoft.
 
-Su organización o un partner contratado por su organización deben estar preparados para corregir los problemas del último kilometraje detectados por el servicio.
+Su organización o un partner contratado por su organización debe estar preparado para corregir los problemas de última milla detectados por el servicio.
 
-## <a name="customer-support"></a>Servicio de asistencia al cliente
+## <a name="customer-support"></a>Asistencia al cliente
 
-El servicio administrado de salas de Microsoft Teams es compatible con un SOC de servicio gestionado de Microsoft Teams. El modo principal para la comunicación de las salas de Microsoft Teams administración de servicios (SOC) a los clientes es a través del portal de servicios administrados de salas de Microsoft Teams. El SOC de servicio administrado de salas de Microsoft Teams proporciona la primera respuesta y el aumento adecuado en los vales que ha provocado el sistema o la organización.
+El servicio administrado salas de Microsoft Teams es compatible con un soC de servicio administrado por Salas de Microsoft Teams dedicado. El modo principal de comunicación del servicio administrado por salas de Microsoft Teams (SOC) a los clientes es a través del portal de servicio administrado por Salas de Microsoft Teams. El servicio administrado salas de Microsoft Teams SOC proporciona la primera respuesta y el escalamiento adecuado en las entradas elevados por el sistema o por su organización.
 
 |  |  |
 |---------|---------|
-|**Ámbito**   |Los incidentes relacionados con la aplicación de la sala de reuniones, los dispositivos de la sala y los periféricos se incluyen en Microsoft Team salas soporte técnico de servicios administrados.|
-|**Numeroso**  |Solo operaciones de ti         |
+|**Ámbito**   |Los incidentes relacionados con la aplicación de sala de reuniones, los dispositivos de la sala y los periféricos se incluyen en la compatibilidad del servicio administrado por salas de Microsoft Teams.|
+|**Audiencia**  |Solo operaciones de TI         |
 |**Idiomas admitidos**    |Inglés         |
-|**Disponibilidad de soporte técnico en el portal**   | Funcionamiento      |
-|**Tiempo de respuesta inicial para el SOC de servicio administrado de salones de Microsoft Teams**   |  4 horas       |
-|**Cierre automatizado de tickets en casos de inactividad del cliente**    |Vales iniciados por el cliente: 3 días hábiles<br>Vales iniciados por el sistema: 15 días hábiles</li>   </ul>      |
-|**Redireccionamiento a soporte más amplio de Microsoft**   |Los problemas relacionados con otro producto de Microsoft fuera del ámbito del servicio administrado de salas de Microsoft Teams se dirigen al equipo de soporte técnico correspondiente.         |
-|**Redireccionamiento a compatibilidad con el fabricante de equipos originales (OEM)**    |El SOC de servicios administrados de Microsoft Teams para comprender el problema y, cuando corresponda, ayuda a coordinar el soporte técnico con el OEM. En algunos casos, es posible que sea responsable de participar directamente con su OEM.         |
+|**Compatibilidad con la disponibilidad a través del portal**   | 24 X 7      |
+|**Tiempo de respuesta inicial para el SOC del servicio administrado de Salas de Microsoft Teams**   |  4 horas       |
+|**Cierre automatizado de vales en casos de inactividad del cliente**    |Vales iniciados por el cliente: 3 días laborables<br>Vales iniciados por el sistema: 15 días laborables</li>   </ul>      |
+|**Redireccionamiento a soporte técnico de Microsoft más amplio**   |Los problemas relacionados con otro producto de Microsoft fuera del ámbito del servicio administrado salas de Microsoft Teams se dirigen al equipo de soporte técnico adecuado.         |
+|**Soporte de redireccionamiento al fabricante de equipos originales (OEM)**    |El soC de servicio administrado de Salas de Microsoft Teams trabaja para comprender el problema y, cuando sea aplicable, ayuda a coordinar el soporte técnico con el OEM. En algunos casos, es posible que seas responsable de interactuar directamente con tu OEM.         |
 
-Además, tenga en cuenta que las salas de Microsoft Teams Managed Service SOC le ayudarán a realizar operaciones de TI en su organización y no reemplazan los servicios de soporte técnico para sus usuarios finales.
+Además, tenga en cuenta que el servicio administrado salas de Microsoft Teams SOC le ayudará a realizar operaciones de TI en su organización y no es un sustituto de los servicios de asistencia para los usuarios finales.
 
-Para obtener más información sobre la cobertura de soporte de servicio administrado de salas de Microsoft Teams, consulte [support inclusiones and exclusiones](#support-inclusions-and-exclusions).
+Para obtener más información sobre la cobertura de soporte técnico del servicio administrado por salas de Microsoft Teams, vea inclusiones y [exclusiones de soporte técnico.](#support-inclusions-and-exclusions)
 
 ## <a name="supported-regions"></a>Regiones admitidas
 
-El servicio de administración de salas de Microsoft Teams está disponible en los siguientes países y regiones.
+El servicio administrado salas de Microsoft Teams está disponible en los siguientes países y regiones. 
 
+- Andorra
 - Australia
 - Austria
 - Bélgica
-- Canadá (excepto Quebec)
+- Isla Bouvet
+- Brasil
+- Bulgaria
+- Canadá
+- Isla Christmas
+- Islas Cocos (Keeling)
+- Islas Cook
+- Croacia
+- Chipre
+- República Checa
 - Dinamarca
-- Finlandia
+- Estonia
+- Islas Feroe
+- Fiyi
+- Francia
 - Alemania
+- Gibraltar
 - Grecia
+- Groenlandia
+- Islas Heard y McDonald
+- RAE de Hong Kong
+- Hungría
+- Islandia
+- India
 - Irlanda
 - Italia
+- Japón
+- Kiribati
+- Letonia
+- Lesoto
+- Liechtenstein
+- Lituania
 - Luxemburgo
+- RAE de Macao
+- Malta
+- Islas Marshall
+- México
+- Micronesia
 - Mónaco
+- Nauru
 - Países Bajos
 - Nueva Zelanda
+- Niue
+- Isla Nor insular
+- Islas Marianas del Norte
 - Noruega
+- Palaos
+- Guinea Ecuatorial
+- Islas Pitcairn
+- Polonia
 - Portugal
+- Rumania
+- Rusia
+- San Pedro y Miquelón
+- Samoa
+- San Marino
+- Singapur
+- Eslovaquia
+- Eslovenia
+- Islas Salomón
+- Sudáfrica
 - España
+- Suazilandia
 - Suecia
 - Suiza
+- Taiwán
+- Tokelau
+- Tonga
+- Tuvalu
 - Reino Unido
 - Estados Unidos
+- Vanuatu
+- Ciudad del Vaticano
+- Wallis y Futuna
 
-## <a name="support-inclusions-and-exclusions"></a>Compatibilidad con inclusiones y exclusiones
+## <a name="support-inclusions-and-exclusions"></a>Admitir inclusiones y exclusiones
 
 
-|Lo que se incluye |Lo que se excluye |Canales de soporte técnico para elementos excluidos  |
+|Qué incluye |Qué se excluye |Canales de soporte técnico para elementos excluidos  |
 |---------|---------|---------|
 |**Configuración del servicio**   |         |         |
-|Investigación y orientación para Microsoft Team Rooms configuración de Windows que incluye la configuración de la aplicación salas de Microsoft Teams, la configuración de la red de origen, la configuración del software de primer fabricante, y la configuración y configuración de energía recomendada.     |Cualquier configuración e investigación de software de terceros que no formen parte directamente de la aplicación Microsoft Teams Room. Además, las configuraciones específicas de OEM que requieren configuración fuera de la configuración de la aplicación de Windows o de la sala de reuniones de Microsoft Teams.         |Canales de soporte técnico estándar de terceros         |
-|**Configuración de la cuenta Room**    |         |         |
-|Dirección de la documentación disponible para la configuración de la cuenta de sala a petición. Para problemas de configuración de inicio de sesión o de cuenta, se realiza una investigación inicial.     |Ejecución de correcciones o problemas recomendados con la ejecución de la corrección recomendada, la configuración de proveedores de autenticación de terceros y la configuración de características de cuenta individual.        |Soporte técnico estándar de Microsoft y compatibilidad con proveedores de autenticación de terceros         |
-|**Compatibilidad con periféricos**    |         |         |
-|Las investigaciones iniciales se realizan para los periféricos certificados, como cámaras, micrófonos y altavoces.    |Problemas que no se resuelven aplicando configuraciones estándar o que implican una aplicación de terceros.         |Compatibilidad con OEM         |
-|**Sustitución de dispositivos y RMA**   |         |         |
-|Las investigaciones iniciales se realizan para los periféricos certificados, como cámaras, micrófonos y altavoces. La entrega al OEM se realiza para que el OEM cumpla con las solicitudes de garantía o reemplazo.    |Compra, envío o instalación de sustituciones.         |Compatibilidad con OEM         |
-|**Análisis de causa de origen**     |         |         |
-|Todas las causas de origen de los problemas que se encuentran en la experiencia de la sala de reuniones se proporcionan cuando están disponibles, pero se realizan de forma tal.     |No se incluye el análisis de causa de origen para problemas de software de terceros.         |Canales de soporte técnico estándar de terceros         |
+|Investigación e instrucciones para la configuración de Salas de Microsoft Teams en Windows, entre las que se incluyen la configuración de la aplicación Salas de Microsoft Teams, la configuración de red de terceros, la configuración de software de terceros y las opciones de energía y configuración recomendadas.     |Las investigaciones y configuraciones de software de terceros que no forman directamente parte de la aplicación Microsoft Teams Room. Además, las configuraciones específicas de OEM que requieran configuración fuera de las ventanas de terceros o de la configuración de la aplicación Microsoft Teams Room.         |Canales de soporte técnico estándar de terceros         |
+|**Configuración de la cuenta de sala**    |         |         |
+|Dirección para la documentación disponible para la configuración de la cuenta de la sala a petición. Para los problemas de configuración de la cuenta o el inicio de sesión, se realiza la investigación inicial.     |Ejecución de problemas o corrección recomendadas al ejecutar la corrección recomendada, la configuración de proveedores de autenticación de terceros y la configuración de características de cuentas individuales.        |Soporte estándar de Microsoft y soporte técnico de proveedores de autenticación de terceros         |
+|**Soporte periférico**    |         |         |
+|Las investigaciones iniciales se realizan para periféricos certificados, como cámaras, micrófonos y altavoces.    |Problemas que no se resuelven aplicando configuraciones estándar o que implican una aplicación de terceros.         |Soporte técnico OEM         |
+|**RMA y reemplazo de dispositivos**   |         |         |
+|Las investigaciones iniciales se realizan para periféricos certificados, como cámaras, micrófonos y altavoces. El servicio de entrega al soporte OEM se realiza para que el OEM cumpla con la solicitud de sustitución o garantía.    |Compra, envío o instalación de sustituciones.         |Soporte técnico OEM         |
+|**Análisis de causa raíz**     |         |         |
+|Todas las causas raíz de los problemas encontrados en la experiencia de la sala de reuniones se proporcionan cuando están disponibles, pero se realizan de forma tal que pueden.     |No se incluye el análisis de causa raíz para problemas de software de terceros.         |Canales de soporte técnico estándar de terceros         |
 |**Experiencia de reunión**   |         |         |
-|Investigar problemas dentro de la configuración de la reunión en la aplicación salas de Microsoft Teams y orientación para configurar correctamente la calidad de servicio en el dispositivo se proporciona a petición.      |El análisis de causa de origen o las investigaciones de problemas de calidad de la llamada o relacionados con la red se excluyen de este ámbito.         |Soporte técnico general de Microsoft         |
-|**Corrección, incorporación y continuo**     |         |         |
-|Los clientes reciben orientación para incorporar sus salas a estándares recomendados por Microsoft Teams en el servicio administrado en el momento de la incorporación    |Investigaciones con respecto a las imágenes de software personalizadas internas o no conformes con la orientación de versión de software recomendada de Microsoft Teams las salas de servicios administrados no están en el ámbito.          |         |
+|Bajo solicitud, se investigan problemas dentro de la configuración de la reunión en la aplicación Microsoft Teams Rooms y se proporciona una guía para la configuración correcta de la calidad de servicio en el dispositivo.      |Los análisis de las causas raíz o las investigaciones para problemas de calidad de llamadas o problemas relacionados con la red se excluyen de este ámbito.         |Soporte estándar de Microsoft         |
+|**Corrección, incorporación y continuación**     |         |         |
+|Los clientes reciben instrucciones para llevar sus salas a los estándares recomendados por el servicio administrado por salas de Microsoft Teams en la incorporación    |Las investigaciones con respecto a imágenes de software personalizadas internamente o no compatibles con las directrices de versión de software recomendadas del servicio administrado Salas de Microsoft Teams no están dentro del ámbito.          |         |
 
-## <a name="data-collection"></a>Recopilación de datos
+## <a name="data-collection"></a>Recolección de datos
 
-El servicio administrado salas de Microsoft Teams supervisa dispositivos, recopila datos del dispositivo y permite que Microsoft pueda acceder de forma remota a dispositivos de la sala y administrarlos. El servicio administrado de salas de Microsoft Teams no tiene acceso al contenido en vivo de una reunión.
+El servicio administrado salas de Microsoft Teams supervisa los dispositivos, recopila los datos del dispositivo y permite a Microsoft acceder y administrar los dispositivos de la sala de forma remota. El servicio administrado salas de Microsoft Teams no tiene acceso al contenido en directo de una reunión.
 
-Los datos recopilados son específicos de una cuenta de sala, no de un usuario individual. Las referencias incidentales a un usuario individual pueden estar presentes en el registro de actividades durante el uso del dispositivo. Microsoft procesa los datos recopilados de acuerdo con la [declaración de privacidad de Microsoft](https://aka.ms/privacy).  
+Los datos recopilados son específicos de una cuenta de salón, no de un usuario individual. Las referencias incidentales a un usuario individual pueden estar presentes en el registro de actividades durante el uso del dispositivo. Microsoft procesa los datos recopilados de acuerdo con la Declaración [de privacidad de Microsoft.](https://aka.ms/privacy)  
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Servicio administrado de salas de Microsoft Teams](https://rooms.microsoft.com)
+- [Servicio administrado por salas de Microsoft Teams](https://rooms.microsoft.com)

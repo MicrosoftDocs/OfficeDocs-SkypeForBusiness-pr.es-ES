@@ -3,17 +3,18 @@ title: Administrar la aplicación Elogiar en el Centro de administración de Tea
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.reviewer: adotey
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Obtenga más información sobre la configuración de administración en la aplicación Elogiar en el Centro de administración de Microsoft Teams
-ms.openlocfilehash: 122e7f0ffad914e62ede56ebd1811d1504f3fcd7
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: acb9d000aeec61daa35421c5ded389888032873f
+ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909194"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50037856"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación Elogiar en el Centro de administración de Microsoft Teams
 
@@ -45,7 +46,7 @@ El conjunto de distintivos predeterminado está diseñado para ayudar a los usua
 
 ### <a name="social-and-emotional-learning-badges-for-education"></a>Distintivos de aprendizaje social y emocional para la educación
 
-Los profesores pueden reconocer a alumnos individuales sus logros y comportamientos en el aprendizaje social y emocional (SEL) con distintivos que ilustran estos conceptos.
+Los profesores pueden reconocer a alumnos individuales por sus logros y comportamientos en el aprendizaje social y emocional (SEL) con distintivos que ilustran estos conceptos.
 
 ![Vista previa de los distintivos de aprendizaje social y emocional para la educación](media/sel-edu-set-praise.png)
 
@@ -69,7 +70,7 @@ Seleccione **Crear un distintivo personalizado.** Desde aquí, puede diseñar un
 
 4. Localiza el nombre del distintivo: en **Nombres de distintivo localizados,** selecciona **Agregar.** Seleccione la configuración regional que quiera de la lista desplegable. A continuación, escriba el nombre del distintivo en el idioma designado.
 
-5. Excluir el distintivo de configuraciones regionales específicas: En **Excluir distintivo de estas configuraciones regionales,** seleccione **Agregar.** Seleccione las configuraciones regionales que desee excluir de la lista desplegable.
+5. Excluir el distintivo de configuraciones regionales específicas: En **Excluir distintivo de estas configuraciones** regionales, seleccione **Agregar.** Seleccione las configuraciones regionales que desee excluir de la lista desplegable.
 
 6. Seleccione **Aplicar.** El nuevo distintivo aparecerá ahora en la tabla de distintivos personalizados.
 
@@ -107,7 +108,7 @@ A continuación se muestra una lista de colores de ejemplo para empezar:
 
 **A la hora de elegir colores, tenga en cuenta la accesibilidad.** Algunos colores van juntos mejor que otros.  Cree contraste entre el texto y los colores de fondo para facilitar la lectura del nombre del distintivo. Por ejemplo, si ha elegido un color de fondo oscuro, elija un color de texto claro.
 
-**Al seleccionar una imagen, ten en cuenta las dimensiones del distintivo.** Para obtener la mejor calidad, se recomienda cargar un archivo de imagen de 216 x 216 píxeles (que son las dimensiones máximas). Evite estirar o distorsionar la imagen para que se ajuste a estas dimensiones.
+**Al seleccionar una imagen, tenga en cuenta las dimensiones del distintivo.** Para obtener la mejor calidad, se recomienda cargar un archivo de imagen de 216 x 216 píxeles (que son las dimensiones máximas). Evite estirar o distorsionar la imagen para que se ajuste a estas dimensiones.
 
 **Si la imagen del distintivo no es rectangular, haga la imagen transparente.** Tendrá que hacer esto antes de cargar el archivo de imagen en Elogiar.
 
@@ -115,7 +116,7 @@ A continuación se muestra una lista de colores de ejemplo para empezar:
 
 ## <a name="badge-set-assets"></a>Activos del conjunto de distintivos
 
-Los conjuntos de distintivos integrados no se pueden modificar, por lo que cuando se habilita un conjunto integrado, todos los distintivos del conjunto se agregan a la aplicación Elogiar. Si desea agregar distintivos específicos de un conjunto integrado y dejar fuera a otros usuarios, vuelva a crear los distintivos que desea usar como distintivos personalizados. Puede descargar la imagen del distintivo y buscar el texto y los colores de fondo de los distintivos de conjuntos integrados en las tablas siguientes.
+Los conjuntos de distintivos integrados no se pueden modificar, por lo que, cuando se habilita un conjunto integrado, todos los distintivos del conjunto se agregan a la aplicación Elogiar. Si desea agregar distintivos específicos de un conjunto integrado y dejar fuera a otros usuarios, vuelva a crear los distintivos que desee usar como distintivos personalizados. Puede descargar la imagen del distintivo y buscar el texto y los colores de fondo de los distintivos de conjuntos integrados en las tablas siguientes.
 
 ### <a name="default-badges-assets"></a>Activos de distintivos predeterminados
 
@@ -123,12 +124,12 @@ Los conjuntos de distintivos integrados no se pueden modificar, por lo que cuand
 
 |Nombre del distintivo     |Archivo de imagen  |Color del texto | Color de fondo |
 |---------------|------------|---------- |--------|
-|Logre       |[Conseguir PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
+|Logre       |[Consigue PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
 |Increíble        |[PNG increíble](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |Entrenador          |[Entrenador PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
 |Insaltez        |[Png png descánso](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
 |Creativo       |[PNG creativo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
-|Ambos inclusive      |[Png incluido](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
+|Inclusive      |[Png incluido](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |Kind Heart     |[Kind Heart PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
 |Liderazgo     |[PNG de liderazgo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
 |Que se ha       |[Optimism PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|

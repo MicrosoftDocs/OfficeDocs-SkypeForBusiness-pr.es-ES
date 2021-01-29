@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03d6980b7340245eff576ab33e9993eb3a06c68c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bd6959522c756f02a983742fbbc136cd2ef3174a
+ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827340"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50037806"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -180,4 +180,6 @@ Si el administrador ha configurado Microsoft Exchange para [controlar el acceso 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Solución de problemas de Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+- [Programar una reunión de Teams desde Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
