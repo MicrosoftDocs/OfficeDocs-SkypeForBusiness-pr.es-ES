@@ -18,12 +18,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 40fad38d8c77d8194d2bf24a451fb9438f10c586
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 5fb43635d8155d6fe98f02e561ea843ca8c74a4e
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918976"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055642"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -120,36 +120,37 @@ Para habilitar las grabaciones en la región en la directiva Global, use el sigu
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
 
-Here's a summary of what happens when you turn on meeting recording when this change takes effect:
+Aquí se muestra un resumen de lo que ocurre al activar la grabación de reuniones cuando este cambio se haga efectivo:
 
-|If you turn on meeting recordings...|Meeting recordings are stored... |
+|Si activa grabación de reuniones...|Las grabaciones de reuniones se almacenan... |
 |---|---|
-|Before Microsoft Stream is available in your in-country data residency region |In the nearest Microsoft Stream region|
-|After Microsoft Stream is available in your in-country data residency region |In your in-country data residency region|
+|Antes de que Microsoft Stream esté disponible en su región de residencia de datos nacionales |En la región de Microsoft Stream más cercana|
+|Después de que Microsoft Stream esté disponible en su región de residencia de datos del nacionales |En su región de residencia de datos nacionales|
 
-For new and existing tenants that haven't yet turned on meeting recording, new recordings are stored in-country after Microsoft Stream is available in the in-country data residency region. However, any tenant that enables meeting recording before Microsoft Stream is available in the in-country data residency region will continue to use the Microsoft Stream storage for existing and new recordings, even after Microsoft Stream is available in the in-country data residency region.
+En caso de los espacios empresariales nuevos y existentes que todavía no hayan activado la grabación de reuniones, las nuevas grabaciones se almacenan en el país después de que Microsoft Stream esté disponible en la región de residencia de datos del país. Sin embargo, cualquier espacio empresarial que habilite la grabación de reuniones antes de que Microsoft Stream esté disponible en la región de residencia de datos nacionales, seguirá utilizando el almacenamiento de Microsoft Stream para grabaciones nuevas y existentes, incluso si Microsoft Stream está disponible en la región de residencia de datos nacionales.
 
-To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+Para buscar la región donde se almacenan los datos de Microsoft Stream, en Microsoft Stream, haga clic en **?** en la esquina superior derecha, haga clic en **Acerca de Microsoft Stream** y, después, haga clic en **Los datos se almacenan en**.  Para obtener más información sobre las regiones donde Microsoft Stream almacena datos, consulte [Preguntas frecuentes sobre Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-To learn more about where data is stored across services in Microsoft 365 or Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
+Para obtener más información sobre dónde se almacenan los datos en los servicios Microsoft 365 o de Office 365, consulte [¿Dónde se encuentran los datos?](https://products.office.com/where-is-your-data-located?rtc=1)
 
-### Turn on or turn off recording transcription
+### <a name="turn-on-or-turn-off-recording-transcription"></a>Activar o desactivar la transcripción de grabaciones
 
-This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
+Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. Si desactiva esta opción, las opciones de **Búsqueda** y **CC** no estarán disponibles durante la reproducción de la grabación de una reunión. La persona que ha iniciado la grabación necesita que esta opción esté activada para que la grabación también incluya transcripción.
 
 > [!NOTE]
-> That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in Microsoft Stream cloud storage.
+> Actualmente, la transcripción de reuniones grabadas solo es compatible con los usuarios que tengan el idioma de los equipos en inglés y cuando se habla inglés en la reunión. Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de Microsoft Stream.
 
-You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
+Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 
-In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-transcription).
+En el centro de administración de Microsoft Teams, active o desactive la opción **Permitir transcripción** en la directiva de reunión. Para obtener más información, consulte [Administrar directivas de reunión en Teams](meeting-policies-in-teams.md#allow-transcription).
 
-Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+Con PowerShell, configure la opción AllowTranscription en TeamsMeetingPolicy. Para obtener más información, consulte [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) y [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
+A menos que haya asignado una directiva personalizada a los usuarios, los usuarios recibirán la directiva global, que tiene AllowTranscription deshabilitada de forma predeterminada.
 
-For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
+Para que un usuario revierta a la directiva global, use el siguiente cmdlet para quitar una asignación de directiva específica para un usuario:
 
 ```powershell
 Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose

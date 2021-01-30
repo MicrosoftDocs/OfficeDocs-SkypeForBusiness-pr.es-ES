@@ -1,7 +1,7 @@
 ---
 title: Experiencia de chat nativa para usuarios externos (federados) en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,38 +14,37 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Obtenga más información sobre la experiencia de chat de equipos nativos para usuarios de acceso externo (federados) en Microsoft Teams, disponible entre usuarios externos donde los dos usuarios están en el modo de actualización de TeamsOnly.
-ms.openlocfilehash: d3ff414420f8d1d68965307e9303aed4b5cf00ff
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Obtenga información sobre la experiencia de chat nativa de Teams para los usuarios con acceso externo (federado) en Microsoft Teams, donde ambos usuarios se encuentran en el modo de actualización de TeamsOnly.
+ms.openlocfilehash: df9e1e41992e105937deacf898833995cdfb7714
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030606"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055662"
 ---
-<a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Experiencia de chat nativa para usuarios externos (federados) en Microsoft Teams
-======================================
+# <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Experiencia de chat nativa para usuarios externos (federados) en Microsoft Teams
 
-Cuando un usuario de Microsoft Teams está conversando con un usuario externo (federado), la experiencia de chat se limita al texto. Sin embargo, si el usuario de su equipo y el usuario externo están en el modo de actualización de TeamsOnly, puede tener una "experiencia de chat de equipos nativos", que incluye formato enriquecido, @mentions y otras características de chat. En otras palabras, puede tener la misma experiencia de conversación enriquecida 1:1 con los usuarios externos que usted tiene con los usuarios de su organización. Los chats nativos con usuarios externos aún se limitan a chats de 1:1 (los usuarios externos no pueden realizar chats grupales).
+Cuando un usuario de Microsoft Teams chatea con un usuario externo (federado), la experiencia de chat se limita a texto. Sin embargo, si tanto el usuario de Teams como la persona de otra organización se encuentra en el modo de actualización de TeamsOnly, puede tener una experiencia de chat "native-Teams", que incluye formato enriquecido, @mentions y otras características de chat. Es decir, puede tener la misma experiencia de chat de Teams completa con personas aptas en otras organizaciones que con los usuarios de su organización. Los chats nativos de Teams con personas de otras organizaciones solo se limitan a los chats uno a uno.
 
-La experiencia de chat nativa para usuarios externos se activa para todos los inquilinos de Teams, pero no todos los usuarios son elegibles. Para que se le ofrezca una experiencia de chat nativa, el remitente y el destinatario deben estar configurados para el modo de actualización TeamsOnly. Para obtener más información sobre las directivas de actualización, lea [configuración de la coexistencia y actualización de la configuración](setting-your-coexistence-and-upgrade-settings.md).
+La experiencia de chat nativa para personas de otras organizaciones está activada para todos los inquilinos de Teams, pero no todos los usuarios son aptos. Para que se le ofreca una experiencia de chat nativa, tanto el remitente como el receptor deben configurarse para el modo de actualización de TeamsOnly. Para obtener más información sobre las directivas de actualización, lea [Establecer la configuración de coexistencia y actualización.](setting-your-coexistence-and-upgrade-settings.md)
 
-Para ver una lista de las funciones de los usuarios de acceso externo en Teams, consulte [comparar el acceso externo y](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)el de invitado.
+Para ver una lista de las funciones de los usuarios con acceso externo en Teams, vea [Comparar el acceso externo y el de invitado.](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)
 
-## <a name="how-do-i-know-if-im-in-a-native-chat"></a>¿Cómo puedo saber si estoy en una conversación nativa?
+## <a name="how-do-i-know-if-im-in-a-native-chat"></a>¿Cómo puedo saber si estoy en un chat nativo?
 
-Si solo puedes intercambiar texto en tu conversación con un usuario externo, entonces estás en una conversación estándar de acceso externo (federado). Si tiene todas las demás funcionalidades de chat, incluidos formato, @mentions, emojis, etc., está en un chat de equipos nativos con su usuario externo. 
+Si solo puede intercambiar texto en el chat con personas de otras organizaciones, entonces se encuentra en un chat estándar de acceso externo (federado). Si tiene todas las demás funciones de chat, como formato, @mentions, emojis, etc., está en un chat nativo de Teams. 
 
-Teams comprueba periódicamente el modo de actualización para los usuarios externos y, cuando encuentra un usuario externo que ejecuta Teams en el modo de actualización de TeamsOnly, se le pedirá que cambie a un chat de equipos nativos y bloqueará la conversación original.
+Teams comprueba periódicamente el modo de actualización de las personas de otras organizaciones y, cuando encuentra un equipo que ejecuta Teams en el modo de actualización De Teams, le pedirá que cambie a un chat nativo de Teams y bloquee el chat original.
 
-Al cambiar a un chat de equipos nativos, Teams no combina las dos conversaciones. En su lugar, verás ambos chats en tu fuente de chat. La nueva conversación de equipos nativos está activa, pero la antigua conversación de solo texto está bloqueada.
-
+Cuando cambia a un chat nativo de Teams, Teams no combina las dos conversaciones. En su lugar, verá ambos chats en su fuente de chat. El nuevo chat de Teams nativo está activo, pero el chat antiguo de solo texto está bloqueado.
 
 
-## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>¿Qué sucede si un usuario no está en el modo solo de equipo?
 
-Si estabas en una conversación nativa de equipos con un usuario externo y después uno de usted se desconecta del modo de actualización de TeamsOnly, Teams bloquea la conversación de equipos nativos y le da un vínculo a un chat limitado de solo texto. No podrás continuar en la conversación nativa de equipos. Aún puedes leer la conversación de equipos nativos, pero no puedes continuar con ella.
+## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>¿Qué sucede si un usuario ya no está en el modo Solo equipos?
 
-Si Teams encuentra una conversación que solo es de texto con este usuario externo, la reactivará. De lo contrario, Teams crea un nuevo chat de solo texto.
+Si tiene un chat nativo de Teams con personas de otras organizaciones y luego uno de usted sale del modo de actualización TeamsOnly, Teams bloquea el chat nativo de Teams y le proporciona un vínculo para un chat limitado de solo texto. No podrá continuar en el chat nativo de Teams. Aún puede leer el chat nativo de Teams, pero no puede continuar la conversación allí.
+
+Si Teams encuentra un chat antiguo de solo texto con esta persona, se reactivará ese chat. En caso contrario, Teams crea un nuevo chat de solo texto.
 
 
 ## <a name="related-topics"></a>Temas relacionados

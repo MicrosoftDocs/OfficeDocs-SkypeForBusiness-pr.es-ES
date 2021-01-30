@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede obtener información sobre una lista de problemas conocidos de salas de Microsoft Teams, como la actualización, la interfaz de usuario, el hardware y las limitaciones y los comportamientos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: afa1bf4a2a4fdd36bd45d8b237998ec461dcc1f4
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 63a646fa6fb404cb46de889c318181146cb44b2a
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865244"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055742"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -31,11 +31,11 @@ En este artículo se indican los problemas conocidos de Sala de Microsoft Teams 
 
 | Título del problema |  Comportamiento \/ síntoma | Solución conocida | Artículo de KB |
 |  ---        |      ---             |   ---            | --- |
-| No se inicia la aplicación |  Después de actualizar a la versión 4.4.41.0 de la aplicación, el sistema entre en negro o ve a la pantalla de inicio de sesión tras unos minutos. | Siga los pasos que se indican en la aplicación Salas de Microsoft Teams no se inicia después de actualizar a la versión [4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) para corregir este problema.  | Ninguna |
+| No se inicia la aplicación |  Después de actualizar a la versión 4.4.41.0 de la aplicación, el sistema se convertiría en pantalla negra o ir a la pantalla de inicio de sesión tras unos minutos. | Siga los pasos que se indican en la aplicación Salas de Microsoft Teams no se inicia después de actualizar a la versión [4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) para corregir este problema.  | Ninguna |
 |  El uso compartido de contenido de reuniones sfB no muestra pantalla completa         |    En las reuniones de Skype Empresarial, las salas con pantallas frontales con configuración elevada de PPP pueden experimentar problemas por los que el contenido compartido en una reunión no muestra la pantalla completa en la parte frontal de la pantalla de la sala. Esto se debe a un problema subyacente en la API de Protocolo de Escritorio remoto (RDP) de Windows 10. | Use la configuración XML para deshabilitar la API RDP de `<WinRTRdpEnabled>` Windows 10 para resolver este problema. Para deshabilitarlo, debe especificar el valor como `false` . Para obtener más información, vea [Administrar la configuración de la consola con un archivo de configuración XML.](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file) | Ninguna |
 |  Aplicación obsoleta         |    La consola de Microsoft Teams salas muestra un error "configuración del sistema obsoleta".                |   [Usar la herramienta de recuperación de Sala de Microsoft Teams](recovery-tool.md)             |  Ninguna |
 |  Dispositivo actualizado a la versión no compatible de Windows 10   |    El dispositivo con Windows 10 se actualizó de la versión 1803 a la 1809, lo que no es compatible. La versión compatible es 1903. |   Esto puede ocurrir si la configuración de Directiva de grupo o MDM para la configuración [DeferFeatureUpdatesPeriodays,](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) que le permite aplazar las actualizaciones de características durante un número especificado de días, está establecida en el máximo de 365 días. <br><br> La versión 1809 de Windows 10 no es compatible con Microsoft Teams Rooms, mientras que la versión 1903 es compatible. Sin embargo, a partir del 27 de marzo de 2020, la versión 1809 tiene más de 365 días de antigüedad. Si no cambia esta configuración, Windows intentará instalar la versión 1809, lo que puede causar problemas con Microsoft Teams Rooms.<br><br>Para evitar esta situación, **quite cualquier** directiva de grupo o configuración MDM para aplazar actualizaciones. Esto permite que Windows actualice a la versión más reciente del sistema operativo compatible. <br><br>**IMPORTANTE** Es necesario quitar la configuración de directiva de grupo o MDM **(izquierda** no configurada) y no **establecerla en 0.** Si la directiva se establece en 0, Windows toma la versión disponible más reciente, que es posible que no sea compatible. |  Ninguna |
-|  Los dispositivos de salas de Cisco no pueden unirse a la reunión de Teams   |    Se produce un error al unirse a una reunión de Teams mediante unirse directamente desde un dispositivo de la sala de Cisco y la llamada finaliza cuando un usuario selecciona **Unirse.** |  Un cambio en el cliente web de Teams que permite a los dispositivos de Cisco Room unirse a las reuniones de Teams provoca esta regresión. Publicamos una corrección para este problema que se implementará en todos los inquilinos antes del 15/1/2020. Cisco y Microsoft trabajan conjuntamente para evitar problemas similares en el futuro.   |  Ninguna |
+
 
 
 <a name="OS-conflicts"> </a>  
@@ -61,11 +61,11 @@ Sala de Microsoft Teams no admite la incorporación de HDCP, ya que se ha visto 
 
 _*_
 
-Si desea que la pantalla frontal de la sala cambie automáticamente a una fuente de vídeo activa (como una consola MTR) cuando el origen se reactiva del modo de espera, deben cumplirse ciertas condiciones. Esta característica es opcional, pero es compatible con el software de salas de Microsoft Teams, siempre que el hardware subyacente admita la característica. Un televisor de consumidor usado frente a la pantalla de la sala debe admitir la característica de control de consumidores electronices (CEC) de HDMI.  En función de la base o consola seleccionada (que podría no ser compatible con CEC, consulte la documentación de soporte técnico del fabricante), es posible que se necesite un controlador como [HD-NICE-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron o [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) desde Extron para habilitar el comportamiento deseado. 
+Si desea que la pantalla frontal de la sala cambie automáticamente a una fuente de vídeo activa (como una consola MTR) cuando el origen se reactiva del modo de espera, deben cumplirse ciertas condiciones. Esta característica es opcional, pero es compatible con el software de salas de Microsoft Teams, siempre que el hardware subyacente admita la característica. Un televisor de consumidor usado frente a la pantalla de la sala debe admitir la característica de control de electrónica de consumidor (CEC) de HDMI.  En función de la base o consola seleccionada (que podría no ser compatible con CEC, consulte la documentación de soporte técnico del fabricante), es posible que se necesite un controlador como [HD-NICE-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron o [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) desde Extron para habilitar el comportamiento deseado. 
 
 _*_
 
-Use siempre una conexión de red de 1 Gbps cableada para garantizar que tiene el ancho de banda necesario. 
+Use siempre una conexión de red cableada de 1 Gbps para garantizar que tiene el ancho de banda necesario. 
 
 _*_
 
