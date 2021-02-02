@@ -16,16 +16,52 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de la versión de las características de administración de Microsoft Teams.
-ms.openlocfilehash: e2b21a7f96162493fbee7b37ec2dcd57ac8c3a1f
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 3dd48c9f2da10d4238d05d9de610867b5d94b873
+ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909384"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50070935"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de la versión de las características de administración de Microsoft Teams
 
 Estas notas de la versión proporcionan información sobre las nuevas características de administración de Microsoft Teams.
+
+## <a name="january-27-2021"></a>27 de enero de 2021
+
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuales con Teams: integración en EHR
+
+Hemos actualizado la interfaz para el conector del registro de salud electrónico (EHR) de Microsoft Teams y el conector que permite a los médicos iniciar fácilmente una visita virtual a un paciente o una consulta con otro proveedor en Teams directamente desde el sistema EHR. [Más información](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
+
+## <a name="january-22-2021"></a>22 de enero de 2021
+
+### <a name="firstline-workers-are-now-called-frontline-workers"></a>Los Firstline Workers ahora se denominan Frontline Workers
+
+Hemos cambiado el título de Firstline Workers a Frontline Workers.
+
+## <a name="january-21-2021"></a>21 de enero de 2021
+
+### <a name="offline-documentation"></a>Documentación sin conexión
+
+Teams sigue ejecutándose incluso cuando no tiene conexión o si se está ejecutando en condiciones de ancho de banda bajo. Teams guarda todos los mensajes no enviados de los chats existentes (hasta 24 horas) y los envía en cuanto vuelve a estar en línea. [Más información](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
+
+## <a name="january-19-2021"></a>19 de enero de 2021
+
+### <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
+
+La aplicación Aprobaciones está disponible como aplicación personal para todos los usuarios de Microsoft Teams. La aplicación Aprobaciones ofrece una forma sencilla de auditar, cumplir, responsabilidad y flujos de trabajo a aprobaciones estructuradas y no estructuradas en Teams. [Más información](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+
+## <a name="january-15-2021"></a>15 de enero de 2021
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar el complemento para reuniones de Microsoft Teams para Google Workspace
+
+El complemento para reuniones de Microsoft Teams para Google Workspace debe estar habilitado por un administrador de Teams para que los usuarios inquilinos puedan acceder a la aplicación. [Más información](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams).
+
+## <a name="january-4-2021"></a>4 de enero de 2021
+
+### <a name="calendar-sharing"></a>Uso compartido del calendario
+
+Se ha agregado la posibilidad de agregar un canal a una pestaña de calendario.
 
 ## <a name="december-21-2020"></a>21 de diciembre de 2020
 
@@ -75,7 +111,7 @@ Puede administrar la configuración de Skype Empresarial para los usuarios de Sk
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Administrar la configuración de Skype Empresarial para su organización
 
-Puede administrar las características de Skype Empresarial para los usuarios de Skype Empresarial de su organización en el Centro de administración de Microsoft Teams. Vaya a **configuración para toda la organización** de Skype  >  **Empresarial.** Desde aquí, puede administrar las notificaciones móviles, de presencia y de Difusión de reunión de Skype. [Más información](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Puede administrar las características de Skype Empresarial para los usuarios de Skype Empresarial de su organización en el Centro de administración de Microsoft Teams. Vaya a **la configuración de** Skype Empresarial para toda la  >  **organización.** Desde aquí, puede administrar las notificaciones móviles, de presencia y de Difusión de reunión de Skype. [Más información](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## <a name="october-16-2020"></a>16 de octubre de 2020
 
@@ -109,7 +145,7 @@ Si es una empresa pequeña o mediana con hasta 300 usuarios y actualmente no tie
 
 Ahora, en el Centro de administración de Teams, los administradores globales podrán revisar y conceder el consentimiento a los permisos de API de Graph registrados en Azure Active Directory en nombre de todo el inquilino para los permisos que solicita una aplicación, como la lectura de la información almacenada en un equipo o el envío de un correo electrónico en nombre de los usuarios. Ahora los administradores de TI podrán revisar los permisos de consentimiento específico de los recursos (RSC) para las aplicaciones en el Centro de administración de Teams. Con esto, los administradores podrán desbloquear a sus usuarios para las aplicaciones de terceros que ya han revisado y aprobado usar en su organización. [Más información](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
 
-### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>Compatibilidad con planes de llamadas para Austria, Dinamarca, Italia, Portugal, Suecia y Suiza
+### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>Compatibilidad con los planes de llamadas para Austria, Dinamarca, Italia, Portugal, Suecia y Suiza
 
 Recientemente hemos agregado compatibilidad con el plan de llamadas para Austria, Dinamarca, Italia, Portugal, Suecia y Suiza.  [Más información](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
@@ -117,7 +153,7 @@ Recientemente hemos agregado compatibilidad con el plan de llamadas para Austria
 
 ### <a name="meeting-policy-settings"></a>Configuración de la directiva de reunión
 
-Agregar dos configuraciones de directiva para el audio IP y el vídeo IP en las directivas de reuniones de Teams: modo de audio IP y modo de vídeo IP. Ahora puede establecer el audio y el vídeo IP entrantes y salientes en las directivas de reunión de Teams. [Más información](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+Agregar dos configuraciones de directiva para el audio IP y el vídeo IP en las directivas de reuniones de Teams: modo de audio IP y modo de vídeo IP. Ahora puede establecer el audio y el vídeo IP entrante y saliente en las directivas de reunión de Teams. [Más información](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
 
 ## <a name="september-27-2020"></a>27 de septiembre de 2020
 
@@ -135,7 +171,7 @@ Llamar con Teams directamente a través de su libreta de teléfonos Android.
 
 ### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones de Microsoft Power Platform en el Centro de administración de Microsoft Teams
 
-Como administrador, puede controlar si los usuarios pueden ver e instalar aplicaciones de Microsoft Power Platform en la página Aplicaciones de Teams integrada por sus compañeros. Puede bloquear o permitir colectivamente todas las aplicaciones creadas en Power Apps o [](../manage-apps.md) todas las aplicaciones creadas en Power Virtual Agents en el nivel de organización en la página Administrar aplicaciones o para usuarios específicos con directivas de permisos de [aplicación.](../teams-app-permission-policies.md) [Más información](../manage-power-platform-apps.md).
+Como administrador, puede controlar si los usuarios pueden ver e instalar aplicaciones de Microsoft Power Platform en la página Aplicaciones de Teams integrada por sus compañeros. Puede bloquear o permitir colectivamente todas las aplicaciones creadas en Power Apps o [](../manage-apps.md) todas las aplicaciones creadas en Power Virtual Agents en el nivel de organización en la página Administrar aplicaciones o para usuarios específicos con directivas de permisos [de aplicación.](../teams-app-permission-policies.md) [Más información](../manage-power-platform-apps.md).
 
 ## <a name="september-19-2020"></a>19 de septiembre de 2020
 
@@ -145,7 +181,7 @@ En Microsoft Teams, los usuarios pueden compartir contenido con otros usuarios d
 
 ## <a name="september-16-2020"></a>16 de septiembre de 2020
 
-### <a name="new-third-party-video-provider-riverbed"></a>Nuevo proveedor de video de terceros Riverbed
+### <a name="new-third-party-video-provider-riverbed"></a>Nuevo proveedor de vídeo de terceros Riverbed
 
 Use la configuración de eventos en directo de Teams para establecer la configuración de los eventos en directo de su organización. Puede configurar una dirección URL de soporte técnico y configurar un proveedor de distribución de vídeo de terceros. Esta configuración se aplica a todos los eventos en directo creados en la organización. Riverbed es un nuevo proveedor de terceros. [Más información](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider).
 
@@ -195,7 +231,7 @@ Con esta característica, se asignan automáticamente etiquetas que coinciden co
 
 ### <a name="cortana-voice-skills-in-teams"></a>Habilidades de voz de Cortana en Teams
 
-Las habilidades de voz de Cortana en la aplicación móvil de Teams ayudan a los usuarios a realizar tareas de reunión, comunicación y colaboración simplemente usando lenguaje natural hablado. Los usuarios pueden hablar con Cortana haciendo clic en el botón del micrófono en la aplicación Teams y realizar solicitudes como "Llamar a Ángan" o "Enviar un mensaje a mi próxima reunión" si necesitan conectarse con alguien mientras se desvía de las tareas domésticas o anda al perro o generalmente en la calle. Los usuarios pueden unirse a reuniones simplemente diciendo "Unirse a mi próxima reunión" o comprobar su calendario preguntándoles "¿qué tengo esta mañana". Una vez en una reunión o llamada, pueden invocar Cortana desde el menú de desbordamiento de la fase de reunión y realizar tareas típicas durante la reunión, como agregar personas por nombre o número ("Agregar Megán a la llamada"), presentación de presentaciones ("presentar el conjunto de diapositivas de revisión trimestral") o navegar por las diapositivas ("Ir a la diapositiva del anexo"). Otras cosas que admite la característica son buscar y compartir archivos, buscar y navegar dentro de la aplicación de Teams ("Abrir mi chat con Juan, Ir a mi actividad no leída, Ir a mis menciones, etc.).
+Las aptitudes de voz de Cortana en la aplicación móvil de Teams ayudan a los usuarios a realizar tareas de reunión, comunicación y colaboración simplemente usando lenguaje natural hablado. Los usuarios pueden hablar con Cortana haciendo clic en el botón del micrófono en la aplicación Teams y realizar solicitudes como "Llamar a Ángan" o "Enviar un mensaje a mi próxima reunión" si necesitan conectarse con alguien mientras se desvía de las tareas domésticas o anda al perro o generalmente en la calle. Los usuarios pueden unirse a reuniones simplemente diciendo "Unirse a mi próxima reunión" o comprobar su calendario preguntándoles "¿qué tengo esta mañana". Una vez en una reunión o llamada, pueden invocar Cortana desde el menú de desbordamiento de la fase de reunión y realizar tareas típicas durante la reunión, como agregar personas por nombre o número ("Agregar Megán a la llamada"), presentación de presentaciones ("presentar el conjunto de diapositivas de revisión trimestral") o navegar por las diapositivas ("Ir a la diapositiva del anexo"). Otras cosas que admite la característica son buscar y compartir archivos, buscar y navegar dentro de la aplicación de Teams ("Abrir mi chat con Juan, Ir a mi actividad no leída, Ir a mis menciones, etc.).
 
 Cortana en Teams cumple las mismas promesas de privacidad, seguridad y cumplimiento a nivel empresarial para los servicios empresariales de Cortana, tal y como se refleja en los Términos de servicios en línea [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [Más información](https://docs.microsoft.com/microsoftteams/cortana-in-teams).
 
@@ -233,7 +269,7 @@ Como parte de la capacidad de administración mejorada, vamos a lanzar la funcio
 
 ### <a name="view-only-in-meetings"></a>Solo ver en las reuniones
 
-Solo ver permite que hasta 20 000 participantes solo para escuchar se unan a una reunión en la que el organizador tiene una licencia para el sku del complemento Comunicaciones avanzadas.1 Esta es una característica de versión preliminar o anticipada. [Más información](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls).
+Solo ver permite que hasta 20 000 participantes que solo escuchen se unan a una reunión en la que el organizador tenga una licencia para el SKU del complemento Comunicaciones avanzadas.1 Esta es una característica de versión preliminar o anticipada. [Más información](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls).
 
 ## <a name="july-28-2020"></a>28 de julio de 2020
 
@@ -329,13 +365,13 @@ Puede buscar en el registro de auditoría para ver la actividad de Turnos en su 
 
 ### <a name="call-queues---presence-based-routing"></a>Colas de llamadas: enrutamiento basado en presencia
 
-Cuando está desactivada, las llamadas se enrutan a los agentes que se han dado de baja para recibir llamadas, independientemente de su estado de presencia. Cuando está activada, los agentes que optan por participar recibirán llamadas solo cuando su estado de presencia esté disponible. [Más información](../create-a-phone-system-call-queue.md).
+Cuando está desactivada, las llamadas se enrutan a los agentes que se han dado de baja para recibir llamadas, independientemente de su estado de presencia. Cuando está activada, los agentes que optan por participar solo recibirán llamadas cuando su estado de presencia esté disponible. [Más información](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-10-2020"></a>10 de junio de 2020
 
 ### <a name="call-queues---longest-idle-routing"></a>Colas de llamadas: enrutamiento de inactividad más largo
 
-Al elegir esta opción, las llamadas entrantes se enrutan a agentes de llamadas que no hayan respondido a una llamada entrante durante el período de tiempo más largo. [Más información](../create-a-phone-system-call-queue.md).
+Al elegir esta opción, las llamadas entrantes se enrutan a agentes de llamadas que no hayan respondido una llamada entrante durante el período de tiempo más largo. [Más información](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-1-2020"></a>1 de junio de 2020
 
@@ -369,7 +405,7 @@ Los presentadores y productores de eventos en directo ahora pueden incluir el au
 
 ### <a name="team-and-channel-analytics"></a>Análisis de canales y equipos
 
-Además del análisis de equipo, ahora también puede ver información y métricas de nivel de canal. También hemos mejorado el período de tiempo a 90 días para que pueda analizar datos durante períodos más largos. Además de eso, esta versión también incluye nuevas métricas y gráficos sobre el recuento de publicaciones, respuestas y reuniones de un equipo o canal. [Más información](../teams-analytics-and-reports/view-analytics.md).
+Además del análisis del equipo, ahora también puede ver información y métricas de nivel de canal. También hemos mejorado el período de tiempo a 90 días para que pueda analizar datos durante períodos más largos. Además de eso, esta versión también incluye nuevas métricas y gráficos sobre el recuento de publicaciones, respuestas y reuniones de un equipo o canal. [Más información](../teams-analytics-and-reports/view-analytics.md).
 
 ## <a name="april-20-2020"></a>20 de abril de 2020
 
@@ -387,7 +423,7 @@ Cuando se reúne con vídeo, ahora tiene la opción de usar diferentes imágenes
 
 ### <a name="teams-for-realwear"></a>Teams para Real Izda
 
-El cliente de Microsoft Teams para Real Anverso permite a los trabajadores de la línea frontal usar los equipos wearables montado en la cabeza escarpados para operar Teams 100 por ciento con manos libres y buscar asistencia remota de expertos con videollamadas de Teams. [Más información](../flw-realwear.md).
+El cliente de Microsoft Teams para Real Anverso permite a los trabajadores de la línea frontal usar los equipos wearables montado en la cabeza y escarpado para operar Teams 100 por ciento con manos libres y obtener asistencia remota de expertos con las videollamadas de Teams. [Más información](../flw-realwear.md).
 
 ## <a name="march-31-2020"></a>31 de marzo de 2020
 

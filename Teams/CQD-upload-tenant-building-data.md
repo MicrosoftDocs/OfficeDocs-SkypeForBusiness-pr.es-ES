@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo cargar datos de inquilino y de edificio en el panel de calidad de llamadas.
-ms.openlocfilehash: a7f8b4a8d84429b752692cf05013dfba7321fd5e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909354"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067145"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Cargar datos de inquilino y de edificio en el panel de calidad de llamadas (CQD)
 
@@ -41,15 +41,15 @@ En el panel Informes de resumen  del CQD, seleccione Carga de datos del inquilin
 
    ![Captura de pantalla del cuadro de diálogo que aparece mientras se cargan datos](media/qerguide-image-tenantdataupload.png)
     
-2. Como alternativa, si es la primera vez que visita el CQD, se le pedirá que cargue los datos de creación. Puede seleccionar Cargar **ahora para ir** rápidamente a la página Carga de datos del **inquilino.**
+2. Como alternativa, si es la primera vez que visita el CQD, se le pedirá que cargue los datos de creación. Puede seleccionar Cargar **ahora para ir** rápidamente a la página Carga de datos del **espacio** empresarial.
 
    ![Captura de pantalla de la pancarta que notifica a un usuario que debe cargar datos de creación](media/qerguide-image-buildingdatauploadbanner.png)
 
-3. En la **página Carga de datos del** espacio empresarial, seleccione **Examinar** para elegir un archivo de datos.
+3. En la **página Carga de datos del** inquilino, seleccione **Examinar** para elegir un archivo de datos.
 
 4. Después de seleccionar un archivo de datos, especifique **la fecha de** inicio y, opcionalmente, especifique una fecha de finalización.
 
-5. Después de seleccionar **la fecha de** inicio, seleccione Cargar para cargar el archivo en el CQD.  <br><br>Antes de cargar el archivo, se valida. Si se produce un error en la validación, se muestra un mensaje de error en el que se solicita que se corrija el archivo. La figura siguiente muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
+5. Después de seleccionar **la fecha de inicio,** **seleccione** Cargar para cargar el archivo en el CQD. <br><br>Antes de cargar el archivo, se valida. Si se produce un error en la validación, se muestra un mensaje de error en el que se solicita que se corrija el archivo. La figura siguiente muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
 
    ![Ejemplo de cuadro de diálogo que muestra un error de carga de datos de creación](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -70,6 +70,8 @@ El primer tipo de archivo de datos de inquilino en el CQD es el **archivo de dat
 - Los tipos de datos del archivo solo pueden ser String, Integer o Boolean. Para el tipo de datos Integer, el valor debe ser un valor numérico. Los valores booleanos deben ser 0 o 1.
 
 - Si una columna usa el tipo de datos String, un campo de datos puede estar vacío pero debe estar separado por una tabulación o una coma. Un campo de datos vacío simplemente asigna un valor de cadena vacío.
+
+- Hay un límite de filas expandida de 1 000 000 por archivo de datos de espacio empresarial.
 
 - Debe haber 15 columnas por cada fila, cada columna debe tener el tipo de datos adecuado y las columnas deben estar en el orden indicado en la tabla siguiente (delimitado por comas o tabulaciones):
 
@@ -97,16 +99,16 @@ El primer tipo de archivo de datos de inquilino en el CQD es el **archivo de dat
 
   <sup>2</sup> Esta configuración se puede usar para reflejar si la subred está dentro de la red corporativa o no. Puede personalizar el uso para otros fines.
 
-  <sup>3</sup> Esta configuración se puede usar para reflejar si la red usa Azure ExpressRoute o no. Puede personalizar el uso para otros fines.  
+  <sup>3 Esta</sup> configuración se puede usar para reflejar si la red usa Azure ExpressRoute o no. Puede personalizar el uso para otros fines.  
 
   **Fila de ejemplo:**
 
   `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> El rango de red se puede usar para representar una supernet (combinación de varias subredes con un solo prefijo de enrutamiento). Todas las nuevas cargas de creación se comprobarán por si hay rangos superpuestos. Si previamente ha cargado un archivo de creación, debe descargar el archivo actual y volver a cargarlo para identificar cualquier solapamiento y corregir el problema antes de volver a cargarlo. Cualquier superposición en archivos cargados anteriormente puede producir errores en la asignación de subredes a edificios en los informes. Algunas implementaciones VPN no informan de forma precisa sobre la información de subred. 
+> El rango de red se puede usar para representar una supernet (combinación de varias subredes con un solo prefijo de enrutamiento). Todas las nuevas cargas de creación se comprobarán por si hay rangos superpuestos. Si previamente ha cargado un archivo de creación, debe descargar el archivo actual y volver a cargarlo para identificar cualquier solapamiento y corregir el problema antes de volver a cargarlo. Cualquier superposición en archivos cargados anteriormente puede producir errores en la asignación de subredes a edificios en los informes. Algunas implementaciones VPN no informan de forma precisa sobre la subred. 
 >
-> La columna VPN es opcional y tendrá el valor predeterminado 0. Si el valor de la columna VPN está establecido en 1, la subred representada por esa fila se ampliará por completo para coincidir con todas las direcciones IP de la subred.  Use este programa con moderación y solo para las subredes VPN, ya que la ampliación completamente de estas subredes afectará negativamente a los tiempos de consulta en las consultas que impliquen generar datos.
+> La columna VPN es opcional y tendrá el valor predeterminado 0. Si el valor de la columna VPN se establece en 1, la subred representada por esa fila se ampliará por completo para coincidir con todas las direcciones IP de la subred. Use este programa con moderación y solo para las subredes VPN, ya que la ampliación completamente de estas subredes afectará negativamente a los tiempos de consulta en las consultas que impliquen generar datos. Si la expansión de la subred da como resultado que se supere el límite de la fila de expansión de 1000 000, no se aceptará el archivo de creación.
 
 
 ### <a name="supernetting"></a>Supernetting
@@ -129,18 +131,18 @@ Estos son algunos aspectos que debe tener en cuenta antes de implementar superne
 
 -   La supernetting solo se puede usar en una asignación de subred con máscaras de 8 bits a 28 bits.
 
--   El supernetismo lleva menos tiempo por adelantado, pero tiene el coste de reducir la riqueza de los datos. Supongamos que hay un problema de calidad relacionado con la subred 10.1.2.0. Si implementó supernetos, no sabrá dónde se encuentra la subred en la creación ni qué tipo de red es (por ejemplo, un laboratorio). Si ha definido todas las subredes de una edificio y la información de ubicación de la planta cargada, podrá ver esa distinción.
+-   El supernetismo requiere menos tiempo por adelantado, pero tiene el coste de reducir la riqueza de los datos. Supongamos que hay un problema de calidad relacionado con la subred 10.1.2.0. Si implementó supernetos, no sabrá dónde se encuentra la subred de edificio ni qué tipo de red es (por ejemplo, un laboratorio). Si ha definido todas las subredes de una edificio y la información de ubicación de la planta cargada, podrá ver esa distinción.
 
 -   Es importante asegurarse de que la dirección superespera es correcta y no encuentra subredes no deseadas.
 
--   Es bastante común encontrar 192.168.0.0 en los datos. En muchas organizaciones, esto indica que el usuario se encuentra en casa. Para otros, este es el esquema de direcciones IP para una oficina satélite. Si su organización tiene oficinas que usan esta configuración, no la incluya en el archivo de creación porque es difícil distinguir entre las redes internas y locales mediante subredes [comunes.](quality-of-experience-review-guide.md#common-subnets) 
+-   Es bastante común encontrar 192.168.0.0 en los datos. En muchas organizaciones, esto indica que el usuario se encuentra en casa. Para otros, este es el esquema de direcciones IP para una oficina satélite. Si su organización tiene oficinas que usan esta configuración, no la incluya en el archivo de creación porque es difícil distinguir entre redes internas e internas mediante subredes [comunes.](quality-of-experience-review-guide.md#common-subnets) 
 
 > [!IMPORTANT]
-> El rango de red se puede usar para representar una supernet. Todas las nuevas cargas de archivos de datos de creación se comprobarán por si hay rangos superpuestos. Si previamente ha cargado un archivo de creación, debe descargar el archivo actual y cargarlo de nuevo para identificar cualquier solapamiento y corregir el problema. Los solapamientos en archivos cargados anteriormente pueden producir errores en la asignación de subredes a edificios en los informes.
+> El rango de red se puede usar para representar una supernet. Todas las nuevas cargas de archivos de datos de creación se comprobarán por si hay rangos superpuestos. Si previamente ha cargado un archivo de creación, debe descargar el archivo actual y cargarlo de nuevo para identificar cualquier solapamiento y corregir el problema. Los solapamientos en archivos cargados anteriormente pueden provocar errores en la asignación de subredes a edificios en los informes.
 
 ### <a name="vpn"></a>VPN
 
-La calidad de los datos de la experiencia (QoE) que los clientes envían a Microsoft 365 u Office 365, que es desde donde se recopilan los datos del CQD, incluye una marca vpn. El CQD verá esto como las dimensiones Primera VPN y Segunda VPN. Sin embargo, esta marca depende de que los proveedores de VPN informen a Windows de que el adaptador de red VPN registrado es un adaptador de acceso remoto. No todos los proveedores de VPN registran correctamente adaptadores de acceso remoto. Por este problema, es posible que no pueda usar los filtros integrados de consulta de VPN. Use la columna VPN descrita anteriormente para marcar e identificar con precisión las subredes VPN. También es una buena práctica etiquetar las redes VPN para facilitar la identificación en los informes. A continuación se muestran dos ejemplos de cómo etiquetar las subredes VPN:
+La calidad de los datos de la experiencia (QoE) que los clientes envían a Microsoft 365 u Office 365, que es desde donde se recopilan los datos del CQD, incluye una marca vpn. El CQD lo verá como las dimensiones Primera VPN y Segunda VPN. Sin embargo, esta marca depende de que los proveedores de VPN informen a Windows de que el adaptador de red VPN registrado es un adaptador de acceso remoto. No todos los proveedores de VPN registran correctamente adaptadores de acceso remoto. Por este problema, es posible que no pueda usar los filtros integrados de consulta de VPN. Use la columna VPN descrita anteriormente para marcar e identificar con precisión las subredes VPN. También es una buena práctica etiquetar las redes VPN para facilitar la identificación en los informes. A continuación se muestran dos ejemplos de cómo etiquetar las subredes VPN:
 
 - Para definir **un nombre de** red, escriba "VPN" en este campo para las subredes VPN.
 
@@ -148,7 +150,7 @@ La calidad de los datos de la experiencia (QoE) que los clientes envían a Micro
 
 - Para definir **un nombre de** edificio, escriba "VPN" en este campo para las subredes VPN.
 
-  ![Captura de pantalla del informe DESLD que muestra una VPN con el nombre de edificio](media/qerguide-image-vpnbuildingname.png)
+  ![Captura de pantalla del informe DESD que muestra una VPN con el nombre de edificio](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
 > Se sabe que las conexiones VPN han identificado de manera errónea el tipo de conexión de red como cableadas cuando la conexión subyacente es inalámbrica. Al mirar la calidad a través de conexiones VPN, no puede suponer que el tipo de conexión se ha identificado con precisión.
@@ -198,11 +200,11 @@ En ocasiones necesitará agregar nuevas subredes de red al CQD que no formaban p
 
 1.  Anexe las nuevas subredes de red al archivo de creación original.
 
-1.  Cargue el archivo de creación modificado y establezca la fecha de inicio de un día después de que finalice el archivo de creación anterior.
+1.  Cargue el archivo de creación modificado recientemente y establezca la fecha de inicio de un día después de que finalice el archivo de creación anterior.
 
 ## <a name="add-missing-subnets"></a>Agregar subredes que faltan
 
-Después de cargar la información de creación de las redes administradas, todas las redes administradas deben tener una asociación de edificios. Sin embargo, este no siempre será el caso; normalmente, se pierden algunas subredes. Para ver las redes que faltan, revise el informe de subred que falta **en** la **página** Informes de calidad de la experiencia del CQD. Esto presenta todas las subredes con 10 o más transmisiones de audio que no están definidas en el archivo de datos de creación y que se marcan como externas. Asegúrese de que no haya ninguna red administrada en esta lista. Si faltan subredes, use el procedimiento siguiente para actualizar el archivo de datos de creación original y volver a cargarlo en el CQD.
+Después de cargar la información de creación para las redes administradas, todas las redes administradas deben tener una asociación de edificios. Sin embargo, este no siempre será el caso; normalmente, se pierden algunas subredes. Para ver las redes que faltan, revise el informe de subred que falta **en** la **página** Informes de calidad de la experiencia del CQD. Esto presenta todas las subredes con 10 o más transmisiones de audio que no están definidas en el archivo de datos de creación y que se marcan como externas. Asegúrese de que no haya ninguna red administrada en esta lista. Si faltan subredes, use el procedimiento siguiente para actualizar el archivo de datos de creación original y vuelva a cargarlo en el CQD.
 
 1. Vaya a la **página Carga de datos del** inquilino en el CQD.
 
