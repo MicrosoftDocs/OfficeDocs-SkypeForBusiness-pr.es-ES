@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7570368a6b9bd889bc5ed632cd1d057d70ae791a
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986433"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067125"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Sincronizar datos del Sistema de información de estudiantes (SIS) con Insights para Educación
 Cuando más datos introduzca en [Insights para Educación](class-insights.md), mejor podrán los formadores ayudar a los alumnos y más fácil será para los líderes educativos ayudar a los formadores.
@@ -37,7 +37,7 @@ Insights funciona mejor cuando se usa el [formato de archivo de SDS V2](https://
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>Diferencias entre los formatos de archivo SDS V1 y V2
 
-| Tipo de datos |   V1 | V2 (recomendado) |
+| Tipo de datos |   V1 | V2 (recomendado para nuevos clientes) |
 |:--- |:--- |:--- |
 | **Usuarios** | El formato V1 contiene **solo formadores**, por lo que para establecer permisos a nivel de organización para los responsables del ámbito educativo, deberá buscarlos y definir manualmente los permisos de cada uno. | El formato V2 contiene **todos los roles** para que pueda asignar permisos basados en roles. |
 | **Organizaciones** | El formato V1 contiene **solo escuelas**, por lo que verá únicamente un nivel de agregación (todas las escuelas). Aunque una lista plana le permite centrarse en una escuela específica, es posible que esta lista tenga un gran número de escuelas o que contenga diferentes tipos de escuelas que sean difíciles de comparar (como la escuela primaria y la secundaria o la escuela de ciencias y la de artes).<br/><br/> Con una jerarquía, puede crear niveles lógicos, como un departamento de ciencias o de arte.| El formato V2 contiene **la jerarquía completa de su distrito o institución**, incluidas universidades, facultades, campus, regiones, programas, etc.<br/><br/> Con una jerarquía, puede ver la agregación relevante por cada nivel de la jerarquía, comparar rápidamente entre unidades de la organización a cada nivel, asignar permisos a niveles específicos, establecer objetivos por nivel de la organización y así sucesivamente.|
@@ -112,7 +112,9 @@ Si no ve la opción de *Sincronizar datos de la organización desde SDS (versió
 ### <a name="deploy-sds"></a>Implementar SDS
 **Si ya usa SDS**, le recomendamos que siga nuestros [procedimientos recomendados](#best-practices). 
 
-Para sincronizar los perfiles actuales con Insights, vaya a **Sincronizar perfiles**, haga clic en **Editar** y seleccione **Sincronizar datos de la organización desde SDS**. Para la sincronización inicial, se recomienda esperar 24 horas a que los informes estén disponibles tras la actualización de los datos desde su SIS.  
+Para sincronizar los perfiles actuales con Insights, vaya a **Sincronizar perfiles**, haga clic en **Editar** y seleccione **Sincronizar con Insights**. Para la sincronización inicial, se recomienda esperar 24 horas a que los informes estén disponibles tras la actualización de los datos desde su SIS.  
+
+:::image type="content" source="media/insights-sds-profile-sync.png" alt-text="Perfil de sincronización con botones de alternancia de Insights":::
 
 **Si aún no usa SDS**, ahora necesitará [implementarlo](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync).
 
@@ -122,7 +124,7 @@ Durante el proceso de implementación, puede decidir si quiere usar SDS para apr
 > Si está a mitades del año y ya creó los equipos manualmente, use SDS solo para proporcionar los datos a Insights y el año que viene considere la posibilidad de usar SDS para aprovisionar usuarios y clases en Teams.
 
 ### <a name="verify-the-sync-process"></a>Comprobar el proceso de sincronización
-Ahora en la página Configuración debería aparecer una nueva área de estado junto a Sincronizar datos de la organización: versión preliminar.
+Ahora en la página Configuración debería aparecer una nueva área de estado junto a Sincronizar datos de SDS (versión preliminar).
  
 *   Si el estado es **en curso**, espere hasta 24 horas después de la implementación del perfil de SDS.
 
