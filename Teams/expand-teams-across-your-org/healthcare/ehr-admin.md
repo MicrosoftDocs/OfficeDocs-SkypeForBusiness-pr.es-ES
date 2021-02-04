@@ -21,18 +21,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Usar Microsoft Teams para configurar su sistema de visitas virtuales
-ms.openlocfilehash: 6753afbabf6bbcb420f9ddf479249a968d33eb2c
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
+ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055713"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50101338"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuales con Teams: integración en EHR
 
-El conector del registro sanitario electrónico (EHR) de Microsoft Teams facilita a los médicos iniciar una visita virtual a un paciente o una consulta con otro proveedor en Teams directamente desde el sistema EHR. Microsoft Teams, integrado en la nube de Microsoft 365, permite una colaboración y comunicación sencillas y seguras con herramientas de chat, vídeo, voz y salud en un único hub que cumple con la certificación HIPAA, HITECH y mucho más.
-La plataforma de comunicación y colaboración de Teams facilita a los médicos cortar el desorden de sistemas fragmentados para que puedan dedicar el tiempo a proporcionar la mejor atención posible. El conector del registro de salud electrónico (EHR) de Microsoft Teams puede:
-- Inicie las visitas virtuales de Teams desde los portales del proveedor y del paciente.
+El conector del registro sanitario electrónico (EHR) de Microsoft Teams facilita a los médicos iniciar una visita virtual al paciente o una consulta con otro proveedor en Teams directamente desde el sistema EHR. Microsoft Teams, integrado en la nube de Microsoft 365, permite una colaboración y una comunicación sencillas y seguras con herramientas de chat, vídeo, voz y salud en un único hub que cumple con la certificación HIPAA, HITECH y mucho más.
+La plataforma de comunicación y colaboración de Teams facilita a los médicos cortar el desorden de sistemas fragmentados para que puedan dedicar tiempo a proporcionar la mejor atención posible. El conector del registro de salud electrónico (EHR) de Microsoft Teams puede:
+- Inicie las visitas virtuales de Teams desde los portales de proveedores y pacientes.
 - Reescriba los metadatos EHR en los eventos de conexión y desconexión para habilitar la auditoría automática y la conservación de registros.
 - Inténtese en flujos de trabajo existentes de médicos y pacientes al tiempo que les permite usar Microsoft Teams.
 
@@ -44,9 +44,9 @@ La plataforma de comunicación y colaboración de Teams facilita a los médicos 
 
 Debe asegurarse de que tiene los siguientes requisitos previos para poder integrar el conector EHR:
 
-- Acceso para usar en la aplicación Microsoft Teams en [El catálogo de catálogos de aplicaciones de Épico.](https://apporchard.epic.com/Gallery?id=6153)
+- Acceso para usar en la aplicación Microsoft Teams en El catálogo [de catálogos de aplicaciones de Épico.](https://apporchard.epic.com/Gallery?id=6153)
 
-- Suscripción activa a Microsoft Cloud para el ámbito sanitario o suscripción a la oferta independiente de Microsoft Teams EHR Connector.
+- Suscripción activa a Microsoft Cloud para el ámbito sanitario o suscripción a la oferta independiente de Microsoft Teams EHR Connector (solo se aplica durante las pruebas de producción).
 
 - Los usuarios deben tener una licencia adecuada de Microsoft 365 u Office 365 que incluya las reuniones de Microsoft Teams.
 
@@ -63,7 +63,7 @@ También necesitará información de las siguientes personas de su organización
 - Analista de clientes épicos
 
 > [!Note]
-> Solicite a su especialista técnico épico que proporcione la guía de Epic-Microsoft integración de Telehealth de Teams en el Catálogo de soluciones épicos.
+> Solicite a su especialista técnico Épico que le proporcione la guía de Epic-Microsoft integración de Teams Telehealth disponible en el Catálogo de soluciones épicos.
 
 ## <a name="connector-setup"></a>Configuración del conector
 
@@ -99,7 +99,7 @@ Para completar este paso, el administrador de Microsoft 365 debe recibir una DIR
 La analista de clientes épicos de su organización sanitaria que se agregó como aprobador ahora debe usar la misma URL del conector EHR del paso anterior para iniciar sesión con sus credenciales de Microsoft 365. Después de la validación correcta, se le pedirá al aprobador que inicie sesión con sus credenciales épicos para validar la organización épicos.
 
 > [!Note]
-> El administrador de Microsoft 365 y el analista de clientes Épicos de su organización pueden ser la misma persona. En ese caso, agregue su propio nombre de usuario como aprobador. Igualmente tendrás que iniciar sesión en Épico para validar tu acceso. El inicio de sesión épico solo se usa para validar la dirección URL de la base FCONTR. Microsoft no almacenará credenciales ni accederá a datos EHR con este inicio de sesión.
+> El administrador de Microsoft 365 y analista de clientes Épicos de su organización pueden ser la misma persona. En ese caso, agregue su propio nombre de usuario como aprobador. Igualmente tendrás que iniciar sesión en Épico para validar tu acceso. El inicio de sesión épico solo se usa para validar la dirección URL de la base FCONTR. Microsoft no almacenará credenciales ni accederá a datos EHR con este inicio de sesión.
 
   ![Compruebe y apruebe la configuración de credenciales.](../../media/approve-view-configuration.png)
 
@@ -109,7 +109,7 @@ Después de un inicio de sesión épico correcto, el analista de clientes épico
 
 ### <a name="review-and-finish-the-configuration"></a>[Revisar y finalizar la configuración](#review-and-finish-the-configuration)
 
-Cuando el administrador épico apruebe la información de configuración, se le presentarán registros de integración para el lanzamiento del proveedor y el paciente. Estos registros son necesarios para completar la configuración de visita virtual en Épico. Consulte la guía Epic-Microsoft integración de Telehealth de Teams para obtener más información.
+Cuando el administrador épico apruebe la información de configuración, se le presentarán registros de integración para el lanzamiento del paciente y el proveedor. Estos registros son necesarios para completar la configuración de visita virtual en Épico. Consulte la guía Epic-Microsoft integración de Telehealth de Teams para obtener más información.
 
 > [!Note]  
 > En cualquier momento, el analista de clientes de Microsoft 365 o Épicos puede iniciar sesión en el portal de configuración para ver los registros de integración y modificar la configuración de la organización, si es necesario.
@@ -123,7 +123,7 @@ Cuando el administrador épico apruebe la información de configuración, se le 
 
 ## <a name="launch-teams-virtual-visits"></a>Iniciar visitas virtuales de Teams
 
-Después de completar los pasos del conector EHR y la configuración épicos, su organización está lista para admitir las visitas en vídeo con Microsoft Teams.
+Después de completar los pasos del conector EHR y la configuración épicos, su organización está lista para admitir las visitas de vídeo con Microsoft Teams.
 
 ### <a name="virtual-visit-prerequisites"></a>Requisitos previos de la visita virtual
 
@@ -153,11 +153,11 @@ El conector admite a los pacientes que se unen a visitas virtuales a través de 
 
 Características clave de la experiencia del paciente:
 
-- Los pacientes pueden unirse a visitas virtuales de exploradores web modernos en equipos de escritorio y dispositivos móviles sin instalación de aplicaciones.
+- Los pacientes pueden unirse a visitas virtuales desde exploradores web modernos en equipos de escritorio y dispositivos móviles sin instalación de aplicaciones.
 
 - Los pacientes pueden unirse a visitas virtuales con un solo clic y no se requiere otra cuenta ni inicio de sesión.
 
-- No es necesario que los pacientes creen una cuenta de Microsoft ni que inicien sesión para iniciar una visita virtual.
+- No es necesario que los pacientes creen una cuenta de Microsoft o que inicien sesión para iniciar una visita virtual.
 
 - Los pacientes se colocarán en una sala de espera hasta que el proveedor de salud se una a la cita y los admita en la visita virtual.
 
