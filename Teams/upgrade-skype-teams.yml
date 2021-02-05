@@ -1,0 +1,131 @@
+### YamlMime:Hub
+title: Planear la actualización de Skype Empresarial a Microsoft Teams
+summary: Microsoft Teams está diseñado para ayudar a los usuarios a mantenerse conectados, colaborar sin problemas y simplificar el trabajo de una forma segura y compatible, todo en un mismo lugar. Aquí encontrará orientación, formación y recursos para implementar una actualización correcta de Skype Empresarial a Teams.
+brand: teams
+metadata:
+  title: Planear la actualización de Skype Empresarial a Microsoft Teams
+  description: Microsoft Teams está diseñado para ayudar a los usuarios a mantenerse conectados, colaborar sin problemas y simplificar el trabajo de una forma segura y compatible, todo en un mismo lugar. Aquí encontrará orientación, formación y recursos para implementar una actualización correcta de Skype Empresarial a Teams.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: SerdarSoysal
+  ms.author: samanro
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.translationtype: MT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110380"
+highlightedContent:
+  items:
+  - title: Aprovechar nuestro marco de actualización demostrada
+    itemType: how-to-guide
+    url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+  - title: Regístrate en talleres gratuitos de planificación de actualizaciones
+    itemType: learn
+    url: https://aka.ms/upgradeworkshops
+  - title: Obtenga información sobre la transición & negro a Teams en ocho semanas
+    itemType: video
+    url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
+productDirectory:
+  title: Recursos para planear una actualización correcta de Teams y más
+  summary: Un entorno técnico saludable, una adopción de usuario sostenida y la comprensión de sus objetivos empresariales empiezan con una correcta planificación.
+  items:
+  - title: El viaje a Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    links:
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-enlist-stakeholders
+      text: 1. Incorporar a las partes interesadas del proyecto
+    - url: https://aka.ms/SkypetoTeams-Scope
+      text: 2. Definir el ámbito del proyecto
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment
+      text: 3. Preparar el entorno para la actualización
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-organization
+      text: 4. Preparar la organización para la actualización
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-to-teams
+      text: 5. Implementar la actualización
+    - url: https://docs.microsoft.com/microsoftteams/continue-journey
+      text: 6. Operar, adoptar, optimizar
+  - title: Historias de actualización de Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    links:
+    - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
+      text: 'Dsm DSM: Skype Empresarial Server a Teams'
+    - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
+      text: 'LDAP: Skype Empresarial Server a Teams'
+    - url: https://customers.microsoft.com/story/782385-williams-energy-teams
+      text: 'Williams: De Skype Empresarial Server a Teams'
+    - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
+      text: 'Trek: Skype Empresarial Online a Teams'
+    - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
+      text: Red Dentsu Aegis- Skype Empresarial Online a Teams
+    - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
+      text: 'Berkshire Healthcare: Skype Empresarial Online a Teams'
+  - title: Talleres en línea para sacar el máximo partido de Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+    links:
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
+      text: Por lo tanto... desea realizar llamadas con Teams
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+      text: Responsable de la calidad de audio y vídeo en Teams
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
+      text: Aplicaciones en los aspectos básicos de Teams
+    - url: https://aka.ms/ChalkTalkKeyApps
+      text: Flujos de trabajo clave de más vida con aplicaciones en Teams
+  - title: 'Ruta de aprendizaje: Actualizar a Microsoft Teams'
+    imageSrc: media/upgrade-microsoft-teams.svg
+    summary: Aprenda a actualizar de Skype Empresarial Online y Skype Empresarial local a Microsoft Teams.
+    url: https://docs.microsoft.com/learn/paths/m365-teams-upgrade/
+  - title: Blog de Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+    summary: Obtenga información sobre procedimientos recomendados, noticias y tendencias directamente desde el equipo que está detrás de Microsoft Teams.
+    url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog
+  - title: Impacto económico total de Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
+    summary: Sumérjase en el informe forrester Research que cuantifica las mejoras en el rendimiento de los empleados y la empresa después de adoptar Teams.
+    url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
+  - title: 'Sesión de encendido: Diseñar la ruta a Teams'
+    imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
+    summary: Esta sesión de Ignite 2020 le ayuda a encontrar el enfoque más adecuado para su implementación y objetivos de Skype Empresarial.
+    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+  - title: Planes y precios de Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
+    summary: Encuentre el Microsoft Teams adecuado para su empresa.
+    url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
+  - title: Kit para el éxito de la actualización
+    imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
+    summary: Descargue los materiales de preparación del usuario, incluidas las plantillas de comunicaciones, las encuestas de usuario y los planes de prueba piloto y de proyecto de ejemplo.
+    url: https://aka.ms/UpgradeSuccessKit
+additionalContent:
+  sections:
+  - items:
+    - title: Retirada de Skype Empresarial Online
+      summary: Prepárese para la retirada del servicio Skype Empresarial Online del 31 de julio de 2021 y aprenda a planear una transición correcta a Teams.
+      url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+    - title: Trazar el curso en Teams
+      summary: Descargue esta infografía divertida y útil que asigna cada uno de los pasos a lo largo del viaje de actualización de Teams.
+      url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
+    - title: Contratar FastTrack para obtener asistencia de implementación
+      summary: Cuando los proyectos de implementación de Teams requieren asistencia más implicado, los clientes con suscripciones aptas pueden interactuar con FastTrack para obtener soporte técnico.
+      url: https://www.microsoft.com/fasttrack
+    - title: Buscar un partner de Microsoft
+      summary: ¿Necesita instrucciones adicionales? Los proveedores de soluciones de Microsoft pueden ayudarle a administrar los servicios técnicos y logística de su actualización.
+      url: https://www.microsoft.com/solution-providers/home
+    - title: Documentación del administrador de Teams
+      summary: Obtenga información sobre cómo crear y administrar Teams, y preparar a los usuarios para nuevas experiencias de comunicación y colaboración.
+      url: https://docs.microsoft.com/MicrosoftTeams/
+    - title: Aprendizaje de Teams dirigido por un instructor
+      summary: Clases de aprendizaje en línea y en directo gratuitas diseñadas para que usted esté en marcha con Teams.
+      url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page

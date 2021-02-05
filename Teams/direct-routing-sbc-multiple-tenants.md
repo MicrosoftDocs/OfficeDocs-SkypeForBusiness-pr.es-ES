@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para partners de Microsoft u operadores RTC.
+description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para partners de Microsoft u operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 343e2d1aedefd34de452df8da6ce9a5ad1a726ba
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: b81709b46774762036ba9465444d066a0adf019c
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923852"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110243"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -62,7 +62,7 @@ Para conocer los pasos detallados sobre cómo implementar y configurar los SBC p
 - **Oracle: Notas** [de configuración de enrutamiento directo,](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)la configuración del escenario de hospedaje SBC se describe en la sección "Microsoft". 
 - **Comunicaciones de la cinta de opciones:**  Consulte la Guía de configuración de [SBC Core Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) de la cinta de opciones para obtener documentación sobre cómo configurar las SBC de la serie básica de la cinta de opciones y, en esta página, Procedimiento recomendado de la cinta: Configuración de operadores para el enrutamiento directo de [SBC edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) de Microsoft Teams
 - **TE-Systems (anynode):**  Regístrate en la página de la comunidad de [TE-Systems](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar anynode SBC para varios inquilinos.
-- **Metacambio:**  Regístrate en la [página de la comunidad de Metacambio](https://manuals.metaswitch.com/MAN39555) para obtener documentación sobre cómo habilitar ABC para varios inquilinos.
+- **Metacambio:**  Regístrate en la [página de la comunidad de Metacambio](https://manuals.metaswitch.com/MAN39555) para obtener documentación sobre cómo habilitar Para varios inquilinos.
 
 > [!NOTE]
 > Preste atención a cómo configurar el encabezado "Contacto". El encabezado De contacto se usa para buscar el inquilino del cliente en el mensaje de invitación entrante. 
@@ -77,7 +77,7 @@ En el ejemplo siguiente:
 - Adatum es un operador que sirve a varios clientes al proporcionar servicios de telefonía e Internet.
 - Woodgrove Bank, Contoso y Adventure Works son tres clientes que tienen dominios de Microsoft 365 u Office 365 pero reciben los servicios de telefonía de Adatum.
 
-Los **subdominios** DEBEN coincidir con el nombre FQDN del tronco que se configurará para el cliente y el FQDN en el encabezado de contacto al enviar la invitación a Microsoft 365 u Office 365. 
+Los **subdominios** DEBEN coincidir con el nombre FQDN del tronco que se configurará para el cliente y el FQDN en el encabezado del contacto al enviar la invitación a Microsoft 365 u Office 365. 
 
 Cuando llega una llamada a la interfaz de enrutamiento directo de Microsoft 365 u Office 365, la interfaz usa el encabezado de contacto para buscar el inquilino donde debe buscarse el usuario. El enrutamiento directo no usa la búsqueda de números de teléfono en la invitación, ya que es posible que algunos clientes tengan números no DID que se puedan superponer en varios inquilinos. Por lo tanto, el nombre FQDN del encabezado de contacto es necesario para identificar el inquilino exacto que debe buscar el usuario por el número de teléfono.
 
@@ -101,7 +101,7 @@ La tabla siguiente es un ejemplo de una configuración.
 |sbc3.customers.adatum.biz |   Subdominio | En un inquilino de cliente |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 ||         |         |         |         |         |
 
-Para configurar la base y los subdominios, siga los pasos descritos a continuación. En el ejemplo, configuraremos un nombre de dominio base (customers.adatum.biz) y un subdominio de un cliente (sbc1.customers.adatum.biz en el inquilino de Woodgrove Bank).
+Para configurar la base y los subdominios, siga los pasos descritos a continuación. En el ejemplo, configuraremos un nombre de dominio base (customers.adatum.biz) y un subdominio para un cliente (sbc1.customers.adatum.biz en el inquilino de Woodgrove Bank).
 
 > [!NOTE]
 > Use sbcX.customers.adatum.biz para habilitar la voz en el inquilino del operador. sbcX puede ser cualquier nombre de host alfanumérico único y válido.
@@ -126,7 +126,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
     ![Captura de pantalla que muestra la página Agregar un dominio](media/direct-routing-2-sbc-add-domain.png)
 
 3. Haga clic en **Siguiente**.
-4. En el ejemplo, el inquilino ya tiene un adatum.biz de dominio comprobado. El asistente no le pedirá comprobación adicional porque customers.adatum.biz un subdominio del nombre ya registrado. Sin embargo, si agrega un FQDN que no se ha comprobado antes, tendrá que pasar por el proceso de comprobación. El proceso de comprobación se [describe a continuación.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
+4. En el ejemplo, el inquilino ya tiene un adatum.biz de dominio comprobado. El asistente no le pedirá comprobación adicional porque customers.adatum.biz es un subdominio del nombre ya registrado. Sin embargo, si agrega un FQDN que no se ha comprobado antes, tendrá que pasar por el proceso de comprobación. El proceso de comprobación se [describe a continuación.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
 
     ![Captura de pantalla que muestra la confirmación de un nombre de dominio comprobado](media/direct-routing-3-sbc-verify-domain.png)
 
@@ -137,12 +137,12 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 ### <a name="activate-the-domain-name"></a>Activar el nombre de dominio
 
-Después de haber registrado un nombre de dominio, debe activarlo agregando al menos un usuario con licencia E1, E3 o E5 y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el dominio base creado. La licencia puede revocarse después de la activación del dominio (pueden tardar hasta 24 horas).
+Después de haber registrado un nombre de dominio, debe activarlo agregando al menos un usuario con licencia de Sistema telefónico y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el dominio base creado. La licencia puede revocarse después de la activación del dominio (pueden tardar hasta 24 horas).
 
 > [!NOTE]
-> El inquilino del operador debe conservar al menos una licencia E1/E3/E5/M365 Business asignada al inquilino para evitar la eliminación de la configuración de Skype Empresarial. 
+> El inquilino del operador debe tener al menos una licencia de Sistema telefónico asignada al inquilino para evitar la eliminación de la configuración de Skype Empresarial. 
 
-*Consulte Obtener ayuda con los dominios de [Microsoft 365 u Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios de organizaciones de Microsoft 365 u Office 365.*
+*Consulte Obtener ayuda con dominios de [Microsoft 365 u Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obtener más información sobre cómo agregar usuarios de organizaciones de Microsoft 365 u Office 365.*
 
 Por ejemplo: test@customers.adatum.biz
 
@@ -150,7 +150,7 @@ Por ejemplo: test@customers.adatum.biz
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>Registrar un nombre de subdominio en un inquilino de cliente
 
-Necesitará crear un nombre de subdominio único para cada cliente. En este ejemplo, crearemos un dominio de subdominio sbc1.customers.adatum.biz inquilino con el nombre de dominio predeterminado woodgrovebank.us.
+Necesitará crear un nombre de subdominio único para cada cliente. En este ejemplo, crearemos un subdominio en un sbc1.customers.adatum.biz inquilino con el nombre de dominio predeterminado woodgrovebank.us.
 
 **Todas las acciones siguientes se encuentran en el inquilino del cliente.**
 
@@ -164,7 +164,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Agregar un subdominio al inquilino del cliente y comprobarlo
 1. En el Centro de administración de Microsoft 365, vaya a **Configuración del**  >  **dominio Agregar**  >  **dominio.**
-2. En el cuadro Escriba un dominio de su **propiedad,** escriba el FQDN del subdominio para este espacio empresarial. En el ejemplo siguiente, el subdominio está sbc1.customers.adatum.biz.
+2. En el cuadro Escriba un dominio de su **propiedad,** escriba el FQDN del subdominio para este espacio empresarial. En el ejemplo siguiente, el subdominio es sbc1.customers.adatum.biz.
 
     ![Captura de pantalla de la página Agregar un dominio](media/direct-routing-5-sbc-add-customer-domain.png)
 
@@ -211,7 +211,7 @@ Después de registrar un nombre de dominio, debe activarlo agregando al menos un
 
 Por ejemplo: test@sbc1.customers.adatum.biz
 
-![Captura de pantalla de la página Activación de la página de subdominio](media/direct-routing-13-sbc-activate-subdomain.png)
+![Captura de pantalla de la página Activación de la subdominio](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>Crear un tronco y aprovisionar usuarios
 
@@ -233,18 +233,18 @@ Se introdujeron dos nuevas entidades:
 **Ejemplo y lógica de aprovisionamiento**
 
 -    Los operadores solo necesitan configurar y administrar un solo tronco (tronco transportista en el dominio del transportista), mediante el comando Set-CSOnlinePSTNGateway empresa. En el ejemplo anterior se muestra adatum.biz;
--    En el inquilino del cliente, el operador solo necesita agregar el FQDN de tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar ninguna New-CSOnlinePSTNGateway para un tronco.
+-    En el espacio empresarial del cliente, el operador solo necesita agregar el FQDN de tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar ninguna New-CSOnlinePSTNGateway para un tronco.
 -    El tronco derivado, tal como su nombre sugiere, hereda o deriva todos los parámetros de configuración del tronco transportista. Ejemplos:
--    Customers.adatum.biz: el tronco transportista que debe crearse en el inquilino del operador.
+-    Customers.adatum.biz: el tronco transportista que debe crearse en el inquilino del transportista.
 -    Sbc1.customers.adatum.biz: el tronco derivado en un inquilino de cliente que no es necesario crear en PowerShell.  Simplemente puede agregar el nombre del tronco derivado en el inquilino del cliente en la directiva de enrutamiento de voz en línea sin crearlo.
 -   El operador tendrá que configurar el registro DNS para resolver el FQDN de tronco derivado a la dirección ip SBC del operador.
 
--    Los cambios realizados en un tronco del transportista (en el inquilino del operador) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco carrier y este cambio se aplica a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
+-    Los cambios realizados en un tronco del transportista (en el inquilino del operador) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco transportista y este cambio se aplica a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
 -    Las opciones se envían solo al FQDN del tronco del operador. El estado de mantenimiento del tronco transportista se aplica a todos los troncos derivados y se usa para decisiones de enrutamiento. Más información sobre las [opciones de enrutamiento directo.](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)
 -    El transportista puede descargar el tronco transportista y todos los troncos derivados también se descargarán. 
  
 
-**Migración del modelo anterior al tronco del transportista**
+**Migración del modelo anterior al tronco transportista**
  
 Para la migración desde la implementación actual del modelo hospedado por el operador al nuevo modelo, los operadores tendrán que volver a configurar los troncos para los inquilinos del cliente. Quite los troncos de los inquilinos del cliente Remove-CSOnlinePSTNGateway (dejando el tronco en el inquilino del operador)-
 

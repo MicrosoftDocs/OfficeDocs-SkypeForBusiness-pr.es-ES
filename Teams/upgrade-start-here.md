@@ -1,5 +1,5 @@
 ---
-title: Empezar a actualizar Skype empresarial a teams
+title: Introducción a la actualización de Skype Empresarial a Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Este artículo le ayudará a empezar a actualizar de Skype empresarial a Microsoft Teams.
+description: Este artículo le ayudará a empezar a actualizar de Skype Empresarial a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
@@ -30,24 +30,30 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed91a5bc6df8836e19f602facccce704cad65876
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: abb88c42de7858a80ade93953f08a168feb533e2
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578183"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110323"
 ---
-# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Introducción a la actualización de Skype empresarial a Microsoft Teams
+# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Introducción a la actualización de Skype Empresarial a Microsoft Teams
 
 Enhorabuena por la actualización pendiente de Skype Empresarial a Microsoft Teams. Ya sea que recién esté comenzando con Teams, que ya esté usando Teams junto con Skype Empresarial, o que esté listo para actualizar, queremos asegurarnos de que tenga todo lo que necesita para un exitoso viaje a Teams.
 
 Si está actualizando Skype Empresarial online a Teams o de un entorno local de Skype Empresarial a Teams, el marco de actualización le guiará a través del proceso basado en su escenario empresarial.
 
+| Icono | Descripción |
+| --- | --- |
+|![Símbolo de tutorial](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Centro de** actualización: encuentre una descripción general de todas las instrucciones, cursos y recursos que necesitará para implementar una actualización correcta de Skype Empresarial a Teams al planear la actualización de Skype Empresarial a [Microsoft Teams.](upgrade-skype-teams.yml)|
+
+Siga leyendo para ver las preguntas más frecuentes sobre la actualización.
+
 ## <a name="why-upgrade-to-microsoft-teams"></a>¿Por qué actualizar a Microsoft Teams?
 
 Microsoft Teams amplía las funciones de Skype empresarial, al reunir chat, reuniones, llamadas, colaboración, integración de aplicaciones y almacenamiento de archivos en una sola interfaz. Este nuevo eje central para trabajo en equipo puede ayudar a simplificar la forma en que los usuarios hacen las cosas, mejorando la satisfacción del usuario y acelerando los resultados de la empresa. Continuamente ampliamos las capacidades de los equipos para que puedan comunicarse y colaborar de nuevas maneras, romper las barreras organizativas y geográficas, e impulsar la eficiencia en los procedimientos y la toma de decisiones. Obtenga más información sobre las ventajas de actualizar a equipos en el informe de Forrester: [impacto económico total de Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
-## <a name="when-should-my-organization-migrate-to-teams"></a>¿Cuándo debo migrar mi organización a teams?
+## <a name="when-should-my-organization-migrate-to-teams"></a>¿Cuándo debería migrar mi organización a Teams?
 
 Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Aunque el servicio de Skype empresarial online funcionará en su totalidad hasta el 31 de julio de 2021, Microsoft recomienda a los clientes que empiecen el trayecto actual, lo que permite llevar a cabo el tiempo suficiente para completar la actualización anterior a la fecha de retiro.  Lea nuestro [anuncio de jubilación](https://aka.ms/sfboannounce) para obtener más información.
 
@@ -55,15 +61,15 @@ Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir d
 
 Sí, Microsoft ofrece varias opciones para ejecutar Skype empresarial online y equipos conjuntamente. Estos modos de coexistencia permiten a los usuarios familiarizarse con Teams actuales mientras se acelera la actualización solo a Teams. Para obtener más información, consulte [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
 
-## <a name="is-phone-system-available-for-teams-users"></a>¿Está disponible el sistema telefónico para los usuarios de Teams?
+## <a name="is-phone-system-available-for-teams-users"></a>¿El sistema telefónico está disponible para los usuarios de Teams?
 
-Sí. El sistema telefónico está disponible para todos los usuarios de Teams después de que se hayan movido al modo TeamsOnly.  Además, Microsoft ofrece opciones para conectarse a la red de telefonía pública conmutada (RTC), de modo que los usuarios puedan hacer llamadas telefónicas en cualquier lugar del mundo. Para obtener más información, consulte [voz: sistema telefónico y conectividad RTC](cloud-voice-landing-page.md).
+Sí. Sistema telefónico está disponible para todos los usuarios de Teams una vez que se mueven al modo TeamsOnly.  Además, Microsoft ofrece opciones para conectarse a la red telefónica conmutada (RTC) para que los usuarios puedan realizar llamadas telefónicas en cualquier lugar del mundo. Para obtener más información, [vea Voz: sistema telefónico y conectividad con RTC.](cloud-voice-landing-page.md)
 
-## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>¿Podemos continuar usando nuestra infraestructura de telefonía local?
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>¿Podemos seguir usando nuestra infraestructura de telefonía local?
 
-Sí. Con el enrutamiento directo del sistema telefónico, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía. Con el enrutamiento directo, conecta su propio controlador de borde de sesión (SBC) directamente al sistema telefónico. Para obtener más información, consulte [enrutamiento directo de sistema telefónico](direct-routing-landing-page.md).
+Sí. Con el enrutamiento directo de sistema telefónico, puede usar sistema telefónico con prácticamente cualquier operador de telefonía. Con el enrutamiento directo, conecta su propio controlador de borde de sesión (SBC) directamente al sistema telefónico. Para obtener más información, vea [Enrutamiento directo de sistema telefónico.](direct-routing-landing-page.md)
  
-## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>¿Cómo ayuda Microsoft a los clientes a migrar a teams? 
+## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>¿Cómo ayuda Microsoft a los clientes con su migración a Teams? 
 
 Microsoft se compromete a ayudar a que la transición de Skype empresarial a Teams sea un éxito. Microsoft está ofreciendo una guía robusta basada en un marco de éxito de actualización de extremo a extremo diseñado para ayudarle a planificar y ejecutar la actualización a Teams. Nuestra guía se ha diseñado para cada etapa del trayecto de la actualización, tanto si está empezando por la planificación, ya en ejecución de Teams con Skype empresarial, o bien si está preparado para actualizar a Teams.
 
