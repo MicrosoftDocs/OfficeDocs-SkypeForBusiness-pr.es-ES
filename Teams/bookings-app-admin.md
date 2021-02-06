@@ -1,5 +1,5 @@
 ---
-title: Visitas virtuales con Microsoft Teams y la aplicación de las reservas
+title: Visitas virtuales con Microsoft Teams y la aplicación Bookings
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -15,85 +15,87 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 ms.reviewer: ''
-description: Microsoft Teams y visitas virtuales con la aplicación bookings
-ms.openlocfilehash: 684c442765b868ca96e9d1bf243817f9378f0b5d
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+description: Microsoft Teams y visitas virtuales con la aplicación Bookings
+ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790622"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125753"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación de las reservas
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 
-La aplicación de reservas de Microsoft Teams ofrece una forma sencilla de programar citas en persona y virtuales, como visitas de asistencia sanitaria, consultas financieras, entrevistas, asistencia al cliente, horas de oficina de educación y mucho más.
+La aplicación Bookings de Microsoft Teams ofrece una forma sencilla de programar citas en persona y virtuales, como visitas médicas, consultas financieras, entrevistas, soporte al cliente, horarios de oficina para educación y mucho más.
 
-Los programadores pueden administrar varios calendarios de departamentos y personal, así como comunicaciones con asistentes internos y externos, desde una sola experiencia. Las citas virtuales en sí se mantienen a través de las reuniones de Microsoft Teams, lo que ofrece sólidas capacidades de videoconferencia.
+Los programadores pueden administrar calendarios de varios departamentos y de personal, así como las comunicaciones con asistentes internos y externos, desde una única experiencia. Las propias citas virtuales se mantienen a través de reuniones de Microsoft Teams, que ofrece sólidas capacidades de videoconferencia.
 
 > [!NOTE]
-> Solo los programadores necesitan tener la aplicación de las reservas instalada en Teams. El personal que lleva a cabo o participa en citas virtuales no necesita la aplicación. Simplemente pueden unirse a citas desde el calendario de Outlook o Teams o desde un vínculo en el correo electrónico de confirmación de reserva.
+> Solo los programadores deben tener la aplicación Bookings instalada en Teams. El personal que dirige o participa en citas virtuales no necesita la aplicación. Simplemente pueden unirse a citas desde su calendario de Outlook o Teams o desde un vínculo en el correo electrónico de confirmación de reserva.
 
-## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>Requisitos previos para usar la aplicación de reservas en Teams
+## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>Requisitos previos para usar la aplicación Bookings en Teams
 
-- El buzón de Exchange debe estar en Exchange Online. No se admiten los buzones de Exchange Server locales.
+- El buzón de Exchange debe estar en Exchange Online. Los buzones de correo Exchange Server local no son compatibles.
 
-- Microsoft bookings debe estar activado para la organización.
+- Microsoft Bookings debe estar activado para la organización.
 
-- Los usuarios deben tener una licencia adecuada. Office 365 a3, A5, E3 y E5, así como Microsoft 365 Business Standard, a3, A5, E3 y E5.
+- Los usuarios deben tener una licencia apropiada. Office 365 A3, A5, E3 y E5, así como Microsoft 365 Empresa Estándar, A3, A5, E3 y E5 son compatibles.
 
-- Todos los usuarios de la aplicación de reservas y todo el personal que participe en las reuniones deben tener una licencia que admita la programación de reuniones de equipos.
+- Todos los usuarios de la aplicación Bookings y todos los miembros del personal que participen en las reuniones deben tener una licencia compatible con la programación de reuniones de Teams.
 
-- Sus sistemas deben cumplir con todos los [requisitos previos de software y navegador](hardware-requirements-for-the-teams-app.md).
+- Los sistemas deben cumplir todos los requisitos [previos del software y del explorador.](hardware-requirements-for-the-teams-app.md)
 
-## <a name="availability-of-bookings-in-teams"></a>Disponibilidad de las reservas en Teams
+## <a name="availability-of-bookings-in-teams"></a>Disponibilidad de Bookings en Teams
 
-La aplicación Microsoft bookings para Teams está disponible en el escritorio y en la Web. Puede encontrarla en [aplicaciones de Microsoft Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) y en **Administrar aplicaciones** dentro del centro de administración de Teams.
+La aplicación de Microsoft Bookings para Teams está disponible en el escritorio y en la web. Puede encontrarse en Aplicaciones de [Microsoft Teams y](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) en Administrar aplicaciones **en** el Centro de administración de Teams.
 
-### <a name="control-access-to-bookings-within-your-organization"></a>Controlar el acceso a las reservas de la organización
+### <a name="control-access-to-bookings-within-your-organization"></a>Controlar el acceso a Bookings dentro de su organización
 
-Hay varias maneras de controlar quién tiene acceso a la aplicación de las reservas y a características específicas de la aplicación. Para obtener información sobre cómo activar o desactivar Microsoft Books en el centro de administración de Microsoft 365, así como la forma de crear una directiva de aplicación de reservas para permitir que los usuarios seleccionados creen calendarios de reservas, vea [obtener acceso a Microsoft bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). También puede obtener información sobre cómo [crear una directiva de la aplicación de Teams para anclar la aplicación de las reservas a los usuarios seleccionados](teams-app-setup-policies.md).
+Hay varias formas de controlar quién tiene acceso a la aplicación de Bookings y a características específicas de la aplicación. Para obtener información sobre cómo activar o desactivar Microsoft Bookings en el Centro de administración de Microsoft 365, así como cómo crear una directiva de aplicación de Bookings para permitir a los usuarios seleccionados crear calendarios de Bookings, vea Obtener acceso a [Microsoft Bookings.](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) También puede aprender a crear una [directiva de aplicación de Teams para anclar la aplicación Bookings para usuarios seleccionados.](teams-app-setup-policies.md)
 
 ## <a name="recommended-meeting-policy-settings"></a>Configuración de directiva de reunión recomendada
 
-Para habilitar la mejor experiencia para las reservas, cree una directiva de reunión de personal para admitir automáticamente a **todos los usuarios de su organización** . Esto permitirá al personal unirse a la cita automáticamente y habilitar la experiencia de la sala de espera para los asistentes externos. Puede obtener más información sobre la [admisión automática de personas a las reuniones](meeting-policies-in-teams.md#automatically-admit-people).
+Para habilitar la mejor experiencia para Bookings, cree una directiva de reunión de personal para admitir automáticamente a **todos los usuarios de su organización.** Esto permitirá al personal unirse a la cita automáticamente y habilitar la experiencia de sala de espera para los asistentes externos. Puede obtener más información sobre [cómo admitir automáticamente a las personas a las reuniones.](meeting-policies-in-teams.md#automatically-admit-people)
 
 ### <a name="optional-staff-approvals-setting"></a>Configuración opcional de aprobaciones de personal
 
-Como configuración de privacidad adicional, puede decidir requerir que el personal participe antes de que la información de disponibilidad de programación se comparta con las reservas y antes de que se pueda reservar para una cita.  
+Como configuración de privacidad adicional, puede optar por requerir que el personal opte por participar antes de compartir la información de disponibilidad de su programación a través de Bookings y antes de que se puedan reservar para una cita.  
 
-Para habilitar esta configuración, vaya a configuración del **centro de administración de Microsoft 365** \> **Settings** \> **Settings** y seleccione **reservas** .
+Para habilitar esta configuración, vaya a Configuración del centro de administración de **Microsoft 365** \>  \> y seleccione **Bookings.**
 
-Con esta configuración activada, el personal recibirá un mensaje de correo electrónico en el que se le solicitará que apruebe la pertenencia a un calendario de reserva.  
+Con esta configuración activada, el personal recibirá un correo electrónico en el que se le pedirá que aprueben la pertenencia como miembro a un calendario de reservas.  
 
-Esta característica se está implementando gradualmente en todo el mundo para los clientes de Microsoft 365 y Office 365. Si todas las opciones aún no están disponibles en su entorno, vuelva a consultar pronto.
+Esta característica se está implantando gradualmente en todo el mundo para los clientes de Microsoft 365 y Office 365. Si todas las opciones aún no están disponibles en su entorno, vuelva a comprobarlo pronto.
 
-## <a name="changing-your-default-domain-when-setting-up-bookings-mailboxes"></a>Cambiar el dominio predeterminado al configurar los buzones de las reservas
+## <a name="changing-your-default-domain-when-setting-up-bookings-mailboxes"></a>Cambiar el dominio predeterminado al configurar buzones de Bookings
 
-Al configurar un buzón de reservas, se usa el dominio de correo electrónico predeterminado de su organización de Microsoft 365 u Office 365. Sin embargo, esto puede causar problemas al enviar invitaciones a reuniones a destinatarios externos; es posible que su invitación se marque como correo no deseado y se mueva a la carpeta de correo no deseado del destinatario, de modo que el destinatario nunca verá su invitación.
+Al configurar un buzón de Bookings, se usa el dominio de correo electrónico predeterminado de su organización de Microsoft 365 u Office 365. Sin embargo, esto puede provocar problemas al enviar invitaciones a reuniones a destinatarios externos; Es posible que su invitación se haya marcado como correo no deseado y se haya movido a la carpeta de correo no deseado del destinatario, por lo que es posible que nunca vea la invitación.
 
-Le recomendamos que cambie el dominio predeterminado antes de crear el buzón de las reservas. Para obtener más información sobre cómo hacerlo, consulte las [preguntas más frecuentes](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)sobre los dominios.
+Le recomendamos que cambie el dominio predeterminado antes de crear el buzón de Bookings. Para obtener información sobre cómo hacerlo, consulte Preguntas más frecuentes [sobre dominios.](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)
 
-Si necesita cambiar el dominio predeterminado una vez que ya se ha creado el buzón de las reservas, puede hacerlo con PowerShell:
+Si necesita cambiar el dominio predeterminado después de que su buzón de Bookings ya se haya creado, puede hacerlo con PowerShell:
 
 ```PowerShell
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-Para obtener más información, consulte la documentación de PowerShell para el cmdlet [set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) .
+Para obtener más información, consulte la documentación de PowerShell para el cmdlet [Set-Mailbox.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)
 
 > [!NOTE]
-> Si usa una configuración híbrida de Exchange, le recomendamos que pruebe minuciosamente el flujo de correo entre Exchange local y Exchange Online al cambiar el dominio predeterminado.
+> Si usa una configuración híbrida de Exchange, le recomendamos que pruebe a fondo el flujo de correo entre exchange local y Exchange Online al cambiar el dominio predeterminado.
 
 ## <a name="sending-feedback"></a>Enviar comentarios
 
-Le agradecemos sus comentarios sobre:
+Agradecemos sus comentarios sobre:
 
-  - Experiencia del usuario o facilidad de uso
-  - Brechas de características o funcionalidad perdida
+  - Experiencia de usuario o facilidad de uso
+  - Funcionalidad que falta o falta de funcionalidad
   - Errores o problemas
   
-Para enviar comentarios, haga clic en el botón **ayuda** situado cerca de la parte inferior de la barra de navegación izquierda de Teams y, a continuación, haga clic en **informar de un problema** para **todos los** problemas. Nota al principio de su informe de comentarios le enviamos comentarios sobre "reservas" para que podamos identificar fácilmente los problemas relacionados con las reservas.
+Para enviar comentarios,  haga clic en el botón Ayuda cerca de la parte inferior de la barra de navegación izquierda de Teams y, **a** continuación, haga clic en Informar de un problema **para TODOS los** problemas. Al principio de su informe de comentarios, tenga en cuenta que va a enviar comentarios sobre "Bookings" para que podamos identificar fácilmente los problemas de Bookings.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Documentación de las reservas para usuarios finales](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
+[Documentación de Bookings para usuarios finales](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

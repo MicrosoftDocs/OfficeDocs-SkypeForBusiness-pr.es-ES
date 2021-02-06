@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Aprenda a configurar Sistema telefónico para colas de llamadas con Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 17e15e270492c4105f79ead6b2ce34ca37165ec3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49919048"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125793"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
-Las colas de llamadas proporcionan un método para enrutar autores de llamadas a personas de su organización que pueden ayudarle con un problema o una pregunta en particular. Las llamadas se distribuyen de una en una a las personas de la cola (que se conocen como *agentes).* 
+Las colas de llamadas proporcionan un método para enrutar a los autores de llamadas a personas de su organización que pueden ayudarle con un problema o una pregunta en particular. Las llamadas se distribuyen de una en una a las personas de la cola (que se conocen como *agentes).* 
 
 Las colas de llamadas proporcionan:
 
@@ -66,7 +66,7 @@ Especifique si quiere reproducir un saludo a los autores de llamadas cuando lleg
 Teams proporciona música predeterminada a los autores de llamadas mientras están en espera en una cola. Si desea reproducir un archivo de audio específico, elija Reproducir un archivo de **audio** y cargue un archivo MP3, WAV o WMA.
 
 > [!NOTE]
-> La grabación cargada no puede tener un tamaño superior a 5 MB.
+> La grabación cargada no puede ser superior a 5 MB.
 > La música predeterminada que se proporciona en las colas de llamadas de Teams no tiene que pagar regalías por su organización. 
 
 ## <a name="call-agents"></a>Agentes de llamadas
@@ -77,7 +77,7 @@ Consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisite
 
 Puede agregar hasta 20 agentes de forma individual y hasta 200 agentes a través de grupos.
 
-Para agregar un usuario a la cola, haga clic en Agregar **usuarios,** busque el usuario, haga clic en Agregar **y,** a continuación, haga clic **en Agregar.**
+Para agregar un usuario a la cola, haga clic en Agregar **usuarios,** busque el usuario, haga clic en **Agregar** y, a continuación, haga clic **en Agregar.**
 
 Para agregar un grupo a la cola, haga clic en **Agregar grupos,** busque el grupo, haga clic en Agregar **y,** a continuación, haga clic en **Agregar.** Puede usar listas de distribución, grupos de seguridad y grupos de Microsoft 365 o equipos de Microsoft Teams.
 
@@ -93,16 +93,13 @@ Para agregar un grupo a la cola, haga clic en **Agregar grupos,** busque el grup
   - La última versión del cliente de escritorio de Microsoft Teams, la aplicación para Android o la aplicación de iOS
   - Microsoft Teams phone versión 1449/1.0.94.2020051601 o posterior
   
-Las cuentas de equipos de agentes deben configurarse en modo solo para equipos. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
-
-> [!NOTE]
-> El modo de conferencia no es compatible con Ocupado. Es posible que se presenten agentes en llamadas de cola que no sean de llamada si el enrutamiento basado en presencia no está habilitado.
+Las cuentas de Los equipos de agentes deben configurarse en modo solo para equipos. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
 
 **El método de** enrutamiento determina el orden en que los agentes reciben llamadas de la cola. Elija una de estas opciones:
 
 - **El enrutamiento del operador** suena a todos los agentes de la cola al mismo tiempo. El primer agente de llamada que recibe la llamada recibe la llamada.
 
-- **El enrutamiento serial** suena a todos los agentes de llamadas uno por uno en el orden especificado en la **lista de agentes de** llamadas. Si un agente descarta o no acepta una llamada, la llamada llamará al siguiente agente y probará con todos los agentes hasta que se le atende o se atenten.
+- **El enrutamiento serial** suena a todos los agentes de llamadas uno por uno en el orden especificado en la **lista de agentes de** llamadas. Si un agente descarta o no acepta una llamada, la llamada llamará al siguiente agente y probará con todos los agentes hasta que se le llame o se le atende el tiempo de espera.
 
 - **Redondear robin** equilibra el enrutamiento de las llamadas entrantes para que cada agente de llamadas reciba el mismo número de llamadas de la cola. Esto puede ser deseable en un entorno de ventas entrantes para garantizar la misma oportunidad entre todos los agentes de llamadas.
 
@@ -133,7 +130,7 @@ Para las colas de gran volumen, le recomendamos la siguiente configuración:
 
 ![Captura de pantalla de la configuración de desbordamiento de llamadas](media/call-queue-overflow-handling.png)
 
-**El número máximo de llamadas en** la cola especifica el número máximo de llamadas que pueden esperar en la cola en un momento determinado. El valor predeterminado es 50, pero puede variar de 0 a 200. Cuando se alcanza este límite, la llamada se administra según lo especificado por la configuración Cuando se alcanza el número máximo de **llamadas.**
+**El número máximo de llamadas en** la cola especifica el número máximo de llamadas que pueden esperar en la cola en cualquier momento dado. El valor predeterminado es 50, pero puede variar de 0 a 200. Cuando se alcanza este límite, la llamada se administra según lo especificado por la configuración Cuando se alcanza el número máximo de **llamadas.**
 
 Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos de enrutamiento de llamadas. Por ejemplo, puede hacer que el autor de la llamada deje un correo de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las transferencias de números de teléfono [externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para el formato del número.
 
@@ -146,7 +143,7 @@ Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos d
 
 **Tiempo de espera de llamada:** el tiempo máximo de espera especifica el tiempo máximo que una llamada puede estar en espera en la cola antes de que se redirija o se desconecte. Puede especificar un valor entre 0 segundos y 45 minutos.
 
-Puede elegir desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, puede hacer que el autor de la llamada deje un correo de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las transferencias de números de teléfono [externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para el formato del número.
+Puede elegir desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, puede hacer que el autor de la llamada deje un correo de voz para los agentes de la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las transferencias de números de teléfono externos: [detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para el formato del número.
 
 Cuando haya seleccionado las opciones de tiempo de espera de la llamada, haga clic en **Guardar.**
 

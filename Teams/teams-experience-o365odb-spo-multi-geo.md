@@ -1,5 +1,5 @@
 ---
-title: Experiencia de Teams en un entorno multilingüe habilitado de Microsoft 365
+title: Experiencia de Teams en un entorno multigeómico de Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,22 +17,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-description: En este artículo, obtendrá información sobre el uso de Teams en un entorno multilingüe habilitado de Microsoft 365.
-ms.openlocfilehash: 1a1689d78f6ce4e35b2e632e4a46ff0ec23a0d15
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+description: En este artículo, aprenderá a usar Teams en un entorno multigeómico de Microsoft 365.
+ms.openlocfilehash: 43abe221c6159e6dfed1705f5cbc4839c1ce57db
+ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757755"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122250"
 ---
-# <a name="teams-experience-in-a-microsoft-365-multi-geo-enabled-tenancy"></a>Experiencia de Teams en un inquilino multilingüe habilitado en Microsoft 365
+# <a name="teams-experience-in-a-microsoft-365-multi-geo-enabled-tenancy"></a>Experiencia de Teams en un entorno multigeómico de Microsoft 365
 
-Microsoft Teams es un software de chats grupales, el hub para el trabajo en equipo de Microsoft 365. Es alimentado por el servicio Microsoft 365 Groups, junto con SharePoint y OneDrive para la experiencia de los archivos. En una organización multigeográfica en la que el inquilino se extiende a muchas ubicaciones geográficas, como América del norte, Europa y Australia, la experiencia de archivos subyacentes es la que tiene conciencia múltiple, por lo que la experiencia de los equipos con la colaboración de archivos también está preparada para varios países. Esto permite a los equipos exponer archivos alojados en varias ubicaciones geográficas en la experiencia de los archivos nativos.
+Microsoft Teams es un software de chat grupal, el centro para el trabajo en equipo en Microsoft 365 y Office 365. Se usa con tecnología del servicio Microsoft 365 Groups junto con SharePoint Online y OneDrive para la Empresa para mejorar su experiencia con los archivos. En un entorno multige geográfico de OneDrive para la Empresa/SharePoint Online, en el que el espacio empresarial se extiende a muchas ubicaciones geográficas como Norteamérica, Europa y Australia, la experiencia de archivos subyacentes es multigeado, por lo que la experiencia de Teams con la colaboración de archivos también es multigeado. Esta funcionalidad es una funcionalidad principal de Teams para surface los archivos hospedados en varias ubicaciones geográficas en su experiencia de archivos nativos. Esto también incluye archivos de OneNote y wiki.
 
-Por ejemplo, en una empresa de Contoso con Europa como una geo de satélite y Norteamérica como la geo central, un usuario de satélite europeo verá sus archivos de OneDrive en la pestaña archivos en el panel izquierdo, aunque los archivos se hospeden en la ubicación de datos de Europa y los Estados Unidos sean la ubicación central del inquilino. Además, el usuario puede acceder a los archivos usados recientemente en el blade de la vista recientes. Los archivos recientes pueden incluir archivos compartidos de usuarios en otras ubicaciones geográficas. 
+Por ejemplo, en un entorno de Contoso con Europa como satélite Geo y Norteamérica como geo central, un usuario satélite europeo verá sus archivos de OneDrive en la pestaña Archivos en el panel izquierdo, aunque los archivos se hospedan en la ubicación de datos de Europa y Estados Unidos es la ubicación central del inquilino.  Además, el usuario puede acceder a los archivos usados recientemente en la **hoja vista** Recientes. Los archivos recientes pueden incluir archivos compartidos por usuarios de otras ubicaciones geográficas. 
 
-Un sitio de SharePoint de un equipo determinado también es compatible con multigeografía. Es decir, si un usuario satélite europeo está creando un equipo, el sitio de SharePoint correspondiente se creará en la ubicación Europa y los archivos asociados con ese equipo se mantendrán en esa ubicación. Cualquier experiencia posterior, como cargar un archivo nuevo o editar el archivo, se almacenará en esa ubicación Europea, manteniendo la promesa de la residencia de datos para esos archivos.
+Un sitio de SharePoint de un equipo determinado también es multigeómico. Es decir, si un usuario satélite europeo está creando un Equipo, el sitio de SharePoint correspondiente se creará en la ubicación de Europa. Los archivos asociados a ese Equipo se mantendrán en reposo en esa ubicación. Las experiencias subsiguientes, como cargar un nuevo archivo o editar el archivo, se almacenarán en esa ubicación europea, manteniendo la promesa de residencia de datos para esos archivos.
 
-Tenga en cuenta que las conversaciones en los chats y en las notas de mensajería instantánea de reuniones dentro de la experiencia de Teams no son muy importantes y se guardan solo dentro de la ubicación central de la organización.
+Dado que un inquilino multigemico es un único inquilino global, los usuarios de satélites podrán ver a sus compañeros de todo el mundo, independientemente de dónde estén.
 
-Para obtener más información sobre multi-Geo, vea [funciones multigeo de Microsoft](https://aka.ms/multi-geo).
+Las conversaciones en chats, mensajes de canales y notas de mensajería instantánea de reuniones o chats dentro de la experiencia de Teams no son multiempresa y se mantienen solo dentro de la ubicación central del inquilino. Normalmente, las conversaciones de chat no se aplican a las necesidades de residencia de datos. Para obtener más información, [vea Ubicación de los datos en Microsoft Teams.](location-of-data-in-teams.md)
+
+Para obtener más información sobre multige geo, consulta la página de [capacidades multige geo.](https://aka.ms/multi-geo)

@@ -24,20 +24,20 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los operadores automáticos y las colas de llamadas, así como sobre cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para contactar con personas o departamentos de su organización.
-ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 65dac48267379d17b76443e42eb70e2e866f6e8f
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918896"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125672"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Plan para operadores automáticos y colas de llamadas de Teams
 
 Los operadores automáticos le permiten configurar opciones de menú para enrutar llamadas en función de la entrada del autor de la llamada. Opciones de menú, como "Ventas, pulse 1.  Para Los Servicios presionan 2", para un operador automático, permite a una organización proporcionar una serie de opciones que guían a los autores de llamadas a su destino rápidamente, sin depender de un operador humano para controlar las llamadas entrantes.
 
-Las colas de llamadas son áreas de espera para los autores de llamadas. Para situaciones en las que los autores de llamadas necesiten comunicarse con alguien con una determinada función especial, como ventas o servicio, en lugar de con una persona determinada, puede usar colas de llamadas para conectar a los autores de llamadas con el grupo de agentes que pueden ayudarlos. Las personas que llaman están en espera hasta que un agente asignado a la cola esté disponible para realizar su llamada.
+Las colas de llamadas son áreas de espera para los autores de llamadas. Para situaciones en las que los autores de llamadas necesiten comunicarse con alguien con una especial especial, como ventas o servicio, en lugar de con una persona determinada, puede usar colas de llamadas para conectar a los autores de llamadas con el grupo de agentes que pueden ayudarlos. Las personas que llaman están en espera hasta que un agente asignado a la cola esté disponible para realizar su llamada.
 
-Usados conjuntamente, los operadores automáticos y las colas de llamadas pueden enrutar fácilmente a los autores de llamadas a la persona o el departamento correspondiente de su organización.
+Cuando se usan de forma conjunta, los operadores automáticos y las colas de llamadas pueden dirigir fácilmente a los autores de llamadas a la persona o el departamento correspondiente de su organización.
 
 ## <a name="auto-attendants"></a>Operadores automáticos
 
@@ -63,7 +63,7 @@ Al igual que los operadores automáticos, las colas de llamadas tienen una confi
 
 Para cada cola de llamadas, puede especificar si los agentes de la cola pueden dejar de realizar llamadas y si las llamadas se deben enrutar a ellos en función de su indicación de presencia en Teams.
 
-Puede asignar un número de teléfono a una cola de llamadas, pero las colas de llamadas no proporcionan enrutamiento de llamadas separado para horas no laborales y días festivos. A menos que la cola de llamadas esté disponible las 24 horas del día, le recomendamos que asigne el número de teléfono a un operador automático que redirija a la cola de llamadas durante el horario laboral.
+Puede asignar un número de teléfono a una cola de llamadas, pero las colas de llamadas no proporcionan enrutamiento de llamadas independiente para horas no laborales y festivos. A menos que la cola de llamadas esté disponible las 24 horas del día, se recomienda asignar el número de teléfono a un operador automático que redirija a la cola de llamadas durante el horario laboral.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -72,14 +72,14 @@ Para configurar operadores automáticos y colas de llamadas, necesita los siguie
 - Una cuenta de recursos para cada operador automático y cada cola de llamadas
 - Un sistema telefónico gratuito: licencia de usuario virtual para cada cuenta de recursos
 - Al menos un número [de servicio de Microsoft,](getting-service-phone-numbers.md)un número de enrutamiento directo o un número híbrido para cada cuenta de recursos que desee que se pueda marcar directamente
- - El número de servicio puede ser un número de pago o gratuito
+ - El número de servicio puede ser un número gratuito o de pago.
 
 Los agentes que reciban llamadas de las colas de llamadas Telefonía IP empresarial habilitados en línea o en local. Además, si las colas de llamadas usan números de enrutamiento directo, los agentes que necesiten realizar conferencias o transferir llamadas también necesitarán lo siguiente:
 
 - Una directiva de enrutamiento de voz en línea asignada si la cola de llamadas usa el modo de transferencia
 - Una licencia de Audioconferencia o una directiva de enrutamiento de voz en línea asignada si la cola de llamadas usa el modo de conferencia
 
-Si los agentes usan la aplicación de Microsoft Teams para llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
+Si los agentes usan la aplicación de Microsoft Teams para llamadas en cola de llamadas, deben estar en modo TeamsOnly.
 
 Al transferir llamadas a un número de teléfono externo, la cuenta de recurso que realiza la transferencia (es decir, la que está asociada al operador automático o a la cola de llamadas) debe tener un número de teléfono y una licencia de usuario virtual de Microsoft 365 Phone System. Además:
 
@@ -96,9 +96,9 @@ Antes de configurar los operadores automáticos y las colas de llamadas, hay alg
 
 Documente sus respuestas a estas preguntas y proporcione la información al administrador que está realizando la configuración.
 
-- ¿Qué idiomas necesita? ¿Dónde se necesitan estos idiomas: qué departamento o grupo?
+- ¿Qué idiomas necesita? ¿Dónde se necesitan estos idiomas? ¿Qué departamento o grupo?
 - ¿Desea permitir la entrada de voz de los autores de llamadas o solo las entradas de marcación?
-- ¿Necesita enrutamiento de llamadas separado para días no laborales o festivos? ¿Cuáles son las horas y los días festivos?
+- ¿Necesita enrutamiento de llamadas separado para no laborales o festivos? ¿Cuáles son las horas y los días festivos?
 - ¿Quiere permitir que los agentes de una cola de llamadas puedan dejar de recibir llamadas?
 - ¿Quiere que los agentes de las colas de llamadas o su operador tengan un identificador de llamada específico si llaman?
 - ¿Desea habilitar el [despegar y](call-park-and-retrieve.md) la recuperación de llamadas en su organización para ayudar en los entregas de llamadas entre personas o departamentos?
@@ -124,14 +124,11 @@ Si ya tiene un operador automático y una infraestructura de colas de llamadas y
 *El modo de* conferencia es una opción en colas de llamadas que reduce significativamente la cantidad de tiempo que se tarda en conectar llamadas VOIP y llamadas RTC de Teams a un agente. Para que el modo de conferencia funcione, los agentes de la cola de llamadas deben usar uno de los siguientes clientes:
 
 - La última versión del cliente de escritorio de Microsoft Teams, la aplicación para Android o la aplicación de iOS
-  - Microsoft Teams phone versión 1449/1.0.94.2020051601 o posterior
+  - Versión 1449/1.0.94.2020051601 o posteriores de Microsoft Teams
   
 Establezca las cuentas de Los agentes en el modo solo para equipos. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas.
 
 Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
-
-> [!NOTE]
-> El modo de conferencia no es compatible con Ocupado. Es posible que se presenten agentes en llamadas de cola que no sean de llamada si el enrutamiento basado en presencia no está habilitado.
 
 ## <a name="plan-your-call-routing-flow"></a>Planear el flujo de enrutamiento de llamadas
 
@@ -175,7 +172,7 @@ En el ejemplo anterior:
 - La tecla cero (0) redirige a los autores de llamadas a un operador. El operador para ese operador automático se ha configurado como **una persona de la organización.**
 - La clave uno (1) redirige a los autores de llamadas a la cola de llamadas de ventas. Esta cola de llamadas está conectada a un equipo que contiene el equipo de ventas asignado a la cola.
 - La clave dos (2) redirige a los autores de llamadas a la cola de llamadas de soporte técnico. Esta cola de llamadas está conectada a un equipo que contiene el equipo de soporte técnico asignado al equipo.
-- La cola de llamadas de soporte tiene un número de teléfono directo a través de un operador automático local. Hacer que un operador automático responda a la línea de soporte permite el enrutamiento de llamadas de días festivos y no laborales por separado.
+- La cola de llamadas de soporte tiene un número de teléfono directo a través de un operador automático local. Hacer que un operador automático responda a la línea de soporte técnico permite el enrutamiento de llamadas de días no laborales y festivos.
 - La clave de tres (3) redirige a los usuarios a otro operador automático para el directorio de la empresa. El operador automático del directorio de la empresa permite a los autores de llamadas llamar a personas de la organización marcando su nombre o extensión.
 
 Le recomendamos que cree uno o más diagramas similares al anterior para asignar el enrutamiento de llamadas. Asegúrese de incluir lo siguiente en el diagrama o la documentación correspondiente:
@@ -188,12 +185,12 @@ Estos son algunos procedimientos recomendados de enrutamiento de llamadas:
 
 - Mire su sistema de llamadas existente y analice los tipos y la frecuencia de las llamadas entrantes. Use esta información para ayudar a informar al operador automático y a la estructura de la cola de llamadas.
 - Coloque las opciones más comunes más pronto en el menú para enrutar las llamadas lo antes posible.
-- Evite conectar números de servicio directamente a las colas de llamadas a menos que las colas estén disponibles las 24 horas del día. Las colas de llamadas no permiten administrar llamadas por separado en horas no laborales o días festivos. Si quiere tener una cola con un número directo, asigne el número a un operador automático que redirija automáticamente a la cola durante el horario comercial.
-- Si recibe numerosas llamadas que solicitan información básica sobre su empresa, como el horario laboral, la ubicación o la dirección del sitio web, considere la posibilidad de crear un operador automático para responder a estas preguntas con los mensajes grabados.
+- Evite conectar números de servicio directamente a las colas de llamadas, a menos que estén disponibles las 24 horas. Las colas de llamadas no permiten administrar llamadas por separado en horas no laborales o días festivos. Si quiere tener una cola con un número directo, asigne el número a un operador automático que redirija automáticamente a la cola durante el horario comercial.
+- Si recibe numerosas llamadas que solicitan información básica sobre su empresa, como el horario laboral, la ubicación o la dirección del sitio web, considere la posibilidad de crear un operador automático para responder estas preguntas con los mensajes grabados.
 - Mantenga la lista de elementos del menú en cinco o menos. Los autores de llamadas pueden tener problemas para recordar más de cinco opciones. Use operadores automáticos anidados si necesita más opciones para enrutar correctamente una llamada.
 - Primero describa el servicio, seguido de la opción de presionar (por ejemplo: para ventas pulse 1) en lugar de al revés (eg. Presione 1 para Ventas).
 - Terminología de usuario que los autores de llamadas comprenderán en lugar de lo que puede usar internamente.
-- Evite actualizaciones frecuentes para el enrutamiento de llamadas. Si en el futuro cambia las opciones de menú de un operador automático, puede llamar a esa opción en los avisos de voz de los primeros 30 días.
+- Evite actualizaciones frecuentes para el enrutamiento de llamadas. Si en el futuro cambia las opciones de menú para un operador automático, puede llamar a esa opción en los avisos de voz de los primeros 30 días.
 
 ## <a name="getting-started"></a>Introducción
 
@@ -201,7 +198,7 @@ Una vez que haya completado las tareas de planeación en este artículo, siga es
 
 1. Obtenga los números de servicio que necesita para los operadores automáticos y las colas de llamadas a los que desea obtener acceso mediante marcado directo desde fuera de su organización. Esto puede incluir [la transferencia de números de otro proveedor](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o la solicitud de nuevos números de [servicio.](getting-service-phone-numbers.md)
 
-2. Obtener un [sistema telefónico: licencia de usuario virtual](teams-add-on-licensing/virtual-user.md) para cada cuenta de recurso que planea crear. Estas licencias son gratuitas, por lo que le recomendamos que le sugerirá que realice algunos cambios adicionales en caso de que decida realizar cambios en sus cuentas de recursos en el futuro.
+2. Obtener un [sistema telefónico: licencia de usuario virtual](teams-add-on-licensing/virtual-user.md) para cada cuenta de recurso que planea crear. Estas licencias son gratuitas, por lo que le recomendamos que realice unas cuantas adicionales en caso de que decida realizar cambios en sus cuentas de recursos en el futuro.
 
 3. [Cree una cuenta de recursos](manage-resource-accounts.md) para cada operador automático y la cola de llamadas que desee crear. Asigne a cada cuenta un sistema telefónico: licencia de usuario virtual y, opcionalmente, un número de servicio.
 
@@ -213,7 +210,7 @@ Una vez que haya completado las tareas de planeación en este artículo, siga es
 
 7. Si planeas permitir el marcado por extensión, asegúrate de haber agregado el número de extensión de los usuarios a su perfil de Azure Active Directory.
 
-Una vez que haya completado los pasos anteriores, estará listo para crear los operadores automáticos y las colas de llamadas. Como los operadores automáticos y las colas de llamadas pueden redirigir las llamadas entre sí, consulte el diagrama de flujo de trabajo que ha creado para determinar qué operador automático o cola de llamadas se deben crear primero. En el ejemplo del diagrama anterior, crearía las colas de llamadas de ventas y soporte técnico antes de crear el operador automático principal de Contoso, ya que el operador automático principal necesita dirigir a los autores de llamadas a las colas de llamadas de ventas y soporte técnico.
+Una vez que haya completado los pasos anteriores, estará listo para crear los operadores automáticos y las colas de llamadas. Como los operadores automáticos y las colas de llamadas pueden redirigir las llamadas entre sí, consulte el diagrama de flujo de trabajo que ha creado para determinar qué operador automático o cola de llamadas tienen que crearse primero. En el ejemplo del diagrama anterior, crearía las colas de llamadas de ventas y soporte técnico antes de crear el operador automático principal de Contoso, ya que el operador automático principal necesita dirigir a los autores de llamadas a las colas de llamadas de ventas y soporte técnico.
 
 Consulte los artículos siguientes para obtener información sobre cómo crear operadores automáticos y colas de llamadas:
 
