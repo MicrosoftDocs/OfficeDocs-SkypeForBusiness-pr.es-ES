@@ -13,12 +13,12 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: d3e7841b2a849ff7c6d58a62fcc080047c250a75
-  ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+  ms.openlocfilehash: 0be9febe11179da1ffa5b2bd696704e7763da272
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/30/2020
-  ms.locfileid: "48308213"
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110303"
 highlightedContent:
   items:
   - title: 'Respuesta frente a la COVID-19: dar soporte técnico a los trabajadores remotos con Teams'
@@ -35,7 +35,7 @@ highlightedContent:
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: Actualización de Skype Empresarial a Teams
     itemType: how-to-guide
-    url: /MicrosoftTeams/upgrade-start-here
+    url: /MicrosoftTeams/upgrade-skype-teams
   - title: Centro de adopción
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
