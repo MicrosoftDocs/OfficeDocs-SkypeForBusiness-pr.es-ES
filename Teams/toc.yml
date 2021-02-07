@@ -297,6 +297,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Plantillas de Teams de la categoría de fabricación
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Crear y administrar directivas de riesgos internos
+            href: templates-policies.md
       - name: Comunicación con usuarios externos
         items:
           - name: Comunicación con usuarios de otras organizaciones
