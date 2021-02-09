@@ -3,10 +3,56 @@
 
 
 
-## <a name="week-of-january-25-2021"></a>Semana del 25 de enero de 2021
+## <a name="week-of-february-01-2021"></a>Semana del 1 de febrero de 2021
 
 
 | Fecha de publicación |Título del tema | Change |
+|------|------------|--------|
+| 2/1/2021 | [Cargar datos de inquilino y de edificio en el panel de calidad de llamadas (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | modificado |
+| 2/1/2021 | [Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams](/MicrosoftTeams/class-insights) | modificado |
+| 2/1/2021 | [Sincronizar datos del Sistema de información de estudiantes (SIS) con Insights para Educación](/MicrosoftTeams/education-insights-sis-data-sync) | modificado |
+| 2/1/2021 | [Barreras de información en Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
+| 2/1/2021 | [Administrar y supervisar Teams](/MicrosoftTeams/manage-teams-overview) | agregado |
+| 2/1/2021 | [Notas de la versión de Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modificado |
+| 2/2/2021 | [Usar Microsoft 365 y conectores personalizados](/MicrosoftTeams/office-365-custom-connectors) | modificado |
+| 2/2/2021 | [Administrar paquetes de directivas en Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 2/2/2021 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
+| 2/3/2021 | [Exportar contenido con las API de exportación de Microsoft Teams](/MicrosoftTeams/export-teams-content) | modificado |
+| 2/3/2021 | [Administración de números de teléfono para Suiza](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | modificado |
+| 2/3/2021 | [Conectar el controlador de borde de sesión (SBC) al enrutamiento directo](/MicrosoftTeams/direct-routing-connect-the-sbc) | modificado |
+| 2/3/2021 | Adopción de la disponibilidad del entorno de Microsoft \| \| Teams, Detección | eliminado |
+| 2/3/2021 | [Teams para visitas virtuales](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
+| 2/3/2021 | [Notas de la versión](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 2/4/2021 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
+| 2/4/2021 | [Preguntas más frecuentes (P+F) sobre el panel de calidad de llamadas](/MicrosoftTeams/cqd-frequently-asked-questions) | modificado |
+| 2/4/2021 | [Preguntas frecuentes sobre la actualización de Skype Empresarial a Teams](/MicrosoftTeams/faq-journey) | modificado |
+| 2/4/2021 | [Preguntas frecuentes sobre Audioconferencia](/MicrosoftTeams/audio-conferencing-common-questions) | modificado |
+| 2/4/2021 | [Dimensiones y medidas: panel de calidad de llamadas](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 2/4/2021 | [Configurar controlador de borde de sesión: varios inquilinos](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
+| 2/4/2021 | [Documentación del administrador de Microsoft Teams n.< 60 caracteres](/MicrosoftTeams/index) | modificado |
+| 2/4/2021 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 2/4/2021 | [Usar la API de envío de aplicaciones de Teams para enviar y aprobar las aplicaciones personalizadas](/MicrosoftTeams/submit-approve-custom-apps) | modificado |
+| 2/4/2021 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 2/4/2021 | [Introducción a la grabación basada en directivas de Teams para llamar & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
+| 2/4/2021 | [Configurar el panel de calidad de llamadas (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
+| 2/4/2021 | [Introducción a la actualización de Skype Empresarial a Teams](/MicrosoftTeams/upgrade-start-here) | modificado |
+| 2/5/2021 | [Información general sobre seguridad y cumplimiento](/MicrosoftTeams/security-compliance-overview) | modificado |
+| 2/5/2021 | [Informe de uso de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | modificado |
+| 2/5/2021 | [Experiencia de Teams en un entorno multigeómico de Microsoft 365](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modificado |
+| 2/5/2021 | [Administrar plantillas de Teams en el centro de administración](/MicrosoftTeams/templates-policies) | agregado |
+| 2/5/2021 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 2/5/2021 | [Teams para visitas virtuales](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
+| 2/5/2021 | [Introducción a Teams para organizaciones sanitarias](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
+| 2/5/2021 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 2/5/2021 | [Administrar directivas de reunión](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+| 2/5/2021 | [Instalar Teams con Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
+| 2/5/2021 | [Plan para operadores automáticos y colas de llamadas de Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+
+
+## <a name="week-of-january-25-2021"></a>Semana del 25 de enero de 2021
+
+
+| Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
 | 1/25/2021 | [Crear un equipo que abarque toda la organización en Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modificado |
 | 1/25/2021 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
@@ -100,7 +146,7 @@
 | 1/19/2021 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
 | 1/19/2021 | [Centro de contactos de Teams](/MicrosoftTeams/teams-contact-center) | modificado |
 | 1/19/2021 | [Implementación de Microsoft Teams primero](/MicrosoftTeams/teams-first-overview) | modificado |
-| 1/19/2021 | [Evaluar la disponibilidad del cambio organizativo para la actualización de Skype Empresarial a Teams](/MicrosoftTeams/upgrade-org-change-readiness) | modificado |
+| 1/19/2021 | [Evaluar la disponibilidad de cambios organizativos para la actualización de Skype Empresarial a Teams](/MicrosoftTeams/upgrade-org-change-readiness) | modificado |
 | 1/19/2021 | [¿Qué son los operadores automáticos en la nube?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | modificado |
 | 1/22/2021 | [Información general sobre seguridad y cumplimiento](/MicrosoftTeams/security-compliance-overview) | modificado |
 | 1/22/2021 | [Etiquetas de confidencialidad de Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modificado |
@@ -117,7 +163,7 @@
 | 12/22/2020 | [Usar salas para grupos en Teams](/MicrosoftTeams/using-breakout-rooms) | modificado |
 | 12/23/2020 | [Conectar la aplicación Pacientes a la API de Azure para FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modificado |
 | 12/23/2020 | [Administrar la aplicación Listas de su organización](/MicrosoftTeams/manage-lists-app) | modificado |
-| 12/23/2020 | [Lista de comprobación de incorporación : Configurar cargas de trabajo de voz en la nube - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | modificado |
+| 12/23/2020 | [Lista de comprobación de incorporación: Configurar cargas de trabajo de voz en la nube: Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | modificado |
 | 12/23/2020 | [Usar la API de envío de aplicaciones de Teams para enviar y aprobar las aplicaciones personalizadas](/MicrosoftTeams/submit-approve-custom-apps) | modificado |
 | 12/23/2020 | [Licencias de complementos de Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modificado |
 | 12/23/2020 | [Crear una aplicación de portal de intranet de Teams desde un sitio o una página de SharePoint Online](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | modificado |
@@ -176,7 +222,7 @@
 | 12/16/2020 | [Configurar el Sistema telefónico en su organización](/MicrosoftTeams/setting-up-your-phone-system) | modificado |
 | 12/16/2020 | [Azure Sentinel y Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | modificado |
 | 12/16/2020 | [Probar o comprar Audioconferencia en Microsoft 365 para Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modificado |
-| 12/16/2020 | [Caso práctico de Teams voice Contoso](/MicrosoftTeams/voice-case-study-overview) | modificado |
+| 12/16/2020 | [Caso práctico Teams voice Contoso](/MicrosoftTeams/voice-case-study-overview) | modificado |
 | 12/17/2020 | Preguntas frecuentes sobre la actualización de Skype Empresarial a Teams | eliminado |
 | 12/17/2020 | [Teléfonos y dispositivos para Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
 | 12/17/2020 | [Controladores de borde de sesión certificados para enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
@@ -201,14 +247,14 @@
 | 1/4/2021 | [Controladores de borde de sesión certificados para enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 1/4/2021 | [Configurar controlador de borde de sesión: varios inquilinos](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
 | 1/5/2021 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 1/5/2021 | [Mejorar grupos existentes de Microsoft 365](/MicrosoftTeams/enhance-office-365-groups) | modificado |
+| 1/5/2021 | [Mejorar los grupos de Microsoft 365 existentes](/MicrosoftTeams/enhance-office-365-groups) | modificado |
 | 1/5/2021 | [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | modificado |
 | 1/5/2021 | [Experiencia de Teams en un entorno multigeómico de Microsoft 365](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modificado |
 | 1/5/2021 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
 | 1/5/2021 | [Introducción a la grabación basada en directivas de Teams para llamar & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
 | 1/5/2021 | [Usar los archivos de registro para solucionar problemas en Microsoft Teams](/MicrosoftTeams/log-files) | modificado |
 | 1/6/2021 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 1/6/2021 | [Administrar los canales privados en Microsoft Teams con la API Graph](/MicrosoftTeams/private-channels-life-cycle-management) | modificado |
+| 1/6/2021 | [Administrar los canales privados en Microsoft Teams con la API graph](/MicrosoftTeams/private-channels-life-cycle-management) | modificado |
 | 1/6/2021 | [Administrar directivas de equipos en Microsoft Teams](/MicrosoftTeams/teams-policies) | modificado |
 | 1/6/2021 | [Controladores de borde de sesión certificados para enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 1/6/2021 | [Usar la API de envío de aplicaciones de Teams para enviar y aprobar las aplicaciones personalizadas](/MicrosoftTeams/submit-approve-custom-apps) | modificado |

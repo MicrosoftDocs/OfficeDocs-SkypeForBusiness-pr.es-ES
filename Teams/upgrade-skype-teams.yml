@@ -22,12 +22,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
+  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110380"
+  ms.lasthandoff: 02/09/2021
+  ms.locfileid: "50150876"
 highlightedContent:
   items:
   - title: Aprovechar nuestro marco de actualización demostrada
@@ -99,14 +99,14 @@ productDirectory:
   - title: 'Sesión de encendido: Diseñar la ruta a Teams'
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
     summary: Esta sesión de Ignite 2020 le ayuda a encontrar el enfoque más adecuado para su implementación y objetivos de Skype Empresarial.
-    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: Planes y precios de Microsoft Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
     summary: Encuentre el Microsoft Teams adecuado para su empresa.
     url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
   - title: Kit para el éxito de la actualización
     imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
-    summary: Descargue los materiales de preparación del usuario, incluidas las plantillas de comunicaciones, las encuestas de usuario y los planes de prueba piloto y de proyecto de ejemplo.
+    summary: Descargue los materiales de preparación del usuario, incluidas las plantillas de comunicaciones, encuestas de usuario y planes de prueba piloto y proyectos de ejemplo.
     url: https://aka.ms/UpgradeSuccessKit
 additionalContent:
   sections:
@@ -121,7 +121,7 @@ additionalContent:
       summary: Cuando los proyectos de implementación de Teams requieren asistencia más implicado, los clientes con suscripciones aptas pueden interactuar con FastTrack para obtener soporte técnico.
       url: https://www.microsoft.com/fasttrack
     - title: Buscar un partner de Microsoft
-      summary: ¿Necesita instrucciones adicionales? Los proveedores de soluciones de Microsoft pueden ayudarle a administrar los servicios técnicos y logística de su actualización.
+      summary: ¿Necesita instrucciones adicionales? Los proveedores de soluciones de Microsoft pueden ayudarle a administrar los aspectos técnicos y logística de su actualización.
       url: https://www.microsoft.com/solution-providers/home
     - title: Documentación del administrador de Teams
       summary: Obtenga información sobre cómo crear y administrar Teams, y preparar a los usuarios para nuevas experiencias de comunicación y colaboración.

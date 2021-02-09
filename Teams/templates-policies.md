@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar plantillas de Teams en el centro de administración
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef765013541ae740211cc5666da3544f1cd5b528
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125920"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145887"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Crear y administrar plantillas de Teams en el centro de administración
 
@@ -37,7 +37,7 @@ Asigne diferentes usuarios a distintas directivas de plantillas para que los usu
 
 1. Inicie sesión en el Centro de administración de Teams.
 
-2. Expanda las **directivas de plantillas** de  >  **Teams.**
+2. Expanda las **directivas de plantillas**  >  **de** Teams.
 
 3. Seleccione **Agregar**.
 
@@ -133,7 +133,7 @@ A: No, esto no es compatible.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Introducción a las plantillas de equipo en el centro de administración](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [Introducción a las plantillas de equipo en el Centro de administración](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
 
 - [Crear una plantilla de equipo personalizada](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
 
@@ -143,4 +143,4 @@ A: No, esto no es compatible.
 
 - [Asignar directivas a los usuarios en Microsoft Teams: Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [TeamsTemplatePermissionPolicy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Asignar usuarios a una directiva por lotes](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)

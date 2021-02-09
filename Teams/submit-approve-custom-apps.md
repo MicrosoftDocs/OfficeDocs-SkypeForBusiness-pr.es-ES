@@ -17,23 +17,26 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían mediante la API de envío de aplicaciones de Teams en Microsoft Teams.
-ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 0003bc218b425383ba117296ba847a637d76ac43
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110233"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145807"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API de envío de aplicaciones de Teams
 
 ## <a name="overview"></a>Información general
 
 > [!NOTE]
-> Cuando publica una aplicación personalizada de Teams, está disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la forma en que se usa depende de cómo obtenga la aplicación. **Este artículo se centra en cómo aprobar** y publicar una aplicación personalizada que envía un desarrollador a través de la API de envío de aplicaciones de Teams. El otro método, cargar una aplicación personalizada, se usa cuando un desarrollador le envía un paquete de aplicación en formato .zip. Para obtener más información sobre ese método, vea <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">Publicar una aplicación personalizada cargando un paquete de aplicación.</a> El widget Aprobar aplicación no está disponible en inquilinos GCC. 
+> Cuando publica una aplicación personalizada de Teams, está disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la forma de usarla depende de cómo obtenga la aplicación. **Este artículo se centra en cómo aprobar** y publicar una aplicación personalizada que envía un desarrollador a través de la API de envío de aplicaciones de Teams. El otro método, cargar una aplicación personalizada, se usa cuando un desarrollador le envía un paquete de aplicación en formato .zip. Para obtener más información sobre ese método, vea <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">Publicar una aplicación personalizada cargando un paquete de aplicación.</a> El widget Aprobar aplicación no está disponible en inquilinos GCC. 
 
-En este artículo se proporciona una guía integral sobre cómo llevar la aplicación de Teams del desarrollo a la implementación y la detección. Verá información general sobre las experiencias conectadas que Teams proporciona a lo largo del ciclo de vida de la aplicación para simplificar la forma de desarrollar, implementar y administrar aplicaciones personalizadas en la tienda de aplicaciones de su organización.
+> [!IMPORTANT]
+> Este método no está disponible actualmente para entornos GCC. Debe usar el método *de carga de una aplicación* personalizada.
 
-Abarcaremos cada paso del ciclo de vida, incluida la manera en que los desarrolladores pueden usar la API de envío de aplicaciones de Teams para enviar aplicaciones personalizadas directamente al Centro de administración de Microsoft Teams para que la revise y apruebe, cómo establecer directivas para administrar las aplicaciones para los usuarios de su organización y cómo los usuarios las descubrirán en Teams.
+Este artículo proporciona instrucciones de un extremo a otro sobre cómo llevar su aplicación de Teams del desarrollo a la implementación y la detección. Verá información general sobre las experiencias conectadas que Teams proporciona a lo largo del ciclo de vida de la aplicación para simplificar la forma de desarrollar, implementar y administrar aplicaciones personalizadas en la tienda de aplicaciones de su organización.
+
+Abarcaremos cada paso del ciclo de vida, incluido cómo los desarrolladores pueden usar la API de envío de aplicaciones de Teams para enviar aplicaciones personalizadas directamente al Centro de administración de Microsoft Teams para que lo revise y apruebe, cómo establecer directivas para administrar las aplicaciones para los usuarios de su organización y cómo los usuarios las descubrirán en Teams.
 
 ![Información general sobre la aplicación, desde el desarrollo hasta la implementación](media/custom-app-lifecycle.png)
 
@@ -49,13 +52,13 @@ La plataforma para desarrolladores de Microsoft Teams permite a los desarrollado
 
 Cuando la aplicación está lista para su uso en producción, el desarrollador puede enviar la aplicación mediante la API de envío de aplicaciones de Teams, a la que se puede llamar desde <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">graph API,</a>un entorno de desarrollo integrado (IDE) como Visual Studio Code, o una plataforma como Power Apps y Power Virtual Agents. Al hacerlo, la aplicación <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> estará disponible en la página Administrar aplicaciones del Centro de administración de Microsoft Teams, donde usted, como administrador, puede revisarla y aprobarla. esto
 
-La API de envío de aplicaciones de Teams, integrada en <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph,</a>permite a su organización desarrollarse en la plataforma de su elección y automatizar el proceso de envío a aprobación de aplicaciones personalizadas en Teams.
+La API de envío de aplicaciones de Teams, integrada en <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph,</a>permite a su organización desarrollarse en la plataforma de su elección y automatiza el proceso de envío a aprobación de aplicaciones personalizadas en Teams.
 
 Este es un ejemplo del aspecto que tiene este paso de envío de aplicaciones en Visual Studio código:
 
 ![enviar una aplicación en el Visual Studio correo](media/custom-app-lifecycle-submit-app.png)
 
-Tenga en cuenta que esto todavía no publica la aplicación en la tienda de aplicaciones de su organización. En este paso se envía la aplicación al centro de administración de Microsoft Teams, donde puede aprobarla para su publicación en la tienda de aplicaciones de su organización.
+Tenga en cuenta que esto todavía no publica la aplicación en la tienda de aplicaciones de su organización. En este paso, la aplicación se envía al Centro de administración de Microsoft Teams, donde puede aprobarla para su publicación en la tienda de aplicaciones de su organización.
 
 Para obtener más información sobre el uso de la API Graph para enviar aplicaciones, vea <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">aquí.</a>
 
@@ -77,10 +80,10 @@ Para obtener más información sobre cómo usar la API de Graph para comprobar e
 
 Cuando esté listo para que la aplicación esté disponible para los usuarios, publique la aplicación.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones**  >  **de** Teams.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones de Teams.**  >  
 2. Haga clic en el nombre de la aplicación  para ir a la página de detalles de la aplicación y, a continuación, en el cuadro Estado de publicación, **seleccione Publicar.**
 
-    Después de publicar la aplicación, el **estado de publicación** cambia a **Publicado** y **el** estado cambia automáticamente a **Permitido.**
+    Después de publicar la aplicación, el **estado de publicación** cambia a **Publicado** y **el** estado cambia a **Permitido automáticamente.**
 
 ## <a name="set-up-and-manage"></a>Configurar y administrar
 
@@ -96,13 +99,13 @@ De forma predeterminada, para que los usuarios puedan encontrar la aplicación q
 
 Puede buscar en el registro de auditoría para ver la actividad de las aplicaciones de Teams en su organización. Para obtener más información sobre cómo buscar en el registro de auditoría y ver una lista de las actividades de Teams que se registran en el registro de auditoría, vea Buscar eventos en el registro de auditoría <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">en Teams.</a>
 
-Antes de poder buscar en el registro de auditoría, primero tiene que activar la auditoría en el Centro de seguridad y <a href="https://protection.office.com" target="_blank">& cumplimiento.</a> Para obtener más información, vea Activar o desactivar <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">la búsqueda de registros de auditoría.</a> Tenga en cuenta que los datos de auditoría solo están disponibles desde el punto en el que ha activado la auditoría.
+Antes de poder buscar en el registro de auditoría, primero tiene que activar la auditoría en el Centro de seguridad y <a href="https://protection.office.com" target="_blank">& cumplimiento.</a> Para obtener más información, vea Activar o desactivar la búsqueda <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">del registro de auditoría.</a> Tenga en cuenta que los datos de auditoría solo están disponibles desde el punto en el que ha activado la auditoría.
 
 ## <a name="discover-and-adopt"></a>Descubrir y adoptar
 
-Los usuarios que tienen permisos para la aplicación pueden encontrarla en la tienda de aplicaciones de su organización. Vaya a **Nombre de la organización en *la*** página Aplicaciones para buscar las aplicaciones personalizadas de su organización.
+Los usuarios que tienen permisos para la aplicación pueden encontrarla en la tienda de aplicaciones de su organización. Vaya a **Creado para el nombre de *su*** organización en la página Aplicaciones para buscar las aplicaciones personalizadas de su organización.
 
-![Página aplicaciones que muestra la aplicación publicada ](media/custom-app-lifecycle-discovery.png)
+![Página Aplicaciones que muestra la aplicación publicada ](media/custom-app-lifecycle-discovery.png)
 
 Si creó y asignó una directiva de configuración de aplicaciones, la aplicación se ancla a la barra de aplicaciones de Teams para facilitar el acceso a los usuarios a los que se asignó la directiva.
 
@@ -116,7 +119,7 @@ Cuando el desarrollador envíe una actualización a una aplicación personalizad
 
 Para revisar y publicar una actualización de la aplicación:
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones de Teams.**  >  
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Administrar aplicaciones**  >  **de** Teams.
 2. Haga clic en el nombre de la aplicación para ir a la página de detalles de la aplicación y, a continuación, seleccione **Actualizar disponible** para revisar los detalles de la actualización.
 
     ![página de detalles de la aplicación](media/custom-app-lifecycle-update-app.png)
@@ -135,7 +138,7 @@ Para obtener más información sobre el uso de la API graph para actualizar apli
 
 En la mayoría de los casos, después de publicar una actualización de la aplicación, la nueva versión aparece automáticamente para los usuarios. Sin embargo, hay algunas actualizaciones en el manifiesto de <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams</a> que requieren que el usuario acepte completarlo:
 
-* Se agregó o se eliminó un bot
+* Se agregó o se quitó un bot
 * La propiedad "botId" de un bot existente ha cambiado
 * La propiedad "isNotificationOnly" de un bot existente ha cambiado
 * La propiedad "supportsFiles" del bot ha cambiado
@@ -143,7 +146,7 @@ En la mayoría de los casos, después de publicar una actualización de la aplic
 * Se agregó un conector nuevo
 * Se ha agregado una nueva pestaña estática
 * Se ha agregado una nueva pestaña configurable
-* Propiedades de "webApplicationInfo" cambiadas
+* Propiedades dentro de "webApplicationInfo" cambiados
 
 ![nueva versión disponible](media/manage-your-custom-apps-update1.png)
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de salas de Microsoft Teams, que incluyen las mejoras acumulativas en salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 274a83925a47519dba174a75bd92582670dab1d6
+ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101328"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150886"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -83,10 +83,10 @@ Introducida en esta actualización:
 - Compartir audio HDMI con los participantes de la reunión de Teams
 - Habilidades de voz de Cortana (vista previa)
 - Evite el desplazamiento basado en permisos de audio cuando teams Room se una como asistente. Para obtener más información, consulte [Administrar los permisos de audio de los asistentes en Reuniones de Teams.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
-- Destacar el vídeo de alguien desde la consola de la sala de Teams y consumir vídeo destacado en las pantallas de la sala
+- Destacar el vídeo de alguien desde la consola de la sala teams y consumir vídeo destacado en las pantallas de la sala
 
 > [!NOTE]
-> Las habilidades de voz de Cortana están disponibles para seleccionar periféricos de audio para inquilinos ubicados en Estados Unidos. En el futuro, se agregarán países o regiones adicionales. Para obtener más información, vea [Asistencia de voz de Cortana en Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
+> Las habilidades de voz de Cortana están disponibles para la selección de periféricos de audio para inquilinos ubicados en Estados Unidos. En el futuro, se agregarán países o regiones adicionales. Para obtener más información, vea [Asistencia de voz de Cortana en Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -98,7 +98,7 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- Ver más vídeos con la galería de vídeos de 3x3 delante de la sala  
+- Ver más vídeos con la galería de vídeos de 3x3 frente a la sala  
 - Iniciar subtítulos locales en directo desde MTR
 - Unirse a reuniones de zoom desde salas de Teams con unirse directamente como invitado (vista previa)
 
@@ -118,14 +118,14 @@ Introducida en esta actualización:
 
 - Unirse a reuniones de Cisco WebEx desde salas de Teams con unirse directamente como invitado
 - Habilitación e inscripción automática del Centro de administración de Teams
-- Compatibilidad con la versión de Windows 10 1909
+- Compatibilidad con la versión 1909 de Windows 10
 - Cambiar al diseño de la galería de vídeos incluso cuando el contenido esté presente
 - Soporte de levantar manos virtuales para asistente y controles para moderador
-- Configuración de volumen predeterminada ajustable para conferencias y altavoz predeterminado
+- Configuración de volumen predeterminada ajustable para conferencias y altavoces predeterminados
 - Buscar y llamar a usuarios federados (inquilino) desde Teams Room
 
 > [!IMPORTANT]
-> La versión 4.5 es la última versión para admitir Windows 10 versión 1803; las futuras versiones no se ofrecerán a sistemas en la versión 1803 de Windows 10. Para obtener más información sobre la compatibilidad con la versión de Windows, consulta [la compatibilidad con la versión de Windows 10.](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)
+> La versión 4.5 es la última versión para admitir Windows 10 versión 1803; futuras versiones no se ofrecerán a sistemas en la versión 1803 de Windows 10. Para obtener más información sobre la compatibilidad con la versión de Windows, consulta [la compatibilidad con la versión de Windows 10.](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
@@ -151,7 +151,7 @@ Introducida en esta actualización:
 - Soporte técnico para llamadas de emergencia dinámicas para Teams (componentes de servicio obligatorios y disponibles con anillos de clientes de Teams)
 - Capacidad para deshabilitar el contenido duplicado fuera de la reunión para salas de pantallas duales con XML
 - Pantalla de presentación de la aplicación
-- Avisos de Software de código abierto (SO) en la configuración del dispositivo
+- Avisos de Software de código abierto (SOS) en la configuración del dispositivo
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
@@ -199,10 +199,10 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- La aplicación de la tienda Skype Room System rebrand to "Microsoft Teams Rooms"
+- La aplicación de la tienda De Sistemas de salas de Skype se rebrand a "Salas de Microsoft Teams"
 - Interfaz de usuario de la consola de salas de Microsoft Teams alineada con Microsoft Teams
 - Actualización del tema: solo se mantiene la imagen de fondo personalizada en la parte frontal de las pantallas de la sala, a la vez que se hace que el fondo de la consola sea un color neutro para garantizar que los controles de interfaz de usuario de la consola cumplan con los requisitos de accesibilidad.
-- Barra universal para controles de llamada durante la reunión para las llamadas o reuniones de Teams para proporcionar una experiencia coherente con Microsoft Teams PC/ Web/ Clientes móviles<sup>1</sup>
+- Barra universal para controles de llamada durante la reunión para las llamadas o reuniones de Teams para proporcionar una experiencia coherente con Microsoft Teams PC/ Web/ Mobile clientes<sup>1</sup>
 - Clasificación de comentarios sobre la calidad de las llamadas después de las llamadas o reuniones de Teams<sup>1</sup>
 - Recibe/representa Microsoft Whiteboard en la parte frontal de la pantalla de la sala de Microsoft Teams cuando se comparte desde PC/ Web/ cliente móvil de Teams<sup>1 2</sup> <sup></sup>
 - Se ha quitado la compatibilidad con las actualizaciones de la versión 1809 de Windows 10 debido a problemas de compatibilidad con el cliente de salas de Microsoft Teams. En futuras versiones se agregará compatibilidad con la versión 19H1 de Windows 10
@@ -228,18 +228,18 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- Teclado DTMF para reuniones P2P y llamadas RTC de Microsoft Teams. Para hacer que Microsoft Teams sea el cliente de llamadas predeterminado, los administradores deben establecer IsTeamsDefaultClient en true.
+- Teclado DTMF para reuniones P2P y llamadas RTC de Microsoft Teams. Para que Microsoft Teams sea el cliente de llamadas predeterminado, los administradores deben establecer IsTeamsDefaultClient en true.
 - Anclar el vídeo entrante de un participante remoto a pantalla completa frente a la pantalla de la sala. Usar el comando "Anclar" de la lista de participantes en la consola
-- Mejoras en las notificaciones de sala de espera con la adición de notificación de Anverso de sala
-- Se quita el icono de transmisión de pantalla de la pantalla frontal de la sala Bluetooth la baliza no está habilitada en el dispositivo de Salas de Microsoft Teams.
+- Mejoras en las notificaciones de sala de espera con la adición de notificación De frente a la sala
+- Se quita el icono de transmisión de pantalla del anverso de la sala Bluetooth la baliza no está habilitada en el dispositivo de Salas de Microsoft Teams.
 - Corrección del problema de control de volumen en las reuniones de Teams
 
 ### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018)
 
 Introducida en esta actualización:
 
-- El contenido de la pantalla en ambas pantallas frontales (FoR) se muestra en sistemas de sala de pantalla doble
-- Mejoras en la interfaz de usuario de La vista de sala y Desc.
+- El contenido de la pantalla en ambas pantallas frontales (FoR) se muestra en sistemas de sala de pantalla doble.
+- Mejoras en la interfaz de usuario de Formato y front of room
 - Compatibilidad del cliente con TLS 1.2. Para los clientes locales, habilitar la comunicación a través de TLS 1.2 para salas de Microsoft Teams requiere La actualización acumulativa 9 (CU9) de Skype Empresarial Server 2015 o la actualización acumulativa 1 (CU1) de Skype Empresarial Server 2019.
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
@@ -288,13 +288,13 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- Se ha corrija el error de dirección que se observa en algunos sistemas durante el inicio de la aplicación.
+- Se ha corrija el error de dirección observado en algunos sistemas durante el inicio de la aplicación.
 
 ### <a name="311130-06132018"></a>3.1.113.0 (06/13/2018)
 
 Introducida en esta actualización:
 
-- Cambios que permiten a Microsoft administrar más fácilmente las actualizaciones de Windows.
+- Cambios que permiten a Microsoft administrar de forma más sencilla las actualizaciones de Windows.
 - No hay ningún cambio en la experiencia del usuario final.
 
 ### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)
@@ -330,7 +330,7 @@ Introducida en esta actualización:
 
 - Correcciones de errores y bloqueos para mejorar la estabilidad
 - Compatibilidad con la consola de tamaño variable
-- Descarga de procesamiento de audio periférico (lista de medios adicional)
+- Descarga de procesamiento de audio periférico (lista de permitidos de medios adicionales)
 - Optimizaciones que permiten a los profesionales de TI crear imágenes para hacerlo usted mismo con la versión 1709 de enero de Windows 10 y versiones posteriores.
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
@@ -343,7 +343,7 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- Compatibilidad con hardware [de base Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+- Compatibilidad con hardware [de base de la serie MSR](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) de Polycom
 - Compatibilidad con [Logitech Brio](https://www.logitech.com/product/brio)
 - Resuelve un problema en el que los pantallas (consola y frente a la sala) no entran en modo de suspensión cuando no hay actividad en la sala
 
@@ -353,10 +353,10 @@ Introducida en esta actualización:
 
 - Se ejecuta en una tableta Surface Pro (2017)
 - Compatible con Windows 10 Enterprise Creator's Update (idioma inglés, compilación 1703)
-- Compatibilidad con hardware [de base Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
+- Compatibilidad con [hardware de base Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - Compatibilidad con OEM para controles de entorno (Crestron)
 
-La versión de 64 bits de la Edición de aniversario de Windows 10 Enterprise (en inglés, versión 1607) ya no es compatible con la versión 3.0.12.0 de salas de Microsoft Teams (actualización 3).
+La versión de 64 bits de la Edición de aniversario de Windows 10 Enterprise (en inglés, versión 1607) ya no es compatible con la versión 3.0.12.0 de Salas de Microsoft Teams (actualización 3).
 
 ### <a name="3080-842017"></a>3.0.8.0 (8/4/2017)
 
@@ -371,7 +371,7 @@ Introducida en esta actualización:
 - Dual-Screen (para la paridad del sistema heredado)
 - Temas (temas integrados y la capacidad de establecer un tema personalizado)
 - Capacidad de enviar comentarios sobre compilaciones públicas
-- Telemetría mejorada en torno a la confiabilidad de las reuniones para unirse
+- Telemetría mejorada en torno a la confiabilidad de las reuniones
 - Informes de OMS mejorados
 - Capacidad para que el administrador de TI configure los dispositivos de forma remota
 
@@ -380,7 +380,7 @@ Introducida en esta actualización:
 Introducida en esta actualización:
 
 - Selección de usuarios en la aplicación de dispositivos USB de audio y vídeo de la sala de reuniones
-- Informes de estado de consola de sala integradas para clientes que usan Microsoft Operations Management Suite, ahora Monitor de Azure
+- Informes de estado de consola de sala integradas para los clientes que usan Microsoft Operations Management Suite, ahora Monitor de Azure
 
 ### <a name="release-to-market-1272016"></a>Versión al mercado (7/12/2016)
 
