@@ -1,8 +1,9 @@
 ---
 title: Llamadas y chats con usuarios de otras organizaciones
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
+ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -10,86 +11,91 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-externalcollab
-ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Obtenga información acerca de cómo llamar, chatear, buscar y agregar usuarios fuera de la organización en Microsoft Teams, a través del acceso externo (federación) y el acceso de invitado.
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 401b63aad667d355516486deb6f056e0995dbe26
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Obtenga información acerca de cómo buscar y agregar usuarios de fuera de la organización en Microsoft Teams, así como cómo llamarlos y chatear con ellos, mediante el acceso externo (federación) y el acceso de invitado.
+ms.openlocfilehash: 5c5eecf5ceb2228f981a7cd06b52f3b5a1b787d7
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031816"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145846"
 ---
-<a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Llamadas y chats con usuarios de otras organizaciones en Microsoft Teams
-======================================================
+# <a name="call-chat-and-collaborate-with-people-outside-your-organization-in-microsoft-teams"></a>Llamadas, chat y colaboración con personas de fuera de la organización en Microsoft Teams
 
-Cuando necesite comunicarse y colaborar con personas de fuera de su organización, Microsoft Teams le ofrece dos formas diferentes de hacer que esto ocurra. La primera, **acceso externo (federación)**, le permite buscar, llamar y conversar con usuarios de otros dominios (por ejemplo, contoso.com). La segunda, **acceso de invitado**, le permite agregar personas a los equipos, como invitados, mediante su dirección de correo electrónico. Puede colaborar con los invitados igual que lo haría con cualquier otro usuario de su organización.
+Cuando necesite comunicarse y colaborar con otras personas fuera de su organización, Microsoft Teams le ofrece dos opciones:
 
-Puede usar tanto el acceso externo como el acceso de invitado si lo desea; uno no excluye al otro.
+- **Acceso externo**: un tipo de federación que permite a los usuarios buscar usuarios de otras organizaciones, así como llamarlos y chatear con ellos. Estas personas no se pueden agregar a los equipos a menos que se les invite.
+- **Acceso de invitado**: el acceso de invitado le permite invitar a personas de fuera de la organización a unirse a un equipo. Las personas invitadas obtienen una cuenta de invitado en Azure Active Directory.
 
-A continuación, le mostramos a grandes rasgos cómo elegir entre ambas (para obtener una comparación detallada, consulte abajo [Comparar el acceso externo y el de invitado](#compare-external-and-guest-access)):
+Tenga en cuenta que Teams le permite invitar a personas de fuera de su organización a reuniones. Esto no requiere que se configure el acceso externo ni de invitado.
 
-## <a name="external-access"></a>Acceso externo
+## <a name="external-access-federation"></a>Acceso externo (federación)
 
-Use el **acceso externo** (federación) cuando necesite una solución que permita que los usuarios externos de otros dominios le encuentren, le llamen, y conversen o configuren reuniones con usted. Los usuarios externos no tienen acceso a los equipos de la organización o a los recursos de equipo. Elija el acceso externo para comunicarse con los usuarios de fuera de su organización que siguen en Skype Empresarial (en línea o de forma local) o en Skype (disponible a principios de 2020). 
+Configure el acceso externo si necesita buscar personas de fuera de su organización que usen Teams, Skype Empresarial (en línea o local) o Skype, así como llamarlas o chatear y organizar reuniones con ellas. 
 
-El acceso externo está activado de forma predeterminada en Teams, lo que significa que su organización puede comunicarse con todos los dominios externos. El administrador de Teams puede desactivar esta opción o especificar los dominios que se van a incluir (o excluir). Para obtener más información, consulte [administrar el acceso externo](manage-external-access.md). 
+De forma predeterminada, el acceso externo está habilitado para todos los dominios. Puede permitir o bloquear dominios específicos, o desactivar el acceso externo, para restringirlo.
 
-Si desea que los usuarios externos tengan acceso a los equipos y canales, la opción de [acceso de invitado](#guest-access) es más aconsejable. 
+![Captura de pantalla de la configuración de acceso externo](media/external-access-federation-settings.png)
 
+Para configurar el acceso externo, vea [Administrar el acceso externo](manage-external-access.md). 
 
 ## <a name="guest-access"></a>Acceso de invitado
 
-Use el **acceso de invitado** para agregar un usuario individual (independientemente del dominio) a un equipo, donde podrá chatear, hacer llamadas, reunirse y colaborar en los archivos de la organización (almacenados en SharePoint o OneDrive para la Empresa) mediante aplicaciones de Microsoft 365 u Office 365 como Word, Excel o PowerPoint. Se puede otorgar a un usuario invitado casi todas las capacidades de un miembro de equipo nativo. Para más información, consulte [Acceso invitado en Teams](guest-access.md).
+Use el acceso de invitado para agregar a una persona de fuera de su organización a un equipo, donde puede chatear, llamar, reunirse y colaborar en archivos. A un invitado se le pueden dar casi todos los mismos permisos de Teams que a un miembro nativo de un equipo.
 
-- Los invitados se agregarán al Active Directory de su organización
-- Para comunicarse con un invitado, este debe de iniciar sesión en Teams con la cuenta de invitado. Esto significa que un invitado puede tener que cerrar sesión en su propia cuenta de Teams para iniciar sesión en la de usted, o cambiar de organización si es la misma cuenta.
-- Los usuarios invitados tienen acceso a más recursos en Teams, como archivos, equipos y canales, que los usuarios de acceso externo (federado).
-- El administrador de Teams controla en el Centro de administración de Teams todas las tareas que un invitado puede o no realizar. Para más información, consulte [Administrar el acceso de los invitados](manage-guests.md).
+Los invitados se agregan al directorio de Azure Active Directory de la organización como usuarios B2B y deben iniciar sesión en Teams con su cuenta de invitado. Esto significa que es posible que un invitado tenga que cerrar sesión en su propia organización para iniciar sesión en la suya.
 
-Si está listo para habilitar el acceso de los invitados en su organización, comience con [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
-
+Para configurar el acceso de invitado para Teams, vea [Colaborar con invitados en un equipo](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="compare-external-and-guest-access"></a>Comparación entre el acceso de invitado y el acceso externo
 
-| Característica | Usuarios de acceso externo | Usuarios de acceso invitado |
-|---------|-----------------------|--------------------|
-| El usuario puede conversar con alguien en otra empresa | Sí |Sí |
-| El usuario puede llamar a alguien en otra empresa | Sí | Sí |
-| El usuario puede ver si una persona de otra empresa está disponible para una llamada o chat | Sí | Sí<sup>1</sup> |
-| El usuario puede buscar a usuarios en espacios empresariales externos | Sí<sup>2</sup> | No |
-| El usuario puede compartir archivos | No | Sí |
-| El usuario puede acceder a los recursos de Teams | No | Sí |
-| Se puede agregar un usuario a un chat grupal | No | Sí |
-| El usuario puede recibir una invitación a una reunión | Sí | Sí |
-| Se pueden agregar usuarios adicionales a un chat con un usuario externo. | No<sup>3</sup> | N/D |
-| El usuario se identifica como una parte externa | Sí | Sí |
-| Se muestra la presencia | Sí | Sí |
-| Se muestra un mensaje de «fuera de la oficina» | No | Sí |
-| Se puede bloquear a un usuario individual | No | Sí |
-| Se admiten @menciones | Sí<sup>4</sup> | Sí |
-| Realizar llamadas privadas | Sí | Sí |
-| Ver el número de teléfono de los participantes de la reunión por acceso telefónico | No<sup>5</sup> | Sí |
-| Permitir vídeo IP | Sí | Sí |
-| Modo de uso compartido de pantalla | Sí<sup>4</sup> | Sí |
-| Se permite Reunirse ahora | No | Sí |
-| Editar los mensajes enviados | Sí<sup>4</sup> | Sí |
-| Se pueden eliminar los mensajes enviados | Sí<sup>4</sup> | Sí |
-| Usar Giphy en la conversación | Sí<sup>4</sup> | Sí |
-| Usar memes en las conversaciones | Sí<sup>4</sup> | Sí |
-| Usar Adhesivos en las conversaciones | Sí<sup>4</sup> | Sí |
-||||
+En las tablas siguientes se muestran las diferencias entre usar el acceso externo (federación) y los invitados. En ambos casos, se identifica a usuarios de fuera de la organización como externos.
 
-<sup>1</sup> Si el usuario se ha agregado como invitado y ha iniciado sesión como invitado en el espacio empresarial del invitado.<br>
-<sup>2</sup> Solo mediante la dirección de correo o el Protocolo de inicio de sesión (SIP)<br>
-<sup>3</sup> El chat externo (federado) solo es 1:1.<br>
-<sup>4</sup> Compatible con chat 1:1 entre dos usuarios de Teams solo de dos organizaciones diferentes. <br>
-<sup>5</sup> De forma predeterminada, los participantes externos no pueden ver el número de teléfono de los participantes de marcado. Si desea mantener la privacidad de estos números de teléfono, seleccione **Tonos** para **Entrada/salida tipo de anuncio** (esto evita que Teams lean los números). Para obtener más información, consulte [Activar o desactivar los anuncios de entrada y salida para las reuniones de Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
+### <a name="things-your-users-can-do"></a>Cosas que pueden hacer los usuarios
+
+| Los usuarios pueden | Usuarios de acceso externo | Invitados |
+|---------|-----------------------|--------------------|
+| Chatear con personas de otra organización | Sí | Sí |
+| Llamar a alguien de otra organización | Sí | Sí |
+| Ver si una persona de otra organización está disponible para una llamada o chat | Sí | Sí<sup>1</sup> |
+| Buscar personas de otras organizaciones | Sí<sup>2</sup> | No |
+| Compartir archivos | No | Sí |
+| Ver el mensaje de fuera de la oficina | No | Sí |
+| Bloquear a alguien en otra organización | No | Sí |
+| Usar las @menciones | Sí<sup>3</sup> | Sí |
+
+### <a name="things-people-outside-your-organization-can-do"></a>Cosas que pueden hacer las personas de fuera de la organización
+
+| Las personas de fuera de la organización pueden | Usuarios de acceso externo | Invitados |
+|---------|-----------------------|--------------------|
+| Acceder a los recursos de Teams | No | Sí |
+| Agregarse a un chat grupal | No | Sí |
+| Invitarse a una reunión | Sí | Sí |
+| Realizar llamadas privadas | Sí | Sí<sup>5</sup> |
+| Ver el número de teléfono de los participantes de la reunión por acceso telefónico | No<sup>4</sup> | Sí |
+| Usar vídeo IP | Sí | Sí<sup>5</sup> |
+| Uso compartido de la pantalla | Sí<sup>3</sup> | Sí<sup>5</sup> |
+| Usar Reunirse ahora | No | Sí<sup>5</sup> |
+| Editar los mensajes enviados | Sí<sup>3</sup> | Sí<sup>5</sup> |
+| Eliminar mensajes enviados | Sí<sup>3</sup> | Sí<sup>5</sup> |
+| Usar Giphy en las conversaciones | Sí<sup>3</sup> | Sí<sup>5</sup> |
+| Usar memes en las conversaciones | Sí<sup>3</sup> | Sí<sup>5</sup> |
+| Usar adhesivos en las conversaciones | Sí<sup>3</sup> | Sí<sup>5</sup> |
+| Se muestra la presencia | Sí | Sí |
+| Usar las @menciones | Sí<sup>3</sup> | Sí |
+
+<br>
+
+<sup>1</sup> Si el usuario se ha agregado como invitado y ha iniciado sesión con la cuenta de invitado.<br>
+<sup>2</sup> Solo mediante la dirección de correo o el Protocolo de inicio de sesión (SIP).<br>
+<sup>3</sup> Compatible con chat individual entre dos usuarios de Teams solo de dos organizaciones diferentes. <br>
+<sup>4</sup> Por defecto, los participantes externos no pueden ver los números de teléfono de los participantes mediante teléfono. Si desea mantener la privacidad de estos números de teléfono, seleccione **Tonos** de **entrada/salida tipo de anuncio** (esto evita que los Teams lean los números). Para obtener más información, consulte [Activar o desactivar los anuncios de entrada y salida de las reuniones en Microsoft Teams.](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
+<sup>5</sup> Está permitido de forma predeterminada, pero el administrador de Teams puede desactivarlo.
 
 ## <a name="related-topics"></a>Temas relacionados
 
