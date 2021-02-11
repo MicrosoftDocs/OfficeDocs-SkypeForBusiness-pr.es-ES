@@ -59,13 +59,7 @@
         "tiburd",
         "garycentric"
       ],
-      "disable_contribution_on_translation_quality": [
-        "MT",
-        "MTE75",
-        "MTE95",
-        "Blank"
-      ],
-      "feedback_system": "GitHub",
+      "feedback_system": "None",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness.es-es",
       "feedback_product_url": "https://microsoftteams.uservoice.com"
     },
