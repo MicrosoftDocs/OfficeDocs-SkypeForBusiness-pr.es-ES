@@ -140,7 +140,14 @@
       "bilingual_type": "hover over",
       "contributors_to_exclude": [
         "daswifty",
-        "MikePlumleyMSFT"
+        "MikePlumleyMSFT",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
       "feedback_system": "None",
       "hideEdit": true
