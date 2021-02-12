@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804750"
 ---
-# <a name="file-store-settings-expander"></a><span data-ttu-id="19af5-103">Expansor de configuración de almacén de archivos</span><span class="sxs-lookup"><span data-stu-id="19af5-103">File Store Settings Expander</span></span>
+# <a name="file-store-settings-expander"></a><span data-ttu-id="46581-103">Expansor de configuración de almacén de archivos</span><span class="sxs-lookup"><span data-stu-id="46581-103">File Store Settings Expander</span></span>
  
-<span data-ttu-id="19af5-104">Para editar las propiedades de los almacenes de archivos definidos:</span><span class="sxs-lookup"><span data-stu-id="19af5-104">To edit the properties of the defined file stores:</span></span>
+<span data-ttu-id="46581-104">Para editar las propiedades de los almacenes de archivos definidos:</span><span class="sxs-lookup"><span data-stu-id="46581-104">To edit the properties of the defined file stores:</span></span>
   
-<span data-ttu-id="19af5-p101">En el nombre de Recurso compartido de archivos, puede definir el nombre de un nuevo recurso compartido. A continuación, cree el recurso compartido en el servidor que figura en el nombre de dominio completo del servidor de archivos.</span><span class="sxs-lookup"><span data-stu-id="19af5-p101">For the File Share name, you can define the name of a new share. You must then create the share on the server that is named in the File Server fully qualified domain name (FQDN) property.</span></span>
+<span data-ttu-id="46581-p101">En el nombre de Recurso compartido de archivos, puede definir el nombre de un nuevo recurso compartido. A continuación, cree el recurso compartido en el servidor que figura en el nombre de dominio completo del servidor de archivos.</span><span class="sxs-lookup"><span data-stu-id="46581-p101">For the File Share name, you can define the name of a new share. You must then create the share on the server that is named in the File Server fully qualified domain name (FQDN) property.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="19af5-p102">No se puede cambiar el nombre de dominio completo del servidor que figura en el nombre de dominio completo del servidor de archivos. Si necesita colocar el recurso compartido de archivos del almacén de archivos en otro servidor, cree una nueva entrada de almacén de archivos.</span><span class="sxs-lookup"><span data-stu-id="19af5-p102">You cannot change the FQDN of the server that is specified in the File Server FQDN property. If you need to place the file store file share on a different server, you create a new file store entry.</span></span> 
+> <span data-ttu-id="46581-p102">No se puede cambiar el nombre de dominio completo del servidor que figura en el nombre de dominio completo del servidor de archivos. Si necesita colocar el recurso compartido de archivos del almacén de archivos en otro servidor, cree una nueva entrada de almacén de archivos.</span><span class="sxs-lookup"><span data-stu-id="46581-p102">You cannot change the FQDN of the server that is specified in the File Server FQDN property. If you need to place the file store file share on a different server, you create a new file store entry.</span></span> 
   
 
