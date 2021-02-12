@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Más información sobre el marcado de números gratuitos de llamadas en Eslovaquia, incluida la disponibilidad, la disponibilidad de redes móviles y con cable/línea fija, y las restricciones.
+description: Obtenga información sobre cómo marcar números gratuitos en Eslovaquia, incluida la disponibilidad, disponibilidad de red móvil y de línea fija y cableada, y restricciones.
 ms.openlocfilehash: 19e7f5578641c2c0b730bdc3195870a38066e118
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43139809"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Restricciones de marcado de número gratuito en Eslovaquia
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> | 0 800 0XX XXX <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> | 0 800 0XX XXX <br/> |
 |Código ISO de país o región  <br/> |SK  <br/> |
-|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Sí  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí. Disponible con tarifa Premium.  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

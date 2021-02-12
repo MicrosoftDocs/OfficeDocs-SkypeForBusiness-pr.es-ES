@@ -165,7 +165,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
     > [!NOTE]
     > Siempre que cree o modifique una configuración de tronco, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, [consulte Publicar los cambios pendientes en la configuración](voice-route-config-changes.md) de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configurar un tronco con desvío de medios en Skype Empresarial Server](configure-trunk-with-media-bypass.md)
 

@@ -18,7 +18,7 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.custom: None
-description: Más información sobre el buzón de voz en la nube.
+description: Obtenga información sobre el correo de voz en la nube.
 ms.openlocfilehash: 8c5d5cf27a1cf944c8b837168aceae5da62a5495
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT

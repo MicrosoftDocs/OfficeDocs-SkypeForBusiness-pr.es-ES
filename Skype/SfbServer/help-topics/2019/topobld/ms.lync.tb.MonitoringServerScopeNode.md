@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'En el Generador de topologías, puede realizar tareas relacionadas con un servidor individual que ejecuta supervisión haciendo clic con el botón secundario en el servidor que ejecuta supervisión en el árbol de consola, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta supervisión:'
+description: 'En el Generador de topologías, puede realizar tareas relacionadas con un servidor individual que ejecute supervisión haciendo clic con el botón secundario en el servidor que ejecuta supervisión en el árbol de consola, haciendo clic en Acción en la barra de herramientas o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta supervisión:'
 ms.openlocfilehash: 6e0d26c38e865ae4e2b7b5622c5cddd5c6803cbe
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

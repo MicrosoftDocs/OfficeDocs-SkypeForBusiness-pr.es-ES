@@ -1,5 +1,5 @@
 ---
-title: Requisitos previos y dependencias del entorno para actualizar a teams
+title: Requisitos previos y dependencias medioambientales para actualizar a Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Use esta guía para obtener información sobre los requisitos previos y las dependencias ambientales de la implementación de equipos de su organización.
+description: Use esta guía para obtener información sobre los requisitos previos y las dependencias medioambientales para implementar Teams en su organización
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,39 +25,39 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 12/05/2020
 ms.locfileid: "49578283"
 ---
-# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Requisitos previos y dependencias medioambientales de los equipos
+# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Requisitos previos y dependencias medioambientales para Teams
 
-![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
+![Diagrama de viaje de actualización, que enfatiza la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Fases del viaje de actualización, con énfasis en la fase De preparación técnica")
 
-Este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
+Este artículo forma parte de la fase de preparación técnica del viaje de actualización, una actividad que se completa en paralelo con la fase De disponibilidad del usuario. Antes de continuar, confirma que has completado estas actividades desde fases anteriores:
 
 - [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
 - [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
 - [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ha elegido el viaje de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams combina varios servicios de Microsoft 365 y de Office 365 y, por lo tanto, depende de la implementación y el funcionamiento correctos de estos servicios. Estos servicios incluyen, entre otros, SharePoint Online, Exchange Online y OneDrive para la empresa.
+Teams combina varios servicios de Microsoft 365 y Office 365, y, por tanto, depende de la correcta implementación y funcionamiento de estos servicios. Estos servicios incluyen, pero no están limitados a, SharePoint Online, Exchange Online y OneDrive para la Empresa.
 
-Aunque no se necesitan todos los servicios, se recomienda implementarlos todos. Si decide no implementar determinados servicios, esta afectará a la funcionalidad que los equipos pueden ofrecer a su organización. Por ejemplo, aunque no tiene que implementar SharePoint Online, los equipos dependen de SharePoint Online para ciertas funciones, como el uso compartido de archivos en las conversaciones de grupo, por lo que si no implementa este servicio, disminuirá la funcionalidad que se ofrece a través del cliente.
+Aunque no todos los servicios son necesarios, recomendamos encarecidamente que los implemente todos. Si decide no implementar determinados servicios, afectará a la funcionalidad que Teams puede ofrecer a su organización. Por ejemplo, aunque no tenga que implementar SharePoint Online, Teams sí confía en SharePoint Online para ciertas funciones como el uso compartido de archivos en conversaciones de grupo, por lo que no implementar este servicio reducirá la funcionalidad que se ofrece a través del cliente.
 
 Consulte los artículos siguientes para obtener información sobre los requisitos previos y cómo Teams interactúa con otras tecnologías:
 
-- Si su organización no ha implementado ninguna carga de trabajo de Microsoft 365 u Office 365 [, consulte Introducción](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+- Si su organización no ha implementado ninguna carga de trabajo de Microsoft 365 u Office 365, vea [Introducción.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 
-- Si su organización no ha agregado ni configurado un dominio verificado para Microsoft 365 u Office 365, consulte [preguntas más frecuentes sobre los dominios](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+- Si su organización no ha agregado o configurado un dominio comprobado para Microsoft 365 u Office 365, consulte Preguntas más frecuentes [sobre dominios.](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)
 
-- Si su organización no ha sincronizado las identidades con Azure Active Directory, consulte [modelos de identidad y autenticación en Microsoft Teams](identify-models-authentication.md).
+- Si su organización no ha sincronizado las identidades con Azure Active Directory, consulte Modelos de identidad [y autenticación en Microsoft Teams.](identify-models-authentication.md)
 
-- Si su organización no tiene Exchange Online, consulte [comprender cómo interactúan Exchange y Microsoft Teams](Exchange-Teams-interact.md).
+- Si su organización no tiene Exchange Online, consulte [Comprender cómo interactúan Exchange y Microsoft Teams.](Exchange-Teams-interact.md)
 
-- Si su organización no tiene SharePoint Online, consulte [comprender cómo SharePoint Online y OneDrive para la empresa interactúan con Microsoft Teams](SharePoint-OneDrive-interact.md).
+- Si su organización no tiene SharePoint Online, consulte Comprender cómo SharePoint Online y OneDrive para la [Empresa interactúan con Microsoft Teams.](SharePoint-OneDrive-interact.md)
 
-- Para obtener información sobre cómo [interactúan microsoft 365 Groups y Microsoft Teams](Office-365-groups.md).
+- Para obtener información sobre [cómo interactúan los grupos de Microsoft 365 y Microsoft Teams.](Office-365-groups.md)
 
-- Si su organización es un centro educativo y usa un sistema de información de estudiante, consulte [Bienvenido a Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) antes de implementar Microsoft Teams.
+- Si su organización es una institución educativa y usa un sistema de información de estudiantes, consulte Bienvenido a [Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) antes de implementar Microsoft Teams.
 
-- Si su organización está considerando las opciones de llamada de la red de telefonía pública conmutada (RTC), consulte [sistema de teléfono telefónico y conectividad RTC](cloud-voice-landing-page.md), [qué plan de llamadas es adecuado para usted](calling-plan-landing-page.md)y [enrutamiento de sistema telefónico directo](direct-routing-landing-page.md).
+- Si su organización está pensando en las opciones de llamadas a la red telefónica conmutada (RTC), consulte [Voz:](cloud-voice-landing-page.md)conectividad de sistema telefónico y RTC, qué [plan](calling-plan-landing-page.md)de llamadas es el adecuado para usted y enrutamiento directo de sistema [telefónico.](direct-routing-landing-page.md)
 
-- Para asegurarse de que se cumplen todos los requisitos de red antes de implementar Teams, vea [preparar la red de su organización para Microsoft Teams](prepare-network.md).
+- Para asegurarse de que se han cumplido todos los requisitos de red antes de implementar Teams, vea Preparar la [red de su organización para Microsoft Teams.](prepare-network.md)
 
-Una vez que haya verificado que su entorno cumple con todos los requisitos previos vigentes, [evalúe su entorno actual para Teams](upgrade-plan-journey-evaluate-environment.md).
+Una vez que haya comprobado que su entorno cumple todos los requisitos previos aplicables, [evalúe su entorno actual para Teams.](upgrade-plan-journey-evaluate-environment.md)

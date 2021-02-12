@@ -82,17 +82,17 @@ Introducida en esta actualización:
 
 - Compartir audio HDMI con los participantes de la reunión de Teams
 - Habilidades de voz de Cortana (vista previa)
-- Evite el desplazamiento basado en permisos de audio cuando teams Room se una como asistente. Para obtener más información, consulte [Administrar los permisos de audio de los asistentes en Reuniones de Teams.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
+- Evite el desplazamiento basado en permisos de audio cuando teams Room se una como asistente. Para obtener más información, vea [Administrar permisos de audio de asistentes en Reuniones de Teams.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
 - Destacar el vídeo de alguien desde la consola de la sala teams y consumir vídeo destacado en las pantallas de la sala
 
 > [!NOTE]
-> Las habilidades de voz de Cortana están disponibles para la selección de periféricos de audio para inquilinos ubicados en Estados Unidos. En el futuro, se agregarán países o regiones adicionales. Para obtener más información, vea [Asistencia de voz de Cortana en Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
+> Las habilidades de voz de Cortana están disponibles para seleccionar periféricos de audio para inquilinos ubicados en Estados Unidos. En el futuro, se agregarán países o regiones adicionales. Para obtener más información, vea [Asistencia de voz de Cortana en Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
 Introducida en esta actualización:
 
-- Corrección de la media pantalla blanca al invocar un teclado en pantalla en una reunión de Teams
+- Corrección de la media pantalla blanca al invocar el teclado en pantalla en una reunión de Teams
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
 
@@ -121,11 +121,11 @@ Introducida en esta actualización:
 - Compatibilidad con la versión 1909 de Windows 10
 - Cambiar al diseño de la galería de vídeos incluso cuando el contenido esté presente
 - Soporte de levantar manos virtuales para asistente y controles para moderador
-- Configuración de volumen predeterminada ajustable para conferencias y altavoces predeterminados
+- Configuración de volumen predeterminada ajustable para conferencias y altavoz predeterminado
 - Buscar y llamar a usuarios federados (inquilino) desde Teams Room
 
 > [!IMPORTANT]
-> La versión 4.5 es la última versión para admitir Windows 10 versión 1803; futuras versiones no se ofrecerán a sistemas en la versión 1803 de Windows 10. Para obtener más información sobre la compatibilidad con la versión de Windows, consulta [la compatibilidad con la versión de Windows 10.](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)
+> La versión 4.5 es la última versión para admitir Windows 10 versión 1803; las futuras versiones no se ofrecerán a sistemas en la versión 1803 de Windows 10. Para obtener más información sobre la compatibilidad con la versión de Windows, consulta [la compatibilidad con la versión de Windows 10.](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
@@ -148,10 +148,10 @@ Introducida en esta actualización:
 Introducida en esta actualización:
 
 - Compatibilidad con autenticación moderna para Exchange y Skype Empresarial
-- Soporte técnico para llamadas de emergencia dinámicas para Teams (componentes de servicio obligatorios y disponibles con anillos de clientes de Teams)
+- Soporte técnico para llamadas dinámicas de emergencia para Teams (componentes de servicio obligatorios y disponibles con anillos de clientes de Teams)
 - Capacidad para deshabilitar el contenido duplicado fuera de la reunión para salas de pantallas duales con XML
 - Pantalla de presentación de la aplicación
-- Avisos de Software de código abierto (SOS) en la configuración del dispositivo
+- Avisos de Software de código abierto (SO) en la configuración del dispositivo
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
@@ -164,7 +164,7 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- Corrección de un problema de cambio de tamaño o parpadeo de Windows que se muestra en algunas configuraciones
+- Corrección para un problema de cambio de tamaño o parpadeo de Windows que se muestra en algunas configuraciones
 - Se quita el procesamiento del calendario para reuniones de terceros
 - Se ha quitado la configuración de estado de Cortana
 
@@ -172,7 +172,7 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- Llamadas basadas en proximidad de respuesta automática y configuración de administrador para controlar esto
+- Llamadas basadas en proximidad de respuesta automática y configuración del administrador para controlar esto
 - La interfaz de usuario de configuración de administración de dispositivo se actualiza con la adición de la configuración del dispositivo en la pestaña Acerca de
 - Control de sala de nuevo a la pantalla principal
 - SKU de sala de reuniones disponible en GCC
@@ -183,13 +183,13 @@ Introducida en esta actualización:
 Introducida en esta actualización:
 
 - Soporte técnico de Windows 10 1903. La actualización de Windows 10 1903 se ofrece en unos días después de la actualización de la aplicación
-- Correcciones para un teclado en pantalla que no se muestra de forma fiable
+- Correcciones para un teclado en pantalla que no se muestra correctamente
 
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 
 Introducida en esta actualización:
 
-- Una nueva característica de cámara de contenido que permite a los usuarios incluir de forma inteligente una pizarra tradicional en la reunión de Teams
+- Una nueva característica de cámara de contenido que permite a los usuarios incluir de forma inteligente una pizarra tradicional en su reunión de Teams
 - Mejoras adicionales en la interfaz de usuario de la consola para reducir el desorden y mover la Configuración a una nueva barra lateral a la que se tiene acceso mediante Más en la consola
 - Botón de la bandeja de compartir deshabilitado si el cable de contenido local no está conectado o si no hay conectada una cámara de contenido
 - Se ha corregido un problema con el teclado táctil en el que se había fallado, que solo aparecía la primera vez después de reiniciar un sistema MTR.
@@ -199,12 +199,12 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- La aplicación de la tienda De Sistemas de salas de Skype se rebrand a "Salas de Microsoft Teams"
+- La aplicación de la tienda Skype Room System rebrand to "Microsoft Teams Rooms"
 - Interfaz de usuario de la consola de salas de Microsoft Teams alineada con Microsoft Teams
 - Actualización del tema: solo se mantiene la imagen de fondo personalizada en la parte frontal de las pantallas de la sala, a la vez que se hace que el fondo de la consola sea un color neutro para garantizar que los controles de interfaz de usuario de la consola cumplan con los requisitos de accesibilidad.
-- Barra universal para controles de llamada durante la reunión para las llamadas o reuniones de Teams para proporcionar una experiencia coherente con Microsoft Teams PC/ Web/ Mobile clientes<sup>1</sup>
+- Barra universal para controles de llamada durante la reunión para las llamadas o reuniones de Teams para proporcionar una experiencia coherente con Microsoft Teams PC/ Web/ Clientes móviles<sup>1</sup>
 - Clasificación de comentarios sobre la calidad de las llamadas después de las llamadas o reuniones de Teams<sup>1</sup>
-- Recibe/representa Microsoft Whiteboard en la parte frontal de la pantalla de la sala de Microsoft Teams cuando se comparte desde PC/ Web/ cliente móvil de Teams<sup>1 2</sup> <sup></sup>
+- Recibe/representa Microsoft Whiteboard en la parte frontal de la pantalla de la sala de Microsoft Teams cuando se comparte desde PC/ Web/ cliente móvil de Teams<sup>1</sup> <sup>2</sup>
 - Se ha quitado la compatibilidad con las actualizaciones de la versión 1809 de Windows 10 debido a problemas de compatibilidad con el cliente de salas de Microsoft Teams. En futuras versiones se agregará compatibilidad con la versión 19H1 de Windows 10
 
 <sup>1 Implementación del</sup> servicio de Microsoft Teams con anillos de Teams. Esta característica puede estar disponible antes o después de la actualización del cliente 4.0.105.0
@@ -230,7 +230,7 @@ Introducida en esta actualización:
 
 - Teclado DTMF para reuniones P2P y llamadas RTC de Microsoft Teams. Para que Microsoft Teams sea el cliente de llamadas predeterminado, los administradores deben establecer IsTeamsDefaultClient en true.
 - Anclar el vídeo entrante de un participante remoto a pantalla completa frente a la pantalla de la sala. Usar el comando "Anclar" de la lista de participantes en la consola
-- Mejoras en las notificaciones de sala de espera con la adición de notificación De frente a la sala
+- Mejoras en las notificaciones de sala de espera con la adición de notificación de Anverso de sala
 - Se quita el icono de transmisión de pantalla del anverso de la sala Bluetooth la baliza no está habilitada en el dispositivo de Salas de Microsoft Teams.
 - Corrección del problema de control de volumen en las reuniones de Teams
 
@@ -239,7 +239,7 @@ Introducida en esta actualización:
 Introducida en esta actualización:
 
 - El contenido de la pantalla en ambas pantallas frontales (FoR) se muestra en sistemas de sala de pantalla doble.
-- Mejoras en la interfaz de usuario de Formato y front of room
+- Mejoras en la interfaz de usuario de La vista de sala y Desc.
 - Compatibilidad del cliente con TLS 1.2. Para los clientes locales, habilitar la comunicación a través de TLS 1.2 para salas de Microsoft Teams requiere La actualización acumulativa 9 (CU9) de Skype Empresarial Server 2015 o la actualización acumulativa 1 (CU1) de Skype Empresarial Server 2019.
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
@@ -266,7 +266,7 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- Revisión para la aplicación Crestron que no se iniciaba y normalmente sería accesible cuando se presiona el botón de la aplicación en un dispositivo Crestron SR. Es necesario reiniciar la aplicación Salas de Microsoft Teams después de instalar la versión 4.0.19.0.
+- Revisión de la aplicación Crestron que no se iniciaba y normalmente sería accesible cuando se presiona el botón de la aplicación en un dispositivo Crestron SR. Es necesario reiniciar la aplicación Salas de Microsoft Teams después de instalar la versión 4.0.19.0.
 
 ### <a name="40180-08272018"></a>4.0.18.0 (08/27/2018)
 
@@ -288,13 +288,13 @@ Introducida en esta actualización:
 
 Introducida en esta actualización:
 
-- Se ha corrija el error de dirección observado en algunos sistemas durante el inicio de la aplicación.
+- Se ha corrija el error de dirección que se observa en algunos sistemas durante el inicio de la aplicación.
 
 ### <a name="311130-06132018"></a>3.1.113.0 (06/13/2018)
 
 Introducida en esta actualización:
 
-- Cambios que permiten a Microsoft administrar de forma más sencilla las actualizaciones de Windows.
+- Cambios que permiten a Microsoft administrar más fácilmente las actualizaciones de Windows.
 - No hay ningún cambio en la experiencia del usuario final.
 
 ### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)
@@ -353,7 +353,7 @@ Introducida en esta actualización:
 
 - Se ejecuta en una tableta Surface Pro (2017)
 - Compatible con Windows 10 Enterprise Creator's Update (idioma inglés, compilación 1703)
-- Compatibilidad con [hardware de base Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
+- Compatibilidad con hardware [de base Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - Compatibilidad con OEM para controles de entorno (Crestron)
 
 La versión de 64 bits de la Edición de aniversario de Windows 10 Enterprise (en inglés, versión 1607) ya no es compatible con la versión 3.0.12.0 de Salas de Microsoft Teams (actualización 3).
@@ -371,7 +371,7 @@ Introducida en esta actualización:
 - Dual-Screen (para la paridad del sistema heredado)
 - Temas (temas integrados y la capacidad de establecer un tema personalizado)
 - Capacidad de enviar comentarios sobre compilaciones públicas
-- Telemetría mejorada en torno a la confiabilidad de las reuniones
+- Telemetría mejorada en torno a la confiabilidad de las reuniones para unirse
 - Informes de OMS mejorados
 - Capacidad para que el administrador de TI configure los dispositivos de forma remota
 
@@ -380,7 +380,7 @@ Introducida en esta actualización:
 Introducida en esta actualización:
 
 - Selección de usuarios en la aplicación de dispositivos USB de audio y vídeo de la sala de reuniones
-- Informes de estado de consola de sala integradas para los clientes que usan Microsoft Operations Management Suite, ahora Monitor de Azure
+- Informes de estado de consola de sala integradas para clientes que usan Microsoft Operations Management Suite, ahora Monitor de Azure
 
 ### <a name="release-to-market-1272016"></a>Versión al mercado (7/12/2016)
 

@@ -30,7 +30,7 @@ Algunos exploradores, como Internet Explorer 11, Safari y Firefox, admiten la ap
 > [!Note]
 > Las aplicaciones y servicios de Microsoft 365 no admitirán Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no admitirá Internet Explorer 11 antes, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente [](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) del sistema operativo Windows y sigue la directiva del ciclo de vida del producto en el que está instalado.
 
-Cuando Teams detecta un explorador no compatible, muestra automáticamente un mensaje que explica el problema y las limitaciones de la sesión. El mensaje proporciona instrucciones adicionales para acceder al audio de la reunión, como, por ejemplo, aconsejar al usuario que deje un número de detrás de la llamada para que Teams pueda llamar al usuario o indicar al usuario que llame al número de conferencia incluido en la invitación a la reunión. El mensaje también anima al usuario a descargar y usar el cliente de escritorio [de Teams](https://teams.microsoft.com/downloads) para disfrutar de la experiencia completa de Teams.
+Cuando Teams detecta un explorador no compatible, muestra automáticamente un mensaje que explica el problema y las limitaciones de la sesión. El mensaje proporciona instrucciones adicionales para acceder al audio de la reunión, como aconsejar al usuario que deje un número de detrás de la llamada para que Teams pueda llamar al usuario o indicar al usuario que llame al número de conferencia incluido en la invitación a la reunión. El mensaje también anima al usuario a descargar y usar el cliente de escritorio [de Teams](https://teams.microsoft.com/downloads) para disfrutar de la experiencia completa de Teams.
 
 Si RTC no está disponible, el usuario no verá las instrucciones para acceder a la reunión y no podrá unirse a ella.
 
@@ -40,7 +40,7 @@ Los usuarios de la aplicación web de Teams en exploradores no compatibles exper
 
 - El audio solo está disponible a través de una conexión RTC. Los usuarios no pueden usar el micrófono.
 - Los usuarios no pueden compartir su cámara ni ver vídeos de otros participantes, pero pueden ver contenido presentado mediante pantalla compartida basada en imágenes.
-- Los usuarios no pueden compartir su pantalla, aunque pueden ver una que otro participante de la reunión comparte.
+- Los usuarios no pueden compartir su pantalla, aunque pueden ver una pantalla que otro participante de la reunión comparte.
 - Los usuarios no pueden tomar el control durante una sesión de pantalla compartida.
 - Los usuarios no recibirán notificaciones de llamadas entrantes.
 - Si se interrumpe la llamada, la reunión no volverá a conectarse automáticamente.

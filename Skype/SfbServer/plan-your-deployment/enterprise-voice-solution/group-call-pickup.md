@@ -27,7 +27,7 @@ ms.locfileid: "49825620"
  
 Planificación de la atención de llamadas grupales en Skype Empresarial Server Telefonía IP empresarial, que permite a los usuarios responder llamadas destinadas originalmente a otros usuarios.
   
-La atención de llamadas grupales permite a los usuarios responder llamadas entrantes a sus compañeros desde sus propios teléfonos. Esto aumenta la disponibilidad de la línea de un usuario al permitir que otros usuarios respondan a una llamada entrante marcando un número de grupo de atención de llamadas. Cuando se implementa la atención de llamadas grupales, el número de llamadas entrantes que se enruta al correo de voz puede reducirse considerablemente, lo que resulta especialmente útil para las llamadas de clientes externos a la organización.
+La atención de llamadas grupales permite a los usuarios responder llamadas entrantes a sus compañeros desde sus propios teléfonos. Esto aumenta la disponibilidad de la línea de un usuario al permitir que otros usuarios respondan a una llamada entrante marcando un número de grupo de atención de llamadas. Cuando se implementa la atención de llamadas grupales, el número de llamadas entrantes que se enruta al correo de voz se puede reducir considerablemente, lo que resulta especialmente útil para las llamadas de clientes externos a la organización.
   
 La característica de atención de llamadas grupales está diseñada en particular para unidades de negocio en entornos de oficina abiertos. Las llamadas entrantes no son molestas porque solo suenan en el destino previsto. Sin embargo, otros usuarios que escuchan el sonido pueden seguir seleccionando el número de grupo. 
   
@@ -48,7 +48,7 @@ Después de configurar los números del grupo de atención de llamadas, asigne u
   
 Si un usuario marca un número de grupo de atención de llamadas para responder a una llamada cuando suenan varios teléfonos del grupo, el usuario responde a la llamada que más tiempo ha sonado.
   
-La configuración de llamadas simultáneas funcionará para los usuarios que tengan atención de llamadas grupales. Es decir, una llamada realizada a un usuario que tiene atención de llamadas grupales sonará para todos los destinos configurados y otro usuario puede responder a la llamada. La excepción a esta regla es cuando el usuario configura las llamadas simultáneas para llamar a todos los miembros del equipo.
+La configuración de las llamadas simultáneas funcionará para los usuarios que tengan atención de llamadas grupales. Es decir, una llamada realizada a un usuario que tiene atención de llamadas grupales sonará para todos los destinos configurados y otro usuario puede responder a la llamada. La excepción a esta regla es cuando el usuario configura las llamadas simultáneas para llamar a todos los miembros del equipo.
   
 La atención de llamadas grupales no se puede usar para responder a los siguientes tipos de llamadas:
   
@@ -64,7 +64,7 @@ La atención de llamadas grupales no se puede usar para responder a los siguient
     > [!NOTE]
     > Si un usuario responde a una llamada de audio o vídeo, el usuario recibe solo el audio. La persona que llama o la persona que responde la llamada puede escalar la llamada para agregar vídeo. 
   
-- Llamadas de llamadas simultáneas que se enrutar a los miembros de la llamada de equipo
+- Llamadas de llamadas simultáneas que se enrutar a los miembros de la llamada del equipo
     
 - Llamadas enrutadas a un delegado
     
@@ -95,7 +95,7 @@ Cualquiera de los siguientes clientes se puede usar para responder llamadas a mi
 - Lync Phone Edition
     
 > [!NOTE]
-> Los usuarios pueden usar cualquiera de estos clientes para responder llamadas a los miembros de la respuesta de llamadas grupales, pero los usuarios deben estar en un grupo de Skype Empresarial Server o un grupo de Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013: febrero de 2013. 
+> Los usuarios pueden usar cualquiera de estos clientes para responder llamadas a los miembros de la atención de llamadas grupales, pero los usuarios deben estar en un grupo de Skype Empresarial Server o en un grupo de Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013: febrero de 2013. 
   
 No se admiten los siguientes clientes y dispositivos para la atención de llamadas a miembros de la atención de llamadas grupales:
   
@@ -123,7 +123,7 @@ En la tabla siguiente se describe el modelo de usuario de atención de llamadas 
 |Número recomendado de usuarios por grupo  <br/> |50  <br/> |50  <br/> |
 |Número recomendado de grupos  <br/> |500  <br/> |60  <br/> |
 |Número máximo de usuarios por grupo habilitados para la atención de llamadas grupales  <br/> |25 000  <br/> |3,000  <br/> |
-|Tasa máxima de llamadas entrantes al total de usuarios habilitados para la atención de llamadas grupales por grupo por minuto  <br/> |500  <br/> |60  <br/> |
+|Tasa máxima de llamadas entrantes a usuarios totales habilitados para la atención de llamadas grupales por grupo por minuto  <br/> |500  <br/> |60  <br/> |
 |Tasa máxima de llamadas recuperadas por usuarios con atención de llamadas grupales por grupo por minuto  <br/> |200  <br/> |25  <br/> |
    
 > [!NOTE]

@@ -62,7 +62,7 @@ Puede implementar el servidor de chat persistente en grupos de un solo servidor 
     
 Aunque puede implementar un servidor de chat persistente en un servidor Standard Edition, tenga en cuenta que el rendimiento y la escala se verán afectados y la alta disponibilidad no es una opción. Por lo tanto, se recomienda implementar el chat persistente en un servidor Standard Edition principalmente con fines de prueba de concepto y evaluación. 
   
-Skype Empresarial Server 2015 admite una variedad de escenarios de colocación, lo que proporciona flexibilidad para ahorrar costos de hardware mediante la ejecución de varios componentes en un servidor (si tiene una organización pequeña) o para ejecutar componentes individuales en diferentes servidores (si tiene una organización más grande que necesita escalabilidad y rendimiento). Debe tener en cuenta los factores de escalabilidad antes de decidir si desea colocar componentes. Los escenarios de colocación difieren para los servidores De Skype Empresarial Server 2015 Enterprise Edition y Standard Edition. 
+Skype Empresarial Server 2015 admite una variedad de escenarios de colocación, lo que proporciona flexibilidad para ahorrar costos de hardware mediante la ejecución de varios componentes en un servidor (si tiene una organización pequeña) o para ejecutar componentes individuales en diferentes servidores (si tiene una organización más grande que necesita escalabilidad y rendimiento). Debe tener en cuenta los factores de escalabilidad antes de decidir si se deben colocar componentes. Los escenarios de colocación difieren para los servidores De Skype Empresarial Server 2015 Enterprise Edition y Standard Edition. 
   
 En las secciones siguientes se describen las topologías con más detalle, incluidos escenarios de colocación y opciones para los servidores de bases de datos back-end. Para obtener más información sobre la colocación de todas las bases de datos y roles de servidor, consulte [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
   
@@ -90,7 +90,7 @@ Sin embargo, puede colocar la base de datos SQL Server para el servidor de chat 
 > [!NOTE]
 > Si tiene previsto usar SQL grupos de disponibilidad AlwaysOn para HA DR, tenga en cuenta que no es compatible con las bases de datos del servidor de chat persistente. 
   
-Si coloca la base de datos de chat persistente con la base de datos back-end, puede usar una sola instancia de SQL Server para cualquiera o todas las bases de datos, o puede usar una instancia independiente de SQL Server para cada base de datos.
+Si coloca la base de datos de chat persistente con la base de datos back-end, puede usar una sola instancia de SQL Server para una o todas las bases de datos, o puede usar una instancia independiente de SQL Server para cada base de datos.
   
 > [!IMPORTANT]
 > El servidor que hospeda la base de datos de chat persistente puede hospedar otras bases de datos. Sin embargo, cuando considere la posibilidad de colocar la base de datos de chat persistente con otras bases de datos, tenga en cuenta que si almacena los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de chat persistente puede crecer mucho. Por este motivo, no se recomienda instalar la base de datos de chat persistente con la base de datos back-end. 

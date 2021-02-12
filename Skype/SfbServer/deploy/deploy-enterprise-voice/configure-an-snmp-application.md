@@ -44,7 +44,7 @@ Si se instala una aplicación SNMP y el servicio de información de ubicación n
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

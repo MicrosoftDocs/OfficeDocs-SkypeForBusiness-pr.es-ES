@@ -22,7 +22,7 @@ ms.locfileid: "49825320"
 ---
 # <a name="teams-for-government"></a>Teams para Administración Pública
 
-Utilice estos recursos para obtener información sobre consideraciones específicas para implementar Teams en entornos de Microsoft 365 Government. Cuando esté listo, siga la misma ruta de implementación recomendada para Teams que se describe en [Cómo implementar Microsoft Teams.](../How-to-roll-out-teams.md)
+Use estos recursos para obtener información sobre consideraciones específicas para implementar Teams en entornos de Microsoft 365 Government. Cuando esté listo, siga la misma ruta de implementación recomendada para Teams como se describe en [Cómo implementar Microsoft Teams.](../How-to-roll-out-teams.md)
 
 |               |               |
 | ------------- | ------------- |

@@ -28,7 +28,7 @@ ms.locfileid: "50125753"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 
-La aplicación Bookings de Microsoft Teams ofrece una forma sencilla de programar citas en persona y virtuales, como visitas médicas, consultas financieras, entrevistas, soporte al cliente, horarios de oficina para educación y mucho más.
+La aplicación Bookings en Microsoft Teams ofrece una forma sencilla de programar citas en persona y virtuales, como visitas médicas, consultas financieras, entrevistas, soporte al cliente, horarios de oficina para el ámbito educativo y mucho más.
 
 Los programadores pueden administrar calendarios de varios departamentos y de personal, así como las comunicaciones con asistentes internos y externos, desde una única experiencia. Las propias citas virtuales se mantienen a través de reuniones de Microsoft Teams, que ofrece sólidas capacidades de videoconferencia.
 
@@ -43,7 +43,7 @@ Los programadores pueden administrar calendarios de varios departamentos y de pe
 
 - Los usuarios deben tener una licencia apropiada. Office 365 A3, A5, E3 y E5, así como Microsoft 365 Empresa Estándar, A3, A5, E3 y E5 son compatibles.
 
-- Todos los usuarios de la aplicación Bookings y todos los miembros del personal que participen en las reuniones deben tener una licencia compatible con la programación de reuniones de Teams.
+- Todos los usuarios de la aplicación Bookings y todo el personal que participe en las reuniones deben tener una licencia compatible con la programación de reuniones de Teams.
 
 - Los sistemas deben cumplir todos los requisitos [previos del software y del explorador.](hardware-requirements-for-the-teams-app.md)
 
@@ -84,7 +84,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 Para obtener más información, consulte la documentación de PowerShell para el cmdlet [Set-Mailbox.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)
 
 > [!NOTE]
-> Si usa una configuración híbrida de Exchange, le recomendamos que pruebe a fondo el flujo de correo entre exchange local y Exchange Online al cambiar el dominio predeterminado.
+> Si usa una configuración híbrida de Exchange, le recomendamos que pruebe a fondo el flujo de correo entre Exchange local y Exchange Online al cambiar el dominio predeterminado.
 
 ## <a name="sending-feedback"></a>Enviar comentarios
 

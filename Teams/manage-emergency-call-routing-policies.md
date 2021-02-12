@@ -30,7 +30,7 @@ ms.locfileid: "49804680"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Administrar directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
 
-Si ha implementado [](direct-routing-landing-page.md) el enrutamiento directo de sistema telefónico en su organización, puede usar las directivas de enrutamiento de llamadas de emergencia de Microsoft Teams para configurar números de emergencia y especificar cómo se enruten las llamadas de emergencia. Una directiva de enrutamiento de llamadas de emergencia determina si los servicios de emergencia mejorados están habilitados para los usuarios que tienen asignada la directiva, los números que se usan para llamar a los servicios de emergencia (por ejemplo, el 911 en estados Unidos) y cómo se enrutar las llamadas a los servicios de emergencia.
+Si ha implementado [](direct-routing-landing-page.md) el enrutamiento directo de sistema telefónico en su organización, puede usar las directivas de enrutamiento de llamadas de emergencia de Microsoft Teams para configurar números de emergencia y especificar cómo se enruten las llamadas de emergencia. Una directiva de enrutamiento de llamadas de emergencia determina si los servicios de emergencia mejorados están habilitados para los usuarios que tienen asignada la directiva, los números que se usan para llamar a los servicios de emergencia (por ejemplo, el 911 en los Estados Unidos) y cómo se enrutar las llamadas a los servicios de emergencia.
 
 Para administrar las directivas de enrutamiento de llamadas de emergencia, vaya a las directivas de emergencia de voz en el Centro de administración de Microsoft Teams o  >   use Windows PowerShell. Las directivas se pueden asignar a usuarios y sitios [de red.](cloud-voice-network-settings.md)
 
@@ -38,18 +38,18 @@ Para los usuarios, puede usar la directiva global (predeterminada para toda la o
 
 Si asignó una directiva de enrutamiento de llamadas de emergencia a un sitio de red y a un usuario, y si ese usuario se encuentra en ese sitio de red, la directiva asignada al sitio de red invalida la directiva asignada al usuario.
 
-## <a name="create-a-custom-emergency-call-routing-policy"></a>Crear una directiva personalizada de enrutamiento de llamadas de emergencia
+## <a name="create-a-custom-emergency-call-routing-policy"></a>Crear una directiva de enrutamiento de llamada de emergencia personalizada
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Directivas de emergencia de voz y haga clic en la pestaña Directivas de enrutamiento  >   **de** llamadas.
 2. Haga clic en **Agregar**.
 3. Escriba un nombre y una descripción para la directiva.
-4. Para habilitar las llamadas de emergencia dinámicas, active **las llamadas de emergencia dinámicas.** Cuando se habilitan las llamadas de emergencia dinámicas, Teams recupera la información de directiva y ubicación del servicio e incluye esa información como parte de la llamada de emergencia.
+4. Para habilitar las llamadas de emergencia dinámicas, active las **llamadas de emergencia dinámicas.** Cuando se habilitan las llamadas de emergencia dinámicas, Teams recupera la información de directiva y ubicación del servicio e incluye esa información como parte de la llamada de emergencia.
 5. Defina uno o varios números de emergencia. Para ello, en Números **de emergencia,** **haga** clic en Agregar y, a continuación, haga lo siguiente:
     1. **Cadena de marcado de** emergencia: introduzca la cadena de marcado de emergencia. Esta cadena de marcado indica que una llamada es una llamada de emergencia.
         > [!NOTE]
-        > Para el enrutamiento directo, estamos haciendo la transición desde los clientes de Teams que envían llamadas de emergencia con un "+" delante de la cadena de marcado de emergencia. Hasta que se complete la transición, el patrón de ruta de voz para que coincida con una cadena de marcado de emergencia debe asegurarse de que se hace una coincidencia con las cadenas que tienen o no tienen un "+" anterior, como 911 y +911. Por ejemplo, ^ \\ +?911 o .*.
+        > En el caso del enrutamiento directo, estamos lejos de los clientes de Teams que envían llamadas de emergencia con un "+" delante de la cadena de marcado de emergencia. Hasta que se complete la transición, el patrón de ruta de voz para que coincida con una cadena de marcado de emergencia debe asegurarse de que se hace una coincidencia con las cadenas que tienen o no tienen un "+" anterior, como 911 y +911. Por ejemplo, ^ \\ +?911 o .*.
     2. **Máscara de marcado de** emergencia: para cada número de emergencia, puede especificar cero o más máscaras de marcado de emergencia. Una máscara de marcado es el número que desea traducir en el valor de la cadena de marcado de emergencia. Esto permite marcar números de emergencia alternativos y hacer que la llamada llegue a los servicios de emergencia. <br>Por ejemplo, agregue el 112 como la máscara de marcado de emergencia (que es el número de servicio de emergencia de casi toda Europa) y el 911 como la cadena de marcado de emergencia. Un usuario de Teams de Europa que está de visita puede no saber que el 911 es el número de emergencia en Estados Unidos y, cuando marca el 112, la llamada se realiza al 911. Para definir varias máscaras de marcado, separe cada valor por punto y coma. Por ejemplo, 112;212.
     3. **Registro de uso de RTC:** seleccione el registro de uso de la red telefónica conmutada (RTC). El registro de uso de RTC se usa para determinar la ruta que se usa para enrutar llamadas de emergencia de usuarios que están autorizados a usarlas. La ruta asociada a este uso debe apuntar a un tronco de Protocolo de inicio de sesión (SIP) dedicado a llamadas de emergencia o a una puerta de enlace del número de identificación de ubicación de emergencia (ELIN) que enruta las llamadas de emergencia al punto de respuesta de seguridad pública (PSAP) más cercano.
 
@@ -66,10 +66,10 @@ See [New-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershel
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-Puede editar la directiva global o cualquier directiva personalizada que cree.
+Puede editar la directiva global o las directivas personalizadas que cree.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Directivas de emergencia de voz y haga clic en la pestaña Directivas de enrutamiento  >   **de** llamadas.
-2. Seleccione la directiva haciendo clic a la izquierda del nombre de la directiva y, a continuación, haga clic en **Editar.**
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla y, luego, en **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar.**
 
 ### <a name="using-powershell"></a>Con PowerShell

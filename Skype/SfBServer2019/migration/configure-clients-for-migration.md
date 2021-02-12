@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Este tema contiene los pasos de implementación de cliente recomendados que debe realizar antes de migrar a Skype empresarial Server 2019. Estos cambios en la configuración deben realizarse en Lync Server 2013 o en Skype empresarial Server 2015.
+description: Este tema contiene los pasos recomendados para la implementación de clientes que debe realizar antes de migrar a Skype Empresarial Server 2019. Estos cambios de configuración deben realizarse en Lync Server 2013 o Skype Empresarial Server 2015.
 ms.openlocfilehash: fd630898d064c8ba079f87ce571e73de8cf0aaf9
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,13 +20,13 @@ ms.locfileid: "44754070"
 ---
 # <a name="configure-clients-for-migration"></a>Configurar los clientes para la migración
 
-Este tema contiene los pasos de implementación de cliente recomendados que debe realizar antes de migrar a Skype empresarial Server 2019. Estos cambios en la configuración deben realizarse en Lync Server 2013 o en Skype empresarial Server 2015 (la versión desde la que se va **a**migrar).
+Este tema contiene los pasos recomendados para la implementación de clientes que debe realizar antes de migrar a Skype Empresarial Server 2019. Estos cambios de configuración deben realizarse en Lync Server 2013 o Skype Empresarial Server 2015 (la versión desde la que está **migrando).**
   
 ### <a name="to-configure-clients-before-migration"></a>Para configurar los clientes antes de la migración:
 
-1. Implemente las actualizaciones más recientes de servidor, cliente y dispositivo (hotfixes) para la instalación existente.
+1. Implemente las actualizaciones (revisiones) del servidor, el cliente y el dispositivo más recientes para la instalación existente.
     
-2. En la versión anterior de Skype empresarial Server, use el filtrado de versiones de cliente para permitir solo a los clientes que tengan instaladas las actualizaciones más recientes.
+2. En la versión anterior de Skype Empresarial Server, use el filtrado de versiones de cliente para permitir solo los clientes con las actualizaciones más recientes instaladas.
     
 ## <a name="see-also"></a>Vea también
 

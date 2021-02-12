@@ -33,8 +33,8 @@ Por ejemplo, en un entorno de Contoso con Europa como satélite Geo y Norteamér
 
 Un sitio de SharePoint de un equipo determinado también es multigeómico. Es decir, si un usuario satélite europeo está creando un Equipo, el sitio de SharePoint correspondiente se creará en la ubicación de Europa. Los archivos asociados a ese Equipo se mantendrán en reposo en esa ubicación. Las experiencias subsiguientes, como cargar un nuevo archivo o editar el archivo, se almacenarán en esa ubicación europea, manteniendo la promesa de residencia de datos para esos archivos.
 
-Dado que un inquilino multigemico es un único inquilino global, los usuarios de satélites podrán ver a sus compañeros de todo el mundo, independientemente de dónde estén.
+Como un espacio empresarial multigemico es un único inquilino global, los usuarios de satélites podrán ver a sus compañeros de todo el mundo, independientemente de dónde estén.
 
 Las conversaciones en chats, mensajes de canales y notas de mensajería instantánea de reuniones o chats dentro de la experiencia de Teams no son multiempresa y se mantienen solo dentro de la ubicación central del inquilino. Normalmente, las conversaciones de chat no se aplican a las necesidades de residencia de datos. Para obtener más información, [vea Ubicación de los datos en Microsoft Teams.](location-of-data-in-teams.md)
 
-Para obtener más información sobre multige geo, consulta la página de [capacidades multige geo.](https://aka.ms/multi-geo)
+Para obtener más información sobre multige geo, consulte la página de [capacidades multige geo de Microsoft.](https://aka.ms/multi-geo)

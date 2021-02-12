@@ -30,32 +30,32 @@ ms.locfileid: "48753455"
 # <a name="configure-presence-in-skype-for-business-online"></a>Configurar la presencia en Skype Empresarial Online
 
 > [!IMPORTANT]
-> El centro de administración de Microsoft Teams ha reemplazado al centro de administración de Skype empresarial (portal heredado). Toda la configuración para administrar Skype empresarial ahora está en el centro de administración de Teams. Debe tener asignado el [rol de administrador de Azure ad](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de administrador global o administrador de Skype empresarial para administrar las características de Skype empresarial en el centro de administración de Teams. Para obtener más información, vea [administrar la configuración de Skype empresarial en el centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> El Centro de administración de Microsoft Teams ha sustituido al Centro de administración de Skype Empresarial (portal heredado). Todas las configuraciones para administrar Skype Empresarial se encuentran ahora en el Centro de administración de Teams. Debe tener asignado el rol de administrador de [Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) de Administrador global o de administrador de Skype Empresarial para administrar las características de Skype Empresarial en el Centro de administración de Teams. Para conocer más, consulte [Administrar la configuración de Skype empresarial en el Centro de administración de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
-De forma predeterminada, cualquier persona que pueda comunicarse con una de las personas de su organización con Skype empresarial también puede ver si esa persona está conectada. Skype empresarial muestra si una persona está disponible en línea, en una reunión, sin conexión u otra indicación.
+De forma predeterminada, cualquier persona que se pueda comunicar con una de las personas de su organización que use Skype Empresarial también puede ver si esa persona está en línea. Skype Empresarial muestra si una persona está disponible en línea, en una reunión, sin conexión u otro indicador.
 
-![Ejemplo del estado de conexión de un usuario en Skype empresarial.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
+![Ejemplo del estado de conexión de una persona en Skype Empresarial.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-Como **[Administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** de todas las personas de su empresa, puede elegir quién verá su presencia en línea en Skype empresarial.
+Como administrador **[de](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** todos los usuarios de su empresa, puede elegir quién ve su presencia en línea en Skype Empresarial.
 
 ![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1. Vaya al centro de administración > **centros**  >  **de administración de Skype empresarial**.
+1. Vaya al centro de administración > **de administración** de  >  **Skype Empresarial.**
 
-2. En el **centro de administración de Skype empresarial**, elija **organización**.
+2. En el **Centro de administración de Skype Empresarial,** elija **organización.**
 
-3. En **modo de privacidad de presencia**, seleccione una de las opciones siguientes y, a continuación, elija **Guardar**.
+3. En **el modo de privacidad** de presencia, seleccione una de las siguientes opciones y, a continuación, elija **Guardar.**
 
 |**Setting**|**Quién puede ver la presencia de un usuario**|
 |:-----|:-----|
-|**Mostrar información de presencia automáticamente** <br/> |Cualquier usuario de Skype empresarial de su empresa que no se haya agregado a la lista **externa** o **bloqueada** de una persona podrá ver la presencia en línea de ese usuario. <br/> |
-|**Mostrar la información de presencia solo a los contactos de un usuario** <br/> |Cualquier persona de la lista de contactos de un usuario que no haya añadido a su lista **externa** o **bloqueada** . <br/> Los usuarios pueden invalidar la configuración predeterminada en la aplicación de Skype empresarial: opciones de herramientas de **configuración**  >  **Tools**  >  **Options**. <br/> |
+|**Mostrar información de presencia automáticamente** <br/> |Cualquier usuario de Skype Empresarial de su empresa que no  se  haya agregado a la lista de bloqueados o externos de una persona podrá ver la presencia en línea de esa persona. <br/> |
+|**Mostrar la información de presencia solo a los contactos de un usuario** <br/> |Cualquier persona de la lista de contactos de una persona que no haya agregado a su **lista de contactos** **externos o bloqueados.** <br/> Los usuarios pueden invalidar la configuración predeterminada en su aplicación de Skype Empresarial: **Opciones de las Herramientas**  >  **de**  >  **configuración.** <br/> |
 
-Para obtener información sobre lo que los usuarios pueden cambiar en Skype empresarial, consulte estos artículos:
+Para obtener información sobre lo que sus usuarios pueden cambiar en Skype Empresarial, vea estos artículos:
 
-- [Controlar el acceso a la información de presencia en Skype empresarial](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Controlar el acceso a la información de presencia en Skype Empresarial](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [Establecer las opciones de estado en Skype empresarial](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Establecer las opciones de estado en Skype Empresarial](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -33,7 +33,7 @@ Esta configuración se realiza con el cmdlet del Shell de administración de Sky
 
 ### <a name="to-configure-voice-mail-escape"></a>Para configurar el escape de correo de voz
 
-1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en Skype Empresarial **2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
 2. Especificar los siguientes parámetros en **Set-CsVoicePolicy**:
 

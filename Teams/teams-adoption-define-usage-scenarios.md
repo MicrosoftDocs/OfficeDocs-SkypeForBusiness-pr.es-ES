@@ -40,14 +40,14 @@ Asegúrese de que comprende los proyectos empresariales (escenarios) que estará
 
 Los escenarios adicionales que se deben tener en cuenta son:
 
-- Compromiso y comunicación de los empleados
-- Llevar las campañas al mercado más rápido
+- Participación y comunicación de los empleados
+- Llevar las campañas al mercado con mayor rapidez
 - Aumentar la productividad de las ventas y aumentar los ingresos
 - Simplificar las revisiones empresariales
 
 ![Ilustración de casos de uso de Teams para cada escenario](media/teams-adoption-use-cases.png)
 
-Piense en este escenario movimiento de modernización como un proceso acumulado: poner en marcha cosas con escenarios más básicos para crear entusiasmo, familiaridad y confianza en esta nueva forma de trabajar. Luego pase a áreas más ambiciosas de impacto. A medida que se muestra más impacto con Microsoft Teams a sus compañeros de trabajo, se comprometen más y se genera un impulso. Para muchos de nuestros clientes, una vez que han pasado este proceso, descubren que las partes interesadas empresariales se acercan a ellos después de aprender cómo sus compañeros han conseguido el valor de Microsoft Teams.
+Piense en este escenario movimiento de modernización como un proceso acumulado: poner en marcha cosas con escenarios más básicos para crear entusiasmo, familiaridad y confianza en esta nueva forma de trabajar. A continuación, pase a áreas de impacto más ambiciosas. A medida que se muestra más impacto con Microsoft Teams a sus compañeros de trabajo, se comprometen más y se genera un impulso. Para muchos de nuestros clientes, una vez que han pasado este proceso, descubren que las partes interesadas empresariales se acercan a ellos después de aprender cómo sus compañeros han conseguido el valor de Microsoft Teams.
 
 ## <a name="interview-business-stakeholders"></a>Entrevista a las partes interesadas de la empresa
 
@@ -65,11 +65,11 @@ Para asegurarse de que tiene la información correcta sobre el escenario empresa
 
 ![Ilustración del marco para identificar escenarios](media/teams-adoption-identify-scenarios.png)
 
-Después de hablar con uno o más participantes empresariales, puede priorizar sus escenarios en función del impacto frente a la dificultad. (Sus escenarios pueden ser además de los escenarios que sugerimos anteriormente). Los candidatos adecuados para la fase de experimentación deben tener un mayor impacto y dificultades de baja a mediana. De este modo, se asegurará de que el proyecto no se verá afectado por el ámbito o dificultades técnicas antes de que pueda mostrar el valor de su trabajo. A continuación se muestra un gráfico de ejemplo.
+Después de hablar con uno o más participantes empresariales, puede priorizar sus escenarios en función del impacto frente a la dificultad. (Sus escenarios pueden ser además de los escenarios que sugerimos anteriormente). Los candidatos adecuados para la fase de experimentación deben tener un mayor impacto y dificultades de baja a mediana. De este modo, se asegurará de que el proyecto no se verá afectado por el desescalón o las dificultades técnicas antes de que pueda mostrar el valor de su trabajo. A continuación se muestra un gráfico de ejemplo.
 
-![Ilustración que muestra el impacto del escenario frente a la dificultad](media/teams-adoption-impact-difficulty.png)
+![Ilustración que muestra el impacto de escenario frente a dificultad](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
 > Siempre estamos ansiosos por aprender cómo nuestros clientes usan Teams de nuevas formas innovadoras. Comparta sus #TeamsStories con nosotros en nuestro foro de discusión [sobre Impulsar la adopción.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Incluya el hashtag **#TeamsStories** en la publicación. Siempre estamos interesados en cómo usa Teams en su organización.
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [incorporar a los primeros usuarios y recopilar comentarios.](teams-adoption-onboard-early-adopters.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: [Incorpore a los primeros usuarios y recopilo comentarios.](teams-adoption-onboard-early-adopters.md)

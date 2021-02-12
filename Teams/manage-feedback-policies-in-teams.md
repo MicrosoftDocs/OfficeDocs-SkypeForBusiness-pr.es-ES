@@ -58,7 +58,7 @@ Puede administrar las directivas de comentarios con PowerShell. Use el cmdlet **
 Para desactivar y activar las características, establezca los parámetros siguientes:
 
  - **Enviar comentarios:** establezca el **parámetro userInitiatedMode** en **"enabled"** para permitir que los usuarios asignados a la directiva puedan enviar comentarios. Al establecer el parámetro en **deshabilitado** se desactiva la característica y los usuarios asignados a la directiva no tienen la opción de proporcionar comentarios.
- - **Encuestas:** establezca el **parámetro receiveSurveysMode** en **habilitado** para permitir que los usuarios a los que se les asigne la directiva reciban la encuesta. Para que los usuarios reciban la encuesta y permitan que no puedan participar, establezca el parámetro **"enabledUserOverride" en "enabledUserOverride".** En Teams, los usuarios pueden ir a Configuración de privacidad y elegir si  >   desean participar en encuestas. Al establecer el parámetro en **deshabilitado** se desactiva la característica y los usuarios asignados a la directiva no recibirán la encuesta.
+ - **Encuestas:** establezca el **parámetro receiveSurveysMode** en **habilitado** para permitir que los usuarios a los que se les asigne la directiva reciban la encuesta. Para que los usuarios reciban la encuesta y permitan que no puedan participar, establezca el parámetro **en enabledUserOverride.** En Teams, los usuarios pueden ir a Configuración de privacidad y elegir si  >   desean participar en encuestas. Al establecer el parámetro en **deshabilitado** se desactiva la característica y los usuarios asignados a la directiva no recibirán la encuesta.
 
 ## <a name="create-a-custom-feedback-policy"></a>Crear una directiva de comentarios personalizada
 

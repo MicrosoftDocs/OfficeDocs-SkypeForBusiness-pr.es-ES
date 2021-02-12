@@ -33,7 +33,7 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
 
 1. Abra el Panel de control de Skype Empresarial Server.
 
-2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 or Configure a trunk without media bypass in Skype for Business [Server](configure-trunk-without-media-bypass.md) through step 9.
+2. Para empezar a definir una regla de conversión, siga los pasos descritos en Configurar un tronco con desvío de medios en Skype Empresarial [Server](configure-trunk-with-media-bypass.md) a través del paso 10 o Configurar un tronco sin desvío de medios en Skype [Empresarial Server](configure-trunk-without-media-bypass.md) a través del paso 9.
 
 3. En **Nombre** de la  página **Nueva regla de conversión** o Editar regla de conversión, escriba un nombre que describa el patrón de número que se va a traducir.
 
@@ -43,7 +43,7 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
 
    - **Dígitos iniciales:**(opcional) Especifique los dígitos iniciales de los números que desea que coincidan con el patrón. Por ejemplo, escriba + en este campo para que coincida con los números en formato E.164 (que comienzan por +).
 
-   - **Longitud:** especifique el número de dígitos en el patrón de coincidencia y seleccione si desea que el patrón coincida con números que sean exactamente de esta longitud, al menos esta longitud o cualquier longitud. Por ejemplo, escriba 11 y seleccione Al menos en la lista desplegable para que coincida con números de al menos 11 dígitos de longitud.
+   - **Longitud:** especifique el número de dígitos en el patrón de coincidencia y seleccione si desea que el patrón coincida con los números de esta longitud exactamente, al menos esta longitud o cualquier longitud. Por ejemplo, escriba 11 y seleccione Al menos en la lista desplegable para que coincida con números de al menos 11 dígitos de longitud.
 
    - **Dígitos para quitar:**(opcional) Especifique el número de dígitos iniciales que se quitarán. Por ejemplo, escriba 1 para quitar el signo + del principio del número.
 
@@ -57,7 +57,7 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
 
    - Un valor (por ejemplo, $1) que representa el número de dígitos en el patrón de coincidencia
 
-   - (Opcional) Un valor que puede anteponer si lo escribe en el campo **Dígitos para agregar**
+   - (Opcional) Un valor que se puede anteponer entrando en el campo **Dígitos para** agregar
 
      Con los valores de ejemplo anteriores, aparece 011$1 en el **campo de regla de** conversión.
 
@@ -70,7 +70,7 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
 8. En la página **Configuración de tronco**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
    > [!NOTE]
-   > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [consulte Publicar los cambios pendientes en la configuración](voice-route-config-changes.md) de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+   > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [consulte Publicar cambios pendientes en la configuración](voice-route-config-changes.md) de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
 ### <a name="to-define-a-translation-rule-manually"></a>Para definir una regla de conversión de forma manual
 
@@ -101,7 +101,7 @@ Siga estos pasos si desea definir una regla de conversión  especificando un con
     > [!NOTE]
     > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [consulte Publicar los cambios pendientes en la configuración](voice-route-config-changes.md) de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configurar un tronco con desvío de medios en Skype Empresarial Server](configure-trunk-with-media-bypass.md)
 

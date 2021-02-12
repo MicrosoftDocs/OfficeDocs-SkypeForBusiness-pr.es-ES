@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Más información sobre el marcado de números gratuitos en Polonia, incluida la disponibilidad, la disponibilidad de la red móvil/de línea fija y móvil, y las restricciones.
+description: Obtén información sobre cómo marcar números gratuitos en Polonia, lo que incluye la disponibilidad, la disponibilidad de red móvil o por cable o fija y la disponibilidad de la red móvil, y las restricciones.
 ms.openlocfilehash: 7e467fc5b62b94c31a3e3859c94520c1a23982cd
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140309"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>Restricciones de marcado de número gratuito en Polonia
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> |00 800 XXX XX XX  <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> |00 800 XXX XX XX  <br/> |
 |Código ISO de país o región  <br/> |PL  <br/> |
-|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Sí  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Acceso móvil: Se cobra el tiempo de llamada.  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Acceso móvil: Se cobra el tiempo de llamada.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

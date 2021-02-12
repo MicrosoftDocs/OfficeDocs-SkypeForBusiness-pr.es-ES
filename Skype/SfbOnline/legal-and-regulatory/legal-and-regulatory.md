@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
-description: 'Este es el contenido que debe publicarse para cumplir con los requisitos de accesibilidad, cumplimiento normativo y normativa para Skype empresarial online en Francia. '
+description: 'Este es el contenido que debe publicarse para cumplir los requisitos de accesibilidad, cumplimiento y normativas para Skype Empresarial Online en Francia. '
 ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT

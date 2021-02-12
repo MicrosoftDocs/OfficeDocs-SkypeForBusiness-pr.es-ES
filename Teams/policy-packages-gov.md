@@ -29,7 +29,7 @@ ms.locfileid: "49909084"
 > [!NOTE]
 > Los paquetes de directivas no están disponibles actualmente en las implementaciones de Microsoft 365 Government GCC High o DoD.
 
-## <a name="overview"></a>Descripción general
+## <a name="overview"></a>Información general
 
 Un [paquete de directivas](manage-policy-packages.md) en Microsoft Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a los usuarios que tienen roles similares en su organización. Los paquetes de directivas simplifican y ayudan a proporcionar consistencia al administrar directivas. Puede personalizar la configuración de las directivas del paquete para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de directivas en un paquete de directivas, todos los usuarios asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directivas mediante el Centro de administración de Microsoft Teams o PowerShell.
 
@@ -51,7 +51,7 @@ Teams incluye actualmente los siguientes paquetes de directiva para administraci
 
 ![Captura de pantalla de paquetes de directivas sanitarias](media/policy-packages-gov.png)
 
-A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva de responsable de seguridad pública a los usuarios de la organización, se crea una directiva denominada PublicSafety_Officer para cada directiva del paquete.
+A cada directiva individual se le da el nombre del paquete de directiva para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva de responsable de seguridad pública a los usuarios de la organización, se crea una directiva denominada PublicSafety_Officer para cada directiva del paquete.
 
 ![Captura de pantalla de las directivas del paquete de trabajadores sanitarios](media/policy-packages-public-safety-officer.png)
 

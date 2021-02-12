@@ -37,7 +37,7 @@ Esta guía es para profesionales de TI que impulsan las implementaciones de Offi
 
 El entorno de Office 365 Government - GCC High cumple los requisitos de la administración pública de EE. UU. para los servicios en la nube. Además de disfrutar de las características y capacidades de Office 365, las organizaciones se benefician de las siguientes características que son exclusivas de Office 365 Government – GCC High:
 
-- El contenido de cliente de la organización se separa lógicamente del contenido del cliente en los servicios comerciales de Office 365 de Microsoft.
+- El contenido de cliente de su organización se separa lógicamente del contenido del cliente en los servicios comerciales de Office 365 de Microsoft.
 - El contenido de cliente de su organización se almacena en Estados Unidos.
 - El acceso al contenido de cliente de su organización está restringido al personal de Microsoft con pantalla.
 - Office 365 Government – GCC High cumple con las certificaciones y los procesos necesarios para los clientes del sector público de EE. UU.
@@ -76,7 +76,7 @@ Le recomendamos que se tome [](enable-features-office-365.md) un tiempo para rev
 
 Para adaptarse a los requisitos de nuestros clientes de la nube de la administración pública, hay algunas diferencias entre Teams en Office 365 Administración Pública - GCC High y Teams en los planes de Enterprise. Consulte la tabla siguiente para ver qué características están disponibles.
 
-[Descripción del servicio Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+[Descripción del servicio de Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Plan de gobernanza
 
@@ -88,7 +88,7 @@ Determine sus requisitos para el gobierno y cómo puede cumplirlos. Vaya a [Plan
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams para la colaboración
 
-Una vez que se haya incorporado a Office 365 Government: GCC High, siga la ruta de implementación recomendada que se describe en Cómo implementar [Microsoft Teams.](How-to-roll-out-teams.md) Asegúrese de colaborar con su equipo de adopción y administración de cambios y con los campeones de Teams.
+Una vez que se haya incorporado a Office 365 Government: GCC High, siga la ruta de implementación recomendada que se describe en Cómo implementar [Microsoft Teams.](How-to-roll-out-teams.md) Asegúrese de participar con su equipo de adopción y administración de cambios y con los campeones de Teams.
 
 También puede trabajar con [FastTrack o](https://www.microsoft.com/fasttrack) con su partner elegido para incorporar el servicio.
 

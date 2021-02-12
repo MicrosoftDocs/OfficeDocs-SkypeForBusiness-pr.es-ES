@@ -65,7 +65,7 @@ Vea las siguientes secciones para obtener más información sobre la planeación
     
 - [Planear el control de admisión de llamadas en Skype Empresarial Server](call-admission-control.md)
     
-- [Planificar los servicios de emergencia en Skype Empresarial Server](emergency-services.md)
+- [Planear los servicios de emergencia en Skype Empresarial Server](emergency-services.md)
     
 - [Planear la omisión de medios en Skype Empresarial](media-bypass.md)
     

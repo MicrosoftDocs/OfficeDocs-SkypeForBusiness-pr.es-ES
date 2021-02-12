@@ -45,7 +45,7 @@ Si no tiene una buena conectividad entre los puntos de conexión de Skype Empres
     
 6. Haga clic en **Confirmar**.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planear la omisión de medios en Skype Empresarial](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   

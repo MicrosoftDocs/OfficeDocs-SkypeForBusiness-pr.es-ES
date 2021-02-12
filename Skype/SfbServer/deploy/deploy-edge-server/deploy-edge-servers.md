@@ -49,7 +49,7 @@ Como se indica en la planeación, configurará la interfaz de red con DNS en la 
   
 2. En la interfaz externa, configurará **una** de las siguientes opciones:
     
-   a. Tres direcciones IP estáticas en la subred de la red perimetral externa y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure las opciones dns del adaptador para que apunten a un par de servidores DNS perimetrales.
+   a. Tres direcciones IP estáticas en la subred de la red perimetral externa y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure las opciones de DNS del adaptador para que apunten a un par de servidores DNS perimetrales.
     
    b. Una dirección IP estática en la subred de la red perimetral externa y apunte la puerta de enlace predeterminada a la interfaz interna del firewall externo. Configure las opciones dns del adaptador para que apunten a un par de servidores DNS perimetrales. Esta configuración solo es aceptable si ha configurado previamente la topología para que tenga valores no estándar en las asignaciones de puertos, que se trata en el artículo Crear la topología perimetral para [Skype Empresarial Server.](create-your-edge-topology.md)
     
@@ -66,15 +66,15 @@ Como se indica en la planeación, configurará la interfaz de red con DNS en la 
   
 2. En la interfaz externa, configurará **una** de las siguientes opciones:
     
-   a. Tres direcciones IP estáticas en la subred de red perimetral externa. También tendrá que configurar la puerta de enlace predeterminada en la interfaz externa, por ejemplo, definir el enrutador orientado a Internet o el firewall externo como puerta de enlace predeterminada. Configure las opciones dns del adaptador para que apunten a un servidor DNS externo, idealmente un par de servidores DNS externos.
+   a. Tres direcciones IP estáticas en la subred de red perimetral externa. También tendrá que configurar la puerta de enlace predeterminada en la interfaz externa, por ejemplo, definir el enrutador orientado a Internet o el firewall externo como puerta de enlace predeterminada. Configure las opciones de DNS del adaptador para que apunten a un servidor DNS externo, idealmente un par de servidores DNS externos.
     
-   b. Una dirección IP estática en la subred de red perimetral externa. También tendrá que configurar la puerta de enlace predeterminada en la interfaz externa, por ejemplo, definir el enrutador orientado a Internet o el firewall externo como puerta de enlace predeterminada. Configure las opciones de DNS del adaptador para que apunten a un servidor DNS externo o, idealmente, a un par de servidores DNS externos. Esta configuración solo es aceptable si ha configurado previamente la topología para que tenga valores no estándar en las asignaciones de puertos, que se trata en el artículo Crear la topología perimetral para [Skype Empresarial Server.](create-your-edge-topology.md)
+   b. Una dirección IP estática en la subred de la red perimetral externa. También tendrá que configurar la puerta de enlace predeterminada en la interfaz externa, por ejemplo, definir el enrutador orientado a Internet o el firewall externo como la puerta de enlace predeterminada. Configure las opciones de DNS del adaptador para que apunten a un servidor DNS externo o, idealmente, a un par de servidores DNS externos. Esta configuración solo es aceptable si ha configurado previamente la topología para que tenga valores no estándar en las asignaciones de puertos, que se trata en el artículo Crear la topología perimetral para [Skype Empresarial Server.](create-your-edge-topology.md)
     
 3. En la interfaz interna, configure una DIRECCIÓN IP estática en la subred de red perimetral interna y no establezca una puerta de enlace predeterminada. Deje también vacía la configuración DNS del adaptador.
     
 4. Cree rutas estáticas persistentes en la interfaz interna a todas las redes internas donde residen los clientes, Skype Empresarial Server y los servidores de mensajería unificada de Exchange.
     
-5. Edite el archivo HOST en cada servidor perimetral para que contenga un registro para el servidor del próximo salto o la DIRECCIÓN IP virtual (VIP). Este registro será el director, el servidor Standard Edition o el grupo de servidores front-end que configuró como la dirección del próximo salto del servidor perimetral en topology Builder. Si usa el equilibrio de carga de DNS, incluya una línea para cada miembro del grupo de servidores del próximo salto.
+5. Edite el archivo HOST en cada servidor perimetral para que contenga un registro para el servidor del próximo salto o la IP virtual (VIP). Este registro será el director, el servidor Standard Edition o el grupo de servidores front-end que configuró como la dirección del próximo salto del servidor perimetral en topology Builder. Si usa el equilibrio de carga de DNS, incluya una línea para cada miembro del grupo de servidores del próximo salto.
     
 ## <a name="installation"></a>Instalación
 
@@ -92,13 +92,13 @@ Para completar estos pasos correctamente, deberá haber seguido los pasos del ar
     
 6. Aparecerá **el cuadro de diálogo Configurar réplica** local del almacén de administración central. Debe hacer clic en **Importar desde un archivo (recomendado para servidores perimetrales).**
     
-7. Desde aquí, vaya a la ubicación de la topología que exportó anteriormente, seleccione el archivo .zip, haga clic en **Abrir** y, a continuación, haga clic en **Siguiente.**
+7. Desde aquí, vaya a la ubicación de la topología que exportó anteriormente, seleccione el archivo .zip, haga clic en Abrir y, a continuación, haga clic en **Siguiente.**
     
 8. El Asistente para la implementación leerá el archivo de configuración y escribirá el archivo de configuración XML en el equipo local.
     
 9. Cuando el proceso **Ejecución de comandos** se complete, haga clic en **Finalizar**.
     
-10. En el Asistente para la implementación, haga **clic en Paso 2. Instalar o quitar componentes de Skype Empresarial Server**. A continuación, el asistente instalará los componentes perimetrales de Skype Empresarial Server especificados en el archivo de configuración XML que se ha almacenado en el equipo local.
+10. En el Asistente para la implementación, haga **clic en Paso 2. Instalar o quitar componentes de Skype Empresarial Server.** A continuación, el asistente instalará los componentes perimetrales de Skype Empresarial Server especificados en el archivo de configuración XML que se ha almacenado en el equipo local.
     
 11. Una vez completada la instalación, puede pasar a los pasos de la **sección Certificados** a continuación.
     
@@ -135,7 +135,7 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. En **Descargar un certificado de ca, cadena de certificados o CRL,** haga clic en Descargar cadena de certificados de **CA.**
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. En el **cuadro Descargar archivo,** haga clic **en Guardar**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. En el cuadro **Descarga de** archivos, haga clic **en Guardar**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. Guarde el archivo .p7b en la unidad de disco duro del servidor y cópielo en una carpeta en cada uno de los servidores perimetrales.
     

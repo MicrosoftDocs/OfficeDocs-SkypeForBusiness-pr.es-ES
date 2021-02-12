@@ -1,5 +1,5 @@
 ---
-title: Administrar directivas de identificación de llamadas en Microsoft Teams
+title: Administrar directivas de identificador de llamada en Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Aprenda a usar y administrar directivas de identificación de llamadas en Microsoft Teams para cambiar o bloquear la identificación de llamadas de los usuarios de su organización.
+description: Aprenda a usar y administrar directivas de identificador de llamada en Microsoft Teams para cambiar o bloquear el identificador de llamada de los usuarios de Teams de su organización.
 ms.openlocfilehash: c3eabc5a9e906fd514ce92864e08cad5015f6670
 ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
@@ -25,50 +25,50 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 08/26/2020
 ms.locfileid: "47255533"
 ---
-# <a name="manage-caller-id-policies-in-microsoft-teams"></a>Administrar directivas de identificación de llamadas en Microsoft Teams
+# <a name="manage-caller-id-policies-in-microsoft-teams"></a>Administrar directivas de identificador de llamada en Microsoft Teams
 
 >[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
 
-Como administrador, puede usar directivas de identificación de llamadas en Microsoft Teams para cambiar o bloquear la identificación de llamadas (también conocida como identificador de línea de llamada). De forma predeterminada, se puede ver el número de teléfono de los usuarios de Teams cuando hacen una llamada a un teléfono PSTN y el número de teléfono de los autores de llamadas RTC se puede ver al llamar a un usuario de Teams. Puede usar las directivas de identificación de llamadas para mostrar un número de teléfono alternativo para los usuarios de equipos de su organización o impedir que se muestre un número entrante.
+Como administrador, puede usar las directivas de identificador de llamada de Microsoft Teams para cambiar o bloquear el identificador de llamada (también conocido como identificador de línea de llamada). De forma predeterminada, se puede ver el número de teléfono de los usuarios de Teams cuando hacen una llamada a un teléfono RTC y el número de teléfono de las personas que llaman a RTC se puede ver cuando llaman a un usuario de Teams. Puede usar directivas de identificador de llamada para mostrar un número de teléfono alternativo para los usuarios de Teams de su organización o bloquear la visualización de un número entrante.
 
-Por ejemplo, cuando los usuarios hacen una llamada, puede cambiar la identificación de llamadas para mostrar el número de teléfono principal de su organización en lugar de los números de teléfono de los usuarios.
+Por ejemplo, cuando los usuarios hacen una llamada, puede cambiar el identificador de llamada para que muestre el número de teléfono principal de su organización en lugar de los números de teléfono de los usuarios.
 
-Para administrar las directivas de identificación de llamadas, **Voice**vaya a  >  **directivas de identificación de llamadas** de voz en el centro de administración de Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
+Para administrar las directivas de identificación de llamadas, vaya a las **directivas de** identificador de llamada de voz en el Centro de administración de Microsoft  >   Teams. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada.
 
-## <a name="create-a-custom-caller-id-policy"></a>Crear una directiva de identificación de llamadas personalizada
+## <a name="create-a-custom-caller-id-policy"></a>Crear una directiva de identificador de llamada personalizada
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Voice**  >  **directivas de identificación de llamadas**de voz.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a las directivas **de** identificador de llamada  >  **de voz.**
 2. Haga clic en **Agregar**. <br>
-![Captura de pantalla de la nueva página de la Directiva de identificación de llamadas en el centro de administración](media/caller-id-policies-add-policy.png)
+![Captura de pantalla de la página nueva directiva de identificador de llamada en el centro de administración](media/caller-id-policies-add-policy.png)
 3. Escriba un nombre y una descripción para la directiva.
 4. Desde aquí, elija la configuración que desee:
 
-    - **Bloquear la identificación de llamadas entrantes**: activa esta configuración para bloquear la identificación de llamadas entrantes de llamadas entrantes.
-    - **Invalidar la Directiva de identificación de llamadas**: activa esta configuración para permitir a los usuarios invalidar la configuración de la Directiva relativa a la presentación de su número a destinatarios o no. Esto significa que los usuarios pueden elegir si deseas Mostrar la identificación de llamadas. Para obtener más información, consulte [control del usuario final de la identificación de llamadas salientes](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id).
-    - **Cambie la identificación de llamadas por**: establezca la identificación de llamadas que se va a mostrar para los usuarios seleccionando una de las siguientes opciones:
+    - **Bloquear la identificación de llamadas entrantes:** active esta opción para impedir que se muestre el identificador de llamada de las llamadas entrantes.
+    - **Invalidar la directiva de identificación de** llamadas: active esta configuración para permitir que los usuarios invaliden o no la configuración de la directiva en cuanto a mostrar o no su número a los autores de llamadas. Esto significa que los usuarios pueden elegir si desea mostrar su identificador de llamada. Para obtener más información, vea [el control por parte del usuario final del identificador de llamada saliente.](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)
+    - **Reemplace el identificador de llamada por:** establezca el identificador de llamada para que se muestre a los usuarios seleccionando una de las opciones siguientes:
 
-        - **Número de usuario**: muestra el número de usuario. 
-        - **Número de servicio**: te permite establecer un número de teléfono de servicio para que se muestre como la identificación de llamadas.
-        - **Anonymous**: muestra la identificación de llamadas como anónima.
+        - **Número de usuario:** muestra el número del usuario. 
+        - **Número de servicio:** le permite establecer un número de teléfono de servicio para que se muestre como identificador de llamada.
+        - **Anónimo:** muestra el identificador de llamada como anónimo.
 
-    - **Reemplazar la identificación de llamadas por este número de servicio**: elige un número de servicio para reemplazar la identificación de llamadas de los usuarios. Esta opción está disponible si seleccionaste **número de servicio** en **reemplazar la identificación de llamadas por**.
+    - **Reemplazar el identificador de llamada con este número de servicio:** elija un número de servicio para reemplazar el identificador de llamada de los usuarios. Esta opción está disponible si ha seleccionado Número de **servicio en** Reemplazar el identificador de **llamada con.**
 
-5. Haga clic en **Guardar **.
+5. Haga clic en **Guardar**.
 
 ## <a name="edit-a-caller-id-policy"></a>Editar una directiva de identificación de llamadas
 
-Puede editar la directiva global o cualquier directiva personalizada que cree. 
+Puede editar la directiva global o las directivas personalizadas que cree. 
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Voice**  >  **directivas de identificación de llamadas**de voz.
-2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
-3. Cambie la configuración que desee y, a continuación, haga clic en **Guardar**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a las directivas **de** identificador de llamada  >  **de voz.**
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla y, luego, en **Editar**.
+3. Cambie la configuración que desee y, a continuación, haga clic en **Guardar.**
 
-## <a name="assign-a-custom-caller-id-policy-to-users"></a>Asignar una directiva de identificación de llamadas personalizada a los usuarios
+## <a name="assign-a-custom-caller-id-policy-to-users"></a>Asignar una directiva de identificador de llamada personalizada a los usuarios
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Nuevo: CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 
-[Asignar directivas a los usuarios de Teams](assign-policies.md)
+[Asignar directivas a los usuarios en Teams](assign-policies.md)

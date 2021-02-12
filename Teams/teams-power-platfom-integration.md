@@ -26,7 +26,7 @@ ms.locfileid: "49804570"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Integración de Teams con Microsoft Power Platform
 
-La plataforma Power Platform de Microsoft ayuda a los usuarios a acelerar su desarrollo con herramientas de código bajo para analizar datos con **Power BI,** crear aplicaciones personalizadas con **Power Apps,** automatizar procesos con **Power Automate** y crear bots inteligentes con Agentes virtuales de **Power** más rápidamente que nunca. Con el cambio al trabajo remoto e híbrido, Microsoft Teams ha habilitado a los usuarios de todo el mundo para que puedan seguir crear, colaborar y comunicarse. Con más de 75 millones de usuarios activos diarios, Teams es la manera en que las personas están trabajando.
+Microsoft Power Platform ayuda a los usuarios a acelerar su desarrollo con herramientas de código bajo para analizar datos con **Power BI,** crear aplicaciones personalizadas con **Power Apps,** automatizar procesos con **Power Automate** y crear bots inteligentes con Agentes virtuales de **Power** más rápidamente que nunca. Con el cambio al trabajo remoto e híbrido, Microsoft Teams ha habilitado a los usuarios de todo el mundo para que puedan seguir crear, colaborar y comunicarse. Con más de 75 millones de usuarios activos diarios, Teams es la manera en que las personas están trabajando.
 
 :::image type="content" source="media/teams-power-platform-integration.png" alt-text="Imagen que resume Teams y Microsoft Power Platform":::
 
@@ -43,9 +43,9 @@ Las nuevas funcionalidades para crear aplicaciones, bots y flujos de trabajo est
 
 ## <a name="licensing"></a>Licencias
 
-Las nuevas funcionalidades están disponibles para las suscripciones de Microsoft 365 que seleccione.
+Las nuevas funcionalidades están disponibles para las suscripciones a Microsoft 365 que seleccione.
 
-- Para obtener más información sobre los requisitos de licencia para Power Apps, Power Automate, Power Virtual Agents y Dataverse para Teams, consulte [Licencias.](https://go.microsoft.com/fwlink/?linkid=2143647)
+- Para obtener más información sobre los requisitos de licencia para Power Apps, Power Automate, Power Virtual Agents y Dataverse para Teams, vea [Licencias.](https://go.microsoft.com/fwlink/?linkid=2143647)
 - Para obtener más información sobre los requisitos de licencia para Power BI, vea [Requisitos.](https://go.microsoft.com/fwlink/?linkid=2143490)
  
 ## <a name="how-do-i-get-started"></a>¿Cómo puedo empezar?

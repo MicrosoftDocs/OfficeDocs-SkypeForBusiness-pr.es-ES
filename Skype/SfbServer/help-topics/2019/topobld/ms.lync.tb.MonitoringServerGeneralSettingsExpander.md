@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'En el Generador de topologías, puede editar las propiedades de un servidor de supervisión individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea del panel Acciones y, a continuación, haciendo clic en Editar propiedades y cambiando cualquiera de las siguientes opciones:'
+description: 'En el Generador de topologías, puede editar las propiedades de un servidor de supervisión individual haciendo clic con el botón secundario en el servidor de supervisión del árbol de consola y, a continuación, haciendo clic en Acción en la barra de herramientas, o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en Editar propiedades y cambiando cualquiera de las siguientes opciones:'
 ms.openlocfilehash: 6faca541b287071dab458f5ab4ce6372fc6e592e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

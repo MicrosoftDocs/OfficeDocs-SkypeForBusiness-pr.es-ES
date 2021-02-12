@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Más información sobre cómo marcar números gratuitos en Panamá, como la disponibilidad, la disponibilidad de las redes móviles, las líneas fijas y las redes móviles y las restricciones.
+description: Obtenga información sobre cómo marcar números gratuitos en Panamá, incluida la disponibilidad, la disponibilidad de red móvil y por cable o fija, y las restricciones.
 ms.openlocfilehash: 9b9d590d1e1c03d792b2537f335e7466e56d89ed
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140319"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>Restricciones de marcado de número gratuito en Panamá
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> | 00-800-XXX-XXXX <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> | 00-800-XXX-XXXX <br/> |
 |Código ISO de país o región  <br/> |PA  <br/> |
-|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Solo de C&amp;.  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Solo de C&amp;.  <br/> |
 |Disponibilidad de red móvil  <br/> |No  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |El cliente debe marcar 011 (el código de larga distancia internacional de Panamá) antes del número gratuito.  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |El cliente debe llamar al 011 (el código internacional de Panamá de larga distancia) antes del número gratuito.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

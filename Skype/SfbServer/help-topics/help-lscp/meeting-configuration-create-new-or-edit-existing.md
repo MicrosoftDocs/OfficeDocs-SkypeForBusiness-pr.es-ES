@@ -44,11 +44,11 @@ En la siguiente lista se describen los campos de la página.
 
   - **Todos** Seleccione esta opción para designar automáticamente a cualquiera como moderador.
 
-- **Tipo de conferencia asignado de forma predeterminada** Esta configuración controla si el Complemento de conferencias de Outlook siempre programa conferencias mediante la conferencia asignada por el organizador, lo que significa que las conferencias programadas siempre tienen la misma dirección URL de unión e información de audio. Active esta casilla para que las conferencias programadas siempre usen la misma dirección URL. Desactívela para usar una dirección URL distinta para cada conferencia.
+- **Tipo de conferencia asignado de forma predeterminada** Esta configuración controla si el complemento de conferencia de Outlook programa siempre conferencias mediante la conferencia asignada por el organizador, lo que significa que las conferencias programadas siempre tienen la misma dirección URL de unión e información de audio. Active esta casilla para que las conferencias programadas siempre usen la misma dirección URL. Desactívela para usar una dirección URL distinta para cada conferencia.
 
 - **Admitir usuarios anónimos de forma predeterminada** Active esta casilla si los usuarios anónimos (es decir, no autenticados) pueden asistir a conferencias de forma predeterminada. Desactívela si los usuarios anónimos no pueden asistir a conferencias de forma predeterminada.
 
-- **Dirección URL del logotipo** Escriba la dirección URL que tiene la imagen que se usará para las invitaciones de conferencia personalizadas.
+- **Dirección URL del logotipo** Escriba la dirección URL que tiene la imagen que se usará para las invitaciones a conferencias personalizadas.
 
 - **Dirección URL de ayuda** Escriba la dirección URL de un sitio web donde los usuarios puedan obtener ayuda para unirse a la conferencia.
 

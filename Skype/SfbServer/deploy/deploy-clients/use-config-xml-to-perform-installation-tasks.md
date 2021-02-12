@@ -43,7 +43,7 @@ De forma predeterminada, Config.xml archivo que se almacena en la carpeta princi
 
 - \\server\share\Skype15\Skype.WW \Config.xml
 
-Los Config.xml que se usan con más frecuencia para la instalación de Skype Empresarial se enumeran en la tabla siguiente.
+En la Config.xml se enumeran los elementos que se usan con más frecuencia para la instalación de Skype Empresarial.
 
 **Elementos de Config.xml**
 

@@ -45,7 +45,7 @@ Puede implementar directivas en las formas que se indican a continuación. Esto 
 |---------|---------|
 |Por organizador    |Al implementar una directiva por organizador, todos los participantes de la reunión heredan la directiva del organizador. Ejemplo: **Admitir automáticamente personas** es una directiva por organizador y controla si los usuarios pueden unirse a la reunión directamente o esperar en la sala de espera para reuniones programadas por el usuario al que se ha asignado la directiva.          |
 |Por usuario    |Cuando implementa una directiva por usuario, solo la directiva por usuario se aplica para restringir determinadas características para el organizador o los participantes de la reunión. Por ejemplo, **Permitir Reunirse ahora en los canales** es una directiva por usuario.     |
-|Por organizador y por usuario     |Cuando implementa una combinación de una directiva por organizador y por usuario, se restringen determinadas características a los participantes de la reunión en función de las directivas de los usuarios y del organizador. Por ejemplo, **Permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta opción para permitir a los usuarios iniciar y detener una grabación.
+|Por organizador y por usuario     |Cuando implementa una combinación de una directiva por organizador y por usuario, se restringen determinadas características a los participantes de la reunión en función de las directivas de los usuarios y del organizador. Por ejemplo, **Permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta configuración para permitir a los usuarios iniciar y detener una grabación.
 
 Puede editar la configuración en la directiva global o crear y asignar una o más directivas personalizadas. Los usuarios obtendrán la directiva global, a menos que usted cree y asigne una directiva personalizada.
 
@@ -211,7 +211,7 @@ Veamos el ejemplo siguiente.
 |Amanda | Location1MeetingPolicy | Activado|
 |John (usuarios externos) | No aplicable | No aplicable|
 
-Daniela, incluso si fue organizadora no puede grabar porque su directiva está desactivada. Juan, que tiene habilitada la configuración de directiva, puede grabar reuniones incluso las organizadas por Daniela. Si Juana organizaba una reunión, ella podrá grabar esa reunión, pero Daniela, que tiene la configuración de directiva deshabilitada y Juan, que es usuario externo, no puede grabar esa reunión.
+Daniela, incluso si fue organizadora no puede grabar porque su directiva está desactivada. Director, que tiene habilitada la configuración de directiva, puede grabar reuniones incluso las organizadas por Daniela. No obstante, si Juana organizase una reunión, podrá grabar esa reunión; sin embargo, Daniela, que tiene deshabilitada la configuración de directiva y Juan, que es usuario externo, no podrá grabar esa reunión.
 
 Para más información sobre la grabación de reuniones en la nube, consulte [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 
@@ -557,7 +557,7 @@ Para especificar si los usuarios pueden personalizar su fondo de vídeo en una r
 > Teams no puede filtrar las imágenes cargadas por los usuarios. Al usar la configuración **AllFilters**, debe tener directivas de organización internas para evitar que los usuarios puedan cargar imágenes ofensivas, inadecuadas, o para las cuales la organización no tenga derechos de uso en el contexto de fondos para reuniones de Teams.
 
 > [!NOTE]
-> Estas características no están disponibles para todos los clientes de Teams. Para obtener más información, consulte el título _Vídeo y_ fondos en Reuniones y eventos [en directo.](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)
+> Estas características no están disponibles para todos los clientes de Teams. Para obtener más información, consulte el _título Vídeo y_ fondos en Reuniones y eventos en [directo.](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)
 
 ## <a name="related-topics"></a>Temas relacionados
 

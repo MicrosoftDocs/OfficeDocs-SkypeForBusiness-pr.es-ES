@@ -17,7 +17,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-description: Comportamiento de coexistencia entre Teams & Skype empresarial, incluidos los parámetros de enrutamiento, el chat & el enrutamiento de llamadas, chats & las llamadas de subprocesos ya existentes, & presencia.
+description: Coexistencia entre Teams & Skype Empresarial, incluidos parámetros de enrutamiento, enrutamiento de llamadas & chat, chats & llamadas desde conversaciones preexistentes, & presencia.
 ms.openlocfilehash: 9dd2baa717466b0f414168356256b6d78ce33f6a
 ms.sourcegitcommit: e5e60079cf9d62627de6b26dd4badd353bcc190c
 ms.translationtype: MT
@@ -27,169 +27,169 @@ ms.locfileid: "48661352"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
-La coexistencia y la interoperabilidad entre Skype empresarial y los clientes de equipos se definen en los modos de TeamsUpgrade, que se describen en [Guía de migración e interoperabilidad para las organizaciones que usan Teams conjuntamente con Skype empresarial](migration-interop-guidance-for-teams-with-skype.md).
+La coexistencia y la interoperabilidad entre los clientes y usuarios de Skype Empresarial y Teams se define en los modos TeamsUpgrade, que se describen en la guía de migración e interoperabilidad para las organizaciones que usan Teams junto con [Skype Empresarial.](migration-interop-guidance-for-teams-with-skype.md)
 
-A cualquier usuario determinado siempre se le asignará un modo TeamsUpgrade, ya sea de forma predeterminada o explícita por el administrador. El valor predeterminado es *islas*. Los usuarios que se actualizan a teams tienen el modo de *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*y *SfBWithTeamsCollabAndMeetings* también son posibles modos.
+A un usuario determinado se le asignará siempre un modo TeamsUpgrade, ya sea de forma predeterminada o explícita por el administrador. El valor predeterminado es *Islas.* Los usuarios actualizados a Teams tienen el *modo de TeamsOnly.* *SfBOnly,* *SfBWithTeamsCollab* y *SfBWithTeamsCollabAndMeetings* también son posibles modos.
 
 
 ## <a name="routing-parameters"></a>Parámetros de enrutamiento
 
-El modo TeamsUpgrade del destinatario es clave para determinar el comportamiento de los chats, las llamadas y la presencia, tanto dentro de un espacio empresarial como en los inquilinos federados.
+El modo de cambio a Teams del destinatario es clave para determinar el comportamiento de los chats, las llamadas y la presencia, tanto en un inquilino como en todos los inquilinos federados.
 
-Si el remitente usa Teams, la decisión de enrutamiento se realiza al crear una conversación nueva. Los subprocesos de conversación existentes en Teams siempre conservan el método de enrutamiento determinado cuando se creó el subproceso: Teams es compatible con subprocesos persistentes.
+Si el remitente usa Teams, la decisión de enrutamiento se toma al crear un nuevo hilo de conversación. Los hilos de conversación existentes en Teams siempre conservan el método de enrutamiento que se determina cuando se creó el hilo: Teams admite conversaciones persistentes.
 
  Los métodos de enrutamiento de subprocesos son:  
 
-- *nativo* para un equipo para una conversación de equipos en el inquilino
-- *interoperabilidad* de equipos para conversaciones de Skype empresarial en el inquilino
-- *federado* para una conversación federada entre espacios empresariales
+- *nativo* de una conversación de Teams a Teams en el espacio empresarial
+- *interoperabilidad* de una conversación de Teams a Skype Empresarial en el inquilino
+- *federado para* una conversación federada entre inquilinos
 
-Los parámetros que determinan el método de enrutamiento de subprocesos son:
+Los parámetros que determinan el método de enrutamiento de hilos son:
 
 - El modo TeamsUpgrade del destinatario
-- El cliente usado por el remitente
-- Si la conversación es nueva o parte de un subproceso existente
-- Si la conversación es de inquilinos o federados
+- El cliente que ha usado el remitente
+- Si la conversación es nueva o parte de un hilo existente
+- Si la conversación es dentro del inquilino o federado
 - Si la conversación es posible
-    - La interoperabilidad *dentro del inquilino* requiere que el inquilino sea en línea o en un entorno híbrido de Skype empresarial. Los inquilinos puramente locales no pueden tener interoperabilidad entre inquilinos.
-    - *La Federación entre inquilinos* siempre requiere una configuración de Federación adecuada de Skype empresarial, así como una configuración de Federación de equipos adecuados de ambos inquilinos. Skype empresarial híbrido no es necesario para ningún inquilino.
-    - Si la cuenta de Skype empresarial del creador está hospedada en local, ese usuario no puede usar el cliente de Teams para la interoperabilidad en el inquilino o para la Federación. Ese usuario solo puede usar el cliente de Skype empresarial para la interoperabilidad y la Federación.
-    - La comunicación entre equipos siempre es posible en el inquilino.
+    - *La interoperabilidad dentro* del espacio empresarial requiere que el espacio empresarial sea en línea puros o una implementación híbrida de Skype Empresarial. Los inquilinos locales puramente no pueden tener interoperabilidad dentro del espacio empresarial.
+    - *La federación entre inquilinos* siempre requiere una configuración de federación de Skype Empresarial correcta, así como una configuración de federación de Teams adecuada de ambos inquilinos. Skype Empresarial híbrido no es necesario para ninguno de los inquilinos.
+    - Si la cuenta de Skype Empresarial del creador está local, ese usuario no podrá usar el cliente de Teams para interoperabilidad en el espacio empresarial ni para federación. Ese usuario solo puede usar el cliente de Skype Empresarial para interoperabilidad y federación.
+    - La comunicación entre equipos de Teams siempre es posible dentro del espacio empresarial.
 
 > [!NOTE]
-> Si el receptor y el remitente están en modo de actualización de TeamsOnly, la conversación será una experiencia de chat nativa que incluye todas las capacidades enriquecidas de mensajería y llamada. Para obtener más información, lea [experiencia de chats nativos para usuarios externos (federados) en Teams](native-chat-for-external-users.md). Si alguno de los participantes de la conversación no está en el modo de actualización de TeamsOnly, la conversación seguirá siendo una experiencia de interoperabilidad con los mensajes de solo texto.
+> Si el receptor y el remitente se encuentran en el modo de actualización de TeamsOnly, la conversación será una experiencia de chat nativa que incluye todas las capacidades avanzadas de mensajería y llamadas. Para obtener más información, lea [La experiencia de chat nativa para usuarios externos (federados) en Teams.](native-chat-for-external-users.md) Si alguno de los participantes de la conversación NO está en el modo de actualización de TeamsOnly, la conversación sigue siendo una experiencia interoperabilidad con mensajes de solo texto.
 
 ## <a name="chat-and-call-routing"></a>Enrutamiento de llamadas y chats
 
-### <a name="in-tenant-routing-for-new-chats-or-calls"></a>Enrutamiento en el inquilino para nuevos chats o llamadas 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>Enrutamiento en el espacio empresarial para nuevos chats o llamadas 
 
-Las tablas siguientes capturan el enrutamiento de llamadas y chats en inquilino y son válidos para llamadas nuevas o chats que no se inician desde un subproceso ya existente. Describe qué cliente recibirá una nueva llamada o un chat, si ha sido originado por un usuario de la izquierda, para un usuario de ese inquilino a la derecha.
+Las tablas siguientes capturan el enrutamiento de llamadas y chats dentro del espacio empresarial, y son válidas para llamadas o chats nuevos que no se inician desde una conversación ya existente. Aquí se describe qué cliente recibirá una nueva llamada o chat, si es originado por un usuario a la izquierda, a un usuario destinatario en el inquilino a la derecha.
 
-Los mensajes enviados a los usuarios de TeamsOnly siempre se enrutarán a teams. Los mensajes enviados a \* los usuarios de SfB siempre se dirigirán a Skype empresarial, si la conversación es posible según se describe anteriormente. Los mensajes enviados a los usuarios de las islas siempre se enrutarán al mismo cliente desde el que fueron enviados.
+Los mensajes enviados a los usuarios de TeamsOnly siempre se enruta a Teams. Los mensajes enviados a usuarios de SfB siempre se enruta a Skype Empresarial, si la conversación \* es posible como se describió anteriormente. Los mensajes enviados a los usuarios de las Islas siempre se enruta al mismo cliente desde el que se enviaron.
 
-En las tablas siguientes se muestra qué cliente de un modo determinado recibirá una llamada del originador (tres columnas del extremo izquierdo), según el modo del creador, el cliente elegido y la ubicación de su cliente de Skype empresarial (local o en línea).
+Las tablas siguientes muestran qué cliente en un modo determinado recibirá una llamada del autor (tres columnas situadas más a la izquierda), según el modo del autor, el cliente elegido y dónde se encuentra el cliente de Skype Empresarial (local o en línea).
 
-En las siguientes tablas: 
-- **SfB \* * _ representa cualquiera de los siguientes modos: _SfBOnly *, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+En las tablas siguientes: 
+- **SfB \** _ representa cualquiera de los siguientes modos: _SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
-- El *texto en cursiva* resalta una conversación interoperativa.
+- *El texto en cursiva* resalta una conversación de interoperabilidad.
 
-- **No es posible** representa una situación en la que no es posible la conversación o la llamada. En su lugar, el creador debe usar Skype empresarial en estos casos. Esta es una de las razones por las que la orientación prescriptiva de Microsoft para clientes locales o híbridos es usar un modo distinto de islas (generalmente SfBWithTeamsCollab) como punto de partida de la actualización del viaje a teams.
+- **No es** posible representa una situación en la que el chat o la llamada no es posible. El creador debe usar Skype Empresarial en su lugar en estos casos. Este es uno de los motivos por los que la guía prescriptiva de Microsoft para los clientes locales/híbridos es usar un modo que no sea Islas (normalmente SfBWithTeamsCollab) como punto de partida de su viaje de actualización a Teams.
 
-**Tabla 1A: nueva conversación en el inquilino o enrutamiento de llamadas a un destinatario de modo islas**
+**Tabla 1a: nuevo chat en el espacio empresarial o enrutamiento de llamadas a un destinatario del modo islas**
 
-| <br/><br/> Modo | Autor <br/><br/> Cliente | <br/><br/> SfB &nbsp; |<br/><br/>Ruta: >| Remite <br/><br/> Aplicaciones aisladas  |
+| <br/><br/> Modo | Creador <br/><br/> Cliente | <br/><br/> SfB &nbsp; homed |<br/><br/>Route-->| Destinatario <br/><br/> Aplicaciones aisladas  |
 |--- |--- |--- |--- |--- |
-| Aplicaciones aisladas | Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial| En línea<br/> En línea<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial|
-|SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv;|Skype Empresarial<br/>Skype Empresarial<br/>|
-|TeamsOnly |Equipos| Online<br/>|&boxv;<br/>|Equipos|
+| Aplicaciones aisladas | Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial| En línea<br/> En línea<br/> On-prem<br/>On-prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial|
+|SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> On-prem<br/> |&boxv;<br/>&boxv;|Skype Empresarial<br/>Skype Empresarial<br/>|
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**Tabla 1B: nueva conversación en el inquilino o enrutamiento de llamadas a un destinatario en \* modo SfB**
+**Tabla 1b: nuevo chat en el espacio empresarial o enrutamiento de llamadas a un destinatario en modo \* SfB**
 
-| <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB &nbsp; |<br/><br/>Ruta: > |   Remite <br/><br/> SfB\*   |
+| <br/><br/> Modo   | Creador <br/><br/> Cliente | <br/><br/> SfB &nbsp; homed |<br/><br/>Route--> |   Destinatario <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| Aplicaciones aisladas |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial<br/> **No es posible** <br/>Skype Empresarial<br/> |
-|SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv; |  Skype Empresarial<br/>Skype Empresarial<br/> |
-|TeamsOnly |Equipos| Online<br/>|&boxv;<br/> |  *Skype Empresarial* <br/>| 
+| Aplicaciones aisladas |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial<br/> **No posible** <br/>Skype Empresarial<br/> |
+|SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> On-prem<br/> |&boxv;<br/>&boxv; |  Skype Empresarial<br/>Skype Empresarial<br/> |
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype Empresarial* <br/>| 
 | | | | | |
 
-**Tabla 1C: nueva conversación en el inquilino o enrutamiento de llamadas a destinatarios en modo TeamsOnly**
+**Tabla 1c: nuevo chat en el espacio empresarial o enrutamiento de llamadas a un destinatario de modo TeamsOnly**
 
-| <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB &nbsp; |<br/><br/>Ruta: >|   Remite <br/><br/> TeamsOnly  |
+| <br/><br/> Modo   | Creador <br/><br/> Cliente | <br/><br/> SfB &nbsp; homed |<br/><br/>Route-->|   Destinatario <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Aplicaciones aisladas   |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial<br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Equipos <br/>*Teams* <br/>Teams <br/>*Teams*  |
-|SfB\*  | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
-|TeamsOnly  | Equipos | Online |  &boxv; |Equipos   |
+| Aplicaciones aisladas   |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial<br/>|En línea<br/> En línea<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+|SfB\*  | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> On-prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
+|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
 ### <a name="federated-routing-for-new-chats-or-calls"></a>Enrutamiento federado para nuevos chats o llamadas
   
-Las tablas siguientes capturan el enrutamiento de llamadas federadas y chats, y son válidas para nuevas llamadas o chats. Describen qué cliente recibirá una nueva llamada o un chat, si ha sido originado por un usuario de la izquierda, a un usuario de destino federado a la derecha.
+Las tablas siguientes capturan el enrutamiento de llamadas y chats federados, y son válidas para las nuevas llamadas o chats. Describen qué cliente recibirá una nueva llamada o chat, si es originado por un usuario a la izquierda, a un usuario de destino federado a la derecha.
 
-En Resumen, si la conversación es posible según se describe anteriormente, los mensajes enviados a los usuarios de TeamsOnly siempre estarán en el equipo. los mensajes enviados a \* los usuarios de SfB siempre estarán en Skype para empresas, y los mensajes enviados a los usuarios de las islas siempre estarán en Skype para empresas, independientemente del cliente desde el que se enviaron. El enrutamiento de chats y llamadas federadas difiere del enrutamiento de inquilino en que los usuarios de las islas siempre recibirán una comunicación federada en Skype empresarial.
+En resumen, si la conversación es posible como se describió anteriormente, los mensajes enviados a los usuarios de TeamsOnly siempre llegarán a Teams; Los mensajes enviados a usuarios de SfB siempre llegarán a Skype Empresarial; los mensajes enviados a los usuarios de las Islas siempre llegarán a Skype Empresarial independientemente del cliente desde el que se \* enviaron. El enrutamiento para chats federados y llamadas difiere del enrutamiento dentro del inquilino en que los usuarios de las Islas siempre recibirán una comunicación federada en Skype Empresarial.
 
-Esto se debe a que no se puede suponer que un socio federado de Skype empresarial ya usa Teams si está en modo islas. Islas es el modo predeterminado, pero no podemos asumir que todos los usuarios de las islas ejecutan Teams. Al enrutar a Skype empresarial, garantizamos que no se produzcan errores de comunicación con un usuario de islas. Si se enrutan a Teams, esa comunicación podría perderse si el destino no utilizase Teams. El enrutamiento a Skype empresarial siempre garantiza que el mensaje se recibirá.  
+Esto se debe a que no podemos suponer que un partner federado de Skype Empresarial ya usa Teams si se encuentra en el modo Islas. Las islas son el modo predeterminado, pero no podemos suponer que todos los usuarios de las islas ejecutan Teams. Al enrutar a Skype Empresarial, garantizamos que no se produce un error en la comunicación con un usuario de las Islas. Si se enrutó a Teams, se podría perder esa comunicación si el destino no usa Teams. El enrutamiento a Skype Empresarial garantiza que siempre se recibirá el mensaje.  
 
 > [!NOTE]
-> La implementación actual de la Federación de equipos se basa en la Federación de Skype empresarial y, por lo tanto, aprovecha la infraestructura de interoperabilidad (que requiere que el inquilino del originador sea en línea o en un entorno híbrido de Skype empresarial) y ofrece un conjunto reducido de capacidades comparadas con un subproceso nativo. Esperamos proporcionar equipos nativos a la Federación de equipos en el futuro, momento en el que el hilo será nativo y ofrecerá todas las funciones.
+> La implementación actual de la federación de Teams se basa en la federación de Skype Empresarial, por lo que aprovecha la infraestructura de interoperabilidad (que requiere que el inquilino del creador sea en línea puros o skype empresarial híbrido) y proporciona un conjunto reducido de capacidades en comparación con un hilo nativo. Esperamos proporcionar Teams nativo a la federación de Teams en el futuro, momento en el que la conversación será nativa y proporcionará funcionalidades completas.
 
-Las tablas siguientes describen qué cliente recibirá una llamada de su originador (tres columnas del extremo izquierdo), según el modo del creador, el cliente elegido y la ubicación de su cliente de Skype empresarial (local o en línea).
+En las tablas siguientes se describe qué cliente recibirá una llamada del autor (tres columnas situadas más a la izquierda), según el modo del autor, el cliente elegido y dónde se encuentra el cliente de Skype Empresarial (local o en línea).
 
-**Tabla 2A: nueva conversación o enrutamiento de llamadas a un destinatario de islas**
+**Tabla 2a: Enrutamiento de llamadas o chats nuevos federados a un destinatario de las islas**
 
-| <br/><br/>Modo   | Autor<br/><br/> Cliente| <br/><br/>SfB|<br/><br/>Ruta: > | Remite<br/><br/> Aplicaciones aisladas |
+| <br/><br/>Modo   | Creador<br/><br/> Cliente| <br/><br/>SfB homed|<br/><br/>Route--> | Destinatario<br/><br/> Aplicaciones aisladas |
 |--- |--- |--- |--- |--- |
-| Aplicaciones aisladas |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible**   <br/> Skype Empresarial |
-| SfB\* |Skype Empresarial <br/>Skype Empresarial |Online<br/> Local<br/> | &boxv;<br/>&boxv;|Skype Empresarial <br/>Skype Empresarial |
-| TeamsOnly |Equipos |Online| &boxv;|*Skype Empresarial* |
+| Aplicaciones aisladas |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No posible**   <br/> Skype Empresarial |
+| SfB\* |Skype Empresarial <br/>Skype Empresarial |Online<br/> On-prem<br/> | &boxv;<br/>&boxv;|Skype Empresarial <br/>Skype Empresarial |
+| TeamsOnly |Teams |Online| &boxv;|*Skype Empresarial* |
 |  | | | | 
 
-**Tabla 2B: nueva conversación o enrutamiento de llamadas a un destinatario en modo SfB \***
+**Tabla 2b: enrutamiento de llamadas o chat nuevo federado a un destinatario en modo \* SfB**
 
-| <br/><br/>Modo   | Autor<br/><br/> Cliente| <br/><br/>SfB|<br/><br/>Ruta: >|  Remite<br/><br/> SfB\* |  
+| <br/><br/>Modo   | Creador<br/><br/> Cliente| <br/><br/>SfB homed|<br/><br/>Route-->|  Destinatario<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Aplicaciones aisladas |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible** <br/>Skype Empresarial <br/> |  
-| SfB\* |Skype Empresarial <br/>Skype Empresarial  |Online<br/> Local<br/>  |&boxv;<br/>&boxv; | Skype Empresarial <br/>Skype Empresarial  |
-| TeamsOnly | Equipos|Online |&boxv; |*Skype Empresarial*  |
+| Aplicaciones aisladas |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> On-prem<br/> On-prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No posible** <br/>Skype Empresarial <br/> |  
+| SfB\* |Skype Empresarial <br/>Skype Empresarial  |Online<br/> On-prem<br/>  |&boxv;<br/>&boxv; | Skype Empresarial <br/>Skype Empresarial  |
+| TeamsOnly | Teams|Online |&boxv; |*Skype Empresarial*  |
 |  | | | | |
 
-**Tabla 2C: nueva conversación federada o enrutamiento de llamadas a destinatarios en modo TeamsOnly**
+**Tabla 2c: nuevo chat federado o enrutamiento de llamadas a un destinatario de modo TeamsOnly**
 
-| <br/><br/>Modo | Autor<br/><br/> Cliente| <br/><br/>SfB|<br/><br/>Ruta: >|  Remite<br/>  <br/> TeamsOnly  |
+| <br/><br/>Modo | Creador<br/><br/> Cliente| <br/><br/>SfB homed|<br/><br/>Route-->|  Destinatario<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Aplicaciones aisladas  |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Equipos <br/>*Teams* <br/>**No es posible** <br/>*Teams* |
-| SfB\* |Skype Empresarial <br/>Skype Empresarial  | Online<br/> Local| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
-| TeamsOnly |Equipos |Online |&boxv; |Equipos |
+| Aplicaciones aisladas  |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**No posible** <br/>*Teams* |
+| SfB\* |Skype Empresarial <br/>Skype Empresarial  | Online<br/> On-prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
+| TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>Chats y llamadas de conversaciones preexistentes
 
 ### <a name="from-teams"></a>Desde Teams
 
-Las llamadas o conversaciones iniciadas desde un subproceso persistente preexistente en Teams se redirigirán de la misma manera que ese subproceso, si esa opción de enrutamiento aún está disponible.
+Las llamadas o chats iniciados desde un hilo persistente existente en Teams se enruta de la misma manera que esa conversación, si esa opción de enrutamiento sigue estando disponible.
 
-Si el subproceso persistente preexistente de Teams era un subproceso nativo (es decir, enrutado a teams), los mensajes de chat adicionales y las llamadas de ese subproceso Irán a teams. Si se trataba de un subproceso de interoperabilidad (por ejemplo, enrutado a Skype empresarial), los mensajes de chat y las llamadas adicionales se enviarán a Skype empresarial (siempre que estén disponibles las opciones de enrutamiento).
+Si el hilo persistente existente en Teams era una conversación nativa (es decir, enrutada a Teams), otros mensajes de chat y llamadas de esa conversación irán a Teams. Si se trataba de un subproceso de interoperabilidad (es decir, enrutado a Skype Empresarial), las llamadas y mensajes de chat adicionales irán a Skype Empresarial (siempre que las opciones de enrutamiento estén disponibles).
 
 > [!NOTE]
-> Es posible que los subprocesos predeterminados de Teams dejen de ser enrutables, como cuando el subproceso era un subproceso de interoperabilidad para un usuario que se ha actualizado a teams. Puesto que se creó como un subproceso de interoperabilidad, el subproceso se dirigirá a Skype empresarial, pero ese usuario ya no podrá usar Skype empresarial para conversaciones y llamadas. En ese caso, el subproceso se deshabilitará y no permitirá ninguna comunicación adicional.
+> Es posible que los subprocesos existentes en Teams ya no sean enrutables, como cuando la conversación era un hilo de interoperabilidad con un usuario que ahora se ha actualizado a Teams. Puesto que se creó como un subproceso de interoperabilidad, la conversación se enruta a Skype Empresarial, pero ese usuario ya no puede usar Skype Empresarial para chatear y llamar. En ese caso, la conversación se deshabilitará y no permitirá una comunicación posterior.
 
-### <a name="from-skype-for-business"></a>Desde Skype empresarial
+### <a name="from-skype-for-business"></a>Desde Skype Empresarial
 
-Los subprocesos de Skype empresarial no persisten más allá del tiempo de espera de sesión SIP de 10 minutos. Los chats y las llamadas desde un subproceso existente en Skype empresarial antes del vencimiento de la sesión SIP se redirigirán de la misma manera que el hilo. Las llamadas y los chats de un subproceso existente en Skype empresarial más allá del tiempo de espera de la sesión SIP se enrutarán a la Skype empresarial de la parte remota, independientemente del cliente del que provenga la conversación original.
+Los hilos de Skype Empresarial no se conservan más allá de los 10 minutos. El tiempo de espera de la sesión SIP es superior a 10 minutos. Los chats y llamadas de un hilo existente en Skype Empresarial antes de que expire la sesión SIP se enruta de la misma manera que la conversación. Las llamadas y chats de un hilo existente en Skype Empresarial más allá del tiempo de espera de la sesión SIP se enruta al Skype Empresarial del usuario remoto, independientemente del cliente del que provenía el hilo original del otro usuario.
 
 ### <a name="availability"></a>Disponibilidad
 
-Los comportamientos en el inquilino y en el inquilino descritos anteriormente están disponibles, con las siguientes limitaciones:
+Están disponibles tanto los comportamientos federados como dentro del espacio empresarial descritos anteriormente, con las siguientes limitaciones:
 
-- Los asistentes externos cuyos inquilinos residen en una implementación o geografía diferente de GoLocal no verán la conversación de mensajes instantáneos en una reunión "federada".
-- No se admite la Federación y la interoperabilidad entre O365 y nubes soberanos multiinquilino.
+- Los asistentes externos cuyos inquilinos residen en una implementación de GoLocal diferente o en una ubicación geográfica no verán el chat de mensajería instantánea en una reunión "federada"
+- No se admiten la federación ni la interoperabilidad entre O365 multitenant y las nubes sovereign
 
 ## <a name="presence"></a>Presence
 
-Cuando tiene una situación en la que algunos de los usuarios usan el cliente de Teams y otros siguen usando el cliente de Skype empresarial, es posible que tenga un número de usuarios que están usando ambos clientes. Aún quiere que los Estados de presencia se compartan con todos los usuarios sin tener en cuenta qué cliente tiene un usuario individual. Cuando se comparte en toda la organización, los usuarios pueden determinar mejor si es adecuado iniciar una conversación o hacer una llamada.
+Si tiene una situación en la que algunos de los usuarios usan el cliente de Teams y otros usan el cliente de Skype Empresarial, es posible que tenga varios usuarios que usan ambos clientes. Desea que los estados de presencia se compartan con todos los usuarios sin tener en cuenta el cliente que tiene un usuario individual. Cuando esto se comparte en toda la organización, los usuarios pueden determinar mejor si es apropiado iniciar un chat o realizar una llamada.
 
-Por ejemplo, si la conversación o la llamada de un creador se deben colocar en el cliente de Skype empresarial de destino, la presencia del cliente de Skype empresarial debe mostrarse al autor. Si se debe colocar en el cliente de Teams de destino, se debe mostrar la presencia del cliente de Teams.
+Por ejemplo, si el chat o la llamada de un autor debe llegar al cliente de Skype Empresarial del destino, la presencia del cliente de Skype Empresarial es lo que debe mostrarse al autor. Si debe llegar al cliente de Teams del destino, entonces es la presencia del cliente de Teams la que debe mostrarse.
 
-Para saber qué comportamiento esperar, necesitará comprender que la presencia se comparte en función del modo de coexistencia del usuario:
+Para saber qué comportamiento esperar, debe comprender que la presencia se comparte en función del modo de coexistencia de un usuario:
 
-* Si un usuario está en modo TeamsOnly, cualquier otro usuario (ya sea en Teams o en Skype empresarial) verá la presencia de Teams de TeamsOnly de usuario.
-* Si un usuario se encuentra en cualquiera de los \* modos SfB (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), cualquier otro usuario (ya sea en Teams o Skype empresarial) verá la presencia de SfB de \* usuario de Skype empresarial.
-* Si un usuario está en modo islas (o heredadas), la presencia en Teams y la presencia de Skype empresarial son independientes (no es necesario que los valores coincidan) y otros usuarios verán una o la otra presencia del usuario de las islas, en función de si están en el mismo inquilino o en un inquilino federado y qué cliente usan
-    * En Teams, cualquier otro usuario dentro del mismo inquilino verá la presencia de equipos del usuario de islas; Esto se alinea con la tabla de enrutamiento en el inquilino anterior
-    * En Teams, cualquier otro usuario de un inquilino federado verá la presencia de Skype empresarial por parte del usuario de las islas; Esto se ha alineado con la tabla de enrutamiento federado anterior
-    * Desde Skype empresarial, cualquier otro usuario verá la presencia de Skype empresarial del usuario de islas (tanto en el inquilino como en el servicio federado). Esto se ha alineado con las tablas de enrutamiento anteriores
+* Si un usuario está en modo TeamsOnly, cualquier otro usuario (ya sea en Teams o Skype Empresarial) verá la presencia de Teams del usuario de Teams
+* Si un usuario se encuentra en cualquiera de los modos SfB \* (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), cualquier otro usuario (tanto en Teams como en Skype Empresarial) verá la presencia del usuario de SfB en Skype Empresarial. \*
+* Si un usuario está en modo Islas (o heredado), la presencia en Teams y la presencia en Skype Empresarial son independientes (los valores no coinciden) y otros usuarios verán una o la otra presencia del usuario de las Islas, dependiendo de si se encuentran en el mismo inquilino o en un inquilino federado y qué cliente usan.
+    * Desde Teams, cualquier otro usuario del mismo inquilino verá la presencia de Teams del usuario de las Islas; esto está alineado con la tabla de enrutamiento del espacio empresarial anterior
+    * Desde Teams, cualquier otro usuario de un inquilino federado verá la presencia de Skype Empresarial del usuario de las Islas; está alineado con la tabla de enrutamiento federada anterior
+    * Desde Skype Empresarial, cualquier otro usuario verá la presencia de Skype Empresarial del usuario de las Islas (tanto in-tenant como federado); esto está alineado con las tablas de enrutamiento anteriores
 
 
-### <a name="in-tenant-presence"></a>Presencia en el inquilino
+### <a name="in-tenant-presence"></a>Presencia en el espacio empresarial
 
-Los mensajes enviados a los usuarios de TeamsOnly siempre estarán en el equipo. Los mensajes enviados a \* los usuarios de SfB siempre estarán en Skype para empresas, si la conversación es posible según se describe anteriormente. Los mensajes enviados a los usuarios de las islas siempre se encontrarán en el cliente desde el que se han originado.
+Los mensajes enviados a los usuarios de TeamsOnly siempre llegarán a Teams. Los mensajes enviados a usuarios de SfB siempre llegarán a Skype Empresarial, si la conversación es posible \* tal y como se ha descrito anteriormente. Los mensajes enviados a los usuarios de las Islas siempre llegarán al cliente del que se han originado.
 
-En la tabla se describe la presencia del editor que verá un monitor, según el modo del editor y el cliente del observador (para un nuevo hilo).
+En la tabla se describe la presencia de Publisher que verá un watcher, según el modo del editor y el cliente del watcher (para un nuevo hilo).
 
-**Tabla 3: presencia en el inquilino (nuevo subproceso)**
+**Tabla 3: presencia dentro del espacio empresarial (nueva conversación)**
 
-|Monitor <br/><br/>Cliente|<br/><br/>Ruta: > |<br/><br/>Aplicaciones aisladas |Publisher <br/><br/>SfB\* |<br/>Solo equipos|
+|Watcher <br/><br/>Cliente|<br/><br/>Route--> |<br/><br/>Aplicaciones aisladas |Publisher <br/><br/>SfB\* |<br/>Solo equipos|
 |--- |--- |--- |--- |---|
 |Skype Empresarial |&boxv;|Skype Empresarial | Skype Empresarial | Teams|
 |Teams |&boxv; |Microsoft Teams |Skype Empresarial |Teams |
@@ -197,25 +197,25 @@ En la tabla se describe la presencia del editor que verá un monitor, según el 
 
 ### <a name="federated-presence"></a>Presencia federada
 
-La presencia federada se basa en la disponibilidad federada que se muestra en la tabla 2.
+La presencia federada se basa en la capacidad de acceso federada que se muestra en la tabla 2.
 
-En la tabla siguiente se describe la presencia del editor que verá un monitor, según el modo del editor y el cliente del observador (para un nuevo subproceso). En la práctica, el cliente del monitor no hace ninguna diferencia en la Federación en este momento.
+En la tabla siguiente se describe la presencia de Publisher que verá un watcher, según el modo del editor y el cliente del watcher (para un nuevo subproceso). En la práctica, el cliente del Watcher no tiene diferencias en la federación en esta fase.
 
-**Tabla 4: presencia federada (nuevo hilo)**
+**Tabla 4: presencia federada (nueva conversación)**
 
-|Monitor <br/><br/> Cliente |<br/><br/>Ruta: >|<br/><br/> Aplicaciones aisladas  |Publisher <br/><br/> SfB\* |<br/><br/> Solo equipos |
+|Watcher <br/><br/> Cliente |<br/><br/>Route-->|<br/><br/> Aplicaciones aisladas  |Publisher <br/><br/> SfB\* |<br/><br/> Solo equipos |
 |--- |--- |--- |--- |---|
 |Skype Empresarial |&boxv; |Skype Empresarial  | Skype Empresarial  | Teams  |
 |Microsoft Teams | &boxv;|Skype Empresarial |Skype Empresarial |Teams|
 | | | | ||
 
-### <a name="presence-in-pre-existing-threads"></a>Presencia en subprocesos preexistentes
+### <a name="presence-in-pre-existing-threads"></a>Presencia en conversaciones existentes
 
-Para alinear la presencia y la disponibilidad en subprocesos ya existentes, la presencia de destino expuesta en ese subproceso debe estar alineada con el enrutamiento del subproceso, siempre que sea posible el enrutamiento.
+Para alinear la presencia y el alcance en los subprocesos existentes, la presencia del destino expuesta en ese subproceso debe alinearse con el enrutamiento de la conversación, suponiendo que el enrutamiento es posible.
 
-En particular, si un destinatario tenía un subproceso de conversación de interoperabilidad persistente con el que se actualizó a Teams, ese subproceso ya no reflejará la presencia exacta y ya no podrá ser enrutable. Debes iniciar un nuevo hilo.
+En particular, si un destinatario al que previamente tenía una conversación de interoperabilidad persistente con se actualizó a Teams, esa conversación ya no reflejará la presencia precisa y ya no se enrutable. Debería iniciar una nueva conversación.
 
 ## <a name="related-links"></a>Vínculos relacionados
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-[Vídeo: administrar la coexistencia y la interoperabilidad entre SfB y Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+[Vídeo: Administrar coexistencia e interoperabilidad entre SfB y Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

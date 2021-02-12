@@ -49,7 +49,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Usar la ubicación solo para E9-1-1** Active esta casilla si la información de ubicación se va a usar solo para llamadas de emergencia.
 
-- **Uso de RTC** Seleccione el uso de la red telefónica conmutada (RTC) que se usará para determinar qué ruta de voz se usará para enrutar llamadas de emergencia de clientes que usen este perfil. La ruta asociada a este uso debe apuntar a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que enruta las llamadas de emergencia al Punto de respuesta de seguridad pública (PSAP) más cercano. Las opciones son **Interno**, **Local** o **Larga distancia**.
+- **Uso de RTC** Seleccione el uso de la red telefónica conmutada (RTC) que se usará para determinar qué ruta de voz se usará para enrutar las llamadas de emergencia de los clientes que usan este perfil. La ruta asociada a este uso debe apuntar a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que enruta las llamadas de emergencia al Punto de respuesta de seguridad pública (PSAP) más cercano. Las opciones son **Interno**, **Local** o **Larga distancia**.
 
 - **Número de marcado E9-1-1** Especifique el número que se marca para llegar a los servicios de emergencia.
 

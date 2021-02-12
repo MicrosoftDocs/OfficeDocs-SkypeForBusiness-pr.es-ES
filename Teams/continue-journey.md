@@ -1,5 +1,5 @@
 ---
-title: Cómo usar Microsoft Teams de forma eficaz
+title: Cómo usar Microsoft Teams de manera eficaz
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
-description: Obtenga información sobre cómo usar Teams para supervisar el estado de la red, mantener los usuarios involucrados y prepararse para nuevas funcionalidades.
+description: Aprenda a usar Teams para supervisar el estado de la red, mantener a los usuarios involucrados y prepararse para nuevas funciones.
 localization_priority: Normal
 ms.custom:
 - Teams-upgrade-guidance
@@ -27,37 +27,37 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 12/05/2020
 ms.locfileid: "49578053"
 ---
-# <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams de forma eficaz
+# <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams de manera eficaz
 
-![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
+![Diagrama de viaje de actualización, que enfatiza la fase de excelencia operativa](media/upgrade-banner-op-excellence.png "Fases del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
-Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
+Este artículo forma parte de la fase de excelencia operativa del viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype Empresarial a Teams.
 
-La tecnología está innovando a un ritmo sin precedentes. Mantener la actualidad y habilitar un entorno de trabajo moderno se ha convertido en un estándar de funcionamiento de las organizaciones. Puesto que Microsoft Teams, Microsoft 365 y la visión inteligente de la comunicación de Microsoft continúan unfolding, disponer de un plan operativo le ayudará a asegurarse de que su organización está configurada para el éxito a largo plazo. Un plan operativo óptimo incluye la supervisión de su entorno para la salud y la calidad, el continuo impulso del usuario para optimizar la adopción y la planificación de nuevas funcionalidades que continuarán conectando a través del tiempo.
+La tecnología es innovadora a un ritmo excelente. Mantenerse al día y habilitar un entorno laboral moderno se ha convertido en un estándar en el funcionamiento de las organizaciones. A medida que Microsoft Teams, Microsoft 365 y la visión inteligente de comunicación de Microsoft siguen siendo agradables, tener un plan operativo en su lugar le ayudará a garantizar que su organización está configurada para el éxito a largo plazo. Un plan de funcionamiento óptimo incluye la supervisión del entorno de salud y calidad, el impulso continuado del usuario para optimizar la adopción y la planificación de nuevas funciones que continuarán en línea a lo largo del tiempo.
 
 ## <a name="monitor-for-network-health-and-quality"></a>Supervisar el estado y la calidad de la red
 
-El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene una experiencia deficiente (por ejemplo, llamar a caídas o tiempos de posposición al unirse a reuniones), lo correlaciona con la tecnología en sí, lo que tiene la impresión de que la tecnología no funciona y abre la puerta de las aplicaciones no compatibles. Implementar un plan para supervisar y mitigar el estado de la red le ayudará a garantizar una experiencia de usuario positiva además de reducir las llamadas a su servicio de asistencia al cliente. Para obtener más información, vea:
+El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene una experiencia deficiente (por ejemplo, el tiempo de las llamadas se reduce o el tiempo de retraso al unirse a las reuniones), correlaciona esto con la tecnología en sí, lo que les da la impresión de que la tecnología no funciona y abren la puerta a aplicaciones no compatibles. Implementar un plan para supervisar y mitigar el estado de la red le ayudará a garantizar una experiencia de usuario positiva además de reducir las llamadas al servicio de soporte técnico. Para obtener más información, vea:
 
 - [Ejecutar los servicios](upgrade-operate-my-service.md)
 - [Supervisar y mejorar la calidad de las llamadas](monitor-call-quality-qos.md)
 - [Mejorar los servicios](upgrade-enhance-my-service.md)
 
-## <a name="drive-user-momentum-and-adoption"></a>Impulsar el impulso y la adopción de usuarios
+## <a name="drive-user-momentum-and-adoption"></a>Impulsar el impulso y la adopción de los usuarios
 
-Para obtener los máximos beneficios y resultados empresariales con Teams, los usuarios deben usarlos realmente. Sin embargo, el entusiasmo inicial tiende a Wane y los usuarios vuelven fácilmente a las formas de trabajar. Anime a la adopción por el usuario y mantenga el entusiasmo de los equipos con un plan de adopción continuo, que puede incluir:
+Para lograr el máximo beneficio y resultados empresariales con Teams, los usuarios deben usarlo realmente. Sin embargo, la expectación inicial tiende a disminuyer y los usuarios pueden volver fácilmente a las antiguas formas de trabajar. Anime a la adopción de usuarios y mantenga la expectativa de Teams con un plan de adopción continua, que puede incluir:
 
-- Inscripción a los expertos para ayudar a repartir y fomentar a otros usuarios.
-- Consulta la [Guía de adopción de 365 de Microsoft](https://go.microsoft.com/fwlink/?linkid=859045) para conocer sugerencias sobre el aumento de la negociación y la adopción de impulsos.
-- Aprovechar el [Kit de éxito](https://aka.ms/TeamsCustomerSuccess) de los equipos para mejorar el conocimiento y compartir las mejores prácticas.
-- Implementar una [adopción formal y una estrategia de administración de cambios](http://www.successwithteams.com/) para ayudar a sostener el crecimiento de la adopción.
+- Enlistar a colegas campeones para ayudar a promover y animar a los demás usuarios.
+- Consulta la Guía [de adopción de Microsoft 365](https://go.microsoft.com/fwlink/?linkid=859045) para obtener sugerencias sobre cómo impulsar la participación y fomentar la adopción.
+- Usar el kit de [éxito del cliente de Teams](https://aka.ms/TeamsCustomerSuccess) para mejorar el conocimiento y compartir los procedimientos recomendados.
+- Implementar una estrategia formal de [adopción y administración de cambios para](http://www.successwithteams.com/) ayudar a mantener el crecimiento de la adopción.
 
-## <a name="prepare-for-new-functionality"></a>Prepararse para nuevas funcionalidades
+## <a name="prepare-for-new-functionality"></a>Prepararse para nuevas funciones
 
-El ciclo de vida de cualquier tecnología dada se ha desplazado a un ciclo de crecimiento dinámico. Esto significa que los planes de equipos y los planes de Microsoft 365 seguirán unfoldándose, con nuevas funcionalidades que se iluminan con una cadencia normal. Establecer un ciclo de cambio en la organización le asegurará que está listo para administrar las mejoras de colaboración continuas y obtener el máximo valor. Esto puede incluir:
+El ciclo de vida de cualquier tecnología determinada ha pasado a un ciclo de crecimiento dinámico. Esto significa que las hojas de ruta de Teams y Microsoft 365 seguirán siendo diferentes, con nuevas funcionalidades que estarán disponibles con una cadencia regular. Establecer un ciclo de cambios dentro de la organización garantizará que está listo para administrar las mejoras de colaboración continua y lograr el valor máximo. Esto puede incluir:
 
-- Supervisar la [Guía básica](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)de Teams.
-- Implemente un formulario de planificación de cambios (como se muestra a continuación) para preparar e implementar nuevas funcionalidades. Asegúrese de incluir las actividades de disponibilidad técnica y de usuario.
+- Supervise la hoja de [ruta](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)de Teams.
+- Implemente un formulario de planeación de cambios (como se muestra a continuación) para preparar e implementar nuevas funciones. Asegúrese de incluir las actividades de preparación técnica y de usuario.
 
 
-![Formulario de ejemplo que muestra las fechas y notas de lanzamiento esperadas](media/upgrade-change-plan-form.png "Formulario de ejemplo que muestra las fechas de lanzamiento previstas y notas acerca de la nueva funcionalidad, enumeradas con los siguientes pasos y propietarios")
+![Formulario de ejemplo que muestra las fechas de publicación y notas esperadas](media/upgrade-change-plan-form.png "Formulario de ejemplo que muestra las fechas de lanzamiento esperadas y notas sobre la nueva funcionalidad, con los siguientes pasos y propietarios")

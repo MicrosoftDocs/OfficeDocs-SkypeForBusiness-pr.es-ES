@@ -27,7 +27,7 @@ ms.locfileid: "49804120"
 
 Modificar la configuración del estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
 
-Si no desea usar la configuración predeterminada del estacionamiento de llamadas, puede personalizarla. Al instalar la aplicación Estacionamiento de llamadas, la configuración global se configura de forma predeterminada. Puede modificar esta configuración global y, además, puede especificar opciones de configuración específicas del sitio. Use el cmdlet **New-CsCpsConfiguration** para crear una nueva configuración específica del sitio. Use cmdlet **Set-CsCpsConfiguration** para modificar la configuración existente.
+Si no desea usar la configuración predeterminada de estacionamiento de llamadas, puede personalizarla. Al instalar la aplicación Estacionamiento de llamadas, la configuración global se configura de forma predeterminada. Puede modificar esta configuración global y, además, puede especificar opciones de configuración específicas del sitio. Use el cmdlet **New-CsCpsConfiguration** para crear una nueva configuración específica del sitio. Use cmdlet **Set-CsCpsConfiguration** para modificar la configuración existente.
 
 > [!NOTE]
 > Como mínimo, se recomienda configurar la opción **OnTimeoutURI** para el destino de reserva que se usará cuando el tiempo de espera de una llamada estacionada se agote y deje de sonar.
@@ -63,7 +63,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
 
 ## <a name="see-also"></a>Ver también
 
-[Personalizar la música en espera del estacionamiento de llamadas enSkype para Empresas 2015](customize-call-park-music-on-hold.md)
+[Personalizar la música en espera del estacionamiento de llamadas enSkype para empresas 2015](customize-call-park-music-on-hold.md)
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 

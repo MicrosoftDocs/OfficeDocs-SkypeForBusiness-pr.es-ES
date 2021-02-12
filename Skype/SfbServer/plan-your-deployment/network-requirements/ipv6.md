@@ -48,7 +48,7 @@ Si determina que va a usar direcciones IPv6, consulte el artículo Configurar ti
 
 Tiene tres opciones al configurar direcciones IP en Skype Empresarial Server. Puede configurar Skype Empresarial Server para que admita solo la versión 4 de IP (IPv4), solo la versión 6 de IP (IPv6) o una combinación de ambos (conocida como pila dual). Cada tipo de configuración entraña varios aspectos que debe tener en cuenta:
   
-- **Solo IPv4** IPv6 se creó porque el mundo se está quedando sin direcciones IPv4. En última instancia, IPv6 será totalmente compatible en todo el mundo, pero en este momento, muchas empresas y dispositivos con los que tu empresa podría tener que comunicarse aún no admiten IPv6 y es posible que no lo sean durante algún tiempo. Una configuración de solo IPv4 le ayudará a garantizar que su implementación de Skype Empresarial Server pueda comunicarse con la mayoría de los dispositivos existentes.
+- **Solo IPv4** IPv6 se creó porque el mundo se está quedando sin direcciones IPv4. En última instancia, IPv6 será totalmente compatible en todo el mundo, pero en este momento, muchas empresas y dispositivos con los que tu empresa podría tener que comunicarse no admiten aún IPv6 y es posible que no lo sean durante algún tiempo. Una configuración de solo IPv4 le ayudará a garantizar que su implementación de Skype Empresarial Server pueda comunicarse con la mayoría de los dispositivos existentes.
     
 - **Solo IPv6** Por el contrario, una implementación IPv6 completa excluirá la comunicación con muchos dispositivos existentes.
     
@@ -201,9 +201,9 @@ Se admiten los siguientes escenarios durante la migración y coexistencia:
   
 - Grupos de servidores de Skype Empresarial Server, Lync Server 2013 y Lync Server 2010 en modo IPv4, que coexisten con Skype Empresarial Server en modo de doble pila.
     
-- Grupo de servidores de Skype Empresarial Server en modo de solo IPv6, si el grupo de servidores de solo IPv6 está siloed.
+- Grupo de Skype Empresarial Server en modo de solo IPv6, si el grupo de servidores de solo IPv6 está siloed.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="migration"> </a>
 
 [Configurar tipos de direcciones IP en Skype Empresarial](ip-address-types.md)

@@ -67,7 +67,7 @@ Las siguientes son características adicionales de la aplicación Location-Based
 > [!NOTE]
 > Con la actualización acumulativa 4 de Skype Empresarial, debe observarse el comportamiento de la tabla siguiente:
 
-|Usuario|Otra parte|Acción|Resultado|
+|User|Otra parte|Action|Resultado|
 |:-----|:-----|:-----|:-----|
 |Skype Empresarial Mobile  <br/> |RTC  <br/> |Skype Empresarial Mobile está en una llamada RTC. A continuación, Skype Empresarial Mobile escala la llamada a una conferencia Operador automático (CAA).  <br/> |La llamada está bloqueada, con un mensaje de error adecuado.  <br/> |
 |Skype Empresarial Mobile  <br/> |Cliente de Skype Empresarial o usuario federado  <br/> |El cliente o el usuario federado está en una llamada VoIP a un usuario de enrutamiento de Location-Based móvil de Skype Empresarial y cualquiera de las partes escala a una CAA.  <br/> |La llamada de escalación está bloqueada, con un mensaje de error adecuado.  <br/> |
@@ -104,7 +104,7 @@ En la tabla siguiente se describe cómo Location-Based las restricciones de enru
 |Extremo de PBX en cualquier sitio  <br/> |Usuario de Skype Empresarial en un sitio de red desconocido  <br/> |Se permitirá la transferencia de consultas  <br/> |
 |Extremo de PBX en cualquier sitio  <br/> |Usuario federado de Skype Empresarial  <br/> |Se permitirá la transferencia de consultas  <br/> |
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 La aplicación Location-Based Routing for Conferencing requiere que Skype Empresarial Server o la actualización acumulativa 2 de Lync Server 2013 se implementen en todos los grupos de servidores Front-End y servidores Standard Edition de la topología. Si estas versiones de servidor no están instaladas en algunos servidores de la topología, las restricciones de enrutamiento de Location-Based no se pueden aplicar completamente en las reuniones y las transferencias de llamadas de consulta.
 

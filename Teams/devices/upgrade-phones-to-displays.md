@@ -1,5 +1,5 @@
 ---
-title: Pantallas para actualizar los teléfonos de Teams a Teams
+title: Actualizar los teléfonos de Teams a las pantallas de Teams
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -23,7 +23,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49825360"
 ---
-# <a name="upgrade-teams-phones-to-teams-displays"></a>Pantallas para actualizar los teléfonos de Teams a Teams
+# <a name="upgrade-teams-phones-to-teams-displays"></a>Actualizar los teléfonos de Teams a las pantallas de Teams
 
 > [!IMPORTANT]
 > La actualización a las pantallas de Teams solo está disponible en dispositivos Lenovo ThinkSmart View. La información de este artículo solo se aplica a este modelo de dispositivo.  
@@ -36,7 +36,7 @@ Las pantallas de Teams son una categoría de dispositivos Teams dedicados todo e
 
 ### <a name="which-teams-phones-can-be-upgraded"></a>¿Qué teléfonos de Teams se pueden actualizar?
 
-Los dispositivos Lenovo ThinkSmart View pueden actualizarse a las pantallas de Teams.
+Los dispositivos Lenovo ThinkSmart View se pueden actualizar a las pantallas de Teams.
 
 ### <a name="how-can-i-prepare-users"></a>¿Cómo puedo preparar a los usuarios?
 
@@ -52,10 +52,10 @@ Tenga en cuenta que después de actualizar un teléfono de Teams a un dispositiv
 
 ## <a name="upgrade-your-teams-phones-to-teams-displays"></a>Actualizar los teléfonos de Teams a las pantallas de Teams
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Teléfonos **de**  >  **dispositivos.**
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Teléfonos de**  >  **dispositivos.**
 2. Seleccione los teléfonos de Teams que desea actualizar y, a continuación, **seleccione Actualizar.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Captura de pantalla que muestra los teléfonos de Teams seleccionados para actualizar a teams pantallas":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Captura de pantalla que muestra los teléfonos de Teams seleccionados para actualizar a Teams":::
 
 3. En el cuadro de diálogo de visualización Actualizar a **Teams,** seleccione Programar actualización **para** establecer una fecha y hora para la actualización o **Actualizar ahora.**
 
@@ -64,7 +64,7 @@ Tenga en cuenta que después de actualizar un teléfono de Teams a un dispositiv
 > [!NOTE]
 > Si recibe un mensaje que indica que los teléfonos seleccionados no [](#which-teams-phones-can-be-upgraded)se pueden actualizar, compruebe que selecciona los teléfonos que admiten la actualización y vuelva a intentarlo.
 
-Durante el proceso de actualización, el firmware del dispositivo se actualiza a un dispositivo de pantalla de Teams, el dispositivo se reinicia y está listo para su uso. Cuando se complete la actualización, verá el dispositivo en la página **de teams** que se muestra en el Centro de administración de Microsoft Teams.
+Durante el proceso de actualización, el firmware del dispositivo se actualiza a un dispositivo de visualización de Teams, el dispositivo se reinicia y está listo para su uso. Cuando se complete la actualización, verá el dispositivo en la página **de teams** que se muestra en el Centro de administración de Microsoft Teams.
 
 La actualización puede tardar hasta una hora en completarse. Si el proceso no ha finalizado después de una hora, vuelva a intentar la actualización. También puede ir a **la** pestaña Historial de la página de detalles del dispositivo para ver el estado.
 
@@ -72,7 +72,7 @@ La actualización puede tardar hasta una hora en completarse. Si el proceso no h
 
 ### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Las pantallas de Teams tienen el tema predeterminado en lugar del tema oscuro
 
-La compatibilidad con el tema oscuro en las pantallas de Teams estará disponible en una actualización futura. Los teléfonos de Teams que usan el tema oscuro recibirán el tema Predeterminado después de la actualización a Teams.
+La compatibilidad con el tema oscuro en las pantallas de Teams estará disponible en una actualización futura. Los teléfonos de Teams que usan el tema oscuro recibirán el tema predeterminado después de la actualización a Teams.
 
 ### <a name="some-apps-are-missing-from-the-home-screen"></a>Algunas aplicaciones no aparecen en la pantalla Inicio
 

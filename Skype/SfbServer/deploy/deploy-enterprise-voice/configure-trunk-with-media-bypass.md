@@ -183,8 +183,8 @@ Una configuración de tronco tal como se describe a continuación agrupa un conj
     > [!NOTE]
     > Siempre que cree o modifique una configuración de tronco, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, [consulte Publicar los cambios pendientes en la configuración](voice-route-config-changes.md) de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
-Después de configurar el tronco, siga configurando la omisión de medios eligiendo entre las opciones globales de omisión de medios, como se describe en Implementar la omisión de medios en [Skype Empresarial Server](deploy-media-bypass.md) en la documentación sobre implementación.
-## <a name="see-also"></a>Ver también
+Después de configurar el tronco, siga configurando la omisión de medios eligiendo entre las opciones globales de omisión de medios, como se describe en [Deploy media bypass in Skype for Business Server](deploy-media-bypass.md) en la documentación sobre implementación.
+## <a name="see-also"></a>Vea también
 
 [Configurar un tronco sin desvío de medios en Skype Empresarial Server](configure-trunk-without-media-bypass.md)
 

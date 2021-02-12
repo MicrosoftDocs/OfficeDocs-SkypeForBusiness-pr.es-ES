@@ -30,12 +30,12 @@ Use este script de PowerShell para crear una directiva de mensajería en Microso
 
 Para obtener más información sobre el uso de este script de PowerShell, vea [Inicio rápido: Teams para el sector educativo.](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)
 
-Este script usa el [cmdlet Grant-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo PowerShell de Skype Empresarial Online. Consulte [La información general de PowerShell](../teams-powershell-overview.md) de Teams para obtener más información sobre cómo administrar Teams con PowerShell.
+Este script usa el [cmdlet Grant-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo PowerShell de Skype Empresarial Online. Consulte [Información general de PowerShell de](../teams-powershell-overview.md) Teams para obtener más información sobre la administración de equipos con PowerShell.
 
 
 ## <a name="before-you-start"></a>Antes de empezar
 
-Descargue e instale el [módulo de PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)de Skype Empresarial Online y reinicie el equipo si se le solicita.
+Descargue e instale el [módulo de PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)de Skype Empresarial Online y, a continuación, reinicie el equipo si se le solicita.
 
 Para obtener más información, consulte [Administrar Skype Empresarial Online con PowerShell de Office 365.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 

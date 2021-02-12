@@ -49,12 +49,12 @@ Use nuestra [Guía del Programa de campeones](https://go.microsoft.com/fwlink/?l
 
 - Use el equipo de campeones en equipo: Sus campeones deben usar el equipo que tiene configurado para ellos para todas las comunicaciones, comentarios y buscar recursos del programa.  Al hacerlo, se familiarizarán cada vez más con el producto y sus ventajas.
 
-- Mantenga reuniones mensuales periódicas: Fomente el entusiasmo y la cohesidad de su comunidad con reuniones mensuales periódicas. Pueden ser una combinación de reuniones en persona y virtuales, pero su coherencia es clave para tener una comunidad de campeones desalente.
+- Mantenga reuniones mensuales periódicas: Fomente el entusiasmo y la cohesidad de su comunidad con reuniones mensuales periódicas. Pueden ser una combinación de reuniones en persona y virtuales, pero su coherencia es clave para tener una comunidad de campeones que es científica.
 
     > [!TIP]
     > Para ayudarle a crear sus agendas, programe las reuniones de la semana posterior a la llamada pública de la comunidad. 
 
-- Tenga claro los requisitos del programa: algunos programas de campeones requieren que los miembros asistan a las reuniones mensuales, mantengan horas de oficina para el grupo de usuarios que admiten y proporcionen formación a nuevos usuarios. Sea cual sean sus requisitos, asegúrese de que los campeones estén claros sobre cómo participar correctamente en el programa.
+- Tenga claro los requisitos del programa: algunos programas de éxito requieren que los miembros asistan a las reuniones mensuales, mantengan horas de oficina para el grupo de usuarios que admiten y proporcionen formación a nuevos usuarios. Sea cual sean sus requisitos, asegúrese de que los campeones estén claros sobre cómo participar correctamente en el programa.
 
 - Recompense visiblemente a sus campeones: sus campeones le darán información importante sobre el progreso y las posibles dificultades del proyecto. Recompense a menudo por su participación. Los gestos pequeños son muy importantes y, a menudo, los empleados no buscan ganancia monetario, pero aprecian el reconocimiento por sus contribuciones. Encuentre formas divertidas y apropiadas para agradecer a su comunidad. 
 

@@ -33,7 +33,7 @@ El complemento para reuniones de Microsoft Teams para Google Workspace debe esta
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Habilitar o deshabilitar el complemento para reuniones de Microsoft Teams para Google Workspace en Azure Portal
 
-Como administrador de inquilinos, puede habilitar o deshabilitar un complemento para reuniones de Microsoft Teams para Google Workspace desde la cuenta de administrador de su organización mediante Azure Portal.
+Como administrador de inquilinos, puede habilitar o deshabilitar un complemento para reuniones de Microsoft Teams para Google Workspace desde la cuenta de administrador de su organización con Azure Portal.
 
 El complemento está habilitado de forma predeterminada.
 

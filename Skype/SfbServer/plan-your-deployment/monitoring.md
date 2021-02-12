@@ -111,7 +111,7 @@ Los datos de supervisión pueden compartir una SQL Server con otros tipos de dat
 
 En otras palabras, no puede tener dos instancias de la base de datos LcsCdr en la misma instancia de SQL Server. Si necesita varias instancias de la base de datos LcsCdr, deberá configurar varias instancias de SQL Server.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 [Implementación de supervisión](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

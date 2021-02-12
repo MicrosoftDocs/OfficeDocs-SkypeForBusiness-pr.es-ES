@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Después de migrar a Microsoft Skype empresarial Server 2019, debe realizar algunas tareas para configurar Skype empresarial Server 2019 para que funcione con System Center Operations Manager.
+description: Después de migrar a Microsoft Skype Empresarial Server 2019, debe completar algunas tareas para configurar Skype Empresarial Server 2019 para que funcione con System Center Operations Manager.
 ms.openlocfilehash: ef40890cb3ac01d8223c4b9a9cd0c4712e544376
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "44754050"
 ---
 # <a name="configure-scom-monitoring"></a>Configurar la supervisión SCOM
 
-Después de migrar a Skype empresarial Server 2019, debe realizar algunas tareas para configurar Skype empresarial Server 2019 para que funcione con System Center Operations Manager.
+Después de migrar a Skype Empresarial Server 2019, debe completar algunas tareas para configurar Skype Empresarial Server 2019 para que funcione con System Center Operations Manager.
   
 - Aplicar actualizaciones a un servidor elegido para administrar la lógica de detección central.
     
@@ -34,11 +34,11 @@ A continuación se proporcionan instrucciones para realizar cada una de estas ta
 
 1. Elija un servidor que tenga los archivos del agente System Center Operations Manager instalados y esté configurado como un nodo de detección candidato. 
     
-2. Aplicar actualizaciones a este servidor. Vea el tema [Apply updates](apply-updates.md).
+2. Aplicar actualizaciones a este servidor. Consulte el tema [Aplicar actualizaciones.](apply-updates.md)
     
 ### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Actualice la clave de registro del servidor candidato de detección central.
 
-1. En el servidor decidió administrar la lógica de detección central, abra una ventana de comandos de Windows PowerShell. 
+1. En el servidor elegido para administrar la lógica de detección central, abra una Windows PowerShell de comandos. 
     
 2. En la línea de comandos, escriba lo siguiente:
     
@@ -57,7 +57,7 @@ A continuación se proporcionan instrucciones para realizar cada una de estas ta
 
 1. En un PC donde se haya instalado la consola de System Center Operations Manager, expanda **Objetos del módulo de administración** y luego seleccione **Detecciones de objetos**.
     
-2. Haga clic en **cambiar ámbito**
+2. Haga clic **en Cambiar ámbito**
     
 3. En la página **Objetos de módulo de administración de ámbito**, seleccione **Candidato de detección de LS**.
     

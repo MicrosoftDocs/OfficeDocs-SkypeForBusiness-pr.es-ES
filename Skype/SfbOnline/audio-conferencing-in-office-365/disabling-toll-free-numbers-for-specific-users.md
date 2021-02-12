@@ -49,20 +49,20 @@ Cuando se deshabilitan los números gratuitos para un organizador determinado:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar los números gratuitos para usuarios específicos 
 
-Desde el **centro de administración de Microsoft Teams**:
+Desde el Centro **de administración de Microsoft Teams:**
 
-1. En el navegación de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1. En el panel de navegación izquierdo, haga **clic en Usuarios** y, a continuación, seleccione el usuario en la lista de usuarios disponibles.
 
-2. Junto a **audioconferencia**, haga clic en **Editar**.
+2. Junto a **Audioconferencia,** haga clic en **Editar.**
 
-3. Set **incluye números gratuitos en las convocatorias de reunión de este usuario** como **deshabilitado**. 
+3. Establezca **la opción "Incluir números gratuitos" en las solicitudes de reunión de este usuario en** **Desactivado.** 
 
-4. Haga clic en **Guardar.** 
+4. Haga clic **en Guardar.** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
-**Usar PowerShell**  
+**Con PowerShell**  
 
 Puede usar el parámetro AllowTollFreeDialIn del cmdlet Set-CsOnlineDialInConferencingUser para habilitar o deshabilitar este control. Por ejemplo: 
 
