@@ -39,6 +39,6 @@ Esta tabla se introdujo en Microsoft Lync Server 2013.
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**ThresholdId** <br/> |entero  <br/> |Principal  <br/> |Identificador único de la clasificación.  <br/> |
-|**ThresholdValue** <br/> |entero  <br/> || Límite máximo de la clasificación. Los valores permitidos son: <br/>  2  <br/>  5  <br/>  10  <br/> |
+|**ThresholdValue** <br/> |entero  <br/> || Límite máximo de la clasificación. Los valores permitidos son: <br/>  2  <br/>  5  <br/>  10   <br/> |
    
 

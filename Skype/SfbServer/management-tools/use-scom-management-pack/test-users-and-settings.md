@@ -34,7 +34,7 @@ Después de configurar el equipo que funcionará como nodo de monitor, debe hace
 ## <a name="configure-test-user-accounts"></a>Configurar cuentas de usuario de prueba
 <a name="testuser"> </a>
 
-Las cuentas de prueba no necesitan representar personas reales, pero deben ser cuentas válidas de Active Directory. Además, estas cuentas deben estar habilitadas para Skype Empresarial Server, deben tener direcciones SIP válidas y deben estar habilitadas para Telefonía IP empresarial (para usar la transacción sintética de Test-CsPstnPeerToPeerCall). 
+Las cuentas de prueba no necesitan representar personas reales, pero deben ser cuentas válidas de Active Directory. Además, estas cuentas deben estar habilitadas para Skype Empresarial Server, deben tener direcciones SIP válidas y deben estar habilitadas para Telefonía IP empresarial (para usar la transacción sintética Test-CsPstnPeerToPeerCall datos). 
   
 Si usa el método de autenticación TrustedServer, todo lo que necesita hacer es asegurarse de que estas cuentas existen y configurarlas como se indica. Debe asignar al menos dos usuarios de prueba para cada grupo de servidores que desee probar. Si usa el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el Shell de administración de Skype Empresarial Server para permitir que estas cuentas de prueba funcionen con las transacciones sintéticas. Para ello, ejecute un comando similar al siguiente (estos comandos suponen que se han creado las dos cuentas de usuario de Active Directory y que estas cuentas están habilitadas para Skype Empresarial Server):
   
@@ -68,7 +68,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 
 Este comando crea un nuevo nodo de monitor que usa la configuración predeterminada y ejecuta el conjunto predeterminado de transacciones sintéticas. El nuevo nodo de monitor también usa los usuarios de watcher1@litwareinc.com y watcher2@litwareinc.com. Si el nodo de monitor usa autenticación TrustedServer, las dos cuentas de prueba pueden ser cualquier cuenta de usuario válida habilitada para Active Directory y Skype Empresarial Server. Si el nodo de monitor usa el método de autenticación Negotiate, estas cuentas de usuario también deben estar habilitadas para el nodo de monitor mediante el cmdlet Set-CsTestUserCredential usuario.
   
-Para validar que la detección automática del grupo de destino para iniciar sesión está configurada correctamente en lugar de dirigirse a un grupo directamente, siga estos pasos en su lugar:
+Para validar que la detección automática del grupo de servidores de destino para iniciar sesión está configurada correctamente en lugar de dirigirse a un grupo directamente, siga estos pasos en su lugar:
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
@@ -268,13 +268,13 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
 ## <a name="special-setup-instructions-for-synthetic-transactions"></a>Instrucciones de configuración especiales para transacciones sintéticas
 <a name="special_synthetictrans"> </a>
 
-La mayoría de las transacciones sintéticas se pueden ejecutar en un nodo de monitor tal como está. En la mayoría de los casos, tan pronto como la transacción sintética se agrega a las opciones de configuración del nodo de monitor, el nodo de monitor puede empezar a usar esa transacción sintética durante los pases de prueba. Sin embargo, hay algunas transacciones sintéticas que requieren instrucciones de configuración especiales, como se describe en las secciones siguientes.
+La mayoría de las transacciones sintéticas se pueden ejecutar en un nodo de monitor tal como está. En la mayoría de los casos, tan pronto como se agrega la transacción sintética a las opciones de configuración del nodo de monitor, el nodo de monitor puede empezar a usar esa transacción sintética durante los pases de prueba. Sin embargo, hay algunas transacciones sintéticas que requieren instrucciones de configuración especiales, como se describe en las secciones siguientes.
   
 ### <a name="data-conferencing-synthetic-transaction"></a>Transacción sintética de conferencia de datos
 
 Si el equipo del nodo de monitor se encuentra fuera de la red perimetral, probablemente no podrá ejecutar la transacción sintética de conferencia de datos a menos que primero deshabilite la configuración de proxy de Explorador de Internet de Windows Internet Explorer® para la cuenta de servicio de red mediante los siguientes pasos:
   
-1. En el equipo del nodo de monitor, haga clic en Inicio **,** todos los **programas,** accesorios **,** haga clic con el botón secundario en Símbolo del sistema **y,** a continuación, haga clic **en Ejecutar como administrador.**
+1. En el equipo del nodo de monitor, haga clic en Inicio **,** en Todos los **programas,** **accesorios,** haga clic con el botón secundario en Símbolo del sistema **y,** a continuación, haga clic **en Ejecutar como administrador.**
     
 2. En la ventana de la consola, escriba el siguiente comando y, a continuación, presione ENTRAR. 
     
@@ -331,7 +331,7 @@ Para ejecutar esta transacción sintética, debe configurar:
     
 - Directivas VoIP y rutas de voz que permiten que las llamadas al número del receptor lleguen a la puerta de enlace RTC.
     
-- Una puerta de enlace RTC que acepta llamadas y medios que enrutarán las llamadas de vuelta al grupo de servidores principal de un receptor, en función del número marcado.
+- Una puerta de enlace RTC que acepte llamadas y medios que enrutarán las llamadas de vuelta al grupo de servidores principal de un receptor, en función del número marcado.
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transacción sintética del almacén de contactos unificado
 
@@ -397,7 +397,7 @@ Para cambiar la frecuencia con la que se ejecutan las transacciones sintéticas,
     
 4. En la ventana Propiedades de reemplazo, seleccione El nombre del parámetro "Frecuencia" y establezca el valor de invalidación en el valor deseado.
     
-5. En la misma ventana, seleccione el módulo de administración al que se debe aplicar este reemplazo.
+5. En la misma ventana, seleccione el módulo de administración al que debe aplicarse este reemplazo.
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Uso de registro enriquecido para transacciones sintéticas
 <a name="special_synthetictrans"> </a>
@@ -408,7 +408,7 @@ Por este motivo, las transacciones sintéticas proporcionan un registro enriquec
   
 - Hora en que se inició la actividad.
     
-- Hora en que finalizó la actividad.
+- Hora a la que finalizó la actividad.
     
 - La acción que se realizó (por ejemplo, crear, unirse o salir de una conferencia, iniciar sesión en Skype Empresarial Server, enviar un mensaje instantáneo).
     
@@ -433,7 +433,7 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
   
 Cuando ejecute este comando, verá un resultado similar al siguiente:
   
-Fqdn de destino : atl-cs-001.litwareinc.com resultado : latencia de error : 00:00:00 Mensaje de error : Esta máquina no tiene ningún certificado asignado. Diagnóstico: puede obtener acceso a información mucho más detallada sobre este error que solo el mensaje de error que se muestra aquí.
+Fqdn de destino : atl-cs-001.litwareinc.com resultado : latencia de error : 00:00:00 Mensaje de error : Este equipo no tiene ningún certificado asignado. Diagnóstico: puede obtener acceso a información mucho más detallada sobre este error que solo el mensaje de error que se muestra aquí.
 
 Para obtener acceso a esta información en formato HTML, use un comando similar a este para guardar la información almacenada en la variable RegistrationTest en un archivo HTML:
   

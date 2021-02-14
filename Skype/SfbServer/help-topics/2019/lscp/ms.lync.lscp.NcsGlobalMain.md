@@ -1,5 +1,5 @@
 ---
-title: Configuración global de la configuración de red
+title: Configuración de red de configuración global
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

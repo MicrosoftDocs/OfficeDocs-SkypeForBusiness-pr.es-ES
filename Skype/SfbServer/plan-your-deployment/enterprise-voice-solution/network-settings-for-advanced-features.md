@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-description: Obtenga información sobre regiones de red, sitios de red y subredes IP. Todos estos deben configurarse para implementar plan de desvío de medios en Skype Empresarial, plan de control de admisión de llamadas en Skype Empresarial Server) o plan para servicios de emergencia en Skype Empresarial Server en Skype Empresarial Server Telefonía IP empresarial.
+description: Obtenga información sobre regiones de red, sitios de red y subredes IP. Todos estos deben configurarse para implementar el plan de desvío de medios en Skype Empresarial, el plan para el control de admisión de llamadas en Skype Empresarial Server o el plan de servicios de emergencia en Skype Empresarial Server en Skype Empresarial Server Telefonía IP empresarial.
 ms.openlocfilehash: 3f7b11d2265c9b5f93633b03311d622ad9862abd
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "49813630"
 
 Obtenga información sobre regiones de red, sitios de red y subredes IP. Todos estos deben configurarse para implementar [el plan](media-bypass.md)de desvío de medios en Skype Empresarial, el plan para el control de admisión de llamadas en Skype Empresarial [Server](call-admission-control.md)o el plan de servicios de emergencia en Skype Empresarial [Server](emergency-services.md) en Skype Empresarial Server Telefonía IP empresarial.
 
-Skype Empresarial Server tiene tres características avanzadas de Telefonía IP empresarial: [Plan para](call-admission-control.md)el control de admisión de llamadas en Skype Empresarial Server , Plan para servicios de emergencia en Skype Empresarial [Server](emergency-services.md)y Plan para la omisión de medios en [Skype Empresarial.](media-bypass.md) Estas características comparten ciertos requisitos de configuración para regiones de red, sitios de red y asociación de cada subred de la topología de Skype Empresarial Server con un sitio de red.
+Skype Empresarial Server tiene tres características avanzadas de Telefonía IP empresarial: Plan para el control de admisión de llamadas en Skype Empresarial [Server,](call-admission-control.md)Plan para servicios de emergencia en [Skype Empresarial Server](emergency-services.md)y Plan para la omisión de medios en Skype [Empresarial.](media-bypass.md) Estas características comparten ciertos requisitos de configuración para regiones de red, sitios de red y asociación de cada subred de la topología de Skype Empresarial Server con un sitio de red.
 
 En este tema se proporciona información general sobre los requisitos de configuración comunes a las tres características avanzadas Telefonía IP empresarial configuración.
 
@@ -62,7 +62,7 @@ Para cada sitio de red, tendrá que trabajar con el administrador de la red para
 En nuestro ejemplo, el sitio Nueva York de la región Norteamérica puede tener asignadas las siguientes subredes IP: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, que suele trabajar en Detroit, viaja a la oficina de Nueva York para asistir a un curso enciende su equipo y se conecta a la red, su equipo obtendrá una dirección IP de uno de los cuatro rangos asignados a Nueva York, por ejemplo, 172.29.80.103.
 
 > [!CAUTION]
-> Las subredes IP especificadas durante la configuración de red del servidor deben coincidir con el formato que proporcionan los equipos cliente para que se puedan usar adecuadamente para la omisión de medios. Un cliente de Skype Empresarial toma su dirección IP local y enmascara la dirección IP con la máscara de subred asociada. Al determinar el identificador de omisión asociado a cada cliente, el registrador comparará la lista de subredes IP asociadas con cada sitio de red con la subred indicada por el cliente para comprobar que coincidan exactamente. Por este motivo, es importante que las subredes introducidas durante la configuración de la red del servidor sean subredes reales y no virtuales. (Si implementa el control de admisión de llamadas, pero no la omisión de medios, el control de admisión de llamadas funcionará correctamente incluso si configura subredes virtuales). Por ejemplo, si un cliente de Skype Empresarial inicia sesión en un equipo con una dirección IP 172.29.81.57 con una máscara de subred IP de 255.255.255.0, solicitará el identificador de omisión asociado a la subred 172.29.81.0. Si la red se define como 172.29.0.0/16, aunque el cliente pertenezca a una subred virtual, el registrador no lo considerará una coincidencia debido a que el registrador está buscando específicamente la subred 172.29.81.0. Por lo tanto, es importante que el administrador introduzca las subredes exactamente según lo proporcionado por los clientes de Skype Empresarial (que se aprovisionan con subredes durante la configuración de red, ya sea de forma estática o mediante el Protocolo de configuración dinámica de host (DHCP).
+> Las subredes IP especificadas durante la configuración de red del servidor deben coincidir con el formato que proporcionan los equipos cliente para que se puedan usar adecuadamente para la omisión de medios. Un cliente de Skype Empresarial toma su dirección IP local y enmascara la dirección IP con la máscara de subred asociada. Al determinar el identificador de omisión asociado a cada cliente, el registrador comparará la lista de subredes IP asociadas con cada sitio de red con la subred indicada por el cliente para comprobar que coincidan exactamente. Por este motivo, es importante que las subredes introducidas durante la configuración de la red del servidor sean subredes reales y no virtuales. (Si implementa el control de admisión de llamadas, pero no la omisión de medios, el control de admisión de llamadas funcionará correctamente incluso si configura subredes virtuales). Por ejemplo, si un cliente de Skype Empresarial inicia sesión en un equipo con una dirección IP 172.29.81.57 con una máscara de subred IP de 255.255.255.0, solicitará el identificador de omisión asociado a la subred 172.29.81.0. Si la red se define como 172.29.0.0/16, aunque el cliente pertenezca a una subred virtual, el registrador no lo considerará una coincidencia debido a que el registrador está buscando específicamente la subred 172.29.81.0. Por lo tanto, es importante que el administrador introduzca subredes exactamente según lo proporcionado por los clientes de Skype Empresarial (que se aprovisionan con subredes durante la configuración de red, ya sea de forma estática o mediante el Protocolo de configuración dinámica de host (DHCP).
 
 ## <a name="associating-subnets-with-network-sites"></a>Asociación de subredes con sitios de red
 
@@ -74,7 +74,7 @@ Para asociar subredes con sitios de  red, puede usar la sección Configuración 
 
 [Planear el control de admisión de llamadas en Skype Empresarial Server](call-admission-control.md)
 
-[Planificar los servicios de emergencia en Skype Empresarial Server](emergency-services.md)
+[Planear los servicios de emergencia en Skype Empresarial Server](emergency-services.md)
 
 [Planear la omisión de medios en Skype Empresarial](media-bypass.md)
 

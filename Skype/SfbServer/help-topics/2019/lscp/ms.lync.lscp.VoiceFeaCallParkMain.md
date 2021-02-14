@@ -24,7 +24,7 @@ ms.locfileid: "49812170"
 ---
 # <a name="call-park"></a>Estacionamiento de llamadas
 
-Cuando se estaciona una llamada, se transfiere a un número temporal en el que la llamada se mantiene hasta que alguien la recupera o se le hace el tiempo de espera. Debe configurar una tabla con los intervalos de números de extensión que reserva para las llamadas estacionadas. Las extensiones deben ser virtuales (es decir, extensiones que no tengan ningún usuario ni teléfono asignado). Cada grupo que ejecuta la aplicación Estacionamiento de llamadas puede tener uno o más intervalos de extensiones. Estos intervalos deben ser únicos en el nivel global en toda la implementación.
+Cuando se estaciona una llamada, se transfiere a un número temporal en el que la llamada se mantiene hasta que alguien la recupera o se hace el tiempo de espera. Debe configurar una tabla con los intervalos de números de extensión que reserva para las llamadas estacionadas. Las extensiones deben ser virtuales (es decir, extensiones que no tengan ningún usuario ni teléfono asignado). Cada grupo de servidores que ejecuta la aplicación Estacionamiento de llamadas puede tener uno o varios intervalos de extensiones. Estos intervalos deben ser únicos en el nivel global en toda la implementación.
 
 La **página Estacionamiento de** llamadas muestra una lista de todos los intervalos de números de estacionamiento de llamadas definidos para su organización.
 
@@ -56,8 +56,8 @@ En la siguiente lista se describen los campos de la página.
 
 - **Intervalo de finalización** Número final del intervalo.
 
-- **Destino** Nombre de dominio completo (FQDN) o identificador de servicio del servicio de aplicación que hospeda la aplicación estacionamiento de llamadas para el intervalo de números.
+- **Destino** Nombre de dominio completo (FQDN) o identificador de servicio del servicio de aplicación que hospeda la aplicación Estacionamiento de llamadas para el intervalo de números.
 
-Para obtener más información sobre las características y capacidades del estacionamiento de llamadas, consulte [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Para obtener más información sobre cómo trabajar con intervalos de números de estacionamiento de llamadas, vea [Configure Phone Number Extensions for Parking Calls](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
+Para obtener más información sobre las características y capacidades del estacionamiento de llamadas, consulte [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Para obtener más información sobre cómo trabajar con intervalos de números de estacionamiento de llamadas, consulte [Configure Phone Number Extensions for Parking Calls](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
 
 

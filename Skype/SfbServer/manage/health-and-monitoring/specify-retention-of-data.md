@@ -48,7 +48,7 @@ Use los procedimientos siguientes para configurar la purga de los datos de CDR.
     
 8. Haga clic en **Confirmar**.
     
-## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Especificación de la retención de CDR mediante cmdlets Windows PowerShell datos
+## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Especificación de la retención de CDR mediante Windows PowerShell cmdlets
 
 Puede definir la configuración de retención de CDR con Windows PowerShell y el cmdlet Set-CsCdrConfiguration. Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre el uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, consulte el artículo del blog "Inicio rápido: administración de [Microsoft Lync Server 2010 con PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
   

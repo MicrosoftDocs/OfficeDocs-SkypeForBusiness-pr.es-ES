@@ -69,7 +69,7 @@ Antes de configurar varios números de emergencia, tenga en cuenta lo siguiente:
     
 - Si los usuarios marcarán un número que coincida con la cadena de marcado, no se requiere ninguna máscara de marcado. Por ejemplo, si el número que marca un usuario es 911, la cadena de marcado es 911 y no se requiere máscara. 
     
-Para obtener más información acerca de la configuración de varios números de emergencia, vea Configurar varios números de [emergencia en Skype Empresarial.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
+Para obtener más información acerca de cómo configurar varios números de emergencia, consulte [Configurar varios números de emergencia en Skype Empresarial.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
   
 En la tabla siguiente se muestran directivas de ubicación de ejemplo (para fines del ejemplo, no se muestran todos los atributos):
   

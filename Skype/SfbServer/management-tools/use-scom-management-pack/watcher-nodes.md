@@ -27,7 +27,7 @@ ms.locfileid: "49812758"
   
 Los nodos de monitor son equipos que ejecutan transacciones sintéticas de Skype Empresarial Server periódicamente. Las transacciones sintéticas Windows PowerShell cmdlets que comprueban que los escenarios de usuario clave, como la capacidad de iniciar sesión o intercambiar mensajes instantáneos, funcionan según lo esperado. Para Skype Empresarial Server 2015, System Center Operations Manager puede ejecutar las transacciones sintéticas que se muestran en la tabla siguiente, que incluye tres tipos de transacciones sintéticas:
   
-- **Valor predeterminado** Transacciones sintéticas que se ejecuta un nodo de monitor de forma predeterminada. Al crear un nuevo nodo de monitor, puede especificar qué transacciones sintéticas se ejecutarán en ese nodo. (Ese es el propósito del parámetro Tests usado por el cmdlet New-CsWatcherNodeConfiguration).) Si no usa el parámetro Tests cuando se crea el nodo de monitor, ejecutará automáticamente todas las transacciones sintéticas predeterminadas y no ejecutará ninguna de las transacciones sintéticas no predeterminadas. Esto significa, por ejemplo, que el nodo de monitor se configurará para ejecutar la prueba Test-CsAddressBookService, pero no se configurará para ejecutar la prueba Test-CsExumConnectivity prueba.
+- **Valor predeterminado** Transacciones sintéticas que ejecuta un nodo de monitor de forma predeterminada. Al crear un nuevo nodo de monitor, puede especificar qué transacciones sintéticas se ejecutarán en ese nodo. (Ese es el propósito del parámetro Tests usado por el cmdlet New-CsWatcherNodeConfiguration).) Si no usa el parámetro Tests cuando se crea el nodo de monitor, ejecutará automáticamente todas las transacciones sintéticas predeterminadas y no ejecutará ninguna de las transacciones sintéticas no predeterminadas. Esto significa, por ejemplo, que el nodo de monitor se configurará para ejecutar la prueba Test-CsAddressBookService, pero no se configurará para ejecutar la prueba Test-CsExumConnectivity prueba.
     
 - **No predeterminado** Pruebas que los nodos de monitor no se ejecutan de forma predeterminada. (Para obtener más información, vea la descripción del tipo Predeterminado). Sin embargo, el nodo de monitor se puede habilitar para ejecutar cualquiera de las transacciones sintéticas no predeterminadas. Puede hacerlo al crear el nodo de monitor (mediante el cmdlet New-CsWatcherNodeConfiguration) o en cualquier momento después de haber creado el nodo de monitor. Tenga en cuenta que muchas de las transacciones sintéticas no predeterminadas requieren pasos de configuración adicionales. Para obtener más información acerca de estos pasos, consulte [Instrucciones de configuración especiales para transacciones sintéticas.](test-users-and-settings.md#special_synthetictrans)
     
@@ -188,7 +188,7 @@ Después de crear el grupo de aplicaciones de confianza, puede configurar el equ
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
-Cuando se complete este comando y se cree la aplicación de confianza, debe ejecutar el cmdlet **Enable-CsTopology** para asegurarse de que los cambios tienen efecto:
+Cuando se complete este comando y se cree la aplicación de confianza, debe ejecutar el cmdlet **Enable-CsTopology** para asegurarse de que los cambios se atenúe:
   
 ```PowerShell
 Enable-CsTopology
@@ -216,11 +216,11 @@ Para asignar un certificado predeterminado:
 > [!NOTE]
 > Si el botón Ejecutar está deshabilitado, puede que primero necesite hacer clic en Ejecutar en Instalar el almacén de configuración local. 
   
-Realice una de las siguientes acciones:
+Realice una de las acciones siguientes:
   
 - Si ya tiene un certificado que se puede usar como certificado predeterminado, haga clic en Predeterminado en el Asistente para certificados y, a continuación, haga clic en Asignar. Siga los pasos del Asistente para asignación de certificados para asignar ese certificado.
     
-- Si necesita solicitar un certificado para usar el certificado predeterminado, haga clic en Solicitar y, a continuación, siga los pasos del Asistente para solicitar certificados para solicitar dicho certificado. Si usa los valores predeterminados para el certificado de servidor web, recibirá un certificado que puede asignar como certificado predeterminado.
+- Si necesita solicitar un certificado para usar el certificado predeterminado, haga clic en Solicitar y, a continuación, siga los pasos del Asistente para solicitud de certificado para solicitar dicho certificado. Si usa los valores predeterminados para el certificado de servidor web, recibirá un certificado que puede asignar como certificado predeterminado.
     
 ## <a name="install-and-configure-a-watcher-node"></a>Instalar y configurar un nodo de monitor
 <a name="enable_synthetic_trans"> </a>
@@ -256,7 +256,7 @@ Si el equipo del nodo de monitor se encuentra fuera de la red perimetral, debe s
   
 ### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Actualizar la pertenencia al grupo administradores Read-Only RTC
 
-Si el nodo de monitor se encuentra fuera de la red perimetral, debe agregar la cuenta de servicio de red al grupo Administradores locales de solo lectura rtc en el equipo del nodo de monitor completando el siguiente procedimiento en el nodo de monitor:
+Si el nodo de monitor se encuentra fuera de la red perimetral, debe agregar la cuenta de servicio de red al grupo Administradores locales de solo lectura rtc en el equipo del nodo de monitor mediante el siguiente procedimiento en el nodo de monitor:
   
 1. Haga clic en  Inicio , haga clic con el botón secundario en  Equipo  y, a continuación, haga clic en  Administrar .
     

@@ -81,7 +81,7 @@ Un servidor de proxy inverso (RP) no tiene rol de Skype Empresarial Server, pero
     
 - obtener certificados basados en el usuario para la autenticación basada en certificados de cliente
     
-- descargar archivos desde el servidor de libreta de direcciones o para enviar consultas al servicio de consulta web de libreta de direcciones.
+- descargar archivos desde el servidor de libreta de direcciones o enviar consultas al servicio de consulta web de libreta de direcciones.
     
 - obtener actualizaciones de software de cliente y dispositivo.
     
@@ -119,7 +119,7 @@ Nuestras recomendaciones actuales de proxy inverso se pueden encontrar en la pá
     
 - debe permitir la configuración o aceptación de autenticación NTLM, sin autenticación y autenticación de paso a través.
     
-Si el proxy inverso puede satisfacer todas las necesidades de esta lista, debería estar lista, pero tenga en cuenta nuestras recomendaciones en el vínculo que se ha proporcionado anteriormente.
+Si su proxy inverso puede satisfacer todas las necesidades de esta lista, debería estar lista, pero tenga en cuenta nuestras recomendaciones en el vínculo proporcionado anteriormente.
   
 ### <a name="firewalls"></a>Firewalls
 <a name="Firewalls"> </a>
@@ -138,7 +138,7 @@ El director es un servidor interno del próximo salto que recibe tráfico SIP en
 ### <a name="load-balancers"></a>Equilibradores de carga
 <a name="LoadBalancers"> </a>
 
-La topología perimetral consolidada a escala de Skype Empresarial Server está optimizada para el equilibrio de carga de DNS para nuevas implementaciones y se recomienda esto. Si necesita alta disponibilidad, se recomienda usar un equilibrador de carga de hardware para una situación específica:
+La topología perimetral consolidada a escala de Skype Empresarial Server está optimizada para el equilibrio de carga de DNS para nuevas implementaciones, y se recomienda esto. Si necesita alta disponibilidad, se recomienda usar un equilibrador de carga de hardware para una situación específica:
   
 - Mensajería unificada de Exchange para usuarios remotos que usan mensajería unificada de Exchange _ *anterior** a Exchange 2013.
     
@@ -148,7 +148,7 @@ La topología perimetral consolidada a escala de Skype Empresarial Server está 
 > [!NOTE]
 > Nat de retorno directo del servidor (DSR) no es compatible con Skype Empresarial Server. 
   
-#### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>Requisitos del equilibrador de carga de hardware para servidores perimetrales de servidores perimetrales que ejecutan el servicio perimetral A/V
+#### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>Requisitos del equilibrador de carga de hardware para servidores perimetrales que ejecutan el servicio perimetral A/V
 
 Para cualquier servidor perimetral que ejecute el servicio perimetral A/V, estos son los requisitos:
   
@@ -169,7 +169,7 @@ Skype Empresarial Server no tiene muchos requisitos de afinidad basados en cooki
 > [!NOTE]
 > Si decide activar la afinidad basada en cookies para su HLB, no habrá ningún problema al hacerlo, incluso si su entorno no la necesita. 
   
-Si su entorno **no necesita** afinidad basada en cookies:
+Si su entorno **no necesita afinidad** basada en cookies:
   
 - En la regla de publicación de proxy inverso para el puerto 443, establezca **el encabezado de host forward** en **True**. Esto garantizará que se reenvía la dirección URL original.
     
@@ -183,7 +183,7 @@ Para implementaciones que **necesitan** afinidad basada en cookies:
     
 - La cookie del equilibrador de carga de **hardware** debe llamarse **MS-WSMAN** (este es el valor que esperan los servicios web y no se puede cambiar).
     
-- La cookie del  equilibrador de carga de hardware debe establecerse en cada respuesta HTTP para la que la solicitud HTTP entrante no tenía una cookie, independientemente de si una respuesta HTTP anterior en esa misma conexión TCP había obtenido una cookie. Si el equilibrador de carga de hardware optimiza la inserción de cookies para que solo se produzca una vez por conexión TCP, no se **debe usar esa** optimización.
+- La cookie del  equilibrador de carga de hardware debe establecerse en cada respuesta HTTP para la que la solicitud HTTP entrante no tenía una cookie, independientemente de si una respuesta HTTP anterior en esa misma conexión TCP había recibido una cookie. Si el equilibrador de carga de hardware optimiza la inserción de cookies para que solo se produzca una vez por conexión TCP, no se **debe usar esa** optimización.
     
 > [!NOTE]
 > Es habitual que las configuraciones de HLB usen afinidad de origen y duración de sesión TCP de 20 minutos, lo que es adecuado para Skype Empresarial Server y sus clientes, ya que el estado de sesión se mantiene a través del uso del cliente o la interacción de la aplicación. 

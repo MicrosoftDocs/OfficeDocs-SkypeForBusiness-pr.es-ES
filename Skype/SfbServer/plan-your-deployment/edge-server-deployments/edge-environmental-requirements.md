@@ -348,7 +348,7 @@ Si planea bien los puertos y firewalls para las implementaciones del servidor pe
 
 Antes de ver las tablas de resumen de firewalls internos y externos, veamos también la tabla siguiente:
   
-|**Transporte de audio y vídeo**|**Usage**|
+|**Transporte de audio y vídeo**|**Uso**|
 |:-----|:-----|
 |UDP  <br/> |El protocolo de capa de transporte preferido para audio y vídeo.  <br/> |
 |TCP  <br/> |El protocolo de capa de transporte de reserva para audio y vídeo.  <br/> El protocolo de capa de transporte necesario para el uso compartido de aplicaciones en Skype Empresarial Server, Lync Server 2013 y Lync Server 2010.  <br/> El protocolo de capa de transporte necesario para la transferencia de archivos a Skype Empresarial Server, Lync Server 2013 y Lync Server 2010.  <br/> |

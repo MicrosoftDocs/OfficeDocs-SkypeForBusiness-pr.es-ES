@@ -26,7 +26,7 @@ ms.locfileid: "49813700"
  
 Lea acerca de la característica Opciones de disponibilidad en Skype Empresarial Server.
   
-Opciones de disponibilidad es una nueva directiva de voz introducida en la actualización acumulativa de julio de 2016 que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia, o tiene una llamada en espera. Las llamadas nuevas o entrantes pueden rechazarse con una señal de disponibilidad o reenviarse al correo de voz. 
+Opciones de disponibilidad es una nueva directiva de voz introducida en la actualización acumulativa de julio de 2016 que le permite configurar cómo se administran las llamadas entrantes cuando un usuario ya está en una llamada o conferencia, o tiene una llamada en espera. Las llamadas nuevas o entrantes se pueden rechazar con una señal de disponibilidad o reenviarse al correo de voz. 
   
 La directiva Opciones de disponibilidad es compatible con la conmutación por error y la recuperación ante desastres en grupos de servidores front-end emparejados y servidores de sucursal con funciones de supervivencia (SBS).
   
@@ -44,13 +44,13 @@ La característica Opciones de disponibilidad proporciona capacidad de conmutaci
   
 Independientemente de cómo se configuren sus opciones de disponibilidad, los usuarios de una llamada o conferencia, o aquellos con una llamada en espera, no se les impide iniciar nuevas llamadas o conferencias. 
   
-Después de la configuración, la opción Opciones de disponibilidad está en vigor para todos los clientes y dispositivos de llamadas de Skype Empresarial del usuario. En función de la configuración de Opciones de disponibilidad del usuario, la llamada que se rechaza o se envía al correo de voz no sonará en ninguno de los dispositivos de llamada del usuario (incluidos Macintosh, Escritorio de Windows, clientes móviles o teléfonos IP) en los que el usuario haya iniciado sesión. 
+Después de la configuración, la opción Opciones de disponibilidad está en vigor para todos los clientes y dispositivos de llamadas de Skype Empresarial del usuario. Según la configuración de Opciones de disponibilidad del usuario, la llamada que se rechaza o se envía al correo de voz no sonará en ninguno de los dispositivos de llamada del usuario (incluidos Macintosh, Escritorio de Windows, clientes móviles o teléfonos IP) en los que el usuario haya iniciado sesión. 
   
 Los usuarios verán notificaciones de llamadas perdidas en sus dispositivos y clientes de Skype Empresarial, y también se les notificará por correo electrónico. Los autores de llamadas cuya llamada se rechazó debido a Ocupado en ocupado verán una notificación en su cliente de Skype Empresarial que indica que el usuario con el que intentaron contactar está ocupado en otra llamada.
   
 Puede configurar la característica Opciones de disponibilidad con los cmdlets de PowerShell de Skype Empresarial para:
   
-- Habilitar o deshabilitar la directiva de voz de Opciones de disponibilidad para la empresa.
+- Habilitar o deshabilitar la directiva de voz de opciones de disponibilidad para enterprise.
     
 - Administrar ocupado en ocupado o correo de voz en ocupado para todos los usuarios de la empresa.
     
@@ -94,7 +94,7 @@ Opciones de disponibilidad proporciona interoperabilidad con las siguientes apli
     
   - Se omitirá la configuración de Opciones de disponibilidad en las cuentas de usuario configuradas para apariencia de línea compartida. 
     
-  - En su lugar, se respetará la opción "Ocupado" nativo de apariencia de línea compartida y "Correo de voz en Ocupado".
+  - En su lugar, se respetarán las opciones "Ocupado" nativo de apariencia de línea compartida y "Correo de voz en Ocupado".
     
 - Servicio de estacionamiento de llamadas 
     

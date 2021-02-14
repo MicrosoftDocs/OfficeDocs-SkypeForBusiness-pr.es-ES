@@ -38,13 +38,13 @@ Vea los siguientes recursos para obtener información sobre cómo planear la imp
 ||**Contenido**|**Descripción**|
 |:--- |:--- |:--- |
 |![Icono de diagramas técnicos](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Diagramas técnicos de Skype Empresarial Server 2015](../technical-diagrams.md) <br/> |Consulte fácilmente las opciones de arquitectura en estos diagramas de formato grande.  <br/> |
-|![Icono de vídeos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype Empresarial: introducción rápida](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype Empresarial: guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |Descubra las presentaciones de vídeo y la formación para Skype Empresarial.  <br/> |
+|![Icono de vídeos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype Empresarial: introducción rápida](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype Empresarial: guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |Descubra presentaciones de vídeo y formación para Skype Empresarial.  <br/> |
    
 ##  <a name="articles-about-planning-for-skype-for-business-server"></a>Artículos sobre la planeación de Skype Empresarial Server
 
 Los artículos siguientes sobre cómo planear Skype Empresarial Server están disponibles para verlos en línea. 
   
-|**Planeación de soluciones**|**Planeación de la arquitectura de servidor, clientes y dispositivos**|
+|**Planeación de soluciones**|**Planeación de la arquitectura del servidor, clientes y dispositivos**|
 |:-----|:-----|
 |![Icono de contenido de soluciones](../media/3959ce46-bd94-40be-8a58-6108bc3583a8.png)           <br/> Lea los artículos siguientes para determinar qué soluciones son adecuadas para su organización:  <br/> |![Icono para contenido de arquitectura de servidor](../media/1d7d8156-1ca9-4124-a17f-6bce5aa91966.png)           <br/> Lea los artículos siguientes para planear la arquitectura del servidor y la compatibilidad con dispositivos y clientes:  <br/> |
 |**[Planear la mensajería instantánea y la presencia en Skype Empresarial Server 2015](instant-messaging-and-presence.md)** ¿Cuáles son sus requisitos para la mensajería instantánea (MI) y la presencia? Aunque la mensajería instantánea (MI) y la presencia se incluyen en todas las implementaciones de Skype Empresarial Server, tendrá que tomar decisiones sobre los requisitos técnicos, las comunicaciones con usuarios externos y el archivado. <br/> |**[Requisitos del entorno para Skype Empresarial Server 2015](requirements-for-your-environment/environmental-requirements.md)** <br/> **[Requisitos del servidor para Skype Empresarial Server 2015](requirements-for-your-environment/server-requirements.md)** <br/> **[Planear los requisitos de red para Skype Empresarial 2015](network-requirements/network-requirements.md)** <br/> You'll want to read these topics first to determine prerequisites for Skype for Business Server.  <br/> |

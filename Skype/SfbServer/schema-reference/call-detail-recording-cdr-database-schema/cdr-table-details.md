@@ -1,5 +1,5 @@
 ---
-title: Detalles de la tabla CDR en Skype Empresarial Server 2015
+title: Detalles de la tabla cdr en Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -20,7 +20,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49813380"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Detalles de la tabla CDR en Skype Empresarial Server 2015
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Detalles de la tabla cdr en Skype Empresarial Server 2015
  
 En los siguientes temas se detallan las columnas de cada una de las tablas de esquema de base de datos de los registros detallados de llamadas (CDR).
   

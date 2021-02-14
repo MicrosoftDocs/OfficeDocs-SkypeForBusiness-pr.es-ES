@@ -81,7 +81,7 @@ Para conmutar por error el servidor de chat persistente:
     
     La base de datos de copia de seguridad mgc funciona actualmente como base de datos principal.
     
-6. En el Shell de administración de Skype Empresarial Server, use el cmdlet **Install-CsMirrorDatabase** para establecer un reflejo de alta disponibilidad para la base de datos de copia de seguridad que ahora sirve como base de datos principal. Utilice la instancia de la base de datos de copia de seguridad como base de datos principal y la instancia de la base de datos reflejada de copia de seguridad como instancia reflejada. Este no es el mismo reflejo de lo que se configuró inicialmente para la base de datos principal durante la configuración.
+6. En el Shell de administración de Skype Empresarial Server, use el cmdlet **Install-CsMirrorDatabase** para establecer un reflejo de alta disponibilidad para la base de datos de copia de seguridad que ahora actúa como base de datos principal. Utilice la instancia de la base de datos de copia de seguridad como base de datos principal y la instancia de la base de datos reflejada de copia de seguridad como instancia reflejada. Este no es el mismo reflejo de lo que se configuró inicialmente para la base de datos principal durante la configuración.
     
 7. Establezca los servidores activos del servidor de chat persistente. Desde el Shell de administración de Skype Empresarial Server, use el cmdlet **Set-CsPersistentChatActiveServer** para establecer la lista de servidores activos.
     

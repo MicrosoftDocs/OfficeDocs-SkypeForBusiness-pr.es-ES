@@ -75,7 +75,7 @@ Los clientes de Skype Empresarial son similares a las versiones anteriores de lo
 El servicio Detección automática siempre es el preferido, ya que es el método preferido para la ubicación del servicio y los demás son métodos de reserva.
   
 > [!NOTE]
-> Al crear registros SRV, es importante recordar que deben apuntar a un DNS A (y AAAA si usa el direccionamiento IPv6) en el mismo dominio en el que se está creando el registro SRV de DNS. Por ejemplo, si los registros SRV están en contoso.com, el registro A (y AAAA) al que señala no puede estar en fabrikam.com. 
+> Al crear registros SRV, es importante recordar que deben apuntar a un DNS A (y AAAA si usa el direccionamiento IPv6) en el mismo dominio en el que se está creando el registro SRV de DNS. Por ejemplo, si el registro SRV está en contoso.com, el registro A (y AAAA) al que señala no puede estar en fabrikam.com. 
   
 Si está dispuesto a hacerlo, puede configurar el dispositivo móvil para la detección manual de servicios. Si eso es lo que quiere hacer, cada usuario debe configurar su dispositivo móvil con los URI completos del servicio de detección automática internos y externos, incluidos el protocolo y la ruta de acceso, como se muestra a continuación:
   
@@ -94,7 +94,7 @@ Se trata de una configuración DNS en la que tiene dos zonas DNS con el mismo es
   
 Esto presenta algunos desafíos. Lo más importante es que el DNS de cerebro dividido **no es compatible** con la movilidad. Esto se debe a los registros DNS LyncDiscover y LyncDiscoverInternal (LyncDiscover debe definirse en el servidor DNS externo, mientras que LyncDiscoverInternal debe definirse en el servidor DNS interno).
   
-Aquí enumeraremos los registros DNS para las zonas internas y externas, pero encontrará ejemplos detallados en la sección requisitos del entorno del servidor perimetral.
+Aquí enumeraremos los registros DNS de las zonas internas y externas, pero encontrará ejemplos detallados en la sección requisitos del entorno del servidor perimetral.
   
 ### <a name="internal-dns"></a>DNS interno
 
@@ -114,7 +114,7 @@ Aquí enumeraremos los registros DNS para las zonas internas y externas, pero en
     
 - Todas las interfaces perimetrales internas de Skype Empresarial Server de la red perimetral usan esta zona DNS interna para resolver consultas en contoso.com.
     
-- Todos los servidores que ejecutan Skype Empresarial Server y los clientes que ejecutan Skype Empresarial Server en la red corporativa apuntan a servidores DNS internos para resolver consultas en contoso.com, o usan el archivo host en cada servidor perimetral y listan los registros A y AAAA (si usa el direccionamiento IPv6) para el servidor del próximo salto (específicamente para la DIRECCIÓN VIP del director o del grupo de directores) , VIP del grupo de servidores front-end o servidor Standard Edition).
+- Todos los servidores que ejecutan Skype Empresarial Server y los clientes que ejecutan Skype Empresarial Server en la red corporativa apuntan a servidores DNS internos para resolver consultas en contoso.com, o usan el archivo host en cada servidor perimetral y listan los registros A y AAAA (si usa el direccionamiento IPv6) para el servidor del próximo salto (específicamente para la DIRECCIÓN VIP del director o del grupo de directores). , VIP del grupo de servidores front-end o servidor Standard Edition).
     
 ### <a name="external-dns"></a>DNS externo
 
@@ -122,7 +122,7 @@ Aquí enumeraremos los registros DNS para las zonas internas y externas, pero en
     
 - Esta lista contoso.com contiene:
     
-  - Registros A y AAAA de DNS (si usa el direccionamiento IPv6) o registros CNAME, para la detección automática de los servicios web de Skype Empresarial Server. Esto se usa con movilidad.
+  - Registros A y AAAA de DNS (si usa direccionamiento IPv6) o registros CNAME, para la detección automática de los servicios web de Skype Empresarial Server. Esto se usa con movilidad.
     
   - Registros A y AAAA de DNS (si usa direccionamiento IPv6) y registros SRV para la interfaz perimetral externa de cada servidor perimetral de Skype Empresarial Server o VIP con equilibrio de carga de hardware (HLB) en la red perimetral.
     
@@ -162,7 +162,7 @@ Ahora que ya sabemos todo eso, si necesita un requisito automático para sus cli
   
 - **Zona interna coincidente**
     
-    Deberá crear una zona en el DNS interno que coincida con su zona DNS externa (por ejemplo, contoso.com) y, a continuación, crear registros A (y AAAA) de DNS (y AAAA si usa el direccionamiento IPv6) que correspondan al grupo de Skype Empresarial Server usado para la configuración automática.
+    Deberá crear una zona en el DNS interno que coincida con la zona DNS externa (por ejemplo, contoso.com) y, a continuación, crear registros A (y AAAA) de DNS (y AAAA si usa el direccionamiento IPv6) que correspondan al grupo de Skype Empresarial Server usado para la configuración automática.
     
     Por ejemplo, si tiene un usuario en pool01.contoso.net, pero inicia sesión en Skype Empresarial como bob@contoso.com, cree una zona DNS interna denominada contoso.com y dentro de ella debe crear un registro A (y AAAA si se usa el direccionamiento IPv6) de DNS para pool01.contoso.com.
     
@@ -203,22 +203,22 @@ Ahora que ya sabemos todo eso, si necesita un requisito automático para sus cli
 ## <a name="dns-disaster-recovery"></a>Recuperación ante desastres de DNS
 <a name="DNSDR"> </a>
 
-Para configurar DNS para redirigir el tráfico web de Skype Empresarial Server a los sitios de recuperación ante desastres y de conmutación por error, debe usar un proveedor de DNS compatible con GeoDNS. Puede configurar los registros DNS para admitir la recuperación ante desastres, de modo que las características que usan servicios web continúen incluso si un grupo de servidores front-end completo no funciona. Esta característica de recuperación ante desastres admite las direcciones URL sencillas de detección automática, reunión y acceso telefónico.
+Para configurar DNS para redirigir el tráfico web de Skype Empresarial Server a los sitios de recuperación ante desastres y de conmutación por error, debe usar un proveedor dns compatible con GeoDNS. Puede configurar los registros DNS para admitir la recuperación ante desastres, de modo que las características que usan servicios web continúen incluso si un grupo de servidores front-end completo no funciona. Esta característica de recuperación ante desastres admite las direcciones URL sencillas de detección automática, reunión y acceso telefónico.
   
-Defina y configure registros A (AAAA) de host DNS adicionales si usa IPv6 para la resolución interna y externa de servicios web en su proveedor de GeoDNS. En los siguientes detalles se presupone que los grupos emparejados,  geográficamente dispersos, y que el GeoDNS admitido por su proveedor tiene **DNS** por turnos o está configurado para usar Pool1 como principal y conmuta por error al Grupo2 en caso de pérdida de comunicaciones o error de alimentación.
+Defina y configure registros A (AAAA) de host DNS adicionales si usa IPv6 para la resolución interna y externa de servicios web en su proveedor de GeoDNS. En los siguientes detalles se presupone que los grupos emparejados,  dispersos geográficamente, y que los GeoDNS admitidos por su proveedor tienen **DNS** por turnos o están configurados para usar Pool1 como principal y conmutan por error al Grupo2 en caso de pérdida de comunicaciones o de errores de alimentación.
   
 Todos los registros DNS de esta tabla son ejemplos.
   
 |**Registro de GeoDNS**|**Registros de grupo de servidores**|**Registros CNAME**|**Configuración dns (seleccione una opción)**|
 |:-----|:-----|:-----|:-----|
-|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com  <br/>   <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>   <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>   <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
-|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **O** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com  <br/>   <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>   <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>   <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com a Meet-ext.geolb.contoso.com   <br/>  <br/> |Round Robin entre grupos  <br/> **OR** <br/> Use primary, connect to secondary if there's a failure  <br/> |
    
 ## <a name="dns-load-balancing"></a>equilibrio de carga de DNS
 <a name="DNSLB"> </a>

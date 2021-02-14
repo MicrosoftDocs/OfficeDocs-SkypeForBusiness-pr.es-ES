@@ -38,6 +38,6 @@ Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
 |**Procesado** <br/> |bit  <br/> ||Campo interno usado por el servicio de supervisión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Skype Empresarial Server 2015.  <br/> |
    
-\* Para la mayoría de las sesiones, SessionIdSeq tendrá el valor 1. Si dos sesiones comienzan exactamente al mismo tiempo, el SessionIdSeq para una será 1, y para la otra será 2, y así sucesivamente.
+\* Para la mayoría de las sesiones, SessionIdSeq tendrá el valor 1. Si dos sesiones comienzan exactamente al mismo tiempo, sessionIdSeq para una será 1, y para la otra será 2, y así sucesivamente.
   
 

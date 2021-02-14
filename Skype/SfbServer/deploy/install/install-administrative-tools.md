@@ -32,7 +32,7 @@ Las herramientas administrativas incluyen el Generador de topologías y el Panel
   
 ![Diagrama de información general](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
-## <a name="install-skype-for-business-server-administrative-tools"></a>Instalar las herramientas administrativas de Skype Empresarial Server
+## <a name="install-skype-for-business-server-administrative-tools"></a>Instalar herramientas administrativas de Skype Empresarial Server
 
 Los medios de instalación de Skype Empresarial Server proporcionan una experiencia flexible. La primera vez que Setup.exe, las únicas herramientas instaladas son el Asistente para la implementación de Skype Empresarial Server y el Shell de administración de Skype Empresarial Server. Con estas dos herramientas, conocidas como componentes principales, puede continuar con el proceso de instalación, pero no proporcionan funcionalidad principal para el entorno general de Skype Empresarial Server. El Asistente para la implementación se inicia automáticamente después de instalar los componentes principales. La sección del Asistente para la implementación titulada **Instalar herramientas** administrativas instala el Generador de topologías de Skype Empresarial Server y el Panel de control de Skype Empresarial Server.
   
@@ -71,7 +71,7 @@ Vea los pasos de vídeo para **instalar herramientas administrativas:**
     
 7. Haga clic en **Siguiente** para comenzar la instalación.
     
-8. Una vez completada la instalación, haga clic **en Finalizar.** Las herramientas administrativas ahora se agregan al servidor, como se muestra en la figura.
+8. Una vez completada la instalación, haga clic **en Finalizar.** Las herramientas administrativas ahora se agregan al servidor, como se muestra en la ilustración.
     
     ![Herramientas administrativas de Skype Empresarial Server](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   

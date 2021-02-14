@@ -51,7 +51,7 @@ Los módulos de administración se pueden usar con System Center Operations Mana
 |Entorno virtual  <br/> |Sí.  <br/> |
 |Roles de servidor unidos a un dominio  <br/> |Todos los roles de servidor internos de Skype Empresarial Server 2015 deben estar unidos a un dominio.  <br/> |
 |Roles de servidor independientes  <br/> |No es necesario que los servidores perimetrales de Skype Empresarial Server 2015 estén unidos a un dominio.  <br/> |
-|Limitaciones de topología  <br/> |Todos los roles de servidor de una implementación deben supervisarse desde el mismo grupo de administración de Operations Manager.  <br/> |
+|Limitaciones de la topología  <br/> |Todos los roles de servidor de una implementación deben supervisarse desde el mismo grupo de administración de Operations Manager.  <br/> |
 |Nodo de monitor de transacciones sintéticas  <br/> |Se admite la disponibilidad del escenario de supervisión con un nodo de monitor de transacciones sintéticas (se requiere configuración adicional). No es necesario que los nodos de monitor estén unidos a un dominio.  <br/> |
    
 En la tabla siguiente se muestran los requisitos de capacidad y sistema operativo para un nodo de monitor de transacciones sintéticas:
@@ -116,13 +116,13 @@ Las alertas se clasifican en las siguientes categorías:
   
  **Alertas de prioridad alta:** Estas alertas indican condiciones que provocan interrupciones del servicio para grandes grupos de usuarios y requieren una acción inmediata. Las interrupciones detectadas por transacciones sintéticas y servicios sin conexión (como las conferencias de audio y vídeo de Skype Empresarial Server) se califican como alertas de prioridad alta. Por el contrario, un error de componente en una sola máquina no es una alerta de prioridad alta. Skype Empresarial Server 2015 tiene características de alta disponibilidad integradas para estas situaciones, por ejemplo, varios servidores front-end detrás de equilibradores de carga.
   
- **Alertas de prioridad media:** Estas alertas indican condiciones que afectan a un subconjunto de usuarios o indican problemas en la calidad de la llamada, por ejemplo, errores de componentes, latencia en el establecimiento de llamadas o menor calidad de audio en las llamadas. Las alertas de esta categoría son con estado (es decir, la naturaleza de la alerta cambia en función del estado de la conexión de red). Por ejemplo, si los tiempos de establecimiento de llamadas indican latencia pero, a continuación, vuelven a un umbral normal, esta alerta de prioridad media se resolvería automáticamente en System Center Operations Manager y los administradores no tendrían que realizar ninguna acción. Los administradores suelen abordar las alertas que no se pueden resolver automáticamente en el mismo día laborable.
+ **Alertas de prioridad media:** Estas alertas indican condiciones que afectan a un subconjunto de usuarios o indican problemas en la calidad de la llamada, por ejemplo, errores de componentes, latencia en el establecimiento de llamadas o una menor calidad de audio en las llamadas. Las alertas de esta categoría son con estado (es decir, la naturaleza de la alerta cambia en función del estado de la conexión de red). Por ejemplo, si los tiempos de establecimiento de llamadas indican latencia pero, a continuación, vuelven a un umbral normal, esta alerta de prioridad media se resolvería automáticamente en System Center Operations Manager y los administradores no tendrían que realizar ninguna acción. Los administradores suelen abordar las alertas que no se pueden resolver automáticamente en el mismo día laborable.
   
  **Otras alertas:** Estas alertas se generan a partir de componentes que pueden afectar a un usuario específico o a un subconjunto de usuarios. Por ejemplo, una alerta típica sería que el servicio de libreta de direcciones no puede analizar la entrada de Active Directory® Domain Services (AD DS) para el usuario: testuser@contoso.com. Los administradores pueden abordar estas alertas siempre que tengan tiempo disponible.
   
 ### <a name="synthetic-transactions"></a>Transacciones sintéticas
 
-Los módulos de administración de Skype Empresarial Server 2015 proporcionan una mayor cobertura para las alertas a través de transacciones sintéticas. Las transacciones sintéticas Windows PowerShell cmdlets integrados en el módulo de administración de Operations Manager para probar escenarios de usuario de un extremo a otro. Cuando designa un servidor para ejecutar transacciones sintéticas, el módulo de administración desencadena periódicamente estos cmdlets. Los errores resultantes de una transacción sintética generan una alerta con estado. Estas son las transacciones sintéticas admitidas para Skype Empresarial Server 2015:
+Los módulos de administración de Skype Empresarial Server 2015 proporcionan una mayor cobertura para las alertas a través de transacciones sintéticas. Las transacciones sintéticas Windows PowerShell cmdlets integrados en el módulo de administración de Operations Manager para probar escenarios de usuario de un extremo a otro. Cuando designa un servidor para ejecutar transacciones sintéticas, el módulo de administración desencadena periódicamente estos cmdlets. Los errores resultantes de una transacción sintética generan una alerta con estado. Estas son las transacciones sintéticas compatibles con Skype Empresarial Server 2015:
   
 
 
@@ -148,7 +148,7 @@ Los módulos de administración de Skype Empresarial Server 2015 proporcionan un
 |Transacciones sintéticas admitidas para conferencias y chat persistente|||
 |:-----|:-----|:-----|
 |9   <br/> |Conferencia de audio y videoconferencia  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|10   <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
+|10    <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |11   <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
 |12   <br/> | Chat persistente <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |13   <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
@@ -160,7 +160,7 @@ Los módulos de administración de Skype Empresarial Server 2015 proporcionan un
 |Transacciones sintéticas admitidas para dependencias de socios y redes|||
 |:-----|:-----|:-----|
 |17   <br/> |Conectividad perimetral av  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
-|18   <br/> |Conectividad perimetral av Conectividad de mensajes unificados de Exchange (correo de voz)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
+|18   <br/> |Conectividad perimetral av Exchange Unified Message Connectivity (correo de voz)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |19  <br/> |Llamada punto a punto rtc  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
 |20  <br/> |Mensajería instantánea XMPP (federación)  <br/> |Disponible en Lync Server 2013 y Skype Empresarial 2015  <br/> |
 | 21  <br/> |Servidor de interoperabilidad de vídeo  <br/> |Nuevo en Skype Empresarial Server 2015  <br/> |
@@ -203,7 +203,7 @@ La creación de un nuevo módulo de administración para almacenar las personali
   
 ## <a name="links"></a>Vínculos
 
-Los siguientes vínculos le conectan a información sobre tareas comunes asociadas a System Center 2012 módulos de supervisión:
+Los siguientes vínculos le conectan a información sobre las tareas comunes asociadas a System Center 2012 módulos de supervisión:
   
 - [Ciclo de vida del módulo de administración](https://technet.microsoft.com/library/hh212732.aspx)
     
@@ -235,7 +235,7 @@ Los siguientes vínculos le conectan a información sobre tareas comunes asociad
     
 - [Cómo quitar un módulo de administración](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Para obtener preguntas sobre Operations Manager y los paquetes de supervisión, consulte el foro de la comunidad de [System Center Operations Manager.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
+Para obtener preguntas sobre Operations Manager y los paquetes de supervisión, vea el foro de la comunidad de [System Center Operations Manager.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
   
 Un recurso útil es el blog [de System Center Operations Manager Unleashed,](https://opsmgrunleashed.wordpress.com/) que contiene entradas "Por ejemplo" para paquetes de supervisión específicos.
   
@@ -256,6 +256,6 @@ Para obtener información adicional acerca de Operations Manager, consulte los b
 > [!IMPORTANT]
 > Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece ninguna garantía, expresa, implícita o legal, en cuanto a la información de este sitio web. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Herramientas de administración de Skype Empresarial Server 2015](../../management-tools/management-tools.md)

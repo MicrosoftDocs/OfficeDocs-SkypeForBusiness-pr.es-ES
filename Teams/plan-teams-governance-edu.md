@@ -47,7 +47,7 @@ Para obtener instrucciones detalladas, consulte [la directiva de nomenclatura de
 
 ## <a name="can-i-see-who-created-a-team"></a>¿Puedo ver quién ha creado un equipo?
 
-Para averiguar quién ha creado un equipo específico, consulte Buscar eventos en el registro de auditoría [de Microsoft Teams.](audit-log-events.md)
+Para averiguar quién ha creado un equipo específico, consulte Buscar eventos en el registro de auditoría [en Microsoft Teams.](audit-log-events.md)
 
 ## <a name="can-i-control-who-can-create-teams"></a>¿Puedo controlar quién puede crear equipos?
 
@@ -122,8 +122,8 @@ Para obtener más información sobre las directivas de Teams, consulte [Administ
 Puede usar el acceso de invitado para invitar a usuarios externos a su inquilino, lo que puede ser útil para la colaboración en investigación o para conferencias de invitado:
 
 -   Use la lista de dominios para permitir o bloquear invitados en función de su dominio.
--   Active y desactive el acceso de invitados para grupos y equipos particulares de Microsoft 365 para controlar qué equipos pueden (o no) invitar a invitados.
--   Use el registro de auditoría para ver qué alertas se han enviado a los invitados invitados.
+-   Active y desactive el acceso de invitados para grupos y equipos específicos de Microsoft 365 para controlar qué equipos pueden (o no) invitar a invitados.
+-   Use el registro de auditoría para ver qué alertas se enviaron a los invitados invitados.
 
 Para obtener más información, vea [Acceso de invitado en Grupos de Microsoft 365.](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)
 
@@ -131,7 +131,7 @@ Para obtener más información, vea [Acceso de invitado en Grupos de Microsoft 3
 
 Puede comprobar los registros de auditoría para ver:
 
--   ¿A quién se invitó como invitado a cada equipo?
+-   ¿Quién ha sido invitado como invitado en cada equipo?
 -   Quién ha creado cada equipo.
 
 Para obtener más información, consulte Buscar eventos en el [registro de auditoría de Microsoft Teams.](audit-log-events.md)

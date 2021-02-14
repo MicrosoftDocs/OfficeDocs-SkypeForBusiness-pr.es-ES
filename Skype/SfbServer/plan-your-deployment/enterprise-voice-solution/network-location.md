@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
-description: Decisiones necesarias para planear qué componentes de red usará para asignar a las personas que llaman a ubicaciones para la implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
+description: Decisiones necesarias para planear qué componentes de red usará para asignar a los autores de llamadas ubicaciones para la implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
 ms.openlocfilehash: 473ef9efc8598b303d6c7a05b902d57e0ad8ffd5
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -33,7 +33,7 @@ Si va a configurar la infraestructura de Skype Empresarial Server para admitir l
     
 - Puerto de conmutador LLDP (capa 2)
     
-- IDs de chasis de conmutador LLDP (capa 2)
+- IDs del chasis del conmutador LLDP (capa 2)
     
 - Subredes IP (capa 3)
     
@@ -41,7 +41,7 @@ Si va a configurar la infraestructura de Skype Empresarial Server para admitir l
     
 Los elementos de red se enumeran en orden de prioridad. Si un cliente puede encontrarse con más de un elemento de red, Skype Empresarial Server usa el orden de prioridad para determinar qué mecanismo usar. 
   
-Las secciones siguientes proporcionan más detalles para usar cada elemento de red.
+En las secciones siguientes se proporcionan más detalles para usar cada elemento de red.
   
 > [!IMPORTANT]
 > Cuando se usan elementos de red para asignar autores de llamadas a ubicaciones, es muy importante mantener actualizada la base de datos del servicio de información de ubicaciones. Por ejemplo, si agregas o cambias un elemento de red, como agregar un WAP, debes eliminar la entrada antigua y agregar la nueva entrada en la base de datos de ubicación. 
@@ -50,11 +50,11 @@ Las secciones siguientes proporcionan más detalles para usar cada elemento de r
 
 Cuando un cliente se conecta a la red de forma inalámbrica, la solicitud de ubicación usa la dirección BSSID del WAP para determinar su ubicación. Si el cliente está en itinerancia, es posible que el WAP indicado no sea el más cercano e incluso es posible seleccionar un WAP que se encuentra en una planta diferente del edificio. Para indicar que la ubicación es aproximada, puede anteponer el valor de ubicación con un descriptor **[Near]** o **[Closeto].**
   
-Este método de ubicación supone que el BSSID de cada WAP es estático. Sin embargo, si tu proveedor wap usa SSID asignados dinámicamente, el BSSID que se obtiene de un WAP podría cambiar (esto puede ocurrir después de un cambio de configuración wap) y los clientes inalámbricos podrían quedar en una situación en la que no reciben una ubicación. Para evitar esta posibilidad, debe rellenar la base de datos del servicio de información de ubicación con ERL para todas las direcciones BSSID posibles que usa cada WAP. 
+Este método de ubicación supone que el BSSID de cada WAP es estático. Sin embargo, si tu proveedor wap usa SSID asignados dinámicamente, el BSSID que se obtiene de un WAP podría cambiar (esto puede ocurrir después de un cambio de configuración WAP) y los clientes inalámbricos podrían quedar en una situación en la que no reciben una ubicación. Para evitar esta posibilidad, debe rellenar la base de datos del servicio de información de ubicación con ERL para todas las direcciones BSSID posibles que usa cada WAP. 
   
 ## <a name="lldp-ports-and-switches"></a>Conmutadores y puertos LLDP
 
-Los conmutadores Ethernet administrados que admiten link layer discovery Protocol-Media Endpoint Discover (LLDP-MED) pueden anunciar su identidad y información de puerto a clientes compatibles con LLDP-MED, que luego se pueden consultar en la base de datos de ubicación para proporcionar la ubicación del dispositivo. Puede asociar ERL únicamente en el identificador del chasis del conmutador o puede asignarlas al nivel de puerto.
+Los conmutadores Ethernet administrados que admiten Link Layer Discovery Protocol-Media Endpoint Discover (LLDP-MED) pueden anunciar su identidad y su información de puerto a clientes compatibles con LLDP-MED, que luego se pueden consultar en la base de datos de ubicación para proporcionar la ubicación del dispositivo. Puede asociar ERL únicamente en el identificador del chasis del conmutador o puede asignarlas al nivel de puerto.
   
 > [!NOTE]
 > Skype Empresarial Server admite el uso de LLDP-MED para determinar ubicaciones solo de dispositivos Lync Phone Edition y clientes de Skype Empresarial que se ejecutan en Windows 8. Si necesita usar datos de nivel de conmutador 2 para determinar la ubicación de otros clientes de Skype Empresarial Server basados en PC con cable, debe usar el método de dirección MAC de cliente. 

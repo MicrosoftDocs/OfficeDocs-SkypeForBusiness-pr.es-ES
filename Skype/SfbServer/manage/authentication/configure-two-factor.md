@@ -343,7 +343,7 @@ Los siguientes pasos describen cómo crear una configuración de proxy personali
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Administrar la autenticación en dos fases en Skype Empresarial Server](two-factor-authentication.md)
 

@@ -28,7 +28,7 @@ Esto documenta el esquema de la base de datos de registro detallado de llamadas 
 
 - [Lista de tablas de CDR en Skype Empresarial Server 2015](list-of-cdr-tables.md)
     
-- [Detalles de la tabla CDR en Skype Empresarial Server 2015](cdr-table-details.md)
+- [Detalles de la tabla cdr en Skype Empresarial Server 2015](cdr-table-details.md)
     
 - [Lista de vistas de CDR](list-of-cdr-views.md)
     

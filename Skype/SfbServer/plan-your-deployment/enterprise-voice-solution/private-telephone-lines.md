@@ -49,13 +49,13 @@ Aunque el concepto de una segunda línea de teléfono privada es fundamentalment
 
 - Los números de teléfono de las líneas de teléfono privadas no aparecen en los directorios de teléfonos ni en las listas de contactos que se obtienen de Servicios de dominio de Active Directory.
     
-- Ninguna de las siguientes características están disponibles con una línea de teléfono privada: reenvío de llamadas, llamada de equipo, delegación, anillo de equipo, atención de llamadas grupales y aplicación grupo de respuesta.
+- Ninguna de las siguientes características está disponible con una línea de teléfono privada: reenvío de llamadas, llamada de equipo, delegación, anillo de equipo, atención de llamadas grupales y aplicación grupo de respuesta.
     
 - Las llamadas realizadas a una línea de teléfono privada suenan de una forma especial y la notificación del sistema para la llamada indica al usuario que la llamada entrante proviene de su línea privada.
     
 - Las llamadas realizadas a la línea de teléfono privada siempre suenan. No siguen las reglas de "no molestar".
     
-- Las líneas de teléfono privadas son solo entrantes y no pueden usarse para realizar llamadas salientes. Cuando un usuario con una línea de teléfono privada realiza una llamada, la llamada se origina en la línea de teléfono principal del usuario y no oculta el nombre del usuario ni el número de teléfono principal del usuario de la persona a la que se llama.
+- Las líneas de teléfono privadas son solo entrantes y no pueden usarse para realizar llamadas salientes. Cuando un usuario con una línea de teléfono privada realiza una llamada, la llamada se origina en la línea de teléfono principal del usuario y no oculta el nombre del usuario ni el número de teléfono principal del usuario a la persona a la que se llama.
     
 ### <a name="how-private-telephone-lines-are-similar-to-primary-telephone-lines"></a>Similitudes entre las líneas de teléfono privadas y las líneas de teléfono principales
 

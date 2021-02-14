@@ -80,7 +80,7 @@ Para preparar el equipo host, deberá instalar el sistema de almacenamiento en c
     
     Si desea usar un certificado autofirmado (por ejemplo, para realizar pruebas en un laboratorio), consulte Crear un [certificado autofirmado.](deploy.md#BKMK_SelfCert)
     
-    Tenga en cuenta que el agente usa la comprobación de huella digital del certificado (en lugar de la verificación en cadena). No realizará la validación completa del certificado porque es posible usar certificados autofirmados.
+    Tenga en cuenta que el agente usa la comprobación de huella digital del certificado (en lugar de la comprobación en cadena). No realizará la validación completa del certificado porque es posible usar certificados autofirmados.
     
 ### <a name="install-the-listener-service"></a>Instalar el servicio de escucha
 
@@ -112,7 +112,7 @@ Para instalar el servicio de escucha en el equipo host, ejecute el StatsManPerfA
     
 Para validar la instalación, siga estos pasos:
   
-1. Abra un explorador y vaya a https://localhost: \<service-port\> /healthcheck/
+1. Abrir un explorador y navegar a https://localhost: \<service-port\> /healthcheck/
     
     De forma predeterminada, el puerto de servicio es 8443 (a menos que haya especificado otro puerto).
     
@@ -208,7 +208,7 @@ Para importar la topología de Skype Empresarial Server, siga estos pasos:
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
-El siguiente comando le permite ver todas las opciones:
+El siguiente comando permite ver todas las opciones:
   
 ```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 

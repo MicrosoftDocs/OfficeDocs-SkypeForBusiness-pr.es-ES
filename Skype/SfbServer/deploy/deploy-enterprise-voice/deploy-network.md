@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: 'Crear o modificar regiones de red, sitios de red y subredes de red asociadas en Skype Empresarial Server. Todas estas se usan para las características avanzadas de Telefonía IP empresarial: desvío de medios, control de admisión de llamadas y enrutamiento basado en ubicación.'
+description: 'Crear o modificar regiones de red, sitios de red y subredes de red asociadas en Skype Empresarial Server. Todas estas se usan para las características avanzadas de Telefonía IP empresarial: omisión de medios, control de admisión de llamadas y enrutamiento basado en ubicación.'
 ms.openlocfilehash: 408715cb1baa31e1fe864827a2b2a14d8e4788c6
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "49812440"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implementar regiones de red, sitios y subredes en Skype Empresarial
 
-Crear o modificar regiones de red, sitios de red y subredes de red asociadas en Skype Empresarial Server. Todas estas se usan para las características avanzadas de Telefonía IP empresarial: desvío de medios, control de admisión de llamadas y enrutamiento basado en ubicación.
+Crear o modificar regiones de red, sitios de red y subredes de red asociadas en Skype Empresarial Server. Todas estas se usan para las características avanzadas de Telefonía IP empresarial: omisión de medios, control de admisión de llamadas y enrutamiento basado en ubicación.
 
 Las características Telefonía IP empresarial avanzadas son el [control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) [](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)de admisión de llamadas, la omisión de [medios,](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)el enrutamiento basado en ubicación y [E9-1-1.](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) Todas estas características requieren la creación de regiones de red, sitios de red y subredes. Por ejemplo, todas estas características requieren que cada subred de la topología esté asociada a un sitio de red específico y que cada sitio de red esté asociado a una región de red. Para obtener más información sobre estos términos, consulte Configuración de red para [las características Telefonía IP empresarial avanzadas en Skype Empresarial Server.](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 
@@ -33,7 +33,7 @@ El control de admisión de llamadas y E9-1-1 tienen requisitos de configuración
 
 - El control de admisión de llamadas requiere que se especifique un perfil de directiva de ancho de banda para cada uno de los sitios restringidos con limitaciones de ancho de banda WAN. Si tiene previsto implementar el control de admisión de llamadas, debe crear perfiles de directiva de ancho de banda [en Skype Empresarial Server](create-bandwidth-policy-profiles.md) antes de configurar los sitios de red.
 
-- E9-1-1 requiere que se especifique una directiva de ubicación para cada uno de los sitios. Si planea implementar E9-1-1, debe crear directivas de ubicación en [Skype Empresarial Server](create-location-policies.md) antes de configurar los sitios de red.
+- E9-1-1 requiere que se especifique una directiva de ubicación para cada uno de los sitios. Si tiene previsto implementar E9-1-1, debe crear directivas de ubicación en [Skype Empresarial Server](create-location-policies.md) antes de configurar los sitios de red.
 
 ## <a name="create-or-modify-a-network-region"></a>Crear o modificar una región de red
 
@@ -313,7 +313,7 @@ Por ejemplo, si la lista de direcciones IP de la alerta especifica 10.121.248.22
 
 2. Asegúrese de que cada una de las subredes 10.121.248.0/24 y 10.121.249.0/24 está asociada a un sitio de red.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="BKMK_AssociateSubnets"> </a>
 
 

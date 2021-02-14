@@ -37,6 +37,6 @@ La vista Conferencias almacena información sobre las conferencias. Esta vista s
 |**OrganizerType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que organizó la conferencia. Vea la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
 |**OrganizerTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que organizó la conferencia. Vea la [tabla Inquilinos](tenants.md) para obtener más información. <br/> |
 |**Grupo** <br/> |nvarchar(256)  <br/> |Nombre de dominio completo del grupo que hospedó la conferencia.  <br/> |
-|**Flag** <br/> |smallint  <br/> |Máscara de bits que contiene atributos de la conferencia. Los valores posibles son:  <br/> 0X01 - Transacción sintética  <br/> |
+|**Flag** <br/> |smallint  <br/> |Máscara de bits que contiene atributos de la conferencia. Los valores posibles son:  <br/> 0X01- Transacción sintética  <br/> |
    
 

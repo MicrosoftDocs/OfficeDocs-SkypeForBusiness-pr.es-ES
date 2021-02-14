@@ -39,7 +39,7 @@ Para que Skype Empresarial Server funcione correctamente, debe haber una serie d
 
 Los registros DNS son necesarios para que Skype Empresarial Server funcione correctamente y que los usuarios puedan acceder a ellos.
   
-En este ejemplo se usa un FQDN con equilibrio de carga DNS denominado pool.contoso.local. Este grupo consta de tres servidores que ejecutan Skype Empresarial Server Enterprise Edition. Un servidor front-end Standard Edition solo puede contener un único servidor. Al usar Standard Edition, solo usaría el nombre de dominio completo (FQDN) del servidor Standard Edition único al hacer referencia al rol front-end en lugar de crear un grupo de servidores con equilibrio de carga DNS, como se muestra en este ejemplo. En este ejemplo sencillo que usa solo el rol front-end se incluyen las entradas DNS de la tabla siguiente. Para planear los requisitos dns específicos, vea [los requisitos dns para Skype Empresarial Server.](../../plan-your-deployment/network-requirements/dns.md) 
+En este ejemplo se usa un FQDN con equilibrio de carga DNS denominado pool.contoso.local. Este grupo consta de tres servidores que ejecutan Skype Empresarial Server Enterprise Edition. Un servidor front-end Standard Edition solo puede contener un único servidor. Al usar Standard Edition, solo usaría el nombre de dominio completo (FQDN) del servidor Standard Edition único al hacer referencia al rol front-end en lugar de crear un grupo de servidores con equilibrio de carga DNS, como se muestra en este ejemplo. En este ejemplo sencillo que usa solo el rol front-end se incluyen las entradas DNS de la tabla siguiente. Para planear los requisitos dns específicos, vea [los requisitos de DNS para Skype Empresarial Server.](../../plan-your-deployment/network-requirements/dns.md) 
   
  
 |**Descripción**|**Tipo de registro**|**Nombre**|**Da como resultado**|**Tipo de equilibrio de carga**|
@@ -80,7 +80,7 @@ En este ejemplo se usa un FQDN con equilibrio de carga DNS denominado pool.conto
    |SFB02  <br/> |Host (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |Host (A)  <br/> |10.0.0.7  <br/> |
    
-7. A continuación, cree las entradas de equilibrio de carga de DNS para el grupo de servidores. El equilibrio de carga de DNS permite a DNS enviar solicitudes a los servidores individuales del grupo de servidores mientras usa el mismo nombre de grupo dns. Para obtener más información sobre DNS y el equilibrio de carga, vea [los requisitos de DNS para Skype Empresarial Server.](../../plan-your-deployment/network-requirements/dns.md) 
+7. A continuación, cree las entradas de equilibrio de carga de DNS para el grupo de servidores. El equilibrio de carga de DNS permite a DNS enviar solicitudes a los servidores individuales del grupo de servidores usando el mismo nombre de grupo dns. Para obtener más información sobre DNS y el equilibrio de carga, vea [los requisitos de DNS para Skype Empresarial Server.](../../plan-your-deployment/network-requirements/dns.md) 
     
     > [!NOTE]
     > La agrupación de varios servidores está disponible solo en las implementaciones de Enterprise Edition. Si va a implementar un único servidor Enterprise Server o Standard Edition, debe crear solo un registro A para el servidor único. 
@@ -121,7 +121,7 @@ En este ejemplo se usa un FQDN con equilibrio de carga DNS denominado pool.conto
     
 4. Continúe con la comprobación del resto de los registros A de la implementación.
     
-5. Si va a admitir clientes heredados y creó el registro SRV, compruebelo escribiendo **set type=srv** en el símbolo del sistema **nslookup** y, a continuación, presione ENTRAR.
+5. Si va a admitir clientes heredados y creó el registro SRV, debe comprobarlo escribiendo **set type=srv** en el símbolo del sistema **nslookup** y, a continuación, presione ENTRAR.
     
 6. Escriba **_sipinternaltls._tcp. *domain*** (por ejemplo, _sipinternaltls._tcp.contoso.local) y, a continuación, presione ENTRAR.
     

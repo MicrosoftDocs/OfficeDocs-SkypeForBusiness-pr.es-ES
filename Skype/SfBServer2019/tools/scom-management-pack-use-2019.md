@@ -148,7 +148,7 @@ Los módulos de administración de Skype Empresarial Server 2019 proporcionan ma
 ||||
 |:-----|:-----|:-----|
 |9   <br/> |Conferencia de audio y videoconferencia  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
-|10   <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
+|10    <br/> |Conferencia de datos  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |11   <br/> |Conferencia de mensajes instantáneos  <br/> |Disponible en Lync Server 2010 y posteriores  <br/> |
 |12   <br/> | Chat persistente <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
 |13   <br/> |Unirse Selector (reuniones programadas)  <br/> |Disponible en Lync Server 2013 y posteriores  <br/> |
@@ -256,6 +256,6 @@ Para obtener información adicional acerca de Operations Manager, consulte los b
 > [!IMPORTANT]
 > Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece ninguna garantía, expresa, implícita o legal, en cuanto a la información de este sitio web. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Herramientas de administración de Skype Empresarial Server 2019](../management-tools-2019.md)

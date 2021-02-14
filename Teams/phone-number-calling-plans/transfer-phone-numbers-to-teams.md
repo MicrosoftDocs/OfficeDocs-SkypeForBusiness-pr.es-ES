@@ -53,7 +53,7 @@ Antes de empezar, le recomendamos que revise la información en [¿Qué es una o
 4. En la **página Agregar información de la** cuenta, complete lo siguiente y, a continuación, haga clic en **Siguiente.**
 
     > [!IMPORTANT]
-    > La información que se muestra en esta página la determina el país o la región y el tipo de número. Cada país y región tiene normativas diferentes sobre la información necesaria para realizar la portabilidad de los números. Lo que ve en esta página puede ser diferente de lo que se describe aquí.
+    > La información que se muestra en esta página está determinada por el país o la región y el tipo de número. Cada país y región tiene normativas diferentes sobre la información necesaria para realizar la portabilidad de los números. Lo que ve en esta página puede ser diferente de lo que se describe aquí.
 
     - **Detalles del pedido:** 
         - **Nombre del pedido:** nombre del pedido
@@ -70,7 +70,7 @@ Antes de empezar, le recomendamos que revise la información en [¿Qué es una o
 5. En la **página Agregar** números, haga clic en Seleccionar un archivo, busque y seleccione el archivo CSV que contiene los números de teléfono que desea transferir y, **a** continuación, haga clic en **Siguiente.**  
 
     > [!NOTE]
-    > El archivo CSV debe tener solo una columna con un encabezado denominado PhoneNumber. Cada número de teléfono debe estar en una fila independiente y puede ser solo dígitos o en formato E.164.
+    > El archivo CSV solo debe tener una columna con un encabezado denominado PhoneNumber. Cada número de teléfono debe estar en una fila independiente y puede ser solo dígitos o en formato E.164.
 
 6. En la **página Completar**  el pedido, haga clic en Cargar una carta de autorización firmada para cargar una copia digitalizada de la Carta de autorización (LOA) firmada.
 

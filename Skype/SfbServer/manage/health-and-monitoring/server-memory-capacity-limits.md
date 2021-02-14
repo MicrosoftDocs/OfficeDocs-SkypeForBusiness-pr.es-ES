@@ -31,7 +31,7 @@ ms.locfileid: "49814300"
   
 Dos contadores de rendimiento de movilidad pueden ayudarle a determinar su uso actual y a planear la capacidad del servicio de movilidad de Skype Empresarial Server (Mcx), así como para supervisar el uso de memoria para UCWA. Para UCWA, la categoría de contador **es LS:WEB - UCWA**. Para mobility Service (Mcx), los contadores se encuentran en la categoría **LS:WEB - Mobile Communication Service**. Los contadores que se van a supervisar son:
   
-- **Recuento** de sesiones actualmente activas con suscripciones de presencia activa, que es el número actual de puntos de conexión registrados a través de UCWA o el servicio de movilidad (Mcx) que tienen suscripciones de presencia activas (número de usuarios móviles siempre conectados)
+- **Recuento** de sesiones actualmente activas con suscripciones de presencia activa, que es el número actual de puntos de conexión registrados a través de UCWA o el servicio de movilidad (Mcx) que tienen suscripciones de presencia activas (número de usuarios móviles conectados siempre)
     
 - **Recuento de sesiones actualmente activas,** que es el número actual de puntos de conexión registrados a través de UCWA o el servicio de movilidad
     

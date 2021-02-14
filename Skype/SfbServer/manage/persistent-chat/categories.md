@@ -38,7 +38,7 @@ Los usuarios, las unidades organizativas (unidades organizativas) y los grupos d
   
 Antes de configurar categorías, asegúrese de leer las categorías de chat persistente, los salón de chat y los roles de usuario [en Skype Empresarial Server 2015.](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)
   
-Puede configurar y administrar categorías mediante el Panel de control o mediante cmdlets Windows PowerShell web.
+Puede configurar y administrar categorías con el Panel de control o con Windows PowerShell cmdlets.
 
 > [!NOTE]
 > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015. 
@@ -75,7 +75,7 @@ Puede configurar y administrar categorías mediante el Panel de control o median
     
    - En **Pertenencia**, en la **sección Miembros** denegados, agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con miembros denegados de la sala.
     
-   - En **Pertenencia**, en la **sección Creadores,** agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con los creadores de la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de salones de chat.
+   - En **Pertenencia**, en la **sección** Creadores, agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con los creadores de la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de salones de chat.
     
 8. Haga clic en **Confirmar**.
     

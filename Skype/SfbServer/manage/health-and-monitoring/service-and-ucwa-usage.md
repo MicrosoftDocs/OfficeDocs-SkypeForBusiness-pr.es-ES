@@ -34,7 +34,7 @@ De forma continua, debe supervisar la CPU y la memoria que usan el servicio de m
     
 - Los contadores de rendimiento de **CPU** y **Procesador**.
     
-Para la mayoría de las implementaciones, el uso de CPU de UCWA debe ser inferior al 15 por ciento de media. El uso de memoria debe estar dentro de los límites descritos en Monitor para los límites de capacidad de memoria del [servidor en Skype Empresarial Server.](server-memory-capacity-limits.md)
+Para la mayoría de las implementaciones, el uso de CPU de UCWA debe estar por debajo del 15 por ciento de media. El uso de memoria debe estar dentro de los límites descritos en Monitor para los límites de capacidad de memoria del [servidor en Skype Empresarial Server.](server-memory-capacity-limits.md)
   
 Además de los contadores de uso de cpu y memoria, puede usar los siguientes contadores de rendimiento para ayudar a determinar cuándo un servidor está sobrecargado con solicitudes:
   

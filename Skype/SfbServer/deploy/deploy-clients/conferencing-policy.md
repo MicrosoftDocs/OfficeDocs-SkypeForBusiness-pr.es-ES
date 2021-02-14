@@ -69,7 +69,7 @@ La directiva de conferencia asignada a la cuenta del Sistema de sala de Skype de
   
 ## <a name="meeting-authentication"></a>Autenticación de reuniones
 
-El Sistema de salas de Skype pide autenticación a los usuarios cuando usan el vínculo para unirse a la reunión para unirse a una reunión restringida; por ejemplo, una reunión para la que se han configurado opciones de sala de espera de reuniones en Outlook. Esta configuración siempre está en las reuniones personalizadas y siempre se pide a los usuarios. Sin embargo, para las reuniones sin restricciones, los usuarios pueden unirse a la reunión sin autenticación. 
+El Sistema de salas de Skype pide autenticación a los usuarios cuando usan el vínculo para unirse a la reunión para unirse a una reunión restringida; por ejemplo, una reunión para la que se han configurado opciones de sala de espera de reuniones en Outlook. Esta configuración siempre está en función de las reuniones personalizadas y siempre se pide a los usuarios. Sin embargo, para las reuniones sin restricciones, los usuarios pueden unirse a la reunión sin autenticación. 
   
 El siguiente comando permite a los administradores requerir autenticación para todas las reuniones, incluidas las reuniones sin restricciones: 
   

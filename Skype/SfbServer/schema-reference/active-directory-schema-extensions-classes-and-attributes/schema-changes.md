@@ -45,7 +45,7 @@ Skype Empresarial Server requiere varias clases y atributos nuevos y modifica al
     
   - Cuenta de autenticación Kerberos (un objeto de equipo opcional)
     
-En este tema se describen los cambios de esquema de Active Directory requeridos por Skype Empresarial Server. No describe los cambios de esquema introducidos por versiones anteriores de Office Communications Server. Para obtener una lista de clases y sus descripciones, consulte Clases de esquema [y descripciones en Skype Empresarial Server.](schema-classes-and-descriptions.md) Para obtener una lista de atributos y sus descripciones, consulte Atributos de esquema [y descripciones en Skype Empresarial Server.](schema-attributes-and-descriptions.md) Para obtener una lista de clases con los atributos que pueden contener, consulte Atributos de [esquema por clase en Skype Empresarial Server.](schema-attributes-by-class.md)
+En este tema se describen los cambios de esquema de Active Directory requeridos por Skype Empresarial Server. No se describen los cambios de esquema introducidos por versiones anteriores de Office Communications Server. Para obtener una lista de clases y sus descripciones, consulte Clases de esquema [y descripciones en Skype Empresarial Server.](schema-classes-and-descriptions.md) Para obtener una lista de atributos y sus descripciones, consulte Atributos de esquema [y descripciones en Skype Empresarial Server.](schema-attributes-and-descriptions.md) Para obtener una lista de clases con los atributos que pueden contener, consulte Atributos de [esquema por clase en Skype Empresarial Server.](schema-attributes-by-class.md)
   
 El prefijo msRTCSIP identifica clases y atributos específicos de Skype Empresarial Server.
   
@@ -69,7 +69,7 @@ En la tabla siguiente se describen las clases de Active Directory modificadas po
 
 |**Clase**|**Cambio**|**Clase o atributo**|
 |:-----|:-----|:-----|
-|Usuario  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|User  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Contacto  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Mail-Recipient  <br/> |add: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |agregar: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |

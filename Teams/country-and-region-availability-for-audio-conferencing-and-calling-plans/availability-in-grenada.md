@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad en Granadina
+title: Disponibilidad en Granada
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -31,7 +31,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49814730"
 ---
-# <a name="availability-in-grenada"></a>Disponibilidad en Granadina
+# <a name="availability-in-grenada"></a>Disponibilidad en Granada
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 

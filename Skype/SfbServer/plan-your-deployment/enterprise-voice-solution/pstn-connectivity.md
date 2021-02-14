@@ -62,6 +62,6 @@ Los escenarios de integración de Enterprise Voice y PBX admitidos son los sigui
   
 Para obtener más información sobre los partners que Telefonía IP empresarial soluciones, consulte el sitio web de [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836)
   
-Para obtener más información acerca de los partners que Telefonía IP empresarial soluciones de hardware, incluidas las puertas de enlace RTC, consulte el sitio web de [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Para obtener más información sobre los partners que Telefonía IP empresarial soluciones de hardware, incluidas las puertas de enlace RTC, consulte el sitio web de [Microsoft Unified Communications Partners.](https://go.microsoft.com/fwlink/p/?linkId=202836)
   
 

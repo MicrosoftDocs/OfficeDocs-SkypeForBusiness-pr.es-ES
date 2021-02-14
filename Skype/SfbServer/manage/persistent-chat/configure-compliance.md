@@ -140,7 +140,7 @@ En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
 |:-----|:-----|:-----|
 |Tipo  <br/> |Especifica el tipo de mensaje. Los tipos de mensaje se describen en la tabla Tipos de mensaje de los elmentos de mensaje.  <br/> |Obligatorio  <br/> |
 |Contenido  <br/> |Contiene el contenido del mensaje. Aquellos mensajes que presenten el tipo Join o Part no usan este atributo.  <br/> |Opcional  <br/> |
-|Id.  <br/> |Especifica el Id. único del contenido. Este atributo solo se usa cuando los mensajes son del tipo Chat.  <br/> |Opcional  <br/> |
+|ID  <br/> |Especifica el Id. único del contenido. Este atributo solo se usa cuando los mensajes son del tipo Chat.  <br/> |Opcional  <br/> |
 
 Cada elemento Sender contiene cinco atributos: nombre de usuario, Id., correo electrónico, interno y URI. Estos atributos se describen en la siguiente tabla.
 
@@ -149,7 +149,7 @@ Cada elemento Sender contiene cinco atributos: nombre de usuario, Id., correo el
 |**Atributo**|**Descripción**|**Opcional/Obligatorio**|
 |:-----|:-----|:-----|
 |Nombre de usuario  <br/> |El nombre de la regla.  <br/> |Opcional  <br/> |
-|Id.  <br/> |Identificador único del remitente.  <br/> |Obligatorio  <br/> |
+|ID  <br/> |Identificador único del remitente.  <br/> |Obligatorio  <br/> |
 |Correo electrónico  <br/> |La dirección de correo electrónico del remitente.  <br/> |Opcional  <br/> |
 |Interno  <br/> |Determina si el usuario es un usuario interno o un usuario federado. Si el valor está establecido en true, el usuario es interno.  <br/> |Opcional  <br/> |
 |Uri  <br/> |URI del SIP del usuario.  <br/> |Obligatorio  <br/> |

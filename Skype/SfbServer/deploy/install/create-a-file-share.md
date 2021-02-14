@@ -28,7 +28,7 @@ ms.locfileid: "49812240"
  
 **Resumen:** Obtenga información sobre cómo crear un recurso compartido de archivos de Windows Server como parte de la instalación de Skype Empresarial Server. Descargue una prueba gratuita de Skype Empresarial Server desde el Centro de evaluación de Microsoft en: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) .
   
-Skype Empresarial Server requiere un recurso compartido de archivos para que los equipos de toda la topología puedan intercambiar archivos. La creación de un recurso compartido de archivos es el paso 2 de 8 en el proceso de instalación de Skype Empresarial Server. Puede realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se indica en el diagrama. Para obtener más información sobre la planeación del recurso compartido de archivos, consulte Requisitos del entorno para [Skype Empresarial Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o requisitos de servidor para Skype Empresarial Server [2019.](../../../SfBServer2019/plan/system-requirements.md)
+Skype Empresarial Server requiere un recurso compartido de archivos para que los equipos de toda la topología puedan intercambiar archivos. La creación de un recurso compartido de archivos es el paso 2 de 8 en el proceso de instalación de Skype Empresarial Server. Puede realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se indica en el diagrama. Para obtener más información sobre la planeación del recurso compartido de archivos, consulte Requisitos del entorno [para Skype Empresarial Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o requisitos de servidor para Skype Empresarial Server [2019.](../../../SfBServer2019/plan/system-requirements.md)
   
 ![Diagrama de información general](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
@@ -37,7 +37,7 @@ Skype Empresarial Server requiere un recurso compartido de archivos para que los
 Esta sección te guiará a través de la creación de un recurso compartido de archivos básico de Windows Server. Skype Empresarial Server admite un recurso compartido de archivos básico de Windows Server. Sin embargo, no proporciona explícitamente alta disponibilidad. Para un entorno de alta disponibilidad, se recomienda un recurso compartido de archivos del Sistema de archivos distribuido (DFS). Para obtener más información acerca de un recurso compartido de archivos de alta disponibilidad y DFS, consulte [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
-> Windows Server 2012 R2 ha realizado importantes avances al proporcionar soluciones de recursos compartidos de archivos como la red de área de almacenamiento (SAN) con la plataforma Windows Server. En comparación con un dispositivo tradicional basado en SAN, una solución de almacenamiento de Windows Server 2012 R2 puede reducir los costos a la mitad con un impacto muy mínimo en el rendimiento. Para obtener más información acerca de las opciones de recurso compartido de archivos en Windows Server 2012 R2, vea las white paper descargables de Almacenamiento de [Windows Server 2012 R2.](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf) 
+> Windows Server 2012 R2 ha realizado importantes avances al proporcionar soluciones de recursos compartidos de archivos como la Red de área de almacenamiento (SAN) con la plataforma Windows Server. En comparación con un dispositivo tradicional basado en SAN, una solución de almacenamiento de Windows Server 2012 R2 puede reducir los costos a la mitad con un impacto muy mínimo en el rendimiento. Para obtener más información acerca de las opciones de recurso compartido de archivos en Windows Server 2012 R2, vea las white paper descargables de Almacenamiento de [Windows Server 2012 R2.](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf) 
   
 Vea los pasos de vídeo para **crear un recurso compartido de archivos:**
   
@@ -55,7 +55,7 @@ Vea los pasos de vídeo para **crear un recurso compartido de archivos:**
     
 5. Haga clic en **Permisos**.
     
-6. Agregue el grupo **de administradores** locales del servidor que hospeda el recurso compartido de archivos, conceda los derechos **Permitir: Control total,** Cambiar y Lectura y, a continuación, haga clic en **Aceptar.**
+6. Agregue el grupo **de administradores** locales del servidor que hospeda el recurso compartido de archivos, conceda los derechos **Permitir: Control total,** Cambiar y Leer y, a continuación, haga clic en **Aceptar.**
     
 7. Vuelva **a hacer clic** en Aceptar y tome nota de la ruta de red.
     

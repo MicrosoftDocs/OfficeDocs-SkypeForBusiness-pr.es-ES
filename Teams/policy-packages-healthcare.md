@@ -30,7 +30,7 @@ ms.locfileid: "49812860"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para atención sanitaria
 
-## <a name="overview"></a>Descripción general
+## <a name="overview"></a>Información general
 
 Un [paquete de directivas](manage-policy-packages.md) en Microsoft Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a los usuarios que tienen roles similares en su organización. Los paquetes de directivas simplifican y ayudan a proporcionar consistencia al administrar directivas. Puede personalizar la configuración de las directivas del paquete para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de directivas en un paquete de directivas, todos los usuarios asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directivas mediante el Centro de administración de Microsoft Teams o PowerShell.
 
@@ -48,13 +48,13 @@ Teams incluye actualmente los siguientes paquetes de directivas sanitarias.
 
 |Nombre del paquete en el Centro de administración de Microsoft Teams|Recomendado para|Descripción |
 |---------|---------|---------|
-|Trabajador sanitario  |Trabajadores clínicos de su organización sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores clínicos como enfermeras registradas, enfermeras responsables, médicos y trabajadores sociales acceso total a chat, llamadas, administración de turnos y reuniones. |
+|Trabajador sanitario  |Trabajadores médicos de su organización sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores clínicos como enfermeras registradas, enfermeras responsables, médicos y trabajadores sociales acceso total a chat, llamadas, administración de turnos y reuniones. |
 |Trabajador de la información sanitaria  |Trabajadores de la información de su organización sanitaria |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores de la información, como el personal de IT, el personal de informática, el personal de finanzas y los responsables de cumplimiento normativo, acceso total a chats, llamadas y reuniones.|
 |Sala de pacientes sanitarios  |Dispositivos de sala para pacientes|Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización sanitaria.|
 
 ![Captura de pantalla de paquetes de directivas sanitarias](media/policy-packages-healthcare.png)
 
-A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva de trabajador médico médico a médicos de su organización, se crea una directiva denominada Healthcare_ClinicalWorker para cada directiva del paquete.
+A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directivas de trabajador médico médico a médicos de su organización, se crea una directiva denominada Healthcare_ClinicalWorker para cada directiva del paquete.
 
 ![Captura de pantalla de las directivas del paquete de trabajadores sanitarios](media/policy-packages-healthcare-clinical-worker.png)
 

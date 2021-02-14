@@ -64,7 +64,7 @@ Para configurar los ajustes para una nueva configuración de archivado o una exi
     
 - **Integración de Microsoft Exchange** Seleccione esta opción si tiene usuarios que están en Exchange. Con esta opción, Exchange se usa para almacenar datos de esos usuarios, si sus buzones se han colocado en In-Place retención. Si todos los usuarios están ubicados en Exchange, no es necesario configurar bases de datos de SQL Server independientes para el almacenamiento de datos de archivado.
     
-- **Habilitar la depuración de datos de archivado** Seleccione esta opción para habilitar la depuración y especificar opciones de depuración, entre las que se incluyen las siguientes:
+- **Habilitar la purga de datos de archivado** Seleccione esta opción para habilitar la depuración y especificar opciones de depuración, entre las que se incluyen las siguientes:
     
   - Purgado después de un número específico de días que indique.
     
