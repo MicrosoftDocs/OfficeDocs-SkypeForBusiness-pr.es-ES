@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808840"
 ---
-# <a name="certificate-request-geography"></a><span data-ttu-id="ba2a2-105">Solicitud de certificados (geografía)</span><span class="sxs-lookup"><span data-stu-id="ba2a2-105">Certificate Request (Geography)</span></span>
+# <a name="certificate-request-geography"></a><span data-ttu-id="28cdb-105">Solicitud de certificados (geografía)</span><span class="sxs-lookup"><span data-stu-id="28cdb-105">Certificate Request (Geography)</span></span>
  
-<span data-ttu-id="ba2a2-p102">La página **Información geográfica** pide información adicional para la solicitud del certificado. En esta página, seleccione **País** y, a continuación, escriba **Estado/Provincia** y **Ciudad/Localidad** en un cuadro de texto. Es conveniente no usar abreviaciones y escribir el nombre completo del estado o la provincia y de la ciudad o localidad.</span><span class="sxs-lookup"><span data-stu-id="ba2a2-p102">The **Geographical Information** page requests additional information for the certificate request. On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box. Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.</span></span>
+<span data-ttu-id="28cdb-p102">La página **Información geográfica** pide información adicional para la solicitud del certificado. En esta página, seleccione **País** y, a continuación, escriba **Estado/Provincia** y **Ciudad/Localidad** en un cuadro de texto. Es conveniente no usar abreviaciones y escribir el nombre completo del estado o la provincia y de la ciudad o localidad.</span><span class="sxs-lookup"><span data-stu-id="28cdb-p102">The **Geographical Information** page requests additional information for the certificate request. On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box. Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.</span></span>
   
 

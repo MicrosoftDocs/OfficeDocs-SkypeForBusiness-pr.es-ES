@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808700"
 ---
-# <a name="select-languages"></a><span data-ttu-id="ca5b8-104">Seleccionar idiomas</span><span class="sxs-lookup"><span data-stu-id="ca5b8-104">Select Languages</span></span>
+# <a name="select-languages"></a><span data-ttu-id="33536-104">Seleccionar idiomas</span><span class="sxs-lookup"><span data-stu-id="33536-104">Select Languages</span></span>
 
-<span data-ttu-id="ca5b8-105">Seleccione los idiomas que desee usar para el número de acceso para conferencia de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="ca5b8-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="ca5b8-106">Para obtener información detallada, consulte [Crear o modificar un número de acceso para conferencias de acceso telefónico local](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="ca5b8-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
+<span data-ttu-id="33536-105">Seleccione los idiomas que desee usar para el número de acceso para conferencia de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="33536-105">Select the languages that you want to use for your dial-in conferencing access number.</span></span> <span data-ttu-id="33536-106">Para obtener información detallada, consulte [Crear o modificar un número de acceso para conferencias de acceso telefónico local](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="33536-106">For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
 
 

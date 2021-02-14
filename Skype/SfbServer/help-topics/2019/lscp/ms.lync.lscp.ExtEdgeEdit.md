@@ -22,20 +22,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808600"
 ---
-# <a name="access-edge-configuration-edit"></a><span data-ttu-id="0d31d-104">Configuración perimetral de acceso: Editar</span><span class="sxs-lookup"><span data-stu-id="0d31d-104">Access Edge Configuration: Edit</span></span>
+# <a name="access-edge-configuration-edit"></a><span data-ttu-id="a4c58-104">Configuración perimetral de acceso: Editar</span><span class="sxs-lookup"><span data-stu-id="a4c58-104">Access Edge Configuration: Edit</span></span>
 
-<span data-ttu-id="0d31d-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="0d31d-105">What do you want to do?</span></span> <span data-ttu-id="0d31d-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="0d31d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a4c58-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="a4c58-105">What do you want to do?</span></span> <span data-ttu-id="a4c58-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="a4c58-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0d31d-107">Habilitar o deshabilitar el acceso de usuarios remotos para su organización</span><span class="sxs-lookup"><span data-stu-id="0d31d-107">Enable or Disable Remote User Access for Your Organization</span></span>](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
+- [<span data-ttu-id="a4c58-107">Habilitar o deshabilitar el acceso de usuarios remotos para su organización</span><span class="sxs-lookup"><span data-stu-id="a4c58-107">Enable or Disable Remote User Access for Your Organization</span></span>](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
 
-- [<span data-ttu-id="0d31d-108">Habilitar o deshabilitar la federación para su organización</span><span class="sxs-lookup"><span data-stu-id="0d31d-108">Enable or Disable Federation for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [<span data-ttu-id="a4c58-108">Habilitar o deshabilitar la federación para su organización</span><span class="sxs-lookup"><span data-stu-id="a4c58-108">Enable or Disable Federation for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [<span data-ttu-id="0d31d-109">Habilitar o deshabilitar la detección de socios de federación</span><span class="sxs-lookup"><span data-stu-id="0d31d-109">Enable or Disable Discovery of Federation Partners</span></span>](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
+- [<span data-ttu-id="a4c58-109">Habilitar o deshabilitar la detección de socios de federación</span><span class="sxs-lookup"><span data-stu-id="a4c58-109">Enable or Disable Discovery of Federation Partners</span></span>](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
 
-- [<span data-ttu-id="0d31d-110">Habilitar o deshabilitar el envío de un aviso de declinación de responsabilidades de archivado a socios federados</span><span class="sxs-lookup"><span data-stu-id="0d31d-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+- [<span data-ttu-id="a4c58-110">Habilitar o deshabilitar el envío de un aviso de declinación de responsabilidades de archivado a socios federados</span><span class="sxs-lookup"><span data-stu-id="a4c58-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
 
-- [<span data-ttu-id="0d31d-111">Habilitar o deshabilitar el acceso de usuarios anónimos para su organización</span><span class="sxs-lookup"><span data-stu-id="0d31d-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [<span data-ttu-id="a4c58-111">Habilitar o deshabilitar el acceso de usuarios anónimos para su organización</span><span class="sxs-lookup"><span data-stu-id="a4c58-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [<span data-ttu-id="0d31d-112">Creación o modificación de una directiva de conferencia</span><span class="sxs-lookup"><span data-stu-id="0d31d-112">Create or Modify a Conferencing Policy</span></span>](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
+- [<span data-ttu-id="a4c58-112">Creación o modificación de una directiva de conferencia</span><span class="sxs-lookup"><span data-stu-id="a4c58-112">Create or Modify a Conferencing Policy</span></span>](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
 
 

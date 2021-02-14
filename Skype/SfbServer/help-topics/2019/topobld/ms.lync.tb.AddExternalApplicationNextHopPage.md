@@ -22,12 +22,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811830"
 ---
-# <a name="add-nexthop-trusted-application-server"></a><span data-ttu-id="61c15-103">Agregar servidor de aplicaciones de confianza de próximo salto</span><span class="sxs-lookup"><span data-stu-id="61c15-103">Add NextHop Trusted Application Server</span></span>
+# <a name="add-nexthop-trusted-application-server"></a><span data-ttu-id="3c0d6-103">Agregar servidor de aplicaciones de confianza de próximo salto</span><span class="sxs-lookup"><span data-stu-id="3c0d6-103">Add NextHop Trusted Application Server</span></span>
  
-<span data-ttu-id="61c15-104">Para definir el próximo salto del servidor o grupo de servidores de aplicaciones de confianza, efectúe los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="61c15-104">To set the next hop for the Trusted Applications Server or pool, do the following:</span></span>
+<span data-ttu-id="3c0d6-104">Para definir el próximo salto del servidor o grupo de servidores de aplicaciones de confianza, efectúe los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="3c0d6-104">To set the next hop for the Trusted Applications Server or pool, do the following:</span></span>
   
-<span data-ttu-id="61c15-105">En la lista desplegable **Grupo de servidores del próximo salto**, seleccione el grupo de servidores Enterprise Edition o el servidor front-end de Standard Edition que el grupo de servidores de aplicaciones de confianza usará como próximo salto.</span><span class="sxs-lookup"><span data-stu-id="61c15-105">In the **Next Hop pool** drop-down list, select the Enterprise Edition pool or Standard Edition Front End Server that you want the Trusted Application pool to use as a next hop.</span></span>
+<span data-ttu-id="3c0d6-105">En la lista desplegable **Grupo de servidores del próximo salto**, seleccione el grupo de servidores Enterprise Edition o el servidor front-end de Standard Edition que el grupo de servidores de aplicaciones de confianza usará como próximo salto.</span><span class="sxs-lookup"><span data-stu-id="3c0d6-105">In the **Next Hop pool** drop-down list, select the Enterprise Edition pool or Standard Edition Front End Server that you want the Trusted Application pool to use as a next hop.</span></span>
   
-<span data-ttu-id="61c15-106">Haga clic en **Finalizar** para completar la creación del grupo de servidores de aplicaciones de confianza.</span><span class="sxs-lookup"><span data-stu-id="61c15-106">Click **Finish** to complete the Trusted Application pool creation.</span></span>
+<span data-ttu-id="3c0d6-106">Haga clic en **Finalizar** para completar la creación del grupo de servidores de aplicaciones de confianza.</span><span class="sxs-lookup"><span data-stu-id="3c0d6-106">Click **Finish** to complete the Trusted Application pool creation.</span></span>
   
 

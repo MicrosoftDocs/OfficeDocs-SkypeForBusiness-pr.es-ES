@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49811130"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="e54b6-103">Skype Empresarial Server Crear nuevo expansor</span><span class="sxs-lookup"><span data-stu-id="e54b6-103">Skype for Business Server Create New Expander</span></span>
+# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="a8001-103">Skype Empresarial Server Crear nuevo expansor</span><span class="sxs-lookup"><span data-stu-id="a8001-103">Skype for Business Server Create New Expander</span></span>
  
-<span data-ttu-id="e54b6-104">Puede crear nuevos roles de servidor en el Generador de topologías haciendo clic con el botón secundario en Skype Empresarial **Server,** seleccionando Nuevo y seleccionando el rol de servidor que se va a crear.</span><span class="sxs-lookup"><span data-stu-id="e54b6-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
+<span data-ttu-id="a8001-104">Puede crear nuevos roles de servidor en el Generador de topologías haciendo clic con el botón secundario en Skype Empresarial **Server,** seleccionando Nuevo y seleccionando el rol de servidor que se va a crear.</span><span class="sxs-lookup"><span data-stu-id="a8001-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
   
 

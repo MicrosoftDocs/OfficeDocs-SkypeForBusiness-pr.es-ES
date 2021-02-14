@@ -20,22 +20,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809740"
 ---
-# <a name="tblconfig"></a><span data-ttu-id="ecce4-103">tblConfig</span><span class="sxs-lookup"><span data-stu-id="ecce4-103">tblConfig</span></span>
+# <a name="tblconfig"></a><span data-ttu-id="13644-103">tblConfig</span><span class="sxs-lookup"><span data-stu-id="13644-103">tblConfig</span></span>
  
-<span data-ttu-id="ecce4-104">tblConfig contiene algunas configuraciones no admitidas del servidor de chat persistente, en una fila.</span><span class="sxs-lookup"><span data-stu-id="ecce4-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
+<span data-ttu-id="13644-104">tblConfig contiene algunas configuraciones no admitidas del servidor de chat persistente, en una fila.</span><span class="sxs-lookup"><span data-stu-id="13644-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
   
-<span data-ttu-id="ecce4-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="ecce4-105">**Columns**</span></span>
+<span data-ttu-id="13644-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="13644-105">**Columns**</span></span>
 
-|<span data-ttu-id="ecce4-106">**Columna**</span><span class="sxs-lookup"><span data-stu-id="ecce4-106">**Column**</span></span>|<span data-ttu-id="ecce4-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="ecce4-107">**Type**</span></span>|<span data-ttu-id="ecce4-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ecce4-108">**Description**</span></span>|
+|<span data-ttu-id="13644-106">**Columna**</span><span class="sxs-lookup"><span data-stu-id="13644-106">**Column**</span></span>|<span data-ttu-id="13644-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="13644-107">**Type**</span></span>|<span data-ttu-id="13644-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="13644-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="ecce4-109">configLabel</span><span class="sxs-lookup"><span data-stu-id="ecce4-109">configLabel</span></span>  <br/> |<span data-ttu-id="ecce4-110">nvarchar (255), no NULL</span><span class="sxs-lookup"><span data-stu-id="ecce4-110">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="ecce4-111">Contiene "grupo".</span><span class="sxs-lookup"><span data-stu-id="ecce4-111">Contains "pool."</span></span>  <br/> |
-|<span data-ttu-id="ecce4-112">configContent</span><span class="sxs-lookup"><span data-stu-id="ecce4-112">configContent</span></span>  <br/> |<span data-ttu-id="ecce4-113">nvarchar (máx.)</span><span class="sxs-lookup"><span data-stu-id="ecce4-113">nvarchar (max)</span></span>  <br/> |<span data-ttu-id="ecce4-114">Contenido de la configuración.</span><span class="sxs-lookup"><span data-stu-id="ecce4-114">Configuration content.</span></span>  <br/> |
-|<span data-ttu-id="ecce4-115">configPoolID</span><span class="sxs-lookup"><span data-stu-id="ecce4-115">configPoolID</span></span>  <br/> |<span data-ttu-id="ecce4-116">GUID, no NULL</span><span class="sxs-lookup"><span data-stu-id="ecce4-116">GUID, not null</span></span>  <br/> |<span data-ttu-id="ecce4-117">Identificador único de la instancia de base de datos.</span><span class="sxs-lookup"><span data-stu-id="ecce4-117">Unique ID of the database instance.</span></span>  <br/> |
+|<span data-ttu-id="13644-109">configLabel</span><span class="sxs-lookup"><span data-stu-id="13644-109">configLabel</span></span>  <br/> |<span data-ttu-id="13644-110">nvarchar (255), no NULL</span><span class="sxs-lookup"><span data-stu-id="13644-110">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="13644-111">Contiene "grupo".</span><span class="sxs-lookup"><span data-stu-id="13644-111">Contains "pool."</span></span>  <br/> |
+|<span data-ttu-id="13644-112">configContent</span><span class="sxs-lookup"><span data-stu-id="13644-112">configContent</span></span>  <br/> |<span data-ttu-id="13644-113">nvarchar (máx.)</span><span class="sxs-lookup"><span data-stu-id="13644-113">nvarchar (max)</span></span>  <br/> |<span data-ttu-id="13644-114">Contenido de la configuración.</span><span class="sxs-lookup"><span data-stu-id="13644-114">Configuration content.</span></span>  <br/> |
+|<span data-ttu-id="13644-115">configPoolID</span><span class="sxs-lookup"><span data-stu-id="13644-115">configPoolID</span></span>  <br/> |<span data-ttu-id="13644-116">GUID, no NULL</span><span class="sxs-lookup"><span data-stu-id="13644-116">GUID, not null</span></span>  <br/> |<span data-ttu-id="13644-117">Identificador único de la instancia de base de datos.</span><span class="sxs-lookup"><span data-stu-id="13644-117">Unique ID of the database instance.</span></span>  <br/> |
    
-<span data-ttu-id="ecce4-118">**Clave**</span><span class="sxs-lookup"><span data-stu-id="ecce4-118">**Key**</span></span>
+<span data-ttu-id="13644-118">**Clave**</span><span class="sxs-lookup"><span data-stu-id="13644-118">**Key**</span></span>
 
-|<span data-ttu-id="ecce4-119">**Columna**</span><span class="sxs-lookup"><span data-stu-id="ecce4-119">**Column**</span></span>|<span data-ttu-id="ecce4-120">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ecce4-120">**Description**</span></span>|
+|<span data-ttu-id="13644-119">**Columna**</span><span class="sxs-lookup"><span data-stu-id="13644-119">**Column**</span></span>|<span data-ttu-id="13644-120">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="13644-120">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="ecce4-121">configLabel</span><span class="sxs-lookup"><span data-stu-id="ecce4-121">configLabel</span></span>  <br/> |<span data-ttu-id="ecce4-122">Clave principal.</span><span class="sxs-lookup"><span data-stu-id="ecce4-122">Primary key.</span></span>  <br/> |
+|<span data-ttu-id="13644-121">configLabel</span><span class="sxs-lookup"><span data-stu-id="13644-121">configLabel</span></span>  <br/> |<span data-ttu-id="13644-122">Clave principal.</span><span class="sxs-lookup"><span data-stu-id="13644-122">Primary key.</span></span>  <br/> |
    
 

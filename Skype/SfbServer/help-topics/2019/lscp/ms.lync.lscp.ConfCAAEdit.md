@@ -22,12 +22,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808710"
 ---
-# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="c2d45-104">Número de acceso telefónico local: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="c2d45-104">Dial-in Access Number: Create New or Edit Existing</span></span>
+# <a name="dial-in-access-number-create-new-or-edit-existing"></a><span data-ttu-id="45c77-104">Número de acceso telefónico local: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="45c77-104">Dial-in Access Number: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="c2d45-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="c2d45-105">What do you want to do?</span></span> <span data-ttu-id="c2d45-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="c2d45-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="45c77-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="45c77-105">What do you want to do?</span></span> <span data-ttu-id="45c77-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="45c77-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="c2d45-107">Crear o modificar un número de acceso para conferencias de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="c2d45-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="45c77-107">Crear o modificar un número de acceso para conferencias de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="45c77-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="c2d45-108">Eliminar un número de acceso para conferencia de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="c2d45-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="45c77-108">Eliminar un número de acceso para conferencia de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="45c77-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

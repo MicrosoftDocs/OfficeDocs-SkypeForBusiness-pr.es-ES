@@ -23,10 +23,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810690"
 ---
-# <a name="archiving-planning-tool"></a><span data-ttu-id="04608-103">Archivado (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="04608-103">Archiving (Planning Tool)</span></span>
+# <a name="archiving-planning-tool"></a><span data-ttu-id="80c05-103">Archivado (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="80c05-103">Archiving (Planning Tool)</span></span>
  
-<span data-ttu-id="04608-104">El archivado en Skype Empresarial Server permite archivar las comunicaciones que se envían a través de Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="04608-104">Archiving in Skype for Business Server provides a way for you to archive communications that are sent through Skype for Business Server.</span></span>
+<span data-ttu-id="80c05-104">El archivado en Skype Empresarial Server permite archivar las comunicaciones que se envían a través de Skype Empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="80c05-104">Archiving in Skype for Business Server provides a way for you to archive communications that are sent through Skype for Business Server.</span></span>
   
-<span data-ttu-id="04608-105">Para obtener más información sobre cómo preparar su entorno para el servidor de archivado, consulte [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).</span><span class="sxs-lookup"><span data-stu-id="04608-105">For details about preparing your environment for Archiving Server, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).</span></span>
+<span data-ttu-id="80c05-105">Para obtener más información sobre cómo preparar su entorno para el servidor de archivado, consulte [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).</span><span class="sxs-lookup"><span data-stu-id="80c05-105">For details about preparing your environment for Archiving Server, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).</span></span>
   
 

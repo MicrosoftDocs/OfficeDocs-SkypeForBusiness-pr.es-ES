@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49810430"
 ---
-# <a name="add-additional-sip-domains"></a><span data-ttu-id="55537-104">Agregar dominios SIP adicionales</span><span class="sxs-lookup"><span data-stu-id="55537-104">Add Additional SIP Domains</span></span>
+# <a name="add-additional-sip-domains"></a><span data-ttu-id="52948-104">Agregar dominios SIP adicionales</span><span class="sxs-lookup"><span data-stu-id="52948-104">Add Additional SIP Domains</span></span>
  
-<span data-ttu-id="55537-p102">Especifique el nombre de dominio de cada dominio adicional que desea admitir en la implementación. Por ejemplo, si ha especificado contoso.net como dominio principal del protocolo de inicio de sesión (SIP) y también quiere admitir fabrikam.net para el tráfico SIP en la implementación, especifique fabrikam.net como dominio admitido adicional.</span><span class="sxs-lookup"><span data-stu-id="55537-p102">Specify the domain name of each additional domain that you want to support in your deployment. For example, if you have specified contoso.net as the primary Session Initiation Protocol (SIP) domain and you also want to support fabrikam.net for SIP traffic in your deployment, specify fabrikam.net as an additional supported domain.</span></span>
+<span data-ttu-id="52948-p102">Especifique el nombre de dominio de cada dominio adicional que desea admitir en la implementación. Por ejemplo, si ha especificado contoso.net como dominio principal del protocolo de inicio de sesión (SIP) y también quiere admitir fabrikam.net para el tráfico SIP en la implementación, especifique fabrikam.net como dominio admitido adicional.</span><span class="sxs-lookup"><span data-stu-id="52948-p102">Specify the domain name of each additional domain that you want to support in your deployment. For example, if you have specified contoso.net as the primary Session Initiation Protocol (SIP) domain and you also want to support fabrikam.net for SIP traffic in your deployment, specify fabrikam.net as an additional supported domain.</span></span>
   
 
