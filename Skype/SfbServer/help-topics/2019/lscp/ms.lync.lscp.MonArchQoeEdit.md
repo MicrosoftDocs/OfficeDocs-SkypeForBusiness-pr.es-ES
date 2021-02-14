@@ -22,17 +22,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812300"
 ---
-# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a><span data-ttu-id="843a4-104">Datos referentes a la calidad de la experiencia (QoE): Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="843a4-104">Quality of Experience (QoE) Data: Create New or Edit Existing</span></span>
+# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a><span data-ttu-id="52ef0-104">Datos referentes a la calidad de la experiencia (QoE): Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="52ef0-104">Quality of Experience (QoE) Data: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="843a4-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="843a4-105">What do you want to do?</span></span> <span data-ttu-id="843a4-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="843a4-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="52ef0-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="52ef0-105">What do you want to do?</span></span> <span data-ttu-id="52ef0-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="52ef0-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="843a4-107">Habilitar la calidad de la experiencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="843a4-107">Enable Quality of Experience in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-qoe.md)
+- [<span data-ttu-id="52ef0-107">Habilitar la calidad de la experiencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="52ef0-107">Enable Quality of Experience in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-qoe.md)
     
-- [<span data-ttu-id="843a4-108">Modificar la configuración de calidad de la experiencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="843a4-108">Modify Quality of Experience settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [<span data-ttu-id="52ef0-108">Modificar la configuración de calidad de la experiencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="52ef0-108">Modify Quality of Experience settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [<span data-ttu-id="843a4-109">Crear opciones de configuración de calidad de la experiencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="843a4-109">Create Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [<span data-ttu-id="52ef0-109">Crear opciones de configuración de calidad de la experiencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="52ef0-109">Create Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [<span data-ttu-id="843a4-110">Eliminar opciones de configuración de calidad de la experiencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="843a4-110">Delete Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [<span data-ttu-id="52ef0-110">Eliminar opciones de configuración de calidad de la experiencia en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="52ef0-110">Delete Quality of Experience configuration settings in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
  
 

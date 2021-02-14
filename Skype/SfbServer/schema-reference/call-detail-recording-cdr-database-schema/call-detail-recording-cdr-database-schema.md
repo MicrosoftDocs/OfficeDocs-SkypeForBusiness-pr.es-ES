@@ -20,16 +20,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49813450"
 ---
-# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a><span data-ttu-id="ac3a4-103">Esquema de base de datos de registro detallado de llamadas (CDR) en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="ac3a4-103">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>
+# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a><span data-ttu-id="a83bd-103">Esquema de base de datos de registro detallado de llamadas (CDR) en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="a83bd-103">Call detail recording (CDR) database schema in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="ac3a4-104">Esto documenta el esquema de la base de datos de registro detallado de llamadas (CDR) en Skype Empresarial Server 2015.</span><span class="sxs-lookup"><span data-stu-id="ac3a4-104">This documents the schema of the call detail recording (CDR) database in Skype for Business Server 2015 .</span></span>
+<span data-ttu-id="a83bd-104">Esto documenta el esquema de la base de datos de registro detallado de llamadas (CDR) en Skype Empresarial Server 2015.</span><span class="sxs-lookup"><span data-stu-id="a83bd-104">This documents the schema of the call detail recording (CDR) database in Skype for Business Server 2015 .</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="ac3a4-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ac3a4-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a83bd-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="a83bd-105">In this section</span></span>
 
-- [<span data-ttu-id="ac3a4-106">Lista de tablas de CDR en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="ac3a4-106">List of CDR tables in Skype for Business Server 2015</span></span>](list-of-cdr-tables.md)
+- [<span data-ttu-id="a83bd-106">Lista de tablas de CDR en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="a83bd-106">List of CDR tables in Skype for Business Server 2015</span></span>](list-of-cdr-tables.md)
     
-- [<span data-ttu-id="ac3a4-107">Detalles de la tabla CDR en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="ac3a4-107">CDR table details in Skype for Business Server 2015</span></span>](cdr-table-details.md)
+- [<span data-ttu-id="a83bd-107">Detalles de la tabla cdr en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="a83bd-107">CDR table details in Skype for Business Server 2015</span></span>](cdr-table-details.md)
     
-- [<span data-ttu-id="ac3a4-108">Lista de vistas de CDR</span><span class="sxs-lookup"><span data-stu-id="ac3a4-108">List of CDR views</span></span>](list-of-cdr-views.md)
+- [<span data-ttu-id="a83bd-108">Lista de vistas de CDR</span><span class="sxs-lookup"><span data-stu-id="a83bd-108">List of CDR views</span></span>](list-of-cdr-views.md)
     
 
