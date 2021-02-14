@@ -51,7 +51,7 @@ Para configurar las opciones de archivado para un sitio o grupo específico:
     
    - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear las sesiones de mensajería instantánea (MI) o conferencias web si se produce algún error en el archivado**.
     
-   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de **integración de Microsoft Exchange.**
+   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de integración de **Microsoft Exchange.**
     
    - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
     

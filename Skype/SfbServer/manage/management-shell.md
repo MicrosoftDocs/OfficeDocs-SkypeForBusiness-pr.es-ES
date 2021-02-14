@@ -52,7 +52,7 @@ Cosas que debe saber sobre Windows PowerShell en Skype Empresarial Server:
     > [!CAUTION]
     > Si abre una ventana Windows PowerShell en lugar del Shell de administración de Skype Empresarial Server, es posible que no pueda ejecutar los cmdlets de Skype de forma predeterminada. Para ejecutar cmdlets de Skype Empresarial Server desde dentro de Windows PowerShell, escriba primero lo siguiente en el símbolo del sistema Windows PowerShell comando: >  `Import-Module SkypeforBusiness`
   
-- El Shell de administración de Skype Empresarial Server se instala automáticamente en todos los servidores front-end o Standard Edition de Skype Empresarial Server Enterprise Edition.
+- El Shell de administración de Skype Empresarial Server se instala automáticamente en cada servidor front-end o servidor Standard Edition de Skype Empresarial Server Enterprise Edition.
     
 - Puede actualizar el contenido de ayuda del Shell de administración de Skype Empresarial Server ejecutando el cmdlet [Update-Help.](https://technet.microsoft.com/library/hh849720.aspx) El cmdlet Update-Help descarga e instala los archivos de ayuda más recientes disponibles para todos los módulos instalados en el equipo, incluidas las actualizaciones de los cmdlets de Skype Empresarial.
     

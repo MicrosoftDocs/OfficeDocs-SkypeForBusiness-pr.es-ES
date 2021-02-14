@@ -166,7 +166,7 @@ El complemento Lync VDI no se admite en entornos de Microsoft 365 u Office 365.
 > [!NOTE]
 > Citrix RealTime Optimization Pack es compatible con Microsoft 365 y Office 365. Para entornos virtuales basados en Citrix, revise la documentación de Información técnica [general](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) de Citrix para ver la lista de características y versiones compatibles.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="Citrix_RT"> </a>
 
 [Implementar el complemento Lync VDI con Skype Empresarial Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)

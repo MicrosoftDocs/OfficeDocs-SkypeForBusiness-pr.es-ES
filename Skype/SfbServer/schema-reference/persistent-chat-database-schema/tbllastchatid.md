@@ -38,6 +38,6 @@ tblLastChatId contiene el último id. de chat generado (y usado en la tabla tblC
 |\<nodeID, lastChatID\>  <br/> |Clave principal (nodeID es suficiente para el procesamiento).  <br/> |
 |nodeID  <br/> |Clave externa con búsqueda en la tabla tblNode.nodeID.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [tblChat](tblchat.md)

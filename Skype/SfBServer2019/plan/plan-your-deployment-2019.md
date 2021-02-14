@@ -37,13 +37,13 @@ Vea los siguientes recursos para obtener información sobre cómo planear la imp
   
 ||Contenido|Descripción|
 |:--- |:--- |:--- |
-|![Icono de vídeos](../media/get_started.png)|<UL><LI>[Skype Empresarial: introducción rápida](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [Skype Empresarial: guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |Descubra las presentaciones de vídeo y la formación para Skype Empresarial.    |
+|![Icono de vídeos](../media/get_started.png)|<UL><LI>[Skype Empresarial: introducción rápida](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [Skype Empresarial: guía paso a paso para nuevos usuarios](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |Descubra presentaciones de vídeo y formación para Skype Empresarial.    |
    
 ## <a name="articles-about-planning-for-skype-for-business-server"></a>Artículos sobre la planeación de Skype Empresarial Server
 
 Los artículos siguientes sobre cómo planear Skype Empresarial Server están disponibles para verlos en línea. 
   
-|Planeación de soluciones|Planeación de la arquitectura de servidor, clientes y dispositivos|
+|Planeación de soluciones|Planeación de la arquitectura del servidor, clientes y dispositivos|
 |:-----|:-----|
 |![Icono de contenido de soluciones](../media/success.png) <br>  Lea los artículos siguientes para determinar qué soluciones son adecuadas para su organización:    |![Icono para contenido de arquitectura de servidor](../media/get_started.png)  <br> Lea los artículos siguientes para planear la arquitectura del servidor y la compatibilidad con dispositivos y clientes:    |
 |**[Planear la mensajería instantánea y la presencia en Skype Empresarial Server](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md)**<br/><br/> ¿Cuáles son sus requisitos para la mensajería instantánea (MI) y la presencia? Aunque la mensajería instantánea (MI) y la presencia se incluyen en todas las implementaciones de Skype Empresarial Server, tendrá que tomar decisiones sobre los requisitos técnicos, las comunicaciones con usuarios externos y el archivado. <br/> | **[Requisitos del sistema para Skype Empresarial Server 2019](system-requirements.md)**  <br/> **[Planear los requisitos de red para Skype Empresarial](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)**<br/> <br/>  You'll want to read these topics first to determine prerequisites for Skype for Business Server.    |

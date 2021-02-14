@@ -141,7 +141,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
     > No se puede quitar una región si está asociada a un sitio de red. Si intenta quitar una región asociada a un sitio, recibirá un mensaje de error. Para ver si una región está asociada a algún sitio, seleccione la región y haga clic en **Mostrar detalles** en el menú **Editar**.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administración de rutas de región de red](managing-network-region-routes.md)
 

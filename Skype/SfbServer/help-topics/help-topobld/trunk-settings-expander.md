@@ -43,7 +43,7 @@ Para editar o modificar la configuración de un tronco SIP, efectúe las accione
 
 ![Expansor de configuración de tronco](../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Lista de comprobación de implementación de enlace troncal SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 

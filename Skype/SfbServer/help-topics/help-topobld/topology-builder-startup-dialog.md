@@ -28,13 +28,13 @@ Inicie topology Builder para configurar las propiedades y la configuración de l
 
 - **Descargar topología de una implementación existente** Seleccione esta opción si ha ejecutado el Generador de topologías y ha publicado correctamente la topología en el servidor de administración central. Esta opción solicita y descarga una copia local de la configuración actual, lo que le permite editar y configurar la implementación existente.
 
-- **Abrir topología desde un archivo local** Seleccione esta opción si está configurando una implementación pero aún no ha publicado la configuración. Esta opción le permite guardar una copia local del trabajo de configuración en el Generador de topologías y volver a él más adelante.
+- **Abrir topología desde un archivo local** Seleccione esta opción si está configurando una implementación pero aún no ha publicado la configuración. Esta opción le permite guardar una copia local del trabajo de configuración en el Generador de topologías y volver a ella más adelante.
 
 - **Nueva topología** Seleccione esta opción para iniciar la configuración de un nuevo documento de topología. Esta opción abre un nuevo documento de topología que puede configurar para que cumpla los requisitos de implementación que usted configure.
 
 ![Cuadro de diálogo de inicio del Generador de topologías](../../media/Topology_Builder_Startup_Dialog.jpg)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Introducción a Lync Server 2013 Preview](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
 

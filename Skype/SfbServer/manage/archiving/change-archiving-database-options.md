@@ -23,7 +23,7 @@ ms.locfileid: "49817700"
 
 **Resumen:** Obtenga información sobre cómo cambiar las opciones de bases de datos de archivado para Skype Empresarial Server.
   
-Si implementa el archivado con SQL Server almacenamiento de archivado para cualquiera de los usuarios, puede realizar los siguientes cambios en el almacenamiento de la base de datos:
+Si implementa el archivado mediante SQL Server almacenamiento de archivado para cualquiera de los usuarios, puede realizar los siguientes cambios en el almacenamiento de la base de datos:
   
 - Use una base de SQL Server de datos de archivado diferente para el almacenamiento de archivado. Esto incluye la base de datos de archivado principal y cualquier base de datos que use para SQL Server creación de reflejos.
     
@@ -94,7 +94,7 @@ Para realizar cualquiera de estos cambios, debe ejecutar el Generador de topolog
 8. Para guardar la configuración, haga clic en **Aceptar**.
     
     > [!IMPORTANT]
-    > Los cambios realizados en el Generador de topologías no tienen efecto hasta que se publique la nueva topología. Para obtener más información, consulte [Agregar bases de datos de archivado a una implementación existente en Skype Empresarial Server.](../../deploy/deploy-archiving/add-archiving-databases.md) 
+    > Los cambios que realice en el Generador de topologías no se realizarán hasta que publique la nueva topología. Para obtener más información, consulte [Agregar bases de datos de archivado a una implementación existente en Skype Empresarial Server.](../../deploy/deploy-archiving/add-archiving-databases.md) 
   
 ## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Cambiar la ubicación de la base de datos de archivado mediante Windows PowerShell
 

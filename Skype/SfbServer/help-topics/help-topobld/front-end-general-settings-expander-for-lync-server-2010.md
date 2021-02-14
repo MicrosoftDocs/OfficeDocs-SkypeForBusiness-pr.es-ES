@@ -28,7 +28,7 @@ Las propiedades del servidor front-end o del grupo de servidores front-end se mo
 
  **General**
 
-- **FQDN:** el nombre de dominio completo del servidor front-end o del grupo de servidores front-end.
+- **FQDN:** nombre de dominio completo del servidor front-end o grupo de servidores front-end.
 
 - Seleccione **Usar todas las direcciones IP configuradas** para usar todas las direcciones configuradas en el servidor front-end o en el grupo de servidores front-end.
 
@@ -99,6 +99,6 @@ Haga **clic en** Cancelar para descartar los cambios y cerrar las propiedades **
 
 Haga clic en **Ayuda** para leer este tema de la ayuda.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Definir y configurar un grupo de servidores front-end](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)

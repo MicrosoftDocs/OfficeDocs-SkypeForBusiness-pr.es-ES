@@ -137,7 +137,7 @@ En la mayoría de las implementaciones de Skype Empresarial Server donde se impl
 6.  Haga clic en **Aceptar**.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
 

@@ -136,7 +136,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar regiones de red en Skype Empresarial Server](managing-network-regions.md)
 

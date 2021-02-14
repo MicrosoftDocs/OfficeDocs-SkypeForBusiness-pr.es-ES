@@ -61,13 +61,13 @@ Al configurar directivas para admitir comunicaciones con socios federados, las d
 
 Para habilitar el acceso de usuarios federados, también debe admitir una federación en la organización. Para obtener más información, consulte [Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-Si se trata de una directiva de usuario, también tiene que aplicar la directiva a los usuarios que desee que puedan colaborar con usuarios federados. Para obtener más información, [vea Asignar una directiva de acceso de usuario externo.](assign-an-external-user-access-policy.md)
+Si se trata de una directiva de usuario, también tiene que aplicar la directiva a los usuarios que desee que puedan colaborar con usuarios federados. Para obtener más información, vea [Asignar una directiva de acceso de usuario externo.](assign-an-external-user-access-policy.md)
 
 ## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva existente mediante Windows PowerShell para admitir el acceso de usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Start the Skype for Busines Server Management Shell: Click **Start**, click **All Programs**, click Skype for **Business Server**, and then click Skype for Business Server Management **Shell**.
+2.  Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en Skype Empresarial **Server** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
 3.  Escriba lo siguiente en el Shell de administración de Skype Empresarial Server:
     
@@ -120,7 +120,7 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
     `Remove-CsExternalAccessPolicy -Identity UserEAPPolicy`
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 

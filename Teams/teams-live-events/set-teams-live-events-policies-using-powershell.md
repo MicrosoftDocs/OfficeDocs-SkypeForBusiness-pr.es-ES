@@ -136,7 +136,7 @@ Establezca la directiva global para deshabilitar la grabación de eventos en dir
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-live-captions-and-subtitles-in-live-events"></a>Establecer subtítulos en directo y subtítulos en eventos en directo
+## <a name="set-live-captions-and-subtitles-in-live-events"></a>Establecer leyendas y subtítulos en directo en eventos en directo
 > [!NOTE]
 > Esta configuración se aplica solo a los eventos producidos en Teams. 
 

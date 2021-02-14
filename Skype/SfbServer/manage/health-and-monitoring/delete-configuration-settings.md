@@ -31,7 +31,7 @@ Tenga en cuenta que también puede "eliminar" la configuración global. Sin emba
   
 Puede quitar las opciones de configuración de CDR mediante el Panel de control de Skype Empresarial Server o el cmdlet [Remove-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)
   
-### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Para quitar las opciones de configuración de CDR con el Panel de control de Skype Empresarial Server
+### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Para quitar opciones de configuración de CDR con el Panel de control de Skype Empresarial Server
 
 1. En el Panel de control de Skype Empresarial Server, haga clic **en Supervisión y archivado.** 
     
@@ -71,7 +71,7 @@ Puede eliminar las opciones de configuración del registro detallado de llamadas
 
 Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsCdrConfiguration.](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Purgar manualmente el registro detallado de llamadas y las bases de datos de calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

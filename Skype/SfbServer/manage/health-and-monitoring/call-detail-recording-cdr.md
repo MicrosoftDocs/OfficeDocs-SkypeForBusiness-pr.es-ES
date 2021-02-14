@@ -37,6 +37,6 @@ El registro detallado de llamadas (CDR) registra la información de uso y diagn�
     
 - [Purgar manualmente el registro detallado de llamadas y las bases de datos de calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configurar el registro detallado de llamadas y la calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

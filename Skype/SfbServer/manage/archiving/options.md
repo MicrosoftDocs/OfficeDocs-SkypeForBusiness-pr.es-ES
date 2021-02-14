@@ -65,6 +65,6 @@ También puede configurar las opciones de archivado mediante los cmdlets Windows
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
 |Get-CsArchivingConfiguration  <br/> |Devuelve información sobre las opciones de configuración de archivado de la organización.  <br/> |
-|New-CsArchivingConfiguration  <br/> |Crea un nuevo conjunto de configuraciones de mensajería instantánea (MI), que se pueden usar para habilitar o deshabilitar el guardado automático de sesiones de mensajería instantánea y para bloquear los mensajes instantáneos que no se pueden archivar.  <br/> |
-|Remove-CsArchivingConfiguration  <br/> |Quita la colección especificada de configuraciones de archivado que se usan para habilitar o deshabilitar el almacenamiento automático de sesiones de mensajería instantánea (MI) y, opcionalmente, para bloquear cualquier mensaje instantáneo que no se pueda archivar.  <br/> |
+|New-CsArchivingConfiguration  <br/> |Crea un nuevo conjunto de configuraciones de mensajería instantánea (MI), que se pueden usar para habilitar o deshabilitar el almacenamiento automático de sesiones de mensajería instantánea y para bloquear los mensajes instantáneos que no se pueden archivar.  <br/> |
+|Remove-CsArchivingConfiguration  <br/> |Quita la colección especificada de opciones de archivado que se usan para habilitar o deshabilitar el almacenamiento automático de sesiones de mensajería instantánea (MI) y, opcionalmente, para bloquear cualquier mensaje instantáneo que no se pueda archivar.  <br/> |
 |Set-CsArchivingConfiguration  <br/> |Modifica una colección existente de opciones de configuración de archivado de mensajería instantánea (MI).  <br/> |

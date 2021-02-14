@@ -49,6 +49,6 @@ tblEnumValue es una tabla codificada de forma rígida que contiene los valores v
 |5   <br/> |2   <br/> |auditorio  <br/> |
 |6   <br/> |1   <br/> |open  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [tblNode](tblnode.md)

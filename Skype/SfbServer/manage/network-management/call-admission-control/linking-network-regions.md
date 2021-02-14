@@ -131,7 +131,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 6.  Haga clic en **Aceptar**.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
 

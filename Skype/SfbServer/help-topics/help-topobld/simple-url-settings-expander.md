@@ -48,7 +48,7 @@ Para editar o cambiar la dirección URL de acceso administrativo, edite la entra
 
 Una vez haya efectuado todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 Para obtener más información, consulte [Planeación de direcciones URL sencillas](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
 

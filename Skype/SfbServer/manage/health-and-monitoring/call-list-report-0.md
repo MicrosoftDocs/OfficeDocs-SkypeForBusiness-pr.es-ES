@@ -35,7 +35,7 @@ El informe de lista de llamadas proporciona métricas de calidad de la experienc
     
 - Relación de tiempo de conmutación de voz 
     
-Sin embargo, si abre el informe de lista de llamadas desde el informe de ubicación en [Skype Empresarial Server,](location-report.md)no verá ninguna de esas métricas; en su lugar, verá métricas como estas:
+Sin embargo, si abre el informe de lista de llamadas desde el informe de ubicación en [Skype Empresarial Server,](location-report.md)no verá ninguna de estas métricas; en su lugar, verá métricas como estas:
   
 - Recorrido de ida y vuelta (ms)
     
@@ -63,7 +63,7 @@ Desde el informe de lista de llamadas, puede obtener acceso al Informe de detall
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Aprovechar al máximo el informe de lista de llamadas
 
-Si no recuerda lo que algunas métricas del informe de lista de llamadas (como el tiempo de conmutación de voz de relación) miden realmente, mantenga el mouse sobre la etiqueta de la métrica; A continuación, aparecerá una información sobre herramientas con una breve descripción de la métrica.
+Si no recuerda qué miden realmente algunas de las métricas del informe de lista de llamadas (como el tiempo de conmutación de voz de relación), mantenga el mouse sobre la etiqueta de la métrica; A continuación, aparecerá una información sobre herramientas con una breve descripción de la métrica.
   
 ## <a name="filters"></a>Filtros
 

@@ -43,7 +43,7 @@ Puede aumentar considerablemente las ventajas de su inversión en Skype Empresar
   
 - Usuarios remotos: los propios usuarios de su organización, cuando trabajan fuera de los firewalls y usan sus equipos portátiles u otros dispositivos de Skype Empresarial Server.
     
-- Usuarios federados: usuarios de empresas con las que trabaja que también ejecutan Skype Empresarial Server. Para habilitar a sus usuarios para que se pongan en contacto fácilmente con estos usuarios, cree relaciones federadas con estas compañías. 
+- Usuarios federados: usuarios de empresas con las que trabaja y que también ejecutan Skype Empresarial Server. Para habilitar a sus usuarios para que se pongan en contacto fácilmente con estos usuarios, cree relaciones federadas con estas compañías. 
     
 - Usuarios de Skype: los usuarios de Skype Empresarial pueden llegar a los cientos de millones de usuarios de Skype con mensajería instantánea, voz y vídeo.
     
@@ -51,7 +51,7 @@ Puede aumentar considerablemente las ventajas de su inversión en Skype Empresar
 > Ya no se admiten AOL, Yahoo y Google Talk. 
   
 > [!NOTE]
-> Para habilitar cualquiera o todos estos escenarios, debe implementar un servidor perimetral para ayudar a habilitar comunicaciones seguras entre la implementación de Skype Empresarial Server y los usuarios externos. Los usuarios remotos de la organización y los usuarios de las organizaciones federadas podrán ver la presencia de los demás y comunicarse mediante mensajería instantánea. 
+> Para habilitar cualquiera o todos estos escenarios, debe implementar un servidor perimetral para ayudar a habilitar comunicaciones seguras entre la implementación de Skype Empresarial Server y los usuarios externos. Los usuarios remotos y los usuarios de las organizaciones federadas de su organización podrán ver la presencia de los demás y comunicarse mediante mensajería instantánea. 
   
 > [!NOTE]
 > El Protocolo extensible de mensajería y presencia (XMPP) solo es compatible con escenarios de certificación del Comando conjunto de pruebas de interoperabilidad (JITC) de la Plataforma de colaboración de funcionalidades unificadas (UCCP). 
@@ -66,7 +66,7 @@ Si también ha implementado Microsoft Exchange Server 2013, puede integrar el ar
 
 Los únicos componentes necesarios para la mensajería instantánea (MI) y la presencia son:
   
-- Los servidores front-end de la organización (conocidos como un grupo de servidores) o un servidor Standard Edition. Las capacidades de mensajería instantánea y presencia siempre están habilitadas en estos servidores. Para obtener más información sobre las topologías y la administración de grupos de servidores front-end, vea Administración y alta disponibilidad [del grupo de servidores front-end.](high-availability-and-disaster-recovery/high-availability.md)
+- Los servidores front-end de la organización (conocidos como un grupo de servidores) o un servidor Standard Edition. Las capacidades de mensajería instantánea y presencia siempre están habilitadas en estos servidores. Para obtener más información sobre las topologías y la administración de grupos de servidores front-end, vea administración y alta disponibilidad [del grupo de servidores front-end.](high-availability-and-disaster-recovery/high-availability.md)
     
 - Un equilibrador de carga, si tiene un grupo de servidores front-end Enterprise Edition.
     

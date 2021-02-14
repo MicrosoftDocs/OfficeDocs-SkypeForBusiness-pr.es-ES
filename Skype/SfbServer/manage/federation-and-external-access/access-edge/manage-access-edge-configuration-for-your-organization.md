@@ -43,7 +43,7 @@ Estas opciones incluyen los siguientes tipos de acceso que se pueden configurar 
 > [!NOTE]  
 > Además de habilitar la compatibilidad de acceso de usuario externo, también configura las directivas para controlar el uso del acceso de usuario remoto en su organización antes de que cualquier tipo de acceso de usuario esté disponible para los usuarios. Para obtener más información sobre cómo crear, configurar y aplicar directivas para el acceso de usuarios externos, vea Administrar la directiva de acceso [externo para su organización.](../external-access-policies/manage-external-access-policy-for-your-organization.md)
 
-**Visualización de la información de configuración perimetral de acceso mediante cmdlets Windows PowerShell acceso**
+**Visualización de la información de configuración perimetral de acceso mediante Windows PowerShell cmdlets**
 
   - La información de configuración perimetral de acceso se puede ver mediante Windows PowerShell y el cmdlet **Get-CsAccessEdgeConfiguration.** Este cmdlet se puede ejecutar desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
     

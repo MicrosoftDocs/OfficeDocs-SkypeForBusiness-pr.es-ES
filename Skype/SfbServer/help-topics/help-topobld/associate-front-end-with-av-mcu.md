@@ -24,7 +24,7 @@ ms.locfileid: "49818500"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Asociar front-end con MCU AV
  
-Conferencia A/V permite comunicaciones de audio y vídeo en tiempo real entre los usuarios (siempre que dispongan de los dispositivos cliente adecuados, como auriculares para conferencias de audio y cámaras web para videoconferencias). Si la implementación admite las conferencias y habilita Conferencia web y Conferencia A/V, puede combinar el servidor de conferencia A/V con el servidor front-end, o bien implementar uno o varios servidores de conferencia A/V independientes (grupo de servidores de conferencia A/V). Si elige la opción para implementar un servidor de conferencia A/V independiente, debe definirlo en el Generador de topologías.
+Conferencia A/V permite comunicaciones de audio y vídeo en tiempo real entre los usuarios (siempre que dispongan de los dispositivos cliente adecuados, como auriculares para conferencias de audio y cámaras web para videoconferencias). Si la implementación admite las conferencias y habilita Conferencia web y Conferencia A/V, puede combinar el servidor de conferencia A/V con el servidor front-end, o bien implementar uno o varios servidores de conferencia A/V independientes (grupo de servidores de conferencia A/V). Si elige la opción de implementar un servidor de conferencia A/V independiente, debe definirlo en el Generador de topologías.
   
 Todos los grupos de servidores de un sitio y los grupos de varios sitios centrales pueden usar el mismo servidor de conferencia A/V, si el uso no supera la capacidad del servidor de conferencia A/V. 
   

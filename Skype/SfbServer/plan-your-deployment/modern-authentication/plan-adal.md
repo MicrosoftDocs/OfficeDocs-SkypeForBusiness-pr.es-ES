@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: En este artículo se explica qué es la autenticación moderna (que se basa en la Biblioteca de autenticación de Active Directory (ADAL) y OAuth 2.0).
+description: En este artículo se explica qué es la autenticación moderna (basada en la Biblioteca de autenticación de Active Directory (ADAL) y OAuth 2.0).
 ms.openlocfilehash: bd5d172fe4589cbd28c5b22507ad8603695ed62f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Una variedad de aplicaciones que actúan como clientes pueden aprovechar la aute
   
 Las conversaciones de autenticación moderna (basadas en ADAL y OAuth 2.0) tienen algunos elementos en común.
   
-- Hay un cliente que realiza una solicitud para un recurso, en este caso, el cliente es Skype Empresarial.
+- Hay un cliente que realiza una solicitud de un recurso, en este caso, el cliente es Skype Empresarial.
     
 - Hay un recurso al que el cliente necesita un nivel específico de acceso y este recurso está protegido por un servicio de directorio, en este caso el recurso es Skype Empresarial Server.
     

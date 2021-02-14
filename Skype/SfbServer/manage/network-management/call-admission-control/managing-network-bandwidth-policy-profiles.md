@@ -140,7 +140,7 @@ Como parte del control de admisión de llamadas (CAC), se usa una directiva de a
     > No puede eliminar un perfil de directiva de ancho de banda que esté asociado a un sitio de red. Primero debe eliminar la asociación establecida con el sitio de red para poder eliminar el perfil. 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administración del control de admisión de llamadas para sitios](managing-call-admission-control-for-sites.md)
  

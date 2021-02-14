@@ -34,7 +34,7 @@ tblNode contiene el árbol de objetos (con nodos de categoría o salón de chat)
 |nodeType  <br/> |bit, not null  <br/> |True si el nodo es una categoría.  <br/> False si el nodo es un salón de chat.  <br/> |
 |nodeName  <br/> |nvarchar (256), no NULL  <br/> |Nombre del nodo.  <br/> |
 |nodeDesc  <br/> |nvarchar (256), no NULL  <br/> |Descripción del nodo.  <br/> |
-|invitar  <br/> |bit  <br/> | Para categorías: <br/>  True si las invitaciones están en. <br/>  False si las invitaciones están desactivadas. <br/>  Para salas: <br/>  False si las invitaciones están desactivadas (invalida la categoría principal). <br/>  Null si la configuración de invitaciones se hereda de la categoría principal. <br/> |
+|invitar  <br/> |bit  <br/> | Para categorías: <br/>  True si las invitaciones están en. <br/>  False si las invitaciones están desactivadas. <br/>  Para salas: <br/>  False si las invitaciones están desactivadas (invalida la categoría principal). <br/>  Null si la configuración de invitaciones se hereda de la categoría primaria. <br/> |
 |logged  <br/> |bit  <br/> | Para categorías: <br/>  True si el historial de chat está en. <br/>  False si el historial de chat está desactivado. <br/>  Para salas: <br/>  Null. <br/> |
 |filePost  <br/> |bit  <br/> | Para categorías: <br/>  True si se permiten cargas de archivos. <br/>  False si no se pueden cargar archivos. <br/>  Para salas: <br/>  Null. <br/> |
 |deshabilitado  <br/> |bit, not null  <br/> |True si el salón de chat está deshabilitado. Solo se aplica a los salón de chat. (False para categorías).  <br/> |

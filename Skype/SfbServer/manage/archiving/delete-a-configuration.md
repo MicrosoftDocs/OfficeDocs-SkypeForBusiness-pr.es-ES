@@ -46,7 +46,7 @@ Para eliminar una configuración de archivado mediante el Panel de control:
 
 También puede eliminar una configuración de archivado con el cmdlet **Remove-CsArchivingConfiguration.**
   
-Por ejemplo, el siguiente comando quita las opciones de configuración de archivado aplicadas al sitio Redmond. Cuando se elimina una directiva configurada en el ámbito de sitio, los usuarios que anteriormente administraba la directiva de sitio se regirán automáticamente por la directiva de archivado global en su lugar:
+Por ejemplo, el siguiente comando quita las opciones de configuración de archivado aplicadas al sitio Redmond. Cuando se elimina una directiva configurada en el ámbito del sitio, los usuarios que anteriormente administraba la directiva de sitio se regirán automáticamente por la directiva de archivado global en su lugar:
   
 ```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"

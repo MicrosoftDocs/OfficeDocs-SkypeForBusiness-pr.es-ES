@@ -38,6 +38,6 @@ tblLastInviteId contiene el último identificador de invitación generado (y uti
 |prinID  <br/> |Clave principal.  <br/> |
 |prinID  <br/> |Clave externa con búsqueda en la tabla tblPrincipal.prinID.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [tblPrincipalInvites](tblprincipalinvites.md)

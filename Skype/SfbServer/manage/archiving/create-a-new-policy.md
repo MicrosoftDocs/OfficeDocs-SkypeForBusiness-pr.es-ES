@@ -23,7 +23,7 @@ ms.locfileid: "49817650"
 
 **Resumen:** Obtenga información sobre cómo crear una nueva directiva de archivado para Skype Empresarial Server.
   
-Puede crear nuevas directivas de archivado con el Panel de control o con Windows PowerShell cmdlets.
+Puede crear nuevas directivas de archivado mediante el Panel de control o mediante Windows PowerShell cmdlets.
   
 ## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a>Crear una nueva directiva de archivado mediante el Panel de control
 

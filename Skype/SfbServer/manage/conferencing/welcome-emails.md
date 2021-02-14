@@ -23,7 +23,7 @@ ms.locfileid: "49817500"
  
 **Resumen:** Obtenga información sobre cómo dar la bienvenida a los usuarios a las conferencias de acceso telefónico local en Skype Empresarial Server.
   
-Después de configurar la conferencia de acceso telefónico local y probarla para comprobar que funciona correctamente, debe establecer números de identificación personal (PIN) iniciales para los usuarios y notificar a los usuarios sobre la disponibilidad de la característica. Puede incluir instrucciones introductorias, como el PIN inicial y el vínculo a la página web Configuración de conferencia de acceso telefónico local. 
+Después de configurar las conferencias de acceso telefónico local y realizar pruebas para comprobar que funciona correctamente, debe establecer números de identificación personal (PIN) iniciales para los usuarios y notificar a los usuarios sobre la disponibilidad de la característica. Puede incluir instrucciones introductorias, como el PIN inicial y el vínculo a la página web Configuración de conferencia de acceso telefónico local. 
   
 Normalmente, se usa el cmdlet **Set-CsClientPin** para restablecer los PIN, pero puede usar el procedimiento de este tema si desea enviar un correo electrónico de bienvenida introductorio con la información del PIN. Si no desea enviar el mensaje, puede usar **Set-CsClientPin**.
   

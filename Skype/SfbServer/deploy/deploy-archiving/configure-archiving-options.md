@@ -48,7 +48,7 @@ Tendrá que configurar las opciones para lo siguiente:
 > [!NOTE]
 > Debe especificar todas las opciones adecuadas antes de habilitar el archivado. 
   
-Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md). Para obtener más información sobre cómo administrar las configuraciones después de la implementación mediante el Panel de control o mediante Windows PowerShell, consulte Administrar las opciones de archivado [en Skype Empresarial Server.](../../manage/archiving/options.md)
+Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md). Para obtener más información sobre cómo administrar las configuraciones después de la implementación con el Panel de control o con Windows PowerShell, consulte Administrar las opciones de archivado [en Skype Empresarial Server.](../../manage/archiving/options.md)
   
 ## <a name="configure-global-level-archiving-options"></a>Configurar las opciones de archivado de nivel global
 

@@ -91,7 +91,7 @@ Para habilitar el acceso de usuarios federados, también debe permitir el acceso
 Además, debe configurar y aplicar la directiva a los usuarios que quiera permitir que colaboren con usuarios federados. Para obtener más información, [vea Configurar directivas para controlar el acceso de usuarios federados.](../external-access-policies/configure-policies-to-control-federated-user-access.md)
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar directivas para controlar el acceso de usuarios federados](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 

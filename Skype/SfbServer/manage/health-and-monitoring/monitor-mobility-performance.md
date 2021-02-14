@@ -48,7 +48,7 @@ Otros límites en los servidores que pueden influir en el rendimiento de la movi
     
 - [Configurar el servicio de movilidad para un alto rendimiento en Skype Empresarial Server](configure-service.md)
     
-- [Supervisión de archivos de registro de seguimiento de solicitudes iis en Skype Empresarial Server](iis-request-tracing-log-files.md)
+- [Supervisión de archivos de registro de seguimiento de solicitudes IIS en Skype Empresarial Server](iis-request-tracing-log-files.md)
     
 - [Contadores de rendimiento de movilidad en Skype Empresarial Server](performance-counters.md)
     

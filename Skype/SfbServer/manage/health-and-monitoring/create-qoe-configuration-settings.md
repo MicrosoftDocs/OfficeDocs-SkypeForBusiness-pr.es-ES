@@ -37,9 +37,9 @@ Las opciones de configuración de QoE se pueden crear mediante el Panel de contr
 |Conservar los datos de QoE durante un máximo de (días)  <br/> |KeepQoEDataForDays  <br/> |Número de días que se almacenarán los datos de QoE antes de ser purgados de la base de datos. Este valor se omite si la purga está deshabilitada.  <br/> |
    
 > [!NOTE]
-> El cmdlet New-CsQoEConfiguration incluye opciones adicionales no disponibles en el Panel de control de Skype Empresarial Server. Para obtener más información, consulte el tema de ayuda [New-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)
+> El cmdlet New-CsQoEConfiguration incluye opciones adicionales no disponibles en el Panel de control de Skype Empresarial Server. Para obtener más información, consulte el tema de ayuda [de New-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps)
   
-### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear opciones de configuración de QoE mediante el Panel de control de Skype Empresarial Server
+### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear opciones de configuración de QoE con el Panel de control de Skype Empresarial Server
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol CsVoiceAdministrator, CsServerAdministrator, o CsAdministrator. Para obtener información detallada, consulte **Delegación de permisos de instalación**.
     

@@ -24,7 +24,7 @@ ms.locfileid: "49815440"
 ---
 # <a name="prepare-current-forest"></a>Preparar bosque actual
 
-Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, tal como se describe en el tema [Ejecución](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)de la preparación del esquema, y asegurarse de que el esquema se haya replicado.
+Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, como se describe en el tema [Running Schema Preparation](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx), y asegurarse de que el esquema se haya replicado.
 
 Después de completar estos requisitos previos, puede comenzar **el paso 3: Preparar el bosque actual**. Para preparar el bosque, inicie sesión en un equipo de la raíz del bosque como miembro de administradores de dominio en la raíz del bosque o como miembro de los administradores de organización para el bosque que está preparando.
 

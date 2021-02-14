@@ -70,7 +70,7 @@ Puede habilitar QoE con Windows PowerShell y el cmdlet **Set-CsQoEConfiguration.
 
 Para obtener más información, [consulte Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planeación de la supervisión](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 

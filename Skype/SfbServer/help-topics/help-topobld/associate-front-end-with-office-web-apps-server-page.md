@@ -36,6 +36,6 @@ Las opciones que se incluyen en este cuadro de diálogo son:
 
 3. Haga clic en **Nuevo** para definir un Servidor de Office Web Apps nuevo.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Publicación de Office Web Apps Server con un servidor proxy inverso](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

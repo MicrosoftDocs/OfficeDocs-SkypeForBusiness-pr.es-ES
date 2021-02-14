@@ -28,7 +28,7 @@ Puede crear un nuevo servidor de chat persistente o un grupo de servidores de ch
   
 También debe definir un **FQDN de grupo para** el servidor de chat persistente o el grupo de servidores de chat persistente. El nombre de dominio completo (FQDN) de grupo de servidores para el grupo de servidores de un solo equipo debe coincidir con el FQDN del equipo que forma el único grupo de servidores. En el caso de un grupo de servidores de varios equipos, el FQDN debe ser el nombre que elija para representar a este grupo de servidores de varios equipos y define en DNS por un registro de host A (y AAAA s se utiliza IPv6).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planear el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

@@ -41,7 +41,7 @@ De forma predeterminada, no hay ninguna directiva configurada para admitir el ac
 
 Entre estas opciones se incluyen los siguientes tipos de acceso externo:
 
-  - **Habilitar las comunicaciones con usuarios federados**   Habilite esta opción si desea admitir el acceso de usuarios a dominios de socios federados. Esta configuración configura la posibilidad de que los usuarios se comuniquen con otros dominios federados SIP, así como con proveedores hospedados como Microsoft 365 u Office 365. 
+  - **Habilitar las comunicaciones con usuarios federados**   Habilite esta opción si desea admitir el acceso de usuarios a dominios de socios federados. Esta configuración configura la capacidad para que los usuarios se comuniquen con otros dominios federados SIP, así como con proveedores hospedados como Microsoft 365 u Office 365. 
 
 
   - **Habilitar las comunicaciones con usuarios remotos**   Habilite esta opción si desea que los usuarios de su organización que están fuera del firewall, como los teletrabadores y los usuarios que están de viaje, puedan conectarse a Skype Empresarial Server a través de Internet.

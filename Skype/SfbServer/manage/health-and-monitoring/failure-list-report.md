@@ -49,7 +49,7 @@ Desde el informe de lista de errores puede obtener acceso al informe de detalles
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Aprovechar al máximo el informe de lista de errores
 
-En el Informe de lista de errores, puede ver una descripción de cada código de respuesta o cada identificador de diagnóstico simplemente manteniendo el mouse sobre ese valor. Por ejemplo, si mantienes el mouse sobre el Identificador de diagnóstico 7025, verás lo siguiente en una información sobre herramientas:
+En el informe de lista de errores, puede ver una descripción para cada código de respuesta o cada identificador de diagnóstico simplemente manteniendo el mouse sobre ese valor. Por ejemplo, si mantienes el mouse sobre el Id. de diagnóstico 7025, verás lo siguiente en una información sobre herramientas:
   
 Error interno del servidor al crear medios para el usuario.
   

@@ -42,6 +42,6 @@ Para implementar el almacén de contactos unificado en Skype Empresarial Server:
     > [!NOTE]
     > Para obtener información detallada sobre los requisitos para configurar la autenticación entre Skype Empresarial Server y Exchange 2013 o 2016, consulte Manage [server-to-server authentication (OAuth) and partner applications in Skype for Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) en la documentación de operaciones.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Implementar el almacén de contactos unificado en Skype Empresarial Server](../../deploy/deploy-unified-contact-store.md)

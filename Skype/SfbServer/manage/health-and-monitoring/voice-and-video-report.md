@@ -64,7 +64,7 @@ Los filtros proporcionan una forma de devolver un conjunto de datos más especí
 |**Eliminación de llamadas** <br/> | Indica el éxito o fracaso de la sesión. Seleccione una de las siguientes opciones: <br/>  [Todos] <br/>  Llamadas correctas <br/>  Llamadas con errores <br/> |
 |**Informe por** <br/> | Indica los valores a utilizar en el informe. Seleccione una opción de las siguientes: <br/>  Recuento de sesiones <br/>  Minutos de llamada <br/> |
    
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Métricas de actividad de voz y vídeo punto a punto por grupo
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Métricas para la actividad de voz y vídeo punto a punto por grupo
 
 En la tabla siguiente se muestra la información proporcionada en el informe de voz y vídeo punto a punto para cada grupo de servidores.
   

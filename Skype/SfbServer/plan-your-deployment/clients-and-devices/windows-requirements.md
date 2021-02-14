@@ -73,9 +73,9 @@ A continuación se indican los requisitos previos de Skype Empresarial para Wind
 - El usuario debe tener un plan de voz y de datos de un operador.
 
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
-[Planeación de clientes de reuniones (aplicación web y aplicación de reuniones)](meetings-clients.md)
+[Planeación de clientes de reuniones (aplicación web y aplicación reuniones)](meetings-clients.md)
   
 [Requisitos de cliente de Skype Empresarial en Mac](mac-requirements.md)
 
