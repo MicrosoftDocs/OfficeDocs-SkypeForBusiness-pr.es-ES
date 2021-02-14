@@ -22,15 +22,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801310"
 ---
-# <a name="pstn-usage-create-new-or-edit-existing"></a><span data-ttu-id="656ae-104">Uso de RTC: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="656ae-104">PSTN Usage: Create New or Edit Existing</span></span>
+# <a name="pstn-usage-create-new-or-edit-existing"></a><span data-ttu-id="f3e99-104">Uso de RTC: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="f3e99-104">PSTN Usage: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="656ae-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="656ae-105">What do you want to do?</span></span> <span data-ttu-id="656ae-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="656ae-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f3e99-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="f3e99-105">What do you want to do?</span></span> <span data-ttu-id="f3e99-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="f3e99-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="656ae-107">Ver registros de uso de RTC en Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="656ae-107">View PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [<span data-ttu-id="f3e99-107">Ver registros de uso de RTC en Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="f3e99-107">View PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-- [<span data-ttu-id="656ae-108">Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="656ae-108">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="f3e99-108">Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="f3e99-108">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="656ae-109">Modificar una directiva de voz y configurar registros de uso de RTC</span><span class="sxs-lookup"><span data-stu-id="656ae-109">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [<span data-ttu-id="f3e99-109">Modificar una directiva de voz y configurar registros de uso de RTC</span><span class="sxs-lookup"><span data-stu-id="f3e99-109">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
 
 

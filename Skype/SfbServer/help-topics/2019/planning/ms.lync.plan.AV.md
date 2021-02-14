@@ -23,12 +23,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801170"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="d5d29-103">Audioconferencia de vídeo (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="d5d29-103">Audio Video Conferencing (Planning Tool)</span></span>
+# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="b7353-103">Audioconferencia de vídeo (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="b7353-103">Audio Video Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="d5d29-104">Las conferencias de audio y vídeo (A/V) de Skype Empresarial Server permiten a los usuarios participar en conferencias de audio o vídeo en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="d5d29-104">Skype for Business Server Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
+<span data-ttu-id="b7353-104">Las conferencias de audio y vídeo (A/V) de Skype Empresarial Server permiten a los usuarios participar en conferencias de audio o vídeo en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="b7353-104">Skype for Business Server Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
   
-<span data-ttu-id="d5d29-105">Para obtener información sobre la planeación de la habilitación de conferencias A/V en su organización, consulte el siguiente tema y sus temas secundarios:</span><span class="sxs-lookup"><span data-stu-id="d5d29-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
+<span data-ttu-id="b7353-105">Para obtener información sobre la planeación de la habilitación de conferencias A/V en su organización, consulte el siguiente tema y sus temas secundarios:</span><span class="sxs-lookup"><span data-stu-id="b7353-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
   
-- [<span data-ttu-id="d5d29-106">Planear conferencias en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d5d29-106">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="b7353-106">Planear conferencias en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="b7353-106">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
     
 

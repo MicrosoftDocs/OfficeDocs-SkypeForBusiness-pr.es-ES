@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801400"
 ---
-# <a name="file-filter"></a><span data-ttu-id="85df4-104">Filtro de archivo</span><span class="sxs-lookup"><span data-stu-id="85df4-104">File Filter</span></span>
+# <a name="file-filter"></a><span data-ttu-id="94ab3-104">Filtro de archivo</span><span class="sxs-lookup"><span data-stu-id="94ab3-104">File Filter</span></span>
 
-<span data-ttu-id="85df4-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="85df4-105">What do you want to do?</span></span> <span data-ttu-id="85df4-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="85df4-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="94ab3-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="94ab3-105">What do you want to do?</span></span> <span data-ttu-id="94ab3-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="94ab3-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="85df4-107">Modificar el filtro predeterminado de transferencia de archivos</span><span class="sxs-lookup"><span data-stu-id="85df4-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="94ab3-107">Modificar el filtro predeterminado de transferencia de archivos</span><span class="sxs-lookup"><span data-stu-id="94ab3-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [<span data-ttu-id="85df4-108">Crear un filtro de transferencia de archivos nuevo para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="85df4-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="94ab3-108">Crear un filtro de transferencia de archivos nuevo para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="94ab3-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
 
 

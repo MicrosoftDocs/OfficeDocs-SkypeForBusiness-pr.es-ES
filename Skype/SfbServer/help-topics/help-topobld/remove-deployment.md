@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49803140"
 ---
-# <a name="remove-deployment"></a><span data-ttu-id="1a2c9-103">Eliminar implementación</span><span class="sxs-lookup"><span data-stu-id="1a2c9-103">Remove Deployment</span></span>
+# <a name="remove-deployment"></a><span data-ttu-id="8620d-103">Eliminar implementación</span><span class="sxs-lookup"><span data-stu-id="8620d-103">Remove Deployment</span></span>
  
-<span data-ttu-id="1a2c9-104">Haga **clic** en Finalizar para crear una topología vacía como primer paso para retirar toda la implementación.</span><span class="sxs-lookup"><span data-stu-id="1a2c9-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
+<span data-ttu-id="8620d-104">Haga **clic** en Finalizar para crear una topología vacía como primer paso para retirar toda la implementación.</span><span class="sxs-lookup"><span data-stu-id="8620d-104">Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="1a2c9-105">Esta acción no se puede deshacer.</span><span class="sxs-lookup"><span data-stu-id="1a2c9-105">You cannot undo this step.</span></span> 
+> <span data-ttu-id="8620d-105">Esta acción no se puede deshacer.</span><span class="sxs-lookup"><span data-stu-id="8620d-105">You cannot undo this step.</span></span> 
   
 

@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804940"
 ---
-# <a name="bandwidth-policy-profile"></a><span data-ttu-id="3c596-104">Perfil de directivas de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="3c596-104">Bandwidth Policy Profile</span></span>
+# <a name="bandwidth-policy-profile"></a><span data-ttu-id="a82d6-104">Perfil de directivas de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="a82d6-104">Bandwidth Policy Profile</span></span>
 
-<span data-ttu-id="3c596-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="3c596-105">What do you want to do?</span></span> <span data-ttu-id="3c596-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="3c596-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a82d6-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="a82d6-105">What do you want to do?</span></span> <span data-ttu-id="a82d6-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="a82d6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="3c596-107">Configuración del perfil de directiva de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="3c596-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="a82d6-107">Configuración del perfil de directiva de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="a82d6-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
-<span data-ttu-id="3c596-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="3c596-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="a82d6-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="a82d6-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

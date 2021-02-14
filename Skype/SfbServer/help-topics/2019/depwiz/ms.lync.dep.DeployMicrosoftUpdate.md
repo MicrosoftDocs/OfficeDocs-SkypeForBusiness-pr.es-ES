@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801540"
 ---
-# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="b6cbe-103">Asistente para la implementación: Windows Update</span><span class="sxs-lookup"><span data-stu-id="b6cbe-103">Deployment Wizard: Windows Update</span></span>
+# <a name="deployment-wizard-windows-update"></a><span data-ttu-id="e3741-103">Asistente para la implementación: Windows Update</span><span class="sxs-lookup"><span data-stu-id="e3741-103">Deployment Wizard: Windows Update</span></span>
  
-<span data-ttu-id="b6cbe-104">Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, consulte [Instalar Skype Empresarial Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="b6cbe-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="e3741-104">Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server, consulte [Instalar Skype Empresarial Server.](../../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="e3741-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

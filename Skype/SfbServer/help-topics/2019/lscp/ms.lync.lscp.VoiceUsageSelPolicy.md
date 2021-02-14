@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49801290"
 ---
-# <a name="voice-usage-policy"></a><span data-ttu-id="4cab4-103">Política de uso de voz</span><span class="sxs-lookup"><span data-stu-id="4cab4-103">Voice Usage Policy</span></span>
+# <a name="voice-usage-policy"></a><span data-ttu-id="111e3-103">Política de uso de voz</span><span class="sxs-lookup"><span data-stu-id="111e3-103">Voice Usage Policy</span></span>
  
-<span data-ttu-id="4cab4-104">Para obtener más información sobre los distintos procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, consulte los artículos administrar de Skype Empresarial [Server 2019.](../../../../SfBServer2019/skype-for-business-server-2019.yml)</span><span class="sxs-lookup"><span data-stu-id="4cab4-104">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see the Manage articles in [Skype for Business Server 2019](../../../../SfBServer2019/skype-for-business-server-2019.yml).</span></span>
+<span data-ttu-id="111e3-104">Para obtener más información sobre los distintos procedimientos que puede realizar mediante el Panel de control de Skype Empresarial Server, consulte los artículos administrar de Skype Empresarial [Server 2019.](../../../../SfBServer2019/skype-for-business-server-2019.yml)</span><span class="sxs-lookup"><span data-stu-id="111e3-104">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see the Manage articles in [Skype for Business Server 2019](../../../../SfBServer2019/skype-for-business-server-2019.yml).</span></span>
   
 
