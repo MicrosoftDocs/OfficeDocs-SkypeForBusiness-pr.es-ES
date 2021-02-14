@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Es recomendable comprobar que el servicio de Teams está en buen estado, así como con otros componentes de Microsoft 365 u Office 365, como Exchange, SharePoint y OneDrive para la empresa.
+description: Es una buena práctica comprobar que el servicio Teams se encuentra en buen estado, así como otros componentes de Microsoft 365 u Office 365, como Exchange, SharePoint y OneDrive para la Empresa.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 600bf8802dfb76dc1e96534be0ee303354267661
@@ -26,9 +26,9 @@ ms.locfileid: "46581841"
 <a name="verify-service-health-for-microsoft-teams"></a>Comprobar el estado del servicio para Microsoft Teams
 ===========================================
 
-El estado del servicio de Microsoft Teams se muestra en el centro de administración de Microsoft 365. Antes de solucionar problemas, es recomendable comprobar que el servicio de Teams está en buen estado. Vaya a la consola de <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Estado del servicio de Teams</a> para revisar el estado del servicio.
+El estado del servicio de Microsoft Teams se muestra en el Centro de administración de Microsoft 365. Antes de solucionar problemas, se debe comprobar que el servicio teams se encuentra en buen estado. Vaya a la <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">consola de estado del</a> servicio de Teams para revisar el estado del servicio.
 
-Además, tenga en cuenta que Microsoft Teams se ha creado a partir de los servicios adicionales de Microsoft 365 u Office 365, por lo que al mirar el estado del servicio, recuerde también comprobar el estado de Exchange, SharePoint y OneDrive para la empresa. Los problemas de estado del servicio para estos otros servicios no significan automáticamente que los equipos estén afectados (por ejemplo, las descargas de la libreta de direcciones de Exchange no están disponibles), pero debe revisar los avisos de los servicios afectados para determinar si se produce un impacto en Microsoft Teams.
+Además, tenga en cuenta que Microsoft Teams se basa en los servicios adicionales de Microsoft 365 u Office 365, por lo que al consultar el estado del servicio, recuerde comprobar también el estado de Exchange, SharePoint y OneDrive para la Empresa. Los problemas de estado del servicio de estos otros servicios no significan automáticamente que Teams se ve afectado (por ejemplo, las descargas de la libreta de direcciones en Exchange no están disponibles), pero debe revisar los avisos de los servicios afectados para determinar si hay algún impacto en Microsoft Teams.
 
 ![Captura de pantalla de la página de estado del servicio.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 

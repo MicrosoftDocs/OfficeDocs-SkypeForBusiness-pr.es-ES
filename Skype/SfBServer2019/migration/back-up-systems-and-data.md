@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d61fddc1-98d4-4577-a371-33f9e221288c
-description: Antes de comenzar la migración, realice una copia de seguridad completa del sistema y documente el sistema existente, incluido un inventario de las cuentas de usuario hospedadas en cada grupo de servidores, de modo que pueda revertir si es necesario. Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas.
+description: Antes de comenzar la migración, realice una copia de seguridad completa del sistema y documente el sistema existente, incluido un inventario de las cuentas de usuario que se encuentran en cada grupo de servidores, para que pueda revertir si es necesario. Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas.
 ms.openlocfilehash: 541eb350d8dbf79875e36f468b18ccf8ac49b969
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -21,6 +21,6 @@ ms.locfileid: "44752992"
 ---
 # <a name="back-up-systems-and-data"></a>Copia de seguridad de los datos y sistemas
 
-Antes de comenzar la migración, realice una copia de seguridad completa del sistema y documente el sistema existente, incluido un inventario de las cuentas de usuario hospedadas en cada grupo de servidores, de modo que pueda revertir si es necesario. Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas.
+Antes de iniciar la migración, realice una copia de seguridad completa del sistema y documente el sistema existente, incluido un inventario de las cuentas de usuario que se encuentran en cada grupo de servidores, para que pueda revertir si es necesario. Existen numerosos programas y herramientas para realizar copias de seguridad y restauraciones de datos, configuraciones y sistemas.
 
-Para obtener detalles y procedimientos, vea procedimientos de copia de seguridad y restauración para su versión. 
+Para obtener más información y procedimientos, consulte procedimientos de copia de seguridad y restauración de su versión. 

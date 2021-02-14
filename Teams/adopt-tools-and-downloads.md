@@ -1,7 +1,7 @@
 ---
 title: Herramientas y descargas para la adopción
 ms.reviewer: karuanag
-description: Use estos recursos de adopción para ayudarle a impulsar la adopción de Microsoft Teams y otros servicios de Microsoft 365 u Office 365.
+description: Use estos recursos de adopción para impulsar la adopción de Microsoft Teams y otros servicios de Microsoft 365 u Office 365.
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -24,21 +24,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 07/21/2020
 ms.locfileid: "45189192"
 ---
-# <a name="tools-for-driving-adoption"></a>Herramientas para conducir la adopción 
+# <a name="tools-for-driving-adoption"></a>Herramientas para impulsar la adopción 
 
-Use las siguientes herramientas para apoyar cada una de las fases de su plan de adopción de servicio.  
+Use las siguientes herramientas para dar soporte a cada fase del plan de adopción de servicios.  
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px">| [Planes de adopción de proyectos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" width="40 px" height="40 px">| [Ejemplos de roles y estilos de trabajo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [Use esta plantilla para asignar secuencias de trabajo a miembros del equipo clave y comunicarse con los participantes](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
-| <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px">| [Inspira a tus empleados con el día de la vida de la quicksheets](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px">| [Recursos de vídeo incrustables para campeones y ITPros](https://aka.ms/CoffeeintheCloud) | <img src="https://docs.microsoft.com/office/media/icons/success.svg" width="40 px" height="40 px">| [Preparar el Departamento de soporte técnico de Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px">| [Planes de proyectos de adopción](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" width="40 px" height="40 px">| [Estilos de trabajo y personas de ejemplo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [Use esta plantilla para asignar secuencias de trabajo a miembros clave del equipo y comunicarse con las partes interesadas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
+| <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px">| [Inspirar a sus empleados con estos partes rápidos de Day in the Life](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px">| [Recursos de vídeo incrustables para campeones y profesionales de TI](https://aka.ms/CoffeeintheCloud) | <img src="https://docs.microsoft.com/office/media/icons/success.svg" width="40 px" height="40 px">| [Preparar el departamento de soporte técnico para Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
 
 
-### <a name="microsoft-365-or-office-365-champions-program"></a>Programa de Microsoft 365 o de Office 365 Champions
-El programa campeones es un programa gratuito que permite a las personas que desean obtener más de Microsoft Teams y otros servicios de Microsoft 365 u Office 365. Combinamos nuestra comunidad en línea en la [comunidad técnica de Microsoft](https://aka.ms/DriveAdoption) con las llamadas mensuales de la comunidad que resaltan todos los componentes de la adopción de la adopción del gobierno a las mejores prácticas para las nuevas características. Participa en nuestra comunidad https://aka.ms/O365Champions y Obtén acceso a la versión anticipada, escucha de otros clientes y aprende de los expertos de Microsoft.  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Programa de campeones de Microsoft 365 u Office 365
+El programa de campeones es un programa gratuito que ayuda a los usuarios que quieren obtener más de Microsoft Teams y otros servicios de Microsoft 365 u Office 365. Combinamos nuestra comunidad en línea de [Microsoft Technical Community](https://aka.ms/DriveAdoption) con las llamadas mensuales de la comunidad que resaltan todos los componentes que impulsan la adopción del gobierno a los procedimientos recomendados y las nuevas características. Únase a nuestra comunidad y obtenga acceso a la versión anticipada, escuche a https://aka.ms/O365Champions otros clientes y aprenda de expertos de Microsoft.  
 
-### <a name="teams-adoption-guide"></a>Guía de adopción de equipos
-Consulte el [libreto animado](https://aka.ms/teamstoolkit)para la adopción de equipos, una guía en pantalla que le ayudará a implementar los equipos de su empresa. Incluye muchas herramientas descargables, plantillas y otros recursos para ayudarle en el viaje de adopción de su equipo.
+### <a name="teams-adoption-guide"></a>Guía de adopción de Teams
+Consulte el [flipbook de adopción de Teams,](https://aka.ms/teamstoolkit)una guía en línea que le ayudará a lanzamiento de Teams en su empresa. Incluye muchas herramientas descargables, plantillas y otros recursos para ayudarle a lo largo del camino de adopción de Teams.
 
-### <a name="teams-customer-success-kit"></a>Kit de éxito de los clientes de Teams
-El [Kit de éxito de los clientes de Teams](https://aka.ms/TeamsCustomerSuccess) proporciona herramientas para ayudarle a implementar los equipos de su organización. Incluye plantillas de correo electrónico para anuncios, pósteres, cuenta atrás y sugerencias & trucos. También incluye guías de introducción para los jefes de equipo y los administradores de ti.
+### <a name="teams-customer-success-kit"></a>Kit para el éxito del cliente de Teams
+El [kit para el éxito del cliente](https://aka.ms/TeamsCustomerSuccess) de Teams le proporciona herramientas para ayudarle a crear Teams en su organización. Incluye plantillas de correo electrónico para anuncios, pósteres de folletos, cuenta atrás y trucos & sugerencias. También incluye guías de introducción para los jefes de equipo y los administradores de TI.

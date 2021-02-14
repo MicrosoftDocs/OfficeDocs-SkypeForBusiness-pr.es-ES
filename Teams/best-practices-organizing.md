@@ -42,7 +42,7 @@ Cuando se despliegan Teams por primera vez, recomendamos empezar con un pequeño
 
 ## <a name="create-channels-to-focus-discussions"></a>Crear canales para enfocar los debates
 
-Una vez que haya creado su equipo, es una buena idea empezar a pensar en los distintos proyectos y tipos de conversaciones que necesita admitir. Cree canales iniciales para que la gente sepa dónde contribuir y encontrar las conversaciones existentes. Usar nombres descriptivos de los canales, para que la gente sepa fácilmente a dónde ir en cada conversación. Añada herramientas (como OneNote, Power BI o Planner) como pestañas a un canal para que los miembros tengan todo lo que necesitan, justo en el canal. También puede agregar una página web de uso común como una pestaña a un canal.
+Una vez que haya creado su equipo, es una buena idea empezar a pensar en los diferentes proyectos y tipos de conversaciones que necesita admitir. Cree canales iniciales para que la gente sepa dónde contribuir y encontrar las conversaciones existentes. Usar nombres descriptivos de los canales, para que la gente sepa fácilmente a dónde ir en cada conversación. Añada herramientas (como OneNote, Power BI o Planner) como pestañas a un canal para que los miembros tengan todo lo que necesitan, justo en el canal. También puede agregar una página web de uso común como una pestaña a un canal.
 
 Obtenga más información sobre [trabajo en equipo](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) con estos consejos rápidos para los usuarios finales.
 

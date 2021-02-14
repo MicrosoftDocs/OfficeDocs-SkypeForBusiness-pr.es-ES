@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Puede usar el panel de control de Skype empresarial Server para iniciar o detener todos los servicios heredados que se ejecutan en un equipo específico o para iniciar o detener un servicio heredado específico.
+description: Puede usar el Panel de control de Skype Empresarial Server para iniciar o detener todos los servicios heredados que se ejecutan en un equipo específico o para iniciar o detener un servicio heredado específico.
 ms.openlocfilehash: 2aca4cd9fb5d85bcf0744dc2b9e9551adc2a2336
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
@@ -20,11 +20,11 @@ ms.locfileid: "44753292"
 ---
 # <a name="stop-legacy-services"></a>Detener servicios heredados
 
-Puede usar el panel de control de Skype empresarial Server para iniciar o detener todos los servicios heredados que se ejecutan en un equipo específico o para iniciar o detener un servicio heredado específico.
+Puede usar el Panel de control de Skype Empresarial Server para iniciar o detener todos los servicios heredados que se ejecutan en un equipo específico o para iniciar o detener un servicio heredado específico.
   
-## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Para iniciar o detener todos los servicios de Skype empresarial Server en un equipo
+## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Para iniciar o detener todos los servicios de Skype Empresarial Server en un equipo
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
     
 2. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
     
@@ -36,7 +36,7 @@ Puede usar el panel de control de Skype empresarial Server para iniciar o detene
     
 ## <a name="to-start-or-stop-a-specific-service"></a>Para iniciar o detener un servicio específico:
 
-1. Abra el panel de control de Skype empresarial Server.
+1. Abra el Panel de control de Skype Empresarial Server.
     
 2. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
     

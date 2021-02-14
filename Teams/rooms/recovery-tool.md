@@ -12,7 +12,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: En este artículo se describe cómo usar la herramienta de recuperación para salas de Microsoft Teams, que se usaría para poner un sistema obsoleto en un estado compatible.
+description: En este artículo se describe cómo usar la herramienta de recuperación para Salas de Microsoft Teams, que usaría para poner un sistema actualizado en un estado compatible.
 ms.openlocfilehash: 47e9bed4377a111a1c1284684bbc40517dbb42d8
 ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
@@ -22,31 +22,31 @@ ms.locfileid: "45021728"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Usar la herramienta de recuperación de Sala de Microsoft Teams
 
-En este artículo se describe cómo usar la herramienta de recuperación para salas de Microsoft Teams, que se usaría para poner un sistema obsoleto en un estado compatible. Esta herramienta se debe aplicar cuando la consola de Microsoft Team Rooms muestra el error "configuración del sistema fuera de la fecha" o antes de realizar un botón de [inserción.](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)
+En este artículo se describe cómo usar la herramienta de recuperación para Salas de Microsoft Teams, que usaría para poner un sistema actualizado en un estado compatible. Esta herramienta debe aplicarse cuando la consola de Salas de Microsoft Teams muestra un error de "configuración del sistema no actualizada" o antes de realizar un restablecimiento de fábrica con el botón [de inserción.](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Descargue el [paquete de instalación de Microsoft Team Rooms](https://go.microsoft.com/fwlink/?linkid=851168) más reciente y extráigalo en un Memory stick USB o en un recurso compartido de red accesible para el dispositivo de salas de Microsoft Teams.
+Descargue el último paquete de instalación de Salas de Microsoft Teams y [extraigalo](https://go.microsoft.com/fwlink/?linkid=851168) a un Memory Stick USB o a un recurso compartido de red accesible desde el dispositivo Microsoft Teams Rooms.
 
 > [!NOTE]
-> La extracción de los archivos desde el MSI puede hacerse con muchos medios. Cualquier mecanismo que extrae todos los archivos y conserva su estructura de directorios es aceptable. Una de estas maneras es usar el comando `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` donde `PathToMsi` representa la ruta de acceso completa al paquete de instalación de Microsoft Teams Room y `PathToTarget` representa la ruta de acceso completa de la carpeta en la que desea que se extraigan los archivos.
+> La extracción de los archivos desde el MSI se puede conseguir mediante muchos medios. Cualquier mecanismo que extraiga todos los archivos y conserve su estructura de directorios es aceptable. Una de estas maneras es usar el comando donde representa la ruta completa al paquete de instalación de Microsoft Teams Room y representa la ruta de acceso completa a la carpeta a la que quiere extraer los `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` archivos.
 
-## <a name="running-the-tool"></a>Ejecutar la herramienta
+## <a name="running-the-tool"></a>Ejecución de la herramienta
 
-1) Inicie sesión en la cuenta de administrador en el dispositivo de salas de Microsoft Teams e inicie un símbolo del sistema con privilegios elevados.
-2) Compruebe en el dispositivo de salas de Microsoft Teams a la que tiene acceso el `RecoveryTool.ps1 file` , que está incluido en los archivos extraídos del paquete de instalación de Microsoft Teams Rooms. El kit puede encontrarse en el recurso compartido de red o en la unidad USB que se usa al preparar los requisitos previos.
-3) Ejecutar `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` .
+1) Inicie sesión en la cuenta de administrador del dispositivo de Salas de Microsoft Teams e inicie un símbolo del sistema con privilegios elevados.
+2) Compruebe desde el dispositivo salas de Microsoft Teams el que pueda acceder al archivo que se incluye en los archivos extraídos del paquete de instalación de Salas de `RecoveryTool.ps1 file` Microsoft Teams. El kit puede encontrarse en el recurso compartido de red o en la unidad USB que se usa al preparar los requisitos previos.
+3) `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`Ejecutar.
 4) Para realizar una restauración de fábrica:
-   1. Cuando el script le solicite, seleccione la opción 2: **restablecer**.
-   2. Si BitLocker está activado, siga las instrucciones que se proporcionan al final de la salida del script para deshabilitarlo.
-   3. Realice la restauración de fábrica.
-      1. Abra la aplicación **configuración** y seleccione **Actualizar & seguridad** .
-      2. Vaya a la pestaña **recuperación** .
-      3. Debajo de **restablecer este equipo**, **Seleccione introducción**
-      4. Seleccione **quitar todo**y, a continuación, **siguiente** y **restablecer**
+   1. Cuando el script se lo solicite, seleccione la opción 2: **Restablecer.**
+   2. Si BitLocker está habilitado, sigue las instrucciones proporcionadas al final del resultado del script para deshabilitarlo.
+   3. Realizar la restauración de fábrica.
+      1. Abra la **aplicación Configuración** y seleccione Actualizar **& Seguridad**
+      2. Vaya a la **pestaña Recuperación.**
+      3. Debajo **de Restablecer este equipo,** **selecciona Introducción**
+      4. Selecciona **Quitar todo,** luego **Siguiente** y **Restablecer**
         > [!WARNING]
-        > El dispositivo de salas de Microsoft Teams puede quedar inutilizable si la opción **mantener mis archivos: quita las aplicaciones y la configuración, pero mantiene su opción de archivos personales** seleccionada durante el proceso de restablecimiento de Windows. No seleccione esta opción.
-      5. El sistema se reiniciará varias veces. Cuando se complete el restablecimiento, el sistema estará en la pantalla "experiencia de Windows" (OOBE).
+        > El dispositivo Salas de Microsoft Teams puede quedar inutilizable si el comando Mantener mis archivos elimina las aplicaciones y la **configuración,** pero mantiene seleccionada la opción de archivos personales durante el proceso de restablecimiento de Windows. No seleccione esta opción.
+      5. El sistema se reiniciará varias veces. Cuando se complete el restablecimiento, el sistema estará en la pantalla de Windows "fuera de la caja" (OOBE).
 
 
 

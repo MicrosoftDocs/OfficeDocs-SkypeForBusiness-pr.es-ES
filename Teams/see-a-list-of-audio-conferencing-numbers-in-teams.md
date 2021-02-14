@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Obtenga información sobre cómo buscar los números de conferencia de acceso telefónico local disponibles para conferencias de audio desde Microsoft Teams.
+description: Obtenga información sobre cómo buscar los números de conferencia de acceso telefónico local disponibles para las audioconferencias desde Microsoft Teams.
 ms.openlocfilehash: c2d8850ddda3581932565e8d1dc2357c261e4e15
 ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
@@ -42,18 +42,18 @@ Puede consultar [Establecer los números de teléfono que se incluyen en las inv
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver los números de teléfono de audioconferencias
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver los números de teléfono de audioconferencia
 
 ![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) **Usando el centro de administración de Microsoft Teams**
 
-1. En el navegación de la izquierda, vaya a puentes de conferencia de **reuniones**  >  **Conference bridges**. 
-2. Ver los números de teléfono que están disponibles para las conferencias de audio.
+1. En el panel de navegación izquierdo, vaya **a puentes de conferencia de**  >  **reuniones.** 
+2. Ver los números de teléfono que están disponibles para las audioconferencias.
 
-- También puede ver la ubicación y el idioma principal que usará el operador automático de audioconferencia.
+- También puede ver la ubicación y el idioma principal que usará el operador automático de las audioconferencias.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -63,5 +63,5 @@ Para obtener más información sobre Windows PowerShell, consulte la [referencia
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencia en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
   

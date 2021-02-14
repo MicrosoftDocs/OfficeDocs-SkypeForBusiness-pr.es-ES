@@ -1,5 +1,5 @@
 ---
-title: Procedimientos recomendados para los métodos de comentarios de los usuarios
+title: Procedimientos recomendados para métodos de comentarios de usuarios
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -30,7 +30,7 @@ ms.locfileid: "46581391"
 
 La adopción de una nueva experiencia de colaboración consiste en cambiar el comportamiento de los usuarios. Los cambios de los humanos requieren formación, motivación y ejemplos positivos. Es fundamental que la gente se sienta escuchada durante la transición. Si ya ha establecido métodos de comentarios adecuados en su organización, puede ampliarlos para que incluyan la implementación de sus equipos. Si no lo ha hecho antes, puede seguir uno de estos enfoques:
 
--   Crear un equipo público en Microsoft Teams con el que cualquier usuario pueda unirse para proporcionar comentarios sobre su experiencia (teniendo en cuenta que los grupos públicos están limitados a usuarios de 5000).
+-   Crear un equipo público en Microsoft Teams al que pueda unirse cualquier usuario para proporcionar comentarios sobre su experiencia (teniendo en cuenta que los grupos públicos están limitados a 5000 usuarios).
 
 -   El uso de Yammer para proporcionar una comunidad abierta para las prácticas recomendadas y la compatibilidad de la experiencia.
 
@@ -39,4 +39,4 @@ Los métodos de comentarios generados por la comunidad requieren la participaci�
 <a name="showcases"></a>Casos destacados
 ---------
 
-A medida que continúe con este viaje, encontrarás exhibiciones en su propio entorno de empleados cuya creatividad con Microsoft Teams sorprenderá y tendrá la alegría de usted. Le recomendamos que comparta estas presentaciones de manera generalizada. Esto animará a otros a ser innovadores, educar a los usuarios que pueden estar antes en la curva de adopción y recompensar a aquellos que han tomado el tiempo para pensar en cómo usar mejor Microsoft Teams en su entorno. Establecer un objetivo medible de identificar un número establecido de exhibiciones cada trimestre es útil para mantener el impulso de adopción.
+A medida que continúa este viaje, encontrará casos especiales en su propio entorno de empleados cuya creatividad con Microsoft Teams le sorprenderá y deleitará. Le recomendamos que comparta estos casos en general. Esto animará a otros a ser innovadores, enseñará a los usuarios que pueden estar más atrás en la curva de adopción y recompensará a aquellos que han tomado el tiempo para pensar en cómo aprovechar mejor el uso de Microsoft Teams en su entorno. Establecer un objetivo mensurable para identificar un número determinado de casos concretos cada trimestre es útil para mantener el impulso de la adopción.

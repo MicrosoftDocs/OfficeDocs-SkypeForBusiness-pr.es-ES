@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad en las Islas Marianas del norte
+title: Disponibilidad en islas Marianas del Norte
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para las Islas Marianas del norte.
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para las Islas Marianas del Norte.
 ms.openlocfilehash: 0f06d17547b5d4b5367d60dfbcba142730fa8b29
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
@@ -31,17 +31,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "44878080"
 ---
-# <a name="availability-in-northern-mariana-islands"></a>Disponibilidad en las Islas Marianas del norte
+# <a name="availability-in-northern-mariana-islands"></a>Disponibilidad en islas Marianas del Norte
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para las Islas Marianas del norte.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para las Islas Marianas del Norte.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo paga por minuto. <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo pago por minuto. <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | No |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicaciones <br/> |
    

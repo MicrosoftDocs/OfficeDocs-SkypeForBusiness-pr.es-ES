@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Administración de Skype for Business Online
-summary: Skype empresarial online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Recomendamos a los clientes que inicien la actualización a Microsoft Teams, el hub para el trabajo en equipo de Microsoft 365.
+summary: Skype Empresarial Online se retirará el 31 de julio de 2021, momento en el que finalizará el acceso al servicio. Animamos a los clientes a comenzar la actualización a Microsoft Teams, el centro para el trabajo en equipo en Microsoft 365.
 metadata:
   title: Administración de Skype for Business Online
   description: Aprenda a administrar Skype for Business Online para su organización.
@@ -24,11 +24,11 @@ metadata:
   ms.lasthandoff: 07/29/2020
   ms.locfileid: "46522972"
 landingContent:
-- title: Acerca de Skype empresarial online
+- title: Acerca de Skype Empresarial Online
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Skype empresarial online para su retirada en 2021
+    - text: Se retirará Skype Empresarial Online en 2021
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -108,7 +108,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: ¿Qué es el sistema telefónico?
+    - text: ¿Qué es Sistema telefónico?
       url: /MicrosoftTeams/what-is-phone-system-in-office-365
     - text: Esto es lo obtiene con el Sistema telefónico
       url: /MicrosoftTeams/here-s-what-you-get-with-phone-system

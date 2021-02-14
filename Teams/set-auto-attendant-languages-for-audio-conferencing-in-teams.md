@@ -1,5 +1,5 @@
 ---
-title: Establecer los idiomas del operador automático de audioconferencia
+title: Establecer los idiomas del operador automático de Audioconferencia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -36,7 +36,7 @@ El operador automático de audioconferencias para Microsoft Teams puede saludar 
 Elija un idioma principal y hasta cuatro idiomas secundarios. El operador automático usará el idioma principal que configure en primer lugar y los idiomas secundarios, en el orden que seleccione. 
   
 > [!NOTE]
->  Solo puede cambiar los idiomas de los números de audioconferencia que son de la categoría dedicada. Los idiomas del número de audioconferencia compartido no se pueden cambiar.
+>  Solo puede cambiar los idiomas de los números de audioconferencia que son de la categoría Dedicado. Los idiomas del número de audioconferencia compartida no se pueden cambiar.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -47,14 +47,14 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El operador autom�
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. Seleccione un número de teléfono de conferencias de audio **dedicado** de la lista y, en la parte superior de la página, haga clic en **Editar**. Solo es posible cambiar los idiomas de los números de audioconferencias dedicados. La opción **Editar** solo se muestra cuando se selecciona un número de conferencia de audio dedicado.
+2. Seleccione un **número de** teléfono de audioconferencia dedicado de la lista y, en la parte superior de la página, haga clic en **Editar.** Solo es posible cambiar los idiomas de los números de audioconferencia dedicados. La **opción** Editar solo se muestra cuando se selecciona un número de audioconferencia dedicado.
 
-3. En el panel de la derecha, elija el idioma predeterminado que desee y cualquier otro idioma alternativo. 
+3. En el panel de la derecha, elija el idioma predeterminado que quiera usar y los idiomas alternativos. 
  
     > [!NOTE]
-    > Se enumeran los idiomas alternativos y predeterminados que se admiten. El orden en que se seleccionan en las listas será el orden de los idiomas que se presentan a las personas que llaman. 
+    > Se muestran los idiomas predeterminados y alternativos que son compatibles. El orden en que los seleccione en las listas será el orden de los idiomas que se presentan a los autores de llamadas. 
 
-4. Haga clic en **Guardar **.
+4. Haga clic en **Guardar**.
 
     
 ## <a name="want-else-should-i-know"></a>¿Qué más debo saber?
@@ -63,13 +63,13 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El operador autom�
     
 - Los idiomas se pueden establecer para números de teléfono dedicados, pero no para compartidos.
     
-- Para ver una lista de países o regiones en los que está disponible la Conferencia de audio en Microsoft 365 u Office 365 con Microsoft como proveedor, consulte [números de teléfono para audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md).
+- Para ver una lista de países o regiones en los que Audioconferencia en Microsoft 365 [](phone-numbers-for-audio-conferencing-in-teams.md)u Office 365 mediante Microsoft como el proveedor está disponible, consulte Números de teléfono para Audioconferencia.
     
 ## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
-Para obtener más información, vea la [referencia de Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
+Consulte la [referencia de PowerShell de Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencia en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

@@ -23,5 +23,5 @@ ms.locfileid: "44752482"
 En general, debe utilizar la herramienta administrativa que corresponde a la versión del servidor que desea administrar. No puede instalar herramientas administrativas de diferentes versiones en el mismo equipo.
   
 > [!IMPORTANT]
-> Una vez implementado un grupo piloto de Skype empresarial Server, no puede usar el generador de topologías o el panel de control para administrar los recursos de 2019. Debe usar las herramientas de 2019 para administrar todos los recursos de versiones actuales y anteriores. 
+> Después de implementar un grupo piloto de Skype Empresarial Server, no puede usar el Generador de topologías ni el Panel de control para administrar los recursos de 2019. Debe usar las herramientas de 2019 para administrar todos los recursos de la versión actual y anterior. 
   

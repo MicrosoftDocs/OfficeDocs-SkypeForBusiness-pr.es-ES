@@ -22,7 +22,7 @@ ms.locfileid: "44753282"
 
 Uno de los procedimientos recomendados más generalizado para las migraciones consiste en crear varias cuentas de usuario de prueba y usarlas para llevar a cabo pruebas del sistema. Después de mover correctamente y probar esas cuentas, se ha de identificar un grupo piloto de usuarios de producción, mover sus cuentas y realizar pruebas de validación. Si los resultados son satisfactorios, se podrá mover el resto de los usuarios a la nueva implementación.
   
-Para obtener más información sobre cómo habilitar usuarios para Skype empresarial Server 2019, consulte la documentación de implementación de Skype empresarial Server 2019. 
+Para obtener información adicional sobre cómo habilitar usuarios para Skype Empresarial Server 2019, consulte la documentación de implementación de Skype Empresarial Server 2019. 
   
   <!-- the topic [Disable or re-enable user account for Skype for Business Server 2019](../../operations/managing-users-in-lync-server-2013/disable-or-re-enable-user-account-for-lync-server.md) in  -->
 

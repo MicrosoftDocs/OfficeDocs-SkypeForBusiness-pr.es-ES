@@ -39,7 +39,7 @@ Como administrador de su organización, puede asignar licencias de usuario para 
 
 
  
-Para obtener más información sobre cómo administrar licencias individuales, lea [Descripción del servicio Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
+Para obtener más información sobre la administración de licencias individuales, lea la [descripción del servicio de Microsoft Teams.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Activar o desactivar Teams para toda su organización 

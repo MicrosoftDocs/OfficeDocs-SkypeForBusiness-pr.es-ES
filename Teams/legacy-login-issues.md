@@ -1,5 +1,5 @@
 ---
-title: Problemas al recibir mensajes y llamadas en sistemas heredados de Teams
+title: Problemas al recibir mensajes y llamadas en sistemas heredados en Teams
 ms.reviewer: ''
 author: cichur
 ms.author: v-cichur
@@ -27,7 +27,7 @@ ms.locfileid: "45085156"
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas al recibir mensajes y llamadas en sistemas heredados
 ==============================================================
 
-Es posible que los usuarios tengan problemas para recibir mensajes o llamadas si usan versiones anteriores de Teams o iniciaron sesión con otras aplicaciones.
+Los usuarios podrían tener problemas para recibir mensajes o llamadas si usan versiones anteriores de Teams o han iniciado sesión con otras aplicaciones.
 
 ## <a name="legacy-adu-setups"></a>Configuraciones de ADU heredadas
 
@@ -40,11 +40,11 @@ Es posible que los usuarios tengan problemas para recibir mensajes o llamadas si
 > [!NOTE]
 > La opción para omitir o ignorar el rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está activada de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlos.
 
-Para obtener más información, vea [iniciar sesión en Microsoft Teams mediante la autenticación moderna](sign-in-teams.md) .
+Vea [Iniciar sesión en Microsoft Teams con la autenticación moderna](sign-in-teams.md) para obtener más información.
 
-## <a name="skype-token-revocation"></a>Revocación de tokens de Skype
+## <a name="skype-token-revocation"></a>Revocación de token de Skype
 
-Al cambiar o restablecer una contraseña, los clientes antiguos no recibirán mensajes ni llamarán hasta una hora. Para resolver este problema, reinicie la aplicación o desplácese a clientes más recientes.
+Al cambiar o restablecer una contraseña, los clientes antiguos no recibirán mensajes y llamadas durante un máximo de una hora. Para resolver este problema, reinicie la aplicación o muévete a clientes más recientes.
 
 
 ## <a name="related-topics"></a>Temas relacionados

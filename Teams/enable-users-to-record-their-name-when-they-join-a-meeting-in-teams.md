@@ -31,7 +31,7 @@ ms.locfileid: "44691586"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Habilitar que los usuarios registren su nombre cuando se unan a una reunión en Microsoft Teams
 
-Al configurar las conferencias de audio en Microsoft 365 u Office 365, recibirá números de teléfono y lo que se denomina un puente de audioconferencia. Un puente de conferencia puede contener uno o más números de teléfono que pueden ser un número de teléfono dedicado o compartido.
+Al configurar Audioconferencia en Microsoft 365 u Office 365, recibirá números de teléfono y lo que se denomina un puente de audioconferencia. Un puente de conferencia puede contener uno o más números de teléfono que pueden ser un número de teléfono dedicado o compartido.
   
 El puente de conferencia responde a la llamada de un usuario que llama a una reunión con un teléfono. Ese puente responde al autor de la llamada con avisos de voz de un operador automático y, luego, de acuerdo con su configuración, puede reproducir notificaciones, solicitar a los autores de las llamadas que graben sus nombres y configura la seguridad del PIN para los organizadores de reuniones. Los PIN se proporcionan al organizador de la reunión y con ellos se puede empezar una reunión, pero puede configurarlo de modo que no se necesite un PIN para comenzar una reunión.
 
@@ -42,11 +42,11 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
-2. En la parte superior de la página **puentes de conferencia** , haga clic en **configuración del puente**. 
+2. En la parte superior de la **página Puentes de** conferencia, haga clic en **Configuración de puente.** 
 
-3. Habilitar o deshabilitar las **notificaciones de entrada y salida de la reunión**.
+3. Habilite o **deshabilite las notificaciones de entrada y salida de una reunión.**
 
-4. Si habilita las notificaciones, elija **nombres o números de teléfono** en **introducir/salir de tipo de anuncio**y luego Active las **personas que llaman para grabar su nombre antes de unirse a una reunión.**
+4. Si habilita las  notificaciones, elija Nombres o números de teléfono en el tipo de anuncio de entrada o salida **y,** a continuación, active Solicitar a los autores de las llamadas que graben sus nombres antes de **unirse a una reunión.**
 
 6. Haga clic en **Guardar**.
     
@@ -55,7 +55,7 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. To get started with Windows PowerShell, see these topics:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -65,4 +65,4 @@ Para obtener más información sobre Windows PowerShell, consulte la [referencia
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencia](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Probar o comprar Audioconferencia](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

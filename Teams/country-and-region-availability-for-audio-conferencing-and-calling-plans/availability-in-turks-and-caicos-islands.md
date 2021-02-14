@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad en Islas Turcas y Caicos
+title: Disponibilidad en islas Turcas y Caicos
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Islas Turcas y Caicos.
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para islas Turcas y Caicos.
 ms.openlocfilehash: c3aa3f7f653996cbc5518d89095ff231b88798c8
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
@@ -31,17 +31,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "44878079"
 ---
-# <a name="availability-in-turks-and-caicos-islands"></a>Disponibilidad en Islas Turcas y Caicos
+# <a name="availability-in-turks-and-caicos-islands"></a>Disponibilidad en islas Turcas y Caicos
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Islas Turcas y Caicos.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para islas Turcas y Caicos.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo paga por minuto. <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo pago por minuto. <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | No |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicaciones <br/> |
    

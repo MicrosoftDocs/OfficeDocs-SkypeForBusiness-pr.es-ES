@@ -1,5 +1,5 @@
 ---
-title: Iniciar la Conferencia de audio a través del teléfono sin un PIN en Teams
+title: Iniciar audioconferencia por teléfono sin un PIN en Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -50,7 +50,7 @@ El organizador de la reunión no necesita el PIN si otra persona ha iniciado la 
 
 3. Junto a **Audioconferencia**, haga clic en **Editar**.
 
-4. En el panel **audioconferencia** , habilitar o deshabilitar **a los autores de llamadas puede ser la primera persona de una reunión**.
+4. En el **panel Audioconferencia,** los autores de llamadas de acceso telefónico local pueden ser la **primera persona en una reunión.**
     
 4. Haga clic en **Aplicar**. 
 
@@ -62,13 +62,13 @@ Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.co
 
 - Si desea restablecer el PIN, consulte [Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md).
     
-- Si el acceso anónimo, o si no necesita un PIN para iniciar una reunión, está deshabilitado:
+- Si el acceso anónimo, o no requerir un PIN para iniciar una reunión, está deshabilitado:
     
   - Si la reunión no ha empezado (no hay nadie todavía en la reunión): se le preguntará al autor de la llamada si es el organizador. Si indica que lo es, se le solicitará el PIN. La reunión se iniciará cuando lo especifique y el usuario se unirá a ella.
     
   - Si la reunión ha empezado (ya hay personas en la reunión): no se le preguntará al autor de la llamada si es el organizador y en ningún momento se le solicitará el PIN. La reunión ya ha empezado y el autor de la llamada se unirá a ella.
     
-- Si el acceso anónimo, o si no necesita un PIN para iniciar una reunión, está habilitado:
+- Si el acceso anónimo, o no requerir un PIN para iniciar una reunión, está habilitado:
     
   - Si la reunión no ha empezado (no hay nadie todavía en la reunión): no se le preguntará al autor de la llamada si es el organizador y en ningún momento se le solicitará el PIN. Como la configuración del organizador estará desactivada, la reunión se iniciará y los autores de llamada anónimos se unirán a ella.
     
@@ -76,7 +76,7 @@ Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.co
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se ocupa de la administración de los usuarios y de lo que los usuarios tienen permitido o no. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas para hacer. Para empezar a usar Windows PowerShell, vea estos temas:
+Windows PowerShell se trata de administrar los usuarios y las cosas que pueden o no hacer. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. Para empezar con los Windows PowerShell, vea estos temas:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -86,4 +86,4 @@ Para obtener más información sobre Windows PowerShell, consulte la [referencia
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencia en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

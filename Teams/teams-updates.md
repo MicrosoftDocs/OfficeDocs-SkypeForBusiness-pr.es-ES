@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Este tema es una lista de los temas de ayuda de Microsoft teams que se han actualizado recientemente, incluidos los vínculos a los temas actualizados.
+description: Este tema es una lista de los temas de ayuda de Microsoft Teams que se han actualizado recientemente, incluidos vínculos a los temas actualizados.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -27,6 +27,6 @@ ms.locfileid: "46583809"
 ---
 # <a name="microsoft-teams-content-updates"></a>Actualizaciones de contenido de Microsoft Teams
 
-En este tema se enumeran los temas de Microsoft teams que se han modificado recientemente.
+En este tema se enumeran los temas de Microsoft Teams que se han modificado recientemente.
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

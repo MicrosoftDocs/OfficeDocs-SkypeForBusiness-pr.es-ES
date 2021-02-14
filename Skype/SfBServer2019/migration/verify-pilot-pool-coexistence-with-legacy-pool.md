@@ -1,5 +1,5 @@
 ---
-title: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
+title: Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredados
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -18,22 +18,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44751662"
 ---
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredados
 
  **En este artículo**
   
-[Comprobar que se han iniciado los servicios de Skype empresarial Server 2019](#sectionSection0)
+[Comprobar que se han iniciado los servicios de Skype Empresarial Server 2019](#sectionSection0)
   
-[Abrir el panel de control de Skype empresarial Server 2019](#sectionSection1)
+[Abrir el Panel de control de Skype Empresarial Server 2019](#sectionSection1)
   
-[No intente abrir la topología en el generador de topologías heredado](#sectionSection2)
+[No intente abrir la topología en el Generador de topologías heredado](#sectionSection2)
   
-Después de implementar el grupo piloto, verifique la coexistencia de los dos grupos de servidores con las herramientas administrativas para ver la información del grupo. En el caso de los grupos de servidores de Skype empresarial Server 2019 y los grupos de servidores heredados, debe usar las herramientas del panel de control de Skype empresarial Server 2019 y el generador de topologías. 
+Después de implementar el grupo piloto, verifique la coexistencia de los dos grupos de servidores con las herramientas administrativas para ver la información del grupo. Para los grupos de Skype Empresarial Server 2019 y los grupos heredados, debe usar las herramientas del Panel de control de Skype Empresarial Server 2019 y del Generador de topologías. 
   
-## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Comprobar que se han iniciado los servicios de Skype empresarial Server 2019
+## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Comprobar que se han iniciado los servicios de Skype Empresarial Server 2019
 <a name="sectionSection0"> </a>
 
-1. Desde el servidor front-end de Skype empresarial Server 2019, navegue hasta el applet herramientas administrativo.
+1. Desde el servidor front-end de Skype Empresarial Server 2019, vaya al applet Herramientas administrativas\Servicios.
     
 2. Compruebe que los servicios siguientes se están ejecutando en el servidor front-end:
 
@@ -46,28 +46,28 @@ Después de implementar el grupo piloto, verifique la coexistencia de los dos gr
     - Operador de conferencia
     - Front-end
     - Conferencia de mensajería instantánea
-    - Remedio
-    - Agente de replicador de réplicas
+    - Mediación
+    - Replica Replicator Agent
     - Grupo de respuesta
     - Conferencia web
     - Puerta de enlace de traducción XMPP
 
   
-## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Abrir el panel de control de Skype empresarial Server 2019
+## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Abrir el Panel de control de Skype Empresarial Server 2019
 <a name="sectionSection1"> </a>
 
-Desde el servidor front-end en su implementación de Skype empresarial Server 2019, abra el panel de control de Skype empresarial Server 2019 y seleccione el grupo de servidores heredados. Repita el procedimiento para abrir el grupo de servidores de Skype empresarial Server 2019.
+En el servidor front-end de su implementación de Skype Empresarial Server 2019, abra el Panel de control de Skype Empresarial Server 2019 y seleccione el grupo heredado. Repita el procedimiento para abrir el grupo de Skype Empresarial Server 2019.
   
 > [!IMPORTANT]
-> En Skype empresarial Server 2019, debe actualizar Silverlight a Silverlight versión 5 antes de usar el panel de control de Skype empresarial Server. 
+> En Skype Empresarial Server 2019, debe actualizar Silverlight a la versión 5 de Silverlight antes de usar el Panel de control de Skype Empresarial Server. 
   
-Esta topología ahora incluye roles de servidor heredados y de Skype empresarial Server 2019. 
+Esta topología ahora incluye roles de servidor heredados y de Skype Empresarial Server 2019. 
 
   
-## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>No intente abrir la topología en el generador de topologías heredado
+## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>No intente abrir la topología en el Generador de topologías heredado
 <a name="sectionSection2"> </a>
 
-La topología solo se puede ver con el generador de topologías de Skype empresarial Server 2019. El generador de topologías de Skype empresarial Server 2019 debe usarse para crear grupos tanto para Skype empresarial Server 2019 como para la instalación heredada.
+La topología solo se puede ver con el Generador de topologías de Skype Empresarial Server 2019. El Generador de topologías de Skype Empresarial Server 2019 debe usarse para crear grupos tanto para Skype Empresarial Server 2019 como para la instalación heredada.
 
   
 

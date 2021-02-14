@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentación de Skype empresarial Server 2015
-summary: Obtenga información sobre cómo implementar Skype empresarial Server 2015.
+title: Documentación de Skype Empresarial Server 2015
+summary: Obtenga información sobre cómo implementar Skype Empresarial Server 2015.
 metadata:
-  title: Documentación de Skype empresarial Server 2015
-  description: Obtenga información sobre cómo implementar Skype empresarial Server 2015.
+  title: Documentación de Skype Empresarial Server 2015
+  description: Obtenga información sobre cómo implementar Skype Empresarial Server 2015.
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -18,7 +18,7 @@ metadata:
   ms.lasthandoff: 07/21/2020
   ms.locfileid: "45189365"
 landingContent:
-- title: Acerca de Skype empresarial Server 2015
+- title: Acerca de Skype Empresarial Server 2015
   linkLists:
   - linkListType: overview
     links:
@@ -32,25 +32,25 @@ landingContent:
       url: /SkypeForBusiness/technical-diagrams
   - linkListType: download
     links:
-    - text: Descargar ahora
+    - text: ¡Descárbalo ahora!
       url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 - title: Plan
   linkLists:
   - linkListType: overview
     links:
-    - text: Planeación de la implementación
+    - text: Planear la implementación
       url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
     - text: Planear conectividad híbrida
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
     - text: Planeación de clientes y dispositivos
       url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
-    - text: Planeación de la solución de telefonía IP empresarial
+    - text: Planear la solución Telefonía IP empresarial personalizada
       url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
 - title: Instalar y administrar
   linkLists:
   - linkListType: deploy
     links:
-    - text: Implementar Skype empresarial Server
+    - text: Implementar Skype Empresarial Server
       url: /SkypeForBusiness/deploy/deploy
     - text: Instalar Skype Empresarial Server
       url: /SkypeForBusiness/deploy/install/install
@@ -58,19 +58,19 @@ landingContent:
       url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
     - text: Implementar la telefonía IP empresarial
       url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
-    - text: Configurar la implementación local para la difusión de reunión de Skype
+    - text: Configurar la implementación local para difusión de reunión de Skype
       url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
   - linkListType: how-to-guide
     links:
-    - text: Administrar Skype empresarial Server
+    - text: Administrar Skype Empresarial Server
       url: /SkypeForBusiness/manage/manage
 - title: Otros recursos
   linkLists:
   - linkListType: overview
     links:
-    - text: Serie de preparación de Skype empresarial
+    - text: Serie de preparación de Skype Empresarial
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
-    - text: Documentación de Skype empresarial Server 2019
+    - text: Documentación de Skype Empresarial Server 2019
       url: /SkypeForBusiness/skype-for-business-server-2019
     - text: Documentación de Lync Server 2013
       url: /lyncserver/microsoft-lync-server-2013

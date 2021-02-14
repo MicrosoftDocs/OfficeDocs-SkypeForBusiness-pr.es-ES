@@ -1,5 +1,5 @@
 ---
-title: 'Declaración de accesibilidad de conformidad: Francia'
+title: 'Declaración de conformidad de accesibilidad: Francia'
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,7 +19,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre promociona a personnes, contenus et Outils no votre Équipe a besoin verter être más impliquée et efficace. "
+description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe amein pour être plus impliquée et collaborate. "
 ms.openlocfilehash: 2b642e2e48ac0bf7bf3c3d5359fdb731e8130b24
 ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
@@ -27,58 +27,58 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 07/29/2020
 ms.locfileid: "46522951"
 ---
-# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de Conformité en matière d'accessibilité
+# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de va a en èère d'accessibilité
 
 
-### <a name="section-1-champ-dapplication"></a>Sección 1 Champ d'application
+### <a name="section-1-champ-dapplication"></a>Section 1 Champ d'application
 
-La certificación présente atestación de Conformité à la norma [en 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) relative à l'accessibilité des Produits [précise les exigences fonctionnelles en matière d'accessibilité](http://mandate376.standards.eu/standard/scope) aplicable Produits auxiliares de servicios
+La présente attestation de à la norme [EN 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) relative à l'accessibilité des produits [précise les exigences fonctionnelles en meloère d'accessibilité](http://mandate376.standards.eu/standard/scope) applicables aux produits et services TIC de Microsoft.
 
-### <a name="section-2-rfrences"></a>Sección 2 RÉFÉRENCES
+### <a name="section-2-rfrences"></a>Sección 2 Références
 
-RÉFÉRENCES [EN 301 549](http://mandate376.standards.eu/standard/references)
+Références [EN 301 549](http://mandate376.standards.eu/standard/references)
 
-### <a name="section-3-dfinitions-et-abrviations"></a>Sección 3 Définitions et abréviations
+### <a name="section-3-dfinitions-et-abrviations"></a>Section 3 Définitions et abréviations
 
 Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standard/definitions-and-abbreviations)
 
-### <a name="section-4-dclarations-de-conformit-aux-exigences-fonctionnelles"></a>Sección 4 déclarations de Conformité AUX exigences fonctionnelles
+### <a name="section-4-dclarations-de-conformit-aux-exigences-fonctionnelles"></a>Section 4 Déclarations de a seda aux exigences fonctionnelles
 
-[Déclarations de Conformité AUX exigences fonctionnelles](http://mandate376.standards.eu/standard/functional-statements) de la norma en 301 549
+[Déclarations de lo más personalizado aux exigences fonctionnelles](http://mandate376.standards.eu/standard/functional-statements) de la norme EN 301 549
 
-> [4.2.1 la visión de las redes San](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=22&functional_statements_submitted=true)
+> [4.2.1 Utilisation sans vision](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=22&functional_statements_submitted=true)
 > 
-> [4.2.2 utilización avec Vision Limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=20&functional_statements_submitted=true)
+> [4.2.2 Utilisation avec vision limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=20&functional_statements_submitted=true)
 > 
-> [4.2.3 utilización de las redes San percepción des Couleurs](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=34&functional_statements_submitted=true)
+> [4.2.3 Utilisation sans des couleurs](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=34&functional_statements_submitted=true)
 > 
-> [4.2.4 utilización de las San Audition](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=36&functional_statements_submitted=true)
+> [4.2.4 Utilisation sans utilis](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=36&functional_statements_submitted=true)
 > 
-> [4.2.5 de avec Audition Limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=38&functional_statements_submitted=true)
+> [4.2.5 Utilisation avec avec utilisée limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=38&functional_statements_submitted=true)
 > 
-> [4.2.6 San capacité vocal](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=40&functional_statements_submitted=true)
+> [4.2.6 Utilisation sans capacité vocale](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=40&functional_statements_submitted=true)
 > 
-> [4.2.7 de la avec de manipulación de Limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&functional_statements_submitted=true)
+> [4.2.7 Utilisation avec manipulation ou force limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&functional_statements_submitted=true)
 > 
-> uso de [4.2.8 avec une](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&functional_statements_submitted=true) portée Limitée
+> [4.2.8 Utilisation avec une](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&functional_statements_submitted=true) portée limitée
 > 
-> [4.2.9 minimizarte les déclencheurs de crisis](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&functional_statements_submitted=true)
+> [4.2.9 Arrasador les déclencheurs de fotosensibles](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&functional_statements_submitted=true)
 > 
-> [4.2.10 de la avec Cognition Limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&functional_statements_submitted=true)
+> [4.2.10 Utilisation avec c a c a a c a cognitiva limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&functional_statements_submitted=true)
 > 
-> 4.2.11 [respeto de la Privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
+> 4.2.11 [Respect de la privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
 
 ## <a name="exigences-fonctionnelles-daccessibilit"></a>Exigences fonctionnelles d'accessibilité
 
-### <a name="section-5-exigences-gnriques"></a>Sección 5 exigences Génériques
+### <a name="section-5-exigences-gnriques"></a>Section 5 Exigences génégés
 
 <table>
 <caption>Sección 5</caption>
 <tbody>
 <tr class="odd">
 <td><strong>Critères</strong></td>
-<td><strong>Fonctionnalités a Inprise</strong></td>
-<td><strong>Remarquesinas et propuestos</strong></td>
+<td><strong>Fonctionnalités prises en charge</strong></td>
+<td><strong>Remarques et explications</strong></td>
 </tr>
 <tr class="even">
 <td><h3 id="section">5.1.2.2 – 5.1.6.2</h3></td>
@@ -86,450 +86,450 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <td>Fonctionnalité fermée</td>
 </tr>
 <tr class="odd">
-<td><h3 id="activation-des-fonctionnalités-daccessibilité">5,2 activación des Fonctionnalités d'accessibilité</h3>
-<p>Dans le CAS où la présente des Fonctionnalités d'accessibilité documentées, Il est posible d'activer les Fonctionnalités qui sont requises verter répondre à un besoin spécifique Sans Fair Appel à une Méthode qui ne Prend PAS en tarifa CE besoin.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="activation-des-fonctionnalités-daccessibilité">5.2 Activation des fonctionnalités d'accessibilité</h3>
+<p>Dans le cas où la TIC présente des fonctionnalités d'accessibilité documentées, il est possible d'activer les fonctionnalités qui sont requises pour répondre à unplicin spécifique sans faire appel à une méthode qui ne prend pas en charge ceproin.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="biométrie">5,3 Biométrie</h3>
-<p>Dans le CAS où la TIC fait Appel à des Caractéristiques biologiques, Elle ne fait Pas de l'utilisation d'une caractéristique biologique le Seul Moyen d'identification de l'utilisateur ou de contrôle de la TIC.</p></td>
+<td><h3 id="biométrie">5.3 Biométrie</h3>
+<p>Dans le cas où la TIC fait appel à des caractéques bidisperques, elle ne fait pas de l'utilisation d'une caractéiqueque biologique le seul moyen d'identification de l'utilisateur ou de contrôle de la TIC.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="préservation-des-informations-daccessibilité-pendant-la-conversion">5,4 Préservation des información d'accessibilité dependiente de la conversión</h3>
-<p>Dans de las entidades emisoras de où la convertit de información de une de la comunicación, Elle préserve promociona los datos que no son exclusivos documentées qui sont Fournies verter l'accessibilité dans la mesure où CES información peuvent être contenues dans le formato de destino ou.</p></td>
+<td><h3 id="préservation-des-informations-daccessibilité-pendant-la-conversion">5.4 Préservation des informations d'accessibilité de la conversión</h3>
+<p>Dans le cas où la TIC convertit des informations ou une communication, elle préserve toutes les informations non exclusives documentées qui sont fournies pour l'accessibilité dans la mesure où ces informations peuvent être contenues dans le format de destination ou prises en charge par ce dervent.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="mode-de-fonctionnement">5.5.1 modo de Fonctionnement</h3>
-<p>Dans le CAS où la TIC présente des Éléments actionnables qui doivent être actionnés en les prenant, en manpinçant ou en exerçant une de torsión du poignet, Autre Mode de Fonctionnement accessible qui ne nécessite PAS CES est proposé.</p></td>
+<td><h3 id="mode-de-fonctionnement">5.5.1 Mode de fonctionnement</h3>
+<p>Dans le cas où la TIC présente des éléments actionnables qui doivent être actionnés en les prevent, en les pinçant ou en exerçant une torsion du poignet, un autre mode de fonctionnement accessible qui ne nécessite pas ces gestes est proposé.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="discernabilité-des-éléments-actionnables">5.5.2 Discernabilité des Éléments actionnables </h3>
-<p>Dans a CAS où la Éléments actionnables, Elle proponer un Moyen de discernidor chaque ÉLÉMENT actionnable Sans que detengan la vista ne Soit nécessaire et San accomplir le gestor associé à CET ÉLÉMENT actionnable.</p></td>
+<td><h3 id="discernabilité-des-éléments-actionnables">5.5.2 Discernabilité des éléments actionnables </h3>
+<p>Dans le cas où la TIC a des éléments actionnables, elle propose un moyen de discerner chaque élément actionnable sans que la vision ne soit nécessaire et sans accomplir le geste associé à cet élément actionnable.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="statut-tactile-ou-auditif">5.6.1 Statut de la ou táctil auditif</h3>
-<p>Dans de CAS où la TIC dotée d'une comando de verrouillage et où cette comando est présentée visuellement à l'utilisateur, la TIC proponer Au Moins des de Fonctionnement avec lequel Il est posible de déterminer le Statut de la opción de la opción de la unidad organizativa par le, par.</p></td>
+<td><h3 id="statut-tactile-ou-auditif">5.6.1 Statut tactile ou auditif</h3>
+<p>Dans le cas où la TIC est dotée d'une commande de verrouillage et où cette commande est présentée visuellement à l'utilisateur, la TIC propose au moins un mode de fonctionnement avec lequel il est possible de déterminer le statut de la commande par le son ou par le toucher sans actionner la commande.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="statut-visuel">5.6.2 Statut visuel</h3>
-<p>Dans le CAS où la TIC dotée d'une comando de verrouillage et où cette comando n'est PAS présentée visuellement à l'utilisateur, la TIC proponer Au Moins des de Fonctionnement avec lequel Il est posible de déterminer visuellement le Statut de la Command, lorsque la comando est présentée.</p></td>
+<p>Dans le cas où la TIC est dotée d'une commande de verrouillage et où cette commande n'est pas présentée visuellement à l'utilisateur, la TIC propose au moins un mode de fonctionnement avec lequel il est possible de déterminer visuellement le statut de la commande lorsque la commande est présentée.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="répétition-automatique-des-touches">5,7 répétition Automatique des toques</h3>
-<p>Dans le où la TIC dotée de la fonction répétition Automatique des toca et où cette fonction ne peut être désactivée:</p>
-<p>a) le Délai Avant la répétition Automatique est réglable jusqu'à Au Moins 2 segundos; peninsular</p>
-<p>b) la Vitesse de répétition peut être réduite jusqu'à Caractère un par de dos segundos.</p></td>
+<td><h3 id="répétition-automatique-des-touches">5.7 Répétition automatique des touches</h3>
+<p>Dans le cas où la TIC est dotée de la fonction répétition automatique des touches et où cette fonction ne peut être désactivée :</p>
+<p>a) le délai automat la répétition automatique est réglable jusqu'à au moins 2 secondes ; et</p>
+<p>b) la vitesse de répétition peut être réduite jusqu'à un caractère par intervalle de 2 secondes.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="acceptation-des-doubles-frappes-sur-le-clavier">5,8 Accept des doubles Frappes sur le Clavier</h3>
-<p>Dans le CAS où un Clavier est Fourni, le Délai, bebidas une Frappe sur le Clavier, dependiente lequel Une Autre Frappe ne suero PAS acceptée si Elle est identique à la Frappe précédente est réglable jusqu'à Au Moins 0,5 segundos.</p></td>
+<td><h3 id="acceptation-des-doubles-frappes-sur-le-clavier">5.8 Acceptation des doubles frappes sur le clavier</h3>
+<p>Dans le cas où un clavier est fourni, le délai, après une frappe sur le clavier, le lequel une autre frappe ne sera pas acceptée si elle est identique à la frappe précédente est réglable jusqu'à au moins 0,5 seconde.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="actions-simultanées-de-lutilisateur">5,9 acciones de simultanées de l'utilisateur</h3>
-<p>Dans le CAS où la TIC nécessite, verter fonctionner, plusieurs acciones simultanées de l'utilisateur, cette TIC proponer Au Moins des Mode de Fonctionnement qui ne nécessite PAS plusieurs simultanées de la parte de l'utilisateur verter fonctionner.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="actions-simultanées-de-lutilisateur">5.9 Actions simultanées de l'utilisateur</h3>
+<p>Dans le cas où la TIC nécessite, pour fonctionner, plusieurs actions simultanées de l'utilisateur, cette TIC propose au moins un mode de fonctionnement qui ne nécessite pas plusieurs actions simultanées de la part de l'utilisateur pour fonctionner.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="section-6-tic-avec-communication-voix-bidirectionnelle"></a>Sección 6 tres avec de comunicación Voix bidirectionnelle
+### <a name="section-6-tic-avec-communication-voix-bidirectionnelle"></a>Section 6 TIC avec communication voix bidirectionnelle
 
 <table>
 <caption>Sección 6</caption>
 <tbody>
 <tr class="odd">
 <td><strong>Critères</strong></td>
-<td><strong>Fonctionnalités a Inprise</strong></td>
-<td><strong>Remarquesinas et propuestos</strong></td>
+<td><strong>Fonctionnalités prises en charge</strong></td>
+<td><strong>Remarques et explications</strong></td>
 </tr>
 <tr class="even">
-<td><h3 id="bande-passante-audio-pour-la-parole-recommandation-pour-information">6,1 Bande Passante audio verter la parole (remando de la información)</h3>
-<p>Dans le CAS où la TIC permet la comunicación Voix bidirectionnelle, Elle doit être, verter Donner une bonne qualité de chiffrer, de déchiffrer la comunicación Voix bidirectionnelle dans une de Bande Fréquence à au plafonnée 7 000 Hz.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="bande-passante-audio-pour-la-parole-recommandation-pour-information">6.1 Bande passante audio pour la agrupale (recommandation pour information)</h3>
+<p>Dans le cas où la TIC permet la communication voix bidirectionnelle, elle doit être capable, pour donner une qualité audio, de chiffrer et de déchiffrer la communication voix bidirectionnelle dans une bande de fréquence plancenée à au moins 7 000 Hz.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="communication-en-temps-réel-par-texte-rtt">6.2.1.1 Communication en Temps Réel par de texto (RTT)</h3>
-<p>Dans le CAS où la TIC est compatible avec la comunicación Voix bidirectionnelle dans un contexto d'utilisation spécifié, Elle permet à a utilisateur de communiquer avec un Autre utilisateur en RTT.</p></td>
-<td>La tarifa de PAS en Pas</td>
+<td><h3 id="communication-en-temps-réel-par-texte-rtt">6.2.1.1 Communication en temps réel par texte (RTT)</h3>
+<p>Dans le cas où la TIC est compatible avec la communication voix bidirectionnelle dans un contexte d'utilisation spécifié, elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="voix-et-texte-simultanés">6.2.1.2 Voix et texto simultanés</h3>
-<p>Dans le CAS où la TIC ou les tiene tres Fournies à un utilisateur sont compatibles avec la comunicación Voix bidirectionnelle et permettent à utilisateur communiquer de avec Autre a utilisateur Elles en RTT, proposent Mécanisme permettant a Sélectionner Fonctionnement de Qui un modo de permet Voix simultanés la et le Text.</p></td>
-<td>La tarifa de PAS en Pas</td>
+<td><h3 id="voix-et-texte-simultanés">6.2.1.2 Voix et texte simultanés</h3>
+<p>Dans le cas où la TIC ou les TIC fournies à un utilisateur sont compatibles avec la communication voix bidirectionnelle et permettent à un utilisateur de communiquer avec un autre utilisateur en RTT, elles proposent un mécanisme permettant de sélectionner un mode de fonctionnement qui permet la voix et le texte simultanés.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="affichage-visuellement-distinguable">6.2.2.1 Affichage visuellement distinguable</h3>
-<p>Dans le CAS où la TIC est dotée de capacités d'envoi et de réception en RTT, l'affichage du Text envoyé est visuellement différencié de celui du Text Reçu.</p></td>
-<td>La tarifa de PAS en Pas</td>
+<p>Dans le cas où la TIC est dotée de capaùés d'envoi et de réception en RTT, l'affichage du texte envoyé est visuellement différencié de celui du texte reçu.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="direction-envoiréception-déterminable-par-un-programme-informatique">Dirección 6.2.2.2 envoi/réception déterminable par desprogramado Informatique </h3>
-<p>Dans le CAS où la TIC dotée de capacités d'envoi et de réception en RTT, la dirección (envoi/réception) du Text transmis est déterminable par no Program Informatique, à moins que le RTT n'ait une fonctionnalité fermée.</p></td>
-<td>La tarifa de PAS en Pas</td>
+<td><h3 id="direction-envoiréception-déterminable-par-un-programme-informatique">6.2.2.2 Direction envoi/réception déterminable par un curriculum informatique </h3>
+<p>Dans le cas où la TIC est dotée de capaùés d'envoi et de réception en RTT, la direction (envoi/réception) du texte transmis est déterminable par un programa informatique, à moins que le RTT n'ait une fonctionnalité fermée.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="interopérabilité">6.2.3 Interopérabilité</h3>
-<p>Dans de CAS où une fonctionnalité Affiche de la une RTT interopérabilité avec d'autres dotées fonctionnalité TIC comme de la l'exige RTT (6.2.1.1 Elles le sont), avec moins compatibles Quatre au mécanismes des d'interopérabilité décrits Dessous RTT CI-:</p>
-<p>a) TIC-opérant sur le Réseau Téléphonique público (RTC) avec Une Autre TIC qui se Connect directement au RTC comme décrit dans el comando de la ITU-T V. 18 [i. 23] ou l'une de SES adjuntos Signaux de téléphonie en modo de texto de l'interface</p>
-<p>b) TIC-opérant avec Une Autre de las TIC de la une de VoIP SIP et uso Technologie RTT, el documento au RFC 4103;</p>
-<p>c) TIC-opérant avec Une Autre TIC utilizar une Technologie RTT que cumplan los protocolos à l'ensemble des IP (IMS) spécifiés dans documentos TS 126 114, TS 122 173 y TS 134 229;</p>
-<p>d) TIC-opérant avec Une Autre TIC uso une spécification Commune adaptée et correspondiente, l'échange RTT Qui est publiée et peut être consultée. Cette spécification Commune comprend une Méthode verter indiquer la ou PERT de la corrupción de Caractères.</p></td>
-<td>La tarifa de PAS en Pas</td>
+<td><h3 id="interopérabilité">6.2.3 Interoperaérabilité</h3>
+<p>Dans le cas où une TIC dotée de la fonctionnalité RTT affiche une interoperaérabilité avec d'autres TIC dotées de la fonctionnalité RTT (comme l'exige le 6.2.1.1), elles sont compatibles avec au moins un des quatre mécanismes d'interoperaérabilité RTT décrits ci-dessous :</p>
+<p>a) TIC inter-opérant sur le Réseau Téléauxique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de ses cmdes pour les signaux de téléeauie en mode texte sur l'interface RTC ;</p>
+<p>b) TIC inter-opérant avec une autre TIC utilisant la VoIP SIP et utilisant une penlogie RTT conforme au document RFC 4103 ;</p>
+<p>c) TIC inter-opérant avec une autre TIC utilisant une penlogie RTT conforme à l'it des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
+<p>d) TIC inter-opérant avec une autre TIC utilisant une spécification adaptée et applicable pour l'échange RTT qui est publiée et peut être consultée. Cette spécification aprobación comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="réactivité-de-la-rtt">6.2.4 Réactivité de la ida y vuelta</h3>
-<p>Dans de las entidades emisoras de où la TIC utilizan la saisie RTT, cette saisie RTT est transmise au Réseau TIC compatible dans la segunda qui Suit SA saisie.</p></td>
-<td>La tarifa de PAS en Pas</td>
+<td><h3 id="réactivité-de-la-rtt">6.2.4 Réactivité de la RTT</h3>
+<p>Dans le cas où la TIC utilise la saisie RTT, cette saisie RTT est transmise au réseau TIC compatible RTT dans la seconde qui suit sa saisie.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="identification-de-lappelant">6,3 identificación de l'appelant</h3>
-<p>Dans le CAS où la TIC proponer l'identification de l'appelant et où des fonctions de Télécommunications similaires sont proposées, l'identification de l'appelant, fonctions de télécommunication similaires sont, sous formulario de texto a través de Au Moins Une Autre modalité.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="identification-de-lappelant">6.3 Identificación de l'appelant</h3>
+<p>Dans le cas où la TIC propose l'identification de l'appelant et où des fonctions de télécommunications similaires sont proposées, l'identification de l'appelant et les fonctions de télécommunication similaires sont disponibles sous forme de texte et via au moins une autre modalité.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="alternatives-aux-services-basés-sur-la-voix">6,4 alternativas servicios auxiliares de basés sur la Voix</h3>
-<p>Danss CAS où la TIC proponer la comunicación Voix en Temps Réel et proponer également des fonctions de messagerie réception de Automatique Serveur de interactif de doit offrir Utilisateurs Moyen de d'accéder de d'exécuter fonctions Fournies l'audition parole de de de de de,.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="alternatives-aux-services-basés-sur-la-voix">6.4 Alternatives aux services basés sur la voix</h3>
+<p>Dans le cas où la TIC propose la communication voix en temps réel et propose également des fonctions de messagerie vocale, de réception automatique ou de serveur vocal interactif, la TIC doit offrir aux utilisateurs un moyen d'accéder aux informations et d'exécuter les fonctions fournies par la TIC sans utiliser l'utiliser l'utiliser ou la otrosle.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="résolution">6.5.2 Résolution</h3>
-<p>Lorqu'une tres qui permet la comunicación Voix bidirectionnelle est également dotée d'une fonctionnalité vidéo en Temps Réel, cette tres:</p>
-<p>a) el moins au compatible avec la Résolution «QCIF»;</p>
-<p>b) doit de Préférence être compatible avec Au Moins la Résolution «CIF».</p></td>
-<td>La factura de la Inprise</td>
+<p>Lorqu'une TIC qui permet la communication voix bidirectionnelle est également dotée d'une fonctionnalité va a temps réel, cette TIC :</p>
+<p>a) est compatible au moins avec la résolution « LOSIF » ;</p>
+<p>b) doit de préférence être compatible avec au moins la résolution « CIF ».</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 taux de TRAME (Vitesse d'images)</h3>
-<p>Lorsqu'une tres qui proponer la comunicación Voix bidirectionnelle est dotée d'une fonctionnalité de vidéo en Temps Réel, cette tres:</p>
-<p>a) Prend en cargo un taux de TRAME d'au moins 12 imágenes par segundo (IPS);</p>
-<p>b) doit de Préférence prendre en cargo un taux de TRAME d'au moins 20 imágenes par seconda (IPS) avec ou San Sans langue des inicia sesión dans le flujo de données vidéo.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Taux de trame (vitesse d'images)</h3>
+<p>Lorsqu'une TIC qui propose la communication voix bidirectionnelle est dotée d'une fonctionnalité depriméo en temps réel, cette TIC :</p>
+<p>a) prend en charge un taux de trame d'au moins 12 images par seconde (IPS) ;</p>
+<p>b) doit de préférence prendre en charge un taux de trame d'au moins 20 images par seconde (IPS) avec ou sans langue des signes dans le ^ de données bordeéo.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="synchronisation-entre-le-signal-audio-et-le-signal-vidéo">6.5.4 de entre de señales de señal de vidéo</h3>
-<p>Lorsqu'une tres qui permet la comunicación Voix bidirectionnelle est dotée d'une fonctionnalité de vidéo en Temps Réel, cette TIC doit garantir un écart de Temps de 100 ms Maximum entre la Voix et les imágenes présentées à l'utilisateur.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="synchronisation-entre-le-signal-audio-et-le-signal-vidéo">6.5.4 Synchronisation entre le signal audio et le signaledéo</h3>
+<p>Lorsqu'une TIC qui permet la communication voix bidirectionnelle est dotée d'une fonctionnalité de présentées en temps réel, cette TIC doit garantir un écart de temps de 100 ms maximum entre la voix et les images présentées à l'utilisateur.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="alternatives-aux-services-vidéo">6,6 alternativas servicios auxiliares de vidéo</h3>
-<p>Dans de CA de où la TIC proponer la comunicación vidéo en Temps Réel et proponer également des fonctions de répondeur, de réception Automatique ou de Réponse Interactive, la TIC doit proponente AUX Utilisateurs des Moyen d'accéder d'accomplir</p>
-<p>a) verter informaciones audibles, uso de SANs de l'audition.</p>
-<p>b) los comandos verter vocales, uso de redes SAN de la Voix.</p>
-<p>c) verter información visuelles, San uso de la visión.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="alternatives-aux-services-vidéo">6.6 Alternatives aux services aux services auxéo</h3>
+<p>Dans le cas où la TIC propose la communication omitéo en temps réel et propose également des fonctions de répondeur, de réception automatique ou de réponse interactive, la TIC doit proposer aux utilisateurs un moyen d'accéder aux informations et d'accomplir les tâches associées à ces fonctions :</p>
+<p>a) pour les informations audibles, sans utilisation de l'utilisation de l'utilis ;</p>
+<p>b) pour les commandes vocales, sans utilisation de la voix ;</p>
+<p>c) pour les informations visuelles, sans utilisation de la vision.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="section-7-tic-avec-fonctions-vido"></a>Sección 7 tres avec fonctions vidéo
+### <a name="section-7-tic-avec-fonctions-vido"></a>Section 7 TIC avec fonctions sedéo
 
-SECCIÓN CETTE ne s'applique pas à Skype Entreprise 2016.
+Cette section ne s'applique pas à Skype Entreprise 2016.
 
-### <a name="section-8-matriel-informatique"></a>Sección 8 Matériel Informatique
+### <a name="section-8-matriel-informatique"></a>Section 8 Matériel informatique
 
-SECCIÓN CETTE ne s'applique pas à Skype Entreprise 2016.
+Cette section ne s'applique pas à Skype Entreprise 2016.
 
 ### <a name="section-9-web"></a>Sección 9 Web
 
-SECCIÓN CETTE ne s'applique pas à Skype Entreprise 2016.
+Cette section ne s'applique pas à Skype Entreprise 2016.
 
-### <a name="section-10-documents-non-bass-dans-le-web"></a>Sección 10 documentos no basés dans le web 
+### <a name="section-10-documents-non-bass-dans-le-web"></a>Section 10 Documents non basés dans le Web 
 
-SECCIÓN CETTE ne s'applique pas à Skype Entreprise 2016.
+Cette section ne s'applique pas à Skype Entreprise 2016.
 
-### <a name="section-11-logiciel"></a>Sección 11 Logiciel
+### <a name="section-11-logiciel"></a>Section 11 Logiciel
 
 <table>
 <caption>Sección 11</caption>
 <tbody>
 <tr class="odd">
 <td><strong>Critères</strong></td>
-<td><strong>Fonctionnalités a Inprise</strong></td>
-<td><strong>Remarquesinas et propuestos</strong></td>
+<td><strong>Fonctionnalités prises en charge</strong></td>
+<td><strong>Remarques et explications</strong></td>
 </tr>
 <tr class="even">
-<td><h3 id="contenu-non-textuel-lecture-décran-prise-en-charge">11.2.1.1 Contenu no Textuel (Conferencia d'écran</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur et qui Prend en cargo l'accès de las tecnologías auxiliares d'assistance d'écran Elle: remplit no Critères de la de 11,1 Succès.</p>
-<p>Promociona le Contenu no Textuel Qui est présenté à l'utilisateur est Doté d'un équivalent Textuel qui a la même fonction, sauf dans suivantes las situaciones:</p>
-<p>Comandos, saisie: si Contenu no Textuel est une, s'il permet la saisie d'informations par l'utilisateur, Alors Il a un NOM qui décrit SA fonction.</p>
-<p>Media limité dans le temps: Si le Contenu no Textuel est un medio limité dans le temps, Alors les équivalents textuels donnent Au Moins une identificación descriptiva de CE Contenu no Textuel.</p>
-<p>Prueba: Si le Contenu no Textuel la unidad organizativa est de prueba de exercice qui serait inválido s'il était présenté sous formulario de texto, Alors des équivalents textuels donnent Au Moins une descriptiva du Contenu no Textuel.</p>
-<p>Contenu Sensoriel: si Contenu no Textuel un capital de Objectif de créer une Expérience sensorielle spécifique, Alors des équivalents textuels donnent Au Moins une identificación descriptiva de CE Contenu no Textuel.</p>
-<p>CAPTCHA: Si le Contenu no Textuel Sert à confirmante que c'est une personne et no des ordinateur qui accède au Contenu, Alors des équivalents textuels qui identifient et décrivent à quoi Sert Contenu Textuel sont fournis CAPTCHA Différents de Différents de sensorielle de sont de Fournies de de afin de répondre de besoins de de Différents de.</p>
-<p>Décoration, formato, invisible: Si le Contenu no Textuel est Pure décoratif, s'il n'est utilisé que verter le da formato Visuel ou s'il n'est PAS présenté AUX Utilisateurs, Alors Il est mis en œuvre de manière à être ignoré par Technologie d'assistance.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="contenu-non-textuel-lecture-décran-prise-en-charge">11.2.1.1 Contenu non textuel (lecture d'écran prise en charge)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiqués dans le Pour 11.1 : Contenu non textuel :</p>
+<p>Tout le contenu non textuel qui est présenté à l'utilisateur est doté d'un équivalent textuel qui a la même fonction, sauf dans les situations suivantes :</p>
+<p>Commandes, saisie : Si le contenu non textuel est une commande ou s'il permet la saisie d'informations par l'utilisateur, alors il a un nom qui décrit sa fonction.</p>
+<p>Media limité dans le temps : Si le contenu non textuel est un media limité dans le temps, alors les équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel.</p>
+<p>Prueba: Si le contenu non textuel est un test ou un exercice qui serait invalide s'il était présenté sous forme de texte, alors des équivalents textuels donnent au moins une identification descriptive du contenu non textuel.</p>
+<p>Contenu sensoriel : Si le contenu non textuel a pour principal objectif de créer une expérience sensorielle spécifique, alors des équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel.</p>
+<p>CAPTCHA : Si le contenu non textuel sert à confirmer que c'est une personne et non un ordinateur qui accède au contenu, alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis, et des formes alternatives de CAPTCHA utilisant différents modes de sortie pour les différents types de documento sensorielle sont fournies afin de répondre auxcriins des différentsplics curriculums.</p>
+<p>Ideación, formatage, invisible : Si le contenu non textuel est purement purement atif, s'il n'est utilisé que pour le formatage visuel ou s'il n'est pas présenté aux utilisateurs, alors il est mis en dictufix de manière à être ignoré par la cuadrogie d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="audio-seulement-et-vidéo-seulement-préenregistré">11.2.1.2 de audio seulement et vidéo seulement (préenregistré)</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interfaz utilisateur et qui Prend en cargo l'accès de las tecnologías auxiliares d'assistance verter la Conferencia d'écran et où aucune de sonore préenregistrée n'est nécessaire permettre l'utilisation de fonctions fermées Elle de la remplit 11,2 de la Critères (succès de la TIC indiqués dans) :</p>
-<p>Verter les médias audio seulement préenregistrés et vidéo seulement préenregistrés, les Principe CI-bebidas se vérifient sauf lorsque l'audio ou la vidéo est un média de remplacement du Text, et Estimado o identifié Tel:</p>
-<p>Audio seulement préenregistré: une opcional au media limité dans le temps, qui présente des informations équivalentes verter le Contenu audio seulement préenregistré, est fournie.</p>
-<p>Vidéo seulement préenregistrée: une opcional au media limité dans le temps ou une Piste audio, qui présente des informations équivalentes verter le Contenu vidéo seulement préenregistré, est fournie.</p></td>
+<td><h3 id="audio-seulement-et-vidéo-seulement-préenregistré">11.2.1.2 Audio seulement etbotéo seulement (préenregistré)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran et où aucune information sonore préenregistrée n'est nécessaire pour permettre l'utilisation des fonctions fermées de la TIC, elle remplit les Critères de Succès indiqués dans le Dim 11.2 : Audio seulement etcritéo seulement (préenregistré) :</p>
+<p>Pour les médias audio seulement préenregistrés etpriméo seulement préenregistrés, les príncipes ci-après se prérifient sauf lorsque l'audio ou lapriméo est un média de remplacement du texte et est pmment identifié comme tel :</p>
+<p>Audio seulement préenregistré : Une alternative au media limité dans le temps, qui présente des informations équivalentes pour le contenu audio seulement préenregistré, est fournie.</p>
+<p>Nieéo seulement préenregistrée : Une alternative au media limité dans le temps ou une piste audio, qui présente des informations équivalentes pour le contenu uaéo seulement préenregistré, est fournie.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="sous-titres-préenregistrés">11.2.1.3 sous-titulaciones (préenregistrés)</h3>
-<p>Danss CAS où la TIC est a Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,3: sous-titulaciones (préenregistrés):</p>
-<p>Des sous-titulaciones sont fournis verter le Contenu audio préenregistré en média synchronisé, sauf Quand le média est une alternativa au Text et est, identifié comme Tel.</p></td>
-<td>No aplicable</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><h3 id="audio-description-ou-média-alternatif-préenregistré">11.2.1.4 de média Alternatif (préenregistré)</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interfaz utilisateur et qui Prend en cargo l'accès las tecnologías auxiliares d'assistance d'écran de la teoría Elle, remplit Critères les succès de Indiqués 11,4 dans de tableau de média de remplacement:</p>
-<p>Une au média limité dans le temps ou l'audio-Description du Contenu vidéo préenregistré est fournie verter le média synchronisé, sauf Quand le média est une alternativa au Text et est identifié Tel.</p></td>
-<td>No aplicable</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><h3 id="sous-titres-en-direct">11.2.1.5 sous-titulaciones (en directo)</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,5. Sous-títulos (en directo):</p>
-<p>Des sous: titulaciones sont fournis, verter le Contenu audio en Direct se présentant sous el formulario d'un média synchronisé.</p></td>
+<td><h3 id="sous-titres-préenregistrés">11.2.1.3 Sous-titres (préenregistrés)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.3 : Sous-titres (préenregistrés) :</p>
+<p>Des sous-titres sont fournis pour tout le contenu audio préenregistré en média synchronisé, sauf quand le média est une alternative au texte et estcenment identifié comme tel.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="audio-description-préenregistrée">11.2.1.6 audio: Descripción (préenregistrée)</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,6: audio-Description (préenregistrée):</p>
-<p>L'audio Description est fournie verter "Contenu vidéo préenregistré sous forme de média synchronisé.</p></td>
+<td><h3 id="audio-description-ou-média-alternatif-préenregistré">11.2.1.4 Audio-description ou média alternatif (préenregistré)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiqués dans le Dim 11.4 : Audio-description ou média de remplacement (préenregistré) :</p>
+<p>Une alternative au média limité dans le temps ou l'audio-description du contenu préenregistré est fournie pour le média synchronisé, sauf quand le média est une alternative au texte et est quament identifié comme tel.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="informations-et-relations">11.2.1.7 información et relaciones</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur et qui Prend en cargo l'accès de las tecnologías auxiliares d'assistance verter la Conferencia d'écran, Elle remplit les Critères de Succès indiqués dans le tableau 11,7: información y relaciones:</p>
-<p>Información de les, la estructura et les Relations véhiculées par Présentation peuvent être déterminés par unprogram Informatique ou sont disponibles sous formulario de texto.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="sous-titres-en-direct">11.2.1.5 Sous-titres (en direct)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.5. Sous-titres (en direct) :</p>
+<p>Des sous-titres sont fournis pour tout le contenu audio en direct se présentant sous la forme d'un média synchronisé.</p></td>
+<td>No aplicable</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="audio-description-préenregistrée">11.2.1.6 Audio-description (préenregistrée)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leEtt 11.6 : Audio-description (préenregistrée) :</p>
+<p>L'audio description est fournie pour tout le contenu préenregistré sous forme de média synchronisé.</p></td>
+<td>No aplicable</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><h3 id="informations-et-relations">11.2.1.7 Información y relaciones</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiqués dans le Late 11.7 : Informations et relations :</p>
+<p>Les informations, la structure et les relations préhiculées par la présentation peuvent être déterminés par un programa informatique ou sont disponibles sous forme de texte.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="ordre-séquentiel-logique">11.2.1.8 Ordre séquentiel logique</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur et qui Prend en Charge l'accès de las tecnologías auxiliares d'assistance verter la Conferencia d'écran, Elle remplit les Critères de Succès indiqués dans le tableau 11,8: Ordre Séquentiel logique:</p>
-<p>Lorsque l'ordre de Présentation du Contenu afectan a SA signification, un Ordre de la Conferencia correcta peut être déterminé par un programa informatique.</p></td>
-<td>La factura de la Inprise</td>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiqués dans le Pour 11.8 : Ordre séquentiel logique :</p>
+<p>Lorsque l'ordre de présentation du contenu affecte sa signification, un ordre de lecture correct peut être déterminé par un informatique.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="caractéristiques-sensorielles">11.2.1.9 Caractéristiques sensorielles</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,9: Caractéristiques sensorielles:</p>
-<p>Las instrucciones de les Fournies verter permettre la compréhension et l'utilisation du Contenu ne reposent PAS unicidad sur les Caractéristiques sensorielles Composants Taille le indica que to to the, la l'emplacement, Visuel l'orientation, ou le es un hijo.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="caractéristiques-sensorielles">11.2.1.9 Caractéques sensorielles</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.9 : Caractéques sensorielles :</p>
+<p>Les instructions fournies pour permettre la compréhension et l'utilisation du contenu ne reposent pas uniquement sur les caracté bartolomques sensorielles des composants telles que la forme, la taille, l'emplacement visuel, l'orientation ou le son.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="utilisation-de-la-couleur">11.2.1.10 utilización de la Couleur</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,10: uso de la Couleur:</p>
-<p>La Couleur n'est PAS Utilisée comme le Seul Moyen Visuel de transmettre des informations, d'indiquer une Action, de répondre rapidement ou de Distinguer un ÉLÉMENT Visuel.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="utilisation-de-la-couleur">11.2.1.10 Utilisation de la couleur</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leUle 11.10 : Utilisation de la couleur :</p>
+<p>La couleur n'est pas utilisée comme le seul moyen visuel de transmettre des informations, d'indiquer une action, de répondre rapidement ou de distinguer un élément visuel.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="contrôle-du-son">11.2.1.11 Contrôle du hijo</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit les Critères de Succès indiqués dans le tableau 11,11: Contrôle du hijo:</p>
-<p>Si du Contenu audio d'un Logiciel est audible automatiquement dependiente más de 3 segundos, Il EXISTS des Mécanisme, vierta l'arrêter de volumen de audio mettre du Volume du Alors Mécanisme de la unidad organizativa Il, contrôler.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="contrôle-du-son">11.2.1.11 Contrôle du son</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leEtt 11.11 : Contrôle du son :</p>
+<p>Si du contenu audio d'un logiciel est audible automatiquement audible plus de 3 secondes, il existe un mécanisme pour l'arrêter ou le mettre en pause, ou alors il existe un mécanisme pour contrôler le volume audio indépenpenment du volume du système général.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="contraste-minimum">11.2.1.12 contraste (mínimo)</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,12: contraste (mínimo):</p>
-<p>La Présentation visuelle du texto et d'images de texto una relación de contraste d'au moins 4.5.1, sauf dans les suivants:</p>
-<p>Texto agrandi: le texting agrandi et les imágenes de texto agrandies présentent una relación de contraste de d'au moins 3:1.</p>
-<p>Accessoire: Il n'existe aucune exigence de contraste verter le texto de ou es decir, imágenes de texto qui Font partie d'un composant inactif d'une interface utilisateur, qui sont de la Pure Décoration, qui ne sont visible personne qui, ou partie Font d'une Ailleurs de de la imagen Autre</p>
-<p>Logotipos: Il n'existe aucune exigence de contraste verter le texto qui fait partie d'un de la ou del logotipo d'une marquesina.</p></td>
-<td><h3 id="pris-en-charge">La factura de la Inprise</h3></td>
+<td><h3 id="contraste-minimum">11.2.1.12 Contraste (mínimo)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.12 : Contraste (minimum) :</p>
+<p>La présentation visuelle du texte et d'images de texte a unport de contraste d'au moins 4.5.1, sauf dans les cas suivants :</p>
+<p>Texte agrandi : le texte agrandi et les images de texte agrandies présentent un techport de contraste d'au moins 3 :1.</p>
+<p>Accessoire : Il n'existe aucune exigence de contraste pour le texte ou les images de texte qui font partie d'un composant inactif d'une interface utilisateur, qui sont de la pure utilisation, qui ne sont visibles pour personne, ou qui font partie d'une image contenant par ailleurs un autre contenu visuel important.</p>
+<p>Logotypes : Il n'existe aucune exigence de contraste pour le texte qui fait partie d'un logo ou d'une marque.</p></td>
+<td><h3 id="pris-en-charge">Pris en charge</h3></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="redimensionner-le-texte">texto de 11.2.1.13 Redimensionner le</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur et qui permet l'accès AUX fonctions d'agrandissement de la placa-forme ou de la Technologie d'assistance, Elle remplit les Critères de Succès indiqués 11,13 dans Tableau le.</p>
-<p>À l'exception des sous-titulaciones et des imágenes de texto, la Taille du texto peut être modifiée Sans recours à une Technologie d'assistance jusqu'à 200% Sans PERT de Contenu ou de Fonctionnalités.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="redimensionner-le-texte">11.2.1.13 Redimensionner le texte</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux fonctions d'agrandissement de la plate-forme ou de lanielogie d'assistance, elle remplit les Critères de Succès indiqués dans le Dim 11.13 : Redimensionner le texte :</p>
+<p>À l'exception des sous-titres et des images de texte, la taille du texte peut être modifiée sans recours à uneclogie d'assistance jusqu'à 200 % sans perte de contenu ou de fonctionnalités.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="images-de-texte">11.2.1.14 imágenes de texto</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur et qui Prend en Charge l'accès de las tecnologías auxiliares d'assistance verter la Conferencia d'écran, Elle remplit les Critères de Succès indiqués dans le tableau 11,14: imágenes de texto:</p>
-<p>Las tecnologías si utilisées permettent la Présentation visuelle, c'est le texto plutôt un mensaje de texto Qui est utilisé verter transmettre información, avec toutefois les excepciones suivantes:</p>
-<p>Personnalisable: L'image de texto peut être visuellement adaptée AUX besoins de l'utilisateur.</p>
-<p>ESSENTIELLE: une Présentation particulière du Text est ESSENTIELLE información auxiliar transmises.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="images-de-texte">11.2.1.14 Imágenes de texto</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiqués dans le airport 11.14 : Images de texte :</p>
+<p>Si les technologies utilisées permettent la présentation visuelle, c'est le texteplôt que les images de texte qui est utilisé pour transmettre les informations, avec toutefois les exceptions suivantes :</p>
+<p>Personnalisable : L'image de texte peut être visuellement adaptée auxplicins de l'utilisateur.</p>
+<p>Essentielle : Une présentation particèère du texte est essentielle aux informations transmises.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="clavier">11.2.1.15 Clavier</h3>
-<p>Dans le CAS où la TIC est Logiciel no Web Qui est Doté d'une interface utilisateur et qui permet l'accès AUX Claviers ou à une interface Clavier, Elle remplit les Critères de Succès indiqués dans le tableau 11,1: Clavier:</p>
-<p>Se promociona a les Fonctionnalités du Contenu peuvent être activées depuis une Clavier l'individu San que n'ait Appuyer spécifique fois Clavier de la sauf, dans où de fonction du nécessite une par saisie et PAS qui du Point of dépend et du Point trajectoire de Mouvement effectué de l'utilisateur. seulement de départ de la d'arrivée.</p></td>
-<td>La de la avec excepciones des de la Inprise</td>
-<td>1)Les Boutons pantalla completa et elige un diseño situés en Haut à Droite de la fenêtre reunión ne bénéficient Pas Du Focus Clavier.<br />
-2)Algunos comandos dans Poll, Q &amp; A et pizarra peuvent bénéficier du Focus Clavier.<br />
-3)Los comandos de la visionneuse PowerPoint ne sont de Pas son accesibles Depuis le Clavier.<br />
-4)Les toca la modificación du du Clavier s'arrêtent Parfois de fonctionner Lorsque vous Donnez ou PRENEZ le contrôle de votre Écran partagé.</td>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux claviers ou à une interface clavier, elle remplit les Critères de Succès indiqués dans le Mana 11.1 : Clavier :</p>
+<p>Toutes les fonctionnalités du contenu peuvent être activées depuis une interface clavier sans que l'ind playdu n'ait à appuett un nombre spécifique de fois sur le clavier, sauf dans le cas où la fonction en question nécessite une saisie qui dépend de lactoctoire du memovement effectué par l'utilisateur et pas seulement du point de départ et du point d'arrivée de cettectoire.</p></td>
+<td>Pris en charge avec des exceptions</td>
+<td>1) Les belleons Full screen et Pick a Layout situés en haut à droite de la fenêtre Réunion ne bénéficient pas du focus clavier.<br />
+2) Certaines commandes dans Poll, Q &amp; A et Whiteboard ne peuvent bénéficier du focus clavier.<br />
+3) Les commandes de la visionneuse PowerPoint ne sont pas accessibles depuis le clavier.<br />
+4) Les touches de modification du clavier s'arrêtent parfois de fonctionner lorsque vous donnez ou prenez le contrôle de votre écran partagé.</td>
 </tr>
 <tr class="odd">
-<td><h3 id="pas-de-piège-au-clavier">11.2.1.16 Pas de Piège au Clavier</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,16: Pas de Piège au Clavier:</p>
-<p>Si le Focus du Clavier peut être positionné sur composant du Logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface Clavier</a>, réciproquement, Il peut être déplacé hors de CE même composant simplificación à l'aide d'une interface Clavier et, si CE déplacement exige Plus que l'utilisation d'une simple Touche Flèche de tabulación de Autre Méthode de l'utilisateur informé de de Méthode, de la de permettant de déplacer.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="pas-de-piège-au-clavier">11.2.1.16 Pas de piège au clavier</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.16 : Pas de piège au clavier :</p>
+<p>Si le focus du clavier peut être positionné sur un composant du logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface clavier</a>, réciproquement, il peut être déplacé hors de ce même composant simplement à l'aide d'une interface clavier et, si ce déplacement exige plus que l'utilisation d'une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l'utilisateur est informé de la méthode permettant de déplacer le focus hors de ce composant.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="réglage-du-délai">11.2.1.17 Réglage du Délai</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,17: Réglage du Délai:</p>
-<p>Verter chaque Délai Qui est fixé par le Logiciel, Au Moins l'un des Points suivants est vrai:</p>
-<p>Supresión: l'utilisateur est autorisé à supprimer la limite de Temps Avant de la dépasser. ou</p>
-<p><strong>AJUSTEMENT:</strong> l'utilisateur est autorisé à ajuster la limite de Temps Avant de la dépasser dans un invalle d'au moins Dix fois la durée paramétrée par défaut </p>
-<p>Prolongación: l'utilisateur est averti Avant que la limite de Temps n'expire et Il lui est accordé Au Moins 20 segundos verter el prolongador cette limite par une acción simple (par exemple, «Appuyer sur de Barre d'espace») et l'utilisateur, autorisé à prolongar la limite de Temps Au Moins Dix Fois. ou</p>
-<p>L'exception du Temps Réel: la limite de Temps est une partie constitutive d'un événement en Temps Réel (par exemple, une enchère) et aucune alternativa n'est posible; ou</p>
-<p>L'exception de la limite ESSENTIELLE: la limite de Temps est ESSENTIELLE et invaliderait prolongador Alors l'activité ou</p>
-<p>L'exception des 20 Heures: la limite de Temps est Supérieure à 20 Heures.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="réglage-du-délai">11.2.1.17 Réglage du délai</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le condens 11.17 : Réglage du délai :</p>
+<p>Pour chaque délai qui est fixé par le logiciel, au moins l'un des points suivants est v distra :</p>
+<p>Apaisado : l'utilisateur est autorisé à supprimer la limite de tempsprime de la dépasser; ou</p>
+<p><strong>Ajustement :</strong> l'utilisateur est autorisé à ajuster la limite de temps hexadecimal de la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut </p>
+<p>Condensation : l'utilisateur est avertimino que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour condenser cette limite par une action simple (par exemple, « appu hexadecimal sur la barre d'espace ») et l'utilisateur est autorisé à condenser la limite de temps au moins dix fois ; ou</p>
+<p>L'exception du temps réel : la limite de temps est une partietiva d'un événement en temps réel (par exemple, une enchère) et aucune alternative n'est possible ; ou</p>
+<p>L'exception de la limite essentielle : la limite de temps est essentielle et la invaliderait alors l'activité ; ou</p>
+<p>L'exception des 20 heures : la limite de temps est supérieure à 20 heures.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="mettre-sur-pause-arrêter-masquer">11.2.1.18 mettre sur PAUSE, arrêter, Masquer</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,18: mettre sur PAUSE, arrêter, Masquer:</p>
-<p>Verter información promocional en Mouvement, clignotante, défilante ou mise à jour automatiquement, Tous les Points suivants sont vrais:</p>
-<p>Déplacement, clignotement, défilement: verter información promocional en Mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure más de Cinq seconds et (3) est présentée conjointement avec Autre Contenu l'utilisateur, d'un Dispose Mécanisme mettre l'arrêter de Masquer de moins, Mouvement de clignotement, défilement de s'avère, Élément de Essentiel, déroulement. peninsular</p>
-<p>Mise à jour Automatique: asmarcar información mise à jour automatiquement qui (1) démarre automatiquement et (2) est présentée conjointement avec Autre Contenu l'utilisateur, d'un (Dispose Mécanisme mettre verter la l'arrêter en PAUSE) contrôler Fréquence Mises au jour de moins, mise jour, Automatique s'avère ESSENTIELLE.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="mettre-sur-pause-arrêter-masquer">11.2.1.18 Mettre sur pause, arrêter, masquer</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le condens 11.18 : Mettre sur pause, arrêter, masquer :</p>
+<p>Pour toute information en memovement, clignotante, dérosaante ou mise à jour automatiquement, tous les points suivants sont vdevs :</p>
+<p>Déplacement, clignotement, défilement : pour toute information en memovement, clignotante ou dédevante qui (1) démarre automatiquement, (2) dure plus de investq secondes et (3) est présentée conjointement avec un autre contenu, l'utilisateur dispose d'un mécanisme pour la mettre en pause, l'arrêter ou la masquer, à moins que le memovement, le clignotement ou le défilement s'avère un élément essentiel au bon déroulement de l'activité ; et</p>
+<p>Mise à jour automatique : pour toute information mise à jour automatiquement qui (1) démarre automatiquement et (2) est présentée conjointement avec un autre contenu, l'utilisateur dispose d'un mécanisme pour la mettre en pause, l'arrêter ou pour contrôler la fréquence des mises à jour à moins que la mise à jour automatique s'avère essentielle au bon déroulement de l'activité.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="pas-plus-de-trois-flashs-ou-sous-le-seuil-critique">11.2.1.19 PAS Plus de Trois Flashs ou sous le Seuil critique</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur, Elle remplit les critères de Succès indiqués dans le tableau 11,19: PAS Plus de Trois Flashs ou sous le Seuil critique:</p>
-<p>Le Logiciel est de ÉLÉMENT qui flasht Plus de Trois fois dans n'importe Quel Intervalle d'une secondte ou CE Flash doit se situó sous le Seuil de Flash générique et le Seuil de Flash Rouge.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="pas-plus-de-trois-flashs-ou-sous-le-seuil-critique">11.2.1.19 Pas plus de trois flashs ou sous le sfel critique</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les critères de succès indiqués dans le serial 11.19 : Pas plus de trois flashs ou sous le sett critique :</p>
+<p>Le logiciel est exempt de tout élément qui flashe plus de trois fois dans n'importe quel intervalle d'une seconde ou ce flash doit se situer sous le splot de flash généfel et le stello de flash flash flash.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="parcours-du-focus">11.2.1.22 Parcours du Focus</h3>
-<p>Dans le CAS où la TIC est Logiciel no Web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,22: Parcours du Focus:</p>
-<p>Si Logiciel peut être parcouru de façon séquentielle et que le Séquences de navegación affectent la signification ou l'action, les Éléments reçoivent le Focus dans Ordre qui préserve la signification et l'opérabilité.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="parcours-du-focus">11.2.1.22Uraurs du focus</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Serial 11.22 :Criturs du focus :</p>
+<p>Si un logiciel peut être ouuru de façon séquentielle et que les séquences de navigation affectent la signification ou l'action, les éléments reçoivent le focus dans un ordre qui préserve la signification et l'opérabilité.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="fonction-du-lien-selon-le-contexte">11.2.1.23 fonction du embargo (selon le context)</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,23: fonction du embargo (selon le contextos):</p>
-<p>La fonction de chaque embargo peut être déterminée par le mensaje de texto, el derecho de la Seul ou par le mensaje de texto du, o bien, associé o un contexto, de déterminé, de Informatique</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="fonction-du-lien-selon-le-contexte">11.2.1.23 Fonction du lien (selon le contexte)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Serial 11.23 : Fonction du lien (selon le contexte) :</p>
+<p>La fonction de chaque lien peut être déterminée par le texte du lien seul ou par le texte du lien associé à un contexte du lien déterminé par un programa informatique, sauf si la fonction du lien est ambiguë pour tout utilisateur.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="en-têtes-et-étiquettes">11.2.1.25 en-Têtes et étiquettes</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,25: en-Têtes et étiquettes:</p>
-<p>Les en-Têtes et les étiquettes décrivent le transfonction.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="en-têtes-et-étiquettes">11.2.1.25 En-têtes et étiquettes</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.25 : En-têtes et étiquettes :</p>
+<p>Les en-têtes et les étiquettes décrivent le sujet ou la fonction.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="visibilité-du-focus">11.2.1.26 Visibilité du Focus</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le 11,26: Visibilité du Focus:</p>
-<p>Promocionar la interfaz utilisateur la Clavier uso de au de modo de Fonctionnement dans le Cadre Duquel l'indicateur de Focus Clavier est visible.</p></td>
-<td>La de la avec excepciones des de la Inprise</td>
-<td>Algunos comandos dans sondeo, Q &amp; A et whiteboard, NE présentent Pas de Focus Clavier.</td>
+<td><h3 id="visibilité-du-focus">11.2.1.26 Visibilité du focus</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le 11.26 : Visibilité du focus :</p>
+<p>Toute interface utilisateur utilisable au clavier comporte un mode de fonctionnement dans le cadrecelal l'indicateur de focus clavier est visible.</p></td>
+<td>Pris en charge avec des exceptions</td>
+<td>Certaines commandes dans Poll, Q &amp; A et Whiteboard ne présentent pas de focus clavier.</td>
 </tr>
 <tr class="odd">
-<td><h3 id="langue-du-logiciel">11.2.1.27 langue du Logiciel</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur et qui Prend en cargo l'accès 11,27 de las tecnologías auxiliares d'assistance "d'écran" Elle "remplit Critères: Succès" indiqués dans:</p>
-<p>Le Humain par défaut du Logiciel peut être déterminé par, informatique.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="langue-du-logiciel">11.2.1.27 Langa du logiciel</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiqués dans le Late 11.27 : Langue du logiciel :</p>
+<p>Le langage humain par défaut du logiciel peut être déterminé par un logic informatique.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="au-focus">11.2.1.29 au Focus</h3>
-<p>Danss CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit les Critères de Succès indiqués dans le tableau 11,29: au Focus:</p>
-<p>Cantidad composant reçoit le Focus, Il ne doit PAS initier un cambio de contexto.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="au-focus">11.2.1.29 Au focus</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.29 : Au focus :</p>
+<p>Quand un composant reçoit le focus, il ne doit pas initier un changement de contexte.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="à-la-saisie">11.2.1.30 À la saisie</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit les Critères de Succès indiqués dans le tableau 11,30: À la saisie:</p>
-<p>Le paramètres d'un <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/consistent-behavior-unpredictable-change.html#user-interface-componentdef">composant d'interface utilisateur</a> ne provoque PAS automatiquement un cambio de contexto de contexto, à moins que l'utilisateur n'ait été avisé de CE comportement Avant d'utiliser le composant.</p></td>
-<td>La factura de la Inprise</td>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.30 : À la saisie :</p>
+<p>Le changement de paramètres d'un <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/consistent-behavior-unpredictable-change.html#user-interface-componentdef">composant d'interface utilisateur</a> ne provoque pas automatiquement un changement de contexte à moins que l'utilisateur n'ait été avisé de ce comportement d'utiliser le composant.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="identification-des-erreurs">11.2.1.33 des Erreurs</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur et qui Prend en Charge l'accès de las tecnologías auxiliares d'assistance verter la Conferencia d'écran, Elle remplit les Critères de Succès indiqués dans le tableau 11,33: identificación des Erreurs:</p>
-<p>Si une erreur de saisie est automatiquement détectée, l'élément porteur de l'erreur est identifié et l'erreur est décrite à l'utilisateur sous formulario de texto.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="identification-des-erreurs">11.2.1.33 Identification des erreurs</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiqués dans le Late 11.33 : Identification des erreurs :</p>
+<p>Si une erreur de saisie est automatiquement détectée, l'élément porteur de l'erreur est identifié et l'erreur est décrite à l'utilisateur sous forme de texte.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="étiquettes-ou-instructions">instrucciones de la uo 11.2.1.34 étiquettes</h3>
-<p>Dans le CAS où la TIC est Logiciel no Web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,34: étiquettes ou:</p>
-<p>Étiquettes instrucciones de la unidad organizativa des sont présentées requiert une saisie de la parte de l'utilisateur.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="étiquettes-ou-instructions">11.2.1.34 Etiquetas ou instrucciones</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.34 : Étiquettes ou instructions :</p>
+<p>Des étiquettes ou instructions sont présentées quand un contenu requiert une saisie de la part de l'utilisateur.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="suggestion-après-une-erreur">sugerencia 11.2.1.35 bebidas une erreur</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit los Critères de Succès indiqués dans le tableau 11,35: sugerencia bebidas une:</p>
-<p>Si une erreur de saisie est automatiquement détectée et si des sugerencias de corrección sont connues, las sugerencias de CES sont Alors proposées l'utilisateur moins. Cela de risque de compromettre.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="suggestion-après-une-erreur">11.2.1.35 Sugerencia abrès une erreur</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans leGc 11.35 : Suggestion après une erreur :</p>
+<p>Si une erreur de saisie est automatiquement détectée et si des suggestions de correction sont connues, ces suggestions sont alors proposées à l'utilisateur à moins que cela ne risque de compromettre la sécurité ou la finalité du contenu.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="prévention-des-erreurs-juridiques-financières-de-données">11.2.1.36 Prévention des Erreurs (juridiques, financières, de données)</h3>
-<p>Dans le CAS où la TIC est un Logiciel non-web Qui est Doté d'une interface utilisateur, Elle remplit Critères de Succès indiqués dans de 11,36 tableau de Prévention: Erreurs des juridiques (financières, données, de):</p>
-<p>Verter un Logiciels qui entraînent obligaciones des légales de las transacciones de financières de la parte de l'utilisateur, qui modifient ou effacent des données contrôlables par l'utilisateur dans des Systèmes de stockages de données ou qui enregistrent les réponses de l'utilisateur moins l'une pruebas, au suivantes vraie des condiciones est:</p>
-<p>Réversibilité: les soumissions sont réversibles.</p>
-<p>Vérification: les données Saisies par l'utilisateur sont vérifiées au niveau des Erreurs de saisie et la possibilité est donnée à l'utilisateur de les Corriger.</p>
-<p>Confirmación: un Mécanisme estimador de la verter examinar, el confirmante y Corriger les Avant de la soumission del finalizador Leur.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="prévention-des-erreurs-juridiques-financières-de-données">11.2.1.36 Prévention des erreurs (juridiques, juridiques, préères, de données)</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiqués dans le auditor 11.36 : Prévention des erreurs (juridiques, préères, de données) :</p>
+<p>Pour les logiciels qui entraînent des obligations légales ou des transactionsgalaères de la part de l'utilisateur, qui modifient ou effacent des données contrôlables par l'utilisateur dans des systèmes de stockages de données ou qui enregistrent les réponses de l'utilisateur à des tests, au moins l'une des conditions suivantes est vraie :</p>
+<p>Réversibilité : les soumissions sont réversibles.</p>
+<p>Vérification : les données saisies par l'utilisateur sont rcrifiées au niveau des erreurs de saisie et la possibilité est donnée à l'utilisateur de les corriger.</p>
+<p>Confirmation : un mécanisme est disponible pour examiner, confirmer et corriger les informationsvert de finaliser leur soumission.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="analyse-syntaxique">11.2.1.37 analizar syntaxique</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur et qui permet l'accès d'assistance: Technologies Elle, remplit Critères les succès de Indiqués dans Tableau le Syntaxique 11,37: analizar:</p>
-<p>Verter un Logiciel qui utilizar el des suivis de la modificación de langue de Tell manière, suivi, est indiqué séparément et à la disposición des Technologies d'assistance et Caractéristiques d'accessibilité du Logiciel ou d'un Agent utilisateur sélectionnable par des utilisateur, les Éléments, suivis, début de complètes-sont de imbriqués de Conformément et-leurs ID estimar único , sauf dans le CAS où les spécifications autorisent CES Caractéristiques.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="analyse-syntaxique">11.2.1.37 Sintaxis del análisis</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance, elle remplit les Critères de Succès indiqués dans leIque 11.37 : Analyse syntaxique :</p>
+<p>Pour un logiciel qui utilise des surims de modification de langue de telle manière que le suversión est indiqué séparément et à la disposition des technologies d'assistance et caractélisques d'accessibilité du logiciel ou d'un agent utilisateur sélectionnable par un utilisateur, les éléments ont des sulios de modification de dé creative et de fin complètes, ils sont imbriqués conformément à leurs spécifications, ils ne contiennent pas d'attributs dupliqués et chaque ID est unique , sauf dans le cas où les spécifications autorisent ces caractéques.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="nom-rôle-et-valeur">11.2.1.38 NOM, rôle et Valeur</h3>
-<p>Dans le CAS où la TIC est Logiciel fuera de la web Qui est Doté d'une interface utilisateur et qui permet l'accès, d'assistance Elle: NOM, remplit et Critères 11,38 de la siguiente de la Succès:</p>
-<p>Verter composant d'une interfaz utilisateur (et notamment des Éléments de Formulaire, obligaciones et Composants générés par rôle de scripts), le NOM, et le peuvent être déterminés Informatique par,; Les États, les propriétés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par, Informatique; et el cambio de la notificación des Changes de CES Éléments est mise à la eliminación des agents Utilisateurs, et notamment des Technologies d'assistance.</p></td>
-<td>La de la avec excepciones des de la Inprise</td>
-<td>1)PAS d'accès de programación dans sondeo, Q &amp; A et pizarra.<br />
-2)Le Contenu des fichiers PowerPoint partagé n'est PAS Exposé par de programación.<br />
-3)Información de les l'appareil de audio ne sont PAS entièrement exposées par programación dans les Boîtes de diálogo Opciones sur.</td>
+<td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom, rôle et valeur</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance, elle remplit les Critères de Succès indiqués dans le serial 11.38 : Nom, rôle et valeur :</p>
+<p>Pour tout composant d'une interface utilisateur (et notamment des éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un composants générés par des scripts ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par un utilis informatique ; et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs, et notamment des technologies d'assistance.</p></td>
+<td>Pris en charge avec des exceptions</td>
+<td>1) Pas d'accès de programmation dans Poll, Q &amp; A et Whiteboard.<br />
+2) Le contenu des fichiers PowerPoint partagé n'est pas exposé par programmation.<br />
+3) Les informations sur l'appareil audio ne sont pas entièrement exposées par programmation dans les boîtes de dialog sur les options.</td>
 </tr>
 <tr class="even">
 <td><h3 id="section-1">11.2.2.1 – 11.2.2.38</h3></td>
@@ -537,214 +537,214 @@ SECCIÓN CETTE ne s'applique pas à Skype Entreprise 2016.
 <td>Fonctionnalité fermée</td>
 </tr>
 <tr class="odd">
-<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-un-logiciel-qui-est-doté-dune-interface-utilisateur">11.3.2.1 la d'accessibilité de la Doté de la d'une de la utilisateur de la Qui est</h3>
-<p>Le Logiciel de la placa-fournit un mismo tipo de servicios de placa, documentés qui permettent à un Logiciel Qui est Doté d'une interface utilisateur fonctionnant sur le Logiciel de la placa-forme d'interagir avec la Technologie d'assistance.</p>
-<p>Le Logiciel de la placa-forme doit être compatible avec les exigences 11.3.2.5 à 11.3.2.17 Étant toutefois Entendu, dans de CAS où le d'une de utilisateur de Qui l'une 11.3.2.5 correspondan 11.3.2.17 n'est avec l'environnement, Logiciel de de Pas exigences s'appliquent, CES. Par exemple, les atribuye de sélection du 11.3.2.14 (modifica du Focus et atribuyes of sélection) peuvent ne PAS exist dans les Environnements qui ne permettent pas la sélection, CE Qui est le souvent le cas de la fonction-Collator.</p></td>
+<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-un-logiciel-qui-est-doté-dune-interface-utilisateur">11.3.2.1 Prise en charge des services d'accessibilité de la plate-forme pour un logiciel qui est doté d'une interface utilisateur</h3>
+<p>Le logiciel de la plate-forme fournit un baré de services de plate-forme documentés qui permettent à un logiciel qui est doté d'une interface utilisateur fonction bartolom sur le logiciel de la plate-forme d'interagir avec la atplogie d'assistance.</p>
+<p>Le logiciel de la plate-forme doit être compatible avec les exigences 11.3.2.5 à 11.3.2.17 étant toutefois entendu que, dans le cas où le concept d'une interface utilisateur qui correspond à l'une des clauses 11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'envirpliquenment logiciel, ces exigences ne s'appliquent pas. Par exemple, les attributs de sélection du 11.3.2.14 (Modification du focus et attributs de sélection) peuvent ne pas exister dans les envir dinamments qui ne permettent pas la sélection, ce qui est le souvent le cas de la fonction copier-hrr.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-les-technologies-dassistance">11.3.2.2 la d'accessibilité de la d'assistance de la de la placa de</h3>
-<p>Le Logiciel de la placa, fournit un propio complemento de servicios d'accessibilité de la placa-forme documentés qui permettent à la Technologie d'assistance d'interagir avec Logiciel Qui est Doté d'une interface utilisateur fonctionnant sur le Logiciel de la placa.</p>
-<p>Le Logiciel de la placa-formulario doit répondre de las cláusulas exigences des 11.3.2.5 à 11.3.2.17 Étant toutefois Entendu que, dans le CAS où le d'une de utilisateur de Qui l'une correspondan 11.3.2.5 11.3.2.17 n'est, avec l'environnement PAS compatible con Logiciel exigences s'appliquent, CES</p></td>
-<td>No aplicable</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><h3 id="utilisation-des-services-daccessibilité">servicios des de utilización de 11.3.2.3 d'accessibilité</h3>
-<p>Dans le CAS où le Logiciel présente une interface utilisateur, Il utilisera los servicios documentés d'accessibilité de la placa de la placa. Si los servicios de if CES documentés d'accessibilité de la placa, forme ne permettent pas au Logiciel de remplir exigences de las cláusulas des aplicables 11.3.2.5 11.3.2.17 Alors Logiciel qui, Doté d'une de utilisateur d'autres, documentés interagir servicios avec.</p></td>
-<td>La factura de la Inprise</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><h3 id="technologie-dassistance">11.3.2.4 Technologie d'assistance</h3>
-<h3 id="dans-le-cas-où-la-tic-est-une-technologie-dassistance-elle-utilise-les-services-documentés-daccessibilité-de-la-plate-forme.">Dans le CAS où la TIC une Technologie d'assistance, Elle utilizar los servicios documentés d'accessibilité de la placa-Form.</h3></td>
+<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-les-technologies-dassistance">11.3.2.2 Prise en charge des services d'accessibilité de la plate-forme pour les technologies d'assistance</h3>
+<p>Le logiciel de la plate-forme fournit unvat de services d'accessibilité de la plate-forme documentés qui permettent à la bartolomlogie d'assistance d'interagir avec logiciel qui est doté d'une interface utilisateur fonction a le logiciel de la plate-forme.</p>
+<p>Le logiciel de la plate-forme dome doit répondre aux exigences des clauses 11.3.2.5 à 11.3.2.17 étant toutefois entendu que, dans le cas où le concept d'une interface utilisateur qui correspond à l'une des clauses11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'envirpliquenment logiciel, ces exigences ne s'appliquent pas.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="informations-relatives-à-lobjet">11.3.2.5 información parientes à l'objet</h3>
-<p>Dans le CAS où le Logiciel présente une utilisateur Il rendra, en el uso de los servicios décrits dans la cláusula 11.3.2.3, le rôle, l'état ou Les États, la Frontière, le nom et la Description des Éléments de l'interface utilisateur déterminables noprogram Informatique par les Technologies d'assistance.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="utilisation-des-services-daccessibilité">11.3.2.3 Utilisation des services d'accessibilité</h3>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il utilisera les services documentés d'accessibilité applicables de la plate-forme. Si ces services documentés d'accessibilité de la plate-forme ne permettent pas au logiciel de remplir les exigences applicables des clauses 11.3.2.5 à 11.3.2.17, alors un logiciel qui est doté d'une interface utilisateur utilise d'autres services documentés pour interagir avec laotgie d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="ligne-colonne-et-titres">11.3.2.6 Ligne, Colonne et títulos</h3>
-<p>Dans le CAS où le Logiciel présente une interface utilisateur, Il rendra, à l'aide des Services décrits dans la cláusula 11.3.2.3, la Ligne et la Colonne de chaque cellule d'un tableau de données, y incluye los títulos de la Colonne de Ligne et de la s'il déterminables y en a, Informatique par d'assistance</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="technologie-dassistance">11.3.2.4Gie d'assistance</h3>
+<h3 id="dans-le-cas-où-la-tic-est-une-technologie-dassistance-elle-utilise-les-services-documentés-daccessibilité-de-la-plate-forme.">Dans le cas où la TIC est une logie d'assistance, elle utilise les services documentés d'accessibilité de la plate-forme.</h3></td>
+<td>No aplicable</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="informations-relatives-à-lobjet">11.3.2.5 Informations relatives à l'objet</h3>
+<p>Dans le cas où le logiciel présente une interface utilisateur il rendra, en utilisant les services décrits dans la clause 11.3.2.3, le rôle, l'état ou les états, la frontière, le nom et la description des éléments de l'interface utilisateur déterminables par un programa informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><h3 id="ligne-colonne-et-titres">11.3.2.6 Ligne, Colonne et titres</h3>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, la ligne et la colonne de chaque cellule d'unett de données, y compris les titres de la colonne et de la ligne s'il y en a, déterminables par un programa informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="valeurs">11.3.2.7 Valeurs</h3>
-<p>Dans le CAS où le Logiciel présente une interface utilisateur, Il rendra, à l'aide des Services décrits dans la cláusula 11.3.2.3, la Valeur Actuelle d'un Élément de l'interface utilisateur et promociona las valeurs mínimas de la ou máximas de la Fourchette, si l'élément de l'interface utilisateur de TRANSMET de une de Fourchette valeurs de déterminables.</p></td>
-<td>La factura de la Inprise</td>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, la valeur actuelle d'un élément de l'interface utilisateur et toutes valeurs minimales ou maximales de la fourchette, si l'élément de l'interface utilisateur transmet des informations sur une fourchette de valeurs, déterminables par unpl informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="relations-des-étiquettes">11.3.2.8 des Relations étiquettes</h3>
-<p>Dans le CAS où le Logiciel présente une utilisateur exposera, Il qu'un la relación ÉLÉMENT l'interface de utilisateur qu'étiquette a en los que se d'un Autre ÉLÉMENT, ou en sus supuestos qu'élément étiqueté par Autre ÉLÉMENT, à l'aide de décrits de dans de 11.3.2.3 de soient de déterminables, Informatique de la cláusula d'assistance.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="relations-des-étiquettes">11.3.2.8 Relaciones des étiquettes</h3>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il exposera la relation qu'un élément de l'interface utilisateur a en tant qu'étiquette d'un autre élément, ou en tant qu'élément étiqueté par un autre élément, à l'aide des services décrits dans la clause 11.3.2.3, de sorte que ces informations soient déterminables par un informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="relations-parent-enfant">relaciones 11.3.2.9 padres-enfant </h3>
-<p>Dans le CAS où le Logiciel présente une interface utilisateur, Il rendra, à l'aide des Services décrits dans la cláusula 11.3.2.3, la relación entre un Élément de l'interface utilisateur et des Éléments ou Parent enfant déterminables noprogram Informatique no</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="relations-parent-enfant">11.3.2.9 Relaciones entre padres y enfant </h3>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, la relation entre un élément de l'interface utilisateur et des éléments parent ou enfant déterminables par un programa informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="texte">texto de 11.3.2.10</h3>
-<p>Dans le CAS où le Logiciel présente une interface utilisateur, Il rendra, à l'aide des Services décrits dans la cláusula 11.3.2.3, les contenus textuels, les atribuye textuels et la Frontière du Text qui apparaît à l'écran, déterminables par des Program Informatique nod'assistance Technologies.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="texte">11.3.2.10 Texto</h3>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, les contenus textuels, les attributs textuels et la frontière du texte qui apparaît à l'écran, déterminables par un condens informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="liste-des-actions-disponibles">acciones des de lista de 11.3.2.11 disponibles</h3>
-<p>Dans le CAS où le Logiciel présente une utilisateur, Il rendra, à l'aide des Services décrits dans la cláusula 11.3.2.3, une lista des acciones disponibles qui peuvent être exécutées sur Élément de l'interface utilisateur déterminable par no Program Informatique par de tecnologías d'assistance.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="liste-des-actions-disponibles">11.3.2.11 Liste des actions disponibles</h3>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, une liste des actions disponibles qui peuvent être exécutées sur un élément de l'interface utilisateur déterminable par untica informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="exécution-des-actions-disponibles">11.3.2.12 exécution des acciones disponibles </h3>
-<p>Si. exigences de sécurité l'autorisent, una Logiciel Qui est Doté d'une interface utilisateur autorise, en el uso de los servicios décrits dans la cláusula 11.3.2.3, l'exécution programmatique acciones des exposées Conformément à la cláusula 11.3.2.11 par les Technologies d'assistance.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="exécution-des-actions-disponibles">11.3.2.12 Exécution des actions disponibles </h3>
+<p>Si les exigences de sécurité l'autorisent, un logiciel qui est doté d'une interface utilisateur autorise, en utilisant les services décrits dans la clause 11.3.2.3, l'exécution programmatique des actions exposées conformément à la clause 11.3.2.11 par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="suivi-du-focus-et-des-attributs-de-sélection">11.3.2.13 suivi du Focus et des atribuyes of sélection</h3>
-<p>Dans le CAS où le Logiciel est Doté d'une interface utilisateur, Il rendra, à l'aide des Services décrits dans la cláusula 11.3.2.3, les información et mécanismes nécessaires verter suivre le enfoque, le señale el texto de los d'insertion de la sélection de las Éléments de la l'interface de las utilisateur de la déterminables.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="suivi-du-focus-et-des-attributs-de-sélection">11.3.2.13 Su di focus et des attributs de sélection</h3>
+<p>Dans le cas où le logiciel est doté d'une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, les informations et mécanismes nécessaires pour suivre le focus, le point d'insertion du texte et les attributs de sélection des éléments de l'interface utilisateur, déterminables par unld informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="modification-du-focus-et-des-attributs-de-sélection">11.3.2.14 modification du et des atribuyes de sélection</h3>
-<p>Si. exigences de sécurité l'autorisent, una Logiciel Qui est Doté d'une interface utilisateur autorise, en el uso de los servicios décrits dans de la cláusula 11.3.2.3, les Technologies d'assistance à modificador par desprogramado Informatique le enfoque, el punto de servicio d'insertion du Text et of sélection des Éléments de l'interface utilisateur dans la mesure où l'utilisateur peut. modificador.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="modification-du-focus-et-des-attributs-de-sélection">11.3.2.14 Modification du focus et des attributs de sélection</h3>
+<p>Si les exigences de sécurité l'autorisent, un logiciel qui est doté d'une interface utilisateur autorise, en utilisant les services décrits dans la clause 11.3.2.3, les technologies d'assistance à modifier par un programa informatique le focus, le point d'insertion du texte et les attributs de sélection des éléments de l'interface utilisateur dans la mesure où l'utilisateur peut les modifier.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="notification-des-changements">cambios des de notificación de 11.3.2.15 </h3>
-<p>Dans le CAS où le Logiciel, Doté d'une interface utilisateur, Il avisera, à l'aide des Services décrits dans la 11.3.2.3, les Technologies d'assistance de cómo promocionar des atribuyas des Éléments de l'interface utilisateur déterminables par unprogram Informatique qui sont référencés dans les exigences 11.3.2.5 à 11.3.2.11 et 11.3.2.13.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="notification-des-changements">11.3.2.15 Notificaciones de cambios </h3>
+<p>Dans le cas où le logiciel est doté d'une interface utilisateur, il avisera, à l'aide des services décrits dans la 11.3.2.3, les technologies d'assistance de toute modification des attributs des éléments de l'interface utilisateur déterminables par un programa informatique qui sont référetts dans les exigences 11.3.2.5 à 11.3.2.11 et 11.3.2.13.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="modifications-de-létat-et-des-propriétés">11.3.2.16 modificaciones de l'état et des Propriétés</h3>
-<p>Si. exigences de sécurité l'autorisent, una Logiciel Qui est Doté d'une interface utilisateur autoriseas Technologies d'assistance, en el uso de los manlos servicios décrits dans la cláusula 11.3.2.3, à Modifier par unprogram Informatique l'état et les propriétés des Éléments de l'interface utilisateur, dans la mesure où l'utilisateur peut.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="modifications-de-létat-et-des-propriétés">11.3.2.16 Modifications de l'état et des propriétés</h3>
+<p>Si les exigences de sécurité l'autorisent, un logiciel qui est doté d'une interface utilisateur autorise les technologies d'assistance, en utilisant les services décrits dans la clause 11.3.2.3, à modifier par un programa informatique l'état et les propriétés des éléments de l'interface utilisateur, dans la mesure où l'utilisateur peut les modifier.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="modifications-des-valeurs-et-du-texte">11.3.2.17 modificaciones des valeurs et du Text</h3>
-<p>Si. exigences de sécurité l'autorisent, una Logiciel Qui est Doté d'une interface utilisateur autoventar las tecnologías d'assistance, en los mismos servicios décrits dans la 11.3.2.3, à modificador le valeurs et le texto des Éléments de l'interface utilisateur à l'aide des méthodes de saisie de la placa-form, dans de CAS où utilisateur peut Technologie de d'assistance de de.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="modifications-des-valeurs-et-du-texte">11.3.2.17 Modificaciones des valeurs et du texte</h3>
+<p>Si les exigences de sécurité l'autorisent, un logiciel qui est doté d'une interface utilisateur autorise les technologies d'assistance, en utilisant les services décrits dans la 11.3.2.3, à modifier les valeurs et le texte des éléments de l'interface utilisateur à l'aide des méthodes de saisie de la plate-forme, dans le cas où un utilisateur peut les modifier sans utiliser de serviceslogie d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="contrôle-par-lutilisateur-des-caractéristiques-daccessibilité">11.4.1 Contrôle par l'utilisateur des Caractéristiques d'accessibilité</h3>
-<p>Dans de CAS où una Logiciel est une Plate-form, Il proponga los modos des d'utilisation suffisants verter permettre un contrôle de l'utilisateur sur les Caractéristiques d'accessibilité de la placa-formulario qui sont documentées comme Étant Destinées AUX Utilisateurs.</p></td>
+<td><h3 id="contrôle-par-lutilisateur-des-caractéristiques-daccessibilité">11.4.1 Contrôle par l'utilisateur des caractéques d'accessibilité</h3>
+<p>Dans le cas où un logiciel est une plate-forme, il propose des modes d'utilisation suffisants pour permettre un contrôle de l'utilisateur sur les caractélisques d'accessibilité de la plate-forme qui sont documentées comme étant destinées aux utilisateurs.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="pas-de-perturbation-des-caractéristiques-daccessibilité">11.4.2 Pas de Perturbation des Caractéristiques d'accessibilité</h3>
-<p>Dans le CAS où le Logiciel est Doté d'une interfaz utilisateur, Il ne perturbe PAS les Caractéristiques d'accessibilité documentées qui sont définies dans la documentación relativa à la placa-formulario sauf si l'utilisateur le demandan en Cours de Fonctionnement du Logiciel.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="pas-de-perturbation-des-caractéristiques-daccessibilité">11.4.2 Pas de perturbation des caractéques d'accessibilité</h3>
+<p>Dans le cas où le logiciel est doté d'une interface utilisateur, il ne perturbe pas les caractéques d'accessibilité documentées qui sont définies dans la documentation relative à la plate-forme sauf si l'utilisateur le demande en ramas de fonctionnement du logiciel.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="préférences-de-lutilisateur">11,5 Préférences de l'utilisateur</h3>
-<p>Dans le CAS où le Logiciel est Doté d'une de utilisateur, Il propropuesto des modes d'utilisation suffisants qui utilisent les préférences de l'utilisateur verter mantener paramètres de la placa (Couleur, Contrast, policía, Taille de la policía et Curseur de Focus), à l'exception des logiciels qui sont de la destinés être de la placa-forme à isolés ILS laquelle.</p></td>
+<td><h3 id="préférences-de-lutilisateur">11.5 Préférences de l'utilisateur</h3>
+<p>Dans le cas où le logiciel est doté d'une interface utilisateur, il propose des modes d'utilisation suffisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur, contraste, police, taille de la police et condensur de focus), à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ilsasisnt.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>11.6.2 Création de Contenu accesible</strong></p>
-<p>Les Systèmes auteurs permettent et guident la producción de Contenu cláusulas auxiliares 9 (Contenu Web) ou 10 (Contenu no Web) le indica a qu'applicables.</p></td>
+<td><p><strong>11.6.2 Gratuitation de contenu accesible</strong></p>
+<p>Les systèmes auteurs permettent et guident la production de contenu conforme aux clauses 9 (Contenu Web) ou 10 (Contenu non-web) telles qu'applicables.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>11.6.3 Préservation des información sur l'accessibilité dans le Cadre des transformaciones</strong></p>
-<p>Si le Système auteur asegurarse de las transformaciones de des de restructuration ou des Transformations of recodage, Alors de los informes sur l'accessibilité sont préservées dans le Résultat s'il exist des mécanismes équivalents dans la Technologie du Contenu du Résultat.</p></td>
+<td><p><strong>11.6.3 Préservation des informations sur l'accessibilité dans le cadre des transformations</strong></p>
+<p>Si le système auteur assure des transformations de restructuration ou des transformations de recodage, alors les informations sur l'accessibilité sont préservées dans le résultat s'il existe des mécanismes équivalents dans lamerlogie du contenu du résultat.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>asistencia 11.6.4 à la Réparation</strong></p>
-<p>Si la fonctionnalité de contrôle de l'accessibilité d'un Système auteur peut détecter que le Contenu ne remplit pas une exigence des cláusulas 9 (Contenu Web) ou 10 (Documents) selon le CAS, Alors le Système auteur présente une ou plusieurs sugerencias de Réparation.</p></td>
+<td><p><strong>11.6.4 Asistencia à la réparation</strong></p>
+<p>Si la fonctionnalité de contrôle de l'accessibilité d'un système auteur peut détecter que le contenu ne remplit pas une exigence des clauses 9 (Contenu Web) ou 10 (Documents) selon le cas, alors le système auteur présente une ou plusieurs suggestions de réparation.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>11.6.5 Modèles</strong></p>
-<p>Cantidad de Système auteur proponer des Modèles, Au Moins un modèle prenant en cargo la création de Contenu de exigences de Contenu de las cláusulas selon des (Web identifié) ou 10 (Documents), Comme le CAS, est disponible et Tel.</p></td>
+<p>Quand un système auteur propose des modèles, au moins un modèle pre a charge la configuradotion de contenu conforme aux exigences des clauses 9 (Web contenu) ou 10 (Documents), selon le cas, est disponible et identifié comme tel.</p></td>
 <td>No aplicable</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="section-12-documentation-et-services-dassistance"></a>Sección 12 documentación y servicios de d'assistance
+### <a name="section-12-documentation-et-services-dassistance"></a>Sección 12 Documentación y servicios d'asistencia
 
 <table>
 <caption>Sección 5</caption>
 <tbody>
 <tr class="odd">
 <td><strong>Critères</strong></td>
-<td><strong>Fonctionnalités a Inprise</strong></td>
-<td><strong>Remarquesinas et propuestos</strong></td>
+<td><strong>Fonctionnalités prises en charge</strong></td>
+<td><strong>Remarques et explications</strong></td>
 </tr>
 <tr class="even">
-<td><h3 id="caractéristiques-daccessibilité-et-de-compatibilité">12.1.1 Caractéristiques d'accessibilité et de compatibilité</h3>
-<p>La documentación de la produit fournie avec la TIC, qu'elle Soit fournie séparément ou intégrée dans la TIC, dresse la lista de la lista des Caractéristiques d'accessibilité et de compatibilité de la TIC et explique Comentarios.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="caractéristiques-daccessibilité-et-de-compatibilité">12.1.1 Caractéques d'accessibilité et de combilibilité</h3>
+<p>La documentation produit fournie avec la TIC, qu'elle soit fournie séparément ou intégrée dans la TIC, dresse la liste des caractévecques d'accessibilité et de combilité de la TIC et explique comment les utiliser.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="documentation-accessible">documentación sobre la 12.1.2 accesible </h3>
-<p>La documentación produit fournie avec la TIC est mise à dedisposición dans Au Moins des Formats électroniques suivants:</p>
-<p>a) sitio web de Qui est de conformidad con el à la cláusula 9, ou</p>
-<p>b) un formato que no sea de la web Qui est.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="documentation-accessible">12.1.2 Documentación accesible </h3>
+<p>La documentation produit fournie avec la TIC est mise à disposition dans au moins un des formats électroniques suivants :</p>
+<p>a) un format web qui est conforme à la clause 9, ou</p>
+<p>b) un format non-web qui est conforme à la clause 10.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="informations-sur-les-caractéristiques-daccessibilité-et-de-compatibilité">12.2.2 información sur de Caractéristiques d'accessibilité et de compatibilité</h3>
-<p>Los servicios d'assistance de la communiquent des informations sur les Caractéristiques d'accessibilité et de compatibilité qui sont mentionnées dans la documentación produit.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="informations-sur-les-caractéristiques-daccessibilité-et-de-compatibilité">12.2.2 Informations sur les caractéques d'accessibilité et de combilibilité</h3>
+<p>Les services d'assistance de la TIC communiquent des informations sur les caractéquesques d'accessibilité et de combilité qui sont mentionnées dans la documentation produit.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="efficacité-de-la-communication">12.2.3 Efficacité de la comunicación </h3>
-<p>Los servicios d'assistance de la répondent AUX besoins en Communication des personnes porteuses de impedimento directement ou depuis un punto de référence.</p></td>
-<td>La factura de la Inprise</td>
-<td><a href="https://support.microsoft.com/answerdesk/accessibility">Answer Desk</a></td>
+<td><h3 id="efficacité-de-la-communication">12.2.3 Alobaité de la comunicación </h3>
+<p>Les services d'assistance de la TIC répondent aux incapacitains en communication des personnes porteuses de directement ou depuis un point de référence.</p></td>
+<td>Pris en charge</td>
+<td><a href="https://support.microsoft.com/answerdesk/accessibility">Answer Desk para personas con discapacidad</a></td>
 </tr>
 <tr class="even">
-<td><h3 id="documentation-accessible-1">documentación de 12.2.4 accesible </h3>
-<p>La documentación fournie nominales servicios d'assistance est mise à disposición dans Au Moins des des électroniques suivants:</p>
-<p>a) sitio web de Qui est de conformidad con el à la cláusula 9, ou</p>
-<p>b) un formato que no sea de la web Qui est.</p></td>
-<td>La factura de la Inprise</td>
+<td><h3 id="documentation-accessible-1">12.2.4 Documentación accesible </h3>
+<p>La documentation fournie par les services d'assistance est mise à disposition dans au moins un des formats électroniques suivants :</p>
+<p>a) un format Web qui est conforme à la clause 9, ou</p>
+<p>b) un format non-web qui est conforme à la clause 10.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>Sección 13 TIC Assurant Le Relais l'accès à des Services d'urgence
+### <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>Section 13 TIC assurant le ou l'accès à des services d'urgence
 
-Cette sección ne s'applique pas à Skype Entreprise2016.
+Cette section ne s'applique pas à Skype Entreprise2016.
 
 ## 
 
-© 2017 Microsoft Corporation. Tous droits réservés. Les noms des Sociétés et des Produits mentionnés dans le présent Document peuvent être Marques de leurs Propriétaires respectifs. Información de les qui figurent dans le présent documento l'opinion Actuelle de Microsoft Corporation sur les thèmes Concernés à la fecha de publicación.
-Microsoft ne peut garantir l'exactitude d'une información présentée bebidas la fecha de publicación. Microsoft satisfizo régulièrement à jour SES sites Internet et publie de Nouvelles informativos sur l'accessibilité de SES Produits Dès qu'elles sont disponibles.
+© 2017 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriéscaleres respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.
+Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
 
-La personnalisation du produit anular la présente Déclaration de Conformité de Microsoft. Los clientes que possibilitén la déclarations de Conformité indépendantes s'ils uente Contrôlé avec promocionan la diligencia raisonnable nécessaire que les Mesures de personnalisation qu'ils, la remplissent, promociona a les exigences.
+La personnalisation du produit de ala présente déclaration de cedido de Microsoft. Les clients ont la possibilité de faire des déclarations de personnalisation indépendantes s'ils ont contrôlé avec toute la selvnable nécessaire que les mesures de personnalisation qu'ils ont prises remplissent toutes les exigences.
 
-Verter en savoir más sur les spécifications de compatibilité de Produits de Technologie d'assistance spécifiques, consultez vos Fournisseurs de Technologies d'assistance.
+Pour en savoir plus sur les spécifications de combilibilité de produits de prodlogie d'assistance spécifiques, consultez vos fournisseurs de technologies d'assistance.
 
-Le présent Document n'est pas la norma EN 301 549 v 1.1.2 (2015-04) et Ne doit PAS être utilisé en Remplacement de Celle-CI.Exdados de la norma EN 301 549 v 1.1.2 qu'il contient ne sont référencés que no vierta décrire la conformité de Microsoft avec algunas de las disposiciones de las disposiciones de SES.Exemplaire completa de la norma EN 301 549 v 1.1.2 (2015-04) est disponible dans CE PDF émanant de l'European Communications Institute, du Comité Européen de normalización et du Comité Européen de normalización Électrotechnique.
+Le présent document n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit pas être utilisé en remplacement de celle-ci.Les extraits de la norme EN 301 549 v 1.1.2 qu'il contient ne sont référplots que pour décrire la avec certaines de Microsoft avec certaines de ses dispositions.Un exemplaire complet de la norme EN 301 549 v 1.1.2 (2015-04) est disponible dans ce PDF émanant de l'European Telecommunications Standards Institute, du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
 
-Le présent documento est Fourni à Indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE DE DE OU TÁCITA, DANS LE PRÉSENT.
+Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
