@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49805280"
 ---
-# <a name="certificate-request-intro"></a><span data-ttu-id="fef77-104">Solicitud de certificados (introducción)</span><span class="sxs-lookup"><span data-stu-id="fef77-104">Certificate Request (Intro)</span></span>
+# <a name="certificate-request-intro"></a><span data-ttu-id="d198a-104">Solicitud de certificados (introducción)</span><span class="sxs-lookup"><span data-stu-id="d198a-104">Certificate Request (Intro)</span></span>
  
-<span data-ttu-id="fef77-p102">Para continuar con el proceso de solicitud de certificación, haga clic en **Siguiente**. Para salir del proceso sin realizar cambios en el sistema, haga clic en **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="fef77-p102">To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.</span></span>
+<span data-ttu-id="d198a-p102">Para continuar con el proceso de solicitud de certificación, haga clic en **Siguiente**. Para salir del proceso sin realizar cambios en el sistema, haga clic en **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="d198a-p102">To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.</span></span>
   
 

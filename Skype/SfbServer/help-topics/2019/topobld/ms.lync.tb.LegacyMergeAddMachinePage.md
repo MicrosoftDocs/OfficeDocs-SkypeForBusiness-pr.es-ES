@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49805730"
 ---
-# <a name="legacy-merge-add-machine"></a><span data-ttu-id="00f37-103">Combinación heredada de Agregar equipo</span><span class="sxs-lookup"><span data-stu-id="00f37-103">Legacy Merge Add Machine</span></span>
+# <a name="legacy-merge-add-machine"></a><span data-ttu-id="bcac9-103">Combinación heredada de Agregar equipo</span><span class="sxs-lookup"><span data-stu-id="bcac9-103">Legacy Merge Add Machine</span></span>
  
-<span data-ttu-id="00f37-104">Para definir los equipos que forman el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forma parte del grupo perimetral consolidado con equilibrio de carga heredado.</span><span class="sxs-lookup"><span data-stu-id="00f37-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
+<span data-ttu-id="bcac9-104">Para definir los equipos que forman el grupo de servidores perimetrales, escriba el nombre de dominio completo (FQDN) de al menos un equipo que forma parte del grupo perimetral consolidado con equilibrio de carga heredado.</span><span class="sxs-lookup"><span data-stu-id="bcac9-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
   
 

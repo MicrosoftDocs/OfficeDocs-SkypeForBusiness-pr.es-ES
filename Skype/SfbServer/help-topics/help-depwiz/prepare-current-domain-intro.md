@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804980"
 ---
-# <a name="prepare-current-domain-intro"></a><span data-ttu-id="b4210-104">Preparar dominio actual (introducción)</span><span class="sxs-lookup"><span data-stu-id="b4210-104">Prepare Current Domain (Intro)</span></span>
+# <a name="prepare-current-domain-intro"></a><span data-ttu-id="65933-104">Preparar dominio actual (introducción)</span><span class="sxs-lookup"><span data-stu-id="65933-104">Prepare Current Domain (Intro)</span></span>
  
-<span data-ttu-id="b4210-105">La **página Preparar dominio** comienza el proceso de preparación del dominio para Skype Empresarial Server 2015.</span><span class="sxs-lookup"><span data-stu-id="b4210-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server 2015.</span></span> <span data-ttu-id="b4210-106">Haga clic en **Siguiente** para preparar el dominio.</span><span class="sxs-lookup"><span data-stu-id="b4210-106">Click **Next** to begin preparing the domain.</span></span>
+<span data-ttu-id="65933-105">La **página Preparar dominio** comienza el proceso de preparación del dominio para Skype Empresarial Server 2015.</span><span class="sxs-lookup"><span data-stu-id="65933-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server 2015.</span></span> <span data-ttu-id="65933-106">Haga clic en **Siguiente** para preparar el dominio.</span><span class="sxs-lookup"><span data-stu-id="65933-106">Click **Next** to begin preparing the domain.</span></span>
   
 

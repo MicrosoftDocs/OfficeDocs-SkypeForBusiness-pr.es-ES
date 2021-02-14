@@ -22,9 +22,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49807880"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="950f8-104">Edición de prefijo</span><span class="sxs-lookup"><span data-stu-id="950f8-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="549c5-104">Edición de prefijo</span><span class="sxs-lookup"><span data-stu-id="549c5-104">Prefix Edit</span></span>
  
-<span data-ttu-id="950f8-p102">Para definir prefijos o dígitos iniciales, agregue los prefijos numéricos que esta ruta deba administrar, incluido el signo + si es necesario. Por ejemplo, puede buscar coincidencias con todos los números que empiecen por +123.</span><span class="sxs-lookup"><span data-stu-id="950f8-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="549c5-p102">Para definir prefijos o dígitos iniciales, agregue los prefijos numéricos que esta ruta deba administrar, incluido el signo + si es necesario. Por ejemplo, puede buscar coincidencias con todos los números que empiecen por +123.</span><span class="sxs-lookup"><span data-stu-id="549c5-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
   
  
   

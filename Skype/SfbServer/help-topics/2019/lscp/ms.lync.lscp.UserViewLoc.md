@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808120"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="254da-104">Usuarios: Ver o configurar directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="254da-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="83a31-104">Usuarios: Ver o configurar directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="83a31-104">Users: View or Configure Location Policy</span></span>
 
-<span data-ttu-id="254da-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="254da-105">What do you want to do?</span></span> <span data-ttu-id="254da-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="254da-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="83a31-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="83a31-105">What do you want to do?</span></span> <span data-ttu-id="83a31-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="83a31-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="254da-107">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="254da-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="83a31-107">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="83a31-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
 
 

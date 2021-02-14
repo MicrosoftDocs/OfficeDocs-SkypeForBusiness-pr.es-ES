@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808000"
 ---
-# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="c3293-104">Usuarios: Ver o configurar directiva de PIN</span><span class="sxs-lookup"><span data-stu-id="c3293-104">Users: View or Configure PIN Policy</span></span>
+# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="f1e96-104">Usuarios: Ver o configurar directiva de PIN</span><span class="sxs-lookup"><span data-stu-id="f1e96-104">Users: View or Configure PIN Policy</span></span>
  
-<span data-ttu-id="c3293-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="c3293-105">What do you want to do?</span></span> <span data-ttu-id="c3293-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="c3293-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f1e96-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="f1e96-105">What do you want to do?</span></span> <span data-ttu-id="f1e96-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="f1e96-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="c3293-107">Establecer el PIN de conferencia de acceso telefónico local de un usuario en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="c3293-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="f1e96-107">Establecer el PIN de conferencia de acceso telefónico local de un usuario en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="f1e96-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

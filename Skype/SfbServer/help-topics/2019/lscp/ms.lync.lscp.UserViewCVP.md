@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49808160"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="29057-104">Usuarios: Ver o configurar directiva de versiones de clientes</span><span class="sxs-lookup"><span data-stu-id="29057-104">Users: View or Configure Client Version Policy</span></span>
+# <a name="users-view-or-configure-client-version-policy"></a><span data-ttu-id="8a153-104">Usuarios: Ver o configurar directiva de versiones de clientes</span><span class="sxs-lookup"><span data-stu-id="8a153-104">Users: View or Configure Client Version Policy</span></span>
 
-<span data-ttu-id="29057-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="29057-105">What do you want to do?</span></span> <span data-ttu-id="29057-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="29057-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="8a153-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="8a153-105">What do you want to do?</span></span> <span data-ttu-id="8a153-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="8a153-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="29057-107">Especificar versiones de cliente admitidas para el inicio de sesión por un usuario</span><span class="sxs-lookup"><span data-stu-id="29057-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="8a153-107">Especificar versiones de cliente admitidas para el inicio de sesión por un usuario</span><span class="sxs-lookup"><span data-stu-id="8a153-107">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
 
 
