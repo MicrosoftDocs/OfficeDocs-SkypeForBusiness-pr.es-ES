@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49815290"
 ---
-# <a name="add-edge-server-external-ipv4"></a><span data-ttu-id="b34ab-103">Agregar IPv4 externa de servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="b34ab-103">Add Edge Server External IPv4</span></span>
+# <a name="add-edge-server-external-ipv4"></a><span data-ttu-id="da376-103">Agregar IPv4 externa de servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="da376-103">Add Edge Server External IPv4</span></span>
  
-<span data-ttu-id="b34ab-104">En **IPv4** externa, escriba la dirección IP externa que apunta al servicio perimetral de acceso, al servicio perimetral de conferencia web y al servicio perimetral A/V.</span><span class="sxs-lookup"><span data-stu-id="b34ab-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="da376-104">En **IPv4** externa, escriba la dirección IP externa que apunta al servicio perimetral de acceso, al servicio perimetral de conferencia web y al servicio perimetral A/V.</span><span class="sxs-lookup"><span data-stu-id="da376-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 
