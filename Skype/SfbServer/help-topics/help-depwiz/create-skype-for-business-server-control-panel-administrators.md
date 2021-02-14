@@ -55,7 +55,7 @@ Otros roles son:
     
 - **CsViewOnlyAdministrator:** Los miembros pueden ver la implementación y configuración de la información del servidor. Esta pertenencia permite a un miembro supervisar el estado de los servidores que ejecutan Skype Empresarial Server 2015.
     
-- **CsVoiceAdministrator:** Los miembros pueden crear, configurar y administrar opciones relacionadas con la voz en Skype Empresarial Server.
+- **CsVoiceAdministrator:** Los miembros pueden crear, configurar y administrar la configuración relacionada con la voz en Skype Empresarial Server.
     
 Para ayudar a conservar la seguridad y la integridad del control de acceso basado en roles, agregue usuarios a los grupos que definan qué rol desempeña el usuario en la administración de la implementación de Skype Empresarial Server.
   

@@ -73,7 +73,7 @@ Las siguientes herramientas no son compatibles con Skype Empresarial Server 2019
 - Herramienta de planeación de Skype Empresarial Server 2015
 - Herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015
 
-### <a name="see-also"></a>Ver también
+### <a name="see-also"></a>Vea también
 
 [Novedades de Skype Empresarial Server 2019](whats-new.md)
 

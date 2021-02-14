@@ -117,7 +117,7 @@ En la tabla siguiente se detallan las características admitidas en varias combi
 > Hay un servicio de correo de voz en la nube compatible con Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015 y Lync Server 2013.
 > 
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="feature_support"> </a>
 
 [Configurar la integración entre Skype Empresarial Server local y Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)

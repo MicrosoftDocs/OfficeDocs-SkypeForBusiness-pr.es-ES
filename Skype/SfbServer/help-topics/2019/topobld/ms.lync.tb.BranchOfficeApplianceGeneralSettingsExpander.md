@@ -43,7 +43,7 @@ Puede seleccionar **Usar todas las direcciones IP configuradas** o **Limitar el 
 
 En **Asociaciones**, puede editar o especificar lo siguiente:
 
-- Asociar servidor de archivado le permite seleccionar asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor de archivado que ya está definido en la  lista desplegable o hacer clic en Nuevo para especificar un nuevo servidor de archivado.
+- Asociar servidor de archivado le permite seleccionar asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de archivado que ya está definido, seleccione el  servidor de la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de archivado.
 
     > [!IMPORTANT]
     > Antes de publicar la topología recién definida, el servidor que especifique debe existir y se debe unir en el dominio.
@@ -59,7 +59,7 @@ La resistencia proporciona una gran disponibilidad al grupo de registradores. Al
 En la lista desplegable, seleccione el grupo de servidores front-end Enterprise Edition o el servidor front-end Standard Edition que actuará como registrador de reserva para la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. También puede habilitar intervalos de tiempo de la conmutación por error y conmutación por recuperación. Al habilitar la configuración de tiempo de la conmutación por error y la conmutación por recuperación (especificada en segundos) se habilita la detección automática de los registradores erróneos, y el tiempo de conmutación por recuperación que permite la determinación automática que el principal vuelve a estar recuperado y puede retomar el proceso del registrador.
 
 > [!IMPORTANT]
-> Al definir la detección de fallos y el intervalo de conmutación por recuperación, tenga mucho cuidado de no introducir un intervalo que provoque la ejecución de la conmutación por error y por recuperación en el caso que el registrador no logre responder durante un espacio breve de tiempo. Es posible que el registrador principal no responda durante breves periodos de tiempo en función de la carga de los grupos o servidores. Los valores predeterminados para una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia en un sitio a un grupo o servidor front-end Standard Edition son 120 segundos para la conmutación por error y 240 segundos para la reserva.
+> Al definir la detección de fallos y el intervalo de conmutación por recuperación, tenga mucho cuidado de no introducir un intervalo que provoque la ejecución de la conmutación por error y por recuperación en el caso que el registrador no logre responder durante un espacio breve de tiempo. Es posible que el registrador principal no responda durante breves periodos de tiempo en función de la carga de los grupos o servidores. Los valores predeterminados para una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia en un sitio a un grupo de servidores o un servidor front-end Standard Edition son 120 segundos para la conmutación por error y 240 segundos para la reserva.
 
 ### <a name="mediation-server"></a>Servidor de mediación
 

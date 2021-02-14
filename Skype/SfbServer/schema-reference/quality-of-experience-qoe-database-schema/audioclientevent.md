@@ -26,9 +26,9 @@ Cada registro contiene un evento de cliente para un extremo en una llamada de au
   
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Principal  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|**SessionSeq** <br/> |entero  <br/> |Principal  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Principal  <br/> |Referencia de la [tabla MediaLine](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |entero  <br/> |Principal  <br/> |Referencia de la [tabla MediaLine](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |Referencia de la [tabla MediaLine](medialine-0.md).  <br/> |
 |**FromCaller** <br/> |bit  <br/> |Principal  <br/> |0: datos del destinatario de la llamada  <br/> 1: Datos del autor de la llamada  <br/> |
 |**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Porcentaje de sesión en la que se deseó el evento NetworkSendQuality para el estado "Bad".  <br/> La calidad de la red en términos de vibración o pérdida de paquetes es grave y afecta a la calidad del audio que se envía.  <br/> |
 |**NetworkReceiveQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Porcentaje de sesión en la que se deseó el evento ReceiveSendQuality para el estado "Bad".  <br/> La calidad de la red en términos de vibración o pérdida de paquetes es grave y afecta a la calidad del audio que se recibe.  <br/> |

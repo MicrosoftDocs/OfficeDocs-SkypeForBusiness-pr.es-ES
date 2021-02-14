@@ -1,5 +1,5 @@
 ---
-title: Planeación de desactivar los métodos de autenticación heredados interna y externamente en la red
+title: Planeación para desactivar los métodos de autenticación heredados interna y externamente en la red
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -30,7 +30,7 @@ ms.locfileid: "49810034"
   
 La autenticación moderna no solo habilita métodos de autenticación más seguros, como la autenticación de Two-Factor o la autenticación basada en certificados, también puede llevar a cabo la autorización del usuario sin necesidad de un nombre de usuario o una contraseña. Es muy útil.
 
-Este artículo le ayudará a conectar agujeros que se han aprovechado para ataques por denegación de servicio (DOS) en servidores de Skype Empresarial, desactivando los métodos antiguos usados para la autenticación, externa, interna o ambas, a su red. Por ejemplo, un buen método para ayudar a detener los ataques de DOS sería desactivar la autenticación integrada de Windows (que incluye NTLM y Kerberos). Desactivar NTLM externamente y confiar en la autenticación basada en certificados ayuda a proteger las contraseñas de la exposición. Esto se debe a que NTLM usa credenciales de contraseña para autenticar usuarios, pero la autenticación basada en certificados (habilitada por la autenticación moderna) no lo hace. Esto significa que una opción ideal para reducir los ataques de DOS es bloquear NTLM externamente y, en su lugar, usar solo la autenticación basada en certificados.
+Este artículo le ayudará a conectar agujeros que se han aprovechado para ataques por denegación de servicio (DOS) en servidores de Skype Empresarial, desactivando los métodos antiguos usados para la autenticación, externa, interna o ambas, a su red. Por ejemplo, un buen método para ayudar a detener los ataques de DOS sería desactivar la autenticación integrada de Windows (que incluye NTLM y Kerberos). Desactivar NTLM externamente y confiar en la autenticación basada en certificados ayuda a proteger las contraseñas de la exposición. Esto se debe a que NTLM usa credenciales de contraseña para autenticar usuarios, pero la autenticación basada en certificados (habilitada por la autenticación moderna) no. Esto significa que una opción ideal para reducir los ataques de DOS es bloquear NTLM externamente y, en su lugar, usar solo la autenticación basada en certificados.
 
 Vamos a empezar.
 
@@ -50,7 +50,7 @@ Es importante tener en cuenta que estas son las topologías compatibles implicad
 > En la tabla y las descripciones *siguientes,* la autenticación moderna se abrevia como __MA__ y la autenticación integrada de *Windows* se abrevia como __Win__. Como recordatorio, la autenticación integrada de Windows se integra en dos métodos: autenticación NTLM y Kerberos. Tendrás que saber esto para leer la tabla correctamente.
 
 
-|       |Externamente  |Internamente  |Parameter  |
+|       |Externamente  |Internamente  |Parámetro  |
 |---------|:---------|:---------|---------|
 |__Tipo 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
 |__Tipo 2__   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
@@ -66,9 +66,9 @@ __Tipo 3 Descripción:__ Esta topología requiere MA para todos los usuarios. To
 
 __Tipo 4 Descripción:__ Esta topología bloquea NTLM *externamente y* MA internamente. Permite a *todos los clientes* usar métodos de autenticación heredados *internamente* (incluso clientes compatibles con ADAL).
 
-__Tipo 5 Descripción:__ *Externamente,* los clientes modernos de ADAL usarán MA y los clientes que no admitan ADAL usarán métodos de autenticación heredados. Sin embargo, *internamente* *todos los* clientes usarán la autenticación heredada (incluidos todos los clientes compatibles con ADAL).
+__Tipo 5 Descripción:__ *Externamente,* los clientes modernos de ADAL usarán MA y los clientes que no admitan ADAL usarán métodos de autenticación heredados. Sin embargo, *internamente* *todos* los clientes usarán la autenticación heredada (incluidos todos los clientes compatibles con ADAL).
 
-Es bastante fácil perder el seguimiento del objetivo de proteger las contraseñas en las opciones disponibles. Tenga en cuenta que la situación ideal es usar MA externamente (por ejemplo, mediante la configuración de la autenticación basada en certificados) para evitar ataques DOS. If you leverage it internally for your modern clients, you'll also future-proof your network regarding Skype for Business Server DOS attacks.
+Es bastante fácil perder el seguimiento del objetivo de proteger las contraseñas en las opciones disponibles. Tenga en cuenta que la situación ideal es usar MA externamente (por ejemplo, mediante la configuración de la autenticación basada en certificados) para evitar ataques DOS. Si lo aprovecha internamente para sus clientes modernos, también podrá probar su red en el futuro en relación con los ataques DOS de Skype Empresarial Server.
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Por qué usar Set-CsAuthConfig a nivel global
 
@@ -76,12 +76,12 @@ El `Set-CsAuthConfig` cmdlet afecta a la configuración tanto en los roles de re
 
 Este cmdlet está diseñado para ejecutarse en el nivel global de su servidor de Skype Empresarial. Se *puede* ejecutar en el nivel  de grupo, pero no se recomienda porque agregará complejidad a la instalación. Al ejecutar estos comandos en el nivel de grupo de servidores, si el grupo de servidores no tiene todos los roles incluidos (por ejemplo, no tiene servicios web), la configuración solo se establecerá para el rol registrador. En ese caso, los servicios web seguirán con la configuración del nivel global, lo que puede resultar confuso (especialmente cuando esto se hace de forma involuntarla).
 
-Si un cliente usa la configuración de registrador de un grupo de servidores y la configuración de servicios web de otro grupo de servidores y la configuración de autenticación están en un estado incoherente, es posible que los clientes no puedan iniciar sesión.
+Si un cliente usa la configuración de registrador de un grupo de servidores y la configuración de servicios web de otro grupo de servidores y la configuración de autenticación está en un estado incoherente, es posible que los clientes no puedan iniciar sesión.
 
 Además, si solo hay un rol presente para un grupo de servidores: 
 * Set: solo establecerá la configuración que corresponda al rol que existe. No se mostrará ninguna advertencia especial porque no se han establecido *algunas opciones de* configuración. 
 * Get devolverá la configuración que corresponde al rol que existe y la configuración global del rol que no existe.
-* Si ninguno de los roles está presente para un grupo de servidores, Set- y Get- devolverán un mensaje de error.
+* Si ninguno de los roles está presente para un grupo de servidores, Set- y Get devolverán un mensaje de error.
 * Si ambos roles están presentes para un grupo de servidores pero las directivas no están definidas en el nivel de grupo, Get devolverá un mensaje de error.
 
 Puede ser más aconsejable hacer un Get para estos valores, y realizar una captura de pantalla o registrar su estado inicial antes de realizar cualquier cambio. También puede considerar la posibilidad de mantener un registro de cambios en oneNote.

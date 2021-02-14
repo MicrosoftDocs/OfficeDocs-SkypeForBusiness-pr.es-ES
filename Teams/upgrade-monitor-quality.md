@@ -1,5 +1,5 @@
 ---
-title: Calidad de la experiencia del usuario | Microsoft Teams | QoS | Calidad de la llamada
+title: Calidad de la experiencia del | Microsoft Teams | QoS | Calidad de la llamada
 author: cichur
 ms.author: v-cichur
 manager: serdars

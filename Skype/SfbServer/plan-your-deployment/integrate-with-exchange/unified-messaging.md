@@ -143,6 +143,6 @@ Para obtener más información sobre cómo habilitar o deshabilitar la mensajer�
 La mensajería unificada de Exchange ya no está presente en Exchange 2019, si tiene Exchange 2019 y desea una funcionalidad equivalente, tendrá que usar el servicio correo de voz en la nube descrito en [Plan Cloud Voicemail service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Introducción al proceso de implementación para integrar la mensajería unificada local y Skype Empresarial](deployment-overview.md)

@@ -47,7 +47,7 @@ ms.locfileid: "49809320"
 ## <a name="phase-2---experiment"></a>Fase 2: experimentación
 
 - [Crear el programa de expertos](teams-adoption-create-champions-program.md)
-- [Completar el inicio rápido del gobierno](teams-adoption-governance-quick-start.md)
+- [Completar el inicio rápido de gobierno](teams-adoption-governance-quick-start.md)
 - [Definir los escenarios de uso](teams-adoption-define-usage-scenarios.md)
 - [Entrevista a las partes interesadas de la empresa](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [Asignar y priorizar escenarios empresariales](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)

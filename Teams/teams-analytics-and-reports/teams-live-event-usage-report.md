@@ -31,7 +31,7 @@ El informe de uso de eventos en directo de Teams en el Centro de administración
 ## <a name="view-the-live-event-usage-report"></a>Ver el informe de uso de eventos en directo
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **& informes de**  >  **uso.** En la **pestaña Ver informes,** en **Informe,** seleccione Uso de **eventos en directo de Teams.**
-2. En **Intervalo de** fechas, seleccione un rango predefinido o establezca un rango personalizado. Puede establecer un rango para mostrar datos hasta un año, seis meses antes y después de la fecha actual.
+2. En **Intervalo de** fechas, seleccione un rango predefinido o establezca un rango personalizado. Puede establecer un intervalo para mostrar datos hasta un año, seis meses antes y después de la fecha actual.
 3. (Opcional) En **Organizador,** puede elegir mostrar solo los eventos en directo organizados por un usuario específico.
 4. Haga clic **en Ejecutar informe.**  
 
@@ -44,7 +44,7 @@ El informe de uso de eventos en directo de Teams en el Centro de administración
 |**1**   |Puede visualizar el informe de eventos en directo de Teams para ver las tendencias de los últimos 7 días, 28 días o un intervalo de fechas personalizado que establezca. |
 |**2**   |Cada informe tiene la fecha del momento en que se generó. El informe refleja la actividad casi en tiempo real cuando se actualiza la página. |
 |**3**   |<ul><li>En el gráfico, el eje X es el intervalo de fechas seleccionado para el informe específico.</li> <li> El eje Y es el recuento total de vistas.</li> </ul>Mantenga el mouse sobre el punto de una fecha determinada para ver el número de vistas de todos los eventos en directo de esa fecha.|
-|**4**   |La tabla proporciona un desglose de cada evento en directo. <ul><li>**El** evento es el nombre para mostrar del evento en directo. Haga clic en el nombre del evento [para obtener más información](#view-event-details) sobre el evento. </li> <li>**Hora de** inicio hace referencia a la fecha y hora de inicio del evento.</li> <li>**Estado del** evento muestra si el evento se ha realizado.  </li><li>**El** organizador es el nombre del organizador del evento.</li> <li>**Los presentadores** son los nombres de los presentadores del evento.</li><li>**Los productores** son los nombres de los productores del evento.</li><li>**Vistas** es el número de vistas únicas después de que se haya completado el evento.</li><li>**La** grabación indica si la configuración de la grabación está o no.</li><li>**El tipo** de producción muestra si el evento se produce en Teams o mediante una aplicación o dispositivo externo.</li></li> </ul>Tenga en cuenta que si una cuenta de usuario ya no existe en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
+|**4**   |La tabla proporciona un desglose de cada evento en directo. <ul><li>**El** evento es el nombre para mostrar del evento en directo. Haga clic en el nombre del evento [para obtener más información](#view-event-details) sobre el evento. </li> <li>**Hora de** inicio hace referencia a la fecha y hora de inicio del evento.</li> <li>**Estado del** evento muestra si el evento se ha realizado.  </li><li>**El** organizador es el nombre del organizador del evento.</li> <li>**Los presentadores** son los nombres de los presentadores del evento.</li><li>**Los productores** son los nombres de los productores del evento.</li><li>**Vistas** es el número de vistas únicas después de que se haya completado el evento.</li><li>**La** grabación muestra si la configuración de grabación está o no.</li><li>**El tipo** de producción muestra si el evento se produce en Teams o mediante una aplicación o dispositivo externo.</li></li> </ul>Tenga en cuenta que si una cuenta de usuario ya no existe en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
 
 ## <a name="notes"></a>Notas
@@ -56,7 +56,7 @@ La página de detalles del evento en directo le proporciona un resumen de los de
 
 ![Captura de pantalla que muestra detalles de un evento en directo](../media/teams-live-event-usage-report-event-detail.png)
 
-Si en su [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) organización se habilita el eCDN subárbol o el [eCDN](https://kollective.com) opcional, puede obtener análisis adicionales para los asistentes haciendo clic en el vínculo del informe de asociados.
+Si en su [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) organización se habilita el eCDN subárbol o el [eCDN](https://kollective.com) opcional, puede obtener análisis adicionales de los asistentes haciendo clic en el vínculo del informe de asociados.
 
 ## <a name="related-topics"></a>Temas relacionados
 

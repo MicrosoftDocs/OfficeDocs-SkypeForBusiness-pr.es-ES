@@ -67,7 +67,7 @@ Estas son las topologías admitidas. Ten en cuenta la clave de los gráficos:
 
 - SFB es Skype Empresarial local.
 
-- La autorización de los servidores se representa mediante triángulos, por ejemplo, Azure AD es un triángulo con una nube detrás de él.
+- La autorización de servidores se representa mediante triángulos, por ejemplo, Azure AD es un triángulo con una nube detrás.
 
 - Las flechas apuntan al servidor de autorización que se usará cuando los clientes intenten alcanzar el recurso de servidor especificado.
 

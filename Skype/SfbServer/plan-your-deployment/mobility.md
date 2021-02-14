@@ -115,7 +115,7 @@ Hay cuatro servicios que conforman la movilidad de Skype Empresarial Server:
 ## <a name="supported-topologies"></a>Topologías admitidas
 <a name="SupportedTopos"> </a>
 
-Tenemos las siguientes aplicaciones de Skype Empresarial Server compatibles para la planeación de la topología:
+Tenemos las siguientes aplicaciones compatibles de Skype Empresarial Server para la planeación de la topología:
   
 - Mobility Standard Edition
     
@@ -134,7 +134,7 @@ Es importante planear los distintos escenarios de aplicaciones móviles que pued
 
 Los servicios de movilidad Mcx y UCWA usan DNS de la misma manera. Con la detección automática, los dispositivos móviles usan DNS para buscar recursos. Durante la búsqueda de DNS, se intenta una conexión al FQDN asociado con el registro DNS interno (lyncdiscoverinternal.[ nombre de dominio interno]). Si no se puede usar el registro DNS interno para realizar esa conexión, se intenta una segunda conexión, esta vez al registro DNS externo (lyncdiscover.[ sipdomain]). ¿Por qué tener dos? Un dispositivo móvil interno de la red podrá usar la dirección URL interna de Detección automática. Los dispositivos móviles externos usarán la dirección URL de Detección automática externa. En cualquier caso, el servicio Detección automática devolverá todas las direcciones URL del servicio web del grupo de servidores principal del usuario, que incluye el servicio de movilidad (Mcx y UCWA).
   
-Se espera que las solicitudes externas de Detección automática pasen por el proxy inverso que ha configurado para Skype Empresarial Server. Sin embargo, tanto la dirección URL interna del servicio de movilidad como la dirección URL del servicio de movilidad externa están asociadas con el FQDN de servicios web externos. Por lo tanto, independientemente de si un dispositivo móvil es interno o externo a la red, el dispositivo siempre se conecta al servicio de movilidad de Skype Empresarial Server externamente, a través del proxy inverso.
+Se espera que las solicitudes de detección automática externas pasen por el proxy inverso que haya configurado para Skype Empresarial Server. Sin embargo, tanto la dirección URL interna del servicio de movilidad como la dirección URL del servicio de movilidad externa están asociadas con el FQDN de servicios web externos. Por lo tanto, independientemente de si un dispositivo móvil es interno o externo a la red, el dispositivo siempre se conecta al servicio de movilidad de Skype Empresarial Server externamente, a través del proxy inverso.
   
 > [!NOTE]
 > Como hemos indicado, todo el tráfico del servicio de movilidad (interno y externo) pasará por el proxy inverso. Pero a veces se produce un problema cuando el tráfico interno sale de una interfaz, solo para intentar volver a entrar en la misma interfaz. Esto puede infringir las reglas de seguridad de suplantación (formalmente se denomina suplantación de paquetes TCP). Deberás permitir que el **anclado de vello** tenga una función de movilidad.
@@ -189,7 +189,7 @@ Hemos cubierto la mayor parte de esto en nuestra otra documentación, pero espec
 
 If you're using automatic discovery for your Skype for Business mobile clients, you'll need to modify the SAN (subject alternative name) lists on your certificates to support secure connections from your mobile clients. Si ya tiene certificados locales, deberá solicitar y asignar nuevos certificados con las entradas de SAN que se describen aquí. Esto tendrá que hacerse para cada servidor front-end y director (si se encuentra en su entorno) que ejecute el servicio Detección automática. También recomendamos modificar las listas de SAN en los certificados de proxy inverso y agregar entradas de SAN para cada dominio SIP de la organización.
   
-Este debe ser un proceso sencillo si solicita los nuevos certificados de una entidad de certificación interna (entidad de certificación), pero los certificados públicos son más complejos y potencialmente mucho más costosos de volver a solicitar, por no mencionar que puede resultar costoso agregar una gran cantidad de dominios SIP a un nuevo certificado público. En esa situación, hay un enfoque que es compatible, pero **no recomendado.** Puede configurar el proxy inverso para realizar la solicitud de servicio de detección automática inicial a través del puerto 80, que usará HTTP, en lugar del puerto 443, que es HTTPS (y 443 es la configuración predeterminada). Esa solicitud entrante se redirigirá al puerto 8080 del grupo de servidores front-end o del director. Al hacerlo, no tendrá que realizar ningún cambio de certificado, ya que este tráfico no usa HTTPS para las solicitudes. Pero, de nuevo, no lo recomendamos, aunque funcionará para usted.
+Este debe ser un proceso sencillo si solicita los nuevos certificados de una entidad de certificación interna (entidad de certificación), pero los certificados públicos son más complejos y, potencialmente, mucho más costosos de volver a solicitar, por no mencionar que puede resultar costoso agregar una gran cantidad de dominios SIP a un nuevo certificado público. En esa situación, hay un enfoque que es compatible, pero **no recomendado.** Puede configurar el proxy inverso para realizar la solicitud de servicio de detección automática inicial a través del puerto 80, que usará HTTP, en lugar del puerto 443, que es HTTPS (y 443 es la configuración predeterminada). Esa solicitud entrante se redirigirá al puerto 8080 del grupo de servidores front-end o del director. Al hacerlo, no tendrá que realizar ningún cambio de certificado, ya que este tráfico no usa HTTPS para las solicitudes. Pero, de nuevo, no lo recomendamos, aunque funcionará para usted.
   
 ### <a name="windows-and-iis-requirements"></a>Requisitos de Windows e IIS
 
@@ -233,7 +233,7 @@ De nuevo, se recomienda usar la detección automática. Es posible que la config
 Las notificaciones de inserción se usan para aplicaciones móviles que admiten esta funcionalidad para notificar a un usuario de eventos mientras la aplicación no está activa. El servidor perimetral necesitará tener una relación de federación con el servicio de notificación de inserción de Skype Empresarial Server basado en la nube, que se encuentra en el centro de datos de Skype Empresarial Online. Deberá ejecutar un cmdlet para habilitar las notificaciones de inserción.
   
 > [!NOTE]
-> Si tiene a alguien que todavía usa clientes de Lync Server 2010, necesitará el puerto TCP 5223 de salida abierto en la red WiFi de su empresa. 
+> Si tiene a alguien que aún usa clientes de Lync Server 2010, necesitará el puerto TCP 5223 saliente abierto en la red WiFi empresarial. 
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>¿Desea que todos los usuarios tengan acceso a todas las características de movilidad o desea especificar los usuarios que pueden acceder a estas características en su lugar?
 
@@ -244,11 +244,11 @@ Tenemos una tabla para ayudar con algunas de las características que están dis
   
 |**Característica**|**Nombre del parámetro**|**Descripción**|**Configuración predeterminada**|
 |:-----|:-----|:-----|:-----|
-|Habilitar movilidad  <br/> |EnableMobility  <br/> |Controla los usuarios de un ámbito determinado que tienen instalado el cliente móvil de Skype Empresarial. Si la directiva se establece en False, los usuarios no podrán iniciar sesión con su cliente.  <br/> |Verdadero  <br/> |
+|Habilitar la movilidad  <br/> |EnableMobility  <br/> |Controla los usuarios de un ámbito determinado que tienen instalado el cliente móvil de Skype Empresarial. Si la directiva se establece en False, los usuarios no podrán iniciar sesión con su cliente.  <br/> |Verdadero  <br/> |
 |Voz externa  <br/> |EnableOutsideVoice  <br/> |Permite que un usuario pueda usar Vía trabajo, lo que permite a los usuarios enviar y recibir llamadas mediante su número de trabajo en lugar de su número de teléfono móvil. Si se establece en False, los usuarios no podrán realizar ni recibir llamadas en su teléfono móvil cuando utilicen su número de teléfono del trabajo.  <br/> |Verdadero  <br/> |
 |Habilitar audio y vídeo IP  <br/> |EnableIPAudioVideo  <br/> |Se establece en el valor predeterminado, que permite a un usuario usar VoIP para realizar o recibir llamadas de teléfono o vídeo en su dispositivo móvil. Cuando se establece en False, los usuarios no podrán usar su dispositivo móvil para realizar ninguna de estas cosas.  <br/> |Verdadero  <br/> |
-|Requerir WiFi para audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Define si un cliente necesitará realizar y recibir llamadas a través de VoIP en WiFi en lugar de una red de datos móviles. Si se establece en True, los usuarios solo podrán realizar y recibir llamadas VoIP cuando estén conectados a través de WiFi.  <br/> |False  <br/> |
-|Requerir WiFi para vídeo IP  <br/> |RequireWiFiForIPVideo  <br/> |Define si un cliente necesitará realizar y recibir videollamadas en una red WiFi en lugar de una red de datos móviles. Si se establece en True, los usuarios solo podrán realizar y recibir llamadas VoIP cuando estén conectados a través de WiFi.  <br/> |False  <br/> |
+|Requerir WiFi para audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Define si un cliente necesitará realizar y recibir llamadas a través de VoIP en WiFi en lugar de una red de datos móviles. Si se establece en True, los usuarios solo podrán realizar y recibir llamadas VoIP cuando estén conectados a través de WiFi.  <br/> |Falso  <br/> |
+|Requerir WiFi para vídeo IP  <br/> |RequireWiFiForIPVideo  <br/> |Define si un cliente necesitará realizar y recibir videollamadas en una red WiFi en lugar de una red de datos móviles. Si se establece en True, los usuarios solo podrán realizar y recibir llamadas VoIP cuando estén conectados a través de WiFi.  <br/> |Falso  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>¿Los usuarios que no están habilitados para Telefonía IP empresarial pueden usar Hacer clic para unirse para unirse a conferencias?
 
@@ -261,6 +261,6 @@ Para que los usuarios tengan acceso a las características de movilidad y Vía t
 En ambos casos, la directiva de voz que asigne debe tener registros de uso de la red telefónica conmutada (RTC) y rutas que definan dónde podrán llamar los usuarios para unirse a conferencias.
   
 > [!NOTE]
-> Los usuarios móviles que quieran usar Hacer clic y unirse requieren una directiva de voz, junto con los registros de uso de RTC y rutas de voz relacionados, ya que al hacer clic en ese vínculo en sus dispositivos móviles, se realizará una llamada saliente desde Skype Empresarial Server. 
+> Los usuarios móviles que quieran usar Hacer clic para unirse requieren una directiva de voz, junto con los registros de uso de RTC y rutas de voz relacionados, ya que al hacer clic en ese vínculo en sus dispositivos móviles, se dará como resultado una llamada saliente de Skype Empresarial Server. 
   
 

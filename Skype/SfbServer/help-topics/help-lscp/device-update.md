@@ -62,6 +62,6 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 - **Actualizar** Puedes actualizar la lista para comprobar el estado de todas las actualizaciones de dispositivos.
 
 Para obtener más información sobre el servicio web de actualización de dispositivos, vea [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) en la documentación de planeación.
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

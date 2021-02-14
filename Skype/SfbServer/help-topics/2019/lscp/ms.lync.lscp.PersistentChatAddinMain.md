@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 ROBOTS: NOINDEX, NOFOLLOW
-description: Puede usar la sección Complemento de la página chat persistente para asociar direcciones URL con los salón de chat persistente. Estas direcciones URL aparecen en el cliente en el salón de chat en el panel de extensibilidad de la conversación. Un administrador debe agregar complementos a la lista de complementos registrados, y los administradores/creadores de salas de chat deben asociar los salas con uno de los complementos registrados para que los usuarios puedan ver esta actualización en su cliente.
+description: Puede usar la sección Complemento de la página chat persistente para asociar direcciones URL con los salón de chat persistente. Estas direcciones URL aparecen en el cliente en el salón de chat en el panel de extensibilidad de la conversación. Un administrador debe agregar complementos a la lista de complementos registrados, y los administradores o creadores de los salón de chat deben asociar salas con uno de los complementos registrados para que los usuarios puedan ver esta actualización en su cliente.
 ms.openlocfilehash: 39c5b5bb94d0be627d6124f16eec38f4d458947e
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

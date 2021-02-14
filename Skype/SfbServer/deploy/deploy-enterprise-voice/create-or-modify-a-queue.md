@@ -52,7 +52,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
 6. En **Descripción**, escriba una descripción para la cola.
     
-7. En **Grupos,** especifique los grupos que desea asignar a la cola. Realice una de las siguientes acciones: 
+7. En **Grupos,** especifique los grupos que desea asignar a la cola. Realice una de las acciones siguientes: 
     
    - Para agregar un grupo a la cola, haga clic en **Seleccionar**. En **el** campo de búsqueda Seleccionar grupos, escriba todo o parte del nombre del grupo de agentes que desea asignar a la cola, haga clic en el grupo de agentes que desee y, a continuación, haga clic en **Aceptar.**
     

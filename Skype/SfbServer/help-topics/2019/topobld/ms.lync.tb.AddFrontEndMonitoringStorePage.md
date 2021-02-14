@@ -48,6 +48,6 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Asociar un almacén de supervisión con un grupo de servidores front-end en Skype Empresarial Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

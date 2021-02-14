@@ -61,14 +61,14 @@ Los usuarios pueden filtrar cualquiera de estas vistas para ver datos durante un
 
     |Elemento |Descripción  |
     |--------|-------------|
-    |**Resumen**   |Resumen de la actividad del equipo, incluidos los siguientes:<ul><li>**Usuarios:** número total de usuarios en el período de tiempo especificado. Esto incluye a los propietarios del equipo, los miembros del equipo y los invitados.</li> <li>**Publicaciones:** número de mensajes nuevos publicados en el chat del equipo durante el período de tiempo especificado.</li><li>**Respuestas:** número de respuestas en el chat del equipo durante el período de tiempo especificado.</li> <li>**Aplicaciones:** número de aplicaciones agregadas al equipo.</li><li>**Reuniones:** número de reuniones de Teams organizadas a nivel de equipo.</li> </ul> |
+    |**Resumen**   |Resumen de la actividad del equipo, incluidos los siguientes:<ul><li>**Usuarios:** número total de usuarios en el período de tiempo especificado. Esto incluye a los propietarios del equipo, los miembros del equipo y los invitados.</li> <li>**Publicaciones:** número de mensajes nuevos publicados en el chat del equipo durante el período de tiempo especificado.</li><li>**Respuestas:** número de respuestas en el chat de equipo durante el período de tiempo especificado.</li> <li>**Aplicaciones:** número de aplicaciones agregadas al equipo.</li><li>**Reuniones:** número de reuniones de Teams organizadas a nivel de equipo.</li> </ul> |
     |**Usuarios activos**   |Número de usuarios activos e inactivos.|
     |**Rol**   |Número de usuarios por rol, incluidos los propietarios del equipo, los miembros del equipo e invitados.|
     |**Gráfico de usuarios activos**  |Número de activos diarios. Mantenga el mouse sobre el punto de una fecha determinada para ver el número de usuarios activos en esa fecha.|
     |**Gráfico de** mensajes  |Número total de mensajes publicados en el chat del equipo por fecha. Mantenga el mouse sobre el punto de una fecha determinada para ver el número de nuevas publicaciones y respuestas publicadas en esa fecha.|
 
 > [!TIP]
-> También puede ver el análisis por equipo haciendo clic en un equipo en la lista en la [vista de análisis entre equipos.](#view-cross-team-analytics)
+> También puede ver el análisis por equipo haciendo clic en un equipo en la lista en la vista de análisis [entre equipos.](#view-cross-team-analytics)
 
 ## <a name="view-per-channel-analytics"></a>Ver análisis por canal
 

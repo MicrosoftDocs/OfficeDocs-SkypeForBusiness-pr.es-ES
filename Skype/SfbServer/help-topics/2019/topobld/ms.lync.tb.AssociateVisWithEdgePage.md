@@ -26,7 +26,7 @@ ms.locfileid: "49811330"
  
 The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea en Implementar el rol de servidor VIS en [Skype Empresarial Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea en Implementar el rol de servidor [VIS en Skype Empresarial Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
   
@@ -34,6 +34,6 @@ The configuration steps for a new Video Interop Server using Windows PowerShell 
   
  La configuración de un VTC que debe establecerse en la interfaz gráfica de usuario de Cisco para la interoperación con una puerta de enlace de vídeo y un VIS se describen en línea en [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planear el servidor de interoperabilidad de vídeo en Skype Empresarial Server](../../../plan-your-deployment/video-interop-server.md)

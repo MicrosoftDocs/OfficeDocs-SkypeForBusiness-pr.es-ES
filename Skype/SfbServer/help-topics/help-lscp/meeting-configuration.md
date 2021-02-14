@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: Las opciones de configuración de reuniones definen el tipo de conferencias (también denominadas eliminaciones) que los usuarios pueden crear y controlan cómo (o si) los usuarios anónimos y los usuarios de conferencia de acceso telefónico local pueden unirse a estas conferencias. Estas opciones solo se aplican a reuniones programadas. No se aplican a reuniones ad hoc creadas haciendo clic en la opción Reunirse ahora en el cliente.
+description: Las opciones de configuración de reuniones definen el tipo de conferencias (también denominadas "eliminaciones") que los usuarios pueden crear y controlan cómo (o si) los usuarios anónimos y los usuarios de conferencia de acceso telefónico local pueden unirse a estas conferencias. Estas opciones solo se aplican a reuniones programadas. No se aplican a reuniones ad hoc creadas haciendo clic en la opción Reunirse ahora en el cliente.
 ms.openlocfilehash: 804aa22f750c86aacacb9bd4d938d364967b86f9
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -57,7 +57,7 @@ En la siguiente lista se describen los comandos de la página.
     > [!NOTE]
     > Para la configuración de reunión global, **Eliminar** restablece la configuración a los valores predeterminados.
 
-- **Actualizar** Actualiza la lista de configuraciones de reuniones.
+- **Actualizar** Actualiza la lista de configuraciones de reunión.
 
 En la siguiente lista se describen los campos de la página.
 

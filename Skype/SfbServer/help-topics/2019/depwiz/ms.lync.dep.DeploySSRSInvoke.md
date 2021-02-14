@@ -29,7 +29,7 @@ Después de proporcionar la información necesaria para la implementación de lo
 Examine el resumen de los comandos y tenga en cuenta los mensajes de error o advertencia que se muestran. Si se genera un archivo de registro, selecciónelo en la lista desplegable de la ventana de resumen; a continuación, haga clic en **Ver registro** para ver en pantalla el archivo de registro.
   
 > [!IMPORTANT]
-> Para que los informes de Reporting Services se implemente correctamente y tengan acceso a los informes una vez completada la implementación, debe tener abierto el puerto TCP/IP 80 (y, opcionalmente, el puerto TCP 443 para SSL, si asigna un certificado a Reporting Services) en el Firewall de Windows con seguridad avanzada en SQL Server. Para obtener más información, consulte Configurar firewall de [Windows para permitir SQL Server acceso](https://go.microsoft.com/fwlink/p/?linkId=218031) a Microsoft SQL Server 2008 R2.
+> Para que los informes de Reporting Services se implemente correctamente y tengan acceso a los informes una vez completada la implementación, debe tener abierto el puerto TCP/IP 80 (y, opcionalmente, el puerto TCP 443 para SSL, si asigna un certificado a Reporting Services) en el Firewall de Windows con seguridad avanzada en SQL Server. Para obtener más información, consulte Configurar firewall de Windows para [permitir SQL Server acceso](https://go.microsoft.com/fwlink/p/?linkId=218031) a Microsoft SQL Server 2008 R2.
   
 Después de revisar el  resumen, haga clic en Finalizar para completar la instalación de los informes en SQL Server Reporting Services.
   

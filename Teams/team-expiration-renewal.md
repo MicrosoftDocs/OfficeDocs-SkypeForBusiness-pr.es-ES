@@ -35,7 +35,7 @@ Cuando aplica una directiva de expiración a un equipo, el propietario del equip
 
 Si el propietario del equipo no renueva el equipo y no hay ninguna actividad más en el equipo hasta el final de la directiva de expiración, el equipo se pone en el estado "eliminado temporalmente", lo que significa que se puede restaurar en los próximos 30 días.
 
-## <a name="team-auto-renewal"></a>Renovación automática del equipo
+## <a name="team-auto-renewal"></a>Renovación automática de Team
 
 Puede haber ocasiones en las que el propietario de un equipo no pueda renovar el equipo, quizás porque se olvidó de renovar o porque estaba fuera cuando hubo renovación. En estos escenarios, un equipo en uso activo puede eliminarse debido a las directivas de expiración que se aplican al equipo.  
 

@@ -1,5 +1,5 @@
 ---
-title: Encuestas y correos electrónicos de transición de Microsoft Teams | Actualización básica
+title: Las encuestas y los correos electrónicos de transición de Microsoft Teams | Actualización básica
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Correos electrónicos y encuestas de ejemplo para usarlos conjuntamente con el plan de acción acelerada de diez pasos para actualizar de Skype Empresarial a Teams
+description: Muestra de correos electrónicos y encuestas para usar en conjunción con el plan de acción acelerada de diez pasos para actualizar de Skype Empresarial a Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indique cuáles son sus aptitudes para realizar las siguientes actividades en Teams y si hay una o más actividades sobre las que le gustaría obtener más información.
 
-| &nbsp; | Muy cualificados | Algo capacitados | Nada capacitado | ¿Desea obtener más información? | N/D | No está seguro/no está seguro | | | | |
+| &nbsp; | Muy cualificados | Algo capacitado | Nada capacitado | ¿Desea obtener más información? | N/D | No está seguro/no está seguro | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Usar Teams para mensajería instantánea o chatear con otras personas | | | | | | | | | | |
 | Usar Teams para reuniones en línea | | | | | | | | | | |
