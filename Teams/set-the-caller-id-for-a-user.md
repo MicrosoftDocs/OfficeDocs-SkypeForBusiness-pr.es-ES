@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga más información sobre la identificación de llamadas predeterminada de Microsoft 365 y Office 365 (el número de teléfono asignado a un usuario), también conocido como identificador de línea de llamada. Puede cambiar o bloquear la identificación de llamadas de un usuario.
+description: Obtenga información sobre el identificador de llamada predeterminado de Microsoft 365 y Office 365 (el número de teléfono asignado a un usuario), también conocido como Identificador de línea de llamada. Puede cambiar o bloquear el identificador de llamada de un usuario.
 ms.openlocfilehash: ff8355b9435d0a21c032ee90b442884c0319221c
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/15/2020
 ms.locfileid: "47814329"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
-El sistema telefónico en Microsoft 365 y Office 365 proporciona una identificación de llamadas predeterminada que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Para obtener más información sobre cómo usar la identificación de llamadas en su organización, vaya a [cómo se puede usar la identificación de llamadas en la organización](how-can-caller-id-be-used-in-your-organization.md).
+El sistema telefónico de Microsoft 365 y Office 365 proporciona un identificador de llamada predeterminado que es el número de teléfono asignado al usuario. Si lo desea, puede cambiar o bloquear el identificador de llamada (también denominado identificador de línea de llamada) para un usuario. Para obtener más información sobre cómo usar el identificador de llamada en su organización, vaya a Cómo se puede usar la identificación de llamadas [en su organización.](how-can-caller-id-be-used-in-your-organization.md)
   
 > [!TIP]
 > Actualmente no se pueden bloquear las llamadas entrantes en Skype for Business Online. 
@@ -45,9 +45,9 @@ Hay algunos ajustes que puede cambiar:
     > [!NOTE]
     > Si desea usar el parámetro  _Service_, deberá especificar un número de servicio válido.
   
-- **Bloquear la identificación de llamadas salientes** Puedes bloquear la identificación de llamadas salientes para que no se envíen en las llamadas RTC salientes de un usuario. Al hacerlo, se bloqueará el número de teléfono para que no se muestre en el teléfono de la persona que llama.
+- **Bloquear el identificador de llamada saliente** Puede impedir que el identificador de llamada saliente se envíe en las llamadas RTC salientes de un usuario. Al hacerlo, se bloqueará el número de teléfono para que no se muestre en el teléfono de la persona que llama.
     
-- **Bloquear la identificación de llamadas entrantes** Puede bloquear a un usuario para que no reciba la identificación de llamadas en las llamadas RTC entrantes.
+- **Bloquear el identificador de llamada entrante** Puede impedir que un usuario reciba el identificador de llamada en las llamadas RTC entrantes.
     
 > [!IMPORTANT]
 > Las llamadas de emergencia siempre envían el número de teléfono de los usuarios (identificador de llamada). 
@@ -56,10 +56,10 @@ De manera predeterminada, estos ajustes del identificador de llamada están **de
   
 Para obtener más información sobre esta configuración y cómo usarla, vaya [Cómo se puede usar la identificación de llamadas en su organización](how-can-caller-id-be-used-in-your-organization.md).
   
-## <a name="set-your-caller-id-policy-settings"></a>Establecer la configuración de la Directiva de identificación de llamadas
+## <a name="set-your-caller-id-policy-settings"></a>Establecer la configuración de la directiva de identificador de llamada
 
 > [!NOTE]
-> Para todas las opciones de identificación de llamadas en Skype empresarial online, debe usar Windows PowerShell y **no puede usar** el centro de **Administración de Skype empresarial**. 
+> Para toda la configuración del identificador de llamada en Skype Empresarial Online, debe usar Windows PowerShell y no puede usar el **Centro** de administración de **Skype Empresarial.** 
   
 ### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
@@ -69,22 +69,22 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
     
 2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
     
-3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le solicite.
+3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4.0 para](https://go.microsoft.com/fwlink/?LinkId=716845) descargar y actualizar Windows PowerShell a la versión 4.0. Reinicie el equipo cuando se le solicite.
     
 4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-    Si necesita más información, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Si necesita más información, vea Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx)en una única Windows PowerShell ventana.
     
 - **Iniciar una sesión de Windows PowerShell**
     
 1. En el **menú Inicio** > **Windows PowerShell**.
     
-2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
+2. En la **Windows PowerShell** de correo electrónico, conéctese a Su Microsoft 365 u Office 365 ejecutando:
     
    > [!NOTE]
    >
-   > En este momento, el conector de Skype empresarial online forma parte del módulo de PowerShell más reciente de Teams.
-   > Si está usando la [versión pública de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online.
+   > Skype Empresarial Online Connector forma actualmente parte del módulo de PowerShell de Teams más reciente.
+   > Si usa la versión pública más reciente de PowerShell de [Teams,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar Skype Empresarial Online Connector.
    ```PowerShell
     Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
@@ -92,21 +92,21 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
     Import-PSSession $session
    ```
 
-Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Si desea más información sobre cómo iniciar Windows PowerShell, consulte Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx) en una única ventana de Windows PowerShell o Configurar el equipo para [Windows PowerShell.](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Ver toda la configuración de la Directiva de identificación de llamadas de su organización
+### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Ver toda la configuración de la directiva de identificador de llamada en su organización
 
-- Para ver todas las opciones de configuración de la Directiva de identificación de llamadas de su organización, ejecute:
+- Para ver toda la configuración de la directiva de identificador de llamada en su organización, ejecute:
 
   ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  Vea más ejemplos y detalles para [Get-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx).
+  Vea más ejemplos y detalles [sobre Get-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793856.aspx)
     
-### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Crear una nueva Directiva de identificación de llamadas para la organización
+### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Crear una nueva directiva de identificador de llamada para su organización
 
 
-- Para crear una nueva Directiva de identificación de llamadas que establezca la identificación de llamadas en Anonymous, ejecute:
+- Para crear una nueva directiva de identificador de llamada que establece el identificador de llamada en anónimo, ejecute:
     
   ```PowerShell
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -114,32 +114,32 @@ Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [
   > [!NOTE]  
   > En todos los casos, el campo "Número de servicio" no debe incluir un "+" inicial.
 
-  Ver más ejemplos y detalles para [New-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx).
+  Vea más ejemplos y detalles de [New-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793855.aspx)
     
-- Para aplicar la nueva directiva que ha creado a amos Marble, ejecute:
+- Para aplicar la nueva directiva a Amos Marble, ejecute:
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  Para obtener más información, consulta el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) .
+  Vea más sobre el [cmdlet Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
     
-Si ya ha creado una directiva, puede usar el cmdlet [set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) para aplicar la configuración a los usuarios.
   
-### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Configurarlo para que la identificación de llamadas entrantes esté bloqueada
+### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Establecer que el identificador de llamada entrante esté bloqueado
 
-- Para bloquear la identificación de llamadas entrantes, ejecute:
+- Para bloquear el identificador de llamada entrante, ejecute:
     
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Ver más ejemplos y detalles para [set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx).
+  Vea más ejemplos y detalles [de Set-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793854.aspx)
     
 - Para aplicar la configuración de directiva que ha creado a un usuario de su organización, ejecute:
     
   ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    Para obtener más información, consulta el cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) .
+    Vea más sobre el [cmdlet Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
     
 ### <a name="remove-a-caller-id-policy"></a>Quitar una directiva de identificación de llamadas
 
@@ -155,13 +155,13 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype empresarial online con un único punto de administración que puede simplificar su trabajo diario cuando tenga que hacer varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos por los que es posible que desee usar Windows PowerShell para administrar Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos por los que podría desear usar Windows PowerShell administrar Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso solo del Centro de administración de Microsoft 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

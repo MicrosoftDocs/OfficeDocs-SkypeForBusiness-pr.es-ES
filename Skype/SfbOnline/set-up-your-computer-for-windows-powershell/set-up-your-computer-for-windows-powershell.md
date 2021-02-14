@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Descubra los requisitos para la administración remota de Skype empresarial online a través de Windows PowerShell, incluidos los sistemas operativos compatibles.
+description: Descubra los requisitos para la administración remota de Skype Empresarial Online a Windows PowerShell, incluidos los sistemas operativos compatibles.
 ms.openlocfilehash: 42f1a8d922d3ecdd738aa82e13567540f53af231
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.locfileid: "47814389"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurar el equipo para Windows PowerShell
 
-La administración remota de Skype empresarial online mediante Microsoft PowerShell solo es compatible con equipos de 64 de bits que ejecuten uno de los siguientes sistemas operativos:
+La administración remota de Skype Empresarial Online mediante Microsoft PowerShell solo se admite en equipos de 64 bits que ejecuten uno de los siguientes sistemas operativos:
 
 - Windows Server 2016
 
@@ -46,22 +46,22 @@ La administración remota de Skype empresarial online mediante Microsoft PowerSh
     
 - Windows 7
     
-Además del sistema operativo compatible, el equipo también debe estar ejecutando lo siguiente:
+Además del sistema operativo compatible, el equipo también debe ejecutar lo siguiente:
   
 - PowerShell
     
-- Módulo de PowerShell de Teams 
+- Módulo De PowerShell de Teams 
     
-Puede encontrar información sobre la descarga e instalación de estos elementos en los siguientes temas:
+Encontrará información sobre la descarga e instalación de estos elementos en los temas siguientes:
   
-- [Descargar e instalar el módulo de PowerShell Teams](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
+- [Descargar e instalar el módulo De PowerShell de Teams](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Descargar e instalar Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [Administrar Skype empresarial online con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [Administrar Skype Empresarial Online con PowerShell de Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## <a name="related-topics"></a>Temas relacionados
-[Diagnosticar problemas de conexión con el conector de Skype empresarial online](diagnose-problems-with-the-skype-for-business-online-connector.md)
+[Diagnosticar problemas de conexión con el conector de Skype Empresarial Online](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
  

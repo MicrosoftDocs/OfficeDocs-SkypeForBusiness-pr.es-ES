@@ -1,5 +1,5 @@
 ---
-title: Plantillas para organizaciones de salud
+title: Plantillas para organizaciones sanitarias
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -29,44 +29,44 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 10/28/2020
 ms.locfileid: "48790412"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas de Teams para organizaciones de sanidad
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas de Teams para organizaciones sanitarias
 
 Las plantillas de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
-Para las organizaciones de salud, las plantillas pueden ser especialmente eficaces, puesto que proporcionan una estructura para que los usuarios se orienten con el uso eficaz de Teams. Las plantillas también permiten a los administradores implementar equipos coherentes en sus organizaciones. Este artículo le interesa si es responsable de planear, implementar y administrar varios equipos en la organización de la salud.
+Para las organizaciones sanitarias, las plantillas pueden ser especialmente eficaces, ya que proporcionan una estructura para que los usuarios se orienten sobre cómo usar Teams de manera eficaz. Las plantillas también permiten a los administradores implementar equipos coherentes en todas sus organizaciones. Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización sanitaria.
 
-Actualmente ofrecemos dos plantillas de atención médica de origen que puede usar para una gran variedad de situaciones. Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas](../../get-started-with-teams-templates.md)de Teams.
+Actualmente, ofrecemos dos plantillas sanitarias de terceros que puede usar para una variedad de situaciones. Para obtener más información sobre las plantillas de equipo en general, vea Introducción [a las plantillas de Teams.](../../get-started-with-teams-templates.md)
 
-## <a name="ward-template"></a>Plantilla en adelante
+## <a name="ward-template"></a>Plantilla de sala
 
-La plantilla en adelante está pensada para la comunicación y la colaboración dentro de un interior, un conjunto Pod o un departamento. La plantilla se puede usar para facilitar la administración de pacientes, así como las necesidades operacionales de un mismo. Por ejemplo, los anuncios en adelante se pueden publicar en el canal de *anuncios* y los turnos se pueden administrar en el *personal* . Si está buscando simplificar sus operaciones en el exterior, esta plantilla es para usted.
+La plantilla del centro está pensada para la comunicación y la colaboración dentro de un departamento, una vaina o un departamento. La plantilla se puede usar para facilitar la administración del paciente, así como las necesidades operativas de un centro de atención. Por ejemplo, los anuncios del canal Anuncios se pueden publicar en el canal *Anuncios* y los turnos se pueden administrar en *Personal.* Si quiere simplificar las operaciones de sala, esta plantilla es la adecuada para usted.
 
-|Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
+|Tipo de plantilla base |baseTemplateId |Canales de plantilla de línea base|
 |:--- |:---|:---|
-|Atención médica en adelante | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Anuncios\* <br> Huddles\* <br> Hacia\* <br> Personal\* <br> Aprendizaje\* |
+|Salud - Centro de salud | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Anuncios\* <br> Garabatos\* <br> Redondear\* <br> Empleados\* <br> Aprendizaje\* |
 |     | |         |
 
-\* Con favoritos automáticos
+\* Favorito automático
 
-## <a name="hospital-template"></a>Plantilla de hospital
+## <a name="hospital-template"></a>Plantilla hospital
 
-La plantilla del hospital está pensada para la comunicación y la colaboración entre varios departamentos, pods y otros departamentos dentro de un hospital. En esta plantilla se incluyen varios canales operativos, entre los que se incluyen *anuncios* , personalización de la *asistencia* y *farmacia* , pero también ofrecemos una secuencia de comandos a continuación que extiende la plantilla con una variedad de canales adicionales centrados en el servicio o que puede Agregar, eliminar o editar a su gusto. Por ejemplo, si tiene un departamento de *Endocrinology* , pero no necesita un canal para *Ophthalmology* , la secuencia de comandos puede adaptarse para incluir un canal de *Endocrinology* y quitar el canal *Ophthalmology* . Le recomendamos que estos canales de especialidad o modelos en el exterior no se hayan preferido de forma automática para evitar la saturación de las notificaciones. Por lo general, los usuarios tienen los canales que encuentran relevantes.
+La plantilla hospitalaria está pensada para la comunicación y colaboración entre varios centros hospitalarios, podios y departamentos. Esta plantilla incluye varios canales de operaciones, entre los que se incluyen *Anuncios,* *Limpiezal* y *Química,* pero a continuación le proporcionamos un script que amplía la plantilla con una variedad de canales adicionales centrados en el departamento o centrados en la atención que puede agregar, eliminar o editar a su gusto. Por ejemplo, si tiene un departamento de *endocrinology,* pero no necesita un canal para *Ophologymology,* el script puede adaptarse para incluir un canal de *endocrinology* y eliminar el canal de *Ophphology.* Recomendamos que estos canales especiales o modelo de canal no se agregó como favoritos automáticamente para evitar la saturación de notificaciones. Por lo general, los usuarios son favoritos de los canales que les sean relevantes.
 
-|Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
+|Tipo de plantilla base |baseTemplateId |Canales de plantilla de línea base|
 |:--- |:---|:---|
-|Asistencia sanitaria-Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Anuncios\* <br> Cumplimiento\* <br> Private <br> Recursos humanos <br> Pertenecie |
+|Salud - Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Anuncios\* <br> Cumplimiento\* <br> Descúyal <br> Recursos humanos <br> Clínica |
 | | |  |
 
-\* Con favoritos automáticos 
+\* Favorito automático 
 
-## <a name="how-to-use-first-party-templates"></a>Cómo usar las plantillas de origen
+## <a name="how-to-use-first-party-templates"></a>Cómo usar plantillas de terceros
 
-Para usar estas plantillas, simplemente cambie la propiedad ' template@odata. bind ' en el cuerpo de la solicitud de ' Standard ' a la TemplateIDs anterior.  Para obtener más información sobre cómo implementar las plantillas de Teams, vea el artículo de Microsoft Graph sobre cómo [crear un equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Para usar estas plantillas, simplemente cambie la propiedad "template@odata.bind" en el cuerpo de la solicitud de "estándar" a los templateIDs anteriores.  Para obtener más información sobre cómo implementar plantillas de Teams, vea el artículo de Microsoft Graph sobre cómo [crear un equipo.](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)
 
 > [!NOTE]
-> Los canales de la plantilla se crearán automáticamente en la ficha General.
+> Los canales de la plantilla se crearán automáticamente en la pestaña General.
 
-### <a name="example-hospital-template-extension-script"></a>Ejemplo: script de extensión de plantilla de hospital
+### <a name="example-hospital-template-extension-script"></a>Ejemplo: Script de extensión de plantilla hospitalaria
 
 ``` Powershell
 { 

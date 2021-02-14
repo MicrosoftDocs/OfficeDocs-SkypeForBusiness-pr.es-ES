@@ -30,43 +30,43 @@ ms.locfileid: "48424600"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
-Llamar a estacionamiento y recuperar es una característica que permite al usuario poner una llamada en espera. Cuando se aparca una llamada, el servicio genera un código único para la recuperación de la llamada. El usuario que ha aparcado la llamada u otra persona puede usar ese código con una aplicación o dispositivo admitido para recuperar la llamada. (Consulte [detener una llamada en Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) para obtener más información).
+La característica de estacionar y recuperar llamadas es una característica que permite a un usuario poner una llamada en espera. Cuando una llamada está estacionada, el servicio genera un código único para la recuperación de la llamada. El usuario que estacionó la llamada o cualquier otra persona puede usar ese código con una aplicación o dispositivo compatible para recuperar la llamada. (Consulte [Estacione una llamada en Teams para](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) obtener más información).
 
 Algunos de los escenarios comunes para usar el parque de llamadas son:
 
-- Un recepcionista que recepcionista una llamada a alguien que trabaja en una fábrica. El recepcionista anuncia entonces la llamada y el número de código en el sistema de dirección pública. El usuario al que corresponde la llamada puede recoger un teléfono del equipo en la fábrica e introducir el código para recuperar la llamada.
-- Un usuario activa una llamada en un dispositivo móvil porque la batería del dispositivo se está agotando. Después, el usuario puede introducir el código para recuperar la llamada desde un teléfono de escritorio de Teams.
-- Un representante de soporte técnico se apoya una llamada de cliente y envía un anuncio en un canal de Teams para que un experto pueda recuperar la llamada y ayudar al cliente. Un experto escribe el código de los clientes de Teams para recuperar la llamada
+- Un parque de recepciones es una llamada para alguien que trabaja en una fábrica. El recepcionista anunciará entonces la llamada y el número de código en el sistema de direcciones públicas. El usuario para el que se llama puede elegir un teléfono de Teams en la planta de fábrica y escribir el código para recuperar la llamada.
+- Un parque de usuarios es una llamada en un dispositivo móvil porque la batería del dispositivo se está quedando sin energía. Después, el usuario puede escribir el código para recuperar la llamada desde un teléfono de escritorio de Teams.
+- Un representante de soporte técnico llama a un cliente y envía un anuncio en un canal de Teams para que un experto recupere la llamada y ayude al cliente. Un experto escribe el código en los clientes de Teams para recuperar la llamada
 
-Para detener y recuperar llamadas, un usuario debe ser un usuario de voz de empresa y debe estar incluido en una directiva de Parque de llamadas.
+Para estacionar y recuperar llamadas, un usuario debe ser Telefonía IP empresarial usuario y debe incluirse en una directiva de parque de llamadas.
 
 > [!NOTE]
-> La llamada en estacionamiento y recuperar solo está disponible en el [modo de implementación solo de Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) y no es compatible con los teléfonos IP de Skype empresarial.
+> El parque de llamadas y la recuperación solo está disponible en el modo de implementación [de Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md) y no es compatible con los teléfonos IP de Skype Empresarial.
 
 ## <a name="configure-call-park-and-retrieve"></a>Configurar el parque de llamadas y recuperar
 
-Debe ser un administrador de equipo para configurar el parque de llamadas y recuperar. Está deshabilitada de forma predeterminada. Puede habilitarlo para los usuarios y crear grupos de usuarios con la Directiva de estacionamiento de llamadas. Al aplicar la misma directiva a un conjunto de usuarios, pueden detenerse y recuperar llamadas entre sí.
+Debe ser administrador de Teams para configurar el parque de llamadas y recuperarlo. Está deshabilitada de forma predeterminada. Puede habilitarlo para los usuarios y crear grupos de usuarios con la directiva de parque de llamadas. Cuando aplica la misma directiva a un conjunto de usuarios, estos pueden estacionar y recuperar llamadas entre ellos.
 
-Para habilitar una directiva de estacionamiento de llamadas
+Para habilitar una directiva de parque de llamadas
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Voice**  >  **directivas de estacionamiento de llamadas**de voz.
-2. En la pestaña **Administrar directivas** , haga clic en **Agregar**.
-3. Asigne un nombre a la Directiva y, a continuación, cambie **permitir el aparcamiento de llamadas** a **activado**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a las directivas **del parque de** llamadas de  >  **voz.**
+2. En la pestaña **Administrar directivas,** haga clic **en Agregar.**
+3. Asigne un nombre a la directiva y, a continuación, cambie Permitir el **parque de llamadas** a **Activar.**
 
-    ![Captura de pantalla de la configuración de directiva de estacionamiento de llamadas](media/call-park-add-policy.png)
+    ![Captura de pantalla de la configuración de directiva de parque de llamadas](media/call-park-add-policy.png)
 
 4. Seleccione **Guardar**.
 
-Para editar la Directiva, selecciónela en la lista y haga clic en **Editar**.
+Puede editar la directiva seleccionándosela en la lista y haciendo clic en **Editar.**
 
-Para que la Directiva funcione, debe estar asignada a los usuarios. Puede [asignar la Directiva a los usuarios individualmente](assign-policies.md) o asignarlos a un grupo.
+Para que la directiva funcione, debe asignarse a los usuarios. Puede asignar [la directiva a los usuarios individualmente](assign-policies.md) o asignarlos a un grupo.
 
-Para asignar una directiva de papel de llamada a un grupo
+Para asignar una directiva de elemento de llamada a un grupo
 
-1. En la página **directivas de estacionamiento** , en la pestaña asignación de directivas de **Grupo** , haga clic en **Agregar grupo**.
-2. Busque el grupo que desea usar y, a continuación, haga clic en **Agregar**.
-3. Elija un rango comparado con otras asignaciones de grupo.
-4. En **seleccionar una directiva**, elija la Directiva a la que desea asignar este grupo.
+1. En la página **Directivas de parque de** llamadas, en la pestaña **Asignación de** directivas de grupo, haga clic en Agregar **grupo.**
+2. Busque el grupo que desea usar y, a continuación, haga clic en **Agregar.**
+3. Elija una clasificación en comparación con otras tareas de grupo.
+4. En **Seleccionar una directiva,** elija la directiva a la que desea asignar este grupo.
 
     ![](media/call-park-assign-policy-to-group.png)
 
@@ -74,11 +74,11 @@ Para asignar una directiva de papel de llamada a un grupo
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Detener una llamada en Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+[Estacionar una llamada en Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
-[Asignar directivas a los usuarios de Teams](assign-policies.md)
+[Asignar directivas a los usuarios en Teams](assign-policies.md)
 
-[Nuevo: CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
+[New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
 
 [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
 

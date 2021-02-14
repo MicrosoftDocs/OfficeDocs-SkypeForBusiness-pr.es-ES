@@ -28,10 +28,10 @@ ms.locfileid: "47814589"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Activar o desactivar la precarga de contenido con Outlook en las reuniones
 
-Los usuarios pueden cargar previamente el contenido, los archivos o los datos adjuntos adjuntos a una invitación a una reunión de Outlook en una reunión de Skype empresarial online, pero puede activarlos o desactivarlos. Está activada de forma predeterminada en todas las organizaciones que usan Skype empresarial online. Vea información sobre cómo [Precargar datos adjuntos para una reunión de Skype Empresarial.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+El contenido, los archivos o los datos adjuntos que estén adjuntos a una invitación de reunión de Outlook se pueden precargar en una reunión de Skype Empresarial Online, pero esta opción se puede activar o desactivar. Está activada de forma predeterminada para todas las organizaciones que usan Skype Empresarial Online. Vea información sobre cómo [Precargar datos adjuntos para una reunión de Skype Empresarial.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> Por el momento, no hay ningún cmdlet disponible en Skype empresarial online para establecer o ver los valores de conexión de  _MaxContentStorageMB_ y _MaxUploadFileMB_. Solo están disponibles para implementaciones locales. Es importante saber que el contenido no se cargará en una reunión si el contenido adjunto supera el  _MaxUploadFileSizeMB_ o si se alcanza el límite de _MaxContentStorageMB_ .
+> Actualmente, No hay cmdlets disponibles en Skype Empresarial Online para configurar o ver valores en línea para _MaxContentStorageMB_ y _MaxUploadFileMB._ Solo están disponibles para implementaciones locales. Es importante saber que el contenido adjunto no se cargará en una reunión si supera el _límite de MaxUploadFileSizeMB_ o si se alcanza el límite _de MaxContentStorageMB._
   
 ## <a name="to-get-you-started"></a>Para empezar
 
@@ -43,11 +43,11 @@ Los usuarios pueden cargar previamente el contenido, los archivos o los datos ad
     
 2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
     
-3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le solicite.
+3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4.0 para](https://go.microsoft.com/fwlink/?LinkId=716845) descargar y actualizar Windows PowerShell a la versión 4.0. Reinicie el equipo cuando se le solicite.
     
 4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-Si necesita más información, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Si necesita más información, consulte Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx)en una única Windows PowerShell ventana.
   
 ### 
 
@@ -55,12 +55,12 @@ Si necesita más información, vea [conectarse a todos los servicios de Microsof
   
 1. En el **menú Inicio** > **Windows PowerShell**.
     
-2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
+2. En la **Windows PowerShell** de correo electrónico, conéctese a Microsoft 365 u Office 365 ejecutando:
     
 > [!NOTE]
-> En este momento, el conector de Skype empresarial online forma parte del módulo de PowerShell más reciente de Teams.
+> Skype Empresarial Online Connector forma actualmente parte del módulo de PowerShell de Teams más reciente.
 >
-> Si está usando la [versión pública de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online.
+> Si usa la versión pública más reciente de PowerShell de [Teams,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar Skype Empresarial Online Connector.
   
 ```PowerShell
 Import-Module -Name MicrosoftTeams
@@ -69,14 +69,14 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Si desea más información sobre cómo iniciar Windows PowerShell, consulte Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx) en una única ventana de Windows PowerShell o Configurar el equipo para [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="turning-it-on-or-off"></a>Activación o desactivación
 
-Poder cargar previamente el contenido adjunto a una invitación a una reunión de Outlook en las reuniones de Skype empresarial online está activado de forma predeterminada, pero es posible que no desee que los usuarios de su organización carguen previamente contenido en sus reuniones.
+La opción de precargar contenido adjunto a una invitación de reunión de Outlook a reuniones de Skype Empresarial Online está activada de forma predeterminada, pero es posible que tenga que evitar que los usuarios de su organización precarguen contenido en sus reuniones.
   
 > [!IMPORTANT]
-> Esta configuración solo se puede activar o desactivar para toda la organización; no puede activarlo o desactivarlo para un solo usuario. 
+> Esta configuración solo puede estar activada o desactivada para toda la organización; no se puede activar ni desactivar para un solo usuario. 
   
  **Para desactivarla, abra Windows PowerShell y haga lo siguiente:**
   
@@ -92,13 +92,13 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype empresarial online con un único punto de administración que puede simplificar su trabajo diario cuando tenga que hacer varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos por los que es posible que desee usar Windows PowerShell para administrar Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos por los que podría desear usar Windows PowerShell administrar Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso solo del Centro de administración de Microsoft 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

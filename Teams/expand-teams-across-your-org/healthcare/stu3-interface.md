@@ -1,5 +1,5 @@
 ---
-title: Interfaz de STU3 y integración de EHR de la aplicación para pacientes
+title: Interfaz DE LA APLICACIÓN Pacientes y la integración de EHR STU3
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Obtenga información sobre cómo integrar los registros de mantenimiento Electrónico en la aplicación de pacientes de Microsoft Teams y la especificación de la interfaz de STU3.
+description: Obtenga información sobre la integración de registros electrónicos de salud en la aplicación Pacientes de Microsoft Teams y la especificación de la interfaz STU3.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4e20619badb2509d0a90f396563a98796e718e2f
@@ -29,75 +29,75 @@ ms.locfileid: "48803498"
 # <a name="stu3-interface-specification"></a>Especificación de la interfaz STU3
 
 > [!NOTE]
-> Desde el 30 de octubre de 2020, la aplicación de pacientes se ha retirado y se ha sustituido por la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Todos los datos asociados con la aplicación patients se conservan en este grupo, pero ya no se puede obtener acceso a ellos a través de la interfaz de usuario. Los usuarios pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+> A partir del 30 de octubre de 2020, la aplicación Pacientes se ha retirado y reemplazado por la [aplicación Listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Los datos de la aplicación Pacientes se almacenan en el buzón de grupo del grupo de Office 365 que copia de seguridad del equipo. Todos los datos asociados a la aplicación Pacientes se conservan en este grupo, pero ya no se puede acceder a ellos a través de la interfaz de usuario. Los usuarios pueden volver a crear sus listas con la [aplicación Listas.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->Con las listas, los equipos de cuidados de la organización de la salud pueden crear listas de pacientes para escenarios que abarcan desde rondas y reuniones interdisciplinarias hasta supervisión general de pacientes. Consulte la plantilla patients en listas para comenzar. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
+>Con Listas, los equipos de atención al paciente de su organización sanitaria pueden crear listas de pacientes para situaciones que van desde las reuniones interdisciplinarias y las reuniones del equipo hasta la supervisión general del paciente. Consulte la plantilla Pacientes en Listas para empezar. Para obtener más información sobre cómo administrar la aplicación Listas en su organización, vea [Administrar la aplicación Listas.](../../manage-lists-app.md)
 
-Para configurar o volver a configurar un servidor de FHIR para que funcione con la aplicación para pacientes de Microsoft Teams, es necesario comprender a qué datos necesita acceder la aplicación. El servidor de FHIR debe admitir solicitudes POST con paquetes para los siguientes recursos:
+Configurar o volver a configurar un servidor FCONTR para trabajar con la aplicación Microsoft Teams Patients requiere comprender a qué datos debe tener acceso la aplicación. El servidor FCONTR debe admitir solicitudes POST mediante agrupaciones para los siguientes recursos:
 
-- [Propio](#patient)
+- [Paciente](#patient)
 - [Observación](#observation)
 - [Condición](#condition)
-- [Detect](#encounter)
-- [Intolerancia de alergia](#allergyintolerance)
-- [Beneficios](#coverage)
-- [Declaración de medicación](#medication-request) (reemplaza MedicationOrder en la versión DSTU2 de la PatientsApp)
-- Ubicación (la información necesaria de este recurso puede estar incluida en encontrarse)
+- [Encounter](#encounter)
+- [Programación 365](#allergyintolerance)
+- [Cobertura](#coverage)
+- [Declaración de](#medication-request) medicamentos (reemplaza el MedicationOrder en la versión DSTU2 de la PatientsApp)
+- Ubicación (la información necesaria de este recurso se puede incluir en Encounter)
 
 > [!NOTE]
-> El recurso paciente es el único recurso obligatorio (sin que la aplicación se cargue); Sin embargo, se recomienda que el socio implemente la compatibilidad de todos los recursos mencionados anteriormente según las especificaciones proporcionadas a continuación para obtener la mejor experiencia para el usuario final con la aplicación de pacientes de Microsoft Teams.
+> El recurso paciente es el único recurso obligatorio (sin el que la aplicación no se cargará en absoluto); Sin embargo, se recomienda que el partner implemente soporte técnico para todos los recursos mencionados anteriormente por las especificaciones que se proporcionan a continuación para obtener la mejor experiencia del usuario final con la aplicación Pacientes de Microsoft Teams.
 
-Las consultas de la aplicación de pacientes de Microsoft Teams para más de un recurso deben publicar un paquete (lote) de solicitudes a la dirección URL del servidor de FHIR. El servidor debe procesar cada solicitud y devolver un paquete de los recursos coincidentes con cada solicitud. Para obtener más información y ejemplos, consulte [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
+Las consultas de la aplicación Pacientes de Microsoft Teams para más de un recurso deben publicar un paquete (BATCH) de solicitudes en la dirección URL del servidor FCONF. El servidor procesará cada solicitud y devolverá un paquete de los recursos que coincidan con cada solicitud. Para obtener más información y ejemplos, vea [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
 
-## <a name="capability-statement"></a>Declaración de capacidad
+## <a name="capability-statement"></a>Instrucción Capability
 
-Estos son los campos mínimos obligatorios:
+Estos son los campos necesarios mínimos:
 
- - DESCANSO
+ - REST
 
     - Modo
-    - MOV
+    - Interacción
     - Recurso: tipo
-    - Seguridad: [extensión para URI de OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
+    - Seguridad: [Extensión para URI de OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
     
- - FhirVersion (nuestro código requiere esto para comprender a qué versión debemos dinamizar).
+ - FcontrVersion (Nuestro código requiere esto para comprender a qué versión debemos cambiar).
 
-Consulte [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) otros detalles de este conjunto de campos.
 
-## <a name="patient"></a>Propio
+## <a name="patient"></a>Paciente
 
-Estos son los campos mínimos obligatorios, que son un subconjunto de los campos de perfil del paciente de Argonaut:
+Estos son los campos necesarios mínimos, que son un subconjunto de los campos del perfil del paciente:
 
- - Nombre. dado
- - Nombre. familia
- - Hombres
- - FechaNacimiento
+ - Name.Given
+ - Name.Family
+ - Sexo
+ - FechaDe Nacimiento
  - MRN (identificador)
 
-Además de los [campos Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html), para una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
+Además de los campos [Salesforce,](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)para una excelente experiencia del usuario, la aplicación Pacientes también puede leer los siguientes campos:
 
- - Nombre. Use
- - Nombre. Prefix
- - [GeneralPractitioner]-la referencia de GeneralPractitioner debe incluirse en el recurso patient (solo campo de mostrar)
+ - Name.Use
+ - Name.Prefix
+ - [GeneralControlctitioner]: la referencia de GeneralCtictitioner debe incluirse en el recurso paciente (solo en el campo de visualización)
 
-Una búsqueda de recursos usa el método POST en/patient/_search y los siguientes parámetros:
+Una búsqueda de recursos usa el método POST en /Patient/_search y los parámetros siguientes:
 
- - identificar
- - Family = (busca todos los pacientes cuyo nombre contenga el valor)
- - dado =\<substring>
- - FechaNacimiento = (coincidencia exacta)
- - Gender = (los valores son uno de los sexos administrativos)
- - \_contar (número máximo de resultados que se deben devolver) <br> La respuesta debe contener el recuento total de registros devueltos como resultado de la búsqueda y el \_ recuento que usará el PatientsApp para limitar el número de registros devueltos.
- - Identifier =\<mrn>
+ - id
+ - family=(busca a todos los pacientes cuyo nombre de familia contiene el valor)
+ - given=\<substring>
+ - fechade nacimiento=(coincidencia exacta)
+ - gender=(values being one of the administrative-gender)
+ - \_recuento (número máximo de resultados que se deben devolver) <br> La respuesta debe contener el recuento total de registros devueltos como resultado de la búsqueda y el recuento lo usará la Aplicación Pacientes para limitar el número de registros \_ devueltos.
+ - identifier=\<mrn>
 
-El objetivo es poder buscar y filtrar a un paciente por lo siguiente:
+El objetivo es poder buscar y filtrar a un paciente siguiendo estos pasos:
 
-- ID: es el identificador de recurso que tiene cada recurso en FHIR.
-- MRN: este es el identificador real del paciente que sabría el personal clínico. Entendemos que este MRN se basa en el tipo de identificador dentro del recurso Identifier en FHIR.
+- Id.: este es el id. de recurso que tiene cada recurso de FCONTR.
+- MRN: este es el identificador real para el paciente que el personal clínico conocería. Entendemos que este MRN se basa en el tipo de identificador dentro del recurso de identificador en FCONTR.
 - Nombre
-- FechaNacimiento
+- Fecha de nacimiento
 
-Vea el ejemplo siguiente de la llamada:
+Vea el siguiente ejemplo de la llamada:
 
 ```
 Request:
@@ -237,26 +237,26 @@ Response:
 }
 ```
 
-Consulte [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) otros detalles sobre este conjunto de campos.
 
 ## <a name="observation"></a>Observación
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del [Perfil de Vital-Signs de Argonaut](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html).
+Estos son los campos necesarios mínimos, que son un subconjunto del perfil [de Vital-Signs grupo.](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)
 
- - Vigencia (fecha o hora)
- - Code. Coding. Code
- - ValueQuantity. Value
+ - Efectivo (fecha y hora o período)
+ - Code.Coding.Code
+ - ValueQuantity.Value
 
-Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
+Además de los campos Salesforce, para una excelente experiencia del usuario, la aplicación Pacientes también puede leer los siguientes campos:
 
- - Code. Coding. display
- - Unidad ValueQuantity.
+ - Code.Coding.Display
+ - ValueQuantity.Unit
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id>
- - _sort =-Date
- - Categoría (consultaremos "las señales de categoría = vitales") para recuperar la lista de constantes vitales.
+ - patient=\<patient id>
+ - _sort=-date
+ - (consultaremos "category=vital-signs") para recuperar la lista de signos vitales.
 
 Consulte este ejemplo de la llamada:
 
@@ -309,25 +309,25 @@ Response:
 }
 ```
 
-Consulte [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) otros detalles de este conjunto de campos.
 
 ## <a name="condition"></a>Condición
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del [Perfil de condición Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html).
+Estos son los campos necesarios mínimos, que son un subconjunto del perfil de [condición Desc.](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)
 
- - Code. Coding [0]. Aparecen
+ - Code.Coding[0]. Pantalla
 
-Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
+Además de los campos Salesforce, para una excelente experiencia del usuario, la aplicación Pacientes también puede leer los siguientes campos:
 
- - AssertedDate
+ - FechaDespedido
  - Gravedad
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-Consulte el siguiente ejemplo de esta llamada:
+Vea el siguiente ejemplo de esta llamada:
 
 ```
 Request:
@@ -372,51 +372,51 @@ Response:
 }
 ```
 
-Consulte [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) otros detalles de este conjunto de campos.
 
-## <a name="encounter"></a>Detect
+## <a name="encounter"></a>Encounter
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del [núcleo de Estados Unidos](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) y el perfil "debe tener campos".
+Estos son los campos requeridos mínimos, que son un subconjunto de [los](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) campos "debe tener" del perfil principal de EE. UU.).
 
- - Statu
- - Escriba [0]. Codificación [0]. Aparecen
+ - Estado
+ - Escriba[0]. Coding[0]. Pantalla
 
-Además, los siguientes campos de la parte central de EE. UU. se encuentran en los campos "debe ser compatible" del perfil:
+Además, los siguientes campos del perfil de US Core Encounter "deben admitir":
 
- - Start period
- - Ubicación [0]. Location. display
+ - Period.Start
+ - Ubicación[0]. Location.Display
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id>
- - _sort: DESC =\<field ex. date>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _sort:desc=\<field ex. date>
+ - _count=\<max results>
 
-El objetivo es poder recuperar el último lugar conocido del paciente. Cada uno de ellos hace referencia a un recurso de ubicación. La referencia también incluirá el campo de visualización de la ubicación.
+El objetivo es poder recuperar la última ubicación conocida del paciente. Cada encuentro hace referencia a un recurso de ubicación. La referencia también incluirá el campo de visualización de la ubicación.
 
-Consulte [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) otros detalles de este conjunto de campos.
 
-## <a name="allergyintolerance"></a>AllergyIntolerance
+## <a name="allergyintolerance"></a>Desenladigo
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del perfil de [AllergyIntolerance de Argonaut](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
+Estos son los campos requeridos mínimos, que son un subconjunto del perfil [Desenladigo:](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html)
 
- - Code. Text
- - Code. Coding [0]. Aparecen
- - ClinicalStatus/VerificationStatus (hemos leído ambas)
+ - Code.Text
+ - Code.Coding[0]. Pantalla
+ - Estado Desctivo/Estado De Comprobación (leemos ambos)
 
-Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación de pacientes también puede leer el siguiente campo:
+Además de los campos Field, para una excelente experiencia del usuario, la aplicación Pacientes también puede leer el siguiente campo:
 
- - AssertedDate
- - Nota. Text
- - Ataque
-    - Sustancia (un elemento de codificación)
-    - Manifiesto (un elemento de codificación)
+ - FechaDespedido
+ - Note.Text
+ - Reacción
+    - Sedán (un elemento de codificación)
+    - Se muestra una gran conocimiento (un elemento de codificación)
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - Paciente =  \<patient id>
+ - Patient =  \<patient id>
 
-Vea el ejemplo siguiente de la llamada: 
+Vea el siguiente ejemplo de la llamada: 
 
 ```
 Request:
@@ -468,41 +468,41 @@ Response:
 }
 ```
 
-Consulte [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) otros detalles de este conjunto de campos.
 
-## <a name="medication-request"></a>Solicitud de medicación
+## <a name="medication-request"></a>Solicitud de medicamentos
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del [Perfil de solicitud de medicación del núcleo de Estados Unidos](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
+Estos son los campos requeridos mínimos, que son un subconjunto del perfil de solicitud de medicamentos principales [de ESTADOS UNIDOS:](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)
 
- - Medicación. display (si Ref)
- - Medicación. Text (si CodableConcept)
+ - Medicamentos.Pantalla (si referencia)
+ - Medication.Text (if CodableConcept)
  - AuthoredOn
- - Solicitante. Agent. display
+ - Requester.Agent.Display
 
-Además de los campos básicos de Estados Unidos, para disfrutar de una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
+Además de los campos Centro de EE. UU., para una excelente experiencia del usuario, la aplicación Pacientes también puede leer los siguientes campos:
 
- - DosageInstruction[..]. Facturas
- - Facturas
+ - AstructiónInstructión[..]. Texto
+ - Texto
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-Consulte [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) otros detalles de este conjunto de campos.
 
-## <a name="coverage"></a>Beneficios
+## <a name="coverage"></a>Cobertura
 
-Estos son los campos mínimos obligatorios, no incluidos en los perfiles de los Estados Unidos Core o Argonaut:
+Estos son los campos requeridos mínimos, no cubiertos por los perfiles de US Core o Core:
 
- - Agrupar, al menos un elemento con
+ - Agrupación, al menos un elemento con
     - GroupDisplay
     - PlanDisplay
  - Período
  - SubscriberId
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - Paciente = \<patient id>
+ - Patient = \<patient id>
 
-Consulte [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) otros detalles de este conjunto de campos.

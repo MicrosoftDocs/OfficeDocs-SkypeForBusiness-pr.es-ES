@@ -30,16 +30,16 @@ ms.locfileid: "47814759"
 
 [] El servicio de conferencias es una parte importante de Skype Empresarial Online: mediante las conferencias, los grupos de usuarios pueden reunirse en línea para ver diapositivas y vídeo, compartir aplicaciones, cederse archivos, y colaborar y comunicarse de otros modos.
   
-Es importante que mantenga el control sobre las conferencias y la configuración de conferencia. En algunos casos, puede haber problemas de seguridad: de forma predeterminada, cualquier persona, incluidos los usuarios no autenticados, puede participar en reuniones y guardar cualquiera de las diapositivas o documentos distribuidos durante dichas reuniones. Además, puede haber problemas legales ocasionales. Por ejemplo, de forma predeterminada, los participantes de la reunión pueden realizar anotaciones en contenido compartido; sin embargo, estas anotaciones no se guardan cuando se archiva la reunión. Si su organización necesita mantener un registro de todas las comunicaciones electrónicas, es posible que desee deshabilitar las anotaciones. 
+Es importante que mantenga el control sobre las conferencias y la configuración de conferencias. En algunos casos, puede haber problemas de seguridad: de forma predeterminada, todos los usuarios, incluidos los usuarios no autenticados, pueden participar en las reuniones y guardar cualquiera de las diapositivas o los folletos distribuidos durante esas reuniones. Además, puede haber problemas legales ocasionales. Por ejemplo, de forma predeterminada, los participantes de la reunión pueden hacer anotaciones en el contenido compartido; sin embargo, estas anotaciones no se guardan al archivar la reunión. Si su organización necesita mantener un registro de todas las comunicaciones electrónicas, es posible que desee deshabilitar las anotaciones. 
   
-En Skype empresarial online, las conferencias se administran mediante directivas de conferencia. Las directivas de conferencia determinan las características y capacidades que se pueden usar en una conferencia, incluidos desde si la Conferencia puede incluir audio y vídeo IP en el número máximo de personas que pueden asistir a una reunión. Las directivas de conferencia se pueden configurar en el ámbito global o en el ámbito de cada usuario. Esto proporciona a los administradores una flexibilidad enorme cuando se trata de decidir qué capacidades estarán disponibles para los usuarios.
+En Skype Empresarial Online, las conferencias se administran mediante directivas de conferencia. Las directivas de conferencia determinan las características y capacidades que se pueden usar en una conferencia, incluido todo, desde si la conferencia puede incluir audio y vídeo IP hasta el número máximo de personas que pueden asistir a una reunión. Las directivas de conferencia se pueden configurar en el ámbito global o en el ámbito por usuario. Esto ofrece a los administradores una enorme flexibilidad a la hora de decidir qué capacidades estarán disponibles para qué usuarios.
   
-La configuración de la Directiva se puede configurar en el momento en que se crea una directiva o puede usar el cmdlet **set-CsConferencingPolicy** para modificar la configuración de una directiva existente.
+La configuración de la directiva se puede configurar al mismo tiempo que se crea la directiva o puede usar el cmdlet **Set-CsConferencingPolicy** para modificar la configuración de una directiva existente.
   
 ## <a name="set-your-conferencing-policies"></a>Establecer las directivas de conferencia
 
 > [!NOTE]
-> Para todas las opciones de configuración de directiva de conferencia en Skype empresarial online, debe usar Windows PowerShell y **no puede usar** el **centro de administración de Skype empresarial**. 
+> Para todas las configuraciones de directivas de conferencia en Skype Empresarial Online, debe usar Windows PowerShell y no puede usar el **Centro** de administración de **Skype Empresarial.** 
   
 ### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
@@ -49,22 +49,22 @@ La configuración de la Directiva se puede configurar en el momento en que se cr
         
     2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
         
-    3. Si no tiene la versión 3,0 o superior, debe descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le pida.
+    3. Si no tiene la versión 3.0 o posterior, deberá descargar e instalar las actualizaciones para Windows PowerShell. Vea [Windows Management Framework 4.0 para](https://go.microsoft.com/fwlink/?LinkId=716845) descargar y actualizar Windows PowerShell a la versión 4.0. Reinicie el equipo cuando se le solicite.
         
-    4. También tendrá que instalar el módulo de Windows PowerShell para Teams, que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype empresarial online.
+    4. También necesitará instalar el módulo de Windows PowerShell para Teams que le permite crear una sesión de Windows PowerShell remota que se conecta a Skype Empresarial Online.
     
-    Si necesita más información, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Si necesita más información, vea Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx)en una única Windows PowerShell ventana.
     
 - **Iniciar una sesión de Windows PowerShell**
     
     1. En el **menú Inicio** > **Windows PowerShell**.
         
-    2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
+    2. En la **Windows PowerShell** de correo electrónico, conéctese a Su Microsoft 365 u Office 365 ejecutando:
         
      > [!NOTE]
-     > En este momento, el conector de Skype empresarial online forma parte del módulo de PowerShell más reciente de Teams.
+     > Skype Empresarial Online Connector forma actualmente parte del módulo de PowerShell de Teams más reciente.
      >
-     > Si está usando la [versión pública de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online.
+     > Si usa la versión pública más reciente de PowerShell de [Teams,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar Skype Empresarial Online Connector.
 
        ```PowerShell      
         Import-Module -Name MicrosoftTeams
@@ -73,73 +73,73 @@ La configuración de la Directiva se puede configurar en el momento en que se cr
         Import-PSSession $session
        ```
 
-   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Si desea más información sobre cómo iniciar Windows PowerShell, consulte Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx) en una única ventana de Windows PowerShell o Configurar el equipo para [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquear la transferencia de archivos y el uso compartido de escritorios durante las reuniones
 
-- Para crear una nueva Directiva para esta configuración, ejecute:
+- Para crear una nueva directiva para esta configuración, ejecute:
    
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
+   Más información sobre el [cmdlet New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
     
 - Para conceder la nueva directiva que ha creado a todos los usuarios de su organización, ejecute:
    
    ```powershell
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
    ```
-   Para obtener más información, consulta el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
+   Más información sobre el [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
     
-  Si ya ha creado una directiva, puede usar el cmdlet [set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar la configuración a los usuarios.
+  Si ya ha creado una directiva, puede usar el cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para realizar cambios en la directiva existente y, a continuación, usar el cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar la configuración a los usuarios.
   
-### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquear la grabación de conferencias e impedir la realización de participantes de reuniones anónimas
+### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquear la grabación de conferencias y evitar que los participantes anónimos de la reunión
 
-- Para crear una nueva Directiva para esta configuración, ejecute: 
+- Para crear una nueva directiva para esta configuración, ejecute: 
    
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
+   Más información sobre el [cmdlet New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
     
-- Para conceder a la nueva directiva que ha creado a amos Marble, ejecute:
+- Para conceder la nueva directiva a Amos Marble, ejecute:
    
    ```powershell
     Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
    ```
-   Para obtener más información, consulta el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
+   Más información sobre el [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
     
-Si ya ha creado una directiva, puede usar el cmdlet [set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para realizar cambios en la directiva existente y, a continuación, usar el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Impedir que los participantes anónimos puedan grabar reuniones y que los usuarios externos puedan guardar contenido de las reuniones
 
-- Para crear una nueva Directiva para esta configuración, ejecute:  
+- Para crear una nueva directiva para esta configuración, ejecute:  
    
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
+   Más información sobre el [cmdlet New-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779148.aspx)
     
-- Para conceder la nueva directiva que ha creado a todos los usuarios de su organización, ejecute:
+- Para conceder la nueva directiva que ha creado a todos los usuarios de la organización, ejecute:
     
  
    ```powershell
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
    ```
 
-Para obtener más información, consulta el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
+Más información sobre el [cmdlet Grant-CsConferencingPolicy.](https://technet.microsoft.com/library/mt779156.aspx)
     
-Si ya ha creado una directiva, puede usar el cmdlet [set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para realizar cambios en la directiva existente y, a continuación, usar el cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar la configuración a los usuarios.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype empresarial online con un único punto de administración que puede simplificar su trabajo diario cuando tenga que hacer varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos por los que es posible que desee usar Windows PowerShell para administrar Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos por los que podría desear usar Windows PowerShell administrar Microsoft 365 u Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso solo del Centro de administración de Microsoft 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -150,7 +150,7 @@ Si ya ha creado una directiva, puede usar el cmdlet [set-CsConferencingPolicy](h
 ## <a name="related-topics"></a>Temas relacionados
 [Crear directivas personalizadas de acceso externo](create-custom-external-access-policies.md)
 
-[Bloquear las transferencias de archivos punto a punto](block-point-to-point-file-transfers.md)
+[Bloquear las transferencias de archivos de punto a punto](block-point-to-point-file-transfers.md)
 
 [Establecer directivas de cliente en su organización](set-up-client-policies-for-your-organization.md)
 

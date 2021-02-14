@@ -1,5 +1,5 @@
 ---
-title: Descargar e instalar el módulo conector de Skype empresarial online
+title: Descargar e instalar el módulo Conector de Skype Empresarial Online
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Descargue, instale y use el conector de Skype empresarial online para crear una sesión remota de Windows PowerShell que se conecte a Skype empresarial online.
+description: Descargue, instale y, a continuación, use el conector de Skype Empresarial Online para crear una sesión de Windows PowerShell remota que se conecte a Skype Empresarial Online.
 ms.openlocfilehash: 3928e77e5bac77dbfe89f7be5e762dd0d8ff93eb
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -26,45 +26,45 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 09/15/2020
 ms.locfileid: "47814569"
 ---
-# <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Descargar e instalar el módulo conector de Skype empresarial online
+# <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Descargar e instalar el módulo Conector de Skype Empresarial Online
 
 > [!NOTE]
-> La versión pública más reciente de [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) está integrada en el conector de Skype empresarial online y ofrece un único módulo para la administración de PowerShell de Teams.
+> La última [versión pública de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) de Teams se integra con Skype Empresarial Online Connector, proporcionando un módulo único para la administración de PowerShell de Teams.
 
-El módulo conector de Skype empresarial online incluye el cmdlet **New-CsOnlineSession** , que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype empresarial online. Este módulo, que solo es compatible con los equipos de 64 bits (consulte [configurar el equipo para la administración de Skype empresarial online con Windows PowerShell](set-up-your-computer-for-windows-powershell.md) para obtener más información), se puede descargar desde el centro de descarga de Microsoft en [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) . Descargue el archivo de SkypeOnlinePowershell.exe y, a continuación, realice el siguiente procedimiento:
+El módulo conector de Skype Empresarial Online incluye el cmdlet **New-CsOnlineSession,** que le permite crear una sesión de Windows PowerShell remota que se conecta a Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits (consulte Configurar el equipo para la administración de Skype Empresarial Online con [Windows PowerShell](set-up-your-computer-for-windows-powershell.md) para obtener más información), puede descargarse desde el Centro de descarga de Microsoft [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) en. Descargue el SkypeOnlinePowershell.exe archivo y, después, complete el procedimiento siguiente:
   
-1. Haga doble clic en el archivo **SkypeOnlinePowershell.exe** .
+1. Haga doble clic en **elSkypeOnlinePowershell.exe** archivo.
     
-2. En el Asistente para la instalación de Skype empresarial online, en la página **términos de licencia del software de Microsoft** , seleccione Acepto **los términos del contrato de licencia**y, a continuación, haga clic en **instalar**. Si aparece el cuadro de diálogo **control de cuentas de usuario** , haga clic en **sí** para continuar con la instalación.
+2. En el asistente de configuración de Skype Empresarial Online, Windows PowerShell, en la página Términos de licencia del software de **Microsoft,** seleccione Acepto los términos en el Contrato de licencia y, a continuación, haga clic en **Instalar.** Si aparece **el cuadro de diálogo Control** de cuentas de usuario, haga clic en **Sí** para continuar con la instalación.
     
-3. En la página **completado de Skype empresarial online, módulo de Windows PowerShell** , haga clic en **Finalizar**.
+3. En la **página Completado de Skype Empresarial Online, Windows PowerShell Módulo,** haga clic en **Finalizar.**
     
-El programa de instalación copia el módulo del conector de Skype empresarial online (y el cmdlet **New-CsOnlineSession** ) en el equipo. Para acceder al módulo, inicie una sesión de Windows PowerShell con credenciales de administrador y, a continuación, ejecute el siguiente comando:
+El programa de instalación copia el módulo del conector de Skype Empresarial Online (y el cmdlet **New-CsOnlineSession)** a su equipo. Para obtener acceso al módulo, inicie una sesión Windows PowerShell sesión bajo credenciales de administrador y, a continuación, ejecute el siguiente comando:
   
 ```PowerShell
 Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
 ```
 
-Si no desea escribir este comando cada vez que inicie Windows PowerShell, puede Agregar el comando a su perfil de Windows PowerShell. Para ello, escriba el siguiente comando en el símbolo del sistema de Windows PowerShell y, a continuación, presione ENTRAR:
+Si no quiere escribir este comando cada vez que inicie una Windows PowerShell, puede agregar el comando a su perfil Windows PowerShell usuario. Para ello, escriba el siguiente comando en el Windows PowerShell y, a continuación, presione ENTRAR:
   
 ```PowerShell
 notepad.exe $profile
 ```
 
- Cuando aparezca el Bloc de notas, agregue la línea siguiente en la parte inferior de los comandos que ya están en el perfil (si hay alguno):
+ Cuando aparezca el Bloc de notas, agregue la siguiente línea a la parte inferior de los comandos que ya están en el perfil (si los hay):
   
 ```PowerShell
 Import-Module SkypeOnlineConnector
 ```
 
-Guarde el archivo. La próxima vez que inicie Windows PowerShell, el módulo conector de Skype empresarial online se importará automáticamente. Tenga en cuenta que recibirá un mensaje de error y el módulo no se cargará, si no está ejecutando Windows PowerShell con credenciales de administrador.
+Guarde el archivo. La próxima vez que inicie Windows PowerShell, el módulo conector de Skype Empresarial Online se importará automáticamente. Tenga en cuenta que recibirá un mensaje de error y el módulo no se cargará si no está ejecutando Windows PowerShell credenciales de administrador.
   
-Además de instalar el módulo conector de Skype empresarial online, SkypeOnlinePowershell.exe también instala tres componentes adicionales: 1) la biblioteca de tiempo de ejecución de cliente del servicio de identidad (IDCRL), que se usa para controlar la autenticación del cliente a Skype empresarial online. 2) .NET Framework 4,5; y 3) el paquete redistribuible de Microsoft Visual C++ 2012 (x64) (versión 11.0.50727). .NET Framework 4,5 proporciona la infraestructura que se usa para crear y ejecutar aplicaciones .NET, incluido Windows PowerShell. El paquete redistribuible de Visual C++ instala componentes de tiempo de ejecución de Visual C++ para equipos que no tienen instalado Microsoft Visual Studio 2012.
+Además de instalar el módulo del conector de Skype Empresarial Online, SkypeOnlinePowershell.exe también instala tres componentes adicionales: 1) la biblioteca runtime de cliente de servicio de identidad (IDCRL), que se usa para administrar la autenticación de cliente a Skype Empresarial Online; 2) .NET Framework 4.5; y, 3) el paquete redistribuible de Microsoft Visual C++ 2012 (x64) (versión 11.0.50727). .NET Framework 4.5 proporciona la infraestructura usada para crear y ejecutar aplicaciones .NET, incluidas Windows PowerShell. El paquete redistribuible de Visual C++ instala componentes de tiempo de ejecución de Visual C++ para equipos que no tienen Microsoft Visual Studio 2012 instalado.
   
-Para comprobar el número de versión del módulo de conector instalado actualmente en el equipo, abra el panel de control, Abra **programas y características**y, a continuación, compruebe el número de versión de **Skype empresarial online, módulo de Windows PowerShell**.
+Para comprobar el número de versión del módulo Conector que está instalado actualmente en su equipo, abra el Panel de control, abra Programas y características y, a continuación, compruebe el número de versión de Skype Empresarial **Online, Windows PowerShell Module.**
   
 ## <a name="related-topics"></a>Temas relacionados
-[Configurar el equipo para la administración de Skype empresarial online con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Configurar el equipo para la administración en línea de Skype Empresarial con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  

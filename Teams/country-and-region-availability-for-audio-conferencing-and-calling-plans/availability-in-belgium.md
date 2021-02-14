@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Bélgica.
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Bélgica.
 ms.openlocfilehash: d807c88ab03d2db43f6d8bdc9942a6c946d957eb
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "48320865"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Bélgica.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Bélgica.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -60,7 +60,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y M
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales o de 600 minutos de llamadas internacionales (lo que se haya alcanzado en primer lugar en el mes del calendario)</li></li> |
+|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales -O- 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></li> |
 |¿Se pueden realizar llamadas a números premium?  <br/> | No se admite en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
@@ -72,7 +72,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y M
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
- Si desea obtener números de teléfono de pago y gratuitos para conferencias de audio, operadores automáticos y colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Si quiere obtener números de teléfono gratuitos y de pago para Audioconferencia, operador automático y colas de llamadas, consulte Obtener números de teléfono de servicio para Skype Empresarial y [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

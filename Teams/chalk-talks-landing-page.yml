@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Habla de tiza de Microsoft Teams
-summary: Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams.
+title: 'Tizas de Microsoft Teams: tizas'
+summary: Diseñadas para los profesionales de TI y los responsables de la toma de decisiones, las tizas de Teams ofrecen una oportunidad única de aprender prácticas recomendadas y directrices prácticas sobre algunos de los escenarios más populares y atractivos de Teams.
 brand: teams
 metadata:
-  title: Habla de tiza de Microsoft Teams
-  description: Diseñado para profesionales de ti y responsables de la toma de decisiones, las conversaciones de tiza para equipos proporcionan una oportunidad única de aprender las mejores prácticas y la orientación práctica en algunos de los escenarios más populares y atractivos de Teams. Estos talleres interactivos en línea, facilitados por expertos en la materia, presentarán información para mejorar la implementación de sus equipos y proporcionar valor adicional a los usuarios finales. Haz clic en el título de cualquier taller a continuación para ver las fechas y horas disponibles, y Regístrate hoy mismo.
+  title: Tizas de Microsoft Teams
+  description: Diseñadas para los profesionales de TI y los responsables de la toma de decisiones, las tizas de Teams ofrecen una oportunidad única de aprender prácticas recomendadas y directrices prácticas sobre algunos de los escenarios más populares y atractivos de Teams. Facilitados por expertos en la materia, estos talleres interactivos en línea le proporcionarán información para mejorar la implementación de Teams y proporcionar valor adicional para los usuarios finales. Haga clic en cualquier título del talleres a continuación para ver las fechas y horas disponibles y regístrese hoy.
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -32,33 +32,33 @@ metadata:
   ms.lasthandoff: 10/28/2020
   ms.locfileid: "48790602"
 productDirectory:
-  summary: Haga clic en el título de un taller para inscribirse.
+  summary: Haga clic en cualquier título del taller para registrarse.
   items:
-  - title: Así que... ¿desea hacer llamadas con Teams?
+  - title: Por lo tanto... ¿Desea realizar llamadas con Teams?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: Únase a nosotros para obtener información detallada sobre cómo agregar capacidades de llamadas RTC a la implementación de Teams. Juntos, veremos la terminología, los conceptos clave y la configuración de las llamadas.
+    summary: Únase a nosotros para obtener un vistazo detallado sobre cómo agregar funcionalidades de llamadas RTC a su implementación de Teams. Juntos, le haremos un recorrido por la terminología de llamadas, conceptos clave y configuraciones.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: Tomar el cargo de la calidad de audio o vídeo en Teams
+  - title: Responsable de la calidad de audio y vídeo en Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: ¿Desea asegurarse de que los usuarios tengan experiencias óptimas con las reuniones y las capacidades de voz? Analizaremos las herramientas, los informes y los procedimientos recomendados para ayudarle a administrar la calidad del servicio, desde establecer una estrategia preventiva para resolver problemas comunes.
+    summary: ¿Quiere asegurarse de que los usuarios tengan experiencias óptimas con reuniones y capacidades de voz? Trataremos las herramientas, los informes y los procedimientos recomendados para ayudarle a administrar la calidad del servicio, desde establecer una estrategia proactiva para resolver problemas comunes.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Aspectos básicos de las aplicaciones en Teams
+  - title: Aplicaciones en Los aspectos básicos de Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: Esta sesión básica cubre las funciones básicas, como la seguridad y la administración de aplicaciones. Obtenga información sobre cómo integrar los flujos de trabajo, las aplicaciones de productividad y los servicios que usa cada día en una sola experiencia unificada.
+    summary: Esta sesión básica trata sobre funciones básicas, como la administración de aplicaciones y la seguridad. Obtenga información sobre cómo integrar sus flujos de trabajo, aplicaciones de productividad y los servicios que usa todos los días en una única experiencia unificada.
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Sobrecargar flujos de trabajo clave con aplicaciones en Teams
+  - title: Flujos de trabajo clave de más vida con aplicaciones en Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: Conecte sus sistemas, aumente la automatización y ofrezca experiencias mejoradas para los usuarios haciendo que las aplicaciones de su organización se basen en Teams.
+    summary: Conecte sus sistemas, aumente la automatización y ofrezca experiencias mejoradas para los usuarios al incorporar las aplicaciones en las que confía su organización en Teams.
     url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
-    - title: ¿Aún usa Skype empresarial?
-      summary: Consulte nuestra serie de talleres de actualización.
+    - title: ¿Todavía usa Skype Empresarial?
+      summary: Eche un vistazo a nuestra serie de upgrade workshop.
       url: upgrade-workshops-landing-page.yml
     - title: Preparar a los usuarios
-      summary: Poner los usuarios en marcha con la formación en vivo de Teams.
+      summary: Consiga que sus usuarios puedan empezar a trabajar con Teams Live Training.
       url: https://aka.ms/TeamsLiveTraining
     - title: ¿Nuevo en Teams?
-      summary: Obtenga más información sobre cómo empezar a trabajar con Teams.
+      summary: Obtenga más información sobre cómo empezar a usar Teams.
       url: https://docs.microsoft.com/microsoftteams/teams-overview

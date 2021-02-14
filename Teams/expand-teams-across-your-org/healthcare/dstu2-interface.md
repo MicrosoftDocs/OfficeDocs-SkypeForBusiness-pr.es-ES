@@ -1,5 +1,5 @@
 ---
-title: Interfaz de DSTU2 y integración de EHR de la aplicación para pacientes
+title: Aplicación Pacientes e interfaz de DSTU2 de integración de EHR
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Obtenga más información sobre la especificación de la interfaz de DSTU2 en Teams, incluida la configuración o la reconfiguración de un servidor de FHIR para que funcione con la aplicación de pacientes de Microsoft Teams.
+description: Obtenga más información sobre la especificación de la interfaz DSTU2 en Teams, incluida la configuración o reconfiguración de un servidor F LDAP para que funcione con la aplicación Pacientes de Microsoft Teams.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 12833ea55977cf7e8d18ee5c10b1f17d898b27b3
@@ -29,58 +29,58 @@ ms.locfileid: "48803488"
 # <a name="dstu2-interface-specification"></a>Especificación de la interfaz DSTU2
 
 > [!NOTE]
-> Desde el 30 de octubre de 2020, la aplicación de pacientes se ha retirado y se ha sustituido por la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Todos los datos asociados con la aplicación patients se conservan en este grupo, pero ya no se puede obtener acceso a ellos a través de la interfaz de usuario. Los usuarios pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+> A partir del 30 de octubre de 2020, la aplicación Pacientes se ha retirado y reemplazado por la [aplicación Listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Los datos de la aplicación Pacientes se almacenan en el buzón de grupo del grupo de Office 365 que copia de seguridad del equipo. Todos los datos asociados a la aplicación Pacientes se conservan en este grupo, pero ya no se puede acceder a ellos a través de la interfaz de usuario. Los usuarios pueden volver a crear sus listas con la [aplicación Listas.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->Con las listas, los equipos de cuidados de la organización de la salud pueden crear listas de pacientes para escenarios que abarcan desde rondas y reuniones interdisciplinarias hasta supervisión general de pacientes. Consulte la plantilla patients en listas para comenzar. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
+>Con Listas, los equipos de atención al paciente de su organización sanitaria pueden crear listas de pacientes para situaciones que van desde las reuniones interdisciplinarias y las reuniones del equipo hasta la supervisión general del paciente. Consulte la plantilla Pacientes en Listas para empezar. Para obtener más información sobre cómo administrar la aplicación Listas en su organización, vea [Administrar la aplicación Listas.](../../manage-lists-app.md)
 
-Para configurar o volver a configurar un servidor de FHIR para que funcione con la aplicación para pacientes de Microsoft Teams, es necesario comprender a qué datos necesita acceder la aplicación. El servidor de FHIR debe admitir solicitudes POST con paquetes para los siguientes recursos:
+Configurar o volver a configurar un servidor FCONTR para trabajar con la aplicación Microsoft Teams Patients requiere comprender a qué datos debe tener acceso la aplicación. El servidor FCONTR debe admitir solicitudes POST mediante agrupaciones para los siguientes recursos:
 
-- [Propio](#patient)
+- [Paciente](#patient)
 - [Observación](#observation)
 - [Condición](#condition)
-- [Detect](#encounter)
-- [Intolerancia de alergia](#allergyintolerance)
-- [Beneficios](#coverage)
-- [Orden de los medicamentos](#medication-order)
+- [Encounter](#encounter)
+- [Ser insondosa](#allergyintolerance)
+- [Cobertura](#coverage)
+- [Orden de medicamentos](#medication-order)
 - [Ubicación](#location)
 
 > [!NOTE]
-> El recurso paciente es el único recurso obligatorio (sin que la aplicación se cargue en absoluto). Sin embargo, se recomienda que el socio implemente la compatibilidad de todos los recursos mencionados anteriormente según las especificaciones proporcionadas a continuación para obtener la mejor experiencia para el usuario final con la aplicación de pacientes de Microsoft Teams.
+> El recurso paciente es el único recurso obligatorio (sin el que la aplicación no se cargará en absoluto). Sin embargo, se recomienda que el partner implemente soporte técnico para todos los recursos mencionados anteriormente según las especificaciones que se proporcionan a continuación para obtener la mejor experiencia del usuario final con la aplicación Pacientes de Microsoft Teams.
 
-Las consultas de la aplicación de pacientes de Microsoft Teams para más de un recurso publican un paquete (lote) de solicitudes a la dirección URL del servidor FHIR. El servidor procesa cada solicitud y devuelve un paquete de los recursos coincidentes con cada solicitud. Para obtener más información y ejemplos, consulte [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) .
+Las consultas desde la aplicación Pacientes de Microsoft Teams para más de un recurso publican un paquete (BATCH) de solicitudes en la dirección URL del servidor FCONF. El servidor procesa cada solicitud y devuelve un paquete de los recursos que coinciden con cada solicitud. Para obtener más información y ejemplos, vea [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) .
 
-Todos los siguientes recursos de FHIR deben ser accesibles mediante la referencia directa de recursos.
+Todos los siguientes recursos de FCONTR deben ser accesibles por referencia directa de recursos.
 
-## <a name="conformance-minimum-required-field-set"></a>Conjunto de campos obligatorios mínimos de cumplimiento
+## <a name="conformance-minimum-required-field-set"></a>Conjunto de campos requeridos de conformidad mínima
 
- El servidor de FHIR debe implementar la declaración de conformidad para que nosotros tenga un resumen del objetivo de sus capacidades. Esperamos los siguientes parámetros en un DSTU2 FHIR Server:
+ El servidor FCONTRA debe implementar la declaración de conformidad para que tendrán un resumen objetiva de sus capacidades. Esperamos los parámetros siguientes en un servidor DSTU2 FCONTR:
 
- - DESCANSO
+ - REST
 
     - Modo
-    - MOV
+    - Interacción
     - Recurso: tipo
-    - Seguridad: [extensión para URI de OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
+    - Seguridad: [Extensión para URI de OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
    
- - FhirVersion (nuestro código requiere esto para comprender a qué versión debemos dinamizar, ya que admitimos varias versiones).
+ - FcontrVersion (Nuestro código requiere esto para comprender a qué versión debemos cambiar, ya que se admiten varias versiones).
 
-Consulte [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) otros detalles sobre este conjunto de campos.
 
-## <a name="patient"></a>Propio
+## <a name="patient"></a>Paciente
 
-Estos son los campos mínimos obligatorios, que son un subconjunto de los campos de [Perfil del paciente de Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) :
+Estos son los campos necesarios mínimos, que son un subconjunto de los campos del perfil [de paciente:](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)
 
- - Nombre. familia
- - Nombre. dado
- - Hombres
- - FechaNacimiento
+ - Name.Family
+ - Name.Given
+ - Sexo
+ - FechaDe Nacimiento
  - MRN (identificador)
 
-Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación para pacientes también lee los siguientes campos:
+Además de los campos Salesforce, para una excelente experiencia del usuario, la aplicación Pacientes también lee los siguientes campos:
 
- - Nombre. Use
- - Nombre. Prefix
- - CareProvider (esta referencia en el recurso paciente debe incluir los campos de visualización que se muestran en el ejemplo siguiente).
+ - Name.Use
+ - Name.Prefix
+ - CareProvider (esta referencia del recurso Paciente debe incluir los campos para mostrar que se muestran en el ejemplo siguiente).
 
     ```
     Request:
@@ -121,24 +121,24 @@ Además de los campos Argonaut, para una experiencia de usuario excelente, la ap
     }
     ```
 
-Una búsqueda de recursos usa el método POST en/patient/_search y los siguientes parámetros:
+Una búsqueda de recursos usa el método POST en /Patient/_search y los parámetros siguientes:
 
- - identificar
- - Family: contiene = (busca todos los pacientes cuyo nombre contenga el valor).
- - dado =\<substring>
- - Name =\<substring>
- - FechaNacimiento = (coincidencia exacta)
- - \_contar (número máximo de resultados que se deben devolver) <br> La respuesta debe contener el recuento total de registros devueltos como resultado de la búsqueda, y \_ el PatientsApp usará Count para limitar el número de registros devueltos.
- - Identifier =\<mrn>
+ - id
+ - familia:contains=(busca a todos los pacientes cuyo nombre de familia contiene el valor).
+ - given=\<substring>
+ - name=\<substring>
+ - fechade nacimiento=(coincidencia exacta)
+ - \_recuento (número máximo de resultados que se deben devolver) <br> La respuesta debe contener el recuento total de registros devueltos como resultado de la búsqueda y el recuento la utilizará la Aplicación Pacientes para limitar el número de registros \_ devueltos.
+ - identifier=\<mrn>
 
-El objetivo es poder buscar y filtrar a un paciente por lo siguiente:
+El objetivo es poder buscar y filtrar a un paciente siguiendo estos pasos:
 
-- ID: es el identificador de recurso que tiene cada recurso en FHIR.
-- MRN: este es el identificador real del paciente que sabría el personal clínico. Entendemos que este MRN se basa en el tipo de identificador dentro del recurso Identifier en FHIR
+- Id.: este es el id. de recurso que tiene cada recurso de FCONTR.
+- MRN: este es el identificador real para el paciente que el personal clínico conocería. Entendemos que este MRN se basa en el tipo de identificador dentro del recurso de identificador en FCONTRA
 - Nombre
-- FechaNacimiento
+- Fecha de nacimiento
 
-Consulta el siguiente ejemplo de esta llamada.
+Vea el siguiente ejemplo de esta llamada.
 
 ```
 Request:
@@ -176,29 +176,29 @@ Response:
 }
 ```
 
-Consulte [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) otros detalles sobre este conjunto de campos.
 
 ## <a name="observation"></a>Observación
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del perfil de constantes vitales de Argonaut:
+Estos son los campos necesarios mínimos, que son un subconjunto del perfil de signos vitales:
 
- - Vigencia (fecha o hora)
- - Code. Coding. Code
- - ValueQuantity. Value
+ - Efectivo (fecha y hora)
+ - Code.Coding.Code
+ - ValueQuantity.Value
 
-Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación para pacientes también lee los siguientes campos:
+Además de los campos Salesforce, para una excelente experiencia del usuario, la aplicación Pacientes también lee los siguientes campos:
 
- - Code. Coding. display
- - Unidad ValueQuantity.
+ - Code.Coding.Display
+ - ValueQuantity.Unit
 
-Si se usan observaciones de componentes, se aplica la misma lógica para cada observación de componentes.
+Si se utilizan observaciones de componentes, se aplica la misma lógica a cada observación del componente.
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id\>
- - ordenar: DESC =\<field ex. date\>
+ - patient=\<patient id\>
+ - sort:desc=\<field ex. date\>
 
-El objetivo es poder recuperar los últimos signos vitales para un paciente, [VitalSigns. DSTU. Saz] (observación?).
+El objetivo es poder recuperar los signos vitales más recientes para un paciente, [VitalSigns.DSTU.saz] (observación?).
 
 ```
 Request:
@@ -243,25 +243,25 @@ Response:
 }
 ```
 
-Consulte [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) otros detalles sobre este conjunto de campos.
 
 ## <a name="condition"></a>Condición
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del [Perfil de condición Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):
+Estos son los campos requeridos mínimos, que son un subconjunto del perfil de [condición :](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)
 
-1. Code. Coding [0]. Aparecen
+1. Code.Coding[0]. Pantalla
 
-Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
+Además de los campos Salesforce, para una excelente experiencia del usuario, la aplicación Pacientes también puede leer los siguientes campos:
 
  - Fecha de grabación
  - Gravedad
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-Consulte el siguiente ejemplo de esta llamada:
+Vea el siguiente ejemplo de esta llamada:
 
 ```
 Request:
@@ -303,27 +303,27 @@ Response:
 }
 ```
 
-Consulte [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) otros detalles sobre este conjunto de campos.
 
-## <a name="encounter"></a>Detect
+## <a name="encounter"></a>Encounter
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del núcleo de Estados Unidos y el perfil "debe tener" campos:
+Estos son los campos requeridos mínimos, que son un subconjunto de los campos "debe tener" del perfil principal de EE. UU.:
 
- - Statu
- - Escriba [0]. Codificación [0]. Aparecen
+ - Estado
+ - Escriba[0]. Coding[0]. Pantalla
 
-Además, los siguientes campos de la parte central de Estados Unidos tienen los campos "debe ser compatible" del perfil.
+Además, los siguientes campos del perfil del Core Encounter de EE. UU. también se admiten
 
- - Start period
- - Ubicación [0]. Location. display
+ - Period.Start
+ - Ubicación[0]. Location.Display
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id>
- - _sort: DESC =\<field ex. date>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _sort:desc=\<field ex. date>
+ - _count=\<max results>
 
-El objetivo es poder recuperar el último lugar conocido del paciente. Cada uno de ellos hace referencia a un recurso de ubicación. La referencia también incluirá el campo de visualización de la ubicación. Consulta el siguiente ejemplo de esta llamada.
+El objetivo es poder recuperar la última ubicación conocida del paciente. Cada encuentro hace referencia a un recurso de ubicación. La referencia también incluirá el campo de visualización de la ubicación. Vea el siguiente ejemplo de esta llamada.
 
 ```
 Request:
@@ -359,29 +359,29 @@ Response:
 }
 ```
 
-Consulte [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) otros detalles sobre este conjunto de campos.
 
-## <a name="allergyintolerance"></a>AllergyIntolerance
+## <a name="allergyintolerance"></a>Desenladigo
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del perfil de AllergyIntolerance de Argonaut:
+Estos son los campos requeridos mínimos, que son un subconjunto del perfil de VagoSerance:
 
- - Code. Text
- - Code. Coding [0]. Aparecen
- - Statu
+ - Code.Text
+ - Code.Coding[0]. Pantalla
+ - Estado
 
-Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación para pacientes también lee los siguientes campos:
+Además de los campos Salesforce, para una excelente experiencia del usuario, la aplicación Pacientes también lee los siguientes campos:
 
  - RecordedDate
- - Nota. Text
- - Reacción [...]. Sustancia. texto
- - Reacción [...]. Manifesting [..]. Facturas
- - Text. div
+ - Note.Text
+ - Reacción[..]. Texto.texto.
+ - Reacción[..]. Editar[.]. Texto
+ - Text.Div
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - Paciente =  \<patient id>
+ - Patient =  \<patient id>
 
-Consulte el siguiente ejemplo de esta llamada:
+Vea el siguiente ejemplo de esta llamada:
 
 ```
 Request:
@@ -421,29 +421,29 @@ Response:
 }
 ```
 
-Consulte [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) otros detalles sobre este conjunto de campos.
 
-## <a name="medication-order"></a>Orden de los medicamentos
+## <a name="medication-order"></a>Orden de medicamentos
 
-Estos son los campos mínimos obligatorios, que son un subconjunto del perfil de MedicationOrder de Argonaut:
+Estos son los campos requeridos mínimos, que son un subconjunto del perfil deOrder de medicamentos:
 
- - DateWritten
- - Prescribir. Mostrar
- - Medicación. display (si Ref)
- - Medicación. Text (si concepto)
+ - Fecha escrita
+ - Ara.Pantalla
+ - Medicamentos.Pantalla (si referencia)
+ - Medicamentos.Texto (si concepto)
 
-Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
+Además de los campos Salesforce, para una excelente experiencia del usuario, la aplicación Pacientes también puede leer los siguientes campos:
 
  - DateEnded
- - DosageInstruction. Text
- - Text. div
+ - DosageInstruction.Text
+ - Text.Div
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-Consulte el siguiente ejemplo de esta llamada:
+Vea el siguiente ejemplo de esta llamada:
 
 ```
 Request:
@@ -478,19 +478,19 @@ Response:
 }
 ```
 
-Consulte [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) otros detalles sobre este conjunto de campos.
 
-## <a name="coverage"></a>Beneficios
+## <a name="coverage"></a>Cobertura
 
-Estos son los campos mínimos obligatorios, no incluidos en los perfiles de los Estados Unidos Core o Argonaut:
+Estos son los campos necesarios mínimos, no cubiertos por los perfiles US Core o Core:
 
  - Payor
 
-Una búsqueda de recursos usa el método GET y los siguientes parámetros:
+Una búsqueda de recursos usa el método GET y los parámetros siguientes:
 
- - paciente =\<patient id>
+ - patient=\<patient id>
 
-Consulte el siguiente ejemplo de esta llamada:
+Vea el siguiente ejemplo de esta llamada:
 
 ```
 Request:
@@ -514,10 +514,10 @@ Response:
 }
 ```
     
-Consulte [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) otros detalles sobre este conjunto de campos.
 
 ## <a name="location"></a>Ubicación
 
-Este recurso solo se usa como referencia en el recurso de [problemas](#encounter) .
+Este recurso solo se está utilizando como referencia en el recurso [De encuentro.](#encounter)
 
-Consulte [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) para obtener más información sobre este conjunto de campos.
+Consulte [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) otros detalles sobre este conjunto de campos.

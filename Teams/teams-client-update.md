@@ -13,7 +13,7 @@ ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: En este artículo, obtendrá información sobre el proceso de actualización del cliente de escritorio de Microsoft Teams.
+description: En este artículo, aprenderá sobre el proceso tras actualizar el cliente de escritorio de Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -26,40 +26,40 @@ ms.locfileid: "49031886"
 ---
 # <a name="teams-update-process"></a>Proceso de actualización de Teams
 
-Teams Web App se actualiza semanalmente.
+La aplicación web de Teams se actualiza semanalmente.
 
-Las actualizaciones de clientes de escritorio de Teams se publican cada dos semanas después de rigurosas pruebas internas y validación por medio de nuestro programa de adopción de tecnología (TAP). Normalmente, esto tiene lugar un martes. Si se requiere una actualización crítica, Teams evitará esta programación y liberará la actualización tan pronto como esté disponible.
+Las actualizaciones del cliente de escritorio de Teams se lanzan cada dos semanas después de la validación y pruebas internas rigurosos a través de Programa de adopción de tecnología (TAP) (TAP). Esto suele tener lugar un martes. Si se requiere una actualización crítica, Teams omitirá esta programación y la actualizará en cuanto esté disponible.
 
-El cliente de escritorio se actualiza automáticamente. Teams busca actualizaciones cada pocas horas, las descarga y, a continuación, espera a que el equipo esté inactivo antes de instalar silenciosamente la actualización.
+El cliente de escritorio se actualiza automáticamente. Teams comprueba si hay actualizaciones cada pocas horas entre bastidores, la descarga y, a continuación, espera a que el equipo esté inactivo antes de instalar la actualización de forma silenciosa.
 
-Los usuarios también pueden descargar actualizaciones manualmente haciendo clic en **Buscar actualizaciones** en el menú desplegable **perfil** en la parte superior derecha de la aplicación. Si hay una actualización disponible, se descargará y se instalará en modo silencioso cuando el equipo esté inactivo.
+Los usuarios también pueden descargar actualizaciones manualmente  haciendo clic en Buscar **actualizaciones** en el menú desplegable Perfil, en la parte superior derecha de la aplicación. Si hay una actualización disponible, se descargará e instalará de forma silenciosa cuando el equipo esté inactivo.
 
-Los usuarios deben iniciar sesión para que se descarguen las actualizaciones. 
+Los usuarios deben haber iniciado sesión para que se descarguen las actualizaciones. 
 
-A partir del 31 de julio de 2019, las actualizaciones de los clientes de Teams usan mucho menos ancho de banda de red durante la actualización. Esta opción está activada de forma predeterminada y no requiere ninguna acción de administradores o usuarios.
+Desde el 31 de julio de 2019, las actualizaciones de los clientes de Teams usan un ancho de banda de red considerablemente inferior durante la actualización. Esta opción está activada de forma predeterminada y no requiere ninguna acción por parte de los administradores o usuarios.
 
-## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>¿Qué hay de las actualizaciones de las aplicaciones de Microsoft 365 para la empresa?
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>¿Qué hay de las actualizaciones de las aplicaciones de Microsoft 365 para empresas?
 
-Teams se instala de forma predeterminada con nuevas instalaciones de aplicaciones de Microsoft 365 para empresas, tal y como se describe en [implementar Microsoft Teams con aplicaciones de microsoft 365 para la empresa](https://docs.microsoft.com/DeployOffice/teams-install). 
+Teams se instala de forma predeterminada con nuevas instalaciones de aplicaciones de Microsoft 365 para empresas, como se describe en Implementar Microsoft Teams con aplicaciones de [Microsoft 365 para empresas.](https://docs.microsoft.com/DeployOffice/teams-install) 
 
-Teams sigue su propio proceso de actualización, como se indica anteriormente, y no el proceso de actualización para las otras aplicaciones de Office, como Word y Excel. Para obtener más información, consulte [información general sobre los canales de actualización de las aplicaciones de Microsoft 365 para empresas](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) .
+Teams sigue su propio proceso de actualización, como se describe anteriormente, y no el proceso de actualización para las demás aplicaciones de Office, como Word y Excel. Para obtener más información, lea [Información general sobre los canales de actualización de las aplicaciones de Microsoft 365 para empresas](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>¿Qué hay de las actualizaciones de Teams en VDI?
 
-Los clientes de Teams en la infraestructura de escritorio virtual (VDI) no se actualizan automáticamente de la manera en que los clientes de equipos ajenos a VDI son. Tiene que actualizar la imagen de VM instalando un nuevo MSI, tal y como se describe en las instrucciones para [instalar Teams en VDI](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi). Debe desinstalar la versión actual para actualizar a una versión más reciente.
+Los clientes de Teams en infraestructura de escritorio virtual (VDI) no se actualizan automáticamente de la misma forma que los clientes de equipos que no son de VDI. Tiene que actualizar la imagen de máquina virtual mediante la instalación de un nuevo MSI como se describe en las instrucciones [para instalar Teams en VDI.](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi) Debe desinstalar la versión actual para actualizar a una versión más reciente.
 
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>¿Los administradores pueden implementar actualizaciones en lugar de la actualización automática de Teams?
 
-Teams no proporciona a los administradores la capacidad de implementar actualizaciones a través de cualquier mecanismo de envío.
+Teams no ofrece a los administradores la capacidad de implementar actualizaciones a través de ningún mecanismo de entrega.
 
 ## <a name="servicing-agreement"></a>Contrato de mantenimiento
 
-Como servicio en línea moderno, el cliente de Teams se actualiza automáticamente cada dos semanas. Debido a que Teams está regido por la Directiva moderna del ciclo de vida, se espera que los usuarios permanezcan en la versión más actualizada del cliente de escritorio. Esto garantiza que los usuarios tengan las últimas funciones, mejoras de rendimiento, seguridad y confiabilidad de los servicios.
+Como servicio en línea moderno, el cliente de Teams se actualiza automáticamente cada dos semanas. Como Teams se rige por la directiva moderna de ciclo de vida, se espera que los usuarios permanezcan en la versión más actualizada del cliente de escritorio. Esto garantiza que los usuarios tengan las capacidades, mejoras de rendimiento, seguridad y confiabilidad del servicio más recientes.
 
-Para empezar a identificar cuándo los clientes de escritorio no están actualizados, se mostrará una alerta en la aplicación si la versión actual del usuario se encuentra entre uno y tres meses de antigüedad y si hay una nueva versión disponible. Esta mensajería desde la aplicación anima a los usuarios a actualizar a la última versión de Teams o, si es necesario, a comunicarse con su administrador de TI para hacerlo. Los usuarios de equipos con clientes de escritorio de más de tres meses de edad verán una página de bloqueo que ofrece las opciones para actualizar ahora, comunicarse con su administrador de ti o continuar con Teams en la Web.
+Para comenzar a ayudar a identificar cuándo los clientes de escritorio no están actualizados, se mostrará una alerta desde la aplicación si la versión actual del usuario tiene entre uno y tres meses de antigüedad, y si hay una nueva versión disponible. Esta mensajería desde la aplicación anima a los usuarios a actualizar a la versión más reciente de Teams o, si es necesario, a comunicarse con su administrador de TI para hacerlo. Los usuarios de clientes de escritorio de Teams que tienen más de tres meses de antigüedad verán una página de bloqueo que ofrece las opciones para actualizar ahora, tendrán que comunicarse con su administrador de TI o continuar con Teams en la web.
 
-Las versiones de clientes de escritorio con más de tres meses de antigüedad en la primera instalación o primera ejecución de Teams tienen un período de gracia de 28 días antes de que se produzca la información de servicio mencionada anteriormente. Durante este período, el proceso de actualización automática actualizará el cliente de Teams. Si no se actualiza, los usuarios verán una alerta desde la aplicación que les anima a actualizar de forma manual a la última versión de Teams o, si es necesario, a su administrador de TI para hacerlo. Esto incluye a los usuarios que usan el cliente de escritorio de Teams como parte del paquete de aplicaciones de Microsoft 365 para empresas.
+Las versiones de cliente de escritorio que tengan más de tres meses de antigüedad tras la primera instalación o primera ejecución de Teams tienen un período de gracia de 28 días antes de encontrar la información de mantenimiento mencionada anteriormente. Durante este período, el proceso de actualización automática actualizará el cliente de Teams. Si no se actualiza, los usuarios verán una alerta en la aplicación aníándoles que actualicen manualmente a la última versión de Teams o, si es necesario, que se pondrán en contacto con su administrador de TI para hacerlo. Esto incluye a los usuarios que usan el cliente de escritorio de Teams como parte del paquete Aplicaciones de Microsoft 365 para empresas.
 
-Los clientes de escritorio de Teams de las nubes gubernamentales actualmente tienen una excepción a este contrato de mantenimiento hasta un aviso más importante.
+Actualmente, los clientes de escritorio de Teams en Government Clouds tienen una excepción a este contrato de mantenimiento hasta nuevo aviso.
 
-Para obtener información sobre las nuevas versiones, consulte [centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) o ir para **obtener** información sobre las novedades del  >  **What’s new** cliente.
+Para obtener información sobre las versiones nuevas, consulte el Centro [de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) o vaya a Ayuda sobre novedades  >   del cliente.

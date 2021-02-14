@@ -20,7 +20,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: Obtenga información sobre cómo un usuario con el estado ausente o no molestar puede establecer explícitamente otro usuario como delegado en su mensaje de estado.
+description: Obtenga información sobre cómo un usuario con el estado No molestar o con el estado No molestar puede establecer explícitamente a otro usuario como delegado en su mensaje de estado.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
 ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
@@ -31,42 +31,42 @@ ms.locfileid: "48790472"
 ---
 # <a name="message-delegation"></a>Delegación de mensajes
 
-Un usuario ya puede definir de forma explícita su estado como ausente o no molestar, y proporcionar texto personalizado. La característica de delegación de mensajes funciona de la siguiente manera:
+Un usuario ya puede establecer explícitamente su estado en "No molestar" o "No molestar" y proporcionar texto personalizado. La característica de delegación de mensajes funciona de la siguiente manera:
 
-1. Un usuario @username mencione a otro usuario en un mensaje de estado de texto, lo que sugiere que no se les puede comunicar con ellos en su lugar, póngase en contacto con el @username Usuario mencionado.
-2. La persona a la que se le ha asignado como delegado recibe la notificación de que se ha designado como delegado.
-3. Alguien que está intentando ponerse en contacto con el primer usuario puede desplazar el puntero sobre el delegado nominado y enviarle fácilmente un mensaje al delegado.  
+1. Un usuario @username menciona a otro usuario en parte de un mensaje de estado de texto, lo que sugiere que, aunque no estén disponibles, los usuarios que deban ponerse en contacto con él en su lugar se pondrán en contacto con el @username mencionado.
+2. A la persona que se le ha asignado como delegado se le notifica que se le ha nominado para ser delegado.
+3. Alguien que está intentando ponerse en contacto con el primer usuario puede mantener el puntero sobre el delegado nominado y, en su lugar, enviar mensajes fácilmente al delegado.  
 
-Este es un proceso iniciado por el usuario en el cliente, y no es necesario que intervenga el administrador para habilitar la característica. 
+Se trata de un proceso iniciado por el usuario en el cliente y no es necesaria la participación del administrador para habilitar la característica. 
 
-## <a name="delegation-use-scenario-in-healthcare"></a>Escenario de uso de delegación en el cuidado de la salud
+## <a name="delegation-use-scenario-in-healthcare"></a>Escenario de uso de la delegación en el sector sanitario
 
-*Ejemplo de uso sin establecer delegados:*  Dr. Franco Piccio es una llamada en el Departamento de radiología. Recibe una llamada personal urgente y tiene que desplazarse por las próximas horas. Usted pide a uno de sus colegas en el Departamento de radiología, Dr. Lena Ehrle, que lo cubre mientras está fuera. Informando a su buscapersonas a Dr. Ehrle, que está escuchando mensajes urgentes y pings en el buscapersonas y responde a ellos en nombre de Dr. Piccio además de sus responsabilidades actuales. Es posible que otros miembros del equipo no se den cuenta de que la delegación informal se produjo, y confusiones se comparan con el cuidado de un paciente.
+*Ejemplo de uso sin configurar delegados:*  El Dr. Franco Piccio está en llamada en el departamento de radioactividad. Recibe una llamada personal urgente y debe alejerse durante las próximas horas. Le pide a uno de sus compañeros del departamento de radiología, el Dr. Lena Ehrle, que lo cubra mientras está desaparecido. Informalmente, entrega su página al Dr. Ehrle, que escucha mensajes urgentes y hace ping al pager y los responde en nombre del Dr. Piccio, además de sus responsabilidades actuales. Es posible que otros miembros del equipo no se percatan de que ha sucedido una delegación informal y se está confusión en la atención de un paciente.
 
-*Ejemplo de uso con la configuración de delegados:* Dr. Franco Piccio es una llamada en el Departamento de radiología. Recibe una llamada personal urgente y tiene que desplazarse por las próximas horas. Usted pide a uno de sus colegas en el Departamento de radiología, Dr. Lena Ehrle que lo cubra mientras está fuera. Cambia su mensaje de estado personalizado para que diga algo similar a "no estoy disponible durante las próximas horas. Comunícate @DrEhrle cualquier emergencia.  Otros miembros del equipo se dan cuenta de que la delegación se produjo porque está intentando ponerse en contacto con Dr. Piccio, por lo que ahora saben comunicarse con Dr. Ehrle mientras tanto. El cuidado de un paciente tiene poca o ninguna confusión.
+*Ejemplo de uso con la configuración de delegados:* El Dr. Franco Piccio está en llamada en el departamento de radioactividad. Recibe una llamada personal urgente y debe alejerse durante las próximas horas. Le pide a uno de sus compañeros del departamento de radiología, el Dr. Lena Ehrle que lo cubra mientras está desaparecido. Cambia su mensaje de estado personalizado para decir algo similar a "No estoy disponible para las próximas horas. Póngase en contacto @DrEhrle emergencia".  Los demás miembros del equipo se percatan de que la delegación se ha producido al intentar ponerse en contacto con el Dr. Piccio, para que ahora sepan que se debe comunicar con el Dr. Ehrle mientras tanto. Poco o ninguna confusión se ve con la atención de un paciente.
 
 ## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Impacto de los modos de coexistencia en el estado del usuario en el cliente de Teams
 
-Los administradores deben tener en cuenta que los comportamientos de notas de estado y de la delegación dependen en parte del modo de coexistencia del usuario. Esta matriz muestra las posibilidades:
+Los administradores deben tener en cuenta que las notas de estado y los comportamientos de las menciones de delegación dependerán en parte del modo coexistencia de un usuario. Esta matriz le muestra las posibilidades:
 
-|Modo Co-Existence | Comportamiento esperado|
+|Co-Existence privado | Comportamiento esperado|
 |---|---|
 |TeamsOnly |Los usuarios solo pueden establecer una nota desde Teams. <br> La nota de Teams del usuario está visible en Teams & SfB. |
-|Aplicaciones aisladas | La nota del usuario se establece en Teams visible solo en Teams. <br> La nota del usuario se establece en SfB visible solo en SfB |
-|Modos SfB * | Los usuarios solo pueden establecer una nota desde SfB. <br> La nota de SfB del usuario está visible en los equipos de SfB &.  |
+|Aplicaciones aisladas | El conjunto de notas del usuario en Teams solo se puede ver en Teams. <br> El conjunto de notas del usuario en SfB solo visible en SfB |
+|Modos sfB* | Los usuarios pueden establecer una nota solo desde SfB. <br> La nota de SfB del usuario está visible en SfB & Teams.  |
 |||
 
-Un usuario solo puede establecer una nota en Teams si su modo es TeamsOnly o islas.  
+Un usuario solo puede establecer una nota en Teams si su modo es TeamsOnly o Islas.  
 
-### <a name="displaying-notes-set-in-skype-for-business"></a>Mostrar notas establecidas en Skype empresarial
+### <a name="displaying-notes-set-in-skype-for-business"></a>Mostrar notas configuradas en Skype Empresarial
   
-No hay ninguna indicación visual de que una nota se haya establecido desde Skype empresarial.
+No hay ninguna indicación visual de que skype empresarial haya establecido una nota.
 
-Skype empresarial no impone un límite de caracteres en las notas de estado. Microsoft Teams solo mostrará los primeros 280 caracteres de una nota establecida desde Skype empresarial. Una elipse (...) al final de una nota indica que se ha truncado.
+Skype Empresarial no aplica un límite de caracteres a las notas de estado. Microsoft Teams solo mostrará los primeros 280 caracteres de un conjunto de notas de Skype Empresarial. Los puntos suspensivos (...) al final de una nota indican truncamiento.
   
-Skype empresarial no admite tiempos de caducidad para las notas.
+Skype Empresarial no admite la caducidad de las notas.
 
-La migración de notas de Skype empresarial a teams no es compatible cuando un usuario se actualiza al modo TeamsOnly.
+La migración de notas de Skype Empresarial a Teams no se admite cuando un usuario se actualiza al modo TeamsOnly.
 
 ## <a name="related-topics"></a>Temas relacionados
 

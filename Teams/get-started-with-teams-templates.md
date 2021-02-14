@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre cómo usar las plantillas de Teams en Microsoft Graph para crear espacios de colaboración con canales para diferentes temas y Preinstalar aplicaciones para proporcionar contenido y servicios.
+description: Aprenda a usar plantillas de Teams en Microsoft Graph para crear espacios de colaboración con canales para distintos temas y preinstalar aplicaciones para proporcionar contenido y servicios.
 f1.keywords:
 - CSH
 ms.custom:
@@ -29,53 +29,53 @@ ms.locfileid: "48772201"
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Introducción a las plantillas de Teams con Microsoft Graph
 
 > [!NOTE]
-> Las plantillas de Teams actualmente no admiten la creación de canales privados. La creación de canales privados no se incluye en las definiciones de plantilla.
+> Actualmente, las plantillas de Teams no admiten la creación de canales privados. La creación de canales privados no se incluye en las definiciones de plantillas.
 
-Las plantillas de Teams son definiciones preconstruidas de una estructura de equipo diseñada según una necesidad o un proyecto empresarial. Puede [crear su propia plantilla en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md). Con Microsoft Graph, se usan las plantillas predefinidas. Puede usar las plantillas de Teams para crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y para preinstalar aplicaciones para extraer contenido y servicios de misión crítica. Las plantillas de Teams proporcionan una estructura de equipo predefinida que le puede ayudar a crear fácilmente equipos coherentes en toda la organización.
+Las plantillas de Teams son definiciones predefinidas de la estructura de un equipo diseñadas en torno a una necesidad empresarial o un proyecto. Puede crear [su propia plantilla en la consola de administración.](get-started-with-teams-templates-in-the-admin-console.md) Con Microsoft Graph, puede usar las plantillas predefinidas. Puede usar plantillas de Teams para crear rápidamente espacios de colaboración enriquecidos con canales para distintos temas y preinstalar aplicaciones para agregar contenido y servicios fundamentales. Las plantillas de Teams proporcionan una estructura de equipo predefinida que puede ayudarle a crear fácilmente equipos coherentes en toda su organización.
 
-En este artículo, explicaremos las propiedades que se pueden definir en plantillas, qué son los tipos de plantilla base y cómo puede usar algunas solicitudes de ejemplos para crear un equipo a partir de una plantilla.
+En este artículo explicaremos las propiedades que se pueden definir en las plantillas, qué tipos de plantillas base son y cómo puede usar algunas solicitudes de ejemplo para crear un equipo a partir de una plantilla.
 
-Este artículo le interesa si:
+Este artículo es para usted si:
 
-- Responsable de planear, implementar y administrar varios equipos en la organización<br>
-- Un desarrollador que desea crear mediante programación un equipo con canales y aplicaciones predefinidos
+- Responsable de planear, implementar y administrar varios equipos en toda la organización<br>
+- Un desarrollador que desea crear mediante programación un equipo con aplicaciones y canales predefinidos
 
 ## <a name="teams-template-capabilities"></a>Capacidades de las plantillas de Teams
 
-La mayoría de las propiedades de un equipo están incluidas y son compatibles con las plantillas. Sin embargo, hay algunas propiedades y características que actualmente no se admiten. En la tabla siguiente se proporciona un resumen rápido de lo que se incluye y lo que no se incluye en las plantillas de Teams.
+La mayoría de las propiedades de un equipo se incluyen y se admiten con plantillas. Pero hay algunas propiedades y características que actualmente no son compatibles. La tabla siguiente proporciona un resumen rápido de lo que se incluye y lo que no se incluye en las plantillas de Teams.
 
-| **Propiedades del equipo admitidas por las plantillas de Teams** | **Las propiedades del equipo aún no son compatibles con las plantillas de Teams** |
+| **Propiedades de equipo admitidas por plantillas de Teams** | **Las propiedades del equipo aún no son compatibles con las plantillas de Teams** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Tipo de plantilla base | Membresía de equipo |
-| Nombre del equipo | Imagen de equipo |
-| Descripción del equipo | Configuración del canal |
+| Nombre del equipo | Imagen del equipo |
+| Descripción del equipo | Configuración de canales |
 | Visibilidad del equipo (pública o privada) | Conectores |
-| Configuración del equipo (por ejemplo, miembro, invitado, @ menciones) | Archivos y contenido |
-| Canal de favoritos automático | |
+| Configuración del equipo (por ejemplo, menciones de miembros, invitados o @) | Archivos y contenido |
+| Canal favorito automático | |
 | Aplicación instalada | |
 | Pestañas ancladas | |
 
 > [!NOTE]
-> Agregaremos más capacidades de plantilla en versiones futuras de Microsoft Teams, así que vuelva a consultar la información más actualizada sobre las propiedades admitidas.
+> Agregaremos más funcionalidades de plantillas en futuras versiones de Microsoft Teams, así que vuelva a comprobar la información más actualizada sobre las propiedades compatibles.
 
-## <a name="what-are-base-template-types"></a>Qué son los tipos de plantilla base
+## <a name="what-are-base-template-types"></a>Qué son los tipos de plantillas base
 
-Los tipos de plantillas base son plantillas especiales que Microsoft creó para sectores específicos. Estas plantillas básicas a menudo contienen aplicaciones propias que no están disponibles en la tienda. Además, las plantillas básicas a menudo contienen propiedades de equipo que aún no se admiten individualmente en las plantillas de Teams. Aprenda a usar las [plantillas de equipo en Microsoft Graph](get-started-with-teams-templates.md).
+Los tipos de plantillas base son plantillas especiales que Microsoft ha creado para sectores específicos. Estas plantillas base suelen contener aplicaciones de propiedad que no están disponibles en la tienda. Además, las plantillas base suelen contener propiedades de equipo que aún no se admiten individualmente en las plantillas de Teams. Obtenga información sobre cómo usar las [plantillas de equipo en Microsoft Graph.](get-started-with-teams-templates.md)
 
-Una vez que se define un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que le gustaría especificar. Algunos tipos de plantillas base contienen propiedades que no se pueden reemplazar.
+Una vez definido un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que quiera especificar. Algunos tipos de plantilla base contienen propiedades que no se pueden anular.
 
-De forma predeterminada, la plantilla base se establece en **estándar** , que no contiene ninguna aplicación de propiedad adicional ni propiedades especiales. A continuación se muestra la lista actual de tipos de plantillas base disponibles.
+De forma predeterminada, la plantilla base está establecida en **Estándar,** que no contiene aplicaciones de propiedad adicionales ni propiedades especiales. A continuación se muestra la lista actual de tipos de plantillas base disponibles.
 
 | Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | No hay más aplicaciones ni propiedades |
-| Educativo<br>Equipo de clase | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Phone<ul><li>Bloc de notas de clase de OneNote (anclado a la pestaña **General** ) </li><li>Aplicación tareas (anclada a la pestaña **General** )</li></ul> Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en **HiddenMembership** (no se puede reemplazar)</li></ul> |
-| Educativo<br>Equipo del personal | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Phone<ul><li>Bloc de notas para docentes de OneNote (anclado a la pestaña **General** )</li></ul> |
-|Educativo<br>Equipo de PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Phone<ul><li>Bloc de notas PLC de OneNote (anclado a la pestaña **General** )</ul></li>|
-| Anuales<br>Tienda | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canales<ul><li>Transición de turno</li><li>Aprendiendo</li></ul>Propiedades del equipo<ul><li>Visibilidad de equipo establecida como pública</li></ul>Permisos de miembro<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul> |
-| Anuales<br>Colaboración de administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales<ul><li>Aprendiendo</li><li>Operations</li></ul>Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en privado</li></ul>Permisos de miembro:<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul>|
-| Healthcare<br>Hacia |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Hacia</li><li>Personal\*</li><li>Aprendizaje\*</li></ul>\*Canales favoritos automáticos |
-|Healthcare<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales<ul><li>Anuncios\*</li><li>Cumplimiento\*</li><li>Private</li><li>Recursos humanos</li></li><li>Pertenecie</li></ul>\*Canal de favoritos automáticos|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | No hay aplicaciones ni propiedades adicionales |
+| Educación -<br>Equipo de clase | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Aplicaciones:<ul><li>Bloc de notas de clase de OneNote (anclado a la **pestaña General)** </li><li>Aplicación Tareas (anclada a la **pestaña General)**</li></ul> Propiedades del equipo:<ul><li>Visibilidad de equipo establecida **en Miembro Oculto** (no se puede anular)</li></ul> |
+| Educación -<br>Equipo de docentes | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Aplicaciones:<ul><li>Bloc de notas para docentes de OneNote (anclado a la **pestaña General)**</li></ul> |
+|Educación -<br>Equipo plc |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicaciones:<ul><li>Bloc de notas PLC de OneNote (anclado a la **pestaña General)**</ul></li>|
+| Venta al por menor:<br>Almacén | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canales:<ul><li>Mayús handoff</li><li>Aprendizaje</li></ul>Propiedades del equipo<ul><li>Visibilidad del equipo establecida en Público</li></ul>Permisos de miembros<ul><li>Impedir que los miembros creen, actualicen o quiten canales</li><li>Impedir que los miembros agreguen o quiten aplicaciones</li><li>Impedir que los miembros creen, actualicen o quiten conectores</li></ul> |
+| Venta al por menor:<br>Colaboración del administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales:<ul><li>Aprendizaje</li><li>Operations</li></ul>Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en Privado</li></ul>Permisos de miembros:<ul><li>Impedir que los miembros creen, actualicen o quiten canales</li><li>Impedir que los miembros agreguen o quiten aplicaciones</li><li>Impedir que los miembros creen, actualicen o quiten conectores</li></ul>|
+| Salud -<br>Uno de los líderes |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales: <ul><li>Anuncios\*</li><li>Garabatos\*</li><li>Redondear</li><li>Empleados\*</li><li>Aprendizaje\*</li></ul>\*Canales auto favoritos |
+|Salud -<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales:<ul><li>Anuncios\*</li><li>Cumplimiento\*</li><li>Descúyal</li><li>Recursos humanos</li></li><li>Clínica</li></ul>\*Canal auto favoritos|
 |||
 
 
@@ -84,26 +84,26 @@ Use las siguientes plantillas para crear equipos tanto en el cliente de Teams co
 
 | Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Adopción de Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Canales <ul><li>General</li> <li>Anuncios</li> <li>La esquina de los campeones</li> <li>Formularios de equipo</li></ul> Phone <ul><li>Wiki</li>  <li>Calendario</li> |
-| Administrar un proyecto |`com.microsoft.teams.template.`<br>`ManageAProject`| Canales <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
-| Administrar un evento|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Canales <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y PR</li></ul> Phone<ul><li>Wiki</li><li>Página</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|Empleados de la placa|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Canales <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleados</li> <li>Aprendizaje</li></ul>Phone<ul><li>Wiki</li><li>Comunitarios</li></ul>|
-|Organizar el Departamento de soporte técnico| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Canales<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Phone<ul><li>Wiki</li><li>OneNote</li></ul> |
-| Colaborar en el cuidado del paciente| `healthcareWard `| Canales<ul><li>General</li><li>Anuncios</li><li>Huddles</li><li>Hacia</li><li>Personal</li><li>Aprendizaje</li></ul> Phone <ul><li>Wiki</li>|
-| Colaborar en crisis global o evento |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Canales <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicaciones internas</li><li>Comunicaciones externas</li><li>Quejas de los clientes</li><li>Kudos</li><li>Actualización Ejecutiva</li></ul>Phone <ul><li>Elogio</li><li>Wiki</li><li>Página</li></ul>|
-|Colaborar dentro de una sucursal bancaria| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Canales <ul><li>General<li>Anuncios</li><li>Huddles</li><li>Reuniones de clientes</li><li>Tren</li><li>Desarrollo de competencias</li><li>Procesamiento de préstamos</li><li>Quejas de los clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
-|Coordinar la respuesta a incidentes| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Canales <ul><li>General<li>Anuncios</li><li>Logística</li><li>Planeación</li><li>Recuperar</li><li>Urgente</li></ul> Phone <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|Hospital| `healthcareHospita`cuenta |Canales <ul><li>General<li>Anuncios</li><li>Cumplimiento</li><li>Private</li><li>Recursos humanos</li><li>Pertenecie</li></ul> Phone <ul><li>Wiki</li></ul>|
-|Organizar un almacén| `retailStore` |Canales <ul><li>General<li>Transición de turno</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
-|Calidad y seguridad |`com.microsoft.teams.`<br>`template.QualitySafety`|Canales <ul><li>General<li>Anuncios</li><li>Línea 1</li><li>Línea 2</li><li>Línea 3</li><li>Opera</li><li>Aprendizaje</li><li>Mantenimiento</li><li>Cosas divertidas</li></ul> Phone <ul><li>Wiki</li></ul>|
-|Colaboración minorista-Gerente| `retailManagerCollaboration` |Canales <ul><li>General<li>Operations</li><li>Aprendiendo</li></ul> Phone <ul><li>Wiki</li></ul>|
+| Adoptar Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Canales: <ul><li>General</li> <li>Anuncios</li> <li>Esquina de campeones</li> <li>Formularios de equipo</li></ul> Aplicaciones: <ul><li>Wiki</li>  <li>Calendario</li> |
+| Administrar un proyecto |`com.microsoft.teams.template.`<br>`ManageAProject`| Canales: <ul><li>General</li> <li>Anuncios</li> <li>Recursos</li> <li>Planeación</li></ul> Aplicaciones:<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Administrar un evento|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Budget</li> <li>Contenido</li><li>Logística</li> <li>Planeación</li> <li> Marketing y relaciones públicas</li></ul> Aplicaciones:<ul><li>Wiki</li><li>Sitio web</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|Incorporar empleados|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Canales: <ul><li>General</li> <li>Anuncios</li> <li>Chat de empleado</li> <li>Aprendizaje</li></ul>Aplicaciones:<ul><li>Wiki</li><li>Comunidades</li></ul>|
+|Organizar el servicio de ayuda| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Canales:<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Aplicaciones:<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Colaborar en la atención al paciente| `healthcareWard `| Canales:<ul><li>General</li><li>Anuncios</li><li>Garabatos</li><li>Redondear</li><li>Empleados</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li>|
+| Colaborar en eventos o crisis globales |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Canales: <ul><li>General<li>Anuncios</li><li>Noticias internacionales</li><li>Continuidad empresarial</li><li>Trabajo remoto</li><li>Comunicación interna</li><li>Comms externos</li><li>Quejas de clientes</li><li>Kudos</li><li>Actualización ejecutiva</li></ul>Aplicaciones: <ul><li>Elogiar</li><li>Wiki</li><li>Sitio web</li></ul>|
+|Colaborar en una rama de bancos| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Canales: <ul><li>General<li>Anuncios</li><li>Garabatos</li><li>Reuniones de clientes</li><li>Entrenador</li><li>Desarrollo de aptitudes</li><li>Procesamiento del préstamo</li><li>Quejas de clientes</li><li>Kudos</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>|
+|Coordinar la respuesta a incidentes| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Canales: <ul><li>General<li>Anuncios</li><li>Logística</li><li>Planeación</li><li>Recuperación</li><li>Urgente</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Hospital| `healthcareHospita`l |Canales: <ul><li>General<li>Anuncios</li><li>Cumplimiento</li><li>Descúyal</li><li>Recursos humanos</li><li>Clínica</li></ul> Aplicaciones: <ul><li>Wiki</li></ul>|
+|Organizar una tienda| `retailStore` |Canales: <ul><li>General<li>Mayús handoff</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li></ul>|
+|Calidad y seguridad |`com.microsoft.teams.`<br>`template.QualitySafety`|Canales: <ul><li>General<li>Anuncios</li><li>Línea 1</li><li>Línea 2</li><li>Línea 3</li><li>Seguridad</li><li>Aprendizaje</li><li>Mantenimiento</li><li>Cosas divertidas</li></ul> Aplicaciones: <ul><li>Wiki</li></ul>|
+|Comercio al por menor: colaboración del administrador| `retailManagerCollaboration` |Canales: <ul><li>General<li>Operations</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li></ul>|
 ||||
 
-Para obtener más información, vea [Introducción a las plantillas de Teams en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md) .
+Vea [Introducción a las plantillas de Teams en el Centro de administración](get-started-with-teams-templates-in-the-admin-console.md) para obtener más información.
 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Introducción a las plantillas de Teams en la consola de administración](get-started-with-teams-templates-in-the-admin-console.md)
-- [Crear equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en versión preliminar)
-- [Nuevo: equipo](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
+- [Crear un equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en versión preliminar)
+- [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Formación de administradores para Microsoft Teams](itadmin-readiness.md)

@@ -29,7 +29,7 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: 'Obtenga información sobre cómo pagar crédito de comunicación (consumo RTC) para servicios de Skype empresarial y consulte planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
+description: 'Aprenda a pagar los créditos de comunicación (Consumo RTC) de los servicios de Skype Empresarial y vea los planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
 ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
@@ -39,47 +39,47 @@ ms.locfileid: "49031066"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
-Los créditos de comunicaciones son una forma cómoda de pagar el sistema telefónico y los planes de llamadas en Microsoft 365 u Office 365. Los créditos de comunicación le ayudan a asegurarse de que usted y sus usuarios nunca se capturan sin ser capaces de:
+Los créditos de comunicaciones son una forma práctica de pagar los planes de sistema telefónico y de llamadas en Microsoft 365 u Office 365. Los créditos de comunicación ayudan a garantizar que usted y sus usuarios nunca se encuentran sin poder:
   
-- Llamar a reuniones de audioconferencia con números de teléfono de acceso telefónico gratuitos.
+- Llame a las reuniones de Audioconferencia con números de teléfono de acceso telefónico gratuitos.
 
-- Llamar desde una reunión de audioconferencia para agregar a otra persona desde cualquier lugar del mundo.
+- Llame desde una reunión de Audioconferencia para agregar a otra persona de cualquier lugar del mundo.
 
-- Llame desde una reunión de audioconferencia a su teléfono móvil con la aplicación Skype empresarial o Microsoft Teams instalada.
+- Llame desde una reunión de Audioconferencia a su teléfono móvil con la aplicación Skype Empresarial o Microsoft Teams instalada.
 
-- Marca cualquier número de teléfono internacional cuando tienes un **plan de llamadas nacionales**.
+- Marca cualquier número de teléfono internacional cuando tienes un **plan de llamadas nacionales.**
 
-- Llama y paga por minuto una vez que hayas agotado tu cobertura mensual de minutos.
+- Llama y paga por minuto una vez que has agotado tu asignación de minutos mensuales.
 
 > [!NOTE]
-> Si se está preguntando cuánto es y las tarifas, consulte la tabla tarifas en la página de [planes de llamada](https://go.microsoft.com/fwlink/p/?LinkId=799523) .
+> Si quiere saber cuánto es y cuáles son las tarifas, consulte la tabla de tarifas en la página [Planes de](https://go.microsoft.com/fwlink/p/?LinkId=799523) llamadas.
   
-Como administrador, puedes agregar fondos manualmente o puedes configurar la recarga automática, que te **recomendamos**.
+Como administrador, puede agregar fondos manualmente o puede configurar la recarga automática, lo que **le recomendamos.**
   
 Esta opción recarga automáticamente su saldo cuando se encuentra por debajo del umbral mínimo que establezca. Se recomienda usar la opción de recarga automática para que no tenga que acordarse de agregar fondos de forma manual. Los fondos se agregarán automáticamente cuando el saldo alcance el límite. Si no elige la recarga automática, corre el riesgo de que el saldo sea inferior a cero. En ese momento, ni su usuario ni el resto podrán realizar llamadas gratuitas ni llamadas internacionales.
   
-Puede actualizar las opciones de pago en cualquier momento. En la página **suscripciones** , seleccione **créditos de comunicaciones** y realice las actualizaciones.
+Puede actualizar las opciones de pago en cualquier momento. En la **página Suscripciones,** selecciona **Créditos de** comunicaciones y haz las actualizaciones.
   
-Los fondos se aplicarán únicamente a los créditos de comunicación de las tarifas publicadas de Microsoft cuando se usen los servicios. Los fondos no utilizados dentro de los doce (12) meses de la fecha de compra vencerán y se perderán.
+Los fondos se aplicarán solo a los créditos de comunicaciones de acuerdo con las tarifas publicadas por Microsoft cuando se utilicen los servicios. Los fondos que no se usen en 12 (12) meses a partir de la fecha de compra expirarán y se perderán.
   
 > [!TIP]
-> Te enviaremos notificaciones por correo electrónico cuando los fondos se agreguen a través de la recarga automática, cuando la recarga automática falle (por ejemplo, cuando una tarjeta de crédito vence) y cuando tu saldo sea inferior a cero.
+> Te enviaremos notificaciones por correo electrónico cuando se agregan fondos a través de la recarga automática, cuando la recarga automática falla (por ejemplo, cuando expira una tarjeta de crédito) y cuando tu saldo sea inferior a cero.
   
-Para obtener más información, vea [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md)
+Para obtener más información, consulta [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md)
   
-## <a name="want-to-know-about-plans-and-pricing"></a>¿Quiere saber sobre los planes y los precios?
+## <a name="want-to-know-about-plans-and-pricing"></a>¿Desea saber acerca de los planes y los precios?
 
-Para ver los planes y los precios, visite uno de los siguientes vínculos:
+Puedes ver los planes y precios visitando uno de los siguientes vínculos:
   
 - [Planes de llamadas](https://go.microsoft.com/fwlink/?LinkId=799761 )
 
-- [Planes de audioconferencia](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [Planes de Audioconferencia](https://go.microsoft.com/fwlink/?LinkId=799762 )
 
-- [Planes de sistemas telefónicos](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [Planes de sistema telefónico](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-También puede ver información iniciando sesión en el centro de administración de Microsoft 365 y yendo a suscripciones de **facturación** para  >  **Subscriptions**  >  **Agregar suscripciones**.
+También puede ver la información iniciando sesión en el Centro de administración de Microsoft 365 y yendo **a** Agregar suscripciones  >    >  **de facturación.**
   
-Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Para ver una tabla con las licencias que necesitará para cada característica, consulte licencias [de complementos de Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -87,5 +87,5 @@ Para ver una tabla con las licencias que necesitará para cada característica, 
 
 - [Configurar el Correo de voz en la nube. Ayuda para el administrador](set-up-phone-system-voicemail.md)
 
-- [Configurar planes](set-up-calling-plans.md) de llamadas y [planes de llamadas para Microsoft 365 u Office 365](calling-plans-for-office-365.md)
+- [Configurar planes de llamadas y](set-up-calling-plans.md) planes de llamadas para Microsoft [365 u Office 365](calling-plans-for-office-365.md)
 

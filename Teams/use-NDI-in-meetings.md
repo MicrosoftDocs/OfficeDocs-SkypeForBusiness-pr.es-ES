@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Aprenda a usar NDI en Microsoft Teams.
+description: Obtenga información sobre cómo usar NDI en Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -23,44 +23,44 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 10/02/2020
 ms.locfileid: "48337019"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>Usar la tecnología de NDI® en Microsoft Teams
+# <a name="use-ndi-technology-in-microsoft-teams"></a>Usar tecnología NDI® en Microsoft Teams
 
- La tecnología NewTek NDI® (interfaz de dispositivo de red) es una solución moderna para conectar dispositivos de medios (como una cámara de estudio y un mezclador). En lugar de usar conexiones físicas, la tecnología de® de NDI permite la conectividad en una Intranet local, incluso en un equipo local.
+ La tecnología newTek NDI® (Interfaz de dispositivos de red) es una solución moderna para conectar dispositivos multimedia (como una cámara de estudio y un mixer). En lugar de usar conexiones físicas, la tecnología de ® NDI habilita la conectividad a través de una intranet local, incluso en un equipo local.
 
-NDI® tecnología se ha convertido en una solución estándar de la industria para producir contenido en vivo para transmisiones por secuencias y ha obtenido un importante conocimiento y adopción en el mundo de la difusión profesional.
+La tecnología ® NDI se ha convertido en una solución estándar del sector para producir contenido en directo durante las transmisiones y ha adquirido un conocimiento y adopción significativos en el mundo de las difusiones profesionales.
 
-Skype añadió previamente la funcionalidad de® de salida de NDI a Skype a finales del 2018. Microsoft Teams usa esta funcionalidad para mejorar la experiencia de la reunión.
+Skype agregó anteriormente la funcionalidad de ® a Skype a finales de 2018. Microsoft Teams usa esta función para mejorar la experiencia de reunión.
 
-NDI® tecnología está limitada a una red local y solo se debe considerar parte del flujo de trabajo de producción, no de una solución de difusión.
+La tecnología ® NDI está limitada a una red local y solo debe considerarse una parte del flujo de trabajo de producción, no una solución de difusión.
 
-## <a name="turn-on-ndi-technology"></a>Activar NDI® tecnología
+## <a name="turn-on-ndi-technology"></a>Activar la tecnología de ® NDI
 
-NDI® tecnología requiere que se activen dos pasos para un usuario.
+La tecnología ® NDI requiere que se deben haber activado dos pasos para un usuario.
 
-1. El administrador de inquilinos debe habilitar la propiedad ' AllowNDIStreaming ' en CsTeamsMeetingPolicy.
+1. El administrador de inquilinos debe habilitar la propiedad 'AllowNDIStreaming' en CsTeamsMeetingPolicy.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. Después de completar este cambio, el usuario final debe activar NDI tecnología® para su cliente específico a partir **Settings**de  >  **los permisos**de configuración.
+2. Una vez que se haya rellenado este cambio, el usuario final debe activar la tecnología NDI® para su cliente específico desde Permisos  >  **de configuración.**
 
-Cuando un usuario se une a una reunión, verá un mensaje en el que se le notifica que la reunión se está transmitiendo. Si los usuarios no desean que se incluyan en la difusión, tendrán que quitarlos de la reunión.
+Cuando un usuario se une a una reunión, verá un mensaje que le notifica que la reunión se está difundiendo. Si los usuarios no quieren que se incluyan en la difusión, deben abandonar la reunión.
 
-La imagen siguiente muestra el mensaje emergente que un usuario ve en una reunión de Teams.
+La imagen siguiente muestra el mensaje de banner que ve un usuario en una reunión de Teams.
 
-![NDI® banner tecnológico que se muestra en una reunión de Teams.](media/NDI-disclosure.png)
+![he NDI® de tecnología que se muestra en una reunión de Teams.](media/NDI-disclosure.png)
 
-La pancarta tiene un vínculo a la [política de privacidad de Microsoft](https://aka.ms/teamsprivacy).
+El banner tiene un vínculo a la directiva [de privacidad de Microsoft.](https://aka.ms/teamsprivacy)
 
 ## <a name="supported-locales-and-user-types"></a>Configuraciones regionales y tipos de usuario admitidos
 
-NDI® tecnología es compatible con todas las configuraciones regionales. Los siguientes usuarios están incluidos en un flujo tecnológico de NDI®, pero no todos los usuarios pueden acceder a la NDI tecnología de®:
+La tecnología ® NDI es compatible con todas las configuraciones regionales. Los siguientes usuarios se incluyen en una transmisión de tecnología NDI® pero no todos los usuarios pueden acceder a la transmisión de tecnología NDI®:
 
-- En el inquilino: soporte completo, entregado en función de ring/tenantId/userId (controlado por la Directiva de reuniones)
-- Federado: sin acceso a secuencias (incluso cuando tiene activada la tecnología® NDI)<sup>1</sup>
-- Premium: sin acceso por secuencias
-- Anónimo: sin acceso a secuencias
-- Invitado: sin acceso a secuencias  
+- In-tenant – soporte completo, entregado según el ring/tenantId/userId (controlado por la directiva de reuniones)
+- Federado: sin acceso a la transmisión (incluso cuando tienen tecnología NDI®)<sup>1</sup>
+- Premium: sin acceso a la transmisión
+- Anónimo: sin acceso a la transmisión
+- Invitado: sin acceso a la transmisión  
 
-<sup>1</sup> los dispositivos tienen una configuración de tecnología de NDI® que está activada de forma predeterminada. Si un participante de la reunión usa un dispositivo con NDI tecnología®, tendrá que activar NDI tecnología de®.
+<sup>1</sup> Los dispositivos tienen una configuración de ® NDI predeterminada. Si un participante de la reunión usa un dispositivo con tecnología NDI® desactivada, tendrá que activar la tecnología ® NDI.

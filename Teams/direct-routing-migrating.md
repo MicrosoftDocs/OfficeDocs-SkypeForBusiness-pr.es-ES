@@ -27,16 +27,16 @@ ms.locfileid: "47359426"
 
 Este artículo describe qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Microsoft Teams. Este artículo aborda la migración desde...: 
  
-- Sistema telefónico con planes de llamadas (para equipos y Skype empresarial online) 
-- Sistema telefónico con conectividad RTC local en Skype empresarial Server (para Skype empresarial online)  
-- Sistema telefónico con conectividad RTC local mediante la edición Cloud Connector Edition (para Skype empresarial online)
+- Sistema telefónico con planes de llamadas (para Teams y Skype Empresarial Online) 
+- Sistema telefónico con conectividad con RTC local en Skype Empresarial Server (para Skype Empresarial Online)  
+- Sistema telefónico con conectividad con RTC local mediante Cloud Connector Edition (para Skype Empresarial Online)
 
 
 Además de estos pasos de configuración, también debe configurar el controlador de borde de sesión (SBC) para redirigir las llamadas a la nueva ruta. Sin embargo, esto se escapa al ámbito de este documento. Si desea más información sobre este tema, consulte la documentación de su proveedor SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Estado final del aprovisionamiento de usuarios para varias opciones de conectividad RTC 
 
-En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con el sistema telefónico. Solo se muestran los atributos relevantes para los servicios de voz.
+En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con Sistema telefónico. Solo se muestran los atributos relevantes para los servicios de voz.
 
 |Atributos de objeto de usuario |Sistema telefónico con Planes de llamada|Sistema telefónico con una conectividad RTC local en Skype Empresarial Server|Sistema telefónico con conectividad con RTC local mediante conector de nube|Sistema telefónico con conectividad RTC local mediante enrutamiento directo|
 |---|---|---|---|---|
@@ -55,7 +55,7 @@ OnPremLineURI |N/D|El número de teléfono debe estar sincronizado desde el AD l
 |TeamsCallingPolicy</br>AllowGroupCalling|True|N/D|N/D|True|
 ||||||
 
-<sup>1</sup> la elección del modo adecuado de la TeamsUpgradePolicy depende del escenario. Lea cómo cambia la experiencia de voz en los diferentes modos en [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md).
+<sup>1</sup> Elegir el modo correcto de TeamsUpgradePolicy depende del escenario. Lea cómo cambia la experiencia de voz en los diferentes modos en [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md).
 
 En este sentido, Microsoft actualizó recientemente el «Centro de administración de Microsoft Teams» (también conocido como Portal Moderno) para reflejar el nuevo modelo de administración según los modos de coexistencia. En Portal Moderno, la configuración de TeamsUpgradePolicy ahora también establecerá automáticamente TeamsInteropPolicy en un valor uniforme, por lo que TeamsInteropPolicy ya no aparecerá en la interfaz de usuario. Sin embargo, los administradores que usen PowerShell deben establecer conjuntamente TeamsUpgradePolicy y TeamsInteropPolicy para asegurar el enrutamiento adecuado. Una vez completada la transición a TeamsUpgradePolicy, dejará de ser necesario establecer TeamsInteropPolicy.
 
@@ -92,12 +92,12 @@ Se recomienda quitar la información configurada anteriormente en el enrutamient
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> Si se configura un CsVoiceRoutingPolicy global, se recomienda quitar los usos de RTC asociados a esta directiva global. 
+> Si se configura un CsVoiceRoutingPolicy global, se recomienda quitar todos los usos de RTC asociados a esta directiva global. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migrar desde el Sistema telefónico de Office 365 con una conectividad RTC local mediante la edición de conector en la nube 
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype empresarial online. Una vez que su organización haya actualizado a Teams, obtenga información sobre cómo conectar su red de telefonía local a los equipos mediante [enrutamiento directo](direct-routing-landing-page.md).
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que su organización haya actualizado a Teams, obtenga información sobre cómo conectar su red de telefonía local a Teams mediante [enrutamiento directo.](direct-routing-landing-page.md)
 
 Para más información sobre cómo migrar desde el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server, vea lo siguiente:
 

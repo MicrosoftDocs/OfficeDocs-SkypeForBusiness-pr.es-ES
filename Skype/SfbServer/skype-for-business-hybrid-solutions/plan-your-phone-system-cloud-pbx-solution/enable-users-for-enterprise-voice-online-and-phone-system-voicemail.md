@@ -18,7 +18,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para sus usuarios de Skype empresarial.
+description: Obtenga información sobre cómo habilitar los servicios de voz del Sistema telefónico para los usuarios de Skype Empresarial.
 ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
 ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
@@ -29,23 +29,23 @@ ms.locfileid: "48625116"
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz
  
 > [!Important]
-> Skype empresarial online se retirará el 31 de julio de 2021 después del cual el servicio ya no será accesible.  Además, la conectividad con RTC entre su entorno local, ya sea a través de Skype empresarial Server o Cloud Connector Edition y Skype empresarial online, ya no será compatible.  Obtenga información sobre cómo conectar su red de telefonía local a Microsoft Teams con [enrutamiento directo](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Skype Empresarial Online se retirará el 31 de julio de 2021, tras lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad rtc entre su entorno local, ya sea a través de Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
 
-Obtenga información sobre cómo habilitar los servicios de voz del sistema telefónico para sus usuarios de Skype empresarial.
+Obtenga información sobre cómo habilitar los servicios de voz del Sistema telefónico para los usuarios de Skype Empresarial.
   
-El último paso de la implementación del sistema telefónico con la conectividad RTC local es habilitar a los usuarios para el sistema telefónico y el correo de voz. Para habilitar estas funciones, debe ser un usuario con el rol de administrador global y poder ejecutar PowerShell remoto. Debe seguir los pasos de este tema para todas las cuentas de usuario que todavía no tienen habilitada la telefonía IP empresarial para Skype empresarial online.
+El último paso para implementar el sistema telefónico con conectividad RTC local es habilitar a los usuarios para el sistema telefónico y el correo de voz. Para habilitar estas funcionalidades, debe ser un usuario con el rol de administrador global y poder ejecutar PowerShell remoto. Debe seguir los pasos de este tema para todas las cuentas de usuario que aún no Telefonía IP empresarial habilitadas para Skype Empresarial Online.
   
 ## <a name="enable-phone-system-voice-services"></a>Habilitar los servicios de voz del sistema telefónico
 
-Para habilitar a un usuario para la voz y el correo de voz del sistema telefónico, deberá realizar algunos pasos iniciales, como comprobar si el conector de Skype empresarial online se ha implementado en los servidores y habilitar a los usuarios para el correo de voz hospedado.
+Para habilitar a un usuario para voz del sistema telefónico y correo de voz, deberá realizar algunos pasos iniciales, como comprobar si skype empresarial Online Connector está implementado en los servidores y habilitar a los usuarios para correo de voz hospedado.
   
-### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar a los usuarios para la voz y el correo de voz del sistema telefónico
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar a los usuarios para voz y correo de voz del Sistema telefónico
 
 > [!NOTE]
-> El conector de Skype empresarial online ahora forma parte del último módulo de PowerShell de Microsoft Teams.
-> Si usa la [versión pública de Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)más reciente, no es necesario que instale el conector de Skype empresarial online.
+> El conector de Skype Empresarial Online forma parte actualmente del módulo de PowerShell de Teams más reciente.
+> Si usa la versión pública de [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)de Teams más reciente, no necesita instalar el conector de Skype Empresarial Online.
 
-1. Antes de empezar, compruebe que el módulo de PowerShell Teams esté instalado en los servidores front-end. Si no es así, instálelo siguiendo las instrucciones de [instalación del módulo de PowerShell de Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Antes de empezar, compruebe que el módulo de PowerShell de Teams está instalado en los servidores front-end. Si no es así, instale con las instrucciones de instalación del módulo [de PowerShell de Teams.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
 2. Inicie Windows PowerShell como administrador.
     
@@ -61,9 +61,9 @@ Para habilitar a un usuario para la voz y el correo de voz del sistema telefóni
    $cred = Get-Credential
    ```
 
-    Después de presionar entrar, verá el cuadro de diálogo credenciales de Windows PowerShell.
+    Después de presionar Entrar, debería ver el cuadro de diálogo Windows PowerShell credencial.
     
-5. Escriba su nombre de usuario y contraseña de administrador de inquilinos y haga clic en **Aceptar**.
+5. Escriba el nombre de usuario y la contraseña del administrador de inquilinos y haga clic **en Aceptar.**
     
 6. En la ventana de PowerShell, escriba lo siguiente y presione ENTRAR:
     
@@ -77,7 +77,7 @@ Para habilitar a un usuario para la voz y el correo de voz del sistema telefóni
    Import-PSSession $Session -AllowClobber
    ```
 
-    Al ejecutar PowerShell en un servidor de Skype empresarial, los cmdlets de Skype empresarial local ya están cargados cuando abre PowerShell. Debe especificar el parámetro-AllowClobber para permitir que los cmdlets en línea sobrescriban los cmdlets locales con el mismo nombre.
+    Al ejecutar PowerShell en un Skype Empresarial Server, los cmdlets locales de Skype Empresarial ya se cargan al abrir PowerShell. Debe especificar el parámetro -AllowClobber para permitir que los cmdlets en línea sobrescriban los cmdlets locales con el mismo nombre.
     
 8. Use el cmdlet Set-CsUser para asignar las propiedades $EnterpriseVoiceEnabled y $HostedVoiceMail a su usuario de la siguiente manera:
     
@@ -92,7 +92,7 @@ Para habilitar a un usuario para la voz y el correo de voz del sistema telefóni
    ```
 
     > [!NOTE]
-    > También puede especificar un usuario por su dirección SIP, nombre principal de usuario (UPN), nombre de dominio y nombre de usuario (dominio\nombre de usuario), y nombre para mostrar en Active Directory ("Bob Kelly"). 
+    > También puede especificar un usuario por su dirección SIP, nombre principal de usuario (UPN), nombre de dominio y nombre de usuario (dominio #A0) y nombre para mostrar en Active Directory ("Bob Kelly"). 
   
 ## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Actualizar el URI de línea y el plan de marcado para los usuarios habilitados para el sistema telefónico
 
@@ -102,22 +102,22 @@ En esta sección se describe cómo actualizar el URI de línea y el plan de marc
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
     
-2. Use el menú Inicio o el acceso directo del escritorio para abrir el panel de control de Skype empresarial Server.
+2. Use el menú Inicio o el acceso directo de escritorio para abrir el Panel de control de Skype Empresarial Server.
     
     > [!NOTE]
-    > También puede abrir una ventana del explorador y, a continuación, escribir la URL del administrador para abrir el panel de control de Skype empresarial Server. 
+    > También puede abrir una ventana del explorador y, a continuación, escribir la dirección URL del administrador para abrir el Panel de control de Skype Empresarial Server. 
   
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
 4. En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea de la cuenta de usuario que desee habilitar y, a continuación, haga clic en **Buscar**.
     
-5. En la tabla, haga clic en la cuenta de usuario de Skype empresarial cuyo URI de línea desea cambiar.
+5. En la tabla, haga clic en la cuenta de usuario de Skype Empresarial que desea cambiar el URI de línea.
     
-6. Haga clic en **URI de línea**y escriba un número de teléfono único y normalizado (por ejemplo, Tel: + 14255550200). A continuación, haga clic en **confirmar**.
+6. Haga **clic en URI** de línea y escriba un número de teléfono único y normalizado (por ejemplo, tel:+14255550200). A continuación, haga clic **en Confirmar**.
     
-## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Actualizar el plan de marcado con cmdlets locales de Windows PowerShell
+## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Actualizar el plan de marcado con cmdlets de Windows PowerShell locales
 
-Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) . Puede ejecutar este cmdlet desde Skype empresarial Server 2015 o desde una sesión remota de Windows PowerShell.
+Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet [Grant-CsDialPlan.](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Puede ejecutar este cmdlet desde Skype Empresarial Server 2015 o desde una sesión remota de Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Para asignar un plan de marcado por usuario a un solo usuario
 
@@ -129,35 +129,35 @@ Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet [
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>Para asignar un plan de marcado por usuario a varios usuarios
 
-- El comando siguiente asigna el plan de marcado por usuario RedmondDialPlan a todos los usuarios que trabajan en la ciudad de Redmond. Para obtener más información sobre el parámetro LdapFilter usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
+- El siguiente comando asigna el plan de marcado por usuario RedmondDialPlan a todos los usuarios que trabajan en la ciudad de Redmond. Para obtener más información sobre el parámetro LdapFilter usado en este comando, consulte la documentación del cmdlet [Get-CsUser:](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
 > [!NOTE]
-> Puede usar planes de marcado globales o de usuario para usuarios en línea. Los planes de marcado de sitio no se pueden usar porque solo se aplican a los usuarios que están hospedados de forma local y que están asignados a un sitio local. 
+> Puede usar planes de marcado global o de usuario para usuarios en línea. Los planes de marcado de sitio no se pueden usar, ya que solo se aplican a los usuarios hospedados localmente y que están asignados a un sitio local. 
   
-### <a name="to-unassign-a-per-user-dial-plan"></a>Para cancelar la asignación de un plan de marcado por usuario
+### <a name="to-unassign-a-per-user-dial-plan"></a>Para desasignación de un plan de marcado por usuario
 
-- Use el cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) para desasignar cualquier plan de marcado por usuario asignado previamente a Ken Myer. Una vez sin asignar el plan de marcado por usuario, Ken Myer se administrará automáticamente mediante el plan de marcado global o el plan de marcado de ámbito de servicio asignado a su registrador o puerta de enlace RTC. Un plan de marcado de ámbito de servicio tiene prioridad sobre el plan de marcado global:
+- Use el cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) para desasignación de cualquier plan de marcado por usuario previamente asignado a Ken Myer. Una vez que se haya desasignado el plan de marcado por usuario, Ken Myer se administrará automáticamente mediante el plan de marcado global o el plan de marcado de ámbito de servicio asignado a su registrador o puerta de enlace RTC. Un plan de marcado de ámbito de servicio tiene prioridad sobre el plan de marcado global:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
-## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Actualizar las directivas de enrutamiento de voz mediante los cmdlets locales de Windows PowerShell
+## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Actualizar las directivas de enrutamiento de voz con cmdlets de Windows PowerShell locales
 
 En esta sección se describe cómo actualizar las directivas de enrutamiento de voz para los usuarios habilitados para sistema telefónico.
   
-Los usuarios del sistema telefónico deben tener asignada una directiva de enrutamiento de voz para que las llamadas se enruten correctamente. Esto difiere de los usuarios de voz de empresa locales que requieren que se les asigne una directiva de voz para permitir que las llamadas se enruten correctamente. La Directiva de enrutamiento de voz debe contener usos de RTC que definen las llamadas y rutas autorizadas para los usuarios del sistema telefónico. Puede copiar estos usos de RTC de las directivas de voz existentes a las nuevas directivas de enrutamiento de voz. Para obtener más información, vea [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Los usuarios del sistema telefónico deben tener asignada una directiva de enrutamiento de voz para que las llamadas se enruten correctamente. Esto difiere de los usuarios locales de business voice que requieren que se les asigne una directiva de voz para permitir que las llamadas se enruten correctamente. La directiva de enrutamiento de voz debe contener usos de RTC que definan las llamadas y rutas autorizadas para los usuarios del sistema telefónico. Puede copiar estos usos de RTC de las directivas de voz existentes a las nuevas directivas de enrutamiento de voz. Para obtener más información, [vea New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> A todos los usuarios del sistema telefónico se les asigna la misma directiva de voz en línea llamada Businessvoice, que define las características de llamada permitidas; por ejemplo, permitir llamadas simultáneas. 
+> A todos los usuarios del Sistema telefónico se les asigna la misma directiva de voz en línea denominada BusinessVoice que define las características de llamada permitidas; por ejemplo, Permitir llamada simultánea. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para asignar una directiva de enrutamiento de voz por usuario a un solo usuario
 
-- Use el cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) para asignar la Directiva de enrutamiento de voz por usuario RedmondVoiceRoutingPolicy al usuario Ken Myer:
+- Use el cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) para asignar la directiva de enrutamiento de voz por usuario RedmondVoiceRoutingPolicy al usuario Ken Myer:
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -165,23 +165,23 @@ Los usuarios del sistema telefónico deben tener asignada una directiva de enrut
 
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>Para asignar una directiva de enrutamiento de voz por usuario a varios usuarios
 
-- El comando siguiente asigna la Directiva de enrutamiento de voz por usuario RedmondVoiceRoutingPolicy a todos los usuarios que trabajan en la ciudad de Redmond. Para obtener más información sobre el parámetro LdapFilter usado en este comando, consulte [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- El siguiente comando asigna la directiva de enrutamiento de voz por usuario RedmondVoiceRoutingPolicy a todos los usuarios que trabajan en la ciudad de Redmond. Para obtener más información sobre el parámetro LdapFilter usado en este comando, vea [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
     > [!NOTE]
-    > Puede usar directivas de enrutamiento de voz globales o de usuario para los usuarios en línea. No se pueden usar las directivas de enrutamiento de voz del sitio, ya que solo se aplican a los usuarios hospedados de forma local y que están asignados a un sitio local. 
+    > Puede usar directivas de enrutamiento de voz global o de usuario para usuarios en línea. Las directivas de enrutamiento de voz de sitio no se pueden usar, ya que solo se aplican a los usuarios hospedados localmente y que están asignados a un sitio local. 
   
-### <a name="to-unassign-a-per-user-voice-routing-policy"></a>Para quitar la asignación de una directiva de enrutamiento de voz por usuario
+### <a name="to-unassign-a-per-user-voice-routing-policy"></a>Para desasignar una directiva de enrutamiento de voz por usuario
 
-- Use el Grant-CsVoiceRoutingPolicy para desasignar cualquier directiva de enrutamiento de voz por usuario asignada previamente a Ken Myer. Una vez no asignada la Directiva de enrutamiento de voz por usuario, Ken Myer se administrará automáticamente mediante la Directiva de enrutamiento de voz global.
+- Use el Grant-CsVoiceRoutingPolicy para desasignar cualquier directiva de enrutamiento de voz por usuario previamente asignada a Ken Myer. Una vez desasignada la directiva de enrutamiento de voz por usuario, Ken Myer se administrará automáticamente mediante la directiva de enrutamiento de voz global.
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    Para obtener más información, consulte [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
+    Para obtener más información, [vea Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
     
 

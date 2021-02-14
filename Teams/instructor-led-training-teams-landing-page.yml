@@ -19,7 +19,7 @@ highlightedContent:
   - title: Comprobación de conocimiento de Teams
     itemType: learn
     url: https://aka.ms/TeamsKnowledgeCheck
-  - title: Formación a los usuarios finales a petición
+  - title: Aprendizaje a petición de usuarios finales
     itemType: video
     url: https://aka.ms/TeamsOnDemand
   - title: Herramientas de adopción de Microsoft 365
@@ -57,9 +57,9 @@ productDirectory:
     url: https://aka.ms/TeamsEduWebinars
   - title: Domine el trabajo desde casa con Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: " ¡NUEVO! Obtenga más información sobre los procedimientos recomendados para permanecer conectado con su equipo y mantener la productividad. (Audiencia: usuarios finales, jefes de equipo y de Departamento)"
+    summary: " ¡NUEVO! Obtenga más información sobre los procedimientos recomendados para permanecer conectado con su equipo y mantener la productividad. (Audiencia: usuarios finales, jefes de equipo y de departamento)"
     url: https://aka.ms/WorkathomewithTeams
   - title: Actualice los talleres que tenga planeados
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Planear e implementar una actualización correcta a teams. (Público: profesionales de ti, administradores de cambios de adopción)'
+    summary: 'Planee e implemente una actualización correcta a Teams. (Público: profesionales de TI, administradores de cambios de adopción)'
     url: /MicrosoftTeams/upgrade-workshops-landing-page

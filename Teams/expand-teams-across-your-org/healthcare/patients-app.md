@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Obtenga información sobre cómo integrar registros de asistencia electrónica en la aplicación de pacientes de Microsoft Teams con las API de FHIR.
+description: Obtenga información sobre la integración de registros sanitarios electrónicos en la aplicación Pacientes de Microsoft Teams con las API de FLC.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 594375959a8cd7cbbfc21c6b9d5ceb6c0f8a8dac
@@ -29,58 +29,58 @@ ms.locfileid: "48803548"
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integración de registros sanitarios electrónicos en Microsoft Teams
 
 > [!NOTE]
-> Desde el 30 de octubre de 2020, la aplicación de pacientes se ha retirado y se ha sustituido por la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Los datos de la aplicación patients se almacenan en el buzón de grupo del grupo Office 365 que respalda al equipo. Todos los datos asociados con la aplicación patients se conservan en este grupo, pero ya no se puede obtener acceso a ellos a través de la interfaz de usuario. Los usuarios pueden volver a crear sus listas con la [aplicación listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+> A partir del 30 de octubre de 2020, la aplicación Pacientes se ha retirado y reemplazado por la [aplicación Listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) en Teams. Los datos de la aplicación Pacientes se almacenan en el buzón de grupo del grupo de Office 365 que copia de seguridad del equipo. Todos los datos asociados a la aplicación Pacientes se conservan en este grupo, pero ya no se puede acceder a ellos a través de la interfaz de usuario. Los usuarios pueden volver a crear sus listas con la [aplicación Listas.](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
 >
->Con las listas, los equipos de cuidados de la organización de la salud pueden crear listas de pacientes para escenarios que abarcan desde rondas y reuniones interdisciplinarias hasta supervisión general de pacientes. Consulte la plantilla patients en listas para comenzar. Para obtener más información sobre cómo administrar la aplicación listas de su organización, vea [administrar la aplicación listas](../../manage-lists-app.md).
+>Con Listas, los equipos de cuidado de su organización sanitaria pueden crear listas de pacientes para situaciones que van desde rounds y reuniones de equipo interdisciplinarias hasta la supervisión general del paciente. Consulte la plantilla Pacientes en Listas para empezar. Para obtener más información sobre cómo administrar la aplicación Listas en su organización, vea [Administrar la aplicación Listas.](../../manage-lists-app.md)
 
-Este artículo está dirigido a un desarrollador de TI de medicina general interesado en usar API de FHIR sobre un sistema de información de medicina para conectar con Microsoft Teams. Esto permitiría escenarios de coordinación de cuidados que se ajusten a las necesidades de una organización de salud.
+Este artículo está destinado a un desarrollador de TI para la salud general interesado en usar las API de FLC, además de un sistema de información médica, para conectarse a Microsoft Teams. Esto habilitaría escenarios de coordinación de cuidados que coincidan con las necesidades de una organización sanitaria.
 
-Los artículos vinculados documentan las especificaciones de la interfaz de FHIR para la aplicación de pacientes de Microsoft Teams, y las siguientes secciones explican qué se necesita para configurar un servidor de FHIR y conectarse a la aplicación de pacientes en el entorno de desarrollo o en el inquilino. También necesitará estar familiarizado con la documentación del servidor de FHIR que haya elegido, que debe ser una de las opciones admitidas:
+En los artículos vinculados se documentan las especificaciones de la interfaz de FLC para la aplicación Microsoft Teams Pacientes y las secciones siguientes explican lo que se requiere para configurar un servidor FLC y conectarse a la aplicación Pacientes en su entorno de desarrollo o inquilino. También debe estar familiarizado con la documentación del servidor FCONTR que ha elegido, que debe ser una de las opciones admitidas:
 
-- Datica (a través de la oferta de [CMI](https://datica.com/compliant-managed-integration/) )
-- Infor cloverleaf (a través del [puente de FHIR de Infor](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
-- Redox (a través del [servidor R ^ FHIR](https://www.redoxengine.com/fhir/))
-- Dapasoft (a través [de Corolar en FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
-
-> [!NOTE]
-> Este proceso no incluye los pasos que usan el centro de administración de Microsoft Teams o los cmdlets de PowerShell para habilitar características. La configuración se realiza por completo en el servidor FHIR y en el cliente de aplicaciones para pacientes.
-
-A continuación se muestra la arquitectura de la aplicación para pacientes:
-
-![Diagrama de la arquitectura de la aplicación para pacientes](../../media/patients-app-architecture.png)
-
-En las siguientes secciones, se explican los requisitos de la FHIR de acceso a datos de solo lectura para la aplicación de pacientes que un servidor de FHIR (o las API de FHIR habilitadas de EHR) debe cumplirse para poder integrarse con la aplicación de pacientes, entre los que se incluyen los siguientes:
-
-- Expectativas sobre la autenticación de usuarios
-- Requisitos técnicos y técnicos de la interfaz de integración
-- Expectativas sobre rendimiento y fiabilidad
-- Expectativas sobre los recursos de FHIR para que la aplicación de pacientes los admita
-- Proceso de integración y modelo de compromiso esperado
-- Introducción a FHIR y algunos desafíos comunes que se enfrentan a la aplicación de pacientes
-- Requisitos futuros para la siguiente iteración de la aplicación pacientes
+- Datica (a través de su [oferta de CMI)](https://datica.com/compliant-managed-integration/)
+- Infor Copleaf (a través del [puente Infor FCONTR)](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)
+- Redxa (a través [del servidor R^FCONTR)](https://www.redoxengine.com/fhir/)
+- Dapasoft (a [través de Corolar en FCONTR)](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)
 
 > [!NOTE]
-> En las siguientes secciones, se usa la palabra "Partner" o "Partner Interop" para referirse a cualquier organización de terceros que permita la integración con sistemas HCI para la aplicación de pacientes a través de FHIR y está implementando un servidor de FHIR para que coincida con las especificaciones de la lista.
+> Este proceso no incluye los pasos que usan el centro de administración de Microsoft Teams o los cmdlets de PowerShell para habilitar las características. La configuración se realiza por completo en el lado del servidor/servicio FCONTRA y en el cliente de la aplicación Pacientes.
 
-## <a name="functional-and-technical-requirements"></a>Requisitos técnicos y técnicos  
+A continuación se muestra la arquitectura de la aplicación Pacientes:
+
+![Diagrama de la arquitectura de la aplicación Pacientes](../../media/patients-app-architecture.png)
+
+En las siguientes secciones se explican los requisitos de la capa de acceso de datos solo de FCONTR para la aplicación Pacientes que debe cumplir un servidor FCONTR (o API de F LDAP habilitada para EHR) para realizar la integración con la aplicación Pacientes, lo que incluye lo siguiente:
+
+- Expectativas sobre la autenticación de usuario
+- Requisitos técnicos y funcionales de la interfaz de integración
+- Expectativas en torno al rendimiento y la confiabilidad
+- Expectativas en torno a los recursos de FLC para que puedan ser compatibles con la aplicación Pacientes
+- Proceso de integración y del modelo de participación esperado
+- Cómo comenzar a usar la FCONTR y algunos de los desafíos comunes que se deben enfrentar con la aplicación Pacientes
+- Requisitos futuros para la siguiente iteración de la aplicación Pacientes
+
+> [!NOTE]
+> En las secciones siguientes, se usa la palabra "partner" o "interoperabilidad" para hacer referencia a cualquier organización de terceros que permita la integración con sistemas EHR para la aplicación Pacientes a través de FLC y está implementando un servidor FLC para que coincida con las especificaciones enumeradas.
+
+## <a name="functional-and-technical-requirements"></a>Requisitos técnicos y funcionales  
 
 ### <a name="authentication"></a>Autenticación  
 
-La autorización en el nivel de la aplicación *sin compatibilidad para autorización a nivel de usuario* es la forma más común admitida para realizar transformaciones de datos y exponer conexiones a datos de EHR a través de FHIR, aunque el sistema HCI pueda implementar la autorización a nivel de usuario. El servicio de interoperabilidad (asociado) obtiene acceso elevado a los datos de EHR y cuando exponen los mismos datos que los recursos de FHIR apropiados no hay ningún contexto de autorización pasado al consumidor del servicio de interoperabilidad (la aplicación de pacientes) que se integra con el servicio o la plataforma de interoperabilidad. La aplicación de pacientes no podrá exigir la autorización de nivel de usuario, pero admite la autenticación de aplicaciones entre la aplicación de pacientes y el servicio del colaborador de interoperabilidad.
+La autorización a nivel de aplicación *sin* soporte para autorización a nivel de usuario es la forma más común de realizar transformaciones de datos y exponer conexiones a datos EHR a través de FCONTR, aunque el sistema EHR pueda implementar la autorización a nivel de usuario. El servicio de interoperabilidad (partner) obtiene acceso elevado a los datos EHR y, cuando exponen los mismos datos que los recursos de FLC adecuados, no se aplica ningún contexto de autorización al consumidor del servicio de interoperabilidad (la aplicación Pacientes) para la integración con el Servicio de interoperabilidad o la plataforma. La aplicación Pacientes no podrá exigir la autorización a nivel de usuario, pero admite la aplicación para la autenticación de aplicación entre la aplicación Pacientes y el servicio del partner de interoperabilidad.
 
-La aplicación para el modelo de autenticación de aplicaciones se describe a continuación:
+El modelo de autenticación de aplicación a aplicación se describe a continuación:
 
-La autenticación de servicio a servicio debe realizarse a través del [flujo de credenciales de cliente](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)OAuth 2,0. El servicio asociado debe proporcionar lo siguiente:
+El servicio de autenticación de servicio debe [](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)realizarse a través del flujo de credenciales de cliente de OAuth 2.0. El servicio de asociados debe proporcionar lo siguiente:
 
-1. El servicio asociado permite a la aplicación de pacientes crear una cuenta con el socio, lo que permite a la aplicación de pacientes generar y poseer client_id y client_secret administrados a través de un portal de registro de autenticación en el servidor de autenticación del socio.
+1. El servicio de partner permite a la aplicación Pacientes crear una cuenta con el partner, que permite que la aplicación Pacientes genere y sea propietario de client_id y client_secret, administrados mediante un portal de registro de autenticación en el servidor de autenticación del partner.
 
-2. El servicio asociado posee el sistema de autenticación/autorización, que acepta y verifica (autentica) las credenciales de cliente proporcionadas y devuelve un token de acceso con el sugerencia de inquilino en el ámbito, como se describe a continuación.
+2. El servicio de partner es el propietario del sistema de autenticación/autorización, que acepta y comprueba (autentica) las credenciales de cliente proporcionadas y devuelve un token de acceso con sugerencia de inquilino en el ámbito, como se describe a continuación.
 
-3. Por razones de seguridad o en el caso de una infracción secreta, la aplicación de pacientes puede volver a generar el secreto e invalidar o eliminar el secreto anterior (el ejemplo de lo mismo está disponible en el portal de Azure: registro de la aplicación AAD).
+3. Por motivos de seguridad o en caso de infracción de secreto, la aplicación Pacientes puede volver a generar el secreto e invalidarlo o eliminarlo (por ejemplo, el mismo está disponible en Azure Portal - Registro de aplicaciones de AAD).
 
-4. El punto final de metadatos que hospeda la instrucción de conformidad debe ser no autenticado, debe ser accesible sin un token de autenticación.
+4. El extremo de metadatos que hospeda la instrucción de conformidad debe ser no autenticado, debe ser accesible sin el token de autenticación.
 
-5. El servicio asociado proporciona el punto final del token de la aplicación de pacientes para solicitar un token de acceso con un flujo de credenciales de cliente. La dirección URL del token como por servidor de autorización debe formar parte de la instrucción de conformidad (Capability) FHIR capturada de los metadatos en el servidor de FHIR como en este ejemplo:
+5. El servicio de asociado proporciona el punto de conexión del token para la aplicación Pacientes para solicitar un token de acceso mediante un flujo de credenciales de cliente. La dirección URL del token según el servidor de autorización debe formar parte de la instrucción de conformidad (funcionalidad) F LDAP capturada de los metadatos del servidor F LDAP, como en este ejemplo:
 
     ```
     {
@@ -126,7 +126,7 @@ La autenticación de servicio a servicio debe realizarse a través del [flujo de
     }
     ```
 
-Una solicitud para un token de acceso consta de los siguientes parámetros:
+Una solicitud de un token de acceso consta de los siguientes parámetros:
 
 ```http
 POST /token HTTP/1.1
@@ -137,19 +137,19 @@ grant-type=client_credentials
 &client_secret=xxxxxxxxxx
 ```
 
-El servicio asociado proporciona la client_id y client_secret para la aplicación de pacientes, administrada a través de un portal de registro de autenticación en el lado del socio. El servicio asociado proporciona el extremo para solicitar el token de acceso mediante un flujo de credenciales de cliente. Una respuesta correcta debe incluir los parámetros token_type, access_token y expires_in.
+El servicio de partners proporciona client_id y client_secret para pacientes, administrada a través de un portal de registro de autenticación del lado del partner. El servicio de asociado proporciona el punto de conexión para solicitar el token de acceso mediante un flujo de credenciales de cliente. Una respuesta correcta debe incluir los parámetros token_type, access_token y expires_in correctos.
 
-### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>Enrutamiento: asignación de inquilino de AAD al extremo de proveedor
+### <a name="routing-mapping-aad-tenant-to-the-provider-endpoint"></a>Enrutamiento: asignación del inquilino de AAD al punto de conexión del proveedor
 
-La aplicación patients se conecta a un servicio asociado a través de un único punto de conexión. El servicio asociado posee y mantiene un mecanismo para asignar a cada cliente de Microsoft (ID de inquilino de AAD) a un proveedor de servicios de salud respectivo (servidor FHIR) con el que está trabajando el servicio asociado.
+La aplicación Pacientes se conecta a un servicio asociado a través de un único punto de conexión. El servicio de partners es propietario y mantiene un mecanismo para asignar cada cliente de Microsoft (id. de inquilino de AAD) a un proveedor de servicios médicos correspondiente (servidor FLC) con el que el servicio de asociado esté trabajando.
 
-La asignación del inquilino de AAD a un extremo de proveedor usa el identificador de inquilino de AAD (GUID). La aplicación patients pasa el identificador de inquilino en el ámbito, mientras solicita un token de acceso para cada solicitud. El servicio asociado mantiene la asignación de identificador de inquilino en el extremo de proveedor y redirige las solicitudes a un extremo de proveedor basándose en el identificador de inquilino. Para ello, el socio admite la configuración en su extremo (manualmente o a través de un portal como parte de la incorporación de organizaciones de proveedores a su plataforma de interoperabilidad).
+Al asignar el inquilino de AAD a un punto de conexión de proveedor se usa el id. de inquilino de AAD (GUID). La aplicación Pacientes pasa el id. de inquilino dentro del ámbito, mientras solicita un token de acceso para cada solicitud. El servicio de partner mantiene la asignación del id. de inquilino al punto de conexión del proveedor y redirige las solicitudes a un punto de conexión del proveedor en función del id. de inquilino. Para ello, el partner admite la configuración por su parte (manualmente o a través de un portal como parte de la incorporación de las organizaciones proveedoras a su plataforma de interoperabilidad).
 
-A continuación se muestra el flujo de trabajo de autenticación y enrutamiento:
+El flujo de trabajo de autenticación y enrutamiento se muestra a continuación:
 
 ![Diagrama del flujo de trabajo de autenticación y enrutamiento](../../media/Patient-app-6.png)
 
-1. Solicitud de token de acceso de aplicación mediante el envío de:
+1. Solicitar token de acceso de aplicaciones enviando:
  
     ```
     {   grant_type: client_credentials,
@@ -168,27 +168,27 @@ A continuación se muestra el flujo de trabajo de autenticación y enrutamiento:
     }
     ```
 
-3. Solicitar datos protegidos con token de acceso.
+3. Solicitar datos protegidos con el token de Acceso.
 
-4. Mensaje de autorización: seleccione el servidor de FHIR apropiado al que desea enrutar desde el identificador de inquilino en el ámbito.
+4. Mensaje de autorización: Seleccione el servidor FCONTR adecuado al que enrutar desde el id. de inquilino en el ámbito.
 
-5. Envía los datos protegidos por la aplicación desde el servidor de FHIR autorizado después de autenticarse con el token de la aplicación.
+5. Envía los datos protegidos de la aplicación desde el servidor FCONTR autorizado después de autenticar con el token de aplicación.
 
-## <a name="interfaces"></a>Interactúa
+## <a name="interfaces"></a>Interfaces
 
-Las llamadas y los campos específicos usados por la aplicación de pacientes se documentan en los artículos siguientes. Seleccione la interfaz aplicable a las API de FHIR Server/FHIR.
+Las llamadas y los campos específicos que usa la aplicación Pacientes se documentan en los artículos siguientes. Seleccione la interfaz aplicable a las API del servidor FCONTR/FCONTR.
 
 - [Especificación de la interfaz DSTU2](dstu2-interface.md)
 - [Especificación de la interfaz STU3](stu3-interface.md)
 
 ## <a name="performance-and-reliability"></a>Rendimiento y confiabilidad
 
-Mientras la aplicación patients está en la vista previa privada, no hay ninguna garantía en el rendimiento de un extremo a otro. Entre los factores en el rendimiento se incluyen las latencias relativas de todos los saltos implicados en el flujo de trabajo, empezando desde el EHR del entorno del sistema, hasta el socio de interoperabilidad y su infra, incluido el servidor de FHIR y el ecosistema y la aplicación de pacientes de Office 365.
+Aunque la aplicación Pacientes está en versión preliminar privada, no hay ninguna garantía sobre el rendimiento de un extremo a otro. Los factores en el rendimiento incluyen las latencias relativas de todos los saltos implicados en el flujo de trabajo, empezando desde el EHR en el entorno del sistema de mantenimiento hasta el partner de interoperabilidad y su infraestructura, incluido el servidor FLC y hasta el ecosistema de Office 365 y la aplicación Pacientes.
 
-![Ilustración del rendimiento de los socios de interoperabilidad](../../media/FHIR.png)
+![Ilustración del rendimiento de partners de interoperabilidad](../../media/FHIR.png)
 
-## <a name="get-started-with-fhir"></a>Introducción a FHIR  
+## <a name="get-started-with-fhir"></a>Introducción a FCONTR  
 
-Si es nuevo en FHIR y necesita acceder fácilmente a un servidor de FHIR que pueda exponer a la interfaz de integración de Microsoft Teams HCI, Microsoft tiene un servidor de FHIR de código abierto para que todos los programadores lo usen. Para obtener más información sobre el servidor de FHIR de código abierto de Microsoft, consulte el artículo [What is FHIR Server for Azure](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) e impleméntelo para sus organizaciones.
+Si es nuevo en FCONTR y necesita acceder fácilmente a un servidor FCONTR que puede exponer a la interfaz de integración EHR de Microsoft Teams, Microsoft tiene un servidor F ODBC de código abierto disponible para todos los desarrolladores que los use. Consulte el artículo [¿Qué es el servidor F ODBC](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) para Azure? para obtener más información sobre el servidor F LDAP de código abierto disponible en Microsoft e implementarlo para sus organizaciones.
 
-También puede usar el entorno HSPC de espacio aislado abierto de Open para crear un EHR que también admita un servidor de FHIR abierto y use esta opción para familiarizarse con la aplicación de pacientes. Le recomendamos que lea la [documentación del espacio aislado de HSPC](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). El espacio aislado no solo ofrece una forma sencilla, orientada a la interfaz de usuario y sencilla de usar para crear, agregar y editar pacientes, sino que también le ofrece varias muestras para comenzar. 
+También puedes usar el entorno de ehr de espacio aislado abierto de HSPC para crear un EHR que también admita un servidor FCONTR abierto y usarlo para jugar con la aplicación Pacientes. Te recomendamos que leas la documentación del espacio aislado [HSPC.](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox) El espacio aislado no solo ofrece una forma fácil, orientada a la interfaz de usuario y fácil de usar para crear, agregar y editar Pacientes, sino que también ofrece varias muestras para comenzar. 

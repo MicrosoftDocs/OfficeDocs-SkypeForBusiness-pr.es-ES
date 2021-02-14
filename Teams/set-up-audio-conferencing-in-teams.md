@@ -53,7 +53,7 @@ Vaya a la [Disponibilidad de país y región para Audioconferencia y Planes de l
     >[!NOTE] 
     > Las audioconferencias se incluyen en las licencias de Office 365 Enterprise E5 y como complemento.
         
-2. Después de adquirir las licencias de Audioconferencia, tendrá que asignarlas a aquellas personas de la organización que vayan a programar o coordinar reuniones. Consulte [asignar licencias a usuarios en Microsoft 365 u Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que compró a las personas de su organización que van a programar o coordinar reuniones.
+2. Después de adquirir las licencias de Audioconferencia, tendrá que asignarlas a aquellas personas de la organización que vayan a programar o coordinar reuniones. Vea Asignar licencias a usuarios de [Microsoft 365 u Office 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) para empresas que compró a las personas de su organización que se van a programar o dirigir reuniones.
     
 3. También se recomienda que asigne licencias de Créditos de comunicaciones (que no cuesta nada) a los mismos usuarios que asignó licencias en el paso anterior. Para saber si necesita configurar Créditos de comunicaciones, consulte [Configurar Créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).
     
@@ -67,7 +67,7 @@ En Audioconferencia, no puede usar números de teléfono para los usuarios; debe
   
 - **Usar el centro de administración de Microsoft Teams**. Para algunos países o regiones, puede obtener los números de servicio para el puente de conferencia utilizando el Centro de administración Microsoft Teams. [Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers)
     
-- **Portar los números existentes.** Para migrar o transferir números existentes de su proveedor de servicios actual o de su operador telefónico a Microsoft 365 u Office 365. Consulte [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayude a hacer esto.  
+- **Portar los números existentes.** Para transferir o transferir números existentes de su proveedor de servicios u operador telefónico actual a Microsoft 365 u Office 365. Consulte [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayude a hacer esto.  
   
 - **Usar un formulario de solicitud para números nuevos.** En ocasiones, también en función de su país o región, no podrá conseguir números nuevos mediante el Centro de administración de Microsoft Teams o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviárselo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
     
@@ -89,7 +89,7 @@ Para obtener más detalles, vea[Cambiar los números de teléfono de su puente d
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>Paso 5: establecer los idiomas alternativos y predeterminados para un puente de conferencia
 <a name="__top"> </a> A continuación, le recomendamos que [establecer un operador automático para las conferencias de audio en Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que el operador automático de conferencias use para saludar a los usuarios que llaman a un número de teléfono para las audioconferencia. 
 
-![Un icono que muestra el logotipo de Microsoft Teams ](media/teams-logo-30x30.png) **Mediante el centro de administración de Microsoft Teams** :
+![Un icono que muestra el logotipo de Microsoft Teams ](media/teams-logo-30x30.png) **Mediante el centro de administración de Microsoft Teams**:
 
 1. En el panel, vaya a **Reuniones** > **Puentes de conferencia**.
 2. Seleccione el número de teléfono de puente de conferencia, haga clic en **Editar** y, a continuación, elija el idioma predeterminado.
@@ -99,7 +99,7 @@ Para obtener más detalles, vea[Cambiar los números de teléfono de su puente d
     
 Después de configurar el puente de conferencia, compruebe que la configuración predeterminada, como las notificaciones de entrada o salida y la longitud PIN, sea la que va a usar; si no lo es, se puede cambiar. 
 
-![Un icono que muestra el logotipo de Microsoft Teams ](media/teams-logo-30x30.png) **Mediante el centro de administración de Microsoft Teams** :
+![Un icono que muestra el logotipo de Microsoft Teams ](media/teams-logo-30x30.png) **Mediante el centro de administración de Microsoft Teams**:
 
 1. En el panel, vaya a **Reuniones** > **Puentes de conferencia**.
 2. Seleccione **Configuración del puente**. Se abrirá el panel **Configuración de puente**. 
@@ -112,10 +112,10 @@ Después de haber creado un puente de Audioconferencia, debe establecer los núm
 
 Debe hacer esto para todas las personas de su organización que coordinen o programen reuniones. 
 
-![Un icono que muestra el logotipo de Microsoft Teams ](media/teams-logo-30x30.png) **Mediante el centro de administración de Microsoft Teams** :
+![Un icono que muestra el logotipo de Microsoft Teams ](media/teams-logo-30x30.png) **Mediante el centro de administración de Microsoft Teams**:
 
-1. En el panel, haga clic en **usuarios** , seleccione el usuario de la lista y, a continuación, seleccione **Editar**.
-2. Seleccione **Editar** junto a **Audioconferencia** y, a continuación, en el panel de **Audioconferencia** , elija un número en las listas de **Números de pago** y **Números gratuitos**.
+1. En el panel, haga clic en **usuarios**, seleccione el usuario de la lista y, a continuación, seleccione **Editar**.
+2. Seleccione **Editar** junto a **Audioconferencia** y, a continuación, en el panel de **Audioconferencia**, elija un número en las listas de **Números de pago** y **Números gratuitos**.
 
 Si necesita más detalles, vea [Asignar a Microsoft como proveedor de audioconferencias](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 

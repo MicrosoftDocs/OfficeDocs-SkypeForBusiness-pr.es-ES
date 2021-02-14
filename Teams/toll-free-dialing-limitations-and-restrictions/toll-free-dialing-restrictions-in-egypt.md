@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo marcar números gratuitos en Egipto, incluida la disponibilidad, la disponibilidad de las redes móviles y las líneas fijas, y las restricciones.
+description: Obtenga información sobre cómo marcar números gratuitos en Egipto, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
 ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
 ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "49130671"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Restricciones de marcado de número gratuito en Egipto
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |No  <br/> |
-|Formato (s) de marcado  <br/> |0800-XXX-XXXX  <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |No  <br/> |
+|Formatos de marcación  <br/> |0800-XXX-XXXX  <br/> |
 |Código ISO de país o región  <br/> |EG  <br/> |
-|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Solo desde Telecom Egypt.  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Solo desde Telecom Egypt.  <br/> |
 |Disponibilidad de red móvil  <br/> |No  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -27,7 +27,7 @@ ms.custom:
 - O365P_ExternalCommDesc
 - O365P_ShareLync
 - LIL_Placement
-description: 'Consulte Cómo configurar Skype empresarial para que los usuarios puedan hablar con los usuarios de otra organización o para que los contactos externos hablen con ellos. '
+description: 'Vea cómo configurar Skype Empresarial para permitir que los usuarios hablen con los usuarios de otra organización o que los contactos externos hablen con ellos. '
 ms.openlocfilehash: d9b3be381432fa95962df7a5a58ea9d81e223fc4
 ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
@@ -43,45 +43,45 @@ Siga los pasos de este artículo cuando:
 
 - Desee que las personas de su empresa puedan usar Skype Empresarial para ponerse en contacto con personas de empresas específicas de fuera de su organización.
 
-- Quiere que cualquier persona del mundo que use Skype empresarial pueda encontrarlo y comunicarse con usted a través de su dirección de correo electrónico. Si utilizas la configuración predeterminada de Skype empresarial, esto funcionará automáticamente. Si no es así, deben asegurarse de que su configuración no esté bloqueando su dominio.
+- Desea que cualquier otra persona del mundo que use Skype Empresarial pueda buscarlo y ponerse en contacto con usted mediante su dirección de correo electrónico. Si usted y ellos usan la configuración predeterminada de Skype Empresarial, esto funcionará automáticamente. Si no es así, deben asegurarse de que la configuración no está bloqueando el dominio.
 
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Habilitar comunicaciones entre empresas para los usuarios
 
 <a name="bk_preview"> </a>
 
-Para poder realizar esta comunicación, debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en Microsoft 365 u Office 365 en ambas organizaciones.
+Debe tener permisos [de administrador en](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Microsoft 365 u Office 365 en ambas organizaciones para realizar esta comunicación.
 
-![Un icono que muestra el logotipo de Microsoft Teams ](../images/teams-logo-30x30.png) **con el centro de administración de Teams**
+![Icono que muestra el logotipo de Microsoft Teams ](../images/teams-logo-30x30.png) **Con el Centro de administración de Teams**
   
 1. Inicie sesión con su cuenta de administrador de Microsoft 365 u Office 365.
 
-2. En el centro de administración, vaya a equipos del centro de **Administración**  >  **Teams**.
+2. En el centro de administración, vaya a **Equipos de centros de**  >  **administración.**
 
     ![Elija el administrador de Teams.](../images/MS-Teams-Admin.png)
   
-3. En el **centro de equipos**, **Skype** elija > **portal heredado**de Skype 
-  ![ Elija el portal heredado de SfB.](../images/SFBlegacy-size65.png)
+3. En el **Centro de equipos,** elija **Skype** > **(portal** 
+  ![ heredado) Elija el portal heredado de SfB.](../images/SFBlegacy-size65.png)
 
 4. En el **Centro de administración de Skype Empresarial**, seleccione **Organización** > **Comunicaciones externas**.
 5. Para configurar la comunicación con empresas específicas o con usuarios de otros dominios, seleccione en el cuadro desplegable **Activado solo para dominios permitidos**.
 
     O BIEN, si desea habilitar la comunicación con todo el mundo que tenga directivas de Skype Empresarial abiertas, seleccione **Activado excepto para los dominios bloqueados**. Esta es la configuración predeterminada.
 
-6. En **dominios bloqueados o permitidos**, elija **+** y agregue el nombre del dominio que desea permitir.
+6. En **Dominios bloqueados o permitidos,** elija y agregue el nombre del **+** dominio que desea permitir.
 
-7. Asegúrese de que el administrador de la otra organización Realice estos mismos pasos en el **centro de administración de Skype empresarial**. Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
+7. Asegúrese de que el administrador de la otra organización realiza estos mismos pasos en su **Centro de administración de Skype Empresarial.** Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
 
 8. Si usa el Firewall de Windows, Skype Empresarial abre automáticamente los puertos solicitados.
 
-    Si su organización usa una solución de firewall diferente para restringir la conexión a Internet de los equipos en la red, asegúrese de que sus equipos cliente pueden acceder a los siguientes [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges). Esto puede requerir agregar FQDN a la lista de permitidos salientes en la configuración de su infraestructura de proxy o firewall: ** \* . API.Skype.com**, \* **. users.Storage.Live.com**y **Graph.Skype.com**. Para obtener instrucciones sobre cómo abrir estos puertos en su firewall, consulte la documentación que viene con él.
+    Si su organización usa una solución de firewall diferente para restringir la conexión a Internet de los equipos en la red, asegúrese de que sus equipos cliente pueden acceder a los siguientes [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges). Esto puede requerir agregar los FQDN a la lista de permitidos de salida en la configuración de infraestructura de proxy o firewall: **\* .api.skype.com,** \* **.users.storage.live.com** **y graph.skype.com.** Para obtener instrucciones sobre cómo abrir estos puertos en el firewall, consulta la documentación proporcionada.
 
-    Para obtener una lista de todos los puertos que necesita abrir, consulte [Office 365 URL e intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
+    Para obtener una lista de todos los puertos que debe abrir, vea las URL de [Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)y los intervalos de direcciones IP.
 
-9. Asegúrese de que el administrador de la organización también haya seguido estos pasos.
+9. Asegúrese de que el administrador de la organización también ha seguido estos pasos.
 
-10. **AGUARDE HASTA 24 HORAS PARA LA PRUEBA**. Al cambiar la configuración de las comunicaciones externas, los cambios pueden tardar hasta 24 horas en rellenarse en todos los centros de datos.
+10. **AGUARDE HASTA 24 HORAS PARA LA PRUEBA**. Cuando cambia la configuración de comunicaciones externas, los cambios pueden tardar hasta 24 horas en completarse en todos los centros de datos.
 
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Puede permitir a los usuarios que busquen a todos los que usen Skype, la aplicación de consumidor gratuita, y que se comuniquen con ellos con mensajería instantánea. Para obtener más información, consulte [permitir que los usuarios de Skype empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md).
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Puede permitir a los usuarios que busquen a todos los que usen Skype, la aplicación de consumidor gratuita, y que se comuniquen con ellos con mensajería instantánea. Para obtener más información, vea Permitir que los [usuarios de Skype Empresarial agreguen contactos de Skype.](let-skype-for-business-users-add-skype-contacts.md)
   
 ## <a name="test-and-troubleshoot"></a>Probar y solucionar problemas
 
@@ -95,31 +95,31 @@ Para probar su instalación, necesita un contacto en Skype Empresarial que no es
 
 2. En Skype Empresarial, busque su contacto en Skype Empresarial y envíe una solicitud para chatear.
 
-    Si recibe un mensaje que indica que no se pudo enviar debido a la Directiva de la empresa, debe comprobar las [direcciones URL y los intervalos de direcciones IP de Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
+    Si recibe un mensaje que indica que no se pudo enviar debido a la directiva de la empresa, tendrá que volver a comprobar sus direcciones URL e intervalos de direcciones IP de [Office 365.](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges)
 
 3. Pida a su contacto de Skype Empresarial que le envíe una solicitud para chatear. Si no recibe la solicitud, quiere decir que el problema se encuentra en la configuración de su firewall (siempre que haya confirmado que la configuración de su firewall es correcta).
 
-4. Otra forma de comprobar si el problema es el Firewall es ir a una ubicación WiFi que no esté detrás de su firewall, como una tienda de café. Use Skype empresarial para enviar una solicitud a su contacto a la conversación. Si el mensaje se envía en ese momento, pero no sucede lo mismo cuando está en el trabajo, quiere decir que el problema está en el firewall.
+4. Otra forma de comprobar si el problema es del firewall es ir a un lugar que no esté bloqueado por el firewall, como una cafetería. Use Skype Empresarial para enviar una solicitud a su contacto para chatear. Si el mensaje se envía en ese momento, pero no sucede lo mismo cuando está en el trabajo, quiere decir que el problema está en el firewall.
 
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>Cómo buscar a otros, y permitir que me encuentren, al conectarme con otro negocio
 
 <a name="bk_preview"> </a>
 
-Después de habilitar la comunicación externa con otros usuarios de Skype empresarial, los usuarios pueden buscar los usuarios de Skype empresarial federados buscando sus nombres de inicio de sesión. Un ejemplo es Rob@contoso.com. Luego deben agregar a la persona a su lista de contactos.
+Después de habilitar la comunicación externa con otros usuarios de Skype Empresarial, los usuarios pueden buscar usuarios federados de Skype Empresarial buscando sus nombres de inicio de sesión. Un ejemplo es Rob@contoso.com. Luego deben agregar a la persona a su lista de contactos.
   
-![Para buscar un usuario en una empresa federada, debe buscar su dirección de correo electrónico (suele ser también su nombre de inicio de sesión).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![Para buscar un usuario en una empresa federada, debe buscar su dirección de correo electrónico (normalmente también es su nombre de inicio de sesión).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Sugerencias para configurar las comunicaciones con empresas federadas
 
 <a name="bk_preview"> </a>
 
-- Para configurar la Federación entre Skype empresarial 2015 y Skype empresarial online, consulte este artículo: [configurar la Federación con Skype empresarial online](https://technet.microsoft.com/library/jj205126.aspx).
+- Para configurar la federación entre Skype Empresarial 2015 y Skype Empresarial Online, consulte este artículo: Configurar la federación [con Skype Empresarial Online.](https://technet.microsoft.com/library/jj205126.aspx)
 
-- Para configurar la Federación entre Lync y Skype empresarial online, consulte este artículo: [configuración de la compatibilidad de Federación para un cliente de Lync Online](https://technet.microsoft.com/library/hh202193.aspx).
+- Para configurar la federación entre Lync y Skype Empresarial Online, consulte este artículo: Configurar la compatibilidad de federación [para un cliente de Lync Online.](https://technet.microsoft.com/library/hh202193.aspx)
 
-- Cuando dos usuarios de Skype empresarial en Microsoft 365 u Office 365 se comunican entre sí en dominios independientes, solo pueden usar características de Skype empresarial (por ejemplo, conversaciones de vídeo o uso compartido del escritorio) que están activadas en las dos organizaciones.
+- Cuando dos usuarios de Skype Empresarial en Microsoft 365 u Office 365 se comunican entre sí en dominios independientes, solo pueden usar las características de Skype Empresarial (por ejemplo, conversaciones de vídeo o uso compartido del escritorio) que están activadas en ambas organizaciones.
 
-- Si un usuario de Skype empresarial de su organización se coloca en una In-Place o en una retención por juicio, todas las conversaciones de mensajería instantánea entre ese usuario y otros usuarios de Skype empresarial o Skype se guardarán en **los elementos recuperables** de su buzón. Estas conversaciones no se guardarán en la carpeta **Historial de conversaciones** de su buzón.
+- Si un usuario de Skype Empresarial de su organización se pone en retención por juicio o In-Place, todas las  conversaciones de mensajería instantánea entre ese usuario y otros usuarios de Skype Empresarial o Skype se guardarán en Elementos recuperables de su buzón. Estas conversaciones no se guardarán en la carpeta **Historial de conversaciones** de su buzón.
 
 ## <a name="turn-off-external-communication-for-specific-individuals"></a>Desactivar la comunicación externa para personas específicas
 
@@ -129,15 +129,15 @@ Después de habilitar la comunicación externa para toda su empresa, puede desac
   
 1. Inicie sesión con su cuenta de administrador de Microsoft 365 u Office 365.
 
-2. En el centro de administración, vaya **a usuarios**  >  **activos**.
+2. En el centro de administración, vaya a **Usuarios**  >  **activos.**
 
 3. En la lista de usuarios, elija el usuario y, a continuación, en **Más configuraciones**, haga clic en **Editar propiedades de Skype Empresarial**.
 
     ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. En el **centro de administración de Skype empresarial**, elija **comunicaciones externas**.
+4. En el **Centro de administración de Skype Empresarial,** elija **Comunicaciones externas.**
 
-    En la página **Opciones** , se seleccionarán todas las opciones. Borre las comunicaciones que desea deshabilitar. En la siguiente imagen se muestra que Jakob podrá comunicarse con personas de otras empresas de confianza, pero no con otros usuarios de Skype.
+    En la **página** Opciones, se seleccionarán todas las opciones. Desactive las comunicaciones que desee deshabilitar. En la siguiente imagen se muestra que Jakob podrá comunicarse con personas de otras empresas de confianza, pero no con otros usuarios de Skype.
 
     ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   

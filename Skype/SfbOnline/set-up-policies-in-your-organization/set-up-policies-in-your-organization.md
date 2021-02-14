@@ -1,5 +1,5 @@
 ---
-title: Configurar directivas de su organización
+title: Configurar directivas en su organización
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -25,11 +25,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 10/07/2020
 ms.locfileid: "48376563"
 ---
-# <a name="set-up-policies-in-your-organization"></a>Configurar directivas de su organización
+# <a name="set-up-policies-in-your-organization"></a>Configurar directivas en su organización
 
-Las directivas ayudan a determinar las características de Skype empresarial online que se ponen a disposición de los usuarios. Para obtener más información, consulte los artículos siguientes.
+Las directivas ayudan a determinar las características de Skype Empresarial Online que están disponibles para los usuarios. Vea los artículos siguientes para obtener información detallada.
 
-- [Bloquear las transferencias de archivos punto a punto](block-point-to-point-file-transfers.md)
+- [Bloquear las transferencias de archivos de punto a punto](block-point-to-point-file-transfers.md)
 - [Crear directivas personalizadas de acceso externo](create-custom-external-access-policies.md)
 - [Conservar los archivos grandes que se han adjuntado a una reunión](retaining-large-files-attached-to-a-meeting.md)
 - [Establecer directivas de conferencia en su organización](set-up-conferencing-policies-for-your-organization.md)

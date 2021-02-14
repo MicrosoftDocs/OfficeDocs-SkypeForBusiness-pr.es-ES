@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Skype empresarial online le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de conferencia o del cliente, donde puede tener varias combinaciones, hay tres directivas de acceso externo predefinidas que pueden cubrir la mayoría de los escenarios.
+description: Skype Empresarial Online le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de cliente o conferencia, donde puede tener varias combinaciones, hay tres directivas de acceso externo predefinidas que pueden abarcar la mayoría de los escenarios.
 ms.openlocfilehash: 9ec8fbe2e2d1a0d0882a0115bb201021fbbc1a35
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -28,26 +28,26 @@ ms.locfileid: "47814199"
 ---
 # <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
 
-Skype empresarial online le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de conferencia o del cliente, donde puede tener varias combinaciones, hay tres directivas de acceso externo predefinidas que pueden cubrir la mayoría de los escenarios. Estas son las siguientes:
+Skype Empresarial Online le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de cliente o conferencia, donde puede tener varias combinaciones, hay tres directivas de acceso externo predefinidas que pueden abarcar la mayoría de los escenarios. Estos son:
   
-- Sin acceso de usuarios federados o de Skype (_etiqueta: NoFederationAndPIC_ )
+- Ningún acceso al consumidor de Skype o federado (_tag:NoFederationAndPIC_ )
     
-- Solo acceso federado (_etiqueta: FederationOnly_ )
+- Solo acceso federado (_Tag:FederationOnly_ )
     
-- Acceso federado y de consumidor (_FederationAndPICDefault_)
+- Acceso de consumidor y federado (_FederationAndPICDefault_)
     
-Las directivas externas personalizadas le permiten crear directivas adicionales que no están cubiertas por la configuración anterior. Cuando se creó la Directiva, se le pedirá que configure todos los parámetros necesarios y no podrá modificarlos más adelante. La creación de nuevas directivas personalizadas le permite controlar características como el acceso a los consumidores de Skype o una directiva para deshabilitar el audio/vídeo de la nube pública, que es algo que no se ha cubierto con la configuración predefinida. Las directivas de acceso externo personalizadas siguen la misma sintaxis que las directivas de cliente, movilidad y Conferencia. Puede obtener más información sobre esa configuración [aquí](https://technet.microsoft.com/library/mt228132.aspx).
+Las directivas externas personalizadas le permiten crear directivas adicionales que no se cubren con la configuración anterior. Cuando se creó la directiva, se le obligaba a establecer todos los parámetros necesarios y no podía modificarlos más adelante. La creación de nuevas directivas personalizadas le permite controlar características como el acceso al consumidor de Skype o una directiva para deshabilitar el audio y el vídeo en la nube pública, algo que no estaba cubierto por la configuración predefinida. Las directivas de acceso externo personalizadas siguen la misma sintaxis que las directivas de cliente, movilidad y conferencia. Puedes obtener más información sobre esta configuración [aquí.](https://technet.microsoft.com/library/mt228132.aspx)
   
-Para que esto funcione, el usuario debe usar una versión compatible de 2016 aplicación de Skype empresarial hacer clic y ejecutar que la admita. Se necesita la siguiente versión mínima de Skype empresarial 2016 cliente de hacer clic y ejecutar:
+Para que esto funcione, el usuario debe estar usando una versión compatible de la aplicación Hacer clic y ejecutar de Skype Empresarial 2016 compatible. Se requiere la siguiente versión mínima del cliente Hacer clic y ejecutar de Skype Empresarial 2016:
   
 |**Tipo**|**Fecha de lanzamiento**|**Versión**|**Versión**|
 |:-----|:-----|:-----|:-----|
-|First Release para el canal actual  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Versión 1611 (compilación 7571,2006)  <br/> |
-|Canal actual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versión 1611 (compilación 7571,2072)  <br/> |
-|Canal diferido  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Versión 1609 (compilación 7369,2118)  <br/> |
+|First Release para canal actual  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Versión 1611 (compilación 7571.2006)  <br/> |
+|Canal actual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versión 1611 (compilación 7571.2072)  <br/> |
+|Canal diferido  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Versión 1609 (compilación 7369.2118)  <br/> |
    
 > [!CAUTION]
-> Los usuarios que usen versiones anteriores de aplicaciones para Windows de Skype empresarial o clientes de Mac seguirán pudiendo transferir archivos. 
+> Los usuarios que usan versiones anteriores de aplicaciones windows o clientes Mac de Skype Empresarial todavía podrán transferir archivos. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar Windows PowerShell
 
@@ -57,22 +57,22 @@ Para que esto funcione, el usuario debe usar una versión compatible de 2016 apl
     
 2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
     
-3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://www.microsoft.com/download/details.aspx?id=40855) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le solicite.
+3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4.0 para](https://www.microsoft.com/download/details.aspx?id=40855) descargar y actualizar Windows PowerShell a la versión 4.0. Reinicie el equipo cuando se le solicite.
     
-4. También tendrá que instalar el módulo de Windows PowerShell para Teams, que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype empresarial online.
+4. También necesitará instalar el módulo Windows PowerShell para Teams que le permite crear una sesión de Windows PowerShell remota que se conecta a Skype Empresarial Online.
     
-    Si necesita más información, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Si necesita más información, vea Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx)en una única Windows PowerShell ventana.
     
 - **Iniciar una sesión de Windows PowerShell**
     
 1. En el **menú Inicio** > **Windows PowerShell**.
     
-2. En la ventana de **Windows PowerShell** , conéctese a Microsoft 365 u Office 365 ejecutando:
+2. En la **Windows PowerShell** de correo electrónico, conéctese a Microsoft 365 u Office 365 ejecutando:
     
   > [!NOTE]
-  > En este momento, el conector de Skype empresarial online forma parte del módulo de PowerShell más reciente de Teams.
+  > Skype Empresarial Online Connector forma actualmente parte del módulo de PowerShell de Teams más reciente.
   >
-  > Si está usando la [versión pública de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)más reciente de PowerShell, no necesita instalar el conector de Skype empresarial online.
+  > Si usa la versión pública más reciente de PowerShell de [Teams,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar Skype Empresarial Online Connector.
 
    ```PowerShell      
     Import-Module -Name MicrosoftTeams
@@ -81,7 +81,7 @@ Para que esto funcione, el usuario debe usar una versión compatible de 2016 apl
     Import-PSSession $session
    ```
 
-   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Microsoft 365 u Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Si desea más información sobre cómo iniciar Windows PowerShell, consulte Conectarse a todos los servicios de [Microsoft 365 u Office 365](https://technet.microsoft.com/library/dn568015.aspx) en una única ventana de Windows PowerShell o Configurar el equipo para [Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Crear una directiva de acceso externo personalizada para un usuario
 
@@ -99,13 +99,13 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype empresarial online con un único punto de administración que puede simplificar su trabajo diario cuando tenga que hacer varias tareas. Para empezar con Windows PowerShell, vea estos temas:
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 u Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario cuando tenga que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [¿Por qué necesita usar Microsoft 365 u Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso solo del Centro de administración de Microsoft 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Las mejores formas de administrar Microsoft 365 u Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
@@ -114,7 +114,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>Temas relacionados
-[Bloquear las transferencias de archivos punto a punto](block-point-to-point-file-transfers.md)
+[Bloquear las transferencias de archivos de punto a punto](block-point-to-point-file-transfers.md)
 
 [Establecer directivas de cliente en su organización](set-up-client-policies-for-your-organization.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Notas de la versión de Microsoft Teams PowerShell
+title: Notas de la versión de PowerShell de Microsoft Teams
 ms.reviewer: brandber
 author: BrandBer
 ms.author: brandber
@@ -10,7 +10,7 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Obtenga más información sobre los cambios más recientes en Teams PowerShell.
+description: Obtenga información sobre los cambios más recientes en PowerShell de Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
@@ -20,33 +20,33 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 11/06/2020
 ms.locfileid: "48937749"
 ---
-# <a name="microsoft-teams-powershell-release-notes"></a>Notas de la versión de Microsoft Teams PowerShell
+# <a name="microsoft-teams-powershell-release-notes"></a>Notas de la versión de PowerShell de Microsoft Teams
 
-Esta página proporciona el registro de cambios de PowerShell más reciente de Teams para la disponibilidad general y las versiones de versión preliminar pública.
+Esta página proporciona el último registro de cambios de PowerShell de Teams para las versiones de disponibilidad general y vista previa pública.
 
 ## <a name="release-notes"></a>Notas de la versión
 
 > [!NOTE]
-> **-la vista previa** en la columna versión siguiente representa actualizaciones de la versión preliminar pública de Teams PowerShell.
+> **La vista previa** en la columna de versión siguiente representa actualizaciones de la versión preliminar pública de PowerShell de Teams.
 
-| Fecha | Versión | Las |
+| Fecha | Versión | Actualizaciones |
 |------- | -------------------- | ------------------------------ |
-| 2020 de noviembre | [1.1.7: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Usa MSAL para la autenticación & autorización</li><li>Cmdlets de paquete de directivas refactorizado y agrega asignación de paquete de grupo</li><li>La jerarquía de destino refactorizada carga comandos para usar un modelo asincrónico</li> <li>Se le solicitará al usuario dos veces durante la autenticación inicial cuando no usen el parámetro-Credential. Los usuarios pueden pasar las credenciales con el parámetro-credential para evitar que se dupliquen. Este comportamiento se corregirá en la próxima versión.</li> |
-| 2020 de septiembre | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Integración del conector de Skype empresarial online</li> |
-| 2020 de septiembre | [1.1.5: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Integración del conector de Skype empresarial online</li> |
-| 2020 de julio | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Se han agregado [cmdlets de asignación de directiva de grupo](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
-| 2020 de junio | [1.1.3: vista previa](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Integración del conector de Skype empresarial online<li>Optimizaciones de Get-Team<li>Mayor confiabilidad</li> |
-| 2020 de junio | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Se ha agregado la carga previa del cmdlet<li>Optimizaciones de .NET Framework</li>   |
-| 2020 de abril | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode y firma de ensamblado<li>Se ha agregado Get-CsPolicyPackage<li>Se ha agregado Get-CsUserPolicyPackage<li>Se ha agregado Get-CsUserPolicyPackageRecommendation<li>Se ha agregado Grant-CsUserPolicyPackage<li>Se ha agregado New-CsBatchPolicyPackageAssignmentOperation<li>Se ha agregado Set-TeamArchivedState<li>Se ha agregado Set-TeamPicture<li>Get-TeamHelp eliminado</li>  |
-| 2020 de marzo | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Se ha agregado New-CsBatchPolicyAssignmentOperation</li> |
-| 2020 Feb | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Optimizaciones de Get-Team</li>  |
+| Noviembre de 2020 | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Usa MSAL para la autorización de & autenticación</li><li>Cmdlets de paquete de directiva refactorizado y agrega asignación de paquete de grupo</li><li>Comandos de carga de jerarquía de destino refactorizado para usar un modelo asincrónico</li> <li>Se le pedirá dos veces al usuario durante la autenticación inicial cuando no use el parámetro -credential. Los usuarios pueden pasar credenciales usando el parámetro -credential para evitar un mensaje duplicado. Este comportamiento se solucionará en la siguiente versión.</li> |
+| Septiembre de 2020 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Integración de Conectores de Skype Empresarial Online</li> |
+| Septiembre de 2020 | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Integración de Conectores de Skype Empresarial Online</li> |
+| Julio de 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Cmdlets de [asignación de directivas de grupo agregados](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
+| Junio de 2020 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Integración de Conectores de Skype Empresarial Online<li>Get-Team optimizaciones<li>Confiabilidad mejorada</li> |
+| Junio de 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Precarga de cmdlet agregada<li>Optimizaciones de .Net Framework</li>   |
+| Abril de 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Autenticidad y firma de ensamblados<li>Se han Get-CsPolicyPackage<li>Se han Get-CsUserPolicyPackage<li>Se han Get-CsUserPolicyPackageRecommendation<li>Se han Grant-CsUserPolicyPackage<li>Se han New-CsBatchPolicyPackageAssignmentOperation<li>Se han Set-TeamArchivedState<li>Se han Set-TeamPicture<li>Eliminado Get-TeamHelp</li>  |
+| Marzo de 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Se han New-CsBatchPolicyAssignmentOperation</li> |
+| 2020 de febrero de 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team optimizaciones</li>  |
 
-### <a name="cmdlet-availability"></a>Disponibilidad del cmdlet
+### <a name="cmdlet-availability"></a>Disponibilidad de cmdlets
 
 > [!NOTE]
-> La lista de la tabla siguiente solo incluye los cmdlets que forman parte de forma nativa del módulo Teams PowerShell. No se muestran los cmdlets de Teams en el[módulo de conectores de kype para empresas online](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) . Sin embargo, puesto que esos cmdlets se migran de forma nativa a teams PowerShell, los agregaremos a esta tabla.
+> La lista de la tabla siguiente solo incluye cmdlets que forman parte de forma nativa del módulo De PowerShell de Teams. Los cmdlets de Teams en el módulo S[kype for Business Online Connector](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) no se muestran. Sin embargo, como estos cmdlets se migran de forma nativa a Teams PowerShell, los agregaremos a esta tabla.
 
-| Cmdlet | Disponible en la versión preliminar pública | Disponible en GA |
+| Cmdlet | Disponible en versión preliminar pública | Disponible en GA |
 | -| -- | --|
 | [Add-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/add-teamchanneluser?view=teams-ps) | Sí | **No** |
 | [Add-TeamUser](https://docs.microsoft.com/powershell/module/teams/add-teamuser?view=teams-ps) | Sí | Sí |
@@ -67,15 +67,15 @@ Esta página proporciona el registro de cambios de PowerShell más reciente de T
 | [Get-TeamsApp](https://docs.microsoft.com/powershell/module/teams/get-teamsapp?view=teams-ps) | Sí | Sí |
 | [Get-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | Sí | **No** |
 | [Grant-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/grant-csuserpolicypackage?view=teams-ps) | Sí | Sí |
-| [Nuevo: CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | Sí | Sí |
-| [Nuevo: CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Sí | Sí |
-| [Nuevo: CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Sí | Sí |
-| [Nuevo: CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Sí | Sí |
-| [Nuevo: equipo](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Sí | Sí |
-| [Nuevo: TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | Sí | Sí |
-| [Nuevo: TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | Sí | Sí |
+| [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | Sí | Sí |
+| [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Sí | Sí |
+| [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Sí | Sí |
+| [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Sí | Sí |
+| [New-Team](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Sí | Sí |
+| [New-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | Sí | Sí |
+| [New-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | Sí | Sí |
 | [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Sí | Sí |
-| [Quitar equipo](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | Sí | Sí |
+| [Remove-Team](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | Sí | Sí |
 | [Remove-TeamChannel](https://docs.microsoft.com/powershell/module/teams/remove-teamchannel?view=teams-ps) | Sí | Sí |
 | [Remove-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | Sí | **No** |
 | [Remove-TeamsApp](https://docs.microsoft.com/powershell/module/teams/remove-teamsapp?view=teams-ps) | Sí | Sí |
@@ -95,10 +95,10 @@ Esta página proporciona el registro de cambios de PowerShell más reciente de T
 
 [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 
-[Instalar Teams PowerShell](teams-powershell-install.md)
+[Instalación de Teams powerShell](teams-powershell-install.md)
 
-[Administración de equipos con Teams PowerShell](teams-powershell-managing-teams.md)
+[Administrar Teams con PowerShell de Teams](teams-powershell-managing-teams.md)
 
-[Referencia del cmdlet de Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Referencia de cmdlet de Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-[Referencia de cmdlet de Skype empresarial](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Referencia de cmdlet de Skype Empresarial](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
