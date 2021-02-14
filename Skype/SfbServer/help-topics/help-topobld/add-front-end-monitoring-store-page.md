@@ -26,15 +26,15 @@ ms.locfileid: "49803550"
  
 Para **Definir el almacén de SQL Server de supervisión**, configure las propiedades siguientes:
   
-- **Supervisión SQL Server almacén:** seleccione una SQL Server de dominio completo (y, opcionalmente, una instancia) de la lista.
+- **Supervisión SQL Server almacén:** seleccione un SQL Server de dominio completo (y, opcionalmente, una instancia) de la lista.
     
     Haga **clic en** Nuevo para crear una nueva definición SQL Server FQDN y, opcionalmente, un nombre de instancia para el almacén del servidor de supervisión.
     
-- Active la casilla SQL Server creación de **reflejos** del almacén si desea agregar la creación de reflejos de la base de datos para el servidor de supervisión.
+- Active la **casilla SQL Server creación** de reflejo del almacén si desea agregar la creación de reflejos de la base de datos para el servidor de supervisión.
     
     Seleccione el **Reflejo del almacén SQL Server de supervisión** existente de la lista.
     
-    Haga **clic en** Nuevo para crear una nueva SQL Server FQDN y, opcionalmente, un nombre de instancia para el almacén reflejado.
+    Haga **clic** en Nuevo para crear una SQL Server de FQDN y, opcionalmente, un nombre de instancia para el almacén reflejado.
     
 - Si seleccionó Habilitar la creación de reflejos del almacén de SQL Server **SQL Server,** opcionalmente seleccione Usar un testigo de creación de reflejo para habilitar la conmutación por error automática para seleccionar un almacén testigo de creación de reflejo de SQL Server en la lista. 
     

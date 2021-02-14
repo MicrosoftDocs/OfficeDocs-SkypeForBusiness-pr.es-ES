@@ -33,7 +33,7 @@ El Protocolo de inicio de sesión (SIP) se usa para iniciar y administrar sesion
 
 Un tronco SIP es una conexión IP que establece un vínculo de comunicaciones SIP entre su organización y un proveedor de servicios de telefonía de Internet (ITSP) más allá de su firewall. Normalmente, se usa un tronco SIP para conectar el sitio central de la organización a un ITSP. En ciertos casos, se puede usar también el enlace troncal SIP para conectar una sucursal a un ITSP.
 
-La implementación del enlace troncal SIP puede ser un gran paso para simplificar las telecomunicaciones de su organización y prepararse para mejoras actualizadas en las comunicaciones en tiempo real. Una de las principales ventajas del enlace troncal SIP es que puede consolidar las conexiones de su organización a la red telefónica conmutada (RTC) en un sitio central, a diferencia de su predecesor, el enlace troncal de multiplexación por división de tiempo (TDM), que normalmente requiere un tronco independiente de cada sitio de sucursal.
+La implementación del enlace troncal SIP puede ser un gran paso para simplificar las telecomunicaciones de su organización y prepararse para mejoras actualizadas en las comunicaciones en tiempo real. Una de las principales ventajas del enlace troncal SIP es que puede consolidar las conexiones de su organización a la red telefónica conmutada (RTC) en un sitio central, a diferencia de su predecesor, el enlace troncal de multiplexación por división de tiempo (TDM), que normalmente requiere un tronco independiente de cada sucursal.
 
 ### <a name="cost-savings"></a>Ahorro económico
 
@@ -183,7 +183,7 @@ Si usa un servidor de VPN, se recomienda seguir estas instrucciones:
 
 - Cifre los datos de la VPN mediante encapsulación de enrutamiento genérico (GRE).
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Enlace troncal SIP de sitio de sucursal en Skype Empresarial Server](branch-site.md)
 

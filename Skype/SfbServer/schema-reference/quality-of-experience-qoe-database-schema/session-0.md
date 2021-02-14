@@ -31,7 +31,7 @@ La vista de sesión almacena información sobre las sesiones que tienen registro
 |Correlation  <br/> |varchar(max)  <br/> |Id. de correlación de la sesión.  <br/> |
 |DialogCategory  <br/> |bit  <br/> |Categoría de cuadro de diálogo; 0 es la parte de Skype Empresarial Server al servidor de mediación; 1 es la parte de servidor de mediación a puerta de enlace RTC.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Indica si la llamada se pasó o no.  <br/> |
-|MediaBypassWarningFlag  <br/> |entero  <br/> |Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Para Skype Empresarial Server, solo se define un valor:  <br/> 0x0001 - Id. de desvío desconocido para el adaptador de red predeterminado  <br/> |
+|MediaBypassWarningFlag  <br/> |entero  <br/> |Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Para Skype Empresarial Server, solo se define un valor:  <br/> 0x0001: identificador de omisión desconocido para el adaptador de red predeterminado  <br/> |
 |StartTime  <br/> |datetime  <br/> |Hora de inicio de la llamada.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Hora de finalización de la llamada.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |FQDN del grupo de autores de llamadas.  <br/> |

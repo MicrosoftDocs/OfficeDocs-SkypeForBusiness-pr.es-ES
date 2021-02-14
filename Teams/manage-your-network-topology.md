@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar la configuración de red para las características de voz en la nube en Microsoft Teams.
+description: Obtenga información sobre cómo configurar las opciones de red para las características de voz en la nube en Microsoft Teams.
 ms.openlocfilehash: 7d8bc7f06934134538fca59a3f19285d97756e2f
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -40,7 +40,7 @@ Las regiones de red, los sitios de red y las subredes se definen en la **pestañ
 
 #### <a name="add-and-configure-a-network-site"></a>Agregar y configurar un sitio de red
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la topología de red de ubicaciones y, a continuación, haga clic en  >  la pestaña **Sitios de** red.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la topología de red de ubicaciones y, a continuación, haga clic en la  >  pestaña **Sitios de** red.
 2. Haga **clic en** Agregar y, a continuación, escriba un nombre y una descripción para el sitio.
 
     ![Captura de pantalla de la página Agregar sitio de red](media/manage-network-topology-add-site.png)
@@ -50,24 +50,24 @@ Las regiones de red, los sitios de red y las subredes se definen en la **pestañ
 5. Para asignar directivas de servicios de emergencia al sitio, realice uno de los siguientes procedimientos o ambos:
 
     - Si su organización usa planes de llamadas o enrutamiento directo de sistema telefónico implementado, en la directiva de llamadas de **emergencia,** seleccione la directiva que desee.
-    - Si su organización implementó El enrutamiento directo de sistema telefónico, en la **directiva de enrutamiento** de llamadas de emergencia, seleccione la directiva que desee.
+    - Si su organización implementó Enrutamiento directo de sistema telefónico, en la **directiva de enrutamiento** de llamadas de emergencia, seleccione la directiva que desee.
 
-6. Para asociar una subred al sitio, **en** Subred, haga clic en **Agregar subredes.** Especifique la versión IP, la dirección IP, el intervalo de red, agregue una descripción y, a continuación, haga clic en **Aplicar.** Cada subred debe estar asociada a un sitio específico.
+6. Para asociar una subred al sitio, **en** Subred, haga clic en **Agregar subredes.** Especifique la versión IP, la dirección IP, el intervalo de red, agregue una descripción y, a continuación, haga clic en **Aplicar.** Cada subred debe estar asociada con un sitio específico.
 7. Haga clic en **Guardar**.
 
 #### <a name="modify-a-network-site"></a>Modificar un sitio de red
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la topología de red de ubicaciones y, a continuación, haga clic en  >  la pestaña **Sitios de** red.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la topología de red de ubicaciones y, a continuación, haga clic en la  >  pestaña **Sitios de** red.
 2. Seleccione el sitio haciendo clic a la izquierda del nombre del sitio y, a continuación, haga clic en **Editar.**
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar.**
 
 ### <a name="manage-external-trusted-ip-addresses"></a>Administrar direcciones IP de confianza externas
 
-Puede administrar direcciones IP  de confianza externas en la pestaña Direcciones IP de confianza en la **página** Topología de red del Centro de administración de Microsoft Teams. Puede agregar un número ilimitado de direcciones IP externas de confianza.
+Puede administrar direcciones IP de confianza externas en la pestaña Direcciones **IP** de confianza en la **página** Topología de red del Centro de administración de Microsoft Teams. Puede agregar un número ilimitado de direcciones IP externas de confianza.
 
 #### <a name="add-a-trusted-ip-address"></a>Agregar una dirección IP de confianza
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la topología de red de ubicaciones y, a continuación, haga clic en la  >  pestaña Direcciones **IP de** confianza.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la topología de red de ubicaciones y, a continuación, haga clic en la pestaña  >  Direcciones **IP de** confianza.
 2. Haga clic en **Nuevo**.
 3. En el **panel Agregar dirección IP** de confianza, especifique la versión IP, la dirección IP, el intervalo de red, agregue una descripción y, a continuación, haga clic en **Aplicar.**
 
@@ -75,7 +75,7 @@ Puede administrar direcciones IP  de confianza externas en la pestaña Direccion
 
 #### <a name="edit-a-trusted-ip-address"></a>Editar una dirección IP de confianza
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la topología de red de ubicaciones y, a continuación, haga clic en la  >  pestaña Direcciones **IP de** confianza.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la topología de red de ubicaciones y, a continuación, haga clic en la pestaña  >  Direcciones **IP de** confianza.
 2. Seleccione la dirección IP haciendo clic a la izquierda de la misma y, a continuación, haga clic en **Editar.**
 3. En el **panel Editar dirección IP de** confianza, realice los cambios que desee y, a continuación, haga clic en **Aplicar.**
 

@@ -28,7 +28,7 @@ El servicio de usuario forma parte de la API de repositorio para el panel de cal
   
 ## <a name="user-service"></a>Servicio de usuario
 
-La API de repositorio proporciona un modelo de administración de usuarios simplificado donde el aprovisionamiento de usuarios (creación de cuentas de usuario nuevas) es automático e implícito. Cuando un usuario realiza una solicitud a la API de repositorio por primera vez, el repositorio crea un nuevo registro de usuario. 
+La API de repositorio proporciona un modelo de administración de usuarios simplificado en el que el aprovisionamiento de usuarios (creación de nuevas cuentas de usuario) es automático e implícito. Cuando un usuario realiza una solicitud a la API de repositorio por primera vez, el repositorio crea un nuevo registro de usuario. 
   
 El Panel de calidad de llamadas también crea automáticamente elementos dedicados para el nuevo usuario. Los nuevos elementos dedicados del usuario son clones completos de los elementos del usuario del sistema. De esta forma, los usuarios empiezan con sus propias copias de informes y consultas que pueden empezar a personalizar inmediatamente. 
   

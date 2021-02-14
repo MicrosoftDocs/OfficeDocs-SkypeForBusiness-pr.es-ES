@@ -22,7 +22,7 @@ ms.locfileid: "49803130"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de repositorio para panel de calidad de llamadas (CQD) en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre la API de repositorio para el Panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
+**Resumen:** Obtenga información sobre la API de repositorio para el panel de calidad de llamadas. El Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
   
 La API de repositorio proporciona acceso mediante programación para el Panel de calidad de llamadas para Skype Empresarial Server.
   
@@ -54,7 +54,7 @@ La API de repositorio admite el uso compartido de recursos entre orígenes (CORS
   
  **Habilitar CORS para la API de repositorio**
   
- A continuación se muestra un extracto de la API de repositorio web.config, que muestra dos dominios enumerados en la configuración de la aplicación corsTrustedOrigin. Todas las solicitudes realizadas por los scripts cargados desde estos servidores son de confianza para la API de repositorio.
+ A continuación se muestra un extracto de la API de repositorio web.config que muestra dos dominios enumerados en la configuración de la aplicación corsTrustedOrigin. Todas las solicitudes realizadas por los scripts cargados desde estos servidores son de confianza para la API de repositorio.
   
 Recuerde incluir el protocolo, el nombre de host y el puerto exactos (si los hay). No coloque ningún carácter de barra diagonal (/) al final. Se pueden especificar varias entradas separándose con comas.
   

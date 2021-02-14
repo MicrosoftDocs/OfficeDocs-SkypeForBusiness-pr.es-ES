@@ -24,7 +24,7 @@ ms.locfileid: "49803480"
 ---
 # <a name="add-vis-next-hop"></a>Agregar próximo salto de VIS
  
-The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en topology Builder se describen en línea en Crear un grupo de servidores VIS en [Skype Empresarial Server 2015.](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
 The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   

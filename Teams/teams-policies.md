@@ -55,7 +55,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
 Puede editar la directiva global o las directivas personalizadas que cree.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **directivas de**  >  **Teams.**
-2. Seleccione la directiva haciendo clic a la izquierda del nombre de la directiva y, a continuación, haga clic en **Editar.**
+2. Haga clic a la izquierda del nombre de la directiva para seleccionarla y, luego, en **Editar**.
 3. Active o desactive la configuración que desee y, a continuación, haga clic en **Guardar.**
 
 ## <a name="assign-a-custom-teams-policy-to-users"></a>Asignar una directiva de equipos personalizada a los usuarios

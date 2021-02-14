@@ -23,11 +23,11 @@ ms.locfileid: "49802170"
  
 **Resumen:** Obtenga información sobre cómo asociar informes de supervisión con una base de datos reflejada usada por Skype Empresarial Server.
   
-## <a name="monitor-reports-with-a-mirror-database"></a>Supervisión de informes con una base de datos reflejada
+## <a name="monitor-reports-with-a-mirror-database"></a>Supervisar informes con una base de datos reflejada
 
 Si configura un reflejo para la base de datos de supervisión, esa base de datos reflejada tomará el control como base de datos principal si se produce una conmutación por error. Sin embargo, si usa los informes de supervisión de Skype Empresarial Server y se produce una conmutación por error, es posible que los informes de supervisión no se conecten a la base de datos reflejada. Esto se debe a que, al instalar informes de supervisión, solo se especifica la ubicación de la base de datos principal; no se especifica la ubicación de la base de datos reflejada.
   
-Para obtener informes de supervisión para conmutar automáticamente por error a la base de datos reflejada, debe agregar la base de datos reflejada como "socio de conmutación por error" a las dos bases de datos que usan los informes de supervisión (una base de datos para los datos del registro detallado de llamadas y otra para los datos de calidad de la experiencia (QoE). (Tenga en cuenta que este paso debe realizarse después de instalar los informes de supervisión). Puede agregar la información del asociado de conmutación por error editando manualmente los valores de cadena de conexión usados por estas dos bases de datos. Para ello, lleve a cabo el procedimiento siguiente:
+Para obtener informes de supervisión para conmutar automáticamente por error a la base de datos reflejada, debe agregar la base de datos reflejada como un "socio de conmutación por error" a las dos bases de datos que usan los informes de supervisión (una base de datos para los datos del registro detallado de llamadas y otra para los datos de calidad de la experiencia (QoE). (Tenga en cuenta que este paso debe realizarse después de instalar los informes de supervisión). Puede agregar la información del asociado de conmutación por error editando manualmente los valores de cadena de conexión usados por estas dos bases de datos. Para ello, lleve a cabo el procedimiento siguiente:
   
 1. Use Internet Explorer para abrir la **página principal SQL Server Reporting Services.** La dirección URL de la página principal de Reporting Services incluye:
     
@@ -43,9 +43,9 @@ Para obtener informes de supervisión para conmutar automáticamente por error a
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Una vez que haya accedido a la página principal de Reporting Services, haga clic en **ServerReports** y, a **continuación, haga** clic en Reports_Content . Esto le llevará a la página **de Reports_Content** para los informes de supervisión de Skype Empresarial Server.
+2. Una vez que haya accedido a la página principal de Reporting Services, haga clic en **ServerReports** y, a **continuación, haga** clic en Reports_Content . Esto le llevará a la página **Reports_Content** los informes de supervisión de Skype Empresarial Server.
     
-3. En la **Reports_Content** de datos, haga clic en el **origen de datos CDRDB.**
+3. En la **Reports_Content,** haga clic en el **origen de datos CDRDB.**
     
 4. En la **página CDRDB,** en la pestaña **Propiedades,** busque el cuadro de texto con la etiqueta **Cadena de conexión**. La cadena de conexión actual tendrá un aspecto similar al siguiente:
     
@@ -67,7 +67,7 @@ Para obtener informes de supervisión para conmutar automáticamente por error a
     
 8. Haga clic en **Aplicar**.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Instalar informes de supervisión en Skype Empresarial Server](install-monitoring-reports.md)
   

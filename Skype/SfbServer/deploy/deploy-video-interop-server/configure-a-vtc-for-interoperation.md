@@ -80,19 +80,19 @@ Los VTC ya están configurados para interoperación. Antes de que el servicio pu
 
 1. Inicie sesión en CUCM y vaya a Administración de Cisco Unified CM- \> \> Dispositivo- Teléfono- \> Buscar. 
     
-2. Selecciona el dispositivo VTC que se va a configurar. Compruebe la siguiente configuración en la pantalla Configuración del teléfono, corrificándose según sea necesario. Una vez que se haya cambiado o comprobado esta configuración, haga clic en **Guardar.**
+2. Selecciona el dispositivo VTC que se va a configurar. Compruebe la siguiente configuración en la pantalla Configuración del teléfono, corrificándose según sea necesario. Una vez que se hayan cambiado o comprobado estas opciones de configuración, haga clic en **Guardar.**
     
    |**Parámetro**|**Valor recomendado**|
    |:-----|:-----|
    |Información del dispositivo: plantilla de botón Teléfono  <br/> | Standard Cisco Telepresence Codec C40 <br/> |
    |Información del dispositivo: perfil de teléfono común  <br/> | Perfil de teléfono común estándar <br/> |
    |Información del dispositivo: espacio de búsqueda de llamadas  <br/> | CSS_SfBVideoInterop <br/> |
-   |Información del dispositivo: espacio de búsqueda de llamadas AAR  <br/> | CSS_SfBVideoInterop <br/> |
+   |Información del dispositivo: espacio de búsqueda de llamadas de AAR  <br/> | CSS_SfBVideoInterop <br/> |
    |Información del dispositivo: lista de grupos de recursos multimedia  <br/> | MRGL_SfBVideoInterop <br/> |
    |Información específica del protocolo: perfil de seguridad del dispositivo  <br/> | Cisco Telepresence Codec C40 <br/> |
    |Información específica del protocolo: volver a enrear el espacio de búsqueda de llamadas  <br/> | CSS_SfBVideoInterop <br/> |
    |Información específica del protocolo: espacio de búsqueda de llamadas SUBSCRIBE  <br/> | CSS_SfBVideoInterop <br/> |
-   |Información específica del protocolo :perfil SIP  <br/> | Perfil SIP estándar para el extremo de telepresencia <br/> |
+   |Información específica del protocolo -Perfil SIP  <br/> | Perfil SIP estándar para el extremo de telepresencia <br/> |
    
 3. Una vez guardada la configuración de VTC, vuelve a navegar a la pantalla Configuración del teléfono del dispositivo. En la parte superior de la pantalla del grupo Asociación, haga clic en la asociación para la interoperabilidad de vídeo. Se abre la pantalla Configuración de números de directorio. 
     
@@ -110,5 +110,5 @@ Los VTC ya están configurados para interoperación. Antes de que el servicio pu
    
 5. Cuando haya terminado, desplácese hasta la parte superior de la pantalla y presione **Guardar**. 
     
-La configuración ya está completa para este dispositivo VTC. Deberás repetir este proceso para otros dispositivos VTC de tu empresa.
+La configuración ya está completa para este dispositivo VTC. Tendrá que repetir este proceso para otros dispositivos VTC de su empresa.
 

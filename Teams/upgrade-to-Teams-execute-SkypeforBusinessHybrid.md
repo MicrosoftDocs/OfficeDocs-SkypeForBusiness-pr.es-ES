@@ -41,7 +41,7 @@ Este artículo forma parte de la fase de implementación e implementación del v
 - [Ha preparado tu organización](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Se realizó un piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-Siga las instrucciones de este artículo si ha implementado Skype Empresarial o Microsoft Lync local y lo ha configurado en una implementación híbrida con su organización de Microsoft 365 u Office 365, y su organización desea actualizar a Teams ya sea de forma selectiva (mediante el uso de varios modos de coexistencia) o todo el contenido. Para ambos viajes de actualización, debe mover los usuarios a Skype Empresarial Online (si aún no están en línea) y asignarles el modo de coexistencia y actualización adecuados.
+Siga las instrucciones de este artículo si ha implementado Skype Empresarial o Microsoft Lync local y lo ha configurado en una implementación híbrida con su organización de Microsoft 365 u Office 365 y su organización desea actualizar a Teams de forma selectiva (usando varios modos de coexistencia) o todo en él. Para ambos viajes de actualización, debe mover los usuarios a Skype Empresarial Online (si aún no están en línea) y asignarles el modo de coexistencia y actualización adecuados.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -59,6 +59,6 @@ Después de mover los usuarios a Skype Empresarial Online, puede asignarles el m
 
 ## <a name="phone-system-and-teams-upgrade"></a>Actualización de Sistema telefónico y Teams
 
-Si va a realizar la transición de su implementación híbrida de Skype Empresarial a Sistema telefónico con planes de llamadas y Microsoft será su proveedor de red telefónica conmutada (RTC) público y, suponiendo que ha completado la porción de números de teléfono, al actualizar los usuarios a Teams se realizarán automáticamente las llamadas RTC de entrada a Teams.
+Si está cambiando su implementación híbrida de Skype Empresarial a Sistema telefónico con planes de llamadas y Microsoft será su proveedor de red telefónica conmutada (RTC) pública, y suponiendo que ha completado la porización de números de teléfono, al actualizar los usuarios a Teams se realizarán automáticamente las llamadas RTC de entrada a Teams.
 
-Si los planes de llamadas no están disponibles o su intención es usar su proveedor de conectividad CON RTC, deberá pasar la implementación de voz empresarial (o una implementación de voz híbrida que usa su implementación local existente o Cloud Connector Edition) a Enrutamiento directo de Microsoft Phone System. Para actualizar los usuarios a Teams, consulte las [consideraciones adicionales para el enrutamiento directo de sistema telefónico.](2-envision-make-my-service-decisions-direct-routing.md)
+Si los planes de llamadas no están disponibles o su intención es usar su proveedor de conectividad CON RTC, deberá pasar la implementación de voz empresarial (o una implementación de voz híbrida que usa su implementación local existente o Cloud Connector Edition) a Microsoft Phone System Direct Routing. Para actualizar los usuarios a Teams, consulte las [consideraciones adicionales para el enrutamiento directo de sistema telefónico.](2-envision-make-my-service-decisions-direct-routing.md)

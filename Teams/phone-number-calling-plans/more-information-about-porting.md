@@ -1,5 +1,5 @@
 ---
-title: Más información sobre la porting
+title: Más información sobre la porción
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -26,7 +26,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802520"
 ---
-# <a name="more-information-about-porting"></a>Más información sobre la porting
+# <a name="more-information-about-porting"></a>Más información sobre la porción
 
 Aquí encontrará más información sobre cómo convertir sus números de teléfono en Microsoft Teams.
 
@@ -36,7 +36,7 @@ Si necesita ayuda o si necesita obtener más números de teléfono, póngase en 
 
 ## <a name="port-order-account-information"></a>Información de cuenta para la portabilidad
 
-Cuando esté en  la página Agregar información de cuenta del asistente para portabilidad para enviar una solicitud de portabilidad, especificará casi toda la misma información que proporcionaría en la LOA, incluyendo:
+Cuando esté en  la página Agregar información de cuenta del asistente para portabilidad para enviar una solicitud de portabilidad, especificará casi toda la misma información que proporcionaría en la LOA, lo que incluye:
   
 - Número de cuenta del proveedor de servicios u operador
     
@@ -64,21 +64,21 @@ Para facilitar el envío de una solicitud de portabilidad y evitar errores, aseg
     
 - Compruebe que todos los números sean del mismo operador y de la misma cuenta.
     
-- Compruebe que la información de la cuenta que proporcione coincida exactamente con la información registrada por su operador de telefonía. Los errores de coincidencia de información son la causa más común de errores y retrasos en las órdenes de portabilidad.
+- Compruebe que la información de la cuenta que proporcione coincida exactamente con la información registrada por su operador de telefonía. Los errores de coincidencia de información son la causa más común de errores y pueden retrasar las pedidos de portabilidad.
     
 > [!CAUTION]
 > No desconecte los servicios con su proveedor de servicios u operador. Debe mantener activo el servicio anterior para poder realizar la portabilidad de sus números de teléfono a Teams. No inutilizar su cuenta con su proveedor de servicios u operador. Si bloquea la cuenta, no podrá realizar el cambio de operadores en la cuenta. El usuario autorizado tendrá que enviar una solicitud al operador actual para eliminar el bloqueo. Este proceso puede tardar de una a tres semanas, según el operador.
 
 ## <a name="authorized-person-on-the-account"></a>Persona autorizada en la cuenta
 
-En el asistente para la porción, debe escribir el nombre de la persona autorizada para realizar cambios en la cuenta con el proveedor de servicios u operador. El nombre no se usa para procesar la solicitud de portabilidad, sino que se usa en caso de disputa o si ha resultado incorrecto cuando se portabilidad de los números. Esta persona es responsable de la Carta de autorización (LOA) de una solicitud de portabilidad.
+En el asistente para la porción, debe escribir el nombre de la persona autorizada para realizar cambios en la cuenta con el proveedor de servicios u operador. El nombre no se usa para procesar la solicitud de portabilidad, sino que se usa en caso de disputa o si ha resultado incorrecto durante la portabilidad de los números. Esta persona es responsable de la Carta de autorización (LOA) de una solicitud de portabilidad.
   
 > [!NOTE]
 > El cuadro está limitado a 15 caracteres (con espacios incluidos). Si no tiene el nombre completo en el cuadro, no se retrasará ni se cancelará la orden de portabilidad.
   
 ## <a name="whats-my-billing-telephone-number"></a>¿Cuál es mi número de teléfono de facturación?
 
-El número de teléfono de facturación (BTN) es el número de teléfono principal que se incluye en la factura y que el proveedor de servicios u operador de telefonía factura. Si va a transferir un número de teléfono de una cuenta que solo tiene un número de teléfono, tendrá que escribir este número de teléfono. Si va a transferir números de teléfono de una cuenta que tiene más de uno, puede mirar la factura o ponerse en contacto con el proveedor de servicios u operador para determinar cuál es el BTN para su cuenta.
+El número de teléfono de facturación (BTN) es el número de teléfono principal que se incluye en la factura y que el proveedor de servicios u operador de telefonía factura. Si va a transferir un número de teléfono de una cuenta que solo tiene un número de teléfono, tendrá que introducir este número de teléfono. Si va a transferir números de teléfono de una cuenta que tiene más de uno, puede mirar la factura o ponerse en contacto con el proveedor de servicios u operador para determinar cuál es el BTN para su cuenta.
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>¿Qué debería poner para el número de cuenta?
 
@@ -89,7 +89,7 @@ Normalmente, puede encontrar el número de cuenta en cualquier factura que tenga
 
 ## <a name="what-should-i-put-in-for-the-organization-name"></a>¿Qué debo poner para el nombre de la organización?
 
-Este es el nombre de su organización. El nombre de la organización está limitado a 25 caracteres, con espacios. El nombre de la empresa no se usa para procesar la solicitud de portabilidad. Se usa en el caso de una disputa o si algo no es correcto cuando se están por encima de los números de teléfono. Si no cabe todo el nombre de la empresa en el cuadro, no se retrasará ni se cancelará la orden de portabilidad.
+Este es el nombre de su organización. El nombre de la organización está limitado a 25 caracteres, con espacios. El nombre de la empresa no se usa para procesar la solicitud de portabilidad. Se usa en el caso de una disputa o si algo es incorrecto cuando se están por encima de los números de teléfono. Si no cabe todo el nombre de la empresa en el cuadro, no se retrasará ni se cancelará la orden de portabilidad.
   
 ## <a name="what-should-i-put-in-for-the-service-address"></a>¿Qué debería poner para la dirección de servicio?
 

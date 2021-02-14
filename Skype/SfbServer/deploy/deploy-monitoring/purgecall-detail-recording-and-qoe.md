@@ -21,7 +21,7 @@ ms.locfileid: "49802150"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Purgar manualmente el registro detallado de llamadas y las bases de datos de calidad de la experiencia en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre cómo purgar manualmente los registros del CDR y las bases de datos de QoE usadas por Skype Empresarial Server.
+**Resumen:** Obtenga información sobre cómo purgar manualmente los registros de las bases de datos cdr y qoe usadas por Skype Empresarial Server.
   
 Las bases de datos de CDR y QoE se pueden purgar manualmente o automáticamente de los registros. Purgar registros puede ser importante para que los datos no se vuelvan obsoletos o cuando necesiten restablecer informes desde una línea base inicial.
   

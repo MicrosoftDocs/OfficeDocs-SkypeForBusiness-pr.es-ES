@@ -68,7 +68,7 @@ En la tabla siguiente se describe la compatibilidad de Skype Empresarial con var
 |Exchange Server 2013  <br/> |Igual que Exchange Server soporte técnico de 2010, con la adición de  <br/>&bull;&nbsp;&nbsp;Almacén de contactos unificado  <br/>&bull;&nbsp;&nbsp;Imágenes de alta resolución  <br/>&bull;&nbsp;&nbsp;Integración de archivado  <br/> **Nota:** Para obtener más información, [consulte Integrar Skype Empresarial Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |Exchange Server 2010  <br/>(Solo Skype Empresarial Server 2015) |Las siguientes características solo están disponibles a través de EWS:  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de la carpeta Historial de conversaciones  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de correo de voz  <br/>&bull;&nbsp;&nbsp;Mostrar información de disponibilidad extendida, asunto y ubicación de la reunión  <br/>&bull;&nbsp;&nbsp;Sincronización de contactos de Exchange  <br/> Las carpetas públicas son opcionales en Exchange Server 2010.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
  
 [Requisitos de cliente de Windows y compatibilidad con software](windows-requirements.md)
   

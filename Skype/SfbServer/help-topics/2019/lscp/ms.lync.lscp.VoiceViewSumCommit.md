@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
-description: Puede usar el cuadro de diálogo Opciones de configuración de voz sin confirmar para revisar todos los cambios realizados. Desplácese por el cuadro de diálogo para revisar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en Confirmar para confirmar todos los cambios, o bien haga clic en Cancelar para retroceder y modificar los cambios.
+description: Puede usar el cuadro de diálogo Opciones de configuración de voz no confirmadas para revisar todos los cambios realizados. Desplácese por el cuadro de diálogo para revisar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en Confirmar para confirmar todos los cambios, o bien haga clic en Cancelar para retroceder y modificar los cambios.
 ms.openlocfilehash: 93dc420a3fddee657174bccdad8087d8b2f3fcaf
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
-description: Bienvenido al Panel de control de Skype Empresarial Server, la interfaz de usuario basada en web para la administración y administración de Skype Empresarial Server. Puede usar el panel de control para realizar los tipos de tareas administrativas realizadas con Microsoft Management Console en versiones anteriores.
+description: Bienvenido al Panel de control de Skype Empresarial Server, la interfaz de usuario basada en web para la administración y administración de Skype Empresarial Server. Puede usar el panel de control para realizar los tipos de tareas administrativas que se realizaron con Microsoft Management Console en versiones anteriores.
 ms.openlocfilehash: 74c1d4ae7b9ed65932acf5b8491a2cd00c67831c
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49804900"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Lista de comprobación de la primera ejecución del Panel de control de Skype Empresarial Server
 
-Bienvenido al Panel de control de Skype Empresarial Server, la interfaz de usuario basada en web para la administración y administración de Skype Empresarial Server. Puede usar el panel de control para realizar los tipos de tareas administrativas realizadas con Microsoft Management Console en versiones anteriores.
+Bienvenido al Panel de control de Skype Empresarial Server, la interfaz de usuario basada en web para la administración y administración de Skype Empresarial Server. Puede usar el panel de control para realizar los tipos de tareas administrativas que se realizaron con Microsoft Management Console en versiones anteriores.
 
 Hay una serie de tareas importantes que le recomendamos encarecidamente que realice después de implementar Skype Empresarial Server. Algunas de estas tareas son pasos de configuración inicial que puede haber realizado ya durante la implementación, mientras que otras son ajustes o modificaciones de las configuraciones que se han definido durante la implementación o la configuración predeterminada. Otras tareas que se describen en este tema validan las configuraciones que ha realizado durante el proceso de implementación.
 
@@ -33,7 +33,7 @@ Hay una serie de tareas importantes que le recomendamos encarecidamente que real
 
 ## <a name="first-run-checklist"></a>Lista de comprobación de la primera ejecución
 
-Le recomendamos encarecidamente que revise las tareas a las que se hace referencia en este tema y, a continuación, realice los procedimientos adecuados para la implementación de Lync Server en su organización.
+Se recomienda encarecidamente revisar las tareas a las que se hace referencia en este tema y, a continuación, realizar los procedimientos adecuados para la implementación de Lync Server en su organización.
 
 |**Task**|**Grupo panel de control**|**Documentación**|
 |:-----|:-----|:-----|

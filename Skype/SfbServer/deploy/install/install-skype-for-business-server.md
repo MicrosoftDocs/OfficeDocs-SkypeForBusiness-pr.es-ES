@@ -26,7 +26,7 @@ ms.locfileid: "49801690"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Instalar Skype Empresarial Server en servidores de la topología
  
-**Resumen:** Obtenga información sobre cómo instalar los componentes del sistema de Skype Empresarial Server en cada servidor de la topología. Descargue una versión de prueba gratuita de Skype Empresarial Server desde el Centro [de evaluación de Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
+**Resumen:** Obtenga información sobre cómo instalar los componentes del sistema de Skype Empresarial Server en cada servidor de la topología. Descargue una prueba gratuita de Skype Empresarial Server desde el Centro [de evaluación de Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
 Una vez que la topología se carga en el Almacén de administración central y Active Directory sabe qué servidores realizarán los roles, debe instalar el sistema de Skype Empresarial Server en cada uno de los servidores de la topología. Puede realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se indica en el diagrama. La instalación del sistema de Skype Empresarial Server es el paso 7 de 8.
   
@@ -82,7 +82,7 @@ Una vez que haya publicado una topología, puede instalar los componentes de Sky
     > [!NOTE]
     > El almacén de configuración local es una copia de solo lectura del Almacén de administración central. En una implementación Standard Edition, el Almacén de administración central se crea con una copia local de SQL Server Express Edition en el servidor front-end. Esto sucede cuando se ejecuta el procedimiento Preparar el primer servidor Standard Edition. En una implementación de Enterprise Edition, el almacén de administración central se crea cuando se publica la topología que incluye un grupo de servidores front-end Enterprise Edition. 
   
-2. En la página Instalar almacén de  configuración **local,** asegúrese de que la opción Recuperar directamente desde el almacén de administración central está seleccionada y, a continuación, haga clic en **Siguiente.**
+2. En la página Instalar almacén de  configuración **local,** asegúrese de que está seleccionada la opción Recuperar directamente desde el Almacén de administración central y, a continuación, haga clic en **Siguiente.**
     
     SQL Server Express Edition se instala en el servidor local. SQL Server Express Edition es necesario para el almacén de configuración local.
     
@@ -120,7 +120,7 @@ Una vez que haya publicado una topología, puede instalar los componentes de Sky
     > Skype Empresarial Server incluye compatibilidad con el conjunto de aplicaciones SHA-2 (SHA-2 usa longitudes implícitas de 224, 256, 384 o 512 bits) de algoritmos hash de síntesis y algoritmos de firma para las conexiones de clientes que ejecutan los sistemas operativos Windows 10, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012 o Windows Server 2008 R2. Para admitir el acceso externo mediante el conjunto de aplicaciones SHA-2, el certificado externo lo emite una CA pública que también puede emitir un certificado con la misma síntesis de longitud de bits. 
   
     > [!IMPORTANT]
-    > La selección del algoritmo de firma y síntesis hash depende de los clientes y los servidores que usarán el certificado, así como de otros equipos y dispositivos con los que los clientes y servidores se comunicarán y que también deben saber cómo usar los algoritmos usados en el certificado. Para obtener información sobre las longitudes implícitas que se admiten en el sistema operativo y algunas aplicaciones cliente, consulta el blog de PKI de [Windows: SHA2 y Windows.](https://go.microsoft.com/fwlink/p/?LinkId=287002) 
+    > La selección del algoritmo de firma y síntesis hash depende de los clientes y los servidores que usarán el certificado, así como de otros equipos y dispositivos con los que los clientes y servidores se comunicarán y que también deben saber cómo usar los algoritmos usados en el certificado. Para obtener información sobre qué longitudes implícitas son compatibles con el sistema operativo y algunas aplicaciones cliente, consulta el blog de PKI de [Windows: SHA2 y Windows.](https://go.microsoft.com/fwlink/p/?LinkId=287002) 
   
     Cada servidor Standard Edition o front-end requiere hasta cuatro certificados: el certificado oAuthTokenIssuer, un certificado predeterminado, un certificado interno web y un certificado externo web. Sin embargo, puede solicitar y asignar un único certificado predeterminado con entradas de nombre alternativo de sujeto apropiadas, así como el certificado oAuthTokenIssuer. Para obtener más información sobre los requisitos de certificado, consulte Requisitos del entorno [para Skype Empresarial Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o requisitos de servidor para Skype Empresarial Server [2019.](../../../SfBServer2019/plan/system-requirements.md)
     
@@ -135,7 +135,7 @@ Una vez que haya publicado una topología, puede instalar los componentes de Sky
     
 5. En la página Elegir una entidad de certificación **(CA),** seleccione la opción Seleccionar una CA de la lista detectada en su entorno y, **a** continuación, seleccione una CA conocida (mediante el registro en Servicios de dominio de Active Directory) de la lista. O bien, seleccione la opción **Especificar otra entidad de certificación**, escriba el nombre de otra CA en el cuadro y haga clic en **Siguiente**.
     
-6. En la página **Cuenta de entidad de certificación**, se solicitan sus credenciales para solicitar y procesar la solicitud de certificado en la CA. Debe haber determinado si es necesario un nombre de usuario y una contraseña para solicitar un certificado por adelantado. El administrador de la entidad de certificación tendrá la información necesaria y es posible que tenga que ayudarle en este paso. Si tiene que especificar credenciales alternativas, seleccione la casilla, escriba un nombre de usuario y una contraseña en los cuadros de texto y haga clic en **Siguiente**.
+6. En la página **Cuenta de entidad de certificación**, se solicitan sus credenciales para solicitar y procesar la solicitud de certificado en la CA. Debe haber determinado si es necesario un nombre de usuario y una contraseña para solicitar un certificado por adelantado. El administrador de la entidad de certificación tendrá la información necesaria y es posible que deba ayudarle en este paso. Si tiene que especificar credenciales alternativas, seleccione la casilla, escriba un nombre de usuario y una contraseña en los cuadros de texto y haga clic en **Siguiente**.
     
 7. En la página **Especificar plantilla de certificado alternativa**, haga clic en **Siguiente** para usar la plantilla de servidor web predeterminada.
     
@@ -170,7 +170,7 @@ Una vez que haya publicado una topología, puede instalar los componentes de Sky
     > [!NOTE]
     > Si la **página Estado de** solicitud de certificado en línea informó de un problema con el certificado, como que el certificado no es válido, vea el certificado real para obtener ayuda para resolver el problema. Dos problemas específicos que pueden hacer que un certificado no sea válido son que falte el certificado de CA de raíz de confianza mencionado anteriormente o que falte una clave privada asociada con el certificado. Consulte la documentación de su CA para resolver estos dos problemas.
   
-19. En la **página Resumen de asignación** de certificados, revise la información que se presenta para asegurarse de que se trata del certificado que se debe asignar y, a continuación, haga clic en **Siguiente**.
+19. En la **página Resumen de asignación** de certificados, revise la información presentada para asegurarse de que se trata del certificado que se debe asignar y, a continuación, haga clic en **Siguiente**.
     
 20. En la página **Ejecutando comandos**, revise el resultado del comando. Haga clic en **Ver registro** si desea revisar el proceso de asignación o si se ha emitido algún error o advertencia. Cuando termine, haga clic en **Finalizar**.
     
@@ -188,7 +188,7 @@ Una vez que haya publicado una topología, puede instalar los componentes de Sky
 
 1. Revise los requisitos previos del **paso 4: Iniciar servicios.**
     
-2. Si se trata de un grupo de servidores front-end Enterprise Edition con al menos tres servidores, se usa Windows Fabric y debe usar el cmdlet **Start-CsPool.** Si se usa un único servidor, que siempre es el caso de Standard Edition, use el cmdlet **Start-CsWindowsService.** En este ejemplo, estamos usando Enterprise Edition con tres servidores front-end en el grupo de servidores, abra el Shell de administración de Skype Empresarial **Server** y ejecute el cmdlet **Start-CsPool,** como se muestra en la figura. Para todos los demás roles, incluido el servidor Standard Edition, debe usar **Start-CsWindowsService**. Para implementar roles distintos del rol front-end, consulte la documentación de esos roles concretos.
+2. Si se trata de un grupo de servidores front-end Enterprise Edition con al menos tres servidores, se usa Windows Fabric y debe usar el cmdlet **Start-CsPool.** Si se usa un único servidor, que siempre es el caso de Standard Edition, use el cmdlet **Start-CsWindowsService.** En este ejemplo, estamos usando Enterprise Edition con tres servidores front-end en el grupo de servidores, abra el Shell de administración de Skype Empresarial **Server** y ejecute el cmdlet **Start-CsPool** como se muestra en la figura. Para todos los demás roles, incluido el servidor Standard Edition, debe usar **Start-CsWindowsService**. Para implementar roles distintos del rol front-end, consulte la documentación de esos roles concretos.
     
      ![Inicie los servicios de Skype Empresarial.](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   

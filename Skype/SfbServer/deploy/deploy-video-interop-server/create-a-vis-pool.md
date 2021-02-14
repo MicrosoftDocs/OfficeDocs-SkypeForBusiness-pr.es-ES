@@ -64,11 +64,11 @@ ms.locfileid: "49802060"
     > [!NOTE]
     > Para mejorar la resistencia, es posible que desee configurar un segundo servidor de interoperabilidad de vídeo o un grupo vis, o un grupo de servidores front-end de reserva. Vea [los mecanismos de resistencia para](../../plan-your-deployment/video-interop-server.md#resiliency) obtener más información.
   
-Todas las tareas realizadas con topology Builder ahora deben completarse. Continúe con la instalación del software en el nuevo servidor o servidores VIS.
+Todas las tareas realizadas con el Generador de topologías ahora deben completarse. Continúe con la instalación del software en el nuevo servidor o servidores VIS.
 ## <a name="see-also"></a>Vea también
 
 [Implementar el rol de servidor VIS en Skype Empresarial Server](deploy-the-vis-server-role.md)
 
 [Planear el servidor de interoperabilidad de vídeo en Skype Empresarial Server](../../plan-your-deployment/video-interop-server.md)
   
-[Crear y publicar una topología nueva en Skype Empresarial Server 2015](../../deploy/install/create-and-publish-new-topology.md)
+[Crear y publicar una nueva topología en Skype Empresarial Server 2015](../../deploy/install/create-and-publish-new-topology.md)

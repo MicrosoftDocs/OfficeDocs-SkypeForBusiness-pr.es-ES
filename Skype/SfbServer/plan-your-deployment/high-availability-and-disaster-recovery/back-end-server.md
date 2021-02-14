@@ -58,7 +58,7 @@ Skype Empresarial Server admite la creación de reflejos con el siguiente softwa
 > [!NOTE]
 > SQL mirroring está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y los métodos de clústeres de conmutación por error de SQL son las únicas opciones admitidas con Skype Empresarial Server 2019.
     
-La creación de reflejo asincrónica de la base de datos no es compatible con la alta disponibilidad del servidor back-end en Skype Empresarial Server. En el resto de este documento, la creación de reflejo de la base de datos significa creación de reflejo sincrónica de la base de datos, a menos que se indique explícitamente lo contrario. 
+La creación de reflejo asincrónica de la base de datos no es compatible con la alta disponibilidad del servidor back-end en Skype Empresarial Server. En el resto de este documento, la creación de reflejo de la base de datos significa creación de reflejo de base de datos sincrónica, a menos que se indique explícitamente lo contrario. 
   
 Al implementar la creación de reflejo de la base de datos en un grupo de servidores front-end, todas las bases de datos de Skype Empresarial Server del grupo se reflejan, incluido el almacén de administración central, si se encuentra en este grupo de servidores, así como la base de datos de aplicaciones de grupo de respuesta y la base de datos de aplicación estacionamiento de llamadas, si dichas aplicaciones se ejecutan en el grupo. 
   

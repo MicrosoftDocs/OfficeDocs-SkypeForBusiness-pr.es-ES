@@ -76,7 +76,7 @@ La operación Ejecutar consulta permite ejecutar una consulta en el cubo en func
 
  *Filtros:*  una lista de expresiones de filtro que se aplicarán de manera que el conjunto de datos resultante refleje solo el subconjunto de los datos que son de interés.
 
- *Dimensiones:*  una lista de dimensiones que se usará para agregar los datos. Se requiere al menos una dimensión, pero se pueden especificar varias dimensiones para obtener un nivel adicional de agregaciones adicionales.
+ *Dimensiones:*  una lista de dimensiones que se usará para agregar los datos. Se requiere al menos una dimensión, pero se pueden especificar varias dimensiones para obtener un nivel adicional de subamendas.
 
  *Medidas:*  una lista de medidas, también conocidas como hechos, que son las métricas deseadas que se agregarán en función de las dimensiones especificadas.
 
@@ -127,4 +127,4 @@ La operación Ejecutar consulta permite ejecutar una consulta en el cubo en func
 
  *Resultado de los*  datos: el resultado de la consulta. Es una matriz bidimensional que contiene todas las permutaciones de los miembros de las dimensiones y cada elemento que contiene los nombres de los miembros de las dimensiones, así como los valores agregados de las medidas especificadas.
 
- *El resultado es de la memoria*  caché: para diagnósticos. Indica si el resultado viene de la memoria caché o del cubo QoE.
+ *El resultado es de la memoria*  caché: para diagnósticos. Indica si el resultado provenía de la memoria caché o del cubo QoE.

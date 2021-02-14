@@ -37,7 +37,7 @@ Con el modelo distribuido para grupos de servidores front-end, debe ejecutarse u
   
 - Pérdida de quórum en el nivel de grupo de enrutamiento, causada por la falta de suficientes servidores de réplica para un grupo de enrutamiento determinado. Un grupo de enrutamiento es un conjunto de usuarios que se encuentra en el grupo de servidores. Cada grupo de enrutamiento tiene tres réplicas en el grupo: una réplica principal y dos réplicas secundarias.
     
-- Pérdida de quórum en el nivel de grupo, causada cuando no hay suficientes servidores de edr en el grupo. 
+- Pérdida de quórum de nivel de grupo, causada cuando no hay suficientes servidores de edr en ejecución en el grupo. 
     
 ### <a name="routing-group-level-quorum-loss"></a>Pérdida de quórum en el nivel de grupo de enrutamiento
 
@@ -53,9 +53,9 @@ La primera vez que inicie un nuevo grupo de servidores front-end, es esencial qu
 |7   <br/> |5   <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
-|10   <br/> |8   <br/> |
+|10    <br/> |8   <br/> |
 |11   <br/> |9   <br/> |
-|12   <br/> |10   <br/> |
+|12   <br/> |10    <br/> |
 |16 **Para Skype Empresarial Server 2019** <br/> |12   <br/> |
 
 
@@ -86,7 +86,7 @@ En la tabla anterior, los "primeros servidores" son los servidores que se han pr
 > 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Pasos adicionales para garantizar que los grupos sean funcionales
 
-Debe estar atento a otros dos factores para garantizar que los grupos de servidores front-end sigan funcionando.
+Debe tener en cuenta otros dos factores para garantizar que los grupos de servidores front-end sigan funcionando.
   
 - Cuando mueva usuarios al grupo por primera vez, asegúrese de que al menos tres de los servidores front-end se estén ejecutando.
     
@@ -98,7 +98,7 @@ No se recomienda implementar un grupo de servidores front-end que contenga solo 
   
 Si alguna vez necesita implementar un grupo de servidores con dos servidores front-end, siga estas instrucciones:
   
-- Si uno de los dos servidores front-end se cae, debe intentar hacer que el servidor con errores vuelva a estar lo antes posible. Del mismo modo, si necesita actualizar uno de los dos servidores, vuelva a ponerla en línea en cuanto finalice la actualización.
+- Si uno de los dos servidores front-end se cae, debe intentar que el servidor con errores vuelva a estar lo antes posible. Del mismo modo, si necesita actualizar uno de los dos servidores, vuelva a ponerla en línea en cuanto finalice la actualización.
     
 - Si por algún motivo necesita reducir ambos servidores al mismo tiempo, haga lo siguiente cuando finalice el tiempo de inactividad del grupo de servidores:
     
@@ -116,6 +116,6 @@ Siempre que realice un cambio de configuración en un grupo de servidores front-
   
 - Una vez publicada la nueva topología, debe reiniciar cada servidor front-end del grupo de servidores. Reinícielos de uno en uno.
     
-- Si todo el grupo de servidores se ha quedado sin servicio durante el cambio de configuración, ejecute el siguiente cmdlet después de publicar la nueva topología:  `Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
+- Si todo el grupo de servidores ha estado sin funcionar durante el cambio de configuración, ejecute el siguiente cmdlet después de publicar la nueva topología:  `Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
     
 

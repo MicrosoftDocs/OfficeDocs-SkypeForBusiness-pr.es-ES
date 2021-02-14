@@ -41,7 +41,7 @@ La mensajería instantánea sin conexión es una característica del lado client
    ```
 
     > [!NOTE]
-    > En Skype Empresarial Server 2015 CU3, la opción EnableOfflineIM se establece en $True predeterminada. Para deshabilitar, establezca este valor en $False. 
+    > En Skype Empresarial Server 2015 CU3, la opción EnableOfflineIM se establece en $True de forma predeterminada. Para deshabilitar, establezca este valor en $False. 
   
 3. Ejecute el siguiente comando para confirmar que se ha establecido la capacidad de almacenar mensajería instantánea sin conexión.
     
@@ -63,7 +63,7 @@ Hay un temporizador de dos minutos desde que se envía un mensaje sin conexión 
   
   <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
-El registro ETL principal de Skype Empresarial contendrá información sobre el procesamiento de mensajes sin conexión y es la mejor fuente para la investigación y la solución de problemas. 
+El registro ETL principal de Skype Empresarial contendrá información sobre el procesamiento de mensajes sin conexión y es la mejor fuente para la investigación y solución de problemas. 
   
 > [!NOTE]
 > Se ha notificado un problema en el que los mensajes sin conexión no se enviaron y la carpeta "Borradores" se rellenaba con mensajes. Esto ocurrió con buzones locales de Exchange. The issue has been fixed in all C2R channels as of 6/14/2016.  

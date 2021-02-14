@@ -32,7 +32,7 @@ Cada registro representa una sesión que implica audio o audio y vídeo. Contien
 |**CorrelationKey** <br/> |entero  <br/> |Externo  <br/> |Clave de correlación. A la que se hace referencia [desde la tabla SessionCorrelation](sessioncorrelation.md).  <br/> |
 |**DialogCategory** <br/> |bit  <br/> | <br/> |Categoría de cuadro de diálogo; 0 es la parte de Skype Empresarial Server al servidor de mediación; 1 es la parte de servidor de mediación a puerta de enlace RTC.  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||Marca que indica si la llamada se omitió o no.  <br/> |
-|**MediaBypassWarningFlag** <br/> |entero  <br/> ||Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Para Skype Empresarial Server, solo se define un valor.  <br/> 0x0001 - Identificador de desvío desconocido para el adaptador de red predeterminado.  <br/> |
+|**MediaBypassWarningFlag** <br/> |entero  <br/> ||Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Para Skype Empresarial Server, solo se define un valor.  <br/> 0x0001: identificador de desvío desconocido para el adaptador de red predeterminado.  <br/> |
 |**StartTime** <br/> |datetime  <br/> | <br/> |Hora de inicio de la llamada.  <br/> |
 |**EndTime** <br/> |datetime  <br/> | <br/> |Hora de finalización de la llamada.  <br/> |
 |**CallerPool** <br/> |entero  <br/> |Externo  <br/> |El grupo del autor de la llamada. Se hace referencia desde la [tabla Grupo de servidores](pool.md).  <br/> |

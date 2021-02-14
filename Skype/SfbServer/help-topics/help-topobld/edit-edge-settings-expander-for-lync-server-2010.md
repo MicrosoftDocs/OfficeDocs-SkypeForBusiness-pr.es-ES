@@ -55,7 +55,7 @@ Esta sección de las propiedades permite editar las propiedades de la configurac
   
 - Select **A/V Edge service is NAT enabled** if you want to configure the A/V Edge service to use a private address or other address that will be hidden behind a network address translation (NAT) device.
     
-- Para editar el servicio perimetral de **acceso,** defina el **FQDN** del grupo de servidores para el servicio perimetral de acceso como se define en DNS por registros de host (A y AAAA si se usa IPv6) y un valor de puerto
+- Para editar el servicio perimetral de **acceso,** defina el **FQDN** del grupo de servidores para el servicio perimetral de acceso como se define en DNS por los registros de host (A y AAAA si se usa IPv6) y un valor de puerto
     
 - Para editar el servicio perimetral de conferencia **web,** defina un **FQDN** de grupo para el servicio perimetral de conferencia web como se define en DNS por los registros de host (A y AAAA si se usa IPv6) y un valor de puerto
     

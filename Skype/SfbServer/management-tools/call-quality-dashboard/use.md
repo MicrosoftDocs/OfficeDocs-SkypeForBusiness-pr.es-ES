@@ -51,7 +51,7 @@ Mueva el mouse sobre los gráficos de barras y las líneas de tendencia para mos
 
 ### <a name="default-reports"></a>Informes predeterminados
 
-Cuando accede por primera vez al portal del Panel de calidad de llamadas, se crea automáticamente un conjunto predeterminado de informes. Estos informes a veces se conocen como informes del sistema. Puede modificar o eliminar libremente estos informes o extenderlos mediante la creación de nuevos informes del mismo nivel y secundarios.
+Cuando accede por primera vez al portal del Panel de calidad de llamadas, se crea automáticamente un conjunto predeterminado de informes. Estos informes a veces se conocen como informes del sistema. Puede modificar o eliminar libremente estos informes o ampliarlos mediante la creación de nuevos informes secundarios y del mismo nivel.
 
 En el nivel superior, el informe "Tendencia mensual de secuencias de audio" muestra la tendencia mensual de todas las secuencias de audio. Mueva el mouse sobre las barras de un gráfico de barras para mostrar una vista más detallada de los datos representados por el gráfico de barras. Haga clic en el título del informe de tendencias mensuales de secuencias de audio para ir al informe "Secuencias de audio administradas frente a no administradas", donde los informes se dividen entre llamadas administradas y no administradas. Las llamadas administradas son llamadas realizadas desde dentro del firewall corporativo a través de conexiones cableadas. Las llamadas no administradas incluyen llamadas realizadas desde fuera del firewall corporativo y todas las llamadas realizadas a través de Wi-Fi.
 
@@ -86,7 +86,7 @@ El menú de configuración contiene vínculos a páginas útiles, como las pági
 
 Si mostrar descripciones y marcas de tiempo es de usuarios individuales, y esta configuración solo afecta a la versión individual del panel y no modifica el conjunto de informes ni lo que ven otros usuarios. Borrar la memoria caché hace que todas las consultas vuelvan a cargar sus datos del cubo, mientras que la restauración de los valores predeterminados elimina todos los informes creados o modificados por el usuario y vuelve a crear el conjunto de informes del sistema, lo que un usuario vería al iniciar sesión por primera vez.
 
-El vínculo del panel de usuarios muestra una página en la que los usuarios pueden ver otros usuarios de CQD y examinar sus informes. Para compartir un conjunto de informes, copie el vínculo en la barra de direcciones URL y compártolo con otro usuario de CQD. Este vínculo es el mismo vínculo que verían otros usuarios en la página Vínculo al panel de usuarios, bajo el nombre de usuario del usuario.
+El vínculo del panel de usuarios muestra una página en la que los usuarios pueden ver otros usuarios del CQD y examinar sus informes. Para compartir un conjunto de informes, copie el vínculo en la barra de direcciones URL y compártolo con otro usuario de CQD. Este vínculo es el mismo vínculo que verían otros usuarios en la página Vínculo al panel de usuarios, bajo el nombre de usuario del usuario.
 
 ### <a name="supplying-subnet-information"></a>Suministro de información de subred
 
@@ -182,7 +182,7 @@ Una secuencia de CQD se considera buena, mala o sin clasificar. CQM 1.5 ahora us
 |Métrica|Umbral|
 |:-----|:-----|
 |DegradationAvg |Mayor que 1,0 (-1 MOS de red) |
-|RoundTrip |Mayor que 500 |
+|Ida y vuelta |Mayor que 500 |
 |PacketLossRate |Mayor que 0,1 (10%) |
 |JitterInterArrival |Mayor que 30 |
 |RatioConcealedSamplesAvg |Mayor que 0,07 |
@@ -228,7 +228,7 @@ Un ejemplo de una consulta bien formada sería "Show me Poor Streams [Measuremen
 
 ## <a name="what-does-union-do"></a>¿Qué hace UNION?
 
-Union permite filtrar las condiciones con el operador AND. Existen escenarios en los que puede combinar varias condiciones de filtro para lograr un resultado similar a una operación OR.
+Union le permite filtrar condiciones con el operador AND. Existen escenarios en los que puede combinar varias condiciones de filtro para lograr un resultado similar a una operación OR.
 
 Ejemplo: Para obtener todas las secuencias de un edificio, UNION proporciona una vista distinta del conjunto de datos combinado. Para usar UNION, inserte texto común en el campo UNION en las dos condiciones de filtro que desea que unionen.
 
