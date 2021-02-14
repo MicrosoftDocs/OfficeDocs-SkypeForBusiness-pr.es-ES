@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Business Standard '
+title: 'Microsoft 365 Empresa Estándar '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar para los planes de Microsoft 365 Business Standard. '
+description: 'Obtenga información sobre licencias de complementos, características y cómo comprar para planes de Microsoft 365 Empresa Estándar. '
 ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -28,9 +28,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43777415"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Empresa Estándar
 
-Si tiene [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), puede usar Skype empresarial para hacer llamadas a otras personas de su empresa que estén en su plan. Por ejemplo, si tu empresa tiene 10 personas, puedes llamar y enviar mensajes instantáneos entre sí usando Skype empresarial.
+Si tiene [Microsoft 365 Empresa Estándar,](https://products.office.com/en/business/office-365-business-premium)puede usar Skype Empresarial para realizar llamadas a otras personas de su empresa que están en su suscripción. Por ejemplo, si su empresa tiene 10 personas, puede llamarse y usar mensajería instantánea entre sí mediante Skype Empresarial.
 
  **Para realizar y recibir llamadas de personas ajenas a la empresa, tiene dos opciones**:
 
@@ -53,7 +53,7 @@ Si tiene [Microsoft 365 Business Standard](https://products.office.com/en/busine
 
 2. Compre el complemento del **sistema telefónico**.
     
-3. Comprar un [plan de llamadas para Office 365](/MicrosoftTeams/calling-plans-for-office-365): solo puede comprarlo después de comprar el complemento de **sistema telefónico** .
+3. Comprar un [plan de llamadas para Office 365:](/MicrosoftTeams/calling-plans-for-office-365)  solo puede comprar esto después de comprar el complemento Sistema telefónico.
     
     Esta segunda opción es ideal para las empresas en que hay varias personas que realizan y reciben llamadas telefónicas externas.
 
@@ -62,11 +62,11 @@ Si tiene [Microsoft 365 Business Standard](https://products.office.com/en/busine
 
  **Para obtener Audioconferencias y créditos de comunicación:**
 
-1. Inicie sesión en el centro de administración.
+1. Inicie sesión en el Centro de administración.
 
 2. Vaya a **Facturación** > **Suscripciones** > **Complementos** > **Comprar complementos**.
 
-   ![Para comprar una licencia de complemento, elija comprar complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Para comprar una licencia de complemento, elija Comprar complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Ahora verá los precios y la opción de comprar las audioconferencias y configurar los créditos de comunicaciones.
 
@@ -74,8 +74,8 @@ Si tiene [Microsoft 365 Business Standard](https://products.office.com/en/busine
 
 1. Cambie al plan E1 o E3.
 
-2. Vaya al centro de administración > **Billing** > **suscripciones**de facturación.
+2. Vaya al Centro de administración > **suscripciones de**  >  **facturación.**
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
-4. Una vez que compre una licencia de **sistema telefónico** , verá el precio y la opción de comprar un plan de llamadas.
+4. Después de comprar una **licencia de Sistema** telefónico, verá el precio y la opción para comprar un plan de llamadas.

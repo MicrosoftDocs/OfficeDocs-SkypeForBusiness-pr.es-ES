@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtén más información sobre cómo llamar a números gratuitos de llamadas en Francia, incluida la disponibilidad, la disponibilidad de redes móviles, por cable y de línea fija, y las restricciones.
+description: Obtenga información sobre cómo marcar números gratuitos en Francia, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
 ms.openlocfilehash: 5595b8266f78b0b18beb30b9893a09089d56a345
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140429"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Restricciones de marcado de número gratuito en Francia
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> |0 800 9XX XXX  <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> |0 800 9XX XXX  <br/> |
 |Código ISO de país o región  <br/> |FR  <br/> |
-|Isla/territorio cubierta  <br/> | Francia continental y Córcega <br/> |
-|Isla/territorio no cubierto  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Sí  <br/> |
+|Isla o territorio cubierto  <br/> | Francia continental y Córcega <br/> |
+|Isla o territorio no cubierto  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Acceso móvil: Se cobra el tiempo de llamada.  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Acceso móvil: Se cobra el tiempo de llamada.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

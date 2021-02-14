@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtén más información sobre cómo llamar a números gratuitos en Irlanda, incluida la disponibilidad, la disponibilidad de redes móviles, las líneas fijas y las redes móviles y las restricciones.
+description: Obtenga información sobre cómo marcar números gratuitos en Irlanda, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
 ms.openlocfilehash: d976c670170eee09848fa26fd527178bbf9fc033
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140369"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Restricciones de marcado de número gratuito en Irlanda
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> |1 800 XXX XXX  <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> |1 800 XXX XXX  <br/> |
 |Código ISO de país o región  <br/> |IE  <br/> |
-|Isla/territorio cubierta  <br/> |Todas las islas costeras de la República de Irlanda tienen cobertura.  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Sí  <br/> |
+|Isla o territorio cubierto  <br/> |Todas las islas costeras de la República de Irlanda tienen cobertura.  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Accesible a través de Vodafone, O2 Digiphone, Meteor y H3G Mobile Networks.  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Accesible a través de las redes móviles Vodafone, O2 Digiphone, Meteor y H3G.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

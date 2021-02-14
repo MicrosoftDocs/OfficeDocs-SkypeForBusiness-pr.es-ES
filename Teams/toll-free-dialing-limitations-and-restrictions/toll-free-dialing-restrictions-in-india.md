@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Obtén más información sobre cómo llamar a números gratuitos de llamadas en la India, incluida la disponibilidad, la disponibilidad de redes móviles, las líneas fijas y las redes móviles y las restricciones.
+description: Obtenga información sobre cómo marcar números gratuitos en la India, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
 ms.openlocfilehash: e95d00a0bc601780eca63369e0af76d6a4786016
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140389"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restricciones de marcado de número gratuito en India
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> |000 800 XXX XXXX  <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> |000 800 XXX XXXX  <br/> |
 |Código ISO de país o región  <br/> |IND  <br/> |
-|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Parcial. Ver comentarios.  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Parcial. Ver comentarios.  <br/> |
 |Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Acceso disponible desde las siguientes redes: loop móvil, BSNL-fixed (todas las regiones, excepto Bhopal), Vodafone, IDEA/picante (todas las regiones pero Punjab picante), MTS India/Shyam (corregido), MTNL &amp; : móvil fijo, dependencia (todas las regiones, excepto Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut &amp; ), TTML &amp; TTSL (postpagar fijo), Tata, HFCL Infotel/ping Mobile,, teléfono móvil,, Uninor, Videocon, BSNL/Bharti Network.  <br/> Access no está disponible en las siguientes redes: TTSL (prepagar), Etisalat DB Telecom y Jio.  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Acceso disponible desde las siguientes redes: Loop Mobile, BSNL - fijo (todas las regiones menos Bhopal), Vodafone, IDEA/SPICE (todas las regiones menos Punjab Spice), MTS India/Shyam (fijo), MTNL - móvil fijo, Dependencia (en todas las regiones excepto &amp; Alabad, Bhopal, Bhuneswer,Mmer, Lucknow, Meerut),CION.TTSL &amp; (fijo &amp; después pagado), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bdinei/Airtel network.  <br/> Access no está disponible desde las siguientes redes: TTSL (prepago), Etisacontrol DB Telecom y Jio.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)

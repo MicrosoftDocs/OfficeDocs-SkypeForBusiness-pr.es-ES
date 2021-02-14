@@ -28,18 +28,18 @@ ms.locfileid: "43778756"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>Retransmisión IP en Canadá: registrarse
 
-Para configurar una cuenta de IP Relay para Canadá, complete la información de la tabla siguiente y envíela por correo electrónico a [PTN@microsoft.com](mailto:ptn@microsoft.com).
+Para configurar una cuenta de retransmisión IP para Canadá, complete la información de la tabla siguiente y envíela por correo electrónico a [ptn@microsoft.com.](mailto:ptn@microsoft.com)
 
 |||
 |:-----|:-----|
-|Nombre del primer &:||
+|Nombre & apellidos:||
 |Nombre de dominio de la organización de Microsoft 365 u Office 365: <br/>(Ejemplo: Contoso.com)||
-|Número de teléfono de usuario de Microsoft 365 u Office 365: <br/>Ejemplo: + 1 XXX XXX XXXX) ||
+|Número de teléfono de usuario de Microsoft 365 u Office 365: <br/>Ejemplo: +1 XXX XXX XXXX) ||
 |Contraseña (de 8 a 16 caracteres): ||
 |Dirección física más probable <br/>en el momento de una emergencia:||
-|Número de la calle &:||
-|Apartamento o conjunto:||
-|Urbanas||
+|Nombre del número & calle:||
+|Apartamento o suite:||
+|Ciudad:||
 |Provincia o estado:||
 |Código postal:||
 |Número de teléfono:||
@@ -47,11 +47,11 @@ Para configurar una cuenta de IP Relay para Canadá, complete la información de
 |||
 
 > [!NOTE]
-> La dirección de correo electrónico que aparece arriba recibirá mensajes para usted si no está conectado cuando alguien le llame por medio de la retransmisión IP. 
+> La dirección de correo electrónico anterior recibirá los mensajes que reciba si no está conectado cuando alguien le llame a través de retransmisión IP. 
 
-Una vez que tu cuenta esté lista (en un plazo de 24 horas), te enviaremos un mensaje de correo electrónico con el nombre de usuario y la contraseña. 
+Cuando tu cuenta esté lista (en un plazo de 24 horas laborables), te volveremos a enviar por correo electrónico el nombre de usuario y la contraseña. 
 
 
-Después, consulte la [Guía de usuario de retransmisión IP en Canadá](ip-relay-canada-user-guide.md) para comenzar. 
+A continuación, vea la [retransmisión IP en Canadá: guía de usuario](ip-relay-canada-user-guide.md) para empezar. 
 
 

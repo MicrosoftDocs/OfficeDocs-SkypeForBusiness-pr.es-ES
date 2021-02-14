@@ -1,5 +1,5 @@
 ---
-title: 'Administrar los paquetes de directivas '
+title: Administrar los paquetes de directivas
 author: dstrome
 ms.author: dstrome
 manager: serdars

@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
-description: 'El cmdlet Start-CcLogging genera el registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition. '
+description: El cmdlet Start-CcLogging genera el registro de llamadas entrantes y salientes para un dispositivo de Skype Empresarial Cloud Connector Edition.
 ms.openlocfilehash: bf84b55484e7f1d4f557730408676e337063a040
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824174"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
-El cmdlet Start-CcLogging genera el registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition.  
+El cmdlet Start-CcLogging genera el registro de llamadas entrantes y salientes para un dispositivo de Skype Empresarial Cloud Connector Edition. 
   
 ```powershell
 Start-CcLogging
@@ -37,7 +37,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el siguiente ejemplo se genera el registro de llamadas entrantes y salientes.
+En el siguiente ejemplo se genera el registro de llamadas entrantes y salientes:
   
 ```powershell
 Start-CcLogging
@@ -46,19 +46,19 @@ Start-CcLogging
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Start-CcLogging permite a los administradores iniciar el registro de llamadas entrantes y salientes en un dispositivo de conector de nube. De manera predeterminada, el registro se detendrá automáticamente después de cuatro horas.
+El cmdlet Start-CcLogging permite a los administradores iniciar el registro de llamadas entrantes y salientes en un dispositivo de Cloud Connector. De forma predeterminada, el registro se detendrá automáticamente después de cuatro horas.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El cmdlet Start-CcLogging no acepta entradas canalizadas.
+Ninguno. El Start-CcLogging no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="ReturnTypes"> </a>
 
 [Search-CcLog](search-cclog.md)

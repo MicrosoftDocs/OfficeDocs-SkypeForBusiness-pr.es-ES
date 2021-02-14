@@ -1,5 +1,5 @@
 ---
-title: Código de tratamiento de quejas para el Reino Unido -Planes de llamadas de Microsoft 365
+title: Código de gestión de quejas para Reino Unido - Planes de llamadas de Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Realiza una queja por los servicios de llamadas de Skype para empresas (llamadas RTC en el Reino Unido), las escalas de tiempo para las respuestas y la resolución de disputas para reclamaciones no resueltas.
+description: Forme una queja para los servicios de llamadas de Skype Empresarial (llamadas RTC en El Reino Unido), líneas de tiempo para las respuestas y resuelva conflictos de las quejas sin resolver.
 ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43780279"
 ---
-# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planes de llamadas en Microsoft 365: código de tratamiento de quejas para el Reino Unido (RU)
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planes de llamadas en Microsoft 365: código de gestión de quejas para el Reino Unido (UK)
 
-Este código se aplica a los clientes de pequeñas empresas (organizaciones con 10 empleados o menos) en el Reino Unido (RU) en relación con el servicio del plan de llamadas de Microsoft 365 (el "servicio") conforme a las regulaciones de comunicaciones del Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
+Este código se aplica a los clientes de pequeñas empresas (organizaciones con 10 empleados o menos) en el Reino Unido (UK) con respecto al servicio del plan de llamadas de Microsoft 365 (el "Servicio") de acuerdo con las regulaciones sobre comunicaciones del Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
 
 ## <a name="how-to-make-a-complaint"></a>Cómo presentar una queja
 
@@ -40,7 +40,7 @@ La satisfacción de los clientes es una prioridad de Skype Empresarial. Sin emba
 
 - Número de teléfono gratuito: 0800 032 6417
 
-- En línea: inicie sesión en el centro de administración de Microsoft 365 y envíe una solicitud de servicio seleccionando **nueva solicitud de servicio** en **soporte técnico**.
+- En línea: Inicie sesión en el Centro de administración de Microsoft 365 y envíe una solicitud de servicio seleccionando Nueva solicitud de servicio **en** **Soporte técnico.**
 
 ## <a name="timelines"></a>Escalas de tiempo
 
@@ -52,7 +52,7 @@ Si el representante de Skype Empresarial no puede resolver el problema inmediata
 
 Skype Empresarial pretende resolver todas las quejas relacionadas con el Servicio en un plazo de siete (7) días laborables tras el recibo.
 
-Si usted no está satisfecho con la manera en que se administra su queja en relación con el servicio, puede solicitar al representante de Skype empresarial la administración de su queja, por teléfono o correo electrónico, para remitir la queja a de acuerdo con su contrato de servicio. Microsoft evaluará la queja en un plazo de siete (7) días desde su recibo.
+Si no está contento con la forma en que se gestiona la queja en relación con el Servicio, puede solicitar por teléfono o correo electrónico al representante de Skype Empresarial responsable de la queja que e escalar la queja de acuerdo con el acuerdo de servicio. Microsoft evaluará la queja en un plazo de siete (7) días desde su recibo.
 
 ## <a name="alternative-dispute-resolution"></a>Resolución alternativa de disputas
 
@@ -64,7 +64,7 @@ Todas las quejas se deben enviar a los Servicios del Ombudsman en un máximo de 
 
 Los pasos para trasladar una queja a los Servicios del Ombudsman se encuentran en el [sitio web](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) de los Servicios del Ombudsman .
 
-Usted puede comunicarse con los servicios del Ombudsman rellenando un formulario de contacto en el sitio web de los servicios del Ombudsman o por teléfono, carta o correo electrónico:
+Puede ponerse en contacto con los Servicios del Ombudsman rellenando un formulario de contacto en el sitio web de los Servicios del Ombudsman o por teléfono, carta o correo electrónico:
 
 - Formulario de contacto: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

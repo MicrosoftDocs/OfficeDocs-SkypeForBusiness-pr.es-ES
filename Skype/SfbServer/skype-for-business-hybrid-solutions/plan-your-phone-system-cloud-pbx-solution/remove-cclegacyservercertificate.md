@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
-description: El cmdlet Remove-CcLegacyServerCertificate quita los certificados de servidores heredados en el almacén de administración central, el servidor de mediación y el servidor perimetral después de ejecutar los cmdlets Renew-CcCACertificate o Renew-CcServerCertificate.
+description: El cmdlet Remove-CcLegacyServerCertificate quita los certificados de servidor heredados en el almacén de administración central, el servidor de mediación y el servidor perimetral después de ejecutar los cmdlets Renew-CcCACertificate o Renew CcServerCertificate.
 ms.openlocfilehash: f3fe17e8c6c559d1a2c8ab14543807f82c4b6813
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824286"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
-El cmdlet Remove-CcLegacyServerCertificate quita los certificados de servidores heredados en el almacén de administración central, el servidor de mediación y el servidor perimetral después de ejecutar los cmdlets Renew-CcCACertificate o Renew-CcServerCertificate.
+El cmdlet Remove-CcLegacyServerCertificate quita los certificados de servidor heredados en el almacén de administración central, el servidor de mediación y el servidor perimetral después de ejecutar los cmdlets Renew-CcCACertificate o Renew CcServerCertificate.
   
 ```powershell
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
@@ -41,7 +41,7 @@ Remove-CcLegacyServerCertificate
 
 ### <a name="example-2"></a>Ejemplo 2
 
-En el siguiente ejemplo se quitan los certificados emitidos para el servidor de mediación y el servidor perimetral después de haber renovado los certificados:  
+En el siguiente ejemplo se quitan los certificados emitidos para el servidor de mediación y el servidor perimetral después de haber renovado los certificados: 
   
 ```powershell
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
@@ -50,21 +50,21 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="parameters"></a>Parámetros
 <a name="Examples"> </a>
 
-|**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
+|**Parámetro**|**Required**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | Roles <br/> |Opcional  <br/> |System.Array  <br/> | Matriz de roles de servidor de Cloud Connector. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El cmdlet Remove-CcLegacyServerCertificate no acepta entradas canalizadas.
+Ninguno. El Remove-CcLegacyServerCertificate no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="ReturnTypes"> </a>
 
 [Renew-CcServerCertificate](renew-ccservercertificate.md)

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Más información sobre el marcado de números gratuitos en Bielorrusia, incluida la disponibilidad, la disponibilidad de las redes móviles y las líneas fijas, y las restricciones.
+description: Obtenga información sobre cómo marcar números gratuitos en Belarús, incluida la disponibilidad, la disponibilidad de red móvil y de línea fija y cableada, y las restricciones.
 ms.openlocfilehash: c23e5fca7dd3f94fdbc790e91c077284143cf17e
 ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
@@ -33,19 +33,19 @@ ms.locfileid: "43140529"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>Restricciones de marcado de número gratuito en Belarús
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> |8 820 XXXX XXXX  <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> |8 820 XXXX XXXX  <br/> |
 |Código ISO de país o región  <br/> |BY  <br/> |
-|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Sí  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Acceso a redes móviles desde Velcom, MTS y vida.  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Acceso a la red móvil desde Velcom, MTS y Life.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)

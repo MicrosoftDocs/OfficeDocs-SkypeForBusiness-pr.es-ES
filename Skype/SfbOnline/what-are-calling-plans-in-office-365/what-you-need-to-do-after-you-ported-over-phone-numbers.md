@@ -1,5 +1,5 @@
 ---
-title: ¿Qué debe hacer después de transferir los números de teléfono?
+title: ¿Qué necesita hacer después de realizar la por encima de sus números de teléfono?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: Vea lo que tiene que hacer después de haber trasladado sus números de teléfono a Skype empresarial.
+description: Vea lo que debe hacer después de realizar la pornografía de sus números de teléfono en Skype Empresarial.
 ms.openlocfilehash: b96a0f62dc6c31de744786a47a7a7ef6d26c0937
 ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 02/04/2020
 ms.locfileid: "41769233"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>¿Qué debe hacer después de transferir los números de teléfono?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>¿Qué necesita hacer después de realizar la por encima de sus números de teléfono?
 
-Una vez que hayas enviado tu solicitud de portabilidad, nos comunicaremos con tu transportista y te informaremos de ello. Una vez que se haya establecido la fecha de transferencia final, te enviaremos un mensaje de correo electrónico. Sin embargo, mientras espera a que el operador acepte el pedido, cree las direcciones de emergencia necesarias que usará con estos números.
+Una vez que haya enviado la solicitud de portabilidad, nos comunicaremos con su operador para trabajar con ellos los detalles. Cuando se haya establecido la fecha de la transferencia final, se lo notificaremos por correo electrónico. Sin embargo, mientras espera a que su operador acepte la orden, puede crear las direcciones de emergencia necesarias que usará con estos números.
   
-- Más información sobre [Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+- Obtenga más información sobre [las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas.](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
     
-- Puede [Agregar o quitar una dirección de emergencia para su organización](add-or-remove-an-emergency-address-for-your-organization.md) si lo necesita.
+- Si es [necesario, puede agregar](add-or-remove-an-emergency-address-for-your-organization.md) o quitar una dirección de emergencia de su organización.
     
-- Si los números de teléfono ya tienen una dirección de emergencia, [agregue, cambie o quite una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md).
+- Si los números de teléfono ya tienen una dirección de emergencia, agregue, cambie o quite una [ubicación de emergencia para su organización.](add-change-or-remove-an-emergency-location-for-your-organization.md)
     
 - [Asignar, cambiar o quitar un teléfono móvil de un usuario](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 

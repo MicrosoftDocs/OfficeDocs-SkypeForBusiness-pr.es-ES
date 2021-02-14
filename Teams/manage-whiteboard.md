@@ -1,5 +1,5 @@
 ---
-title: Administrar la pizarra en Microsoft Teams
+title: Administrar la pizarra interactiva en Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: En este artículo, obtendrá información sobre cómo administrar y usar la aplicación Web de pizarra en Microsoft Teams.
+description: En este artículo, aprenderá a administrar y usar la aplicación web Whiteboard en Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -27,23 +27,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43904962"
 ---
-<a name="manage-the-whiteboard-in-microsoft-teams"></a>Administrar la pizarra en Microsoft Teams
+<a name="manage-the-whiteboard-in-microsoft-teams"></a>Administrar la pizarra interactiva en Microsoft Teams
 ==========================================
 
-La pizarra de Microsoft es un lienzo digital, de forma gratuita, donde se agrupan las personas, el contenido y las ideas. La integración de pizarra en las reuniones de Microsoft Teams está activada por la pizarra Web App, que permite a los participantes de la reunión de equipos dibujar, esbozar y escribir juntos en un lienzo digital compartido.
+Microsoft Whiteboard es un lienzo digital, de forma libre, que reúne personas, contenidos e ideas. La integración de Whiteboard en las reuniones de Microsoft Teams es la tecnología de la aplicación web de Whiteboard, que permite a los participantes de la reunión de Teams dibujar, esbozar y escribir juntos en un lienzo digital compartido.
 
-Los usuarios pueden compartir una pizarra para que esté disponible para todos los participantes de una reunión de Teams. Esa misma pizarra está disponible al mismo tiempo en todas las aplicaciones de pizarra en Windows 10, iOS y la aplicación Web.
+Los usuarios pueden compartir una pizarra para que esté disponible para todos los participantes de una reunión de Teams. Esa misma pizarra está disponible al mismo tiempo en todas las aplicaciones de Whiteboard en Windows 10, iOS y la aplicación web.
 
-Para activar o desactivar la aplicación whiteboard, consulte [Habilitar la pizarra de Microsoft para su organización](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Recuerde que esta configuración habilita o deshabilita whiteboard para toda la organización, y no solo para los equipos.
+Para activar o desactivar la aplicación Whiteboard, vea Habilitar [Microsoft Whiteboard para su organización.](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24) Tenga en cuenta que esta configuración habilitará o deshabilitará Whiteboard para toda la organización, no solo para Teams.
 
 ## <a name="whiteboard-on-surface-hub"></a>Pizarra en Surface Hub
 
-Antes de intentar usar la pizarra de Microsoft, asegúrese de que la aplicación whiteboard esté instalada en el dispositivo Surface Hub. Si la pizarra no está instalada, en el dispositivo Surface Hub, vaya a la aplicación de Microsoft Store y póngase en marcha con la [pizarra de Microsoft](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). Para obtener más información, vea [Habilitar Microsoft whiteboard en Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
+Antes de intentar usar Microsoft Whiteboard, asegúrate de que la aplicación Whiteboard esté instalada en tu dispositivo Surface Hub. Si Whiteboard no está instalada, en el dispositivo Surface Hub, vaya a la aplicación de Microsoft Store y obtenga [Microsoft Whiteboard.](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab) Para obtener más información, consulta [Habilitar Microsoft Whiteboard en Surface Hub.](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
 
 ## <a name="more-information"></a>Más información
 
 Para obtener más información, vea:
 
-- [Usar whiteboard en Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee)
-- [Habilitar la pizarra de Microsoft para su organización](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
-- [Habilitar Microsoft whiteboard en Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
+- [Usar Whiteboard en Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee)
+- [Habilitar Microsoft Whiteboard para su organización](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
+- [Habilitar Microsoft Whiteboard en Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)

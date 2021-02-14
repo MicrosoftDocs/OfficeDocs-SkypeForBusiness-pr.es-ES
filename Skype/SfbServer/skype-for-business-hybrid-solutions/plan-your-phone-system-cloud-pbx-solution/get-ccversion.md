@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
-description: Devuelve la versión del dispositivo de conector de nube. Get-CCVersion solo se puede usar en la máquina host del conector en la nube.
+description: Devuelve la versión del dispositivo de Cloud Connector. Get-CCVersion solo se puede usar en el equipo host de Cloud Connector.
 ms.openlocfilehash: 706b480c2f8e277b7f41fe28e88cc062fea6603a
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41799850"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
-Devuelve la versión del dispositivo de conector de nube. Get-CCVersion solo se puede usar en la máquina host del conector en la nube.
+Devuelve la versión del dispositivo de Cloud Connector. Get-CCVersion solo se puede usar en el equipo host de Cloud Connector.
   
 ```powershell
 Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
@@ -30,20 +30,20 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 
 ## <a name="detailed-description"></a>Descripción detallada
 
-Devuelve la versión del dispositivo de conector de nube en función de los scripts de PowerShell instalados, los archivos del directorio del equipo y las máquinas virtuales implementadas en el servidor host.
+Devuelve la versión del dispositivo de Cloud Connector basada en scripts de PowerShell instalados, archivos en el directorio de dispositivos y las máquinas virtuales implementadas en el servidor host.
   
 ## <a name="parameters"></a>Parámetros
 
-|**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
+|**Parámetro**|**Required**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-|VersionType  <br/> |Opcional  <br/> |System.String  <br/> |Tipo de versión. El valor del parámetro puede ser RunningScripts, RunningBits, BackupBits o ALL. El valor predeterminado es RunningScripts.  <br/> |
+|VersionType  <br/> |Opcional  <br/> |System.String  <br/> |Tipo de versión. El valor del parámetro puede ser RunningScripts, RunningBits, BackupBits o All. El valor predeterminado es RunningScripts.  <br/> |
    
 ## <a name="examples"></a>Ejemplos
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el ejemplo siguiente se muestra la versión del conector de nube del script que se está ejecutando actualmente en la consola de PowerShell abierta:
+En el siguiente ejemplo se muestra la versión de Cloud Connector del script que se está ejecutando actualmente en la consola de PowerShell abierta:
   
 ```powershell
 Get-CcVersion
@@ -51,7 +51,7 @@ Get-CcVersion
 
 ### <a name="example-2"></a>Ejemplo 2
 
-En el ejemplo siguiente se muestra la versión de conector de nube de los binarios que se han implementado en las máquinas virtuales. Puede ver la versión en los nombres de la máquina virtual en ejecución en el administrador de Hyper-v:
+En el siguiente ejemplo se muestra la versión de Cloud Connector de los archivos binarios actualmente en ejecución implementados en las máquinas virtuales. Puede ver la versión en los nombres de máquina virtual en ejecución en el Administrador de Hyper-v:
   
 ```powershell
 Get-CCVersion -VersionType RunningBits
@@ -60,14 +60,14 @@ Get-CCVersion -VersionType RunningBits
 ## <a name="input-types"></a>Tipos de entrada
 <a name="Examples"> </a>
 
-Ninguno. El cmdlet Get-CcVersion no acepta la entrada canalizada.
+Ninguno. El Get-CcVersion no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="Examples"> </a>
 
 Ninguno.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Examples"> </a>
 
 Ninguno.

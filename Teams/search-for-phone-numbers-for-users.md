@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Consulte Cómo buscar números de teléfono que puede asignar a sus usuarios, por país o región y ciudad, y especifique la cantidad de números que necesita.
+description: Vea cómo buscar números de teléfono que puede asignar a sus usuarios, por país o región y ciudad, y especifique la cantidad de números que necesita.
 ms.openlocfilehash: 14098f2fa769040bfe3224711f1927d84fb5a90d
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.locfileid: "41838180"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
-Al configurar usuarios de su organización para realizar y recibir llamadas telefónicas, debe usar el **centro de administración de Microsoft Teams** y obtener primero números de teléfono que se pueden asignar a los usuarios. El número de teléfono que asigne a un usuario será un número de teléfono que haya elegido para su organización y aparecerá en la lista desplegable cuando edite las propiedades del usuario y haga clic en **asignar**.
+Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, debe usar el Centro de administración de **Microsoft Teams** y obtener primero números de teléfono que se puedan asignar a los usuarios. El número de teléfono que asigne a un usuario será un número de teléfono que haya elegido para su organización y se mostrará en la lista desplegable cuando edite las propiedades del usuario y haga clic en **Asignar.**
   
-Antes de poder asignar números de teléfono a los usuarios, debe usar la página **obtener nuevos números** para buscar números que estén disponibles para usted dentro de un área. Puede buscar por **país o región**, **tipo de número**y **Ubicación**y, a continuación, especificar el número de números de teléfono que necesitará para los usuarios. 
+Antes de poder asignar números de teléfono  a los usuarios, debe usar la página Obtener números nuevos para buscar los números que están disponibles en un área. Puede buscar por País o **región,** Tipo de número y Ubicación **y,** a continuación, escribir la cantidad de números de teléfono que necesitará para los usuarios. 
   
 Si necesita ayuda con la introducción de los números de teléfono, puede ver [Administrar números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization) o [Ponerse en contacto con el soporte para productos de empresa: ayuda de administración](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
@@ -40,36 +40,36 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
 
 **Para buscar números de teléfono para los usuarios**
 
-![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Teams **con el centro de administración de Microsoft Teams**
+![Icono que muestra el logotipo de Teams ](media/teams-logo-30x30.png) **con el Centro de administración de Microsoft Teams**
   
-1. Vaya al **centro de administración de Microsoft Teams**.
+1. Vaya al Centro **de administración de Microsoft Teams.**
 
-2. En el navegación izquierdo, seleccione**números** > de teléfono de **voz** > y**reciba números nuevos**.
+2. En el panel de navegación izquierdo, seleccione **Números de** teléfono  >  **de voz** Obtener nuevos  >  **números.**
   
     > [!IMPORTANT]
-    > Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Microsoft Teams, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .  
+    > Para que vea  la opción Voz en el panel de navegación izquierdo del Centro de administración  de Microsoft Teams, primero debe comprar al menos una licencia **de Enterprise E5,** una licencia de complemento de Sistema telefónico o una licencia del complemento **Audioconferencia.**  
 
-3. En la página **seleccionar la ubicación y la cantidad** , seleccione una ubicación de la lista desplegable **país o región** .
+3. En la **página Seleccionar ubicación y cantidad,** seleccione una ubicación de la lista desplegable País o región. 
 
-4. Seleccione un tipo de número en la lista desplegable **tipo de número** .
+4. Seleccione un tipo de número de la **lista** desplegable Tipo de número.
 
-5. En el cuadro **Ubicación** , escriba el nombre de la ciudad en la que se encuentra el usuario y, a continuación, seleccione la ubicación en la lista. Haga clic en **Agregar una ubicación** si la ubicación que desea no aparece en la lista.
+5. En el **cuadro** Ubicación, escriba el nombre de la ciudad donde se encuentra el usuario y, a continuación, seleccione la ubicación de la lista. Haga **clic en Agregar** una ubicación si la ubicación que desea no aparece en la lista.
 
-6. Seleccione el código de área para la ubicación.
+6. Seleccione el código de área de la ubicación.
 
-7. En **cantidad**, introduzca el número de números de teléfono que desea para su organización y, a continuación, haga clic en **siguiente**. Tiene 10 minutos para seleccionar los números de teléfono. Si tardas más de 10 minutos, los números se devolverán al grupo de números de teléfono.
+7. En **Cantidad,** escriba el número de números de teléfono que desea para su organización y, a continuación, haga clic en **Siguiente.** Tiene 10 minutos para seleccionar los números de teléfono. Si se tardaran más de 10 minutos, los números se devolverán al grupo de números de teléfono.
 
     > [!NOTE]
-    > Puede ver la cantidad de números de teléfono disponibles (según el número de licencias), que se muestra junto a **cantidad**. 
+    > Puedes ver la cantidad de números de teléfono disponibles (que se basa en el número de licencias) que aparece junto **a Cantidad.** 
   
-8. En la página **obtener números** , seleccione los números de teléfono que desee, haga clic en **adquirir números**y, a continuación, haga clic en **siguiente**.
+8. En la **página Obtener números,** seleccione los números de teléfono que desee, haga clic en **Adquirir números** y, a continuación, haga clic en **Siguiente.**
 
     > [!IMPORTANT]
-    > Puede comprar una cantidad de números de teléfono superior a las licencias que tenga. Para determinar cuántos números de teléfono puede comprar, sume un 10 % al número de licencias que tenga y, después, sume 10 licencias. Por ejemplo, si tiene un **plan de llamadas nacionales** de 100 o licencias de **planes de llamadas internacionales** , puede reservar números de teléfono de 120, suponiendo que aún no ha adquirido números de teléfono para los usuarios de 100. Para obtener más información, consulte ¿cuántos [números de teléfono puede obtener?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > Puede comprar una cantidad de números de teléfono superior a las licencias que tenga. Para determinar cuántos números de teléfono puede comprar, sume un 10 % al número de licencias que tenga y, después, sume 10 licencias. Por ejemplo, si dispone de 100 licencias de **plan** de llamadas nacionales o de **plan** de llamadas internacionales, puede reservar 120 números de teléfono (siempre que no haya comprado ya números de teléfono para esos 100 usuarios). Para obtener más información, [consulte ¿Cuántos números de teléfono puede obtener?](/microsoftteams/how-many-phone-numbers-can-you-get)
 
-9. En la página **confirmación** , compruebe las opciones seleccionadas y, a continuación, haga clic en **realizar pedido**.
+9. En la **página de** confirmación, compruebe las opciones y, a continuación, haga clic en **Realizar pedido.**
 
-10. Cuando vuelva a la página **números de teléfono** , seleccione el número de teléfono o los números que desea asignar y, a continuación, haga clic en **Editar** para asignarlo a un usuario.  
+10. Cuando vuelva a la página **Números** de teléfono, seleccione el número  de teléfono o los números que desea asignar y, a continuación, haga clic en Editar para asignarlo a un usuario.  
 
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)
@@ -80,5 +80,5 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

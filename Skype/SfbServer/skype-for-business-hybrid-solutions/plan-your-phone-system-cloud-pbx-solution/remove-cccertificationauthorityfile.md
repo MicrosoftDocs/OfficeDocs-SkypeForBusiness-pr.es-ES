@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad servicio de entidad de certificación en la carpeta CA del directorio compartido del sitio de la edición Cloud Connector de Skype empresarial.
+description: El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad del servicio de entidad de certificación en la carpeta ca en el directorio de recursos compartidos del sitio para Skype Empresarial Cloud Connector Edition.
 ms.openlocfilehash: 49a8f0f313b4153288ebdf037a41dc92f30e60d6
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824296"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad servicio&lt;de&gt;entidad emisora de certificados "SiteRootDirectory \CA\SfB CCE root. p12" en la carpeta CA, en el directorio compartido del sitio de la edición Cloud Connector de Skype empresarial. 
+El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad del servicio de entidad de certificación " &lt; SiteRootDirectory &gt; \CA\SfB CCE Root.p12" en la carpeta ca en el directorio de recursos compartidos del sitio para Skype Empresarial Cloud Connector Edition. 
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -37,7 +37,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el ejemplo siguiente se quita el archivo de copia de&lt;seguridad&gt;servicio de entidad emisora de certificados "SiteRootDirectory \CA\SfB CCE root. p12" en la carpeta CA en el directorio compartido del sitio:
+En el siguiente ejemplo se quita el archivo de copia de seguridad del servicio de entidad de certificación " &lt; SiteRootDirectory &gt; \CA\SfB CCE Root.p12" en la carpeta ca en el directorio de recurso compartido de sitios:
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -46,14 +46,14 @@ Remove-CcCertificationAuthorityFile
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El cmdlet Remove-CcCertificationAuthorityFile no acepta entradas canalizadas.
+Ninguno. El Remove-CcCertificationAuthorityFile no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="ReturnTypes"> </a>
 
 [Backup-CcCertificationAuthority](backup-cccertificationauthority.md)

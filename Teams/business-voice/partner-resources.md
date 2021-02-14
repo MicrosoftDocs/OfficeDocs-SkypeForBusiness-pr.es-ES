@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Voice y recursos de socios de Microsoft Teams
+title: Recursos de partners de Microsoft 365 Business Voice y Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -24,19 +24,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 02/08/2020
 ms.locfileid: "41862850"
 ---
-# <a name="microsoft-365-business-voice-partner-resources"></a>Recursos para socios de voz de Microsoft 365 Business
+# <a name="microsoft-365-business-voice-partner-resources"></a>Recursos de partners de Microsoft 365 Business Voice
 
-Use este artículo para facilitar la implementación y soporte técnico de Microsoft 365 Business Voice. El artículo se centra en las llamadas y llamadas empresariales.
+Consulte este artículo para ayudar a implementar y dar soporte técnico a Microsoft 365 Business Voice. El artículo se centra en business voice y llamadas.
 
-Antes de implementar la voz empresarial, debe tener una base en la implementación y el soporte técnico de Microsoft Teams.
+Antes de implementar Business Voice, debe tener una base en la implementación y el soporte técnico de Microsoft Teams.
 
-Este artículo es una breve oferta de recursos para el personal técnico y de soporte técnico que no está familiarizado con las llamadas empresariales. Use estos recursos para ampliar sus conocimientos sobre la voz empresarial, incluidos los aspectos básicos de la implementación y el soporte técnico.
+Este artículo es un recurso conciso para el personal de entrega técnica y soporte técnico nuevo en Business Voice. Use estos recursos para ampliar sus conocimientos de Business Voice, incluidos los aspectos básicos de la implementación y el soporte técnico.
 
-- [Orientación práctica de Teams](../cloud-voice-landing-page.md)
+- [Instrucciones prácticas de Teams](../cloud-voice-landing-page.md)
 - [Evaluación previa y planificación](../3-envision-evaluate-my-environment.md)
 - [Implementar](../3-onboard-deploy-my-service.md)
-- [Actua](../1-drive-value-operate-my-service.md)
+- [Operar](../1-drive-value-operate-my-service.md)
 - [Soporte técnico](../prepare-network.md)
 - [Solución de problemas](../connectivity-issues.md)
-- [Planes de asistencia al socio](https://partner.microsoft.com/support/partnersupport)
+- [Planes de soporte técnico para partners](https://partner.microsoft.com/support/partnersupport)
 - [Guía del proveedor de servicios de Teams](https://aka.ms/teamsserviceproviderguide)

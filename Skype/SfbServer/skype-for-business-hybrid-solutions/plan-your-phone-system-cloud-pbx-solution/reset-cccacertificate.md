@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: El cmdlet Reset-CcCACertificate reinstala el servidor de AD del servicio de entidad de certificación para crear un nuevo certificado de CA raíz.
+description: El Reset-CcCACertificate cmdlet reinstala el servidor ad de servicio de entidad de certificación para crear un nuevo certificado de CA raíz.
 ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41824256"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-El cmdlet Reset-CcCACertificate reinstala el servidor de AD del servicio de entidad de certificación para crear un nuevo certificado de CA raíz.
+El Reset-CcCACertificate cmdlet reinstala el servidor ad de servicio de entidad de certificación para crear un nuevo certificado de CA raíz.
   
 ```powershell
 Reset-CcCACertificate
@@ -37,7 +37,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el siguiente ejemplo se reinstala el servidor de AD del servicio de entidad de certificación para crear un nuevo certificado de CA raíz:
+En el siguiente ejemplo se vuelve a instalar el servidor ad de servicio de entidad de certificación para crear un nuevo certificado de entidad de certificación raíz:
   
 ```powershell
 Reset-CcCACertificate
@@ -46,30 +46,30 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-Si el certificado de CA raíz está en peligro o ya no es seguro, deberá actualizar este certificado y todos los certificados emitidos por la CA raíz. El cmdlet Reset-CcCACertificate revoca todos los certificados, desinstala y vuelve a instalar la entidad de certificación, y limpia todos los certificados relacionados con el servicio de la entidad de certificación antigua. 
+Si el certificado de ca raíz está en peligro o ya no es seguro, debe actualizar el certificado de ca raíz y todos los certificados emitidos por la CA raíz. El Reset-CcCACertificate revoca todos los certificados, desinstala y reinstala la entidad de certificación y, a continuación, limpia todos los certificados relacionados con el antiguo servicio de entidad de certificación. 
   
-Para obtener más información, consulte "los certificados de la entidad emisora de certificados o los certificados internos emitidos para CMS, servidor de mediación y servidor perimetral están cerca de la fecha de expiración o se han visto comprometidos" en solucionar problemas de implementación en la nube.
+Para obtener más información, consulte "Los certificados de entidad de certificación o los certificados internos emitidos a CMS, al servidor de mediación y al servidor perimetral están a punto de expirar o están en peligro" en la solución de problemas de la implementación de Cloud Connector.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El cmdlet Reset-CcCACertificate no acepta entradas canalizadas.
+Ninguno. El Reset-CcCACertificate no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="ReturnTypes"> </a>
 
-[Renovar-CcCACertificate](renew-cccacertificate.md) Versión 1.4.2
+[Renew-CcCACertificate](renew-cccacertificate.md) Solo la versión 1.4.2
   
-[Renovar-CcServerCertificate](renew-ccservercertificate.md) Versión 1.4.2
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Solo la versión 1.4.2
   
-[Update-CcCACertificate](update-cccacertificate.md) Versión 2,0 y posteriores
+[Update-CcCACertificate](update-cccacertificate.md) Versión 2.0 y posteriores
   
-[Renovar-CcServerCertificate](renew-ccservercertificate.md) Versión 2,0 y posteriores
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Versión 2.0 y posteriores
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

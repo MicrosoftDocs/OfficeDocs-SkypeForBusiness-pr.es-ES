@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lea este artículo para ubicar los códigos de países de la ruta de medios para el enrutamiento directo para que pueda seleccionar la ruta óptima de medios.
+description: Lea este artículo para localizar los códigos de país de la ruta multimedia de enrutamiento directo para que pueda seleccionar la ruta de acceso a medios óptima.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
@@ -24,42 +24,42 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43904812"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>Códigos de países de ruta de medios de enrutamiento directo
+# <a name="direct-routing-media-path-country-codes"></a>Códigos de país de ruta de acceso directo a medios
 
-Cuando se elige una ruta de enrutamiento para los medios, el enrutamiento directo, de forma predeterminada, asigna siempre un centro de recursos basado en la dirección IP pública del controlador de borde de sesión (SBC) y siempre selecciona la ruta más cercana al centro de recursos de SBC.
+Al elegir una ruta de enrutamiento para medios, enrutamiento directo, de forma predeterminada, siempre asigna un centro de datos según la dirección IP pública del controlador de borde de sesión (SBC) y siempre selecciona la ruta más cercana al centro de datos SBC.
 
-Sin embargo, en algunos casos, la ruta de acceso a los medios predeterminados puede no ser la ruta de acceso de medios óptima; por ejemplo, una IP pública de un intervalo de Estados Unidos puede asignarse a un SBC ubicado en Europa. 
+Sin embargo, en algunos casos, la ruta de acceso a medios predeterminada puede no ser la ruta de medios óptima; por ejemplo, una IP pública de un rango de Estados Unidos podría asignarse a una SBC ubicada en Europa. 
 
-Si usas el parámetro-MediaRelayRoutingLocationOverride con los cmdlets New-CsOnlinePSTNGateway y set-CsOnlinePSTNGateway, puedes especificar la región preferida para el tráfico de multimedia. Por ejemplo, el siguiente comando especifica que la región preferida es Alemania:
+Mediante el parámetro -MediaReroutingLocationOverride con los cmdlets New-CsOnlinePSTNGateway y Set-CsOnlinePSTNGateway, puede especificar la región preferida para el tráfico multimedia. Por ejemplo, el siguiente comando especifica que la región preferida es Alemania:
 
-Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationOverride DE 
+Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaReroutingLocationOverride DE 
 
-Tenga en cuenta que Microsoft solo recomienda establecer este parámetro si el registro de llamadas indica claramente que la asignación predeterminada del centro de recursos para la ruta multimedia no usa la ruta más cercana al centro de trabajo de SBC. 
+Tenga en cuenta que Microsoft solo recomienda configurar este parámetro si los registros de llamada indican claramente que la asignación predeterminada del centro de datos para la ruta de acceso multimedia no usa la ruta más cercana al centro de datos SBC. 
  
-## <a name="country-code-reference-table"></a>Tabla de referencia de códigos de países
+## <a name="country-code-reference-table"></a>Tabla de referencia de código de país
 
-En la tabla siguiente se muestran los valores del código de país para el parámetro-MediaRelayRoutingLocationOverride:
+En la tabla siguiente se muestran los valores de código de país para el parámetro -MediaReroutingLocationOverride:
 
-| Tercer         | Codifica 
+| País         | Código 
 |-----------------|--------------------|
-| Afganistán     | Pulsa |
-| Islas Åland   | AX150 |
+| Afganistán     | AF |
+| Islas Land   | AX |
 | Albania         | AL |
-| Argelia         | DZ |
-| Samoa Americana  | CUYA |
+| Argelia         | DP |
+| Samoa Americana  | AS |
 | Andorra         | AD |
-| Angola          | ACTIVACIÓN |
-| Anguila        | EMPLEADOS |
+| Angola          | AO |
+| Anguila        | IA |
 | Antártida      | AQ | 
 | Antigua y Barbuda | AG |
 | Argentina       | AR |
-| Armenia         | MEDIANOCHE |
+| Armenia         | AM |
 | Aruba           | AW |
 | Australia       | AU |
-| Austria         | EN |
-| Azerbaiyán      | Arizona |
+| Austria         | AT |
+| Azerbaiyán      | AZ |
 | Bahamas         | BS |
-| Baréin         | BH |
+| Baréin         | ABS |
 | Bangladesh      | BD |
 | Barbados        | BB |
 | Belarús         | BY |
@@ -68,122 +68,122 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Benín           | BJ |
 | Bermudas         | BM |
 | Bután          | BT |
-| Bolivia         | CUADRO |
+| Bolivia         | BO |
 | Bonaire         | BQ |
 | Bosnia y Herzegovina | BA |
-| Botsuana        | CONSUMI |
-| Isla Bouvet   | VN |
+| Botsuana        | BW |
+| Isla Bouvet   | BALL |
 | Brasil          | BR |
-| Territorio británico del océano Índico | E |
-| Islas Vírgenes Británicas | VG |
+| Territorio Británico del Océano Índico | IO |
+| Islas Vírgenes Británicas | DVS |
 | Brunéi          | BN |
 | Bulgaria        | BG |
 | Burkina Faso    | BF |
-| Burundi         | BUSO |
-| Cabo verde      | Visualiza |
+| Burundi         | BI |
+| Cabo Verde      | CV |
 | Camboya        | KH |
 | Camerún        | CM |
-| Canadá          | CA |
+| Canada          | CA |
 | Islas Caimán  | KY |
-| República Centroafricana | Nº |
-| Chad0            | TID |
+| República Centroafricana | CF |
+| Chad            | TD |
 | Chile           | CL |
 | China           | CN |
-| Isla Christmas | SERIE |
+| Isla Christmas | CX |
 | Islas Cocos (Keeling) | CC |
 | Colombia        | CO |
-| Comoras         | 000 |
-| Congo           | CG |
+| Comoras         | KM |
+| Congo           | GC |
 | Congo (RDC)     | CD |
 | Islas Cook    | CK |
-| Costa Rica      | Nº |
-| Costa de Marfil   | ELEMENTO |
+| Costa Rica      | CR |
+| Costa de Ivoire   | CI |
 | Croacia         | RR. HH. |
-| Cuba0            | CU |
-| Curacao         | CW |
+| Cuba            | CU |
+| Curazao         | CW |
 | Chipre          | CY |
-| Checoia         | CZ |
+| Chequia         | CZ |
 | Dinamarca         | DK |
 | Yibuti        | DJ |
-| Dominica        | MENSAJES directos |
-| República Dominicana | Este |
+| Dominica        | DM |
+| República Dominicana | DO |
 | Ecuador         | EC |
 | Egipto           | EG |
-| El Salvador     | VP |
+| El Salvador     | SV |
 | Guinea Ecuatorial | GQ |
-| Eritrea         | ER |
+| Eritrea         | EMERGENCIA |
 | Estonia         | EE |
-| Eswatini        | SZ |
-| Etiopía        | PENINSULAR |
-| Islas Malvinas | EXTERNA |
-| Islas Feroe   | & |
+| Eswawawa        | SZ |
+| Etiopía        | ET |
+| Islas Malvinas | CE |
+| Islas Feroe   | FO |
 | Fiyi            | FJ |
 | Finlandia         | FI |
 | Francia          | FR |
 | Guayana Francesa   | GF |
-| Polinesia Francesa | Rep |
-| Territorios australes franceses | CE |
-| Gabón           | GA |
+| Polinesia Francesa | PF |
+| Territorios Australes Franceses | TF |
+| Que ha estado en el mismo lugar           | GA |
 | Gambia          | GM |
-| Georgia         | MBIAR |
+| Georgia         | GE |
 | Alemania         | DE |
-| Ghana           | Vent |
-| Gibraltar       | ATENUA |
-| Grecia          | IVA |
+| Ghana           | GH |
+| Gibraltar       | GI |
+| Grecia          | GR |
 | Groenlandia       | GL |
 | Granada         | GD |
 | Guadalupe      | GP |
 | Guam            | GU |
 | Guatemala       | GT |
-| Guernsey        | VV |
+| Guernsey        | GG |
 | Guinea          | GN |
 | Guinea-Bissau   | GW |
-| Guyana          | GY |
-| Haití           | ALTO |
+| Guyana          | YES |
+| Haití           | HI |
 | Islas Heard y McDonald | HM |
 | Honduras        | HN |
 | RAE de Hong Kong   | HK |
 | Hungría         | HU |
-| Islandia         | CONSISTE |
-| India           | POR |
+| Islandia         | ES |
+| India           | IN |
 | Indonesia       | ID |
-| Irán            | MANDO |
+| Irán            | IR |
 | Irak            | IQ |
 | Irlanda         | IE |
 | Isla de Man     | MI |
 | Israel          | IL |
-| Italia           | QUE |
+| Italia           | IT |
 | Jamaica         | JM |
 | Jan Mayen       | XJ |
 | Japón           | JP |
-| Jersey          | DIARIO |
-| Jordania          | FE |
+| Jersey          | JE |
+| Jordania          | JO |
 | Kazajistán      | KZ |
 | Kenia           | KE |
 | Kiribati        | KI |
 | Corea           | KR |
-| Kosovo          | KB |
-| Kuwait          | TC |
+| Kosovo          | XK |
+| Kuwait          | KW |
 | Kirguistán      | KG |
-| Laos            | TAGALA |
-| Letonia          | CICLE |
+| Laos            | LA |
+| Letonia          | LV |
 | Líbano         | LB |
-| Lesoto         | EI |
-| Liberia         | LR |
-| Libia           | AL |
-| Liechtenstein   | & |
+| Lesoto         | LS |
+| Según se ha des         | LR |
+| Libia           | LY |
+| Liechtenstein   | LI |
 | Lituania       | LT |
 | Luxemburgo      | LU |
-| RAE de Macao       | LUN |
+| RAE de Macao       | MO |
 | Madagascar      | MG |
-| Malaui          | PM |
+| Malaui          | VAT |
 | Malasia        | MY |
 | Maldivas        | MV |
-| Mali            | LINGÜE |
+| Mali            | ML |
 | Malta           | MT |
 | Islas Marshall | MH |
-| Martinica      | MÁGICO |
-| Mauritania      | Sr |
+| Martinica      | INSC |
+| Mauritania      | MR |
 | Mauricio       | MU |
 | Mayotte         | YT |
 | México          | MX |
@@ -191,74 +191,74 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Moldova         | MD |
 | Mónaco          | MC |
 | Mongolia        | MN |
-| Montenegro      | Millenium |
-| Montserrat      | Sra |
-| Marruecos         | PROMEDIO |
+| Montenegro      | ME |
+| Montserrat      | MS |
+| Marruecos         | MA |
 | Mozambique      | MZ |
 | Myanmar         | MM |
 | Namibia         | NA |
-| Nauru0           | Nº |
+| Nauru           | NR |
 | Nepal           | NP |
 | Países Bajos     | NL |
 | Nueva Caledonia   | NC |
-| Nueva Zelanda     | Zelanda |
+| Nueva Zelanda     | NZ |
 | Nicaragua       | NI |
 | Níger           | NE |
 | Nigeria         | NG |
-| Niue            | NY |
-| Isla Norfolk  | NF |
-| Corea del norte     | KGF |
-| Macedonia del norte | MK |
+| Niue            | NU |
+| Isla Nor insular  | NF |
+| Corea del Norte     | KP |
+| Macedonia del Norte | MK |
 | Islas Marianas del Norte | NP |
 | Noruega          | No |
 | Omán            | OM |
-| Pakistán        | CLAVES |
-| Palaos           | PAN |
-| Autoridad Nacional Palestina | PCL |
+| Pakistán        | PK |
+| Palaos           | PW |
+| Autoridad Nacional Palestina | PS |
 | Panamá          | PA |
-| Papúa Nueva Guinea | PG |
+| Guinea Ecuatorial | PG |
 | Paraguay        | PY |
 | Perú            | PE |
 | Filipinas     | PH |
-| Islas Pitcairn | VPN |
+| Islas Pitcairn | PN |
 | Polonia          | PL |
 | Portugal        | PT |
-| Puerto Rico     | RR |
+| Puerto Rico     | PR |
 | Catar           | QA |
-| Reunión         | Volviendo |
+| Reunión         | RE |
 | Rumania         | RO |
 | Rusia          | RU |
 | Ruanda          | RW |
-| Saba            | Prime |
+| Saba            | XS |
 | San Bartolomé | BL |
-| San Cristóbal y Nieves | 5,0 |
-| Santa Lucía     | ECX |
-| San Martín    | M |
-| San Pedro y Miquelón | Gerente |
-| San Vicente y las Granadinas | CIRCUITO |
-| Samoa           | EB |
-| San Marino      | Gestor |
-| Santo Tomé y Príncipe | San |
+| San Cristóbal y Nieves | KN |
+| Santa Lucía     | LC |
+| San Martín    | INSONY |
+| San Pedro y Miquelón | PM |
+| San Vicente y las Granadinas | VC |
+| Samoa           | WS |
+| San Marino      | SM |
+| Santo Tomé y Príncipe | ST |
 | Arabia Saudí    | SA |
 | Senegal         | SN |
 | Serbia          | RS |
 | Seychelles      | SC |
 | Sierra Leona    | SL | 
 | Singapur       | SG |
-| San Eustaquio  | CAMPO |
-| Sint Maarten0    | SX |
+| San Eustaquio  | XE |
+| Sint Maarten    | SX |
 | Eslovaquia        | SK |
 | Eslovenia        | SL |
-| Islas Salomón | ENSAMBLA |
-| Somalia0         | PUES |
+| Islas Salomón | SB |
+| Somalia         | SO |
 | Sudáfrica    | ZA |
-| Georgia del Sur e islas Sandwich del sur | G |
+| Georgia del Sur e Islas Sandwich del Sur | GS |
 | Sudán del Sur     | SS |
 | España           | ES |
 | Sri Lanka       | LK |
-| Santa Elena, ascensión, Tristán da Cunha | AP |
-| Sudán           | DT |
-| Surinam        | REVISIÓN |
+| Santa Elena, Ascensión y Tristán da Cunha | SH |
+| Sudán           | SD |
+| Surinam        | SR |
 | Svalbard        | SJ |
 | Suecia          | SE |
 | Suiza     | CH |
@@ -267,31 +267,31 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Tayikistán      | TJ |
 | Tanzania        | TZ |
 | Tailandia        | TH |
-| Timor Oriental     | TL |
+| Timor-Leste     | TL |
 | Togo            | TG |
-| Tokelau1         | TK |
-| Tonga0           | Para |
+| Tokelau         | TK |
+| Tonga           | Para |
 | Trinidad y Tobago | TT |
 | Túnez         | TN |
 | Turquía          | TR |
-| Turkmenistán    | MT |
-| Islas Turcas y Caicos | CT |
-| Tuvalu1          | TELEVISIVO |
-| Islas periféricas de los Estados Unidos | PUEDA |
-| Islas Vírgenes de los Estados Unidos | VI |
+| Turkmenistán    | TM |
+| Islas Turcas y Caicos | TC |
+| Tuvalu          | TELEVISIÓN |
+| Islas No Cercanas de EE. UU. | UM |
+| Islas Vírgenes de LOS EE. UU. | VI |
 | Uganda          | UG |
-| Ucrania         | PAISAPAY |
+| Ucrania         | UA |
 | Emiratos Árabes Unidos | AE |
 | Reino Unido  | GB |
-| Estados Unidos   | DÉJEN |
+| Estados Unidos   | EE. UU. |
 | Uruguay         | UY |
 | Uzbekistán      | UZ |
-| Vanuatu0         | ACTIVADA |
-| Ciudad del Vaticano    | 9.600 |
+| Vanuatu         | VU |
+| Ciudad del Vaticano    | VA |
 | Venezuela       | VE |
 | Vietnam         | VN |
 | Wallis y Futuna | WF |
-| Yemen           | TAL |
+| Yemen           | YE |
 | Zambia          | ZM |
 | Zimbabue        | ZW |
 

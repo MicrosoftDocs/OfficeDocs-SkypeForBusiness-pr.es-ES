@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
-description: 'El cmdlet Exit-CcUpdate sale del modo de mantenimiento en el servidor host de Skype Empresarial Cloud Connector Edition. '
+description: El Exit-CcUpdate cmdlet sale del modo de mantenimiento de actualización en el servidor host de Skype Empresarial Cloud Connector Edition.
 ms.openlocfilehash: 315d6b7dccb6708901128bf8faa29a60f712e833
 ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "41801770"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
-El cmdlet Exit-CcUpdate sale del modo de mantenimiento en el servidor host de Skype Empresarial Cloud Connector Edition.  
+El Exit-CcUpdate cmdlet sale del modo de mantenimiento de actualización en el servidor host de Skype Empresarial Cloud Connector Edition. 
   
 Este cmdlet se aplica a Skype Empresarial Cloud Connector Edition 1.4.1, 1.4.2. 
   
@@ -39,7 +39,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-El siguiente comando vuelve a poner el dispositivo en el que se ejecuta en modo de producción:  
+El siguiente comando coloca el dispositivo en el que se ejecuta de nuevo en modo de producción: 
   
 ```powershell
 Exit-CcUpdate
@@ -48,21 +48,21 @@ Exit-CcUpdate
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-Si tiene dispositivos que ha puesto en modo de mantenimiento mediante el cmdlet Enter-CcUpdate, el cmdlet Exit-CcUpdate los volverá a poner en modo de producción.  
+Si tiene dispositivos que ha puesto en modo de mantenimiento especificando el cmdlet Enter-CcUpdate, el cmdlet Exit-CcUpdate los volverá a poner en modo de producción. 
   
-Para obtener más información sobre cómo poner los dispositivos en modo de mantenimiento, vea Enter-CcUpdate.
+Para obtener más información acerca de cómo poner dispositivos en modo de mantenimiento, vea Enter-CcUpdate.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El cmdlet Exit-CcUpdate no acepta entradas canalizadas.
+Ninguno. El Exit-CcUpdate no acepta entradas canalizadas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
 Ninguno 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="ReturnTypes"> </a>
 
 [Enter-CcUpdate](enter-ccupdate.md)

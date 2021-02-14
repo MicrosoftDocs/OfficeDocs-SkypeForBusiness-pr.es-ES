@@ -31,13 +31,13 @@ ms.locfileid: "42010823"
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Elija la configuración de grabación predeterminada para un solo usuario o para todos los usuarios de su organización
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
 
-1. Vaya a centro de administración > **Skype empresarial**y, a continuación, haga clic en **usuarios**.
+1. Vaya al centro de administración > **Skype Empresarial** y, a continuación, haga clic en **Usuarios.**
     
-2. En la página **usuarios** , seleccione el usuario o los usuarios de la lista y, a continuación, haga clic en **Editar**.
+2. En la **página** Usuarios, seleccione el usuario o los usuarios de la lista y, a continuación, haga clic **en Editar.**
     
-3. En la **Página opciones**, haga clic en **grabar conversaciones y reuniones**y, a continuación, haga clic en **Guardar**.
+3. En la **página Opciones, haga** clic **en Grabar conversaciones y reuniones** y, a continuación, haga clic en **Guardar.**
     
 Cuando la grabación está activada, los organizadores o presentadores pueden grabar una reunión o llamada de conferencia de Skype Empresarial Online. Activar o desactivar la grabación afecta a todos los usuarios de su organización.
   
@@ -45,7 +45,7 @@ Cuando la grabación está activada, los organizadores o presentadores pueden gr
 |:-----|:-----|
 |Audio y vídeo HD  <br/> Presentaciones de pizarra y PowerPoint  <br/> Sesiones de uso compartido de programas y escritorio  <br/> |Páginas de OneNote compartidas  <br/> Anotaciones de PowerPoint  <br/> Archivos compartidos (datos adjuntos)  <br/> |
    
-Para obtener más información, vea [Guardar y publicar registros de Lync](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) y [Administrador de grabaciones de Lync](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
+Para obtener más información, [vea Guardar y publicar grabaciones de Lync y](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) administrador de [grabaciones de Lync.](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b) 
   
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)

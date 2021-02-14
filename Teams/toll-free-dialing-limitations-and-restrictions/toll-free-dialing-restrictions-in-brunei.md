@@ -22,7 +22,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+description: Esto le ayudará a saber cómo llamar a números gratuitos en cada país o región. Después de seleccionar el país o la región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad del servicio gratuito en los que el servicio gratuito esté disponible. El formato o los formatos de marcación le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
 ms.openlocfilehash: 5647f44489981f757eb3d16a39447e4b14cb053b
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
@@ -32,19 +32,19 @@ ms.locfileid: "41708096"
 ---
 # <a name="toll-free-dialing-restrictions-in-brunei"></a>Restricciones de marcado de número gratuito en Brunéi
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
-|Formato (s) de marcado  <br/> | 801 4XXX <br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> | 801 4XXX <br/> |
 |Código ISO de país o región  <br/> |BN  <br/> |
-|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
-|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
-|Disponibilidad de línea fija/por cable  <br/> |Sí  <br/> |
+|Isla o territorio cubierto  <br/> |No aplicable  <br/> |
+|Isla o territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de líneas cableadas/fijas  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |No  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
+|Problemas de comentarios, restricciones y acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
