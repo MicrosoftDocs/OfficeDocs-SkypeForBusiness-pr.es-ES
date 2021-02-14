@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824780"
 ---
-# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a><span data-ttu-id="8f511-104">Perfil de directivas de ancho de banda: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="8f511-104">Bandwidth Policy Profile: Create New or Edit Existing</span></span>
+# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a><span data-ttu-id="ccc9f-104">Perfil de directivas de ancho de banda: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="ccc9f-104">Bandwidth Policy Profile: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="8f511-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="8f511-105">What do you want to do?</span></span> <span data-ttu-id="8f511-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="8f511-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ccc9f-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="ccc9f-105">What do you want to do?</span></span> <span data-ttu-id="ccc9f-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="ccc9f-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="8f511-107">Configuración del perfil de directiva de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="8f511-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="ccc9f-107">Configuración del perfil de directiva de ancho de banda</span><span class="sxs-lookup"><span data-stu-id="ccc9f-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
 
 

@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824720"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="636c3-104">Configurar una región de red: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="636c3-104">Configure a Network Region: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="06347-104">Configurar una región de red: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="06347-104">Configure a Network Region: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="636c3-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="636c3-105">What do you want to do?</span></span> <span data-ttu-id="636c3-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="636c3-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="06347-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="06347-105">What do you want to do?</span></span> <span data-ttu-id="06347-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="06347-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="636c3-107">Configuración de regiones de red</span><span class="sxs-lookup"><span data-stu-id="636c3-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="06347-107">Configuración de regiones de red</span><span class="sxs-lookup"><span data-stu-id="06347-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
 
 

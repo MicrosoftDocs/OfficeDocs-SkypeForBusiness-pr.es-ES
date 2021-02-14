@@ -22,10 +22,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824280"
 ---
-# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="66df5-103">Página Agregar un servidor perimetral con un FQDN único</span><span class="sxs-lookup"><span data-stu-id="66df5-103">Add Edge Server With Single FQDN Page</span></span>
+# <a name="add-edge-server-with-single-fqdn-page"></a><span data-ttu-id="60637-103">Página Agregar un servidor perimetral con un FQDN único</span><span class="sxs-lookup"><span data-stu-id="60637-103">Add Edge Server With Single FQDN Page</span></span>
  
-<span data-ttu-id="66df5-104">Información sobre la página FQDN único del servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="66df5-104">Information on Edge Server Single FQDN Page.</span></span>
+<span data-ttu-id="60637-104">Información sobre la página FQDN único del servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="60637-104">Information on Edge Server Single FQDN Page.</span></span>
   
-<span data-ttu-id="66df5-105">Para obtener información sobre la implementación perimetral, vea [Implementar el servidor perimetral en Skype Empresarial Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="66df5-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
+<span data-ttu-id="60637-105">Para obtener información sobre la implementación perimetral, vea [Implementar el servidor perimetral en Skype Empresarial Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span><span class="sxs-lookup"><span data-stu-id="60637-105">For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md)</span></span>
   
 

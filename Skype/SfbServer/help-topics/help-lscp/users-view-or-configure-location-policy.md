@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824320"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="93dbf-104">Usuarios: Ver o configurar directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="93dbf-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="60357-104">Usuarios: Ver o configurar directiva de ubicación</span><span class="sxs-lookup"><span data-stu-id="60357-104">Users: View or Configure Location Policy</span></span>
 
-<span data-ttu-id="93dbf-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="93dbf-105">What do you want to do?</span></span> <span data-ttu-id="93dbf-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="93dbf-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="60357-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="60357-105">What do you want to do?</span></span> <span data-ttu-id="60357-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="60357-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="93dbf-107">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="93dbf-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="60357-107">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="60357-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-<span data-ttu-id="93dbf-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="93dbf-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="60357-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="60357-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

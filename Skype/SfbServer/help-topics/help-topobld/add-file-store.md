@@ -22,12 +22,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824270"
 ---
-# <a name="add-file-store"></a><span data-ttu-id="08a43-103">Agregar almacén de archivos</span><span class="sxs-lookup"><span data-stu-id="08a43-103">Add File Store</span></span>
+# <a name="add-file-store"></a><span data-ttu-id="6423c-103">Agregar almacén de archivos</span><span class="sxs-lookup"><span data-stu-id="6423c-103">Add File Store</span></span>
  
-<span data-ttu-id="08a43-104">Para definir un nuevo almacén de archivos, especifique lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="08a43-104">To define a new file store, specify the following:</span></span>
+<span data-ttu-id="6423c-104">Para definir un nuevo almacén de archivos, especifique lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="6423c-104">To define a new file store, specify the following:</span></span>
   
-- <span data-ttu-id="08a43-105">El nombre de dominio completo del servidor que hospedará el nuevo almacén de archivos.</span><span class="sxs-lookup"><span data-stu-id="08a43-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="08a43-106">El FQDN del servidor debe existir en el Sistema de nombres de dominio (DNS) antes de publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="08a43-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
+- <span data-ttu-id="6423c-105">El nombre de dominio completo del servidor que hospedará el nuevo almacén de archivos.</span><span class="sxs-lookup"><span data-stu-id="6423c-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="6423c-106">El FQDN del servidor debe existir en el Sistema de nombres de dominio (DNS) antes de publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="6423c-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
     
-- <span data-ttu-id="08a43-p102">El nombre del recurso compartido de archivos en el servidor host. El recurso compartido de archivos debe existir antes de publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="08a43-p102">The name of the file share on the host server. The file share must exist before you publish the topology.</span></span> 
+- <span data-ttu-id="6423c-p102">El nombre del recurso compartido de archivos en el servidor host. El recurso compartido de archivos debe existir antes de publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="6423c-p102">The name of the file share on the host server. The file share must exist before you publish the topology.</span></span> 
     
 

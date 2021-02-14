@@ -19,60 +19,60 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49823311"
 ---
-# <a name="planning-tool-ui-reference"></a><span data-ttu-id="0afc7-102">Referencia de la interfaz de usuario de la Herramienta de planeación</span><span class="sxs-lookup"><span data-stu-id="0afc7-102">Planning Tool UI Reference</span></span>
+# <a name="planning-tool-ui-reference"></a><span data-ttu-id="2c5f1-102">Referencia de la interfaz de usuario de la Herramienta de planeación</span><span class="sxs-lookup"><span data-stu-id="2c5f1-102">Planning Tool UI Reference</span></span>
  
-## <a name="in-this-section"></a><span data-ttu-id="0afc7-103">En esta sección</span><span class="sxs-lookup"><span data-stu-id="0afc7-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2c5f1-103">En esta sección</span><span class="sxs-lookup"><span data-stu-id="2c5f1-103">In this section</span></span>
 
-<span data-ttu-id="0afc7-104">En estos temas se documenta la interfaz de la Herramienta de planeación disponible en el [Centro de descargas de Microsoft.](https://go.microsoft.com/fwlink/p/?LinkID=282725)</span><span class="sxs-lookup"><span data-stu-id="0afc7-104">These topics document the interface for the Planning Tool available from the [Microsoft Downloads Center](https://go.microsoft.com/fwlink/p/?LinkID=282725).</span></span> 
+<span data-ttu-id="2c5f1-104">En estos temas se documenta la interfaz de la Herramienta de planeación disponible en el [Centro de descargas de Microsoft.](https://go.microsoft.com/fwlink/p/?LinkID=282725)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-104">These topics document the interface for the Planning Tool available from the [Microsoft Downloads Center](https://go.microsoft.com/fwlink/p/?LinkID=282725).</span></span> 
   
-- [<span data-ttu-id="0afc7-105">Audioconferencia de vídeo (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-105">Audio Video Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/audio-video-conferencing.md)
+- [<span data-ttu-id="2c5f1-105">Audioconferencia de vídeo (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-105">Audio Video Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/audio-video-conferencing.md)
     
-- [<span data-ttu-id="0afc7-106">Conferencia de acceso telefónico local (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-106">Dial-in Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/dial-in-conferencing.md)
+- [<span data-ttu-id="2c5f1-106">Conferencia de acceso telefónico local (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-106">Dial-in Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/dial-in-conferencing.md)
     
-- [<span data-ttu-id="0afc7-107">Conferencia web (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-107">Web Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/web-conferencing.md)
+- [<span data-ttu-id="2c5f1-107">Conferencia web (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-107">Web Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/web-conferencing.md)
     
-- [<span data-ttu-id="0afc7-108">Telefonía IP empresarial (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-108">Enterprise Voice (Planning Tool)</span></span>](../../help-topics/help-planning/enterprise-voice.md)
+- [<span data-ttu-id="2c5f1-108">Telefonía IP empresarial (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-108">Enterprise Voice (Planning Tool)</span></span>](../../help-topics/help-planning/enterprise-voice.md)
     
-- [<span data-ttu-id="0afc7-109">Configuración de mensajería unificada de Exchange (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-109">Exchange Unified Messaging Settings (Planning Tool)</span></span>](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [<span data-ttu-id="2c5f1-109">Configuración de mensajería unificada de Exchange (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-109">Exchange Unified Messaging Settings (Planning Tool)</span></span>](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
-- [<span data-ttu-id="0afc7-110">Control de admisión de llamadas (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-110">Call Admission Control (Planning Tool)</span></span>](../../help-topics/help-planning/call-admission-control.md)
+- [<span data-ttu-id="2c5f1-110">Control de admisión de llamadas (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-110">Call Admission Control (Planning Tool)</span></span>](../../help-topics/help-planning/call-admission-control.md)
     
-- [<span data-ttu-id="0afc7-111">Supervisión (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-111">Monitoring (Planning Tool)</span></span>](../../help-topics/help-planning/monitoring.md)
+- [<span data-ttu-id="2c5f1-111">Supervisión (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-111">Monitoring (Planning Tool)</span></span>](../../help-topics/help-planning/monitoring.md)
     
-- [<span data-ttu-id="0afc7-112">Chat persistente (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-112">Persistent Chat (Planning Tool)</span></span>](../../help-topics/help-planning/persistent-chat.md)
+- [<span data-ttu-id="2c5f1-112">Chat persistente (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-112">Persistent Chat (Planning Tool)</span></span>](../../help-topics/help-planning/persistent-chat.md)
     
-- [<span data-ttu-id="0afc7-113">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="0afc7-113">Mobility (Planning Tool)</span></span>](../../help-topics/help-planning/mobility.md)
+- [<span data-ttu-id="2c5f1-113">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-113">Mobility (Planning Tool)</span></span>](../../help-topics/help-planning/mobility.md)
     
-- [<span data-ttu-id="0afc7-114">Federación (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-114">Federation (Planning Tool)</span></span>](../../help-topics/help-planning/federation.md)
+- [<span data-ttu-id="2c5f1-114">Federación (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-114">Federation (Planning Tool)</span></span>](../../help-topics/help-planning/federation.md)
     
-- [<span data-ttu-id="0afc7-115">Alta disponibilidad (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-115">High Availability (Planning Tool)</span></span>](../../help-topics/help-planning/high-availability.md)
+- [<span data-ttu-id="2c5f1-115">Alta disponibilidad (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-115">High Availability (Planning Tool)</span></span>](../../help-topics/help-planning/high-availability.md)
     
-- [<span data-ttu-id="0afc7-116">Versión IP (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-116">IP Version (Planning Tool)</span></span>](../../help-topics/help-planning/ip-version.md)
+- [<span data-ttu-id="2c5f1-116">Versión IP (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-116">IP Version (Planning Tool)</span></span>](../../help-topics/help-planning/ip-version.md)
     
-- [<span data-ttu-id="0afc7-117">Recuperación ante desastres (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-117">Disaster Recovery (Planning Tool)</span></span>](../../help-topics/help-planning/disaster-recovery.md)
+- [<span data-ttu-id="2c5f1-117">Recuperación ante desastres (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-117">Disaster Recovery (Planning Tool)</span></span>](../../help-topics/help-planning/disaster-recovery.md)
     
-- [<span data-ttu-id="0afc7-118">Información general sobre características (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-118">Feature Overview (Planning Tool)</span></span>](../../help-topics/help-planning/feature-overview.md)
+- [<span data-ttu-id="2c5f1-118">Información general sobre características (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-118">Feature Overview (Planning Tool)</span></span>](../../help-topics/help-planning/feature-overview.md)
     
-- [<span data-ttu-id="0afc7-119">Mensajería unificada de Exchange (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-119">Exchange Unified Messaging (Planning Tool)</span></span>](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [<span data-ttu-id="2c5f1-119">Mensajería unificada de Exchange (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-119">Exchange Unified Messaging (Planning Tool)</span></span>](../../help-topics/help-planning/exchange-unified-messaging.md)
     
-- [<span data-ttu-id="0afc7-120">Equilibrador de carga (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-120">Load Balancer (Planning Tool)</span></span>](../../help-topics/help-planning/load-balancer.md)
+- [<span data-ttu-id="2c5f1-120">Equilibrador de carga (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-120">Load Balancer (Planning Tool)</span></span>](../../help-topics/help-planning/load-balancer.md)
     
-- [<span data-ttu-id="0afc7-121">Director (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-121">Director (Planning Tool)</span></span>](../../help-topics/help-planning/director.md)
+- [<span data-ttu-id="2c5f1-121">Director (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-121">Director (Planning Tool)</span></span>](../../help-topics/help-planning/director.md)
     
-- [<span data-ttu-id="0afc7-122">Configuración de cliente (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-122">Client Settings (Planning Tool)</span></span>](../../help-topics/help-planning/client-settings.md)
+- [<span data-ttu-id="2c5f1-122">Configuración de cliente (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-122">Client Settings (Planning Tool)</span></span>](../../help-topics/help-planning/client-settings.md)
     
-- [<span data-ttu-id="0afc7-123">Mediación de colocación (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-123">Mediation Collocation (Planning Tool)</span></span>](../../help-topics/help-planning/mediation-collocation.md)
+- [<span data-ttu-id="2c5f1-123">Mediación de colocación (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-123">Mediation Collocation (Planning Tool)</span></span>](../../help-topics/help-planning/mediation-collocation.md)
     
-- [<span data-ttu-id="0afc7-124">Archivado (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-124">Archiving (Planning Tool)</span></span>](../../help-topics/help-planning/archiving.md)
+- [<span data-ttu-id="2c5f1-124">Archivado (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-124">Archiving (Planning Tool)</span></span>](../../help-topics/help-planning/archiving.md)
     
-- [<span data-ttu-id="0afc7-125">Sitios de sucursal (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-125">Branch Sites (Planning Tool)</span></span>](../../help-topics/help-planning/branch-sites.md)
+- [<span data-ttu-id="2c5f1-125">Sitios de sucursal (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-125">Branch Sites (Planning Tool)</span></span>](../../help-topics/help-planning/branch-sites.md)
     
-- [<span data-ttu-id="0afc7-126">Red perimetral (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-126">Edge Network (Planning Tool)</span></span>](../../help-topics/help-planning/edge-network.md)
+- [<span data-ttu-id="2c5f1-126">Red perimetral (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-126">Edge Network (Planning Tool)</span></span>](../../help-topics/help-planning/edge-network.md)
     
-- [<span data-ttu-id="0afc7-127">Omisión de medios (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-127">Media Bypass (Planning Tool)</span></span>](../../help-topics/help-planning/media-bypass.md)
+- [<span data-ttu-id="2c5f1-127">Omisión de medios (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-127">Media Bypass (Planning Tool)</span></span>](../../help-topics/help-planning/media-bypass.md)
     
-- [<span data-ttu-id="0afc7-128">Infraestructura de voz (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-128">Voice Infrastructure (Planning Tool)</span></span>](../../help-topics/help-planning/voice-infrastructure.md)
+- [<span data-ttu-id="2c5f1-128">Infraestructura de voz (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-128">Voice Infrastructure (Planning Tool)</span></span>](../../help-topics/help-planning/voice-infrastructure.md)
     
-- [<span data-ttu-id="0afc7-129">Tráfico de voz (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="0afc7-129">Voice Traffic (Planning Tool)</span></span>](../../help-topics/help-planning/voice-traffic.md)
+- [<span data-ttu-id="2c5f1-129">Tráfico de voz (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="2c5f1-129">Voice Traffic (Planning Tool)</span></span>](../../help-topics/help-planning/voice-traffic.md)
     
 

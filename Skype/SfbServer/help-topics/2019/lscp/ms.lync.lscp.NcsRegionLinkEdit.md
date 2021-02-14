@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824710"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="eae35-104">Configurar un vínculo de región de red: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="eae35-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="f977a-104">Configurar un vínculo de región de red: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="f977a-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="eae35-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="eae35-105">What do you want to do?</span></span> <span data-ttu-id="eae35-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="eae35-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f977a-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="f977a-105">What do you want to do?</span></span> <span data-ttu-id="f977a-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="f977a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="eae35-107">Configuración de vínculos de regiones de red</span><span class="sxs-lookup"><span data-stu-id="eae35-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="f977a-107">Configuración de vínculos de regiones de red</span><span class="sxs-lookup"><span data-stu-id="f977a-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 

@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824330"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="da6bb-104">Usuarios: Ver o configurar directiva de acceso externo</span><span class="sxs-lookup"><span data-stu-id="da6bb-104">Users: View or Configure External Access Policy</span></span>
+# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="82352-104">Usuarios: Ver o configurar directiva de acceso externo</span><span class="sxs-lookup"><span data-stu-id="82352-104">Users: View or Configure External Access Policy</span></span>
 
-<span data-ttu-id="da6bb-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="da6bb-105">What do you want to do?</span></span> <span data-ttu-id="da6bb-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="da6bb-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="82352-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="82352-105">What do you want to do?</span></span> <span data-ttu-id="82352-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="82352-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="da6bb-107">Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios</span><span class="sxs-lookup"><span data-stu-id="da6bb-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="82352-107">Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios</span><span class="sxs-lookup"><span data-stu-id="82352-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-<span data-ttu-id="da6bb-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="da6bb-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="82352-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="82352-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

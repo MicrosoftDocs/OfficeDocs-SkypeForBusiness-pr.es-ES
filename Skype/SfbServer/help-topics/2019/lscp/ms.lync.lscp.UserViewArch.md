@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824570"
 ---
-# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="7e281-104">Usuarios: Ver o configurar directiva de archivado</span><span class="sxs-lookup"><span data-stu-id="7e281-104">Users: View or Configure Archiving Policy</span></span>
+# <a name="users-view-or-configure-archiving-policy"></a><span data-ttu-id="d09c7-104">Usuarios: Ver o configurar directiva de archivado</span><span class="sxs-lookup"><span data-stu-id="d09c7-104">Users: View or Configure Archiving Policy</span></span>
 
-<span data-ttu-id="7e281-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="7e281-105">What do you want to do?</span></span> <span data-ttu-id="7e281-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="7e281-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d09c7-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="d09c7-105">What do you want to do?</span></span> <span data-ttu-id="d09c7-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="d09c7-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="7e281-107">Asignación de una directiva de archivado por usuario</span><span class="sxs-lookup"><span data-stu-id="7e281-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="d09c7-107">Asignación de una directiva de archivado por usuario</span><span class="sxs-lookup"><span data-stu-id="d09c7-107">Assign a Per-User Archiving Policy</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="7e281-108">Aplicar una directiva de archivado a un usuario o grupo de usuarios</span><span class="sxs-lookup"><span data-stu-id="7e281-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [<span data-ttu-id="d09c7-108">Aplicar una directiva de archivado a un usuario o grupo de usuarios</span><span class="sxs-lookup"><span data-stu-id="d09c7-108">Apply an Archiving Policy to a User or User Group</span></span>](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
 
 
 

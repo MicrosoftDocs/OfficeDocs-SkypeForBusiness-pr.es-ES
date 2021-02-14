@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49824690"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="14d9b-104">Configurar un vínculo de región de red</span><span class="sxs-lookup"><span data-stu-id="14d9b-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="c0800-104">Configurar un vínculo de región de red</span><span class="sxs-lookup"><span data-stu-id="c0800-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="14d9b-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="14d9b-105">What do you want to do?</span></span> <span data-ttu-id="14d9b-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="14d9b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c0800-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="c0800-105">What do you want to do?</span></span> <span data-ttu-id="c0800-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="c0800-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="14d9b-107">Configuración de vínculos de regiones de red</span><span class="sxs-lookup"><span data-stu-id="14d9b-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="c0800-107">Configuración de vínculos de regiones de red</span><span class="sxs-lookup"><span data-stu-id="c0800-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 
