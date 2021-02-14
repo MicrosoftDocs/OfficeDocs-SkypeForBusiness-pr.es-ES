@@ -34,7 +34,7 @@ Debe incorporar el archivado a la topología para poder configurar la implementa
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>Agregar una base de datos de archivado a la topología
 
-1. En un equipo que ejecute Skype Empresarial Server o en el que estén instaladas las herramientas administrativas de Skype Empresarial Server, inicie sesión con una cuenta que sea miembro del grupo de usuarios locales (o una cuenta con derechos de usuario equivalentes).
+1. En un equipo que ejecute Skype Empresarial Server o en el que estén instaladas las herramientas administrativas de Skype Empresarial Server, inicie sesión con una cuenta que sea miembro del grupo de usuarios local (o una cuenta con derechos de usuario equivalentes).
     
 2. Inicie el Generador de topologías.
     
@@ -72,7 +72,7 @@ Debe incorporar el archivado a la topología para poder configurar la implementa
     
      c. Si la instancia SQL Server especificada está en una relación de creación de reflejos, active la casilla Esta instancia **SQL** está en relación de reflejo y, a continuación, en Número de puerto **reflejado,** especifique el número de puerto.
     
-   - Si habilita la creación de reflejos de SQL Server y desea incluir un testigo de creación de reflejo de SQL Server (una tercera instancia de SQL Server independiente que pueda detectar el estado de las instancias principales de SQL Server y de reflejo), active la casilla Usar testigo de creación de reflejos de SQL Server para habilitar la conmutación por error automática y, **a** continuación, realice una de las siguientes acciones:
+   - Si habilita la creación de reflejos de SQL Server y desea incluir un testigo de creación de reflejos de SQL Server (una tercera instancia independiente de SQL Server que pueda detectar el estado de las instancias principales de SQL Server y de reflejo), active la casilla Usar testigo de creación de reflejos de SQL Server para habilitar la conmutación por error automática y, **a** continuación, realice una de las siguientes acciones:
     
      a. En **SQL Server FQDN,** especifique el FQDN del servidor en el que desea crear el nuevo testigo de creación SQL Server reflejo.
     

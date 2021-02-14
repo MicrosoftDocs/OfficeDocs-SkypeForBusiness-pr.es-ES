@@ -30,7 +30,7 @@ Configure los almacenes de cumplimiento de SQL Server copia de seguridad que pro
   
 Haga **clic en** Nuevo para definir una nueva SQL Server y, opcionalmente, una nueva instancia para los datos de cumplimiento de copia de seguridad de chat persistente.
   
-Active la casilla Habilitar creación de **reflejos** del almacén de SQL Server para configurar una base de datos de SQL Server y una instancia opcional que proporcionará una base de datos reflejada para los datos de cumplimiento de copia de seguridad de chat persistente.
+Active la casilla habilitar la creación de **reflejos** del almacén de SQL Server para configurar una base de datos de SQL Server y una instancia opcional que proporcionará una base de datos reflejada para los datos de cumplimiento de copia de seguridad de chat persistente.
   
 Seleccione en la lista Creación de **reflejos SQL Server** almacenar una instancia SQL Server y opcional para que actúe como el reflejo de SQL Server para el servidor de cumplimiento de copia de seguridad de chat persistente SQL Server.
   
@@ -38,7 +38,7 @@ Haga **clic** en Nuevo para definir una nueva SQL Server y, opcionalmente, una n
   
 En la lista **Utilizar el testigo de creación de reflejo SQL Server para garantizar la conmutación automática por error** seleccione un SQL Server que actuará como servidor testigo en casos de conmutación por error. El servidor testigo no refleja ni hospeda datos para los servidores de chat persistente, pero garantiza que solo un SQL Server en una configuración reflejada sea el servidor activo SQL Server en cualquier momento.
   
-Haga **clic en** Nuevo para definir un nuevo testigo SQL Server, opcionalmente, una instancia para el testigo de cumplimiento de copia de seguridad de chat persistente SQL Server reflejo.
+Haga **clic en** Nuevo para definir un nuevo testigo SQL Server una instancia para el testigo de cumplimiento de copia de seguridad de chat persistente SQL Server reflejo.
   
 Haga clic en **Atrás** para retroceder al diálogo de definición de grupo de servidores anterior.
   
@@ -48,7 +48,7 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para acceder a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planear el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

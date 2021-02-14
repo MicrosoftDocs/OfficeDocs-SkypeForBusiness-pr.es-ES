@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para empezar a asignar un certificado para su uso en Skype Empresarial Server, haga clic en Siguiente.
+description: Para empezar a asignar un certificado para usarlo en Skype Empresarial Server, haga clic en Siguiente.
 ms.openlocfilehash: feb180c2fbfc6e52b4f3d6be0cfa4885c695f4c6
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

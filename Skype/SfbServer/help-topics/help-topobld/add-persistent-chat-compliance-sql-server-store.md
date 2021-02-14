@@ -38,7 +38,7 @@ Haga **clic** en Nuevo para definir una nueva SQL Server y, opcionalmente, una n
   
 En la lista **Utilizar el testigo de creación de reflejo SQL Server para garantizar la conmutación automática por error** seleccione un SQL Server que actuará como servidor testigo en casos de conmutación por error. El servidor testigo no refleja ni hospeda datos para los servidores de chat persistente, pero garantiza que solo un SQL Server en una configuración reflejada sea el servidor activo SQL Server en cualquier momento.
   
-Haga **clic** en Nuevo para definir un nuevo testigo SQL Server una instancia para el testigo de cumplimiento de chat persistente SQL Server reflejo.
+Haga **clic en** Nuevo para definir un nuevo testigo SQL Server una instancia para el testigo de cumplimiento de chat persistente SQL Server reflejo.
   
 Haga clic en **Atrás** para retroceder al diálogo de definición de grupo de servidores anterior.
   
@@ -48,7 +48,7 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para acceder a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planear el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

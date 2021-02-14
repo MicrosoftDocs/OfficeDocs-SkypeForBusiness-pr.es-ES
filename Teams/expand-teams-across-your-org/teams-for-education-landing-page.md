@@ -28,7 +28,7 @@ ms.locfileid: "49821130"
 ---
 # <a name="teams-for-education"></a>Teams para el ámbito educativo
 
-Con Teams, los educadores y profesores pueden crear clases colaborativas, conectarse en comunidades profesionales de aprendizaje y comunicarse con estudiantes y educadores. Use los recursos de administración aquí para ayudarle a implementar, adoptar y administrar correctamente Teams en su escuela o institución. 
+Con Teams, los educadores y profesores pueden crear clases colaborativas, conectarse en comunidades profesionales de aprendizaje y comunicarse con alumnos y profesores. Use los recursos de administración aquí para ayudarle a implementar, adoptar y administrar correctamente Teams en su escuela o institución. 
 
 
 |               |               |

@@ -36,7 +36,7 @@ Puede realizar las siguientes tareas en la página **Topología**: **Aplicación
 
 - Seleccionar o deseleccionar una aplicación como crítica
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de protocolo de inicio de sesión de Microsoft (MSPL)](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 

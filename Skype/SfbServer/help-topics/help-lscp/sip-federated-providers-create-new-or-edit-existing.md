@@ -1,5 +1,5 @@
 ---
-title: Proveedores federados SIP crear nuevos o editar los existentes
+title: Los proveedores federados SIP crean nuevos o editan los existentes
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

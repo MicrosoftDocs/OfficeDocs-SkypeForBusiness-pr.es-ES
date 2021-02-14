@@ -99,7 +99,7 @@ Puede habilitar o deshabilitar el archivado para sitios específicos mediante la
     
 ## <a name="user-policies"></a>Directivas de usuario
 
-Puede habilitar o deshabilitar el archivado para usuarios específicos creando y configurando una directiva de archivado para usuarios y, a continuación, aplicando la directiva a usuarios o grupos de usuarios específicos. Las directivas de usuario invalidan cualquier directiva global o de sitio. Las directivas de archivado solo se aplican si no usa la integración de Microsoft Exchange o, si usa la integración de Microsoft Exchange, pero tiene algunos usuarios que no están en Exchange y tienen sus buzones en retención In-Place local.
+Puede habilitar o deshabilitar el archivado para usuarios específicos creando y configurando una directiva de archivado para los usuarios y, a continuación, aplicando la directiva a usuarios o grupos de usuarios específicos. Las directivas de usuario invalidan cualquier directiva global o de sitio. Las directivas de archivado solo se aplican si no usa la integración de Microsoft Exchange o, si usa la integración de Microsoft Exchange, pero tiene algunos usuarios que no están en Exchange y tienen sus buzones en retención In-Place local.
   
 ### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>Configurar una directiva de archivado para los usuarios que están en Skype Empresarial Server
 
@@ -134,10 +134,10 @@ Una directiva de usuario solo se aplica a los usuarios a los que asigne la direc
     
 4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, a continuación, en **Mostrar detalles**.
     
-5. En **Editar usuario de Skype Empresarial Server** en la directiva **de** archivado, seleccione la directiva de usuario de archivado que desee aplicar.
+5. En **Editar usuario de Skype Empresarial Server en** la directiva **de** archivado, seleccione la directiva de usuario de archivado que desee aplicar.
     
     > [!NOTE]
-    > La **\<Automatic\>** configuración aplica la configuración de instalación predeterminada del servidor. Esta configuración se aplica automáticamente por el servidor.
+    > La **\<Automatic\>** configuración aplica la configuración predeterminada de instalación del servidor. Esta configuración se aplica automáticamente por el servidor.
   
 6. Haga clic en **Confirmar**.
     

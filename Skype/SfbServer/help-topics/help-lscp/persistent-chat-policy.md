@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
-description: Puede usar la página Directiva de chat persistente del grupo de chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
+description: Puede usar la página Directiva de chat persistente del grupo de chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para su implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
 ms.openlocfilehash: e7148530f571a46937ee8d8a3bf44315ac692eb6
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49819300"
 ---
 # <a name="persistent-chat-policy"></a>Directiva de chat persistente
  
-Puede usar la página Directiva de **chat** persistente del grupo de **chat** persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para su implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
+Puede usar la página Directiva de **chat** persistente del grupo de **chat** persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
   
 La directiva global se crea automáticamente al implementar el servidor de chat persistente y se puede configurar, pero no eliminar. Dado que la directiva global se aplica a todos los usuarios, no tiene que establecerse por usuario.
   
@@ -51,7 +51,7 @@ Puede realizar las siguientes tareas en la página **Directiva de chat** persist
     
    - En **Nombre**, especifique un nombre nuevo para la directiva global, si no desea usar el nombre predeterminado (Global).
     
-   - En **Descripción,** proporcione detalles sobre la directiva de usuario (por ejemplo, directiva global para  _centralSiteName_).
+   - En **Descripción,** proporcione detalles sobre cuál es la directiva de usuario (por ejemplo, Directiva global para  _centralSiteName_).
     
    - Para controlar el chat persistente para todos los sitios y usuarios que no se controlan específicamente a través de una directiva de sitio o de usuario, active o desactive la casilla Habilitar **chat** persistente.
     
@@ -111,7 +111,7 @@ Las directivas de usuario invalidan las directivas globales y las directivas de 
 
 Si un usuario se ha habilitado para Skype Empresarial Server, puede aplicar directivas adecuadas a usuarios específicos para habilitarlos o deshabilitarlos para el servidor de chat persistente.
   
-Use el procedimiento descrito en este tema para aplicar una directiva de usuario de chat persistente creada anteriormente a una o más cuentas de usuario o grupos de usuarios.
+Use el procedimiento descrito en este tema para aplicar una directiva de usuario de chat persistente creada anteriormente a una o varias cuentas de usuario o grupos de usuarios.
   
 1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     

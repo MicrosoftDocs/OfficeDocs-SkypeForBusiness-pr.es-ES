@@ -78,7 +78,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **Federación con versiones anteriores**
     
-- **Federación con proveedores de servicios de mensajería instantánea pública** Permite a los usuarios de su organización establecer comunicación con proveedores de servicios de mensajería instantánea públicos, como MSN, Yahoo!, y AOL. Se requiere una licencia independiente para establecer la federación con redes públicas de mensajería instantánea.
+- **Federación con proveedores de servicios de mensajería instantánea pública** Permite a los usuarios de su organización establecer comunicación con proveedores de servicios de mensajería instantánea públicos, como MSN, Yahoo! y AOL. Se requiere una licencia independiente para establecer la federación con redes públicas de mensajería instantánea.
     
 - **Federación con proveedor de servicios basado en XMPP**
     
@@ -86,7 +86,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **Movilidad**
     
-    Al implementar el servicio de movilidad de Skype Empresarial Server, los usuarios pueden usar dispositivos móviles Apple iOS, Android, Windows Phone o Nokia compatibles para realizar actividades como enviar y recibir mensajes instantáneos, ver contactos y ver la presencia.
+    Al implementar el servicio de movilidad de Skype Empresarial Server, los usuarios pueden usar dispositivos móviles apple iOS, Android, Windows Phone o Nokia compatibles para realizar actividades como enviar y recibir mensajes instantáneos, ver contactos y ver presencia.
     
 - **Buzón de Exchange W15**
     
@@ -136,7 +136,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **IPv4**
     
-    Las direcciones IPv4 son direcciones de 32 bits que permiten a los equipos comunicarse a través de Internet. Debido al creciente número de dispositivos en todo el mundo, se han ejecutado las direcciones IPv4 disponibles. Debido a esto, muchos dispositivos nuevos se están moviendo al uso de direcciones IPv6.
+    Las direcciones IPv4 son direcciones de 32 bits que permiten a los equipos comunicarse a través de Internet. Debido al creciente número de dispositivos en todo el mundo, se han ejecutado las direcciones IPv4 disponibles. Debido a esto, muchos dispositivos nuevos están pasando a usar direcciones IPv6.
     
 - **IPv6**
     

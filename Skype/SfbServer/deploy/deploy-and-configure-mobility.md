@@ -35,7 +35,7 @@ Una vez revisado el artículo [Plan for Mobility for Skype for Business Server,]
 |[Configurar notificaciones de inserción](deploy-and-configure-mobility.md#ConfigPush) <br/> |RtcUniversalServerAdmins  <br/> |
 |[Configurar la directiva de movilidad](deploy-and-configure-mobility.md#ConfigMob) <br/> |CsAdministrator  <br/> |
    
-Todas las secciones siguientes contienen pasos que suponen que ha leído el tema de planeación. Si hay algo que le confusa, no dude en consultar la información allí.
+Todas las secciones siguientes contienen pasos que suponen que ha leído el tema de planeación. Si algo le resulta confuso, no dude en echar un vistazo a la información allí.
 
 > [!NOTE]
 > La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes móviles actuales de Skype Empresarial ya usan la API web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (MI), la presencia y los contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
@@ -61,7 +61,7 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no tiene que hace
     
 4. Tómese un momento para ver cuál de las siguientes opciones tiene:
     
-   - Cualquier registro A o AAAA de host para el servidor o los servidores front-end (Standard o Enterprise) o los grupo de servidores front-end.
+   - Cualquier registro A o AAAA de host para los servidores front-end (Standard o Enterprise) o los grupo de servidores front-end.
     
    - Cualquier registro A o AAAA de host para un director o grupo de directores (una configuración opcional que puede tener en la implementación).
     
@@ -81,7 +81,7 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no tiene que hace
     
 3. Tómese un momento para ver cuál de las siguientes opciones tiene:
     
-   - Cualquier registro A o AAAA de host para el servidor o los servidores front-end (Standard o Enterprise) o los grupo de servidores front-end.
+   - Cualquier registro A o AAAA de host para los servidores front-end (Standard o Enterprise) o los grupo de servidores front-end.
     
    - Cualquier registro A o AAAA de host para un director o grupo de directores (una configuración opcional que puede tener en la implementación).
     
@@ -103,7 +103,7 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no tiene que hace
     
 4. Tómese un momento para ver cuál de las siguientes opciones tiene:
     
-   - Cualquier registro A o AAAA de host para el servidor o los servidores front-end (Standard o Enterprise) o los grupo de servidores front-end.
+   - Cualquier registro A o AAAA de host para los servidores front-end (Standard o Enterprise) o los grupo de servidores front-end.
     
    - Cualquier registro A o AAAA de host para un director o grupo de directores (una configuración opcional que puede tener en la implementación).
     
@@ -127,7 +127,7 @@ Estos registros pueden ser nombres A (host) o registros CNAME (no tiene que hace
     
 3. Tómese un momento para ver cuál de las siguientes opciones tiene:
     
-   - Cualquier registro A o AAAA de host para el servidor o los servidores front-end (Standard o Enterprise) o los grupo de servidores front-end.
+   - Cualquier registro A o AAAA de host para los servidores front-end (Standard o Enterprise) o los grupo de servidores front-end.
     
    - Cualquier registro A o AAAA de host para un director o grupo de directores (una configuración opcional que puede tener en la implementación).
     
@@ -226,7 +226,7 @@ If you have questions about Planning around certificates, we've documented that 
 
 1. Tiene la opción de ver los certificados mediante el complemento Certificados para MMC. Simplemente escriba MMC en la búsqueda y debería mostrarse como una opción de aplicación.
     
-2. Para agregar el complemento Certificados, deberás hacer clic en Archivo y, a continuación, agregar o quitar **complemento...** (o el método abreviado de teclado **Ctrl+M** también funcionaría). **Los certificados** serán una opción en el panel izquierdo, selecciónelo y, a continuación, cuenta de equipo en la ventana emergente y, a **continuación, siguiente**. 
+2. Para agregar el complemento Certificados, deberás hacer clic en Archivo y, a continuación, agregar o quitar **complemento...** (o el método abreviado de teclado **Ctrl+M** también funcionaría). **Los certificados** serán una opción en el panel izquierdo, selecciónelo y, a continuación, cuenta de equipo en la ventana emergente y, a continuación, **siguiente**. 
     
 3. Todavía en la ventana emergente, con toda probabilidad lo estás haciendo en el equipo que es el hogar de los certificados que necesitas ver, así que deja la selección en el equipo **local** si es así. Si estás trabajando en un equipo remoto,  cambia el botón de radio a Otro  equipo y, a continuación, escribe el FQDN del equipo o usa el botón Examinar para buscar ese equipo a través de AD. Después de seleccionar el equipo, tendrá  que hacer clic  en Finalizar cuando esté listo y, a continuación, aceptar para agregar el complemento a MMC.
     
@@ -247,11 +247,11 @@ If you have questions about Planning around certificates, we've documented that 
     
    - Registros de direcciones URL sencillas, normalmente de reunión y marcado.
     
-   - Nombres internos y externos de servicios web (por ejemplo, webpool01.contoso.net, webpool01.contoso.com), en función de las elecciones realizadas en el Generador de topologías y selecciones de servicios web desabadas.
+   - Nombres internos y externos de servicios web (por ejemplo, webpool01.contoso.net, webpool01.contoso.com), en función de las elecciones realizadas en el Generador de topologías y selecciones de servicios web sobresalidos.
     
    - Si ya está asignado, lyncdiscover.\<sipdomain\> y lyncdiscoverinternal.\<sipdomain\> registros.
     
-     Tendrá que comprobar varios certificados si tiene más de un certificado asignado (consulte la nota anterior).
+     Deberá comprobar varios certificados si tiene más de un certificado asignado (consulte la nota anterior).
     
 8. Por lo tanto, si encuentra lyncdiscover.\<sipdomain\> y lyncdiscoverinternal.\<sipdomain\> ya tiene esto configurado. Puede cerrar mmc.
     

@@ -30,7 +30,7 @@ ms.locfileid: "49821080"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Incorporar usuarios pioneros y recopilar comentarios para Microsoft Teams
 
-Vuelva a la lista de empleados que han expresado estar interesados en su programa de usuarios iniciales. Decida cuál de estas personas debería participar en sus primeros experimentos con Teams. Puede que sean todos o parte de los usuarios los que estén interesados. Aunque no los seleccione para estos proyectos iniciales, continúe confidiendo con ellos para que permanezcan interesados y estarán dispuestos a participar en el futuro. Formarán parte del proceso de incorporación de los proyectos seleccionados en función de las discusiones que ha mostrado con las partes interesadas, el equipo técnico y el ejercicio de priorización que se ha indicado anteriormente. 
+Vuelva a la lista de empleados que han expresado estar interesados en su programa de usuarios iniciales. Decida qué personas deben participar en sus primeros experimentos con Teams. Puede que sean todos o parte de los usuarios los que estén interesados. Aunque no los seleccione para estos proyectos iniciales, continúe confidiendo con ellos para que permanezcan interesados y estarán dispuestos a participar en el futuro. Formarán parte del proceso de incorporación de los proyectos seleccionados en función de las discusiones que ha mostrado con las partes interesadas, el equipo técnico y el ejercicio de priorización que se ha indicado anteriormente. 
 
 Complete los pasos siguientes con estos primeros adoptadores:
 

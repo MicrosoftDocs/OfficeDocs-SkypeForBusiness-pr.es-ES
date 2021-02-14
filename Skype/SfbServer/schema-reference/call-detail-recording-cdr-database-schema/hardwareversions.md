@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
-description: La tabla HardwareVersions es una tabla compatible. Cada registro almacena información sobre una versión de hardware de dispositivo.
+description: La tabla HardwareVersions es una tabla compatible. Cada registro almacena información acerca de una versión de hardware del dispositivo.
 ms.openlocfilehash: 2b9ac6b31f0af30e896d2943eaa4065aecdd4de3
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -22,7 +22,7 @@ ms.locfileid: "49821580"
 ---
 # <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>Tabla HardwareVersions en Skype Empresarial Server 2015
  
-La tabla HardwareVersions es una tabla compatible. Cada registro almacena información sobre una versión de hardware de dispositivo.
+La tabla HardwareVersions es una tabla compatible. Cada registro almacena información acerca de una versión de hardware del dispositivo.
   
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|

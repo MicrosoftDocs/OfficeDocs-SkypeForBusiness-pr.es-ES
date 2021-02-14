@@ -1,5 +1,5 @@
 ---
-title: Ver las asignaciones de directivas en el registro de actividades del Centro de administración de Microsoft Teams
+title: Ver las tareas de directiva en el registro de actividades del Centro de administración de Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: jastark
@@ -27,7 +27,7 @@ ms.locfileid: "49821320"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Ver las asignaciones de directivas en el registro de actividades
 
-Al asignar directivas a usuarios en el Centro de administración de Microsoft Teams, puede ver el estado de dichas asignaciones de directiva en el registro de actividades. El registro de actividades muestra las asignaciones de directivas a lotes de más de 20 usuarios a través del Centro de administración de Microsoft Teams de los últimos 30 días. Tenga en cuenta que el registro de actividades no muestra las asignaciones del paquete de directivas, las asignaciones de directiva en lotes de menos de 20 usuarios a través del centro de administración de Microsoft Teams o las asignaciones de directivas a través de PowerShell.
+Al asignar directivas a usuarios en el Centro de administración de Microsoft Teams, puede ver el estado de dichas asignaciones de directiva en el registro de actividades. El registro de actividades muestra las asignaciones de directivas a lotes de más de 20 usuarios a través del Centro de administración de Microsoft Teams de los últimos 30 días. Tenga en cuenta que el registro de actividades no muestra las asignaciones del paquete de directivas, las asignaciones de directiva a lotes de menos de 20 usuarios a través del Centro de administración de Microsoft Teams o las asignaciones de directivas a través de PowerShell.
 
 ![Captura de pantalla de la página de registro de actividades](media/activity-log.png)
 
@@ -37,7 +37,7 @@ Para ver las asignaciones de directivas en el registro de actividades:
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya al panel **y,** a continuación, en Registro de **actividades,** seleccione **Ver detalles.**
 2. Puede ver todas las asignaciones de directiva o filtrar la lista por estado para mostrar solo las asignaciones que no se han **iniciado,** en **curso** o **completadas.** Verá la siguiente información sobre cada tarea:
-    - **Nombre:** el nombre de la asignación de directiva. Haga clic en el vínculo para ver más detalles. Esto incluye el número de usuarios a los que se asignó la directiva y el número de asignaciones completadas, en curso y no iniciadas. También verá la lista de usuarios en el lote, así como el estado y el resultado de cada usuario. Aquí se muestra un ejemplo:
+    - **Nombre:** el nombre de la asignación de directiva. Haga clic en el vínculo para ver más detalles. Esto incluye el número de usuarios a los que se asignó la directiva y el número de asignaciones completadas, en curso y sin iniciar. También verá la lista de usuarios en el lote, así como el estado y el resultado de cada usuario. Aquí se muestra un ejemplo:
 
         ![Captura de pantalla del](media/activity-log-policy-assignment-detail.png)
 
@@ -47,7 +47,7 @@ Para ver las asignaciones de directivas en el registro de actividades:
     - **Estado general:** estado de la asignación de la directiva.
 
 > [!NOTE]
-> También puede acceder al registro de actividades desde la **página** Usuarios. Después de hacer **clic en Aplicar** para enviar una asignación de directiva masiva, verá un banner en la parte superior de la página. Haz clic en **el vínculo del** registro de actividades en el banner.
+> También puede acceder al registro de actividades desde la **página** Usuarios. Después de hacer **clic en Aplicar** para enviar una asignación de directiva masiva, verá un banner en la parte superior de la página. Haz clic en **el vínculo del** registro de actividades en la pancarta.
 
 ## <a name="related-topics"></a>Temas relacionados
 

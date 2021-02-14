@@ -37,7 +37,7 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
 
 - **1000** — No se puede configurar el limitador de procesador (objeto job): motivo desconocido
     
-- **1001—** No se permite la limitación de procesos en el proceso (probablemente ya dentro de un objeto Job)
+- **1001:** No se permite la limitación de procesos en el proceso (probablemente ya dentro de un objeto Job)
     
     El agente se ejecuta dentro de un objeto de trabajo de Windows para limitar automáticamente su superficie de memoria. Si el agente no se iniciará y estas entradas de evento están presentes en el registro de eventos, no se podrá crear una instancia del objeto job en el servidor. Para evitar esto, se puede quitar el límite de memoria superior cambiando un valor en el archivo de configuración:
     
@@ -84,7 +84,7 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
     
   - **4003:** Error de coincidencia de huella digital de certificado
     
-    La huella digital del certificado que se ha dado al agente en el momento de la instalación no coincide con la huella digital del certificado que está usando actualmente el agente de escucha y, por lo tanto, se rechazará la conexión. Desinstale el agente y vuelva a instalarlo con la huella digital del certificado correcta.
+    La huella digital del certificado que se proporciona al agente en el momento de la instalación no coincide con la huella digital del certificado que está usando actualmente la escucha y, por lo tanto, se rechazará la conexión. Desinstale el agente y vuelva a instalarlo con la huella digital del certificado correcta.
     
   - **4004—** Respuesta no válida o HttpStatusCode
     
@@ -109,7 +109,7 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
     
   - **10002:** Error de inicialización de la escucha HTTP
     
-    Por lo general, este evento se registrará cuando la ACL de la dirección URL no se haya establecido correctamente durante la instalación o el certificado SSL no sea válido. Asegúrese de que el certificado de la configuración sea válido. Si es así, vuelva a instalar el agente de escucha de acuerdo con las instrucciones de [Implementar el Administrador de estadísticas.](deploy.md#BKMK_Deploy)
+    Por lo general, este evento se registrará cuando la ACL de la dirección URL no se haya establecido correctamente durante la instalación o el certificado SSL no sea válido. Asegúrese de que el certificado de la configuración es válido. Si es así, vuelva a instalar el agente de escucha de acuerdo con las instrucciones de [Implementar el Administrador de estadísticas.](deploy.md#BKMK_Deploy)
     
   - **10003:** Error de Redis
     
@@ -127,9 +127,9 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
     
   - **10101:** Interrupción continuada de PING de Redis (cada 60 segundos)
     
-  - **30100:** Interrupción del PING de Redis restaurada
+  - **30100:** Interrupción de PING de Redis restaurada
     
-    Se registrarán cuando el agente de escucha no pueda conectarse a Redis. Asegúrese de que Redis se ha iniciado y de que la conectividad de red entre la escucha y Redis está disponible.
+    Se registrarán cuando el agente de escucha no pueda conectarse a Redis. Asegúrese de que Redis se ha iniciado y de que la conectividad de red entre el servicio de escucha y Redis está disponible.
     
 - **10200:** Interrupción de escritura de Redis
     
@@ -153,7 +153,7 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
     
 - **5000:** Inicio del agente de escucha sin conexión para publicar datos
     
-- **5001:** la escucha sigue sin conexión durante un período prolongado
+- **5001:** la escucha aún está sin conexión durante un período prolongado
     
     Estos eventos pueden ser útiles para supervisar, alertas y borrar problemas.
     

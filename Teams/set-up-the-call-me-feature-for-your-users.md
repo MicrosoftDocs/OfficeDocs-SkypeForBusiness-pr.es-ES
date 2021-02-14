@@ -51,7 +51,7 @@ En la **pantalla Usar teléfono para audio,** el usuario escribe su número de t
 
 **Marcar manualmente**
 
-Otra forma de unirse es llamar directamente a la reunión. En la pantalla Usar teléfono  para **el audio,** haga clic en Marcar manualmente para obtener una lista de números de teléfono que se usarán para llamar a la reunión.
+Otra forma de unirse es llamar directamente a la reunión. En la pantalla Usar teléfono  para **audio,** haga clic en Marcar manualmente para obtener una lista de números de teléfono que se usarán para llamar a la reunión.
 
 ![Captura de pantalla de la opción Marcar manualmente](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
@@ -69,8 +69,8 @@ El usuario hace clic **en Volver a** llamar, lo que abre la pantalla Usar teléf
 
 Para habilitar la característica Llamarme para los usuarios de su organización, es necesario configurar lo siguiente:
 
-- La audioconferencia está habilitada para los usuarios de su organización que programan reuniones (organizadores de reuniones). Para obtener más información, consulte [Configurar Audioconferencia](set-up-audio-conferencing-in-teams.md) para Teams y Administrar la configuración de [Audioconferencia para un usuario en Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- Audioconferencia está habilitada para los usuarios de su organización que programan reuniones (organizadores de reuniones). Para obtener más información, consulte [Configurar Audioconferencia](set-up-audio-conferencing-in-teams.md) para Teams y Administrar la configuración de [Audioconferencia para un usuario en Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 - Los usuarios pueden llamar desde las reuniones. Para obtener más información, [consulte Administrar la configuración de Audioconferencia para un usuario en Teams.](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-Si un usuario no tiene habilitada la opción Llamarme desde las reuniones, la opción **Llamarme** no está disponible y el usuario no recibirá una llamada para unirse a la reunión. En su lugar, el usuario ve una lista de números de teléfono en la pantalla Usar teléfono para **audio** que puede usar para llamar manualmente a la reunión en su teléfono.
+Si un usuario no tiene habilitada la opción Llamarme desde las reuniones, la opción **Llamarme** no está disponible y el usuario no recibirá una llamada para unirse a la reunión. En su lugar, el usuario ve una lista de números de teléfono en la pantalla Usar teléfono para **audio** que puede usar para llamar manualmente a la reunión desde su teléfono.

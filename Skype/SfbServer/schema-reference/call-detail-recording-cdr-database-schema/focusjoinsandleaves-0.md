@@ -37,7 +37,7 @@ La vista FocusJoinsAndLeaves almacena la información sobre las incorporaciones 
 |**UserClientCategory** <br/> |nvarchar(64)  <br/> |Nombre de la categoría del cliente usado por el usuario del que se ha capturado la información de incorporación/abandono.  <br/> |
 |**FocusUserInstance** <br/> |entero  <br/> ||
 |**IsuserInternal** <br/> |bit  <br/> |Bit que representa si el usuario es interno o no.  <br/> |
-|**DialogSessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se usa de forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión. Consulte la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**DialogSessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se usa de forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión. Vea la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
 |**DialogSessionIdSeq** <br/> |entero  <br/> |Si un usuario inicia sesión en varios equipos o dispositivos a la vez, UserInstance se usa para identificar de forma única la combinación usuario/dispositivo.  <br/> |
 |**DialogId** <br/> |varchar(775)  <br/> |Identificador de diálogo SIP. El formato es: diálogo;etiqueta-origen;etiqueta-destino.  <br/> |
 |**UserJoinTime** <br/> |datetime  <br/> |Hora a la que el usuario se incorporó a la conferencia.  <br/> |

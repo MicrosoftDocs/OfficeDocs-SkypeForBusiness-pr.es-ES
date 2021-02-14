@@ -15,7 +15,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 ROBOTS: NOINDEX, NOFOLLOW
-description: La herramienta de planeación usa información sobre el tráfico de usuarios para determinar el número de puertos que se usarán en la implementación. Este número, a su vez, determina el número de servidores de mediación y puertas de enlace que serán necesarios. Para obtener más información, consulte Estimating voice usage and traffic for Skype for Business Server.
+description: La herramienta de planeación usa información sobre el tráfico de usuarios para determinar el número de puertos que se usarán en la implementación. A su vez, este número determina el número de servidores de mediación y puertas de enlace que serán necesarios. Para obtener más información, consulte Estimating voice usage and traffic for Skype for Business Server.
 ms.openlocfilehash: 3303decd59426ed9264c5f634c3dae608dc5ed58
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

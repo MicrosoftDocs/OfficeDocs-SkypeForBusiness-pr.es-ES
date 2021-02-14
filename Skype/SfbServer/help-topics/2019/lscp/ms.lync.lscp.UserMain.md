@@ -80,7 +80,7 @@ Agregar texto descriptivo adicional, según sea conveniente.
 
     Para agregar un nuevo contacto, haga clic en la flecha abajo y luego seleccione **Activar contactos** para abrir el cuadro de diálogo de [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md).
 
-- **Editar** Haga **clic en** Editar y, a continuación, en  Mostrar detalles para mostrar los detalles del usuario seleccionado o en Seleccionar todos los resultados de búsqueda para seleccionar todos los usuarios que se muestran en la tabla de resultados. 
+- **Editar** Haga **clic en** Editar y, a continuación, haga  clic en Mostrar detalles para mostrar los detalles del usuario seleccionado o en Seleccionar todos los resultados de búsqueda para seleccionar todos los usuarios que se muestran en la tabla de resultados. 
 
 - **Acción** Haga **clic en** Acción y, a continuación, seleccione la acción que desea realizar para los usuarios seleccionados en los resultados de la búsqueda. Están disponibles las siguientes acciones:
 

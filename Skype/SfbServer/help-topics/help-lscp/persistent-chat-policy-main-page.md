@@ -44,7 +44,7 @@ Puede realizar las siguientes tareas en la página Directiva de **chat** persist
 
 1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.
+2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
 3. En el Panel de control de Skype Empresarial Server, haga clic en **Chat** persistente y, a continuación, haga clic en **Directiva de chat persistente.**
     
@@ -68,7 +68,7 @@ La configuración de la directiva de sitio invalida la directiva global, pero so
   
 1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.
+2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
 3. En la barra de navegación izquierda, haga clic en **Chat persistente** y, a continuación, en **Directiva de chat persistente**.
     
@@ -114,11 +114,11 @@ Las directivas de usuario invalidan las directivas globales y las directivas de 
 
 Si un usuario se ha habilitado para Skype Empresarial, puede aplicar directivas adecuadas a usuarios específicos para habilitarlos o deshabilitarlos para el servidor de chat persistente.
   
-Use el procedimiento descrito en este tema para aplicar una directiva de usuario de chat persistente creada anteriormente a una o más cuentas de usuario o grupos de usuarios.
+Use el procedimiento descrito en este tema para aplicar una directiva de usuario de chat persistente creada anteriormente a una o varias cuentas de usuario o grupos de usuarios.
   
 1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.
+2. En el **menú Inicio,** seleccione el Panel de control de Skype Empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
 3. En la barra de navegación izquierda, haga clic en  **Usuarios** y, a continuación, busque en la cuenta de usuario que desea configurar.
     

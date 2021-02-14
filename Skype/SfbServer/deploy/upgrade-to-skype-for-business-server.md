@@ -51,7 +51,7 @@ La actualización de Lync Server 2013 a Skype Empresarial Server 2015 implica in
 
 1. Conéctese al equipo de la topología que no tenga instalado Lync OCSCore ni ningún otro componente de Lync.
     
-2. Desde los medios de instalación de Skype Empresarial Server 2015, ejecuteSetup.exe **desde** **OCS_Volume\Setup\AMD64**. 
+2. Desde los medios de instalación de Skype Empresarial Server 2015, ejecute **Setup.exe** desde **OCS_Volume\Setup\AMD64**. 
     
 3. Haga clic en **Instalar**. 
     
@@ -71,7 +71,7 @@ La actualización de Lync Server 2013 a Skype Empresarial Server 2015 implica in
     
 ### <a name="step-2-upgrade-and-publish-topology-using-topology-builder"></a>Paso 2: Actualizar y publicar la topología con topology Builder
 
-Antes de iniciar el proceso de actualización, todos los servicios deben estar en ejecución para los grupos de servidores que planea actualizar. Esto es así por lo que los cambios de topología se replicarán en la base de datos local de los servidores del grupo.
+Antes de iniciar el proceso de actualización, todos los servicios deben estar en ejecución para los grupos de servidores que planea actualizar. Esto es así para que los cambios de topología se repliquen en la base de datos local de los servidores del grupo.
   
 > [!IMPORTANT]
 >  Guarde una copia del archivo de topología antes de actualizar. Después de la actualización, no podrá degradar la topología.> Si los servicios se encuentran en los mismos servidores que las bases de datos, como el servicio de chat persistente se encuentra en el mismo servidor que la base de datos de chat persistente, omita este paso y vaya al paso 4. Después de detener los servicios, ejecute el programa de instalación In-Place actualización en cada servidor para actualizar las bases de datos locales.
@@ -85,7 +85,7 @@ Elija una de las siguientes opciones para actualizar y publicar una nueva topolo
 
 Si el grupo de servidores que está actualizando tiene una dependencia de almacén de archivado y supervisión, al seguir los pasos siguientes, también se actualizará el almacén de archivado y supervisión.
   
-1. En el Generador de topologías, haga clic con el botón secundario en un grupo de Lync Server 2013, seleccione Actualizar a Skype Empresarial **Server 2015** y siga los pasos. 
+1. En el Generador de topologías, haga clic con el botón secundario en un grupo de servidores de Lync Server 2013, seleccione Actualizar a Skype Empresarial **Server 2015** y siga los pasos. 
     
      ![Captura de pantalla del menú contextual con la opción de actualización para Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
@@ -177,7 +177,7 @@ En cada servidor que da servicio al grupo de servidores que va a actualizar, eje
 Disable-CsComputer -Scorch
 ```
 
-Se recomienda usar Disable-CsComputer porque es posible que deba reiniciar el servidor durante el proceso In-Place actualización. Si usa Stop-CsWindowsService, es posible que algunos servicios se reinicien automáticamente después de un reinicio. Esto puede provocar que se In-Place actualización automática.
+Se recomienda usar Disable-CsComputer porque es posible que deba reiniciar el servidor durante el proceso In-Place actualización. Si usa Stop-CsWindowsService, es posible que algunos servicios se reinicien automáticamente después de un reinicio. Esto puede provocar un error In-Place actualización automática.
   
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Paso 5: Actualizar grupos de servidores front-end y servidores de grupo no front-end
 
@@ -199,7 +199,7 @@ Cuando la In-Place actualización se complete correctamente, verá el siguiente 
   
 ![Captura de pantalla que muestra que la actualización local se completó correctamente.](../media/2f52cb50-9bb4-4714-a982-9c7a0865f78a.png)
   
-### <a name="step-6-restart-services-on-all-upgraded-servers"></a>Paso 6: Reiniciar los servicios en todos los servidores actualizados
+### <a name="step-6-restart-services-on-all-upgraded-servers"></a>Paso 6: Reiniciar servicios en todos los servidores actualizados
 
 > [!NOTE]
 > Antes de reiniciar los servicios, asegúrese de que %ProgramData%\WindowsFabric no existe en todos los servidores front-end. Si existe, elimínelo antes de iniciar los servicios. 
@@ -211,7 +211,7 @@ Cuando la In-Place actualización se complete correctamente, verá el siguiente 
   ```
 
     > [!NOTE]
-    > Si ya hay un reinicio del sistema pendiente necesario antes de empezar a ejecutar In-Place Upgrade, In-Place Upgrade no te pedirá que reinicies al final de la instalación. Esto hará que se inicien algunas excepciones de ensamblado en el primer servidor front-end al intentar iniciar servicios mediante el cmdlet Start-CSPool web. Para resolver estos errores, reinicie todos los servidores del grupo y vuelva a ejecutar el cmdlet. 
+    > Si ya hay un reinicio del sistema pendiente necesario antes de empezar a ejecutar In-Place Upgrade, In-Place Upgrade no te pedirá que reinicies al final de la instalación. Esto hará que se inicien algunas excepciones de ensamblado en el primer servidor front-end al intentar iniciar servicios con el cmdlet Start-CSPool servidor. Para resolver estos errores, reinicie todos los servidores del grupo y vuelva a ejecutar el cmdlet. 
   
 - En los servidores que no son de grupo de servidores front-end, reinicie los servicios mediante el siguiente comando:
     
@@ -219,7 +219,7 @@ Cuando la In-Place actualización se complete correctamente, verá el siguiente 
   Start-CsWindowsService
   ```
 
-Después de hacer **clic en** Aceptar en la In-Place actualización automática, verá el siguiente aviso para completar este paso.
+Después de hacer **clic** en Aceptar en la In-Place actualización automática, verá el siguiente aviso para completar este paso.
   
 ![Captura de pantalla que muestra los siguientes pasos después de que la actualización local se complete correctamente.](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
   
@@ -241,7 +241,7 @@ Revise el mensaje completo en la parte inferior de la página para ayudarle a so
   
 Si se produce un error  en la actualización de In-Place al comprobar la preparación de la actualización o instalar los **requisitos previos** que faltan, asegúrese de que el servidor tenga aplicadas todas las actualizaciones más recientes de Windows Server, Lync Server y SQL Server, y de que se instalen todos los roles y software necesarios. Para obtener una lista de lo que se necesita, consulte Requisitos del servidor para [Skype Empresarial Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e Instalar [requisitos previos para Skype Empresarial Server 2015.](install/install-prerequisites.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planear la actualización a Skype Empresarial Server 2015](../plan-your-deployment/upgrade.md)
   

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Obtenga información sobre la experiencia y el cumplimiento del cliente de Teams en los modos de coexistencia (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+description: Obtenga información sobre la experiencia del cliente de Teams y el cumplimiento de los modos de coexistencia (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -61,7 +61,7 @@ Además, la presencia propia no está disponible en los demás modos, como se mu
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Impacto del modo en otras opciones de configuración de directiva
-Como se describió anteriormente, el modo de coexistencia de un usuario afecta a qué funcionalidad está disponible en el cliente de Teams del usuario. Esto significa que el valor del modo puede tener prioridad sobre el valor de otras configuraciones de directiva, dependiendo del modo. En concreto, el modo de coexistencia afecta a si se respetan las siguientes opciones de configuración de directiva:
+Como se describió anteriormente, el modo de coexistencia de un usuario afecta a qué funcionalidad está disponible en el cliente de Teams del usuario. Esto significa que el valor del modo puede tener prioridad sobre el valor de otras opciones de configuración de directiva, dependiendo del modo. En concreto, el modo de coexistencia afecta a si se respetan las siguientes opciones de configuración de directiva:
 
 |**Modalidad (aplicación)**|**Policy.Setting**|
 |---|---|
@@ -70,7 +70,7 @@ Como se describió anteriormente, el modo de coexistencia de un usuario afecta a
 |Programación de reuniones|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-Los administradores *no* necesitan establecer explícitamente estas configuraciones de directiva al usar el modo coexistencia, pero es importante comprender que estas configuraciones se comportan de la manera siguiente para un modo determinado. 
+Los administradores *no* necesitan establecer explícitamente estas configuraciones de directiva al usar el modo coexistencia, pero es importante comprender que estas opciones de configuración se comportan de la manera siguiente para un modo determinado. 
 
 |Modo|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|

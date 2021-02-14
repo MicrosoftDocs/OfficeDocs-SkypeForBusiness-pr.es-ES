@@ -37,7 +37,7 @@ El inquilino en línea debe cumplir los siguientes requisitos:
     
 - El administrador remoto del espacio empresarial debe tener el siguiente acceso a PowerShell:
     
-  - Acceso remoto a PowerShell de Exchange
+  - Acceso remoto de PowerShell de Exchange
     
   - Acceso remoto de PowerShell de Skype Empresarial Online
     
@@ -89,7 +89,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 Los comandos anteriores configuraron o crearon una nueva cuenta de buzón de recursos de Exchange para el uso del Sistema de sala de Skype habilitando la cuenta.
   
-Después de crear el buzón, puede usar el cmdlet Set-CalendarProcessing exchange Online PowerShell para configurar el buzón. Consulte los pasos del 3 al 6 en Implementaciones locales de bosque único para obtener más información
+Después de crear el buzón, puede usar el cmdlet Set-CalendarProcessing en Exchange Online PowerShell para configurar el buzón. Consulte los pasos del 3 al 6 en Implementaciones locales de bosque único para obtener más información
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Asignar una licencia de Skype Empresarial Online
 

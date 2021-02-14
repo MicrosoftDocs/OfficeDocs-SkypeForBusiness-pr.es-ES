@@ -32,7 +32,7 @@ Si se ha configurado la federación en el servidor o el grupo de servidores peri
     
 - **Habilitar la federación SIP** Seleccione esta opción para habilitar una ruta de federación SIP y, a continuación, seleccione un director o un grupo de servidores perimetrales como ruta de federación.
     
-- **Habilitar la federación XMPP** Seleccione esta opción para habilitar una ruta de federación XMPP y, a continuación, seleccione un director o grupo de servidores perimetrales como ruta de federación.
+- **Habilitar la federación XMPP** Seleccione esta opción para habilitar una ruta de federación XMPP y, a continuación, seleccione un director o un grupo de servidores perimetrales como ruta de federación.
 - 
   > [!NOTE]
   > Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Consulte [Migración de la federación XMPP](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obtener más información.

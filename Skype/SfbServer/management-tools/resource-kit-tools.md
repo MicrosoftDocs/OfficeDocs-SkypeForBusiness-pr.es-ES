@@ -102,7 +102,7 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ABSConfig proporciona una forma rápida y sencilla de personalizar el servicio de libreta de direcciones de Skype Empresarial Server 2015.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 #### <a name="computer"></a>Equipo
 
@@ -170,7 +170,7 @@ No hay ningún resultado de la línea de comandos; la salida del programa está 
 
 La finalidad de la herramienta Bandwidth Policy Service Monitor es permitir a los administradores ver el estado de cada uno de los servicios de directiva de ancho de banda definidos en la topología. Además, los administradores pueden ver el uso de ancho de banda en tiempo real para todos los vínculos definidos en el documento de configuración de red.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 La herramienta Bandwidth Policy Service Monitor debe ejecutarse en un equipo que forme parte de la topología de Skype Empresarial Server.
 
@@ -356,7 +356,7 @@ Filtrar por **región**. Seleccione una lista de regiones cuyos vínculos deben 
 
 ![Filtrado por región.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 - .NET Framework 3.5
 
@@ -393,7 +393,7 @@ Todas las opciones son mutuamente excluyentes. La sintaxis de la línea de coman
 
   - URI de SIP de estacionado.
 
-  - URI sip de Sip.
+  - URI sip de Sip de Sip de Sip.
 
   - Nombre de host del CPS donde se estacionó la llamada.
 
@@ -419,7 +419,7 @@ Según los parámetros de entrada especificados en un símbolo del sistema, Call
 
 El propósito de la herramienta CPS es proporcionar acceso de línea de comandos a la base de datos de CPS. El administrador puede ver el uso de CPS y determinar el número de órbitas asignadas a un grupo de servidores.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 No hay requisitos si esta herramienta se ejecuta en el mismo equipo que ejecuta CPS. Si esta herramienta se ejecuta en un equipo remoto, la base de datos SQL Server usada por Skype Empresarial Server 2015 debe configurarse para permitir el acceso remoto. Call Parkometer debe configurarse con una SQL Server de conexión de base de datos para conectarse al grupo de servidores SQL Server. Esta SQL Server de conexión de base de datos se define en el archivo de configuración, **parkometer.exe.config**. Debe colocarse en el mismo directorio donde se parkometer.exe ubicación. El siguiente archivo XML es un ejemplo de una parkometer.exe.config. Los parámetros que se deben configurar son el nombre de usuario (por ejemplo, mydomain\Administrator), la contraseña (por ejemplo, mypassword) y el nombre de host (por ejemplo, myserver).
 
@@ -498,7 +498,7 @@ Para instalar Dbanalyze.exe, cópielo en una carpeta local y, a continuación, e
 
 ![Opciones de línea de comandos para Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
  **Equipo** DBAnalyze solo se puede ejecutar desde un equipo unido a un dominio que tenga instalado Skype Empresarial Server 2015.
 
@@ -549,7 +549,7 @@ Esta herramienta aumentará la carga de CPU e E/S en el front-end en el que se e
 
 ![Eventos de registro de eventos del servidor de almacenamiento de ejemplo.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Instale las herramientas del Kit de recursos de Skype Empresarial Server 2015. La herramienta se ejecuta en equipos unidos a un dominio donde están instalados Skype Empresarial Server y el Shell de administración de Skype Empresarial Server. La herramienta usa un cmdlet del Shell de administración para identificar todos los servidores front-end del grupo. En segundo lugar, la herramienta debe ejecutarse desde una máquina del grupo de servidores que tenga instalada la base de datos **RtcLocal.** Esta base de datos la usa la herramienta para recuperar la ubicación del recurso compartido de archivos WEBSERVICE para el grupo de servidores. Además, antes de usar la herramienta, cada servidor front-end debe habilitar primero la comunicación remota de Windows PowerShell mediante **Enable-PSRemoting** en cada servidor front-end, así como la máquina desde la que se ejecuta la herramienta. De lo contrario, Windows PowerShell comandos remotos de esta herramienta producirán un error. Windows PowerShell la comunicación remota se puede desactivar en todos los servidores front-end del grupo una vez finalizado. Por último, la cuenta o credencial que invoca a la herramienta debe tener permiso de lectura y escritura en el recurso compartido de archivos de servicio web para el grupo en el que se ejecuta esta herramienta. De lo contrario, se producirá un error en la herramienta con errores de permiso de E/S.
 
@@ -738,7 +738,7 @@ La herramienta LookupUserConsole muestra información interna de enrutamiento de
 
  Al ejecutar LookupUserConsole.exe se abrirá un símbolo del sistema que acepta direcciones SIP e intenta mostrar información de enrutamiento interna de Skype Empresarial Server relacionada con ellas. Escriba **exit** para salir de la herramienta LookupUserConsole.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Instale el kit de recursos de Skype Empresarial Server 2015. La herramienta se ejecuta en equipos unidos a un dominio donde está instalado Skype Empresarial Server.
 
@@ -825,7 +825,7 @@ La herramienta genera los resultados de cada una de las operaciones.
 
   - Los resultados de las pruebas de los equipos que proporcionan el servicio de directiva de ancho de banda (core) de Skype Empresarial Server 2015 en la topología
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 - Esta herramienta debe ejecutarse desde un equipo que se encuentra en la topología y que tiene el almacén local.
 
@@ -947,7 +947,7 @@ Las tres características principales siguientes están disponibles para los age
 
 - **Estadísticas en tiempo real:** Response Group Agent Live proporciona estadísticas en tiempo real para todos los grupos de agentes. La frecuencia de actualización es de un minuto. Cuando un grupo de respuesta responde a una llamada, se agrega un indicador visual junto al nombre del grupo con el número actual de llamadas en cola. Pausar el puntero sobre un grupo también muestra el tiempo de espera más largo.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Response Group Agent Live requiere .NET Framework 4.0. Además, para aprovechar las características de presencia y tarjeta de contacto, Skype Empresarial debe instalarse localmente (y estar en ejecución).
 
@@ -1039,7 +1039,7 @@ Estos son algunos de los escenarios clave en los que se puede usar esta herramie
 
 - Una práctica de atención al cliente en el departamento de recursos humanos de Contoso es proporcionar un servicio personal a todos los autores de llamadas desde la primera llamada. Dado que todos los miembros del departamento se sientan muy cerca unos de otros, hacer que todos los teléfonos suene al mismo tiempo con la llamada de equipo es muy molesto para el equipo. Para proporcionar el mejor servicio sin interrumpir a los miembros del equipo, el administrador de Skype Empresarial Server 2015 aprovecha la capacidad de atención de llamadas grupales. El administrador agrega todos los miembros del departamento a un grupo de recogida y comunica al departamento el número del grupo de recogida. Cuando María no está en su escritorio, Joe nota sus llamadas telefónicas y continúa a responder la llamada desde su escritorio.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 La herramienta SEFAUtil solo se puede ejecutar en un equipo que forma parte de un grupo de aplicaciones de confianza. UCMA 3.0 debe estar instalado en ese equipo. Para ejecutar la herramienta, debe crearse una nueva aplicación de confianza con el identificador de aplicación SEFAUtil en ese grupo de servidores.
 
@@ -1424,7 +1424,7 @@ SYSPrep.ps1 es un script Windows PowerShell que instalará los siguientes requis
 
   Aunque el nombre del script es similar a la Herramienta de preparación del sistema para los sistemas operativos Microsoft Windows, son diferentes. Este script solo instalará los requisitos previos necesarios para Skype Empresarial Server 2015. Una vez instalados estos requisitos previos, la herramienta SYSPrep de Windows se puede usar para crear una imagen del servidor.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Antes de ejecutar el script SYSPrep.ps1, debe copiar los archivos de requisitos previos en una carpeta local en la máquina del sistema operativo Windows Server 2008 (por **ejemplo, D:\Setup).** Esta carpeta también debe incluir una copia de los archivos de Skype Empresarial Server 2015, específicamente **Setup.exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
 
@@ -1439,7 +1439,7 @@ Antes de ejecutar el script SYSPrep.ps1, debe copiar los archivos de requisitos 
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
 | Skype Empresarial Server 2015 Setup.exe  <br/> | Copiar desde medios de Skype Empresarial Server 2015  <br/>                   |
 
-### <a name="parameter"></a>Parameter
+### <a name="parameter"></a>Parámetro
 
 El **parámetro -SetupFolder** toma como argumento la ubicación del directorio de los archivos de requisitos previos
 
@@ -1489,7 +1489,7 @@ El script de migración de anuncios de números sin signo se puede usar en los t
 
 - **Mover datos entre implementaciones:** Contoso está en proceso de reemplazar todos los servidores de un grupo por servidores más recientes. Su estrategia es implementar un nuevo grupo de Skype Empresarial Server 2015, mover todos los datos del antiguo al nuevo grupo y, a continuación, desuso del grupo antiguo. Una vez implementado el nuevo grupo de servidores, se usa la herramienta de migración de anuncios de números sin signo para mover la configuración del grupo antiguo al nuevo.
 
-#### <a name="requirements"></a>Requisitos
+#### <a name="requirements"></a>Requirements
 
 Estos son los requisitos principales necesarios para ejecutar correctamente la herramienta:
 
@@ -1553,7 +1553,7 @@ Esta herramienta genera los resultados de cada una de las operaciones:
 
 - Si se realiza una eliminación, la herramienta genera la lista de todas las carpetas de datos de reunión cuyos datos se eliminarán.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 La herramienta debe ejecutarse en el mismo grupo de servidores en el que se encuentra actualmente el organizador.
 

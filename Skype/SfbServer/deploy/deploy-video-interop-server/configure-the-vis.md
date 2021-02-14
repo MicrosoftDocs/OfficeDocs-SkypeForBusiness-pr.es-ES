@@ -74,7 +74,7 @@ El **comando Remove-CsVoiceNormalizationRule** es necesario para invalidar una r
 Para una llamada troncal SIP de vídeo desde una puerta de enlace de vídeo cuyo URI de solicitud contiene un número que no es E.164, vis leerá el nombre del plan de marcado asociado con el tronco asociado e incluirá el nombre del plan de marcado en la parte de contexto del teléfono del URI de solicitud en la invitación que el VIS envía al front-end. A continuación, la aplicación de conversión del front-end extrae y aplica las reglas de normalización asociadas con el plan de marcado al URI de solicitud.
 ## <a name="trunk-configuration-options"></a>Opciones de configuración de tronco
 
-Los Windows PowerShell para la configuración del tronco de vídeo mencionados anteriormente eran nuevos en Skype Empresarial Server 2015. La configuración asociada con la configuración del tronco de vídeo requiere una breve explicación.
+Los Windows PowerShell cmdlets para la configuración del tronco de vídeo mencionados anteriormente eran nuevos en Skype Empresarial Server 2015. La configuración asociada a la configuración del tronco de vídeo requiere una breve explicación.
   
  **GatewaySendsRtcpForActiveCalls** Este parámetro determina si los paquetes RTCP se envían desde los VTC al VIS para las llamadas activas. En este contexto, una llamada activa es una llamada en la que se permite el flujo de medios como mínimo en una dirección. Si GatewaySendsRtcpForActiveCalls se establece en True, vis puede finalizar una llamada si no recibe paquetes RTCP durante un período superior a 30 segundos. El valor predeterminado es **True**.
   
@@ -86,6 +86,6 @@ Los Windows PowerShell para la configuración del tronco de vídeo mencionados a
   
  **ForwardErrorCorrectionType** Este parámetro se usa para determinar si la corrección de errores de reenvío (FEC) para secuencias de vídeo se va a aplicar en la parte entre el servidor de interoperabilidad de vídeo y una puerta de enlace de vídeo. Si se establece ForwardErrorCorrectionType en "None", se desactiva FEC entre VIS y video gateway/VTC. Establecer ForwardErrorCorrectionType en "Cisco" habilita FEC compatible con puertas de enlace de vídeo de Cisco, como Cisco Unified Communications Manager (CUCM). El valor predeterminado es **Ninguno**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configurar CUCM para interoperación con Skype Empresarial Server](configure-cucm-for-interoperation.md)

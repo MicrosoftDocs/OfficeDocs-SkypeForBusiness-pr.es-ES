@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 ROBOTS: NOINDEX, NOFOLLOW
-description: UNRESOLVED_TOKEN_VAL(%bigfin_UI_help_intro)
+description: UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
 ms.openlocfilehash: 1d1d6ef0427d3c5181a8be32549562778bcb69d6
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "49820010"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>Directiva de voz: Crear nuevos o editar los registros existentes de uso de RTC
 
-UNRESOLVED_TOKEN_VAL(%bigfin_UI_help_intro)
+UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
 
 - [Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 

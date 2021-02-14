@@ -68,4 +68,4 @@ La transición de sistemas telefónicos locales a Teams le permitirá aprovechar
 
 Si no usa planes de llamadas, deberá realizar la transición de la implementación de voz empresarial al enrutamiento directo de Sistema telefónico como parte de la actualización a Teams.
 
-Para obtener más información, [vea consideraciones adicionales para el enrutamiento directo de sistema telefónico.](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) Si está pensando en usar planes de llamadas, consulte nuestras instrucciones para [transferir sus números de teléfono a Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Para obtener más información, vea [consideraciones adicionales para el enrutamiento directo de sistema telefónico.](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) Si está pensando en usar planes de llamadas, consulte nuestras instrucciones para [transferir sus números de teléfono a Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

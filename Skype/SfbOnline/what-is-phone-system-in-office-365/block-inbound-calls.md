@@ -38,7 +38,7 @@ Los controles de administración para bloquear números solo se proporcionan con
 ## <a name="call-blocking-powershell-commands"></a>Comandos de PowerShell de bloqueo de llamadas
 
 Los patrones de números se administran mediante los comandos ```CsInboundBlockedNumberPattern``` ```New``` , y ```Get``` ```Set``` ```Remove``` . Puede administrar un patrón determinado usando estos cmdlets, incluida la capacidad de activar un patrón determinado.
-- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) devuelve una lista de todos los patrones de números bloqueados agregados a la lista de inquilinos, como Nombre, Descripción, Habilitado (Verdadero/Falso) y Patrón para cada uno de ellos.
+- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) devuelve una lista de todos los patrones de números bloqueados agregados a la lista de inquilinos, incluidos Nombre, Descripción, Habilitado (Verdadero/Falso) y Patrón para cada uno de ellos.
 - [New-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) agrega un patrón de números bloqueados a la lista de inquilinos.
 - [Remove-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern) quita un patrón de números bloqueados de la lista de inquilinos.
 - [Set-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern) modifica uno o varios parámetros de un patrón de número bloqueado en la lista de inquilinos.
@@ -58,9 +58,9 @@ En este ejemplo, los ```-Enabled``` parámetros y los parámetros son ```-Descri
 New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”
 ```
 
-Al crear un patrón, se agrega el patrón como habilitado de forma predeterminada. La descripción es un campo opcional para proporcionar más información.
+Al crear un nuevo patrón se agrega el patrón como habilitado de forma predeterminada. La descripción es un campo opcional para proporcionar más información.
 
-Le recomendamos que proporcione un nombre significativo para comprender fácilmente por qué se agregó el patrón. En el caso de bloquear simplemente números de correo no deseado, considere la posibilidad de asignar a la regla el mismo nombre que el patrón de números que coincide y agregar información adicional en la descripción según sea necesario.
+Le recomendamos que proporcione un nombre significativo para comprender fácilmente por qué se agregó el patrón. En el caso de bloquear simplemente los números de correo no deseado, considere la posibilidad de asignar a la regla el mismo nombre que el patrón de números que coincide y agregar información adicional en la descripción según sea necesario.
 
 Los patrones coinciden mediante expresiones regulares (Regex). Deje tiempo para la replicación antes de probar y validar.
 
@@ -78,20 +78,20 @@ Deje tiempo para la replicación antes de probar y validar.
 
 #### <a name="view-all-number-patterns"></a>Ver todos los patrones de números
 
-Al ejecutar este cmdlet, se devuelve una lista de todos los números bloqueados que se introducen para un inquilino:
+Al ejecutar este cmdlet, se devuelve una lista de todos los números bloqueados que se han introducido para un inquilino:
 
 ```powershell
 Get-CsInboundBlockedNumberPattern
 ```
 
-Use capacidades de filtrado de PowerShell integradas para analizar los valores devueltos según sea necesario.
+Use las capacidades de filtrado de PowerShell integradas para analizar los valores devueltos según sea necesario.
 
 ## <a name="add-number-exceptions"></a>Agregar excepciones de número
 
 Puede agregar excepciones a patrones de números bloqueados mediante los comandos ```CsTenantBlockNumberExceptionPattern``` ```New``` , , y ```Get``` ```Set``` ```Remove``` .
 
 - [New-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern) agrega un patrón de excepciones de número a la lista de inquilinos. 
-- [Get-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) devuelve una lista de todos los patrones de excepciones de número agregados a la lista de inquilinos.
+- [Get-CsTenantBlockedNumberExceptionPattern devuelve](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) una lista de todos los patrones de excepciones de número agregados a la lista de inquilinos.
 - [Set-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockednumberexceptionpattern) modifica uno o más parámetros para un patrón de excepción de número en la lista de inquilinos.
 - [Remove-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) quita un patrón de excepciones de número de la lista de inquilinos.
 

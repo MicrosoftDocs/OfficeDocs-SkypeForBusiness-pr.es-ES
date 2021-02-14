@@ -18,7 +18,7 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Use el Asistente para la administración híbrida de Skype Empresarial Server para ayudarle a configurar su entorno para la implementación híbrida con Skype Empresarial Online.
+description: Use el Asistente para la administración híbrida de Skype Empresarial Server para ayudarle a configurar su entorno híbrido con Skype Empresarial Online.
 ms.openlocfilehash: bffb37633c58f05536a0b4de6a7d6f2c8b309f64
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

@@ -43,7 +43,7 @@ En este artículo le explicamos cómo configurar Audioconferencia. Solo debe con
 
 ## <a name="set-up-audio-conferencing"></a>Configurar Audioconferencia
 
-Al configurar Audioconferencia, se asigna automáticamente un número de teléfono al puente de conferencias para que se pueda usar en las invitaciones a reuniones. El número de teléfono que se asigna como número predeterminado del puente de conferencia será uno del país o la región de la organización. Este número de teléfono es un número de pago, en el que pueden aplicarse cargos de larga distancia.
+Al configurar Audioconferencia, se asigna automáticamente un número de teléfono al puente de conferencia para que se pueda usar en las invitaciones a reuniones. El número de teléfono que se asigna como el número predeterminado del puente de conferencia será uno del país o la región de la organización. Este número de teléfono es un número de pago, en el que pueden aplicarse cargos de larga distancia.
 
 > [!NOTE]
 > También puede usar un número gratuito, que requiere algunos pasos adicionales. Para obtener más información sobre los números de teléfono para el puente de conferencia, vea Números de teléfono de [Audioconferencia](#audio-conferencing-phone-numbers) más adelante en este artículo.
@@ -93,13 +93,13 @@ Existen dos tipos de números que puede usar para el puente de conferencia. Pued
 
 Un número compartido es un número que se comparte en todas las organizaciones. Los números compartidos son números de pago y se asignan automáticamente al configurar Audioconferencia.
 
-Para ver el número predeterminado que se asigna al puente de conferencia, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **puentes** de conferencia de reuniones y, a continuación, busque el número de la ubicación más cercana a  >  usted.
+Para ver el número predeterminado que está asignado a su puente de conferencia, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **puentes** de conferencias de reuniones y, a continuación, busque el número de la ubicación más cercana a  >  usted.
 
 ### <a name="dedicated-numbers"></a>Números dedicados
 
 Un número dedicado es un número que solo está disponible para los usuarios. Un número dedicado puede ser un número de pago o un número gratuito. Para usar un número dedicado, primero tendrá que obtener el número, asignarlo al puente de conferencia y, a continuación, asignar el número a cada persona que dirigirá las reuniones.
 
-Hay varias maneras de obtener un número dedicado. Puede obtener un número de Microsoft o transferir (portabilidad) un número existente de su proveedor de servicios actual a Microsoft. Para obtener más información sobre cómo hacerlo, vea Obtener [números de servicio.](getting-service-phone-numbers.md)
+Hay varias maneras de obtener un número dedicado. Puede obtener un número de Microsoft o transferir (transferir) un número existente de su proveedor de servicios actual a Microsoft. Para obtener más información sobre cómo hacerlo, vea Obtener [números de servicio.](getting-service-phone-numbers.md)
 
 Tenga en cuenta que, si usa un número gratuito, primero tiene que asignar una licencia de Créditos de comunicaciones a cada persona que dirigirá las reuniones. Para obtener más información, consulta [Configurar créditos de comunicaciones para tu organización.](set-up-communications-credits-for-your-organization.md)
 

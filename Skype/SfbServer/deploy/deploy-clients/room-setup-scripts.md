@@ -23,7 +23,7 @@ ms.locfileid: "49820830"
  
 Lea este tema para encontrar scripts de ejemplo para aprovisionar cuentas del Sistema de sala de Skype.
   
-En esta sección se muestran scripts de ejemplo que se pueden usar para aprovisionar cuentas del Sistema de sala de Skype. Estos scripts son solo para fines ilustrativos y solo deben usarse después de consultar con su experto en TI o administrador de dominio.
+En esta sección se muestran scripts de ejemplo que se pueden usar para aprovisionar cuentas del Sistema de sala de Skype. Estos scripts son solo para fines ilustrativos y deben usarse solo después de consultar con su experto en TI o administrador de dominio.
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Script de instalación de ejemplo: Skype Empresarial y Exchange Server (local)
 

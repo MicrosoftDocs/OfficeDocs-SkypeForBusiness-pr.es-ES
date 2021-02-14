@@ -61,7 +61,7 @@ El Administrador de estadísticas le permite:
 
 - Use intervalos de fechas o puntos de tiempo para filtrar datos.
 
-- Ver el rendimiento del servidor en función de los indicadores clave de estado (KHIs) establecidos. Los KHIs representan una colección de contadores de rendimiento con un rango en buen estado definido.
+- Ver el rendimiento del servidor en función de los indicadores clave de estado (KHIs) establecidos. Los KHIs representan una colección de contadores de rendimiento con un intervalo en buen estado definido.
 
 - Ver métricas detalladas para cada contador.
 
@@ -84,7 +84,7 @@ El Administrador de estadísticas le permite:
 
 A continuación se describen las novedades de la versión 2.0. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
-- Se han agregado vistas de escenario para los escenarios de medios perimetrales, mantenimiento de Fabric, conmutación por error de grupo y registro.
+- Se han agregado vistas de escenario para los escenarios de medios perimetrales, Mantenimiento de Fabric, Conmutación por error del grupo de servidores y Registro.
 
 - Se han agregado muchos contadores nuevos para SQL servidores, más contadores de uso de Skype Empresarial, etc.
 
@@ -109,7 +109,7 @@ El Administrador de estadísticas consta de los siguientes componentes:
 
 - **Escucha.** La API del lado servidor que recibe datos de todos los agentes y agrega datos entre las distintas poblaciones.
 
-- **Hub.** Actúa como la API de cliente para el sistema, se ejecuta en los servidores web y proporciona actualizaciones de datos en tiempo real a los clientes conectados a través del sitio web. (El concentrador se instala automáticamente como parte del msi del sitio web).
+- **Hub.** Actúa como la API de cliente para el sistema, se ejecuta en los servidores web y proporciona actualizaciones de datos en tiempo real a los clientes conectados a través del sitio web. (El centro se instala automáticamente como parte del msi del sitio web).
 
 - **Sitio web.** Una interfaz de usuario que reúne todas las características disponibles en el sistema.
 
@@ -124,7 +124,7 @@ El siguiente diagrama muestra una implementación local, en la que el sitio web 
 
 ![Implementación local del Administrador de estadísticas](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 <a name="BKMK_Requirements"> </a>
 
 Deberá tener en cuenta los siguientes requisitos de software, redes y hardware antes de implementar el Administrador de estadísticas.
@@ -168,7 +168,7 @@ Todo el tráfico entre servidores está cifrado.
 
 - El tráfico HTTPS cifrado se enviará a través del puerto 8443 (de forma predeterminada) desde el agente al servidor de escucha.
 
-- El agente comprobará la huella digital SSL en el servidor para asegurarse de que el servidor de escucha es el destinatario esperado. Tenga en cuenta que el agente usa la comprobación de huella digital del certificado (en lugar de la verificación en cadena). No realizará la validación completa del certificado porque es posible usar certificados autofirmados.
+- El agente comprobará la huella digital SSL en el servidor para asegurarse de que el servidor de escucha es el destinatario esperado. Tenga en cuenta que el agente usa la comprobación de huella digital del certificado (en lugar de la comprobación en cadena). No realizará la validación completa del certificado porque es posible usar certificados autofirmados.
 
 - Una vez que el agente está satisfecho con que la escucha es autenticada, el agente presentará una contraseña que, a continuación, la agente de escucha comprobará.
 

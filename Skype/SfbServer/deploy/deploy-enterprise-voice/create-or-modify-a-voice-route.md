@@ -51,11 +51,11 @@ ms.locfileid: "49820460"
     
    - **Excepciones**: Si desea especificar una o más excepciones para un valor de prefijo, resalte el prefijo y haga clic en **Excepciones**. Escriba uno o más valores para los patrones de coincidencia que no  *desea*  que se acomenten a esta ruta. Por ejemplo, para excluir números a partir de +425237 de la ruta, escriba  un valor de+425237 en el campo Excepciones y, a continuación, haga clic en Aceptar **.**
     
-   - Para definir manualmente el patrón coincidente, haga clic en **Editar** en la herramienta **Crear un patrón de coincidencia** y, a continuación, escriba una expresión regular de .NET Framework para especificar el patrón coincidente correspondiente a los números de teléfono de destino a los que se va a aplicar la ruta. Para obtener información detallada sobre cómo escribir expresiones regulares, [vea "Expresiones regulares de .NET Framework".](https://go.microsoft.com/fwlink/p/?linkId=140927) 
+   - Para definir manualmente el patrón coincidente, haga clic en **Editar** en la herramienta **Crear un patrón de coincidencia** y, a continuación, escriba una expresión regular de .NET Framework para especificar el patrón coincidente correspondiente a los números de teléfono de destino a los que se va a aplicar la ruta. Para obtener más información sobre cómo escribir expresiones regulares, [vea "Expresiones regulares de .NET Framework".](https://go.microsoft.com/fwlink/p/?linkId=140927) 
     
 9. Seleccione **Suprimir identificador de** llamada si no desea que el identificador del teléfono que realiza la llamada saliente aparezca al destinatario de la llamada. Si selecciona esta opción, debe  especificar un identificador de llamada alternativo que aparecerá en la pantalla del identificador de llamada del destinatario.
     
-10. Para asociar uno o varios troncos a la ruta de voz, haga clic en **Agregar** y, a continuación, seleccione un tronco de la lista.
+10. Para asociar uno o más troncos a la ruta de voz, haga clic en **Agregar** y, a continuación, seleccione un tronco de la lista.
     
 11. Para asociar uno o varios usos de la red telefónica conmutada (RTC) a la ruta de voz, haga clic en Seleccionar y elija un registro de la lista de registros de uso de RTC que se hayan definido para la implementación Telefonía IP empresarial cliente. 
     
@@ -123,7 +123,7 @@ ms.locfileid: "49820460"
     > [!NOTE]
     > Siempre que cree o modifique una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, [consulte Publicar los cambios pendientes en la configuración](voice-route-config-changes.md) de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Ver registros de uso de RTC en Skype Empresarial](view-pstn-usage-records.md)
   

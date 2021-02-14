@@ -38,8 +38,8 @@ La vista McuJoinsAndLeaves almacena información sobre el momento en que los usu
 |**UserClientCategory** <br/> |nvarchar(64)  <br/> |Nombre de la categoría del cliente usado por el usuario del que se capturó la información de entrada/salida del servidor de conferencia.  <br/> |
 |**McuUserInstance** <br/> |entero  <br/> |Identificación única de la combinación usuario/dispositivo para los usuarios con una sesión iniciada en varios dispositivos.  <br/> |
 |**IsUserFromPstn** <br/> |bit  <br/> |Bit que representa si el usuario es interno o no.  <br/> |
-|**DialogSessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se usa de forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión. Consulte la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
-|**DialogSessionIdSeq** <br/> |entero  <br/> |Número de identificador para identificar la sesión. Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión. Consulte la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**DialogSessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se usa de forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión. Vea la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**DialogSessionIdSeq** <br/> |entero  <br/> |Número de identificador para identificar la sesión. Se usa de forma conjunta con SessionIdTime para identificar de forma exclusiva una sesión. Vea la [tabla Cuadros de diálogo en Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
 |**DialogId** <br/> |varchar(775)  <br/> |Identificador de diálogo SIP. El formato es: diálogo;etiqueta-origen;etiqueta-destino.  <br/> |
 |**UserJoinTime** <br/> |datetime  <br/> |Hora a la que el usuario se unió al servidor de conferencia.  <br/> |
 |**UserLeaveTime** <br/> |datetime  <br/> |Hora a la que el usuario abandonó el servidor de conferencia.  <br/> |
