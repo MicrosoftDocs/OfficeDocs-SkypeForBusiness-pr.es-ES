@@ -44,7 +44,7 @@ El **nodo Lync Server** enumera los sitios centrales de la topología. Puede rea
     
 - **Combinar topología de Office Communications Server 2007 R2**. Inicia el asistente de Topology Builder. Esta herramienta recopila información sobre el entorno anterior de Office Communications Server, incluida la información del servidor perimetral, y la publica en una base de datos compartida. 
     
-- **Quitar implementación**. Inicia el Asistente para quitar implementación, que permite empezar a quitar toda la implementación.
+- **Quitar implementación**. Inicia el Asistente para quitar implementación, que le permite empezar a quitar toda la implementación.
     
 Además de estas opciones, puede realizar las siguientes tareas generales:
   

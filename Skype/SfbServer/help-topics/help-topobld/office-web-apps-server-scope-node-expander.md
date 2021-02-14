@@ -24,7 +24,7 @@ ms.locfileid: "49823910"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor Office Web Apps
  
-Haga clic con el botón **secundario en Los servidores de Office Web Apps** en el Generador de topologías para realizar lo siguiente:
+Haga clic con el botón secundario **en Los servidores de Office Web Apps** en el Generador de topologías para realizar lo siguiente:
   
 - **Nuevo Office Web Apps Server:** inicia el Asistente para definir **nuevo servidor de Office Web Apps que** se usa para definir un nuevo servidor de Office Web Apps.
     

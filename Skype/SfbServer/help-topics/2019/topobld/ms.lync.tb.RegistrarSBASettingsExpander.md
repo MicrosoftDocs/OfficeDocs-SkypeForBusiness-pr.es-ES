@@ -41,6 +41,6 @@ Modifique la configuración de la **Resistencia** y configure las siguientes pro
 
   **Ayuda** Muestra la ayuda de esta pantalla.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planeación de la resistencia de Enterprise Voice](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

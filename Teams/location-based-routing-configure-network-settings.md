@@ -28,7 +28,7 @@ ms.locfileid: "49822950"
 
 Si aún no lo ha hecho, lea Planear el enrutamiento [Location-Based](location-based-routing-plan.md) para enrutamiento directo para revisar otros pasos que deberá realizar antes de configurar las opciones de red para el enrutamiento Location-Based cliente.
 
-En este artículo se describe cómo configurar las opciones de red para Location-Based de distribución. Después de implementar el enrutamiento directo de sistema telefónico en su organización, los pasos siguientes son crear y configurar regiones de red, sitios de red y subredes de red.
+En este artículo se describe cómo configurar las opciones de red para Location-Based de distribución. Después de implementar el enrutamiento directo de Sistema telefónico en su organización, los pasos siguientes son crear y configurar regiones de red, sitios de red y subredes de red.
 
 ## <a name="define-network-regions"></a>Definir regiones de red
 
@@ -36,9 +36,9 @@ Una región de red contiene una colección de sitios de red e interconecta varia
 
 ## <a name="define-network-sites"></a>Definir sitios de red
 
-Un sitio de red representa una ubicación donde su organización tiene un lugar físico, como una oficina, un conjunto de edificios o un campus. Debe asociar cada sitio de red de la topología a una región de red. Para ver los pasos sobre cómo configurar sitios de red, consulte Administrar la topología de red para [las características de nube en Teams.](manage-your-network-topology.md)
+Un sitio de red representa una ubicación donde su organización tiene un lugar físico, como una oficina, un conjunto de edificios o un campus. Debe asociar cada sitio de red de la topología a una región de red. Para obtener información sobre cómo configurar sitios de red, consulte Administrar la topología de red [para las características de nube en Teams.](manage-your-network-topology.md)
 
-Un procedimiento recomendado para Location-Based es crear un sitio independiente para cada ubicación que tenga conectividad RTC única. Puede crear un sitio habilitado para el enrutamiento de Location-Based de correo electrónico o un sitio que no esté habilitado para el enrutamiento Location-Based usuario. Por ejemplo, es posible que desee crear un sitio que no esté habilitado para el enrutamiento de Location-Based para permitir que los usuarios habilitados para Location-Based Enrutamiento realicen llamadas RTC cuando se des recorrido a ese sitio.
+Un procedimiento recomendado para Location-Based es crear un sitio independiente para cada ubicación que tenga conectividad RTC única. Puede crear un sitio habilitado para el enrutamiento de Location-Based electrónico o un sitio que no esté habilitado para el Location-Based grupo. Por ejemplo, puede que desee crear un sitio que no esté habilitado para Location-Based Routing para permitir que los usuarios habilitados para Location-Based Routing realicen llamadas RTC cuando se des recorrido a ese sitio.
 
 ## <a name="define-network-subnets"></a>Definir subredes de red
 
@@ -52,7 +52,7 @@ Las direcciones IP de confianza son las direcciones IP externas a Internet de la
 
 Si la dirección IP externa del usuario coincide con una dirección IP que está en la lista de direcciones IP de confianza, Location-Based Routing comprueba la subred interna en la que se encuentra el punto de conexión del usuario. Si la dirección IP externa del usuario no coincide con ninguna dirección IP definida en la lista de direcciones IP de confianza, el punto de conexión se clasifica como en una ubicación desconocida y se bloquean las llamadas RTC a un usuario habilitado para Location-Based Routing.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Vaya a [Habilitar Location-Based de enrutamiento directo.](location-based-routing-enable.md)
 

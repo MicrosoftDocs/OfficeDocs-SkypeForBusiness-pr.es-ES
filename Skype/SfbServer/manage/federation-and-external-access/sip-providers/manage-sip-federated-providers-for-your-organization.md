@@ -38,7 +38,7 @@ La conectividad de mensajería instantánea (MI) pública permite a los usuarios
 
 Skype Empresarial Server tiene configuraciones de proveedor público para mensajería instantánea. Cada proveedor público se configura con el nombre de dominio completo del servidor perimetral del proveedor y el nivel de comprobación predeterminado Permite a los usuarios comunicarse solo con personas de su lista de contactos que usan **este proveedor.**
 
-Como configuración predeterminada, no está habilitado ninguno de los proveedores públicos. Debe rellenar el contrato de licencia y proporcionar el trabajo antes de habilitar los proveedores públicos. Puede habilitar al proveedor antes de completar la licencia y proporcionar el trabajo. Los usuarios no podrán comunicarse con los contactos de estos proveedores hasta que haya finalizado el trabajo como requisito previo. Para obtener información detallada sobre la concesión de licencias y el aprovisionamiento de proveedores públicos, vea Configurar directivas para controlar la [obtención de acceso de usuarios públicos.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Como configuración predeterminada, no está habilitado ninguno de los proveedores públicos. Debe rellenar el contrato de licencia y proporcionar el trabajo antes de habilitar los proveedores públicos. Puede habilitar al proveedor antes de completar la licencia y proporcionar el trabajo. Los usuarios no podrán comunicarse con los contactos de estos proveedores hasta que haya finalizado el trabajo como requisito previo. Para obtener más información sobre la concesión de licencias y el aprovisionamiento de proveedores públicos, vea Configurar directivas para controlar la [obtención de acceso de usuarios públicos.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 Use el siguiente procedimiento para crear o editar proveedores públicos.
 
@@ -104,7 +104,7 @@ Use el siguiente procedimiento para crear o editar proveedores hospedados.
 7.  Cuando haya terminado de configurar los parámetros, haga clic en **Confirmar** para guardar o haga clic en **Cancelar** para descartar los cambios.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [Configurar directivas para controlar la a acces de usuarios públicos](../external-access-policies/configure-policies-to-control-public-user-access.md)

@@ -28,6 +28,6 @@ Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco 
   
 Para agregar nuevos equipos a un grupo de servidores existente, debe reiniciar el grupo para permitir que Windows Fabric redefina las conexiones entre todos los miembros del grupo de servidores. Para ello, seleccione el grupo de servidores al que ha agregado servidores y haga clic en **Siguiente**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Crear y publicar una topología nueva en Skype Empresarial Server](../../../deploy/install/create-and-publish-new-topology.md)

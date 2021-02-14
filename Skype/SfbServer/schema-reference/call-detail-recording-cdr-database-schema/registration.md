@@ -32,7 +32,7 @@ Cada registro representa un evento de registro de usuario.
 |**EndpointId** <br/> |uniqueidentifier  <br/> ||GUID para identificar un extremo de registro. Por lo general, el evento de registro del mismo equipo y del mismo usuario tendrá el mismo identificador de extremo. Los equipos diferentes tienen un identificador de extremo distinto.  <br/> |
 |**EndpointEra** <br/> |uniqueIdentifier  <br/> ||Id. usado para diferenciar registros que implican al mismo usuario y al mismo extremo.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
 |**ClientVersionId** <br/> |entero  <br/> |Externo  <br/> |Versión de cliente del usuario actual. Consulte la [tabla ClientVersions en Skype Empresarial Server 2015](clientversions.md) para obtener más información. <br/> |
-|**RegistrarId** <br/> |entero  <br/> |Externo  <br/> |Identificador del servidor registrador utilizado para el registro. Vea la [tabla Servidores para](servers.md) obtener más información. <br/> |
+|**RegistrarId** <br/> |entero  <br/> |Externo  <br/> |Identificador del servidor registrador utilizado para el registro. Vea la [tabla Servidores](servers.md) para obtener más información. <br/> |
 |**PoolId** <br/> |entero  <br/> |Externo  <br/> |Identificador del grupo en el que se capturó la sesión. Vea la tabla [Grupos de](pools.md) servidores para obtener más información. <br/> |
 |**EdgeServerId** <br/> |entero  <br/> |Externo  <br/> |Servidor perimetral que se utiliza para el registro. Consulte la [tabla EdgeServers en Skype Empresarial Server 2015](edgeservers.md) para obtener más información. <br/> |
 |**IsInternal** <br/> |Bit  <br/> ||Si el usuario inició sesión de forma interna o no.  <br/> |

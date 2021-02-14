@@ -24,7 +24,7 @@ Las reglas de normalización de Skype Empresarial Server usan expresiones regula
 
 Para obtener más información acerca de las reglas de normalización, consulte [Planes de marcado y reglas de normalización.](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx)
 
-Para obtener más información sobre cómo escribir expresiones regulares, vea [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
+Para obtener más información acerca de cómo escribir expresiones regulares, vea [expresiones regulares de .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Puede usar cualquiera de los siguientes métodos para definir o editar una regla de normalización:
 - Use la herramienta Crear una regla de [ **normalización**](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar los valores de los dígitos iniciales, la longitud, los dígitos que se quitarán y los dígitos que se agregarán y, a continuación, deje que el Panel de control de Skype Empresarial Server genere automáticamente el patrón de coincidencia y la regla de conversión correspondientes.
@@ -37,8 +37,8 @@ Complete los pasos siguientes si desea crear o modificar una regla de normalizac
 **Para definir una regla mediante Generar regla de normalización**
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, vea [Delegar permisos de configuración.](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx)
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial, consulte Instalar y [abrir herramientas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
-3. (Opcional) Siga los pasos descritos en [Crear un plan de marcado](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) hasta el paso 11 o Modificar un plan de marcado [hasta](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) el paso 10. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial, consulte [Instalar y abrir herramientas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
+3. (Opcional) Siga los pasos descritos [en Crear un plan de marcado](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) hasta el paso 11 o Modificar un plan de marcado [hasta](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) el paso 10. 
 4. En **Nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón numérico que se normalizará en **Nombre** (por ejemplo, **Extension5digitos**).
 5. (Opcional) En **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
 6. En **Generar regla de normalización**, escriba valores en los siguientes campos:
@@ -47,7 +47,7 @@ Complete los pasos siguientes si desea crear o modificar una regla de normalizac
     - **Dígitos para quitar:**(opcional) Especifique el número de dígitos iniciales que se quitarán de los números marcados que desea que coincidan con el patrón.
     - **Dígitos para agregar:**(opcional) Especifique los dígitos que se agregarán a los números marcados que desea que coincidan con el patrón.
     
-    Los valores que introduzca en estos campos se reflejarán en **Patrón con el que hacer coincidir** y **Regla de conversión**. Por ejemplo, si  deja los dígitos iniciales vacíos, escriba **7** en el campo Longitud , seleccione Exactamente y especifique **0** en Dígitos para quitar , la expresión regular resultante en el  **patrón** que debe coincidir es:  
+    Los valores que introduzca en estos campos se reflejarán en **Patrón con el que hacer coincidir** y **Regla de conversión**. Por ejemplo, si  deja vacíos los dígitos iniciales, escriba **7** en el campo Longitud , seleccione Exactamente y especifique **0** en Dígitos para quitar , la expresión regular resultante en el  **patrón** que debe coincidir es:  
 
     **^(\d {7} )$**
 
@@ -75,8 +75,8 @@ Siga los pasos que se muestran a continuación si desea crear o modificar manual
 **Para definir una regla de normalización de forma manual**
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro de la función CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, vea [Delegar permisos de configuración.](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx)
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial, consulte Instalar y [abrir herramientas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
-3. (Opcional) Siga los pasos descritos en [Crear un plan de marcado](GET LINK AFTER MIGRATION) hasta el paso 11 o Modificar un plan de marcado [hasta](GET LINK AFTER MIGRATION) el paso 10.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial, consulte [Instalar y abrir herramientas administrativas.](../../management-tools/install-and-open-administrative-tools.md)
+3. (Opcional) Siga los pasos descritos [en Crear un plan de marcado](GET LINK AFTER MIGRATION) hasta el paso 11 o Modificar un plan de marcado [hasta](GET LINK AFTER MIGRATION) el paso 10.  
 4. En **Nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón numérico que se normalizará en **Nombre** (por ejemplo, llame a la regla de normalización **Extension5digitos**).
 5. (Opcional) En **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
 6. En **Generar regla de normalización**, haga clic en **Editar**.

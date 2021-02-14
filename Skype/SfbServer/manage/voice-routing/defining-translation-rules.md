@@ -38,7 +38,7 @@ Skype Empresarial Server ofrece la opción de traducir también el número de te
     - Para elegir una o más reglas en una lista de reglas de conversión disponible en la implementación de Telefonía IP empresarial, haga clic en **Seleccionar**. En **Reglas de conversión del número que llama**, haga clic en las reglas que quiera asociar al tronco y, después, haga clic en **Aceptar**.
     - Para definir una regla de conversión nueva y asociarla al tronco, haga clic en **Nueva**. 
     - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, en **Mostrar detalles**.
-    - Para copiar una regla de conversión existente para usarla como punto de partida para definir una regla nueva, haga clic en el nombre de la regla, en Copiar y, a continuación, en **Pegar**.
+    - Para copiar una regla de conversión existente que se usará como punto de partida para definir una regla nueva, haga clic en el nombre de la regla, en Copiar y, a continuación, en **Pegar**.
     - Para quitar una regla de conversión de un tronco, resalte el nombre de la regla y en **Quitar**.
 
 > [!Warning] 
@@ -80,14 +80,14 @@ Siga estos pasos si desea definir una regla de conversión especificando un conj
 
     El **campo de regla** de conversión especifica un patrón para el formato de los números traducidos. Este patrón tiene dos partes:
     - Un valor (por ejemplo, **$1)** que representa el número de dígitos en el patrón de coincidencia
-    - (Opcional) Un valor que puede anteponer si lo escribe en el campo **Dígitos para agregar**
+    - (Opcional) Un valor que se puede anteponer entrando en el campo **Dígitos para** agregar
 
     Con los valores de ejemplo anteriores, **aparece 011$1** en el **campo de regla de** conversión.
     
     Cuando se aplica esta regla de conversión, +441235551010 pasa a ser 011441235551010.
 7. Haga clic en **Aceptar** para guardar la regla de conversión.
 8. Haga clic en **Aceptar** para guardar la configuración de tronco.
-9. En la página **Configuración de tronco** n, haga clic en **Confirmar** y, a continuación, en **Confirmar todo.** 
+9. En la página **Configuración de tronco** n, haga clic **en** Confirmar y, a continuación, en **Confirmar todo.** 
 
 > [!Note]
 > Siempre que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [consulte Publicar cambios pendientes en la configuración de enrutamiento de voz.](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx) 

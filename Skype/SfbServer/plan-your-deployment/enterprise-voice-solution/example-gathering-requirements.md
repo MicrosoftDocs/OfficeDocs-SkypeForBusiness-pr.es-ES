@@ -53,14 +53,14 @@ Para preparar el control de admisión de llamadas, recopile la información desc
 
     Nuestra topología de ejemplo tiene tres regiones de red: Norteamérica, EMEA y APAC. Una región de red incluye una colección de sitios de red. Trabaje con el administrador de la red para definir las regiones de red de su empresa.
 
-2. Identificar el sitio central asociado de cada región de red. Un sitio central contiene al menos un servidor front-end y es la implementación de Skype Empresarial Server que administrará el CAC para todo el tráfico multimedia que pasa a través de la conexión WAN de la región de red.
+2. Identificar el sitio central asociado de cada región de red. Un sitio central contiene al menos un servidor front-end y es la implementación de Skype Empresarial Server que administrará el CAC para todo el tráfico de medios que pasa a través de la conexión WAN de la región de red.
 
    **Red de empresa de ejemplo dividida en tres regiones de red**
 
      ![Ejemplo de topología de red con 3 regiones de red](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Una red de conmutación de etiquetas multiprotocolo (MPLS) debe representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener más información, consulte [Componentes y topologías para el control de admisión](components-and-topologies.md)de llamadas en Skype Empresarial. 
+    > Una red de conmutación de etiquetas multiprotocolo (MPLS) debe representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener más información, consulte [Componentes y topologías para el control de admisión de llamadas en Skype Empresarial.](components-and-topologies.md) 
 
     En el ejemplo anterior de topología de red, hay tres regiones de red, cada una con un sitio central de Skype Empresarial Server que administra el CAC. El sitio central adecuado para una región de red se elige por la proximidad geográfica. Como el tráfico de medios será mayor dentro de las regiones de red, la propiedad por proximidad geográfica lo hace independiente y seguirá siendo funcional aunque otros sitios centrales dejen de estar disponibles. 
 
@@ -127,7 +127,7 @@ Para preparar el control de admisión de llamadas, recopile la información desc
      | **Sitio de red**   | **Región de red**   | **Límite de ancho de banda**      | **Límite de audio**   | **Límite de sesión de audio** | **Límite de vídeo**   | **Límite de sesión de vídeo** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
      | Albuquerque  <br/> | Norteamérica  <br/> | 5,000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              |
-     | Reno  <br/>        | Norteamérica  <br/> | 10,000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              |
+     | Reno  <br/>        | Norteamérica  <br/> | 10 000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              |
      | Portland  <br/>    | Norteamérica  <br/> | 5,000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              |
      | Nueva York  <br/>    | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       |
      | Guadalajara  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       |
@@ -168,14 +168,14 @@ Para preparar el control de admisión de llamadas, recopile la información desc
    | **Sitio de red**   | **Región de red**   | **Límite de ancho de banda**      | **Límite de audio**   | **Límite de sesión de audio** | **Límite de vídeo**   | **Límite de sesión de vídeo** | **Subredes**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
    | Albuquerque  <br/> | Norteamérica  <br/> | 5,000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
-   | Reno  <br/>        | Norteamérica  <br/> | 10,000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
+   | Reno  <br/>        | Norteamérica  <br/> | 10 000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
    | Portland  <br/>    | Norteamérica  <br/> | 5,000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
    | Nueva York  <br/>    | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
    | Guadalajara  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 157.57.211.0/23, 172.28.152.128/25  <br/>                              |
    | Detroit  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
 
 
-7. En el servicio de control de admisión de llamadas de Skype Empresarial Server, las conexiones entre regiones de red se denominan vínculos de región. Para cada vínculo de región, determine lo siguiente, tal como hizo para los sitios de red:
+7. En el control de admisión de llamadas de Skype Empresarial Server, las conexiones entre regiones de red se denominan vínculos de región. Para cada vínculo de región, determine lo siguiente, tal como hizo para los sitios de red:
 
    - Límite general de ancho de banda que desea establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hace que se supere este límite, Skype Empresarial Server no permite que se inicie la sesión.
 
@@ -195,7 +195,7 @@ Para preparar el control de admisión de llamadas, recopile la información desc
    | **Nombre del vínculo de región**  | **Primera región**     | **Segunda región** | **Límite de ancho de banda**  | **Límite de audio** | **Límite de sesión de audio** | **Límite de vídeo** | **Límite de sesión de vídeo** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
    | NA-EMEA-LINK  <br/>   | Norteamérica  <br/> | EMEA  <br/>       | 50 000  <br/> | 20,000  <br/>   | 175  <br/>              | 14,000  <br/>   | 700  <br/>              |
-   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25 000  <br/> | 10,000  <br/>   | 175  <br/>              | 7,000  <br/>    | 700  <br/>              |
+   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25 000  <br/> | 10 000  <br/>   | 175  <br/>              | 7,000  <br/>    | 700  <br/>              |
 
 
 8. Definir una ruta entre cada par de regiones de red.

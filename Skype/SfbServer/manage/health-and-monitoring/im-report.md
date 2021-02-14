@@ -70,7 +70,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 
 |**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Enterprise <br/>  Federado <br/>  PIC <br/> |
+|**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Empresa <br/>  Federado <br/>  PIC <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la sesión.  <br/> |
 |**Total** <br/> |No  <br/> |Número total de sesiones o recuento total de mensajes.  <br/> |
    

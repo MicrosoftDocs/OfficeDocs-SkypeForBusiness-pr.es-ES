@@ -57,7 +57,7 @@ En la siguiente lista se describen los comandos de la página.
     > [!NOTE]
     > Para la configuración de reunión global, **Eliminar** restablece la configuración a los valores predeterminados.
 
-- **Actualizar** Actualiza la lista de configuraciones de reuniones.
+- **Actualizar** Actualiza la lista de configuraciones de reunión.
 
 En la siguiente lista se describen los campos de la página.
 

@@ -14,7 +14,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
-description: Una implementación de servidor Standard Edition instala automáticamente el software de base de datos Microsoft SQL Server Express y la base SQL Server datos. Por lo tanto, todas las opciones se han sobreabatado previamente y no se pueden realizar cambios en la configuración predeterminada.
+description: Una implementación de servidor Standard Edition instala automáticamente el software de base de datos Microsoft SQL Server Express y la base SQL Server datos. Por lo tanto, todas las opciones se han sobreababado previamente y no se pueden realizar cambios en la configuración predeterminada.
 ms.openlocfilehash: 939f12fa02951074e487066337c8bb76af59143a
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -24,11 +24,11 @@ ms.locfileid: "49824080"
 ---
 # <a name="add-front-end-sql-server-store"></a>Agregar almacén SQL Server front-end
 
-Una implementación de servidor Standard Edition instala automáticamente el software de base de datos Microsoft SQL Server Express y la base SQL Server datos. Por lo tanto, todas las opciones se han sobreabatado previamente y no se pueden realizar cambios en la configuración predeterminada.
+Una implementación de servidor Standard Edition instala automáticamente el software de base de datos Microsoft SQL Server Express y la base SQL Server datos. Por lo tanto, todas las opciones se han sobreababado previamente y no se pueden realizar cambios en la configuración predeterminada.
 
 El grupo de servidores front-end de una implementación de servidor Enterprise Edition requiere una edición de 64 bits compatible del software de base de datos SQL Server para la base de datos back-end. Puede seleccionar una base de datos SQL Server definida anteriormente para usarla para la base de datos back-end o definir una nueva base de datos SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que se va a residir la base de datos de SQL Server y la instancia de SQL Server que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada) o una instancia con nombre que especifique). También puede elegir habilitar la creación de reflejos en el almacén de SQL Server y especificar un testigo de reflejos para la conmutación por error automática.
 
-Para obtener más información SQL Server compatibilidad con clústeres y software de base de datos, consulte La compatibilidad con clústeres y [software](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) de base de datos en la documentación sobre compatibilidad. Para obtener más información sobre cómo configurar SQL Server para la base de datos back-end, consulte[Configurar SQL Server para Lync Server 2010](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) en la documentación sobre implementación.
+Para obtener más información SQL Server compatibilidad con clústeres y software de base de [datos,](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) consulte la documentación sobre compatibilidad. Para obtener más información sobre cómo configurar SQL Server para la base de datos back-end, consulte[Configurar SQL Server para Lync Server 2010](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) en la documentación sobre implementación.
 
 > [!NOTE]
 > Si la cuenta que se utiliza para publicar la topología tiene los permisos y derechos de usuario adecuados, puede crear la base de datos back-end (comunicaciones en tiempo real (CTR)) al publicar la topología. También puede crear la base de datos más adelante, como parte del procedimiento de instalación.

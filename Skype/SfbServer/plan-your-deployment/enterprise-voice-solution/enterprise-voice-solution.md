@@ -44,7 +44,7 @@ Por supuesto, puede tener algunos de sus usuarios habilitados para Telefonía IP
 > [!NOTE]
 > El control remoto de llamadas era una característica que se ofrecía en versiones anteriores de Lync Server, lo que habilitaba a los usuarios a usar su cliente de Skype Empresarial para realizar y recibir llamadas telefónicas en sus teléfonos PBX. El control remoto de llamadas no es compatible con los usuarios que se encuentran en servidores de Skype Empresarial Server, pero se admite para los usuarios con clientes de Skype Empresarial que aún se encuentran en servidores que ejecutan Lync Server 2013. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 
 [Plan for Telefonía IP empresarial in Skype for Business Server](enterprise-voice.md)

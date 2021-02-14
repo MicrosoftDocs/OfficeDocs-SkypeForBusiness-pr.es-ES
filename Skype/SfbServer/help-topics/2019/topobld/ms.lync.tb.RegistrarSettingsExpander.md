@@ -32,7 +32,7 @@ En la sección **Resistencia** del cuadro de diálogo **Editar propiedades**  de
     
 - **Habilitar conmutación por error y conmutación por recuperación** Seleccione esta opción para permitir la detección automática de un registrador con errores y la determinación automática de que el registrador principal está de reserva y listo para reanudar el proceso de registrador.
     
-- **Intervalo de detección de errores (seg.)** Escriba el número de segundos que debe transcurrir antes de que se determine que el registrador principal ha fallado. El valor predeterminado es 120 segundos. Este campo es obligatorio si se selecciona **Habilitar conmutación por error y conmutación por recuperación**.
+- **Intervalo de detección de errores (seg.)** Escriba el número de segundos que deben transcurrir antes de que se determine que el registrador principal ha fallado. El valor predeterminado es 120 segundos. Este campo es obligatorio si se selecciona **Habilitar conmutación por error y conmutación por recuperación**.
     
 - **Intervalo de detección de reserva (seg.)** Escriba el número de segundos que deben transcurrir antes de que se determine que se ha hecho una copia de seguridad del registrador principal. El valor predeterminado es 240 segundos. Este campo es obligatorio si se selecciona **Habilitar conmutación por error y conmutación por recuperación**.
     

@@ -28,6 +28,6 @@ La topología que ha configurado se publica con topology Builder. Se le pedirá 
 
 Para obtener más información sobre el almacén de administración central, consulte Mover el servidor de administración central de [Lync Server 2010 a Lync Server 2013.](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)

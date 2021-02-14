@@ -27,11 +27,11 @@ ms.locfileid: "49822070"
 La implementación del servidor de chat persistente puede hospedar muchos salas de chat persistente simultáneas. Los salones de chat se pueden organizar en un conjunto de categorías en el servidor. Cada salón de chat pertenece a una categoría, y hereda alguna configuración de esa categoría. Esta configuración crea una estructura útil para identificar conversaciones, en función de su propósito empresarial, y facilita la delegación y simplificación de la administración.
   
 > [!NOTE]
-> Aunque muchas de las características de administración de los salas de chat están disponibles en equipos que ejecutan chat persistente para el usuario, los administradores de chat persistente (en el rol **cspersistentchatadministrator)** deben usar el panel de control o los cmdlets del Shell de administración para crear o administrar categorías.
+> Aunque muchas de las características de administración de los salón de chat están disponibles en equipos que ejecutan chat persistente para el usuario, los administradores de chat persistente (en el rol **cspersistentchatadministrator)** deben usar el panel de control o los cmdlets del Shell de administración para crear o administrar categorías.
   
 Los administradores de chat persistente usan el Panel de control de Skype Empresarial Server o cmdlets Windows PowerShell para crear y administrar categorías, y para diseñar el acceso a los salón de chat para los usuarios de su organización.
   
-Los administradores de salón de chat persistente, que tienen la capacidad de administrar uno o más salas de chat, pueden usar el cliente para iniciar una aplicación web de administración de salas para crear y administrar salas (o los clientes pueden crear soluciones y flujos de trabajo personalizados para invocarlos). 
+Los administradores de salón de chat persistente, que tienen la capacidad de administrar uno o más salas de chat, pueden usar el cliente para iniciar una aplicación web de administración de salón para crear y administrar salas (o los clientes pueden crear soluciones y flujos de trabajo personalizados para invocarlos). 
   
 Los administradores de salones pueden hacer cambios en todas las propiedades de salones de chat, excepto en la categoría del salón. No pueden tener restricciones para realizar las siguientes acciones:
   
@@ -122,7 +122,7 @@ Puede realizar las siguientes tareas en la página Configuración de **chat** pe
     
 7. Haga clic en **Confirmar**.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 Para obtener más información sobre las características y capacidades del servidor de chat persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   

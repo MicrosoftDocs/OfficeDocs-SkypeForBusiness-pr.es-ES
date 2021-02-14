@@ -33,7 +33,7 @@ Opciones que se pueden configurar:
   
 - **Use un almacén de SQL Server** definido anteriormente: seleccione un almacén de SQL Server existente de la lista para el almacén del grupo de servidores front-end.
     
-- Seleccione **Definir un nuevo almacén SQL Server para** crear un nuevo SQL Server de almacenamiento.
+- Seleccione **Definir un nuevo almacén SQL Server para** crear un nuevo SQL Server almacén.
     
     Escriba el nombre de dominio completo de la SQL Server en **SQL Server FQDN**
     

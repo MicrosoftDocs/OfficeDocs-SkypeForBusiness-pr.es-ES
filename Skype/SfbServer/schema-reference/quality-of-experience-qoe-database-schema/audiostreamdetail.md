@@ -31,9 +31,9 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio e
 |StreamId  <br/> |entero  <br/> |Identificador único de una línea de medios.  <br/> |
 |StartTime  <br/> |datetime  <br/> |Fecha y hora de inicio de la sesión.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Fecha y hora de finalización de la sesión.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Categoría de cuadro de diálogo: 0 es la parte del servidor de mediación de Skype Empresarial Server; 1 es la parte del servidor de mediación a la puerta de enlace RTC.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Categoría de cuadro de diálogo: 0 es la parte de Skype Empresarial Server al servidor de mediación; 1 es la parte del servidor de mediación a la puerta de enlace RTC.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Marca que indica si la llamada se omitió o no.  <br/> |
-|MediaBypassWarningFlag  <br/> |entero  <br/> |Si está presente, indica por qué no se omitió una llamada aunque coincidan los IDs de omisión. Solo se define un valor:  <br/> 0x0001 - Identificador de desvío desconocido para el adaptador de red predeterminado.  <br/> |
+|MediaBypassWarningFlag  <br/> |entero  <br/> |Si está presente, indica por qué no se omitió una llamada incluso si coincidieron los IDs de omisión. Solo se define un valor:  <br/> 0x0001: identificador de desvío desconocido para el adaptador de red predeterminado.  <br/> |
 |CallPriority  <br/> |entero  <br/> |Prioridad de la llamada.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |FQDN del grupo de autores de llamadas.  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |FQDN del grupo de destinatarios de llamadas.  <br/> |
@@ -58,7 +58,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio e
 |CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indica si el sistema del autor de la llamada se está ejecutando en un entorno virtualizado. Consulta la [tabla Endpoint para](endpoint.md) obtener más información. <br/> |
 |CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indica si el sistema del destinatario de la llamada se está ejecutando en un entorno virtualizado. Consulta la [tabla Endpoint para](endpoint.md) obtener más información. <br/> |
 |CorrelationKey  <br/> ||Clave de correlación. A la que se hace referencia [desde la tabla SessionCorrelation](sessioncorrelation.md).  <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |Información sobre la ruta de acceso multimedia, como directa o retransmitida. Consulta la [tabla MediaLine](medialine-0.md) para obtener más información. <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |Información sobre la ruta de acceso multimedia, como directa o retransmitida. Consulta la [tabla MediaLine para](medialine-0.md) obtener más información. <br/> |
 |CallerIceWarningFlags  <br/> |entero  <br/> |Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el autor de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.  <br/> |
 |CalleeIceWarningFlags  <br/> |entero  <br/> |Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el destinatario de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.  <br/> |
 |Transport  <br/> |tinyint  <br/> |Tipo de transporte: 0 es UDP y 1 es TCP.  <br/> |
@@ -91,7 +91,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio e
 |CalleeVPN  <br/> |bit  <br/> |Indica si el autor de la llamada se conectó a través de una red privada virtual: 1 es una red privada virtual (VPN), 0 no es VPN.  <br/> |
 |CalleeLinkSpeed  <br/> |decimal(18,0)  <br/> |Velocidad de vínculo de red para el extremo del destinatario de la llamada en bps.  <br/> |
 |ConversationalMOS  <br/> |decimal(3,2)  <br/> |MOS de conversación de banda estrecha de las sesiones de audio (basado en ambas secuencias de audio).  <br/> |
-|AppliedBandwidthLimit  <br/> |entero  <br/> |Ancho de banda real aplicado a una secuencia de envío determinada en un entorno regido por diversas directivas (TURN, API, SDP, Servidor de directivas, etc.). No se debe confundir con el ancho de banda efectivo, ya que el ancho de banda efectivo puede ser menor en función de las previsiones de ancho de banda. Este es básicamente el ancho de banda máximo que la secuencia de envío puede tomar los límites de limitación impuestos por la estimación de ancho de banda.  <br/> |
+|AppliedBandwidthLimit  <br/> |entero  <br/> |Ancho de banda real aplicado a una secuencia de envío determinada en un entorno regido por diversas directivas (TURN, API, SDP, Servidor de directivas, etc.). No se debe confundir con el ancho de banda efectivo, ya que el ancho de banda efectivo puede ser menor en función de las previsiones de ancho de banda. Este es básicamente el ancho de banda máximo que la secuencia de envío puede tomar los límites de restricciones impuestos por la estimación de ancho de banda.  <br/> |
 |JitterInterArrival  <br/> |entero  <br/> |Promedio de vibración de red de las estadísticas de Protocolo de control en tiempo real (RTCP).  <br/> |
 |JitterInterArrivalMax  <br/> |entero  <br/> |Vibración máxima de la red durante la llamada.  <br/> |
 |PacketLossRate  <br/> |decimal(5,4)  <br/> |Promedio de frecuencia de pérdida de paquetes durante la llamada.  <br/> |
@@ -102,7 +102,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio e
 |BurstGapDuration  <br/> |entero  <br/> |Duración media de intervalos entre ráfagas de pérdida de paquetes.  <br/> |
 |PacketUtilization  <br/> |entero  <br/> |Recuento de paquetes para la secuencia de audio.  <br/> |
 |BandwidthEst  <br/> |entero  <br/> |Previsiones de ancho de banda de la secuencia de audio.  <br/> |
-|DegradationAvg  <br/> |decimal(3,2)  <br/> |Degradación de MOS de red para toda la llamada. El intervalo es de 0,0 a 5,0. Esta métrica muestra la cantidad que se redujo la red MOS debido a la vibración y la pérdida de paquetes. Para una calidad aceptable, debería ser inferior a 0,5.  <br/> |
+|DegradationAvg  <br/> |decimal(3,2)  <br/> |Degradación de MOS de red para toda la llamada. El intervalo es de 0,0 a 5,0. Esta métrica muestra la cantidad que se redujo la MOS de red debido a la vibración y la pérdida de paquetes. Para una calidad aceptable, debería ser inferior a 0,5.  <br/> |
 |DegradationMax  <br/> |decimal(3,2)  <br/> |Degradación máxima de MOS de red durante la llamada.  <br/> |
 |DegradationJitterAvg  <br/> |decimal(3,2)  <br/> |Degradación MOS de red causada por vibración.  <br/> |
 |DegradationPacketLossAvg  <br/> |decimal(3,2)  <br/> |Degradación de MOS de red causada por la pérdida de paquetes.  <br/> |
@@ -116,11 +116,11 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio e
 |CallerSpeakerGlitchRate  <br/> |entero  <br/> |Problemas promedio cada cinco minutos para la representación del altavoz del autor de la llamada. Para una buena calidad, debería ser inferior a uno cada cinco minutos. Los servidores de conferencia A/V, los servidores de mediación o los teléfonos IP no lo notifican.  <br/> |
 |CallerMicGlitchRate  <br/> |entero  <br/> |Promedio de problemas cada cinco minutos para la captura del micrófono del autor de la llamada. Para una buena calidad, debería ser inferior a uno cada cinco minutos. Los servidores de conferencia A/V, los servidores de mediación o los teléfonos IP no lo notifican.  <br/> |
 |CallerTimestampDriftRateMic  <br/> |decimal(9,2)  <br/> |Velocidad de deriva del reloj del dispositivo del micrófono del autor de la llamada, con relación al reloj de la CPU.  <br/> |
-|CallerTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |Velocidad de deriva del reloj del dispositivo del altavoz del autor de la llamada, con relación al reloj de la CPU.  <br/> |
+|CallerTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |Velocidad de deriva del reloj del dispositivo del altavoz del autor de la llamada, en relación con el reloj de la CPU.  <br/> |
 |CallerTimestampErrorMicMs  <br/> |decimal(9,2)  <br/> |Error medio de marca de tiempo de captura de micrófono, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
 |CallerTimestampErrorSpkMs  <br/> |decimal(9,2)  <br/> |Promedio del error de marca de tiempo de la secuencia de representación del altavoz del autor de la llamada, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
-|CallerVsEntryCauses  <br/> |smallint  <br/> |El conmutador de voz es un modo de dúplex medio con una capacidad de interrupción reducida. Consulta la [tabla MediaLine](medialine-0.md) para obtener más información. <br/> |
-|CallerEchoEventCauses  <br/> |tinyint  <br/> |Causas de un evento de eco para el autor de la llamada. Consulta la [tabla MediaLine](medialine-0.md) para obtener más información. <br/> |
+|CallerVsEntryCauses  <br/> |smallint  <br/> |El conmutador de voz es un modo de dúplex medio con una capacidad de interrupción reducida. Consulta la [tabla MediaLine para](medialine-0.md) obtener más información. <br/> |
+|CallerEchoEventCauses  <br/> |tinyint  <br/> |Causas de un evento de eco para el autor de la llamada. Consulta la [tabla MediaLine para](medialine-0.md) obtener más información. <br/> |
 |CallerEchoPercentMicIn  <br/> |decimal(5,2)  <br/> |Porcentaje de tiempo en el que se detecta eco en la secuencia de captura del micrófono del autor de la llamada. Si se usan auriculares, el valor debe ser bajo.  <br/> |
 |CallerEchoPercentSend  <br/> |decimal(5,2)  <br/> |Porcentaje de tiempo en el que se detecta eco en la secuencia enviada del autor de la llamada. Porcentaje de eco alto en las secuencias de envío una indicación de pérdida de eco.  <br/> |
 |CallerRxAGCSignalLevel  <br/> |entero  <br/> |Nivel de señal recibido en el servidor de mediación de la puerta de enlace para el audio del autor de la llamada; esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para una buena calidad, el intervalo aceptable debe ser de -30 a -18 dBoV.  <br/> |
@@ -138,8 +138,8 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio e
 |CalleeTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |Velocidad de deriva del reloj del dispositivo del altavoz del destinatario de la llamada, en relación con el reloj de la CPU.  <br/> |
 |CalleeTimestampErrorMicMs  <br/> |decimal(9,2)  <br/> |Error medio de marca de tiempo de captura de micrófono, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
 |CalleeTimestampErrorSpkMs  <br/> |decimal(9,2)  <br/> |Promedio del error de marca de tiempo de la secuencia de representación del orador del destinatario de la llamada, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
-|CalleeVsEntryCauses  <br/> |smallint  <br/> |El conmutador de voz es un modo de dúplex medio con una capacidad de interrupción reducida. Consulta la [tabla MediaLine](medialine-0.md) para obtener más información. <br/> |
-|CalleeEchoEventCauses  <br/> |tinyint  <br/> |Causas de un evento de eco para el destinatario de la llamada. Consulta la [tabla MediaLine](medialine-0.md) para obtener más información. <br/> |
+|CalleeVsEntryCauses  <br/> |smallint  <br/> |El conmutador de voz es un modo de dúplex medio con una capacidad de interrupción reducida. Consulta la [tabla MediaLine para](medialine-0.md) obtener más información. <br/> |
+|CalleeEchoEventCauses  <br/> |tinyint  <br/> |Causas de un evento de eco para el destinatario de la llamada. Consulta la [tabla MediaLine para](medialine-0.md) obtener más información. <br/> |
 |CalleeEchoPercentMicIn  <br/> |decimal(5,2)  <br/> |Porcentaje de tiempo en el que se detecta eco en la secuencia de captura del micrófono del destinatario de la llamada. Si se usan auriculares, el valor debe ser bajo.  <br/> |
 |CalleeEchoPercentSend  <br/> |decimal(5,2)  <br/> |Porcentaje de tiempo en el que se detecta eco en la secuencia enviada del destinatario de la llamada. Porcentaje de eco alto en las secuencias de envío una indicación de pérdida de eco.  <br/> |
 |CalleeRxAGCSignalLevel  <br/> |entero  <br/> |Nivel de señal recibido en el servidor de mediación de la puerta de enlace para el audio del destinatario de la llamada; esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para una buena calidad, el intervalo aceptable debe ser de [-30 a -18] dBoV.  <br/> |
@@ -148,8 +148,8 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio e
 |CalleeInitialSignalLevelRMS  <br/> |float  <br/> |Cuadrado medio raíz (RMS) de la señal entrante al destinatario de la llamada hasta los primeros 30 segundos de la llamada.  <br/> |
 |RatioConcealedSamplesAvg  <br/> |decimal(5,2)  <br/> |Proporción media de muestras ocultas generadas por la recuperación de audio en relación con las muestras típicas.  <br/> |
 |RatioStretchedSamplesAvg  <br/> |decimal(5,2)  <br/> |Proporción media de muestras estiradas generadas por recuperación de audio en muestras típicas.  <br/> |
-|RatioCompressedSamplesAvg  <br/> |decimal(5,2)  <br/> |Proporción media de muestras comprimidas generadas por recuperación de audio en muestras típicas.  <br/> |
-|RoundTrip  <br/> |entero  <br/> |Tiempo de ida y vuelta de las estadísticas de RTCP.  <br/> |
+|RatioCompressedSamplesAvg  <br/> |decimal(5,2)  <br/> |Proporción media de muestras comprimidas generadas por la recuperación de audio en relación con las muestras típicas.  <br/> |
+|Ida y vuelta  <br/> |entero  <br/> |Tiempo de ida y vuelta de las estadísticas de RTCP.  <br/> |
 |RoundTripMax  <br/> |entero  <br/> |Tiempo de ida y vuelta máximo de la secuencia de audio.  <br/> |
 |OverallAvgNetworkMOS  <br/> |decimal(3,2)  <br/> |Promedio de MOS de red de banda ancha para la llamada. Esta métrica depende de la pérdida de paquetes, la vibración y el códec usados. El intervalo es de 1,0 a 5,0.  <br/> |
 |OverallMinNetworkMOS  <br/> |decimal(3,2)  <br/> |MOS de red de banda ancha mínima para la llamada.  <br/> |

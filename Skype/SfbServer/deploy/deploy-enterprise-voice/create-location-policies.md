@@ -57,7 +57,7 @@ Para obtener más información, vea [Plan location policies for Skype for Busine
 
 ### <a name="to-create-location-policies"></a>Para crear directivas de ubicación
 
-1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en Skype Empresarial **2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
 
     > [!NOTE]
     > CsLocationPolicy producirá un error si la configuración de **PstnUsage** no está todavía en la lista global de PstnUsages.

@@ -70,7 +70,7 @@ La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y
     
 10. Para terminar de crear vínculos de región de red para la topología, repita los pasos del 4 al 9 con parámetros para otras regiones.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   

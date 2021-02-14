@@ -32,4 +32,4 @@ El Generador de topologías analiza todas las opciones de configuración del doc
   
 ## <a name="see-also"></a>Vea también
 
-[Implementar SQL creación de reflejos para alta disponibilidad del servidor back-end en Skype Empresarial Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Implementar SQL creación de reflejos para la alta disponibilidad del servidor back-end en Skype Empresarial Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

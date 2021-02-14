@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: Cree o modifique un intervalo de números de respuesta de llamadas grupales en Skype Empresarial Server Telefonía IP empresarial.
+description: Cree o modifique un intervalo de números de atención de llamadas grupales en Skype Empresarial Server Telefonía IP empresarial.
 ms.openlocfilehash: f487c277b8eaa03a5b31ce0dc9696b0efe712340
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -29,7 +29,7 @@ Cree o modifique un intervalo de números de atención de llamadas grupales en S
 
 La atención de llamadas grupales se basa en la aplicación Estacionamiento de llamadas. Al implementar la atención de llamadas grupales, debe configurar la tabla de órbitas de estacionamiento de llamadas con intervalos de números de teléfono designados como números de grupo de atención de llamadas. Estos números de grupo son los números que marcan los usuarios para seleccionar las llamadas que suenan para otro usuario.
 
-Al igual que los números de órbita de estacionamiento de llamadas, los números de grupo de atención de llamadas deben ser extensiones virtuales que no tengan ningún usuario o teléfono asignado. Cada grupo de servidores front-end donde implemente la atención de llamadas grupales puede tener uno o más intervalos de números de grupo de atención de llamadas. Los intervalos de números de grupo deben ser únicos globalmente en la implementación y deben asignarse como el tipo **GroupPickup.**
+Al igual que los números de órbita de estacionamiento de llamadas, los números de grupo de atención de llamadas deben ser extensiones virtuales que no tengan ningún usuario o teléfono asignado. Cada grupo de servidores front-end donde implemente la atención de llamadas grupales puede tener uno o más intervalos de números de grupo de atención de llamadas. Los intervalos de números de grupo deben ser únicos globalmente en la implementación y deben asignarse como el **tipo GroupPickup.**
 
 Use el siguiente procedimiento para crear o modificar un intervalo de números de grupo de atención de llamadas en la tabla de órbitas de estacionamiento de llamadas.
 
@@ -77,7 +77,7 @@ Los intervalos de números del grupo de atención de llamadas deben cumplir las 
     > [!IMPORTANT]
     > Use este cmdlet para cambiar el tipo asignado a intervalos de números solo si especificó inicialmente el tipo incorrecto y el intervalo de grupos aún no está en uso. Si cambia el intervalo de números de CallPark a GroupPickup o viceversa y el intervalo de números ya está en uso, el estacionamiento de llamadas o la atención de llamadas grupales dejarán de funcionar para ese intervalo de números. Por ejemplo, si cambia un intervalo de números de CallPark a GroupPick, la aplicación Estacionamiento de llamadas ya no podrá usar ese intervalo de órbitas para estacionar llamadas.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

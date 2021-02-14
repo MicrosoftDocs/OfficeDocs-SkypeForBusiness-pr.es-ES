@@ -23,6 +23,6 @@ ms.locfileid: "49823300"
 ---
 # <a name="voice-traffic-planning-tool"></a>Tráfico de voz (Herramienta de planeación)
  
-La herramienta de planeación usa información sobre el tráfico de usuarios para determinar el número de puertos que se usarán en la implementación. Este número, a su vez, determina el número de servidores de mediación y puertas de enlace que serán necesarios. Para obtener más información, consulte [Estimating voice usage and traffic for Skype for Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).
+La herramienta de planeación usa información sobre el tráfico de usuarios para determinar el número de puertos que se usarán en la implementación. A su vez, este número determina el número de servidores de mediación y puertas de enlace que serán necesarios. Para obtener más información, consulte [Estimating voice usage and traffic for Skype for Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).
   
 

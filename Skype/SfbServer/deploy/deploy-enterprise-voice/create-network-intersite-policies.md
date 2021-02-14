@@ -46,7 +46,7 @@ En la topología de ejemplo de la región de Norteamérica, hay un vínculo dire
 
 3. Repita el paso 2 según sea necesario para crear directivas entre sitios de red para todos los pares de sitios de red que tengan un vínculo cruzado directo.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   

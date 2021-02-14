@@ -29,7 +29,7 @@ Crear o modificar directivas de ancho de banda, que se usan Telefonía IP empres
   
 Las directivas de ancho de banda definen limitaciones en el uso de ancho de banda para las modalidades de audio y vídeo en tiempo real. Las directivas de ancho de banda se aplican a los perfiles de directivabandwidth, que se pueden aplicar a varios sitios de red para el control de admisión de llamadas.
   
-For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Para obtener instrucciones sobre los límites de ancho de banda que debe establecer en su implementación de CAC, consulte [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 Las directivas de ejemplo creadas en el procedimiento siguiente definen límites para el tráfico de audio global, sesiones de audio individuales, el tráfico de vídeo global y sesiones de vídeo individuales. Por ejemplo, el perfil de directiva de ancho de banda 5Mb_Link define los límites siguientes: 
   

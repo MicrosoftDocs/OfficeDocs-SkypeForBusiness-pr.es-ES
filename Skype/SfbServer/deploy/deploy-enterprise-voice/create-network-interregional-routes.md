@@ -79,7 +79,7 @@ En la topología de ejemplo, las rutas entre regiones de red deben definirse par
     
 10. Para terminar de crear rutas entre regiones de red para la topología, repita los pasos del 4 al 9 con la configuración de otras rutas entre regiones de red.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   

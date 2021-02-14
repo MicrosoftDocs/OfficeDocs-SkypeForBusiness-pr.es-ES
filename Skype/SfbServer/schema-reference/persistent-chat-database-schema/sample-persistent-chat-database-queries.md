@@ -24,7 +24,7 @@ ms.locfileid: "49823110"
  
 Esta sección contiene consultas de ejemplo para la base de datos de chat persistente.
   
-Use el siguiente ejemplo para obtener una lista de los salas de chat persistente más activos después de una fecha determinada.
+Use el siguiente ejemplo para obtener una lista de los salón de chat persistente más activos después de una fecha determinada.
   
 ```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages

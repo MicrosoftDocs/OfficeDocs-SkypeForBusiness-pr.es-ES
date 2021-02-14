@@ -32,6 +32,6 @@ La tabla Endpoint es una tabla de apoyo que almacena información sobre los extr
 |**CPUName** <br/> |nvarchar(128)  <br/> ||Nombre de CPU del punto de conexión.  <br/> |
 |**CPUNumberOfCores** <br/> |smallint  <br/> ||Número de núcleos de CPU del punto de conexión.  <br/> |
 |**CPUProcessorSpeed** <br/> |entero  <br/> ||Velocidad del procesador de CPU del punto de conexión.  <br/> |
-|**VirtualizationFlag** <br/> |tinyint  <br/> || Marca de bits que indica si el sistema se ejecuta en un entorno virtualizado: <br/>  0x0000 - Ninguno <br/>  0x0001 - HyperV <br/>  0x0002 - VMWare <br/>  0x0004 - Virtual PC <br/>  0x0008 - Xen PC <br/> |
+|**VirtualizationFlag** <br/> |tinyint  <br/> || Marca de bits que indica si el sistema se ejecuta en un entorno virtualizado: <br/>  0x0000- Ninguno <br/>  0x0001: HyperV <br/>  0x0002 - VMWare <br/>  0x0004- Virtual PC <br/>  0x0008 - Xen PC <br/> |
    
 
