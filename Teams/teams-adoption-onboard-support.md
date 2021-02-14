@@ -37,4 +37,4 @@ Para asegurarse de que los equipos de primeros usuarios y campeones tendrán el 
 - [Problemas conocidos y solución de problemas](https://aka.ms/TeamsKnownIssues)
 - [Aprendizaje de Microsoft Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
 
-![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: Fase [de adopción 3 de Microsoft Teams: Escala.](teams-adoption-phase3-enable.md)
+![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: Fase 3 de [adopción de Microsoft Teams: Escala.](teams-adoption-phase3-enable.md)

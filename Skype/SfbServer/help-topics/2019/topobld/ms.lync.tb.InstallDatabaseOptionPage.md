@@ -44,6 +44,6 @@ Configure opciones avanzadas para la colocación de archivos de base de datos y 
 
  **Ayuda**: haga clic en el botón Ayuda para obtener acceso a esta página de Ayuda.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Colocación del archivo de registro y los datos de SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

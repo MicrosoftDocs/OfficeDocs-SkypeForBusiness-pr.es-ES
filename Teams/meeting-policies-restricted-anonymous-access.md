@@ -65,7 +65,7 @@ Ejecute lo siguiente para quitar la directiva de reunión RestrictedAnonymous de
 Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}
 ```
 
-### <a name="use-the-new-csbatchpolicyassignmentoperation-cmdlet"></a>Usar el New-CsBatchPolicyAssignmentOperation cmdlet
+### <a name="use-the-new-csbatchpolicyassignmentoperation-cmdlet"></a>Usar el cmdlet New-CsBatchPolicyAssignmentOperation programa
 
 Con [la asignación de](assign-policies.md#assign-a-policy-to-a-batch-of-users)directivas por lotes, el número máximo de usuarios para los que puede quitar o actualizar directivas es de 5 000 a la vez. Por ejemplo, si tiene más de 5000 usuarios, tendrá que enviar varios lotes. Para obtener los mejores resultados, no envíe varios lotes a la vez. Permitir que los lotes completen el procesamiento antes de enviar más lotes.
 
@@ -84,7 +84,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 #### <a name="get-the-status-of-the-batch-assignment"></a>Obtener el estado de la asignación por lotes
 
-Cada asignación por lotes devuelve un id. de operación, que puede usar para realizar un seguimiento del progreso y el estado de las asignaciones e identificar los errores que puedan producirse. Por ejemplo, ejecute lo siguiente:
+Cada asignación por lotes devuelve un id. de operación, que puede usar para realizar un seguimiento del progreso y el estado de las asignaciones e identificar los errores que pueden producirse. Por ejemplo, ejecute lo siguiente:
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454ed6115

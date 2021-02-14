@@ -26,7 +26,7 @@ La tabla MonitoredUserSiteLink es una tabla auxiliar. Cada registro representa u
   
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**UserSite1Key** <br/> |entero  <br/> |Principal, Externa  <br/> |Se hace referencia a la [tabla UserSite](usersite.md).  <br/> |
+|**UserSite1Key** <br/> |entero  <br/> |Principal, Externa  <br/> |Se hace referencia desde la [tabla UserSite](usersite.md).  <br/> |
 |**UserSite2Key** <br/> |entero  <br/> |Principal, Externa  <br/> |Referencia de la [tabla UserSite](usersite.md).  <br/> |
    
 

@@ -26,7 +26,7 @@ ms.locfileid: "49808260"
 
 Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Un grupo de agentes es un grupo de personas designadas para responder llamadas de grupo de respuesta.
 
-La **página Grupo de** grupos de respuesta muestra una lista de todos los grupos de agentes  -   definidos para su organización.
+La **página Grupo de**  -  **grupos** de respuesta muestra una lista de todos los grupos de agentes definidos para su organización.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 

@@ -121,7 +121,7 @@ Las siguientes son las posibles razones de los errores y las acciones que puede 
     
     Para usar el complemento Lync VDI, un cliente de Skype Empresarial no debe ejecutarse en el equipo local; de lo contrario, se producirá un error en el emparejamiento. Como procedimiento recomendado, el usuario no debe instalar un cliente de Skype Empresarial en el equipo local.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="tshoot_VDI"> </a>
 
 [Planear Skype Empresarial en entornos VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

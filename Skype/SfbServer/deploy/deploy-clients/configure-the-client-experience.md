@@ -134,10 +134,10 @@ Si su organización tiene implementados Skype Empresarial Server y Lync Server, 
 |:-----|:-----|:-----|
 |Skype Empresarial Server |Predeterminado  <br/> |Skype Empresarial  <br/> |
 |Skype Empresarial Server  |Verdadero  <br/> |Skype Empresarial  <br/> |
-|Skype Empresarial Server  |False  <br/> |Usuario al que se le pide que cambie al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
+|Skype Empresarial Server  |Falso  <br/> |Usuario al que se le pide que cambie al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
 |Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Predeterminado  <br/> |Usuario al que se le pide que cambie al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
 |Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Verdadero  <br/> |Skype Empresarial  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |False  <br/> |Usuario al que se le pide que cambie al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Falso  <br/> |Usuario al que se le pide que cambie al modo Lync (el usuario puede cambiar a Skype Empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)  <br/> |
 |Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Predeterminado  <br/> |Usuario al que se le pide que cambie al modo Lync (el usuario no puede cambiar a Skype Empresarial más adelante)  <br/> |
    
 En la siguiente tabla se muestra la experiencia del cliente cuando el administrador cambia la configuración inicial de la experiencia de la interfaz de usuario de Skype:
@@ -146,9 +146,9 @@ En la siguiente tabla se muestra la experiencia del cliente cuando el administra
 |**Versión del servidor**|**Configuración de EnableSkypeUI**|**Interfaz de usuario de cliente = Lync**|**Interfaz de usuario de cliente = Skype Empresarial**|
 |:-----|:-----|:-----|:-----|
 |Skype Empresarial Server |Verdadero  <br/> |Usuario al que se le pide que cambie a Skype Empresarial  <br/> |Skype Empresarial  <br/> |
-|Skype Empresarial Server |False  <br/> |Modo Lync  <br/> |Usuario al que se le pide que cambie al modo Lync  <br/> |
+|Skype Empresarial Server |Falso  <br/> |Modo Lync  <br/> |Usuario al que se le pide que cambie al modo Lync  <br/> |
 |Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Verdadero  <br/> |Usuario al que se le pide que cambie a Skype Empresarial  <br/> |Skype Empresarial  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |False  <br/> |Modo Lync  <br/> |Usuario al que se le pide que cambie al modo Lync  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con revisiones correctas)  <br/> |Falso  <br/> |Modo Lync  <br/> |Usuario al que se le pide que cambie al modo Lync  <br/> |
 |Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Predeterminado  <br/> |Modo Lync (no se puede cambiar a Skype Empresarial)  <br/> |Modo Lync (no se puede cambiar a Skype Empresarial)  <br/> |
    
 Las versiones de revisión necesarias para administrar la configuración del cliente de Skype Empresarial son:

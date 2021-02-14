@@ -71,7 +71,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Audio** Se comprueba si la directiva de conferencia especifica que el audio está permitido en las conferencias.
 
-- **Vídeo** Se comprueba si la directiva de conferencia especifica que se permite el vídeo en conferencias.
+- **Vídeo** Se comprueba si la directiva de conferencia especifica que el vídeo está permitido en las conferencias.
 
 - **RTC** Se comprueba si la directiva de conferencia especifica que se permite la conferencia de acceso telefónico local RTC.
 

@@ -28,7 +28,7 @@ El Generador de topologías se inicia para configurar las propiedades y la confi
   
 - **Descargar topología de una implementación existente** Seleccione esta opción si ha ejecutado el Generador de topologías y ha publicado correctamente la topología en el servidor de administración central. Esta opción solicita y descarga una copia local de la configuración actual, lo que le permite editar y configurar la implementación existente.
     
-- **Abrir topología desde un archivo local** Seleccione esta opción si está configurando una implementación pero aún no ha publicado la configuración. Esta opción le permite guardar una copia local del trabajo de configuración en el Generador de topologías y volver a él más adelante.
+- **Abrir topología desde un archivo local** Seleccione esta opción si está configurando una implementación pero aún no ha publicado la configuración. Esta opción le permite guardar una copia local del trabajo de configuración en el Generador de topologías y volver a ella más adelante.
     
 - **Nueva topología** Seleccione esta opción para iniciar la configuración de un nuevo documento de topología. Esta opción abre un nuevo documento de topología que puede configurar para que cumpla los requisitos de implementación que usted configure.
     

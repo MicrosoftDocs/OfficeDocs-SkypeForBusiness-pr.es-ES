@@ -23,7 +23,7 @@ ms.locfileid: "49805990"
  
 **Resumen:** Cómo administrar directivas de grupo.
   
-La Consola de administración de directivas de grupo (GPMC) y el Editor de objetos de directiva de grupo son herramientas que se usan para administrar la directiva de grupo. La plantilla administrativa de directiva de grupo de Office está incluida en las plantillas administrativas lync16.admx (ADMX) y .adml (ADML), que contienen la configuración de directiva basada en el Registro para Skype Empresarial que configure para los objetos de directiva de grupo en el dominio. Los archivos ADML son complementos específicos del idioma para los archivos ADMX. Cada archivo ADMX y ADML contiene la configuración de directiva para una sola aplicación de Office. Puede descargar [los archivos de plantilla administrativa de Office 2016 (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030) de forma gratuita desde el Centro de descarga de Microsoft.
+La Consola de administración de directivas de grupo (GPMC) y el Editor de objetos de directiva de grupo son herramientas que se usan para administrar la directiva de grupo. Con la plantilla administrativa de directiva de grupo de Office se incluyen las plantillas administrativas lync16.admx (ADMX) y .adml (ADML), que contienen la configuración de directiva basada en el Registro para Skype Empresarial que configure para objetos de directiva de grupo en el dominio. Los archivos ADML son complementos específicos del idioma para los archivos ADMX. Cada archivo ADMX y ADML contiene la configuración de directiva para una sola aplicación de Office. Puede descargar los archivos de plantilla administrativa [de Office 2016 (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030) de forma gratuita desde el Centro de descarga de Microsoft.
   
 Para los clientes de Skype Empresarial, hay varias directivas de arranque de clientes que debe considerar configurar antes de que los usuarios inicien sesión en el servidor por primera vez. Por ejemplo, los servidores predeterminados y el modo de seguridad que el cliente debe usar hasta que se complete el inicio de sesión. Puede usar la directiva de grupo para establecer esta configuración en los registros del equipo de los usuarios antes de iniciar sesión y empezar a recibir la configuración de aprovisionamiento en banda del servidor. En la tabla siguiente se enumeran las opciones de configuración de directiva de grupo que están disponibles para Skype Empresarial.
   
@@ -56,7 +56,7 @@ Las directivas configuradas en el servidor tienen prioridad frente a la configur
 |3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4   <br/> |Cuadro de diálogo Opciones en Skype Empresarial  <br/> |
    
-### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>Para definir la configuración de la directiva de grupo mediante los archivos de plantilla administrativa de Skype Empresarial
+### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>Para definir la configuración de directiva de grupo mediante los archivos de plantilla administrativa de Skype Empresarial
 
 1. Crea una carpeta de nivel raíz que contenga todos los archivos ADMX independiente del idioma. Por ejemplo, cree una carpeta de nivel raíz del almacén central en su controlador de dominio en esta ubicación:
     

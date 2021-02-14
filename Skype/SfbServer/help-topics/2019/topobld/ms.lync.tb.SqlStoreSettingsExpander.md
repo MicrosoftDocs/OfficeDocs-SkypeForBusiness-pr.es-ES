@@ -36,7 +36,7 @@ Para cambiar la instancia de SQL Server que usa cualquier base de datos que no s
     
 2. En el cuadro de diálogo **Editar propiedades**, realice una de las siguientes acciones:
     
-   - Para usar la instancia SQL Server predeterminada, seleccione **Instancia predeterminada** y, a continuación, haga clic en **Aceptar**.
+   - Para usar la instancia SQL Server predeterminada, seleccione **Instancia predeterminada** y, a continuación, haga clic en **Aceptar.**
     
    - Para usar una instancia de base de datos con nombre, seleccione **Instancia con nombre**, indique un nombre en el cuadro de texto y haga clic en **Aceptar**. Solo debe escribir el nombre de instancia (por ejemplo, ArchivingInstance) y no toda la ruta SQL Server acceso.
     

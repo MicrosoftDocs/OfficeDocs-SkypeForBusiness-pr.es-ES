@@ -74,7 +74,7 @@ En la siguiente lista se describen los campos de la página.
 
     La siguiente configuración se aplica a la colaboración de datos:
 
-  - **Permitir que los participantes federados y anónimos descarguen contenido** Si permite la colaboración de datos, active esta casilla para permitir que los usuarios externos y sin autenticar descarguen contenido, como diapositivas o entregas, desde una conferencia.
+  - **Permitir que los participantes federados y anónimos descarguen contenido** Si permite la colaboración de datos, active esta casilla para permitir que los usuarios externos y sin autenticar descarguen contenido, como diapositivas o entregas, de una conferencia.
 
   - **Permitir a los participantes transferir archivos** Si permite la colaboración de datos, active esta casilla para permitir transferencias de archivos a todos los participantes durante una conferencia.
 

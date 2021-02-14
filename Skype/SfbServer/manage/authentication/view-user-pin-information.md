@@ -61,7 +61,7 @@ Para unirse a una conferencia de acceso telefónico local como usuario autentica
     > [!NOTE]
     > Si el PIN está bloqueado, debe desbloquearlo antes de definirlo. Para desbloquear el PIN, haga clic en el usuario, en **Acción** y en **Desbloquear PIN**. 
   
-6. Haga clic en un usuario en los resultados de búsqueda, en **Acción** y, a continuación, en **Ver estado de PIN.**
+6. Haga clic en un usuario en los resultados de la búsqueda, haga clic en **Acción** y, a continuación, haga clic **en Ver estado de PIN.**
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Visualización de la información del PIN del usuario mediante Windows PowerShell cmdlets
 

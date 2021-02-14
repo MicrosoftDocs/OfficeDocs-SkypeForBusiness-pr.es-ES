@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: 'Resumen: implemente la aplicación web de Skype Empresarial y la aplicación reuniones de Skype que se usa con Skype Empresarial.'
+description: 'Resumen: implemente la aplicación web de Skype Empresarial y la aplicación Reuniones de Skype que se usa con Skype Empresarial.'
 ms.openlocfilehash: afab5d0977adb8749fb514f946b676598d42ea32
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "49805930"
 
 **Resumen:** Implemente la aplicación web de Skype Empresarial 2015 y la aplicación reuniones de Skype que se usa con Skype Empresarial Server.
 
-Skype Empresarial Web App es un cliente web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype Empresarial Server y, de forma predeterminada, se implementa a petición para los usuarios que aún no tienen el cliente de Skype Empresarial. Estos usuarios de reuniones suelen no conectarse desde fuera de la red. Cuando un usuario hace clic en una dirección URL de la reunión pero no tiene instalado el cliente de Skype Empresarial, se le ofrece la opción de unirse a la reunión con la versión más reciente de Skype Empresarial Web App, la aplicación Reuniones de Skype o Skype Empresarial para Mac.
+Skype Empresarial Web App es un cliente web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype Empresarial Server y, de forma predeterminada, se implementa a petición para los usuarios que aún no tienen el cliente de Skype Empresarial. Estos usuarios de reuniones suelen no conectarse desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión pero no tiene instalado el cliente de Skype Empresarial, se le ofrece la opción de unirse a la reunión con la versión más reciente de Skype Empresarial Web App, la aplicación Reuniones de Skype o Skype Empresarial para Mac.
 
 Las características de voz, vídeo y uso compartido de Skype Empresarial Web App requieren un control de Microsoft ActiveX que el explorador del usuario usa como complemento. Puede instalar el control ActiveX por adelantado o permitir a los usuarios instalarlo cuando se le pida, lo que ocurre la primera vez que usan Skype Empresarial Web App o la primera vez que acceden a una característica que requiere el control ActiveX.
 
@@ -38,7 +38,7 @@ La aplicación web de Skype Empresarial, la aplicación reuniones de Skype y Sky
 > [!IMPORTANT]
 > Las siguientes son consideraciones importantes si planea configurar AD FS para la autenticación multifactor:
 
-- La autenticación multifactor ADFS funciona si el participante y el organizador de la reunión están en la misma organización o si ambos son de una organización federada de AD FS. La autenticación ADFS multifactor no funciona para los usuarios federados de Lync porque la infraestructura web de Lync Server no la admite actualmente.
+- La autenticación multifactor ADFS funciona si el participante y el organizador de la reunión están en la misma organización o si ambos son de una organización federada de AD FS. La autenticación multifactor ADFS no funciona para los usuarios federados de Lync porque la infraestructura web de Lync Server no la admite actualmente.
 
 - Si usa equilibradores de carga de hardware, habilite la persistencia de cookies en los equilibradores de carga para que el mismo servidor front-end controle todas las solicitudes de los clientes de la aplicación web de Skype Empresarial o de la aplicación Meetings.
 
@@ -147,7 +147,7 @@ Este procedimiento es opcional y se aplica a Skype Empresarial Server 2015 CU5 y
 > Con MeetingUxUseCdn en la actualización acumulativa 5 de Skype Empresarial Server 2015, el valor predeterminado se establece en False. Esto provoca un problema por el que el cliente de Skype Empresarial para Mac no puede unirse a reuniones de socios no federados como invitado, incluso si el administrador de Skype Empresarial ha establecido MeetingUxUseCdn en True. Para que esto funcione, Skype Empresarial Server 2015 debe tener la actualización acumulativa 7, 6.0.9319.534 o posterior. Consulte Habilitar la aplicación Reuniones de Skype para reemplazar la aplicación web de Skype Empresarial [en Skype Empresarial Server 2015.](https://support.microsoft.com/kb/4132312)
 
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="SMA_Enable"> </a>
 
 [Planeación de clientes de reuniones (aplicación web y aplicación de reuniones)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)

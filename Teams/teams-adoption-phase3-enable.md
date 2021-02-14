@@ -30,7 +30,7 @@ ms.locfileid: "49806110"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de la adopción de Microsoft Teams: Escala
 
-En esta fase, usará sus aprendizajes, equipo de proyecto con talento y relaciones con las partes interesadas, los campeones y los primeros usuarios para apoyar la habilitación de Teams a gran escala para su organización. Seguirá los pasos siguientes mientras se prepara para una participación empresarial continuada con respecto al uso que hace su organización de Microsoft Teams:
+En esta fase, usará sus aprendizajes, equipo de proyecto con talento y las relaciones con las partes interesadas, los campeones y los primeros usuarios para apoyar la habilitación de Teams a gran escala para su organización. Seguirá los pasos siguientes mientras se prepara para una participación empresarial continuada con respecto al uso que hace su organización de Microsoft Teams:
 
 1. Defina resultados y medidas de éxito.
 2. Seleccione la estrategia de servicio.

@@ -84,7 +84,7 @@ Para comprender mejor el proceso que Set-CsCertificate, -Roll y -EffectiveDate u
   
 ![Uso de los parámetros Roll y EffectiveDate.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**Callout**|**Fase**|
+|**Callout**|**Stage**|
 |:-----|:-----|
 |1   <br/> |Inicio: 22/7/2015 12:00:00 AM  <br/> The current AudioVideoAuthentication certificate is due to expire at 2:00:00 PM on 7/22/2015. Esto se determina mediante la marca de tiempo de expiración en el certificado. Planee el reemplazo y la sustitución del certificado para que se contempló una superposición de 8 horas (duración de token predeterminada) antes de que el certificado existente alcance el tiempo de expiración. El plazo de las 2:00:00 a.m. se usa en este ejemplo para permitir al administrador el tiempo adecuado para colocar y aprovisionar los nuevos certificados antes del tiempo efectivo de las 6:00:00 a.m.  <br/> |
 |2   <br/> |22/7/2015 2:00:00 AM - 22/7/2015 5:59:59 AM  <br/> Establecer certificados en servidores perimetrales con un tiempo efectivo de 6:00:00 AM (el plazo de 4 horas es para este ejemplo, pero puede ser más largo) con Set-CsCertificate -Type \<certificate usage type\> -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate \<datetime string of the effective time for new certificate\>  <br/> |

@@ -23,11 +23,11 @@ ms.locfileid: "49805820"
  
 **Resumen:** Cómo instalar y probar la aplicación Skype Empresarial para iOS.
   
-La aplicación skype empresarial para iOS ofrece presencia de Skype Empresarial, mensajería instantánea (MI) y llamadas de voz y vídeo a dispositivos iOS. Los usuarios con Lync 2013 recibirán la aplicación actualizada automáticamente o se les pedirá que la actualicen manualmente, según la configuración del usuario. Los nuevos usuarios pueden descargarlo desde la App Store de Apple. La aplicación de Skype Empresarial para iOS solo está disponible en las versiones 8.0 y posteriores de iOS.
+La aplicación skype empresarial para iOS ofrece presencia de Skype Empresarial, mensajería instantánea (MI) y llamadas de voz y vídeo a dispositivos iOS. Los usuarios con Lync 2013 recibirán la aplicación actualizada automáticamente o se les pedirá que la actualicen manualmente, según la configuración del usuario. Los nuevos usuarios pueden descargarlo desde La App Store de Apple. La aplicación de Skype Empresarial para iOS solo está disponible en las versiones 8.0 y posteriores de iOS.
   
 ## <a name="installing-skype-for-business-for-ios"></a>Instalación de Skype Empresarial para iOS
 
-1. Desde el dispositivo iOS, pulse **Tienda** de aplicaciones y busque **Skype Empresarial para iOS.**
+1. Desde su dispositivo iOS, pulse **Tienda de** aplicaciones y busque **Skype Empresarial para iOS.**
     
 2. Pulse **Descargar**  >  **abrir**. 
     

@@ -36,7 +36,7 @@ Siga estos pasos para crear una nueva directiva de servicio web.
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Servicio web**.
     
-4. En la **página Servicio web,** haga clic en **Nuevo** y, a continuación, realice una de las siguientes acciones:
+4. En la **página Servicio** web, haga clic en **Nuevo** y, a continuación, realice una de las siguientes acciones:
     
    - Para configurar el servicio web para un sitio, haga clic en **Configuración del sitio.** En **Seleccionar un sitio,** haga clic en el sitio al que se aplicará la directiva de servicio web y haga clic en **Aceptar.**
     
@@ -104,7 +104,7 @@ Siga estos pasos para eliminar las opciones de configuración del servicio web.
 
 Puede eliminar las opciones de configuración del servicio web mediante Windows PowerShell y el cmdlet **Remove-CsWebServiceConfiguration.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre el uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, consulte el artículo del blog "Inicio rápido: administración de [Microsoft Lync Server 2010 con PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
   
-### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Para eliminar una colección específica de opciones de configuración del servicio web
+### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Para eliminar una colección específica de opciones de configuración de servicios web
 
 - El siguiente comando quita la configuración de seguridad del servicio web aplicada al sitio Redmond:
     

@@ -46,19 +46,19 @@ Revise nuestros [requisitos previos de adopción](teams-adoption-get-started.md#
 
 ## <a name="assemble-your-team"></a>Reunir a su equipo
 
-En la tabla siguiente se enumeran los roles principales para el equipo del proyecto. En las organizaciones más pequeñas, algunos de estos roles los puede realizar la misma persona.
+En la tabla siguiente se enumeran los roles principales para el equipo del proyecto. En una organización más pequeña, algunos de estos roles pueden ser realizados por la misma persona.
 
 | Rol | Responsabilidades | Departamento |
 | ---- | ---------------- | ---------- |
 | Patrocinador<sup>ejecutivo 1</sup> | Comunicar una visión de alto nivel. Conecte la implementación de Teams con la misión principal y las iniciativas de prioridad de la compañía. | Liderazgo ejecutivo |
 | Propietario correcto<sup>1</sup> | Asegúrese de que los objetivos empresariales se han cumplido con la implementación de Teams. | Cualquier departamento |
 | Administrador de<sup>programas 1</sup> | Supervisar todo el proceso de ejecución e implementación del lanzamiento de Teams. | IT |
-| Campeones<sup>1</sup> | Ayude a compartir sus conocimientos con Teams, apoyar la creación de aptitudes y proporcionar información sobre el uso. | Varios departamentos |
+| Campeones<sup>1</sup> | Ayude a compartir sus experiencias con Teams, apoyar la creación de aptitudes y proporcionar información sobre el uso. | Varios departamentos |
 | Guía de aprendizaje | Administre y comunique el contenido de aprendizaje sobre Teams. | IT u otro |
 | Responsables del departamento (partes interesadas)<sup>2</sup> | Identifique cómo determinados departamentos usarán Teams y fomentar la participación. | Cualquier departamento (administración) |
 | Especialistas en<sup>IT 1</sup> | Supervisar todos los aspectos técnicos de la implementación, incluidas las integraciones. | IT |
 | Cliente potencial<sup>de comunicación 2</sup> | Supervise las comunicaciones de toda la empresa sobre Teams. | Comunicaciones corporativas, IT u otro tipo |
-| Community Manager | Administre la actividad de red diaria de Yammer. Proporcione instrucciones y procedimientos recomendados. | Varios departamentos |
+| Community Manager | Administre la actividad de red de Yammer del día a día. Proporcione instrucciones y procedimientos recomendados. | Varios departamentos |
 
 <sup>1</sup> Estos roles son esenciales para el éxito del proyecto.</br>
 <sup>2</sup> Estos roles son importantes para el éxito general del programa.
@@ -70,7 +70,7 @@ En la mayoría de los casos, este equipo inicial debe ser un pequeño grupo de p
 La [Comunidad técnica de Microsoft](https://aka.ms/TechCommunity) ofrece información proporcionada por expertos en adopción y problemas técnicos para muchos de los productos de Microsoft 365 y Office 365. Le recomendamos que se una a las siguientes comunidades:
 
 - [Comunidad técnica de Microsoft Teams:](https://aka.ms/TeamsCommunity) obtenga respuestas a preguntas sobre productos, aprenda de otros clientes de Teams y siga nuestro blog para estar al día de las nuevas características y casos de uso de Teams. 
-- [Programa de campeones](https://aka.ms/O365Champions) y la comunidad de impulso de la adopción: obtenga información de sus compañeros sobre cómo impulsar mejor la adopción de cargas de trabajo de Microsoft 365 u Office 365, como Teams, SharePoint, Yammer y otros productos. Abierto a profesionales de IT, usuarios empresariales, el desarrollador "accidental" y cualquier persona que esté interesado en impulsar la adopción de servicios en la nube.  
+- [Programa de campeones](https://aka.ms/O365Champions) y la comunidad de impulso de la adopción: obtenga información de sus compañeros sobre cómo impulsar mejor la adopción de las cargas de trabajo de Microsoft 365 u Office 365, como Teams, SharePoint, Yammer y otros productos. Abierto a profesionales de IT, usuarios empresariales, el desarrollador "accidental" y cualquier persona que esté interesado en impulsar la adopción de servicios en la nube.  
 
 
 ![Un icono que representa el siguiente paso ](media/teams-adoption-next-icon.png) Siguiente: Comprender [los equipos y canales](teams-adoption-understand-teams-and-channels.md)

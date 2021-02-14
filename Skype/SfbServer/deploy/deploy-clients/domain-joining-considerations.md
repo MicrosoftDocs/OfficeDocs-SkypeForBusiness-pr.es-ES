@@ -33,7 +33,7 @@ Puede unir el equipo del dispositivo del Sistema de sala de Skype al dominio de 
     
 - Cuando se une un equipo de dispositivo del Sistema de sala de Skype al dominio, es necesario que cree una unidad organizativa (OU) independiente, de modo que pueda proporcionar exclusiones de objetos de directiva de grupo (GPO) a la unidad organizativa donde residen todos los objetos del equipo del Sistema de sala de Skype. Al hacerlo, cree objetos de máquina en la unidad organizativa antes de unir el equipo de dispositivo del Sistema de sala de Skype al dominio.
     
-- Muchas organizaciones tienen los siguientes GPO, que afectan a las funciones de equipo del dispositivo del Sistema de sala de Skype. Asegúrese de invalidar o bloquear la herencia de estos GPO en la unidad organizativa del Sistema de sala de Skype: 
+- Muchas organizaciones tienen los siguientes GPO, que afectan a las funciones de equipo del dispositivo del Sistema de sala de Skype. Asegúrese de invalidar o bloquear la herencia de estos GPO en la unidad organizativa del sistema de sala de Skype: 
     
   - Tiempo de espera de sesiones de inicio de sesión (bloqueo automático)
     
@@ -66,7 +66,7 @@ Incluso si crea una unidad organizativa independiente y bloquea la herencia, hay
   
 Es posible que tenga varios enfoques para resolver estos problemas. Le recomendamos que consulte con los expertos de Active Directory para asegurarse de que se le proporciona una UO que tenga la configuración de GPO adecuada o al menos una OU en la que no existan las directivas descritas anteriormente. Se recomienda habilitar la calidad de servicio (QoS) para los dispositivos del Sistema de sala de Skype.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
   
 [Configuración de dispositivo: Crear nueva o editar existente](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

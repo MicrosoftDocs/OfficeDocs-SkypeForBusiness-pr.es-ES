@@ -1,5 +1,5 @@
 ---
-title: Usuarios ver o configurar la directiva de acceso externo
+title: Usuarios ver o configurar directiva de acceso externo
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

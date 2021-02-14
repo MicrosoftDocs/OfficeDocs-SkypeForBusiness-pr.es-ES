@@ -28,7 +28,7 @@ Puede usar la sección **Categoría de** la **página chat** persistente para co
   
 Las categorías de salones de chat pueden contener salones de chat, pero no otras categorías. Cada categoría describe su contenido con metadatos, como _Nombre_ y _Descripción._ Además, la categoría tiene propiedades que se pueden establecer para controlar el comportamiento de los  salón de chat que le pertenecen, como si los salón de chat permiten invitaciones o cargas de _archivos,_ o contienen historial de _chat._
   
-Para crear una nueva categoría, consulte Administrar categorías en el servidor [de chat persistente en Skype Empresarial Server 2015](../../manage/persistent-chat/categories.md). Si es un administrador de chat persistente, puede crear categorías mediante el panel de control o Windows PowerShell cmdlets.
+Para crear una nueva categoría, consulte Administrar categorías en el servidor [de chat persistente en Skype Empresarial Server 2015](../../manage/persistent-chat/categories.md). Si es un administrador de chat persistente, puede crear categorías mediante el panel de control o los cmdlets Windows PowerShell usuario.
   
 ## <a name="tasks-that-you-can-perform"></a>Tareas que puede realizar
 
@@ -52,7 +52,7 @@ Puede realizar las siguientes tareas en la página **Categoría**:
     
 4. En la página **Categoría**, haga clic en **Nueva** o **Editar**.
     
-5. En **Seleccionar un servicio,** seleccione el servicio correspondiente al grupo de servidores de chat persistente en el que se debe crear la categoría. El servicio es el grupo de servidores de chat persistente que usa el chat persistente (cliente) para identificar a qué grupo pertenece la categoría. Una categoría solo puede pertenecer a un grupo de servidores de chat persistente y no se puede mover a otro, ni compartirse con otro grupo de servidores.
+5. En **Seleccionar un servicio,** seleccione el servicio correspondiente al grupo de servidores de chat persistente en el que se debe crear la categoría. El servicio es el grupo de servidores de chat persistente que el chat persistente (cliente) usa para identificar a qué grupo pertenece la categoría. Una categoría solo puede pertenecer a un grupo de servidores de chat persistente y no se puede mover a otro, ni compartirse con otro grupo de servidores.
     
 6. En **Nueva categoría**, haga lo siguiente:
     
@@ -76,7 +76,7 @@ Puede realizar las siguientes tareas en la página **Categoría**:
     
 13. Haga clic en **Confirmar**.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 Para obtener más información sobre las características y capacidades del servidor de chat persistente, consulte [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)y [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   

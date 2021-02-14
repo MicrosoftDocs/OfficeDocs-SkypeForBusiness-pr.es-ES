@@ -58,6 +58,6 @@ Los temas de esta sección describen cómo usar y personalizar Windows Installer
     
 - [Personalizar la experiencia de cliente mac en Skype Empresarial](customize-the-mac-client-experience.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Implementar el cliente de Skype Empresarial en Microsoft 365 u Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)

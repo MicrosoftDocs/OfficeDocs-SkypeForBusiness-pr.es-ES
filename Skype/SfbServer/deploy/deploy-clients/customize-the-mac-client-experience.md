@@ -37,15 +37,15 @@ Para establecer estas preferencias, llegue a un mensaje de terminal en el Mac de
 | Key  | Tipo | Valor | Descripción |
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Bool    |0 = configuración manual del servidor  <br/> 1 = detección automática de servidores (valor predeterminado)    |Especifique cómo Skype Empresarial identifica el transporte y el servidor que se usarán durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**.   |
-|internalAutoDiscoveryURL    |String    |Dirección URL de detección automática completa    |Url de detección automática interna    |
-|externalAutoDiscoveryURL    |String    |Dirección URL de detección automática completa    |Url de detección automática externa    |
-|httpProxyDomain    |String    ||Dominio proxy HTTP    |
-|httpProxyUserName    |String    ||Nombre de usuario de proxy HTTP    |
-|httpProxyPassword    |String    ||Contraseña de proxy HTTP    |
+|internalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |Url de detección automática interna    |
+|externalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |Url de detección automática externa    |
+|httpProxyDomain    |Cadena    ||Dominio proxy HTTP    |
+|httpProxyUserName    |Cadena    ||Nombre de usuario de proxy HTTP    |
+|httpProxyPassword    |Cadena    ||Contraseña de proxy HTTP    |
 |trustedDomainList    |Matriz    ||Lista de dominios de confianza para redireccionamientos HTTP.    |
 |autoAcceptTimeout    |Número    |300 (valor predeterminado)    |Tiempo de espera de aceptación automática para usuarios sin historial de conversaciones del lado servidor.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = deshabilitado  <br/> 1 = habilitado    |Advierte al usuario al marcar un número de emergencia desde una ubicación desconocida.    |
-|sipAddress    |String    ||La dirección SIP (correo electrónico) usada para iniciar sesión en Skype Empresarial.    |
+|sipAddress    |Cadena    ||La dirección SIP (correo electrónico) usada para iniciar sesión en Skype Empresarial.    |
 |userName    |Cadena    ||UPN (UserName) usado para iniciar sesión en Skype Empresarial.    |
 |userNameInAdvancedOnly    |Bool    |0 = mostrar el campo Nombre de usuario en la pantalla de inicio de sesión principal y en el cuadro de diálogo Propiedades avanzadas  <br/> 1 = mostrar el campo Nombre de usuario solo en el cuadro de diálogo Propiedades avanzadas (valor predeterminado)    |Especifique dónde se muestra el campo Nombre de usuario durante el inicio de sesión.    |
    

@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El SQL almacena el nodo que muestra las bases SQL Server de datos de la topología. Puede efectuar la acción siguiente:'
+description: 'El SQL almacena las listas de SQL Server bases de datos de la topología. Puede efectuar la acción siguiente:'
 ms.openlocfilehash: d443e08339c416f6b00208b4ecbd6e64eecf697d
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

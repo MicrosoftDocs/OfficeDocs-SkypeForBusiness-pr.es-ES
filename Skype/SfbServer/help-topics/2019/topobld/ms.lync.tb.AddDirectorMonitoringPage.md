@@ -30,7 +30,7 @@ Puede **Definir el almacén SQL Server de supervisión** configurando las propie
     
     Haga **clic en** Nuevo para crear una SQL Server de FQDN y, opcionalmente, un nombre de instancia para el almacén del servidor de supervisión.
     
-- Active la casilla SQL Server creación de **reflejos** del almacén si desea agregar la creación de reflejos de la base de datos para el servidor de supervisión.
+- Active la **casilla SQL Server creación** de reflejo del almacén si desea agregar la creación de reflejos de la base de datos para el servidor de supervisión.
     
     Seleccione el **Reflejo del almacén SQL Server de supervisión** existente de la lista.
     

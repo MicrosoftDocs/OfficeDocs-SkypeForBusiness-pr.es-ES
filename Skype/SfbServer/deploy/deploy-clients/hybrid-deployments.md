@@ -25,7 +25,7 @@ Lea este tema para obtener información sobre cómo implementar el Sistema de sa
   
 ## <a name="hybrid-deployments"></a>Implementaciones híbridas
 
-Siga estos pasos si su topología tiene Skype Empresarial Server y Exchange Online, y desea hospedar el buzón de recursos del Sistema de sala de Skype en Exchange Online. En esta sección también se describe un escenario híbrido en el que exchange Online y Exchange Server implementación.
+Siga estos pasos si su topología tiene Skype Empresarial Server y Exchange Online, y desea hospedar el buzón de recursos del Sistema de sala de Skype en Exchange Online. En esta sección también se describe un escenario híbrido en el que se han implementado Exchange Online Exchange Server implementación.
   
 Para fines ilustrativos, usamos LyncSample.com para el dominio local y LyncSample.ccstp.net para el dominio en línea.
   
@@ -43,7 +43,7 @@ Para fines ilustrativos, usamos LyncSample.com para el dominio local y LyncSampl
     
 4. Desencadene la sincronización de directorios y, una vez completada la sincronización, compruebe que los usuarios se combinan en AAD y que no puede cambiar las propiedades de los recursos del destinatario en el Centro de administración de Microsoft 365 u Office 365 Exchange.
     
-5. Compruebe la conectividad de OWA mediante lrstest5@LyncSample.com. (Anteriormente, comprobó la conectividad de OWA con el dominio en línea).
+5. Compruebe la conectividad de OWA mediante lrstest5@LyncSample.com. (Anteriormente, ha comprobado la conectividad de OWA con el dominio en línea).
     
     Después de crear el buzón, puede usar Set-CalendarProcessing en el Shell de administración de Exchange Online para configurar el buzón. Consulte los pasos del 3 al 6 en Implementaciones locales de bosque único para obtener más información.
     

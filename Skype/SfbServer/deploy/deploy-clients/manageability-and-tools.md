@@ -78,19 +78,19 @@ Sistema de sala de Skype es un sistema integrado que se puede integrar completam
     
 - App Locker para evitar que se ejecuten aplicaciones no autorizadas. Todos los puertos USB están deshabilitados en modo de usuario.
     
-  - No hay ninguna aplicación o visor estándar en el hardware del Sistema de sala de Skype. Todo el contenido se representa a través de protocolos HTTP o RDP.
+  - No hay aplicaciones o visores estándar en el hardware del Sistema de sala de Skype. Todo el contenido se representa a través de protocolos HTTP o RDP.
     
   - El equipo del dispositivo ejecuta el sistema operativo Windows Embedded Standard 7. Todo el hardware, incluidos los dispositivos, lo proporcionan los partners OEM.
     
-  - Unión de dominio opcional a Servicios de dominio de Active Directory (AD DS), lo que habilita la administración y el control de cuentas de seguridad local.
+  - Combinación de dominio opcional a Servicios de dominio de Active Directory (AD DS), lo que habilita la administración y el control de cuentas de seguridad local.
     
-- También puede administrar la cuenta de administrador local mediante el Centro de administración de Skype Empresarial.
+- También puede administrar la cuenta de administrador local con el Centro de administración de Skype Empresarial.
     
-- El Sistema de sala de Skype se actualiza a través de procesos estándar de Microsoft Update.
+- El Sistema de sala de Skype se actualiza a través de los procesos estándar de Microsoft Update.
     
 - El Sistema de sala de Skype se conecta con Skype Empresarial.
     
-  - Skype Empresarial usa cifrado y autorización de un extremo a otro para todos los modos de comunicación
+  - Skype Empresarial usa el cifrado y la autorización de un extremo a otro para todos los modos de comunicación
     
   - El Sistema de sala de Skype es compatible con los estándares de seguridad y cumplimiento de Skype Empresarial. Consulte [Plan for security in Skype For Business Server](../../plan-your-deployment/security/security.md) para obtener más información.
     
