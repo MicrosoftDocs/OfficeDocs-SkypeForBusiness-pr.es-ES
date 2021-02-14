@@ -22,12 +22,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820030"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="c30f6-103">Seleccionar registro de uso de RTC</span><span class="sxs-lookup"><span data-stu-id="c30f6-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="f06da-103">Seleccionar registro de uso de RTC</span><span class="sxs-lookup"><span data-stu-id="f06da-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="c30f6-104">Use el cuadro de diálogo **Seleccionar registro de uso de RTC** para buscar un registro de red telefónica conmutada pública (RTC) existente que pueda usar.</span><span class="sxs-lookup"><span data-stu-id="c30f6-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="f06da-104">Use el cuadro de diálogo **Seleccionar registro de uso de RTC** para buscar un registro de red telefónica conmutada pública (RTC) existente que pueda usar.</span><span class="sxs-lookup"><span data-stu-id="f06da-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="c30f6-105">Para recuperar todos los registros de uso de RTC disponibles, deje vacío el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="c30f6-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="f06da-105">Para recuperar todos los registros de uso de RTC disponibles, deje vacío el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f06da-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   

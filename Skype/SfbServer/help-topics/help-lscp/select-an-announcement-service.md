@@ -22,12 +22,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49822020"
 ---
-# <a name="select-an-announcement-service"></a><span data-ttu-id="51171-103">Seleccionar servicio de anuncio</span><span class="sxs-lookup"><span data-stu-id="51171-103">Select an Announcement Service</span></span>
+# <a name="select-an-announcement-service"></a><span data-ttu-id="0e902-103">Seleccionar servicio de anuncio</span><span class="sxs-lookup"><span data-stu-id="0e902-103">Select an Announcement Service</span></span>
  
-<span data-ttu-id="51171-104">Use el cuadro de diálogo **Seleccionar un servicio de anuncio** para seleccionar un servicio de anuncio que controlará las llamadas entrantes en un intervalo de números sin asignar.</span><span class="sxs-lookup"><span data-stu-id="51171-104">Use the **Select an Announcement Service** dialog box to select an Announcement service that will handle incoming calls to a range of unassigned numbers.</span></span>
+<span data-ttu-id="0e902-104">Use el cuadro de diálogo **Seleccionar un servicio de anuncio** para seleccionar un servicio de anuncio que controlará las llamadas entrantes en un intervalo de números sin asignar.</span><span class="sxs-lookup"><span data-stu-id="0e902-104">Use the **Select an Announcement Service** dialog box to select an Announcement service that will handle incoming calls to a range of unassigned numbers.</span></span>
   
-<span data-ttu-id="51171-p101">En el cuadro de búsqueda, escriba el nombre completo o parcial del servicio de anuncio que desea usar. Para devolver todos los servicios de anuncio disponibles, deje el cuadro de búsqueda en blanco y haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="51171-p101">In the search box, type all or part of the name of the Announcement service that you want to use. To return all available Announcement services, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="0e902-p101">En el cuadro de búsqueda, escriba el nombre completo o parcial del servicio de anuncio que desea usar. Para devolver todos los servicios de anuncio disponibles, deje el cuadro de búsqueda en blanco y haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0e902-p101">In the search box, type all or part of the name of the Announcement service that you want to use. To return all available Announcement services, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="51171-107">En la lista de servicios de anuncio devueltos por la búsqueda, seleccione el servicio que desee usar para controlar llamadas entrantes en el intervalo de números sin asignar.</span><span class="sxs-lookup"><span data-stu-id="51171-107">In the list of Announcement services returned by the search, select the service you want to use to handle incoming calls to the range of unassigned numbers.</span></span>
+<span data-ttu-id="0e902-107">En la lista de servicios de anuncio devueltos por la búsqueda, seleccione el servicio que desee usar para controlar llamadas entrantes en el intervalo de números sin asignar.</span><span class="sxs-lookup"><span data-stu-id="0e902-107">In the list of Announcement services returned by the search, select the service you want to use to handle incoming calls to the range of unassigned numbers.</span></span>
   
 

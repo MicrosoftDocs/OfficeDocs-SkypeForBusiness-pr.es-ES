@@ -22,16 +22,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820380"
 ---
-# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="8afa3-104">Directiva de acceso externo: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="8afa3-104">External Access Policy: Create New or Edit Existing</span></span>
+# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="9b823-104">Directiva de acceso externo: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="9b823-104">External Access Policy: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="8afa3-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="8afa3-105">What do you want to do?</span></span> <span data-ttu-id="8afa3-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="8afa3-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="9b823-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="9b823-105">What do you want to do?</span></span> <span data-ttu-id="9b823-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="9b823-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="8afa3-107">Restablecer o eliminar directivas de acceso de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="8afa3-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [<span data-ttu-id="9b823-107">Restablecer o eliminar directivas de acceso de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="9b823-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
 
-- [<span data-ttu-id="8afa3-108">Configurar directivas para controlar el acceso de usuarios federados</span><span class="sxs-lookup"><span data-stu-id="8afa3-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="9b823-108">Configurar directivas para controlar el acceso de usuarios federados</span><span class="sxs-lookup"><span data-stu-id="9b823-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="8afa3-109">Administrar el acceso de usuarios remotos</span><span class="sxs-lookup"><span data-stu-id="8afa3-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [<span data-ttu-id="9b823-109">Administrar el acceso de usuarios remotos</span><span class="sxs-lookup"><span data-stu-id="9b823-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
 
-- [<span data-ttu-id="8afa3-110">Configurar directivas para controlar el acceso de los usuarios de proveedores de servicios de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="8afa3-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [<span data-ttu-id="9b823-110">Configurar directivas para controlar el acceso de los usuarios de proveedores de servicios de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="9b823-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
 
 

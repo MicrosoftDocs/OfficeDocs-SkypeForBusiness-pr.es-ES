@@ -22,9 +22,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820000"
 ---
-# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="134eb-103">Regla de normalización: Escribir una expresión regular</span><span class="sxs-lookup"><span data-stu-id="134eb-103">Normalization Rule: Type a Regular Expression</span></span>
+# <a name="normalization-rule-type-a-regular-expression"></a><span data-ttu-id="8bee3-103">Regla de normalización: Escribir una expresión regular</span><span class="sxs-lookup"><span data-stu-id="8bee3-103">Normalization Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="134eb-104">Escriba una expresión regular de .NET Framework para especificar el patrón coincidente para los números de teléfono de destino a los que se aplica la ruta.</span><span class="sxs-lookup"><span data-stu-id="134eb-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
+<span data-ttu-id="8bee3-104">Escriba una expresión regular de .NET Framework para especificar el patrón coincidente para los números de teléfono de destino a los que se aplica la ruta.</span><span class="sxs-lookup"><span data-stu-id="8bee3-104">Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.</span></span> 
   
  
   

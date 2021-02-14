@@ -22,10 +22,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819690"
 ---
-# <a name="monitoring-planning-tool"></a><span data-ttu-id="3c8aa-103">Supervisión (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="3c8aa-103">Monitoring (Planning Tool)</span></span>
+# <a name="monitoring-planning-tool"></a><span data-ttu-id="a3e88-103">Supervisión (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="a3e88-103">Monitoring (Planning Tool)</span></span>
 
-<span data-ttu-id="3c8aa-104">En Skype Empresarial Server, la supervisión se usa para recopilar información de uso y datos de calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios.</span><span class="sxs-lookup"><span data-stu-id="3c8aa-104">In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
+<span data-ttu-id="a3e88-104">En Skype Empresarial Server, la supervisión se usa para recopilar información de uso y datos de calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios.</span><span class="sxs-lookup"><span data-stu-id="a3e88-104">In Skype for Business Server, monitoring is used to collect usage information and Quality of Experience (QoE) data about the communication sessions that your users are involved in.</span></span>
 
-<span data-ttu-id="3c8aa-105">Para obtener más información acerca de la planeación del servidor de supervisión, consulte [Planeación de la supervisión.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)</span><span class="sxs-lookup"><span data-stu-id="3c8aa-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
+<span data-ttu-id="a3e88-105">Para obtener más información acerca de la planeación del servidor de supervisión, consulte [Planeación de la supervisión.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)</span><span class="sxs-lookup"><span data-stu-id="a3e88-105">For more details about planning for Monitoring Server, see [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).</span></span>
 
 

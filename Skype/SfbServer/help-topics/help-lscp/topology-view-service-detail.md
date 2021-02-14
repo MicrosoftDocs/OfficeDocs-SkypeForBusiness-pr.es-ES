@@ -22,17 +22,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49818920"
 ---
-# <a name="topology-view-service-detail"></a><span data-ttu-id="556b5-104">Topología: Ver detalle del servicio</span><span class="sxs-lookup"><span data-stu-id="556b5-104">Topology: View Service Detail</span></span>
+# <a name="topology-view-service-detail"></a><span data-ttu-id="3422d-104">Topología: Ver detalle del servicio</span><span class="sxs-lookup"><span data-stu-id="3422d-104">Topology: View Service Detail</span></span>
 
-<span data-ttu-id="556b5-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="556b5-105">What do you want to do?</span></span> <span data-ttu-id="556b5-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="556b5-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3422d-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="3422d-105">What do you want to do?</span></span> <span data-ttu-id="3422d-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="3422d-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="556b5-107">Ver una lista de equipos que ejecutan Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="556b5-107">View a List of Computers Running Lync Server 2010</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="3422d-107">Ver una lista de equipos que ejecutan Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="3422d-107">View a List of Computers Running Lync Server 2010</span></span>](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
-- [<span data-ttu-id="556b5-108">Ver detalles sobre un servicio</span><span class="sxs-lookup"><span data-stu-id="556b5-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="3422d-108">Ver detalles sobre un servicio</span><span class="sxs-lookup"><span data-stu-id="3422d-108">View Details About a Service</span></span>](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 
-- [<span data-ttu-id="556b5-109">Iniciar o detener los servicios de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="556b5-109">Start or Stop Lync Server 2010 Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="3422d-109">Iniciar o detener los servicios de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="3422d-109">Start or Stop Lync Server 2010 Services</span></span>](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
 
-- [<span data-ttu-id="556b5-110">Impedir nuevas conexiones a servicios</span><span class="sxs-lookup"><span data-stu-id="556b5-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [<span data-ttu-id="3422d-110">Impedir nuevas conexiones a servicios</span><span class="sxs-lookup"><span data-stu-id="3422d-110">Prevent New Connections to Services</span></span>](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
-<span data-ttu-id="556b5-111">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="556b5-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="3422d-111">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="3422d-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

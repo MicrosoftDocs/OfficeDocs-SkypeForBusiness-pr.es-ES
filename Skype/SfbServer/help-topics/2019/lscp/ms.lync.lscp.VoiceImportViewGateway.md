@@ -22,9 +22,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49820090"
 ---
-# <a name="view-gateways-import-configuration"></a><span data-ttu-id="90c4d-103">Ver puertas de enlace (Importar configuración)</span><span class="sxs-lookup"><span data-stu-id="90c4d-103">View Gateways (Import Configuration)</span></span>
+# <a name="view-gateways-import-configuration"></a><span data-ttu-id="87b1c-103">Ver puertas de enlace (Importar configuración)</span><span class="sxs-lookup"><span data-stu-id="87b1c-103">View Gateways (Import Configuration)</span></span>
  
-<span data-ttu-id="90c4d-104">En **Puerta de enlace implementada**, haga clic en la puerta de enlace donde desee importar el archivo de configuración de voz que ha seleccionado.</span><span class="sxs-lookup"><span data-stu-id="90c4d-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
+<span data-ttu-id="87b1c-104">En **Puerta de enlace implementada**, haga clic en la puerta de enlace donde desee importar el archivo de configuración de voz que ha seleccionado.</span><span class="sxs-lookup"><span data-stu-id="87b1c-104">In **Deployed gateway**, click the gateway where you want to import the voice configuration file that you selected.</span></span>
   
  
   

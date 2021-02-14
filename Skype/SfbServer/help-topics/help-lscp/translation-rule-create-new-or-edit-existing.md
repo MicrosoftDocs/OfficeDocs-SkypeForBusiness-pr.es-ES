@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49818870"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="54d18-104">Regla de conversión: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="54d18-104">Translation Rule: Create New or Edit Existing</span></span>
+# <a name="translation-rule-create-new-or-edit-existing"></a><span data-ttu-id="4f07a-104">Regla de conversión: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="4f07a-104">Translation Rule: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="54d18-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="54d18-105">What do you want to do?</span></span> <span data-ttu-id="54d18-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="54d18-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4f07a-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="4f07a-105">What do you want to do?</span></span> <span data-ttu-id="4f07a-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="4f07a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="54d18-107">Crear o modificar una regla de conversión para la presentación de id. llamada en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="54d18-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="4f07a-107">Crear o modificar una regla de conversión para la presentación de id. llamada en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="4f07a-107">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="54d18-108">Crear o modificar una regla de conversión manualmente</span><span class="sxs-lookup"><span data-stu-id="54d18-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="4f07a-108">Crear o modificar una regla de conversión manualmente</span><span class="sxs-lookup"><span data-stu-id="4f07a-108">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
-<span data-ttu-id="54d18-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="54d18-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="4f07a-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="4f07a-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -21,18 +21,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821800"
 ---
-# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="4ca91-103">Administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="4ca91-103">Statistics Manager for Skype for Business Server</span></span>
+# <a name="statistics-manager-for-skype-for-business-server"></a><span data-ttu-id="c72c9-103">Administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="c72c9-103">Statistics Manager for Skype for Business Server</span></span>
  
-<span data-ttu-id="4ca91-104">**Resumen:** Lea este tema para obtener información sobre el Administrador de estadísticas de Skype Empresarial Server, una herramienta eficaz que le permite ver datos de rendimiento y estado de Skype Empresarial Server en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="4ca91-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
+<span data-ttu-id="c72c9-104">**Resumen:** Lea este tema para obtener información sobre el Administrador de estadísticas de Skype Empresarial Server, una herramienta eficaz que le permite ver datos de rendimiento y estado de Skype Empresarial Server en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="c72c9-104">**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.</span></span>
   
-<span data-ttu-id="4ca91-105">En esta sección se presentan los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="4ca91-105">This section contains the following topics:</span></span>
+<span data-ttu-id="c72c9-105">En esta sección se presentan los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="c72c9-105">This section contains the following topics:</span></span>
   
-- [<span data-ttu-id="4ca91-106">Planear el administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="4ca91-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
+- [<span data-ttu-id="c72c9-106">Planear el administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="c72c9-106">Plan for Statistics Manager for Skype for Business Server</span></span>](plan.md)
     
-- [<span data-ttu-id="4ca91-107">Implementar el administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="4ca91-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
+- [<span data-ttu-id="c72c9-107">Implementar el administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="c72c9-107">Deploy Statistics Manager for Skype for Business Server</span></span>](deploy.md)
     
-- [<span data-ttu-id="4ca91-108">Actualizar el administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="4ca91-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
+- [<span data-ttu-id="c72c9-108">Actualizar el administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="c72c9-108">Upgrade Statistics Manager for Skype for Business Server</span></span>](upgrade.md)
     
-- [<span data-ttu-id="4ca91-109">Solucionar problemas del administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="4ca91-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
+- [<span data-ttu-id="c72c9-109">Solucionar problemas del administrador de estadísticas para Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="c72c9-109">Troubleshoot Statistics Manager for Skype for Business Server</span></span>](troubleshoot.md)
     
 

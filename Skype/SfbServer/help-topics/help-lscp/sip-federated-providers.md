@@ -22,10 +22,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49819090"
 ---
-# <a name="sip-federated-providers"></a><span data-ttu-id="70e44-104">Proveedores federados SIP</span><span class="sxs-lookup"><span data-stu-id="70e44-104">SIP Federated Providers</span></span>
+# <a name="sip-federated-providers"></a><span data-ttu-id="f8365-104">Proveedores federados SIP</span><span class="sxs-lookup"><span data-stu-id="f8365-104">SIP Federated Providers</span></span>
 
-<span data-ttu-id="70e44-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="70e44-105">What do you want to do?</span></span> <span data-ttu-id="70e44-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="70e44-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f8365-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="f8365-105">What do you want to do?</span></span> <span data-ttu-id="f8365-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="f8365-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="70e44-107">Administrar proveedores federados SIP para su organización</span><span class="sxs-lookup"><span data-stu-id="70e44-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="f8365-107">Administrar proveedores federados SIP para su organización</span><span class="sxs-lookup"><span data-stu-id="f8365-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 
