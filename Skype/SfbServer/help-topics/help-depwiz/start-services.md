@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800680"
 ---
-# <a name="start-services"></a><span data-ttu-id="6e1af-104">Iniciar servicios</span><span class="sxs-lookup"><span data-stu-id="6e1af-104">Start Services</span></span>
+# <a name="start-services"></a><span data-ttu-id="1aeac-104">Iniciar servicios</span><span class="sxs-lookup"><span data-stu-id="1aeac-104">Start Services</span></span>
  
-<span data-ttu-id="6e1af-p102">Para iniciar los servicios en el rol de servidor implementado, haga clic en **Ejecutar** en **Paso 4: Iniciar servicios**. Debe haber iniciado sesión como miembro del grupo de administradores locales o uno equivalente para realizar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="6e1af-p102">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**. You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
+<span data-ttu-id="1aeac-p102">Para iniciar los servicios en el rol de servidor implementado, haga clic en **Ejecutar** en **Paso 4: Iniciar servicios**. Debe haber iniciado sesión como miembro del grupo de administradores locales o uno equivalente para realizar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="1aeac-p102">To start the services on the deployed server role, click **Run** in **Step 4: Start Services**. You must be logged on as a member of the local Administrators group or an equivalent.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="6e1af-107">Si se ha ejecutado **Iniciar servicios**, se puede volver a ejecutar el comando haciendo clic en **Ejecutar de nuevo**.</span><span class="sxs-lookup"><span data-stu-id="6e1af-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
+> <span data-ttu-id="1aeac-107">Si se ha ejecutado **Iniciar servicios**, se puede volver a ejecutar el comando haciendo clic en **Ejecutar de nuevo**.</span><span class="sxs-lookup"><span data-stu-id="1aeac-107">If **Start Services** has been run, you can rerun the command by clicking **Run Again**.</span></span> 
   
 

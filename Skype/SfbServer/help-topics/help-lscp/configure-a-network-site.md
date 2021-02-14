@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49800410"
 ---
-# <a name="configure-a-network-site"></a><span data-ttu-id="575fb-104">Configurar un sitio de red</span><span class="sxs-lookup"><span data-stu-id="575fb-104">Configure a Network Site</span></span>
+# <a name="configure-a-network-site"></a><span data-ttu-id="cd50f-104">Configurar un sitio de red</span><span class="sxs-lookup"><span data-stu-id="cd50f-104">Configure a Network Site</span></span>
 
-<span data-ttu-id="575fb-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="575fb-105">What do you want to do?</span></span> <span data-ttu-id="575fb-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="575fb-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cd50f-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="cd50f-105">What do you want to do?</span></span> <span data-ttu-id="cd50f-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="cd50f-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="575fb-107">Configuración de sitios de red</span><span class="sxs-lookup"><span data-stu-id="575fb-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="cd50f-107">Configuración de sitios de red</span><span class="sxs-lookup"><span data-stu-id="cd50f-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
-<span data-ttu-id="575fb-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="575fb-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="cd50f-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="cd50f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
