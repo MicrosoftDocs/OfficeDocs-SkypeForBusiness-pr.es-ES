@@ -1,5 +1,5 @@
 ---
-title: Llamar desde una reunión de Skype empresarial para que otras personas puedan unirse
+title: Llamar desde una reunión de Skype Empresarial para que otras personas puedan unirse a ella
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -28,18 +28,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44164289"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Skype empresarial para que otras personas puedan unirse
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Skype Empresarial para que otras personas puedan unirse a ella
 
 > [!NOTE]
 > Si está buscando información acerca de cómo llamar desde una reunión de Teams, vea [Llamar desde una reunión de Teams para que otras personas puedan unirse](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
 As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
-- Solo puede hacer una llamada si se une a una reunión con una aplicación de Skype empresarial.
+- Puede llamar solo si se une a una reunión con una aplicación de Skype Empresarial.
     
 - Como organizador de la reunión, está habilitado para las conferencias de acceso telefónico local.
 
-Para agregar a otros participantes mediante el acceso telefónico a las reuniones de su organización, debe estar presente al menos un usuario autenticado de la misma organización que el organizador (su organización) en la reunión a fin de permitir que se agreguen otros participantes a través de la llamada. 
+Para agregar a otros participantes mediante llamada a las reuniones de su organización, es necesario que al menos un usuario autenticado de la misma organización que el organizador (su organización) esté presente en la reunión para permitir la adición de otros participantes a través de la llamada. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -54,11 +54,11 @@ Para agregar a otros participantes mediante el acceso telefónico a las reunione
   
 ## <a name="supported-countries-and-regions"></a>Países y regiones admitidas
 
-Dial-out is only available to some countries/regions. Para obtener una lista completa, consulte [disponibilidad de países y regiones para las conferencias de audio y los planes de llamadas](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Dial-out is only available to some countries/regions. Para ver la lista completa, consulte Disponibilidad del país y la región para planes de [audioconferencia y llamadas.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>¿Desea saber más sobre las conferencias de acceso telefónico local?
 
-[Probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Licencias de complemento de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

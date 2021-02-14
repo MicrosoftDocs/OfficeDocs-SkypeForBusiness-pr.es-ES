@@ -31,13 +31,13 @@ ms.locfileid: "44164479"
 
 Con Skype Empresarial, los usuarios pueden buscar a todos los que usen la aplicación gratuita de Skype (la aplicación gratuita) y comunicarse con ellos con mensajería instantánea. En este artículo se explica lo que necesita hacer para que puedan agregar contactos de Skype. 
   
-Para ello, debe tener [permisos de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) en Microsoft 365 u Office 365.
+Para [hacerlo, debe tener permisos](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) de administrador en Microsoft 365 u Office 365.
 
 ![Icono que muestra el logotipo de Skype Empresarial](../images/sfb-logo-30x30.png) **Usar el Centro de administración de Skype Empresarial**
   
-1. Inicie sesión con su cuenta de administrador de Microsoft 365 u Office [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)365 en.
+1. Inicie sesión con su cuenta de administrador de Microsoft 365 u Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
     
-2. En el centro de administración, vaya a **centros** > de administración**de Skype empresarial**. 
+2. En el Centro de administración, vaya a **Centros de administración** de Skype  >  **Empresarial.** 
     
     ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
@@ -55,7 +55,7 @@ Para ello, debe tener [permisos de administrador](https://support.office.com/art
     
 6.  Si usa el Firewall de Windows, Skype Empresarial abre automáticamente los puertos solicitados.
     
-    Si su organización usa otra solución para impedir que los equipos de su red se conecten a Internet, asegúrese de que los equipos cliente pueden acceder a todas las [direcciones IP y direcciones URL](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para conectividad de Skype y búsqueda en el directorio de Skype. Esto puede requerir agregar estas direcciones a la lista de permitidos de salida en la configuración de infraestructura de proxy o firewall.
+    Si su organización usa otra solución para restringir la conexión a Internet de los equipos en la red, asegúrese de que los equipos cliente pueden acceder a todas las direcciones IP y [URL](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para la conectividad de Skype y la búsqueda en el directorio de Skype. Esto puede requerir agregar estas direcciones a la lista de permitidos de salida en la configuración de infraestructura de proxy o firewall.
     
 7. **AGUARDE HASTA 24 HORAS PARA LA PRUEBA**. Cada vez que modifica la configuración de comunicaciones externas, los cambios pueden demorar hasta 24 horas en completarse en todos los centros de datos.
     
@@ -73,7 +73,7 @@ Para probar su instalación, necesita un contacto en Skype que no esté bloquead
   
 3. En Skype Empresarial, busque su contacto en Skype y envíe una solicitud para chatear. 
     
-    Si recibes el mensaje no se pudo enviar debido a la Directiva de la empresa, deberás comprobar la [configuración del firewall](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
+    Si recibe el mensaje que no se pudo enviar debido a la directiva de la empresa, tendrá que volver a comprobar la configuración [del firewall.](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) 
     
 4. Otro método para comprobar si el problema es del firewall consiste en ir a un lugar que tenga una conexión WiFi que no esté bloqueada por este, como una cafetería, y utilizar Skype Empresarial para enviar una solicitud para chatear a su contacto de Skype. 
     
@@ -85,15 +85,15 @@ Para probar su instalación, necesita un contacto en Skype que no esté bloquead
 
 - **Skype Empresarialpara Mac** no permite buscar contactos de Skype ni comunicarse con ellos.
     
-- Cuando la búsqueda de directorio está habilitada, puede buscar y buscar usuarios de Skype y Skype empresarial. Si, por algún motivo, no puedes encontrarlos en el directorio, puedes enviarles una solicitud de autorización y, después, pedirles que inicien sesión en Skype y que lo acepten para que puedas enviar mensajes instantáneos con ellos. 
+- Cuando está habilitada la búsqueda en directorios, puede buscar y encontrar usuarios de Skype y Skype Empresarial. Si por algún motivo no los encuentras buscando en el directorio, puedes enviarles una solicitud de contacto y, a continuación, hacer que inicien sesión en Skype y la acepten, para que puedas enviar mensajes por mensajería instantánea con ellos. 
     
 - No es posible permitir la conectividad de mensajería instantánea con otros proveedores de mensajería instantánea como Google o Facebook. No puede utilizar Skype Empresarial para enviar mensajes de texto a teléfonos móviles.
 
-- No es posible grabar llamadas de audio o vídeo entre un contacto de Skype y un contacto de Skype empresarial.
+- No es posible grabar llamadas de audio o vídeo entre un contacto de Skype y un contacto de Skype Empresarial.
     
 ## <a name="what-features-are-available-when-adding-skype-contacts"></a>¿Cuáles son las características disponibles al agregar contactos de Skype?
 
-Los contactos de Skype que hayan iniciado sesión con su cuenta Microsoft (anteriormente, Windows Live ID) pueden obtener algunas de las características, pero no todas, cuando se comuniquen con los usuarios de Skype empresarial.
+Los contactos de Skype que han iniciado sesión con su cuenta de Microsoft (anteriormente Windows Live ID) pueden obtener algunas características, pero no todas, cuando se están hablando con sus usuarios de Skype Empresarial.
   
 |**Disponible con los contactos de Skype**|**No disponible con los contactos de Skype**|
 |:-----|:-----|

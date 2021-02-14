@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Obtenga información sobre los idiomas que puede establecer en Skype empresarial para los mensajes del sistema predeterminados y los saludos del buzón de voz.
+description: Aprenda qué idiomas puede establecer en Skype Empresarial para los mensajes del sistema y saludos del correo de voz predeterminados.
 ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
 ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
@@ -38,7 +38,7 @@ Para modificar el idioma que Skype Empresarial utiliza para los saludos del corr
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Idioma** <br/> |**País o región** <br/> |**Código del idioma** <br/> |**¿Está disponible para que un usuario lo vea en el correo electrónico?** <br/> |**¿Está disponible cuando el usuario llama?** <br/> |**¿La transcripción está disponible?** <br/> |
-|Árabe <br/> |Egipto  <br/> |ar: EG  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Árabe <br/> |Egipto  <br/> |ar-EG  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Catalán  <br/> |Catalán  <br/> |ca-ES  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Chino (simplificado)  <br/> |China  <br/> |zh-hans  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |China (RAE de Hong Kong)  <br/> |China  <br/> |zh-hk  <br/> |Sí, pero se utiliza chino (tradicional) (zh-hant).  <br/> | Sí <br/> |Sí, pero se utiliza chino (tradicional) (zh-hant).  <br/> |
@@ -64,18 +64,18 @@ Para modificar el idioma que Skype Empresarial utiliza para los saludos del corr
 |Coreano  <br/> |Coreano  <br/> |ko-KR  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Noruego (Bokmal)  <br/> |Noruega  <br/> |nb-NO  <br/> |Sí  <br/> |No  <br/> |No  <br/> |
 |Polaco  <br/> |Polonia  <br/> |pl-PL  <br/> |Sí  <br/> | Sí <br/> |No  <br/> |
-|Portugués  <br/> |Brasil  <br/> |pt-BR  <br/> |Sí, pero se utiliza portugués de Portugal (pt-PT).  <br/> |Sí   <br/> |Sí  <br/> |
-|Portugués  <br/> |Portugal  <br/> |pt-PT  <br/> |Sí   <br/> |Sí  <br/> |Sí, pero se utiliza portugués de Brasil (pt-BR).  <br/> |
-|Rumano<br/> |Rumania  <br/> |ro-RO  <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Ruso  <br/> |Rusia  <br/> |ru-RU  <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Eslovaco <br/> |Eslovaquia  <br/> |sk-SK  <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Esloveno <br/> |Eslovenia  <br/> |SL-SI  <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Español  <br/> |España  <br/> |es-ES  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
+|Portugués  <br/> |Brasil  <br/> |pt-BR  <br/> |Sí, pero se utiliza portugués de Portugal (pt-PT).  <br/> |Sí  <br/> |Sí  <br/> |
+|Portugués  <br/> |Portugal  <br/> |pt-PT  <br/> |Sí  <br/> |Sí  <br/> |Sí, pero se utiliza portugués de Brasil (pt-BR).  <br/> |
+|Rumano<br/> |Rumania  <br/> |ro-RO  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Ruso  <br/> |Rusia  <br/> |ru-RU  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Eslovaco <br/> |Eslovaquia  <br/> |sk-SK  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Esloveno <br/> |Eslovenia  <br/> |sl-SI  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Español  <br/> |España  <br/> |es-ES  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Español  <br/> |México  <br/> |es-MX  <br/> |Sí, pero se utiliza español de España (es-ES).  <br/> |Sí  <br/> |Sí, pero se utiliza español de España (es-ES).  <br/> |
-|Sueco  <br/> |Suecia  <br/> |sv-SE  <br/> |Sí  <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Tailandés <br/> |Tailandia  <br/> |th-TH  <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Turco  <br/> |Turquía  <br/> |tr-TR  <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Vietnamita <br/> |Vietnam  <br/> |VI-VN  <br/> |Sí   <br/> |Sí  <br/> |No  <br/> |
+|Sueco  <br/> |Suecia  <br/> |sv-SE  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Tailandés <br/> |Tailandia  <br/> |th-TH  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Turco  <br/> |Turquía  <br/> |tr-TR  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Vietnamita <br/> |Vietnam  <br/> |vi-VN  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

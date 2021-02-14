@@ -1,5 +1,5 @@
 ---
-title: Código de práctica del Reino Unido -Planes de llamadas de Microsoft 365
+title: Código de prácticas para reino unido - Planes de llamadas de Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Aprenda el código de práctica de los planes de llamadas RTC para el Reino Unido de Skype empresarial, como, por ejemplo, cómo obtener ayuda y cómo enviar quejas y resolver disputas.
+description: Obtenga información sobre el código de prácticas para los planes de llamadas RTC para Skype Empresarial Reino Unido, incluido dónde obtener ayuda y cómo enviar quejas y resolver disputas.
 ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 06/10/2020
 ms.locfileid: "44689766"
 ---
-# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamadas en Microsoft 365-código de práctica para el Reino Unido (RU)
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamadas en Microsoft 365: Código de prácticas para reino unido
 
-Este código se aplica a los clientes de pequeñas empresas (organizaciones con 10 empleados o menos) en el Reino Unido (UK) en relación con el servicio de plan de llamadas de Microsoft 365 o de Office 365 (el "servicio") conforme a las normas de comunicaciones del Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
+Este código se aplica a los clientes de pequeñas empresas (organizaciones con 10 empleados o menos) en el Reino Unido (UK) con respecto al servicio plan de llamadas de Microsoft 365 u Office 365 (el "Servicio") de acuerdo con las regulaciones sobre comunicaciones del Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
 
 ## <a name="1-about-skype-for-business"></a>1. Acerca de Skype Empresarial.
 
@@ -44,7 +44,7 @@ Si tiene preguntas sobre las ventas, la facturación o el soporte técnico, pón
 
 Número de teléfono gratuito: 0800 032 6417
 
-En línea: inicie sesión en el centro de administración de Microsoft 365 y envíe una solicitud de servicio seleccionando **nueva solicitud de servicio** en **soporte técnico**.
+En línea: Inicie sesión en el Centro de administración de Microsoft 365 y envíe una solicitud de servicio seleccionando Nueva solicitud de servicio **en** **Soporte técnico.**
 
 El horario comercial normal es de lunes a viernes, de 9:00 a.m. a 5:00 p.m.
 
@@ -52,7 +52,7 @@ Puede responder algunas de sus preguntas visitando el [sitio web de Skype Empres
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Resolución de quejas y disputas
 
-Nuestras principales prioridades son la satisfacción de los clientes y un servicio excelente. Sin embargo, si tiene alguna queja, nos esforzaremos rápidamente en ayudarle a solucionar el problema. Nuestros [planes de llamadas en Microsoft 365 u Office 365: código de tratamiento de quejas para la página del Reino Unido (Reino Unido)](complaint-handling-code-for-the-united-kingdom-u-k.md) detalla los procedimientos para que las pequeñas empresas presenten una queja con nosotros y nuestro plan de resolución de litigios independiente.
+Nuestras principales prioridades son la satisfacción de los clientes y un servicio excelente. Sin embargo, si tiene alguna queja, nos esforzaremos rápidamente en ayudarle a solucionar el problema. Nuestros planes de llamadas en [Microsoft 365 u Office 365 :](complaint-handling-code-for-the-united-kingdom-u-k.md) código de gestión de quejas para el Reino Unido (UK) detallan los procedimientos que deben seguir las pequeñas empresas para presentarnos una queja y nuestro esquema independiente de resolución de disputas.
   
 ## <a name="4-number-porting"></a>4. Portabilidad de números
 
@@ -60,13 +60,13 @@ Es posible que en algunos casos Skype Empresarial no pueda transferir el número
 
 ## <a name="5-service-reliability"></a>5. Confiabilidad del servicio
 
-El plan de llamadas de Microsoft 365 o de Office 365 depende de la conexión de banda ancha. Si su conexión de banda ancha sufre fallos o cortes de energía, no podrá realizar llamadas telefónicas. Los motivos de estos fallos pueden quedar fuera de nuestro control.
+El plan de llamadas de Microsoft 365 u Office 365 depende de su conexión de banda ancha. Si su conexión de banda ancha sufre fallos o cortes de energía, no podrá realizar llamadas telefónicas. Los motivos de estos fallos pueden quedar fuera de nuestro control.
 
 ## <a name="6-emergency-calls"></a>6. Llamadas de emergencia
 
-Skype Empresarial proporciona acceso a los servicios de llamadas de emergencia públicos 999/112 a los clientes que se encuentren en Inglaterra, Gales, Escocia e Irlanda del Norte. Sin embargo, las llamadas de emergencia a 999 o 112 funcionan de manera diferente con los servicios de planes de llamadas de Microsoft 365 u Office 365 que en los servicios telefónicos tradicionales. Los clientes deben notificar estas diferencias a cada usuario de los servicios del plan de llamadas de Microsoft 365 u Office 365.
+Skype Empresarial proporciona acceso a los servicios de llamadas de emergencia públicos 999/112 a los clientes que se encuentren en Inglaterra, Gales, Escocia e Irlanda del Norte. Sin embargo, las llamadas de emergencia a los números 999 o 112 funcionan de forma distinta en los servicios del plan de llamadas de Microsoft 365 u Office 365 que en los servicios telefónicos tradicionales. Los clientes tienen la obligación de notificar de estas diferencias a cada usuario de los servicios del plan de llamadas de Microsoft 365 u Office 365.
 
-Entre las diferencias se incluyen las siguientes: (i) es posible que Skype empresarial no conozca la ubicación real de una persona que llama, lo que puede provocar que los servicios de emergencia se envíen a una ubicación incorrecta. (II) cuando un usuario de Skype empresarial marca una llamada de emergencia, el operador puede solicitarle que le proporcione su ubicación actual para ayudarle a enrutar la llamada de emergencia y los servicios de emergencia. (III) si el dispositivo del usuario no tiene energía, experimenta un corte del suministro eléctrico o, por cualquier motivo, no puede acceder a Internet de otra manera, el usuario no puede hacer una llamada de emergencia a través de Microsoft 365 o de los servicios del plan de llamadas de Office 365; y (IV) aunque los servicios del plan de llamadas de Microsoft 365 y Office 365 se pueden usar en cualquier lugar del mundo donde esté disponible una conexión a Internet, los usuarios no deben llamar a 999 o 112 fuera de Inglaterra, Gales, Escocia o Northern Ireland porque es probable que la llamada no se dirija al servicio de emergencia adecuado.
+Entre las diferencias se incluyen las siguientes: (i) Es posible que Skype Empresarial no conozca la ubicación real de un autor de la llamada, lo que podría provocar que los servicios de emergencia se desespase a la ubicación incorrecta; (ii) cuando un usuario de Skype Empresarial marca una llamada de emergencia, un operador puede solicitarle a ese usuario que proporcione su ubicación actual para que le ayude a enrutar correctamente la llamada de emergencia y a atender los servicios de emergencia. (iii) si el dispositivo del usuario no tiene energía, está experimentando una interrupción de energía o, por cualquier otro motivo, no puede acceder a Internet, el usuario no puede realizar una llamada de emergencia a través de los servicios del plan de llamadas de Microsoft 365 u Office 365; y (iv) aunque los servicios del plan de llamadas de Microsoft 365 y Office 365 pueden usarse en cualquier parte del mundo en el que haya conexión a Internet disponible, los usuarios no deben llamar al 999 o al 112 fuera de Inglaterra, Gales, Escocia o Irlanda del Norte porque es probable que la llamada no se enrute al servicio de emergencia adecuado.
 
 Es importante que cada cliente registre la ubicación de los usuarios y que mantenga la información actualizada para que se pueda proporcionar a los servicios de emergencia. Puede realizar cambios en la información de la ubicación en línea mediante el portal del administrador de Skype Empresarial.
 

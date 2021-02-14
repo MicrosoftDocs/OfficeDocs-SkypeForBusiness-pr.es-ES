@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Japón.
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Japón.
 ms.openlocfilehash: e198f4b13ddbeddcd7a20814812148b9016125af
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44229237"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Japón.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Japón.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -57,18 +57,18 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y M
    
 ## <a name="calling-plans"></a>Planes de llamadas
 > [!IMPORTANT]
-> Solo disponible a través de SoftBank para inquilinos basados en japonés. Para obtener más información, consulte [llamadas de Softbank para Office 365](https://aka.ms/SoftBankVoicePlan)).
+> Solo disponible a través de SoftBank para inquilinos basados en japonés. Para obtener más información, [consulta Llamadas de SoftBank para Office 365).](https://aka.ms/SoftBankVoicePlan)
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí, consulte [llamadas de Softbank para Office 365](https://aka.ms/SoftBankVoicePlan).  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |Consulte [llamadas de Softbank para Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> |Consulte [llamadas de Softbank para Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
+|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí, vea [Llamadas de SoftBank para Office 365.](https://aka.ms/SoftBankVoicePlan)  <br/> |
+|Minutos disponibles para Planes de llamada  <br/> |Consulte [Llamadas de SoftBank para Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
+|¿A qué números se pueden hacer llamadas salientes?  <br/> |Consulte [Llamadas de SoftBank para Office 365.](https://aka.ms/SoftBankVoicePlan) <br/> |
 
 > [!IMPORTANT]
-> Para eliminar números de usuario (suscriptor) en Japón (suministrados por SoftBank) comuníquese con SoftBank directamente.
-> Para actualizar la información de dirección de emergencia de los números de usuario (suscriptor) en Japón (proporcionado por SoftBank) comuníquese con SoftBank directamente.
-> Para obtener más información, consulte [llamadas de Softbank para Office 365](https://aka.ms/SoftBankVoicePlan).
+> Para eliminar los números de usuario (suscriptor) en Japón (proporcionados por SoftBank), ponte en contacto directamente con SoftBank.
+> Para actualizar la información de la dirección de emergencia de los números de usuarios (suscriptores) en Japón (proporcionados por SoftBank), ponte en contacto con SoftBank directamente.
+> Para obtener más información, [consulte Llamadas de SoftBank para Office 365.](https://aka.ms/SoftBankVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Bielorrusia.
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Belarús.
 ms.openlocfilehash: dfb7e593c42523231701930bbcdfe79a3acba8c1
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230468"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Bielorrusia.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Belarús.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -44,7 +44,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y M
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [pago por minuto](../audio-conferencing-pay-per-minute.md) <br/> |
 |¿Se asignan números de teléfono automáticamente para las audioconferencias?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible con créditos de comunicaciones pago por minuto  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible con créditos de comunicaciones paga por minuto  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

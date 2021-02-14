@@ -55,7 +55,7 @@ Existen dos tipos de números de teléfono de conferencias de acceso telefónico
   
  Los **números de teléfono dedicados** son aquellos que solo están disponibles para los usuarios de su organización. Los idiomas que se emplean cuando alguien llama a uno de estos números se pueden cambiar.
   
- Los **números de teléfono compartidos** son aquellos números de teléfono que pueden compartirse con otras cuentas de Microsoft 365 o de Office 365. No puede cambiar los idiomas que se usan cuando alguien llama a uno de estos números.
+ **Los números de teléfono** compartidos son aquellos números de teléfono que se pueden compartir con otras cuentas de Microsoft 365 u Office 365. No puede cambiar los idiomas que se usan cuando alguien llama a uno de estos números.
   
 Si bien el número de conferencia de acceso telefónico local que se asigna a un organizador es el único que se incluye en la invitación de la reunión, la persona que llama puede usar cualquiera de los números de teléfono que están asignados al puente de conferencia para unirse a una reunión. La lista de estos números de teléfono que se pueden usar para unirse a una reunión está disponible en el vínculo **Buscar un número local** que se incluye en cada invitación a una reunión.
   
@@ -64,10 +64,10 @@ Si bien el número de conferencia de acceso telefónico local que se asigna a un
 Los números de teléfono de las conferencias de acceso telefónico local compartidos se asignan automáticamente a las organizaciones cuando estas están habilitadas para dicho tipo de conferencias. Cuando se asignan los números de teléfono, uno se asigna como el número de teléfono predeterminado del puente de conferencias. Este número será del país o la región de la organización.
   
 > [!NOTE]
-> El país o la región en que se encuentra su organización se puede encontrar firmando en el Centro de administración de Microsoft 365 y mirando bajo el**Perfil de la organización**. 
+> El país o la región en que se encuentra su organización se puede encontrar firmando en el Centro de administración de Microsoft 365 y mirando bajo el **Perfil de la organización**. 
   
 > [!CAUTION]
-> Debido a la disponibilidad limitada de números de teléfono de pago en Venezuela, Indonesia, Vietnam, y los Emiratos Árabes Unidos (EAU), las organizaciones de estos países o regiones no tienen asignado automáticamente un número de teléfono de audioconferencia. Los números gratuitos de estas ubicaciones están disponibles en función de las existencias disponibles. 
+> Debido a la disponibilidad limitada de números de teléfono de pago en Venezuela, Indonesia, Vietnam y los Emiratos Árabes Unidos, no se asignará automáticamente un número de pago de Audioconferencia a las organizaciones de estos países o regiones. Los números gratuitos de estas ubicaciones están disponibles según el inventario disponible. 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   
@@ -75,7 +75,7 @@ Para ver una lista de los países o regiones en los que se asignan automáticame
   
 ## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
 
-- Para ver la lista de los idiomas admitidos para audioconferencia, consulte [idiomas compatibles con audioconferencia](/MicrosoftTeams/audio-conferencing-supported-languages).
+- Para ver la lista de los idiomas admitidos para las audioconferencias, vea [Los idiomas admitidos en Audioconferencia.](/MicrosoftTeams/audio-conferencing-supported-languages)
     
 - Puede usar el cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) para ver los números de teléfono dedicados para conferencia de acceso telefónico local de su organización.
     
@@ -83,10 +83,10 @@ Para ver una lista de los países o regiones en los que se asignan automáticame
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- Para establecer el número de teléfono de acceso telefónico local de un usuario, vea [establecer los números de teléfono incluidos en los invitados](set-the-phone-numbers-included-on-invites.md).
+- Para establecer el número de teléfono de acceso telefónico para un usuario, vea Establecer los números [de teléfono incluidos en las invitaciones.](set-the-phone-numbers-included-on-invites.md)
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

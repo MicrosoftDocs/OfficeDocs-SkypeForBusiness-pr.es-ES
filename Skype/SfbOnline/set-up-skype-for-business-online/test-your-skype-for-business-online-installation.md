@@ -32,7 +32,7 @@ ms.locfileid: "44164299"
 
 Esto es lo que necesita:
 
-- Al menos tres cuentas de Microsoft 365 o de Office 365 (la suya y al menos otras dos).
+- Al menos tres cuentas de Microsoft 365 u Office 365 (la de su usuario y al menos otras dos).
 
 - Un equipo para cada cuenta de prueba. Configúrelas como una computadora común de su organización.
 
@@ -51,7 +51,7 @@ Esto es lo que necesita:
 ## <a name="set-up-test-accounts"></a>Configurar cuentas de prueba
 <a name="__toc328126910"> </a>
 
-1. Vaya a **administradores** > **Microsoft 365** u **Office 365** > **usuarios y grupos**y, a continuación,![seleccione](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) agregar agregar y escriba la información requerida.
+1. Vaya a **Administrador** de Usuarios y grupos de  >  **Microsoft 365** u **Office 365** y, a continuación, seleccione Agregar y  >  escriba la información ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) necesaria.
 
 2. Cuando llegue al Paso 4 (correo electrónico), escriba su propia dirección de correo electrónico. Tendrá entonces un registro del nombre y la contraseña del nuevo usuario.
 
@@ -62,7 +62,7 @@ Esto es lo que necesita:
 
 En cada equipo de prueba:
 
-1. Vaya a la Página principal de Microsoft 365 u Office 365 e inicie sesión con las credenciales de una de sus cuentas de prueba.
+1. Vaya a la página principal de Microsoft 365 u Office 365 e inicie sesión con las credenciales de una de sus cuentas de prueba.
 
 2. Vaya a **Configuración**![Configuración: actualizar el perfil, instalar software y conectarse a la nube](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) y, a continuación, haga clic en **Instalar el software y conectarlo a la nube**.
 
@@ -79,7 +79,7 @@ Después de configurar los usuarios para las audioconferencias, estos reciben un
 
  **Para agregar información de audioconferencias a la cuenta de uno de los usuarios de prueba**
 
-1. Haga clic en**usuarios**de **conferencias** > de audio.
+1. Haga clic **en Usuarios de Audioconferencia.**  >  
 
 2. Haga clic en los nombres de los usuarios que desea configurar para conferencias de acceso telefónico y, a continuación, haga clic en **Editar**![Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 

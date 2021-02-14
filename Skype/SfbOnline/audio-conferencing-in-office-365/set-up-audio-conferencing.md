@@ -1,5 +1,5 @@
 ---
-title: Configurar audioconferencias para Skype empresarial
+title: Configurar Audioconferencia para Skype Empresarial
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -30,9 +30,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/08/2020
 ms.locfileid: "44163949"
 ---
-# <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar audioconferencias para Skype empresarial
+# <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar Audioconferencia para Skype Empresarial
 
-A veces, las personas de su organización deberán usar un teléfono para llamar a una reunión. Skype empresarial incluye la característica de audioconferencia solo en esta situación. Las personas pueden llamar a reuniones de Skype empresarial con un teléfono, en lugar de usar la aplicación de Skype empresarial en un dispositivo móvil o PC. 
+A veces, en su organización es necesario usar un teléfono para llamar a una reunión. Skype Empresarial incluye la característica de audioconferencia para este tipo de situaciones. Las personas pueden llamar a las reuniones de Skype Empresarial con un teléfono, en lugar de con la aplicación de Skype Empresarial en un dispositivo móvil o PC. 
   
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
@@ -45,12 +45,12 @@ Vaya a la [Disponibilidad de país y región para Audioconferencia y Planes de l
  
 ## <a name="step-2-get-and-assign-licenses"></a>Paso 2: obtener licencias y asignarlas
  
-1. Para las conferencias de audio, necesita una licencia para cada usuario que vaya a configurar las reuniones de acceso telefónico. Para conocer las licencias que necesita comprar para las conferencias de audio y cuánto cuestan, vea [licencias complementarias de Skype empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+1. Para Las Audioconferencias, necesita una licencia para cada usuario que configure las reuniones de acceso telefónico local. Para saber qué licencias debe comprar para Audioconferencia y cuánto cuestan, consulte licencias de complementos [de Skype Empresarial.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
     >[!NOTE] 
     > Las audioconferencias se incluyen en las licencias de Office 365 Enterprise E5 y como complemento.
         
-2. Después de adquirir las licencias de Audioconferencia, tendrá que asignarlas a aquellas personas de la organización que vayan a programar o coordinar reuniones. Consulte [asignar o quitar licencias de las aplicaciones de Microsoft 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que compró a las personas de su organización que van a programar o coordinar reuniones.
+2. Después de adquirir las licencias de Audioconferencia, tendrá que asignarlas a aquellas personas de la organización que vayan a programar o coordinar reuniones. Vea Asignar o quitar licencias de las aplicaciones de [Microsoft 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) para empresas que compró a las personas de su organización que van a programar o dirigir reuniones.
     
 3. También se recomienda que asigne licencias de Créditos de comunicaciones (que no cuesta nada) a los mismos usuarios que asignó licencias en el paso anterior. Para saber si necesita configurar Créditos de comunicaciones, consulte [Configurar Créditos de comunicaciones para su organización](/microsoftteams/set-up-communications-credits-for-your-organization).
     
@@ -62,11 +62,11 @@ Vaya a la [Disponibilidad de país y región para Audioconferencia y Planes de l
 
 En Audioconferencia, no puede usar números de teléfono para los usuarios; debe obtener números de servicio. Puede obtener números de pago o números gratuitos de servicio para el puente de conferencia. Hay tres formas de obtene números de servicio gratuitos y de pago: 
   
-- **Use el centro de administración de Skype empresarial**. Para algunos países o regiones, puede obtener números de servicio para sus puentes de conferencia con el centro de administración de Skype empresarial. [Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers)
+- **Use el Centro de administración de Skype Empresarial.** En algunos países o regiones, puede obtener números de servicio para los puentes de conferencia mediante el Centro de administración de Skype Empresarial. [Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers)
     
-- **Portar los números existentes.** Para migrar o transferir números existentes de su proveedor de servicios actual o de su operador telefónico a Microsoft 365 u Office 365. Consulte [Transferir números de teléfono a Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) o [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacer esto.  
+- **Portar los números existentes.** Para transferir o transferir números existentes de su proveedor de servicios u operador telefónico actual a Microsoft 365 u Office 365. Consulte [Transferir números de teléfono a Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) o [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacer esto.  
   
-- **Usar un formulario de solicitud para números nuevos.** A veces, en función de su país o región, no podrá obtener los nuevos números de servicio con el centro de administración de Skype empresarial o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviárselo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization). 
+- **Usar un formulario de solicitud para números nuevos.** A veces (según su país o región) no podrá obtener los nuevos números de servicio con el Centro de administración de Skype Empresarial o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviárselo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization). 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>Paso 4: asignar un número de servicio al puente de conferencia
 <a name="__top"> </a>
@@ -81,23 +81,23 @@ Para asignar un nuevo número de teléfono al puente de audioconferencia:
  2. Seleccione **Voz** > **Números de teléfono**.
  3. Seleccione el número de teléfono y haga clic en **Asignar**.
 
-Para obtener más información, consulte [cambiar los números de teléfono en el puente de audioconferencia](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+Para obtener más información, [vea Cambiar los números de teléfono del puente de audioconferencia.](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>Paso 5: establecer el valor predeterminado e idiomas alternativos para un puente de conferencia
 <a name="__top"> </a>
 
-A continuación, deseas [configurar los idiomas del operador automático para las conferencias de audio](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) que el operador automático de conferencias usa para saludar a las personas que llaman a un número de teléfono para las conferencias de audio. 
+A continuación, desea establecer los idiomas del operador automático para las [audioconferencias](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) que el operador automático de las conferencias usa para saludar a los autores de las llamadas cuando llaman a un número de teléfono para Audioconferencia. 
 
 ![Un icono que muestra el logotipo de Microsoft Teams ](../images/teams-logo-30x30.png) **Mediante el centro de administración de Microsoft Teams**:
 
 1. En el panel, vaya a **Reuniones** > **Puentes de conferencia**.
-2. Seleccione el número de teléfono de puente de conferencia, haga clic en **Editar**y, a continuación, elija el idioma predeterminado.
+2. Seleccione el número de teléfono de puente de conferencia, haga clic en **Editar** y, a continuación, elija el idioma predeterminado.
 
-![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**:
+![Un icono que muestra el logotipo de Skype Empresarial ](../images/sfb-logo-30x30.png) **mediante el Centro de administración de Skype Empresarial:**
 
-1. Vaya al centro de administración > **centros** > de administración de**Teams** > **portales heredados**.
-2.  > Seleccione **Audio conferencing****Microsoft Bridge**. 
-3. Seleccione el número de teléfono del puente de conferencia, seleccione **establecer idiomas**y, a continuación, elija el idioma predeterminado.
+1. Vaya al Centro de administración > **Centro de administración** del portal heredado de  >    >  **Teams.**
+2. Seleccione **Puente de Microsoft de Audioconferencia.**  >   
+3. Seleccione el número de teléfono del puente de conferencia, seleccione **Establecer idiomas** y, a continuación, elija el idioma predeterminado.
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>Paso 6: configurar el puente de conferencia
 <a name="__top"> </a>
@@ -114,7 +114,7 @@ Para obtener más información, consulte [Cambiar la configuración de un puente
 ![Un icono que muestra el logotipo de Skype empresarial](../images/sfb-logo-30x30.png)**con el centro de administración de Skype empresarial:**
 
 1. Vaya al **Centro de administración de Microsoft 365** > **Centros de administración** > **Teams** > **Portal heredado**.
-2. Seleccione **Audio conferencing** > **configuración**de conferencia de audio de Microsoft. Se abrirá la página de **Configuración de puente de Microsoft**. 
+2. Seleccione Configuración del puente de Microsoft **de Audioconferencia.**  >   Se abrirá la página de **Configuración de puente de Microsoft**. 
 
 Para obtener más información, consulte [Cambiar la configuración de un puente de Audioconferencia](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
@@ -126,13 +126,13 @@ Debe hacer esto para todas las personas de su organización que coordinen o prog
 
 ![Un icono que muestra el logotipo de Microsoft Teams ](../images/teams-logo-30x30.png) **Mediante el centro de administración de Microsoft Teams**:
 
-1. En el panel, haga clic en **usuarios**, seleccione el usuario de la lista y, a continuación, seleccione**Editar**.
+1. En el panel, haga clic en **usuarios**, seleccione el usuario de la lista y, a continuación, seleccione **Editar**.
 2. Seleccione **Editar** junto a **Audioconferencia** y, a continuación, en el panel de **Audioconferencia**, elija un número en las listas de **Números de pago** y **Números gratuitos**.
 
 ![Un icono que muestra el logotipo de Skype empresarial](../images/sfb-logo-30x30.png)**con el centro de administración de Skype empresarial:**
 
-1. Vaya al **Centro** > de administración de Microsoft 365**portal heredado****Teams** > .
-2. Seleccione **Audio conferencing** > **usuarios**de la Conferencia de audio y, a continuación, seleccione el usuario de la lista y haga clic en **Editar**. 
+1. Vaya al portal heredado de Teams del Centro de administración de **Microsoft 365.**  >    >  
+2. Seleccione **Usuarios de audioconferencia** y, a continuación,  >  seleccione el usuario de la lista y haga clic en **Editar.** 
 
 Si necesita más detalles, vea [Asignar a Microsoft como proveedor de audioconferencias](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 

@@ -31,14 +31,14 @@ En este artículo se describen los requisitos que se requieren para ofrecer y ma
 
 ## <a name="service-management-for-teams"></a>Administración de servicios para Teams
 
-La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El servicio de Teams abarca Microsoft 365 u Office 365 y los componentes de infraestructura implementados localmente (por ejemplo, redes).
+La administración de servicios es un tema muy amplio que cubre las operaciones del día a día del servicio de Microsoft Teams una vez que se ha implementado y habilitado para los usuarios. El servicio de Teams incluye Microsoft 365 u Office 365 y los componentes de infraestructura que se implementan de forma local (por ejemplo, redes).
 
 Seguramente, el concepto de "administración de servicios" no es nuevo para la mayoría de organizaciones. Probablemente ya ha implementado procesos y tareas asociados a los servicios que ya ofrece. De este modo, es posible que baste con aumentar lo que ya tiene cuando planifique la administración de servicios que respaldarán a Microsoft Teams más adelante.
 
-En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Algunos componentes de la administración de servicios (los componentes de la infraestructura que comprende el servicio Microsoft 365 u Office 365) son responsabilidad de Microsoft, mientras que el cliente es responsable de administrar los diversos aspectos de Teams, la red y los puntos de conexión que proporcionan.
+En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Algunos componentes de la administración de servicios (los componentes de infraestructura que incluye el servicio de Microsoft 365 u Office 365) son responsabilidad de Microsoft, mientras que el cliente es responsable de sus usuarios de administrar los distintos aspectos de Teams, la red y los puntos de conexión que proporcionan.
 Para ver una descripción completa de la responsabilidad del cliente en la administración de servicios de Teams y cómo esto se relaciona con los componentes clave que respaldan la calidad de la experiencia del usuario, consulte [Plan para la calidad y la administración de servicios](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
-![Diagrama de los tres componentes de calidad](media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad: Microsoft 365 u Office 365, servicio, red y puntos de conexión, y cómo la administración de servicios se superpone a los tres.")
+![Diagrama de los tres componentes de calidad](media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad( servicio de Microsoft 365 u Office 365, red y puntos de conexión) y cómo la administración de servicios se superpone a los tres.")
 
 <!--ENDOFSECTION-->
 
@@ -80,20 +80,20 @@ En la Guía de operaciones se incluye una lista de las tareas comunes asignadas 
 ## <a name="the-quality-champion-role"></a>Rol de experto de calidad
 
 Un grupo o una persona tiene que ser responsable de la calidad en todas las organizaciones.
-Es, sin duda, el rol más importante en la administración de servicios. El experto en calidad es un rol de cliente que se asigna a una persona o grupo que se está apasionando de la experiencia de los usuarios. y requiere las habilidades adecuadas para identificar tendencias del entorno y el respaldo necesario para poder trabajar con otros equipos y dirigir las correcciones que corresponda.
-El mejor candidato para el experto de calidad es por lo general el propietario del servicio al cliente, que, según el tamaño y la complejidad de la organización, puede ser cualquier persona o grupo que sea apasionado de la experiencia del usuario.
+Es, sin duda, el rol más importante en la administración de servicios. El profesional de la calidad es un rol de cliente que se asigna a una persona o grupo que es apasionado de la experiencia de sus usuarios. y requiere las habilidades adecuadas para identificar tendencias del entorno y el respaldo necesario para poder trabajar con otros equipos y dirigir las correcciones que corresponda.
+El mejor candidato para el profesional de calidad suele ser el propietario del servicio de atención al cliente, que, según el tamaño y la complejidad de la organización, podría ser cualquier persona o grupo apasionado de la experiencia de usuario.
 
-El defensor de calidad aprovecha las herramientas existentes y los procesos documentados, como el panel de calidad de llamadas (CQD) y la guía de revisión de la experiencia de calidad, para supervisar la experiencia del usuario, identificar tendencias de calidad y controlar la corrección cuando sea necesario. El experto en calidad colabora con los equipos respectivos para impulsar acciones de corrección, informar a un Comité Directivo sobre sus problemas de progreso y de apertura.
+El experto en calidad aprovecha las herramientas y procesos documentados existentes, como el panel de calidad de llamadas y la Guía de revisión de la experiencia de calidad, para supervisar la experiencia del usuario, identificar tendencias de calidad e impulsar la corrección cuando sea necesario. El expertos en calidad trabaja con los equipos respectivos para dirigir las acciones de corrección e informar a un comité de dirección sobre su progreso y abrir los problemas.
 
-Las tareas y actividades asociadas con el rol se documentan en la guía de operaciones. Este rol se debe asignar al principio de la fase de enfoque. Un paso clave a la hora de poner en funcionamiento el rol de experto en calidad es adquirir el conocimiento que se necesita del rol y garantizar que se cumplen los requisitos previos necesarios para desarrollar las tareas. Una tarea fundamental de este rol es revisar con regularidad la experiencia de calidad.
+Las tareas y actividades asociadas al rol se documentan en la Guía de operaciones. Este rol se debe asignar al principio de la fase de enfoque. Un paso clave a la hora de poner en funcionamiento el rol de experto en calidad es adquirir el conocimiento que se necesita del rol y garantizar que se cumplen los requisitos previos necesarios para desarrollar las tareas. Una tarea fundamental de este rol es revisar con regularidad la experiencia de calidad.
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>Introducción a la Guía de revisión de la experiencia de calidad
 
-La guía de revisión de la experiencia de calidad tiene un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto para mejorar la experiencia del usuario, como se muestra en la siguiente ilustración.
+La Guía de revisión de la experiencia de calidad tiene un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto para mejorar la experiencia del usuario, como se muestra en la siguiente ilustración.
 
-![Ilustración de las áreas clave que se deben examinar durante la revisión de la experiencia](media/plan-my-service-management-image2.png "Las áreas clave que se deben examinar durante una revisión de la experiencia de calidad: el audio, la fiabilidad y los resultados de la encuesta.")
+![Ilustración de áreas clave para examinar durante la revisión de la experiencia de calidad](media/plan-my-service-management-image2.png "Las áreas clave para examinar durante una revisión de la experiencia de calidad: audio, confiabilidad y resultados de encuestas del usuario.")
 
 Al evaluar y corregir de forma continua las áreas que se describen en este documento, se reducen los posibles efectos negativos que puedan afectar a la experiencia de usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 
@@ -111,13 +111,13 @@ Al evaluar y corregir de forma continua las áreas que se describen en este docu
 
 Las instrucciones que se ofrecen en la Guía de revisión de la experiencia de calidad se centran principalmente en el uso del Panel de calidad de llamadas (CQD) en línea como la herramienta principal para informar e investigar cada área que se describe, haciendo un especial hincapié en el audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
 
-Le recomendamos encarecidamente que se haya nominado el preexperto de calidad. Después de ser nombrados, deben empezar a familiarizarse con el contenido de la [Guía de revisión](https://aka.ms/qerguide)de la experiencia de calidad.
+Recomendamos encarecidamente que designe al expertos en calidad al principio. Después de ser nominados, deberían empezar a familiarizarse con el contenido de la Guía de revisión de la experiencia [de calidad.](https://aka.ms/qerguide)
 
 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida quién es responsable de las operaciones de voz en la nube de su organización.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Descargue la guía de planificación de administración de servicios completa.</li><li>Descarga la guía de revisión de la experiencia de calidad.</li><li>Revise completa la guía de operaciones.</li><li>Proporcione todas las guías para que todos los miembros del equipo de operaciones lo revisen y estén familiarizados con los requisitos de las operaciones.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Descargue la guía completa de planificación de la administración de servicios.</li><li>Descargue la Guía de revisión de la experiencia de calidad.</li><li>Revise la Guía de operaciones en su totalidad.</li><li>Proporcione todas las guías a todos los miembros del equipo de operaciones para revisar y estar familiarizado con los requisitos de las operaciones.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

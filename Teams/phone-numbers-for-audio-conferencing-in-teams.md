@@ -32,7 +32,7 @@ ms.locfileid: "44665892"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de teléfono para Audioconferencia en Microsoft Teams
 
-Al configurar **Audioconferencia** para Microsoft Teams, los números de teléfono de acceso telefónico local se asignan automáticamente a su organización. Para ver los números de teléfono que se asignan a su puente de audioconferencia, en el centro de administración de Microsoft Teams, vaya a conferencias de conferencia de **reuniones**  >  **Conference bridges**. Para obtener más información, ve a [una lista de números de audioconferencia](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Al configurar **Audioconferencia** para Microsoft Teams, los números de teléfono de acceso telefónico local se asignan automáticamente a su organización. Para ver los números de teléfono asignados al puente de audioconferencia, en el Centro de administración de Microsoft Teams, vaya a **puentes** de conferencia  >  **de reuniones.** Para obtener más información, vaya [a Ver una lista de números de Audioconferencia.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Precios y cobertura de Audioconferencia
@@ -41,7 +41,7 @@ Para ver una lista completa de todos los países o regiones y ciudades donde Aud
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de teléfono de acceso telefónico local en la invitación a la reunión
 
-Cuando un usuario de Microsoft Teams programa una reunión en Outlook o en Outlook Web App, en la invitación a la reunión se incluye el número predeterminado de la audioconferencia que se ha configurado para el usuario. Si desea seleccionar un número predeterminado diferente para uno o más usuarios, puede cambiarlo si va a **usuarios**, selecciona el usuario y edita la configuración de la audioconferencia. Consulte [Establecer los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md).
+Cuando un usuario de Microsoft Teams programa una reunión en Outlook o en Outlook Web App, en la invitación a la reunión se incluye el número predeterminado de la audioconferencia que se ha configurado para el usuario. Si desea seleccionar un número predeterminado diferente para uno o más usuarios, puede cambiarlo yendo a **Usuarios,** seleccionando el usuario y editando la configuración de Audioconferencia del usuario. Consulte [Establecer los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de teléfono de acceso telefónico local establecidos en un puente de audioconferencia
@@ -50,7 +50,7 @@ Existen dos tipos de números de teléfono de conferencias de acceso telefónico
   
 - Los **números de teléfono dedicados** son aquellos que solo están disponibles para los usuarios de su organización. Los idiomas que se emplean cuando alguien llama a uno de estos números se pueden cambiar.
   
-- Los **números de teléfono compartidos** son aquellos números de teléfono que se pueden compartir con otros usuarios de Microsoft 365 u Office 365. No puede cambiar los idiomas que se usan cuando alguien llama a uno de estos números.
+- **Los números de teléfono** compartidos son aquellos números de teléfono que se pueden compartir con otros microsoft 365 u Office 365. No puede cambiar los idiomas que se usan cuando alguien llama a uno de estos números.
   
 Si bien el número de conferencia de acceso telefónico local que se asigna a un organizador es el único que se incluye en la invitación de la reunión, la persona que llama puede usar cualquiera de los números de teléfono que están asignados al puente de conferencia para unirse a una reunión. La lista de estos números de teléfono que se pueden usar para unirse a una reunión está disponible en el vínculo **Buscar un número local** que se incluye en cada invitación a una reunión.
   
@@ -61,7 +61,7 @@ Los números de teléfono de las conferencias de acceso telefónico local compar
 Para ver una lista de los países o regiones en los que se asignan automáticamente números de teléfono a las organizaciones, vea [Disponibilidad de país y región para Audioconferencia y Planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> El país o la región en que se encuentra su organización se puede encontrar firmando en el **Centro de administración de Microsoft 365** y mirando bajo el**Perfil de la organización**. 
+> El país o la región en que se encuentra su organización se puede encontrar firmando en el **Centro de administración de Microsoft 365** y mirando bajo el **Perfil de la organización**. 
   
 > [!CAUTION]
 > Debido a la disponibilidad limitada de números de teléfono de pagos en Venezuela, Indonesia y los Emiratos Árabes Unidos (UAE), no se asignará automáticamente un número de pago de audioconferencia a las organizaciones de estos países o regiones. Los números de teléfono gratuitos de estos lugares estarán disponibles según el inventario existente. 
@@ -78,4 +78,4 @@ Para ver una lista de los países o regiones en los que se asignan automáticame
    
 ## <a name="related-topics"></a>Temas relacionados
 
-[Probar o comprar audioconferencia en Microsoft 365 u Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Probar o comprar Audioconferencia en Microsoft 365 u Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

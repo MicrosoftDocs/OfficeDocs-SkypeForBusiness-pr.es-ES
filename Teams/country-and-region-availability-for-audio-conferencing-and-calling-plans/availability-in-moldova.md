@@ -25,7 +25,7 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: Para obtener información sobre qué servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams están disponibles en Moldavia.
+description: Encuentre información sobre los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams que están disponibles en Moldova.
 ms.openlocfilehash: f740c172649e043a5f269da93a514ea41d0ba58d
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "44230398"
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype empresarial y Microsoft Teams disponibles para Moldavia.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Moldova.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

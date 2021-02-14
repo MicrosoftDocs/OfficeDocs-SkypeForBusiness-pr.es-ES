@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
-description: La validación de dirección es una parte importante de la configuración de planes de llamadas. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
+description: La validación de direcciones es una parte importante de la configuración de planes de llamadas. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
 ms.openlocfilehash: 86b1658624c9514bc030048b04dd9bd93c4a3306
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -31,14 +31,14 @@ ms.locfileid: "44220730"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>¿Cómo creo un vale de soporte para la validación de direcciones?
 
-La validación de dirección es una parte importante de la configuración de planes de llamadas. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias. La forma que elija para hacerlo depende del tamaño de su organización.
+La validación de direcciones es una parte importante de la configuración de planes de llamadas. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias. La forma que elija para hacerlo depende del tamaño de su organización.
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizaciones de 150 o menos, siga estos pasos.
-1. En el centro de administración, elija ¿ **necesita ayuda**?
+1. En el centro de administración, elija **¿Necesita ayuda?**
 2. En el panel **¿Necesita ayuda?**, díganos con qué asunto necesita ayuda y seleccione **Obtener ayuda**.
 3. Si los resultados de la sección **View solutions** (Ver soluciones) no son de ayuda, elija una de las siguientes opciones:
     - **Let us call you (Recommended)** (Permítanos llamarle [recomendado]): confirme su número de contacto y pulse **Llamarme**. El tiempo de espera previsible para la devolución de llamada se indica en el panel **¿Necesita ayuda?**.
@@ -46,9 +46,9 @@ La validación de dirección es una parte importante de la configuración de pla
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>En el caso de organizaciones con más de 150 usuarios, cree una solicitud de servicio para validar una dirección de emergencia.
 
-1. Inicie sesión como administrador de Microsoft 365 u Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión como administrador en Microsoft 365 u Office 365 con su cuenta de trabajo o escuela.
     
-2. En el centro de administración, en el navegación de la izquierda, haga clic en **admitir**  >  **nueva solicitud de servicio**.
+2. En el centro de administración, en el panel de navegación izquierdo, haga clic en **Asistencia**  >  **para nueva solicitud de servicio.**
     
 3. En **Service requests** (Solicitudes de servicio), haga clic en **Agregar**.
     
@@ -73,7 +73,7 @@ La validación de dirección es una parte importante de la configuración de pla
       - País o región
     
      > [!IMPORTANT]
-     > **Ponga el país o la región donde ofrecemos planes de llamadas en los que está tratando de validar una dirección de emergencia al asignar un número de teléfono.**
+     > **Al asignar un número de teléfono, ponga el país o la región donde ofrecemos planes de llamadas en los que intenta validar una dirección de emergencia.**
   
       - Código postal
     
@@ -98,7 +98,7 @@ La validación de dirección es una parte importante de la configuración de pla
 8. Revise la información y, a continuación, haga clic en **Submit request** (Enviar solicitud).
     
 > [!TIP]
-> El número de referencia se mostrará en la página **solicitudes de servicio** del centro de administración de Microsoft 365.
+> El número de referencia aparecerá en la **página Solicitudes de servicio** del Centro de administración de Microsoft 365.
   
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)

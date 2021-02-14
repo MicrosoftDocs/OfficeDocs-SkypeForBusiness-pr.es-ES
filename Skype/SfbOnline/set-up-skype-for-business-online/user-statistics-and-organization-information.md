@@ -21,7 +21,7 @@ ms.custom:
 - Setup
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
-description: Obtenga información sobre las estadísticas de usuarios de Skype empresarial disponibles, como el número de usuarios habilitados, los usuarios habilitados para conferencias o los usuarios que están habilitados para Microsoft 365 u Office 365.
+description: Obtenga información sobre las estadísticas de usuario de Skype Empresarial disponibles, como el número de usuarios habilitados, los usuarios habilitados para conferencias o los usuarios habilitados para Microsoft 365 u Office 365.
 ms.openlocfilehash: f4a8857b767162634866a3d953d113e97876c008
 ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
@@ -38,10 +38,10 @@ El panel de Skype Empresarial le ofrece información rápida sobre la configurac
 |||
 |:-----|:-----|
 |**Propiedad** <br/> |**Cómo se puede cambiar** <br/> |
-|Usuarios de Skype Empresarial Online  <br/> |Para agregar o bloquear el uso de la aplicación de Skype empresarial, consulte [asignar o quitar licencias de microsoft 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) o [quitar licencias de usuarios en Microsoft 365 para empresas](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Para obtener una lista completa de qué hacer cuando un usuario abandona su empresa, consulte [quitar un antiguo empleado de Microsoft 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
-|Usuarios habilitados para Audioconferencia  <br/> |Para habilitar a las personas para las conferencias de audio, consulte [probar o comprar audioconferencia en Microsoft 365 u Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).  <br/> |
-|Usuarios en la nube  <br/> |Este es el número de usuarios de Skype empresarial online que tienen cuentas de Microsoft 365 o de Office 365.  <br/> Para agregar personas a su suscripción de Microsoft 365 u Office 365 (es decir, crear cuentas de Microsoft 365 u Office 365 para ellos), consulte [Agregar usuarios individualmente o de forma masiva a office 365: ayuda de administración](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
-|Usuarios sincronizados y alojados en línea  <br/> |Este es el número de usuarios híbridos creados en una implementación local de Skype empresarial Server, pero que se sincronizan con Microsoft 365 u Office 365.  <br/> Para configurar una conectividad híbrida de Skype Empresarial, consulte [Implementar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](https://technet.microsoft.com/library/jj204669.aspx).  <br/> |
+|Usuarios de Skype Empresarial Online  <br/> |Para agregar o impedir que otras personas usen la aplicación Skype Empresarial, consulte Asignar o quitar licencias de [Microsoft 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) para empresas o Quitar licencias de usuarios en [Microsoft 365](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1)para empresas.  <br/> Para obtener una lista completa de lo que debe hacer cuando un usuario abandone su empresa, vea Quitar un antiguo [empleado de Microsoft 365.](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1)  <br/> |
+|Usuarios habilitados para Audioconferencia  <br/> |Para habilitar usuarios para Audioconferencia, vea Probar o comprar Audioconferencia en [Microsoft 365 u Office 365.](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)  <br/> |
+|Usuarios en la nube  <br/> |Este es el número de usuarios de Skype Empresarial Online que tienen cuentas de Microsoft 365 u Office 365.  <br/> Para agregar usuarios a su suscripción de Microsoft 365 u Office 365 (es decir, cree cuentas de Microsoft 365 u Office 365 para ellos), vea Agregar usuarios individualmente o de forma masiva a [Office 365:](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)ayuda para administradores.  <br/> |
+|Usuarios sincronizados y alojados en línea  <br/> |Este es el número de usuarios de la implementación híbrida que se crean en una implementación local de Skype Empresarial Server pero que se sincronizan con Microsoft 365 u Office 365.  <br/> Para configurar una conectividad híbrida de Skype Empresarial, consulte [Implementar la conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](https://technet.microsoft.com/library/jj204669.aspx).  <br/> |
    
 > [!NOTE]
 > Si aparece No disponible, quiere decir que no hay ninguna información o que se han producido algunos errores. 
@@ -51,11 +51,11 @@ El panel de Skype Empresarial le ofrece información rápida sobre la configurac
 |||
 |:-----|:-----|
 |**Propiedad** <br/> |**Cómo se puede cambiar** <br/> |
-|Nombre de la organización  <br/> |Este es el nombre que especificó al suscribirse a Microsoft 365 u Office 365. Si quiere cambiarlo, consulte [Cambiar la dirección, el contacto técnico y otros aspectos de su organización](https://support.office.com/article/a36e5a52-4df2-479e-bb97-9e67b8483e10).  <br/> |
+|Nombre de la organización  <br/> |Este es el nombre que escribió cuando se suscribió a Microsoft 365 u Office 365. Si quiere cambiarlo, consulte [Cambiar la dirección, el contacto técnico y otros aspectos de su organización](https://support.office.com/article/a36e5a52-4df2-479e-bb97-9e67b8483e10).  <br/> |
 |Id. de organización  <br/> |No puede cambiar el identificador de su organización.  <br/> |
 |Organización creada  <br/> |No puede cambiar este valor.  <br/> |
-|Sincronización de Active Directory activada  <br/> |Esta propiedad indica si su organización se sincroniza con una organización de Skype Empresarial Online que está en local.  <br/> Para configurar su Active Directory local, consulte [configurar la sincronización de directorios para Microsoft 365 u Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).  <br/> |
-|Dominios de la organización  <br/> |Al configurar inicialmente Microsoft 365 u Office 365, estos son los dominios que se registraron.  <br/> Para agregar un dominio, consulte [agregar varios dominios a Microsoft 365 u Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207).  <br/> Para quitar un dominio, consulte [quitar un dominio de Microsoft 365 u Office 365](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c).  <br/> |
+|Sincronización de Active Directory activada  <br/> |Esta propiedad indica si su organización se sincroniza con una organización de Skype Empresarial Online que está en local.  <br/> Para configurar su Active Directory local, vea Configurar la sincronización de directorios [para Microsoft 365 u Office 365.](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)  <br/> |
+|Dominios de la organización  <br/> |Al configurar inicialmente Microsoft 365 u Office 365, estos son los dominios que se registraron.  <br/> Para agregar un dominio, vea [Agregar varios dominios a Microsoft 365 u Office 365.](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207)  <br/> Para quitar un dominio, vea Quitar un dominio [de Microsoft 365 u Office 365.](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c)  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md)

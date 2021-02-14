@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: Aprenda los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y establecer la configuración de los teléfonos de Skype empresarial online.
+description: Aprenda los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar las opciones para teléfonos de Skype Empresarial Online
 ms.openlocfilehash: 41c6ef53469ab2de3699fd17a2d181477e143fae
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -40,9 +40,9 @@ In all types of businesses, having a phone number allows users to make and get v
 
 Antes de comenzar, es recomendable descargar las guías para administradores y los manuales de usuario de los teléfonos que proporciona el fabricante.
   
-- Para los teléfonos Polycom, consulte la [biblioteca de documentación de poli](https://documents.polycom.com/category/voice).
+- Para teléfonos Polycom, consulte la [Biblioteca de documentación de Poly.](https://documents.polycom.com/category/voice)
     
-- Para teléfonos Yealink, consulte [Yealink solución de teléfonos SIP HD de Skype empresarial](http://www.yealink.com/products_top_2.html).
+- Para teléfonos Yealink, consulte la solución [de teléfonos SIP de Skype](http://www.yealink.com/products_top_2.html)Empresarial HD.
     
 - Para teléfonos AudioCodes, consulte la [Guía de administración del aprovisionamiento de AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
     
@@ -72,44 +72,44 @@ Check the firmware version on your phones. For:
   
 Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default. Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) cmdlet and setting the _EnableDeviceUpdate_ parameter to `false`.
   
-![Captura de pantalla que muestra la implementación de teléfonos](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![Captura de pantalla que muestra cómo implementar teléfonos](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 When a new firmware is available and ready for download and install, the phone will notify the user. Polycom phones will notify the user and provide them with an option to **Update** or **Postpone**.
   
-![Captura de pantalla que muestra las opciones de actualización y posponer.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
+![Captura de pantalla que muestra las opciones Actualizar y Posponer.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
 En un teléfono Polycom, puede actualizar el firmware desde el teléfono seleccionando **ActualizaciónSw**.
   
-![Captura de pantalla que muestra la opción Actualizaciónsw](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![Captura de pantalla que muestra la opción SwUpdate](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 También puede optar por administrar las actualizaciones de firmware usando un sistema de aprovisionamiento de nuestros socios. Para obtener información sobre la administración de los sistemas de aprovisionamiento de nuestros socios y la personalización avanzada de teléfonos, consulte las guías de administración del fabricante.
   
 > [!CAUTION]
 > Asegúrese de que solo tiene una autoridad de actualización de dispositivos (actualización de dispositivos en banda o un servidor de aprovisionamiento de terceros) para evitar los bucles de actualizaciones. 
   
-### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>Paso 5: configuración del teléfono de configuración e infraestructura
+### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>Paso 5: Configuración e infraestructura de configuración de los teléfonos
 
 Puede configurar las opciones y políticas más utilizadas de los teléfonos usando los cmdlets de Windows PowerShell para la administración en banda de Skype Empresarial. Consulte [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) para obtener más información sobre estos parámetros y ajustes.
   
-Para planear la infraestructura de red, consulte [Skype Operations Framework](https://www.skypeoperationsframework.com/).
+Para planear la infraestructura de red, [consulte Marco de operaciones de Skype.](https://www.skypeoperationsframework.com/)
   
-### <a name="step-6---preparing-for-users-to-sign-in"></a>Paso 6: prepararse para que los usuarios inicien sesión
+### <a name="step-6---preparing-for-users-to-sign-in"></a>Paso 6: Preparar el inicio de sesión de los usuarios
 
 To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
-Para obtener más información sobre cómo llamar a planes, lea el [sistema telefónico y los planes de llamadas](/microsoftteams/calling-plan-landing-page)
+Puedes obtener más información sobre los planes de llamadas leyendo [Sistema telefónico y Planes de llamadas](/microsoftteams/calling-plan-landing-page)
   
 - **Sign-in options** that are available for Online users are:
     
-  - Los usuarios con teléfonos **Polycom VVX 5xx/6xx** verán:
+  - Los usuarios **con teléfonos Polycom VVX 5XX/6XX** verán:
     
-     ![Captura de pantalla que muestra el inicio de sesión de los teléfonos Polycom](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Captura de pantalla que muestra el inicio de sesión de teléfonos Polycom](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
-  - Los usuarios con teléfonos **YEALINK T48G/t46g verán** verán:
+  - Los usuarios **con teléfonos Yealink T48G/T46G** verán:
     
      ![Captura de pantalla que muestra el inicio de sesión de los teléfonos Yealink.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
-    Para más información sobre las opciones de inicio de sesión que admite el fabricante, vea [obtener teléfonos con Skype empresarial online](getting-phones-for-skype-for-business-online.md).
+    Para obtener más información sobre las opciones de inicio de sesión que admite el fabricante, consulte Obtener teléfonos [para Skype Empresarial Online.](getting-phones-for-skype-for-business-online.md)
     
 - **Id. de usuario**: usando el teclado del teléfono o el teclado en pantalla (si está disponible), los usuarios pueden usar el nombre de usuario y la contraseña de su organización para iniciar sesión en el teléfono. Por ejemplo, deben usar el formato UPN, como <em>amosm@contoso.com</em>  , en el nombre de usuario.
     
@@ -127,41 +127,41 @@ Para obtener más información sobre cómo llamar a planes, lea el [sistema tele
   
 - **Using a Web Sign-in**: This is a new way for Online users to authenticate using a standard web browser. Users will be provided with a set of instructions to follow when they use a browser to sign in.
     
-  - Los usuarios con teléfonos **Polycom VVX 5xx/6xx** verán:
+  - Los usuarios **con teléfonos Polycom VVX 5XX/6XX** verán:
     
      ![Captura de pantalla que muestra las instrucciones de Polycom](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
-  - Los usuarios con teléfonos **YEALINK T48G/t46g verán** verán:
+  - Los usuarios **con teléfonos Yealink T48G/T46G** verán:
     
-     ![Captura de pantalla que muestra instrucciones Yealink](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![Captura de pantalla que muestra instrucciones de Yealink](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     The code that is generated will expire in 15 minutes. When it expires, the user will have to click **Retry** or **OK** to generate a new code, depending on the phone.
     
-  - Los usuarios con teléfonos **Polycom VVX 5xx/6xx** verán:
+  - Los usuarios **con teléfonos Polycom VVX 5XX/6XX** verán:
     
-     ![Captura de pantalla que muestra el código de Polycom vencido](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![Captura de pantalla que muestra código Polycom expirado](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
-  - Los usuarios con teléfonos **YEALINK T48G/t46g verán** verán:
+  - Los usuarios **con teléfonos Yealink T48G/T46G** verán:
     
-     ![Captura de pantalla que muestra el código de Yealink caducado](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![Captura de pantalla que muestra el código Yealink expirado](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     Usando un explorador, vaya a la dirección que se muestra en el teléfono e introduzca su nombre de usuario de Skype Empresarial.
     
-     ![Captura de pantalla que muestra la comprobación de correo electrónico](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![Captura de pantalla que muestra la verificación por correo electrónico](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     Introduzca el código que se muestra en el teléfono.
     
-     ![Captura de pantalla que muestra cómo escribir el código en la pantalla de inicio de sesión](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![Captura de pantalla que muestra cómo escribir código en la pantalla de inicio de sesión](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
-    Compruebe que el sitio muestra " **teléfono certificado por Skype para empresas de**[nombre del fabricante del teléfono]" y haga clic en **continuar**.
+    Compruebe que el sitio muestra "Teléfono certificado para Skype Empresarial[Nombre del fabricante del **teléfono]**" y haga clic en **Continuar.**
     
-     ![Captura de pantalla que muestra la verificación de nombre](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![Captura de pantalla que muestra la verificación del nombre](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     Haga clic en las credenciales de usuario o en **Usar otra cuenta**:
     
      ![Captura de pantalla que muestra las opciones de credenciales](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
-    Cuando se muestre la página siguiente, es seguro cerrar el explorador.
+    Cuando se muestre la siguiente página, es seguro cerrar el explorador.
     
      ![Captura de pantalla que muestra el mensaje de confirmación](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
@@ -172,7 +172,7 @@ Para obtener más información sobre cómo llamar a planes, lea el [sistema tele
     
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype Empresarial** <br/> |**Exchange** <br/> |**Método de inicio de sesión en el teléfono** <br/> |**Acceso a Skype empresarial** <br/> |**Acceso a Exchange con autenticación moderna y MFA desactivados** <br/> |**Acceso a Exchange con autenticación moderna y MFA activados** <br/> |
+|**Skype Empresarial** <br/> |**Exchange** <br/> |**Método de inicio de sesión en el teléfono** <br/> |**Acceso a Skype Empresarial** <br/> |**Acceso a Exchange con autenticación moderna y MFA desactivados** <br/> |**Acceso a Exchange con autenticación moderna y MFA activados** <br/> |
 |En línea  <br/> |En línea  <br/> |Inicio de sesión web  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |En línea  <br/> |En línea  <br/> |Nombre de usuario y contraseña  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |En línea  <br/> |Local  <br/> |Inicio de sesión web  <br/> |Sí  <br/> |No  <br/> |No  <br/> |
@@ -185,30 +185,30 @@ Para obtener más información sobre cómo llamar a planes, lea el [sistema tele
     
 - **Phone-Lock** is a recently introduced feature in Skype for Business certified phones that is used to secure a phone. If enabled, users will be asked to create a PIN upon successful authentication. Once created, phones will lock when the idle-timeout that you define expires, a user manually locks their phone, or they sync their phone-lock with their PC lock using Phone Pairing. If the phone-lock PIN is entered wrong several times, the phone will either sign the user out or require an administrator's code to unlock the phone, but this will vary depending on the phone partner. The user's PIN should be between 6 and 15 digits.
     
-    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. Para obtener más información sobre esta configuración [, consulta Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) .
+    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. Para obtener más información sobre esta configuración, vea [Set-CsUCPhoneConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Paso 7 (opcional): si se dispone de emparejamiento de dispositivos y Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>
 
 BToE is a phone paining mechanism for Partner IP phones that pairs a user's phone with their Windows Skype for Business app. BToE enables users to:
   
-- Iniciar sesión en su teléfono IP usando su aplicación de escritorio de Skype empresarial (con un equipo de PC)
+- Iniciar sesión en su teléfono IP con su aplicación de escritorio de Skype Empresarial (usando un PC)
     
-- Sincronizar el bloqueo de teléfono con el bloqueo de PC
+- Sincronizar Phone-Lock con el bloqueo del equipo
     
-- Haz clic para llamar
+- Haga clic para llamar
     
 BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual*  . It can also be enabled (default)/disabled for users using Skype for Business in-band settings. When operating in *Manual*  mode, users will have to take an additional step to pair their phone with their Windows app.
   
- **Para implementar BToE a los usuarios**
+ **Para implementar BToE para los usuarios**
   
 1. Conecte los equipos con los teléfonos usando el puerto de los equipos.
     
-     ![Captura de pantalla que muestra la conexión a un PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![Captura de pantalla que muestra la conexión a un equipo](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Descarga e instala el software más reciente de BToE desde el sitio web del fabricante de los siguientes vínculos. Para una mejor experiencia de usuario, puede distribuir e instalar el software BToE mediante una solución de distribución de administrador, como Microsoft Endpoint Configuration Manager. Para obtener ayuda sobre el uso de Configuration Manager, vea [paquetes y programas en Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
+2. Descargue e instale el software BToE más reciente desde el sitio web del fabricante desde los vínculos siguientes. Para una mejor experiencia del usuario, puede distribuir e instalar el software BToE con una solución de distribución de administrador como Microsoft Endpoint Configuration Manager. Para obtener ayuda sobre el uso de Configuration Manager, vea [Paquetes y programas en Configuration Manager.](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)
     
-   - [Sitio de descarga del software BToE de Polycom](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Sitio de descarga de software BToE de Polycom](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Descarga del software BToE de Yealink](http://www.yealink.com/products_list_10.html)
     
