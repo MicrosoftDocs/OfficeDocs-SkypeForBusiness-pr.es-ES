@@ -26,7 +26,7 @@ En este tema se describen las directrices de planeación para la implementación
   
 ## <a name="collocated-or-stand-alone-mediation-server"></a>¿Servidor de mediación local o independiente?
 
-De forma predeterminada, el servidor de mediación se coloca en el servidor Standard Edition o el servidor front-end en un grupo de servidores front-end en los sitios centrales. El número de llamadas de la red telefónica conmutada (RTC) que se pueden administrar y el número de máquinas necesarias en el grupo de servidores dependerán de:
+De forma predeterminada, el servidor de mediación se coloca en el servidor Standard Edition o el servidor front-end en un grupo de servidores front-end en los sitios centrales. El número de llamadas de la red telefónica conmutada (RTC) que se pueden controlar y el número de máquinas necesarias en el grupo de servidores dependerán de:
   
 - El número de puertas de enlace del mismo nivel que controla el grupo de servidores de mediación.
     
@@ -34,7 +34,7 @@ De forma predeterminada, el servidor de mediación se coloca en el servidor Stan
     
 - Porcentaje de llamadas que son llamadas cuyos medios omiten el servidor de mediación.
     
-Cuando planee, asegúrese de tener en cuenta los requisitos de procesamiento de medios para las llamadas RTC y conferencias A/V que no admiten la omisión de medios, así como el procesamiento necesario para controlar las interacciones de señalización para el número de llamadas en hora punta que es necesario admitir. Si no tiene suficiente CPU, deberá implementar un grupo independiente de servidores de mediación. Además, las puertas de enlace RTC, las IP-PBX y los SBC tendrán que dividirse en subconjuntos controlados por los servidores de mediación de un grupo de servidores y los servidores de mediación independientes en uno o más grupos de servidores independientes.
+Cuando planee, asegúrese de tener en cuenta los requisitos de procesamiento de medios para las llamadas RTC y conferencias A/V que no admiten la omisión de medios, así como el procesamiento necesario para controlar las interacciones de señalización para el número de llamadas en hora punta que es necesario admitir. Si no tiene suficiente CPU, deberá implementar un grupo independiente de servidores de mediación. Además, las puertas de enlace RTC, ip-PBX y SBC tendrán que dividirse en subconjuntos controlados por los servidores de mediación de un grupo de servidores y los servidores de mediación independientes en uno o más grupos de servidores independientes.
   
 Si implementó puertas de enlace RTC, IP-PBX o controladores de borde de sesión (SBC) que no tienen la capacidad de interactuar con un grupo de servidores de mediación, necesitará asociarse a un grupo independiente que consta de un único servidor de mediación. Algunas de las cosas que las puertas de enlace RTC, IP-PBXs o SBC tendrían que hacer son:
   

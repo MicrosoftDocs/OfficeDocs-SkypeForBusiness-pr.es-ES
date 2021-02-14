@@ -60,7 +60,7 @@ ADVERTENCIA: entrada de control de acceso (ACE) atl-cs-001\RTCUniversalUserReadO
 
 ADVERTENCIA: Las entradas de control de acceso (ACE) en el objeto "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" no están listas. 
 
-False 
+Falso 
 
 ADVERTENCIA: el procesamiento de "Test-CsOUPermission" se ha completado con advertencias. Durante esta ejecución se registraron advertencias de "2". 
 

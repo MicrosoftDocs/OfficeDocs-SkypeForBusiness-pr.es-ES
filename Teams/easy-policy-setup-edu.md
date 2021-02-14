@@ -26,7 +26,7 @@ ms.locfileid: "49790424"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Usar el Asistente para directivas de Teams para el aprendizaje para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
-## <a name="overview"></a>Descripción general
+## <a name="overview"></a>Información general
 
 El Asistente para directivas de Microsoft Teams para el sector educativo simplifica la administración de las directivas para los alumnos y profesores. Úselo para aplicar rápida y fácilmente el conjunto de directivas más importante relevante para crear una experiencia de aprendizaje segura y productiva.
 
@@ -49,7 +49,7 @@ Este artículo le guiará por la ejecución del asistente.
 
 El asistente aplica un conjunto de definiciones de directiva básicas a los alumnos y un conjunto independiente de definiciones de directiva básicas para los formadores y el personal, con una configuración adecuada para cada uno. Esto es lo que ocurre al ejecutar el asistente.
 
-El asistente configura directivas según el tipo de institución educativa **(educación primaria, secundaria** **o superior).** Seleccione el tipo de institución y el asistente podrá hacer lo siguiente:
+El asistente configura directivas en función del tipo de institución educativa **(educación primaria, secundaria** **o superior).** Seleccione el tipo de institución y el asistente realiza lo siguiente:
 
 - **Alumnos:** el asistente ajusta la definición de directiva global (predeterminada para toda la organización) de cada área de directiva cubierta por el asistente con una nueva configuración predeterminada adecuada para mantener a sus alumnos seguros. Esto garantiza que los alumnos actuales y todos los nuevos alumnos obtengan el conjunto de directivas más restrictivo.
 - **Formadores y personal:** el asistente crea un conjunto de definiciones de directiva personalizadas para cada área de directiva cubierta por el asistente con una configuración adaptada a las necesidades de los formadores y el personal. Después, asigna las definiciones de directiva al grupo de formadores y docentes que elija. De esta forma, los profesores y el personal obtienen un conjunto más permisivo de directivas para que puedan tener éxito.
@@ -57,7 +57,7 @@ El asistente configura directivas según el tipo de institución educativa **(ed
 Solo necesita ejecutar el asistente una vez. Los alumnos nuevos obtienen automáticamente las definiciones de directiva global (predeterminada para toda la organización) aplicadas por el asistente y a los nuevos docentes que agregue al grupo seleccionado se les asignarán automáticamente las directivas personalizadas.
 
 > [!NOTE]
-> Vea [las directivas aplicadas por el asistente](#policies-applied-by-the-wizard) para obtener una lista detallada de las definiciones de directiva que ha aplicado el asistente.
+> Vea [las directivas aplicadas por el](#policies-applied-by-the-wizard) asistente para obtener una lista detallada de las definiciones de directiva que ha aplicado el asistente.
 
 Empecemos.
 
@@ -83,7 +83,7 @@ Siga estos pasos para ejecutar el asistente.
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de pantalla de la página del asistente para revisar selecciones":::
 
-5. Seleccione **Aplicar** para aplicar los cambios. Esto puede tardar unos minutos en completarse.<br/><br/>Las definiciones de directiva global (predeterminada para toda la organización) se aplican inmediatamente a los alumnos. Para los formadores y el personal, puede que las directivas personalizadas tarden unas horas en asignarse a cada miembro del grupo que haya seleccionado, según el tamaño del grupo. Esto ocurre en segundo plano, después de completar correctamente este paso.
+5. Seleccione **Aplicar** para aplicar los cambios. Esto puede tardar unos minutos en completarse.<br/><br/>Las definiciones de directiva global (predeterminada para toda la organización) se aplican inmediatamente a los alumnos. Para los formadores y el personal, puede que las directivas personalizadas tarden unas horas en asignarse a cada miembro del grupo seleccionado, según el tamaño del grupo. Esto ocurre en segundo plano, después de completar correctamente este paso.
 6. Está de camino, pero aún no ha terminado. Hay algunas cosas más que tener en cuenta. A continuación, consulte los pasos de la sección Qué hacer después de [ejecutar la sección](#what-to-do-after-running-the-wizard) del asistente de este artículo.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de pantalla de la página del asistente para los pasos siguientes":::
@@ -95,7 +95,7 @@ Siga estos pasos para ejecutar el asistente.
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>Paso 1: Quitar las asignaciones de directivas existentes que entren en conflicto con las directivas aplicadas por el asistente
 
 > [!IMPORTANT]
-> **Complete este paso solo si tiene directivas existentes asignadas a alumnos, educadores y personal *antes* de que ejecutó el asistente.** Si es nuevo en Teams y no tiene directivas existentes distintas de las directivas creadas por el asistente, omita este paso y vaya al paso 2.
+> **Complete este paso solo si tiene directivas existentes asignadas a alumnos, profesores y personal *antes* de que ejecutó el asistente.** Si es nuevo en Teams y no tiene directivas existentes distintas de las directivas creadas por el asistente, omita este paso y vaya al paso 2.
 
 En Teams, para un área de directiva determinada, una directiva se puede aplicar a un usuario de las siguientes maneras:
 
@@ -112,12 +112,12 @@ Si hay más de una de estas asignaciones de directiva para un usuario, Teams usa
 |Directiva asignada al grupo: Sí<br/>Directiva asignada directamente al usuario: Sí     |Directiva asignada directamente al usuario         |
 |Directiva asignada al grupo: Sí<br/>Directiva asignada directamente al usuario: No     |Directiva asignada al grupo<br/><br/>Si el usuario es miembro de varios grupos y a cada grupo se le asigna una directiva de la misma área de directiva, se hace efectiva la directiva que tenga la clasificación de asignación [de](assign-policies.md#group-assignment-ranking) grupo más alta.       |
 
-Debido a este orden, las directivas creadas por el asistente no se verán efectivas si un usuario tiene asignaciones directas o asignaciones de grupo existentes. Esto significa que tendrá que quitar las asignaciones de directiva existentes del usuario para que la directiva aplicada por el asistente suba a efecto.
+Debido a este orden, las directivas creadas por el asistente no se verán efectivas si un usuario tiene asignaciones directas o asignaciones de grupo existentes. Esto significa que tendrá que quitar las asignaciones de directiva existentes del usuario para que la directiva aplicada por el asistente tenga efecto.
 
 Para cada [área de directiva aplicada por el asistente,](#policies-applied-by-the-wizard)haga lo siguiente:
 
-- Quite todas las asignaciones directas y tareas de grupo existentes de los alumnos para que la definición de directiva Global (predeterminada para toda la organización) aplicada por el asistente se haga efectiva.
-- Quite las asignaciones directas en conflicto para los profesores y el personal para que la definición de directiva personalizada creada por el asistente suba a efecto. Use la tabla anterior para determinar los escenarios que le aplican. <br/><br/>Tenga en cuenta que el asistente asigna directivas [a](assign-policies.md#group-assignment-ranking) los profesores y al grupo de docentes con una clasificación de asignación de grupo de 1, que es la clasificación más alta. Si los profesores y el grupo de docentes tienen asignada una directiva de la misma área de directiva, esa directiva existente se mueve a una posición más baja y la directiva asignada por el asistente entra en vigor.
+- Quite todas las asignaciones directas y asignaciones de grupo existentes de los alumnos para que la definición de directiva Global (predeterminada para toda la organización) aplicada por el asistente se haga efectiva.
+- Quite las asignaciones directas en conflicto para los profesores y el personal para que la definición de directiva personalizada creada por el asistente suba a efecto. Use la tabla anterior para determinar los escenarios que le aplican. <br/><br/>Tenga en cuenta que el asistente asigna directivas [a](assign-policies.md#group-assignment-ranking) los profesores y al grupo de docentes con una clasificación de asignación de grupo de 1, que es la clasificación más alta. Si los profesores y el grupo de docentes tienen asignada una directiva de la misma área de directiva, esa directiva existente se mueve a una clasificación inferior y la directiva asignada por el asistente entra en vigor.
 
 [Obtenga más](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) información sobre cómo quitar directivas que estén asignadas directamente a los usuarios.
 
@@ -145,7 +145,7 @@ Hasta que esta función esté disponible, consulte el Centro de mensajes [(en](h
 
 Si necesita realizar cambios después de ejecutar el asistente, puede volver a ejecutarlo y cambiar las selecciones.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya al panel **y,** **a** continuación, en la configuración de directivas sencilla para un icono de entorno de aprendizaje seguro, **seleccione Cambiar.**
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya al panel **y,** **a** continuación, en la configuración de directivas sencilla para un icono de entorno de aprendizaje seguro, seleccione **Cambiar.**
 2. Desde aquí, continúe por cada página del asistente para realizar los cambios. Puede cambiar el tipo de institución, el grupo de educadores y personal al que desea asignar directivas o ambos.
 
 En la tabla siguiente se resume lo que ocurre cuando se realiza un cambio en el asistente.
@@ -153,8 +153,8 @@ En la tabla siguiente se resume lo que ocurre cuando se realiza un cambio en el 
 |Tipo de cambio  |Comportamiento de la directiva  |
 |---------|---------|
 |Cambiar el tipo de institución educativa y los profesores y el grupo de docentes    |<ul><li>**Alumnos:** las definiciones de directivas globales (predeterminadas para toda la organización) basadas en el nuevo tipo de institución educativa se aplican a los alumnos.</li><li>**Formadores y personal:** se crea y se asigna al nuevo profesor y al grupo de docentes un conjunto de definiciones de directivas personalizadas basadas en el nuevo tipo de institución educativa. Las definiciones de directivas personalizadas anteriores se quitan de los profesores y el grupo de personal anteriores.</li></ul>    |
-|Cambiar solo el tipo de institución educativa    |<ul><li>**Alumnos:** las definiciones de directivas globales (predeterminadas para toda la organización) basadas en el nuevo tipo de institución educativa se aplican a los alumnos.</li><li>**Formadores y personal:** se crea y asigna a los profesores y al grupo de docentes un conjunto de definiciones de directivas personalizadas basadas en el nuevo tipo de institución educativa. Las definiciones de directivas personalizadas creadas para el tipo de institución educativa anterior se quitan de los profesores y del grupo de personal.</li></ul>         |
-|Cambiar solo los profesores y el grupo de docentes   |<ul><li>**Alumnos:** no hay ningún cambio en las definiciones de directiva globales (predeterminadas para toda la organización) aplicadas a los alumnos.</li><li>**Formadores y personal:** las definiciones de directiva personalizadas se asignan a los nuevos formadores y al grupo de personal y se quitan de los profesores y el grupo de personal anteriores.</li></ul>         |
+|Cambiar solo el tipo de institución educativa    |<ul><li>**Alumnos:** las definiciones de directiva global (predeterminada para toda la organización) basadas en el nuevo tipo de institución educativa se aplican a los alumnos.</li><li>**Formadores y personal:** se crea y se asigna a los profesores y al grupo de docentes un conjunto de definiciones de directivas personalizadas basadas en el nuevo tipo de institución educativa. Las definiciones de directivas personalizadas creadas para el tipo de institución educativa anterior se quitan de los profesores y del grupo de personal.</li></ul>         |
+|Cambiar solo los profesores y el grupo de docentes   |<ul><li>**Alumnos:** no hay ningún cambio en las definiciones de directiva globales (predeterminadas para toda la organización) aplicadas a los alumnos.</li><li>**Formadores y personal:** las definiciones de directiva personalizadas se asignan a los nuevos formadores y al grupo de personal y se quitan de los formadores y el grupo de personal anteriores.</li></ul>         |
 
 ## <a name="policies-applied-by-the-wizard"></a>Directivas aplicadas por el asistente
 
@@ -225,12 +225,12 @@ Aquí tiene una lista de las definiciones de directivas globales (predeterminada
 |  |       |Permitir el chat en las reuniones         |Activado         |Activado|
 |Directiva de eventos en directo  |       |Permitir la programación         |Desactivado         |Desactivado|
 |  |       |Permitir la transcripción para los asistentes          |Activado       |Activado|
-|  |       |Quién puede unirse a eventos en directo programados        |Todos los usuarios de la organización        |Todos los usuarios de la organización|
+|  |       |Quién puede unirse a eventos en directo programados        |Todos los miembros de la organización        |Todos los miembros de la organización|
 |  |       |Quién puede grabar un evento         |Siempre         |Siempre|
 |Directiva de mensajería  |       |Los propietarios pueden eliminar los mensajes enviados         |Desactivado|Activado|
 |  |       |Eliminar mensajes enviados         |Desactivado         |Activado|
 |  |       |Editar los mensajes enviados         |Desactivado         |Activado|
-|  |       |Confirmaciones de lectura         |Usuario controlado         |Usuario controlado|
+|  |       |Confirmaciones de lectura         |Controlado por el usuario         |Controlado por el usuario|
 |  |       |Chat         |Desactivado         |Activado|
 |  |       |Usar Imágenes de Giphy en conversaciones         |Desactivado         |Activado|
 |  |       |Clasificación de contenido de Giphy         |Estricto        |Estricto|
@@ -253,7 +253,7 @@ Aquí tiene una lista de las definiciones de directivas globales (predeterminada
 |Directiva de llamadas  |       |Realizar llamadas privadas         |Desactivado        |Activado|
 |  |       |Call forwarding and simultaneousing to people in your organization         |Desactivado         |Activado|
 |  |       |Reenvío de llamadas y llamadas simultáneas a números de teléfono externos         |Desactivado         |Activado|
-|  |       |El correo de voz está disponible para enrutar llamadas entrantes         |Usuario controlado         |Usuario controlado|
+|  |       |El correo de voz está disponible para enrutar llamadas entrantes         |Controlado por el usuario         |Controlado por el usuario|
 |  |       |Las llamadas entrantes se pueden enrutar a grupos de llamadas         |Desactivado        |Activado|
 |  |       |Permitir la delegación para llamadas entrantes y salientes         |Desactivado         |Activado|
 |  |       |Evitar la omisión de pago y enviar llamadas a través de RTC        |Desactivado         |Desactivado|
@@ -293,12 +293,12 @@ Aquí tiene una lista de las definiciones de directiva personalizadas asignadas 
 |  |       |Permitir el chat en las reuniones         |Activado         |Activado|
 |Directiva de eventos en directo  |       |Permitir la programación         |Activado         |Activado|
 |  |       |Permitir la transcripción para los asistentes          |Activado       |Activado|
-|  |       |Quién puede unirse a eventos en directo programados        |Todos los usuarios de la organización        |Todos los usuarios de la organización|
+|  |       |Quién puede unirse a eventos en directo programados        |Todos los miembros de la organización        |Todos los miembros de la organización|
 |  |       |Quién puede grabar un evento         |Grabar siempre         |Grabar siempre|
 |Directiva de mensajería  |       |Los propietarios pueden eliminar los mensajes enviados         |Activado|Activado|
 |  |       |Eliminar mensajes enviados         |Activado         |Activado|
 |  |       |Editar los mensajes enviados         |Activado         |Activado|
-|  |       |Confirmaciones de lectura         |Usuario controlado         |Usuario controlado|
+|  |       |Confirmaciones de lectura         |Controlado por el usuario         |Controlado por el usuario|
 |  |       |Chat         |Activado         |Activado
 |  |       |Usar Imágenes de Giphy en conversaciones         |Activado        |Activado|
 |  |       |Clasificación de contenido de Giphy         |Estricto        |Estricto|
@@ -314,7 +314,7 @@ Aquí tiene una lista de las definiciones de directiva personalizadas asignadas 
 |Directiva de llamadas  |       |Realizar llamadas privadas         |Activado       |Activado|
 |  |       |Call forwarding and simultaneousing to people in your organization         |Activado        |Activado|
 |  |       |Reenvío de llamadas y llamadas simultáneas a números de teléfono externos         |Activado        |Activado|
-|  |       |El correo de voz está disponible para enrutar llamadas entrantes         |Usuario controlado         |Usuario controlado|
+|  |       |El correo de voz está disponible para enrutar llamadas entrantes         |Controlado por el usuario         |Controlado por el usuario|
 |  |       |Las llamadas entrantes se pueden enrutar a grupos de llamadas         |Activado        |Activado|
 |  |       |Permitir la delegación para llamadas entrantes y salientes         |Activado         |Activado|
 |  |       |Evitar la omisión de pago y enviar llamadas a través de RTC        |Desactivado         |Desactivado|

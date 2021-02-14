@@ -112,7 +112,7 @@ Si desea realizar estos cambios en todos los servidores de conferencia, puede ej
 
     Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}
 
-Después de cambiar la configuración del puerto, debe detener y reiniciar cada servicio afectado por los cambios.
+Después de cambiar la configuración de puerto, debe detener y reiniciar cada servicio afectado por los cambios.
 
 No es obligatorio que los servidores de conferencias, servidores de aplicaciones y servidores de mediación compartan el mismo intervalo de puertos exacto; el único requisito real es que reserve intervalos de puertos únicos en todos los servidores. Sin embargo, la administración suele ser más fácil si se usa el mismo conjunto de puertos en todos los servidores.
 
@@ -147,11 +147,11 @@ Para crear una directiva de calidad de servicio para administrar el audio, inici
 10. Debajo del encabezado **Especifique el número de puerto de origen**, seleccione **Desde este intervalo o puerto de origen**. En el cuadro de texto que acompaña a esta opción, escriba el intervalo de puertos reservado a las transmisiones de audio. Por ejemplo, si ha reservado los puertos 49152 a los puertos 57500 para el tráfico de audio, escriba el intervalo de puertos con este formato: **49152:57500**. Haga clic en **Finalizar**.
 
 > [!NOTE]  
-> El valor de DSCP de 46 es algo arbitrario: aunque DSCP 46 se utiliza a menudo para marcar paquetes de audio, no es necesario que use DSCP 46 para las comunicaciones de audio. Si ya ha implementado QoS y usa un código DSCP diferente para audio (por ejemplo, DSCP 40), debe configurar la directiva de calidad de servicio para que use ese mismo código (es decir, 40 para audio). Si está implementando Calidad de servicio ahora, se recomienda usar DSCP 46 para el audio, simplemente, porque es el valor que se suele usar para marcar paquetes de audio.
+> El valor de DSCP de 46 es algo arbitrario: aunque DSCP 46 se utiliza a menudo para marcar paquetes de audio, no es necesario que use DSCP 46 para las comunicaciones de audio. Si ya ha implementado QoS y usa otro código DSCP para audio (por ejemplo, DSCP 40), debe configurar la directiva de calidad de servicio para usar ese mismo código (es decir, 40 para audio). Si está implementando Calidad de servicio ahora, se recomienda usar DSCP 46 para el audio, simplemente, porque es el valor que se suele usar para marcar paquetes de audio.
 
 Después de crear la directiva QoS para el tráfico de audio, debe crear una segunda directiva para el tráfico de vídeo (y, opcionalmente, una tercera directiva para administrar el tráfico de uso compartido de aplicaciones). Para crear una directiva destinada al vídeo, siga el mismo procedimiento básico que llevó a cabo al crear la directiva de audio, sustituyendo lo siguiente:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, Vídeo de **Skype Empresarial Server).**
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server Video).**
 
   - Establezca el valor de DSCP **34** en lugar de 46. (Tenga en cuenta que no es necesario usar el valor de DSCP 34. El único requisito es usar un valor de DSCP distinto para el vídeo del que se usó para el audio.)
 
@@ -185,7 +185,7 @@ Para asegurarse de que los paquetes de red se marquen con el valor de DSCP adecu
 
 2.  En el **cuadro de** diálogo Ejecutar, **escriba regedit** y, a continuación, presione ENTRAR.
 
-3.  En el Editor del Registro, expanda **HKEY \_ LOCAL \_ MACHINE**, **SYSTEM**, **CurrentControlSet**, expand **services** y, a continuación, **Tcpip**.
+3.  En el Editor del Registro, expanda **HKEY \_ LOCAL \_ MACHINE**, **expanda SYSTEM**, **CurrentControlSet**, expanda **servicios** y, a continuación, **expanda Tcpip**.
 
 4.  Haga clic con el botón secundario en **Tcpip**, elija **Nuevo** y, a continuación, haga clic en **Clave**. Después de crear la nueva clave del Registro, escriba **QoS** y, a continuación, presione ENTRAR para cambiar el nombre de la clave.
 

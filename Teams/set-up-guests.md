@@ -33,7 +33,7 @@ ms.locfileid: "49786782"
 
 > [!Note]
 
-> Hasta **febrero de 2021,** el acceso de invitado está desactivado de forma predeterminada. Debe habilitar el acceso de invitado para Teams antes de que los administradores o los propietarios del equipo puedan agregar invitados. Después de activar el acceso de invitado, los cambios pueden tardar unas horas en tener efecto. Si los usuarios  ven el mensaje Póngase en contacto con el administrador cuando intenten agregar un invitado a su equipo, es probable que el acceso de invitado no se haya activado o que la configuración no sea eficaz todavía. 
+> Hasta **febrero de 2021,** el acceso de invitado está desactivado de forma predeterminada. Debe habilitar el acceso de invitado para Teams antes de que los administradores o los propietarios del equipo puedan agregar invitados. Después de activar el acceso de invitado, los cambios pueden tardar unas horas en tener efecto. Si los usuarios  ven el mensaje póngase en contacto con el administrador cuando intentan agregar un invitado a su equipo, es probable que el acceso de invitado no se haya activado o que la configuración no sea eficaz todavía. 
 
 > A partir de febrero de **2021,** el acceso de invitado en Microsoft Teams estará activado de forma predeterminada para los nuevos clientes & clientes existentes que no hayan configurado esta configuración. Cuando se implemente este cambio, si aún no ha configurado la funcionalidad de acceso de invitado en Microsoft Teams, esa funcionalidad se habilitará en su inquilino. Si desea que el acceso de invitado permanezca deshabilitado para su organización, tendrá  que confirmar que la configuración de acceso de invitado está desactivada en lugar del **valor predeterminado del servicio.**
 

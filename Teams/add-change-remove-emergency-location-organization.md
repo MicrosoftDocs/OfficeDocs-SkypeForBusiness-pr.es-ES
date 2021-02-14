@@ -27,7 +27,7 @@ ms.locfileid: "49799950"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
-Una ubicación de emergencia debe estar asociada a un número de teléfono, pero cuando esto ocurre puede variar entre países y regiones. Por ejemplo, en Estados Unidos, debe asociar una ubicación de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una ubicación de emergencia al número de teléfono cuando obtiene los números de teléfono de Microsoft 365 u Office 365 o los transfiere de su proveedor de servicios actual.
+Una ubicación de emergencia debe estar asociada a un número de teléfono, pero cuando esto ocurre puede variar entre países y regiones. Por ejemplo, en Estados Unidos, necesita asociar una ubicación de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una ubicación de emergencia al número de teléfono cuando obtiene los números de teléfono de Microsoft 365 u Office 365 o los transfiere desde su proveedor de servicios actual.
 
 No importa en qué país o región se encuentra, puede agregar un lugar o lugares a una ubicación de emergencia y quitar una ubicación de emergencia. Según el número de ubicaciones físicas de su organización, puede crear lugares para edificios, pisos y oficinas. Vea [Administrar llamadas de emergencia.](what-are-emergency-locations-addresses-and-call-routing.md)
   

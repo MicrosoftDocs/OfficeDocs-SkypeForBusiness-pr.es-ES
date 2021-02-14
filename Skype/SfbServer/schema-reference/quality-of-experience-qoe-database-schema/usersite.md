@@ -28,6 +28,6 @@ La tabla UserSite es una tabla compatible. Cada registro representa un sitio de 
 |:-----|:-----|:-----|:-----|
 |**UserSiteKey** <br/> |entero  <br/> |Principal  <br/> |Número único que identifica el sitio de usuario.  <br/> |
 |**UserSiteName** <br/> |nvarchar(128)  <br/> |Única  <br/> |Nombre del sitio de usuario.  <br/> |
-|**RegionKey** <br/> |entero  <br/> |Externo  <br/> |Se hace referencia desde [la tabla Región](region.md).  <br/> |
+|**RegionKey** <br/> |entero  <br/> |Externo  <br/> |Referencia de la [tabla Región](region.md).  <br/> |
    
 

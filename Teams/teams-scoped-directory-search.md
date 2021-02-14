@@ -30,19 +30,19 @@ ms.locfileid: "49779934"
 
 La búsqueda en el directorio de ámbito de Microsoft Teams permite a las organizaciones crear límites virtuales que controlan la forma en que los usuarios pueden encontrar y comunicarse con otros usuarios de su organización. 
 
-Microsoft Teams permite a las organizaciones proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa directivas [de Barrera de la](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) información para admitir estas vistas personalizadas. Una vez habilitadas las directivas, los resultados devueltos por las búsquedas de otros usuarios (por ejemplo, para iniciar un chat o agregar miembros a un equipo) estarán en el ámbito según las directivas configuradas. Los usuarios no podrán buscar o descubrir equipos cuando la búsqueda de ámbito esté en vigor. 
+Microsoft Teams permite a las organizaciones proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams utiliza directivas [de Barrera de la](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) información para admitir estas vistas personalizadas. Una vez habilitadas las directivas, los resultados devueltos por las búsquedas de otros usuarios (por ejemplo, para iniciar un chat o agregar miembros a un equipo) estarán en el ámbito según las directivas configuradas. Los usuarios no podrán buscar o descubrir equipos cuando la búsqueda de ámbito esté en vigor. 
 
 > [!NOTE]
 > En entornos híbridos de Exchange, esta característica solo funciona con buzones de Exchange Online y no con buzones locales.
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>¿Cuándo debería usar búsquedas en directorios de ámbito?
 
-Los escenarios que se benefician de las búsquedas en directorios de ámbito son similares a los escenarios de directivas de libreta de direcciones. Por ejemplo, es posible que desee usar búsqueda en el directorio de ámbito en las situaciones siguientes:
+Los escenarios que se benefician de las búsquedas en directorios de ámbito son similares a los escenarios de directivas de libreta de direcciones. Por ejemplo, es posible que desee usar una búsqueda de directorio de ámbito en las situaciones siguientes:
 
 - La organización tiene varias compañías en su inquilino, pero prefiere mantenerlas por separado. 
 - Su centro educativo quiere limitar los chats entre el personal académico y los estudiantes. 
  
-Para obtener información sobre cómo usar las directivas de la libreta de direcciones, lea las directivas de Barrera de [la información en Exchange Online.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
+Para obtener información sobre cómo usar las directivas de libreta de direcciones, lea [las directivas sobre barreras de información en Exchange Online.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
 
 > [!IMPORTANT]
 > Las directivas de libreta de direcciones proporcionan solo una separación virtual de los usuarios desde la perspectiva del directorio. También es importante tener en cuenta que los datos de usuario que ya se almacenaron en caché, antes de aplicar directivas de libreta de direcciones nuevas o actualizadas, permanecerán disponibles para los usuarios durante un máximo de 30 días.

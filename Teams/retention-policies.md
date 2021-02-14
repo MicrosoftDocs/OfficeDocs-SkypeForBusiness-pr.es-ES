@@ -30,7 +30,7 @@ ms.locfileid: "49786832"
 
 Las directivas de retención y las etiquetas de retención de Microsoft 365 le ayudan a administrar la información de la organización de forma más eficaz. Puede configurar las opciones de retención para conservar los datos necesarios para cumplir con las directivas internas, normativas del sector o necesidades legales de su organización. También puede configurar opciones de retención para eliminar datos que se consideren una responsabilidad, que ya no tenga que conservar o que no tenga valor empresarial o legal.
 
-Teams admite directivas de retención para mensajes de canal y chat para que, como administrador, pueda decidir proactivamente si desea conservar estos datos, eliminarlos o retenerlo durante un período de tiempo específico y, a continuación, eliminarlos. Puede aplicar una directiva de retención de Teams a toda la organización o a usuarios y equipos específicos. Las etiquetas de retención no son compatibles con Teams.
+Teams admite directivas de retención para mensajes de canal y chat para que, como administrador, pueda decidir de manera proactiva si desea conservar estos datos, eliminarlos o retenerlo durante un período de tiempo específico y, a continuación, eliminarlos. Puede aplicar una directiva de retención de Teams a toda la organización o a usuarios y equipos específicos. Las etiquetas de retención no son compatibles con Teams.
 
 Para obtener más información sobre la retención y cómo puede aplicar la configuración de retención mediante directivas de retención o etiquetas de retención para otras cargas de trabajo en Microsoft 365, vea Información sobre directivas de retención y etiquetas de [retención.](https://docs.microsoft.com/microsoft-365/compliance/retention)
 
@@ -63,7 +63,7 @@ Por ejemplo, en el caso de los mensajes del canal, puede aplicar una directiva d
 
 Para crear una directiva de retención para los mensajes de canal y chat de Teams, use las instrucciones de la directiva de [retención para ubicaciones de Teams.](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
-Esa página contiene información adicional sobre cómo crear y administrar directivas de retención para otras cargas de trabajo en Microsoft 365. Por ejemplo, es posible que también desee crear una directiva de retención para grupos de Microsoft 365 para conservar y eliminar los archivos a los que se tiene acceso en Teams y que se almacenan en OneDrive o SharePoint.  
+Esa página contiene información adicional sobre cómo crear y administrar directivas de retención para otras cargas de trabajo en Microsoft 365. Por ejemplo, es posible que también desee crear una directiva de retención para grupos de Microsoft 365 para conservar y eliminar archivos a los que se tiene acceso en Teams y que se almacenan en OneDrive o SharePoint.  
 
 ## <a name="end-user-experience"></a>Experiencia del usuario final
 

@@ -24,9 +24,9 @@ ms.locfileid: "49800710"
 ---
 # <a name="sip-video-trunk-scope-node"></a>Nodo de ámbito del tronco de vídeo SIP
  
-The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+Los pasos necesarios para definir un nuevo VIS o una puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo [de servidores VIS en Skype Empresarial Server.](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
-Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea en Implementar el rol de servidor [VIS en Skype Empresarial Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea en Implementar el rol de servidor VIS en [Skype Empresarial Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
   

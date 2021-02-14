@@ -29,7 +29,7 @@ ms.locfileid: "49799870"
 ---
 # <a name="messaging-policies-licensing"></a>Licencias de directivas de mensajería
 
-Estamos oyendo a clientes de todo el mundo cómo la pandemia COVID-19 (Coronavirus) ha creado nuevos desafíos a medida que trabajan para controlar cambios drásticos en sus operaciones diarias. Poder conectar directamente y rápidamente con sus compañeros de equipo durante las condiciones cambiantes es esencial para mantener la continuidad empresarial durante la respuesta a la crisis y para que muchos de nosotros vuelvan al trabajo.
+Estamos oyendo a clientes de todo el mundo cómo la pandemia COVID-19 (Coronavirus) ha creado nuevos desafíos a medida que trabajan para controlar cambios drásticos en sus operaciones diarias. Poder conectarse directamente y rápidamente con sus compañeros de equipo durante las condiciones cambiantes es esencial para mantener la continuidad empresarial durante la respuesta a la crisis y para que muchos de nosotros vuelvan al trabajo.
 
 Anunciadas originalmente en junio de 2019, las notificaciones de prioridad para Microsoft Teams conceden a los usuarios la posibilidad de enviar continuamente notificaciones que se repiten cada dos minutos durante un máximo de 20 minutos en todos los mensajes [marcados](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) como urgentes. Las notificaciones de prioridad se habían puesto a disposición de todos los clientes de Teams como promoción hasta la segunda mitad de 2020.
 

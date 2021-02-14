@@ -1,5 +1,5 @@
 ---
-title: Bloquear las llamadas entrantes en Microsoft Teams
+title: Bloquear llamadas entrantes en Microsoft Teams
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -23,7 +23,7 @@ ms.locfileid: "49799910"
 ---
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 
-Los planes de enrutamiento directo y llamadas de sistema telefónico admiten el bloqueo de llamadas entrantes de la red telefónica conmutada (RTC). Esta característica permite definir una lista global de inquilinos de patrones de números para que el identificador de llamada de cada llamada RTC entrante al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechazará una llamada entrante.
+Los planes de enrutamiento directo y llamadas de sistema telefónico admiten el bloqueo de llamadas entrantes de la red telefónica conmutada (RTC). Esta característica permite definir una lista global de inquilinos de patrones de números para que el identificador de llamada de todas las llamadas RTC entrantes al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechazará una llamada entrante.
 
 Esta característica de bloqueo de llamadas entrantes solo funciona en llamadas entrantes procedentes de RTC y solo funciona de forma global del inquilino. No está disponible para cada usuario.  
 
@@ -45,7 +45,7 @@ Para administrar los patrones de números, use los cmdlets **New,** **Get,** **S
 
 La visualización y activación de toda la característica de bloqueo de llamadas se administra mediante los cmdlets **Get**, **Set**  - **CsTenantBlockingCallingNumbers.**
 
-- [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) devuelve los parámetros para la lista de números bloqueados global, incluido Enabled (True/False). Hay una sola directiva de inquilino global que no se puede modificar manualmente, aparte de activar o desactivar la característica.
+- [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) devuelve los parámetros para la lista de números bloqueados global, incluido Enabled (True/False). Hay una sola directiva de inquilino global que no se puede modificar manualmente, aparte de para activar o desactivar la característica.
 - [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) permite modificar el inquilino global de llamadas bloqueadas que se deben activado y desactivado en el nivel de inquilino.
 
 ### <a name="examples"></a>Ejemplos
@@ -58,7 +58,7 @@ En este ejemplo, los **parámetros Habilitado** y **Descripción** son opcionale
 New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”
 ```
 
-Al crear un nuevo patrón se agrega el patrón como habilitado de forma predeterminada. La descripción es un campo opcional para proporcionar más información.
+Al crear un patrón, se agrega el patrón como habilitado de forma predeterminada. La descripción es un campo opcional para proporcionar más información.
 
 Le recomendamos que proporcione un nombre significativo para comprender fácilmente por qué se agregó el patrón. En el caso de bloquear simplemente números de correo no deseado, considere la posibilidad de asignar a la regla el mismo nombre que el patrón de números que coincide y agregar información adicional en la descripción según sea necesario.
 
@@ -78,13 +78,13 @@ Deje tiempo para la replicación antes de probar y validar.
 
 #### <a name="view-all-number-patterns"></a>Ver todos los patrones de números
 
-Al ejecutar este cmdlet, se devuelve una lista de todos los números bloqueados que se introducen para un inquilino:
+Al ejecutar este cmdlet, se devuelve una lista de todos los números bloqueados que se han introducido para un inquilino:
 
 ```powershell
 Get-CsInboundBlockedNumberPattern
 ```
 
-Use las capacidades de filtrado de PowerShell integradas para analizar los valores devueltos según sea necesario.
+Use capacidades de filtrado de PowerShell integradas para analizar los valores devueltos según sea necesario.
 
 ## <a name="add-number-exceptions"></a>Agregar excepciones de número
 
@@ -149,7 +149,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 Use el **cmdlet Test-CsInboundBlockedNumberPattern** para comprobar si un número está bloqueado en el espacio empresarial.
  
-En este ejemplo, son **necesarios los parámetros PhoneNumber** y **Tenant.** El **parámetro PhoneNumber** debe ser una cadena numérica sin ningún carácter adicional, como + o -. En PVS, el **parámetro tenant** es opcional. El parámetro **isNumberBlocked** resultante devuelve un valor True si el número está bloqueado en el espacio empresarial y False si no está bloqueado.
+En este ejemplo, son **necesarios los parámetros PhoneNumber** y **Tenant.** El **parámetro PhoneNumber** debe ser una cadena numérica sin ningún carácter adicional, como + o -. En PVS, el **parámetro Tenant** es opcional. El parámetro **isNumberBlocked** resultante devuelve un valor True si el número está bloqueado en el espacio empresarial y False si no está bloqueado.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
