@@ -193,7 +193,7 @@ Además del ancho de banda requerido para el tráfico de protocolo seguro en tie
 |**Media**|**Ancho de banda máximo RTCP (Kbps)**|
 |:-----|:-----|
 |Audio  <br/> |5   <br/> |
-|Video (solo se envía/recibe H.264 o RTVideo)  <br/> |10   <br/> |
+|Video (solo se envía/recibe H.264 o RTVideo)  <br/> |10    <br/> |
 |Video (se envía/recibe H.264 y RTVideo)  <br/> |15   <br/> |
 
 Para la planeación de la capacidad, son de interés las dos estadísticas siguientes:
@@ -278,9 +278,9 @@ Skype Empresarial Server ofrece compatibilidad completa con QoS: esto significa 
 > [!NOTE]
 > Si usa Windows Server 2012 o Windows Server 2012 R2, es posible que le interese el nuevo conjunto de cmdlets de Windows PowerShell disponibles para administrar QoS en esa plataforma. Para obtener más información, consulte [Cmdlets de QoS de red en Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379).
 
-QoS también se describe en las notas del producto sobre planeación, supervisión y solución de problemas de la red con [Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) con detalles y profundidad adicionales. Aunque el contenido hace referencia explícitamente a Lync 2010 y Lync 2013, las consideraciones para Skype Empresarial Server no cambian.
+QoS también se describe en las notas del producto sobre planeación, supervisión y solución de problemas de red con [Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) con detalles y profundidad adicionales. Aunque el contenido hace referencia explícitamente a Lync 2010 y Lync 2013, las consideraciones para Skype Empresarial Server no cambian.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="man_QOS"> </a>
 
 [Planear IPv6 en Skype Empresarial](ipv6.md)

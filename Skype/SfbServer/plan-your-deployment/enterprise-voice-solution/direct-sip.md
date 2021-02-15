@@ -33,7 +33,7 @@ Puede usar conexiones SIP directas para conectar Skype Empresarial Server a cual
 
 - Una puerta de enlace RTC
 
-Para implementar una conexión SIP directa, deberá seguir básicamente los mismos pasos de implementación que seguiría para implementar un tronco SIP. En ambos casos, se implementa la conexión mediante la interfaz externa de un servidor de mediación. La única diferencia es que los troncos SIP se conectan a una entidad externa, como, por ejemplo, una puerta de enlace del proveedor de servicios de telefonía por Internet (ITSP), mientras que las conexiones SIP se conectan a una entidad interna de la red local, como, por ejemplo, una puerta de enlace de red telefónica conmutada (RTC) o un sistema IP-PBX.
+Para implementar una conexión SIP directa, deberá seguir básicamente los mismos pasos de implementación que seguiría para implementar un tronco SIP. En ambos casos, la conexión se implementa mediante la interfaz externa de un servidor de mediación. La única diferencia es que los troncos SIP se conectan a una entidad externa, como, por ejemplo, una puerta de enlace del proveedor de servicios de telefonía por Internet (ITSP), mientras que las conexiones SIP se conectan a una entidad interna de la red local, como, por ejemplo, una puerta de enlace de red telefónica conmutada (RTC) o un sistema IP-PBX.
 
 ## <a name="direct-sip-deployment-options"></a>Opciones de implementación SIP directa
 
@@ -64,11 +64,11 @@ En la figura siguiente se muestra la topología genérica para la implementació
 > [!NOTE]
 > La ruta de acceso multimedia que se muestra en esta figura tiene habilitada la omisión de medios (la configuración recomendada). Si opta por deshabilitar la omisión de medios, la ruta de acceso multimedia se enruta a través del servidor de mediación.
 
-En esta topología, los departamentos o grupos de trabajo seleccionados están habilitados para Telefonía IP empresarial. Una puerta de enlace RTC vincula el grupo de trabajo habilitado para voz sobre ip (VoIP) a la PBX. Los usuarios que están habilitados para Telefonía IP empresarial, incluidos los trabajadores remotos, se comunican a través de la red IP. Las llamadas Telefonía IP empresarial usuarios a la RTC y a compañeros de trabajo que no están habilitados para Telefonía IP empresarial se enrutar a la puerta de enlace RTC adecuada. Las llamadas de compañeros que aún están en el sistema PBX, o de los autores de llamadas en la RTC, se enrutar a la puerta de enlace RTC, que reenvía las llamadas a Skype Empresarial Server para su enrutamiento.
+En esta topología, los departamentos o grupos de trabajo seleccionados están habilitados para Telefonía IP empresarial. Una puerta de enlace RTC vincula el grupo de trabajo habilitado para voz sobre IP (VoIP) a la PBX. Los usuarios que están habilitados para Telefonía IP empresarial, incluidos los trabajadores remotos, se comunican a través de la red IP. Las llamadas Telefonía IP empresarial usuarios a la RTC y a compañeros de trabajo que no están habilitados para Telefonía IP empresarial se enrutar a la puerta de enlace RTC adecuada. Las llamadas de compañeros que aún están en el sistema PBX, o de los autores de llamadas en la RTC, se enrutar a la puerta de enlace RTC, que reenvía las llamadas a Skype Empresarial Server para su enrutamiento.
 
 Existen dos configuraciones recomendadas para conectar Telefonía IP empresarial a una infraestructura de PBX existente para la interoperabilidad: Telefonía IP empresarial detrás de la PBX y Telefonía IP empresarial delante de la PBX.
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>Telefonía IP empresarial detrás de la PBX
+#### <a name="enterprise-voice-behind-the-pbx"></a>Telefonía IP empresarial subyacente de la PBX
 
 Cuando Telefonía IP empresarial se implementa detrás de la PBX, todas las llamadas de la RTC llegan a la PBX, que enruta las llamadas a los usuarios de Telefonía IP empresarial a una puerta de enlace RTC y las llamadas a los usuarios de PBX a la PBX.
 

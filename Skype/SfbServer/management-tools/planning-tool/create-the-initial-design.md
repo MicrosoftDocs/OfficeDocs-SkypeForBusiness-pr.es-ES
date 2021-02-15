@@ -67,7 +67,7 @@ Cuando haya terminado de instalar la Herramienta de planeación de Skype Empresa
 
 11. Después de haber definido un nombre de sitio y la cantidad de usuarios, haga clic en **Siguiente**.
 
-12. Las páginas siguientes solicitan información sobre dominios SIP, configuración de conferencia, configuración de voz e infraestructura, mensajería unificada de Exchange, acceso de usuarios externos, configuración de chat persistente, configuración de cliente, opciones de colocación y sitios de sucursal. Responda a estas preguntas.
+12. En las páginas siguientes se solicita información sobre dominios SIP, configuración de conferencia, configuración de voz e infraestructura, mensajería unificada de Exchange, acceso de usuarios externos, configuración de chat persistente, configuración de cliente, opciones de colocación y sitios de sucursal. Responda a estas preguntas.
 
 13. La pregunta final se hace si desea crear otro sitio central. Si selecciona **Sí,** la Herramienta de planeación volverá a la página Sitios centrales. Si selecciona **No,** haga clic en **Siguiente** y, a continuación, haga clic en **Dibujar** para mostrar la vista Topología global de alto nivel.
 
@@ -77,6 +77,6 @@ Cuando haya terminado de instalar la Herramienta de planeación de Skype Empresa
 
 16. La Herramienta de planeación muestra la página Topología global. Ahora puede empezar a editar, actualizar o cambiar la topología mediante las herramientas disponibles en la Herramienta de planeación.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Edición del diseño](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

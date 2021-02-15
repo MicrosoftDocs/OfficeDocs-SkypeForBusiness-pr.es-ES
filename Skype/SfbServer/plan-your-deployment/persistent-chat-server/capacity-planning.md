@@ -70,7 +70,7 @@ La siguiente tabla de ejemplo puede ayudarle a planear la administración del ac
 ||**Salas de chat pequeñas**|**Salas de chat medianas**|**Grandes salas de chat**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Tamaño de los salas de chat (número de usuarios conectados)  <br/> |30 por sala  <br/> |150 por sala  <br/> |16 000 por sala  <br/> ||
-|Salones de chat  <br/> |32,000  <br/> |1,067  <br/> |10   <br/> |33,077  <br/> |
+|Salones de chat  <br/> |32,000  <br/> |1,067  <br/> |10    <br/> |33,077  <br/> |
 |% de salas que son auditorio  <br/> |1%  <br/> |1%  <br/> |50%  <br/> ||
 |% de salas que están abiertas  <br/> |3%  <br/> |3%  <br/> |50%  <br/> ||
 |Salas abiertas (sin pertenencia explícita)  <br/> |960  <br/> |32  <br/> |5   <br/> |997  <br/> |
@@ -80,7 +80,7 @@ La siguiente tabla de ejemplo puede ayudarle a planear la administración del ac
 |Salas administradas por grupos de usuarios  <br/> |50%  <br/> |90 %  <br/> |100 %  <br/> ||
 |Grupos de usuarios en la lista de pertenencia de cada salón de chat para salas abiertas (no se especifica explícitamente)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
 |Usuarios de la lista de pertenencia de cada salón de chat para salas no abiertas  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Grupos de usuarios en la lista de pertenencia de cada salón de chat para salas no abiertas  <br/> |3   <br/> |5   <br/> |10   <br/> ||
+|Grupos de usuarios en la lista de pertenencia de cada salón de chat para salas no abiertas  <br/> |3   <br/> |5   <br/> |10    <br/> ||
 |Usuarios y grupos de usuarios en la lista de administradores de cada salón de chat (para salas abiertas y no abiertas)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |Usuarios y grupos de usuarios en la lista de presentadores de cada salón de chat de auditorio (para salas abiertas y no abiertas)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |Entidades de pertenencia basadas en usuarios en todas las salas no abiertas  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
@@ -89,7 +89,7 @@ La siguiente tabla de ejemplo puede ayudarle a planear la administración del ac
 |Entidades de administrador basadas en usuarios y grupos de usuarios en todas las listas de administradores de salas de chat  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |Usuarios activos por salón de chat  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
 |Salas de chat por usuario  <br/> |12   <br/> |2   <br/> |2   <br/> |16   <br/> |
-|Grupos de usuarios en la lista de pertenencia de cada salón de chat  <br/> |10   <br/> |10   <br/> |15   <br/> ||
+|Grupos de usuarios en la lista de pertenencia de cada salón de chat  <br/> |10    <br/> |10    <br/> |15   <br/> ||
 |Salas administradas por grupos de usuarios  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |Entidades de pertenencia basadas en grupos de usuarios en todos los salón de chat  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
 |Entidades de pertenencia basadas en usuarios en todos los salón de chat  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
@@ -156,7 +156,7 @@ En la tabla siguiente se describe el modelo de usuario para el servidor de chat 
 |Número total de salas de chat  <br/> |33,077  <br/> |
 |Número de salas de chat pequeñas  <br/> |32,000  <br/> |
 |Número de salas de chat medianas  <br/> |1,067  <br/> |
-|Número de salas de chat grandes  <br/> |10   <br/> |
+|Número de salas de chat grandes  <br/> |10    <br/> |
 |Número total de salas de chat por usuario  <br/> |16   <br/> |
 |Número de salas de chat pequeñas por usuario  <br/> |12   <br/> |
 |Número de salas de chat medianas por usuario  <br/> |2   <br/> |

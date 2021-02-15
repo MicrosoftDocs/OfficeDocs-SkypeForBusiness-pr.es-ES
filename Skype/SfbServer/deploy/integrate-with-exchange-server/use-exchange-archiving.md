@@ -112,7 +112,7 @@ Las directivas de archivado también se pueden administrar mediante el Panel de 
 
 Si Skype Empresarial Server y Exchange Server están ubicados en bosques diferentes, no es suficiente simplemente habilitar el archivado de Exchange en las opciones de configuración de archivado; que no provocará que las transcripciones de mensajería instantánea y de conferencia web se archiven en Exchange. En su lugar, también debe configurar la propiedad ExchangeArchivingPolicy en cada una de las cuentas de usuario relevantes de Skype Empresarial Server. Esta propiedad puede establecerse con uno de los cuatro valores posibles:
 
-1. **Uninitialized**. Indica que el archivado se basará en la configuración In-Place de retención local configurada para el buzón de Correo de Exchange del usuario; Si In-Place la retención local no se ha habilitado en el buzón del usuario, el usuario archivará sus transcripciones de mensajería y conferencia web en Skype Empresarial Server.
+1. **No inicializado**. Indica que el archivado se basará en la configuración In-Place de retención local configurada para el buzón de Correo de Exchange del usuario; Si In-Place la retención local no se ha habilitado en el buzón del usuario, el usuario archivará sus transcripciones de mensajería y conferencia web en Skype Empresarial Server.
 
 2. **UseLyncArchivingPolicy**. Indica que las transcripciones de mensajería instantánea y de conferencia web del usuario deben archivarse en Skype Empresarial Server en lugar de en Exchange.
 

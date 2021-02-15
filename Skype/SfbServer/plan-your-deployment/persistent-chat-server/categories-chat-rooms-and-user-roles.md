@@ -30,7 +30,7 @@ Puede controlar el acceso a los salón de chat creando categorías de salón de 
     
 - Salas de chat y roles de usuario
     
-- Funciones de administrador
+- Roles de administrador
 
 > [!NOTE] 
 > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015. 
@@ -64,7 +64,7 @@ Además de los miembros permitidos y denegados para las categorías, también pu
     
 - **Moderador**: usuarios que pueden publicar contenido en un salón de auditorio.
     
-## <a name="administrator-roles"></a>Funciones de administrador
+## <a name="administrator-roles"></a>Roles de administrador
 
 Los siguientes son roles de administrador para el servidor de chat persistente:
   

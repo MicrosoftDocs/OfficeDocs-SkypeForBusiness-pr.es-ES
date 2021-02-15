@@ -26,7 +26,7 @@ ms.locfileid: "49833560"
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
 
-- [Configurar un tronco con desvío de medios en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Configurar un tronco con omisión de medios en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
 - [Configurar un tronco sin desvío de medios en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 

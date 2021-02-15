@@ -182,7 +182,7 @@ Por ejemplo, para quitar una configuración del servicio de registro centralizad
 > Esta es la nueva configuración que se creó en el procedimiento "Para crear una nueva configuración del servicio de registro centralizado".
 
 Si decide quitar una configuración en el nivel de sitio, el sitio usará la configuración global.
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015](configure-providers.md)
 

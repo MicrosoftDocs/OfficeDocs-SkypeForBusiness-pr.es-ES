@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, como se describe en el tema Ejecución de la preparación del esquema, y asegurarse de que el esquema se ha replicado.
+description: Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, como se describe en el tema Running Schema Preparation, y asegurarse de que el esquema se haya replicado.
 ms.openlocfilehash: 4881cb85134fef81cd741d834f319a76d4028e59
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -37,7 +37,7 @@ Después de completar estos requisitos previos, puede comenzar **el paso 3: Prep
 
 3. En la página **Ejecución de comandos**, busque **Estado de la tarea: completado** y, a continuación, haga clic en **Ver registro**. Asegúrese de que no hay errores. Revise las advertencias para determinar si se esperan y son típicas para su infraestructura.
 
-4. En  la columna Acción del registro, expanda Preparación del bosque **,** busque un resultado de ejecución al final de cada tarea para comprobar que la preparación del bosque se completó correctamente, cierre el registro y, a continuación, haga clic en **\<Success\>** **Finalizar**.
+4. En  la columna Acción del registro, expanda Preparación del bosque **,** busque un resultado de ejecución al final de cada tarea para comprobar que la preparación del bosque se haya completado correctamente, cierre el registro y, a continuación, haga clic en **\<Success\>** **Finalizar**.
 
 5. Espere a que se complete la replicación de Servicios de dominio de Active Directory o fuerce la replicación en todos los controladores de dominio que aparecen en el complemento Sitios y servicios de **Active Directory** para el controlador de dominio raíz del bosque, antes de ejecutar la preparación del dominio. Fuerce la replicación entre los controladores de dominio en todos los sitios de Active Directory para que la replicación en los sitios se produzca en cuestión de minutos.
 

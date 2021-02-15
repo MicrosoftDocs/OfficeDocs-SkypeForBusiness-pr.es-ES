@@ -48,11 +48,11 @@ En este plan de adopción de Teams, hemos organizado los pasos en fases y hemos 
 
 ## <a name="adoption-phases"></a>Fases de adopción 
 
-Cada proyecto de adopción varía en tamaño y complejidad en función de su entorno, pero los pasos iniciales son idénticos en el panel. Creemos que dividir el proceso en tres fases distintas: inicio, experimento y habilitación simplificará la adopción para todos los usuarios.  
+Cada proyecto de adopción varía en tamaño y complejidad en función de su entorno, pero los pasos iniciales son idénticos en el panel. Creemos que dividir el proceso en tres fases distintas(inicio, experimento y habilitación) simplificará la adopción para todos los usuarios.  
 
 - **Inicio:** en esta primera fase, reunirá a su equipo, configurará sus equipos iniciales y usará Teams para empezar a planear la adopción de Teams. Este enfoque aumentará su familiaridad técnica con el producto y le ayudará a desarrollar las aptitudes necesarias para completar correctamente las fases posteriores. 
 
-- **Experimente:** en esta fase de crecimiento controlado, incorporará a sus campeones internos y a los primeros usuarios. Hablará con los usuarios empresariales para identificar escenarios que se beneficiarían inmediatamente de las capacidades de colaboración y comunicaciones que ofrece Teams. Recopilará comentarios que informarán de su fase de adopción a gran escala y tomará decisiones de servicio sobre el gobierno y la administración del ciclo de vida para garantizar una implementación correcta.
+- **Experimente:** en esta fase de crecimiento controlado, incorporará a sus campeones internos y a los primeros usuarios. Hablará con los usuarios empresariales para identificar escenarios que se beneficiarán inmediatamente de las capacidades de colaboración y comunicaciones que ofrece Teams. Recopilará comentarios que informarán de su fase de adopción a gran escala y tomará decisiones de servicio sobre el gobierno y la administración del ciclo de vida para garantizar una implementación correcta.
 
 - **Escala:** esta es la fase de implementación a gran escala en la que activará las capacidades de Teams para todos los empleados. En esta fase, el tamaño de su organización determinará si se trata de un proyecto "enorme" que activará Teams para todos los empleados al mismo tiempo o si se abordará por región, unidad de negocio u otro método de segmentación de la población de empleados. En esta fase, se moverá a un modelo de entrega continua. Los empleados, los líderes y las unidades de negocio querrán expandir el uso de Teams y requerirán aprendizaje y participación para comprender cómo usar Teams y otras características de Microsoft 365 u Office 365 de la mejor manera.
 

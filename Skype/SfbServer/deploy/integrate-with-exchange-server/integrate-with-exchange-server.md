@@ -51,6 +51,6 @@ Si está integrando Skype Empresarial Online con Exchange Server local, consulte
 
 [Configurar el almacén de contactos personales en equipos cliente para Skype Empresarial Server](personal-contacts-store.md)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Plan para la integración de Skype Empresarial y Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)

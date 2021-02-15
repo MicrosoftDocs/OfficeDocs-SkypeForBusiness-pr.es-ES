@@ -38,7 +38,7 @@ Cambiar a VbSS tiene como objetivo realizar tres mejoras clave:
   
 1. Hacer uso compartido de pantalla (hasta un 5%) más confiable en comparación con RDP solo.
 
-2. Haga que la configuración de sesión y la experiencia de vídeo sea más rápida en comparación con RDP solo (configuración en la mitad del tiempo, con una mejora de 6:1 en fotogramas por segundo).
+2. Haga que la configuración de sesión y la experiencia de vídeo sea más rápida en comparación con RDP solo (configuración a la mitad del tiempo, con una mejora de 6:1 en fotogramas por segundo).
 
 3. Funciona mucho mejor que RDP en condiciones de ancho de banda bajo, incluso cuando se comparte contenido de alto movimiento, como gráficos 3D.
     
@@ -64,7 +64,7 @@ También debe tener en cuenta que se ha negociado cierta fidelidad o precisión 
 Si QoS está habilitado para los siguientes puertos multimedia y VbSS también está habilitado, durante una conferencia que incluya el uso compartido de escritorio, la MCU de AS usará la configuración de puerto de vídeo que se muestra en negrita a continuación para el tráfico de uso compartido de pantalla. 
   
 > [!IMPORTANT]
-> Estas opciones de configuración son un caso especial y estas configuraciones exactas deben usarse al implementar ambas características. Esto reemplaza otras configuraciones recomendadas en [la documentación de QoS](https://technet.microsoft.com/library/gg405409%28v=ocs.15%29.aspx). Para el uso compartido de aplicaciones, también deberá especificar ASMCUSVC.exe en el GPO de QoS además de definir estos valores de puerto. 
+> Estas opciones de configuración son un caso especial y estas configuraciones exactas deben usarse al implementar ambas características. Esto invalida otras configuraciones recomendadas en la [documentación de QoS](https://technet.microsoft.com/library/gg405409%28v=ocs.15%29.aspx). Para el uso compartido de aplicaciones, también deberá especificar ASMCUSVC.exe en el GPO de QoS además de definir estos valores de puerto. 
   
 **Configuración requerida de QoS/VbSS del servidor de aplicaciones**
 
@@ -79,9 +79,9 @@ Si QoS está habilitado para los siguientes puertos multimedia y VbSS también e
    
 ### <a name="capacity-planning"></a>Planeamiento de capacidad
 
-Cada servidor front-end que ejecute la actualización acumulativa 2 (CU2) de Skype Empresarial Server 2015 o posterior admite hasta 375 participantes para el uso compartido de pantalla mediante RDP (aunque solo 250 por reunión). Esta capacidad no cambia después de cu3, cuando se introduce y se usa VbSS.
+Cada servidor front-end que ejecute la actualización acumulativa 2 (CU2) de Skype Empresarial Server 2015 o posterior admite hasta 375 participantes para el uso compartido de pantalla mediante RDP (aunque solo 250 por reunión). Esta capacidad no cambia después de CU3, cuando se introduce y se usa VbSS.
   
-Dicho esto, hemos realizado pruebas de rendimiento y esfuerzo en nuestro laboratorio, y las siguientes medidas también deben tenerse en cuenta con respecto a su propia implementación (en función del uso, por supuesto).
+Dicho esto, hemos realizado pruebas de esfuerzo y rendimiento en nuestro laboratorio, y las siguientes medidas también deben tenerse en cuenta con respecto a su propia implementación (en función del uso, por supuesto).
   
 Suponiendo que:
   
@@ -128,7 +128,7 @@ Hay situaciones en las que el uso compartido de pantalla realizará la transici�
 - Si alguien inicia algún programa o uso compartido de Windows.
 - Si alguien empieza a grabar la sesión.
 - Si alguien invoca el Control remoto de pantalla durante la sesión. 
-- Reuniones con más de 250 participantes (donde Actualmente no se admite VbSS).
+- Reuniones con más de 250 participantes (donde VbSS no es compatible actualmente).
 
 Tenga en cuenta que una vez que la sesión pasa a RDP, no volverá a VbSS. De nuevo, la transición de VbSS está pensada para ser fluida y, con la intención de que no sea fácil de detectar en la mayoría de las situaciones.
     
@@ -193,7 +193,7 @@ Lo bueno es que, una vez que haya instalado la actualización acumulativa 3 (CU3
 > [!NOTE]
 > En una reunión de Skype Empresarial entre varios usuarios, todos los puntos de conexión de cliente respetarán la configuración de directiva del organizador de la reunión. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Actualización acumulativa kb3061064 de Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=47690)
   

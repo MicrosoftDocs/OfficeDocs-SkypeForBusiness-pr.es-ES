@@ -53,7 +53,7 @@ ADVERTENCIA: Entrada de control de acceso (ACE) atl-cs-001\RTCUniversalServerAdm
 
 ADVERTENCIA: Las entradas de control de acceso (ACE) en el objeto "CN=Computers,DC=litwareinc,DC=com" no están listas. 
 
-False 
+Falso 
 
 ADVERTENCIA: el procesamiento de "Test-CsSetupPermission" se ha completado con advertencias. Durante esta ejecución se registraron advertencias de "2". 
 

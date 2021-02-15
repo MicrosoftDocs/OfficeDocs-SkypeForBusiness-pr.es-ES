@@ -30,7 +30,7 @@ Antes de empezar a diseñar y planear la infraestructura de Skype Empresarial Se
 
 Los sistemas operativos admitidos para la instalación y el funcionamiento de la Herramienta de planeación son:
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 
@@ -108,7 +108,7 @@ Al exportar el diseño a Microsoft Visio, se crea un diagrama para usarlo en los
 
 - Diagrama de red perimetral: diagrama que detalla la configuración del servidor perimetral con direcciones IP y FQDN asociados. También se incluyen equilibradores de carga de hardware y equilibrio de carga de DNS. Además, se muestran los directores y el servidor front-end o el grupo de servidores front-end, con la LB o HLB de DNS asociado y la dirección IP asignada (la Herramienta de planeación admite direcciones IPv4 e IPv6) y FQDN.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="Optional_Software"> </a>
 
 [Instalación de la herramienta de planeación](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

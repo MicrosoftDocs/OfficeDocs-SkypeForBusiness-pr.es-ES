@@ -42,7 +42,7 @@ Definir una dirección URL sencilla también requerirá establecer un registro A
 
 Topology Builder y los cmdlets del Shell de administración de Skype Empresarial Server aplican varias reglas de validación para las direcciones URL sencillas. Las direcciones URL sencillas para reunión y acceso telefónico deben definirse obligatoriamente, si bien esto es opcional en el caso de las direcciones URL de administración. Cada dominio SIP debe tener una dirección URL sencilla de reunión particular, mientras que solo es preciso tener una dirección URL sencilla de acceso telefónico y de administración para toda la organización.
 
-Cada dirección URL sencilla de la organización debe tener un nombre único y no puede ser un prefijo de otra dirección URL sencilla (por ejemplo, no se pudo establecer SfB2015.contoso.com/Meet como dirección URL sencilla de reunión y SfB2015.contoso.com/Meet/Dialin como dirección URL sencilla de acceso telefónico). Los nombres de dirección URL sencillas no pueden contener el FQDN de ninguno de los grupos de servidores ni ninguna información de puerto (por ejemplo, https://FQDN:88/meet no está permitida). Todas las direcciones URL sencillas deben empezar por el prefijo https://. 
+Cada dirección URL sencilla de la organización debe tener un nombre único y no puede ser un prefijo de otra dirección URL sencilla (por ejemplo, no se pudo establecer SfB2015.contoso.com/Meet como dirección URL sencilla de reunión y SfB2015.contoso.com/Meet/Dialin como dirección URL sencilla de acceso telefónico). Los nombres de dirección URL sencillas no pueden contener el FQDN de ninguno de los grupos de servidores ni ninguna información de puerto (por ejemplo, https://FQDN:88/meet no se permite). Todas las direcciones URL sencillas deben empezar por el prefijo https://. 
 
 Las direcciones URL sencillas solo pueden contener caracteres alfanuméricos, esto es, a-z, A-Z, 0-9 y el signo de punto (.); si usa otros caracteres, podrían no funcionar del modo previsto.
 
@@ -71,9 +71,9 @@ Si se decanta por esta opción, necesitará un registro A de DNS por cada direcc
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
 | Meet  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com y así sucesivamente (uno para cada dominio SIP de la organización)  <br/> |
 | Acceso telefónico  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| Administrador  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Admin  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
-Con la opción 2, las direcciones URL sencillas se basan en el nombre de dominio SfB2015.contoso.com. Por lo tanto, solo necesita un registro A de DNS que permita los tres tipos de direcciones URL sencillas. Este registro A de DNS hace referencia SfB2015.contoso.com. Además, aún necesita registros DNS A independientes para otros dominios SIP de su organización. 
+Con la opción 2, las direcciones URL sencillas se basan en el nombre de SfB2015.contoso.com. Por lo tanto, solo necesita un registro A de DNS que permita los tres tipos de direcciones URL sencillas. Este registro A de DNS hace referencia SfB2015.contoso.com. Además, aún necesita registros DNS A independientes para otros dominios SIP de su organización. 
 
 **Opción 2 de nomenclatura de dirección URL sencilla**
 
@@ -82,7 +82,7 @@ Con la opción 2, las direcciones URL sencillas se basan en el nombre de dominio
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
 | Meet  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet y así sucesivamente (uno para cada dominio SIP de la organización)  <br/> |
 | Acceso telefónico  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
 La opción 3 es la más práctica si existen muchos dominios SIP y quiere que cada uno de ellos tenga una dirección URL sencilla de reunión pero, al mismo tiempo, desea reducir al mínimo los requisitos de registros DNS y certificados para dichas direcciones. 
 
@@ -93,7 +93,7 @@ La opción 3 es la más práctica si existen muchos dominios SIP y quiere que c
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
 | Meet  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | Acceso telefónico  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>Opción de recuperación ante desastres para direcciones URL sencillas
 <a name="BK_Valid"> </a>

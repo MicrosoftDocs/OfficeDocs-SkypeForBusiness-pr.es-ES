@@ -37,7 +37,7 @@ La Herramienta de planeación muestra la topología del sitio seleccionado. En l
 
      ![Página informe de administración perimetral](../../media/Planning_Tool_Summary_Report.png)
 
-  - Informe de resumen: un informe general de la configuración de la red perimetral. Si edita los  valores de la página Diagrama de red perimetral con los valores TCP/IP y FQDN de la topología que se usarán en la implementación real, esas direcciones y nombres se representarán aquí. De lo contrario, aparecerá el texto predeterminado.
+  - Informe de resumen: informe general de la configuración de la red perimetral. Si edita los  valores de la página Diagrama de red perimetral con los valores TCP/IP y FQDN de la topología que se usarán en la implementación real, esas direcciones y nombres se representarán aquí. De lo contrario, aparecerá el texto predeterminado.
 
   - Informe de certificados: el informe de certificados enumerará el nombre de sujeto y los nombres alternativos de sujeto de los certificados necesarios para la topología.
 
@@ -81,7 +81,7 @@ Después de completar todas las modificaciones, guarde la topología siguiendo e
 
 Para guardar el diseño de la Herramienta de planeación, **haga** clic en Archivo y, a continuación, haga clic en Guardar **topología** o Guardar **topología como**. Si aparece el cuadro de diálogo **Guardar herramienta de planeación como**, escriba el nombre del archivo en **Nombre de archivo** y haga clic en **Guardar**.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="Edit_Network_diagram"> </a>
 
 [Edición del diseño](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

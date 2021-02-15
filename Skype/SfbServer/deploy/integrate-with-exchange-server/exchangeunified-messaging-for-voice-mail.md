@@ -50,7 +50,7 @@ En el segundo comando, el valor de parámetro que se pasa al parámetro Configur
 - TextComment ( \* , un carácter comodín que indica que se permite cualquier comando de texto)
     
 > [!NOTE]
-> La creación de un nuevo plan de marcado también creará una directiva de buzón de correo predeterminada. 
+> La creación de un nuevo plan de marcado también creará una directiva de buzón predeterminada. 
   
 Después de crear y configurar el nuevo plan de marcado, debe agregar el nuevo plan de marcado al servidor de mensajería unificada y, a continuación, modificar el modo de inicio de ese servidor; en particular, debes establecer el modo de inicio en "Dual". Puede realizar ambas tareas desde el Shell de administración de Exchange:
   

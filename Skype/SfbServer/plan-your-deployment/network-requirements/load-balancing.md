@@ -49,7 +49,7 @@ La topología perimetral consolidada a escala de Skype Empresarial Server está 
   
 - Federación con organizaciones que usan Office Communications Server 2007 R2 u Office Communications Server 2007
     
-- Mensajería unificada de Exchange para usuarios remotos que usan mensajería unificada de Exchange antes de Exchange 2010 con SP1
+- Mensajería unificada de Exchange para usuarios remotos que usan la mensajería unificada de Exchange antes de Exchange 2010 con SP1
     
 - Conectividad con usuarios de mensajería instantánea pública
     
@@ -198,13 +198,13 @@ El equilibrio de carga de DNS se usa para lo siguiente:
     
 El equilibrio de carga de DNS no puede usarse para:
   
-- Tráfico web de cliente a servidor a servidores front-end o directores
+- Tráfico web de cliente a servidor a directores o servidores front-end
     
 Equilibrio de carga de DNS y tráfico federado:
   
 Si una consulta SRV de DNS devuelve varios registros DNS, el servicio perimetral de acceso siempre selecciona el registro SRV de DNS con la prioridad numérica más baja y el peso numérico más alto. El documento "Un RR de DNS para especificar la ubicación de los servicios (DNS SRV)" [RFC 2782, DNS SRV RR](https://www.ietf.org/rfc/rfc2782.txt) especifica que si hay varios registros SRV de DNS definidos, primero se usa la prioridad y, a continuación, el peso. Por ejemplo, el registro SRV de DNS A tiene un peso de 20 y una prioridad de 40 y el registro SRV de DNS B tiene un peso de 10 y una prioridad de 50. Se seleccionará el registro SRV de DNS A con prioridad 40. Las siguientes reglas se aplican a la selección de registros SRV de DNS:
   
-- La prioridad se considera en primer lugar. Un cliente DEBE intentar ponerse en contacto con el host de destino definido por el registro SRV de DNS con la prioridad numerada más baja que pueda alcanzar. Los destinos con la misma prioridad DEBEN probarse en un orden definido por el campo de peso.
+- La prioridad se considera primero. Un cliente DEBE intentar ponerse en contacto con el host de destino definido por el registro SRV de DNS con la prioridad numerada más baja que pueda alcanzar. Los destinos con la misma prioridad DEBEN probarse en un orden definido por el campo de peso.
     
 - El campo de peso especifica un peso relativo para las entradas con la misma prioridad. Los pesos más grandes DEBEN tener una probabilidad proporcionalmente mayor de ser seleccionados. Los administradores de DNS DEBEN usar el peso 0 cuando no hay ninguna selección de servidor que hacer. En presencia de registros que contienen pesos mayores que 0, los registros con peso 0 deben tener una probabilidad muy pequeña de ser seleccionados.
     

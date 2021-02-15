@@ -35,7 +35,7 @@ La mayoría de los componentes perimetrales se implementan en una red perimetral
     
 - Equilibrio de carga para topologías perimetrales escaladas (equilibrio de carga de DNS o un equilibrador de carga de hardware)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Plan for Edge Server deployments in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   

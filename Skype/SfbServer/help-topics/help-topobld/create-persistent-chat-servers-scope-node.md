@@ -34,7 +34,7 @@ Además de la opción Nuevo grupo de chat persistente, puede realizar las tareas
     
 - **Help** Use esta opción para obtener acceso a la Ayuda del nodo activo.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planear el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

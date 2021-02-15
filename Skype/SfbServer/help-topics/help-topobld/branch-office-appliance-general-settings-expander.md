@@ -49,7 +49,7 @@ En **Asociaciones**, puede editar o especificar lo siguiente:
     > [!IMPORTANT]
     > Antes de publicar la topología recién definida, el servidor que especifique debe existir y se debe unir en el dominio.
 
-- El servidor de supervisión asociado permite asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de supervisión ya definido, seleccione el servidor de  la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de supervisión.
+- El servidor de supervisión asociado permite asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor de supervisión que ya está definido en la  lista desplegable o hacer clic en Nuevo para especificar un nuevo servidor de supervisión.
 
 - Asociar grupo de servidores perimetrales permite asociar un servidor perimetral o un grupo de servidores perimetrales con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor perimetral o un grupo de servidores perimetrales que ya estén definidos seleccionándolos en la lista desplegable o hacer clic en **Nuevo** para especificar un servidor perimetral o grupo de servidores perimetrales nuevo.
 
@@ -74,7 +74,7 @@ Defina las puertas de enlace de la RTC que están asociadas con el servidor de m
 
 Si tiene más de una puerta de enlace asociada con el servidor de mediación, la primera puerta de enlace asociada será la predeterminada. Si debe elegir otra puerta de enlace como predeterminada, seleccione la que desee y, a continuación, haga clic en **Convertir en predeterminada**.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 Para más información sobre cómo definir y configurar la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia, consulte [Branch-Site Resiliency Solutions](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
 

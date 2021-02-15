@@ -52,7 +52,7 @@ La página **Configuración de archivado** muestra cada directiva de archivado c
     
 - **Editar** Puede cambiar las opciones de cualquiera de las configuraciones de archivado que aparecen en la página. Al usar esta opción, puede hacer lo siguiente:
     
-  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones de archivado para la configuración de archivado seleccionada. Solo puede mostrar detalles para una configuración de archivado cada vez.
+  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones de archivado de la configuración de archivado seleccionada. Solo puede mostrar detalles para una configuración de archivado cada vez.
     
   - **Seleccionar todo** Esta opción selecciona todas las configuraciones de archivado de la lista.
     

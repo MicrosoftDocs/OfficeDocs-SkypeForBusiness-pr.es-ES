@@ -90,7 +90,7 @@ Get-CsHostingProvider -LocalStore
 ```
 Compruebe de nuevo si la información mostrada coincide con los cambios confirmados en los pasos anteriores.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Proporcionar correo de voz a usuarios de Skype Empresarial Server en mensajería unificada hospedada de Exchange](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
 

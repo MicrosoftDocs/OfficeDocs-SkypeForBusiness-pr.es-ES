@@ -29,7 +29,7 @@ ms.locfileid: "49834340"
 
 Obtenga información sobre regiones de red, sitios de red, subredes de red y direcciones IP de confianza. Estos términos y conceptos se [](location-based-routing-plan.md) usan en la documentación de voz de la nube para el enrutamiento basado en la ubicación para el enrutamiento directo y las [llamadas de emergencia dinámicas.](configure-dynamic-emergency-calling.md) Si va a implementar estas características de nube en su organización, debe configurar la configuración de red para usarla con estas características en Microsoft Teams.
 
-En este artículo se ofrece información general sobre la configuración de red habitual en el enrutamiento Location-Based dinámica y las llamadas de emergencia dinámicas. En función de la característica y la funcionalidad de voz en la nube que está implementando, configure algunas o todas estas opciones. Para ver los pasos para configurar estas opciones, consulte Administrar la topología de red para [las características de nube en Teams.](manage-your-network-topology.md)
+En este artículo se ofrece información general sobre la configuración de red habitual en el enrutamiento Location-Based dinámica y las llamadas de emergencia dinámicas. En función de la característica y la capacidad de voz en la nube que está implementando, configure algunas o todas estas opciones. Para ver los pasos para configurar estas opciones, consulte Administrar la topología de red para [las características de nube en Teams.](manage-your-network-topology.md)
 
 > [!NOTE]
 > Los requisitos específicos de una característica para la configuración de red se documentan en los temas de configuración para esa característica.

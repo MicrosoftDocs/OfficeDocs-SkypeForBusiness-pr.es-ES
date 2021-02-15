@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > Asegúrese de usar el URI para su servicio de detección automática. No use el URI de https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 ejemplo. 
   
-Después de crear el emisor de tokens y configurar el servicio de token, ejecute estos comandos y asegúrese de sustituir la dirección URL del sitio de SharePoint por la dirección URL de ejemplo http://atl-sharepoint-001:
+Después de crear el emisor de tokens y configurar el servicio de token, ejecute estos comandos y asegúrese de sustituir la dirección URL del sitio de SharePoint por la dirección URL de ejemplo. http://atl-sharepoint-001:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"

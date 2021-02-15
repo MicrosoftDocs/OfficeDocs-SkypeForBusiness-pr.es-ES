@@ -31,7 +31,7 @@ Para completar la definición del sitio central, primero debe proporcionar la si
   
 - **Nombre del sitio** Escriba el nombre del sitio central.
     
-- **Número de usuarios** Escriba el número de usuarios, incluidos los usuarios de los sitios de sucursal que están en el sitio central.
+- **Número de usuarios** Escriba el número de usuarios, incluidos los usuarios de los sitios de sucursal que se encuentran en el sitio central.
     
 - **Usuarios en la nube** Escriba el número de usuarios que se encuentran en el sitio central desde Skype Empresarial Online.
     
@@ -76,7 +76,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **Federación con versiones anteriores**
     
-- **Federación con proveedores de servicios de mensajería instantánea pública** Permite a los usuarios de su organización establecer comunicación con proveedores de servicios de mensajería instantánea públicos, como MSN, Yahoo!, y AOL. Se requiere una licencia independiente para establecer la federación con redes públicas de mensajería instantánea.
+- **Federación con proveedores de servicios de mensajería instantánea pública** Permite a los usuarios de su organización establecer comunicación con proveedores de servicios de mensajería instantánea públicos, como MSN, Yahoo! y AOL. Se requiere una licencia independiente para establecer la federación con redes públicas de mensajería instantánea.
     
 - **Federación con proveedor de servicios basado en XMPP**
     
@@ -95,7 +95,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 ### <a name="voice"></a>Voz
 
- **La voz** contiene las siguientes opciones:
+ **La** voz contiene las siguientes opciones:
   
 - **Telefonía IP empresarial**
     
@@ -151,7 +151,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **Anuncio**
     
-    Si planea implementar Telefonía IP empresarial, es posible que desee configurar cómo se administran las llamadas telefónicas si el número marcado es válido pero no está asignado a un área común del usuario. Los administradores pueden configurar el servicio de anuncio para que estas llamadas se transfieran a un destino predeterminado (número de teléfono o URI de SIP) o reprodúyes un anuncio de audio o ambos. El uso del servicio de anuncio evita la situación en la que el autor de la llamada marca y oye un tono de ocupado o el cliente SIP recibe un mensaje de error. La funcionalidad de servicio de anuncios es una característica típica de PBX. 
+    Si planea implementar Telefonía IP empresarial, es posible que desee configurar cómo se administran las llamadas telefónicas si el número marcado es válido pero no está asignado a un área común del usuario. Los administradores pueden configurar el servicio de anuncio para que estas llamadas se transfieran a un destino predeterminado (número de teléfono o URI de SIP) o reprodúyes un anuncio de audio o ambos. El uso del servicio de anuncio evita la situación en la que el autor de la llamada marca y oye un tono de ocupado o el cliente SIP recibe un mensaje de error. La funcionalidad del servicio de anuncios es una característica típica de PBX. 
     
 - **Estacionamiento de llamada**
     

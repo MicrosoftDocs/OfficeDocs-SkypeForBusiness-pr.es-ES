@@ -36,7 +36,7 @@ Para definir el tronco raíz de la IP o red telefónica conmutada (RTC) debe con
 
 - **Puerto del servidor de mediación** asociado: defina el puerto en el que escucha el servidor de mediación seleccionado
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Configurar un tronco con desvío de medios en Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 

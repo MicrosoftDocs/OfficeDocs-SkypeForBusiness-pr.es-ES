@@ -46,7 +46,7 @@ Para editar las propiedades de la aplicación de sucursal con funciones de super
     
     Haga **clic** en Nuevo si no ha creado el servidor de supervisión que desea asociar con esta aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia
     
-    **Asociar grupo de servidores perimetrales (para componentes multimedia)** Seleccione en la lista el servidor perimetral o el grupo de servidores perimetrales que desea asociar con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia
+    **Grupo de servidores perimetrales asociados (para componentes multimedia)** Seleccione en la lista el servidor perimetral o el grupo de servidores perimetrales que desea asociar con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia
     
   **Aceptar** Acepta y confirma los cambios realizados en el cuadro de diálogo.
   

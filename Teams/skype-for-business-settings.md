@@ -35,9 +35,9 @@ ms.locfileid: "49834220"
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Como administrador, el Centro de administración de Microsoft Teams es donde administra las características de Skype Empresarial para los usuarios de Skype Empresarial de su organización. Puede administrar la configuración [de](#manage-skype-for-business-settings-for-your-organization) su organización en la página **Skype** Empresarial y la configuración para usuarios [individuales](#manage-skype-for-business-settings-for-individual-users) en la pestaña **Skype** Empresarial de las páginas de detalles de usuario.
+Como administrador, el Centro de administración de Microsoft Teams es donde administra las características de Skype Empresarial para los usuarios de Skype Empresarial de su organización. Puede administrar la configuración [de](#manage-skype-for-business-settings-for-your-organization) su organización en la página **skype** empresarial y la configuración para usuarios [individuales](#manage-skype-for-business-settings-for-individual-users) en la pestaña **Skype** Empresarial de las páginas de detalles de usuario.
 
-Solo verá la página **de Skype Empresarial** si el modo de coexistencia de su organización no se establece solo en **Teams.** De forma similar, solo verá la pestaña **Skype** Empresarial de un usuario si el modo de coexistencia del usuario no es **Solo Teams.** Para obtener más información sobre los modos de coexistencia, consulte [Comprender la](teams-and-skypeforbusiness-coexistence-and-interoperability.md) coexistencia e interoperabilidad de Teams y Skype Empresarial, y Establecer la configuración de [coexistencia y actualización.](setting-your-coexistence-and-upgrade-settings.md)
+Solo verá la página **de Skype Empresarial** si el modo de coexistencia de su organización no se establece solo en **Teams.** De forma similar, solo verá la pestaña **Skype** Empresarial de un usuario si el modo de coexistencia del usuario no es **Solo Teams.** Para obtener más información sobre los modos de coexistencia, consulte [Comprender la coexistencia](teams-and-skypeforbusiness-coexistence-and-interoperability.md) e interoperabilidad de Teams y Skype Empresarial, y Establecer la configuración de [coexistencia y actualización.](setting-your-coexistence-and-upgrade-settings.md)
 
 > [!NOTE]
 > La configuración de Skype Empresarial estaba anteriormente en **el portal heredado** del Centro de administración de Microsoft Teams. Con la retirada del portal heredado, migramos la configuración a estas nuevas ubicaciones en el Centro de administración de Teams para la administración de Skype Empresarial.
@@ -79,7 +79,7 @@ Use las siguientes opciones para administrar la privacidad de presencia de Skype
 
 De forma predeterminada, los usuarios de Skype Empresarial de su organización pueden ver el estado de presencia (como Disponible, Ocupado o No disponible) de otros usuarios de Skype Empresarial. Elija una de las siguientes opciones para establecer quién puede ver la presencia de sus usuarios de Skype Empresarial.
 
-- **Mostrar automáticamente** la información de presencia: cualquier usuario de Skype Empresarial de su  organización  que no se haya agregado a la lista de bloqueados o externos del usuario puede ver su presencia.
+- **Mostrar automáticamente la** información de presencia: cualquier usuario de Skype Empresarial de su  organización  que no se haya agregado a la lista de bloqueados o externos del usuario puede ver su presencia.
 - **Mostrar la** información de presencia solo a los contactos de un usuario: cualquier usuario de  Skype  Empresarial que no se agrega a su lista De contactos externos o Bloqueados puede ver la presencia de ese usuario. Los usuarios pueden invalidar esta configuración en Skype Empresarial en Opciones **de**  >  **herramientas de**  >  **configuración.**
 
 #### <a name="mobile-notifications"></a>Notificaciones móviles

@@ -35,7 +35,7 @@ Este tema se aplica a la integración Exchange Server 2013 a 2019.
 
 - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
-- Para obtener información sobre la compatibilidad, [consulte Compatibilidad de Skype Empresarial con aplicaciones de Office.](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)
+- Para obtener información sobre la compatibilidad, consulte [Compatibilidad de Skype Empresarial con aplicaciones de Office.](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office)
 
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>Configurar la integración entre Exchange Server y O365
 

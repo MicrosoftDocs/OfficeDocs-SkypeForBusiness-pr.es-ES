@@ -25,7 +25,7 @@ ms.locfileid: "49834780"
  
 Los servidores perimetrales se pueden configurar para permitir que los usuarios internos y externos accedan a los contactos de organizaciones o servicios asociados.
   
- La federación funciona igual que para Microsoft Lync 2013. Para obtener más información acerca de la preparación del entorno para la federación, consulte los siguientes temas:
+ La federación funciona igual que para Microsoft Lync 2013. Para obtener más información sobre cómo preparar el entorno para la federación, consulte los siguientes temas:
   
 - [Planeación de la federación de Lync Server 2013 y Office Communications Server](https://technet.microsoft.com/library/jj205335%28v=ocs.15%29.aspx)
     

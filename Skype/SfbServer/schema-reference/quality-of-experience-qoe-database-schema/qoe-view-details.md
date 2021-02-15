@@ -27,7 +27,7 @@ Las vistas abarcan la mayoría de los escenarios en los que se recuperan datos d
 |**Nombre de vista**|**Descripción**|
 |:-----|:-----|
 |[Vista AudioStreamDetail](audiostreamdetail.md) <br/> |Almacena información sobre cada transmisión de audio en la base de datos.  <br/> |
-|[Vista MediaLine](medialine.md) <br/> |Almacena información sobre cada línea de medios en la base de datos. Una sesión de audio normalmente contiene una línea de medios de audio. Una sesión de audio y vídeo (A/V) suele contener una línea de medios de audio y una línea de medios de vídeo, aunque la sesión podría contener dos líneas de medios de vídeo si se usa un dispositivo de conferencias o si se usa la vista de galería.  <br/> |
+|[Vista MediaLine](medialine.md) <br/> |Almacena información sobre cada línea de medios de la base de datos. Una sesión de audio normalmente contiene una línea de medios de audio. Una sesión de audio y vídeo (A/V) suele contener una línea de medios de audio y una línea de medios de vídeo, aunque la sesión podría contener dos líneas de medios de vídeo si se usa un dispositivo de conferencias o si se usa la vista de galería.  <br/> |
 |[Vista NetworkConfigurationSettings](networkconfigurationsettings.md) <br/> |Almacena información sobre la configuración de red.  <br/> |
 |[Vista de sesión](session-0.md) <br/> |Almacena información sobre las sesiones que tienen registros en la base de datos.  <br/> |
 |[Vista UserAgent](useragent-0.md) <br/> |Almacena información sobre los agentes de usuario que han participado en las sesiones que tienen registros en la base de datos.  <br/> |

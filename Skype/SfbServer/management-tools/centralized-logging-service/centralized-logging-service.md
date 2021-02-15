@@ -35,18 +35,18 @@ El servicio de registro centralizado puede:
     
   - Defina un **Escenario** o use un escenario predeterminado. Un escenario del servicio de registro centralizado se conste de ámbito (global o de sitio), un nombre de escenario para identificar el propósito del escenario y uno o más proveedores. Puede ejecutar el escenario predeterminado y uno definido en cualquier momento en un equipo.
     
-  - Use un proveedor existente o cree un nuevo proveedor. Aprovider define lo que recopila la sesión de registro, qué nivel de detalle, qué componentes se deben seguir y qué marcas se aplican.
+  - Use un proveedor existente o cree un nuevo proveedor. Aprovider define lo que recopila la sesión de registro, qué nivel de detalle, qué componentes se van a rastrear y qué marcas se aplican.
     
     > [!TIP]
     >  Si está familiarizado con OCSLogger, los termproviders se **refieren** **a** la colección de componentes **(por** ejemplo, S4, SIPStack), un tipo de registro (por ejemplo, WPP, EventLog o archivo de registro de IIS), un nivel de seguimiento (por ejemplo, All, verbose, debug) y marcas **(por** ejemplo, TF_COMPONENT, TF_DIAG). Estos elementos se definen en el proveedor (una variable Windows PowerShell) y se pasan al comando Servicio de registro centralizado.
   
   - Configurar registros para equipos y grupos específicos.
     
-  - Defina el ámbito de la sesión de registro desde las opciones Sitio **(para** ejecutar capturas de registro solo en equipos de ese sitio) o **Global** (para ejecutar capturas de registro en todos los equipos de la implementación).
+  - Defina el ámbito de la sesión de registro desde las opciones **Sitio** (para ejecutar capturas de registro solo en equipos de ese sitio) o **Global** (para ejecutar capturas de registro en todos los equipos de la implementación).
     
 El servicio de registro centralizado es una herramienta de solución de problemas eficaz para problemas grandes o pequeños, desde el análisis de la causa raíz hasta los problemas de rendimiento. Todos los ejemplos se muestran con el Shell de administración de Skype Empresarial Server. Se proporciona ayuda para la herramienta de línea de comandos a través de la propia herramienta, pero hay un conjunto limitado de funciones que se pueden ejecutar desde la línea de comandos. Al usar el Shell de administración de Skype Empresarial Server, tiene acceso a un conjunto de características mucho más grande y mucho más configurable, por lo que siempre debe ser su primera opción. 
   
-## <a name="logging-service-components"></a>Componentes del servicio de registro
+## <a name="logging-service-components"></a>Registro de componentes del servicio
 
  El servicio de registro centralizado se ejecuta en todos los servidores de la implementación y está configurado por los siguientes agentes y servicios:
   
@@ -54,7 +54,7 @@ El servicio de registro centralizado es una herramienta de solución de problema
     
 - Cmdlets del controlador de servicio de registro centralizado El Shell de administración de Skype Empresarial Server envía comandos Start, Stop, Flush y Search a ClsAgent. Cuando se envían comandos de búsqueda, los registros resultantes se devuelven al ClsControllerLib.dll y se agregan. El controlador envía comandos al agente, recibe el estado de esos comandos y administra los datos del archivo de registro de búsqueda a medida que se devuelven de todos los agentes en cualquier equipo del ámbito de búsqueda y agrega los datos de registro en un conjunto de resultados significativo y ordenado. La información de los siguientes temas se centra en el uso del Shell de administración de Skype Empresarial Server.
     
-**Comunicaciones clsController con ClsAgent**
+**Comunicaciones clsController a ClsAgent**
 
 ![Relación entre CLSController y CLSAgent.](../../media/Ops_CLS_Architecture.jpg)
   
@@ -71,7 +71,7 @@ Al igual que OCSLogger, el servicio de registro centralizado tiene varios compon
   
 La ventaja más importante de usar el Shell de administración de Skype Empresarial Server en la línea de comandos ClsController es que puede configurar y definir nuevos escenarios con proveedores seleccionados destinados al espacio del problema, las marcas personalizadas y los niveles de registro. Los escenarios disponibles para ClsController se limitan a los que se definen para el archivo ejecutable.
   
-En versiones anteriores, se OCSLogger.exe para permitir a los administradores y al personal de soporte técnico recopilar archivos de seguimiento de los equipos de la implementación. OCSLogger, para todos sus puntos fuertes, tenía una desventaja. Solo se podían recopilar registros en un equipo a la vez. Puede iniciar sesión en varios equipos mediante copias independientes de OCSLogger, pero terminó con varios registros y sin una forma sencilla de agregar los resultados.
+En versiones anteriores, se OCSLogger.exe para permitir a los administradores y al personal de soporte técnico recopilar archivos de seguimiento de los equipos de la implementación. OCSLogger, para todos sus puntos fuertes, tenía una deficiencia. Solo se podían recopilar registros en un equipo a la vez. Puede iniciar sesión en varios equipos mediante copias independientes de OCSLogger, pero terminó con varios registros y sin una forma sencilla de agregar los resultados.
   
 Cuando un usuario solicita una búsqueda de registro, clsController determina a qué equipos enviar la solicitud (es decir, en función de los escenarios seleccionados). También determina si la búsqueda debe enviarse al recurso compartido de archivos donde se encuentran los archivos .etl guardados. Cuando los resultados de la búsqueda se devuelven al ClsController, el controlador combina los resultados en un único conjunto de resultados ordenado por tiempo que se presenta al usuario. Los usuarios pueden guardar los resultados de la búsqueda en su equipo local para realizar un análisis posterior.
   
@@ -85,7 +85,7 @@ Cuando se produzca un problema, inicie un segundo escenario relacionado con el p
 > [!TIP]
 > Cuando se le presente un escenario de problema en Skype Empresarial Server, empiece por preguntarse "¿Qué sé ya sobre el problema?". Si cuantifica los límites del problema, puede eliminar una gran parte de las entidades operativas en Skype Empresarial Server. 
   
-Considere un escenario de ejemplo en el que sepa que los usuarios no están obteniendo resultados actuales cuando buscan un contacto. No tiene sentido buscar problemas en los componentes multimedia, Telefonía IP empresarial, conferencias y otros componentes. Lo que puede que no sepa es dónde está realmente el problema: en el cliente o es un problema del lado servidor? El replicador de usuarios recopila los contactos de Active Directory y se entregan al cliente mediante el servidor de libreta de direcciones (ABServer). AbServer obtiene sus actualizaciones de la base de datos RTC (donde el replicador de usuarios las escribió) y las recopila en los archivos de la libreta de direcciones de forma predeterminada : 1:30 a.m. Los clientes de Skype Empresarial Server recuperan la nueva libreta de direcciones según una programación aleatoria. Dado que sabe cómo funciona el proceso, puede reducir la búsqueda de la posible causa de un problema relacionado con los datos recopilados de Active Directory por el replicador de usuarios, el ABServer no recupera y crea los archivos de la libreta de direcciones o los clientes no descargan el archivo de la libreta de direcciones.
+Considere un escenario de ejemplo en el que sabe que los usuarios no están obteniendo resultados actuales cuando buscan un contacto. No tiene sentido buscar problemas en los componentes multimedia, Telefonía IP empresarial, conferencias y otros componentes. Lo que puede que no sepa es dónde está realmente el problema: ¿en el cliente o es un problema del lado servidor? El replicador de usuarios recopila los contactos de Active Directory y se entregan al cliente mediante el servidor de libreta de direcciones (ABServer). AbServer obtiene sus actualizaciones de la base de datos RTC (donde el replicador de usuarios las escribió) y las recopila en los archivos de la libreta de direcciones de forma predeterminada : 1:30 a.m. Los clientes de Skype Empresarial Server recuperan la nueva libreta de direcciones según una programación aleatoria. Dado que sabe cómo funciona el proceso, puede reducir la búsqueda de la posible causa de un problema relacionado con los datos recopilados de Active Directory por el replicador de usuarios, el ABServer no recupera y crea los archivos de la libreta de direcciones o los clientes no descargan el archivo de la libreta de direcciones.
   
 ## <a name="current-configuration"></a>Configuración actual
 

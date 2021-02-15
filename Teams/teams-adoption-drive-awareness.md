@@ -30,7 +30,7 @@ ms.locfileid: "49834160"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
-El conocimiento y la formación son el segmento de marketing y comunicaciones de su estrategia general de adopción. Esto garantizará que sus empleados estén al tanto de las nuevas capacidades de Microsoft Teams y de sus servicios y aplicaciones subyacentes de Microsoft 365 u Office 365.
+El conocimiento y la formación son el segmento de marketing y comunicaciones de su estrategia general de adopción. Esto garantizará que sus empleados estén al tanto de las nuevas capacidades de Microsoft Teams y de las aplicaciones y servicios subyacentes de Microsoft 365 u Office 365.
    
 Tanto para los pilotos iniciales como para la implementación final de toda la empresa, sus comunicaciones internas deben ser una prioridad. Deben incluir:
 
@@ -43,7 +43,7 @@ Para sus fases piloto, estos son los pasos mínimos para alcanzar el éxito:
 - Proporcione documentación de autoayuda que incluya vídeos del producto.
 - Convoque una reunión inicial con los usuarios piloto para motivarlos con respecto a su participación. La importancia de crear un sentido de comunidad con entusiasmo no se puede sobresalida.
 
-Una vez que haya trabajado en el piloto inicial, puede expandir los esfuerzos anteriores para llegar a toda la organización. Dependiendo de su tamaño, esto puede llevar tiempo y se aborda en fases por región, perfil de usuario u organización. Durante esta implementación a gran escala, anime a la participación de los comunicadores en su organización. Recomendamos que estas personas participen de forma anticipada y a menudo a medida que use los materiales de adopción disponibles o diseñe uno propio.
+Una vez que haya trabajado en el piloto inicial, puede expandir los esfuerzos anteriores para llegar a toda la organización. Dependiendo de su tamaño, esto puede llevar tiempo y puede abordarse en fases por región, perfil de usuario u organización. Durante esta implementación a gran escala, anime a la participación de los comunicadores en su organización. Recomendamos que estas personas participen de forma anticipada y a menudo a medida que usa los materiales de adopción disponibles o diseña los suyos propios.
 
 Si su empresa tiene un portal central de intranet para noticias, información o soporte técnico, puede usarlo como un hub para obtener información sobre esta implementación. Proporcionar información de auto-ayuda, formación y directrices escritas para los usuarios puede incorporarse rápidamente. Muchos usuarios solo tendrán que un gran número de usuarios cuando Teams esté disponible y le recomendamos que lo haga. También sabemos que cada persona aprende de diferentes maneras; un portal de información central puede admitir todos los estilos de aprendizaje dentro de su organización.
 
@@ -71,4 +71,4 @@ Comparta la información que obtiene de sus canales de comentarios con los hasht
 
 [Obtenga más información sobre los informes de uso de Microsoft Teams en el Centro de administración de Microsoft 365.](teams-activity-reports.md)
 
-![Un icono que muestra los pasos siguientes: Programar revisiones ](media/teams-adoption-next-icon.png) [del estado del servicio](teams-adoption-schedule-service-health-reviews.md)
+![Un icono que muestra los pasos siguientes: Programar revisiones ](media/teams-adoption-next-icon.png) del estado del [servicio](teams-adoption-schedule-service-health-reviews.md)

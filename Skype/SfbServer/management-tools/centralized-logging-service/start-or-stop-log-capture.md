@@ -13,7 +13,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
-description: 'Resumen: obtenga información sobre cómo iniciar o detener una sesión de captura de registros del Servicio de registro centralizado en Skype Empresarial Server 2015.'
+description: 'Resumen: obtenga información sobre cómo iniciar o detener una sesión de captura de registro del Servicio de registro centralizado en Skype Empresarial Server 2015.'
 ms.openlocfilehash: cd6864b0d4d16e952f93fe321b49522028d76e5b
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -72,7 +72,7 @@ El servicio de registro centralizado proporciona dos formas de emitir comandos. 
 
 1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
-2. Puede utilizar parámetros adicionales para administrar los comandos de registro. Puede usar -Duration para ajustar el período de tiempo durante el que se ejecutará el escenario. También puede definir -Computers, una lista de nombres de dominio completos (FQDN) de equipos separados por una coma, o -Pools, una lista separada por comas de FQDN para los grupos en los que desea ejecutar el inicio de sesión.
+2. Puede utilizar parámetros adicionales para administrar los comandos de registro. Puede usar -Duration para ajustar el período de tiempo durante el que se ejecutará el escenario. También puede definir -Computers, una lista de nombres de dominio completos (FQDN) de equipos separados por una coma, o -Pools, una lista separada por comas de FQDN para los grupos en los que desea ejecutar el registro.
     
     Inicie una sesión de registro para el escenario UserReplicator en el grupo de servidores "pool01.contoso.net". Defina también la duración de la sesión de registro en 8 horas. Para ello, escriba lo siguiente:
     
@@ -109,7 +109,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Por lo tanto, puede que se pregunte: Ahora que ha habilitado el registro, ¿dónde se guardan los registros? Dado que tendrá acceso a la información almacenada en los registros mediante consultas del Shell de administración enviadas a los agentes de CLS, y puede enviar los resultados a varios formatos de archivo posibles, donde en cada servidor no es importante que un agente de CLS mantenga sus registros.  Los archivos de registro se pueden guardar en una ubicación que especifique, leer y analizar con una variedad de herramientas, como **Snooper.exe** y cualquier herramienta que pueda leer un archivo de texto, como **Notepad.exe**. Snooper.exe forma parte de las herramientas de depuración de Skype Empresarial Server 2015 y está disponible como [descarga web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
+> Por lo tanto, puede que se pregunte: Ahora que ha habilitado el registro, ¿dónde se guardan los registros? Dado que tendrá acceso a la información almacenada en los registros mediante consultas del Shell de administración enviadas a los agentes de CLS, y puede enviar los resultados a varios formatos de archivo posibles, donde en cada servidor un agente de CLS mantiene sus registros no es realmente importante saber.  Los archivos de registro se pueden guardar en una ubicación que especifique, leer y analizar con una variedad de herramientas, como **Snooper.exe** y cualquier herramienta que pueda leer un archivo de texto, como **Notepad.exe**. Snooper.exe forma parte de las herramientas de depuración de Skype Empresarial Server 2015 y está disponible como [descarga web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Para detener una sesión del servicio de registro centralizado que se está ejecutando actualmente
 
@@ -142,7 +142,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     > No se eliminan los registros creados durante esta sesión de registro con el escenario de UserReplicator. El registro todavía está disponible para que ejecute las búsquedas con el comando Search-CsClsLogging. Para obtener detalles, vea [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Actuando como el comando complementario para Start-CsClsLogging, el cmdlet Stop-CsClsLogging termina la sesión de registro, definida por los escenarios, y conserva los registros creados por la sesión de registro. Puede ejecutar dos escenarios en un equipo determinado en cualquier momento. El método de detener un escenario para recopilar información usando otro escenario es una tarea común que puede llevar a cabo durante la mayor parte de la solución de problemas de carga de trabajo.
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="stop"> </a>
 
 [Servicio de registro centralizado en Skype Empresarial 2015](centralized-logging-service.md)

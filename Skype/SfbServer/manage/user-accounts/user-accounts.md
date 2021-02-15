@@ -199,7 +199,7 @@ Para quitar una cuenta de usuario, utilice el cmdlet Disable-CsUser. Por ejemplo
 
 Para obtener más información, consulte el tema de ayuda del cmdlet [Disable-CsUser.](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 <a name="Remove"> </a>
 
 [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)

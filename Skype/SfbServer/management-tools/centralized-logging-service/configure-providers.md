@@ -184,7 +184,7 @@ Donde cada proveedor definido con la directiva Add ya se ha definido a través d
     > El cmdlet **Remove-CsClsScenario** no pide confirmación. El escenario se elimina junto con los proveedores que tenga asignados. Puede crear el escenario de nuevo si vuelve a ejecutar los comandos que usó para crearlo. No existe ningún procedimiento para recuperar escenarios o proveedores.
   
 Cuando se elimina un escenario con el cmdlet **Remove-CsClsScenario**, se quita por completo del ámbito. Para usar los escenarios que creó y los proveedores que formaban parte de ellos, deberá crear nuevos proveedores y asignarlos a un nuevo escenario.
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   

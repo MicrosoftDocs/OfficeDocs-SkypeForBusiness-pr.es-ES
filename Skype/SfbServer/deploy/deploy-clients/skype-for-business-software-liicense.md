@@ -31,7 +31,7 @@ Si el KMS está en su lugar y distribuirá las activaciones de licencias por vol
   
 Desde un símbolo del sistema, ejecute:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-Para obtener más información, vea Cómo detectar hosts kms de Office y Windows a través de [DNS y quitar instancias no autorizadas.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
+Para obtener más información, vea Cómo detectar hosts kms de Office y Windows a través de DNS y quitar [instancias no autorizadas.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
   
 Para configurar un KMS, vea la activación de KMS de [Office 2013](https://technet.microsoft.com/library/ee624357.aspx) y GVLKs para la activación de KMS y [Active Directory de Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
   

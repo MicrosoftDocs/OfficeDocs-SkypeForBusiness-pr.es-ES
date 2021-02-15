@@ -92,7 +92,7 @@ Por ejemplo:
    Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
    ```
 
-3. Si necesita buscar en un grupo de servidores completo en lugar de en un solo equipo, cambie el parámetro -Computers a -Pools, quite el nombre del equipo y reemplázalo por el grupo de servidores o grupos entre comillas separados por comas.
+3. Si necesita buscar en un grupo de servidores completo en lugar de en un único equipo, cambie el parámetro -Computers a -Pools, quite el nombre del equipo y reemplázalo por el grupo de servidores o grupos entre comillas separados por comas.
     
     Por ejemplo:
     
@@ -110,7 +110,7 @@ Por ejemplo:
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Para ejecutar una búsqueda utilizando los parámetros de hora
 
-1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** **en Skype Empresarial 2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
+1. Inicie el Shell de administración de Skype Empresarial Server: Haga clic en **Inicio,** en Todos los **programas,** en Skype Empresarial **2015** y, a continuación, en Shell de administración de Skype Empresarial **Server.**
     
 2. De forma predeterminada, la hora de inicio de los parámetros específicos del tiempo de una búsqueda es de 25 minutos antes de cinco minutos después del momento en que se inicia la búsqueda. En otras palabras, si buscamos a las 16:00:00, la hora de inicio de la búsqueda se mostrará de 3:35:00 PM a 4:05:00 PM. Si necesita buscar 60 minutos o 3 horas antes de la hora actual, use el parámetro -StartTime y establezca la cadena de fecha y hora para indicar la hora en la que desea que se inicie la búsqueda. 
     
@@ -180,7 +180,7 @@ La búsqueda resultante devuelve todas las entradas de registro que tengan compo
 Se da cuenta de la ventaja real del servicio de registro centralizado después de ejecutar la búsqueda y tiene un archivo que puede usar para realizar un seguimiento de un problema notificado. Hay varias formas de leer el archivo. El archivo de salida está en un formato de texto estándar y puede usar Notepad.exe o cualquier otro programa que le permita abrir y leer un archivo de texto. Para archivos más grandes y problemas más complejos, puede usar una herramienta como Snooper.exe diseñada para leer y analizar el resultado de registro del servicio de registro centralizado. Snooper se incluye con las herramientas de depuración que están disponibles como descarga independiente. Puede descargar las herramientas de depuración aquí: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) . Al instalar las herramientas de depuración, no se crean cortas ni elementos de menú. Después de instalar las herramientas de depuración, abra el Explorador de Windows, una ventana de línea de comandos o el Shell de administración de Skype Empresarial Server y vaya al directorio (ubicación predeterminada) C:\Archivos de programa\Skype Empresarial Server 2015\Herramientas de depuración. Haga doble clic Snooper.exe o escriba Snooper.exe y, a continuación, presione ENTRAR si usa la línea de comandos o el Shell de administración de Skype Empresarial Server.
   
 > [!IMPORTANT]
-> La finalidad de este tema no es dar información detallada ni tratar las técnicas de solución de problemas. La solución de problemas y los procesos relacionados con esta son un tema muy complejo. Para obtener más información acerca de la solución de problemas básicos y la solución de problemas de cargas de trabajo específicas, consulte el libro del Kit de recursos de Microsoft Lync Server 2010 en [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) . Los procesos y procedimientos se siguen aplicando a Skype Empresarial Server 2015. 
+> La finalidad de este tema no es dar información detallada ni tratar las técnicas de solución de problemas. La solución de problemas y los procesos relacionados con esta son un tema muy complejo. Para obtener más información sobre la solución de problemas básicos y la solución de problemas de cargas de trabajo específicas, consulte el libro del Kit de recursos de Microsoft Lync Server 2010 en [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) . Los procesos y procedimientos se siguen aplicando a Skype Empresarial Server 2015. 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Para abrir un archivo de registro en Snooper:
 
@@ -201,7 +201,7 @@ Se da cuenta de la ventaja real del servicio de registro centralizado después d
 3. Haga clic en **Flujo de llamada**.
     
 > [!NOTE]
-> Si hace clic en un mensaje o seguimiento que no forma parte de un flujo de llamada, el diagrama no aparecerá y aparecerá un mensaje de estado en la parte inferior de Snooper que indica "Este mensaje no es apto para el flujo de llamada". Elija otro mensaje o seguimiento, y el flujo de llamada aparecerá si el mensaje o seguimiento forma parte del flujo de llamada. 
+> Si hace clic en un mensaje o seguimiento que no forma parte de un flujo de llamada, el diagrama no aparecerá y aparecerá un mensaje de estado en la parte inferior de Snooper que indica "Este mensaje no es apto para el mensaje de llamada". Elija otro mensaje o seguimiento, y el flujo de llamada aparecerá si el mensaje o seguimiento forma parte del flujo de llamada. 
   
 4. Desplácese por las líneas de mensajes o seguimientos y observe si el diagrama de flujo de llamada se actualiza o cambia para mostrar un diagrama nuevo.
     

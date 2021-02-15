@@ -109,7 +109,7 @@ La comunicación entre cualquier implementación local de Skype Empresarial y lo
   
 Las implementaciones locales deben publicar un registro SRV de DNS de federación para cada dominio que hospedan. La guía está disponible en la [planeación de DNS.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) Cada dominio debe resolverse mediante una consulta SRV de DNS en un FQDN del servidor perimetral que satisfaga una coincidencia de sufijo de nivel superior del dominio. Por ejemplo, considere el dominio "contoso.com":
 
-|**FQDN válidos**|**Comentario**|
+|**FQDN válidos**|**Comment**|
 |:-----|:-----|
 |sip.contoso.com   ||
 |sipfed.contoso.com   |En cada caso, el FQDN exacto debe estar presente en el SN o en el SAN del certificado externo instalado en el servidor perimetral.   |
@@ -212,7 +212,7 @@ La configuración de la conectividad de Skype también se puede realizar solo co
      > El proveedor público debe quitarse y agregarse nuevo si se realizan cambios. No se permiten cambios en la configuración local. 
   
      > [!NOTE]
-     > Agregado en el cliente de escritorio Lync CU5 de Lync de Lync &amp; 2013 en Office 2013 SP1, NameDecorationRoutingDomain y NameDecorationExcludedDomainList mejoran la situación en la que los usuarios de Lync que agregan contactos de Skype necesitan "decorar" dominios que no son de Microsoft para identificarlos y enrutrlos a Skype (el formato de: user(contoso.com)@msn.com). Esta nueva configuración permitirá el formato automático de la dirección que escriba el usuario en el cuadro de diálogo "Agregar contacto de Skype" con NameDecorationRoutingDomain (que debe establecerse en msn.com) si no contiene los dominios en NameDecorationExcludedDomainList (actualmente podemos admitir msn.com, live.com, Hotmail.com, outlook.com). 
+     > Agregado en el cliente de escritorio Lync CU5 de Lync de Lync &amp; 2013 en Office 2013 SP1, nameDecorationRoutingDomain y NameDecorationExcludedDomainList mejoran la situación en la que los usuarios de Lync que agregan contactos de Skype necesitan "decorar" dominios que no son de Microsoft para identificarlos y enrutrlos a Skype (con el formato de: user(contoso.com)@msn.com). Esta nueva configuración permitirá el formato automático de la dirección que escriba el usuario en el cuadro de diálogo "Agregar contacto de Skype" con NameDecorationRoutingDomain (que debe establecerse en msn.com) si no contiene los dominios en NameDecorationExcludedDomainList (actualmente podemos admitir msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. Desde un cliente de Skype Empresarial, los usuarios ahora pueden buscar y agregar un usuario de Skype.
     
@@ -221,11 +221,11 @@ La configuración de la conectividad de Skype también se puede realizar solo co
 En la tabla siguiente se describe el estado de interoperabilidad entre la versión más reciente del consumidor de Skype y la versión más reciente de Skype Empresarial.
   
 
-|**Clientes de Skype**|**Agregar contactos, mensajería instantánea, presencia, audio y videollamadas**|**Comentario**|
+|**Clientes de Skype**|**Agregar contactos, mensajería instantánea, presencia, audio y videollamadas**|**Comment**|
 |:-----|:-----|:-----|
 |Escritorio de Skype Windows  <br/> |7.6 o superior, Windows XP y superior  <br/> |**NUEVO:** compatibilidad agregada para el cliente de Skype de Windows que se ejecuta en Windows XP y Windows Vista (requiere la última versión de cliente **7.26 o posterior)** <br/> |
-|Skype Mobile: teléfono y tableta Android  <br/> |6.19 o superior, con sistema operativo Android versión 4.0.3 o posterior  <br/> |Es posible que los dispositivos de especificación baja no admitan videollamadas  <br/> |
-|Skype Mobile: iOS  <br/> |6.11 o superior, en IOS 7 o superior  <br/> |No se admiten iPhone 4 y versiones anteriores, iPod de 4ª generación y versiones anteriores, iPad de primera generación  <br/> |
+|Skype Mobile: teléfono y tableta Android  <br/> |6.19 o superior, con android versión 4.0.3 o posterior  <br/> |Es posible que los dispositivos de especificación baja no admitan videollamadas  <br/> |
+|Skype Mobile: iOS  <br/> |6.11 o superior, en IOS 7 o superior  <br/> |No se admiten iPhone 4 y versiones anteriores, iPod de 4ª generación y versiones anteriores, iPad de 1ª generación  <br/> |
 |Skype Mac  <br/> |7.19 o superior, en Mac OS X 10.9 (Dallass) o superior  <br/> |Requiere Mac OSX 10.9 o superior  <br/> |
 |Skype Universal Windows App (Windows 10) Desktop and Mobile  <br/> |Windows 10 (actualización redstone 1 o posterior)  <br/> |Windows Universal App will receive update in Fall 2016 adding interop support  <br/> |
    
@@ -238,7 +238,7 @@ En la tabla siguiente se describe el estado de interoperabilidad entre la versi�
 |Lync Desktop 2013  <br/> |Puede agregar (sin búsqueda)  <br/> |Sí  <br/> |
 |Lync Web App: en línea y local  <br/> |N/D  <br/> |N/D  <br/> |
 |Lync Mobile: Windows Phone  <br/> |Próximamente.  <br/> |Sí  <br/> |
-|Lync Mobile- Android  <br/> |Próximamente.  <br/> |Sí  <br/> |
+|Lync Mobile - Android  <br/> |Próximamente.  <br/> |Sí  <br/> |
 |Lync Mobile: iOS  <br/> |Próximamente.  <br/> |Sí  <br/> |
 |Sistema Lync Room  <br/> |Próximamente.  <br/> |Sí  <br/> |
 |Lync Modern App (Win 8.1)  <br/> |Sí  <br/> |Sí  <br/> |
