@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a1af7f14695d1f933a9c3902b373eb668044e24
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 481e087a6cfe2b641f6b81fcfc893d50f27cbf47
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918646"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237490"
 ---
 <a name="add-and-update-reporting-labels"></a>Agregar y actualizar etiquetas de informes
 ============================
@@ -42,13 +42,13 @@ Los datos de ubicaciones y etiquetas de informe que proporciona son una sola est
 **Para editar la tabla de subredes y ubicaciones**
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Etiquetas de**  >  **informes de ubicaciones.**
-2. Haga clic **en Reemplazar datos de ubicaciones.**
-3. En el **panel de datos** Reemplazar ubicaciones, haga clic en Seleccionar un archivo y, **a** continuación, busque y cargue el archivo .csv o .tsv editado.
+2. Haga clic **en Cargar datos.**
+3. En el **panel Cargar datos,** haga clic en Seleccionar un archivo y, **a** continuación, busque y cargue el archivo .csv o .tsv editado.
 4. Haga clic **en Cargar.**
 
 Puede descargar una plantilla de ejemplo [aquí.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
 
-Use el siguiente ejemplo para crear el archivo de datos.
+Use el siguiente ejemplo para ayudarle a crear el archivo de datos.
 
 > [!IMPORTANT]
 > El archivo de datos no debe contener encabezados de columna (como Red, Nombre de red, etc.). Se usan aquí solamente con fines informativos. <br>

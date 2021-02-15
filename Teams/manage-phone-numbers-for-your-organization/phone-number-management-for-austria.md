@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Austria para Microsoft Teams.
-ms.openlocfilehash: 44dad7d3baa95b0841c2e0c90512fa674f0decef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2efccd354553f4f7a4acd61e0017b45c2e92c669
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822870"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196744"
 ---
 # <a name="phone-number-management-for-austria"></a>Administración de números de teléfono para Austria
 
@@ -48,5 +48,4 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
   
-[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
- 
+[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

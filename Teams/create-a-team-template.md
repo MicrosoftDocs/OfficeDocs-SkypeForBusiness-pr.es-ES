@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Aprenda a crear una plantilla de equipo personalizada en Microsoft Teams.
+description: Obtenga información sobre cómo crear una plantilla de equipo personalizada en Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e017ac0795d2fdd65d89c0532469e8e269ee0e58
-ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
+ms.openlocfilehash: f22b2c53ab6f3c3c90e1720313c135c2106b1a49
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50173096"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196534"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Crear una plantilla de equipo personalizada en Microsoft Teams
 
@@ -39,7 +39,7 @@ Para empezar:
 
 ![Imagen del cuadro de diálogo Plantillas de equipo con la opción Agregar resaltada.](media/team-templates-new.png)
 
-4. En la **sección Plantillas de** equipo, seleccione Crear una plantilla **nueva.**
+4. En la **sección Plantillas de** equipo, seleccione Crear una plantilla totalmente **nueva.**
 
 5. En la **sección Configuración de plantilla,** complete los siguientes campos y, a continuación, haga clic **en Siguiente:**
     - Nombre de la plantilla
@@ -70,7 +70,11 @@ La nueva plantilla se muestra en la lista de **plantillas de** equipo. La planti
 
 **Problema:** Si ha creado un equipo a partir de una plantilla personalizada que contenía pestañas personalizadas adicionales, es posible que vea pestañas en blanco en lugar de las aplicaciones de pestañas personalizadas. Las pestañas predeterminadas (por **ejemplo,** **Publicaciones,** Archivos y **Wiki)** aparecerán como se espera.
 
-**Solución:** para solucionar este problema, quite la pestaña personalizada y agregue una nueva pestaña con la misma aplicación. Actualmente estamos trabajando en una corrección para todas las plantillas personalizadas futuras a partir del 08/02/2021.
+**Solución:** si ha creado un equipo a partir de una plantilla personalizada que contenía pestañas personalizadas adicionales, es posible que vea pestañas en blanco en lugar de las aplicaciones de pestañas personalizadas. Las pestañas predeterminadas (por ejemplo, Publicaciones, Archivos y Wiki) aparecerán como se espera.
+
+Para solucionar este problema, quite la pestaña personalizada y agregue una nueva pestaña con la misma aplicación. Si no tiene permisos para quitar la pestaña personalizada y agregar una pestaña nueva, póngase en contacto con el propietario del equipo para pedirle que lo haga.
+
+Actualmente estamos trabajando en una solución para equipos futuros creados a partir de plantillas personalizadas.
 
 ## <a name="related-topics"></a>Temas relacionados
 

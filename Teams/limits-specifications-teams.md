@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6452d49f1d00558d2103cfe45be0dc848d6f0a26
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145727"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196794"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -131,13 +131,10 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 
 |Característica     | Límite máximo |
 |------------|---------------|
-|Número de personas en una reunión (pueden chatear y llamar)  | 300 |
-|Cantidad de personas en una llamada de audio o vídeo que se ha originado desde la pestaña de chat | 20 |
-|Tamaño máximo de los archivos de PowerPoint | 2 GB|
-|Teams guarda las [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream y las deja disponibles para descarga local | 20 días |
-
->[!Note]
-> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, en noviembre tendrá que cancelar la suscripción si desea continuar usando Stream y por un tiempo, a principios de 2021, requeriremos que todos los clientes usen OneDrive para la Empresa y SharePoint para grabar nuevas reuniones.
+|Número de personas en una reunión (pueden chatear y llamar)  | 300. **Solo lectura** permite que un máximo de 10 000 participantes en modo escucha se unan a una reunión en la que el organizador cuenta con una licencia para E3/E5/A3/A5 SKU.<br>**Nota:** Para Teams para la administración pública (GCC, GCC High, DoD), el límite sigue siendo 250. Actualizaremos este artículo cuando el límite de la nube de administración pública aumente de 250 a 300. Más información sobre la [Experiencia de solo vista](view-only-meeting-experience.md).|
+|Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
+|Tamaño máximo de archivo de PowerPoint | 2 GB|
+|Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
 
 ### <a name="meeting-expiration"></a>Expiración de la reunión
 

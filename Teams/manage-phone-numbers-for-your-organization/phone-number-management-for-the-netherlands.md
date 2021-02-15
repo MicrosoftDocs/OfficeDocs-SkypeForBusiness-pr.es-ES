@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Países Bajos para Microsoft Teams.
-ms.openlocfilehash: 88ad4636f04ec2c73542cd0c305e50ffe4a89064
-ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
+ms.openlocfilehash: c57b587e077a5ae558368f1ef6499ef224895a33
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876704"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196894"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Administración de números de teléfono para los Países Bajos
 
@@ -50,4 +50,4 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
   
-[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

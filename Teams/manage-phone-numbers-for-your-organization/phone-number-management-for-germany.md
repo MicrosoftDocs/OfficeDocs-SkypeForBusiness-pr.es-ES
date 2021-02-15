@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Alemania para Microsoft Teams.
-ms.openlocfilehash: 048d26e1ea9b86874a4839d58df357df0a6cb695
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9c89cf7642f1c422b1cfe7f032caaa19c7acc05d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361730"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196954"
 ---
 # <a name="phone-number-management-for-germany"></a>Administración de números de teléfono para Alemania
 
-Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Alemania para Microsoft Teams. 
+Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Alemania para Microsoft Teams.
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
@@ -40,7 +40,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 |Publicar o anular la publicación de números de teléfono en el directorio de teléfonos nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
 |Realizar actualizaciones del servicio de directorio para números de la cola de llamadas o de un operador automático|Para agregar o cambiar los números de la cola de llamadas o del operador automático, póngase en contacto con [el servicio de asistencia RTC.](contact-pstn-service-desk.md) |
-   
+
 ## <a name="related-topics"></a>Temas relacionados
 
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -49,4 +49,4 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
   
-[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)  
+[Etiqueta de declinación de responsabilidades en llamadas de emergencia](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)  
