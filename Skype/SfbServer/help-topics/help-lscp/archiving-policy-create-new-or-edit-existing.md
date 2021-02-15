@@ -28,7 +28,7 @@ Las directivas de archivado se usan para controlar el archivado de comunicacione
   
 - **Directiva global** La directiva global se crea de forma predeterminada en todas las implementaciones de Skype Empresarial Server. Puede editar la directiva global, pero no puede eliminar esta directiva. Si intenta eliminarla, todas las opciones se restablecerán a los valores predeterminados.
     
-- **Directivas de sitio (opcional)** Puede especificar una o más directivas de archivado de sitios, cada una de las cuales puede configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un sitio específico. Una directiva de sitio reemplaza la directiva global, pero solo para los sitios especificados en las directivas de archivado. Puede editar o eliminar las directivas de sitios.
+- **Directivas de sitio (opcional)** Puede especificar una o más directivas de archivado de sitios, cada una de las cuales puede configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un sitio específico. Una directiva de sitio invalida la directiva global, pero solo para los sitios especificados en las directivas de archivado. Puede editar o eliminar las directivas de sitios.
     
 - **Directivas de usuario (opcional)** Puede especificar una o más directivas de archivado de usuario, cada una de las cuales puede configurar para habilitar y deshabilitar el archivado para las comunicaciones internas o externas de un usuario específico. Una directiva de usuario reemplaza la directiva global y las directivas de sitio, pero solo para los usuarios a los que asigna una directiva de usuario. Puede editar o eliminar las directivas de usuarios.
     

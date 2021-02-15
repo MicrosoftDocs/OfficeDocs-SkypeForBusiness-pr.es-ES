@@ -38,7 +38,7 @@ Puede administrar directivas de PIN de Skype Empresarial Server desde el Panel d
     
 - [Asignar una directiva de PIN por usuario en Skype Empresarial Server](assign-a-per-user-pin-policy.md)
     
-Use los siguientes procedimientos para administrar los NÚMEROS DE  PN de conferencias de acceso telefónico local de los usuarios desde la sección Usuarios del Panel de control de Skype Empresarial Server.
+Use los siguientes procedimientos para administrar los NÚMEROS DE  PN de conferencia de acceso telefónico local de los usuarios desde la sección Usuarios del Panel de control de Skype Empresarial Server.
   
 - [Establecer el PIN de conferencia de acceso telefónico local de un usuario en Skype Empresarial Server](set-a-user-s-dial-in-conferencing-pin.md)
     

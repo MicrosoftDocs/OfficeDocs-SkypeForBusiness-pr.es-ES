@@ -42,7 +42,7 @@ Para obtener más información sobre los distintos procedimientos que puede real
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
 
-En **Seleccionar un servicio,** seleccione el servicio correspondiente al grupo de servidores de chat persistente en el que se debe crear la categoría. El servicio es el grupo de servidores de chat persistente que usa el chat persistente (cliente) para identificar a qué grupo pertenece la categoría. Una categoría solo puede pertenecer a un grupo de servidores de chat persistente y no se puede mover a otro, ni compartirse con otro grupo de servidores.
+En **Seleccionar un servicio,** seleccione el servicio correspondiente al grupo de servidores de chat persistente en el que se debe crear la categoría. El servicio es el grupo de servidores de chat persistente que el chat persistente (cliente) usa para identificar a qué grupo pertenece la categoría. Una categoría solo puede pertenecer a un grupo de servidores de chat persistente y no se puede mover a otro, ni compartirse con otro grupo de servidores.
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Para configurar complementos para los salas de chat
 

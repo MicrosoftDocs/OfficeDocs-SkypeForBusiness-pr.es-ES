@@ -62,7 +62,7 @@ Para configurar la autenticación de servidor a servidor para una implementació
   
 Ten en cuenta que OAuth es una parte principal del producto y no se puede deshabilitar ni quitar.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Asignar un certificado de autenticación de servidor a servidor a Skype Empresarial Server](assign-a-server-to-server-certificate.md)
   

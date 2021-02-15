@@ -29,6 +29,6 @@ Si tiene grupos de servidores front-end, grupos de directores o grupos de servid
   
 - [Requisitos de equilibrio de carga para Skype Empresarial](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [Requisitos dns para Skype Empresarial Server 2015](../../plan-your-deployment/network-requirements/dns.md)
+- [Requisitos de DNS para Skype Empresarial Server 2015](../../plan-your-deployment/network-requirements/dns.md)
     
 

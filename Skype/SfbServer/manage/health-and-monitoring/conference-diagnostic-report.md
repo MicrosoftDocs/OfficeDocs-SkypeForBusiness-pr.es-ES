@@ -47,7 +47,7 @@ Al Informe de diagnósticos de conferencia, se accede desde la página de inicio
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Cómo hacer el mejor uso del Informe de diagnósticos de conferencia
 
-El Informe de diagnósticos de conferencia incluye una serie de gráficos. Cada una de las columnas mostradas en el gráfico es, en realidad, un hipervínculo. Si hace clic en una columna, explorará en profundidad el informe de distribución de errores en Skype Empresarial [Server](failure-distribution-report.md) para ese período de tiempo y ese tipo de conferencia.
+El Informe de diagnósticos de conferencia incluye una serie de gráficos. Cada una de las columnas mostradas en el gráfico es, en realidad, un hipervínculo. Si hace clic en una columna, explorará en profundidad el informe de distribución de errores en [Skype Empresarial Server](failure-distribution-report.md) para ese período de tiempo y ese tipo de conferencia.
   
 ## <a name="filters"></a>Filtros
 

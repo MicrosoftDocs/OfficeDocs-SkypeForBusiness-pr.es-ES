@@ -35,6 +35,6 @@ El **Asistente para definir nuevo servidor de Office Web Apps define** un nuevo 
 
  Office Web Apps Server se implementa en una red externa **(es decir, perimetral/Internet):** active la casilla si office Web Apps Server se coloca fuera del firewall interno, como la red perimetral, la red externa u otra zona de red que no sea la misma que la red interna.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Componentes y topologías para conferencias](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

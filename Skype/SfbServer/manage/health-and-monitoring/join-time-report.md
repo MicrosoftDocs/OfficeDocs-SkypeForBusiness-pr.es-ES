@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Resumen: obtenga información sobre el informe de resumen de hora de unión a conferencia en Skype Empresarial Server.'
+description: 'Resumen: obtenga información sobre el informe de resumen de tiempo de unión a conferencia en Skype Empresarial Server.'
 ms.openlocfilehash: c84ea3f72aa4ed76ddb2bc11d40801aa1a9f6d59
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "49827910"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Informe de hora de participación en conferencias en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de resumen del tiempo de unión a la conferencia en Skype Empresarial Server.
+**Resumen:** Obtenga información sobre el informe de resumen de tiempo de unión a conferencia en Skype Empresarial Server.
   
 El Resumen del tiempo de incorporación a la conferencia permite determinar cuánto tardan los usuarios en unirse a una conferencia. El informe muestra el tiempo de unión promedio (en milisegundos), así como un desglose que permite saber cuántos usuarios pudieron unirse a una conferencia en 2 o menos segundos, cuántos usuarios necesitaron entre 2 y 5 segundos para unirse a la conferencia, etc.
   

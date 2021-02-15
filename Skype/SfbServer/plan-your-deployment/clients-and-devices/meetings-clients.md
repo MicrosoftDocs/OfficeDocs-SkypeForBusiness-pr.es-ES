@@ -56,7 +56,7 @@ Para usar la aplicación web de Skype Empresarial, un usuario debe tener una de 
 
 | Sistema operativo | Microsoft Edge | Internet Explorer 11 o posterior de 32 y 64 bits | Internet Explorer 10 o posterior de 32 y 64 bits | Internet Explorer 9 o posterior de 32 y 64 bits | Versión de 32 y 64 bits de Safari 6.2.8 - 11.X | Versión de 32 y 64 bits de Chrome 18.X o posterior |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí &#x2778; <br/> |
+|Windows 10  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |N/D  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D <br/> |Sí &#x2778; <br/> |
 |Windows 8 (basado en Intel) &#x2776; <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |N/D <br/> |N/D  <br/> |Sí &#x2778; <br/> |
 |Windows 7 con SP1 &#x2777; <br/> |N/D  <br/> |Sí  <br/> |No  <br/> |No  <br/> |N/D <br/>|Sí &#x2778; <br/> |

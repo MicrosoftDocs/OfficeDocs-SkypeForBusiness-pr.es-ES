@@ -68,6 +68,6 @@ Puede crear la configuración de retención de QoE mediante Windows PowerShell y
 
 Para obtener más información, consulte el tema de ayuda del cmdlet [Set-CsQoEConfiguration.](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Implementación de supervisión](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

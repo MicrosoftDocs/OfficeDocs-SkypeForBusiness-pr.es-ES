@@ -1,5 +1,5 @@
 ---
-title: Administrar las opciones de configuración de reuniones en Skype Empresarial Server
+title: Administrar opciones de configuración de reuniones en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49828090"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Administrar las opciones de configuración de reuniones en Skype Empresarial Server
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Administrar opciones de configuración de reuniones en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo administrar las opciones de configuración de reuniones en Skype Empresarial Server.
   

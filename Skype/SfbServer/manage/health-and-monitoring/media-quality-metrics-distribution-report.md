@@ -36,7 +36,7 @@ El Informe de distribución de métricas de calidad de medios permite ver un gr�
 |7   <br/> |50  <br/> |
 |8   <br/> |4550  <br/> |
 |9   <br/> |50  <br/> |
-|10   <br/> |50  <br/> |
+|10    <br/> |50  <br/> |
    
 El promedio de esos tiempos de ida y vuelta es de 500 milisegundos (5000 divididos por 10). 500 milisegundos es un tiempo de ida y vuelta extremadamente grande; como resultado, puede pensar que tiene un problema grave con la congestión de la red. (Los tiempos de ida y vuelta largos suelen ser el resultado de redes sobrecargadas).
   

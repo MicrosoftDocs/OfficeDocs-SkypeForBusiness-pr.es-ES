@@ -27,6 +27,6 @@ ms.locfileid: "49828940"
 
 En Skype Empresarial Server 2015, la supervisión se usa para recopilar información de uso y datos de calidad de la experiencia (QoE) sobre las sesiones de comunicación en las que participan los usuarios.
 
-Para obtener más información acerca de la planeación del servidor de supervisión, consulte [Planeación de la supervisión.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+Para obtener más información acerca de la planeación del servidor de supervisión, vea [Planeación de la supervisión.](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
 

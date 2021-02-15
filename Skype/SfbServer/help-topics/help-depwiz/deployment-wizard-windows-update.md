@@ -1,5 +1,5 @@
 ---
-title: Asistente para la implementación de Windows Update
+title: Asistente para implementación de Windows Update
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur

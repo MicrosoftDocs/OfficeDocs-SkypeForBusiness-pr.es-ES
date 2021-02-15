@@ -170,7 +170,7 @@ Es necesaria una actualización extensiva de dependencias antes de empezar a des
     1. Referencia: [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
     2. Descargar SQL 2014 SP2 
         - Referencia: [https://www.microsoft.com/download/details.aspx?id=53168](https://www.microsoft.com/download/details.aspx?id=53168)
-    3. Copiar los medios de instalación en una carpeta del servidor (por ejemplo, C:\01_2014SqlSp2)
+    3. Copiar los medios de instalación en una carpeta del servidor (por ejemplo: C:\01_2014SqlSp2)
     4. Asegurarse de que los servicios de Skype Empresarial Server 2015 están detenidos en el servidor front-end 
         - Ex (Standard Edition): ```Stop-CsWindowsService```
         - Ex (Enterprise Edition): ```Invoke-CsComputerFailover```
@@ -182,7 +182,7 @@ Es necesaria una actualización extensiva de dependencias antes de empezar a des
     3. Asegúrese de que los servicios de Skype Empresarial Server 2015 están detenidos en el servidor front-end. 
         - Ex (Standard Edition): ```Stop-CsWindowsServices```
         - Ex (Enterprise Edition): ```Invoke-CsComputerFailover```
-    4. Detener la ejecución SQL las instancias de SQL instaladas 
+    4. Detener la ejecución SQL instancias de instalación 
         - Por ejemplo: ```Get-Service 'MSSQL$RTCLOCAL' | Stop-Service```
         - Por ejemplo: ```Get-Service 'MSSQL$LYNCLOCAL' | Stop-Service```
         - Ex (solo Standard Edition): ```Get-Service 'MSSQL$RTC' | Stop-Service```
@@ -441,9 +441,9 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000000
 ```
 
-Importe el archivo .reg en cada servidor en el que desee deshabilitar TLS 1.0 y 1.1. Reinicie el servidor. Una vez que los servicios vuelvan a estar en línea, pase al siguiente servidor. El enfoque para los grupos de servidores de Enterprise Edition es el mismo que se tomaría para cualquier actualización del sistema operativo.
+Importe el archivo .reg en cada servidor en el que desee deshabilitar TLS 1.0 y 1.1. Reinicie el servidor. Una vez que los servicios vuelvan a estar en línea, pase al siguiente servidor. El enfoque para los grupos de servidores Enterprise Edition es el mismo que se tomaría para cualquier actualización del sistema operativo.
 
-Puede que haya observado que estamos haciendo algo más que deshabilitar TLS 1.0 y 1.1 aquí. Estamos siendo compatibles con el nuevo orden del conjunto de cifrado (como se muestra anteriormente) y la deshabilitación de algunos cifrados débiles más antiguos. Esta es la primera vez que hemos admitido oficialmente estos cambios en SCHANNEL y API de criptografía en Skype Empresarial Server, y es importante tener en cuenta que estos cambios son los únicos que admitemos y que hemos probado en este momento. Podemos considerar configuraciones adicionales en el futuro, pero por ahora, no modifique el archivo de importación del Registro en su implementación.
+Puede que haya observado que estamos haciendo algo más que deshabilitar TLS 1.0 y 1.1 aquí. Se admite el nuevo orden del conjunto de cifrado (como se muestra anteriormente) y la deshabilitación de algunos cifrados débiles más antiguos. Esta es la primera vez que hemos admitido oficialmente estos cambios en SCHANNEL y API de criptografía en Skype Empresarial Server, y es importante tener en cuenta que estos cambios son los únicos que admitemos y que hemos probado en este momento. Podemos considerar configuraciones adicionales en el futuro, pero por ahora, no modifique el archivo de importación del Registro en su implementación.
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>Validar que las cargas de trabajo funcionan según lo esperado
 
@@ -462,7 +462,7 @@ Como alternativa, puede usar Internet Explorer para probar las conexiones TLS a 
 5. Compruebe que TLS 1.0, TLS 1.1 y TLS 1.2 están habilitados.
 6. Examine la dirección URL del servicio web interno del grupo de servidores de SfB 2015 (debe conectarse correctamente).
 7. Vuelva a Internet Explorer y deshabilite la opción **de usar solo TLS 1.2.**
-8. Vuelva a examinar la dirección URL del servicio web interno de su grupo de servidores de SfB 2015 (no se puede conectar).
+8. Busque de nuevo la dirección URL del servicio web interno del grupo de servidores de SfB 2015 (no se puede conectar).
 
 ![Opciones de Internet](../../media/internet-options.jpg)
 
@@ -487,7 +487,7 @@ Dado que algunos requisitos previos de dependencia son necesarios para admitir T
 1. Ejecute el programa de instalación de Skype Empresarial Server 2015 RTM.
 2. Siga los pasos restantes de la sección de requisitos previos anterior.
 
-**Opción 3:** También puede reemplazar manualmente los archivos binarios en un directorio de medios de instalación local de la siguiente manera:
+**Opción 3:** También puede reemplazar manualmente los archivos binarios en un directorio multimedia de instalación local de la siguiente manera:
 
 1. [Instalar requisitos previos para Skype Empresarial Server](../../deploy/install/install-prerequisites.md)  
 2. Instale .NET 4.7: 
@@ -503,7 +503,7 @@ Dado que algunos requisitos previos de dependencia son necesarios para admitir T
     - SQL 2014 SP2 Express: https://www.microsoft.com/download/details.aspx?id=53167 
         - Cambia el nombre SQLEXPR_x64 en el equipo local y reemplaza el archivo existente en la carpeta Setup/amd64/ del medio de instalación.
     - SQL Native Client: https://www.microsoft.com/download/details.aspx?id=50402 
-        - **Nota:** Cambie el nombre si es necesario para sqlncli.msi y, a continuación, reemplace el archivo existente que existe en la carpeta Setup/amd64/ del medio de instalación.
+        - **Nota:** Cambie el nombre si es sqlncli.msi y, a continuación, reemplace el archivo existente que existe en la carpeta Setup/amd64/ del medio de instalación.
     - SQL de administración: https://www.microsoft.com/download/details.aspx?id=53164 
         - **Nota:** El Paquete de características tendrá una gran cantidad de elementos que se pueden descargar. Seleccione esta opción para SharedManagementObjects.msi solo.
         - **Nota:** Reemplace el archivo existente que existe en la carpeta Setup/amd64/ del medio de instalación.
@@ -519,7 +519,7 @@ Dado que algunos requisitos previos de dependencia son necesarios para admitir T
     - **Nota:** A fecha de lanzamiento de CU6HF2, la característica de actualización automática solo se instalará actualmente hasta CU6. Por lo tanto, el actualizador debe ejecutarse por separado para actualizar componentes principales a la versión 6.0.9319.516.
     - Referencia: https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
 7. Instalar herramientas administrativas (opcional): 
-    - Esto instalará los tipos Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects (x64) y Microsoft System CLR Types for SQL Server 2014 (x64) mediante los archivos actualizados. Además, el Generador de topologías y el Panel de control de Skype Empresarial Server 2015 estarán disponibles en el equipo local.
+    - Esto instalará los tipos Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects (x64) y Microsoft System CLR Types for SQL Server 2014 (x64) con los archivos actualizados. Además, el Generador de topologías y el Panel de control de Skype Empresarial Server 2015 estarán disponibles en el equipo local.
 8. Instalar almacén de configuración local (paso 1): 
      - Abra el Asistente para la implementación, haga clic en Instalar o actualizar el sistema de Skype Empresarial Server y haga clic en Ejecutar **en** el paso 1: Instalar almacén de configuración local.
      - Haga **clic en Siguiente** en el cuadro de diálogo Instalar almacén de **configuración** local.
@@ -533,4 +533,4 @@ Dado que algunos requisitos previos de dependencia son necesarios para admitir T
     ![La ventana Configurar componentes de Skype Empresarial Server](../../media/set-up-skype-for-business-server-components-window.png)
     - Revise el registro con View Log y valide que la instalación se haya completado sin problemas. 
     - Haga clic en **Finalizar**.
-10. Continúe con la instalación y configuración adicionales según sea necesario (puede reanudar los procedimientos de instalación normales en este punto).
+10. Continúe con la instalación y configuración adicionales según sea necesario (puede reanudar los procedimientos de instalación normales en este momento).

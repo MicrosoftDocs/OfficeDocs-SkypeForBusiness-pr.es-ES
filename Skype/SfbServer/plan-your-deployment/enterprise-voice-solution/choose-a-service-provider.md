@@ -25,7 +25,7 @@ ms.locfileid: "49825890"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Elegir un proveedor de servicios E9-1-1 para Skype Empresarial Server
  
-Elegir el proveedor de servicios para una implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
+Elegir su proveedor de servicios para una implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
   
 El proveedor de servicios E9-1-1 enruta las llamadas de emergencia procedentes de Skype Empresarial Server al punto de respuesta de seguridad pública (PSAP) correcto en función de la información de ubicación contenida en la llamada. 
   

@@ -52,7 +52,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Dirección SIP** La dirección SIP del grupo que responderá a las llamadas al flujo de trabajo.
 
-- **Teléfono** Número de teléfono al que se llama para llegar a este grupo de respuesta.
+- **Teléfono** El número de teléfono al que se llama para llegar a este grupo de respuesta.
 
 - **Idioma** El idioma que se usa para el reconocimiento de voz y texto a voz.
 

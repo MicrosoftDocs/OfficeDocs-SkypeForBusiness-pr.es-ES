@@ -57,7 +57,7 @@ Por ejemplo, el siguiente comando habilita la unión a reuniones sin PIN para el
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-Por motivos de seguridad, cuando se ha activado la participación en reuniones sin PIN, es posible que desee restringir la salida de los usuarios anónimos asegurándose de que ConferencingPolicy esté establecido de la siguiente manera:
+Por motivos de seguridad, cuando esté activada la participación en reuniones sin PIN, es posible que desee restringir la salida de los usuarios anónimos asegurándose de que ConferencingPolicy esté establecido de la siguiente manera:
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False

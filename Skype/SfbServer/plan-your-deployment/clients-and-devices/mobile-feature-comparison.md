@@ -154,14 +154,14 @@ En dispositivos iOS, Skype Empresarial cierra sesión automáticamente después 
 |Vídeo de Skype Empresarial a Skype Empresarial  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
 > [!NOTE]
-> El vídeo en un dispositivo móvil requiere una conexión WiFi de forma predeterminada. 
+> El vídeo de un dispositivo móvil requiere una conexión WiFi de forma predeterminada. 
   
 ## <a name="conferencing-support"></a>Compatibilidad con conferencias
 
 
  | Característica/funcionalidad  | Cliente de escritorio de Skype Empresarial  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Haga clic en un vínculo en el aviso de reunión para unirse a una reunión de Vídeo o VoIP  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Haga clic en un vínculo en el aviso de reunión para unirse a una reunión de VoIP o vídeo  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Participar en mensajería instantánea con varios participantes  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Usar la conferencia saliente (el servidor llama al dispositivo móvil)  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
 |Usar conferencias de audio de acceso telefónico  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -181,7 +181,7 @@ En dispositivos iOS, Skype Empresarial cierra sesión automáticamente después 
 |Ver más información sobre los participantes de la reunión  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Iniciar una conversación de grupo sin programar con varios participantes directamente desde el cliente o dispositivo  <br/> |&#x2714;|&#x2714;|&#x2714;||
    
- &#x2776; para los usuarios de Microsoft 365 u Office 365, esta característica requiere Telefonía IP empresarial, que forma parte de la licencia E5.
+ &#x2776; Para los usuarios de Microsoft 365 u Office 365, esta característica requiere Telefonía IP empresarial, que forma parte de la licencia E5.
   
  &#x2777; requiere una conexión WiFi de forma predeterminada.
  
@@ -201,14 +201,14 @@ En dispositivos iOS, Skype Empresarial cierra sesión automáticamente después 
 |Iniciar una llamada a un grupo de respuesta  <br/> |&#x2714; &#x2776; ||||
 |Admitir servicios de emergencia  <br/> |&#x2714; &#x2777; ||||
 |Realizar llamadas en nombre de otro contacto (escenario de administrador/delegado)  <br/> |&#x2714; &#x2776; ||||
-|Administrar las llamadas de otro contacto, si está configurado como delegado  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
+|Controlar las llamadas de otro contacto, si está configurado como delegado  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
 |Usar vía trabajo  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
 |Obtener acceso al correo de voz  <br/> |&#x2714;|&#x2714;|&#x2714;||
 |Usar el teclado en Skype Empresarial  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
  &#x2776; disponibles para los usuarios de Skype Empresarial Online u Office 365 E5, y los usuarios que se encuentran en Skype Empresarial Server o Lync Server 2013 con Telefonía IP empresarial habilitada.
   
- &#x2777; para skype empresarial online o usuarios de Microsoft 365 u Office 365, esta característica es compatible con partners de Microsoft.
+ &#x2777; Para skype empresarial online o usuarios de Microsoft 365 u Office 365, esta característica es compatible con partners de Microsoft.
   
  &#x2778; cliente de escritorio de Windows.
   

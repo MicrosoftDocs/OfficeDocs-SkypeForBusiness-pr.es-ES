@@ -51,15 +51,15 @@ Skype Empresarial Server 2015 incluye mejoras en la funcionalidad de voz y víde
   
 ### <a name="call-data-collection-and-analysis"></a>Recopilación y análisis de datos de llamadas
 
-La característica Calificar mi llamada permite a los administradores de Skype Empresarial Server 2015 recopilar datos de llamadas. Esta característica solo está disponible para implementaciones locales. Se pide a los usuarios que tomen una encuesta después de completar una llamada. Para obtener más información, consulte [Calificar mi llamada en Skype Empresarial Server 2015.](manage/health-and-monitoring/rate-my-call.md)
+La característica Calificar mi llamada permite a los administradores de Skype Empresarial Server 2015 recopilar datos de llamadas. Esta característica solo está disponible para implementaciones locales. Se pide a los usuarios que tomen una encuesta después de completar una llamada. Para obtener más información, consulte [Calificar mi llamada en Skype Empresarial Server 2015](manage/health-and-monitoring/rate-my-call.md).
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>Interoperabilidad mejorada con sistemas de teleconferencia de vídeo de terceros
 
-El servidor de interoperabilidad de vídeo (VIS) actúa como intermediario entre Skype Empresarial Server y los sistemas de teleconferencia de vídeo (VTC) de Cisco. Al unirse a una reunión, los usuarios ahora pueden seleccionar un sistema Cisco VTC. El servidor de interoperabilidad de vídeo (VIS) se implementa como un rol de servidor independiente para las implementaciones locales. Para obtener más información, consulte [Plan for Video Interop Server in Skype for Business Server 2015](plan-your-deployment/video-interop-server.md).
+El servidor de interoperabilidad de vídeo (VIS) actúa como intermediario entre Skype Empresarial Server y los sistemas de videoconferencia (VTC) de Cisco. Al unirse a una reunión, los usuarios ahora pueden seleccionar un sistema Cisco VTC. El servidor de interoperabilidad de vídeo (VIS) se implementa como un rol de servidor independiente para las implementaciones locales. Para obtener más información, consulte [Plan for Video Interop Server in Skype for Business Server 2015](plan-your-deployment/video-interop-server.md).
   
 ### <a name="call-via-work"></a>Vía trabajo
 
-La característica Vía trabajo permite a los usuarios empresariales realizar llamadas de voz desde el cliente de Skype Empresarial. Cuando un usuario hace una llamada de voz, se enruta desde Skype Empresarial al teléfono RTC o PBX del autor. Una vez que el autor responde al teléfono, la llamada se dirige al número de destino. El destinatario de la llamada responde y la llamada se establece con Skype Empresarial que sirve como panel de control. El autor puede administrar su presencia y llamar a los controles desde Skype Empresarial. Los administradores del servidor habilitan y configuran Vía trabajo para la empresa. Para obtener más información, vea [Plan for Call Via Work in Skype for Business Server 2015](plan-your-deployment/enterprise-voice-solution/call-via-work.md). 
+La característica Vía trabajo permite a los usuarios empresariales realizar llamadas de voz desde el cliente de Skype Empresarial. Cuando un usuario hace una llamada de voz, se enruta desde Skype Empresarial al teléfono PBX o RTC del autor. Una vez que el autor responde al teléfono, la llamada se dirige al número de destino. El destinatario de la llamada responde y la llamada se establece con Skype Empresarial que sirve como panel de control. El autor puede administrar su presencia y llamar a los controles desde Skype Empresarial. Los administradores del servidor habilitan y configuran Vía trabajo para la empresa. Para obtener más información, vea [Plan for Call Via Work in Skype for Business Server 2015](plan-your-deployment/enterprise-voice-solution/call-via-work.md). 
   
 ## <a name="mobile-device-support-improvements"></a>Mejoras en la compatibilidad con dispositivos móviles
 
@@ -70,7 +70,7 @@ Las mejoras en la compatibilidad con dispositivos móviles incluyen característ
   
 ### <a name="server-side-conversation-history-is-now-available-on-mobile-devices"></a>El historial de conversaciones del lado servidor ya está disponible en dispositivos móviles
 
-Para habilitar el acceso móvil al historial de conversaciones, la mensajería instantánea perdida y los datos del registro de llamadas, el archivado de esta información se procesa ahora a través del servidor para todos los clientes móviles. La característica De aceptación automática para mensajería instantánea mejora la confiabilidad al impedir mensajes de tiempo de espera del servidor cuando un usuario móvil no responde a una mensajería instantánea inmediatamente. Para aprovechar la integración de carpetas de Exchange/Outlook basadas en servidor, es necesario Exchange Server 2013 o versiones posteriores y clientes móviles actualizados. 
+Para habilitar el acceso móvil al historial de conversaciones, la mensajería instantánea perdida y los datos del registro de llamadas, el archivado de esta información se procesa ahora a través del servidor para todos los clientes móviles. La característica De aceptación automática para mensajería instantánea mejora la confiabilidad al impedir que los mensajes de tiempo de espera del servidor cuando un usuario móvil no responda a una mensajería instantánea inmediatamente. Para aprovechar la integración de carpetas de Exchange/Outlook basadas en servidor, es necesario Exchange Server 2013 o versiones posteriores y clientes móviles actualizados. 
   
 ### <a name="enhanced-meeting-experiences"></a>Experiencias de reunión mejoradas
 
@@ -97,7 +97,7 @@ Skype Empresarial en Android ahora ofrece características similares a las dispo
   
 ## <a name="management-of-on-premises-servers"></a>Administración de servidores locales
 
-Skype Empresarial Server 2015 proporciona varias características nuevas para mejorar la capacidad de administración de los servidores locales, incluida la actualización local, la instalación inteligente, los procesos mejorados de revisión y actualización, la capacidad mejorada de inicio en frío del grupo de servidores front-end, la compatibilidad con SQL Server AlwaysOn y el registro y solución de problemas centralizados.
+Skype Empresarial Server 2015 proporciona varias características nuevas para mejorar la capacidad de administración de los servidores locales, incluida la actualización local, la instalación inteligente, los procesos mejorados de revisión y actualización, la capacidad de inicio en frío del grupo de servidores front-end mejorada, la compatibilidad con SQL Server AlwaysOn y el registro y la solución de problemas centralizados.
   
 ### <a name="in-place-upgrade-for-on-premises-servers"></a>Actualización local para servidores locales
 
@@ -116,7 +116,7 @@ La característica Configuración inteligente, que detecta y descarga actualizac
 
 Skype Empresarial Server presenta dos nuevos cmdlets que ayudan a que la actualización o revisión de servidores front-end sea mucho más fácil que en versiones anteriores de Lync Server.
   
-Cuando necesite aplicar una revisión o realizar cualquier otro mantenimiento a un servidor front-end, simplemente escriba **Invoke-CsComputerFailOver** y especifique el nombre del servidor. Skype Empresarial Server mueve la carga de trabajo de ese servidor temporalmente a los demás servidores del grupo. A continuación, puede realizar el mantenimiento y, a continuación, usar el cmdlet **Invoke-CsComputerFailback** para volver a poner ese servidor en servicio. Si necesita aplicar revisiones a cada servidor de un grupo de servidores, simplemente siga este procedimiento para cada servidor, de uno en uno. Estos nuevos cmdlets permiten aplicar revisiones a los servidores mucho más rápidos que en versiones anteriores y con mayor confiabilidad y un flujo de trabajo más sencillo.
+Cuando necesite aplicar una revisión o realizar cualquier otro mantenimiento a un servidor front-end, simplemente escriba **Invoke-CsComputerFailOver** y especifique el nombre del servidor. Skype Empresarial Server mueve temporalmente la carga de trabajo de ese servidor a los demás servidores del grupo. A continuación, puede realizar el mantenimiento y, a continuación, usar el cmdlet **Invoke-CsComputerFailback** para volver a poner ese servidor en servicio. Si necesita aplicar revisiones a cada servidor de un grupo de servidores, simplemente siga este procedimiento para cada servidor, de uno en uno. Estos nuevos cmdlets permiten aplicar revisiones a los servidores mucho más rápidos que en versiones anteriores y con mayor confiabilidad y un flujo de trabajo más sencillo.
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>Capacidad mejorada de inicio en frío del grupo de servidores front-end
 
@@ -124,7 +124,7 @@ Skype Empresarial Server presenta un nuevo cmdlet que simplifica y mejora el pro
   
 ### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server compatibilidad de AlwaysOn con servidores locales
 
-Skype Empresarial Server 2015 agrega compatibilidad tanto para grupos de disponibilidad AlwaysOn SQL Server como para SQL Server clúster de conmutación por error AlwaysOn. Además de estas características, Skype Empresarial Server continúa siendo compatible con la creación de reflejo de la base de datos y SQL Server clústeres, como en versiones anteriores de Lync Server.
+Skype Empresarial Server 2015 agrega compatibilidad para grupos de disponibilidad AlwaysOn SQL Server e instancias SQL Server clúster de conmutación por error AlwaysOn. Además de estas características, Skype Empresarial Server continúa siendo compatible con la creación de reflejo de la base de datos y SQL Server clústeres, como en versiones anteriores de Lync Server.
   
 SQL Server Grupos de disponibilidad AlwaysOn es una solución de alta disponibilidad y recuperación ante desastres de SQL Server 2012 y SQL Server 2014 que proporciona una alternativa a la creación de reflejo de la base de datos. Un grupo de disponibilidad admite un entorno de conmutación por error para un conjunto discreto de bases de datos (conocidas como bases de datos de disponibilidad) que conmutan por error conjuntamente. Un grupo de disponibilidad admite un conjunto de bases de datos principales de lectura y escritura y de uno a cuatro conjuntos de bases de datos secundarias correspondientes. Opcionalmente, las bases de datos secundarias pueden estar disponibles para el acceso de solo lectura y para algunas operaciones de copia de seguridad.
   

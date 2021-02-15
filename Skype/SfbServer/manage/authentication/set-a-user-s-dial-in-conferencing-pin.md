@@ -83,7 +83,7 @@ Para unirse a una conferencia de acceso telefónico local como usuario autentica
 
 También puede asignar números pin mediante el cmdlet Set-CsClientPin. Puede ejecutar este cmdlet desde el Shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre el uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, consulte el artículo del blog "Inicio rápido: administración de [Microsoft Lync Server 2010 con PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server. 
   
-### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para asignar automáticamente un número pin a un usuario
+### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para asignar automáticamente un número de PIN a un usuario
 
 El siguiente comando asigna a un número PIN al usuario Ken Myer. Como no se incluye el parámetro Pin, Skype Empresarial Server generará y asignará automáticamente el número pin.
     

@@ -24,7 +24,7 @@ ms.locfileid: "49826380"
  
 **Resumen:** Obtenga información sobre cómo hacer copias de seguridad y restaurar bases de datos del servidor de chat persistente en Skype Empresarial Server 2015.
   
-El servidor de chat persistente SQL Server software de base de datos para almacenar datos de salón de chat, como el historial y el contenido, la configuración, el aprovisionamiento de usuarios y otros metadatos relevantes. Además, si su organización tiene normativas que requieren que se archive la actividad de chat persistente y el servicio de cumplimiento opcional está habilitado SQL Server, se usa un software de base de datos para almacenar datos de cumplimiento, incluido el contenido y los eventos de chat, como la unión y salida de salas. El contenido del salón de chat se almacena en la base de datos de chat persistente (mgc). Los datos de cumplimiento se almacenan en la base de datos de cumplimiento (mgccomp). Se trata de datos fundamentales para la empresa de los que se debe realizar una copia de seguridad periódicamente. 
+El servidor de chat persistente SQL Server software de base de datos para almacenar datos del salón de chat, como el historial y el contenido, la configuración, el aprovisionamiento de usuarios y otros metadatos relevantes. Además, si su organización tiene normativas que requieren que se archive la actividad de chat persistente y el servicio de cumplimiento opcional está habilitado SQL Server, se usa un software de base de datos para almacenar datos de cumplimiento, incluido el contenido y los eventos de chat, como la unión y salida de salas. El contenido del salón de chat se almacena en la base de datos de chat persistente (mgc). Los datos de cumplimiento se almacenan en la base de datos de cumplimiento (mgccomp). Se trata de datos fundamentales para la empresa de los que se debe realizar una copia de seguridad periódicamente. 
   
 > [!NOTE]
 > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no es compatible con Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si necesita usar el chat persistente, puede migrar usuarios que requieran esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015. 
@@ -61,7 +61,7 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 ## <a name="restore-the-databases"></a>Restaurar las bases de datos
 
-La forma de restaurar los datos de chat persistente depende del método que usó para hacer una copia de seguridad de los datos. Si usó SQL Server de copia de seguridad, debe usar SQL Server procedimientos de restauración. Si usó el cmdlet **Export-CsPersistentChatData** para realizar una copia de seguridad de los datos de chat persistente, debe usar el cmdlet **Import-CsPersistentChatData** para restaurar los datos:
+La forma de restaurar los datos de chat persistente depende del método que usó para hacer una copia de seguridad de los datos. Si usó SQL Server procedimientos de copia de seguridad, debe usar SQL Server procedimientos de restauración. Si usó el cmdlet **Export-CsPersistentChatData** para realizar una copia de seguridad de los datos de chat persistente, debe usar el cmdlet **Import-CsPersistentChatData** para restaurar los datos:
   
 ```PowerShell
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>

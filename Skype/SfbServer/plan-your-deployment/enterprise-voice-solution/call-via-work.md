@@ -29,7 +29,7 @@ Planificación de Vía trabajo en Skype Empresarial Server, que permite la integ
   
  **Vía trabajo es** una nueva característica de Skype Empresarial Server que le permite integrar su solución de Skype Empresarial con sus sistemas telefónicos PBX existentes. Un usuario habilitado para Vía trabajo puede hacer clic en Skype Empresarial para llamar a otro usuario, ya sea dentro de su implementación o un usuario externo. La llamada se completa con el teléfono PBX del usuario. Esto permite a un usuario con un teléfono PBX incluir audio en sus conversaciones enriquecciones de Skype Empresarial. En versiones anteriores del control remoto de llamadas de Lync Server era una característica que permitía a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype Empresarial Server, esta característica se ha reemplazado por Vía trabajo.
   
-Vía trabajo permite lo siguiente para usuarios de teléfono PBX
+Vía trabajo habilita lo siguiente para los usuarios de teléfono PBX
   
 - Experiencia de hacer clic y llamar, con el audio proporcionado a través del teléfono PBX.
     
@@ -51,7 +51,7 @@ A continuación se muestra cómo un usuario habilitado para Vía trabajo puede u
   
 1. El usuario selecciona un usuario en su cliente de Skype Empresarial y hace clic en el icono de teléfono para llamarlo. O bien, durante una conversación de mensajería instantánea, el usuario hace clic para llamar al usuario con el que está teniendo la sesión.
     
-2. El teléfono PBX del usuario que llamó empieza a sonar. El identificador de llamada de este teléfono muestra un número de teléfono global que se ha configurado para que se muestre en el identificador de llamada de todos los usuarios que llaman vía trabajo. Este número de teléfono global no es un número de teléfono real que se corresponda con el teléfono de una persona. En su lugar, es una señal visual para que un usuario sepa que esta es su propia llamada saliente y no una llamada entrante que tiene lugar al mismo tiempo. Al implementar Vía trabajo, debe informar a los usuarios sobre este número de teléfono global y lo que significa.
+2. El teléfono PBX del usuario que llamó empieza a sonar. El identificador de llamada de este teléfono muestra un número de teléfono global que se ha configurado para que se muestre en el identificador de llamada de todos los usuarios que llaman vía trabajo. Este número de teléfono global no es un número de teléfono real que corresponda al teléfono de una persona. En su lugar, es una señal visual para que un usuario sepa que esta es su propia llamada saliente y no una llamada entrante que tiene lugar al mismo tiempo. Al implementar Vía trabajo, debe informar a los usuarios sobre este número de teléfono global y lo que significa.
     
 3. El usuario que llamó toma su teléfono PBX. Después, Skype Empresarial inicia la llamada de voz al destinatario de la llamada. 
     
@@ -67,7 +67,7 @@ Un usuario de Vía trabajo también puede llamar a una reunión llamando al núm
   
 ### <a name="incoming-calls"></a>Llamadas entrantes
 
-Cuando un usuario habilitado para Vía trabajo recibe una llamada de Skype Empresarial, el teléfono PBX y los clientes de Skype Empresarial del usuario suenan simultáneamente (si el usuario ha configurado la llamada simultánea). El usuario puede aceptar la llamada seleccionando el teléfono PBX o haciendo clic en Aceptar **en** la notificación de Skype Empresarial. Si el usuario acepta la llamada con Skype Empresarial, la ventana de Skype Empresarial para la llamada permanece abierta. Pero si el usuario acepta la llamada seleccionando el teléfono PBX, se cierra la ventana de notificación de Skype Empresarial y no hay ninguna sesión de Skype Empresarial, solo la llamada de voz a través del teléfono PBX.
+Cuando un usuario habilitado para Vía trabajo recibe una llamada de Skype Empresarial, el teléfono PBX y los clientes de Skype Empresarial del usuario suenan simultáneamente (si el usuario ha configurado el tono simultáneo). El usuario puede aceptar la llamada seleccionando el teléfono PBX o haciendo clic en **Aceptar** en la notificación de Skype Empresarial. Si el usuario acepta la llamada con Skype Empresarial, la ventana de Skype Empresarial para la llamada permanece abierta. Pero si el usuario acepta la llamada seleccionando el teléfono PBX, se cierra la ventana de notificación de Skype Empresarial y no hay ninguna sesión de Skype Empresarial, solo la llamada de voz a través del teléfono PBX.
   
 Cuando un usuario habilitado para Vía trabajo recibe una llamada PBX, solo suena el teléfono PBX.
   
@@ -75,7 +75,7 @@ Cuando un usuario habilitado para Vía trabajo recibe una llamada PBX, solo suen
 
 Vía trabajo es una solución de voz que requiere poca configuración de hardware, pero tiene limitaciones en comparación con las características disponibles en el control de llamadas Telefonía IP empresarial o remoto. Vía trabajo tiene las siguientes limitaciones:
   
-- Si un usuario de Vía trabajo ha configurado el reenvío de llamadas al número de devolución de llamada Vía trabajo y alguien intenta invitar a este usuario a una reunión por el número de teléfono del usuario, la invitación no se pondrá en contacto con el usuario. Debe instruir a los usuarios para que inviten a los participantes a las reuniones haciendo clic en el nombre, no en el número de teléfono. 
+- Si un usuario de Vía trabajo ha configurado el reenvío de llamadas al número de devolución de llamada Vía trabajo y alguien intenta invitar a este usuario a una reunión mediante el número de teléfono del usuario, la invitación no se pondrá en contacto con el usuario. Debe instruir a los usuarios para que inviten a los participantes a las reuniones haciendo clic en el nombre, no en el número de teléfono. 
     
 - La funcionalidad 911 mejorada y el seguimiento de llamadas malintencionadas no están disponibles durante las llamadas vía trabajo.
     
@@ -93,13 +93,13 @@ Vía trabajo es una solución de voz que requiere poca configuración de hardwar
     
 - Si un usuario realiza o responde una llamada con el teléfono PBX (y no usa la ventana de Skype Empresarial), no habrá ningún registro de la llamada.
     
-- Si el sistema PBX no admite **REFER con Replaces,** se realizará el siguiente comportamiento. Mientras se realiza una llamada vía trabajo, si el usuario transfiere la llamada en curso desde el teléfono PBX, la ventana de llamada no desaparecerá de la ventana de Skype Empresarial. Si, a continuación, el usuario cierra la ventana de llamada, la llamada entre el destino de transferencia y el destinatario de la transferencia finalizará. 
+- Si el sistema PBX no admite **REFER con Replaces,** se realizará el siguiente comportamiento. Mientras se realiza una llamada vía trabajo, si el usuario transfiere la llamada en curso desde el teléfono PBX, la ventana de llamada no desaparecerá de la ventana de Skype Empresarial. Si, a continuación, el usuario cierra la ventana de llamada, finalizará la llamada entre el destino de transferencia y el destinatario de la transferencia. 
     
 ## <a name="prerequisites-for-call-via-work"></a>Requisitos previos para Vía trabajo
 
 Para habilitar a cualquier usuario para Vía trabajo, debe tener algunos requisitos previos en su lugar. Para obtener más información sobre estos requisitos previos y para ver los pasos para habilitar a los usuarios para Vía trabajo, consulte Implementar Vía trabajo en [Skype Empresarial Server 2015.](../../deploy/deploy-call-via-work.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Planear el control remoto de llamadas en Skype Empresarial](remote-call-control.md)
   

@@ -53,7 +53,7 @@ Para administrar la purga de datos archivados mediante el Panel de control:
 
 Puede administrar la purga de datos archivados mediante los siguientes cmdlets Windows PowerShell datos:
   
-- El cmdlet **Set-CsArchivingConfiguration** con el parámetro EnablePurging permite habilitar o deshabilitar la depuración de datos archivados.
+- El cmdlet **Set-CsArchivingConfiguration** con el parámetro EnablePurging permite habilitar o deshabilitar la purga de datos archivados.
     
 - **Invoke-CsArchivingDatabasePurge** permite purgar manualmente los registros de la base de datos de archivado.
     

@@ -35,7 +35,7 @@ Skype Empresarial Server 2015 requiere al menos dos servidores front-end para ha
     
 - Si la implementación contiene chat persistente, la herramienta de planeación agregará un servidor adicional, pero no aumentará el número de grupo. Por ejemplo, si la implementación ya contiene cuatro servidores, la Herramienta de planeación sugerirá agregar un servidor adicional (para un total de cinco servidores), pero mantendrá un único grupo. 
     
-La Herramienta de planeación también agrega una base de datos SQL reflejo para todas las bases de datos. Por ejemplo, si hay una base de datos de SQL Server front-end, la Herramienta de planeación agregará la otra base de datos como la base de datos reflejada para esta y la nombrará como la base de datos reflejada SQL front-end.
+La Herramienta de planeación también agrega una base de datos SQL reflejo para todas las bases de datos. Por ejemplo, si hay una base de datos de SQL Server front-end, la Herramienta de planeación agregará la otra base de datos como la base de datos reflejada para esta y la nombrará como la base de datos de creación de reflejos SQL front-end.
   
 Para obtener más información sobre cómo preparar su entorno para la alta disponibilidad, consulte [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   

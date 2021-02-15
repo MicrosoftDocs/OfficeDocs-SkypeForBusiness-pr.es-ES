@@ -102,7 +102,7 @@ Siga los pasos a continuación para modificar un registrador existente.
     
 6. Haga clic en **Aceptar**.
     
-## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Eliminación de las opciones de configuración del registrador mediante cmdlets Windows PowerShell registrador
+## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Quitar las opciones de configuración del registrador mediante cmdlets Windows PowerShell registrador
 
 Puede eliminar las opciones de configuración del registrador mediante Windows PowerShell y el cmdlet **Remove-CsProxyConfiguration.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre el uso de Windows PowerShell remoto para conectarse a Skype Empresarial Server, consulte el artículo del blog "Inicio rápido: administración de [Microsoft Lync Server 2010 con PowerShell remoto".](https://go.microsoft.com/fwlink/p/?linkId=255876) El proceso es el mismo en Skype Empresarial Server.
   

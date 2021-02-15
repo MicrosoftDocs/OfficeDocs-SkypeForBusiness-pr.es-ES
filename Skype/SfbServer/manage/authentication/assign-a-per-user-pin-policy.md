@@ -108,6 +108,6 @@ Puede asignar directivas de PIN por usuario mediante Windows PowerShell y el cmd
 
 Para obtener más información, [consulte Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Crear una nueva directiva de PIN en Skype Empresarial Server](create-a-new-pin-policy.md)

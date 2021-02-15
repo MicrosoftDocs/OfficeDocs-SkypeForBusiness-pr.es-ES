@@ -41,7 +41,7 @@ Las configuraciones de archivado incluyen la configuración global y, de forma o
 - **Configuración del grupo de servidores (opcional)** Puede especificar una o más configuraciones de archivado de grupo para controlar las opciones de archivado de un grupo específico. Una configuración de grupo anula la configuración global y la configuración del sitio, pero solo para los grupos especificados en las configuraciones de grupos de archivado. Puede editar o eliminar las configuraciones de grupos.
     
 > [!NOTE]
-> Las configuraciones de archivado se aplican a los usuarios que están en Skype Empresarial Server y, si usa Exchange para almacenar datos de archivado en Microsoft Exchange, a los usuarios que están en Exchange 2013, pero se implementan de forma ligeramente diferente para los usuarios de Exchange 2013. Las diferencias se describen en la siguiente sección. 
+> Las configuraciones de archivado se aplican a los usuarios que se encuentran en Skype Empresarial Server y, si usa Exchange para almacenar datos de archivado en Microsoft Exchange, a los usuarios que están en Exchange 2013, pero se implementan de forma ligeramente diferente para los usuarios de Exchange 2013. Las diferencias se describen en la siguiente sección. 
   
 La página **Configuración de archivado** muestra cada directiva de archivado configurada para su implementación. También muestra el nombre de la directiva, el ámbito (global, sitio o usuario) y qué opciones de archivado están habilitadas para cada configuración de archivado. En la página **Configuración de archivado**, tiene las siguientes opciones:
 - **Nuevo** Puede agregar una o varias de las siguientes configuraciones de archivado opcionales.
@@ -52,7 +52,7 @@ La página **Configuración de archivado** muestra cada directiva de archivado c
     
 - **Editar** Puede cambiar las opciones de cualquiera de las configuraciones de archivado que aparecen en la página. Al usar esta opción, puede hacer lo siguiente:
     
-  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones de archivado para la configuración de archivado seleccionada. Solo puede mostrar detalles para una configuración de archivado cada vez.
+  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones de archivado de la configuración de archivado seleccionada. Solo puede mostrar detalles para una configuración de archivado cada vez.
     
   - **Seleccionar todo** Esta opción selecciona todas las configuraciones de archivado de la lista.
     

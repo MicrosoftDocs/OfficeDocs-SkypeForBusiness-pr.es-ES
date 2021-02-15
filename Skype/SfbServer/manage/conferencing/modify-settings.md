@@ -44,7 +44,7 @@ Puede modificar las opciones de configuración de reuniones con el Panel de cont
 
 Para modificar las opciones de configuración de reuniones, use el cmdlet **Set-CsMeetingConfiguration.**
   
-El comando que se muestra en el siguiente ejemplo modifica las opciones de configuración de reunión asignadas al sitio Redmond (-Identity site:Redmond). En este caso, el valor de la propiedad DesignateAsPresenter se establece en Todos:
+El comando que se muestra en el siguiente ejemplo modifica las opciones de configuración de reunión asignadas al sitio redmond (-Identity site:Redmond). En este caso, el valor de la propiedad DesignateAsPresenter se establece en Todos:
   
 ```PowerShell
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
