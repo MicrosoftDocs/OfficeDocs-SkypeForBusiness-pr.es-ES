@@ -22,22 +22,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836280"
 ---
-# <a name="topology-server-application"></a><span data-ttu-id="11f37-103">Topología: Aplicación de servidor</span><span class="sxs-lookup"><span data-stu-id="11f37-103">Topology: Server Application</span></span>
+# <a name="topology-server-application"></a><span data-ttu-id="4c525-103">Topología: Aplicación de servidor</span><span class="sxs-lookup"><span data-stu-id="4c525-103">Topology: Server Application</span></span>
 
-<span data-ttu-id="11f37-104">La página **Topología\*\*\*\*Aplicación de servidor** muestra las aplicaciones de servidor disponibles en su implementación.</span><span class="sxs-lookup"><span data-stu-id="11f37-104">The **Topology**: **Server Application** page displays the server applications in your deployment.</span></span>
+<span data-ttu-id="4c525-104">La página **Topología\*\*\*\*Aplicación de servidor** muestra las aplicaciones de servidor disponibles en su implementación.</span><span class="sxs-lookup"><span data-stu-id="4c525-104">The **Topology**: **Server Application** page displays the server applications in your deployment.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="11f37-105">Tareas que puede realizar</span><span class="sxs-lookup"><span data-stu-id="11f37-105">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="4c525-105">Tareas que puede realizar</span><span class="sxs-lookup"><span data-stu-id="4c525-105">Tasks you can perform</span></span>
 
-<span data-ttu-id="11f37-106">Puede realizar las siguientes tareas en la página **Topología**: **Aplicación de servidor**:</span><span class="sxs-lookup"><span data-stu-id="11f37-106">You can perform the following tasks on the **Topology**: **Server Application** page:</span></span>
+<span data-ttu-id="4c525-106">Puede realizar las siguientes tareas en la página **Topología**: **Aplicación de servidor**:</span><span class="sxs-lookup"><span data-stu-id="4c525-106">You can perform the following tasks on the **Topology**: **Server Application** page:</span></span>
 
-- <span data-ttu-id="11f37-107">Ver las aplicaciones de servidor de la implementación</span><span class="sxs-lookup"><span data-stu-id="11f37-107">View the server applications in your deployment</span></span>
+- <span data-ttu-id="4c525-107">Ver las aplicaciones de servidor de la implementación</span><span class="sxs-lookup"><span data-stu-id="4c525-107">View the server applications in your deployment</span></span>
 
-- <span data-ttu-id="11f37-108">Habilitar o deshabilitar una aplicación de servidor.</span><span class="sxs-lookup"><span data-stu-id="11f37-108">Enable or disable a server application</span></span>
+- <span data-ttu-id="4c525-108">Habilitar o deshabilitar una aplicación de servidor.</span><span class="sxs-lookup"><span data-stu-id="4c525-108">Enable or disable a server application</span></span>
 
-- <span data-ttu-id="11f37-109">Seleccionar o deseleccionar una aplicación como crítica</span><span class="sxs-lookup"><span data-stu-id="11f37-109">Select or unselect an application as critical</span></span>
+- <span data-ttu-id="4c525-109">Seleccionar o deseleccionar una aplicación como crítica</span><span class="sxs-lookup"><span data-stu-id="4c525-109">Select or unselect an application as critical</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="11f37-110">Ver también</span><span class="sxs-lookup"><span data-stu-id="11f37-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4c525-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="4c525-110">See also</span></span>
 
-[<span data-ttu-id="11f37-111">Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de protocolo de inicio de sesión de Microsoft (MSPL)</span><span class="sxs-lookup"><span data-stu-id="11f37-111">Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application</span></span>](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[<span data-ttu-id="4c525-111">Habilitar o deshabilitar una aplicación de servidor de lenguaje de procesamiento de protocolo de inicio de sesión de Microsoft (MSPL)</span><span class="sxs-lookup"><span data-stu-id="4c525-111">Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application</span></span>](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 
-[<span data-ttu-id="11f37-112">Marcar una aplicación de Lenguaje de procesamiento de SIP (MSPL) de Microsoft como crítica o no crítica</span><span class="sxs-lookup"><span data-stu-id="11f37-112">Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical</span></span>](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[<span data-ttu-id="4c525-112">Marcar una aplicación de Lenguaje de procesamiento de SIP (MSPL) de Microsoft como crítica o no crítica</span><span class="sxs-lookup"><span data-stu-id="4c525-112">Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical</span></span>](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)

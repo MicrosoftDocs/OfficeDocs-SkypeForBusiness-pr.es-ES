@@ -34,11 +34,11 @@ productDirectory:
   items:
   - title: Planee la actualización (¡Comience aquí!)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'Tanto si va a actualizar a Teams antes de que se retirara Skype Empresarial Online (31 de julio de 2021) como si va a cambiar escenarios de su entorno local de Skype Empresarial a Teams, una transición correcta aborda la disponibilidad técnica y del usuario. Descubra nuestro marco de trabajo probado, procedimientos recomendados y recursos diseñados para ayudarle a facilitar una transición correcta a Teams desde Skype Empresarial Online, Skype Empresarial Server o un entorno híbrido. Audiencia: todos (patrocinadores empresariales, administradores de TI, administradores de disponibilidad/cambio de usuario, jefe de proyecto)'
+    summary: 'Tanto si va a actualizar a Teams antes de la retirada de Skype Empresarial Online (31 de julio de 2021) como si va a cambiar escenarios de su entorno local de Skype Empresarial a Teams, una transición correcta aborda la disponibilidad técnica y del usuario. Descubra nuestro marco de trabajo probado, procedimientos recomendados y recursos diseñados para ayudarle a facilitar una transición correcta a Teams desde Skype Empresarial Online, Skype Empresarial Server o un entorno híbrido. Audiencia: todos (patrocinadores empresariales, administradores de TI, administradores de disponibilidad/cambio de usuario, jefe de proyecto)'
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
   - title: Implementar la actualización de Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: 'Únase a nosotros para identificar y prepararse para ejecutar el mejor enfoque técnico para mover todas las cargas de trabajo a Teams, en función de sus objetivos y su entorno actual de Skype Empresarial. La mayoría de los clientes que han completado correctamente las transiciones han habilitado Teams junto con su implementación híbrida o Skype Empresarial Online, Skype Empresarial Server o actual. Esta sesión compartirá consideraciones clave y recursos valiosos para ayudarle a definir la mejor estrategia de migración para su organización. Público: administradores de TI'
+    summary: 'Únase a nosotros para identificar y prepararse para ejecutar el mejor enfoque técnico para mover todas las cargas de trabajo a Teams, en función de sus objetivos y su entorno actual de Skype Empresarial. La mayoría de los clientes que han completado transiciones correctamente han habilitado Teams junto con su implementación híbrida, Skype Empresarial Online o Skype Empresarial Online. Esta sesión compartirá consideraciones clave y recursos valiosos para ayudarle a definir la mejor estrategia de migración para su organización. Público: administradores de TI'
     url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
@@ -47,7 +47,7 @@ additionalContent:
       summary: Visite Actualizar a Microsoft Teams en YouTube.
       url: https://aka.ms/UpgradeOnDemand
     - title: ¿Expandir los escenarios de Teams?
-      summary: Consulte nuestros talleres de tizas de teams para profesionales de TI.
+      summary: Consulte nuestros talleres de Tizas de Teams para profesionales de TI.
       url: https://aka.ms/TeamsChalkTalks
     - title: ¿Nuevo en Teams?
       summary: Obtenga más información sobre cómo empezar a usar Teams.

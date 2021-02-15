@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836230"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="d79c2-104">Topología: Aplicación de confianza</span><span class="sxs-lookup"><span data-stu-id="d79c2-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="ed444-104">Topología: Aplicación de confianza</span><span class="sxs-lookup"><span data-stu-id="ed444-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="d79c2-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="d79c2-105">What do you want to do?</span></span> <span data-ttu-id="d79c2-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="d79c2-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ed444-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="ed444-105">What do you want to do?</span></span> <span data-ttu-id="ed444-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="ed444-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d79c2-107">Ver una lista de aplicaciones de confianza</span><span class="sxs-lookup"><span data-stu-id="d79c2-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="ed444-107">Ver una lista de aplicaciones de confianza</span><span class="sxs-lookup"><span data-stu-id="ed444-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
 
 

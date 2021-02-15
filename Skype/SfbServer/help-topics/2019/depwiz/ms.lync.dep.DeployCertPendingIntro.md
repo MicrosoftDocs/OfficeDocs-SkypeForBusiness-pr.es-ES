@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49837010"
 ---
-# <a name="pending-certificate-intro"></a><span data-ttu-id="4a2ea-103">Certificado pendiente (introducción)</span><span class="sxs-lookup"><span data-stu-id="4a2ea-103">Pending Certificate (Intro)</span></span>
+# <a name="pending-certificate-intro"></a><span data-ttu-id="f32d4-103">Certificado pendiente (introducción)</span><span class="sxs-lookup"><span data-stu-id="f32d4-103">Pending Certificate (Intro)</span></span>
  
-<span data-ttu-id="4a2ea-104">Para procesar una solicitud de certificado en línea pendiente, es decir, una solicitud enviada a su entidad de certificación en línea pero que administrativamente se ha definido para que pase por un proceso de aprobación manual, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="4a2ea-104">To process a pending online certificate request, that is, a request that has been issued to your online certification authority but is administratively set to require a manual approval process, click **Next**.</span></span>
+<span data-ttu-id="f32d4-104">Para procesar una solicitud de certificado en línea pendiente, es decir, una solicitud enviada a su entidad de certificación en línea pero que administrativamente se ha definido para que pase por un proceso de aprobación manual, haga clic en **Siguiente**.</span><span class="sxs-lookup"><span data-stu-id="f32d4-104">To process a pending online certificate request, that is, a request that has been issued to your online certification authority but is administratively set to require a manual approval process, click **Next**.</span></span>
   
 

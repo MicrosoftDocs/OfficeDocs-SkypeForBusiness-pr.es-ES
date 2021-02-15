@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836570"
 ---
-# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="3d40a-104">Asistente híbrido: Editar usuarios</span><span class="sxs-lookup"><span data-stu-id="3d40a-104">Hybrid Wizard: Edit Users</span></span>
+# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="b396b-104">Asistente híbrido: Editar usuarios</span><span class="sxs-lookup"><span data-stu-id="b396b-104">Hybrid Wizard: Edit Users</span></span>
 
-<span data-ttu-id="3d40a-105">Use el Asistente para editar usuarios para modificar las cuentas de usuario de la implementación.</span><span class="sxs-lookup"><span data-stu-id="3d40a-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="3d40a-106">Para obtener más información, vea [Usar el Asistente para la administración híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="3d40a-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="b396b-105">Use el Asistente para editar usuarios para modificar las cuentas de usuario de la implementación.</span><span class="sxs-lookup"><span data-stu-id="b396b-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="b396b-106">Para obtener más información, vea [Usar el Asistente para la administración híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="b396b-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

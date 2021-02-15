@@ -22,11 +22,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836620"
 ---
-# <a name="select-regions"></a><span data-ttu-id="ce948-104">Seleccionar regiones</span><span class="sxs-lookup"><span data-stu-id="ce948-104">Select Regions</span></span>
+# <a name="select-regions"></a><span data-ttu-id="03b96-104">Seleccionar regiones</span><span class="sxs-lookup"><span data-stu-id="03b96-104">Select Regions</span></span>
  
-<span data-ttu-id="ce948-105">Use el **cuadro de diálogo Seleccionar** regiones para buscar regiones disponibles en su entorno.</span><span class="sxs-lookup"><span data-stu-id="ce948-105">Use the **Select Regions** dialog box to find regions available in your environment.</span></span> <span data-ttu-id="ce948-106">Para usar una región existente, haga clic en una región de la lista y, a continuación, en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ce948-106">To use an existing region, click a region in the list and then click **OK**.</span></span>
+<span data-ttu-id="03b96-105">Use el **cuadro de diálogo Seleccionar** regiones para buscar regiones disponibles en su entorno.</span><span class="sxs-lookup"><span data-stu-id="03b96-105">Use the **Select Regions** dialog box to find regions available in your environment.</span></span> <span data-ttu-id="03b96-106">Para usar una región existente, haga clic en una región de la lista y, a continuación, en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="03b96-106">To use an existing region, click a region in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="ce948-107">Para recuperar todas las regiones disponibles, no escriba nada en el campo de búsqueda y haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="ce948-107">To retrieve all available regions, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="03b96-107">Para recuperar todas las regiones disponibles, no escriba nada en el campo de búsqueda y haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="03b96-107">To retrieve all available regions, do not type anything in the search box and then click the search icon.</span></span> 
   
 

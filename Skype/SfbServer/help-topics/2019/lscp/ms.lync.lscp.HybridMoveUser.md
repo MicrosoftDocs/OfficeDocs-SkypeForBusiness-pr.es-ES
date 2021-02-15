@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836550"
 ---
-# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="9ea42-104">Asistente híbrido: Mover usuarios</span><span class="sxs-lookup"><span data-stu-id="9ea42-104">Hybrid wizard: Move User</span></span>
+# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="86acb-104">Asistente híbrido: Mover usuarios</span><span class="sxs-lookup"><span data-stu-id="86acb-104">Hybrid wizard: Move User</span></span>
 
-<span data-ttu-id="9ea42-105">Use el Asistente para mover usuarios para mover cuentas de usuario que están en un grupo local para hospedarse en Skype Empresarial Online.</span><span class="sxs-lookup"><span data-stu-id="9ea42-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="9ea42-106">Para obtener más información, vea [Usar el Asistente para la administración híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="9ea42-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="86acb-105">Use el Asistente para mover usuarios para mover cuentas de usuario que están en un grupo local para hospedarse en Skype Empresarial Online.</span><span class="sxs-lookup"><span data-stu-id="86acb-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="86acb-106">Para obtener más información, vea [Usar el Asistente para la administración híbrida.](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)</span><span class="sxs-lookup"><span data-stu-id="86acb-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

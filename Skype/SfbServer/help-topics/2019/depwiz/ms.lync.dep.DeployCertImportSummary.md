@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49837020"
 ---
-# <a name="import-certificate-summary"></a><span data-ttu-id="80ab3-104">Importar certificado (resumen)</span><span class="sxs-lookup"><span data-stu-id="80ab3-104">Import Certificate (Summary)</span></span>
+# <a name="import-certificate-summary"></a><span data-ttu-id="36b55-104">Importar certificado (resumen)</span><span class="sxs-lookup"><span data-stu-id="36b55-104">Import Certificate (Summary)</span></span>
  
-<span data-ttu-id="80ab3-p102">En la página **Importar resumen de certificado**, figura un resumen con el nombre de archivo, la ruta y una clave privada. Tras haber examinado el resumen, haga clic en **Siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="80ab3-p102">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.</span></span>
+<span data-ttu-id="36b55-p102">En la página **Importar resumen de certificado**, figura un resumen con el nombre de archivo, la ruta y una clave privada. Tras haber examinado el resumen, haga clic en **Siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="36b55-p102">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.</span></span>
   
 
