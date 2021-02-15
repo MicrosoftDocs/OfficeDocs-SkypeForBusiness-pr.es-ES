@@ -22,10 +22,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829340"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="a6cef-104">Edición de prefijo</span><span class="sxs-lookup"><span data-stu-id="a6cef-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="023c2-104">Edición de prefijo</span><span class="sxs-lookup"><span data-stu-id="023c2-104">Prefix Edit</span></span>
  
-<span data-ttu-id="a6cef-p102">Para definir prefijos o dígitos iniciales, agregue los prefijos numéricos que esta ruta deba administrar, incluido el signo + si es necesario. Por ejemplo, puede buscar coincidencias con todos los números que empiecen por +123.</span><span class="sxs-lookup"><span data-stu-id="a6cef-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="023c2-p102">Para definir prefijos o dígitos iniciales, agregue los prefijos numéricos que esta ruta deba administrar, incluido el signo + si es necesario. Por ejemplo, puede buscar coincidencias con todos los números que empiecen por +123.</span><span class="sxs-lookup"><span data-stu-id="023c2-p102">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.</span></span>
   
-<span data-ttu-id="a6cef-107">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="a6cef-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="023c2-107">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="023c2-107">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

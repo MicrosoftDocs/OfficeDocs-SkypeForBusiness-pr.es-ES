@@ -20,8 +20,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831730"
 ---
-# <a name="task-table"></a><span data-ttu-id="6fa45-104">Tabla Task</span><span class="sxs-lookup"><span data-stu-id="6fa45-104">Task table</span></span>
+# <a name="task-table"></a><span data-ttu-id="0cfd8-104">Tabla Task</span><span class="sxs-lookup"><span data-stu-id="0cfd8-104">Task table</span></span>
  
-<span data-ttu-id="6fa45-105">La Tabla de tareas es solo para uso interno.</span><span class="sxs-lookup"><span data-stu-id="6fa45-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="6fa45-106">Esta tabla se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6fa45-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="0cfd8-105">La Tabla de tareas es solo para uso interno.</span><span class="sxs-lookup"><span data-stu-id="0cfd8-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="0cfd8-106">Esta tabla se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0cfd8-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 
