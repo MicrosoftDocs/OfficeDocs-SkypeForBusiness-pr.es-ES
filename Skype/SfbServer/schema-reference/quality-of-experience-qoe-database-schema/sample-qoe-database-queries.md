@@ -20,17 +20,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834370"
 ---
-# <a name="sample-qoe-database-queries"></a><span data-ttu-id="ae1c8-103">Consultas de base de datos de QoE de ejemplo</span><span class="sxs-lookup"><span data-stu-id="ae1c8-103">Sample QoE database queries</span></span>
+# <a name="sample-qoe-database-queries"></a><span data-ttu-id="59ccc-103">Consultas de base de datos de QoE de ejemplo</span><span class="sxs-lookup"><span data-stu-id="59ccc-103">Sample QoE database queries</span></span>
  
-<span data-ttu-id="ae1c8-104">Esta sección contiene ejemplos de consultas de la base de datos QoE (Calidad de la experiencia).</span><span class="sxs-lookup"><span data-stu-id="ae1c8-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
+<span data-ttu-id="59ccc-104">Esta sección contiene ejemplos de consultas de la base de datos QoE (Calidad de la experiencia).</span><span class="sxs-lookup"><span data-stu-id="59ccc-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
   
-<span data-ttu-id="ae1c8-105">Utilice el siguiente ejemplo para obtener la tasa media de pérdida de paquetes y vibración de todas las secuencias de audio.</span><span class="sxs-lookup"><span data-stu-id="ae1c8-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="59ccc-105">Utilice el siguiente ejemplo para obtener la tasa media de pérdida de paquetes y vibración de todas las secuencias de audio.</span><span class="sxs-lookup"><span data-stu-id="59ccc-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
   
 ```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-<span data-ttu-id="ae1c8-106">Utilice el siguiente ejemplo para conocer el número total de conferencias que utilizaron la consola Meeting.</span><span class="sxs-lookup"><span data-stu-id="ae1c8-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="59ccc-106">Utilice el siguiente ejemplo para conocer el número total de conferencias que utilizaron la consola Meeting.</span><span class="sxs-lookup"><span data-stu-id="59ccc-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
   
 ```SQL
 select avg(ConversationalMOS)
@@ -43,7 +43,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-<span data-ttu-id="ae1c8-107">Utilice el siguiente ejemplo para obtener los valores de ConversationalMOS, SendingMOS y ListendingMOS por dispositivo de captura.</span><span class="sxs-lookup"><span data-stu-id="ae1c8-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="59ccc-107">Utilice el siguiente ejemplo para obtener los valores de ConversationalMOS, SendingMOS y ListendingMOS por dispositivo de captura.</span><span class="sxs-lookup"><span data-stu-id="59ccc-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
   
 ```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS

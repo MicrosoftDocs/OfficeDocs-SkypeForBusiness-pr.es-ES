@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833650"
 ---
-# <a name="call-detail-recording"></a><span data-ttu-id="b7145-104">Registro de detalles de llamadas</span><span class="sxs-lookup"><span data-stu-id="b7145-104">Call Detail Recording</span></span>
+# <a name="call-detail-recording"></a><span data-ttu-id="495df-104">Registro de detalles de llamadas</span><span class="sxs-lookup"><span data-stu-id="495df-104">Call Detail Recording</span></span>
  
-<span data-ttu-id="b7145-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="b7145-105">What do you want to do?</span></span> <span data-ttu-id="b7145-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="b7145-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="495df-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="495df-105">What do you want to do?</span></span> <span data-ttu-id="495df-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="495df-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="b7145-107">Habilitar el registro detallado de llamadas en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="b7145-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
+- [<span data-ttu-id="495df-107">Habilitar el registro detallado de llamadas en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="495df-107">Enable call detail recording in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [<span data-ttu-id="b7145-108">Especificar la retención de datos de CDR en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="b7145-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [<span data-ttu-id="495df-108">Especificar la retención de datos de CDR en Skype Empresarial Server</span><span class="sxs-lookup"><span data-stu-id="495df-108">Specify retention of CDR data in Skype for Business Server</span></span>](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

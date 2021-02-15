@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49832980"
 ---
-# <a name="lync-server-2010-create-new-expander"></a><span data-ttu-id="bae95-103">Lync Server 2010 Crear nuevo expansor</span><span class="sxs-lookup"><span data-stu-id="bae95-103">Lync Server 2010 Create New Expander</span></span>
+# <a name="lync-server-2010-create-new-expander"></a><span data-ttu-id="cbee6-103">Lync Server 2010 Crear nuevo expansor</span><span class="sxs-lookup"><span data-stu-id="cbee6-103">Lync Server 2010 Create New Expander</span></span>
  
-<span data-ttu-id="bae95-104">Puede crear nuevos roles de servidor en el nodo Lync Server 2010 del Generador de topologías haciendo clic con el botón secundario en **Lync Server 2010**, seleccione Nuevo y, a continuación, seleccione el rol de servidor que desea crear.</span><span class="sxs-lookup"><span data-stu-id="bae95-104">You can create new server roles in the Lync Server 2010 node of Topology Builder by right clicking on **Lync Server 2010**, select **New**, then select the server role to create.</span></span>
+<span data-ttu-id="cbee6-104">Puede crear nuevos roles de servidor en el nodo Lync Server 2010 del Generador de topologías haciendo clic con el botón secundario en **Lync Server 2010,** seleccione Nuevo y, a continuación, seleccione el rol de servidor que desea crear.</span><span class="sxs-lookup"><span data-stu-id="cbee6-104">You can create new server roles in the Lync Server 2010 node of Topology Builder by right clicking on **Lync Server 2010**, select **New**, then select the server role to create.</span></span>
   
 

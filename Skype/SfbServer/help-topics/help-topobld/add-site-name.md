@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833320"
 ---
-# <a name="add-site-name"></a><span data-ttu-id="d2063-104">Agregar nombre de sitio</span><span class="sxs-lookup"><span data-stu-id="d2063-104">Add Site Name</span></span>
+# <a name="add-site-name"></a><span data-ttu-id="ebffe-104">Agregar nombre de sitio</span><span class="sxs-lookup"><span data-stu-id="ebffe-104">Add Site Name</span></span>
  
-<span data-ttu-id="d2063-p102">Para definir el primer sitio de la implementación, especifique el nombre del primer sitio. También puede especificar una descripción del primer sitio.</span><span class="sxs-lookup"><span data-stu-id="d2063-p102">To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site.</span></span>
+<span data-ttu-id="ebffe-p102">Para definir el primer sitio de la implementación, especifique el nombre del primer sitio. También puede especificar una descripción del primer sitio.</span><span class="sxs-lookup"><span data-stu-id="ebffe-p102">To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site.</span></span>
   
 

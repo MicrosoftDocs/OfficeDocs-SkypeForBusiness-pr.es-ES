@@ -21,16 +21,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834850"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a><span data-ttu-id="36463-103">Configuración de mensajería unificada de Exchange (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="36463-103">Exchange Unified Messaging Settings (Planning Tool)</span></span>
+# <a name="exchange-unified-messaging-settings-planning-tool"></a><span data-ttu-id="58978-103">Configuración de mensajería unificada de Exchange (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="58978-103">Exchange Unified Messaging Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="36463-104">Skype Empresarial Server 2015 admite la integración con la mensajería unificada de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.</span><span class="sxs-lookup"><span data-stu-id="36463-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
+<span data-ttu-id="58978-104">Skype Empresarial Server 2015 admite la integración con la mensajería unificada de Exchange para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.</span><span class="sxs-lookup"><span data-stu-id="58978-104">Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span>
 
-<span data-ttu-id="36463-105">Para más información, vea:</span><span class="sxs-lookup"><span data-stu-id="36463-105">For details, see:</span></span>
+<span data-ttu-id="58978-105">Para más información, vea:</span><span class="sxs-lookup"><span data-stu-id="58978-105">For details, see:</span></span>
 
-- [<span data-ttu-id="36463-106">Planeación de la integración de la mensajería unificada de Exchange</span><span class="sxs-lookup"><span data-stu-id="36463-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
+- [<span data-ttu-id="58978-106">Planeación de la integración de la mensajería unificada de Exchange</span><span class="sxs-lookup"><span data-stu-id="58978-106">Planning for Exchange Unified Messaging Integration</span></span>](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx)
 
-- <span data-ttu-id="36463-107">"Mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="36463-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
+- <span data-ttu-id="58978-107">"Mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span><span class="sxs-lookup"><span data-stu-id="58978-107">"Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)</span></span>
 
-- <span data-ttu-id="36463-108">"Planeación de la mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .</span><span class="sxs-lookup"><span data-stu-id="36463-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
+- <span data-ttu-id="58978-108">"Planeación de la mensajería unificada" en [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344) .</span><span class="sxs-lookup"><span data-stu-id="58978-108">"Planning for Unified Messaging" at [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344).</span></span>
 
 

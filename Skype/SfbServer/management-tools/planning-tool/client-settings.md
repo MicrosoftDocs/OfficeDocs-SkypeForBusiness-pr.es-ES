@@ -21,8 +21,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834980"
 ---
-# <a name="client-settings-planning-tool"></a><span data-ttu-id="c7b11-104">Configuración de cliente (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="c7b11-104">Client Settings (Planning Tool)</span></span>
+# <a name="client-settings-planning-tool"></a><span data-ttu-id="7519f-104">Configuración de cliente (Herramienta de planeación)</span><span class="sxs-lookup"><span data-stu-id="7519f-104">Client Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="c7b11-105">La característica de movilidad de Skype Empresarial Server 2015 admite la funcionalidad de Skype Empresarial en dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="c7b11-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="c7b11-106">Para obtener más información, consulte [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span><span class="sxs-lookup"><span data-stu-id="c7b11-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
+<span data-ttu-id="7519f-105">La característica de movilidad de Skype Empresarial Server 2015 admite la funcionalidad de Skype Empresarial en dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="7519f-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="7519f-106">Para obtener más información, consulte [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span><span class="sxs-lookup"><span data-stu-id="7519f-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
 
 

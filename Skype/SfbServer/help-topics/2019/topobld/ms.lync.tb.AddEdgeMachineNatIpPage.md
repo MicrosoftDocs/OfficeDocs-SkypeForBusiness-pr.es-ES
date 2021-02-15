@@ -22,10 +22,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49835970"
 ---
-# <a name="add-edge-machine-nat-ip"></a><span data-ttu-id="324a3-104">Agregar IP de NAT de equipo perimetral</span><span class="sxs-lookup"><span data-stu-id="324a3-104">Add Edge Machine NAT IP</span></span>
+# <a name="add-edge-machine-nat-ip"></a><span data-ttu-id="ac9af-104">Agregar IP de NAT de equipo perimetral</span><span class="sxs-lookup"><span data-stu-id="ac9af-104">Add Edge Machine NAT IP</span></span>
  
-<span data-ttu-id="324a3-p102">Si una traducción de direcciones de red (NAT) traduce la dirección IP pública de este grupo de servidores perimetrales, debe especificarse la dirección IP pública que se debe traducir. En principio debería ser la dirección IP externa del servicio perimetral A/V.</span><span class="sxs-lookup"><span data-stu-id="324a3-p102">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated. This should be the external IP address of the A/V Edge service.</span></span>
+<span data-ttu-id="ac9af-p102">Si una traducción de direcciones de red (NAT) traduce la dirección IP pública de este grupo de servidores perimetrales, debe especificarse la dirección IP pública que se debe traducir. En principio debería ser la dirección IP externa del servicio perimetral A/V.</span><span class="sxs-lookup"><span data-stu-id="ac9af-p102">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated. This should be the external IP address of the A/V Edge service.</span></span>
   
-<span data-ttu-id="324a3-107">Para cambiar si el grupo de servidores perimetrales usa traducción NAT, con el botón secundario haga clic en el grupo de servidores perimetrales y seleccione **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="324a3-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
+<span data-ttu-id="ac9af-107">Para cambiar si el grupo de servidores perimetrales usa traducción NAT, con el botón secundario haga clic en el grupo de servidores perimetrales y seleccione **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="ac9af-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
   
 

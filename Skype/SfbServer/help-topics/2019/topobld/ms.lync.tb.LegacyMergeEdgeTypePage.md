@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49833450"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="c2f46-104">Tipo de perímetro de combinación heredada</span><span class="sxs-lookup"><span data-stu-id="c2f46-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="d3e09-104">Tipo de perímetro de combinación heredada</span><span class="sxs-lookup"><span data-stu-id="d3e09-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="c2f46-105">En caso de **Un solo servidor perimetral** o un **Servidor perimetral consolidado con equilibrio de carga**, haga clic en **Siguiente** para especificar la información de configuración.</span><span class="sxs-lookup"><span data-stu-id="c2f46-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="c2f46-106">Para un **servidor perimetral expandido,** la configuración de cada servidor debe cambiarse a una configuración perimetral consolidada para poder combinarse.</span><span class="sxs-lookup"><span data-stu-id="c2f46-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged.</span></span> 
+<span data-ttu-id="d3e09-105">En caso de **Un solo servidor perimetral** o un **Servidor perimetral consolidado con equilibrio de carga**, haga clic en **Siguiente** para especificar la información de configuración.</span><span class="sxs-lookup"><span data-stu-id="d3e09-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="d3e09-106">Para un **servidor perimetral expandido,** la configuración de cada servidor debe cambiarse a una configuración perimetral consolidada para poder combinarse.</span><span class="sxs-lookup"><span data-stu-id="d3e09-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged.</span></span> 
   
 

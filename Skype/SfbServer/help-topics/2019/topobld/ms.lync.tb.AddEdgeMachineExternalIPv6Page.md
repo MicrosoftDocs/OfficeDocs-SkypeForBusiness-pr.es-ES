@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49836020"
 ---
-# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="6aa64-103">Agregar IPv6 externa de equipo perimetral</span><span class="sxs-lookup"><span data-stu-id="6aa64-103">Add Edge Machine External IPv6</span></span>
+# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="adcc1-103">Agregar IPv6 externa de equipo perimetral</span><span class="sxs-lookup"><span data-stu-id="adcc1-103">Add Edge Machine External IPv6</span></span>
  
-<span data-ttu-id="6aa64-104">En **dirección IPv6 externa,** escriba la dirección IP externa que apunta al servicio perimetral de acceso, al servicio perimetral de conferencia web y al servicio perimetral A/V.</span><span class="sxs-lookup"><span data-stu-id="6aa64-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="adcc1-104">En **dirección IPv6 externa,** escriba la dirección IP externa que apunta al servicio perimetral de acceso, al servicio perimetral de conferencia web y al servicio perimetral A/V.</span><span class="sxs-lookup"><span data-stu-id="adcc1-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 
