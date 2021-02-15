@@ -22,27 +22,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826750"
 ---
-# <a name="users-assign-policies"></a><span data-ttu-id="664d8-104">Usuarios: Asignar directivas</span><span class="sxs-lookup"><span data-stu-id="664d8-104">Users: Assign Policies</span></span>
+# <a name="users-assign-policies"></a><span data-ttu-id="f59da-104">Usuarios: Asignar directivas</span><span class="sxs-lookup"><span data-stu-id="f59da-104">Users: Assign Policies</span></span>
 
-<span data-ttu-id="664d8-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="664d8-105">What do you want to do?</span></span> <span data-ttu-id="664d8-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="664d8-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f59da-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="f59da-105">What do you want to do?</span></span> <span data-ttu-id="f59da-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="f59da-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="664d8-107">Asignar una directiva de conferencia para modificar la experiencia de reunión predeterminada de un usuario</span><span class="sxs-lookup"><span data-stu-id="664d8-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="f59da-107">Asignar una directiva de conferencia para modificar la experiencia de reunión predeterminada de un usuario</span><span class="sxs-lookup"><span data-stu-id="f59da-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-- [<span data-ttu-id="664d8-108">Especificar versiones de cliente admitidas para el inicio de sesión por un usuario</span><span class="sxs-lookup"><span data-stu-id="664d8-108">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="f59da-108">Especificar versiones de cliente admitidas para el inicio de sesión por un usuario</span><span class="sxs-lookup"><span data-stu-id="f59da-108">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-- [<span data-ttu-id="664d8-109">Asignar una directiva de PIN por usuario en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="664d8-109">Assign a per-user PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [<span data-ttu-id="f59da-109">Asignar una directiva de PIN por usuario en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="f59da-109">Assign a per-user PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [<span data-ttu-id="664d8-110">Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios</span><span class="sxs-lookup"><span data-stu-id="664d8-110">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="f59da-110">Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios</span><span class="sxs-lookup"><span data-stu-id="f59da-110">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [<span data-ttu-id="664d8-111">Configurar el archivado de las comunicaciones de un usuario</span><span class="sxs-lookup"><span data-stu-id="664d8-111">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="f59da-111">Configurar el archivado de las comunicaciones de un usuario</span><span class="sxs-lookup"><span data-stu-id="f59da-111">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="664d8-112">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="664d8-112">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="f59da-112">Asignar una directiva de ubicación a un usuario</span><span class="sxs-lookup"><span data-stu-id="f59da-112">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [<span data-ttu-id="664d8-113">Configurar telefonía para usuarios</span><span class="sxs-lookup"><span data-stu-id="664d8-113">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [<span data-ttu-id="f59da-113">Configurar telefonía para usuarios</span><span class="sxs-lookup"><span data-stu-id="f59da-113">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
-- [<span data-ttu-id="664d8-114">Asignar una directiva Per-User movilidad</span><span class="sxs-lookup"><span data-stu-id="664d8-114">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+- [<span data-ttu-id="f59da-114">Asignar una directiva Per-User movilidad</span><span class="sxs-lookup"><span data-stu-id="f59da-114">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 
-- [<span data-ttu-id="664d8-115">Asignación de una directiva de chat persistente por usuario</span><span class="sxs-lookup"><span data-stu-id="664d8-115">Assign a Per-User Persistent Chat Policy</span></span>](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+- [<span data-ttu-id="f59da-115">Asignación de una directiva de chat persistente por usuario</span><span class="sxs-lookup"><span data-stu-id="f59da-115">Assign a Per-User Persistent Chat Policy</span></span>](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
 
-<span data-ttu-id="664d8-116">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="664d8-116">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="f59da-116">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="f59da-116">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

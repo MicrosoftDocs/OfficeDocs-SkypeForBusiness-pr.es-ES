@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827320"
 ---
-# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="7d9a1-103">Asistente para la implementación: API de comunicaciones unificadas</span><span class="sxs-lookup"><span data-stu-id="7d9a1-103">Deployment Wizard: Unified Communications API</span></span>
+# <a name="deployment-wizard-unified-communications-api"></a><span data-ttu-id="c779e-103">Asistente para la implementación: API de comunicaciones unificadas</span><span class="sxs-lookup"><span data-stu-id="c779e-103">Deployment Wizard: Unified Communications API</span></span>
  
-<span data-ttu-id="7d9a1-104">Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server 2015, consulte [Instalar Skype Empresarial Server 2015.](../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="7d9a1-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
+<span data-ttu-id="c779e-104">Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype Empresarial Server 2015, consulte [Instalar Skype Empresarial Server 2015.](../../deploy/install/install.md)</span><span class="sxs-lookup"><span data-stu-id="c779e-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install.md).</span></span>
   
 

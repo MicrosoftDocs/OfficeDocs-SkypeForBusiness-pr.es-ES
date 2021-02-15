@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49826820"
 ---
-# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="1433a-104">Filtro para direcciones URL: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="1433a-104">URL Filter: Create New or Edit Existing</span></span>
+# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="84003-104">Filtro para direcciones URL: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="84003-104">URL Filter: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="1433a-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="1433a-105">What do you want to do?</span></span> <span data-ttu-id="1433a-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="1433a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="84003-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="84003-105">What do you want to do?</span></span> <span data-ttu-id="84003-106">Haga clic en el vínculo de la tarea que desee realizar.</span><span class="sxs-lookup"><span data-stu-id="84003-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1433a-107">Modificar el filtro para direcciones URL predeterminado</span><span class="sxs-lookup"><span data-stu-id="1433a-107">Modify the Default URL Filter</span></span>](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [<span data-ttu-id="84003-107">Modificar el filtro para direcciones URL predeterminado</span><span class="sxs-lookup"><span data-stu-id="84003-107">Modify the Default URL Filter</span></span>](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
 
-- [<span data-ttu-id="1433a-108">Crear un filtro nuevo para direcciones URL para administrar hipervínculos en conversaciones de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="1433a-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [<span data-ttu-id="84003-108">Crear un filtro nuevo para direcciones URL para administrar hipervínculos en conversaciones de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="84003-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
 
-<span data-ttu-id="1433a-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="1433a-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="84003-109">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="84003-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

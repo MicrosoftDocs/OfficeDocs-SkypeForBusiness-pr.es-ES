@@ -22,8 +22,8 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49827430"
 ---
-# <a name="certificate-assignment-intro"></a><span data-ttu-id="c32ae-103">Asignación de certificados (introducción)</span><span class="sxs-lookup"><span data-stu-id="c32ae-103">Certificate Assignment (Intro)</span></span>
+# <a name="certificate-assignment-intro"></a><span data-ttu-id="ede13-103">Asignación de certificados (introducción)</span><span class="sxs-lookup"><span data-stu-id="ede13-103">Certificate Assignment (Intro)</span></span>
  
-<span data-ttu-id="c32ae-104">Para empezar a asignar un certificado para su uso en Skype Empresarial Server, haga clic **en Siguiente.**</span><span class="sxs-lookup"><span data-stu-id="c32ae-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
+<span data-ttu-id="ede13-104">Para empezar a asignar un certificado para su uso en Skype Empresarial Server, haga clic **en Siguiente.**</span><span class="sxs-lookup"><span data-stu-id="ede13-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
   
 

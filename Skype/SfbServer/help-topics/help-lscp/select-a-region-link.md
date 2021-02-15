@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829210"
 ---
-# <a name="select-a-region-link"></a><span data-ttu-id="b8c13-104">Seleccionar un vínculo de región</span><span class="sxs-lookup"><span data-stu-id="b8c13-104">Select a Region Link</span></span>
+# <a name="select-a-region-link"></a><span data-ttu-id="a499f-104">Seleccionar un vínculo de región</span><span class="sxs-lookup"><span data-stu-id="a499f-104">Select a Region Link</span></span>
  
-<span data-ttu-id="b8c13-105">Use el **cuadro de diálogo Vínculo** de región para buscar vínculos de región disponibles en su entorno.</span><span class="sxs-lookup"><span data-stu-id="b8c13-105">Use the **Region Link** dialog box to find region links available in your environment.</span></span> <span data-ttu-id="b8c13-106">Para usar un vínculo de región existente, haga clic en un vínculo de región de la lista y, a continuación, haga clic en **Aceptar.**</span><span class="sxs-lookup"><span data-stu-id="b8c13-106">To use an existing region link, click a region link in the list and then click **OK**.</span></span>
+<span data-ttu-id="a499f-105">Use el **cuadro de diálogo Vínculo** de región para buscar vínculos de región disponibles en su entorno.</span><span class="sxs-lookup"><span data-stu-id="a499f-105">Use the **Region Link** dialog box to find region links available in your environment.</span></span> <span data-ttu-id="a499f-106">Para usar un vínculo de región existente, haga clic en un vínculo de región de la lista y, a continuación, haga clic en **Aceptar.**</span><span class="sxs-lookup"><span data-stu-id="a499f-106">To use an existing region link, click a region link in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b8c13-107">Para recuperar todos los vínculos de región disponibles, no escriba nada en el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b8c13-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="a499f-107">Para recuperar todos los vínculos de región disponibles, no escriba nada en el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="a499f-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
   
-<span data-ttu-id="b8c13-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="b8c13-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="a499f-108">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="a499f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

@@ -22,13 +22,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49829090"
 ---
-# <a name="select-pstn-usage-record"></a><span data-ttu-id="b5246-103">Seleccionar registro de uso de RTC</span><span class="sxs-lookup"><span data-stu-id="b5246-103">Select PSTN Usage Record</span></span>
+# <a name="select-pstn-usage-record"></a><span data-ttu-id="59251-103">Seleccionar registro de uso de RTC</span><span class="sxs-lookup"><span data-stu-id="59251-103">Select PSTN Usage Record</span></span>
  
-<span data-ttu-id="b5246-104">Use el cuadro de diálogo **Seleccionar registro de uso de RTC** para buscar un registro de red telefónica conmutada pública (RTC) existente que pueda usar.</span><span class="sxs-lookup"><span data-stu-id="b5246-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
+<span data-ttu-id="59251-104">Use el cuadro de diálogo **Seleccionar registro de uso de RTC** para buscar un registro de red telefónica conmutada pública (RTC) existente que pueda usar.</span><span class="sxs-lookup"><span data-stu-id="59251-104">Use the **Select PSTN Usage Record** dialog box to find an existing public switched telephone network (PSTN) usage record that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b5246-105">Para recuperar todos los registros de uso de RTC disponibles, deje vacío el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b5246-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="59251-105">Para recuperar todos los registros de uso de RTC disponibles, deje vacío el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="59251-105">To retrieve all available PSTN usage records, do not type anything in the search box, and then click the search icon.</span></span> 
   
-<span data-ttu-id="b5246-106">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="b5246-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="59251-106">Para obtener más información sobre los distintos procedimientos que puede realizar con el Panel de control de Skype Empresarial Server, consulte Administrar Skype Empresarial [Server 2015.](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="59251-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
